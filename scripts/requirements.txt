@@ -1,0 +1,7 @@
+# Placeholder — scripts Python serão criados na Fase 1
+# Ver docs/prompts.md#i2
+
+requests>=2.31.0
+pymupdf>=1.24.0
+pymupdf4llm>=0.0.17
+pdfplumber>=0.11.0

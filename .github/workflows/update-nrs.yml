@@ -1,0 +1,39 @@
+name: atualizar-nrs
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      # Scripts serão implementados na Fase 1 (prompt I2 / I7)
+      - name: Update NRs
+        run: |
+          echo "TODO Fase 3: python scripts/update_nrs.py"
+          echo "TODO Fase 3: python scripts/convert_nr.py --all"
+          echo "TODO Fase 3: python scripts/build_manifest.py"
+          echo "TODO Fase 4: python scripts/push_nr_updates.py"
+
+      # - name: Commit changes
+      #   run: |
+      #     git config user.name github-actions
+      #     git config user.email actions@github.com
+      #     git add content/ manifest.json
+      #     git commit -m "chore: atualiza NRs" || exit 0
+      #     git push
+
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

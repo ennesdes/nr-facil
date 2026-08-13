@@ -1,0 +1,47 @@
+# FVM
+.fvm/flutter_sdk
+.fvm/versions
+
+# Flutter
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.pub-cache/
+app/.pub/
+app/pubspec.lock
+
+# Android
+app/android/.gradle/
+app/android/local.properties
+app/android/**/GeneratedPluginRegistrant.java
+app/android/key.properties
+app/android/app/*.jks
+app/android/app/*.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/launch.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Secrets
+*.jks
+*.keystore
+key.properties
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Quality reports locais (opcional manter no repo)
+# content/**/quality_report.json
