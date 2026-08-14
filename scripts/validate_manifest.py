@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "manifest.json"
 
 REQUIRED_TOP = {"generated_at", "version", "nrs"}
-REQUIRED_NR = {"id", "title", "hash", "url"}
+REQUIRED_NR = {"id", "title", "version", "hash", "pdf_hash", "updated_at", "portaria", "publicado_em", "vigente_desde", "url", "reviewed"}
 
 
 def validate(manifest_path: Path) -> list[str]:

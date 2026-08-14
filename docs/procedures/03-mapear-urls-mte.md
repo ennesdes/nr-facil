@@ -20,7 +20,7 @@ A lista de NRs, links de PDF/página e status de revogação é **gerada automat
 ### 1. Rodar o scraper
 
 ```bash
-python scripts/discover_nrs.py
+python3 scripts/discover_nrs.py
 ```
 
 Gera/atualiza `nr_index.json` na raiz do repo.

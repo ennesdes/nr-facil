@@ -1,0 +1,12 @@
+# Content pipeline — extração, normalização, índices, publicação
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pymupdf>=1.24.0
+pymupdf4llm>=0.0.17
+pdfplumber>=0.11.0
+
+# Supabase (Fase 4)
+supabase>=2.0.0
+
+# Utilitários
+python-dotenv>=1.0.0

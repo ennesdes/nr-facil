@@ -1,6 +1,10 @@
-# Scripts — cola rápida
+# Scripts — Pipeline de conteúdo
 
-Comandos para rodar **você** no terminal (zero tokens de IA).
+Ferramentas Python para scraping, conversão e indexação de NRs. Cada script pode rodar standalone ou ser chamado pela GitHub Action.
+
+**Princípio:** Nunca reescrever conteúdo normativo — só extrair, estruturar e exibir melhor.
+
+---
 
 ## Setup (1x)
 
@@ -9,52 +13,382 @@ chmod +x scripts/setup.sh scripts/check.sh
 ./scripts/setup.sh
 ```
 
-## Dia a dia
+Instala FVM, Flutter pub, Python venv e `requirements.txt`.
+
+---
+
+## Dados — merge nr_index.json + nr_sources.json
+
+A lista de NRs vem **dinamicamente** de `nr_index.json` (gerado por `discover_nrs.py`), não é fixa.
+`nr_sources.json` serve só para **overrides pontuais** — quando o scraping falha para uma NR específica.
+
+**Ordem de precedência:**
+1. `nr_sources.json[nr_id]` (override manual, tem prioridade)
+2. `nr_index.json[nr_id]` (scraping automático, base)
+3. fallback vazio
+
+Implementado em `scripts/_common.py` (`merge_nr_data()`, `list_all_nrs()`).
+
+---
+
+## Scripts
+
+### 1. `discover_nrs.py` — Descoberta de NRs
+
+Faz scraping da página-índice do gov.br, extrai lista de NRs, URLs de PDF/página, status de revogação.
+
+**Responsabilidades:**
+- Descobre NRs novas automaticamente
+- Marca NRs revogadas (quando o site deixar explícito)
+- Mapeia NR sucessora via `substitui_por` (quando o gov.br indicar)
+
+**Uso:**
 
 ```bash
-./scripts/check.sh                 # analyze + test + manifest
-fvm flutter run                    # na pasta app/ ou: cd app && fvm flutter run
-fvm flutter doctor -v
+python3 scripts/discover_nrs.py              # scraping completo → scripts/nr_index.json
+python3 scripts/discover_nrs.py --dry-run    # simula sem gravar
+python3 scripts/discover_nrs.py --verbose    # logging DEBUG
+python3 scripts/discover_nrs.py --help       # ajuda
 ```
 
-## Conteúdo (Fase 1+)
+**Output:**
+- `scripts/nr_index.json` (gerado) — por NR: `id`, `title`, `pdf_url`, `page_url`, `revogada` (bool), `substitui_por` (id ou null)
+
+**Falha defensiva:**
+Se o layout do gov.br mudar (seletores HTML não encontrados), o script lança exceção — isso falha a Action, alertando que precisa atualizar os seletores. Usa fallback `FIXTURE_NRS` para testes sem rede.
+
+---
+
+### 2. `scrape_vigencia.py` — Metadados de vigência
+
+Scraping da página HTML de cada NR (não do PDF) → extrai metadados que descrevem quando entrou em vigor.
+
+**Responsabilidades:**
+- `publicado_em` — data de publicação oficial (ex.: 2018-04-12)
+- `vigente_desde` — quando passou a vigorar (ex.: 2018-06-10)
+- `portaria` — ato normativo (ex.: Portaria MTE nº 509/2018)
+- `ultima_alteracao` — última alteração conhecida
+
+Estes metadados enriquecem `content/nr-XX/meta.json` (preenchido durante conversão).
+
+**Uso:**
 
 ```bash
-source .venv/bin/activate          # se usar venv
-python scripts/convert_nr.py --nr nr-06
-python scripts/convert_nr.py --all
-python scripts/convert_nr.py --nr nr-06 --dry-run
-python scripts/build_manifest.py
-python scripts/validate_manifest.py
+python3 scripts/scrape_vigencia.py --nr nr-06           # uma NR
+python3 scripts/scrape_vigencia.py --all                # todas (de nr_index.json)
+python3 scripts/scrape_vigencia.py --all --dry-run      # simula
+python3 scripts/scrape_vigencia.py --help               # ajuda
 ```
 
-## Git
+**Output:**
+- `content/nr-XX/meta.json` (atualiza) — adiciona `publicado_em`, `vigente_desde`, `portaria`, `ultima_alteracao`
+
+**Isolamento de erro:**
+Falha numa NR (scraping HTML fora do padrão) não interrompe as demais. Registra erro, segue. Exit code != 0 ao final se houver erros.
+
+---
+
+### 3. `convert_nr.py` — Conversão PDF → Markdown
+
+Converte PDF oficial em Markdown + assets (tabelas em HTML, páginas em PNG).
+
+**3 passes SEMPRE executados (sem classificação de complexidade prévia):**
+
+1. **Pass texto** — `pymupdf4llm` → corpo normativo em Markdown
+2. **Pass tabelas** — `pdfplumber` → HTML em `content/nr-XX/assets/tables/page_*_table_*.html`
+3. **Pass imagens/diagramas** — render de página com `pymupdf` → PNG em `content/nr-XX/assets/pages/page-*.png`
+
+Depois faz merge dos 3 passes num `.md` único, normaliza, salva PDF original + calcula `pdf_hash` (SHA-256).
+
+**Uso:**
 
 ```bash
-git status && git diff --stat
-git add . && git commit -m "feat: descrição"
-git push
+python3 scripts/convert_nr.py --nr nr-06           # uma NR
+python3 scripts/convert_nr.py --all                # todas (de nr_index.json)
+python3 scripts/convert_nr.py --nr nr-06 --dry-run # simula
+python3 scripts/convert_nr.py --help               # ajuda
 ```
 
-## FVM
+**Output:**
+- `content/nr-XX/nr-XX.md` — Markdown normalizado (headings `17.1`, sem artefatos PDF)
+- `content/nr-XX/nr-XX.pdf` — PDF original (arquivo de referência + prova de fidelidade)
+- `content/nr-XX/meta.json` — adiciona `pdf_hash`
+- `content/nr-XX/assets/tables/*.html` — tabelas
+- `content/nr-XX/assets/pages/page-*.png` — páginas renderizadas
+
+**Isolamento de erro:**
+Falha numa NR (PDF corrompido, scraping quebrado) não interrompe as demais. Exit code != 0 ao final se houver erros.
+
+---
+
+### 4. `normalize_md.py` — Normalização de Markdown
+
+Remove artefatos de PDF (cabeçalhos/rodapés repetidos, hifenização quebrada), normaliza headings.
+
+Pode rodar standalone ou ser importado por `convert_nr.py`.
+
+**Uso:**
 
 ```bash
+python3 scripts/normalize_md.py --nr nr-06           # normaliza content/nr-06/nr-06.md
+python3 scripts/normalize_md.py --all                # todas
+python3 scripts/normalize_md.py --nr nr-06 --dry-run # simula
+python3 scripts/normalize_md.py --help               # ajuda
+```
+
+**Transformações:**
+- Remove sequências de linhas em branco excessivas
+- Corrige hifenização (linha termina em hífen → une à próxima)
+- Normaliza headings
+- Remove cabeçalho/rodapé repetido
+
+**Output:**
+- Modifica `content/nr-XX/nr-XX.md` no lugar
+
+---
+
+### 5. `build_index.py` — Construção de índices
+
+Gera índices de navegação e busca a partir do `.md` normalizado.
+
+**Output:**
+
+- **`content/nr-XX/index.json`** — estrutura de headings para navegação (sidebar do leitor)
+  ```json
+  {
+    "headings": [
+      {"level": 2, "text": "Artigo 17", "id": "artigo-17"},
+      {"level": 3, "text": "Seção 17.1", "id": "secao-17-1"}
+    ]
+  }
+  ```
+
+- **`content/nr-XX/search_index.json`** — chunks de ~250 chars para busca full-text
+  ```json
+  [
+    {"id": "chunk-0", "text": "...", "heading": "Artigo 17", "char_offset": 1234},
+    ...
+  ]
+  ```
+
+**Uso:**
+
+```bash
+python3 scripts/build_index.py --nr nr-06           # uma NR
+python3 scripts/build_index.py --all                # todas
+python3 scripts/build_index.py --nr nr-06 --dry-run # simula
+python3 scripts/build_index.py --help               # ajuda
+```
+
+---
+
+### 6. `build_manifest.py` — Geração do manifest remoto
+
+Agrega dados de `content/nr-XX/meta.json`, `nr_index.json`, e arquivo `.md`
+para criar `manifest.json` na raiz do repo (índice central de todas as NRs).
+
+**Output:**
+- **`manifest.json`** (raiz do repo) — índice remoto
+  ```json
+  {
+    "generated_at": "2026-08-13T12:00:00Z",
+    "version": 1,
+    "nrs": [
+      {
+        "id": "nr-06",
+        "title": "EPI",
+        "version": "2026-01-17",
+        "hash": "abc123...",
+        "pdf_hash": "def456...",
+        "updated_at": "2026-01-17T00:00:00Z",
+        "portaria": "Portaria MTE nº 57/2025",
+        "publicado_em": "2018-04-12",
+        "vigente_desde": "2026-01-17",
+        "url": "https://raw.githubusercontent.com/USER/nr-facil/main/content/nr-06/nr-06.md",
+        "reviewed": false
+      }
+    ]
+  }
+  ```
+
+**Uso:**
+
+```bash
+python3 scripts/build_manifest.py              # gera manifest.json
+python3 scripts/build_manifest.py --dry-run    # simula
+python3 scripts/build_manifest.py --help       # ajuda
+```
+
+Extrai automaticamente `owner/repo/branch` do git remote origin. O campo `url` aponta para raw do GitHub.
+
+---
+
+### 7. `update_nrs.py` — Detecção de mudanças
+
+Para cada NR:
+1. Baixa PDF (usando `pdf_url` de `nr_index.json` + overrides de `nr_sources.json`)
+2. Calcula SHA-256
+3. Compara com `pdf_hash` anterior (em `content/nr-XX/meta.json`)
+4. Se mudou, dispara `convert_nr.py`
+
+**Uso:**
+
+```bash
+python3 scripts/update_nrs.py              # processa todas
+python3 scripts/update_nrs.py --dry-run    # simula
+python3 scripts/update_nrs.py --help       # ajuda
+```
+
+**Isolamento de erro:**
+Falha numa NR não interrompe as demais. Exit code != 0 ao final se houver erros.
+
+---
+
+### 8. `validate_manifest.py` — Validação do schema
+
+Valida `manifest.json` contra schema esperado (campos obrigatórios, tipos, URLs bem formadas).
+
+Usado por `scripts/check.sh` e CI — funciona graciosamente no-op se `manifest.json` ainda não existir (Fase 0).
+
+**Uso:**
+
+```bash
+python3 scripts/validate_manifest.py                   # valida manifest.json
+python3 scripts/validate_manifest.py --path=meu.json   # arquivo custom
+python3 scripts/validate_manifest.py --help            # ajuda
+```
+
+**Campos obrigatórios por NR:**
+- `id`, `title`, `version`, `hash`, `pdf_hash`, `updated_at`
+- `portaria`, `publicado_em`, `vigente_desde`
+- `url`, `reviewed`
+
+---
+
+### 9. `push_nr_updates.py` — Publicação em Supabase
+
+**⚠️ AVISO:** Só deve rodar na GitHub Action com credencial `service_role`. Nunca chame localmente.
+
+Lê `manifest.json`, compara com última entrada em `nr_updates` do Supabase,
+gera summary sem IA (ex.: "Atualizado em [data]"), e insere nova linha por NR que mudou.
+
+**Uso:**
+
+```bash
+python3 scripts/push_nr_updates.py --supabase-url=https://... --service-key=... 
+python3 scripts/push_nr_updates.py --dry-run    # simula
+python3 scripts/push_nr_updates.py --help       # ajuda
+```
+
+**Environment vars (na Action):**
+- `SUPABASE_URL`
+- `SUPABASE_SERVICE_ROLE_KEY`
+
+---
+
+## `_common.py` — Utilitários compartilhados
+
+Funções reutilizáveis por vários scripts:
+- `merge_nr_data(nr_id)` — merge de `nr_index.json` + `nr_sources.json`
+- `list_all_nrs()` — lista de IDs conhecidas
+- `ensure_content_dir(nr_id)` — cria e retorna `content/nr-XX/`
+- `ensure_assets_dir(nr_id, asset_type)` — cria e retorna `content/nr-XX/assets/{type}/`
+- `setup_logging(verbose)` — configura logging com DEBUG/INFO
+
+---
+
+## Fluxo: GitHub Action `update-nrs.yml` (Fase 3)
+
+Execução automática, diária (configurável):
+
+```
+discover_nrs.py                (scraping → nr_index.json)
+    ↓
+update_nrs.py                  (detecção de mudanças)
+    ↓
+scrape_vigencia.py --all       (metadados de vigência)
+    ├→ convert_nr.py --all     (se pdf_hash mudou)
+    ├→ normalize_md.py --all
+    └→ build_index.py --all
+    ├→ build_manifest.py
+    └→ validate_manifest.py
+    ↓
+push_nr_updates.py             (Supabase nr_updates)
+    ↓
+git commit + push              (GitHub: content/ + manifest.json)
+```
+
+---
+
+## Dia a dia (CLI)
+
+```bash
+# Dev: testar um script localmente
+python3 scripts/convert_nr.py --nr nr-06 --dry-run
+python3 scripts/build_index.py --all
+python3 scripts/validate_manifest.py
+
+# Checar tudo (é o que `scripts/check.sh` roda)
+fvm flutter analyze --fatal-infos
+fvm flutter test
+python3 scripts/validate_manifest.py
+
+# FVM
 fvm install
 fvm use
 fvm flutter pub get
-fvm flutter build appbundle
+fvm flutter run
 ```
 
-## Scripts planejados (criar na Fase 1)
+---
 
-| Script | Função |
-|--------|--------|
-| `convert_nr.py` | PDF → MD + assets (pymupdf4llm) |
-| `build_manifest.py` | Gera `manifest.json` na raiz |
-| `build_index.py` | Gera `index.json` + `search_index.json` |
-| `validate_manifest.py` | Valida schema JSON |
-| `update_nrs.py` | Download PDFs MTE + hash |
-| `push_nr_updates.py` | INSERT no Supabase (Action) |
+## Isolamento de erro por NR (regra crítica)
+
+Em qualquer script que itera sobre múltiplas NRs (`--all` ou `update_nrs.py`):
+
+```python
+errors: list[tuple[str, str]] = []
+
+for nr_id in nrs_to_process:
+    try:
+        # processar
+    except Exception as e:
+        errors.append((nr_id, str(e)))
+        continue  # não interrompe
+
+# Ao final
+if errors:
+    logger.error(f"Erros em {len(errors)} NR(s)")
+    return 1  # Action falha, mas com sucesso parcial
+```
+
+**Resultado:** Action sempre processa todas as NRs que conseguir (mesmo com falhas);
+commit inclui sucessos; erros são registrados no log; exit code != 0 notifica falha.
+
+---
+
+## Sem rede / testes
+
+Todos os scripts com `--dry-run` funcionam sem rede ou API real:
+- `discover_nrs.py` usa `FIXTURE_NRS` como fallback
+- `scrape_vigencia.py` usa `FIXTURE_META`
+- `convert_nr.py` simula os 3 passes sem chamar PDF real
+- Outros usam dados em memória
+
+Ideal para CI ou desenvolvimento offline.
+
+---
+
+## Nunca
+
+- ❌ Reescrever conteúdo normativo (só extrair/estruturar)
+- ❌ Classificar NRs por complexidade (A–D) — todas passam pelos 3 passes
+- ❌ Pular um dos 3 passes
+- ❌ Chamar `push_nr_updates.py` fora da Action
+- ❌ Deixar loop da Action parar por erro numa NR — continua as demais
+- ❌ Esquecer `--dry-run` e `--help` em novo script
+
+---
 
 ## Quando pedir IA
 

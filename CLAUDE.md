@@ -49,9 +49,9 @@ fvm flutter build appbundle
 Content pipeline (Fase 1+, scripts not yet implemented — see `scripts/README.md` for the planned list: `convert_nr.py`, `build_manifest.py`, `build_index.py`, `update_nrs.py`, `push_nr_updates.py`):
 ```bash
 source .venv/bin/activate
-python scripts/convert_nr.py --nr nr-06
-python scripts/convert_nr.py --all
-python scripts/validate_manifest.py
+python3 scripts/convert_nr.py --nr nr-06
+python3 scripts/convert_nr.py --all
+python3 scripts/validate_manifest.py
 ```
 
 `scripts/check.sh` and CI (`.github/workflows/ci.yml`) both no-op gracefully around missing pieces (`app/pubspec.yaml`, `manifest.json`) during early phases — don't "fix" that guarding logic, it's intentional for a repo that grows in phases.
