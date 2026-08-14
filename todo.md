@@ -14,7 +14,7 @@
 
 - [x] 01 Configurar FVM → [docs/procedures/01-configurar-fvm.md](docs/procedures/01-configurar-fvm.md)
 - [x] 02 Criar estrutura monorepo + `.gitignore` → [docs/prompts.md#i0](docs/prompts.md#i0)
-- [ ] 03 Projeto Flutter em `app/` → [docs/prompts.md#i1](docs/prompts.md#i1)
+- [x] 03 Projeto Flutter em `app/` → [docs/prompts.md#i1](docs/prompts.md#i1)
 - [x] 04 Conta Google Play Console → [docs/procedures/02-conta-play-console.md](docs/procedures/02-conta-play-console.md)
 - [ ] 05 Mapear URLs MTE (5 NRs) → [docs/procedures/03-mapear-urls-mte.md](docs/procedures/03-mapear-urls-mte.md)
 - [ ] 06 Rodar `./scripts/setup.sh` e `fvm flutter doctor` sem erros
