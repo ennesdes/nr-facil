@@ -1,87 +1,58 @@
-# Procedure 03 — Mapear URLs MTE
+# Procedure 03 — Validar descoberta de URLs no MTE
 
 ## Objetivo
 
-Coletar links oficiais dos PDFs das NRs no portal do MTE para `scripts/nr_sources.json`.
+A lista de NRs, links de PDF/página e status de revogação é **gerada automaticamente** por `discover_nrs.py` (scraping da página-índice do gov.br) — não é mais mapeada à mão. Este procedure é sobre **validar manualmente**, para as primeiras NRs do MVP, que o scraper está pegando os links certos, antes de confiar nele para todas as NRs.
 
 ## Pré-requisitos
 
 - Navegador com internet
-- Arquivo `scripts/nr_sources.json` no projeto
+- `discover_nrs.py` implementado (item 08 do `todo.md`) e rodado ao menos uma vez, gerando `nr_index.json`
 
 ## Importante
 
-- **Não existe API** do MTE — só links públicos para PDF
-- URLs **não seguem padrão fixo** — cada NR tem link próprio
-- Use sempre o PDF **vigente** (não versão futura nem revogada)
+- **Não existe API** do MTE — o scraper depende da estrutura HTML da página-índice, que pode mudar
+- Se `discover_nrs.py` não achar um link/campo esperado para uma NR, ele deve lançar erro isolado por NR (ver `docs/architecture.md`) — a NR fica sem `pdf_url`/`page_url` até alguém corrigir
+- Correção de exceção pontual: adicionar override em `scripts/nr_sources.json` (ver comentário `_comment` no arquivo)
 
 ## Passo a passo
 
-### 1. Abrir página oficial
+### 1. Rodar o scraper
 
-Acesse:  
-https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes
+```bash
+python scripts/discover_nrs.py
+```
 
-### 2. Para cada NR do MVP (comece com 5)
+Gera/atualiza `nr_index.json` na raiz do repo.
+
+### 2. Validar as 5 NRs prioritárias do MVP
 
 Prioridade inicial: **NR-01, NR-06, NR-10, NR-17, NR-18**
 
-1. Clique na NR na lista (ex.: NR-6 — EPI)
-2. Na página da NR, localize o link do **PDF vigente**
-3. Clique com botão direito no PDF → **Copiar endereço do link**
-4. Cole no `scripts/nr_sources.json`
+Para cada uma:
 
-### 3. Formato do JSON
+1. Abra a URL gerada em `nr_index.json` (`pdf_url` e `page_url`) no navegador
+2. Confirme que `pdf_url` abre/baixa um PDF válido (não página de erro)
+3. Confirme que é a versão **vigente** (não futura, não revogada)
+4. Compare `page_url` com a página real da NR no gov.br
 
-Edite `scripts/nr_sources.json`:
+### 3. Se algo estiver errado
 
-```json
-{
-  "nr-01": {
-    "title": "Disposições Gerais e GRO",
-    "pdf_url": "https://www.gov.br/trabalho-e-emprego/.../arquivo.pdf",
-    "revogada": false
-  },
-  "nr-06": {
-    "title": "Equipamento de Proteção Individual - EPI",
-    "pdf_url": "https://www.gov.br/trabalho-e-emprego/.../nr-06-atualizada-2025.pdf",
-    "revogada": false
-  }
-}
-```
+- Link 404 ou apontando pra NR errada → provável mudança de estrutura no site; ajustar seletor em `discover_nrs.py`, não só a URL
+- Exceção pontual que não vale ajustar o scraper geral (ex. uma NR com página fora do padrão) → adicionar override em `scripts/nr_sources.json`
 
 ### 4. NRs revogadas
 
-NR-2 e NR-27 estão revogadas. Se incluir, marque:
-
-```json
-"nr-02": {
-  "title": "Inspeção Prévia",
-  "revogada": true
-}
-```
-
-Sem `pdf_url` — o pipeline não baixa.
-
-### 5. Múltiplas versões (ex.: NR-01)
-
-Se a página mostrar duas versões (vigente hoje vs. futura):
-
-- Use o PDF **vigente hoje**
-- Opcional: campo `"vigente_ate": "2026-05-25"` para lembrete
-
-### 6. Validar link
-
-Abra o URL no navegador — deve baixar/abrir um PDF, não página HTML de erro.
+`nr_index.json` já marca `revogada: true` automaticamente. Confirme visualmente na página-índice do gov.br que a marcação bate (hoje: NR-2, NR-27).
 
 ## Troubleshooting
 
 | Problema | Solução |
 |----------|---------|
-| Link 404 | A página da NR mudou; busque PDF na página índice novamente |
-| Dois PDFs na mesma página | Escolha o marcado como vigente |
-| PDF abre no navegador sem URL clara | Use "Copiar link" no botão de download, não o viewer |
+| `discover_nrs.py` falha pra uma NR específica | Adicionar override em `scripts/nr_sources.json`, não editar `nr_index.json` à mão (é gerado) |
+| Página-índice mudou de estrutura inteira | Ajustar seletores em `discover_nrs.py`; a Action já vai ter falhado avisando isso |
+| PDF abre no navegador sem URL clara | Ajustar o seletor de link no scraper para pegar o link de download, não o viewer |
 
 ## Próximo passo
 
-→ Item 08 do [todo.md](../../todo.md) — rodar `python scripts/convert_nr.py --nr nr-06`
+→ Item 09 do [todo.md](../../todo.md) — converter NR-01, NR-06, NR-17

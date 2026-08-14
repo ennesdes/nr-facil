@@ -1,6 +1,4 @@
 # FVM
-.fvm/flutter_sdk
-.fvm/versions
 
 # Flutter
 app/.dart_tool/
@@ -45,3 +43,6 @@ Thumbs.db
 
 # Quality reports locais (opcional manter no repo)
 # content/**/quality_report.json
+
+# FVM Version Cache
+.fvm/

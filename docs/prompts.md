@@ -83,14 +83,18 @@ Use fvm flutter create. Não implementar features ainda.
 Fase 1, item 08 do @todo.md
 
 Crie em scripts/:
-- convert_nr.py (pymupdf4llm + fallback pdfplumber + page PNG)
+- discover_nrs.py (scraping da página-índice gov.br → nr_index.json: pdf_url, page_url, revogada, substitui_por, por NR)
+- scrape_vigencia.py (scraping da página HTML de cada NR → publicado_em, vigente_desde, portaria, ultima_alteracao)
+- convert_nr.py (3 passes sempre executados: pymupdf4llm texto + pdfplumber tabelas + page PNG imagens, depois merge — sem classificação de complexidade)
 - normalize_md.py (headings NR, artefatos PDF)
 - build_manifest.py
 - build_index.py (index.json + search_index.json)
 - validate_manifest.py
-- update_nrs.py (download MTE + hash SHA-256)
+- update_nrs.py (download PDF + hash SHA-256, por NR)
 
-Leia scripts/nr_sources.json e @docs/architecture.md.
+Merge de fonte: nr_index.json (gerado, dinâmico) com overrides de scripts/nr_sources.json por cima.
+Isolamento de erro por NR: falha numa NR não bloqueia as demais; loga e segue; falha a Action só no final se alguma NR deu erro.
+Leia @docs/architecture.md.
 Cada script com --help e --dry-run. Atualize scripts/README.md.
 ```
 
@@ -181,22 +185,31 @@ Use skill supabase:
 - Nunca commitar .env
 ```
 
-### I9 — AdMob + IAP (Fase 5, item 33)
+### I9 — AdMob (Fase 5, item 33)
 
 ```
 Fase 5, item 33 do @todo.md
 
 - google_mobile_ads: banner só em Favoritos, Todos e Busca
 - NUNCA no leitor
-- in_app_purchase: remove_ads_lifetime
-- Flag local + restorePurchases no startup
 - IDs de teste em debug
 ```
 
-### I10 — Build release (Fase 5, item 36)
+### I9b — IAP remove_ads_lifetime (Fase 6, item 40)
 
 ```
-Fase 5, item 36 do @todo.md
+Fase 6, item 40 do @todo.md
+
+- in_app_purchase: remove_ads_lifetime
+- Flag local + restorePurchases no startup
+- Esconder ads quando flag ativa
+- IDs de teste em debug
+```
+
+### I10 — Build release (Fase 5, item 35)
+
+```
+Fase 5, item 35 do @todo.md
 
 Configure signing release em app/android/
 - Ler key.properties (gitignored)
@@ -247,7 +260,7 @@ flutter test falhou: [erro]
 ## Manutenção
 
 ```
-Adicione NR-XX ao scripts/nr_sources.json e converta com convert_nr.py
+Rode discover_nrs.py para pegar a NR-XX nova automaticamente; se o scraper não achar, adicione override em scripts/nr_sources.json e converta com convert_nr.py
 ```
 
 ```

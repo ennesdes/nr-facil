@@ -1,40 +1,8 @@
 {
-  "nr-01": {
-    "title": "Disposições Gerais e Gerenciamento de Riscos Ocupacionais",
-    "pdf_url": "",
-    "complexity": "B",
-    "revogada": false
-  },
-  "nr-06": {
-    "title": "Equipamento de Proteção Individual - EPI",
-    "pdf_url": "",
-    "complexity": "B",
-    "revogada": false
-  },
-  "nr-10": {
-    "title": "Segurança em Instalações e Serviços em Eletricidade",
-    "pdf_url": "",
-    "complexity": "B",
-    "revogada": false
-  },
-  "nr-17": {
-    "title": "Ergonomia",
-    "pdf_url": "",
-    "complexity": "B",
-    "revogada": false
-  },
-  "nr-18": {
-    "title": "Segurança e Saúde no Trabalho na Indústria da Construção",
-    "pdf_url": "",
-    "complexity": "C",
-    "revogada": false
-  },
-  "nr-02": {
-    "title": "Inspeção Prévia",
-    "revogada": true
-  },
-  "nr-27": {
-    "title": "Registro Profissional do Técnico de Segurança do Trabalho",
-    "revogada": true
+  "_comment": "Overrides manuais pontuais — só quando o scraping automático (discover_nrs.py / scrape_vigencia.py) falha para uma NR específica ou precisa de valor forçado. A lista mestra de NRs, links e status de revogação vem de nr_index.json (gerado).",
+  "_exemplo": {
+    "title": "Título só se precisar sobrescrever o extraído do site",
+    "pdf_url": "URL manual só se discover_nrs.py não achar o link padrão para esta NR",
+    "page_url": "URL manual da página HTML, mesmo motivo"
   }
 }

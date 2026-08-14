@@ -64,7 +64,7 @@ Three layers: extraction (`pymupdf4llm`, plus the original PDF saved + SHA-256 `
 
 Tables/images use a 3-level fallback: `pymupdf4llm` → `pdfplumber` (complex tables, saved as HTML in `assets/tables/`) → full-page PNG render (`assets/pages/page-XX.png`) for diagrams pymupdf4llm can't handle.
 
-Each NR's curated source metadata (title, PDF URL, complexity class A–D, `revogada` flag for repealed NRs) lives in `scripts/nr_sources.json`.
+The list of NRs, PDF/page URLs, and `revogada` status is generated dynamically by `discover_nrs.py` scraping the gov.br index page into `nr_index.json` — not hand-maintained. `scripts/nr_sources.json` only holds manual overrides for when scraping fails for a specific NR. There is no complexity classification (A–D) — every NR goes through the same uniform 3-pass extraction (text/tables/images) regardless of expected difficulty.
 
 ## Supabase
 

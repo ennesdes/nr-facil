@@ -11,7 +11,7 @@ Referência consolidada. Checklist de execução: [todo.md](../todo.md).
 | Plataforma MVP | Android only |
 | Fonte da verdade | **GitHub** (MD, PDF, manifest, histórico git) |
 | Supabase | Metadados leves apenas — **R$ 0** free tier |
-| Monetização | AdMob + IAP `remove_ads_lifetime` R$ 9,90 |
+| Monetização | AdMob (lançamento); IAP `remove_ads_lifetime` R$ 9,90 (Fase 6, pós-lançamento) |
 | Navegação | Abas **Favoritos** \| **Todos** |
 
 ## Fluxo de dados
@@ -56,9 +56,15 @@ nr-facil/
 ## Acesso ao MTE
 
 - Sem API oficial; URLs de PDF não padronizadas
-- Lista curada: `scripts/nr_sources.json`
-- Detecção de mudança: hash SHA-256 do PDF
-- NRs revogadas: NR-2, NR-27 (`revogada: true`)
+- Lista de NRs **dinâmica**, não manual: `discover_nrs.py` faz scraping da página-índice do gov.br e gera `nr_index.json` (gerado, como o `manifest.json`) com, por NR: `pdf_url`, `page_url`, `revogada`, `substitui_por` (NR sucessora, quando o site deixar explícito)
+  - Isso cobre inclusão automática de NRs novas e marcação automática de revogações — não depende de alguém lembrar de atualizar uma lista fixa
+- `scripts/nr_sources.json` vira **só overrides manuais pontuais** — não é mais a lista mestra. Só tem entrada ali quando o scraping falha para uma NR específica (URL fora do padrão, página com layout diferente) ou quando é preciso forçar um valor. O pipeline faz merge: `nr_index.json` (dinâmico) com overrides de `nr_sources.json` por cima.
+- Detecção de mudança: híbrida
+  - `pdf_hash` (SHA-256 do PDF) segue sendo a fonte de verdade do **texto** normativo — nunca gerado a partir do site
+  - metadados de vigência (`publicado_em`, `vigente_desde`, `portaria`, `ultima_alteracao`) vêm do **scraping da página HTML** (`scrape_vigencia.py`), que é mais confiável que inferir isso do PDF
+  - update real de conteúdo = `pdf_hash` mudou; `vigente_desde`/`portaria` do site enriquecem o `meta.json`/`manifest.json`, não substituem o hash como gatilho
+- Falha defensiva: `discover_nrs.py` e `scrape_vigencia.py` definem os seletores HTML esperados; se um campo obrigatório não for encontrado (mudança de layout do site), o script lança exceção — isolada por NR quando aplicável (ver "Isolamento de erro por NR" abaixo), ou falha a Action inteira quando é a página-índice geral que mudou. O e-mail de falha padrão do GitHub Actions já avisa, sem precisar de alerta customizado.
+- NRs revogadas: hoje conhecidas NR-2, NR-27, mas a lista completa vem de `nr_index.json`, não é fixa neste doc
 - Procedure: [03-mapear-urls-mte.md](procedures/03-mapear-urls-mte.md)
 
 ## Pipeline de conteúdo
@@ -69,17 +75,16 @@ nr-facil/
 
 ### 3 camadas
 
-1. **Extração** — `pymupdf4llm` + PDF original salvo + `pdf_hash`
+1. **Extração** — 3 passes sempre executados sobre o mesmo PDF (sem classificação prévia por complexidade — toda NR recebe o mesmo tratamento):
+   - Pass texto: `pymupdf4llm` → corpo normativo
+   - Pass tabelas: `pdfplumber` → HTML em `assets/tables/`
+   - Pass imagens/diagramas: render de página → PNG em `assets/pages/page-XX.png`
+   - Merge dos 3 passes num único `.md` padronizado
+   - PDF original salvo + `pdf_hash`
 2. **Normalização** — headings `17.1`, remover artefatos PDF, hifenização
 3. **Índices** — `index.json` (navegação) + `search_index.json` (busca por chunk)
 
-### Tabelas e imagens (3 níveis de fallback)
-
-| Nível | Ferramenta | Quando |
-|-------|-----------|--------|
-| 1 | pymupdf4llm | Texto, tabelas simples, imagens |
-| 2 | pdfplumber | Tabelas complexas → HTML em `assets/tables/` |
-| 3 | page PNG | Diagramas → `assets/pages/page-XX.png` |
+Rodar os 3 passes em toda NR custa mais tempo de execução por rodada, mas o limite real é o free tier do GitHub Actions (minutos), não CPU. Se o custo deixar de ser zero, o ajuste é reduzir a frequência do `update-nrs.yml` (diário → a cada 2 dias → semanal), nunca reduzir a qualidade do processamento.
 
 ### manifest.json (exemplo)
 
@@ -96,6 +101,8 @@ nr-facil/
       "pdf_hash": "def456...",
       "updated_at": "2026-01-17T00:00:00Z",
       "portaria": "Portaria MTE nº 57/2025",
+      "publicado_em": "2018-04-12",
+      "vigente_desde": "2026-01-17",
       "url": "https://raw.githubusercontent.com/USER/nr-facil/main/content/nr-06/nr-06.md",
       "reviewed": true
     }
@@ -145,6 +152,14 @@ Ver [supabase/migration.sql](supabase/migration.sql).
 - **Continuar leitura:** card no topo de Favoritos
 - **Histórico:** automático, não é aba
 
+### NRs revogadas no app
+
+- Aparecem na aba **Todos** com badge "Revogada" (visual opaco/cinza), mas **não** entram em Favoritos nem no índice de busca (`search_index.json`) — não são convertidas pelo pipeline.
+- Ao tocar: tela simples (sem leitor interno) mostrando:
+  - Botão "Ver PDF oficial (histórico)" → link externo pro PDF arquivado no MTE, sem cache local
+  - Se houver NR sucessora mapeada (`substitui_por` no `nr_index.json`, quando o gov.br indicar), botão "Ver NR vigente" levando direto pra NR atual
+- Fonte do status e do mapeamento de substituição: `discover_nrs.py` (scraping da página-índice do gov.br); quando o site não deixar explícito qual NR substituiu, o campo fica nulo e só o link do PDF histórico é mostrado.
+
 ### Detecção de atualização
 
 - `last_synced_hash` — hash baixado
@@ -178,7 +193,7 @@ Ver [supabase/migration.sql](supabase/migration.sql).
 
 ### Monetização
 
-| Grátis | Premium (IAP) |
+| Grátis (lançamento) | Premium (IAP, Fase 6) |
 |--------|---------------|
 | Todas NRs offline | Sem anúncios |
 | Busca, favoritos | Diff "o que mudou" |
@@ -187,15 +202,21 @@ Ver [supabase/migration.sql](supabase/migration.sql).
 
 Ads **nunca** no leitor.
 
+Lançamento (Fase 5) sai apenas com a coluna grátis + ads. A coluna premium (IAP) só é implementada na Fase 6, depois de validar uso real do app publicado.
+
 ## GitHub Actions
 
-### `update-nrs.yml` (diária 09:00 UTC)
+### `update-nrs.yml` (diária 09:00 UTC — ajustável para 2 em 2 dias ou semanal se o free tier de minutos do Actions apertar)
 
-1. `update_nrs.py` — download + hash
-2. `convert_nr.py` — se mudou
-3. `build_manifest.py`
-4. `push_nr_updates.py` — Supabase
-5. git commit + push
+1. `discover_nrs.py` — lista de NRs + status de revogação a partir da página-índice do gov.br → `nr_index.json`
+2. `update_nrs.py` — download PDF + hash, por NR
+3. `scrape_vigencia.py` — extrai metadados de vigência da página HTML, por NR
+4. `convert_nr.py` — se `pdf_hash` mudou, por NR (3 passes + merge)
+5. `build_manifest.py`
+6. `push_nr_updates.py` — Supabase
+7. git commit + push
+
+**Isolamento de erro por NR:** o loop dos passos 2–4 processa NR por NR. Se uma etapa falhar para uma NR específica (scraping fora do padrão, PDF corrompido, etc.), o script captura o erro, **não atualiza aquela NR** (mantém a versão anterior em `content/`), registra a NR e o motivo em `errors[]`, e segue para a próxima NR. Ao final, se `errors[]` não estiver vazio, o script sai com código de erro — isso falha o job da Action (notificação padrão do GitHub por e-mail, job vermelho), mas o commit já inclui todas as NRs que processaram com sucesso. O log do job mostra exatamente qual(is) NR(s) falharam.
 
 ### `ci.yml`
 
@@ -208,7 +229,7 @@ Ads **nunca** no leitor.
 
 Download offline, busca global, favoritos, histórico, lista NRs, tela atualizações, leitura otimizada.
 
-### Pago
+### Pago (Fase 6, pós-lançamento)
 
 Remover anúncios, destaque mudanças (diff), anotações, exportar trecho PDF.
 
@@ -223,6 +244,15 @@ Remover anúncios, destaque mudanças (diff), anotações, exportar trecho PDF.
 
 > Este aplicativo disponibiliza conteúdo público oficial das Normas Regulamentadoras do Ministério do Trabalho e Emprego. O conteúdo não substitui a consulta às publicações oficiais no portal gov.br.
 
+### Base legal do conteúdo
+
+Textos de leis, decretos, regulamentos e demais atos oficiais são excluídos de proteção autoral pela Lei 9.610/98, art. 8º, inciso IV. NRs são atos normativos do MTE, portanto não exigem licença do órgão para reprodução — desde que o texto não seja alterado (ver princípio "nunca reescrever texto normativo").
+
+Cuidados que continuam valendo mesmo sem exigência de licença:
+- Não usar brasão da República ou logotipos oficiais do MTE/gov.br no app (proteção de marca, não autoral).
+- Manter o disclaimer acima visível, para não sugerir oficialidade.
+- Guardar PDF original + `pdf_hash` por NR como evidência de fidelidade ao texto oficial.
+
 ## Estimativa de esforço
 
 | Área | Horas |
@@ -231,9 +261,10 @@ Remover anúncios, destaque mudanças (diff), anotações, exportar trecho PDF.
 | Busca + favoritos + UX | 10 |
 | Pipeline Python | 10 |
 | CI + Supabase | 5 |
-| Ads + IAP + publicação | 15 |
-| **Total** | **~60h** |
+| Ads + publicação (Fase 5) | 12 |
+| **Total lançamento (grátis + ads)** | **~57h** |
+| IAP remove_ads_lifetime (Fase 6) | 3 |
 
 ## Evoluções pós-MVP
 
-Push notifications, widget Android, checklist NR-18, PGR simplificado, B2B.
+IAP `remove_ads_lifetime` (Fase 6, ver acima), push notifications, widget Android, checklist NR-18, PGR simplificado, B2B.

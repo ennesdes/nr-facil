@@ -12,13 +12,12 @@
 
 ## Fase 0 — Setup (Semana 1, dias 1–2)
 
-- [ ] 01 Configurar FVM → [docs/procedures/01-configurar-fvm.md](docs/procedures/01-configurar-fvm.md)
-- [ ] 02 Criar estrutura monorepo + `.gitignore` → [docs/prompts.md#i0](docs/prompts.md#i0)
+- [x] 01 Configurar FVM → [docs/procedures/01-configurar-fvm.md](docs/procedures/01-configurar-fvm.md)
+- [x] 02 Criar estrutura monorepo + `.gitignore` → [docs/prompts.md#i0](docs/prompts.md#i0)
 - [ ] 03 Projeto Flutter em `app/` → [docs/prompts.md#i1](docs/prompts.md#i1)
-- [ ] 04 Conta Google Play Console → [docs/procedures/02-conta-play-console.md](docs/procedures/02-conta-play-console.md)
+- [x] 04 Conta Google Play Console → [docs/procedures/02-conta-play-console.md](docs/procedures/02-conta-play-console.md)
 - [ ] 05 Mapear URLs MTE (5 NRs) → [docs/procedures/03-mapear-urls-mte.md](docs/procedures/03-mapear-urls-mte.md)
-- [ ] 06 Classificar NRs por complexidade A/B/C/D → [docs/procedures/09-classificar-nrs-complexidade.md](docs/procedures/09-classificar-nrs-complexidade.md)
-- [ ] 07 Rodar `./scripts/setup.sh` e `fvm flutter doctor` sem erros
+- [ ] 06 Rodar `./scripts/setup.sh` e `fvm flutter doctor` sem erros
 
 **Pronto quando:** FVM ok, repo estruturado, app roda Hello World no emulador.
 
@@ -27,7 +26,7 @@
 ## Fase 1 — Conteúdo offline (Semana 1, dias 3–7)
 
 - [ ] 08 Scripts pipeline (convert, manifest, index) → [docs/prompts.md#i2](docs/prompts.md#i2)
-- [ ] 09 Converter NR-01, NR-06, NR-17 (classe A/B) → `python scripts/convert_nr.py --nr nr-XX`
+- [ ] 09 Converter NR-01, NR-06, NR-17 → `python scripts/convert_nr.py --nr nr-XX`
 - [ ] 10 Validar qualidade das 3 NRs no app (ler 2–3 seções vs PDF)
 - [ ] 11 ContentService (sync manifest + cache) → [docs/prompts.md#i3](docs/prompts.md#i3)
 - [ ] 12 Leitor Markdown + índice lateral + assets → [docs/prompts.md#i4](docs/prompts.md#i4)
@@ -55,7 +54,7 @@
 
 - [ ] 21 GitHub Action `update-nrs.yml` → [docs/prompts.md#i7](docs/prompts.md#i7)
 - [ ] 22 `requirements.txt` + testar Action com `workflow_dispatch`
-- [ ] 23 Expandir `scripts/nr_sources.json` para todas NRs do MVP
+- [ ] 23 Rodar `discover_nrs.py` para todas NRs do MVP e validar `nr_index.json` (overrides pontuais em `scripts/nr_sources.json` se algum scraping falhar)
 - [ ] 24 App busca manifest do GitHub raw
 - [ ] 25 Botão "Verificar atualizações"
 - [ ] 26 Monitorar primeiro commit automático da Action
@@ -76,19 +75,30 @@
 
 ---
 
-## Fase 5 — Monetização e publicação (Semana 4)
+## Fase 5 — Monetização (ads) e publicação (Semana 4)
 
 - [ ] 32 Configurar AdMob → [docs/procedures/05-configurar-admob.md](docs/procedures/05-configurar-admob.md)
 - [ ] 33 AdMob no app (banner só em listas) → [docs/prompts.md#i9](docs/prompts.md#i9)
-- [ ] 34 IAP `remove_ads_lifetime` → [docs/procedures/10-testar-iap-sandbox.md](docs/procedures/10-testar-iap-sandbox.md)
-- [ ] 35 Gerar keystore → [docs/procedures/06-gerar-keystore.md](docs/procedures/06-gerar-keystore.md)
-- [ ] 36 Build release AAB → [docs/prompts.md#i10](docs/prompts.md#i10)
-- [ ] 37 Privacy policy + GitHub Pages → [docs/procedures/08-github-pages-privacidade.md](docs/procedures/08-github-pages-privacidade.md)
-- [ ] 38 Publicar Play Store → [docs/procedures/07-publicar-play-store.md](docs/procedures/07-publicar-play-store.md)
-- [ ] 39 review-bugbot + security-review antes de publicar
-- [ ] 40 Teste interno → produção
+- [ ] 34 Gerar keystore → [docs/procedures/06-gerar-keystore.md](docs/procedures/06-gerar-keystore.md)
+- [ ] 35 Build release AAB → [docs/prompts.md#i10](docs/prompts.md#i10)
+- [ ] 36 Privacy policy + GitHub Pages → [docs/procedures/08-github-pages-privacidade.md](docs/procedures/08-github-pages-privacidade.md)
+- [ ] 37 Publicar Play Store → [docs/procedures/07-publicar-play-store.md](docs/procedures/07-publicar-play-store.md)
+- [ ] 38 review-bugbot + security-review antes de publicar
+- [ ] 39 Teste interno → produção
 
-**Pronto quando:** AAB no teste interno; ads e IAP funcionam.
+**Pronto quando:** AAB no teste interno; versão grátis + ads funciona; app publicado.
+
+---
+
+## Fase 6 — Versão Pro (pós-lançamento)
+
+> Só inicia depois do app publicado e com uso real validado (ver critérios de sucesso abaixo).
+
+- [ ] 40 IAP `remove_ads_lifetime` → [docs/prompts.md#i9b](docs/prompts.md#i9b)
+- [ ] 41 Testar IAP em sandbox → [docs/procedures/10-testar-iap-sandbox.md](docs/procedures/10-testar-iap-sandbox.md)
+- [ ] 42 Publicar update na Play Store com IAP habilitado
+
+**Pronto quando:** compra remove anúncios; restorePurchases funciona; update publicado.
 
 ---
 
@@ -108,5 +118,8 @@ Se não atingir em 90 dias: encerrar sem culpa.
 - Monorepo, Android-only, FVM, GitHub = fonte da verdade
 - Supabase mínimo (só metadados, sem blobs)
 - Abas Favoritos / Todos; atualizações no sino
-- pymupdf4llm + fallbacks para tabelas/imagens
+- Pipeline uniforme: 3 passes (texto/tabelas/imagens) sempre executados em toda NR, sem classificação de complexidade prévia
+- Descoberta de NRs e status de revogação via scraping da página-índice do gov.br (`nr_index.json`), não lista manual fixa
+- Erro numa NR isola só ela (não atualiza, loga, segue as demais); Action falha no final para notificar
 - Freemium: grátis + ads; premium R$ 9,90 vitalício (sem ads + diff)
+- Lançamento faseado: Fase 5 publica só grátis + ads; IAP/pro entra na Fase 6, após validar uso real
