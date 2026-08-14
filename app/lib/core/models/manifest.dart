@@ -70,6 +70,7 @@ class ManifestEntry {
   final String? publicadoEm;
   final String? vigenteSde;
   final String url; // URL do .md no GitHub raw
+  final String? pdfUrl; // URL do PDF original no portal MTE (opcional)
   final bool? reviewed;
   final bool? revogada; // campo opcional: true se NR foi revogada
   final String? substituiPor; // ID da NR sucessora, quando aplicável
@@ -85,6 +86,7 @@ class ManifestEntry {
     this.publicadoEm,
     this.vigenteSde,
     required this.url,
+    this.pdfUrl,
     this.reviewed,
     this.revogada,
     this.substituiPor,
@@ -108,6 +110,7 @@ class ManifestEntry {
         publicadoEm: map['publicado_em'] as String?,
         vigenteSde: map['vigente_desde'] as String?,
         url: map['url'] as String? ?? '',
+        pdfUrl: map['pdf_url'] as String?,
         reviewed: map['reviewed'] as bool?,
         revogada: map['revogada'] as bool? ?? false,
         substituiPor: map['substitui_por'] as String?,
@@ -131,6 +134,7 @@ class ManifestEntry {
       'publicado_em': publicadoEm,
       'vigente_desde': vigenteSde,
       'url': url,
+      'pdf_url': pdfUrl,
       'reviewed': reviewed,
       'revogada': revogada,
       'substitui_por': substituiPor,

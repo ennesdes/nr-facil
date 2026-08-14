@@ -45,6 +45,12 @@ dependencies:
   # Networking
   http: ^1.1.0
 
+  # Markdown rendering
+  flutter_markdown: ^0.7.3
+
+  # URL launcher for external links
+  url_launcher: ^6.2.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -10,6 +10,7 @@ import 'package:path_provider/path_provider.dart';
 import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
 import '../models/manifest.dart';
+import '../models/nr_index.dart';
 import '../utils/app_logger.dart';
 
 /// ContentService — sincronizar e cache de NRs offline.
@@ -384,6 +385,29 @@ class ContentService extends GetxService {
     if (entry != null) {
       GetStorage().write(StorageKeys.nrLastSeenHash(nrId), entry.hash);
       AppLogger.debug('NR $nrId marcada como vista');
+    }
+  }
+
+  /// Ler índice de navegação de uma NR (index.json) do cache local.
+  ///
+  /// Retorna NrIndex com headings vazios se arquivo não existir.
+  /// Lança exceção se houver erro de I/O.
+  Future<NrIndex> readNrIndex(String nrId) async {
+    try {
+      final indexFile = File('${_cacheDir.path}/content/$nrId/index.json');
+
+      if (!indexFile.existsSync()) {
+        AppLogger.debug('Índice de $nrId não encontrado em cache');
+        return NrIndex(headings: []);
+      }
+
+      final content = await indexFile.readAsString();
+      final jsonMap = jsonDecode(content) as Map<String, dynamic>;
+      return NrIndex.fromMap(jsonMap);
+    } catch (e, st) {
+      AppLogger.error('Erro ao ler índice de NR $nrId', e, st);
+      // Retornar índice vazio em caso de erro
+      return NrIndex(headings: []);
     }
   }
 }
