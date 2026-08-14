@@ -35,9 +35,23 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # State management & DI
+  get: ^4.6.6
+
+  # Storage
+  path_provider: ^2.1.1
+  get_storage: ^2.1.1
+
+  # Networking
+  http: ^1.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Fakear path_provider em testes (ContentService usa getApplicationDocumentsDirectory)
+  path_provider_platform_interface: ^2.1.1
+  plugin_platform_interface: ^2.1.7
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
