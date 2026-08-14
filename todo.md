@@ -26,8 +26,8 @@
 ## Fase 1 — Conteúdo offline (Semana 1, dias 3–7)
 
 - [ ] 08 Scripts pipeline (convert, manifest, index) → [docs/prompts.md#i2](docs/prompts.md#i2)
-- [ ] 09 Converter NR-01, NR-06, NR-17 → `python3 scripts/convert_nr.py --nr nr-XX`
-- [ ] 10 Validar qualidade das 3 NRs no app (ler 2–3 seções vs PDF)
+- [x] 09 Converter NR-01, NR-06, NR-17 → `python3 scripts/convert_nr.py --nr nr-XX`
+- [x] 10 Validar qualidade das 3 NRs no app (ler 2–3 seções vs PDF)
 - [ ] 11 ContentService (sync manifest + cache) → [docs/prompts.md#i3](docs/prompts.md#i3)
 - [ ] 12 Leitor Markdown + índice lateral + assets → [docs/prompts.md#i4](docs/prompts.md#i4)
 - [ ] 13 Testar offline após primeiro sync
