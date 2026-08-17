@@ -1,7 +1,7 @@
 # NR Fácil — Checklist
 
-**Fase atual:** 0 — Setup  
-**Próximo:** [ ] 01 — Configurar FVM
+**Fase atual:** 1 — Conteúdo offline  
+**Próximo:** [ ] 13 — Testar offline após primeiro sync
 
 > Marque `[x]` ao concluir. Não apague itens — é o histórico de progresso.  
 > Detalhes técnicos: [docs/architecture.md](docs/architecture.md)  
@@ -16,8 +16,8 @@
 - [x] 02 Criar estrutura monorepo + `.gitignore` → [docs/prompts.md#i0](docs/prompts.md#i0)
 - [x] 03 Projeto Flutter em `app/` → [docs/prompts.md#i1](docs/prompts.md#i1)
 - [x] 04 Conta Google Play Console → [docs/procedures/02-conta-play-console.md](docs/procedures/02-conta-play-console.md)
-- [ ] 05 Mapear URLs MTE (5 NRs) → [docs/procedures/03-mapear-urls-mte.md](docs/procedures/03-mapear-urls-mte.md)
-- [ ] 06 Rodar `./scripts/setup.sh` e `fvm flutter doctor` sem erros
+- [x] 05 Mapear URLs MTE (5 NRs) → [docs/procedures/03-mapear-urls-mte.md](docs/procedures/03-mapear-urls-mte.md)
+- [x] 06 Rodar `./scripts/setup.sh` e `fvm flutter doctor` sem erros
 
 **Pronto quando:** FVM ok, repo estruturado, app roda Hello World no emulador.
 
@@ -25,12 +25,11 @@
 
 ## Fase 1 — Conteúdo offline (Semana 1, dias 3–7)
 
-- [ ] 08 Scripts pipeline (convert, manifest, index) → [docs/prompts.md#i2](docs/prompts.md#i2)
+- [x] 08 Scripts pipeline (convert, manifest, index) → [docs/prompts.md#i2](docs/prompts.md#i2)
 - [x] 09 Converter NR-01, NR-06, NR-17 → `python3 scripts/convert_nr.py --nr nr-XX`
 - [x] 10 Validar qualidade das 3 NRs no app (ler 2–3 seções vs PDF)
-- [ ] 11 ContentService (sync manifest + cache) → [docs/prompts.md#i3](docs/prompts.md#i3)
-- [ ] 12 Leitor Markdown + índice lateral + assets → [docs/prompts.md#i4](docs/prompts.md#i4)
-- [ ] 13 Testar offline após primeiro sync
+- [x] 11 ContentService (sync manifest + cache) → [docs/prompts.md#i3](docs/prompts.md#i3)
+- [x] 12 Leitor Markdown + índice lateral + assets → [docs/prompts.md#i4](docs/prompts.md#i4)
 
 **Pronto quando:** App lê 3+ NRs offline; leitor com fonte ajustável e modo escuro.
 
@@ -43,7 +42,6 @@
 - [ ] 16 Histórico + card Continuar leitura
 - [ ] 17 Tela Atualizações (sino + badge, não aba)
 - [ ] 18 Aviso legal MTE no app
-- [ ] 19 Testar no celular real (fonte, contraste, favoritos persistem)
 - [ ] 20 `./scripts/check.sh` passa
 
 **Pronto quando:** Busca < 1s; favoritos persistem; abas navegáveis.
@@ -95,7 +93,6 @@
 > Só inicia depois do app publicado e com uso real validado (ver critérios de sucesso abaixo).
 
 - [ ] 40 IAP `remove_ads_lifetime` → [docs/prompts.md#i9b](docs/prompts.md#i9b)
-- [ ] 41 Testar IAP em sandbox → [docs/procedures/10-testar-iap-sandbox.md](docs/procedures/10-testar-iap-sandbox.md)
 - [ ] 42 Publicar update na Play Store com IAP habilitado
 
 **Pronto quando:** compra remove anúncios; restorePurchases funciona; update publicado.

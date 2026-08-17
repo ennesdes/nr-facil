@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-08-14T08:37:49.892876+00:00",
+  "version": 1,
+  "nrs": [
+    {
+      "id": "nr-17",
+      "title": "ERGONOMIA",
+      "version": "2026-08-14T08:37:49.893931+00:00",
+      "hash": "4bf5902649881695b83053acb5a0b198b54edb9976d99e2eac4374b70475662d",
+      "pdf_hash": "9f17dd07d1fd3906ed1c658a4d1652acbe18156bbdd961566c9c9d2f342d6fdc",
+      "updated_at": "2026-08-14T08:37:49.893936+00:00",
+      "portaria": null,
+      "publicado_em": null,
+      "vigente_desde": null,
+      "url": "https://raw.githubusercontent.com/git@github.com:ennesdes/nr-facil/main/content/nr-17/nr-17.md",
+      "reviewed": false
+    },
+    {
+      "id": "nr-01",
+      "title": "DISPOSIÇÕES GERAIS E GERENCIAMENTO DE RISCOS OCUPACIONAIS",
+      "version": "2026-08-14T08:37:49.894455+00:00",
+      "hash": "b861222561d072f10ab0618d47f600e4ce610011735dc5854763d1fb0fa09961",
+      "pdf_hash": "39e0ced67472db5f6f93235ce5532701247a1b7dddf39fb866c379e605b32a21",
+      "updated_at": "2026-08-14T08:37:49.894458+00:00",
+      "portaria": null,
+      "publicado_em": null,
+      "vigente_desde": null,
+      "url": "https://raw.githubusercontent.com/git@github.com:ennesdes/nr-facil/main/content/nr-01/nr-01.md",
+      "reviewed": false
+    },
+    {
+      "id": "nr-06",
+      "title": "EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI",
+      "version": "2026-08-14T08:37:49.894872+00:00",
+      "hash": "556177576f6591b389092171899d90ba5138ad89227ab58f335c6c0190ebf82a",
+      "pdf_hash": "1af315ea42668d5e37ef63da7007f065be30ad53bd3faaf03ff926e5465147eb",
+      "updated_at": "2026-08-14T08:37:49.894874+00:00",
+      "portaria": null,
+      "publicado_em": null,
+      "vigente_desde": null,
+      "url": "https://raw.githubusercontent.com/git@github.com:ennesdes/nr-facil/main/content/nr-06/nr-06.md",
+      "reviewed": false
+    }
+  ]
+}
