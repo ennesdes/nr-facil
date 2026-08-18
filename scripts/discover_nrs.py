@@ -123,10 +123,22 @@ def fetch_index_page() -> dict[int, dict[str, Any]]:
 
 def find_pdf_on_page(nr_num: int, page_url: str, session: requests.Session) -> str | None:
     """
-    Level 2: Fetch page_url, procura por PDF matching nr-{NN}...\.pdf.
+    Level 2: Fetch page_url, procura pelo PDF da norma em si (não portarias/atas que
+    apenas mencionam a NR).
 
-    Se múltiplos PDFs forem encontrados (diferentes versões), escolhe o de maior ano,
-    depois maior i-N counter (ex: nr-01-atualizada-2025-i-3.pdf vs nr-01-atualizada-2024-i-1.pdf).
+    Duas heurísticas, em ordem de confiança:
+      1. Texto do link começa com "NR-{num}" (ex: "NR-38 - SEGURANÇA E SAÚDE...") —
+         é como o gov.br rotula o link da norma consolidada na página.
+      2. Nome do arquivo contém "nr" + número, com ou sem hífen (ex: "nr-01-atualizada...pdf"
+         ou "NR38atualizada2026.pdf") — fallback quando a página não usa o rótulo padrão.
+
+    O nome do arquivo é extraído do segmento de path terminado em ".pdf", ignorando
+    qualquer sufixo depois dele (páginas antigas em Plone servem o PDF via
+    ".../nr-38-atualizada-2022-1.pdf/@@download/file", que não termina em ".pdf").
+
+    Se múltiplos PDFs forem encontrados (diferentes versões), prioriza match por texto
+    do link sobre match só por filename, depois maior ano, depois maior i-N counter
+    (ex: nr-01-atualizada-2025-i-3.pdf vs nr-01-atualizada-2024-i-1.pdf).
 
     Retorna: url do PDF ou None se não encontrado.
     """
@@ -144,25 +156,29 @@ def find_pdf_on_page(nr_num: int, page_url: str, session: requests.Session) -> s
     # Procura por links de PDF
     pdf_links = []
     for link in soup.find_all("a", href=True):
-        href = link.get("href", "").lower()
+        href_raw = link.get("href", "").split("?")[0].split("#")[0]
+        text = link.get_text(strip=True)
 
-        # Verifica se é um PDF
-        if not href.endswith(".pdf"):
+        filename_match = re.search(r'[^/]+\.pdf', href_raw, re.IGNORECASE)
+        if not filename_match:
+            continue
+        filename = filename_match.group(0)
+
+        # Sinal 1 (mais confiável): texto do link rotula explicitamente "NR-{num}" ou "NR {num}"
+        # (o gov.br não é consistente: a mesma página pode ter "NR-10" para uma versão
+        # antiga e "NR 10" — com espaço — para a versão vigente)
+        text_match = re.match(r'NR[\s-]+0*(\d+)\b', text, re.IGNORECASE)
+        from_text = bool(text_match and int(text_match.group(1)) == nr_num)
+
+        # Sinal 2 (fallback): filename contém "nr" + número, hífen opcional
+        file_match = re.search(r'nr-?0*(\d+)(?!\d)', filename, re.IGNORECASE)
+        from_file = bool(file_match and int(file_match.group(1)) == nr_num)
+
+        if not (from_text or from_file):
+            # PDF é de outra NR ou não relacionado (ex: portaria que só cita a NR)
             continue
 
-        # Extrai filename para verificar padrão nr-{NN}
-        filename = href.split("/")[-1]
-        match = re.match(r'nr-(\d+)', filename, re.IGNORECASE)
-        if not match:
-            continue
-
-        pdf_nr = int(match.group(1))
-        if pdf_nr != nr_num:
-            # PDF é de outra NR, pula (ex: FAQs, guias que mencionam múltiplas NRs)
-            continue
-
-        # PDF é desta NR, salva com score de versão
-        full_url = urljoin(page_url, href)
+        full_url = urljoin(page_url, href_raw)
 
         # Extrai ano e i-N counter para scoring
         year_match = re.search(r'(\d{4})', filename)
@@ -174,16 +190,17 @@ def find_pdf_on_page(nr_num: int, page_url: str, session: requests.Session) -> s
         pdf_links.append({
             "url": full_url,
             "filename": filename,
+            "from_text": from_text,
             "year": year,
             "counter": counter,
-            "score": (year, counter),  # tupla para ordenação
+            "score": (from_text, year, counter),  # tupla para ordenação
         })
 
     if not pdf_links:
         logger.warning(f"[L2] Nenhum PDF encontrado na página NR-{nr_num}")
         return None
 
-    # Ordena por score descendente (maior ano, maior counter)
+    # Ordena por score descendente (match por texto > maior ano > maior i-N counter)
     pdf_links.sort(key=lambda x: x["score"], reverse=True)
     best = pdf_links[0]
 

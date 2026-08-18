@@ -43,36 +43,44 @@ logger = logging.getLogger(__name__)
 
 def download_pdf(pdf_url: str, nr_id: str, dry_run: bool = False) -> tuple[Path | None, str]:
     """
-    Download do PDF.
+    Download do PDF (usado apenas quando convert_nr.py roda sozinho, sem
+    PDF já baixado por update_nrs.py).
 
     Retorna (caminho_arquivo, pdf_hash) ou (None, "") se falhar.
     """
-    nr_dir = ensure_content_dir(nr_id)
-    pdf_file = nr_dir / f"{nr_id}.pdf"
-
     logger.info(f"Baixando PDF de {nr_id} de {pdf_url}")
 
     if dry_run:
+        nr_dir = ensure_content_dir(nr_id)
+        pdf_file = nr_dir / f"{nr_id}.pdf"
         logger.info(f"[DRY-RUN] teria baixado para {pdf_file}")
         return None, ""
 
     try:
         resp = requests.get(pdf_url, timeout=30)
         resp.raise_for_status()
-        pdf_bytes = resp.content
-
-        # Calcula SHA-256
-        pdf_hash = hashlib.sha256(pdf_bytes).hexdigest()
-
-        # Grava PDF
-        pdf_file.write_bytes(pdf_bytes)
-        logger.info(f"✓ PDF salvo ({len(pdf_bytes)} bytes, hash={pdf_hash[:16]}...)")
-
-        return pdf_file, pdf_hash
+        return save_pdf(resp.content, nr_id)
 
     except Exception as e:
         logger.error(f"✗ Falha ao baixar PDF: {e}")
         return None, ""
+
+
+def save_pdf(pdf_bytes: bytes, nr_id: str) -> tuple[Path, str]:
+    """
+    Grava bytes de PDF já obtidos (ex.: por update_nrs.py, evitando um
+    segundo download) e calcula o hash.
+
+    Retorna (caminho_arquivo, pdf_hash).
+    """
+    nr_dir = ensure_content_dir(nr_id)
+    pdf_file = nr_dir / f"{nr_id}.pdf"
+
+    pdf_hash = hashlib.sha256(pdf_bytes).hexdigest()
+    pdf_file.write_bytes(pdf_bytes)
+    logger.info(f"✓ PDF salvo ({len(pdf_bytes)} bytes, hash={pdf_hash[:16]}...)")
+
+    return pdf_file, pdf_hash
 
 
 def extract_text_pass(pdf_file: Path, nr_id: str) -> str:
@@ -191,8 +199,13 @@ def save_metadata(nr_id: str, pdf_hash: str, md_text: str) -> None:
     meta_file.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def convert_nr(nr_id: str, dry_run: bool = False) -> bool:
-    """Converte uma NR. Retorna True se sucesso."""
+def convert_nr(nr_id: str, dry_run: bool = False, pdf_bytes: bytes | None = None) -> bool:
+    """
+    Converte uma NR. Retorna True se sucesso.
+
+    Se `pdf_bytes` for passado (ex.: já baixado por update_nrs.py ao
+    detectar mudança), reaproveita em vez de baixar o PDF de novo.
+    """
     logger.info(f"\n{'='*60}")
     logger.info(f"Convertendo {nr_id}")
     logger.info(f"{'='*60}")
@@ -205,15 +218,19 @@ def convert_nr(nr_id: str, dry_run: bool = False) -> bool:
         logger.error(f"{nr_id}: pdf_url não encontrada, abortando")
         return False
 
-    # 1. Download PDF
-    pdf_file, pdf_hash = download_pdf(pdf_url, nr_id, dry_run=dry_run)
-    if not pdf_file or not pdf_hash:
-        logger.error(f"{nr_id}: não foi possível baixar/hashear PDF")
-        return False
-
     if dry_run:
         logger.info(f"[DRY-RUN] {nr_id}: teria feito os 3 passes e merge")
         return True
+
+    # 1. PDF: reaproveita bytes já baixados (por update_nrs.py) ou baixa agora
+    if pdf_bytes is not None:
+        pdf_file, pdf_hash = save_pdf(pdf_bytes, nr_id)
+    else:
+        pdf_file, pdf_hash = download_pdf(pdf_url, nr_id, dry_run=dry_run)
+
+    if not pdf_file or not pdf_hash:
+        logger.error(f"{nr_id}: não foi possível baixar/hashear PDF")
+        return False
 
     # 2. Executar os 3 passes
     text_md = extract_text_pass(pdf_file, nr_id)
