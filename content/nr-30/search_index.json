@@ -1,0 +1,2228 @@
+[
+  {
+    "id": "chunk-0",
+    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria SIT n.º34, de 04 de dezembro de 2002|09/12/02|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SIT n.º12, de 31 de maio de 2007|04/06/07|\n|Portaria SIT n.º36, de 29 de janeiro de 2008|30/01/08|\n|Portaria SIT n.º58, de 19 de junho de 2008|24/06/08|",
+    "heading": "**NR 30 - SEGURANÇA E SAÚDE NO TRABALHO AQUAVIÁRIO**",
+    "char_offset": 1
+  },
+  {
+    "id": "chunk-1",
+    "text": "|Portaria SIT n.º183, de 11 de maio de 2010|14/05/10|\n|Portaria MTE n.º100, de 17 de janeiro de 2013|18/01/13|\n|Portaria MTE n.º2.062, de 30 de dezembro de 2014|02/01/15|\n|Portaria MTE n.º1.186, de 20 de dezembro de 2018|21/12/18|\n|Portaria MTP n.º425, de 07 de outubro de 2021|08/10/21|",
+    "heading": "**NR 30 - SEGURANÇA E SAÚDE NO TRABALHO AQUAVIÁRIO**",
+    "char_offset": 300
+  },
+  {
+    "id": "chunk-2",
+    "text": "|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|\n_(Redação dada pela Portaria MTP n.º 425, de 07 de outubro de 2021)_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 720
+  },
+  {
+    "id": "chunk-3",
+    "text": "30.1 Objetivo 30.2 Campo de aplicação 30.3 Direitos e deveres 30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA \n30.5 Proteção à saúde \n30.6 Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 723
+  },
+  {
+    "id": "chunk-4",
+    "text": "30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB 30.8 Alimentação 30.9 Camarotes 30.10 Salões de Refeições e Locais de Recreio 30.11 Cozinha 30.12 Instalações Sanitárias \n30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 1019
+  },
+  {
+    "id": "chunk-5",
+    "text": "30.14 Segurança na Manutenção em Embarcação em Operação 30.15 Movimentação de Carga 30.16 Máquinas e Equipamentos \n30.17 Capacitação e treinamento em Segurança e Saúde no Trabalho 30.18 Acesso à embarcação 30.19 Disposições Gerais de Segurança e Saúde 30.20 Glossário Quadro I – Quadro Estatístico de Acidentes Quadro II - Padrões Mínimos Básicos nos Exames Médicos",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 1286
+  },
+  {
+    "id": "chunk-6",
+    "text": "Quadro III - Padrões Médicos e Modelo de Certificado Médico (Health Certificate - Convenção Internacional Sobre Padrões de Instrução, Certificação e Serviço de Quarto para Marítimos - STCW) \nANEXO I - Pesca Comercial",
+    "heading": "**30.1 Objetivo**",
+    "char_offset": 1874
+  },
+  {
+    "id": "chunk-7",
+    "text": "Este texto não substitui o publicado no DOU \n**30.1.1** Esta norma regulamentadora e seu anexo estabelecem requisitos para a proteção e o resguardo da segurança e da saúde no trabalho aquaviário, disciplinando medidas a serem observadas nas organizações e nos ambientes de trabalho para a prevenção de possíveis lesões ou agravos à saúde.",
+    "heading": "**30.1 Objetivo**",
+    "char_offset": 1876
+  },
+  {
+    "id": "chunk-8",
+    "text": "**30.2.1** Esta norma se aplica aos trabalhos realizados em embarcações comerciais, de bandeira nacional, bem como às de bandeiras estrangeiras, nos termos do disposto em Convenções Internacionais ratificadas em vigor, utilizadas no transporte de cargas ou de passageiros, inclusive naquelas embarcações usadas na prestação de serviços.",
+    "heading": "**30.2 Campo de aplicação**",
+    "char_offset": 2218
+  },
+  {
+    "id": "chunk-9",
+    "text": "**30.2.1.1** Aos trabalhadores das embarcações classificadas como comerciais de pesca aplica-se apenas o Anexo desta norma, sem prejuízo das disposições previstas nas demais normas regulamentadoras. \n**30.2.2** A observância desta Norma Regulamentadora não desobriga a organização do cumprimento das demais Normas Regulamentadoras gerais e especiais, de outras disposições legais com relação à matéria e, ainda, daquelas oriundas de convenções, acordos e contratos coletivos de trabalho.",
+    "heading": "**30.2 Campo de aplicação**",
+    "char_offset": 2558
+  },
+  {
+    "id": "chunk-10",
+    "text": "**30.2.3** Às embarcações classificadas de acordo com a Convenção Solas, cujas normas de segurança são auditadas pelas sociedades classificadoras, não se aplicam as Normas Regulamentadoras nº 10 (NR-10), 13 (NR-13) e 23 (NR-23), desde que apresentados os certificados de classe.",
+    "heading": "**30.2 Campo de aplicação**",
+    "char_offset": 3048
+  },
+  {
+    "id": "chunk-11",
+    "text": "**30.3.1** Cabe ao empregador ou equiparado, além das obrigações previstas no item 1.4 da Norma Regulamentadora nº 01 (NR-01), designar formalmente e capacitar no mínimo um tripulante efetivamente embarcado como responsável pela aplicação desta NR.",
+    "heading": "**30.3 Diretos e deveres**",
+    "char_offset": 3330
+  },
+  {
+    "id": "chunk-12",
+    "text": "**30.3.2** Cabe aos trabalhadores, além do previsto no item 1.4 da NR-01, informar ao oficial de serviço ou a qualquer membro do Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB, as avarias ou deficiências observadas que possam constituir fatores de risco para o trabalhador ou para a embarcação.",
+    "heading": "**30.3 Diretos e deveres**",
+    "char_offset": 3581
+  },
+  {
+    "id": "chunk-13",
+    "text": "**30.4.1** O empregador ou equiparado deve elaborar e implementar o PGRTA, por embarcação, nos termos da Norma Regulamentadora nº 01 (NR-01) e do disposto nesta NR, com base nas necessidades e peculiaridades das atividades aquaviárias. \n**30.4.1.1** A elaboração do PGRTA não dispensa a organização de elaborar e implementar o PGR em seus estabelecimentos, nos termos da NR-01.",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 3904
+  },
+  {
+    "id": "chunk-14",
+    "text": "**30.4.1.2** Nas embarcações com até 500 (quinhentos) de arqueação bruta (AB), o empregador ou equiparado pode optar pela utilização de ferramenta de avaliação de risco a ser disponibilizada pelo Ministério do Trabalho e Previdência, para estruturar o PGRTA e elaborar Este texto não substitui o publicado no DOU",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 4284
+  },
+  {
+    "id": "chunk-15",
+    "text": "plano de ação, considerando o relatório produzido por esta ferramenta. \n**30.4.1.3** O atendimento ao disposto no subitem 30.4.1.1 não desobriga o empregador ou equiparado do cumprimento das demais disposições previstas nesta NR. \n**30.4.2** A organização deve elaborar e manter na embarcação os seguintes procedimentos operacionais:",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 4601
+  },
+  {
+    "id": "chunk-16",
+    "text": "a) procedimentos de segurança nas atividades de manutenção em embarcação em operação; \nb) orientação aos trabalhadores quanto aos procedimentos a serem adotados na ocorrência de condições climáticas extremas e interrupção das atividades nessas situações;",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 4938
+  },
+  {
+    "id": "chunk-17",
+    "text": "c) procedimentos de acesso seguro à embarcação atracada e fundeada; \nd) procedimentos seguros de movimentação de carga; \ne) procedimentos de segurança nas atividades que envolvam outras embarcações, balsas, plataformas de petróleo e demais unidades marítimas; e",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 5197
+  },
+  {
+    "id": "chunk-18",
+    "text": "f) procedimentos de segurança nas manobras de atracação e fundeio. \n**30.4.2.1** Os procedimentos devem estar em conformidade com o inventário de riscos e o plano de ação do PGRTA. \n**30.4.2.2** Os procedimentos previstos no subitem 30.4.2 devem ser anexados ao PGRTA.",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 5463
+  },
+  {
+    "id": "chunk-19",
+    "text": "**30.4.3** O PGRTA deve ser revisto a cada 3 (três) anos, ou quando ocorrerem inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e organização do trabalho, ou quando identificadas inadequações ou insuficiência na avaliação dos riscos e na adoção das medidas de prevenção.",
+    "heading": "**30.4 Programa de Gerenciamento de Riscos no Trabalho Aquaviário - PGRTA**",
+    "char_offset": 5734
+  },
+  {
+    "id": "chunk-20",
+    "text": "**30.5.1** Além das disposições previstas na Norma Regulamentadora n° 07 (NR-07), o Programa de Controle Médico de Saúde Ocupacional - PCMSO deve contemplar o disposto nesse item. \n**30.5.1.1** Para os trabalhadores aquaviários do grupo marítimos, devem ser adotados os padrões médicos e o modelo de Certificado Médico (Health Certificate - Convenção Internacional sobre Padrões de Instrução, Certificação e Serviço de Quarto para Marítimos - STCW) estabelecidos no QUADRO III desta NR, sem prejuízo da elaboração do Atestado de Saúde Ocupacional - ASO, conforme a NR-07 e disposições desta NR sobre o tema.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 6048
+  },
+  {
+    "id": "chunk-21",
+    "text": "**30.5.2** Os exames médicos compreendem exames clínicos e exames complementares realizados de acordo com as especificações da NR-07. \n**30.5.2.1** Uma cópia do Atestado de Saúde Ocupacional - ASO deve ser mantida na embarcação em meio físico ou eletrônico.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 6659
+  },
+  {
+    "id": "chunk-22",
+    "text": "**30.5.3** Caso o prazo de validade do exame médico expire no decorrer de uma travessia, fica prorrogado até a data da escala da embarcação em porto onde haja condições necessárias para realização desses exames, observado o prazo máximo de quarenta e cinco dias.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 6919
+  },
+  {
+    "id": "chunk-23",
+    "text": "Este texto não substitui o publicado no DOU \n**30.5.4** Podem ser realizados outros exames complementares, a critério do médico responsável, desde que relacionados aos riscos ocupacionais identificados e classificados no PGRTA. \n**30.5.5** Toda embarcação deverá estar equipada com material necessário à prestação dos primeiros socorros, considerando-se as características da atividade desenvolvida, mantendo esse material guardado em local adequado e aos cuidados de pessoa treinada para prestar os primeiros socorros.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 7186
+  },
+  {
+    "id": "chunk-24",
+    "text": "**30.5.6** A enfermaria, quando existente, deve: \na) ser separada de outras dependências; \nb) ter espaço apropriado para guarda os materiais e medicamentos do navio; \nc) possuir instalações de água quente e fria; e \nd) dispor de drenagem de líquidos e resíduos.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 7712
+  },
+  {
+    "id": "chunk-25",
+    "text": "**30.5.6.1** A enfermaria não poderá ser utilizada para outros fins que não sejam aqueles destinados ao atendimento de doentes. \n**30.5.6.2** A enfermaria das embarcações SOLAS deve atender adicionalmente ao disposto nas normas da Autoridade Marítima (NORMAM).",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 7977
+  },
+  {
+    "id": "chunk-26",
+    "text": "**30.5.7** O empregador ou equiparado deve viabilizar o acesso dos trabalhadores aos órgãos de saúde com a finalidade de: \na) prevenção e profilaxia de doenças endêmicas; e \nb) aplicação de vacinas. \n**_30.6_ Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA** _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 8243
+  },
+  {
+    "id": "chunk-27",
+    "text": "**30.6.1** A CIPA das organizações que empregam aquaviários será constituída pelos empregados de cada estabelecimento, inclusive os aquaviários, efetivamente trabalhando em embarcações próprias ou de terceiros, na forma estabelecida por esta NR e na Norma Regulamentadora n° 05 (NR-05), naquilo que não for contrário.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 8586
+  },
+  {
+    "id": "chunk-28",
+    "text": "**30.6.1.1** Os aquaviários serão representados na CIPA do estabelecimento com maior número de trabalhadores, na razão de um membro titular para cada dez embarcações da organização, ou fração, e de um suplente para cada vinte embarcações da organização, ou fração.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 8906
+  },
+  {
+    "id": "chunk-29",
+    "text": "**30.6.2** Os aquaviários candidatos à CIPA serão eleitos em votação em separado, tendo todos os direitos assegurados pela legislação vigente. \n**30.6.2.1** Os aquaviários que estejam em período de descanso poderão participar do processo eleitoral, devendo a organização garantir os meios necessários para o exercício do voto.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 9174
+  },
+  {
+    "id": "chunk-30",
+    "text": "Este texto não substitui o publicado no DOU \n**30.6.3** O empregador adotará os meios necessários para a participação do(s) trabalhador(es) eleito(s) nas reuniões da CIPA, inclusive, mediante a adoção de meios eletrônicos de comunicação. \n**30.6.3.1** A participação por meio eletrônico de comunicação será consignada em ata, assinada pelos demais presentes, que suprirá sua assinatura.",
+    "heading": "**30.5 Proteção à saúde**",
+    "char_offset": 9505
+  },
+  {
+    "id": "chunk-31",
+    "text": "**30.6.4** Os membros da CIPA eleitos, titulares e suplentes, quando embarcados, devem participar da reunião mensal do GSSTB.",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 10022
+  },
+  {
+    "id": "chunk-32",
+    "text": "**30.7.1** É obrigatória a constituição de GSSTB a bordo das embarcações de bandeira nacional com, no mínimo, 500 (quinhentos) AB. \n**30.7.1.1** Às embarcações de bandeira estrangeira que forem operar por mais de 180 (cento e oitenta) dias em águas jurisdicionais brasileiras e com trabalhadores brasileiros a bordo aplicase o disposto no subitem 30.7.1.",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 10024
+  },
+  {
+    "id": "chunk-33",
+    "text": "**30.7.2** O GSSTB funcionará sob a orientação e o apoio técnico dos Serviços Especializados em Segurança e Medicina do Trabalho - SESMT, observado o disposto na Norma Regulamentadora nº 04 (NR-04). \n**30.7.3** Da composição \n**30.7.3.1** O GSSTB fica sob a responsabilidade do comandante da embarcação e deve ser integrado pelos seguintes tripulantes:",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 10383
+  },
+  {
+    "id": "chunk-34",
+    "text": "a) encarregado da segurança; \nb) chefe de máquinas; \nc) representante do nível técnico de subalterno da seção de convés; \nd) responsável pela seção de saúde, se existente; e \ne) representante do nível técnico de subalterno da seção de máquinas. \n**30.7.3.1.1** Caso a embarcação não disponha dos tripulantes acima mencionados, os integrantes poderão ser substituídos por outros tripulantes com funções assemelhadas.",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 10743
+  },
+  {
+    "id": "chunk-35",
+    "text": "**30.7.3.2** Quando a lotação da embarcação for composta de registro em rol portuário, o GSSTB será constituído por um representante de cada seção de aquaviários da lotação do rol, sendo, no mínimo, 1 (um) GSSTB para cada 5 (cinco) embarcações ou fração existentes na empresa.",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 11161
+  },
+  {
+    "id": "chunk-36",
+    "text": "**30.7.3.3** O comandante tomará as providências para proporcionar aos membros do GSSTB os meios necessários ao desempenho de suas funções e ao cumprimento das deliberações do grupo. \n**30.7.4** O GSSTB tem como finalidade manter procedimentos que visem à preservação da segurança e saúde no trabalho, procurando atuar de forma preventiva.",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 11441
+  },
+  {
+    "id": "chunk-37",
+    "text": "Este texto não substitui o publicado no DOU \n**30.7.4.1** Os membros do GSSTB deverão ser treinados para desempenhar as atribuições elencadas no subitem 30.7.5. \n**30.7.5** São atribuições do GSSTB: \na) zelar pelo cumprimento das normas de segurança e saúde, objetivando a preservação da segurança e saúde no trabalho a bordo;",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 11786
+  },
+  {
+    "id": "chunk-38",
+    "text": "b) avaliar se as medidas existentes a bordo para prevenção de acidentes e doenças relacionadas ao trabalho atendem ao estabelecido no PGRTA; \nc) informar possíveis riscos ocupacionais não previstos no PGRTA e sugerir medidas de prevenção; \nd) verificar e informar deficiências de sistemas e equipamentos de segurança e de salvatagem;",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 12117
+  },
+  {
+    "id": "chunk-39",
+    "text": "e) preencher o quadro estatístico de acidentes, conforme modelo constante no Quadro I, e elaborar relatório, encaminhando-os ao empregador; \nf) participar do planejamento para a execução dos exercícios regulamentares de segurança, previstos nas NR e nas NORMAM, avaliando os resultados e propondo medidas corretivas;",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 12454
+  },
+  {
+    "id": "chunk-40",
+    "text": "g) promover, a bordo, palestras e debates de caráter educativo, assim como a distribuição de publicações e/ou recursos audiovisuais relacionados com os propósitos do grupo; \nh) identificar as necessidades de treinamento sobre segurança e saúde no trabalho;",
+    "heading": "**30.7 Grupo de Segurança e Saúde no Trabalho a Bordo das Embarcações - GSSTB**",
+    "char_offset": 12774
+  },
+  {
+    "id": "chunk-41",
+    "text": "i) contribuir para a melhoria das condições de trabalho e de bem-estar a bordo; e \nj) verificar a adoção de medidas de proteção coletiva e que todos a bordo recebam e usem equipamentos de proteção individual adequados ao risco.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 13264
+  },
+  {
+    "id": "chunk-42",
+    "text": "**30.7.6.1** O GSSTB reunir-se-á, em sessão ordinária, de caráter obrigatório, pelo menos uma vez a cada 30 (trinta) dias. \n**30.7.6.1.1** As reuniões do GSSTB devem contemplar, no mínimo, os seguintes temas: \na) leitura da ata da reunião anterior e acompanhamento dos itens pendentes;",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 13267
+  },
+  {
+    "id": "chunk-43",
+    "text": "b) relatos sobre fatores de risco observados a bordo; \nc) avaliação das medidas existentes a bordo para prevenção de acidentes e doenças relacionadas ao trabalho; \nd) verificação do correto funcionamento dos sistemas e equipamentos de segurança e de salvatagem;",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 13557
+  },
+  {
+    "id": "chunk-44",
+    "text": "e) relato de eventual deficiência dos sistemas e equipamentos de segurança e de salvatagem; \nf) apresentação de resultados de investigação de acidentes e ocorrências perigosas ocorridos no último mês e ações corretivas adotadas e propostas; \ng) identificação das necessidades de treinamento da tripulação referentes à segurança e saúde no trabalho;",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 13823
+  },
+  {
+    "id": "chunk-45",
+    "text": "h) avaliação do estado do navio quanto às condições de habitabilidade, conforto, arrumação e limpeza, definindo ações corretivas; \nEste texto não substitui o publicado no DOU \ni) análise das solicitações de materiais não-atendidas que estejam impactando a segurança; e",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 14176
+  },
+  {
+    "id": "chunk-46",
+    "text": "j) informação sobre os dados do Quadro I referente a estatísticas de acidentes, relativos ao mês anterior. \n**30.7.6.2** As reuniões extraordinárias ocorrerão nas seguintes situações: \na) por iniciativa do comandante da embarcação; \nb) por solicitação escrita da maioria dos componentes do GSSTB ao comandante da embarcação;",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 14450
+  },
+  {
+    "id": "chunk-47",
+    "text": "c) quando da ocorrência de acidente a bordo em que haja morte ou desaparecimento, lesão grave ou prejuízo material de grande monta; e \nd) na ocorrência de incidente, práticas ou procedimentos que possam gerar riscos ao trabalho a bordo. \n**30.7.6.3** Serão consideradas de efetivo trabalho as horas destinadas ao cumprimento das atribuições do GSSTB, que devem ser realizadas durante a jornada de trabalho.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 14779
+  },
+  {
+    "id": "chunk-48",
+    "text": "**30.7.6.4** O comandante da embarcação poderá convocar qualquer outro membro da tripulação para participar das reuniões do GSSTB. \n**30.7.6.5** Ao final de cada reunião será elaborada uma ata referente às questões discutidas. \n**30.7.6.5.1** As atas das reuniões ficarão arquivadas a bordo, sendo extraídas cópias para o envio à direção da organização ou, quando houver, diretamente aos SESMT, devendo ser apresentada na próxima reunião ordinária da CIPA.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 15190
+  },
+  {
+    "id": "chunk-49",
+    "text": "**30.7.6.6** Anualmente o GSSTB reunir-se-á a bordo com representantes do SESMT da empresa, em porto nacional escolhido por esta, para acompanhamento, monitoramento e avaliação das atividades do referido grupo. \n**30.7.6.6.1** Na inviabilidade da presença a bordo do representante do SESMT da organização, a reunião poderá se dar por videoconferência, contemplando no máximo 20% (vinte por cento) da frota da organização nessa modalidade de reunião virtual.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 15650
+  },
+  {
+    "id": "chunk-50",
+    "text": "**30.7.6.6.1.1** As frações de unidade resultante da aplicação do percentual sobre a base de cálculo do subitem 30.7.6.6.1 não serão consideradas. \n**30.7.6.6.1.2** A organização deverá justificar a inviabilidade ao comandante, que consignará em ata da reunião do GSSTB.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 16111
+  },
+  {
+    "id": "chunk-51",
+    "text": "**30.7.6.7** Quando o empregador não for obrigado a manter o SESMT, deverá recorrer aos serviços profissionais de uma assessoria especializada em segurança e medicina do trabalho para avaliação anual das atividades do GSSTB. \n**30.7.7** Das comunicações e providências",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 16385
+  },
+  {
+    "id": "chunk-52",
+    "text": "**30.7.7.1** Cabe ao comandante da embarcação: \nEste texto não substitui o publicado no DOU \na) comunicar e divulgar as normas que a tripulação deve conhecer e cumprir em matéria de segurança e saúde no trabalho, em especial o PGRTA; \nb) dar conhecimento à tripulação das sanções legais que poderão advir do descumprimento desta norma regulamentadoras e das demais normas gerais e especiais, no que tange ao trabalho a bordo; e",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 16659
+  },
+  {
+    "id": "chunk-53",
+    "text": "c) encaminhar à empresa as atas das reuniões do GSSTB solicitando o atendimento para os itens que não puderam ser resolvidos com os recursos de bordo. \n**30.7.7.2** Cabe ao empregador ou equiparado: \na) analisar as propostas do grupo, implementando-as sempre que se mostrarem exequíveis e, em qualquer caso, informar ao GSSTB sua decisão fundamentada;",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 17091
+  },
+  {
+    "id": "chunk-54",
+    "text": "b) assegurar quando do transporte de substâncias perigosas que o comandante da embarcação tenha conhecimento das medidas de segurança que deverão ser tomadas; e \nc) promover os meios necessários para o cumprimento das atribuições do GSSTB previstas nos subitens 30.7.4 e 30.7.5.",
+    "heading": "**30.7.6** Das reuniões",
+    "char_offset": 17446
+  },
+  {
+    "id": "chunk-55",
+    "text": "**30.8.1** Toda embarcação comercial deve ter a bordo o aprovisionamento de víveres e água potável, observados: \na) a duração e a natureza da viagem; \nb) o número de tripulantes; e \nc) as situações de emergência. \n**30.8.1.1** Os víveres e a água potável devem ser acondicionados em local que preserve suas características e propriedades para consumo.",
+    "heading": "**30.8 Alimentação**",
+    "char_offset": 17732
+  },
+  {
+    "id": "chunk-56",
+    "text": "**30.8.1.2** Para manutenção da saúde e higiene dos trabalhadores naquelas embarcações onde houver a confecção de refeições a bordo, se faz necessário que as atividades relacionadas ao preparo e execução das refeições estabelecidas no cardápio balanceado sejam realizadas por cozinheiro, em conformidade com a NORMAM e com a legislação sanitária aplicável.",
+    "heading": "**30.8 Alimentação**",
+    "char_offset": 18086
+  },
+  {
+    "id": "chunk-57",
+    "text": "**30.8.1.2.1** Estão dispensadas de cozinheiro as embarcações cujas singraduras sejam inferiores a (doze) horas e trafeguem em área onde seja possível o apoio de alimentação proveniente de facilidades em terra, garantidas condições higiênico-sanitárias em conformidade com a legislação sanitária aplicável.",
+    "heading": "**30.8 Alimentação**",
+    "char_offset": 18445
+  },
+  {
+    "id": "chunk-58",
+    "text": "**30.9.1** Os membros da tripulação devem dispor de camas individuais. \n**30.9.2** As camas devem estar colocadas a uma distância uma da outra de modo a que se permita o acesso a uma delas sem passar por cima da outra. \n**30.9.3** A cama superior deve ser provida de escada fixa para que possa ser acessada com",
+    "heading": "**30.9 Camarotes**",
+    "char_offset": 18757
+  },
+  {
+    "id": "chunk-59",
+    "text": "Este texto não substitui o publicado no DOU \nsegurança. \n**30.9.4** É vedada a sobreposição de mais de duas camas. \n**30.9.5** É vedada a sobreposição de camas ao longo do costado da embarcação, quando esta sobreposição impedir a ventilação e iluminação natural proporcionada por uma vigia.",
+    "heading": "**30.9 Camarotes**",
+    "char_offset": 19073
+  },
+  {
+    "id": "chunk-60",
+    "text": "a) estar dispostas a mais de 0,30 m (trinta centímetros) do piso; \nb) ter dimensões internas não inferiores a 1,98 m (um metro e noventa e oito centímetros) por 0,80 m (oitenta centímetros); \nc) dispor de colchões certificados pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - INMETRO ou Organismo Certificador Internacional; e",
+    "heading": "**30.9.6** As camas devem:",
+    "char_offset": 19369
+  },
+  {
+    "id": "chunk-61",
+    "text": "d) dispor de iluminação artificial ou suplementar. \n**30.9.7** O fornecimento, conservação e higienização de colchões e de roupa de cama devem ser por conta do empregador. \n**30.9.8** Os camarotes das embarcações acima de 500 AB (quinhentos de arqueação bruta) deve estar provido de:",
+    "heading": "**30.9.6** As camas devem:",
+    "char_offset": 19715
+  },
+  {
+    "id": "chunk-62",
+    "text": "a) mesa ou escrivaninha; \nb) espelho; \nc) armário para artigos usados no asseio pessoal; \nd) estante para livros; \ne) cabides para pendurar roupas; \nf) armário individual; e \ng) cesto de lixo. \n**30.9.8.1** O mobiliário deve ser de material liso e resistente, que não se deforme pela corrosão.",
+    "heading": "**30.9.6** As camas devem:",
+    "char_offset": 20008
+  },
+  {
+    "id": "chunk-63",
+    "text": "**30.9.9** Nos casos de prévia utilização de qualquer acomodação por tripulante portador de doença infectocontagiosa, o local deverá ser submetido a uma desinfecção que atenda aos protocolos da Autoridade Sanitária.",
+    "heading": "**30.10 Salões de Refeições e Locais de Recreio**",
+    "char_offset": 20522
+  },
+  {
+    "id": "chunk-64",
+    "text": "**30.10.1** Os pisos devem ser de material antiderrapante e as anteparas não devem apresentar irregularidades e depressões. \n**30.10.1.1** Os pisos e as anteparas devem ser mantidos limpos e conservados. \n**30.10.2** As mesas e cadeiras devem: \na) possuir dispositivos para fixação ao piso;",
+    "heading": "**30.10 Salões de Refeições e Locais de Recreio**",
+    "char_offset": 20526
+  },
+  {
+    "id": "chunk-65",
+    "text": "Este texto não substitui o publicado no DOU \nb) ser de material resistente à umidade; \nc) ser de fácil limpeza; e \nd) estar em perfeitas condições de uso. \n**30.10.3** Nas embarcações maiores que 3000 AB (três mil de arqueação bruta), devem ser instaladas salas de lazer, com mobiliário próprio.",
+    "heading": "**30.10 Salões de Refeições e Locais de Recreio**",
+    "char_offset": 20823
+  },
+  {
+    "id": "chunk-66",
+    "text": "**30.10.3.1** Nas embarcações menores que as previstas no subitem 30.10.3, o refeitório pode ser utilizado como sala de lazer.",
+    "heading": "**30.11 Cozinha**",
+    "char_offset": 21250
+  },
+  {
+    "id": "chunk-67",
+    "text": "**30.11.1** A captação de fumaças, vapores e odores deve ser feita mediante a utilização de um sistema de exaustão. \n**30.11.2** Os recipientes de gás liquefeito de petróleo (GLP) e suas conexões devem ser: \na) certificados de acordo com as normas técnicas brasileiras ou normas técnicas internacionais aplicáveis; e",
+    "heading": "**30.11 Cozinha**",
+    "char_offset": 21253
+  },
+  {
+    "id": "chunk-68",
+    "text": "b) instalados em área externa ventilada, sinalizada e protegida. \n**30.11.2.1** As canalizações utilizadas para a distribuição de gás deverão ter proteção adequada contra o calor e, quando flexíveis, deverão atender as normas técnicas brasileiras ou normas técnicas internacionais aplicáveis.",
+    "heading": "**30.11 Cozinha**",
+    "char_offset": 21573
+  },
+  {
+    "id": "chunk-69",
+    "text": "**30.11.3** Os fogões deverão ser dotados de dispositivos que impeçam a queda e o deslocamento de panelas e utensílios quando do balanço da embarcação.",
+    "heading": "**30.12 Instalações Sanitárias**",
+    "char_offset": 22022
+  },
+  {
+    "id": "chunk-70",
+    "text": "**30.12.1** As embarcações devem possuir instalações sanitárias obedecendo aos seguintes requisitos: \na) os pisos devem ser de material antiderrapante, impermeável, de fácil limpeza e devem estar providos de um sistema de drenagem; \nb) os locais devem ser devidamente iluminados e arejados;",
+    "heading": "**30.12 Instalações Sanitárias**",
+    "char_offset": 22025
+  },
+  {
+    "id": "chunk-71",
+    "text": "c) as pias devem ter o necessário abastecimento de água doce, quente e fria; \nd) os vasos sanitários devem ter pressão de descarga dimensionada, permitindo seu funcionamento a qualquer momento e o seu controle de modo individual e, quando necessário, dispor de ducha higiênica próxima;",
+    "heading": "**30.12 Instalações Sanitárias**",
+    "char_offset": 22319
+  },
+  {
+    "id": "chunk-72",
+    "text": "e) quando houver vários vasos sanitários instalados num mesmo local eles devem ser projetados para garantir a privacidade dos usuários; e \nf) as instalações sanitárias devem ser mantidas em permanente estado de conservação e limpeza.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 22844
+  },
+  {
+    "id": "chunk-73",
+    "text": "Este texto não substitui o publicado no DOU \n**30.13.1** Todas as embarcações com 500 AB (quinhentos de arqueação bruta) ou mais devem ter máquinas para lavagem e secagem de roupas de trabalho. \n**30.13.1.1** As embarcações com menos de 500 AB (quinhentos de arqueação bruta) deverão propiciar meios e locais para lavagem e secagem de roupas de trabalho.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 22847
+  },
+  {
+    "id": "chunk-74",
+    "text": "**30.13.2** As instalações para a lavagem de roupas devem ter abastecimento de água doce. \n**30.13.3** Deve haver local devidamente arejado e de fácil acesso para guardar as roupas de trabalho. \n**30.14 Segurança na Manutenção em Embarcação em Operação**",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 23206
+  },
+  {
+    "id": "chunk-75",
+    "text": "**30.14.1** As atividades de manutenção em embarcação em operação devem observar o disposto neste item. \n**30.14.1.1** Este item não se aplica a embarcação em comissionamento. \n**30.14.1.2** O tripulante não deve realizar trabalhos de manutenção cumulativamente com atividades de vigilância, navegação, carga ou descarga.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 23465
+  },
+  {
+    "id": "chunk-76",
+    "text": "**30.14.2** Cabe ao comandante da embarcação: \na) assegurar a implementação das medidas de prevenção antes do início de qualquer trabalho de manutenção; \nb) assegurar a realização da Análise de Risco (AR) e, quando aplicável, a emissão da Permissão de Trabalho (PT);",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 23791
+  },
+  {
+    "id": "chunk-77",
+    "text": "c) informar aos trabalhadores sobre os riscos da atividade de manutenção e as medidas de prevenção a serem adotadas \nd) assegurar que os trabalhos sejam imediatamente interrompidos quando houver mudanças nas condições ambientais que os tornem potencialmente perigosos à integridade física dos trabalhadores; e",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 24061
+  },
+  {
+    "id": "chunk-78",
+    "text": "e) proporcionar condições para que os tripulantes possam colaborar com a implementação das medidas previstas nesta Norma, bem como interromper imediatamente o trabalho, conforme previsto na alínea “d” deste subitem. \n**30.14.3** Todo trabalho de manutenção em embarcação em operação deve ser precedido de AR.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 24374
+  },
+  {
+    "id": "chunk-79",
+    "text": "**30.14.3.1** A AR deve indicar a necessidade de emissão de PT. \n**30.14.3.2** A AR deve ser: \na) realizada pela equipe técnica envolvida na atividade de manutenção; \nb) coordenada pelo responsável pela aplicação desta NR a bordo; \nc) registrada em documento; e",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 24689
+  },
+  {
+    "id": "chunk-80",
+    "text": "d) assinada por todos os participantes da análise, podendo a assinatura ser eletrônica. \nEste texto não substitui o publicado no DOU \n**30.14.4** A PT deve conter: \na) as disposições e medidas estabelecidas na AR; \nb) os requisitos mínimos a serem atendidos para a execução das atividades; e",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 24957
+  },
+  {
+    "id": "chunk-81",
+    "text": "c) os participantes da equipe de trabalho e suas autorizações. \n**30.14.4.1** A PT deve ser: \na) aprovada pelo responsável pela aplicação da desta NR a bordo; \nb) assinada pelos participantes da equipe de trabalho e pela chefia imediata; e \nc) disponibilizada no local de execução das atividades.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 25255
+  },
+  {
+    "id": "chunk-82",
+    "text": "**30.14.4.2** A PT deve ter validade limitada à duração da atividade, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho. \n**30.14.4.2.1** A validade da PT não poderá exceder o período de 24 (vinte e quatro) horas.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 25555
+  },
+  {
+    "id": "chunk-83",
+    "text": "**30.14.5** No trabalho a quente, nas atividades de pintura spray e de jateamento se aplicam as disposições do subitem 30.14.4. \n**30.14.6** Os serviços em espaços confinados somente devem ser realizados de acordo com a Norma Regulamentadora nº 33 (NR-33) - Segurança e Saúde no Trabalho em Espaços Confinados.",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 25872
+  },
+  {
+    "id": "chunk-84",
+    "text": "**30.14.7** Na execução do trabalho em altura, além do cumprimento da Norma Regulamentadora nº 35 (NR-35) - Trabalho em Altura, devem ser tomadas as seguintes providências: \na) isolamento e sinalização de toda a área afetada pelo serviço antes do início das atividades; e",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 26186
+  },
+  {
+    "id": "chunk-85",
+    "text": "b) adoção de medidas para evitar a queda de ferramentas e materiais, inclusive no caso de paralisação dos trabalhos. \n**30.14.7.1** O trabalho em altura deve ser interrompido imediatamente em caso de: \na) iluminação insuficiente; \nb) condições meteorológicas adversas como chuvas, ventos relativos com intensidades superiores a 20 (vinte) nós e ondas com altura acima de 2,5 m (dois metros e meio); e",
+    "heading": "**30.13 Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho**",
+    "char_offset": 26463
+  },
+  {
+    "id": "chunk-86",
+    "text": "c) na ocorrência de balanços longitudinais e transversais que possam causar riscos ao trabalhador.",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 26967
+  },
+  {
+    "id": "chunk-87",
+    "text": "**30.15.1** Os equipamentos de guindar e acessórios devem ser certificados. \n**30.15.1.1** Nova certificação deve ocorrer de acordo com o prazo estabelecido em norma técnica nacional ou em conformidade com recomendação do órgão certificador, em prazo não superior a 5 (cinco) anos.",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 26969
+  },
+  {
+    "id": "chunk-88",
+    "text": "Este texto não substitui o publicado no DOU \n**30.15.2** Todo equipamento de movimentação de carga deve apresentar, de forma legível e de fácil visualização, sua capacidade máxima de carga. \n**30.15.3** Os equipamentos de guindar e acessórios devem ser submetidos a inspeções:",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 27255
+  },
+  {
+    "id": "chunk-89",
+    "text": "a) iniciais, antes da sua entrada em operação; \nb) periódicas; \nc) eventuais; e \nd) diárias, antes de iniciar qualquer movimentação. \n**30.15.3.1** As inspeções iniciais e periódicas do equipamento de guindar e acessórios devem ser realizadas por trabalhadores qualificados sob supervisão de profissional legalmente habilitado ou por Sociedades Classificadoras reconhecidas pela Autoridade competente, que ateste o bom estado de conservação e funcionamento em conformidade com a Legislação Nacional.",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 27538
+  },
+  {
+    "id": "chunk-90",
+    "text": "**30.15.3.1.1** A periodicidade das inspeções deve ser realizada conforme calendário de inspeções, em prazos entre as inspeções não superiores a doze meses, de acordo com as recomendações: \na) do fabricante; \nb) do órgão certificador; ou \nc) decorrentes da última inspeção.",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 28043
+  },
+  {
+    "id": "chunk-91",
+    "text": "**30.15.3.1.2** Após a realização das inspeções iniciais e periódicas deve ser emitido relatório de inspeção por profissional legalmente habilitado. \n**30.15.3.1.2.1** O relatório de inspeção periódica deve conter: \na) critérios e normas técnicas utilizadas;",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 28321
+  },
+  {
+    "id": "chunk-92",
+    "text": "b) itens inspecionados; \nc) não conformidades encontradas, descrevendo as impeditivas e as não impeditivas à operação do equipamento; \nd) medidas corretivas adotadas para as não conformidades impeditivas ao seu funcionamento; \ne) cronograma de correção para as irregularidades não impeditivas que não representem, isoladamente ou em conjunto, perigo à segurança e à saúde dos trabalhadores;",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 28585
+  },
+  {
+    "id": "chunk-93",
+    "text": "f) data estabelecida para a próxima inspeção; e \ng) parecer conclusivo quanto à operação do equipamento. \n**30.15.3.1.2.1.1** Para os navios de bandeira estrangeira, que venham a operar em águas jurisdicionais brasileiras (AJB), será aceito o relatório das inspeções periódicas elaborado no país de origem, sendo exigível o conteúdo previsto no subitem 30.15.3.1.2.1 nas próximas inspeções periódicas.",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 28980
+  },
+  {
+    "id": "chunk-94",
+    "text": "**30.15.3.2** A inspeção eventual deve ser realizada quando da ocorrência de manutenção, reparo ou avaria que possa afetar a operação segura do equipamento, em conformidade com as recomendações do fabricante ou do órgão certificador. \nEste texto não substitui o publicado no DOU",
+    "heading": "**30.15 Movimentação de Carga**",
+    "char_offset": 29385
+  },
+  {
+    "id": "chunk-95",
+    "text": "**30.15.3.3** As inspeções diárias devem ser realizadas pelo operador do equipamento ou trabalhador capacitado a cada jornada antes de iniciar qualquer movimentação.",
+    "heading": "**30.16 Máquinas e equipamentos**",
+    "char_offset": 29834
+  },
+  {
+    "id": "chunk-96",
+    "text": "**30.16.1** As máquinas e equipamentos utilizados no trabalho aquaviário devem atender ao disposto na Norma Regulamentadora nº 12 (NR-12) - Segurança no Trabalho em Máquinas e Equipamentos. \n**30.16.1.1** O disposto no subitem anterior não se aplica às máquinas e aos equipamentos certificados pela Autoridade Competente do País de Bandeira ou por Sociedade Classificadora ou Certificadora por ela reconhecida, desde que atendidos todos os requisitos técnicos de construção relacionados à segurança da máquina ou equipamento e mantidos de acordo com o projeto da embarcação.",
+    "heading": "**30.16 Máquinas e equipamentos**",
+    "char_offset": 29836
+  },
+  {
+    "id": "chunk-97",
+    "text": "**30.16.2** A distância mínima entre máquinas, em conformidade com suas características, aplicações e projeto da embarcação, deve resguardar a segurança e a saúde dos trabalhadores durante sua operação, manutenção, ajuste, limpeza e inspeção. \n**30.16.3** As áreas de circulação e armazenamento de materiais e os espaços em torno de máquinas devem ser mantidos de acordo com o projeto da embarcação, de forma que os trabalhadores e os transportadores de materiais movimentem-se com segurança.",
+    "heading": "**30.16 Máquinas e equipamentos**",
+    "char_offset": 30414
+  },
+  {
+    "id": "chunk-98",
+    "text": "**30.17.1** Além do previsto na NR-01, a capacitação e treinamento em segurança e saúde no trabalho deve atender ao disposto neste item. \n**30.17.1.1** O tomador de serviços de profissionais não tripulantes deverá exigir do prestador de serviços o(s) certificado(s) de capacitação para o exercício das atividades que irão realizar.",
+    "heading": "**30.17 Capacitação e treinamento em Segurança e Saúde no Trabalho**",
+    "char_offset": 30911
+  },
+  {
+    "id": "chunk-99",
+    "text": "**30.17.2** Toda capacitação que envolver a operação de máquina ou de equipamento deverá ter conteúdo programático compatível com a máquina ou o equipamento a ser utilizado. \n**30.17.3** Do Treinamento inicial \n**30.17.3.1** O treinamento inicial será presencial, aplicado a todos os tripulantes e terá carga horária mínima de 4 (quatro) horas, abordando, no mínimo, o seguinte conteúdo programático:",
+    "heading": "**30.17 Capacitação e treinamento em Segurança e Saúde no Trabalho**",
+    "char_offset": 31247
+  },
+  {
+    "id": "chunk-100",
+    "text": "a) capacitação básica em segurança do trabalho: \nI - as condições do local de trabalho; \nII - os riscos inerentes às atividades desenvolvidas; \nIII - o uso adequado dos equipamentos de proteção individual e coletiva; e \nb) em caso de operação de máquina ou de equipamento, o mencionado no subitem 30.17.2.",
+    "heading": "**30.17 Capacitação e treinamento em Segurança e Saúde no Trabalho**",
+    "char_offset": 31654
+  },
+  {
+    "id": "chunk-101",
+    "text": "**30.17.3.2** Os treinamentos periódicos deverão ser aplicados a cada 2 (dois) anos e abranger no mínimo o conteúdo programático do treinamento inicial. Este texto não substitui o publicado no DOU",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 32161
+  },
+  {
+    "id": "chunk-102",
+    "text": "**30.18.1** Deve ser garantido acesso seguro para o embarque e desembarque da embarcação. \n**30.18.2** Acesso à embarcação atracada \n**30.18.2.1** As escadas, pranchas, rampas e demais meios de acesso às embarcações devem ser mantidos em bom estado de conservação e limpeza, sendo preservadas as características das superfícies antiderrapantes.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 32164
+  },
+  {
+    "id": "chunk-103",
+    "text": "**30.18.2.2** As escadas e pranchas de acesso às embarcações devem dispor de corrimão. \n**30.18.2.2.1** Os corrimãos devem oferecer resistência e apoio em toda a sua extensão, e quando constituídos por cordas ou cabos de aço devem estar sempre esticados.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 32512
+  },
+  {
+    "id": "chunk-104",
+    "text": "**30.18.2.3** É proibida a colocação de extensões elétricas, mangueiras, mangotes e assemelhados nas estruturas e corrimões das escadas e pranchas de acesso das embarcações. \n**30.18.2.4** As escadas de acesso às embarcações ou estruturas complementares devem atender aos seguintes requisitos:",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 32770
+  },
+  {
+    "id": "chunk-105",
+    "text": "a) estar apoiadas em terra; \nb) compensar os movimentos da embarcação; \nc) possuir largura que permita o trânsito seguro; e \nd) possuir rede de segurança contra queda de pessoas. \n**30.18.2.4.1** Deve ser mantida na embarcação a seguinte documentação referente às escadas:",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 33070
+  },
+  {
+    "id": "chunk-106",
+    "text": "a) certificação de acordo com as normas técnicas aplicáveis; \nb) identificação permanente que permita correlacionar o equipamento à certificação; \nc) identificação da data em que foi colocada em serviço; e \ne) registro de reparos efetuados. \n**30.18.2.4.2** A rede de segurança deve obedecer aos seguintes requisitos:",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 33349
+  },
+  {
+    "id": "chunk-107",
+    "text": "a) ser mantida em perfeito estado de conservação \nb) ser montada envolvendo a parte inferior do meio de acesso; e \nc) proteger toda a extensão do meio de acesso. \n**30.18.2.5** A escada de portaló deve ficar posicionada em relação ao plano horizontal de modo que permita o acesso seguro à embarcação com ângulo máximo de 55 (cinquenta e cinco) graus, a menos que projetada e construída para uso em ângulos maiores que esse e devidamente marcada com essa informação.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 33672
+  },
+  {
+    "id": "chunk-108",
+    "text": "**30.18.2.6** Os suportes e os cabos de sustentação das escadas ligados ao guincho não podem criar obstáculos à circulação de pessoas e devem garantir a estabilidade da escada. \nEste texto não substitui o publicado no DOU \n**30.18.2.7** As pranchas, rampas ou passarelas de acesso, conjugadas ou não com as escadas de portaló, não certificadas por Organização Reconhecida por Autoridade Marítima da bandeira da embarcação devem seguir as seguintes especificações:",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 34142
+  },
+  {
+    "id": "chunk-109",
+    "text": "a) serem de concepção rígida; \nb) terem largura mínima de 0,80 m (oitenta centímetros); \nc) estarem providas de tacos transversais a intervalos entre 0,35m (trinta e cinco centímetros) e 0,45m (quarenta centímetros) em toda extensão do piso; \nd) possuírem corrimão, em ambos os lados de sua extensão, dotado de guarda-corpo duplo com régua superior situada a uma altura de 1,10 m (um metro e dez centímetros) e régua intermediária a uma altura entre 0,50m (cinquenta centímetros) e 0,70 m (setenta centímetros), medidas a partir da superfície do piso e perpendicularmente ao eixo longitudinal da escada;",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 34611
+  },
+  {
+    "id": "chunk-110",
+    "text": "e) serem dotadas de dispositivos que permitam fixá-las firmemente à escada da embarcação ou à sua estrutura numa extremidade; \nf) a extremidade, que se apoia no cais, deve ser dotada de dispositivo rotativo que permita acompanhar o movimento da embarcação; e",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 35218
+  },
+  {
+    "id": "chunk-111",
+    "text": "g) estarem posicionadas no máximo a 30 (trinta) graus de um plano horizontal. \n**30.18.2.8** É proibido o acesso de trabalhadores a embarcações em equipamentos de guindar, exceto em operações de resgate e salvamento; \n**30.18.2.9** Não é permitido o acesso à embarcação atracada utilizando-se escadas tipo quebrapeito.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 35481
+  },
+  {
+    "id": "chunk-112",
+    "text": "**30.18.3** Acesso à embarcação fundeada \n**30.18.3.1** Os dispositivos utilizados para transferência de pessoas em embarcação fundeada devem permitir o embarque e o desembarque seguro, devendo ser mantidos limpos e regularmente inspecionados. \n**30.18.3.2** O embarque e o desembarque de pessoas a bordo devem ser supervisionados por tripulante designado que disponha de meios de comunicação com o passadiço.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 35804
+  },
+  {
+    "id": "chunk-113",
+    "text": "**30.18.3.3** Os equipamentos mecânicos de auxílio ao embarque de pessoas a bordo devem ser inspecionados antes de sua utilização e operados por trabalhador capacitado. \n**30.18.3.4** A escada de acesso à embarcação deve ser, prioritariamente, do tipo portaló.",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 36217
+  },
+  {
+    "id": "chunk-114",
+    "text": "**30.18.3.5** A escada tipo quebra-peito, quando for utilizada, deve atender aos seguintes requisitos: \na) deve ter a possibilidade de ser instalada em qualquer dos bordos, numa posição segura em que não haja o risco de receber descargas eventuais provenientes do navio;",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 36481
+  },
+  {
+    "id": "chunk-115",
+    "text": "b) deve estar suficientemente afastada, na medida do possível, das arestas do navio e situar-se na parte plana do costado a meia-nau; \nEste texto não substitui o publicado no DOU \nc) deve ser lançada a sotavento; \nd) não deve exigir uma subida menor do que 1,50m (um metro e cinquenta centímetros) e nem maior do que 9m (nove metros);",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 36757
+  },
+  {
+    "id": "chunk-116",
+    "text": "e) quando a altura a ser escalada for superior a 9m (nove metros), a subida a bordo, a partir da escada de quebra-peito, deve se efetuar com a ajuda da escada de portaló; \nf) deve ser montada por tripulante capacitado e sob a sua supervisão; \ng) cada degrau deve se apoiar firmemente no costado do navio;",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 37096
+  },
+  {
+    "id": "chunk-117",
+    "text": "h) os degraus devem estar igualmente espaçados; \ni) o ponto de apoio para a fixação da escada, as manilhas e os cabos de fixação devem ser tão resistentes quanto os cabos laterais da escada; \nj) deve haver um travessão de no mínimo 180cm (cento e oitenta centímetros) de comprimento no máximo a cada 9 (nove) degraus; e",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 37405
+  },
+  {
+    "id": "chunk-118",
+    "text": "k) os travessões não devem ser colocados entre os degraus. \n**30.18.3.6** O acesso ao convés da embarcação deve ser mantido seguro, desobstruído e provido de iluminação. \n**30.18.3.7** Os seguintes equipamentos devem ser mantidos à mão e prontos para utilização imediata no embarque e desembarque de pessoas a bordo de embarcações:",
+    "heading": "**30.18 Acesso à embarcação**",
+    "char_offset": 37729
+  },
+  {
+    "id": "chunk-119",
+    "text": "a) dois cabos de segurança fixados no convés da embarcação; \nb) uma boia salva-vidas dotada de luz de acendimento automático; e \nc) uma retinida. \n**30.18.3.8** Os trabalhadores que acessem embarcação fundeada devem usar colete salva-vidas.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 38309
+  },
+  {
+    "id": "chunk-120",
+    "text": "**30.19.1** Os corredores, os camarotes, os refeitórios e as salas de recreação devem garantir segurança e proteção contra as intempéries e condições da navegação, bem como isolamento do calor, do frio, do ruído excessivo, das vibrações e das emanações provenientes de outras partes da embarcação.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 38310
+  },
+  {
+    "id": "chunk-121",
+    "text": "**30.19.1.1** A embarcação deverá possuir vias e saídas destinadas a situações de emergência, sinalizadas e desimpedidas, para a passagem dos tripulantes. \n**30.19.2** As tubulações de vapor, de descarga de gases e outras tubulações semelhantes não devem passar pelas acomodações da tripulação nem pelos corredores que as sirvam.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 38611
+  },
+  {
+    "id": "chunk-122",
+    "text": "**30.19.2.1** Caso, por motivos técnicos, seja necessário passar essas tubulações por tais corredores, elas deverão estar isoladas e protegidas. \n**30.19.3** Toda embarcação deve estar provida de um sistema de ventilação que mantenha o ar em condições atmosféricas satisfatórias, de modo suficiente a atender quaisquer circunstâncias climáticas.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 38944
+  },
+  {
+    "id": "chunk-123",
+    "text": "Este texto não substitui o publicado no DOU \n**30.19.4** Toda embarcação, à exceção daquelas destinadas exclusivamente à navegação nos trópicos, deve estar provida de um sistema de calefação que permita o conforto térmico nos alojamentos da tripulação.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 39293
+  },
+  {
+    "id": "chunk-124",
+    "text": "**30.19.4.1** Os radiadores e demais equipamentos de calefação devem estar instalados de modo a evitar perigo ou desconforto para os ocupantes dos alojamentos. \n**30.19.5** Todos os locais destinados à tripulação devem ser bem iluminados. \n**30.19.5.1** Quando não for possível obter luz natural suficiente, deve ser instalado um sistema de iluminação artificial.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 39550
+  },
+  {
+    "id": "chunk-125",
+    "text": "**30.19.6** Na embarcação onde a aplicação dos subitens 30.10.3 e 30.19.1 gere modificações estruturais incompatíveis tecnicamente com as áreas disponíveis, ou reformas capazes de influenciar na segurança da embarcação, deve ser apresentado pelo armador projeto técnico alternativo para aprovação pela autoridade competente e, para as embarcações classificadas ou certificadas, a aprovação da sociedade classificadora ou certificadora da embarcação.",
+    "heading": "**30.19 Disposições Gerais de Segurança e Saúde**",
+    "char_offset": 39916
+  },
+  {
+    "id": "chunk-126",
+    "text": "**Acessórios de movimentação** : dispositivos utilizados na movimentação de carga, situados entre a carga e o cabo de elevação do equipamento de transporte, tais como moitões, estropos, manilhas, balanças, correntes, grampos, destorcedores, olhais de suspensão, cintas e ganchos.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 40369
+  },
+  {
+    "id": "chunk-127",
+    "text": "**Análise de Risco - AR** : avaliação dos riscos potenciais, suas causas, consequências e medidas de prevenção. \n**Embarcação em comissionamento** : embarcação, sob responsabilidade de um estaleiro, em processo de assegurar que seus sistemas e componentes estejam projetados, instalados, testados, operados e mantidos de acordo com as necessidades e requisitos operacionais. O comissionamento pode ser aplicado tanto a novas embarcações quanto àquelas em processo de expansão, modernização ou ajuste.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 40652
+  },
+  {
+    "id": "chunk-128",
+    "text": "**Embarcação em operação** : qualquer embarcação em viagem, em trânsito ou em serviço de apoio marítimo de qualquer natureza, fundeada, atracada em atividade de carga e descarga, em atividades de manutenção e sem que a embarcação esteja sob responsabilidade contratual de um estaleiro.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 41155
+  },
+  {
+    "id": "chunk-129",
+    "text": "**Equiparado** : considera-se equiparado ao empregador a pessoa física ou jurídica com algum tipo de gestão sobre a embarcação ou sobre seus tripulantes, seja na posição de proprietário, armador, afretador, operador ou preposto. \n**Manutenção em embarcação em operação** : é o conjunto de procedimentos realizados para manter ou recolocar um equipamento, instalação ou maquinário de uma embarcação, durante a sua operação, em um estado que volte a desenvolver a função requerida inicialmente.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 41444
+  },
+  {
+    "id": "chunk-130",
+    "text": "**Nó** : unidade de medida de velocidade derivada da milha náutica, ou milha marítima. Um nó é igual a uma milha náutica por hora ou 1.852 (mil oitocentos e cinquenta e dois) metros por hora. \n**Ocorrência perigosa:** ocorrência que, sem ter resultado em danos à saúde ou integridade física de trabalhadores, tem potencial para causar tais agravos.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 41940
+  },
+  {
+    "id": "chunk-131",
+    "text": "Este texto não substitui o publicado no DOU \n**Permissão de Trabalho - PT** : documento escrito contendo conjunto de medidas de prevenção, visando ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate. \n**Rol Portuário** : é o documento hábil, emitido segundo modelo estabelecido pela Marinha do Brasil, (modelo DPC-2304) contendo os embarques e desembarques dos tripulantes de embarcações de uma mesma Empresa, empregadas na navegação Interior. É emitido por armadores, possibilitando a movimentação de seus tripulantes em suas embarcações de acordo com a conveniência do serviço.",
+    "heading": "**30.20 Glossário**",
+    "char_offset": 42293
+  },
+  {
+    "id": "chunk-132",
+    "text": "**Sotavento** : Lado contrário ao de onde vem o vento ou lado protegido do vento. \n**Vento relativo** : vento resultante da soma vetorial do vento real com o vento induzido pela velocidade da embarcação.",
+    "heading": "**<u>QUADRO I da NR-30</u>**",
+    "char_offset": 43109
+  },
+  {
+    "id": "chunk-133",
+    "text": "|**QUADRO**|**ESTATÍSTICO DE**|**ACIDENTES**||||\n|---|---|---|---|---|---|\n|**EMPRES**|**A:**||||**ANO:**|\n|**NAVIO:**||||||\n|**(1) HORA**<br>**EXPOSIÇ**|**S HOMEM DE**<br>**ÃO AO RISCO**|**NÚMERO DE ACID**<br>**OCORRIDOS**|**ENTES**|**TAXA DE**<br>**ACIDENT**|**ADOS**|",
+    "heading": "**<u>QUADRO I da NR-30</u>**",
+    "char_offset": 43110
+  },
+  {
+    "id": "chunk-134",
+    "text": "|**MÊS**|**QUANTIDADE**|**(2) SEM**<br>**AFASTAMENTO**|**(3) COM**<br>**AFASTAMENTO**|**(4) TFSA**|**(5) TFCA**|\n|**JAN**||||||\n|**FEV**||||||\n|**MAR**||||||\n|**ABR**||||||\n|**MAI**||||||\n|**JUN**||||||\n|**JUL**||||||\n|**AGO**||||||\n|**SET**||||||\n|**OUT**||||||",
+    "heading": "**<u>QUADRO I da NR-30</u>**",
+    "char_offset": 43381
+  },
+  {
+    "id": "chunk-135",
+    "text": "|**NOV**||||||\n|**DEZ**||||||\n|**TOTAL**||||||\n(1) Total de horas à disposição do empregador (número de tripulantes x 24 horas x 30 dias). \n- (2) Aquele em que o empregado retorna as suas atividades normais no mesmo dia do acidente ou no dia seguinte no início da próxima jornada de trabalho.",
+    "heading": "**<u>QUADRO I da NR-30</u>**",
+    "char_offset": 43646
+  },
+  {
+    "id": "chunk-136",
+    "text": "- (3) Aquele em que o empregado não retorna as suas atividades normais no mesmo dia do acidente ou no dia seguinte no início da próxima jornada de trabalho. \n(4) Número de acidentes sem afastamento x 1.000.000 / número de horas homem de exposição. \n(5) Número de acidentes com afastamento x 1.000.000 / número de horas homem de exposição.",
+    "heading": "**<u>QUADRO I da NR-30</u>**",
+    "char_offset": 43943
+  },
+  {
+    "id": "chunk-137",
+    "text": "Requisitos gerais para todos os trabalhadores aquaviários por ocasião do exame médico: \nEste texto não substitui o publicado no DOU \na) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de movimentar-se sobre superfícies escorregadias irregulares e instáveis;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 44288
+  },
+  {
+    "id": "chunk-138",
+    "text": "b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina de bordo, incluído agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; \nc) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 44575
+  },
+  {
+    "id": "chunk-139",
+    "text": "d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) ser capaz de manter uma conversação normal; \nf) não apresentar sintomas de distúrbios mentais ou de comportamento;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 44895
+  },
+  {
+    "id": "chunk-140",
+    "text": "g) dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles.",
+    "heading": "**Acuidade Visual**",
+    "char_offset": 45320
+  },
+  {
+    "id": "chunk-141",
+    "text": "|Suficiente com correção|Para os trabalhadores aquaviários que se tornarem|\n|---|---|\n|para|monoculares em serviço, sem evidência de doença|\n|desempenhar<br>suas|degenerativa progressiva, será requerida uma acuidade|\n|atividades ou funções a|visual, com correção, compatível com as atividades ou|",
+    "heading": "**Acuidade Visual**",
+    "char_offset": 45321
+  },
+  {
+    "id": "chunk-142",
+    "text": "|bordo.|funçõesque desempenham a bordo.|",
+    "heading": "**PADRÕES MÍNIMOS ESPECÍFICOS**",
+    "char_offset": 45660
+  },
+  {
+    "id": "chunk-143",
+    "text": "|**Função a bordo**|**Acuidade Visual Básica**|**Acuidade Visual Corrigida**|\n|---|---|---|\n|Comandante, Oficiais de<br>Náutica e Subalternos da<br>Seção de Convés.|Sem Correção<br>6 / 60 = 0,6|6 / 6 no melhor olho = 1 e<br>6 / 12 = 0,5 no outro olho|",
+    "heading": "**PADRÕES MÍNIMOS ESPECÍFICOS**",
+    "char_offset": 45661
+  },
+  {
+    "id": "chunk-144",
+    "text": "|Tripulante que se tornou mo<br>no olho remanescente|nocular em serviço com ev|idência de doença progressiva|\n|Comandante, Oficiais de<br>Náutica e Subalternos da<br>Seção de Convés.|Sem Correção<br>6 / 60 = 0,6|6 / 6 = 1 no olho<br>remanescente|\n|**Função a bordo**|**Acuidade Visual Básica**|**Acuidade Visual Corrigida**|",
+    "heading": "**PADRÕES MÍNIMOS ESPECÍFICOS**",
+    "char_offset": 45913
+  },
+  {
+    "id": "chunk-145",
+    "text": "|Oficiais de máquinas e<br>Subalternos da Seção de<br>Máquinas|Sem Correção<br>6 / 60 = 0,6|6 / 18 = 0,4|\n|Tripulante que se tornou mo<br>no olho remanescente|nocular em serviço com ev|idência de doença progressiva|\n|Oficiais de máquinas e<br>Subalternos da Seção de<br>Máquinas|Sem Correção<br>6 / 60 = 0,6|6 / 9 = 0,6 no olho<br>remanescente|",
+    "heading": "**PADRÕES MÍNIMOS ESPECÍFICOS**",
+    "char_offset": 46238
+  },
+  {
+    "id": "chunk-146",
+    "text": "Para todas as funções a bordo serão considerados como padrões mínimos específicos: \n- Sem condições significativas evidentes de visão dupla (diplopia); \n- Campos visuais suficientes e sem evidências de patologias; \n- Serão toleradas discromatopsias leves e moderadas, conforme os critérios estabelecidos nos",
+    "heading": "**PADRÕES MÍNIMOS ESPECÍFICOS**",
+    "char_offset": 46587
+  },
+  {
+    "id": "chunk-147",
+    "text": "- testes utilizados.",
+    "heading": "**QUADRO III da NR-30**",
+    "char_offset": 46920
+  },
+  {
+    "id": "chunk-148",
+    "text": "Este texto não substitui o publicado no DOU \n**PADRÕES MÉDICOS E MODELO DE CERTIFICADO MÉDICO (** **_HEALTH CERTIFICATE_ - CONVENÇÃO INTERNACIONAL SOBRE PADRÕES DE INSTRUÇÃO, CERTIFICAÇÃO E SERVIÇO DE QUARTO PARA MARÍTIMOS - STCW), PARA OS TRABALHADORES AQUAVIÁRIOS DO GRUPO MARÍTIMOS QUE OPERAM EMBARCAÇÕES CLASSIFICADAS PARA NAVEGAÇÃO EM MAR ABERTO E APOIO MARÍTIMO.**",
+    "heading": "**QUADRO III da NR-30**",
+    "char_offset": 46922
+  },
+  {
+    "id": "chunk-149",
+    "text": "Requisitos gerais por ocasião do exame médico: \n- a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de se movimentar sobre superfícies escorregadias irregulares e instáveis; \n- b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina e emergência a bordo, durante o período de validade do seu certificado médico, incluindo-se agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 47298
+  },
+  {
+    "id": "chunk-150",
+    "text": "- c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; \n- d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; \n- e) demonstrar ter uma audição e uma fala adequadas para se comunicar de maneira eficaz e detectar quaisquer alarmes sonoros;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 47820
+  },
+  {
+    "id": "chunk-151",
+    "text": "- f) não apresentar sintomas de distúrbios mentais ou de comportamento; \n- g) dentição - mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles; \n- h) não estar sofrendo de qualquer problema de saúde que possa ser agravado pelo serviço no mar ou tornar o aquaviário inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo;",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 48195
+  },
+  {
+    "id": "chunk-152",
+    "text": "- i) não estar tomando qualquer medicamento que tenha efeitos colaterais que possam prejudicar quaisquer requisitos para um desempenho eficaz e seguro de atribuições de rotina e de emergência a bordo; \n- j) ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais.",
+    "heading": "**PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS**",
+    "char_offset": 48630
+  },
+  {
+    "id": "chunk-153",
+    "text": "Suficiente com correção para desempenhar suas atividades ou funções a bordo. \nPara os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo.",
+    "heading": "**Acuidade Visual**",
+    "char_offset": 49025
+  },
+  {
+    "id": "chunk-154",
+    "text": "|**Regra da**|**Categoria**|**Visão**|**Visão para**|**Visão**|**Campo**|**Cegueira**|**Diplopia**|\n|---|---|---|---|---|---|---|---|\n|**Convenç**|**do**|**para**|**perto**|**de**|**s**|**noturna**<sup>**4**</sup>|**(visão**|\nEste texto não substitui o publicado no DOU",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 49346
+  },
+  {
+    "id": "chunk-155",
+    "text": "|**ão STCW**|**Aquaviário**|**long**<br>**com**<br>**corr**<br>Um<br>olh<br>o|**e**<br> <br>**eção¹**<br>Outr<br>o<br>olho|Os<br>dois<br>olhos<br>juntos,<br>com ou<br>sem<br>correção|**Core**<br>**s**<sup>**3**</sup>|**Visuais**<sup>**4**</sup>||**dupla)**<sup>**4**</sup>|",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 49618
+  },
+  {
+    "id": "chunk-156",
+    "text": "|---|---|---|---|---|---|---|---|---|\n|I/11<br>II/1<br>II/2<br>II/3<br>II/4<br>II/5<br>VII/2|Comandant<br>e,<br>oficiais<br>do<br>departamen<br>to<br>de convés e<br>subalternos<br>de convés<br>dos quais é<br>exigido que<br>desempenh<br>em<br>atribuições<br>de vigilância|0,5<br>²|0,5|Visão<br>exigida<br>para<br>a<br>navegação<br>do<br>navio<br>(ex.:<br>consulta a<br>cartas<br>e<br>publicaçõe<br>s<br>náuticas,<br>utilização<br>dos<br>instrument<br>os<br>e<br>equipamen<br>tos<br>do<br>passadiço<br>e<br>identificaç<br>ão<br>dos<br>auxílios à<br>navegação<br>)|Ver<br>Nota<br>6|Campos<br>visuais<br>normai<br>s|Visão<br>exigida<br>para<br>desempen<br>har<br>todas<br>as funções<br>necessária<br>s<br>no escuro,<br>sem<br>comprome<br>ter<br>o seu<br>desempen<br>ho|Nenhum<br>problem<br>a<br>significat<br>ivo<br>evidente|",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 49892
+  },
+  {
+    "id": "chunk-157",
+    "text": "|1/11<br>III/1<br>III/2<br>III/3<br>III/4<br>III/5<br>III/6<br>III/7|Todos<br>os<br>oficiais<br>de<br>máquinas,<br>oficiais<br>eletrotécnic<br>os,<br>subalternos<br>eletrotécnic<br>os|0,4<br>5|0,4<br>(Ver<br>Not<br>a 5)|Visão<br>exigida<br>para<br>ler<br>instrument<br>os<br>próximos,<br>para<br>operar<br>equipamen<br>tos e|Ver<br>Nota<br>7|Campos<br>visuais<br>suficien<br>tes|Visão<br>exigida<br>para<br>desempen<br>har<br>todas<br>as funções<br>necessária<br>s<br>no escuro,|Nenhum<br>problem<br>a<br>significat<br>ivo<br>evidente|",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 50714
+  },
+  {
+    "id": "chunk-158",
+    "text": "|VII/2|e<br>subalternos|||para<br>identificar|||sem<br>comprome||\nEste texto não substitui o publicado no DOU \n||ou<br>outros<br>que<br>façam parte<br>de<br>um<br>quarto<br>de<br>serviço<br>na<br>máquina|||sistemas/<br>componen<br>tes<br>como<br>for<br>necessário|||ter<br>o seu<br>desempen<br>ho||",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 51252
+  },
+  {
+    "id": "chunk-159",
+    "text": "|---|---|---|---|---|---|---|---|---|\n|I/11<br>IV/2|Radioperad<br>ores de<br>GMDSS|0,4|0,4|Visão<br>exigida<br>para<br>ler<br>instrument<br>os<br>próximos,<br>para<br>operar<br>equipamen<br>tos<br>e para<br>identificar<br>sistemas/<br>componen<br>tes<br>como for<br>necessário|Ver<br>Nota<br>7|Campos<br>visuais<br>suficien<br>tes|Visão<br>exigida<br>para<br>desempen<br>har<br>todas<br>as funções<br>necessária<br>s<br>no escuro,<br>sem<br>comprome<br>ter<br>o seu<br>desempen<br>ho|Nenhum<br>problem<br>a<br>significat<br>ivo<br>evidente|",
+    "heading": "**PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO**",
+    "char_offset": 51551
+  },
+  {
+    "id": "chunk-160",
+    "text": "1. Valores fornecidos na escala decimal de Snellen. \n2. É recomendado um valor de pelo menos 0,7 num olho, para reduzir o risco de uma doença subjacente não detectada nos olhos. \n3. Como definido nas Recomendações Internacionais para Exigências para Visão de Cores para Transporte pela CommissionInternationale de l’Eclairage (CIE-143-2001, inclusive quaisquer versões posteriores).",
+    "heading": "Notas:",
+    "char_offset": 52096
+  },
+  {
+    "id": "chunk-161",
+    "text": "4. Sujeito a uma avaliação por um especialista clínico em visão, quando indicado por conclusões no exame inicial. \n5. O pessoal do departamento de máquinas deverá ter uma visão conjunta de pelo menos 0,4. \n6. Padrão de visão de cores 1 ou 2 da CIE.",
+    "heading": "Notas:",
+    "char_offset": 52483
+  },
+  {
+    "id": "chunk-162",
+    "text": "7. Padrão de visão de cores 1, 2 ou 3 da CIE.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 52782
+  },
+  {
+    "id": "chunk-163",
+    "text": "|**TAREFA, FUNÇÃO, EVENTO**<br>**OU SITUAÇÃO A BORDO**<sup>**3**</sup>|**CAPACIDADE FÍSICA**<br>**RELACIONADA**|**UM EXAMINADOR MÉDICO**<br>**deve estar convencido de que**<br>**o**<br>**candidato**<sup>**4,5**</sup>|\n|---|---|---|\n|Movimentos de<br>rotina em||não tem perturbação do senso|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 52783
+  },
+  {
+    "id": "chunk-164",
+    "text": "|superfícies|Manter o equilíbrio|de|\n|escorregadias,desniveladas   e||equilíbrio.|\nEste texto não substitui o publicado no DOU \n|instáveis;risco de ferimentos|||\n|---|---|---|\n|Acesso de rotina entre níveis;<br>procedimentos de reação à<br>emergência|Subir e descer escadas<br>verticais e<br>Inclinadas|é capaz de subir e descer, sem<br>ajuda,<br>escadas<br>verticais<br>e<br>inclinadas.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 53076
+  },
+  {
+    "id": "chunk-165",
+    "text": "|Movimentos de rotina entre<br>espaços<br>e<br>compartimentos;<br>procedimentos de reação à<br>emergência|Passar<br>por<br>cima<br>de<br>braçolas (ex.: de até 60<br>cm de altura)|é capaz de passar por cima,<br>sem ajuda, de uma soleira de<br>porta alta (braçola).|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 53465
+  },
+  {
+    "id": "chunk-166",
+    "text": "|Abrir<br>e<br>fechar<br>portas<br>estanques; sistemas manuais<br>de manivelas; abrir e fechar<br>volantes de válvulas; manusear<br>cabos;<br>utilizar<br>ferramentas<br>manuais (isto é, chaves de<br>boca, machados de incêndio,<br>chaves para válvulas, martelos,<br>chaves de fenda,alicates)|Manusear<br>dispositivos<br>mecânicos (destreza e<br>força manual e digital)|é capaz de segurar, levantar e<br>manusear<br>diversas<br>ferramentas comuns de bordo;<br>mover as mãos/braços para<br>abrir e fechar volantes de<br>válvulas nas direções vertical e<br>horizontal; girar os punhos<br>para girar manivelas.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 53730
+  },
+  {
+    "id": "chunk-167",
+    "text": "|Obter acesso através do navio;<br>utilizar<br>ferramentas<br>e<br>equipamentos;<br>os<br>procedimentos de reação à<br>emergência<br>devem<br>ser<br>seguidos<br>prontamente,<br>inclusive vestir colete salva-<br>vidas ou roupa de exposição|Mover-se com agilidade|não tem qualquer debilitação<br>ou doença<br>que<br>possa<br>impedir<br>seus<br>movimentos e<br>suas atividades físicas normais.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 54337
+  },
+  {
+    "id": "chunk-168",
+    "text": "|Manusear os suprimentos de<br>bordo; utilizar ferramentas e<br>equipamentos;<br>manusear<br>cabos; seguir os procedimentos<br>de reação à emergência|Levantar,<br>puxar,<br>empurrar e transportar<br>uma carga|não tem qualquer debilitação<br>ou doença<br>que<br>possa<br>impedir<br>seus<br>movimentos e<br>suas atividades físicas normais.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 54729
+  },
+  {
+    "id": "chunk-169",
+    "text": "|||não tem qualquer debilitação<br>|\n|Armazenar em local elevado;<br>abrir e fechar válvulas|Alcançar locais acima da<br>altura dos ombros|ou doença<br>que<br>possa<br>impedir<br>seus<br>movimentos e<br>suas atividades físicas normais.|\n|Manutenção geral do navio;<br>procedimentos de reação à<br>emergência, inclusive controle<br>de avarias|Agachar (reduzir a altura<br>dobrando os joelhos);<br>Ajoelhar (colocar os<br>joelhos no chão);<br>Curvar o corpo (reduzir a<br>altura<br>curvando<br>a<br>cintura).|não tem qualquer debilitação<br>ou doença que possa impedir<br>seus<br>movimentos<br>e<br>suas<br>atividades físicas normais.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 55068
+  },
+  {
+    "id": "chunk-170",
+    "text": "||Rastejar (a capacidade de||\n|Procedimentos de reação à<br>emergência, inclusive escape<br>de compartimentos cheios de<br>fumaça|<br>mover o corpo com as<br>mãos e os joelhos);<br>Sentir (a capacidade de<br>manusear ou tocar para<br>examinar ou verificar|não tem qualquer debilitação<br>ou doença que possa impedir<br>seus<br>movimentos<br>e<br>suas<br>atividades físicas normais.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 55702
+  },
+  {
+    "id": "chunk-171",
+    "text": "Este texto não substitui o publicado no DOU \n||diferenças<br>de<br>temperatura).||\n|---|---|---|\n|Fazer serviço de quarto<br>no mínimo por 4 horas|Ficar em pé e andar por<br>longos<br>períodos<br>de<br>tempo|é capaz de ficar em pé e andar<br>por longos períodos de tempo.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 56087
+  },
+  {
+    "id": "chunk-172",
+    "text": "|Obter<br>acesso<br>entre<br>compartimentos;<br>seguir<br>os<br>procedimentos de reação à<br>emergência|Trabalhar em espaços<br>apertados e mover-se<br>através<br>de<br>aberturas<br>restritas (ex.: 60 cm x 60<br>cm)|não tem qualquer debilitação<br>ou doença que possa impedir<br>seus<br>movimentos<br>e<br>suas<br>atividades físicas normais.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 56360
+  },
+  {
+    "id": "chunk-173",
+    "text": "|Reagir a alarmes, avisos e<br>instruções<br>visuais;<br>procedimentos de reação à<br>emergência|Distinguir um objeto ou<br>uma forma a uma certa<br>distância|atende<br>aos<br>padrões<br>de<br>acuidade visual especificados<br>pela autoridade competente.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 56703
+  },
+  {
+    "id": "chunk-174",
+    "text": "|Reagir a alarmes e instruções<br>sonoras;<br>procedimentos<br>de<br>reação à emergência|Ouvir um som com um<br>nível especificado de dB,<br>numa<br>frequência<br>especificada|atende<br>aos<br>padrões<br>de<br>capacidade<br>auditiva<br>especificados pela autoridade<br>competente.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 56958
+  },
+  {
+    "id": "chunk-175",
+    "text": "|Dar informações verbais ou<br>chamar<br>a<br>atenção<br>para<br>situações suspeitas ou de<br>emergência|Descrever o que está à<br>sua volta e atividades<br>próximas e pronunciar<br>claramente aspalavras|é<br>capaz<br>de<br>manter<br>uma<br>conversação normal.|",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 57240
+  },
+  {
+    "id": "chunk-176",
+    "text": "**Observações:** \n1. A tabela acima descreve (a) as tarefas, funções, eventos e situações normais a bordo, (b) uma capacidade física correspondente que é considerada necessária para a segurança de um aquaviário que esteja vivendo e trabalhando a bordo de um navio no mar, e (c) uma diretriz para medir a capacidade física correspondente. As Administrações devem levar em conta estas capacidades físicas ao estabelecer os padrões de aptidão médica.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 57504
+  },
+  {
+    "id": "chunk-177",
+    "text": "2. Esta tabela não se destina a abordar todas as situações possíveis a bordo, nem todas as situações que possam desqualificar medicamente o indivíduo; e devem, portanto, ser utilizadas apenas como uma orientação geral. As Administrações devem estabelecer as categorias de aquaviários que estão sujeitos a uma avaliação da capacidade física para o serviço em navios que operam na navegação marítima, levando em conta a natureza do trabalho em que serão empregados a bordo. Por exemplo, a aplicação integral destas diretrizes pode não ser adequada no caso de artistas aos quais não são designadas tarefas na tabela mestra. Além disto, deve ser dada toda a atenção a circunstâncias especiais envolvendo casos individuais, bem como quaisquer riscos conhecidos de permitir que o indivíduo seja empregado a bordo do navio, e até que ponto uma capacidade limitada pode ser conciliada numa determinada situação.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 57954
+  },
+  {
+    "id": "chunk-178",
+    "text": "3. O termo “procedimentos de reação à emergência”, como disposto nesta tabela, destina-se a abranger todas as medidas padrão de reação a emergências, tais como abandono do navio e combate a incêndio, bem como os procedimentos básicos a serem seguidos por cada aquaviário para aumentar a sua sobrevivência pessoal, para evitar criar situações em que seja necessária a ajuda especial de outros membros da tripulação.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 58860
+  },
+  {
+    "id": "chunk-179",
+    "text": "4. O termo “ajuda” significa a utilização de outra pessoa para realizar a tarefa. \n5. Na dúvida, o examinador médico deve quantificar, por meio de testes objetivos, o grau de \nEste texto não substitui o publicado no DOU \ngravidade de qualquer debilitação que desqualifique o candidato, sempre que houver testes adequados disponíveis, ou enviar o candidato para uma outra avaliação.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 59280
+  },
+  {
+    "id": "chunk-180",
+    "text": "6. A Convenção sobre Exames Médicos (Aquaviários) da OIT, 1946 (Nº 73) fornece, entre outras, as medidas que devem ser tomadas para permitir que uma pessoa a quem, após um exame, tenha sido negado um certificado possa solicitar um novo exame por um árbitro ou árbitros médicos, que deverão ser independentes de qualquer armador ou de qualquer organização de armadores ou de aquaviários.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 59664
+  },
+  {
+    "id": "chunk-181",
+    "text": "**MODELO DE CERTIFICADO MÉDICO (HEALTH CERTIFICATE), DE ACORDO COM A CONVENÇÃO INTERNACIONAL SOBRE PADRÕES DE INSTRUÇÃO, CERTIFICAÇÃO E SERVIÇO DE QUARTO PARA AQUAVIÁRIOS - STCW, PARA OS TRABALHADORES AQUAVIÁRIOS DO GRUPO MARITÍMOS QUE OPERAM EMBARCAÇÕES CLASSIFICADAS PARA NAVEGAÇÃO EM MAR ABERTO E APOIO AQUAVIÁRIO.**",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 60053
+  },
+  {
+    "id": "chunk-182",
+    "text": "**CERTIFICADO MÉDICO** **_Health Certificate_** \n**Nome** / _Name_ : \n**Data de Nascimento** / _Date of Birth_ : \n**Sexo** / _Gender_ : **Nacionalidade** / _Nationality_ : **Matrícula** / _Identification_ : **CPF** / _CPF Id:_ **Cargo** / _Function_ : **Tipo de Exame** / _Type of Medical Exam:_ ( ) Admissional/ _Admission_ ( ) Periódico/ _Periodic_ ( ) Outro/ _Other:_ **Médico Coordenador** / _Medical Coordinator_ :",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 60378
+  },
+  {
+    "id": "chunk-183",
+    "text": "**Riscos Ocupacionais da Atividade** / _Occupational Risks_ : **Físicos** / _Physical_ : ( ) Ausentes/ _Absent_ (   ) Calor/ _Heat_ (   ) Ruído/ _Noise_ ( ) Frio/ _Cold_ / ( ) Vibração/ _Vibration_ ( ) Outros/ _Others:_ **Químicos** / _Chemical_ : ( ) Ausentes/A _bsent_ ( ) Hidrocarbonetos/ _Hydrocarbons_ ( ) Gases Tóxicos/ _Toxic Gases_ ( ) Produtos Químicos/ _ChemicalProducts_ ( ) Outros/ _Others:_ **Biológicos** / _Biological_ : ( ) Ausentes/ _Absent_ ( ) Agentes microbiológicos/ _Microbiological pathogens_ ( ) Outros/ _Others:_",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 60800
+  },
+  {
+    "id": "chunk-184",
+    "text": "Este texto não substitui o publicado no DOU \n**EXAMES COMPLEMENTARES** / _Additional Exams_ : **Exame** / _Exam:_ **Data** / _Date:_ **( ) Apto** / _Fit for duty_ **( ) Inapto** / _Unfit for duty_ \nFui informado do conteúdo do exame e do direito a recurso, caso não concorde com o mesmo.",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 61342
+  },
+  {
+    "id": "chunk-185",
+    "text": "_I herebycertifythat I wasinformedaboutthecontentofthisdocument, andthat I havetherighttoask for recourse (appeal) if I do notagreewith it._ \n, <u>de de</u> . \nLocal e data/ _Placeand Date_ \nMédico/ _Doctor_ Tripulante/ _Crewmember_ \nEste Certificado de Saúde tem validade de um ano; menos apenas se claramente registrado. / _This Health Certificateisvalid for oneyear, exceptifclearlystatedotherwise._",
+    "heading": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**",
+    "char_offset": 61636
+  },
+  {
+    "id": "chunk-186",
+    "text": "De acordo com Regra I/9 do SCTW, MLC-2006 / _In accordancewith SCTW Reg I/9, MLC-2006._",
+    "heading": "**_Informações adicionais/AdditionalInformation:_**",
+    "char_offset": 62131
+  },
+  {
+    "id": "chunk-187",
+    "text": "|**Pergunta/****_Question_**|**Sim/ ****_Yes_**|**Não/ ****_No_**|\n|---|---|---|\n|A identificação foi verificada?<br>_Wastheidentityverified?_|||\n|A audição atende os requisitos mínimos para<br>embarque?<br>_Ishearingadequatefor boarding? _|||\n|A audição sem próteses é adequada?<br>_Isunaidedhearingadequate?_|||",
+    "heading": "**_Informações adicionais/AdditionalInformation:_**",
+    "char_offset": 62132
+  },
+  {
+    "id": "chunk-188",
+    "text": "|A acuidade visual satisfaz os padrões estabelecidos no<br>STCW seção A-I/9?<br>_Visual acuitymeets standards in section A-I/9?_|||\n|A visão de cores atende aos padrões estabelecidos no<br>STWC seção A - I/9?<br>_Iscolourvisionadequate in accordancewith STCW A-_<br>_I/9?_|||",
+    "heading": "**_Informações adicionais/AdditionalInformation:_**",
+    "char_offset": 62446
+  },
+  {
+    "id": "chunk-189",
+    "text": "|Data da última verificação de daltonismo (máximo: 6<br>anos)<br>_Lastcolourvisionevaluation(Max. 6years)_|||\n|Alguma limitação ou restrição médica?<br>_Any medical limitationorrestriction?_|||\n|Se sim, qual?<br>_If (Yes), specify: _|||\n|O aquaviário está livre de condições que possam<br>torná-lo inapto ou qualquer problema de saúde que<br>possa ser agravado pelo serviço de navegação no mar<br>ou tornar o marítimo inapto para esse serviço, ou<br>colocar em perigo a saúde e a segurança de outras<br>pessoas a bordo?<br>_Is the seafarerfreefor many medical condition likely to be_|||",
+    "heading": "**_Informações adicionais/AdditionalInformation:_**",
+    "char_offset": 62722
+  },
+  {
+    "id": "chunk-190",
+    "text": "Este texto não substitui o publicado no DOU \n_aggravated by service at sea orto render these afarerunfit for suchserviceortoendangerthehealthofotherpersonson board?_ \n, <u>de de</u> . \nLocal e data/ _Place and Date_ \nMédico/ _Doctor_ Tripulante/ _Cr Crewmember_",
+    "heading": "**_Informações adicionais/AdditionalInformation:_**",
+    "char_offset": 63314
+  },
+  {
+    "id": "chunk-191",
+    "text": "SUMÁRIO \n1. Objetivo e campo de aplicação \n2. Definições \n3. Obrigações gerais \n4. Disposições de segurança e saúde nas embarcações \n5. Exames médicos e primeiros socorros \n6. Formação e informação \nApêndice I - Disposições mínimas de segurança e saúde aplicáveis aos barcos de pesca novos Apêndice II - Disposições mínimas de segurança e saúde aplicáveis aos barcos de pesca existentes",
+    "heading": "**ANEXO I da NR-30 PESCA COMERCIAL**",
+    "char_offset": 63586
+  },
+  {
+    "id": "chunk-192",
+    "text": "Apêndice III - Meios de salvamento e sobrevivência",
+    "heading": "**1. Objetivo e campo de aplicação**",
+    "char_offset": 64028
+  },
+  {
+    "id": "chunk-193",
+    "text": "1.1 O presente Anexo estabelece as disposições mínimas de segurança e saúde no trabalho a bordo das embarcações de pesca comercial inscritas em órgão da autoridade marítima e licenciadas pelo órgão de pesca competente. \n1.1.1 As embarcações de pesca comercial estão sujeitas ainda aos controles periódicos previstos nas demais normas que a elas se aplicam.",
+    "heading": "**1. Objetivo e campo de aplicação**",
+    "char_offset": 64030
+  },
+  {
+    "id": "chunk-194",
+    "text": "1.2 Este Anexo aplica-se a todos os pescadores profissionais e barcos de pesca de comprimento total igual ou superior a 12 m (doze metros) ou Arqueação Bruta igual ou superior a 10 (dez) que se dediquem a operações de pesca comercial, salvo disposições em contrário.",
+    "heading": "**1. Objetivo e campo de aplicação**",
+    "char_offset": 64389
+  },
+  {
+    "id": "chunk-195",
+    "text": "1.2.1 Para embarcações menores que 12 m (doze metros) ou Arqueação Bruta inferior a 10 (dez), esta Norma aplica-se naquilo que couber.",
+    "heading": "**2. Definições**",
+    "char_offset": 64795
+  },
+  {
+    "id": "chunk-196",
+    "text": "2.1 Barco é todo barco de pesca, novo ou existente. \n2.1.1 Barco de pesca, para os fins deste Anexo, é toda embarcação de bandeira brasileira utilizada para fins comerciais  ou industriais que exerça atividade de captura, conservação, \nEste texto não substitui o publicado no DOU",
+    "heading": "**2. Definições**",
+    "char_offset": 64798
+  },
+  {
+    "id": "chunk-197",
+    "text": "beneficiamento, transformação ou industrialização de seres vivos que têm na água o seu meio natural. \n2.1.2 Considera-se barco de pesca novo a embarcação cujos planos de construção tenham sido aprovados pela autoridade marítima após a data de entrada em vigor do presente Anexo ou cuja inscrição tenha ocorrido após seis meses da mesma data.",
+    "heading": "**2. Definições**",
+    "char_offset": 65081
+  },
+  {
+    "id": "chunk-198",
+    "text": "2.1.3 Barco de pesca existente é toda embarcação de pesca que não seja um barco de pesca novo. \n2.2 Trabalhador é toda pessoa que exerce uma atividade profissional a bordo de um barco, inclusive as que estão em período de formação e os aprendizes, com exclusão do pessoal de terra que realize trabalhos a bordo e dos práticos.",
+    "heading": "**2. Definições**",
+    "char_offset": 65426
+  },
+  {
+    "id": "chunk-199",
+    "text": "2.3 Pescador profissional é a pessoa que exerce sua atividade a bordo, em todas as funções devidamente habilitadas pela autoridade marítima brasileira, ainda que em período de formação ou aperfeiçoamento, com exclusão do prático e do pessoal de terra que realize trabalhos não inerentes à atividade-fim.",
+    "heading": "**2. Definições**",
+    "char_offset": 65755
+  },
+  {
+    "id": "chunk-200",
+    "text": "2.4 Armador é a pessoa física ou jurídica que explora barcos próprios, afretados, arrendados ou cedidos, dentro de qualquer modalidade prevista nas legislações nacional ou internacional, ainda que esta não seja sua atividade principal. \n2.5 Patrão de pesca é todo pescador devidamente habilitado para comandar um barco e administrar as atividades de pesca, sendo responsável por sua operação.",
+    "heading": "**2. Definições**",
+    "char_offset": 66062
+  },
+  {
+    "id": "chunk-201",
+    "text": "3.1 Cabe ao armador: \na) adotar as medidas necessárias para que os barcos sejam utilizados de forma a não comprometer a segurança e a saúde dos trabalhadores nas condições meteorológicas previsíveis; e \nb) fornecer ao patrão de pesca os meios necessários para cumprir as obrigações que lhe são atribuídas pelo presente Anexo.",
+    "heading": "**3. Obrigações Gerais**",
+    "char_offset": 66460
+  },
+  {
+    "id": "chunk-202",
+    "text": "3.2 É responsabilidade do armador, em caso de acidente a bordo em que haja morte ou desaparecimento, lesão grave ou prejuízo material de grande monta, tomar providências para que o patrão de pesca, além de cumprir as normas legais, elabore um relatório detalhado do ocorrido.",
+    "heading": "**3. Obrigações Gerais**",
+    "char_offset": 66788
+  },
+  {
+    "id": "chunk-203",
+    "text": "3.2.1 O relatório deve ser enviado, caso requerido, à autoridade laboral competente. \n3.2.2 A ocorrência será registrada de forma detalhada no livro de quarto ou, caso não exista, em documento específico para esse fim.",
+    "heading": "**4. Disposições de segurança e saúde nos barcos**",
+    "char_offset": 67288
+  },
+  {
+    "id": "chunk-204",
+    "text": "Este texto não substitui o publicado no DOU \n4.1 Os barcos de pesca novos, ou que sofreram reformas ou modificações importantes, devem atender às disposições mínimas de segurança e saúde previstas no Apêndice I do presente Anexo. \n4.2 No caso de barcos de pesca existentes, devem ser cumpridas as disposições previstas no Apêndice II.",
+    "heading": "**4. Disposições de segurança e saúde nos barcos**",
+    "char_offset": 67291
+  },
+  {
+    "id": "chunk-205",
+    "text": "4.3 A observância do disposto neste Anexo não exime os barcos dos controles periódicos previstos nas demais normas que a eles se aplicam. \n4.4 Cabe ao armador, sem prejuízo da responsabilidade do patrão de pesca: \na) zelar pela manutenção técnica dos barcos, de suas instalações e equipamentos, especialmente no que diz respeito ao disposto nos Apêndices I e II do presente Anexo, de forma a eliminar o quanto antes os defeitos que possam afetar a segurança e saúde dos trabalhadores;",
+    "heading": "**4. Disposições de segurança e saúde nos barcos**",
+    "char_offset": 67630
+  },
+  {
+    "id": "chunk-206",
+    "text": "b) tomar medidas para garantir a limpeza periódica dos barcos e do conjunto de instalações e equipamentos, de modo a manter condições adequadas de higiene e segurança; \nc) manter a bordo dos barcos os meios de salvamento e de sobrevivência apropriados, em bom estado de funcionamento e em quantidade suficiente, de acordo com as normas da autoridade marítima;",
+    "heading": "**4. Disposições de segurança e saúde nos barcos**",
+    "char_offset": 68118
+  },
+  {
+    "id": "chunk-207",
+    "text": "d) atender às disposições mínimas de segurança e saúde relativas aos meios de salvamento e sobrevivência previstas no Apêndice III deste Anexo e nas normas da autoridade marítima; \ne) fornecer os equipamentos de proteção individual necessários, quando não for possível evitar ou diminuir suficientemente os riscos para a segurança e saúde dos trabalhadores com meios ou técnicas coletivas de proteção, de acordo com a Norma Regulamentadora nº 6 (NR-06); e",
+    "heading": "**4. Disposições de segurança e saúde nos barcos**",
+    "char_offset": 68481
+  },
+  {
+    "id": "chunk-208",
+    "text": "f) garantir o aprovisionamento de víveres e água potável em quantidade suficiente, de acordo com o número de pescadores profissionais e outros trabalhadores a bordo, a duração, a natureza da viagem e as situações de emergência.",
+    "heading": "**5. Exames médicos e primeiros socorros**",
+    "char_offset": 69169
+  },
+  {
+    "id": "chunk-209",
+    "text": "5.1 É responsabilidade do armador: \na) custear a elaboração e implementação do Programa de Controle Médico e Saúde Ocupacional - PCMSO dos pescadores, conforme disposto na Norma Regulamentadora nº 7 (NR-07); \nb) suprir a embarcação dos meios necessários para o atendimento de primeiros socorros a bordo e de livro de primeiros socorros e medicamentos, de acordo com o preconizado pelas autoridades marítima e sanitária; e",
+    "heading": "**5. Exames médicos e primeiros socorros**",
+    "char_offset": 69172
+  },
+  {
+    "id": "chunk-210",
+    "text": "c) tomar providências para que exista pelo menos um pescador profissional treinado no atendimento de primeiros socorros para cada dez pescadores profissionais ou fração a bordo. \n5.2 Para cada exame médico realizado, o médico responsável emitirá o Atestado de Saúde Ocupacional - ASO, em três vias.",
+    "heading": "**5. Exames médicos e primeiros socorros**",
+    "char_offset": 69597
+  },
+  {
+    "id": "chunk-211",
+    "text": "Este texto não substitui o publicado no DOU \n5.2.1 A primeira via do ASO deve ser mantida a bordo da embarcação em que o pescador profissional estiver prestando serviço. \n5.2.2 A segunda via do ASO deve ser obrigatoriamente entregue ao pescador profissional, mediante recibo nas outras duas vias.",
+    "heading": "**5. Exames médicos e primeiros socorros**",
+    "char_offset": 69900
+  },
+  {
+    "id": "chunk-212",
+    "text": "5.2.3 A terceira via do ASO deve ser mantida com o armador ou seu preposto em terra. \n5.3 O prazo de validade do exame médico fica prorrogado, caso expire no decorrer de uma pescaria, até a data da escala da embarcação em um porto onde haja as condições necessárias para sua realização, observado o máximo de quarenta e cinco dias.",
+    "heading": "**5. Exames médicos e primeiros socorros**",
+    "char_offset": 70200
+  },
+  {
+    "id": "chunk-213",
+    "text": "6.1 Em relação aos pescadores profissionais, cabe ao armador: \na) exigir certificado de formação emitido pela autoridade marítima; e \nb) garantir o fornecimento de informações adequadas e compreensíveis sobre segurança e saúde a bordo, assim como sobre as medidas de prevenção e proteção adotadas no barco, sem prejuízo da responsabilidade do patrão de pesca;",
+    "heading": "**6. Formação e informação**",
+    "char_offset": 70537
+  },
+  {
+    "id": "chunk-214",
+    "text": "6.2 A formação dos pescadores profissionais deve incluir instruções precisas compreendendo, em especial: \na) o treinamento para o combate a incêndios; \nb) a utilização de meios de salvamento e sobrevivência; \nc) o uso adequado dos aparelhos de pesca e dos equipamentos de tração; e",
+    "heading": "**6. Formação e informação**",
+    "char_offset": 70902
+  },
+  {
+    "id": "chunk-215",
+    "text": "d) os diferentes métodos de sinalização, especialmente os de comunicação por sinais. \n6.2.1 Quando de modificações nas atividades do barco, novas informações devem ser ministradas sempre que necessário. \n6.3 É responsabilidade do armador garantir que toda pessoa contratada para comandar um barco esteja devidamente habilitada pela autoridade marítima.",
+    "heading": "**6. Formação e informação**",
+    "char_offset": 71188
+  },
+  {
+    "id": "chunk-216",
+    "text": "6.3.1 A formação profissional especializada deve incluir, no mínimo, os seguintes tópicos: \na) prevenção de enfermidades profissionais e acidentes de trabalho a bordo e as providências a serem adotadas em caso de acidentes; \nb) combate a incêndio e utilização dos meios de salvamento e sobrevivência;",
+    "heading": "**6. Formação e informação**",
+    "char_offset": 71545
+  },
+  {
+    "id": "chunk-217",
+    "text": "c) estabilidade do barco e manutenção da estabilidade em todas as condições previsíveis de carga e durante as operações de pesca; e \nd) procedimentos de navegação e comunicação via rádio.",
+    "heading": "**7. Disposição Final**",
+    "char_offset": 72039
+  },
+  {
+    "id": "chunk-218",
+    "text": "Este texto não substitui o publicado no DOU \n7.1 Cabe à Fundacentro elaborar e manter atualizado um Guia Técnico, de caráter recomendatório, para a avaliação e a prevenção dos riscos relativos à utilização de barcos de pesca.",
+    "heading": "**APÊNDICE I**",
+    "char_offset": 72269
+  },
+  {
+    "id": "chunk-219",
+    "text": "1. Campo de aplicação \n1.1 As obrigações previstas no presente apêndice aplicam-se aos barcos de pesca novos, considerando: \na) as características operacionais para as quais foram projetados; \nb) a distância máxima de operação; \nc) a autonomia de tempo de navegação e pesca;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 72275
+  },
+  {
+    "id": "chunk-220",
+    "text": "d) os requisitos de segurança dos locais de trabalho ou da atividade pesqueira; e \ne) as circunstâncias ou a evidência de riscos a bordo. \n2. Navegabilidade e estabilidade \n2.1 O barco deve ser mantido em boas condições de navegabilidade e ser dotado de equipamentos apropriados ao seu destino e utilização.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 72555
+  },
+  {
+    "id": "chunk-221",
+    "text": "2.2 Informações sobre as características de estabilidade do barco, quando exigíveis, devem estar disponíveis a bordo e acessíveis ao pessoal de serviço. \n2.3 Todo barco deve manter sua estabilidade intacta para as condições de serviço previstas, cabendo ao patrão de pesca adotar as medidas de precaução necessárias.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 72866
+  },
+  {
+    "id": "chunk-222",
+    "text": "2.4 As instruções relativas à estabilidade do barco devem ser estritamente observadas. \n3. Instalações \n3.1 Instalações elétricas \n3.1.1 As instalações elétricas devem ser projetadas e montadas de modo seguro, garantindo: \na) a proteção da tripulação e do barco contra os perigos elétricos;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 73189
+  },
+  {
+    "id": "chunk-223",
+    "text": "b) o funcionamento correto dos equipamentos necessários para a manutenção do barco em condições normais de operação e de habitabilidade, sem que se recorra a uma fonte de eletricidade de emergência; e \nc) o funcionamento dos equipamentos elétricos essenciais para a segurança em situações de emergência.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 73483
+  },
+  {
+    "id": "chunk-224",
+    "text": "3.1.2 O barco deve ser dotado de fonte de energia elétrica de emergência. \nEste texto não substitui o publicado no DOU \n3.1.2.1 A fonte de energia elétrica de emergência deve estar situada fora da praça de máquinas e ser projetada, em todos os casos, de forma a garantir, em caso de incêndio ou de avaria da instalação elétrica principal, o funcionamento simultâneo, por no mínimo 3h (três horas):",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 73791
+  },
+  {
+    "id": "chunk-225",
+    "text": "a) do sistema de comunicação interna, dos detectores de incêndio e da sinalização de emergência; \nb) das luzes de navegação e da iluminação de emergência; \nc) do sistema de radiocomunicação; e \nd) da bomba elétrica de emergência contra incêndio ou alagamento, caso exista.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 74194
+  },
+  {
+    "id": "chunk-226",
+    "text": "3.1.2.2 A bateria de acumuladores, quando utilizada como fonte, deve estar ligada automaticamente ao quadro de distribuição de energia elétrica de emergência e garantir a alimentação ininterrupta durante 3h (três horas) dos sistemas a que se fez referência nas alíneas” a”, “b” e “c” do subitem 3.1.2.1.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 74469
+  },
+  {
+    "id": "chunk-227",
+    "text": "3.1.3 O quadro principal de distribuição de eletricidade e o quadro de emergência devem: \na) ser instalados de forma a não estarem expostos à água ou ao fogo; \nb) dispor de indicações claras; e \nc) ser revistos periodicamente no que diz respeito às caixas e aos suportes dos fusíveis, de modo a garantir que sejam utilizados fusíveis cuja corrente nominal seja adequada à intensidade de corrente do circuito.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 74778
+  },
+  {
+    "id": "chunk-228",
+    "text": "3.1.4 Os compartimentos onde ficam alojados os acumuladores elétricos devem ser adequadamente ventilados. \n3.2 Outras instalações \n3.2.1 Os dispositivos eletrônicos de navegação devem ser testados frequentemente e mantidos em perfeito estado de funcionamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 75191
+  },
+  {
+    "id": "chunk-229",
+    "text": "3.2.2 A instalação de radiocomunicações deve ter capacidade de entrar em contato, a qualquer momento, com, no mínimo, uma estação costeira ou interior, levando-se em conta as condições normais de propagação das ondas radioelétricas, observados os requisitos técnicos estabelecidos nas normas da autoridade marítima.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 75453
+  },
+  {
+    "id": "chunk-230",
+    "text": "3.2.3 Os equipamentos de tração, carga e descarga e acessórios semelhantes devem ser mantidos em boas condições de funcionamento, examinados periodicamente e certificados anualmente. \n3.2.4 As instalações frigoríficas e os sistemas de ar comprimido devem ter manutenção adequada e ser submetidos a revisões periódicas.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 75772
+  },
+  {
+    "id": "chunk-231",
+    "text": "3.2.5 Os equipamentos de cozinha e eletrodomésticos que utilizem gases somente devem ser usados em espaços ventilados. \n3.2.6 Cilindros que contenham gases inflamáveis ou outros gases perigosos devem ter indicação clara do seu conteúdo e ser armazenados em espaços abertos. Este texto não substitui o publicado no DOU",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 76094
+  },
+  {
+    "id": "chunk-232",
+    "text": "3.2.6.1 As válvulas reguladoras de pressão e as canalizações ligadas aos cilindros devem ser protegidas contra avarias por choque. \n4. Vias e saídas de emergência \n4.1 As vias e saídas a serem utilizadas no caso de emergência devem: \na) permanecer sempre desimpedidas;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 76417
+  },
+  {
+    "id": "chunk-233",
+    "text": "b) ser de fácil acesso e adequadamente sinalizadas, com indicação clara da direção da saída; e \nc) conduzir o mais diretamente possível ao nível superior ou a uma zona de segurança e, desse ponto, às embarcações de salvamento, de modo que os trabalhadores possam evacuar os locais de trabalho e de alojamento rapidamente e em condições de máxima segurança.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 76689
+  },
+  {
+    "id": "chunk-234",
+    "text": "4.1.1 O número, a distribuição e as dimensões das vias devem estar de acordo com a utilização, o equipamento e o número máximo de pessoas que podem estar nesses locais. \n4.1.2 A sinalização deve ser feita nos lugares adequados e ter durabilidade. \n4.2 As saídas que possam ser utilizadas como de emergência e que devam permanecer fechadas devem permitir abertura fácil e rápida por qualquer trabalhador ou por equipes de salvamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 77050
+  },
+  {
+    "id": "chunk-235",
+    "text": "4.3 As portas e outras saídas de emergência devem: \na) manter estanqueidade ao mau tempo ou à água, de acordo com o local, considerando suas funções específicas em relação à segurança; e \nb) oferecer a mesma resistência ao fogo que a das anteparas.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 77487
+  },
+  {
+    "id": "chunk-236",
+    "text": "4.4 As vias, os meios de abandono e as saídas de emergência que necessitem de iluminação devem ser dotados de sistema de iluminação de emergência de intensidade suficiente para os casos de avaria do sistema normal. \n5. Detecção e combate a incêndios",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 77739
+  },
+  {
+    "id": "chunk-237",
+    "text": "5.1 Os alojamentos e os lugares de trabalho fechados, incluindo praça de máquinas e porões de pesca, devem ter dispositivos adequados de combate a incêndio e, se necessário, detectores de incêndio e sistema de alarme, de acordo com as dimensões e a utilização do barco, os equipamentos de que é dotado, as características físicas e químicas das substâncias a bordo e o número máximo de pessoas que podem estar a bordo.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 77991
+  },
+  {
+    "id": "chunk-238",
+    "text": "5.1.1 Os dispositivos de combate a incêndio devem ser: \na) instalados em locais de fácil acesso, desobstruídos e sinalizados; e \nb) mantidos em perfeitas condições de funcionamento. \n5.1.2 Os trabalhadores devem ser informados quanto à localização, aos mecanismos de funcionamento e à forma de utilização dos dispositivos de combate a incêndio.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 78415
+  },
+  {
+    "id": "chunk-239",
+    "text": "Este texto não substitui o publicado no DOU \n5.1.3 É obrigatória a verificação da existência de extintores e demais equipamentos de combate a incêndio a bordo, antes de qualquer saída do barco do porto. \n5.1.4 Os dispositivos portáteis de combate a incêndio devem ser de fácil acesso e operação e estar devidamente sinalizados.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 78764
+  },
+  {
+    "id": "chunk-240",
+    "text": "5.1.4.1 A sinalização deve ser colocada em locais adequados e permanentemente mantida. \n5.2 Os sistemas de detecção de incêndio e de alarme devem ser testados regularmente e mantidos em bom estado de funcionamento. \n5.3 Devem ser realizados exercícios de combate a incêndio envolvendo toda a tripulação pelo menos uma vez por ano e sempre que necessário.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 79096
+  },
+  {
+    "id": "chunk-241",
+    "text": "6. Locais de trabalho \n6.1 Ambientes de trabalho \n6.1.1 Os locais de trabalho fechados devem dispor de ventilação suficiente, de acordo com os métodos de trabalho e as exigências físicas impostas aos trabalhadores. \n6.1.1.1 A ventilação mecânica deve ser mantida em bom estado de funcionamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 79456
+  },
+  {
+    "id": "chunk-242",
+    "text": "6.1.2 A temperatura nos locais de trabalho deve ser adequada ao organismo humano durante as horas de trabalho, levando-se em consideração os métodos de trabalho empregados, as exigências físicas impostas aos trabalhadores e as condições meteorológicas reinantes ou que possam ocorrer na região em que o barco opera.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 79753
+  },
+  {
+    "id": "chunk-243",
+    "text": "6.1.3 Os locais de trabalho, na medida do possível, devem receber luz natural suficiente e estar equipados com iluminação artificial adequada às circunstâncias da pesca e que não coloque em risco a segurança e saúde dos trabalhadores, nem a navegação de outros barcos.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 80071
+  },
+  {
+    "id": "chunk-244",
+    "text": "6.1.3.1 As instalações de iluminação dos locais de trabalho, das escadas e dos corredores devem ser escolhidas de modo a não apresentar riscos de acidentes para os trabalhadores nem dificultar a navegação do barco. \n6.1.3.2 Os lugares de trabalho em que trabalhadores estejam particularmente expostos a riscos em caso de avaria da iluminação artificial devem possuir iluminação de emergência de intensidade adequada, mantida em condições de funcionamento eficaz e testada periodicamente.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 80343
+  },
+  {
+    "id": "chunk-245",
+    "text": "6.1.3.3 Os locais onde estejam instalados postos de trabalho devem ser dotados de isolamento acústico e térmico suficientes, levando-se em conta o tipo de tarefas e a atividade física dos pescadores profissionais. \n6.2 Pisos, anteparas e tetos \n6.2.1 Todos os locais aos quais os trabalhadores tenham acesso devem possuir pisos antiderrapantes ou dispositivos contra quedas e estar livres de obstáculos. Este texto não substitui o publicado no DOU",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**",
+    "char_offset": 80835
+  },
+  {
+    "id": "chunk-246",
+    "text": "6.2.2 As superfícies dos pisos, das anteparas e dos tetos devem ser de fácil higienização.",
+    "heading": "6.3 Portas",
+    "char_offset": 81378
+  },
+  {
+    "id": "chunk-247",
+    "text": "6.3.1 As portas, em especial as portas de correr, quando indispensáveis, devem funcionar com a máxima segurança para os trabalhadores, especialmente em condições de mar e de tempo adversas. \n6.3.2 Todas as portas devem poder ser abertas por dentro, sem necessidade de dispositivos específicos, como chaves ou assemelhados.",
+    "heading": "6.3 Portas",
+    "char_offset": 81380
+  },
+  {
+    "id": "chunk-248",
+    "text": "6.3.3 As portas devem poder ser abertas por ambos os lados nos compartimentos de trabalho. \n6.4 Vias de circulação e zonas perigosas \n6.4.1 Deve estar disponível escada de embarque, prancha de embarque ou dispositivo similar que ofereça acesso apropriado e seguro ao barco.",
+    "heading": "6.3 Portas",
+    "char_offset": 81707
+  },
+  {
+    "id": "chunk-249",
+    "text": "6.4.2 Os corredores, cruzamentos, partes exteriores de compartimentos e todas as vias de circulação no barco devem ser equipados com corrimãos, apoios para as mãos ou outro meio que garanta a segurança da tripulação durante suas atividades a bordo.",
+    "heading": "6.3 Portas",
+    "char_offset": 81983
+  },
+  {
+    "id": "chunk-250",
+    "text": "6.4.3 Caso haja risco de queda de trabalhadores pela escotilha do convés, ou de um convés para outro, devem ser instalados guarda-corpos adequados em todos os locais necessários. \n6.4.3.1 Os guarda-corpos devem ter altura mínima de um 1,20 m (um metro e vinte centímetros), proteções intermediárias e rodapé de 0,20 m (vinte centímetros) .",
+    "heading": "6.3 Portas",
+    "char_offset": 82235
+  },
+  {
+    "id": "chunk-251",
+    "text": "6.4.4 As aberturas de acesso às áreas do convés ou da coberta utilizadas para permitir a manutenção das instalações devem ser feitas de modo a garantir a segurança dos trabalhadores. \n6.4.5 As amuradas e outros meios instalados para evitar quedas pela borda devem ser mantidos em bom estado de conservação e permitir o escoamento rápido da água.",
+    "heading": "6.3 Portas",
+    "char_offset": 82578
+  },
+  {
+    "id": "chunk-252",
+    "text": "6.4.6 Nos sistemas de arrasto pela popa dotados de rampa na parte superior deve haver portão ou outro dispositivo de segurança da mesma altura que as amuradas, a fim de proteger os trabalhadores do risco de queda. \n6.4.6.1 O dispositivo deve ser facilmente aberto e fechado, de preferência por controle remoto, e ser aberto unicamente para largar ou içar a rede.",
+    "heading": "6.3 Portas",
+    "char_offset": 82927
+  },
+  {
+    "id": "chunk-253",
+    "text": "7. Segurança nas operações \n7.1 As áreas de trabalho devem estar preparadas para sua finalidade e oferecer proteção adequada aos trabalhadores contra quedas a bordo ou no mar. \nEste texto não substitui o publicado no DOU \n7.1.1 As zonas de manuseio do pescado devem ser suficientemente espaçosas no que diz respeito à altura e à área de trabalho, considerando o número de pescadores profissionais exigidos na operação.",
+    "heading": "6.3 Portas",
+    "char_offset": 83295
+  },
+  {
+    "id": "chunk-254",
+    "text": "7.2 O controle dos motores deve ser instalado em local específico, separado, com isolamento acústico e térmico. \n7.2.1 Quando localizado na praça de máquinas, o controle dos motores deve possuir acesso independente. \n7.2.2 Considera-se o passadiço um local que atende a todos os requisitos mencionados no item 7.2.",
+    "heading": "6.3 Portas",
+    "char_offset": 83718
+  },
+  {
+    "id": "chunk-255",
+    "text": "7.3 Os comandos de equipamentos de tração devem: \na) ser instalados em área suficientemente ampla, projetada para facilitar a operação; \nb) permitir fácil visualização da área de trabalho; e \nc) garantir que os operadores não se exponham a riscos de acidentes com cabos e partes móveis.",
+    "heading": "6.3 Portas",
+    "char_offset": 84038
+  },
+  {
+    "id": "chunk-256",
+    "text": "7.4 Os equipamentos de tração devem ser dotados de dispositivos de parada de emergência localizados onde possam ser acionados diretamente pelo operador ou por outros pescadores profissionais. \n7.5 O operador dos comandos de equipamentos de tração deve ter visão adequada da movimentação do equipamento e dos trabalhadores que estão na faina.",
+    "heading": "6.3 Portas",
+    "char_offset": 84328
+  },
+  {
+    "id": "chunk-257",
+    "text": "7.5.1 Quando os equipamentos de tração forem acionados do passadiço, o operador deve ter visão clara da área de movimentação do equipamento e dos trabalhadores envolvidos na faina, diretamente ou por outro meio adequado. \n7.6 O sistema de comunicação entre o passadiço e o convés de trabalho deve ser adequado e confiável.",
+    "heading": "6.3 Portas",
+    "char_offset": 84673
+  },
+  {
+    "id": "chunk-258",
+    "text": "7.7 Deve-se manter rigorosa vigilância, assim como sistema sonoro e visual de alerta da tripulação, quanto ao risco iminente de golpe do mar durante as operações de pesca ou quando se realize trabalho no convés. \n7.8 As partes móveis a descoberto dos viradores, dos cabos de arrasto e das peças dos equipamentos devem ser protegidas por meio de mecanismos adequados.",
+    "heading": "6.3 Portas",
+    "char_offset": 84999
+  },
+  {
+    "id": "chunk-259",
+    "text": "7.9 Devem ser instalados sistemas de controle da movimentação de cargas, especialmente nos sistemas de arrasto, incluindo: \na) mecanismos de bloqueio da porta da rede de arrasto; e \nb) mecanismos de controle do balanceio do copo da rede de arrasto.",
+    "heading": "6.3 Portas",
+    "char_offset": 85370
+  },
+  {
+    "id": "chunk-260",
+    "text": "Este texto não substitui o publicado no DOU \n7.10 Os equipamentos de proteção individual utilizados como peças de vestuários ou que se usem por cima dessas peças devem ser de cores vivas, para contrastar com o meio marinho e serem bem visíveis. \n8. Condições de habitabilidade e áreas de vivência a bordo",
+    "heading": "6.3 Portas",
+    "char_offset": 85623
+  },
+  {
+    "id": "chunk-261",
+    "text": "8.1 Requisitos básicos \n8.1.1 A localização, a estrutura, o isolamento acústico e térmico e a disposição das áreas de vivência a bordo, incluindo dormitórios, locais de alimentação, sanitários, áreas de lazer, lavanderia e meios de acesso aos mesmos, devem oferecer proteção adequada contra inclemências do tempo e do mar, vibrações, ruído e emanações provenientes de outras áreas, que possam perturbar os trabalhadores nos seus períodos de alimentação e repouso.",
+    "heading": "6.3 Portas",
+    "char_offset": 85931
+  },
+  {
+    "id": "chunk-262",
+    "text": "8.1.2 As áreas de vivência a bordo devem possuir altura livre adequada. \n8.1.2.1 Nos locais em que os trabalhadores devam permanecer em pé por períodos prolongados, a altura não pode ser inferior a 1,9 m (um metro de noventa centímetros). \n8.1.2.2 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), a altura livre nas áreas de vivência não pode ser inferior a 2,0 m (dois metros).",
+    "heading": "6.3 Portas",
+    "char_offset": 86399
+  },
+  {
+    "id": "chunk-263",
+    "text": "8.1.2.3 A autoridade marítima pode permitir redução da altura livre nas áreas de vivência, se razoável e se não resultar em desconforto para os pescadores profissionais. \n8.1.3 As áreas de vivência destinadas aos dormitórios não podem comunicar-se diretamente com os porões de armazenamento de pescado e com as salas de máquinas, exceto por meio de aberturas a serem utilizadas exclusivamente como saídas de emergência.",
+    "heading": "6.3 Portas",
+    "char_offset": 86888
+  },
+  {
+    "id": "chunk-264",
+    "text": "8.1.3.1 Caso seja razoável e factível, deve-se evitar comunicação direta entre as áreas destinadas aos dormitórios e as áreas destinadas a cozinha, despensas, instalações sanitárias coletivas e lavanderia. \n8.1.3.2 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), as áreas destinadas aos dormitórios não podem comunicar-se diretamente com porões de pescado, sala de máquinas, cozinhas, despensas, lavanderias e instalações sanitárias de uso coletivo, exceto pelas aberturas destinadas a servir exclusivamente como saídas de emergência.",
+    "heading": "6.3 Portas",
+    "char_offset": 87311
+  },
+  {
+    "id": "chunk-265",
+    "text": "8.1.4 Os espaços destinados às áreas de vivência devem ser adequadamente isolados e os materiais constituintes das anteparas interiores, divisórias e revestimentos de piso devem ser adequados, de modo a garantir um ambiente salubre a bordo. \n8.1.5 As áreas de vivência devem possuir sistema para escoamento de água.",
+    "heading": "6.3 Portas",
+    "char_offset": 87957
+  },
+  {
+    "id": "chunk-266",
+    "text": "8.1.6 Todos os espaços das áreas de vivência em seu conjunto devem possuir pelo menos duas saídas de emergência em bordos opostos. \nEste texto não substitui o publicado no DOU \n8.1.7 A temperatura nos dormitórios, nas áreas de serviço, nos refeitórios e nos locais de primeiros socorros deve estar de acordo com o uso específico de cada lugar.",
+    "heading": "6.3 Portas",
+    "char_offset": 88277
+  },
+  {
+    "id": "chunk-267",
+    "text": "8.1.8 Os barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem) devem dispor de instalações de lazer, jogos, livros e outros meios de entretenimento adequados.",
+    "heading": "6.3 Portas",
+    "char_offset": 88623
+  },
+  {
+    "id": "chunk-268",
+    "text": "8.1.9 Os trabalhadores a bordo devem poder ter acesso aos equipamentos de comunicação disponíveis, a um preço que não exceda o de custo. \n8.1.10 As áreas de vivência dos pescadores devem ser mantidas em condições adequadas de asseio e limpeza, não sendo permitido o armazenamento nesses locais de material ou mercadoria que não seja de uso pessoal dos seus ocupantes.",
+    "heading": "6.3 Portas",
+    "char_offset": 88882
+  },
+  {
+    "id": "chunk-269",
+    "text": "8.2. Conforto térmico e acústico \n8.2.1 Os níveis de ruído nas áreas de vivência devem ser reduzidos ao mínimo. \n8.2.1.1 Nas áreas destinadas aos dormitórios dos pescadores profissionais, os níveis de ruído devem ser limitados a um máximo de 65 dB(A) .",
+    "heading": "6.3 Portas",
+    "char_offset": 89254
+  },
+  {
+    "id": "chunk-270",
+    "text": "8.2.2 As áreas de vivência devem ser protegidas quanto à transmissão de vibrações oriundas dos motores, dos equipamentos de guindar e da casa de máquinas. \n8.2.3 Os barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem) devem ser dotados de áreas de vivência com isolamento acústico e sistemas de absorção de vibrações, de modo a garantir um nível máximo de ruído de 65 dB(A).",
+    "heading": "6.3 Portas",
+    "char_offset": 89510
+  },
+  {
+    "id": "chunk-271",
+    "text": "8.2.3.1 Nas áreas destinadas aos dormitórios dos pescadores profissionais dos barcos a que se refere o subitem 8.2.3, os níveis máximos de ruído devem ser de 60 db(A). \n8.2.4 A ventilação das áreas de vivência deve considerar as condições climáticas da área de operação prevista no projeto do barco, de modo a proporcionar continuamente uma renovação de ar em quantidade satisfatória em relação ao número máximo de trabalhadores a bordo.",
+    "heading": "6.3 Portas",
+    "char_offset": 89986
+  },
+  {
+    "id": "chunk-272",
+    "text": "8.2.4.1 Os barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem) devem ser equipados com sistema de ventilação artificial nas áreas de vivência, capaz de regular continuamente a circulação de ar em qualquer condição atmosférica e climatológica.",
+    "heading": "6.3 Portas",
+    "char_offset": 90426
+  },
+  {
+    "id": "chunk-273",
+    "text": "8.2.5 As áreas de vivência dos barcos projetados para operar em áreas situadas fora das Zonas Tropicais ou sujeitas a temperaturas inferiores a 15ºC devem possuir sistema de calefação capaz de garantir um nível de aquecimento adequado. \n8.2.5.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), deve ser instalado sistema de ar condicionado nos espaços destinados a áreas de vivência, ponte de comando, sala de rádio e salas de controle central de máquinas, assim como nos locais de trabalho onde Este texto não substitui o publicado no DOU",
+    "heading": "6.3 Portas",
+    "char_offset": 90771
+  },
+  {
+    "id": "chunk-274",
+    "text": "seja necessário, exceto naqueles que operem com regularidade em zonas cujas condições climáticas tornem desnecessárias medidas de controle térmico.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 91570
+  },
+  {
+    "id": "chunk-275",
+    "text": "8.3.1 Quando o desenho, as dimensões ou as características de operação de pesca para as quais o barco foi projetado permitirem, os dormitórios devem estar situados próximos ao centro de gravidade do barco, onde se minimizem os efeitos dos movimentos e da aceleração, não sendo permitida sua instalação à frente da antepara de colisão.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 91571
+  },
+  {
+    "id": "chunk-276",
+    "text": "8.3.2 As áreas dos dormitórios, excluindo-se os espaços ocupados pelas camas e armários, devem proporcionar aos pescadores profissionais espaço e comodidade adequados, considerando o período de duração das operações de pesca para as quais foi projetado o barco.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 91908
+  },
+  {
+    "id": "chunk-277",
+    "text": "8.3.2.1 Os barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros), porém menor do que 50,0 m (cinquenta metros), ou de Arqueação Bruta igual ou superior a 100 (cem), porém menor do que 500 (quinentos), devem possuir nos dormitórios área livre de no mínimo 1,0 m² (um metro quadrado) por trabalhador a bordo, excluindo-se os espaços ocupados por camas e armários.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 92172
+  },
+  {
+    "id": "chunk-278",
+    "text": "8.3.2.2 Nos barcos com comprimento total igual ou superior a 50,0 m (cinquenta metros) ou Arqueação Bruta igual ou superior a 500 (quinhentos), a área livre deverá ser de 1,5 m² (um metro e cinquenta centímetros quadrado) por trabalhador. \n8.3.3 O número máximo de trabalhadores por dormitório não poderá ser superior a seis.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 92585
+  },
+  {
+    "id": "chunk-279",
+    "text": "8.3.3.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), o número máximo de trabalhadores não pode ser superior a quatro e o número de oficiais não pode ser superior a dois, por dormitório.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 92913
+  },
+  {
+    "id": "chunk-280",
+    "text": "8.3.3.2 A autoridade marítima poderá permitir exceção aos subitens 8.3.3 e 8.3.3.1 deste Apêndice, nos casos particulares em que sua aplicação não seja razoável ou factível, de acordo com o tipo de embarcação, suas dimensões e o serviço ao qual se destina.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 93212
+  },
+  {
+    "id": "chunk-281",
+    "text": "8.3.4 O número máximo de pessoas por dormitório deverá estar indicado de forma legível e indelével em lugar de fácil visualização na entrada do dormitório. \n8.3.5 Os pescadores profissionais devem dispor de camas individuais de dimensões apropriadas e com colchões confeccionados com materiais adequados.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 93472
+  },
+  {
+    "id": "chunk-282",
+    "text": "8.3.5.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), as dimensões das camas não podem ser menores que 1,90 x 0,68 m (um metro de noventa por sessenta e oito centímetros).",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 93779
+  },
+  {
+    "id": "chunk-283",
+    "text": "8.3.6. Os dormitórios devem ser equipados com mobiliário que facilite a limpeza e proporcione comodidade aos pescadores profissionais, devendo ser incluídos camas, armários individuais e uma escrivaninha em cada dormitório. \nEste texto não substitui o publicado no DOU",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 94064
+  },
+  {
+    "id": "chunk-284",
+    "text": "8.3.6.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os dormitórios devem ser separados por sexo. \n8.3.6.2 Nos barcos menores, os dormitórios devem ser administrados de modo a proporcionar aos homens e mulheres a bordo um nível adequado de privacidade.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 94336
+  },
+  {
+    "id": "chunk-285",
+    "text": "8.3.7 Devem existir cabides ou armários fora das áreas de dormitórios para pendurar roupas de trabalho usadas ou capas impermeáveis. \n8.3.8 O armador deverá prover a embarcação de roupa de cama apropriada para cada cama a bordo. \n8.4. Instalações Sanitárias",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 94704
+  },
+  {
+    "id": "chunk-286",
+    "text": "8.4.1 Os barcos que disponham de dormitórios devem ser dotados de instalações sanitárias compostas de pias, privadas e chuveiros protegidos contra oxidação e escorregões, de fácil limpeza e em número adequado à quantidade de trabalhadores, de acordo com as normas das autoridades marítima e sanitária.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 94964
+  },
+  {
+    "id": "chunk-287",
+    "text": "8.4.1.1 As instalações sanitárias devem: \na) ser ventiladas com ar livre independente de qualquer outra parte das áreas de vivência; \nb) ser concebidas e operadas de maneira a eliminar o risco de contaminação de outras áreas do barco; \nc) permitir privacidade aos trabalhadores na sua utilização; e",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 95271
+  },
+  {
+    "id": "chunk-288",
+    "text": "d) dispor de água doce, quente e fria, em quantidade suficiente para assegurar higiene adequada aos trabalhadores durante todo o período que permaneçam a bordo. \n8.4.1.2 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os pescadores que ocupam dormitórios com instalações sanitárias privadas devem dispor de pelo menos uma ducha, um vaso sanitário e um lavatório para cada quatro pessoas.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 95573
+  },
+  {
+    "id": "chunk-289",
+    "text": "8.5 Refeitórios \n8.5.1 Os refeitórios devem ser próximos da cozinha. \n8.5.1.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os refeitórios devem ser separados dos dormitórios.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 96073
+  },
+  {
+    "id": "chunk-290",
+    "text": "8.5.2 As dimensões e o equipamento do refeitório devem estar adequados a atender no mínimo de 1/3 (um terço) dos trabalhadores a bordo por vez. \n8.5.3. Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os trabalhadores",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 96362
+  },
+  {
+    "id": "chunk-291",
+    "text": "Este texto não substitui o publicado no DOU \ndevem poder ter acesso a um refrigerador de volume adequado e possibilidade de preparar bebidas quentes e frias. \n8.6 Cozinha, Local de Preparo de Alimentos e Despensa \n8.6.1 Todos os barcos devem possuir local adequado, com utensílios e equipamentos necessários, para se preparar alimentos.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 96692
+  },
+  {
+    "id": "chunk-292",
+    "text": "8.6.1.1 Sempre que possível deve instalar-se uma cozinha em ambiente separado e exclusivamente para essa finalidade. \n8.6.1.2 Os barcos de comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem)devem estar equipados com cozinha separada.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 97032
+  },
+  {
+    "id": "chunk-293",
+    "text": "8.6.2 A cozinha ou a instalação destinada à preparação dos alimentos deve possuir dimensões adequadas, ser bem iluminada, ventilada e devidamente mantida. \n8.6.3 Quando se utilize gás liquefeito para se cozinhar, os recipientes devem estar devidamente acondicionados na área externa da embarcação.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 97357
+  },
+  {
+    "id": "chunk-294",
+    "text": "8.6.4 Deve existir local adequado, com tamanho suficiente, devidamente ventilado e seco, para o armazenamento de provisões, de modo a evitar sua deterioração durante a viagem. \n8.6.4.1 Os barcos que não disponham de refrigeradores devem ser dotados de outros dispositivos que possam ser utilizados para se manter alimentos armazenados a baixa temperatura.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 97658
+  },
+  {
+    "id": "chunk-295",
+    "text": "8.6.4.2 Os barcos de comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), devem dispor de despensa e refrigerador ou outro tipo de lugar específico para o armazenamento de alimentos a baixa temperatura.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 98016
+  },
+  {
+    "id": "chunk-296",
+    "text": "8.6.5 A cozinha, despensa e locais para preparo de alimentos devem ser mantidas em boas condições de higiene. \n8.6.6 Todo o lixo e restos de alimentos devem ser depositados em recipientes fechados e mantidos fora dos locais onde se manipulam os alimentos e ser descartados de acordo com as normas ambientais vigentes.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 98310
+  },
+  {
+    "id": "chunk-297",
+    "text": "8.6.7 Deve ser previsto aprovisionamento suficiente de víveres e água potável em quantidade, qualidade, variedade e valor nutritivo, levando em consideração o número de pescadores a bordo, suas exigências religiosas e práticas culturais em relação à alimentação, assim como a duração e natureza da viagem.",
+    "heading": "8.3. Dormitórios",
+    "char_offset": 98630
+  },
+  {
+    "id": "chunk-298",
+    "text": "8.6.7.1 A autoridade competente pode estabelecer requisitos mínimos quanto ao valor nutricional dos alimentos e às quantidades mínimas de alimentos e água que devem ser levadas a bordo. \nEste texto não substitui o publicado no DOU",
+    "heading": "8.7 Lavanderia",
+    "char_offset": 99172
+  },
+  {
+    "id": "chunk-299",
+    "text": "8.7.1 Os barcos que possuam dormitórios devem dispor de instalações para lavagem e secagem de roupas, conforme seja necessário, considerando as condições de utilização do barco. \n8.7.1.1 Os barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem) devem possuir instalações para lavar, secar e passar roupas.",
+    "heading": "8.7 Lavanderia",
+    "char_offset": 99174
+  },
+  {
+    "id": "chunk-300",
+    "text": "8.7.1.2 Nos barcos com comprimento total igual ou superior a 50,0 m (cinquenta metros) ou Arqueação Bruta igual ou superior a 500 (quinhentos), as instalações para lavar, secar e passar roupa devem ser separadas dos dormitórios, refeitórios, instalações sanitárias, e devem estar em local suficientemente ventilado e provido de cordas ou outros meios para secar a roupa.",
+    "heading": "8.7 Lavanderia",
+    "char_offset": 99578
+  },
+  {
+    "id": "chunk-301",
+    "text": "8.8 Locais para atenção à saúde: \n8.8.1 Sempre que necessário, deve ser disponibilizado dormitório isolado para pescador que esteja enfermo ou lesionado. \n8.8.1.1 Os barcos com comprimento total igual ou superior a 50,0 m (cinquenta metros) ou Arqueação Bruta igual ou superior a 500 (quinhentos) devem ser dotados de enfermaria separada, adequadamente equipada e mantida em condições higiênicas.",
+    "heading": "8.7 Lavanderia",
+    "char_offset": 99953
+  },
+  {
+    "id": "chunk-302",
+    "text": "8.8.2 Todos os barcos devem dispor de material de primeiros socorros de acordo com as normas das autoridades marítima e sanitária.",
+    "heading": "9. Inspeções periódicas",
+    "char_offset": 100485
+  },
+  {
+    "id": "chunk-303",
+    "text": "9.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), o patrão de pesca ou outro pescador profissional por ele autorizado deve realizar inspeções periódicas para garantir que os locais de vivência estejam em condições de habitabilidade e de segurança adequadas.",
+    "heading": "9. Inspeções periódicas",
+    "char_offset": 100486
+  },
+  {
+    "id": "chunk-304",
+    "text": "9.1.1. As inspeções periódicas devem verificar se o barco dispõe de alimentos e água potável em quantidade suficiente e em bom estado de conservação. \n9.1.2 Os resultados das inspeções devem ser anotados no livro de bordo, assim como as medidas adotadas para solucionar as anomalias detectadas.",
+    "heading": "9. Inspeções periódicas",
+    "char_offset": 100857
+  },
+  {
+    "id": "chunk-305",
+    "text": "1. Campo de aplicação \n1.1. As obrigações previstas neste Apêndice aplicam-se aos barcos de pesca já existentes, considerando: \na) as características operacionais para as quais foram projetados; \nb) a distância máxima de operação; \nEste texto não substitui o publicado no DOU",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 101160
+  },
+  {
+    "id": "chunk-306",
+    "text": "c) a autonomia de tempo de navegação e pesca; \nd) os requisitos de segurança dos locais de trabalho ou da atividade pesqueira; e \ne) as circunstâncias ou a evidência de riscos a bordo. \n2. Navegabilidade e estabilidade \n2.1 O barco deve ser mantido em boas condições de navegabilidade e ser dotado de equipamentos apropriados ao seu destino e utilização.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 101442
+  },
+  {
+    "id": "chunk-307",
+    "text": "2.2 Informações sobre as características de estabilidade do barco, quando exigíveis, devem estar disponíveis a bordo e acessíveis ao pessoal de serviço. \n2.3 Todo barco deve manter sua estabilidade intacta para as condições de serviço previstas, cabendo ao patrão de pesca adotar as medidas de precaução necessárias.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 101800
+  },
+  {
+    "id": "chunk-308",
+    "text": "2.4 As instruções relativas à estabilidade do barco devem ser estritamente observadas. \n3. Instalações \n3.1 Instalações elétricas \n3.1.1 As instalações elétricas devem ser mantidas de modo seguro, garantindo: \na) a proteção da tripulação e do barco contra os perigos elétricos;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 102123
+  },
+  {
+    "id": "chunk-309",
+    "text": "b) o funcionamento correto dos equipamentos necessários para manutenção do barco nas condições normais de operação e de habitabilidade, sem que se recorra a uma fonte de energia elétrica de emergência; e \nc) o funcionamento dos aparelhos elétricos essenciais à segurança em situações de emergência.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 102404
+  },
+  {
+    "id": "chunk-310",
+    "text": "3.1.2. Deve ser instalada uma fonte de energia elétrica de emergência de maneira a garantir, em caso de incêndio ou de avaria da instalação elétrica principal, o funcionamento simultâneo, por no mínimo três horas: \na) do sistema de comunicação interna, dos detectores de incêndio e da sinalização de emergência;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 102706
+  },
+  {
+    "id": "chunk-311",
+    "text": "b) das luzes de navegação e da iluminação de emergência; \nc) do sistema de radiocomunicação; e \nd) da bomba elétrica de emergência contra incêndios e da bomba elétrica de esgotamento do porão, caso exista. \n3.1.2.1. Quando as características estruturais do barco permitirem, a fonte de energia elétrica de emergência deve, exceto em barcos abertos, estar situada fora da praça de máquinas.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 103023
+  },
+  {
+    "id": "chunk-312",
+    "text": "3.1.2.2 A bateria de acumuladores, quando utilizada como fonte, deve estar ligada automaticamente ao quadro de distribuição de energia elétrica de emergência e garantir, em caso de falha da fonte principal, a alimentação ininterrupta durante três horas dos dispositivos a que se fez referência nas alíneas “a”, “b” e “c” do subitem 3.1.2 deste Apêndice.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 103415
+  },
+  {
+    "id": "chunk-313",
+    "text": "Este texto não substitui o publicado no DOU \n3.1.3 O quadro principal de distribuição de eletricidade e o quadro de emergência devem ser instalados de forma a não estarem expostos à água ou ao fogo. \n3.2 Outras instalações \n3.2.1 A instalação de radiocomunicações deve ter capacidade de entrar em contato, a qualquer momento, com, no mínimo, uma estação costeira ou interior, levando-se em conta as condições normais de propagação das ondas radioelétricas, observados os requisitos técnicos estabelecidos nas normas da autoridade marítima.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 103774
+  },
+  {
+    "id": "chunk-314",
+    "text": "4. Vias e saídas de emergência \n4.1. As vias e saídas a serem utilizadas no caso de emergência devem: \na) permanecer sempre desimpedidas; \nb) ser de fácil acesso; e \nc) conduzir o mais diretamente possível ao nível superior ou a uma zona de segurança e desse ponto, às embarcações de salvamento, de modo que os trabalhadores possam evacuar os locais de trabalho e de alojamento rapidamente e em condições de máxima segurança.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 104320
+  },
+  {
+    "id": "chunk-315",
+    "text": "4.1.1 O número, a distribuição e as dimensões das vias e saídas devem estar de acordo com o número máximo de pessoas que possam estar nesses locais. \n4.1.1.1 Na impossibilidade de atendimento ao subitem 4.1.1 deste Apêndice, devem ser providenciadas as alterações necessárias nos seguintes prazos, com aprovação da autoridade competente:",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 104749
+  },
+  {
+    "id": "chunk-316",
+    "text": "a) imediatamente, quando não houver pelo menos duas saídas situadas uma em cada bordo; ou \nb) por ocasião da primeira reforma, nos demais casos. \n4.2 As saídas que possam ser utilizadas como de emergência e que devam permanecer fechadas devem permitir abertura fácil e rápida por qualquer trabalhador ou por equipes de salvamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 105091
+  },
+  {
+    "id": "chunk-317",
+    "text": "4.3 As vias e saídas de emergência devem ser adequadamente sinalizadas, com indicação clara da direção da saída. \n4.3.1 A sinalização deve ser feita nos lugares adequados e ter durabilidade. \n4.4 As vias, os meios de abandono e as saídas de emergência que necessitem de iluminação devem ser dotados de sistema de iluminação de emergência de intensidade suficiente para os casos de avaria do sistema normal.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 105426
+  },
+  {
+    "id": "chunk-318",
+    "text": "5. Detecção e combate a incêndios \n5.1 Os alojamentos e os lugares de trabalho fechados, incluindo praça de máquinas e porões de pesca, devem ter dispositivos adequados de combate a incêndio e, se necessário, detectores de Este texto não substitui o publicado no DOU",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 105836
+  },
+  {
+    "id": "chunk-319",
+    "text": "incêndio e sistema de alarme, de acordo com as dimensões e a utilização do barco, os equipamentos de que é dotado, as características físicas e químicas das substâncias a bordo e o número máximo de pessoas que podem estar a bordo. \n5.1.1 Os dispositivos de combate a incêndio devem sempre estar em seus locais, em perfeitas condições de funcionamento e prontos para uso imediato.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 106106
+  },
+  {
+    "id": "chunk-320",
+    "text": "5.1.2 Os trabalhadores devem ser informados quanto à localização, aos mecanismos de funcionamento e à forma de utilização dos dispositivos de combate a incêndio. \n5.1.3 Antes da saída do barco do porto deve ser verificado se os extintores e os demais equipamentos de combate a incêndio encontram-se a bordo.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 106489
+  },
+  {
+    "id": "chunk-321",
+    "text": "5.1.4 Os dispositivos manuais de combate a incêndio devem ser de fácil acesso e operação, devidamente sinalizados. \n5.1.4.1 A sinalização deve ser colocada em locais adequados e estar permanentemente mantida. \n5.2 Os sistemas de detecção de incêndio e de alarme, quando houver, devem ser testados regularmente e mantidos em bom estado de funcionamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 106801
+  },
+  {
+    "id": "chunk-322",
+    "text": "5.3 Exercícios de combate a incêndio devem ser realizados periodicamente. \n5.4 Quando da recarga, os extintores devem ser efetivamente descarregados pelos trabalhadores de bordo como forma de treinamento e capacitação para sua utilização. \n6. Locais de trabalho",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 107158
+  },
+  {
+    "id": "chunk-323",
+    "text": "6.1 Ambientes de trabalho \n6.1.1 Os locais de trabalho fechados devem dispor de ventilação suficiente, de acordo com os métodos de trabalho e as exigências físicas impostas aos pescadores profissionais. \n6.1.1.1 A ventilação mecânica deve ser mantida em bom estado de funcionamento.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 107424
+  },
+  {
+    "id": "chunk-324",
+    "text": "6.1.2 A temperatura nos locais de trabalho deve ser adequada ao organismo humano durante as horas de trabalho, levando-se em consideração os métodos de trabalho empregados, as exigências físicas impostas aos trabalhadores e as condições meteorológicas reinantes ou que possam ocorrer na região em que o barco opera.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 107709
+  },
+  {
+    "id": "chunk-325",
+    "text": "6.1.3 A temperatura nos alojamentos, na área de serviços, nos refeitórios e nos locais de primeiros socorros deve estar de acordo com o uso específico de cada lugar. \n6.1.4 A critério da autoridade competente, os locais de trabalho devem dispor de isolamento acústico e térmico suficientes, levando-se em conta o tipo de tarefas e a atividade física dos trabalhadores.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 108028
+  },
+  {
+    "id": "chunk-326",
+    "text": "Este texto não substitui o publicado no DOU \n6.1.5 Os locais de trabalho, na medida do possível, devem receber luz natural suficiente e ser equipados com iluminação artificial adequada às circunstâncias da pesca, que não ponha em perigo a segurança e saúde dos trabalhadores, nem a navegação de outros barcos.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 108400
+  },
+  {
+    "id": "chunk-327",
+    "text": "6.1.6 As instalações de iluminação dos locais de trabalho, das escadas e dos corredores devem ser escolhidas de modo a não apresentar riscos de acidentes para os trabalhadores nem dificultar a navegação do barco. \n6.1.7 Os lugares de trabalho em que trabalhadores estejam particularmente expostos a riscos em caso de avaria da iluminação artificial devem possuir iluminação de emergência de intensidade adequada.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 108713
+  },
+  {
+    "id": "chunk-328",
+    "text": "6.1.7.1 A iluminação de emergência deve ser mantida em condições de funcionamento eficaz e testada periodicamente. \n6.2 Pisos, anteparas e tetos \n6.2.1 Todos os locais aos quais os trabalhadores tenham acesso devem possuir pisos antiderrapantes ou dispositivos contra quedas e estar livres de obstáculos.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 109130
+  },
+  {
+    "id": "chunk-329",
+    "text": "6.2.2 As superfícies dos pisos, das anteparas e dos tetos devem ser de fácil higienização. \n6.3 Portas \n6.3.1 As portas, em especial as portas de correr, quando indispensáveis, devem funcionar com a máxima segurança para os trabalhadores, especialmente em condições de mar e de tempo adversas.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 109439
+  },
+  {
+    "id": "chunk-330",
+    "text": "6.3.2 Todas as portas devem poder ser abertas por dentro, sem necessidade de dispositivos específicos, como chaves ou assemelhados. \n6.3.3 As portas devem poder ser abertas por ambos os lados nos compartimentos de trabalho. \n6.4 Vias de circulação e zonas perigosas",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 109737
+  },
+  {
+    "id": "chunk-331",
+    "text": "6.4.1 Deve estar disponível escada de embarque, prancha de embarque ou dispositivo similar que ofereça acesso apropriado e seguro ao barco. \n6.4.2 Os corredores, cruzamentos, partes exteriores de compartimentos e todas as vias de circulação no barco devem ser equipados, quando tecnicamente possível, com corrimãos, apoios para as mãos ou outro meio que garanta a segurança da tripulação durante suas atividades a bordo.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 110006
+  },
+  {
+    "id": "chunk-332",
+    "text": "6.4.3 Caso haja risco de queda de trabalhadores pela escotilha do convés, ou de um convés para outro, devem ser instalados guarda-corpos adequados em todos os locais em que seja tecnicamente possível. \n6.4.3.1. Os guarda-corpos devem ter altura mínima de 1,20 m (um metro de vinte centímetros).",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 110430
+  },
+  {
+    "id": "chunk-333",
+    "text": "Este texto não substitui o publicado no DOU \n6.4.4 As aberturas de acesso às áreas do convés ou da coberta utilizadas para permitir a manutenção das instalações devem ser feitas de modo a garantir a segurança dos trabalhadores. \n6.4.5 As amuradas e outros meios instalados para evitar quedas pela borda devem ser mantidos em bom estado de conservação e permitir o escoamento rápido da água.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 110729
+  },
+  {
+    "id": "chunk-334",
+    "text": "6.4.6 Nos sistemas de arrasto pela popa dotados de rampa na parte superior deve haver portão ou outro dispositivo de segurança da mesma altura que as amuradas, a fim de proteger os trabalhadores do risco de queda. \n6.4.6.1 O dispositivo deve ser facilmente aberto e fechado, de preferência por controle remoto, e ser aberto unicamente para largar ou içar a rede ou o bote.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 111123
+  },
+  {
+    "id": "chunk-335",
+    "text": "7. Segurança nas operações \n7.1 As áreas de trabalho devem estar preparadas para sua finalidade e, na medida do possível, oferecer proteção adequada aos trabalhadores contra quedas a bordo ou no mar. \n7.1.1 As zonas de manuseio do pescado devem ser suficientemente espaçosas no que diz respeito a altura e área de trabalho, considerando o número de pescadores profissionais exigidos na operação.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 111500
+  },
+  {
+    "id": "chunk-336",
+    "text": "7.2 O controle dos motores deve ser instalado em lugar separado, com isolamento acústico e térmico. \n7.2.1 Quando localizado na praça de máquinas, o controle dos motores deve possuir acesso independente, se as características estruturais do barco permitirem.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 111899
+  },
+  {
+    "id": "chunk-337",
+    "text": "7.2.2. Considera-se o passadiço um local que atende a todos os requisitos mencionados no item 7.2, deste Apêndice. \n7.3. Os comandos de equipamentos de tração, quando as características estruturais do barco permitirem, devem ser instalados em área suficientemente ampla, para não permitir que os operadores exponham-se a riscos de acidentes com cabos e partes móveis.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 112161
+  },
+  {
+    "id": "chunk-338",
+    "text": "7.4 Os equipamentos de tração devem ser dotados de dispositivos de segurança adequados para emergências, inclusive os de parada de emergência. \n7.5 O operador dos comandos de equipamentos de tração deve ter visão adequada da movimentação do equipamento e dos trabalhadores que estão na faina.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 112532
+  },
+  {
+    "id": "chunk-339",
+    "text": "7.5.1 Quando os equipamentos de tração forem acionados do passadiço, o operador deve ter visão clara dos trabalhadores envolvidos na faina, diretamente ou por outro meio adequado. \n7.6 O sistema de comunicação entre o passadiço e o convés de trabalho deve ser confiável.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 112828
+  },
+  {
+    "id": "chunk-340",
+    "text": "Este texto não substitui o publicado no DOU \n7.7 Deve-se manter constantemente rigorosa vigilância e procedimentos para alerta da tripulação quanto ao risco iminente de golpe do mar durante as operações de pesca ou quando se realize trabalho no convés.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 113102
+  },
+  {
+    "id": "chunk-341",
+    "text": "7.8 Os riscos da movimentação a descoberto dos viradores, dos cabos de arrasto e das peças móveis do equipamento devem ser reduzidos ao mínimo por meio da instalação de mecanismos de proteção. \n7.9 Devem ser instalados sistemas de controle da movimentação de cargas, especialmente mecanismo de bloqueio da porta da rede de arrasto.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 113358
+  },
+  {
+    "id": "chunk-342",
+    "text": "7.10 Os equipamentos de proteção individual utilizados como peças de vestuários ou que se usem por cima dessas peças devem ser de cores vivas, para contrastar com o meio marinho e serem bem visíveis. \n8. Condições de habitabilidade e áreas de vivência a bordo",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 113693
+  },
+  {
+    "id": "chunk-343",
+    "text": "8.1 Alojamentos \n8.1.1 Os alojamentos dos trabalhadores devem ser protegidos das intempéries, do calor e do frio excessivos e adaptados de forma a minimizar ruído, vibrações, efeitos dos movimentos e das acelerações e emanações provenientes de outros locais, quando tecnicamente possível.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 113956
+  },
+  {
+    "id": "chunk-344",
+    "text": "8.1.1.1 Deve-se instalar iluminação adequada nos alojamentos. \n8.1.2 O número de trabalhadores por dormitório não pode ser superior a seis. \n8.1.2.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), o número de trabalhadores por dormitório não pode ser superior a quatro e o de oficiais não pode ser superior a dois por dormitório.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 114249
+  },
+  {
+    "id": "chunk-345",
+    "text": "8.1.2.2. A autoridade marítima poderá permitir exceção aos subitens 8.1.2 e 8.1.2.1, deste Apêndice, nos casos particulares em que sua aplicação não seja razoável ou factível, de acordo com o tipo de embarcação, suas dimensões e o serviço ao qual se destina.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 114689
+  },
+  {
+    "id": "chunk-346",
+    "text": "8.1.3 O número máximo de pessoas por dormitório deve ser indicado de forma legível e indelével em lugar de fácil visualização na entrada do dormitório. \n8.1.4 Os pescadores profissionais devem dispor de camas individuais de dimensões apropriadas e com colchões confeccionados com materiais adequados.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 114951
+  },
+  {
+    "id": "chunk-347",
+    "text": "8.1.4.1 Consideradas as características regionais, a autoridade competente poderá autorizar o uso de redes individuais no lugar das camas. \n8.1.4.2 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), as dimensões das camas não podem ser inferiores a 1,90 x 0,68 m (um metro de noventa centímetros por sessenta e oito centímetros).",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 115255
+  },
+  {
+    "id": "chunk-348",
+    "text": "Este texto não substitui o publicado no DOU \n8.1.5 Os dormitórios devem ser equipados com mobiliário que facilite a limpeza e proporcione comodidade aos pescadores profissionais, devendo ser incluídos camas e armários individuais. \n8.1.6. Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os dormitórios devem ser separados por sexo.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 115694
+  },
+  {
+    "id": "chunk-349",
+    "text": "8.1.7. A cozinha e o refeitório devem: \na) ter dimensões adequadas; \nb) ser suficientemente iluminados e ventilados; e \nc) ser de fácil limpeza. \n8.1.8. Devem estar disponíveis refrigeradores ou outros meios de armazenamento de alimentos a baixa temperatura, assim como utensílios e meios adequados para preparo das refeições.",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 116140
+  },
+  {
+    "id": "chunk-350",
+    "text": "8.2 Instalações Sanitárias \n8.2.1 Os barcos que disponham de alojamento devem ser dotados de instalações sanitárias contendo pias, privadas e chuveiros protegidos contra oxidação. \n8.2.1.1 As instalações sanitárias devem: \na) ser protegidas contra escorregões e adequadamente ventiladas;",
+    "heading": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**",
+    "char_offset": 116472
+  },
+  {
+    "id": "chunk-351",
+    "text": "b) ser em número adequado à quantidade de trabalhadores; e \nc) estar de acordo com as normas da autoridade marítima.",
+    "heading": "8.3 Primeiros socorros",
+    "char_offset": 116882
+  },
+  {
+    "id": "chunk-352",
+    "text": "8.3.1 Todos os barcos deverão dispor de material de primeiros socorros, de acordo com as normas das autoridades marítima e sanitária.",
+    "heading": "**APÊNDICE III**",
+    "char_offset": 117019
+  },
+  {
+    "id": "chunk-353",
+    "text": "1. As obrigações previstas neste Apêndice aplicam-se a todos os barcos de pesca, considerando: \na) as características operacionais para os quais foram projetados; \nb) a distância máxima de operação; \nc) a autonomia de tempo de navegação e pesca; \nd) os requisitos de segurança dos locais de trabalho ou da atividade pesqueira; e",
+    "heading": "**Meios de Salvamento e Sobrevivência**",
+    "char_offset": 117025
+  },
+  {
+    "id": "chunk-354",
+    "text": "e) as circunstâncias ou a evidência de riscos a bordo. \n2. Os barcos de pesca devem dispor de meios adequados de salvamento e sobrevivência, incluindo os que permitam a retirada de trabalhadores da água e os determinados pelas normas da autoridade marítima.",
+    "heading": "**Meios de Salvamento e Sobrevivência**",
+    "char_offset": 117357
+  },
+  {
+    "id": "chunk-355",
+    "text": "Este texto não substitui o publicado no DOU \n3. Todos os meios de salvamento e sobrevivência devem estar em lugar apropriado e em bom estado de conservação, prontos para uso imediato. \n4. O patrão de pesca ou pescador profissional por ele indicado deve verificar os meios de salvamento antes que o barco deixe o porto.",
+    "heading": "**Meios de Salvamento e Sobrevivência**",
+    "char_offset": 117619
+  },
+  {
+    "id": "chunk-356",
+    "text": "5. Os meios de salvamento e sobrevivência devem ser supervisionados regularmente, de acordo com as normas da autoridade marítima. \n6. Todos os pescadores profissionais devem estar devidamente treinados e instruídos para o caso de emergências. \n7. Os barcos com comprimento superior total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem) devem dispor de quadro com instruções precisas sobre os procedimentos que cada trabalhador deve seguir em caso de emergência.",
+    "heading": "**Meios de Salvamento e Sobrevivência**",
+    "char_offset": 117942
+  },
+  {
+    "id": "chunk-357",
+    "text": "8. O exercício anual de salvamento deve ser realizado no porto ou no mar e envolver todos os pescadores profissionais. \n8.1 Os exercícios devem garantir que os pescadores profissionais conheçam perfeitamente as operações relativas ao manejo e funcionamento dos meios de salvamento e de sobrevivência.",
+    "heading": "**Meios de Salvamento e Sobrevivência**",
+    "char_offset": 118481
+  },
+  {
+    "id": "chunk-358",
+    "text": "9. Os pescadores profissionais devem estar familiarizados com as instalações do equipamento de radiocomunicação e ser treinados em seu manejo. \nEste texto não substitui o publicado no DOU",
+    "heading": "Tabelas",
+    "char_offset": 118975
+  },
+  {
+    "id": "chunk-359",
+    "text": "> [Tabela 1: page 19](../assets/tables/page_019_table_00.html)\n> [Tabela 2: page 19](../assets/tables/page_019_table_01.html)\n> [Tabela 3: page 20](../assets/tables/page_020_table_00.html)\n> [Tabela 4: page 21](../assets/tables/page_021_table_00.html)",
+    "heading": "Tabelas",
+    "char_offset": 118979
+  },
+  {
+    "id": "chunk-360",
+    "text": "> [Tabela 5: page 21](../assets/tables/page_021_table_01.html)\n> [Tabela 6: page 22](../assets/tables/page_022_table_00.html)\n> [Tabela 7: page 23](../assets/tables/page_023_table_00.html)\n> [Tabela 8: page 23](../assets/tables/page_023_table_01.html)",
+    "heading": "Tabelas",
+    "char_offset": 119235
+  },
+  {
+    "id": "chunk-361",
+    "text": "> [Tabela 9: page 24](../assets/tables/page_024_table_00.html)\n> [Tabela 10: page 25](../assets/tables/page_025_table_00.html)\n> [Tabela 11: page 27](../assets/tables/page_027_table_00.html)\n> [Tabela 12: page 28](../assets/tables/page_028_table_00.html)",
+    "heading": "Tabelas",
+    "char_offset": 119491
+  },
+  {
+    "id": "chunk-362",
+    "text": "> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n> ![Page 3](../assets/pages/page-003.png)\n> ![Page 4](../assets/pages/page-004.png)\n> ![Page 5](../assets/pages/page-005.png)\n> ![Page 6](../assets/pages/page-006.png)",
+    "heading": "Tabelas",
+    "char_offset": 119796
+  },
+  {
+    "id": "chunk-363",
+    "text": "> ![Page 7](../assets/pages/page-007.png)\n> ![Page 8](../assets/pages/page-008.png)\n> ![Page 9](../assets/pages/page-009.png)\n> ![Page 10](../assets/pages/page-010.png)\n> ![Page 11](../assets/pages/page-011.png)\n> ![Page 12](../assets/pages/page-012.png)",
+    "heading": "Tabelas",
+    "char_offset": 120054
+  },
+  {
+    "id": "chunk-364",
+    "text": "> ![Page 13](../assets/pages/page-013.png)\n> ![Page 14](../assets/pages/page-014.png)\n> ![Page 15](../assets/pages/page-015.png)\n> ![Page 16](../assets/pages/page-016.png)\n> ![Page 17](../assets/pages/page-017.png)\n> ![Page 18](../assets/pages/page-018.png)",
+    "heading": "Tabelas",
+    "char_offset": 120315
+  },
+  {
+    "id": "chunk-365",
+    "text": "> ![Page 19](../assets/pages/page-019.png)\n> ![Page 20](../assets/pages/page-020.png)\n> ![Page 21](../assets/pages/page-021.png)\n> ![Page 22](../assets/pages/page-022.png)\n> ![Page 23](../assets/pages/page-023.png)\n> ![Page 24](../assets/pages/page-024.png)",
+    "heading": "Tabelas",
+    "char_offset": 120579
+  },
+  {
+    "id": "chunk-366",
+    "text": "> ![Page 25](../assets/pages/page-025.png)\n> ![Page 26](../assets/pages/page-026.png)\n> ![Page 27](../assets/pages/page-027.png)\n> ![Page 28](../assets/pages/page-028.png)\n> ![Page 29](../assets/pages/page-029.png)\n> ![Page 30](../assets/pages/page-030.png)",
+    "heading": "Tabelas",
+    "char_offset": 120843
+  },
+  {
+    "id": "chunk-367",
+    "text": "> ![Page 31](../assets/pages/page-031.png)\n> ![Page 32](../assets/pages/page-032.png)\n> ![Page 33](../assets/pages/page-033.png)\n> ![Page 34](../assets/pages/page-034.png)\n> ![Page 35](../assets/pages/page-035.png)\n> ![Page 36](../assets/pages/page-036.png)",
+    "heading": "Tabelas",
+    "char_offset": 121107
+  },
+  {
+    "id": "chunk-368",
+    "text": "> ![Page 37](../assets/pages/page-037.png)\n> ![Page 38](../assets/pages/page-038.png)\n> ![Page 39](../assets/pages/page-039.png)\n> ![Page 40](../assets/pages/page-040.png)\n> ![Page 41](../assets/pages/page-041.png)\n> ![Page 42](../assets/pages/page-042.png)",
+    "heading": "Tabelas",
+    "char_offset": 121371
+  },
+  {
+    "id": "chunk-369",
+    "text": "> ![Page 43](../assets/pages/page-043.png)\n> ![Page 44](../assets/pages/page-044.png)\n> ![Page 45](../assets/pages/page-045.png)\n> ![Page 46](../assets/pages/page-046.png)\n> ![Page 47](../assets/pages/page-047.png)\n> ![Page 48](../assets/pages/page-048.png)",
+    "heading": "Tabelas",
+    "char_offset": 121635
+  },
+  {
+    "id": "chunk-370",
+    "text": "> ![Page 49](../assets/pages/page-049.png)\n> ![Page 50](../assets/pages/page-050.png)\n> ![Page 51](../assets/pages/page-051.png)\n-->",
+    "heading": "Tabelas",
+    "char_offset": 121897
+  }
+]

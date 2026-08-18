@@ -1,1196 +1,992 @@
 [
   {
     "id": "chunk-0",
-    "text": "**NR 17 - ERGONOMIA**\n**Publicação** **D.O.U.**\n[Portaria MTb n.º 3.214, de 08 de junho de 1978](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1978/portaria_3-214_aprova_as_nrs.pdf) 06/07/78",
-    "heading": "Introdução",
+    "text": "|**Publicação**<br>Portaria MTb n.º3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|\n|<br>Portaria MTPS n.º3.751, de 23 de novembro de 1990|26/11/90|\n|Portaria SIT n.º08, de 30 de março de 2007|02/04/07|",
+    "heading": "**NR 17 - ERGONOMIA**",
     "char_offset": 1
   },
   {
     "id": "chunk-1",
-    "text": "**Alterações/Atualizações** **D.O.U.**\n[Portaria MTPS n.º 3.751, de 23 de novembro de 1990](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1990/portaria_3-751_altera_a_nr_17_e_nr_15.pdf/view) 26/11/90",
-    "heading": "Introdução",
-    "char_offset": 265
+    "text": "|Portaria SIT n.º09, de 30 de março de 2007|02/04/07|\n|Portaria SIT n.º13, de 21 de junho de 2007|26/06/07|\n|Portaria MTb n.º876, de 24 de outubro de 2018|Rep. 26/10/18|\n|Portaria MTP n.º423, de 07 de outubro de 2021|08/10/21|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|",
+    "heading": "**NR 17 - ERGONOMIA**",
+    "char_offset": 260
   },
   {
     "id": "chunk-2",
-    "text": "[Portaria SIT n.º 08, de 30 de março de 2007](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2007/portaria_08_checkout.pdf/view) 02/04/07\n[Portaria SIT n.º 09, de 30 de março de 2007](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2007/portaria_09_teleatendimento_telemarketing.pdf/view) 02/04/07",
-    "heading": "Introdução",
-    "char_offset": 537
+    "text": "_(Redação dada pela Portaria MTP n.º 423 de 07 de outubro de 2021)_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 618
   },
   {
     "id": "chunk-3",
-    "text": "[Portaria SIT n.º 13, de 21 de junho de 2007](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2007/portaria_13_altera_checkouts_nr_17.pdf/view) 26/06/07\n[Portaria MTb n.º 876, de 24 de outubro de 2018](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2018/portaria_mtb_876_altera_nr_17.pdf/view) Rep. 26/10/18",
-    "heading": "Introdução",
-    "char_offset": 976
+    "text": "17.1 Objetivo \n17.2 Campo de Aplicação \n17.3 Avaliação das situações de trabalho \n17.4 Organização do trabalho \n17.5 Levantamento, transporte e descarga individual de cargas \n17.6 Mobiliário dos postos de trabalho \n17.7 Trabalho com máquinas, equipamentos e ferramentas manuais **17.8** Condições de conforto no ambiente de trabalho Anexo I - Trabalho dos Operadores de **Checkout** Anexo II - Trabalho em Teleatendimento/ **Telemarketing**",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 625
   },
   {
     "id": "chunk-4",
-    "text": "[Portaria MTP n.º 423, de 07 de outubro de 2021](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2021/portaria-mtp-no-423-nova-nr-17.pdf/view) 08/10/21\n[Portaria MTP n.º 4.219, de 20 de dezembro de 2022](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-no-4-219-altera-nrs-cipa.pdf/view) 22/12/22",
-    "heading": "Introdução",
-    "char_offset": 1425
+    "text": "**17.1.1** Esta Norma Regulamentadora - NR visa estabelecer as diretrizes e os requisitos que permitam a adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores, de modo a proporcionar conforto, segurança, saúde e desempenho eficiente no trabalho.",
+    "heading": "**17.1 Objetivo**",
+    "char_offset": 1069
   },
   {
     "id": "chunk-5",
-    "text": "_(Redação dada pela Portaria MTP n.º 423 de 07 de outubro de 2021)_\n**SUMÁRIO**\n17.1 Objetivo\n17.2 Campo de Aplicação\n17.3 Avaliação das situações de trabalho\n17.4 Organização do trabalho\n17.5 Levantamento, transporte e descarga individual de cargas",
-    "heading": "Introdução",
-    "char_offset": 1881
+    "text": "**17.1.1.1** As condições de trabalho incluem aspectos relacionados ao levantamento, transporte e descarga de materiais, ao mobiliário dos postos de trabalho, ao trabalho com máquinas, equipamentos e ferramentas manuais, às condições de conforto no ambiente de trabalho e à própria organização do trabalho.",
+    "heading": "**17.1 Objetivo**",
+    "char_offset": 1354
   },
   {
     "id": "chunk-6",
-    "text": "17.6 Mobiliário dos postos de trabalho\n17.7 Trabalho com máquinas, equipamentos e ferramentas manuais\n**17.8** Condições de conforto no ambiente de trabalho\nAnexo I - Trabalho dos Operadores de **Checkout**\nAnexo II - Trabalho em Teleatendimento/ **Telemarketing**",
-    "heading": "Introdução",
-    "char_offset": 2131
+    "text": "**17.2.1** Esta Norma se aplica a todas as situações de trabalho, relacionadas às condições previstas no subitem 17.1.1.1, das organizações e dos órgãos públicos da administração direta e indireta, bem como dos órgãos dos Poderes Legislativo, Judiciário e Ministério Público que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT.",
+    "heading": "**17.2 Campo de Aplicação**",
+    "char_offset": 1664
   },
   {
     "id": "chunk-7",
-    "text": "**17.1** **Objetivo**\n**17.1.1** Esta Norma Regulamentadora - NR visa estabelecer as diretrizes e os requisitos que\npermitam a adaptação das condições de trabalho às características psicofisiológicas dos\ntrabalhadores, de modo a proporcionar conforto, segurança, saúde e desempenho eficiente no",
-    "heading": "Introdução",
-    "char_offset": 2398
+    "text": "**17.2.2** Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 2119
   },
   {
     "id": "chunk-8",
-    "text": "trabalho.\n**17.1.1.1** As condições de trabalho incluem aspectos relacionados ao levantamento, transporte e\ndescarga de materiais, ao mobiliário dos postos de trabalho, ao trabalho com máquinas,\nequipamentos e ferramentas manuais, às condições de conforto no ambiente de trabalho e à",
-    "heading": "Introdução",
-    "char_offset": 2695
+    "text": "Este texto não substitui o publicado no DOU \n**17.3.1** A organização deve realizar a avaliação ergonômica preliminar das situações de trabalho que, em decorrência da natureza e conteúdo das atividades requeridas, demandam adaptação às características psicofisiológicas dos trabalhadores, a fim de subsidiar a implementação das medidas de prevenção e adequações necessárias previstas nesta NR.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 2121
   },
   {
     "id": "chunk-9",
-    "text": "própria organização do trabalho.\n**17.2** **Campo de Aplicação**\n**17.2.1** Esta Norma se aplica a todas as situações de trabalho, relacionadas às condições previstas\nno subitem 17.1.1.1, das organizações e dos órgãos públicos da administração direta e indireta,",
-    "heading": "Introdução",
-    "char_offset": 2981
+    "text": "**17.3.1.1** A avaliação ergonômica preliminar das situações de trabalho pode ser realizada por meio de abordagens qualitativas, semiquantitativas, quantitativas ou combinação dessas, dependendo do risco e dos requisitos legais, a fim de identificar os perigos e produzir informações para o planejamento das medidas de prevenção necessárias.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 2517
   },
   {
     "id": "chunk-10",
-    "text": "bem como dos órgãos dos Poderes Legislativo, Judiciário e Ministério Público que possuam\nempregados regidos pela Consolidação das Leis do Trabalho - CLT.\n**17.2.2** Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas.",
-    "heading": "Introdução",
-    "char_offset": 3245
+    "text": "**17.3.1.2** A avaliação ergonômica preliminar pode ser contemplada nas etapas do processo de identificação de perigos e de avaliação dos riscos descrito no item 1.5.4 da Norma Regulamentadora nº 01 (NR-01) Disposições Gerais e Gerenciamento de Riscos Ocupacionais.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 2861
   },
   {
     "id": "chunk-11",
-    "text": "**17.3** **Avaliação das situações de trabalho**\nEste texto não substitui o publicado no DOU\n**17.3.1** A organização deve realizar a avaliação ergonômica preliminar das situações de trabalho\nque, em decorrência da natureza e conteúdo das atividades requeridas, demandam adaptação às",
-    "heading": "Introdução",
-    "char_offset": 3501
+    "text": "**17.3.1.2.1** A avaliação ergonômica preliminar das situações de trabalho deve ser registrada pela organização. \n**17.3.2** A organização deve realizar Análise Ergonômica do Trabalho - AET da situação de trabalho quando: \na) observada a necessidade de uma avaliação mais aprofundada da situação;",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 3131
   },
   {
     "id": "chunk-12",
-    "text": "características psicofisiológicas dos trabalhadores, a fim de subsidiar a implementação das\nmedidas de prevenção e adequações necessárias previstas nesta NR.\n**17.3.1.1** A avaliação ergonômica preliminar das situações de trabalho pode ser realizada por meio",
-    "heading": "Introdução",
-    "char_offset": 3786
+    "text": "b) identificadas inadequações ou insuficiência das ações adotadas; \nc) sugerida pelo acompanhamento de saúde dos trabalhadores, nos termos do Programa de Controle Médico de Saúde Ocupacional - PCMSO e da alínea “c” do subitem 1.5.5.1.1 da NR 01; ou",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 3431
   },
   {
     "id": "chunk-13",
-    "text": "de abordagens qualitativas, semiquantitativas, quantitativas ou combinação dessas, dependendo\ndo risco e dos requisitos legais, a fim de identificar os perigos e produzir informações para o\nplanejamento das medidas de prevenção necessárias.\n**17.3.1.2** A avaliação ergonômica preliminar pode ser contemplada nas etapas do processo de",
-    "heading": "Introdução",
-    "char_offset": 4046
+    "text": "d) indicada causa relacionada às condições de trabalho na análise de acidentes e doenças relacionadas ao trabalho, nos termos do Programa de Gerenciamento de Riscos - PGR. \n**17.3.3** A AET deve abordar as condições de trabalho, conforme estabelecido nesta NR, incluindo as seguintes etapas:",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 3683
   },
   {
     "id": "chunk-14",
-    "text": "identificação de perigos e de avaliação dos riscos descrito no item 1.5.4 da Norma\nRegulamentadora nº 01 (NR-01) Disposições Gerais e Gerenciamento de Riscos Ocupacionais.\n**17.3.1.2.1** A avaliação ergonômica preliminar das situações de trabalho deve ser registrada pela",
-    "heading": "Introdução",
-    "char_offset": 4382
+    "text": "a) análise da demanda e, quando aplicável, reformulação do problema; \nb) análise do funcionamento da organização, dos processos, das situações de trabalho e da atividade; \nc) descrição e justificativa para definição de métodos, técnicas e ferramentas adequados para a análise e sua aplicação, não estando adstrita à utilização de métodos, técnicas e ferramentas específicos;",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 3979
   },
   {
     "id": "chunk-15",
-    "text": "organização.\n**17.3.2** A organização deve realizar Análise Ergonômica do Trabalho - AET da situação de trabalho\nquando:\na) observada a necessidade de uma avaliação mais aprofundada da situação;\nb) identificadas inadequações ou insuficiência das ações adotadas;",
-    "heading": "Introdução",
-    "char_offset": 4657
+    "text": "d) estabelecimento de diagnóstico; \ne) recomendações para as situações de trabalho analisadas; e \nf) restituição dos resultados, validação e revisão das intervenções efetuadas, quando necessária, com a participação dos trabalhadores. \n**17.3.4** As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus de risco 1 e 2 e o Microempreendedor Individual - MEI não são obrigados a elaborar a AET, mas devem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 4359
   },
   {
     "id": "chunk-16",
-    "text": "c) sugerida pelo acompanhamento de saúde dos trabalhadores, nos termos do Programa de\nControle Médico de Saúde Ocupacional - PCMSO e da alínea “c” do subitem 1.5.5.1.1 da NR 01; ou\nd) indicada causa relacionada às condições de trabalho na análise de acidentes e doenças",
-    "heading": "Introdução",
-    "char_offset": 4921
+    "text": "**17.3.4.1** As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando Este texto não substitui o publicado no DOU \nobservadas as situações previstas nas alíneas “c” e “d” do item 17.3.2. \n**17.3.5** Devem integrar o inventário de riscos do PGR:",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 4866
   },
   {
     "id": "chunk-17",
-    "text": "relacionadas ao trabalho, nos termos do Programa de Gerenciamento de Riscos - PGR.\n**17.3.3** A AET deve abordar as condições de trabalho, conforme estabelecido nesta NR, incluindo as\nseguintes etapas:\na) análise da demanda e, quando aplicável, reformulação do problema;",
-    "heading": "Introdução",
-    "char_offset": 5193
+    "text": "a) os resultados da avaliação ergonômica preliminar; e \nb) a revisão, quando for o caso, da identificação dos perigos e da avaliação dos riscos, conforme indicado pela AET. \n**17.3.6** Devem ser previstos planos de ação, nos termos do PGR, para: \na) as medidas de prevenção e adequações decorrentes da avaliação ergonômica preliminar, atendido o previsto nesta NR; e",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 5138
   },
   {
     "id": "chunk-18",
-    "text": "b) análise do funcionamento da organização, dos processos, das situações de trabalho e da\natividade;\nc) descrição e justificativa para definição de métodos, técnicas e ferramentas adequados para a\nanálise e sua aplicação, não estando adstrita à utilização de métodos, técnicas e ferramentas",
-    "heading": "Introdução",
-    "char_offset": 5466
+    "text": "b) as recomendações da AET. \n**17.3.7** O relatório da AET, quando realizada, deve ficar à disposição na organização pelo prazo de 20 (vinte) anos. \n**17.3.8** A organização deve garantir que os empregados sejam ouvidos durante o processo da avaliação ergonômica preliminar e na AET.",
+    "heading": "**17.3 Avaliação das situações de trabalho**",
+    "char_offset": 5509
   },
   {
     "id": "chunk-19",
-    "text": "específicos;\nd) estabelecimento de diagnóstico;\ne) recomendações para as situações de trabalho analisadas; e\nf) restituição dos resultados, validação e revisão das intervenções efetuadas, quando necessária,\ncom a participação dos trabalhadores.\n**17.3.4** As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus de",
-    "heading": "Introdução",
-    "char_offset": 5761
+    "text": "**17.4.1** A organização do trabalho, para efeito desta NR, deve levar em consideração: \na) as normas de produção; \nb) o modo operatório, quando aplicável; \nc) a exigência de tempo; \nd) o ritmo de trabalho; \ne) o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis; e",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 5801
   },
   {
     "id": "chunk-20",
-    "text": "risco 1 e 2 e o Microempreendedor Individual - MEI não são obrigados a elaborar a AET, mas\ndevem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis.\n**17.3.4.1** As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando",
-    "heading": "Introdução",
-    "char_offset": 6100
+    "text": "f) os aspectos cognitivos que possam comprometer a segurança e a saúde do trabalhador. \n**17.4.2** Nas atividades que exijam sobrecarga muscular estática ou dinâmica do tronco, do pescoço, da cabeça, dos membros superiores e dos membros inferiores, devem ser adotadas medidas técnicas de engenharia, organizacionais e/ou administrativas, com o objetivo de eliminar ou reduzir essas sobrecargas, a partir da avaliação ergonômica preliminar ou da AET.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 6088
   },
   {
     "id": "chunk-21",
-    "text": "Este texto não substitui o publicado no DOU\nobservadas as situações previstas nas alíneas “c” e “d” do item 17.3.2.\n**17.3.5** Devem integrar o inventário de riscos do PGR:\na) os resultados da avaliação ergonômica preliminar; e\nb) a revisão, quando for o caso, da identificação dos perigos e da avaliação dos riscos, conforme",
-    "heading": "Introdução",
-    "char_offset": 6372
+    "text": "**17.4.3** Devem ser implementadas medidas de prevenção, a partir da avaliação ergonômica preliminar ou da AET, que evitem que os trabalhadores, ao realizar suas atividades, sejam obrigados a efetuar de forma contínua e repetitiva: \na) posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos membros superiores e/ou dos membros inferiores;",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 6541
   },
   {
     "id": "chunk-22",
-    "text": "indicado pela AET.\n**17.3.6** Devem ser previstos planos de ação, nos termos do PGR, para:\na) as medidas de prevenção e adequações decorrentes da avaliação ergonômica preliminar,\natendido o previsto nesta NR; e\nb) as recomendações da AET.\n**17.3.7** O relatório da AET, quando realizada, deve ficar à disposição na organização pelo prazo de",
-    "heading": "Introdução",
-    "char_offset": 6702
+    "text": "b) movimentos bruscos de impacto dos membros superiores; \nc) uso excessivo de força muscular; \nd) frequência de movimentos dos membros superiores ou inferiores que possam comprometer a segurança e a saúde do trabalhador; \ne) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e Este texto não substitui o publicado no DOU",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 6897
   },
   {
     "id": "chunk-23",
-    "text": "20 (vinte) anos.\n**17.3.8** A organização deve garantir que os empregados sejam ouvidos durante o processo da\navaliação ergonômica preliminar e na AET.\n**17.4** **Organização do trabalho**\n**17.4.1** A organização do trabalho, para efeito desta NR, deve levar em consideração:",
-    "heading": "Introdução",
-    "char_offset": 7046
+    "text": "Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos; ou \nf) exigência cognitiva que possa comprometer a segurança e saúde do trabalhador. \n**17.4.3.1** As medidas de prevenção devem incluir duas ou mais das seguintes alternativas:",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 7260
   },
   {
     "id": "chunk-24",
-    "text": "a) as normas de produção;\nb) o modo operatório, quando aplicável;\nc) a exigência de tempo;\nd) o ritmo de trabalho;\ne) o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis; e\nf) os aspectos cognitivos que possam comprometer a segurança e a saúde do trabalhador.",
-    "heading": "Introdução",
-    "char_offset": 7329
+    "text": "a) pausas para propiciar a recuperação psicofisiológica dos trabalhadores, que devem ser computadas como tempo de trabalho efetivo; \nb) alternância de atividades com outras tarefas que permitam variar as posturas, os grupos musculares utilizados ou o ritmo de trabalho;",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 7520
   },
   {
     "id": "chunk-25",
-    "text": "**17.4.2** Nas atividades que exijam sobrecarga muscular estática ou dinâmica do tronco, do pescoço,\nda cabeça, dos membros superiores e dos membros inferiores, devem ser adotadas medidas\ntécnicas de engenharia, organizacionais e/ou administrativas, com o objetivo de eliminar ou",
-    "heading": "Introdução",
-    "char_offset": 7608
+    "text": "c) alteração da forma de execução ou organização da tarefa; e \nd) outras medidas técnicas aplicáveis, recomendadas na avaliação ergonômica preliminar ou na AET. \n**17.4.3.1.1** Quando não for possível adotar as alternativas previstas nas alíneas “c” e “d” do subitem 17.4.3.1, devem obrigatoriamente ser adotadas pausas e alternância de atividades previstas, respectivamente, nas alíneas “a” e “b” do subitem 17.4.3.1.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 7794
   },
   {
     "id": "chunk-26",
-    "text": "reduzir essas sobrecargas, a partir da avaliação ergonômica preliminar ou da AET.\n**17.4.3** Devem ser implementadas medidas de prevenção, a partir da avaliação ergonômica\npreliminar ou da AET, que evitem que os trabalhadores, ao realizar suas atividades, sejam",
-    "heading": "Introdução",
-    "char_offset": 7889
+    "text": "**17.4.3.2** Para que as pausas possam propiciar descanso e recuperação psicofisiológica dos trabalhadores, devem ser observados os requisitos mínimos: \na) a introdução das pausas não pode ser acompanhada de aumento da cadência individual; e \nb) as pausas devem ser usufruídas fora dos postos de trabalho.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 8217
   },
   {
     "id": "chunk-27",
-    "text": "obrigados a efetuar de forma contínua e repetitiva:\na) posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos membros superiores e/ou\ndos membros inferiores;\nb) movimentos bruscos de impacto dos membros superiores;\nc) uso excessivo de força muscular;",
-    "heading": "Introdução",
-    "char_offset": 8154
+    "text": "**17.4.3.3** Deve ser assegurada a saída dos postos de trabalho para satisfação das necessidades fisiológicas dos trabalhadores nos termos do item 24.9.8 da Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho, independentemente da fruição das pausas.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 8525
   },
   {
     "id": "chunk-28",
-    "text": "d) frequência de movimentos dos membros superiores ou inferiores que possam comprometer a\nsegurança e a saúde do trabalhador;\ne) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e\nEste texto não substitui o publicado no DOU",
-    "heading": "Introdução",
-    "char_offset": 8420
+    "text": "**17.4.4** Todo e qualquer sistema de avaliação de desempenho para efeito de remuneração e vantagens de qualquer espécie deve levar em consideração as repercussões sobre a saúde dos trabalhadores. \n**17.4.5** A concepção dos postos de trabalho deve levar em consideração os fatores organizacionais e ambientais, a natureza da tarefa e das atividades e facilitar a alternância de posturas.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 8823
   },
   {
     "id": "chunk-29",
-    "text": "Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos; ou\nf) exigência cognitiva que possa comprometer a segurança e saúde do trabalhador.\n**17.4.3.1** As medidas de prevenção devem incluir duas ou mais das seguintes alternativas:",
-    "heading": "Introdução",
-    "char_offset": 8686
+    "text": "**17.4.6** As dimensões dos espaços de trabalho e de circulação, inerentes à execução da tarefa, devem ser suficientes para que o trabalhador possa movimentar os segmentos corporais livremente, de maneira a facilitar o trabalho, reduzir o esforço do trabalhador e não exigir a adoção de posturas extremas ou nocivas.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 9214
   },
   {
     "id": "chunk-30",
-    "text": "a) pausas para propiciar a recuperação psicofisiológica dos trabalhadores, que devem ser\ncomputadas como tempo de trabalho efetivo;\nb) alternância de atividades com outras tarefas que permitam variar as posturas, os grupos\nmusculares utilizados ou o ritmo de trabalho;",
-    "heading": "Introdução",
-    "char_offset": 8943
+    "text": "**17.4.7** Os superiores hierárquicos diretos dos trabalhadores devem ser orientados para buscar no exercício de suas atividades: \na) facilitar a compreensão das atribuições e responsabilidades de cada função; \nb) manter aberto o diálogo de modo que os trabalhadores possam sanar dúvidas quanto ao exercício de suas atividades;",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 9535
   },
   {
     "id": "chunk-31",
-    "text": "c) alteração da forma de execução ou organização da tarefa; e\nd) outras medidas técnicas aplicáveis, recomendadas na avaliação ergonômica preliminar ou na\nAET.\n**17.4.3.1.1** Quando não for possível adotar as alternativas previstas nas alíneas “c” e “d” do",
-    "heading": "Introdução",
-    "char_offset": 9216
+    "text": "c) facilitar o trabalho em equipe; e \nEste texto não substitui o publicado no DOU \nd) estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho. \n**17.4.7.1** A organização com até 10 (dez) empregados fica dispensada do atendimento ao item 17.4.7.",
+    "heading": "**17.4 Organização do trabalho**",
+    "char_offset": 9868
   },
   {
     "id": "chunk-32",
-    "text": "subitem 17.4.3.1, devem obrigatoriamente ser adotadas pausas e alternância de atividades\nprevistas, respectivamente, nas alíneas “a” e “b” do subitem 17.4.3.1.\n**17.4.3.2** Para que as pausas possam propiciar descanso e recuperação psicofisiológica dos",
-    "heading": "Introdução",
-    "char_offset": 9474
+    "text": "**17.5.1** Não deverá ser exigido nem admitido o transporte manual de cargas por um trabalhador cujo peso seja suscetível de comprometer sua saúde ou sua segurança. \n**17.5.1.1** A carga suportada deve ser reduzida quando se tratar de trabalhadora mulher e de trabalhador menor nas atividades permitidas por lei.",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 10148
   },
   {
     "id": "chunk-33",
-    "text": "trabalhadores, devem ser observados os requisitos mínimos:\na) a introdução das pausas não pode ser acompanhada de aumento da cadência individual; e\nb) as pausas devem ser usufruídas fora dos postos de trabalho.\n**17.4.3.3** Deve ser assegurada a saída dos postos de trabalho para satisfação das necessidades",
-    "heading": "Introdução",
-    "char_offset": 9730
+    "text": "**17.5.2** No levantamento, manuseio e transporte individual e não eventual de cargas, devem ser observados os seguintes requisitos: \na) os locais para pega e depósito das cargas, a partir da avaliação ergonômica preliminar ou da AET, devem ser organizados de modo que as cargas, acessos, espaços para movimentação, alturas de pega e deposição não obriguem o trabalhador a efetuar flexões, extensões e rotações excessivas do tronco e outros posicionamentos e movimentações forçadas e nocivas dos segmentos corporais; e",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 10464
   },
   {
     "id": "chunk-34",
-    "text": "fisiológicas dos trabalhadores nos termos do item 24.9.8 da Norma Regulamentadora nº 24 (NR\n24) - Condições Sanitárias e de Conforto nos Locais de Trabalho, independentemente da fruição\ndas pausas.\n**17.4.4** Todo e qualquer sistema de avaliação de desempenho para efeito de remuneração e",
-    "heading": "Introdução",
-    "char_offset": 10039
+    "text": "b) cargas e equipamentos devem ser posicionados o mais próximo possível do trabalhador, resguardando espaços suficientes para os pés, de maneira a facilitar o alcance, não atrapalhar os movimentos ou ocasionar outros riscos. \n**17.5.2.1** É vedado o levantamento não eventual de cargas que possa comprometer a segurança e a saúde do trabalhador quando a distância de alcance horizontal da pega for superior a 60 cm (sessenta centímetros) em relação ao corpo.",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 10986
   },
   {
     "id": "chunk-35",
-    "text": "vantagens de qualquer espécie deve levar em consideração as repercussões sobre a saúde dos\ntrabalhadores.\n**17.4.5** A concepção dos postos de trabalho deve levar em consideração os fatores organizacionais\ne ambientais, a natureza da tarefa e das atividades e facilitar a alternância de posturas.",
-    "heading": "Introdução",
-    "char_offset": 10330
+    "text": "**17.5.3** O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes, carros de mão ou qualquer outro aparelho mecânico devem observar a carga, a frequência, a pega e a distância percorrida, para que não comprometam a saúde ou a segurança do trabalhador.",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 11447
   },
   {
     "id": "chunk-36",
-    "text": "**17.4.6** As dimensões dos espaços de trabalho e de circulação, inerentes à execução da tarefa,\ndevem ser suficientes para que o trabalhador possa movimentar os segmentos corporais\nlivremente, de maneira a facilitar o trabalho, reduzir o esforço do trabalhador e não exigir a",
-    "heading": "Introdução",
-    "char_offset": 10628
+    "text": "**17.5.4** Na movimentação e no transporte manual não eventual de cargas, devem ser adotadas uma ou mais das seguintes medidas de prevenção: \na) implantar meios técnicos facilitadores; \nb) adequar o peso e o tamanho da carga (dimensões e formato) para que não provoquem o aumento do esforço físico que possa comprometer a segurança e a saúde do trabalhador;",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 11730
   },
   {
     "id": "chunk-37",
-    "text": "adoção de posturas extremas ou nocivas.\n**17.4.7** Os superiores hierárquicos diretos dos trabalhadores devem ser orientados para buscar no\nexercício de suas atividades:\na) facilitar a compreensão das atribuições e responsabilidades de cada função;\nb) manter aberto o diálogo de modo que os trabalhadores possam sanar dúvidas quanto ao",
-    "heading": "Introdução",
-    "char_offset": 10909
+    "text": "c) limitar a duração, a frequência e o número de movimentos a serem efetuados pelos trabalhadores; \nd) reduzir as distâncias a percorrer com cargas, quando aplicável; e \ne) efetuar a alternância com outras atividades ou pausas suficientes, entre períodos não superiores a duas horas.",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 12092
   },
   {
     "id": "chunk-38",
-    "text": "exercício de suas atividades;\nc) facilitar o trabalho em equipe; e\nEste texto não substitui o publicado no DOU\nd) estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho.\n**17.4.7.1** A organização com até 10 (dez) empregados fica dispensada do atendimento ao item",
-    "heading": "Introdução",
-    "char_offset": 11249
+    "text": "**17.5.5** Todo trabalhador designado para o transporte manual não eventual de cargas deve receber orientação quanto aos métodos de levantamento, carregamento e deposição de cargas. \nEste texto não substitui o publicado no DOU \n**17.5.6** O capítulo 17.5 Levantamento, transporte e descarga individual de cargas desta NR não se aplica a levantamento, transporte e movimentação de pessoas.",
+    "heading": "**17.5 Levantamento, transporte e descarga individual de cargas**",
+    "char_offset": 12380
   },
   {
     "id": "chunk-39",
-    "text": "17.4.7.\n**17.5** **Levantamento, transporte e descarga individual de cargas**\n**17.5.1** Não deverá ser exigido nem admitido o transporte manual de cargas por um trabalhador\ncujo peso seja suscetível de comprometer sua saúde ou sua segurança.\n**17.5.1.1** A carga suportada deve ser reduzida quando se tratar de trabalhadora mulher e de",
-    "heading": "Introdução",
-    "char_offset": 11548
+    "text": "**17.6.1** O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um ou mais de seus elementos que permitam adaptá-lo às características antropométricas que atendam ao conjunto dos trabalhadores envolvidos e à natureza do trabalho a ser desenvolvido.",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 12772
   },
   {
     "id": "chunk-40",
-    "text": "trabalhador menor nas atividades permitidas por lei.\n**17.5.2** No levantamento, manuseio e transporte individual e não eventual de cargas, devem ser\nobservados os seguintes requisitos:\na) os locais para pega e depósito das cargas, a partir da avaliação ergonômica preliminar ou da",
-    "heading": "Introdução",
-    "char_offset": 11887
+    "text": "**17.6.2** Sempre que o trabalho puder ser executado alternando a posição de pé com a posição sentada, o posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das posições. \n**17.6.3** Para trabalho manual, os planos de trabalho devem proporcionar ao trabalhador condições de boa postura, visualização e operação e devem atender aos seguintes requisitos mínimos:",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 13047
   },
   {
     "id": "chunk-41",
-    "text": "AET, devem ser organizados de modo que as cargas, acessos, espaços para movimentação, alturas\nde pega e deposição não obriguem o trabalhador a efetuar flexões, extensões e rotações\nexcessivas do tronco e outros posicionamentos e movimentações forçadas e nocivas dos",
-    "heading": "Introdução",
-    "char_offset": 12169
+    "text": "a) características dimensionais que possibilitem posicionamento e movimentação dos segmentos corporais de forma a não comprometer a saúde e não ocasionar amplitudes articulares excessivas ou posturas nocivas de trabalho; \nb) altura e características da superfície de trabalho compatíveis com o tipo de atividade, com a distância requerida dos olhos ao campo de trabalho e com a altura do assento;",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 13437
   },
   {
     "id": "chunk-42",
-    "text": "segmentos corporais; e\nb) cargas e equipamentos devem ser posicionados o mais próximo possível do trabalhador,\nresguardando espaços suficientes para os pés, de maneira a facilitar o alcance, não atrapalhar os\nmovimentos ou ocasionar outros riscos.\n**17.5.2.1** É vedado o levantamento não eventual de cargas que possa comprometer a segurança e",
-    "heading": "Introdução",
-    "char_offset": 12438
+    "text": "c) área de trabalho dentro da zona de alcance manual e de fácil visualização pelo trabalhador; \nd) para o trabalho sentado, espaço suficiente para pernas e pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar, podendo utilizar apoio para os pés, nos termos do item 17.6.4; e",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 13837
   },
   {
     "id": "chunk-43",
-    "text": "a saúde do trabalhador quando a distância de alcance horizontal da pega for superior a 60 cm\n(sessenta centímetros) em relação ao corpo.\n**17.5.3** O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes, carros\nde mão ou qualquer outro aparelho mecânico devem observar a carga, a frequência, a pega e a",
-    "heading": "Introdução",
-    "char_offset": 12783
+    "text": "e) para o trabalho em pé, espaço suficiente para os pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar. \n**17.6.3.1** A área de trabalho dentro da zona de alcance máximo pode ser utilizada para ações que não prejudiquem a segurança e a saúde do trabalhador, sejam elas eventuais ou também, conforme AET, as não eventuais.",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 14229
   },
   {
     "id": "chunk-44",
-    "text": "distância percorrida, para que não comprometam a saúde ou a segurança do trabalhador.\n**17.5.4** Na movimentação e no transporte manual não eventual de cargas, devem ser adotadas\numa ou mais das seguintes medidas de prevenção:\na) implantar meios técnicos facilitadores;",
-    "heading": "Introdução",
-    "char_offset": 13115
+    "text": "**17.6.4** Para adaptação do mobiliário às dimensões antropométricas do trabalhador, pode ser utilizado apoio para os pés sempre que o trabalhador não puder manter a planta dos pés completamente apoiada no piso. \n**17.6.5** Os pedais e demais comandos para acionamento pelos pés devem ter posicionamento e dimensões que possibilitem fácil alcance, além de atender aos requisitos estabelecidos no item 17.6.3.",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 14670
   },
   {
     "id": "chunk-45",
-    "text": "b) adequar o peso e o tamanho da carga (dimensões e formato) para que não provoquem o\naumento do esforço físico que possa comprometer a segurança e a saúde do trabalhador;\nc) limitar a duração, a frequência e o número de movimentos a serem efetuados pelos",
-    "heading": "Introdução",
-    "char_offset": 13387
+    "text": "**17.6.6** Os assentos utilizados nos postos de trabalho devem atender aos seguintes requisitos mínimos: \na) altura ajustável à estatura do trabalhador e à natureza da função exercida; \nb) sistemas de ajustes e manuseio acessíveis; \nEste texto não substitui o publicado no DOU",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 15084
   },
   {
     "id": "chunk-46",
-    "text": "trabalhadores;\nd) reduzir as distâncias a percorrer com cargas, quando aplicável; e\ne) efetuar a alternância com outras atividades ou pausas suficientes, entre períodos não\nsuperiores a duas horas.\n**17.5.5** Todo trabalhador designado para o transporte manual não eventual de cargas deve receber",
-    "heading": "Introdução",
-    "char_offset": 13646
+    "text": "c) características de pouca ou nenhuma conformação na base do assento; \nd) borda frontal arredondada; e \ne) encosto com forma adaptada ao corpo para proteção da região lombar. \n**17.6.7** Para as atividades em que os trabalhos devam ser realizados em pé, devem ser colocados assentos com encosto para descanso em locais em que possam ser utilizados pelos trabalhadores durante as pausas.",
+    "heading": "**17.6 Mobiliário dos postos de trabalho**",
+    "char_offset": 15366
   },
   {
     "id": "chunk-47",
-    "text": "orientação quanto aos métodos de levantamento, carregamento e deposição de cargas.\nEste texto não substitui o publicado no DOU\n**17.5.6** O capítulo 17.5 Levantamento, transporte e descarga individual de cargas desta NR não se\naplica a levantamento, transporte e movimentação de pessoas.",
-    "heading": "Introdução",
-    "char_offset": 13945
+    "text": "**17.6.7.1** Os assentos previstos no item 17.6.7 estão dispensados do atendimento ao item 17.6.6.",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 15857
   },
   {
     "id": "chunk-48",
-    "text": "**17.6** **Mobiliário dos postos de trabalho**\n**17.6.1** O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um ou mais\nde seus elementos que permitam adaptá-lo às características antropométricas que atendam ao\nconjunto dos trabalhadores envolvidos e à natureza do trabalho a ser desenvolvido.",
-    "heading": "Introdução",
-    "char_offset": 14235
+    "text": "**17.7.1** O trabalho com máquinas e equipamentos deve atender, em consonância com a Norma Regulamentadora nº 12 - Segurança no Trabalho em Máquinas e Equipamentos, além das demais disposições desta NR, aos aspectos constantes neste capítulo. \n**17.7.2** Os fabricantes de máquinas e equipamentos devem projetar e construir os componentes, como monitores de vídeo, sinais e comandos, de forma a possibilitar a interação clara e precisa com o operador objetivando reduzir possibilidades de erros de interpretação ou retorno de informação, nos termos do item 12.9.2 da NR 12.",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 15859
   },
   {
     "id": "chunk-49",
-    "text": "**17.6.2** Sempre que o trabalho puder ser executado alternando a posição de pé com a posição\nsentada, o posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das\nposições.\n**17.6.3** Para trabalho manual, os planos de trabalho devem proporcionar ao trabalhador condições",
-    "heading": "Introdução",
-    "char_offset": 14556
+    "text": "**17.7.2.1** A localização e o posicionamento do painel de controle e dos comandos devem facilitar o acesso, o manejo fácil e seguro e a visibilidade da informação do processo. \n**17.7.3** Os equipamentos utilizados no processamento eletrônico de dados com terminais de vídeo devem permitir ao trabalhador ajustá-lo de acordo com as tarefas a serem executadas.",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 16436
   },
   {
     "id": "chunk-50",
-    "text": "de boa postura, visualização e operação e devem atender aos seguintes requisitos mínimos:\na) características dimensionais que possibilitem posicionamento e movimentação dos segmentos\ncorporais de forma a não comprometer a saúde e não ocasionar amplitudes articulares excessivas",
-    "heading": "Introdução",
-    "char_offset": 14853
+    "text": "**17.7.3.1** Os equipamentos devem ter condições de mobilidade suficiente para permitir o ajuste da tela do equipamento à iluminação do ambiente, protegendo-a contra reflexos, e proporcionar corretos ângulos de visibilidade ao trabalhador. \n**17.7.3.2** Nas atividades com uso de computador portátil de forma não eventual em posto de trabalho, devem ser previstas formas de adaptação do teclado, do _mouse_ ou da tela a fim de permitir o ajuste às características antropométricas do trabalhador e à natureza das tarefas a serem executadas.",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 16800
   },
   {
     "id": "chunk-51",
-    "text": "ou posturas nocivas de trabalho;\nb) altura e características da superfície de trabalho compatíveis com o tipo de atividade, com a\ndistância requerida dos olhos ao campo de trabalho e com a altura do assento;\nc) área de trabalho dentro da zona de alcance manual e de fácil visualização pelo trabalhador;",
-    "heading": "Introdução",
-    "char_offset": 15133
+    "text": "**17.7.4** Devem ser dotados de dispositivo de sustentação os equipamentos e ferramentas manuais cujos pesos e utilização na execução das tarefas forem passíveis de comprometer a segurança ou a saúde dos trabalhadores ou adotada outra medida de prevenção, a partir da avaliação ergonômica preliminar ou da AET.",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 17342
   },
   {
     "id": "chunk-52",
-    "text": "d) para o trabalho sentado, espaço suficiente para pernas e pés na base do plano de trabalho, para\npermitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa\nposicionar completamente a região plantar, podendo utilizar apoio para os pés, nos termos do",
-    "heading": "Introdução",
-    "char_offset": 15437
+    "text": "**17.7.5** A concepção das ferramentas manuais deve atender, além dos demais itens desta NR, aos seguintes aspectos: \na) facilidade de uso e manuseio; e \nb) evitar a compressão da palma da mão ou de um ou mais dedos em arestas ou quinas vivas. \n**17.7.6** A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura",
+    "heading": "**17.7 Trabalho com máquinas, equipamentos e ferramentas manuais.**",
+    "char_offset": 17658
   },
   {
     "id": "chunk-53",
-    "text": "item 17.6.4; e\ne) para o trabalho em pé, espaço suficiente para os pés na base do plano de trabalho, para\npermitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa\nposicionar completamente a região plantar.\n**17.6.3.1** A área de trabalho dentro da zona de alcance máximo pode ser utilizada para ações que",
-    "heading": "Introdução",
-    "char_offset": 15717
+    "text": "Este texto não substitui o publicado no DOU \nda empunhadura sejam apropriados à tarefa e ao eventual uso de luvas.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 18124
   },
   {
     "id": "chunk-54",
-    "text": "não prejudiquem a segurança e a saúde do trabalhador, sejam elas eventuais ou também,\nconforme AET, as não eventuais.\n**17.6.4** Para adaptação do mobiliário às dimensões antropométricas do trabalhador, pode ser\nutilizado apoio para os pés sempre que o trabalhador não puder manter a planta dos pés",
-    "heading": "Introdução",
-    "char_offset": 16052
+    "text": "**17.8.1** Em todos os locais e situações de trabalho deve haver iluminação, natural ou artificial, geral ou suplementar, apropriada à natureza da atividade. \n**17.8.2** A iluminação deve ser projetada e instalada de forma a evitar ofuscamento, reflexos incômodos, sombras e contrastes excessivos.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 18126
   },
   {
     "id": "chunk-55",
-    "text": "completamente apoiada no piso.\n**17.6.5** Os pedais e demais comandos para acionamento pelos pés devem ter posicionamento e\ndimensões que possibilitem fácil alcance, além de atender aos requisitos estabelecidos no item\n17.6.3.\n**17.6.6** Os assentos utilizados nos postos de trabalho devem atender aos seguintes requisitos",
-    "heading": "Introdução",
-    "char_offset": 16354
+    "text": "**17.8.3** Em todos os locais e situações de trabalho internos, deve haver iluminação em conformidade com os níveis mínimos de iluminamento a serem observados nos locais de trabalho estabelecidos na Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundacentro - Avaliação dos Níveis de Iluminamento em Ambientes Internos de Trabalho, versão 2018.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 18426
   },
   {
     "id": "chunk-56",
-    "text": "mínimos:\na) altura ajustável à estatura do trabalhador e à natureza da função exercida;\nb) sistemas de ajustes e manuseio acessíveis;\nEste texto não substitui o publicado no DOU\nc) características de pouca ou nenhuma conformação na base do assento;\nd) borda frontal arredondada; e",
-    "heading": "Introdução",
-    "char_offset": 16683
+    "text": "**17.8.4** Nos locais de trabalho em ambientes internos onde são executadas atividades que exijam manutenção da solicitação intelectual e atenção constantes, devem ser adotadas medidas de conforto acústico e de conforto térmico, conforme disposto nos subitens seguintes.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 18773
   },
   {
     "id": "chunk-57",
-    "text": "e) encosto com forma adaptada ao corpo para proteção da região lombar.\n**17.6.7** Para as atividades em que os trabalhos devam ser realizados em pé, devem ser colocados\nassentos com encosto para descanso em locais em que possam ser utilizados pelos trabalhadores",
-    "heading": "Introdução",
-    "char_offset": 16966
+    "text": "**17.8.4.1** A organização deve adotar medidas de controle do ruído nos ambientes internos com a finalidade de proporcionar conforto acústico nas situações de trabalho. \n**17.8.4.1.1** O nível de ruído de fundo para o conforto deve respeitar os valores de referência para ambientes internos de acordo com sua finalidade de uso estabelecidos em normas técnicas oficiais.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 19047
   },
   {
     "id": "chunk-58",
-    "text": "durante as pausas.\n**17.6.7.1** Os assentos previstos no item 17.6.7 estão dispensados do atendimento ao item 17.6.6.\n**17.7** **Trabalho com máquinas, equipamentos e ferramentas manuais.**\n**17.7.1** O trabalho com máquinas e equipamentos deve atender, em consonância com a Norma",
-    "heading": "Introdução",
-    "char_offset": 17232
+    "text": "**17.8.4.1.2** Para os demais casos, o nível de ruído de fundo aceitável para efeito de conforto acústico será de até 65 dB(A), nível de pressão sonora contínuo equivalente ponderado em A e no circuito de resposta Slow (S). \n**17.8.4.2** A organização deve adotar medidas de controle da temperatura, da velocidade do ar e da umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho, observando-se o parâmetro de faixa de temperatura do ar entre 18 e 25 °C para ambientes climatizados.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 19420
   },
   {
     "id": "chunk-59",
-    "text": "Regulamentadora nº 12 - Segurança no Trabalho em Máquinas e Equipamentos, além das demais\ndisposições desta NR, aos aspectos constantes neste capítulo.\n**17.7.2** Os fabricantes de máquinas e equipamentos devem projetar e construir os componentes,\ncomo monitores de vídeo, sinais e comandos, de forma a possibilitar a interação clara e precisa",
-    "heading": "Introdução",
-    "char_offset": 17514
+    "text": "**17.8.4.2.1** Devem ser adotadas medidas de controle da ventilação ambiental para minimizar a ocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores. \n**17.8.5** Fica ressalvado o atendimento dos itens 17.8.3 e 17.8.4.2 nas situações em que haja normativa específica com a devida justificativa técnica de que não haverá prejuízo à segurança ou à saúde dos trabalhadores.",
+    "heading": "**17.8 Condições de conforto no ambiente de trabalho**",
+    "char_offset": 19935
   },
   {
     "id": "chunk-60",
-    "text": "com o operador objetivando reduzir possibilidades de erros de interpretação ou retorno de\ninformação, nos termos do item 12.9.2 da NR 12.\n**17.7.2.1** A localização e o posicionamento do painel de controle e dos comandos devem facilitar o\nacesso, o manejo fácil e seguro e a visibilidade da informação do processo.",
-    "heading": "Introdução",
-    "char_offset": 17859
+    "text": "**1. Objetivo** \n**2. Campo de Aplicação** \n**3. Posto de trabalho** \nEste texto não substitui o publicado no DOU",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 20451
   },
   {
     "id": "chunk-61",
-    "text": "**17.7.3** Os equipamentos utilizados no processamento eletrônico de dados com terminais de vídeo\ndevem permitir ao trabalhador ajustá-lo de acordo com as tarefas a serem executadas.\n**17.7.3.1** Os equipamentos devem ter condições de mobilidade suficiente para permitir o ajuste da",
-    "heading": "Introdução",
-    "char_offset": 18176
+    "text": "**5. Organização do trabalho** \n**6. Aspectos psicossociais do trabalho** \n**7. Informação e capacitação dos trabalhadores**",
+    "heading": "**1. Objetivo**",
+    "char_offset": 20581
   },
   {
     "id": "chunk-62",
-    "text": "tela do equipamento à iluminação do ambiente, protegendo-a contra reflexos, e proporcionar\ncorretos ângulos de visibilidade ao trabalhador.\n**17.7.3.2** Nas atividades com uso de computador portátil de forma não eventual em posto de\ntrabalho, devem ser previstas formas de adaptação do teclado, do _mouse_ ou da tela a fim de",
-    "heading": "Introdução",
-    "char_offset": 18460
+    "text": "1.1 Estabelecer as diretrizes e os requisitos para adequação das condições de trabalho dos operadores de checkout, visando à prevenção dos problemas de saúde e segurança relacionados ao trabalho.",
+    "heading": "**2. Campo de Aplicação**",
+    "char_offset": 20780
   },
   {
     "id": "chunk-63",
-    "text": "permitir o ajuste às características antropométricas do trabalhador e à natureza das tarefas a\nserem executadas.\n**17.7.4** Devem ser dotados de dispositivo de sustentação os equipamentos e ferramentas manuais\ncujos pesos e utilização na execução das tarefas forem passíveis de comprometer a segurança ou a",
-    "heading": "Introdução",
-    "char_offset": 18788
+    "text": "2.1 Este Anexo aplica-se às organizações que desenvolvam atividade comercial utilizando sistema de autosserviço e checkout, como supermercados, hipermercados e comércio atacadista.",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 20964
   },
   {
     "id": "chunk-64",
-    "text": "saúde dos trabalhadores ou adotada outra medida de prevenção, a partir da avaliação ergonômica\npreliminar ou da AET.\n**17.7.5** A concepção das ferramentas manuais deve atender, além dos demais itens desta NR, aos\nseguintes aspectos:\na) facilidade de uso e manuseio; e",
-    "heading": "Introdução",
-    "char_offset": 19097
+    "text": "3.1 Em relação ao mobiliário do checkout e às suas dimensões, incluindo distâncias e alturas, no posto de trabalho deve-se: \na) atender às características antropométricas de 90% (noventa por cento) dos trabalhadores, respeitando os alcances dos membros e da visão, ou seja, compatibilizando as áreas de visão com a manipulação;",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 20966
   },
   {
     "id": "chunk-65",
-    "text": "b) evitar a compressão da palma da mão ou de um ou mais dedos em arestas ou quinas vivas.\n**17.7.6** A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura\nEste texto não substitui o publicado no DOU\nda empunhadura sejam apropriados à tarefa e ao eventual uso de luvas.",
-    "heading": "Introdução",
-    "char_offset": 19370
+    "text": "b) assegurar a postura para o trabalho na posição sentada e em pé, e as posições confortáveis dos membros superiores e inferiores nessas duas situações; \nc) respeitar os ângulos limites e trajetórias naturais dos movimentos, durante a execução das tarefas, evitando a flexão e a torção do tronco;",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 21297
   },
   {
     "id": "chunk-66",
-    "text": "**17.8** **Condições de conforto no ambiente de trabalho**\n**17.8.1** Em todos os locais e situações de trabalho deve haver iluminação, natural ou artificial, geral\nou suplementar, apropriada à natureza da atividade.\n**17.8.2** A iluminação deve ser projetada e instalada de forma a evitar ofuscamento, reflexos",
-    "heading": "Introdução",
-    "char_offset": 19678
+    "text": "d) garantir um espaço adequado para livre movimentação do operador e colocação da cadeira, a fim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada; \ne) manter uma cadeira de trabalho com assento e encosto para apoio lombar, com estofamento de densidade adequada, ajustáveis à estatura do trabalhador e à natureza da tarefa;",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 21597
   },
   {
     "id": "chunk-67",
-    "text": "incômodos, sombras e contrastes excessivos.\n**17.8.3** Em todos os locais e situações de trabalho internos, deve haver iluminação em\nconformidade com os níveis mínimos de iluminamento a serem observados nos locais de trabalho\nestabelecidos na Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundacentro - Avaliação dos",
-    "heading": "Introdução",
-    "char_offset": 19993
+    "text": "f) colocar apoio para os pés, independente da cadeira; \ng) adotar, em cada posto de trabalho, sistema com esteira eletromecânica para facilitar a movimentação de mercadorias nos checkouts com comprimento de 2,70 m (dois metros e setenta centímetros) ou mais;",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 21963
   },
   {
     "id": "chunk-68",
-    "text": "Níveis de Iluminamento em Ambientes Internos de Trabalho, versão 2018.\n**17.8.4** Nos locais de trabalho em ambientes internos onde são executadas atividades que exijam\nmanutenção da solicitação intelectual e atenção constantes, devem ser adotadas medidas de",
-    "heading": "Introdução",
-    "char_offset": 20312
+    "text": "h) disponibilizar sistema de comunicação com pessoal de apoio e supervisão; e \ni) manter mobiliário sem quinas vivas ou rebarbas, devendo os elementos de fixação (pregos, rebites, parafusos) ser mantidos de forma a não causar acidentes. \n3.2 Em relação ao equipamento e às ferramentas utilizadas pelos operadores de checkout para o cumprimento de seu trabalho, deve-se:",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 22226
   },
   {
     "id": "chunk-69",
-    "text": "conforto acústico e de conforto térmico, conforme disposto nos subitens seguintes.\n**17.8.4.1** A organização deve adotar medidas de controle do ruído nos ambientes internos com a\nfinalidade de proporcionar conforto acústico nas situações de trabalho.",
-    "heading": "Introdução",
-    "char_offset": 20572
+    "text": "a) escolhê-los de modo a favorecer os movimentos e ações próprias da função, sem exigência acentuada de força, pressão, preensão, flexão, extensão ou torção dos segmentos corporais; \nb) posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador,",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 22599
   },
   {
     "id": "chunk-70",
-    "text": "**17.8.4.1.1** O nível de ruído de fundo para o conforto deve respeitar os valores de referência para\nambientes internos de acordo com sua finalidade de uso estabelecidos em normas técnicas\noficiais.\n**17.8.4.1.2** Para os demais casos, o nível de ruído de fundo aceitável para efeito de conforto",
-    "heading": "Introdução",
-    "char_offset": 20828
+    "text": "Este texto não substitui o publicado no DOU \npermitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da tarefa; \nc) garantir proteção contra acidentes de natureza mecânica ou elétrica nos checkouts, com base no que está previsto nas normas regulamentadoras ou em outras normas técnicas oficiais; e",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 22883
   },
   {
     "id": "chunk-71",
-    "text": "acústico será de até 65 dB(A), nível de pressão sonora contínuo equivalente ponderado em A e no\ncircuito de resposta Slow (S).\n**17.8.4.2** A organização deve adotar medidas de controle da temperatura, da velocidade do ar e da\numidade com a finalidade de proporcionar conforto térmico nas situações de trabalho,",
-    "heading": "Introdução",
-    "char_offset": 21126
+    "text": "d) mantê-los em condições adequadas de funcionamento. \n3.3 Em relação ao ambiente físico de trabalho e ao conjunto do posto de trabalho, deve-se: \na) manter as condições de iluminamento, ruído e conforto térmico de acordo com o previsto na Norma Regulamentadora nº 17 (NR 17), bem como as medidas de prevenção previstas no Programa de Gerenciamento de Riscos - PGR quanto aos agentes físicos e químicos;",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 23216
   },
   {
     "id": "chunk-72",
-    "text": "observando-se o parâmetro de faixa de temperatura do ar entre 18 e 25 °C para ambientes\nclimatizados.\n**17.8.4.2.1** Devem ser adotadas medidas de controle da ventilação ambiental para minimizar a\nocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores.",
-    "heading": "Introdução",
-    "char_offset": 21440
+    "text": "b) proteger os operadores de checkout contra correntes de ar, vento ou grandes variações climáticas, quando necessário; e \nc) utilizar superfícies que evitem reflexos incômodos no campo visual do trabalhador. \n3.4 Na concepção do posto de trabalho do operador de checkout, deve-se prever a possibilidade de fazer adequações ou ajustes localizados, exceto nos equipamentos fixos, considerando o conforto dos operadores.",
+    "heading": "**3. Posto de trabalho**",
+    "char_offset": 23624
   },
   {
     "id": "chunk-73",
-    "text": "**17.8.5** Fica ressalvado o atendimento dos itens 17.8.3 e 17.8.4.2 nas situações em que haja\nnormativa específica com a devida justificativa técnica de que não haverá prejuízo à segurança ou\nà saúde dos trabalhadores.\n**ANEXO I da NR 17**\n**TRABALHO DOS OPERADORES DE CHECKOUT**",
-    "heading": "Introdução",
-    "char_offset": 21717
+    "text": "4.1 A organização deve envidar esforços a fim de que a manipulação de mercadorias não acarrete o uso de força muscular excessiva por parte dos operadores de checkout, por meio da adoção de um ou mais dos seguintes itens, cuja escolha fica a critério da organização:",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 24046
   },
   {
     "id": "chunk-74",
-    "text": "**Sumário**\n**1.** **Objetivo**\n**2.** **Campo de Aplicação**\n**3.** **Posto de trabalho**\nEste texto não substitui o publicado no DOU\n**4.** **Manipulação de mercadorias**\n**5.** **Organização do trabalho**\n**6.** **Aspectos psicossociais do trabalho**",
-    "heading": "Introdução",
-    "char_offset": 22003
+    "text": "a) negociação do tamanho e volume das embalagens de mercadorias com fornecedores; \nb) uso de equipamentos e instrumentos de tecnologia adequada; \nc) formas alternativas de apresentação do código de barras da mercadoria ao leitor ótico, quando existente;",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 24316
   },
   {
     "id": "chunk-75",
-    "text": "**7.** **Informação e capacitação dos trabalhadores**\n**1.** **Objetivo**\n1.1 Estabelecer as diretrizes e os requisitos para adequação das condições de trabalho dos\noperadores de checkout, visando à prevenção dos problemas de saúde e segurança relacionados",
-    "heading": "Introdução",
-    "char_offset": 22259
+    "text": "d) disponibilidade de pessoal auxiliar, quando necessário; e \ne) outras medidas que ajudem a reduzir a sobrecarga do operador na manipulação de mercadorias. \n4.2 A organização deve adotar mecanismos auxiliares sempre que, em função do grande volume ou excesso de peso das mercadorias, houver limitação para a execução manual das tarefas por parte dos operadores de checkout.",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 24574
   },
   {
     "id": "chunk-76",
-    "text": "ao trabalho.\n**2.** **Campo de Aplicação**\n2.1 Este Anexo aplica-se às organizações que desenvolvam atividade comercial utilizando sistema\nde autosserviço e checkout, como supermercados, hipermercados e comércio atacadista.\n**3.** **Posto de trabalho**",
-    "heading": "Introdução",
-    "char_offset": 22520
+    "text": "4.3 A organização deve adotar medidas para evitar que a atividade de ensacamento de mercadorias se incorpore ao ciclo de trabalho ordinário e habitual dos operadores de checkout, tais como: \na) manter, no mínimo, um ensacador a cada três checkouts em funcionamento;",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 24952
   },
   {
     "id": "chunk-77",
-    "text": "3.1 Em relação ao mobiliário do checkout e às suas dimensões, incluindo distâncias e alturas, no\nposto de trabalho deve-se:\na) atender às características antropométricas de 90% (noventa por cento) dos trabalhadores,\nrespeitando os alcances dos membros e da visão, ou seja, compatibilizando as áreas de visão com",
-    "heading": "Introdução",
-    "char_offset": 22775
+    "text": "b) proporcionar condições que facilitem o ensacamento pelo cliente; e \nc) outras medidas que se destinem ao mesmo fim. \n4.3.1 A escolha dentre as medidas relacionadas no item 4.3 é prerrogativa da organização. \nEste texto não substitui o publicado no DOU",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 25223
   },
   {
     "id": "chunk-78",
-    "text": "a manipulação;\nb) assegurar a postura para o trabalho na posição sentada e em pé, e as posições confortáveis dos\nmembros superiores e inferiores nessas duas situações;\nc) respeitar os ângulos limites e trajetórias naturais dos movimentos, durante a execução das",
-    "heading": "Introdução",
-    "char_offset": 23089
+    "text": "4.4 A pesagem de mercadorias pelo operador de checkout só poderá ocorrer quando os seguintes requisitos forem atendidos simultaneamente: \na) balança localizada frontalmente e próxima ao operador; \nb) balança nivelada com a superfície do checkout; \nc) continuidade entre as superfícies do checkout e da balança, admitindo-se até 2 cm (dois centímetros) de descontinuidade em cada lado da balança;",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 25483
   },
   {
     "id": "chunk-79",
-    "text": "tarefas, evitando a flexão e a torção do tronco;\nd) garantir um espaço adequado para livre movimentação do operador e colocação da cadeira, a\nfim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada;\ne) manter uma cadeira de trabalho com assento e encosto para apoio lombar, com estofamento",
-    "heading": "Introdução",
-    "char_offset": 23353
+    "text": "d) teclado para digitação localizado a uma distância máxima de 45 cm (quarenta e cinco centímetros) da borda interna do checkout; e \ne) número máximo de oito dígitos para os códigos de mercadorias que sejam pesadas. \n4.5 Para o atendimento no checkout de pessoas idosas, gestantes, portadoras de deficiências ou que apresentem algum tipo de incapacidade momentânea, a organização deve disponibilizar pessoal auxiliar, sempre que o operador de caixa solicitar.",
+    "heading": "**4. Manipulação de mercadorias**",
+    "char_offset": 25883
   },
   {
     "id": "chunk-80",
-    "text": "de densidade adequada, ajustáveis à estatura do trabalhador e à natureza da tarefa;\nf) colocar apoio para os pés, independente da cadeira;\ng) adotar, em cada posto de trabalho, sistema com esteira eletromecânica para facilitar a\nmovimentação de mercadorias nos checkouts com comprimento de 2,70 m (dois metros e setenta",
-    "heading": "Introdução",
-    "char_offset": 23682
+    "text": "5.1 A disposição física e o número de checkouts em atividade (abertos) e de operadores devem ser compatíveis com o fluxo de clientes, de modo a adequar o ritmo de trabalho às características psicofisiológicas de cada operador, por meio da adoção de pelo menos um dos seguintes itens, cuja escolha fica a critério da organização:",
+    "heading": "**5. Organização do trabalho**",
+    "char_offset": 26346
   },
   {
     "id": "chunk-81",
-    "text": "centímetros) ou mais;\nh) disponibilizar sistema de comunicação com pessoal de apoio e supervisão; e\ni) manter mobiliário sem quinas vivas ou rebarbas, devendo os elementos de fixação (pregos,\nrebites, parafusos) ser mantidos de forma a não causar acidentes.",
-    "heading": "Introdução",
-    "char_offset": 24004
+    "text": "a) pessoas para apoio ou substituição, quando necessário; \nb) filas únicas por grupos de checkouts; \nc) checkouts especiais (idosos, gestantes, deficientes, clientes com pequenas quantidades de mercadorias); \nd) pausas durante a jornada de trabalho;",
+    "heading": "**5. Organização do trabalho**",
+    "char_offset": 26680
   },
   {
     "id": "chunk-82",
-    "text": "3.2 Em relação ao equipamento e às ferramentas utilizadas pelos operadores de checkout para o\ncumprimento de seu trabalho, deve-se:\na) escolhê-los de modo a favorecer os movimentos e ações próprias da função, sem exigência\nacentuada de força, pressão, preensão, flexão, extensão ou torção dos segmentos corporais;",
-    "heading": "Introdução",
-    "char_offset": 24264
+    "text": "e) rodízio entre os operadores de checkouts com características diferentes; e \nf) outras medidas que ajudem a manter o movimento adequado de atendimento sem a sobrecarga do operador de checkout. \n5.2 São garantidas saídas do posto de trabalho, mediante comunicação, a qualquer momento da jornada, para que os operadores atendam às suas necessidades fisiológicas, ressalvado o intervalo para refeição previsto na CLT.",
+    "heading": "**5. Organização do trabalho**",
+    "char_offset": 26934
   },
   {
     "id": "chunk-83",
-    "text": "b) posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador,\nEste texto não substitui o publicado no DOU\npermitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da\ntarefa;\nc) garantir proteção contra acidentes de natureza mecânica ou elétrica nos checkouts, com base",
-    "heading": "Introdução",
-    "char_offset": 24582
+    "text": "5.3 É vedado promover, para efeitos de remuneração ou premiação de qualquer espécie, sistema de avaliação do desempenho com base no número de mercadorias ou compras por operador. \n5.4 É atribuição do operador de checkout a verificação das mercadorias apresentadas, sendo-lhe vedada qualquer tarefa de segurança patrimonial.",
+    "heading": "**5. Organização do trabalho**",
+    "char_offset": 27354
   },
   {
     "id": "chunk-84",
-    "text": "no que está previsto nas normas regulamentadoras ou em outras normas técnicas oficiais; e\nd) mantê-los em condições adequadas de funcionamento.\n3.3 Em relação ao ambiente físico de trabalho e ao conjunto do posto de trabalho, deve-se:\na) manter as condições de iluminamento, ruído e conforto térmico de acordo com o previsto na",
-    "heading": "Introdução",
-    "char_offset": 24919
+    "text": "6.1 Todo trabalhador envolvido com o trabalho em **checkout** deve portar um dispositivo de identificação visível, com nome e/ou sobrenome, escolhido(s) pelo próprio trabalhador. \nEste texto não substitui o publicado no DOU \n6.2 É vedado obrigar o trabalhador ao uso, permanente ou temporário, de vestimentas ou propagandas ou maquilagem temática que causem constrangimento ou firam sua dignidade pessoal.",
+    "heading": "**6. Aspectos psicossociais do trabalho**",
+    "char_offset": 27683
   },
   {
     "id": "chunk-85",
-    "text": "Norma Regulamentadora nº 17 (NR 17), bem como as medidas de prevenção previstas no\nPrograma de Gerenciamento de Riscos - PGR quanto aos agentes físicos e químicos;\nb) proteger os operadores de checkout contra correntes de ar, vento ou grandes variações",
-    "heading": "Introdução",
-    "char_offset": 25248
-  },
-  {
-    "id": "chunk-86",
-    "text": "climáticas, quando necessário; e\nc) utilizar superfícies que evitem reflexos incômodos no campo visual do trabalhador.\n3.4 Na concepção do posto de trabalho do operador de checkout, deve-se prever a possibilidade\nde fazer adequações ou ajustes localizados, exceto nos equipamentos fixos, considerando o",
-    "heading": "Introdução",
-    "char_offset": 25503
-  },
-  {
-    "id": "chunk-87",
-    "text": "conforto dos operadores.\n**4.** **Manipulação de mercadorias**\n4.1 A organização deve envidar esforços a fim de que a manipulação de mercadorias não acarrete\no uso de força muscular excessiva por parte dos operadores de checkout, por meio da adoção de",
-    "heading": "Introdução",
-    "char_offset": 25808
-  },
-  {
-    "id": "chunk-88",
-    "text": "um ou mais dos seguintes itens, cuja escolha fica a critério da organização:\na) negociação do tamanho e volume das embalagens de mercadorias com fornecedores;\nb) uso de equipamentos e instrumentos de tecnologia adequada;\nc) formas alternativas de apresentação do código de barras da mercadoria ao leitor ótico, quando",
-    "heading": "Introdução",
-    "char_offset": 26063
-  },
-  {
-    "id": "chunk-89",
-    "text": "existente;\nd) disponibilidade de pessoal auxiliar, quando necessário; e\ne) outras medidas que ajudem a reduzir a sobrecarga do operador na manipulação de\nmercadorias.\n4.2 A organização deve adotar mecanismos auxiliares sempre que, em função do grande volume",
-    "heading": "Introdução",
-    "char_offset": 26385
-  },
-  {
-    "id": "chunk-90",
-    "text": "ou excesso de peso das mercadorias, houver limitação para a execução manual das tarefas por\nparte dos operadores de checkout.\n4.3 A organização deve adotar medidas para evitar que a atividade de ensacamento de\nmercadorias se incorpore ao ciclo de trabalho ordinário e habitual dos operadores de checkout,",
-    "heading": "Introdução",
-    "char_offset": 26644
-  },
-  {
-    "id": "chunk-91",
-    "text": "tais como:\na) manter, no mínimo, um ensacador a cada três checkouts em funcionamento;\nb) proporcionar condições que facilitem o ensacamento pelo cliente; e\nc) outras medidas que se destinem ao mesmo fim.\n4.3.1 A escolha dentre as medidas relacionadas no item 4.3 é prerrogativa da organização.",
-    "heading": "Introdução",
-    "char_offset": 26954
-  },
-  {
-    "id": "chunk-92",
-    "text": "Este texto não substitui o publicado no DOU\n4.4 A pesagem de mercadorias pelo operador de checkout só poderá ocorrer quando os seguintes\nrequisitos forem atendidos simultaneamente:\na) balança localizada frontalmente e próxima ao operador;\nb) balança nivelada com a superfície do checkout;",
-    "heading": "Introdução",
-    "char_offset": 27252
-  },
-  {
-    "id": "chunk-93",
-    "text": "c) continuidade entre as superfícies do checkout e da balança, admitindo-se até 2 cm (dois\ncentímetros) de descontinuidade em cada lado da balança;\nd) teclado para digitação localizado a uma distância máxima de 45 cm (quarenta e cinco\ncentímetros) da borda interna do checkout; e",
-    "heading": "Introdução",
-    "char_offset": 27543
-  },
-  {
-    "id": "chunk-94",
-    "text": "e) número máximo de oito dígitos para os códigos de mercadorias que sejam pesadas.\n4.5 Para o atendimento no checkout de pessoas idosas, gestantes, portadoras de deficiências ou\nque apresentem algum tipo de incapacidade momentânea, a organização deve disponibilizar",
-    "heading": "Introdução",
-    "char_offset": 27825
-  },
-  {
-    "id": "chunk-95",
-    "text": "pessoal auxiliar, sempre que o operador de caixa solicitar.\n**5.** **Organização do trabalho**\n5.1 A disposição física e o número de checkouts em atividade (abertos) e de operadores devem\nser compatíveis com o fluxo de clientes, de modo a adequar o ritmo de trabalho às características",
-    "heading": "Introdução",
+    "text": "7.1 Todos os trabalhadores envolvidos com o trabalho de operador de checkout devem receber treinamento, cujo objetivo é aumentar o conhecimento da relação entre o seu trabalho e a promoção à saúde. \n7.2 O treinamento deve conter noções sobre as medidas de prevenção e os fatores de risco para a saúde, decorrentes da modalidade de trabalho de operador de checkout, levando em consideração os aspectos relacionados a:",
+    "heading": "**7. Treinamento e capacitação dos trabalhadores**",
     "char_offset": 28093
   },
   {
-    "id": "chunk-96",
-    "text": "psicofisiológicas de cada operador, por meio da adoção de pelo menos um dos seguintes itens,\ncuja escolha fica a critério da organização:\na) pessoas para apoio ou substituição, quando necessário;\nb) filas únicas por grupos de checkouts;\nc) checkouts especiais (idosos, gestantes, deficientes, clientes com pequenas quantidades de",
-    "heading": "Introdução",
-    "char_offset": 28382
+    "id": "chunk-86",
+    "text": "a) posto de trabalho; \nb) manipulação de mercadorias; \nc) organização do trabalho; \nd) aspectos psicossociais do trabalho; e \ne) lesões ou agravos à saúde mais encontrados entre operadores de checkout. \n7.2.1 Cada trabalhador deve receber treinamento inicial com duração mínima de duas horas, até o trigésimo dia da data da sua admissão, e treinamento periódico anual com duração mínima de duas horas, ministrados durante sua jornada de trabalho.",
+    "heading": "**7. Treinamento e capacitação dos trabalhadores**",
+    "char_offset": 28517
   },
   {
-    "id": "chunk-97",
-    "text": "mercadorias);\nd) pausas durante a jornada de trabalho;\ne) rodízio entre os operadores de checkouts com características diferentes; e\nf) outras medidas que ajudem a manter o movimento adequado de atendimento sem a\nsobrecarga do operador de checkout.\n5.2 São garantidas saídas do posto de trabalho, mediante comunicação, a qualquer momento da",
-    "heading": "Introdução",
-    "char_offset": 28716
+    "id": "chunk-87",
+    "text": "7.3 Os trabalhadores devem ser informados com antecedência sobre mudanças que venham a ocorrer no processo de trabalho. \n7.4 O treinamento deve incluir a disponibilização de material didático com os tópicos mencionados no item 7.2 e alíneas. \n7.5 A forma do treinamento (contínuo ou intermitente, presencial ou a distância, por palestras, cursos ou audiovisual) fica a critério de cada organização.",
+    "heading": "**7. Treinamento e capacitação dos trabalhadores**",
+    "char_offset": 28968
   },
   {
-    "id": "chunk-98",
-    "text": "jornada, para que os operadores atendam às suas necessidades fisiológicas, ressalvado o intervalo\npara refeição previsto na CLT.\n5.3 É vedado promover, para efeitos de remuneração ou premiação de qualquer espécie, sistema\nde avaliação do desempenho com base no número de mercadorias ou compras por operador.",
-    "heading": "Introdução",
-    "char_offset": 29058
-  },
-  {
-    "id": "chunk-99",
-    "text": "5.4 É atribuição do operador de checkout a verificação das mercadorias apresentadas, sendo-lhe\nvedada qualquer tarefa de segurança patrimonial.\n**6.** **Aspectos psicossociais do trabalho**\n6.1 Todo trabalhador envolvido com o trabalho em **checkout** deve portar um dispositivo de",
-    "heading": "Introdução",
+    "id": "chunk-88",
+    "text": "7.6 A elaboração do conteúdo técnico e avaliação dos resultados do treinamento devem contar com a participação de integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT e da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver, do médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO e dos responsáveis pela elaboração e implementação do Programa de Gerenciamento de Riscos - PGR. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**7. Treinamento e capacitação dos trabalhadores**",
     "char_offset": 29369
   },
   {
+    "id": "chunk-89",
+    "text": "Este texto não substitui o publicado no DOU",
+    "heading": "**ANEXO II da NR 17 TRABALHO EM TELEATENDIMENTO/TELEMARKETING**",
+    "char_offset": 29944
+  },
+  {
+    "id": "chunk-90",
+    "text": "**1. Objetivo** \n**2. Campo de Aplicação** \n**3. Mobiliário dos Postos de Trabalho** \n**4. Equipamentos dos Postos de Trabalho** \n**5. Condições Ambientais de Trabalho** \n**6. Organização do Trabalho** \n**7. Capacitação dos Trabalhadores** \n**8. Condições Sanitárias de Conforto**",
+    "heading": "**Sumário**",
+    "char_offset": 29953
+  },
+  {
+    "id": "chunk-91",
+    "text": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho** \n**10. Pessoas com Deficiência** \n**11. Disposições Transitórias**",
+    "heading": "**1. Objetivo**",
+    "char_offset": 30396
+  },
+  {
+    "id": "chunk-92",
+    "text": "1.1 Estabelecer os requisitos para o trabalho em atividades de teleatendimento/telemarketing nas diversas modalidades desse serviço, de modo a proporcionar o máximo de conforto, segurança, saúde e desempenho eficiente.",
+    "heading": "**2. Campo de Aplicação**",
+    "char_offset": 30618
+  },
+  {
+    "id": "chunk-93",
+    "text": "2.1 As disposições deste Anexo aplicam-se a todas as organizações que mantêm serviço de teleatendimento/telemarketing, nas modalidades ativo ou receptivo, em centrais de atendimento telefônico e/ou centrais de relacionamento com clientes (call centers), para prestação de serviços, informações e comercialização de produtos.",
+    "heading": "**2. Campo de Aplicação**",
+    "char_offset": 30619
+  },
+  {
+    "id": "chunk-94",
+    "text": "2.1.1 Entende-se como call center o ambiente de trabalho no qual a principal atividade é conduzida via telefone e/ou rádio com utilização simultânea de terminais de computador. \n2.1.1.1 Este Anexo aplica-se, inclusive, a setores de organizações e postos de trabalho dedicados a esta atividade, além daquelas organizações especificamente voltadas para essa atividade-fim.",
+    "heading": "**2. Campo de Aplicação**",
+    "char_offset": 30947
+  },
+  {
+    "id": "chunk-95",
+    "text": "2.1.2 Entende-se como trabalho de teleatendimento/telemarketing aquele cuja comunicação com interlocutores clientes e usuários é realizada a distância, por intermédio da voz e/ou mensagens eletrônicas, com a utilização simultânea de equipamentos de audição/escuta e fala telefônica e sistemas informatizados ou manuais de processamento de dados.",
+    "heading": "**2. Campo de Aplicação**",
+    "char_offset": 31320
+  },
+  {
+    "id": "chunk-96",
+    "text": "3.1 Para trabalho manual sentado ou que tenha de ser feito em pé, deve ser proporcionado ao trabalhador mobiliário que atenda ao capítulo 17.6 Mobiliário dos postos de trabalho da Norma Regulamentadora nº 17 (NR 17) e que permita variações posturais, com ajustes de fácil acionamento, de modo a prover espaço suficiente para seu conforto, atendendo aos seguintes requisitos:",
+    "heading": "**3. Mobiliário dos Postos de Trabalho**",
+    "char_offset": 31669
+  },
+  {
+    "id": "chunk-97",
+    "text": "a) o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de \nEste texto não substitui o publicado no DOU",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 32182
+  },
+  {
+    "id": "chunk-98",
+    "text": "- c) será aceita superfície regulável única para teclado e monitor quando este for dotado de regulagem independente de, no mínimo, 26 cm (vinte e seis centímetros) no plano vertical; \n- d) a bancada sem material de consulta deve ter, no mínimo, profundidade de 75 cm (setenta e cinco centímetros), medidos a partir de sua borda frontal, e largura de 90 cm (noventa centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 32184
+  },
+  {
+    "id": "chunk-99",
+    "text": "- e) a bancada com material de consulta deve ter, no mínimo, profundidade de 90 cm (noventa centímetros) a partir de sua borda frontal e largura de 100 cm (cem centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho, para livre utilização e acesso de documentos;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 32744
+  },
+  {
     "id": "chunk-100",
-    "text": "identificação visível, com nome e/ou sobrenome, escolhido(s) pelo próprio trabalhador.\nEste texto não substitui o publicado no DOU\n6.2 É vedado obrigar o trabalhador ao uso, permanente ou temporário, de vestimentas ou\npropagandas ou maquilagem temática que causem constrangimento ou firam sua dignidade",
-    "heading": "Introdução",
-    "char_offset": 29653
+    "text": "- f) o plano de trabalho deve ter bordas arredondadas; \n- g) as superfícies de trabalho devem ser reguláveis em altura em um intervalo mínimo de 13 cm (treze centímetros), medidos de sua face superior, permitindo o apoio das plantas dos pés no piso;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 33146
   },
   {
     "id": "chunk-101",
-    "text": "pessoal.\n**7.** **Treinamento e capacitação dos trabalhadores**\n7.1 Todos os trabalhadores envolvidos com o trabalho de operador de checkout devem receber\ntreinamento, cujo objetivo é aumentar o conhecimento da relação entre o seu trabalho e a\npromoção à saúde.",
-    "heading": "Introdução",
-    "char_offset": 29958
+    "text": "- h) o dispositivo de apontamento na tela (mouse) deve estar apoiado na mesma superfície do teclado, colocado em área de fácil alcance e com espaço suficiente para sua livre utilização; \n- i) o espaço sob a superfície de trabalho deve ter profundidade livre mínima de 45 cm (quarenta e cinco centímetros) ao nível dos joelhos e de 70 cm (setenta centímetros) ao nível dos pés, medidos de sua borda frontal;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 33399
   },
   {
     "id": "chunk-102",
-    "text": "7.2 O treinamento deve conter noções sobre as medidas de prevenção e os fatores de risco para a\nsaúde, decorrentes da modalidade de trabalho de operador de checkout, levando em\nconsideração os aspectos relacionados a:\na) posto de trabalho;\nb) manipulação de mercadorias;",
-    "heading": "Introdução",
-    "char_offset": 30223
+    "text": "- j) nos casos em que os pés do operador não alcancem o piso, mesmo após a regulagem do assento, deve ser fornecido apoio para os pés que se adapte ao comprimento das pernas do trabalhador, permitindo o apoio das plantas dos pés, com inclinação ajustável e superfície revestida de material antiderrapante; e",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 33808
   },
   {
     "id": "chunk-103",
-    "text": "c) organização do trabalho;\nd) aspectos psicossociais do trabalho; e\ne) lesões ou agravos à saúde mais encontrados entre operadores de checkout.\n7.2.1 Cada trabalhador deve receber treinamento inicial com duração mínima de duas horas, até o\ntrigésimo dia da data da sua admissão, e treinamento periódico anual com duração mínima de",
-    "heading": "Introdução",
-    "char_offset": 30498
+    "text": "- k) os assentos devem ser dotados de: \nI - apoio em 05 (cinco) pés, com rodízios cuja resistência evite deslocamentos involuntários e que não comprometam a estabilidade do assento; \nII - superfícies onde ocorre contato corporal estofadas e revestidas de material que permita a perspiração;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 34120
   },
   {
     "id": "chunk-104",
-    "text": "duas horas, ministrados durante sua jornada de trabalho.\n7.3 Os trabalhadores devem ser informados com antecedência sobre mudanças que venham a\nocorrer no processo de trabalho.\n7.4 O treinamento deve incluir a disponibilização de material didático com os tópicos",
-    "heading": "Introdução",
-    "char_offset": 30832
+    "text": "III - base estofada com material de densidade entre 40 (quarenta) a 50 (cinquenta) kg/m<sup>3</sup> ; \nIV - altura da superfície superior ajustável, em relação ao piso, entre 37 cm (trinta e sete centímetros) e 50 cm (cinquenta centímetros), podendo ser adotados até três tipos de cadeiras com alturas diferentes, de forma a atender as necessidades de todos os operadores;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 34414
   },
   {
     "id": "chunk-105",
-    "text": "mencionados no item 7.2 e alíneas.\n7.5 A forma do treinamento (contínuo ou intermitente, presencial ou a distância, por palestras,\ncursos ou audiovisual) fica a critério de cada organização.\n7.6 A elaboração do conteúdo técnico e avaliação dos resultados do treinamento devem contar",
-    "heading": "Introdução",
-    "char_offset": 31098
+    "text": "V - profundidade útil de 38 cm (trinta e oito centímetros) a 46 cm (quarenta e seis centímetros); \nVI - borda frontal arredondada; \nVII - características de pouca ou nenhuma conformação na base; \nVIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada ao corpo para proteção da região lombar;",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 34792
   },
   {
     "id": "chunk-106",
-    "text": "com a participação de integrantes do Serviço Especializado em Segurança e Medicina do Trabalho\nSESMT e da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver, do\nmédico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO e dos",
-    "heading": "Introdução",
-    "char_offset": 31382
+    "text": "IX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e Este texto não substitui o publicado no DOU \nX - apoio de braços regulável em altura de 20 cm (vinte centímetros) a 25 cm (vinte e cinco centímetros) a partir do assento, sendo que seu comprimento não deve interferir no movimento de aproximação da cadeira em relação à mesa, nem nos movimentos inerentes à execução da tarefa.",
+    "heading": "b) regulagem independentes;",
+    "char_offset": 35126
   },
   {
     "id": "chunk-107",
-    "text": "responsáveis pela elaboração e implementação do Programa de Gerenciamento de Riscos - PGR.\n_(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\nEste texto não substitui o publicado no DOU\n**ANEXO II da NR 17**\n**TRABALHO EM TELEATENDIMENTO/TELEMARKETING**",
-    "heading": "Introdução",
-    "char_offset": 31660
+    "text": "4.1 Devem ser fornecidos gratuitamente conjuntos de microfone e fone de ouvido (headsets) individuais que permitam ao operador a alternância do uso das orelhas ao longo da jornada de trabalho e que sejam substituídos sempre que apresentarem defeitos ou desgaste devido ao uso.",
+    "heading": "**4. Equipamentos dos Postos de Trabalho**",
+    "char_offset": 35605
   },
   {
     "id": "chunk-108",
-    "text": "**Sumário**\n**1.** **Objetivo**\n**2.** **Campo de Aplicação**\n**3.** **Mobiliário dos Postos de Trabalho**\n**4.** **Equipamentos dos Postos de Trabalho**\n**5.** **Condições Ambientais de Trabalho**\n**6.** **Organização do Trabalho**\n**7.** **Capacitação dos Trabalhadores**",
-    "heading": "Introdução",
-    "char_offset": 31934
+    "text": "4.1.1 Alternativamente, poderá ser fornecido um _headset_ para cada posto de atendimento, desde que as partes que permitam qualquer espécie de contágio ou risco à saúde sejam de uso individual.",
+    "heading": "4.1.2 Os headsets devem:",
+    "char_offset": 36080
   },
   {
     "id": "chunk-109",
-    "text": "**8.** **Condições Sanitárias de Conforto**\n**9.** **Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**\n**10.** **Pessoas com Deficiência**\n**11.** **Disposições Transitórias**\n**1.** **Objetivo**\n1.1 Estabelecer os requisitos para o trabalho em atividades de teleatendimento/telemarketing nas",
-    "heading": "Introdução",
-    "char_offset": 32212
+    "text": "a) ter garantidas pelo empregador a correta higienização e as condições operacionais recomendadas pelos fabricantes; \nb) ser substituídos prontamente quando situações irregulares de funcionamento forem detectadas pelo operador; \nc) ter seus dispositivos de operação e controles de fácil uso e alcance; e",
+    "heading": "4.1.2 Os headsets devem:",
+    "char_offset": 36083
   },
   {
     "id": "chunk-110",
-    "text": "diversas modalidades desse serviço, de modo a proporcionar o máximo de conforto, segurança,\nsaúde e desempenho eficiente.\n**2.** **Campo de Aplicação**\n2.1 As disposições deste Anexo aplicam-se a todas as organizações que mantêm serviço de\nteleatendimento/telemarketing, nas modalidades ativo ou receptivo, em centrais de atendimento",
-    "heading": "Introdução",
-    "char_offset": 32541
+    "text": "d) permitir ajuste individual da intensidade do nível sonoro e ser providos de sistema de proteção contra choques acústicos e ruídos indesejáveis de alta intensidade, garantindo o entendimento das mensagens. \n4.2 A organização deve garantir o correto funcionamento e a manutenção contínua dos equipamentos de comunicação, incluindo os conjuntos de headsets, utilizando pessoal técnico familiarizado com as recomendações dos fabricantes.",
+    "heading": "4.1.2 Os headsets devem:",
+    "char_offset": 36390
   },
   {
     "id": "chunk-111",
-    "text": "telefônico e/ou centrais de relacionamento com clientes (call centers), para prestação de serviços,\ninformações e comercialização de produtos.\n2.1.1 Entende-se como call center o ambiente de trabalho no qual a principal atividade é\nconduzida via telefone e/ou rádio com utilização simultânea de terminais de computador.",
-    "heading": "Introdução",
-    "char_offset": 32876
+    "text": "4.3 Os monitores de vídeo devem proporcionar corretos ângulos de visão e ser posicionados frontalmente ao operador, devendo ser dotados de regulagem que permita o correto ajuste da tela à iluminação do ambiente, protegendo o trabalhador contra reflexos indesejáveis.",
+    "heading": "4.1.2 Os headsets devem:",
+    "char_offset": 36829
   },
   {
     "id": "chunk-112",
-    "text": "2.1.1.1 Este Anexo aplica-se, inclusive, a setores de organizações e postos de trabalho dedicados a\nesta atividade, além daquelas organizações especificamente voltadas para essa atividade-fim.\n2.1.2 Entende-se como trabalho de teleatendimento/telemarketing aquele cuja comunicação com",
-    "heading": "Introdução",
-    "char_offset": 33198
+    "text": "4.4 Toda introdução de novos métodos ou dispositivos tecnológicos que traga alterações sobre os modos operatórios dos trabalhadores deve ser precedida de avaliação ergonômica preliminar ou Análise Ergonômica do Trabalho - AET, prevendo-se períodos e procedimentos adequados de capacitação e adaptação.",
+    "heading": "4.1.2 Os headsets devem:",
+    "char_offset": 37098
   },
   {
     "id": "chunk-113",
-    "text": "interlocutores clientes e usuários é realizada a distância, por intermédio da voz e/ou mensagens\neletrônicas, com a utilização simultânea de equipamentos de audição/escuta e fala telefônica e\nsistemas informatizados ou manuais de processamento de dados.",
-    "heading": "Introdução",
-    "char_offset": 33483
+    "text": "5.1 Os locais de trabalho devem ser dotados de condições acústicas adequadas à comunicação telefônica, adotando-se medidas de prevenção com o fim de atender ao nível de ruído previsto no item 17.8.4.1 e subitens da NR 17. \n5.2 Os ambientes de trabalho devem atender ao disposto no item 17.8.4.2 da NR 17 em relação à temperatura, velocidade do ar e umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho.",
+    "heading": "**5. Condições Ambientais de Trabalho**",
+    "char_offset": 37404
   },
   {
     "id": "chunk-114",
-    "text": "**3.** **Mobiliário dos Postos de Trabalho**\n3.1 Para trabalho manual sentado ou que tenha de ser feito em pé, deve ser proporcionado ao\ntrabalhador mobiliário que atenda ao capítulo 17.6 Mobiliário dos postos de trabalho da Norma\nRegulamentadora nº 17 (NR 17) e que permita variações posturais, com ajustes de fácil",
-    "heading": "Introdução",
-    "char_offset": 33739
+    "text": "Este texto não substitui o publicado no DOU \n5.2.1 Devem ser implementados projetos adequados de climatização dos ambientes de trabalho que permitam distribuição homogênea das temperaturas e fluxos de ar, utilizando, se necessário, controles locais e/ou setorizados da temperatura, velocidade e direção dos fluxos.",
+    "heading": "**5. Condições Ambientais de Trabalho**",
+    "char_offset": 37841
   },
   {
     "id": "chunk-115",
-    "text": "acionamento, de modo a prover espaço suficiente para seu conforto, atendendo aos seguintes\nrequisitos:\na) o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de\nEste texto não substitui o publicado no DOU\nb) regulagem independentes;",
-    "heading": "Introdução",
-    "char_offset": 34059
+    "text": "5.2.2 A organização pode instalar equipamentos que permitam ao trabalhador acompanhar a temperatura, a velocidade e a umidade do ar do ambiente de trabalho. \n5.3 Para a prevenção da chamada “síndrome do edifício doente”, deve ser atendida a Lei nº 13.589, de 4 de janeiro de 2018, e o disposto no subitem 1.5.5.1.1 da Norma Regulamentadora nº 1 (NR 01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, bem como o disposto no regulamento dos Padrões Referenciais de Qualidade do Ar Interior em ambientes climatizados artificialmente de uso público e coletivo, com redação dada pela Resolução RE nº 9, de 16 de janeiro de 2003, da Agência Nacional de Vigilância Sanitária - ANVISA, ou outra que a venha substituir.",
+    "heading": "**5. Condições Ambientais de Trabalho**",
+    "char_offset": 38159
   },
   {
     "id": "chunk-116",
-    "text": "c) será aceita superfície regulável única para teclado e monitor quando este for dotado de\nregulagem independente de, no mínimo, 26 cm (vinte e seis centímetros) no plano vertical;\nd) a bancada sem material de consulta deve ter, no mínimo, profundidade de 75 cm (setenta e",
-    "heading": "Introdução",
-    "char_offset": 34325
+    "text": "5.3.1 As instalações das centrais de ar-condicionado, especialmente o plenum de mistura da casa de máquinas, não devem ser utilizadas para armazenamento de quaisquer materiais. \n5.3.2 A descarga de água de condensado não pode manter qualquer ligação com a rede de esgoto cloacal.",
+    "heading": "**5. Condições Ambientais de Trabalho**",
+    "char_offset": 38887
   },
   {
     "id": "chunk-117",
-    "text": "cinco centímetros), medidos a partir de sua borda frontal, e largura de 90 cm (noventa\ncentímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e\ncinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em",
-    "heading": "Introdução",
-    "char_offset": 34599
+    "text": "6.1 A organização do trabalho deve ser feita de forma a não haver atividades aos domingos e feriados, seja total ou parcial, com exceção das organizações autorizadas previamente pela autoridade competente em matéria de trabalho, conforme o previsto no artigo 68 da Consolidação das do Trabalho - CLT, e das atividades previstas em lei.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 39170
   },
   {
     "id": "chunk-118",
-    "text": "posição de trabalho;\ne) a bancada com material de consulta deve ter, no mínimo, profundidade de 90 cm (noventa\ncentímetros) a partir de sua borda frontal e largura de 100 cm (cem centímetros) que\nproporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros)",
-    "heading": "Introdução",
-    "char_offset": 34860
+    "text": "6.1.1 Aos trabalhadores é assegurado, nos casos previamente autorizados, pelo menos um dia de repouso semanal remunerado coincidente com o domingo a cada mês, independentemente de metas, faltas e/ou produtividade. \n6.1.2 As escalas de fins de semana e de feriados devem ser especificadas e informadas aos trabalhadores com a antecedência necessária, de conformidade com os artigos 67, parágrafo único, e 386 da CLT, ou por intermédio de acordos ou convenções coletivas.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 39509
   },
   {
     "id": "chunk-119",
-    "text": "de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho,\npara livre utilização e acesso de documentos;\nf) o plano de trabalho deve ter bordas arredondadas;\ng) as superfícies de trabalho devem ser reguláveis em altura em um intervalo mínimo de 13 cm",
-    "heading": "Introdução",
-    "char_offset": 35147
+    "text": "6.1.2.1 A organização deve levar em consideração as necessidades dos operadores na elaboração das escalas laborais que acomodem necessidades especiais da vida familiar dos trabalhadores com dependentes sob seus cuidados, especialmente nutrizes, incluindo flexibilidade especial para trocas de horários e utilização das pausas.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 39981
   },
   {
     "id": "chunk-120",
-    "text": "(treze centímetros), medidos de sua face superior, permitindo o apoio das plantas dos pés no\npiso;\nh) o dispositivo de apontamento na tela (mouse) deve estar apoiado na mesma superfície do\nteclado, colocado em área de fácil alcance e com espaço suficiente para sua livre utilização;",
-    "heading": "Introdução",
-    "char_offset": 35429
+    "text": "6.1.3 A duração das jornadas de trabalho somente poderá prolongar-se além do limite previsto nos termos da lei em casos excepcionais, por motivo de força maior, necessidade imperiosa ou para a realização ou conclusão de serviços inadiáveis ou cuja inexecução possa acarretar prejuízo manifesto, conforme dispõe o artigo 61 da CLT.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 40310
   },
   {
     "id": "chunk-121",
-    "text": "i) o espaço sob a superfície de trabalho deve ter profundidade livre mínima de 45 cm (quarenta e\ncinco centímetros) ao nível dos joelhos e de 70 cm (setenta centímetros) ao nível dos pés,\nmedidos de sua borda frontal;\nj) nos casos em que os pés do operador não alcancem o piso, mesmo após a regulagem do",
-    "heading": "Introdução",
-    "char_offset": 35715
+    "text": "6.2 O contingente de operadores deve ser dimensionado às demandas da produção no sentido de não gerar sobrecarga habitual ao trabalhador. \nEste texto não substitui o publicado no DOU \n6.2.1 O contingente de operadores em cada estabelecimento deve ser suficiente para garantir que todos possam usufruir as pausas e intervalos previstos neste Anexo.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 40645
   },
   {
     "id": "chunk-122",
-    "text": "assento, deve ser fornecido apoio para os pés que se adapte ao comprimento das pernas do\ntrabalhador, permitindo o apoio das plantas dos pés, com inclinação ajustável e superfície\nrevestida de material antiderrapante; e\nk) os assentos devem ser dotados de:",
-    "heading": "Introdução",
-    "char_offset": 36021
+    "text": "6.3 O tempo de trabalho em efetiva atividade de teleatendimento/telemarketing é de, no máximo, 6 (seis) horas diárias, nele incluídas as pausas, sem prejuízo da remuneração. \n6.3.1 A prorrogação do tempo previsto no presente item só será admissível nos termos da legislação, sem prejuízo das pausas previstas neste Anexo, respeitado o limite de 36 (trinta e seis) horas semanais de tempo efetivo em atividade de teleatendimento/telemarketing.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 40996
   },
   {
     "id": "chunk-123",
-    "text": "I - apoio em 05 (cinco) pés, com rodízios cuja resistência evite deslocamentos involuntários e que\nnão comprometam a estabilidade do assento;\nII - superfícies onde ocorre contato corporal estofadas e revestidas de material que permita a\nperspiração;",
-    "heading": "Introdução",
-    "char_offset": 36280
+    "text": "6.3.2 Para o cálculo do tempo efetivo em atividade de teleatendimento/telemarketing, devem ser computados os períodos em que o operador se encontra no posto de trabalho, os intervalos entre os ciclos laborais e os deslocamentos para solução de questões relacionadas ao trabalho.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 41441
   },
   {
     "id": "chunk-124",
-    "text": "III - base estofada com material de densidade entre 40 (quarenta) a 50 (cinquenta) kg/m [3] ;\nIV - altura da superfície superior ajustável, em relação ao piso, entre 37 cm (trinta e sete\ncentímetros) e 50 cm (cinquenta centímetros), podendo ser adotados até três tipos de cadeiras",
-    "heading": "Introdução",
-    "char_offset": 36532
+    "text": "6.4 Para prevenir sobrecarga psíquica e muscular estática de pescoço, ombros, dorso e membros superiores, a organização deve permitir a fruição de pausas de descanso e intervalos para repouso e alimentação aos trabalhadores. \n6.4.1 As pausas devem ser concedidas:",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 41723
   },
   {
     "id": "chunk-125",
-    "text": "com alturas diferentes, de forma a atender as necessidades de todos os operadores;\nV - profundidade útil de 38 cm (trinta e oito centímetros) a 46 cm (quarenta e seis centímetros);\nVI - borda frontal arredondada;\nVII - características de pouca ou nenhuma conformação na base;",
-    "heading": "Introdução",
-    "char_offset": 36816
+    "text": "a) fora do posto de trabalho; \nb) em 02 (dois) períodos de 10 (dez) minutos contínuos; e \nc) após os primeiros e antes dos últimos 60 (sessenta) minutos de trabalho em atividade de teleatendimento/telemarketing. \n6.4.1.1 A instituição de pausas não prejudica o direito ao intervalo obrigatório para repouso e alimentação previsto no §1° do art. 71 da CLT.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 41992
   },
   {
     "id": "chunk-126",
-    "text": "VIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada\nao corpo para proteção da região lombar;\nIX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no\nmínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e",
-    "heading": "Introdução",
-    "char_offset": 37094
+    "text": "6.4.2 O intervalo para repouso e alimentação para a atividade de teleatendimento/telemarketing deve ser de 20 (vinte) minutos. \n6.4.3 Para tempos de trabalho efetivo de teleatendimento/telemarketing de até 4 (quatro) horas diárias, deve ser observada a concessão de 1 (uma) pausa de descanso contínua de 10 (dez) minutos.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 42351
   },
   {
     "id": "chunk-127",
-    "text": "Este texto não substitui o publicado no DOU\nX - apoio de braços regulável em altura de 20 cm (vinte centímetros) a 25 cm (vinte e cinco\ncentímetros) a partir do assento, sendo que seu comprimento não deve interferir no movimento\nde aproximação da cadeira em relação à mesa, nem nos movimentos inerentes à execução da",
-    "heading": "Introdução",
-    "char_offset": 37381
+    "text": "6.4.4 As pausas para descanso devem ser consignadas em registro impresso ou eletrônico. \n6.4.4.1 O registro eletrônico de pausas deve ser disponibilizado impresso para a fiscalização do trabalho no curso da inspeção, sempre que exigido. \n6.4.4.2 Os trabalhadores devem ter acesso aos seus registros de pausas.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 42677
   },
   {
     "id": "chunk-128",
-    "text": "tarefa.\n**4.** **Equipamentos dos Postos de Trabalho**\n4.1 Devem ser fornecidos gratuitamente conjuntos de microfone e fone de ouvido (headsets)\nindividuais que permitam ao operador a alternância do uso das orelhas ao longo da jornada de\ntrabalho e que sejam substituídos sempre que apresentarem defeitos ou desgaste devido ao uso.",
-    "heading": "Introdução",
-    "char_offset": 37701
+    "text": "6.4.5 Devem ser garantidas pausas no trabalho imediatamente após operação em que tenham ocorrido ameaças, abuso verbal ou agressões, ou que tenha sido especialmente desgastante, que permitam ao operador recuperar-se e socializar conflitos e dificuldades com colegas, supervisores ou profissionais de saúde ocupacional especialmente capacitados para tal acolhimento.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 42989
   },
   {
     "id": "chunk-129",
-    "text": "4.1.1 Alternativamente, poderá ser fornecido um _headset_ para cada posto de atendimento, desde\nque as partes que permitam qualquer espécie de contágio ou risco à saúde sejam de uso\nindividual.\n4.1.2 Os headsets devem:\na) ter garantidas pelo empregador a correta higienização e as condições operacionais",
-    "heading": "Introdução",
-    "char_offset": 38037
+    "text": "6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto Este texto não substitui o publicado no DOU \nde trabalho é considerado como parte da jornada normal. \n6.6 A participação em quaisquer modalidades de atividade física, quando adotadas pela organização, não é obrigatória, e a recusa do trabalhador em praticá-la não poderá ser utilizada para efeito de qualquer punição.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 43359
   },
   {
     "id": "chunk-130",
-    "text": "recomendadas pelos fabricantes;\nb) ser substituídos prontamente quando situações irregulares de funcionamento forem detectadas\npelo operador;\nc) ter seus dispositivos de operação e controles de fácil uso e alcance; e\nd) permitir ajuste individual da intensidade do nível sonoro e ser providos de sistema de proteção",
-    "heading": "Introdução",
-    "char_offset": 38344
+    "text": "6.7 Com o fim de permitir a satisfação das necessidades fisiológicas, a organização deve permitir que os operadores saiam de seus postos de trabalho a qualquer momento da jornada, sem repercussões sobre suas avaliações e remunerações. \n6.8 Nos locais de trabalho deve ser permitida a alternância de postura pelo trabalhador, de acordo com suas conveniência e necessidade.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 43775
   },
   {
     "id": "chunk-131",
-    "text": "contra choques acústicos e ruídos indesejáveis de alta intensidade, garantindo o entendimento\ndas mensagens.\n4.2 A organização deve garantir o correto funcionamento e a manutenção contínua dos\nequipamentos de comunicação, incluindo os conjuntos de headsets, utilizando pessoal técnico",
-    "heading": "Introdução",
-    "char_offset": 38661
+    "text": "6.9 Os mecanismos de monitoramento da produtividade, tais como mensagens nos monitores de vídeo, sinais luminosos, cromáticos, sonoros, ou indicações do tempo utilizado nas ligações ou de filas de clientes em espera, não podem ser utilizados para aceleração do trabalho e, quando existentes, devem estar disponíveis para consulta pelo operador, a seu critério.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 44149
   },
   {
     "id": "chunk-132",
-    "text": "familiarizado com as recomendações dos fabricantes.\n4.3 Os monitores de vídeo devem proporcionar corretos ângulos de visão e ser posicionados\nfrontalmente ao operador, devendo ser dotados de regulagem que permita o correto ajuste da\ntela à iluminação do ambiente, protegendo o trabalhador contra reflexos indesejáveis.",
-    "heading": "Introdução",
-    "char_offset": 38947
+    "text": "6.10 Para fins de elaboração de programas preventivos, devem ser considerados os seguintes aspectos da organização do trabalho: \na) compatibilização de metas com as condições de trabalho e tempo oferecidas; \nb) monitoramento de desempenho; \nc) repercussões sobre a saúde dos trabalhadores decorrentes de todo e qualquer sistema de avaliação para efeito de remuneração e vantagens de qualquer espécie;",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 44515
   },
   {
     "id": "chunk-133",
-    "text": "4.4 Toda introdução de novos métodos ou dispositivos tecnológicos que traga alterações sobre os\nmodos operatórios dos trabalhadores deve ser precedida de avaliação ergonômica preliminar ou\nAnálise Ergonômica do Trabalho - AET, prevendo-se períodos e procedimentos adequados de",
-    "heading": "Introdução",
-    "char_offset": 39267
+    "text": "d) pressões aumentadas de tempo em horários de maior demanda; e \ne) períodos para adaptação ao trabalho. \n6.11 É vedado à organização: \na) exigir a observância estrita do script ou roteiro de atendimento; e \nb) imputar ao operador os períodos de tempo ou interrupções no trabalho não dependentes de sua conduta.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 44922
   },
   {
     "id": "chunk-134",
-    "text": "capacitação e adaptação.\n**5.** **Condições Ambientais de Trabalho**\n5.1 Os locais de trabalho devem ser dotados de condições acústicas adequadas à comunicação\ntelefônica, adotando-se medidas de prevenção com o fim de atender ao nível de ruído previsto no",
-    "heading": "Introdução",
-    "char_offset": 39546
+    "text": "6.12 A utilização de procedimentos de monitoramento por escuta e gravação de ligações deve ocorrer somente mediante o conhecimento do operador. \n6.13 É vedada a utilização de métodos que causem assédio moral, medo ou constrangimento, tais como: \na) estímulo abusivo à competição entre trabalhadores ou grupos/equipes de trabalho;",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 45238
   },
   {
     "id": "chunk-135",
-    "text": "item 17.8.4.1 e subitens da NR 17.\n5.2 Os ambientes de trabalho devem atender ao disposto no item 17.8.4.2 da NR 17 em relação à\ntemperatura, velocidade do ar e umidade com a finalidade de proporcionar conforto térmico nas\nsituações de trabalho.\nEste texto não substitui o publicado no DOU",
-    "heading": "Introdução",
-    "char_offset": 39805
+    "text": "b) exigência de que os trabalhadores usem, de forma permanente ou temporária, adereços, acessórios, fantasias e vestimentas com o objetivo de punição, promoção e propaganda; e \nc) exposição pública das avaliações de desempenho dos operadores. \n6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto a ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas, Este texto não substitui o publicado no DOU",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 45572
   },
   {
     "id": "chunk-136",
-    "text": "5.2.1 Devem ser implementados projetos adequados de climatização dos ambientes de trabalho\nque permitam distribuição homogênea das temperaturas e fluxos de ar, utilizando, se necessário,\ncontroles locais e/ou setorizados da temperatura, velocidade e direção dos fluxos.",
-    "heading": "Introdução",
-    "char_offset": 40096
+    "text": "autorização para transferência de chamadas e consultas necessárias a colegas e supervisores. \n6.15 Os sistemas informatizados devem ser elaborados, implantados e atualizados, contínua e suficientemente, de maneira a mitigar sobretarefas como a utilização constante de memória de curto prazo, utilização de anotações precárias, duplicidade e concomitância de anotações em papel e sistema informatizado.",
+    "heading": "**6. Organização do Trabalho**",
+    "char_offset": 46150
   },
   {
     "id": "chunk-137",
-    "text": "5.2.2 A organização pode instalar equipamentos que permitam ao trabalhador acompanhar a\ntemperatura, a velocidade e a umidade do ar do ambiente de trabalho.\n5.3 Para a prevenção da chamada “síndrome do edifício doente”, deve ser atendida a Lei nº\n13.589, de 4 de janeiro de 2018, e o disposto no subitem 1.5.5.1.1 da Norma Regulamentadora nº",
-    "heading": "Introdução",
-    "char_offset": 40368
+    "text": "6.16 As prescrições de diálogos de trabalho não devem exigir que o trabalhador forneça o sobrenome aos clientes, visando resguardar sua privacidade e segurança pessoal.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 46725
   },
   {
     "id": "chunk-138",
-    "text": "1 (NR 01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, bem como o disposto no\nregulamento dos Padrões Referenciais de Qualidade do Ar Interior em ambientes climatizados\nartificialmente de uso público e coletivo, com redação dada pela Resolução RE nº 9, de 16 de",
-    "heading": "Introdução",
-    "char_offset": 40710
+    "text": "7.1 Todos os trabalhadores de operação e de gestão devem receber capacitação que proporcione conhecer as formas de adoecimento relacionadas à sua atividade, suas causas, efeitos sobre a saúde e medidas de prevenção. \n7.1.1 A capacitação deve envolver, também, obrigatoriamente os trabalhadores temporários.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 46727
   },
   {
     "id": "chunk-139",
-    "text": "janeiro de 2003, da Agência Nacional de Vigilância Sanitária - ANVISA, ou outra que a venha\nsubstituir.\n5.3.1 As instalações das centrais de ar-condicionado, especialmente o plenum de mistura da casa\nde máquinas, não devem ser utilizadas para armazenamento de quaisquer materiais.",
-    "heading": "Introdução",
-    "char_offset": 40990
+    "text": "7.1.2 O treinamento deve incluir os seguintes itens: \n- a) noções sobre os fatores de risco para a saúde em teleatendimento/telemarketing; \n- b) medidas de prevenção indicadas para a redução dos riscos relacionados ao trabalho; \n- c) informações sobre os sintomas de adoecimento que possam estar relacionados à atividade de teleatendimento/telemarketing, principalmente os que envolvam o sistema osteomuscular, a saúde mental, as funções vocais, auditivas e acuidade visual dos trabalhadores; e",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 47039
   },
   {
     "id": "chunk-140",
-    "text": "5.3.2 A descarga de água de condensado não pode manter qualquer ligação com a rede de esgoto\ncloacal.\n**6.** **Organização do Trabalho**\n6.1 A organização do trabalho deve ser feita de forma a não haver atividades aos domingos e\nferiados, seja total ou parcial, com exceção das organizações autorizadas previamente pela",
-    "heading": "Introdução",
-    "char_offset": 41275
+    "text": "- d) informações sobre a utilização correta dos mecanismos de ajuste do mobiliário e dos equipamentos dos postos de trabalho, incluindo orientação para alternância de orelhas no uso dos fones mono ou biauriculares e limpeza e substituição de tubos de voz.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 47536
   },
   {
     "id": "chunk-141",
-    "text": "autoridade competente em matéria de trabalho, conforme o previsto no artigo 68 da\nConsolidação das do Trabalho - CLT, e das atividades previstas em lei.\n6.1.1 Aos trabalhadores é assegurado, nos casos previamente autorizados, pelo menos um dia de\nrepouso semanal remunerado coincidente com o domingo a cada mês, independentemente de",
-    "heading": "Introdução",
-    "char_offset": 41596
+    "text": "7.1.2.1 O treinamento inicial deve ter a duração de 4 (quatro) horas na admissão, e o treinamento periódico deve ser realizado a cada 6 (seis) meses, independentemente de campanhas educativas que sejam promovidas pelos empregadores. \n7.1.2.2 Durante o treinamento é obrigatória a distribuição de material didático com o conteúdo apresentado.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 47795
   },
   {
     "id": "chunk-142",
-    "text": "metas, faltas e/ou produtividade.\n6.1.2 As escalas de fins de semana e de feriados devem ser especificadas e informadas aos\ntrabalhadores com a antecedência necessária, de conformidade com os artigos 67, parágrafo\núnico, e 386 da CLT, ou por intermédio de acordos ou convenções coletivas.",
-    "heading": "Introdução",
-    "char_offset": 41930
+    "text": "7.1.2.3 O treinamento deve ser realizado durante a jornada de trabalho. \n7.2 Os trabalhadores devem receber treinamento eventual obrigatório quando forem introduzidos novos fatores de risco decorrentes de métodos, equipamentos, tipos específicos de atendimento, mudanças gerenciais ou de procedimentos.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 48140
   },
   {
     "id": "chunk-143",
-    "text": "6.1.2.1 A organização deve levar em consideração as necessidades dos operadores na elaboração\ndas escalas laborais que acomodem necessidades especiais da vida familiar dos trabalhadores com\ndependentes sob seus cuidados, especialmente nutrizes, incluindo flexibilidade especial para",
-    "heading": "Introdução",
-    "char_offset": 42220
+    "text": "7.3 A elaboração do conteúdo técnico, a execução e a avaliação dos resultados dos procedimentos de capacitação devem contar com a participação de: \n- a) pessoal de organização e métodos responsável pela organização do trabalho na empresa, quando houver;",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 48446
   },
   {
     "id": "chunk-144",
-    "text": "trocas de horários e utilização das pausas.\n6.1.3 A duração das jornadas de trabalho somente poderá prolongar-se além do limite previsto\nnos termos da lei em casos excepcionais, por motivo de força maior, necessidade imperiosa ou\npara a realização ou conclusão de serviços inadiáveis ou cuja inexecução possa acarretar prejuízo",
-    "heading": "Introdução",
-    "char_offset": 42504
+    "text": "- b) integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando \nEste texto não substitui o publicado no DOU \nhouver; \n- c) representantes dos trabalhadores na Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver; (alterada pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 48705
   },
   {
     "id": "chunk-145",
-    "text": "manifesto, conforme dispõe o artigo 61 da CLT.\n6.2 O contingente de operadores deve ser dimensionado às demandas da produção no sentido de\nnão gerar sobrecarga habitual ao trabalhador.\nEste texto não substitui o publicado no DOU\n6.2.1 O contingente de operadores em cada estabelecimento deve ser suficiente para garantir que",
-    "heading": "Introdução",
-    "char_offset": 42835
+    "text": "- d) médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO; \n- e) responsáveis pelo Programa de Gerenciamento de Riscos - PGR; e \n- f) representantes dos trabalhadores e outras entidades, quando previsto em acordos ou convenções coletivas de trabalho.",
+    "heading": "**7. Capacitação e Treinamento dos Trabalhadores**",
+    "char_offset": 49043
   },
   {
     "id": "chunk-146",
-    "text": "todos possam usufruir as pausas e intervalos previstos neste Anexo.\n6.3 O tempo de trabalho em efetiva atividade de teleatendimento/telemarketing é de, no\nmáximo, 6 (seis) horas diárias, nele incluídas as pausas, sem prejuízo da remuneração.\n6.3.1 A prorrogação do tempo previsto no presente item só será admissível nos termos da",
-    "heading": "Introdução",
-    "char_offset": 43162
+    "text": "8.1 Devem ser garantidas boas condições sanitárias e de conforto, incluindo sanitários permanentemente adequados ao uso e separados por sexo, local para lanche e armários individuais dotados de chave para guarda de pertences na jornada de trabalho.",
+    "heading": "**8. Condições Sanitárias de Conforto**",
+    "char_offset": 49325
   },
   {
     "id": "chunk-147",
-    "text": "legislação, sem prejuízo das pausas previstas neste Anexo, respeitado o limite de 36 (trinta e seis)\nhoras semanais de tempo efetivo em atividade de teleatendimento/telemarketing.\n6.3.2 Para o cálculo do tempo efetivo em atividade de teleatendimento/telemarketing, devem ser",
-    "heading": "Introdução",
-    "char_offset": 43493
+    "text": "8.2 Deve ser proporcionada a todos os trabalhadores disponibilidade irrestrita e próxima de água potável, além do disposto na Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho. \n8.3 A organização deve manter ambientes confortáveis para descanso e recuperação durante as pausas, fora dos ambientes de trabalho, dimensionados em proporção adequada ao número de operadores usuários, onde estejam disponíveis assentos, facilidades de água potável, instalações sanitárias e lixeiras com tampa.",
+    "heading": "**8. Condições Sanitárias de Conforto**",
+    "char_offset": 49577
   },
   {
     "id": "chunk-148",
-    "text": "computados os períodos em que o operador se encontra no posto de trabalho, os intervalos entre\nos ciclos laborais e os deslocamentos para solução de questões relacionadas ao trabalho.\n6.4 Para prevenir sobrecarga psíquica e muscular estática de pescoço, ombros, dorso e membros",
-    "heading": "Introdução",
-    "char_offset": 43769
+    "text": "9.1 A organização deve disponibilizar comprovadamente ao empregado os Atestados de Saúde Ocupacional - ASO, que devem ser fornecidos em meio físico quando solicitados, além de cópia dos resultados dos demais exames. \n9.2 A organização deve implementar um programa de vigilância epidemiológica para detecção precoce de casos de doenças relacionadas ao trabalho comprovadas ou objeto de suspeita, que inclua procedimentos de vigilância passiva (processando a demanda espontânea de trabalhadores que procurem serviços médicos) e procedimentos de vigilância ativa, por intermédio de exames médicos dirigidos que incluam, além dos exames obrigatórios por norma, coleta de dados sobre sintomas referentes aos aparelhos psíquico, osteomuscular, vocal, visual e auditivo, analisados e apresentados com a utilização de ferramentas estatísticas e epidemiológicas.",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 50116
   },
   {
     "id": "chunk-149",
-    "text": "superiores, a organização deve permitir a fruição de pausas de descanso e intervalos para repouso\ne alimentação aos trabalhadores.\n6.4.1 As pausas devem ser concedidas:\na) fora do posto de trabalho;\nb) em 02 (dois) períodos de 10 (dez) minutos contínuos; e",
-    "heading": "Introdução",
-    "char_offset": 44050
+    "text": "9.2.1 No sentido de promover a saúde vocal dos trabalhadores, a organização deve implementar, entre outras medidas: \na) modelos de diálogos que favoreçam micropausas e evitem carga vocal intensiva do operador; \nb) redução do ruído de fundo; e \nc) estímulo à ingestão frequente de água potável fornecida gratuitamente aos operadores.",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 50975
   },
   {
     "id": "chunk-150",
-    "text": "c) após os primeiros e antes dos últimos 60 (sessenta) minutos de trabalho em atividade de\nteleatendimento/telemarketing.\n6.4.1.1 A instituição de pausas não prejudica o direito ao intervalo obrigatório para repouso e\nalimentação previsto no §1° do art. 71 da CLT.",
-    "heading": "Introdução",
-    "char_offset": 44309
+    "text": "Este texto não substitui o publicado no DOU \n9.3. A notificação das doenças profissionais e das produzidas em virtude das condições especiais de trabalho, comprovadas ou objeto de suspeita, será obrigatória por meio da emissão de Comunicação de Acidente de Trabalho - CAT, na forma do art. 169 da CLT e da legislação vigente da Previdência Social.",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 51311
   },
   {
     "id": "chunk-151",
-    "text": "6.4.2 O intervalo para repouso e alimentação para a atividade de teleatendimento/telemarketing\ndeve ser de 20 (vinte) minutos.\n6.4.3 Para tempos de trabalho efetivo de teleatendimento/telemarketing de até 4 (quatro) horas\ndiárias, deve ser observada a concessão de 1 (uma) pausa de descanso contínua de 10 (dez)",
-    "heading": "Introdução",
-    "char_offset": 44576
+    "text": "9.4 A AET, quando indicada por uma das alíneas do item 17.3.2 da NR 17, deve contemplar: \na) descrição das características dos postos de trabalho no que se refere ao mobiliário, utensílios, ferramentas, espaço físico para a execução do trabalho e condições de posicionamento e movimentação de segmentos corporais;",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 51662
   },
   {
     "id": "chunk-152",
-    "text": "minutos.\n6.4.4 As pausas para descanso devem ser consignadas em registro impresso ou eletrônico.\n6.4.4.1 O registro eletrônico de pausas deve ser disponibilizado impresso para a fiscalização do\ntrabalho no curso da inspeção, sempre que exigido.\n6.4.4.2 Os trabalhadores devem ter acesso aos seus registros de pausas.",
-    "heading": "Introdução",
-    "char_offset": 44892
+    "text": "b) avaliação da organização do trabalho demonstrando: \nI - trabalho real e trabalho prescrito; \nII - descrição da produção em relação ao tempo alocado para as tarefas; \nIII - variações diárias, semanais e mensais da carga de atendimento, incluindo variações sazonais e intercorrências técnico-operacionais mais frequentes;",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 51981
   },
   {
     "id": "chunk-153",
-    "text": "6.4.5 Devem ser garantidas pausas no trabalho imediatamente após operação em que tenham\nocorrido ameaças, abuso verbal ou agressões, ou que tenha sido especialmente desgastante, que\npermitam ao operador recuperar-se e socializar conflitos e dificuldades com colegas, supervisores",
-    "heading": "Introdução",
-    "char_offset": 45210
+    "text": "IV - número de ciclos de trabalho e sua descrição, incluindo trabalho em turnos e trabalho noturno; \nV - ocorrência de pausas interciclos; \nVI - explicitação das normas de produção, das exigências de tempo, da determinação do conteúdo de tempo, do ritmo de trabalho e do conteúdo das tarefas executadas;",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 52308
   },
   {
     "id": "chunk-154",
-    "text": "ou profissionais de saúde ocupacional especialmente capacitados para tal acolhimento.\n6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto\nEste texto não substitui o publicado no DOU\nde trabalho é considerado como parte da jornada normal.",
-    "heading": "Introdução",
-    "char_offset": 45493
+    "text": "VII - histórico mensal de horas extras realizadas em cada ano; e \nVIII - explicitação da existência de sobrecargas estáticas ou dinâmicas do sistema osteomuscular; \nc) relatório estatístico da incidência de queixas de agravos à saúde colhidas pela Medicina do Trabalho nos prontuários médicos;",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 52616
   },
   {
     "id": "chunk-155",
-    "text": "6.6 A participação em quaisquer modalidades de atividade física, quando adotadas pela\norganização, não é obrigatória, e a recusa do trabalhador em praticá-la não poderá ser utilizada\npara efeito de qualquer punição.\n6.7 Com o fim de permitir a satisfação das necessidades fisiológicas, a organização deve permitir",
-    "heading": "Introdução",
-    "char_offset": 45776
+    "text": "d) relatórios de avaliações de satisfação no trabalho e clima organizacional, se realizadas no âmbito da organização; \ne) registro e análise de impressões e sugestões dos trabalhadores com relação aos aspectos dos itens anteriores; e \nf) recomendações ergonômicas expressas em planos e propostas claros e objetivos, com definição de datas de implantação.",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 52914
   },
   {
     "id": "chunk-156",
-    "text": "que os operadores saiam de seus postos de trabalho a qualquer momento da jornada, sem\nrepercussões sobre suas avaliações e remunerações.\n6.8 Nos locais de trabalho deve ser permitida a alternância de postura pelo trabalhador, de acordo\ncom suas conveniência e necessidade.",
-    "heading": "Introdução",
-    "char_offset": 46092
+    "text": "9.4.1 As AET devem contemplar as seguintes etapas de execução: \na) explicitação da demanda do estudo; \nb) análise das tarefas, atividades e situações de trabalho; \nc) discussão e restituição dos resultados aos trabalhadores envolvidos; \nd) recomendações ergonômicas específicas para os postos avaliados;",
+    "heading": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**",
+    "char_offset": 53275
   },
   {
     "id": "chunk-157",
-    "text": "6.9 Os mecanismos de monitoramento da produtividade, tais como mensagens nos monitores de\nvídeo, sinais luminosos, cromáticos, sonoros, ou indicações do tempo utilizado nas ligações ou de\nfilas de clientes em espera, não podem ser utilizados para aceleração do trabalho e, quando",
-    "heading": "Introdução",
-    "char_offset": 46366
+    "text": "e) avaliação e revisão das intervenções efetuadas com a participação dos trabalhadores, supervisores e gerentes; e \nf) avaliação da eficiência das recomendações.",
+    "heading": "**10. Pessoas com Deficiência**",
+    "char_offset": 53746
   },
   {
     "id": "chunk-158",
-    "text": "existentes, devem estar disponíveis para consulta pelo operador, a seu critério.\n6.10 Para fins de elaboração de programas preventivos, devem ser considerados os seguintes\naspectos da organização do trabalho:\na) compatibilização de metas com as condições de trabalho e tempo oferecidas;",
-    "heading": "Introdução",
-    "char_offset": 46648
+    "text": "Este texto não substitui o publicado no DOU \n10.1 Para as pessoas com deficiência e aquelas cujas medidas antropométricas não sejam atendidas pelas especificações deste Anexo, o mobiliário dos postos de trabalho deve ser adaptado para atender às suas necessidades, e devem estar disponíveis ajudas técnicas necessárias em seu respectivo posto de trabalho para facilitar sua integração ao trabalho, levando em consideração as repercussões sobre a saúde desses trabalhadores.",
+    "heading": "**10. Pessoas com Deficiência**",
+    "char_offset": 53748
   },
   {
     "id": "chunk-159",
-    "text": "b) monitoramento de desempenho;\nc) repercussões sobre a saúde dos trabalhadores decorrentes de todo e qualquer sistema de\navaliação para efeito de remuneração e vantagens de qualquer espécie;\nd) pressões aumentadas de tempo em horários de maior demanda; e",
-    "heading": "Introdução",
-    "char_offset": 46938
+    "text": "10.2 As condições de trabalho, incluindo o acesso às instalações, mobiliário, equipamentos, condições ambientais, organização do trabalho, capacitação, condições sanitárias, programas de prevenção e cuidados para segurança pessoal devem levar em conta as necessidades dos trabalhadores com deficiência.",
+    "heading": "**10. Pessoas com Deficiência**",
+    "char_offset": 54224
   },
   {
     "id": "chunk-160",
-    "text": "e) períodos para adaptação ao trabalho.\n6.11 É vedado à organização:\na) exigir a observância estrita do script ou roteiro de atendimento; e\nb) imputar ao operador os períodos de tempo ou interrupções no trabalho não dependentes de\nsua conduta.\n6.12 A utilização de procedimentos de monitoramento por escuta e gravação de ligações deve",
-    "heading": "Introdução",
-    "char_offset": 47200
+    "text": "11.1 As organizações que, na data de 02 de abril de 2007, mantinham com seus trabalhadores a contratação de jornada de 6 (seis) horas diárias, nela contemplados e remunerados 15 (quinze) minutos de intervalo para repouso e alimentação, obrigar-se-ão somente à complementação de 5 (cinco) minutos, igualmente remunerados, de maneira a alcançar o total de 20 (vinte) minutos de pausas obrigatórias remuneradas, concedidos na forma dos itens 6.4.1 e 6.4.2.",
+    "heading": "**11. Disposições Transitórias**",
+    "char_offset": 54530
   },
   {
     "id": "chunk-161",
-    "text": "ocorrer somente mediante o conhecimento do operador.\n6.13 É vedada a utilização de métodos que causem assédio moral, medo ou constrangimento, tais\ncomo:\na) estímulo abusivo à competição entre trabalhadores ou grupos/equipes de trabalho;\nb) exigência de que os trabalhadores usem, de forma permanente ou temporária, adereços,",
-    "heading": "Introdução",
-    "char_offset": 47539
+    "text": "Este texto não substitui o publicado no DOU \n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n> ![Page 3](../assets/pages/page-003.png)\n> ![Page 4](../assets/pages/page-004.png)\n> ![Page 5](../assets/pages/page-005.png)",
+    "heading": "**11. Disposições Transitórias**",
+    "char_offset": 55035
   },
   {
     "id": "chunk-162",
-    "text": "acessórios, fantasias e vestimentas com o objetivo de punição, promoção e propaganda; e\nc) exposição pública das avaliações de desempenho dos operadores.\n6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e",
-    "heading": "Introdução",
-    "char_offset": 47866
+    "text": "> ![Page 6](../assets/pages/page-006.png)\n> ![Page 7](../assets/pages/page-007.png)\n> ![Page 8](../assets/pages/page-008.png)\n> ![Page 9](../assets/pages/page-009.png)\n> ![Page 10](../assets/pages/page-010.png)\n> ![Page 11](../assets/pages/page-011.png)",
+    "heading": "**11. Disposições Transitórias**",
+    "char_offset": 55296
   },
   {
     "id": "chunk-163",
-    "text": "ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto\na ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas,\nEste texto não substitui o publicado no DOU\nautorização para transferência de chamadas e consultas necessárias a colegas e supervisores.",
-    "heading": "Introdução",
-    "char_offset": 48119
+    "text": "> ![Page 12](../assets/pages/page-012.png)\n> ![Page 13](../assets/pages/page-013.png)\n> ![Page 14](../assets/pages/page-014.png)\n> ![Page 15](../assets/pages/page-015.png)\n> ![Page 16](../assets/pages/page-016.png)\n> ![Page 17](../assets/pages/page-017.png)",
+    "heading": "**11. Disposições Transitórias**",
+    "char_offset": 55556
   },
   {
     "id": "chunk-164",
-    "text": "6.15 Os sistemas informatizados devem ser elaborados, implantados e atualizados, contínua e\nsuficientemente, de maneira a mitigar sobretarefas como a utilização constante de memória de\ncurto prazo, utilização de anotações precárias, duplicidade e concomitância de anotações em",
-    "heading": "Introdução",
-    "char_offset": 48447
-  },
-  {
-    "id": "chunk-165",
-    "text": "papel e sistema informatizado.\n6.16 As prescrições de diálogos de trabalho não devem exigir que o trabalhador forneça o\nsobrenome aos clientes, visando resguardar sua privacidade e segurança pessoal.\n**7.** **Capacitação e Treinamento dos Trabalhadores**",
-    "heading": "Introdução",
-    "char_offset": 48726
-  },
-  {
-    "id": "chunk-166",
-    "text": "7.1 Todos os trabalhadores de operação e de gestão devem receber capacitação que proporcione\nconhecer as formas de adoecimento relacionadas à sua atividade, suas causas, efeitos sobre a\nsaúde e medidas de prevenção.\n7.1.1 A capacitação deve envolver, também, obrigatoriamente os trabalhadores temporários.",
-    "heading": "Introdução",
-    "char_offset": 48983
-  },
-  {
-    "id": "chunk-167",
-    "text": "7.1.2 O treinamento deve incluir os seguintes itens:\na) noções sobre os fatores de risco para a saúde em teleatendimento/telemarketing;\nb) medidas de prevenção indicadas para a redução dos riscos relacionados ao trabalho;\nc) informações sobre os sintomas de adoecimento que possam estar relacionados à atividade de",
-    "heading": "Introdução",
-    "char_offset": 49293
-  },
-  {
-    "id": "chunk-168",
-    "text": "teleatendimento/telemarketing, principalmente os que envolvam o sistema osteomuscular, a\nsaúde mental, as funções vocais, auditivas e acuidade visual dos trabalhadores; e\nd) informações sobre a utilização correta dos mecanismos de ajuste do mobiliário e dos",
-    "heading": "Introdução",
-    "char_offset": 49610
-  },
-  {
-    "id": "chunk-169",
-    "text": "equipamentos dos postos de trabalho, incluindo orientação para alternância de orelhas no uso\ndos fones mono ou biauriculares e limpeza e substituição de tubos de voz.\n7.1.2.1 O treinamento inicial deve ter a duração de 4 (quatro) horas na admissão, e o treinamento",
-    "heading": "Introdução",
-    "char_offset": 49870
-  },
-  {
-    "id": "chunk-170",
-    "text": "periódico deve ser realizado a cada 6 (seis) meses, independentemente de campanhas educativas\nque sejam promovidas pelos empregadores.\n7.1.2.2 Durante o treinamento é obrigatória a distribuição de material didático com o conteúdo\napresentado.\n7.1.2.3 O treinamento deve ser realizado durante a jornada de trabalho.",
-    "heading": "Introdução",
-    "char_offset": 50137
-  },
-  {
-    "id": "chunk-171",
-    "text": "7.2 Os trabalhadores devem receber treinamento eventual obrigatório quando forem introduzidos\nnovos fatores de risco decorrentes de métodos, equipamentos, tipos específicos de atendimento,\nmudanças gerenciais ou de procedimentos.\n7.3 A elaboração do conteúdo técnico, a execução e a avaliação dos resultados dos procedimentos",
-    "heading": "Introdução",
-    "char_offset": 50454
-  },
-  {
-    "id": "chunk-172",
-    "text": "de capacitação devem contar com a participação de:\na) pessoal de organização e métodos responsável pela organização do trabalho na empresa,\nquando houver;\nb) integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando\nEste texto não substitui o publicado no DOU",
-    "heading": "Introdução",
-    "char_offset": 50784
-  },
-  {
-    "id": "chunk-173",
-    "text": "houver;\nc) representantes dos trabalhadores na Comissão Interna de Prevenção de Acidentes e de\nAssédio - CIPA, quando houver; (alterada pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)\nd) médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO;",
-    "heading": "Introdução",
-    "char_offset": 51079
-  },
-  {
-    "id": "chunk-174",
-    "text": "e) responsáveis pelo Programa de Gerenciamento de Riscos - PGR; e\nf) representantes dos trabalhadores e outras entidades, quando previsto em acordos ou\nconvenções coletivas de trabalho.\n**8.** **Condições Sanitárias de Conforto**\n8.1 Devem ser garantidas boas condições sanitárias e de conforto, incluindo sanitários",
-    "heading": "Introdução",
-    "char_offset": 51360
-  },
-  {
-    "id": "chunk-175",
-    "text": "permanentemente adequados ao uso e separados por sexo, local para lanche e armários\nindividuais dotados de chave para guarda de pertences na jornada de trabalho.\n8.2 Deve ser proporcionada a todos os trabalhadores disponibilidade irrestrita e próxima de água",
-    "heading": "Introdução",
-    "char_offset": 51678
-  },
-  {
-    "id": "chunk-176",
-    "text": "potável, além do disposto na Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de\nConforto nos Locais de Trabalho.\n8.3 A organização deve manter ambientes confortáveis para descanso e recuperação durante as\npausas, fora dos ambientes de trabalho, dimensionados em proporção adequada ao número de",
-    "heading": "Introdução",
-    "char_offset": 51939
-  },
-  {
-    "id": "chunk-177",
-    "text": "operadores usuários, onde estejam disponíveis assentos, facilidades de água potável, instalações\nsanitárias e lixeiras com tampa.\n**9.** **Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**\n9.1 A organização deve disponibilizar comprovadamente ao empregado os Atestados de Saúde",
-    "heading": "Introdução",
-    "char_offset": 52248
-  },
-  {
-    "id": "chunk-178",
-    "text": "Ocupacional - ASO, que devem ser fornecidos em meio físico quando solicitados, além de cópia\ndos resultados dos demais exames.\n9.2 A organização deve implementar um programa de vigilância epidemiológica para detecção\nprecoce de casos de doenças relacionadas ao trabalho comprovadas ou objeto de suspeita, que",
-    "heading": "Introdução",
-    "char_offset": 52562
-  },
-  {
-    "id": "chunk-179",
-    "text": "inclua procedimentos de vigilância passiva (processando a demanda espontânea de trabalhadores\nque procurem serviços médicos) e procedimentos de vigilância ativa, por intermédio de exames\nmédicos dirigidos que incluam, além dos exames obrigatórios por norma, coleta de dados sobre",
-    "heading": "Introdução",
-    "char_offset": 52871
-  },
-  {
-    "id": "chunk-180",
-    "text": "sintomas referentes aos aparelhos psíquico, osteomuscular, vocal, visual e auditivo, analisados e\napresentados com a utilização de ferramentas estatísticas e epidemiológicas.\n9.2.1 No sentido de promover a saúde vocal dos trabalhadores, a organização deve implementar,",
-    "heading": "Introdução",
-    "char_offset": 53152
-  },
-  {
-    "id": "chunk-181",
-    "text": "entre outras medidas:\na) modelos de diálogos que favoreçam micropausas e evitem carga vocal intensiva do operador;\nb) redução do ruído de fundo; e\nc) estímulo à ingestão frequente de água potável fornecida gratuitamente aos operadores.\nEste texto não substitui o publicado no DOU",
-    "heading": "Introdução",
-    "char_offset": 53426
-  },
-  {
-    "id": "chunk-182",
-    "text": "9.3. A notificação das doenças profissionais e das produzidas em virtude das condições especiais\nde trabalho, comprovadas ou objeto de suspeita, será obrigatória por meio da emissão de\nComunicação de Acidente de Trabalho - CAT, na forma do art. 169 da CLT e da legislação vigente",
-    "heading": "Introdução",
-    "char_offset": 53707
-  },
-  {
-    "id": "chunk-183",
-    "text": "da Previdência Social.\n9.4 A AET, quando indicada por uma das alíneas do item 17.3.2 da NR 17, deve contemplar:\na) descrição das características dos postos de trabalho no que se refere ao mobiliário, utensílios,\nferramentas, espaço físico para a execução do trabalho e condições de posicionamento e",
-    "heading": "Introdução",
-    "char_offset": 53990
-  },
-  {
-    "id": "chunk-184",
-    "text": "movimentação de segmentos corporais;\nb) avaliação da organização do trabalho demonstrando:\nI - trabalho real e trabalho prescrito;\nII - descrição da produção em relação ao tempo alocado para as tarefas;\nIII - variações diárias, semanais e mensais da carga de atendimento, incluindo variações sazonais e",
-    "heading": "Introdução",
-    "char_offset": 54293
-  },
-  {
-    "id": "chunk-185",
-    "text": "intercorrências técnico-operacionais mais frequentes;\nIV - número de ciclos de trabalho e sua descrição, incluindo trabalho em turnos e trabalho\nnoturno;\nV - ocorrência de pausas interciclos;\nVI - explicitação das normas de produção, das exigências de tempo, da determinação do conteúdo",
-    "heading": "Introdução",
-    "char_offset": 54600
-  },
-  {
-    "id": "chunk-186",
-    "text": "de tempo, do ritmo de trabalho e do conteúdo das tarefas executadas;\nVII - histórico mensal de horas extras realizadas em cada ano; e\nVIII - explicitação da existência de sobrecargas estáticas ou dinâmicas do sistema osteomuscular;\nc) relatório estatístico da incidência de queixas de agravos à saúde colhidas pela Medicina do",
-    "heading": "Introdução",
-    "char_offset": 54890
-  },
-  {
-    "id": "chunk-187",
-    "text": "Trabalho nos prontuários médicos;\nd) relatórios de avaliações de satisfação no trabalho e clima organizacional, se realizadas no\nâmbito da organização;\ne) registro e análise de impressões e sugestões dos trabalhadores com relação aos aspectos dos\nitens anteriores; e",
-    "heading": "Introdução",
-    "char_offset": 55219
-  },
-  {
-    "id": "chunk-188",
-    "text": "f) recomendações ergonômicas expressas em planos e propostas claros e objetivos, com definição\nde datas de implantação.\n9.4.1 As AET devem contemplar as seguintes etapas de execução:\na) explicitação da demanda do estudo;\nb) análise das tarefas, atividades e situações de trabalho;",
-    "heading": "Introdução",
-    "char_offset": 55490
-  },
-  {
-    "id": "chunk-189",
-    "text": "c) discussão e restituição dos resultados aos trabalhadores envolvidos;\nd) recomendações ergonômicas específicas para os postos avaliados;\ne) avaliação e revisão das intervenções efetuadas com a participação dos trabalhadores,\nsupervisores e gerentes; e",
-    "heading": "Introdução",
-    "char_offset": 55774
-  },
-  {
-    "id": "chunk-190",
-    "text": "f) avaliação da eficiência das recomendações.\n**10.** **Pessoas com Deficiência**\nEste texto não substitui o publicado no DOU\n10.1 Para as pessoas com deficiência e aquelas cujas medidas antropométricas não sejam\natendidas pelas especificações deste Anexo, o mobiliário dos postos de trabalho deve ser",
-    "heading": "Introdução",
-    "char_offset": 56032
-  },
-  {
-    "id": "chunk-191",
-    "text": "adaptado para atender às suas necessidades, e devem estar disponíveis ajudas técnicas\nnecessárias em seu respectivo posto de trabalho para facilitar sua integração ao trabalho, levando\nem consideração as repercussões sobre a saúde desses trabalhadores.",
-    "heading": "Introdução",
-    "char_offset": 56334
-  },
-  {
-    "id": "chunk-192",
-    "text": "10.2 As condições de trabalho, incluindo o acesso às instalações, mobiliário, equipamentos,\ncondições ambientais, organização do trabalho, capacitação, condições sanitárias, programas de\nprevenção e cuidados para segurança pessoal devem levar em conta as necessidades dos",
-    "heading": "Introdução",
-    "char_offset": 56588
-  },
-  {
-    "id": "chunk-193",
-    "text": "trabalhadores com deficiência.\n**11.** **Disposições Transitórias**\n11.1 As organizações que, na data de 02 de abril de 2007, mantinham com seus trabalhadores a\ncontratação de jornada de 6 (seis) horas diárias, nela contemplados e remunerados 15 (quinze)",
-    "heading": "Introdução",
-    "char_offset": 56863
-  },
-  {
-    "id": "chunk-194",
-    "text": "minutos de intervalo para repouso e alimentação, obrigar-se-ão somente à complementação de 5\n(cinco) minutos, igualmente remunerados, de maneira a alcançar o total de 20 (vinte) minutos de\npausas obrigatórias remuneradas, concedidos na forma dos itens 6.4.1 e 6.4.2.",
-    "heading": "Introdução",
-    "char_offset": 57118
-  },
-  {
-    "id": "chunk-195",
-    "text": "Este texto não substitui o publicado no DOU\n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n> ![Page 3](../assets/pages/page-003.png)\n> ![Page 4](../assets/pages/page-004.png)\n> ![Page 5](../assets/pages/page-005.png)",
-    "heading": "Introdução",
-    "char_offset": 57435
-  },
-  {
-    "id": "chunk-196",
-    "text": "> ![Page 6](../assets/pages/page-006.png)\n> ![Page 7](../assets/pages/page-007.png)\n> ![Page 8](../assets/pages/page-008.png)\n> ![Page 9](../assets/pages/page-009.png)\n> ![Page 10](../assets/pages/page-010.png)\n> ![Page 11](../assets/pages/page-011.png)",
-    "heading": "Introdução",
-    "char_offset": 57695
-  },
-  {
-    "id": "chunk-197",
-    "text": "> ![Page 12](../assets/pages/page-012.png)\n> ![Page 13](../assets/pages/page-013.png)\n> ![Page 14](../assets/pages/page-014.png)\n> ![Page 15](../assets/pages/page-015.png)\n> ![Page 16](../assets/pages/page-016.png)\n> ![Page 17](../assets/pages/page-017.png)",
-    "heading": "Introdução",
-    "char_offset": 57955
-  },
-  {
-    "id": "chunk-198",
     "text": "> ![Page 18](../assets/pages/page-018.png)\n> ![Page 19](../assets/pages/page-019.png)\n> ![Page 20](../assets/pages/page-020.png)\n> ![Page 21](../assets/pages/page-021.png)\n> ![Page 22](../assets/pages/page-022.png)\n-->",
-    "heading": "Introdução",
-    "char_offset": 58219
+    "heading": "**11. Disposições Transitórias**",
+    "char_offset": 55820
   }
 ]

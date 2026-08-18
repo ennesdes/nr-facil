@@ -1,0 +1,444 @@
+{
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 22 - SEGURANÇA E SAÚDE OCUPACIONAL NA MINERAÇÃO**",
+      "id": "nr-22---segurança-e-saúde-ocupacional-na-mineração"
+    },
+    {
+      "level": 1,
+      "text": "**22.1 Objetivo**",
+      "id": "221-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**22.2 Campo de aplicação**",
+      "id": "222-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**22.3 Das responsabilidades da organização**",
+      "id": "223-das-responsabilidades-da-organização"
+    },
+    {
+      "level": 1,
+      "text": "**22.4 Gerenciamento de Riscos Ocupacionais (GRO)**",
+      "id": "224-gerenciamento-de-riscos-ocupacionais-gro"
+    },
+    {
+      "level": 1,
+      "text": "**22.5 Do direito e do dever dos Trabalhadores**",
+      "id": "225-do-direito-e-do-dever-dos-trabalhadores"
+    },
+    {
+      "level": 1,
+      "text": "**22.6 Organização dos locais e das atividades de trabalho**",
+      "id": "226-organização-dos-locais-e-das-atividades-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**22.7 Circulação e transporte de pessoas e materiais**",
+      "id": "227-circulação-e-transporte-de-pessoas-e-materiais"
+    },
+    {
+      "level": 1,
+      "text": "**22.8 Transportadores Contínuos**",
+      "id": "228-transportadores-contínuos"
+    },
+    {
+      "level": 1,
+      "text": "**22.9 Plataformas de trabalho, passarelas e superfícies de trabalho**",
+      "id": "229-plataformas-de-trabalho-passarelas-e-superfícies-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**22.10 Escadas**",
+      "id": "2210-escadas"
+    },
+    {
+      "level": 1,
+      "text": "**22.12 Máquinas, equipamentos e ferramentas**",
+      "id": "2212-máquinas-equipamentos-e-ferramentas"
+    },
+    {
+      "level": 1,
+      "text": "**22.13 Estabilidade dos maciços**",
+      "id": "2213-estabilidade-dos-maciços"
+    },
+    {
+      "level": 1,
+      "text": "**22.14 Aberturas subterrâneas: desenvolvimento, tratamento e sistemas de suporte e sinalização**",
+      "id": "2214-aberturas-subterrâneas-desenvolvimento-tratamento-e-sistemas-de-suporte-e-sinalização"
+    },
+    {
+      "level": 1,
+      "text": "**22.16 Sistemas de comunicação**",
+      "id": "2216-sistemas-de-comunicação"
+    },
+    {
+      "level": 1,
+      "text": "**22.17 Sinalização**",
+      "id": "2217-sinalização"
+    },
+    {
+      "level": 1,
+      "text": "**22.18 Instalações elétricas**",
+      "id": "2218-instalações-elétricas"
+    },
+    {
+      "level": 1,
+      "text": "**22.19 Operações com explosivos e acessórios**",
+      "id": "2219-operações-com-explosivos-e-acessórios"
+    },
+    {
+      "level": 1,
+      "text": "**22.20 Atividades com dragas flutuantes**",
+      "id": "2220-atividades-com-dragas-flutuantes"
+    },
+    {
+      "level": 1,
+      "text": "**22.21 Desmonte hidráulico**",
+      "id": "2221-desmonte-hidráulico"
+    },
+    {
+      "level": 1,
+      "text": "**22.22 Ventilação em atividades de subsolo**",
+      "id": "2222-ventilação-em-atividades-de-subsolo"
+    },
+    {
+      "level": 1,
+      "text": "pressão entre as portas.",
+      "id": "pressão-entre-as-portas"
+    },
+    {
+      "level": 1,
+      "text": "**22.23 Beneficiamento**",
+      "id": "2223-beneficiamento"
+    },
+    {
+      "level": 1,
+      "text": "h) britadores; e",
+      "id": "h-britadores-e"
+    },
+    {
+      "level": 1,
+      "text": "**22.24 Deposição de estéril, rejeitos e produtos**",
+      "id": "2224-deposição-de-estéril-rejeitos-e-produtos"
+    },
+    {
+      "level": 3,
+      "text": "**_<mark>Observações sobre prazo:</mark>_**",
+      "id": "_markobservações-sobre-prazomark_"
+    },
+    {
+      "level": 1,
+      "text": "**22.25 Iluminação**",
+      "id": "2225-iluminação"
+    },
+    {
+      "level": 1,
+      "text": "**22.26 Prevenção contra incêndios e explosões acidentais**",
+      "id": "2226-prevenção-contra-incêndios-e-explosões-acidentais"
+    },
+    {
+      "level": 1,
+      "text": "**22.27 Prevenção de explosão de poeiras inflamáveis em minas subterrâneas de carvão**",
+      "id": "2227-prevenção-de-explosão-de-poeiras-inflamáveis-em-minas-subterrâneas-de-carvão"
+    },
+    {
+      "level": 1,
+      "text": "**22.28 Proteção contra inundações**",
+      "id": "2228-proteção-contra-inundações"
+    },
+    {
+      "level": 1,
+      "text": "**22.29 Equipamentos radioativos**",
+      "id": "2229-equipamentos-radioativos"
+    },
+    {
+      "level": 1,
+      "text": "**22.30 Plano de atendimento a emergências (PAE)**",
+      "id": "2230-plano-de-atendimento-a-emergências-pae"
+    },
+    {
+      "level": 1,
+      "text": "**22.31 Vias e saídas de emergência em minas de Subsolo**",
+      "id": "2231-vias-e-saídas-de-emergência-em-minas-de-subsolo"
+    },
+    {
+      "level": 1,
+      "text": "**22.32 Paralisação e retomada de atividades nas minas**",
+      "id": "2232-paralisação-e-retomada-de-atividades-nas-minas"
+    },
+    {
+      "level": 1,
+      "text": "**22.33 Comissão Interna de Prevenção de Acidentes e de Assédio na Mineração (CIPAMIN)**",
+      "id": "2233-comissão-interna-de-prevenção-de-acidentes-e-de-assédio-na-mineração-cipamin"
+    },
+    {
+      "level": 1,
+      "text": "**22.34 Condições sanitárias e de conforto nos locais de trabalho**",
+      "id": "2234-condições-sanitárias-e-de-conforto-nos-locais-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**22.35 Disposições gerais**",
+      "id": "2235-disposições-gerais"
+    },
+    {
+      "level": 2,
+      "text": "**GLOSSÁRIO DA NR-22**",
+      "id": "glossário-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "policial estadual.",
+      "id": "policial-estadual"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I da NR-22**",
+      "id": "anexo-i-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "**Cabos de Aço, Correntes e Acessórios**",
+      "id": "cabos-de-aço-correntes-e-acessórios"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo**",
+      "id": "1-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**2. Campo de aplicação**",
+      "id": "2-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**3. Disposições gerais**",
+      "id": "3-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II da NR-22 Capacitação e Treinamento**",
+      "id": "anexo-ii-da-nr-22-capacitação-e-treinamento"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo e campo de aplicação**",
+      "id": "1-objetivo-e-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**2. Disposições gerais**",
+      "id": "2-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**2.2** O treinamento introdutório geral deve:",
+      "id": "22-o-treinamento-introdutório-geral-deve"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO III da NR-22**",
+      "id": "anexo-iii-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "**Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa**",
+      "id": "requisitos-mínimos-para-utilização-de-equipamentos-de-guindar-de-lança-fixa"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo**",
+      "id": "1-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**2. Campo de aplicação**",
+      "id": "2-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**3. Projeto**",
+      "id": "3-projeto"
+    },
+    {
+      "level": 1,
+      "text": "**4. Material da lança**",
+      "id": "4-material-da-lança"
+    },
+    {
+      "level": 1,
+      "text": "**5. Bases da Lança e dos Estaios**",
+      "id": "5-bases-da-lança-e-dos-estaios"
+    },
+    {
+      "level": 1,
+      "text": "**6. Fixação da lança**",
+      "id": "6-fixação-da-lança"
+    },
+    {
+      "level": 1,
+      "text": "**7. Reforço metálico**",
+      "id": "7-reforço-metálico"
+    },
+    {
+      "level": 1,
+      "text": "**8. Fixação dos estaios nas bases**",
+      "id": "8-fixação-dos-estaios-nas-bases"
+    },
+    {
+      "level": 1,
+      "text": "**9. Dimensionamento dos cabos de aço e confecção dos laços**",
+      "id": "9-dimensionamento-dos-cabos-de-aço-e-confecção-dos-laços"
+    },
+    {
+      "level": 1,
+      "text": "**10. Acesso ao topo da lança**",
+      "id": "10-acesso-ao-topo-da-lança"
+    },
+    {
+      "level": 1,
+      "text": "**11. Aquisição de cabos de aço**",
+      "id": "11-aquisição-de-cabos-de-aço"
+    },
+    {
+      "level": 1,
+      "text": "**12. Lubrificação dos cabos de aço**",
+      "id": "12-lubrificação-dos-cabos-de-aço"
+    },
+    {
+      "level": 1,
+      "text": "**13. Travamento de eixos e pinos**",
+      "id": "13-travamento-de-eixos-e-pinos"
+    },
+    {
+      "level": 1,
+      "text": "**14. Fixação da roda de manobra ao pé da lança (“catarina”)**",
+      "id": "14-fixação-da-roda-de-manobra-ao-pé-da-lança-catarina"
+    },
+    {
+      "level": 1,
+      "text": "**15. Inspeções nos cabos de aço**",
+      "id": "15-inspeções-nos-cabos-de-aço"
+    },
+    {
+      "level": 1,
+      "text": "**16. Indicação da capacidade de carga**",
+      "id": "16-indicação-da-capacidade-de-carga"
+    },
+    {
+      "level": 1,
+      "text": "**17. Registros**",
+      "id": "17-registros"
+    },
+    {
+      "level": 1,
+      "text": "**18. Operação de arraste**",
+      "id": "18-operação-de-arraste"
+    },
+    {
+      "level": 1,
+      "text": "**19. Montagem e realocação**",
+      "id": "19-montagem-e-realocação"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO IV da NR-22**",
+      "id": "anexo-iv-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "**Quadros**",
+      "id": "quadros"
+    },
+    {
+      "level": 1,
+      "text": "**<u>Quadro I - Determinação da Vazão de Ar Fresco</u>**",
+      "id": "uquadro-i---determinação-da-vazão-de-ar-frescou"
+    },
+    {
+      "level": 2,
+      "text": "**<u>Quadro II - Dimensionamento da CIPAMIN</u>**",
+      "id": "uquadro-ii---dimensionamento-da-cipaminu"
+    },
+    {
+      "level": 2,
+      "text": "**~~QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do~~**",
+      "id": "quadro-iii---número-de-trabalhadores-a-serem-amostrados-em-função-do-número-de-trabalhadores-do"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO V da NR-22**",
+      "id": "anexo-v-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "**Exposição a Poeiras Minerais**",
+      "id": "exposição-a-poeiras-minerais"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo**",
+      "id": "1-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**2. Campo de aplicação**",
+      "id": "2-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**3. Caracterização da exposição**",
+      "id": "3-caracterização-da-exposição"
+    },
+    {
+      "level": 1,
+      "text": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
+      "id": "4-avaliação-das-exposições-ocupacionais-a-poeiras-minerais"
+    },
+    {
+      "level": 1,
+      "text": "**4.4 Acompanhamento das medidas de prevenção.**",
+      "id": "44-acompanhamento-das-medidas-de-prevenção"
+    },
+    {
+      "level": 1,
+      "text": "**5. medidas de prevenção**",
+      "id": "5-medidas-de-prevenção"
+    },
+    {
+      "level": 1,
+      "text": "**6. Vigilância da saúde**",
+      "id": "6-vigilância-da-saúde"
+    },
+    {
+      "level": 1,
+      "text": "**7. Documentação**",
+      "id": "7-documentação"
+    },
+    {
+      "level": 1,
+      "text": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
+      "id": "8-avaliação-de-poeiras-de-asbesto-em-ambientes-de-extração-mineral"
+    },
+    {
+      "level": 1,
+      "text": "**Glossário**",
+      "id": "glossário"
+    },
+    {
+      "level": 2,
+      "text": "Tabelas",
+      "id": "tabelas"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 31 - SEGURANÇA E SAÚDE NO TRABALHO NA AGRICULTURA, PECUÁRIA, SILVICULTURA, EXPLORAÇÃO FLORESTAL E AQUICULTURA**",
+      "id": "nr-31---segurança-e-saúde-no-trabalho-na-agricultura-pecuária-silvicultura-exploração-florestal-e-aquicultura"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**31.1 Objetivo**",
+      "id": "311-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**31.2 Campo de Aplicação - Obrigações e Competências - Das Responsabilidades**",
+      "id": "312-campo-de-aplicação---obrigações-e-competências---das-responsabilidades"
+    },
+    {
+      "level": 1,
+      "text": "**31.3 Programa de Gerenciamento de Riscos no Trabalho Rural - PGRTR**",
+      "id": "313-programa-de-gerenciamento-de-riscos-no-trabalho-rural---pgrtr"
+    },
+    {
+      "level": 1,
+      "text": "**31.4 Serviço Especializado em Segurança e Saúde no Trabalho Rural - SESTR**",
+      "id": "314-serviço-especializado-em-segurança-e-saúde-no-trabalho-rural---sestr"
+    },
+    {
+      "level": 1,
+      "text": "**Competências**",
+      "id": "competências"
+    },
+    {
+      "level": 1,
+      "text": "**Modalidades**",
+      "id": "modalidades"
+    },
+    {
+      "level": 1,
+      "text": "**Dimensionamento**",
+      "id": "dimensionamento"
+    },
+    {
+      "level": 1,
+      "text": "**Composição, Competência e Funcionamento**",
+      "id": "composição-competência-e-funcionamento"
+    },
+    {
+      "level": 1,
+      "text": "**Registro**",
+      "id": "registro"
+    },
+    {
+      "level": 1,
+      "text": "**Prestação de Serviço por Empresa Especializada**",
+      "id": "prestação-de-serviço-por-empresa-especializada"
+    },
+    {
+      "level": 2,
+      "text": "**OBSERVAÇÕES:**",
+      "id": "observações"
+    },
+    {
+      "level": 1,
+      "text": "**31.5 Comissão Interna de Prevenção de Acidentes e de Assédio do Trabalho Rural - CIPATR**",
+      "id": "315-comissão-interna-de-prevenção-de-acidentes-e-de-assédio-do-trabalho-rural---cipatr"
+    },
+    {
+      "level": 1,
+      "text": "**Constituição e Organização**",
+      "id": "constituição-e-organização"
+    },
+    {
+      "level": 1,
+      "text": "**Atribuições**",
+      "id": "atribuições"
+    },
+    {
+      "level": 1,
+      "text": "**Processo eleitoral**",
+      "id": "processo-eleitoral"
+    },
+    {
+      "level": 1,
+      "text": "**Funcionamento**",
+      "id": "funcionamento"
+    },
+    {
+      "level": 1,
+      "text": "**Treinamento**",
+      "id": "treinamento"
+    },
+    {
+      "level": 1,
+      "text": "**31.6 Medidas de Proteção Pessoal**",
+      "id": "316-medidas-de-proteção-pessoal"
+    },
+    {
+      "level": 1,
+      "text": "**31.7 Agrotóxicos, Aditivos, Adjuvantes e Produtos Afins**",
+      "id": "317-agrotóxicos-aditivos-adjuvantes-e-produtos-afins"
+    },
+    {
+      "level": 1,
+      "text": "**31.8 Ergonomia**",
+      "id": "318-ergonomia"
+    },
+    {
+      "level": 1,
+      "text": "**31.9 Transporte de Trabalhadores**",
+      "id": "319-transporte-de-trabalhadores"
+    },
+    {
+      "level": 1,
+      "text": "**31.10 Instalações Elétricas**",
+      "id": "3110-instalações-elétricas"
+    },
+    {
+      "level": 1,
+      "text": "**31.11 Ferramentas Manuais**",
+      "id": "3111-ferramentas-manuais"
+    },
+    {
+      "level": 1,
+      "text": "**31.12 Segurança no Trabalho em Máquinas, Equipamentos e Implementos**",
+      "id": "3112-segurança-no-trabalho-em-máquinas-equipamentos-e-implementos"
+    },
+    {
+      "level": 1,
+      "text": "**Princípios Gerais**",
+      "id": "princípios-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**Dispositivos de Partida, Acionamento e Parada**",
+      "id": "dispositivos-de-partida-acionamento-e-parada"
+    },
+    {
+      "level": 1,
+      "text": "**Sistemas de Segurança**",
+      "id": "sistemas-de-segurança"
+    },
+    {
+      "level": 1,
+      "text": "**Manutenção**",
+      "id": "manutenção"
+    },
+    {
+      "level": 1,
+      "text": "**Transportadores de Materiais**",
+      "id": "transportadores-de-materiais"
+    },
+    {
+      "level": 1,
+      "text": "**Componentes Pressurizados**",
+      "id": "componentes-pressurizados"
+    },
+    {
+      "level": 1,
+      "text": "**Capacitação de Segurança**",
+      "id": "capacitação-de-segurança"
+    },
+    {
+      "level": 1,
+      "text": "**Manuais**",
+      "id": "manuais"
+    },
+    {
+      "level": 1,
+      "text": "**31.14 Movimentação e Armazenamento de Materiais**",
+      "id": "3114-movimentação-e-armazenamento-de-materiais"
+    },
+    {
+      "level": 1,
+      "text": "**31.15 Trabalho em Altura**",
+      "id": "3115-trabalho-em-altura"
+    },
+    {
+      "level": 1,
+      "text": "**31.16 Edificações Rurais**",
+      "id": "3116-edificações-rurais"
+    },
+    {
+      "level": 1,
+      "text": "**31.17 Condições Sanitárias e de Conforto no Trabalho Rural**",
+      "id": "3117-condições-sanitárias-e-de-conforto-no-trabalho-rural"
+    },
+    {
+      "level": 1,
+      "text": "fração;",
+      "id": "fração"
+    },
+    {
+      "level": 1,
+      "text": "**31.17.4** Locais Fixos para Refeição",
+      "id": "31174-locais-fixos-para-refeição"
+    },
+    {
+      "level": 1,
+      "text": "**31.17.7** Moradias",
+      "id": "31177-moradias"
+    },
+    {
+      "level": 1,
+      "text": "utilização de copos coletivos.",
+      "id": "utilização-de-copos-coletivos"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I**",
+      "id": "anexo-i"
+    },
+    {
+      "level": 1,
+      "text": "**MEIOS DE ACESSO A MÁQUINAS, EQUIPAMENTOS E IMPLEMENTOS**",
+      "id": "meios-de-acesso-a-máquinas-equipamentos-e-implementos"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II**",
+      "id": "anexo-ii"
+    },
+    {
+      "level": 1,
+      "text": "**QUADROS E FIGURAS AUXILIARES**",
+      "id": "quadros-e-figuras-auxiliares"
+    },
+    {
+      "level": 1,
+      "text": "**Quadro 2 - Exclusões à proteção em partes móveis (subitens 31.12.16 e 31.12.24)**",
+      "id": "quadro-2---exclusões-à-proteção-em-partes-móveis-subitens-311216-e-311224"
+    },
+    {
+      "level": 1,
+      "text": "**GLOSSÁRIO**",
+      "id": "glossário"
+    },
+    {
+      "level": 2,
+      "text": "Tabelas",
+      "id": "tabelas"
+    }
+  ]
+}

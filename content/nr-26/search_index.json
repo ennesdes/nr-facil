@@ -1,0 +1,116 @@
+[
+  {
+    "id": "chunk-0",
+    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SIT nº229, de 24 de maio de 2011|27/05/11|\n|Portaria MTE nº704, de 28 de maio de 2015|29/05/15|\n|Portaria MTP nº2.770, de 05 de setembro de 2022|06/09/22|",
+    "heading": "**NR 26 - SINALIZAÇÃO DE SEGURANÇA**",
+    "char_offset": 1
+  },
+  {
+    "id": "chunk-1",
+    "text": "_(Redação dada pela Portaria MTP nº 2.770, de 05 de setembro de 2022)_",
+    "heading": "**26.1 Objetivo**",
+    "char_offset": 375
+  },
+  {
+    "id": "chunk-2",
+    "text": "**26.1.1** Esta Norma Regulamentadora - NR estabelece medidas quanto à sinalização e identificação de segurança a serem adotadas nos locais de trabalho.",
+    "heading": "**26.2 Campo de aplicação**",
+    "char_offset": 531
+  },
+  {
+    "id": "chunk-3",
+    "text": "**26.2.1** As medidas de prevenção estabelecidas nesta NR se aplicam aos estabelecimentos ou locais de trabalho.",
+    "heading": "**26.3 Sinalização por cor**",
+    "char_offset": 647
+  },
+  {
+    "id": "chunk-4",
+    "text": "**26.3.1** Devem ser adotadas cores para comunicação de segurança em estabelecimentos ou locais de trabalho, a fim de indicar e advertir acerca dos perigos e riscos existentes. \n**26.3.2** As cores utilizadas para identificar os equipamentos de segurança, delimitar áreas, identificar tubulações empregadas para a condução de líquidos e gases e advertir contra riscos devem atender ao disposto nas normas técnicas oficiais.",
+    "heading": "**26.3 Sinalização por cor**",
+    "char_offset": 649
+  },
+  {
+    "id": "chunk-5",
+    "text": "**26.3.3** A utilização de cores não dispensa o emprego de outras formas de prevenção de acidentes. \n**26.3.4** O uso de cores deve ser o mais reduzido possível a fim de não ocasionar distração, confusão e fadiga ao trabalhador.",
+    "heading": "**26.4 Identificação de produto químico**",
+    "char_offset": 1307
+  },
+  {
+    "id": "chunk-6",
+    "text": "**26.4.1.1** O produto químico utilizado no local de trabalho deve ser classificado quanto aos perigos para a segurança e a saúde dos trabalhadores, de acordo com os critérios estabelecidos pelo Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS, da Organização das Nações Unidas.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 1309
+  },
+  {
+    "id": "chunk-7",
+    "text": "Este texto não substitui o publicado no DOU \n**26.4.1.1.1** A classificação de substâncias perigosas deve ser baseada em lista de classificação harmonizada ou com a realização de ensaios exigidos pelo processo de classificação. \n**26.4.1.1.1.1** Na ausência de lista nacional de classificação harmonizada de substâncias perigosas, pode ser utilizada lista internacional.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 1631
+  },
+  {
+    "id": "chunk-8",
+    "text": "**26.4.1.1.2** Os aspectos relativos à classificação devem atender ao disposto em norma técnica oficial. \n**26.4.2** Rotulagem Preventiva \n**26.4.2.1** A rotulagem preventiva é um conjunto de elementos com informações escritas, impressas ou gráficas, relativas a um produto químico, que deve ser afixada, impressa ou anexada à embalagem que contém o produto.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 2006
+  },
+  {
+    "id": "chunk-9",
+    "text": "**26.4.2.1.1** Os aspectos relativos à rotulagem preventiva devem atender ao disposto em norma técnica oficial. \n**26.4.2.2** A rotulagem preventiva do produto químico classificado como perigoso à segurança e à saúde dos trabalhadores deve utilizar procedimentos definidos pelo GHS, contendo os seguintes elementos:",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 2368
+  },
+  {
+    "id": "chunk-10",
+    "text": "a) identificação e composição do produto químico; \nb) pictograma(s) de perigo; \nc) palavra de advertência; \nd) frase(s) de perigo; \ne) frase(s) de precaução; e \nf) informações suplementares. \n**26.4.2.3** O produto químico não classificado como perigoso à segurança e saúde dos trabalhadores, conforme o GHS, deve dispor de rotulagem preventiva simplificada que contenha, no mínimo, a indicação do nome, a informação de que se trata de produto não classificado como perigoso e recomendações de precaução.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 2692
+  },
+  {
+    "id": "chunk-11",
+    "text": "**26.4.2.4** Os produtos notificados ou registrados como saneantes na Agência Nacional de Vigilância Sanitária - Anvisa estão dispensados do cumprimento das obrigações de rotulagem preventiva estabelecidas pelos subitens 26.4.2.1, 26.4.2.1.1 e 26.4.2.2.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 3199
+  },
+  {
+    "id": "chunk-12",
+    "text": "**26.4.3** Ficha com dados de segurança \n**26.4.3.1** O fabricante ou, no caso de importação, o fornecedor no mercado nacional, deve \nEste texto não substitui o publicado no DOU \nelaborar e tornar disponível ficha com dados de segurança do produto químico para todo produto químico classificado como perigoso.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 3458
+  },
+  {
+    "id": "chunk-13",
+    "text": "**26.4.3.1.1** O formato e conteúdo da ficha com dados de segurança do produto químico devem seguir o estabelecido pelo GHS. \n**26.4.3.1.1.1** No caso de mistura, deve ser explicitado na ficha com dados de segurança o nome e a concentração, ou faixa de concentração, das substâncias que:",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 3771
+  },
+  {
+    "id": "chunk-14",
+    "text": "- a) representam perigo para a saúde dos trabalhadores, se estiverem presentes em concentração igual ou superior aos valores de corte/limites de concentração estabelecidos pelo GHS para cada classe/categoria de perigo; e \n- b) possuam limite de exposição ocupacional estabelecidos.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 4062
+  },
+  {
+    "id": "chunk-15",
+    "text": "**26.4.3.2** Os aspectos relativos à ficha com dados de segurança devem atender ao disposto em norma técnica oficial. \n**26.4.3.3** O disposto no subitem 26.4.3.1 se aplica também a produto químico não classificado como perigoso, mas cujos usos previstos ou recomendados derem origem a riscos à segurança e à saúde dos trabalhadores.",
+    "heading": "**26.4.1** Classificação",
+    "char_offset": 4347
+  },
+  {
+    "id": "chunk-16",
+    "text": "**26.5.1** A organização deve assegurar o acesso dos trabalhadores às fichas com dados de segurança dos produtos químicos que utilizam no local de trabalho. \n**26.5.2** Os trabalhadores devem receber treinamento: \n- a) para compreender a rotulagem preventiva e a ficha com dados de segurança do produto químico; e",
+    "heading": "**26.5 Informações e treinamentos em segurança e saúde no trabalho**",
+    "char_offset": 4686
+  },
+  {
+    "id": "chunk-17",
+    "text": "- b) sobre os perigos, os riscos, as medidas preventivas para o uso seguro e os procedimentos para atuação em situações de emergência com o produto químico. \nEste texto não substitui o publicado no DOU \n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)",
+    "heading": "**26.5 Informações e treinamentos em segurança e saúde no trabalho**",
+    "char_offset": 5049
+  },
+  {
+    "id": "chunk-18",
+    "text": "> ![Page 3](../assets/pages/page-003.png)\n-->",
+    "heading": "**26.5 Informações e treinamentos em segurança e saúde no trabalho**",
+    "char_offset": 5338
+  }
+]

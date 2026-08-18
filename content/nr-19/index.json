@@ -1,0 +1,204 @@
+{
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 19 - EXPLOSIVOS**",
+      "id": "nr-19---explosivos"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**19.1 Objetivo**",
+      "id": "191-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**19.2 Campo de Aplicação**",
+      "id": "192-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**19.3 Disposições Gerais**",
+      "id": "193-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**19.4 Fabricação de explosivos**",
+      "id": "194-fabricação-de-explosivos"
+    },
+    {
+      "level": 1,
+      "text": "**19.5 Armazenamento de explosivos**",
+      "id": "195-armazenamento-de-explosivos"
+    },
+    {
+      "level": 1,
+      "text": "**19.6 Transporte de explosivos**",
+      "id": "196-transporte-de-explosivos"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I da NR-19 SEGURANÇA E SAÚDE NA INDÚSTRIA E COMÉRCIO DE FOGOS DE ARTIFÍCIO E OUTROS ARTEFATOS PIROTÉCNICOS**",
+      "id": "anexo-i-da-nr-19-segurança-e-saúde-na-indústria-e-comércio-de-fogos-de-artifício-e-outros-artefatos-pirotécnicos"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo**",
+      "id": "1-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**1. Objetivo**",
+      "id": "1-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**2. Campo de Aplicação**",
+      "id": "2-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**3. Disposições Gerais**",
+      "id": "3-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**4. Instalações**",
+      "id": "4-instalações"
+    },
+    {
+      "level": 1,
+      "text": "**4.7** Os pavilhões de trabalho no setor de explosivos devem ser dotados de:",
+      "id": "47-os-pavilhões-de-trabalho-no-setor-de-explosivos-devem-ser-dotados-de"
+    },
+    {
+      "level": 1,
+      "text": "**5. Programa de Gerenciamento de Riscos - PGR**",
+      "id": "5-programa-de-gerenciamento-de-riscos---pgr"
+    },
+    {
+      "level": 1,
+      "text": "**7 Responsabilidade técnica**",
+      "id": "7-responsabilidade-técnica"
+    },
+    {
+      "level": 1,
+      "text": "**8. Locais de trabalho**",
+      "id": "8-locais-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**9. Transporte interno**",
+      "id": "9-transporte-interno"
+    },
+    {
+      "level": 1,
+      "text": "**10. Proteção individual**",
+      "id": "10-proteção-individual"
+    },
+    {
+      "level": 1,
+      "text": "**11. Acesso aos estabelecimentos**",
+      "id": "11-acesso-aos-estabelecimentos"
+    },
+    {
+      "level": 1,
+      "text": "**12. Destruição de resíduos**",
+      "id": "12-destruição-de-resíduos"
+    },
+    {
+      "level": 1,
+      "text": "**13. Higiene e conforto no trabalho**",
+      "id": "13-higiene-e-conforto-no-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**14. Treinamento de trabalhadores**",
+      "id": "14-treinamento-de-trabalhadores"
+    },
+    {
+      "level": 1,
+      "text": "**15. Acidentes de trabalho**",
+      "id": "15-acidentes-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**16. Controle de qualidade**",
+      "id": "16-controle-de-qualidade"
+    },
+    {
+      "level": 1,
+      "text": "**17. Comercialização**",
+      "id": "17-comercialização"
+    },
+    {
+      "level": 1,
+      "text": "**18. Disposições Finais**",
+      "id": "18-disposições-finais"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II da NR-19 TABELAS DE QUANTIDADES-DISTÂNCIAS**",
+      "id": "anexo-ii-da-nr-19-tabelas-de-quantidades-distâncias"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**1. Considerações iniciais**",
+      "id": "1-considerações-iniciais"
+    },
+    {
+      "level": 1,
+      "text": "**2. Tabelas**",
+      "id": "2-tabelas"
+    },
+    {
+      "level": 1,
+      "text": "2.1 Explosivos de ruptura",
+      "id": "21-explosivos-de-ruptura"
+    },
+    {
+      "level": 1,
+      "text": "2.2 Baixos Explosivos",
+      "id": "22-baixos-explosivos"
+    },
+    {
+      "level": 1,
+      "text": "2.2.1. Pólvoras químicas (base simples, dupla e tripla)",
+      "id": "221-pólvoras-químicas-base-simples-dupla-e-tripla"
+    },
+    {
+      "level": 1,
+      "text": "2.3. Iniciadores Explosivos",
+      "id": "23-iniciadores-explosivos"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO III da NR-19 GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE**",
+      "id": "anexo-iii-da-nr-19-grupos-de-incompatibilidade-para-armazenamento-e-transporte"
+    },
+    {
+      "level": 1,
+      "text": "**GLOSSÁRIO**",
+      "id": "glossário"
+    },
+    {
+      "level": 2,
+      "text": "Tabelas",
+      "id": "tabelas"
+    }
+  ]
+}

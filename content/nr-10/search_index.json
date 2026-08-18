@@ -1,0 +1,1460 @@
+[
+  {
+    "id": "chunk-0",
+    "text": "_<mark>(Vigência a partir de 01 de junho de 2027 - art. 5º, da Portaria MTE nº 737, 29 de maio de 2026)</mark>_ \n|**Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|",
+    "heading": "**NR 10 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS E SERVIÇOS EM ELETRICIDADE**",
+    "char_offset": 2
+  },
+  {
+    "id": "chunk-1",
+    "text": "|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria MTE nº598, de 07 de dezembro de 2004|08/09/04|\n|Portaria MTPS nº508, de 29 de abril de 2016|02/05/16|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/07/19|\n|Portaria MTE nº737, de 29 de maiode 2026|01/06/26|",
+    "heading": "**NR 10 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS E SERVIÇOS EM ELETRICIDADE**",
+    "char_offset": 254
+  },
+  {
+    "id": "chunk-2",
+    "text": "_(Texto dado pela Portaria MTE nº 737, de 29 de maio de 2026)_",
+    "heading": "**NORMA REGULAMENTADORA nº 10 (NR-10) - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS E SERVIÇOS EM ELETRICIDADE**",
+    "char_offset": 594
+  },
+  {
+    "id": "chunk-3",
+    "text": "**10.1.1** Esta Norma estabelece os requisitos e diretrizes mínimos objetivando a implementação e o acompanhamento do controle dos riscos ocupacionais e das medidas de prevenção, de forma a assegurar a segurança e a saúde dos trabalhadores expostos aos perigos decorrentes do emprego da energia elétrica, observando o Gerenciamento de Riscos Ocupacionais (GRO), nos termos da Norma Regulamentadora nº 01 (NR-1) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais.",
+    "heading": "**10.1 OBJETIVO**",
+    "char_offset": 596
+  },
+  {
+    "id": "chunk-4",
+    "text": "**10.1.2** Para fins de observância desta NR, utilizam-se os termos e definições constantes do Anexo I - Glossário.",
+    "heading": "**10.2 CAMPO DE APLICAÇÃO**",
+    "char_offset": 1188
+  },
+  {
+    "id": "chunk-5",
+    "text": "**10.2.1** Esta NR se aplica às fases de geração, transmissão, distribuição e consumo das diversas fontes de energia elétrica, incluindo as etapas de projeto, construção, montagem, comissionamento, operação e manutenção de instalações elétricas de baixa, média e/ou alta tensão, em corrente alternada e/ou contínua, de caráter permanente ou temporário, bem como aos serviços em eletricidade, observando-se as normas técnicas oficiais estabelecidas pelos órgãos competentes e, na sua ausência ou omissão, as normas internacionais aplicáveis, desde que garantam os mesmos níveis ou superiores de segurança e saúde dos trabalhadores.",
+    "heading": "**10.2 CAMPO DE APLICAÇÃO**",
+    "char_offset": 1189
+  },
+  {
+    "id": "chunk-6",
+    "text": "**10.2.2** Aplica-se esta NR ao trabalho em instalações elétricas e suas proximidades em que há exposição aos perigos decorrentes do emprego de energia elétrica, no qual o trabalhador possa adentrar à zona controlada, conforme Anexo II desta NR, seja com parte do corpo ou por meio de extensões condutoras.",
+    "heading": "**10.2 CAMPO DE APLICAÇÃO**",
+    "char_offset": 1822
+  },
+  {
+    "id": "chunk-7",
+    "text": "**10.2.3** Esta NR aplica-se igualmente nas situações em que haja exposição ao risco de arco elétrico, ainda que não caracterizada a entrada na zona controlada, conforme Anexo II desta NR. \n**10.2.4** Esta NR não é aplicável a instalações elétricas alimentadas por extrabaixa tensão, exceto para o atendimento do item 10.6.6 e seus subitens.",
+    "heading": "**10.2 CAMPO DE APLICAÇÃO**",
+    "char_offset": 2132
+  },
+  {
+    "id": "chunk-8",
+    "text": "**10.2.4.1** A aplicação da extrabaixa tensão deve atender aos requisitos estabelecidos no memorial descritivo do projeto das instalações elétricas considerando as influências externas aplicáveis, conforme normas técnicas oficiais estabelecidas pelos órgãos competentes ou as normas internacionais aplicáveis.",
+    "heading": "**10.2 CAMPO DE APLICAÇÃO**",
+    "char_offset": 2476
+  },
+  {
+    "id": "chunk-9",
+    "text": "**10.3.1** No processo de identificação de perigos e avaliação de riscos, a organização deve levar em consideração, além do previsto na NR-1: \na) as características das exposições ocupacionais quanto ao choque elétrico e arco elétrico; \nb) os métodos e processos de trabalho;",
+    "heading": "**10.3 GERENCIAMENTO DE RISCO OCUPACIONAL**",
+    "char_offset": 2791
+  },
+  {
+    "id": "chunk-10",
+    "text": "c) a entrada em operação de novas instalações ou equipamentos elétricos; e \nd) as necessidades das medidas de prevenção e controle dos riscos decorrentes da exposição ao choque e/ou arco elétrico.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 3269
+  },
+  {
+    "id": "chunk-11",
+    "text": "**10.4.1** É obrigatório que os projetos de instalações elétricas especifiquem dispositivos de desligamento de circuitos que possuam recursos para impedimento de reenergização e sinalização de advertência, com indicação da condição operativa do circuito.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 3270
+  },
+  {
+    "id": "chunk-12",
+    "text": "**10.4.2** O projeto elétrico, na medida do possível, deve prever a instalação de dispositivo de seccionamento de ação simultânea que permita a aplicação de impedimento de reenergização do circuito. \n**10.4.3** O projeto de instalações elétricas deve considerar o espaço seguro, quanto ao dimensionamento, à localização de seus componentes e às influências externas, quando da operação e da realização de serviços de construção e manutenção.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 3528
+  },
+  {
+    "id": "chunk-13",
+    "text": "**10.4.3.1** Os circuitos elétricos com finalidades distintas como comunicação, sinalização, controle e tração elétrica devem ser identificados e instalados separadamente, salvo quando a tecnologia aplicada permitir o compartilhamento conforme definido em projeto.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 3972
+  },
+  {
+    "id": "chunk-14",
+    "text": "**10.4.4** O projeto deve definir a configuração do esquema de aterramento, a obrigatoriedade ou não da interligação entre o condutor neutro e o condutor de proteção, bem como a conexão à terra das partes condutoras não destinadas à condução da eletricidade.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 4239
+  },
+  {
+    "id": "chunk-15",
+    "text": "**10.4.5** Sempre que for tecnicamente viável e necessário, devem ser projetados dispositivos de seccionamento que incorporem recursos fixos de equipotencialização e aterramento do circuito seccionado. \n**10.4.6** Todo projeto deve prever condições para a adoção de aterramento temporário.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 4501
+  },
+  {
+    "id": "chunk-16",
+    "text": "**10.4.7** O projeto das instalações elétricas deve estar disponível aos trabalhadores autorizados, às autoridades competentes e a outras pessoas autorizadas pela organização e deve ser mantido atualizado. \n2 \n**10.4.8** O projeto elétrico deve estar em conformidade com as NR de Segurança e Saúde no Trabalho, com as regulamentações técnicas oficiais estabelecidas e sob responsabilidade de Profissional Legalmente Habilitado (PLH).",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 4795
+  },
+  {
+    "id": "chunk-17",
+    "text": "**10.4.8.1** O projeto elétrico elaborado fora do Brasil deve estar sob responsabilidade técnica de PLH, observando o item 10.2.1. \n**10.4.9** O memorial descritivo do projeto deve conter, no mínimo, os seguintes itens de segurança: a) especificação das características relativas à proteção contra choques elétricos, queimaduras e riscos adicionais;",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 5232
+  },
+  {
+    "id": "chunk-18",
+    "text": "b) descrição do sistema de identificação dos circuitos elétricos e equipamentos, incluindo dispositivos de manobra, de controle, de proteção, de intertravamento, dos condutores e os próprios equipamentos e estruturas, com definição de como tais indicações devem ser aplicadas fisicamente nos componentes das instalações;",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 5584
+  },
+  {
+    "id": "chunk-19",
+    "text": "c) recomendações de restrições e advertências quanto ao acesso de pessoas aos componentes das instalações; \nd) precauções aplicáveis em face das influências externas; \ne) princípio funcional dos dispositivos de proteção, constantes do projeto, destinados à segurança das pessoas; e",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 5909
+  },
+  {
+    "id": "chunk-20",
+    "text": "f) descrição da compatibilidade dos dispositivos de proteção com a instalação elétrica. \n**10.4.10** Os projetos devem assegurar que as instalações elétricas proporcionem aos trabalhadores iluminação adequada e posição de trabalho segura, de acordo com a Norma Regulamentadora nº 17 (NR-17) - Ergonomia.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 6194
+  },
+  {
+    "id": "chunk-21",
+    "text": "**10.4.11** O projeto deve contemplar, quando aplicável, os requisitos de segurança para áreas classificadas, em conformidade com as normas técnicas oficiais, considerando o risco de atmosfera explosiva. \n**10.4.12** O projeto deve considerar, quando aplicável, o estudo de energia incidente, com vistas à definição das medidas de proteção contra os efeitos térmicos do arco elétrico.",
+    "heading": "**10.4 SEGURANÇA EM PROJETOS**",
+    "char_offset": 6501
+  },
+  {
+    "id": "chunk-22",
+    "text": "**10.4.13** O projeto elétrico deve ser mantido atualizado de forma a corresponder ao executado.",
+    "heading": "**10.5 ELIMINAÇÃO DO PERIGO**",
+    "char_offset": 6987
+  },
+  {
+    "id": "chunk-23",
+    "text": "**10.5.1** Prioritariamente deve ser adotada a eliminação do perigo decorrente do emprego da energia elétrica por meio da desenergização das instalações elétricas, conforme estabelece o capítulo 10.13 desta NR. \n**10.5.2** Quando os serviços forem realizados em instalações elétricas desligadas, mas com possibilidade de energização, por qualquer meio ou razão, a organização deve atender ao que estabelece o disposto no capítulo 10.14 desta NR.",
+    "heading": "**10.5 ELIMINAÇÃO DO PERIGO**",
+    "char_offset": 6989
+  },
+  {
+    "id": "chunk-24",
+    "text": "**10.5.3** As medidas de prevenção devem obedecer à ordem de prioridade prevista na NR-1. \n**10.5.4** Na impossibilidade de implementação do item 10.5.1 devem ser adotadas medidas de \n3 \nproteção coletiva, conforme capítulo 10.6, ou quando estas não forem suficientes ou encontrarem-se em fase de estudo, planejamento ou implantação, ou ainda em carácter complementar ou emergencial, deverão ser adotadas outras medidas, obedecendo-se à seguinte hierarquia:",
+    "heading": "**10.5 ELIMINAÇÃO DO PERIGO**",
+    "char_offset": 7440
+  },
+  {
+    "id": "chunk-25",
+    "text": "a) medidas administrativas e de organização do trabalho, conforme capítulo 10.7; e \nb) medidas de proteção individual, conforme capítulo 10.11.",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 8047
+  },
+  {
+    "id": "chunk-26",
+    "text": "**10.6.1** A organização deve adotar medidas de proteção coletiva contra choques elétricos atendendo às seguintes condições: \na) partes vivas perigosas não devem ser acessíveis; e \nb) massas ou partes condutivas acessíveis não devem oferecer perigo elétrico, seja em condições normais, seja, em particular, em caso de alguma falha que as tornem acidentalmente vivas.",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 8050
+  },
+  {
+    "id": "chunk-27",
+    "text": "**10.6.1.1** As medidas de proteção coletiva contra choques elétricos devem ser asseguradas pela aplicação conjunta de proteção básica e de proteção supletiva, mediante combinação de meios independentes ou mediante aplicação de medida capaz de prover ambas as proteções, simultaneamente.",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 8419
+  },
+  {
+    "id": "chunk-28",
+    "text": "**10.6.1.2** Nas condições estabelecidas em normas técnicas aplicáveis e descritas no memorial descritivo do projeto, a adoção de apenas uma das proteções pode ser admitida. \n**10.6.2** As medidas de proteção básica ou contra contato direto das partes vivas perigosas em condições normais devem ser aplicadas por meio de:",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 8710
+  },
+  {
+    "id": "chunk-29",
+    "text": "a) isolação das partes vivas; \nb) barreiras ou invólucros; e \nc) limitação da tensão. \n**10.6.2.1** A adoção de obstáculos e colocação fora do alcance são caracterizadas como medidas de proteção parcial podendo ser aplicadas conforme requisitos de normas técnicas.",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 9037
+  },
+  {
+    "id": "chunk-30",
+    "text": "**10.6.3** As medidas de proteção supletiva ou contra contato indireto de massas ou partes condutivas acessíveis, acidentalmente vivas, devem ser aplicadas por meio de: \na) seccionamento automático da alimentação; \nb) infraestrutura de aterramento;",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 9306
+  },
+  {
+    "id": "chunk-31",
+    "text": "c) equipotencialização; \nd) isolação suplementar; e \ne) separação elétrica. \n**10.6.4** A organização, conforme definido em projeto, deve utilizar como proteção coletiva adicional obrigatória contra choque elétrico o dispositivo diferencial-residual (DDR) de alta sensibilidade ou outra tecnologia, e nas seguintes situações previstas em normas técnicas oficiais:",
+    "heading": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+    "char_offset": 9560
+  },
+  {
+    "id": "chunk-32",
+    "text": "a) os circuitos que sirvam a pontos de utilização situados em locais contendo banheira ou \n4",
+    "heading": "chuveiro;",
+    "char_offset": 10022
+  },
+  {
+    "id": "chunk-33",
+    "text": "b) os circuitos que alimentem tomadas de corrente situadas em áreas externas à edificação; \nc) os circuitos de tomadas de corrente situadas em áreas internas que possam vir a alimentar equipamentos no exterior até 32 amperes (32 A); \nd) os circuitos que, em locais de habitação, sirvam a pontos de utilização situados em cozinhas, copas-cozinhas, lavanderias, áreas de serviço, garagens e demais dependências internas molhadas em uso normal ou sujeitas a lavagens; e",
+    "heading": "chuveiro;",
+    "char_offset": 10025
+  },
+  {
+    "id": "chunk-34",
+    "text": "e) os circuitos que, em edificações não-residenciais, sirvam a pontos de tomada situados em cozinhas, copas-cozinhas, lavanderias, áreas de serviço, garagens e, no geral, em áreas internas molhadas em uso normal ou sujeitas a lavagens. \n**10.6.4.1** A exigência do DDR não se aplica a circuitos ou setores quando a continuidade for indispensável à segurança das pessoas, à preservação de vidas e em caso de segurança sanitária ou na inviabilidade técnica registrada em projeto nos termos da alínea “f” do item 10.4.9 desta NR.",
+    "heading": "chuveiro;",
+    "char_offset": 10495
+  },
+  {
+    "id": "chunk-35",
+    "text": "**10.6.5** A organização deve adotar medidas de proteção coletiva contra arcos elétricos, conforme definido em projeto, com a implantação de uma ou mais proteções a seguir: \na) operação da instalação a uma distância segura definida de acordo com o estudo do nível de energia incidente, conforme método estabelecido em norma técnica nacional e, na sua ausência ou omissão, norma técnica internacional vigente;",
+    "heading": "chuveiro;",
+    "char_offset": 11025
+  },
+  {
+    "id": "chunk-36",
+    "text": "b) utilização de painéis elétricos resistentes a arco elétrico; \nc) dispositivos de abertura sob carga; \nd) chave de aterramento resistente ao curto-circuito presumido; \ne) sistemas de intertravamento; \nf) fechaduras com chave não intercambiáveis; \ng) emprego de dispositivos limitadores de corrente;",
+    "heading": "chuveiro;",
+    "char_offset": 11441
+  },
+  {
+    "id": "chunk-37",
+    "text": "h) seleção de tempos de interrupção muito curtos; ou \ni) adoção de outros meios e/ou tecnologias, conforme projeto, que propiciem a minimização e/ou eliminação da exposição ao arco elétrico. \n**10.6.6** A organização deve adotar medidas de proteção coletiva contra explosão e incêndio, em obediência ao item 10.2.1 desta NR e à Norma Regulamentadora nº 23 (NR-23) - Proteção Contra Incêndios.",
+    "heading": "chuveiro;",
+    "char_offset": 11746
+  },
+  {
+    "id": "chunk-38",
+    "text": "**10.6.6.1** As instalações elétricas de áreas classificadas devem ser dotadas de medidas de proteção coletiva de forma a prevenir as possíveis fontes de ignição e devem ser submetidas às inspeções atendendo ao item 10.2.1 desta NR. \n**10.6.6.1.1** Os equipamentos, componentes, acessórios, dispositivos e sistemas, fabricados ou importados, e os reparados, destinados para aplicação em instalações elétricas de áreas classificadas devem ser selecionados e mantidos conforme o estudo de classificação de áreas e possuir certificado de acordo com as normas técnicas oficiais estabelecidas pelos órgãos competentes ou as normas técnicas internacionais vigentes.",
+    "heading": "chuveiro;",
+    "char_offset": 12142
+  },
+  {
+    "id": "chunk-39",
+    "text": "5 \n**10.6.6.1.2** Os serviços em eletricidade nas áreas classificadas somente poderão ser realizados mediante permissão de trabalho, precedida de análise de risco, e procedimento de trabalho a serem realizados por trabalhador autorizado conforme capítulo 10.10 desta NR.",
+    "heading": "chuveiro;",
+    "char_offset": 12805
+  },
+  {
+    "id": "chunk-40",
+    "text": "**10.6.6.2** Os processos ou equipamentos susceptíveis de gerar ou acumular eletricidade estática que possam provocar a ignição para incêndio ou explosões devem dispor de proteção específica e dispositivos de descarga elétrica, conforme projeto. \n**10.6.7** A organização deve adotar medidas de proteção coletiva contra sobretensões conforme definido em projeto, observando o item 10.2.1 desta NR.",
+    "heading": "chuveiro;",
+    "char_offset": 13079
+  },
+  {
+    "id": "chunk-41",
+    "text": "**10.6.8** A organização deve adotar medidas de proteção coletiva por meio de proteção contra descargas atmosféricas conforme definido em projeto, observando o item 10.2.1 desta NR.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 13663
+  },
+  {
+    "id": "chunk-42",
+    "text": "**10.7.1** Os serviços em eletricidade e os trabalhos em proximidade de instalações elétricas rotineiros devem ser executados mediante procedimentos de trabalho, elaborados a partir de análise de risco. \n**10.7.1.1** O procedimento de trabalho deve ser aprovado por PLH, contendo no mínimo:",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 13665
+  },
+  {
+    "id": "chunk-43",
+    "text": "a) objetivo; \nb) campo de aplicação; \nc) referência técnica; \nd) as orientações administrativas; \ne) o detalhamento da tarefa; \nf) as medidas de prevenção e controle dos riscos característicos à rotina; \ng) competências e responsabilidades; \nh) condições impeditivas; e",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 13965
+  },
+  {
+    "id": "chunk-44",
+    "text": "i) orientações finais. \n**10.7.2** Para os serviços em eletricidade e os trabalhos em proximidade de instalações elétricas não rotineiros deve ser emitida permissão de trabalho, precedida de análise de riscos, aprovada por trabalhador autorizado. \n**10.7.2.1** A permissão de trabalho deve conter no mínimo:",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 14239
+  },
+  {
+    "id": "chunk-45",
+    "text": "a) os requisitos a serem atendidos para a execução dos trabalhadores; \nb) as disposições e medidas estabelecidas na análise de risco; \nc) a relação de todos os envolvidos e suas autorizações; \nd) data do serviço; e \ne) condições impeditivas. \n6 \n**10.7.2.2** A permissão de trabalho deve ter validade limitada à duração da atividade, restrita ao turno de trabalho, podendo ser revalidada pelo responsável pela autorização da permissão, nas situações em que não ocorram mudanças nas condições estabelecidas ou em toda equipe de trabalho.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 14555
+  },
+  {
+    "id": "chunk-46",
+    "text": "**10.7.2.3** A permissão de trabalho deve estar disponível no local de execução do serviço, em meio físico ou digital e, ao final, encerrada e arquivada de forma a permitir sua rastreabilidade. \n**10.7.3** A análise de risco deve considerar no mínimo:",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 15095
+  },
+  {
+    "id": "chunk-47",
+    "text": "a) o local em que os serviços serão executados e seu entorno; \nb) o isolamento e a sinalização no entorno da área de trabalho; \nc) as condições meteorológicas adversas; \nd) a seleção, inspeção, forma de utilização e limitação de uso dos sistemas de proteção coletiva e individual;",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 15352
+  },
+  {
+    "id": "chunk-48",
+    "text": "e) os fatores de riscos adicionais e externos; \nf) os trabalhos simultâneos, que apresentam especificidades de trabalho e de riscos; \ng) as condições impeditivas; \nh) as emergências e o planejamento de resgate e primeiros socorros; \ni) a necessidade de sistema de comunicação; e",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 15639
+  },
+  {
+    "id": "chunk-49",
+    "text": "j) a forma de supervisão. \n**10.7.4** A execução de serviço em eletricidade e trabalho em proximidade de instalações elétricas deve ser precedida de avaliação prévia no local de trabalho. \n**10.7.4.1** Avaliação prévia deve verificar: \na) situações não previstas no procedimento ou na permissão de trabalho;",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 15923
+  },
+  {
+    "id": "chunk-50",
+    "text": "b) a adequação das medidas de prevenção; e \nc) as condições impeditivas. \n**10.7.4.2** No caso de constatação de anormalidade que afete a segurança dos trabalhadores: \na) a operação não deve ser iniciada; e \nb) o superior hierárquico deve ser comunicado.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 16237
+  },
+  {
+    "id": "chunk-51",
+    "text": "**10.7.5** Os trabalhadores autorizados a intervir em instalações elétricas devem ser submetidos a exame de saúde compatível com as atividades a serem desenvolvidas, realizado em conformidade com a Norma Regulamentadora nº 07 (NR-7) - Programa de Controle Médico de Saúde Ocupacional e registrado em seu prontuário médico.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 16494
+  },
+  {
+    "id": "chunk-52",
+    "text": "**10.7.6** A organização deve indicar um trabalhador entre os membros da equipe para exercer a supervisão e a condução dos trabalhos nos serviços em eletricidade e nos trabalhos em proximidade de instalações elétricas realizados em equipe. \n**10.7.7** Nas instalações e serviços em eletricidade deve ser adotada sinalização adequada de",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 16820
+  },
+  {
+    "id": "chunk-53",
+    "text": "7 \nsegurança, destinada à advertência e à identificação, obedecendo ao disposto na NR-26 - Sinalização de Segurança, de forma a atender, dentre outras, as situações a seguir: \na) identificação de circuitos elétricos; \nb) travamentos e bloqueios de dispositivos e sistemas de manobra e comandos;",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 17161
+  },
+  {
+    "id": "chunk-54",
+    "text": "c) restrições e impedimentos de acesso; \nd) delimitações de áreas; \na) sinalização de áreas de circulação, de vias públicas, de veículos e de movimentação de cargas; \ne) sinalização de impedimento de energização; e \nf) identificação de equipamento ou circuito impedido.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 17462
+  },
+  {
+    "id": "chunk-55",
+    "text": "**10.7.7.1** Os painéis e quadros elétricos devem possuir no mínimo: \na) porta de acesso mantida permanentemente fechada, exceto nas situações de manutenção, pesquisa de defeitos e outras intervenções, devendo ser observadas as condições previstas nas normas técnicas oficiais ou nas normas internacionais aplicáveis; e",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 17735
+  },
+  {
+    "id": "chunk-56",
+    "text": "b) sinalização do nível de tensão, advertência quanto ao perigo de choque e arco elétrico e à restrição de acesso por pessoas não autorizadas. \n**10.7.8** É vedado o uso de adornos pessoais nos serviços em eletricidade e nos trabalhos em proximidade de instalações elétricas.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 18058
+  },
+  {
+    "id": "chunk-57",
+    "text": "**10.7.8.1** A indumentária do trabalhador não pode ter materiais condutíveis, salvo aquelas com requisitos de condutibilidade conforme item 10.11.3 desta NR. \n**10.7.9** As organizações envolvidas no compartilhamento de infraestrutura devem, quando tecnicamente inviável a atuação independente, executar ações integradas para implementar e acompanhar as medidas de prevenção previstas nesta NR.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 18337
+  },
+  {
+    "id": "chunk-58",
+    "text": "**10.7.10** As organizações devem promover ações de controle de riscos originados por outrem em suas instalações elétricas e oferecer, de imediato, quando cabível, denúncia aos órgãos competentes. \n**10.7.11** A organização deve inspecionar as instalações elétricas, elaborando e mantendo relatório com indicação de medidas de prevenção a serem adotadas com respectivo plano de ação e cronograma de adequação, nos termos desta NR.",
+    "heading": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+    "char_offset": 18736
+  },
+  {
+    "id": "chunk-59",
+    "text": "**10.7.12** A organização deve adotar medidas administrativas e de organização do trabalho de forma a atender aos critérios de qualificação, habilitação, capacitação, treinamento e autorização dos trabalhadores, como previstos nesta NR.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 19408
+  },
+  {
+    "id": "chunk-60",
+    "text": "**10.8.1** É considerado trabalhador qualificado aquele que comprovar conclusão de curso específico na área elétrica reconhecido pelo Sistema Oficial de Ensino. \n**10.8.2** É considerado PLH o trabalhador previamente qualificado pelo Sistema Oficial de Ensino em curso específico na área elétrica e com registro no competente conselho de classe.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 19410
+  },
+  {
+    "id": "chunk-61",
+    "text": "8 \n**10.8.3** É considerado trabalhador-capacitado aquele que atenda, simultaneamente, às seguintes condições: \na) receba capacitação sob orientação e responsabilidade de PLH autorizado, com carga horária mínima e conteúdo conforme plano de aprendizagem; e",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 19760
+  },
+  {
+    "id": "chunk-62",
+    "text": "b) trabalhe sob a responsabilidade de PLH autorizado. \n**10.8.3.1** A capacitação deve possuir plano de aprendizagem sob responsabilidade de PLH. \n**10.8.3.2** A capacitação deve incluir conteúdo teórico e respectiva prática supervisionada, considerando a realidade de trabalho da organização, em especial, as características construtivas e de operação das instalações elétricas, procedimentos de trabalho e condições impeditivas da organização.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 20021
+  },
+  {
+    "id": "chunk-63",
+    "text": "**10.8.3.3** A capacitação só terá validade para a organização que capacitou o trabalhadorcapacitado e nas condições estabelecidas pelo PLH autorizado responsável pela capacitação. \n**10.8.4** A organização deve incluir os seguintes módulos na capacitação do trabalhador-capacitado, conforme alínea “a” do item 10.8.3 desta NR:",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 20470
+  },
+  {
+    "id": "chunk-64",
+    "text": "a) módulo “Fundamentos de eletricidade básica”, com carga horária mínima de 40 horas, para todas as organizações do Sistema Elétrico de Potência (SEP) e do Sistema Elétrico de Consumo (SEC); \nb) módulo “Qualidade, saúde, meio ambiente nos serviços em eletricidade”, com carga horária mínima de 16 horas, para todas as organizações do SEP e do SEC;",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 20801
+  },
+  {
+    "id": "chunk-65",
+    "text": "c) módulo “Fundamentos de SEP - geração, transmissão e distribuição”, com carga horária mínima de 40 horas, apenas para as organizações do SEP; \nd) módulo “Sistema elétrico de consumo”, com carga horária mínima de 24 horas, apenas para as organizações do SEC; e",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 21152
+  },
+  {
+    "id": "chunk-66",
+    "text": "e) módulo “Compartilhamento de infraestruturas do sistema elétrico de potência”, com carga horário mínima de 24h, apenas para as organizações que realizam atividades e serviços em proximidade de instalações elétricas com o compartilhamento de infraestruturas do SEP.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 21416
+  },
+  {
+    "id": "chunk-67",
+    "text": "**10.8.4.1** Devem ser acrescentados à capacitação módulos para participação do trabalhadorcapacitado em tarefas específicas com carga horária e conteúdo mínimo definidos pela organização, de acordo com o subitem 10.8.3.2 desta NR. \n**10.8.4.1.1** O atendimento do subitem 10.8.4.1 é facultativo para as organizações que realizam atividades e serviços em proximidade de instalações elétricas com o compartilhamento de infraestruturas do SEP.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 21686
+  },
+  {
+    "id": "chunk-68",
+    "text": "**10.8.4.2** O aproveitamento dos conteúdos dos módulos “Fundamentos de eletricidade básica” e “Qualidade, saúde, meio ambiente nos serviços em eletricidade” entre diferentes organizações pode ser convalidado por PLH, mediante aprovação do trabalhador-capacitado em avaliação específica, no período de 2 anos da data de realização do módulo original, conforme previsto no plano de aprendizagem.",
+    "heading": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+    "char_offset": 22130
+  },
+  {
+    "id": "chunk-69",
+    "text": "9",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 22531
+  },
+  {
+    "id": "chunk-70",
+    "text": "**10.9.1** Os treinamentos de segurança e saúde no trabalho ou instrução formal previstos nesta NR devem ser realizados a cargo e custo do empregador e durante o expediente, observado o disposto na NR-1. \n**10.9.2** Os treinamentos iniciais e a carga horária mínima são os constantes do Quadro I abaixo: <u>Quadro I - Treinamentos iniciais e carga horária mínima</u>",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 22533
+  },
+  {
+    "id": "chunk-71",
+    "text": "|Treinamento inicial|Carga horária|\n|---|---|\n|1. Básico|40|\n|2. Complementar do SEP|40|\n|3. Complementar de Média e Alta Tensão - SEC|16|\n|4. Complementar de Área Classificada|16|\n|5. Específico epontual|8|\n|6. Específico de compartilhamento de infraestrutura do SEP|40|",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 22902
+  },
+  {
+    "id": "chunk-72",
+    "text": "**10.9.3** Os treinamentos iniciais devem abordar o conteúdo mínimo previsto no ANEXO III - Treinamento de Segurança e Saúde no Trabalho desta NR. \n**10.9.4** A organização deve promover o treinamento “Básico” para os trabalhadores autorizados, conforme capítulo 10.10 desta NR, exceto aos trabalhadores que realizam o treinamento “Específico de compartilhamento de infraestruturas do SEP”.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 23176
+  },
+  {
+    "id": "chunk-73",
+    "text": "**10.9.5** A organização deve promover o treinamento “Complementar do SEP” para os trabalhadores autorizados que realizam serviços no Sistema Elétrico de Potência ou trabalham em sua proximidade, exceto aos trabalhadores que realizam o treinamento “específico de compartilhamento de infraestruturas do SEP”.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 23569
+  },
+  {
+    "id": "chunk-74",
+    "text": "**10.9.6** A organização deve promover o treinamento “Complementar de Média e Alta Tensão - SEC” para os trabalhadores autorizados que realizam serviços em eletricidade em média e alta tensão ou trabalham em sua proximidade no SEC. \n**10.9.7** A organização deve promover o treinamento “Complementar de Área Classificada” para os trabalhadores que realizam serviços em eletricidade em áreas classificadas.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 23880
+  },
+  {
+    "id": "chunk-75",
+    "text": "**10.9.8** A organização deve promover o treinamento “Específico e pontual” para os profissionais estrangeiros e/ou não residentes no país que adentrem a zona controlada para realizar atividades e serviços pontuais, com permanência máxima de 30 (trinta) dias corridos, sob acompanhamento presencial e permanente de trabalhador autorizado e sob responsabilidade de PLH.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 24288
+  },
+  {
+    "id": "chunk-76",
+    "text": "**10.9.9** A organização deve promover o treinamento “Específico de compartilhamento de infraestrutura do SEP” para os trabalhadores que realizam atividades e serviços em proximidade de instalações elétricas com o compartilhamento de infraestruturas do Sistema Elétrico de Potência.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 24659
+  },
+  {
+    "id": "chunk-77",
+    "text": "**10.9.10** A organização deve realizar treinamento periódico bienal de segurança, definindo conteúdo programático adequado à realidade do trabalho, em especial às características construtivas das instalações elétricas, aos procedimentos de trabalho e às condições impeditivas",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 24944
+  },
+  {
+    "id": "chunk-78",
+    "text": "10 \nda organização, obedecendo à carga horária mínima de treinamento de 16 horas. \n**10.9.11** A organização deve realizar treinamento eventual, independentemente de já ter realizado o treinamento periódico bienal de segurança, nas seguintes situações:",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 25225
+  },
+  {
+    "id": "chunk-79",
+    "text": "a) após retorno de afastamento ao trabalho ou inatividade, por período superior a 90 (noventa) dias; \nb) quando houver modificações significativas nas instalações elétricas ou troca de métodos, processos e organização do trabalho; \nc) quando houver mudança nos procedimentos, condições ou operações de trabalho, que impliquem em alteração dos riscos ocupacionais; e",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 25482
+  },
+  {
+    "id": "chunk-80",
+    "text": "d) após ocorrência de acidente grave ou fatal, que indique a necessidade de novo treinamento. \n**10.9.11.1** A carga horaria e o conteúdo do treinamento eventual, descrito no item 10.9.11, devem atender à situação que o motivou e direcionados à realidade laboral da organização.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 25851
+  },
+  {
+    "id": "chunk-81",
+    "text": "**10.9.12** Os treinamentos de segurança e saúde previstos nesta NR deverão ser ministrados por instrutores com comprovada proficiência nas áreas e assuntos específicos, sob a responsabilidade de PLH. \n**10.9.13** O conteúdo prático dos treinamentos de segurança e saúde previstos nesta NR deve ser realizado na modalidade de ensino presencial.",
+    "heading": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+    "char_offset": 26133
+  },
+  {
+    "id": "chunk-82",
+    "text": "**10.10.1** A organização deve conceder a autorização dos trabalhadores na forma desta NR. \n**10.10.2** São considerados autorizados os seguintes trabalhadores: \na) profissionais habilitados, qualificados e Trabalhadores-capacitados que realizam serviço nas instalações elétricas;",
+    "heading": "**10.10 AUTORIZAÇÃO DOS TRABALHADORES**",
+    "char_offset": 26483
+  },
+  {
+    "id": "chunk-83",
+    "text": "b) que realizam trabalhos em proximidade nos termos desta NR; e \nc) que supervisionam o trabalho referido nas alíneas anteriores. \n**10.10.2.1** São requisitos para a concessão da autorização por meio de anuência formal da organização: \na) ser previamente apto em exame médico ocupacional, conforme item 10.7.5 desta NR; e",
+    "heading": "**10.10 AUTORIZAÇÃO DOS TRABALHADORES**",
+    "char_offset": 26769
+  },
+  {
+    "id": "chunk-84",
+    "text": "b) ser submetido a treinamento de segurança, com avaliação e aproveitamento satisfatórios, conforme capítulo 10.9 desta NR, independentemente do cargo e escolaridade. \n**10.10.3** A autorização deve ser consignada nos documentos funcionais do trabalhador.",
+    "heading": "**10.10 AUTORIZAÇÃO DOS TRABALHADORES**",
+    "char_offset": 27095
+  },
+  {
+    "id": "chunk-85",
+    "text": "**10.10.4** A organização deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador.",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 27511
+  },
+  {
+    "id": "chunk-86",
+    "text": "**10.11.1** Nos serviços em eletricidade e nos trabalhos em proximidade de instalações elétricas \n11 \ndevem ser adotados equipamentos de proteção individual específicos e adequados às atividades desenvolvidas, obedecendo ao item 10.5.4 desta NR, bem como ao disposto na Norma Regulamentadora nº 06 (NR-6) - Equipamentos de Proteção Individual (EPI).",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 27514
+  },
+  {
+    "id": "chunk-87",
+    "text": "**10.11.2** A seleção de EPI de proteção contra os efeitos do arco elétrico deve ser realizada de acordo com os Quadros do Anexo IV desta NR, observado o disposto na NR-6. \n**10.11.2.1** A especificação de EPI do Anexo IV desta NR somente é válida para as condições nele estabelecidas, consideradas de forma conjunta:",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 27867
+  },
+  {
+    "id": "chunk-88",
+    "text": "a) os equipamentos específicos; \nb) a máxima corrente de falha; \nc) o máximo tempo de eliminação de falha; e \nd) a distância mínima de trabalho. \n**10.11.2.2** Qualquer equipamento diferente, corrente de falha superior, tempo de eliminação de falha superior e distância de trabalho menor impede a aplicação do Anexo IV.",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 28191
+  },
+  {
+    "id": "chunk-89",
+    "text": "**10.11.2.3** Para as condições não previstas no Anexo IV ou para especificação de EPI de proteção contra os efeitos do arco elétrico de categoria menor do que as previstas no Anexo IV, a Organização deve realizar o estudo de energia incidente, de acordo com a alínea “a” do item 10.6.5 desta NR, observado o disposto na NR-6.",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 28513
+  },
+  {
+    "id": "chunk-90",
+    "text": "**10.11.2.4** Ficam dispensados da utilização de EPI de proteção contra os efeitos do arco elétrico os trabalhadores que realizam atividades não relacionadas à eletricidade e que, em suas tarefas, não estejam expostos a situações que possam resultar em arco elétrico, conforme indicado na análise de risco.",
+    "heading": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+    "char_offset": 28842
+  },
+  {
+    "id": "chunk-91",
+    "text": "**10.11.3** As vestimentas de trabalho devem ser adequadas às atividades devendo contemplar requisitos de inflamabilidade, condutibilidade e influências eletromagnéticas.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 29324
+  },
+  {
+    "id": "chunk-92",
+    "text": "**10.12.1** A organização deve atender às prescrições constantes deste item independentemente do estado de energização das instalações elétricas. \n**10.12.2** As instalações elétricas devem ser construídas, montadas, comissionadas, operadas, mantidas, reformadas, ampliadas, reparadas e inspecionadas de forma a garantir a segurança e a saúde dos trabalhadores, conforme dispõe esta NR.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 29326
+  },
+  {
+    "id": "chunk-93",
+    "text": "**10.12.3** As etapas de construção, montagem, comissionamento, operação e manutenção devem ser executadas e supervisionadas por trabalhador autorizado, conforme dispõe o capítulo 10.10 desta NR. \n**10.12.4** Em todo serviço deve ser garantida a efetiva comunicação direta e visual entre os trabalhadores.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 29716
+  },
+  {
+    "id": "chunk-94",
+    "text": "**10.12.4.1** Quando não for possível a comunicação direta e visual entre os trabalhadores, devem \n12 \nser fornecidos equipamentos de comunicação em perfeito estado de funcionamento que permita a comunicação permanente com os demais membros da equipe e o centro de operação ou sala de comando da organização, independentemente das condições locais e interferências ou ausência de sinais.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 30026
+  },
+  {
+    "id": "chunk-95",
+    "text": "**10.12.5** Nos locais de trabalho só podem ser utilizados equipamentos, dispositivos e ferramentas elétricas compatíveis com a instalação elétrica existente, preservando-se as características de proteção, respeitadas as recomendações do fabricante e influências externas.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 30416
+  },
+  {
+    "id": "chunk-96",
+    "text": "**10.12.6** Os equipamentos, ferramentas, dispositivos, equipamentos de proteção individual e coletiva que possuam isolação elétrica devem estar adequados às tensões envolvidas e serem inspecionados e testados de acordo com regulamentações existentes e/ou recomendações dos fabricantes, e na sua ausência, segundo os critérios a serem desenvolvidos sob responsabilidade de PLH.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 30691
+  },
+  {
+    "id": "chunk-97",
+    "text": "**10.12.6.1** Os equipamentos ou dispositivos de medição e seus acessórios devem: \na) estar adequados à tensão de trabalho e à classe de isolação; \nb) possuir categorias compatíveis com eventuais surtos de tensão de acordo com regulamentações existentes ou recomendações dos fabricantes; e",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 31073
+  },
+  {
+    "id": "chunk-98",
+    "text": "c) serem aferidos, calibrados e parametrizados, quando aplicável, de acordo com regulamentações existentes, recomendações dos fabricantes ou, na sua ausência, segundo os critérios a serem desenvolvidos por PLH. \n**10.12.7** Os sistemas de proteção das instalações elétricas devem ser mantidos em condições seguras de funcionamento, inspecionados, testados e controlados periodicamente, de acordo com as regulamentações existentes, parametrizações e suas possíveis alterações, definidas em projetos.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 31366
+  },
+  {
+    "id": "chunk-99",
+    "text": "**10.12.8** Os locais de serviços elétricos, compartimentos e invólucros de equipamentos e instalações elétricas são exclusivos para essa finalidade, sendo expressamente proibido utilizá-los para armazenamento ou guarda de quaisquer objetos. \n**10.12.9** Os ensaios, os testes elétricos laboratoriais ou de campo e o comissionamento de instalações elétricas devem atender ao capítulo 10.14 desta NR, sob responsabilidade de PLH e serem realizados por profissional autorizado.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 31868
+  },
+  {
+    "id": "chunk-100",
+    "text": "**10.12.10** Os circuitos elétricos com diferentes finalidades definidas em projeto, quer sejam em corrente alternada ou corrente contínua, devem ser identificados e instalados separadamente, salvo quando o desenvolvimento tecnológico permitir compartilhamento.",
+    "heading": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+    "char_offset": 32346
+  },
+  {
+    "id": "chunk-101",
+    "text": "**10.13.1** Somente serão consideradas desenergizadas as instalações elétricas liberadas para trabalho, mediante os procedimentos apropriados, obedecida a sequência abaixo e prevista no projeto: \na) seccionamento ou desligamento; \nb) constatação da ausência de tensão;",
+    "heading": "**10.13 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS DESENERGIZADAS**",
+    "char_offset": 32613
+  },
+  {
+    "id": "chunk-102",
+    "text": "13",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 32889
+  },
+  {
+    "id": "chunk-103",
+    "text": "d) constatação de ausência de tensão para a instalação de aterramento temporário com equipotencialização dos condutores dos circuitos; \ne) proteção dos elementos energizados existentes na zona controlada (Anexo II desta NR) e proteção dos trabalhadores para os efeitos do arco elétrico;",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 32891
+  },
+  {
+    "id": "chunk-104",
+    "text": "f) instalação da sinalização de impedimento de reenergização; e \ng) delimitação e sinalização da área de trabalho. \n**10.13.2** O estado de instalação desenergizada deve ser mantido até a autorização para reenergização, devendo ser reenergizada respeitando a sequência de procedimentos abaixo:",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 33182
+  },
+  {
+    "id": "chunk-105",
+    "text": "a) retirada dos obstáculos de delimitação e sinalização do espaço seguro de trabalho; \nb) retirada das ferramentas, utensílios e equipamentos; \nc) retirada das imediações de todos os trabalhadores não envolvidos no processo de reenergização; \nd) remoção do aterramento temporário e da equipotencialização;",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 33481
+  },
+  {
+    "id": "chunk-106",
+    "text": "e) retirada das proteções dos elementos energizados nas imediações; \nf) remoção da sinalização de impedimento de reenergização; e \ng) desbloqueio, se houver, e religamento dos dispositivos de seccionamento. \n**10.13.3** A organização deve garantir o estado de desenergização durante toda a execução do serviço por meio de medidas que impeçam outras equipes ou organizações de energizar suas instalações elétricas.",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 33792
+  },
+  {
+    "id": "chunk-107",
+    "text": "**10.13.4** As medidas constantes das alíneas apresentadas nos itens 10.13.1 e 10.13.2 podem ser alteradas, substituídas, ampliadas ou eliminadas, em função das peculiaridades de cada situação e/ou do desenvolvimento tecnológico, por PLH, autorizado e mediante justificativa técnica previamente formalizada, desde que seja mantido o mesmo nível de segurança originalmente preconizado.",
+    "heading": "c) impedimento de reenergização;",
+    "char_offset": 34208
+  },
+  {
+    "id": "chunk-108",
+    "text": "**10.14.1** Os serviços em eletricidade com exposição à baixa, média e alta tensão e os trabalhos em proximidade com o compartilhamento de infraestruturas do Sistema Elétrico de Potência - SEP somente podem ser realizados por trabalhadores autorizados em conformidade com o capítulo 10.10 desta NR.",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 34596
+  },
+  {
+    "id": "chunk-109",
+    "text": "**10.14.1.1** As operações elementares como ligar e desligar circuitos, dispositivos e equipamentos elétricos, realizadas em baixa tensão em sistemas, equipamentos e dispositivos projetados, construídos, instalados e mantidos de forma a serem utilizados com segurança e adequados para operação, conforme orientações das normas técnicas oficiais, podem ser realizadas por qualquer pessoa não advertida.",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 34897
+  },
+  {
+    "id": "chunk-110",
+    "text": "**10.14.1.2** Para os trabalhadores que realizam atividades em serviços não relacionados às instalações elétricas desenvolvidas em zona livre e na vizinhança da zona controlada, conforme \n14 \ndefinido nesta NR, a organização deve realizar a análise de risco conforme item 10.7.3 e promover a instrução formal com conhecimentos que permitam identificar e avaliar possíveis riscos e adotar as precauções cabíveis.",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 35303
+  },
+  {
+    "id": "chunk-111",
+    "text": "**10.14.2** Os serviços em instalações elétricas energizadas em média e alta tensão, bem como aqueles executados no SEP, não podem ser realizados individualmente. \n**10.14.3** A intervenção em instalações elétricas energizadas em média e alta tensão dentro dos limites estabelecidos como zona de risco, conforme Anexo II desta NR, somente pode ser realizada mediante a desativação, também conhecida como bloqueio, dos conjuntos e dispositivos de religamento automático do circuito, sistema ou equipamento.",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 35718
+  },
+  {
+    "id": "chunk-112",
+    "text": "**10.14.3.1** Os conjuntos e dispositivos de religamento automático do circuito, sistema ou equipamento desativados devem ser sinalizados com identificação da condição de desativação, conforme procedimento de trabalho específico. \n**10.14.4** A organização deve submeter a ensaios dielétricos:",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 36227
+  },
+  {
+    "id": "chunk-113",
+    "text": "a) os equipamentos, ferramentas e dispositivos que possuam isolação elétrica destinados ao trabalho com média e alta tensão; \nb) luvas e mangas isolantes e equipamentos de proteção coletiva isolantes destinados ao trabalho com baixa tensão; e \nc) outros equipamentos, conforme previsto em regulamentação ou norma técnica.",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 36525
+  },
+  {
+    "id": "chunk-114",
+    "text": "**10.14.4.1** O ensaio deve ser realizado no menor intervalo previsto dentre as regulamentações existentes, as recomendações dos fabricantes, os critérios a serem desenvolvidos pelo PLH da organização, e, na ausência de previsão, anualmente. \n**10.14.5** A organização que possuir geração própria de energia elétrica deve implementar medidas que impeçam a energização de instalações elétricas de outras organizações, salvo condições autorizadas pela Agência Nacional de Energia Elétrica (ANEEL).",
+    "heading": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+    "char_offset": 36850
+  },
+  {
+    "id": "chunk-115",
+    "text": "**10.15.1** A documentação prevista nesta NR pode ser emitida e armazenada em meio digital, conforme a NR-1, e deve estar em língua portuguesa (Brasil). \n**10.15.2** A documentação prevista nesta NR deve estar atualizada e sempre disponível aos trabalhadores interessados ou seus representantes e à Inspeção do Trabalho.",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 37350
+  },
+  {
+    "id": "chunk-116",
+    "text": "**10.15.3** Toda a organização deve dispor de projeto elétrico, em conformidade com o capítulo 10.4 desta NR, e documentação das inspeções e medições dos sistemas de aterramentos elétricos. \n**10.15.4** As organizações que possuem trabalhadores autorizados, em conformidade com o capítulo 10.10 desta NR, devem manter a seguinte documentação:",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 37674
+  },
+  {
+    "id": "chunk-117",
+    "text": "a) conjunto de procedimentos de trabalho, análise de riscos e permissões de trabalho conforme determina esta NR; \nb) especificação dos equipamentos de proteção coletiva e individual e o ferramental, aplicáveis \n15 \nconforme determina esta NR; \nc) documentação comprobatória da qualificação, habilitação, capacitação e treinamentos de segurança e saúde e autorização dos trabalhadores; e",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 38023
+  },
+  {
+    "id": "chunk-118",
+    "text": "d) relatórios dos testes de isolação elétrica realizados em equipamentos, ferramentas, dispositivos, equipamentos de proteção individual e coletivo, aplicáveis conforme determina esta NR; \n**10.15.5** As organizações que possuem áreas classificadas, conforme projeto, devem manter a seguinte documentação:",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 38413
+  },
+  {
+    "id": "chunk-119",
+    "text": "a) conjunto de procedimentos, análise de riscos e permissões de trabalho conforme determina o subitem 10.6.6.1.2 desta NR; \nb) certificação dos equipamentos e materiais elétricos em áreas classificadas conforme estudo de classificação de áreas; e \nc) inspeções de conformidade de acordo às normas técnicas nacionais e/ou internacionais.",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 38723
+  },
+  {
+    "id": "chunk-120",
+    "text": "**10.15.6** A documentação descrita nos itens 10.15.4 e 10.15.5 deve ser organizada na forma de Prontuário das Instalações Elétricas (PIE), sob responsabilidade de PLH, para as organizações que: \na) integram o SEP; ou \nb) realizem atividades em instalações elétricas com média e alta tensão.",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 39064
+  },
+  {
+    "id": "chunk-121",
+    "text": "**10.15.6.1** O PIE deve conter procedimentos de resposta a emergências, considerando, além do disposto na NR-1, as técnicas apropriadas, os equipamentos pessoais e/ou coletivos específicos e o sistema de resgate disponível. \n**10.15.7** Os documentos técnicos previstos no PIE devem ser elaborados por PLH.",
+    "heading": "**10.15 DOCUMENTAÇÃO**",
+    "char_offset": 39359
+  },
+  {
+    "id": "chunk-122",
+    "text": "**10.16.1** Fica dispensado o uso da metodologia prevista na Norma Regulamentadora nº 03 (NR-3) - Embargo e Interdição para a imposição de medida de embargo ou interdição quando constatadas as seguintes condições ou situações de Grave e Iminente Risco (GIR):",
+    "heading": "**10.16 CONDIÇÕES OU SITUAÇÕES DE GRAVE E IMINENTE RISCO (GIR)**",
+    "char_offset": 39670
+  },
+  {
+    "id": "chunk-123",
+    "text": "a) ausência de medidas de proteção coletiva em instalações elétricas de áreas classificadas como previsto nesta NR; \nb) não adoção de procedimentos apropriados para a desenergização, conforme o item 10.13.1, ou reenergização, segundo o item 10.13.2, ou das alternativas permitidas pelo item 10.13.4;",
+    "heading": "**10.16 CONDIÇÕES OU SITUAÇÕES DE GRAVE E IMINENTE RISCO (GIR)**",
+    "char_offset": 39932
+  },
+  {
+    "id": "chunk-124",
+    "text": "c) realização de serviço em eletricidade e trabalho em proximidade de instalações elétricas por trabalhador que não atenda aos requisitos estabelecidos no capítulo 10.10 desta NR; e \nd) não realização de ensaios e testes de isolação elétrica em equipamentos, ferramentas, dispositivos isolantes, equipamentos de proteção individual e coletivo, conforme determina esta NR.",
+    "heading": "**10.16 CONDIÇÕES OU SITUAÇÕES DE GRAVE E IMINENTE RISCO (GIR)**",
+    "char_offset": 40235
+  },
+  {
+    "id": "chunk-125",
+    "text": "Alta Tensão (AT): tensão superior a 36.200 volts em corrente alternada ou 3000 volts em corrente \n16 \ncontínua, entre fases ou fase e terra. \nAnálise de risco: avaliação dos riscos potenciais da tarefa, suas causas, consequências e medidas de controle necessárias à execução da tarefa.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 40613
+  },
+  {
+    "id": "chunk-126",
+    "text": "Anuência formal: autorização emitida pela organização, com prazo determinado, por pessoa designada pela organização. \nArco elétrico: fenômeno gerado pela ionização de gás originado de uma conexão de condução elétrica ou decomposição entre partes energizadas ou uma parte energizada e o percurso aterrado de uma instalação elétrica ou um dispositivo elétrico.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 40902
+  },
+  {
+    "id": "chunk-127",
+    "text": "Área classificada: área na qual uma atmosfera explosiva está presente, ou é prevista que esteja presente, em quantidade que requeira precauções especiais para construção, instalação e utilização de equipamentos. \nAterramento elétrico temporário: ligação elétrica efetiva confiável e adequada intencional à terra, destinada a garantir a equipotencialidade e mantida continuamente durante a intervenção na instalação elétrica.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 41264
+  },
+  {
+    "id": "chunk-128",
+    "text": "Atividades rotineiras: atividades habituais, independente da frequência, que fazem parte do processo contínuo de trabalho da organização. \nAtmosfera explosiva: mistura com o ar, sob determinadas condições atmosféricas, de substâncias inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, na qual após a ignição a combustão se propaga.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 41692
+  },
+  {
+    "id": "chunk-129",
+    "text": "Baixa Tensão (BT): tensão superior a 50 Volts em corrente alternada ou 120 Volts em corrente contínua e igual ou inferior a 1000 Volts em corrente alternada ou 1500 Volts em corrente contínua, entre fases ou entre fase e terra. \nBarreira: dispositivo que impede qualquer contato com partes energizadas das instalações elétricas.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 42037
+  },
+  {
+    "id": "chunk-130",
+    "text": "Choque elétrico: efeito patofisiológico que resulta da passagem de uma corrente elétrica, através de um corpo humano ou de um animal. \nColocação fora do alcance: ação destinada a impedir contatos acidentais, consistindo em instalar os condutores energizados a uma altura/distância que fique fora do alcance do trabalhador.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 42369
+  },
+  {
+    "id": "chunk-131",
+    "text": "Comissionamento: conjunto de técnicas e procedimentos de engenharia aplicados de forma integrada à instalação ou parte dela, visando torná-la operacional de acordo com os requisitos especificados em projeto. \nCompartilhamento de infraestrutura: cessão, a título oneroso, de capacidade excedente da infraestrutura de suporte, para a prestação de serviços de telecomunicações por prestadoras de outros grupos econômicos.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 42695
+  },
+  {
+    "id": "chunk-132",
+    "text": "Condições impeditivas: condições ou situações que impedem a realização ou continuidade do serviço que possam colocar em risco a saúde ou a integridade física do trabalhador. \nContato direto: contato elétrico de pessoas ou animais com partes vivas da instalação.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 43117
+  },
+  {
+    "id": "chunk-133",
+    "text": "Contato indireto: contato elétrico de pessoas ou animais com partes condutoras expostas que se tornaram vivas em condições de falha. \nDistância segura contra os efeitos do arco elétrico: é a distância na qual existe a chance de ocorrência de energia incidente de 5 J\\cm2 (1,2 cal\\cm2) que pode ocasionar queimadura de segundo grau no trabalhador. Deve ser definida por meio de estudo de energia incidente",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 43382
+  },
+  {
+    "id": "chunk-134",
+    "text": "17 \nconforme metodologias de cálculo adequadas aos cenários elétricos avaliados. É sinônimo de distância limite de aproximação ao arco elétrico. \nDistribuição de energia elétrica: conjunto de subestações e linhas de distribuição (instalações e equipamentos elétricos existentes na área de atuação), em tensão inferior a 230 kV, pertencente à concessionária ou permissionária de distribuição de energia elétrica, permitindo o fornecimento de energia a consumidores.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 43791
+  },
+  {
+    "id": "chunk-135",
+    "text": "Documentos técnicos do PIE: são os documentos relacionados nos itens 10.15.4, 10.15.5 e 10.15.6.1 desta NR, que devem ser organizados na forma de Prontuário das Instalações elétricas (PIE), sob responsabilidade de PLH. \nEnergia incidente: parte da energia liberada como resultado do arco elétrico que incide sobre determinado ponto de interesse, geralmente o trabalhador. Pode-se estimar a energia incidente devido ao arco elétrico por meio de cálculos específicos aplicando metodologias adequadas conforme cenários elétricos.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 44259
+  },
+  {
+    "id": "chunk-136",
+    "text": "Equipotencialização: procedimento que consiste na interligação de elementos especificados, visando obter a equipotencialidade necessária para os fins desejados de uma instalação elétrica. \nEstudo de classificação de áreas: documento consolidado que registra os passos que conduziram à definição de determinada área como classificada, conforme as normas técnicas oficiais vigentes e, no caso de ausência ou omissão destas, as normas internacionais aplicáveis.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 44789
+  },
+  {
+    "id": "chunk-137",
+    "text": "Extrabaixa Tensão (EBT): tensão não superior a 50 Volts em corrente alternada ou 120 Volts em corrente contínua, entre fases ou entre fase e terra. Em situações específicas é considerada como “tensão de segurança”. \nFontes de energia elétrica: recurso energético utilizado para fins de conversão em energia elétrica pelo sistema de geração.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 45251
+  },
+  {
+    "id": "chunk-138",
+    "text": "Impedimento de reenergização: condição que garante a não energização do circuito através de recursos e procedimentos apropriados, sob controle dos trabalhadores envolvidos nos serviços. Indumentária: vestuário ou traje de determinada cultura ou local.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 45594
+  },
+  {
+    "id": "chunk-139",
+    "text": "Influências externas: variáveis que devem ser consideradas na definição e seleção de medidas de proteção para segurança das pessoas e desempenho dos componentes da instalação, tais como presença de água, poeiras, temperaturas elevadas e vibrações. \nInfraestrutura de aterramento: conjunto de todos os condutores, conexões e peças ou dispositivos com o qual é constituído um aterramento num dado local, por meio de uma ligação elétrica intencional e de baixa impedância com a massa condutora da terra.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 45849
+  },
+  {
+    "id": "chunk-140",
+    "text": "Infraestrutura de suporte: meios físicos fixos utilizados para dar suporte a redes de telecomunicações, entre os quais postes, torres, mastros, armários, dutos, condutos, estruturas de superfície e/ou subterrâneas e estruturas suspensas. \nInstalação elétrica: conjunto dos componentes elétricos e não elétricos associados e com características coordenadas entre si, que são necessárias ao funcionamento de uma parte determinada de um sistema elétrico.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 46353
+  },
+  {
+    "id": "chunk-141",
+    "text": "Invólucro: envoltório de elementos condutivos destinado a impedir qualquer contato com partes energizadas. \nIsolação das partes vivas: destinada a impedir todo contato com as partes vivas da instalação elétrica por um conjunto de suas isolações básica, suplementar, dupla ou reforçada.",
+    "heading": "**ANEXO I GLOSSÁRIO**",
+    "char_offset": 46808
+  },
+  {
+    "id": "chunk-142",
+    "text": "Limitação da tensão: ação de definição de tensão máxima destinada à proteção do trabalhador \n18",
+    "heading": "contra choque elétrico.",
+    "char_offset": 47195
+  },
+  {
+    "id": "chunk-143",
+    "text": "Média Tensão (MT): tensão superior a 1000 Volts em corrente alternada ou 1500 Volts em corrente contínua e igual ou inferior a 36.200 Volts em corrente alternada ou 3000 Volts em corrente contínua. Observação: A atribuição do valor de 3000 Volts em corrente contínua foi definida em razão do limite de tensão utilizado na alimentação do transporte sobre trilhos.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 47196
+  },
+  {
+    "id": "chunk-144",
+    "text": "Obstáculo: elemento que impede o contato acidental, mas não impede o contato direto por ação deliberada. \nOperações elementares: são ações que implicam em manobras ou interferências nas instalações elétricas, simples e corriqueiras, que não exponham a qualquer risco as pessoas que as realizam. Exemplos: ligar ou desligar interruptores, conectar plugs a tomadas, acionar botões ou sensores elétricos.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 47562
+  },
+  {
+    "id": "chunk-145",
+    "text": "Partes vivas: condutor ou parte condutora destinada a ser energizada em condições de uso normal, incluindo o condutor neutro. \nPessoa não advertida: pessoa que não foi informada ou não possui capacidade para interagir com o risco elétrico, e que, portanto, somente deve operar equipamentos ou manusear materiais, garantidamente, isentos de riscos.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 47967
+  },
+  {
+    "id": "chunk-146",
+    "text": "Plano de aprendizagem - documento de concepção do processo ensino-aprendizagem, no qual se deve registrar o objetivo da aprendizagem, a estratégia pedagógica escolhida para a formação e capacitação de trabalhador-capacitado, bem como todas as informações que estejam envolvidas no processo.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 48317
+  },
+  {
+    "id": "chunk-147",
+    "text": "Procedimento de trabalho: sequência de operações a serem desenvolvidas para realização de um determinado trabalho, com a inclusão dos meios materiais e humanos, medidas de segurança e circunstâncias que impossibilitem sua realização. \nProficiência: competência, aptidão, capacitação e habilidade aliadas à experiência profissional, comprovadas por meio de diplomas, registro na carteira de trabalho, contratos específicos na área em questão ou outros documentos.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 48611
+  },
+  {
+    "id": "chunk-148",
+    "text": "Prontuário de Instalações Elétricas (PIE): sistema organizado de forma a conter memória dinâmica de informações pertinentes às instalações e aos trabalhadores, em meio físico ou eletrônico. \nProteção adicional: meio destinado a garantir a proteção contra choques elétricos em situações de maior risco de perda ou anulação das medidas normalmente aplicáveis, de dificuldade no atendimento pleno das condições de segurança associadas a determinada medida de proteção e/ou, ainda, em situações ou locais em que os perigos do choque elétrico são particularmente graves.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 49077
+  },
+  {
+    "id": "chunk-149",
+    "text": "Proteção básica: meio destinado a impedir contato com partes vivas perigosas em condições normais. \nProteção supletiva: meio destinado a suprir a proteção contra choques elétricos quando massas ou partes condutivas acessíveis tornam-se acidentalmente vivas.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 49646
+  },
+  {
+    "id": "chunk-150",
+    "text": "Riscos Adicionais: todos os demais fatores de riscos, além dos elétricos, específicos de cada ambiente ou processos de trabalho que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho. \nSeccionamento automático da alimentação: ação automática destinada a cortar a alimentação de toda ou de uma parte determinada de uma instalação elétrica, separando-a de qualquer fonte de energia elétrica, por razões de segurança.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 49907
+  },
+  {
+    "id": "chunk-151",
+    "text": "19 \nSeparação elétrica: proteção supletiva assegurada por meio de uma fonte de separação elétrica individual. \nSinalização: sinal padronizado destinado a orientar, alertar, avisar e advertir. \nSistema Elétrico de Potência (SEP): conjunto das instalações e equipamentos destinados à geração, transmissão e distribuição de energia elétrica até a medição, inclusive.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 50350
+  },
+  {
+    "id": "chunk-152",
+    "text": "Trabalho em proximidade: trabalho durante o qual o trabalhador pode entrar na zona controlada, ainda que seja com uma parte do seu corpo ou com extensões condutoras, representadas por materiais, ferramentas ou equipamentos que manipule. \nTransmissão de energia elétrica: consiste no transporte de energia elétrica do sistema produtor às subestações distribuidoras, ou na interligação de dois ou mais sistemas geradores. Compreende também o transporte pelas linhas de subtransmissão ou de transmissão secundária que existirem entre as subestações de distribuição. Pode ainda compreender o fornecimento de energia a consumidores em alta tensão, mediante suprimentos diretos das linhas de transmissão e subtransmissão.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 50717
+  },
+  {
+    "id": "chunk-153",
+    "text": "Travamento ou bloqueio: ação destinada a manter, por meios mecânicos, um dispositivo de manobra fixo numa determinada posição, de forma a impedir uma operação não autorizada. \nZona Controlada (ZC): entorno da zona de risco, não segregada, acessível, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a profissionais autorizados.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 51436
+  },
+  {
+    "id": "chunk-154",
+    "text": "Zona de Risco (ZR): entorno de parte condutora energizada, não segregada, com risco de choque elétrico, acessível inclusive acidentalmente, de dimensões estabelecidas de acordo com o nível de tensão, cuja aproximação só é permitida a trabalhadores autorizados e com a adoção de técnicas e instrumentos apropriados de trabalho.",
+    "heading": "contra choque elétrico.",
+    "char_offset": 51809
+  },
+  {
+    "id": "chunk-155",
+    "text": "Zona Livre (ZL): zona em que os trabalhadores executam atividades, na região limítrofe da zona controlada, porém sem necessidade de invadi-la para realizar serviços.",
+    "heading": "**ANEXO II**",
+    "char_offset": 52306
+  },
+  {
+    "id": "chunk-156",
+    "text": "Tabela 1 - Raios de delimitação de zona de risco, zona controlada e zona livre. \n|Faixa de tensão Nominal<br>da instalação elétrica em<br>kV *|<br> <br>Rr -<br>entre<br>contro|Raio de delimitação<br>zona<br>de<br>risco<br>e<br>lada em metros<br>Rc - Raio de delimitação entre<br>zona controlada e livre em<br>metros|",
+    "heading": "**ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE**",
+    "char_offset": 52309
+  },
+  {
+    "id": "chunk-157",
+    "text": "|---|---|---|\n|< 1|0,20|0,70|\n|≥1 e <3|0,22|1,22|\n|≥3 e <6|0,25|1,25|\n|≥6 e <10|0,35|1,35|\n|≥10 e <15|0,38|1,38|\n|≥15 e <20|0,40|1,40|\n|≥20 e <30|0,56|1,56|\n|≥30 e <36|0,58|1,58|\n|≥36 e <45|0,63|1,63|\n|≥45 e <60|0,83|1,83|\n|≥60 e <70|0,90|1,90|\n|≥70 e <110|1,00|2,00|",
+    "heading": "**ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE**",
+    "char_offset": 52626
+  },
+  {
+    "id": "chunk-158",
+    "text": "20 \n|≥110 e <132|1,10|3,10|\n|---|---|---|\n|≥132 e <150|1,20|3,20|\n|≥150 e <220|1,60|3,60|\n|≥220 e <275|1,80|3,80|\n|≥275 e <380|2,50|4,50|\n|≥380 e <480|3,20|5,20|\n|≥480 e <700|5,20|7,20|\n* OBSERVAÇÕES: Níveis de tensão aplicáveis em corrente alternada ou contínua. Para sistemas trifásicos, considera-se como tal a tensão composta (valor eficaz entre fases).",
+    "heading": "**ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE**",
+    "char_offset": 52897
+  },
+  {
+    "id": "chunk-159",
+    "text": "Figura 2 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre, com interposição de superfície de separação física adequada. \nLEGENDA DAS FIGURAS ZL = Zona Livre. ZC = Zona Controlada. ZR = Zona de Risco. Rr = Raio de delimitação entre zona de risco e controlada em metros. Rc = Raio de delimitação entre zona controlada e livre em metros. PE = Ponto da instalação energizado.",
+    "heading": "Figura 1 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre",
+    "char_offset": 53259
+  },
+  {
+    "id": "chunk-160",
+    "text": "21 \nSI = Superfície isolante construída com material resistente e dotada de todos os dispositivos de segurança.",
+    "heading": "**ANEXO III**",
+    "char_offset": 53794
+  },
+  {
+    "id": "chunk-161",
+    "text": "PÚBLICO-ALVO: Os trabalhadores autorizados, conforme capítulo 10.10 da NR-10, exceto os trabalhadores que realizam o treinamento “específico de compartilhamento de infraestruturas do SEP”. \nCARGA HORÁRIA MÍNIMA: 40 horas. \nCONTEÚDO MÍNIMO: \nA. Teórico",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 53800
+  },
+  {
+    "id": "chunk-162",
+    "text": "1. Segurança e saúde no trabalho: direitos e deveres mínimos dos trabalhadores e empregadores. \n2. Normas técnicas oficiais e internacionais: normas brasileiras registradas (NBR), normas internacionais e normas estrangeiras. ABNT NBR 5410 (BT), NBR 14039 (MT) e outras.",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 54055
+  },
+  {
+    "id": "chunk-163",
+    "text": "3. Normas Regulamentadoras e a NR-10. \n4. Introdução à segurança em instalações elétricas e serviços em eletricidade: \na) matriz energética do Brasil e fontes de energia elétrica; \nb) corrente alternada e corrente contínua; \nc) extrabaixa, baixa, média e alta tensão;",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 54331
+  },
+  {
+    "id": "chunk-164",
+    "text": "d) instalações elétricas permanentes ou temporárias; \ne) trabalho em proximidade de instalações elétricas; \nf) zona de risco, zona controlada e zona livre; \ng) energia incidente e distância segura contra os efeitos do arco elétrico; e \nh) conceitos básicos, tais como instalações elétricas segregadas, graus de Proteção IP etc.",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 54605
+  },
+  {
+    "id": "chunk-165",
+    "text": "5. Perigos em instalações e serviços com eletricidade, suas lesões ou agravos à saúde: \na) choque elétrico: tipos de choque e aplicação nos diversos cenários elétricos existentes; \nb) arco elétrico: conceitos básicos e aplicação nos diversos cenários elétricos existentes; e",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 54937
+  },
+  {
+    "id": "chunk-166",
+    "text": "c) perigos adicionais e/ou perigos externos. \n6. Controle dos Riscos: \na) projeto elétrico; e \nb) planejamento de atividades e análise prévia. \n7. Eliminação, minimização e controle do Perigo: desenergização (isolamento de trechos para execução de serviços) das instalações elétricas x desligamento ou seccionamento.",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 55218
+  },
+  {
+    "id": "chunk-167",
+    "text": "8. Medidas de Proteção Coletiva: \na) proteção básica, supletiva, adicional e contra efeitos térmicos; \nb) isolamento das partes vivas; \n22 \nc) barreiras ou invólucros; \nd) obstáculos; e) colocação fora de alcance; f) limitação da tensão; g) seccionamento automático da alimentação; h) aterramento funcional (TN / TT / IT), de proteção e temporário; i) equipotencialização; j) isolação suplementar;",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 55542
+  },
+  {
+    "id": "chunk-168",
+    "text": "k) separação elétrica; \nl) dispositivo diferencial-residual de alta sensibilidade; \nm) contra arcos elétricos; \nn) contra incêndios e explosão; \no) contra eletricidade estática; \np) contra sobretensões; \nq) contra descargas atmosféricas; e \nr) emprego da extrabaixa tensão.",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 55949
+  },
+  {
+    "id": "chunk-169",
+    "text": "9. Medidas Administrativas e de Organização: \na) técnicas de análise de risco; \nb) procedimentos de trabalho; \nc) permissão de trabalho; \nd) alternância de atividades dos trabalhadores; \ne) supervisão e condução dos trabalhos; \nf) sinalização de segurança;",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 56231
+  },
+  {
+    "id": "chunk-170",
+    "text": "g) uso de adornos e indumentária; \nh) testes elétricos ou ensaios de laboratório de equipamentos, ferramentas, dispositivos, equipamentos de proteção individual e coletivo; \ni) medição de grandezas elétricas; \nj) meios de comunicação entre trabalhadores;",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 56493
+  },
+  {
+    "id": "chunk-171",
+    "text": "k) direito de recusa; e \nl) ações integradas entre organizações. \n9.1 Qualificação, habilitação, capacitação e autorização dos trabalhadores. \n9.2 Treinamento dos trabalhadores. \n9.3 Instrução formal. \n10. Medidas de Proteção Individual: \na) responsabilidades da organização e do trabalhador relativas aos EPI; e",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 56756
+  },
+  {
+    "id": "chunk-172",
+    "text": "23 \nb) uso estritamente pessoal x proibição do uso compartilhado do EPI. \n11. Exemplos de acidentes e doenças relacionados às instalações elétricas e aos serviços em eletricidade: \na) fatores e causas relacionados ao evento (acidentes e doenças); \nb) discussão sobre as medidas preventivas e corretivas relacionados ao evento; e",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 57075
+  },
+  {
+    "id": "chunk-173",
+    "text": "c) discussão de casos e lições aprendidas relativas aos acidentes e doenças. \n12. Noções de proteção e combate a incêndios: \na) noções básicas; \nb) medidas preventivas; \nc) sistemas de prevenção e combate a incêndios; e \nd) métodos de extinção. \n13. Noções de primeiros socorros:",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 57412
+  },
+  {
+    "id": "chunk-174",
+    "text": "a) noções sobre lesões ou agravos à saúde dos trabalhadores; \nb) priorização do atendimento ao acidentado; \nc) adoção de procedimentos específicos em casos de queimaduras, parada cardiorrespiratória, hemorragias, fraturas, traumas; e \nd) avaliação do cenário e técnicas para imobilização, remoção, resgate e transporte de acidentados.",
+    "heading": "1. TREINAMENTO INICIAL BÁSICO",
+    "char_offset": 57697
+  },
+  {
+    "id": "chunk-175",
+    "text": "14. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 7, 8, 10, 11, 12 e 13 da parte teórica. \n2. TREINAMENTO INICIAL COMPLEMENTAR DO SEP \nPÚBLICO-ALVO: Os trabalhadores que realizam serviços em eletricidade no Sistema Elétrico de Potência (SEP) ou em sua proximidade, exceto os trabalhadores que realizam o treinamento “específico de compartilhamento de infraestruturas do SEP”.",
+    "heading": "B. Prático",
+    "char_offset": 58037
+  },
+  {
+    "id": "chunk-176",
+    "text": "CARGA HORÁRIA MÍNIMA: 40 horas. \nCONTEÚDO MÍNIMO (*): \nA. Teórico \n1. Organização do SEP. \n2. Outras formas de geração de energia elétrica (fotovoltaicas, eólicas, dentre outras) e a interface com o SEP. \n3. Especificidades da Análise de Risco, Procedimentos de Trabalho, Permissão de Trabalho.",
+    "heading": "B. Prático",
+    "char_offset": 58448
+  },
+  {
+    "id": "chunk-177",
+    "text": "4. Eliminação do perigo elétrico nas instalações elétricas: desenergização x desligamento ou seccionamento. \n5. Sistemas de proteção coletiva e equipamentos de proteção individual, equipamentos e ferramentas de trabalho (tipos, seleção, conservação, inspeção, ensaios ou testes, uso e limitações).",
+    "heading": "B. Prático",
+    "char_offset": 58746
+  },
+  {
+    "id": "chunk-178",
+    "text": "24 \n6. Métodos de trabalho: ao potencial, linha viva, à distância, em proximidade, desligado, seccionado e desenergizado. \n7. Condições impeditivas para serviços. \n8. Perigos e cenários de trabalho no SEP: \na) proximidade e contatos com partes energizadas;",
+    "heading": "B. Prático",
+    "char_offset": 59050
+  },
+  {
+    "id": "chunk-179",
+    "text": "b) arco elétrico; \nc) indução; \nd) descargas atmosféricas; \ne) eletricidade estática; \nf) campos elétricos e magnéticos; \ng) condições climáticas adversas; \nh) trabalho em equipe; \ni) trabalhos noturnos; \nj) comunicação e identificação; \nk) métodos de trabalho; e",
+    "heading": "B. Prático",
+    "char_offset": 59318
+  },
+  {
+    "id": "chunk-180",
+    "text": "l) outros fatores e situações; \n9. Segurança com veículos, transporte e movimentação de pessoas em diversas superfícies de trabalho. \n10. Segurança com transporte e movimentação mecânico/automático ou manual de materiais e equipamentos. \n11. Sinalização e isolamento de áreas de trabalho.",
+    "heading": "B. Prático",
+    "char_offset": 59587
+  },
+  {
+    "id": "chunk-181",
+    "text": "12. Liberação das instalações elétricas para execução de serviço, operação e uso. \n13. Treinamento em técnicas de atendimento, imobilização, remoção, resgate e transporte de acidentados. \n14. Normas Técnicas ABNT NBR14039 (MT), NBR IEC 62271-200 - Conjunto de manobra e controle de alta-tensão.",
+    "heading": "B. Prático",
+    "char_offset": 59880
+  },
+  {
+    "id": "chunk-182",
+    "text": "15. Medidas de controle para o risco de choque elétrico por contato direto e indireto. \n16. Medidas de controle para o risco de arco elétrico. \n17. Manobras em equipamentos elétricos de MT/AT – riscos elétricos e medidas de controle. \n18. Exemplos de acidentes e doenças relacionados às instalações elétricas e aos serviços em eletricidade realizados no SEP:",
+    "heading": "B. Prático",
+    "char_offset": 60180
+  },
+  {
+    "id": "chunk-183",
+    "text": "a) fatores e causas relacionados ao evento (acidentes e doenças); \nb) discussão sobre as medidas preventivas e corretivas relacionados ao evento; e \nc) discussão de casos e lições aprendidas relativas aos acidentes e doenças. \nB. Prático \n19. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 3, 4, 5, 11, 12 e 13.",
+    "heading": "B. Prático",
+    "char_offset": 60545
+  },
+  {
+    "id": "chunk-184",
+    "text": "(*) O conteúdo deve ser desenvolvido e dirigido especificamente para as condições de trabalho \n25 \ncaracterísticas de cada ramo, padrão de operação, de nível de tensão e de outras peculiaridades específicas ao tipo ou condição especial da atividade.",
+    "heading": "B. Prático",
+    "char_offset": 60888
+  },
+  {
+    "id": "chunk-185",
+    "text": "PÚBLICO-ALVO: Os trabalhadores que realizam serviços em eletricidade em média e alta tensão ou em sua proximidade no Sistema Elétrico de Consumo (SEC). \nCARGA HORÁRIA MÍNIMA: 16 horas. \nCONTEÚDO MÍNIMO (*): \nA. Teórico \n1. Organização do sistema de média e alta tensão.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 61145
+  },
+  {
+    "id": "chunk-186",
+    "text": "2. Especificidades da Análise de Risco da Tarefa, Procedimentos de Trabalho, Permissão de Trabalho. \n3. Eliminação do perigo elétrico nas instalações elétricas: desenergização x desligamento ou seccionamento. \n4. Sistemas de proteção coletiva e equipamentos de proteção individual, equipamentos e ferramentas de trabalho (tipos, seleção, conservação, inspeção, ensaios ou testes, uso e limitações).",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 61419
+  },
+  {
+    "id": "chunk-187",
+    "text": "5. Métodos de trabalho: ao potencial, linha viva, à distância, em proximidade, desligado, seccionado e desenergizado. \n6. Condições impeditivas para serviços. \n7. Segurança com veículos, transporte e movimentação de pessoas em diversas superfícies de trabalho;",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 61822
+  },
+  {
+    "id": "chunk-188",
+    "text": "8. Segurança com transporte e movimentação mecânico/automático ou manual de materiais e equipamentos. \n9. Sinalização e isolamento de áreas de trabalho. \n10. Liberação das instalações elétricas para execução de serviço, operação e uso. \n11. Treinamento em técnicas de atendimento, imobilização, remoção, resgate e transporte de acidentados.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 62088
+  },
+  {
+    "id": "chunk-189",
+    "text": "12. Normas Técnicas ABNT NBR14039 (MT), NBR IEC 62271-200 - Conjunto de manobra e controle de alta-tensão. \n13. Exemplos de acidentes e doenças relacionados às instalações elétricas e aos serviços em eletricidade realizados no SEC: \na) fatores e causas relacionados ao evento (acidentes e doenças);",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 62433
+  },
+  {
+    "id": "chunk-190",
+    "text": "b) discussão sobre as medidas preventivas e corretivas relacionados ao evento; e \nc) discussão de casos e lições aprendidas relativas aos acidentes e doenças. \nB. Prático \n14. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 2, 3, 4, 9, 10 e 11 da parte teórica.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 62737
+  },
+  {
+    "id": "chunk-191",
+    "text": "(*) O conteúdo deve ser desenvolvido e dirigido especificamente para as condições de trabalho características de cada ramo, padrão de operação, de nível de tensão e de outras peculiaridades \n26 \nespecíficas ao tipo ou condição especial da atividade.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 63029
+  },
+  {
+    "id": "chunk-192",
+    "text": "4. TREINAMENTO INICIAL COMPLEMENTAR DE ÁREA CLASSIFICADA \nPÚBLICO-ALVO: Os trabalhadores que realizam serviços em eletricidade em áreas classificadas. CARGA HORÁRIA MÍNIMA: 16 horas. \nCONTEÚDO MÍNIMO: \nA. Teórico \n1. Conceitos de Área Classificada.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 63285
+  },
+  {
+    "id": "chunk-193",
+    "text": "2. Segurança em áreas classificadas: \n- a) percepção e reconhecimento de área classificada e suas variações; \nb) equipamentos de Processo; e \nc) ambientes de Processo. \n3. Gerenciamento do risco de explosão e procedimentos de segurança: \na) controles coletivo e individual para trabalhos com inflamáveis e combustíveis;",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 63541
+  },
+  {
+    "id": "chunk-194",
+    "text": "b) normalização e Legislação aplicável; \nc) histórico Ex; \nd) penalidades; \ne) responsabilidades; e \nf) ABNT - Atmosferas explosivas; \n4. Atmosfera Explosiva. \n5. Classificação de Áreas e suas características. \n6. Delimitação e sinalização das Áreas.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 63870
+  },
+  {
+    "id": "chunk-195",
+    "text": "7. Tipos de Proteção de Equipamentos destinados ao uso em áreas classificadas. \n8. Certificação de equipamento Ex. \n9. Inspeções de Áreas Classificadas conforme normas técnicas. \n10. Ferramentas manuais – especificação, seleção e uso em áreas classificadas.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 64126
+  },
+  {
+    "id": "chunk-196",
+    "text": "11. Equipamentos de medição - especificação, seleção e uso em áreas classificadas. \n12. PT - Permissão de Trabalho. \nB. Prático \n13. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 9, 10, 11 e 12 da parte teórica. \n5. TREINAMENTO INICIAL ESPECÍFICO E PONTUAL",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 64390
+  },
+  {
+    "id": "chunk-197",
+    "text": "PÚBLICO-ALVO: Os profissionais estrangeiros e/ou não residentes no país que adentrem a zona controlada para realizar atividades e serviços pontuais, com permanência máxima de 30 (trinta) dias corridos, sob acompanhamento presencial e permanente de trabalhador autorizado e sob responsabilidade de profissional legalmente habilitado.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 64677
+  },
+  {
+    "id": "chunk-198",
+    "text": "27 \nCARGA HORÁRIA MÍNIMA: 8 horas. \nCONTEÚDO MÍNIMO: \nA. Teórico \n1. Introdução à segurança com eletricidade. \n2. Perigos em instalações e serviços com eletricidade no serviço que será realizado, suas lesões ou agravos à saúde: \na) choque elétrico;",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 65018
+  },
+  {
+    "id": "chunk-199",
+    "text": "b) arco elétrico; e \nc) riscos adicionais e/ou perigos externos. \n3. Controle dos riscos, planejamento e análise de risco. \n4. Condições impeditivas para serviços. \n5. Sistema e equipamentos de proteção coletiva. \n6. Sistema e equipamentos de proteção individual.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 65274
+  },
+  {
+    "id": "chunk-200",
+    "text": "7. Instrumentos, ferramentas e equipamentos de trabalho – características e manuais de instrução. \n8. Zona de risco, zona controlada e zona livre. \n9. Energia incidente e distância segura contra os efeitos do arco elétrico; \n6. TREINAMENTO INICIAL ESPECÍFICO DE COMPARTILHAMENTO DE INFRAESTRUTURA DO SEP",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 65543
+  },
+  {
+    "id": "chunk-201",
+    "text": "PÚBLICO- ALVO: os trabalhadores que realizam atividades e serviços em proximidade de instalações elétricas com o compartilhamento de infraestruturas do Sistema Elétrico de Potência (SEP). \nCARGA HORÁRIA MÍNIMA: 40 horas. \nCONTEÚDO MÍNIMO: \nA. Teórico",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 65852
+  },
+  {
+    "id": "chunk-202",
+    "text": "1. Noções básicas da organização do SEP. \n2. Outras formas de geração de energia elétrica (fotovoltaicas, eólicas, dentre outras) e a interface com o SEP. \n3. Características básicas construtivas das redes aéreas de distribuição de telecomunicações e de energia elétrica, tipo de estruturas, tipo de linhas etc.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 66107
+  },
+  {
+    "id": "chunk-203",
+    "text": "4. Interação entre redes de distribuição de telecomunicações e de Iluminação Pública: perigos e riscos elétricos e adicionais. \n5. Especificidades da Rotina de Trabalho. \n6. Interpretação e aplicação da NR-10 em atividades e serviços em proximidade de instalações elétricas com o compartilhamento de Infraestruturas do SEP.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 66423
+  },
+  {
+    "id": "chunk-204",
+    "text": "7. Trabalho em Proximidade de instalações elétricas com o compartilhamento de Infraestruturas do Sistema Elétrico de Potência conforme NR-10. \n8. Distâncias de Segurança conforme NR-10. \n28 \n9. Competência de Pessoas x Medidas de Controle. \n10. Sistemas de proteção coletiva e equipamentos de proteção individual, equipamentos e ferramentas de trabalho.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 66753
+  },
+  {
+    "id": "chunk-205",
+    "text": "11. Condições impeditivas para serviços. \n12. Perigos e cenários de trabalho em atividades e serviços em proximidade de instalações elétricas e com o compartilhamento de infraestruturas do SEP: \na) proximidade e contatos com partes energizadas; \nb) arco elétrico;",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 67112
+  },
+  {
+    "id": "chunk-206",
+    "text": "c) indução; \nd) descargas atmosféricas; \ne) eletricidade estática; \nf) campos elétricos e magnéticos; \ng) condições climáticas adversas; \nh) comunicação e identificação; e \ni) outros fatores e situações. \n13. Sinalização e isolamento de áreas de trabalho.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 67385
+  },
+  {
+    "id": "chunk-207",
+    "text": "14. Treinamento em técnicas de atendimento, imobilização, remoção, resgate e transporte de acidentados. \n15. Qualificação, habilitação, capacitação, treinamentos, instruções adicionais e autorização dos trabalhadores. \n16. Exemplos de acidentes e doenças relacionados às atividades e serviços em proximidade de instalações elétricas com o compartilhamento de infraestruturas do SEP:",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 67645
+  },
+  {
+    "id": "chunk-208",
+    "text": "a) fatores e causas relacionados ao evento (acidentes e doenças); \nb) discussão sobre as medidas preventivas e corretivas relacionados ao evento; e \nc) discussão de casos e lições aprendidas relativas aos acidentes e doenças. \n17. Segurança e saúde no trabalho: direitos e deveres mínimos dos trabalhadores e empregadores.",
+    "heading": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+    "char_offset": 68033
+  },
+  {
+    "id": "chunk-209",
+    "text": "18. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 5, 10, 12, 13 e 14.",
+    "heading": "**ANEXO IV**",
+    "char_offset": 68459
+  },
+  {
+    "id": "chunk-210",
+    "text": "* Quadros referentes a EPI para Arco Elétrico, adaptados da norma da National Fire Protection Association (NFPA) 70E - Tabelas 130.7(C)(15)(a), 130.7(C)(15)(b) e 130.7(C)(15)(c), 2024. \nQuadro I - Categorias de EPI para proteção contra arco elétrico em sistemas de corrente alternada <u>(CA)</u>",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 68462
+  },
+  {
+    "id": "chunk-211",
+    "text": "|Equipamento|Parâmetros|Categoria<br>de EPI|\n|---|---|---|\n|Painéis ou outros equipamentos|·Máximo de 25 kA de corrente de falha disponível;|1|\n29 \n|classificados para 240 volts ou<br>menos|·tempo máximo de eliminação de falhas de 0,03 s (2<br>ciclos);<br>·distância mínima de trabalho de 455 mm||",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 68762
+  },
+  {
+    "id": "chunk-212",
+    "text": "|---|---|---|\n|Painéis ou outros equipamentos<br>com classificação superior a 240<br>volts e até 600 volts|·Máximo de 25 kA de corrente de falha disponível;<br>·tempo máximo de eliminação de falhas de 0,03 s (2<br>ciclos);<br>·distância mínima de trabalho de 455 mm|2|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 69060
+  },
+  {
+    "id": "chunk-213",
+    "text": "||·Corrente de falha máxima disponível de 65 kA;||\n|Centros de controle de motores<br>(CCMs) de classe de 600 volts|·tempo máximo de eliminação de falhas de 0,03 s (2<br>ciclos);<br>·distância mínima de trabalho de 455 mm|2|\n||·Corrente de falha máxima disponível de 42 kA;||",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 69329
+  },
+  {
+    "id": "chunk-214",
+    "text": "|Centros de controle de motores<br>(CCMs) de classe de 600 volts|·tempo máximo de eliminação de falhas de 0,33 s<br>(20 ciclos);<br>·distância mínima de trabalho de 455 mm|4|\n|Aparelhagem de distribuição de<br>600 volts (com disjuntores de<br>potência ou interruptores com<br>fusível) e<br>quadros de distribuição de 600<br>volts|·Corrente de falha máxima disponível de 35 kA;<br>·tempo máximo de eliminação de falhas de até 0,5 s<br>(30 ciclos);<br>·distância mínima de trabalho de 455 mm|4|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 69605
+  },
+  {
+    "id": "chunk-215",
+    "text": "|Outros equipamentos de classe de<br>600 volts (277 volts a 600 volts,<br>nominal)|·Corrente de falha máxima disponível de 65 kA;<br>·tempo máximo de eliminação de falhas de 0,03 s (2<br>ciclos);<br>·distância mínima de trabalho de 455 mm|2|\n|Partidas de motor NEMA E2<br>(contator com fusível), 2,3 kV a 7,2<br>kV|·Máximo de 35 kA de corrente de falha disponível;<br>·empo máximo de eliminação de falhas de até 0,24 s<br>(15 ciclos);<br>·distância mínima de trabalho de 910 mm|4|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 70098
+  },
+  {
+    "id": "chunk-216",
+    "text": "||·Corrente de falha máxima disponível de 35 kA;||\n|Aparelhagem<br>de<br>manobra<br>revestida de metal, 1 kV a 15 kV|·tempo máximo de eliminação de falhas de até 0,24<br>s (15 ciclos);<br>·distância mínima de trabalho de 910 mm|4|\n|Chave seccionadora em invólucro<br>metálico, com ou sem fusível,<br>construção de 1 kV a 15 kV|·Corrente de curto-circuito disponível máxima de 35<br>kA;<br>·tempo máximo de eliminação da falha de 0,24 s (15<br>ciclos);<br>·distância mínima de trabalho de 910 mm|4|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 70579
+  },
+  {
+    "id": "chunk-217",
+    "text": "|Outros equipamentos de 1 kV a 15<br>kV|·Corrente de curto-circuito disponível máxima de 35<br>kA;<br>·tempo máximo de eliminação da falha de até 0,24 s|4|\n30 \n||(15 ciclos);<br>·distância mínima de trabalho de 910 mm||\n|---|---|---|\n||·PORTAS FECHADAS e TRAVADAS(*);||",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 71079
+  },
+  {
+    "id": "chunk-218",
+    "text": "|Equipamentos resistentes ao arco<br>elétrico até a classe de 600 volts|·com corrente de falha disponível e tempo de<br>eliminação de falha que não excedam a classificação<br>de resistência ao arco do equipamento|N/A (Não<br>aplicável)|\n||·PORTAS FECHADAS e TRAVADAS(*);||",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 71349
+  },
+  {
+    "id": "chunk-219",
+    "text": "|Equipamentos resistentes ao arco<br>elétrico de 1 kV a 15 kV|·com corrente de falha disponível e tempo de<br>eliminação de falha que não excedam a classificação<br>de resistência ao arco do equipamento|N/A (Não<br>aplicável)|\nNota: para equipamentos classificados em 600 volts ou menos e protegidos por fusíveis limitadores de corrente ou disjuntores termomagnéticos limitadores de corrente dimensionados para 200 amperes ou menos, a categoria de EPI para arco elétrico pode ser reduzida em um número, mas não abaixo da categoria 1 de EPI para arco elétrico.",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 71623
+  },
+  {
+    "id": "chunk-220",
+    "text": "- (*) Para PORTAS ABERTAS, consulte a linha correspondente de equipamentos não resistentes ao arco deste quadro. \nQuadro II - Categorias de EPI para proteção contra arco elétrico em sistemas de corrente contínua <u>(CC)</u> \n|Equipamento/Parâmetros|Categoria de EPI|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 72187
+  },
+  {
+    "id": "chunk-221",
+    "text": "|---|---|\n|Baterias de armazenamento, quadros de corrente contínua (CC) e outras<br>fontes de alimentação CC<br>Parâmetros:<br>·Superiores a 150 volts e inferiores ou iguais a 600 volts;<br>·duração máxima do arco e distância mínima de trabalho: 2 segundos a 455<br>mm||",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 72454
+  },
+  {
+    "id": "chunk-222",
+    "text": "|·Corrente de curto-circuito disponível inferior a 1,5 kA|2|\n|·Corrente de curto-circuito disponível maior ou igual a 1,5 kA e menor que 3<br>kA|2|\n|·Corrente de curto-circuito disponível maior ou igual a 3 kA e menor que 7<br>kA|3|\n|·Corrente de curto-circuito disponível maior ou igual a 7 kA e menor que 10<br>kA|4|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 72725
+  },
+  {
+    "id": "chunk-223",
+    "text": "Notas: \n1. As vestimentas que possam ser expostas a eletrólitos devem atender a ambas as condições a seguir: \n- a) Ser avaliadas quanto à proteção contra eletrólitos. \n- b) Possuir classificação de resistência a arco elétrico (arc rated). \n2. Assume-se uma duração de arco de dois segundos quando não há dispositivo de proteção contra sobrecorrente (OCPD) ou quando o tempo de eliminação da falha não é conhecido. Se o tempo de eliminação for conhecido e for inferior a 2 segundos, uma análise de energia incidente pode fornecer um resultado mais representativo.",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 73049
+  },
+  {
+    "id": "chunk-224",
+    "text": "3. Os métodos usados para estimar a energia incidente de arco elétrico em CC, utilizados para definir as categorias desta tabela, baseiam-se em cálculos de energia incidente em ar livre. Caso a atividade ocorra dentro de um invólucro, recomenda-se considerar proteção adicional de EPI, além do valor indicado nesta tabela.",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 73614
+  },
+  {
+    "id": "chunk-225",
+    "text": "31 \n|Categoria de<br>EPI para Arco<br>Elétrico|EPI|\n|---|---|\n|1|Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 4 cal/cm²<br>(<sup>a</sup>)<br>• Camisa e calça de mangas compridas com resistência ao arco elétrico, ou<br>macacão com resistência ao arco elétrico;<br>• Protetor facial com resistência ao arco elétrico (<sup>b</sup>) ou capuz com resistência ao<br>arco elétrico;<br>• Jaqueta, parca, vestimenta de alta visibilidade, impermeáveis ou forro de<br>capacete com resistência ao arco elétrico ou outras sobreposições com resistência<br>ao arco elétrico (CN<sup>f</sup>)<br>Equipamentos de Proteção Adicional:<br>• Capacete de segurança;<br>• Óculos de proteção ou óculos de ampla visão (SO<sup>g</sup>);<br>• Protetor auricular (<sup>c</sup>) (desde que protegido por um capuz com resistência ao arco<br>elétrico);<br>• Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes<br>de borracha com luva de cobertura (<sup>d</sup>) (SO<sup>g</sup>)<br>• Calçado de couro(<sup>e</sup>) (CN<sup>f</sup>)|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 73940
+  },
+  {
+    "id": "chunk-226",
+    "text": "|2|Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 8 cal/cm²<br>(<sup>a</sup>)<br>• Camisa e calça de mangas compridas com resistência ao arco elétrico ou macacão<br>com resistência ao arco elétrico;<br>• Capuz completo com resistência ao arco elétrico ou protetor facial com<br>resistência ao arco elétrico (<sup>b</sup>) combinado com balaclava com resistência ao arco<br>elétrico;<br>• Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete<br>com resistência ao arco elétrico ou outras sobreposições com resistência ao arco<br>elétrico (CN<sup>f</sup>)<br>Equipamentos de Proteção Adicional:<br>• Capacete de segurança;<br>• Óculos de proteção ou óculos de ampla visão (SO<sup>g</sup>);<br>• Protetor auricular (<sup>c</sup>) (desde que protegido por um capuz com resistência ao arco<br>elétrico);<br>• Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes<br>de borracha com luva de cobertura (<sup>d</sup>) (SO<sup>g</sup>)<br>• Calçado de couro(<sup>e</sup>)|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 74997
+  },
+  {
+    "id": "chunk-227",
+    "text": "|3|Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 25 cal/cm²<br>(<sup>a</sup>)<br>• Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas<br>peças);<br>• Capuz carrasco completo com resistência ao arco elétrico;<br>• Jaqueta, parca, roupa de alta visibilidade, forro de capacete com resistência ao<br>arco elétrico (CN<sup>f</sup>).<br>Equipamentos de Proteção Adicional:<br>• Capacete de segurança<br>• Óculos de proteção ou óculos de ampla visão (SO<sup>g</sup>)<br>• Protetor auricular(<sup>c</sup>) (desdequeprotegidopor um capuz com resistência ao arco|",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 76038
+  },
+  {
+    "id": "chunk-228",
+    "text": "32 \n- elétrico); • Luvas de couro espessas, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (<sup>d</sup> ) (SO<sup>g</sup> ); • Calçado de couro (<sup>e</sup> <u>)</u> Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 40 cal/cm² (<sup>a</sup> ) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CN<sup>f</sup> ).",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 76645
+  },
+  {
+    "id": "chunk-229",
+    "text": "- 4 Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SO<sup>g</sup> ) • Protetor auricular (<sup>c</sup> ) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luvas protetoras (<sup>d</sup> ) (SO<sup>g</sup> ) • Calçado de couro (<sup>e</sup> <u>)</u>",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 77325
+  },
+  {
+    "id": "chunk-230",
+    "text": "a Valores mínimos de energia incidente segundo ASTM F1506 ou ASTM F1959 ou normas atualizadas de acordo com processo de Certificado de Aprovação (CA) nos termos da NR-6. \nb Protetor facial ou capuz devem atender ASTM F2178 ou normas atualizadas de acordo com processo de CA nos termos da NR-6.",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 77756
+  },
+  {
+    "id": "chunk-231",
+    "text": "c Protetores auriculares necessários quando há risco de ruído ou explosão por arco. \nd Luvas isolantes de borracha conforme ASTM D120, com protetores de couro conforme ASTM F696 ou normas atualizadas de acordo com processo de CA nos termos da NR-6.",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 78053
+  },
+  {
+    "id": "chunk-232",
+    "text": "e Calçados de couro ou equivalentes, resistentes ao calor e sem componentes metálicos expostos. \nf (CN) conforme necessário, dependendo das condições ambientais e tarefa. \ng (SO) seleção obrigatória conforme risco e tarefa específica. \nATPV - valor de desempenho térmico ao arco elétrico valor numérico de energia incidente atribuído a um produto, que descreve as suas propriedades térmicas para atenuar (reduzir) um fluxo de calor gerado por um arco elétrico (ABNT NBR IEC 61482-2).",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 78307
+  },
+  {
+    "id": "chunk-233",
+    "text": "EBT - energia-limite de rompimento valor numérico de energia incidente atribuído a um produto, que descreve as suas propriedades de rompimento, quando exposto a um fluxo de calor gerado por um arco elétrico (ABNT NBR IEC 61482-2). \nELIM - limite máximo de energia incidente valor numérico de energia incidente atribuído a um produto, abaixo do qual não há ponto de dados com a quantidade de calor transmitida pelo produto que atinja o critério de Stoll (ATPV) ou com o produto exibindo rompimento (ABNT NBR IEC 61482-2).",
+    "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+    "char_offset": 78794
+  },
+  {
+    "id": "chunk-234",
+    "text": "33",
+    "heading": "Tabelas",
+    "char_offset": 79322
+  },
+  {
+    "id": "chunk-235",
+    "text": "> [Tabela 1: page 10](../assets/tables/page_010_table_00.html)\n> [Tabela 2: page 20](../assets/tables/page_020_table_00.html)\n> [Tabela 3: page 21](../assets/tables/page_021_table_00.html)\n> [Tabela 4: page 29](../assets/tables/page_029_table_00.html)",
+    "heading": "Tabelas",
+    "char_offset": 79326
+  },
+  {
+    "id": "chunk-236",
+    "text": "> [Tabela 5: page 30](../assets/tables/page_030_table_00.html)\n> [Tabela 6: page 31](../assets/tables/page_031_table_00.html)\n> [Tabela 7: page 31](../assets/tables/page_031_table_01.html)\n> [Tabela 8: page 32](../assets/tables/page_032_table_00.html)",
+    "heading": "Tabelas",
+    "char_offset": 79582
+  },
+  {
+    "id": "chunk-237",
+    "text": "> [Tabela 9: page 33](../assets/tables/page_033_table_00.html)\n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n> ![Page 3](../assets/pages/page-003.png)\n> ![Page 4](../assets/pages/page-004.png)\n> ![Page 5](../assets/pages/page-005.png)",
+    "heading": "Tabelas",
+    "char_offset": 79884
+  },
+  {
+    "id": "chunk-238",
+    "text": "> ![Page 6](../assets/pages/page-006.png)\n> ![Page 7](../assets/pages/page-007.png)\n> ![Page 8](../assets/pages/page-008.png)\n> ![Page 9](../assets/pages/page-009.png)\n> ![Page 10](../assets/pages/page-010.png)\n> ![Page 11](../assets/pages/page-011.png)",
+    "heading": "Tabelas",
+    "char_offset": 80163
+  },
+  {
+    "id": "chunk-239",
+    "text": "> ![Page 12](../assets/pages/page-012.png)\n> ![Page 13](../assets/pages/page-013.png)\n> ![Page 14](../assets/pages/page-014.png)\n> ![Page 15](../assets/pages/page-015.png)\n> ![Page 16](../assets/pages/page-016.png)\n> ![Page 17](../assets/pages/page-017.png)",
+    "heading": "Tabelas",
+    "char_offset": 80423
+  },
+  {
+    "id": "chunk-240",
+    "text": "> ![Page 18](../assets/pages/page-018.png)\n> ![Page 19](../assets/pages/page-019.png)\n> ![Page 20](../assets/pages/page-020.png)\n> ![Page 21](../assets/pages/page-021.png)\n> ![Page 22](../assets/pages/page-022.png)\n> ![Page 23](../assets/pages/page-023.png)",
+    "heading": "Tabelas",
+    "char_offset": 80687
+  },
+  {
+    "id": "chunk-241",
+    "text": "> ![Page 24](../assets/pages/page-024.png)\n> ![Page 25](../assets/pages/page-025.png)\n> ![Page 26](../assets/pages/page-026.png)\n> ![Page 27](../assets/pages/page-027.png)\n> ![Page 28](../assets/pages/page-028.png)\n> ![Page 29](../assets/pages/page-029.png)",
+    "heading": "Tabelas",
+    "char_offset": 80951
+  },
+  {
+    "id": "chunk-242",
+    "text": "> ![Page 30](../assets/pages/page-030.png)\n> ![Page 31](../assets/pages/page-031.png)\n> ![Page 32](../assets/pages/page-032.png)\n> ![Page 33](../assets/pages/page-033.png)\n-->",
+    "heading": "Tabelas",
+    "char_offset": 81214
+  }
+]
