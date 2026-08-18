@@ -9,30 +9,36 @@ on:
 jobs:
   analyze-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: app
     steps:
       - uses: actions/checkout@v4
 
+      - name: Ler versão do Flutter (.fvmrc)
+        id: fvmrc
+        run: echo "version=$(jq -r .flutter .fvmrc)" >> "$GITHUB_OUTPUT"
+
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: "3.24.0"
+          flutter-version: ${{ steps.fvmrc.outputs.version }}
           channel: stable
 
       - name: Flutter pub get
+        if: hashFiles('app/pubspec.yaml') != ''
+        working-directory: app
         run: flutter pub get
-        continue-on-error: true
 
       - name: Flutter analyze
+        if: hashFiles('app/pubspec.yaml') != ''
+        working-directory: app
         run: flutter analyze --fatal-infos
-        continue-on-error: true
 
       - name: Flutter test
+        if: hashFiles('app/pubspec.yaml') != ''
+        working-directory: app
         run: flutter test
-        continue-on-error: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
       - name: Validate manifest
-        working-directory: .
         run: python3 scripts/validate_manifest.py
-        continue-on-error: true

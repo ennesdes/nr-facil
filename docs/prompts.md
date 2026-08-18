@@ -53,20 +53,6 @@ Não fazer: [fora do escopo]
 
 ## Prompts por fase
 
-### I7 — GitHub Action (Fase 3, item 21)
-
-```
-Fase 3, item 21 do @todo.md
-
-Crie .github/workflows/update-nrs.yml:
-- cron 09:00 UTC + workflow_dispatch
-- Roda update_nrs, convert_nr, build_manifest
-- push_nr_updates.py (Supabase service_role)
-- commit automático se mudou
-
-E ci.yml com fvm flutter analyze + test + validate_manifest.
-```
-
 ### I8 — Supabase no app (Fase 4, item 30)
 
 ```

@@ -8,6 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -18,22 +20,44 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      # Scripts serão implementados na Fase 1 (prompt I2 / I7)
-      - name: Update NRs
+      - name: Descobrir NRs (scraping gov.br)
+        run: python3 scripts/discover_nrs.py
+
+      - name: Detectar mudanças (hash do PDF)
+        run: python3 scripts/update_nrs.py
+
+      - name: Metadados de vigência
+        run: python3 scripts/scrape_vigencia.py --all
+
+      - name: Converter PDF → Markdown
+        run: python3 scripts/convert_nr.py --all
+
+      - name: Normalizar Markdown
+        run: python3 scripts/normalize_md.py --all
+
+      - name: Gerar índices (navegação + busca)
+        run: python3 scripts/build_index.py --all
+
+      - name: Gerar manifest.json
+        run: python3 scripts/build_manifest.py
+
+      - name: Validar manifest.json
+        run: python3 scripts/validate_manifest.py
+
+      - name: Publicar feed em Supabase (nr_updates)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/push_nr_updates.py
+
+      - name: Commit automático se mudou
         run: |
-          echo "TODO Fase 3: python scripts/update_nrs.py"
-          echo "TODO Fase 3: python scripts/convert_nr.py --all"
-          echo "TODO Fase 3: python scripts/build_manifest.py"
-          echo "TODO Fase 4: python scripts/push_nr_updates.py"
-
-      # - name: Commit changes
-      #   run: |
-      #     git config user.name github-actions
-      #     git config user.email actions@github.com
-      #     git add content/ manifest.json
-      #     git commit -m "chore: atualiza NRs" || exit 0
-      #     git push
-
-    env:
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/ manifest.json scripts/nr_index.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança para commitar"
+          else
+            git commit -m "chore: atualiza NRs"
+            git push
+          fi
