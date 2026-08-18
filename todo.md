@@ -61,15 +61,13 @@
 
 ---
 
-## Fase 4 — Supabase mínimo (Semana 3, paralelo)
+## Fase 4 — Feed de atualizações sem backend (Semana 3, paralelo)
 
-- [ ] 27 Criar projeto Supabase → [docs/procedures/04-projeto-supabase.md](docs/procedures/04-projeto-supabase.md)
-- [ ] 28 Tabelas `app_versions` + `nr_updates` (migration)
-- [ ] 29 Action insere em `nr_updates` ao detectar mudança
-- [ ] 30 Check versão mínima no startup → [docs/prompts.md#i8](docs/prompts.md#i8)
-- [ ] 31 `.env` local (nunca commitar) com URL + anon key
+- [x] 27 `scripts/build_app_meta.py` gera `app_meta.json` (feed + versão mínima) → `scripts/README.md#9-build_app_metapy`
+- [ ] 28 App busca `app_meta.json` via GitHub raw e lê `updates[]` no startup → [docs/prompts.md#i8](docs/prompts.md#i8)
+- [ ] 30 Check `min_app_version` no startup (aviso de update obrigatório)
 
-**Pronto quando:** App lê feed de atualizações do Supabase; custo R$ 0.
+**Pronto quando:** App lê feed de atualizações de `app_meta.json` via GitHub raw; custo R$ 0, sem conta externa.
 
 ---
 
@@ -113,7 +111,7 @@ Se não atingir em 90 dias: encerrar sem culpa.
 ## Decisões registradas (não reabrir)
 
 - Monorepo, Android-only, FVM, GitHub = fonte da verdade
-- Supabase mínimo (só metadados, sem blobs)
+- Sem backend: feed de atualizações + versão mínima em `app_meta.json` versionado no GitHub (raw), não Supabase/Firebase — motivo: limite de projetos free na conta/organização já em uso por outros projetos
 - Abas Favoritos / Todos; atualizações no sino
 - Pipeline uniforme: 3 passes (texto/tabelas/imagens) sempre executados em toda NR, sem classificação de complexidade prévia
 - Descoberta de NRs e status de revogação via scraping da página-índice do gov.br (`nr_index.json`), não lista manual fixa

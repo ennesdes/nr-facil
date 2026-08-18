@@ -24,7 +24,7 @@ Você é o Flutter Senior Engineer do **NR Fácil** — app Android (Flutter) de
 | Zoom de imagem | `photo_view` |
 | Links externos | `url_launcher` |
 | Design system | Material 3 |
-| Backend | Supabase (`supabase_flutter`) — **somente leitura** (`nr_updates`, `app_versions`) |
+| Backend | **Nenhum** — `app_meta.json` (feed de atualizações + `min_app_version`) via GitHub raw, mesmo client HTTP do `manifest.json` |
 | Ads | `google_mobile_ads` (Fase 5) — banner só em listas, nunca no leitor |
 | IAP | `in_app_purchase` (Fase 6) — SKU único `remove_ads_lifetime` |
 
@@ -38,7 +38,7 @@ O app **nunca** fala com o portal MTE diretamente — só consome `manifest.json
 lib/
   core/
     constants/       ← chaves de storage, URLs de manifest
-    services/        ← ContentService (sync), SupabaseService, StorageService
+    services/        ← ContentService (sync), AppMetaService, StorageService
     widgets/         ← componentes compartilhados
   features/
     <feature>/
@@ -56,7 +56,7 @@ lib/
 - **Tipagem estrita na View:** pages estendem `GetView<Controller>`. Proibido `Get.find<Controller>()` em widgets/pages.
 - **Injeção de dependência:** `Get.find()` **só** em Bindings. Controllers recebem serviços via construtor.
 - **Ciclo de vida:** `onInit()` só workers/listeners (sem navegação/diálogo); `onReady()` para chamadas iniciais e checagens pós-frame; `onClose()` obrigatório `.close()`/`.cancel()`/`.dispose()` em streams, timers, controllers de animação/scroll.
-- **Serviços globais** (`ContentService`, `StorageService`, `SupabaseService`) usam `permanent: true`; controllers de tela usam `Get.lazyPut()`.
+- **Serviços globais** (`ContentService`, `StorageService`, `AppMetaService`) usam `permanent: true`; controllers de tela usam `Get.lazyPut()`.
 - **Logs:** `AppLogger` — proibido `print()`/`debugPrint()` em produção.
 - **Null safety estrito:** proibido `!` sem null-check explícito na linha imediatamente anterior.
 

@@ -38,7 +38,6 @@ Não fazer: [fora do escopo]
 | Erro no terminal | Você roda → cola erro → Agent |
 | PDF / manifest | Script — **nunca IA** |
 | Antes de publicar | review-bugbot + security-review |
-| Supabase | skill supabase + @docs/architecture.md |
 
 ## Economia de tokens
 
@@ -53,17 +52,15 @@ Não fazer: [fora do escopo]
 
 ## Prompts por fase
 
-### I8 — Supabase no app (Fase 4, item 30)
+### I8 — app_meta.json no app (Fase 4, item 28)
 
 ```
 Fase 4 do @todo.md
 
-Use skill supabase:
-- Aplicar @docs/supabase/migration.sql
-- App: ler nr_updates no startup (feed atualizações)
-- App: checar app_versions (aviso APK desatualizado)
-- .env.example com SUPABASE_URL e SUPABASE_ANON_KEY
-- Nunca commitar .env
+- App: buscar app_meta.json via GitHub raw (mesmo client HTTP do manifest.json)
+- App: ler updates[] no startup (feed atualizações, tela do sino)
+- App: comparar version atual do app com min_app_version (aviso de update obrigatório se menor)
+- Sem .env, sem SDK novo — é só mais um fetch HTTP + cache local
 ```
 
 ### I9 — AdMob (Fase 5, item 33)

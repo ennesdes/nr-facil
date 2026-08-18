@@ -23,7 +23,7 @@ Mapeie o problema e seu impacto para a demanda descrita em $ARGUMENTS.
 - Toca o pipeline de conteúdo (scraping, extração de PDF, manifest) de forma não trivial
 - Envolve tela nova, rota ou fluxo de navegação
 - Impacto incerto — não é claro quantos arquivos ou camadas são afetados
-- Envolve Supabase (schema/RLS), monetização (AdMob/IAP) ou custo de operação
+- Envolve monetização (AdMob/IAP) ou custo de operação
 
 ---
 
@@ -31,7 +31,7 @@ Mapeie o problema e seu impacto para a demanda descrita em $ARGUMENTS.
 
 Extrair de $ARGUMENTS:
 - **Intenção central** — o que muda para o usuário ou para o pipeline
-- **Escopo provável** — app (Flutter/GetX) / pipeline (Python) / Supabase / CI
+- **Escopo provável** — app (Flutter/GetX) / pipeline (Python) / app_meta.json / CI
 - **Palavras-chave** — termos técnicos que guiarão as buscas
 - **Slug** — 2–4 palavras em kebab-case *(mesmo slug usado em `/decidir` e `/plano`)*
 
@@ -48,7 +48,7 @@ Se $ARGUMENTS estiver vazio → perguntar qual é a demanda.
 | Escopo já coberto por prompt existente | `docs/prompts.md` (catálogo I0–I10) |
 | App Flutter | seção "App architecture notes" do `CLAUDE.md` + `docs/architecture.md` § App Flutter |
 | Pipeline Python | `docs/architecture.md` § Pipeline de conteúdo, § Acesso ao MTE |
-| Supabase | `docs/architecture.md` § Supabase mínimo |
+| app_meta.json | `docs/architecture.md` § app_meta.json (sem backend) |
 
 ---
 
@@ -75,9 +75,9 @@ Ler **somente as seções** dos arquivos encontrados que a demanda toca — não
 - É consistente com o escopo do MVP (`docs/architecture.md` § Escopo MVP)?
 
 ### 3c. Técnica
-- Arquivos afetados, fluxos impactados (sync, pipeline, Supabase)
+- Arquivos afetados, fluxos impactados (sync, pipeline, app_meta.json)
 - Risco de regressão, edge cases (offline, NR revogada, manifest corrompido, falha de scraping)
-- Impacto em custo (Supabase free tier, minutos de GitHub Actions)
+- Impacto em custo (minutos de GitHub Actions)
 
 ### 3d. Fidelidade de conteúdo *(se a demanda toca pipeline/`content/`)*
 - Risco de alterar/reescrever texto normativo?

@@ -18,7 +18,7 @@ Edite `docs/privacy-policy.md` se necessário:
 - App usa conteúdo público do MTE
 - Favoritos armazenados localmente
 - AdMob (política Google)
-- Supabase (metadados leves, sem dados pessoais sensíveis)
+- Metadados leves (`app_meta.json`) vêm do próprio repositório GitHub, sem backend/dados pessoais
 - Contato: seu e-mail
 
 ### 2. Habilitar GitHub Pages

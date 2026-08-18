@@ -33,7 +33,7 @@ Nunca escolher por conta própria uma opção com trade-off real e apresentar co
 
 - Dois ou mais caminhos plausíveis com trade-offs reais (custo vs escopo, UX vs esforço, build vs script manual)
 - Lacuna bloqueante na descoberta sem resposta em `CLAUDE.md`/`docs/architecture.md`
-- Decisão afeta custo de operação (Supabase/GitHub Actions), fidelidade de conteúdo normativo, ou monetização
+- Decisão afeta custo de operação (GitHub Actions, serviços externos), fidelidade de conteúdo normativo, ou monetização
 - Regra de pipeline nova ou ambígua (ex.: como tratar um caso de scraping que não segue o padrão)
 
 ---
@@ -92,7 +92,7 @@ Contras: ...
 Custo/esforço: ...
 ```
 
-Se a demanda tocar arquitetura/custo/Supabase/monetização, considerar mentalmente a perspectiva de um `tech-lead` (arquivos: `docs/architecture.md`) antes de montar as opções — pode acionar o agente `tech-lead` para dar parecer técnico **antes** de perguntar ao usuário, se o trade-off for técnico complexo.
+Se a demanda tocar arquitetura/custo/monetização, considerar mentalmente a perspectiva de um `tech-lead` (arquivos: `docs/architecture.md`) antes de montar as opções — pode acionar o agente `tech-lead` para dar parecer técnico **antes** de perguntar ao usuário, se o trade-off for técnico complexo.
 
 ---
 

@@ -31,7 +31,7 @@ Nenhum script deve parafrasear, resumir ou "melhorar" o conteúdo oficial. `summ
 | `build_manifest.py` | Gera `manifest.json` na raiz do repo |
 | `build_index.py` | Gera `index.json` (navegação) + `search_index.json` (chunks de busca) |
 | `validate_manifest.py` | Valida schema do `manifest.json` |
-| `push_nr_updates.py` | INSERT em `nr_updates` no Supabase (só roda na Action, via `service_role`) |
+| `build_app_meta.py` | Gera `app_meta.json` (feed de atualizações + `min_app_version`) — sem backend, só arquivo commitado |
 
 Todo script novo: `--help` e `--dry-run` obrigatórios; documentar em `scripts/README.md`.
 
@@ -75,11 +75,11 @@ Ver exemplo completo em `docs/architecture.md`. Campos obrigatórios por NR: `id
 
 ---
 
-## Supabase — quem escreve
+## app_meta.json — quem escreve
 
-- Só `push_nr_updates.py`, rodando na GitHub Action, via `service_role`.
-- App só faz `SELECT` — nunca chamar `push_nr_updates.py` fora da Action.
-- `nr_updates` recebe só metadados leves (NR, data, portaria, resumo de 1 linha) — nunca Markdown/PDF/imagem.
+- Só `build_app_meta.py`, rodando na GitHub Action, commitado junto com `manifest.json`.
+- App só lê via GitHub raw — não há backend, não há credencial a proteger.
+- `updates[]` recebe só metadados leves (NR, data, portaria, resumo de 1 linha) — nunca Markdown/PDF/imagem.
 
 ---
 
@@ -94,7 +94,7 @@ Ver exemplo completo em `docs/architecture.md`. Campos obrigatórios por NR: `id
 | Falha numa NR derruba o processamento de todas | Precisa isolamento por NR (`errors[]` + continue) |
 | Script sem `--dry-run`/`--help` | Quebra o padrão dos demais scripts do pipeline |
 | Pular um dos 3 passes por "complexidade baixa" | Proibido — todo NR recebe os 3 passes sempre |
-| `push_nr_updates.py` chamado fora da Action | Só a Action tem `service_role`; script local não deve escrever no Supabase |
+| `build_app_meta.py` rodado antes de `build_manifest.py` | Ele lê `manifest.json` — precisa estar atualizado primeiro |
 
 ---
 

@@ -44,17 +44,14 @@ jobs:
       - name: Validar manifest.json
         run: python3 scripts/validate_manifest.py
 
-      - name: Publicar feed em Supabase (nr_updates)
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python3 scripts/push_nr_updates.py
+      - name: Gerar app_meta.json (feed de atualizações)
+        run: python3 scripts/build_app_meta.py
 
       - name: Commit automático se mudou
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/ manifest.json scripts/nr_index.json
+          git add content/ manifest.json app_meta.json scripts/nr_index.json
           if git diff --cached --quiet; then
             echo "Nenhuma mudança para commitar"
           else

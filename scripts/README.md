@@ -265,24 +265,22 @@ python3 scripts/validate_manifest.py --help            # ajuda
 
 ---
 
-### 9. `push_nr_updates.py` — Publicação em Supabase
+### 9. `build_app_meta.py` — Feed de atualizações (sem backend)
 
-**⚠️ AVISO:** Só deve rodar na GitHub Action com credencial `service_role`. Nunca chame localmente.
-
-Lê `manifest.json`, compara com última entrada em `nr_updates` do Supabase,
-gera summary sem IA (ex.: "Atualizado em [data]"), e insere nova linha por NR que mudou.
+Lê `manifest.json`, compara com a última entrada conhecida em `app_meta.json`
+(se existir), gera summary sem IA (ex.: "Atualizado em [data]"), e acrescenta
+uma entrada por NR que mudou. Mantém só as 200 entradas mais recentes.
 
 **Uso:**
 
 ```bash
-python3 scripts/push_nr_updates.py --supabase-url=https://... --service-key=... 
-python3 scripts/push_nr_updates.py --dry-run    # simula
-python3 scripts/push_nr_updates.py --help       # ajuda
+python3 scripts/build_app_meta.py            # gera/atualiza app_meta.json
+python3 scripts/build_app_meta.py --dry-run  # simula
+python3 scripts/build_app_meta.py --help     # ajuda
 ```
 
-**Environment vars (na Action):**
-- `SUPABASE_URL`
-- `SUPABASE_SERVICE_ROLE_KEY`
+**Output:**
+- `app_meta.json` (raiz do repo) — `min_app_version` + `updates[]`. Commitado pela Action junto com `manifest.json`; o app lê os dois via GitHub raw.
 
 ---
 
@@ -313,9 +311,9 @@ scrape_vigencia.py --all       (metadados de vigência)
     ├→ build_manifest.py
     └→ validate_manifest.py
     ↓
-push_nr_updates.py             (Supabase nr_updates)
+build_app_meta.py              (app_meta.json: feed de atualizações + versão mínima)
     ↓
-git commit + push              (GitHub: content/ + manifest.json)
+git commit + push              (GitHub: content/ + manifest.json + app_meta.json)
 ```
 
 ---
@@ -384,7 +382,7 @@ Ideal para CI ou desenvolvimento offline.
 - ❌ Reescrever conteúdo normativo (só extrair/estruturar)
 - ❌ Classificar NRs por complexidade (A–D) — todas passam pelos 3 passes
 - ❌ Pular um dos 3 passes
-- ❌ Chamar `push_nr_updates.py` fora da Action
+- ❌ Rodar `build_app_meta.py` sem antes gerar um `manifest.json` atualizado (ele lê de lá)
 - ❌ Deixar loop da Action parar por erro numa NR — continua as demais
 - ❌ Esquecer `--dry-run` e `--help` em novo script
 

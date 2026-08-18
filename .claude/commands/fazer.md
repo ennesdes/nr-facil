@@ -48,7 +48,7 @@ Apresentar brevemente (5–12 linhas): decisões de **conteúdo/pipeline** + **t
 Acionar o agente conforme o escopo:
 - **`flutter-senior`** — UI/Dart/GetX/widgets/services em `app/`
 - **`python-pipeline`** — scraping, extração de PDF, manifest/índices em `scripts/`
-- **`tech-lead`** — Supabase (schema/RLS), GitHub Actions, arquitetura, custo, monetização
+- **`tech-lead`** — app_meta.json, GitHub Actions, arquitetura, custo, monetização
 
 Usar em paralelo quando a feature cruzar camadas (ex.: novo campo no manifest → `python-pipeline` gera + `flutter-senior` consome).
 

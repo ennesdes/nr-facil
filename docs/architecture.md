@@ -10,7 +10,7 @@ Referência consolidada. Checklist de execução: [todo.md](../todo.md).
 | Flutter | FVM, versão em `.fvmrc` |
 | Plataforma MVP | Android only |
 | Fonte da verdade | **GitHub** (MD, PDF, manifest, histórico git) |
-| Supabase | Metadados leves apenas — **R$ 0** free tier |
+| Backend | **Nenhum** — feed de atualizações + versão mínima em `app_meta.json` versionado no GitHub — **R$ 0**, sem conta externa |
 | Monetização | AdMob (lançamento); IAP `remove_ads_lifetime` R$ 9,90 (Fase 6, pós-lançamento) |
 | Navegação | Abas **Favoritos** \| **Todos** |
 
@@ -19,16 +19,14 @@ Referência consolidada. Checklist de execução: [todo.md](../todo.md).
 ```
 Portal MTE (PDFs públicos)
         ↓ GitHub Action (diária)
-scripts/ Python (download, convert, manifest)
+scripts/ Python (download, convert, manifest, app_meta)
         ↓ commit
-GitHub (content/ + manifest.json)  ← FONTE DA VERDADE
+GitHub (content/ + manifest.json + app_meta.json)  ← FONTE DA VERDADE
         ↓ HTTP raw
 App Flutter (cache offline local)
-        ↓ SELECT leve
-Supabase (nr_updates, app_versions)
 ```
 
-**O app nunca acessa o MTE diretamente.**
+**O app nunca acessa o MTE diretamente, e não há backend a operar.**
 
 ## Estrutura do monorepo
 
@@ -48,6 +46,7 @@ nr-facil/
 │           ├── tables/
 │           └── pages/
 ├── manifest.json           # índice remoto de todas NRs
+├── app_meta.json           # feed de atualizações + versão mínima
 ├── scripts/
 ├── docs/
 └── .github/workflows/
@@ -114,14 +113,14 @@ Rodar os 3 passes em toda NR custa mais tempo de execução por rodada, mas o li
 
 Script gera `quality_report.json` por NR: `char_ratio`, `warnings[]`, `pages_fallback_png`.
 
-## Supabase mínimo
+## app_meta.json (sem backend)
 
 ### O que armazena
 
-| Tabela | Uso | Tamanho |
-|--------|-----|---------|
-| `app_versions` | Versão mínima do APK | ~10 linhas |
-| `nr_updates` | Feed de atualizações | ~200 linhas/ano |
+| Campo | Uso | Tamanho |
+|-------|-----|---------|
+| `min_app_version` | Versão mínima do APK (editado manualmente quando preciso forçar update) | 1 valor |
+| `updates` | Feed de atualizações, janela rolante | últimas 200 entradas |
 
 ### O que NÃO armazena
 
@@ -129,18 +128,18 @@ Markdown, PDFs, imagens, histórico completo de textos.
 
 ### Schema
 
-Ver [supabase/migration.sql](supabase/migration.sql).
+Gerado por [`scripts/build_app_meta.py`](../scripts/build_app_meta.py) — sem migration, sem projeto externo.
 
 ### Atualizações para o usuário
 
 **Grátis:** NR, data, portaria, resumo 1 linha, botão Abrir, link **Ver versão anterior** (commit GitHub).
 
-**Premium (pós-MVP):** diff inline — calculado localmente ou de 2 commits git, sem storage Supabase.
+**Premium (pós-MVP):** diff inline — calculado localmente ou de 2 commits git, sem storage adicional.
 
 ### Quem escreve
 
-- GitHub Action → INSERT `nr_updates` (service_role)
-- App → SELECT apenas
+- GitHub Action → gera `app_meta.json` e commita junto com `manifest.json`
+- App → só lê via GitHub raw HTTP
 - Script gera `summary` sem IA: "Seções alteradas: 6.3, 6.9"
 
 ## App Flutter
@@ -213,7 +212,7 @@ Lançamento (Fase 5) sai apenas com a coluna grátis + ads. A coluna premium (IA
 3. `scrape_vigencia.py` — extrai metadados de vigência da página HTML, por NR
 4. `convert_nr.py` — se `pdf_hash` mudou, por NR (3 passes + merge)
 5. `build_manifest.py`
-6. `push_nr_updates.py` — Supabase
+6. `build_app_meta.py` — gera `app_meta.json` (feed de atualizações + versão mínima)
 7. git commit + push
 
 **Isolamento de erro por NR:** o loop dos passos 2–4 processa NR por NR. Se uma etapa falhar para uma NR específica (scraping fora do padrão, PDF corrompido, etc.), o script captura o erro, **não atualiza aquela NR** (mantém a versão anterior em `content/`), registra a NR e o motivo em `errors[]`, e segue para a próxima NR. Ao final, se `errors[]` não estiver vazio, o script sai com código de erro — isso falha o job da Action (notificação padrão do GitHub por e-mail, job vermelho), mas o commit já inclui todas as NRs que processaram com sucesso. O log do job mostra exatamente qual(is) NR(s) falharam.
@@ -260,7 +259,7 @@ Cuidados que continuam valendo mesmo sem exigência de licença:
 | Flutter base + leitor | 20 |
 | Busca + favoritos + UX | 10 |
 | Pipeline Python | 10 |
-| CI + Supabase | 5 |
+| CI + app_meta.json | 3 |
 | Ads + publicação (Fase 5) | 12 |
 | **Total lançamento (grátis + ads)** | **~57h** |
 | IAP remove_ads_lifetime (Fase 6) | 3 |

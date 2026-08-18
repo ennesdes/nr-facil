@@ -19,7 +19,7 @@ Crie um plano detalhado para a demanda descrita em $ARGUMENTS.
 ### → Criar plano (continuar abaixo) se QUALQUER item for verdadeiro
 
 - Feature nova ou comportamento que o usuário não tinha antes
-- Toca pipeline de conteúdo, Supabase ou monetização de forma não trivial
+- Toca pipeline de conteúdo, app_meta.json ou monetização de forma não trivial
 - Tela nova ou mudança de rotas
 - Impacto em ≥ 4 arquivos
 - Múltiplas fases ou dependências entre entregas
@@ -122,10 +122,10 @@ Se exceder → dividir em nova fase antes de salvar. Cada fase deve ser executá
 _(máx. 6 tópicos; se precisar de mais, dividir em planos separados)_
 
 ## Escopo
-<O que entra neste plano — app, pipeline, Supabase, CI. Bullets objetivos.>
+<O que entra neste plano — app, pipeline, app_meta.json, CI. Bullets objetivos.>
 
 ## Fora de escopo
-- Não alterar <ex.: schema Supabase>
+- Não alterar <ex.: schema do app_meta.json>
 - Não migrar <ex.: telas existentes fora do fluxo>
 - Não refatorar <ex.: componentes não relacionados>
 
@@ -137,8 +137,8 @@ _(máx. 6 tópicos; se precisar de mais, dividir em planos separados)_
 ### Pipeline Python
 - <N scripts | Nenhum>
 
-### Supabase / manifest
-- <Nenhum | tabelas | schema do manifest.json>
+### app_meta.json / manifest
+- <Nenhum | campos novos | schema do manifest.json>
 
 ### Testes
 - <N cenários previstos>
@@ -172,7 +172,7 @@ Resolver com `/decidir D1` — uma decisão por sessão.
 | Risco | Impacto | Mitigação |
 |-------|---------|-----------|
 | <ex.: regra de scraping ambígua> | Médio | Abrir D1 em Decisões abertas |
-| <ex.: custo Supabase/Actions> | Alto | Estimar volume antes de implementar |
+| <ex.: custo de GitHub Actions/serviço externo> | Alto | Estimar volume antes de implementar |
 
 ## Dependências entre fases
 
@@ -186,7 +186,7 @@ Fase 2 depende de:
 ### Fase 1 — <nome>
 **Objetivo:** <resultado concreto desta fase>
 **Arquivos:** `app/lib/...` ou `scripts/...` *(máx. 5 principais)*
-**Agente sugerido:** `flutter-senior` (app) · `python-pipeline` (scripts) · `tech-lead` (Supabase/arquitetura/custo)
+**Agente sugerido:** `flutter-senior` (app) · `python-pipeline` (scripts) · `tech-lead` (arquitetura/custo)
 **Depende de:** *(nenhuma | Fase N)*
 
 #### Passos

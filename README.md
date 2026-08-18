@@ -26,8 +26,7 @@ Procedure detalhada: [docs/procedures/01-configurar-fvm.md](docs/procedures/01-c
 ## Stack
 
 - **Flutter** (FVM) — app Android
-- **GitHub** — conteúdo versionado (fonte da verdade)
-- **Supabase** — metadados leves (atualizações, versão mínima)
+- **GitHub** — conteúdo versionado (fonte da verdade) + `app_meta.json` (atualizações, versão mínima) — sem backend
 - **AdMob + IAP** — monetização
 
 ## Estrutura

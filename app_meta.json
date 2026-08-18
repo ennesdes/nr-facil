@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-18T02:09:35.639166+00:00",
+  "min_app_version": "0.0.0",
+  "updates": [
+    {
+      "nr_id": "nr-17",
+      "title": "ERGONOMIA",
+      "portaria": null,
+      "pdf_hash": "9f17dd07d1fd3906ed1c658a4d1652acbe18156bbdd961566c9c9d2f342d6fdc",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T02:09:35.638930+00:00"
+    },
+    {
+      "nr_id": "nr-01",
+      "title": "DISPOSIÇÕES GERAIS E GERENCIAMENTO DE RISCOS OCUPACIONAIS",
+      "portaria": null,
+      "pdf_hash": "39e0ced67472db5f6f93235ce5532701247a1b7dddf39fb866c379e605b32a21",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T02:09:35.639139+00:00"
+    },
+    {
+      "nr_id": "nr-06",
+      "title": "EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI",
+      "portaria": null,
+      "pdf_hash": "1af315ea42668d5e37ef63da7007f065be30ad53bd3faaf03ff926e5465147eb",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T02:09:35.639155+00:00"
+    }
+  ]
+}
