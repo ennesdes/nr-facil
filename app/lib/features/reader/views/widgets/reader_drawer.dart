@@ -4,11 +4,11 @@ import 'package:nrfacil/core/models/nr_index.dart';
 /// Drawer com índice de navegação (headings) da NR.
 ///
 /// Exibe uma árvore de headings construída a partir de index.json.
-/// Ao tocar em um heading, navega para ele no leitor.
+/// Ao tocar em um heading, navega para ele no leitor usando o TEXTO do heading.
 class ReaderDrawer extends StatelessWidget {
   final String nrId;
   final NrIndex? index;
-  final Function(String headingId) onNavigate;
+  final Function(String headingText) onNavigate;
 
   const ReaderDrawer({
     required this.nrId,
@@ -102,7 +102,7 @@ class ReaderDrawer extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
             onTap: () {
-              onNavigate(heading.id);
+              onNavigate(heading.text);
               // Fechar drawer
               Navigator.of(context).pop();
             },

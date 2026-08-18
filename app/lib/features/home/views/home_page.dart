@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
 import 'package:nrfacil/features/home/views/widgets/todos_tab.dart';
+import 'package:nrfacil/features/search/views/search_page.dart';
 
 /// HomePage — tela principal com bottom nav (Favoritos/Todos).
 ///
@@ -21,6 +22,15 @@ class HomePage extends GetView<HomeController> {
           title: const Text('NR Fácil'),
           centerTitle: false,
           elevation: 1,
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.search),
+              tooltip: 'Buscar',
+              onPressed: () {
+                Get.to(() => const SearchPage());
+              },
+            ),
+          ],
         ),
         body: IndexedStack(
           index: controller.selectedTab.value,

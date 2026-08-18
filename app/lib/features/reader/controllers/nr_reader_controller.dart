@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
@@ -13,15 +14,18 @@ import 'package:nrfacil/core/utils/app_logger.dart';
 /// - Carregar índice de navegação (headings)
 /// - Gerenciar preferências de exibição (tamanho de fonte, modo escuro)
 /// - Estado do painel de índice (aberto/fechado)
+/// - Navegar para seções específicas por heading (âncora)
 /// - Chamar markNrAsSeen ao abrir
 ///
 /// Uso: GetView com NRReaderController
 class NRReaderController extends GetxController {
   final String nrId;
+  final String? initialAnchor;
   final ContentService _contentService;
 
   NRReaderController({
     required this.nrId,
+    this.initialAnchor,
     required this._contentService,
   });
 
@@ -53,9 +57,19 @@ class NRReaderController extends GetxController {
   /// NR é favorita
   late final Rx<bool> _isFavorite;
 
+  /// Mapa de GlobalKey por heading (normalizado: lowercase+trim)
+  /// Preenchido durante render do conteúdo
+  final Map<String, GlobalKey> _headingKeys = {};
+
+  /// ScrollController para o leitor
+  late final ScrollController _scrollController;
+
   @override
   Future<void> onInit() async {
     super.onInit();
+
+    // Inicializar controllers
+    _scrollController = ScrollController();
 
     // Inicializar estado de favorito
     _isFavorite = _contentService.isFavorite(nrId).obs;
@@ -72,6 +86,7 @@ class NRReaderController extends GetxController {
   @override
   void onClose() {
     _isFavorite.close();
+    _scrollController.dispose();
     super.onClose();
   }
 
@@ -134,13 +149,47 @@ class NRReaderController extends GetxController {
     isIndexOpen.value = !isIndexOpen.value;
   }
 
-  /// Navegar para um heading do índice.
-  /// (Será implementado na View — scroll_controller ou similar)
-  void navigateToHeading(String headingId) {
-    AppLogger.debug('Navegando para heading: $headingId');
+  /// Navegar para um heading (seção) no leitor.
+  /// O parâmetro é o texto do heading (normalizado para lookup).
+  /// Faz scroll até a seção e fecha o índice.
+  void navigateToHeading(String headingText) {
+    final normalizedKey = _normalizeHeadingKey(headingText);
+    final key = _headingKeys[normalizedKey];
+
+    if (key != null && key.currentContext != null) {
+      try {
+        // Usar Scrollable.ensureVisible para fazer scroll
+        Scrollable.ensureVisible(
+          key.currentContext!,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeInOut,
+        );
+        AppLogger.debug('Navegado para heading: $headingText');
+      } catch (e) {
+        AppLogger.warning('Erro ao navegar para heading: $e');
+      }
+    } else {
+      AppLogger.warning('Heading não encontrado: $headingText');
+    }
+
     // Fechar índice após navegação
     isIndexOpen.value = false;
   }
+
+  /// Registrar GlobalKey para um heading.
+  /// Chamado durante o render das seções.
+  void registerHeadingKey(String headingText, GlobalKey key) {
+    final normalizedKey = _normalizeHeadingKey(headingText);
+    _headingKeys[normalizedKey] = key;
+  }
+
+  /// Normalizar chave de heading para lookup (lowercase + trim).
+  String _normalizeHeadingKey(String text) {
+    return text.toLowerCase().trim();
+  }
+
+  /// Getter para ScrollController
+  ScrollController get scrollController => _scrollController;
 
   /// Verificar se esta NR é favorita.
   bool get isFavorite => _isFavorite.value;

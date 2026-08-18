@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 
 import '../../features/home/controllers/home_controller.dart';
 import '../services/content_service.dart';
+import '../services/search_service.dart';
 import '../services/storage_service.dart';
 
 /// AppBinding — injeção de dependência global para serviços principais.
@@ -36,6 +37,12 @@ class AppBinding extends Bindings {
     // ContentService — sincroniza e cache de NRs
     Get.put<ContentService>(
       ContentService(),
+      permanent: true,
+    );
+
+    // SearchService — busca full-text em chunks
+    Get.put<SearchService>(
+      SearchService(contentService: Get.find()),
       permanent: true,
     );
 

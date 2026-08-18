@@ -11,6 +11,7 @@ import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
 import '../models/manifest.dart';
 import '../models/nr_index.dart';
+import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
 
 /// ContentService — sincronizar e cache de NRs offline.
@@ -414,6 +415,32 @@ class ContentService extends GetxService {
       AppLogger.error('Erro ao ler índice de NR $nrId', e, st);
       // Retornar índice vazio em caso de erro
       return NrIndex(headings: []);
+    }
+  }
+
+  /// Ler índice de busca (search_index.json) de uma NR do cache local.
+  ///
+  /// Retorna lista vazia de SearchChunk se arquivo não existir.
+  /// Lança exceção se houver erro de I/O.
+  Future<List<SearchChunk>> readSearchIndex(String nrId) async {
+    try {
+      final searchFile = File('${_cacheDir.path}/content/$nrId/search_index.json');
+
+      if (!searchFile.existsSync()) {
+        AppLogger.debug('Índice de busca de $nrId não encontrado em cache');
+        return [];
+      }
+
+      final content = await searchFile.readAsString();
+      final jsonList = jsonDecode(content) as List<dynamic>;
+      return jsonList
+          .map((e) => SearchChunk.fromMap(
+              e is Map<String, dynamic> ? e : <String, dynamic>{}))
+          .toList();
+    } catch (e, st) {
+      AppLogger.error('Erro ao ler índice de busca de NR $nrId', e, st);
+      // Retornar lista vazia em caso de erro
+      return [];
     }
   }
 

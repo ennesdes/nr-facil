@@ -53,20 +53,6 @@ Não fazer: [fora do escopo]
 
 ## Prompts por fase
 
-### I6 — Busca (Fase 2, item 15)
-
-```
-Fase 2, item 15 do @todo.md
-
-Busca full-text:
-- Carregar search_index.json em memória
-- Tela de resultados com chunk + highlight
-- Navegar para âncora no leitor
-- Filtro local por título na aba Todos (separado)
-
-Meta: < 1s para 38 NRs.
-```
-
 ### I7 — GitHub Action (Fase 3, item 21)
 
 ```

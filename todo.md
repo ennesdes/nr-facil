@@ -38,7 +38,7 @@
 ## Fase 2 — Busca, favoritos e UX (Semana 2)
 
 - [x] 14 Abas Favoritos / Todos
-- [ ] 15 Busca por chunks + highlight → [docs/prompts.md#i6](docs/prompts.md#i6)
+- [x] 15 Busca por chunks + highlight → [docs/prompts.md#i6](docs/prompts.md#i6)
 - [ ] 16 Histórico + card Continuar leitura
 - [ ] 17 Tela Atualizações (sino + badge, não aba)
 - [ ] 18 Aviso legal MTE no app

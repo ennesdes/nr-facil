@@ -3,6 +3,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
+import 'package:nrfacil/features/reader/utils/markdown_utils.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_drawer.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_footer.dart';
@@ -18,11 +19,14 @@ import 'package:url_launcher/url_launcher.dart';
 /// - Links para PDF original no MTE
 /// - Aviso legal fixo
 /// - Opções de dark mode e ajuste de fonte na app bar
+/// - Suporte a navegação para âncora (seção específica por heading)
 class NRReaderPage extends GetView<NRReaderController> {
   final String nrId;
+  final String? initialAnchor;
 
   const NRReaderPage({
     required this.nrId,
+    this.initialAnchor,
     super.key,
   });
 
@@ -31,6 +35,7 @@ class NRReaderPage extends GetView<NRReaderController> {
     return GetBuilder<NRReaderController>(
       init: NRReaderController(
         nrId: nrId,
+        initialAnchor: initialAnchor,
         contentService: Get.find(),
       ),
       builder: (_) => _buildScaffold(context),
@@ -52,8 +57,8 @@ class NRReaderPage extends GetView<NRReaderController> {
         drawer: ReaderDrawer(
           nrId: nrId,
           index: controller.index.value,
-          onNavigate: (headingId) {
-            controller.navigateToHeading(headingId);
+          onNavigate: (headingText) {
+            controller.navigateToHeading(headingText);
           },
         ),
         body: _buildBody(context),
@@ -100,35 +105,56 @@ class NRReaderPage extends GetView<NRReaderController> {
         final isDarkMode = controller.isDarkMode.value;
         final fontSize = controller.fontSize.value;
 
+        // Dividir conteúdo em seções por heading
+        final sections = splitMarkdownBySections(content);
+
+        // Se houver initialAnchor, disparar navegação após render
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (initialAnchor != null && initialAnchor!.isNotEmpty) {
+            controller.navigateToHeading(initialAnchor!);
+          }
+        });
+
         return SingleChildScrollView(
+          controller: controller.scrollController,
           child: Column(
             children: [
-              // Conteúdo Markdown
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: MarkdownBody(
-                  data: content,
-                  selectable: true, // Permite seleção de texto para copiar
-                  softLineBreak: true,
-                  styleSheet: _buildMarkdownStyle(
-                    context,
-                    isDarkMode,
-                    fontSize,
+              // Renderizar seções de conteúdo
+              ...sections.map((section) {
+                final key = GlobalKey();
+                if (section.headingText != null) {
+                  // Registrar a chave no controller
+                  controller.registerHeadingKey(section.headingText!, key);
+                }
+
+                return Padding(
+                  key: key,
+                  padding: const EdgeInsets.all(16.0),
+                  child: MarkdownBody(
+                    data: section.markdownContent,
+                    selectable: true,
+                    softLineBreak: true,
+                    styleSheet: _buildMarkdownStyle(
+                      context,
+                      isDarkMode,
+                      fontSize,
+                    ),
+                    onTapLink: (text, href, title) {
+                      if (href != null) {
+                        _launchUrl(href);
+                      }
+                    },
+                    sizedImageBuilder: (config) {
+                      return image_builder.NrMarkdownImageBuilder(
+                        uri: config.uri,
+                        nrId: nrId,
+                        title: config.title,
+                        alt: config.alt,
+                      );
+                    },
                   ),
-                  onTapLink: (text, href, title) {
-                    if (href != null) {
-                      _launchUrl(href);
-                    }
-                  },
-                  sizedImageBuilder: (config) {
-                    return image_builder.NrMarkdownImageBuilder(
-                      uri: config.uri,
-                      nrId: nrId,
-                      title: config.title,
-                      alt: config.alt,
-                    );
-                  },
-                ),
+                );
+              },
               ),
 
               // Footer com aviso legal
