@@ -2,18 +2,8 @@
   "headings": [
     {
       "level": 1,
-      "text": "**<mark>NR 18 - SEGURANÇA E SAÚDE NO TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO</mark>**",
-      "id": "marknr-18---segurança-e-saúde-no-trabalho-na-indústria-da-construçãomark"
-    },
-    {
-      "level": 1,
       "text": "**SUMÁRIO**",
       "id": "sumário"
-    },
-    {
-      "level": 1,
-      "text": "18.14 Capacitação",
-      "id": "1814-capacitação"
     },
     {
       "level": 1,
@@ -52,11 +42,6 @@
     },
     {
       "level": 1,
-      "text": "**18.7.1** Demolição",
-      "id": "1871-demolição"
-    },
-    {
-      "level": 1,
       "text": "**Tubulão com pressão hiperbárica**",
       "id": "tubulão-com-pressão-hiperbárica"
     },
@@ -64,6 +49,11 @@
       "level": 1,
       "text": "**18.8 Escadas, rampas e passarelas**",
       "id": "188-escadas-rampas-e-passarelas"
+    },
+    {
+      "level": 1,
+      "text": "**18.8.6** Escadas",
+      "id": "1886-escadas"
     },
     {
       "level": 1,
@@ -84,6 +74,11 @@
       "level": 1,
       "text": "**Escada portátil extensível**",
       "id": "escada-portátil-extensível"
+    },
+    {
+      "level": 1,
+      "text": "**18.8.7** Rampas e passarelas",
+      "id": "1887-rampas-e-passarelas"
     },
     {
       "level": 1,
@@ -134,6 +129,11 @@
       "level": 1,
       "text": "**18.12 Andaime e plataforma de trabalho**",
       "id": "1812-andaime-e-plataforma-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "técnicas do fabricante.",
+      "id": "técnicas-do-fabricante"
     },
     {
       "level": 1,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T03:13:21.678391+00:00",
+  "generated_at": "2026-08-18T09:54:31.749272+00:00",
   "min_app_version": "0.0.0",
   "updates": [
     {
@@ -313,6 +313,310 @@
       "pdf_hash": "",
       "summary": "Primeira versão (None)",
       "created_at": "2026-08-18T03:13:21.678367+00:00"
+    },
+    {
+      "nr_id": "nr-29",
+      "title": "NORMA REGULAMENTADORA DE SEGURANÇA E SAÚDE NO TRABALHO PORTUÁRIO",
+      "portaria": "A segunda alteração da norma foi publicada pelaPortaria MTE nº 1.895, de 09 de dezembro de 2013, que atualizou alguns itens e símbolos empregados na n",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748525+00:00"
+    },
+    {
+      "nr_id": "nr-23",
+      "title": "PROTEÇÃO CONTRA INCÊNDIOS",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748591+00:00"
+    },
+    {
+      "nr_id": "nr-28",
+      "title": "FISCALIZAÇÃO E PENALIDADES",
+      "portaria": "NR-28 - FISCALIZAÇÃO E PENALIDADES(Última modificação:Portaria MTE nº 104, de 29 de janeiro de 2026)",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748623+00:00"
+    },
+    {
+      "nr_id": "nr-19",
+      "title": "EXPLOSIVOS",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748648+00:00"
+    },
+    {
+      "nr_id": "nr-01",
+      "title": "DISPOSIÇÕES GERAIS E GERENCIAMENTO DE RISCOS OCUPACIONAIS",
+      "portaria": "No âmbito desse processo, aPortaria MTE nº 342, de 21 de março de 2024aperfeiçoou as disposições relativas ao exercício do direito de recusa pelo trab",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748671+00:00"
+    },
+    {
+      "nr_id": "nr-25",
+      "title": "RESÍDUOS INDUSTRIAIS",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748693+00:00"
+    },
+    {
+      "nr_id": "nr-26",
+      "title": "SINALIZAÇÃO DE SEGURANÇA",
+      "portaria": "Por sua vez, aPortaria MTE nº 704, de 28 de maio de 2015, alterou pontualmente a norma, dispensando das obrigações relativas à rotulagem preventiva os",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748740+00:00"
+    },
+    {
+      "nr_id": "nr-17",
+      "title": "ERGONOMIA",
+      "portaria": "Portaria SSST nº 876/1990",
+      "pdf_hash": "",
+      "summary": "Primeira versão (1990-11-17)",
+      "created_at": "2026-08-18T09:54:31.748767+00:00"
+    },
+    {
+      "nr_id": "nr-38",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO NAS ATIVIDADES DE LIMPEZA URBANA E MANEJO DE RESÍDUOS SÓLIDOS",
+      "portaria": "Posteriormente, aPortaria MTE nº 779, de 19 de maio de 2025, suspendeu por doze meses a aplicação da alínea “a” do item 38.10.7 da NR-38. Durante o pe",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748788+00:00"
+    },
+    {
+      "nr_id": "nr-24",
+      "title": "CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO",
+      "portaria": "Após apreciação dos coordenadores, ficou definido que a proposta que vinha sendo discutida deveria ser submetida à consulta pública e passar pelo proc",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748805+00:00"
+    },
+    {
+      "nr_id": "nr-31",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO NA AGRICULTURA, PECUÁRIA SILVICULTURA, EXPLORAÇÃO FLORESTAL E AQUICULTURA",
+      "portaria": "A norma foi então publicada pelaPortaria MTE nº 86, de 03 de março de 2005, com o título de NR 31 – Segurança e Saúde no Trabalho na Agricultura, Pecu",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748823+00:00"
+    },
+    {
+      "nr_id": "nr-37",
+      "title": "SEGURANÇA E SAÚDE EM PLATAFORMAS DE PETRÓLEO",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748838+00:00"
+    },
+    {
+      "nr_id": "nr-32",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO EM SERVIÇOS DE SAÚDE",
+      "portaria": "As demais normas foram criadas ao longo do tempo, visando assegurar a prevenção da segurança e saúde de trabalhadores em serviços laborais e segmentos",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748853+00:00"
+    },
+    {
+      "nr_id": "nr-14",
+      "title": "FORNOS",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748867+00:00"
+    },
+    {
+      "nr_id": "nr-30",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO AQUAVIÁRIO",
+      "portaria": "Em 2013 e 2014, outros itens da norma também foram atualizados, conformePortaria MTE nº 100, de 17 de janeiro de 2013, ePortaria MTE nº 2.062, de 30 d",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748881+00:00"
+    },
+    {
+      "nr_id": "nr-22",
+      "title": "SEGURANÇA E SAÚDE OCUPACIONAL NA MINERAÇÃO",
+      "portaria": "Após consulta pública e negociação tripartite, a nova redação foi aprovada pelaPortaria MTE nº 2.037, de 15 de dezembro de 1999, e passou a vigorar em",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748895+00:00"
+    },
+    {
+      "nr_id": "nr-34",
+      "title": "CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO, REPARAÇÃO E DESMONTE NAVAL",
+      "portaria": "À épcoa, diversos questionamentos foram feitos pelos estaleiros ao então Ministério do Trabalho, o que levou à constituição da Comissão Tripartite sob",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748909+00:00"
+    },
+    {
+      "nr_id": "nr-21",
+      "title": "TRABALHOS A CÉU ABERTO",
+      "portaria": "Ao longo dos seus quarenta e dois anos de existência, a NR-21 passou por um único processo de alteração, ocorrido com a publicação daPortaria MTE nº 2",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748924+00:00"
+    },
+    {
+      "nr_id": "nr-02",
+      "title": "INSPEÇÃO PRÉVIA",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748938+00:00"
+    },
+    {
+      "nr_id": "nr-09",
+      "title": "AVALIAÇÃO E CONTROLE DAS EXPOSIÇÕES OCUPACIONAIS A AGENTES FÍSICOS, QUÍMICOS E BIOLÓGICOS",
+      "portaria": "O texto base para esse conjunto revisional foi posto em consulta pública pelaPortaria SIT nº 413, de 17 de dezembro de 2013. Após receber sugestões da",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748953+00:00"
+    },
+    {
+      "nr_id": "nr-15",
+      "title": "ATIVIDADES E OPERAÇÕES INSALUBRES",
+      "portaria": "Após a consulta pública, e considerando a então recente publicação daPortaria MTE nº 1.297, de 13 de agosto de 2014, (que revisou o Anexo nº 8 da NR-1",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748969+00:00"
+    },
+    {
+      "nr_id": "nr-27",
+      "title": "REGISTRO PROFISSIONAL DO TÉCNICO DE SEGURANÇA DO TRABALHO",
+      "portaria": "As modificações decorrentes da Portaria SSST nº 13/1995 permaneceram vigentes até o ano de 2008, quando da publicação daPortaria MTE nº 262, de 29 de ",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.748990+00:00"
+    },
+    {
+      "nr_id": "nr-18",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO",
+      "portaria": "NR-18 - SEGURANÇA E SAÚDE NO TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO(Última modificação: Portaria MTE nº 836, de 13 de maio de 2026)",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749006+00:00"
+    },
+    {
+      "nr_id": "nr-11",
+      "title": "TRANSPORTE, MOVIMENTAÇÃO, ARMAZENAGEM E MANUSEIO DE MATERIAIS",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749022+00:00"
+    },
+    {
+      "nr_id": "nr-05",
+      "title": "COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749037+00:00"
+    },
+    {
+      "nr_id": "nr-04",
+      "title": "SERVIÇOS ESPECIALIZADOS EM SEGURANÇA E EM MEDICINA DO TRABALHO",
+      "portaria": "Após deliberações pela CTPP, restou aprovada, durante a75ª Reunião Ordinária, realizada em 26 e 27 de novembro de 2013, a alteração dos itens 4.4 e 4.",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749056+00:00"
+    },
+    {
+      "nr_id": "nr-13",
+      "title": "CALDEIRAS, VASOS DE PRESSÃO E TUBULAÇÕES E TANQUES METÁLICOS DE ARMAZENAMENTO",
+      "portaria": "Posteriormente, a Portaria MTb nº 393/1996 foi substituída pelaPortaria MTE nº 1.127,de 02 de outubro de 2003, de maneira a aperfeiçoar a metodologia ",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749071+00:00"
+    },
+    {
+      "nr_id": "nr-35",
+      "title": "TRABALHO EM ALTURA",
+      "portaria": "Esta proposta de texto foi encaminhada para consulta pública, pelaPortaria MTE nº 232de 09/06/2011, com prazo de encaminhamento de sugestões até 09/08",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749088+00:00"
+    },
+    {
+      "nr_id": "nr-08",
+      "title": "EDIFICAÇÕES",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749102+00:00"
+    },
+    {
+      "nr_id": "nr-03",
+      "title": "EMBARGO E INTERDIÇÃO",
+      "portaria": null,
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749116+00:00"
+    },
+    {
+      "nr_id": "nr-10",
+      "title": "SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE",
+      "portaria": "Desde sua publicação, a NR-10 passou por cinco processos revisionais, compreendendo duas alterações pontuais e três amplas revisões, sendo a mais rece",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749129+00:00"
+    },
+    {
+      "nr_id": "nr-12",
+      "title": "SEGURANÇA NO TRABALHO EM MÁQUINAS E EQUIPAMENTOS",
+      "portaria": "Em decorrência disso, foi constituído um Grupo Técnico (GT), formado por Auditores Fiscais do Trabalho das SRT/SP, SRT/RS, SRT/MG e SRT/PA, além de um",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749143+00:00"
+    },
+    {
+      "nr_id": "nr-07",
+      "title": "PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL",
+      "portaria": "As alterações seguintes da norma envolveram a atualização do conteúdo do Quadro II e seus anexos. Assim, citam-se:Portaria SSST nº 19, de 09 de abril ",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749159+00:00"
+    },
+    {
+      "nr_id": "nr-16",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS",
+      "portaria": "Quanto aos anexos, o Anexo I – Atividades e Operações Perigosas com Explosivos foi alterado pelaPortaria SSMT nº 02, de 02 de fevereiro de 1979. O Ane",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749173+00:00"
+    },
+    {
+      "nr_id": "nr-06",
+      "title": "EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI",
+      "portaria": "Ainda em decorrência dessa revisão da NR-06, que implantou a sistemática de avaliação de EPI para fins de emissão de CA, a então Secretaria de Inspeçã",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749187+00:00"
+    },
+    {
+      "nr_id": "nr-20",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO COM INFLAMÁVEIS E COMBUSTÍVEIS",
+      "portaria": "NR-20 - SEGURANÇA E SAÚDE NO TRABALHO COM INFLAMÁVEIS E COMBUSTÍVEIS(Última modificação:Portaria MTE nº 60, de 21 de janeiro de 2025)",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749201+00:00"
+    },
+    {
+      "nr_id": "nr-36",
+      "title": "SEGURANÇA E SAÚDE NO TRABALHO EM EMPRESAS DE ABATE E PROCESSAMENTO DE CARNES E DERIVADOS",
+      "portaria": "Nesse sentido, a NR-36 foi publicada pelaPortaria MTE nº 555, de 18 de abril de 2013. De acordo com aPortaria SIT nº 787, de 28 de novembro de 2018, a",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749216+00:00"
+    },
+    {
+      "nr_id": "nr-33",
+      "title": "SEGURANÇA E SAÚDE NOS TRABALHOS EM ESPAÇOS CONFINADOS",
+      "portaria": "Na47ª Reunião OrdináriadaComissão Tripartite Paritária Permanente (CTPP)*, realizada em Brasília/DF, no dia 14 de setembro de 2006, foi aprovado o tex",
+      "pdf_hash": "",
+      "summary": "Primeira versão (None)",
+      "created_at": "2026-08-18T09:54:31.749253+00:00"
     }
   ]
 }
