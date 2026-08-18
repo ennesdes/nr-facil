@@ -24,18 +24,26 @@ jobs:
         run: python3 scripts/discover_nrs.py
 
       - name: Detectar mudanças (hash do PDF)
+        id: update_nrs
+        continue-on-error: true
         run: python3 scripts/update_nrs.py
 
       - name: Metadados de vigência
+        id: vigencia
+        continue-on-error: true
         run: python3 scripts/scrape_vigencia.py --all
 
       - name: Converter PDF → Markdown
+        id: convert
+        continue-on-error: true
         run: python3 scripts/convert_nr.py --all
 
       - name: Normalizar Markdown
         run: python3 scripts/normalize_md.py --all
 
       - name: Gerar índices (navegação + busca)
+        id: build_index
+        continue-on-error: true
         run: python3 scripts/build_index.py --all
 
       - name: Gerar manifest.json
@@ -58,3 +66,9 @@ jobs:
             git commit -m "chore: atualiza NRs"
             git push
           fi
+
+      - name: Falhar job se alguma etapa teve erro isolado por NR
+        if: steps.update_nrs.outcome == 'failure' || steps.vigencia.outcome == 'failure' || steps.convert.outcome == 'failure' || steps.build_index.outcome == 'failure'
+        run: |
+          echo "Uma ou mais etapas tiveram erro isolado por NR (ver logs acima) — commit já feito com as NRs que processaram com sucesso."
+          exit 1
