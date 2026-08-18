@@ -11,6 +11,7 @@ import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
 import '../models/manifest.dart';
 import '../models/nr_index.dart';
+import '../models/reading_history_entry.dart';
 import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
 
@@ -495,5 +496,114 @@ class ContentService extends GetxService {
   /// Retorna null se nenhuma NR foi aberta.
   String? get lastOpenedNrId {
     return GetStorage().read<String?>(StorageKeys.lastOpenedNr);
+  }
+
+  /// Adicionar ou atualizar entrada no histórico de leitura.
+  ///
+  /// Se a NR já existe no histórico, atualiza timestamp e posição de scroll.
+  /// Mantém as últimas ~20 NRs lidas (FIFO).
+  void addToReadingHistory(String nrId, {double scrollPosition = 0.0}) {
+    try {
+      final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
+      final historyList = savedList ?? [];
+
+      // Converter para ReadingHistoryEntry
+      final history = historyList
+          .map((item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .toList();
+
+      // Remover entrada anterior se existir (para reposicionar no topo)
+      history.removeWhere((entry) => entry.nrId == nrId);
+
+      // Adicionar nova entrada no topo
+      history.insert(
+        0,
+        ReadingHistoryEntry(
+          nrId: nrId,
+          lastAccessedAt: DateTime.now(),
+          scrollPosition: scrollPosition,
+        ),
+      );
+
+      // Manter apenas as últimas 20 entradas
+      if (history.length > 20) {
+        history.removeRange(20, history.length);
+      }
+
+      // Salvar em storage
+      final mapList = history.map((e) => e.toMap()).toList();
+      GetStorage().write(StorageKeys.readingHistory, mapList);
+
+      AppLogger.debug('NR $nrId adicionada ao histórico de leitura');
+    } catch (e, st) {
+      AppLogger.error('Erro ao adicionar ao histórico de leitura', e, st);
+      // Continuar sem falhar
+    }
+  }
+
+  /// Obter histórico de leitura (ordenado por acesso recente).
+  ///
+  /// Retorna lista vazia se nada foi lido.
+  List<ReadingHistoryEntry> getReadingHistory() {
+    try {
+      final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
+      if (savedList == null) return [];
+
+      return savedList
+          .map((item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .toList();
+    } catch (e, st) {
+      AppLogger.error('Erro ao carregar histórico de leitura', e, st);
+      return [];
+    }
+  }
+
+  /// Obter posição de scroll salva para uma NR.
+  ///
+  /// Retorna 0.0 se nenhuma posição foi salva.
+  double getScrollPosition(String nrId) {
+    try {
+      final history = getReadingHistory();
+      final entry = history.firstWhere(
+        (e) => e.nrId == nrId,
+        orElse: () => ReadingHistoryEntry(
+          nrId: nrId,
+          lastAccessedAt: DateTime.now(),
+        ),
+      );
+      return entry.scrollPosition;
+    } catch (e) {
+      AppLogger.debug('Sem posição de scroll salva para $nrId');
+      return 0.0;
+    }
+  }
+
+  /// Salvar posição de scroll para uma NR.
+  ///
+  /// Atualiza entrada existente no histórico.
+  void saveScrollPosition(String nrId, double scrollPosition) {
+    try {
+      final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
+      final historyList = savedList ?? [];
+
+      final history = historyList
+          .map((item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .toList();
+
+      // Encontrar e atualizar entrada
+      final index = history.indexWhere((e) => e.nrId == nrId);
+      if (index >= 0) {
+        history[index] = history[index].copyWith(scrollPosition: scrollPosition);
+        final mapList = history.map((e) => e.toMap()).toList();
+        GetStorage().write(StorageKeys.readingHistory, mapList);
+        AppLogger.debug('Posição de scroll salva para $nrId: $scrollPosition');
+      }
+    } catch (e, st) {
+      AppLogger.error('Erro ao salvar posição de scroll', e, st);
+      // Continuar sem falhar
+    }
   }
 }

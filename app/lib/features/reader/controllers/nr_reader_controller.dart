@@ -78,14 +78,37 @@ class NRReaderController extends GetxController {
     // Marcar NR como vista após carregamento bem-sucedido
     if (error.value == null) {
       _contentService.markNrAsSeen(nrId);
-      // Gravar como última NR aberta
+      // Gravar como última NR aberta e adicionar ao histórico
       GetStorage().write(StorageKeys.lastOpenedNr, nrId);
+      _contentService.addToReadingHistory(nrId);
     }
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+    // Restaurar posição de scroll após o build da página
+    // Usar microtask para garantir que o scroll tenha clientes
+    Future.microtask(() {
+      if (error.value == null && _scrollController.hasClients) {
+        final scrollPosition = _contentService.getScrollPosition(nrId);
+        if (scrollPosition > 0) {
+          _scrollController.jumpTo(scrollPosition);
+          AppLogger.debug('Posição de scroll restaurada: $scrollPosition');
+        }
+      }
+    });
   }
 
   @override
   void onClose() {
     _isFavorite.close();
+
+    // Salvar posição de scroll antes de fechar
+    if (_scrollController.hasClients) {
+      _contentService.saveScrollPosition(nrId, _scrollController.offset);
+    }
+
     _scrollController.dispose();
     super.onClose();
   }
