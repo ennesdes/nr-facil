@@ -1,80 +1,86 @@
 [
   {
     "id": "chunk-0",
-    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º 3.214, de 08 de junho de 1978|06/07/78|\n|**Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º 25, de 27 de junho de 1989|28/06/89|\n|Portaria DSST n.º 06, de 12 de junho de 1990|13/06/90|\n|Portaria DSST n.º 11, de 17 de setembro de 1990|20/09/90|",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 1
+    "text": "~~**NR 27 -**~~ ~~**Registro Profissional do Técnico de Segurança do Trabalho**~~\n**Publicação** **D.O.U.**\nPortaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78\n**Atualizações** **D.O.U.**\nPortaria SSMT n.º 25, de 27 de junho de 1989   28/06/89\nPortaria DSST n.º 06, de 12 de junho de 1990   13/06/90",
+    "heading": "Introdução",
+    "char_offset": 3
   },
   {
     "id": "chunk-1",
-    "text": "|Portaria SNT n.º 04, de 06 de fevereiro de 1992|21/02/92|\n|Portaria DSST n.º 01 de 19 de maio de 1992|22/05/92|\n|Portaria SSST n.º 08, de 01 de junho de 1993|03/06/93|\n|Portaria SSST n.º 09, de 01 de julho de 1993|02/07/93|\n|Portaria SSST n.º 10, de 01 de julho de 1993|05/07/93|",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 298
+    "text": "Portaria DSST n.º 11, de 17 de setembro de 1990   20/09/90\nPortaria SNT n.º 04, de 06 de fevereiro de 1992   21/02/92\nPortaria DSST n.º 01 de 19 de maio de 1992   22/05/92\nPortaria SSST n.º 08, de 01 de junho de 1993   03/06/93\nPortaria SSST n.º 09, de 01 de julho de 1993   02/07/93",
+    "heading": "Introdução",
+    "char_offset": 310
   },
   {
     "id": "chunk-2",
-    "text": "|Portaria SSST n.º 13, de 17 de setembro de 1993|21/09/93|\n|Portaria SSST n.º 13, de 20 de dezembro de 1995|22/12/95|\n|Portaria MTE n.º 262, de 29 de maio de 2008|30/05/08|\n**REVOGADA pela PORTARIA n.º 262, de 29 de maio de 2008, publicada no DOU de 30/05/2008**",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 580
+    "text": "Portaria SSST n.º 10, de 01 de julho de 1993   05/07/93\nPortaria SSST n.º 13, de 17 de setembro de 1993   21/09/93\nPortaria SSST n.º 13, de 20 de dezembro de 1995   22/12/95\nPortaria MTE n.º 262, de 29 de maio de 2008   30/05/08\n**REVOGADA pela PORTARIA n.º 262, de 29 de maio de 2008, publicada no DOU de 30/05/2008**",
+    "heading": "Introdução",
+    "char_offset": 596
   },
   {
     "id": "chunk-3",
-    "text": "**~~27.1~~** ~~O exercício da profissão do TÉCNICO DE SEGURANÇA DO TRABALHO depende de prévio registro no Ministério do Trabalho, efetuado pela Secretaria de Segurança e Saúde no Trabalho até que seja instalado o respectivo conselho profissional.~~",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 845
+    "text": "~~**27.1**~~ ~~O exercício da profissão do TÉCNICO DE SEGURANÇA DO TRABALHO depende de prévio registro no Ministério~~\n~~do Trabalho, efetuado pela Secretaria de Segurança e Saúde no Trabalho até que seja instalado o respectivo conselho~~\n~~profissional.~~",
+    "heading": "Introdução",
+    "char_offset": 916
   },
   {
     "id": "chunk-4",
-    "text": "**~~27.2~~** ~~O registro de TÉCNICO DE SEGURANÇA DO TRABALHO será efetuado pela Secretaria de Segurança e Saúde no Trabalho, com processo iniciado através das Delegacias Regionais do Trabalho - DRT e concedido:~~ \n- ~~a) ao portador de certificado de conclusão de ensino de 2º grau de Técnico de Segurança do Trabalho, com currículo oficial aprovado pelo Ministério da Educação e Cultura - MEC e realizado em estabelecimento de ensino de segundo grau reconhecido no País;~~",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 1097
+    "text": "~~**27.2**~~ ~~O registro de TÉCNICO DE SEGURANÇA DO TRABALHO será efetuado pela Secretaria de Segurança e Saúde no~~\n~~Trabalho, com processo iniciado através das Delegacias Regionais do Trabalho - DRT e concedido:~~\n~~a)~~ ~~ao portador de certificado de conclusão de ensino de 2º grau de Técnico de Segurança do Trabalho, com currículo oficial~~",
+    "heading": "Introdução",
+    "char_offset": 1175
   },
   {
     "id": "chunk-5",
-    "text": "- ~~b) ao portador de certificado de conclusão de ensino de 2º grau e de curso de formação profissionalizante pós- segundo grau de Técnico de Segurança do Trabalho, com currículo oficial aprovado pelo MEC e realizado em estabelecimento de ensino de segundo grau reconhecido no País;~~",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 1574
+    "text": "~~aprovado pelo Ministério da Educação e Cultura - MEC e realizado em estabelecimento de ensino de segundo grau~~\n~~reconhecido no País;~~\n~~b)~~ ~~ao portador de certificado de conclusão de ensino de 2º grau e de curso de formação profissionalizante pós- segundo grau~~",
+    "heading": "Introdução",
+    "char_offset": 1526
   },
   {
     "id": "chunk-6",
-    "text": "~~c) ao portador de registro de Supervisor de Segurança do Trabalho emitido pelo Ministério do Trabalho;~~ \n- ~~d) ao portador de certificado de conclusão de curso realizado no exterior e reconhecido no Brasil, de acordo com a legislação em vigor.~~",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 1862
+    "text": "~~de Técnico de Segurança do Trabalho, com currículo oficial aprovado pelo MEC e realizado em estabelecimento de~~\n~~ensino de segundo grau reconhecido no País;~~\n~~c)~~ ~~ao portador de registro de Supervisor de Segurança do Trabalho emitido pelo Ministério do Trabalho;~~",
+    "heading": "Introdução",
+    "char_offset": 1799
   },
   {
     "id": "chunk-7",
-    "text": "**~~27.3~~** ~~O requerimento para o registro deverá ser preenchido pelo interessado de conformidade com o modelo Anexo e entregue diretamente nas Delegacias Regionais do Trabalho, ou encaminhado às DRT’s através dos Sindicatos de Técnicos de Segurança do Trabalho ou Associações de Técnicos de Segurança do Trabalho.~~",
-    "heading": "**~~NR 27 - Registro Profissional do Técnico de Segurança do Trabalho~~**",
-    "char_offset": 2114
+    "text": "~~d)~~ ~~ao portador de certificado de conclusão de curso realizado no exterior e reconhecido no Brasil, de acordo com a~~\n~~legislação em vigor.~~\n~~**27.3**~~ ~~O requerimento para o registro deverá ser preenchido pelo interessado de conformidade com o modelo Anexo e~~",
+    "heading": "Introdução",
+    "char_offset": 2076
   },
   {
     "id": "chunk-8",
-    "text": "- ~~a) cópia autenticada do documento comprobatório de formação profissional, constantes nas alíneas “a” , “b”, “c” ou “d” do item 27.2 desta NR (frente e verso, se for o caso);~~ \n~~b) cópia autenticada da Carteira de Identidade (RG)~~",
-    "heading": "**~~ANEXO~~**",
-    "char_offset": 2677
+    "text": "~~entregue diretamente nas Delegacias Regionais do Trabalho, ou encaminhado às DRT’s através dos Sindicatos de Técnicos~~\n~~de Segurança do Trabalho ou Associações de Técnicos de Segurança do Trabalho.~~\n~~**27.3.1**~~ ~~O requerimento deverá ser acompanhado da seguinte documentação:~~",
+    "heading": "Introdução",
+    "char_offset": 2349
   },
   {
     "id": "chunk-9",
-    "text": "Secretário de Segurança e Saúde no Trabalho Ministério do Trabalho Brasília – DF \nRef. **REGISTRO DE TÉCNICO DE SEGURANÇA DO TRABALHO** \nSenhor Secretário,<br>                             Solicito a V.Sa. o registro de Técnico de Segurança do Trabalho,<br>conforme a Portaria n.º 13, de 20/12/95, para o que anexo as cópias autenticadas dos<br>seguintes documentos:<br>CÉDULA DE IDENTIDADE (RG)<br>CERTIFICADO DE CONCLUSÃO DO CURSO DE<br>TÉCNICO DE SEGURANÇA DO TRABALHO<br>OUTROS<br>NOME<br>IDENTIDADE (RG)                                                                              ÓRGÃO EMISSOR<br>-<br>ENDEREÇO<br>BAIRRO<br>CIDADE UF<br>CEP                                                                      FONE<br>-<br>__________________, _______  de _____________ de 199__<br>                               __________________________<br>assinatura<br>Obs:  preencher corretamente, pois estes dados serão utilizados para a confecção da carteira.<br><!-- End of picture text -->",
-    "heading": "Ao",
-    "char_offset": 2712
+    "text": "~~a)~~ ~~cópia autenticada do documento comprobatório de formação profissional, constantes nas alíneas “a”, “b”, “c” ou “d” do~~\n~~item 27.2 desta NR (frente e verso, se for o caso);~~\n~~b)~~ ~~cópia autenticada da Carteira de Identidade (RG)~~\n~~**ANEXO**~~",
+    "heading": "Introdução",
+    "char_offset": 2640
   },
   {
     "id": "chunk-10",
-    "text": "> [Tabela 1: page 2](../assets/tables/page_002_table_00.html)\n> [Tabela 2: page 2](../assets/tables/page_002_table_01.html)\n> [Tabela 3: page 2](../assets/tables/page_002_table_02.html)\n> [Tabela 4: page 2](../assets/tables/page_002_table_03.html)\n> [Tabela 5: page 2](../assets/tables/page_002_table_04.html)",
+    "text": "Ao\nSecretário de Segurança e Saúde no Trabalho\nMinistério do Trabalho\nBrasília – DF\nRef. **REGISTRO DE TÉCNICO DE SEGURANÇA DO TRABALHO**",
     "heading": "Tabelas",
-    "char_offset": 3705
+    "char_offset": 3042
   },
   {
     "id": "chunk-11",
-    "text": "> [Tabela 6: page 2](../assets/tables/page_002_table_05.html)\n> [Tabela 7: page 2](../assets/tables/page_002_table_06.html)\n> [Tabela 8: page 2](../assets/tables/page_002_table_07.html)\n> [Tabela 9: page 2](../assets/tables/page_002_table_08.html)\n> [Tabela 10: page 2](../assets/tables/page_002_table_09.html)",
+    "text": "> [Tabela 1: page 2](../assets/tables/page_002_table_00.html)\n> [Tabela 2: page 2](../assets/tables/page_002_table_01.html)\n> [Tabela 3: page 2](../assets/tables/page_002_table_02.html)\n> [Tabela 4: page 2](../assets/tables/page_002_table_03.html)\n> [Tabela 5: page 2](../assets/tables/page_002_table_04.html)",
     "heading": "Tabelas",
-    "char_offset": 4020
+    "char_offset": 3047
   },
   {
     "id": "chunk-12",
-    "text": "> [Tabela 11: page 2](../assets/tables/page_002_table_10.html)\n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n-->",
+    "text": "> [Tabela 6: page 2](../assets/tables/page_002_table_05.html)\n> [Tabela 7: page 2](../assets/tables/page_002_table_06.html)\n> [Tabela 8: page 2](../assets/tables/page_002_table_07.html)\n> [Tabela 9: page 2](../assets/tables/page_002_table_08.html)\n> [Tabela 10: page 2](../assets/tables/page_002_table_09.html)",
     "heading": "Tabelas",
-    "char_offset": 4379
+    "char_offset": 3362
+  },
+  {
+    "id": "chunk-13",
+    "text": "> [Tabela 11: page 2](../assets/tables/page_002_table_10.html)",
+    "heading": "Tabelas",
+    "char_offset": 3675
   }
 ]

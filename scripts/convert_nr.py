@@ -139,25 +139,35 @@ def extract_tables_pass(pdf_file: Path, nr_id: str) -> str:
 
 
 def extract_images_pass(pdf_file: Path, nr_id: str) -> str:
-    """Pass 3: Render de páginas → PNG em assets/pages/."""
-    logger.info(f"{nr_id}: Pass 3 — Render de páginas")
+    """Pass 3: Render só das páginas com imagem/diagrama embutido → PNG em assets/pages/."""
+    logger.info(f"{nr_id}: Pass 3 — Render de páginas com imagem")
 
     pages_dir = ensure_assets_dir(nr_id, "pages")
     images_markdown = ""
 
+    # Limpa PNGs de uma conversão anterior — evita órfãos de páginas que
+    # tinham imagem antes e não têm mais (ou vice-versa)
+    for old_png in pages_dir.glob("page-*.png"):
+        old_png.unlink()
+
     try:
         doc = fitz.open(str(pdf_file))
+        rendered = 0
         for page_num, page in enumerate(doc, start=1):
+            if not page.get_images(full=True):
+                continue  # sem imagem embutida — texto já coberto pelo Pass 1
+
             # Render com zoom 2x para melhor qualidade
             pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
             img_file = pages_dir / f"page-{page_num:03d}.png"
             pix.save(str(img_file))
-            logger.debug(f"  Page {page_num} renderizada")
+            rendered += 1
+            logger.debug(f"  Page {page_num} renderizada (tem imagem)")
 
             # Referencia no markdown (entre páginas de capítulos, se houver)
             images_markdown += f"\n> ![Page {page_num}](../assets/pages/page-{page_num:03d}.png)\n"
 
-        logger.info(f"  {len(doc)} páginas renderizadas")
+        logger.info(f"  {rendered}/{len(doc)} páginas com imagem renderizadas")
         doc.close()
         return images_markdown
 
@@ -182,21 +192,25 @@ def merge_passes(text_md: str, tables_md: str, images_md: str, nr_id: str) -> st
 
 
 def save_metadata(nr_id: str, pdf_hash: str, md_text: str) -> None:
-    """Salva metadata básica em content/nr-XX/meta.json (se não existir)."""
+    """Salva pdf_hash/char_count em content/nr-XX/meta.json, mesclando com
+    o que já existir (ex.: campos de vigência gravados por scrape_vigencia.py)."""
     nr_dir = ensure_content_dir(nr_id)
     meta_file = nr_dir / "meta.json"
 
-    # Se já existe, não sobrescreve (scrape_vigencia.py preenche depois)
+    existing = {}
     if meta_file.exists():
-        return
+        try:
+            existing = json.loads(meta_file.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            existing = {}
 
-    meta = {
+    merged = {
+        **existing,
         "pdf_hash": pdf_hash,
         "char_count": len(md_text),
-        "extracted_at": None,  # será preenchido por scrape_vigencia.py
     }
 
-    meta_file.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    meta_file.write_text(json.dumps(merged, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def convert_nr(nr_id: str, dry_run: bool = False, pdf_bytes: bytes | None = None) -> bool:

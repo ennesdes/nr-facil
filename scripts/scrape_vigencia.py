@@ -196,10 +196,19 @@ def main() -> int:
                 logger.info(f"[DRY-RUN] {nr_id}: teria gravado meta.json")
                 logger.debug(json.dumps(meta, indent=2, ensure_ascii=False))
             else:
-                # Grava em content/nr-XX/meta.json
+                # Grava em content/nr-XX/meta.json — mescla com o que já existe
+                # (ex.: pdf_hash/char_count gravados por convert_nr.py) em vez
+                # de sobrescrever, senão perde esses campos
                 meta_file = nr_dir / "meta.json"
+                existing = {}
+                if meta_file.exists():
+                    try:
+                        existing = json.loads(meta_file.read_text(encoding="utf-8"))
+                    except json.JSONDecodeError:
+                        existing = {}
+                merged = {**existing, **meta}
                 meta_file.write_text(
-                    json.dumps(meta, indent=2, ensure_ascii=False) + "\n",
+                    json.dumps(merged, indent=2, ensure_ascii=False) + "\n",
                     encoding="utf-8"
                 )
                 logger.info(f"✓ {nr_id}: meta.json salvo")

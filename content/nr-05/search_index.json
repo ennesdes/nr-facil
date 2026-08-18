@@ -1,566 +1,662 @@
 [
   {
     "id": "chunk-0",
-    "text": "_(Alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ \n|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º33, de 27 de outubro de 1983|31/10/83|",
-    "heading": "**NR 05 - COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES E DE ASSÉDIO - CIPA**",
+    "text": "**NR 05 - COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES E DE ASSÉDIO - CIPA**\n_(Alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\n**Publicação** **D.O.U.**\n[Portaria MTb n.º 3.214, de 08 de junho de 1978](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1978/portaria_3-214_aprova_as_nrs.pdf) 06/07/78",
+    "heading": "Introdução",
     "char_offset": 2
   },
   {
     "id": "chunk-1",
-    "text": "|Portaria SSST n.º25, de 29 de dezembro de 1994|Rep. 15/12/95|\n|Portaria SSST n.º08, de 23 de fevereiro de 1999|Retf. 10/05/99|\n|Portaria SSST n.º15, de 26 de fevereiro de 1999|01/03/99|\n|Portaria SSST n.º24, de 27 de maio de 1999|28/05/99|\n|Portaria SSST n.º25, de 27 de maio de 1999|28/05/99|",
-    "heading": "**NR 05 - COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES E DE ASSÉDIO - CIPA**",
-    "char_offset": 263
+    "text": "**Alterações/Atualizações** **D.O.U.**\n[Portaria SSMT n.º 33, de 27 de outubro de 1983](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1983/portaria_33_83_altera_nr_04_e_nr_05.pdf/view) 31/10/83",
+    "heading": "Introdução",
+    "char_offset": 386
   },
   {
     "id": "chunk-2",
-    "text": "|Portaria SSST n.º16, de 10 de maio de 2001|11/05/01|\n|Portaria SIT n.º14, de 21 de junho de 2007|26/06/07|\n|Portaria SIT n.º247, de 12 de julho de 2011|14/07/11|\n|Portaria SEPRT n.º915, de 30 de julho de 2019|31/07/19|\n|Portaria MTP n.º422, de 07 de outubro de 2021|08/10/21|",
-    "heading": "**NR 05 - COMISSÃO INTERNA DE PREVENÇÃO DE ACIDENTES E DE ASSÉDIO - CIPA**",
-    "char_offset": 558
+    "text": "[Portaria SSST n.º 25, de 29 de dezembro de 1994](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1994/portaria_25_aprova_a_nr_09_e_altera_a_nr_5_e_16.pdf/view) Rep. 15/12/95\n[Portaria SSST n.º 08, de 23 de fevereiro de 1999](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1999/portaria_08_altera_a_nr_05.pdf/view) Retf. 10/05/99",
+    "heading": "Introdução",
+    "char_offset": 652
   },
   {
     "id": "chunk-3",
-    "text": "|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|\n_(Texto dado pela Portaria MTP n.º 422, de 07 de outubro de 2021)_",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 965
+    "text": "[Portaria SSST n.º 15, de 26 de fevereiro de 1999](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1999/portaria_15_cipa_transporte.pdf/view) 01/03/99\n[Portaria SSST n.º 24, de 27 de maio de 1999](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1999/portaria_24_nr_05_nr_18.pdf/view) 28/05/99",
+    "heading": "Introdução",
+    "char_offset": 1123
   },
   {
     "id": "chunk-4",
-    "text": "5.1 Objetivo \n5.2 Campo de aplicação \n5.3 Atribuições \n5.4 Constituição e estruturação \n5.5 Processo eleitoral \n5.6 Funcionamento \n5.7 Treinamento \n5.8 CIPA das organizações contratadas para prestação de serviços \n5.9 Disposições finais \nAnexo I - CIPA da Indústria da Construção",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 975
+    "text": "[Portaria SSST n.º 25, de 27 de maio de 1999](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1999/portaria_25_dimensionamento_transporte.pdf/view) 28/05/99\n[Portaria SSST n.º 16, de 10 de maio de 2001](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2001/portaria_16_cipa_transporte.pdf/view) 11/05/01",
+    "heading": "Introdução",
+    "char_offset": 1556
   },
   {
     "id": "chunk-5",
-    "text": "**5.1.1** Esta norma regulamentadora - NR estabelece dos parâmetros e os requisitos da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA tendo por objetivo a prevenção de acidentes e doenças relacionadas ao trabalho, de modo a tornar compatível permanentemente o trabalho com a preservação da vida e promoção da saúde do trabalhador. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
-    "heading": "**5.1 Objetivo**",
-    "char_offset": 1258
+    "text": "[Portaria SIT n.º 14, de 21 de junho de 2007](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2007/portaria_14_nr_05_cnae_2-0.pdf/view) 26/06/07\n[Portaria SIT n.º 247, de 12 de julho de 2011](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2011/portaria_247_altera_a_nr_05.pdf/view) 14/07/11",
+    "heading": "Introdução",
+    "char_offset": 1999
   },
   {
     "id": "chunk-6",
-    "text": "**5.2.1** As organizações e os órgãos públicos da administração direta e indireta, bem como os órgãos dos Poderes Legislativo, Judiciário e Ministério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT, devem constituir e manter CIPA.",
-    "heading": "**5.2 Campo de aplicação**",
-    "char_offset": 1675
+    "text": "[Portaria SEPRT n.º 915, de 30 de julho de 2019](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2019/portaria_seprt_915_-aprova_a_nova_nr_01.pdf/view) 31/07/19\n[Portaria MTP n.º 422, de 07 de outubro de 2021](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2021/portaria-mtp-n-o-422-altera-a-nr-5.pdf/view) 08/10/21",
+    "heading": "Introdução",
+    "char_offset": 2431
   },
   {
     "id": "chunk-7",
-    "text": "**5.2.2** Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas de trabalho.",
-    "heading": "**5.3 Atribuições**",
-    "char_offset": 2058
+    "text": "[Portaria MTP n.º 4.219, de 20 de dezembro de 2022](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-no-4-219-altera-nrs-cipa.pdf/view) 22/12/22\n_(Texto dado pela Portaria MTP n.º 422, de 07 de outubro de 2021)_",
+    "heading": "Introdução",
+    "char_offset": 2889
   },
   {
     "id": "chunk-8",
-    "text": "a) acompanhar o processo de identificação de perigos e avaliação de riscos bem como a adoção de medidas de prevenção implementadas pela organização; \nb) registrar a percepção dos riscos dos trabalhadores, em conformidade com o subitem 1.5.3.3 da NR-01, por meio do mapa de risco ou outra técnica ou ferramenta apropriada à sua escolha, sem ordem de preferência, com assessoria do Serviço Especializado em Segurança e em Medicina do Trabalho - SESMT, onde houver;",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 2061
+    "text": "**SUMÁRIO**\n5.1 Objetivo\n5.2 Campo de aplicação\n5.3 Atribuições\n5.4 Constituição e estruturação\n5.5 Processo eleitoral\n5.6 Funcionamento\n5.7 Treinamento\n5.8 CIPA das organizações contratadas para prestação de serviços\n5.9 Disposições finais\nAnexo I - CIPA da Indústria da Construção",
+    "heading": "Introdução",
+    "char_offset": 3193
   },
   {
     "id": "chunk-9",
-    "text": "c) verificar os ambientes e as condições de trabalho visando identificar situações que possam trazer riscos para a segurança e saúde dos trabalhadores; \nd) elaborar e acompanhar plano de trabalho que possibilite a ação preventiva em segurança e saúde no trabalho;",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 2527
+    "text": "**5.1** **Objetivo**\n**5.1.1** Esta norma regulamentadora - NR estabelece dos parâmetros e os requisitos da Comissão\nInterna de Prevenção de Acidentes e de Assédio - CIPA tendo por objetivo a prevenção de\nacidentes e doenças relacionadas ao trabalho, de modo a tornar compatível permanentemente",
+    "heading": "Introdução",
+    "char_offset": 3478
   },
   {
     "id": "chunk-10",
-    "text": "e) participar no desenvolvimento e implementação de programas relacionados à segurança e saúde no trabalho; \nf) acompanhar a análise dos acidentes e doenças relacionadas ao trabalho, nos termos da NR-1 e propor, quando for o caso, medidas para a solução dos problemas identificados;",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 2794
+    "text": "o trabalho com a preservação da vida e promoção da saúde do trabalhador. _(alterado pela Portaria_\n_MTP nº 4.219, de 20 de dezembro de 2022)_\n**5.2** **Campo de aplicação**\n**5.2.1** As organizações e os órgãos públicos da administração direta e indireta, bem como os",
+    "heading": "Introdução",
+    "char_offset": 3775
   },
   {
     "id": "chunk-11",
-    "text": "g) requisitar à organização as informações sobre questões relacionadas à segurança e saúde dos trabalhadores, incluindo as Comunicações de Acidente de Trabalho - CAT emitidas pela organização, resguardados o sigilo médico e as informações pessoais;",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 3079
+    "text": "órgãos dos Poderes Legislativo, Judiciário e Ministério Público, que possuam empregados regidos\npela Consolidação das Leis do Trabalho - CLT, devem constituir e manter CIPA.\n**5.2.2** Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas de",
+    "heading": "Introdução",
+    "char_offset": 4044
   },
   {
     "id": "chunk-12",
-    "text": "h) propor ao SESMT, quando houver, ou à organização, a análise das condições ou situações de trabalho nas quais considere haver risco grave e iminente à segurança e saúde dos trabalhadores e, se for o caso, a interrupção das atividades até a adoção das medidas corretivas e de controle;",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 3330
+    "text": "trabalho.\n**5.3** **Atribuições**\n**5.3.1** A CIPA tem por atribuição:\na) acompanhar o processo de identificação de perigos e avaliação de riscos bem como a adoção\nde medidas de prevenção implementadas pela organização;\nb) registrar a percepção dos riscos dos trabalhadores, em conformidade com o subitem 1.5.3.3",
+    "heading": "Introdução",
+    "char_offset": 4323
   },
   {
     "id": "chunk-13",
-    "text": "i) promover, anualmente, em conjunto com o SESMT, onde houver, a Semana Interna de Prevenção de Acidentes do Trabalho - SIPAT, conforme programação definida pela CIPA; e \nj) incluir temas referentes à prevenção e ao combate ao assédio sexual e a outras formas de violência no trabalho nas suas atividades e práticas. _(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
-    "heading": "**5.3.1** A CIPA tem por atribuição:",
-    "char_offset": 3620
+    "text": "da NR-01, por meio do mapa de risco ou outra técnica ou ferramenta apropriada à sua escolha,\nsem ordem de preferência, com assessoria do Serviço Especializado em Segurança e em\nMedicina do Trabalho - SESMT, onde houver;\nc) verificar os ambientes e as condições de trabalho visando identificar situações que possam",
+    "heading": "Introdução",
+    "char_offset": 4637
   },
   {
     "id": "chunk-14",
-    "text": "a) proporcionar aos membros da CIPA os meios necessários ao desempenho de suas atribuições, garantindo tempo suficiente para a realização das tarefas constantes no plano de trabalho; \nb) permitir a colaboração dos trabalhadores nas ações da CIPA; e",
-    "heading": "**5.3.2** Cabe à organização:",
-    "char_offset": 4008
+    "text": "trazer riscos para a segurança e saúde dos trabalhadores;\nd) elaborar e acompanhar plano de trabalho que possibilite a ação preventiva em segurança e\nsaúde no trabalho;\ne) participar no desenvolvimento e implementação de programas relacionados à segurança e",
+    "heading": "Introdução",
+    "char_offset": 4953
   },
   {
     "id": "chunk-15",
-    "text": "c) fornecer à CIPA, quando requisitadas, as informações relacionadas às suas atribuições. \n**5.3.3** Cabe aos trabalhadores indicar à CIPA, ao SESMT e à organização situações de riscos e apresentar sugestões para melhoria das condições de trabalho.",
-    "heading": "**5.3.2** Cabe à organização:",
-    "char_offset": 4260
+    "text": "saúde no trabalho;\nf) acompanhar a análise dos acidentes e doenças relacionadas ao trabalho, nos termos da NR-1\ne propor, quando for o caso, medidas para a solução dos problemas identificados;\ng) requisitar à organização as informações sobre questões relacionadas à segurança e saúde dos",
+    "heading": "Introdução",
+    "char_offset": 5213
   },
   {
     "id": "chunk-16",
-    "text": "a) convocar os membros para as reuniões; e \nb) coordenar as reuniões, encaminhando à organização e ao SESMT, quando houver, as decisões da comissão. \n**5.3.5** Cabe ao Vice-Presidente substituir o Presidente nos seus impedimentos eventuais ou nos seus afastamentos temporários.",
-    "heading": "**5.3.4** Cabe ao Presidente da CIPA:",
-    "char_offset": 4514
+    "text": "trabalhadores, incluindo as Comunicações de Acidente de Trabalho - CAT emitidas pela\norganização, resguardados o sigilo médico e as informações pessoais;\nh) propor ao SESMT, quando houver, ou à organização, a análise das condições ou situações de\ntrabalho nas quais considere haver risco grave e iminente à segurança e saúde dos",
+    "heading": "Introdução",
+    "char_offset": 5502
   },
   {
     "id": "chunk-17",
-    "text": "**5.3.6** O Presidente e o Vice-Presidente da CIPA, em conjunto, terão as seguintes atribuições de: a) coordenar e supervisionar as atividades da CIPA, zelando para que os objetivos propostos sejam alcançados; e \nb) divulgar as decisões da CIPA a todos os trabalhadores do estabelecimento.",
-    "heading": "**5.3.4** Cabe ao Presidente da CIPA:",
-    "char_offset": 4795
+    "text": "trabalhadores e, se for o caso, a interrupção das atividades até a adoção das medidas corretivas\ne de controle;\ni) promover, anualmente, em conjunto com o SESMT, onde houver, a Semana Interna de\nPrevenção de Acidentes do Trabalho - SIPAT, conforme programação definida pela CIPA; e",
+    "heading": "Introdução",
+    "char_offset": 5832
   },
   {
     "id": "chunk-18",
-    "text": "**5.4.1** A CIPA será constituída por estabelecimento e composta de representantes da organização e dos empregados, de acordo com o dimensionamento previsto no Quadro I desta NR, ressalvadas as disposições para setores econômicos específicos. \n**5.4.2** A CIPA das organizações que operem em regime sazonal devem ser dimensionadas tomando-se por base a média aritmética do número de trabalhadores do ano civil anterior e obedecido o Quadro I desta NR.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 5089
+    "text": "j) incluir temas referentes à prevenção e ao combate ao assédio sexual e a outras formas de\nviolência no trabalho nas suas atividades e práticas. _(inserida pela Portaria MTP nº 4.219, de 20 de_\n_dezembro de 2022)_\n**5.3.2** Cabe à organização:\na) proporcionar aos membros da CIPA os meios necessários ao desempenho de suas",
+    "heading": "Introdução",
+    "char_offset": 6117
   },
   {
     "id": "chunk-19",
-    "text": "**5.4.3** Os representantes da organização na CIPA, titulares e suplentes, serão por ela designados. \n**5.4.4** Os representantes dos empregados, titulares e suplentes, serão eleitos em escrutínio secreto, do qual participem, independentemente de filiação sindical, exclusivamente os empregados interessados.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 5544
+    "text": "atribuições, garantindo tempo suficiente para a realização das tarefas constantes no plano de\ntrabalho;\nb) permitir a colaboração dos trabalhadores nas ações da CIPA; e\nc) fornecer à CIPA, quando requisitadas, as informações relacionadas às suas atribuições.",
+    "heading": "Introdução",
+    "char_offset": 6443
   },
   {
     "id": "chunk-20",
-    "text": "**5.4.5** A organização designará dentre seus representantes o Presidente da CIPA, e os representantes eleitos dos empregados escolherão dentre os titulares o vice-presidente. \n**5.4.6** O mandato dos membros eleitos da CIPA terá a duração de um ano, permitida uma reeleição.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 5856
+    "text": "**5.3.3** Cabe aos trabalhadores indicar à CIPA, ao SESMT e à organização situações de riscos e\napresentar sugestões para melhoria das condições de trabalho.\n**5.3.4** Cabe ao Presidente da CIPA:\na) convocar os membros para as reuniões; e\nb) coordenar as reuniões, encaminhando à organização e ao SESMT, quando houver, as",
+    "heading": "Introdução",
+    "char_offset": 6706
   },
   {
     "id": "chunk-21",
-    "text": "**5.4.7** Os membros da CIPA, eleitos e designados serão empossados no primeiro dia útil após o término do mandato anterior. \n**5.4.8** A organização deve fornecer cópias das atas de eleição e posse aos membros titulares e suplentes da CIPA. \n**5.4.9** Quando solicitada, a organização encaminhará a documentação referente ao processo eleitoral da CIPA, podendo ser em meio eletrônico, ao sindicato dos trabalhadores da categoria preponderante, no prazo de até 10 (dez) dias.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 6136
+    "text": "decisões da comissão.\n**5.3.5** Cabe ao Vice-Presidente substituir o Presidente nos seus impedimentos eventuais ou\nnos seus afastamentos temporários.\n**5.3.6** O Presidente e o Vice-Presidente da CIPA, em conjunto, terão as seguintes atribuições de:",
+    "heading": "Introdução",
+    "char_offset": 7031
   },
   {
     "id": "chunk-22",
-    "text": "**5.4.10** A CIPA não poderá ter seu número de representantes reduzido, bem como não poderá ser desativada pela organização, antes do término do mandato de seus membros, ainda que haja redução do número de empregados, exceto no caso de encerramento das atividades do estabelecimento.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 6614
+    "text": "a) coordenar e supervisionar as atividades da CIPA, zelando para que os objetivos propostos\nsejam alcançados; e\nb) divulgar as decisões da CIPA a todos os trabalhadores do estabelecimento.\n**5.4** **Constituição e estruturação**\n**5.4.1** A CIPA será constituída por estabelecimento e composta de representantes da",
+    "heading": "Introdução",
+    "char_offset": 7285
   },
   {
     "id": "chunk-23",
-    "text": "**5.4.11** É vedada à organização, em relação ao integrante eleito da CIPA: \na) a alteração de suas atividades normais na organização que prejudique o exercício de suas atribuições; e \nb) a transferência para outro estabelecimento, sem a sua anuência, ressalvado o disposto nos parágrafos primeiro e segundo do art. 469 da CLT.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 6902
+    "text": "organização e dos empregados, de acordo com o dimensionamento previsto no Quadro I desta\nNR, ressalvadas as disposições para setores econômicos específicos.\n**5.4.2** A CIPA das organizações que operem em regime sazonal devem ser dimensionadas\ntomando-se por base a média aritmética do número de trabalhadores do ano civil anterior e",
+    "heading": "Introdução",
+    "char_offset": 7601
   },
   {
     "id": "chunk-24",
-    "text": "**5.4.12** É vedada a dispensa arbitrária ou sem justa causa do empregado eleito para cargo de direção da CIPA desde o registro de sua candidatura até um ano após o final de seu mandato. \n**5.4.12.1** O término do contrato de trabalho por prazo determinado não caracteriza dispensa arbitrária ou sem justa causa do empregado eleito para cargo de direção da CIPA.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 7233
+    "text": "obedecido o Quadro I desta NR.\n**5.4.3** Os representantes da organização na CIPA, titulares e suplentes, serão por ela designados.\n**5.4.4** Os representantes dos empregados, titulares e suplentes, serão eleitos em escrutínio\nsecreto, do qual participem, independentemente de filiação sindical, exclusivamente os",
+    "heading": "Introdução",
+    "char_offset": 7937
   },
   {
     "id": "chunk-25",
-    "text": "**5.4.13** Quando o estabelecimento não se enquadrar no Quadro I e não for atendido por SESMT, nos termos da Norma Regulamentadora n° 4 (NR-04), a organização nomeará um representante da organização dentre seus empregados para auxiliar na execução das ações de prevenção em segurança e saúde no trabalho, podendo ser adotados mecanismos de participação dos empregados, por meio de negociação coletiva.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 7598
+    "text": "empregados interessados.\n**5.4.5** A organização designará dentre seus representantes o Presidente da CIPA, e os\nrepresentantes eleitos dos empregados escolherão dentre os titulares o vice-presidente.\n**5.4.6** O mandato dos membros eleitos da CIPA terá a duração de um ano, permitida uma",
+    "heading": "Introdução",
+    "char_offset": 8253
   },
   {
     "id": "chunk-26",
-    "text": "**5.4.13.1** No caso de atendimento pelo SESMT, este deverá desempenhar as atribuições da CIPA. \n**5.4.13.2** O microempreendedor individual - MEI está dispensado de nomear o representante da NR-05. \n**5.4.14** A nomeação de empregado como representante da NR-05 e sua forma de atuação devem ser formalizadas anualmente pela organização.",
-    "heading": "**5.4 Constituição e estruturação**",
-    "char_offset": 8004
+    "text": "reeleição.\n**5.4.7** Os membros da CIPA, eleitos e designados serão empossados no primeiro dia útil após o\ntérmino do mandato anterior.\n**5.4.8** A organização deve fornecer cópias das atas de eleição e posse aos membros titulares e\nsuplentes da CIPA.",
+    "heading": "Introdução",
+    "char_offset": 8545
   },
   {
     "id": "chunk-27",
-    "text": "**5.4.15** A nomeação de empregado como representante da NR-05 não impede o seu ingresso na CIPA, quando da sua constituição, seja como representante do empregador ou como dos empregados.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 8534
+    "text": "**5.4.9** Quando solicitada, a organização encaminhará a documentação referente ao processo\neleitoral da CIPA, podendo ser em meio eletrônico, ao sindicato dos trabalhadores da categoria\npreponderante, no prazo de até 10 (dez) dias.\n**5.4.10** A CIPA não poderá ter seu número de representantes reduzido, bem como não poderá ser",
+    "heading": "Introdução",
+    "char_offset": 8799
   },
   {
     "id": "chunk-28",
-    "text": "**5.5.1** Compete ao empregador convocar eleições para escolha dos representantes dos empregados na CIPA, no prazo mínimo de 60 (sessenta) dias antes do término do mandato em curso. \n**5.5.1.1** A organização deve comunicar, com antecedência, podendo ser por meio eletrônico, com confirmação de entrega, o início do processo eleitoral ao sindicato da categoria preponderante.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 8536
+    "text": "desativada pela organização, antes do término do mandato de seus membros, ainda que haja\nredução do número de empregados, exceto no caso de encerramento das atividades do\nestabelecimento.\n**5.4.11** É vedada à organização, em relação ao integrante eleito da CIPA:",
+    "heading": "Introdução",
+    "char_offset": 9130
   },
   {
     "id": "chunk-29",
-    "text": "**5.5.2** O Presidente e o Vice-Presidente da CIPA constituirão dentre seus membros a comissão eleitoral, que será a responsável pela organização e acompanhamento do processo eleitoral. \n**5.5.2.1** Nos estabelecimentos onde não houver CIPA, a comissão eleitoral será constituída pela organização.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 8915
+    "text": "a) a alteração de suas atividades normais na organização que prejudique o exercício de suas\natribuições; e\nb) a transferência para outro estabelecimento, sem a sua anuência, ressalvado o disposto nos\nparágrafos primeiro e segundo do art. 469 da CLT.",
+    "heading": "Introdução",
+    "char_offset": 9396
   },
   {
     "id": "chunk-30",
-    "text": "**5.5.3** O processo eleitoral deve observar as seguintes condições: \na) publicação e divulgação de edital de convocação da eleição e abertura de prazos para inscrição de candidatos, em locais de fácil acesso e visualização, podendo ser em meio físico ou eletrônico;",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 9216
+    "text": "**5.4.12** É vedada a dispensa arbitrária ou sem justa causa do empregado eleito para cargo de\ndireção da CIPA desde o registro de sua candidatura até um ano após o final de seu mandato.\n**5.4.12.1** O término do contrato de trabalho por prazo determinado não caracteriza dispensa",
+    "heading": "Introdução",
+    "char_offset": 9648
   },
   {
     "id": "chunk-31",
-    "text": "b) inscrição e eleição individual, sendo que o período mínimo para inscrição será de 15 (quinze) dias corridos; \nc) liberdade de inscrição para todos os empregados do estabelecimento, independentemente de setores ou locais de trabalho, com fornecimento de comprovante em meio físico ou eletrônico;",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 9486
+    "text": "arbitrária ou sem justa causa do empregado eleito para cargo de direção da CIPA.\n**5.4.13** Quando o estabelecimento não se enquadrar no Quadro I e não for atendido por SESMT,\nnos termos da Norma Regulamentadora n° 4 (NR-04), a organização nomeará um representante",
+    "heading": "Introdução",
+    "char_offset": 9930
   },
   {
     "id": "chunk-32",
-    "text": "d) garantia de emprego até a eleição para todos os empregados inscritos; \ne) publicação e divulgação da relação dos empregados inscritos, em locais de fácil acesso e visualização, podendo ser em meio físico ou eletrônico; \nf) realização da eleição no prazo mínimo de 30 (trinta) dias antes do término do mandato da CIPA, quando houver;",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 9788
+    "text": "da organização dentre seus empregados para auxiliar na execução das ações de prevenção em\nsegurança e saúde no trabalho, podendo ser adotados mecanismos de participação dos\nempregados, por meio de negociação coletiva.\n**5.4.13.1** No caso de atendimento pelo SESMT, este deverá desempenhar as atribuições da CIPA.",
+    "heading": "Introdução",
+    "char_offset": 10196
   },
   {
     "id": "chunk-33",
-    "text": "g) realização de eleição em dia normal de trabalho, respeitando os horários de turnos e em horário que possibilite a participação da maioria dos empregados do estabelecimento; \nh) voto secreto; \ni) apuração dos votos, em horário normal de trabalho, com acompanhamento de representante da organização e dos empregados, em número a ser definido pela comissão eleitoral, facultado o acompanhamento dos candidatos; e",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 10128
+    "text": "**5.4.13.2** O microempreendedor individual - MEI está dispensado de nomear o representante da\nNR-05.\n**5.4.14** A nomeação de empregado como representante da NR-05 e sua forma de atuação devem\nser formalizadas anualmente pela organização.\n**5.4.15** A nomeação de empregado como representante da NR-05 não impede o seu ingresso na",
+    "heading": "Introdução",
+    "char_offset": 10514
   },
   {
     "id": "chunk-34",
-    "text": "j) organização da eleição por meio de processo que garanta tanto a segurança do sistema como a confidencialidade e a precisão do registro dos votos. \n**5.5.4** Havendo participação inferior a cinquenta por cento dos empregados na votação, não haverá a apuração dos votos e a comissão eleitoral deverá prorrogar o período de votação para o dia subsequente, computando-se os votos já registrados no dia anterior, a qual será considerada válida com a participação de, no mínimo, um terço dos empregados.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 10544
+    "text": "CIPA, quando da sua constituição, seja como representante do empregador ou como dos\nempregados.\n**5.5** **Processo eleitoral**\n**5.5.1** Compete ao empregador convocar eleições para escolha dos representantes dos\nempregados na CIPA, no prazo mínimo de 60 (sessenta) dias antes do término do mandato em",
+    "heading": "Introdução",
+    "char_offset": 10848
   },
   {
     "id": "chunk-35",
-    "text": "**5.5.4.1** Constatada a participação inferior a um terço dos empregados no segundo dia de votação, não haverá a apuração dos votos e a comissão eleitoral deverá prorrogar o período de votação para o dia subsequente, computando-se os votos já registrados nos dias anteriores, a qual será considerada válida com a participação de qualquer número de empregados.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 11047
+    "text": "curso.\n**5.5.1.1** A organização deve comunicar, com antecedência, podendo ser por meio eletrônico, com\nconfirmação de entrega, o início do processo eleitoral ao sindicato da categoria preponderante.\n**5.5.2** O Presidente e o Vice-Presidente da CIPA constituirão dentre seus membros a comissão",
+    "heading": "Introdução",
+    "char_offset": 11153
   },
   {
     "id": "chunk-36",
-    "text": "**5.5.4.2** A prorrogação referida nos subitens 5.5.4 e 5.5.4.1 deve ser comunicada ao sindicato da categoria profissional preponderante. \n**5.5.5** As denúncias sobre o processo eleitoral deverão ser protocolizadas na unidade descentralizada de inspeção do trabalho, até 30 (trinta) dias após a data da divulgação do resultado da eleição da CIPA.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 11410
+    "text": "eleitoral, que será a responsável pela organização e acompanhamento do processo eleitoral.\n**5.5.2.1** Nos estabelecimentos onde não houver CIPA, a comissão eleitoral será constituída pela\norganização.\n**5.5.3** O processo eleitoral deve observar as seguintes condições:",
+    "heading": "Introdução",
+    "char_offset": 11451
   },
   {
     "id": "chunk-37",
-    "text": "**5.5.5.1** Compete à autoridade máxima regional em matéria de inspeção do trabalho, confirmadas irregularidades no processo eleitoral, determinar a sua correção ou proceder a anulação quando for o caso. \n**5.5.5.2** Em caso de anulação somente da votação, a organização convocará nova votação no prazo de 10 (dez) dias, a contar da data de ciência, garantidas as inscrições anteriores.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 11761
+    "text": "a) publicação e divulgação de edital de convocação da eleição e abertura de prazos para inscrição\nde candidatos, em locais de fácil acesso e visualização, podendo ser em meio físico ou eletrônico;\nb) inscrição e eleição individual, sendo que o período mínimo para inscrição será de 15 (quinze)",
+    "heading": "Introdução",
+    "char_offset": 11724
   },
   {
     "id": "chunk-38",
-    "text": "**5.5.5.3** Nos demais casos, a decisão da autoridade máxima regional em matéria de inspeção do trabalho determinará os atos atingidos, as providências, e os prazos a serem adotados, atendidos os prazos previstos nesta NR. \n**5.5.5.4** Quando a anulação se der antes da posse dos membros da CIPA, ficará assegurada a prorrogação do mandato anterior, quando houver, até a complementação do processo eleitoral.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 12151
+    "text": "dias corridos;\nc) liberdade de inscrição para todos os empregados do estabelecimento, independentemente de\nsetores ou locais de trabalho, com fornecimento de comprovante em meio físico ou eletrônico;\nd) garantia de emprego até a eleição para todos os empregados inscritos;",
+    "heading": "Introdução",
+    "char_offset": 12020
   },
   {
     "id": "chunk-39",
-    "text": "**5.5.6** Assumirão a condição de membros titulares e suplentes os candidatos mais votados. \n**5.5.7** Em caso de empate, assumirá aquele que tiver maior tempo de serviço no estabelecimento. \n**5.5.8** Os candidatos votados e não eleitos serão relacionados na ata de eleição e apuração, em ordem decrescente de votos, possibilitando nomeação posterior, em caso de vacância de suplentes.",
-    "heading": "**5.5 Processo eleitoral**",
-    "char_offset": 12564
+    "text": "e) publicação e divulgação da relação dos empregados inscritos, em locais de fácil acesso e\nvisualização, podendo ser em meio físico ou eletrônico;\nf) realização da eleição no prazo mínimo de 30 (trinta) dias antes do término do mandato da CIPA,\nquando houver;",
+    "heading": "Introdução",
+    "char_offset": 12295
   },
   {
     "id": "chunk-40",
-    "text": "**5.6.1** A CIPA terá reuniões ordinárias mensais, de acordo com o calendário preestabelecido. \n**5.6.1.1** A critério da CIPA, nas Microempresas - ME e Empresas de Pequeno Porte - EPP, graus de risco 1 e 2, as reuniões poderão ser bimestrais. \n**5.6.2** As reuniões ordinárias da CIPA serão realizadas na organização, preferencialmente de forma presencial, podendo a participação ocorrer de forma remota.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 12956
+    "text": "g) realização de eleição em dia normal de trabalho, respeitando os horários de turnos e em\nhorário que possibilite a participação da maioria dos empregados do estabelecimento;\nh) voto secreto;\ni) apuração dos votos, em horário normal de trabalho, com acompanhamento de representante da",
+    "heading": "Introdução",
+    "char_offset": 12559
   },
   {
     "id": "chunk-41",
-    "text": "**5.6.2.1** A data e horário das reuniões serão acordadas entre os seus membros observando os turnos e as jornadas de trabalho. \n**5.6.3** As reuniões da CIPA terão atas assinadas pelos presentes. \n**5.6.3.1** As atas das reuniões devem ser disponibilizadas a todos os integrantes da CIPA, podendo ser por meio eletrônico.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 13366
+    "text": "organização e dos empregados, em número a ser definido pela comissão eleitoral, facultado o\nacompanhamento dos candidatos; e\nj) organização da eleição por meio de processo que garanta tanto a segurança do sistema como a\nconfidencialidade e a precisão do registro dos votos.",
+    "heading": "Introdução",
+    "char_offset": 12846
   },
   {
     "id": "chunk-42",
-    "text": "**5.6.3.2** As deliberações e encaminhamentos das reuniões da CIPA devem ser disponibilizadas a todos os empregados em quadro de aviso ou por meio eletrônico. \n**5.6.4** As reuniões extraordinárias devem ser realizadas quando: \na) ocorrer acidente do trabalho grave ou fatal; ou",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 13693
+    "text": "**5.5.4** Havendo participação inferior a cinquenta por cento dos empregados na votação, não\nhaverá a apuração dos votos e a comissão eleitoral deverá prorrogar o período de votação para o\ndia subsequente, computando-se os votos já registrados no dia anterior, a qual será considerada",
+    "heading": "Introdução",
+    "char_offset": 13121
   },
   {
     "id": "chunk-43",
-    "text": "b) houver solicitação de uma das representações. \n**5.6.5** Para cada reunião ordinária ou extraordinária, os membros da CIPA designarão o secretário responsável por redigir a ata. \n**5.6.6** O membro titular perderá o mandato, sendo substituído por suplente, quando faltar a mais de quatro reuniões ordinárias sem justificativa.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 13976
+    "text": "válida com a participação de, no mínimo, um terço dos empregados.\n**5.5.4.1** Constatada a participação inferior a um terço dos empregados no segundo dia de votação,\nnão haverá a apuração dos votos e a comissão eleitoral deverá prorrogar o período de votação",
+    "heading": "Introdução",
+    "char_offset": 13407
   },
   {
     "id": "chunk-44",
-    "text": "**5.6.7** A vacância definitiva de cargo, ocorrida durante o mandato, será suprida por suplente, obedecida a ordem de colocação decrescente que consta na ata de eleição, devendo os motivos ser registrados em ata de reunião. \n**5.6.7.1** Caso não existam mais suplentes, durante os primeiros 6 (seis) meses do mandato, a organização deve realizar eleição extraordinária para suprir a vacância, que somente será considerada válida com a participação de, no mínimo, um terço dos trabalhadores.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 14309
+    "text": "para o dia subsequente, computando-se os votos já registrados nos dias anteriores, a qual será\nconsiderada válida com a participação de qualquer número de empregados.\n**5.5.4.2** A prorrogação referida nos subitens 5.5.4 e 5.5.4.1 deve ser comunicada ao sindicato da",
+    "heading": "Introdução",
+    "char_offset": 13667
   },
   {
     "id": "chunk-45",
-    "text": "**5.6.7.1.1** Os prazos da eleição extraordinária serão reduzidos à metade dos prazos previstos no processo eleitoral desta NR. \n**5.6.7.1.2** As demais exigências estabelecidas para o processo eleitoral devem ser atendidas. \n**5.6.7.2** No caso de afastamento definitivo do presidente, a organização indicará o substituto, em dois dias úteis, preferencialmente entre os membros da CIPA.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 14804
+    "text": "categoria profissional preponderante.\n**5.5.5** As denúncias sobre o processo eleitoral deverão ser protocolizadas na unidade\ndescentralizada de inspeção do trabalho, até 30 (trinta) dias após a data da divulgação do\nresultado da eleição da CIPA.\n**5.5.5.1** Compete à autoridade máxima regional em matéria de inspeção do trabalho, confirmadas",
+    "heading": "Introdução",
+    "char_offset": 13936
   },
   {
     "id": "chunk-46",
-    "text": "**5.6.7.3** No caso de afastamento definitivo do vice-presidente, os membros titulares da representação dos empregados, escolherão o substituto, entre seus titulares, em dois dias úteis. \n**5.6.7.4** O mandato do membro eleito em processo eleitoral extraordinário deve ser compatibilizado com o mandato dos demais membros da Comissão.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 15195
+    "text": "irregularidades no processo eleitoral, determinar a sua correção ou proceder a anulação quando\nfor o caso.\n**5.5.5.2** Em caso de anulação somente da votação, a organização convocará nova votação no prazo\nde 10 (dez) dias, a contar da data de ciência, garantidas as inscrições anteriores.",
+    "heading": "Introdução",
+    "char_offset": 14282
   },
   {
     "id": "chunk-47",
-    "text": "**5.6.7.5** O treinamento de membro eleito em processo extraordinário deve ser realizado no prazo máximo de 30 (trinta) dias, contados a partir da data da posse. \n**5.6.8** As decisões da CIPA serão preferencialmente por consenso. \n**5.6.8.1** Não havendo consenso, a CIPA deve regular o procedimento de votação e o pedido de reconsideração da decisão.",
-    "heading": "**5.6 Funcionamento**",
-    "char_offset": 15534
+    "text": "**5.5.5.3** Nos demais casos, a decisão da autoridade máxima regional em matéria de inspeção do\ntrabalho determinará os atos atingidos, as providências, e os prazos a serem adotados, atendidos\nos prazos previstos nesta NR.\n**5.5.5.4** Quando a anulação se der antes da posse dos membros da CIPA, ficará assegurada a",
+    "heading": "Introdução",
+    "char_offset": 14573
   },
   {
     "id": "chunk-48",
-    "text": "**5.7.1** A organização deve promover treinamento para o representante nomeado da NR-5 e para os membros da CIPA, titulares e suplentes, antes da posse. \n**5.7.1.1** O treinamento de CIPA em primeiro mandato será realizado no prazo máximo de 30 (trinta) dias, contados a partir da data da posse.",
-    "heading": "**5.7 Treinamento**",
-    "char_offset": 15891
+    "text": "prorrogação do mandato anterior, quando houver, até a complementação do processo eleitoral.\n**5.5.6** Assumirão a condição de membros titulares e suplentes os candidatos mais votados.\n**5.5.7** Em caso de empate, assumirá aquele que tiver maior tempo de serviço no estabelecimento.",
+    "heading": "Introdução",
+    "char_offset": 14891
   },
   {
     "id": "chunk-49",
-    "text": "**5.7.2** O treinamento deve contemplar, no mínimo, os seguintes itens: \na) estudo do ambiente, das condições de trabalho, bem como dos riscos originados do processo produtivo; \nb) noções sobre acidentes e doenças relacionadas ao trabalho decorrentes das condições de trabalho e da exposição aos riscos existentes no estabelecimento e suas medidas de prevenção;",
-    "heading": "**5.7 Treinamento**",
-    "char_offset": 16191
+    "text": "**5.5.8** Os candidatos votados e não eleitos serão relacionados na ata de eleição e apuração, em\nordem decrescente de votos, possibilitando nomeação posterior, em caso de vacância de\nsuplentes.\n**5.6** **Funcionamento**\n**5.6.1** A CIPA terá reuniões ordinárias mensais, de acordo com o calendário preestabelecido.",
+    "heading": "Introdução",
+    "char_offset": 15176
   },
   {
     "id": "chunk-50",
-    "text": "c) metodologia de investigação e análise de acidentes e doenças relacionadas ao trabalho; \nd) princípios gerais de higiene do trabalho e de medidas de prevenção dos riscos; \ne) noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no",
-    "heading": "**5.7 Treinamento**",
-    "char_offset": 16557
+    "text": "**5.6.1.1** A critério da CIPA, nas Microempresas - ME e Empresas de Pequeno Porte - EPP, graus de\nrisco 1 e 2, as reuniões poderão ser bimestrais.\n**5.6.2** As reuniões ordinárias da CIPA serão realizadas na organização, preferencialmente de forma\npresencial, podendo a participação ocorrer de forma remota.",
+    "heading": "Introdução",
+    "char_offset": 15494
   },
   {
     "id": "chunk-51",
-    "text": "f) noções sobre a inclusão de pessoas com deficiência e reabilitados nos processos de trabalho; \n- g) organização da CIPA e outros assuntos necessários ao exercício das atribuições da Comissão; e \n- h) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho. _(alterada pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
-    "heading": "trabalho;",
-    "char_offset": 16829
+    "text": "**5.6.2.1** A data e horário das reuniões serão acordadas entre os seus membros observando os\nturnos e as jornadas de trabalho.\n**5.6.3** As reuniões da CIPA terão atas assinadas pelos presentes.\n**5.6.3.1** As atas das reuniões devem ser disponibilizadas a todos os integrantes da CIPA, podendo",
+    "heading": "Introdução",
+    "char_offset": 15807
   },
   {
     "id": "chunk-52",
-    "text": "**5.7.3** O treinamento realizado há menos de 2 (dois) anos contados da conclusão do curso pode ser aproveitado na mesma organização, observado o estabelecido na NR-1. \n**5.7.4** O treinamento deve ter carga horária mínima de: \na) 8 (oito) horas para estabelecimentos de grau de risco 1;",
-    "heading": "trabalho;",
-    "char_offset": 17184
+    "text": "ser por meio eletrônico.\n**5.6.3.2** As deliberações e encaminhamentos das reuniões da CIPA devem ser disponibilizadas a\ntodos os empregados em quadro de aviso ou por meio eletrônico.\n**5.6.4** As reuniões extraordinárias devem ser realizadas quando:",
+    "heading": "Introdução",
+    "char_offset": 16105
   },
   {
     "id": "chunk-53",
-    "text": "b) 12 (doze) horas para estabelecimentos de grau de risco 2; \nc) 16 (dezesseis) horas para estabelecimentos de grau de risco 3; e \n- d) 20 (vinte) horas para estabelecimentos de grau de risco 4. \n**5.7.4.1** A carga horária do treinamento deve ser distribuída em no máximo 8 (oito) horas diárias.",
-    "heading": "trabalho;",
-    "char_offset": 17477
+    "text": "a) ocorrer acidente do trabalho grave ou fatal; ou\nb) houver solicitação de uma das representações.\n**5.6.5** Para cada reunião ordinária ou extraordinária, os membros da CIPA designarão o secretário\nresponsável por redigir a ata.\n**5.6.6** O membro titular perderá o mandato, sendo substituído por suplente, quando faltar a mais",
+    "heading": "Introdução",
+    "char_offset": 16360
   },
   {
     "id": "chunk-54",
-    "text": "**5.7.4.2** Para a modalidade presencial deve ser observada a seguinte carga horária mínima do treinamento: \na) 4 (quatro) horas para estabelecimentos de grau de risco 2; e \nb) 8 (oito) horas para estabelecimentos de grau de risco 3 e 4. \n**5.7.4.3** A carga horária do treinamento dos estabelecimentos de grau de risco 1 e do representante nomeado da NR-05 podem ser realizadas integralmente na modalidade de ensino à distância ou semipresencial, nos termos da NR-01.",
-    "heading": "trabalho;",
-    "char_offset": 17779
+    "text": "de quatro reuniões ordinárias sem justificativa.\n**5.6.7** A vacância definitiva de cargo, ocorrida durante o mandato, será suprida por suplente,\nobedecida a ordem de colocação decrescente que consta na ata de eleição, devendo os motivos\nser registrados em ata de reunião.",
+    "heading": "Introdução",
+    "char_offset": 16691
   },
   {
     "id": "chunk-55",
-    "text": "**5.7.4.4** O treinamento realizado integralmente na modalidade de ensino à distância deve contemplar os riscos específicos do estabelecimento nos termos do subitem 5.7.2. \n**5.7.4.5** O integrante do SESMT fica dispensado do treinamento da CIPA.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 18500
+    "text": "**5.6.7.1** Caso não existam mais suplentes, durante os primeiros 6 (seis) meses do mandato, a\norganização deve realizar eleição extraordinária para suprir a vacância, que somente será\nconsiderada válida com a participação de, no mínimo, um terço dos trabalhadores.",
+    "heading": "Introdução",
+    "char_offset": 16965
   },
   {
     "id": "chunk-56",
-    "text": "**5.8.1** A organização de prestação de serviços deve constituir CIPA centralizada quando o número total de seus empregados na Unidade da Federação se enquadrar no Quadro I desta NR. \n**5.8.1.1** Quando a organização contratada para prestação de serviços a terceiros exercer suas atividades em estabelecimento de contratante enquadrado em grau de riscos 3 ou 4 e o número total de seus empregados no estabelecimento da contratante se enquadrar no Quadro I desta NR, deve constituir CIPA própria neste estabelecimento, considerando o grau de risco da contratante.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 18502
+    "text": "**5.6.7.1.1** Os prazos da eleição extraordinária serão reduzidos à metade dos prazos previstos no\nprocesso eleitoral desta NR.\n**5.6.7.1.2** As demais exigências estabelecidas para o processo eleitoral devem ser atendidas.\n**5.6.7.2** No caso de afastamento definitivo do presidente, a organização indicará o substituto, em",
+    "heading": "Introdução",
+    "char_offset": 17234
   },
   {
     "id": "chunk-57",
-    "text": "**5.8.1.1.1** A organização contratada está dispensada da constituição da CIPA própria no caso de prestação de serviços a terceiros com até 180 (centro e oitenta) dias de duração. \n**5.8.1.2** O número total de empregados da organização contratada para prestação de serviços, para efeito de dimensionamento da CIPA centralizada, deve desconsiderar os empregados alcançados por CIPA própria.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 19068
+    "text": "dois dias úteis, preferencialmente entre os membros da CIPA.\n**5.6.7.3** No caso de afastamento definitivo do vice-presidente, os membros titulares da\nrepresentação dos empregados, escolherão o substituto, entre seus titulares, em dois dias úteis.\n**5.6.7.4** O mandato do membro eleito em processo eleitoral extraordinário deve ser",
+    "heading": "Introdução",
+    "char_offset": 17561
   },
   {
     "id": "chunk-58",
-    "text": "**5.8.2** A organização contratada para prestação de serviços, quando desobrigada de constituir CIPA própria, deve nomear um representante da NR-5 para cumprir os objetivos desta NR se possuir 5 (cinco) ou mais empregados no estabelecimento da contratante.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 19461
+    "text": "compatibilizado com o mandato dos demais membros da Comissão.\n**5.6.7.5** O treinamento de membro eleito em processo extraordinário deve ser realizado no prazo\nmáximo de 30 (trinta) dias, contados a partir da data da posse.\n**5.6.8** As decisões da CIPA serão preferencialmente por consenso.",
+    "heading": "Introdução",
+    "char_offset": 17896
   },
   {
     "id": "chunk-59",
-    "text": "**5.8.2.1** A nomeação de representante da NR-05 em estabelecimento onde há empregado membro de CIPA centralizada é dispensada. \n**5.8.2.2** O estabelecido no subitem 5.8.2 não exclui o disposto no subitem 5.4.13 quanto ao estabelecimento sede da organização contratada para a prestação de serviços.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 19721
+    "text": "**5.6.8.1** Não havendo consenso, a CIPA deve regular o procedimento de votação e o pedido de\nreconsideração da decisão.\n**5.7** **Treinamento**\n**5.7.1** A organização deve promover treinamento para o representante nomeado da NR-5 e para os\nmembros da CIPA, titulares e suplentes, antes da posse.",
+    "heading": "Introdução",
+    "char_offset": 18191
   },
   {
     "id": "chunk-60",
-    "text": "**5.8.2.3** A nomeação do representante da organização contratada para a prestação de serviços deve ser feita entre os empregados que exercem suas atividades no estabelecimento. \n**5.8.3** A organização contratada para a prestação de serviços deve garantir que a CIPA centralizada mantenha interação entre os estabelecimentos nos quais possua empregados.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 20024
+    "text": "**5.7.1.1** O treinamento de CIPA em primeiro mandato será realizado no prazo máximo de 30\n(trinta) dias, contados a partir da data da posse.\n**5.7.2** O treinamento deve contemplar, no mínimo, os seguintes itens:\na) estudo do ambiente, das condições de trabalho, bem como dos riscos originados do processo",
+    "heading": "Introdução",
+    "char_offset": 18492
   },
   {
     "id": "chunk-61",
-    "text": "**5.8.3.1** A organização deve garantir a participação dos representantes nomeados da NR-05 nas reuniões da CIPA centralizada. \n**5.8.3.2** A organização deve dar condições aos integrantes da CIPA centralizada de atuarem nos estabelecimentos que não possuem representante nomeado da NR-05, atendido o disposto no subitem 5.6.2.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 20382
+    "text": "produtivo;\nb) noções sobre acidentes e doenças relacionadas ao trabalho decorrentes das condições de\ntrabalho e da exposição aos riscos existentes no estabelecimento e suas medidas de prevenção;\nc) metodologia de investigação e análise de acidentes e doenças relacionadas ao trabalho;",
+    "heading": "Introdução",
+    "char_offset": 18801
   },
   {
     "id": "chunk-62",
-    "text": "**5.8.4** O representante nomeado da NR-05 das organizações contratadas para a prestação de serviço deve participar de treinamento de acordo com o grau de risco da contratante. \n**5.8.5** A CIPA da prestadora de serviços a terceiros constituída nos termos do subitem 5.8.1.1 será considerada encerrada, para todos os efeitos, quando encerradas as suas atividades no estabelecimento.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 20713
+    "text": "d) princípios gerais de higiene do trabalho e de medidas de prevenção dos riscos;\ne) noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no\ntrabalho;\nf) noções sobre a inclusão de pessoas com deficiência e reabilitados nos processos de trabalho;",
+    "heading": "Introdução",
+    "char_offset": 19090
   },
   {
     "id": "chunk-63",
-    "text": "**5.8.6** A organização contratante deve exigir da organização prestadora de serviços a nomeação do representante da NR-05 prevista no subitem 5.8.2. \n**5.8.7** A contratante deve convidar a contratada para participar da reunião da CIPA da contratante, com a finalidade de integrar as ações de prevenção, sempre que as organizações atuarem em um mesmo estabelecimento.",
-    "heading": "**5.8 CIPA das organizações contratadas para prestação de serviços**",
-    "char_offset": 21099
+    "text": "g) organização da CIPA e outros assuntos necessários ao exercício das atribuições da Comissão; e\nh) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho. _(alterada pela_\n_Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "Introdução",
+    "char_offset": 19374
   },
   {
     "id": "chunk-64",
-    "text": "**5.8.7.1** A contratada deve indicar um representante da CIPA ou o representante nomeado da NR05 para participar da reunião da CIPA da contratante.",
-    "heading": "**5.9 Disposições finais**",
-    "char_offset": 21621
+    "text": "**5.7.3** O treinamento realizado há menos de 2 (dois) anos contados da conclusão do curso pode ser\naproveitado na mesma organização, observado o estabelecido na NR-1.\n**5.7.4** O treinamento deve ter carga horária mínima de:\na) 8 (oito) horas para estabelecimentos de grau de risco 1;",
+    "heading": "Introdução",
+    "char_offset": 19628
   },
   {
     "id": "chunk-65",
-    "text": "**5.9.1** A contratante adotará medidas para que as contratadas, suas CIPA, os representantes nomeados da NR-05 e os demais trabalhadores lotados naquele estabelecimento recebam \ninformações sobre os riscos presentes nos ambientes de trabalho, bem como sobre as medidas de prevenção, em conformidade com o Programa de Gerenciamento de Riscos, previsto na NR-01.",
-    "heading": "**5.9 Disposições finais**",
-    "char_offset": 21623
+    "text": "b) 12 (doze) horas para estabelecimentos de grau de risco 2;\nc) 16 (dezesseis) horas para estabelecimentos de grau de risco 3; e\nd) 20 (vinte) horas para estabelecimentos de grau de risco 4.\n**5.7.4.1** A carga horária do treinamento deve ser distribuída em no máximo 8 (oito) horas diárias.",
+    "heading": "Introdução",
+    "char_offset": 19918
   },
   {
     "id": "chunk-66",
-    "text": "**5.9.2** Toda a documentação referente à CIPA deve ser mantida no estabelecimento à disposição da inspeção do trabalho pelo prazo mínimo de 5 (cinco) anos. \n**5.9.3** Em havendo alteração do grau de risco do estabelecimento, o redimensionamento da CIPA deve ser efetivado na próxima eleição.",
-    "heading": "**5.9 Disposições finais**",
-    "char_offset": 21988
+    "text": "**5.7.4.2** Para a modalidade presencial deve ser observada a seguinte carga horária mínima do\ntreinamento:\na) 4 (quatro) horas para estabelecimentos de grau de risco 2; e\nb) 8 (oito) horas para estabelecimentos de grau de risco 3 e 4.\n**5.7.4.3** A carga horária do treinamento dos estabelecimentos de grau de risco 1 e do",
+    "heading": "Introdução",
+    "char_offset": 20215
   },
   {
     "id": "chunk-67",
-    "text": "|||||**NÚ**|**MER**|**O DE E**|**MPREG**|**ADOS N**|**O ESTA**|**BELECI**|**MENTO**|||||\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**GRAU**<br>**de**<br>**RISCO***|**Nº de**<br>**INTEGRANTES**<br>**da CIPA**|**0 a**<br>**19**|**20**<br>**a**<br>**29**|**30**<br>**a**<br>**50**|**51**<br>**a**<br>**80**|**81 a**<br>**100**|**101**<br>**a**<br>**120**|**121**<br>**a**<br>**140**|**141**<br>**a**<br>**300**|**301**<br>**a**<br>**500**|**501 a**<br>**1000**|**1001**<br>**a**<br>**2500**|**2501**<br>**a**<br>**5000**|**5001 a**<br>**10.000**|**Acima de**<br>**10.000 para**<br>**cada grupo**<br>**de 2500**<br>**acrescentar**|",
-    "heading": "**<u>Quadro I – Dimensionamento da CIPA</u>**",
-    "char_offset": 22284
+    "text": "representante nomeado da NR-05 podem ser realizadas integralmente na modalidade de ensino à\ndistância ou semipresencial, nos termos da NR-01.\n**5.7.4.4** O treinamento realizado integralmente na modalidade de ensino à distância deve\ncontemplar os riscos específicos do estabelecimento nos termos do subitem 5.7.2.",
+    "heading": "Introdução",
+    "char_offset": 20540
   },
   {
     "id": "chunk-68",
-    "text": "||Efetivos|||||1|1|1|1|2|4|5|6|8|1|\n|1|Suplentes|||||1|1|1|1|2|3|4|5|6|1|\n||Efetivos||||1|1|2|2|3|4|5|6|8|10|1|\n|2|Suplentes||||1|1|1|1|2|3|4|5|6|8|1|\n||Efetivos||1|1|2|2|2|3|4|5|6|8|10|12|2|\n|3|Suplentes||1|1|1|1|1|2|2|4|4|6|8|8|2|\n||Efetivos||1|2|3|3|4|4|4|5|6|9|11|13|2|",
-    "heading": "**<u>Quadro I – Dimensionamento da CIPA</u>**",
-    "char_offset": 22937
+    "text": "**5.7.4.5** O integrante do SESMT fica dispensado do treinamento da CIPA.\n**5.8** **CIPA das organizações contratadas para prestação de serviços**\n**5.8.1** A organização de prestação de serviços deve constituir CIPA centralizada quando o número\ntotal de seus empregados na Unidade da Federação se enquadrar no Quadro I desta NR.",
+    "heading": "Introdução",
+    "char_offset": 20857
   },
   {
     "id": "chunk-69",
-    "text": "|4|Suplentes||1|1|2|2|2|2|3|4|5|7|8|10|2|\n*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com correspondente Grau de Risco - GR para fins de dimensionamento do SESMT.",
-    "heading": "**<u>Quadro I – Dimensionamento da CIPA</u>**",
-    "char_offset": 23212
+    "text": "**5.8.1.1** Quando a organização contratada para prestação de serviços a terceiros exercer suas\natividades em estabelecimento de contratante enquadrado em grau de riscos 3 ou 4 e o número\ntotal de seus empregados no estabelecimento da contratante se enquadrar no Quadro I desta NR,",
+    "heading": "Introdução",
+    "char_offset": 21188
   },
   {
     "id": "chunk-70",
-    "text": "**ANEXO I da NR-5 CIPA DA INDÚSTRIA DA CONSTRUÇÃO**",
-    "heading": "**Sumário**",
-    "char_offset": 23527
+    "text": "deve constituir CIPA própria neste estabelecimento, considerando o grau de risco da contratante.\n**5.8.1.1.1** A organização contratada está dispensada da constituição da CIPA própria no caso de\nprestação de serviços a terceiros com até 180 (centro e oitenta) dias de duração.",
+    "heading": "Introdução",
+    "char_offset": 21471
   },
   {
     "id": "chunk-71",
-    "text": "1. Objetivo \n2. Campo de Aplicação \n3. Disposições Gerais",
-    "heading": "**1. Objetivo**",
-    "char_offset": 23590
+    "text": "**5.8.1.2** O número total de empregados da organização contratada para prestação de serviços,\npara efeito de dimensionamento da CIPA centralizada, deve desconsiderar os empregados\nalcançados por CIPA própria.\n**5.8.2** A organização contratada para prestação de serviços, quando desobrigada de constituir CIPA",
+    "heading": "Introdução",
+    "char_offset": 21750
   },
   {
     "id": "chunk-72",
-    "text": "1.1 Este anexo estabelece requisitos específicos para a Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA da indústria da construção. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
-    "heading": "**2. Campo de Aplicação**",
-    "char_offset": 23807
+    "text": "própria, deve nomear um representante da NR-5 para cumprir os objetivos desta NR se possuir 5\n(cinco) ou mais empregados no estabelecimento da contratante.\n**5.8.2.1** A nomeação de representante da NR-05 em estabelecimento onde há empregado membro\nde CIPA centralizada é dispensada.",
+    "heading": "Introdução",
+    "char_offset": 22062
   },
   {
     "id": "chunk-73",
-    "text": "2.1 As disposições estabelecidas neste Anexo se aplicam às organizações previstas no subitem 18.2.1 da Norma Regulamentadora nº 18 - CONDIÇÕES DE SEGURANÇA E SAÚDE NO TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 24014
+    "text": "**5.8.2.2** O estabelecido no subitem 5.8.2 não exclui o disposto no subitem 5.4.13 quanto ao\nestabelecimento sede da organização contratada para a prestação de serviços.\n**5.8.2.3** A nomeação do representante da organização contratada para a prestação de serviços",
+    "heading": "Introdução",
+    "char_offset": 22348
   },
   {
     "id": "chunk-74",
-    "text": "3.1 A organização responsável pela obra deve constituir a CIPA por canteiro de obras quando o número de empregados se enquadrar no dimensionamento previsto no Quadro I da NR05, observadas as disposições gerais dessa Norma. \n3.1.1 Quando o canteiro de obras não se enquadrar no dimensionamento previsto no Quadro I da NR-05, a organização responsável pela obra deverá nomear entre seus empregados do local, no mínimo, um representante para cumprir os objetivos da NR-05.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 24016
+    "text": "deve ser feita entre os empregados que exercem suas atividades no estabelecimento.\n**5.8.3** A organização contratada para a prestação de serviços deve garantir que a CIPA centralizada\nmantenha interação entre os estabelecimentos nos quais possua empregados.",
+    "heading": "Introdução",
+    "char_offset": 22615
   },
   {
     "id": "chunk-75",
-    "text": "3.1.2 A organização responsável pela obra está dispensada de constituir CIPA por frente de trabalho. \n3.1.3 Quando existir frente de trabalho, independentemente da quantidade de empregados próprios no local, a organização responsável pela obra deverá nomear, entre seus empregados, no mínimo, um representante, que exerça suas atividades na frente de trabalho ou no canteiro de obras, para cumprir os objetivos da NR-05.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 24489
+    "text": "**5.8.3.1** A organização deve garantir a participação dos representantes nomeados da NR-05 nas\nreuniões da CIPA centralizada.\n**5.8.3.2** A organização deve dar condições aos integrantes da CIPA centralizada de atuarem nos\nestabelecimentos que não possuem representante nomeado da NR-05, atendido o disposto no",
+    "heading": "Introdução",
+    "char_offset": 22877
   },
   {
     "id": "chunk-76",
-    "text": "3.1.3.1 O representante nomeado da NR-05 da organização responsável pela obra pode ser nomeado como representante para mais de uma frente de trabalho. \n3.2 Havendo no canteiro de obras ou na frente de trabalho organização prestadora de serviços a terceiros, essa deve nomear, no mínimo, um representante da NR-05, quando possuir cinco ou mais empregados próprios no local.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 24913
+    "text": "subitem 5.6.2.\n**5.8.4** O representante nomeado da NR-05 das organizações contratadas para a prestação de\nserviço deve participar de treinamento de acordo com o grau de risco da contratante.\n**5.8.5** A CIPA da prestadora de serviços a terceiros constituída nos termos do subitem 5.8.1.1 será",
+    "heading": "Introdução",
+    "char_offset": 23192
   },
   {
     "id": "chunk-77",
-    "text": "Este texto não substitui o publicado no DOU \n12 \n3.2.1 A nomeação do representante da NR-05 da organização prestadora de serviços a terceiros, no canteiro de obras ou na frente de trabalho, deve ser feita entre os empregados que obrigatoriamente exercem suas atividades no local.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 25290
+    "text": "considerada encerrada, para todos os efeitos, quando encerradas as suas atividades no\nestabelecimento.\n**5.8.6** A organização contratante deve exigir da organização prestadora de serviços a nomeação do\nrepresentante da NR-05 prevista no subitem 5.8.2.",
+    "heading": "Introdução",
+    "char_offset": 23488
   },
   {
     "id": "chunk-78",
-    "text": "3.2.2 A organização responsável pela obra deve exigir da organização prestadora de serviços a terceiros que presta serviços no canteiro de obras ou na frente de trabalho a nomeação do representante da NR-05, quando essa alcançar o mínimo previsto no item 3.2.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 25572
+    "text": "**5.8.7** A contratante deve convidar a contratada para participar da reunião da CIPA da contratante,\ncom a finalidade de integrar as ações de prevenção, sempre que as organizações atuarem em um\nmesmo estabelecimento.\n**5.8.7.1** A contratada deve indicar um representante da CIPA ou o representante nomeado da NR05 para participar da reunião da CIPA da contratante.",
+    "heading": "Introdução",
+    "char_offset": 23744
   },
   {
     "id": "chunk-79",
-    "text": "3.2.3 A organização que presta serviços a terceiros nos canteiros de obras ou frentes de trabalho, quando o dimensionamento se enquadrar no Quadro I da NR-05, considerando o número total de empregados nos diferentes locais de trabalho, deve constituir uma CIPA centralizada.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 25834
+    "text": "**5.9** **Disposições finais**\n**5.9.1** A contratante adotará medidas para que as contratadas, suas CIPA, os representantes\nnomeados da NR-05 e os demais trabalhadores lotados naquele estabelecimento recebam\ninformações sobre os riscos presentes nos ambientes de trabalho, bem como sobre as medidas de",
+    "heading": "Introdução",
+    "char_offset": 24114
   },
   {
     "id": "chunk-80",
-    "text": "3.2.3.1 O dimensionamento da CIPA centralizada da organização prestadora de serviços a terceiros nos canteiros de obras ou frentes de trabalho deve levar em consideração o número de empregados da organização distribuídos nos diferentes locais de trabalho onde presta serviços, tendo como limite territorial, para o dimensionamento da CIPA Centralizada, a Unidade da Federação.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 26111
+    "text": "prevenção, em conformidade com o Programa de Gerenciamento de Riscos, previsto na NR-01.\n**5.9.2** Toda a documentação referente à CIPA deve ser mantida no estabelecimento à disposição da\ninspeção do trabalho pelo prazo mínimo de 5 (cinco) anos.\n**5.9.3** Em havendo alteração do grau de risco do estabelecimento, o redimensionamento da CIPA",
+    "heading": "Introdução",
+    "char_offset": 24419
   },
   {
     "id": "chunk-81",
-    "text": "3.2.3.1.1 A organização deve garantir que a CIPA centralizada mantenha interação entre os canteiros de obras e frentes de trabalho onde atua na Unidade da Federação. \n3.3 Obras com até 180 (cento e oitenta) dias de duração estão dispensadas da constituição da CIPA, devendo a Comunicação Prévia de Obra ser enviada ao sindicato dos trabalhadores da categoria preponderante do local, no prazo máximo de 10 (dez) dias, a partir de seu registro eletrônico no Sistema de Comunicação Prévia de Obras - SCPO.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 26491
+    "text": "deve ser efetivado na próxima eleição.\n|Quadro I – Dimensionamento da CIPA|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|Col15|Col16|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|",
+    "heading": "Introdução",
+    "char_offset": 24762
   },
   {
     "id": "chunk-82",
-    "text": "3.3.1 Para obras com até 180 (cento e oitenta) dias de duração, a organização responsável pela obra deverá nomear, no mínimo, um representante da NR-05, aplicando-se o disposto no subitem 3.1.2 quando existir frente de trabalho. \n3.3.2 Para obras com até 180 (cento e oitenta) dias de duração, havendo no canteiro de obras ou na frente de trabalho organização prestadora de serviços a terceiros, essa deverá nomear, no mínimo, um representante da NR-05, quando possuir cinco ou mais empregados próprios no local.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 26997
+    "text": "|**GRAU**<br>**de**<br>**RISCO***|**Nº de**<br>**INTEGRANTES**<br>**da CIPA**|**0 a**<br>**19**|**20**<br>**a **<br>**29**|**30**<br>**a **<br>**50**|**51**<br>**a **<br>**80**|**81 a**<br>**100**|**101**<br>**a **<br>**120**|**121**<br>**a **<br>**140**|**141**<br>**a **<br>**300**|**301**<br>**a **<br>**500**|**501 a**<br>**1000**|**1001**<br>**a **<br>**2500**|**2501**<br>**a **<br>**5000**|**5001 a**<br>**10.000**|**Acima de**<br>**10.000 para**<br>**cada grupo**<br>**de 2500**<br>**acrescentar**|",
+    "heading": "Introdução",
+    "char_offset": 25692
   },
   {
     "id": "chunk-83",
-    "text": "3.4 A escolha do representante nomeado da NR-05 compete à organização, observado o disposto nos itens 5.4.14 e 5.4.15. \n3.4.1 A organização deve fornecer ao representante nomeado da NR-05 cópia da sua nomeação. \n3.5 Os membros da CIPA do canteiro de obras devem participar de treinamento, conforme estabelecido nessa Norma.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 27514
+    "text": "|1|Efetivos|||||1|1|1|1|2|4|5|6|8|1|\n|1|Suplentes|||||1|1|1|1|2|3|4|5|6|1|\n|2|Efetivos||||1|1|2|2|3|4|5|6|8|10|1|\n|2|Suplentes||||1|1|1|1|2|3|4|5|6|8|1|\n|3|Efetivos||1|1|2|2|2|3|4|5|6|8|10|12|2|\n|3|Suplentes||1|1|1|1|1|2|2|4|4|6|8|8|2|\n|4|Efetivos||1|2|3|3|4|4|4|5|6|9|11|13|2|",
+    "heading": "Introdução",
+    "char_offset": 26199
   },
   {
     "id": "chunk-84",
-    "text": "3.5.1 O representante nomeado da NR-05 deve participar de treinamento com carga horária mínima de oito horas, considerando o disposto no item 1.7 da NR-01 e observadas as disposições gerais dessa Norma, com o seguinte conteúdo: \nEste texto não substitui o publicado no DOU",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 27841
+    "text": "|4|Suplentes||1|1|2|2|2|2|3|4|5|7|8|10|2|\n*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com\ncorrespondente Grau de Risco - GR para fins de dimensionamento do SESMT.",
+    "heading": "Introdução",
+    "char_offset": 26478
   },
   {
     "id": "chunk-85",
-    "text": "13 \na) noções de prevenção de acidentes e doenças relacionadas ao trabalho; \nb) estudo do ambiente e das condições de trabalho, dos riscos originados no processo produtivo e das medidas de prevenção, de acordo com a etapa da obra; e \nc) noções sobre a legislação trabalhista e previdenciária relativas à segurança e saúde no trabalho; e",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 28119
+    "text": "**ANEXO I da NR-5**\n**CIPA DA INDÚSTRIA DA CONSTRUÇÃO**\n**Sumário**\n1. Objetivo\n2. Campo de Aplicação\n3. Disposições Gerais\n**1.** **Objetivo**\n1.1 Este anexo estabelece requisitos específicos para a Comissão Interna de Prevenção de\nAcidentes e de Assédio - CIPA da indústria da construção. _(alterado pela Portaria MTP nº 4.219, de_",
+    "heading": "Introdução",
+    "char_offset": 26742
   },
   {
     "id": "chunk-86",
-    "text": "- d) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho. _(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ \n3.5.1.1 A validade do treinamento do representante nomeado da NR-05 deverá atender ao disposto nessa Norma, podendo ser, dentro do prazo de validade e para a organização que promoveu o treinamento, aproveitado em diferentes canteiros de obras ou frentes de trabalho.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 28459
+    "text": "_20 de dezembro de 2022)_\n**2.** **Campo de Aplicação**\n2.1 As disposições estabelecidas neste Anexo se aplicam às organizações previstas no\nsubitem 18.2.1 da Norma Regulamentadora nº 18 - CONDIÇÕES DE SEGURANÇA E SAÚDE NO\nTRABALHO NA INDÚSTRIA DA CONSTRUÇÃO.",
+    "heading": "Introdução",
+    "char_offset": 27078
   },
   {
     "id": "chunk-87",
-    "text": "3.5.1.2 É permitida a convalidação do treinamento do representante nomeado da NR-05 por diferentes organizações, desde que atendido o disposto no item 1.7 da NR-01. \n3.6 A organização responsável pela obra deve coordenar, observadas as disposições gerais dessa Norma, o trabalho da CIPA, quando existente no canteiro de obras, e, quando aplicável, do representante nomeado da NR-05.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 28884
+    "text": "**3.** **Disposições Gerais**\n3.1 A organização responsável pela obra deve constituir a CIPA por canteiro de obras quando\no número de empregados se enquadrar no dimensionamento previsto no Quadro I da NR05, observadas as disposições gerais dessa Norma.",
+    "heading": "Introdução",
+    "char_offset": 27340
   },
   {
     "id": "chunk-88",
-    "text": "3.6.1 A organização responsável pela obra deve promover a integração entre a CIPA, quando existente, e o representante nomeado da NR-05, quando aplicável, no canteiro de obras e na frente de trabalho, observadas as disposições gerais dessa Norma. \n3.6.2. A participação dos membros da CIPA e do representante nomeado da NR-05 nas reuniões, para cumprir os objetivos dessa Norma, deve atender ao disposto em sua parte geral.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 29270
+    "text": "3.1.1 Quando o canteiro de obras não se enquadrar no dimensionamento previsto no\nQuadro I da NR-05, a organização responsável pela obra deverá nomear entre seus\nempregados do local, no mínimo, um representante para cumprir os objetivos da NR-05.\n3.1.2 A organização responsável pela obra está dispensada de constituir CIPA por frente de",
+    "heading": "Introdução",
+    "char_offset": 27595
   },
   {
     "id": "chunk-89",
-    "text": "3.7 A CIPA do canteiro de obras será considerada encerrada, para todos os efeitos, quando as atividades da obra forem finalizadas. \n3.7.1 Consideram-se finalizadas as atividades da obra, para os efeitos de aplicação do disposto nessa Norma, quando todas as suas etapas previstas em projetos estiverem concluídas.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 29697
+    "text": "trabalho.\n3.1.3 Quando existir frente de trabalho, independentemente da quantidade de empregados\npróprios no local, a organização responsável pela obra deverá nomear, entre seus\nempregados, no mínimo, um representante, que exerça suas atividades na frente de",
+    "heading": "Introdução",
+    "char_offset": 27934
   },
   {
     "id": "chunk-90",
-    "text": "3.7.2 A conclusão da obra deverá ser formalizada em documento próprio pelo responsável técnico da obra e cuja cópia deve ser encaminhada - física ou eletronicamente - ao sindicato da categoria dos trabalhadores predominante no estabelecimento. \n14 \nEste texto não substitui o publicado no DOU",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 30014
+    "text": "trabalho ou no canteiro de obras, para cumprir os objetivos da NR-05.\n3.1.3.1 O representante nomeado da NR-05 da organização responsável pela obra pode ser\nnomeado como representante para mais de uma frente de trabalho.\n3.2 Havendo no canteiro de obras ou na frente de trabalho organização prestadora de",
+    "heading": "Introdução",
+    "char_offset": 28195
   },
   {
     "id": "chunk-91",
-    "text": "> [Tabela 1: page 11](../assets/tables/page_011_table_00.html)\n> ![Page 1](../assets/pages/page-001.png)\n> ![Page 2](../assets/pages/page-002.png)\n> ![Page 3](../assets/pages/page-003.png)\n> ![Page 4](../assets/pages/page-004.png)\n> ![Page 5](../assets/pages/page-005.png)",
-    "heading": "Tabelas",
-    "char_offset": 30359
+    "text": "serviços a terceiros, essa deve nomear, no mínimo, um representante da NR-05, quando\npossuir cinco ou mais empregados próprios no local.\nEste texto não substitui o publicado no DOU 12\n3.2.1 A nomeação do representante da NR-05 da organização prestadora de serviços a",
+    "heading": "Introdução",
+    "char_offset": 28502
   },
   {
     "id": "chunk-92",
-    "text": "> ![Page 6](../assets/pages/page-006.png)\n> ![Page 7](../assets/pages/page-007.png)\n> ![Page 8](../assets/pages/page-008.png)\n> ![Page 9](../assets/pages/page-009.png)\n> ![Page 10](../assets/pages/page-010.png)\n> ![Page 11](../assets/pages/page-011.png)",
-    "heading": "Tabelas",
-    "char_offset": 30638
+    "text": "terceiros, no canteiro de obras ou na frente de trabalho, deve ser feita entre os empregados\nque obrigatoriamente exercem suas atividades no local.\n3.2.2 A organização responsável pela obra deve exigir da organização prestadora de serviços\na terceiros que presta serviços no canteiro de obras ou na frente de trabalho a nomeação do",
+    "heading": "Introdução",
+    "char_offset": 28770
   },
   {
     "id": "chunk-93",
-    "text": "> ![Page 12](../assets/pages/page-012.png)\n> ![Page 13](../assets/pages/page-013.png)\n> ![Page 14](../assets/pages/page-014.png)\n-->",
+    "text": "representante da NR-05, quando essa alcançar o mínimo previsto no item 3.2.\n3.2.3 A organização que presta serviços a terceiros nos canteiros de obras ou frentes de\ntrabalho, quando o dimensionamento se enquadrar no Quadro I da NR-05, considerando o",
+    "heading": "Introdução",
+    "char_offset": 29103
+  },
+  {
+    "id": "chunk-94",
+    "text": "número total de empregados nos diferentes locais de trabalho, deve constituir uma CIPA\ncentralizada.\n3.2.3.1 O dimensionamento da CIPA centralizada da organização prestadora de serviços a\nterceiros nos canteiros de obras ou frentes de trabalho deve levar em consideração o",
+    "heading": "Introdução",
+    "char_offset": 29355
+  },
+  {
+    "id": "chunk-95",
+    "text": "número de empregados da organização distribuídos nos diferentes locais de trabalho onde\npresta serviços, tendo como limite territorial, para o dimensionamento da CIPA Centralizada,\na Unidade da Federação.\n3.2.3.1.1 A organização deve garantir que a CIPA centralizada mantenha interação entre os",
+    "heading": "Introdução",
+    "char_offset": 29629
+  },
+  {
+    "id": "chunk-96",
+    "text": "canteiros de obras e frentes de trabalho onde atua na Unidade da Federação.\n3.3 Obras com até 180 (cento e oitenta) dias de duração estão dispensadas da constituição\nda CIPA, devendo a Comunicação Prévia de Obra ser enviada ao sindicato dos trabalhadores",
+    "heading": "Introdução",
+    "char_offset": 29925
+  },
+  {
+    "id": "chunk-97",
+    "text": "da categoria preponderante do local, no prazo máximo de 10 (dez) dias, a partir de seu\nregistro eletrônico no Sistema de Comunicação Prévia de Obras - SCPO.\n3.3.1 Para obras com até 180 (cento e oitenta) dias de duração, a organização responsável\npela obra deverá nomear, no mínimo, um representante da NR-05, aplicando-se o disposto",
+    "heading": "Introdução",
+    "char_offset": 30181
+  },
+  {
+    "id": "chunk-98",
+    "text": "no subitem 3.1.2 quando existir frente de trabalho.\n3.3.2 Para obras com até 180 (cento e oitenta) dias de duração, havendo no canteiro de\nobras ou na frente de trabalho organização prestadora de serviços a terceiros, essa deverá\nnomear, no mínimo, um representante da NR-05, quando possuir cinco ou mais empregados",
+    "heading": "Introdução",
+    "char_offset": 30516
+  },
+  {
+    "id": "chunk-99",
+    "text": "próprios no local.\n3.4 A escolha do representante nomeado da NR-05 compete à organização, observado o\ndisposto nos itens 5.4.14 e 5.4.15.\n3.4.1 A organização deve fornecer ao representante nomeado da NR-05 cópia da sua\nnomeação.\n3.5 Os membros da CIPA do canteiro de obras devem participar de treinamento, conforme",
+    "heading": "Introdução",
+    "char_offset": 30836
+  },
+  {
+    "id": "chunk-100",
+    "text": "estabelecido nessa Norma.\n3.5.1 O representante nomeado da NR-05 deve participar de treinamento com carga horária\nmínima de oito horas, considerando o disposto no item 1.7 da NR-01 e observadas as\ndisposições gerais dessa Norma, com o seguinte conteúdo:",
+    "heading": "Introdução",
+    "char_offset": 31153
+  },
+  {
+    "id": "chunk-101",
+    "text": "Este texto não substitui o publicado no DOU 13\na) noções de prevenção de acidentes e doenças relacionadas ao trabalho;\nb) estudo do ambiente e das condições de trabalho, dos riscos originados no processo\nprodutivo e das medidas de prevenção, de acordo com a etapa da obra; e",
+    "heading": "Introdução",
+    "char_offset": 31410
+  },
+  {
+    "id": "chunk-102",
+    "text": "c) noções sobre a legislação trabalhista e previdenciária relativas à segurança e saúde no\ntrabalho; e\nd) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho.\n_(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "Introdução",
+    "char_offset": 31688
+  },
+  {
+    "id": "chunk-103",
+    "text": "3.5.1.1 A validade do treinamento do representante nomeado da NR-05 deverá atender ao\ndisposto nessa Norma, podendo ser, dentro do prazo de validade e para a organização que\npromoveu o treinamento, aproveitado em diferentes canteiros de obras ou frentes de",
+    "heading": "Introdução",
+    "char_offset": 31944
+  },
+  {
+    "id": "chunk-104",
+    "text": "trabalho.\n3.5.1.2 É permitida a convalidação do treinamento do representante nomeado da NR-05 por\ndiferentes organizações, desde que atendido o disposto no item 1.7 da NR-01.\n3.6 A organização responsável pela obra deve coordenar, observadas as disposições gerais",
+    "heading": "Introdução",
+    "char_offset": 32204
+  },
+  {
+    "id": "chunk-105",
+    "text": "dessa Norma, o trabalho da CIPA, quando existente no canteiro de obras, e, quando\naplicável, do representante nomeado da NR-05.\n3.6.1 A organização responsável pela obra deve promover a integração entre a CIPA, quando\nexistente, e o representante nomeado da NR-05, quando aplicável, no canteiro de obras e na",
+    "heading": "Introdução",
+    "char_offset": 32469
+  },
+  {
+    "id": "chunk-106",
+    "text": "frente de trabalho, observadas as disposições gerais dessa Norma.\n3.6.2. A participação dos membros da CIPA e do representante nomeado da NR-05 nas\nreuniões, para cumprir os objetivos dessa Norma, deve atender ao disposto em sua parte\ngeral.\n3.7 A CIPA do canteiro de obras será considerada encerrada, para todos os efeitos, quando",
+    "heading": "Introdução",
+    "char_offset": 32780
+  },
+  {
+    "id": "chunk-107",
+    "text": "as atividades da obra forem finalizadas.\n3.7.1 Consideram-se finalizadas as atividades da obra, para os efeitos de aplicação do\ndisposto nessa Norma, quando todas as suas etapas previstas em projetos estiverem\nconcluídas.\n3.7.2 A conclusão da obra deverá ser formalizada em documento próprio pelo responsável",
+    "heading": "Introdução",
+    "char_offset": 33116
+  },
+  {
+    "id": "chunk-108",
+    "text": "técnico da obra e cuja cópia deve ser encaminhada - física ou eletronicamente - ao sindicato\nda categoria dos trabalhadores predominante no estabelecimento.\nEste texto não substitui o publicado no DOU 14",
     "heading": "Tabelas",
-    "char_offset": 30896
+    "char_offset": 33631
+  },
+  {
+    "id": "chunk-109",
+    "text": "> [Tabela 1: page 11](../assets/tables/page_011_table_00.html)",
+    "heading": "Tabelas",
+    "char_offset": 33633
   }
 ]
