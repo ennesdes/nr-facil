@@ -181,7 +181,7 @@ fvm flutter test                   # ✅ All tests passed
 1. **Navegar para headings** — ScrollController.jumpTo com Offset
 2. **Busca dentro do doc** — Ctrl+F / SearchDelegate
 3. **Persistir preferências** — fontSize e isDarkMode em GetStorage
-4. **Tabelas HTML** — flutter_widget_from_html para complex tables
+4. ~~**Tabelas HTML** — flutter_widget_from_html para complex tables~~ — não é mais necessário: o pipeline (`scripts/convert_nr.py`) agora gera tabelas como Markdown nativo inline, renderizado pelo `flutter_markdown` já em uso; casos ilegíveis (cabeçalho rotacionado) caem para PNG de página, também já suportado pelo `imageBuilder`
 5. **Zoom de imagem** — photo_view para toque e zoom
 6. **Compartilhamento** — share_plus para compartilhar trechos
 

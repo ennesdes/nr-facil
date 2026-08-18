@@ -1219,2612 +1219,2594 @@
   },
   {
     "id": "chunk-203",
-    "text": "**22.16.2.1** Não existindo na mina código padronizado para o sistema de comunicação, o código de\nsinais básicos, sonoros e luminosos, deve observar a sistemática constante na tabela a seguir:\n|NÚMERO DE TOQUES|TIPO DE TOQUE|AÇÃO|\n|---|---|---|\n|1|Longo|Parar|",
+    "text": "**22.16.2.1** Não existindo na mina código padronizado para o sistema de comunicação, o código de\nsinais básicos, sonoros e luminosos, deve observar a sistemática constante na tabela a seguir:\n**22.16.2.2** O código padronizado do sistema de comunicação deve estar afixado em local visível,",
     "heading": "Introdução",
     "char_offset": 60563
   },
   {
     "id": "chunk-204",
-    "text": "|1|Curto|Subir|\n|2|Curto|Descer|\n|3|Curto|Entrada ou saída de pessoas|\n|3+3+2|Curto|Descer lentamente|\n|3+3+1|Curto|Subir lentamente|\n|4|Curto|Início do transporte de pessoas|\n|4+4|Curto|Fim do transporte de pessoas|\n|5|Curto|O sinalizador vai entrar na gaiola|",
+    "text": "em todos os pontos de parada e nos postos de operação do sistema de transporte.\n**22.16.3** Quando detectada falha no sistema de comunicação, o transporte de pessoas e materiais\ndeve ser imediatamente paralisado, sendo informado ao pessoal de supervisão e providenciado o",
     "heading": "Introdução",
-    "char_offset": 60824
+    "char_offset": 60855
   },
   {
     "id": "chunk-205",
-    "text": "|1|Contínuo|Emergência|\n**22.16.2.2** O código padronizado do sistema de comunicação deve estar afixado em local visível,\nem todos os pontos de parada e nos postos de operação do sistema de transporte.\n**22.16.3** Quando detectada falha no sistema de comunicação, o transporte de pessoas e materiais",
+    "text": "necessário reparo.\n**22.16.4** Todo sistema de comunicação deve comprovar ao emissor que o receptor recebeu\ncorretamente a mensagem.\n**22.16.5** Todos os setores operacionais, de apoio e de emergência da mina devem estar\ninterligados por sistema de comunicação.",
     "heading": "Introdução",
-    "char_offset": 61088
+    "char_offset": 61130
   },
   {
     "id": "chunk-206",
-    "text": "deve ser imediatamente paralisado, sendo informado ao pessoal de supervisão e providenciado o\nnecessário reparo.\n**22.16.4** Todo sistema de comunicação deve comprovar ao emissor que o receptor recebeu\ncorretamente a mensagem.\n**22.16.5** Todos os setores operacionais, de apoio e de emergência da mina devem estar",
+    "text": "**22.16.5.1** Quando da adoção de linhas telefônicas, estas devem ser independentes e protegidas de\ncontatos com a rede elétrica geral.\n**22.16.6** Em minas grisutosas, o sistema de comunicação deve ser à prova de explosão.\n**22.17 Sinalização**\n**22.17.1** As sinalizações devem ser mantidas em perfeito estado de conservação.",
     "heading": "Introdução",
-    "char_offset": 61391
+    "char_offset": 61396
   },
   {
     "id": "chunk-207",
-    "text": "interligados por sistema de comunicação.\n**22.16.5.1** Quando da adoção de linhas telefônicas, estas devem ser independentes e protegidas de\ncontatos com a rede elétrica geral.\n**22.16.6** Em minas grisutosas, o sistema de comunicação deve ser à prova de explosão.",
+    "text": "**22.17.2** Os tanques, depósitos e as áreas de utilização de material inflamável, substâncias tóxicas e\nmateriais passíveis de gerar atmosfera explosiva devem estar sinalizadas, com indicação de:\na) área de perigo;\nb) proibição de uso de chama aberta, fumar ou outros artefatos que produzam calor e faísca; e",
     "heading": "Introdução",
-    "char_offset": 61708
+    "char_offset": 61725
   },
   {
     "id": "chunk-208",
-    "text": "**22.17 Sinalização**\n**22.17.1** As sinalizações devem ser mantidas em perfeito estado de conservação.\n**22.17.2** Os tanques, depósitos e as áreas de utilização de material inflamável, substâncias tóxicas e\nmateriais passíveis de gerar atmosfera explosiva devem estar sinalizadas, com indicação de:",
+    "text": "c) acesso restrito a trabalhadores autorizados.\n**22.17.2.1** Nos depósitos de substâncias tóxicas e nos tanques de combustíveis inflamáveis devem\nser fixadas, em local visível, indicações do tipo do produto e suas capacidades máximas.\n**22.17.3** A identificação de produtos químicos estocados, manuseados ou utilizados pela",
     "heading": "Introdução",
-    "char_offset": 61976
+    "char_offset": 62037
   },
   {
     "id": "chunk-209",
-    "text": "a) área de perigo;\nb) proibição de uso de chama aberta, fumar ou outros artefatos que produzam calor e faísca; e\nc) acesso restrito a trabalhadores autorizados.\n**22.17.2.1** Nos depósitos de substâncias tóxicas e nos tanques de combustíveis inflamáveis devem",
+    "text": "organização devem seguir o disposto na Norma Regulamentadora nº 26 (NR-26) - Sinalização de\nSegurança.\n| NÚMERO DE TOQUES | TIPO DE TOQUE | AÇÃO |\n| --- | --- | --- |\n| 1 | Longo | Parar |\n| 1 | Curto | Subir |\n| 2 | Curto | Descer |\n| 3 | Curto | Entrada ou saída de pessoas |",
     "heading": "Introdução",
-    "char_offset": 62278
+    "char_offset": 62364
   },
   {
     "id": "chunk-210",
-    "text": "ser fixadas, em local visível, indicações do tipo do produto e suas capacidades máximas.\n**22.17.3** A identificação de produtos químicos estocados, manuseados ou utilizados pela\norganização devem seguir o disposto na Norma Regulamentadora nº 26 (NR-26) - Sinalização de",
+    "text": "| 3+3+2 | Curto | Descer lentamente |\n| 3+3+1 | Curto | Subir lentamente |\n| 4 | Curto | Início do transporte de pessoas |\n| 4+4 | Curto | Fim do transporte de pessoas |\n| 5 | Curto | O sinalizador vai entrar na gaiola |\n| 1 | Contínuo | Emergência |",
     "heading": "Introdução",
-    "char_offset": 62539
+    "char_offset": 62642
   },
   {
     "id": "chunk-211",
-    "text": "Segurança.\n~~**22.17.4**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18 Instalações elétricas**\n**22.18.1** A organização deve atender o disposto na NR-10 e as demais disposições deste capítulo.\n**22.18.2** Os cabos e condutores de alimentação elétrica utilizados devem ser certificados por um",
+    "text": "~~**22.17.4**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18 Instalações elétricas**\n**22.18.1** A organização deve atender o disposto na NR-10 e as demais disposições deste capítulo.\n**22.18.2** Os cabos e condutores de alimentação elétrica utilizados devem ser certificados por um",
     "heading": "Introdução",
-    "char_offset": 62814
+    "char_offset": 62897
   },
   {
     "id": "chunk-212",
     "text": "organismo de certificação, credenciado pelo Instituto Nacional de Metrologia, Normalização e\nQualidade Industrial (INMETRO).\n**22.18.3** Os cabos, instalações e equipamentos elétricos devem ser protegidos contra impactos,\nágua e influência de agentes químicos, observando-se suas aplicações, de acordo com as",
     "heading": "Introdução",
-    "char_offset": 63136
+    "char_offset": 63208
   },
   {
     "id": "chunk-213",
     "text": "especificações técnicas.\n**22.18.3.1** Os condutores de energia elétrica quando instalados no teto de galerias devem estar\nnuma altura e localização compatíveis com o trânsito seguro de pessoas, máquinas e\nequipamentos e protegidos contra contatos acidentais. _(Inserido pela Portaria MTE nº 105, de 29 de janeiro_",
     "heading": "Introdução",
-    "char_offset": 63446
+    "char_offset": 63518
   },
   {
     "id": "chunk-214",
     "text": "_de 2026)_\n**22.18.3.2** Em planos inclinados, galerias e poços, os condutores de energia elétrica devem ser\ninstalados em suportes fixos. _(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18.4** Os locais de instalação de transformadores e capacitores, seus painéis e respectivos",
     "heading": "Introdução",
-    "char_offset": 63763
+    "char_offset": 63835
   },
   {
     "id": "chunk-215",
     "text": "dispositivos de operação devem atender aos seguintes requisitos:\na) serem ventilados e iluminados ou, quando instalados em ambientes confinados, serem\nprojetados e construídos com tecnologia adequada;\nb) quando em subsolo, construídos e protegidos contra queda de materiais e risco de colisões;",
     "heading": "Introdução",
-    "char_offset": 64065
+    "char_offset": 64137
   },
   {
     "id": "chunk-216",
     "text": "c) serem devidamente protegidos e sinalizados, indicando a zona de perigo, de forma a alertar que\no acesso é proibido a pessoas não autorizadas;\nd) não serem usados para finalidades distintas daquelas estabelecidas no projeto elétrico; e\ne) possuírem sistema de proteção e combate a incêndio adequado a classe de risco, conforme",
     "heading": "Introdução",
-    "char_offset": 64363
+    "char_offset": 64435
   },
   {
     "id": "chunk-217",
     "text": "projeto.\n**22.18.5** Os terminais energizados dos transformadores devem ser isolados por barreiras ou outros\nmeios físicos, a fim de evitar contatos acidentais.\n**22.18.6** Os quadros ou painéis de distribuição de energia das instalações elétricas devem:",
     "heading": "Introdução",
-    "char_offset": 64694
+    "char_offset": 64766
   },
   {
     "id": "chunk-218",
     "text": "a) ser dimensionados com capacidade para instalar os componentes dos circuitos elétricos que o\nconstituem;\nb) ser constituídos de materiais resistentes ao calor gerado pelos componentes das instalações;\nc) ter as partes vivas inacessíveis e protegidas aos trabalhadores não autorizados;",
     "heading": "Introdução",
-    "char_offset": 64952
+    "char_offset": 65024
   },
   {
     "id": "chunk-219",
     "text": "d) ter acesso desobstruído;\ne) ser instalados com espaço suficiente para a realização de serviços e operação;\nf) estar identificados e sinalizados quanto ao risco elétrico;\ng) estar em conformidade com a classe de proteção requerida; e\nh) ter seus circuitos identificados.",
     "heading": "Introdução",
-    "char_offset": 65244
+    "char_offset": 65316
   },
   {
     "id": "chunk-220",
     "text": "**22.18.7** O bloqueio durante as operações de manutenção e reparo de instalações elétricas deve\nser realizado utilizando-se de cadeado e etiquetas sinalizadoras, fixadas em local visível, contendo,\nno mínimo, as seguintes indicações:\na) horário e data do bloqueio;",
     "heading": "Introdução",
-    "char_offset": 65519
+    "char_offset": 65591
   },
   {
     "id": "chunk-221",
     "text": "b) motivo da manutenção; e\nc) nome do responsável pela operação.\n**22.18.8** Os equipamentos e máquinas de emergência, destinados a manter a continuidade do\nfornecimento de energia elétrica e as condições de segurança no trabalho, devem ser mantidos",
     "heading": "Introdução",
-    "char_offset": 65788
+    "char_offset": 65860
   },
   {
     "id": "chunk-222",
     "text": "permanentemente em condições de funcionamento.\n~~**22.18.9**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.18.9.1**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18.10** Os sistemas automáticos de recolhimento de cabos, utilizados em equipamentos",
     "heading": "Introdução",
-    "char_offset": 66041
+    "char_offset": 66113
   },
   {
     "id": "chunk-223",
     "text": "elétricos móveis, devem ser projetados de modo a garantir a segurança elétrica, assegurando que\nestejam eletricamente solidários à carcaça do equipamento principal para evitar riscos de choque\nelétrico. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 66340
+    "char_offset": 66412
   },
   {
     "id": "chunk-224",
     "text": "**22.18.11** Em locais com ocorrência de gases inflamáveis e explosivos, as intervenções nas\ninstalações elétricas devem ser realizadas, com a chave de acionamento desligada e bloqueada,\nmonitorando-se continuamente a concentração dos gases, de forma a garantir a segurança e",
     "heading": "Introdução",
-    "char_offset": 66608
+    "char_offset": 66680
   },
   {
     "id": "chunk-225",
     "text": "saúde dos trabalhadores envolvidos. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18.12** Os dispositivos de segurança das instalações elétricas não devem ser burlados. _(Alterado_\n_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 66885
+    "char_offset": 66957
   },
   {
     "id": "chunk-226",
     "text": "~~**22.18.13**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.18.14**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.18.15** Os componentes das instalações elétricas em desuso devem ser desenergizados,",
     "heading": "Introdução",
-    "char_offset": 67146
+    "char_offset": 67218
   },
   {
     "id": "chunk-227",
     "text": "conforme definido na NR-10, e quando não forem mais utilizados devem ser retirados. _(Alterado pela_\n_Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.18.16**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.18.17 “a”, “b”, “c” e “d”**~~ _(Caput e alíneas excluídos pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 67400
+    "char_offset": 67472
   },
   {
     "id": "chunk-228",
     "text": "**22.19 Operações com explosivos e acessórios**\n**22.19.1** Todas as operações envolvendo explosivos e acessórios devem observar as\nrecomendações de segurança do fabricante, além do disposto na Norma Regulamentadora nº 19\n(NR-19) - Explosivos, o contido nesta Norma e o normativo de explosivos da Diretoria de",
     "heading": "Introdução",
-    "char_offset": 67751
+    "char_offset": 67823
   },
   {
     "id": "chunk-229",
     "text": "Fiscalização de Produtos Controlados (DFPC) do Exército Brasileiro.\n**22.19.2** Em cada mina, onde seja necessário o desmonte de rocha com uso de explosivos, deve\nestar disponível plano de fogo, no qual conste:\na) croqui com distribuição e arranjo dos furos;",
     "heading": "Introdução",
-    "char_offset": 68063
+    "char_offset": 68135
   },
   {
     "id": "chunk-230",
     "text": "b) profundidade dos furos;\nc) quantidade de explosivos planejada por furo; _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de_\n_2026)_\nd) tipos de explosivos e acessórios que serão utilizados; _(Alterada pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 68325
+    "char_offset": 68397
   },
   {
     "id": "chunk-231",
     "text": "e) sequência das detonações;\nf) razão de carregamento;\ng) volume a ser desmontado;\nh) tempo mínimo de retorno após a detonação; e\ni) indicação da área de risco de carregamento em função das alíneas \"c\", \"d\", \"f\" e \"g\".\n**22.19.2.1** O plano de fogo da mina deve ser elaborado por profissional legalmente habilitado.",
     "heading": "Introdução",
-    "char_offset": 68596
+    "char_offset": 68668
   },
   {
     "id": "chunk-232",
     "text": "**22.19.2.2** A alínea “h” item 22.19. do 2 aplica-se exclusivamente às minas de subsolo e a alínea “i”\ndo item 22.19.2 aplica-se exclusivamente às minas a céu aberto. _(Inserido pela Portaria MTE nº 105, de_\n_29 de janeiro de 2026)_\n**22.19.3** O manuseio e utilização de material explosivo devem ser efetuados por blaster, podendo",
     "heading": "Introdução",
-    "char_offset": 68914
+    "char_offset": 68986
   },
   {
     "id": "chunk-233",
     "text": "ser auxiliado por trabalhador capacitado e sob sua supervisão.\n**22.19.4** A execução do plano de fogo, operações de detonação e atividades correlatas devem ser\nsupervisionadas e executadas pelo blaster.\n**22.19.4.1** O blaster é o responsável por:\na) ordenar a retirada dos paióis ou depósitos, transporte e descarregamento dos explosivos e",
     "heading": "Introdução",
-    "char_offset": 69250
+    "char_offset": 69322
   },
   {
     "id": "chunk-234",
     "text": "acessórios nas quantidades necessárias ao posto de trabalho a que se destinam;\nb) orientar e supervisionar o carregamento dos furos, verificando a quantidade carregada e a\nsequência de fogo;\nc) antes e durante o carregamento dos furos, no caso de minas ou frentes de trabalho sujeitas a",
     "heading": "Introdução",
-    "char_offset": 69594
+    "char_offset": 69666
   },
   {
     "id": "chunk-235",
     "text": "emanações de gases explosivos, solicitar a medida da concentração destes gases, respeitando o\nlimite constante no subitem 22.26.3.1 desta NR;\nd) orientar a conexão dos furos carregados com o sistema de iniciação;\ne) certificar que não haja mais pessoas na frente de desmonte, antes de ligar o fogo e retirar-se;",
     "heading": "Introdução",
-    "char_offset": 69883
+    "char_offset": 69955
   },
   {
     "id": "chunk-236",
     "text": "f) nas frentes em desenvolvimento, certificar-se do adequado funcionamento da ventilação\nauxiliar e da aspersão de água;\ng) certificar-se da inexistência de fogos falhados e, se houver, adotar as providências previstas no\nitem 22.19.30 desta NR;\nh) comunicar ao responsável pela área ou frente de serviço o encerramento das atividades de",
     "heading": "Introdução",
-    "char_offset": 70198
+    "char_offset": 70270
   },
   {
     "id": "chunk-237",
     "text": "detonação; e\ni) examinar e conferir periodicamente os registros de consumo de explosivos e acessórios. _(Inserida_\n_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.19.5** O desmonte com uso de explosivos deve obedecer às seguintes condições:",
     "heading": "Introdução",
-    "char_offset": 70539
+    "char_offset": 70611
   },
   {
     "id": "chunk-238",
     "text": "a) horários de detonação previamente definidos e consignados em placas visíveis na entrada de\nacesso às áreas da mina;\nb) durante a atividade de carregamento, a área de risco deve ser sinalizada e o trabalho restrito ao\npessoal autorizado; _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 70793
+    "char_offset": 70865
   },
   {
     "id": "chunk-239",
     "text": "c) realizar a limpeza dos furos; _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\nd) a área de risco de carregamento deve ser evacuada e vigiada antes do início do desmonte;\ne) precedido do acionamento de sistema sonoro, visual ou de outra solução tecnológica de maior",
     "heading": "Introdução",
-    "char_offset": 71100
+    "char_offset": 71172
   },
   {
     "id": "chunk-240",
     "text": "eficácia; _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\nf) dispor de abrigo para uso eventual daqueles que acionam a detonação; e _(Alterada pela Portaria_\n_MTE nº 105, de 29 de janeiro de 2026)_\ng) na impossibilidade de detonação de frentes que estejam parcial ou totalmente carregadas a",
     "heading": "Introdução",
-    "char_offset": 71386
+    "char_offset": 71458
   },
   {
     "id": "chunk-241",
     "text": "área deve ser evacuada e isolada até que cesse o motivo do impedimento da detonação.\n**22.19.5.1** Em subsolo, além do disposto no item 22.19.5 desta NR, devem ser obedecidas às\nseguintes condições:\na) a existência de contenção do maciço, conforme o plano de lavra; _(Alterada pela Portaria MTE nº 105,_",
     "heading": "Introdução",
-    "char_offset": 71695
+    "char_offset": 71767
   },
   {
     "id": "chunk-242",
     "text": "_de 29 de janeiro de 2026)_\nb) a existência de sistema de ventilação protegido e operante; e\nc) a existência e funcionamento de aspersor de água em frentes de lavra e desenvolvimento, para\nlavagem de gases e deposição da poeira durante e após a detonação.",
     "heading": "Introdução",
-    "char_offset": 72001
+    "char_offset": 72073
   },
   {
     "id": "chunk-243",
     "text": "**22.19.5.1.1** Na interligação de duas frentes de trabalho em subsolo, devem ser observados os\nseguintes critérios:\na) retirada total do pessoal das duas frentes, quando da detonação de cada uma delas;\nb) detonação não simultânea das frentes; e\nc) estabelecer a distância mínima de segurança para a paralisação de uma das frentes.",
     "heading": "Introdução",
-    "char_offset": 72261
+    "char_offset": 72333
   },
   {
     "id": "chunk-244",
     "text": "**22.19.5.2** Em mina a céu aberto, além do disposto no item 22.19.5 desta NR, devem ser\nobedecidas às seguintes condições:\na) adoção de medidas para evitar o lançamento de fragmentos de rocha além dos limites da área\nde detonação;\nb) não realizar a detonação no período noturno ou na possibilidade de ocorrência de descargas",
     "heading": "Introdução",
-    "char_offset": 72596
+    "char_offset": 72668
   },
   {
     "id": "chunk-245",
     "text": "atmosféricas; e\nc) não realizar a detonação em condição de baixo nível de iluminamento, salvo na\nexcepcionalidade com aplicação de medidas de controle previstas em análise de risco.\n**22.19.5.3** Em função do processo produtivo, se necessário a detonação fora dos horários",
     "heading": "Introdução",
-    "char_offset": 72924
+    "char_offset": 72996
   },
   {
     "id": "chunk-246",
     "text": "previamente definidos, a organização deve implementar procedimento de segurança específico\npara realização da atividade de detonação, observados os itens 22.19.5.1, 22.19.5.1.1 e 22.19.5.2\ndesta NR, no que couber.\n**22.19.6** A localização, construção, armazenagem e manutenção dos depósitos principais e",
     "heading": "Introdução",
-    "char_offset": 73198
+    "char_offset": 73270
   },
   {
     "id": "chunk-247",
     "text": "secundários de explosivos e acessórios devem estar de acordo com esta norma e com a Norma\nRegulamentadora nº 19.\n**22.19.6.1** É proibida a deposição de qualquer material que não sejam explosivos ou acessórios\ndentro dos locais de armazenamento. _(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 73504
+    "char_offset": 73576
   },
   {
     "id": "chunk-248",
     "text": "**22.19.7** Os depósitos de explosivos e acessórios, no subsolo, não podem estar localizados junto a\ngalerias de acesso de pessoal e de ventilação principal da mina.\n**22.19.8** Os locais de armazenamento de explosivos e acessórios no subsolo devem: _(Alterado pela_",
     "heading": "Introdução",
-    "char_offset": 73816
+    "char_offset": 73888
   },
   {
     "id": "chunk-249",
     "text": "_Portaria MTE nº 105, de 29 de janeiro de 2026)_\na) conter, no máximo, a quantidade a ser utilizada num período de 5 (cinco) dias de trabalho;\n_(Inserida pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\nb) ser instalados em locais tratados e com contenção, de forma a evitar impactos acidentais com",
     "heading": "Introdução",
-    "char_offset": 74085
+    "char_offset": 74157
   },
   {
     "id": "chunk-250",
     "text": "queda de materiais; _(Inserida pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\nc) ser trancados; _(Inserida pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\nd) ser independentes, separados e sinalizados; _(Inserida pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 74390
+    "char_offset": 74462
   },
   {
     "id": "chunk-251",
     "text": "e) ser sinalizados no fluxograma de ventilação da mina; e _(Inserida pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_\nf) manter umidade e temperatura em conformidade com recomendação dos fabricantes. _(Inserida_\n_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 74669
+    "char_offset": 74741
   },
   {
     "id": "chunk-252",
     "text": "**22.19.8.1** O sistema de contenção num raio de 25 m (vinte e cinco metros) dos locais de\narmazenamento de explosivos e acessórios deve ser constituído de material incombustível.\n_(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.19.9** O acesso aos depósitos de explosivos e de acessórios, só pode ser liberado a pessoal",
     "heading": "Introdução",
-    "char_offset": 74943
+    "char_offset": 75015
   },
   {
     "id": "chunk-253",
     "text": "devidamente capacitado, qualificado ou habilitado e autorizado pela organização ou\nacompanhado de pessoa que atenda a estes requisitos. _(Alterado pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_\n**22.19.9.1** A menos de 20 m (vinte metros) de locais de armazenamento de explosivos e acessórios",
     "heading": "Introdução",
-    "char_offset": 75285
+    "char_offset": 75357
   },
   {
     "id": "chunk-254",
     "text": "em subsolo somente será permitido o acesso de pessoas que trabalhem naquela área e para\nexecução de manutenção das galerias. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.19.9.2**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 75587
+    "char_offset": 75659
   },
   {
     "id": "chunk-255",
     "text": "**22.19.10** O consumo de explosivos deve ser controlado e registrado pela organização.\n~~**22.19.10.1**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.19.11** É proibida a permanência de explosivos e acessórios iniciadores fora dos depósitos ou",
     "heading": "Introdução",
-    "char_offset": 75861
+    "char_offset": 75933
   },
   {
     "id": "chunk-256",
     "text": "locais de armazenamento, após a conclusão do trabalho de carregamento. _(Alterado pela Portaria MTE_\n_nº 105, de 29 de janeiro de 2026)_\n**22.19.11.1** Explosivos e acessórios não usados devem ser retornados imediatamente aos\ndepósitos ou locais de armazenamento respectivos. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de_",
     "heading": "Introdução",
-    "char_offset": 76132
+    "char_offset": 76204
   },
   {
     "id": "chunk-257",
     "text": "_2026)_\n**22.19.12** Explosivos e acessórios devem ser estocados em suas embalagens originais ou em\nrecipientes apropriados e sobre material não metálico, resistente e livre de umidade.\n**22.19.12.1** Os explosivos e acessórios não podem estar em contato com qualquer material que",
     "heading": "Introdução",
-    "char_offset": 76469
+    "char_offset": 76541
   },
   {
     "id": "chunk-258",
     "text": "possa gerar faíscas, fagulhas ou centelhas.\n**22.19.13** Os depósitos e locais de armazenamento de explosivos e acessórios devem ser\nsinalizados com placas de advertência contendo a menção “EXPLOSIVOS”, em locais visíveis nas\nproximidades e nas portas de acesso aos mesmos.",
     "heading": "Introdução",
-    "char_offset": 76751
+    "char_offset": 76823
   },
   {
     "id": "chunk-259",
     "text": "**22.19.14** O veículo utilizado para movimentação interna de explosivos e acessórios deve ser\ndotado de ligação metálica da carroceria com a terra e de proteção que impeça o contato de parte\nmetálicas com explosivos e acessórios e observadas as recomendações do fabricante.",
     "heading": "Introdução",
-    "char_offset": 77026
+    "char_offset": 77098
   },
   {
     "id": "chunk-260",
     "text": "**22.19.14.1** O carregamento e descarregamento deve ser feito com o veículo desligado e travado.\n**22.19.15** Os trabalhadores envolvidos na movimentação interna de explosivos e acessórios devem\nreceber capacitação específica para realizar sua atividade.",
     "heading": "Introdução",
-    "char_offset": 77303
+    "char_offset": 77375
   },
   {
     "id": "chunk-261",
     "text": "**22.19.16** É proibido a movimentação interna de explosivos com outros materiais não relacionados\nao desmonte, bem como com pessoas estranhas à atividade. _(Alterado pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_\n**22.19.17** A movimentação interna de explosivos e acessórios deve ser feita utilizando recipientes",
     "heading": "Introdução",
-    "char_offset": 77561
+    "char_offset": 77633
   },
   {
     "id": "chunk-262",
     "text": "apropriados.\n**22.19.18** O operador de guincho ou de elevador, quando houver, deve ser previamente\ncomunicado de toda movimentação de explosivos e acessórios no interior dos poços e planos\ninclinados.\n**22.19.19** Os explosivos comprometidos em seu estado de conservação, inclusive os oriundos de",
     "heading": "Introdução",
-    "char_offset": 77887
+    "char_offset": 77959
   },
   {
     "id": "chunk-263",
     "text": "fogos falhados, devem ser destruídos, conforme instruções do fabricante e do normativo de\nexplosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro.\n**22.19.20** É proibido utilizar fósforos, isqueiros, chama exposta ou qualquer instrumento ou",
     "heading": "Introdução",
-    "char_offset": 78186
+    "char_offset": 78258
   },
   {
     "id": "chunk-264",
     "text": "ferramenta que gere faíscas, fagulhas ou centelhas durante o manuseio, escorvamento e\nmovimentação de explosivos e acessórios.\n**22.19.21** No carregamento dos furos é permitido somente o uso de socadores de madeira, plástico\nou cobre.\n**22.19.22** Os instrumentos e equipamentos utilizados para detonação elétrica e medição de",
     "heading": "Introdução",
-    "char_offset": 78462
+    "char_offset": 78534
   },
   {
     "id": "chunk-265",
     "text": "resistências devem ser inspecionados e calibrados periodicamente, mantendo-se o registro da\núltima inspeção.\n**22.19.23** Em minas de subsolo com emanações de gases inflamáveis ou explosivos somente será\npermitido o uso de explosivos mediante a implementação de procedimentos que garantam a",
     "heading": "Introdução",
-    "char_offset": 78791
+    "char_offset": 78863
   },
   {
     "id": "chunk-266",
     "text": "segurança dos trabalhadores.\n**22.19.24** É proibido o escorvamento de explosivos fora da frente de trabalho.\n**22.19.25** A fixação da espoleta no estopim deve ser feita com ferramenta específica para este fim.\n**22.19.26** Os fios condutores, utilizados nas detonações por descarga elétrica, devem possuir as",
     "heading": "Introdução",
-    "char_offset": 79085
+    "char_offset": 79157
   },
   {
     "id": "chunk-267",
     "text": "seguintes características:\na) ser apropriado para esta aplicação;\nb) estar isolados eletricamente;\nc) não conter emendas;\nd) ser mantidos unidos em curto-circuito até sua conexão aos detonadores;\ne) ser conectados ao equipamento de detonação pelo blaster somente após a retirada do pessoal",
     "heading": "Introdução",
-    "char_offset": 79401
+    "char_offset": 79473
   },
   {
     "id": "chunk-268",
     "text": "da frente de detonação; e\nf) possuir comprimento adequado, que possibilite uma distância segura para o blaster.\n**22.19.27** Em minas com baixa umidade relativa do ar, sujeitas ao acúmulo de eletricidade estática,\no blaster deve usar pulseira antiestática ou outra solução técnica de maior eficácia, durante a",
     "heading": "Introdução",
-    "char_offset": 79693
+    "char_offset": 79765
   },
   {
     "id": "chunk-269",
     "text": "atividade de montagem do circuito e detonação elétrica. _(Alterado pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_\n~~**22.19.28 “a”, “b”, “c” e “d”**~~ _(Caput e alíneas excluídos pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.19.29** O retorno à frente detonada só será permitido após a verificação da existência das",
     "heading": "Introdução",
-    "char_offset": 80005
+    "char_offset": 80077
   },
   {
     "id": "chunk-270",
     "text": "seguintes condições:\na) dissipação dos gases e poeiras, observando-se o tempo mínimo determinado pelo projeto de\nventilação e plano de fogo;\nb) confirmação das condições de estabilidade da área;\nc) marcação e eliminação de fogos falhados; e\nd) autorização do blaster.",
     "heading": "Introdução",
-    "char_offset": 80345
+    "char_offset": 80417
   },
   {
     "id": "chunk-271",
     "text": "**22.19.30** Na constatação ou suspeita de fogos falhados no material detonado, após o retorno das\natividades, devem ser tomadas as seguintes providências:\na) os trabalhos devem ser interrompidos imediatamente;\nb) o local deve ser evacuado; e\nc) informar ao blaster para adoção das providências cabíveis.",
     "heading": "Introdução",
-    "char_offset": 80617
+    "char_offset": 80689
   },
   {
     "id": "chunk-272",
     "text": "**22.19.30.1** A retirada de fogos falhados só poderá ser executada pelo blaster ou, sob sua\norientação, por trabalhador capacitado ou qualificado e autorizado.\n**22.19.31** A retirada de fogos falhados só poderá ser realizada por meio de dispositivo que não",
     "heading": "Introdução",
-    "char_offset": 80924
+    "char_offset": 80996
   },
   {
     "id": "chunk-273",
     "text": "produza faíscas, fagulhas ou centelhas.\n~~**22.19.32**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.19.33**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.19.34** É proibido o aproveitamento de furos falhados.",
     "heading": "Introdução",
-    "char_offset": 81186
+    "char_offset": 81258
   },
   {
     "id": "chunk-274",
     "text": "**22.20 Atividades com dragas flutuantes**\n**22.20.1** As dragas flutuantes, além das obrigações estabelecidas na legislação específica, devem\natender os seguintes requisitos:\na) a plataforma da draga deve ser equipada com sistema de proteção coletiva contra quedas com",
     "heading": "Introdução",
-    "char_offset": 81451
+    "char_offset": 81523
   },
   {
     "id": "chunk-275",
     "text": "as dimensões previstas no item 22.6.5 desta NR;\nb) todos os equipamentos devem ser seguramente afixados de forma a evitar deslocamentos;\nc) possuir alerta sonoro para situações de emergência;\nd) ser equipadas com coletes salva-vidas em número correspondente ao de ocupantes; e",
     "heading": "Introdução",
-    "char_offset": 81724
+    "char_offset": 81796
   },
   {
     "id": "chunk-276",
     "text": "e) ter a carga máxima permitida indicada em local visível.\n**22.21 Desmonte hidráulico**\n**22.21.1** Os trabalhadores e os equipamentos que efetuam o desmonte devem estar protegidos\npor uma distância adequada, de forma a protegê-los contra possíveis desmoronamentos ou",
     "heading": "Introdução",
-    "char_offset": 82004
+    "char_offset": 82076
   },
   {
     "id": "chunk-277",
     "text": "deslizamentos.\n**22.21.2** É proibida a entrada de pessoas não autorizadas nos locais onde está sendo realizado o\ndesmonte hidráulico.\n**22.21.3** Os trabalhadores encarregados do desmonte devem estar protegidos por equipamentos\nde proteção adequados para trabalhos em condições de alta umidade.",
     "heading": "Introdução",
-    "char_offset": 82277
+    "char_offset": 82349
   },
   {
     "id": "chunk-278",
     "text": "**22.21.4** Nas instalações de desmonte hidráulico devem ser observados os seguintes requisitos:\na) os tubos, as conexões e os suportes das tubulações devem ser apropriados para estas\nfinalidades e dotados de dispositivo que impeça o chicoteamento da mangueira em caso de",
     "heading": "Introdução",
-    "char_offset": 82575
+    "char_offset": 82647
   },
   {
     "id": "chunk-279",
     "text": "desengate acidental;\nb) deve existir suporte para o equipamento de jateamento; e\nc) a instalação deve ter dispositivo para o desligamento de emergência da bomba de pressão.\n**22.22 Ventilação em atividades de subsolo**\n**22.22.1** As minas de subsolo devem possuir um sistema de ventilação mecânica em função do",
     "heading": "Introdução",
-    "char_offset": 82851
+    "char_offset": 82923
   },
   {
     "id": "chunk-280",
     "text": "plano de lavra e desenvolvimento da mina, projetado e elaborado por profissional legalmente\nhabilitado. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.22.1.1** O projeto do sistema de ventilação mecânica deve ser mantido atualizado.",
     "heading": "Introdução",
-    "char_offset": 83164
+    "char_offset": 83236
   },
   {
     "id": "chunk-281",
     "text": "**22.22.2** O sistema de ventilação mecânica, nas áreas onde houver atividades de trabalho e\ncirculação de pessoas, deve garantir a renovação contínua do ar de forma a atender aos seguintes\nrequisitos mínimos:\na) suprir a necessidade de oxigênio;\nb) diluir de forma eficaz os gases inflamáveis ou nocivos e as poeiras do ambiente de trabalho; e",
     "heading": "Introdução",
-    "char_offset": 83422
+    "char_offset": 83494
   },
   {
     "id": "chunk-282",
     "text": "c) garantir temperatura e umidade do ar adequadas ao trabalho humano.\n**22.22.2.1** O sistema de ventilação deve garantir por meio de procedimentos ou dispositivos, que:\n_(Caput e alíneas inseridos pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 83769
+    "char_offset": 83841
   },
   {
     "id": "chunk-283",
     "text": "a) os gases de combustão provenientes de incêndio na superfície não penetrem no seu interior; e\nb) os gases de combustão ou outros gases tóxicos gerados em seu interior em virtude de incêndio\nnão sejam carreados para as frentes de trabalho ou sejam adequadamente diluídos.",
     "heading": "Introdução",
-    "char_offset": 84022
+    "char_offset": 84094
   },
   {
     "id": "chunk-284",
     "text": "**22.22.3** O sistema de ventilação deve atender, no mínimo, aos seguintes requisitos:\na) possuir ventilador de emergência com potência suficiente para manter os requisitos dispostos\nnas alíneas “a” a “c” do item 22.22.2 desta NR;\nb) as entradas aspirantes dos ventiladores devem ser protegidas;",
     "heading": "Introdução",
-    "char_offset": 84298
+    "char_offset": 84370
   },
   {
     "id": "chunk-285",
     "text": "c) o ventilador principal e o de emergência devem ser instalados de modo que não permitam a\nrecirculação do ar; e\nd) possuir sistema alternativo de alimentação de energia proveniente de fonte independente da\nalimentação principal para acionar o sistema de emergência nas seguintes situações:",
     "heading": "Introdução",
-    "char_offset": 84596
+    "char_offset": 84668
   },
   {
     "id": "chunk-286",
     "text": "I - minas sujeitas a acúmulo de gases explosivos ou tóxicos; e\nII - minas em que a falta de ventilação coloque em risco a segurança das pessoas durante sua\nretirada.\n**22.22.3.1** Na falta de alimentação de energia ou de fonte independente da alimentação principal,",
     "heading": "Introdução",
-    "char_offset": 84892
+    "char_offset": 84964
   },
   {
     "id": "chunk-287",
     "text": "a organização deve providenciar a retirada imediata das pessoas.\n**22.22.4** O sistema de ventilação mecânica deve possuir plano de manutenção elaborado sob\nresponsabilidade de profissional legalmente habilitado. _(Alterado pela Portaria MTE nº 105, de 29 de_",
     "heading": "Introdução",
-    "char_offset": 85159
+    "char_offset": 85231
   },
   {
     "id": "chunk-288",
     "text": "_janeiro de 2026)_\n**22.22.5** Para cada mina deve ser elaborado e implantado um fluxograma de ventilação atualizado,\ncontendo a localização, a vazão e a pressão dos ventiladores principais e de emergência e o\nsentido do fluxo de ar, de acordo com o projeto de ventilação. _(Alterado pela Portaria MTE nº 105, de 29_",
     "heading": "Introdução",
-    "char_offset": 85420
+    "char_offset": 85492
   },
   {
     "id": "chunk-289",
     "text": "_de janeiro de 2026)_\n**22.22.5.1** O fluxograma de ventilação deve estar disponível na entrada de cada mina.\n**22.22.6** A organização deve implementar o projeto do sistema de ventilação por meio de Plano de\nVentilação (PV) em conformidade com o processo de lavra, desenvolvimento e operação da mina,",
     "heading": "Introdução",
-    "char_offset": 85739
+    "char_offset": 85811
   },
   {
     "id": "chunk-290",
     "text": "considerando a segurança e saúde dos trabalhadores. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro_\n_de 2026)_\n**22.22.6.1** No PV devem constar diagramas esquemáticos de ventilação atualizados e contendo, no\nmínimo, os seguintes dados:\na) localização, vazão dos ventiladores reforçadores, dos ventiladores auxiliares;",
     "heading": "Introdução",
-    "char_offset": 86043
+    "char_offset": 86115
   },
   {
     "id": "chunk-291",
     "text": "b) direção e sentido do fluxo de ar; e\nc) localização de todas as portas, barricadas, cortinas, diques, tapumes e outros dispositivos de\ncontrole do fluxo de ventilação.\n**22.22.6.1.1** Os diagramas esquemáticos de ventilação, de cada nível, devem ser afixados em local",
     "heading": "Introdução",
-    "char_offset": 86372
+    "char_offset": 86444
   },
   {
     "id": "chunk-292",
     "text": "visível nos respectivos níveis ou nos painéis de lavra, conforme o método de lavra.\n**22.22.7** Todas as frentes de trabalho, em desenvolvimento e lavra, devem ser ventiladas por uma\ncorrente de ar que previna a exposição dos trabalhadores a contaminantes acima dos limites de",
     "heading": "Introdução",
-    "char_offset": 86643
+    "char_offset": 86715
   },
   {
     "id": "chunk-293",
     "text": "exposição legais.\n**22.22.8** É proibida a utilização de um mesmo poço ou plano inclinado para a saída e entrada de ar,\nexceto durante o trabalho de desenvolvimento com exaustão ou adução tubuladas ou por meio de\ndispositivo ou sistema que impeça a mistura entre os dois fluxos de ar.",
     "heading": "Introdução",
-    "char_offset": 86921
+    "char_offset": 86993
   },
   {
     "id": "chunk-294",
     "text": "**22.22.8.1** As tubulações utilizadas para exaustão ou adução de ar devem ser mantidas em\ncondições de uso.\n**22.22.8.1.1** Na ocorrência de perfurações, rasgos ou qualquer outra situação em que haja perda\nde carga do fluxo de ar nas tubulações, que interfiram na eficácia do sistema de ventilação, as",
     "heading": "Introdução",
-    "char_offset": 87208
+    "char_offset": 87280
   },
   {
     "id": "chunk-295",
     "text": "atividades devem ser interrompidas até que seja realizada a devida correção ou troca da\ntubulação danificada.\n**22.22.9** Nos locais onde pessoas estiverem transitando ou trabalhando, a concentração de\noxigênio no ar não deve ser inferior a 19% (dezenove por cento) em volume.",
     "heading": "Introdução",
-    "char_offset": 87512
+    "char_offset": 87584
   },
   {
     "id": "chunk-296",
     "text": "**22.22.10** Nas entradas principais de ar dos níveis e nas frentes de trabalho em atividade devem ser\ninstalados dispositivos que permitam a visualização imediata da direção do ar.\n**22.22.11** O fluxo total de ar fresco na mina deve suprir o somatório das necessidades de ventilação",
     "heading": "Introdução",
-    "char_offset": 87791
+    "char_offset": 87863
   },
   {
     "id": "chunk-297",
     "text": "de todas as frentes de trabalho em atividade, dimensionado conforme disposto nesta norma e no\nPV.\n**22.22.12** No subsolo, os motores de combustão interna utilizados só podem ser movidos a óleo\ndiesel e respeitando as seguintes condições:\na) existir sistema eficaz de ventilação em todos os locais de seu funcionamento;",
     "heading": "Introdução",
-    "char_offset": 88079
+    "char_offset": 88151
   },
   {
     "id": "chunk-298",
     "text": "b) possuir sistemas de filtragem do ar aspirado pelo motor, com sistemas de resfriamento e de\nlavagem de gás de exaustão ou catalisador;\nc) possuir sistema de prevenção de chamas e faíscas do ar exaurido pelo motor, em minas com\nemanações de gases explosivos ou no transporte de explosivos;",
     "heading": "Introdução",
-    "char_offset": 88401
+    "char_offset": 88473
   },
   {
     "id": "chunk-299",
     "text": "d) executar programa de amostragem periódica do ar exaurido, em intervalos que não excedam 1\n(um) mês, nos pontos mais representativos da área afetada, devendo ser amostrados pelo menos\nos gases nitrosos, óxido de nitrogênio, monóxido de carbono e dióxido de enxofre; e",
     "heading": "Introdução",
-    "char_offset": 88693
+    "char_offset": 88765
   },
   {
     "id": "chunk-300",
     "text": "e) executar programa de amostragem periódica, em intervalos que não excedam 3 (três) meses,\ndos materiais particulados e gases de exaustão dos motores, em condições de carga plena e sem\ncarga, devendo ser amostrados pelo menos os gases nitrosos, óxido de nitrogênio, monóxido de",
     "heading": "Introdução",
-    "char_offset": 88964
+    "char_offset": 89036
   },
   {
     "id": "chunk-301",
     "text": "carbono e dióxido de enxofre.\n**22.22.13** Os veículos e equipamentos de combustão interna utilizados em mina de subsolo devem\nser exclusivamente à óleo diesel com teor de enxofre de até 10 ppm (dez partes por milhão).\n**22.22.14** Em minas de carvão com emanações de grisu, ou gases inflamáveis, a corrente de ar",
     "heading": "Introdução",
-    "char_offset": 89246
+    "char_offset": 89318
   },
   {
     "id": "chunk-302",
     "text": "viciado deve ser dirigida ascendentemente.\n**22.22.14.1** A corrente de ar viciado só poderá ser dirigida descendentemente mediante\njustificativa técnica.\n**22.22.15** A vazão de ar fresco em galerias de minas de carvão constituídas pelos últimos\ntravessões arrombados, sem utilização de máquinas e equipamentos a óleo diesel, deve ser de, no",
     "heading": "Introdução",
-    "char_offset": 89562
+    "char_offset": 89634
   },
   {
     "id": "chunk-303",
     "text": "mínimo, 250 m³/min (duzentos e cinquenta metros cúbicos por minuto).\n**22.22.15.1** Em frente de lavra ou de desenvolvimento em atividade sem uso de máquinas e\nequipamentos a óleo diesel, a vazão de ar fresco deve se dimensionada à razão de 15 m³/min/m²",
     "heading": "Introdução",
-    "char_offset": 89906
+    "char_offset": 89978
   },
   {
     "id": "chunk-304",
     "text": "(quinze metros cúbicos por minuto por metro quadrado) da área da respectiva frente de trabalho.\n**22.22.15.2** No caso de painel de lavra em atividade, sem uso de máquinas e equipamentos a óleo\ndiesel, a vazão de ar fresco deve se dimensionada à razão de 15 m³/min/m² (quinze metros",
     "heading": "Introdução",
-    "char_offset": 90161
+    "char_offset": 90233
   },
   {
     "id": "chunk-305",
     "text": "cúbicos por minuto por metro quadrado) da área de cada frente na qual estiver ocorrendo\noperações unitárias da lavra.\n**22.22.15.3** Nas demais frentes de serviço sem uso de máquinas e equipamentos a óleo diesel, a\nvazão de ar fresco, mínima admissível, deve ser de 85 m³/min (oitenta e cinco metros cúbicos por",
     "heading": "Introdução",
-    "char_offset": 90445
+    "char_offset": 90517
   },
   {
     "id": "chunk-306",
     "text": "minuto) e o sistema de ventilação auxiliar instalado em posição que evite a recirculação de ar.\n**22.22.16** Em outras minas sem uso de máquinas e equipamentos a óleo diesel, excetuando-se as\nde minerais radioativos que são regidas por legislação específica, a vazão de ar fresco nas frentes",
     "heading": "Introdução",
-    "char_offset": 90758
+    "char_offset": 90830
   },
   {
     "id": "chunk-307",
     "text": "de trabalho deve ser de, no mínimo, 2 m³/min (dois metros cúbicos por minuto) por pessoa.\n**22.22.17** Nas minas, inclusive de carvão, e demais atividades subterrâneas, com utilização de\nmáquinas e equipamentos a óleo diesel, a vazão de ar fresco será dimensionada de acordo com o",
     "heading": "Introdução",
-    "char_offset": 91051
+    "char_offset": 91123
   },
   {
     "id": "chunk-308",
     "text": "disposto no Quadro I do Anexo IV desta NR, prevalecendo a vazão que for maior.\n**22.22.17.1** Para as minas de carvão não se aplica a alínea \"c\" do Quadro I do Anexo IV desta NR.\n**22.22.18** A velocidade do ar no subsolo não deve ser inferior a 0,2 m/s (zero vírgula dois metros",
     "heading": "Introdução",
-    "char_offset": 91334
+    "char_offset": 91406
   },
   {
     "id": "chunk-309",
     "text": "por segundo) nem superior à média de 8 m/s (oito metros por segundo) onde haja circulação de\npessoas.\n**22.22.18.1** Em minas de carvão a velocidade do ar não deve ser superior a 5 m/s (cinco metros por\nsegundo).\n**22.22.18.2** Os casos especiais que demandem o aumento de limite superior da velocidade para até",
     "heading": "Introdução",
-    "char_offset": 91617
+    "char_offset": 91689
   },
   {
     "id": "chunk-310",
     "text": "10 m/s (dez metros por segundo) devem ser justificados tecnicamente pelo profissional\nlegalmente habilitado responsável pelo PV.\n**22.22.18.3** Em poços, furos de sonda, chaminés ou galerias, exclusivos para ventilação, a\nvelocidade pode ser superior a 10 m/s (dez metros por segundo).",
     "heading": "Introdução",
-    "char_offset": 91930
+    "char_offset": 92002
   },
   {
     "id": "chunk-311",
     "text": "**22.22.19** Sempre que a passagem por portas de ventilação acarretar riscos oriundos da diferença\nde pressão devem ser instaladas duas portas em série, de modo a permitir que uma permaneça\nfechada enquanto a outra estiver aberta, durante o trânsito de pessoas ou equipamentos.",
     "heading": "Introdução",
-    "char_offset": 92217
+    "char_offset": 92289
   },
   {
     "id": "chunk-312",
     "text": "**22.22.19.1** Deve haver uma abertura nas portas de ventilação para propiciar a equalização da\npressão entre as portas.\n**22.22.19.2** A montagem e desmontagem das portas de ventilação somente será permitida com\nautorização do profissional legalmente habilitado responsável pela mina.",
     "heading": "Introdução",
-    "char_offset": 92498
+    "char_offset": 92570
   },
   {
     "id": "chunk-313",
     "text": "**22.22.20** As estruturas utilizadas para a separação de ar fresco do ar viciado de ventilação devem\nser conservadas em boas condições de vedação de forma a proporcionar um fluxo suficiente de ar\nnas frentes de trabalho. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 92785
+    "char_offset": 92857
   },
   {
     "id": "chunk-314",
     "text": "**22.22.20.1** Na corrente principal, as estruturas utilizadas para a separação de ar fresco do ar\nviciado devem ser construídas com alvenaria ou material resistente à combustão ou revestido com\nmaterial antichama. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 93074
+    "char_offset": 93146
   },
   {
     "id": "chunk-315",
     "text": "**22.22.21** A instalação e as formas de operação dos ventiladores principais e dos de emergência\ndevem ser definidas e estabelecidas no projeto de ventilação constante do plano de lavra.\n**22.22.22** Os ventiladores principais e de emergência devem ter a pressão do ar monitorada pela",
     "heading": "Introdução",
-    "char_offset": 93355
+    "char_offset": 93427
   },
   {
     "id": "chunk-316",
     "text": "organização.\n**22.22.23** O ventilador principal deve ser dotado de dispositivo de alarme que indique a sua\nparalisação.\n**22.22.24** Os motores dos ventiladores a serem instalados nas frentes com presença de gases\nexplosivos devem ser à prova de explosão.",
     "heading": "Introdução",
-    "char_offset": 93643
+    "char_offset": 93715
   },
   {
     "id": "chunk-317",
     "text": "**22.22.25** Todas as galerias de desenvolvimento, após 10 m (dez metros) de avanço, e obras\nsubterrâneas sem comunicação ou em fundo-de-saco devem ser ventiladas por meio de sistema\nde ventilação auxiliar e os ventiladores utilizados devem ser instalados em posição que impeça a",
     "heading": "Introdução",
-    "char_offset": 93901
+    "char_offset": 93973
   },
   {
     "id": "chunk-318",
     "text": "recirculação de ar.\n**22.22.25.1** A distância dos 10 m (dez metros) pode ser ampliada para até 15 m (quinze metros)\nmediante laudo técnico, elaborado por profissional legalmente habilitado, comprovando que as\ncondições do item 22.22.2 desta NR sejam atendidas.",
     "heading": "Introdução",
-    "char_offset": 94182
+    "char_offset": 94254
   },
   {
     "id": "chunk-319",
     "text": "**22.22.25.2** A chave de partida dos ventiladores deve estar na corrente de ar fresco.\n**22.22.26** Para cada colocação ou retirada de ventilação auxiliar deve ser elaborado um diagrama\nespecífico, observado o PV.\n**22.22.27** A ventilação auxiliar não deve ser desligada enquanto houver pessoas trabalhando na",
     "heading": "Introdução",
-    "char_offset": 94447
+    "char_offset": 94519
   },
   {
     "id": "chunk-320",
     "text": "frente de serviço.\n**22.22.27.1** Em caso de manutenção na ventilação auxiliar devem ser seguidos os seguintes\nrequisitos: _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\na) retirada do pessoal, permitida apenas a presença da equipe de manutenção; e",
     "heading": "Introdução",
-    "char_offset": 94761
+    "char_offset": 94833
   },
   {
     "id": "chunk-321",
     "text": "b) aplicação de procedimento específico para esta situação.\n**22.22.28** É vedada a ventilação utilizando ar comprimido, salvo em situação de emergência ou\nquando este for devidamente tratado para a remoção de impurezas. _(Alterado pela Portaria MTE nº 105,_",
     "heading": "Introdução",
-    "char_offset": 95029
+    "char_offset": 95101
   },
   {
     "id": "chunk-322",
     "text": "_de 29 de janeiro de 2026)_\n**22.22.28.1** O ar de descarga de máquinas e equipamentos não é considerado ar de ventilação.\n_(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.22.29** O pessoal envolvido na ventilação e todo o nível de supervisão da mina, que trabalhe em",
     "heading": "Introdução",
-    "char_offset": 95291
+    "char_offset": 95363
   },
   {
     "id": "chunk-323",
     "text": "subsolo, deve receber treinamento em princípios básicos de ventilação de mina.\n**22.22.30** Para comprovação da eficácia do sistema de ventilação da mina devem ser realizadas,\npelo menos mensalmente, por profissional capacitado, medições da velocidade e vazão do ar,",
     "heading": "Introdução",
-    "char_offset": 95580
+    "char_offset": 95652
   },
   {
     "id": "chunk-324",
     "text": "umidade relativa do ar e da temperatura, contemplando, no mínimo, os seguintes pontos:\na) caminhos de entrada da ventilação;\nb) frentes de lavra e de desenvolvimento; e\nc) ventilador principal.\n**22.22.30.1** Os resultados das medições devem ser anotados em registros próprios e estar",
     "heading": "Introdução",
-    "char_offset": 95851
+    "char_offset": 95923
   },
   {
     "id": "chunk-325",
     "text": "disponível aos trabalhadores ou seus representantes e autoridades competentes.\n**22.22.31** No caso de minas grisutosas ou com ocorrência de gases tóxicos, explosivos ou\ninflamáveis o controle de suas concentrações deve ser feito a cada turno, nas frentes de trabalho",
     "heading": "Introdução",
-    "char_offset": 96137
+    "char_offset": 96209
   },
   {
     "id": "chunk-326",
     "text": "em operação e nos pontos importantes da ventilação. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro_\n_de 2026)_\n~~**22.22.32 “a” e “b”**~~ _(Caput e alíneas excluídos pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.23 Beneficiamento**",
     "heading": "Introdução",
-    "char_offset": 96407
+    "char_offset": 96479
   },
   {
     "id": "chunk-327",
     "text": "**22.23.1** As plantas de beneficiamento devem ter suas vias de circulação e saída identificadas e\nsinalizadas de forma visível.\n**22.23.2** As máquinas e equipamentos de beneficiamento, em relação aos arranjos físicos e locais\nde instalação, além do disposto no capítulo 12.2 da NR-12, devem ser dispostas a uma distância",
     "heading": "Introdução",
-    "char_offset": 96661
+    "char_offset": 96733
   },
   {
     "id": "chunk-328",
     "text": "suficiente entre si, de forma a permitir:\na) o desvio do material no caso de defeitos; e\nb) a interposição de outros equipamentos necessários para reparos e manutenção.\n**22.23.3** É obrigatória a adoção de procedimentos com medidas específicas de segurança para o",
     "heading": "Introdução",
-    "char_offset": 96987
+    "char_offset": 97059
   },
   {
     "id": "chunk-329",
     "text": "trabalho no interior das seguintes máquinas e equipamentos:\na) alimentadores;\nb) moinhos;\nc) teares;\nd) galgas;\ne) transportadores contínuos;\nf) espessadores;\ng) silos de armazenamento e transferência;\nh) britadores; e\ni) outros utilizados nas operações de corte, revolvimento, moagem, mistura, armazenamento e",
     "heading": "Introdução",
-    "char_offset": 97261
+    "char_offset": 97333
   },
   {
     "id": "chunk-330",
     "text": "transporte de massa, quando aplicável.\n**22.23.3.1** A manutenção, inspeção, reparos, limpeza, ajuste e outras intervenções que se fizerem\nnecessárias nos equipamentos de beneficiamento, devem ser realizados de acordo com o\nestabelecido na NR-12.\n**22.23.3.1.1** Somente o responsável pelo bloqueio pode desbloquear as máquinas e equipamentos.",
     "heading": "Introdução",
-    "char_offset": 97575
+    "char_offset": 97647
   },
   {
     "id": "chunk-331",
     "text": "**22.23.3.1.1.1** Excepcionalmente quando o desbloqueio não puder ser realizado pelo responsável,\na organização poderá autorizar o desbloqueio das máquinas e equipamentos, cuja autorização\ndeve ser registrada.\n**22.23.4** Nas atividades manuais de retirada ou quebra de materiais presos durante a alimentação",
     "heading": "Introdução",
-    "char_offset": 97921
+    "char_offset": 97993
   },
   {
     "id": "chunk-332",
     "text": "de britadores e outros equipamentos, o trabalhador deve estar conectado ao sistema de proteção\nindividual contra queda, nos termos da NR-35. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.23.5** A coleta de amostras deve atender aos seguintes requisitos:",
     "heading": "Introdução",
-    "char_offset": 98231
+    "char_offset": 98303
   },
   {
     "id": "chunk-333",
     "text": "a) cumprir procedimento de segurança específico;\nb) os locais de coleta devem dispor de meios e condições seguras para a atividade; e\nc) ser realizada por trabalhador capacitado.\n**22.23.6** As áreas de basculamento devem ser sinalizadas, iluminadas e delimitadas.",
     "heading": "Introdução",
-    "char_offset": 98512
+    "char_offset": 98584
   },
   {
     "id": "chunk-334",
     "text": "**22.23.6.1** No basculamento realizado diretamente em locais com perigo de queda de pessoas e de\nequipamentos, deve ser instalado sistema de proteção coletiva contra quedas acidentais com\nresistência que suporte os esforços solicitantes, definido em projeto elaborado por profissional",
     "heading": "Introdução",
-    "char_offset": 98778
+    "char_offset": 98850
   },
   {
     "id": "chunk-335",
     "text": "legalmente habilitado.\n**22.23.6.1.1** Para instalações já existentes a resistência dos sistemas de proteção coletiva contra\nquedas deve ser atestada por profissional legalmente habilitado.\n**22.23.7** Os locais com processos de lixiviação em pilha e suas bacias devem ser cercados e",
     "heading": "Introdução",
-    "char_offset": 99066
+    "char_offset": 99138
   },
   {
     "id": "chunk-336",
     "text": "sinalizados, proibindo o acesso de pessoas não autorizadas.\n**22.23.7.1** Os processos de lixiviação devem estar sob responsabilidade técnica de profissional\nlegalmente habilitado e devem ser executados por trabalhadores capacitados. _(Alterado pela Portaria_",
     "heading": "Introdução",
-    "char_offset": 99351
+    "char_offset": 99423
   },
   {
     "id": "chunk-337",
     "text": "_MTE nº 105, de 29 de janeiro de 2026)_\n**22.24 Deposição de estéril, rejeitos e produtos**\n**22.24.1** Os depósitos de estéril, rejeitos e produtos devem ser projetados, implementados e\nmantidos sob responsabilidade de profissional legalmente habilitado e atender as normas em",
     "heading": "Introdução",
-    "char_offset": 99613
+    "char_offset": 99685
   },
   {
     "id": "chunk-338",
     "text": "vigor. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.24.1.1**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.2** A construção de depósitos de estéril, rejeitos e produtos deve ser precedida de estudos",
     "heading": "Introdução",
-    "char_offset": 99893
+    "char_offset": 99965
   },
   {
     "id": "chunk-339",
     "text": "geotécnicos, hidrológicos e hidrogeológicos. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.3** Os depósitos de estéril, rejeitos e produtos devem ser monitorados sob supervisão de\nprofissional legalmente habilitado e dispor de monitoramento da percolação de água, do lençol",
     "heading": "Introdução",
-    "char_offset": 100147
+    "char_offset": 100219
   },
   {
     "id": "chunk-340",
     "text": "freático e da movimentação da estrutura, conforme definido em projeto e no estudo da sua\nestabilidade. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.24.3.1**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.24.3.2**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 100449
+    "char_offset": 100521
   },
   {
     "id": "chunk-341",
     "text": "**22.24.4** Os depósitos de estéril, rejeitos e produtos devem atender ao fator de segurança de\nestabilidade mínimo estabelecido nas normas técnicas nacionais e nas normas da ANM. _(Alterado_\n_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.5** Os acessos aos depósitos de produtos, estéril, rejeitos e às barragens de mineração devem",
     "heading": "Introdução",
-    "char_offset": 100782
+    "char_offset": 100854
   },
   {
     "id": "chunk-342",
     "text": "ser sinalizados e restritos ao pessoal necessário aos trabalhos ali realizados. _(Alterado pela Portaria_\n_MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.6** Nas situações de grave e iminente risco de colapso de depósito de estéril, rejeitos e\nprodutos as áreas de risco devem ser evacuadas e isoladas e a evolução do processo deve ser",
     "heading": "Introdução",
-    "char_offset": 101131
+    "char_offset": 101203
   },
   {
     "id": "chunk-343",
     "text": "monitorada, informando-se todo o pessoal potencialmente afetado, conforme definido no Plano\nde Atendimento a Emergências (PAE). _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.7** A As pilhas de produtos finais armazenadas temporariamente nos pátios das instalações",
     "heading": "Introdução",
-    "char_offset": 101468
+    "char_offset": 101540
   },
   {
     "id": "chunk-344",
     "text": "de tratamento de minério estão excluídas da obrigatoriedade do capítulo 22.24 desta NR. _(Alterado_\n_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.8.1** É proibida a permanência de qualquer trabalhador na Zona de Autossalvamento das\nbarragens de mineração quando constatada situação de grave e iminente risco para a segurança e",
     "heading": "Introdução",
-    "char_offset": 101759
+    "char_offset": 101831
   },
   {
     "id": "chunk-345",
     "text": "saúde dos trabalhadores. _(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.9** A organização que possuir barragens inseridas na Política Nacional de Segurança de\nBarragens (PNSB) deve manter, à disposição do Serviço Especializado em Segurança e em",
     "heading": "Introdução",
-    "char_offset": 102104
+    "char_offset": 102176
   },
   {
     "id": "chunk-346",
     "text": "Medicina do Trabalho (SESMT), quando houver, e da representação sindical profissional da\ncategoria preponderante o Plano de Segurança das Barragens incluindo o Plano de Ação de\nEmergência para Barragens de Mineração (PAEBM). _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de_",
     "heading": "Introdução",
-    "char_offset": 102374
+    "char_offset": 102446
   },
   {
     "id": "chunk-347",
     "text": "_2026)_\n**22.24.10** O cronograma das Inspeções Regulares deve ser disponibilizado previamente ao SESMT,\nquando houver. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.11** O Relatório de Inspeção de Segurança Regular da barragem e a respectiva Declaração de",
     "heading": "Introdução",
-    "char_offset": 102659
+    "char_offset": 102731
   },
   {
     "id": "chunk-348",
     "text": "Condição de Estabilidade (DCE) e o Relatório de Conformidade e Operacionalidade do PAEBM e\nrespectiva Declaração de Conformidade e Operacionalidade (DCO), conforme previsto nas normas\nda ANM, devem ser disponibilizados ao SESMT, quando houver, e encaminhados à representação",
     "heading": "Introdução",
-    "char_offset": 102942
+    "char_offset": 103014
   },
   {
     "id": "chunk-349",
     "text": "sindical profissional, quando solicitado, no prazo de 10 (dez) dias. _(Alterado pela Portaria MTE nº 105, de_\n_29 de janeiro de 2026)_\n**22.24.12** A organização deve informar ao SESMT, quando houver, à representação sindical\nprofissional da categoria preponderante e ao órgão regional competente em segurança e saúde do",
     "heading": "Introdução",
-    "char_offset": 103218
+    "char_offset": 103290
   },
   {
     "id": "chunk-350",
     "text": "trabalho os casos de anomalias que impliquem no desencadeamento de inspeção especial,\nconforme exigência da ANM. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.13** Dentro do perímetro de segurança das pilhas, definido no projeto e no estudo de",
     "heading": "Introdução",
-    "char_offset": 103540
+    "char_offset": 103612
   },
   {
     "id": "chunk-351",
     "text": "estabilidade, é vedada a concepção, a construção, a manutenção e o funcionamento de\ninstalações destinadas às atividades de produção, auxiliares, administrativas, de vivência, de saúde\ne recreação. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 103810
+    "char_offset": 103882
   },
   {
     "id": "chunk-352",
     "text": "**22.24.14** A deposição definitiva ou temporária de produtos tóxicos ou perigosos deve ser realizada\ncom segurança e de acordo com a regulamentação vigente dos órgãos competentes. _(Alterado pela_\n_Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.24.15** Os depósitos de substâncias e produtos químicos tóxicos ou perigosos devem possuir",
     "heading": "Introdução",
-    "char_offset": 104074
+    "char_offset": 104146
   },
   {
     "id": "chunk-353",
     "text": "sistema de contenção sinalizado e compatível com o volume armazenado. _(Inserido pela Portaria MTE_\n_nº 105, de 29 de janeiro de 2026)_\n**22.25 Iluminação**\n**22.25.1** Os locais de trabalho, circulação e transporte de pessoas devem dispor de sistemas de",
     "heading": "Introdução",
-    "char_offset": 104419
+    "char_offset": 104491
   },
   {
     "id": "chunk-354",
     "text": "iluminação natural ou artificial, adequado às atividades desenvolvidas.\n**22.25.1.1** Em subsolo, é obrigatória a existência de sistema de iluminação estacionária, mantendose os seguintes níveis mínimos de iluminamento médio nos locais a seguir relacionados:",
     "heading": "Introdução",
-    "char_offset": 104675
+    "char_offset": 104747
   },
   {
     "id": "chunk-355",
     "text": "a) 100 lx (cem lux) no fundo do poço;\nb) 200 lx (duzentos lux) na casa de máquinas;\nc) 50 lx (cinquenta lux) nos caminhos principais;\nd) 200 lx (duzentos lux) nos pontos de carregamento, descarregamento e trânsito sobre\ntransportadores contínuos;\ne) 200 lx (duzentos lux) na estação de britagem; e",
     "heading": "Introdução",
-    "char_offset": 104939
+    "char_offset": 105011
   },
   {
     "id": "chunk-356",
     "text": "f) 300 lx (trezentos lux) no escritório e oficinas de reparos.\n**22.25.2** As instalações de superfície que dependam de iluminação artificial, cuja falha possa\ncolocar em risco a segurança das pessoas, devem ser providas de iluminação de emergência que",
     "heading": "Introdução",
-    "char_offset": 105239
+    "char_offset": 105311
   },
   {
     "id": "chunk-357",
     "text": "atenda aos seguintes requisitos:\na) ligação automática no caso de falha do sistema principal;\nb) ser independente do sistema principal;\nc) prover iluminação suficiente que permita a saída das pessoas da instalação; e\nd) ser testadas e mantidas em condições de funcionamento.",
     "heading": "Introdução",
-    "char_offset": 105496
+    "char_offset": 105568
   },
   {
     "id": "chunk-358",
     "text": "**22.25.2.1** Caso não seja possível a instalação de iluminação de emergência, os trabalhadores\ndevem dispor de equipamentos individuais de iluminação.\n**22.25.3** Devem dispor de iluminação suplementar à iluminação individual as seguintes atividades",
     "heading": "Introdução",
-    "char_offset": 105773
+    "char_offset": 105845
   },
   {
     "id": "chunk-359",
     "text": "no subsolo:\na) verificação de riscos de quedas de material;\nb) verificação de falhas e descontinuidades geológicas;\nc) abatimentos de chocos e blocos instáveis; e\nd) intervenções em instalações elétricas e mecânica nas frentes de trabalho.\n**22.25.4** Quando necessária iluminação no interior dos depósitos de explosivos e acessórios e locais",
     "heading": "Introdução",
-    "char_offset": 106030
+    "char_offset": 106102
   },
   {
     "id": "chunk-360",
     "text": "de armazenamento de explosivos e acessórios no subsolo, esta deve ser adequada para área\nclassificada.\n**22.25.5** Durante o trabalho noturno ou em condições de pouca visibilidade em minas a céu aberto,\nas frentes de basculamento ou descarregamento em operação devem possuir iluminação artificial",
     "heading": "Introdução",
-    "char_offset": 106375
+    "char_offset": 106447
   },
   {
     "id": "chunk-361",
     "text": "suficiente.\n**22.25.5.1** Quando as condições atmosféricas impedirem a visibilidade, mesmo com iluminação\nartificial, os trabalhos e o tráfego de veículos e equipamentos móveis devem ser suspensos.\n**22.25.6** É obrigatório o uso de lanternas individuais nas seguintes condições:",
     "heading": "Introdução",
-    "char_offset": 106675
+    "char_offset": 106747
   },
   {
     "id": "chunk-362",
     "text": "a) para o acesso e o trabalho em mina subterrânea; e\nb) para deslocamento noturno na área de operação de lavra, basculamento e carregamento, nas\nminas a céu aberto.\n**22.25.6.1** Em minas com ocorrência de gases explosivos só será permitido o uso de lanternas de",
     "heading": "Introdução",
-    "char_offset": 106959
+    "char_offset": 107031
   },
   {
     "id": "chunk-363",
     "text": "segurança adequadas para área classificada.\n**22.25.6.2** Lanternas de reserva em condições de uso devem estar disponíveis em pontos próximos\naos locais de trabalho.\n**22.25.7** No caso de trabalhos em minerais com alto índice de refletância, devem ser tomadas",
     "heading": "Introdução",
-    "char_offset": 107225
+    "char_offset": 107297
   },
   {
     "id": "chunk-364",
     "text": "medidas especiais de proteção da visão.\n**22.26 Prevenção contra incêndios e explosões acidentais**\n**22.26.1** Nas minas e instalações sujeitas a emanações de gases ou geração de particulados em\nsuspensão, explosivos ou inflamáveis, o PGR deve incluir ações de prevenção a incêndio e de",
     "heading": "Introdução",
-    "char_offset": 107488
+    "char_offset": 107560
   },
   {
     "id": "chunk-365",
     "text": "explosões acidentais.\n**22.26.1.1** As ações de prevenção e combate a incêndio e de prevenção de explosões acidentais\ndevem ser implementadas pela organização e devem incluir, no mínimo:\na) realização das medições de forma periódica, cujo intervalo será determinado em função das",
     "heading": "Introdução",
-    "char_offset": 107778
+    "char_offset": 107850
   },
   {
     "id": "chunk-366",
     "text": "características dos gases, podendo ser modificado a critério técnico.\nb) registros dos resultados das medições atualizados e disponíveis aos trabalhadores; e\nc) indicação de responsável pelas medições.\n**22.26.2** Em minas subterrâneas não deve ser ultrapassada a concentração de um por cento em",
     "heading": "Introdução",
-    "char_offset": 108061
+    "char_offset": 108133
   },
   {
     "id": "chunk-367",
     "text": "volume, ou equivalente, de metano no ambiente de trabalho.\n**22.26.2.1** No caso da ocorrência de metano acima desta concentração as atividades de trabalho\ndevem ser suspensas e as áreas da mina potencialmente afetadas imediatamente evacuadas,\ninformando-se o superior imediato.",
     "heading": "Introdução",
-    "char_offset": 108358
+    "char_offset": 108430
   },
   {
     "id": "chunk-368",
     "text": "**22.26.2.1.1** Durante a suspensão das atividades são permitidos apenas os trabalhos para reduzir a\nconcentração de metano.\n**22.26.2.2** Em caso de ocorrência de metano com concentração igual ou superior a dois por cento\nem volume, ou equivalente, a entrada de pessoas nas áreas da mina potencialmente afetadas",
     "heading": "Introdução",
-    "char_offset": 108639
+    "char_offset": 108711
   },
   {
     "id": "chunk-369",
     "text": "deve ser imediatamente proibida.\n**22.26.2.2.1** Toda e qualquer intervenção nas áreas proibidas referidas no subitem 22.26.2.2 desta\nNR somente será permitida por meios tecnológicos remotos que não envolvam o trabalho humano\nem contato direto com as áreas da mina potencialmente afetadas.",
     "heading": "Introdução",
-    "char_offset": 108953
+    "char_offset": 109025
   },
   {
     "id": "chunk-370",
     "text": "**22.26.3** A concentração de metano na corrente de ar deve ser controlada periodicamente,\nconforme procedimento específico estabelecido pela organização.\n**22.26.3.1** Acima de zero vírgula oito por cento em volume de metano no ar é proibido qualquer",
     "heading": "Introdução",
-    "char_offset": 109245
+    "char_offset": 109317
   },
   {
     "id": "chunk-371",
     "text": "tipo de desmonte.\n**22.26.4** A organização deve disponibilizar equipamentos de proteção individual de fuga rápida\npara toda pessoa que acessar as minas subterrâneas.\n**22.26.5** Em todas as minas subterrâneas, além do fornecimento dos equipamentos de proteção",
     "heading": "Introdução",
-    "char_offset": 109499
+    "char_offset": 109571
   },
   {
     "id": "chunk-372",
     "text": "individual de fuga rápida, devem estar disponíveis câmaras de refúgio incombustíveis fixas ou\nmóveis, localizadas de forma que todos os trabalhadores das frentes de desenvolvimento e de\nlavra não tenham que percorrer uma distância superior a 750 m (setecentos e cinquenta metros)",
     "heading": "Introdução",
-    "char_offset": 109760
+    "char_offset": 109832
   },
   {
     "id": "chunk-373",
     "text": "para acessá-las, com capacidade para abrigar os trabalhadores em caso de emergência por um\ntempo mínimo previsto no PAE, considerando o PV, e possuindo as seguintes características\nmínimas:\na) porta capaz de ser selada hermeticamente;\nb) sistema de comunicação com a superfície;",
     "heading": "Introdução",
-    "char_offset": 110043
+    "char_offset": 110115
   },
   {
     "id": "chunk-374",
     "text": "c) água potável, alimentação e sistema de ar respirável suficientes para o tempo previsto na sua\nutilização;\nd) ser facilmente acessíveis e identificadas;\ne) bacia sanitária dotada de assento com tampo e lavatório; e\nf) materiais para primeiros socorros.",
     "heading": "Introdução",
-    "char_offset": 110326
+    "char_offset": 110398
   },
   {
     "id": "chunk-375",
     "text": "**22.26.5.1** A distância definida no item 22.26.5 desta NR poderá ser aumentada para até 1.200 m\n(mil e duzentos metros) com justificativa técnica de profissional legalmente habilitado.\n**22.26.5.2** Para os trabalhos realizados nas frentes de serviço, os locais de instalação das câmaras",
     "heading": "Introdução",
-    "char_offset": 110583
+    "char_offset": 110655
   },
   {
     "id": "chunk-376",
     "text": "de refúgio, assim como tempo de permanência devem ser definidos por profissional legalmente\nhabilitado, considerando o PV, devendo as justificativas técnicas e as memórias de cálculo constar\ndo PAE. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 110873
+    "char_offset": 110945
   },
   {
     "id": "chunk-377",
     "text": "**22.26.5.3** A localização das câmaras de refúgio deve estar georreferenciadas.\n**22.26.6** A prevenção de incêndio deve ser promovida em todas as dependências da mina por meio\ndas seguintes medidas:\na) proibição, nas minas em subsolo, de portar ou utilizar qualquer objeto que produza fogo ou",
     "heading": "Introdução",
-    "char_offset": 111139
+    "char_offset": 111211
   },
   {
     "id": "chunk-378",
     "text": "faísca, a não ser os necessários nas atividades de trabalho e portado apenas por trabalhadores\nautorizados;\nb) disposição adequada de lixo e material descartável com potencial inflamável em qualquer\ndependência da mina;\nc) proibição de estocagem de produtos inflamáveis, de explosivos e acessórios próximo a",
     "heading": "Introdução",
-    "char_offset": 111436
+    "char_offset": 111508
   },
   {
     "id": "chunk-379",
     "text": "transformadores, caldeiras e outros equipamentos e instalações que envolvam eletricidade e\ncalor;\nd) os trabalhos envolvendo soldagem, corte e aquecimento, por meio de chama aberta, só\npoderão ser executados quando forem providenciados todos os meios adequados para prevenção",
     "heading": "Introdução",
-    "char_offset": 111745
+    "char_offset": 111817
   },
   {
     "id": "chunk-380",
     "text": "e combate de eventual incêndio; e\ne) proibição de fumar em subsolo.\n**22.26.7** É proibido o porte e uso de lanternas de carbureto de cálcio em subsolo.\n**22.26.8** Em minas subterrâneas, onde for utilizado sistema de transporte por correias\ntransportadoras, deve ser instalado sistema de combate a incêndio próximo ao seu sistema de",
     "heading": "Introdução",
-    "char_offset": 112024
+    "char_offset": 112096
   },
   {
     "id": "chunk-381",
     "text": "acionamento e dos tambores.\n**22.26.9** Nos acessos de ar fresco devem ser tomadas precauções adicionais nas instalações para se\nevitar incêndios e sua propagação.\n**22.26.10** Nas proximidades dos acessos à mina subterrânea não devem ser instalados depósitos de",
     "heading": "Introdução",
-    "char_offset": 112361
+    "char_offset": 112433
   },
   {
     "id": "chunk-382",
     "text": "produtos combustíveis e inflamáveis ou explosivos.\n**22.26.11** Os depósitos de produtos combustíveis e inflamáveis no interior das minas de subsolo\ndevem estar instalados de forma que, em caso de incêndio e explosão, os produtos da combustão\nnão contaminem o ar de ventilação da mina.",
     "heading": "Introdução",
-    "char_offset": 112626
+    "char_offset": 112698
   },
   {
     "id": "chunk-383",
     "text": "**22.26.12** Toda mina deve possuir sistemas ou dispositivos de combate a incêndios, conforme\ndefinido na Norma Regulamentadora nº 23 (NR-23) - Proteção Contra Incêndios - e inspecionados\nsob responsabilidade de profissional legalmente habilitado, no mínimo anualmente ou conforme",
     "heading": "Introdução",
-    "char_offset": 112913
+    "char_offset": 112985
   },
   {
     "id": "chunk-384",
     "text": "previsto no projeto de combate a incêndio.\n**22.26.13** Os sistemas ou dispositivos de combate a incêndios devem estar permanentemente\nidentificados e dispostos em locais apropriados e visíveis, conforme definido em projeto.\n**22.26.14** Os trabalhadores devem receber orientações sobre os procedimentos de prevenção e",
     "heading": "Introdução",
-    "char_offset": 113196
+    "char_offset": 113268
   },
   {
     "id": "chunk-385",
     "text": "combate a princípios de incêndios e noções de primeiros socorros.\n**22.26.15** Nos acessos dos depósitos de explosivos e acessórios devem estar disponíveis\ndispositivos de combate a incêndio, conforme NR-23.\n**22.26.16** Os trabalhos em áreas classificadas devem usar máquinas, equipamentos, materiais e",
     "heading": "Introdução",
-    "char_offset": 113517
+    "char_offset": 113589
   },
   {
     "id": "chunk-386",
     "text": "instalações adequadas à atmosfera do ambiente de trabalho.\n**22.27 Prevenção de explosão de poeiras inflamáveis em minas subterrâneas de carvão**\n**22.27.1** Em minas subterrâneas de carvão a organização deve identificar as fontes de geração de\npoeiras, adotando a umidificação como medida de prevenção para reduzir o risco de explosão.",
     "heading": "Introdução",
-    "char_offset": 113823
+    "char_offset": 113895
   },
   {
     "id": "chunk-387",
     "text": "_(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n~~**22.27.1.1**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.27.1.1.1** Podem ser adotadas medidas preventivas alternativas desde que justificadas\ntecnicamente por profissional legalmente habilitado.",
     "heading": "Introdução",
-    "char_offset": 114162
+    "char_offset": 114234
   },
   {
     "id": "chunk-388",
     "text": "**22.27.1.2** As fontes de ignição existentes nos locais de trabalho devem ser isoladas e os\nequipamentos utilizados devem possuir certificação à prova de explosão.\n**22.28 Proteção contra inundações**\n**22.28.1** A organização deve adotar medidas que previnam inundações acidentais em suas",
     "heading": "Introdução",
-    "char_offset": 114455
+    "char_offset": 114527
   },
   {
     "id": "chunk-389",
     "text": "instalações que possam comprometer a segurança dos trabalhadores.\n**22.28.1.1** Em minas de subsolo devem ser adotadas medidas adicionais de segurança e tomadas as\nseguintes providências:\na) realizar estudos hidrogeológicos com a finalidade de nortear as medidas preventivas para se",
     "heading": "Introdução",
-    "char_offset": 114748
+    "char_offset": 114820
   },
   {
     "id": "chunk-390",
     "text": "evitar inundações;\nb) adotar sistema de comunicação adequado para os casos de inundação das galerias de acesso ou\nsaída de pessoal; e\nc) monitorar e controlar a quantidade de água bombeada e suas variações ao longo do tempo.\n**22.29 Equipamentos radioativos**",
     "heading": "Introdução",
-    "char_offset": 115034
+    "char_offset": 115106
   },
   {
     "id": "chunk-391",
     "text": "**22.29.1** A utilização e o descomissionamento de fontes ou medidores radioativos devem obedecer\nàs diretrizes da Autoridade Nacional de Segurança Nuclear.\n**22.29.2** A organização que utilizar fontes ou medidores radioativos deve manter a disposição da",
     "heading": "Introdução",
-    "char_offset": 115296
+    "char_offset": 115368
   },
   {
     "id": "chunk-392",
     "text": "fiscalização seu Plano de Radioproteção e os certificados de calibração dos aparelhos de medição.\n**22.29.3** Todas as fontes radioativas e áreas com taxas de doses acima das permitidas para\nindivíduos do público devem ser mantidas sinalizadas.\n**22.29.4** Os trabalhadores sujeitos a exposição a radiações ionizantes e os que transitem por áreas",
     "heading": "Introdução",
-    "char_offset": 115554
+    "char_offset": 115626
   },
   {
     "id": "chunk-393",
     "text": "onde haja fontes radioativas devem ser informados sobre os equipamentos, seu funcionamento e\nseus riscos.\n**22.30 Plano de atendimento a emergências (PAE)**\n**22.30.1** Toda mina deve elaborar, implementar e manter atualizado um Plano de Atendimento a",
     "heading": "Introdução",
-    "char_offset": 115904
+    "char_offset": 115976
   },
   {
     "id": "chunk-394",
     "text": "Emergências que inclua, no mínimo, os seguintes requisitos e, quando aplicáveis, os seguintes\ncenários:\na) identificação de seus riscos maiores;\nb) procedimentos para operações em caso de:\nI - incêndios;\nII - inundações;\nIII - explosões;\nIV - desabamentos;",
     "heading": "Introdução",
-    "char_offset": 116163
+    "char_offset": 116235
   },
   {
     "id": "chunk-395",
     "text": "V - paralisação do fornecimento de energia para o sistema de ventilação principal da mina;\nVI - acidentes maiores;\nVII - rompimento de barragem de mineração, conforme previsto no PAEBM;\nVIII - outras situações de emergência em função das características da mina, dos produtos e dos",
     "heading": "Introdução",
-    "char_offset": 116424
+    "char_offset": 116496
   },
   {
     "id": "chunk-396",
     "text": "insumos utilizados; e\nIX - Colapso de estrutura em pilhas; e\nc) localização de equipamentos e materiais necessários para as operações de emergência e\nprestação de primeiros socorros;\nd) descrição da composição e os procedimentos de operação de brigadas de emergência para",
     "heading": "Introdução",
-    "char_offset": 116709
+    "char_offset": 116781
   },
   {
     "id": "chunk-397",
     "text": "atuar nas situações descritas nos incisos I a VIII, da alínea “b” deste item;\ne) treinamento periódico das brigadas de emergência em período que não ultrapasse 12 (doze)\nmeses, com conteúdo teórico e aplicações práticas;\nf) simulação periódica de situações de salvamento com a mobilização do contingente da mina",
     "heading": "Introdução",
-    "char_offset": 116983
+    "char_offset": 117055
   },
   {
     "id": "chunk-398",
     "text": "diretamente afetado pelo evento; _(Excluída pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\ng) definição de áreas e instalações construídas e equipadas para refúgio das pessoas e prestação\nde primeiros socorros;\nh) definição de sistema de comunicação e sinalização de emergência, abrangendo o ambiente",
     "heading": "Introdução",
-    "char_offset": 117297
+    "char_offset": 117369
   },
   {
     "id": "chunk-399",
     "text": "interno e externo;\ni) a articulação da organização com órgãos da defesa civil; e\nj) estabelecimento de sistema que permita saber, com precisão e em qualquer momento, os\nnomes de todas as pessoas que estão no subsolo, assim como a sua localização provável.",
     "heading": "Introdução",
-    "char_offset": 117606
+    "char_offset": 117678
   },
   {
     "id": "chunk-400",
     "text": "**22.30.2** Devem ser realizadas, anualmente, simulações do plano de emergência com mobilização\ndo contingente da mina diretamente afetado.\n**22.30.2.1** Os exercícios simulados podem ser considerados como parte das aplicações práticas dos\ntreinamentos periódicos.",
     "heading": "Introdução",
-    "char_offset": 117864
+    "char_offset": 117936
   },
   {
     "id": "chunk-401",
     "text": "**22.30.3** Havendo a constatação de uma situação de emergência definidas na alínea \"b\" do item\n22.30.1 desta NR toda a área de risco deve ser interditada e as pessoas não diretamente\nenvolvidas no atendimento da emergência devem ser evacuadas para áreas seguras.",
     "heading": "Introdução",
-    "char_offset": 118130
+    "char_offset": 118202
   },
   {
     "id": "chunk-402",
     "text": "**22.31 Vias e saídas de emergência em minas de Subsolo**\n**22.31.1** Toda mina subterrânea em atividade deve possuir, obrigatoriamente, no mínimo, duas\nvias de acesso à superfície, uma via principal e uma alternativa ou de emergência, separadas entre",
     "heading": "Introdução",
-    "char_offset": 118396
+    "char_offset": 118468
   },
   {
     "id": "chunk-403",
     "text": "si e comunicando-se por vias secundárias, de forma que a interrupção de uma delas não afete o\ntrânsito pela outra. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.31.1.1** No subsolo, as vias principais e secundárias devem proporcionar condições seguras para",
     "heading": "Introdução",
-    "char_offset": 118649
+    "char_offset": 118721
   },
   {
     "id": "chunk-404",
     "text": "que todos os trabalhadores, a partir dos seus locais de trabalho, possam ser imediatamente\nevacuados em caso de emergência. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.31.1.2** O disposto no item 22.31.1 desta NR não se aplica durante a fase de abertura da mina.",
     "heading": "Introdução",
-    "char_offset": 118930
+    "char_offset": 119002
   },
   {
     "id": "chunk-405",
     "text": "~~**22.31.2**~~ ~~Em minas subterrâneas as vias principais e secundárias devem proporcionar condições~~\n~~para que toda pessoa, a partir dos locais de trabalho, tenha alternativa de trânsito para as duas~~\n~~vias de acesso à superfície, sendo uma delas o caminho de emergência~~ . _(Excluído pela Portaria MTE nº_",
     "heading": "Introdução",
-    "char_offset": 119219
+    "char_offset": 119291
   },
   {
     "id": "chunk-406",
     "text": "_105, de 29 de janeiro de 2026)_\n**22.31.3** As vias e saídas de emergência devem ser direcionadas o mais diretamente possível para o\nexterior, em zona de segurança ou ponto de concentração previamente determinado e sinalizado.\n**22.31.4** As vias e saídas de emergência, assim como as vias de circulação e as portas que lhes dão",
     "heading": "Introdução",
-    "char_offset": 119535
+    "char_offset": 119607
   },
   {
     "id": "chunk-407",
     "text": "acesso, devem ser sinalizadas e mantidas desobstruídas, nos termos da NR-23.\n**22.31.5** Os planos inclinados e chaminés destinados à saída de emergência devem possuir escadas\nconstruídas e instaladas conforme prescrito no capítulo 22.10 desta NR.\n**22.31.6** Em minas subterrâneas com atividades iniciadas a partir da vigência desta norma e no",
     "heading": "Introdução",
-    "char_offset": 119867
+    "char_offset": 119939
   },
   {
     "id": "chunk-408",
     "text": "desenvolvimento de novas frentes e níveis nas minas já em atividades, as saídas de emergências\nnão podem ser instaladas em poços de exaustão.\n**22.31.6.1** Nas minas subterrâneas em funcionamento, que já possuam as saídas de emergências\ninstaladas em poços de exaustão, devem ser implementadas medidas técnicas, estabelecidas em",
     "heading": "Introdução",
-    "char_offset": 120213
+    "char_offset": 120285
   },
   {
     "id": "chunk-409",
     "text": "procedimento, de forma a redirecionar o fluxo de ar contaminado em caso de emergência.\n**22.32 Paralisação e retomada de atividades nas minas**\n**22.32.1** Ao suspender temporária ou definitivamente a lavra, a organização deve comunicar\nformalmente à Superintendência Regional do Trabalho e Emprego da sua Unidade da Federação.",
     "heading": "Introdução",
-    "char_offset": 120544
+    "char_offset": 120616
   },
   {
     "id": "chunk-410",
     "text": "**22.32.2** As minas paralisadas e as áreas já mineradas ou desativadas devem ser cercadas e\nsinalizadas ou controladas de forma a impedir o acesso inadvertido, conforme legislação em vigor.\n**22.32.3** Para o retorno das atividades de lavra, após a suspensão temporária ou definitiva, a",
     "heading": "Introdução",
-    "char_offset": 120874
+    "char_offset": 120946
   },
   {
     "id": "chunk-411",
     "text": "organização deve realizar novo GRO, conforme previsto no capítulo 1.5 da NR-1.\n**22.33 Comissão Interna de Prevenção de Acidentes e de Assédio na Mineração (CIPAMIN)**\n**22.33.1** A organização que admita trabalhadores como empregados deve organizar e manter em",
     "heading": "Introdução",
-    "char_offset": 121164
+    "char_offset": 121236
   },
   {
     "id": "chunk-412",
     "text": "regular funcionamento, em cada estabelecimento, uma Comissão Interna de Prevenção de\nAcidentes e de Assédio na Mineração (CIPAMIN), na forma prevista nesta NR e na Norma\nRegulamentadora n° 5 (NR-5) - Comissão Interna de Prevenção de Acidentes e de Assédio (CIPA),",
     "heading": "Introdução",
-    "char_offset": 121426
+    "char_offset": 121498
   },
   {
     "id": "chunk-413",
     "text": "no que couber.\n**22.33.2** A CIPAMIN será composta de representante do empregador e dos empregados e seus\nrespectivos suplentes, de acordo com as proporções mínimas constantes no Quadro II do Anexo IV\ndesta NR.\n**22.33.2.1** A composição da CIPAMIN deve observar critérios que permitam estar representados os",
     "heading": "Introdução",
-    "char_offset": 121693
+    "char_offset": 121765
   },
   {
     "id": "chunk-414",
     "text": "setores que ofereçam maior risco ou que apresentem maior número de acidentes do trabalho.\n**22.33.2.1.1** Os setores de maior risco devem ser definidos pela CIPAMIN com base nos dados do\nPGR, no relatório analítico do Programa de Controle Médico de Saúde Ocupacional (PCMSO), nos",
     "heading": "Introdução",
-    "char_offset": 122003
+    "char_offset": 122075
   },
   {
     "id": "chunk-415",
     "text": "indicadores de resultados de segurança e saúde do trabalho monitorados pelo SESMT, quando\nhouver, e outros dados e informações relativas à segurança e saúde no trabalho disponíveis na\norganização.\n**22.33.2.2** Quando o estabelecimento não se enquadrar no Quadro II do Anexo IV desta NR e não",
     "heading": "Introdução",
-    "char_offset": 122284
+    "char_offset": 122356
   },
   {
     "id": "chunk-416",
     "text": "for atendido por SESMT, nos termos da Norma Regulamentadora n° 4 (NR-4) - Serviços\nEspecializados em Segurança e em Medicina do Trabalho, a organização deve nomear e treinar um\nrepresentante dentre seus empregados para auxiliar na execução das ações de prevenção em",
     "heading": "Introdução",
-    "char_offset": 122577
+    "char_offset": 122649
   },
   {
     "id": "chunk-417",
     "text": "segurança e saúde no trabalho e cumprir os objetivos da CIPAMIN, nos termos da NR-5.\n**22.33.3** Os representantes dos empregados na CIPAMIN serão por estes eleitos seguindo os\nprocedimentos estabelecidos na NR-5 e respeitando o critério estabelecido no subitem 22.33.2.1",
     "heading": "Introdução",
-    "char_offset": 122844
+    "char_offset": 122916
   },
   {
     "id": "chunk-418",
     "text": "desta NR.\n**22.33.3.1** Em obediência aos critérios do subitem 22.33.2.1 desta NR para a composição da\nCIPAMIN, esta indicará as áreas a serem contempladas pela representatividade individual de\nempregados do setor, exceto na primeira implantação, cabendo neste caso à organização a",
     "heading": "Introdução",
-    "char_offset": 123118
+    "char_offset": 123190
   },
   {
     "id": "chunk-419",
     "text": "indicação das áreas.\n**22.33.3.1.1** A CIPAMIN deve ser composta de forma a abranger a representatividade de todos os\nsetores do estabelecimento, podendo, se for o caso, agrupar áreas ou setores afins.\n**22.33.3.2** Os candidatos interessados devem inscrever-se para representação da sua área ou setor",
     "heading": "Introdução",
-    "char_offset": 123402
+    "char_offset": 123474
   },
   {
     "id": "chunk-420",
     "text": "de trabalho.\n**22.33.3.3** A eleição será realizada por área ou setor e os empregados votarão nos inscritos de sua\nárea ou setor de trabalho.\n**22.33.3.4** Assumirá a condição de titular da CIPAMIN o candidato mais votado na área ou setor de\ntrabalho.",
     "heading": "Introdução",
-    "char_offset": 123709
+    "char_offset": 123781
   },
   {
     "id": "chunk-421",
     "text": "**22.33.3.5** Assumirá a condição de suplente, considerando o Quadro II do Anexo IV desta Norma,\ndentre todos os outros candidatos, o mais votado, desconsiderando a área ou setor de trabalho.\n**22.33.4** A CIPAMIN tem como atribuições, além do previsto na NR-5:",
     "heading": "Introdução",
-    "char_offset": 123963
+    "char_offset": 124035
   },
   {
     "id": "chunk-422",
     "text": "a) estabelecer negociação permanente no âmbito de suas representações para a recomendação e\nsolicitação de medidas de controle ao empregador;\nb) acompanhar a implantação das medidas de controle e do cronograma de ações estabelecido no\nPGR e no PCMSO;",
     "heading": "Introdução",
-    "char_offset": 124228
+    "char_offset": 124300
   },
   {
     "id": "chunk-423",
     "text": "c) participar das inspeções periódicas dos ambientes de trabalho programadas pela organização\nou SESMT, quando houver, seguindo cronograma negociado com o empregador;\nd) requerer do SESMT, quando houver, ou do empregador ciência prévia do impacto à segurança e",
     "heading": "Introdução",
-    "char_offset": 124481
+    "char_offset": 124553
   },
   {
     "id": "chunk-424",
     "text": "à saúde dos trabalhadores de novos projetos ou de alterações significativas no ambiente ou no\nprocesso de trabalho; e\ne) incluir temas referentes à prevenção e ao combate ao assédio e a outras formas de violência no\ntrabalho nas suas atividades e práticas.",
     "heading": "Introdução",
-    "char_offset": 124743
+    "char_offset": 124815
   },
   {
     "id": "chunk-425",
     "text": "**22.33.5** A organização deve promover treinamento para o representante nomeado e para os\nmembros da CIPAMIM, titulares e suplentes, antes da posse, de acordo com o definido pela NR-5.\n**22.33.6** A organização deve promover, além do previsto no item 22.33.5 desta NR, treinamento",
     "heading": "Introdução",
-    "char_offset": 125002
+    "char_offset": 125074
   },
   {
     "id": "chunk-426",
     "text": "complementar, com carga horária de 20 (vinte) horas, que será ministrado durante o mandato,\ncom conteúdo constituído por metodologia de inspeção de segurança e outras práticas definidas\npela organização.\n**22.33.7** Os representantes nomeados das organizações contratadas devem participar das reuniões",
     "heading": "Introdução",
-    "char_offset": 125285
+    "char_offset": 125357
   },
   {
     "id": "chunk-427",
     "text": "da CIPAMIN da contratante.\n**22.34 Condições sanitárias e de conforto nos locais de trabalho**\n**22.34.1** As condições de conforto e higiene nos locais de trabalho são aquelas estabelecidas nesta\nnorma e na Norma Regulamentadora nº 24 (NR-24) - Condições Sanitárias e de Conforto nos Locas",
     "heading": "Introdução",
-    "char_offset": 125590
+    "char_offset": 125662
   },
   {
     "id": "chunk-428",
     "text": "de Trabalho.\n**22.34.2** Nas frentes de trabalho devem ser disponibilizadas instalações sanitárias higienizadas, a\numa distância máxima de 250 m (duzentos e cinquenta metros), separadas por sexo. _(Alterado pela_\n_Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 125883
+    "char_offset": 125955
   },
   {
     "id": "chunk-429",
     "text": "**22.34.2.1** As instalações sanitárias devem possuir: _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de_\n_2026)_\na) uma bacia sanitária para cada grupo de 20 trabalhadores ou fração, considerando o número de\ntrabalhadores usuários do turno com o maior contingente; _(Inserido pela Portaria MTE nº 105, de 29 de_",
     "heading": "Introdução",
-    "char_offset": 126147
+    "char_offset": 126219
   },
   {
     "id": "chunk-430",
     "text": "_janeiro de 2026)_\nb) um lavatório para cada grupo de 20 trabalhadores ou fração, considerando o número de\ntrabalhadores usuários do turno com o maior contingente; e _(Inserido pela Portaria MTE nº 105, de 29 de_\n_janeiro de 2026)_\nc) material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas. _(Inserido_",
     "heading": "Introdução",
-    "char_offset": 126469
+    "char_offset": 126541
   },
   {
     "id": "chunk-431",
     "text": "_pela Portaria MTE nº 105, de 29 de janeiro de 2026)_\n**22.34.2.1.1** Nas frentes de trabalho as instalações sanitárias podem ser substituídas por banheiros\nquímicos, desde que: _(Caput e alíneas inseridos pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 126801
+    "char_offset": 126873
   },
   {
     "id": "chunk-432",
     "text": "a) possuam mecanismo de descarga ou de isolamento dos dejetos;\nb) possuam respiro e ventilação;\nc) possuam material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas; e\nd) seja garantida a higienização a cada turno e retirada diária dos dejetos.",
     "heading": "Introdução",
-    "char_offset": 127064
+    "char_offset": 127136
   },
   {
     "id": "chunk-433",
     "text": "**22.34.2.2** 2 Naquelas atividades de trabalho de curta duração, onde é mantido veículo automotivo\npara o deslocamento dos trabalhadores, a distância para as instalações sanitárias pode ser\nampliada para até 1.000 m (mil metros). _(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 127335
+    "char_offset": 127407
   },
   {
     "id": "chunk-434",
     "text": "**22.34.3** É proibida a troca e guarda de vestimenta de trabalho no subsolo.\n**22.34.4** Nos locais, postos e frentes de trabalho deve ser garantida aos trabalhadores água potável\ne fresca e em condições de higiene, ´podendo ser por meio de recipiente individual, térmico,",
     "heading": "Introdução",
-    "char_offset": 127632
+    "char_offset": 127704
   },
   {
     "id": "chunk-435",
     "text": "hermeticamente fechado e higienizado.\n**22.34.5** A organização deve fornecer ao trabalhador do subsolo alimentação compatível com a\nnatureza do trabalho, observada a legislação aplicável. _(Alterado pela Portaria MTE nº 105, de 29 de janeiro_\n_de 2026)_",
     "heading": "Introdução",
-    "char_offset": 127907
+    "char_offset": 127979
   },
   {
     "id": "chunk-436",
     "text": "**22.34.6** Havendo fornecimento de alimentação no subsolo, a organização manterá local adequado\nque atenda às condições de segurança, higiene e conforto, para tomada desta alimentação.\n**22.35 Disposições gerais**\n**22.35.1** Quando a organização fornecer o transporte para deslocamento de pessoal, diretamente",
     "heading": "Introdução",
-    "char_offset": 128165
+    "char_offset": 128237
   },
   {
     "id": "chunk-437",
     "text": "ou por meio de organizações contratadas, deve observar que sejam realizados em veículos\nnormalizados, garantindo condições de comodidade, conforto e segurança aos trabalhadores.\n**22.35.2** A organização deve manter os indicadores de acidentes e doenças relacionadas ao",
     "heading": "Introdução",
-    "char_offset": 128478
+    "char_offset": 128550
   },
   {
     "id": "chunk-438",
     "text": "trabalho atualizado, assegurando pleno acesso a essa documentação à CIPAMIN e ao SESMT,\nquando houver.\n**22.35.2.1** Os acidentes e doenças relacionadas ao trabalho devem ser analisados conforme o\nsubitem 1.5.5.5 da NR-1.\n**22.35.2.2** Em caso de ocorrência de acidente fatal, é obrigatória a adoção das seguintes medidas:",
     "heading": "Introdução",
-    "char_offset": 128751
+    "char_offset": 128823
   },
   {
     "id": "chunk-439",
     "text": "a) comunicar de imediato, à autoridade policial competente e ao órgão regional competente em matéria de\nsegurança e saúde no trabalho; e\nb) isolar o local diretamente relacionado ao acidente, mantendo suas características até sua liberação pela\nautoridade policial competente.",
     "heading": "Introdução",
-    "char_offset": 129076
+    "char_offset": 129148
   },
   {
     "id": "chunk-440",
     "text": "_que não a montante._\n**GLOSSÁRIO DA NR-22**\nAcessórios - São dispositivos (por ex. espoletas, cordel detonante) empregados para iniciar a carga\nexplosiva ao fornecer ou transmitir chama ou energia para iniciar a detonação, retardar (por ex.\nretardo ou booster) ou propagar uma onda explosiva de um ponto da carga explosiva para outra.",
     "heading": "Introdução",
-    "char_offset": 129356
+    "char_offset": 129428
   },
   {
     "id": "chunk-441",
     "text": "Agravo - Lesão, doença, transtorno de saúde, distúrbio, disfunção ou síndrome de evolução aguda\nsubaguda ou crônica, de natureza clínica ou subclínica, inclusive morte, independente do tempo\nde latência.\nAlimentadores - São máquinas utilizadas para atender às necessidades de alimentação, retomada",
     "heading": "Introdução",
-    "char_offset": 129695
+    "char_offset": 129767
   },
   {
     "id": "chunk-442",
     "text": "e dosagem em circuitos de processamento de materiais para quebrar rochas e matéria-prima crua\nem partículas menores e na sua classificação. Sua aplicabilidade vai desde a alimentação de\nbritadores primários, retomada de materiais sob silos e pilhas, alimentação com dosagem de",
     "heading": "Introdução",
-    "char_offset": 129993
+    "char_offset": 130065
   },
   {
     "id": "chunk-443",
     "text": "rebritadores e moinhos e outras.\nAntena telescópica com bandeira - Equipamento acoplado a veículo leve que tem como função\ninformar sua presença nas áreas de trânsito de veículos evitando colisão com equipamentos de\ngrande porte.\nAr de adução - É todo ar em condições de uso por máquinas e homens para ventilar frentes de",
     "heading": "Introdução",
-    "char_offset": 130273
+    "char_offset": 130345
   },
   {
     "id": "chunk-444",
     "text": "trabalho (lavra, serviços e desenvolvimento).\nAr fresco - Todo ar de adução proveniente da superfície em condições de uso por máquinas e\nhomens, que não tenha sido utilizado para ventilar frentes de lavra, serviços e desenvolvimento.\nAr viciado - Designa todo ar que foi utilizado para ventilar frentes de trabalho (lavra, serviços e",
     "heading": "Introdução",
-    "char_offset": 130597
+    "char_offset": 130669
   },
   {
     "id": "chunk-445",
     "text": "desenvolvimento).\nÁrea classificada - Local com potencialidade de ocorrência de atmosfera explosiva.\nAvaliação da exposição - Processo para definir os perfis de exposição e julgar a aceitabilidade das\nexposições a agentes ambientais nos locais de trabalho.",
     "heading": "Introdução",
-    "char_offset": 130933
+    "char_offset": 131005
   },
   {
     "id": "chunk-446",
     "text": "Balde de transporte - Na fase de construção dos poços estes ainda não estão equipados com os\nequipamentos definitivos. Nesta situação o transporte de pessoal ou material utilizado na\nabertura ou aprofundamento dos poços é realizado por sistema em forma de balde de grande",
     "heading": "Introdução",
-    "char_offset": 131191
+    "char_offset": 131263
   },
   {
     "id": "chunk-447",
     "text": "dimensão, dotado de tampa com abertura basculante para evitar queda de material ou pessoas\ndurante sua movimentação ou quando parado.\nBancada - Estrutura constituída por bermas e taludes.\nBarragem de rejeitos - Qualquer estrutura (barramento, dique ou similar) que forme uma parede",
     "heading": "Introdução",
-    "char_offset": 131465
+    "char_offset": 131537
   },
   {
     "id": "chunk-448",
     "text": "de contenção de rejeitos ou de resíduos provenientes do processo de beneficiamento mineral,\nvisando minimizar os impactos socioambientais.\nBeneficiamento mineral - Consiste em tratamento dos minérios visando a preparação\ngranulométrica, purificação ou enriquecimento por métodos físicos ou químicos, sem alteração da",
     "heading": "Introdução",
-    "char_offset": 131748
+    "char_offset": 131820
   },
   {
     "id": "chunk-449",
     "text": "sua constituição química.\nBerma - Aterro sedimentado entre taludes. A largura e o ângulo da berma são dimensionados de\nforma a garantir a estabilidade do talude e a facilitar a drenagem.\nBlaster - Trabalhador encarregado de organizar e conectar a distribuição e disposição dos",
     "heading": "Introdução",
-    "char_offset": 132067
+    "char_offset": 132139
   },
   {
     "id": "chunk-450",
     "text": "explosivos e acessórios empregados no desmonte de rochas. Também conhecido como\nEncarregado de fogo. O blaster deve ser autorizado e possuir uma carteira emitida pela autoridade\npolicial estadual.\nBlocos instáveis - Constituídos geralmente de blocos de rocha maiores que o choco. Em algumas",
     "heading": "Introdução",
-    "char_offset": 132346
+    "char_offset": 132418
   },
   {
     "id": "chunk-451",
     "text": "situações os blocos instáveis não são passíveis de abatimento, sendo necessário seu tratamento\nadequado por meio de escoramento ou fixação adequada e segura de forma a eliminar o risco de\nsua queda sobre trabalhadores e equipamentos\nCâmaras de refúgio - Refúgios para proteger os trabalhadores em situações de risco no subsolo. O",
     "heading": "Introdução",
-    "char_offset": 132638
+    "char_offset": 132710
   },
   {
     "id": "chunk-452",
     "text": "objetivo de uma câmara de refúgio é prover e sustentar a vida das pessoas em subsolo no caso de\nemergência, seja um incêndio, seja gases tóxicos ou nocivos. Uma câmara de refúgio deve, a\nqualquer hora, ser capaz de manter um ambiente habitável, pelo tempo necessário até o",
     "heading": "Introdução",
-    "char_offset": 132968
+    "char_offset": 133040
   },
   {
     "id": "chunk-453",
     "text": "restabelecimento das condições normais ou até que as pessoas sejam resgatadas.\nChaminé - Abertura vertical geralmente entre níveis de uma mineração subterrânea, utilizada para\ntransporte de minério, estéril, para ventilação ou rota de fuga. Também denominada “raise”.",
     "heading": "Introdução",
-    "char_offset": 133242
+    "char_offset": 133314
   },
   {
     "id": "chunk-454",
     "text": "Chocos - Chocos são fragmentos desarticulados de rochas localizados nos tetos e laterais das\ngalerias de minas subterrâneas com risco de queda, de menor porte que os blocos instáveis. São\noriginados de movimentações do maciço rochoso, que ocorrem de forma natural ou provocada",
     "heading": "Introdução",
-    "char_offset": 133511
+    "char_offset": 133583
   },
   {
     "id": "chunk-455",
     "text": "por detonações e movimentações de máquinas e equipamentos em geral. Os chocos constituem\ngrande perigo, pois, se não abatidos (derrubados ou retirados), podem cair sobre trabalhadores,\nmáquinas e equipamentos sendo uma das maiores causas de acidentes em minas subterrâneas.",
     "heading": "Introdução",
-    "char_offset": 133788
+    "char_offset": 133860
   },
   {
     "id": "chunk-456",
     "text": "Colar do poço - Parte superior e circular da abertura do poço.\nCondição estática - Ocorre quando a carga e a distribuição de esforços sobre as fundações não\ncausam deformações totais ou diferenciais excessivas ou ainda a ruptura da fundação por\ncisalhamento.",
     "heading": "Introdução",
-    "char_offset": 134065
+    "char_offset": 134137
   },
   {
     "id": "chunk-457",
     "text": "Condição pseudo-estática - Ocorre quando a carga e a distribuição de esforços sobre as fundações\npodem causar deformações totais ou diferenciais excessivas ou a sua ruptura, geralmente\nocasionadas por sismos naturais ou induzidos.\nCorrente principal - É aquela em que ocorre ar de adução e que circula pelos principais acessos da",
     "heading": "Introdução",
-    "char_offset": 134326
+    "char_offset": 134398
   },
   {
     "id": "chunk-458",
     "text": "mina.\nCorrente secundária - É aquela derivada da corrente principal de ventilação, utilizada para ventilar\nas frentes de trabalho (lavra, serviços e desenvolvimento).\nDesmonte de rocha com uso de explosivos - Operação de arrancamento, fragmentação,\ndeslocamento e lançamento de rocha mediante aplicação de cargas explosivas.",
     "heading": "Introdução",
-    "char_offset": 134659
+    "char_offset": 134731
   },
   {
     "id": "chunk-459",
     "text": "Dispositivo mecânico de intertravamento - Seu funcionamento se dá pela inserção/remoção de\num atuador externo no corpo do dispositivo, ou pela ação mecânica direta (ou positiva) de partes\nda máquina ou equipamento, geralmente proteções móveis, sobre elementos mecânicos do",
     "heading": "Introdução",
-    "char_offset": 134985
+    "char_offset": 135057
   },
   {
     "id": "chunk-460",
     "text": "dispositivo. É passível de desgaste, devendo ser utilizado de forma redundante e diversa quando a\napreciação de riscos assim exigir, para evitar que uma falha mecânica, como a quebra do atuador\nou de outros elementos, leve à perda da função de segurança. Quando exigidos em redundância",
     "heading": "Introdução",
-    "char_offset": 135258
+    "char_offset": 135330
   },
   {
     "id": "chunk-461",
     "text": "(dois dispositivos), pode-se aplicar um deles com ação direta de abertura de um elemento de\ncontato normalmente fechado (NF), e o outro com ação não direta de abertura (por ação de mola)\nde um elemento de contato normalmente aberto (NA), gerando os sinais de parada, dentre outras",
     "heading": "Introdução",
-    "char_offset": 135544
+    "char_offset": 135616
   },
   {
     "id": "chunk-462",
     "text": "configurações possíveis - a depender também da interface de segurança utilizada, que pode\noperar com sinais iguais ou invertidos.\nEquipamento ou máquina autopropelida - Aquele que se desloca em meio terrestre com sistema\nde propulsão próprio.\nEquipamento ou máquina estacionária - Aquele que se mantém fixo em um posto de trabalho, ou",
     "heading": "Introdução",
-    "char_offset": 135827
+    "char_offset": 135899
   },
   {
     "id": "chunk-463",
     "text": "seja, transportável para uso em bancada ou em outra superfície estável em que possa ser fixada.\nEscorva - Consiste na fixação do acessório ao explosivo e deve ser feito o mais próximo possível da\nfrente a ser desmontada (detonada) sendo que a massa explosiva deve ser perfurada, antes de",
     "heading": "Introdução",
-    "char_offset": 136163
+    "char_offset": 136235
   },
   {
     "id": "chunk-464",
     "text": "introdução do acessório, utilizando-se para tal fim estilete de madeira ou PVC.\nEspessadores - São equipamentos utilizados na mineração para realização da separação sólidolíquido. Sua operação, simples e de baixo custo, baseia-se na diferença de velocidade de",
     "heading": "Introdução",
-    "char_offset": 136452
+    "char_offset": 136524
   },
   {
     "id": "chunk-465",
     "text": "sedimentação das partículas constituintes da polpa mineral.\nEstéril - Material rochoso sem valor econômico gerado após o beneficiamento mineral. Não\npossuem, num determinado momento, valor comercial que compense a extração do minério nele\ncontido, normalmente devido à baixa concentração. Costuma ser disposto em pilhas, para que",
     "heading": "Introdução",
-    "char_offset": 136713
+    "char_offset": 136785
   },
   {
     "id": "chunk-466",
     "text": "possam ser aproveitados em um momento futuro, quando, por exemplo, do esgotamento das\njazidas.\nExplosivos - Substâncias ou misturas capazes de se transformar quimicamente em gases, gerando\ngrande quantidade de calor e energia e elevadas pressões num espaço de tempo muito curto.",
     "heading": "Introdução",
-    "char_offset": 137044
+    "char_offset": 137116
   },
   {
     "id": "chunk-467",
     "text": "Exposição ocupacional - Situação em que um ou mais trabalhadores podem interagir com agentes\nou fatores de riscos no ambiente de trabalho.\nFogos falhados - São aqueles explosivos que não detonaram durante as atividades desmonte da\nrocha e que devem ser retirados pelo encarregado-do-fogo utilizando equipamento apropriado",
     "heading": "Introdução",
-    "char_offset": 137326
+    "char_offset": 137398
   },
   {
     "id": "chunk-468",
     "text": "não gerador de faíscas\nFornecimento de meios para cumprimento da NR-22 - O fornecimento de meios e condições para\natuação em conformidade com a Norma significa que a contratante fornecerá os dados técnicos\nrelativos às características da área de trabalho onde a contratada desenvolverá suas atividades,",
     "heading": "Introdução",
-    "char_offset": 137649
+    "char_offset": 137721
   },
   {
     "id": "chunk-469",
     "text": "entre os quais os dados de levantamento dos perigos bem como a indicação das medidas para\neliminação, minimização ou neutralização de riscos, fornecendo ainda condições operacionais\npara que a contratada adote as medidas preconizadas para a prevenção de acidentes e doenças de",
     "heading": "Introdução",
-    "char_offset": 137952
+    "char_offset": 138024
   },
   {
     "id": "chunk-470",
     "text": "forma coordenada, conjunta e integrada.\nFrente de desenvolvimento - Cada local onde ocorrem as operações que visam acessar o corpo de\nminério ou outras escavações.\nFrente de serviço - Cada local onde ocorrem as operações de apoio e infraestrutura da mina.",
     "heading": "Introdução",
-    "char_offset": 138231
+    "char_offset": 138303
   },
   {
     "id": "chunk-471",
     "text": "Frente de trabalho - Cada local onde ocorrem quaisquer operações dentro da mina (frente de\nlavra, de serviço ou de desenvolvimento), com presença permanente ou esporádica de\ntrabalhadores.\nFrentes de lavra - Cada local onde ocorrem as operações unitárias destinadas à extração do",
     "heading": "Introdução",
-    "char_offset": 138490
+    "char_offset": 138562
   },
   {
     "id": "chunk-472",
     "text": "minério.\nFundo-de-saco - Áreas de galerias em minas subterrâneas que ainda não se comunicaram com\noutras galerias, tendo, portanto, apenas um único acesso de entrada e saída o que implica em\nmaiores riscos e em dificuldade de ventilação.\nGaiola - Cabina, em forma de gaiola, utilizada para o transporte vertical de pessoas ou de",
     "heading": "Introdução",
-    "char_offset": 138773
+    "char_offset": 138845
   },
   {
     "id": "chunk-473",
     "text": "equipamentos.\nGalerias - Áreas de trânsito de equipamentos e pessoas e que dão acesso às áreas de lavra em\nminas subterrâneas. Em algumas regiões também são chamadas de distrito.\nGarimpo - Considera-se garimpo a atividade de aproveitamento de substâncias minerais",
     "heading": "Introdução",
-    "char_offset": 139104
+    "char_offset": 139176
   },
   {
     "id": "chunk-474",
     "text": "garimpáveis, executadas no interior de áreas estabelecidas para este fim, exercida por brasileiro,\ncooperativa de garimpeiros, autorizada a funcionar como empresa de mineração, sob o regime de\npermissão de lavra garimpeira (Lei nº 7.805/89).\nGrupo de exposição similar (GES) - Grupo de trabalhadores com o mesmo perfil geral de exposição",
     "heading": "Introdução",
-    "char_offset": 139370
+    "char_offset": 139442
   },
   {
     "id": "chunk-475",
     "text": "(em magnitude e variabilidade) para o agente em estudo devido à semelhança e frequência das\ntarefas que executam, aos materiais e processos com os quais trabalham e à semelhança na forma\ncomo executam as tarefas. Um GES não deve ser confundido com função ou cargo similar e pode",
     "heading": "Introdução",
-    "char_offset": 139708
+    "char_offset": 139780
   },
   {
     "id": "chunk-476",
     "text": "ser constituído por trabalhadores de um mesmo processo, área, setor, função ou que executam\numa determinada atividade.\nHaste de abater choco - Haste metálica de comprimento e peso adequados utilizada para derrubar\n(abater) o choco de forma a reduzir o risco de queda do choco sobre o trabalhador. Pode ser",
     "heading": "Introdução",
-    "char_offset": 139989
+    "char_offset": 140061
   },
   {
     "id": "chunk-477",
     "text": "constituída de aço ou material mais leve (alumínio, fibra de vidro ou de carbono) com ponta\nintercambiável de aço, que reduz o peso e consequentemente o esforço físico requerido pela\ntarefa de abatimento manual de chocos.\nIntemperizada - área onde as rochas expostas ficaram sujeitas ao processo de intemperismo físico,",
     "heading": "Introdução",
-    "char_offset": 140297
+    "char_offset": 140369
   },
   {
     "id": "chunk-478",
     "text": "químico e biológico, causado por fatores como clima, mudanças bruscas de temperatura e pela\nágua. Intemperização é um termo da geologia que significa desgaste do solo. Dependendo da\nlocalização da rocha, ela sofre intemperização (intemperismo), ou seja, ela se desgasta.",
     "heading": "Introdução",
-    "char_offset": 140617
+    "char_offset": 140689
   },
   {
     "id": "chunk-479",
     "text": "Interface de segurança - Dispositivo responsável por realizar o monitoramento, verificando a\ninterligação, posição e funcionamento de outros dispositivos do sistema, impedindo a ocorrência\nde falha que provoque a perda da função de segurança, como relés de segurança, controladores",
     "heading": "Introdução",
-    "char_offset": 140889
+    "char_offset": 140961
   },
   {
     "id": "chunk-480",
     "text": "configuráveis de segurança e CLP de segurança.\nLavra - Conjunto de operações coordenadas objetivando o aproveitamento industrial da jazida,\ndesde a extração das substâncias minerais úteis contidas em seu interior até o seu\nbeneficiamento.\nLeiras - Constituem na deposição de material rochoso (geralmente material sem valor econômico)",
     "heading": "Introdução",
-    "char_offset": 141174
+    "char_offset": 141246
   },
   {
     "id": "chunk-481",
     "text": "ao longo das margens das bancadas, estradas de minas ou nos depósitos a céu aberto de forma a\nevitar o risco de queda dos veículos.\nLixiviação em pilha - Dissolução e remoção dos constituintes de rochas e de solos de forma a\nretirar o minério das rochas por meio de processos físico-químicos",
     "heading": "Introdução",
-    "char_offset": 141509
+    "char_offset": 141581
   },
   {
     "id": "chunk-482",
     "text": "Maciço desarticulado - Constituído de grande volume de rocha instável (grandes volumes de rocha\ndesarticulada do maciço) com grande risco de desabamento.\nMaciço rochoso - Consistem em unidades geológicas formados por conjuntos de rochas variadas.\nConjunto de blocos originados da rocha intacta, sendo limitados pelas descontinuidades.",
     "heading": "Introdução",
-    "char_offset": 141803
+    "char_offset": 141875
   },
   {
     "id": "chunk-483",
     "text": "Manutenção preditiva - Manutenção que permite garantir uma qualidade de serviço desejada,\ncom base na aplicação sistemática de técnicas de análise, utilizando-se de meios de supervisão\ncentralizados ou de amostragem, para reduzir ao mínimo a manutenção preventiva e diminuir a",
     "heading": "Introdução",
-    "char_offset": 142139
+    "char_offset": 142211
   },
   {
     "id": "chunk-484",
     "text": "manutenção corretiva.\nManutenção preventiva - Manutenção realizada a intervalos predeterminados ou de acordo com\ncritérios prescritos, e destinada a reduzir a probabilidade de falha ou a degradação do\nfuncionamento de um componente.\nMateriais particulados - resíduos sólidos decorrente da queima incompleta dos combustíveis",
     "heading": "Introdução",
-    "char_offset": 142418
+    "char_offset": 142490
   },
   {
     "id": "chunk-485",
     "text": "utilizados nas máquinas e equipamentos. As avaliações de materiais particulados podem ser\nrealizadas por métodos analíticos ou instantâneos, tais como a Escala de Ringelmann.\nMina - Abrange as áreas de superfície (ou a céu aberto) ou subterrâneas nas quais se desenvolvem",
     "heading": "Introdução",
-    "char_offset": 142743
+    "char_offset": 142815
   },
   {
     "id": "chunk-486",
     "text": "as operações coordenadas objetivando o aproveitamento industrial da jazida, inclusive seu\nbeneficiamento, incluindo toda máquina, equipamento, veículo, acessório, instalação e obras civis\nutilizados nas citadas operações. São considerados como parte integrante da mina todo edifício,",
     "heading": "Introdução",
-    "char_offset": 143016
+    "char_offset": 143088
   },
   {
     "id": "chunk-487",
     "text": "construção, depósitos de materiais, pilhas de minério, estéril ou rejeitos, bacias ou barragens\nutilizadas para qualquer fim necessário ao aproveitamento mineral ou posterior tratamento dos\nprodutos e materiais de descarga que saiam da mina.\nMinas grisutosas - Minas que, por suas características geológicas, podem conter grisu, gás",
     "heading": "Introdução",
-    "char_offset": 143301
+    "char_offset": 143373
   },
   {
     "id": "chunk-488",
     "text": "inflamável e explosivo e que contém quantidade variável de metano misturado ao ar atmosférico.\nGeralmente o grisu ocorre em minas subterrâneas de carvão mineral\nMineração a céu aberto - Consiste na extração de minério que se encontra em depósitos\nsuperficiais e/ou em menores profundidades, cujo acesso se dá por meio de vias de circulação",
     "heading": "Introdução",
-    "char_offset": 143635
+    "char_offset": 143707
   },
   {
     "id": "chunk-489",
     "text": "construídas para este fim.\nMineração Subterrânea ou em subsolo - Consiste na extração de minério que se encontra em\nmaiores profundidades, cujo acesso é realizado inicialmente por meio de poços verticais ou\nrampas construídas a partir da superfície e posteriormente por meio de galerias. Por eles passam",
     "heading": "Introdução",
-    "char_offset": 143976
+    "char_offset": 144048
   },
   {
     "id": "chunk-490",
     "text": "pessoas, equipamentos, suprimentos e o próprio minério.\nMineral ou minério - Toda substância sólida existente na natureza que, no atual estágio da\ntecnologia, pode ser utilizado para a extração de um ou mais metais comercializáveis.\nMoinhos - São equipamentos utilizados na indústria mineral na moagem, a seco ou a úmido, de",
     "heading": "Introdução",
-    "char_offset": 144282
+    "char_offset": 144354
   },
   {
     "id": "chunk-491",
     "text": "minérios ou minerais industriais com alta ou até média resistência a fragmentação.\nMonitoramento (ou Monitorização) periódico da exposição - A monitorização ambiental\ncompreende uma atividade sistemática, contínua e repetitiva de medidas e avaliação de agentes",
     "heading": "Introdução",
-    "char_offset": 144608
+    "char_offset": 144680
   },
   {
     "id": "chunk-492",
     "text": "no ambiente visando estimar a exposição ambiental e o risco à saúde por comparação dos\nresultados com referências apropriadas. A monitorização implica, inclusive, na confirmação de que\nas medidas de controle adotadas são suficientes para o controle dos perigos ou fatores de risco.",
     "heading": "Introdução",
-    "char_offset": 144869
+    "char_offset": 144941
   },
   {
     "id": "chunk-493",
     "text": "Operação unitária - Constitui cada uma das atividades necessárias à realização da lavra, tais como:\nperfuração, carregamento com explosivos, desmonte, carga e transporte de material, saneamento\ne suporte de teto, laterais e piso e ventilação e outras análogas",
     "heading": "Introdução",
-    "char_offset": 145152
+    "char_offset": 145224
   },
   {
     "id": "chunk-494",
     "text": "Organização - Pessoa ou grupo de pessoas com suas próprias funções com responsabilidades,\nautoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador,\npermissionário de lavra garimpeira, tomador de serviços, a empresa, a empreendedor individual,",
     "heading": "Introdução",
-    "char_offset": 145413
+    "char_offset": 145485
   },
   {
     "id": "chunk-495",
     "text": "produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou\ninstituição, ou parte ou combinação desses, seja incorporada ou não, pública ou privada.\nPainel de lavra - É um o setor da mina que abrange um conjunto de frentes de trabalho (de lavra,",
     "heading": "Introdução",
-    "char_offset": 145693
+    "char_offset": 145765
   },
   {
     "id": "chunk-496",
     "text": "de serviço e/ou de desenvolvimento) que operam de forma integrada utilizando a mesma\ninfraestrutura e independente de painéis distintos ou adjacentes.\nPlano de Ações Emergenciais para Barragens de Mineração (PAEBM) - O PAEBM, que integra o\nPlano de Segurança de Barragem (PSB), é um documento técnico registrado nas prefeituras e nas",
     "heading": "Introdução",
-    "char_offset": 145975
+    "char_offset": 146047
   },
   {
     "id": "chunk-497",
     "text": "Defesas Civis (municipais, estaduais e federais), estabelecendo procedimentos a serem tomados\nem situações de emergência. É uma exigência regulamentada pela RESOLUÇÃO ANM nº 95, de 07\nde fevereiro de 2022, da Agência Nacional de Mineração (ANM), prevista na Lei nº 12.334, de 20",
     "heading": "Introdução",
-    "char_offset": 146309
+    "char_offset": 146381
   },
   {
     "id": "chunk-498",
     "text": "de setembro de 2010, que estabeleceu a Política Nacional de Segurança de Barragens (PNSB) e\ncriou o Sistema Nacional de Informações sobre Segurança de Barragens (SNISB).\nPerfil de exposição - Magnitude e variabilidade de exposições para um Grupo de Exposição Similar",
     "heading": "Introdução",
-    "char_offset": 146589
+    "char_offset": 146661
   },
   {
     "id": "chunk-499",
     "text": "(GES) ou trabalhador. Inclui a compreensão da medida da tendência central das exposições (tais\ncomo a média da exposição) e a compreensão da amplitude ou variabilidade das exposições, como\na faixa das exposições ou a frequência com que as exposições excedem o limite de tolerância.",
     "heading": "Introdução",
-    "char_offset": 146857
+    "char_offset": 146929
   },
   {
     "id": "chunk-500",
     "text": "Perigo ou fator de risco ocupacional / Perigo ou fonte de risco ocupacional - Fonte com o potencial\nde causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros\ntem o potencial intrínseco de dar origem a lesões ou agravos à saúde.",
     "heading": "Introdução",
-    "char_offset": 147140
+    "char_offset": 147212
   },
   {
     "id": "chunk-501",
     "text": "Permissionário de Lavra Garimpeira (PLG) - O regime de lavra garimpeira é o aproveitamento\nimediato do jazimento mineral que, por sua natureza, dimensão, localização e utilização\neconômica, possa ser lavrado, independentemente de trabalhos prévios de pesquisa, segundo",
     "heading": "Introdução",
-    "char_offset": 147402
+    "char_offset": 147474
   },
   {
     "id": "chunk-502",
     "text": "critérios fixados pela ANM, que regulamenta o procedimento para concessão da permissão.\nConforme a Lei nº 7.805/89 a permissão de lavra garimpeira será outorgada a brasileiro, a\ncooperativa de garimpeiros, autorizada a funcionar como empresa de mineração. O PLG é o",
     "heading": "Introdução",
-    "char_offset": 147671
+    "char_offset": 147743
   },
   {
     "id": "chunk-503",
     "text": "empregador responsável pela aplicação da NR-22.\nPesquisa mineral - Consiste na execução dos trabalhos necessários à definição da jazida, sua\navaliação e a determinação da exequibilidade do seu aproveitamento econômico. Os trabalhos\nnecessários à pesquisa devem ser executados sob a responsabilidade de engenheiro de minas ou",
     "heading": "Introdução",
-    "char_offset": 147938
+    "char_offset": 148010
   },
   {
     "id": "chunk-504",
     "text": "de geólogo legalmente habilitado ao exercício da profissão.\nPlano de fogo - Projeto executivo para o desmonte (detonação) de rocha com uso sistemático de\nexplosivos, onde são definidos e apresentados, entre outros, os seguintes parâmetros: o plano de",
     "heading": "Introdução",
-    "char_offset": 148264
+    "char_offset": 148336
   },
   {
     "id": "chunk-505",
     "text": "perfuração, a quantidade de explosivos a ser colocada em cada furo, a malha de perfuração em\nque conste o espaçamento entre os furos e os esquemas de ligação e iniciação entre os furos que\nserão detonados. Deve ser elaborado por profissional legalmente habilitado e executado pelo",
     "heading": "Introdução",
-    "char_offset": 148515
+    "char_offset": 148587
   },
   {
     "id": "chunk-506",
     "text": "encarregado-do-fogo.\nPoços (ou shafts) - Vias subterrâneas de mineração vertical ou fortemente inclinadas,\nnormalmente equipadas com sistema de transporte por tração a cabo. Utilizados no transporte de\npessoas, materiais, de minério e estéril\nPortas de ventilação - Instaladas em locais onde há necessidade de manter um acesso para o",
     "heading": "Introdução",
-    "char_offset": 148798
+    "char_offset": 148870
   },
   {
     "id": "chunk-507",
     "text": "sistema de entrada e retorno de ar. São instaladas duas portas em série separadas por uma\ndistância determinada. A primeira porta ao ser aberta permite a entrada de pessoal,\nequipamentos ou veículos para acesso ao espaço vago e assim ser fechada para posteriormente se",
     "heading": "Introdução",
-    "char_offset": 149132
+    "char_offset": 149204
   },
   {
     "id": "chunk-508",
     "text": "abrir a segunda porta para permitir atravessar o sistema de portas sem alterar as vazões ou alterar\no sentido da vazão de ar.\nProfissional ou trabalhador capacitado - Trabalhador que recebeu capacitação sob orientação e\nresponsabilidade de profissional habilitado, fornecida pela organização.",
     "heading": "Introdução",
-    "char_offset": 149403
+    "char_offset": 149475
   },
   {
     "id": "chunk-509",
     "text": "Profissional legalmente habilitado (PLH) - Trabalhador habilitado por meio de conclusão de curso\nespecífico na sua área de atuação, reconhecido pelo sistema oficial de ensino e com registro no\ncompetente conselho de classe.\nProfissional qualificado - Trabalhador qualificado por meio de conclusão de curso específico na sua",
     "heading": "Introdução",
-    "char_offset": 149698
+    "char_offset": 149770
   },
   {
     "id": "chunk-510",
     "text": "área de atuação, reconhecido pelo sistema oficial de ensino.\nRejeitos - Todos e quaisquer materiais não aproveitáveis economicamente resultantes dos\nprocessos de beneficiamento a que são submetidos os minérios, visando extrair os elementos de\ninteresse econômico. Esses processos têm a finalidade de regularizar o tamanho dos fragmentos",
     "heading": "Introdução",
-    "char_offset": 150023
+    "char_offset": 150095
   },
   {
     "id": "chunk-511",
     "text": "do minério, remover minerais associados sem valor econômico e aumentar a qualidade, pureza ou\nteor do produto final. Os rejeitos constituem-se geralmente de materiais granulares (areia) e ou\nfinos não plásticos (siltes).\nResponsáveis técnicos de cada setor - São os técnicos das áreas de pesquisa mineral, produção,",
     "heading": "Introdução",
-    "char_offset": 150361
+    "char_offset": 150433
   },
   {
     "id": "chunk-512",
     "text": "beneficiamento mineral, segurança do trabalho, mecânica, elétrica, topografia, ventilação, meio\nambiente, dentre outros, designados pela organização como responsáveis técnicos pelo seu setor.\nRocha Encaixante - Rocha que contém o minério disseminado ou em veios.",
     "heading": "Introdução",
-    "char_offset": 150679
+    "char_offset": 150751
   },
   {
     "id": "chunk-513",
     "text": "~~Roletes - Conjunto de rolos, geralmente cilíndricos, e seu suporte. Os rolos são capazes de efetuar~~\n~~livre rotação em torno de seu eixo, e são usados para suportar e/ou guiar a correia~~\n~~transportadora.~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 150943
+    "char_offset": 151015
   },
   {
     "id": "chunk-514",
     "text": "~~Rolos de cauda - Equipamentos instalados ao final dos transportadores contínuos para a mudança~~\n~~de direção do movimento do transportador contínuo.~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro_\n_de 2026)_\nSetor - É a unidade administrativa ou operacional compreendida no mesmo estabelecimento. A",
     "heading": "Introdução",
-    "char_offset": 151221
+    "char_offset": 151293
   },
   {
     "id": "chunk-515",
     "text": "exemplo de setor de manutenção mecânica, setor de manutenção elétrica, setor de ventilação e\nsetor de geologia.\nSilos de armazenamento e transferência - Local para armazenagem de concentrado de minério\nque irá abastecer a planta de tratamento. O silo também alimenta a usina em caso de eventual",
     "heading": "Introdução",
-    "char_offset": 151533
+    "char_offset": 151605
   },
   {
     "id": "chunk-516",
     "text": "parada no processo de britagem. Também podem ser utilizados para transferir o minério para\noutros equipamentos de armazenagem ou transporte.\nSubsidências superficiais - Refere-se ao movimento de uma superfície à medida que ela se desloca\npara baixo relativamente a um nível de referência. Afundamento abrupto ou gradativo da",
     "heading": "Introdução",
-    "char_offset": 151829
+    "char_offset": 151901
   },
   {
     "id": "chunk-517",
     "text": "superfície, com pouco ou nenhum movimento horizontal.\nTalude - Talude é qualquer superfície inclinada em relação a horizontal que delimita uma massa de\nsolo, rocha ou outro material qualquer (minério, escória, lixo etc.). Os taludes podem ser naturais",
     "heading": "Introdução",
-    "char_offset": 152155
+    "char_offset": 152227
   },
   {
     "id": "chunk-518",
     "text": "(encostas) ou construídos em forma de cortes e aterros.\nTambor: Elemento giratório, de forma cilíndrica, constituído de corpo e eixo, com a finalidade de\ndirecionar, tracionar e/ou tensiosar a correa transportadora. _(Inserido pela Portaria MTE nº 105, de 29 de_",
     "heading": "Introdução",
-    "char_offset": 152408
+    "char_offset": 152480
   },
   {
     "id": "chunk-519",
     "text": "_janeiro de 2026)_\nTapumes - Dispositivos utilizados para direcionar ou separar o fluxo da ventilação em mina\nsubterrânea. Em minas subterrâneas de carvão devem ser construídos de material incombustível.\nTeares - Equipamentos utilizados para o beneficiamento de rochas ornamentais transformando os",
     "heading": "Introdução",
-    "char_offset": 152674
+    "char_offset": 152746
   },
   {
     "id": "chunk-520",
     "text": "blocos, extraídos na fase de lavra, em produtos finais ou semiacabados. Compreende a preparação\ne serragem dos blocos em chapas de espessura variável.\nTrabalhador autorizado - Aquele que é formalmente autorizado pela organização mediante um\nprocesso administrativo.",
     "heading": "Introdução",
-    "char_offset": 152973
+    "char_offset": 153045
   },
   {
     "id": "chunk-521",
     "text": "Trabalhador sob maior risco - Trabalhador exposto a maiores concentrações de contaminantes\nambientais em função de sua proximidade com relação à fonte geradora, do tempo de exposição,\nda sua mobilidade, das diferenças operacionais e da movimentação do ar no ambiente de",
     "heading": "Introdução",
-    "char_offset": 153240
+    "char_offset": 153312
   },
   {
     "id": "chunk-522",
     "text": "trabalho.\nTransportadores contínuos - São equipamentos destinados ao transporte de graneis e volumes em\npercursos horizontais, verticais ou inclinados, fazendo curvas ou não e com posição de operação\nfixa. São formados por um leito onde o material desliza em um sistema de correias ou correntes",
     "heading": "Introdução",
-    "char_offset": 153512
+    "char_offset": 153584
   },
   {
     "id": "chunk-523",
     "text": "infinito, acionados por tambores ou polias.\nTravessões arrombados - Galerias transversais que fazem a ligação entre galerias sem\nnecessariamente ser alinhadas.\nVeículo adaptado - Veículo que sofreu adequações em suas características originais para alterar a",
     "heading": "Introdução",
-    "char_offset": 153810
+    "char_offset": 153882
   },
   {
     "id": "chunk-524",
     "text": "sua finalidade para o transporte de passageiros.\nVeículo normalizado - Veículo construído exclusivamente para o transporte de pessoas e suas\nbagagens.\nVentilação principal - Aquela em que ocorre ar de adução e que circula pelos principais acessos da",
     "heading": "Introdução",
-    "char_offset": 154070
+    "char_offset": 154142
   },
   {
     "id": "chunk-525",
     "text": "mina.\nVentilação secundária - Derivada da corrente principal de ventilação, utilizada para ventilar as\nfrentes de trabalho (lavra, serviços e áreas de desenvolvimento). Utiliza ventiladores, dutos e\nexaustores que transportam o ar por todos os painéis das frentes de trabalho, melhorando a",
     "heading": "Introdução",
-    "char_offset": 154322
+    "char_offset": 154394
   },
   {
     "id": "chunk-526",
     "text": "qualidade do ar e diluindo gases nocivos.\nVentiladores reforçadores - Também conhecidos como boosterfans. São ventiladores com\ncapacidade suficiente para impulsionar o ar numa área específica da mina, localizados em subsolo,\nsendo a energia restante suprida pelos ventiladores principais na superfície da mina.",
     "heading": "Introdução",
-    "char_offset": 154613
+    "char_offset": 154685
   },
   {
     "id": "chunk-527",
     "text": "**ANEXO I da NR-22**\n**Cabos de Aço, Correntes e Acessórios**\n**1. Objetivo**\n**1.1** Este Anexo tem por objetivo definir princípios fundamentais, medidas de proteção e requisitos\nmínimos para a prevenção de acidentes na utilização de cabos de aço, correntes e outros meios de",
     "heading": "Introdução",
-    "char_offset": 154928
+    "char_offset": 155000
   },
   {
     "id": "chunk-528",
     "text": "suspensão ou tração e seus acessórios, sem prejuízo da observância do disposto nas normas\ntécnicas nacionais vigentes ou nas normas técnicas internacionais aplicáveis.\n**2. Campo de aplicação**\n**2.1** As medidas previstas neste Anexo aplicam-se na utilização de cabos de aço, correntes e",
     "heading": "Introdução",
-    "char_offset": 155207
+    "char_offset": 155279
   },
   {
     "id": "chunk-529",
     "text": "acessórios em todas as atividades de trabalho previstas na NR-22.\n**3. Disposições gerais**\n**3.1** Os cabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios devem ser\nprojetados, especificados, instalados, utilizados e mantidos conforme as instruções dos fabricantes",
     "heading": "Introdução",
-    "char_offset": 155498
+    "char_offset": 155570
   },
   {
     "id": "chunk-530",
     "text": "e as normas técnicas nacionais vigentes ou as normas técnicas internacionais aplicáveis.\n**3.2** A organização deve manter à disposição da fiscalização as notas fiscais de aquisição dos cabos\nde aço, correntes e outros meios de suspensão ou tração e seus acessórios, com os respectivos",
     "heading": "Introdução",
-    "char_offset": 155792
+    "char_offset": 155864
   },
   {
     "id": "chunk-531",
     "text": "certificados de capacidade de carga.\n**3.3** A organização deve registrar, em meio físico ou eletrônico os seguintes dados relativos aos\ncabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios:\na) nome e endereço do fornecedor e fabricante;",
     "heading": "Introdução",
-    "char_offset": 156080
+    "char_offset": 156152
   },
   {
     "id": "chunk-532",
     "text": "b) composição, natureza e características mecânicas;\nc) capacidade de carga;\nd) tipo de ensaios e inspeções recomendadas pelo fabricante;\ne) resultados e datas das inspeções realizadas com identificação dos inspetores; e\nf) natureza e consequências de eventuais acidentes.",
     "heading": "Introdução",
-    "char_offset": 156350
+    "char_offset": 156422
   },
   {
     "id": "chunk-533",
     "text": "**3.3.1** A organização deve manter, sob responsabilidade de profissional legalmente habilitado, os\nregistros citados no item 3.3 deste Anexo no mínimo por dois anos.\n**3.4** Os cabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios devem ser",
     "heading": "Introdução",
-    "char_offset": 156625
+    "char_offset": 156697
   },
   {
     "id": "chunk-534",
     "text": "fixados conforme instruções do fabricante ou nas normas técnicas nacionais vigentes ou nas\nnormas técnicas internacionais aplicáveis.\n**3.5** Os cabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios devem ser\nsubstituídos quando apresentarem condições que comprometam a sua integridade.",
     "heading": "Introdução",
-    "char_offset": 156894
+    "char_offset": 156966
   },
   {
     "id": "chunk-535",
     "text": "**3.6** É vedada a utilização de cabo de fibras naturais ou sintéticas para as atividades de\nmovimentação e içamento de materiais por meio de máquinas e equipamentos de guindar, exceto\nquando utilizados como guia de posicionamento da carga.\n**3.7** Os cabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios utilizados",
     "heading": "Introdução",
-    "char_offset": 157209
+    "char_offset": 157281
   },
   {
     "id": "chunk-536",
     "text": "para içamento e movimentação de materiais devem atender os seguintes requisitos:\na) permitir a sua rastreabilidade por meio da identificação do fabricante, limites de carga, data e\nlocal de fabricação;\nb) ser adequados à natureza da carga a ser transportada, em conformidade com o seu peso, o seu",
     "heading": "Introdução",
-    "char_offset": 157554
+    "char_offset": 157626
   },
   {
     "id": "chunk-537",
     "text": "tipo e a sua geometria;\nc) ser preparados e amarrados por sinaleiro amarrador;\nd) ser inspecionados visualmente antes de sua utilização por sinaleiro amarrador;\ne) ser descartados imediatamente quando encontrados defeitos decorrentes da inspeção prévia;",
     "heading": "Introdução",
-    "char_offset": 157854
+    "char_offset": 157926
   },
   {
     "id": "chunk-538",
     "text": "f) ser armazenados de modo a evitar danos que comprometam sua resistência;\ng) no poço, possuir coeficiente de segurança de, no mínimo, igual a oito em relação à carga\nestática máxima;\nh) em outros aparelhos dos sistemas de transportes, cuja ruptura possa ocasionar acidentes",
     "heading": "Introdução",
-    "char_offset": 158111
+    "char_offset": 158183
   },
   {
     "id": "chunk-539",
     "text": "pessoais, possuir coeficiente de segurança de, no mínimo, igual a seis em relação à carga estática\nmáxima; e\ni) para suspensão ou conjugação de veículos possuir no mínimo resistência de dez vezes a carga\nmáxima.\n**3.7.1** O resultado da inspeção visual deve ser registrado em lista de verificação.",
     "heading": "Introdução",
-    "char_offset": 158389
+    "char_offset": 158461
   },
   {
     "id": "chunk-540",
     "text": "**3.7.1.1** A lista de verificação deve ser elaborada por profissional legalmente habilitado.\n**3.7.2** Nova inspeção visual deve ser realizada sempre que houver a inclusão ou substituição de\ncabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios.",
     "heading": "Introdução",
-    "char_offset": 158689
+    "char_offset": 158761
   },
   {
     "id": "chunk-541",
     "text": "**3.8 3.8** Quando danificados ou reprovados nas inspeções, inclusive nas visuais, os cabos de aço,\ncorrentes e outros meios de suspensão ou tração e seus acessórios devem ser armazenados em\nrecipientes adequados até a sua inutilização e o descarte definitivo.",
     "heading": "Introdução",
-    "char_offset": 158963
+    "char_offset": 159035
   },
   {
     "id": "chunk-542",
     "text": "**3.9** O sinaleiro amarrador de cargas é o profissional capacitado responsável pelas atividades de\namarração e orientação de movimentação das cargas a serem içadas.\n**3.10** Os cabos de aço, correntes e outros meios de suspensão ou tração e seus acessórios devem",
     "heading": "Introdução",
-    "char_offset": 159226
+    "char_offset": 159298
   },
   {
     "id": "chunk-543",
     "text": "possuir indicação visível e indelével da sua capacidade e do prazo de validade.\n**3.11** Os ganchos de içar devem dispor de travas de segurança sem defeitos e em condições de\nmanterem presas as cargas ou os acessórios utilizados nos içamentos.\n**3.12** No içamento e movimentação de cargas onde haja contato de cabos de aço, correntes e",
     "heading": "Introdução",
-    "char_offset": 159492
+    "char_offset": 159564
   },
   {
     "id": "chunk-544",
     "text": "outros meios de suspensão ou tração e seus acessórios com quinas ou arestas vivas deve ser\nutilizado dispositivo quebra quina.\n**3.13** Na movimentação de materiais com o uso de ventosas, devem ser observados os seguintes\nrequisitos mínimos:\na) a válvula direcional das ventosas deve ter acesso e localização facilitados ao operador,",
     "heading": "Introdução",
-    "char_offset": 159831
+    "char_offset": 159903
   },
   {
     "id": "chunk-545",
     "text": "respeitando-se a postura e a segurança do operador;\nb) as ventosas devem ser dotadas de dispositivo auxiliar que garanta a contenção da mangueira,\nevitando seu ricocheteamento em caso de desprendimento acidental;\nc) as mangueiras devem estar protegidas, firmemente presas aos tubos de saída e de entrada e",
     "heading": "Introdução",
-    "char_offset": 160167
+    "char_offset": 160239
   },
   {
     "id": "chunk-546",
     "text": "afastadas das vias de circulação;\nd) as borrachas das ventosas devem ter manutenção periódica e imediata substituição em caso de\ndesgaste, defeitos ou descolamento; e\ne) procedimentos de segurança a serem adotados para garantir a movimentação segura em caso",
     "heading": "Introdução",
-    "char_offset": 160475
+    "char_offset": 160547
   },
   {
     "id": "chunk-547",
     "text": "de falta de energia elétrica.\n**3.14** O sistema gerador de vácuo deve:\na) ser dotado de válvula de bloqueio que mantenha o nível de vácuo para que a carga não se\ndesprenda das ventosas em caso de falha do sistema; e\nb) possuir alarme sonoro e visual que indique pressão fora dos limites de segurança estabelecidos.",
     "heading": "Introdução",
-    "char_offset": 160736
+    "char_offset": 160808
   },
   {
     "id": "chunk-548",
     "text": "**3.15** Na utilização de eletroímãs para o içamento e movimentação de materiais deve ser garantida\nque a falta de energia elétrica não provoque o desprendimento da carga.\n**ANEXO II da NR-22**\n**Capacitação e Treinamento**\n**1. Objetivo e campo de aplicação**",
     "heading": "Introdução",
-    "char_offset": 161056
+    "char_offset": 161128
   },
   {
     "id": "chunk-549",
     "text": "**1.1** O objetivo deste Anexo é estabelecer os requisitos mínimos para capacitação e treinamento\nrelacionados às atividades do campo de aplicação da NR-22.\n**2. Disposições gerais**\n**2.1** A organização deve proporcionar aos trabalhadores capacitações, incluindo treinamentos e",
     "heading": "Introdução",
-    "char_offset": 161320
+    "char_offset": 161392
   },
   {
     "id": "chunk-550",
     "text": "orientações em serviço, necessários para preservação da sua segurança e saúde durante a\nexecução de suas atividades de trabalho, levando-se em consideração os níveis de risco e natureza\ndas operações, em conformidade ao previsto na NR-22 e na NR-1.\n**2.1.1** O treinamento inicial para os trabalhadores que desenvolverão atividades no setor de",
     "heading": "Introdução",
-    "char_offset": 161601
+    "char_offset": 161673
   },
   {
     "id": "chunk-551",
     "text": "mineração, que tiverem mudança de função ou daqueles transferidos da superfície para o subsolo\nou vice-versa consistirá dos seguintes tipos:\na) treinamento introdutório geral; e\nb) treinamento específico na função.\n**2.1.1.1** O treinamento inicial deve ocorrer antes de o trabalhador iniciar suas atividades.",
     "heading": "Introdução",
-    "char_offset": 161949
+    "char_offset": 162021
   },
   {
     "id": "chunk-552",
     "text": "**2.2** O treinamento introdutório geral deve:\na) para as atividades de subsolo: ter duração mínima de 24 (vinte e quatro) horas; e\nb) para mineração a céu aberto: ter duração mínima de 16 (dezesseis) horas, exceto para\nminerações de rochas ornamentais, de extração de areia e argila e extração e britagem de rochas,",
     "heading": "Introdução",
-    "char_offset": 162262
+    "char_offset": 162334
   },
   {
     "id": "chunk-553",
     "text": "que deverá ter duração de 12 (doze) horas.\n**2.2.1** O treinamento introdutório geral deve ter o seguinte currículo mínimo:\na) apresentação geral dos processos produtivos, enfatizando a aplicação da NR-22;\nb) regras de circulação de equipamentos e pessoas, enfatizando a aplicação do plano de trânsito;",
     "heading": "Introdução",
-    "char_offset": 162582
+    "char_offset": 162654
   },
   {
     "id": "chunk-554",
     "text": "c) procedimentos de emergência, enfatizando a aplicação do PAE;\nd) diretrizes de saúde e segurança da organização;\ne) perigos, riscos ocupacionais e medidas de prevenção constantes do PGR; e\nf) reconhecimento presencial do ambiente do trabalho.\n**2.2.2** Os trabalhadores das organizações de prestação de serviço devem ser acompanhados na",
     "heading": "Introdução",
-    "char_offset": 162890
+    "char_offset": 162962
   },
   {
     "id": "chunk-555",
     "text": "atividade exercida, de forma permanente, por trabalhador capacitado pela contratante, após\nrealização de análise preliminar de riscos das atividades a serem executadas, durante todo o\nperíodo da prestação de serviço ou ser submetido à capacitação prevista no item 2.2 deste Anexo.",
     "heading": "Introdução",
-    "char_offset": 163229
+    "char_offset": 163301
   },
   {
     "id": "chunk-556",
     "text": "**2.2.3** Os trabalhadores de uma organização de prestação de serviço que forem contratados por\noutra no mesmo local de trabalho e no mesmo processo produtivo pode ter seu o treinamento\nintrodutório geral aproveitado na organização substituta, nos termos do item 1.7.7 da NR-1.",
     "heading": "Introdução",
-    "char_offset": 163511
+    "char_offset": 163583
   },
   {
     "id": "chunk-557",
     "text": "**2.2.4** As capacitações devem ser realizadas durante a jornada de trabalho.\n**2.3** O treinamento específico na função consiste em etapas teóricas e práticas relacionadas às\natividades a serem desenvolvidas, seus perigos, seus riscos ocupacionais, suas medidas de",
     "heading": "Introdução",
-    "char_offset": 163791
+    "char_offset": 163863
   },
   {
     "id": "chunk-558",
     "text": "prevenção e procedimentos de trabalho, podendo utilizar-se de simuladores.\n**2.3.1** O treinamento específico deve ter:\na) para as atividades de superfície: duração mínima de 40 (quarenta) horas; e\nb) para as atividades de subsolo: duração mínima de 48 (quarenta e oito) horas.",
     "heading": "Introdução",
-    "char_offset": 164060
+    "char_offset": 164132
   },
   {
     "id": "chunk-559",
     "text": "**2.3.2** A etapa prática deve ser acompanhada por um trabalhador capacitado e autorizado pela\norganização.\n**2.3.3** A organização deve proporcionar treinamento específico na função aos trabalhadores que\nexecutem as seguintes atividades:\na) abatimento de chocos e blocos instáveis;",
     "heading": "Introdução",
-    "char_offset": 164341
+    "char_offset": 164413
   },
   {
     "id": "chunk-560",
     "text": "b) tratamento de maciços;\nc) pesquisa mineral;\nd) topografia;\ne) perfuração e corte;\nf) carregamento, manuseio de explosivos e acessórios e desmonte de rochas;\ng) retirada, movimentação, carregamento e transporte de materiais;\nh) operação de máquinas e equipamentos;",
     "heading": "Introdução",
-    "char_offset": 164631
+    "char_offset": 164703
   },
   {
     "id": "chunk-561",
     "text": "i) transporte por arraste;\nj) manutenção de veículos, máquinas, equipamentos e instalações industriais;\nk) armazenamento e expedição de materiais;\nl) manipulação e manuseio de produtos tóxicos ou perigosos;\nm) operações com guinchos e equipamentos de içamento;",
     "heading": "Introdução",
-    "char_offset": 164903
+    "char_offset": 164975
   },
   {
     "id": "chunk-562",
     "text": "n) inspeções gerais das frentes de trabalho; e\no) outras atividades ou operações de risco especificadas no PGR.\n**2.3.3.1** A organização deve proporcionar treinamento periódico para as atividades relacionadas\nnas alíneas do subitem 2.3.3 deste Anexo a cada 2 (dois) anos com carga horária mínima de 8",
     "heading": "Introdução",
-    "char_offset": 165167
+    "char_offset": 165239
   },
   {
     "id": "chunk-563",
     "text": "(oito) horas e conteúdo definido pela organização.\n**2.3.3.2** O treinamento específico na função para operador de máquinas e equipamentos\nestacionários e autopropelidos devem atender ao programa de treinamento nos termos do Anexo\nII da NR-12, com etapas teórica e prática, sendo a etapa prática com carga horária de no mínimo",
     "heading": "Introdução",
-    "char_offset": 165470
+    "char_offset": 165542
   },
   {
     "id": "chunk-564",
     "text": "50% (cinquenta por cento) da carga horária total de treinamento.\n**2.3.3.2.1** A etapa prática deve ser supervisionada e documentada, podendo ser realizada na\nprópria máquina ou equipamento que será operado.\n**2.3.3.3** Os operadores de máquinas e equipamentos autopropelidos devem possuir habilitação",
     "heading": "Introdução",
-    "char_offset": 165799
+    "char_offset": 165871
   },
   {
     "id": "chunk-565",
     "text": "para suas operações, em conformidade com as categorias especificadas no código de trânsito\nbrasileiro.\n**2.4** O treinamento inicial deve:\na) ser realizado sem ônus para o trabalhador; e\nb) ser ministrado por trabalhadores ou profissionais qualificados para este fim, com supervisão de",
     "heading": "Introdução",
-    "char_offset": 166105
+    "char_offset": 166177
   },
   {
     "id": "chunk-566",
     "text": "responsável técnico que se responsabilizará pela adequação do conteúdo, forma, carga horária,\nqualificação dos instrutores e avaliação dos capacitados.\n**2.4.1** O responsável técnico pelo treinamento deve ser um profissional legalmente habilitado.\n**2.5** A orientação em serviço consiste no período com a duração mínima de 45 (quarenta e cinco)",
     "heading": "Introdução",
-    "char_offset": 166393
+    "char_offset": 166465
   },
   {
     "id": "chunk-567",
     "text": "dias efetivamente trabalhados, no qual os trabalhadores que exercem as atividades elencadas no\nsubitem 2.3.3 deste anexo desenvolverão suas funções sob orientação direta de trabalhador\ncapacitado indicado pela organização, no mesmo turno de trabalho.",
     "heading": "Introdução",
-    "char_offset": 166741
+    "char_offset": 166813
   },
   {
     "id": "chunk-568",
     "text": "**2.5.1** A orientação em serviço para minerações de rochas ornamentais, de extração de areia e\nargila e extração e britagem de rochas, consiste no período no qual o trabalhador desenvolverá\nsuas atividades sob orientação direta de trabalhador capacitado indicado pela organização, no",
     "heading": "Introdução",
-    "char_offset": 166993
+    "char_offset": 167065
   },
   {
     "id": "chunk-569",
     "text": "mesmo turno de trabalho, com a duração mínima de 20 (vinte) dias efetivamente trabalhados.\n**2.5.2** A orientação em serviço deve ser registrada pela organização, semanalmente, especificando\nas datas de sua realização e identificação do orientador.\n**2.6** A organização deve proporcionar treinamento eventual para os trabalhadores conforme",
     "heading": "Introdução",
-    "char_offset": 167280
+    "char_offset": 167352
   },
   {
     "id": "chunk-570",
     "text": "definido na NR-1.\n**2.7** O material didático escrito ou audiovisual utilizado nas capacitações, fornecido aos\nparticipantes, deve utilizar linguagem adequada aos trabalhadores.\n**ANEXO III da NR-22**\n**Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa**",
     "heading": "Introdução",
-    "char_offset": 167625
+    "char_offset": 167697
   },
   {
     "id": "chunk-571",
     "text": "**1. Objetivo**\n**1.1** O objetivo deste Anexo é estabelecer os requisitos mínimos para utilização de equipamentos\nde guindar de lança fixa, aplicando-se, no que couber, aos de lança giratória quando utilizadas nas\natividades discriminadas no campo de aplicação da NR-22.",
     "heading": "Introdução",
-    "char_offset": 167908
+    "char_offset": 167980
   },
   {
     "id": "chunk-572",
     "text": "**2. Campo de aplicação**\n**2.1** Este Anexo se aplica às atividades discriminadas no campo de aplicação da NR-22.\n**3. Projeto**\n**3.1** O projeto dos equipamentos deve ser elaborado por profissional legalmente habilitado, com a\nrespectiva emissão de Anotação de Responsabilidade Técnica - ART.",
     "heading": "Introdução",
-    "char_offset": 168184
+    "char_offset": 168256
   },
   {
     "id": "chunk-573",
     "text": "**3.2** O projeto dos equipamentos deve ser constituído de desenhos técnicos, memória de cálculo\ndos seus dispositivos, certificado ou laudo técnico da resistência estrutural dos dispositivos e\nmemorial descritivo dos materiais a serem utilizados.\n**4. Material da lança**",
     "heading": "Introdução",
-    "char_offset": 168483
+    "char_offset": 168555
   },
   {
     "id": "chunk-574",
     "text": "**4.1** O material da lança pode ser de madeira tratada, aço ou outro material estrutural e\ndimensionado para os esforços atuantes, conforme as normas técnicas nacionais vigentes ou as\nnormas técnicas internacionais aplicáveis.\n**5. Bases da Lança e dos Estaios**",
     "heading": "Introdução",
-    "char_offset": 168758
+    "char_offset": 168830
   },
   {
     "id": "chunk-575",
     "text": "**5.1** As bases da lança e dos estaios devem ser rígidas e garantir a estabilidade do equipamento e\nserem projetadas e executadas de forma compatível com a carga máxima e a resistência do solo\ndo local.\n**5.2** Os blocos devem ter um afloramento mínimo de 10 cm, de forma que a cava de assento da",
     "heading": "Introdução",
-    "char_offset": 169025
+    "char_offset": 169097
   },
   {
     "id": "chunk-576",
     "text": "lança ou dos chumbadores não tenham contato com terra ou umidade.\n**6. Fixação da lança**\n**6.1** A extremidade inferior da lança deve ser fixada à base por meio de elementos mecânicos que\ngarantam a estabilidade do equipamento.\n**6.2** No caso de uso de bloco de rocha consistente ou de concreto como base da lança, deve-se",
     "heading": "Introdução",
-    "char_offset": 169326
+    "char_offset": 169398
   },
   {
     "id": "chunk-577",
     "text": "fazer um entalhe no bloco para sua fixação.\n**6.3** A extremidade inferior da lança deve ficar completamente apoiada no entalhe evitando-se\nesforços desiguais na seção de apoio.\n**7. Reforço metálico**\n**7.1** No caso de utilização de lança de madeira, deve ser utilizada em sua extremidade superior,",
     "heading": "Introdução",
-    "char_offset": 169654
+    "char_offset": 169726
   },
   {
     "id": "chunk-578",
     "text": "dispositivo de reforço metálico, a exemplo do constante no croqui da imagem 1 deste anexo,\ndimensionado com alças para fixação dos estaios, do moitão superior ou qualquer outro\ndispositivo de elevação.\nmagem 1 - Croqui - reforço metálico em lança de madeira",
     "heading": "Introdução",
-    "char_offset": 169956
+    "char_offset": 170028
   },
   {
     "id": "chunk-579",
     "text": "**8. Fixação dos estaios nas bases**\n**8.1** Para fixação dos estaios nas bases devem ser usados chumbadores dimensionados de acordo\ncom as normas técnicas nacionais vigentes ou com as normas técnicas internacionais aplicáveis,\ncravados em rocha ou em base de concreto, para amarração dos laços dos cabos de aço.",
     "heading": "Introdução",
-    "char_offset": 170216
+    "char_offset": 170288
   },
   {
     "id": "chunk-580",
     "text": "**9. Dimensionamento dos cabos de aço e confecção dos laços**\n**9.1** Os cabos de aço devem ser dimensionados e os laços confeccionados de acordo com as\nnormas técnicas nacionais vigentes ou com as normas técnicas internacionais aplicáveis.\n**10. Acesso ao topo da lança**",
     "heading": "Introdução",
-    "char_offset": 170532
+    "char_offset": 170604
   },
   {
     "id": "chunk-581",
     "text": "**10.1** O acesso ao topo da lança deve ser proporcionado por meio seguro.\n**10.2** No caso de utilização de escada devem ser obedecidos os requisitos do capítulo 22.10 desta\nNR.\n**11. Aquisição de cabos de aço**\n**11.1** Os cabos de aço novos adquiridos devem ser certificados para a carga máxima de utilização",
     "heading": "Introdução",
-    "char_offset": 170810
+    "char_offset": 170882
   },
   {
     "id": "chunk-582",
     "text": "prevista, conforme as normas técnicas nacionais vigentes ou as normas técnicas internacionais\naplicáveis.\n**11.2** É vedado o reaproveitamento de cabos de aço usados.\n**12. Lubrificação dos cabos de aço**\n**12.1** Os cabos de aço devem ser lubrificados com produto específico, de acordo com as",
     "heading": "Introdução",
-    "char_offset": 171125
+    "char_offset": 171197
   },
   {
     "id": "chunk-583",
     "text": "necessidades operacionais, conforme especificações do profissional legalmente habilitado e\ninstruções do fabricante.\n**13. Travamento de eixos e pinos**\n**13.1** Eixos e pinos usados na fixação de cabos de aço, moitões, polias e da carga de içamento",
     "heading": "Introdução",
-    "char_offset": 171421
+    "char_offset": 171493
   },
   {
     "id": "chunk-584",
     "text": "devem ser fixados por elementos travantes especificados no projeto do equipamento.\n**14. Fixação da roda de manobra ao pé da lança (“catarina”)**\n**14.1** A fixação da roda de manobra ao pé da lança (“catarina”) deve ser realizada por meio de\nelementos mecânicos projetados e dimensionados para garantir a segurança das operações.",
     "heading": "Introdução",
-    "char_offset": 171673
+    "char_offset": 171745
   },
   {
     "id": "chunk-585",
     "text": "**15. Inspeções nos cabos de aço**\n**15.1** Devem ser realizadas inspeções periódicas nos cabos de aço, por profissional capacitado, em\nintervalos definidos nas normas técnicas nacionais vigentes ou nas normas técnicas internacionais\naplicáveis.\n**16. Indicação da capacidade de carga**",
     "heading": "Introdução",
-    "char_offset": 172007
+    "char_offset": 172079
   },
   {
     "id": "chunk-586",
     "text": "**16.1** Na lança deve ser instalada, em local de fácil visualização, placa com indicação de sua\ncapacidade máxima e do responsável técnico com respectivo registro no Conselho Regional de\nEngenharia e Agronomia - CREA.\n**17. Registros**\n**17.1** Os registros das intervenções realizadas no equipamento devem ser consignados em meio",
     "heading": "Introdução",
-    "char_offset": 172297
+    "char_offset": 172369
   },
   {
     "id": "chunk-587",
     "text": "físico ou eletrônico, tais como: laudos técnicos, inspeções periódicas, manutenções preventivas e\ncorretivas, trocas de cabos de aço, nota fiscal de aquisição dos cabos de aço e cópia do respectivo\ncertificado, lubrificação dos cabos, troca de peças, acidentes ocorridos e outros dados pertinentes",
     "heading": "Introdução",
-    "char_offset": 172629
+    "char_offset": 172701
   },
   {
     "id": "chunk-588",
     "text": "ao equipamento.\n**17.2** Nos registros de manutenção devem estar indicados os nomes dos executores.\n**18. Operação de arraste**\n**18.1** O equipamento de guindar não pode ser utilizado em operações de arraste de blocos.\n**19. Montagem e realocação**",
     "heading": "Introdução",
-    "char_offset": 172931
+    "char_offset": 173003
   },
   {
     "id": "chunk-589",
     "text": "**19.1** A montagem e a realocação do equipamento de guindar devem ser supervisionadas e\natestadas por profissional legalmente habilitado, com a respectiva emissão de ART.\n**ANEXO IV da NR-22**\n**Quadros**\n**Quadro I - Determinação da Vazão** **de Ar Fresco**",
     "heading": "Introdução",
-    "char_offset": 173185
+    "char_offset": 173257
   },
   {
     "id": "chunk-590",
-    "text": "**Quadro II - Dimensionamento da CIPAMIN**\n|Nº de<br>empregados no<br>estabelecimento|15<br>a<br>30|31<br>a<br>50|51 a<br>100|101<br>a<br>250|251<br>a<br>500|501 a<br>1.000|1.001<br>a<br>2.500|2.501<br>a<br>5.000|Acima de 5.000 para<br>cada grupo de 500<br>acrescentar|",
+    "text": "**Quadro II - Dimensionamento da CIPAMIN**\n| Nº de\nempregados no\nestabelecimento | 15\na\n30 | 31\na\n50 | 51 a\n100 | 101\na\n250 | 251\na\n500 | 501 a\n1.000 | 1.001\na\n2.500 | 2.501\na\n5.000 | Acima de 5.000 para\ncada grupo de 500\nacrescentar |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 173447
+    "char_offset": 173519
   },
   {
     "id": "chunk-591",
-    "text": "|---|---|---|---|---|---|---|---|---|---|\n|Nº de<br>representantes<br>titulares do<br>empregador|1|1|1|1|1|1|1|1|-|\n|Nº de<br>representantes<br>suplentes do<br>empregador|1|1|1|1|1|1|1|1|-|\n|---|---|---|---|---|---|---|---|---|---|\n|Nº de<br>representantes<br>titulares dos<br>empregados|1|2|3|4|5|6|9|12|4|",
+    "text": "| Nº de\nrepresentantes\ntitulares do\nempregador | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | - |\n~~**QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do**~~\n~~**Grupo de Exposição Similar**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 173718
+    "char_offset": 173818
   },
   {
     "id": "chunk-592",
-    "text": "|Nº de<br>representantes<br>suplentes dos<br>empregados|1|1|1|1|2|2|3|4|2|\n~~**QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do**~~\n~~**Grupo de Exposição Similar**~~ _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
+    "text": "~~Onde:~~\n~~N = número de trabalhadores do Grupo de Exposição Similar~~\n~~n = número de trabalhadores a serem amostrados~~\n~~* se N menor ou igual a 7, n = N~~\n**ANEXO V da NR-22**\n**Exposição a Poeiras Minerais**\n_(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 174027
+    "char_offset": 174112
   },
   {
     "id": "chunk-593",
-    "text": "|N*|n|\n|---|---|\n|~~8 ~~|~~7~~|\n|~~9 ~~|~~8~~|\n|~~10~~|~~9~~|\n|~~11-12~~|~~10~~|\n|~~13-14~~|~~11~~|\n|~~15-17~~|~~12~~|\n|~~18-20~~|~~13~~|\n|~~21-24~~|~~14~~|\n|~~25-29~~|~~15~~|\n|~~30-37~~|~~16~~|\n|~~38-49~~|~~17~~|\n|~~50~~|~~18~~|\n|~~ACIMA DE 50~~|~~22~~|",
+    "text": "**SUMÁRIO**\n1. Objetivo\n2. Campo de aplicação\n3. Caracterização da exposição\n4. Avaliação das exposições ocupacionais a poeiras minerais\n5. Medidas de prevenção\n6. Vigilância da saúde\n7. Documentação\n8. Avaliação de poeiras de asbesto em ambientes de extração mineral",
     "heading": "Introdução",
-    "char_offset": 174306
+    "char_offset": 174392
   },
   {
     "id": "chunk-594",
-    "text": "~~Onde:~~\n~~N = número de trabalhadores do Grupo de Exposição Similar~~\n~~n = número de trabalhadores a serem amostrados~~\n~~* se N menor ou igual a 7, n = N~~\n**ANEXO V da NR-22**\n**Exposição a Poeiras Minerais**\n_(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
+    "text": "Glossário\n| Nº de\nrepresentantes\nsuplentes do\nempregador | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | - |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Nº de\nrepresentantes\ntitulares dos\nempregados | 1 | 2 | 3 | 4 | 5 | 6 | 9 | 12 | 4 |\n| Nº de",
     "heading": "Introdução",
-    "char_offset": 174567
+    "char_offset": 174662
   },
   {
     "id": "chunk-595",
-    "text": "**SUMÁRIO**\n1. Objetivo\n2. Campo de aplicação\n3. Caracterização da exposição\n4. Avaliação das exposições ocupacionais a poeiras minerais\n5. Medidas de prevenção\n6. Vigilância da saúde\n7. Documentação\n8. Avaliação de poeiras de asbesto em ambientes de extração mineral",
+    "text": "representantes\nsuplentes dos\nempregados | 1 | 1 | 1 | 1 | 2 | 2 | 3 | 4 | 2 |\n| N* | n |\n| --- | --- |\n| 8 | 7 |\n| 9 | 8 |\n| 10 | 9 |\n| 11-12 | 10 |\n| 13-14 | 11 |\n| 15-17 | 12 |\n| 18-20 | 13 |\n| 21-24 | 14 |\n| 25-29 | 15 |\n| 30-37 | 16 |\n| 38-49 | 17 |",
     "heading": "Introdução",
-    "char_offset": 174847
+    "char_offset": 174915
   },
   {
     "id": "chunk-596",
-    "text": "Glossário\n**1. Objetivo**\n**1.1** Estabelecer diretrizes e procedimentos para avaliar as exposições ocupacionais a poeiras\nminerais suspensas nos ambientes de trabalho e subsidiar as medidas de prevenção.\n**2. Campo de aplicação**\n**2.1** Este anexo aplica-se aos locais de trabalho em que haja ou possa haver exposição ocupacional",
+    "text": "| 50 | 18 |\n| ACIMA DE 50 | 22 |\n**1. Objetivo**\n**1.1** Estabelecer diretrizes e procedimentos para avaliar as exposições ocupacionais a poeiras\nminerais suspensas nos ambientes de trabalho e subsidiar as medidas de prevenção.\n**2. Campo de aplicação**",
     "heading": "Introdução",
-    "char_offset": 175120
+    "char_offset": 175172
   },
   {
     "id": "chunk-597",
-    "text": "a poeiras minerais nas atividades econômicas abrangidas pelo tópico “Campo de Aplicação” da\nNR-22.\n**3. Caracterização da exposição**\n**3.1** A organização deve identificar as exposições ocupacionais a poeiras minerais no local de\ntrabalho, devendo contemplar, no mínimo:",
+    "text": "**2.1** Este anexo aplica-se aos locais de trabalho em que haja ou possa haver exposição ocupacional\na poeiras minerais nas atividades econômicas abrangidas pelo tópico “Campo de Aplicação” da\nNR-22.\n**3. Caracterização da exposição**\n**3.1** A organização deve identificar as exposições ocupacionais a poeiras minerais no local de",
     "heading": "Introdução",
-    "char_offset": 175455
+    "char_offset": 175430
   },
   {
     "id": "chunk-598",
-    "text": "a) descrição dos processos, locais de trabalho e das condições de exposição;\nb) a composição mineralógica básica dos principais materiais que possam dar origem a poeiras\nsuspensas no ar;\nc) caracterização das poeiras suspensas nos locais de trabalho a que os trabalhadores possam",
+    "text": "trabalho, devendo contemplar, no mínimo:\na) descrição dos processos, locais de trabalho e das condições de exposição;\nb) a composição mineralógica básica dos principais materiais que possam dar origem a poeiras\nsuspensas no ar;\nc) caracterização das poeiras suspensas nos locais de trabalho a que os trabalhadores possam",
     "heading": "Introdução",
-    "char_offset": 175731
+    "char_offset": 175766
   },
   {
     "id": "chunk-599",
     "text": "estar expostos e respectivos limites de exposição ocupacional, se houver;\nd) possíveis agravos à saúde relacionados à exposição às poeiras nos locais de trabalho;\ne) fontes geradoras das poeiras e outros fatores determinantes da exposição ocupacional;",
     "heading": "Introdução",
-    "char_offset": 176013
+    "char_offset": 176089
   },
   {
     "id": "chunk-600",
     "text": "f) medidas de prevenção existentes;\ng) identificação dos grupos de exposição similar;\nh) dados existentes na organização indicativos de agravos à saúde dos trabalhadores relacionados\nàs exposições identificadas; e\ni) dados de avaliações anteriores das exposições a poeiras minerais nos ambientes de trabalho da",
     "heading": "Introdução",
-    "char_offset": 176269
+    "char_offset": 176345
   },
   {
     "id": "chunk-601",
     "text": "organização.\n**3.2** A partir da caracterização da exposição, a organização deve definir as situações que:\na) exijam adoção de medidas de prevenção; ou\nb) necessitem de avaliação quantitativa das exposições.\n**4. Avaliação das exposições ocupacionais a poeiras minerais**",
     "heading": "Introdução",
-    "char_offset": 176584
+    "char_offset": 176660
   },
   {
     "id": "chunk-602",
     "text": "**4.1** A organização deve realizar avaliação para determinação do perfil de exposição por meio de\nmedição na zona respiratória do trabalhador, em grupos de exposição similar, que podem ser\nconstituídos por um ou mais trabalhadores.\n**4.2** A organização, para avaliar a exposição ocupacional a poeiras minerais, deve realizar medições",
     "heading": "Introdução",
-    "char_offset": 176858
+    "char_offset": 176934
   },
   {
     "id": "chunk-603",
     "text": "representativas das jornadas utilizando:\na) 3 (três) a 5 (cinco) medições; ou\nb) 6 (seis) ou mais medições.\n**4.2.1** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 3 (três)\na 5 (cinco) medições, utilizar como perfil de exposição a média aritmética simples dos valores",
     "heading": "Introdução",
-    "char_offset": 177197
+    "char_offset": 177273
   },
   {
     "id": "chunk-604",
     "text": "obtidos.\n**4.2.1.1** Caso a média aritmética simples tenha valor maior que 10% e menores que 50% do Limite\nde Exposição Ocupacional (LEO), devem ser incluídas no plano de ação do Programa de\nGerenciamento de Riscos (PGR) medidas de prevenção de forma a minimizar a probabilidade de",
     "heading": "Introdução",
-    "char_offset": 177505
+    "char_offset": 177581
   },
   {
     "id": "chunk-605",
     "text": "que o perfil de exposição ultrapasse o LEO, se necessário.\n**4.2.1.2** Caso a média aritmética simples tenha valor maior que 50% e igual ou menor que 100% do\nLEO ou alguma das medições esteja acima do LEO, a organização deve:\na) incluir no plano de ação do PGR medidas de prevenção de forma a minimizar a probabilidade de",
     "heading": "Introdução",
-    "char_offset": 177789
+    "char_offset": 177865
   },
   {
     "id": "chunk-606",
     "text": "que o perfil de exposição ultrapasse o LEO, se necessário; ou\nb) realizar mais medições, totalizando, no mínimo, 6 (seis) medições.\n**4.2.2** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 6 (seis)\nou mais medições, efetuar tratamento estatístico dos resultados e utilizar como perfil de",
     "heading": "Introdução",
-    "char_offset": 178113
+    "char_offset": 178189
   },
   {
     "id": "chunk-607",
     "text": "exposição o limite superior da média aritmética estimada para uma distribuição lognormal com\nconfiança estatística de 95% (LSC 1,95%).\n**4.2.2.1** A organização deve adotar as seguintes condutas, conforme o valor do perfil de exposição\ncalculado a partir de 6 (seis) ou mais medições:",
     "heading": "Introdução",
-    "char_offset": 178439
+    "char_offset": 178515
   },
   {
     "id": "chunk-608",
     "text": "a) para valores menores que 10% do LEO devem ser mantidas as condições de trabalho;\nb) para valores iguais ou maiores que 10% do LEO e menores ou iguais a 100% do LEO, a\norganização deve adotar medidas de prevenção, caso inexistentes, ou aprimorar as medidas",
     "heading": "Introdução",
-    "char_offset": 178726
+    "char_offset": 178802
   },
   {
     "id": "chunk-609",
     "text": "existentes, de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO.\nc) para valores maiores do que 100% do LEO:\nI. manter atividades no setor ou estabelecimento somente com a utilização de equipamento de\nproteção respiratória com fator de proteção correspondente ao perfil da exposição, até o retorno",
     "heading": "Introdução",
-    "char_offset": 178987
+    "char_offset": 179063
   },
   {
     "id": "chunk-610",
     "text": "a níveis abaixo do LEO;\nII. adotar medidas de prevenção para reduzir a exposição a valores abaixo do LEO;\nIII. informar ao médico responsável pelo PCMSO sobre os setores e trabalhadores envolvidos; e\nIV. informar aos trabalhadores envolvidos sobre a situação no ambiente de trabalho, as medidas",
     "heading": "Introdução",
-    "char_offset": 179319
+    "char_offset": 179395
   },
   {
     "id": "chunk-611",
     "text": "de prevenção tomadas e as precauções adicionais necessárias.\n**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas**\n**diárias.**\n**4.3.1** Os LEO, para duração de trabalho superior a 40 (quarenta) horas semanais ou 8 (oito) horas",
     "heading": "Introdução",
-    "char_offset": 179617
+    "char_offset": 179693
   },
   {
     "id": "chunk-612",
     "text": "diárias, devem ser corrigidos.\n**4.3.1.1** A correção dos LEO deve ser feita multiplicando-se o valor do LEO pelos Fatores de\nRedução Diário e/ou Semanal.\n**4.3.1.1.1** O fator de redução diário - FRD será calculado pela fórmula: FRD = 8 / horas trabalhadas",
     "heading": "Introdução",
-    "char_offset": 179888
+    "char_offset": 179964
   },
   {
     "id": "chunk-613",
     "text": "na jornada.\n**4.3.1.1.2** O fator de redução semanal - FRS será calculado pela fórmula: FRS = 40 / horas\ntrabalhadas na semana.\n**4.3.2** Quando forem aplicáveis valores de reajuste diário e reajuste semanal do LEO, a organização\ndeverá utilizar o fator de reajuste mais rigoroso para aquele agente.",
     "heading": "Introdução",
-    "char_offset": 180150
+    "char_offset": 180226
   },
   {
     "id": "chunk-614",
     "text": "**4.4 Acompanhamento das medidas de prevenção.**\n**4.4.1** A organização deve efetuar, para comprovar o controle da exposição ocupacional a poeiras\nminerais e avaliar a eficácia das medidas de prevenção, avaliações quantitativas das exposições a\ncada 24 (vinte e quatro) meses.",
     "heading": "Introdução",
-    "char_offset": 180452
+    "char_offset": 180528
   },
   {
     "id": "chunk-615",
     "text": "**4.5** As avaliações quantitativas devem seguir as orientações contidas em recomendações técnicas\nda FUNDACENTRO ou outros documentos técnicos, desde que tecnicamente justificado, no que diz\nrespeito aos aspectos não tratados neste Anexo.\n**5. medidas de prevenção**",
     "heading": "Introdução",
-    "char_offset": 180732
+    "char_offset": 180808
   },
   {
     "id": "chunk-616",
     "text": "**5.1** a adoção de medidas de prevenção deverá atender ao item 1.4.1, alínea “g”, da NR-1.\n**5.2** nos locais onde estiver sendo perfurado, cortado, detonado, carregado, britado, moído,\ndescarregado ou transferido rocha ou minério deve estar disponível água em condições de uso,",
     "heading": "Introdução",
-    "char_offset": 181002
+    "char_offset": 181078
   },
   {
     "id": "chunk-617",
     "text": "com o propósito de controle da geração de poeiras.\n**5.2.1** as operações de perfuração ou corte devem ser realizadas por processos umidificados para\nevitar a dispersão da poeira no ambiente de trabalho.\n**5.2.2** caso haja impedimento de umidificação, em função das características mineralógicas da",
     "heading": "Introdução",
-    "char_offset": 181284
+    "char_offset": 181360
   },
   {
     "id": "chunk-618",
     "text": "rocha, impossibilidade técnica ou quando a água acarretar riscos adicionais devem ser utilizados\ndispositivos ou técnicas de controle, que impeçam a dispersão da poeira no ambiente de trabalho.\n**5.3** os equipamentos geradores de poeira com exposição dos trabalhadores devem utilizar",
     "heading": "Introdução",
-    "char_offset": 181585
+    "char_offset": 181661
   },
   {
     "id": "chunk-619",
     "text": "dispositivos para sua eliminação ou redução e serem mantidos em condições operacionais de uso.\n**5.4** as superfícies de máquinas, instalações e pisos dos locais de trânsito de pessoas e\nequipamentos, devem ser permanentemente umidificados ou limpos, de forma a impedir o",
     "heading": "Introdução",
-    "char_offset": 181871
+    "char_offset": 181947
   },
   {
     "id": "chunk-620",
     "text": "acúmulo e a dispersão de poeira no ambiente de trabalho.\n**5.5** os postos de trabalho, quando possível, devem ser enclausurados ou isolados e:\na) possuir sistemas que mantenham as condições de conforto térmico e acústico previstas na\nNorma Regulamentadora nº 17 (NR-17) - Ergonomia;",
     "heading": "Introdução",
-    "char_offset": 182145
+    "char_offset": 182221
   },
   {
     "id": "chunk-621",
     "text": "b) possibilitar o trabalho com o sistema hermeticamente fechado; e\nc) possuir sistemas que renovem periodicamente o ar.\n**6. Vigilância da saúde**\n**6.1** A organização deve manter vigilância da saúde dos trabalhadores expostos a poeira mineral\nconforme determinado na NR-7.",
     "heading": "Introdução",
-    "char_offset": 182434
+    "char_offset": 182510
   },
   {
     "id": "chunk-622",
     "text": "**7. Documentação**\n**7.1** O registro das avaliações das exposições ocupacionais a poeiras minerais, deve conter, no\nmínimo:\na) limites de exposição ocupacional utilizados, incluindo valores reajustados quando de jornadas\nnão usuais, conforme o subitem 4.3 deste Anexo;",
     "heading": "Introdução",
-    "char_offset": 182713
+    "char_offset": 182789
   },
   {
     "id": "chunk-623",
     "text": "b) indicação dos grupos de exposição similar com o nome e função dos trabalhadores amostrados\nem cada grupo;\nc) Indicação dos equipamentos utilizados nas amostragens, com os respectivos certificados de\ncalibração, quando aplicável;\nd) procedimentos de calibração utilizados;",
     "heading": "Introdução",
-    "char_offset": 182987
+    "char_offset": 183063
   },
   {
     "id": "chunk-624",
     "text": "e) datas e os horários das coletas, tempo de amostragem e volume de ar coletado de cada\namostra;\nf) as condições operacionais e ambientais dos locais de trabalho durante as coletas;\ng) os responsáveis pelas coletas;\nh) relatórios com os resultados das análises laboratoriais das amostras;",
     "heading": "Introdução",
-    "char_offset": 183267
+    "char_offset": 183343
   },
   {
     "id": "chunk-625",
     "text": "i) o método analítico utilizado pelo laboratório, com informações sobre os limites de detecção e\nquantificação;\nj) os resultados das concentrações de poeiras;\nk) os responsáveis pelos resultados das análises laboratoriais; e\nl) os cálculos estatísticos realizados.",
     "heading": "Introdução",
-    "char_offset": 183560
+    "char_offset": 183636
   },
   {
     "id": "chunk-626",
     "text": "**7.2** As informações previstas no item 7.1 devem estar sempre disponíveis aos trabalhadores\ninteressados, aos sindicatos representantes das categorias profissionais e à Inspeção do Trabalho.\n**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
     "heading": "Introdução",
-    "char_offset": 183827
+    "char_offset": 183903
   },
   {
     "id": "chunk-627",
     "text": "**8.1** Nas situações em que houver a mineração de asbesto ou a possibilidade de exposição dos\ntrabalhadores a poeiras contendo asbesto no minério lavrado, a organização deve realizar a\navaliação desta exposição em intervalos não superiores a 6 (seis) meses.",
     "heading": "Introdução",
-    "char_offset": 184093
+    "char_offset": 184169
   },
   {
     "id": "chunk-628",
     "text": "**8.2** Os registros das avaliações devem ser mantidos por um período não inferior a 40 (quarenta)\nanos.\n**8.3** Os representantes indicados pelos trabalhadores acompanharão o processo de avaliação\nambiental.\n**8.3.1** Os trabalhadores e/ou seus representantes têm o direito de solicitar avaliação ambiental",
     "heading": "Introdução",
-    "char_offset": 184357
+    "char_offset": 184433
   },
   {
     "id": "chunk-629",
     "text": "complementar nos locais de trabalho e/ou questionar tecnicamente os resultados das avaliações\njunto à autoridade competente.\n**8.4** O limite de exposição ocupacional para \"Sílica Cristalina\" e \"Sílica Cristobalita\" é de 0,05 mg/m³\nna poeira respirável. _(Alterado pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_",
     "heading": "Introdução",
-    "char_offset": 184667
+    "char_offset": 184743
   },
   {
     "id": "chunk-630",
     "text": "**8.4.1** Para as demais poeiras minerais e para fibras respiráveis de asbesto devem ser adotados,\npara fins de medidas de prevenção, o disposto no item 9.6.1 da NR-9. _(Inserido pela Portaria MTE nº_\n_261, de 12 de fevereiro de 2026)_\n**Glossário**",
     "heading": "Introdução",
-    "char_offset": 184989
+    "char_offset": 185065
   },
   {
     "id": "chunk-631",
     "text": "**Fibras respiráveis de asbesto** : Fibras com diâmetro inferior a 3 micrômetros, comprimento maior\nque 5 micrômetros e relação entre comprimento e diâmetro igual ou superior a 3:1. (Fonte: NHO\n04 - Fundacentro)\n**Limite de Exposição Ocupacional (LEO) para poeiras minerais** : Representa o valor limite para a",
     "heading": "Introdução",
-    "char_offset": 185241
+    "char_offset": 185317
   },
   {
     "id": "chunk-632",
     "text": "concentração no ar de uma poeira no ambiente de trabalho, medida na zona respiratória de um\ntrabalhador, em relação a um período de referência específico.\n**Perfil de exposição ocupacional** : valor de concentração ambiental de uma poeira mineral a ser",
     "heading": "Introdução",
-    "char_offset": 185553
+    "char_offset": 185629
   },
   {
     "id": "chunk-633",
     "text": "comparado com o LEO respectivo, de acordo com este Anexo.\n**Poeiras minerais** : são partículas sólidas (ou particulados sólidos) suspensas no ar geradas pela\nquebra mecânica de materiais sólidos, em processos de perfuração, detonação, britagem,\nbeneficiamento, carregamento e transporte de rochas. Todas essas atividades podem formar",
     "heading": "Introdução",
-    "char_offset": 185807
+    "char_offset": 185883
   },
   {
     "id": "chunk-634",
     "text": "partículas que se mantêm suspensas no ar por tempo variável conforme o seu diâmetro\naerodinâmico.",
-    "heading": "Tabelas",
-    "char_offset": 186242
-  },
-  {
-    "id": "chunk-635",
-    "text": "> [Tabela 1: page 22](../assets/tables/page_022_table_00.html)\n> [Tabela 2: page 37](../assets/tables/page_037_table_00.html)\n> [Tabela 3: page 48](../assets/tables/page_048_table_00.html)\n> [Tabela 4: page 48](../assets/tables/page_048_table_01.html)",
-    "heading": "Tabelas",
-    "char_offset": 186246
-  },
-  {
-    "id": "chunk-636",
-    "text": "> [Tabela 5: page 48](../assets/tables/page_048_table_02.html)\n> [Tabela 6: page 48](../assets/tables/page_048_table_03.html)\n> [Tabela 7: page 64](../assets/tables/page_064_table_00.html)\n> [Tabela 8: page 64](../assets/tables/page_064_table_01.html)",
-    "heading": "Tabelas",
-    "char_offset": 186502
-  },
-  {
-    "id": "chunk-637",
-    "text": "> [Tabela 9: page 65](../assets/tables/page_065_table_00.html)\n> [Tabela 10: page 65](../assets/tables/page_065_table_01.html)\n> ![Page 62](../assets/pages/page-062.png)\n-->",
-    "heading": "Tabelas",
-    "char_offset": 186802
+    "heading": "Introdução",
+    "char_offset": 186220
   }
 ]

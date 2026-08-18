@@ -1693,512 +1693,500 @@
   },
   {
     "id": "chunk-282",
-    "text": "**ANEXO I**\n**DIMENSIONAMENTO DO SESSTP**\n|Col1|Número de trabalhadores avulsos|Col3|Col4|Col5|\n|---|---|---|---|---|\n|**Profissionais especializados**|20 - 250|251 - 750|751 - 2000|2001 - 3500|\n|Engenheiro de Segurança do Trabalho|--|01|02|03|\n|Técnico de Segurança do Trabalho|01|02|04|11|",
+    "text": "**ANEXO I**\n**DIMENSIONAMENTO DO SESSTP**\n- horário parcial - 3 horas.\n**ANEXO II**\n**DIMENSIONAMENTO DA CPATP**\n**ANEXO III**\n**REGIME DE TEMPO DE TRABALHO COM TEMPO DE RECUPERAÇÃO TÉRMICA FORA DO AMBIENTE**\n**FRIO**\n_Este texto não substitui o publicado no DOU_",
     "heading": "Introdução",
-    "char_offset": 83306
+    "char_offset": 83311
   },
   {
     "id": "chunk-283",
-    "text": "|Médico do Trabalho|--|01 *|02|03|\n|Enfermeiro do Trabalho|--|--|01|03|\n|Auxiliar/Técnico de Enfermagem do Trabalho|01|01|02|04|\n- horário parcial - 3 horas.\n**ANEXO II**\n**DIMENSIONAMENTO DA CPATP**\n|Nº médio de trabalhadores avulsos|20<br>a<br>50|51<br>a<br>100|101<br>a<br>500|501<br>a<br>1000|1001<br>a<br>2000|2001<br>a<br>5000|5001<br>a<br>10000|Acima de 10000 a cada<br>grupo de 2500<br>acrescentar|",
+    "text": "|  | Número de trabalhadores avulsos |  |  |  |\n| --- | --- | --- | --- | --- |\n| Profissionais especializados | 20 - 250 | 251 - 750 | 751 - 2000 | 2001 - 3500 |\n| Engenheiro de Segurança do Trabalho | -- | 01 | 02 | 03 |\n| Técnico de Segurança do Trabalho | 01 | 02 | 04 | 11 |",
     "heading": "Introdução",
-    "char_offset": 83602
+    "char_offset": 83576
   },
   {
     "id": "chunk-284",
-    "text": "|---|---|---|---|---|---|---|---|---|\n|Nº de representantes titulares dos<br>operadores<br>portuários<br>e <br>dos<br>tomadores de serviço|01|02|04|06|09|12|15|02|\n|Nº de representantes titulares dos<br>trabalhadores avulsos|01|02|04|06|09|12|15|02|",
+    "text": "| Médico do Trabalho | -- | 01 * | 02 | 03 |\n| Enfermeiro do Trabalho | -- | -- | 01 | 03 |\n| Auxiliar/Técnico de Enfermagem do Trabalho | 01 | 01 | 02 | 04 |\n| Nº médio de trabalhadores avulsos | 20\na\n50 | 51\na\n100 | 101\na\n500 | 501\na\n1000 | 1001\na",
     "heading": "Introdução",
-    "char_offset": 84009
+    "char_offset": 83857
   },
   {
     "id": "chunk-285",
-    "text": "**ANEXO III**\n**REGIME DE TEMPO DE TRABALHO COM TEMPO DE RECUPERAÇÃO TÉRMICA FORA DO AMBIENTE**\n**FRIO**\n|Faixa de Temperatura<br>de Bulbo Seco (°C)|Regime de tempo de trabalho com tempo de recuperação fora do ambiente<br>frio, para trabalhadores utilizando EPI e vestimenta adequados para<br>exposição ao frio|",
+    "text": "2000 | 2001\na\n5000 | 5001\na\n10000 | Acima de 10000 a cada\ngrupo de 2500\nacrescentar |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Nº de representantes titulares dos\noperadores portuários e dos\ntomadores de serviço | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |",
     "heading": "Introdução",
-    "char_offset": 84262
+    "char_offset": 84107
   },
   {
     "id": "chunk-286",
-    "text": "|---|---|\n|+15,0 a -17,9 *<br>+12,0 a -17,9 **<br>+10,0 a -17,9 ***|Tempo total de trabalho no ambiente frio de 6 horas e 40 minutos, sendo<br>quatro períodos de 1 hora e 40 minutos alternados com 20 minutos de<br>repouso e recuperação térmica fora do ambiente de trabalho.|",
+    "text": "| Nº de representantes titulares dos\ntrabalhadores avulsos | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |\n| Faixa de Temperatura\nde Bulbo Seco (°C) | Regime de tempo de trabalho com tempo de recuperação fora do ambiente\nfrio, para trabalhadores utilizando EPI e vestimenta adequados para",
     "heading": "Introdução",
-    "char_offset": 84574
+    "char_offset": 84378
   },
   {
     "id": "chunk-287",
-    "text": "|-18,0 a -33,9|Tempo total de trabalho no ambiente frio de 4 horas alternando-se 1 hora de<br>trabalho com 1 hora para recuperação térmica fora do ambiente frio.|\n|-34,0 a -56,9|Tempo total de trabalho no ambiente frio de 1 hora, sendo dois períodos de<br>30 minutos com separação mínima de 4 horas para recuperação térmica fora|",
+    "text": "exposição ao frio |\n| --- | --- |\n| +15,0 a -17,9 *\n+12,0 a -17,9 **\n+10,0 a -17,9 *** | Tempo total de trabalho no ambiente frio de 6 horas e 40 minutos, sendo\nquatro períodos de 1 hora e 40 minutos alternados com 20 minutos de\nrepouso e recuperação térmica fora do ambiente de trabalho. |",
     "heading": "Introdução",
-    "char_offset": 84849
+    "char_offset": 84661
   },
   {
     "id": "chunk-288",
-    "text": "_Este texto não substitui o publicado no DOU_\n|Col1|do ambiente frio.|\n|---|---|\n|-57,0 a -73,0|Tempo total de trabalho no ambiente frio de 5 minutos sendo o restante da<br>jornada cumprida obrigatoriamente fora do ambiente frio.|\n|Abaixo de -73,0|Não é permitida a exposição ao ambiente frio, seja qual for a vestimenta<br>utilizada.|",
+    "text": "| -18,0 a -33,9 | Tempo total de trabalho no ambiente frio de 4 horas alternando-se 1 hora de\ntrabalho com 1 hora para recuperação térmica fora do ambiente frio. |\n| -34,0 a -56,9 | Tempo total de trabalho no ambiente frio de 1 hora, sendo dois períodos de",
     "heading": "Introdução",
-    "char_offset": 85181
+    "char_offset": 84952
   },
   {
     "id": "chunk-289",
-    "text": "(*) faixa de temperatura válida para trabalhos em zona climática quente, de acordo com o mapa\noficial do IBGE.\n(**) faixa de temperatura válida para trabalhos em zona climática sub-quente, de acordo com o mapa\noficial do IBGE.\n(***) faixa de temperatura válida para trabalhos em zona climática mesotérmica, de acordo com o",
+    "text": "30 minutos com separação mínima de 4 horas para recuperação térmica fora |\n(*) faixa de temperatura válida para trabalhos em zona climática quente, de acordo com o mapa\noficial do IBGE.\n(**) faixa de temperatura válida para trabalhos em zona climática sub-quente, de acordo com o mapa",
     "heading": "Introdução",
-    "char_offset": 85522
+    "char_offset": 85212
   },
   {
     "id": "chunk-290",
-    "text": "mapa oficial do IBGE.\n**ANEXO IV**\n**CARGAS PERIGOSAS**\n|CLASSE 1 - EXPLOSIVOS|Col2|\n|---|---|\n|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|\n|1.1|Substâncias ou produtos que apresentam perigo de explosão em massa.|\n|1.2|Substâncias ou produtos que apresentam perigo de projeção, mas não apresentam perigo<br>de explosão em massa.|",
+    "text": "oficial do IBGE.\n(***) faixa de temperatura válida para trabalhos em zona climática mesotérmica, de acordo com o\nmapa oficial do IBGE.\n**ANEXO IV**\n**CARGAS PERIGOSAS**\n_Este texto não substitui o publicado no DOU_\n|  | do ambiente frio. |\n| --- | --- |",
     "heading": "Introdução",
-    "char_offset": 85848
+    "char_offset": 85503
   },
   {
     "id": "chunk-291",
-    "text": "|1.3|Substâncias e produtos que apresentam perigo de incêndio e perigo de produção de<br>pequenos efeitos de onda de choque ou projeção ou ambos os efeitos, mas que não<br>apresentam um perigo de explosão em massa.|\n|1.4|Substâncias e produtos que não apresentam perigo considerável.|",
+    "text": "| -57,0 a -73,0 | Tempo total de trabalho no ambiente frio de 5 minutos sendo o restante da\njornada cumprida obrigatoriamente fora do ambiente frio. |\n| Abaixo de -73,0 | Não é permitida a exposição ao ambiente frio, seja qual for a vestimenta\nutilizada. |",
     "heading": "Introdução",
-    "char_offset": 86185
+    "char_offset": 85757
   },
   {
     "id": "chunk-292",
-    "text": "|1.5|Substâncias e produtos muito insensíveis e produtos, mas que apresentam perigo de<br>explosão em massa.|\n|1.6|Substâncias e produtos extremamente insensíveis que não apresentam perigo de explosão<br>em massa.|\n|**CLASSE 2 - GASES COMPRIMIDOS, LIQUEFEITOS OU DISSOLVIDOS SOB PRESSÃO**|**CLASSE 2 - GASES COMPRIMIDOS, LIQUEFEITOS OU DISSOLVIDOS SOB PRESSÃO**|",
+    "text": "| CLASSE 1 - EXPLOSIVOS |  |\n| --- | --- |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 1.1 | Substâncias ou produtos que apresentam perigo de explosão em massa. |\n| 1.2 | Substâncias ou produtos que apresentam perigo de projeção, mas não apresentam perigo",
     "heading": "Introdução",
-    "char_offset": 86470
+    "char_offset": 86015
   },
   {
     "id": "chunk-293",
-    "text": "|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|\n|2.1|Gases inflamáveis.|\n|2.2|Gases não inflamáveis e não tóxico.|\n|2.3|Gases tóxicos.|\n|**CLASSE 3 - LÍQUIDOS INFLÁMAVEIS**|**CLASSE 3 - LÍQUIDOS INFLÁMAVEIS**|\n|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|",
+    "text": "de explosão em massa. |\n| 1.3 | Substâncias e produtos que apresentam perigo de incêndio e perigo de produção de\npequenos efeitos de onda de choque ou projeção ou ambos os efeitos, mas que não\napresentam um perigo de explosão em massa. |\n| 1.4 | Substâncias e produtos que não apresentam perigo considerável. |",
     "heading": "Introdução",
-    "char_offset": 86833
+    "char_offset": 86277
   },
   {
     "id": "chunk-294",
-    "text": "||Líquidos inflamáveis: são líquidos que possuem ponto de fulgor ≤ 60° C (sessenta graus<br>Celsius).|\n||Líquidos que possuem ponto de fulgor superior a 60° C (sessenta graus Celsius), quando<br>armazenados e transferidos aquecidos a temperaturas iguais ou superiores ao seu ponto de<br>fulgor, se equiparam aos líquidos inflamáveis.|",
+    "text": "| 1.5 | Substâncias e produtos muito insensíveis e produtos, mas que apresentam perigo de\nexplosão em massa. |\n| 1.6 | Substâncias e produtos extremamente insensíveis que não apresentam perigo de explosão\nem massa. |\n| CLASSE 2 - GASES COMPRIMIDOS, LIQUEFEITOS OU DISSOLVIDOS SOB PRESSÃO |  |",
     "heading": "Introdução",
-    "char_offset": 87099
+    "char_offset": 86588
   },
   {
     "id": "chunk-295",
-    "text": "|**CLASSE 4 - SÓLIDOS INFLAMÁVEIS, SUBSTÂNCIAS SUJEITAS À COMBUSTÃO ESPONTÂNEA,**<br>**SUBSTÂNCIAS QUE, EM CONTATO COM A ÁGUA EMITEM GASES INFLAMÁVEIS.**|**CLASSE 4 - SÓLIDOS INFLAMÁVEIS, SUBSTÂNCIAS SUJEITAS À COMBUSTÃO ESPONTÂNEA,**<br>**SUBSTÂNCIAS QUE, EM CONTATO COM A ÁGUA EMITEM GASES INFLAMÁVEIS.**|",
+    "text": "| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 2.1 | Gases inflamáveis. |\n| 2.2 | Gases não inflamáveis e não tóxico. |\n| 2.3 | Gases tóxicos. |\n| CLASSE 3 - LÍQUIDOS INFLÁMAVEIS |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n|  | Líquidos inflamáveis: são líquidos que possuem ponto de fulgor ≤ 60° C (sessenta graus",
     "heading": "Introdução",
-    "char_offset": 87434
+    "char_offset": 86881
   },
   {
     "id": "chunk-296",
-    "text": "|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|\n|4.1|Sólidos inflamáveis, substâncias sujeitas a autoignição, sólidos explosivos dessensibilizadas|\n_Este texto não substitui o publicado no DOU_\n|Col1|e substâncias polimerizadas|\n|---|---|\n|4.2|Substâncias sujeitas à combustão espontânea.|",
+    "text": "Celsius). |\n|  | Líquidos que possuem ponto de fulgor superior a 60° C (sessenta graus Celsius), quando\narmazenados e transferidos aquecidos a temperaturas iguais ou superiores ao seu ponto de\nfulgor, se equiparam aos líquidos inflamáveis. |\n| CLASSE 4 - SÓLIDOS INFLAMÁVEIS, SUBSTÂNCIAS SUJEITAS À COMBUSTÃO ESPONTÂNEA,",
     "heading": "Introdução",
-    "char_offset": 87744
+    "char_offset": 87208
   },
   {
     "id": "chunk-297",
-    "text": "|4.3|Substâncias que, em contato com a água, emitem gases inflamáveis.|\n|**CLASSE 5 - SUBSTÂNCIAS OXIDANTES E PERÓXIDOS ORGÂNICOS.**|**CLASSE 5 - SUBSTÂNCIAS OXIDANTES E PERÓXIDOS ORGÂNICOS.**|\n|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|\n|5.1|Substâncias oxidantes|",
+    "text": "SUBSTÂNCIAS QUE, EM CONTATO COM A ÁGUA EMITEM GASES INFLAMÁVEIS. |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 4.1 | Sólidos inflamáveis, substâncias sujeitas a autoignição, sólidos explosivos dessensibilizadas |\n**ANEXO V**\n**SEGREGAÇÃO DE CARGAS PERIGOSAS**",
     "heading": "Introdução",
-    "char_offset": 88038
+    "char_offset": 87530
   },
   {
     "id": "chunk-298",
-    "text": "|5.2|Peróxidos orgânicos|\n|**CLASSE 6 - SUBSTÂNCIAS TÓXICAS OU INFECTANTES.**|**CLASSE 6 - SUBSTÂNCIAS TÓXICAS OU INFECTANTES.**|\n|**DIVISÃO**|**DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO**|\n|6.1|Substâncias tóxicas|\n|6.2|Substâncias infectantes|\n|**CLASSE 7 - MATERIAL RADIOATIVO**|**CLASSE 7 - MATERIAL RADIOATIVO**|",
+    "text": "**TABELA I - TIPO DE SEGREGAÇÃO**\n_Este texto não substitui o publicado no DOU_\n|  | e substâncias polimerizadas |\n| --- | --- |\n| 4.2 | Substâncias sujeitas à combustão espontânea. |\n| 4.3 | Substâncias que, em contato com a água, emitem gases inflamáveis. |",
     "heading": "Introdução",
-    "char_offset": 88312
+    "char_offset": 87802
   },
   {
     "id": "chunk-299",
-    "text": "|**CLASSE 8 - SUBSTÂNCIAS CORROSIVAS**|**CLASSE 8 - SUBSTÂNCIAS CORROSIVAS**|\n|**CLASSE 9 - SUBSTÂNCIAS E MATERIAIS PERIGOSOS DIVERSOS**|**CLASSE 9 - SUBSTÂNCIAS E MATERIAIS PERIGOSOS DIVERSOS**|\n**ANEXO V**\n**SEGREGAÇÃO DE CARGAS PERIGOSAS**\n**TABELA I - TIPO DE SEGREGAÇÃO**",
+    "text": "| CLASSE 5 - SUBSTÂNCIAS OXIDANTES E PERÓXIDOS ORGÂNICOS. |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 5.1 | Substâncias oxidantes |\n| 5.2 | Peróxidos orgânicos |\n| CLASSE 6 - SUBSTÂNCIAS TÓXICAS OU INFECTANTES. |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |",
     "heading": "Introdução",
-    "char_offset": 88624
+    "char_offset": 88062
   },
   {
     "id": "chunk-300",
-    "text": "|CLASSE|1.1,<br>1.2,<br>1.5|1.3,<br>1.6|1.4|2.1|2.2|2.3|3|4.1|4.2|4.3|5.1|5.2|6.1|6.2|7|8|9|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**Explosivos**<br>**1.1, 1.2, 1.5**|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|\n|**Explosivos**<br>**1.3, 1.6**|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|",
+    "text": "| 6.1 | Substâncias tóxicas |\n| 6.2 | Substâncias infectantes |\n| CLASSE 7 - MATERIAL RADIOATIVO |  |\n| CLASSE 8 - SUBSTÂNCIAS CORROSIVAS |  |\n| CLASSE 9 - SUBSTÂNCIAS E MATERIAIS PERIGOSOS DIVERSOS |  |\n| CLASSE | 1.1,\n1.2,\n1.5 | 1.3,\n1.6 | 1.4 | 2.1 | 2.2 | 2.3 | 3 | 4.1 | 4.2 | 4.3 | 5.1 | 5.2 | 6.1 | 6.2 | 7 | 8 | 9 |",
     "heading": "Introdução",
-    "char_offset": 88902
+    "char_offset": 88338
   },
   {
     "id": "chunk-301",
-    "text": "|**Explosivos**<br>**1.4**|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|\n|**Gases inflamáveis**<br>**2.1**|*|*|*|x|x|x|2|1|2|x|2|2|x|4|2|1|x|\n|**Gases**<br>**não**<br>**tóxicos,**<br>**não**<br>**inflamáveis**<br>**2.2**|*|*|*|x|x|x|1|x|1|x|x|1|x|2|1|x|x|\n|**Gases venenosos**<br>**2.3**|*|*|*|x|x|x|2|x|2|x|x|2|x|2|1|x|x|",
+    "text": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Explosivos\n1.1, 1.2, 1.5 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |\n| Explosivos\n1.3, 1.6 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |",
     "heading": "Introdução",
-    "char_offset": 89208
+    "char_offset": 88662
   },
   {
     "id": "chunk-302",
-    "text": "|**Líquidos inflamáveis**<br>**3 **|*|*|*|2|1|2|X|x|2|1|2|2|x|3|2|x|x|\n|**Sólidos inflamáveis**<br>**4.1**|*|*|*|1|x|x|X|x|1|x|1|2|x|3|2|1|x|\n|**Substâncias  sujeitas**<br>**à combustão**<br>**espontânea**<br>**4.2**|*|*|*|2|1|2|2|1|x|1|2|2|1|3|2|1|x|",
+    "text": "| Explosivos\n1.4 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |\n| Gases inflamáveis\n2.1 | * | * | * | x | x | x | 2 | 1 | 2 | x | 2 | 2 | x | 4 | 2 | 1 | x |\n| Gases não tóxicos, não\ninflamáveis\n2.2 | * | * | * | x | x | x | 1 | x | 1 | x | x | 1 | x | 2 | 1 | x | x |",
     "heading": "Introdução",
-    "char_offset": 89520
+    "char_offset": 88961
   },
   {
     "id": "chunk-303",
-    "text": "|**Substâncias que são perigosas quando**<br>**molhadas**<br>**4.3**|*|*|*|x|x|x|1|x|1|x|2|2|x|2|2|1|x|\n_Este texto não substitui o publicado no DOU_\n|Substâncias oxidantes<br>5.1|*|*|*|2|x|x|2|1|2|2|x|2|1|3|1|2|x|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+    "text": "| Gases venenosos\n2.3 | * | * | * | x | x | x | 2 | x | 2 | x | x | 2 | x | 2 | 1 | x | x |\n| Líquidos inflamáveis\n3 | * | * | * | 2 | 1 | 2 | X | x | 2 | 1 | 2 | 2 | x | 3 | 2 | x | x |\n| Sólidos inflamáveis\n4.1 | * | * | * | 1 | x | x | X | x | 1 | x | 1 | 2 | x | 3 | 2 | 1 | x |",
     "heading": "Introdução",
-    "char_offset": 89774
+    "char_offset": 89253
   },
   {
     "id": "chunk-304",
-    "text": "|**Peróxidos orgânicos**<br>**5.2**|*|*|*|2|1|2|2|2|2|2|2|x|1|3|2|2|x|\n|**Venenos**<br>**6.1**|*|*|*|x|x|x|X|x|1|x|1|1|x|1|x|x|x|\n|**Substâncias infecciosas**<br>**6.2**|*|*|*|4|2|2|3|3|3|2|3|3|1|x|3|3|x|\n|**Materiais radiativos**<br>**7 **|*|*|*|2|1|1|2|2|2|2|1|2|x|3|x|2|x|",
+    "text": "| Substâncias sujeitas à combustão\nespontânea 4.2 | * | * | * | 2 | 1 | 2 | 2 | 1 | x | 1 | 2 | 2 | 1 | 3 | 2 | 1 | x |\n| Substâncias que são perigosas quando\nmolhadas 4.3 | * | * | * | x | x | x | 1 | x | 1 | x | 2 | 2 | x | 2 | 2 | 1 | x |\nNúmeros e símbolos relativos aos termos mencionados neste anexo:",
     "heading": "Introdução",
-    "char_offset": 90063
+    "char_offset": 89537
   },
   {
     "id": "chunk-305",
-    "text": "|**Corrosivos**<br>**8 **|*|*|*|1|x|x|X|1|1|1|2|2|x|3|2|x|x|\n|**Misturas de substâncias e artigos**<br>**perigosos**<br>**9 **|*|*|*|x|x|x|X|x|x|x|x|x|x|x|x|x|x|\nNúmeros e símbolos relativos aos termos mencionados neste anexo:\n1 - “Longe de”\n2 - “Separado de”",
+    "text": "1 - “Longe de”\n2 - “Separado de”\n3 - “Separado por um compartimento completo”\n4 - “Separado longitudinalmente por um compartimento completo”\nx - a segregação, caso haja, é indicada na ficha individual da substância no IMDG.\n- - Não se aplica o presente anexo",
     "heading": "Introdução",
-    "char_offset": 90342
+    "char_offset": 89850
   },
   {
     "id": "chunk-306",
-    "text": "3 - “Separado por um compartimento completo”\n4 - “Separado longitudinalmente por um compartimento completo”\nx - a segregação, caso haja, é indicada na ficha individual da substância no IMDG.\n- - Não se aplica o presente anexo\n**TABELA II - DISTÂNCIA DE SEGREGAÇÃO**",
+    "text": "**TABELA II - DISTÂNCIA DE SEGREGAÇÃO**\n**OBSERVAÇÕES:**\n1) As tabelas estão baseadas no quadro de segregação do Código Marítimo Internacional de\nMercadorias Perigosas - IMDG/CODE-IMO.\n_Este texto não substitui o publicado no DOU_\n| Substâncias oxidantes",
     "heading": "Introdução",
-    "char_offset": 90607
+    "char_offset": 90114
   },
   {
     "id": "chunk-307",
-    "text": "|TIPO DE<br>SEGREGAÇÃO|SENTIDO DA SEGREGAÇÃO|Col3|Col4|\n|---|---|---|---|\n|**TIPO DE**<br>**SEGREGAÇÃO**|**LONGITUDINAL**|**TRANSVERSAL**|**VERTICAL**|\n|**Tipo 1**|Não há restrições|Não há restrições|Permitido um remonte|\n|**Tipo 2**|Um espaço para contêiner<br>ou contêiner neutro|Um espaço para contêiner ou<br>contêiner neutro|Proibido o remonte|",
+    "text": "5.1 | * | * | * | 2 | x | x | 2 | 1 | 2 | 2 | x | 2 | 1 | 3 | 1 | 2 | x |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Peróxidos orgânicos\n5.2 | * | * | * | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | x | 1 | 3 | 2 | 2 | x |",
     "heading": "Introdução",
-    "char_offset": 90874
+    "char_offset": 90369
   },
   {
     "id": "chunk-308",
-    "text": "|**Tipo 3**|Um espaço para contêiner<br>ou contêiner neutro|Dois espaços para contêineres ou<br>dois contêineres neutros|Proibido o remonte|\n|**Tipo 4**|A distância de pelo menos<br>24 metros|A distância de pelo menos 24<br>metros|Proibido o remonte|",
+    "text": "| Venenos\n6.1 | * | * | * | x | x | x | X | x | 1 | x | 1 | 1 | x | 1 | x | x | x |\n| Substâncias infecciosas\n6.2 | * | * | * | 4 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 3 | 1 | x | 3 | 3 | x |\n| Materiais radiativos\n7 | * | * | * | 2 | 1 | 1 | 2 | 2 | 2 | 2 | 1 | 2 | x | 3 | x | 2 | x |",
     "heading": "Introdução",
-    "char_offset": 91224
+    "char_offset": 90649
   },
   {
     "id": "chunk-309",
-    "text": "|**Tipo x**|Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada<br>produto|Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada<br>produto|Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada<br>produto|",
+    "text": "| Corrosivos\n8 | * | * | * | 1 | x | x | X | 1 | 1 | 1 | 2 | 2 | x | 3 | 2 | x | x |\n| Misturas de substâncias e artigos\nperigosos\n9 | * | * | * | x | x | x | X | x | x | x | x | x | x | x | x | x | x |\n| TIPO DE\nSEGREGAÇÃO | SENTIDO DA SEGREGAÇÃO |  |  |",
     "heading": "Introdução",
-    "char_offset": 91475
+    "char_offset": 90929
   },
   {
     "id": "chunk-310",
-    "text": "**OBSERVAÇÕES:**\n1) As tabelas estão baseadas no quadro de segregação do Código Marítimo Internacional de\nMercadorias Perigosas - IMDG/CODE-IMO.\n_Este texto não substitui o publicado no DOU_\n2) Um “espaço para contêineres” significa uma distância de pelo menos 6m (seis metros) no sentido",
+    "text": "| --- | --- | --- | --- |\n|  | LONGITUDINAL | TRANSVERSAL | VERTICAL |\n| Tipo 1 | Não há restrições | Não há restrições | Permitido um remonte |\n| Tipo 2 | Um espaço para contêiner\nou contêiner neutro | Um espaço para contêiner ou\ncontêiner neutro | Proibido o remonte |",
     "heading": "Introdução",
-    "char_offset": 91753
+    "char_offset": 91185
   },
   {
     "id": "chunk-311",
-    "text": "longitudinal e pelo menos 2,4m (dois metros e quarenta centímetros) no sentido transversal do\narmazenamento.\n3) Contêiner neutro significa cofre com carga compatível com o da mercadoria perigosa (por exemplo:\ncontêiner com carga geral - não alimento).",
+    "text": "| Tipo 3 | Um espaço para contêiner\nou contêiner neutro | Dois espaços para contêineres ou\ndois contêineres neutros | Proibido o remonte |\n| Tipo 4 | A distância de pelo menos\n24 metros | A distância de pelo menos 24\nmetros | Proibido o remonte |\n| Tipo x | Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada",
     "heading": "Introdução",
-    "char_offset": 92044
+    "char_offset": 91456
   },
   {
     "id": "chunk-312",
-    "text": "**Glossário**\nAcessórios de estivagem ou de içamento - todo acessório por meio do qual uma carga pode ser fixada\nnum aparelho de içar, mas que não seja parte integrante do aparelho ou da carga.\nAcondicionamento - ato de embalar, carregar ou colocar cargas perigosas em recipientes, contentores",
+    "text": "produto |  |  |\n2) Um “espaço para contêineres” significa uma distância de pelo menos 6m (seis metros) no sentido\nlongitudinal e pelo menos 2,4m (dois metros e quarenta centímetros) no sentido transversal do\narmazenamento.\n3) Contêiner neutro significa cofre com carga compatível com o da mercadoria perigosa (por exemplo:",
     "heading": "Introdução",
-    "char_offset": 92299
+    "char_offset": 91793
   },
   {
     "id": "chunk-313",
-    "text": "intermediários para graneis, contentores de cargas, contentores-tanques, tanques portáteis, vagões\nferroviários, veículos, barcaças ou outras unidades de transporte de carga.\nAgulheiros ou escotilhão - pequenas escotilhas utilizadas para trânsito de pessoal entre pavimentos",
+    "text": "contêiner com carga geral - não alimento).\n**Glossário**\nAcessórios de estivagem ou de içamento - todo acessório por meio do qual uma carga pode ser fixada\nnum aparelho de içar, mas que não seja parte integrante do aparelho ou da carga.\nAcondicionamento - ato de embalar, carregar ou colocar cargas perigosas em recipientes, contentores",
     "heading": "Introdução",
-    "char_offset": 92594
+    "char_offset": 92119
   },
   {
     "id": "chunk-314",
-    "text": "da embarcação, entre eles o porão. Abertura circular ou elíptica, para acesso aos compartimentos da\nembarcação normalmente não habitados ou frequentados.\nAncoragem (equipamento de guindar sobre trilho) - ponto de fixação.\nAparelho de içar (equipamento de guindar) - todos os aparelhos de cargas fixos ou móveis, utilizados",
+    "text": "intermediários para graneis, contentores de cargas, contentores-tanques, tanques portáteis, vagões\nferroviários, veículos, barcaças ou outras unidades de transporte de carga.\nAgulheiros ou escotilhão - pequenas escotilhas utilizadas para trânsito de pessoal entre pavimentos",
     "heading": "Introdução",
-    "char_offset": 92871
+    "char_offset": 92457
   },
   {
     "id": "chunk-315",
-    "text": "em terra ou a bordo da embarcação para suspender, levantar ou arriar as cargas ou deslocá-las de um\nlugar para outro em posição suspensa ou levantada, incluindo rampas de caís acionadas por força\nmotriz (Convenção nº 152 da Organização Internacional do Trabalho).",
+    "text": "da embarcação, entre eles o porão. Abertura circular ou elíptica, para acesso aos compartimentos da\nembarcação normalmente não habitados ou frequentados.\nAncoragem (equipamento de guindar sobre trilho) - ponto de fixação.\nAparelho de içar (equipamento de guindar) - todos os aparelhos de cargas fixos ou móveis, utilizados",
     "heading": "Introdução",
-    "char_offset": 93194
+    "char_offset": 92734
   },
   {
     "id": "chunk-316",
-    "text": "Área de armazenagem - complexo de espaços reservados à guarda e conservação de mercadorias\nsoltas ou embaladas, geralmente constituída de armazém, galpão, parque e silos.\nÁrea de operação - local onde ocorre a movimentação da mercadoria, da carga ou de passageiros.",
+    "text": "em terra ou a bordo da embarcação para suspender, levantar ou arriar as cargas ou deslocá-las de um\nlugar para outro em posição suspensa ou levantada, incluindo rampas de caís acionadas por força\nmotriz (Convenção nº 152 da Organização Internacional do Trabalho).",
     "heading": "Introdução",
-    "char_offset": 93460
+    "char_offset": 93057
   },
   {
     "id": "chunk-317",
-    "text": "Área do porto organizado - área delimitada por ato do Poder Executivo que compreende as\ninstalações portuárias, a infraestrutura de proteção e de acesso ao porto, por via terrestre ou\naquaviária. Integra: ancoradouros, docas, cais, pontes e píeres de atracação e acostagem, terrenos,",
+    "text": "Área de armazenagem - complexo de espaços reservados à guarda e conservação de mercadorias\nsoltas ou embaladas, geralmente constituída de armazém, galpão, parque e silos.\nÁrea de operação - local onde ocorre a movimentação da mercadoria, da carga ou de passageiros.",
     "heading": "Introdução",
-    "char_offset": 93727
+    "char_offset": 93323
   },
   {
     "id": "chunk-318",
-    "text": "armazéns, edificações, vias de circulação interna, guias-correntes, quebra-mares, eclusas, canais,\nbacias de evolução e áreas de fundeio, todas mantidas pela administração do porto.\nArmazém - edificação fechada, construída em madeira, metal, alvenaria e/ou concreto armado,",
+    "text": "Área do porto organizado - área delimitada por ato do Poder Executivo que compreende as\ninstalações portuárias, a infraestrutura de proteção e de acesso ao porto, por via terrestre ou\naquaviária. Integra: ancoradouros, docas, cais, pontes e píeres de atracação e acostagem, terrenos,",
     "heading": "Introdução",
-    "char_offset": 94012
+    "char_offset": 93590
   },
   {
     "id": "chunk-319",
-    "text": "provida de cobertura e aberturas que permitam a entrada e saída de mercadorias, cargas gerais,\nequipamentos e pessoal.\nAssoalho - piso da carroceria do veículo.\nAtmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde - qualquer atmosfera que",
+    "text": "armazéns, edificações, vias de circulação interna, guias-correntes, quebra-mares, eclusas, canais,\nbacias de evolução e áreas de fundeio, todas mantidas pela administração do porto.\nArmazém - edificação fechada, construída em madeira, metal, alvenaria e/ou concreto armado,",
     "heading": "Introdução",
-    "char_offset": 94288
+    "char_offset": 93875
   },
   {
     "id": "chunk-320",
-    "text": "apresente risco imediato à vida ou produza imediato efeito debilitante à saúde.\nAtores externos - organizações oficiais e de apoio que estão localizados fora do porto organizado ou\ninstalação portuária.\nAtracação - manobra de fixação da embarcação ao cais.",
+    "text": "provida de cobertura e aberturas que permitam a entrada e saída de mercadorias, cargas gerais,\nequipamentos e pessoal.\nAssoalho - piso da carroceria do veículo.\nAtmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde - qualquer atmosfera que",
     "heading": "Introdução",
-    "char_offset": 94544
+    "char_offset": 94151
   },
   {
     "id": "chunk-321",
-    "text": "Administração Portuária - é a pessoa jurídica responsável pela administração do porto organizado,\ntambém denominada autoridade portuária.\n_Este texto não substitui o publicado no DOU_\nBarreiras (granel sólido) - paredes formadas no granel sólido durante sua movimentação em",
+    "text": "apresente risco imediato à vida ou produza imediato efeito debilitante à saúde.\nAtores externos - organizações oficiais e de apoio que estão localizados fora do porto organizado ou\ninstalação portuária.\nAtracação - manobra de fixação da embarcação ao cais.",
     "heading": "Introdução",
-    "char_offset": 94804
+    "char_offset": 94407
   },
   {
     "id": "chunk-322",
-    "text": "depósitos a céu aberto, silos horizontais e porões de embarcações.\nBerço - qualquer doca, píer, molhe, caís, terminal marítimo, ou estrutura similar flutuante ou não,\nonde uma embarcação possa atracar com segurança.\nCabine com interior climatizado - cabine com espaço fisicamente delimitado, com dimensões e",
+    "text": "Administração Portuária - é a pessoa jurídica responsável pela administração do porto organizado,\ntambém denominada autoridade portuária.\n_Este texto não substitui o publicado no DOU_\nBarreiras (granel sólido) - paredes formadas no granel sólido durante sua movimentação em",
     "heading": "Introdução",
-    "char_offset": 95080
+    "char_offset": 94667
   },
   {
     "id": "chunk-323",
-    "text": "instalações próprias, submetidos ao processo de climatização por meio de equipamentos para\nconforto térmico.\nCais - estrutura, plataforma ou faixa paralela ou marginal que acompanha a linha da costa ou margens\ndos rios. Parte de um porto onde se efetua o embarque e o desembarque de passageiros,",
+    "text": "depósitos a céu aberto, silos horizontais e porões de embarcações.\nBerço - qualquer doca, píer, molhe, caís, terminal marítimo, ou estrutura similar flutuante ou não,\nonde uma embarcação possa atracar com segurança.\nCabine com interior climatizado - cabine com espaço fisicamente delimitado, com dimensões e",
     "heading": "Introdução",
-    "char_offset": 95390
+    "char_offset": 94943
   },
   {
     "id": "chunk-324",
-    "text": "mercadorias e cargas diversas por via aquaviária.\nCâmera retrovisora - dispositivo composto por câmeras e monitor que se destina a proporcionar uma\nvisibilidade clara para a retaguarda e para os lados no tráfego de máquina ou equipamento.\nCarga - qualquer tipo de volume ou objeto, embalado ou não, incluindo mercadoria, que seja",
+    "text": "instalações próprias, submetidos ao processo de climatização por meio de equipamentos para\nconforto térmico.\nCais - estrutura, plataforma ou faixa paralela ou marginal que acompanha a linha da costa ou margens\ndos rios. Parte de um porto onde se efetua o embarque e o desembarque de passageiros,",
     "heading": "Introdução",
-    "char_offset": 95688
+    "char_offset": 95253
   },
   {
     "id": "chunk-325",
-    "text": "transportado, movimentado ou armazenado nos ambientes laborais alcançados pela aplicabilidade\ndesta NR.\nCarga frigorificada - carga transportada em câmaras frigoríficas ou em porões frigoríficos, de acordo\ncom a faixa de temperatura e zonas climáticas indicadas na tabela de exposição ao frio constante no",
+    "text": "mercadorias e cargas diversas por via aquaviária.\nCâmera retrovisora - dispositivo composto por câmeras e monitor que se destina a proporcionar uma\nvisibilidade clara para a retaguarda e para os lados no tráfego de máquina ou equipamento.\nCarga - qualquer tipo de volume ou objeto, embalado ou não, incluindo mercadoria, que seja",
     "heading": "Introdução",
-    "char_offset": 96020
+    "char_offset": 95551
   },
   {
     "id": "chunk-326",
-    "text": "Anexo III desta NR.\nCarga perigosa - qualquer carga que, em virtude de ser explosiva, inflamável, oxidante, venenosa,\ninfecciosa, radioativa, corrosiva ou contaminante, possa apresentar riscos aos trabalhadores, às\nembarcações, às instalações físicas de onde estiverem ou ao meio ambiente. O termo carga perigosa",
+    "text": "transportado, movimentado ou armazenado nos ambientes laborais alcançados pela aplicabilidade\ndesta NR.\nCarga frigorificada - carga transportada em câmaras frigoríficas ou em porões frigoríficos, de acordo\ncom a faixa de temperatura e zonas climáticas indicadas na tabela de exposição ao frio constante no",
     "heading": "Introdução",
-    "char_offset": 96328
+    "char_offset": 95883
   },
   {
     "id": "chunk-327",
-    "text": "inclui quaisquer receptáculos, tais como tanques portáteis, embalagens, contentores intermediários\npara graneis (IBC) e contêineres-tanques que tenham anteriormente contido cargas perigosas e\nestejam sem a devida limpeza e descontaminação que anulem os seus efeitos prejudiciais.",
+    "text": "Anexo III desta NR.\nCarga perigosa - qualquer carga que, em virtude de ser explosiva, inflamável, oxidante, venenosa,\ninfecciosa, radioativa, corrosiva ou contaminante, possa apresentar riscos aos trabalhadores, às\nembarcações, às instalações físicas de onde estiverem ou ao meio ambiente. O termo carga perigosa",
     "heading": "Introdução",
-    "char_offset": 96641
+    "char_offset": 96191
   },
   {
     "id": "chunk-328",
-    "text": "Cobertas - são as estruturas que subdividem os espaços de carga (por exemplo: o porão), em\nsubespaços na direção vertical, sob a forma de conveses.\nContêiner - unidade de carga caracterizando-se por ser um contentor; grande caixa ou recipiente\nmetálico construído com material resistente no qual mercadorias, carga ou volumes são",
+    "text": "inclui quaisquer receptáculos, tais como tanques portáteis, embalagens, contentores intermediários\npara graneis (IBC) e contêineres-tanques que tenham anteriormente contido cargas perigosas e\nestejam sem a devida limpeza e descontaminação que anulem os seus efeitos prejudiciais.",
     "heading": "Introdução",
-    "char_offset": 96923
+    "char_offset": 96504
   },
   {
     "id": "chunk-329",
-    "text": "acondicionados com a finalidade de facilitar o seu embarque, desembarque e transbordo entre\ndiferentes meios de transporte. Em transporte, é um equipamento construído com normas técnicas\nreconhecidas internacionalmente.\nConvés - cada piso da embarcação que subdivide os espaços de carga em compartimentos na direção",
+    "text": "Cobertas - são as estruturas que subdividem os espaços de carga (por exemplo: o porão), em\nsubespaços na direção vertical, sob a forma de conveses.\nContêiner - unidade de carga caracterizando-se por ser um contentor; grande caixa ou recipiente\nmetálico construído com material resistente no qual mercadorias, carga ou volumes são",
     "heading": "Introdução",
-    "char_offset": 97255
+    "char_offset": 96786
   },
   {
     "id": "chunk-330",
-    "text": "vertical. O convés principal, em geral, é o primeiro pavimento, acima dos demais, que se estende por\ntoda a área da embarcação, descoberto no todo ou em grande parte, por onde normalmente se\ningressa na embarcação e se tem acesso a todos os seus demais compartimentos. Sinônimo de",
+    "text": "acondicionados com a finalidade de facilitar o seu embarque, desembarque e transbordo entre\ndiferentes meios de transporte. Em transporte, é um equipamento construído com normas técnicas\nreconhecidas internacionalmente.\nConvés - cada piso da embarcação que subdivide os espaços de carga em compartimentos na direção",
     "heading": "Introdução",
-    "char_offset": 97571
+    "char_offset": 97118
   },
   {
     "id": "chunk-331",
-    "text": "coberta.\nContaminantes - gases, vapores, névoas, fumos e poeiras presentes na atmosfera de trabalho.\nEscada Quebra-Peito (escada de marinheiro) - escada vertical utilizada para subida e descida,\nesporádicas, de embarcações, construídas de cordas e madeira, obedecendo a normas marítimas",
+    "text": "vertical. O convés principal, em geral, é o primeiro pavimento, acima dos demais, que se estende por\ntoda a área da embarcação, descoberto no todo ou em grande parte, por onde normalmente se\ningressa na embarcação e se tem acesso a todos os seus demais compartimentos. Sinônimo de",
     "heading": "Introdução",
-    "char_offset": 97855
+    "char_offset": 97434
   },
   {
     "id": "chunk-332",
-    "text": "internacionais.\n_Este texto não substitui o publicado no DOU_\nEmbalagem - Elemento ou conjunto de elementos destinados a envolver, conter e proteger produtos\ndurante sua movimentação, transporte, armazenagem, comercialização e consumo.\nEngajamento do Trabalhador Portuário Avulso (TPA) - É a contratação do TPA mediante as requisições",
+    "text": "coberta.\nContaminantes - gases, vapores, névoas, fumos e poeiras presentes na atmosfera de trabalho.\nEscada Quebra-Peito (escada de marinheiro) - escada vertical utilizada para subida e descida,\nesporádicas, de embarcações, construídas de cordas e madeira, obedecendo a normas marítimas",
     "heading": "Introdução",
-    "char_offset": 98146
+    "char_offset": 97718
   },
   {
     "id": "chunk-333",
-    "text": "dos operadores portuários e tomadores de serviço ao OGMO.\nEscala de trabalho do OGMO - Escalação dos TPA - Todos os TPA selecionados e relacionados (equipes\nde trabalho) para atender às requisições recebidas pelo OGMO.\nEscotilha - abertura nas embarcações, geralmente retangular, que põe em comunicação entre si as",
+    "text": "internacionais.\n_Este texto não substitui o publicado no DOU_\nEmbalagem - Elemento ou conjunto de elementos destinados a envolver, conter e proteger produtos\ndurante sua movimentação, transporte, armazenagem, comercialização e consumo.\nEngajamento do Trabalhador Portuário Avulso (TPA) - É a contratação do TPA mediante as requisições",
     "heading": "Introdução",
-    "char_offset": 98483
+    "char_offset": 98009
   },
   {
     "id": "chunk-334",
-    "text": "cobertas, o convés principal e o porão. Exemplo de coberta são as tampas dos porões.\nEstiva (estivagem) - é a atividade de movimentação de mercadorias ou cargas diversas nos conveses e\nnos porões das embarcações, nas operações de carga e descarga, incluindo arrumação, peação e",
+    "text": "dos operadores portuários e tomadores de serviço ao OGMO.\nEscala de trabalho do OGMO - Escalação dos TPA - Todos os TPA selecionados e relacionados (equipes\nde trabalho) para atender às requisições recebidas pelo OGMO.\nEscotilha - abertura nas embarcações, geralmente retangular, que põe em comunicação entre si as",
     "heading": "Introdução",
-    "char_offset": 98799
+    "char_offset": 98346
   },
   {
     "id": "chunk-335",
-    "text": "despeação.\nEstrado ou palete - acessório de embalagem constituindo-se em tabuleiro de madeira, metal, plástico\nou outro material, com estrutura plana, com forma adequada para ser usada por empilhadeira ou\nguindaste, para transporte de carga ou mercadoria que não possa sofrer pressão.",
+    "text": "cobertas, o convés principal e o porão. Exemplo de coberta são as tampas dos porões.\nEstiva (estivagem) - é a atividade de movimentação de mercadorias ou cargas diversas nos conveses e\nnos porões das embarcações, nas operações de carga e descarga, incluindo arrumação, peação e",
     "heading": "Introdução",
-    "char_offset": 99078
+    "char_offset": 98662
   },
   {
     "id": "chunk-336",
-    "text": "Estropo ou linga - qualquer dispositivo feito de cabo, corrente ou lona que serve para envolver ou\nengatar um peso para içá-lo através de guindastes.\nEnxárcia ou aparelho fixo - é o conjunto de cabos fixos que dão sustentação aos mastros de carga.\nFicha de informações de segurança da carga perigosa - Ficha de Informações de Segurança de",
+    "text": "despeação.\nEstrado ou palete - acessório de embalagem constituindo-se em tabuleiro de madeira, metal, plástico\nou outro material, com estrutura plana, com forma adequada para ser usada por empilhadeira ou\nguindaste, para transporte de carga ou mercadoria que não possa sofrer pressão.",
     "heading": "Introdução",
-    "char_offset": 99366
+    "char_offset": 98941
   },
   {
     "id": "chunk-337",
-    "text": "Produtos Químicos conforme normas nacionais ou Ficha com dados de segurança do material\n( **Material Safety Data Sheet** ).\nGranel - carga quase sempre homogênea, não embalada, carregada diretamente nos porões das\nembarcações. Ela é subdividida em granel sólido e granel líquido.",
+    "text": "Estropo ou linga - qualquer dispositivo feito de cabo, corrente ou lona que serve para envolver ou\nengatar um peso para içá-lo através de guindastes.\nEnxárcia ou aparelho fixo - é o conjunto de cabos fixos que dão sustentação aos mastros de carga.\nFicha de informações de segurança da carga perigosa - Ficha de Informações de Segurança de",
     "heading": "Introdução",
-    "char_offset": 99706
+    "char_offset": 99229
   },
   {
     "id": "chunk-338",
-    "text": "Granel líquido - todo líquido transportado diretamente nos porões da embarcação, sem embalagem e\nem grandes quantidades, e que é movimentado por dutos por meio de bombas. (Por exemplo: álcool,\ngasolina, suco de laranja, melaço e outros).\nGranel sólido - todo sólido fragmentado ou grão vegetal transportado diretamente nos porões da",
+    "text": "Produtos Químicos conforme normas nacionais ou Ficha com dados de segurança do material\n( **Material Safety Data Sheet** ).\nGranel - carga quase sempre homogênea, não embalada, carregada diretamente nos porões das\nembarcações. Ela é subdividida em granel sólido e granel líquido.",
     "heading": "Introdução",
-    "char_offset": 99988
+    "char_offset": 99569
   },
   {
     "id": "chunk-339",
-    "text": "embarcação, sem embalagem e em grandes quantidades, e que é movimentado por transportadores\nautomáticos, tipo pneumático ou de arraste e similares ou aparelhos mecânicos, tais como eletroimã\nou caçamba automática (grabs). (Por exemplo: carvão, sal, trigo em grão, minério de ferro e outros).",
+    "text": "Granel líquido - todo líquido transportado diretamente nos porões da embarcação, sem embalagem e\nem grandes quantidades, e que é movimentado por dutos por meio de bombas. (Por exemplo: álcool,\ngasolina, suco de laranja, melaço e outros).\nGranel sólido - todo sólido fragmentado ou grão vegetal transportado diretamente nos porões da",
     "heading": "Introdução",
-    "char_offset": 100321
+    "char_offset": 99851
   },
   {
     "id": "chunk-340",
-    "text": "Habilitação de Trabalhador Portuário Avulso - habilitação obtida mediante participação e aprovação\nem cursos e treinamentos ofertados ou aceitos pelo OGMO, conforme legislação específica portuária\n(ministrados pela Marinha - DPC, requisitantes de mão de obra avulsa, sindicato da categoria ou",
+    "text": "embarcação, sem embalagem e em grandes quantidades, e que é movimentado por transportadores\nautomáticos, tipo pneumático ou de arraste e similares ou aparelhos mecânicos, tais como eletroimã\nou caçamba automática (grabs). (Por exemplo: carvão, sal, trigo em grão, minério de ferro e outros).",
     "heading": "Introdução",
-    "char_offset": 100614
+    "char_offset": 100184
   },
   {
     "id": "chunk-341",
-    "text": "empresas especializadas), permitindo ao TPA candidatar-se às ofertas de trabalho para seu\nengajamento.\nInstalação portuária - instalação localizada dentro ou fora da área do porto organizado e utilizada em\nmovimentação de passageiros, em movimentação ou armazenagem de mercadorias e cargas diversas",
+    "text": "Habilitação de Trabalhador Portuário Avulso - habilitação obtida mediante participação e aprovação\nem cursos e treinamentos ofertados ou aceitos pelo OGMO, conforme legislação específica portuária\n(ministrados pela Marinha - DPC, requisitantes de mão de obra avulsa, sindicato da categoria ou",
     "heading": "Introdução",
-    "char_offset": 100908
+    "char_offset": 100477
   },
   {
     "id": "chunk-342",
-    "text": "destinadas ou provenientes de transporte aquaviário. Estão também compreendidas: a ETC - Estação\nde Transbordo de Cargas: instalação portuária explorada mediante autorização, localizada fora da\nárea do porto organizado e utilizada exclusivamente para operação de transbordo de mercadorias ou",
+    "text": "empresas especializadas), permitindo ao TPA candidatar-se às ofertas de trabalho para seu\nengajamento.\nInstalação portuária - instalação localizada dentro ou fora da área do porto organizado e utilizada em\nmovimentação de passageiros, em movimentação ou armazenagem de mercadorias e cargas diversas",
     "heading": "Introdução",
-    "char_offset": 101207
+    "char_offset": 100771
   },
   {
     "id": "chunk-343",
-    "text": "cargas em embarcações de navegação interior ou cabotagem; a Instalação Portuária Pública de\n_Este texto não substitui o publicado no DOU_\nPequeno Porte: explorada mediante autorização, localizada fora do porto organizado e utilizada na\nmovimentação de passageiros, mercadorias ou cargas diversas em embarcações de navegação",
+    "text": "destinadas ou provenientes de transporte aquaviário. Estão também compreendidas: a ETC - Estação\nde Transbordo de Cargas: instalação portuária explorada mediante autorização, localizada fora da\nárea do porto organizado e utilizada exclusivamente para operação de transbordo de mercadorias ou",
     "heading": "Introdução",
-    "char_offset": 101501
+    "char_offset": 101070
   },
   {
     "id": "chunk-344",
-    "text": "interior; e a Instalação Portuária de Turismo: instalação portuária explorada mediante arrendamento\nou autorização e utilizada em embarque, desembarque e trânsito de passageiros, tripulantes e\nbagagens, e de insumos para o provimento e abastecimento de embarcações de turismo.",
+    "text": "cargas em embarcações de navegação interior ou cabotagem; a Instalação Portuária Pública de\n_Este texto não substitui o publicado no DOU_\nPequeno Porte: explorada mediante autorização, localizada fora do porto organizado e utilizada na\nmovimentação de passageiros, mercadorias ou cargas diversas em embarcações de navegação",
     "heading": "Introdução",
-    "char_offset": 101825
+    "char_offset": 101364
   },
   {
     "id": "chunk-345",
-    "text": "Lingada - é a porção de cargas ou amarrado de mercadorias que a Linga/Estropo levanta por vez\natravés de aparelho de içar.\nMadeira verde - madeira cujo teor de umidade excede o ponto de saturação das fibras.\nMáquinas e equipamentos de cais - engenho destinado ao deslocamento da carga do porto para a",
+    "text": "interior; e a Instalação Portuária de Turismo: instalação portuária explorada mediante arrendamento\nou autorização e utilizada em embarque, desembarque e trânsito de passageiros, tripulantes e\nbagagens, e de insumos para o provimento e abastecimento de embarcações de turismo.",
     "heading": "Introdução",
-    "char_offset": 102105
+    "char_offset": 101688
   },
   {
     "id": "chunk-346",
-    "text": "embarcação e vice-versa ou sua utilização no porão da embarcação. Pode ser autopropelido ou não.\nInclui aparelhos de içar, carregador de embarcação ( **shiploader** ), correias transportadoras,\nempilhadeiras, escavadeiras e pás carregadeiras.\nMercadoria - qualquer tipo de volume ou unidade de carga, embalado ou não, transportado,",
+    "text": "Lingada - é a porção de cargas ou amarrado de mercadorias que a Linga/Estropo levanta por vez\natravés de aparelho de içar.\nMadeira verde - madeira cujo teor de umidade excede o ponto de saturação das fibras.\nMáquinas e equipamentos de cais - engenho destinado ao deslocamento da carga do porto para a",
     "heading": "Introdução",
-    "char_offset": 102407
+    "char_offset": 101968
   },
   {
     "id": "chunk-347",
-    "text": "movimentado ou armazenado nos ambientes laborais alcançados pela aplicabilidade desta norma\nregulamentadora, cuja finalidade seja o comércio de bens.\nNormas da Autoridade Marítima (NORMAN) - normas estabelecidas pela autoridade marítima\nbrasileira, com os objetivos de salvaguarda da vida humana e segurança da navegação no mar aberto",
+    "text": "embarcação e vice-versa ou sua utilização no porão da embarcação. Pode ser autopropelido ou não.\nInclui aparelhos de içar, carregador de embarcação ( **shiploader** ), correias transportadoras,\nempilhadeiras, escavadeiras e pás carregadeiras.\nMercadoria - qualquer tipo de volume ou unidade de carga, embalado ou não, transportado,",
     "heading": "Introdução",
-    "char_offset": 102740
+    "char_offset": 102270
   },
   {
     "id": "chunk-348",
-    "text": "e hidrovias interiores, bem como pela prevenção da poluição ambiental causada por embarcações,\nplataformas e suas instalações de apoio, além de outros cometimentos a ela conferidos pela\nlegislação.\nOperação portuária - movimentação e/ou armazenagem de mercadorias, destinadas ou provenientes",
+    "text": "movimentado ou armazenado nos ambientes laborais alcançados pela aplicabilidade desta norma\nregulamentadora, cuja finalidade seja o comércio de bens.\nNormas da Autoridade Marítima (NORMAN) - normas estabelecidas pela autoridade marítima\nbrasileira, com os objetivos de salvaguarda da vida humana e segurança da navegação no mar aberto",
     "heading": "Introdução",
-    "char_offset": 103076
+    "char_offset": 102603
   },
   {
     "id": "chunk-349",
-    "text": "de transporte aquaviário, realizada em porto organizado ou instalação portuária de uso privado por\noperador portuário, tomador de serviço ou empregador.\nOperador portuário - pessoa jurídica pré-qualificada pela autoridade portuária para exercer as\natividades de movimentação de passageiros ou movimentação e armazenagem de mercadorias,",
+    "text": "e hidrovias interiores, bem como pela prevenção da poluição ambiental causada por embarcações,\nplataformas e suas instalações de apoio, além de outros cometimentos a ela conferidos pela\nlegislação.\nOperação portuária - movimentação e/ou armazenagem de mercadorias, destinadas ou provenientes",
     "heading": "Introdução",
-    "char_offset": 103369
+    "char_offset": 102939
   },
   {
     "id": "chunk-350",
-    "text": "destinadas ou provenientes de transporte aquaviário, dentro da área do porto organizado.\nPalete - ver estrado.\nPeação - fixação da carga nos porões e conveses da embarcação, visando evitar seu deslocamento e\npossível avaria em razão dos movimentos da embarcação, objetivando sua preservação e a segurança",
+    "text": "de transporte aquaviário, realizada em porto organizado ou instalação portuária de uso privado por\noperador portuário, tomador de serviço ou empregador.\nOperador portuário - pessoa jurídica pré-qualificada pela autoridade portuária para exercer as\natividades de movimentação de passageiros ou movimentação e armazenagem de mercadorias,",
     "heading": "Introdução",
-    "char_offset": 103707
+    "char_offset": 103232
   },
   {
     "id": "chunk-351",
-    "text": "da navegação.\nPessoa responsável - é aquela designada por operador portuário, empregadores, tomador de serviço,\ncomandante de embarcação, OGMO, sindicato de classe, autoridade portuária, entre outros,\nconforme o caso, que possua conhecimento, autoridade, comando e autonomia suficientes para",
+    "text": "destinadas ou provenientes de transporte aquaviário, dentro da área do porto organizado.\nPalete - ver estrado.\nPeação - fixação da carga nos porões e conveses da embarcação, visando evitar seu deslocamento e\npossível avaria em razão dos movimentos da embarcação, objetivando sua preservação e a segurança",
     "heading": "Introdução",
-    "char_offset": 104013
+    "char_offset": 103570
   },
   {
     "id": "chunk-352",
-    "text": "assegurar o cumprimento de uma ou mais tarefas específicas que lhe forem confiadas por quem de\ndireito.\nPortaló - local de entrada da embarcação, onde desemboca a escada que liga o cais à embarcação.\nPorto - local situado em baía, angra, enseada, foz ou margens de rios, que ofereça proteção natural",
+    "text": "da navegação.\nPessoa responsável - é aquela designada por operador portuário, empregadores, tomador de serviço,\ncomandante de embarcação, OGMO, sindicato de classe, autoridade portuária, entre outros,\nconforme o caso, que possua conhecimento, autoridade, comando e autonomia suficientes para",
     "heading": "Introdução",
-    "char_offset": 104308
+    "char_offset": 103876
   },
   {
     "id": "chunk-353",
-    "text": "ou artificial contra ventos, marés, ondas e correntes, e ofereça instalações para atracação e\namarração de embarcações, áreas de armazenagem e equipamentos de movimentação de carga, que\npossibilite o embarque e desembarque de mercadorias, cargas diversas e passageiros.",
+    "text": "assegurar o cumprimento de uma ou mais tarefas específicas que lhe forem confiadas por quem de\ndireito.\nPortaló - local de entrada da embarcação, onde desemboca a escada que liga o cais à embarcação.\nPorto - local situado em baía, angra, enseada, foz ou margens de rios, que ofereça proteção natural",
     "heading": "Introdução",
-    "char_offset": 104608
+    "char_offset": 104171
   },
   {
     "id": "chunk-354",
-    "text": "_Este texto não substitui o publicado no DOU_\nPorto organizado - bem público construído e aparelhado para atender a necessidades de navegação,\nde movimentação de passageiros ou de movimentação e armazenagem de mercadorias, e cujo\ntráfego e operações portuárias estejam sob jurisdição de autoridade portuária.",
+    "text": "ou artificial contra ventos, marés, ondas e correntes, e ofereça instalações para atracação e\namarração de embarcações, áreas de armazenagem e equipamentos de movimentação de carga, que\npossibilite o embarque e desembarque de mercadorias, cargas diversas e passageiros.",
     "heading": "Introdução",
-    "char_offset": 104880
+    "char_offset": 104471
   },
   {
     "id": "chunk-355",
-    "text": "Profissional legalmente habilitado - o trabalhador previamente qualificado e com registro no\ncompetente conselho de classe.\nSilo - construção de metal, aço ou concreto armado, composto de células interligadas por condutos,\ndestinada a receber grãos vegetais.",
+    "text": "_Este texto não substitui o publicado no DOU_\nPorto organizado - bem público construído e aparelhado para atender a necessidades de navegação,\nde movimentação de passageiros ou de movimentação e armazenagem de mercadorias, e cujo\ntráfego e operações portuárias estejam sob jurisdição de autoridade portuária.",
     "heading": "Introdução",
-    "char_offset": 105191
+    "char_offset": 104743
   },
   {
     "id": "chunk-356",
-    "text": "Sinaleiro - é o trabalhador portuário com curso de sinalização para movimentação de carga. A função\ndo sinaleiro é realizar a comunicação com o operador do equipamento de içar para a correta\norientação espacial da manobra de movimentação da carga.\nTerminal de uso privado - instalação portuária explorada mediante autorização e localizada fora da",
+    "text": "Profissional legalmente habilitado - o trabalhador previamente qualificado e com registro no\ncompetente conselho de classe.\nSilo - construção de metal, aço ou concreto armado, composto de células interligadas por condutos,\ndestinada a receber grãos vegetais.",
     "heading": "Introdução",
-    "char_offset": 105452
+    "char_offset": 105054
   },
   {
     "id": "chunk-357",
-    "text": "área do porto organizado.\nTerminal retroportuário - É o estabelecimento situado próximo a um porto organizado ou a uma\ninstalação portuária, compreendida no perímetro de cinco quilômetros dos limites da zona primária,\ncom área demarcada pela autoridade aduaneira local, no qual são executados os serviços de",
+    "text": "Sinaleiro - é o trabalhador portuário com curso de sinalização para movimentação de carga. A função\ndo sinaleiro é realizar a comunicação com o operador do equipamento de içar para a correta\norientação espacial da manobra de movimentação da carga.\nTerminal de uso privado - instalação portuária explorada mediante autorização e localizada fora da",
     "heading": "Introdução",
-    "char_offset": 105800
+    "char_offset": 105315
   },
   {
     "id": "chunk-358",
-    "text": "operação, sob controle aduaneiro, com carga de importação e exportação, embarcadas em contêiner,\nreboque ou semi-reboque.\nTomador de serviço - é a pessoa física ou jurídica que requisita Trabalhador Portuário Avulso - TPA\njunto ao OGMO para a execução de operações portuárias fora do Porto Organizado, como ocorre nos",
+    "text": "área do porto organizado.\nTerminal retroportuário - É o estabelecimento situado próximo a um porto organizado ou a uma\ninstalação portuária, compreendida no perímetro de cinco quilômetros dos limites da zona primária,\ncom área demarcada pela autoridade aduaneira local, no qual são executados os serviços de",
     "heading": "Introdução",
-    "char_offset": 106109
+    "char_offset": 105663
   },
   {
     "id": "chunk-359",
-    "text": "Terminais de Uso Privado - TUP. Em alguns portos organizados a requisição de TPA pode ocorrer para\nmovimentar cargas diversas, exemplo de movimentações de carga **offshore** e de rancho (material de\nbordo).\nTrabalhador capacitado - aquele que recebe capacitação sob orientação e responsabilidade de",
+    "text": "operação, sob controle aduaneiro, com carga de importação e exportação, embarcadas em contêiner,\nreboque ou semi-reboque.\nTomador de serviço - é a pessoa física ou jurídica que requisita Trabalhador Portuário Avulso - TPA\njunto ao OGMO para a execução de operações portuárias fora do Porto Organizado, como ocorre nos",
     "heading": "Introdução",
-    "char_offset": 106428
+    "char_offset": 105972
   },
   {
     "id": "chunk-360",
-    "text": "profissional legalmente habilitado.\nTrabalhador qualificado - aquele que comprova conclusão de curso específico para sua atividade em\ninstituição reconhecida pelo sistema oficial de ensino.\nTrabalhador portuário - profissional treinado e habilitado para executar as atividades relacionadas ao",
+    "text": "Terminais de Uso Privado - TUP. Em alguns portos organizados a requisição de TPA pode ocorrer para\nmovimentar cargas diversas, exemplo de movimentações de carga **offshore** e de rancho (material de\nbordo).\nTrabalhador capacitado - aquele que recebe capacitação sob orientação e responsabilidade de",
     "heading": "Introdução",
-    "char_offset": 106729
+    "char_offset": 106291
   },
   {
     "id": "chunk-361",
-    "text": "trabalho portuário, com vínculo empregatício por prazo indeterminado ou avulso, conforme definido\nem lei especial.\nTrabalho portuário - são atividades exclusivas definidas em lei especial relacionadas aos serviços de\ncapatazia, estiva, conferência de carga, conserto de carga, bloco e vigilância de embarcações, nos",
+    "text": "profissional legalmente habilitado.\nTrabalhador qualificado - aquele que comprova conclusão de curso específico para sua atividade em\ninstituição reconhecida pelo sistema oficial de ensino.\nTrabalhador portuário - profissional treinado e habilitado para executar as atividades relacionadas ao",
     "heading": "Introdução",
-    "char_offset": 107023
+    "char_offset": 106592
   },
   {
     "id": "chunk-362",
-    "text": "portos organizados e instalações portuárias.\nTransbordo - movimentação de mercadorias ou de cargas diversas entre embarcações ou entre estas\ne outros modais de transporte.\nVigia de portaló - vigia portuário que fica no controle de entrada e saída de pessoas junto à escada de",
+    "text": "trabalho portuário, com vínculo empregatício por prazo indeterminado ou avulso, conforme definido\nem lei especial.\nTrabalho portuário - são atividades exclusivas definidas em lei especial relacionadas aos serviços de\ncapatazia, estiva, conferência de carga, conserto de carga, bloco e vigilância de embarcações, nos",
     "heading": "Introdução",
-    "char_offset": 107341
+    "char_offset": 106886
   },
   {
     "id": "chunk-363",
-    "text": "portaló.\n_Este texto não substitui o publicado no DOU_",
-    "heading": "Tabelas",
-    "char_offset": 107674
+    "text": "portos organizados e instalações portuárias.\nTransbordo - movimentação de mercadorias ou de cargas diversas entre embarcações ou entre estas\ne outros modais de transporte.\nVigia de portaló - vigia portuário que fica no controle de entrada e saída de pessoas junto à escada de",
+    "heading": "Introdução",
+    "char_offset": 107204
   },
   {
     "id": "chunk-364",
-    "text": "> [Tabela 1: page 35](../assets/tables/page_035_table_00.html)\n> [Tabela 2: page 35](../assets/tables/page_035_table_01.html)\n> [Tabela 3: page 35](../assets/tables/page_035_table_02.html)\n> [Tabela 4: page 36](../assets/tables/page_036_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 107678
-  },
-  {
-    "id": "chunk-365",
-    "text": "> [Tabela 5: page 36](../assets/tables/page_036_table_01.html)\n> [Tabela 6: page 37](../assets/tables/page_037_table_00.html)\n> [Tabela 7: page 37](../assets/tables/page_037_table_01.html)\n> [Tabela 8: page 38](../assets/tables/page_038_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 107934
-  },
-  {
-    "id": "chunk-366",
-    "text": "> [Tabela 9: page 38](../assets/tables/page_038_table_01.html)",
-    "heading": "Tabelas",
-    "char_offset": 108188
+    "text": "portaló.\n_Este texto não substitui o publicado no DOU_",
+    "heading": "Introdução",
+    "char_offset": 107482
   }
 ]

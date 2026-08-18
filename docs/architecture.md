@@ -76,7 +76,7 @@ nr-facil/
 
 1. **Extração** — 3 passes sempre executados sobre o mesmo PDF (sem classificação prévia por complexidade — toda NR recebe o mesmo tratamento):
    - Pass texto: `pymupdf4llm` → corpo normativo
-   - Pass tabelas: `pdfplumber` → HTML em `assets/tables/`
+   - Pass tabelas: `pdfplumber` → Markdown inline, no ponto certo do texto (fallback: PNG de página inteira se ilegível nos dois passes, como cabeçalho com texto vertical)
    - Pass imagens/diagramas: render de página → PNG em `assets/pages/page-XX.png`
    - Merge dos 3 passes num único `.md` padronizado
    - PDF original salvo + `pdf_hash`
@@ -176,7 +176,7 @@ Gerado por [`scripts/build_app_meta.py`](../scripts/build_app_meta.py) — sem m
 
 - `flutter_markdown` + tipografia customizada
 - Índice lateral de `index.json`
-- Assets: imagens, tabelas HTML (`flutter_widget_from_html`), PNG zoom (`photo_view`)
+- Assets: imagens e tabelas via Markdown padrão (`flutter_markdown`), PNG zoom (`photo_view`) — `flutter_widget_from_html` não é mais necessário, tabelas saem do pipeline como Markdown nativo
 - Link "Ver PDF original no MTE"
 - Aviso legal fixo
 

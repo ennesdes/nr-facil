@@ -487,176 +487,176 @@
   },
   {
     "id": "chunk-81",
-    "text": "deve ser efetivado na próxima eleição.\n|Quadro I – Dimensionamento da CIPA|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|Col14|Col15|Col16|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|**NÚMERO DE EMPREGADOS NO ESTABELECIMENTO**|",
+    "text": "deve ser efetivado na próxima eleição.\n*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com\ncorrespondente Grau de Risco - GR para fins de dimensionamento do SESMT.",
     "heading": "Introdução",
     "char_offset": 24762
   },
   {
     "id": "chunk-82",
-    "text": "|**GRAU**<br>**de**<br>**RISCO***|**Nº de**<br>**INTEGRANTES**<br>**da CIPA**|**0 a**<br>**19**|**20**<br>**a **<br>**29**|**30**<br>**a **<br>**50**|**51**<br>**a **<br>**80**|**81 a**<br>**100**|**101**<br>**a **<br>**120**|**121**<br>**a **<br>**140**|**141**<br>**a **<br>**300**|**301**<br>**a **<br>**500**|**501 a**<br>**1000**|**1001**<br>**a **<br>**2500**|**2501**<br>**a **<br>**5000**|**5001 a**<br>**10.000**|**Acima de**<br>**10.000 para**<br>**cada grupo**<br>**de 2500**<br>**acrescentar**|",
+    "text": "| NÚMERO DE EMPREGADOS NO ESTABELECIMENTO |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| GRAU\nde\nRISCO* | Nº de\nINTEGRANTES\nda CIPA | 0 a\n19 | 20\na\n29 | 30",
     "heading": "Introdução",
-    "char_offset": 25692
+    "char_offset": 25019
   },
   {
     "id": "chunk-83",
-    "text": "|1|Efetivos|||||1|1|1|1|2|4|5|6|8|1|\n|1|Suplentes|||||1|1|1|1|2|3|4|5|6|1|\n|2|Efetivos||||1|1|2|2|3|4|5|6|8|10|1|\n|2|Suplentes||||1|1|1|1|2|3|4|5|6|8|1|\n|3|Efetivos||1|1|2|2|2|3|4|5|6|8|10|12|2|\n|3|Suplentes||1|1|1|1|1|2|2|4|4|6|8|8|2|\n|4|Efetivos||1|2|3|3|4|4|4|5|6|9|11|13|2|",
+    "text": "a\n50 | 51\na\n80 | 81 a\n100 | 101\na\n120 | 121\na\n140 | 141\na\n300 | 301\na\n500 | 501 a\n1000 | 1001\na\n2500 | 2501\na\n5000 | 5001 a\n10.000 | Acima de\n10.000 para\ncada grupo\nde 2500\nacrescentar |\n| 1 | Efetivos |  |  |  |  | 1 | 1 | 1 | 1 | 2 | 4 | 5 | 6 | 8 | 1 |",
     "heading": "Introdução",
-    "char_offset": 26199
+    "char_offset": 25275
   },
   {
     "id": "chunk-84",
-    "text": "|4|Suplentes||1|1|2|2|2|2|3|4|5|7|8|10|2|\n*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com\ncorrespondente Grau de Risco - GR para fins de dimensionamento do SESMT.",
+    "text": "|  | Suplentes |  |  |  |  | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 1 |\n| 2 | Efetivos |  |  |  | 1 | 1 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 1 |\n|  | Suplentes |  |  |  | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 1 |\n| 3 | Efetivos |  | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 2 |",
     "heading": "Introdução",
-    "char_offset": 26478
+    "char_offset": 25531
   },
   {
     "id": "chunk-85",
-    "text": "**ANEXO I da NR-5**\n**CIPA DA INDÚSTRIA DA CONSTRUÇÃO**\n**Sumário**\n1. Objetivo\n2. Campo de Aplicação\n3. Disposições Gerais\n**1.** **Objetivo**\n1.1 Este anexo estabelece requisitos específicos para a Comissão Interna de Prevenção de\nAcidentes e de Assédio - CIPA da indústria da construção. _(alterado pela Portaria MTP nº 4.219, de_",
+    "text": "|  | Suplentes |  | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 4 | 4 | 6 | 8 | 8 | 2 |\n| 4 | Efetivos |  | 1 | 2 | 3 | 3 | 4 | 4 | 4 | 5 | 6 | 9 | 11 | 13 | 2 |\n|  | Suplentes |  | 1 | 1 | 2 | 2 | 2 | 2 | 3 | 4 | 5 | 7 | 8 | 10 | 2 |\n**ANEXO I da NR-5**\n**CIPA DA INDÚSTRIA DA CONSTRUÇÃO**",
     "heading": "Introdução",
-    "char_offset": 26742
+    "char_offset": 25816
   },
   {
     "id": "chunk-86",
-    "text": "_20 de dezembro de 2022)_\n**2.** **Campo de Aplicação**\n2.1 As disposições estabelecidas neste Anexo se aplicam às organizações previstas no\nsubitem 18.2.1 da Norma Regulamentadora nº 18 - CONDIÇÕES DE SEGURANÇA E SAÚDE NO\nTRABALHO NA INDÚSTRIA DA CONSTRUÇÃO.",
+    "text": "**Sumário**\n1. Objetivo\n2. Campo de Aplicação\n3. Disposições Gerais\n**1.** **Objetivo**\n1.1 Este anexo estabelece requisitos específicos para a Comissão Interna de Prevenção de\nAcidentes e de Assédio - CIPA da indústria da construção. _(alterado pela Portaria MTP nº 4.219, de_",
     "heading": "Introdução",
-    "char_offset": 27078
+    "char_offset": 26095
   },
   {
     "id": "chunk-87",
-    "text": "**3.** **Disposições Gerais**\n3.1 A organização responsável pela obra deve constituir a CIPA por canteiro de obras quando\no número de empregados se enquadrar no dimensionamento previsto no Quadro I da NR05, observadas as disposições gerais dessa Norma.",
+    "text": "_20 de dezembro de 2022)_\n**2.** **Campo de Aplicação**\n2.1 As disposições estabelecidas neste Anexo se aplicam às organizações previstas no\nsubitem 18.2.1 da Norma Regulamentadora nº 18 - CONDIÇÕES DE SEGURANÇA E SAÚDE NO\nTRABALHO NA INDÚSTRIA DA CONSTRUÇÃO.",
     "heading": "Introdução",
-    "char_offset": 27340
+    "char_offset": 26375
   },
   {
     "id": "chunk-88",
-    "text": "3.1.1 Quando o canteiro de obras não se enquadrar no dimensionamento previsto no\nQuadro I da NR-05, a organização responsável pela obra deverá nomear entre seus\nempregados do local, no mínimo, um representante para cumprir os objetivos da NR-05.\n3.1.2 A organização responsável pela obra está dispensada de constituir CIPA por frente de",
+    "text": "**3.** **Disposições Gerais**\n3.1 A organização responsável pela obra deve constituir a CIPA por canteiro de obras quando\no número de empregados se enquadrar no dimensionamento previsto no Quadro I da NR05, observadas as disposições gerais dessa Norma.",
     "heading": "Introdução",
-    "char_offset": 27595
+    "char_offset": 26637
   },
   {
     "id": "chunk-89",
-    "text": "trabalho.\n3.1.3 Quando existir frente de trabalho, independentemente da quantidade de empregados\npróprios no local, a organização responsável pela obra deverá nomear, entre seus\nempregados, no mínimo, um representante, que exerça suas atividades na frente de",
+    "text": "3.1.1 Quando o canteiro de obras não se enquadrar no dimensionamento previsto no\nQuadro I da NR-05, a organização responsável pela obra deverá nomear entre seus\nempregados do local, no mínimo, um representante para cumprir os objetivos da NR-05.\n3.1.2 A organização responsável pela obra está dispensada de constituir CIPA por frente de",
     "heading": "Introdução",
-    "char_offset": 27934
+    "char_offset": 26892
   },
   {
     "id": "chunk-90",
-    "text": "trabalho ou no canteiro de obras, para cumprir os objetivos da NR-05.\n3.1.3.1 O representante nomeado da NR-05 da organização responsável pela obra pode ser\nnomeado como representante para mais de uma frente de trabalho.\n3.2 Havendo no canteiro de obras ou na frente de trabalho organização prestadora de",
+    "text": "trabalho.\n3.1.3 Quando existir frente de trabalho, independentemente da quantidade de empregados\npróprios no local, a organização responsável pela obra deverá nomear, entre seus\nempregados, no mínimo, um representante, que exerça suas atividades na frente de",
     "heading": "Introdução",
-    "char_offset": 28195
+    "char_offset": 27231
   },
   {
     "id": "chunk-91",
-    "text": "serviços a terceiros, essa deve nomear, no mínimo, um representante da NR-05, quando\npossuir cinco ou mais empregados próprios no local.\nEste texto não substitui o publicado no DOU 12\n3.2.1 A nomeação do representante da NR-05 da organização prestadora de serviços a",
+    "text": "trabalho ou no canteiro de obras, para cumprir os objetivos da NR-05.\n3.1.3.1 O representante nomeado da NR-05 da organização responsável pela obra pode ser\nnomeado como representante para mais de uma frente de trabalho.\n3.2 Havendo no canteiro de obras ou na frente de trabalho organização prestadora de",
     "heading": "Introdução",
-    "char_offset": 28502
+    "char_offset": 27492
   },
   {
     "id": "chunk-92",
-    "text": "terceiros, no canteiro de obras ou na frente de trabalho, deve ser feita entre os empregados\nque obrigatoriamente exercem suas atividades no local.\n3.2.2 A organização responsável pela obra deve exigir da organização prestadora de serviços\na terceiros que presta serviços no canteiro de obras ou na frente de trabalho a nomeação do",
+    "text": "serviços a terceiros, essa deve nomear, no mínimo, um representante da NR-05, quando\npossuir cinco ou mais empregados próprios no local.\nEste texto não substitui o publicado no DOU 12\n3.2.1 A nomeação do representante da NR-05 da organização prestadora de serviços a",
     "heading": "Introdução",
-    "char_offset": 28770
+    "char_offset": 27799
   },
   {
     "id": "chunk-93",
-    "text": "representante da NR-05, quando essa alcançar o mínimo previsto no item 3.2.\n3.2.3 A organização que presta serviços a terceiros nos canteiros de obras ou frentes de\ntrabalho, quando o dimensionamento se enquadrar no Quadro I da NR-05, considerando o",
+    "text": "terceiros, no canteiro de obras ou na frente de trabalho, deve ser feita entre os empregados\nque obrigatoriamente exercem suas atividades no local.\n3.2.2 A organização responsável pela obra deve exigir da organização prestadora de serviços\na terceiros que presta serviços no canteiro de obras ou na frente de trabalho a nomeação do",
     "heading": "Introdução",
-    "char_offset": 29103
+    "char_offset": 28067
   },
   {
     "id": "chunk-94",
-    "text": "número total de empregados nos diferentes locais de trabalho, deve constituir uma CIPA\ncentralizada.\n3.2.3.1 O dimensionamento da CIPA centralizada da organização prestadora de serviços a\nterceiros nos canteiros de obras ou frentes de trabalho deve levar em consideração o",
+    "text": "representante da NR-05, quando essa alcançar o mínimo previsto no item 3.2.\n3.2.3 A organização que presta serviços a terceiros nos canteiros de obras ou frentes de\ntrabalho, quando o dimensionamento se enquadrar no Quadro I da NR-05, considerando o",
     "heading": "Introdução",
-    "char_offset": 29355
+    "char_offset": 28400
   },
   {
     "id": "chunk-95",
-    "text": "número de empregados da organização distribuídos nos diferentes locais de trabalho onde\npresta serviços, tendo como limite territorial, para o dimensionamento da CIPA Centralizada,\na Unidade da Federação.\n3.2.3.1.1 A organização deve garantir que a CIPA centralizada mantenha interação entre os",
+    "text": "número total de empregados nos diferentes locais de trabalho, deve constituir uma CIPA\ncentralizada.\n3.2.3.1 O dimensionamento da CIPA centralizada da organização prestadora de serviços a\nterceiros nos canteiros de obras ou frentes de trabalho deve levar em consideração o",
     "heading": "Introdução",
-    "char_offset": 29629
+    "char_offset": 28652
   },
   {
     "id": "chunk-96",
-    "text": "canteiros de obras e frentes de trabalho onde atua na Unidade da Federação.\n3.3 Obras com até 180 (cento e oitenta) dias de duração estão dispensadas da constituição\nda CIPA, devendo a Comunicação Prévia de Obra ser enviada ao sindicato dos trabalhadores",
+    "text": "número de empregados da organização distribuídos nos diferentes locais de trabalho onde\npresta serviços, tendo como limite territorial, para o dimensionamento da CIPA Centralizada,\na Unidade da Federação.\n3.2.3.1.1 A organização deve garantir que a CIPA centralizada mantenha interação entre os",
     "heading": "Introdução",
-    "char_offset": 29925
+    "char_offset": 28926
   },
   {
     "id": "chunk-97",
-    "text": "da categoria preponderante do local, no prazo máximo de 10 (dez) dias, a partir de seu\nregistro eletrônico no Sistema de Comunicação Prévia de Obras - SCPO.\n3.3.1 Para obras com até 180 (cento e oitenta) dias de duração, a organização responsável\npela obra deverá nomear, no mínimo, um representante da NR-05, aplicando-se o disposto",
+    "text": "canteiros de obras e frentes de trabalho onde atua na Unidade da Federação.\n3.3 Obras com até 180 (cento e oitenta) dias de duração estão dispensadas da constituição\nda CIPA, devendo a Comunicação Prévia de Obra ser enviada ao sindicato dos trabalhadores",
     "heading": "Introdução",
-    "char_offset": 30181
+    "char_offset": 29222
   },
   {
     "id": "chunk-98",
-    "text": "no subitem 3.1.2 quando existir frente de trabalho.\n3.3.2 Para obras com até 180 (cento e oitenta) dias de duração, havendo no canteiro de\nobras ou na frente de trabalho organização prestadora de serviços a terceiros, essa deverá\nnomear, no mínimo, um representante da NR-05, quando possuir cinco ou mais empregados",
+    "text": "da categoria preponderante do local, no prazo máximo de 10 (dez) dias, a partir de seu\nregistro eletrônico no Sistema de Comunicação Prévia de Obras - SCPO.\n3.3.1 Para obras com até 180 (cento e oitenta) dias de duração, a organização responsável\npela obra deverá nomear, no mínimo, um representante da NR-05, aplicando-se o disposto",
     "heading": "Introdução",
-    "char_offset": 30516
+    "char_offset": 29478
   },
   {
     "id": "chunk-99",
-    "text": "próprios no local.\n3.4 A escolha do representante nomeado da NR-05 compete à organização, observado o\ndisposto nos itens 5.4.14 e 5.4.15.\n3.4.1 A organização deve fornecer ao representante nomeado da NR-05 cópia da sua\nnomeação.\n3.5 Os membros da CIPA do canteiro de obras devem participar de treinamento, conforme",
+    "text": "no subitem 3.1.2 quando existir frente de trabalho.\n3.3.2 Para obras com até 180 (cento e oitenta) dias de duração, havendo no canteiro de\nobras ou na frente de trabalho organização prestadora de serviços a terceiros, essa deverá\nnomear, no mínimo, um representante da NR-05, quando possuir cinco ou mais empregados",
     "heading": "Introdução",
-    "char_offset": 30836
+    "char_offset": 29813
   },
   {
     "id": "chunk-100",
-    "text": "estabelecido nessa Norma.\n3.5.1 O representante nomeado da NR-05 deve participar de treinamento com carga horária\nmínima de oito horas, considerando o disposto no item 1.7 da NR-01 e observadas as\ndisposições gerais dessa Norma, com o seguinte conteúdo:",
+    "text": "próprios no local.\n3.4 A escolha do representante nomeado da NR-05 compete à organização, observado o\ndisposto nos itens 5.4.14 e 5.4.15.\n3.4.1 A organização deve fornecer ao representante nomeado da NR-05 cópia da sua\nnomeação.\n3.5 Os membros da CIPA do canteiro de obras devem participar de treinamento, conforme",
     "heading": "Introdução",
-    "char_offset": 31153
+    "char_offset": 30133
   },
   {
     "id": "chunk-101",
-    "text": "Este texto não substitui o publicado no DOU 13\na) noções de prevenção de acidentes e doenças relacionadas ao trabalho;\nb) estudo do ambiente e das condições de trabalho, dos riscos originados no processo\nprodutivo e das medidas de prevenção, de acordo com a etapa da obra; e",
+    "text": "estabelecido nessa Norma.\n3.5.1 O representante nomeado da NR-05 deve participar de treinamento com carga horária\nmínima de oito horas, considerando o disposto no item 1.7 da NR-01 e observadas as\ndisposições gerais dessa Norma, com o seguinte conteúdo:",
     "heading": "Introdução",
-    "char_offset": 31410
+    "char_offset": 30450
   },
   {
     "id": "chunk-102",
-    "text": "c) noções sobre a legislação trabalhista e previdenciária relativas à segurança e saúde no\ntrabalho; e\nd) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho.\n_(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "text": "Este texto não substitui o publicado no DOU 13\na) noções de prevenção de acidentes e doenças relacionadas ao trabalho;\nb) estudo do ambiente e das condições de trabalho, dos riscos originados no processo\nprodutivo e das medidas de prevenção, de acordo com a etapa da obra; e",
     "heading": "Introdução",
-    "char_offset": 31688
+    "char_offset": 30707
   },
   {
     "id": "chunk-103",
-    "text": "3.5.1.1 A validade do treinamento do representante nomeado da NR-05 deverá atender ao\ndisposto nessa Norma, podendo ser, dentro do prazo de validade e para a organização que\npromoveu o treinamento, aproveitado em diferentes canteiros de obras ou frentes de",
+    "text": "c) noções sobre a legislação trabalhista e previdenciária relativas à segurança e saúde no\ntrabalho; e\nd) prevenção e combate ao assédio sexual e a outras formas de violência no trabalho.\n_(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
     "heading": "Introdução",
-    "char_offset": 31944
+    "char_offset": 30985
   },
   {
     "id": "chunk-104",
-    "text": "trabalho.\n3.5.1.2 É permitida a convalidação do treinamento do representante nomeado da NR-05 por\ndiferentes organizações, desde que atendido o disposto no item 1.7 da NR-01.\n3.6 A organização responsável pela obra deve coordenar, observadas as disposições gerais",
+    "text": "3.5.1.1 A validade do treinamento do representante nomeado da NR-05 deverá atender ao\ndisposto nessa Norma, podendo ser, dentro do prazo de validade e para a organização que\npromoveu o treinamento, aproveitado em diferentes canteiros de obras ou frentes de",
     "heading": "Introdução",
-    "char_offset": 32204
+    "char_offset": 31241
   },
   {
     "id": "chunk-105",
-    "text": "dessa Norma, o trabalho da CIPA, quando existente no canteiro de obras, e, quando\naplicável, do representante nomeado da NR-05.\n3.6.1 A organização responsável pela obra deve promover a integração entre a CIPA, quando\nexistente, e o representante nomeado da NR-05, quando aplicável, no canteiro de obras e na",
+    "text": "trabalho.\n3.5.1.2 É permitida a convalidação do treinamento do representante nomeado da NR-05 por\ndiferentes organizações, desde que atendido o disposto no item 1.7 da NR-01.\n3.6 A organização responsável pela obra deve coordenar, observadas as disposições gerais",
     "heading": "Introdução",
-    "char_offset": 32469
+    "char_offset": 31501
   },
   {
     "id": "chunk-106",
-    "text": "frente de trabalho, observadas as disposições gerais dessa Norma.\n3.6.2. A participação dos membros da CIPA e do representante nomeado da NR-05 nas\nreuniões, para cumprir os objetivos dessa Norma, deve atender ao disposto em sua parte\ngeral.\n3.7 A CIPA do canteiro de obras será considerada encerrada, para todos os efeitos, quando",
+    "text": "dessa Norma, o trabalho da CIPA, quando existente no canteiro de obras, e, quando\naplicável, do representante nomeado da NR-05.\n3.6.1 A organização responsável pela obra deve promover a integração entre a CIPA, quando\nexistente, e o representante nomeado da NR-05, quando aplicável, no canteiro de obras e na",
     "heading": "Introdução",
-    "char_offset": 32780
+    "char_offset": 31766
   },
   {
     "id": "chunk-107",
-    "text": "as atividades da obra forem finalizadas.\n3.7.1 Consideram-se finalizadas as atividades da obra, para os efeitos de aplicação do\ndisposto nessa Norma, quando todas as suas etapas previstas em projetos estiverem\nconcluídas.\n3.7.2 A conclusão da obra deverá ser formalizada em documento próprio pelo responsável",
+    "text": "frente de trabalho, observadas as disposições gerais dessa Norma.\n3.6.2. A participação dos membros da CIPA e do representante nomeado da NR-05 nas\nreuniões, para cumprir os objetivos dessa Norma, deve atender ao disposto em sua parte\ngeral.\n3.7 A CIPA do canteiro de obras será considerada encerrada, para todos os efeitos, quando",
     "heading": "Introdução",
-    "char_offset": 33116
+    "char_offset": 32077
   },
   {
     "id": "chunk-108",
-    "text": "técnico da obra e cuja cópia deve ser encaminhada - física ou eletronicamente - ao sindicato\nda categoria dos trabalhadores predominante no estabelecimento.\nEste texto não substitui o publicado no DOU 14",
-    "heading": "Tabelas",
-    "char_offset": 33631
+    "text": "as atividades da obra forem finalizadas.\n3.7.1 Consideram-se finalizadas as atividades da obra, para os efeitos de aplicação do\ndisposto nessa Norma, quando todas as suas etapas previstas em projetos estiverem\nconcluídas.\n3.7.2 A conclusão da obra deverá ser formalizada em documento próprio pelo responsável",
+    "heading": "Introdução",
+    "char_offset": 32413
   },
   {
     "id": "chunk-109",
-    "text": "> [Tabela 1: page 11](../assets/tables/page_011_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 33633
+    "text": "técnico da obra e cuja cópia deve ser encaminhada - física ou eletronicamente - ao sindicato\nda categoria dos trabalhadores predominante no estabelecimento.\nEste texto não substitui o publicado no DOU 14",
+    "heading": "Introdução",
+    "char_offset": 32724
   }
 ]

@@ -379,1298 +379,1286 @@
   },
   {
     "id": "chunk-63",
-    "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n**QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)***\n|Substância|Número CAS|Indicador(es)|Momento<br>da Coleta|Valor do<br>IBE/EE|Observações|\n|---|---|---|---|---|---|\n|1,1,1<br>Tricloroetano|71-55-6|1,1,1<br>Tricloroetano no ar<br>exalado final ou|AJFS|40 ppm|-|",
+    "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n**QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)***\n| Substância | Número CAS | Indicador(es) | Momento\nda Coleta | Valor do\nIBE/EE | Observações |\n| --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
     "char_offset": 19194
   },
   {
     "id": "chunk-64",
-    "text": "|1,1,1<br>Tricloroetano|71-55-6|Ácido<br>tricloroacético<br>na<br>urina ou|FJFS|10 mg/L|NE|\n|1,1,1<br>Tricloroetano|71-55-6|Tricloroetanol<br>total<br>na urina ou|FJFS|30 mg/L|NE|\n|1,1,1<br>Tricloroetano|71-55-6|Tricloroetanol<br>total<br>no sangue|FJFS|1 mg/L|NE|",
+    "text": "| 1,1,1\nTricloroetano | 71-55-6 | 1,1,1\nTricloroetano no ar\nexalado final ou | AJFS | 40 ppm | - |\n|  |  | Ácido\ntricloroacético na\nurina ou | FJFS | 10 mg/L | NE |\n|  |  | Tricloroetanol total\nna urina ou | FJFS | 30 mg/L | NE |\n|  |  | Tricloroetanol total",
     "heading": "Introdução",
-    "char_offset": 19539
+    "char_offset": 19461
   },
   {
     "id": "chunk-65",
-    "text": "|1,3 butadieno|106-99-0|1,2<br>dihidro-4<br>(nacetilcisteína)<br>butano na urina|FJ|2,5 mg/L|EPNE|\n|1,6<br>diisocianato<br>de<br>hexametileno<br>(HDI)|822-06-0|1,6<br>hexametilenodia<br>mina na urina|FJ|15 µg/g creat.|NE|\n|2-butoxietanol|111-76-2|Ácido<br>butoxiacético<br>na urina (BAA) (H)|FJ|200<br>mg/g<br>creat.|-|",
+    "text": "no sangue | FJFS | 1 mg/L | NE |\n| 1,3 butadieno | 106-99-0 | 1,2 dihidro-4\n(nacetilcisteína)\nbutano na urina | FJ | 2,5 mg/L | EPNE |\n| 1,6 diisocianato\nde\nhexametileno\n(HDI) | 822-06-0 | 1,6\nhexametilenodia\nmina na urina | FJ | 15 µg/g creat. | NE |",
     "heading": "Introdução",
-    "char_offset": 19804
+    "char_offset": 19720
   },
   {
     "id": "chunk-66",
-    "text": "|2-metoxietanol e|109-86-4|Ácido<br>2-<br>metóxiacético<br>na<br>urina|FJFS|1 mg/g creat.|-|\n|2-<br>metoxietilacetato|109-49-6|109-49-6|109-49-6|109-49-6|109-49-6|\n|2-propanol|67-63-0|Acetona na urina|FJFS|40 mg/L|EPNE, NE|\n|2,4 e 2,6 Tolueno<br>diisocianato|58484-9<br>9108-7|Isômeros 2,4 e<br>2,6<br>toluenodiamino|FJ|5 µg/g creat.|NE|",
+    "text": "| 2-butoxietanol | 111-76-2 | Ácido butoxiacético\nna urina (BAA) (H) | FJ | 200 mg/g\ncreat. | - |\n| 2-metoxietanol e | 109-86-4 | Ácido 2metóxiacético na\nurina | FJFS | 1 mg/g creat. | - |\n| 2metoxietilacetato | 109-49-6 |  |  |  |  |\n| 2-propanol | 67-63-0 | Acetona na urina | FJFS | 40 mg/L | EPNE, NE |",
     "heading": "Introdução",
-    "char_offset": 20124
+    "char_offset": 19972
   },
   {
     "id": "chunk-67",
-    "text": "|(puros ou em<br>mistura dos dois<br>isômeros)|Col2|na urina(H)<br>(soma dos isômeros)|Col4|Col5|Col6|\n|---|---|---|---|---|---|\n|Acetona|67-64-1|Acetona na urina|FJ|25 mg/L|NE|\n|Anilina|62-53-3|p-amino-fenol<br>na<br>urina(H)ou|FJ|50 mg/L|EPNE, NE|",
+    "text": "| 2,4 e 2,6 Tolueno\ndiisocianato | 58484-9\n9108-7 | Isômeros 2,4 e\n2,6 toluenodiamino | FJ | 5 µg/g creat. | NE |\n| (puros ou em\nmistura dos dois\nisômeros) |  | na urina(H)\n(soma dos isômeros) |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Acetona | 67-64-1 | Acetona na urina | FJ | 25 mg/L | NE |",
     "heading": "Introdução",
-    "char_offset": 20463
+    "char_offset": 20280
   },
   {
     "id": "chunk-68",
-    "text": "|Anilina|62-53-3|metahemoglobina no<br>sangue|FJ|1,5%<br>da<br>hemoglobina|EPNE, NE|\n|Arsênico<br>elementar e seus<br>compostos<br>inorgânicos<br>solúveis,<br>exceto<br>arsina e arsenato<br>de gálio|7440-38-2|Arsênico<br>inorgânico<br>mais<br>metabólitos<br>metilados na urina|FS|35 µg/L|EPNE|",
+    "text": "| Anilina | 62-53-3 | p-amino-fenol na\nurina(H) ou | FJ | 50 mg/L | EPNE, NE |\n|  |  | metahemoglobina no\nsangue | FJ | 1,5% da\nhemoglobina | EPNE, NE |\n| Arsênico\nelementar e seus\ncompostos\ninorgânicos\nsolúveis, exceto\narsina e arsenato\nde gálio | 7440-38-2 | Arsênico inorgânico",
     "heading": "Introdução",
-    "char_offset": 20713
+    "char_offset": 20583
   },
   {
     "id": "chunk-69",
-    "text": "|Benzeno|71-43-2|Ácido<br>s-<br>fenilmercaptúrico (S-<br>PMA) na urina<br>ou|FJ|45 µg/g creat.|EPNE, NF|\n|Benzeno|71-43-2|Ácido<br>trans-<br>transmucônico<br>(TTMA) na urina|FJ|750<br>µg/g<br>creat.<br> <br>Observação:<br>para<br>a <br>siderurgia<br>será mantida<br>a <br>regra<br>atualmente<br>vigente.|EPNE, NE|",
+    "text": "mais metabólitos\nmetilados na urina | FS | 35 µg/L | EPNE |\n| Benzeno | 71-43-2 | Ácido sfenilmercaptúrico (S-\nPMA) na urina\nou | FJ | 45 µg/g creat. | EPNE, NF |\n|  |  | Ácido transtransmucônico\n(TTMA) na urina | FJ | 750 µg/g\ncreat.\nObservação:\npara a",
     "heading": "Introdução",
-    "char_offset": 21007
+    "char_offset": 20864
   },
   {
     "id": "chunk-70",
-    "text": "|Chumbo<br>tetraetila|78-00-2|Chumbo na urina|FJ|50 µg/L|-|\n|Ciclohexanona|108-94-1|1,2 ciclohexanodiol( <br>H)na urina ou|FJFS|80 mg/L|NE|\n|Ciclohexanona|108-94-1|Ciclohexanol(H)na<br>urina|FJ|8 mg/L|NE|\n|Clorobenzeno|108-90-7|4clorocatecol(H) na<br>urina ou|FJFS|100<br>mg/g<br>creat.|NE|",
+    "text": "siderurgia\nserá mantida\na regra\natualmente\nvigente. | EPNE, NE |\n| Chumbo\ntetraetila | 78-00-2 | Chumbo na urina | FJ | 50 µg/L | - |\n| Ciclohexanona | 108-94-1 | 1,2 ciclohexanodiol(\nH) na urina ou | FJFS | 80 mg/L | NE |\n|  |  | Ciclohexanol (H) na",
     "heading": "Introdução",
-    "char_offset": 21321
+    "char_offset": 21118
   },
   {
     "id": "chunk-71",
-    "text": "|Clorobenzeno|108-90-7|p-clorofenol(H) na|FJFS|20<br>mg/g|NE|\n|Col1|Col2|urina|Col4|creat.|Col6|\n|---|---|---|---|---|---|\n|Cobalto e seus<br>compostos<br>inorgânicos,<br>incluindo óxidos<br>de cobalto, mas<br>não combinados<br>com carbeto de<br>tungstênio|7440-48-4|Cobalto na urina|FJFS|15 µg/L|NE|",
+    "text": "urina | FJ | 8 mg/L | NE |\n| Clorobenzeno | 108-90-7 | 4clorocatecol(H) na\nurina ou | FJFS | 100 mg/g\ncreat. | NE |\n|  |  | p-clorofenol (H) na | FJFS | 20 mg/g | NE |\n|  |  | urina |  | creat. |  |\n| --- | --- | --- | --- | --- | --- |\n| Cobalto e seus",
     "heading": "Introdução",
-    "char_offset": 21613
+    "char_offset": 21370
   },
   {
     "id": "chunk-72",
-    "text": "|Cromo<br>hexavalente<br>(compostos<br>solúveis)|7440-47-3|Cromo na urina ou|FJFS|25 µg/L|-|\n|Cromo<br>hexavalente<br>(compostos<br>solúveis)|7440-47-3|Cromo na urina|AJ-FJ<br>(Aumento<br>durante a<br>Jornada)|10 µg/L|-|\n|Diclorometano|75-09-2|Diclorometano<br>na<br>urina|FJ|0,3 mg/L|-|",
+    "text": "compostos\ninorgânicos,\nincluindo óxidos\nde cobalto, mas\nnão combinados\ncom carbeto de\ntungstênio | 7440-48-4 | Cobalto na urina | FJFS | 15 µg/L | NE |\n| Cromo\nhexavalente\n(compostos\nsolúveis) | 7440-47-3 | Cromo na urina ou | FJFS | 25 µg/L | - |\n|  |  | Cromo na urina | AJ-FJ",
     "heading": "Introdução",
-    "char_offset": 21914
+    "char_offset": 21624
   },
   {
     "id": "chunk-73",
-    "text": "|Estireno|100-42-5|Soma<br>dos<br>ácidos<br>mandélico e<br>fenilglioxílico na urina<br>ou|FJ|400<br>mg/g<br>creat.|NE|\n|Estireno|100-42-5|Estireno na urina|FJ|40 µg/L|-|\n|Etilbenzeno|100-41-4|Soma<br>dos<br>ácidos<br>mandélico e<br>fenilglioxílico na urina|FJ|0,15<br>g/g<br>creat.|NE|",
+    "text": "(Aumento\ndurante a\nJornada) | 10 µg/L | - |\n| Diclorometano | 75-09-2 | Diclorometano na\nurina | FJ | 0,3 mg/L | - |\n| Estireno | 100-42-5 | Soma dos ácidos\nmandélico e\nfenilglioxílico na urina\nou | FJ | 400 mg/g\ncreat. | NE |\n|  |  | Estireno na urina | FJ | 40 µg/L | - |",
     "heading": "Introdução",
-    "char_offset": 22202
+    "char_offset": 21903
   },
   {
     "id": "chunk-74",
-    "text": "|Etoxietanol e<br>Etoxietilacetato|1.  <br>111-15-9|Ácido etoxiacético na<br>urina|FJFS|100<br>mg/g<br>creat.|-|\n|Fenol|108-95-2|Fenol(H)na urina|FJ|250<br>mg/g<br>creat.|EPNE, NE|\n|Furfural|98-01-1|Ácido<br>furóico(H)na<br>urina|FJ|200 mg/L|NE|\n|Indutores de<br>Metahemoglobin<br>a||Metahemoglobina no<br>sangue|FJ|1,5%<br>da<br>hemoglobin<br>a|EPNE, NE|",
+    "text": "| Etilbenzeno | 100-41-4 | Soma dos ácidos\nmandélico e\nfenilglioxílico na urina | FJ | 0,15 g/g\ncreat. | NE |\n| Etoxietanol e\nEtoxietilacetato | 1.\n111-15-9 | Ácido etoxiacético na\nurina | FJFS | 100 mg/g\ncreat. | - |\n| Fenol | 108-95-2 | Fenol(H) na urina | FJ | 250 mg/g",
     "heading": "Introdução",
-    "char_offset": 22488
+    "char_offset": 22177
   },
   {
     "id": "chunk-75",
-    "text": "|Mercúrio<br>metálico|7439-97-6|Mercúrio na urina|AJ|20 µg/g creat.|EPNE|\n|Metanol|67-56-1|Metanol na urina|FJ|15 mg/L|EPNE, NE|\n|Metil butil cetona|591-78-6|2,5|FJFS|0,4 mg/L|-|\n|Col1|Col2|hexanodiona(SH) (2,5H<br>D) na urina|Col4|Col5|Col6|\n|---|---|---|---|---|---|",
+    "text": "creat. | EPNE, NE |\n| Furfural | 98-01-1 | Ácido furóico(H) na\nurina | FJ | 200 mg/L | NE |\n| Indutores de\nMetahemoglobin\na |  | Metahemoglobina no\nsangue | FJ | 1,5% da\nhemoglobin\na | EPNE, NE |\n| Mercúrio\nmetálico | 7439-97-6 | Mercúrio na urina | AJ | 20 µg/g creat. | EPNE |",
     "heading": "Introdução",
-    "char_offset": 22845
+    "char_offset": 22450
   },
   {
     "id": "chunk-76",
-    "text": "|Metiletilcetona<br>(MEK)|78-93-3|MEK na urina|FJ|2 mg/L|NE|\n|Metilisobutilceto<br>na (MIBK)|108-10-1|MIBK na urina|FJ|1 mg/L|-|\n|Monóxido<br>de<br>carbono|630-08-0|Carboxihemoglobina<br>no sangue ou|FJ|3,5%<br>da<br>hemoglobina|EPNE, NE, NF|\n|Monóxido<br>de<br>carbono|630-08-0|Monóxido de carbono<br>no ar exalado final|FJ|20 ppm|EPNE, NE, NF|",
+    "text": "| Metanol | 67-56-1 | Metanol na urina | FJ | 15 mg/L | EPNE, NE |\n| Metil butil cetona | 591-78-6 | 2,5 | FJFS | 0,4 mg/L | - |\n|  |  | hexanodiona(SH) (2,5H\nD) na urina |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| Metiletilcetona\n(MEK) | 78-93-3 | MEK na urina | FJ | 2 mg/L | NE |",
     "heading": "Introdução",
-    "char_offset": 23114
+    "char_offset": 22730
   },
   {
     "id": "chunk-77",
-    "text": "|n-hexano|110-54-3|2,5<br>hexanodiona(SH)(2,5H<br>D) na urina|FJ|0,5 mg/L|-|\n|Nitrobenzeno|98-95-3|Metahemoglobina no<br>sangue|FJ|1,5%<br>da<br>hemoglobina|EPNE, NE|\n|N-metil-2-<br>pirrolidona|872-50-4|5-hidroxi-n-metil-|FJ<br>|100 mg/L|-|\n|N-metil-2-<br>pirrolidona|872-50-4|2-<br>pirrolidona(SH)na<br>urina|2-<br>pirrolidona(SH)na<br>urina|2-<br>pirrolidona(SH)na<br>urina|2-<br>pirrolidona(SH)na<br>urina|",
+    "text": "| Metilisobutilceto\nna (MIBK) | 108-10-1 | MIBK na urina | FJ | 1 mg/L | - |\n| Monóxido de\ncarbono | 630-08-0 | Carboxihemoglobina\nno sangue ou | FJ | 3,5% da\nhemoglobina | EPNE, NE, NF |\n|  |  | Monóxido de carbono\nno ar exalado final | FJ | 20 ppm | EPNE, NE, NF |",
     "heading": "Introdução",
-    "char_offset": 23460
+    "char_offset": 23020
   },
   {
     "id": "chunk-78",
-    "text": "|N,N<br>Dimetilacetami<br>da|127-19-5|Nmetilacetamida na<br>urina|FJFS|30<br>mg/g<br>creat.|-|\n|N,N<br>Dimetilformamid<br>a|68-12-2|Nmetilformamida<br>total1 na urina1(soma<br>da N- metilformamida<br>e <br>N-(hidroximetil)-N-<br>metilformamida) ou|FJ|30 mg/L|-|",
+    "text": "| n-hexano | 110-54-3 | 2,5\nhexanodiona(SH) (2,5H\nD) na urina | FJ | 0,5 mg/L | - |\n| Nitrobenzeno | 98-95-3 | Metahemoglobina no\nsangue | FJ | 1,5% da\nhemoglobina | EPNE, NE |\n| N-metil-2pirrolidona | 872-50-4 | 5-hidroxi-n-metil- | FJ | 100 mg/L | - |",
     "heading": "Introdução",
-    "char_offset": 23870
+    "char_offset": 23287
   },
   {
     "id": "chunk-79",
-    "text": "|N,N<br>Dimetilformamid<br>a|68-12-2|N-Acetil-S-(N-<br>metilcarbemoil)<br>cisteína na urina|FJFS|30 mg/L|-|\n|Óxido de etileno|75-21-8|Adutos<br>de<br>N-(2-<br>hidroxietil)<br>valina<br>(HEV)<br>em<br>hemoglobina|NC|5.000 pmol/g<br>hemog.|NE|\n|Sulfeto<br>de<br>carbono|75-15-0|Ácido<br>2-<br>tioxotiazolidina<br>4 <br>carboxílico (TTCA) na<br>urina|FJ|0,5<br>mg/g<br>creat.|EPNE, NE|",
+    "text": "|  |  | 2- pirrolidona(SH) na\nurina |  |  |  |\n| N,N\nDimetilacetami\nda | 127-19-5 | Nmetilacetamida na\nurina | FJFS | 30 mg/g\ncreat. | - |\n| N,N\nDimetilformamid\na | 68-12-2 | Nmetilformamida\ntotal1 na urina 1(soma\nda N- metilformamida\ne\nN-(hidroximetil)-Nmetilformamida) ou | FJ | 30 mg/L | - |",
     "heading": "Introdução",
-    "char_offset": 24132
+    "char_offset": 23541
   },
   {
     "id": "chunk-80",
-    "text": "|Tetracloroetileno|127-18-4|Tetracloretile no ar<br>exalado final ou|AJ|3 ppm|-|\n|---|---|---|---|---|---|\n|Tetracloroetileno|127-18-4|Tetracloroetieno<br>no<br>sangue|AJ|0,5 mg/L|-|\n|Tetrahidrofurano|109-99-9|Tetrahidrofurano na<br>Urina|FJ|2 mg/L|-|",
+    "text": "|  |  | N-Acetil-S-(Nmetilcarbemoil)\ncisteína na urina | FJFS | 30 mg/L | - |\n| Óxido de etileno | 75-21-8 | Adutos de N-(2hidroxietil) valina\n(HEV) em\nhemoglobina | NC | 5.000 pmol/g\nhemog. | NE |\n| Sulfeto de\ncarbono | 75-15-0 | Ácido 2tioxotiazolidina 4",
     "heading": "Introdução",
-    "char_offset": 24516
+    "char_offset": 23836
   },
   {
     "id": "chunk-81",
-    "text": "|Tolueno|108-88-3|Tolueno no sangue ou|AJFS|0,02 mg/L|-|\n|Tolueno|108-88-3|Tolueno na urina ou|FJ|0,03 mg/L|-|\n|Tolueno|108-88-3|Orto-cresol na urina(H)|FJ|0,3<br>mg/g<br>creat.|EPNE|\n|Tricloroetileno|79-01-6|Ácido tricloroacético<br>na urina ou|FJFS|15 mg/L|NE|",
+    "text": "carboxílico (TTCA) na\nurina | FJ | 0,5 mg/g\ncreat. | EPNE, NE |\n*São indicadores de exposição excessiva (EE) aqueles que não têm caráter diagnóstico ou significado\nclínico. Avaliam a absorção dos agentes por todas as vias de exposição e indicam, quando alterados,",
     "heading": "Introdução",
-    "char_offset": 24768
+    "char_offset": 24094
   },
   {
     "id": "chunk-82",
-    "text": "|Tricloroetileno|79-01-6|Tricloroetanol<br>no<br>sangue(SH)|FJFS|0,5 mg/L|NE|\n|Xilenos|9547-6<br>10642-3<br>10838-3<br>1330-27-7|Ácido<br>metilhipúrico<br>na urina|FJ|1,5 mg/g<br>creat.|-|\n*São indicadores de exposição excessiva (EE) aqueles que não têm caráter diagnóstico ou significado",
+    "text": "após descartadas outras causas não ocupacionais que justifiquem o achado, a possibilidade de\nexposição acima dos limites de exposição ocupacional. As amostras devem ser colhidas nas jornadas de\ntrabalho em que o trabalhador efetivamente estiver exposto ao agente a ser monitorado.",
     "heading": "Introdução",
-    "char_offset": 25032
+    "char_offset": 24358
   },
   {
     "id": "chunk-83",
-    "text": "clínico. Avaliam a absorção dos agentes por todas as vias de exposição e indicam, quando alterados,\napós descartadas outras causas não ocupacionais que justifiquem o achado, a possibilidade de\nexposição acima dos limites de exposição ocupacional. As amostras devem ser colhidas nas jornadas de",
+    "text": "**QUADRO 2 - Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)***\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n| Tetracloroetileno | 127-18-4 | Tetracloretile no ar\nexalado final ou | AJ | 3 ppm | - |\n| --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 25321
+    "char_offset": 24642
   },
   {
     "id": "chunk-84",
-    "text": "trabalho em que o trabalhador efetivamente estiver exposto ao agente a ser monitorado.\n**QUADRO 2 - Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)***\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n|Substância|Número<br>CAS|Indicador|Coleta|Valor do<br>IBE/SC|Observações|",
+    "text": "|  |  | Tetracloroetieno no\nsangue | AJ | 0,5 mg/L | - |\n| Tetrahidrofurano | 109-99-9 | Tetrahidrofurano na\nUrina | FJ | 2 mg/L | - |\n| Tolueno | 108-88-3 | Tolueno no sangue ou | AJFS | 0,02 mg/L | - |\n|  |  | Tolueno na urina ou | FJ | 0,03 mg/L | - |",
     "heading": "Introdução",
-    "char_offset": 25618
+    "char_offset": 24917
   },
   {
     "id": "chunk-85",
-    "text": "|---|---|---|---|---|---|\n|Cádmio e seus compostos<br>inorgânicos|7440-43-9|Cádmio na urina|NC|5 µg/g creat.|-|\n|Chumbo<br>e <br>seus<br>compostos<br>inorgânicos|7439-92-1|Chumbo no sangue<br>(Pb-S) e|NC|60 µg/100ml(M)|EPNE|\n|Chumbo<br>e <br>seus<br>compostos<br>inorgânicos|7439-92-1|Ácido Delta Amino<br>Levulínico na urina (ALA-<br>U)|NC|10 mg/g creat.|EPNE, PNE|",
+    "text": "|  |  | Orto-cresol na urina(H) | FJ | 0,3 mg/g\ncreat. | EPNE |\n| Tricloroetileno | 79-01-6 | Ácido tricloroacético\nna urina ou | FJFS | 15 mg/L | NE |\n|  |  | Tricloroetanol no\nsangue(SH) | FJFS | 0,5 mg/L | NE |\n| Xilenos | 9547-6\n10642-3\n10838-3\n1330-27-7 | Ácido metilhipúrico",
     "heading": "Introdução",
-    "char_offset": 25927
+    "char_offset": 25172
   },
   {
     "id": "chunk-86",
-    "text": "|Inseticidas inibidores da<br>Colinesterase|<br>|Atividade<br>da<br>acetilcolinesterase<br>eritrocitária ou|<br>FJ|70% da ativid<br>ade basal|<br>NE|\n|Col1|Col2|Col3|Col4|(#)|Col6|\n|---|---|---|---|---|---|\n||<br>|Atividade<br>da<br>butilcolinesterase<br>no<br>plasma ou soro|<br>FJ|60% da ativid<br>ade basal<br>(#)|NE|",
+    "text": "na urina | FJ | 1,5 mg/g\ncreat. | - |\n| Substância | Número\nCAS | Indicador | Coleta | Valor do\nIBE/SC | Observações |\n| --- | --- | --- | --- | --- | --- |\n| Cádmio e seus compostos\ninorgânicos | 7440-43-9 | Cádmio na urina | NC | 5 µg/g creat. | - |",
     "heading": "Introdução",
-    "char_offset": 26295
+    "char_offset": 25454
   },
   {
     "id": "chunk-87",
-    "text": "|Flúor, ácido fluorídrico e<br>fluoretos inorgânicos||Fluoreto urinário|AJ48|2 mg/L|EPNE|\n(*) Indicadores biológicos com significado clínico (SC) evidenciam disfunções orgânicas e efeitos\nadversos à saúde.\n(#) A atividade basal é a atividade enzimática pré-ocupacional e deve ser estabelecida com o",
+    "text": "| Chumbo e seus\ncompostos\ninorgânicos | 7439-92-1 | Chumbo no sangue\n(Pb-S) e | NC | 60 µg/100ml(M) | EPNE |\n|  |  | Ácido Delta Amino\nLevulínico na urina (ALAU) | NC | 10 mg/g creat. | EPNE, PNE |\n| Inseticidas inibidores da\nColinesterase |  | Atividade da",
     "heading": "Introdução",
-    "char_offset": 26619
+    "char_offset": 25706
   },
   {
     "id": "chunk-88",
-    "text": "empregado afastado por pelo menos 30 (trinta) dias da exposição a inseticidas inibidores da\ncolinesterase.\n(M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb-S) a partir de 30 µg/100ml,\ndevem ser afastadas da exposição ao agente.\n**Abreviaturas**",
+    "text": "acetilcolinesterase\neritrocitária ou | FJ | 70% da ativid\nade basal | NE |\n(*) Indicadores biológicos com significado clínico (SC) evidenciam disfunções orgânicas e efeitos\nadversos à saúde.\n(#) A atividade basal é a atividade enzimática pré-ocupacional e deve ser estabelecida com o",
     "heading": "Introdução",
-    "char_offset": 26921
+    "char_offset": 25967
   },
   {
     "id": "chunk-89",
-    "text": "IBE/EE - Indicadores Biológicos de Exposição Excessiva\nIBE/SC - Indicadores Biológicos de Exposição com Significado Clínico µg/g creat. - Microgramas por\ngrama de creatinina µg/L - Microgramas por litro\nAJ - Antes da Jornada\nAJ-FJ - Diferença pré e pós-jornada",
+    "text": "empregado afastado por pelo menos 30 (trinta) dias da exposição a inseticidas inibidores da\ncolinesterase.\n(M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb-S) a partir de 30 µg/100ml,\ndevem ser afastadas da exposição ao agente.\n**Abreviaturas**",
     "heading": "Introdução",
-    "char_offset": 27187
+    "char_offset": 26254
   },
   {
     "id": "chunk-90",
-    "text": "AJ48 - Antes da jornada com no mínimo 48 horas sem exposição\nAJFS - Início da última jornada de trabalho da semana\nEPNE - Encontrado em populações não expostas ocupacionalmente\nFJ - Final de jornada de trabalho\nFJFS - Final do último dia de jornada da semana",
+    "text": "IBE/EE - Indicadores Biológicos de Exposição Excessiva\nIBE/SC - Indicadores Biológicos de Exposição com Significado Clínico µg/g creat. - Microgramas por\ngrama de creatinina µg/L - Microgramas por litro\nAJ - Antes da Jornada\nAJ-FJ - Diferença pré e pós-jornada",
     "heading": "Introdução",
-    "char_offset": 27453
+    "char_offset": 26520
   },
   {
     "id": "chunk-91",
-    "text": "FS - Após 4 ou 5 jornadas de trabalho consecutivas\nH - Método analítico exige hidrólise para este IBE/EE\nSH - O método analítico deve ser realizado sem hidrólise para este IBE/EE mg/L - Miligramas por\nlitro\nNC - Não crítica (pode ser colhido a qualquer momento desde que o trabalhador esteja trabalhando",
+    "text": "AJ48 - Antes da jornada com no mínimo 48 horas sem exposição\nAJFS - Início da última jornada de trabalho da semana\nEPNE - Encontrado em populações não expostas ocupacionalmente\nFJ - Final de jornada de trabalho\nFJFS - Final do último dia de jornada da semana",
     "heading": "Introdução",
-    "char_offset": 27717
+    "char_offset": 26786
   },
   {
     "id": "chunk-92",
-    "text": "nas últimas semanas)\nNE - Não específico (pode ser encontrado por exposições a outras substâncias)\nNF - Valores para não fumantes (fumantes apresentam valores basais elevados deste indicador que\ninviabilizam a interpretação)\npmol/g hemog - Picomoles por grama de hemoglobina",
+    "text": "FS - Após 4 ou 5 jornadas de trabalho consecutivas\nH - Método analítico exige hidrólise para este IBE/EE\nSH - O método analítico deve ser realizado sem hidrólise para este IBE/EE mg/L - Miligramas por\nlitro\nNC - Não crítica (pode ser colhido a qualquer momento desde que o trabalhador esteja trabalhando",
     "heading": "Introdução",
-    "char_offset": 28024
+    "char_offset": 27050
   },
   {
     "id": "chunk-93",
-    "text": "ppm - Partes por milhão” (NR)\n**ANEXO II**\n**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS**\n**1.** Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de\nempregados expostos a níveis de pressão sonora elevados.",
+    "text": "nas últimas semanas)\nNE - Não específico (pode ser encontrado por exposições a outras substâncias)\nNF - Valores para não fumantes (fumantes apresentam valores basais elevados deste indicador que\ninviabilizam a interpretação)\npmol/g hemog - Picomoles por grama de hemoglobina",
     "heading": "Introdução",
-    "char_offset": 28302
+    "char_offset": 27357
   },
   {
     "id": "chunk-94",
-    "text": "**2.** Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados\nque exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam\nacima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso",
+    "text": "ppm - Partes por milhão” (NR)\n|  |  |  |  | (#) |  |\n| --- | --- | --- | --- | --- | --- |\n|  |  | Atividade da\nbutilcolinesterase no\nplasma ou soro | FJ | 60% da ativid\nade basal\n(#) | NE |\n| Flúor, ácido fluorídrico e\nfluoretos inorgânicos |  | Fluoreto urinário | AJ48 | 2 mg/L | EPNE |",
     "heading": "Introdução",
-    "char_offset": 28583
+    "char_offset": 27634
   },
   {
     "id": "chunk-95",
-    "text": "de protetor auditivo.\n**2.1** Compõem os exames audiológicos de referência e seqüenciais:\na) anamnese clínico-ocupacional;\nb) exame otológico;\nc) exame audiométrico realizado segundo os termos previstos neste Anexo;\nd) outros exames audiológicos complementares solicitados a critério médico.",
+    "text": "**ANEXO II**\n**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS**\n**1.** Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de\nempregados expostos a níveis de pressão sonora elevados.",
     "heading": "Introdução",
-    "char_offset": 28873
+    "char_offset": 27926
   },
   {
     "id": "chunk-96",
-    "text": "**3.** Exame audiométrico\n**3.1** O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora\nnão ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1.\n**3.1.1** Nas empresas em que existir ambiente acusticamente tratado, que atenda à norma técnica ISO",
+    "text": "**2.** Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados\nque exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam\nacima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso",
     "heading": "Introdução",
-    "char_offset": 29168
+    "char_offset": 28177
   },
   {
     "id": "chunk-97",
-    "text": "8253-1, a cabina audiométrica poderá ser dispensada.\n**3.2** O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu\nfuncionamento, incluindo:\nI - aferição acústica anual;\nII - calibração acústica:\na) sempre que a aferição acústica indicar alteração;",
+    "text": "de protetor auditivo.\n**2.1** Compõem os exames audiológicos de referência e seqüenciais:\na) anamnese clínico-ocupacional;\nb) exame otológico;\nc) exame audiométrico realizado segundo os termos previstos neste Anexo;\nd) outros exames audiológicos complementares solicitados a critério médico.",
     "heading": "Introdução",
-    "char_offset": 29486
+    "char_offset": 28467
   },
   {
     "id": "chunk-98",
-    "text": "b) quando houver recomendação de prazo pelo fabricante;\nc) a cada 5 (cinco) anos, se não houver indicação do fabricante.\nIII - aferição biológica precedendo a realização dos exames audiométricos.\n**3.2.1** Os procedimentos constantes das alíneas “a” e “b” acima devem seguir o preconizado na norma",
+    "text": "**3.** Exame audiométrico\n**3.1** O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora\nnão ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1.\n**3.1.1** Nas empresas em que existir ambiente acusticamente tratado, que atenda à norma técnica ISO",
     "heading": "Introdução",
-    "char_offset": 29776
+    "char_offset": 28762
   },
   {
     "id": "chunk-99",
-    "text": "técnica ISO 8253-1, e os resultados devem ser incluídos em certificado de aferição e/ou calibração\nque acompanhará o equipamento.\n**3.2.1.1** Na impossibilidade da realização do exame audiométrico nas condições previstas no item 3.1,\no responsável pela execução do exame avaliará a viabilidade de sua realização em ambiente",
+    "text": "8253-1, a cabina audiométrica poderá ser dispensada.\n**3.2** O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu\nfuncionamento, incluindo:\nI - aferição acústica anual;\nII - calibração acústica:\na) sempre que a aferição acústica indicar alteração;",
     "heading": "Introdução",
-    "char_offset": 30075
+    "char_offset": 29080
   },
   {
     "id": "chunk-100",
-    "text": "silencioso, por meio do exame audiométrico em 2 (dois) indivíduos, cujos limiares auditivos sejam\nconhecidos, detectados em exames audiométricos de referência atuais, e que não haja diferença de\nlimiar auditivo, em qualquer freqüência e em qualquer um dos 2 (dois) indivíduos examinados, acima",
+    "text": "b) quando houver recomendação de prazo pelo fabricante;\nc) a cada 5 (cinco) anos, se não houver indicação do fabricante.\nIII - aferição biológica precedendo a realização dos exames audiométricos.\n**3.2.1** Os procedimentos constantes das alíneas “a” e “b” acima devem seguir o preconizado na norma",
     "heading": "Introdução",
-    "char_offset": 30400
+    "char_offset": 29370
   },
   {
     "id": "chunk-101",
-    "text": "de 5 (cinco) dB (NA) (nível de audição em decibéis).\n**3.3** O exame audiométrico deve ser executado por médico ou fonoaudiólogo, conforme resoluções\ndos respectivos conselhos federais profissionais.\n**3.4** O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o",
+    "text": "técnica ISO 8253-1, e os resultados devem ser incluídos em certificado de aferição e/ou calibração\nque acompanhará o equipamento.\n**3.2.1.1** Na impossibilidade da realização do exame audiométrico nas condições previstas no item 3.1,\no responsável pela execução do exame avaliará a viabilidade de sua realização em ambiente",
     "heading": "Introdução",
-    "char_offset": 30696
+    "char_offset": 29669
   },
   {
     "id": "chunk-102",
-    "text": "exame audiométrico.\n**3.5** O resultado do exame audiométrico deve ser registrado e conter, no mínimo:\na) nome, idade, CPF e função do empregado;\nb) razão social da organização e CNPJ ou CPF;\nc) tempo de repouso auditivo cumprido para a realização do exame audiométrico;",
+    "text": "silencioso, por meio do exame audiométrico em 2 (dois) indivíduos, cujos limiares auditivos sejam\nconhecidos, detectados em exames audiométricos de referência atuais, e que não haja diferença de\nlimiar auditivo, em qualquer freqüência e em qualquer um dos 2 (dois) indivíduos examinados, acima",
     "heading": "Introdução",
-    "char_offset": 30997
+    "char_offset": 29994
   },
   {
     "id": "chunk-103",
-    "text": "d) nome do fabricante, modelo e data da última aferição acústica do audiômetro;\ne) traçado audiométrico e símbolos, conforme indicados neste Anexo;\nf) nome, número de registro no conselho regional e assinatura do profissional responsável pelo\nexame audiométrico.",
+    "text": "de 5 (cinco) dB (NA) (nível de audição em decibéis).\n**3.3** O exame audiométrico deve ser executado por médico ou fonoaudiólogo, conforme resoluções\ndos respectivos conselhos federais profissionais.\n**3.4** O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o",
     "heading": "Introdução",
-    "char_offset": 31272
+    "char_offset": 30290
   },
   {
     "id": "chunk-104",
-    "text": "**3.6** O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000,\n2.000. 3.000, 4.000, 6.000 e 8.000 Hz.\n**3.6.1** No caso de alteração detectada no teste pela via aérea, a audiometria deve ser feita, também,\npor via óssea, nas freqüências de 500, 1.000, 2.000, 3.000 e 4.000 Hz, ou ainda segundo a avaliação",
+    "text": "exame audiométrico.\n**3.5** O resultado do exame audiométrico deve ser registrado e conter, no mínimo:\na) nome, idade, CPF e função do empregado;\nb) razão social da organização e CNPJ ou CPF;\nc) tempo de repouso auditivo cumprido para a realização do exame audiométrico;",
     "heading": "Introdução",
-    "char_offset": 31538
+    "char_offset": 30591
   },
   {
     "id": "chunk-105",
-    "text": "do profissional responsável pela execução do exame.\n**3.6.2** Segundo a avaliação do profissional responsável, no momento da execução do exame, podem\nser determinados os Limiares de Reconhecimento de Fala - LRF.\n**4.** Periodicidade dos exames audiométricos",
+    "text": "d) nome do fabricante, modelo e data da última aferição acústica do audiômetro;\ne) traçado audiométrico e símbolos, conforme indicados neste Anexo;\nf) nome, número de registro no conselho regional e assinatura do profissional responsável pelo\nexame audiométrico.",
     "heading": "Introdução",
-    "char_offset": 31887
+    "char_offset": 30866
   },
   {
     "id": "chunk-106",
-    "text": "**4.1** O exame audiométrico deve ser realizado, no mínimo:\na) na admissão;\nb) anualmente, tendo como referência o exame da alínea “a” acima;\nc) na demissão.\n**4.1.1** Na demissão pode ser aceito exame audiométrico realizado até 120 (cento e vinte) dias antes",
+    "text": "**3.6** O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000,\n2.000. 3.000, 4.000, 6.000 e 8.000 Hz.\n**3.6.1** No caso de alteração detectada no teste pela via aérea, a audiometria deve ser feita, também,\npor via óssea, nas freqüências de 500, 1.000, 2.000, 3.000 e 4.000 Hz, ou ainda segundo a avaliação",
     "heading": "Introdução",
-    "char_offset": 32150
+    "char_offset": 31132
   },
   {
     "id": "chunk-107",
-    "text": "da data de finalização do contrato de trabalho.\n**4.2** O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho\nresponsável pelo PCMSO.\n**4.3** O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos",
+    "text": "do profissional responsável pela execução do exame.\n**3.6.2** Segundo a avaliação do profissional responsável, no momento da execução do exame, podem\nser determinados os Limiares de Reconhecimento de Fala - LRF.\n**4.** Periodicidade dos exames audiométricos",
     "heading": "Introdução",
-    "char_offset": 32412
+    "char_offset": 31481
   },
   {
     "id": "chunk-108",
-    "text": "sequenciais na forma descrita nos subitens seguintes.\n**4.3.1** Exame audiométrico de referência é aquele com o qual os exames sequenciais serão\ncomparados e que deve ser realizado:\na) quando não houver um exame audiométrico de referência prévio;\nb) quando algum exame audiométrico sequencial apresentar alteração significativa em relação ao",
+    "text": "**4.1** O exame audiométrico deve ser realizado, no mínimo:\na) na admissão;\nb) anualmente, tendo como referência o exame da alínea “a” acima;\nc) na demissão.\n**4.1.1** Na demissão pode ser aceito exame audiométrico realizado até 120 (cento e vinte) dias antes",
     "heading": "Introdução",
-    "char_offset": 32687
+    "char_offset": 31744
   },
   {
     "id": "chunk-109",
-    "text": "exame de referência.\n**4.3.2** Exame audiométrico sequencial é aquele que será comparado com o exame de referência e se\naplica a todo empregado que já possua um exame audiométrico de referência prévio.\n**5.** Interpretação dos resultados dos exames audiométricos",
+    "text": "da data de finalização do contrato de trabalho.\n**4.2** O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho\nresponsável pelo PCMSO.\n**4.3** O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos",
     "heading": "Introdução",
-    "char_offset": 33032
+    "char_offset": 32006
   },
   {
     "id": "chunk-110",
-    "text": "**5.1** São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos\naudiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as\nfrequências examinadas.\n**5.2** São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados",
+    "text": "sequenciais na forma descrita nos subitens seguintes.\n**4.3.1** Exame audiométrico de referência é aquele com o qual os exames sequenciais serão\ncomparados e que deve ser realizado:\na) quando não houver um exame audiométrico de referência prévio;\nb) quando algum exame audiométrico sequencial apresentar alteração significativa em relação ao",
     "heading": "Introdução",
-    "char_offset": 33297
+    "char_offset": 32281
   },
   {
     "id": "chunk-111",
-    "text": "(PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz,\napresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras\nfrequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da",
+    "text": "exame de referência.\n**4.3.2** Exame audiométrico sequencial é aquele que será comparado com o exame de referência e se\naplica a todo empregado que já possua um exame audiométrico de referência prévio.\n**5.** Interpretação dos resultados dos exames audiométricos",
     "heading": "Introdução",
-    "char_offset": 33616
+    "char_offset": 32626
   },
   {
     "id": "chunk-112",
-    "text": "via óssea, em um ou em ambos os lados.\n**5.2.1** Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem nos\ncritérios definidos no item 5.2 acima.\n**5.3** São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares",
+    "text": "**5.1** São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos\naudiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as\nfrequências examinadas.\n**5.2** São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados",
     "heading": "Introdução",
-    "char_offset": 33904
+    "char_offset": 32891
   },
   {
     "id": "chunk-113",
-    "text": "auditivos em todas as frequências testadas no exame audiométrico de referência e no sequencial\npermaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma\nsequencial com o de referência mostra evolução que preencha um dos critérios abaixo:",
+    "text": "(PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz,\napresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras\nfrequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da",
     "heading": "Introdução",
-    "char_offset": 34173
+    "char_offset": 33210
   },
   {
     "id": "chunk-114",
-    "text": "a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 3.000,\n4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);\nb) a piora em pelo menos uma das frequências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15",
+    "text": "via óssea, em um ou em ambos os lados.\n**5.2.1** Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem nos\ncritérios definidos no item 5.2 acima.\n**5.3** São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares",
     "heading": "Introdução",
-    "char_offset": 34446
+    "char_offset": 33498
   },
   {
     "id": "chunk-115",
-    "text": "(quinze) dB (NA).\n**5.3.1** São considerados também sugestivos de desencadeamento de PAINPSE os casos em que apenas\no exame audiométrico de referência apresente limiares auditivos em todas as frequências testadas\nmenores ou iguais a 25 (vinte e cinco) dB (NA), e a comparação do audiograma seqüencial com o de",
+    "text": "auditivos em todas as frequências testadas no exame audiométrico de referência e no sequencial\npermaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma\nsequencial com o de referência mostra evolução que preencha um dos critérios abaixo:",
     "heading": "Introdução",
-    "char_offset": 34701
+    "char_offset": 33767
   },
   {
     "id": "chunk-116",
-    "text": "referência preencha um dos critérios abaixo:\na) a diferença entre as médias aritméticas dos limiares auditivos no grupo de freqüências de 3.000,\n4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);\nb) a piora em pelo menos uma das freqüências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15",
+    "text": "a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 3.000,\n4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);\nb) a piora em pelo menos uma das frequências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15",
     "heading": "Introdução",
-    "char_offset": 35014
+    "char_offset": 34040
   },
   {
     "id": "chunk-117",
-    "text": "dB (NA).\n**5.4** São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame\naudiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de\nreferência mostra evolução que preenche um dos critérios abaixo:",
+    "text": "(quinze) dB (NA).\n**5.3.1** São considerados também sugestivos de desencadeamento de PAINPSE os casos em que apenas\no exame audiométrico de referência apresente limiares auditivos em todas as frequências testadas\nmenores ou iguais a 25 (vinte e cinco) dB (NA), e a comparação do audiograma seqüencial com o de",
     "heading": "Introdução",
-    "char_offset": 35314
+    "char_offset": 34295
   },
   {
     "id": "chunk-118",
-    "text": "a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 500,\n1.000 e 2.000 Hz, ou no grupo de frequências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10\n(dez) dB (NA);\nb) a piora em uma freqüência isolada iguala ou ultrapassa 15 (quinze) dB (NA).",
+    "text": "referência preencha um dos critérios abaixo:\na) a diferença entre as médias aritméticas dos limiares auditivos no grupo de freqüências de 3.000,\n4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);\nb) a piora em pelo menos uma das freqüências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15",
     "heading": "Introdução",
-    "char_offset": 35580
+    "char_offset": 34608
   },
   {
     "id": "chunk-119",
-    "text": "**5.5** Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que\nalgum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de\nPAINPSE.\n**5.5.1** O exame audiométrico sequencial que venha a demonstrar desencadeamento ou",
+    "text": "dB (NA).\n**5.4** São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame\naudiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de\nreferência mostra evolução que preenche um dos critérios abaixo:",
     "heading": "Introdução",
-    "char_offset": 35871
+    "char_offset": 34908
   },
   {
     "id": "chunk-120",
-    "text": "agravamento de PAINPSE passará a ser, a partir de então, o novo exame audiométrico de\nreferência.\n**6.** O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou\natividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo",
+    "text": "a) a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 500,\n1.000 e 2.000 Hz, ou no grupo de frequências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10\n(dez) dB (NA);\nb) a piora em uma freqüência isolada iguala ou ultrapassa 15 (quinze) dB (NA).",
     "heading": "Introdução",
-    "char_offset": 36152
+    "char_offset": 35174
   },
   {
     "id": "chunk-121",
-    "text": "PCMSO.\n**7.** Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou\nvibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição.\n**8.** A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo-se levar em",
+    "text": "**5.5** Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que\nalgum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de\nPAINPSE.\n**5.5.1** O exame audiométrico sequencial que venha a demonstrar desencadeamento ou",
     "heading": "Introdução",
-    "char_offset": 36444
+    "char_offset": 35465
   },
   {
     "id": "chunk-122",
-    "text": "consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial\nde exames audiométricos, os seguintes fatores:\na) a história clínica e ocupacional do empregado;\nb) o resultado da otoscopia e de outros testes audiológicos complementares;",
+    "text": "agravamento de PAINPSE passará a ser, a partir de então, o novo exame audiométrico de\nreferência.\n**6.** O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou\natividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo",
     "heading": "Introdução",
-    "char_offset": 36737
+    "char_offset": 35746
   },
   {
     "id": "chunk-123",
-    "text": "c) a idade do empregado;\nd) os tempos de exposição pregressa e atual a níveis de pressão sonora elevados;\ne) os níveis de pressão sonora a que o empregado estará, está ou esteve exposto no exercício do\ntrabalho;\nf) a demanda auditiva do trabalho ou da função;",
+    "text": "PCMSO.\n**7.** Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou\nvibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição.\n**8.** A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo-se levar em",
     "heading": "Introdução",
-    "char_offset": 37008
+    "char_offset": 36038
   },
   {
     "id": "chunk-124",
-    "text": "g) a exposição não ocupacional a níveis de pressão sonora elevados;\nh) a exposição ocupacional a outro(s) agente(s) de risco ao sistema auditivo;\ni) a exposição não ocupacional a outro(s) agentes de risco ao sistema auditivo;\nj) a capacitação profissional do empregado examinado;",
+    "text": "consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial\nde exames audiométricos, os seguintes fatores:\na) a história clínica e ocupacional do empregado;\nb) o resultado da otoscopia e de outros testes audiológicos complementares;",
     "heading": "Introdução",
-    "char_offset": 37272
+    "char_offset": 36331
   },
   {
     "id": "chunk-125",
-    "text": "k) os programas de conservação auditiva aos quais tem ou terá acesso o empregado.\n**9.** Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste\nAnexo, o médico do trabalho responsável pelo PCMSO deve:\na) definir a aptidão do empregado para a função;",
+    "text": "c) a idade do empregado;\nd) os tempos de exposição pregressa e atual a níveis de pressão sonora elevados;\ne) os níveis de pressão sonora a que o empregado estará, está ou esteve exposto no exercício do\ntrabalho;\nf) a demanda auditiva do trabalho ou da função;",
     "heading": "Introdução",
-    "char_offset": 37555
+    "char_offset": 36602
   },
   {
     "id": "chunk-126",
-    "text": "b) incluir o caso no Relatório Analítico do PCMSO;\nc) participar da implantação, aprimoramento e controle de programas que visem à conservação\nauditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros\nexpostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à",
+    "text": "g) a exposição não ocupacional a níveis de pressão sonora elevados;\nh) a exposição ocupacional a outro(s) agente(s) de risco ao sistema auditivo;\ni) a exposição não ocupacional a outro(s) agentes de risco ao sistema auditivo;\nj) a capacitação profissional do empregado examinado;",
     "heading": "Introdução",
-    "char_offset": 37837
+    "char_offset": 36866
   },
   {
     "id": "chunk-127",
-    "text": "vibração e a agentes ototóxicos ocupacionais;\nd) disponibilizar cópias dos exames audiométricos aos empregados.\n**10.** Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução\nesteja em desacordo com os moldes definidos neste Anexo para PAINPSE, o médico do trabalho",
+    "text": "k) os programas de conservação auditiva aos quais tem ou terá acesso o empregado.\n**9.** Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste\nAnexo, o médico do trabalho responsável pelo PCMSO deve:\na) definir a aptidão do empregado para a função;",
     "heading": "Introdução",
-    "char_offset": 38165
+    "char_offset": 37149
   },
   {
     "id": "chunk-128",
-    "text": "responsável pelo PCMSO deve:\na) verificar a possibilidade da presença concomitante de mais de um tipo de agressão ao sistema\nauditivo;\nb) orientar e encaminhar o empregado para avaliação especializada;\nc) definir sobre a aptidão do empregado para função;",
+    "text": "b) incluir o caso no Relatório Analítico do PCMSO;\nc) participar da implantação, aprimoramento e controle de programas que visem à conservação\nauditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros\nexpostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à",
     "heading": "Introdução",
-    "char_offset": 38467
+    "char_offset": 37431
   },
   {
     "id": "chunk-129",
-    "text": "d) participar da implantação e aprimoramento de programas que visem à conservação auditiva e\nprevenção da progressão da perda auditiva do empregado acometido e de outros expostos a\nriscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a",
+    "text": "vibração e a agentes ototóxicos ocupacionais;\nd) disponibilizar cópias dos exames audiométricos aos empregados.\n**10.** Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução\nesteja em desacordo com os moldes definidos neste Anexo para PAINPSE, o médico do trabalho",
     "heading": "Introdução",
-    "char_offset": 38724
+    "char_offset": 37759
   },
   {
     "id": "chunk-130",
-    "text": "agentes ototóxicos ocupacionais;\ne) disponibilizar cópias dos exames audiométricos aos empregados.\n**MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO**\n**ORELHA DIREITA**\n**Frequência em kHz**\n**ORELHA ESQUERDA**\n**Frequência em kHz**\nObservação: A distância entre cada oitava de freqüência deve corresponder a uma variação",
+    "text": "responsável pelo PCMSO deve:\na) verificar a possibilidade da presença concomitante de mais de um tipo de agressão ao sistema\nauditivo;\nb) orientar e encaminhar o empregado para avaliação especializada;\nc) definir sobre a aptidão do empregado para função;",
     "heading": "Introdução",
-    "char_offset": 39009
+    "char_offset": 38061
   },
   {
     "id": "chunk-131",
-    "text": "de 20 dB no eixo do nível de audição (D).\nSÍMBOLOS PARA REGISTROS DE AUDIOMETRIAS\nObservações:\na) Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas contínuas\npara a orelha direita e linhas interrompidas para a orelha esquerda.",
+    "text": "d) participar da implantação e aprimoramento de programas que visem à conservação auditiva e\nprevenção da progressão da perda auditiva do empregado acometido e de outros expostos a\nriscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a",
     "heading": "Introdução",
-    "char_offset": 39347
+    "char_offset": 38318
   },
   {
     "id": "chunk-132",
-    "text": "b) Os símbolos de condução óssea não devem ser interligados.\nc) No caso do uso de cores: a cor vermelha deve ser usada para os símbolos referentes à orelha\ndireita; a cor azul deve ser usada para os símbolos referentes à orelha esquerda.\n**ANEXO III**",
+    "text": "agentes ototóxicos ocupacionais;\ne) disponibilizar cópias dos exames audiométricos aos empregados.\n**MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO**\n**ORELHA DIREITA**\n**Frequência em kHz**\n**ORELHA ESQUERDA**\n**Frequência em kHz**\nObservação: A distância entre cada oitava de freqüência deve corresponder a uma variação",
     "heading": "Introdução",
-    "char_offset": 39612
+    "char_offset": 38603
   },
   {
     "id": "chunk-133",
-    "text": "**CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS**\n**1.** A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros\nmínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de_",
+    "text": "de 20 dB no eixo do nível de audição (D).\nSÍMBOLOS PARA REGISTROS DE AUDIOMETRIAS\nObservações:\na) Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas contínuas\npara a orelha direita e linhas interrompidas para a orelha esquerda.",
     "heading": "Introdução",
-    "char_offset": 39865
+    "char_offset": 38941
   },
   {
     "id": "chunk-134",
-    "text": "_março de 2022)_\na) Radiografias de Tórax - RXTP em programas de controle médico em saúde ocupacional de\nempregados expostos a poeiras minerais, de acordo com os critérios da Organização\nInternacional do Trabalho - OIT;\nb) Espirometrias para avaliação da função respiratória em empregados expostos a poeiras minerais",
+    "text": "b) Os símbolos de condução óssea não devem ser interligados.\nc) No caso do uso de cores: a cor vermelha deve ser usada para os símbolos referentes à orelha\ndireita; a cor azul deve ser usada para os símbolos referentes à orelha esquerda.\n**ANEXO III**",
     "heading": "Introdução",
-    "char_offset": 40144
+    "char_offset": 39206
   },
   {
     "id": "chunk-135",
-    "text": "e para avaliação de empregados com indicação de uso de equipamentos individuais de proteção\nrespiratória.\n**2.** RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES\n**2.1** Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria",
+    "text": "**CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS**\n**1.** A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros\nmínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de_",
     "heading": "Introdução",
-    "char_offset": 40464
+    "char_offset": 39459
   },
   {
     "id": "chunk-136",
-    "text": "Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos\nem todo o território nacional, ou suas revisões mais recentes.\n**2.2** Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características:",
+    "text": "_março de 2022)_\na) Radiografias de Tórax - RXTP em programas de controle médico em saúde ocupacional de\nempregados expostos a poeiras minerais, de acordo com os critérios da Organização\nInternacional do Trabalho - OIT;\nb) Espirometrias para avaliação da função respiratória em empregados expostos a poeiras minerais",
     "heading": "Introdução",
-    "char_offset": 40747
+    "char_offset": 39738
   },
   {
     "id": "chunk-137",
-    "text": "a) gerador monofásico de alta frequência de preferência e/ou trifásico de 6 a 12 pulsos, no mínimo\nde 500 mA;\nb) tubo de raios X - 30/50;\nc) filtro de alumínio de 3 a 5 mm;\nd) grade fixa com distância focal de 1,50 m;\ne) razão da grade 10:1 com mais de 100 colunas;",
+    "text": "e para avaliação de empregados com indicação de uso de equipamentos individuais de proteção\nrespiratória.\n**2.** RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES\n**2.1** Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria",
     "heading": "Introdução",
-    "char_offset": 41019
+    "char_offset": 40058
   },
   {
     "id": "chunk-138",
-    "text": "f) razão da grade 12:1 com 100 colunas.\n**2.2.1** A unidades móveis de raios X podem utilizar equipamentos de 300 mA (trezentos miliamperes)\ndesde que o gerador tenha potência mínima de 30 kW (trinta quilowatts).\n**2.2.2** No caso de utilização de equipamentos para RXTP em unidades móveis, devem ser cumpridas,",
+    "text": "Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos\nem todo o território nacional, ou suas revisões mais recentes.\n**2.2** Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características:",
     "heading": "Introdução",
-    "char_offset": 41288
+    "char_offset": 40341
   },
   {
     "id": "chunk-139",
-    "text": "além do exigido acima, as seguintes condições:\na) dispor de alvará específico para funcionamento da unidade transportável de raios X;\nb) ser realizado por profissional legalmente habilitado e sob a supervisão de responsável técnico\nnos termos da RDC já referida;",
+    "text": "a) gerador monofásico de alta frequência de preferência e/ou trifásico de 6 a 12 pulsos, no mínimo\nde 500 mA;\nb) tubo de raios X - 30/50;\nc) filtro de alumínio de 3 a 5 mm;\nd) grade fixa com distância focal de 1,50 m;\ne) razão da grade 10:1 com mais de 100 colunas;",
     "heading": "Introdução",
-    "char_offset": 41603
+    "char_offset": 40613
   },
   {
     "id": "chunk-140",
-    "text": "c) dispor de Laudo Técnico emitido por profissional legalmente habilitado, comprovando que os\nequipamentos utilizados atendem ao exigido neste Anexo.\n**2.3** A técnica radiológica para RXTP deve observar os seguintes padrões:\na) foco fino (0,6 a 1,2 mm);",
+    "text": "f) razão da grade 12:1 com 100 colunas.\n**2.2.1** A unidades móveis de raios X podem utilizar equipamentos de 300 mA (trezentos miliamperes)\ndesde que o gerador tenha potência mínima de 30 kW (trinta quilowatts).\n**2.2.2** No caso de utilização de equipamentos para RXTP em unidades móveis, devem ser cumpridas,",
     "heading": "Introdução",
-    "char_offset": 41869
+    "char_offset": 40882
   },
   {
     "id": "chunk-141",
-    "text": "b) 100 mA ou 200 mA (tubo de alta rotação);\nc) tempo - 0,01 a 0,02 ou 0,03 segundos;\nd) constante - 40 ou 50 kV (quilovolts).\n**2.4** O processamento dos filmes deve ser realizado por processadora automática e que atenda às\nexigências dos órgãos ambientais responsáveis.",
+    "text": "além do exigido acima, as seguintes condições:\na) dispor de alvará específico para funcionamento da unidade transportável de raios X;\nb) ser realizado por profissional legalmente habilitado e sob a supervisão de responsável técnico\nnos termos da RDC já referida;",
     "heading": "Introdução",
-    "char_offset": 42128
+    "char_offset": 41197
   },
   {
     "id": "chunk-142",
-    "text": "**2.5** A identificação dos filmes radiográficos utilizados em radiologia convencional deve incluir, no\ncanto superior direito do filme radiográfico, a data da realização do exame, o número de ordem do\nserviço ou do prontuário do empregado e nome completo do empregado ou as iniciais do nome",
+    "text": "c) dispor de Laudo Técnico emitido por profissional legalmente habilitado, comprovando que os\nequipamentos utilizados atendem ao exigido neste Anexo.\n**2.3** A técnica radiológica para RXTP deve observar os seguintes padrões:\na) foco fino (0,6 a 1,2 mm);",
     "heading": "Introdução",
-    "char_offset": 42400
+    "char_offset": 41463
   },
   {
     "id": "chunk-143",
-    "text": "completo.\n**2.6** A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP,\ndevem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção\nde radiografias-padrão da OIT.\n**2.6.1** Em casos selecionados, a critério clínico, pode ser realizada a Tomografia Computadorizada de",
+    "text": "b) 100 mA ou 200 mA (tubo de alta rotação);\nc) tempo - 0,01 a 0,02 ou 0,03 segundos;\nd) constante - 40 ou 50 kV (quilovolts).\n**2.4** O processamento dos filmes deve ser realizado por processadora automática e que atenda às\nexigências dos órgãos ambientais responsáveis.",
     "heading": "Introdução",
-    "char_offset": 42695
+    "char_offset": 41722
   },
   {
     "id": "chunk-144",
-    "text": "Alta Resolução de Tórax.\n**2.6.2** As leituras radiológicas devem ser anotadas em Folha de Leitura Radiológica que contenha a\nidentificação da radiografia e do leitor, informações sobre a qualidade da imagem e os itens da\nclassificação.\n**2.7** O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas",
+    "text": "**2.5** A identificação dos filmes radiográficos utilizados em radiologia convencional deve incluir, no\ncanto superior direito do filme radiográfico, a data da realização do exame, o número de ordem do\nserviço ou do prontuário do empregado e nome completo do empregado ou as iniciais do nome",
     "heading": "Introdução",
-    "char_offset": 43047
+    "char_offset": 41994
   },
   {
     "id": "chunk-145",
-    "text": "leituras, dos seguintes profissionais:\na) médico radiologista com título de especialista ou registro de especialidade no Conselho Regional\nde Medicina e com qualificação e/ou certificação em Leitura Radiológica das Pneumoconioses Classificação Radiológica da OIT, por meio de curso/módulo específico;",
+    "text": "completo.\n**2.6** A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP,\ndevem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção\nde radiografias-padrão da OIT.\n**2.6.1** Em casos selecionados, a critério clínico, pode ser realizada a Tomografia Computadorizada de",
     "heading": "Introdução",
-    "char_offset": 43384
+    "char_offset": 42289
   },
   {
     "id": "chunk-146",
-    "text": "b) médicos de outras especialidades, que possuam título ou registro de especialidade no Conselho\nRegional de Medicina em Pneumologia, Medicina do Trabalho ou Clínica Médica (ou uma das suas\nsubespecialidades) e que possuam qualificação e/ou certificação em Leitura Radiológica das",
+    "text": "Alta Resolução de Tórax.\n**2.6.2** As leituras radiológicas devem ser anotadas em Folha de Leitura Radiológica que contenha a\nidentificação da radiografia e do leitor, informações sobre a qualidade da imagem e os itens da\nclassificação.\n**2.7** O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas",
     "heading": "Introdução",
-    "char_offset": 43687
+    "char_offset": 42641
   },
   {
     "id": "chunk-147",
-    "text": "Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico.\n**2.8** As certificações são concedidas por aprovação nos exames do National Institute for Occupational\nSafety and Health - NIOSH ou pelo exame “AIR-Pneumo”, sendo que, em caso de certificação",
+    "text": "leituras, dos seguintes profissionais:\na) médico radiologista com título de especialista ou registro de especialidade no Conselho Regional\nde Medicina e com qualificação e/ou certificação em Leitura Radiológica das Pneumoconioses Classificação Radiológica da OIT, por meio de curso/módulo específico;",
     "heading": "Introdução",
-    "char_offset": 43969
+    "char_offset": 42978
   },
   {
     "id": "chunk-148",
-    "text": "concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”.\n**2.9** Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens\nradiológicas do tórax para fins de interpretação radiológica da OIT.",
+    "text": "b) médicos de outras especialidades, que possuam título ou registro de especialidade no Conselho\nRegional de Medicina em Pneumologia, Medicina do Trabalho ou Clínica Médica (ou uma das suas\nsubespecialidades) e que possuam qualificação e/ou certificação em Leitura Radiológica das",
     "heading": "Introdução",
-    "char_offset": 44251
+    "char_offset": 43281
   },
   {
     "id": "chunk-149",
-    "text": "**2.9.1** Os parâmetros físicos para obtenção de RXTP de qualidade técnica adequada, utilizando-se\nequipamentos de radiologia digital, devem ser similares aos da radiologia convencional.\n**2.9.2** A identificação dos filmes digitais deve conter, no mínimo, a data da realização do exame,",
+    "text": "Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico.\n**2.8** As certificações são concedidas por aprovação nos exames do National Institute for Occupational\nSafety and Health - NIOSH ou pelo exame “AIR-Pneumo”, sendo que, em caso de certificação",
     "heading": "Introdução",
-    "char_offset": 44511
+    "char_offset": 43563
   },
   {
     "id": "chunk-150",
-    "text": "número de ordem do serviço ou do prontuário do paciente e nome completo do paciente ou as\niniciais do nome completo.\n**2.10** A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT.\n**2.10.1** Imagens geradas em sistemas de radiologia digital (CR ou DR) e transferidas para monitores",
+    "text": "concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”.\n**2.9** Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens\nradiológicas do tórax para fins de interpretação radiológica da OIT.",
     "heading": "Introdução",
-    "char_offset": 44801
+    "char_offset": 43845
   },
   {
     "id": "chunk-151",
-    "text": "só podem ser interpretadas com as radiografias-padrão em monitor anexo.\n**2.10.2** Os monitores utilizados para exibição da radiografia a ser interpretada e das radiografiaspadrão devem ser de qualidade diagnóstica, possuir resolução mínima de 3 megapixels e 21” (54",
+    "text": "**2.9.1** Os parâmetros físicos para obtenção de RXTP de qualidade técnica adequada, utilizando-se\nequipamentos de radiologia digital, devem ser similares aos da radiologia convencional.\n**2.9.2** A identificação dos filmes digitais deve conter, no mínimo, a data da realização do exame,",
     "heading": "Introdução",
-    "char_offset": 45116
+    "char_offset": 44105
   },
   {
     "id": "chunk-152",
-    "text": "cm) de exibição diagonal por imagem.\n**2.10.3** Imagens digitais impressas em filmes radiológicos devem ser interpretadas com as\nradiografias-padrão em formato impresso, em negatoscópios.\n**2.10.4** Não é permitida a interpretação de radiografias digitais, para fins de classificação radiológica",
+    "text": "número de ordem do serviço ou do prontuário do paciente e nome completo do paciente ou as\niniciais do nome completo.\n**2.10** A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT.\n**2.10.1** Imagens geradas em sistemas de radiologia digital (CR ou DR) e transferidas para monitores",
     "heading": "Introdução",
-    "char_offset": 45385
+    "char_offset": 44395
   },
   {
     "id": "chunk-153",
-    "text": "da OIT, nas seguintes condições:\na) radiografias em monitores comparadas com as radiografias-padrão em negatoscópio, ou o\ninverso;\nb) radiografias digitais impressas em filmes radiológicos com reduções menores do que 2/3 do\ntamanho original;\nc) radiografias digitais impressas em papel fotográfico;",
+    "text": "só podem ser interpretadas com as radiografias-padrão em monitor anexo.\n**2.10.2** Os monitores utilizados para exibição da radiografia a ser interpretada e das radiografiaspadrão devem ser de qualidade diagnóstica, possuir resolução mínima de 3 megapixels e 21” (54",
     "heading": "Introdução",
-    "char_offset": 45686
+    "char_offset": 44710
   },
   {
     "id": "chunk-154",
-    "text": "d) imagens originadas no sistema de radiografia convencional que foram digitalizadas por scanner\ne, posteriormente, impressas ou exibidas em tela.\n**2.11** Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos\neletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e",
+    "text": "cm) de exibição diagonal por imagem.\n**2.10.3** Imagens digitais impressas em filmes radiológicos devem ser interpretadas com as\nradiografias-padrão em formato impresso, em negatoscópios.\n**2.10.4** Não é permitida a interpretação de radiografias digitais, para fins de classificação radiológica",
     "heading": "Introdução",
-    "char_offset": 45988
+    "char_offset": 44979
   },
   {
     "id": "chunk-155",
-    "text": "demissionais, para fins da classificação radiológica da OIT, por meio de procedimentos técnicos e\nadministrativos adequados.\n**2.12** RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em\nformato original.\n**2.13** Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes",
+    "text": "da OIT, nas seguintes condições:\na) radiografias em monitores comparadas com as radiografias-padrão em negatoscópio, ou o\ninverso;\nb) radiografias digitais impressas em filmes radiológicos com reduções menores do que 2/3 do\ntamanho original;\nc) radiografias digitais impressas em papel fotográfico;",
     "heading": "Introdução",
-    "char_offset": 46324
+    "char_offset": 45280
   },
   {
     "id": "chunk-156",
-    "text": "formatos:\na) impressas em filmes radiológicos cuja redução máxima seja equivalente a 2/3 do tamanho\noriginal; ou\nb) em mídia digital, gravadas em formato DICOM e acompanhadas de visualizador (viewer) de\nimagens radiológicas.\n**2.14** A guarda das imagens deve ter sua responsabilidade definida e documentada.",
+    "text": "d) imagens originadas no sistema de radiografia convencional que foram digitalizadas por scanner\ne, posteriormente, impressas ou exibidas em tela.\n**2.11** Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos\neletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e",
     "heading": "Introdução",
-    "char_offset": 46661
+    "char_offset": 45582
   },
   {
     "id": "chunk-157",
-    "text": "**2.15** São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a\nempresa possuir serviço próprio, o responsável pelo serviço de radiologia.\n**2.15.1** A guarda das imagens refere-se às radiografias de cunho ocupacional, admissionais,",
+    "text": "demissionais, para fins da classificação radiológica da OIT, por meio de procedimentos técnicos e\nadministrativos adequados.\n**2.12** RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em\nformato original.\n**2.13** Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes",
     "heading": "Introdução",
-    "char_offset": 46972
+    "char_offset": 45918
   },
   {
     "id": "chunk-158",
-    "text": "periódicas e demissionais, bem como a eventuais radiografias cujas alterações sejam suspeitas ou\natribuíveis à exposição ocupacional.\n**2.16** O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07.\n**2.17** Cabe ao empregador, após o término do contrato de trabalho envolvendo exposição ao",
+    "text": "formatos:\na) impressas em filmes radiológicos cuja redução máxima seja equivalente a 2/3 do tamanho\noriginal; ou\nb) em mídia digital, gravadas em formato DICOM e acompanhadas de visualizador (viewer) de\nimagens radiológicas.\n**2.14** A guarda das imagens deve ter sua responsabilidade definida e documentada.",
     "heading": "Introdução",
-    "char_offset": 47242
+    "char_offset": 46255
   },
   {
     "id": "chunk-159",
-    "text": "asbesto, disponibilizar a realização periódica de exames médicos de controle durante, no mínimo,\ntrinta anos, sem custos aos trabalhadores. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\n**2.17.1** Estes exames, incluindo raios X de Tórax, devem ser realizados com a seguinte periodicidade:",
+    "text": "**2.15** São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a\nempresa possuir serviço próprio, o responsável pelo serviço de radiologia.\n**2.15.1** A guarda das imagens refere-se às radiografias de cunho ocupacional, admissionais,",
     "heading": "Introdução",
-    "char_offset": 47555
+    "char_offset": 46566
   },
   {
     "id": "chunk-160",
-    "text": "_(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\na) a cada três anos para trabalhadores com período de exposição até doze anos;\nb) a cada dois anos para trabalhadores com período de exposição de mais de doze a vinte anos; e\nc) anual para trabalhadores com período de exposição superior a vinte anos.",
+    "text": "periódicas e demissionais, bem como a eventuais radiografias cujas alterações sejam suspeitas ou\natribuíveis à exposição ocupacional.\n**2.16** O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07.\n**2.17** Cabe ao empregador, após o término do contrato de trabalho envolvendo exposição ao",
     "heading": "Introdução",
-    "char_offset": 47864
+    "char_offset": 46836
   },
   {
     "id": "chunk-161",
-    "text": "**2.17.2** O trabalhador receberá, por ocasião da demissão e retornos posteriores, comunicação da\ndata e local da próxima avaliação médica. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\n**QUADRO 1 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS**",
+    "text": "asbesto, disponibilizar a realização periódica de exames médicos de controle durante, no mínimo,\ntrinta anos, sem custos aos trabalhadores. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\n**2.17.1** Estes exames, incluindo raios X de Tórax, devem ser realizados com a seguinte periodicidade:",
     "heading": "Introdução",
-    "char_offset": 48179
+    "char_offset": 47149
   },
   {
     "id": "chunk-162",
-    "text": "**POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL**\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n|Empresas com medições quantitativas periódicas|Radiografia de Tórax|\n|---|---|\n|LSC* ≤ 10% LEO**|- na admissão; e<br>- na demissão, se o último exame foi realizado<br>há mais de 2 anos.|",
+    "text": "_(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\na) a cada três anos para trabalhadores com período de exposição até doze anos;\nb) a cada dois anos para trabalhadores com período de exposição de mais de doze a vinte anos; e\nc) anual para trabalhadores com período de exposição superior a vinte anos.",
     "heading": "Introdução",
-    "char_offset": 48462
+    "char_offset": 47458
   },
   {
     "id": "chunk-163",
-    "text": "|LSC > 10% e ≤ 50% LEO|- na admissão;<br>- a cada 5 anos até os 15 anos de exposição, e,<br>após, a cada 3 anos; e<br>- na demissão, se o último exame foi realizado<br>há mais de 2 anos.|\n|LSC > 50% e ≤ 100% LEO|- na admissão;<br>- a cada 3 anos até 15 anos de exposição, e,<br>após, a cada 2 anos; e<br>- na demissão, se o último exame foi realizado<br>há mais de 1 ano.|",
+    "text": "**2.17.2** O trabalhador receberá, por ocasião da demissão e retornos posteriores, comunicação da\ndata e local da próxima avaliação médica. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_\n**QUADRO 1 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS**",
     "heading": "Introdução",
-    "char_offset": 48766
+    "char_offset": 47773
   },
   {
     "id": "chunk-164",
-    "text": "|LSC > 100% LEO|- na admissão;<br>- a cada ano de exposição; e<br>- na demissão, se o último exame foi realizado<br>há mais de 1 ano.|\n|Empresas sem avaliações quantitativas|- na admissão;<br>- a cada 2 anos até 15 anos de exposição, e,<br>após, a cada ano; e<br>- na demissão, se o último exame foi realizado<br>há mais de 1 ano.|",
+    "text": "**POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL**\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição\nlognormal com confiança estatística de 95%.",
     "heading": "Introdução",
-    "char_offset": 49139
+    "char_offset": 48056
   },
   {
     "id": "chunk-165",
-    "text": "*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição\nlognormal com confiança estatística de 95%.\n**LEO = Limite de exposição ocupacional.\n_**NOTA 1**_ _: Trabalhadores que apresentarem Leitura Radiológica 0/1 ou mais deverão ser avaliados por_",
+    "text": "**LEO = Limite de exposição ocupacional.\n| Empresas com medições quantitativas periódicas | Radiografia de Tórax |\n| --- | --- |\n| LSC* ≤ 10% LEO** | - na admissão; e\n- na demissão, se o último exame foi realizado\nhá mais de 2 anos. |\n| LSC > 10% e ≤ 50% LEO | - na admissão;",
     "heading": "Introdução",
-    "char_offset": 49474
+    "char_offset": 48318
   },
   {
     "id": "chunk-166",
-    "text": "_profissionais médicos especializados._\n_**NOTA 2**_ _: Para trabalhadores que tenham a sua exposição diminuída, mas que estiveram expostos a_\n_concentrações superiores por um ano ou mais, deverá ser mantido o mesmo intervalo de exames_\n_radiológicos do período de maior exposição._",
+    "text": "- a cada 5 anos até os 15 anos de exposição, e,\napós, a cada 3 anos; e\n- na demissão, se o último exame foi realizado\nhá mais de 2 anos. |\n| LSC > 50% e ≤ 100% LEO | - na admissão;\n- a cada 3 anos até 15 anos de exposição, e,\napós, a cada 2 anos; e\n- na demissão, se o último exame foi realizado",
     "heading": "Introdução",
-    "char_offset": 49766
+    "char_offset": 48594
   },
   {
     "id": "chunk-167",
-    "text": "**QUADRO 2 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A**\n**POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E**\n**NÃO CLASSIFICADAS DE OUTRA FORMA *****\n_(Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022)_",
+    "text": "há mais de 1 ano. |\n| LSC > 100% LEO | - na admissão;\n- a cada ano de exposição; e\n- na demissão, se o último exame foi realizado\nhá mais de 1 ano. |\n| Empresas sem avaliações quantitativas | - na admissão;\n- a cada 2 anos até 15 anos de exposição, e,",
     "heading": "Introdução",
-    "char_offset": 50052
+    "char_offset": 48890
   },
   {
     "id": "chunk-168",
-    "text": "|Empresas com medições quantitativas periódicas de poeira respirável|Radiografia de tórax|\n|---|---|\n|LSC* ≤ 10% LEO**|- na admissão.|\n|LSC > 10% e ≤ 100% LEO|- na admissão;<br>- após 5 anos de exposição; e<br>- repetir a critério clínico.|\n|LSC> 100% LEO|- na admissão; e<br>- a cada 5 anos.|",
+    "text": "após, a cada ano; e\n- na demissão, se o último exame foi realizado\nhá mais de 1 ano. |\n_**NOTA 1**_ _: Trabalhadores que apresentarem Leitura Radiológica 0/1 ou mais deverão ser avaliados por_\n_profissionais médicos especializados._\n_**NOTA 2**_ _: Para trabalhadores que tenham a sua exposição diminuída, mas que estiveram expostos a_",
     "heading": "Introdução",
-    "char_offset": 50331
+    "char_offset": 49144
   },
   {
     "id": "chunk-169",
-    "text": "|Empresas sem avaliações quantitativas|- na admissão; e<br>- a cada 5 anos.|\n*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma\ndistribuição lognormal com confiança estatística de 95%\n**LEO = Limite de exposição ocupacional",
+    "text": "_concentrações superiores por um ano ou mais, deverá ser mantido o mesmo intervalo de exames_\n_radiológicos do período de maior exposição._\n**QUADRO 2 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A**\n**POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E**",
     "heading": "Introdução",
-    "char_offset": 50627
+    "char_offset": 49481
   },
   {
     "id": "chunk-170",
-    "text": "***Para ser classificado como PNOS (particles not otherwise specified), o material particulado\nsólido deve ter as seguintes características (ACGIH, 2017):\na) não possuir um LEO definido;\nb) ser insolúvel ou pouco solúvel na água (ou preferencialmente no fluido pulmonar, se esta",
+    "text": "**NÃO CLASSIFICADAS DE OUTRA FORMA *****\n_(Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022)_\n*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma\ndistribuição lognormal com confiança estatística de 95%",
     "heading": "Introdução",
-    "char_offset": 50890
+    "char_offset": 49787
   },
   {
     "id": "chunk-171",
-    "text": "informação estiver disponível);\nc) ter baixa toxicidade, isto é, não ser citotóxico, genotóxico ou quimicamente reativo com o\ntecido pulmonar, não ser emissor de radiação ionizante, não ser sensibilizante, não causar efeitos\ntóxicos além de inflamação ou mecanismo de sobrecarga.",
+    "text": "**LEO = Limite de exposição ocupacional\n***Para ser classificado como PNOS (particles not otherwise specified), o material particulado\nsólido deve ter as seguintes características (ACGIH, 2017):\na) não possuir um LEO definido;\nb) ser insolúvel ou pouco solúvel na água (ou preferencialmente no fluido pulmonar, se esta",
     "heading": "Introdução",
-    "char_offset": 51170
+    "char_offset": 50049
   },
   {
     "id": "chunk-172",
-    "text": "**3.** ESPIROMETRIAS OCUPACIONAIS\n**3.1** Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos\ndo PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos.\n**3.2** Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados",
+    "text": "informação estiver disponível);\nc) ter baixa toxicidade, isto é, não ser citotóxico, genotóxico ou quimicamente reativo com o\ntecido pulmonar, não ser emissor de radiação ionizante, não ser sensibilizante, não causar efeitos\ntóxicos além de inflamação ou mecanismo de sobrecarga.",
     "heading": "Introdução",
-    "char_offset": 51453
+    "char_offset": 50369
   },
   {
     "id": "chunk-173",
-    "text": "no inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria\nse desenvolverem sinais ou sintomas respiratórios.\n**3.3** Nas funções com indicação de uso de equipamentos individuais de proteção respiratória, os\nempregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem",
+    "text": "**3.** ESPIROMETRIAS OCUPACIONAIS\n**3.1** Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos\ndo PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos.\n| Empresas com medições quantitativas periódicas de poeira respirável | Radiografia de tórax |",
     "heading": "Introdução",
-    "char_offset": 51781
+    "char_offset": 50652
   },
   {
     "id": "chunk-174",
-    "text": "ser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco.\n**3.4** No caso da constatação de alteração espirométrica, o médico do trabalho responsável pelo\nPCMSO deve:\na) investigar possíveis relações do resultado com as exposições ocupacionais; e",
+    "text": "| --- | --- |\n| LSC* ≤ 10% LEO** | - na admissão. |\n| LSC > 10% e ≤ 100% LEO | - na admissão;\n- após 5 anos de exposição; e\n- repetir a critério clínico. |\n| LSC> 100% LEO | - na admissão; e\n- a cada 5 anos. |\n| Empresas sem avaliações quantitativas | - na admissão; e",
     "heading": "Introdução",
-    "char_offset": 52129
+    "char_offset": 50976
   },
   {
     "id": "chunk-175",
-    "text": "b) avaliar a necessidade de encaminhamento para avaliação médica especializada.\n**3.5** Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da\nespirometria deve ser a mesma do exame radiológico.\n**3.6** A organização deve garantir que a execução e a interpretação das espirometrias sigam as",
+    "text": "- a cada 5 anos. |\n**3.2** Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados\nno inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria\nse desenvolverem sinais ou sintomas respiratórios.",
     "heading": "Introdução",
-    "char_offset": 52412
+    "char_offset": 51246
   },
   {
     "id": "chunk-176",
-    "text": "padronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais\nrecente versão.\n**3.7** A interpretação do exame e o laudo da espirometria devem ser feitos por médico.\n*“Outros agentes agressores pulmonares” referem-se a agentes químicos que possam ser inalados",
+    "text": "**3.3** Nas funções com indicação de uso de equipamentos individuais de proteção respiratória, os\nempregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem\nser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco.",
     "heading": "Introdução",
-    "char_offset": 52733
+    "char_offset": 51514
   },
   {
     "id": "chunk-177",
-    "text": "na forma de partículas, fumos, névoas ou vapores e que sejam considerados como sensibilizantes\ne/ou irritantes pelos critérios constantes no Sistema Globalmente Harmonizado de Classificação e\nRotulagem de Produtos Químicos - GHS.” (NR)\n**ANEXO IV**\n**CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS**",
+    "text": "**3.4** No caso da constatação de alteração espirométrica, o médico do trabalho responsável pelo\nPCMSO deve:\na) investigar possíveis relações do resultado com as exposições ocupacionais; e\nb) avaliar a necessidade de encaminhamento para avaliação médica especializada.",
     "heading": "Introdução",
-    "char_offset": 53026
+    "char_offset": 51804
   },
   {
     "id": "chunk-178",
-    "text": "**1.** TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria_\n_MTP nº 567, de 10 de março de 2022)_\n**1.1** É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo,\npara o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica).",
+    "text": "**3.5** Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da\nespirometria deve ser a mesma do exame radiológico.\n**3.6** A organização deve garantir que a execução e a interpretação das espirometrias sigam as\npadronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais",
     "heading": "Introdução",
-    "char_offset": 53347
+    "char_offset": 52075
   },
   {
     "id": "chunk-179",
-    "text": "**1.2.** Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão\nser avaliados por médico qualificado.\n**1.3.** O atestado de aptidão terá validade por 6 (seis) meses.\n**1.4** O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro)",
+    "text": "recente versão.\n**3.7** A interpretação do exame e o laudo da espirometria devem ser feitos por médico.\n*“Outros agentes agressores pulmonares” referem-se a agentes químicos que possam ser inalados\nna forma de partículas, fumos, névoas ou vapores e que sejam considerados como sensibilizantes",
     "heading": "Introdução",
-    "char_offset": 53671
+    "char_offset": 52410
   },
   {
     "id": "chunk-180",
-    "text": "horas.\n**1.5** Profissionais que realizem liberação de base dentro dos tubulões de ar comprimido em jornadas\nde curta duração, de até 30 minutos, podem ser submetidos a mais de uma compressão em menos\nde 24 horas e até o máximo de três compressões.\n**1.6** O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência,",
+    "text": "e/ou irritantes pelos critérios constantes no Sistema Globalmente Harmonizado de Classificação e\nRotulagem de Produtos Químicos - GHS.” (NR)\n**ANEXO IV**\n**CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS**\n**1.** TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria_",
     "heading": "Introdução",
-    "char_offset": 53976
+    "char_offset": 52705
   },
   {
     "id": "chunk-181",
-    "text": "sob supervisão direta do médico qualificado.\n**1.7** A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em\npressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e\na 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA.",
+    "text": "_MTP nº 567, de 10 de março de 2022)_\n**1.1** É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo,\npara o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica).\n**1.2.** Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão",
     "heading": "Introdução",
-    "char_offset": 54329
+    "char_offset": 53029
   },
   {
     "id": "chunk-182",
-    "text": "**1.8** Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2\n(duas) horas, no canteiro de obra, cumprindo um período de observação médica.\n**1.9** O local adequado para o cumprimento do período de observação deve ser designado pelo",
+    "text": "ser avaliados por médico qualificado.\n**1.3.** O atestado de aptidão terá validade por 6 (seis) meses.\n**1.4** O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro)\nhoras.\n**1.5** Profissionais que realizem liberação de base dentro dos tubulões de ar comprimido em jornadas",
     "heading": "Introdução",
-    "char_offset": 54640
+    "char_offset": 53357
   },
   {
     "id": "chunk-183",
-    "text": "médico do trabalho responsável pelo PCMSO ou pelo médico qualificado.\n**1.10** O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob\nar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência,",
+    "text": "de curta duração, de até 30 minutos, podem ser submetidos a mais de uma compressão em menos\nde 24 horas e até o máximo de três compressões.\n**1.6** O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência,\nsob supervisão direta do médico qualificado.",
     "heading": "Introdução",
-    "char_offset": 54910
+    "char_offset": 53668
   },
   {
     "id": "chunk-184",
-    "text": "bem como local apropriado para atendimento médico.\n**1.11** Todo empregado que trabalhe sob ar comprimido deve ter um prontuário médico, no qual\ndevem ser registrados os dados relativos aos exames realizados.\n**1.12** Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o",
+    "text": "**1.7** A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em\npressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e\na 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA.",
     "heading": "Introdução",
-    "char_offset": 55177
+    "char_offset": 53957
   },
   {
     "id": "chunk-185",
-    "text": "empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO.\n**1.13** Em caso de ausência ao trabalho por doença, por até 15 (quinze) dias, o empregado deve ser\nsubmetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da",
+    "text": "**1.8** Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2\n(duas) horas, no canteiro de obra, cumprindo um período de observação médica.\n**1.9** O local adequado para o cumprimento do período de observação deve ser designado pelo",
     "heading": "Introdução",
-    "char_offset": 55486
+    "char_offset": 54223
   },
   {
     "id": "chunk-186",
-    "text": "emissão de um novo ASO.\n**1.14** Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de\ncabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na\ncampânula até que o empregado se recupere.",
+    "text": "médico do trabalho responsável pelo PCMSO ou pelo médico qualificado.\n**1.10** O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob\nar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência,",
     "heading": "Introdução",
-    "char_offset": 55763
+    "char_offset": 54493
   },
   {
     "id": "chunk-187",
-    "text": "**1.14.1** Caso não ocorra a recuperação, a descompressão deve continuar até a pressão atmosférica,\nretirando-se, então, o empregado e encaminhando-o ao serviço médico.\n**1.15** Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos",
+    "text": "bem como local apropriado para atendimento médico.\n**1.11** Todo empregado que trabalhe sob ar comprimido deve ter um prontuário médico, no qual\ndevem ser registrados os dados relativos aos exames realizados.\n**1.12** Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o",
     "heading": "Introdução",
-    "char_offset": 56022
+    "char_offset": 54760
   },
   {
     "id": "chunk-188",
-    "text": "riscos decorrentes da atividade e às precauções que devem ser tomadas.\n**1.16** A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada\nantes do início das atividades e supervisionada por médico qualificado.\n**1.17** É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico.",
+    "text": "empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO.\n**1.13** Em caso de ausência ao trabalho por doença, por até 15 (quinze) dias, o empregado deve ser\nsubmetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da",
     "heading": "Introdução",
-    "char_offset": 56289
+    "char_offset": 55069
   },
   {
     "id": "chunk-189",
-    "text": "**1.18** Devem ser realizados os seguintes exames complementares quando da realização do\nadmissional e periódico, para trabalho em condições hiperbáricas:\na) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;\nb) eletrocardiograma: admissional e anual;",
+    "text": "emissão de um novo ASO.\n**1.14** Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de\ncabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na\ncampânula até que o empregado se recupere.",
     "heading": "Introdução",
-    "char_offset": 56623
+    "char_offset": 55346
   },
   {
     "id": "chunk-190",
-    "text": "c) hemograma completo: admissional e anual;\nd) grupo sanguíneo e fator RH: apenas admissional;\ne) dosagem de glicose sanguínea: admissional e anual;\nf) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e\nbienal;",
+    "text": "**1.14.1** Caso não ocorra a recuperação, a descompressão deve continuar até a pressão atmosférica,\nretirando-se, então, o empregado e encaminhando-o ao serviço médico.\n**1.15** Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos",
     "heading": "Introdução",
-    "char_offset": 56909
+    "char_offset": 55605
   },
   {
     "id": "chunk-191",
-    "text": "g) audiometria: admissional, seis meses após o início da atividade, e, a seguir, anualmente;\nh) eletroencefalograma: apenas admissional;\ni) espirometria: admissional e bienal.\n**1.18.1** A critério médico, outros exames complementares poderão ser solicitados a qualquer tempo.",
+    "text": "riscos decorrentes da atividade e às precauções que devem ser tomadas.\n**1.16** A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada\nantes do início das atividades e supervisionada por médico qualificado.\n**1.17** É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico.",
     "heading": "Introdução",
-    "char_offset": 57170
+    "char_offset": 55872
   },
   {
     "id": "chunk-192",
-    "text": "**1.19** A descompressão deve ser realizada segundo as tabelas constantes deste Anexo.\n**1.20** Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por\nsemana, situada a uma distância tal que o trabalhador seja atendido em, no máximo, 1 (uma) hora",
+    "text": "**1.18** Devem ser realizados os seguintes exames complementares quando da realização do\nadmissional e periódico, para trabalho em condições hiperbáricas:\na) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;\nb) eletrocardiograma: admissional e anual;",
     "heading": "Introdução",
-    "char_offset": 57449
+    "char_offset": 56206
   },
   {
     "id": "chunk-193",
-    "text": "após a ocorrência.\n**1.21** O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos,\nincluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em\ncasos de acidentes descompressivos ou outros eventos que comprometam a saúde dos",
+    "text": "c) hemograma completo: admissional e anual;\nd) grupo sanguíneo e fator RH: apenas admissional;\ne) dosagem de glicose sanguínea: admissional e anual;\nf) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e\nbienal;",
     "heading": "Introdução",
-    "char_offset": 57734
+    "char_offset": 56492
   },
   {
     "id": "chunk-194",
-    "text": "trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do\ntrabalho responsável pelo PCMSO ou ao médico qualificado.\n**1.22** O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.\n**1.23** Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes",
+    "text": "g) audiometria: admissional, seis meses após o início da atividade, e, a seguir, anualmente;\nh) eletroencefalograma: apenas admissional;\ni) espirometria: admissional e bienal.\n**1.18.1** A critério médico, outros exames complementares poderão ser solicitados a qualquer tempo.",
     "heading": "Introdução",
-    "char_offset": 58033
+    "char_offset": 56753
   },
   {
     "id": "chunk-195",
-    "text": "condições:\na) durante a permanência dos trabalhadores na câmara de trabalho ou na campânula ou eclusa, a\nventilação deve ser contínua, à razão de, no mínimo, 30 (trinta) pés cúbicos/min./homem;\nb) a temperatura, no interior da campânula ou eclusa e da câmara de trabalho, não deve exceder a",
+    "text": "**1.19** A descompressão deve ser realizada segundo as tabelas constantes deste Anexo.\n**1.20** Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por\nsemana, situada a uma distância tal que o trabalhador seja atendido em, no máximo, 1 (uma) hora",
     "heading": "Introdução",
-    "char_offset": 58386
+    "char_offset": 57032
   },
   {
     "id": "chunk-196",
-    "text": "27 °C (vinte e sete graus centígrados);\nc) a qualidade do ar deve ser mantida dentro dos padrões de pureza a seguir: monóxido de carbono\nmenor que 20 ppm; dióxido de carbono menor que 2.500 ppm; óleo menor que 5 mg/m³\n(PT>2atm); material particulado menor que 3 g/m³ (PT<2atm);",
+    "text": "após a ocorrência.\n**1.21** O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos,\nincluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em\ncasos de acidentes descompressivos ou outros eventos que comprometam a saúde dos",
     "heading": "Introdução",
-    "char_offset": 58680
+    "char_offset": 57317
   },
   {
     "id": "chunk-197",
-    "text": "d) oxigênio maior que 20% (vinte por cento).\n**1.24** A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não\npoderá exceder 0,7 atm nos minutos subsequentes.\n**1.25** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700",
+    "text": "trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do\ntrabalho responsável pelo PCMSO ou ao médico qualificado.\n**1.22** O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.\n**1.23** Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes",
     "heading": "Introdução",
-    "char_offset": 58961
+    "char_offset": 57616
   },
   {
     "id": "chunk-198",
-    "text": "metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco.\n**2.** GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE\n**2.1** Esta categoria profissional deve ser avaliada com os mesmos critérios clínicos e de exames\ncomplementares do item “1. TRABALHADOR NA INDÚSTRIA DA CONSTRUÇÃO EXPOSTO A",
+    "text": "condições:\na) durante a permanência dos trabalhadores na câmara de trabalho ou na campânula ou eclusa, a\nventilação deve ser contínua, à razão de, no mínimo, 30 (trinta) pés cúbicos/min./homem;\nb) a temperatura, no interior da campânula ou eclusa e da câmara de trabalho, não deve exceder a",
     "heading": "Introdução",
-    "char_offset": 59246
+    "char_offset": 57969
   },
   {
     "id": "chunk-199",
-    "text": "CONDIÇÕES HIPERBÁRICAS” deste Anexo. _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n**2.2** Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro)\nhoras, sob supervisão do médico qualificado.\n**2.3** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros",
+    "text": "27 °C (vinte e sete graus centígrados);\nc) a qualidade do ar deve ser mantida dentro dos padrões de pureza a seguir: monóxido de carbono\nmenor que 20 ppm; dióxido de carbono menor que 2.500 ppm; óleo menor que 5 mg/m³\n(PT>2atm); material particulado menor que 3 g/m³ (PT<2atm);",
     "heading": "Introdução",
-    "char_offset": 59549
+    "char_offset": 58263
   },
   {
     "id": "chunk-200",
-    "text": "nas 24 (vinte e quatro) horas que sucederem um mergulho seco.\n**3.** MERGULHADORES PROFISSIONAIS\n**3.1** Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico\nqualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico",
+    "text": "d) oxigênio maior que 20% (vinte por cento).\n**1.24** A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não\npoderá exceder 0,7 atm nos minutos subsequentes.\n**1.25** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700",
     "heading": "Introdução",
-    "char_offset": 59898
+    "char_offset": 58544
   },
   {
     "id": "chunk-201",
-    "text": "e tratamento de doenças e acidentes ligados ao mergulho.\n**3.2** Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores\nparticipantes e os dados técnicos de pressões, tempos e composição do gás respirado.\n**3.3** Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas",
+    "text": "metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco.\n**2.** GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE\n**2.1** Esta categoria profissional deve ser avaliada com os mesmos critérios clínicos e de exames\ncomplementares do item “1. TRABALHADOR NA INDÚSTRIA DA CONSTRUÇÃO EXPOSTO A",
     "heading": "Introdução",
-    "char_offset": 60191
+    "char_offset": 58829
   },
   {
     "id": "chunk-202",
-    "text": "específicas para evitar enganos, troca de cilindros e erros na execução de paradas de\ndescompressão.\n**3.4** Os exames médicos ocupacionais dos empregados em mergulho profissional devem ser\nrealizados:\na) por ocasião da admissão;\nb) a cada 6 (seis) meses, para todo o pessoal em efetiva atividade de mergulho;",
+    "text": "CONDIÇÕES HIPERBÁRICAS” deste Anexo. _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n**2.2** Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro)\nhoras, sob supervisão do médico qualificado.\n**2.3** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros",
     "heading": "Introdução",
-    "char_offset": 60532
+    "char_offset": 59132
   },
   {
     "id": "chunk-203",
-    "text": "c) após acidente ocorrido no desempenho de atividade de mergulho ou doença grave;\nd) em situações especiais outros exames podem ser solicitados a critério médico.\n**3.5** Devem ser realizados os seguintes exames complementares quando da realização do admissional",
+    "text": "nas 24 (vinte e quatro) horas que sucederem um mergulho seco.\n**3.** MERGULHADORES PROFISSIONAIS\n**3.1** Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico\nqualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico",
     "heading": "Introdução",
-    "char_offset": 60845
+    "char_offset": 59481
   },
   {
     "id": "chunk-204",
-    "text": "e periódico, para mergulho profissional:\na) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;\nb) eletrocardiograma ou teste ergométrico de esforço, a critério médico: anual;\nc) ecocardiograma: apenas admissional;\nd) teste ergométrico de esforço: admissional;",
+    "text": "e tratamento de doenças e acidentes ligados ao mergulho.\n**3.2** Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores\nparticipantes e os dados técnicos de pressões, tempos e composição do gás respirado.\n**3.3** Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas",
     "heading": "Introdução",
-    "char_offset": 61112
+    "char_offset": 59774
   },
   {
     "id": "chunk-205",
-    "text": "e) hemograma completo: admissional e anual;\nf) grupo sanguíneo e fator RH: apenas admissional;\ng) dosagem de glicose sanguínea: admissional e anual;\nh) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e\nbienal, que poderão ser substituídos, a critério médico, por Ressonância Nuclear Magnética ou",
+    "text": "específicas para evitar enganos, troca de cilindros e erros na execução de paradas de\ndescompressão.\n**3.4** Os exames médicos ocupacionais dos empregados em mergulho profissional devem ser\nrealizados:\na) por ocasião da admissão;\nb) a cada 6 (seis) meses, para todo o pessoal em efetiva atividade de mergulho;",
     "heading": "Introdução",
-    "char_offset": 61406
+    "char_offset": 60115
   },
   {
     "id": "chunk-206",
-    "text": "Tomografia Computadorizada;\ni) audiometria: admissional, seis meses após o início da atividade e, a seguir, anualmente;\nj) eletroencefalograma: admissional;\nk) espirometria: admissional e bienal;\nl) acuidade visual: admissional e anual.\n**3.6** A critério médico, outros exames complementares e pareceres de outros profissionais de saúde",
+    "text": "c) após acidente ocorrido no desempenho de atividade de mergulho ou doença grave;\nd) em situações especiais outros exames podem ser solicitados a critério médico.\n**3.5** Devem ser realizados os seguintes exames complementares quando da realização do admissional",
     "heading": "Introdução",
-    "char_offset": 61754
+    "char_offset": 60428
   },
   {
     "id": "chunk-207",
-    "text": "podem ser solicitados a qualquer tempo.\n**3.7** É vedada a atividade de mergulho para gestantes e lactantes.\n**3.8** A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo\nmergulho.\n**3.9** Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara",
+    "text": "e periódico, para mergulho profissional:\na) radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;\nb) eletrocardiograma ou teste ergométrico de esforço, a critério médico: anual;\nc) ecocardiograma: apenas admissional;\nd) teste ergométrico de esforço: admissional;",
     "heading": "Introdução",
-    "char_offset": 62095
+    "char_offset": 60695
   },
   {
     "id": "chunk-208",
-    "text": "hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho.\n**3.10** Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico\nqualificado.\n**3.11** Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara",
+    "text": "e) hemograma completo: admissional e anual;\nf) grupo sanguíneo e fator RH: apenas admissional;\ng) dosagem de glicose sanguínea: admissional e anual;\nh) radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e\nbienal, que poderão ser substituídos, a critério médico, por Ressonância Nuclear Magnética ou",
     "heading": "Introdução",
-    "char_offset": 62415
+    "char_offset": 60989
   },
   {
     "id": "chunk-209",
-    "text": "hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, para que o mergulhador seja\natendido em, no máximo, 1 hora após a ocorrência.\n**3.12** O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos,\nincluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em",
+    "text": "Tomografia Computadorizada;\ni) audiometria: admissional, seis meses após o início da atividade e, a seguir, anualmente;\nj) eletroencefalograma: admissional;\nk) espirometria: admissional e bienal;\nl) acuidade visual: admissional e anual.\n**3.6** A critério médico, outros exames complementares e pareceres de outros profissionais de saúde",
     "heading": "Introdução",
-    "char_offset": 62700
+    "char_offset": 61337
   },
   {
     "id": "chunk-210",
-    "text": "casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos\ntrabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico\nqualificado.\n**3.13** A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão.",
+    "text": "podem ser solicitados a qualquer tempo.\n**3.7** É vedada a atividade de mergulho para gestantes e lactantes.\n**3.8** A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo\nmergulho.\n**3.9** Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara",
     "heading": "Introdução",
-    "char_offset": 63040
+    "char_offset": 61678
   },
   {
     "id": "chunk-211",
-    "text": "**3.14** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700\nmetros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado.\n**3.15** O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.",
+    "text": "hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho.\n**3.10** Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico\nqualificado.\n**3.11** Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara",
     "heading": "Introdução",
-    "char_offset": 63314
+    "char_offset": 61998
   },
   {
     "id": "chunk-212",
-    "text": "**TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO**\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n|TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA|Col2|Col3|Col4|\n|---|---|---|---|\n|PERÍODO<br>DE<br>TRABALHO <br>(HORAS)|ESTÁGIO DE DESCOMPRESSÃO|TEMPO<br>TOTAL<br>DE<br>DESCOMPRESSÃO (**)||",
+    "text": "hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, para que o mergulhador seja\natendido em, no máximo, 1 hora após a ocorrência.\n**3.12** O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos,\nincluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em",
     "heading": "Introdução",
-    "char_offset": 63591
+    "char_offset": 62283
   },
   {
     "id": "chunk-213",
-    "text": "|PERÍODO<br>DE<br>TRABALHO <br>(HORAS)|1,3 ATA|1,3 ATA|1,3 ATA|\n|0 a 6:00|4 min|4min|Linha<br>1|\n|6:00 a 8:00|14min|14min|Linha<br>2|\n|+ de 8:00 (**)|30min|30min|Linha<br>3|\n|TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|",
+    "text": "casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos\ntrabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico\nqualificado.\n**3.13** A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão.",
     "heading": "Introdução",
-    "char_offset": 63916
+    "char_offset": 62623
   },
   {
     "id": "chunk-214",
-    "text": "|---|---|---|---|---|---|---|---|---|---|---|---|\n|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|",
+    "text": "**3.14** Não é permitido à organização submeter o empregado a voos ou elevações acima de 700\nmetros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado.\n**3.15** O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.",
     "heading": "Introdução",
-    "char_offset": 64198
+    "char_offset": 62897
   },
   {
     "id": "chunk-215",
-    "text": "|PRESSÃO<br>DE<br>TRABALHO ***<br>(ATA)|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO<br>DE<br>DESCOMPRESSÃO<br>(ATA)*|TEMPO<br>TOTAL<br>DE<br>DESCOMPRESSÃO**<br>(min.)||",
+    "text": "**TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO**\n_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_\n| TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA |  |  |  |\n| --- | --- | --- | --- |\n| PERÍODO DE TRABALHO\n(HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE",
     "heading": "Introdução",
-    "char_offset": 64922
+    "char_offset": 63174
   },
   {
     "id": "chunk-216",
-    "text": "|PRESSÃO<br>DE<br>TRABALHO ***<br>(ATA)|2,8|2,6|2,4|2,2|2,0|1,8|1,6|1,4|1,2|1,2||\n|2,0 a 2,2||||||||||-|Linha 4|\n|2,2 a 2,4||||||||||-|Linha 5|\n|2,4 a 2,6|||||||||5|5|Linha 6|\n|2,6 a 2,8|||||||||10|10|Linha 7|\n|2,8 a 2,9||||||||5|15|20|Linha 8|\n|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|",
+    "text": "DESCOMPRESSÃO (**) |  |\n|  | 1,3 ATA |  |  |\n| 0 a 6:00 | 4 min | 4min | Linha\n1 |\n| 6:00 a 8:00 | 14min | 14min | Linha\n2 |\n| + de 8:00 (**) | 30min | 30min | Linha\n3 |\n| TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA |  |  |  |  |  |  |  |  |  |  |  |",
     "heading": "Introdução",
-    "char_offset": 65383
+    "char_offset": 63468
   },
   {
     "id": "chunk-217",
-    "text": "|2,0 a 2,2||||||||||-|Linha 9|\n|2,2 a 2,4|||||||||5|5|Linha<br>10|\n|2,4 a 2,6|||||||||10|10|Linha<br>11|\n|2,6 a 2,8||||||||5|15|20|Linha<br>12|\n|2,8 a 2,9||||||||5|20|35|Linha<br>13|\n|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|",
+    "text": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA |  |  |  |  |  |  |  |  |  |  |  |\n| PRESSÃO DE\nTRABALHO ***\n(ATA) | ESTÁGIO DE DESCOMPRESSÃO\n(ATA)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE",
     "heading": "Introdução",
-    "char_offset": 66410
+    "char_offset": 63723
   },
   {
     "id": "chunk-218",
-    "text": "|2,0 a 2,2|||||||||5|5|Linha<br>14|\n|2,2 a 2,4|||||||||10|10|Linha<br>15|\n|2,4 a 2,6|Col2|Col3|Col4|Col5|Col6|Col7|Col8|5|20|25|Linha<br>16|\n|---|---|---|---|---|---|---|---|---|---|---|---|\n|2,6 a 2,8||||||||10|30|40|Linha<br>17|\n|2,8 a 2,9|||||||5|15|35|55|Linha<br>18|",
+    "text": "DESCOMPRESSÃO**\n(min.) |  |\n|  | 2,8 | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  |  | - | Linha 4 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  |  |  | - | Linha 5 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  |  | 5 | 5 | Linha 6 |",
     "heading": "Introdução",
-    "char_offset": 67388
+    "char_offset": 63997
   },
   {
     "id": "chunk-219",
-    "text": "|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|",
+    "text": "| 2,6 a 2,8 |  |  |  |  |  |  |  |  | 10 | 10 | Linha 7 |\n| 2,8 a 2,9 |  |  |  |  |  |  |  | 5 | 15 | 20 | Linha 8 |\n| TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  |  | - | Linha 9 |",
     "heading": "Introdução",
-    "char_offset": 67660
+    "char_offset": 64256
   },
   {
     "id": "chunk-220",
-    "text": "|2,0 a 2,2|||||||||5|5|Linha<br>19|\n|2,2 a 2,4|||||||||20|20|Linha<br>20|\n|2,4 a 2,6||||||||5|30|35|Linha<br>21|\n|2,6 a 2,8||||||||15|40|55|Linha<br>22|\n|2,8 a 2,9|||||||5|25|40|70|Linha<br>23|\n|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|",
+    "text": "| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 5 | 5 | Linha\n10 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  |  | 10 | 10 | Linha\n11 |\n| 2,6 a 2,8 |  |  |  |  |  |  |  | 5 | 15 | 20 | Linha\n12 |\n| 2,8 a 2,9 |  |  |  |  |  |  |  | 5 | 20 | 35 | Linha\n13 |\n| TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS |  |  |  |  |  |  |  |  |  |  |  |",
     "heading": "Introdução",
-    "char_offset": 68466
+    "char_offset": 64530
   },
   {
     "id": "chunk-221",
-    "text": "|2,0 a 2,2|||||||||10|10|Linha<br>24|\n|2,2 a 2,4||||||||5|20|25|Linha<br>25|\n|2,4 a 2,6||||||||10|35|45|Linha<br>26|\n|2,6 a 2,8|||||||5|20|40|65|Linha<br>27|\n|2,8 a 2,9|||||||10|30|40|80|Linha<br>28|\n|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|",
+    "text": "| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 5 | 5 | Linha\n14 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 10 | 10 | Linha\n15 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  | 5 | 20 | 25 | Linha\n16 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 69466
+    "char_offset": 64870
   },
   {
     "id": "chunk-222",
-    "text": "|2,0 a 2,2|||||||||15|15|Linha<br>29|\n|2,2 a 2,4||||||||5|30|35|Linha<br>30|\n|2,4 a 2,6||||||||15|40|55|Linha<br>31|\n|2,6 a 2,8|Col2|Col3|Col4|Col5|Col6|Col7|5|25|45|75|Linha<br>32|\n|---|---|---|---|---|---|---|---|---|---|---|---|\n|2,8 a 2,9||||||5|15|30|45|95|Linha<br>33|",
+    "text": "| 2,6 a 2,8 |  |  |  |  |  |  |  | 10 | 30 | 40 | Linha\n17 |\n| 2,8 a 2,9 |  |  |  |  |  |  | 5 | 15 | 35 | 55 | Linha\n18 |\n| TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 5 | 5 | Linha",
     "heading": "Introdução",
-    "char_offset": 70317
+    "char_offset": 65120
   },
   {
     "id": "chunk-223",
-    "text": "|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|",
+    "text": "19 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 20 | 20 | Linha\n20 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  | 5 | 30 | 35 | Linha\n21 |\n| 2,6 a 2,8 |  |  |  |  |  |  |  | 15 | 40 | 55 | Linha\n22 |\n| 2,8 a 2,9 |  |  |  |  |  |  | 5 | 25 | 40 | 70 | Linha\n23 |\n| TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS |  |  |  |  |  |  |  |  |  |  |  |",
     "heading": "Introdução",
-    "char_offset": 70592
+    "char_offset": 65399
   },
   {
     "id": "chunk-224",
-    "text": "|2,0 a 2,2|||||||||20|20|Linha<br>34|\n|2,2 a 2,4||||||||5|35|40|Linha<br>35|\n|2,4 a 2,6|||||||5|20|40|65|Linha<br>36|\n|2,6 a 2,8|||||||10|30|45|85|Linha<br>37|\n|2,8 a 2,9||||||5|20|35|45|105|Linha<br>38|\n|TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|",
+    "text": "| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 10 | 10 | Linha\n24 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 20 | 25 | Linha\n25 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  | 10 | 35 | 45 | Linha\n26 |\n| 2,6 a 2,8 |  |  |  |  |  |  | 5 | 20 | 40 | 65 | Linha\n27 |\n| 2,8 a 2,9 |  |  |  |  |  |  | 10 | 30 | 40 | 80 | Linha",
     "heading": "Introdução",
-    "char_offset": 71243
+    "char_offset": 65750
   },
   {
     "id": "chunk-225",
-    "text": "|---|---|---|---|---|---|---|---|---|---|---|\n|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS|",
+    "text": "28 |\n| TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 15 | 15 | Linha\n29 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 30 | 35 | Linha\n30 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  | 15 | 40 | 55 | Linha",
     "heading": "Introdução",
-    "char_offset": 71549
+    "char_offset": 66050
   },
   {
     "id": "chunk-226",
-    "text": "|PRESSÃO<br>DE<br>TRABALHO ***<br>(ATA)|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|ESTÁGIO DE DESCOMPRESSÃO<br>(ATA)*|TEMPO<br>TOTAL<br>DE<br>DESCOMPRESSÃO**<br>(min.)|<br>|",
+    "text": "31 |\n| 2,6 a 2,8 |  |  |  |  |  |  | 5 | 25 | 45 | 75 | Linha\n32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,8 a 2,9 |  |  |  |  |  | 5 | 15 | 30 | 45 | 95 | Linha\n33 |\n| TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS |  |  |  |  |  |  |  |  |  |  |  |",
     "heading": "Introdução",
-    "char_offset": 72158
+    "char_offset": 66322
   },
   {
     "id": "chunk-227",
-    "text": "|PRESSÃO<br>DE<br>TRABALHO ***<br>(ATA)|2,6|2,4|2,2|2,0|1,8|1,6|1,4|1,2|1,2|1,2|\n|3,0 a 3,2||||||||5|5|Linha<br>39|\n|3,2 a 3,4||||||||5|5|Linha<br>40|\n|3,4 a 3,6||||||||5|5|Linha<br>41|\n|3,6 a 3,8||||||||5|5|Linha<br>42|\n|3,8 a 4,0|||||||5|5|10|Linha<br>43|",
+    "text": "| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 20 | 20 | Linha\n34 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 35 | 40 | Linha\n35 |\n| 2,4 a 2,6 |  |  |  |  |  |  | 5 | 20 | 40 | 65 | Linha\n36 |\n| 2,6 a 2,8 |  |  |  |  |  |  | 10 | 30 | 45 | 85 | Linha\n37 |\n| 2,8 a 2,9 |  |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha",
     "heading": "Introdução",
-    "char_offset": 72534
+    "char_offset": 66618
   },
   {
     "id": "chunk-228",
-    "text": "|4,0 a 4,2|||||||5|5|10|Linha<br>44|\n|4,2 a 4,4|||||||5|10|15|Linha<br>45|\n|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA|",
+    "text": "38 |\n| TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| PRESSÃO DE",
     "heading": "Introdução",
-    "char_offset": 72792
+    "char_offset": 66923
   },
   {
     "id": "chunk-229",
-    "text": "|3,0 a 3,2|Col2|Col3|Col4|Col5|Col6|Col7|5|15|20|Linha<br>46|\n|---|---|---|---|---|---|---|---|---|---|---|\n|3,2 a 3,4|||||||5|20|25|Linha<br>47|\n|3,4 a 3,6|||||||10|25|35|Linha<br>48|\n|3,6 a 3,8||||||5|10|35|50|Linha<br>49|\n|3,8 a 4,0||||||5|15|40|60|Linha<br>50|",
+    "text": "TRABALHO ***\n(ATA) | ESTÁGIO DE DESCOMPRESSÃO\n(ATA)* |  |  |  |  |  |  |  | TEMPO TOTAL DE\nDESCOMPRESSÃO**\n(min.) |  |\n|  | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 |  |  |\n| 3,0 a 3,2 |  |  |  |  |  |  |  | 5 | 5 | Linha\n39 |\n| 3,2 a 3,4 |  |  |  |  |  |  |  | 5 | 5 | Linha",
     "heading": "Introdução",
-    "char_offset": 73486
+    "char_offset": 67176
   },
   {
     "id": "chunk-230",
-    "text": "|4,0 a 4,2|||||5|5|20|40|70|Linha<br>51|\n|4,2 a 4,4|||||5|10|25|40|80|Linha<br>52|\n|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS|",
+    "text": "40 |\n| 3,4 a 3,6 |  |  |  |  |  |  |  | 5 | 5 | Linha\n41 |\n| 3,6 a 3,8 |  |  |  |  |  |  |  | 5 | 5 | Linha\n42 |\n| 3,8 a 4,0 |  |  |  |  |  |  | 5 | 5 | 10 | Linha\n43 |\n| 4,0 a 4,2 |  |  |  |  |  |  | 5 | 5 | 10 | Linha\n44 |\n| 4,2 a 4,4 |  |  |  |  |  |  | 5 | 10 | 15 | Linha",
     "heading": "Introdução",
-    "char_offset": 73751
+    "char_offset": 67457
   },
   {
     "id": "chunk-231",
-    "text": "|3,0 a 3,2||||||5|10|35|50|Linha<br>53|\n|3,2 a 3,4||||||5|20|35|60|Linha<br>54|\n|3,4 a 3,6||||||10|25|40|75|Linha<br>55|\n|3,6 a 3,8|||||5|10|30|45|90|Linha<br>56|\n|3,8 a 4,0|||||5|20|35|45|105|Linha<br>57|\n|4,0 a 4,2||||5|10|20|35|45|115|Linha<br>58|",
+    "text": "45 |\n| TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  |  |  | 5 | 15 | 20 | Linha\n46 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,2 a 3,4 |  |  |  |  |  |  | 5 | 20 | 25 | Linha",
     "heading": "Introdução",
-    "char_offset": 74551
+    "char_offset": 67735
   },
   {
     "id": "chunk-232",
-    "text": "|4,2 a 4,4||||5|15|25|35|45|125|Linha<br>59|\n|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS|",
+    "text": "47 |\n| 3,4 a 3,6 |  |  |  |  |  |  | 10 | 25 | 35 | Linha\n48 |\n| 3,6 a 3,8 |  |  |  |  |  | 5 | 10 | 35 | 50 | Linha\n49 |\n| 3,8 a 4,0 |  |  |  |  |  | 5 | 15 | 40 | 60 | Linha\n50 |\n| 4,0 a 4,2 |  |  |  |  | 5 | 5 | 20 | 40 | 70 | Linha\n51 |\n| 4,2 a 4,4 |  |  |  |  | 5 | 10 | 25 | 40 | 80 | Linha",
     "heading": "Introdução",
-    "char_offset": 74802
+    "char_offset": 68007
   },
   {
     "id": "chunk-233",
-    "text": "|3,0 a 3,2||||||5|25|40|70|Linha<br>60|\n|3,2 a 3,4|||||5|10|30|40|85|Linha<br>61|\n|3,4 a 3,6|||||5|20|35|40|100|Linha<br>62|\n|3,6 a 3,8|Col2|Col3|Col4|5|10|25|35|40|115|Linha<br>63|\n|---|---|---|---|---|---|---|---|---|---|---|\n|3,8 a 4,0||||5|15|30|35|45|130|Linha<br>64|",
+    "text": "52 |\n| TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  |  | 5 | 10 | 35 | 50 | Linha\n53 |\n| 3,2 a 3,4 |  |  |  |  |  | 5 | 20 | 35 | 60 | Linha\n54 |\n| 3,4 a 3,6 |  |  |  |  |  | 10 | 25 | 40 | 75 | Linha",
     "heading": "Introdução",
-    "char_offset": 75576
+    "char_offset": 68304
   },
   {
     "id": "chunk-234",
-    "text": "|4,0 a 4,2|||5|10|20|30|35|45|145|Linha<br>66|\n|4,2 a 4,4|||5|15|25|30|35|45|155|Linha<br>67|\n|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS|",
+    "text": "55 |\n| 3,6 a 3,8 |  |  |  |  | 5 | 10 | 30 | 45 | 90 | Linha\n56 |\n| 3,8 a 4,0 |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha\n57 |\n| 4,0 a 4,2 |  |  |  | 5 | 10 | 20 | 35 | 45 | 115 | Linha\n58 |\n| 4,2 a 4,4 |  |  |  | 5 | 15 | 25 | 35 | 45 | 125 | Linha",
     "heading": "Introdução",
-    "char_offset": 75849
+    "char_offset": 68581
   },
   {
     "id": "chunk-235",
-    "text": "|3,0 a 3,2|||||5|10|30|45|90|Linha<br>68|\n|3,2 a 3,4|||||5|20|35|45|105|Linha<br>69|\n|3,4 a 3,6||||5|10|25|35|45|120|Linha<br>70|\n|3,6 a 3,8||||5|20|30|35|45|135|Linha<br>71|\n|3,8 a 4,0|||5|10|20|30|35|45|145|Linha<br>72|\n|4,0 a 4,2||5|5|15|25|30|35|45|160|Linha<br>73|",
+    "text": "59 |\n| TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  |  | 5 | 25 | 40 | 70 | Linha\n60 |\n| 3,2 a 3,4 |  |  |  |  | 5 | 10 | 30 | 40 | 85 | Linha\n61 |\n| 3,4 a 3,6 |  |  |  |  | 5 | 20 | 35 | 40 | 100 | Linha",
     "heading": "Introdução",
-    "char_offset": 76682
+    "char_offset": 68832
   },
   {
     "id": "chunk-236",
-    "text": "|4,2 a 4,4||5|10|20|25|30|40|45|175|Linha<br>74|\n|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS|",
+    "text": "62 |\n| 3,6 a 3,8 |  |  |  | 5 | 10 | 25 | 35 | 40 | 115 | Linha\n63 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,8 a 4,0 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 | Linha\n64 |\n| 4,0 a 4,2 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha",
     "heading": "Introdução",
-    "char_offset": 76952
+    "char_offset": 69115
   },
   {
     "id": "chunk-237",
-    "text": "|3,0 a 3,2|||||5|15|35|40|95|Linha<br>75|\n|3,2 a 3,4|||||10|25|35|45|115|Linha<br>76|\n|3,4 a 3,6||||5|15|30|35|45|130|Linha<br>77|\n|3,6 a 3,8|||5|10|20|30|35|45|145|Linha<br>78|\n|3,8 a 4,0|||5|20|25|30|35|45|160|Linha<br>79|\n|4,0 a 4,2||5|10|20|25|30|40|45|175|Linha<br>80|",
+    "text": "66 |\n| 4,2 a 4,4 |  |  | 5 | 15 | 25 | 30 | 35 | 45 | 155 | Linha\n67 |\n| TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 5 | 10 | 30 | 45 | 90 | Linha\n68 |\n| 3,2 a 3,4 |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha",
     "heading": "Introdução",
-    "char_offset": 77740
+    "char_offset": 69377
   },
   {
     "id": "chunk-238",
-    "text": "|4,2 a 4,4|5|5|15|25|25|30|Col8|40|45|190|Linha<br>81|\n|---|---|---|---|---|---|---|---|---|---|---|---|\n|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS|",
+    "text": "69 |\n| 3,4 a 3,6 |  |  |  | 5 | 10 | 25 | 35 | 45 | 120 | Linha\n70 |\n| 3,6 a 3,8 |  |  |  | 5 | 20 | 30 | 35 | 45 | 135 | Linha\n71 |\n| 3,8 a 4,0 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha\n72 |\n| 4,0 a 4,2 |  | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 | Linha",
     "heading": "Introdução",
-    "char_offset": 78015
+    "char_offset": 69667
   },
   {
     "id": "chunk-239",
-    "text": "|3,0 a 3,2|||||10|10|20|35|45|110|Linha<br>82|\n|3,2 a 3,4||||5|15|15|25|40|45|130|Linha<br>83|\n|3,4 a 3,6|||5|5|25|25|30|40|45|150|Linha<br>84|\n|3,6 a 3,8|||5|15|25|25|30|40|45|160|Linha<br>85|\n|3,8 a 4,0||5|10|20|25|25|30|40|45|175|Linha<br>86|\n|4,0 a 4,2|5|5|15|25|25|25|30|40|45|190|Linha<br>87|",
+    "text": "73 |\n| 4,2 a 4,4 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha\n74 |\n| TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 5 | 15 | 35 | 40 | 95 | Linha\n75 |\n| 3,2 a 3,4 |  |  |  |  | 10 | 25 | 35 | 45 | 115 | Linha",
     "heading": "Introdução",
-    "char_offset": 78770
+    "char_offset": 69928
   },
   {
     "id": "chunk-240",
-    "text": "|4,2 a 4,4|5|15|20|25|30|30|30|40|45|210|Linha<br>88|\n|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS|",
+    "text": "76 |\n| 3,4 a 3,6 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 | Linha\n77 |\n| 3,6 a 3,8 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha\n78 |\n| 3,8 a 4,0 |  |  | 5 | 20 | 25 | 30 | 35 | 45 | 160 | Linha\n79 |\n| 4,0 a 4,2 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha",
     "heading": "Introdução",
-    "char_offset": 79069
+    "char_offset": 70221
   },
   {
     "id": "chunk-241",
-    "text": "|3,0 a 3,2||||5|10|10|25|40|50|130|Linha<br>89|\n|3,2 a 3,4||||10|20|20|30|40|55|155|Linha<br>90|\n|3,4 a 3,6|||5|15|25|25|30|45|60|180|Linha<br>91|\n|3,6 a 3,8||5|10|20|25|25|30|45|70|205|Linha<br>92|\n|3,8 a 4,0||10|15|20|30|30|40|50|80|245 ****|Linha<br>93|",
+    "text": "80 |\nNOTAS:\n(*) A descompressão tanto para o 1º estágio quanto entre os estágios subsequentes deve ser feita\na velocidade não superior a 0,4 atm/minuto.\n(**) Não está incluído o tempo entre estágios.\n(***) Para os valores limites de pressão de trabalho, use a maior descompressão.",
     "heading": "Introdução",
-    "char_offset": 79773
+    "char_offset": 70489
   },
   {
     "id": "chunk-242",
-    "text": "NOTAS:\n(*) A descompressão tanto para o 1º estágio quanto entre os estágios subsequentes deve ser feita\na velocidade não superior a 0,4 atm/minuto.\n(**) Não está incluído o tempo entre estágios.\n(***) Para os valores limites de pressão de trabalho, use a maior descompressão.",
+    "text": "(****) O período de trabalho mais o tempo de descompressão (incluindo o tempo entre os\nestágios) não deverá exceder a 12 horas.” (NR)\n**ANEXO V**\n| 4,2 a 4,4 | 5 | 5 | 15 | 25 | 25 | 30 |  | 40 | 45 | 190 | Linha\n81 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 80034
+    "char_offset": 70773
   },
   {
     "id": "chunk-243",
-    "text": "(****) O período de trabalho mais o tempo de descompressão (incluindo o tempo entre os\nestágios) não deverá exceder a 12 horas.” (NR)\n**ANEXO V**\n**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E**\n**A RADIAÇÕES IONIZANTES**",
+    "text": "| TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 10 |  | 20 | 35 | 45 | 110 | Linha\n82 |\n| 3,2 a 3,4 |  |  |  | 5 | 15 |  | 25 | 40 | 45 | 130 | Linha\n83 |\n| 3,4 a 3,6 |  |  | 5 | 5 | 25 |  | 30 | 40 | 45 | 150 | Linha",
     "heading": "Introdução",
-    "char_offset": 80314
+    "char_offset": 71065
   },
   {
     "id": "chunk-244",
-    "text": "**1.** OBJETIVOS\n**1.1** Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos\nempregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações\nionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciamento de Risco PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré-cancerígenas",
+    "text": "84 |\n| 3,6 a 3,8 |  |  | 5 | 15 | 25 |  | 30 | 40 | 45 | 160 | Linha\n85 |\n| 3,8 a 4,0 |  | 5 | 10 | 20 | 25 |  | 30 | 40 | 45 | 175 | Linha\n86 |\n| 4,0 a 4,2 | 5 | 5 | 15 | 25 | 25 |  | 30 | 40 | 45 | 190 | Linha\n87 |\n| 4,2 a 4,4 | 5 | 15 | 20 | 25 | 30 |  | 30 | 40 | 45 | 210 | Linha",
     "heading": "Introdução",
-    "char_offset": 80572
+    "char_offset": 71352
   },
   {
     "id": "chunk-245",
-    "text": "relacionados ao trabalho.\n**2.** CAMPO DE APLICAÇÃO\n**2.1** O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem\nou manipulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no\nInventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero",
+    "text": "88 |\n| TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  | 5 | 10 |  | 25 | 40 | 50 | 130 | Linha\n89 |\n| 3,2 a 3,4 |  |  |  | 10 | 20 |  | 30 | 40 | 55 | 155 | Linha\n90 |\n| 3,4 a 3,6 |  |  | 5 | 15 | 25 |  | 30 | 45 | 60 | 180 | Linha",
     "heading": "Introdução",
-    "char_offset": 80957
+    "char_offset": 71637
   },
   {
     "id": "chunk-246",
-    "text": "vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias,\ne às organizações nas quais os processos de trabalho exponham seus empregados a radiações\nionizantes.\n**3.** DIRETRIZES\n**3.1** O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na",
+    "text": "91 |\n| 3,6 a 3,8 |  | 5 | 10 | 20 | 25 |  | 30 | 45 | 70 | 205 | Linha\n92 |\n| 3,8 a 4,0 |  | 10 | 15 | 20 | 30 |  | 40 | 50 | 80 | 245 **** | Linha\n93 |\n**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E**\n**A RADIAÇÕES IONIZANTES**",
     "heading": "Introdução",
-    "char_offset": 81297
+    "char_offset": 71934
   },
   {
     "id": "chunk-247",
-    "text": "organização com exposição ocupacional a radiações ionizantes e a substâncias químicas\ncancerígenas, identificadas e classificadas no PGR.\n**3.1.1** O médico responsável pelo PCMSO deve orientar os médicos que realizam o exame clínico\ndesses empregados sobre a importância da identificação de lesões e alterações clínicas ou",
+    "text": "**1.** OBJETIVOS\n**1.1** Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos\nempregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações\nionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciamento de Risco PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré-cancerígenas",
     "heading": "Introdução",
-    "char_offset": 81608
+    "char_offset": 72199
   },
   {
     "id": "chunk-248",
-    "text": "laboratoriais que possam estar relacionadas à exposição ocupacional a substâncias químicas\ncancerígenas e a radiações ionizantes.\n4. SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS\n**4.1** Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem",
+    "text": "relacionados ao trabalho.\n**2.** CAMPO DE APLICAÇÃO\n**2.1** O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem\nou manipulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no\nInventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero",
     "heading": "Introdução",
-    "char_offset": 81934
+    "char_offset": 72584
   },
   {
     "id": "chunk-249",
-    "text": "ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado.\n**4.1.1** Os exames complementares para os empregados expostos a agentes químicos cancerígenos,\nconforme informado no PGR da organização, são obrigatórios quando a exposição ocupacional",
+    "text": "vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias,\ne às organizações nas quais os processos de trabalho exponham seus empregados a radiações\nionizantes.\n**3.** DIRETRIZES\n**3.1** O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na",
     "heading": "Introdução",
-    "char_offset": 82199
+    "char_offset": 72924
   },
   {
     "id": "chunk-250",
-    "text": "estiver acima de 10% (dez por cento) dos limites de exposição ocupacional, ou quando não houver\navaliação ambiental, e devem ser executados e interpretados com base nos critérios constantes\nnesta NR.\n**4.2** Benzeno\n**4.2.1** As ações de vigilância da saúde dos empregados expostos a benzeno devem seguir o disposto",
+    "text": "organização com exposição ocupacional a radiações ionizantes e a substâncias químicas\ncancerígenas, identificadas e classificadas no PGR.\n**3.1.1** O médico responsável pelo PCMSO deve orientar os médicos que realizam o exame clínico\ndesses empregados sobre a importância da identificação de lesões e alterações clínicas ou",
     "heading": "Introdução",
-    "char_offset": 82476
+    "char_offset": 73235
   },
   {
     "id": "chunk-251",
-    "text": "na Instrução Normativa Nº 2, de 20 de dezembro de 1995, da SSST/Ministério do Trabalho, e na\nPortaria de Consolidação Nº 5, Anexos LXVIII, LXIX, LXX e LXXI, de 28 de setembro de 2017, do\nMinistério da Saúde.\n**5.** RADIAÇÕES IONIZANTES\n**5.1** Os empregados devem ser avaliados, no exame médico admissional, de retorno ao trabalho ou",
+    "text": "laboratoriais que possam estar relacionadas à exposição ocupacional a substâncias químicas\ncancerígenas e a radiações ionizantes.\n4. SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS\n**4.1** Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem",
     "heading": "Introdução",
-    "char_offset": 82795
+    "char_offset": 73561
   },
   {
     "id": "chunk-252",
-    "text": "de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou\nsupervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de\nEnergia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material",
+    "text": "ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado.\n**4.1.1** Os exames complementares para os empregados expostos a agentes químicos cancerígenos,\nconforme informado no PGR da organização, são obrigatórios quando a exposição ocupacional",
     "heading": "Introdução",
-    "char_offset": 83129
+    "char_offset": 73826
   },
   {
     "id": "chunk-253",
-    "text": "radioativo.\n**5.1.1** A informação sobre aptidão ou inaptidão para exercer atividade com exposição a radiação ou\nmaterial radioativo deve ser consignada no ASO do empregado.\n**5.2** No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva",
+    "text": "estiver acima de 10% (dez por cento) dos limites de exposição ocupacional, ou quando não houver\navaliação ambiental, e devem ser executados e interpretados com base nos critérios constantes\nnesta NR.\n**4.2** Benzeno\n**4.2.1** As ações de vigilância da saúde dos empregados expostos a benzeno devem seguir o disposto",
     "heading": "Introdução",
-    "char_offset": 83409
+    "char_offset": 74103
   },
   {
     "id": "chunk-254",
-    "text": "ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua\ncontinuidade na atividade, quando deve ser emitido novo ASO.\n**5.3** No caso de exposição ocupacional acidental a níveis elevados de radiação ionizante, deve ser",
+    "text": "na Instrução Normativa Nº 2, de 20 de dezembro de 1995, da SSST/Ministério do Trabalho, e na\nPortaria de Consolidação Nº 5, Anexos LXVIII, LXIX, LXX e LXXI, de 28 de setembro de 2017, do\nMinistério da Saúde.\n**5.** RADIAÇÕES IONIZANTES\n**5.1** Os empregados devem ser avaliados, no exame médico admissional, de retorno ao trabalho ou",
     "heading": "Introdução",
-    "char_offset": 83686
+    "char_offset": 74422
   },
   {
     "id": "chunk-255",
-    "text": "realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas\napós a exposição.\n**5.4** Os prontuários médicos dos empregados expostos a radiações ionizantes devem ser mantidos\naté a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30",
+    "text": "de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou\nsupervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de\nEnergia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material",
     "heading": "Introdução",
-    "char_offset": 83946
+    "char_offset": 74756
   },
   {
     "id": "chunk-256",
-    "text": "(trinta) anos após o desligamento do empregado.\n**GLOSSÁRIO**\nATA: abreviação de Atmosfera de Pressão Absoluta. Unidade de pressão que considera a pressão\nmanométrica e a pressão atmosférica ambiente.\nAtividades críticas: aquelas que exijam avaliação médica específica para definir a aptidão do",
+    "text": "radioativo.\n**5.1.1** A informação sobre aptidão ou inaptidão para exercer atividade com exposição a radiação ou\nmaterial radioativo deve ser consignada no ASO do empregado.\n**5.2** No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva",
     "heading": "Introdução",
-    "char_offset": 84244
+    "char_offset": 75036
   },
   {
     "id": "chunk-257",
-    "text": "empregado.\nCâmara hiperbárica de tratamento: câmara que, independentemente da câmara de trabalho, é\nusada para tratamento de indivíduos que adquiram doença descompressiva ou embolia e é\ndiretamente supervisionada por médico qualificado; constitui Vaso de Pressão para Ocupação",
+    "text": "ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua\ncontinuidade na atividade, quando deve ser emitido novo ASO.\n**5.3** No caso de exposição ocupacional acidental a níveis elevados de radiação ionizante, deve ser",
     "heading": "Introdução",
-    "char_offset": 84540
+    "char_offset": 75313
   },
   {
     "id": "chunk-258",
-    "text": "Humana - VPOH, do tipo multipaciente (para mais de uma pessoa).\nCâmara de superfície: uma câmara hiperbárica especialmente projetada para ser utilizada na\ndescompressão dos mergulhadores, requerida pela operação ou pelo tratamento hiperbárico.\nCâmara de trabalho: espaço ou compartimento com pressão superior à pressão atmosférica, onde",
+    "text": "realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas\napós a exposição.\n**5.4** Os prontuários médicos dos empregados expostos a radiações ionizantes devem ser mantidos\naté a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30",
     "heading": "Introdução",
-    "char_offset": 84819
+    "char_offset": 75573
   },
   {
     "id": "chunk-259",
-    "text": "o trabalho é realizado.\nCâmara submersível de pressão atmosférica: câmara resistente à pressão externa, especialmente\nprojetada para uso submerso, na qual os seus ocupantes permanecem submetidos à pressão\natmosférica.\nCampânula: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho do",
+    "text": "(trinta) anos após o desligamento do empregado.\n**GLOSSÁRIO**\nATA: abreviação de Atmosfera de Pressão Absoluta. Unidade de pressão que considera a pressão\nmanométrica e a pressão atmosférica ambiente.\nAtividades críticas: aquelas que exijam avaliação médica específica para definir a aptidão do",
     "heading": "Introdução",
-    "char_offset": 85160
+    "char_offset": 75871
   },
   {
     "id": "chunk-260",
-    "text": "tubulão e vice-versa. O termo é utilizado nos trabalhos em tubulões de ar comprimido e define a\ncâmara onde o trabalhador permanece aguardando enquanto a pressão é aumentada no início da\natividade laboral, e onde a pressão é diminuída no final da atividade laboral.",
+    "text": "empregado.\nCâmara hiperbárica de tratamento: câmara que, independentemente da câmara de trabalho, é\nusada para tratamento de indivíduos que adquiram doença descompressiva ou embolia e é\ndiretamente supervisionada por médico qualificado; constitui Vaso de Pressão para Ocupação",
     "heading": "Introdução",
-    "char_offset": 85474
+    "char_offset": 76167
   },
   {
     "id": "chunk-261",
-    "text": "Descompressão: o conjunto de procedimentos, por meio do qual um mergulhador elimina do seu\norganismo o excesso de gases inertes absorvidos durante determinadas condições hiperbáricas,\nsendo tais procedimentos absolutamente necessários no seu retorno à pressão atmosférica.",
+    "text": "Humana - VPOH, do tipo multipaciente (para mais de uma pessoa).\nCâmara de superfície: uma câmara hiperbárica especialmente projetada para ser utilizada na\ndescompressão dos mergulhadores, requerida pela operação ou pelo tratamento hiperbárico.\nCâmara de trabalho: espaço ou compartimento com pressão superior à pressão atmosférica, onde",
     "heading": "Introdução",
-    "char_offset": 85741
+    "char_offset": 76446
   },
   {
     "id": "chunk-262",
-    "text": "Eclusa de pessoal: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho\nem túneis pressurizados e vice-versa; termo utilizado nos trabalhos em perfuração de túneis,\ntambém conhecidas como ”Shield”, em referência ao nome da marca do equipamento de perfuração",
+    "text": "o trabalho é realizado.\nCâmara submersível de pressão atmosférica: câmara resistente à pressão externa, especialmente\nprojetada para uso submerso, na qual os seus ocupantes permanecem submetidos à pressão\natmosférica.\nCampânula: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho do",
     "heading": "Introdução",
-    "char_offset": 86015
+    "char_offset": 76787
   },
   {
     "id": "chunk-263",
-    "text": "de túneis, que tem acoplada uma câmara hiperbárica para a compressão. É a câmara onde o\ntrabalhador aguarda enquanto a pressão é aumentada no início da atividade laboral, e onde a\npressão é diminuída no final da atividade laboral.\nEncarregado de ar comprimido: profissional treinado e conhecedor das técnicas empregadas nos",
+    "text": "tubulão e vice-versa. O termo é utilizado nos trabalhos em tubulões de ar comprimido e define a\ncâmara onde o trabalhador permanece aguardando enquanto a pressão é aumentada no início da\natividade laboral, e onde a pressão é diminuída no final da atividade laboral.",
     "heading": "Introdução",
-    "char_offset": 86302
+    "char_offset": 77101
   },
   {
     "id": "chunk-264",
-    "text": "trabalhos em condições hiperbáricas, designado pela organização como o responsável imediato\npelos empregados e por toda a operação de ar comprimido, incluindo pessoal e equipamento.\nGuia interno: profissional de saúde ou mergulhador profissional que é pressurizado juntamente com",
+    "text": "Descompressão: o conjunto de procedimentos, por meio do qual um mergulhador elimina do seu\norganismo o excesso de gases inertes absorvidos durante determinadas condições hiperbáricas,\nsendo tais procedimentos absolutamente necessários no seu retorno à pressão atmosférica.",
     "heading": "Introdução",
-    "char_offset": 86627
+    "char_offset": 77368
   },
   {
     "id": "chunk-265",
-    "text": "o paciente.\nMédico qualificado: médico com habilitação em medicina hiperbárica.\nMergulhador: trabalhador qualificado para utilização de equipamentos de mergulho com\nsuprimento de gás respiratório, em ambiente submerso.\nMisturas respiratórias artificiais: misturas de oxigênio, hélio ou outros gases, apropriadas à",
+    "text": "Eclusa de pessoal: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho\nem túneis pressurizados e vice-versa; termo utilizado nos trabalhos em perfuração de túneis,\ntambém conhecidas como ”Shield”, em referência ao nome da marca do equipamento de perfuração",
     "heading": "Introdução",
-    "char_offset": 86910
+    "char_offset": 77642
   },
   {
     "id": "chunk-266",
-    "text": "respiração durante os trabalhos submersos, quando não seja indicado o uso do ar natural.\nOperador de eclusa ou de campânula: trabalhador previamente treinado nas manobras de\ncompressão e descompressão das eclusas ou campânulas, responsável pelo controle da pressão no",
+    "text": "de túneis, que tem acoplada uma câmara hiperbárica para a compressão. É a câmara onde o\ntrabalhador aguarda enquanto a pressão é aumentada no início da atividade laboral, e onde a\npressão é diminuída no final da atividade laboral.\nEncarregado de ar comprimido: profissional treinado e conhecedor das técnicas empregadas nos",
     "heading": "Introdução",
-    "char_offset": 87225
+    "char_offset": 77929
   },
   {
     "id": "chunk-267",
-    "text": "seu interior, tanto no tubulão quanto na eclusa de pessoal.\nOperação de mergulho: toda aquela que envolve trabalhos submersos e que se estende desde os\nprocedimentos iniciais de preparação até o final do período de observação, determinado pelo\nmédico qualificado responsável pelo mergulho.",
+    "text": "trabalhos em condições hiperbáricas, designado pela organização como o responsável imediato\npelos empregados e por toda a operação de ar comprimido, incluindo pessoal e equipamento.\nGuia interno: profissional de saúde ou mergulhador profissional que é pressurizado juntamente com",
     "heading": "Introdução",
-    "char_offset": 87494
+    "char_offset": 78254
   },
   {
     "id": "chunk-268",
-    "text": "Período de trabalho: tempo em que o trabalhador permanece sob condição hiperbárica excluindose o tempo de descompressão. Na atividade de mergulho é chamado “tempo de fundo”.\nPoeiras contendo partículas insolúveis ou pouco solúveis de baixa toxicidade e não classificadas de",
+    "text": "o paciente.\nMédico qualificado: médico com habilitação em medicina hiperbárica.\nMergulhador: trabalhador qualificado para utilização de equipamentos de mergulho com\nsuprimento de gás respiratório, em ambiente submerso.\nMisturas respiratórias artificiais: misturas de oxigênio, hélio ou outros gases, apropriadas à",
     "heading": "Introdução",
-    "char_offset": 87786
+    "char_offset": 78537
   },
   {
     "id": "chunk-269",
-    "text": "outra forma: também chamadas de “poeiras incômodas”, \"biologicamente inertes\", \"partículas não\nclassificadas de outra forma\" - PNOC e que, quando inaladas em quantidades excessivas, podem\ncontribuir para doenças pulmonares.\nPressão Máxima de Trabalho - PMT: a maior pressão de ar à qual o trabalhador é exposto durante",
+    "text": "respiração durante os trabalhos submersos, quando não seja indicado o uso do ar natural.\nOperador de eclusa ou de campânula: trabalhador previamente treinado nas manobras de\ncompressão e descompressão das eclusas ou campânulas, responsável pelo controle da pressão no",
     "heading": "Introdução",
-    "char_offset": 88061
+    "char_offset": 78852
   },
   {
     "id": "chunk-270",
-    "text": "sua jornada de trabalho. Esta pressão é aquela que deve ser considerada na programação da\ndescompressão.\nTrabalhos sob ar comprimido: os efetuados em ambientes onde o trabalhador é obrigado a suportar\npressões maiores que a atmosférica, e onde se exige cuidadosa descompressão, de acordo com",
+    "text": "seu interior, tanto no tubulão quanto na eclusa de pessoal.\nOperação de mergulho: toda aquela que envolve trabalhos submersos e que se estende desde os\nprocedimentos iniciais de preparação até o final do período de observação, determinado pelo\nmédico qualificado responsável pelo mergulho.",
     "heading": "Introdução",
-    "char_offset": 88381
+    "char_offset": 79121
   },
   {
     "id": "chunk-271",
-    "text": "padrões técnicos estabelecidos.\nTratamento recompressivo: tratamento de emergência em câmara hiperbárica multipaciente,\nrealizado ou supervisionado exclusivamente por médico qualificado e acompanhado diretamente\npor guia interno junto ao paciente.\nTubulão de ar comprimido: equipamento para fundações com estrutura vertical, que se estende",
+    "text": "Período de trabalho: tempo em que o trabalhador permanece sob condição hiperbárica excluindose o tempo de descompressão. Na atividade de mergulho é chamado “tempo de fundo”.\nPoeiras contendo partículas insolúveis ou pouco solúveis de baixa toxicidade e não classificadas de",
     "heading": "Introdução",
-    "char_offset": 88676
+    "char_offset": 79413
   },
   {
     "id": "chunk-272",
-    "text": "abaixo da superfície da água ou solo, no interior da qual os trabalhadores devem penetrar, entrando\npela campânula, para uma pressão maior que atmosférica. A atmosfera pressurizada opõe-se à\npressão da água e permite trabalho em seu interior.\nTúnel pressurizado: escavação abaixo da superfície do solo, cujo maior eixo faz um ângulo não",
+    "text": "outra forma: também chamadas de “poeiras incômodas”, \"biologicamente inertes\", \"partículas não\nclassificadas de outra forma\" - PNOC e que, quando inaladas em quantidades excessivas, podem\ncontribuir para doenças pulmonares.\nPressão Máxima de Trabalho - PMT: a maior pressão de ar à qual o trabalhador é exposto durante",
     "heading": "Introdução",
-    "char_offset": 89017
+    "char_offset": 79688
   },
   {
     "id": "chunk-273",
-    "text": "superior a 45° (quarenta e cinco graus) com a horizontal, fechado nas duas extremidades, em cujo\ninterior haja pressão superior a uma atmosfera.",
-    "heading": "Tabelas",
-    "char_offset": 89500
+    "text": "sua jornada de trabalho. Esta pressão é aquela que deve ser considerada na programação da\ndescompressão.\nTrabalhos sob ar comprimido: os efetuados em ambientes onde o trabalhador é obrigado a suportar\npressões maiores que a atmosférica, e onde se exige cuidadosa descompressão, de acordo com",
+    "heading": "Introdução",
+    "char_offset": 80008
   },
   {
     "id": "chunk-274",
-    "text": "> [Tabela 1: page 8](../assets/tables/page_008_table_00.html)\n> [Tabela 2: page 9](../assets/tables/page_009_table_00.html)\n> [Tabela 3: page 10](../assets/tables/page_010_table_00.html)\n> [Tabela 4: page 11](../assets/tables/page_011_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 89504
+    "text": "padrões técnicos estabelecidos.\nTratamento recompressivo: tratamento de emergência em câmara hiperbárica multipaciente,\nrealizado ou supervisionado exclusivamente por médico qualificado e acompanhado diretamente\npor guia interno junto ao paciente.\nTubulão de ar comprimido: equipamento para fundações com estrutura vertical, que se estende",
+    "heading": "Introdução",
+    "char_offset": 80303
   },
   {
     "id": "chunk-275",
-    "text": "> [Tabela 5: page 12](../assets/tables/page_012_table_00.html)\n> [Tabela 6: page 12](../assets/tables/page_012_table_01.html)\n> [Tabela 7: page 13](../assets/tables/page_013_table_00.html)\n> [Tabela 8: page 23](../assets/tables/page_023_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 89758
+    "text": "abaixo da superfície da água ou solo, no interior da qual os trabalhadores devem penetrar, entrando\npela campânula, para uma pressão maior que atmosférica. A atmosfera pressurizada opõe-se à\npressão da água e permite trabalho em seu interior.\nTúnel pressurizado: escavação abaixo da superfície do solo, cujo maior eixo faz um ângulo não",
+    "heading": "Introdução",
+    "char_offset": 80644
   },
   {
     "id": "chunk-276",
-    "text": "> [Tabela 9: page 24](../assets/tables/page_024_table_00.html)\n> [Tabela 10: page 30](../assets/tables/page_030_table_00.html)\n> [Tabela 11: page 30](../assets/tables/page_030_table_01.html)\n> [Tabela 12: page 31](../assets/tables/page_031_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 90014
-  },
-  {
-    "id": "chunk-277",
-    "text": "> [Tabela 13: page 32](../assets/tables/page_032_table_00.html)\n> [Tabela 14: page 32](../assets/tables/page_032_table_01.html)\n> [Tabela 15: page 33](../assets/tables/page_033_table_00.html)\n> [Tabela 16: page 34](../assets/tables/page_034_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 90273
-  },
-  {
-    "id": "chunk-278",
-    "text": "> [Tabela 17: page 35](../assets/tables/page_035_table_00.html)\n> ![Page 18](../assets/pages/page-018.png)\n> ![Page 19](../assets/pages/page-019.png)\n-->",
-    "heading": "Tabelas",
-    "char_offset": 90577
+    "text": "superior a 45° (quarenta e cinco graus) com a horizontal, fechado nas duas extremidades, em cujo\ninterior haja pressão superior a uma atmosfera.",
+    "heading": "Introdução",
+    "char_offset": 80982
   }
 ]

@@ -2197,140 +2197,134 @@
   },
   {
     "id": "chunk-366",
-    "text": "Este texto não substitui o publicado no DOU\n**TABELA 1 - SERVIÇOS EM OFICINAS**\n|Col1|SITUAÇÃO DE FIXAÇÃO<br>TEMPORÁRIA|Col3|PESO (TON) - P|Col5|Col6|ÁREA VÉLICA (M2) - A|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|\n||POSIÇÃO|SUPORTE &<br>ESTABILIZAÇÃO|P≤0,3<br>0|0,3<P≤1<br>0,0|P>10,<br>0|A≤4,<br>0|4,0<A≤3<br>2,0|A>32<br>,0|",
+    "text": "Este texto não substitui o publicado no DOU\n**TABELA 1 - SERVIÇOS EM OFICINAS**\nEste texto não substitui o publicado no DOU\n|  | SITUAÇÃO DE FIXAÇÃO\nTEMPORÁRIA |  | PESO (TON) - P |  |  | ÁREA VÉLICA (M2) - A |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 108104
+    "char_offset": 108105
   },
   {
     "id": "chunk-367",
-    "text": "|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|HORIZONTA<br>L|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|HORIZONTA<br>L|APOIADO EM<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|",
+    "text": "|  | POSIÇÃO | SUPORTE &\nESTABILIZAÇÃO | P≤0,3\n0 | 0,3<P≤1\n0,0 | P>10,\n0 | A≤4,\n0 | 4,0<A≤3\n2,0 | A>32\n,0 |\n| HASTILHAS,\nSUBCONJUNTOS\nE DEMAIS\nESTRUTURA\nS LEVES | HORIZONTA\nL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTA\nL | APOIADO EM",
     "heading": "Introdução",
-    "char_offset": 108435
+    "char_offset": 108378
   },
   {
     "id": "chunk-368",
-    "text": "|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>CACHORROS|N/A|G|E|N/A|G|E|\n|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|",
+    "text": "PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nPONTOS DE SOLDA | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 108691
+    "char_offset": 108636
   },
   {
     "id": "chunk-369",
-    "text": "|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|HORIZONTA<br>L|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|HASTILHAS,<br>SUB-<br>CONJUNTOS<br>E DEMAIS<br>ESTRUTURA<br>S LEVES|VERTICAL|PENDURADO E<br>ESTABILIZADO POR<br>CACHORROS|G|G|E|G|G|E|",
+    "text": "|  | HORIZONTA\nL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO POR\nCACHORROS | G | G | E | G | G | E |\n| VÃOS DE\nCAVERNAS | HORIZONTA\nL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTA",
     "heading": "Introdução",
-    "char_offset": 109027
+    "char_offset": 108896
   },
   {
     "id": "chunk-370",
-    "text": "|VÃOS DE<br>CAVERNAS|HORIZONTA<br>L|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|HORIZONTA<br>L|APOIADO EM<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>CACHORROS|N/A|G|E|N/A|G|E|",
+    "text": "L | APOIADO EM\nPONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nPONTOS DE SOLDA | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 109286
+    "char_offset": 109146
   },
   {
     "id": "chunk-371",
-    "text": "|VÃOS DE<br>CAVERNAS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|HORIZONTA<br>L|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|VÃOS DE<br>CAVERNAS|VERTICAL|PENDURADO E<br>ESTABILIZADO POR<br>CACHORROS|G|G|E|G|G|E|",
+    "text": "|  | HORIZONTA\nL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO POR\nCACHORROS | G | G | E | G | G | E |\n| PAINÉIS | HORIZONTA\nL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTA\nL | APOIADO EM",
     "heading": "Introdução",
-    "char_offset": 109563
+    "char_offset": 109421
   },
   {
     "id": "chunk-372",
-    "text": "|PAINÉIS|HORIZONTA<br>L|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|PAINÉIS|HORIZONTA<br>L|APOIADO EM<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|\n|PAINÉIS|VERTICAL|APOIADO EM|N/A|G|E|N/A|G|E|\nEste texto não substitui o publicado no DOU\n|Col1|Col2|OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>CACHORROS|Col4|Col5|Col6|Col7|Col8|Col9|",
+    "text": "PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM | N/A | G | E | N/A | G | E |\nLEGENDA:\nN/A - NÃO SE APLICA\nG - PROCEDIMENTO GERAL ELABORADO PELO RESPONSÁVEL TÉCNICO (PODENDO ABRANGER\nDIVERSOS PROJETOS E SERVIÇOS).\nE - PROCEDIMENTO ESPECÍFICO PARA CADA PROJETO OU SERVIÇO, EMITIDO POR RESPONSÁVEL",
     "heading": "Introdução",
-    "char_offset": 109851
+    "char_offset": 109678
   },
   {
     "id": "chunk-373",
-    "text": "|---|---|---|---|---|---|---|---|---|\n||VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|\n||HORIZONTA<br>L|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n||VERTICAL|PENDURADO E<br>ESTABILIZADO POR<br>CACHORROS|G|G|E|G|G|E|",
+    "text": "TÉCNICO.\n**TABELA 2 - SERVIÇOS EM ÁREA DESCOBERTAS**\nEste texto não substitui o publicado no DOU\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nPONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 110175
+    "char_offset": 110002
   },
   {
     "id": "chunk-374",
-    "text": "|BLOCOS|HORIZONTA<br>L|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|BLOCOS|HORIZONTA<br>L|APOIADO EM<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|\n|BLOCOS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>CACHORROS|N/A|G|E|N/A|G|E|\n|BLOCOS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO POR<br>PONTOS DE SOLDA|N/A|G|E|N/A|G|E|",
+    "text": "|  | HORIZONTA\nL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO POR\nCACHORROS | G | G | E | G | G | E |\n| BLOCOS | HORIZONTA\nL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTA\nL | APOIADO EM",
     "heading": "Introdução",
-    "char_offset": 110442
+    "char_offset": 110265
   },
   {
     "id": "chunk-375",
-    "text": "|BLOCOS|HORIZONTA<br>L|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|BLOCOS|VERTICAL|PENDURADO E<br>ESTABILIZADO POR<br>CACHORROS|G|G|E|G|G|E|\nLEGENDA:\nN/A - NÃO SE APLICA\nG - PROCEDIMENTO GERAL ELABORADO PELO RESPONSÁVEL TÉCNICO (PODENDO ABRANGER\nDIVERSOS PROJETOS E SERVIÇOS).",
+    "text": "PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO POR\nPONTOS DE SOLDA | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 110791
+    "char_offset": 110520
   },
   {
     "id": "chunk-376",
-    "text": "E - PROCEDIMENTO ESPECÍFICO PARA CADA PROJETO OU SERVIÇO, EMITIDO POR RESPONSÁVEL\nTÉCNICO.\n**TABELA 2 - SERVIÇOS EM ÁREA DESCOBERTAS**\n|Col1|SITUAÇÃO DE FIXAÇÃO<br>TEMPORÁRIA|Col3|PESO (TON) - P|Col5|Col6|ÁREA VÉLICA (M2) - A|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|",
+    "text": "|  | HORIZONTA\nL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO POR\nCACHORROS | G | G | E | G | G | E |\n|  | SITUAÇÃO DE FIXAÇÃO\nTEMPORÁRIA |  | PESO (TON) - P |  |  | ÁREA VÉLICA (M2) - A |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     "heading": "Introdução",
-    "char_offset": 111066
+    "char_offset": 110781
   },
   {
     "id": "chunk-377",
-    "text": "||POSIÇÃO|SUPORTE &<br>ESTABILIZAÇÃO|P<0,3<br>0|0,3<P≤1<br>0,0|P>10,0|A<2,0|2,0<A≤<br>16,0|A>16,0|\n|HASTILHAS,<br>SUB-<br>CONJUNTOS E|HORIZONTAL|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|HASTILHAS,<br>SUB-<br>CONJUNTOS E|HORIZONTAL|APOIADO EM|N/A|G|E|N/A|G|E|",
+    "text": "|  | POSIÇÃO | SUPORTE &\nESTABILIZAÇÃO | P<0,3\n0 | 0,3<P≤1\n0,0 | P>10,0 | A<2,0 | 2,0<A≤\n16,0 | A>16,0 |\n| HASTILHAS,\nSUBCONJUNTOS E | HORIZONTAL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | APOIADO EM | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 111341
+    "char_offset": 111079
   },
   {
     "id": "chunk-378",
-    "text": "Este texto não substitui o publicado no DOU\n|DEMAIS<br>ESTRUTURAS<br>LEVES|Col2|PONTOS DE<br>SOLDA|Col4|Col5|Col6|Col7|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|\n|DEMAIS<br>ESTRUTURAS<br>LEVES|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR CACHORROS|N/A|G|E|N/A|G|E|",
+    "text": "Este texto não substitui o publicado no DOU\n| DEMAIS\nESTRUTURAS\nLEVES |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR CACHORROS | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 111603
+    "char_offset": 111339
   },
   {
     "id": "chunk-379",
-    "text": "|DEMAIS<br>ESTRUTURAS<br>LEVES|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|DEMAIS<br>ESTRUTURAS<br>LEVES|HORIZONTAL|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|DEMAIS<br>ESTRUTURAS<br>LEVES|VERTICAL|PENDURADO E<br>ESTABILIZADO<br>POR CACHORROS|G|G|E|G|G|E|",
+    "text": "|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR PONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO\nPOR CACHORROS | G | G | E | G | G | E |",
     "heading": "Introdução",
-    "char_offset": 111898
+    "char_offset": 111595
   },
   {
     "id": "chunk-380",
-    "text": "|VÃOS DE<br>CAVERNAS|HORIZONTAL|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|HORIZONTAL|APOIADO EM<br>PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR CACHORROS|N/A|G|E|N/A|G|E|",
+    "text": "| VÃOS DE\nCAVERNAS | HORIZONTAL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | APOIADO EM\nPONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR CACHORROS | N/A | G | E | N/A | G | E |",
     "heading": "Introdução",
-    "char_offset": 112213
+    "char_offset": 111853
   },
   {
     "id": "chunk-381",
-    "text": "|VÃOS DE<br>CAVERNAS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|VÃOS DE<br>CAVERNAS|HORIZONTAL|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|VÃOS DE<br>CAVERNAS|VERTICAL|PENDURADO E<br>ESTABILIZADO<br>POR CACHORROS|G|G|E|G|G|E|",
+    "text": "|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR PONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E\nESTABILIZADO\nPOR CACHORROS | G | G | E | G | G | E |",
     "heading": "Introdução",
-    "char_offset": 112485
+    "char_offset": 112117
   },
   {
     "id": "chunk-382",
-    "text": "|PAINÉIS|HORIZONTAL|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|PAINÉIS|HORIZONTAL|APOIADO EM<br>PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|PAINÉIS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO|N/A|G|E|N/A|G|E|\nEste texto não substitui o publicado no DOU",
+    "text": "| PAINÉIS | HORIZONTAL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | APOIADO EM\nPONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO | N/A | G | E | N/A | G | E |\nLEGENDA:",
     "heading": "Introdução",
-    "char_offset": 112771
+    "char_offset": 112376
   },
   {
     "id": "chunk-383",
-    "text": "|Col1|Col2|POR CACHORROS|Col4|Col5|Col6|Col7|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|\n||VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n||HORIZONTAL|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|",
+    "text": "N/A - NÃO SE APLICA\nG - PROCEDIMENTO GERAL ELABORADO PELO RESPONSÁVEL TÉCNICO (PODENDO ABRANGER\nDIVERSOS PROJETOS E SERVIÇOS).\nE - PROCEDIMENTO ESPECÍFICO PARA CADA PROJETO OU SERVIÇO, EMITIDO POR RESPONSÁVEL\nTÉCNICO.\nEste texto não substitui o publicado no DOU",
     "heading": "Introdução",
-    "char_offset": 113035
+    "char_offset": 112627
   },
   {
     "id": "chunk-384",
-    "text": "||VERTICAL|PENDURADO E<br>ESTABILIZADO<br>POR CACHORROS|G|G|E|G|G|E|\n|BLOCOS|HORIZONTAL|APOIADO EM<br>CACHORROS|N/A|G|E|N/A|G|E|\n|BLOCOS|HORIZONTAL|APOIADO EM<br>PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|BLOCOS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR CACHORROS|N/A|G|E|N/A|G|E|",
+    "text": "|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR PONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | HORIZONTAL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E",
     "heading": "Introdução",
-    "char_offset": 113288
+    "char_offset": 112890
   },
   {
     "id": "chunk-385",
-    "text": "|BLOCOS|VERTICAL|APOIADO EM<br>OUTRAS<br>ESTRUTURAS E<br>ESTABILIZADO<br>POR PONTOS DE<br>SOLDA|N/A|G|E|N/A|G|E|\n|BLOCOS|HORIZONTAL|PENDURADO EM<br>CACHORROS|G|G|E|G|G|E|\n|BLOCOS|VERTICAL|PENDURADO E<br>ESTABILIZADO<br>POR CACHORROS|G|G|E|G|G|E|\nLEGENDA:",
+    "text": "ESTABILIZADO\nPOR CACHORROS | G | G | E | G | G | E |\n| BLOCOS | HORIZONTAL | APOIADO EM\nCACHORROS | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | APOIADO EM\nPONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E",
     "heading": "Introdução",
-    "char_offset": 113591
+    "char_offset": 113151
   },
   {
     "id": "chunk-386",
-    "text": "N/A - NÃO SE APLICA\nG - PROCEDIMENTO GERAL ELABORADO PELO RESPONSÁVEL TÉCNICO (PODENDO ABRANGER\nDIVERSOS PROJETOS E SERVIÇOS).\nE - PROCEDIMENTO ESPECÍFICO PARA CADA PROJETO OU SERVIÇO, EMITIDO POR RESPONSÁVEL\nTÉCNICO.\nEste texto não substitui o publicado no DOU",
+    "text": "ESTABILIZADO\nPOR CACHORROS | N/A | G | E | N/A | G | E |\n|  | VERTICAL | APOIADO EM\nOUTRAS\nESTRUTURAS E\nESTABILIZADO\nPOR PONTOS DE\nSOLDA | N/A | G | E | N/A | G | E |\n|  | HORIZONTAL | PENDURADO EM\nCACHORROS | G | G | E | G | G | E |\n|  | VERTICAL | PENDURADO E",
     "heading": "Introdução",
-    "char_offset": 113847
+    "char_offset": 113401
   },
   {
     "id": "chunk-387",
-    "text": "> [Tabela 1: page 45](../assets/tables/page_045_table_00.html)\n> [Tabela 2: page 46](../assets/tables/page_046_table_00.html)\n> [Tabela 3: page 46](../assets/tables/page_046_table_01.html)\n> [Tabela 4: page 47](../assets/tables/page_047_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 114114
-  },
-  {
-    "id": "chunk-388",
-    "text": "> [Tabela 5: page 48](../assets/tables/page_048_table_00.html)",
-    "heading": "Tabelas",
-    "char_offset": 114368
+    "text": "ESTABILIZADO\nPOR CACHORROS | G | G | E | G | G | E |",
+    "heading": "Introdução",
+    "char_offset": 113664
   }
 ]

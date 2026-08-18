@@ -90,15 +90,15 @@ Falha numa NR (scraping HTML fora do padrão) não interrompe as demais. Registr
 
 ### 3. `convert_nr.py` — Conversão PDF → Markdown
 
-Converte PDF oficial em Markdown + assets (tabelas em HTML, páginas em PNG).
+Converte PDF oficial em Markdown + assets (PNG de página para diagramas ou tabelas ilegíveis).
 
 **3 passes SEMPRE executados (sem classificação de complexidade prévia):**
 
-1. **Pass texto** — `pymupdf4llm` → corpo normativo em Markdown
-2. **Pass tabelas** — `pdfplumber` → HTML em `content/nr-XX/assets/tables/page_*_table_*.html`
-3. **Pass imagens/diagramas** — render de página com `pymupdf` → PNG em `content/nr-XX/assets/pages/page-*.png`
+1. **Pass texto** — `pymupdf4llm`, por página (`page_chunks=True`) → corpo normativo em Markdown
+2. **Pass tabelas** — `pdfplumber` → Markdown inline (`| col | col |`), inserido logo após o texto da página correspondente. Tabelas de 1 coluna (caixas de texto com borda, falso-positivo) são descartadas; tabelas ilegíveis nos dois passes (ex.: cabeçalho com texto vertical quebrado) caem para o fallback do Pass 3 (PNG da página) em vez de virar Markdown/HTML ilegível
+3. **Pass imagens/diagramas** — render de página com `pymupdf` → PNG em `content/nr-XX/assets/pages/page-*.png` (páginas com imagem embutida + páginas com tabela ilegível)
 
-Depois faz merge dos 3 passes num `.md` único, normaliza, salva PDF original + calcula `pdf_hash` (SHA-256).
+Depois faz merge dos 3 passes num `.md` único por página, normaliza, salva PDF original + calcula `pdf_hash` (SHA-256).
 
 **Uso:**
 
@@ -113,8 +113,7 @@ python3 scripts/convert_nr.py --help               # ajuda
 - `content/nr-XX/nr-XX.md` — Markdown normalizado (headings `17.1`, sem artefatos PDF)
 - `content/nr-XX/nr-XX.pdf` — PDF original (arquivo de referência + prova de fidelidade)
 - `content/nr-XX/meta.json` — adiciona `pdf_hash`
-- `content/nr-XX/assets/tables/*.html` — tabelas
-- `content/nr-XX/assets/pages/page-*.png` — páginas renderizadas
+- `content/nr-XX/assets/pages/page-*.png` — páginas renderizadas (imagem embutida ou tabela ilegível)
 
 **Isolamento de erro:**
 Falha numa NR (PDF corrompido, scraping quebrado) não interrompe as demais. Exit code != 0 ao final se houver erros.
