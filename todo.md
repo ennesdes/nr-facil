@@ -40,7 +40,7 @@
 - [x] 14 Abas Favoritos / Todos
 - [x] 15 Busca por chunks + highlight → [docs/prompts.md#i6](docs/prompts.md#i6)
 - [x] 16 Histórico + card Continuar leitura
-- [ ] 17 Tela Atualizações (sino + badge, não aba)
+- [x] 17 Tela Atualizações (sino + badge, não aba)
 - [ ] 18 Aviso legal MTE no app
 - [ ] 20 `./scripts/check.sh` passa
 

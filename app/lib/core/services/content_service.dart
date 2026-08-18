@@ -45,6 +45,9 @@ class ContentService extends GetxService {
   /// Lista reativa de IDs de NRs favoritadas (ordem de exibição importa)
   final favoriteIds = <String>[].obs;
 
+  /// Contagem reativa de atualizações não lidas
+  final unreadUpdatesCount = 0.obs;
+
   @override
   Future<void> onInit() async {
     super.onInit();
@@ -57,6 +60,9 @@ class ContentService extends GetxService {
 
     // Carregar favoritos do storage local
     _loadFavorites();
+
+    // Atualizar contagem de atualizações não lidas
+    _updateUnreadCount();
   }
 
   @override
@@ -132,6 +138,9 @@ class ContentService extends GetxService {
       // Atualizar timestamp
       lastSyncedAt.value = DateTime.now();
       GetStorage().write(StorageKeys.lastSyncedAt, lastSyncedAt.value!.toIso8601String());
+
+      // Atualizar contagem de atualizações
+      _updateUnreadCount();
 
       AppLogger.info('Sincronização concluída com sucesso');
       return true;
@@ -393,7 +402,25 @@ class ContentService extends GetxService {
     if (entry != null) {
       GetStorage().write(StorageKeys.nrLastSeenHash(nrId), entry.hash);
       AppLogger.debug('NR $nrId marcada como vista');
+      _updateUnreadCount(); // Atualizar contagem após marcar como visto
     }
+  }
+
+  /// Obter lista de NRs com atualizações pendentes (não revogadas).
+  ///
+  /// Retorna lista vazia se nenhuma atualização disponível ou se manifest não está carregado.
+  List<ManifestEntry> get updatedNrs {
+    if (manifest.value == null) return [];
+    return manifest.value!.nrs
+        .where((entry) => !entry.isRevoked && hasUpdate(entry.id))
+        .toList();
+  }
+
+  /// Atualizar contagem reativa de atualizações não lidas.
+  ///
+  /// Chamado internamente após marcar NR como vista ou carregar manifest.
+  void _updateUnreadCount() {
+    unreadUpdatesCount.value = updatedNrs.length;
   }
 
   /// Ler índice de navegação de uma NR (index.json) do cache local.

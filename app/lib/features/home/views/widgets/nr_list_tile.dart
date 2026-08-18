@@ -16,6 +16,7 @@ class NrListTile extends StatelessWidget {
   final VoidCallback onTap;
   final VoidCallback onToggleFavorite;
   final bool isRevoked;
+  final bool hideStarButton;
 
   const NrListTile({
     required this.nrEntry,
@@ -24,6 +25,7 @@ class NrListTile extends StatelessWidget {
     required this.onTap,
     required this.onToggleFavorite,
     this.isRevoked = false,
+    this.hideStarButton = false,
     super.key,
   });
 
@@ -72,7 +74,7 @@ class NrListTile extends StatelessWidget {
             ),
         ],
       ),
-      trailing: isRevoked
+      trailing: (isRevoked || hideStarButton)
           ? null
           : IconButton(
               icon: Icon(isFavorite ? Icons.star : Icons.star_border),

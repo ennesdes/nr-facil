@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
 import 'package:nrfacil/features/home/views/widgets/todos_tab.dart';
 import 'package:nrfacil/features/search/views/search_page.dart';
+import 'package:nrfacil/features/updates/bindings/updates_binding.dart';
+import 'package:nrfacil/features/updates/views/updates_page.dart';
 
 /// HomePage — tela principal com bottom nav (Favoritos/Todos).
 ///
@@ -30,6 +33,7 @@ class HomePage extends GetView<HomeController> {
                 Get.to(() => const SearchPage());
               },
             ),
+            _buildNotificationsBell(),
           ],
         ),
         body: IndexedStack(
@@ -54,6 +58,64 @@ class HomePage extends GetView<HomeController> {
           ],
         ),
       ),
+    );
+  }
+
+  /// Construir ícone de notificações (sino) com badge reativo.
+  ///
+  /// O badge mostra a contagem de atualizações não lidas.
+  /// Ao tocar, abre a tela de Atualizações.
+  Widget _buildNotificationsBell() {
+    final contentService = Get.find<ContentService>();
+
+    return Obx(
+      () {
+        final unreadCount = contentService.unreadUpdatesCount.value;
+
+        return Stack(
+          children: [
+            IconButton(
+              icon: const Icon(Icons.notifications_outlined),
+              tooltip: 'Atualizações',
+              onPressed: () {
+                Get.to(
+                  () => const UpdatesPage(),
+                  binding: UpdatesBinding(),
+                );
+              },
+            ),
+            // Badge com contagem
+            if (unreadCount > 0)
+              Positioned(
+                right: 4,
+                top: 4,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 4.5,
+                    vertical: 2.5,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  constraints: const BoxConstraints(
+                    minWidth: 18,
+                    minHeight: 18,
+                  ),
+                  child: Text(
+                    unreadCount > 99 ? '99+' : '$unreadCount',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 11,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+          ],
+        );
+      },
     );
   }
 }
