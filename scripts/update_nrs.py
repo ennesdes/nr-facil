@@ -116,12 +116,19 @@ def process_nr(nr_id: str, dry_run: bool = False) -> tuple[bool, str]:
     """
     Processa uma NR. Retorna (sucesso: bool, motivo: str).
 
-    Motivos: "sem mudança", "pdf atualizado", "primeira vez", "erro: ..."
+    Motivos: "sem mudança", "pdf atualizado", "primeira vez", "revogada", "erro: ..."
     """
     logger.info(f"\n{nr_id}:")
 
     # Merge de dados
     nr_data = merge_nr_data(nr_id)
+
+    # NR revogada: não é convertida pelo pipeline (app mostra só link do PDF
+    # histórico) — não tenta baixar/converter, então falta de pdf_url é esperada
+    if nr_data.get("revogada"):
+        logger.info(f"  ⊘ Revogada — não processada pelo pipeline")
+        return True, "revogada"
+
     pdf_url = nr_data.get("pdf_url")
 
     if not pdf_url:
@@ -192,6 +199,7 @@ def main() -> int:
         "sem_mudanca": [],
         "atualizado": [],
         "primeira_vez": [],
+        "revogada": [],
         "erro": [],
     }
 
@@ -206,6 +214,8 @@ def main() -> int:
                     results["atualizado"].append(nr_id)
                 elif reason == "primeira vez":
                     results["primeira_vez"].append(nr_id)
+                elif reason == "revogada":
+                    results["revogada"].append(nr_id)
             else:
                 results["erro"].append(nr_id)
                 errors.append((nr_id, reason))
@@ -223,6 +233,7 @@ def main() -> int:
     logger.info(f"  Sem mudança: {len(results['sem_mudanca'])}")
     logger.info(f"  Atualizados: {len(results['atualizado'])}")
     logger.info(f"  Primeira vez: {len(results['primeira_vez'])}")
+    logger.info(f"  Revogadas (não processadas): {len(results['revogada'])}")
     logger.info(f"  Erros: {len(results['erro'])}")
 
     if errors:

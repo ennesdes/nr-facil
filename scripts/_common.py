@@ -69,9 +69,10 @@ def list_all_nrs() -> list[str]:
     index = get_nr_index()
     sources = get_nr_sources()
 
-    # Union dos dois dicts
-    all_ids = set(index.keys()) | set(sources.keys())
-    return sorted(list(all_ids))
+    # Union dos dois dicts — chaves começando com "_" são metadados do
+    # arquivo (ex.: "_comment", "_exemplo" em nr_sources.json), não NRs
+    all_ids = {k for k in (set(index.keys()) | set(sources.keys())) if not k.startswith("_")}
+    return sorted(all_ids)
 
 
 def ensure_content_dir(nr_id: str) -> Path:
