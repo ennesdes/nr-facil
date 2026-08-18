@@ -17,8 +17,8 @@ class ReaderFooter extends StatelessWidget {
     required this.nrId,
     required this.nrEntry,
     required this.isDarkMode,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

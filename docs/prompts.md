@@ -2,6 +2,8 @@
 
 Copie e cole no Agent ou Plan mode. Checklist: [todo.md](../todo.md).
 
+> Regra: quando o item correspondente for marcado `[x]` no `todo.md`, apague o prompt dele daqui embaixo — este arquivo guarda só prompts de itens **pendentes**.
+
 ## Cola rápida
 
 ```
@@ -50,22 +52,6 @@ Não fazer: [fora do escopo]
 ---
 
 ## Prompts por fase
-
-### I5 — Abas Favoritos/Todos (Fase 2, item 14)
-
-```
-Fase 2, item 14 do @todo.md
-
-Bottom nav: Favoritos | Todos
-- Favoritos padrão se >= 1 favorito
-- Card Continuar leitura no topo
-- Drag-and-drop em favoritos
-- Estrela toggle em Todos e no leitor
-- Empty state com sugestões NR-06, NR-10, NR-18
-- Badge 🆕 se favorito atualizado
-
-Ver @docs/architecture.md seção navegação.
-```
 
 ### I6 — Busca (Fase 2, item 15)
 

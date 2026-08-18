@@ -1,7 +1,7 @@
 # NR Fácil — Checklist
 
-**Fase atual:** 1 — Conteúdo offline  
-**Próximo:** [ ] 13 — Testar offline após primeiro sync
+**Fase atual:** 2 — Busca, favoritos e UX  
+**Próximo:** [ ] 15 — Busca por chunks + highlight
 
 > Marque `[x]` ao concluir. Não apague itens — é o histórico de progresso.  
 > Detalhes técnicos: [docs/architecture.md](docs/architecture.md)  
@@ -37,7 +37,7 @@
 
 ## Fase 2 — Busca, favoritos e UX (Semana 2)
 
-- [ ] 14 Abas Favoritos / Todos → [docs/prompts.md#i5](docs/prompts.md#i5)
+- [x] 14 Abas Favoritos / Todos
 - [ ] 15 Busca por chunks + highlight → [docs/prompts.md#i6](docs/prompts.md#i6)
 - [ ] 16 Histórico + card Continuar leitura
 - [ ] 17 Tela Atualizações (sino + badge, não aba)

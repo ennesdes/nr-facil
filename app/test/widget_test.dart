@@ -35,10 +35,12 @@ void main() {
     await tempDir.delete(recursive: true);
   });
 
-  testWidgets('shows Hello World', (WidgetTester tester) async {
+  testWidgets('shows HomePage with Favoritos and Todos tabs', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
     await tester.pumpAndSettle();
 
-    expect(find.text('Hello World'), findsOneWidget);
+    // Verificar se os títulos das abas estão presentes
+    expect(find.text('Favoritos'), findsOneWidget);
+    expect(find.text('Todos'), findsOneWidget);
   });
 }

@@ -22,8 +22,8 @@ class NrMarkdownImageBuilder extends StatelessWidget {
     required this.nrId,
     this.title,
     this.alt,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

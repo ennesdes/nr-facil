@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 
+import '../../features/home/controllers/home_controller.dart';
 import '../services/content_service.dart';
 import '../services/storage_service.dart';
 
@@ -35,6 +36,12 @@ class AppBinding extends Bindings {
     // ContentService — sincroniza e cache de NRs
     Get.put<ContentService>(
       ContentService(),
+      permanent: true,
+    );
+
+    // HomeController — navegação entre abas Favoritos/Todos
+    Get.put<HomeController>(
+      HomeController(contentService: Get.find()),
       permanent: true,
     );
   }

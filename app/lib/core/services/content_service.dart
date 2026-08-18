@@ -40,6 +40,9 @@ class ContentService extends GetxService {
   /// Timestamp da última sincronização bem-sucedida
   final lastSyncedAt = Rxn<DateTime>();
 
+  /// Lista reativa de IDs de NRs favoritadas (ordem de exibição importa)
+  final favoriteIds = <String>[].obs;
+
   @override
   Future<void> onInit() async {
     super.onInit();
@@ -49,6 +52,9 @@ class ContentService extends GetxService {
 
     // Carregar manifest do cache local ao iniciar
     await _loadManifestFromCache();
+
+    // Carregar favoritos do storage local
+    _loadFavorites();
   }
 
   @override
@@ -409,5 +415,58 @@ class ContentService extends GetxService {
       // Retornar índice vazio em caso de erro
       return NrIndex(headings: []);
     }
+  }
+
+  /// Carregar lista de favoritos do storage local.
+  void _loadFavorites() {
+    try {
+      final savedList = GetStorage().read<List>(StorageKeys.favoriteNrs);
+      if (savedList != null) {
+        favoriteIds.value =
+            savedList.map((item) => item.toString()).toList();
+        AppLogger.debug(
+            'Favoritos carregados: ${favoriteIds.length} NRs');
+      }
+    } catch (e) {
+      AppLogger.warning('Erro ao carregar favoritos: $e');
+      // Continuar com lista vazia
+    }
+  }
+
+  /// Verificar se uma NR é favorita.
+  bool isFavorite(String nrId) {
+    return favoriteIds.contains(nrId);
+  }
+
+  /// Adicionar ou remover uma NR dos favoritos.
+  ///
+  /// Atualiza lista reativa e persiste em storage.
+  void toggleFavorite(String nrId) {
+    if (favoriteIds.contains(nrId)) {
+      favoriteIds.remove(nrId);
+      AppLogger.debug('NR $nrId removida dos favoritos');
+    } else {
+      favoriteIds.add(nrId);
+      AppLogger.debug('NR $nrId adicionada aos favoritos');
+    }
+    GetStorage().write(StorageKeys.favoriteNrs, favoriteIds.toList());
+  }
+
+  /// Reordenar favoritos (usado em ReorderableListView.onReorderItem).
+  ///
+  /// `newIndex` já vem ajustado pelo `onReorderItem` — não reajustar aqui.
+  /// Atualiza ordem e persiste em storage.
+  void reorderFavorites(int oldIndex, int newIndex) {
+    final item = favoriteIds.removeAt(oldIndex);
+    favoriteIds.insert(newIndex, item);
+    GetStorage().write(StorageKeys.favoriteNrs, favoriteIds.toList());
+    AppLogger.debug('Favoritos reordenados: índice $oldIndex para $newIndex');
+  }
+
+  /// Obter ID da última NR aberta (para "Continuar leitura").
+  ///
+  /// Retorna null se nenhuma NR foi aberta.
+  String? get lastOpenedNrId {
+    return GetStorage().read<String?>(StorageKeys.lastOpenedNr);
   }
 }

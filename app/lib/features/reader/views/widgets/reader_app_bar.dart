@@ -7,12 +7,15 @@ import 'package:flutter/material.dart';
 /// - Botão para abrir drawer (índice)
 /// - Botões de ajuste de fonte (+ e -)
 /// - Botão de dark mode
+/// - Botão de favorito
 class ReaderAppBar extends PreferredSize {
   final String nrId;
   final VoidCallback onIncreaseFontSize;
   final VoidCallback onDecreaseFontSize;
   final VoidCallback onToggleDarkMode;
   final bool isDarkMode;
+  final bool isFavorite;
+  final VoidCallback onToggleFavorite;
 
   ReaderAppBar({
     required this.nrId,
@@ -20,6 +23,9 @@ class ReaderAppBar extends PreferredSize {
     required this.onDecreaseFontSize,
     required this.onToggleDarkMode,
     required this.isDarkMode,
+    required this.isFavorite,
+    required this.onToggleFavorite,
+    super.key,
   }) : super(
     preferredSize: const Size.fromHeight(kToolbarHeight),
     child: _AppBarContent(
@@ -28,6 +34,8 @@ class ReaderAppBar extends PreferredSize {
       onDecreaseFontSize: onDecreaseFontSize,
       onToggleDarkMode: onToggleDarkMode,
       isDarkMode: isDarkMode,
+      isFavorite: isFavorite,
+      onToggleFavorite: onToggleFavorite,
     ),
   );
 }
@@ -38,6 +46,8 @@ class _AppBarContent extends StatelessWidget {
   final VoidCallback onDecreaseFontSize;
   final VoidCallback onToggleDarkMode;
   final bool isDarkMode;
+  final bool isFavorite;
+  final VoidCallback onToggleFavorite;
 
   const _AppBarContent({
     required this.nrId,
@@ -45,6 +55,8 @@ class _AppBarContent extends StatelessWidget {
     required this.onDecreaseFontSize,
     required this.onToggleDarkMode,
     required this.isDarkMode,
+    required this.isFavorite,
+    required this.onToggleFavorite,
   });
 
   @override
@@ -73,6 +85,13 @@ class _AppBarContent extends StatelessWidget {
           icon: Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode),
           tooltip: isDarkMode ? 'Modo claro' : 'Modo escuro',
           onPressed: onToggleDarkMode,
+        ),
+
+        // Favorito toggle
+        IconButton(
+          icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+          tooltip: isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
+          onPressed: onToggleFavorite,
         ),
 
         // Menu (future: share, etc)

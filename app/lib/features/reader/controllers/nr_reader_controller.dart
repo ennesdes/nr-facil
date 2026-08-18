@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
+import 'package:nrfacil/core/constants/storage_keys.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
 import 'package:nrfacil/core/services/content_service.dart';
@@ -20,8 +22,8 @@ class NRReaderController extends GetxController {
 
   NRReaderController({
     required this.nrId,
-    required ContentService contentService,
-  }) : _contentService = contentService;
+    required this._contentService,
+  });
 
   /// Conteúdo Markdown da NR
   final content = Rxn<String>();
@@ -48,14 +50,29 @@ class NRReaderController extends GetxController {
   /// Painel de índice aberto
   final isIndexOpen = false.obs;
 
+  /// NR é favorita
+  late final Rx<bool> _isFavorite;
+
   @override
   Future<void> onInit() async {
     super.onInit();
+
+    // Inicializar estado de favorito
+    _isFavorite = _contentService.isFavorite(nrId).obs;
+
     await _loadNr();
     // Marcar NR como vista após carregamento bem-sucedido
     if (error.value == null) {
       _contentService.markNrAsSeen(nrId);
+      // Gravar como última NR aberta
+      GetStorage().write(StorageKeys.lastOpenedNr, nrId);
     }
+  }
+
+  @override
+  void onClose() {
+    _isFavorite.close();
+    super.onClose();
   }
 
   /// Carregar conteúdo e índice da NR.
@@ -123,5 +140,14 @@ class NRReaderController extends GetxController {
     AppLogger.debug('Navegando para heading: $headingId');
     // Fechar índice após navegação
     isIndexOpen.value = false;
+  }
+
+  /// Verificar se esta NR é favorita.
+  bool get isFavorite => _isFavorite.value;
+
+  /// Adicionar/remover esta NR dos favoritos.
+  void toggleFavorite() {
+    _contentService.toggleFavorite(nrId);
+    _isFavorite.value = _contentService.isFavorite(nrId);
   }
 }

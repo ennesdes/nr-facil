@@ -23,8 +23,8 @@ class NRReaderPage extends GetView<NRReaderController> {
 
   const NRReaderPage({
     required this.nrId,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -46,6 +46,8 @@ class NRReaderPage extends GetView<NRReaderController> {
           onDecreaseFontSize: controller.decreaseFontSize,
           onToggleDarkMode: controller.toggleDarkMode,
           isDarkMode: controller.isDarkMode.value,
+          isFavorite: controller.isFavorite,
+          onToggleFavorite: controller.toggleFavorite,
         ),
         drawer: ReaderDrawer(
           nrId: nrId,
@@ -118,12 +120,12 @@ class NRReaderPage extends GetView<NRReaderController> {
                       _launchUrl(href);
                     }
                   },
-                  imageBuilder: (uri, title, alt) {
+                  sizedImageBuilder: (config) {
                     return image_builder.NrMarkdownImageBuilder(
-                      uri: uri,
+                      uri: config.uri,
                       nrId: nrId,
-                      title: title,
-                      alt: alt,
+                      title: config.title,
+                      alt: config.alt,
                     );
                   },
                 ),

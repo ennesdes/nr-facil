@@ -14,8 +14,8 @@ class ReaderDrawer extends StatelessWidget {
     required this.nrId,
     required this.index,
     required this.onNavigate,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
