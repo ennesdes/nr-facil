@@ -30,6 +30,7 @@
 - [x] 10 Validar qualidade das 3 NRs no app (ler 2–3 seções vs PDF)
 - [x] 11 ContentService (sync manifest + cache) → [docs/prompts.md#i3](docs/prompts.md#i3)
 - [x] 12 Leitor Markdown + índice lateral + assets → [docs/prompts.md#i4](docs/prompts.md#i4)
+- [ ] 12b Imagens de página (Pass 3) nunca aparecem no leitor — `merge_passes()` em `scripts/convert_nr.py` embute a referência dentro de um comentário HTML (`<!-- ... -->`), que nenhum Markdown renderiza. App já suporta imagem local + zoom (`photo_view`), só falta a referência virar `![...]` de verdade no ponto certo do texto
 
 **Pronto quando:** App lê 3+ NRs offline; leitor com fonte ajustável e modo escuro.
 
