@@ -5,7 +5,7 @@ class AppConfig {
   // GitHub raw URLs — fonte da verdade
   // Em futuro, isso pode vir de um arquivo .env, mas por enquanto é constante aqui
   static const String githubRawBaseUrl =
-      'https://raw.githubusercontent.com/douglasennes/nr-facil/main';
+      'https://raw.githubusercontent.com/ennesdes/nr-facil/main';
 
   /// URL remota do manifest.json (índice de todas as NRs).
   /// Configurável aqui para facilitar testes e futura migração de repositório.

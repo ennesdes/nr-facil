@@ -42,5 +42,12 @@ void main() {
     // Verificar se os títulos das abas estão presentes
     expect(find.text('Favoritos'), findsOneWidget);
     expect(find.text('Todos'), findsOneWidget);
+
+    // HomeController dispara ContentService.sync() em background no onInit;
+    // em ambiente de teste a request HTTP falha (mock retorna 400), o que
+    // aciona um SnackBar de erro com timer próprio — drenar esse timer antes
+    // do widget tree ser descartado, senão o teste falha com "Timer pending".
+    await tester.pump(const Duration(seconds: 4));
+    await tester.pumpAndSettle();
   });
 }

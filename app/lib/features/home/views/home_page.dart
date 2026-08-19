@@ -35,6 +35,12 @@ class HomePage extends GetView<HomeController> {
             ),
             _buildNotificationsBell(),
           ],
+          bottom: controller.contentService.isSyncing.value
+              ? const PreferredSize(
+                  preferredSize: Size.fromHeight(2),
+                  child: LinearProgressIndicator(minHeight: 2),
+                )
+              : null,
         ),
         body: IndexedStack(
           index: controller.selectedTab.value,

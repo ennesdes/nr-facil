@@ -184,11 +184,8 @@ class ContentService extends GetxService {
         retries: AppConfig.maxRetries,
       );
 
-      // Baixar assets (images, tables, pages)
-      // URL base: https://raw.githubusercontent.com/douglasennes/nr-facil/main/content/nr-06/assets/
-      final assetsBaseUrl =
-          '${AppConfig.contentBaseUrl}/${entry.id}/assets';
-      await _downloadAssets(assetsBaseUrl, assetsDir);
+      // Baixar assets (images, tables, pages) referenciados no markdown
+      await _downloadAssets(nrDir, entry.id);
 
       // Marcar como sincronizado
       GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
@@ -200,23 +197,43 @@ class ContentService extends GetxService {
     }
   }
 
-  /// Download recursivo de assets da NR.
+  /// Download dos assets (imagens/tabelas) referenciados no `.md` de uma NR.
   ///
-  /// Tenta baixar a pasta de assets. Como GitHub raw não suporta listing de diretório,
-  /// tentaremos apenas os arquivos conhecidos (images/, tables/, pages/).
+  /// GitHub raw não suporta listing de diretório, então não há como descobrir
+  /// os arquivos de assets de uma NR além do que o próprio `.md` referencia.
+  /// Estratégia: ler o `.md` já baixado e extrair todo caminho relativo usado
+  /// em sintaxe de imagem markdown `![alt](assets/...)`, baixando cada um.
   ///
-  /// Para agora, apenas logamos que tentaríamos; no futuro, quando o pipeline
-  /// gerar um índice de assets, usaremos esse índice.
-  Future<void> _downloadAssets(String baseUrl, Directory assetsDir) async {
-    // Placeholder — em produção, teríamos um index de assets por NR
-    // ou um listing automático. Por enquanto, apenas criamos a pasta.
-    AppLogger.debug('Assets base URL: $baseUrl (estrutura criada)');
+  /// Falha em um asset individual não aborta a sincronização da NR — a NR
+  /// deve ficar legível mesmo que uma imagem específica falhe.
+  static final _mdImageRefPattern = RegExp(r'!\[[^\]]*\]\((assets/[^)\s]+)\)');
 
-    // Criar subpastas esperadas
-    for (final subdir in ['images', 'tables', 'pages']) {
-      final subdirPath = Directory('${assetsDir.path}/$subdir');
-      if (!subdirPath.existsSync()) {
-        subdirPath.createSync(recursive: true);
+  Future<void> _downloadAssets(Directory nrDir, String nrId) async {
+    final mdFile = File('${nrDir.path}/$nrId.md');
+    if (!mdFile.existsSync()) return;
+
+    final content = await mdFile.readAsString();
+    final relativePaths = _mdImageRefPattern
+        .allMatches(content)
+        .map((m) => m.group(1)!)
+        .toSet();
+
+    for (final relativePath in relativePaths) {
+      try {
+        final savePath = '${nrDir.path}/$relativePath';
+        final saveDir = File(savePath).parent;
+        if (!saveDir.existsSync()) {
+          saveDir.createSync(recursive: true);
+        }
+
+        await _downloadFile(
+          url: '${AppConfig.contentBaseUrl}/$nrId/$relativePath',
+          savePath: savePath,
+          retries: AppConfig.maxRetries,
+        );
+      } catch (e) {
+        AppLogger.warning('Falha ao baixar asset $relativePath de $nrId: $e');
+        // Continuar com os demais assets — uma imagem faltando não impede a leitura do texto
       }
     }
   }

@@ -55,6 +55,7 @@ def get_github_remote() -> tuple[str, str, str]:
     Extrai owner/repo/branch do git remote origin.
 
     Retorna (owner, repo, branch) ou fallbacks se não conseguir.
+    Suporta SSH (git@github.com:owner/repo.git) e HTTPS (https://github.com/owner/repo.git).
     """
     try:
         import subprocess
@@ -70,9 +71,21 @@ def get_github_remote() -> tuple[str, str, str]:
             origin = result.stdout.strip()
             # Parse: https://github.com/owner/repo.git ou git@github.com:owner/repo.git
             if "github.com" in origin:
-                parts = origin.replace(".git", "").split("/")
-                owner = parts[-2]
-                repo = parts[-1]
+                origin_clean = origin.replace(".git", "")
+
+                # Detecta formato SSH vs HTTPS
+                if ":" in origin_clean and not origin_clean.startswith("https"):
+                    # SSH: git@github.com:owner/repo
+                    parts = origin_clean.split(":")
+                    repo_path = parts[-1]  # owner/repo
+                    path_parts = repo_path.split("/")
+                    owner = path_parts[-2] if len(path_parts) >= 2 else "USER"
+                    repo = path_parts[-1] if path_parts else "nr-facil"
+                else:
+                    # HTTPS: https://github.com/owner/repo
+                    parts = origin_clean.split("/")
+                    owner = parts[-2] if len(parts) >= 2 else "USER"
+                    repo = parts[-1] if parts else "nr-facil"
             else:
                 owner, repo = "USER", "nr-facil"
         else:

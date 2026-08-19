@@ -17,6 +17,8 @@ class HomeController extends GetxController {
 
   ContentService get contentService => _contentService;
 
+  Worker? _syncErrorWorker;
+
   @override
   Future<void> onInit() async {
     super.onInit();
@@ -29,6 +31,28 @@ class HomeController extends GetxController {
     } else {
       selectedTab.value = 0; // Favoritos
     }
+
+    // Avisar (sem bloquear) se a sincronização falhar — o app continua
+    // usável offline com o cache local existente.
+    _syncErrorWorker = ever<String?>(_contentService.lastError, (error) {
+      if (error != null) {
+        Get.snackbar(
+          'Sincronização',
+          error,
+          snackPosition: SnackPosition.BOTTOM,
+        );
+      }
+    });
+
+    // Sincronizar manifest remoto em background — não bloqueia a UI,
+    // que já renderiza com o cache local existente (offline-first).
+    _contentService.sync();
+  }
+
+  @override
+  void onClose() {
+    _syncErrorWorker?.dispose();
+    super.onClose();
   }
 
   /// Mudar aba selecionada.

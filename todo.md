@@ -1,7 +1,7 @@
 # NR Fácil — Checklist
 
 **Fase atual:** 3 — Pipeline automático  
-**Próximo:** [ ] 24 — App busca manifest do GitHub raw
+**Próximo:** [ ] 25 — Botão "Verificar atualizações"
 
 > Marque `[x]` ao concluir. Não apague itens — é o histórico de progresso.  
 > Detalhes técnicos: [docs/architecture.md](docs/architecture.md)  
@@ -55,7 +55,7 @@
 - [x] 22 `requirements.txt` + testar Action com `workflow_dispatch`
 - [x] 23 Rodar `discover_nrs.py` para todas NRs do MVP e validar `nr_index.json` (overrides pontuais em `scripts/nr_sources.json` se algum scraping falhar)
 - [x] 23b `convert_nr.py` renderizava PNG de toda página do PDF (Pass 3), não só das que têm imagem — gerava ~300MB desnecessários em `content/*/assets/pages/`. Corrigido: só renderiza página com imagem embutida (`page.get_images()`); repo caiu pra ~57MB. Também corrigido bug relacionado: `scrape_vigencia.py` sobrescrevia `meta.json` inteiro e apagava o `pdf_hash` gravado por `convert_nr.py` — agora mescla
-- [ ] 24 App busca manifest do GitHub raw
+- [x] 24 App busca manifest do GitHub raw
 - [ ] 25 Botão "Verificar atualizações"
 - [ ] 26 Monitorar primeiro commit automático da Action
 
