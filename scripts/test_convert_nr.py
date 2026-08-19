@@ -4,13 +4,24 @@ Testes unitários para as funções puras de convert_nr.py:
 - _table_to_markdown
 - _is_probably_illegible
 - _strip_duplicate_markdown_table
+- _combine_and_sort_bboxes
 
 Uso:
   python3 scripts/test_convert_nr.py
   python3 scripts/test_convert_nr.py -v (verbose)
 """
 import unittest
-from convert_nr import _table_to_markdown, _is_probably_illegible, _strip_duplicate_markdown_table
+try:
+    import pymupdf as fitz
+except ImportError:
+    fitz = None
+
+from convert_nr import (
+    _table_to_markdown,
+    _is_probably_illegible,
+    _strip_duplicate_markdown_table,
+    _combine_and_sort_bboxes,
+)
 
 
 class TestTableToMarkdown(unittest.TestCase):
@@ -244,6 +255,149 @@ class TestIntegration(unittest.TestCase):
         # Se fosse convertida (mesmo sendo ilegível), geraria Markdown válido
         markdown = _table_to_markdown(illegible_table)
         self.assertIn("| --- | --- |", markdown)
+
+
+@unittest.skipIf(fitz is None, "pymupdf not installed")
+class TestCombineAndSortBboxes(unittest.TestCase):
+    """Testes para _combine_and_sort_bboxes."""
+
+    def test_single_image(self):
+        """Uma página com uma imagem."""
+        images_by_page = {
+            0: [fitz.Rect(10, 20, 100, 120)],
+        }
+        tables_by_page = {}
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertIn(0, result)
+        self.assertEqual(len(result[0]), 1)
+        self.assertEqual(result[0][0]["kind"], "image")
+        self.assertEqual(result[0][0]["bbox"], fitz.Rect(10, 20, 100, 120))
+
+    def test_single_illegible_table(self):
+        """Uma página com uma tabela ilegível."""
+        images_by_page = {}
+        tables_by_page = {
+            0: [{"illegible_page": True, "bbox": (10, 20, 100, 120)}],
+        }
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertIn(0, result)
+        self.assertEqual(len(result[0]), 1)
+        self.assertEqual(result[0][0]["kind"], "table")
+        # bbox deve ser normalizado para fitz.Rect
+        bbox = result[0][0]["bbox"]
+        self.assertEqual(bbox.x0, 10)
+        self.assertEqual(bbox.y0, 20)
+        self.assertEqual(bbox.x1, 100)
+        self.assertEqual(bbox.y1, 120)
+
+    def test_image_and_table_together(self):
+        """Uma página com imagem e tabela ilegível juntas."""
+        # Imagem no topo (y0=20), tabela embaixo (y0=50)
+        images_by_page = {
+            0: [fitz.Rect(10, 20, 100, 40)],
+        }
+        tables_by_page = {
+            0: [{"illegible_page": True, "bbox": (10, 50, 100, 120)}],
+        }
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertIn(0, result)
+        items = result[0]
+        self.assertEqual(len(items), 2)
+
+        # Deve estar ordenado por y0: imagem (20) antes da tabela (50)
+        self.assertEqual(items[0]["kind"], "image")
+        self.assertEqual(items[0]["bbox"].y0, 20)
+        self.assertEqual(items[1]["kind"], "table")
+        self.assertEqual(items[1]["bbox"].y0, 50)
+
+    def test_multiple_images_ordered_by_y(self):
+        """Múltiplas imagens na mesma página, devem estar ordenadas por y0."""
+        # Imagem 1 em y0=100, Imagem 2 em y0=50 (desordenada)
+        images_by_page = {
+            0: [fitz.Rect(10, 100, 100, 120), fitz.Rect(10, 50, 100, 70)],
+        }
+        tables_by_page = {}
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertIn(0, result)
+        items = result[0]
+        self.assertEqual(len(items), 2)
+
+        # Deve estar ordenado por y0: 50 antes de 100
+        self.assertEqual(items[0]["bbox"].y0, 50)
+        self.assertEqual(items[1]["bbox"].y0, 100)
+
+    def test_empty_images_and_tables(self):
+        """Sem imagens nem tabelas ilegíveis."""
+        images_by_page = {}
+        tables_by_page = {}
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertEqual(result, {})
+
+    def test_table_without_bbox(self):
+        """Tabela ilegível sem bbox capturado (fallback)."""
+        images_by_page = {}
+        tables_by_page = {
+            0: [{"illegible_page": True}],  # sem "bbox"
+        }
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        # Tabela sem bbox deve ser ignorada
+        self.assertNotIn(0, result)
+
+    def test_multiple_pages(self):
+        """Múltiplas páginas com combinações diferentes."""
+        images_by_page = {
+            0: [fitz.Rect(10, 20, 100, 40)],
+            1: [fitz.Rect(10, 50, 100, 70)],
+        }
+        tables_by_page = {
+            1: [{"illegible_page": True, "bbox": (10, 100, 100, 120)}],
+        }
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        # Página 0: 1 imagem
+        self.assertIn(0, result)
+        self.assertEqual(len(result[0]), 1)
+        self.assertEqual(result[0][0]["kind"], "image")
+
+        # Página 1: 1 imagem + 1 tabela
+        self.assertIn(1, result)
+        self.assertEqual(len(result[1]), 2)
+        self.assertEqual(result[1][0]["kind"], "image")
+        self.assertEqual(result[1][1]["kind"], "table")
+
+    def test_mixed_with_markdown_table(self):
+        """Tabela Markdown (não PNG) deve ser ignorada na combinação de bboxes."""
+        images_by_page = {
+            0: [fitz.Rect(10, 20, 100, 40)],
+        }
+        tables_by_page = {
+            0: [
+                "| Col | Data |\n| --- | --- |\n| A | B |",  # tabela Markdown
+                {"illegible_page": True, "bbox": (10, 100, 100, 120)},  # tabela PNG
+            ],
+        }
+
+        result = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+        self.assertIn(0, result)
+        items = result[0]
+        # Deve ter 2 itens: 1 imagem + 1 tabela ilegível (tabela Markdown ignorada)
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0]["kind"], "image")
+        self.assertEqual(items[1]["kind"], "table")
 
 
 if __name__ == "__main__":

@@ -33,6 +33,8 @@ Tabelas que nenhum dos dois passes consegue extrair de forma legível (cabeçalh
 ### Escolha do usuário
 PNG da página inteira (Recomendado)
 
+> **Atualização:** esta escolha foi substituída por `.claude/decisions/imagens-pagina-posicionamento.md` (Decisão 2) — a área renderizada passou de página inteira para o bbox da tabela, pelo mesmo motivo que levou ao recorte por bbox em imagens embutidas (evitar duplicar texto normativo já extraído no Pass 1).
+
 ### Impacto esperado
 - Precisa de heurística para detectar "tabela ilegível" (ex.: célula com muitas quebras de linha isoladas por caractere — sinal de texto vertical/rotacionado mal extraído)
 - Quando detectado, a referência à página vira `![Tabela N](../assets/pages/page-XXX.png)` visível no ponto certo do `.md`, em vez do comentário oculto que hoje existe só como fallback geral de imagens

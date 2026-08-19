@@ -1,69 +1,80 @@
-# Decisão — Imagens de página: posição correta no texto + recorte por bbox
+# Decisão — Imagens de página e tabelas ilegíveis: recorte por bbox unificado
 
-> Gerado por `/decidir` · Baseado em `.claude/discoveries/imagens-pagina-posicionamento.md`
+> Gerado por `/decidir` (revisão) · Baseado em `.claude/discoveries/imagens-pagina-posicionamento.md`
+> Substitui a versão anterior — o WIP que ela cobria foi commitado (`f8591ea`) por um caminho diferente (página inteira compartilhada), que reabriu o item 12b e criou duplicação equivalente em tabelas ilegíveis.
 
-## Decisão 1 — WIP não commitado em `convert_nr.py`
-
-### Pergunta
-Existem alterações não commitadas que já reestruturam as 3 passes para serem "page-aware" mas quebram a execução (orquestrador não atualizado). Continuar esse WIP ou descartar e redesenhar do zero?
-
-### Opções apresentadas
-- Continuar o WIP — completar o que já está escrito (per-page text, tables_by_page, pages_to_render)
-- Descartar e redesenhar do zero
-
-### Escolha do usuário
-Continuar o WIP.
-
-### Impacto esperado
-- Custo: menor — reaproveita estrutura já escrita
-- Esforço: corrigir `convert_nr()` + implementar crop por bbox + reescrever `merge_passes()`
-- Risco: baixo, é conclusão de um refactor já em andamento
-
----
-
-## Decisão 2 — Posição da imagem no texto da página
+## Decisão 1 — Imagem embutida: bbox por imagem ou inserir referência da página inteira já renderizada?
 
 ### Pergunta
-Onde inserir a referência `![...]` dentro do texto da página no Markdown final?
+Hoje `_render_page_png` já gera o PNG de página inteira para páginas com imagem embutida, mas o merge nunca insere a referência `![...]`. Corrigir só isso (fix mínimo) ou retomar o recorte por bbox por imagem (decisão original, nunca implementada)?
 
 ### Opções apresentadas
-- **Fim do bloco de texto da página** — simples e robusto, ordem de páginas sempre correta
-- **Posição exata via coordenada Y** — mais fiel visualmente, mas `pymupdf4llm` não expõe posição de linha de forma confiável; risco de inserir no lugar errado ou quebrar Markdown (ex.: dentro de uma tabela)
+- **Retomar bbox por imagem** — `page.get_image_rects(xref)` por imagem, ordenar por `y0`, 1 PNG recortado por imagem
+- **Fix mínimo** — manter página inteira, só adicionar a referência no merge
 
 ### Escolha do usuário
-Fim do bloco de texto da página.
+Retomar bbox por imagem.
 
 ### Justificativa (do usuário)
-Prioriza robustez/ausência de falhas sobre precisão visual milimétrica — consistente com a preocupação original do usuário ("pensar na melhor maneira para evitar falhas").
+Evita duplicar o texto da página inteira como imagem; arquivos menores; era a decisão original — só não chegou a ser implementada porque o trabalho de tabelas tomou a rota do helper compartilhado antes.
 
 ### Impacto esperado
 - Custo: nenhum
-- Esforço: baixo (concatenação por página, sem heurística de matching de posição)
-- Risco: baixo — pior caso é a imagem aparecer no fim da página em vez de no meio do parágrafo exato, nunca fora de ordem entre páginas
+- Esforço: baixo-médio — reintroduz a lógica de `get_image_rects` que a descoberta original já detalhava
+- Risco: baixo — API padrão do PyMuPDF
 
 ---
 
-## Decisão 3 — Múltiplas imagens na mesma página
+## Decisão 2 — Tabela ilegível: recortar bbox da tabela ou manter página inteira?
 
 ### Pergunta
-Quando uma página tem mais de uma imagem embutida, como organizá-las no Markdown?
+`f8591ea` implementou PNG de página inteira para tabela ilegível (decisão registrada em `.claude/decisions/tabelas-inline-md.md`, Decisão 2). Isso duplica o texto normativo da página inteira como imagem sempre que há 1 tabela ilegível nela. Manter como está ou recortar só a área da tabela?
 
 ### Opções apresentadas
-- **Um PNG por imagem, em ordem Y** (bbox individual de cada imagem via `page.get_image_rects(xref)`)
-- **Um PNG único da união das áreas** (bbox que engloba todas as imagens da página)
+- **Recortar bbox da tabela** — via `page.find_tables()` do pdfplumber (expõe `.bbox` por tabela), renderizado com `page.get_pixmap(clip=bbox, ...)` do fitz
+- **Manter página inteira** — já implementado e commitado, sem trabalho adicional
 
 ### Escolha do usuário
-Um PNG por imagem, em ordem Y.
+Recortar bbox da tabela.
+
+### Justificativa (do usuário)
+Mesmo racional de imagens — evita repetir para o usuário, como PNG, texto normativo que ele já leu como Markdown na mesma página.
 
 ### Impacto esperado
-- Custo: mais arquivos pequenos em vez de menos arquivos grandes (tende a ser menor no total, já que corta espaço em branco entre figuras)
-- Esforço: ordenar rects por `y0` antes de renderizar
-- Risco: baixo — API padrão do PyMuPDF (`get_image_rects` + `get_pixmap(clip=...)`)
+- Custo: nenhum
+- Esforço: médio — `find_tables()` e `extract_tables()` (já usado no Pass 2) podem não retornar objetos 1:1; precisa casar bbox com a tabela certa (por ordem/posição, já que ambos os métodos iteram na mesma ordem de leitura do pdfplumber)
+- Risco: médio — se o casamento bbox↔tabela falhar silenciosamente, o recorte pode vir errado (ex.: bbox de outra tabela da mesma página); mitigar com fallback para página inteira nesse caso específico (log de warning)
+
+**Esta decisão substitui** a Decisão 2 de `.claude/decisions/tabelas-inline-md.md` ("PNG da página inteira, Recomendado") — mantém a escolha de *mostrar uma imagem* como fallback de ilegibilidade, mas muda a área renderizada de página inteira para bbox da tabela.
 
 ---
 
-## Escopo confirmado (fora desta decisão)
-Páginas com **tabela ilegível** (sem imagem embutida) continuam usando `_render_page_png` (página inteira) — é o fallback de 3 níveis já documentado em `docs/architecture.md`; recorte de bbox de tabela é um problema separado, não tratado aqui.
+## Decisão 3 — Página com tabela ilegível E imagem embutida ao mesmo tempo
+
+### Pergunta
+Hoje esse caso gera 1 único PNG de página inteira, referenciado só pela tabela — a imagem fica "escondida" dentro do mesmo PNG, sem ordem própria. Como tratar depois que ambos os casos usam bbox?
+
+### Opções apresentadas
+- **Cada uma vira seu próprio recorte bbox, na ordem Y** — como os dois casos passam a usar bbox, basta juntar as duas listas (bboxes de imagem + bbox de tabela ilegível) e ordenar por `y0` antes de renderizar/inserir
+- **Decidir depois, caso a caso** — deixar como lacuna aberta
+
+### Escolha do usuário
+Cada uma vira seu próprio recorte, na ordem Y.
+
+### Justificativa (do usuário)
+O problema de duplicar o mesmo PNG de página inteira desaparece sozinho quando os dois casos usam bbox — não precisa de tratamento especial para a combinação, só de uma ordenação unificada por posição vertical antes do merge.
+
+### Impacto esperado
+- Custo: nenhum
+- Esforço: baixo — é consequência natural das Decisões 1 e 2, não exige código extra além de ordenar a lista combinada
+- Risco: baixo
+
+---
+
+## Escopo confirmado
+
+- `_render_page_png` (página inteira) deixa de ter consumidor conhecido depois desta mudança — remover se confirmado que não sobra nenhum caller.
+- Reconversão das 27 NRs já commitadas continua sendo feita via `convert_nr.py --all` local, revisando o diff antes de commitar (mesmo padrão já usado em `tabelas-inline-md`).
 
 ## Próximo passo
-Escopo cabe em 1 arquivo (`scripts/convert_nr.py`), 1 feature → pular `/plano` e ir direto para `/fazer imagens-pagina-posicionamento`.
+Escopo toca 1 arquivo (`scripts/convert_nr.py`) mas 2 funções centrais (`extract_images_pass`/`extract_tables_pass` + `merge_passes`) e reconversão de 27 NRs → `/plano imagens-pagina-posicionamento` antes de `/fazer`.

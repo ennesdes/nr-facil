@@ -221,9 +221,10 @@ def extract_tables_pass(
     Recebe as páginas de texto do Pass 1 (pra fazer dedupe).
     Retorna dicionário com:
     - 'pages_text': lista de textos de página (com duplicatas de tabelas Markdown removidas)
-    - 'tables_by_page': dict {page_num: [tabelas Markdown pronto, ou {'illegible_page': True}]}
+    - 'tables_by_page': dict {page_num: [tabelas Markdown pronto, ou {'illegible_page': True, 'bbox': (x0, y0, x1, y1)}]}
 
     Filtra falso-positivos (tabelas de 1 coluna) e detecta ilegibilidade (texto vertical).
+    Fase 1: Captura bbox de tabela ilegível usando pdfplumber.page.find_tables().
     """
     logger.info(f"{nr_id}: Pass 2 — Extração e normalização de tabelas")
 
@@ -236,13 +237,17 @@ def extract_tables_pass(
             illegible_count = 0
 
             for page_num, page in enumerate(pdf.pages):
-                tables = page.extract_tables()
-                if not tables:
+                # find_tables() retorna objetos com .bbox e .extract()
+                tables_found = page.find_tables()
+                if not tables_found:
                     continue
 
                 page_tables: list[str | dict] = []
 
-                for table_idx, table in enumerate(tables):
+                for table_idx, table_obj in enumerate(tables_found):
+                    # Extrai dados da tabela
+                    table = table_obj.extract()
+
                     # Filtro de falso-positivo: tabela de 1 coluna (caixa de texto com borda)
                     max_cols = max((len(row) for row in table), default=0)
                     if max_cols <= 1:
@@ -252,7 +257,9 @@ def extract_tables_pass(
                     # Detecta ilegibilidade (texto vertical quebrado)
                     if _is_probably_illegible(table):
                         logger.debug(f"  Page {page_num + 1}: tabela {table_idx} marcada como ilegível")
-                        page_tables.append({"illegible_page": True})
+                        # Captura bbox da tabela (tupla: x0, top, x1, bottom)
+                        bbox = table_obj.bbox
+                        page_tables.append({"illegible_page": True, "bbox": bbox})
                         illegible_count += 1
                     else:
                         # Converte para Markdown
@@ -284,16 +291,74 @@ def extract_tables_pass(
         }
 
 
-def _render_page_png(doc: fitz.Document, page_num: int, pages_dir: Path) -> Path:
+def _combine_and_sort_bboxes(
+    images_by_page: dict[int, list[fitz.Rect]],
+    tables_by_page: dict[int, list[str | dict]],
+) -> dict[int, list[dict]]:
     """
-    Renderiza uma página específica como PNG com zoom 2x.
+    Combina bboxes de imagem (fitz.Rect) e tabela ilegível (tupla pdfplumber) por página.
+
+    Retorna dicionário:
+    {page_num: [{"bbox": fitz.Rect, "kind": "image"|"table", "table_index": int (só pra tabela)}]}
+    ordenado por y0.
+
+    Normaliza ambos os formatos para fitz.Rect para renderização posterior.
+    """
+    combined = {}
+
+    for page_num in set(images_by_page.keys()) | set(tables_by_page.keys()):
+        items = []
+
+        # Adiciona imagens (já são fitz.Rect)
+        if page_num in images_by_page:
+            for rect in images_by_page[page_num]:
+                items.append({
+                    "bbox": rect,
+                    "kind": "image",
+                })
+
+        # Adiciona tabelas ilegíveis
+        if page_num in tables_by_page:
+            table_item_idx = 0  # índice da tabela ilegível dentro da página
+            for table_data in tables_by_page[page_num]:
+                if isinstance(table_data, dict) and table_data.get("illegible_page"):
+                    bbox_tuple = table_data.get("bbox")
+                    if bbox_tuple:
+                        # Converte tupla (x0, top, x1, bottom) para fitz.Rect
+                        x0, top, x1, bottom = bbox_tuple
+                        rect = fitz.Rect(x0, top, x1, bottom)
+                        items.append({
+                            "bbox": rect,
+                            "kind": "table",
+                            "table_index": table_item_idx,
+                        })
+                    else:
+                        logger.warning(f"  Page {page_num + 1}: tabela ilegível sem bbox capturado, pulando")
+                    table_item_idx += 1
+
+        # Ordena por y0 (topo do item)
+        items.sort(key=lambda item: item["bbox"].y0)
+
+        if items:
+            combined[page_num] = items
+
+    return combined
+
+
+def _render_bbox_png(doc: fitz.Document, page_num: int, bbox: fitz.Rect, pages_dir: Path, kind: str, idx: int) -> Path:
+    """
+    Renderiza um recorte de página (bbox) como PNG com zoom 2x.
 
     page_num é 0-based (índice do fitz.open).
+    bbox é fitz.Rect com as coordenadas do recorte.
+    kind é "image" ou "table".
+    idx é o índice dentro do tipo (0 para primeira imagem, etc).
     Retorna caminho do arquivo PNG.
     """
     page = doc[page_num]
-    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
-    img_file = pages_dir / f"page-{page_num + 1:03d}.png"
+    # Renderiza só a área do bbox com matriz de zoom 2x
+    pix = page.get_pixmap(clip=bbox, matrix=fitz.Matrix(2, 2))
+    img_file = pages_dir / f"page-{page_num + 1:03d}-{kind}-{idx:02d}.png"
     pix.save(str(img_file))
     return img_file
 
@@ -302,18 +367,17 @@ def extract_images_pass(
     pdf_file: Path, nr_id: str, tables_by_page: dict[int, list[str | dict]]
 ) -> dict[str, Any]:
     """
-    Pass 3: Identifica páginas que precisam de PNG (com imagem embutida ou tabela ilegível).
+    Pass 3: Extrai bboxes de imagens embutidas e identifica páginas com tabelas ilegíveis.
 
     Retorna dicionário com:
-    - 'pages_to_render': set de índices de páginas (0-based) que precisam PNG
-    - 'page_png_paths': dict vazio por enquanto (preenchido pelo merge após render)
+    - 'images_by_page': dict {page_num: [fitz.Rect]} — lista de bboxes de imagem por página, ordenados por y0
+    - 'pages_with_illegible_tables': set de page_num com tabelas ilegíveis
 
-    Tabelas ilegíveis da Fase 2 (Pass 2) são renderizadas junto com páginas
-    que já tinham imagem embutida, evitando renderizar a mesma página duas vezes.
+    Fase 1: Captura os bboxes de imagem para recorte de PNG (não mais página inteira).
     """
-    logger.info(f"{nr_id}: Pass 3 — Identificação de páginas para PNG")
+    logger.info(f"{nr_id}: Pass 3 — Extração de bboxes de imagem")
 
-    pages_with_images = set()
+    images_by_page: dict[int, list[fitz.Rect]] = {}
     pages_with_illegible_tables = set()
 
     # Páginas com tabelas ilegíveis (marcadas como {"illegible_page": True})
@@ -326,32 +390,49 @@ def extract_images_pass(
     try:
         doc = fitz.open(str(pdf_file))
 
-        # Páginas com imagem embutida
+        # Extrai bboxes de imagem embutida por página
         for page_num, page in enumerate(doc):
-            if page.get_images(full=True):
-                pages_with_images.add(page_num)
+            xref_list = page.get_images(full=True)
+            if not xref_list:
+                continue
 
-        # União: páginas que precisam PNG são aquelas com imagem + aquelas com tabela ilegível
-        pages_to_render = pages_with_images | pages_with_illegible_tables
+            page_image_rects: list[fitz.Rect] = []
+
+            for xref in xref_list:
+                xref_num = xref[0]
+                rects = page.get_image_rects(xref_num)
+
+                if not rects:
+                    logger.debug(f"  Page {page_num + 1}: imagem com xref {xref_num} não tem rects, pulando")
+                    continue
+
+                for rect in rects:
+                    page_image_rects.append(rect)
+                    logger.debug(f"  Page {page_num + 1}: bbox de imagem capturado {rect}")
+
+            # Ordena por y0 (topo da imagem)
+            page_image_rects.sort(key=lambda r: r.y0)
+
+            if page_image_rects:
+                images_by_page[page_num] = page_image_rects
 
         logger.info(
-            f"  {len(pages_with_images)} com imagem + "
-            f"{len(pages_with_illegible_tables)} com tabela ilegível = "
-            f"{len(pages_to_render)} páginas para renderizar"
+            f"  {sum(len(rects) for rects in images_by_page.values())} bboxes de imagem + "
+            f"{len(pages_with_illegible_tables)} páginas com tabela ilegível"
         )
 
         doc.close()
 
         return {
-            "pages_to_render": pages_to_render,
-            "page_png_paths": {},  # será preenchido no merge
+            "images_by_page": images_by_page,
+            "pages_with_illegible_tables": pages_with_illegible_tables,
         }
 
     except Exception as e:
-        logger.error(f"  Falha ao identificar páginas para PNG: {e}")
+        logger.error(f"  Falha ao extrair bboxes de imagem: {e}")
         return {
-            "pages_to_render": set(),
-            "page_png_paths": {},
+            "images_by_page": {},
+            "pages_with_illegible_tables": pages_with_illegible_tables,
         }
 
 
@@ -360,48 +441,90 @@ def merge_passes(
     nr_id: str,
     pages_text: list[str],
     tables_by_page: dict[int, list[str | dict]],
-    pages_to_render: set[int],
+    images_by_page: dict[int, list[fitz.Rect]],
 ) -> str:
     """
     Merge dos 3 passes em um único markdown.
 
     Concatena página por página:
     - Texto da página (Pass 1, já sem duplicatas de tabelas Markdown)
-    - Tabelas da página (Pass 2, Markdown pronto ou PNG se ilegível)
+    - Tabelas Markdown pronto (Pass 2)
+    - Imagens/tabelas ilegíveis como PNGs recortados (Fase 2: bboxes unificados, ordenados por Y)
 
-    Renderiza PNGs sob demanda (tabelas ilegíveis + páginas com imagem embutida).
+    Renderiza PNGs sob demanda (tabelas ilegíveis + imagens embutidas) com recorte por bbox.
     """
-    logger.info(f"{nr_id}: Merge dos 3 passes (inline por página)")
+    logger.info(f"{nr_id}: Merge dos 3 passes (inline por página, com recorte por bbox)")
 
     pages_dir = ensure_assets_dir(nr_id, "pages")
 
-    # Limpa PNGs de uma conversão anterior
+    # Limpa PNGs de uma conversão anterior (inclui novos nomes com -image-, -table-)
     for old_png in pages_dir.glob("page-*.png"):
         old_png.unlink()
 
-    # Renderiza páginas necessárias
+    # Combina e ordena bboxes de imagem + tabelas ilegíveis por página
+    combined_items = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+
+    # Renderiza cada item (imagem ou tabela ilegível) com recorte de bbox
     try:
         doc = fitz.open(str(pdf_file))
-        for page_num in pages_to_render:
-            if page_num < len(doc):
-                _render_page_png(doc, page_num, pages_dir)
-                logger.debug(f"  Page {page_num + 1} renderizada")
+        for page_num, items in combined_items.items():
+            if page_num >= len(doc):
+                logger.warning(f"  Page {page_num + 1} fora dos limites do PDF, pulando")
+                continue
+
+            for idx, item in enumerate(items):
+                bbox = item["bbox"]
+                kind = item["kind"]
+                try:
+                    _render_bbox_png(doc, page_num, bbox, pages_dir, kind, idx)
+                    logger.debug(f"  Page {page_num + 1} {kind} {idx} renderizado (bbox)")
+                except Exception as e:
+                    logger.error(f"  Falha ao renderizar Page {page_num + 1} {kind} {idx}: {e}")
+
         doc.close()
     except Exception as e:
         logger.error(f"  Falha ao renderizar PNGs: {e}")
 
-    # Concatena página por página
+    # Concatena página por página, adicionando tabelas Markdown + referências de imagem/tabela PNG
     merged_parts = []
+    image_counters: dict[int, int] = {}  # contador de imagens por página
+    table_counters: dict[int, int] = {}  # contador de tabelas ilegíveis por página
+
     for page_num, page_text in enumerate(pages_text):
         merged_parts.append(page_text)
 
         # Adiciona tabelas/imagens desta página (se houver)
+        if page_num in combined_items:
+            for item in combined_items[page_num]:
+                bbox = item["bbox"]
+                kind = item["kind"]
+
+                if kind == "image":
+                    # Contador de imagens por página
+                    if page_num not in image_counters:
+                        image_counters[page_num] = 0
+                    img_idx = image_counters[page_num]
+                    image_counters[page_num] += 1
+
+                    merged_parts.append(
+                        f"\n![Página {page_num + 1} — imagem {img_idx}](../assets/pages/page-{page_num + 1:03d}-image-{img_idx:02d}.png)\n"
+                    )
+
+                elif kind == "table":
+                    # Contador de tabelas ilegíveis por página
+                    if page_num not in table_counters:
+                        table_counters[page_num] = 0
+                    tbl_idx = table_counters[page_num]
+                    table_counters[page_num] += 1
+
+                    merged_parts.append(
+                        f"\n![Tabela da página {page_num + 1}](../assets/pages/page-{page_num + 1:03d}-table-{tbl_idx:02d}.png)\n"
+                    )
+
+        # Adiciona tabelas Markdown pronto (não PNG) desta página
         if page_num in tables_by_page:
             for table_item in tables_by_page[page_num]:
-                if isinstance(table_item, dict) and table_item.get("illegible_page"):
-                    # Tabela ilegível → referencia a PNG
-                    merged_parts.append(f"\n![Tabela da página {page_num + 1}](../assets/pages/page-{page_num + 1:03d}.png)\n")
-                elif isinstance(table_item, str):
+                if isinstance(table_item, str):
                     # Tabela Markdown pronto
                     merged_parts.append("\n" + table_item + "\n")
 
@@ -439,8 +562,9 @@ def convert_nr(nr_id: str, dry_run: bool = False, pdf_bytes: bytes | None = None
 
     Executa 3 passes em sequência:
     1. Pass 1: extração de texto por página (pymupdf4llm)
-    2. Pass 2: extração de tabelas (pdfplumber) com filtro e dedupe
-    3. Pass 3: identificação de páginas pra PNG (imagem + tabelas ilegíveis)
+    2. Pass 2: extração de tabelas (pdfplumber) com filtro, dedupe, e captura de bbox de tabela ilegível
+    3. Pass 3: extração de bboxes de imagem embutida (pymupdf)
+    Depois merge unificado com recorte de bbox (Fase 2) para imagens e tabelas ilegíveis.
     """
     logger.info(f"\n{'='*60}")
     logger.info(f"Convertendo {nr_id}")
@@ -480,12 +604,12 @@ def convert_nr(nr_id: str, dry_run: bool = False, pdf_bytes: bytes | None = None
     pages_text_cleaned = tables_result["pages_text"]
     tables_by_page = tables_result["tables_by_page"]
 
-    # Pass 3: identificação de páginas pra PNG (recebe tabelas do Pass 2)
+    # Pass 3: extração de bboxes de imagem (recebe tabelas do Pass 2 para identificar páginas)
     images_result = extract_images_pass(pdf_file, nr_id, tables_by_page)
-    pages_to_render = images_result["pages_to_render"]
+    images_by_page = images_result["images_by_page"]
 
-    # 3. Merge e normalização
-    merged_md = merge_passes(pdf_file, nr_id, pages_text_cleaned, tables_by_page, pages_to_render)
+    # 3. Merge e normalização (Fase 2: usa bboxes de imagem para recorte)
+    merged_md = merge_passes(pdf_file, nr_id, pages_text_cleaned, tables_by_page, images_by_page)
     normalized_md = normalize_markdown(merged_md)
 
     # 4. Salva resultado

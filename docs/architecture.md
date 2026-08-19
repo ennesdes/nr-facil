@@ -76,9 +76,9 @@ nr-facil/
 
 1. **Extração** — 3 passes sempre executados sobre o mesmo PDF (sem classificação prévia por complexidade — toda NR recebe o mesmo tratamento):
    - Pass texto: `pymupdf4llm` → corpo normativo
-   - Pass tabelas: `pdfplumber` → Markdown inline, no ponto certo do texto (fallback: PNG de página inteira se ilegível nos dois passes, como cabeçalho com texto vertical)
-   - Pass imagens/diagramas: render de página → PNG em `assets/pages/page-XX.png`
-   - Merge dos 3 passes num único `.md` padronizado
+   - Pass tabelas: `pdfplumber` → Markdown inline, no ponto certo do texto (fallback: PNG recortado por bbox da tabela se ilegível — texto vertical quebrado, cabeçalho rotacionado, etc)
+   - Pass imagens/diagramas: extração de bboxes de imagem embutida → PNG recortado por bbox em `assets/pages/page-NNN-{image|table}-{i:02d}.png`
+   - Merge dos 3 passes num único `.md` padronizado, com referências `![...]` a imagens/tabelas PNG na ordem Y
    - PDF original salvo + `pdf_hash`
 2. **Normalização** — headings `17.1`, remover artefatos PDF, hifenização
 3. **Índices** — `index.json` (navegação) + `search_index.json` (busca por chunk)
