@@ -18,48 +18,158 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        id: install_deps
+        run: |
+          mkdir -p /tmp/nrfacil-logs
+          pip install -r scripts/requirements.txt 2>&1 | tee /tmp/nrfacil-logs/install_deps.log
+          exit ${PIPESTATUS[0]}
 
       - name: Descobrir NRs (scraping gov.br)
-        run: python3 scripts/discover_nrs.py
+        id: discover
+        run: |
+          python3 scripts/discover_nrs.py 2>&1 | tee /tmp/nrfacil-logs/discover.log
+          exit ${PIPESTATUS[0]}
 
       - name: Detectar mudanças (hash do PDF)
         id: update_nrs
         continue-on-error: true
-        run: python3 scripts/update_nrs.py
+        run: |
+          python3 scripts/update_nrs.py 2>&1 | tee /tmp/nrfacil-logs/update_nrs.log
+          exit ${PIPESTATUS[0]}
 
       - name: Metadados de vigência
         id: vigencia
         continue-on-error: true
-        run: python3 scripts/scrape_vigencia.py --all
+        run: |
+          python3 scripts/scrape_vigencia.py --all 2>&1 | tee /tmp/nrfacil-logs/vigencia.log
+          exit ${PIPESTATUS[0]}
 
       - name: Converter PDF → Markdown
         id: convert
         continue-on-error: true
-        run: python3 scripts/convert_nr.py --all
+        run: |
+          python3 scripts/convert_nr.py --all 2>&1 | tee /tmp/nrfacil-logs/convert.log
+          exit ${PIPESTATUS[0]}
 
       - name: Normalizar Markdown
-        run: python3 scripts/normalize_md.py --all
+        id: normalize
+        run: |
+          python3 scripts/normalize_md.py --all 2>&1 | tee /tmp/nrfacil-logs/normalize.log
+          exit ${PIPESTATUS[0]}
 
       - name: Gerar índices (navegação + busca)
         id: build_index
         continue-on-error: true
-        run: python3 scripts/build_index.py --all
+        run: |
+          python3 scripts/build_index.py --all 2>&1 | tee /tmp/nrfacil-logs/build_index.log
+          exit ${PIPESTATUS[0]}
 
       - name: Gerar manifest.json
-        run: python3 scripts/build_manifest.py
+        id: build_manifest
+        run: |
+          python3 scripts/build_manifest.py 2>&1 | tee /tmp/nrfacil-logs/build_manifest.log
+          exit ${PIPESTATUS[0]}
 
       - name: Validar manifest.json
-        run: python3 scripts/validate_manifest.py
+        id: validate_manifest
+        run: |
+          python3 scripts/validate_manifest.py 2>&1 | tee /tmp/nrfacil-logs/validate_manifest.log
+          exit ${PIPESTATUS[0]}
 
       - name: Gerar app_meta.json (feed de atualizações)
-        run: python3 scripts/build_app_meta.py
+        id: build_app_meta
+        run: |
+          python3 scripts/build_app_meta.py 2>&1 | tee /tmp/nrfacil-logs/build_app_meta.log
+          exit ${PIPESTATUS[0]}
+
+      - name: Registrar changelog mensal
+        if: always()
+        run: |
+          mkdir -p docs/changelog
+          MES=$(date -u +%Y-%m)
+          DIA=$(date -u +%Y-%m-%d)
+          ARQUIVO="docs/changelog/${MES}.md"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          [ -f "$ARQUIVO" ] || echo "# Changelog ${MES}" > "$ARQUIVO"
+
+          git add content/ manifest.json app_meta.json scripts/nr_index.json
+
+          declare -A NOMES=(
+            [install_deps]="Install dependencies"
+            [discover]="Descobrir NRs"
+            [update_nrs]="Detectar mudanças"
+            [vigencia]="Metadados de vigência"
+            [convert]="Converter PDF → Markdown"
+            [normalize]="Normalizar Markdown"
+            [build_index]="Gerar índices"
+            [build_manifest]="Gerar manifest.json"
+            [validate_manifest]="Validar manifest.json"
+            [build_app_meta]="Gerar app_meta.json"
+          )
+          declare -A OUTCOMES=(
+            [install_deps]="${{ steps.install_deps.outcome }}"
+            [discover]="${{ steps.discover.outcome }}"
+            [update_nrs]="${{ steps.update_nrs.outcome }}"
+            [vigencia]="${{ steps.vigencia.outcome }}"
+            [convert]="${{ steps.convert.outcome }}"
+            [normalize]="${{ steps.normalize.outcome }}"
+            [build_index]="${{ steps.build_index.outcome }}"
+            [build_manifest]="${{ steps.build_manifest.outcome }}"
+            [validate_manifest]="${{ steps.validate_manifest.outcome }}"
+            [build_app_meta]="${{ steps.build_app_meta.outcome }}"
+          )
+
+          FALHAS=()
+          for id in "${!OUTCOMES[@]}"; do
+            if [ "${OUTCOMES[$id]}" = "failure" ]; then
+              FALHAS+=("$id")
+            fi
+          done
+
+          if [ "${#FALHAS[@]}" -eq 0 ]; then
+            STATUS="✅ sucesso"
+          elif [ "${OUTCOMES[normalize]}" = "failure" ] || \
+               [ "${OUTCOMES[build_manifest]}" = "failure" ] || \
+               [ "${OUTCOMES[validate_manifest]}" = "failure" ] || \
+               [ "${OUTCOMES[build_app_meta]}" = "failure" ] || \
+               [ "${OUTCOMES[install_deps]}" = "failure" ] || \
+               [ "${OUTCOMES[discover]}" = "failure" ]; then
+            STATUS="❌ falhou"
+          else
+            STATUS="⚠️ parcial (algumas NRs com erro isolado)"
+          fi
+
+          {
+            echo ""
+            echo "## ${DIA} — ${STATUS}"
+            if [ "${#FALHAS[@]}" -gt 0 ]; then
+              echo "Etapas com erro:"
+              for id in "${FALHAS[@]}"; do
+                echo "- **${NOMES[$id]}**:"
+                echo '  ```'
+                tail -n 15 "/tmp/nrfacil-logs/${id}.log" 2>/dev/null | sed 's/^/  /'
+                echo '  ```'
+              done
+              echo ""
+              echo "Log completo: ${RUN_URL}"
+              echo ""
+            fi
+            if git diff --cached --quiet; then
+              echo "Sem alterações de conteúdo."
+            else
+              echo "Arquivos alterados:"
+              echo '```'
+              git diff --cached --name-status
+              echo '```'
+            fi
+          } >> "$ARQUIVO"
 
       - name: Commit automático se mudou
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/ manifest.json app_meta.json scripts/nr_index.json
+          git add docs/changelog/
           if git diff --cached --quiet; then
             echo "Nenhuma mudança para commitar"
           else
