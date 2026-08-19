@@ -266,4 +266,8 @@ Cuidados que continuam valendo mesmo sem exigência de licença:
 
 ## Evoluções pós-MVP
 
-IAP `remove_ads_lifetime` (Fase 6, ver acima), push notifications, widget Android, checklist NR-18, PGR simplificado, B2B.
+Candidatas a v2+, condicionadas aos critérios de sucesso de 90 dias (nenhuma bloqueia a Fase 5):
+
+- **Tela "hub" por NR** — hoje abrir uma NR vai direto pro leitor; visão futura é uma tela intermediária com ações: Ler norma (md, atual) | Ler PDF original | Acessar site oficial | Quiz/perguntas frequentes de situações de campo | Checklist prático (quando a NR tiver um aplicável) | Datas/prazos importantes (treinamento, reciclagem, inspeção) | Elaboração de documentos (modelos ligados à NR, ex. PGR/PCMSO). Se avançar, a navegação muda de "abrir = ler" para "abrir = escolher ação" — repensar nesse momento, não agora.
+- IAP `remove_ads_lifetime` (Fase 6, ver acima)
+- Push notifications, widget Android, B2B
