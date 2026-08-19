@@ -1,890 +1,806 @@
 [
   {
     "id": "chunk-0",
-    "text": "Entra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**NR 33 - SEGURANÇA E SAÚDE NOS TRABALHOS EM ESPAÇOS CONFINADOS**\n**Publicação** **D.O.U.**\n[Portaria MTE n.º 202, 22 de dezembro de 2006](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2006/portaria_202_nr_33.pdf/view) 27/12/06",
-    "heading": "Introdução",
-    "char_offset": 3
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**NR 33 - SEGURANÇA E SAÚDE NOS TRABALHOS EM ESPAÇOS CONFINADOS**",
+    "char_offset": 101
   },
   {
     "id": "chunk-1",
-    "text": "**Alterações/Atualizações** **D.O.U.**\n[Portaria MTE n.º 1.409, 29 de agosto de 2012](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2012/portaria_1-409_altera_a_nr_33.pdf/view) 31/08/12",
-    "heading": "Introdução",
-    "char_offset": 439
+    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTE n.º202, 22 de dezembro de 2006|27/12/06|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria MTE n.º1.409, 29 de agosto de 2012|31/08/12|\n|Portaria SEPRT n.º915, de 30 de julho de 2019|31/07/19|\n|Portaria SEPRT n.º1.690, de 15 de junho de 2022|24/06/22|",
+    "heading": "**NR 33 - SEGURANÇA E SAÚDE NOS TRABALHOS EM ESPAÇOS CONFINADOS**",
+    "char_offset": 102
   },
   {
     "id": "chunk-2",
-    "text": "[Portaria SEPRT n.º 915, de 30 de julho de 2019](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2019/portaria_seprt_915_-aprova_a_nova_nr_01.pdf/view) 31/07/19",
-    "heading": "Introdução",
-    "char_offset": 733
+    "text": "_(Redação dada pela Portaria MTE n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.1. Objetivo**",
+    "char_offset": 479
   },
   {
     "id": "chunk-3",
-    "text": "[Portaria SEPRT n.º 1.690, de 15 de junho de 2022](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-n-o-1-690-nova-nr-33-_retificada.pdf/@@download/file/Portaria%20MTP%20n.%C2%BA%201.690%20(Nova%20NR-33)_Retificada.pdf) 24/06/22",
-    "heading": "Introdução",
-    "char_offset": 1000
+    "text": "33.1.1 Esta Norma Regulamentadora tem como objetivo estabelecer os requisitos para a caracterização dos espaços confinados, os critérios para o gerenciamento de riscos ocupacionais em espaços confinados e as medidas de prevenção, de forma a garantir a segurança e a saúde dos trabalhadores que interagem direta ou indiretamente com estes espaços.",
+    "heading": "**33.1. Objetivo**",
+    "char_offset": 480
   },
   {
     "id": "chunk-4",
-    "text": "_(Redação dada pela Portaria MTE n.º 1.690, de 15 de junho de 2022)_\n**33.1. Objetivo**\n33.1.1 Esta Norma Regulamentadora tem como objetivo estabelecer os requisitos para a\ncaracterização dos espaços confinados, os critérios para o gerenciamento de riscos",
-    "heading": "Introdução",
-    "char_offset": 1354
+    "text": "**33.2.1** Esta Norma Regulamentadora se aplica às organizações que possuem ou realizam trabalhos em espaços confinados. \n**33.2.2** Considera-se espaço confinado qualquer área ou ambiente que atenda simultaneamente aos seguintes requisitos: \na) não ser projetado para ocupação humana contínua;",
+    "heading": "**33.2  Campo de aplicação**",
+    "char_offset": 832
   },
   {
     "id": "chunk-5",
-    "text": "ocupacionais em espaços confinados e as medidas de prevenção, de forma a garantir a\nsegurança e a saúde dos trabalhadores que interagem direta ou indiretamente com estes\nespaços.\n**33.2 Campo de aplicação**\n**33.2.1** Esta Norma Regulamentadora se aplica às organizações que possuem ou realizam",
-    "heading": "Introdução",
-    "char_offset": 1613
+    "text": "- b) possuir meios limitados de entrada e saída; e \n- c) em que exista ou possa existir atmosfera perigosa. \n**33.2.2.1** Considera-se atmosfera perigosa aquela em que estejam presentes uma das seguintes condições: \na) deficiência ou enriquecimento de oxigênio;",
+    "heading": "**33.2  Campo de aplicação**",
+    "char_offset": 1132
   },
   {
     "id": "chunk-6",
-    "text": "trabalhos em espaços confinados.\n**33.2.2** Considera-se espaço confinado qualquer área ou ambiente que atenda simultaneamente\naos seguintes requisitos:\na) não ser projetado para ocupação humana contínua;\nb) possuir meios limitados de entrada e saída; e",
-    "heading": "Introdução",
-    "char_offset": 1911
+    "text": "b) presença de contaminantes com potencial de causar danos à saúde do trabalhador; ou \n- c) seja caracterizada como uma atmosfera explosiva. \n**33.2.2.2** Os espaços não destinados à ocupação humana, com meios limitados de entrada e saída, utilizados para armazenagem de material com potencial para engolfar ou afogar o trabalhador são caracterizados como espaços confinados.",
+    "heading": "**33.2  Campo de aplicação**",
+    "char_offset": 1398
   },
   {
     "id": "chunk-7",
-    "text": "c) em que exista ou possa existir atmosfera perigosa.\n**33.2.2.1** Considera-se atmosfera perigosa aquela em que estejam presentes uma das seguintes\ncondições:\na) deficiência ou enriquecimento de oxigênio;\nb) presença de contaminantes com potencial de causar danos à saúde do trabalhador; ou",
-    "heading": "Introdução",
-    "char_offset": 2169
+    "text": "**33.3.1** É responsabilidade da organização: \n- a) indicar formalmente o responsável técnico pelo cumprimento das atribuições previstas no item 33.3.2 desta NR; \n- b) assegurar os meios e recursos para o responsável técnico cumprir as suas atribuições;",
+    "heading": "**33.3  Responsabilidades**",
+    "char_offset": 1779
   },
   {
     "id": "chunk-8",
-    "text": "c) seja caracterizada como uma atmosfera explosiva.\n**33.2.2.2** Os espaços não destinados à ocupação humana, com meios limitados de entrada e\nsaída, utilizados para armazenagem de material com potencial para engolfar ou afogar o\ntrabalhador são caracterizados como espaços confinados.",
-    "heading": "Introdução",
-    "char_offset": 2463
+    "text": "c) assegurar que o gerenciamento de riscos ocupacionais contemple as medidas de prevenção _Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \npara garantir a segurança e a saúde dos trabalhadores que interagem direta ou indiretamente com os espaços confinados;",
+    "heading": "**33.3  Responsabilidades**",
+    "char_offset": 2037
   },
   {
     "id": "chunk-9",
-    "text": "**33.3 Responsabilidades**\n**33.3.1** É responsabilidade da organização:\na) indicar formalmente o responsável técnico pelo cumprimento das atribuições previstas no\nitem 33.3.2 desta NR;\nb) assegurar os meios e recursos para o responsável técnico cumprir as suas atribuições;",
-    "heading": "Introdução",
-    "char_offset": 2754
+    "text": "- d) providenciar a sinalização de segurança e bloqueio dos espaços confinados para evitar a entrada de pessoas não autorizadas; \n- e) providenciar a capacitação inicial e periódica dos supervisores de entrada, vigias, trabalhadores autorizados e da equipe de emergência e salvamento;",
+    "heading": "**33.3  Responsabilidades**",
+    "char_offset": 2396
   },
   {
     "id": "chunk-10",
-    "text": "c) assegurar que o gerenciamento de riscos ocupacionais contemple as medidas de prevenção\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\npara garantir a segurança e a saúde dos trabalhadores que interagem direta ou",
-    "heading": "Introdução",
-    "char_offset": 3034
+    "text": "- f) fornecer as informações sobre os riscos e as medidas de prevenção, previstos no Programa de Gerenciamento de Riscos, da NR-01 (Disposições Gerais e Gerenciamento de Riscos Ocupacionais), aos trabalhadores que interagem direta ou indiretamente com os espaços confinados;",
+    "heading": "**33.3  Responsabilidades**",
+    "char_offset": 2683
   },
   {
     "id": "chunk-11",
-    "text": "indiretamente com os espaços confinados;\nd) providenciar a sinalização de segurança e bloqueio dos espaços confinados para evitar a\nentrada de pessoas não autorizadas;\ne) providenciar a capacitação inicial e periódica dos supervisores de entrada, vigias,",
-    "heading": "Introdução",
-    "char_offset": 3350
+    "text": "- g) garantir os equipamentos necessários para o controle de riscos previstos no Programa de Gerenciamento de Riscos; \n- h) assegurar a disponibilidade dos serviços de emergência e salvamento, e de simulados, quando da realização de trabalhos em espaços confinados; e",
+    "heading": "**33.3  Responsabilidades**",
+    "char_offset": 2961
   },
   {
     "id": "chunk-12",
-    "text": "trabalhadores autorizados e da equipe de emergência e salvamento;\nf) fornecer as informações sobre os riscos e as medidas de prevenção, previstos no Programa\nde Gerenciamento de Riscos, da NR-01 (Disposições Gerais e Gerenciamento de Riscos\nOcupacionais), aos trabalhadores que interagem direta ou indiretamente com os espaços",
-    "heading": "Introdução",
-    "char_offset": 3608
+    "text": "- i) supervisionar as atividades em espaços confinados executadas pelas organizações contratadas, observado o disposto no subitem 1.5.8.1 da NR-01, visando ao atendimento do disposto nesta NR.",
+    "heading": "**33.3.2** Compete ao responsável técnico:",
+    "char_offset": 3426
   },
   {
     "id": "chunk-13",
-    "text": "confinados;\ng) garantir os equipamentos necessários para o controle de riscos previstos no Programa de\nGerenciamento de Riscos;\nh) assegurar a disponibilidade dos serviços de emergência e salvamento, e de simulados,\nquando da realização de trabalhos em espaços confinados; e",
-    "heading": "Introdução",
-    "char_offset": 3939
+    "text": "- a) identificar e elaborar o cadastro de espaços confinados; \n- b) adaptar o modelo da Permissão de Entrada e Trabalho - PET de modo a contemplar as peculiaridades dos espaços confinados da organização; \n- c) elaborar os procedimentos de segurança relacionados ao espaço confinado;",
+    "heading": "**33.3.2** Compete ao responsável técnico:",
+    "char_offset": 3429
   },
   {
     "id": "chunk-14",
-    "text": "i) supervisionar as atividades em espaços confinados executadas pelas organizações\ncontratadas, observado o disposto no subitem 1.5.8.1 da NR-01, visando ao atendimento do\ndisposto nesta NR.\n**33.3.2** Compete ao responsável técnico:\na) identificar e elaborar o cadastro de espaços confinados;",
-    "heading": "Introdução",
-    "char_offset": 4218
+    "text": "- d) indicar os equipamentos para trabalho em espaços confinados; \n- e) elaborar o plano de resgate; e \n- f) coordenar a capacitação inicial e periódica dos supervisores de entrada, vigias, trabalhadores autorizados e da equipe de emergência e salvamento.",
+    "heading": "**33.3.2** Compete ao responsável técnico:",
+    "char_offset": 3716
   },
   {
     "id": "chunk-15",
-    "text": "b) adaptar o modelo da Permissão de Entrada e Trabalho - PET de modo a contemplar as\npeculiaridades dos espaços confinados da organização;\nc) elaborar os procedimentos de segurança relacionados ao espaço confinado;\nd) indicar os equipamentos para trabalho em espaços confinados;",
-    "heading": "Introdução",
-    "char_offset": 4516
+    "text": "- a) emitir a PET antes do início das atividades; \n- b) executar os testes e conferir os equipamentos, antes da utilização; \n- c) implementar os procedimentos contidos na PET; \n- d) assegurar que os serviços de emergência e salvamento estejam disponíveis e que os meios para os acionar estejam operantes;",
+    "heading": "**33.3.3** Compete ao supervisor de entrada:",
+    "char_offset": 3978
   },
   {
     "id": "chunk-16",
-    "text": "e) elaborar o plano de resgate; e\nf) coordenar a capacitação inicial e periódica dos supervisores de entrada, vigias,\ntrabalhadores autorizados e da equipe de emergência e salvamento.\n**33.3.3** Compete ao supervisor de entrada:\na) emitir a PET antes do início das atividades;",
-    "heading": "Introdução",
-    "char_offset": 4800
+    "text": "- e) cancelar os procedimentos de entrada e trabalho, quando necessário; \n- f) encerrar a PET após o término dos serviços; \n- g) desempenhar a função de vigia, quando previsto na PET; e \n- h) assegurar que o vigia esteja operante durante a realização dos trabalhos em espaço confinado.",
+    "heading": "**33.3.3** Compete ao supervisor de entrada:",
+    "char_offset": 4288
   },
   {
     "id": "chunk-17",
-    "text": "b) executar os testes e conferir os equipamentos, antes da utilização;\nc) implementar os procedimentos contidos na PET;\nd) assegurar que os serviços de emergência e salvamento estejam disponíveis e que os meios\npara os acionar estejam operantes;\ne) cancelar os procedimentos de entrada e trabalho, quando necessário;",
-    "heading": "Introdução",
-    "char_offset": 5082
+    "text": "a) permitir somente a entrada de trabalhadores autorizados em espaços confinados _Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nrelacionados na PET;",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 4579
   },
   {
     "id": "chunk-18",
-    "text": "f) encerrar a PET após o término dos serviços;\ng) desempenhar a função de vigia, quando previsto na PET; e\nh) assegurar que o vigia esteja operante durante a realização dos trabalhos em espaço\nconfinado.\n**33.3.4** Compete ao vigia:\na) permitir somente a entrada de trabalhadores autorizados em espaços confinados",
-    "heading": "Introdução",
-    "char_offset": 5405
+    "text": "- b) manter continuamente o controle do número de trabalhadores autorizados a entrar no espaço confinado e assegurar que todos saiam ao término da atividade; \n- c) permanecer fora do espaço confinado, junto à entrada, em contato ou comunicação permanente com os trabalhadores autorizados;",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 4831
   },
   {
     "id": "chunk-19",
-    "text": "_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\nrelacionados na PET;\nb) manter continuamente o controle do número de trabalhadores autorizados a entrar no",
-    "heading": "Introdução",
-    "char_offset": 5724
+    "text": "- d) acionar a equipe de emergência e salvamento, interna ou externa, quando necessário; \n- e) operar os movimentadores de pessoas; \n- f) ordenar o abandono do espaço confinado sempre que reconhecer algum sinal de alarme, perigo, sintoma, queixa, condição proibida, acidente, situação não prevista ou quando não puder desempenhar efetivamente suas tarefas, nem ser substituído por outro vigia;",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 5124
   },
   {
     "id": "chunk-20",
-    "text": "espaço confinado e assegurar que todos saiam ao término da atividade;\nc) permanecer fora do espaço confinado, junto à entrada, em contato ou comunicação\npermanente com os trabalhadores autorizados;\nd) acionar a equipe de emergência e salvamento, interna ou externa, quando necessário;",
-    "heading": "Introdução",
-    "char_offset": 5980
+    "text": "- g) não realizar outras tarefas durante as operações em espaços confinados; e \n- h) comunicar ao supervisor de entrada qualquer evento não previsto ou estranho à operação de vigilância, inclusive quando da ordenação do abandono. \n**33.3.4.1** O vigia pode acompanhar as atividades de mais de um espaço confinado, quando atendidos os seguintes requisitos:",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 5522
   },
   {
     "id": "chunk-21",
-    "text": "e) operar os movimentadores de pessoas;\nf) ordenar o abandono do espaço confinado sempre que reconhecer algum sinal de alarme,\nperigo, sintoma, queixa, condição proibida, acidente, situação não prevista ou quando não\npuder desempenhar efetivamente suas tarefas, nem ser substituído por outro vigia;",
-    "heading": "Introdução",
-    "char_offset": 6268
+    "text": "- a) permanecer junto à entrada dos espaços confinados ou nas suas proximidades, podendo ser assistido por sistema de vigilância e comunicação eletrônicas; \n- b) que todos os espaços confinados estejam no seu campo visual, sem o uso de equipamentos eletrônicos;",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 5881
   },
   {
     "id": "chunk-22",
-    "text": "g) não realizar outras tarefas durante as operações em espaços confinados; e\nh) comunicar ao supervisor de entrada qualquer evento não previsto ou estranho à operação\nde vigilância, inclusive quando da ordenação do abandono.\n**33.3.4.1** O vigia pode acompanhar as atividades de mais de um espaço confinado, quando",
-    "heading": "Introdução",
-    "char_offset": 6571
+    "text": "- c) que o número de espaços confinados não prejudique suas funções de vigia; \n- d) que a mesma atividade seja executada em todos os espaços confinados sob sua responsabilidade; \n- e) seja limitada a permanência de 2 (dois) trabalhadores no interior de cada espaço confinado; e",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 6147
   },
   {
     "id": "chunk-23",
-    "text": "atendidos os seguintes requisitos:\na) permanecer junto à entrada dos espaços confinados ou nas suas proximidades, podendo ser\nassistido por sistema de vigilância e comunicação eletrônicas;\nb) que todos os espaços confinados estejam no seu campo visual, sem o uso de equipamentos",
-    "heading": "Introdução",
-    "char_offset": 6889
+    "text": "- f) seja possível a visualização dos trabalhadores através do acesso do espaço confinado. \n**33.3.4.1.1** Quando assistido por sistema de vigilância e comunicação eletrônicas, em conformidade com a análise de riscos e previsto no procedimento de segurança, pode ser dispensado o atendimento das alíneas “e” e “f” do subitem 33.3.4.1 desta NR.",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 6428
   },
   {
     "id": "chunk-24",
-    "text": "eletrônicos;\nc) que o número de espaços confinados não prejudique suas funções de vigia;\nd) que a mesma atividade seja executada em todos os espaços confinados sob sua\nresponsabilidade;\ne) seja limitada a permanência de 2 (dois) trabalhadores no interior de cada espaço confinado;",
-    "heading": "Introdução",
-    "char_offset": 7173
+    "text": "**33.3.5** Compete aos trabalhadores autorizados: \n- a) cumprir as orientações recebidas nos treinamentos e os procedimentos de trabalho previstos na PET; \n- b) utilizar adequadamente os meios e equipamentos fornecidos pela organização; e \n- c) comunicar ao vigia ou supervisor de entrada as situações de risco para segurança e saúde dos trabalhadores e terceiros, que sejam do seu conhecimento.",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 6777
   },
   {
     "id": "chunk-25",
-    "text": "e\nf) seja possível a visualização dos trabalhadores através do acesso do espaço confinado.\n**33.3.4.1.1** Quando assistido por sistema de vigilância e comunicação eletrônicas, em\nconformidade com a análise de riscos e previsto no procedimento de segurança, pode ser",
-    "heading": "Introdução",
-    "char_offset": 7457
+    "text": "**33.3.6** Compete à equipe de emergência e salvamento: \n- a) assegurar que as medidas de salvamento e primeiros socorros estejam operantes e executálas em caso de emergência; e \n- b) participar do exercício de simulado anual de salvamento que contemple os possíveis cenários de acidentes em espaços confinados, conforme previsto no plano de resgate.",
+    "heading": "**33.3.4** Compete ao vigia:",
+    "char_offset": 7177
   },
   {
     "id": "chunk-26",
-    "text": "dispensado o atendimento das alíneas “e” e “f” do subitem 33.3.4.1 desta NR.\n**33.3.5** Compete aos trabalhadores autorizados:\na) cumprir as orientações recebidas nos treinamentos e os procedimentos de trabalho\nprevistos na PET;\nb) utilizar adequadamente os meios e equipamentos fornecidos pela organização; e",
-    "heading": "Introdução",
-    "char_offset": 7727
+    "text": "_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 7679
   },
   {
     "id": "chunk-27",
-    "text": "c) comunicar ao vigia ou supervisor de entrada as situações de risco para segurança e saúde\ndos trabalhadores e terceiros, que sejam do seu conhecimento.\n**33.3.6** Compete à equipe de emergência e salvamento:\na) assegurar que as medidas de salvamento e primeiros socorros estejam operantes e executá",
-    "heading": "Introdução",
-    "char_offset": 8041
+    "text": "**33.4.1** O processo de identificação de perigos e avaliação de riscos ocupacionais, além do previsto na NR-01, deve considerar o disposto nos subitens seguintes. \n**33.4.1.1** A etapa de levantamento preliminar de perigos deve considerar a: \n- a) existência ou construção de novos espaços confinados em que trabalhos possam ser realizados;",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 7682
   },
   {
     "id": "chunk-28",
-    "text": "las em caso de emergência; e\nb) participar do exercício de simulado anual de salvamento que contemple os possíveis\ncenários de acidentes em espaços confinados, conforme previsto no plano de resgate.\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**",
-    "heading": "Introdução",
-    "char_offset": 8346
+    "text": "- b) alteração da geometria ou meios de acessos dos espaços confinados existentes; e \n- c) utilização dos espaços confinados que implique alteração dos perigos anteriormente identificados. \n**33.4.1.2** Quando o trabalho no espaço confinado não puder ser evitado, a identificação de perigos e a avaliação de riscos ocupacionais devem considerar:",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 8028
   },
   {
     "id": "chunk-29",
-    "text": "_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**33.4 Gerenciamento de riscos ocupacionais em espaços confinados**\n**33.4.1** O processo de identificação de perigos e avaliação de riscos ocupacionais, além do\nprevisto na NR-01, deve considerar o disposto nos subitens seguintes.",
-    "heading": "Introdução",
-    "char_offset": 8642
+    "text": "- a) os perigos existentes nas adjacências do espaço confinado que possam interferir nas condições de segurança do trabalho em espaço confinado; _(Retificada em 20/10/2022)_ \n- b) a possibilidade de formação de atmosferas perigosas; \n- c) a necessidade de controle de energias perigosas nos espaços confinados; e",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 8378
   },
   {
     "id": "chunk-30",
-    "text": "**33.4.1.1** A etapa de levantamento preliminar de perigos deve considerar a:\na) existência ou construção de novos espaços confinados em que trabalhos possam ser\nrealizados;\nb) alteração da geometria ou meios de acessos dos espaços confinados existentes; e",
-    "heading": "Introdução",
-    "char_offset": 8929
+    "text": "- d) as demais medidas de prevenção descritas nesta NR. \n**33.4.2** A organização que possuir espaço confinado deve elaborar e manter o cadastro do espaço confinado, contemplando: \n- a) identificação do espaço confinado, podendo para esse fim, ser utilizado código ou número de rastreio;",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 8695
   },
   {
     "id": "chunk-31",
-    "text": "c) utilização dos espaços confinados que implique alteração dos perigos anteriormente\nidentificados.\n**33.4.1.2** Quando o trabalho no espaço confinado não puder ser evitado, a identificação de\nperigos e a avaliação de riscos ocupacionais devem considerar:",
-    "heading": "Introdução",
-    "char_offset": 9189
+    "text": "- b) volume do espaço confinado; \n- c) número de aberturas de entrada e \"bocas de visita\", e suas dimensões; \n- d) formas de acesso, suas dimensões e geometria; \n- e) condição do espaço confinado (ativo ou inativo); \n- f) croqui do espaço confinado (com previsão de bloqueios e raquetes); e",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 8989
   },
   {
     "id": "chunk-32",
-    "text": "a) os perigos existentes nas adjacências do espaço confinado que possam interferir nas\ncondições de segurança do trabalho em espaço confinado; _(Retificada em 20/10/2022)_\nb) a possibilidade de formação de atmosferas perigosas;\nc) a necessidade de controle de energias perigosas nos espaços confinados; e",
-    "heading": "Introdução",
-    "char_offset": 9450
+    "text": "- g) utilização e/ou produto armazenado e indicação dos possíveis perigos existentes antes da liberação de entrada. \n**33.4.3** Quando o trabalho em espaço confinado for realizado por prestador de serviço, o contratante e a contratada, além do previsto no item 1.5.8 da NR-01, devem atender:",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 9283
   },
   {
     "id": "chunk-33",
-    "text": "d) as demais medidas de prevenção descritas nesta NR.\n**33.4.2** A organização que possuir espaço confinado deve elaborar e manter o cadastro do\nespaço confinado, contemplando:\na) identificação do espaço confinado, podendo para esse fim, ser utilizado código ou número",
-    "heading": "Introdução",
-    "char_offset": 9758
+    "text": "- a) a contratante deve fornecer à contratada o cadastro dos espaços confinados em que a contratada realizará os trabalhos; \n- b) a contratante deve fornecer à contratada, nos termos do subitem 1.5.8.3 da NR-01, as informações sobre os riscos ocupacionais sob sua gestão e que possam impactar nas atividades da contratada e, quando aplicável, as medidas de prevenção a serem adotadas; e",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 9578
   },
   {
     "id": "chunk-34",
-    "text": "de rastreio;\nb) volume do espaço confinado;\nc) número de aberturas de entrada e \"bocas de visita\", e suas dimensões;\nd) formas de acesso, suas dimensões e geometria;\ne) condição do espaço confinado (ativo ou inativo);\nf) croqui do espaço confinado (com previsão de bloqueios e raquetes); e",
-    "heading": "Introdução",
-    "char_offset": 10033
+    "text": "- c) a contratada deve fornecer o inventário de riscos do trabalho em espaço confinado, nos termos do item 1.5.8.4 da NR-01, realizando a identificação dos perigos e a avaliação dos riscos, de acordo com a especificidade do trabalho a ser realizado, conforme subitem",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 9967
   },
   {
     "id": "chunk-35",
-    "text": "g) utilização e/ou produto armazenado e indicação dos possíveis perigos existentes antes da\nliberação de entrada.\n**33.4.3** Quando o trabalho em espaço confinado for realizado por prestador de serviço, o\ncontratante e a contratada, além do previsto no item 1.5.8 da NR-01, devem atender:",
-    "heading": "Introdução",
-    "char_offset": 10326
+    "text": "_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \n33.4.1.2 desta NR, nos espaços confinados em que realizará os trabalhos, e promovendo a adequação das medidas de prevenção conforme esta NR.",
+    "heading": "**33.4  Gerenciamento de riscos ocupacionais em espaços confinados**",
+    "char_offset": 10238
   },
   {
     "id": "chunk-36",
-    "text": "a) a contratante deve fornecer à contratada o cadastro dos espaços confinados em que a\ncontratada realizará os trabalhos;\nb) a contratante deve fornecer à contratada, nos termos do subitem 1.5.8.3 da NR-01, as\ninformações sobre os riscos ocupacionais sob sua gestão e que possam impactar nas",
-    "heading": "Introdução",
-    "char_offset": 10619
+    "text": "**33.4.3.1** A não obrigatoriedade da organização contratante do cumprimento desta NR não exime a organização contratada de levantar as informações necessárias e implementar as medidas de prevenção previstas nesta Norma.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 10751
   },
   {
     "id": "chunk-37",
-    "text": "atividades da contratada e, quando aplicável, as medidas de prevenção a serem adotadas; e\nc) a contratada deve fornecer o inventário de riscos do trabalho em espaço confinado, nos\ntermos do item 1.5.8.4 da NR-01, realizando a identificação dos perigos e a avaliação dos",
-    "heading": "Introdução",
-    "char_offset": 10913
+    "text": "**33.5.1** Devem ser adotadas medidas para eliminar ou controlar os riscos de incêndio ou explosão em trabalhos a quente, tais como solda, aquecimento, esmerilhamento, corte ou outros que liberem chama aberta, faísca ou calor. \n**33.5.2** A organização que realiza o trabalho em espaços confinados deve elaborar procedimentos de segurança que contemplem:",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 10753
   },
   {
     "id": "chunk-38",
-    "text": "riscos, de acordo com a especificidade do trabalho a ser realizado, conforme subitem\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n33.4.1.2 desta NR, nos espaços confinados em que realizará os trabalhos, e promovendo a",
-    "heading": "Introdução",
-    "char_offset": 11187
+    "text": "a) preparação, emissão, cancelamento e encerramento da PET; \n- b) requisitos para o trabalho seguro nos espaços confinados; e \n- c) critérios para operação dos movimentadores dos trabalhadores autorizados, quando aplicável. \n**33.5.3** Os procedimentos para trabalhos em espaço confinado devem ser revistos quando ocorrer alteração do nível de risco previsto na NR-01, entrada não autorizada, acidente ou condição não prevista durante a entrada.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 11113
   },
   {
     "id": "chunk-39",
-    "text": "adequação das medidas de prevenção conforme esta NR.\n**33.4.3.1** A não obrigatoriedade da organização contratante do cumprimento desta NR não\nexime a organização contratada de levantar as informações necessárias e implementar as\nmedidas de prevenção previstas nesta Norma.",
-    "heading": "Introdução",
-    "char_offset": 11506
+    "text": "**33.5.4** A organização deve elaborar e implementar procedimento com requisitos e critérios para seleção e uso de respiradores para uso rotineiro e em situações de emergência, em conformidade com os riscos respiratórios. \n**33.5.5** Toda e qualquer entrada e trabalho em espaço confinado deve ser precedida da emissão da PET.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 11562
   },
   {
     "id": "chunk-40",
-    "text": "**33.5 Medidas de prevenção em espaços confinados**\n**33.5.1** Devem ser adotadas medidas para eliminar ou controlar os riscos de incêndio ou\nexplosão em trabalhos a quente, tais como solda, aquecimento, esmerilhamento, corte ou\noutros que liberem chama aberta, faísca ou calor.",
-    "heading": "Introdução",
-    "char_offset": 11782
+    "text": "**33.5.6** A PET adotada pela organização deve conter, no mínimo, os seguintes campos: \na) identificação do espaço confinado a ser adentrado; \n- b) objetivo da entrada; \n- c) perigos identificados e medidas de controle, incluindo o controle de energias perigosas, resultantes da avaliação de riscos do Programa de Gerenciamento de Riscos, em função das atividades realizadas;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 11894
   },
   {
     "id": "chunk-41",
-    "text": "**33.5.2** A organização que realiza o trabalho em espaços confinados deve elaborar\nprocedimentos de segurança que contemplem:\na) preparação, emissão, cancelamento e encerramento da PET;\nb) requisitos para o trabalho seguro nos espaços confinados; e",
-    "heading": "Introdução",
-    "char_offset": 12064
+    "text": "- d) perigos identificados e medidas de prevenção estabelecidas no momento da entrada; \n- e) avaliação quantitativa da atmosfera, imediatamente antes da entrada no espaço confinado; \n- f) relação de supervisores de entrada, vigias e trabalhadores autorizados a entrar no espaço confinado, devidamente relacionados pelo nome completo e função que irão desempenhar;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 12274
   },
   {
     "id": "chunk-42",
-    "text": "c) critérios para operação dos movimentadores dos trabalhadores autorizados, quando\naplicável.\n**33.5.3** Os procedimentos para trabalhos em espaço confinado devem ser revistos quando\nocorrer alteração do nível de risco previsto na NR-01, entrada não autorizada, acidente ou",
-    "heading": "Introdução",
-    "char_offset": 12317
+    "text": "- g) data e horário da emissão e encerramento da PET; e \n- h) assinatura dos supervisores de entrada e vigias. \n**33.5.7** A PET deve ser emitida em meio físico ou digital. \n_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 12644
   },
   {
     "id": "chunk-43",
-    "text": "condição não prevista durante a entrada.\n**33.5.4** A organização deve elaborar e implementar procedimento com requisitos e critérios\npara seleção e uso de respiradores para uso rotineiro e em situações de emergência, em\nconformidade com os riscos respiratórios.",
-    "heading": "Introdução",
-    "char_offset": 12593
+    "text": "**33.5.7.1** A PET emitida em meio físico deve conter 2 (duas) vias, devendo a primeira via permanecer com o supervisor de entrada e a segunda entregue ao vigia. \n**33.5.7.2** A PET emitida em meio digital deve atender aos seguintes requisitos: \n- a) estar acessível permanentemente ao vigia durante a execução da atividade; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 12968
   },
   {
     "id": "chunk-44",
-    "text": "**33.5.5** Toda e qualquer entrada e trabalho em espaço confinado deve ser precedida da\nemissão da PET.\n**33.5.6** A PET adotada pela organização deve conter, no mínimo, os seguintes campos:\na) identificação do espaço confinado a ser adentrado;\nb) objetivo da entrada;",
-    "heading": "Introdução",
-    "char_offset": 12861
+    "text": "- b) ser adotado procedimento de certificação de assinatura em conformidade com o disposto na NR-01. \n**33.5.7.2.1** Os dispositivos eletrônicos utilizados para a emissão da PET devem: \n- a) possuir grau de proteção adequado ao local de utilização; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 13299
   },
   {
     "id": "chunk-45",
-    "text": "c) perigos identificados e medidas de controle, incluindo o controle de energias perigosas,\nresultantes da avaliação de riscos do Programa de Gerenciamento de Riscos, em função das\natividades realizadas;\nd) perigos identificados e medidas de prevenção estabelecidas no momento da entrada;",
-    "heading": "Introdução",
-    "char_offset": 13133
+    "text": "- b) atender ao disposto no subitem 33.5.17.1, quando em área classificada. \n**33.5.8** As PETs emitidas devem ser rastreáveis. \n**33.5.9** As PETs emitidas devem ser arquivadas pelo período de 5 (cinco) anos. \n**33.5.9.1** Durante o período de arquivamento, as PETs emitidas devem estar disponíveis aos trabalhadores, quando solicitado.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 13555
   },
   {
     "id": "chunk-46",
-    "text": "e) avaliação quantitativa da atmosfera, imediatamente antes da entrada no espaço confinado;\nf) relação de supervisores de entrada, vigias e trabalhadores autorizados a entrar no espaço\nconfinado, devidamente relacionados pelo nome completo e função que irão desempenhar;",
-    "heading": "Introdução",
-    "char_offset": 13425
+    "text": "**33.5.10** Os trabalhadores devem ser informados dos perigos identificados e das medidas de controle previstas e adotadas antes da entrada no espaço confinado. \n**33.5.11** A PET deve ser encerrada quando: \n- a) as atividades forem completadas; \n- b) ocorrer uma condição não prevista;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 13898
   },
   {
     "id": "chunk-47",
-    "text": "g) data e horário da emissão e encerramento da PET; e\nh) assinatura dos supervisores de entrada e vigias.\n**33.5.7** A PET deve ser emitida em meio físico ou digital.\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**",
-    "heading": "Introdução",
-    "char_offset": 13701
+    "text": "- c) ocorrer a saída de todos os trabalhadores do espaço confinado; ou \n- d) houver a substituição de vigia por outro não relacionado na PET. \n**33.5.12** A validade da PET deve ser limitada a uma jornada de trabalho. \n**33.5.12.1** A PET pode ser prorrogada quando cumprir os seguintes requisitos:",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 14190
   },
   {
     "id": "chunk-48",
-    "text": "_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**33.5.7.1** A PET emitida em meio físico deve conter 2 (duas) vias, devendo a primeira via\npermanecer com o supervisor de entrada e a segunda entregue ao vigia.\n**33.5.7.2** A PET emitida em meio digital deve atender aos seguintes requisitos:",
-    "heading": "Introdução",
-    "char_offset": 13965
+    "text": "- a) estar relacionada às mesmas atividades e riscos; \n- b) constar os intervalos de parada e retomada de todas as equipes de trabalho; \n- c) relacionar os trabalhadores autorizados, vigias e supervisores de entrada; \n- d) registrar a continuidade da atividade e a substituição da equipe a cada entrada e saída;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 14494
   },
   {
     "id": "chunk-49",
-    "text": "a) estar acessível permanentemente ao vigia durante a execução da atividade; e\nb) ser adotado procedimento de certificação de assinatura em conformidade com o disposto na\nNR-01.\n**33.5.7.2.1** Os dispositivos eletrônicos utilizados para a emissão da PET devem:",
-    "heading": "Introdução",
-    "char_offset": 14264
+    "text": "- e) estiver garantido o monitoramento contínuo de toda a atmosfera do espaço confinado e a manutenção das condições atmosféricas ou realizar nova avaliação da atmosfera a cada entrada; \n- f) estiver garantida a presença contínua do vigia junto ou próximo à entrada do espaço confinado, observado o disposto no subitem 33.3.4.1 desta NR, inclusive durante as pausas e intervalos; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 14809
   },
   {
     "id": "chunk-50",
-    "text": "a) possuir grau de proteção adequado ao local de utilização; e\nb) atender ao disposto no subitem 33.5.17.1, quando em área classificada.\n**33.5.8** As PETs emitidas devem ser rastreáveis.\n**33.5.9** As PETs emitidas devem ser arquivadas pelo período de 5 (cinco) anos.",
-    "heading": "Introdução",
-    "char_offset": 14529
+    "text": "- g) estiverem reavaliadas as medidas de prevenção descritas na PET a cada entrada. \n**33.5.12.1.1** A validade da PET, incluindo as prorrogações, não pode exceder a 24 (vinte e _Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 15195
   },
   {
     "id": "chunk-51",
-    "text": "**33.5.9.1** Durante o período de arquivamento, as PETs emitidas devem estar disponíveis aos\ntrabalhadores, quando solicitado.\n**33.5.10** Os trabalhadores devem ser informados dos perigos identificados e das medidas de\ncontrole previstas e adotadas antes da entrada no espaço confinado.",
-    "heading": "Introdução",
-    "char_offset": 14800
+    "text": "quatro) horas. \n**33.5.13** Sinalização de segurança \n**33.5.13.1** Deve ser mantida sinalização permanente em todos os espaços confinados, junto à entrada, conforme modelo constante do Anexo I desta NR. \n**33.5.13.2** Caso a sinalização permanente não se torne visível após a abertura do espaço confinado, deve ser providenciada sinalização complementar, conforme modelo constante do Anexo I desta NR.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 15524
   },
   {
     "id": "chunk-52",
-    "text": "**33.5.11** A PET deve ser encerrada quando:\na) as atividades forem completadas;\nb) ocorrer uma condição não prevista;\nc) ocorrer a saída de todos os trabalhadores do espaço confinado; ou\nd) houver a substituição de vigia por outro não relacionado na PET.",
-    "heading": "Introdução",
-    "char_offset": 15093
+    "text": "**33.5.13.3** Em locais com exposição a agentes agressivos ou circulação de pessoas, veículos ou equipamentos, a sinalização permanente deve ser indelével, de forma a garantir que não seja danificada ou retirada. \n**33.5.13.3.1** A exigência prevista no subitem 33.5.13.3 não se aplica a espaços confinados já existentes em vias públicas, exceto quando ocorrer a substituição da tampa de acesso. _(Vide prazo - art. 3º, da Portaria MTP nº 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 15930
   },
   {
     "id": "chunk-53",
-    "text": "**33.5.12** A validade da PET deve ser limitada a uma jornada de trabalho.\n**33.5.12.1** A PET pode ser prorrogada quando cumprir os seguintes requisitos:\na) estar relacionada às mesmas atividades e riscos;\nb) constar os intervalos de parada e retomada de todas as equipes de trabalho;",
-    "heading": "Introdução",
-    "char_offset": 15353
+    "text": "**33.5.13.3.2** Na situação prevista no subitem 33.5.13.3.1 está dispensada a aplicação de cores à sinalização permanente. \n**33.5.13.4** Nas operações de entrada e trabalho em espaço confinado deve ser utilizada sinalização provisória, indicando a liberação, ou não, da entrada dos trabalhadores autorizados.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 16404
   },
   {
     "id": "chunk-54",
-    "text": "c) relacionar os trabalhadores autorizados, vigias e supervisores de entrada;\nd) registrar a continuidade da atividade e a substituição da equipe a cada entrada e saída;\ne) estiver garantido o monitoramento contínuo de toda a atmosfera do espaço confinado e a",
-    "heading": "Introdução",
-    "char_offset": 15642
+    "text": "**33.5.14** Controle de energias perigosas \n**33.5.14.1** Deve ser implementado o controle de energias perigosas nos espaços confinados, considerando as seguintes etapas: \n- a) preparação e comunicação a todos os trabalhadores envolvidos sobre o desligamento do equipamento ou sistema;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 16718
   },
   {
     "id": "chunk-55",
-    "text": "manutenção das condições atmosféricas ou realizar nova avaliação da atmosfera a cada\nentrada;\nf) estiver garantida a presença contínua do vigia junto ou próximo à entrada do espaço\nconfinado, observado o disposto no subitem 33.3.4.1 desta NR, inclusive durante as pausas e",
-    "heading": "Introdução",
-    "char_offset": 15905
+    "text": "- b) isolamento ou neutralização dos equipamentos ou sistemas que possam intervir na atividade; \n- c) isolamento ou desenergização das fontes de energia do equipamento ou sistema; \n- d) bloqueio; \n- e) etiquetagem; \n- f) liberação ou controle das energias armazenadas;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 17010
   },
   {
     "id": "chunk-56",
-    "text": "intervalos; e\ng) estiverem reavaliadas as medidas de prevenção descritas na PET a cada entrada.\n**33.5.12.1.1** A validade da PET, incluindo as prorrogações, não pode exceder a 24 (vinte e\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**",
-    "heading": "Introdução",
-    "char_offset": 16182
+    "text": "- g) verificação do isolamento ou da desenergização do equipamento ou sistema; \n- h) liberação para o início da atividade; \n- i) retirada dos trabalhadores, ferramentas e resíduos após o término da atividade; \n- j) comunicação, após o encerramento da atividade, sobre a retirada dos dispositivos de bloqueio e etiquetagem, a reenergização e o religamento do equipamento ou sistema;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 17284
   },
   {
     "id": "chunk-57",
-    "text": "_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\nquatro) horas.\n**33.5.13** Sinalização de segurança\n**33.5.13.1** Deve ser mantida sinalização permanente em todos os espaços confinados, junto à\nentrada, conforme modelo constante do Anexo I desta NR.",
-    "heading": "Introdução",
-    "char_offset": 16469
+    "text": "- k) retirada dos bloqueios e das etiquetas após a execução das atividades; \nl) reenergização ou retirada dos dispositivos de isolamento do equipamento ou sistema; e \n- m)liberação para a retomada da operação. \n_Este texto não substitui o publicado no DOU_",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 17671
   },
   {
     "id": "chunk-58",
-    "text": "**33.5.13.2** Caso a sinalização permanente não se torne visível após a abertura do espaço\nconfinado, deve ser providenciada sinalização complementar, conforme modelo constante do\nAnexo I desta NR.\n**33.5.13.3** Em locais com exposição a agentes agressivos ou circulação de pessoas, veículos ou",
-    "heading": "Introdução",
-    "char_offset": 16725
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \n**33.5.14.2** O procedimento de bloqueio deve assegurar que: \n- a) cada trabalhador que execute intervenções nos equipamentos ou sistemas possua dispositivo de bloqueio individual independente;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 17932
   },
   {
     "id": "chunk-59",
-    "text": "equipamentos, a sinalização permanente deve ser indelével, de forma a garantir que não seja\ndanificada ou retirada.\n**33.5.13.3.1** A exigência prevista no subitem 33.5.13.3 não se aplica a espaços confinados já\nexistentes em vias públicas, exceto quando ocorrer a substituição da tampa de acesso. _(Vide_",
-    "heading": "Introdução",
-    "char_offset": 17022
+    "text": "- b) os dispositivos de bloqueio possibilitem o uso de etiquetas individuais, afixadas nos pontos de bloqueio e preenchidas pelos trabalhadores que o executaram, contendo o serviço executado, nome do trabalhador, data e hora de realização do bloqueio;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 18228
   },
   {
     "id": "chunk-60",
-    "text": "_prazo - art. 3º, da Portaria MTP nº 1.690, de 15 de junho de 2022)_\n**33.5.13.3.2** Na situação prevista no subitem 33.5.13.3.1 está dispensada a aplicação de cores à\nsinalização permanente.\n**33.5.13.4** Nas operações de entrada e trabalho em espaço confinado deve ser utilizada",
-    "heading": "Introdução",
-    "char_offset": 17330
+    "text": "- c) as etiquetas não possam ser removidas involuntariamente ou danificadas sob a ação de intempéries; e \n- d) os dispositivos de bloqueio e etiquetas sejam substituídos em caso de trocas de turnos ou alteração na equipe de trabalho. \n**33.5.14.3** É proibida a retirada ou substituição de dispositivo de bloqueio ou etiquetas por pessoas não autorizadas.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 18484
   },
   {
     "id": "chunk-61",
-    "text": "sinalização provisória, indicando a liberação, ou não, da entrada dos trabalhadores autorizados.\n**33.5.14** Controle de energias perigosas\n**33.5.14.1** Deve ser implementado o controle de energias perigosas nos espaços confinados,\nconsiderando as seguintes etapas:",
-    "heading": "Introdução",
-    "char_offset": 17613
+    "text": "**33.5.14.4** É proibido efetuar a neutralização da energia interrompendo somente o circuito de controle do equipamento ou sistema por meio de sistemas de comando ou de emergência. \n**33.5.15** Avaliações atmosféricas \n**33.5.15.1** As avaliações atmosféricas iniciais do interior do espaço confinado devem ser realizadas com o supervisor de entrada fora do espaço confinado, imediatamente antes da entrada dos trabalhadores, para verificar se o seu interior é seguro.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 18844
   },
   {
     "id": "chunk-62",
-    "text": "a) preparação e comunicação a todos os trabalhadores envolvidos sobre o desligamento do\nequipamento ou sistema;\nb) isolamento ou neutralização dos equipamentos ou sistemas que possam intervir na\natividade;\nc) isolamento ou desenergização das fontes de energia do equipamento ou sistema;",
-    "heading": "Introdução",
-    "char_offset": 17885
+    "text": "**33.5.15.2** O percentual de oxigênio (O2) indicado para entrada em espaços confinados é de 20,9%, sendo aceitável o percentual entre 19,5% até 23% de volume, desde que a causa da redução ou enriquecimento do O2 seja conhecida e controlada. \n**33.5.15.3** O monitoramento da atmosfera deve ser contínuo durante a permanência dos trabalhadores no espaço confinado, de forma remota ou presencial, conforme previsto no procedimento de segurança.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 19316
   },
   {
     "id": "chunk-63",
-    "text": "d) bloqueio;\ne) etiquetagem;\nf) liberação ou controle das energias armazenadas;\ng) verificação do isolamento ou da desenergização do equipamento ou sistema;\nh) liberação para o início da atividade;\ni) retirada dos trabalhadores, ferramentas e resíduos após o término da atividade;",
-    "heading": "Introdução",
-    "char_offset": 18178
-  },
-  {
-    "id": "chunk-64",
-    "text": "j) comunicação, após o encerramento da atividade, sobre a retirada dos dispositivos de\nbloqueio e etiquetagem, a reenergização e o religamento do equipamento ou sistema;\nk) retirada dos bloqueios e das etiquetas após a execução das atividades;\nl) reenergização ou retirada dos dispositivos de isolamento do equipamento ou sistema; e",
-    "heading": "Introdução",
-    "char_offset": 18463
-  },
-  {
-    "id": "chunk-65",
-    "text": "m)liberação para a retomada da operação.\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**33.5.14.2** O procedimento de bloqueio deve assegurar que:\na) cada trabalhador que execute intervenções nos equipamentos ou sistemas possua",
-    "heading": "Introdução",
-    "char_offset": 18802
-  },
-  {
-    "id": "chunk-66",
-    "text": "dispositivo de bloqueio individual independente;\nb) os dispositivos de bloqueio possibilitem o uso de etiquetas individuais, afixadas nos pontos\nde bloqueio e preenchidas pelos trabalhadores que o executaram, contendo o serviço\nexecutado, nome do trabalhador, data e hora de realização do bloqueio;",
-    "heading": "Introdução",
-    "char_offset": 19133
-  },
-  {
-    "id": "chunk-67",
-    "text": "c) as etiquetas não possam ser removidas involuntariamente ou danificadas sob a ação de\nintempéries; e\nd) os dispositivos de bloqueio e etiquetas sejam substituídos em caso de trocas de turnos ou\nalteração na equipe de trabalho.\n**33.5.14.3** É proibida a retirada ou substituição de dispositivo de bloqueio ou etiquetas por",
-    "heading": "Introdução",
-    "char_offset": 19437
-  },
-  {
-    "id": "chunk-68",
-    "text": "pessoas não autorizadas.\n**33.5.14.4** É proibido efetuar a neutralização da energia interrompendo somente o circuito de\ncontrole do equipamento ou sistema por meio de sistemas de comando ou de emergência.\n**33.5.15** Avaliações atmosféricas\n**33.5.15.1** As avaliações atmosféricas iniciais do interior do espaço confinado devem ser",
-    "heading": "Introdução",
+    "text": "**33.5.15.4** Os equipamentos utilizados para avaliações atmosféricas devem: \n- a) atender o disposto nas normas técnicas nacionais ou, na sua ausência, normas técnicas internacionais aplicáveis; \n- b) efetuar leitura instantânea; \n- c) ser intrinsecamente seguro,",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
     "char_offset": 19765
   },
   {
+    "id": "chunk-64",
+    "text": "- d) ser protegido contra interferências eletromagnéticas de radiofrequência, devendo suportar campo de 10 V/m (dez Volts por metro); \n- e) possuir alarme sonoro, visual e vibratório, acionados simultaneamente; \n- f) possuir grau de proteção contra o ingresso de poeira e água adequado; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 20034
+  },
+  {
+    "id": "chunk-65",
+    "text": "- g) possuir manual em português. \n**33.5.15.5** O auto-zero ou ajuste de ar limpo e o teste de resposta do equipamento de avaliação, quando utilizados, devem ser realizados diariamente antes do início das avaliações. \n_Este texto não substitui o publicado no DOU_",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 20327
+  },
+  {
+    "id": "chunk-66",
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \n**33.5.15.5.1** Quando o auto-zero ou teste de resposta falharem, o equipamento de avaliação deve ser ajustado ou parametrizado pelo trabalhador, desde que devidamente capacitado.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 20595
+  },
+  {
+    "id": "chunk-67",
+    "text": "**33.5.15.6** A calibração do equipamento de avaliação deve ser realizada por laboratório de calibração acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro. \n**33.5.16** Ventilação \n**33.5.16.1** Antes do início da atividade em espaço confinado devem ser garantidas condições de entrada seguras, com ventilação, purga, lavagem ou inertização do espaço confinado.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 20879
+  },
+  {
+    "id": "chunk-68",
+    "text": "**33.5.16.2** Durante a realização da atividade em espaço confinado, devem ser atendidos os seguintes requisitos: \n- a) o sistema de ventilação deve ser selecionado e dimensionado de acordo com as características dos espaços confinados, observando as recomendações previstas em normas técnicas nacionais ou, de forma complementar, as normas internacionais aplicáveis, a fim de garantir a renovação do ar; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 21276
+  },
+  {
     "id": "chunk-69",
-    "text": "realizadas com o supervisor de entrada fora do espaço confinado, imediatamente antes da\nentrada dos trabalhadores, para verificar se o seu interior é seguro.\n**33.5.15.2** O percentual de oxigênio (O2) indicado para entrada em espaços confinados é de",
-    "heading": "Introdução",
-    "char_offset": 20100
+    "text": "b) as condições térmicas devem observar o disposto no Anexo III da NR-09. \n**33.5.16.3** É proibida a ventilação com oxigênio puro. \n**33.5.17** Equipamentos \n**33.5.17.1** Em áreas classificadas, os equipamentos elétricos e eletrônicos devem estar certificados ou possuir documento contemplado no âmbito do Sistema Nacional de Metrologia, Normalização e Qualidade Industrial - Sinmetro.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 21688
   },
   {
     "id": "chunk-70",
-    "text": "20,9%, sendo aceitável o percentual entre 19,5% até 23% de volume, desde que a causa da\nredução ou enriquecimento do O2 seja conhecida e controlada.\n**33.5.15.3** O monitoramento da atmosfera deve ser contínuo durante a permanência dos\ntrabalhadores no espaço confinado, de forma remota ou presencial, conforme previsto no",
-    "heading": "Introdução",
-    "char_offset": 20352
+    "text": "**33.5.17.2** O acesso ao espaço confinado com atmosfera Imediatamente Perigosa à Vida ou à Saúde - IPVS somente é permitido com a utilização de máscara autônoma de demanda com pressão positiva ou com respirador de linha de ar comprimido com cilindro auxiliar para escape.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 22078
   },
   {
     "id": "chunk-71",
-    "text": "procedimento de segurança.\n**33.5.15.4** Os equipamentos utilizados para avaliações atmosféricas devem:\na) atender o disposto nas normas técnicas nacionais ou, na sua ausência, normas técnicas\ninternacionais aplicáveis;\nb) efetuar leitura instantânea;",
-    "heading": "Introdução",
-    "char_offset": 20679
+    "text": "**33.5.18** Plano de ação \n**33.5.18.1** As medidas de prevenção para espaços confinados devem estar contempladas no plano de ação, nos termos do subitem 1.5.5.2 da NR-01. \n**33.5.19** Acompanhamento da saúde dos trabalhadores \n**33.5.19.1** Os trabalhadores designados para atividades em espaços confinados devem ser avaliados quanto à aptidão física e mental, considerando os fatores de riscos psicossociais.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 22356
   },
   {
     "id": "chunk-72",
-    "text": "c) ser intrinsecamente seguro,\nd) ser protegido contra interferências eletromagnéticas de radiofrequência, devendo suportar\ncampo de 10 V/m (dez Volts por metro);\ne) possuir alarme sonoro, visual e vibratório, acionados simultaneamente;\nf) possuir grau de proteção contra o ingresso de poeira e água adequado; e",
-    "heading": "Introdução",
-    "char_offset": 20936
+    "text": "**33.5.19.2** A aptidão para trabalhos em espaços confinados deve estar consignada no Atestado de Saúde Ocupacional - ASO, nos termos da NR-07 (Programa de Controle Médico de Saúde Ocupacional - PCMSO). \n**33.5.20** Preparação para emergências \n**33.5.20.1** A organização deve, além do previsto na preparação para emergências estabelecida pela da NR-01, elaborar um Plano de Resgate para espaços confinados, podendo estar",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 22771
   },
   {
     "id": "chunk-73",
-    "text": "g) possuir manual em português.\n**33.5.15.5** O auto-zero ou ajuste de ar limpo e o teste de resposta do equipamento de\navaliação, quando utilizados, devem ser realizados diariamente antes do início das avaliações.\n_Este texto não substitui o publicado no DOU_",
-    "heading": "Introdução",
-    "char_offset": 21251
+    "text": "_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nintegrado ao plano de emergência. \n**33.5.20.2** O plano de resgate deve conter: \n- a) identificação dos perigos associados à operação de resgate;",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 23200
   },
   {
     "id": "chunk-74",
-    "text": "Entra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**33.5.15.5.1** Quando o auto-zero ou teste de resposta falharem, o equipamento de avaliação\ndeve ser ajustado ou parametrizado pelo trabalhador, desde que devidamente capacitado.",
-    "heading": "Introdução",
-    "char_offset": 21515
+    "text": "- b) designação da equipe de emergência e salvamento, interna ou externa, dimensionada conforme a geometria, acessos e riscos das atividades e operação de resgate; \n- c) tempo de resposta para atendimento à emergência; \n- d) seleção das técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e sistema de resgate disponíveis, de forma a reduzir o tempo de suspensão inerte do trabalhador e sua exposição aos perigos existentes; e",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 23498
   },
   {
     "id": "chunk-75",
-    "text": "**33.5.15.6** A calibração do equipamento de avaliação deve ser realizada por laboratório de\ncalibração acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro.\n**33.5.16** Ventilação\n**33.5.16.1** Antes do início da atividade em espaço confinado devem ser garantidas condições de",
-    "heading": "Introdução",
-    "char_offset": 21797
+    "text": "- e) previsão da realização de simulados dos cenários identificados. \n33.5.20.3  A organização deve assegurar que a equipe de emergência e salvamento atenda o disposto na alínea \"c\" do subitem 33.5.20.2. \n**33.5.21** Documentação. \n**33.5.21.1** A organização que possui espaços confinados deve manter no estabelecimento:",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 23949
   },
   {
     "id": "chunk-76",
-    "text": "entrada seguras, com ventilação, purga, lavagem ou inertização do espaço confinado.\n**33.5.16.2** Durante a realização da atividade em espaço confinado, devem ser atendidos os\nseguintes requisitos:\na) o sistema de ventilação deve ser selecionado e dimensionado de acordo com as",
-    "heading": "Introdução",
-    "char_offset": 22107
+    "text": "a) cadastro dos espaços confinados; \n- b) PETs emitidas; e \n- c) inventário de riscos do trabalho em espaço confinado realizado pela contratada, quando aplicável. \n**33.5.21.2** A organização que realiza trabalho em espaços confinados deve manter os seguintes documentos:",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 24276
   },
   {
     "id": "chunk-77",
-    "text": "características dos espaços confinados, observando as recomendações previstas em normas\ntécnicas nacionais ou, de forma complementar, as normas internacionais aplicáveis, a fim de\ngarantir a renovação do ar; e\nb) as condições térmicas devem observar o disposto no Anexo III da NR-09.",
-    "heading": "Introdução",
-    "char_offset": 22387
+    "text": "a) modelo de PET; \n- b) procedimentos de segurança; e \nc) plano de resgate. \n**33.5.21.3** O plano de resgate deve ser elaborado pela organização que realiza trabalho em espaço confinado e deve estar articulado com o plano de atendimento de emergência da organização que possui espaço confinado.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 24553
   },
   {
     "id": "chunk-78",
-    "text": "**33.5.16.3** É proibida a ventilação com oxigênio puro.\n**33.5.17** Equipamentos\n**33.5.17.1** Em áreas classificadas, os equipamentos elétricos e eletrônicos devem estar\ncertificados ou possuir documento contemplado no âmbito do Sistema Nacional de Metrologia,",
-    "heading": "Introdução",
-    "char_offset": 22674
+    "text": "**33.5.21.4** Quando a mesma organização possuir e realizar trabalhos em espaços confinados deve manter no estabelecimento os documentos previstos nos subitens 33.5.21.1 e 33.5.21.2 desta NR. \n**33.5.21.5** O modelo de PET a ser adotado pela organização deve ser adaptado de modo a contemplar as peculiaridades dos espaços confinados da organização tendo como referência o Anexo II desta NR.",
+    "heading": "**33.5  Medidas de prevenção em espaços confinados**",
+    "char_offset": 24852
   },
   {
     "id": "chunk-79",
-    "text": "Normalização e Qualidade Industrial - Sinmetro.\n**33.5.17.2** O acesso ao espaço confinado com atmosfera Imediatamente Perigosa à Vida ou à\nSaúde - IPVS somente é permitido com a utilização de máscara autônoma de demanda com\npressão positiva ou com respirador de linha de ar comprimido com cilindro auxiliar para escape.",
-    "heading": "Introdução",
-    "char_offset": 22938
+    "text": "**33.6.1** A capacitação dos trabalhadores designados para trabalhos em espaços confinados deve ser feita de acordo com o estabelecido na NR-01. \n_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**33.6  Capacitação**",
+    "char_offset": 25249
   },
   {
     "id": "chunk-80",
-    "text": "**33.5.18** Plano de ação\n**33.5.18.1** As medidas de prevenção para espaços confinados devem estar contempladas no\nplano de ação, nos termos do subitem 1.5.5.2 da NR-01.\n**33.5.19** Acompanhamento da saúde dos trabalhadores\n**33.5.19.1** Os trabalhadores designados para atividades em espaços confinados devem ser",
-    "heading": "Introdução",
-    "char_offset": 23263
+    "text": "**33.6.2** Os supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem receber capacitação inicial, periódica e eventual, com conteúdo, carga horária e periodicidade definidos no Anexo III desta NR. \n**33.6.3** Os treinamentos devem ser avaliados de modo a aferir os conhecimentos adquiridos pelos trabalhadores.",
+    "heading": "**33.6  Capacitação**",
+    "char_offset": 25544
   },
   {
     "id": "chunk-81",
-    "text": "avaliados quanto à aptidão física e mental, considerando os fatores de riscos psicossociais.\n**33.5.19.2** A aptidão para trabalhos em espaços confinados deve estar consignada no Atestado\nde Saúde Ocupacional - ASO, nos termos da NR-07 (Programa de Controle Médico de Saúde",
-    "heading": "Introdução",
-    "char_offset": 23579
+    "text": "**33.6.4** Os instrutores devem possuir comprovada proficiência no conteúdo que irão ministrar. \n**33.6.5** A capacitação deve considerar o tipo de espaço confinado e as atividades desenvolvidas, devendo estas informações e a anuência do responsável técnico previsto no item 33.3.2 desta NR constarem no certificado do trabalhador, além do disposto na NR-01.",
+    "heading": "**33.6  Capacitação**",
+    "char_offset": 25904
   },
   {
     "id": "chunk-82",
-    "text": "Ocupacional - PCMSO).\n**33.5.20** Preparação para emergências\n**33.5.20.1** A organização deve, além do previsto na preparação para emergências estabelecida\npela da NR-01, elaborar um Plano de Resgate para espaços confinados, podendo estar\n_Este texto não substitui o publicado no DOU_",
-    "heading": "Introdução",
-    "char_offset": 23856
+    "text": "**33.7.1** Fica proibida a entrada e o trabalho em espaço confinado, garantido o disposto nos subitens 1.4.3 e 1.4.3.1 da NR-01, em qualquer uma das seguintes situações: \na) entrada e trabalho em espaço confinado sem prévia autorização; \n- b) não realização de avaliações atmosféricas antes da entrada dos trabalhadores no espaço confinado e o monitoramento contínuo durante as atividades;",
+    "heading": "**33.7  Disposições gerais**",
+    "char_offset": 26268
   },
   {
     "id": "chunk-83",
-    "text": "Entra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\nintegrado ao plano de emergência.\n**33.5.20.2** O plano de resgate deve conter:\na) identificação dos perigos associados à operação de resgate;\nb) designação da equipe de emergência e salvamento, interna ou externa, dimensionada",
-    "heading": "Introdução",
-    "char_offset": 24148
+    "text": "- c) ausência de vigia durante a entrada, permanência e saída dos trabalhadores do espaço confinado; e \n- d) falta de capacitação de supervisores de entrada, vigias, trabalhadores autorizados e equipes de resgate. \n**33.7.2** No que não conflitar com as disposições constantes desta NR, recomenda-se a adoção das disposições previstas na norma técnica ABNT NBR 16577 e suas revisões referente(s) a:",
+    "heading": "**33.7  Disposições gerais**",
+    "char_offset": 26662
   },
   {
     "id": "chunk-84",
-    "text": "conforme a geometria, acessos e riscos das atividades e operação de resgate;\nc) tempo de resposta para atendimento à emergência;\nd) seleção das técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e\nsistema de resgate disponíveis, de forma a reduzir o tempo de suspensão inerte do",
-    "heading": "Introdução",
-    "char_offset": 24479
+    "text": "a) equipamentos de sondagem inicial e de monitoramento contínuo da atmosfera; \nb) serviço de emergência e salvamento; e \nc) prevenção de riscos em espaços confinados mediante projeto.",
+    "heading": "**ANEXO I**",
+    "char_offset": 27251
   },
   {
     "id": "chunk-85",
-    "text": "trabalhador e sua exposição aos perigos existentes; e\ne) previsão da realização de simulados dos cenários identificados.\n33.5.20.3 A organização deve assegurar que a equipe de emergência e salvamento atenda o\ndisposto na alínea \"c\" do subitem 33.5.20.2.",
-    "heading": "Introdução",
-    "char_offset": 24780
+    "text": "_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**ANEXO II**",
+    "char_offset": 27402
   },
   {
     "id": "chunk-86",
-    "text": "**33.5.21** Documentação.\n**33.5.21.1** A organização que possui espaços confinados deve manter no estabelecimento:\na) cadastro dos espaços confinados;\nb) PETs emitidas; e\nc) inventário de riscos do trabalho em espaço confinado realizado pela contratada, quando",
-    "heading": "Introdução",
-    "char_offset": 25039
+    "text": "|**Modelo de caráter informativo para elaboração da PET em Espaço Confinado**|\n|---|\n|Nome da organização:|\n|Local do espaço confinado:|\n|Espaço confinado nº:|\n|Data e horário da emissão:|\n|Data e horário do término:|\n|Trabalho a ser realizado:|\n|Trabalhadores autorizados:|",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 27404
   },
   {
     "id": "chunk-87",
-    "text": "aplicável.\n**33.5.21.2** A organização que realiza trabalho em espaços confinados deve manter os seguintes\ndocumentos:\na) modelo de PET;\nb) procedimentos de segurança; e\nc) plano de resgate.\n**33.5.21.3** O plano de resgate deve ser elaborado pela organização que realiza trabalho em",
-    "heading": "Introdução",
-    "char_offset": 25308
+    "text": "|Vigia:|\n|Equipe de resgate:|\n|Supervisor de Entrada:|\n_Este texto não substitui o publicado no DOU_ \n![Página 12 — imagem 0](../assets/pages/page-012-image-00.png)\nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 27682
   },
   {
     "id": "chunk-88",
-    "text": "espaço confinado e deve estar articulado com o plano de atendimento de emergência da\norganização que possui espaço confinado.\n**33.5.21.4** Quando a mesma organização possuir e realizar trabalhos em espaços confinados\ndeve manter no estabelecimento os documentos previstos nos subitens 33.5.21.1 e 33.5.21.2",
-    "heading": "Introdução",
-    "char_offset": 25593
+    "text": "_Este texto não substitui o publicado no DOU_ \n| Procedimentos que devem ser completados antes da entrada |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento |  |  |  |  | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário |  |  |  |  |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 27949
   },
   {
     "id": "chunk-89",
-    "text": "desta NR.\n**33.5.21.5** O modelo de PET a ser adotado pela organização deve ser adaptado de modo a\ncontemplar as peculiaridades dos espaços confinados da organização tendo como referência o\nAnexo II desta NR.\n**33.6 Capacitação**\n**33.6.1** A capacitação dos trabalhadores designados para trabalhos em espaços confinados",
-    "heading": "Introdução",
-    "char_offset": 25906
+    "text": "| Oxigênio_________________________________________________ % O\n2 |  |  |  |  |  |  |\n| Inflamáveis_______________________________________________ % LIE |  |  |  |  |  |  |\n| Gases / vapores tóxicos _____________________________________ ppm |  |  |  |  |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 28226
   },
   {
     "id": "chunk-90",
-    "text": "deve ser feita de acordo com o estabelecido na NR-01.\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**33.6.2** Os supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e",
-    "heading": "Introdução",
-    "char_offset": 26232
+    "text": "| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento\ndetector de gás)______________________________________________________ppm |  |  |  |  |  |  |\n| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ |  |  |  |  |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 28487
   },
   {
     "id": "chunk-91",
-    "text": "salvamento devem receber capacitação inicial, periódica e eventual, com conteúdo, carga\nhorária e periodicidade definidos no Anexo III desta NR.\n**33.6.3** Os treinamentos devem ser avaliados de modo a aferir os conhecimentos adquiridos\npelos trabalhadores.",
-    "heading": "Introdução",
-    "char_offset": 26530
+    "text": "| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |\n| 3. Bloqueios, travamento e etiquetagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 5. Ventilação/exaustão - tipo, equipamento e tempo |  |  |  | N/A ( ) | S ( ) | N ( ) |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 28761
   },
   {
     "id": "chunk-92",
-    "text": "**33.6.4** Os instrutores devem possuir comprovada proficiência no conteúdo que irão ministrar.\n**33.6.5** A capacitação deve considerar o tipo de espaço confinado e as atividades desenvolvidas,\ndevendo estas informações e a anuência do responsável técnico previsto no item 33.3.2 desta",
-    "heading": "Introdução",
-    "char_offset": 26790
+    "text": "| 6. Teste após ventilação e isolamento: horário ___:___ |  |  |  |  |  |  |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0%\n2 |  |  |  |  |  |  |\n| Inflamáveis _______________________________________________ %LIE < 10% |  |  |  |  |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 29064
   },
   {
     "id": "chunk-93",
-    "text": "NR constarem no certificado do trabalhador, além do disposto na NR-01.\n**33.7 Disposições gerais**\n**33.7.1** Fica proibida a entrada e o trabalho em espaço confinado, garantido o disposto nos\nsubitens 1.4.3 e 1.4.3.1 da NR-01, em qualquer uma das seguintes situações:",
-    "heading": "Introdução",
-    "char_offset": 27079
+    "text": "| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector\nde gás) ppm |  |  |  |  |  |  |\n| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ |  |  |  |  |  |  |\n| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 29340
   },
   {
     "id": "chunk-94",
-    "text": "a) entrada e trabalho em espaço confinado sem prévia autorização;\nb) não realização de avaliações atmosféricas antes da entrada dos trabalhadores no espaço\nconfinado e o monitoramento contínuo durante as atividades;\nc) ausência de vigia durante a entrada, permanência e saída dos trabalhadores do espaço",
-    "heading": "Introdução",
-    "char_offset": 27352
+    "text": "| 7. Iluminação geral |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 10. Procedimentos e proteção de movimentação vertical |  |  |  | N/A ( ) | S ( ) | N ( ) |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 29639
   },
   {
     "id": "chunk-95",
-    "text": "confinado; e\nd) falta de capacitação de supervisores de entrada, vigias, trabalhadores autorizados e equipes\nde resgate.\n**33.7.2** No que não conflitar com as disposições constantes desta NR, recomenda-se a adoção\ndas disposições previstas na norma técnica ABNT NBR 16577 e suas revisões referente(s) a:",
-    "heading": "Introdução",
-    "char_offset": 27660
+    "text": "| 11. Treinamento de todos os\ntrabalhadores? | S ( ) | N ( ) | Estão válidos? |  | S ( ) | N ( ) |\n| 12. Equipamentos: |  |  |  |  |  |  |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho\nem áreas potencialmente explosivas de leitura direta com alarmes em",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 29929
   },
   {
     "id": "chunk-96",
-    "text": "a) equipamentos de sondagem inicial e de monitoramento contínuo da atmosfera;\nb) serviço de emergência e salvamento; e\nc) prevenção de riscos em espaços confinados mediante projeto.\n**ANEXO I**\n**SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO**\n_Este texto não substitui o publicado no DOU_",
-    "heading": "Introdução",
-    "char_offset": 27971
+    "text": "condições: |  |  |  |  | S ( ) | N ( ) |\n| Lanternas |  |  |  |  | S ( ) | N ( ) |\nEntra em vigor no dia **03 de outubro de 2022** \n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nA entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”.",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 30215
   },
   {
     "id": "chunk-97",
-    "text": "Entra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**ANEXO II**\n**MODELO DE PET**\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
-    "heading": "Introdução",
-    "char_offset": 28268
+    "text": "A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. \nQualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR.",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 30501
   },
   {
     "id": "chunk-98",
-    "text": "_Este texto não substitui o publicado no DOU_\n| Procedimentos que devem ser completados antes da entrada |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento |  |  |  |  | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário |  |  |  |  |  |  |",
-    "heading": "Introdução",
-    "char_offset": 28545
+    "text": "Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. \n**ANEXO III** \n_Este texto não substitui o publicado no DOU_ \n| Roupa de proteção | S ( ) | N ( ) |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 30889
   },
   {
     "id": "chunk-99",
-    "text": "| Oxigênio_________________________________________________ % O\n2 |  |  |  |  |  |  |\n| Inflamáveis_______________________________________________ % LIE |  |  |  |  |  |  |\n| Gases / vapores tóxicos _____________________________________ ppm |  |  |  |  |  |  |",
-    "heading": "Introdução",
-    "char_offset": 28821
+    "text": "| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |\n| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado\ncom cilindro de escape | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 31139
   },
   {
     "id": "chunk-100",
-    "text": "| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento\ndetector de gás)______________________________________________________ppm |  |  |  |  |  |  |\n| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ |  |  |  |  |  |  |",
-    "heading": "Introdução",
-    "char_offset": 29082
+    "text": "| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |\n| Equipamentos de comunicação eletrônica adequado para trabalho em áreas",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 31454
   },
   {
     "id": "chunk-101",
-    "text": "| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |\n| 3. Bloqueios, travamento e etiquetagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 5. Ventilação/exaustão - tipo, equipamento e tempo |  |  |  | N/A ( ) | S ( ) | N ( ) |",
-    "heading": "Introdução",
-    "char_offset": 29356
+    "text": "potencialmente explosivas | S ( ) | N ( ) |\n| Equipamento de proteção respiratória autônomo ou sistema de ar mandado\ncom cilindro de escape para a equipe de resgate | S ( ) | N ( ) |\n| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 31714
   },
   {
     "id": "chunk-102",
-    "text": "| 6. Teste após ventilação e isolamento: horário ___:___ |  |  |  |  |  |  |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0%\n2 |  |  |  |  |  |  |\n| Inflamáveis _______________________________________________ %LIE < 10% |  |  |  |  |  |  |",
-    "heading": "Introdução",
-    "char_offset": 29659
+    "text": "potencialmente explosivas | S ( ) | N ( ) |\n| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos |  |  |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |\n| Procedimentos de Emergência e Resgate: |  |  |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ |  |  |",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 31969
   },
   {
     "id": "chunk-103",
-    "text": "| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector\nde gás) ppm |  |  |  |  |  |  |\n| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ |  |  |  |  |  |  |\n| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |",
-    "heading": "Introdução",
-    "char_offset": 29935
+    "text": "| Legenda:\nN/A - “não se aplica”; N - “não”; S - “sim”.\nATENÇÃO:\nA entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna\n“não”.\nA falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme,",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 32298
   },
   {
     "id": "chunk-104",
-    "text": "| 7. Iluminação geral |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 10. Procedimentos e proteção de movimentação vertical |  |  |  | N/A ( ) | S ( ) | N ( ) |",
-    "heading": "Introdução",
-    "char_offset": 30234
+    "text": "ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no\nabandono imediato da área.\nQualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho,\nexceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR.",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 32550
   },
   {
     "id": "chunk-105",
-    "text": "| 11. Treinamento de todos os\ntrabalhadores? | S ( ) | N ( ) | Estão válidos? |  | S ( ) | N ( ) |\n| 12. Equipamentos: |  |  |  |  |  |  |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho\nem áreas potencialmente explosivas de leitura direta com alarmes em",
-    "heading": "Introdução",
-    "char_offset": 30524
+    "text": "Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento.\nApós o trabalho, esta permissão deverá ser arquivada. |  |  |\nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**MODELO DE PET**",
+    "char_offset": 32845
   },
   {
     "id": "chunk-106",
-    "text": "condições: |  |  |  |  | S ( ) | N ( ) |\n| Lanternas |  |  |  |  | S ( ) | N ( ) |\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\n**ANEXO III**\n_Este texto não substitui o publicado no DOU_\n| Roupa de proteção | S ( ) | N ( ) |",
-    "heading": "Introdução",
-    "char_offset": 30812
+    "text": "**1** Carga horária e periodicidade \n**1.1** A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no Quadro 1 deste Anexo. \n**1.2** A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo.",
+    "heading": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
+    "char_offset": 33106
   },
   {
     "id": "chunk-107",
-    "text": "| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |\n| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado\ncom cilindro de escape | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |",
-    "heading": "Introdução",
-    "char_offset": 31092
+    "text": "**2.1** O conteúdo programático do treinamento inicial deve conter informações sobre: _(Retificado em 20/10/2022)_ \na) para o supervisor de entrada: \nI.  definições; _(Retificado em 20/10/2022)_ \nII.  identificação dos espaços confinados; \nIII.  reconhecimento, avaliação e controle de riscos;",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 33634
   },
   {
     "id": "chunk-108",
-    "text": "| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |\n| Equipamentos de comunicação eletrônica adequado para trabalho em áreas",
-    "heading": "Introdução",
-    "char_offset": 31407
+    "text": "IV.  funcionamento de equipamentos utilizados; \nV.  procedimentos e utilização da PET; \nVI.  critérios de indicação e uso de equipamentos para controle de riscos; \n_Este texto não substitui o publicado no DOU_ \n| Capacitação | Treinamento inicial\n(carga horária) | Treinamento periódico",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 33934
   },
   {
     "id": "chunk-109",
-    "text": "potencialmente explosivas | S ( ) | N ( ) |\n| Equipamento de proteção respiratória autônomo ou sistema de ar mandado\ncom cilindro de escape para a equipe de resgate | S ( ) | N ( ) |\n| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas",
-    "heading": "Introdução",
-    "char_offset": 31667
+    "text": "(carga horária/periodicidade) | Treinamento\neventual |\n| --- | --- | --- | --- |\n| Supervisor de\nentrada | 40 horas | 8 horas/anual | Conforme previsto\nna NR-01 ou\nquando houver\ndesvios na\nutilização de\nequipamentos ou\nnos\nprocedimentos de\nentrada nos",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 34221
   },
   {
     "id": "chunk-110",
-    "text": "potencialmente explosivas | S ( ) | N ( ) |\n| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos |  |  |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |\n| Procedimentos de Emergência e Resgate: |  |  |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ |  |  |",
-    "heading": "Introdução",
-    "char_offset": 31922
+    "text": "espaços\nconfinados\nConforme previsto\nna NR-01 ou\nquando\nidentificados\ndesvios na\noperação de\nresgate ou nos\nsimulados |\n| Vigia e trabalhador\nautorizado | 16 horas | 8 horas/anual |  |\n| Equipe de\nemergência e\nsalvamento | Conforme plano de\nemergência, 24 horas ou 32",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 34473
   },
   {
     "id": "chunk-111",
-    "text": "| Legenda:\nN/A - “não se aplica”; N - “não”; S - “sim”.\nATENÇÃO:\nA entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna\n“não”.\nA falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme,",
-    "heading": "Introdução",
-    "char_offset": 32251
+    "text": "horas, observado o nível\nprofissional do resgatista | Conforme plano de emergência,\n24 horas ou 32 horas, observado\no nível profissional do\nresgatista/bianual |  |\nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 34742
   },
   {
     "id": "chunk-112",
-    "text": "ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no\nabandono imediato da área.\nQualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho,\nexceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR.",
-    "heading": "Introdução",
-    "char_offset": 32503
+    "text": "VII.  conhecimento sobre práticas seguras em espaços confinados; \nVIII.  legislação de segurança e saúde no trabalho; \nXI.  Programa de Proteção Respiratória; \nX.  área classificada; \nXI.  noções de resgate e primeiros socorros; e \nXII.  operações de salvamento.",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 35012
   },
   {
     "id": "chunk-113",
-    "text": "Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento.\nApós o trabalho, esta permissão deverá ser arquivada. |  |  |\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
-    "heading": "Introdução",
-    "char_offset": 32799
+    "text": "b) para o vigia e trabalhador autorizado: \nI.  definições \nII.  reconhecimento, avaliação e controle de riscos; \nIII.  funcionamento de equipamentos utilizados; \nIV.  procedimentos e utilização da PET; e \nV.  noções de resgate e primeiros socorros.",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 35282
   },
   {
     "id": "chunk-114",
-    "text": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**\n**1** Carga horária e periodicidade\n**1.1** A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias,\ntrabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no",
-    "heading": "Introdução",
-    "char_offset": 33058
+    "text": "c) para a equipe de emergência e salvamento: temas estabelecidos em normas técnicas nacionais vigentes que tratam de resgate técnico em espaços confinados e, na sua ausência, em normas técnicas internacionais. \n**2.2** Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho.",
+    "heading": "**2  Conteúdo programático**",
+    "char_offset": 35534
   },
   {
     "id": "chunk-115",
-    "text": "Quadro 1 deste Anexo.\n**1.2** A carga horária da parte prática do treinamento inicial e periódico dos supervisores de\nentrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de,\nno mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo.",
-    "heading": "Introdução",
-    "char_offset": 33350
+    "text": "**2.3** O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 36175
   },
   {
     "id": "chunk-116",
-    "text": "**QUADRO 1**\n**2 Conteúdo programático**\n**2.1** O conteúdo programático do treinamento inicial deve conter informações sobre: _(Retificado_\n_em 20/10/2022)_\na) para o supervisor de entrada:\nI. definições; _(Retificado em 20/10/2022)_\nII. identificação dos espaços confinados;",
-    "heading": "Introdução",
-    "char_offset": 33654
+    "text": "Afogamento: aspiração de sólido ou líquido não corporal por submersão ou imersão do trabalhador. \nÁrea classificada: área potencialmente explosiva ou com probabilidade de ocorrência desta, ocasionada pela presença de mistura de ar com materiais inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, exigindo precauções especiais para instalação, manutenção, inspeção e utilização de equipamentos, instrumentos e acessórios empregados em instalações elétricas.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 36177
   },
   {
     "id": "chunk-117",
-    "text": "III. reconhecimento, avaliação e controle de riscos;\nIV. funcionamento de equipamentos utilizados;\nV. procedimentos e utilização da PET;\nVI. critérios de indicação e uso de equipamentos para controle de riscos;\n_Este texto não substitui o publicado no DOU_",
-    "heading": "Introdução",
-    "char_offset": 33936
+    "text": "Ajuste: operação destinada a fazer com que um instrumento de medição tenha desempenho compatível com o seu uso. O ajuste tem como objetivo atualizar o ponto de referência dos sensores. \nAuto-zero (ou ajuste de ar limpo): recurso dos detectores de gases para que se estabeleça a referência zero para todos os sensores de monitoramento de gases e vapores inflamáveis e contaminantes, além de ajustar o sensor de oxigênio para a concentração normal dessa substância no ar. Deve ser realizado em local com ar limpo, mantendo o botão liga/desliga do equipamento pressionado por determinado período para limpar as leituras e retirar eventual pressão existente no equipamento.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 36647
   },
   {
     "id": "chunk-118",
-    "text": "| Capacitação | Treinamento inicial\n(carga horária) | Treinamento periódico\n(carga horária/periodicidade) | Treinamento\neventual |\n| --- | --- | --- | --- |\n| Supervisor de\nentrada | 40 horas | 8 horas/anual | Conforme previsto\nna NR-01 ou\nquando houver",
-    "heading": "Introdução",
-    "char_offset": 34194
+    "text": "Atmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde: qualquer atmosfera que apresente risco imediato à vida ou produza imediato efeito debilitante à saúde. \nAvaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do espaço confinado.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 37320
   },
   {
     "id": "chunk-119",
-    "text": "desvios na\nutilização de\nequipamentos ou\nnos\nprocedimentos de\nentrada nos\nespaços\nconfinados\nConforme previsto\nna NR-01 ou\nquando\nidentificados\ndesvios na\noperação de\nresgate ou nos\nsimulados |\n| Vigia e trabalhador\nautorizado | 16 horas | 8 horas/anual |  |",
-    "heading": "Introdução",
-    "char_offset": 34448
+    "text": "_Este texto não substitui o publicado no DOU_ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nBloqueio: dispositivo que impede a liberação de energias perigosas, tais como pressão, vapor, fluidos, combustíveis, água e outros, visando à contenção de energias perigosas para trabalho seguro em espaços confinados.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 37610
   },
   {
     "id": "chunk-120",
-    "text": "| Equipe de\nemergência e\nsalvamento | Conforme plano de\nemergência, 24 horas ou 32\nhoras, observado o nível\nprofissional do resgatista | Conforme plano de emergência,\n24 horas ou 32 horas, observado\no nível profissional do\nresgatista/bianual |  |\nEntra em vigor no dia **03 de outubro de 2022**",
-    "heading": "Introdução",
-    "char_offset": 34708
+    "text": "Calibração operação que estabelece, sob condições especificadas, em uma primeira etapa, uma relação entre os valores e as incertezas de medição fornecidos por padrões e as indicações correspondentes com as incertezas associadas; em uma segunda etapa, utiliza esta informação visando à obtenção de um resultado de medição a partir de uma indicação.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 37977
   },
   {
     "id": "chunk-121",
-    "text": "_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\nVII. conhecimento sobre práticas seguras em espaços confinados;\nVIII. legislação de segurança e saúde no trabalho;\nXI. Programa de Proteção Respiratória;\nX. área classificada;\nXI. noções de resgate e primeiros socorros; e",
-    "heading": "Introdução",
-    "char_offset": 35009
+    "text": "Calibração acreditada: calibração realizada por laboratório acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro. \nChama aberta: mistura de gases incandescentes emitindo energia, que é também denominada chama ou fogo. \nConaminantes: gases, vapores, névoas, fumos e poeiras presentes na atmosfera do espaço confinado.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 38329
   },
   {
     "id": "chunk-122",
-    "text": "XII. operações de salvamento.\nb) para o vigia e trabalhador autorizado:\nI. definições\nII. reconhecimento, avaliação e controle de riscos;\nIII. funcionamento de equipamentos utilizados;\nIV. procedimentos e utilização da PET; e\nV. noções de resgate e primeiros socorros.",
-    "heading": "Introdução",
-    "char_offset": 35289
+    "text": "Deficiência de oxigênio: atmosfera contendo menos de 20,9% de oxigênio em volume na pressão atmosférica normal, a não ser que a redução do percentual seja devidamente monitorada e controlada. \nEnergia perigosa: qualquer forma de energia que possa causar a morte, ferimentos ou danos à saúde dos trabalhadores.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 38679
   },
   {
     "id": "chunk-123",
-    "text": "c) para a equipe de emergência e salvamento: temas estabelecidos em normas técnicas\nnacionais vigentes que tratam de resgate técnico em espaços confinados e, na sua ausência, em\nnormas técnicas internacionais.\n**2.2** Os equipamentos utilizados no treinamento devem ser selecionados de forma que",
-    "heading": "Introdução",
-    "char_offset": 35561
+    "text": "Equipe de emergência e salvamento: trabalhadores capacitados e equipados para resgatar e prestar os primeiros socorros a trabalhadores em caso de emergência. \nEngolfamnto: envolvimento e captura de uma pessoa por material particulado sólido capaz de causar a inconsciência ou morte.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 38992
   },
   {
     "id": "chunk-124",
-    "text": "garantam o aprendizado dos participantes em situações similares às encontradas em seus locais\nde trabalho.\n**2.3** O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve\ncontemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as",
-    "heading": "Introdução",
-    "char_offset": 35859
+    "text": "Enriquecimento de oxigênio: atmosfera contendo mais de 23% de oxigênio em volume. \nEtiquetagem: colocação de rótulo num dispositivo isolador de energia para indicar que o dispositivo e o equipamento a ser controlado não podem ser utilizados até a sua remoção.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 39278
   },
   {
     "id": "chunk-125",
-    "text": "atividades desenvolvidas no seu interior.\n**GLOSSÁRIO**\nAfogamento: aspiração de sólido ou líquido não corporal por submersão ou imersão do\ntrabalhador.\nÁrea classificada: área potencialmente explosiva ou com probabilidade de ocorrência desta,\nocasionada pela presença de mistura de ar com materiais inflamáveis na forma de gás, vapor,",
-    "heading": "Introdução",
-    "char_offset": 36162
+    "text": "Faísca: partícula candente gerada em processos mecânicos de esmerilhamento, polimento, corte ou solda. \nGrau de proteção: classificação numérica, precedida pelo índice IP, referente à proteção provida por um invólucro contra o acesso às partes perigosas, contra a penetração de objetos sólidos estranhos e/ou contra a penetração de água, verificado através de métodos de ensaios normalizados.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 39541
   },
   {
     "id": "chunk-126",
-    "text": "névoa, poeira ou fibras, exigindo precauções especiais para instalação, manutenção, inspeção e\nutilização de equipamentos, instrumentos e acessórios empregados em instalações elétricas.\nAjuste: operação destinada a fazer com que um instrumento de medição tenha desempenho",
-    "heading": "Introdução",
-    "char_offset": 36499
+    "text": "Inertização: deslocamento da atmosfera existente em um espaço confinado por um gás inerte, resultando numa atmosfera não combustível e com deficiência de oxigênio. \nInterferências eletromagnéticas de radiofrequência: recebimento de informações não desejadas que atrapalham o funcionamento do equipamento utilizado para avaliações atmosféricas, podendo causar erros de leitura.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 39937
   },
   {
     "id": "chunk-127",
-    "text": "compatível com o seu uso. O ajuste tem como objetivo atualizar o ponto de referência dos\nsensores.\nAuto-zero (ou ajuste de ar limpo): recurso dos detectores de gases para que se estabeleça a\nreferência zero para todos os sensores de monitoramento de gases e vapores inflamáveis e",
-    "heading": "Introdução",
-    "char_offset": 36773
+    "text": "Intrinsecamente seguro: situação em que o equipamento não pode liberar energia elétrica ou térmica suficientes para, em condições normais ou anormais, causar a ignição de uma dada atmosfera explosiva, conforme expresso no certificado de conformidade do equipamento.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 40316
   },
   {
     "id": "chunk-128",
-    "text": "contaminantes, além de ajustar o sensor de oxigênio para a concentração normal dessa\nsubstância no ar. Deve ser realizado em local com ar limpo, mantendo o botão liga/desliga do\nequipamento pressionado por determinado período para limpar as leituras e retirar eventual",
-    "heading": "Introdução",
-    "char_offset": 37053
+    "text": "Leitua direta ou instantânea: dispositivo ou equipamento que permite realizar leituras de contaminantes em tempo real. \nOxigênio puro: atmosfera contendo somente oxigênio (100%). \nPET: documento contendo o conjunto de medidas de controle visando à entrada e _Este texto não substitui o publicado no DOU_",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 40586
   },
   {
     "id": "chunk-129",
-    "text": "pressão existente no equipamento.\nAtmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde: qualquer atmosfera\nque apresente risco imediato à vida ou produza imediato efeito debilitante à saúde.\nAvaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do",
-    "heading": "Introdução",
-    "char_offset": 37324
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \ndesenvolvimento de trabalho seguro, além de medidas de emergência e resgate em espaços confinados. \nPlano de resgate: documento previamente escrito, para ser utilizado pela equipe que irá executar o resgate, contendo o planejamento do resgate e primeiros socorros.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 40894
   },
   {
     "id": "chunk-130",
-    "text": "espaço confinado.\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**\n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\nBloqueio: dispositivo que impede a liberação de energias perigosas, tais como pressão, vapor,",
-    "heading": "Introdução",
-    "char_offset": 37629
+    "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. \nPurga: método de limpeza que torna a atmosfera interior do espaço confinado isenta de gases, vapores e outras impurezas indesejáveis através de ventilação ou lavagem com água ou vapor.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 41262
   },
   {
     "id": "chunk-131",
-    "text": "fluidos, combustíveis, água e outros, visando à contenção de energias perigosas para trabalho\nseguro em espaços confinados.\nCalibração operação que estabelece, sob condições especificadas, em uma primeira etapa, uma\nrelação entre os valores e as incertezas de medição fornecidos por padrões e as indicações",
-    "heading": "Introdução",
-    "char_offset": 37887
+    "text": "Responsável técnico: profissional legalmente habilitado ou qualificado, em segurança do trabalho, para executar as medidas previstas no item 33.3.2 desta NR. \nSupervisor de entrada: pessoa capacitada para operar a permissão de entrada com responsabilidade para preencher e assinar a PET para o desenvolvimento de entrada e trabalho seguro no interior de espaços confinados.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 41535
   },
   {
     "id": "chunk-132",
-    "text": "correspondentes com as incertezas associadas; em uma segunda etapa, utiliza esta informação\nvisando à obtenção de um resultado de medição a partir de uma indicação.\nCalibração acreditada: calibração realizada por laboratório acreditado pelo Instituto Nacional",
-    "heading": "Introdução",
-    "char_offset": 38195
+    "text": "Teste de resposta ou “bumptest”: tem por finalidade verificar a funcionalidade dos sensores e alarme, sem medir a precisão dos sensores nem fazer eventuais ajustes necessários. \nTrabalhador autorizado: trabalhador capacitado para entrar no espaço confinado, ciente dos seus direitos e deveres e com conhecimento dos riscos e das medidas de controle existentes.",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 41912
   },
   {
     "id": "chunk-133",
-    "text": "de Metrologia, Qualidade e Tecnologia - Inmetro.\nChama aberta: mistura de gases incandescentes emitindo energia, que é também denominada\nchama ou fogo.\nConaminantes: gases, vapores, névoas, fumos e poeiras presentes na atmosfera do espaço\nconfinado.",
-    "heading": "Introdução",
-    "char_offset": 38458
-  },
-  {
-    "id": "chunk-134",
-    "text": "Deficiência de oxigênio: atmosfera contendo menos de 20,9% de oxigênio em volume na\npressão atmosférica normal, a não ser que a redução do percentual seja devidamente\nmonitorada e controlada.\nEnergia perigosa: qualquer forma de energia que possa causar a morte, ferimentos ou danos à",
-    "heading": "Introdução",
-    "char_offset": 38711
-  },
-  {
-    "id": "chunk-135",
-    "text": "saúde dos trabalhadores.\nEquipe de emergência e salvamento: trabalhadores capacitados e equipados para resgatar e\nprestar os primeiros socorros a trabalhadores em caso de emergência.\nEngolfamnto: envolvimento e captura de uma pessoa por material particulado sólido capaz de",
-    "heading": "Introdução",
-    "char_offset": 38998
-  },
-  {
-    "id": "chunk-136",
-    "text": "causar a inconsciência ou morte.\nEnriquecimento de oxigênio: atmosfera contendo mais de 23% de oxigênio em volume.\nEtiquetagem: colocação de rótulo num dispositivo isolador de energia para indicar que o\ndispositivo e o equipamento a ser controlado não podem ser utilizados até a sua remoção.",
-    "heading": "Introdução",
-    "char_offset": 39275
-  },
-  {
-    "id": "chunk-137",
-    "text": "Faísca: partícula candente gerada em processos mecânicos de esmerilhamento, polimento,\ncorte ou solda.\nGrau de proteção: classificação numérica, precedida pelo índice IP, referente à proteção\nprovida por um invólucro contra o acesso às partes perigosas, contra a penetração de objetos",
-    "heading": "Introdução",
-    "char_offset": 39570
-  },
-  {
-    "id": "chunk-138",
-    "text": "sólidos estranhos e/ou contra a penetração de água, verificado através de métodos de ensaios\nnormalizados.\nInertização: deslocamento da atmosfera existente em um espaço confinado por um gás inerte,\nresultando numa atmosfera não combustível e com deficiência de oxigênio.",
-    "heading": "Introdução",
-    "char_offset": 39857
-  },
-  {
-    "id": "chunk-139",
-    "text": "Interferências eletromagnéticas de radiofrequência: recebimento de informações não\ndesejadas que atrapalham o funcionamento do equipamento utilizado para avaliações\natmosféricas, podendo causar erros de leitura.\nIntrinsecamente seguro: situação em que o equipamento não pode liberar energia elétrica ou",
-    "heading": "Introdução",
-    "char_offset": 40130
-  },
-  {
-    "id": "chunk-140",
-    "text": "térmica suficientes para, em condições normais ou anormais, causar a ignição de uma dada\natmosfera explosiva, conforme expresso no certificado de conformidade do equipamento.\nLeitua direta ou instantânea: dispositivo ou equipamento que permite realizar leituras de",
-    "heading": "Introdução",
-    "char_offset": 40434
-  },
-  {
-    "id": "chunk-141",
-    "text": "contaminantes em tempo real.\nOxigênio puro: atmosfera contendo somente oxigênio (100%).\nPET: documento contendo o conjunto de medidas de controle visando à entrada e\n_Este texto não substitui o publicado no DOU_\nEntra em vigor no dia **03 de outubro de 2022**",
-    "heading": "Introdução",
-    "char_offset": 40703
-  },
-  {
-    "id": "chunk-142",
-    "text": "_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_\ndesenvolvimento de trabalho seguro, além de medidas de emergência e resgate em espaços\nconfinados.\nPlano de resgate: documento previamente escrito, para ser utilizado pela equipe que irá\nexecutar o resgate, contendo o planejamento do resgate e primeiros socorros.",
-    "heading": "Introdução",
-    "char_offset": 40967
-  },
-  {
-    "id": "chunk-143",
-    "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência.\nPurga: método de limpeza que torna a atmosfera interior do espaço confinado isenta de gases,\nvapores e outras impurezas indesejáveis através de ventilação ou lavagem com água ou vapor.",
-    "heading": "Introdução",
-    "char_offset": 41284
-  },
-  {
-    "id": "chunk-144",
-    "text": "Responsável técnico: profissional legalmente habilitado ou qualificado, em segurança do\ntrabalho, para executar as medidas previstas no item 33.3.2 desta NR.\nSupervisor de entrada: pessoa capacitada para operar a permissão de entrada com\nresponsabilidade para preencher e assinar a PET para o desenvolvimento de entrada e trabalho",
-    "heading": "Introdução",
-    "char_offset": 41555
-  },
-  {
-    "id": "chunk-145",
-    "text": "seguro no interior de espaços confinados.\nTeste de resposta ou “bumptest”: tem por finalidade verificar a funcionalidade dos sensores e\nalarme, sem medir a precisão dos sensores nem fazer eventuais ajustes necessários.\nTrabalhador autorizado: trabalhador capacitado para entrar no espaço confinado, ciente dos",
-    "heading": "Introdução",
-    "char_offset": 41888
-  },
-  {
-    "id": "chunk-146",
-    "text": "seus direitos e deveres e com conhecimento dos riscos e das medidas de controle existentes.\nVigia: trabalhador designado para permanecer fora do espaço confinado e que é responsável\npelo acompanhamento, comunicação e ordem de abandono para os trabalhadores.",
-    "heading": "Introdução",
-    "char_offset": 42200
-  },
-  {
-    "id": "chunk-147",
-    "text": "_Este texto não substitui o publicado no DOU_",
-    "heading": "Introdução",
-    "char_offset": 42460
+    "text": "Vigia: trabalhador designado para permanecer fora do espaço confinado e que é responsável pelo acompanhamento, comunicação e ordem de abandono para os trabalhadores. \n_Este texto não substitui o publicado no DOU_",
+    "heading": "**GLOSSÁRIO**",
+    "char_offset": 42277
   }
 ]

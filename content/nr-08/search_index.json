@@ -1,86 +1,74 @@
 [
   {
     "id": "chunk-0",
-    "text": "**NR 08 - EDIFICAÇÕES**\n**Publicação** **D.O.U.**\n[Portaria MTb n.º 3.214, de 08 de junho de 1978](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/1978/portaria_3-214_aprova_as_nrs.pdf/view) 06/07/78",
-    "heading": "Introdução",
+    "text": "|**Publicação**<br>Portaria MTb n.º3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º12, de 12 de junho de 1983|14/06/83|\n|Portaria SIT n.º23, de 09 de outubro de 2001|01/11/01|",
+    "heading": "**NR 08 - EDIFICAÇÕES**",
     "char_offset": 1
   },
   {
     "id": "chunk-1",
-    "text": "**Alterações/Atualizações** **D.O.U.**\n[Portaria SSMT n.º 12, de 12 de junho de 1983](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/1983/portaria_12_altera_nr_7_8_9_10_12_13_14_e_anexo_vii_da_15_revogada_.pdf/view) 14/06/83",
-    "heading": "Introdução",
-    "char_offset": 308
+    "text": "|Portaria SIT n.º222, de 06 de maio de 2011|10/05/11|\n|Portaria MTP n.º2.188, de 28 de julho de 2022|05/08/22|\n_Redação dada pela Portaria MTP n.º 2.188, de 28 de julho de 2022_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 433
   },
   {
     "id": "chunk-2",
-    "text": "[Portaria SIT n.º 23, de 09 de outubro de 2001](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2001/portaria_23_altera_nr_08.pdf/view) 01/11/01",
-    "heading": "Introdução",
-    "char_offset": 640
+    "text": "8.1  Objetivo \n8.2  Campo de aplicação \n8.3  Requisitos de segurança e saúde",
+    "heading": "**8.1 Objetivo**",
+    "char_offset": 515
   },
   {
     "id": "chunk-3",
-    "text": "[Portaria SIT n.º 222, de 06 de maio de 2011](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2011/portaria_222_altera_a_nr_08_item_8-3-6.pdf/view) 10/05/11",
-    "heading": "Introdução",
-    "char_offset": 891
+    "text": "**8.1.1** Esta Norma Regulamentadora - NR estabelece requisitos que devem ser atendidos nas edificações para garantir segurança e conforto aos trabalhadores.",
+    "heading": "**8.2 Campo de aplicação**",
+    "char_offset": 676
   },
   {
     "id": "chunk-4",
-    "text": "[Portaria MTP n.º 2.188, de 28 de julho de 2022](https://www.gov.br/trabalho-e-previdencia/pt-br/composicao/orgaos-especificos/secretaria-de-trabalho/inspecao/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-no-2-188-nova-nr-08.pdf/view) 05/08/22",
-    "heading": "Introdução",
-    "char_offset": 1154
+    "text": "**8.2.1** As medidas de prevenção estabelecidas nesta Norma se aplicam às edificações onde se desenvolvam atividades laborais.",
+    "heading": "**8.3 Requisitos de segurança e saúde**",
+    "char_offset": 806
   },
   {
     "id": "chunk-5",
-    "text": "_Redação dada pela Portaria MTP n.º 2.188, de 28 de julho de 2022_\n**SUMÁRIO**\n8.1 Objetivo\n8.2 Campo de aplicação\n8.3 Requisitos de segurança e saúde\n**8.1 Objetivo**\n**8.1.1** Esta Norma Regulamentadora - NR estabelece requisitos que devem ser atendidos nas",
-    "heading": "Introdução",
-    "char_offset": 1418
+    "text": "**8.3.1** Os locais de trabalho devem ter a altura do piso ao teto, pé-direito, de acordo com o código de obras local ou posturas municipais, atendido o previsto em normas técnicas oficiais e as condições de segurança, conforto e salubridade, estabelecidas em Normas Regulamentadoras.",
+    "heading": "**8.3 Requisitos de segurança e saúde**",
+    "char_offset": 807
   },
   {
     "id": "chunk-6",
-    "text": "edificações para garantir segurança e conforto aos trabalhadores.\n**8.2 Campo de aplicação**\n**8.2.1** As medidas de prevenção estabelecidas nesta Norma se aplicam às edificações onde se\ndesenvolvam atividades laborais.\n**8.3 Requisitos de segurança e saúde**",
-    "heading": "Introdução",
-    "char_offset": 1682
+    "text": "**8.3.2** Circulação \n**8.3.2.1** Os pisos dos locais de trabalho não devem apresentar saliências, nem depressões, que prejudiquem a circulação de pessoas ou a movimentação de materiais. \n**8.3.2.2** As aberturas nos pisos e nas paredes devem ser protegidas de forma que impeçam a queda de pessoas ou objetos.",
+    "heading": "**8.3 Requisitos de segurança e saúde**",
+    "char_offset": 1096
   },
   {
     "id": "chunk-7",
-    "text": "**8.3.1** Os locais de trabalho devem ter a altura do piso ao teto, pé-direito, de acordo com o código\nde obras local ou posturas municipais, atendido o previsto em normas técnicas oficiais e as\ncondições de segurança, conforto e salubridade, estabelecidas em Normas Regulamentadoras.",
-    "heading": "Introdução",
-    "char_offset": 1943
+    "text": "**8.3.2.3** Os pisos, as escadas fixas e as rampas devem ser projetados, construídos e mantidos em condições de suportar as cargas permanentes e móveis a que se destinam, de acordo com as normas técnicas oficiais. \n**8.3.2.4** Nos pisos, escadas fixas, rampas, corredores e passagens dos locais de trabalho, onde houver risco de escorregamento, devem ser empregados materiais ou sistemas antiderrapantes.",
+    "heading": "**8.3 Requisitos de segurança e saúde**",
+    "char_offset": 1409
   },
   {
     "id": "chunk-8",
-    "text": "**8.3.2** Circulação\n**8.3.2.1** Os pisos dos locais de trabalho não devem apresentar saliências, nem depressões, que\nprejudiquem a circulação de pessoas ou a movimentação de materiais.\n**8.3.2.2** As aberturas nos pisos e nas paredes devem ser protegidas de forma que impeçam a",
-    "heading": "Introdução",
-    "char_offset": 2231
+    "text": "1 \nEste texto não substitui o publicado no DOU \n**8.3.2.5** Os andares acima do solo devem dispor de proteção contra queda de pessoas ou objetos, de acordo com a legislação municipal e as normas técnicas oficiais, atendidas as condições de segurança e conforto.",
+    "heading": "**8.3 Requisitos de segurança e saúde**",
+    "char_offset": 1818
   },
   {
     "id": "chunk-9",
-    "text": "queda de pessoas ou objetos.\n**8.3.2.3** Os pisos, as escadas fixas e as rampas devem ser projetados, construídos e mantidos em\ncondições de suportar as cargas permanentes e móveis a que se destinam, de acordo com as\nnormas técnicas oficiais.\n**8.3.2.4** Nos pisos, escadas fixas, rampas, corredores e passagens dos locais de trabalho, onde",
-    "heading": "Introdução",
-    "char_offset": 2513
+    "text": "**8.3.3.1** As partes externas, bem como todas as que separem unidades autônomas de uma edificação, ainda que não acompanhem sua estrutura, devem, obrigatoriamente, observar as normas técnicas oficiais relativas à resistência ao fogo, isolamento térmico, isolamento e condicionamento acústico, resistência estrutural e impermeabilidade.",
+    "heading": "**8.3.3** Proteção contra intempéries",
+    "char_offset": 2083
   },
   {
     "id": "chunk-10",
-    "text": "houver risco de escorregamento, devem ser empregados materiais ou sistemas antiderrapantes.\nEste texto não substitui o publicado no DOU\n1\n**8.3.2.5** Os andares acima do solo devem dispor de proteção contra queda de pessoas ou objetos,\nde acordo com a legislação municipal e as normas técnicas oficiais, atendidas as condições de",
-    "heading": "Introdução",
-    "char_offset": 2857
+    "text": "**8.3.3.2** Os pisos e as paredes dos locais de trabalho devem ser, quando aplicável, impermeabilizados e protegidos contra a umidade. \n**8.3.3.3** As coberturas dos locais de trabalho devem assegurar proteção contra as chuvas. \n**8.3.3.4** As edificações dos locais de trabalho devem ser projetadas e construídas conforme a necessidade do ambiente de modo a evitar insolação excessiva ou falta de insolação.",
+    "heading": "**8.3.3** Proteção contra intempéries",
+    "char_offset": 2424
   },
   {
     "id": "chunk-11",
-    "text": "segurança e conforto.\n**8.3.3** Proteção contra intempéries\n**8.3.3.1** As partes externas, bem como todas as que separem unidades autônomas de uma\nedificação, ainda que não acompanhem sua estrutura, devem, obrigatoriamente, observar as\nnormas técnicas oficiais relativas à resistência ao fogo, isolamento térmico, isolamento e",
-    "heading": "Introdução",
-    "char_offset": 3189
-  },
-  {
-    "id": "chunk-12",
-    "text": "condicionamento acústico, resistência estrutural e impermeabilidade.\n**8.3.3.2** Os pisos e as paredes dos locais de trabalho devem ser, quando aplicável,\nimpermeabilizados e protegidos contra a umidade.\n**8.3.3.3** As coberturas dos locais de trabalho devem assegurar proteção contra as chuvas.",
-    "heading": "Introdução",
-    "char_offset": 3519
-  },
-  {
-    "id": "chunk-13",
-    "text": "**8.3.3.4** As edificações dos locais de trabalho devem ser projetadas e construídas conforme a\nnecessidade do ambiente de modo a evitar insolação excessiva ou falta de insolação.\nEste texto não substitui o publicado no DOU\n2",
-    "heading": "Introdução",
-    "char_offset": 3819
+    "text": "2 \nEste texto não substitui o publicado no DOU",
+    "heading": "**8.3.3** Proteção contra intempéries",
+    "char_offset": 2837
   }
 ]

@@ -1,3 +1,169 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 10 - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS E SERVIÇOS EM ELETRICIDADE**",
+      "id": "nr-10---segurança-em-instalações-elétricas-e-serviços-em-eletricidade"
+    },
+    {
+      "level": 1,
+      "text": "**NORMA REGULAMENTADORA nº 10 (NR-10) - SEGURANÇA EM INSTALAÇÕES ELÉTRICAS E SERVIÇOS EM ELETRICIDADE**",
+      "id": "norma-regulamentadora-nº-10-nr-10---segurança-em-instalações-elétricas-e-serviços-em-eletricidade"
+    },
+    {
+      "level": 1,
+      "text": "**10.1 OBJETIVO**",
+      "id": "101-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**10.2 CAMPO DE APLICAÇÃO**",
+      "id": "102-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**10.3 GERENCIAMENTO DE RISCO OCUPACIONAL**",
+      "id": "103-gerenciamento-de-risco-ocupacional"
+    },
+    {
+      "level": 1,
+      "text": "**10.4 SEGURANÇA EM PROJETOS**",
+      "id": "104-segurança-em-projetos"
+    },
+    {
+      "level": 1,
+      "text": "**10.5 ELIMINAÇÃO DO PERIGO**",
+      "id": "105-eliminação-do-perigo"
+    },
+    {
+      "level": 1,
+      "text": "**10.6 MEDIDAS DE PROTEÇÃO COLETIVA**",
+      "id": "106-medidas-de-proteção-coletiva"
+    },
+    {
+      "level": 1,
+      "text": "chuveiro;",
+      "id": "chuveiro"
+    },
+    {
+      "level": 1,
+      "text": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
+      "id": "107-medidas-administrativas-e-de-organização-do-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**10.8 QUALIFICAÇÃO, HABILITAÇÃO E CAPACITAÇÃO DOS TRABALHADORES**",
+      "id": "108-qualificação-habilitação-e-capacitação-dos-trabalhadores"
+    },
+    {
+      "level": 1,
+      "text": "10.9 TREINAMENTO DE SEGURANÇA E SAÚDE NO TRABALHO",
+      "id": "109-treinamento-de-segurança-e-saúde-no-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**10.10 AUTORIZAÇÃO DOS TRABALHADORES**",
+      "id": "1010-autorização-dos-trabalhadores"
+    },
+    {
+      "level": 1,
+      "text": "**10.11 MEDIDAS DE PROTEÇÃO INDIVIDUAL**",
+      "id": "1011-medidas-de-proteção-individual"
+    },
+    {
+      "level": 1,
+      "text": "**10.12 SEGURANÇA NAS ETAPAS DE CONSTRUÇÃO, MONTAGEM, COMISSIONAMENTO, OPERAÇÃO E MANUTENÇÃO**",
+      "id": "1012-segurança-nas-etapas-de-construção-montagem-comissionamento-operação-e-manutenção"
+    },
+    {
+      "level": 1,
+      "text": "**10.13 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS DESENERGIZADAS**",
+      "id": "1013-segurança-em-instalações-elétricas-desenergizadas"
+    },
+    {
+      "level": 1,
+      "text": "c) impedimento de reenergização;",
+      "id": "c-impedimento-de-reenergização"
+    },
+    {
+      "level": 1,
+      "text": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
+      "id": "1014-segurança-em-instalações-elétricas-energizadas-e-no-trabalho-em-proximidade-de-instalações-elétricas"
+    },
+    {
+      "level": 1,
+      "text": "**10.15 DOCUMENTAÇÃO**",
+      "id": "1015-documentação"
+    },
+    {
+      "level": 1,
+      "text": "**10.16 CONDIÇÕES OU SITUAÇÕES DE GRAVE E IMINENTE RISCO (GIR)**",
+      "id": "1016-condições-ou-situações-de-grave-e-iminente-risco-gir"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I GLOSSÁRIO**",
+      "id": "anexo-i-glossário"
+    },
+    {
+      "level": 1,
+      "text": "contra choque elétrico.",
+      "id": "contra-choque-elétrico"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II**",
+      "id": "anexo-ii"
+    },
+    {
+      "level": 1,
+      "text": "**ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE**",
+      "id": "zona-de-risco-zona-controlada-e-zona-livre"
+    },
+    {
+      "level": 1,
+      "text": "Figura 1 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre",
+      "id": "figura-1---distâncias-no-ar-que-delimitam-radialmente-a-zona-de-risco-a-zona-controlada-e-a-zona-livre"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO III**",
+      "id": "anexo-iii"
+    },
+    {
+      "level": 1,
+      "text": "**TREINAMENTOS DE SEGURANÇA E SAÚDE NO TRABALHO**",
+      "id": "treinamentos-de-segurança-e-saúde-no-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "1. TREINAMENTO INICIAL BÁSICO",
+      "id": "1-treinamento-inicial-básico"
+    },
+    {
+      "level": 1,
+      "text": "B. Prático",
+      "id": "b-prático"
+    },
+    {
+      "level": 1,
+      "text": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+      "id": "3-treinamento-inicial-complementar-de-média-e-alta-tensão---sec"
+    },
+    {
+      "level": 1,
+      "text": "B. Prático",
+      "id": "b-prático"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO IV**",
+      "id": "anexo-iv"
+    },
+    {
+      "level": 1,
+      "text": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
+      "id": "especificação-mínima-de-epi-para-proteção-contra-o-arco-elétrico"
+    }
+  ]
 }

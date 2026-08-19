@@ -1,3 +1,24 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**~~NR 2 - INSPEÇÃO PRÉVIA~~**",
+      "id": "nr-2---inspeção-prévia"
+    },
+    {
+      "level": 1,
+      "text": "**REVOGADA pela PORTARIA SEPRT n.º 915, de 30 de julho de 2019, publicada no DOU de 31/07/2019**",
+      "id": "revogada-pela-portaria-seprt-nº-915-de-30-de-julho-de-2019-publicada-no-dou-de-31072019"
+    },
+    {
+      "level": 1,
+      "text": "**~~MINISTÉRIO DO TRABALHO SECRETARIA DE SEGURANÇA E MEDICINA DO TRABALHO~~**",
+      "id": "ministério-do-trabalho-secretaria-de-segurança-e-medicina-do-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**~~DELEGACIA_____________________________~~**",
+      "id": "delegacia_____________________________"
+    }
+  ]
 }

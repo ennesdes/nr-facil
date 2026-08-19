@@ -1,3 +1,169 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**37.1 Objetivo**",
+      "id": "371-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**37.2 Campo de aplicação**",
+      "id": "372-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**37.3. Responsabilidades**",
+      "id": "373-responsabilidades"
+    },
+    {
+      "level": 1,
+      "text": "**37.5. Programa de Gerenciamento de Riscos - PGR e análise de riscos das instalações e processos**",
+      "id": "375-programa-de-gerenciamento-de-riscos---pgr-e-análise-de-riscos-das-instalações-e-processos"
+    },
+    {
+      "level": 1,
+      "text": "**37.6 Atenção à saúde na plataforma**",
+      "id": "376-atenção-à-saúde-na-plataforma"
+    },
+    {
+      "level": 1,
+      "text": "**37.7 Serviços Especializados em Segurança e Medicina do Trabalho - SESMT**",
+      "id": "377-serviços-especializados-em-segurança-e-medicina-do-trabalho---sesmt"
+    },
+    {
+      "level": 1,
+      "text": "**37.7.2** SESMT em terra",
+      "id": "3772-sesmt-em-terra"
+    },
+    {
+      "level": 1,
+      "text": "**37.9 Capacitação e treinamento em segurança e saúde no trabalho**",
+      "id": "379-capacitação-e-treinamento-em-segurança-e-saúde-no-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**37.11 Acesso à Plataforma**",
+      "id": "3711-acesso-à-plataforma"
+    },
+    {
+      "level": 1,
+      "text": "**37.12 Condições de vivência a bordo**",
+      "id": "3712-condições-de-vivência-a-bordo"
+    },
+    {
+      "level": 1,
+      "text": "**37.12.7** Camarotes",
+      "id": "37127-camarotes"
+    },
+    {
+      "level": 1,
+      "text": "**37.12.8** Lavanderia",
+      "id": "37128-lavanderia"
+    },
+    {
+      "level": 1,
+      "text": "**37.13 Alimentação a bordo**",
+      "id": "3713-alimentação-a-bordo"
+    },
+    {
+      "level": 1,
+      "text": "**37.14 Climatização**",
+      "id": "3714-climatização"
+    },
+    {
+      "level": 1,
+      "text": "**37.16 Inspeções de segurança e saúde a bordo**",
+      "id": "3716-inspeções-de-segurança-e-saúde-a-bordo"
+    },
+    {
+      "level": 1,
+      "text": "**37.17 Inspeções e manutenções**",
+      "id": "3717-inspeções-e-manutenções"
+    },
+    {
+      "level": 1,
+      "text": "**37.18 Procedimentos operacionais e organização do trabalho**",
+      "id": "3718-procedimentos-operacionais-e-organização-do-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "**37.19 Instalações elétricas**",
+      "id": "3719-instalações-elétricas"
+    },
+    {
+      "level": 1,
+      "text": "**37.22 Caldeiras, vasos de pressão e tubulações**",
+      "id": "3722-caldeiras-vasos-de-pressão-e-tubulações"
+    },
+    {
+      "level": 1,
+      "text": "**37.25 Proteção e combate a incêndios**",
+      "id": "3725-proteção-e-combate-a-incêndios"
+    },
+    {
+      "level": 1,
+      "text": "**37.26 Proteção contra radiações ionizantes**",
+      "id": "3726-proteção-contra-radiações-ionizantes"
+    },
+    {
+      "level": 1,
+      "text": "**37.31 Documentação**",
+      "id": "3731-documentação"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I**",
+      "id": "anexo-i"
+    },
+    {
+      "level": 1,
+      "text": "**CURSO BÁSICO PARA MANIPULADORES DE ALIMENTOS**",
+      "id": "curso-básico-para-manipuladores-de-alimentos"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II**",
+      "id": "anexo-ii"
+    },
+    {
+      "level": 1,
+      "text": "**SÍMBOLOS PARA SINALIZAR FONTES DE RADIAÇÃO IONIZANTE, LOCAIS DE ARMAZENAMENTO DE MATERIAL RADIOATIVO E LOCAIS DE TRABALHO COM EXPOSIÇÃO À RADIAÇÃO IONIZANTE INDUSTRIAL OU DE OCORRÊNCIA NATURAL**",
+      "id": "símbolos-para-sinalizar-fontes-de-radiação-ionizante-locais-de-armazenamento-de-material-radioativo-e-locais-de-trabalho-com-exposição-à-radiação-ionizante-industrial-ou-de-ocorrência-natural"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO III**",
+      "id": "anexo-iii"
+    },
+    {
+      "level": 1,
+      "text": "**CURSO COMPLEMENTAR PARA SERVIÇOS EM INSTALAÇÕES ELÉTRICAS EM ALTA TENSÃO**",
+      "id": "curso-complementar-para-serviços-em-instalações-elétricas-em-alta-tensão"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO IV**",
+      "id": "anexo-iv"
+    },
+    {
+      "level": 1,
+      "text": "**CURSO BÁSICO DE SEGURANÇA EM OPERAÇÕES DE MOVIMENTAÇÃO DE CARGAS E TRANSPORTE DE PESSOAS**",
+      "id": "curso-básico-de-segurança-em-operações-de-movimentação-de-cargas-e-transporte-de-pessoas"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO V**",
+      "id": "anexo-v"
+    },
+    {
+      "level": 1,
+      "text": "**CURSO COMPLEMENTAR PARA OPERADORES DE GUINDASTES**",
+      "id": "curso-complementar-para-operadores-de-guindastes"
+    },
+    {
+      "level": 1,
+      "text": "**Glossário**",
+      "id": "glossário"
+    }
+  ]
 }

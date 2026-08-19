@@ -1,3 +1,429 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 12 - SEGURANÇA NO TRABALHO EM MÁQUINAS E EQUIPAMENTOS**",
+      "id": "nr-12---segurança-no-trabalho-em-máquinas-e-equipamentos"
+    },
+    {
+      "level": 1,
+      "text": "**Publicação**",
+      "id": "publicação"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**12.2 Arranjo físico e instalações.**",
+      "id": "122-arranjo-físico-e-instalações"
+    },
+    {
+      "level": 1,
+      "text": "**12.3 Instalações e dispositivos elétricos.**",
+      "id": "123-instalações-e-dispositivos-elétricos"
+    },
+    {
+      "level": 1,
+      "text": "**12.8 Transportadores de materiais.**",
+      "id": "128-transportadores-de-materiais"
+    },
+    {
+      "level": 1,
+      "text": "**12.9 Aspectos ergonômicos.**",
+      "id": "129-aspectos-ergonômicos"
+    },
+    {
+      "level": 1,
+      "text": "**12.10 Riscos adicionais.**",
+      "id": "1210-riscos-adicionais"
+    },
+    {
+      "level": 1,
+      "text": "**12.11 Manutenção, inspeção, preparação, ajuste, reparo e limpeza.**",
+      "id": "1211-manutenção-inspeção-preparação-ajuste-reparo-e-limpeza"
+    },
+    {
+      "level": 1,
+      "text": "**12.12 Sinalização.**",
+      "id": "1212-sinalização"
+    },
+    {
+      "level": 1,
+      "text": "**12.14 Procedimentos de trabalho e segurança.**",
+      "id": "1214-procedimentos-de-trabalho-e-segurança"
+    },
+    {
+      "level": 1,
+      "text": "**12.16 Capacitação.**",
+      "id": "1216-capacitação"
+    },
+    {
+      "level": 1,
+      "text": "**12.17 Outros requisitos específicos de segurança.**",
+      "id": "1217-outros-requisitos-específicos-de-segurança"
+    },
+    {
+      "level": 1,
+      "text": "**12.18 Disposições finais.**",
+      "id": "1218-disposições-finais"
+    },
+    {
+      "level": 1,
+      "text": "**REQUISITOS PARA O USO DE DETECTORES DE PRESENÇA OPTOELETRÔNICOS**",
+      "id": "requisitos-para-o-uso-de-detectores-de-presença-optoeletrônicos"
+    },
+    {
+      "level": 1,
+      "text": "**A) Cálculo das distâncias mínimas de segurança para instalação de detectores de presença optoeletrônicos - ESPE usando cortina de luz - AOPD.**",
+      "id": "a-cálculo-das-distâncias-mínimas-de-segurança-para-instalação-de-detectores-de-presença-optoeletrônicos---espe-usando-cortina-de-luz---aopd"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II da NR-12**",
+      "id": "anexo-ii-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**CONTEÚDO PROGRAMÁTICO DA CAPACITAÇÃO**",
+      "id": "conteúdo-programático-da-capacitação"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO III da NR-12 MEIOS DE ACESSO A MÁQUINAS E EQUIPAMENTOS**",
+      "id": "anexo-iii-da-nr-12-meios-de-acesso-a-máquinas-e-equipamentos"
+    },
+    {
+      "level": 1,
+      "text": "**Legenda**",
+      "id": "legenda"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO IV da NR-12 GLOSSÁRIO**",
+      "id": "anexo-iv-da-nr-12-glossário"
+    },
+    {
+      "level": 1,
+      "text": "outros elementos do sistema ou máquinas.",
+      "id": "outros-elementos-do-sistema-ou-máquinas"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO V da NR-12**",
+      "id": "anexo-v-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**MOTOSSERRAS**",
+      "id": "motosserras"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO VI da NR-12**",
+      "id": "anexo-vi-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**MÁQUINAS PARA PANIFICAÇÃO E CONFEITARIA**",
+      "id": "máquinas-para-panificação-e-confeitaria"
+    },
+    {
+      "level": 1,
+      "text": "**2.** Amassadeira Espiral",
+      "id": "2-amassadeira-espiral"
+    },
+    {
+      "level": 1,
+      "text": "**4.** Cilindro Sovador",
+      "id": "4-cilindro-sovador"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO VII da NR-12**",
+      "id": "anexo-vii-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**MÁQUINAS PARA AÇOUGUE, MERCEARIA, BARES E RESTAURANTES**",
+      "id": "máquinas-para-açougue-mercearia-bares-e-restaurantes"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO VIII da NR-12**",
+      "id": "anexo-viii-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**PRENSAS E SIMILARES**",
+      "id": "prensas-e-similares"
+    },
+    {
+      "level": 1,
+      "text": "**1. Prensas**",
+      "id": "1-prensas"
+    },
+    {
+      "level": 1,
+      "text": "**2. Requisitos de segurança para prensas**",
+      "id": "2-requisitos-de-segurança-para-prensas"
+    },
+    {
+      "level": 1,
+      "text": "**3. Requisitos de segurança para guilhotinas**",
+      "id": "3-requisitos-de-segurança-para-guilhotinas"
+    },
+    {
+      "level": 1,
+      "text": "**4. Requisitos de segurança para dobradeiras**",
+      "id": "4-requisitos-de-segurança-para-dobradeiras"
+    },
+    {
+      "level": 1,
+      "text": "**6. Recalcadora com acoplamento de freio-embreagem**",
+      "id": "6-recalcadora-com-acoplamento-de-freio-embreagem"
+    },
+    {
+      "level": 1,
+      "text": "**7. Martelos de forjamento**",
+      "id": "7-martelos-de-forjamento"
+    },
+    {
+      "level": 1,
+      "text": "**8. Prensa Enfardadeira Vertical**",
+      "id": "8-prensa-enfardadeira-vertical"
+    },
+    {
+      "level": 1,
+      "text": "**9. Outras disposições**",
+      "id": "9-outras-disposições"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO IX da NR-12**",
+      "id": "anexo-ix-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**INJETORA DE MATERIAIS PLÁSTICOS**",
+      "id": "injetora-de-materiais-plásticos"
+    },
+    {
+      "level": 1,
+      "text": "Legenda:",
+      "id": "legenda"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO X da NR-12 MÁQUINAS PARA FABRICAÇÃO DE CALÇADOS E AFINS**",
+      "id": "anexo-x-da-nr-12-máquinas-para-fabricação-de-calçados-e-afins"
+    },
+    {
+      "level": 1,
+      "text": "**1. Introdução**",
+      "id": "1-introdução"
+    },
+    {
+      "level": 1,
+      "text": "**2. Balancim de braço móvel manual (balancim jacaré)**",
+      "id": "2-balancim-de-braço-móvel-manual-balancim-jacaré"
+    },
+    {
+      "level": 1,
+      "text": "**3. Balancim tipo ponte manual**",
+      "id": "3-balancim-tipo-ponte-manual"
+    },
+    {
+      "level": 1,
+      "text": "**4. Máquina de cambrê com borrachão**",
+      "id": "4-máquina-de-cambrê-com-borrachão"
+    },
+    {
+      "level": 1,
+      "text": "**5. Máquina de cambrê facão**",
+      "id": "5-máquina-de-cambrê-facão"
+    },
+    {
+      "level": 1,
+      "text": "**6. Máquina automática (pneumática ou mecânica) de aplicar ilhós, rebites e adornos**",
+      "id": "6-máquina-automática-pneumática-ou-mecânica-de-aplicar-ilhós-rebites-e-adornos"
+    },
+    {
+      "level": 1,
+      "text": "**7. Máquina de conformar traseiro**",
+      "id": "7-máquina-de-conformar-traseiro"
+    },
+    {
+      "level": 1,
+      "text": "**8. Máquina de pregar salto**",
+      "id": "8-máquina-de-pregar-salto"
+    },
+    {
+      "level": 1,
+      "text": "**9. Máquina de assentar cama de salto e rebater traseiro**",
+      "id": "9-máquina-de-assentar-cama-de-salto-e-rebater-traseiro"
+    },
+    {
+      "level": 1,
+      "text": "**11. Máquina de montar bicos**",
+      "id": "11-máquina-de-montar-bicos"
+    },
+    {
+      "level": 1,
+      "text": "**13. Máquina sorveteira**",
+      "id": "13-máquina-sorveteira"
+    },
+    {
+      "level": 1,
+      "text": "**14. Máquina de alta frequência**",
+      "id": "14-máquina-de-alta-frequência"
+    },
+    {
+      "level": 1,
+      "text": "**15. Máquina de montar base e enfranque de calçados**",
+      "id": "15-máquina-de-montar-base-e-enfranque-de-calçados"
+    },
+    {
+      "level": 1,
+      "text": "**16. Máquina automática de rebater planta de calçado**",
+      "id": "16-máquina-automática-de-rebater-planta-de-calçado"
+    },
+    {
+      "level": 1,
+      "text": "**17. Máquina injetora rotativa de carrossel móvel**",
+      "id": "17-máquina-injetora-rotativa-de-carrossel-móvel"
+    },
+    {
+      "level": 1,
+      "text": "**18. Máquina manual de pregar enfeite (rebitadeira)**",
+      "id": "18-máquina-manual-de-pregar-enfeite-rebitadeira"
+    },
+    {
+      "level": 1,
+      "text": "**19. Máquina de dublar ou unir componentes de calçados com acionamento pneumático**",
+      "id": "19-máquina-de-dublar-ou-unir-componentes-de-calçados-com-acionamento-pneumático"
+    },
+    {
+      "level": 1,
+      "text": "**20. Máquina boca de sapo**",
+      "id": "20-máquina-boca-de-sapo"
+    },
+    {
+      "level": 1,
+      "text": "**21. Máquina de montar lados**",
+      "id": "21-máquina-de-montar-lados"
+    },
+    {
+      "level": 1,
+      "text": "**22. Máquina de carimbar solas e palmilhas**",
+      "id": "22-máquina-de-carimbar-solas-e-palmilhas"
+    },
+    {
+      "level": 1,
+      "text": "**23. Máquina de riscar e marcar cortes**",
+      "id": "23-máquina-de-riscar-e-marcar-cortes"
+    },
+    {
+      "level": 1,
+      "text": "**24. Máquina de dividir cortes (rachadeira)**",
+      "id": "24-máquina-de-dividir-cortes-rachadeira"
+    },
+    {
+      "level": 1,
+      "text": "**25. Máquina de chanfrar cortes**",
+      "id": "25-máquina-de-chanfrar-cortes"
+    },
+    {
+      "level": 1,
+      "text": "**26. Máquina de colar fita e abrir costura**",
+      "id": "26-máquina-de-colar-fita-e-abrir-costura"
+    },
+    {
+      "level": 1,
+      "text": "**27. Máquina tampográfica**",
+      "id": "27-máquina-tampográfica"
+    },
+    {
+      "level": 1,
+      "text": "**28. Máquina bordadeira**",
+      "id": "28-máquina-bordadeira"
+    },
+    {
+      "level": 1,
+      "text": "**29. Máquina de passar cola**",
+      "id": "29-máquina-de-passar-cola"
+    },
+    {
+      "level": 1,
+      "text": "**30. Máquina de reativar couraça a vapor**",
+      "id": "30-máquina-de-reativar-couraça-a-vapor"
+    },
+    {
+      "level": 1,
+      "text": "**31. Máquina rotográfica**",
+      "id": "31-máquina-rotográfica"
+    },
+    {
+      "level": 1,
+      "text": "**32. Máquina de costura**",
+      "id": "32-máquina-de-costura"
+    },
+    {
+      "level": 1,
+      "text": "**33. Disposições gerais**",
+      "id": "33-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO XI da NR-12**",
+      "id": "anexo-xi-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
+      "id": "máquinas-e-implementos-para-uso-agrícola-e-florestal"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO XII da NR-12**",
+      "id": "anexo-xii-da-nr-12"
+    },
+    {
+      "level": 1,
+      "text": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
+      "id": "equipamentos-de-guindar-para-elevação-de-pessoas-e-realização-de-trabalho-em-altura"
+    },
+    {
+      "level": 1,
+      "text": "**2. CESTAS AÉREAS**",
+      "id": "2-cestas-aéreas"
+    },
+    {
+      "level": 1,
+      "text": "sinalização do fabricante;",
+      "id": "sinalização-do-fabricante"
+    },
+    {
+      "level": 1,
+      "text": "**2.2.1** Caçambas (não condutivas):",
+      "id": "221-caçambas-não-condutivas"
+    },
+    {
+      "level": 1,
+      "text": "**3. CESTOS ACOPLADOS**",
+      "id": "3-cestos-acoplados"
+    },
+    {
+      "level": 1,
+      "text": "**4. CESTOS SUSPENSOS**",
+      "id": "4-cestos-suspensos"
+    },
+    {
+      "level": 1,
+      "text": "**Lista de verificação Nº 1**",
+      "id": "lista-de-verificação-nº-1"
+    }
+  ]
 }

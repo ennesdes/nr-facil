@@ -1,3 +1,34 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**NR 08 - EDIFICAÇÕES**",
+      "id": "nr-08---edificações"
+    },
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**8.1 Objetivo**",
+      "id": "81-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**8.2 Campo de aplicação**",
+      "id": "82-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**8.3 Requisitos de segurança e saúde**",
+      "id": "83-requisitos-de-segurança-e-saúde"
+    },
+    {
+      "level": 1,
+      "text": "**8.3.3** Proteção contra intempéries",
+      "id": "833-proteção-contra-intempéries"
+    }
+  ]
 }

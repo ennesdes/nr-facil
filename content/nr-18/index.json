@@ -1,3 +1,214 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**SUMÁRIO**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**18.1 Objetivo**",
+      "id": "181-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**18.2 Campo de aplicação**",
+      "id": "182-campo-de-aplicação"
+    },
+    {
+      "level": 1,
+      "text": "**18.3 Responsabilidades**",
+      "id": "183-responsabilidades"
+    },
+    {
+      "level": 1,
+      "text": "**18.4 Programa de Gerenciamento de Riscos (PGR)**",
+      "id": "184-programa-de-gerenciamento-de-riscos-pgr"
+    },
+    {
+      "level": 1,
+      "text": "**18.5 Áreas de vivência**",
+      "id": "185-áreas-de-vivência"
+    },
+    {
+      "level": 1,
+      "text": "**18.6 Instalações elétricas**",
+      "id": "186-instalações-elétricas"
+    },
+    {
+      "level": 1,
+      "text": "**18.7 Etapas de obra**",
+      "id": "187-etapas-de-obra"
+    },
+    {
+      "level": 1,
+      "text": "**Tubulão com pressão hiperbárica**",
+      "id": "tubulão-com-pressão-hiperbárica"
+    },
+    {
+      "level": 1,
+      "text": "**18.8 Escadas, rampas e passarelas**",
+      "id": "188-escadas-rampas-e-passarelas"
+    },
+    {
+      "level": 1,
+      "text": "**18.8.6** Escadas",
+      "id": "1886-escadas"
+    },
+    {
+      "level": 1,
+      "text": "**Escada fixa de uso coletivo**",
+      "id": "escada-fixa-de-uso-coletivo"
+    },
+    {
+      "level": 1,
+      "text": "**Escada fixa vertical**",
+      "id": "escada-fixa-vertical"
+    },
+    {
+      "level": 1,
+      "text": "**Escadas portáteis**",
+      "id": "escadas-portáteis"
+    },
+    {
+      "level": 1,
+      "text": "**Escada portátil extensível**",
+      "id": "escada-portátil-extensível"
+    },
+    {
+      "level": 1,
+      "text": "**18.8.7** Rampas e passarelas",
+      "id": "1887-rampas-e-passarelas"
+    },
+    {
+      "level": 1,
+      "text": "**18.9 Medidas de prevenção contra queda de altura**",
+      "id": "189-medidas-de-prevenção-contra-queda-de-altura"
+    },
+    {
+      "level": 1,
+      "text": "**18.10 Máquinas, equipamentos, ferramentas**",
+      "id": "1810-máquinas-equipamentos-ferramentas"
+    },
+    {
+      "level": 1,
+      "text": "**Máquina autopropelida**",
+      "id": "máquina-autopropelida"
+    },
+    {
+      "level": 1,
+      "text": "**Gruas**",
+      "id": "gruas"
+    },
+    {
+      "level": 1,
+      "text": "**Guincho de coluna**",
+      "id": "guincho-de-coluna"
+    },
+    {
+      "level": 1,
+      "text": "**Ferramenta de fixação a pólvora ou gás**",
+      "id": "ferramenta-de-fixação-a-pólvora-ou-gás"
+    },
+    {
+      "level": 1,
+      "text": "**Ferramenta manual**",
+      "id": "ferramenta-manual"
+    },
+    {
+      "level": 1,
+      "text": "**18.11 Movimentação e transporte de materiais e pessoas (elevadores)**",
+      "id": "1811-movimentação-e-transporte-de-materiais-e-pessoas-elevadores"
+    },
+    {
+      "level": 1,
+      "text": "**Movimentação de pessoas**",
+      "id": "movimentação-de-pessoas"
+    },
+    {
+      "level": 1,
+      "text": "**18.12 Andaime e plataforma de trabalho**",
+      "id": "1812-andaime-e-plataforma-de-trabalho"
+    },
+    {
+      "level": 1,
+      "text": "técnicas do fabricante.",
+      "id": "técnicas-do-fabricante"
+    },
+    {
+      "level": 1,
+      "text": "**Andaime suspenso**",
+      "id": "andaime-suspenso"
+    },
+    {
+      "level": 1,
+      "text": "**Andaime suspenso motorizado**",
+      "id": "andaime-suspenso-motorizado"
+    },
+    {
+      "level": 1,
+      "text": "**18.13 Sinalização de segurança**",
+      "id": "1813-sinalização-de-segurança"
+    },
+    {
+      "level": 1,
+      "text": "**18.14 Capacitação**",
+      "id": "1814-capacitação"
+    },
+    {
+      "level": 1,
+      "text": "**18.15 Serviços em flutuantes**",
+      "id": "1815-serviços-em-flutuantes"
+    },
+    {
+      "level": 1,
+      "text": "**18.16 Disposições gerais**",
+      "id": "1816-disposições-gerais"
+    },
+    {
+      "level": 1,
+      "text": "**18.17 Disposições transitórias**",
+      "id": "1817-disposições-transitórias"
+    },
+    {
+      "level": 1,
+      "text": "**Contêiner**",
+      "id": "contêiner"
+    },
+    {
+      "level": 1,
+      "text": "**Tubulões com pressão hiperbárica**",
+      "id": "tubulões-com-pressão-hiperbárica"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO I - CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
+      "id": "anexo-i---capacitação-carga-horária-periodicidade-e-conteúdo-programático"
+    },
+    {
+      "level": 1,
+      "text": "**1. Carga horária e periodicidade**",
+      "id": "1-carga-horária-e-periodicidade"
+    },
+    {
+      "level": 1,
+      "text": "**<u>Quadro 1</u>**",
+      "id": "uquadro-1u"
+    },
+    {
+      "level": 1,
+      "text": "**2. Conteúdo programático**",
+      "id": "2-conteúdo-programático"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
+      "id": "anexo-ii---cabos-de-aço-e-de-fibra-sintética"
+    },
+    {
+      "level": 1,
+      "text": "**GLOSSÁRIO**",
+      "id": "glossário"
+    }
+  ]
 }

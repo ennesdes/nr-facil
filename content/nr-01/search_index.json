@@ -1,1124 +1,968 @@
 [
   {
     "id": "chunk-0",
-    "text": "**NR 01 - DISPOSIÇÕES GERAIS e GERENCIAMENTO DE RISCOS OCUPACIONAIS**\n**Publicação** **D.O.U.**\n[Portaria MTb nº 3.214, de 08 de junho de 1978](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1978/portaria_3-214_aprova_as_nrs.pdf/@@download/file) 06/07/78",
-    "heading": "Introdução",
+    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº06, de 09 de março de 1983|14/03/83|\n|Portaria SSMT nº03, de 07 de fevereiro de 1988|10/03/88|\n|Portaria SSST nº13, de 17 de setembro de 1993|21/09/93|",
+    "heading": "**NR 01 - DISPOSIÇÕES GERAIS e GERENCIAMENTO DE RISCOS OCUPACIONAIS**",
     "char_offset": 1
   },
   {
     "id": "chunk-1",
-    "text": "**Alterações/Atualizações** **D.O.U.**\n[Portaria SSMT nº 06, de 09 de março de 1983](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1983/portaria_06_nrs_1_2_3_e_6_revogada.pdf/@@download/file) 14/03/83",
-    "heading": "Introdução",
-    "char_offset": 328
+    "text": "|Portaria SIT nº84, de 04 de março de 2009|12/03/09|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/07/19|\n|Portaria SEPRT nº6.730, de 09 de março de 2020|12/03/20|\n|Portaria SEPRT nº1.295, de 02 de fevereiro de 2021|03/02/21|\n|Portaria SEPRT nº8.873, de 23 de julho de 2021|26/07/21|",
+    "heading": "**NR 01 - DISPOSIÇÕES GERAIS e GERENCIAMENTO DE RISCOS OCUPACIONAIS**",
+    "char_offset": 305
   },
   {
     "id": "chunk-2",
-    "text": "[Portaria SSMT nº 03, de 07 de fevereiro de 1988](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1988/portaria_03_altera_nr_01_revogada.pdf/@@download/file) 10/03/88\n[Portaria SSST nº 13, de 17 de setembro de 1993](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1993/portaria_13_altera_nr_1_24_e_28_revogada.pdf/@@download/file) 21/09/93",
-    "heading": "Introdução",
-    "char_offset": 601
+    "text": "|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|\n|Portaria MTE nº342, de 21 de março de 2024|22/03/24|\n|Portaria MTE nº344, de 21 de março de 2024|22/03/24|\n|<br>Portaria MTE nº1.419, de 27 de agosto de 2024|<br>28/08/24|\n|<br>Portaria MTE nº765, de 15 de maio de 2025|16/05/25|",
+    "heading": "**NR 01 - DISPOSIÇÕES GERAIS e GERENCIAMENTO DE RISCOS OCUPACIONAIS**",
+    "char_offset": 592
   },
   {
     "id": "chunk-3",
-    "text": "[Portaria SIT nº 84, de 04 de março de 2009](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2009/portaria_84_altera_nr_01_revogada.pdf/@@download/file) 12/03/09\n[Portaria SEPRT nº 915, de 30 de julho de 2019](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2019/portaria_seprt_915_-aprova_a_nova_nr_01.pdf/@@download/file) 31/07/19",
-    "heading": "Introdução",
-    "char_offset": 1081
+    "text": "_(Redação dada pela Portaria SEPRT n.º 6.730, de 09/03/20)_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 944
   },
   {
     "id": "chunk-4",
-    "text": "[Portaria SEPRT nº 6.730, de 09 de março de 2020](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2020/portaria_seprt_6-730_-altera_a_nr_01.pdf/view) 12/03/20\n[Portaria SEPRT nº 1.295, de 02 de fevereiro de 2021](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2021/portaria-seprt-no-1-295-prorroga-prazo-nrs-01-07-09-e-18.pdf/@@download/file) 03/02/21",
-    "heading": "Introdução",
-    "char_offset": 1554
+    "text": "- 1.1 Objetivo \n- 1.2 Campo de aplicação \n- 1.3 Competências e estrutura \n- 1.4 Direitos e deveres \n- 1.5 Gerenciamento de riscos ocupacionais \n- 1.6 Da prestação de informação digital e digitalização de documentos \n1.7 Capacitação e treinamento em Segurança e Saúde no Trabalho",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 951
   },
   {
     "id": "chunk-5",
-    "text": "[Portaria SEPRT nº 8.873, de 23 de julho de 2021](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2021/portaria-seprt-no-8-873-prorroga-nrs-01-07-09-18-e-itens-da-37-revogada.pdf/@@download/file) 26/07/21",
-    "heading": "Introdução",
-    "char_offset": 2047
+    "text": "1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP \n1.9 Disposições finais \nAnexo I - Termos e definições \nAnexo II - Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial.",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 1235
   },
   {
     "id": "chunk-6",
-    "text": "[Portaria MTP nº 4.219, de 20 de dezembro de 2022](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-no-4-219-altera-nrs-cipa.pdf/@@download/file) 22/12/22\n[Portaria MTE nº 342, de 21 de março de 2024](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2024/portaria-mte-no-342-direito-de-recusa-nr-01.pdf/@@download/file) 22/03/24",
-    "heading": "Introdução",
-    "char_offset": 2322
+    "text": "**1.1.1** O objetivo desta Norma é estabelecer as disposições gerais, o campo de aplicação, os termos e as definições comuns às Normas Regulamentadoras - NR relativas a segurança e saúde no trabalho e as diretrizes e os requisitos para o gerenciamento de riscos ocupacionais e as medidas de prevenção em Segurança e Saúde no Trabalho - SST.",
+    "heading": "**1.1 Objetivo**",
+    "char_offset": 1529
   },
   {
     "id": "chunk-7",
-    "text": "[Portaria MTE nº 344, de 21 de março de 2024](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2024/portaria-mte-no-344-altera-glossario-nr-01-e-12.pdf/@@download/file) 22/03/24\n[Portaria MTE nº 1.419, de 27 de agosto de 2024](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2024/portaria-mte-no-1-419-nr-01-gro-nova-redacao.pdf/view) 28/08/24",
-    "heading": "Introdução",
-    "char_offset": 2807
+    "text": "**1.1.2** Para fins de aplicação das Normas Regulamentadoras - NR, consideram-se os termos e definições constantes no Anexo I.",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 2001
   },
   {
     "id": "chunk-8",
-    "text": "[Portaria MTE nº 765, de 15 de maio de 2025](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2025/portaria-mte-no-765-prorroga-inicio-de-vigencia-cap-1-5-da-nr-01.pdf/view) 16/05/25",
-    "heading": "Introdução",
-    "char_offset": 3290
+    "text": "**1.2.1** As NR obrigam, nos termos da lei, empregadores e empregados, urbanos e rurais. \nEste texto não substitui o publicado no DOU \n1 \n**1.2.1.1** As NR são de observância obrigatória pelas organizações e pelos órgãos públicos da administração direta e indireta, bem como pelos órgãos dos Poderes Legislativo, Judiciário e Ministério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 2005
   },
   {
     "id": "chunk-9",
-    "text": "_(Redação dada pela Portaria SEPRT n.º 6.730, de 09/03/20)_\n**SUMÁRIO**\n1.1 Objetivo\n1.2 Campo de aplicação\n1.3 Competências e estrutura\n1.4 Direitos e deveres\n1.5 Gerenciamento de riscos ocupacionais\n1.6 Da prestação de informação digital e digitalização de documentos",
-    "heading": "Introdução",
-    "char_offset": 3546
+    "text": "**1.2.1.2** Nos termos previstos em lei, aplica-se o disposto nas NR a outras relações jurídicas. \n**1.2.2** A observância das NR não desobriga as organizações do cumprimento de outras disposições que, com relação à matéria, sejam incluídas em códigos de obras ou regulamentos sanitários dos Estados ou Municípios, bem como daquelas oriundas de convenções e acordos coletivos de trabalho.",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 2430
   },
   {
     "id": "chunk-10",
-    "text": "1.7 Capacitação e treinamento em Segurança e Saúde no Trabalho\n1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e\nà Empresa de Pequeno Porte - EPP\n1.9 Disposições finais\nAnexo I - Termos e definições\nAnexo II - Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e",
-    "heading": "Introdução",
-    "char_offset": 3816
+    "text": "**1.3** Competências e estrutura \n**1.3.1** A Secretaria de Trabalho - STRAB, por meio da Subsecretaria de Inspeção do Trabalho - SIT, é o órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho para: \n- a) formular e propor as diretrizes, as normas de atuação e supervisionar as atividades da área de  segurança e saúde do trabalhador;",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 2823
   },
   {
     "id": "chunk-11",
-    "text": "semipresencial.\n**1.1 Objetivo**\n**1.1.1** O objetivo desta Norma é estabelecer as disposições gerais, o campo de aplicação, os\ntermos e as definições comuns às Normas Regulamentadoras - NR relativas a segurança e saúde\nno trabalho e as diretrizes e os requisitos para o gerenciamento de riscos ocupacionais e as",
-    "heading": "Introdução",
-    "char_offset": 4153
+    "text": "- b) promover a Campanha Nacional de Prevenção de Acidentes do Trabalho - CANPAT; \n- c) coordenar e fiscalizar o Programa de Alimentação do Trabalhador - PAT; \n- d) promover a fiscalização do cumprimento dos preceitos legais e regulamentares sobre Segurança e Saúde no Trabalho - SST em todo o território nacional;",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 3188
   },
   {
     "id": "chunk-12",
-    "text": "medidas de prevenção em Segurança e Saúde no Trabalho - SST.\n**1.1.2** Para fins de aplicação das Normas Regulamentadoras - NR, consideram-se os termos e\ndefinições constantes no Anexo I.\n**1.2 Campo de aplicação**\n**1.2.1** As NR obrigam, nos termos da lei, empregadores e empregados, urbanos e rurais.",
-    "heading": "Introdução",
-    "char_offset": 4469
+    "text": "- e) participar da implementação da Política Nacional de Segurança e Saúde no Trabalho - PNSST; e \n- f) conhecer, em última instância, dos recursos voluntários ou de ofício, das decisões proferidas pelo órgão regional competente em matéria de segurança e saúde no trabalho, salvo disposição expressa em contrário.",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 3506
   },
   {
     "id": "chunk-13",
-    "text": "Este texto não substitui o publicado no DOU 1\n**1.2.1.1** As NR são de observância obrigatória pelas organizações e pelos órgãos públicos da\nadministração direta e indireta, bem como pelos órgãos dos Poderes Legislativo, Judiciário e\nMinistério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho",
-    "heading": "Introdução",
-    "char_offset": 4775
+    "text": "**1.3.2** Compete à SIT e aos órgãos regionais a ela subordinados em matéria de Segurança e Saúde no Trabalho, nos limites de sua competência, executar: \na) fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho; e b) as atividades relacionadas com a CANPAT e o PAT.",
+    "heading": "**1.2 Campo de aplicação**",
+    "char_offset": 3823
   },
   {
     "id": "chunk-14",
-    "text": "CLT\n**1.2.1.2** Nos termos previstos em lei, aplica-se o disposto nas NR a outras relações jurídicas.\n**1.2.2** A observância das NR não desobriga as organizações do cumprimento de outras\ndisposições que, com relação à matéria, sejam incluídas em códigos de obras ou regulamentos",
-    "heading": "Introdução",
-    "char_offset": 5102
+    "text": "**1.3.3** Cabe à autoridade regional competente em matéria de trabalho impor as penalidades cabíveis por descumprimento dos preceitos legais e regulamentares sobre segurança e saúde no trabalho.",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 4321
   },
   {
     "id": "chunk-15",
-    "text": "sanitários dos Estados ou Municípios, bem como daquelas oriundas de convenções e acordos\ncoletivos de trabalho.\n**1.3** Competências e estrutura\n**1.3.1** A Secretaria de Trabalho - STRAB, por meio da Subsecretaria de Inspeção do Trabalho SIT, é o órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho",
-    "heading": "Introdução",
-    "char_offset": 5385
+    "text": "**1.4.1** Cabe ao empregador: \n- a) cumprir e fazer cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho; \n- b) informar aos trabalhadores: \n- I. os riscos ocupacionais existentes nos locais de trabalho; \n- II. as medidas de prevenção adotadas pela empresa para eliminar ou reduzir tais riscos;",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 4326
   },
   {
     "id": "chunk-16",
-    "text": "para:\na) formular e propor as diretrizes, as normas de atuação e supervisionar as atividades da área\nde segurança e saúde do trabalhador;\nb) promover a Campanha Nacional de Prevenção de Acidentes do Trabalho - CANPAT;\nc) coordenar e fiscalizar o Programa de Alimentação do Trabalhador - PAT;",
-    "heading": "Introdução",
-    "char_offset": 5718
+    "text": "Este texto não substitui o publicado no DOU \n2 \n- III. os resultados dos exames médicos e de exames complementares de diagnóstico aos quais os  próprios trabalhadores forem submetidos; e \n- IV. os resultados das avaliações ambientais realizadas nos locais de trabalho.",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 4656
   },
   {
     "id": "chunk-17",
-    "text": "d) promover a fiscalização do cumprimento dos preceitos legais e regulamentares sobre\nSegurança e Saúde no Trabalho - SST em todo o território nacional;\ne) participar da implementação da Política Nacional de Segurança e Saúde no Trabalho - PNSST;\ne\nf) conhecer, em última instância, dos recursos voluntários ou de ofício, das decisões proferidas",
-    "heading": "Introdução",
-    "char_offset": 6015
+    "text": "- c) elaborar ordens de serviço sobre segurança e saúde no trabalho, dando ciência aos trabalhadores; \n- d) permitir que representantes dos trabalhadores acompanhem a fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho;",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 4928
   },
   {
     "id": "chunk-18",
-    "text": "pelo órgão regional competente em matéria de segurança e saúde no trabalho, salvo\ndisposição expressa em contrário.\n**1.3.2** Compete à SIT e aos órgãos regionais a ela subordinados em matéria de Segurança e Saúde\nno Trabalho, nos limites de sua competência, executar:",
-    "heading": "Introdução",
-    "char_offset": 6363
+    "text": "- e) determinar procedimentos que devem ser adotados em caso de acidente ou doença relacionada ao trabalho, incluindo a análise de suas causas; \n- f) disponibilizar à Inspeção do Trabalho todas as informações relativas à segurança e saúde no  trabalho; e",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 5186
   },
   {
     "id": "chunk-19",
-    "text": "a) fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho; e\nb) as atividades relacionadas com a CANPAT e o PAT.\n**1.3.3** Cabe à autoridade regional competente em matéria de trabalho impor as penalidades\ncabíveis por descumprimento dos preceitos legais e regulamentares sobre segurança e saúde",
-    "heading": "Introdução",
-    "char_offset": 6635
+    "text": "- g) implementar medidas de prevenção, ouvidos os trabalhadores, de acordo com a seguinte ordem de prioridade: \n- I. eliminação dos fatores de risco; \n- II. minimização e controle dos fatores de risco, com a adoção de medidas de proteção coletiva; \n- III. minimização e controle dos fatores de risco, com a adoção de medidas administrativas ou de  organização do trabalho; e",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 5446
   },
   {
     "id": "chunk-20",
-    "text": "no trabalho.\n**1.4 Direitos e deveres**\n**1.4.1** Cabe ao empregador:\na) cumprir e fazer cumprir as disposições legais e regulamentares sobre segurança e saúde no\ntrabalho;\nb) informar aos trabalhadores:\nI. os riscos ocupacionais existentes nos locais de trabalho;",
-    "heading": "Introdução",
-    "char_offset": 6969
+    "text": "- IV. adoção de medidas de proteção individual. \n**1.4.1.1** As organizações obrigadas a constituir CIPA nos termos da NR-05 devem adotar as seguintes medidas, além de outras que entenderem necessárias, com vistas à prevenção e ao combate ao assédio sexual e às demais formas de violência no âmbito do trabalho: _(incluído pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 5824
   },
   {
     "id": "chunk-21",
-    "text": "II. as medidas de prevenção adotadas pela empresa para eliminar ou reduzir tais riscos;\nEste texto não substitui o publicado no DOU 2\nIII. os resultados dos exames médicos e de exames complementares de diagnóstico aos quais\nos próprios trabalhadores forem submetidos; e",
-    "heading": "Introdução",
-    "char_offset": 7238
+    "text": "- a) inclusão de regras de conduta a respeito do assédio sexual e de outras formas de violência nas normas internas da empresa, com ampla divulgação do seu conteúdo aos empregados e às empregadas; _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 6205
   },
   {
     "id": "chunk-22",
-    "text": "IV. os resultados das avaliações ambientais realizadas nos locais de trabalho.\nc) elaborar ordens de serviço sobre segurança e saúde no trabalho, dando ciência aos\ntrabalhadores;\nd) permitir que representantes dos trabalhadores acompanhem a fiscalização dos preceitos",
-    "heading": "Introdução",
-    "char_offset": 7512
+    "text": "- b) fixação de procedimentos para recebimento e acompanhamento de denúncias, para apuração dos fatos e, quando for o caso, para aplicação de sanções administrativas aos responsáveis diretos e indiretos pelos atos de assédio sexual e de violência, garantido o anonimato da pessoa denunciante, sem prejuízo dos procedimentos jurídicos cabíveis; e _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 6471
   },
   {
     "id": "chunk-23",
-    "text": "legais e regulamentares sobre segurança e saúde no trabalho;\ne) determinar procedimentos que devem ser adotados em caso de acidente ou doença\nrelacionada ao trabalho, incluindo a análise de suas causas;\nf) disponibilizar à Inspeção do Trabalho todas as informações relativas à segurança e saúde",
-    "heading": "Introdução",
-    "char_offset": 7784
+    "text": "- c) realização, no mínimo a cada 12 (doze) meses, de ações de capacitação, de orientação e de sensibilização dos empregados e das empregadas de todos os níveis hierárquicos da empresa sobre temas relacionados à violência, ao assédio, à igualdade e à diversidade no âmbito do trabalho, em formatos acessíveis, apropriados e que apresentem máxima efetividade de tais ações. _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**1.4 Direitos e deveres**",
+    "char_offset": 6886
   },
   {
     "id": "chunk-24",
-    "text": "no trabalho; e\ng) implementar medidas de prevenção, ouvidos os trabalhadores, de acordo com a seguinte\nordem de prioridade:\nI. eliminação dos fatores de risco;\nII. minimização e controle dos fatores de risco, com a adoção de medidas de proteção coletiva;",
-    "heading": "Introdução",
-    "char_offset": 8084
+    "text": "- a) cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho, inclusive as ordens de serviço expedidas pelo empregador; \n- b) submeter-se aos exames médicos previstos nas NR; \n- c) colaborar com a organização na aplicação das NR; e",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 7331
   },
   {
     "id": "chunk-25",
-    "text": "III. minimização e controle dos fatores de risco, com a adoção de medidas administrativas ou\nde organização do trabalho; e\nIV. adoção de medidas de proteção individual.\n**1.4.1.1** As organizações obrigadas a constituir CIPA nos termos da NR-05 devem adotar as",
-    "heading": "Introdução",
-    "char_offset": 8343
+    "text": "- d) usar o equipamento de proteção individual fornecido pelo empregador. \nEste texto não substitui o publicado no DOU \n3 \n**1.4.2.1** Constitui ato faltoso a recusa injustificada do empregado ao cumprimento do disposto nas alíneas do subitem anterior.",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 7595
   },
   {
     "id": "chunk-26",
-    "text": "seguintes medidas, além de outras que entenderem necessárias, com vistas à prevenção e ao\ncombate ao assédio sexual e às demais formas de violência no âmbito do trabalho: _(incluído pela_\n_Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\na) inclusão de regras de conduta a respeito do assédio sexual e de outras formas de violência",
-    "heading": "Introdução",
-    "char_offset": 8605
+    "text": "**1.4.3** O trabalhador pode interromper suas atividades quando constatar uma situação de trabalho onde, a seu ver, por motivos razoáveis, envolva um risco grave e iminente para a sua vida ou saúde, informando imediatamente ao seu superior hierárquico. _(alterado pela Portaria MTE nº 342, de 21 de março de 2024)_",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 7850
   },
   {
     "id": "chunk-27",
-    "text": "nas normas internas da empresa, com ampla divulgação do seu conteúdo aos empregados e\nàs empregadas; _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\nb) fixação de procedimentos para recebimento e acompanhamento de denúncias, para\napuração dos fatos e, quando for o caso, para aplicação de sanções administrativas aos",
-    "heading": "Introdução",
-    "char_offset": 8942
+    "text": "**1.4.3.1** O empregador não pode exigir o retorno dos trabalhadores à atividade enquanto não sejam adotadas as medidas corretivas da situação de grave e iminente risco para sua vida ou saúde. _(alterado pela Portaria MTE nº 342, de 21 de março de 2024)_",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 8167
   },
   {
     "id": "chunk-28",
-    "text": "responsáveis diretos e indiretos pelos atos de assédio sexual e de violência, garantido o\nanonimato da pessoa denunciante, sem prejuízo dos procedimentos jurídicos cabíveis; e\n_(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\nc) realização, no mínimo a cada 12 (doze) meses, de ações de capacitação, de orientação e de",
-    "heading": "Introdução",
-    "char_offset": 9279
+    "text": "**1.4.3.2** O trabalhador deve ser protegido de consequências injustificadas, em decorrência da interrupção prevista no caput do item 1.4.3 desta NR. _(inserido pela Portaria MTE nº 342, de 21 de março de 2024)_ \n**1.4.3.3** O trabalhador deve comunicar, imediatamente, ao seu superior hierárquico as situações de trabalho que envolvam um risco grave e iminente para a sua vida ou saúde, bem como de terceiros. _(inserido pela Portaria MTE nº 342, de 21 de março de 2024)_",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 8425
   },
   {
     "id": "chunk-29",
-    "text": "sensibilização dos empregados e das empregadas de todos os níveis hierárquicos da empresa\nsobre temas relacionados à violência, ao assédio, à igualdade e à diversidade no âmbito do\ntrabalho, em formatos acessíveis, apropriados e que apresentem máxima efetividade de tais",
-    "heading": "Introdução",
-    "char_offset": 9616
+    "text": "**1.4.4** Todo trabalhador, ao ser admitido ou quando mudar de função que implique em alteração de risco, deve receber informações sobre: \na) os riscos ocupacionais que existam ou possam originar-se nos locais de trabalho; \nb) os meios para prevenir e controlar tais riscos;",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 8902
   },
   {
     "id": "chunk-30",
-    "text": "ações. _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_\n**1.4.2** Cabe ao trabalhador:\na) cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho,\ninclusive as ordens de serviço expedidas pelo empregador;",
-    "heading": "Introdução",
-    "char_offset": 9890
+    "text": "c) as medidas adotadas pela organização; \nd) os procedimentos a serem adotados em situação de emergência; e \ne) os procedimentos a serem adotados, em conformidade com os subitens 1.4.3 e 1.4.3.1. \n**1.4.4.1** As informações podem ser transmitidas: \na) durante os treinamentos; e",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 9183
   },
   {
     "id": "chunk-31",
-    "text": "b) submeter-se aos exames médicos previstos nas NR;\nc) colaborar com a organização na aplicação das NR; e\nd) usar o equipamento de proteção individual fornecido pelo empregador.\nEste texto não substitui o publicado no DOU 3\n**1.4.2.1** Constitui ato faltoso a recusa injustificada do empregado ao cumprimento do disposto",
-    "heading": "Introdução",
-    "char_offset": 10145
+    "text": "b) por meio de diálogos de segurança, documento físico ou eletrônico. \n_Redação dada pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** \n_<mark>Entra em vigor em 26 de maio de 2026</mark>_ _<u>(Portaria MTE nº 765, de 15 de maio de 2025)</u>_",
+    "heading": "**1.4.2** Cabe ao trabalhador:",
+    "char_offset": 9466
   },
   {
     "id": "chunk-32",
-    "text": "nas alíneas do subitem anterior.\n**1.4.3** O trabalhador pode interromper suas atividades quando constatar uma situação de\ntrabalho onde, a seu ver, por motivos razoáveis, envolva um risco grave e iminente para a sua\nvida ou saúde, informando imediatamente ao seu superior hierárquico. _(alterado pela Portaria MTE_",
-    "heading": "Introdução",
-    "char_offset": 10468
+    "text": "**1.5.1** O disposto neste item deve ser utilizado para fins de prevenção e gerenciamento dos riscos ocupacionais. \n**1.5.2** Para fins de caracterização de atividades ou operações insalubres ou perigosas, devem ser aplicadas as disposições previstas na NR-15 - Atividades e operações insalubres e na NR16 - Atividades e operações perigosas.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 9721
   },
   {
     "id": "chunk-33",
-    "text": "_nº 342, de 21 de março de 2024)_\n**1.4.3.1** O empregador não pode exigir o retorno dos trabalhadores à atividade enquanto não\nsejam adotadas as medidas corretivas da situação de grave e iminente risco para sua vida ou\nsaúde. _(alterado pela Portaria MTE nº 342, de 21 de março de 2024)_",
-    "heading": "Introdução",
-    "char_offset": 10785
+    "text": "**1.5.3** Responsabilidades \n**1.5.3.1** A organização deve implementar nos seus estabelecimentos o gerenciamento de riscos ocupacionais de suas atividades. \nEste texto não substitui o publicado no DOU \n4 \n**1.5.3.1.1** O gerenciamento de riscos ocupacionais deve constituir um Programa de Gerenciamento de Riscos - PGR.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 10069
   },
   {
     "id": "chunk-34",
-    "text": "**1.4.3.2** O trabalhador deve ser protegido de consequências injustificadas, em decorrência da\ninterrupção prevista no caput do item 1.4.3 desta NR. _(inserido pela Portaria MTE nº 342, de 21 de março_\n_de 2024)_\n**1.4.3.3** O trabalhador deve comunicar, imediatamente, ao seu superior hierárquico as situações",
-    "heading": "Introdução",
-    "char_offset": 11076
+    "text": "**1.5.3.1.1.1** O Programa de Gerenciamento de Riscos deve ser implementado por estabelecimento, podendo ser por unidade operacional, setor ou atividade. \n**1.5.3.1.2** O gerenciamento de riscos ocupacionais pode ser atendido por sistemas de gestão, desde que estes cumpram as exigências previstas nesta NR e em dispositivos legais de segurança e saúde no trabalho.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 10393
   },
   {
     "id": "chunk-35",
-    "text": "de trabalho que envolvam um risco grave e iminente para a sua vida ou saúde, bem como de\nterceiros. _(inserido pela Portaria MTE nº 342, de 21 de março de 2024)_\n**1.4.4** Todo trabalhador, ao ser admitido ou quando mudar de função que implique em\nalteração de risco, deve receber informações sobre:",
-    "heading": "Introdução",
-    "char_offset": 11389
+    "text": "**1.5.3.1.3** O PGR deve contemplar ou estar integrado com planos, programas e outros documentos previstos na legislação de segurança e saúde no trabalho. \n**1.5.3.1.4** O gerenciamento de riscos ocupacionais deve abranger os riscos que decorrem dos agentes físicos, químicos, biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco psicossociais relacionados ao trabalho.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 10762
   },
   {
     "id": "chunk-36",
-    "text": "a) os riscos ocupacionais que existam ou possam originar-se nos locais de trabalho;\nb) os meios para prevenir e controlar tais riscos;\nc) as medidas adotadas pela organização;\nd) os procedimentos a serem adotados em situação de emergência; e\ne) os procedimentos a serem adotados, em conformidade com os subitens 1.4.3 e 1.4.3.1.",
-    "heading": "Introdução",
-    "char_offset": 11694
+    "text": "**1.5.3.2** A organização deve: \n- a) evitar ou eliminar os perigos ocupacionais que possam ser originados no trabalho; \n- b) identificar os perigos e possíveis lesões ou agravos à saúde; \n- c) avaliar os riscos ocupacionais indicando o nível de risco;",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 11193
   },
   {
     "id": "chunk-37",
-    "text": "**1.4.4.1** As informações podem ser transmitidas:\na) durante os treinamentos; e\nb) por meio de diálogos de segurança, documento físico ou eletrônico.\nEste texto não substitui o publicado no DOU 4\n**1.5.3.1.1** O gerenciamento de riscos ocupacionais deve constituir um Programa de",
-    "heading": "Introdução",
-    "char_offset": 12028
+    "text": "- d) classificar os riscos ocupacionais para determinar a necessidade de adoção de medidas de prevenção; \n- e) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade estabelecida na alínea “g” do subitem 1.4.1; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 11449
   },
   {
     "id": "chunk-38",
-    "text": "Gerenciamento de Riscos - PGR.\n**1.5.3.1.1.1** O Programa de Gerenciamento de Riscos deve ser implementado por\nestabelecimento, podendo ser por unidade operacional, setor ou atividade.\n**1.5.3.1.2** O gerenciamento de riscos ocupacionais pode ser atendido por sistemas de gestão,",
-    "heading": "Introdução",
-    "char_offset": 12312
+    "text": "- f) acompanhar o controle dos riscos ocupacionais. \n**1.5.3.2.1** A organização deve considerar as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco psicossociais relacionados ao trabalho. \n**1.5.3.3** A organização deve adotar mecanismos para:",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 11709
   },
   {
     "id": "chunk-39",
-    "text": "desde que estes cumpram as exigências previstas nesta NR e em dispositivos legais de\nsegurança e saúde no trabalho.\n**1.5.3.1.3** O PGR deve contemplar ou estar integrado com planos, programas e outros\ndocumentos previstos na legislação de segurança e saúde no trabalho.",
-    "heading": "Introdução",
-    "char_offset": 12593
+    "text": "- a) a participação de trabalhadores no processo de gerenciamentos de riscos ocupacionais, proporcionando noções básicas sobre o gerenciamento de riscos ocupacionais; \n- b) a consulta aos trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas as manifestações da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 11982
   },
   {
     "id": "chunk-40",
-    "text": "**1.5.3.1.4** O gerenciamento de riscos ocupacionais deve abranger os riscos que decorrem dos\nagentes físicos, químicos, biológicos, riscos de acidentes e riscos relacionados aos fatores\nergonômicos, incluindo os fatores de risco psicossociais relacionados ao trabalho.",
-    "heading": "Introdução",
-    "char_offset": 12865
+    "text": "- c) comunicar aos trabalhadores os riscos consolidados no inventário de riscos e as medidas de prevenção previstas no plano de ação. \n**1.5.3.4** A organização deve adotar as medidas necessárias para avaliar e melhorar o desempenho em SST. \n**1.5.3.5** Sempre que várias organizações realizem, simultaneamente, atividades no mesmo local de trabalho devem executar ações integradas para aplicar as medidas de prevenção, visando à proteção de todos os trabalhadores expostos aos riscos ocupacionais.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 12367
   },
   {
     "id": "chunk-41",
-    "text": "**1.5.3.2** A organização deve:\na) evitar ou eliminar os perigos ocupacionais que possam ser originados no trabalho;\nb) identificar os perigos e possíveis lesões ou agravos à saúde;\nc) avaliar os riscos ocupacionais indicando o nível de risco;\nd) classificar os riscos ocupacionais para determinar a necessidade de adoção de medidas de",
-    "heading": "Introdução",
-    "char_offset": 13140
+    "text": "Este texto não substitui o publicado no DOU \n5 \n- **1.5.4** Processo de identificação de perigos e avaliação de riscos ocupacionais \n**1.5.4.1** O processo de identificação de perigos e avaliação de riscos ocupacionais deve considerar o disposto nas NR e exigências legais de segurança e saúde no trabalho.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 12871
   },
   {
     "id": "chunk-42",
-    "text": "prevenção;\ne) implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de\nprioridade estabelecida na alínea “g” do subitem 1.4.1; e\nf) acompanhar o controle dos riscos ocupacionais.\n**1.5.3.2.1** A organização deve considerar as condições de trabalho, nos termos da NR-17,",
-    "heading": "Introdução",
-    "char_offset": 13481
+    "text": "**1.5.4.2** Levantamento preliminar de perigos e riscos \n**1.5.4.2.1** O levantamento preliminar de perigos e riscos deve ser realizado: \n- a) antes do início do funcionamento do estabelecimento ou novas instalações; \n- b) para as atividades existentes; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 13183
   },
   {
     "id": "chunk-43",
-    "text": "incluindo os fatores de risco psicossociais relacionados ao trabalho.\n**1.5.3.3** A organização deve adotar mecanismos para:\na) a participação de trabalhadores no processo de gerenciamentos de riscos ocupacionais,\nproporcionando noções básicas sobre o gerenciamento de riscos ocupacionais;",
-    "heading": "Introdução",
-    "char_offset": 13784
+    "text": "c) nas mudanças e introdução de novos processos ou atividades de trabalho. \n**1.5.4.2.1.1** O levantamento preliminar de perigos e riscos deve ser realizado para: \n- a) identificar situações em que é possível evitar ou eliminar perigos; e \n- b) identificar situações de risco ocupacional evidente nas quais a organização deve adotar medidas de redução ou controle imediatamente.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 13444
   },
   {
     "id": "chunk-44",
-    "text": "b) a consulta aos trabalhadores quanto à percepção de riscos ocupacionais, podendo para\neste fim ser adotadas as manifestações da Comissão Interna de Prevenção de Acidentes e\nde Assédio - CIPA, quando houver; e\nc) comunicar aos trabalhadores os riscos consolidados no inventário de riscos e as medidas",
-    "heading": "Introdução",
-    "char_offset": 14077
+    "text": "**1.5.4.2.1.2** Quando na fase de levantamento preliminar de perigos e riscos, o perigo não puder ser evitado ou eliminado, a organização deve implementar o processo de identificação de perigos e avaliação de riscos ocupacionais, conforme disposto nos subitens 1.5.4.3 e 1.5.4.4 desta NR.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 13825
   },
   {
     "id": "chunk-45",
-    "text": "de prevenção previstas no plano de ação.\n**1.5.3.4** A organização deve adotar as medidas necessárias para avaliar e melhorar o\ndesempenho em SST.\n**1.5.3.5** Sempre que várias organizações realizem, simultaneamente, atividades no mesmo\nlocal de trabalho devem executar ações integradas para aplicar as medidas de prevenção,",
-    "heading": "Introdução",
-    "char_offset": 14382
+    "text": "**1.5.4.2.1.3** Quando na fase de levantamento preliminar de perigos e riscos não for possível adotar medidas imediatas para reduzir ou controlar o risco ocupacional evidente, as medidas devem ser inseridas no plano de ação e o risco registrado no inventário de riscos.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 14116
   },
   {
     "id": "chunk-46",
-    "text": "visando à proteção de todos os trabalhadores expostos aos riscos ocupacionais.\nEste texto não substitui o publicado no DOU 5\n**1.5.4** Processo de identificação de perigos e avaliação de riscos ocupacionais\n**1.5.4.1** O processo de identificação de perigos e avaliação de riscos ocupacionais deve",
-    "heading": "Introdução",
-    "char_offset": 14710
+    "text": "**1.5.4.2.1.4** A critério da organização, a etapa de levantamento preliminar de perigos e riscos pode estar contemplada na etapa de identificação de perigos. _(numeração retificada - DOU de 30 de julho de 2025)_ \n**1.5.4.3** Identificação de perigos",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 14389
   },
   {
     "id": "chunk-47",
-    "text": "considerar o disposto nas NR e exigências legais de segurança e saúde no trabalho.\n**1.5.4.2** Levantamento preliminar de perigos e riscos\n**1.5.4.2.1** O levantamento preliminar de perigos e riscos deve ser realizado:\na) antes do início do funcionamento do estabelecimento ou novas instalações;",
-    "heading": "Introdução",
-    "char_offset": 15011
+    "text": "**1.5.4.3.1** A etapa de identificação de perigos deve incluir: \na) descrição dos perigos e possíveis lesões ou agravos à saúde; \n- b) identificação das fontes e/ou circunstâncias; e \n- c) indicação do grupo de trabalhadores sujeitos ao perigo, que pode ser constituído por um ou mais trabalhadores.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 14645
   },
   {
     "id": "chunk-48",
-    "text": "b) para as atividades existentes; e\nc) nas mudanças e introdução de novos processos ou atividades de trabalho.\n**1.5.4.2.1.1** O levantamento preliminar de perigos e riscos deve ser realizado para:\na) identificar situações em que é possível evitar ou eliminar perigos; e",
-    "heading": "Introdução",
-    "char_offset": 15311
+    "text": "**1.5.4.3.2** A identificação dos perigos deve abordar os perigos externos previsíveis relacionados ao trabalho que possam afetar a saúde e segurança no trabalho. \n**1.5.4.4** Avaliação de riscos ocupacionais \n**1.5.4.4.1** A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seu(s) estabelecimento(s), de forma a manter informações para adoção de medidas de",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 14949
   },
   {
     "id": "chunk-49",
-    "text": "b) identificar situações de risco ocupacional evidente nas quais a organização deve adotar\nmedidas de redução ou controle imediatamente.\n**1.5.4.2.1.2** Quando na fase de levantamento preliminar de perigos e riscos, o perigo não\npuder ser evitado ou eliminado, a organização deve implementar o processo de identificação",
-    "heading": "Introdução",
-    "char_offset": 15585
+    "text": "Este texto não substitui o publicado no DOU \n6 \nprevenção. \n**1.5.4.4.2** Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade de sua ocorrência.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 15350
   },
   {
     "id": "chunk-50",
-    "text": "de perigos e avaliação de riscos ocupacionais, conforme disposto nos subitens 1.5.4.3 e\n1.5.4.4 desta NR.\n**1.5.4.2.1.3** Quando na fase de levantamento preliminar de perigos e riscos não for possível\nadotar medidas imediatas para reduzir ou controlar o risco ocupacional evidente, as medidas",
-    "heading": "Introdução",
-    "char_offset": 15907
+    "text": "**1.5.4.4.2.1** A organização deve selecionar as ferramentas e técnicas de avaliação de riscos que sejam adequadas ao risco ou circunstância em avaliação. \n**1.5.4.4.2.2** A organização deve detalhar em documento os critérios das gradações de severidade e de probabilidade, os níveis de risco, os critérios de classificação de riscos e de tomada de decisão utilizados no gerenciamento de riscos ocupacionais.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 15612
   },
   {
     "id": "chunk-51",
-    "text": "devem ser inseridas no plano de ação e o risco registrado no inventário de riscos.\n**1.5.4.2.1.4** A critério da organização, a etapa de levantamento preliminar de perigos e riscos\npode estar contemplada na etapa de identificação de perigos. _(numeração retificada - DOU de 30_",
-    "heading": "Introdução",
-    "char_offset": 16201
+    "text": "**1.5.4.4.3** Após a determinação dos níveis de risco, os riscos ocupacionais devem ser classificados para fins de identificar a necessidade de adoção ou manutenção de medidas de prevenção e elaboração do plano de ação. \n**1.5.4.4.4** A severidade deve ser estabelecida em razão da magnitude das possíveis consequências das lesões ou agravos à saúde.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 16024
   },
   {
     "id": "chunk-52",
-    "text": "_de julho de 2025)_\n**1.5.4.3** Identificação de perigos\n**1.5.4.3.1** A etapa de identificação de perigos deve incluir:\na) descrição dos perigos e possíveis lesões ou agravos à saúde;\nb) identificação das fontes e/ou circunstâncias; e\nc) indicação do grupo de trabalhadores sujeitos ao perigo, que pode ser constituído por um",
-    "heading": "Introdução",
-    "char_offset": 16484
+    "text": "**1.5.4.4.4.1** Para cada perigo identificado, quando existir mais de uma consequência possível, deve ser selecionada a consequência de maior magnitude. \n**1.5.4.4.5** A probabilidade deve ser estabelecida com base na chance de ocorrência das lesões ou agravos à saúde.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 16378
   },
   {
     "id": "chunk-53",
-    "text": "ou mais trabalhadores.\n**1.5.4.3.2** A identificação dos perigos deve abordar os perigos externos previsíveis\nrelacionados ao trabalho que possam afetar a saúde e segurança no trabalho.\n**1.5.4.4** Avaliação de riscos ocupacionais\n**1.5.4.4.1** A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados",
-    "heading": "Introdução",
-    "char_offset": 16815
+    "text": "**1.5.4.4.5.1** A gradação da probabilidade deve levar em consideração o cumprimento dos requisitos estabelecidos em NR e na legislação aplicável. \n**1.5.4.4.5.2** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de perigos físicos, químicos e biológicos, a avaliação deve comparar o perfil de exposição ocupacional com valores de referência ou aplicar outros critérios estabelecidos na NR-09 e a eficácia das medidas de prevenção implementadas.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 16651
   },
   {
     "id": "chunk-54",
-    "text": "em seu(s) estabelecimento(s), de forma a manter informações para adoção de medidas de\nEste texto não substitui o publicado no DOU 6\nprevenção.\n**1.5.4.4.2** Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela\ncombinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade de",
-    "heading": "Introdução",
-    "char_offset": 17149
+    "text": "**1.5.4.4.5.3** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos, incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco deve considerar as exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 17127
   },
   {
     "id": "chunk-55",
-    "text": "sua ocorrência.\n**1.5.4.4.2.1** A organização deve selecionar as ferramentas e técnicas de avaliação de riscos\nque sejam adequadas ao risco ou circunstância em avaliação.\n**1.5.4.4.2.2** A organização deve detalhar em documento os critérios das gradações de",
-    "heading": "Introdução",
-    "char_offset": 17478
+    "text": "**1.5.4.4.5.4** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de acidentes, a avaliação de risco deve considerar a exposição do trabalhador ao perigo e a eficácia das medidas de prevenção implementadas. \n**1.5.4.4.6** A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 17447
   },
   {
     "id": "chunk-56",
-    "text": "severidade e de probabilidade, os níveis de risco, os critérios de classificação de riscos e de\ntomada de decisão utilizados no gerenciamento de riscos ocupacionais.\n**1.5.4.4.3** Após a determinação dos níveis de risco, os riscos ocupacionais devem ser",
-    "heading": "Introdução",
-    "char_offset": 17737
+    "text": "- a) após implementação das medidas de prevenção, para avaliação de riscos residuais; \n- b) após inovações e modificações nas tecnologias, ambientes, processos, condições, <u>procedimentos e organização do trabalho que impliquem em novos riscos ou modifiquem</u>",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 17838
   },
   {
     "id": "chunk-57",
-    "text": "classificados para fins de identificar a necessidade de adoção ou manutenção de medidas de\nprevenção e elaboração do plano de ação.\n**1.5.4.4.4** A severidade deve ser estabelecida em razão da magnitude das possíveis\nconsequências das lesões ou agravos à saúde.",
-    "heading": "Introdução",
-    "char_offset": 17992
+    "text": "Este texto não substitui o publicado no DOU \n7 \nos riscos existentes; \n- c) quando identificadas inadequações, insuficiência ou ineficácia das medidas de prevenção; \n- d) na ocorrência de acidentes ou doenças relacionadas ao trabalho; \n- e) quando houver mudança nos requisitos legais aplicáveis; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 18108
   },
   {
     "id": "chunk-58",
-    "text": "**1.5.4.4.4.1** Para cada perigo identificado, quando existir mais de uma consequência possível,\ndeve ser selecionada a consequência de maior magnitude.\n**1.5.4.4.5** A probabilidade deve ser estabelecida com base na chance de ocorrência das lesões\nou agravos à saúde.",
-    "heading": "Introdução",
-    "char_offset": 18256
+    "text": "- f) após a solicitação justificada dos trabalhadores ou da CIPA, quando houver. \n- **1.5.4.4.6.1** No caso de organizações que possuírem certificações em sistema de gestão de SST, o prazo poderá ser de até 3 (três) anos. _(numeração retificada - DOU de 30 de julho de 2025)_",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 18410
   },
   {
     "id": "chunk-59",
-    "text": "**1.5.4.4.5.1** A gradação da probabilidade deve levar em consideração o cumprimento dos\nrequisitos estabelecidos em NR e na legislação aplicável.\n**1.5.4.4.5.2** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de\nperigos físicos, químicos e biológicos, a avaliação deve comparar o perfil de exposição",
-    "heading": "Introdução",
-    "char_offset": 18527
+    "text": "**1.5.5** Controle dos riscos \n**1.5.5.1** Medidas de prevenção \n**1.5.5.1.1** A organização deve adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que: \n- a) exigências previstas em Normas Regulamentadoras e em dispositivos legais determinarem;",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 18691
   },
   {
     "id": "chunk-60",
-    "text": "ocupacional com valores de referência ou aplicar outros critérios estabelecidos na NR-09 e a\neficácia das medidas de prevenção implementadas.\n**1.5.4.4.5.3** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de\nfatores ergonômicos, incluindo os fatores de riscos psicossociais relacionados ao trabalho, a",
-    "heading": "Introdução",
-    "char_offset": 18859
+    "text": "- b) a classificação dos riscos ocupacionais assim determinar, conforme subitem 1.5.4.4.3; \n- c) houver evidências de associação entre as lesões e os agravos à saúde dos trabalhadores e os riscos e as situações de trabalho identificados; e \n- d) os resultados das análises de acidentes e doenças concluírem por esta necessidade.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 18972
   },
   {
     "id": "chunk-61",
-    "text": "avaliação de risco deve considerar as exigências da atividade de trabalho e a eficácia das\nmedidas de prevenção implementadas.\n**1.5.4.4.5.4** Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de\nacidentes, a avaliação de risco deve considerar a exposição do trabalhador ao perigo e a",
-    "heading": "Introdução",
-    "char_offset": 19192
+    "text": "**1.5.5.1.2** Quando comprovada pela organização a inviabilidade técnica da adoção de medidas de proteção coletiva, ou quando estas não forem suficientes ou encontrarem-se em fase de estudo, planejamento ou implantação ou, ainda, em caráter complementar ou emergencial, deverão ser adotadas outras medidas, obedecendo-se a seguinte hierarquia:",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 19303
   },
   {
     "id": "chunk-62",
-    "text": "eficácia das medidas de prevenção implementadas.\n**1.5.4.4.6** A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois\nanos ou quando da ocorrência das seguintes situações:\na) após implementação das medidas de prevenção, para avaliação de riscos residuais;",
-    "heading": "Introdução",
-    "char_offset": 19506
+    "text": "- a) medidas de caráter administrativo ou de organização do trabalho; e \nb) utilização de equipamento de proteção individual - EPI. \n**1.5.5.1.3** A implantação de medidas de prevenção deve ser acompanhada de informação aos trabalhadores quanto aos procedimentos a serem adotados e limitações das medidas de prevenção.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 19651
   },
   {
     "id": "chunk-63",
-    "text": "b) após inovações e modificações nas tecnologias, ambientes, processos, condições,\nprocedimentos e organização do trabalho que impliquem em novos riscos ou modifiquem\nEste texto não substitui o publicado no DOU 7\nos riscos existentes;\nc) quando identificadas inadequações, insuficiência ou ineficácia das medidas de prevenção;",
-    "heading": "Introdução",
-    "char_offset": 19797
+    "text": "**1.5.5.2** Planos de ação \n**1.5.5.2.1** A organização deve elaborar plano de ação, indicando as medidas de prevenção a serem introduzidas, aprimoradas ou mantidas, conforme o subitem 1.5.4.4.3. \n**1.5.5.2.1.1** O número de trabalhadores possivelmente atingidos deve ser utilizado como critério para aumentar a prioridade de ação.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 19974
   },
   {
     "id": "chunk-64",
-    "text": "d) na ocorrência de acidentes ou doenças relacionadas ao trabalho;\ne) quando houver mudança nos requisitos legais aplicáveis; e\nf) após a solicitação justificada dos trabalhadores ou da CIPA, quando houver.\n**1.5.4.4.6.1** No caso de organizações que possuírem certificações em sistema de gestão de",
-    "heading": "Introdução",
-    "char_offset": 20128
+    "text": "- **1.5.5.2.2** Para as medidas de prevenção deve ser definido cronograma com responsáveis, formas de acompanhamento e aferição de resultados. \n**1.5.5.3** Implementação e acompanhamento das medidas de prevenção \nEste texto não substitui o publicado no DOU",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 20310
   },
   {
     "id": "chunk-65",
-    "text": "SST, o prazo poderá ser de até 3 (três) anos. _(numeração retificada - DOU de 30 de julho de 2025)_\n**1.5.5** Controle dos riscos\n**1.5.5.1** Medidas de prevenção\n**1.5.5.1.1** A organização deve adotar medidas de prevenção para eliminar, reduzir ou",
-    "heading": "Introdução",
-    "char_offset": 20430
+    "text": "8 \n- **1.5.5.3.1** A implementação das medidas de prevenção e respectivos ajustes devem ser registrados. \n**1.5.5.3.2** O desempenho das medidas de prevenção deve ser acompanhado de forma planejada e contemplar: \n- a) a verificação da execução das ações planejadas e da continuidade de sua aplicação, quando for o caso;",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 20572
   },
   {
     "id": "chunk-66",
-    "text": "controlar os riscos sempre que:\na) exigências previstas em Normas Regulamentadoras e em dispositivos legais\ndeterminarem;\nb) a classificação dos riscos ocupacionais assim determinar, conforme subitem 1.5.4.4.3;\nc) houver evidências de associação entre as lesões e os agravos à saúde dos trabalhadores e",
-    "heading": "Introdução",
-    "char_offset": 20684
+    "text": "- b) as inspeções dos locais e equipamentos de trabalho; \n- c) o monitoramento das condições ambientais e exposições a agentes nocivos, quando aplicável; e \n- d) a participação dos trabalhadores e da CIPA, quando houver. \n**1.5.5.3.2.1** As medidas de prevenção devem ser corrigidas quando os dados obtidos no acompanhamento indicarem ineficácia em seu desempenho.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 20897
   },
   {
     "id": "chunk-67",
-    "text": "os riscos e as situações de trabalho identificados; e\nd) os resultados das análises de acidentes e doenças concluírem por esta necessidade.\n**1.5.5.1.2** Quando comprovada pela organização a inviabilidade técnica da adoção de medidas\nde proteção coletiva, ou quando estas não forem suficientes ou encontrarem-se em fase de",
-    "heading": "Introdução",
-    "char_offset": 20990
+    "text": "**1.5.5.4** Acompanhamento da saúde ocupacional dos trabalhadores \n**1.5.5.4.1** A organização deve desenvolver ações em saúde ocupacional dos trabalhadores integradas às demais medidas de prevenção em SST, de acordo com os riscos gerados pelo trabalho.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 21265
   },
   {
     "id": "chunk-68",
-    "text": "estudo, planejamento ou implantação ou, ainda, em caráter complementar ou emergencial,\ndeverão ser adotadas outras medidas, obedecendo-se a seguinte hierarquia:\na) medidas de caráter administrativo ou de organização do trabalho; e\nb) utilização de equipamento de proteção individual - EPI.",
-    "heading": "Introdução",
-    "char_offset": 21315
+    "text": "**1.5.5.4.2** O controle da saúde dos empregados deve ser um processo preventivo planejado, sistemático e continuado, de acordo com a classificação de riscos ocupacionais e nos termos da NR-7. \n**1.5.5.5** Análise de acidentes e doenças relacionadas ao trabalho",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 21522
   },
   {
     "id": "chunk-69",
-    "text": "**1.5.5.1.3** A implantação de medidas de prevenção deve ser acompanhada de informação aos\ntrabalhadores quanto aos procedimentos a serem adotados e limitações das medidas de\nprevenção.\n**1.5.5.2** Planos de ação\n**1.5.5.2.1** A organização deve elaborar plano de ação, indicando as medidas de prevenção a",
-    "heading": "Introdução",
-    "char_offset": 21608
+    "text": "**1.5.5.5.1** A organização deve analisar os acidentes e as doenças relacionadas ao trabalho. \n**1.5.5.5.1.1** Deve ser realizada a análise de eventos perigosos que poderiam ter consequências graves. \n**1.5.5.5.2** As análises de acidentes e doenças relacionadas ao trabalho devem ser documentadas e:",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 21788
   },
   {
     "id": "chunk-70",
-    "text": "serem introduzidas, aprimoradas ou mantidas, conforme o subitem 1.5.4.4.3.\n**1.5.5.2.1.1** O número de trabalhadores possivelmente atingidos deve ser utilizado como\ncritério para aumentar a prioridade de ação.\n**1.5.5.2.2** Para as medidas de prevenção deve ser definido cronograma com responsáveis,",
-    "heading": "Introdução",
-    "char_offset": 21916
+    "text": "- a) considerar as situações geradoras dos eventos, levando em conta as atividades efetivamente desenvolvidas, ambiente de trabalho, materiais, processo produtivo, organização do trabalho e outros fatores relacionados com os eventos; \n- b) considerar os dados da organização, dados epidemiológicos e as informações prestadas pelos trabalhadores; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 22092
   },
   {
     "id": "chunk-71",
-    "text": "formas de acompanhamento e aferição de resultados.\n**1.5.5.3** Implementação e acompanhamento das medidas de prevenção\nEste texto não substitui o publicado no DOU 8\n**1.5.5.3.1** A implementação das medidas de prevenção e respectivos ajustes devem ser",
-    "heading": "Introdução",
-    "char_offset": 22219
+    "text": "- c) fornecer evidências para revisar e aprimorar as medidas de prevenção existentes. \n- **1.5.6** Preparação e resposta a emergências \n**1.5.6.1** A organização deve estabelecer, implementar e manter procedimentos de resposta a emergências, de acordo com os riscos, as características e as circunstâncias das atividades.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 22444
   },
   {
     "id": "chunk-72",
-    "text": "registrados.\n**1.5.5.3.2** O desempenho das medidas de prevenção deve ser acompanhado de forma\nplanejada e contemplar:\na) a verificação da execução das ações planejadas e da continuidade de sua aplicação,\nquando for o caso;\nb) as inspeções dos locais e equipamentos de trabalho;",
-    "heading": "Introdução",
-    "char_offset": 22475
+    "text": "Este texto não substitui o publicado no DOU \n9 \n- **1.5.6.2** Os procedimentos de resposta a emergências devem prever, no mínimo: \n- a) os meios, responsáveis e recursos necessários para os primeiros socorros, encaminhamento de acidentados e abandono de locais afetados; e",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 22771
   },
   {
     "id": "chunk-73",
-    "text": "c) o monitoramento das condições ambientais e exposições a agentes nocivos, quando\naplicável; e\nd) a participação dos trabalhadores e da CIPA, quando houver.\n**1.5.5.3.2.1** As medidas de prevenção devem ser corrigidas quando os dados obtidos no\nacompanhamento indicarem ineficácia em seu desempenho.",
-    "heading": "Introdução",
-    "char_offset": 22758
+    "text": "- b) as medidas necessárias para emergências de grande magnitude, quando aplicável. \n**1.5.6.3** A organização deve realizar exercícios simulados, conforme previsto em procedimento de resposta a emergências, que deve incluir sua periodicidade. \n**1.5.6.3.1** Devem ser geradas evidências do exercício simulado quando realizado.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 23048
   },
   {
     "id": "chunk-74",
-    "text": "**1.5.5.4** Acompanhamento da saúde ocupacional dos trabalhadores\n**1.5.5.4.1** A organização deve desenvolver ações em saúde ocupacional dos trabalhadores\nintegradas às demais medidas de prevenção em SST, de acordo com os riscos gerados pelo\ntrabalho.",
-    "heading": "Introdução",
-    "char_offset": 23062
+    "text": "- **1.5.7** Documentação \n- **1.5.7.1** O PGR deve conter, no mínimo, os seguintes documentos: \n- a) inventário de riscos; e \n- b) plano de ação. \n**1.5.7.2** Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado o disposto nas demais Normas Regulamentadoras, datados e assinados.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 23382
   },
   {
     "id": "chunk-75",
-    "text": "**1.5.5.4.2** O controle da saúde dos empregados deve ser um processo preventivo planejado,\nsistemático e continuado, de acordo com a classificação de riscos ocupacionais e nos termos\nda NR-7.\n**1.5.5.5** Análise de acidentes e doenças relacionadas ao trabalho",
-    "heading": "Introdução",
-    "char_offset": 23318
+    "text": "**1.5.7.2.1** Os documentos integrantes do PGR devem estar sempre disponíveis aos trabalhadores interessados, aos sindicatos representantes das categorias profissionais e à Inspeção do Trabalho. \n**1.5.7.3** Inventário de riscos ocupacionais \n**1.5.7.3.1** Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais devem ser consolidados em um inventário de riscos ocupacionais.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 23717
   },
   {
     "id": "chunk-76",
-    "text": "**1.5.5.5.1** A organização deve analisar os acidentes e as doenças relacionadas ao trabalho.\n**1.5.5.5.1.1** Deve ser realizada a análise de eventos perigosos que poderiam ter consequências\ngraves.\n**1.5.5.5.2** As análises de acidentes e doenças relacionadas ao trabalho devem ser",
-    "heading": "Introdução",
-    "char_offset": 23583
+    "text": "**1.5.7.3.2** O inventário de riscos ocupacionais deve contemplar, no mínimo, as seguintes informações: \n- a) caracterização dos processos e ambientes de trabalho; \n- b) caracterização das atividades; \n- c) descrição dos perigos, com a identificação das fontes e/ou circunstâncias;",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 24122
   },
   {
     "id": "chunk-77",
-    "text": "documentadas e:\na) considerar as situações geradoras dos eventos, levando em conta as atividades\nefetivamente desenvolvidas, ambiente de trabalho, materiais, processo produtivo,\norganização do trabalho e outros fatores relacionados com os eventos;\nb) considerar os dados da organização, dados epidemiológicos e as informações prestadas",
-    "heading": "Introdução",
-    "char_offset": 23870
+    "text": "- d) indicação das possíveis lesões ou agravos à saúde decorrentes da exposição dos trabalhadores aos perigos; \n- e) indicação dos grupos de trabalhadores expostos aos perigos; \n- f) descrição das medidas de prevenção implementadas; \n- g) caracterização da exposição dos trabalhadores aos perigos;",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 24409
   },
   {
     "id": "chunk-78",
-    "text": "pelos trabalhadores; e\nc) fornecer evidências para revisar e aprimorar as medidas de prevenção existentes.\n**1.5.6** Preparação e resposta a emergências\n**1.5.6.1** A organização deve estabelecer, implementar e manter procedimentos de resposta a\nemergências, de acordo com os riscos, as características e as circunstâncias das atividades.",
-    "heading": "Introdução",
-    "char_offset": 24210
+    "text": "- h) dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17; e \n- i) avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 24710
   },
   {
     "id": "chunk-79",
-    "text": "Este texto não substitui o publicado no DOU 9\n**1.5.6.2** Os procedimentos de resposta a emergências devem prever, no mínimo:\na) os meios, responsáveis e recursos necessários para os primeiros socorros,\nencaminhamento de acidentados e abandono de locais afetados; e",
-    "heading": "Introdução",
-    "char_offset": 24553
+    "text": "Este texto não substitui o publicado no DOU \n10 \n**1.5.7.3.3** O inventário de riscos ocupacionais deve ser mantido atualizado. \n**1.5.7.3.3.1** O histórico das atualizações deve ser mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 24985
   },
   {
     "id": "chunk-80",
-    "text": "b) as medidas necessárias para emergências de grande magnitude, quando aplicável.\n**1.5.6.3** A organização deve realizar exercícios simulados, conforme previsto em\nprocedimento de resposta a emergências, que deve incluir sua periodicidade.\n**1.5.6.3.1** Devem ser geradas evidências do exercício simulado quando realizado.",
-    "heading": "Introdução",
-    "char_offset": 24822
+    "text": "**1.5.8** GRO nas relações de prestação de serviços a terceiros \n**1.5.8.1** O PGR da organização contratante deve incluir as medidas de prevenção para as organizações contratadas que atuem em suas dependências ou local previamente convencionado em contrato ou utilizar os programas das contratadas.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 25277
   },
   {
     "id": "chunk-81",
-    "text": "**1.5.7** Documentação\n**1.5.7.1** O PGR deve conter, no mínimo, os seguintes documentos:\na) inventário de riscos; e\nb) plano de ação.\n**1.5.7.2** Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da\norganização, respeitado o disposto nas demais Normas Regulamentadoras, datados e",
-    "heading": "Introdução",
-    "char_offset": 25151
+    "text": "**1.5.8.1.1** No caso de utilização dos programas das organizações contratadas, estas devem fornecer à organização contratante o inventário de riscos ocupacionais e o plano de ação referente às atividades objeto de sua contratação. \n**1.5.8.1.2** No caso das organizações contratadas em que os serviços são prestados somente pelo titular ou sócios, a organização contratante deve estender suas medidas de prevenção aos riscos das atividades objeto de sua contratação, quando atuarem em suas dependências ou local previamente convencionado em contrato.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 25580
   },
   {
     "id": "chunk-82",
-    "text": "assinados.\n**1.5.7.2.1** Os documentos integrantes do PGR devem estar sempre disponíveis aos\ntrabalhadores interessados, aos sindicatos representantes das categorias profissionais e à\nInspeção do Trabalho.\n**1.5.7.3** Inventário de riscos ocupacionais",
-    "heading": "Introdução",
-    "char_offset": 25462
+    "text": "**1.5.8.2** As organizações contratantes devem informar às organizações contratadas os riscos ocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações contratadas. \n**1.5.8.3** As organizações contratadas devem informar às organizações contratantes os riscos ocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações contratantes.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 26135
   },
   {
     "id": "chunk-83",
-    "text": "**1.5.7.3.1** Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais\ndevem ser consolidados em um inventário de riscos ocupacionais.\n**1.5.7.3.2** O inventário de riscos ocupacionais deve contemplar, no mínimo, as seguintes\ninformações:",
-    "heading": "Introdução",
-    "char_offset": 25716
+    "text": "**1.5.8.4** No caso de organizações contratadas que realizam atividades no estabelecimento da organização contratante cujos riscos resultem da interação das atividades das organizações, as medidas de prevenção devem ser definidas em conjunto, sob a coordenação da organização contratante.",
+    "heading": "**1.5 Gerenciamento de riscos ocupacionais**",
+    "char_offset": 26533
   },
   {
     "id": "chunk-84",
-    "text": "a) caracterização dos processos e ambientes de trabalho;\nb) caracterização das atividades;\nc) descrição dos perigos, com a identificação das fontes e/ou circunstâncias;\nd) indicação das possíveis lesões ou agravos à saúde decorrentes da exposição dos",
-    "heading": "Introdução",
-    "char_offset": 25981
+    "text": "**1.6.1** As organizações devem prestar informações de segurança e saúde no trabalho em formato digital, conforme modelo aprovado pela STRAB, ouvida a SIT. \n**1.6.1.1** Os modelos aprovados pela STRAB devem considerar os princípios de simplificação e desburocratização.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 26826
   },
   {
     "id": "chunk-85",
-    "text": "trabalhadores aos perigos;\ne) indicação dos grupos de trabalhadores expostos aos perigos;\nf) descrição das medidas de prevenção implementadas;\ng) caracterização da exposição dos trabalhadores aos perigos;\nh) dados da análise preliminar ou do monitoramento das exposições a agentes físicos,",
-    "heading": "Introdução",
-    "char_offset": 26237
+    "text": "**1.6.2** Os documentos previstos nas NR podem ser emitidos e armazenados em meio digital com certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), normatizada por lei específica. \n**1.6.3** Os documentos físicos, assinados manualmente, inclusive os anteriores à vigência desta NR, podem ser arquivados em meio digital, pelo período correspondente exigido pela legislação própria, mediante processo de digitalização conforme disposto em Lei.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 27099
   },
   {
     "id": "chunk-86",
-    "text": "químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17; e\ni) avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação.\nEste texto não substitui o publicado no DOU 10\n**1.5.7.3.3** O inventário de riscos ocupacionais deve ser mantido atualizado.",
-    "heading": "Introdução",
-    "char_offset": 26531
+    "text": "Este texto não substitui o publicado no DOU \n11 \n**1.6.3.1** O processo de digitalização deve ser realizado de forma a manter a integridade, a autenticidade e, se necessário, a confidencialidade do documento digital, com o emprego de certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 27591
   },
   {
     "id": "chunk-87",
-    "text": "**1.5.7.3.3.1** O histórico das atualizações deve ser mantido por um período mínimo de 20\n(vinte) anos ou pelo período estabelecido em normatização específica.\n**1.5.8** GRO nas relações de prestação de serviços a terceiros\n**1.5.8.1** O PGR da organização contratante deve incluir as medidas de prevenção para as",
-    "heading": "Introdução",
-    "char_offset": 26840
+    "text": "**1.6.3.2** Os empregadores que optarem pela guarda de documentos prevista no _caput_ devem manter os originais conforme previsão em lei. \n**1.6.4** O empregador deve garantir a preservação de todos os documentos nato digitais ou digitalizados por meio de procedimentos e tecnologias que permitam verificar, a qualquer tempo, sua validade jurídica em todo território nacional, garantindo permanentemente sua  autenticidade, integridade, disponibilidade, rastreabilidade, irretratabilidade, privacidade e interoperabilidade.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 27928
   },
   {
     "id": "chunk-88",
-    "text": "organizações contratadas que atuem em suas dependências ou local previamente\nconvencionado em contrato ou utilizar os programas das contratadas.\n**1.5.8.1.1** No caso de utilização dos programas das organizações contratadas, estas devem\nfornecer à organização contratante o inventário de riscos ocupacionais e o plano de ação",
-    "heading": "Introdução",
-    "char_offset": 27155
+    "text": "**1.6.5** O empregador deve garantir à Inspeção do Trabalho amplo e irrestrito acesso a todos os documentos digitalizados ou nato digitais. \n**1.6.5.1** Para os documentos que devem estar à disposição dos trabalhadores ou dos seus representantes, a organização deverá prover meios de acesso destes às informações, de modo a atender os objetivos da norma específica.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 28455
   },
   {
     "id": "chunk-89",
-    "text": "referente às atividades objeto de sua contratação.\n**1.5.8.1.2** No caso das organizações contratadas em que os serviços são prestados somente\npelo titular ou sócios, a organização contratante deve estender suas medidas de prevenção\naos riscos das atividades objeto de sua contratação, quando atuarem em suas dependências",
-    "heading": "Introdução",
-    "char_offset": 27482
+    "text": "**1.7** Capacitação e treinamento em Segurança e Saúde no Trabalho. \n**1.7.1** O empregador deve promover capacitação e treinamento dos trabalhadores, em conformidade com o disposto nas NR. \n**1.7.1.1** Ao término dos treinamentos inicial, periódico ou eventual, previstos nas NR, deve ser emitido certificado contendo o nome e assinatura do trabalhador, conteúdo programático, carga horária, data, local de realização do treinamento, nome e qualificação dos instrutores e assinatura do responsável técnico do treinamento.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 28825
   },
   {
     "id": "chunk-90",
-    "text": "ou local previamente convencionado em contrato.\n**1.5.8.2** As organizações contratantes devem informar às organizações contratadas os riscos\nocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações\ncontratadas.\n**1.5.8.3** As organizações contratadas devem informar às organizações contratantes os riscos",
-    "heading": "Introdução",
-    "char_offset": 27807
+    "text": "**1.7.1.2** A capacitação deve incluir: \na) treinamento inicial; \nb) treinamento periódico; e \nc) treinamento eventual. \n**1.7.1.2.1** O treinamento inicial deve ocorrer antes de o trabalhador iniciar suas funções ou de acordo com o prazo especificado em NR.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 29354
   },
   {
     "id": "chunk-91",
-    "text": "ocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações\ncontratantes.\n**1.5.8.4** No caso de organizações contratadas que realizam atividades no estabelecimento da\norganização contratante cujos riscos resultem da interação das atividades das organizações,",
-    "heading": "Introdução",
-    "char_offset": 28148
+    "text": "**1.7.1.2.2** O treinamento periódico deve ocorrer de acordo com periodicidade estabelecida nas NR ou, quando não estabelecido, em prazo determinado pelo empregador. \n**1.7.1.2.3** O treinamento eventual deve ocorrer: \n- a) quando houver mudança nos procedimentos, condições ou operações de trabalho, que impliquem em alteração dos riscos ocupacionais;",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 29617
   },
   {
     "id": "chunk-92",
-    "text": "as medidas de prevenção devem ser definidas em conjunto, sob a coordenação da\norganização contratante.\n**1.6 Da prestação de informação digital e digitalização de documentos**\n**1.6.1** As organizações devem prestar informações de segurança e saúde no trabalho em formato",
-    "heading": "Introdução",
-    "char_offset": 28440
+    "text": "- b) na ocorrência de acidente grave ou fatal, que indique a necessidade de novo treinamento; ou \n- c) após retorno de afastamento ao trabalho por período superior a 180 (cento e oitenta) dias. \n- **1.7.1.2.3.1** A carga horária, o prazo para sua realização e o conteúdo programático do",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 29974
   },
   {
     "id": "chunk-93",
-    "text": "digital, conforme modelo aprovado pela STRAB, ouvida a SIT.\n**1.6.1.1** Os modelos aprovados pela STRAB devem considerar os princípios de simplificação e\ndesburocratização.\n**1.6.2** Os documentos previstos nas NR podem ser emitidos e armazenados em meio digital com",
-    "heading": "Introdução",
-    "char_offset": 28714
+    "text": "Este texto não substitui o publicado no DOU \n12 \ntreinamento eventual deve atender à situação que o motivou. \n**1.7.1.3** A capacitação pode incluir: \na) estágio prático, prática profissional supervisionada ou orientação em serviço; \n- b) exercícios simulados; ou",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 30268
   },
   {
     "id": "chunk-94",
-    "text": "certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil),\nnormatizada por lei específica.\n**1.6.3** Os documentos físicos, assinados manualmente, inclusive os anteriores à vigência desta\nNR, podem ser arquivados em meio digital, pelo período correspondente exigido pela legislação",
-    "heading": "Introdução",
-    "char_offset": 28982
+    "text": "c) habilitação para operação de veículos, embarcações, máquinas ou equipamentos. \n**1.7.2** O tempo despendido em treinamentos previstos nas NR é considerado como de trabalho efetivo. \n**1.7.3** O certificado deve ser disponibilizado ao trabalhador e uma cópia arquivada na organização.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 30536
   },
   {
     "id": "chunk-95",
-    "text": "própria, mediante processo de digitalização conforme disposto em Lei.\nEste texto não substitui o publicado no DOU 11\n**1.6.3.1** O processo de digitalização deve ser realizado de forma a manter a integridade, a\nautenticidade e, se necessário, a confidencialidade do documento digital, com o emprego de",
-    "heading": "Introdução",
-    "char_offset": 29307
+    "text": "**1.7.4** A capacitação deve ser consignada nos documentos funcionais do empregado. \n**1.7.5** Os treinamentos previstos em NR podem ser ministrados em conjunto com outros treinamentos da organização, observados os conteúdos e a carga horária previstos na respectiva norma regulamentadora.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 30826
   },
   {
     "id": "chunk-96",
-    "text": "certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).\n**1.6.3.2** Os empregadores que optarem pela guarda de documentos prevista no _caput_ devem\nmanter os originais conforme previsão em lei.\n**1.6.4** O empregador deve garantir a preservação de todos os documentos nato digitais ou",
-    "heading": "Introdução",
-    "char_offset": 29611
+    "text": "Aproveitamento de conteúdos de treinamento na mesma organização \n**1.7.6** É permitido o aproveitamento de conteúdos de treinamentos ministrados na mesma organização desde que: \n- a) o conteúdo e a carga horária requeridos no novo treinamento estejam compreendidos no  treinamento anterior;",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 31120
   },
   {
     "id": "chunk-97",
-    "text": "digitalizados por meio de procedimentos e tecnologias que permitam verificar, a qualquer tempo,\nsua validade jurídica em todo território nacional, garantindo permanentemente sua autenticidade,\nintegridade, disponibilidade, rastreabilidade, irretratabilidade, privacidade e interoperabilidade.",
-    "heading": "Introdução",
-    "char_offset": 29940
+    "text": "- b) o conteúdo do treinamento anterior tenha sido ministrado no prazo inferior ao estabelecido em NR ou há menos de 2 (dois) anos, quando não estabelecida esta periodicidade; e \n- c) seja validado pelo responsável técnico do treinamento. \n**1.7.6.1** O aproveitamento de conteúdos deve ser registrado no certificado, mencionando o conteúdo e a data de realização do treinamento aproveitado.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 31415
   },
   {
     "id": "chunk-98",
-    "text": "**1.6.5** O empregador deve garantir à Inspeção do Trabalho amplo e irrestrito acesso a todos os\ndocumentos digitalizados ou nato digitais.\n**1.6.5.1** Para os documentos que devem estar à disposição dos trabalhadores ou dos seus\nrepresentantes, a organização deverá prover meios de acesso destes às informações, de modo a",
-    "heading": "Introdução",
-    "char_offset": 30235
+    "text": "**1.7.6.1.1** A validade do novo treinamento passa a considerar a data do treinamento mais antigo aproveitado. \nAproveitamento de treinamentos entre organizações \n**1.7.7** Os treinamentos realizados pelo trabalhador podem ser avaliados pela organização e convalidados ou complementados.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 31811
   },
   {
     "id": "chunk-99",
-    "text": "atender os objetivos da norma específica.\n**1.7** Capacitação e treinamento em Segurança e Saúde no Trabalho.\n**1.7.1** O empregador deve promover capacitação e treinamento dos trabalhadores, em\nconformidade com o disposto nas NR.\n**1.7.1.1** Ao término dos treinamentos inicial, periódico ou eventual, previstos nas NR, deve ser",
-    "heading": "Introdução",
-    "char_offset": 30561
+    "text": "**1.7.7.1** A convalidação ou complementação deve considerar: \na) as atividades desenvolvidas pelo trabalhador na organização anterior, quando for o caso; \nb) as atividades que desempenhará na organização; \nc) o conteúdo e carga horária cumpridos; \nd) o conteúdo e carga horária exigidos; e",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 32105
   },
   {
     "id": "chunk-100",
-    "text": "emitido certificado contendo o nome e assinatura do trabalhador, conteúdo programático, carga\nhorária, data, local de realização do treinamento, nome e qualificação dos instrutores e assinatura\ndo responsável técnico do treinamento.\n**1.7.1.2** A capacitação deve incluir:",
-    "heading": "Introdução",
-    "char_offset": 30892
+    "text": "Este texto não substitui o publicado no DOU \n13 \n- e) que o último treinamento tenha sido realizado em período inferior ao estabelecido na NR ou  há menos de 2 (dois) anos, nos casos em que não haja prazo estabelecido em NR. \n**1.7.8** O aproveitamento de treinamentos anteriores, total ou parcialmente, não exclui a responsabilidade da organização de emitir a certificação da capacitação do trabalhador, devendo mencionar no certificado a data da realização dos treinamentos convalidados ou complementados.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 32401
   },
   {
     "id": "chunk-101",
-    "text": "a) treinamento inicial;\nb) treinamento periódico; e\nc) treinamento eventual.\n**1.7.1.2.1** O treinamento inicial deve ocorrer antes de o trabalhador iniciar suas funções ou de\nacordo com o prazo especificado em NR.\n**1.7.1.2.2** O treinamento periódico deve ocorrer de acordo com periodicidade estabelecida nas",
-    "heading": "Introdução",
-    "char_offset": 31170
+    "text": "**1.7.8.1** Para efeito de periodicidade de realização de novo treinamento, é considerada a data do treinamento mais antigo convalidado ou complementado. \nDos treinamentos ministrados na modalidade de ensino a distância ou semipresencial \n**1.7.9** Os treinamentos podem ser ministrados na modalidade de ensino a distância ou semipresencial, desde que atendidos os requisitos operacionais, administrativos, tecnológicos e de estruturação pedagógica previstos no Anexo II desta NR.",
+    "heading": "**1.6 Da prestação de informação digital e digitalização de documentos**",
+    "char_offset": 32913
   },
   {
     "id": "chunk-102",
-    "text": "NR ou, quando não estabelecido, em prazo determinado pelo empregador.\n**1.7.1.2.3** O treinamento eventual deve ocorrer:\na) quando houver mudança nos procedimentos, condições ou operações de trabalho, que\nimpliquem em alteração dos riscos ocupacionais;",
-    "heading": "Introdução",
-    "char_offset": 31484
+    "text": "**1.7.9.1** O conteúdo prático do treinamento pode ser realizado na modalidade de ensino a distância ou semipresencial, desde que previsto em NR específica.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 33555
   },
   {
     "id": "chunk-103",
-    "text": "b) na ocorrência de acidente grave ou fatal, que indique a necessidade de novo treinamento; ou\nc) após retorno de afastamento ao trabalho por período superior a 180 (cento e oitenta) dias.\n**1.7.1.2.3.1** A carga horária, o prazo para sua realização e o conteúdo programático do",
-    "heading": "Introdução",
-    "char_offset": 31740
+    "text": "**1.8.1** O Microempreendedor Individual - MEI está dispensado de elaborar o PGR \n**1.8.1.1** A dispensa da obrigação de elaborar o PGR não alcança a organização contratante do MEI, que deverá incluí-lo nas suas ações de prevenção e no seu PGR, quando este atuar em suas dependências ou local previamente convencionado em contrato.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 33557
   },
   {
     "id": "chunk-104",
-    "text": "Este texto não substitui o publicado no DOU 12\ntreinamento eventual deve atender à situação que o motivou.\n**1.7.1.3** A capacitação pode incluir:\na) estágio prático, prática profissional supervisionada ou orientação em serviço;\nb) exercícios simulados; ou",
-    "heading": "Introdução",
-    "char_offset": 32024
+    "text": "**1.8.2** Serão expedidas pela Secretaria Especial de Previdência e Trabalho - SEPRT fichas com orientações sobre as medidas de prevenção a serem adotadas pelo MEI. \n**1.8.3** As microempresa e empresas de pequeno porte que não forem obrigadas a constituir SESMT e optarem pela utilização de ferramenta(s) de avaliação de risco a serem disponibilizada(s) pela SEPRT, em alternativa às ferramentas e técnicas previstas no subitem 1.5.4.4.2.1, poderão estruturar o PGR considerando o relatório produzido por esta(s) ferramenta(s) e o plano de ação.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 33892
   },
   {
     "id": "chunk-105",
-    "text": "c) habilitação para operação de veículos, embarcações, máquinas ou equipamentos.\n**1.7.2** O tempo despendido em treinamentos previstos nas NR é considerado como de trabalho\nefetivo.\n**1.7.3** O certificado deve ser disponibilizado ao trabalhador e uma cópia arquivada na",
-    "heading": "Introdução",
-    "char_offset": 32285
+    "text": "**1.8.4** As microempresas e empresas de pequeno porte, graus de risco 1 e 2, que no levantamento preliminar de perigos não identificarem exposições ocupacionais a agentes físicos, químicos e biológicos, em conformidade com a NR-9, e declararem as informações digitais na forma do subitem 1.6.1, ficam dispensadas da elaboração do PGR.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 34441
   },
   {
     "id": "chunk-106",
-    "text": "organização.\n**1.7.4** A capacitação deve ser consignada nos documentos funcionais do empregado.\n**1.7.5** Os treinamentos previstos em NR podem ser ministrados em conjunto com outros\ntreinamentos da organização, observados os conteúdos e a carga horária previstos na respectiva",
-    "heading": "Introdução",
-    "char_offset": 32559
+    "text": "**1.8.4.1** As informações digitais de segurança e saúde no trabalho declaradas devem ser divulgadas junto aos trabalhadores. \n**1.8.5** A dispensa prevista nesta Norma é aplicável quanto à obrigação de elaboração do PGR e não afasta a obrigação de cumprimento por parte do MEI, ME e EPP das demais disposições previstas em NR.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 34780
   },
   {
     "id": "chunk-107",
-    "text": "norma regulamentadora.\nAproveitamento de conteúdos de treinamento na mesma organização\n**1.7.6** É permitido o aproveitamento de conteúdos de treinamentos ministrados na mesma\norganização desde que:\na) o conteúdo e a carga horária requeridos no novo treinamento estejam compreendidos",
-    "heading": "Introdução",
-    "char_offset": 32841
+    "text": "Este texto não substitui o publicado no DOU \n14 \n**1.8.6** O MEI, a ME e a EPP, graus de risco 1 e 2, que declararem as informações digitais na forma do subitem 1.6.1 e não identificarem exposições ocupacionais a agentes físicos, químicos, biológicos e riscos relacionados a fatores ergonômicos, ficam dispensados de elaboração do Programa de Controle Médico de Saúde Ocupacional - PCMSO.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 35112
   },
   {
     "id": "chunk-108",
-    "text": "no treinamento anterior;\nb) o conteúdo do treinamento anterior tenha sido ministrado no prazo inferior ao estabelecido\nem NR ou há menos de 2 (dois) anos, quando não estabelecida esta periodicidade; e\nc) seja validado pelo responsável técnico do treinamento.",
-    "heading": "Introdução",
-    "char_offset": 33129
+    "text": "**1.8.7.1** A dispensa do PCMSO não desobriga a empresa da realização dos exames médicos e emissão do Atestado de Saúde Ocupacional - ASO. \n**1.8.7** Os graus de riscos 1 e 2 mencionados nos subitens 1.8.4 e 1.8.6 são os previstos na Norma Regulamentadores nº 04 - Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho - SESMT.",
+    "heading": "**1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP**",
+    "char_offset": 35504
   },
   {
     "id": "chunk-109",
-    "text": "**1.7.6.1** O aproveitamento de conteúdos deve ser registrado no certificado, mencionando o\nconteúdo e a data de realização do treinamento aproveitado.\n**1.7.6.1.1** A validade do novo treinamento passa a considerar a data do treinamento mais antigo",
-    "heading": "Introdução",
-    "char_offset": 33390
+    "text": "**1.8.8** O empregador é o responsável pela prestação das informações previstas nos subitens 1.8.4 e 1.8.6.",
+    "heading": "**1.9 Disposições finais**",
+    "char_offset": 35967
   },
   {
     "id": "chunk-110",
-    "text": "aproveitado.\nAproveitamento de treinamentos entre organizações\n**1.7.7** Os treinamentos realizados pelo trabalhador podem ser avaliados pela organização e\nconvalidados ou complementados.\n**1.7.7.1** A convalidação ou complementação deve considerar:",
-    "heading": "Introdução",
-    "char_offset": 33643
+    "text": "**1.9.1** O não-cumprimento das disposições legais e regulamentares sobre segurança e saúde no trabalho acarretará a aplicação das penalidades previstas na legislação pertinente. \n**1.9.2** Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria de Trabalho, ouvida a SIT.",
+    "heading": "**1.9 Disposições finais**",
+    "char_offset": 35969
   },
   {
     "id": "chunk-111",
-    "text": "a) as atividades desenvolvidas pelo trabalhador na organização anterior, quando for o caso;\nb) as atividades que desempenhará na organização;\nc) o conteúdo e carga horária cumpridos;\nd) o conteúdo e carga horária exigidos; e\nEste texto não substitui o publicado no DOU 13",
-    "heading": "Introdução",
-    "char_offset": 33898
+    "text": "Agente biológico: Microrganismos, parasitas ou materiais originados de organismos que, em função de sua natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos: bactéria **Bacillus anthracis** , vírus linfotrópico da célula T humana, príon agente de doença de **Creutzfeldt-Jakob** , fungo **Coccidioides immitis** .",
+    "heading": "**Termos e definições**",
+    "char_offset": 36273
   },
   {
     "id": "chunk-112",
-    "text": "e) que o último treinamento tenha sido realizado em período inferior ao estabelecido na NR\nou há menos de 2 (dois) anos, nos casos em que não haja prazo estabelecido em NR.\n**1.7.8** O aproveitamento de treinamentos anteriores, total ou parcialmente, não exclui a",
-    "heading": "Introdução",
-    "char_offset": 34173
+    "text": "Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais, temperaturas extremas, radiações ionizantes, radiações não ionizantes.",
+    "heading": "**Termos e definições**",
+    "char_offset": 36643
   },
   {
     "id": "chunk-113",
-    "text": "responsabilidade da organização de emitir a certificação da capacitação do trabalhador,\ndevendo mencionar no certificado a data da realização dos treinamentos convalidados ou\ncomplementados.\n**1.7.8.1** Para efeito de periodicidade de realização de novo treinamento, é considerada a data",
-    "heading": "Introdução",
-    "char_offset": 34438
+    "text": "Observação: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09. \nAgente químico: Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico.",
+    "heading": "**Termos e definições**",
+    "char_offset": 36920
   },
   {
     "id": "chunk-114",
-    "text": "do treinamento mais antigo convalidado ou complementado.\nDos treinamentos ministrados na modalidade de ensino a distância ou semipresencial\n**1.7.9** Os treinamentos podem ser ministrados na modalidade de ensino a distância ou\nsemipresencial, desde que atendidos os requisitos operacionais, administrativos, tecnológicos e",
-    "heading": "Introdução",
-    "char_offset": 34728
+    "text": "Avaliação de riscos: Processo contínuo e sistemático destinado a determinar os níveis de risco relacionados aos perigos a que estão sujeitos os trabalhadores, sua classificação e julgamento sobre a necessidade de adoção ou manutenção de medidas de prevenção. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "**Termos e definições**",
+    "char_offset": 37453
   },
   {
     "id": "chunk-115",
-    "text": "de estruturação pedagógica previstos no Anexo II desta NR.\n**1.7.9.1** O conteúdo prático do treinamento pode ser realizado na modalidade de ensino a\ndistância ou semipresencial, desde que previsto em NR específica.\n**1.8** **Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à**",
-    "heading": "Introdução",
-    "char_offset": 35053
+    "text": "Canteiro de obra: área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à construção, demolição ou reforma de uma obra. \nEste texto não substitui o publicado no DOU \n15 \nEmergências de grande magnitude: evento inesperado, sem aviso, relacionados aos processos da organização, cujas consequências atinjam, além dos trabalhadores, a população ou o meio ambiente. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_",
+    "heading": "**Termos e definições**",
+    "char_offset": 37838
   },
   {
     "id": "chunk-116",
-    "text": "**Empresa de Pequeno Porte - EPP**\n**1.8.1** O Microempreendedor Individual - MEI está dispensado de elaborar o PGR\n**1.8.1.1** A dispensa da obrigação de elaborar o PGR não alcança a organização contratante do MEI,\nque deverá incluí-lo nas suas ações de prevenção e no seu PGR, quando este atuar em suas",
-    "heading": "Introdução",
-    "char_offset": 35370
+    "text": "Empregado: a pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário. \nEmpregador: a empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitam trabalhadores como empregados.",
+    "heading": "**Termos e definições**",
+    "char_offset": 38356
   },
   {
     "id": "chunk-117",
-    "text": "dependências ou local previamente convencionado em contrato.\n**1.8.2** Serão expedidas pela Secretaria Especial de Previdência e Trabalho - SEPRT fichas com\norientações sobre as medidas de prevenção a serem adotadas pelo MEI.\n**1.8.3** As microempresa e empresas de pequeno porte que não forem obrigadas a constituir",
-    "heading": "Introdução",
-    "char_offset": 35677
+    "text": "Estabelecimento: local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde a empresa ou a organização exerce suas atividades em caráter temporário ou permanente. \nEvento perigoso: Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde.",
+    "heading": "**Termos e definições**",
+    "char_offset": 38862
   },
   {
     "id": "chunk-118",
-    "text": "SESMT e optarem pela utilização de ferramenta(s) de avaliação de risco a serem disponibilizada(s)\npela SEPRT, em alternativa às ferramentas e técnicas previstas no subitem 1.5.4.4.2.1, poderão\nestruturar o PGR considerando o relatório produzido por esta(s) ferramenta(s) e o plano de ação.",
-    "heading": "Introdução",
-    "char_offset": 35994
+    "text": "Frente de trabalho: área de trabalho móvel e temporária. \nGerenciamento de Riscos Ocupacionais (GRO): Processo contínuo e sistemático de identificação de perigos, avaliação e controle dos riscos ocupacionais de uma organização, com a finalidade de proporcionar locais de trabalho seguros e saudáveis, prevenir lesões e agravos à saúde relacionados com o trabalho e melhorar o desempenho em Segurança e Saúde do Trabalho nas organizações. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "**Termos e definições**",
+    "char_offset": 39159
   },
   {
     "id": "chunk-119",
-    "text": "**1.8.4** As microempresas e empresas de pequeno porte, graus de risco 1 e 2, que no levantamento\npreliminar de perigos não identificarem exposições ocupacionais a agentes físicos, químicos\ne biológicos, em conformidade com a NR-9, e declararem as informações digitais na forma do subitem",
-    "heading": "Introdução",
-    "char_offset": 36286
+    "text": "Identificação de perigos: processo de buscar, reconhecer e descrever perigos à segurança e saúde dos trabalhadores. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de_** _2024 -_ _<mark>vigência em 26 de maio de 2025)</mark>_ \nLevantamento preliminar de perigos e riscos: etapa inicial do gerenciamento de riscos ocupacionais para identificar perigos e riscos com a finalidade de evitar ou eliminar perigos e reduzir ou controlar os riscos ocupacionais evidentes à segurança e saúde dos trabalhadores, com a adoção de medidas imediatas. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "**Termos e definições**",
+    "char_offset": 39721
   },
   {
     "id": "chunk-120",
-    "text": "1.6.1, ficam dispensadas da elaboração do PGR.\n**1.8.4.1** As informações digitais de segurança e saúde no trabalho declaradas devem ser\ndivulgadas junto aos trabalhadores.\n**1.8.5** A dispensa prevista nesta Norma é aplicável quanto à obrigação de elaboração do PGR e",
-    "heading": "Introdução",
-    "char_offset": 36577
+    "text": "Local de trabalho: área onde são executados os trabalhos. \nNormas europeias harmonizadas: norma técnica europeia desenvolvida por Organização Europeia de Normalização reconhecida. A lista atualizada das normas harmonizadas é publicada no Jornal Oficial da União Europeia. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_",
+    "heading": "**Termos e definições**",
+    "char_offset": 40393
   },
   {
     "id": "chunk-121",
-    "text": "não afasta a obrigação de cumprimento por parte do MEI, ME e EPP das demais disposições\nprevistas em NR.\nEste texto não substitui o publicado no DOU 14\n**1.8.6** O MEI, a ME e a EPP, graus de risco 1 e 2, que declararem as informações digitais na forma",
-    "heading": "Introdução",
-    "char_offset": 36848
+    "text": "Normas técnicas internacionais: normas publicadas por uma das seguintes entidades internacionais: International Organization for Standardization (ISO) ou International Electrotechnical Commission (IEC). _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_",
+    "heading": "**Termos e definições**",
+    "char_offset": 40729
   },
   {
     "id": "chunk-122",
-    "text": "do subitem 1.6.1 e não identificarem exposições ocupacionais a agentes físicos, químicos,\nbiológicos e riscos relacionados a fatores ergonômicos, ficam dispensados de elaboração do\nPrograma de Controle Médico de Saúde Ocupacional - PCMSO.\n**1.8.7.1** A dispensa do PCMSO não desobriga a empresa da realização dos exames médicos e",
-    "heading": "Introdução",
-    "char_offset": 37102
+    "text": "Normas técnicas nacionais ou Norma técnica oficial ou Norma técnica brasileira: normas técnicas publicadas pela Associação Brasileira de Normas Técnicas (ABNT), entidade privada reconhecida como Foro Nacional de Normalização por intermédio da Resolução nº 07, de 24 de agosto de 1992, do Conselho Nacional de Metrologia, Normalização e Qualidade Industrial - CONMETRO. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_",
+    "heading": "**Termos e definições**",
+    "char_offset": 40996
   },
   {
     "id": "chunk-123",
-    "text": "emissão do Atestado de Saúde Ocupacional - ASO.\n**1.8.7** Os graus de riscos 1 e 2 mencionados nos subitens 1.8.4 e 1.8.6 são os previstos na Norma\nRegulamentadores nº 04 - Serviços Especializados em Engenharia de Segurança e em Medicina\ndo Trabalho - SESMT.",
-    "heading": "Introdução",
-    "char_offset": 37434
+    "text": "Obra: todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma. \nOrdem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar",
+    "heading": "**Termos e definições**",
+    "char_offset": 41430
   },
   {
     "id": "chunk-124",
-    "text": "**1.8.8** O empregador é o responsável pela prestação das informações previstas nos subitens 1.8.4\ne 1.8.6.\n**1.9 Disposições finais**\n**1.9.1** O não-cumprimento das disposições legais e regulamentares sobre segurança e saúde\nno trabalho acarretará a aplicação das penalidades previstas na legislação pertinente.",
-    "heading": "Introdução",
-    "char_offset": 37697
+    "text": "Este texto não substitui o publicado no DOU \n16",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 41772
   },
   {
     "id": "chunk-125",
-    "text": "**1.9.2** Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria de\nTrabalho, ouvida a SIT.\n**Anexo I da NR-01**\n**Termos e definições**\nAgente biológico: Microrganismos, parasitas ou materiais originados de organismos que, em",
-    "heading": "Introdução",
-    "char_offset": 38015
+    "text": "Organização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou privada.",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 41773
   },
   {
     "id": "chunk-126",
-    "text": "função de sua natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde\ndo trabalhador. Exemplos: bactéria **Bacillus anthracis**, vírus linfotrópico da célula T humana,\npríon agente de doença de **Creutzfeldt-Jakob**, fungo **Coccidioides immitis** .",
-    "heading": "Introdução",
-    "char_offset": 38270
+    "text": "Organização contratada: pessoa jurídica de direito privado prestadora de serviços contratada para a execução de atividades da organização contratante, nos termos da Lei 6.019/1974 e suas alterações. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 42203
   },
   {
     "id": "chunk-127",
-    "text": "Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e\nexposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído,\nvibrações, pressões anormais, temperaturas extremas, radiações ionizantes, radiações não",
-    "heading": "Introdução",
-    "char_offset": 38547
+    "text": "Perigo externo: situações previsíveis não controladas pela organização, fora dos limites do estabelecimento, da frente ou local de trabalho, que possam causar lesões e agravos à saúde dos trabalhadores, para as quais se deve adotar medidas de prevenção mitigadoras possíveis. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 42525
   },
   {
     "id": "chunk-128",
-    "text": "ionizantes.\nObservação: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não\nconstituem agente físico para fins da NR-09.\nAgente químico: Substância química, por si só ou em misturas, quer seja em seu estado natural,\nquer seja produzida, utilizada ou gerada no processo de trabalho, que em função de sua",
-    "heading": "Introdução",
-    "char_offset": 38812
+    "text": "Perigo ou fator de risco ocupacional/ Perigo ou fonte de risco ocupacional: Fonte com o potencial de causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial intrínseco de dar origem a lesões ou agravos à saúde. _(Redação pela_ **_Portaria MTE nº 344, de 21 de março de 2024 -_** _<mark>vigente até 25 de maio de 2025)</mark>_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 42925
   },
   {
     "id": "chunk-129",
-    "text": "natureza, concentração e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador.\nExemplos: fumos de cádmio, poeira mineral contendo sílica cristalina, vapores de tolueno,\nnévoas de ácido sulfúrico.\nAvaliação de riscos: Processo contínuo e sistemático destinado a determinar os níveis de risco",
-    "heading": "Introdução",
-    "char_offset": 39145
+    "text": "Perigo ou fator de risco ocupacional: Elemento ou situação que, isoladamente ou em combinação, tem o potencial de dar origem a lesões ou agravos à saúde. _(Redação dada pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 43301
   },
   {
     "id": "chunk-130",
-    "text": "relacionados aos perigos a que estão sujeitos os trabalhadores, sua classificação e julgamento\nsobre a necessidade de adoção ou manutenção de medidas de prevenção. _(Inserido pela_ _**Portaria**_\n_**MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_",
-    "heading": "Introdução",
-    "char_offset": 39451
+    "text": "Prevenção: o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais. \nPrograma de Gerenciamento de Riscos (PGR): conjunto coordenado de ações da organização para atingir os objetivos de prevenção e gerenciamento dos riscos ocupacionais, formalmente documentado. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 43583
   },
   {
     "id": "chunk-131",
-    "text": "Canteiro de obra: área de trabalho fixa e temporária, onde se desenvolvem operações de apoio\ne execução à construção, demolição ou reforma de uma obra.\nEste texto não substitui o publicado no DOU 15\nEmergências de grande magnitude: evento inesperado, sem aviso, relacionados aos processos",
-    "heading": "Introdução",
-    "char_offset": 39730
+    "text": "Responsável técnico pela capacitação: profissional legalmente habilitado ou trabalhador qualificado, conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos, podendo ser o responsável técnico pelo treinamento. _(alterada pela Portaria MTE nº 344, de 21 de março de 2024)_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 44089
   },
   {
     "id": "chunk-132",
-    "text": "da organização, cujas consequências atinjam, além dos trabalhadores, a população ou o meio\nambiente. _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nEmpregado: a pessoa física que presta serviços de natureza não eventual a empregador, sob a",
-    "heading": "Introdução",
-    "char_offset": 40020
+    "text": "Responsável técnico pelo treinamento: profissional ou trabalhador qualificado, ou ainda profissional legalmente habilitado, salvo disposição de NR específica, responsável pela execução do treinamento, podendo ser o próprio instrutor do treinamento. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 44403
   },
   {
     "id": "chunk-133",
-    "text": "dependência deste e mediante salário.\nEmpregador: a empresa individual ou coletiva que, assumindo os riscos da atividade econômica,\nadmite, assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as\norganizações, os profissionais liberais, as instituições de beneficência, as associações recreativas",
-    "heading": "Introdução",
-    "char_offset": 40320
+    "text": "Risco ocupacional: Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa lesão ou agravo à saúde. \nRisco ocupacional evidente: situação de risco óbvio e não controlado, que não requer análise aprofundada e pode ser reduzido ou controlado pela adoção imediata de medidas de prevenção. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 44717
   },
   {
     "id": "chunk-134",
-    "text": "ou outras instituições sem fins lucrativos, que admitam trabalhadores como empregados.\nEstabelecimento: local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de\nterceiros, onde a empresa ou a organização exerce suas atividades em caráter temporário ou",
-    "heading": "Introdução",
-    "char_offset": 40644
+    "text": "Setor de serviço: a menor unidade administrativa ou operacional compreendida no mesmo estabelecimento. \nTrabalhador: pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como os empregados e outros sem vínculo de emprego.",
+    "heading": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+    "char_offset": 45254
   },
   {
     "id": "chunk-135",
-    "text": "permanente.\nEvento perigoso: Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à\nsaúde.\nFrente de trabalho: área de trabalho móvel e temporária.\nGerenciamento de Riscos Ocupacionais (GRO): Processo contínuo e sistemático de identificação",
-    "heading": "Introdução",
-    "char_offset": 40919
+    "text": "Este texto não substitui o publicado no DOU \n17",
+    "heading": "**Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial.**",
+    "char_offset": 45566
   },
   {
     "id": "chunk-136",
-    "text": "de perigos, avaliação e controle dos riscos ocupacionais de uma organização, com a finalidade de\nproporcionar locais de trabalho seguros e saudáveis, prevenir lesões e agravos à saúde\nrelacionados com o trabalho e melhorar o desempenho em Segurança e Saúde do Trabalho nas",
-    "heading": "Introdução",
-    "char_offset": 41179
+    "text": "1. Objetivo \n2. Disposições gerais \n3. Estruturação pedagógica \n4. Requisitos operacionais e administrativo \n5. Requisitos tecnológicos \n6. Glossário",
+    "heading": "**1. Objetivo**",
+    "char_offset": 45725
   },
   {
     "id": "chunk-137",
-    "text": "organizações . _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nIdentificação de perigos: processo de buscar, reconhecer e descrever perigos à segurança e saúde\ndos trabalhadores. _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de**_ _2024_ _- vigência em 26 de maio de_",
-    "heading": "Introdução",
-    "char_offset": 41453
+    "text": "**1.1** Estabelecer diretrizes e requisitos mínimos para utilização da modalidade de ensino à distância e semipresencial para as capacitações previstas nas NR, disciplinando tanto aspectos relativos à estruturação pedagógica, quanto exigências relacionadas às condições operacionais, tecnológicas e administrativas necessárias para uso desta modalidade de ensino.",
+    "heading": "**1. Objetivo**",
+    "char_offset": 45726
   },
   {
     "id": "chunk-138",
-    "text": "_2025)_\nLevantamento preliminar de perigos e riscos: etapa inicial do gerenciamento de riscos\nocupacionais para identificar perigos e riscos com a finalidade de evitar ou eliminar perigos e\nreduzir ou controlar os riscos ocupacionais evidentes à segurança e saúde dos trabalhadores, com",
-    "heading": "Introdução",
-    "char_offset": 41793
+    "text": "**2.1** O empregador que optar pela realização das capacitações por meio das modalidades de ensino a distância ou semipresencial poderá desenvolver toda a capacitação ou contratar empresa ou instituição especializada que a oferte, devendo em ambos os casos observar os requisitos constantes deste Anexo e da NR-01.",
+    "heading": "**2. Disposições gerais**",
+    "char_offset": 46093
   },
   {
     "id": "chunk-139",
-    "text": "a adoção de medidas imediatas. _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em_\n_26 de maio de 2025)_\nLocal de trabalho: área onde são executados os trabalhos.\nNormas europeias harmonizadas: norma técnica europeia desenvolvida por Organização Europeia",
-    "heading": "Introdução",
-    "char_offset": 42082
+    "text": "**2.1.1** A empresa ou instituição especializada que oferte as capacitações previstas nas NR na modalidade de ensino à distância e semipresencial, deve atender aos requisitos constantes deste Anexo e da NR-01 para que seus certificados sejam considerados válidos.",
+    "heading": "**2. Disposições gerais**",
+    "char_offset": 46410
   },
   {
     "id": "chunk-140",
-    "text": "de Normalização reconhecida. A lista atualizada das normas harmonizadas é publicada no Jornal\nOficial da União Europeia. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_\nNormas técnicas internacionais: normas publicadas por uma das seguintes entidades",
-    "heading": "Introdução",
-    "char_offset": 42372
+    "text": "**2.2** O empregador que optar pela contratação de serviços de empresa ou instituição especializada deve fazer constar na documentação que formaliza a prestação de serviços a obrigatoriedade pelo prestador de serviço do atendimento aos requisitos previstos neste Anexo e nos itens relativos à capacitação previstos nas NR.",
+    "heading": "**2. Disposições gerais**",
+    "char_offset": 46676
   },
   {
     "id": "chunk-141",
-    "text": "internacionais: International Organization for Standardization (ISO) ou International\nElectrotechnical Commission (IEC). _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_\nNormas técnicas nacionais ou Norma técnica oficial ou Norma técnica brasileira: normas técnicas",
-    "heading": "Introdução",
-    "char_offset": 42638
+    "text": "**2.3** As capacitações que utilizam ensino a distância ou semipresencial devem ser estruturadas com, no mínimo, a duração definida para as respectivas capacitações na modalidade presencial. \n**2.4** A elaboração do conteúdo programático deve abranger os tópicos de aprendizagem requeridos, bem como respeitar a carga horária estabelecida para todos os conteúdos.",
+    "heading": "**2. Disposições gerais**",
+    "char_offset": 47002
   },
   {
     "id": "chunk-142",
-    "text": "publicadas pela Associação Brasileira de Normas Técnicas (ABNT), entidade privada reconhecida\ncomo Foro Nacional de Normalização por intermédio da Resolução nº 07, de 24 de agosto de\n1992, do Conselho Nacional de Metrologia, Normalização e Qualidade Industrial - CONMETRO.",
-    "heading": "Introdução",
-    "char_offset": 42918
+    "text": "**2.5** As atividades práticas obrigatórias devem respeitar as orientações previstas nas NR e estar descritas no Projeto Pedagógico do curso.",
+    "heading": "**3. Estruturação pedagógica**",
+    "char_offset": 47512
   },
   {
     "id": "chunk-143",
-    "text": "_(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_\nObra: todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção\nou reforma.\nOrdem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções",
-    "heading": "Introdução",
-    "char_offset": 43194
+    "text": "**3.1** Sempre que a modalidade de ensino a distância ou semipresencial for utilizada, será obrigatória a elaboração de projeto pedagógico que deve conter: \na) objetivo geral da capacitação; \nEste texto não substitui o publicado no DOU \n18 \n- b) princípios e conceitos para a proteção da segurança e da saúde dos trabalhadores, definidos nas NR;",
+    "heading": "**3. Estruturação pedagógica**",
+    "char_offset": 47517
   },
   {
     "id": "chunk-144",
-    "text": "para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar\nEste texto não substitui o publicado no DOU 16\ncontemplada em procedimentos de trabalho e outras instruções de SST.\nOrganização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades,",
-    "heading": "Introdução",
-    "char_offset": 43458
+    "text": "- c) estratégia pedagógica da capacitação, incluindo abordagem quanto à parte teórica e prática, quando houver; \n- d) indicação do responsável técnico pela capacitação; \n- e) relação de instrutores, quando aplicável; \n- f) infraestrutura operacional de apoio e controle;",
+    "heading": "**3. Estruturação pedagógica**",
+    "char_offset": 47868
   },
   {
     "id": "chunk-145",
-    "text": "autoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a\ntomador de serviços, a empresa, a empreendedor individual, produtor rural, companhia,\ncorporação, firma, autoridade, parceria, organização de caridade ou instituição, ou parte ou",
-    "heading": "Introdução",
-    "char_offset": 43752
+    "text": "- g) conteúdo programático teórico e prático, quando houver; \n- h) objetivo de cada módulo; \n- i) carga horária; \n- j) estimativa de tempo mínimo de dedicação diária ao curso; \n- k) prazo máximo para conclusão da capacitação; \n- l) público-alvo; \n- m) material didático;",
+    "heading": "**3. Estruturação pedagógica**",
+    "char_offset": 48147
   },
   {
     "id": "chunk-146",
-    "text": "combinação desses, seja incorporada ou não, pública ou privada.\nOrganização contratada: pessoa jurídica de direito privado prestadora de serviços contratada\npara a execução de atividades da organização contratante, nos termos da Lei 6.019/1974 e suas",
-    "heading": "Introdução",
-    "char_offset": 44028
-  },
-  {
-    "id": "chunk-147",
-    "text": "alterações. _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nPerigo externo: situações previsíveis não controladas pela organização, fora dos limites do\nestabelecimento, da frente ou local de trabalho, que possam causar lesões e agravos à saúde dos",
-    "heading": "Introdução",
-    "char_offset": 44280
-  },
-  {
-    "id": "chunk-148",
-    "text": "trabalhadores, para as quais se deve adotar medidas de prevenção mitigadoras possíveis. _(Inserido_\n_pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nPerigo ou fator de risco ocupacional/ Perigo ou fonte de risco ocupacional: Fonte com o potencial",
-    "heading": "Introdução",
-    "char_offset": 44587
-  },
-  {
-    "id": "chunk-149",
-    "text": "de causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros\ntem o potencial intrínseco de dar origem a lesões ou agravos à saúde. _(_ _Redação pela_ _**Portaria MTE nº**_\n_**344, de 21 de março de 2024 -**_ _vigente até 25 de maio de 2025)_",
-    "heading": "Introdução",
-    "char_offset": 44881
-  },
-  {
-    "id": "chunk-150",
-    "text": "Perigo ou fator de risco ocupacional: Elemento ou situação que, isoladamente ou em combinação,\ntem o potencial de dar origem a lesões ou agravos à saúde. _(_ _Redação dada pela_ _**Portaria MTE nº 1.419,**_\n_**de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_",
-    "heading": "Introdução",
-    "char_offset": 45154
-  },
-  {
-    "id": "chunk-151",
-    "text": "Prevenção: o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da\natividade da organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais.\nPrograma de Gerenciamento de Riscos (PGR): conjunto coordenado de ações da organização",
-    "heading": "Introdução",
-    "char_offset": 45429
-  },
-  {
-    "id": "chunk-152",
-    "text": "para atingir os objetivos de prevenção e gerenciamento dos riscos ocupacionais, formalmente\ndocumentado. _(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nResponsável técnico pela capacitação: profissional legalmente habilitado ou trabalhador",
-    "heading": "Introdução",
-    "char_offset": 45707
-  },
-  {
-    "id": "chunk-153",
-    "text": "qualificado, conforme disposto em NR específica, responsável pela elaboração das capacitações\ne treinamentos, podendo ser o responsável técnico pelo treinamento. _(alterada pela Portaria MTE_\n_nº 344, de 21 de março de 2024)_\nResponsável técnico pelo treinamento: profissional ou trabalhador qualificado, ou ainda",
-    "heading": "Introdução",
-    "char_offset": 46007
-  },
-  {
-    "id": "chunk-154",
-    "text": "profissional legalmente habilitado, salvo disposição de NR específica, responsável pela execução\ndo treinamento, podendo ser o próprio instrutor do treinamento. _(inserida pela Portaria MTE nº 344,_\n_de 21 de março de 2024)_\nRisco ocupacional: Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados",
-    "heading": "Introdução",
-    "char_offset": 46322
-  },
-  {
-    "id": "chunk-155",
-    "text": "por um evento perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da\nseveridade dessa lesão ou agravo à saúde.\nRisco ocupacional evidente: situação de risco óbvio e não controlado, que não requer análise\naprofundada e pode ser reduzido ou controlado pela adoção imediata de medidas de prevenção.",
-    "heading": "Introdução",
-    "char_offset": 46639
-  },
-  {
-    "id": "chunk-156",
-    "text": "_(Inserido pela_ _**Portaria MTE nº 1.419, de 27 de agosto de 2024**_ _- vigência em 26 de maio de 2025)_\nSetor de serviço: a menor unidade administrativa ou operacional compreendida no mesmo\nestabelecimento.\nTrabalhador: pessoa física inserida em uma relação de trabalho, inclusive de natureza",
-    "heading": "Introdução",
-    "char_offset": 46962
-  },
-  {
-    "id": "chunk-157",
-    "text": "administrativa, como os empregados e outros sem vínculo de emprego.\n**Anexo II da NR-01**\nEste texto não substitui o publicado no DOU 17\n**Diretrizes e requisitos mínimos para utilização da modalidade de ensino a**\n**distância e semipresencial.**\n**Sumário** :",
-    "heading": "Introdução",
-    "char_offset": 47262
-  },
-  {
-    "id": "chunk-158",
-    "text": "1. Objetivo\n2. Disposições gerais\n3. Estruturação pedagógica\n4. Requisitos operacionais e administrativo\n5. Requisitos tecnológicos\n6. Glossário\n**1.** **Objetivo**\n**1.1** Estabelecer diretrizes e requisitos mínimos para utilização da modalidade de ensino à",
-    "heading": "Introdução",
-    "char_offset": 47527
-  },
-  {
-    "id": "chunk-159",
-    "text": "distância e semipresencial para as capacitações previstas nas NR, disciplinando tanto aspectos\nrelativos à estruturação pedagógica, quanto exigências relacionadas às condições operacionais,\ntecnológicas e administrativas necessárias para uso desta modalidade de ensino.",
-    "heading": "Introdução",
-    "char_offset": 47786
-  },
-  {
-    "id": "chunk-160",
-    "text": "**2.** **Disposições gerais**\n**2.1** O empregador que optar pela realização das capacitações por meio das modalidades de\nensino a distância ou semipresencial poderá desenvolver toda a capacitação ou contratar\nempresa ou instituição especializada que a oferte, devendo em ambos os casos observar os",
-    "heading": "Introdução",
-    "char_offset": 48058
-  },
-  {
-    "id": "chunk-161",
-    "text": "requisitos constantes deste Anexo e da NR-01.\n**2.1.1** A empresa ou instituição especializada que oferte as capacitações previstas nas NR na\nmodalidade de ensino à distância e semipresencial, deve atender aos requisitos constantes\ndeste Anexo e da NR-01 para que seus certificados sejam considerados válidos.",
-    "heading": "Introdução",
-    "char_offset": 48358
-  },
-  {
-    "id": "chunk-162",
-    "text": "**2.2** O empregador que optar pela contratação de serviços de empresa ou instituição\nespecializada deve fazer constar na documentação que formaliza a prestação de serviços a\nobrigatoriedade pelo prestador de serviço do atendimento aos requisitos previstos neste Anexo",
-    "heading": "Introdução",
+    "text": "- n) instrumentos para potencialização do aprendizado; e \n- o) avaliação de aprendizagem. \n**3.3** O projeto pedagógico do curso deverá ser validado a cada 2 (dois) anos ou quando houver mudança na NR, procedendo a sua revisão, caso necessário.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
     "char_offset": 48669
   },
   {
-    "id": "chunk-163",
-    "text": "e nos itens relativos à capacitação previstos nas NR.\n**2.3** As capacitações que utilizam ensino a distância ou semipresencial devem ser estruturadas\ncom, no mínimo, a duração definida para as respectivas capacitações na modalidade presencial.\n**2.4** A elaboração do conteúdo programático deve abranger os tópicos de aprendizagem",
-    "heading": "Introdução",
-    "char_offset": 48940
+    "id": "chunk-147",
+    "text": "**4.1** O empregador deve manter o projeto pedagógico disponível para a Inspeção do Trabalho, para a representação sindical da categoria no estabelecimento e para a Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 48670
   },
   {
-    "id": "chunk-164",
-    "text": "requeridos, bem como respeitar a carga horária estabelecida para todos os conteúdos.\n**2.5** As atividades práticas obrigatórias devem respeitar as orientações previstas nas NR e estar\ndescritas no Projeto Pedagógico do curso.\n**3.** **Estruturação pedagógica**",
-    "heading": "Introdução",
-    "char_offset": 49274
+    "id": "chunk-148",
+    "text": "**4.1.1** A empresa ou instituição especializada deve disponibilizar aos contratantes o projeto pedagógico. \n**4.2** Deve ser disponibilizado aos trabalhadores todo o material didático necessário para participar da capacitação, conforme item 3.1 deste Anexo.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 48969
   },
   {
-    "id": "chunk-165",
-    "text": "**3.1** Sempre que a modalidade de ensino a distância ou semipresencial for utilizada, será\nobrigatória a elaboração de projeto pedagógico que deve conter:\na) objetivo geral da capacitação;\nEste texto não substitui o publicado no DOU 18\nb) princípios e conceitos para a proteção da segurança e da saúde dos trabalhadores,",
-    "heading": "Introdução",
-    "char_offset": 49540
+    "id": "chunk-149",
+    "text": "**4.3** Devem ser disponibilizados recursos e ambiente que favoreça a concentração e a absorção do conhecimento pelo empregado, para a realização da capacitação. \n**4.4** O período de realização do curso deve ser exclusivamente utilizado para tal fim para que não seja concomitante com o exercício das atividades diárias de trabalho.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 49231
   },
   {
-    "id": "chunk-166",
-    "text": "definidos nas NR;\nc) estratégia pedagógica da capacitação, incluindo abordagem quanto à parte teórica e\nprática, quando houver;\nd) indicação do responsável técnico pela capacitação;\ne) relação de instrutores, quando aplicável;\nf) infraestrutura operacional de apoio e controle;",
-    "heading": "Introdução",
-    "char_offset": 49868
+    "id": "chunk-150",
+    "text": "**4.5** Deve ser mantido canal de comunicação para esclarecimento de dúvidas, possibilitando a solução das mesmas, devendo tal canal estar operacional durante o período de realização do curso. \n**4.6** A verificação de aprendizagem deve ser realizada de acordo com a estratégia pedagógica",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 49568
   },
   {
-    "id": "chunk-167",
-    "text": "g) conteúdo programático teórico e prático, quando houver;\nh) objetivo de cada módulo;\ni) carga horária;\nj) estimativa de tempo mínimo de dedicação diária ao curso;\nk) prazo máximo para conclusão da capacitação;\nl) público-alvo;\nm) material didático;",
-    "heading": "Introdução",
-    "char_offset": 50153
+    "id": "chunk-151",
+    "text": "Este texto não substitui o publicado no DOU \n19 \nadotada para a capacitação, estabelecendo a classificação com o conceito satisfatório ou insatisfatório. \n**4.6.1** A avaliação da aprendizagem se dará pela aplicação da prova no formato presencial, obtendo, dessa forma, o registro da assinatura do empregado, ou pelo formato digital, exigindo a sua identificação e senha individual.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 49862
   },
   {
-    "id": "chunk-168",
-    "text": "n) instrumentos para potencialização do aprendizado; e\no) avaliação de aprendizagem.\n**3.3** O projeto pedagógico do curso deverá ser validado a cada 2 (dois) anos ou quando houver\nmudança na NR, procedendo a sua revisão, caso necessário.\n**4.** **Requisitos operacionais e administrativos**",
-    "heading": "Introdução",
-    "char_offset": 50408
+    "id": "chunk-152",
+    "text": "**4.6.2** Quando a avaliação da aprendizagem for online, devem ser preservadas condições de rastreabilidade que garantam a confiabilidade do processo. \n**4.6.3** O processo de avaliação da aprendizagem deve contemplar situações práticas que representem a rotina laboral do trabalhador para a adequada tomada de decisões com vistas à prevenção de acidentes e doenças relacionadas ao trabalho.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 50248
   },
   {
-    "id": "chunk-169",
-    "text": "**4.1** O empregador deve manter o projeto pedagógico disponível para a Inspeção do Trabalho,\npara a representação sindical da categoria no estabelecimento e para a Comissão Interna de\nPrevenção de Acidentes e de Assédio - CIPA. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de_",
-    "heading": "Introdução",
-    "char_offset": 50701
+    "id": "chunk-153",
+    "text": "**4.7** Após o término do curso, as empresas devem registrar sua realização, mantendo o resultado das avaliações de aprendizagem e informações sobre acesso dos participantes (logs). \n**4.7.1** O histórico do registro de acesso dos participantes (logs) deve ser mantido pelo prazo mínimo de 2 (dois) anos após o término da validade do curso.",
+    "heading": "**4. Requisitos operacionais e administrativos**",
+    "char_offset": 50643
   },
   {
-    "id": "chunk-170",
-    "text": "_2022)_\n**4.1.1** A empresa ou instituição especializada deve disponibilizar aos contratantes o projeto\npedagógico.\n**4.2** Deve ser disponibilizado aos trabalhadores todo o material didático necessário para\nparticipar da capacitação, conforme item 3.1 deste Anexo.",
-    "heading": "Introdução",
-    "char_offset": 50993
+    "id": "chunk-154",
+    "text": "**5.1** Somente serão válidas as capacitações realizadas na modalidade de ensino à distância ou semipresencial que sejam executadas em um Ambiente Virtual de Aprendizagem apropriado à gestão, transmissão do conhecimento e aprendizagem do conteúdo.",
+    "heading": "**6. Glossário**",
+    "char_offset": 51237
   },
   {
-    "id": "chunk-171",
-    "text": "**4.3** Devem ser disponibilizados recursos e ambiente que favoreça a concentração e a absorção\ndo conhecimento pelo empregado, para a realização da capacitação.\n**4.4** O período de realização do curso deve ser exclusivamente utilizado para tal fim para que não",
-    "heading": "Introdução",
-    "char_offset": 51261
+    "id": "chunk-155",
+    "text": "Ambiente exclusivo: espaço físico distinto do posto de trabalho que disponibilize ao trabalhador os recursos tecnológicos necessários à execução do curso e condições de conforto adequadas para a aprendizagem. \nAmbiente Virtual de Aprendizagem (AVA): espaço virtual de aprendizagem que oferece condições para interações (síncrona e assíncrona) permanentes entre seus usuários. Pode ser traduzida como sendo uma “sala de aula” acessada via web. Permite integrar múltiplas mídias, linguagens e recursos, apresentar informações de maneira organizada, desenvolver interações entre pessoas e objetos de conhecimento, elaborar e socializar produções, tendo em vista atingir determinados objetivos.",
+    "heading": "**6. Glossário**",
+    "char_offset": 51239
   },
   {
-    "id": "chunk-172",
-    "text": "seja concomitante com o exercício das atividades diárias de trabalho.\n**4.5** Deve ser mantido canal de comunicação para esclarecimento de dúvidas, possibilitando a\nsolução das mesmas, devendo tal canal estar operacional durante o período de realização do",
-    "heading": "Introdução",
-    "char_offset": 51525
+    "id": "chunk-156",
+    "text": "Avaliação de Aprendizagem: visa aferir o conhecimento adquirido pelo trabalhador e o respectivo grau de assimilação após a realização da capacitação. \nEAD: segundo Decreto n.º 9.057/2017, caracteriza-se a Educação a Distância como modalidade educacional na qual a mediação didático-pedagógica nos processos de ensino e aprendizagem ocorre com a utilização de meios e tecnologias de informação e comunicação, com estudantes e professores desenvolvendo atividades educativas em lugares ou tempos diversos.",
+    "heading": "**6. Glossário**",
+    "char_offset": 51933
   },
   {
-    "id": "chunk-173",
-    "text": "curso.\n**4.6** A verificação de aprendizagem deve ser realizada de acordo com a estratégia pedagógica\nEste texto não substitui o publicado no DOU 19\nadotada para a capacitação, estabelecendo a classificação com o conceito satisfatório ou\ninsatisfatório.",
-    "heading": "Introdução",
-    "char_offset": 51786
+    "id": "chunk-157",
+    "text": "Ensino semipresencial: conjugação de atividades presenciais obrigatórias com outras atividades educacionais que podem ser realizadas sem a presença física do participante em sala de aula, utilizando recursos didáticos com suporte da tecnologia, de material impresso e/ou de outros meios de comunicação.",
+    "heading": "**6. Glossário**",
+    "char_offset": 52439
   },
   {
-    "id": "chunk-174",
-    "text": "**4.6.1** A avaliação da aprendizagem se dará pela aplicação da prova no formato presencial,\nobtendo, dessa forma, o registro da assinatura do empregado, ou pelo formato digital, exigindo\na sua identificação e senha individual.\n**4.6.2** Quando a avaliação da aprendizagem for online, devem ser preservadas condições de",
-    "heading": "Introdução",
-    "char_offset": 52042
+    "id": "chunk-158",
+    "text": "Projeto pedagógico: instrumento de concepção do processo ensino-aprendizagem. Nele deve- \nEste texto não substitui o publicado no DOU \n20 \nse registrar o objetivo da aprendizagem, a estratégia pedagógica escolhida para a formação e capacitação dos trabalhadores, bem como todas as informações que estejam envolvidas no processo.",
+    "heading": "**6. Glossário**",
+    "char_offset": 52747
   },
   {
-    "id": "chunk-175",
-    "text": "rastreabilidade que garantam a confiabilidade do processo.\n**4.6.3** O processo de avaliação da aprendizagem deve contemplar situações práticas que\nrepresentem a rotina laboral do trabalhador para a adequada tomada de decisões com vistas à\nprevenção de acidentes e doenças relacionadas ao trabalho.",
-    "heading": "Introdução",
-    "char_offset": 52363
+    "id": "chunk-159",
+    "text": "Instrumentos para potencialização do aprendizado: recursos, ferramentas, dinâmicas e tecnologias de comunicação que tenham como objetivo tornar mais eficaz o processo de ensinoaprendizagem. \nLog: registro informatizado de acesso ao sistema. Ex.: log de acesso: registro de acessos; login: registro de entrada; logoff: registro de saída.",
+    "heading": "**6. Glossário**",
+    "char_offset": 53079
   },
   {
-    "id": "chunk-176",
-    "text": "**4.7** Após o término do curso, as empresas devem registrar sua realização, mantendo o resultado\ndas avaliações de aprendizagem e informações sobre acesso dos participantes (logs).\n**4.7.1** O histórico do registro de acesso dos participantes (logs) deve ser mantido pelo prazo",
-    "heading": "Introdução",
-    "char_offset": 52664
-  },
-  {
-    "id": "chunk-177",
-    "text": "mínimo de 2 (dois) anos após o término da validade do curso.\n**5. Requisitos tecnológicos**\n**5.1** Somente serão válidas as capacitações realizadas na modalidade de ensino à distância ou\nsemipresencial que sejam executadas em um Ambiente Virtual de Aprendizagem apropriado à",
-    "heading": "Introdução",
-    "char_offset": 52945
-  },
-  {
-    "id": "chunk-178",
-    "text": "gestão, transmissão do conhecimento e aprendizagem do conteúdo.\n**6. Glossário**\nAmbiente exclusivo: espaço físico distinto do posto de trabalho que disponibilize ao trabalhador\nos recursos tecnológicos necessários à execução do curso e condições de conforto adequadas",
-    "heading": "Introdução",
-    "char_offset": 53223
-  },
-  {
-    "id": "chunk-179",
-    "text": "para a aprendizagem.\nAmbiente Virtual de Aprendizagem (AVA): espaço virtual de aprendizagem que oferece\ncondições para interações (síncrona e assíncrona) permanentes entre seus usuários. Pode ser\ntraduzida como sendo uma “sala de aula” acessada via web. Permite integrar múltiplas mídias,",
-    "heading": "Introdução",
-    "char_offset": 53493
-  },
-  {
-    "id": "chunk-180",
-    "text": "linguagens e recursos, apresentar informações de maneira organizada, desenvolver interações\nentre pessoas e objetos de conhecimento, elaborar e socializar produções, tendo em vista\natingir determinados objetivos.\nAvaliação de Aprendizagem: visa aferir o conhecimento adquirido pelo trabalhador e o",
-    "heading": "Introdução",
-    "char_offset": 53783
-  },
-  {
-    "id": "chunk-181",
-    "text": "respectivo grau de assimilação após a realização da capacitação.\nEAD: segundo Decreto n.º 9.057/2017, caracteriza-se a Educação a Distância como modalidade\neducacional na qual a mediação didático-pedagógica nos processos de ensino e aprendizagem\nocorre com a utilização de meios e tecnologias de informação e comunicação, com estudantes",
-    "heading": "Introdução",
-    "char_offset": 54082
-  },
-  {
-    "id": "chunk-182",
-    "text": "e professores desenvolvendo atividades educativas em lugares ou tempos diversos.\nEnsino semipresencial: conjugação de atividades presenciais obrigatórias com outras atividades\neducacionais que podem ser realizadas sem a presença física do participante em sala de aula,",
-    "heading": "Introdução",
-    "char_offset": 54420
-  },
-  {
-    "id": "chunk-183",
-    "text": "utilizando recursos didáticos com suporte da tecnologia, de material impresso e/ou de outros\nmeios de comunicação.\nProjeto pedagógico: instrumento de concepção do processo ensino-aprendizagem. Nele deve\nEste texto não substitui o publicado no DOU 20",
-    "heading": "Introdução",
-    "char_offset": 54691
-  },
-  {
-    "id": "chunk-184",
-    "text": "se registrar o objetivo da aprendizagem, a estratégia pedagógica escolhida para a formação e\ncapacitação dos trabalhadores, bem como todas as informações que estejam envolvidas no\nprocesso.\nInstrumentos para potencialização do aprendizado: recursos, ferramentas, dinâmicas e",
-    "heading": "Introdução",
-    "char_offset": 54944
-  },
-  {
-    "id": "chunk-185",
-    "text": "tecnologias de comunicação que tenham como objetivo tornar mais eficaz o processo de ensinoaprendizagem.\nLog: registro informatizado de acesso ao sistema. Ex.: log de acesso: registro de acessos; login:\nregistro de entrada; logoff: registro de saída.",
-    "heading": "Introdução",
-    "char_offset": 55220
-  },
-  {
-    "id": "chunk-186",
-    "text": "Este texto não substitui o publicado no DOU 21",
-    "heading": "Introdução",
-    "char_offset": 55473
+    "id": "chunk-160",
+    "text": "Este texto não substitui o publicado no DOU \n21",
+    "heading": "**6. Glossário**",
+    "char_offset": 53420
   }
 ]
