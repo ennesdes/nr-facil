@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:45:54.229342+00:00",
+  "generated_at": "2026-08-21T09:47:10.223974+00:00",
   "min_app_version": "0.0.0",
   "updates": [
     {
@@ -921,6 +921,30 @@
       "pdf_hash": "7cf5e70404f82af64f35caec64315de1d693c57f3f5520883bb04c52b1749bb9",
       "summary": "Primeira versão (None)",
       "created_at": "2026-08-18T22:02:13.979174+00:00"
+    },
+    {
+      "nr_id": "nr-22",
+      "title": "SEGURANÇA E SAÚDE OCUPACIONAL NA MINERAÇÃO",
+      "portaria": "Após consulta pública e negociação tripartite, a nova redação foi aprovada pelaPortaria MTE nº 2.037, de 15 de dezembro de 1999, e passou a vigorar em",
+      "pdf_hash": "0daef505ed0dcb67606742cbb5e5102eca7d4cd8167159d5e2e4674624314eea",
+      "summary": "Atualizado em None",
+      "created_at": "2026-08-21T09:47:10.223861+00:00"
+    },
+    {
+      "nr_id": "nr-35",
+      "title": "TRABALHO EM ALTURA",
+      "portaria": "Esta proposta de texto foi encaminhada para consulta pública, pelaPortaria MTE nº 232de 09/06/2011, com prazo de encaminhamento de sugestões até 09/08",
+      "pdf_hash": "a1ed910458360c37881dcad31f7dc0969377ca81ffe61023b95d7cbcb1299486",
+      "summary": "Atualizado em None",
+      "created_at": "2026-08-21T09:47:10.223910+00:00"
+    },
+    {
+      "nr_id": "nr-10",
+      "title": "SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE",
+      "portaria": "Desde sua publicação, a NR-10 passou por cinco processos revisionais, compreendendo duas alterações pontuais e três amplas revisões, sendo a mais rece",
+      "pdf_hash": "7eb75df47586ff18f362de7a5a5e2501a6e49c6b0058cad8e561121f2b8edd3d",
+      "summary": "Atualizado em None",
+      "created_at": "2026-08-21T09:47:10.223945+00:00"
     }
   ]
 }

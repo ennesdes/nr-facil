@@ -42,6 +42,11 @@
     },
     {
       "level": 1,
+      "text": "b) localização de placas de sinalização; e",
+      "id": "b-localização-de-placas-de-sinalização-e"
+    },
+    {
+      "level": 1,
       "text": "**22.8 Transportadores Contínuos**",
       "id": "228-transportadores-contínuos"
     },
@@ -107,13 +112,18 @@
     },
     {
       "level": 1,
-      "text": "pressão entre as portas.",
-      "id": "pressão-entre-as-portas"
+      "text": "**22.23 Beneficiamento**",
+      "id": "2223-beneficiamento"
     },
     {
       "level": 1,
-      "text": "**22.23 Beneficiamento**",
-      "id": "2223-beneficiamento"
+      "text": "d) galgas;",
+      "id": "d-galgas"
+    },
+    {
+      "level": 1,
+      "text": "e) transportadores contínuos;",
+      "id": "e-transportadores-contínuos"
     },
     {
       "level": 1,
@@ -124,11 +134,6 @@
       "level": 1,
       "text": "**22.24 Deposição de estéril, rejeitos e produtos**",
       "id": "2224-deposição-de-estéril-rejeitos-e-produtos"
-    },
-    {
-      "level": 3,
-      "text": "**_<mark>Observações sobre prazo:</mark>_**",
-      "id": "_markobservações-sobre-prazomark_"
     },
     {
       "level": 1,
@@ -186,14 +191,14 @@
       "id": "2235-disposições-gerais"
     },
     {
+      "level": 1,
+      "text": "subitem 1.5.5.5 da NR-1.",
+      "id": "subitem-1555-da-nr-1"
+    },
+    {
       "level": 2,
       "text": "**GLOSSÁRIO DA NR-22**",
       "id": "glossário-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "policial estadual.",
-      "id": "policial-estadual"
     },
     {
       "level": 1,
@@ -222,8 +227,18 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO II da NR-22 Capacitação e Treinamento**",
-      "id": "anexo-ii-da-nr-22-capacitação-e-treinamento"
+      "text": "**3.14** O sistema gerador de vácuo deve:",
+      "id": "314-o-sistema-gerador-de-vácuo-deve"
+    },
+    {
+      "level": 1,
+      "text": "**ANEXO II da NR-22**",
+      "id": "anexo-ii-da-nr-22"
+    },
+    {
+      "level": 1,
+      "text": "**Capacitação e Treinamento**",
+      "id": "capacitação-e-treinamento"
     },
     {
       "level": 1,
@@ -237,18 +252,8 @@
     },
     {
       "level": 1,
-      "text": "**2.2** O treinamento introdutório geral deve:",
-      "id": "22-o-treinamento-introdutório-geral-deve"
-    },
-    {
-      "level": 1,
-      "text": "**ANEXO III da NR-22**",
-      "id": "anexo-iii-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "**Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa**",
-      "id": "requisitos-mínimos-para-utilização-de-equipamentos-de-guindar-de-lança-fixa"
+      "text": "**ANEXO III da NR-22 Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa**",
+      "id": "anexo-iii-da-nr-22-requisitos-mínimos-para-utilização-de-equipamentos-de-guindar-de-lança-fixa"
     },
     {
       "level": 1,
@@ -404,6 +409,11 @@
       "level": 1,
       "text": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
       "id": "4-avaliação-das-exposições-ocupacionais-a-poeiras-minerais"
+    },
+    {
+      "level": 1,
+      "text": "**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas diárias.**",
+      "id": "43-reajuste-de-leo-para-jornadas-acima-de-40-quarenta-horas-semanais-ou-8-oito-horas-diárias"
     },
     {
       "level": 1,

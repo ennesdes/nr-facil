@@ -1261,212 +1261,212 @@
   },
   {
     "id": "chunk-210",
-    "text": "18. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 5, 10, 12, 13 e 14.",
+    "text": "B. Prático \n18. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 5, 10, 12, 13 e 14.",
     "heading": "**ANEXO IV**",
-    "char_offset": 68706
+    "char_offset": 68718
   },
   {
     "id": "chunk-211",
     "text": "* Quadros referentes a EPI para Arco Elétrico, adaptados da norma da National Fire Protection Association (NFPA) 70E - Tabelas 130.7(C)(15)(a), 130.7(C)(15)(b) e 130.7(C)(15)(c), 2024. \nQuadro I - Categorias de EPI para proteção contra arco elétrico em sistemas de corrente alternada <u>(CA)</u>",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 68709
+    "char_offset": 68721
   },
   {
     "id": "chunk-212",
     "text": "29 \n| Equipamento | Parâmetros | Categoria\nde EPI |\n| --- | --- | --- |\n| Painéis ou outros equipamentos | ·Máximo de 25 kA de corrente de falha disponível; | 1 |\n30 \n| Painéis ou outros equipamentos\ncom classificação superior a 240\nvolts e até 600 volts | ·Máximo de 25 kA de corrente de falha disponível;",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 69010
+    "char_offset": 69022
   },
   {
     "id": "chunk-213",
     "text": "·tempo máximo de eliminação de falhas de 0,03 s (2\nciclos);\n·distância mínima de trabalho de 455 mm | 2 |\n| --- | --- | --- |\n| Centros de controle de motores\n(CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 65 kA;\n·tempo máximo de eliminação de falhas de 0,03 s (2",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 69317
+    "char_offset": 69329
   },
   {
     "id": "chunk-214",
     "text": "ciclos);\n·distância mínima de trabalho de 455 mm | 2 |\n| Centros de controle de motores\n(CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 42 kA;\n·tempo máximo de eliminação de falhas de 0,33 s\n(20 ciclos);\n·distância mínima de trabalho de 455 mm | 4 |",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 69606
+    "char_offset": 69618
   },
   {
     "id": "chunk-215",
     "text": "| Aparelhagem de distribuição de\n600 volts (com disjuntores de\npotência ou interruptores com\nfusível) e\nquadros de distribuição de 600\nvolts | ·Corrente de falha máxima disponível de 35 kA;\n·tempo máximo de eliminação de falhas de até 0,5 s\n(30 ciclos);",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 69880
+    "char_offset": 69892
   },
   {
     "id": "chunk-216",
     "text": "·distância mínima de trabalho de 455 mm | 4 |\n| Outros equipamentos de classe de\n600 volts (277 volts a 600 volts,\nnominal) | ·Corrente de falha máxima disponível de 65 kA;\n·tempo máximo de eliminação de falhas de 0,03 s (2\nciclos);\n·distância mínima de trabalho de 455 mm | 2 |",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 70134
+    "char_offset": 70146
   },
   {
     "id": "chunk-217",
     "text": "| Partidas de motor NEMA E2\n(contator com fusível), 2,3 kV a 7,2\nkV | ·Máximo de 35 kA de corrente de falha disponível;\n·empo máximo de eliminação de falhas de até 0,24 s\n(15 ciclos);\n·distância mínima de trabalho de 910 mm | 4 |\n| Aparelhagem de manobra",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 70413
+    "char_offset": 70425
   },
   {
     "id": "chunk-218",
     "text": "revestida de metal, 1 kV a 15 kV | ·Corrente de falha máxima disponível de 35 kA;\n·tempo máximo de eliminação de falhas de até 0,24\ns (15 ciclos);\n·distância mínima de trabalho de 910 mm | 4 |\n| Chave seccionadora em invólucro\nmetálico, com ou sem fusível,",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 70668
+    "char_offset": 70680
   },
   {
     "id": "chunk-219",
     "text": "construção de 1 kV a 15 kV | ·Corrente de curto-circuito disponível máxima de 35\nkA;\n·tempo máximo de eliminação da falha de 0,24 s (15\nciclos);\n·distância mínima de trabalho de 910 mm | 4 |\n| Outros equipamentos de 1 kV a 15\nkV | ·Corrente de curto-circuito disponível máxima de 35",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 70925
+    "char_offset": 70937
   },
   {
     "id": "chunk-220",
     "text": "kA;\n·tempo máximo de eliminação da falha de até 0,24 s | 4 |\nNota: para equipamentos classificados em 600 volts ou menos e protegidos por fusíveis limitadores de corrente ou disjuntores termomagnéticos limitadores de corrente dimensionados para 200 amperes ou menos, a categoria de EPI para arco elétrico pode ser reduzida em um número, mas não abaixo da categoria 1 de EPI para arco elétrico.",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 71209
+    "char_offset": 71221
   },
   {
     "id": "chunk-221",
     "text": "- (*) Para PORTAS ABERTAS, consulte a linha correspondente de equipamentos não resistentes ao arco deste quadro. \nQuadro II - Categorias de EPI para proteção contra arco elétrico em sistemas de corrente contínua <u>(CC)</u> \nNotas: \n1. As vestimentas que possam ser expostas a eletrólitos devem atender a ambas as condições a seguir:",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 71608
+    "char_offset": 71620
   },
   {
     "id": "chunk-222",
     "text": "- a) Ser avaliadas quanto à proteção contra eletrólitos. \n- b) Possuir classificação de resistência a arco elétrico (arc rated). \n2. Assume-se uma duração de arco de dois segundos quando não há dispositivo de proteção contra sobrecorrente (OCPD) ou quando o tempo de eliminação da falha não é conhecido. Se o tempo de eliminação for conhecido e for inferior a 2 segundos, uma análise de energia incidente pode fornecer um resultado mais representativo.",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 71946
+    "char_offset": 71958
   },
   {
     "id": "chunk-223",
     "text": "3. Os métodos usados para estimar a energia incidente de arco elétrico em CC, utilizados para definir as categorias desta tabela, baseiam-se em cálculos de energia incidente em ar livre. Caso a atividade ocorra dentro de um invólucro, recomenda-se considerar proteção adicional de EPI, além do valor indicado nesta tabela.",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 72401
+    "char_offset": 72413
   },
   {
     "id": "chunk-224",
     "text": "31 \n| Equipamentos resistentes ao arco\nelétrico até a classe de 600 volts | ·PORTAS FECHADAS e TRAVADAS(*);\n·com corrente de falha disponível e tempo de\neliminação de falha que não excedam a classificação\nde resistência ao arco do equipamento | N/A (Não",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 72727
+    "char_offset": 72739
   },
   {
     "id": "chunk-225",
     "text": "aplicável) |\n| --- | --- | --- |\n| Equipamentos resistentes ao arco\nelétrico de 1 kV a 15 kV | ·PORTAS FECHADAS e TRAVADAS(*);\n·com corrente de falha disponível e tempo de\neliminação de falha que não excedam a classificação\nde resistência ao arco do equipamento | N/A (Não",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 72981
+    "char_offset": 72993
   },
   {
     "id": "chunk-226",
     "text": "aplicável) |\n| Equipamento/Parâmetros | Categoria de EPI |\n| --- | --- |\n| Baterias de armazenamento, quadros de corrente contínua (CC) e outras\nfontes de alimentação CC\nParâmetros:\n·Superiores a 150 volts e inferiores ou iguais a 600 volts;\n·duração máxima do arco e distância mínima de trabalho: 2 segundos a 455",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 73255
+    "char_offset": 73267
   },
   {
     "id": "chunk-227",
     "text": "mm |  |\n| ·Corrente de curto-circuito disponível inferior a 1,5 kA | 2 |\n| ·Corrente de curto-circuito disponível maior ou igual a 1,5 kA e menor que 3\nkA | 2 |\n| ·Corrente de curto-circuito disponível maior ou igual a 3 kA e menor que 7\nkA | 3 |\n| ·Corrente de curto-circuito disponível maior ou igual a 7 kA e menor que 10",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 73570
+    "char_offset": 73582
   },
   {
     "id": "chunk-228",
     "text": "kA | 4 |\n32 \n| Categoria de\nEPI para Arco\nElétrico | EPI |\n| --- | --- |\n| 1 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 4 cal/cm²\n(a)\n• Camisa e calça de mangas compridas com resistência ao arco elétrico, ou\nmacacão com resistência ao arco elétrico;",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 73897
+    "char_offset": 73909
   },
   {
     "id": "chunk-229",
     "text": "• Protetor facial com resistência ao arco elétrico (b) ou capuz com resistência ao\narco elétrico;\n• Jaqueta, parca, vestimenta de alta visibilidade, impermeáveis ou forro de\ncapacete com resistência ao arco elétrico ou outras sobreposições com resistência",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 74176
+    "char_offset": 74188
   },
   {
     "id": "chunk-230",
     "text": "ao arco elétrico (CNf)\nEquipamentos de Proteção Adicional:\n• Capacete de segurança;\n• Óculos de proteção ou óculos de ampla visão (SOg);\n• Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco\nelétrico);\n• Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 74432
+    "char_offset": 74444
   },
   {
     "id": "chunk-231",
     "text": "de borracha com luva de cobertura (d) (SOg)\n• Calçado de couro (e) (CNf) |\n| 2 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 8 cal/cm²\n(a)\n• Camisa e calça de mangas compridas com resistência ao arco elétrico ou macacão\ncom resistência ao arco elétrico;",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 74748
+    "char_offset": 74760
   },
   {
     "id": "chunk-232",
     "text": "• Capuz completo com resistência ao arco elétrico ou protetor facial com\nresistência ao arco elétrico (b) combinado com balaclava com resistência ao arco\nelétrico;\n• Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete\ncom resistência ao arco elétrico ou outras sobreposições com resistência ao arco",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 75028
+    "char_offset": 75040
   },
   {
     "id": "chunk-233",
     "text": "elétrico (CNf)\nEquipamentos de Proteção Adicional:\n• Capacete de segurança;\n• Óculos de proteção ou óculos de ampla visão (SOg);\n• Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco\nelétrico);\n• Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 75353
+    "char_offset": 75365
   },
   {
     "id": "chunk-234",
     "text": "de borracha com luva de cobertura (d) (SOg)\n• Calçado de couro (e) |\n| 3 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 25 cal/cm²\n(a)\n• Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas\npeças);\n• Capuz carrasco completo com resistência ao arco elétrico;",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 75661
+    "char_offset": 75673
   },
   {
     "id": "chunk-235",
     "text": "• Jaqueta, parca, roupa de alta visibilidade, forro de capacete com resistência ao\narco elétrico (CNf).\nEquipamentos de Proteção Adicional:\n• Capacete de segurança\n• Óculos de proteção ou óculos de ampla visão (SOg)\n• Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco |",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 75968
+    "char_offset": 75980
   },
   {
     "id": "chunk-236",
     "text": "- elétrico); • Luvas de couro espessas, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (<sup>d</sup> ) (SO<sup>g</sup> ); • Calçado de couro (<sup>e</sup> <u>)</u> Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 40 cal/cm² (<sup>a</sup> ) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CN<sup>f</sup> ).",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 76270
+    "char_offset": 76282
   },
   {
     "id": "chunk-237",
     "text": "- 4 Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SO<sup>g</sup> ) • Protetor auricular (<sup>c</sup> ) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luvas protetoras (<sup>d</sup> ) (SO<sup>g</sup> ) • Calçado de couro (<sup>e</sup> <u>)</u>",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 76946
+    "char_offset": 76958
   },
   {
     "id": "chunk-238",
     "text": "a Valores mínimos de energia incidente segundo ASTM F1506 ou ASTM F1959 ou normas atualizadas de acordo com processo de Certificado de Aprovação (CA) nos termos da NR-6. \nb Protetor facial ou capuz devem atender ASTM F2178 ou normas atualizadas de acordo com processo de CA nos termos da NR-6.",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 77377
+    "char_offset": 77389
   },
   {
     "id": "chunk-239",
     "text": "c Protetores auriculares necessários quando há risco de ruído ou explosão por arco. \nd Luvas isolantes de borracha conforme ASTM D120, com protetores de couro conforme ASTM F696 ou normas atualizadas de acordo com processo de CA nos termos da NR-6.",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 77674
+    "char_offset": 77686
   },
   {
     "id": "chunk-240",
     "text": "e Calçados de couro ou equivalentes, resistentes ao calor e sem componentes metálicos expostos. \nf (CN) conforme necessário, dependendo das condições ambientais e tarefa. \ng (SO) seleção obrigatória conforme risco e tarefa específica. \nATPV - valor de desempenho térmico ao arco elétrico valor numérico de energia incidente atribuído a um produto, que descreve as suas propriedades térmicas para atenuar (reduzir) um fluxo de calor gerado por um arco elétrico (ABNT NBR IEC 61482-2).",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 77928
+    "char_offset": 77940
   },
   {
     "id": "chunk-241",
     "text": "EBT - energia-limite de rompimento valor numérico de energia incidente atribuído a um produto, que descreve as suas propriedades de rompimento, quando exposto a um fluxo de calor gerado por um arco elétrico (ABNT NBR IEC 61482-2). \nELIM - limite máximo de energia incidente valor numérico de energia incidente atribuído a um produto, abaixo do qual não há ponto de dados com a quantidade de calor transmitida pelo produto que atinja o critério de Stoll (ATPV) ou com o produto exibindo rompimento (ABNT NBR IEC 61482-2).",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 78415
+    "char_offset": 78427
   },
   {
     "id": "chunk-242",
     "text": "33 \n| 4 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 40 cal/cm²\n(a)\n• Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas\npeças);\n• Capuz carrasco completo com resistência ao arco elétrico;\n• Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 78939
+    "char_offset": 78951
   },
   {
     "id": "chunk-243",
     "text": "com resistência ao arco elétrico ou outras sobreposições com resistência ao arco\nelétrico (CNf).\nEquipamentos de Proteção Adicional:\n• Capacete de segurança\n• Óculos de proteção ou óculos de ampla visão (SOg)\n• Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 79261
+    "char_offset": 79273
   },
   {
     "id": "chunk-244",
     "text": "elétrico);\n• Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes\nde borracha com luvas protetoras (d) (SOg)\n• Calçado de couro (e) |\n| --- | --- |",
     "heading": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**",
-    "char_offset": 79554
+    "char_offset": 79566
   }
 ]
