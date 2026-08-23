@@ -19,6 +19,23 @@ class UpdatesPage extends GetView<UpdatesController> {
       appBar: AppBar(
         title: const Text('Atualizações'),
         elevation: 1,
+        actions: [
+          Obx(
+            () => IconButton(
+              icon: controller.isChecking.value
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(strokeWidth: 2),
+                    )
+                  : const Icon(Icons.refresh),
+              tooltip: 'Verificar atualizações',
+              onPressed: controller.isChecking.value
+                  ? null
+                  : controller.checkForUpdates,
+            ),
+          ),
+        ],
       ),
       body: Obx(
         () {
@@ -45,9 +62,23 @@ class UpdatesPage extends GetView<UpdatesController> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Suas normas estão em dia. Verifique atualizações em breve.',
+                      'Suas normas estão em dia.',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                    const SizedBox(height: 16),
+                    ElevatedButton.icon(
+                      onPressed: controller.isChecking.value
+                          ? null
+                          : controller.checkForUpdates,
+                      icon: controller.isChecking.value
+                          ? const SizedBox(
+                              width: 16,
+                              height: 16,
+                              child: CircularProgressIndicator(strokeWidth: 2),
+                            )
+                          : const Icon(Icons.refresh),
+                      label: const Text('Verificar atualizações'),
                     ),
                   ],
                 ),
