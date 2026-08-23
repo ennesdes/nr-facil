@@ -59,7 +59,29 @@ Se o layout do gov.br mudar (seletores HTML não encontrados), o script lança e
 
 ---
 
-### 2. `scrape_vigencia.py` — Metadados de vigência
+### 2. `cleanup_orphans.py` — Remoção de conteúdo órfão
+
+Remove `content/nr-XX/` inteiro quando `nr-XX` não existe mais em `nr_index.json` nem em `nr_sources.json`
+(ex.: NR renumerada, unificada ou removida do índice do gov.br). Sem isso, markdown/PDF/PNGs/índices dessa
+NR ficam para sempre no repositório — lixo que só cresce a cada execução da Action.
+
+**Uso:**
+
+```bash
+python3 scripts/cleanup_orphans.py              # remove órfãos
+python3 scripts/cleanup_orphans.py --dry-run    # lista sem remover
+python3 scripts/cleanup_orphans.py --help       # ajuda
+```
+
+**Output:**
+- Remove `content/nr-XX/` (diretório inteiro) para cada órfão encontrado
+
+**Quando rodar:** logo após `discover_nrs.py` (índice fresco), antes de qualquer outra etapa —
+assim nenhuma etapa seguinte perde tempo com uma NR que já não existe.
+
+---
+
+### 3. `scrape_vigencia.py` — Metadados de vigência
 
 Scraping da página HTML de cada NR (não do PDF) → extrai metadados que descrevem quando entrou em vigor.
 
@@ -88,7 +110,7 @@ Falha numa NR (scraping HTML fora do padrão) não interrompe as demais. Registr
 
 ---
 
-### 3. `convert_nr.py` — Conversão PDF → Markdown
+### 4. `convert_nr.py` — Conversão PDF → Markdown
 
 Converte PDF oficial em Markdown + assets (PNG de página para diagramas ou tabelas ilegíveis).
 
@@ -120,7 +142,7 @@ Falha numa NR (PDF corrompido, scraping quebrado) não interrompe as demais. Exi
 
 ---
 
-### 4. `normalize_md.py` — Normalização de Markdown
+### 5. `normalize_md.py` — Normalização de Markdown
 
 Remove artefatos de PDF (cabeçalhos/rodapés repetidos, hifenização quebrada), normaliza headings.
 
@@ -146,7 +168,7 @@ python3 scripts/normalize_md.py --help               # ajuda
 
 ---
 
-### 5. `build_index.py` — Construção de índices
+### 6. `build_index.py` — Construção de índices
 
 Gera índices de navegação e busca a partir do `.md` normalizado.
 
@@ -181,7 +203,7 @@ python3 scripts/build_index.py --help               # ajuda
 
 ---
 
-### 6. `build_manifest.py` — Geração do manifest remoto
+### 7. `build_manifest.py` — Geração do manifest remoto
 
 Agrega dados de `content/nr-XX/meta.json`, `nr_index.json`, e arquivo `.md`
 para criar `manifest.json` na raiz do repo (índice central de todas as NRs).
@@ -222,7 +244,7 @@ Extrai automaticamente `owner/repo/branch` do git remote origin. O campo `url` a
 
 ---
 
-### 7. `update_nrs.py` — Detecção de mudanças
+### 8. `update_nrs.py` — Detecção de mudanças
 
 Para cada NR:
 1. Baixa PDF (usando `pdf_url` de `nr_index.json` + overrides de `nr_sources.json`)
@@ -243,7 +265,7 @@ Falha numa NR não interrompe as demais. Exit code != 0 ao final se houver erros
 
 ---
 
-### 8. `validate_manifest.py` — Validação do schema
+### 9. `validate_manifest.py` — Validação do schema
 
 Valida `manifest.json` contra schema esperado (campos obrigatórios, tipos, URLs bem formadas).
 
@@ -264,7 +286,7 @@ python3 scripts/validate_manifest.py --help            # ajuda
 
 ---
 
-### 9. `build_app_meta.py` — Feed de atualizações (sem backend)
+### 10. `build_app_meta.py` — Feed de atualizações (sem backend)
 
 Lê `manifest.json`, compara com a última entrada conhecida em `app_meta.json`
 (se existir), gera summary sem IA (ex.: "Atualizado em [data]"), e acrescenta
@@ -283,6 +305,33 @@ python3 scripts/build_app_meta.py --help     # ajuda
 
 ---
 
+### 11. `summarize_changes.py` — Resumo legível das alterações normativas
+
+Compara o markdown de cada NR alterada (`content/nr-XX/nr-XX.md`) contra um ref git, item a item
+(ex.: `10.4.2`), e classifica cada item como novo, removido ou alterado — mostrando só o trecho de
+palavras que de fato mudou (via `difflib`), não o item inteiro. Também aponta mudanças de vigência
+em `meta.json` (`publicado_em`, `vigente_desde`, `ultima_alteracao`). Puramente baseado em regex/diff
+de texto — sem IA, custo zero, determinístico.
+
+Usado pela etapa "Registrar changelog mensal" do workflow: o resultado vai tanto para o changelog em
+`docs/changelog/` quanto para o Job Summary da execução do Actions (para não precisar abrir os logs de
+cada step para saber o que mudou).
+
+**Uso:**
+
+```bash
+python3 scripts/summarize_changes.py             # compara HEAD vs working tree
+python3 scripts/summarize_changes.py --ref HEAD~1  # compara contra outro ref
+```
+
+**Output:**
+- Markdown no stdout, um bloco `### NR-XX` por NR alterada, com linhas `🆕`/`❌`/`✏️` por item.
+- Cada NR mostra no máximo `MAX_ITEMS_PER_NR` (30) itens — excesso vira uma linha "+N omitida(s)"
+  em vez de inundar o changelog/summary (acontece em commits que reformatam o pipeline inteiro,
+  não em atualizações normativas normais).
+
+---
+
 ## `_common.py` — Utilitários compartilhados
 
 Funções reutilizáveis por vários scripts:
@@ -291,6 +340,7 @@ Funções reutilizáveis por vários scripts:
 - `ensure_content_dir(nr_id)` — cria e retorna `content/nr-XX/`
 - `ensure_assets_dir(nr_id, asset_type)` — cria e retorna `content/nr-XX/assets/{type}/`
 - `setup_logging(verbose)` — configura logging com DEBUG/INFO
+- `CONTENT_DIR` — `Path` de `content/`, usado por `cleanup_orphans.py` para achar diretórios órfãos
 
 ---
 
@@ -300,6 +350,8 @@ Execução automática, diária (configurável):
 
 ```
 discover_nrs.py                (scraping → nr_index.json)
+    ↓
+cleanup_orphans.py             (remove content/nr-XX/ órfãos)
     ↓
 update_nrs.py                  (detecção de mudanças)
     ↓
@@ -311,6 +363,8 @@ scrape_vigencia.py --all       (metadados de vigência)
     └→ validate_manifest.py
     ↓
 build_app_meta.py              (app_meta.json: feed de atualizações + versão mínima)
+    ↓
+summarize_changes.py           (resumo legível → changelog + Job Summary do Actions)
     ↓
 git commit + push              (GitHub: content/ + manifest.json + app_meta.json)
 ```

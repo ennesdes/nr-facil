@@ -30,6 +30,13 @@ jobs:
           python3 scripts/discover_nrs.py 2>&1 | tee /tmp/nrfacil-logs/discover.log
           exit ${PIPESTATUS[0]}
 
+      - name: Remover conteúdo órfão (NRs fora do índice)
+        id: cleanup_orphans
+        continue-on-error: true
+        run: |
+          python3 scripts/cleanup_orphans.py 2>&1 | tee /tmp/nrfacil-logs/cleanup_orphans.log
+          exit ${PIPESTATUS[0]}
+
       - name: Detectar mudanças (hash do PDF)
         id: update_nrs
         continue-on-error: true
@@ -97,6 +104,7 @@ jobs:
           declare -A NOMES=(
             [install_deps]="Install dependencies"
             [discover]="Descobrir NRs"
+            [cleanup_orphans]="Remover conteúdo órfão"
             [update_nrs]="Detectar mudanças"
             [vigencia]="Metadados de vigência"
             [convert]="Converter PDF → Markdown"
@@ -109,6 +117,7 @@ jobs:
           declare -A OUTCOMES=(
             [install_deps]="${{ steps.install_deps.outcome }}"
             [discover]="${{ steps.discover.outcome }}"
+            [cleanup_orphans]="${{ steps.cleanup_orphans.outcome }}"
             [update_nrs]="${{ steps.update_nrs.outcome }}"
             [vigencia]="${{ steps.vigencia.outcome }}"
             [convert]="${{ steps.convert.outcome }}"
@@ -139,7 +148,7 @@ jobs:
             STATUS="⚠️ parcial (algumas NRs com erro isolado)"
           fi
 
-          {
+          BLOCO=$(
             echo ""
             echo "## ${DIA} — ${STATUS}"
             if [ "${#FALHAS[@]}" -gt 0 ]; then
@@ -157,12 +166,21 @@ jobs:
             if git diff --cached --quiet; then
               echo "Sem alterações de conteúdo."
             else
-              echo "Arquivos alterados:"
+              echo "### O que mudou"
+              echo ""
+              python3 scripts/summarize_changes.py --ref HEAD
+              echo "<details><summary>Arquivos alterados (lista completa)</summary>"
+              echo ""
               echo '```'
               git diff --cached --name-status
               echo '```'
+              echo ""
+              echo "</details>"
             fi
-          } >> "$ARQUIVO"
+          )
+
+          echo "$BLOCO" >> "$ARQUIVO"
+          echo "$BLOCO" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit automático se mudou
         if: always()
@@ -178,7 +196,7 @@ jobs:
           fi
 
       - name: Falhar job se alguma etapa teve erro isolado por NR
-        if: steps.update_nrs.outcome == 'failure' || steps.vigencia.outcome == 'failure' || steps.convert.outcome == 'failure' || steps.build_index.outcome == 'failure'
+        if: steps.cleanup_orphans.outcome == 'failure' || steps.update_nrs.outcome == 'failure' || steps.vigencia.outcome == 'failure' || steps.convert.outcome == 'failure' || steps.build_index.outcome == 'failure'
         run: |
           echo "Uma ou mais etapas tiveram erro isolado por NR (ver logs acima) — commit já feito com as NRs que processaram com sucesso."
           exit 1
