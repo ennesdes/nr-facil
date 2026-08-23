@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/widgets/app_snackbar.dart';
 
 /// Controller para HomePage — gerencia navegação entre abas.
 ///
@@ -36,11 +37,7 @@ class HomeController extends GetxController {
     // usável offline com o cache local existente.
     _syncErrorWorker = ever<String?>(_contentService.lastError, (error) {
       if (error != null) {
-        Get.snackbar(
-          'Sincronização',
-          error,
-          snackPosition: SnackPosition.BOTTOM,
-        );
+        AppSnackbar.showError(title: 'Sincronização', message: error);
       }
     });
 

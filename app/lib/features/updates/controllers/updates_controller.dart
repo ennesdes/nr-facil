@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
 
@@ -57,25 +58,26 @@ class UpdatesController extends GetxController {
         _contentService.lastSyncedAt.value != previousSyncedAt;
 
     if (!reachedNetwork) {
-      Get.snackbar(
-        'Verificar atualizações',
-        _contentService.lastError.value ??
+      AppSnackbar.showError(
+        title: 'Verificar atualizações',
+        message: _contentService.lastError.value ??
             'Não foi possível conectar. Tente novamente mais tarde.',
-        snackPosition: SnackPosition.BOTTOM,
       );
       return;
     }
 
     final newCount = _contentService.updatedNrs.length - countBefore;
-    Get.snackbar(
-      'Verificar atualizações',
-      newCount > 0
-          ? (newCount == 1
-              ? '1 nova atualização encontrada.'
-              : '$newCount novas atualizações encontradas.')
-          : 'Nenhuma atualização nova. Suas normas estão em dia.',
-      snackPosition: SnackPosition.BOTTOM,
-    );
+    final message = newCount > 0
+        ? (newCount == 1
+            ? '1 nova atualização encontrada.'
+            : '$newCount novas atualizações encontradas.')
+        : 'Nenhuma atualização nova. Suas normas estão em dia.';
+
+    if (newCount > 0) {
+      AppSnackbar.showSuccess(title: 'Verificar atualizações', message: message);
+    } else {
+      AppSnackbar.showInfo(title: 'Verificar atualizações', message: message);
+    }
   }
 
   /// Abrir leitor de uma NR e marcar como vista.
