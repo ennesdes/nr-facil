@@ -9,7 +9,6 @@ class NrItemRow extends StatelessWidget {
   final double fontSize;
   final bool isDarkMode;
   final String? highlightQuery;
-  final bool isHighlighted;
 
   const NrItemRow({
     required this.number,
@@ -18,36 +17,26 @@ class NrItemRow extends StatelessWidget {
     required this.fontSize,
     required this.isDarkMode,
     this.highlightQuery,
-    this.isHighlighted = false,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     final textColor = isDarkMode ? Colors.white : Colors.black87;
-    final badgeColor = isHighlighted
-        ? Colors.amber.withValues(alpha: 0.35)
-        : isDarkMode
-            ? Theme.of(context).colorScheme.primaryContainer
-            : Theme.of(context).colorScheme.primary.withValues(alpha: 0.1);
+    final badgeColor = isDarkMode
+        ? Theme.of(context).colorScheme.primaryContainer
+        : Theme.of(context).colorScheme.primary.withValues(alpha: 0.1);
     final badgeTextColor = isDarkMode
         ? Theme.of(context).colorScheme.onPrimaryContainer
         : Theme.of(context).colorScheme.primary;
 
     final indent = (depth - 1) * 12.0;
 
-    return Container(
-      decoration: isHighlighted
-          ? BoxDecoration(
-              color: Colors.amber.withValues(alpha: 0.12),
-              borderRadius: BorderRadius.circular(8),
-            )
-          : null,
+    return Padding(
       padding: EdgeInsets.only(
         left: indent,
         top: 8,
         bottom: 4,
-        right: isHighlighted ? 4 : 0,
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,

@@ -37,6 +37,33 @@ void main() {
       expect(results, hasLength(1));
       expect(results.first.sectionId, '61-objetivo');
       expect(results.first.blockIndex, 0);
+      expect(results.first.matchStart, greaterThanOrEqualTo(0));
+    });
+
+    test('conta cada ocorrência no mesmo bloco', () {
+      final withRepeats = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-epi',
+            number: '6.1',
+            title: 'EPI',
+            blocks: [
+              const NrItemBlock(
+                number: '6.1.1',
+                depth: 2,
+                text: 'fornecer EPI e substituir EPI danificado',
+              ),
+            ],
+          ),
+        ],
+      );
+
+      final results = searchInNrDocument(withRepeats, 'EPI');
+      expect(results, hasLength(3));
+      expect(results.where((h) => h.blockIndex == -1), hasLength(1));
+      expect(results.where((h) => h.blockIndex == 0), hasLength(2));
     });
 
     test('encontra título de seção no índice', () {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
+import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 
 void main() {
   group('NrBlockRenderer', () {
@@ -70,7 +70,7 @@ void main() {
         ),
       );
 
-      expect(find.byType(MarkdownBody), findsOneWidget);
+      expect(find.byType(SearchableMarkdownBody), findsOneWidget);
       expect(find.textContaining('Portaria MTP'), findsOneWidget);
     });
   });

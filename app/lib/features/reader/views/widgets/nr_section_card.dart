@@ -12,7 +12,6 @@ class NrSectionCard extends StatelessWidget {
   final bool isExpanded;
   final ValueChanged<bool> onExpansionChanged;
   final String? highlightQuery;
-  final int? highlightBlockIndex;
   final GlobalKey Function(String sectionId, int blockIndex) blockKeyFor;
 
   const NrSectionCard({
@@ -24,7 +23,6 @@ class NrSectionCard extends StatelessWidget {
     required this.onExpansionChanged,
     required this.blockKeyFor,
     this.highlightQuery,
-    this.highlightBlockIndex,
     super.key,
   });
 
@@ -32,7 +30,6 @@ class NrSectionCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final textColor = isDarkMode ? Colors.white : Colors.black87;
     final cardColor = isDarkMode ? const Color(0xFF1E1E1E) : Colors.white;
-    final titleHighlighted = highlightBlockIndex == -1;
 
     return Card(
       color: cardColor,
@@ -41,12 +38,7 @@ class NrSectionCard extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
         side: BorderSide(
-          color: titleHighlighted
-              ? Colors.amber
-              : isDarkMode
-                  ? Colors.white12
-                  : Colors.grey.shade200,
-          width: titleHighlighted ? 2 : 1,
+          color: isDarkMode ? Colors.white12 : Colors.grey.shade200,
         ),
       ),
       clipBehavior: Clip.antiAlias,
@@ -84,7 +76,6 @@ class NrSectionCard extends StatelessWidget {
                   isDarkMode: isDarkMode,
                   nrId: nrId,
                   highlightQuery: highlightQuery,
-                  isHighlighted: highlightBlockIndex == i,
                 ),
               ),
           ],

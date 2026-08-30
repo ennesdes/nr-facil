@@ -382,24 +382,36 @@ class NRReaderController extends GetxController {
   Future<List<NrSearchHit>> _searchViaIndexAsHits(String trimmed) async {
     final chunks = await contentService.readSearchIndex(nrId);
     final normalized = normalizeForSearch(trimmed);
+    final queryLength = normalized.length;
     final hits = <NrSearchHit>[];
 
     for (final chunk in chunks) {
-      if (!normalizeForSearch(chunk.text).contains(normalized)) continue;
+      final clean = stripInlineMarkup(chunk.text);
+      if (clean.isEmpty) continue;
+
       final sectionId = _resolveSectionId(chunk.heading) ?? chunk.heading;
       final blockIndex = _resolveBlockIndexForHit(
         sectionId: sectionId,
         query: trimmed,
         chunkText: chunk.text,
       );
-      hits.add(
-        NrSearchHit(
-          sectionId: sectionId,
-          blockIndex: blockIndex,
-          label: stripInlineMarkup(chunk.heading),
-          snippet: stripInlineMarkup(chunk.text),
-        ),
-      );
+      final label = stripInlineMarkup(chunk.heading);
+
+      for (final offset in findOccurrenceOffsets(clean, trimmed)) {
+        hits.add(
+          NrSearchHit(
+            sectionId: sectionId,
+            blockIndex: blockIndex,
+            matchStart: offset,
+            label: label,
+            snippet: searchSnippetAt(
+              clean,
+              offset: offset,
+              queryLength: queryLength,
+            ),
+          ),
+        );
+      }
     }
     return hits;
   }

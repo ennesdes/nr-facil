@@ -3,14 +3,15 @@ import 'package:nrfacil/features/reader/models/nr_search_hit.dart';
 import 'package:nrfacil/features/reader/utils/markdown_utils.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
 
-/// Busca abrangente em structure.json — título, seções e todos os blocos.
+/// Busca abrangente em structure.json — uma entrada por ocorrência do termo.
 List<NrSearchHit> searchInNrDocument(NrStructure structure, String query) {
   final normalized = normalizeForSearch(query);
   if (normalized.isEmpty) return [];
 
   final results = <NrSearchHit>[];
+  final queryLength = normalized.length;
 
-  void addHit({
+  void addOccurrenceHits({
     required String sectionId,
     required int blockIndex,
     required String label,
@@ -18,64 +19,56 @@ List<NrSearchHit> searchInNrDocument(NrStructure structure, String query) {
   }) {
     final clean = stripInlineMarkup(text);
     if (clean.isEmpty) return;
-    final snippet = clean.length > 200 ? '${clean.substring(0, 200)}...' : clean;
-    results.add(
-      NrSearchHit(
-        sectionId: sectionId,
-        blockIndex: blockIndex,
-        label: label,
-        snippet: snippet,
-      ),
-    );
-  }
 
-  bool matches(String text) =>
-      normalizeForSearch(text).contains(normalized);
-
-  if (matches(structure.title)) {
-    addHit(
-      sectionId: 'meta',
-      blockIndex: -1,
-      label: 'Título da NR',
-      text: structure.title,
-    );
-  }
-
-  for (var i = 0; i < structure.preamble.blocks.length; i++) {
-    final text = nrBlockPlainText(structure.preamble.blocks[i]);
-    if (matches(text)) {
-      addHit(
-        sectionId: 'preamble',
-        blockIndex: i,
-        label: 'Publicação e histórico',
-        text: text,
+    for (final offset in findOccurrenceOffsets(clean, query)) {
+      results.add(
+        NrSearchHit(
+          sectionId: sectionId,
+          blockIndex: blockIndex,
+          matchStart: offset,
+          label: label,
+          snippet: searchSnippetAt(
+            clean,
+            offset: offset,
+            queryLength: queryLength,
+          ),
+        ),
       );
     }
+  }
+
+  addOccurrenceHits(
+    sectionId: 'meta',
+    blockIndex: -1,
+    label: 'Título da NR',
+    text: structure.title,
+  );
+
+  for (var i = 0; i < structure.preamble.blocks.length; i++) {
+    addOccurrenceHits(
+      sectionId: 'preamble',
+      blockIndex: i,
+      label: 'Publicação e histórico',
+      text: nrBlockPlainText(structure.preamble.blocks[i]),
+    );
   }
 
   for (final section in structure.sections) {
     final titleText = section.displayTitle;
-    if (matches(titleText) ||
-        matches(section.title) ||
-        matches(section.number)) {
-      addHit(
-        sectionId: section.id,
-        blockIndex: -1,
-        label: titleText,
-        text: titleText,
-      );
-    }
+    addOccurrenceHits(
+      sectionId: section.id,
+      blockIndex: -1,
+      label: titleText,
+      text: titleText,
+    );
 
     for (var i = 0; i < section.blocks.length; i++) {
-      final text = nrBlockPlainText(section.blocks[i]);
-      if (matches(text)) {
-        addHit(
-          sectionId: section.id,
-          blockIndex: i,
-          label: titleText,
-          text: text,
-        );
-      }
+      addOccurrenceHits(
+        sectionId: section.id,
+        blockIndex: i,
+        label: titleText,
+        text: nrBlockPlainText(section.blocks[i]),
+      );
     }
   }
 
@@ -92,10 +85,11 @@ List<NrSearchHit> searchInMarkdownContent(
   if (normalized.isEmpty) return [];
 
   final results = <NrSearchHit>[];
+  final queryLength = normalized.length;
 
   for (final section in splitMarkdownBySections(markdown)) {
     final text = stripInlineMarkup(section.markdownContent);
-    if (!normalizeForSearch(text).contains(normalized)) continue;
+    if (text.isEmpty) continue;
 
     var sectionId = 'content';
     var label = 'Conteúdo';
@@ -118,16 +112,21 @@ List<NrSearchHit> searchInMarkdownContent(
       }
     }
 
-    final snippet =
-        text.length > 200 ? '${text.substring(0, 200)}...' : text;
-    results.add(
-      NrSearchHit(
-        sectionId: sectionId,
-        blockIndex: 0,
-        label: label,
-        snippet: snippet,
-      ),
-    );
+    for (final offset in findOccurrenceOffsets(text, query)) {
+      results.add(
+        NrSearchHit(
+          sectionId: sectionId,
+          blockIndex: 0,
+          matchStart: offset,
+          label: label,
+          snippet: searchSnippetAt(
+            text,
+            offset: offset,
+            queryLength: queryLength,
+          ),
+        ),
+      );
+    }
   }
 
   return results;

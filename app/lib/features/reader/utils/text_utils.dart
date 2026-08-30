@@ -19,6 +19,13 @@ String stripInlineMarkup(String text) {
   return result.trim();
 }
 
+/// Indica se o texto parece conter Markdown estrutural (não só negrito inline).
+bool looksLikeMarkdownParagraph(String text) {
+  return RegExp(r'(^|\n)#+\s').hasMatch(text) ||
+      RegExp(r'(^|\n)\s*[-*]\s').hasMatch(text) ||
+      RegExp(r'(^|\n)\|').hasMatch(text);
+}
+
 /// Normaliza texto para busca: remove markup, diacríticos e caixa.
 String normalizeForSearch(String text) {
   final clean = stripInlineMarkup(text).toLowerCase();
@@ -47,4 +54,44 @@ String _removeDiacritics(String text) {
     buffer.write(map[s] ?? s);
   }
   return buffer.toString();
+}
+
+/// Retorna os offsets de cada ocorrência de [query] em [text] (texto já limpo).
+List<int> findOccurrenceOffsets(String text, String query) {
+  final normalizedQuery = normalizeForSearch(query);
+  if (normalizedQuery.isEmpty) return [];
+
+  final normalizedText = normalizeForSearch(text);
+  final offsets = <int>[];
+  var start = 0;
+
+  while (true) {
+    final index = normalizedText.indexOf(normalizedQuery, start);
+    if (index == -1) break;
+    offsets.add(index);
+    start = index + normalizedQuery.length;
+  }
+
+  return offsets;
+}
+
+/// Trecho de texto centrado em uma ocorrência para exibição.
+String searchSnippetAt(
+  String text, {
+  required int offset,
+  required int queryLength,
+  int context = 60,
+}) {
+  final clean = stripInlineMarkup(text);
+  if (clean.isEmpty) return '';
+
+  final start = (offset - context).clamp(0, clean.length);
+  final end = (offset + queryLength + context).clamp(0, clean.length);
+  var snippet = clean.substring(start, end);
+  if (start > 0) snippet = '...$snippet';
+  if (end < clean.length) snippet = '$snippet...';
+  if (snippet.length > 200) {
+    snippet = '${snippet.substring(0, 200)}...';
+  }
+  return snippet;
 }

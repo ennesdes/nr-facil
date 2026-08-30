@@ -10,7 +10,6 @@ class NrPreambleSection extends StatelessWidget {
   final String nrId;
   final bool isExpanded;
   final String? highlightQuery;
-  final int? highlightBlockIndex;
   final GlobalKey Function(String sectionId, int blockIndex) blockKeyFor;
 
   const NrPreambleSection({
@@ -21,7 +20,6 @@ class NrPreambleSection extends StatelessWidget {
     required this.isExpanded,
     required this.blockKeyFor,
     this.highlightQuery,
-    this.highlightBlockIndex,
     super.key,
   });
 
@@ -71,7 +69,6 @@ class NrPreambleSection extends StatelessWidget {
                     isDarkMode: isDarkMode,
                     nrId: nrId,
                     highlightQuery: highlightQuery,
-                    isHighlighted: highlightBlockIndex == i,
                   ),
                 ),
             ],

@@ -5,6 +5,7 @@ import 'package:nrfacil/features/reader/utils/text_utils.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_item_row.dart';
+import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 
 /// Renderiza um bloco tipado do structure.json.
 class NrBlockRenderer extends StatelessWidget {
@@ -13,7 +14,6 @@ class NrBlockRenderer extends StatelessWidget {
   final bool isDarkMode;
   final String nrId;
   final String? highlightQuery;
-  final bool isHighlighted;
 
   const NrBlockRenderer({
     required this.block,
@@ -21,13 +21,12 @@ class NrBlockRenderer extends StatelessWidget {
     required this.isDarkMode,
     required this.nrId,
     this.highlightQuery,
-    this.isHighlighted = false,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    final child = switch (block) {
+    return switch (block) {
       NrItemBlock item => NrItemRow(
           number: item.number,
           depth: item.depth,
@@ -35,7 +34,6 @@ class NrBlockRenderer extends StatelessWidget {
           fontSize: fontSize,
           isDarkMode: isDarkMode,
           highlightQuery: highlightQuery,
-          isHighlighted: isHighlighted,
         ),
       NrListBlock list => _buildList(list),
       NrTableBlock table => _buildTable(table),
@@ -43,17 +41,6 @@ class NrBlockRenderer extends StatelessWidget {
       NrNoteBlock note => _buildNote(note),
       NrParagraphBlock paragraph => _buildParagraph(paragraph),
     };
-
-    if (!isHighlighted) return child;
-
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.amber.withValues(alpha: 0.12),
-        borderRadius: BorderRadius.circular(8),
-      ),
-      padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
-      child: child,
-    );
   }
 
   Widget _buildList(NrListBlock list) {
@@ -104,9 +91,9 @@ class NrBlockRenderer extends StatelessWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
-      child: MarkdownBody(
+      child: SearchableMarkdownBody(
         data: table.markdown,
-        selectable: true,
+        highlightQuery: highlightQuery,
         styleSheet: MarkdownStyleSheet(
           p: TextStyle(fontSize: fontSize - 1, color: textColor),
           tableHead: TextStyle(
@@ -146,21 +133,47 @@ class NrBlockRenderer extends StatelessWidget {
   }
 
   Widget _buildParagraph(NrParagraphBlock paragraph) {
-    final text = stripInlineMarkup(paragraph.text);
-    if (text.isEmpty) return const SizedBox.shrink();
+    final text = paragraph.text;
+    if (text.trim().isEmpty) return const SizedBox.shrink();
 
     final textColor = isDarkMode ? Colors.white : Colors.black87;
+    final baseStyle = TextStyle(
+      fontSize: fontSize,
+      color: textColor,
+      height: 1.6,
+    );
+
+    if (looksLikeMarkdownParagraph(text)) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        child: SearchableMarkdownBody(
+          data: text,
+          highlightQuery: highlightQuery,
+          styleSheet: MarkdownStyleSheet(
+            p: baseStyle,
+            h1: baseStyle.copyWith(
+              fontSize: fontSize + 4,
+              fontWeight: FontWeight.bold,
+            ),
+            h2: baseStyle.copyWith(
+              fontSize: fontSize + 2,
+              fontWeight: FontWeight.bold,
+            ),
+            strong: baseStyle.copyWith(fontWeight: FontWeight.bold),
+            em: baseStyle.copyWith(fontStyle: FontStyle.italic),
+            listBullet: baseStyle,
+          ),
+          nrId: nrId,
+        ),
+      );
+    }
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 4),
       child: HighlightedText(
-        text: text,
+        text: stripInlineMarkup(text),
         highlight: highlightQuery,
-        style: TextStyle(
-          fontSize: fontSize,
-          color: textColor,
-          height: 1.6,
-        ),
+        style: baseStyle,
       ),
     );
   }

@@ -47,6 +47,7 @@ dependencies:
 
   # Markdown rendering
   flutter_markdown: ^0.7.3
+  markdown: ^7.1.1
 
   # URL launcher for external links
   url_launcher: ^6.2.4

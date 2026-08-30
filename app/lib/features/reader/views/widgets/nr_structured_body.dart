@@ -63,10 +63,6 @@ class NrStructuredBody extends StatelessWidget {
                 nrId: nrId,
                 isExpanded: controller.isPreambleExpanded.value,
                 highlightQuery: controller.activeHighlightQuery.value,
-                highlightBlockIndex: controller.highlightSectionId.value ==
-                        'preamble'
-                    ? controller.highlightBlockIndex.value
-                    : null,
                 blockKeyFor: controller.blockKeyFor,
               ),
             ),
@@ -85,8 +81,6 @@ class NrStructuredBody extends StatelessWidget {
           ),
           Obx(
             () {
-              final highlightSectionId = controller.highlightSectionId.value;
-              final highlightBlockIndex = controller.highlightBlockIndex.value;
               final highlightQuery = controller.activeHighlightQuery.value;
 
               return SliverList(
@@ -95,8 +89,6 @@ class NrStructuredBody extends StatelessWidget {
                     final section = structure.sections[index];
                     final expanded =
                         controller.expandedSectionIds.contains(section.id);
-                    final sectionIsTarget =
-                        highlightSectionId == section.id;
 
                     return KeyedSubtree(
                       key: sectionKeyFor(section.id),
@@ -107,8 +99,6 @@ class NrStructuredBody extends StatelessWidget {
                         nrId: nrId,
                         isExpanded: expanded,
                         highlightQuery: highlightQuery,
-                        highlightBlockIndex:
-                            sectionIsTarget ? highlightBlockIndex : null,
                         blockKeyFor: controller.blockKeyFor,
                         onExpansionChanged: (value) {
                           if (value) {
