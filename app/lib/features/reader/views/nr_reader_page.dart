@@ -7,6 +7,7 @@ import 'package:nrfacil/features/reader/utils/markdown_utils.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_drawer.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_footer.dart';
+import 'package:nrfacil/features/reader/views/widgets/update_banner.dart';
 import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dart'
     as image_builder;
 import 'package:url_launcher/url_launcher.dart';
@@ -119,6 +120,13 @@ class NRReaderPage extends GetView<NRReaderController> {
           controller: controller.scrollController,
           child: Column(
             children: [
+              // Banner de atualização (se houver)
+              Obx(
+                () => controller.showUpdateBanner.value
+                    ? const UpdateBanner()
+                    : const SizedBox.shrink(),
+              ),
+
               // Renderizar seções de conteúdo
               ...sections.map((section) {
                 final key = GlobalKey();

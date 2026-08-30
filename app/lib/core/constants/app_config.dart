@@ -11,6 +11,10 @@ class AppConfig {
   /// Configurável aqui para facilitar testes e futura migração de repositório.
   static const String manifestUrl = '$githubRawBaseUrl/manifest.json';
 
+  /// URL remota do app_meta.json (feed de atualizações e versão mínima).
+  /// Mesmo padrão que manifestUrl — centralizado aqui para facilitar testes.
+  static const String appMetaUrl = '$githubRawBaseUrl/app_meta.json';
+
   /// URL base para download de conteúdo das NRs (content/nr-XX/...).
   static const String contentBaseUrl = '$githubRawBaseUrl/content';
 

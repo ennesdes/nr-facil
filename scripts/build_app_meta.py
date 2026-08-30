@@ -3,7 +3,8 @@
 Gera app_meta.json — feed de atualizações + versão mínima do app.
 
 Lê manifest.json, compara com o app_meta.json anterior (se existir) e
-acrescenta uma entrada em "updates" para cada NR cujo pdf_hash mudou.
+acrescenta uma entrada em "updates" para cada NR cujo hash (md) mudou.
+Reaproveita o diff granular de summarize_changes.py para gerar items[].
 Sem backend: o arquivo é commitado no repo pela própria Action, junto com
 manifest.json, e o app lê via GitHub raw.
 
@@ -16,12 +17,14 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 from _common import ROOT, setup_logging
+from summarize_changes import summarize_md, git_show
 
 logger = logging.getLogger(__name__)
 
@@ -42,15 +45,87 @@ def load_json(path: Path) -> dict[str, Any]:
         return {}
 
 
-def generate_summary(old_entry: dict | None, new_entry: dict) -> str:
-    """Gera resumo sem IA de uma mudança."""
-    if not old_entry:
-        return f"Primeira versão ({new_entry.get('publicado_em', '?')})"
+def parse_summary_items(lines: list[str]) -> list[dict[str, str]]:
+    """
+    Parse itens de output de summarize_md para schema {item, tipo, resumo}.
 
-    if old_entry.get("pdf_hash") != new_entry.get("pdf_hash"):
-        return f"Atualizado em {new_entry.get('vigente_desde', '?')}"
+    Formatos esperados:
+    - "- 🆕 Novo item **6.3**: descrição..."
+    - "- ❌ Item removido **6.3**: descrição..."
+    - "- ✏️ Item alterado **6.3**" seguido de sub-linhas indentadas
+      "  - antes: ..." / "  - depois: ..." (montadas em um único resumo)
+    """
+    items = []
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i]
 
-    return "Sem mudança significativa"
+        if line.startswith("- 🆕"):
+            match = re.search(r"\*\*([^*]+)\*\*:\s*(.*)", line)
+            if match:
+                items.append({"item": match.group(1), "tipo": "novo", "resumo": match.group(2)})
+            i += 1
+
+        elif line.startswith("- ❌"):
+            match = re.search(r"\*\*([^*]+)\*\*:\s*(.*)", line)
+            if match:
+                items.append({"item": match.group(1), "tipo": "removido", "resumo": match.group(2)})
+            i += 1
+
+        elif line.startswith("- ✏️"):
+            match = re.search(r"\*\*([^*]+)\*\*", line)
+            item_num = match.group(1) if match else "?"
+
+            # Consome as sub-linhas indentadas (antes/depois) deste item
+            antes, depois = "", ""
+            j = i + 1
+            while j < n and lines[j].startswith("  "):
+                sub = lines[j].strip("- ").strip()
+                if sub.startswith("antes:"):
+                    antes = sub[len("antes:"):].strip()
+                elif sub.startswith("depois:"):
+                    depois = sub[len("depois:"):].strip()
+                j += 1
+
+            resumo = f"antes: {antes} → depois: {depois}" if (antes or depois) else ""
+            items.append({"item": item_num, "tipo": "alterado", "resumo": resumo})
+            i = j
+
+        else:
+            i += 1
+
+    return items
+
+
+def generate_summary(items: list[dict[str, str]]) -> str:
+    """
+    Gera resumo curto de uma mudança a partir dos items estruturados.
+
+    Evita interpolar valores que podem ser None.
+    Retorna um resumo genérico quando não houver items (diff indisponível).
+    """
+    if not items:
+        return "Atualização disponível"
+
+    # Contagem de tipos
+    novos = len([i for i in items if i.get("tipo") == "novo"])
+    removidos = len([i for i in items if i.get("tipo") == "removido"])
+    alterados = len([i for i in items if i.get("tipo") == "alterado"])
+
+    total = novos + removidos + alterados
+
+    # Resumo genérico baseado no total
+    if total == 1:
+        # Se há só um item alterado, mostre detalhes
+        item = items[0]
+        tipo_text = {
+            "novo": "novo item adicionado",
+            "removido": "item removido",
+            "alterado": "item alterado",
+        }.get(item.get("tipo"), "alteração")
+        return f"{tipo_text}: {item.get('item', '?')}"
+    else:
+        return f"{total} itens alterados"
 
 
 def build_app_meta(dry_run: bool = False) -> int:
@@ -59,12 +134,14 @@ def build_app_meta(dry_run: bool = False) -> int:
 
     Lógica:
     1. Para cada NR no manifest.json
-    2. Compara pdf_hash com a última entrada conhecida em app_meta.json
-    3. Se mudou, acrescenta nova entrada em "updates" (gera summary sem IA)
-    4. Mantém só as MAX_UPDATES entradas mais recentes
+    2. Compara hash (md) com a última entrada conhecida em app_meta.json
+    3. Se mudou, acrescenta nova entrada em "updates"
+    4. Gera items[] granulares usando summarize_md (se git_show disponível)
+    5. Gera summary curto a partir dos items
+    6. Mantém só as MAX_UPDATES entradas mais recentes
 
-    Retorna 0 sempre — não há chamada de rede, então não há como falhar
-    de forma parcial (diferente dos scripts de scraping/conversão).
+    Retorna 0 sempre — não há chamada de rede nessa etapa.
+    Falhas isoladas (git_show indisponível) não interrompem o processamento.
     """
     manifest = load_json(MANIFEST_FILE)
     if not manifest:
@@ -78,7 +155,12 @@ def build_app_meta(dry_run: bool = False) -> int:
 
     previous = load_json(APP_META_FILE)
     previous_updates = previous.get("updates", [])
-    last_hash_by_nr = {u["nr_id"]: u.get("pdf_hash") for u in previous_updates if "nr_id" in u}
+    # Construir índice das últimas versões: nr_id -> hash (md)
+    last_hash_by_nr = {u["nr_id"]: u.get("hash") for u in previous_updates if "nr_id" in u}
+    # NRs que já tiveram QUALQUER entrada no feed antes (mesmo sob o schema antigo,
+    # que só gravava pdf_hash) — usado para não rotular como "Primeira versão" uma
+    # NR que só está sem `hash` por causa da migração de critério (D1: pdf_hash → hash).
+    seen_nr_ids = {u["nr_id"] for u in previous_updates if "nr_id" in u}
 
     new_entries = []
     for nr in nrs:
@@ -86,24 +168,57 @@ def build_app_meta(dry_run: bool = False) -> int:
         if not nr_id:
             continue
 
-        new_hash = nr.get("pdf_hash")
+        # Comparar por hash (md), não pdf_hash
+        new_hash = nr.get("hash")
         old_hash = last_hash_by_nr.get(nr_id)
 
+        # Se hash não mudou, pula
         if old_hash and old_hash == new_hash:
             continue
 
-        old_entry = {"pdf_hash": old_hash} if old_hash else None
-        summary = generate_summary(old_entry, nr)
+        if nr_id not in seen_nr_ids:
+            # Nunca apareceu no feed antes — primeira vez de verdade.
+            # Nunca interpolar publicado_em diretamente: pode ser None.
+            publicado_em = nr.get("publicado_em") or "?"
+            items = []
+            summary = f"Primeira versão ({publicado_em})"
+        else:
+            # Há versão anterior — tenta gerar items granulares a partir do diff
+            items = []
+            try:
+                content_file = ROOT / "content" / nr_id / f"{nr_id}.md"
+                if content_file.exists():
+                    new_text = content_file.read_text(encoding="utf-8")
+                    old_text = git_show("HEAD", str(content_file.relative_to(ROOT)))
+
+                    if old_text is not None:
+                        # summarize_md retorna lista de linhas (markdown)
+                        summary_lines = summarize_md(nr_id, old_text, new_text)
+                        # Parse das linhas para extrair itens estruturados
+                        items = parse_summary_items(summary_lines)
+                        logger.debug(f"  {nr_id}: {len(items)} items extraídos do diff")
+                    else:
+                        logger.debug(f"  {nr_id}: git_show falhou, ignorando diff granular")
+                else:
+                    logger.debug(f"  {nr_id}: arquivo .md não encontrado em disco")
+            except Exception as e:
+                logger.warning(f"  {nr_id}: erro ao gerar diff granular: {e}")
+                # items continua vazio, cai para summary genérico
+
+            # Gera summary a partir dos items
+            summary = generate_summary(items)
 
         new_entries.append({
             "nr_id": nr_id,
             "title": nr.get("title"),
             "portaria": nr.get("portaria"),
-            "pdf_hash": new_hash,
+            "hash": new_hash,  # novo: md hash (para detectar mudança real de conteúdo)
+            "pdf_hash": nr.get("pdf_hash"),  # preserva para compatibilidade/auditoria
             "summary": summary,
+            "items": items,  # novo: diff granular
             "created_at": datetime.now(timezone.utc).isoformat(),
         })
-        logger.info(f"  {nr_id}: {summary}")
+        logger.info(f"  {nr_id}: {summary} ({len(items)} items)")
 
     updates = (previous_updates + new_entries)[-MAX_UPDATES:]
 

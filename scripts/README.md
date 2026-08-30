@@ -289,8 +289,16 @@ python3 scripts/validate_manifest.py --help            # ajuda
 ### 10. `build_app_meta.py` — Feed de atualizações (sem backend)
 
 Lê `manifest.json`, compara com a última entrada conhecida em `app_meta.json`
-(se existir), gera summary sem IA (ex.: "Atualizado em [data]"), e acrescenta
-uma entrada por NR que mudou. Mantém só as 200 entradas mais recentes.
+(se existir) usando `hash` (do markdown convertido, mesmo critério que o app usa
+em `ContentService.hasUpdate` — não `pdf_hash`), e acrescenta uma entrada por NR
+que mudou. Mantém só as 200 entradas mais recentes.
+
+Para cada NR que mudou, reaproveita `summarize_md()` de `summarize_changes.py`
+(mesma função usada no changelog mensal) para gerar `items[]` granular por seção
+(`{item, tipo, resumo}`, tipo é `novo`/`removido`/`alterado`). Quando o diff não
+está disponível (ex.: primeira versão da NR, ou `git show` falha por falta de
+histórico), `items` fica vazio e `summary` cai num resumo curto genérico — nunca
+interpola um campo que pode ser `None` diretamente (bug antigo: "Atualizado em None").
 
 **Uso:**
 
@@ -298,10 +306,11 @@ uma entrada por NR que mudou. Mantém só as 200 entradas mais recentes.
 python3 scripts/build_app_meta.py            # gera/atualiza app_meta.json
 python3 scripts/build_app_meta.py --dry-run  # simula
 python3 scripts/build_app_meta.py --help     # ajuda
+python3 scripts/test_build_app_meta.py -v    # testes unitários
 ```
 
 **Output:**
-- `app_meta.json` (raiz do repo) — `min_app_version` + `updates[]`. Commitado pela Action junto com `manifest.json`; o app lê os dois via GitHub raw.
+- `app_meta.json` (raiz do repo) — `min_app_version` + `updates[]` (cada entrada com `items[]` granular). Commitado pela Action junto com `manifest.json`; o app lê os dois via GitHub raw.
 
 ---
 

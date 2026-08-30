@@ -106,7 +106,12 @@ def scrape_nr_metadata(page_url: str, nr_id: str) -> dict[str, str]:
         for p in soup.find_all(["p", "dd", "dt"]):
             text = p.get_text(strip=True)
             if "portaria" in text.lower() and "mte" in text.lower():
-                meta["portaria"] = text[:150]  # primeiros 150 chars
+                # Corta em limite de palavra para evitar truncar no meio da palavra
+                if len(text) > 150:
+                    truncated = text[:150].rsplit(" ", 1)[0]
+                    meta["portaria"] = truncated
+                else:
+                    meta["portaria"] = text
                 break
 
     # Última alteração pode estar em rodapé ou histórico

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
+import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
 import 'package:nrfacil/core/services/content_service.dart';
@@ -57,6 +58,10 @@ class NRReaderController extends GetxController {
   /// NR é favorita
   late final Rx<bool> _isFavorite;
 
+  /// Se deve mostrar o banner de atualização
+  /// True quando a NR tinha atualização no momento da abertura
+  final showUpdateBanner = false.obs;
+
   /// Mapa de GlobalKey por heading (normalizado: lowercase+trim)
   /// Preenchido durante render do conteúdo
   final Map<String, GlobalKey> _headingKeys = {};
@@ -75,12 +80,16 @@ class NRReaderController extends GetxController {
     _isFavorite = _contentService.isFavorite(nrId).obs;
 
     await _loadNr();
-    // Marcar NR como vista após carregamento bem-sucedido
+    // Verificar se havia atualização pendente ANTES de marcar como visto
     if (error.value == null) {
-      _contentService.markNrAsSeen(nrId);
+      // Capturar se tinha atualização (antes de chamar markNrAsSeen)
+      final hadUpdate = _contentService.hasUpdate(nrId);
+      showUpdateBanner.value = hadUpdate;
+
       // Gravar como última NR aberta e adicionar ao histórico
       GetStorage().write(StorageKeys.lastOpenedNr, nrId);
       _contentService.addToReadingHistory(nrId);
+      // Não chamar markNrAsSeen aqui — será chamado via dismissUpdateBanner()
     }
   }
 
@@ -221,5 +230,18 @@ class NRReaderController extends GetxController {
   void toggleFavorite() {
     _contentService.toggleFavorite(nrId);
     _isFavorite.value = _contentService.isFavorite(nrId);
+  }
+
+  /// Dispensar o banner de atualização e marcar a NR como vista.
+  /// Chamado quando o usuário dispensa o banner (X) ou abre o CTA.
+  void dismissUpdateBanner() {
+    showUpdateBanner.value = false;
+    _contentService.markNrAsSeen(nrId);
+  }
+
+  /// Obter a entrada de atualização para esta NR (se houver).
+  /// Usada para exibir os itens granulares no bottom sheet.
+  UpdateEntry? getUpdateEntry() {
+    return _contentService.updateEntryFor(nrId);
   }
 }

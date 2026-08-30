@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
@@ -80,9 +81,21 @@ class UpdatesController extends GetxController {
     }
   }
 
-  /// Abrir leitor de uma NR e marcar como vista.
+  /// Obter entrada de atualização mais recente para uma NR.
+  ///
+  /// Retorna null se não houver entrada correspondente em app_meta.json.
+  /// Usado para exibir detalhes granulares na tela de Atualizações.
+  UpdateEntry? getUpdateEntry(String nrId) {
+    return _contentService.updateEntryFor(nrId);
+  }
+
+  /// Abrir o leitor de uma NR a partir da tela de Atualizações.
+  ///
+  /// Não marca como vista aqui — o leitor decide isso (banner "NR atualizada"
+  /// com CTA "Ver o que mudou"; marca como vista só ao dispensar o banner ou
+  /// abrir o CTA). Marcar como vista antes de navegar impediria o banner de
+  /// aparecer, já que `hasUpdate` já estaria `false` quando o leitor abrisse.
   void openNrAndMarkSeen(ManifestEntry entry) {
-    _contentService.markNrAsSeen(entry.id);
     Get.to(
       () => NRReaderPage(nrId: entry.id),
       binding: ReaderBinding(nrId: entry.id),

@@ -130,17 +130,39 @@ Markdown, PDFs, imagens, histórico completo de textos.
 
 Gerado por [`scripts/build_app_meta.py`](../scripts/build_app_meta.py) — sem migration, sem projeto externo.
 
+Cada entrada de `updates[]`:
+
+```json
+{
+  "nr_id": "nr-06",
+  "title": "EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI",
+  "portaria": "Portaria MTE nº 509/2018",
+  "hash": "abc123...",
+  "pdf_hash": "def456...",
+  "summary": "2 itens alterados",
+  "items": [
+    {"item": "6.5", "tipo": "alterado", "resumo": "antes: …texto antigo… → depois: …texto novo…"},
+    {"item": "6.21", "tipo": "novo", "resumo": "Equipamento de proteção contra radiação"}
+  ],
+  "created_at": "2026-08-30T12:00:00+00:00"
+}
+```
+
+`tipo` é sempre `"novo"`, `"removido"` ou `"alterado"`. `items` pode vir vazio quando não há diff granular disponível (ex.: primeira versão da NR, ou histórico git indisponível) — o app cai no fallback do `summary`. Entradas legadas (geradas antes desta mudança) não têm a chave `items` — o parser do app trata isso como lista vazia.
+
+Detecção de mudança usa `hash` (do markdown convertido), **não** `pdf_hash` — mesmo critério que o app já usa em `ContentService.hasUpdate` (`pdf_hash` continua existindo na entrada só para auditoria/compatibilidade, e segue sendo o critério usado por `update_nrs.py` para decidir se reprocessa o PDF).
+
 ### Atualizações para o usuário
 
-**Grátis:** NR, data, portaria, resumo 1 linha, botão Abrir, link **Ver versão anterior** (commit GitHub).
+**Grátis:** NR, data, portaria, itens alterados (granular, por seção — reaproveita o diff de `summarize_changes.py`), resumo curto de fallback quando não há diff disponível.
 
-**Premium (pós-MVP):** diff inline — calculado localmente ou de 2 commits git, sem storage adicional.
+**Premium (pós-MVP):** diff textual completo antes/depois e link **Ver versão anterior** (commit GitHub) — ainda não implementado; a versão grátis já mostra qual seção mudou, só não o texto completo antes/depois.
 
 ### Quem escreve
 
 - GitHub Action → gera `app_meta.json` e commita junto com `manifest.json`
 - App → só lê via GitHub raw HTTP
-- Script gera `summary` sem IA: "Seções alteradas: 6.3, 6.9"
+- `generate_summary()` nunca interpola um campo que pode ser `None` diretamente — gera resumo curto a partir da contagem/tipo de `items[]` (ex.: "2 itens alterados"), não mais "Seções alteradas: 6.3, 6.9" nem datas cruas do manifest
 
 ## App Flutter
 
@@ -164,6 +186,12 @@ Gerado por [`scripts/build_app_meta.py`](../scripts/build_app_meta.py) — sem m
 - `last_synced_hash` — hash baixado
 - `last_seen_hash` — hash visto pelo usuário
 - Novo = remoto ≠ `last_seen_hash`
+- `last_seen_hash` só é gravado (`markNrAsSeen`) quando o usuário **dispensa** o banner de atualização no leitor (X) ou abre o CTA "Ver o que mudou" — nunca automaticamente ao abrir a NR. Isso vale também para NRs abertas a partir da tela de Atualizações (o sino não marca como vista antes de navegar).
+
+### Banner de atualização no leitor
+
+- Ao abrir uma NR com `hasUpdate == true`, o leitor mostra um banner dispensável no topo do corpo, com CTA "Ver o que mudou" que abre um bottom sheet com os `items[]` granulares (ou o `summary`, se `items` vier vazio) daquela NR em `app_meta.json`.
+- NRs sem atualização pendente: comportamento idêntico ao anterior, sem banner.
 
 ### Índice vs Atualizações
 

@@ -66,8 +66,8 @@
 ## Fase 4 — Feed de atualizações sem backend (Semana 3, paralelo)
 
 - [x] 27 `scripts/build_app_meta.py` gera `app_meta.json` (feed + versão mínima) → `scripts/README.md#9-build_app_metapy`
-- [ ] 28 App busca `app_meta.json` via GitHub raw e lê `updates[]` no startup → [docs/prompts.md#i8](docs/prompts.md#i8)
-- [ ] 30 Check `min_app_version` no startup (aviso de update obrigatório)
+- [x] 28 App busca `app_meta.json` via GitHub raw e lê `updates[]` no startup → [docs/prompts.md#i8](docs/prompts.md#i8)
+- [x] 30 Check `min_app_version` no startup (aviso de update obrigatório)
 
 **Pronto quando:** App lê feed de atualizações de `app_meta.json` via GitHub raw; custo R$ 0, sem conta externa.
 

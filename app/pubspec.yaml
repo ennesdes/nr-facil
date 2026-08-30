@@ -51,6 +51,9 @@ dependencies:
   # URL launcher for external links
   url_launcher: ^6.2.4
 
+  # Package info — ler versão do app em runtime
+  package_info_plus: ^7.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

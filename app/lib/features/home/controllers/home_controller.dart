@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
+import 'package:nrfacil/features/home/views/widgets/forced_update_dialog.dart';
 
 /// Controller para HomePage — gerencia navegação entre abas.
 ///
@@ -8,6 +11,7 @@ import 'package:nrfacil/core/widgets/app_snackbar.dart';
 /// - Gerenciar seleção de aba (Favoritos/Todos)
 /// - Determinar aba padrão (Favoritos se houver favoritos, senão Todos)
 /// - Expor ContentService para as views
+/// - Verificar se atualização obrigatória é necessária (min_app_version)
 class HomeController extends GetxController {
   final ContentService _contentService;
 
@@ -43,13 +47,36 @@ class HomeController extends GetxController {
 
     // Sincronizar manifest remoto em background — não bloqueia a UI,
     // que já renderiza com o cache local existente (offline-first).
-    _contentService.sync();
+    // Após sync completar, verificar se atualização obrigatória é necessária.
+    unawaited(
+      _contentService.sync().then((_) => _checkForcedUpdate()),
+    );
   }
 
   @override
   void onClose() {
     _syncErrorWorker?.dispose();
     super.onClose();
+  }
+
+  /// Verificar se atualização obrigatória é necessária e exibir diálogo.
+  ///
+  /// Chamado após sync() completar (com sucesso ou não).
+  /// Se [forcedUpdateRequired] retornar true, exibe um diálogo bloqueante.
+  Future<void> _checkForcedUpdate() async {
+    try {
+      final updateRequired = await _contentService.forcedUpdateRequired;
+      if (updateRequired) {
+        // Exibir diálogo bloqueante não dispensável
+        Get.dialog(
+          const ForcedUpdateDialog(),
+          barrierDismissible: false,
+        );
+      }
+    } catch (e) {
+      // Falha ao verificar versão não deve bloquear o app
+      // Logar aviso e continuar
+    }
   }
 
   /// Mudar aba selecionada.

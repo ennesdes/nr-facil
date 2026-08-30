@@ -5,10 +5,12 @@ import 'dart:io';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
+import '../models/app_meta.dart';
 import '../models/manifest.dart';
 import '../models/nr_index.dart';
 import '../models/reading_history_entry.dart';
@@ -32,6 +34,9 @@ class ContentService extends GetxService {
 
   /// Estado reativo — manifest atualmente em memória
   final manifest = Rxn<Manifest>();
+
+  /// Estado reativo — feed de atualizações (app_meta.json) em memória
+  final appMeta = Rxn<AppMeta>();
 
   /// Estado reativo — se está sincronizando no momento
   final isSyncing = false.obs;
@@ -111,6 +116,10 @@ class ContentService extends GetxService {
 
       // Atualizar manifest em memória
       manifest.value = remoteManifest;
+
+      // Baixar app_meta.json (feed de atualizações) em paralelo
+      // Falha não bloqueia o sync do manifest, que é essencial
+      await _downloadAppMeta();
 
       // Para cada NR: verificar se precisa atualizar e fazer download incremental
       for (final nrEntry in remoteManifest.nrs) {
@@ -319,6 +328,44 @@ class ContentService extends GetxService {
     }
   }
 
+  /// Baixar app_meta.json do GitHub raw.
+  ///
+  /// Retorna silenciosamente em caso de falha (erro de rede, timeout, JSON inválido).
+  /// Falha não deve interromper o sync do manifest, que é o dado essencial.
+  /// Chama factory AppMeta.fromJson, que lança AppMetaParseException em caso de parse error.
+  Future<void> _downloadAppMeta() async {
+    try {
+      AppLogger.debug('Baixando app_meta de: ${AppConfig.appMetaUrl}');
+
+      final response = await _httpClient
+          .get(Uri.parse(AppConfig.appMetaUrl))
+          .timeout(Duration(seconds: AppConfig.syncTimeoutSeconds));
+
+      if (response.statusCode != 200) {
+        AppLogger.warning(
+            'Falha ao baixar app_meta: HTTP ${response.statusCode}');
+        return;
+      }
+
+      // Parse JSON
+      final jsonMap = jsonDecode(response.body) as Map<String, dynamic>;
+      appMeta.value = AppMeta.fromJson(jsonMap);
+
+      AppLogger.info(
+          'AppMeta baixado: ${appMeta.value?.updates.length ?? 0} atualizações encontradas');
+    } on TimeoutException catch (e) {
+      AppLogger.warning('Timeout ao baixar app_meta: $e');
+      // Continuar sem falhar
+    } on SocketException catch (e) {
+      AppLogger.warning('Erro de rede ao baixar app_meta: $e');
+      // Continuar sem falhar
+    } catch (e, st) {
+      AppLogger.warning('Erro ao baixar/parsear app_meta: $e');
+      AppLogger.debug('Stack trace: $st');
+      // Continuar sem falhar — feed de atualizações é um "nice to have"
+    }
+  }
+
   /// Carregar manifest do cache local.
   ///
   /// Executado no onInit() para restaurar estado anterior.
@@ -438,6 +485,70 @@ class ContentService extends GetxService {
   /// Chamado internamente após marcar NR como vista ou carregar manifest.
   void _updateUnreadCount() {
     unreadUpdatesCount.value = updatedNrs.length;
+  }
+
+  /// Buscar entrada de atualização mais recente para uma NR.
+  ///
+  /// build_app_meta.py sempre acrescenta entradas novas ao final de `updates[]`
+  /// (ordem cronológica de inserção) — não é preciso reordenar por `createdAt`,
+  /// só pegar a última ocorrência da NR na lista. Retorna null se nenhuma
+  /// entrada for encontrada.
+  UpdateEntry? updateEntryFor(String nrId) {
+    final entries = appMeta.value?.updates;
+    if (entries == null) return null;
+
+    for (var i = entries.length - 1; i >= 0; i--) {
+      if (entries[i].nrId == nrId) return entries[i];
+    }
+    return null;
+  }
+
+  /// Comparação semver simples para determinar se atualização obrigatória é necessária.
+  ///
+  /// Formato esperado: major.minor.patch (ex: "1.2.0", "1.0.5")
+  /// Retorna true se installedVersion < minVersion.
+  bool _compareVersions(String installedVersion, String minVersion) {
+    try {
+      final installed = installedVersion.split('.');
+      final minimum = minVersion.split('.');
+
+      // Comparar major.minor.patch
+      for (int i = 0; i < 3; i++) {
+        final installedPart = i < installed.length
+            ? int.tryParse(installed[i]) ?? 0
+            : 0;
+        final minimumPart =
+            i < minimum.length ? int.tryParse(minimum[i]) ?? 0 : 0;
+
+        if (installedPart < minimumPart) return true;
+        if (installedPart > minimumPart) return false;
+      }
+
+      return false; // Versões iguais, não requer update obrigatório
+    } catch (e) {
+      AppLogger.warning('Erro ao comparar versões: $e');
+      return false; // Em caso de erro, não bloquear
+    }
+  }
+
+  /// Verificar se atualização obrigatória é necessária.
+  ///
+  /// Compara a versão instalada do app (via PackageInfo) com
+  /// minAppVersion do app_meta.json. Retorna false se app_meta
+  /// ainda não foi baixado ou se a versão instalada >= min_app_version.
+  Future<bool> get forcedUpdateRequired async {
+    if (appMeta.value == null) return false;
+
+    try {
+      final packageInfo = await PackageInfo.fromPlatform();
+      return _compareVersions(
+        packageInfo.version,
+        appMeta.value!.minAppVersion,
+      );
+    } catch (e) {
+      AppLogger.warning('Erro ao verificar versão do app: $e');
+      return false; // Em caso de erro, não bloquear o app
+    }
   }
 
   /// Ler índice de navegação de uma NR (index.json) do cache local.
