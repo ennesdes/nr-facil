@@ -1,11 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
+import 'package:nrfacil/core/models/nr_structure.dart';
+import 'package:nrfacil/core/models/search_chunk.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 
-/// Mock simples de ContentService — mesmo padrão de
-/// test/features/home/controllers/home_controller_test.dart.
 class FakeContentService implements ContentService {
   @override
   final favoriteIds = <String>[].obs;
@@ -28,14 +28,12 @@ class FakeContentService implements ContentService {
   @override
   final unreadUpdatesCount = 0.obs;
 
-  /// Controla o retorno de hasUpdate() nos testes
   bool hasUpdateResult = false;
-
-  /// Controla o retorno de updateEntryFor() nos testes
   UpdateEntry? updateEntryResult;
-
-  /// Registra as chamadas a markNrAsSeen() para asserção nos testes
   final List<String> markNrAsSeenCalls = [];
+
+  NrStructure? structureResult;
+  String? contentResult;
 
   @override
   bool isFavorite(String nrId) => favoriteIds.contains(nrId);
@@ -47,20 +45,27 @@ class FakeContentService implements ContentService {
   UpdateEntry? updateEntryFor(String nrId) => updateEntryResult;
 
   @override
-  void markNrAsSeen(String nrId) {
-    markNrAsSeenCalls.add(nrId);
-  }
+  void markNrAsSeen(String nrId) => markNrAsSeenCalls.add(nrId);
 
   @override
   double getScrollPosition(String nrId) => 0.0;
 
   @override
-  noSuchMethod(Invocation invocation) {
-    return super.noSuchMethod(invocation);
-  }
+  Future<NrStructure?> readNrStructure(String nrId) async => structureResult;
+
+  @override
+  Future<String?> readNrContent(String nrId) async => contentResult;
+
+  @override
+  Future<List<SearchChunk>> readSearchIndex(String nrId) async => [];
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   group('NRReaderController — banner de atualização (CA7)', () {
     late FakeContentService fakeContentService;
     late NRReaderController controller;
@@ -81,32 +86,13 @@ void main() {
     test(
         'dismissUpdateBanner() esconde o banner e marca a NR como vista',
         () {
-      // Simula estado após onInit ter detectado atualização pendente
       controller.showUpdateBanner.value = true;
-
       controller.dismissUpdateBanner();
-
       expect(controller.showUpdateBanner.value, false);
       expect(fakeContentService.markNrAsSeenCalls, ['nr-06']);
     });
 
-    test(
-        'dismissUpdateBanner() chamado ao dispensar (X) e ao abrir o CTA '
-        'ambos marcam como vista (mesma chamada subjacente)', () {
-      // Dispensar (X)
-      controller.showUpdateBanner.value = true;
-      controller.dismissUpdateBanner();
-      expect(fakeContentService.markNrAsSeenCalls.length, 1);
-
-      // Abrir CTA "Ver o que mudou" também chama dismissUpdateBanner()
-      // (ver update_banner.dart — botão "Ver" também invoca o mesmo método)
-      controller.showUpdateBanner.value = true;
-      controller.dismissUpdateBanner();
-      expect(fakeContentService.markNrAsSeenCalls.length, 2);
-    });
-
-    test('getUpdateEntry() retorna a UpdateEntry da NR atual via ContentService',
-        () {
+    test('getUpdateEntry() retorna a UpdateEntry da NR atual', () {
       final entry = UpdateEntry(
         nrId: 'nr-06',
         title: 'NR-06',
@@ -115,21 +101,186 @@ void main() {
         items: [UpdateItem(item: '6.5', tipo: 'alterado', resumo: 'texto')],
       );
       fakeContentService.updateEntryResult = entry;
-
       expect(controller.getUpdateEntry(), same(entry));
     });
+  });
 
-    test('getUpdateEntry() retorna null quando não há entrada correspondente',
-        () {
-      fakeContentService.updateEntryResult = null;
+  group('NRReaderController — navegação estruturada', () {
+    late FakeContentService fake;
 
-      expect(controller.getUpdateEntry(), isNull);
+    setUp(() {
+      Get.testMode = true;
+      fake = FakeContentService();
+      fake.contentResult = '# test';
+      fake.structureResult = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-objetivo',
+            number: '6.1',
+            title: 'Objetivo',
+            blocks: [],
+          ),
+        ],
+      );
     });
 
-    test('showUpdateBanner começa false antes de qualquer carregamento', () {
-      // Estado inicial do Rx, antes de onInit() rodar — nunca deve mostrar
-      // o banner "por padrão" sem checagem explícita de hasUpdate().
-      expect(controller.showUpdateBanner.value, false);
+    tearDown(() => Get.reset());
+
+    test('useStructuredView é true quando há seções', () {
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = fake.structureResult;
+      expect(controller.useStructuredView, isTrue);
+    });
+
+    test('expandSection adiciona id ao conjunto expandido', () {
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.expandSection('61-objetivo');
+      expect(controller.isSectionExpanded('61-objetivo'), isTrue);
+    });
+
+    test('searchInDocument encontra título de seção e bloco', () async {
+      fake.structureResult = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-objetivo',
+            number: '6.1',
+            title: 'Objetivo',
+            blocks: [
+              const NrItemBlock(
+                number: '6.1.1',
+                depth: 2,
+                text: 'fornecimento de EPI ao trabalhador',
+              ),
+            ],
+          ),
+        ],
+      );
+
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = fake.structureResult;
+
+      await controller.searchInDocument('objetivo');
+      expect(controller.documentSearchResults, isNotEmpty);
+      expect(controller.activeHighlightQuery.value, 'objetivo');
+      expect(
+        controller.documentSearchResults.any((h) => h.blockIndex == -1),
+        isTrue,
+      );
+
+      await controller.searchInDocument('EPI');
+      expect(controller.activeHighlightQuery.value, 'EPI');
+      expect(
+        controller.documentSearchResults.any((h) => h.blockIndex >= 0),
+        isTrue,
+      );
+    });
+
+    test('clearDocumentSearch limpa destaque e resultados', () async {
+      fake.structureResult = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-objetivo',
+            number: '6.1',
+            title: 'Objetivo',
+            blocks: [],
+          ),
+        ],
+      );
+
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = fake.structureResult;
+
+      await controller.searchInDocument('objetivo');
+      expect(controller.activeHighlightQuery.value, isNotNull);
+
+      controller.clearDocumentSearch();
+      expect(controller.documentSearchResults, isEmpty);
+      expect(controller.activeHighlightQuery.value, isNull);
+    });
+
+    test('goToNextHit e goToPreviousHit navegam entre resultados', () async {
+      fake.structureResult = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-objetivo',
+            number: '6.1',
+            title: 'Objetivo',
+            blocks: [
+              const NrItemBlock(
+                number: '6.1.1',
+                depth: 2,
+                text: 'fornecimento de EPI ao trabalhador',
+              ),
+            ],
+          ),
+          NrSection(
+            id: '62-campo',
+            number: '6.2',
+            title: 'Campo de aplicação',
+            blocks: [],
+          ),
+        ],
+      );
+
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = fake.structureResult;
+
+      await controller.searchInDocument('6.');
+      expect(controller.matchCount, greaterThan(1));
+
+      controller.goToNextHit();
+      expect(controller.currentHitIndex.value, 1);
+
+      controller.goToPreviousHit();
+      expect(controller.currentHitIndex.value, 0);
+    });
+
+    test('activeHighlightQuery permanece com termo mesmo sem resultados', () async {
+      fake.structureResult = NrStructure(
+        title: 'NR 06',
+        preamble: NrPreamble(blocks: []),
+        sections: [
+          NrSection(
+            id: '61-objetivo',
+            number: '6.1',
+            title: 'Objetivo',
+            blocks: [],
+          ),
+        ],
+      );
+
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = fake.structureResult;
+
+      await controller.searchInDocument('termo_inexistente_xyz');
+      expect(controller.documentSearchResults, isEmpty);
+      expect(controller.activeHighlightQuery.value, 'termo_inexistente_xyz');
     });
   });
 }

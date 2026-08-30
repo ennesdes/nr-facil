@@ -1,0 +1,1909 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 16 - ATIVIDADES E OPERAÇÕES PERIGOSAS**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº02, de 02 de fevereiro de 1979|08/02/79|\n|Portaria MTb nº3.393, de 17 de dezembro de 1987|(Rev.) 23/12/87|\n|Portaria SSST nº25, de 29 de dezembro de 1994|(Rep. )17/02/83|\n|Portaria MTE nº545, de 10 de julho de 2000|11/07/00|\n|Portaria SIT nº26, de 02 de agosto de 2000|03/08/00|\n|Portaria MTE nº496, de 11 de dezembro de 2002|(Rev.) 12/12/02|\n|Portaria MTE nº518, de 04 de abril de 2003|07/04/03|\n|Portaria MTE nº1.885, de 02 de dezembro de 2013|03/12/13|\n|Portaria MTE nº1.078, de 16 de julho de 2014|17/07/14|\n|Portaria SEPRT nº1.357, de 09 de dezembro de 2019|10/12/19|\n|Portaria MTE nº1.418, de 27 de agosto de 2024|28/08/24|\n|Portaria MTE nº1.411, de 22 de agosto de 2025|(Rep.) 26/08/25|\n|Portaria MTE nº2.021, de 03 de dezembro de 2025|04/12/25|"
+      },
+      {
+        "type": "item",
+        "number": "16.1",
+        "depth": 1,
+        "text": "São consideradas atividades e operações perigosas as constantes dos Anexos desta Norma Regulamentadora - NR."
+      },
+      {
+        "type": "item",
+        "number": "16.2",
+        "depth": 1,
+        "text": "O exercício de trabalho em condições de periculosidade assegura ao trabalhador a percepção de adicional de 30% (trinta por cento), incidente sobre o salário, sem os acréscimos resultantes de gratificações, prêmios ou participação nos lucros da empresa."
+      },
+      {
+        "type": "item",
+        "number": "16.2.1",
+        "depth": 2,
+        "text": "O empregado poderá optar pelo adicional de insalubridade que porventura lhe seja devido."
+      },
+      {
+        "type": "item",
+        "number": "16.3",
+        "depth": 1,
+        "text": "É responsabilidade do empregador a caracterização ou a descaracterização da periculosidade, mediante laudo técnico elaborado por Médico do Trabalho ou Engenheiro de Segurança do Trabalho, nos termos do artigo 195 da CLT."
+      },
+      {
+        "type": "item",
+        "number": "16.3.1",
+        "depth": 2,
+        "text": "O laudo caracterizador da periculosidade deve estar disponível aos trabalhadores, sindicatos das categorias profissionais e à inspeção do trabalho. _(Inserido pela Portaria MTE nº 2.021, de 03 de dezembro de 2025 -_ _<mark>entra em vigor a partir de 03 de abril de 2026</mark> )_"
+      },
+      {
+        "type": "item",
+        "number": "16.4",
+        "depth": 1,
+        "text": "O disposto no item 16.3 não prejudica a ação fiscalizadora do Ministério do Trabalho nem a realização ex-officio da perícia."
+      },
+      {
+        "type": "item",
+        "number": "16.5",
+        "depth": 1,
+        "text": "Para os fins desta Norma Regulamentadora - NR são consideradas atividades ou operações perigosas as executadas com explosivos sujeitos a:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "degradação química ou autocatalítica;"
+          },
+          {
+            "label": "b",
+            "text": "ação de agentes exteriores, tais como, calor, umidade, faíscas, fogo, fenômenos sísmicos, choque e atritos."
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "text": "Este texto não substitui o publicado no DOU"
+      },
+      {
+        "type": "item",
+        "number": "16.6",
+        "depth": 1,
+        "text": "As operações de transporte de inflamáveis líquidos ou gasosos liquefeitos, em quaisquer vasilhames e a granel, são consideradas em condições de periculosidade, exclusão para o transporte em pequenas quantidades, até o limite de 200 (duzentos) litros para os inflamáveis líquidos e 135 (cento e trinta e cinco) quilos para os inflamáveis gasosos liquefeitos."
+      },
+      {
+        "type": "item",
+        "number": "16.6.1",
+        "depth": 2,
+        "text": "As quantidades de inflamáveis, contidas nos tanques de consumo próprio dos veículos, não serão consideradas para efeito desta Norma."
+      },
+      {
+        "type": "item",
+        "number": "16.6.1.1",
+        "depth": 3,
+        "text": "Não se aplica o item 16.6 desta NR às quantidades de inflamáveis contidas nos tanques de combustíveis originais de fábrica e suplementares, e àqueles para consumo próprio de veículos de carga e de transporte coletivo de passageiros, de máquinas e de equipamentos, certificados pelo órgão competente, e nos equipamentos de refrigeração de carga. _(Alterado pela Portaria MTE nº 1.418, de 27 de agosto de 2024)_"
+      },
+      {
+        "type": "item",
+        "number": "16.7",
+        "depth": 1,
+        "text": "Para efeito desta Norma Regulamentadora considera-se líquido combustível todo aquele que possua ponto de fulgor maior que 60ºC (sessenta graus Celsius) e inferior ou igual a 93ºC (noventa e três graus Celsius). _(Alterado pela Portaria SIT nº 312, de 23 de março de 2012)_"
+      },
+      {
+        "type": "item",
+        "number": "16.8",
+        "depth": 1,
+        "text": "Todas as áreas de risco previstas nesta NR devem ser delimitadas, sob responsabilidade do empregador. _(Incluído pela Portaria SSST nº 25, de 29 de dezembro de 1994)_"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "anexo-i",
+      "number": "ANEXO I",
+      "title": "ANEXO I",
+      "blocks": []
+    },
+    {
+      "id": "atividades-e-operações-perigosas-com-explosivos",
+      "number": "",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPLOSIVOS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Redação dada pela Portaria SSMT nº 2, de 2 de fevereiro de 1979)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. São consideradas atividades ou operações perigosas as enumeradas no Quadro n.° 1, seguinte:"
+        }
+      ]
+    },
+    {
+      "id": "quadro-nº-1",
+      "number": "",
+      "title": "QUADRO Nº 1",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| ATIVIDADES | ADICIONAL DE 30% |\n| --- | --- |\n| a) no armazenamento de explosivos"
+        },
+        {
+          "type": "paragraph",
+          "text": "no transporte de explosivos b) na operação de escorva dos cartuchos c) de explosivos na operação de carregamento de d) explosivos na detonação e) na verificação de denotações falhadas f) na queima e destruição de explosivos g) deteriorados nas operações de manuseio de h) explosivos | Todos os trabalhadores nessa atividade ou que permaneçam na área de risco. Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade |"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. O trabalhador, cuja atividade esteja enquadrada nas hipóteses acima discriminadas, faz jus ao adicional de 30% (trinta por cento) sobre o salário, sem os acréscimos resultantes de gratificações, prêmios ou participações nos lucros ou participações nos lucros da empresa, sendo-lhe ressalvado o direito de opção por adicional de insalubridade eventualmente devido."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. São consideradas áreas de risco:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "nos locais de armazenagem de pólvoras químicas, artifícios pirotécnicos e produtos químicos usados na fabricação de misturas explosivas ou de fogos de artifício, a área compreendida no Quadro nº 2:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quadro-nº-2",
+      "number": "",
+      "title": "QUADRO Nº 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "* quantidade máxima que não pode ser ultrapassada."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "nos locais de armazenagem de explosivos iniciadores, a área compreendida no Quadro nº 3:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quadro-nº-3",
+      "number": "",
+      "title": "QUADRO Nº 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "* quantidade máxima que não pode ser ultrapassada."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "Nos locais de armazenagem de explosivos de ruptura e pólvoras mecânicos (pólvora negra e pólvora chocolate ou parda), área de operação compreendida no Quadro nº 4:"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quadro-nº-4",
+      "number": "",
+      "title": "QUADRO Nº 4",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
+        },
+        {
+          "type": "paragraph",
+          "text": "MÁXIMA DE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| até 4.500"
+        },
+        {
+          "type": "paragraph",
+          "text": "mais de 4.500 até 45.000 mais de 45.000 até 90.000 mais de 90.000 até 225.000* | 45 metros 90 metros 110 metros 180 metros |"
+        },
+        {
+          "type": "table",
+          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
+        },
+        {
+          "type": "paragraph",
+          "text": "MÁXIMA |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| até 20"
+        },
+        {
+          "type": "paragraph",
+          "text": "mais de 20 até 200 mais de 200 até 900 mais de 900 até 2.200 mais de 2.200 até 4.500 mais de 4.500 até 6.800 mais de 6.800 até 9.000* | 75 metros 220 metros 300 metros 370 metros 460 metros 500 metros 530 metros |"
+        },
+        {
+          "type": "table",
+          "markdown": "| QUANTIDADE EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
+        },
+        {
+          "type": "paragraph",
+          "text": "MÁXIMA |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "quando se tratar de depósitos barricados ou entricheirados, para o efeito da delimitação de área de risco, as distâncias previstas no Quadro nº 4 podem ser reduzidas à metade."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "será obrigatória a existência física de delimitação da área de risco, assim entendido qualquer obstáculo que impeça o ingresso de pessoas não autorizadas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii",
+      "number": "ANEXO II",
+      "title": "ANEXO II",
+      "blocks": []
+    },
+    {
+      "id": "atividades-e-operações-perigosas-com-inflamáveis",
+      "number": "",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM INFLAMÁVEIS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1. São consideradas atividades ou operações perigosas, conferindo aos trabalhadores que se dedicam a essas atividades ou operações, bem como aqueles que operam na área de risco adicional de 30 (trinta) por cento, as realizadas:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| Atividades | Adicional de 30% |\n| --- | --- |\n| a."
+        },
+        {
+          "type": "paragraph",
+          "text": "na produção, transporte, processamento e armazenamento de gás liqüefeito. | na produção, transporte, processamento e armazenamento de gás liqüefeito. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| b."
+        },
+        {
+          "type": "paragraph",
+          "text": "no transporte e armazenagem de inflamáveis líquidos e gasosos liqüefeitos e de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores da área de operação. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Para os efeitos desta Norma Regulamentadora - NR entende-se como:"
+        },
+        {
+          "type": "paragraph",
+          "text": "I. Serviços de operação e manutenção de embarcações, vagões-tanques, caminhões-tanques, bombas e vasilhames de inflamáveis:"
+        },
+        {
+          "type": "note",
+          "text": "a) atividades de inspeção, calibração, medição, contagem de estoque e colheita de amostra em Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| c."
+        },
+        {
+          "type": "paragraph",
+          "text": "nos postos de reabastecimento de aeronaves. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| d."
+        },
+        {
+          "type": "paragraph",
+          "text": "nos locais de carregamento de navios-tanques, vagões-tanques e caminhões-tanques e enchimento de vasilhames, com inflamáveis líquidos ou gasosos liqüefeitos. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| e."
+        },
+        {
+          "type": "paragraph",
+          "text": "nos locais de descarga de navios-tanques, vagõestanques e caminhões-tanques com inflamáveis líquidos ou gasosos liqüefeitos ou de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco |"
+        },
+        {
+          "type": "table",
+          "markdown": "| f."
+        },
+        {
+          "type": "paragraph",
+          "text": "nos serviços de operações e manutenção de navios-tanque, vagões-tanques, caminhõestanques, bombas e vasilhames, com inflamáveis líquidos ou gasosos liquefeitos, ou vazios nãodesgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| g."
+        },
+        {
+          "type": "paragraph",
+          "text": "nas operações de desgaseificação, decantação e reparos de vasilhames não-desgaseificados ou decantados. | T o d os os trabalhadores nessas atividades ou que operam na área de risco. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| h."
+        },
+        {
+          "type": "paragraph",
+          "text": "nas operações de testes de aparelhos de consumo do gás e seus equipamentos. | Todos os trabalhadores nessas atividades ou que operam na área de risco. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| i."
+        },
+        {
+          "type": "paragraph",
+          "text": "no transporte de inflamáveis líquidos e gasosos liqüefeitos em caminhão-tanque. | motorista e ajudantes. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| j."
+        },
+        {
+          "type": "paragraph",
+          "text": "no transporte de vasilhames (em caminhão de carga), contendo inflamável líquido, em quantidade total igual ou superior a 200 litros, quando não observado o disposto nos subitens 4.1 e 4.2 deste Anexo. (Alterado pela Portaria MTE nº 545, de 10 de julho de 2000) | motorista e ajudantes |"
+        },
+        {
+          "type": "table",
+          "markdown": "| l."
+        },
+        {
+          "type": "paragraph",
+          "text": "no transporte de vasilhames (em carreta ou caminhão de carga), contendo inflamável gasosos e líquido, em quantidade total igual ou superior a 135 quilos. | motorista e ajudantes. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| m"
+        },
+        {
+          "type": "paragraph",
+          "text": "nas operação em postos de serviço e bombas de . abastecimento de inflamáveis líquidos. | operador de bomba e trabalhadores que operam na área de risco. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "tanques ou quaisquer vasilhames cheios;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "serviços de vigilância, de arrumação de vasilhames vazios não-desgaseificados, de bombas propulsoras em recinto fechados e de superintendência;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "atividades de manutenção, reparos, lavagem, pintura de embarcações, tanques, viaturas de abastecimento e de quaisquer vasilhames cheios de inflamáveis ou vazios, não desgaseificados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "atividades de desgaseificação e lavagem de embarcações, tanques, viaturas, bombas de abastecimento ou quaisquer vasilhames que tenham contido inflamáveis líquidos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "quaisquer outras atividades de manutenção ou operação, tais como: serviço de almoxarifado, de escritório, de laboratório de inspeção de segurança, de conferência de estoque, de ambulatório médico, de engenharia, de oficinas em geral, de caldeiras, de mecânica, de eletricidade, de soldagem, de enchimento, fechamento e arrumação de quaisquer vasilhames com substâncias consideradas inflamáveis, desde que essas atividades sejam executadas dentro de áreas consideradas perigosas, ad referendum do Ministério do Trabalho."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "II. Serviços de operação e manutenção de embarcações, vagões-tanques, caminhões-tanques e vasilhames de inflamáveis gasosos liquefeitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades de inspeção nos pontos de vazamento eventual no sistema de depósito de distribuição e de medição de tanques pelos processos de escapamento direto;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "serviços de superintendência;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "atividades de manutenção das instalações da frota de caminhões-tanques, executadas dentro da área e em torno dos pontos de escapamento normais ou eventuais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "atividades de decantação, desgaseificação, lavagem, reparos, pinturas e areação de tanques, cilindros e botijões cheios de GLP;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "quaisquer outras atividades de manutenção ou operações, executadas dentro das áreas consideradas perigosas pelo Ministério do Trabalho."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "III . Armazenagem de inflamáveis líquidos, em tanques ou vasilhames:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "quaisquer atividades executadas dentro da bacia de segurança dos tanques;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "arrumação de tambores ou latas ou quaisquer outras atividades executadas dentro do prédio de armazenamento de inflamáveis ou em recintos abertos e com vasilhames cheios inflamáveis ou nãodesgaseificados ou decantados."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "IV. Armazenagem de inflamáveis gasosos liquefeitos, em tanques ou vasilhames:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "arrumação de vasilhames ou quaisquer outras atividades executadas dentro do prédio de armazenamento de inflamáveis ou em recintos abertos e com vasilhames cheios de inflamáveis ou vazios não desgaseificados ou decantados."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- V. Operações em postos de serviço e bombas de abastecimento de inflamáveis líquidos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades ligadas diretamente ao abastecimento de viaturas com motor de explosão."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "VI. Outras atividades, tais como: manutenção, lubrificação, lavagem de viaturas, mecânica, eletricidade, escritório de vendas e gerência, ad referendum do Ministério do Trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "VII. Enchimento de quaisquer vasilhames (tambores, latas), com inflamáveis líquidos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades de enchimento, fechamento e arrumação de latas ou caixas com latas."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII. Enchimento de quaisquer vasilhames (cilindros, botijões) com inflamáveis gasosos liquefeitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades de enchimento, pesagem, inspeção, estiva e arrumação de cilindros ou botijões cheios de GLP;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "outras atividades executadas dentro da área considerada perigosa, ad referendum do Ministério do Trabalho."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "3. São consideradas áreas de risco:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| ATIVIDADE | ÁREA DE RISCO |\n| --- | --- |"
+        },
+        {
+          "type": "table",
+          "markdown": "|l. Enchimento de vasilhames com inflamáveis<br>líquidos, em locais abertos.|Círculo com raio de 7,5 metros com centro nos<br>bicos de enchimento.|\n|---|---|\n|m. Enchimento de vasilhames com inflamáveis<br>líquidos, em recinto fechado.|Toda a área interna do recinto.|\n|n. Manutenção de viaturas-tanques, bombas e<br>vasilhames que continham inflamável líquido.|Local de operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos.|\n|o. Desgaseificação, decantação e reparos de<br>vasilhames não desgaseificados ou decantados,<br>utilizados no transporte de inflamáveis.|Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos.|\n|p. Testes em aparelhos de consumo de gás e seus<br>equipamentos.|Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>extremos.|\n|q. abastecimento de inflamáveis|Toda a área de operação, abrangendo, no<br>mínimo, círculo com raio de 7,5 metros com<br>centro no ponto de abastecimento e o círculo<br>com raio de 7,5 metros com centro na bomba<br>de abastecimento da viatura e faixa de 7,5<br>metros de largura para ambos os lados da<br>máquina.|\n|r. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados<br>ou decantados, em locais abertos.|Faixa de 3 metros de largura em torno dos seus<br>pontos externos.|\n|s. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados,<br>ou decantados, em recinto fechado.|Toda a área interna do recinto.|\n|t. Carga e descarga de vasilhames contendo<br>inflamáveis líquidos ou vasilhames vazios não<br>desgaseificados ou decantados, transportados pôr<br>navios,chatas ou batelões.|Afastamento de 3 metros da beira do cais,<br>durante a operação, com extensão<br>correspondente ao comprimento da<br>embarcação.|"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(Incluído pela Portaria MTE nº 545, de 10 de julho de 2000)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Não caracterizam periculosidade, para fins de percepção de adicional:"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1 O manuseio, a armazenagem e o transporte de líquidos inflamáveis em embalagens certificadas, simples, compostas ou combinadas, desde que obedecidos os limites consignados no Quadro I abaixo, independentemente do número total de embalagens manuseadas, armazenadas ou transportadas, sempre que obedecidas as Normas Regulamentadoras expedidas pelo Ministério do Trabalho e Emprego, a Norma NBR 11564/91 e a legislação sobre produtos perigosos relativa aos meios de transporte utilizados;"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2 O manuseio, a armazenagem e o transporte de recipientes de até cinco litros, lacrados na fabricação, contendo líquidos inflamáveis, independentemente do número total de recipientes manuseados, armazenados ou transportados, sempre que obedecidas as Normas Regulamentadoras expedidas pelo Ministério do Trabalho e Emprego e a legislação sobre produtos perigosos relativa aos meios de transporte utilizados."
+        }
+      ]
+    },
+    {
+      "id": "quadro-l",
+      "number": "",
+      "title": "QUADRO l",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| Capacidade Máxima para Embalagens de Líquidos Inflamáveis |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| Embalagem combinada |  |  |  |  |\n| Embalagem interna | Embalagem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Externa | Grupo de Embalagens* I | Grupo de Embalagens* lI | Grupo de Embalagens* III |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Recipientes de Vidro"
+        },
+        {
+          "type": "paragraph",
+          "text": "com mais de 5 e até 10 litros; Plástico com mais de 5 e até 30 litros; Metal com mais de 5 e até 40 litros. | Tambores de: Metal Plástico Madeira Compensada Fibra | 250 kg 250 kg 150 kg 75 kg | 400 kg 400 kg 400 kg | 400 kg 400 kg 400 kg |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | Caixas |  |  |  |\n|  | Aço ou Alumínio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Madeira Natural ou compensada Madeira Aglomerada Papelão Plástico Flexível Plástico Rígido | 250 kg | 400 kg | 400 kg |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | 150 kg | 400 kg | 400 kg |\n|  |  | 75 kg | 400 kg | 400 kg |\n|  |  | 60 kg | 60 kg | 60 kg |\n|  |  | 150 kg | 400 kg | 400 kg |\n|  | Bombonas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aço ou Alumínio Plástico | 120 kg 120 kg | 120 kg 120 kg |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Embalagens Simples |  |  |  |  |\n|  | Grupo de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embalagens* I | Grupo de Embalagens* II |  | Grupo de Embalagens* III |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | 450 L |  | 450 L |"
+        },
+        {
+          "type": "paragraph",
+          "text": "* Conforme definições NBR 11564 – ABNT."
+        },
+        {
+          "type": "paragraph",
+          "text": "** Somente para substâncias com viscosidades maior que 200 mm²/seg"
+        }
+      ]
+    },
+    {
+      "id": "glossário",
+      "number": "Glossário",
+      "title": "GLOSSÁRIO",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |  |  |\n| --- | --- | --- | --- |\n| Bombonas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aço, tampa não removível Aço, tampa removível Alumínio, tampa não removível Alumínio, tampa removível Outros metais, tampa não removível Outros metais, tampa removível Plástico, tampa não removível Plástico, tampa removível | 60 L 60 L** 60 L 60 L** 60 L 60 L** 60 L 60 L** | 60 L | 60 L |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Embalagens Compostas |  |  |  |\n| --- | --- | --- | --- |\n|  | Grupo de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embalagens* I | Grupo de Embalagens* II | Grupo de Embalagens* III |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Plástico com tambor externo de aço"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou alumínio Plástico com tambor externo de fibra, plástico ou compensado | 250 L | 250 L | 250 L |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Plástico com engradado ou caixa"
+        },
+        {
+          "type": "paragraph",
+          "text": "externa de aço ou alumínio ou madeira externa ou caixa externa de compensado ou de cartão ou de plástico rígido Vidro com tambor externo de aço, alumínio, fibra, | 120 L | 250 L | 250 L |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Compensado, plástico flexível ou | 60 L | 60 L | 60 L |\n| Em caixa de aço, alumínio, madeira,"
+        },
+        {
+          "type": "paragraph",
+          "text": "papelão ou compensado | 60 L | 60 L | 60 L |"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(Publicado pela Portaria SIT nº 26, de 2 de agosto de 2000)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Bombonas** : Elementos de metal ou plástico, com seção retangular ou poligonal."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Caixas** : Elementos com faces retangulares ou poligonais, feitas de metal, madeira, papelão, plástico flexível, plástico rígido ou outros materiais compatíveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens ou Embalagens Simples** : Recipientes ou quaisquer outros componentes ou materiais necessários para embalar, com a função de conter e proteger líquidos inflamáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens Combinadas** : Uma combinação de embalagens, consistindo em uma ou mais embalagens internas acondicionadas numa embalagem externa."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens Compostas** : Consistem em uma embalagem externa e um recipiente interno, construídos de tal forma que o recipiente interno e a embalagem externa formam uma unidade que permanece integrada, que se enche, manuseia, armazena, transporta e esvazia como tal."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens Certificadas** : São aquelas aprovadas nos ensaios e padrões de desempenho fixados para embalagens, da NBR 11564/91."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens Externas** : São a proteção exterior de uma embalagem composta ou combinada, juntamente com quaisquer outros componentes necessários para conter e proteger recipientes ou embalagens."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Embalagens Internas** : São as que para serem manuseadas, armazenadas ou transportadas, necessitam de uma embalagem externa."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Grupo de Embalagens** : Os líquidos inflamáveis classificam-se para fins de embalagens segundo 3 grupos, conforme o nível de risco:"
+        },
+        {
+          "type": "paragraph",
+          "text": "- Grupo de Embalagens I - alto risco"
+        },
+        {
+          "type": "paragraph",
+          "text": "- Grupo de Embalagens II - risco médio"
+        },
+        {
+          "type": "paragraph",
+          "text": "- Grupo de Embalagens III - baixo risco"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para efeito de classificação de Grupo de Embalagens, segundo o risco, adotar-se-á a classificação descrita na tabela do item 4 - Relação de Produtos Perigosos, da Portaria nº 204, de 20 de maio de 1997, do Ministério dos Transportes."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Lacrados** : Fechados, no processo de envazamento, de maneira estanque para que não venham a apresentar vazamentos nas condições normais de manuseio, armazenamento ou transporte, assim como decorrentes de variações de temperatura, umidade ou pressão ou sob os efeitos de choques e vibrações."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Líquidos Inflamáveis** : Para os efeitos do adicional de periculosidade estão definidos na NR 20 - Portaria nº 3.214/78."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Recipientes** : Elementos de contenção, com quaisquer meios de fechamento, destinados a receber e conter líquidos inflamáveis. Exemplos: latas, garrafas, etc."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Tambores** : Elementos cilíndricos de fundo plano ou convexo, feitos de metal, plástico, madeira, fibra ou outros materiais adequados. Esta definição inclui, também, outros formatos, excluídas bombonas. Por exemplo: redondo de bocal cintado ou em formato de balde."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii",
+      "number": "ANEXO III",
+      "title": "ANEXO III",
+      "blocks": []
+    },
+    {
+      "id": "atividades-e-operações-perigosas-com-exposição-a-roubos-ou-outras-espécies-de-violência-física-nas-atividades-profissionais-de-segurança-pessoal-ou-patrimonial",
+      "number": "",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPOSIÇÃO A ROUBOS OU OUTRAS ESPÉCIES DE VIOLÊNCIA FÍSICA NAS ATIVIDADES PROFISSIONAIS DE SEGURANÇA PESSOAL OU PATRIMONIAL",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Aprovado pela Portaria MTE nº 1.885, de 02 de dezembro de 2013)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** As atividades ou operações que impliquem em exposição dos profissionais de segurança pessoal ou patrimonial a roubos ou outras espécies de violência física são consideradas perigosas."
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** São considerados profissionais de segurança pessoal ou patrimonial os trabalhadores que atendam a uma das seguintes condições:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "empregados das empresas prestadoras de serviço nas atividades de segurança privada ou que integrem serviço orgânico de segurança privada, devidamente registradas e autorizadas pelo Ministério da Justiça, conforme lei 7102/1983 e suas alterações posteriores."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "empregados que exercem a atividade de segurança patrimonial ou pessoal em instalações metroviárias, ferroviárias, portuárias, rodoviárias, aeroportuárias e de bens públicos, contratados diretamente pela administração pública direta ou indireta."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**3.** As atividades ou operações que expõem os empregados a roubos ou outras espécies de violência física, desde que atendida uma das condições do item 2, são as constantes do quadro abaixo:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| ATIVIDADES OU OPERAÇÕES | DESCRIÇÃO |\n| --- | --- |\n| Vigilância patrimonial | Segurança patrimonial e/ou pessoal na preservação do"
+        },
+        {
+          "type": "paragraph",
+          "text": "patrimônio em estabelecimentos públicos ou privados e da incolumidade física de pessoas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Segurança de eventos | Segurança patrimonial e/ou pessoal em espaços públicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou privados, de uso comum do povo. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Segurança nos transportes coletivos | Segurança patrimonial e/ou pessoal nos transportes"
+        },
+        {
+          "type": "paragraph",
+          "text": "coletivos e em suas respectivas instalações. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Segurança ambiental e florestal | Segurança patrimonial e/ou pessoal em áreas de"
+        },
+        {
+          "type": "paragraph",
+          "text": "conservação de fauna, flora natural e de reflorestamento. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Transporte de valores | Segurança na execução do serviço de transporte de"
+        },
+        {
+          "type": "paragraph",
+          "text": "valores. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Escolta armada | Segurança no acompanhamento de qualquer tipo de"
+        },
+        {
+          "type": "paragraph",
+          "text": "carga ou de valores. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Segurança pessoal | Acompanhamento e proteção da integridade física de"
+        },
+        {
+          "type": "paragraph",
+          "text": "pessoa ou de grupos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Supervisão/fiscalização Operacional | Supervisão e/ou fiscalização direta dos locais de trabalho"
+        },
+        {
+          "type": "paragraph",
+          "text": "para acompanhamento e orientação dos vigilantes. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Telemonitoramento/telecontrole | Execução de controle e/ou monitoramento de locais,"
+        },
+        {
+          "type": "paragraph",
+          "text": "através de sistemas eletrônicos de segurança. |"
+        }
+      ]
+    },
+    {
+      "id": "anexo-iv-atividades-e-operações-perigosas-com-energia-elétrica",
+      "number": "ANEXO IV",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM ENERGIA ELÉTRICA",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Aprovado pela Portaria MTE nº 1.078, de 16 de julho de 2014)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Têm direito ao adicional de periculosidade os trabalhadores:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "que executam atividades ou operações em instalações ou equipamentos elétricos energizados em alta tensão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "que realizam atividades ou operações com trabalho em proximidade, conforme estabelece a NR-10;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "que realizam atividades ou operações em instalações ou equipamentos elétricos energizados em baixa tensão no sistema elétrico de consumo - SEC, no caso de descumprimento do item 10.2.8 e seus subitens da NR10 - Segurança em Instalações e Serviços em Eletricidade;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "das empresas que operam em instalações ou equipamentos integrantes do sistema elétrico de potência - SEP, bem como suas contratadas, em conformidade com as atividades e respectivas áreas de risco descritas no quadro I deste anexo."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Não é devido o pagamento do adicional nas seguintes situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "nas atividades ou operações no sistema elétrico de consumo em instalações ou equipamentos elétricos desenergizados e liberados para o trabalho, sem possibilidade de energização acidental, conforme estabelece a NR-10;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "nas atividades ou operações em instalações ou equipamentos elétricos alimentados por extra-baixa tensão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "nas atividades ou operações elementares realizadas em baixa tensão, tais como o uso de equipamentos elétricos energizados e os procedimentos de ligar e desligar circuitos elétricos, desde que os materiais e equipamentos elétricos estejam em conformidade com as normas técnicas oficiais estabelecidas pelos órgãos competentes e, na ausência ou omissão destas, as normas internacionais cabíveis."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "3. O trabalho intermitente é equiparado à exposição permanente para fins de pagamento integral do adicional de periculosidade nos meses em que houver exposição, excluída a exposição eventual, assim considerado o caso fortuito ou que não faça parte da rotina."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Das atividades no sistema elétrico de potência - SEP."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1 Para os efeitos deste anexo entende-se como atividades de construção, operação e manutenção de redes de linhas aéreas ou subterrâneas de alta e baixa tensão integrantes do SEP:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "montagem, instalação, substituição, conservação, reparos, ensaios e testes de: verificação, inspeção, levantamento, supervisão e fiscalização; fusíveis, condutores, para-raios, postes, torres, chaves, muflas, isoladores, transformadores, capacitores, medidores, reguladores de tensão, religadores, seccionalizadores, carrier (onda portadora  via  linhas  de  transmissão), cruzetas, relé e braço de iluminação  pública, aparelho de medição gráfica, bases  de  concreto  ou alvenaria de torres, postes e estrutura de sustentação de redes e linhas aéreas e  demais  componentes das redes aéreas;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "corte e poda de árvores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ligações e cortes de consumidores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "manobras aéreas e subterrâneas de redes e linhas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "manobras em subestação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "Testes de curto em linhas de transmissão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "manutenção de fontes de alimentação de sistemas de comunicação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "leitura em consumidores de alta tensão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "aferição em equipamentos de medição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "medidas de resistências, lançamento e instalação de cabo contra-peso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "medidas de campo eletromagnético, rádio, interferência e correntes induzidas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "testes elétricos em instalações de terceiros em faixas de linhas de transmissão (oleodutos, gasodutos. etc);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "m",
+              "text": "pintura de estruturas e equipamentos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "n",
+              "text": "verificação, inspeção, inclusive aérea, fiscalização, levantamento de dados e supervisão de serviços técnicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "o",
+              "text": "montagem, instalação, substituição, manutenção e reparos de: barramentos, transformadores, disjuntores, chaves e seccionadoras, condensadores, chaves a óleo, transformadores para instrumentos, cabos subterrâneos e subaquáticos, painéis, circuitos elétricos, contatos, muflas e isoladores e demais componentes de redes subterrâneas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "p",
+              "text": "construção civil, instalação, substituição e limpeza de: valas, bancos de dutos, dutos, condutos, canaletas, galerias, túneis, caixas ou poços de inspeção, câmaras;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "q",
+              "text": "medição, verificação, ensaios, testes, inspeção, fiscalização, levantamento de dados e supervisões de serviços técnicos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2 Para os efeitos deste anexo entende-se como atividades de construção, operação e manutenção nas usinas, unidades geradoras, subestações e cabinas de distribuição em operações, integrantes do SEP:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "montagem, desmontagem, operação e conservação de: medidores, relés, chaves, disjuntores e religadoras, caixas de controle, cabos de força, cabos de controle, barramentos, baterias e carregadores, transformadores, sistemas anti-incêndio e de resfriamento, bancos de capacitores, reatores, reguladores, equipamentos eletrônicos, eletromecânico e eletroeletrônicos, painéis, pararaios, áreas de circulação, estruturas-suporte e demais instalações e equipamentos elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "construção de: valas de dutos, canaletas, bases de equipamentos, estruturas, condutos e demais instalações;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "serviços de limpeza, pintura e sinalização de instalações e equipamentos elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ensaios, testes, medições, supervisão, fiscalizações e levantamentos de circuitos e equipamentos elétricos, eletrônicos de telecomunicações e telecontrole."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | ATIVIDADES |  |  | ÁREAS DE RISCO |  |\n| --- | --- | --- | --- | --- | --- |\n| . Atividades, constantes no item 4.1, de"
+        },
+        {
+          "type": "paragraph",
+          "text": "construção, operação e manutenção de redes de linhas aéreas ou subterrâneas de alta e baixa tensão integrantes do SEP, energizados ou desenergizados, mas com possibilidade de energização acidental ou por falha operacional. |  |  |  | a) Estruturas, condutores e equipamentos de |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |  |  | linhas aéreas de transmissão, subtransmissão e |  |\n|  |  |  |  | distribuição, incluindo plataformas e cestos |  |\n|  |  |  |  | aéreos usados para execução dos trabalhos; |  |\n|  |  |  |  | b) Pátio e salas de operação de subestações; |  |\n|  |  |  |  | c) Cabines de distribuição; |  |\n|  |  |  |  | d) Estruturas, condutores e equipamentos de |  |\n|  |  |  |  | redes de tração elétrica, incluindo escadas, |  |\n|  |  |  |  | plataformas e cestos aéreos usados para |  |\n|  |  |  |  | execução dos trabalhos; |  |\n|  |  |  |  | e) Valas, bancos de dutos, canaletas, condutores, |  |\n|  |  |  |  | recintos internos de caixas, poços de inspeção, |  |\n|  |  |  |  | câmaras, galerias, túneis, estruturas terminais |  |\n|  |  |  |  | e aéreas de superfície correspondentes; |  |\n|  |  |  |  | f) Áreas submersas em rios, lagos e mares. |  |\n| . | Atividades, constantes no item 4.2, de |  |  | a) Pontos de medição e cabinas de distribuição, |  |\n|  | construção, operação e manutenção nas usinas, |  |  | inclusive de consumidores; |  |\n|  | unidades geradoras, subestações e cabinas de |  |  |  |  |\n|  |  |  |  | b) Salas de controles, casa de máquinas, |  |\n|  | distribuição em operações, integrantes do SEP, |  |  |  |  |\n|  |  |  |  | barragens de usinas e unidades geradoras; |  |\n|  | energizados ou desenergizados, mas com |  |  |  |  |\n|  |  |  |  | c) Pátios e salas de operações de subestações, |  |\n|  | possibilidade de energização acidental ou por |  |  |  |  |\n|  | falha operacional. |  |  | inclusive consumidoras. |  |\n| . Atividades de inspeção, testes, ensaios,"
+        },
+        {
+          "type": "paragraph",
+          "text": "calibração, medição e reparos em equipamentos e materiais elétricos, eletrônicos, eletromecânicos e de segurança individual e coletiva em sistemas elétricos de potência de alta e baixa tensão. |  |  |  | a) Áreas das oficinas e laboratórios de testes e |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |  |  | manutenção elétrica, eletrônica e |  |\n|  |  |  |  | eletromecânica onde são executados testes, |  |\n|  |  |  |  | ensaios, calibração e reparos de equipamentos |  |\n|  |  |  |  | energizados ou passíveis de energização |  |\n|  |  |  |  | acidental; |  |\n|  |  |  |  | b) Sala de controle e casas de máquinas de usinas |  |\n|  |  |  |  | e unidades geradoras; |  |\n|  |  |  |  | c) Pátios e salas de operação de subestações, |  |\n|  |  |  |  | inclusive consumidoras; |  |\n|  |  |  |  | d) Salas de ensaios elétricos de alta tensão; |  |\n|  |  |  |  | e) Sala de controle dos centros de operações. |  |\n| . | Atividades de treinamento em equipamentos ou |  | a) Todas as áreas descritas nos itens anteriores. |  |  |\n|  | instalações integrantes do SEP, energizadas ou |  |  |  |  |"
+        },
+        {
+          "type": "paragraph",
+          "text": "desenergizadas, mas com possibilidade de energização acidental ou por falha operacional."
+        }
+      ]
+    },
+    {
+      "id": "anexo-v-atividades-perigosas-em-motocicleta",
+      "number": "ANEXO V",
+      "title": "ATIVIDADES PERIGOSAS EM MOTOCICLETA",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Aprovado pela Portaria MTE nº 2.021, de 03 e dezembro de 2025)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "_<mark>(Entra em vigor a partir de 03 de abril de 2026)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sumário"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Objetivo"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Campo de aplicação"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Caracterização da atividade ou operação perigosa"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Laudo técnico para caracterização ou descaracterização da atividade perigosa"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** Objetivo"
+        },
+        {
+          "type": "item",
+          "number": "1.1",
+          "depth": 1,
+          "text": "O objetivo deste Anexo é estabelecer critérios para caracterizar ou descaracterizar as atividades ou operações perigosas realizadas por trabalhadores com utilização de motocicletas."
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** Campo de aplicação"
+        },
+        {
+          "type": "item",
+          "number": "2.1",
+          "depth": 1,
+          "text": "Este anexo aplica-se a todas as atividades ou operações de trabalho que envolvam deslocamento de trabalhadores em motocicletas nas vias terrestres normatizadas pela Lei nº 9.503, de 23 de setembro de 1991 (Código de Trânsito Brasileiro)."
+        },
+        {
+          "type": "item",
+          "number": "2.2",
+          "depth": 1,
+          "text": "Motocicleta, para fins deste anexo, é todo veículo automotor de duas rodas, com ou sem side-car, destinado ao transporte individual de passageiros ou de cargas, conduzido por operador em posição montada ou sentada (motonetas)."
+        },
+        {
+          "type": "item",
+          "number": "2.3",
+          "depth": 1,
+          "text": "O presente anexo não se aplica às atividades em veículos que não necessitem de emplacamento ou que não exijam carteira nacional de habilitação para conduzi-los."
+        },
+        {
+          "type": "paragraph",
+          "text": "**3.** Caracterização da atividade ou operação perigosa"
+        }
+      ]
+    },
+    {
+      "id": "31-as-atividades-laborais-com-utilização-de-motocicleta-no-deslocamento-de-trabalhador-em-vias-abertas-à-circulação-pública-são-consideradas-perigosas",
+      "number": "3.1",
+      "title": "As atividades laborais com utilização de motocicleta no deslocamento de trabalhador em vias abertas à circulação pública são consideradas perigosas",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.2",
+          "depth": 1,
+          "text": "Não são consideradas perigosas, para efeitos desse anexo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o deslocamento em motocicleta exclusivamente no percurso entre a residência do trabalhador até a ocupação do posto de trabalho e para o seu retorno, após a conclusão de sua jornada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as atividades com a condução de motocicleta exclusivamente em locais privados ou em vias internas ou em vias terrestres não abertas à circulação pública, mesmo quando a motocicleta transitar de forma eventual por vias de circulação pública;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "as atividades com uso de motocicleta exclusivamente em estradas locais destinadas principalmente"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| desenergizadas, mas com possibilidade de |  |  |\n| --- | --- | --- |\n| energização acidental ou por falha operacional. |  |  |"
+        },
+        {
+          "type": "paragraph",
+          "text": "a dar acesso a propriedades lindeiras ou em caminhos que ligam povoações contíguas; e"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "as atividades com uso de motocicleta de forma eventual, assim considerado o fortuito, ou o que, sendo habitual, dá-se por tempo extremamente reduzido."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**4.** Laudo técnico para caracterização ou descaracterização da atividade perigosa"
+        }
+      ]
+    },
+    {
+      "id": "41-é-responsabilidade-da-organização-a-caracterização-ou-descaracterização-da-periculosidade-nas-hipóteses-dos-itens-31-e-32-deste-anexo-que-deve-ser-feita-mediante-laudo-técnico-elaborado-por-médico-do-trabalho-ou-engenheiro-de-segurança-do-trabalho-nos-termos-do-artigo-195-da-clt-e-do-item-163-da-nr-16",
+      "number": "4.1",
+      "title": "É responsabilidade da organização a caracterização ou descaracterização da periculosidade, nas hipóteses dos itens 3.1 e 3.2 deste anexo, que deve ser feita mediante laudo técnico elaborado por Médico do Trabalho ou Engenheiro de Segurança do Trabalho, nos termos do artigo 195 da CLT e do item 16.3 da NR-16",
+      "blocks": []
+    },
+    {
+      "id": "anexo-v",
+      "number": "",
+      "title": "~~ANEXO V~~",
+      "blocks": []
+    },
+    {
+      "id": "atividades-perigosas-em-motocicleta",
+      "number": "",
+      "title": "~~ATIVIDADES PERIGOSAS EM MOTOCICLETA~~",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Aprovado pela Portaria MTE nº 1.565, de 13 e outubro de 2014)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "_ANULADO POR DECISÃO JUDICIAL_"
+        },
+        {
+          "type": "paragraph",
+          "text": "~~1. As atividades laborais com utilização de motocicleta ou motoneta no deslocamento de trabalhador em vias públicas são consideradas perigosas.~~"
+        },
+        {
+          "type": "paragraph",
+          "text": "~~2. Não são consideradas perigosas, para efeito deste anexo:~~"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ~~a) a utilização de motocicleta ou motoneta exclusivamente no percurso da residência para o local de trabalho ou deste para aquela;~~"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ~~b) as atividades em veículos que não necessitem de emplacamento ou que não exijam carteira nacional de habilitação para conduzi-los;~~"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ~~c) as atividades em motocicleta ou motoneta em locais privados.~~"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ~~d) as atividades com uso de motocicleta ou motoneta de forma eventual, assim considerado o fortuito, ou o que, sendo habitual, dá-se por tempo extremamente reduzido.~~"
+        }
+      ]
+    },
+    {
+      "id": "anexo-vi",
+      "number": "ANEXO VI",
+      "title": "ANEXO VI",
+      "blocks": []
+    },
+    {
+      "id": "atividades-perigosas-dos-agentes-das-autoridades-de-trânsito",
+      "number": "",
+      "title": "ATIVIDADES PERIGOSAS DOS AGENTES DAS AUTORIDADES DE TRÂNSITO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Inserido pela Portaria MTE nº 1.411, de 22 de agosto de 2025)_"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivo",
+      "number": "",
+      "title": "1. Objetivo",
+      "blocks": []
+    },
+    {
+      "id": "11-o-objetivo-deste-anexo-é-estabelecer-critérios-para-regulamentação-das-atividades-ou-operações-perigosas-realizadas-por-agentes-das-autoridades-de-trânsito",
+      "number": "1.1",
+      "title": "O objetivo deste Anexo é estabelecer critérios para regulamentação das atividades ou operações perigosas realizadas por Agentes das Autoridades de Trânsito",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**2.** Campo de aplicação"
+        }
+      ]
+    },
+    {
+      "id": "21-este-anexo-aplica-se-às-atividades-profissionais-realizadas-pelos-agentes-das-autoridades-de-trânsito-com-exposição-ao-risco-de-colisões-atropelamentos-ou-outras-espécies-de-acidentes-ou-violências",
+      "number": "2.1",
+      "title": "Este anexo aplica-se às atividades profissionais realizadas pelos Agentes das Autoridades de Trânsito com exposição ao risco de colisões, atropelamentos ou outras espécies de acidentes ou violências",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.1.1",
+          "depth": 2,
+          "text": "Para efeitos deste anexo, são considerados agentes das autoridades de trânsito aqueles previstos nos conceitos e definições no Anexo I da Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro)."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "22-nos-termos-previstos-em-lei-aplica-se-o-disposto-nesse-anexo-a-outras-relações-jurídicas",
+      "number": "2.2",
+      "title": "Nos termos previstos em lei, aplica-se o disposto nesse anexo a outras relações jurídicas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**3.** Caracterização da atividade ou operação perigosa"
+        }
+      ]
+    },
+    {
+      "id": "31-as-atividades-ou-operações-realizadas-pelos-agentes-das-autoridades-de-trânsito-com-exposição-ao-risco-de-colisões-atropelamentos-ou-outras-espécies-de-acidentes-ou-violências-são-consideradas-perigosas",
+      "number": "3.1",
+      "title": "As atividades ou operações realizadas pelos Agentes das Autoridades de Trânsito com exposição ao risco de colisões, atropelamentos ou outras espécies de acidentes ou violências são consideradas perigosas",
+      "blocks": []
+    },
+    {
+      "id": "32-é-responsabilidade-da-organização-a-caracterização-ou-descaracterização-da-periculosidade-dos-agentes-das-autoridades-de-trânsito-conforme-estabelecido-no-item-163-dessa-norma-regulamentadora-nr-sendo-assegurada-a-hipótese-prevista-no-item-164-dessa-mesma-nr",
+      "number": "3.2",
+      "title": "É responsabilidade da organização a caracterização ou descaracterização da periculosidade dos Agentes das Autoridades de Trânsito, conforme estabelecido no item 16.3 dessa Norma Regulamentadora (NR), sendo assegurada a hipótese prevista no item 16.4 dessa mesma NR",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.2.1",
+          "depth": 2,
+          "text": "Na elaboração do laudo, deve ser analisada a exposição do trabalhador ao risco de colisões, atropelamentos ou outras espécies de acidentes ou violências, independentemente do local de realização da atividade."
+        }
+      ]
+    },
+    {
+      "id": "anexo",
+      "number": "",
+      "title": "**ANEXO (*)**",
+      "blocks": []
+    },
+    {
+      "id": "atividades-e-operações-perigosas-com-radiações-ionizantes-ou-substâncias-radioativas",
+      "number": "",
+      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Adotado pela Portaria MTE nº 518, de 04 de abril de 2003)_"
+        }
+      ]
+    },
+    {
+      "id": "atividadesáreas-de-risco",
+      "number": "",
+      "title": "ATIVIDADES/ÁREAS DE RISCO",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |\n| --- | --- |\n| ATIVIDADES/ÁREAS DE RISCO |  |\n| ATIVIDADES | ÁREAS DE RISCO |\n| 1. Produção, utilização, processamento, transporte,"
+        },
+        {
+          "type": "paragraph",
+          "text": "guarda, estocagem e manuseio de materiais radioativos, selados e não selados, de estado físico e forma química quaisquer, naturais ou artificiais, incluindo: | Minas e depósitos de materiais radioativos. Plantas-piloto e Usinas de beneficiamento de minerais radioativos. Outras áreas sujeitas a risco potencial devido às radiações ionizantes |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.1. Prospecção, mineração, operação,"
+        },
+        {
+          "type": "paragraph",
+          "text": "beneficiamento e processamento de minerais radioativos. | Lixiviação de mineiras radiativos para a produção de concentrados de urânio e tório. Purificação de concentrados e conversão em outras formas para uso como combustível nuclear. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.2. Produção, transformação e tratamento de"
+        },
+        {
+          "type": "paragraph",
+          "text": "materiais nucleares para o ciclo do combustível nuclear. | Produção de fluoretos de urânio para a produção de hexafluoretos e urânio metálico. Instalações para enriquecimento isotópico e reconversão. Fabricação de elemento combustível nuclear. |"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | Instalações para armazenamento dos"
+        },
+        {
+          "type": "paragraph",
+          "text": "elementos combustíveis usados. Instalações para o retratamento do combustível irradiado. Instalações para o tratamento e deposições, provisórias e finais, dos rejeitos radioativos naturais e artificiais. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| 1.3. Produção de radioisótopos para uso em"
+        },
+        {
+          "type": "paragraph",
+          "text": "medicina, agricultura, agropecuária, pesquisa científica e tecnológica. | Laboratórios para a produção de radioisótopos e moléculas marcadas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.4. Produção de Fontes Radioativas | Instalações para tratamento de material"
+        },
+        {
+          "type": "paragraph",
+          "text": "radioativo e confecção de fontes. Laboratórios de testes, ensaios e calibração de fontes, detectores e monitores de radiação, com fontes radioativas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.5. Testes, ensaios e calibração de detectores e"
+        },
+        {
+          "type": "paragraph",
+          "text": "monitores de radiação com fontes de radiação. | Laboratórios de ensaios para materiais radioativos Laboratórios de radioquímica. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.6. Descontaminação de superfícies, instrumentos,"
+        },
+        {
+          "type": "paragraph",
+          "text": "máquinas, ferramentas, utensílios de laboratório, vestimentas e de quaisquer outras áreas ou bens duráveis contaminados com material radioativos. | Laboratórios para descontaminação de peças e materiais radioativos. Coleta de rejeitos radioativos em instalações, prédios e em áreas abertas. Lavanderia para roupas contaminadas. Transporte de materiais e rejeitos radioativos, condicionamento, estocagens e suas deposição. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.7. Separação isotópica e processamento"
+        },
+        {
+          "type": "paragraph",
+          "text": "radioquímico. | Instalações para tratamento, condicionamento, contenção, estabilização, estocagem e deposição de rejeitos radioativos. Instalações para retenção de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1.8. Manuseio, condicionamento, liberação,"
+        },
+        {
+          "type": "paragraph",
+          "text": "monitoração, estabilização, inspeção, retenção e deposição de rejeitos radioativos. | Sítios de rejeitos. Instalações para estocagem de produtos radioativos para posterior aproveitamento. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2. Atividades de operação e manutenção de"
+        },
+        {
+          "type": "paragraph",
+          "text": "reatores nucleares, incluindo: | Edifícios de reatores. Edifícios de estocagem de combustível. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2.1. Montagem, instalação, substituição e inspeção"
+        },
+        {
+          "type": "paragraph",
+          "text": "de elementos combustíveis. | Instalações de tratamento e estocagem de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| 2.2. Manutenção de componentes integrantes do"
+        },
+        {
+          "type": "paragraph",
+          "text": "reator e dos sistemas hidráulicos mecânicos e elétricos, irradiados, contaminados ou situados em áreas de radiação. | Instalações para tratamento de água e reatores e separação e contenção de produtos radioativos. Salas de operação de reatores. Salas de amostragem de efluentes radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2.3. Manuseio de amostras irradiadas. | Laboratórios de medidas de radioativos. |\n| 2.4. Experimentos utilizados canais de irradiação. | Outras áreas sujeitas a risco potencial às"
+        },
+        {
+          "type": "paragraph",
+          "text": "radiações ionizantes, passíveis de serem atingidas por dispersão de produtos voláteis. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2.5 Medição de radiação, levantamento de dados"
+        },
+        {
+          "type": "paragraph",
+          "text": "radiológicos e nucleares, ensaios, testes, inspeções, fiscalização e supervisão de trabalhos técnicos. | Laboratórios semiquentes e quentes. Minas de urânio e tório. Depósitos de minerais radiativos e produtos do tratamento de minerais radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2.6 Segregação, manuseio, tratamento,"
+        },
+        {
+          "type": "paragraph",
+          "text": "acondicionamento e armazenamento de rejeitos radioativos. | Coletas de materiais e peças radioativas, materiais contaminados com radiosótopos e águas radioativas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3. atividades de operação e manutenção de"
+        },
+        {
+          "type": "paragraph",
+          "text": "aceleradores de partículas, incluindo: | Áreas de irradiação de alvos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3.1. Montagem, instalação substituição e"
+        },
+        {
+          "type": "paragraph",
+          "text": "manutenção de componentes irradiados ou contaminados. | Oficinas de manutenção de componentes irradiados ou contaminados. |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | Salas de operação de aceleradores. |\n| 3.2. Processamento de alvos irradiados. | Laboratórios para tratamento de alvos"
+        },
+        {
+          "type": "paragraph",
+          "text": "irradiados e separação de radioisótopos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3.3. Experimentos com feixes de partículas. | Laboratórios de testes com radiação e"
+        },
+        {
+          "type": "paragraph",
+          "text": "medidas nucleares. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3.4. Medição de radiação, levantamento de dados"
+        },
+        {
+          "type": "paragraph",
+          "text": "radiológicos e nucleares, testes, inspeções e supervisão de trabalhos técnicos. | Áreas de tratamento e estocagem de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3.5. Segregação, manuseio, tratamento,"
+        },
+        {
+          "type": "paragraph",
+          "text": "acondicionamento e armazenamento de rejeitos radioativos. | Laboratórios de processamento de alvos irradiados. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4. Atividades de operação com aparelhos de raios-X,"
+        },
+        {
+          "type": "paragraph",
+          "text": "com irradiadores de radiação gama, radiação beta ou radiação de nêutrons, incluindo: | Salas de irradiação e de operação de aparelhos de raios-X e de irradiadores gama, beta ou neutrons |"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4.1. Diagnostico médico e odontológico. | Laboratórios de testes, ensaios e calibração"
+        },
+        {
+          "type": "paragraph",
+          "text": "com as fontes de radiação descritas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| 4.2. Radioterapia. |  |\n| 4.3. Radiografia industrial, gamagrafia e"
+        },
+        {
+          "type": "paragraph",
+          "text": "neutronradiografia. | Manuseio de fontes. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4.4. Análise de materiais por difratometria. | Manuseio do equipamento. |\n| 4.5. Testes ensaios e calibração de detectores e"
+        },
+        {
+          "type": "paragraph",
+          "text": "monitores e radiação. | Manuseio de fontes amostras radioativas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4.6. Irradiação de alimentos. | Manuseio de fontes e instalações para a"
+        },
+        {
+          "type": "paragraph",
+          "text": "irradiação de alimentos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4.7. Estabilização de instrumentos médicohospitalares. | Manuseio de fontes e instalações para a"
+        },
+        {
+          "type": "paragraph",
+          "text": "operação. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4.8. Irradiação de espécimes minerais e biológicos. | Manuseio de amostras irradiadas. |\n| 4.9. Medição de radiação, levantamento de dados"
+        },
+        {
+          "type": "paragraph",
+          "text": "radiológicos, ensaios, testes, inspeções, fiscalização de trabalhos técnicos. | Laboratórios de ensaios e calibração de fontes e materiais radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5. Atividades de medicina nuclear. | Sala de diagnósticos e terapia com medicina"
+        },
+        {
+          "type": "paragraph",
+          "text": "nuclear. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5.1. Manuseio e aplicação de radioisótopos para"
+        },
+        {
+          "type": "paragraph",
+          "text": "diagnóstico médico e terapia. | Enfermaria de pacientes, sob tratamento com radioisótopos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | Enfermaria de pacientes contaminados com"
+        },
+        {
+          "type": "paragraph",
+          "text": "radioisótopos em observação e sob tratamento de descontaminação. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5.2. Manuseio de fontes seladas para aplicação em"
+        },
+        {
+          "type": "paragraph",
+          "text": "braquiterapia. | Área de tratamento e estocagem de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5.3. Obtenção de dados biológicos de pacientes com"
+        },
+        {
+          "type": "paragraph",
+          "text": "radioisótopos incorporados. | Manuseio de materiais biológicos contendo radioisótopos ou moléculas marcadas. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5.4. Segregação, manuseio, tratamento,"
+        },
+        {
+          "type": "paragraph",
+          "text": "acondicionamento e estocagem de rejeitos radioativos. | Laboratórios para descontaminação e coleta de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 6. Descomissionamento de instalações nucleares e"
+        },
+        {
+          "type": "paragraph",
+          "text": "radioativas, que inclui: | Áreas de instalações nucleares e radioativas contaminadas e com rejeitos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 6.1 Todas as descontaminações radioativas"
+        },
+        {
+          "type": "paragraph",
+          "text": "inerentes. | Depósitos provisórios e definitivos de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 6.2. Gerenciamento dos rejeitos radioativos"
+        },
+        {
+          "type": "paragraph",
+          "text": "existentes, ou sejam; tratamento e acondicionamento dos rejeitos líquidos, sólidos, | Instalações para contenção de rejeitos radioativos. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>Nota Explicativa:</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "_<mark>(Inserida pela Portaria MTE nº 595, de 07 de maio de 2015)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Não são consideradas perigosas, para efeito deste anexo, as atividades desenvolvidas em áreas que <mark>utilizam equipamentos móveis de Raios X para diagnóstico médico.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Áreas tais como emergências, centro de tratamento intensivo, sala de recuperação e leitos de <mark>internação não são classificadas como salas de irradiação em razão do uso do equipamento móvel de Raios X.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "(*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| gasosos e aerossóis; transporte e deposição dos"
+        },
+        {
+          "type": "paragraph",
+          "text": "mesmos. | Instalações para asfaltamento de rejeitos radioativos. Instalações para cimentação de rejeitos radioativos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- |\n| 7. Descomissionamento de minas, moinhos e usinas"
+        },
+        {
+          "type": "paragraph",
+          "text": "de tratamento de minerais radioativos. | Tratamento de rejeitos minerais. Repositório de rejeitos naturais (bacia de contenção de rádio e outros radioisótopos). Deposição de gangas e rejeitos de mineração. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Nota Explicativa: |  |\n| (Inserida pela Portaria MTE nº 595, de 07 de maio de 2015) |  |\n| 1. Não são consideradas perigosas, para efeito deste anexo, as atividades desenvolvidas em áreas que |  |\n| utilizam equipamentos móveis de Raios X para diagnóstico médico. |  |\n| 2. Áreas tais como emergências, centro de tratamento intensivo, sala de recuperação e leitos de |  |\n| internação não são classificadas como salas de irradiação em razão do uso do equipamento móvel de |  |\n| Raios X. |  |\n| (*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987. |  |"
+        }
+      ]
+    }
+  ]
+}

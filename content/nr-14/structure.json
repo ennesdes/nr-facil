@@ -1,0 +1,133 @@
+{
+  "title": "NR 14 - FORNOS",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**NR 14 - FORNOS** # **Publicação**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º12, de 06 de junho de 1983|14/06/83|\n|Portaria MTP n.º2.189, de 28 de julho de 2022|05/08/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP n.º 2.189, de 28 de julho de 2022)_ # **SUMÁRIO** 14.1 Objetivo 14.2 Campo de aplicação 14.3 Medidas de prevenção"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "141-objetivo",
+      "number": "14.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "14.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR visa estabelecer requisitos para a operação de fornos com segurança."
+        }
+      ]
+    },
+    {
+      "id": "142-campo-de-aplicação",
+      "number": "14.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "14.2.1",
+          "depth": 2,
+          "text": "As medidas de prevenção estabelecidas nesta Norma se aplicam às organizações que utilizem fornos em seus processos produtivos."
+        }
+      ]
+    },
+    {
+      "id": "143-medidas-de-prevenção",
+      "number": "14.3",
+      "title": "Medidas de Prevenção",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "14.3.1",
+          "depth": 2,
+          "text": "Os fornos, para qualquer utilização, devem ser construídos solidamente, revestidos com material refratário, de forma que o calor radiante não ultrapasse os limites de tolerância estabelecidos pela NR-15 - Atividades e operações insalubres."
+        },
+        {
+          "type": "item",
+          "number": "14.3.2",
+          "depth": 2,
+          "text": "Os fornos devem ser instalados:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "em conformidade com o disposto em normas técnicas oficiais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "em locais que ofereçam segurança e conforto aos trabalhadores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "de forma a evitar o acúmulo de gases nocivos e as altas temperaturas em áreas vizinhas."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "14.3.2.1",
+          "depth": 3,
+          "text": "As escadas e plataformas dos fornos devem ser construídas de modo a garantir aos trabalhadores o acesso e a execução de suas tarefas com segurança."
+        },
+        {
+          "type": "item",
+          "number": "14.3.3",
+          "depth": 2,
+          "text": "Os fornos que utilizam combustíveis gasosos ou líquidos devem ter sistemas de proteção para evitar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "explosão por falha da chama de aquecimento e/ou no acionamento do queimador; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "retrocesso da chama."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "14.3.4",
+          "depth": 2,
+          "text": "Os fornos devem ser dotados de chaminé suficientemente dimensionada para a livre saída dos gases de combustão, de acordo com normas técnicas oficiais."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

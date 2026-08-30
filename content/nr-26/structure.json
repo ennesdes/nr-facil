@@ -1,0 +1,312 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 26 - SINALIZAÇÃO DE SEGURANÇA**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SIT nº229, de 24 de maio de 2011|27/05/11|\n|Portaria MTE nº704, de 28 de maio de 2015|29/05/15|\n|Portaria MTP nº2.770, de 05 de setembro de 2022|06/09/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP nº 2.770, de 05 de setembro de 2022)_"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "261-objetivo",
+      "number": "26.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "26.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR estabelece medidas quanto à sinalização e identificação de segurança a serem adotadas nos locais de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "262-campo-de-aplicação",
+      "number": "26.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "26.2.1",
+          "depth": 2,
+          "text": "As medidas de prevenção estabelecidas nesta NR se aplicam aos estabelecimentos ou locais de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "263-sinalização-por-cor",
+      "number": "26.3",
+      "title": "Sinalização por cor",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "26.3.1",
+          "depth": 2,
+          "text": "Devem ser adotadas cores para comunicação de segurança em estabelecimentos ou locais de trabalho, a fim de indicar e advertir acerca dos perigos e riscos existentes."
+        },
+        {
+          "type": "item",
+          "number": "26.3.2",
+          "depth": 2,
+          "text": "As cores utilizadas para identificar os equipamentos de segurança, delimitar áreas, identificar tubulações empregadas para a condução de líquidos e gases e advertir contra riscos devem atender ao disposto nas normas técnicas oficiais."
+        },
+        {
+          "type": "item",
+          "number": "26.3.3",
+          "depth": 2,
+          "text": "A utilização de cores não dispensa o emprego de outras formas de prevenção de acidentes."
+        },
+        {
+          "type": "item",
+          "number": "26.3.4",
+          "depth": 2,
+          "text": "O uso de cores deve ser o mais reduzido possível a fim de não ocasionar distração, confusão e fadiga ao trabalhador."
+        }
+      ]
+    },
+    {
+      "id": "264-identificação-de-produto-químico",
+      "number": "26.4",
+      "title": "Identificação de produto químico",
+      "blocks": []
+    },
+    {
+      "id": "2641-classificação",
+      "number": "",
+      "title": "26.4.1 Classificação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "26.4.1.1",
+          "depth": 3,
+          "text": "O produto químico utilizado no local de trabalho deve ser classificado quanto aos perigos para a segurança e a saúde dos trabalhadores, de acordo com os critérios estabelecidos pelo Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS, da Organização das Nações Unidas."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "26.4.1.1.1",
+          "depth": 4,
+          "text": "A classificação de substâncias perigosas deve ser baseada em lista de classificação harmonizada ou com a realização de ensaios exigidos pelo processo de classificação."
+        },
+        {
+          "type": "item",
+          "number": "26.4.1.1.1.1",
+          "depth": 5,
+          "text": "Na ausência de lista nacional de classificação harmonizada de substâncias perigosas, pode ser utilizada lista internacional."
+        },
+        {
+          "type": "item",
+          "number": "26.4.1.1.2",
+          "depth": 4,
+          "text": "Os aspectos relativos à classificação devem atender ao disposto em norma técnica oficial."
+        },
+        {
+          "type": "item",
+          "number": "26.4.2",
+          "depth": 2,
+          "text": "Rotulagem Preventiva"
+        },
+        {
+          "type": "item",
+          "number": "26.4.2.1",
+          "depth": 3,
+          "text": "A rotulagem preventiva é um conjunto de elementos com informações escritas, impressas ou gráficas, relativas a um produto químico, que deve ser afixada, impressa ou anexada à embalagem que contém o produto."
+        },
+        {
+          "type": "item",
+          "number": "26.4.2.1.1",
+          "depth": 4,
+          "text": "Os aspectos relativos à rotulagem preventiva devem atender ao disposto em norma técnica oficial."
+        },
+        {
+          "type": "item",
+          "number": "26.4.2.2",
+          "depth": 3,
+          "text": "A rotulagem preventiva do produto químico classificado como perigoso à segurança e à saúde dos trabalhadores deve utilizar procedimentos definidos pelo GHS, contendo os seguintes elementos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificação e composição do produto químico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "pictograma(s) de perigo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "palavra de advertência;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "frase(s) de perigo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "frase(s) de precaução; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "informações suplementares."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "26.4.2.3",
+          "depth": 3,
+          "text": "O produto químico não classificado como perigoso à segurança e saúde dos trabalhadores, conforme o GHS, deve dispor de rotulagem preventiva simplificada que contenha, no mínimo, a indicação do nome, a informação de que se trata de produto não classificado como perigoso e recomendações de precaução."
+        },
+        {
+          "type": "item",
+          "number": "26.4.2.4",
+          "depth": 3,
+          "text": "Os produtos notificados ou registrados como saneantes na Agência Nacional de Vigilância Sanitária - Anvisa estão dispensados do cumprimento das obrigações de rotulagem preventiva estabelecidas pelos subitens 26.4.2.1, 26.4.2.1.1 e 26.4.2.2."
+        },
+        {
+          "type": "item",
+          "number": "26.4.3",
+          "depth": 2,
+          "text": "Ficha com dados de segurança"
+        },
+        {
+          "type": "item",
+          "number": "26.4.3.1",
+          "depth": 3,
+          "text": "O fabricante ou, no caso de importação, o fornecedor no mercado nacional, deve"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "elaborar e tornar disponível ficha com dados de segurança do produto químico para todo produto químico classificado como perigoso."
+        },
+        {
+          "type": "item",
+          "number": "26.4.3.1.1",
+          "depth": 4,
+          "text": "O formato e conteúdo da ficha com dados de segurança do produto químico devem seguir o estabelecido pelo GHS."
+        },
+        {
+          "type": "item",
+          "number": "26.4.3.1.1.1",
+          "depth": 5,
+          "text": "No caso de mistura, deve ser explicitado na ficha com dados de segurança o nome e a concentração, ou faixa de concentração, das substâncias que:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "representam perigo para a saúde dos trabalhadores, se estiverem presentes em concentração igual ou superior aos valores de corte/limites de concentração estabelecidos pelo GHS para cada classe/categoria de perigo; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "possuam limite de exposição ocupacional estabelecidos."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "26.4.3.2",
+          "depth": 3,
+          "text": "Os aspectos relativos à ficha com dados de segurança devem atender ao disposto em norma técnica oficial."
+        },
+        {
+          "type": "item",
+          "number": "26.4.3.3",
+          "depth": 3,
+          "text": "O disposto no subitem 26.4.3.1 se aplica também a produto químico não classificado como perigoso, mas cujos usos previstos ou recomendados derem origem a riscos à segurança e à saúde dos trabalhadores."
+        }
+      ]
+    },
+    {
+      "id": "265-informações-e-treinamentos-em-segurança-e-saúde-no-trabalho",
+      "number": "26.5",
+      "title": "Informações e treinamentos em segurança e saúde no trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "26.5.1",
+          "depth": 2,
+          "text": "A organização deve assegurar o acesso dos trabalhadores às fichas com dados de segurança dos produtos químicos que utilizam no local de trabalho."
+        },
+        {
+          "type": "item",
+          "number": "26.5.2",
+          "depth": 2,
+          "text": "Os trabalhadores devem receber treinamento:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "para compreender a rotulagem preventiva e a ficha com dados de segurança do produto químico; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "sobre os perigos, os riscos, as medidas preventivas para o uso seguro e os procedimentos para atuação em situações de emergência com o produto químico."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

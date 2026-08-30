@@ -1,0 +1,95 @@
+import 'package:flutter/material.dart';
+import 'package:nrfacil/core/models/nr_structure.dart';
+import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
+import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
+
+/// Card recolhível de uma seção normativa — toque para expandir o conteúdo.
+class NrSectionCard extends StatelessWidget {
+  final NrSection section;
+  final double fontSize;
+  final bool isDarkMode;
+  final String nrId;
+  final bool isExpanded;
+  final ValueChanged<bool> onExpansionChanged;
+  final String? highlightQuery;
+  final int? highlightBlockIndex;
+  final GlobalKey Function(String sectionId, int blockIndex) blockKeyFor;
+
+  const NrSectionCard({
+    required this.section,
+    required this.fontSize,
+    required this.isDarkMode,
+    required this.nrId,
+    required this.isExpanded,
+    required this.onExpansionChanged,
+    required this.blockKeyFor,
+    this.highlightQuery,
+    this.highlightBlockIndex,
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final textColor = isDarkMode ? Colors.white : Colors.black87;
+    final cardColor = isDarkMode ? const Color(0xFF1E1E1E) : Colors.white;
+    final titleHighlighted = highlightBlockIndex == -1;
+
+    return Card(
+      color: cardColor,
+      elevation: isDarkMode ? 0 : 1,
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12),
+        side: BorderSide(
+          color: titleHighlighted
+              ? Colors.amber
+              : isDarkMode
+                  ? Colors.white12
+                  : Colors.grey.shade200,
+          width: titleHighlighted ? 2 : 1,
+        ),
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: Theme(
+        data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+        child: ExpansionTile(
+          key: ValueKey('${section.id}-$isExpanded'),
+          initiallyExpanded: isExpanded,
+          onExpansionChanged: onExpansionChanged,
+          tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+          childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+          title: HighlightedText(
+            text: section.displayTitle,
+            highlight: highlightQuery,
+            style: TextStyle(
+              fontSize: fontSize + 2,
+              fontWeight: FontWeight.bold,
+              color: textColor,
+            ),
+          ),
+          subtitle: Text(
+            '${section.blocks.length} trecho(s)',
+            style: TextStyle(
+              fontSize: fontSize - 2,
+              color: isDarkMode ? Colors.white54 : Colors.black45,
+            ),
+          ),
+          children: [
+            for (var i = 0; i < section.blocks.length; i++)
+              KeyedSubtree(
+                key: blockKeyFor(section.id, i),
+                child: NrBlockRenderer(
+                  block: section.blocks[i],
+                  fontSize: fontSize,
+                  isDarkMode: isDarkMode,
+                  nrId: nrId,
+                  highlightQuery: highlightQuery,
+                  isHighlighted: highlightBlockIndex == i,
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+}

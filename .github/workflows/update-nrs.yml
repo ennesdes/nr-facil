@@ -71,6 +71,13 @@ jobs:
           python3 scripts/build_index.py --all 2>&1 | tee /tmp/nrfacil-logs/build_index.log
           exit ${PIPESTATUS[0]}
 
+      - name: Gerar structure.json (leitor estruturado)
+        id: build_structure
+        continue-on-error: true
+        run: |
+          python3 scripts/build_structure.py --all 2>&1 | tee /tmp/nrfacil-logs/build_structure.log
+          exit ${PIPESTATUS[0]}
+
       - name: Gerar manifest.json
         id: build_manifest
         run: |
@@ -110,6 +117,7 @@ jobs:
             [convert]="Converter PDF → Markdown"
             [normalize]="Normalizar Markdown"
             [build_index]="Gerar índices"
+            [build_structure]="Gerar structure.json"
             [build_manifest]="Gerar manifest.json"
             [validate_manifest]="Validar manifest.json"
             [build_app_meta]="Gerar app_meta.json"
@@ -123,6 +131,7 @@ jobs:
             [convert]="${{ steps.convert.outcome }}"
             [normalize]="${{ steps.normalize.outcome }}"
             [build_index]="${{ steps.build_index.outcome }}"
+            [build_structure]="${{ steps.build_structure.outcome }}"
             [build_manifest]="${{ steps.build_manifest.outcome }}"
             [validate_manifest]="${{ steps.validate_manifest.outcome }}"
             [build_app_meta]="${{ steps.build_app_meta.outcome }}"

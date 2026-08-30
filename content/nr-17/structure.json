@@ -1,0 +1,2568 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 17 - ERGONOMIA**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**<br>Portaria MTb n.º3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|\n|<br>Portaria MTPS n.º3.751, de 23 de novembro de 1990|26/11/90|\n|Portaria SIT n.º08, de 30 de março de 2007|02/04/07|\n|Portaria SIT n.º09, de 30 de março de 2007|02/04/07|\n|Portaria SIT n.º13, de 21 de junho de 2007|26/06/07|\n|Portaria MTb n.º876, de 24 de outubro de 2018|Rep. 26/10/18|\n|Portaria MTP n.º423, de 07 de outubro de 2021|08/10/21|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP n.º 423 de 07 de outubro de 2021)_ # **SUMÁRIO** 17.1 Objetivo 17.2 Campo de Aplicação 17.3 Avaliação das situações de trabalho 17.4 Organização do trabalho 17.5 Levantamento, transporte e descarga individual de cargas 17.6 Mobiliário dos postos de trabalho 17.7 Trabalho com máquinas, equipamentos e ferramentas manuais **17.8** Condições de conforto no ambiente de trabalho Anexo I - Trabalho dos Operadores de **Checkout** Anexo II - Trabalho em Teleatendimento/ **Telemarketing**"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "171-objetivo",
+      "number": "17.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR visa estabelecer as diretrizes e os requisitos que permitam a adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores, de modo a proporcionar conforto, segurança, saúde e desempenho eficiente no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "17.1.1.1",
+          "depth": 3,
+          "text": "As condições de trabalho incluem aspectos relacionados ao levantamento, transporte e descarga de materiais, ao mobiliário dos postos de trabalho, ao trabalho com máquinas, equipamentos e ferramentas manuais, às condições de conforto no ambiente de trabalho e à própria organização do trabalho."
+        }
+      ]
+    },
+    {
+      "id": "172-campo-de-aplicação",
+      "number": "17.2",
+      "title": "Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.2.1",
+          "depth": 2,
+          "text": "Esta Norma se aplica a todas as situações de trabalho, relacionadas às condições previstas no subitem 17.1.1.1, das organizações e dos órgãos públicos da administração direta e indireta, bem como dos órgãos dos Poderes Legislativo, Judiciário e Ministério Público que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT."
+        },
+        {
+          "type": "item",
+          "number": "17.2.2",
+          "depth": 2,
+          "text": "Nos termos previstos em lei, aplica-se o disposto nesta NR a outras relações jurídicas."
+        }
+      ]
+    },
+    {
+      "id": "173-avaliação-das-situações-de-trabalho",
+      "number": "17.3",
+      "title": "Avaliação das situações de trabalho",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "17.3.1",
+          "depth": 2,
+          "text": "A organização deve realizar a avaliação ergonômica preliminar das situações de trabalho que, em decorrência da natureza e conteúdo das atividades requeridas, demandam adaptação às características psicofisiológicas dos trabalhadores, a fim de subsidiar a implementação das medidas de prevenção e adequações necessárias previstas nesta NR."
+        },
+        {
+          "type": "item",
+          "number": "17.3.1.1",
+          "depth": 3,
+          "text": "A avaliação ergonômica preliminar das situações de trabalho pode ser realizada por meio de abordagens qualitativas, semiquantitativas, quantitativas ou combinação dessas, dependendo do risco e dos requisitos legais, a fim de identificar os perigos e produzir informações para o planejamento das medidas de prevenção necessárias."
+        },
+        {
+          "type": "item",
+          "number": "17.3.1.2",
+          "depth": 3,
+          "text": "A avaliação ergonômica preliminar pode ser contemplada nas etapas do processo de identificação de perigos e de avaliação dos riscos descrito no item 1.5.4 da Norma Regulamentadora nº 01 (NR-01) Disposições Gerais e Gerenciamento de Riscos Ocupacionais."
+        },
+        {
+          "type": "item",
+          "number": "17.3.1.2.1",
+          "depth": 4,
+          "text": "A avaliação ergonômica preliminar das situações de trabalho deve ser registrada pela organização."
+        },
+        {
+          "type": "item",
+          "number": "17.3.2",
+          "depth": 2,
+          "text": "A organização deve realizar Análise Ergonômica do Trabalho - AET da situação de trabalho quando:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "observada a necessidade de uma avaliação mais aprofundada da situação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "identificadas inadequações ou insuficiência das ações adotadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "sugerida pelo acompanhamento de saúde dos trabalhadores, nos termos do Programa de Controle Médico de Saúde Ocupacional - PCMSO e da alínea “c” do subitem 1.5.5.1.1 da NR 01; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "indicada causa relacionada às condições de trabalho na análise de acidentes e doenças relacionadas ao trabalho, nos termos do Programa de Gerenciamento de Riscos - PGR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.3.3",
+          "depth": 2,
+          "text": "A AET deve abordar as condições de trabalho, conforme estabelecido nesta NR, incluindo as seguintes etapas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "análise da demanda e, quando aplicável, reformulação do problema;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "análise do funcionamento da organização, dos processos, das situações de trabalho e da atividade;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "descrição e justificativa para definição de métodos, técnicas e ferramentas adequados para a análise e sua aplicação, não estando adstrita à utilização de métodos, técnicas e ferramentas específicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "estabelecimento de diagnóstico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "recomendações para as situações de trabalho analisadas; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "restituição dos resultados, validação e revisão das intervenções efetuadas, quando necessária, com a participação dos trabalhadores."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.3.4",
+          "depth": 2,
+          "text": "As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus de risco 1 e 2 e o Microempreendedor Individual - MEI não são obrigados a elaborar a AET, mas devem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis."
+        },
+        {
+          "type": "note",
+          "text": "**17.3.4.1** As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "observadas as situações previstas nas alíneas “c” e “d” do item 17.3.2."
+        },
+        {
+          "type": "item",
+          "number": "17.3.5",
+          "depth": 2,
+          "text": "Devem integrar o inventário de riscos do PGR:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os resultados da avaliação ergonômica preliminar; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a revisão, quando for o caso, da identificação dos perigos e da avaliação dos riscos, conforme indicado pela AET."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.3.6",
+          "depth": 2,
+          "text": "Devem ser previstos planos de ação, nos termos do PGR, para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as medidas de prevenção e adequações decorrentes da avaliação ergonômica preliminar, atendido o previsto nesta NR; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as recomendações da AET."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.3.7",
+          "depth": 2,
+          "text": "O relatório da AET, quando realizada, deve ficar à disposição na organização pelo prazo de 20 (vinte) anos."
+        },
+        {
+          "type": "item",
+          "number": "17.3.8",
+          "depth": 2,
+          "text": "A organização deve garantir que os empregados sejam ouvidos durante o processo da avaliação ergonômica preliminar e na AET."
+        }
+      ]
+    },
+    {
+      "id": "174-organização-do-trabalho",
+      "number": "17.4",
+      "title": "Organização do trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.4.1",
+          "depth": 2,
+          "text": "A organização do trabalho, para efeito desta NR, deve levar em consideração:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as normas de produção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "o modo operatório, quando aplicável;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a exigência de tempo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "o ritmo de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "o conteúdo das tarefas e os instrumentos e meios técnicos disponíveis; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "os aspectos cognitivos que possam comprometer a segurança e a saúde do trabalhador."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.4.2",
+          "depth": 2,
+          "text": "Nas atividades que exijam sobrecarga muscular estática ou dinâmica do tronco, do pescoço, da cabeça, dos membros superiores e dos membros inferiores, devem ser adotadas medidas técnicas de engenharia, organizacionais e/ou administrativas, com o objetivo de eliminar ou reduzir essas sobrecargas, a partir da avaliação ergonômica preliminar ou da AET."
+        },
+        {
+          "type": "item",
+          "number": "17.4.3",
+          "depth": 2,
+          "text": "Devem ser implementadas medidas de prevenção, a partir da avaliação ergonômica preliminar ou da AET, que evitem que os trabalhadores, ao realizar suas atividades, sejam obrigados a efetuar de forma contínua e repetitiva:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "posturas extremas ou nocivas do tronco, do pescoço, da cabeça, dos membros superiores e/ou dos membros inferiores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "movimentos bruscos de impacto dos membros superiores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "uso excessivo de força muscular;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "frequência de movimentos dos membros superiores ou inferiores que possam comprometer a segurança e a saúde do trabalhador;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "e) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos; ou"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "exigência cognitiva que possa comprometer a segurança e saúde do trabalhador."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.4.3.1",
+          "depth": 3,
+          "text": "As medidas de prevenção devem incluir duas ou mais das seguintes alternativas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "pausas para propiciar a recuperação psicofisiológica dos trabalhadores, que devem ser computadas como tempo de trabalho efetivo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "alternância de atividades com outras tarefas que permitam variar as posturas, os grupos musculares utilizados ou o ritmo de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "alteração da forma de execução ou organização da tarefa; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "outras medidas técnicas aplicáveis, recomendadas na avaliação ergonômica preliminar ou na AET."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.4.3.1.1",
+          "depth": 4,
+          "text": "Quando não for possível adotar as alternativas previstas nas alíneas “c” e “d” do subitem 17.4.3.1, devem obrigatoriamente ser adotadas pausas e alternância de atividades previstas, respectivamente, nas alíneas “a” e “b” do subitem 17.4.3.1."
+        },
+        {
+          "type": "item",
+          "number": "17.4.3.2",
+          "depth": 3,
+          "text": "Para que as pausas possam propiciar descanso e recuperação psicofisiológica dos trabalhadores, devem ser observados os requisitos mínimos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a introdução das pausas não pode ser acompanhada de aumento da cadência individual; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as pausas devem ser usufruídas fora dos postos de trabalho."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.4.3.3",
+          "depth": 3,
+          "text": "Deve ser assegurada a saída dos postos de trabalho para satisfação das necessidades fisiológicas dos trabalhadores nos termos do item 24.9.8 da Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho, independentemente da fruição das pausas."
+        },
+        {
+          "type": "item",
+          "number": "17.4.4",
+          "depth": 2,
+          "text": "Todo e qualquer sistema de avaliação de desempenho para efeito de remuneração e vantagens de qualquer espécie deve levar em consideração as repercussões sobre a saúde dos trabalhadores."
+        },
+        {
+          "type": "item",
+          "number": "17.4.5",
+          "depth": 2,
+          "text": "A concepção dos postos de trabalho deve levar em consideração os fatores organizacionais e ambientais, a natureza da tarefa e das atividades e facilitar a alternância de posturas."
+        },
+        {
+          "type": "item",
+          "number": "17.4.6",
+          "depth": 2,
+          "text": "As dimensões dos espaços de trabalho e de circulação, inerentes à execução da tarefa, devem ser suficientes para que o trabalhador possa movimentar os segmentos corporais livremente, de maneira a facilitar o trabalho, reduzir o esforço do trabalhador e não exigir a adoção de posturas extremas ou nocivas."
+        },
+        {
+          "type": "item",
+          "number": "17.4.7",
+          "depth": 2,
+          "text": "Os superiores hierárquicos diretos dos trabalhadores devem ser orientados para buscar no exercício de suas atividades:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "facilitar a compreensão das atribuições e responsabilidades de cada função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "manter aberto o diálogo de modo que os trabalhadores possam sanar dúvidas quanto ao exercício de suas atividades;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "facilitar o trabalho em equipe; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.4.7.1",
+          "depth": 3,
+          "text": "A organização com até 10 (dez) empregados fica dispensada do atendimento ao item 17.4.7."
+        }
+      ]
+    },
+    {
+      "id": "175-levantamento-transporte-e-descarga-individual-de-cargas",
+      "number": "17.5",
+      "title": "Levantamento, transporte e descarga individual de cargas",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.5.1",
+          "depth": 2,
+          "text": "Não deverá ser exigido nem admitido o transporte manual de cargas por um trabalhador cujo peso seja suscetível de comprometer sua saúde ou sua segurança."
+        },
+        {
+          "type": "item",
+          "number": "17.5.1.1",
+          "depth": 3,
+          "text": "A carga suportada deve ser reduzida quando se tratar de trabalhadora mulher e de trabalhador menor nas atividades permitidas por lei."
+        },
+        {
+          "type": "item",
+          "number": "17.5.2",
+          "depth": 2,
+          "text": "No levantamento, manuseio e transporte individual e não eventual de cargas, devem ser observados os seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os locais para pega e depósito das cargas, a partir da avaliação ergonômica preliminar ou da AET, devem ser organizados de modo que as cargas, acessos, espaços para movimentação, alturas de pega e deposição não obriguem o trabalhador a efetuar flexões, extensões e rotações excessivas do tronco e outros posicionamentos e movimentações forçadas e nocivas dos segmentos corporais; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "cargas e equipamentos devem ser posicionados o mais próximo possível do trabalhador, resguardando espaços suficientes para os pés, de maneira a facilitar o alcance, não atrapalhar os movimentos ou ocasionar outros riscos."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.5.2.1",
+          "depth": 3,
+          "text": "É vedado o levantamento não eventual de cargas que possa comprometer a segurança e a saúde do trabalhador quando a distância de alcance horizontal da pega for superior a 60 cm (sessenta centímetros) em relação ao corpo."
+        },
+        {
+          "type": "item",
+          "number": "17.5.3",
+          "depth": 2,
+          "text": "O transporte e a descarga de materiais feitos por impulsão ou tração de vagonetes, carros de mão ou qualquer outro aparelho mecânico devem observar a carga, a frequência, a pega e a distância percorrida, para que não comprometam a saúde ou a segurança do trabalhador."
+        },
+        {
+          "type": "item",
+          "number": "17.5.4",
+          "depth": 2,
+          "text": "Na movimentação e no transporte manual não eventual de cargas, devem ser adotadas uma ou mais das seguintes medidas de prevenção:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "implantar meios técnicos facilitadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "adequar o peso e o tamanho da carga (dimensões e formato) para que não provoquem o aumento do esforço físico que possa comprometer a segurança e a saúde do trabalhador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "limitar a duração, a frequência e o número de movimentos a serem efetuados pelos trabalhadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "reduzir as distâncias a percorrer com cargas, quando aplicável; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "efetuar a alternância com outras atividades ou pausas suficientes, entre períodos não superiores a duas horas."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.5.5",
+          "depth": 2,
+          "text": "Todo trabalhador designado para o transporte manual não eventual de cargas deve receber orientação quanto aos métodos de levantamento, carregamento e deposição de cargas."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "17.5.6",
+          "depth": 2,
+          "text": "O capítulo 17.5 Levantamento, transporte e descarga individual de cargas desta NR não se aplica a levantamento, transporte e movimentação de pessoas."
+        }
+      ]
+    },
+    {
+      "id": "176-mobiliário-dos-postos-de-trabalho",
+      "number": "17.6",
+      "title": "Mobiliário dos postos de trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.6.1",
+          "depth": 2,
+          "text": "O conjunto do mobiliário do posto de trabalho deve apresentar regulagens em um ou mais de seus elementos que permitam adaptá-lo às características antropométricas que atendam ao conjunto dos trabalhadores envolvidos e à natureza do trabalho a ser desenvolvido."
+        },
+        {
+          "type": "item",
+          "number": "17.6.2",
+          "depth": 2,
+          "text": "Sempre que o trabalho puder ser executado alternando a posição de pé com a posição sentada, o posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das posições."
+        },
+        {
+          "type": "item",
+          "number": "17.6.3",
+          "depth": 2,
+          "text": "Para trabalho manual, os planos de trabalho devem proporcionar ao trabalhador condições de boa postura, visualização e operação e devem atender aos seguintes requisitos mínimos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "características dimensionais que possibilitem posicionamento e movimentação dos segmentos corporais de forma a não comprometer a saúde e não ocasionar amplitudes articulares excessivas ou posturas nocivas de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "altura e características da superfície de trabalho compatíveis com o tipo de atividade, com a distância requerida dos olhos ao campo de trabalho e com a altura do assento;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "área de trabalho dentro da zona de alcance manual e de fácil visualização pelo trabalhador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "para o trabalho sentado, espaço suficiente para pernas e pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar, podendo utilizar apoio para os pés, nos termos do item 17.6.4; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "para o trabalho em pé, espaço suficiente para os pés na base do plano de trabalho, para permitir que o trabalhador se aproxime o máximo possível do ponto de operação e possa posicionar completamente a região plantar."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.6.3.1",
+          "depth": 3,
+          "text": "A área de trabalho dentro da zona de alcance máximo pode ser utilizada para ações que não prejudiquem a segurança e a saúde do trabalhador, sejam elas eventuais ou também, conforme AET, as não eventuais."
+        },
+        {
+          "type": "item",
+          "number": "17.6.4",
+          "depth": 2,
+          "text": "Para adaptação do mobiliário às dimensões antropométricas do trabalhador, pode ser utilizado apoio para os pés sempre que o trabalhador não puder manter a planta dos pés completamente apoiada no piso."
+        },
+        {
+          "type": "item",
+          "number": "17.6.5",
+          "depth": 2,
+          "text": "Os pedais e demais comandos para acionamento pelos pés devem ter posicionamento e dimensões que possibilitem fácil alcance, além de atender aos requisitos estabelecidos no item 17.6.3."
+        },
+        {
+          "type": "item",
+          "number": "17.6.6",
+          "depth": 2,
+          "text": "Os assentos utilizados nos postos de trabalho devem atender aos seguintes requisitos mínimos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "altura ajustável à estatura do trabalhador e à natureza da função exercida;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "sistemas de ajustes e manuseio acessíveis;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "características de pouca ou nenhuma conformação na base do assento;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "borda frontal arredondada; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "encosto com forma adaptada ao corpo para proteção da região lombar."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.6.7",
+          "depth": 2,
+          "text": "Para as atividades em que os trabalhos devam ser realizados em pé, devem ser colocados assentos com encosto para descanso em locais em que possam ser utilizados pelos trabalhadores durante as pausas."
+        },
+        {
+          "type": "item",
+          "number": "17.6.7.1",
+          "depth": 3,
+          "text": "Os assentos previstos no item 17.6.7 estão dispensados do atendimento ao item 17.6.6."
+        }
+      ]
+    },
+    {
+      "id": "177-trabalho-com-máquinas-equipamentos-e-ferramentas-manuais",
+      "number": "17.7",
+      "title": "Trabalho com máquinas, equipamentos e ferramentas manuais.",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.7.1",
+          "depth": 2,
+          "text": "O trabalho com máquinas e equipamentos deve atender, em consonância com a Norma Regulamentadora nº 12 - Segurança no Trabalho em Máquinas e Equipamentos, além das demais disposições desta NR, aos aspectos constantes neste capítulo."
+        },
+        {
+          "type": "item",
+          "number": "17.7.2",
+          "depth": 2,
+          "text": "Os fabricantes de máquinas e equipamentos devem projetar e construir os componentes, como monitores de vídeo, sinais e comandos, de forma a possibilitar a interação clara e precisa com o operador objetivando reduzir possibilidades de erros de interpretação ou retorno de informação, nos termos do item 12.9.2 da NR 12."
+        },
+        {
+          "type": "item",
+          "number": "17.7.2.1",
+          "depth": 3,
+          "text": "A localização e o posicionamento do painel de controle e dos comandos devem facilitar o acesso, o manejo fácil e seguro e a visibilidade da informação do processo."
+        },
+        {
+          "type": "item",
+          "number": "17.7.3",
+          "depth": 2,
+          "text": "Os equipamentos utilizados no processamento eletrônico de dados com terminais de vídeo devem permitir ao trabalhador ajustá-lo de acordo com as tarefas a serem executadas."
+        },
+        {
+          "type": "item",
+          "number": "17.7.3.1",
+          "depth": 3,
+          "text": "Os equipamentos devem ter condições de mobilidade suficiente para permitir o ajuste da tela do equipamento à iluminação do ambiente, protegendo-a contra reflexos, e proporcionar corretos ângulos de visibilidade ao trabalhador."
+        },
+        {
+          "type": "item",
+          "number": "17.7.3.2",
+          "depth": 3,
+          "text": "Nas atividades com uso de computador portátil de forma não eventual em posto de trabalho, devem ser previstas formas de adaptação do teclado, do _mouse_ ou da tela a fim de permitir o ajuste às características antropométricas do trabalhador e à natureza das tarefas a serem executadas."
+        },
+        {
+          "type": "item",
+          "number": "17.7.4",
+          "depth": 2,
+          "text": "Devem ser dotados de dispositivo de sustentação os equipamentos e ferramentas manuais cujos pesos e utilização na execução das tarefas forem passíveis de comprometer a segurança ou a saúde dos trabalhadores ou adotada outra medida de prevenção, a partir da avaliação ergonômica preliminar ou da AET."
+        },
+        {
+          "type": "item",
+          "number": "17.7.5",
+          "depth": 2,
+          "text": "A concepção das ferramentas manuais deve atender, além dos demais itens desta NR, aos seguintes aspectos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "facilidade de uso e manuseio; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "evitar a compressão da palma da mão ou de um ou mais dedos em arestas ou quinas vivas."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "17.7.6",
+          "depth": 2,
+          "text": "A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "da empunhadura sejam apropriados à tarefa e ao eventual uso de luvas."
+        }
+      ]
+    },
+    {
+      "id": "178-condições-de-conforto-no-ambiente-de-trabalho",
+      "number": "17.8",
+      "title": "Condições de conforto no ambiente de trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "17.8.1",
+          "depth": 2,
+          "text": "Em todos os locais e situações de trabalho deve haver iluminação, natural ou artificial, geral ou suplementar, apropriada à natureza da atividade."
+        },
+        {
+          "type": "item",
+          "number": "17.8.2",
+          "depth": 2,
+          "text": "A iluminação deve ser projetada e instalada de forma a evitar ofuscamento, reflexos incômodos, sombras e contrastes excessivos."
+        },
+        {
+          "type": "item",
+          "number": "17.8.3",
+          "depth": 2,
+          "text": "Em todos os locais e situações de trabalho internos, deve haver iluminação em conformidade com os níveis mínimos de iluminamento a serem observados nos locais de trabalho estabelecidos na Norma de Higiene Ocupacional nº 11 (NHO 11) da Fundacentro - Avaliação dos Níveis de Iluminamento em Ambientes Internos de Trabalho, versão 2018."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4",
+          "depth": 2,
+          "text": "Nos locais de trabalho em ambientes internos onde são executadas atividades que exijam manutenção da solicitação intelectual e atenção constantes, devem ser adotadas medidas de conforto acústico e de conforto térmico, conforme disposto nos subitens seguintes."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4.1",
+          "depth": 3,
+          "text": "A organização deve adotar medidas de controle do ruído nos ambientes internos com a finalidade de proporcionar conforto acústico nas situações de trabalho."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4.1.1",
+          "depth": 4,
+          "text": "O nível de ruído de fundo para o conforto deve respeitar os valores de referência para ambientes internos de acordo com sua finalidade de uso estabelecidos em normas técnicas oficiais."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4.1.2",
+          "depth": 4,
+          "text": "Para os demais casos, o nível de ruído de fundo aceitável para efeito de conforto acústico será de até 65 dB(A), nível de pressão sonora contínuo equivalente ponderado em A e no circuito de resposta Slow (S)."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4.2",
+          "depth": 3,
+          "text": "A organização deve adotar medidas de controle da temperatura, da velocidade do ar e da umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho, observando-se o parâmetro de faixa de temperatura do ar entre 18 e 25 °C para ambientes climatizados."
+        },
+        {
+          "type": "item",
+          "number": "17.8.4.2.1",
+          "depth": 4,
+          "text": "Devem ser adotadas medidas de controle da ventilação ambiental para minimizar a ocorrência de correntes de ar aplicadas diretamente sobre os trabalhadores."
+        },
+        {
+          "type": "item",
+          "number": "17.8.5",
+          "depth": 2,
+          "text": "Fica ressalvado o atendimento dos itens 17.8.3 e 17.8.4.2 nas situações em que haja normativa específica com a devida justificativa técnica de que não haverá prejuízo à segurança ou à saúde dos trabalhadores."
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-da-nr-17",
+      "number": "ANEXO I DA NR 17",
+      "title": "ANEXO I DA NR 17",
+      "blocks": []
+    },
+    {
+      "id": "trabalho-dos-operadores-de-checkout",
+      "number": "",
+      "title": "TRABALHO DOS OPERADORES DE CHECKOUT",
+      "blocks": []
+    },
+    {
+      "id": "sumário",
+      "number": "",
+      "title": "Sumário",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1. Objetivo**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**2. Campo de Aplicação**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**3. Posto de trabalho**"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "4-manipulação-de-mercadorias",
+      "number": "",
+      "title": "4. Manipulação de mercadorias",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**5. Organização do trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**6. Aspectos psicossociais do trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**7. Informação e capacitação dos trabalhadores**"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivo",
+      "number": "",
+      "title": "1. Objetivo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1.1 Estabelecer as diretrizes e os requisitos para adequação das condições de trabalho dos operadores de checkout, visando à prevenção dos problemas de saúde e segurança relacionados ao trabalho."
+        }
+      ]
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "",
+      "title": "2. Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2.1 Este Anexo aplica-se às organizações que desenvolvam atividade comercial utilizando sistema de autosserviço e checkout, como supermercados, hipermercados e comércio atacadista."
+        }
+      ]
+    },
+    {
+      "id": "3-posto-de-trabalho",
+      "number": "",
+      "title": "3. Posto de trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3.1 Em relação ao mobiliário do checkout e às suas dimensões, incluindo distâncias e alturas, no posto de trabalho deve-se:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atender às características antropométricas de 90% (noventa por cento) dos trabalhadores, respeitando os alcances dos membros e da visão, ou seja, compatibilizando as áreas de visão com a manipulação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "assegurar a postura para o trabalho na posição sentada e em pé, e as posições confortáveis dos membros superiores e inferiores nessas duas situações;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "respeitar os ângulos limites e trajetórias naturais dos movimentos, durante a execução das tarefas, evitando a flexão e a torção do tronco;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "garantir um espaço adequado para livre movimentação do operador e colocação da cadeira, a fim de permitir a alternância do trabalho na posição em pé com o trabalho na posição sentada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "manter uma cadeira de trabalho com assento e encosto para apoio lombar, com estofamento de densidade adequada, ajustáveis à estatura do trabalhador e à natureza da tarefa;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "colocar apoio para os pés, independente da cadeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "adotar, em cada posto de trabalho, sistema com esteira eletromecânica para facilitar a movimentação de mercadorias nos checkouts com comprimento de 2,70 m (dois metros e setenta centímetros) ou mais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "disponibilizar sistema de comunicação com pessoal de apoio e supervisão; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "manter mobiliário sem quinas vivas ou rebarbas, devendo os elementos de fixação (pregos, rebites, parafusos) ser mantidos de forma a não causar acidentes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "3.2 Em relação ao equipamento e às ferramentas utilizadas pelos operadores de checkout para o cumprimento de seu trabalho, deve-se:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "escolhê-los de modo a favorecer os movimentos e ações próprias da função, sem exigência acentuada de força, pressão, preensão, flexão, extensão ou torção dos segmentos corporais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador,"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "permitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da tarefa;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "garantir proteção contra acidentes de natureza mecânica ou elétrica nos checkouts, com base no que está previsto nas normas regulamentadoras ou em outras normas técnicas oficiais; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "mantê-los em condições adequadas de funcionamento."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "3.3 Em relação ao ambiente físico de trabalho e ao conjunto do posto de trabalho, deve-se:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "manter as condições de iluminamento, ruído e conforto térmico de acordo com o previsto na Norma Regulamentadora nº 17 (NR 17), bem como as medidas de prevenção previstas no Programa de Gerenciamento de Riscos - PGR quanto aos agentes físicos e químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "proteger os operadores de checkout contra correntes de ar, vento ou grandes variações climáticas, quando necessário; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "utilizar superfícies que evitem reflexos incômodos no campo visual do trabalhador."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "3.4 Na concepção do posto de trabalho do operador de checkout, deve-se prever a possibilidade de fazer adequações ou ajustes localizados, exceto nos equipamentos fixos, considerando o conforto dos operadores."
+        }
+      ]
+    },
+    {
+      "id": "4-manipulação-de-mercadorias",
+      "number": "",
+      "title": "4. Manipulação de mercadorias",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4.1 A organização deve envidar esforços a fim de que a manipulação de mercadorias não acarrete o uso de força muscular excessiva por parte dos operadores de checkout, por meio da adoção de um ou mais dos seguintes itens, cuja escolha fica a critério da organização:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "negociação do tamanho e volume das embalagens de mercadorias com fornecedores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "uso de equipamentos e instrumentos de tecnologia adequada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "formas alternativas de apresentação do código de barras da mercadoria ao leitor ótico, quando existente;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "disponibilidade de pessoal auxiliar, quando necessário; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "outras medidas que ajudem a reduzir a sobrecarga do operador na manipulação de mercadorias."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2 A organização deve adotar mecanismos auxiliares sempre que, em função do grande volume ou excesso de peso das mercadorias, houver limitação para a execução manual das tarefas por parte dos operadores de checkout."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3 A organização deve adotar medidas para evitar que a atividade de ensacamento de mercadorias se incorpore ao ciclo de trabalho ordinário e habitual dos operadores de checkout, tais como:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "manter, no mínimo, um ensacador a cada três checkouts em funcionamento;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "proporcionar condições que facilitem o ensacamento pelo cliente; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "outras medidas que se destinem ao mesmo fim."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.1 A escolha dentre as medidas relacionadas no item 4.3 é prerrogativa da organização."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4 A pesagem de mercadorias pelo operador de checkout só poderá ocorrer quando os seguintes requisitos forem atendidos simultaneamente:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "balança localizada frontalmente e próxima ao operador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "balança nivelada com a superfície do checkout;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "continuidade entre as superfícies do checkout e da balança, admitindo-se até 2 cm (dois centímetros) de descontinuidade em cada lado da balança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "teclado para digitação localizado a uma distância máxima de 45 cm (quarenta e cinco centímetros) da borda interna do checkout; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "número máximo de oito dígitos para os códigos de mercadorias que sejam pesadas."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5 Para o atendimento no checkout de pessoas idosas, gestantes, portadoras de deficiências ou que apresentem algum tipo de incapacidade momentânea, a organização deve disponibilizar pessoal auxiliar, sempre que o operador de caixa solicitar."
+        }
+      ]
+    },
+    {
+      "id": "5-organização-do-trabalho",
+      "number": "",
+      "title": "5. Organização do trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "5.1 A disposição física e o número de checkouts em atividade (abertos) e de operadores devem ser compatíveis com o fluxo de clientes, de modo a adequar o ritmo de trabalho às características psicofisiológicas de cada operador, por meio da adoção de pelo menos um dos seguintes itens, cuja escolha fica a critério da organização:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "pessoas para apoio ou substituição, quando necessário;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "filas únicas por grupos de checkouts;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "checkouts especiais (idosos, gestantes, deficientes, clientes com pequenas quantidades de mercadorias);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "pausas durante a jornada de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "rodízio entre os operadores de checkouts com características diferentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "outras medidas que ajudem a manter o movimento adequado de atendimento sem a sobrecarga do operador de checkout."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2 São garantidas saídas do posto de trabalho, mediante comunicação, a qualquer momento da jornada, para que os operadores atendam às suas necessidades fisiológicas, ressalvado o intervalo para refeição previsto na CLT."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3 É vedado promover, para efeitos de remuneração ou premiação de qualquer espécie, sistema de avaliação do desempenho com base no número de mercadorias ou compras por operador."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.4 É atribuição do operador de checkout a verificação das mercadorias apresentadas, sendo-lhe vedada qualquer tarefa de segurança patrimonial."
+        }
+      ]
+    },
+    {
+      "id": "6-aspectos-psicossociais-do-trabalho",
+      "number": "",
+      "title": "6. Aspectos psicossociais do trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "6.1 Todo trabalhador envolvido com o trabalho em **checkout** deve portar um dispositivo de identificação visível, com nome e/ou sobrenome, escolhido(s) pelo próprio trabalhador."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "6.2 É vedado obrigar o trabalhador ao uso, permanente ou temporário, de vestimentas ou propagandas ou maquilagem temática que causem constrangimento ou firam sua dignidade pessoal."
+        }
+      ]
+    },
+    {
+      "id": "7-treinamento-e-capacitação-dos-trabalhadores",
+      "number": "",
+      "title": "7. Treinamento e capacitação dos trabalhadores",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "7.1 Todos os trabalhadores envolvidos com o trabalho de operador de checkout devem receber treinamento, cujo objetivo é aumentar o conhecimento da relação entre o seu trabalho e a promoção à saúde."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.2 O treinamento deve conter noções sobre as medidas de prevenção e os fatores de risco para a saúde, decorrentes da modalidade de trabalho de operador de checkout, levando em consideração os aspectos relacionados a:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "posto de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "manipulação de mercadorias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "organização do trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "aspectos psicossociais do trabalho; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "lesões ou agravos à saúde mais encontrados entre operadores de checkout."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "7.2.1 Cada trabalhador deve receber treinamento inicial com duração mínima de duas horas, até o trigésimo dia da data da sua admissão, e treinamento periódico anual com duração mínima de duas horas, ministrados durante sua jornada de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.3 Os trabalhadores devem ser informados com antecedência sobre mudanças que venham a ocorrer no processo de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.4 O treinamento deve incluir a disponibilização de material didático com os tópicos mencionados no item 7.2 e alíneas."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.5 A forma do treinamento (contínuo ou intermitente, presencial ou a distância, por palestras, cursos ou audiovisual) fica a critério de cada organização."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.6 A elaboração do conteúdo técnico e avaliação dos resultados do treinamento devem contar com a participação de integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT e da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver, do médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO e dos responsáveis pela elaboração e implementação do Programa de Gerenciamento de Riscos - PGR. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii-da-nr-17-trabalho-em-teleatendimentotelemarketing",
+      "number": "ANEXO II DA NR 17",
+      "title": "TRABALHO EM TELEATENDIMENTO/TELEMARKETING",
+      "blocks": []
+    },
+    {
+      "id": "sumário",
+      "number": "",
+      "title": "Sumário",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1. Objetivo**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**2. Campo de Aplicação**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**3. Mobiliário dos Postos de Trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**4. Equipamentos dos Postos de Trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**5. Condições Ambientais de Trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**6. Organização do Trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**7. Capacitação dos Trabalhadores**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**8. Condições Sanitárias de Conforto**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**10. Pessoas com Deficiência**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**11. Disposições Transitórias**"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivo",
+      "number": "",
+      "title": "1. Objetivo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1.1 Estabelecer os requisitos para o trabalho em atividades de teleatendimento/telemarketing nas diversas modalidades desse serviço, de modo a proporcionar o máximo de conforto, segurança, saúde e desempenho eficiente."
+        }
+      ]
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "",
+      "title": "2. Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2.1 As disposições deste Anexo aplicam-se a todas as organizações que mantêm serviço de teleatendimento/telemarketing, nas modalidades ativo ou receptivo, em centrais de atendimento telefônico e/ou centrais de relacionamento com clientes (call centers), para prestação de serviços, informações e comercialização de produtos."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.1.1 Entende-se como call center o ambiente de trabalho no qual a principal atividade é conduzida via telefone e/ou rádio com utilização simultânea de terminais de computador."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.1.1.1 Este Anexo aplica-se, inclusive, a setores de organizações e postos de trabalho dedicados a esta atividade, além daquelas organizações especificamente voltadas para essa atividade-fim."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.1.2 Entende-se como trabalho de teleatendimento/telemarketing aquele cuja comunicação com interlocutores clientes e usuários é realizada a distância, por intermédio da voz e/ou mensagens eletrônicas, com a utilização simultânea de equipamentos de audição/escuta e fala telefônica e sistemas informatizados ou manuais de processamento de dados."
+        }
+      ]
+    },
+    {
+      "id": "3-mobiliário-dos-postos-de-trabalho",
+      "number": "",
+      "title": "3. Mobiliário dos Postos de Trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3.1 Para trabalho manual sentado ou que tenha de ser feito em pé, deve ser proporcionado ao trabalhador mobiliário que atenda ao capítulo 17.6 Mobiliário dos postos de trabalho da Norma Regulamentadora nº 17 (NR 17) e que permita variações posturais, com ajustes de fácil acionamento, de modo a prover espaço suficiente para seu conforto, atendendo aos seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "b-regulagem-independentes",
+      "number": "",
+      "title": "b) regulagem independentes;",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "será aceita superfície regulável única para teclado e monitor quando este for dotado de regulagem independente de, no mínimo, 26 cm (vinte e seis centímetros) no plano vertical;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "a bancada sem material de consulta deve ter, no mínimo, profundidade de 75 cm (setenta e cinco centímetros), medidos a partir de sua borda frontal, e largura de 90 cm (noventa centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "a bancada com material de consulta deve ter, no mínimo, profundidade de 90 cm (noventa centímetros) a partir de sua borda frontal e largura de 100 cm (cem centímetros) que proporcionem zonas de alcance manual de, no máximo, 65 cm (sessenta e cinco centímetros) de raio em cada lado, medidas centradas nos ombros do operador em posição de trabalho, para livre utilização e acesso de documentos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "o plano de trabalho deve ter bordas arredondadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "as superfícies de trabalho devem ser reguláveis em altura em um intervalo mínimo de 13 cm (treze centímetros), medidos de sua face superior, permitindo o apoio das plantas dos pés no piso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "o dispositivo de apontamento na tela (mouse) deve estar apoiado na mesma superfície do teclado, colocado em área de fácil alcance e com espaço suficiente para sua livre utilização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "o espaço sob a superfície de trabalho deve ter profundidade livre mínima de 45 cm (quarenta e cinco centímetros) ao nível dos joelhos e de 70 cm (setenta centímetros) ao nível dos pés, medidos de sua borda frontal;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "nos casos em que os pés do operador não alcancem o piso, mesmo após a regulagem do assento, deve ser fornecido apoio para os pés que se adapte ao comprimento das pernas do trabalhador, permitindo o apoio das plantas dos pés, com inclinação ajustável e superfície revestida de material antiderrapante; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "os assentos devem ser dotados de:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - apoio em 05 (cinco) pés, com rodízios cuja resistência evite deslocamentos involuntários e que não comprometam a estabilidade do assento;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - superfícies onde ocorre contato corporal estofadas e revestidas de material que permita a perspiração;"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - base estofada com material de densidade entre 40 (quarenta) a 50 (cinquenta) kg/m<sup>3</sup> ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IV - altura da superfície superior ajustável, em relação ao piso, entre 37 cm (trinta e sete centímetros) e 50 cm (cinquenta centímetros), podendo ser adotados até três tipos de cadeiras com alturas diferentes, de forma a atender as necessidades de todos os operadores;"
+        },
+        {
+          "type": "paragraph",
+          "text": "V - profundidade útil de 38 cm (trinta e oito centímetros) a 46 cm (quarenta e seis centímetros);"
+        },
+        {
+          "type": "paragraph",
+          "text": "VI - borda frontal arredondada;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VII - características de pouca ou nenhuma conformação na base;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada ao corpo para proteção da região lombar;"
+        },
+        {
+          "type": "note",
+          "text": "IX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "X - apoio de braços regulável em altura de 20 cm (vinte centímetros) a 25 cm (vinte e cinco centímetros) a partir do assento, sendo que seu comprimento não deve interferir no movimento de aproximação da cadeira em relação à mesa, nem nos movimentos inerentes à execução da tarefa."
+        }
+      ]
+    },
+    {
+      "id": "4-equipamentos-dos-postos-de-trabalho",
+      "number": "",
+      "title": "4. Equipamentos dos Postos de Trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4.1 Devem ser fornecidos gratuitamente conjuntos de microfone e fone de ouvido (headsets) individuais que permitam ao operador a alternância do uso das orelhas ao longo da jornada de trabalho e que sejam substituídos sempre que apresentarem defeitos ou desgaste devido ao uso."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.1 Alternativamente, poderá ser fornecido um _headset_ para cada posto de atendimento, desde que as partes que permitam qualquer espécie de contágio ou risco à saúde sejam de uso individual."
+        }
+      ]
+    },
+    {
+      "id": "412-os-headsets-devem",
+      "number": "",
+      "title": "4.1.2 Os headsets devem:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ter garantidas pelo empregador a correta higienização e as condições operacionais recomendadas pelos fabricantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser substituídos prontamente quando situações irregulares de funcionamento forem detectadas pelo operador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ter seus dispositivos de operação e controles de fácil uso e alcance; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "permitir ajuste individual da intensidade do nível sonoro e ser providos de sistema de proteção contra choques acústicos e ruídos indesejáveis de alta intensidade, garantindo o entendimento das mensagens."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2 A organização deve garantir o correto funcionamento e a manutenção contínua dos equipamentos de comunicação, incluindo os conjuntos de headsets, utilizando pessoal técnico familiarizado com as recomendações dos fabricantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3 Os monitores de vídeo devem proporcionar corretos ângulos de visão e ser posicionados frontalmente ao operador, devendo ser dotados de regulagem que permita o correto ajuste da tela à iluminação do ambiente, protegendo o trabalhador contra reflexos indesejáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4 Toda introdução de novos métodos ou dispositivos tecnológicos que traga alterações sobre os modos operatórios dos trabalhadores deve ser precedida de avaliação ergonômica preliminar ou Análise Ergonômica do Trabalho - AET, prevendo-se períodos e procedimentos adequados de capacitação e adaptação."
+        }
+      ]
+    },
+    {
+      "id": "5-condições-ambientais-de-trabalho",
+      "number": "",
+      "title": "5. Condições Ambientais de Trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "5.1 Os locais de trabalho devem ser dotados de condições acústicas adequadas à comunicação telefônica, adotando-se medidas de prevenção com o fim de atender ao nível de ruído previsto no item 17.8.4.1 e subitens da NR 17."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2 Os ambientes de trabalho devem atender ao disposto no item 17.8.4.2 da NR 17 em relação à temperatura, velocidade do ar e umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2.1 Devem ser implementados projetos adequados de climatização dos ambientes de trabalho que permitam distribuição homogênea das temperaturas e fluxos de ar, utilizando, se necessário, controles locais e/ou setorizados da temperatura, velocidade e direção dos fluxos."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2.2 A organização pode instalar equipamentos que permitam ao trabalhador acompanhar a temperatura, a velocidade e a umidade do ar do ambiente de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3 Para a prevenção da chamada “síndrome do edifício doente”, deve ser atendida a Lei nº 13.589, de 4 de janeiro de 2018, e o disposto no subitem 1.5.5.1.1 da Norma Regulamentadora nº 1 (NR 01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, bem como o disposto no regulamento dos Padrões Referenciais de Qualidade do Ar Interior em ambientes climatizados artificialmente de uso público e coletivo, com redação dada pela Resolução RE nº 9, de 16 de janeiro de 2003, da Agência Nacional de Vigilância Sanitária - ANVISA, ou outra que a venha substituir."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3.1 As instalações das centrais de ar-condicionado, especialmente o plenum de mistura da casa de máquinas, não devem ser utilizadas para armazenamento de quaisquer materiais."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3.2 A descarga de água de condensado não pode manter qualquer ligação com a rede de esgoto cloacal."
+        }
+      ]
+    },
+    {
+      "id": "6-organização-do-trabalho",
+      "number": "",
+      "title": "6. Organização do Trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "6.1 A organização do trabalho deve ser feita de forma a não haver atividades aos domingos e feriados, seja total ou parcial, com exceção das organizações autorizadas previamente pela autoridade competente em matéria de trabalho, conforme o previsto no artigo 68 da Consolidação das do Trabalho - CLT, e das atividades previstas em lei."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.1.1 Aos trabalhadores é assegurado, nos casos previamente autorizados, pelo menos um dia de repouso semanal remunerado coincidente com o domingo a cada mês, independentemente de metas, faltas e/ou produtividade."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.1.2 As escalas de fins de semana e de feriados devem ser especificadas e informadas aos trabalhadores com a antecedência necessária, de conformidade com os artigos 67, parágrafo único, e 386 da CLT, ou por intermédio de acordos ou convenções coletivas."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.1.2.1 A organização deve levar em consideração as necessidades dos operadores na elaboração das escalas laborais que acomodem necessidades especiais da vida familiar dos trabalhadores com dependentes sob seus cuidados, especialmente nutrizes, incluindo flexibilidade especial para trocas de horários e utilização das pausas."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.1.3 A duração das jornadas de trabalho somente poderá prolongar-se além do limite previsto nos termos da lei em casos excepcionais, por motivo de força maior, necessidade imperiosa ou para a realização ou conclusão de serviços inadiáveis ou cuja inexecução possa acarretar prejuízo manifesto, conforme dispõe o artigo 61 da CLT."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.2 O contingente de operadores deve ser dimensionado às demandas da produção no sentido de não gerar sobrecarga habitual ao trabalhador."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "6.2.1 O contingente de operadores em cada estabelecimento deve ser suficiente para garantir que todos possam usufruir as pausas e intervalos previstos neste Anexo."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.3 O tempo de trabalho em efetiva atividade de teleatendimento/telemarketing é de, no máximo, 6 (seis) horas diárias, nele incluídas as pausas, sem prejuízo da remuneração."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.3.1 A prorrogação do tempo previsto no presente item só será admissível nos termos da legislação, sem prejuízo das pausas previstas neste Anexo, respeitado o limite de 36 (trinta e seis) horas semanais de tempo efetivo em atividade de teleatendimento/telemarketing."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.3.2 Para o cálculo do tempo efetivo em atividade de teleatendimento/telemarketing, devem ser computados os períodos em que o operador se encontra no posto de trabalho, os intervalos entre os ciclos laborais e os deslocamentos para solução de questões relacionadas ao trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4 Para prevenir sobrecarga psíquica e muscular estática de pescoço, ombros, dorso e membros superiores, a organização deve permitir a fruição de pausas de descanso e intervalos para repouso e alimentação aos trabalhadores."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.1 As pausas devem ser concedidas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "fora do posto de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "em 02 (dois) períodos de 10 (dez) minutos contínuos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "após os primeiros e antes dos últimos 60 (sessenta) minutos de trabalho em atividade de teleatendimento/telemarketing."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.1.1 A instituição de pausas não prejudica o direito ao intervalo obrigatório para repouso e alimentação previsto no §1° do art. 71 da CLT."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.2 O intervalo para repouso e alimentação para a atividade de teleatendimento/telemarketing deve ser de 20 (vinte) minutos."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.3 Para tempos de trabalho efetivo de teleatendimento/telemarketing de até 4 (quatro) horas diárias, deve ser observada a concessão de 1 (uma) pausa de descanso contínua de 10 (dez) minutos."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.4 As pausas para descanso devem ser consignadas em registro impresso ou eletrônico."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.4.1 O registro eletrônico de pausas deve ser disponibilizado impresso para a fiscalização do trabalho no curso da inspeção, sempre que exigido."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.4.2 Os trabalhadores devem ter acesso aos seus registros de pausas."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.4.5 Devem ser garantidas pausas no trabalho imediatamente após operação em que tenham ocorrido ameaças, abuso verbal ou agressões, ou que tenha sido especialmente desgastante, que permitam ao operador recuperar-se e socializar conflitos e dificuldades com colegas, supervisores ou profissionais de saúde ocupacional especialmente capacitados para tal acolhimento."
+        },
+        {
+          "type": "note",
+          "text": "6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "de trabalho é considerado como parte da jornada normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.6 A participação em quaisquer modalidades de atividade física, quando adotadas pela organização, não é obrigatória, e a recusa do trabalhador em praticá-la não poderá ser utilizada para efeito de qualquer punição."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.7 Com o fim de permitir a satisfação das necessidades fisiológicas, a organização deve permitir que os operadores saiam de seus postos de trabalho a qualquer momento da jornada, sem repercussões sobre suas avaliações e remunerações."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.8 Nos locais de trabalho deve ser permitida a alternância de postura pelo trabalhador, de acordo com suas conveniência e necessidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.9 Os mecanismos de monitoramento da produtividade, tais como mensagens nos monitores de vídeo, sinais luminosos, cromáticos, sonoros, ou indicações do tempo utilizado nas ligações ou de filas de clientes em espera, não podem ser utilizados para aceleração do trabalho e, quando existentes, devem estar disponíveis para consulta pelo operador, a seu critério."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.10 Para fins de elaboração de programas preventivos, devem ser considerados os seguintes aspectos da organização do trabalho:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "compatibilização de metas com as condições de trabalho e tempo oferecidas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "monitoramento de desempenho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "repercussões sobre a saúde dos trabalhadores decorrentes de todo e qualquer sistema de avaliação para efeito de remuneração e vantagens de qualquer espécie;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "pressões aumentadas de tempo em horários de maior demanda; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "períodos para adaptação ao trabalho."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "6.11 É vedado à organização:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "exigir a observância estrita do script ou roteiro de atendimento; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "imputar ao operador os períodos de tempo ou interrupções no trabalho não dependentes de sua conduta."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "6.12 A utilização de procedimentos de monitoramento por escuta e gravação de ligações deve ocorrer somente mediante o conhecimento do operador."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.13 É vedada a utilização de métodos que causem assédio moral, medo ou constrangimento, tais como:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estímulo abusivo à competição entre trabalhadores ou grupos/equipes de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "exigência de que os trabalhadores usem, de forma permanente ou temporária, adereços, acessórios, fantasias e vestimentas com o objetivo de punição, promoção e propaganda; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "exposição pública das avaliações de desempenho dos operadores."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto a ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas, Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "autorização para transferência de chamadas e consultas necessárias a colegas e supervisores."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.15 Os sistemas informatizados devem ser elaborados, implantados e atualizados, contínua e suficientemente, de maneira a mitigar sobretarefas como a utilização constante de memória de curto prazo, utilização de anotações precárias, duplicidade e concomitância de anotações em papel e sistema informatizado."
+        },
+        {
+          "type": "paragraph",
+          "text": "6.16 As prescrições de diálogos de trabalho não devem exigir que o trabalhador forneça o sobrenome aos clientes, visando resguardar sua privacidade e segurança pessoal."
+        }
+      ]
+    },
+    {
+      "id": "7-capacitação-e-treinamento-dos-trabalhadores",
+      "number": "",
+      "title": "7. Capacitação e Treinamento dos Trabalhadores",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "7.1 Todos os trabalhadores de operação e de gestão devem receber capacitação que proporcione conhecer as formas de adoecimento relacionadas à sua atividade, suas causas, efeitos sobre a saúde e medidas de prevenção."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1.1 A capacitação deve envolver, também, obrigatoriamente os trabalhadores temporários."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1.2 O treinamento deve incluir os seguintes itens:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "noções sobre os fatores de risco para a saúde em teleatendimento/telemarketing;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "medidas de prevenção indicadas para a redução dos riscos relacionados ao trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "informações sobre os sintomas de adoecimento que possam estar relacionados à atividade de teleatendimento/telemarketing, principalmente os que envolvam o sistema osteomuscular, a saúde mental, as funções vocais, auditivas e acuidade visual dos trabalhadores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "informações sobre a utilização correta dos mecanismos de ajuste do mobiliário e dos equipamentos dos postos de trabalho, incluindo orientação para alternância de orelhas no uso dos fones mono ou biauriculares e limpeza e substituição de tubos de voz."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1.2.1 O treinamento inicial deve ter a duração de 4 (quatro) horas na admissão, e o treinamento periódico deve ser realizado a cada 6 (seis) meses, independentemente de campanhas educativas que sejam promovidas pelos empregadores."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1.2.2 Durante o treinamento é obrigatória a distribuição de material didático com o conteúdo apresentado."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.1.2.3 O treinamento deve ser realizado durante a jornada de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.2 Os trabalhadores devem receber treinamento eventual obrigatório quando forem introduzidos novos fatores de risco decorrentes de métodos, equipamentos, tipos específicos de atendimento, mudanças gerenciais ou de procedimentos."
+        },
+        {
+          "type": "paragraph",
+          "text": "7.3 A elaboração do conteúdo técnico, a execução e a avaliação dos resultados dos procedimentos de capacitação devem contar com a participação de:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "pessoal de organização e métodos responsável pela organização do trabalho na empresa, quando houver;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "houver;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "representantes dos trabalhadores na Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver; (alterada pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "responsáveis pelo Programa de Gerenciamento de Riscos - PGR; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "representantes dos trabalhadores e outras entidades, quando previsto em acordos ou convenções coletivas de trabalho."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8-condições-sanitárias-de-conforto",
+      "number": "",
+      "title": "8. Condições Sanitárias de Conforto",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "8.1 Devem ser garantidas boas condições sanitárias e de conforto, incluindo sanitários permanentemente adequados ao uso e separados por sexo, local para lanche e armários individuais dotados de chave para guarda de pertences na jornada de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "8.2 Deve ser proporcionada a todos os trabalhadores disponibilidade irrestrita e próxima de água potável, além do disposto na Norma Regulamentadora nº 24 (NR 24) - Condições Sanitárias e de Conforto nos Locais de Trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "8.3 A organização deve manter ambientes confortáveis para descanso e recuperação durante as pausas, fora dos ambientes de trabalho, dimensionados em proporção adequada ao número de operadores usuários, onde estejam disponíveis assentos, facilidades de água potável, instalações sanitárias e lixeiras com tampa."
+        }
+      ]
+    },
+    {
+      "id": "9-programa-de-controle-médico-de-saúde-ocupacional-e-análise-ergonômica-do-trabalho",
+      "number": "",
+      "title": "9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "9.1 A organização deve disponibilizar comprovadamente ao empregado os Atestados de Saúde Ocupacional - ASO, que devem ser fornecidos em meio físico quando solicitados, além de cópia dos resultados dos demais exames."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2 A organização deve implementar um programa de vigilância epidemiológica para detecção precoce de casos de doenças relacionadas ao trabalho comprovadas ou objeto de suspeita, que inclua procedimentos de vigilância passiva (processando a demanda espontânea de trabalhadores que procurem serviços médicos) e procedimentos de vigilância ativa, por intermédio de exames médicos dirigidos que incluam, além dos exames obrigatórios por norma, coleta de dados sobre sintomas referentes aos aparelhos psíquico, osteomuscular, vocal, visual e auditivo, analisados e apresentados com a utilização de ferramentas estatísticas e epidemiológicas."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.2.1 No sentido de promover a saúde vocal dos trabalhadores, a organização deve implementar, entre outras medidas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "modelos de diálogos que favoreçam micropausas e evitem carga vocal intensiva do operador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "redução do ruído de fundo; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "estímulo à ingestão frequente de água potável fornecida gratuitamente aos operadores."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.3. A notificação das doenças profissionais e das produzidas em virtude das condições especiais de trabalho, comprovadas ou objeto de suspeita, será obrigatória por meio da emissão de Comunicação de Acidente de Trabalho - CAT, na forma do art. 169 da CLT e da legislação vigente da Previdência Social."
+        },
+        {
+          "type": "paragraph",
+          "text": "9.4 A AET, quando indicada por uma das alíneas do item 17.3.2 da NR 17, deve contemplar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "descrição das características dos postos de trabalho no que se refere ao mobiliário, utensílios, ferramentas, espaço físico para a execução do trabalho e condições de posicionamento e movimentação de segmentos corporais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "avaliação da organização do trabalho demonstrando:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - trabalho real e trabalho prescrito;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - descrição da produção em relação ao tempo alocado para as tarefas;"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - variações diárias, semanais e mensais da carga de atendimento, incluindo variações sazonais e intercorrências técnico-operacionais mais frequentes;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IV - número de ciclos de trabalho e sua descrição, incluindo trabalho em turnos e trabalho noturno;"
+        },
+        {
+          "type": "paragraph",
+          "text": "V - ocorrência de pausas interciclos;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VI - explicitação das normas de produção, das exigências de tempo, da determinação do conteúdo de tempo, do ritmo de trabalho e do conteúdo das tarefas executadas;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VII - histórico mensal de horas extras realizadas em cada ano; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII - explicitação da existência de sobrecargas estáticas ou dinâmicas do sistema osteomuscular;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "relatório estatístico da incidência de queixas de agravos à saúde colhidas pela Medicina do Trabalho nos prontuários médicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "relatórios de avaliações de satisfação no trabalho e clima organizacional, se realizadas no âmbito da organização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "registro e análise de impressões e sugestões dos trabalhadores com relação aos aspectos dos itens anteriores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "recomendações ergonômicas expressas em planos e propostas claros e objetivos, com definição de datas de implantação."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "9.4.1 As AET devem contemplar as seguintes etapas de execução:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "explicitação da demanda do estudo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "análise das tarefas, atividades e situações de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "discussão e restituição dos resultados aos trabalhadores envolvidos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "recomendações ergonômicas específicas para os postos avaliados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "avaliação e revisão das intervenções efetuadas com a participação dos trabalhadores, supervisores e gerentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "avaliação da eficiência das recomendações."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10-pessoas-com-deficiência",
+      "number": "",
+      "title": "10. Pessoas com Deficiência",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "10.1 Para as pessoas com deficiência e aquelas cujas medidas antropométricas não sejam atendidas pelas especificações deste Anexo, o mobiliário dos postos de trabalho deve ser adaptado para atender às suas necessidades, e devem estar disponíveis ajudas técnicas necessárias em seu respectivo posto de trabalho para facilitar sua integração ao trabalho, levando em consideração as repercussões sobre a saúde desses trabalhadores."
+        },
+        {
+          "type": "paragraph",
+          "text": "10.2 As condições de trabalho, incluindo o acesso às instalações, mobiliário, equipamentos, condições ambientais, organização do trabalho, capacitação, condições sanitárias, programas de prevenção e cuidados para segurança pessoal devem levar em conta as necessidades dos trabalhadores com deficiência."
+        }
+      ]
+    },
+    {
+      "id": "11-disposições-transitórias",
+      "number": "",
+      "title": "11. Disposições Transitórias",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "11.1 As organizações que, na data de 02 de abril de 2007, mantinham com seus trabalhadores a contratação de jornada de 6 (seis) horas diárias, nela contemplados e remunerados 15 (quinze) minutos de intervalo para repouso e alimentação, obrigar-se-ão somente à complementação de 5 (cinco) minutos, igualmente remunerados, de maneira a alcançar o total de 20 (vinte) minutos de pausas obrigatórias remuneradas, concedidos na forma dos itens 6.4.1 e 6.4.2."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

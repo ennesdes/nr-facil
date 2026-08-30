@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
@@ -95,7 +96,7 @@ class _TodosTabState extends State<TodosTab> {
                 child: TextField(
                   controller: _filterController,
                   decoration: InputDecoration(
-                    hintText: 'Filtrar por título...',
+                    hintText: 'Filtrar por número ou título...',
                     prefixIcon: const Icon(Icons.filter_list),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(8),
@@ -149,12 +150,18 @@ class _TodosTabState extends State<TodosTab> {
     BuildContext context,
     ContentService contentService,
   ) {
-    // Filtrar NRs por título
-    final allNrs = contentService.manifest.value!.nrs;
+    // Ordenar por número e filtrar
+    final allNrs = List<ManifestEntry>.from(contentService.manifest.value!.nrs)
+      ..sort(ManifestEntry.compareByNumber);
     final filteredNrs = _filterQuery.isEmpty
         ? allNrs
         : allNrs
-            .where((nr) => nr.title.toLowerCase().contains(_filterQuery))
+            .where(
+              (nr) =>
+                  nr.title.toLowerCase().contains(_filterQuery) ||
+                  nr.nrLabel.toLowerCase().contains(_filterQuery) ||
+                  nr.id.toLowerCase().contains(_filterQuery),
+            )
             .toList();
 
     // Nenhum resultado de filtro

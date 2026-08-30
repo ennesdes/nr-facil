@@ -148,11 +148,11 @@ class SearchPage extends GetView<SearchScreenController> {
                         searchQuery: controller.query.value,
                         onTap: () {
                           Get.to(
-                            () => NRReaderPage(
+                            () => NRReaderPage(nrId: result.nrId),
+                            binding: ReaderBinding(
                               nrId: result.nrId,
                               initialAnchor: result.chunk.heading,
                             ),
-                            binding: ReaderBinding(nrId: result.nrId),
                           );
                         },
                       );

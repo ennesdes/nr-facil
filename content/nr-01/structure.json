@@ -1,0 +1,2570 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 01 - DISPOSIÇÕES GERAIS e GERENCIAMENTO DE RISCOS OCUPACIONAIS**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº06, de 09 de março de 1983|14/03/83|\n|Portaria SSMT nº03, de 07 de fevereiro de 1988|10/03/88|\n|Portaria SSST nº13, de 17 de setembro de 1993|21/09/93|\n|Portaria SIT nº84, de 04 de março de 2009|12/03/09|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/07/19|\n|Portaria SEPRT nº6.730, de 09 de março de 2020|12/03/20|\n|Portaria SEPRT nº1.295, de 02 de fevereiro de 2021|03/02/21|\n|Portaria SEPRT nº8.873, de 23 de julho de 2021|26/07/21|\n|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|\n|Portaria MTE nº342, de 21 de março de 2024|22/03/24|\n|Portaria MTE nº344, de 21 de março de 2024|22/03/24|\n|<br>Portaria MTE nº1.419, de 27 de agosto de 2024|<br>28/08/24|\n|<br>Portaria MTE nº765, de 15 de maio de 2025|16/05/25|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria SEPRT n.º 6.730, de 09/03/20)_ # **SUMÁRIO** - 1.1 Objetivo - 1.2 Campo de aplicação - 1.3 Competências e estrutura - 1.4 Direitos e deveres - 1.5 Gerenciamento de riscos ocupacionais - 1.6 Da prestação de informação digital e digitalização de documentos 1.7 Capacitação e treinamento em Segurança e Saúde no Trabalho 1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP 1.9 Disposições finais Anexo I - Termos e definições Anexo II - Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "11-objetivo",
+      "number": "1.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.1.1",
+          "depth": 2,
+          "text": "O objetivo desta Norma é estabelecer as disposições gerais, o campo de aplicação, os termos e as definições comuns às Normas Regulamentadoras - NR relativas a segurança e saúde no trabalho e as diretrizes e os requisitos para o gerenciamento de riscos ocupacionais e as medidas de prevenção em Segurança e Saúde no Trabalho - SST."
+        },
+        {
+          "type": "item",
+          "number": "1.1.2",
+          "depth": 2,
+          "text": "Para fins de aplicação das Normas Regulamentadoras - NR, consideram-se os termos e definições constantes no Anexo I."
+        }
+      ]
+    },
+    {
+      "id": "12-campo-de-aplicação",
+      "number": "1.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.2.1",
+          "depth": 2,
+          "text": "As NR obrigam, nos termos da lei, empregadores e empregados, urbanos e rurais."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "item",
+          "number": "1.2.1.1",
+          "depth": 3,
+          "text": "As NR são de observância obrigatória pelas organizações e pelos órgãos públicos da administração direta e indireta, bem como pelos órgãos dos Poderes Legislativo, Judiciário e Ministério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT"
+        },
+        {
+          "type": "item",
+          "number": "1.2.1.2",
+          "depth": 3,
+          "text": "Nos termos previstos em lei, aplica-se o disposto nas NR a outras relações jurídicas."
+        },
+        {
+          "type": "item",
+          "number": "1.2.2",
+          "depth": 2,
+          "text": "A observância das NR não desobriga as organizações do cumprimento de outras disposições que, com relação à matéria, sejam incluídas em códigos de obras ou regulamentos sanitários dos Estados ou Municípios, bem como daquelas oriundas de convenções e acordos coletivos de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "13-competências-e-estrutura",
+      "number": "1.3",
+      "title": "Competências e estrutura",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.3.1",
+          "depth": 2,
+          "text": "A Secretaria de Trabalho - STRAB, por meio da Subsecretaria de Inspeção do Trabalho - SIT, é o órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "formular e propor as diretrizes, as normas de atuação e supervisionar as atividades da área de  segurança e saúde do trabalhador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "promover a Campanha Nacional de Prevenção de Acidentes do Trabalho - CANPAT;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "coordenar e fiscalizar o Programa de Alimentação do Trabalhador - PAT;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "promover a fiscalização do cumprimento dos preceitos legais e regulamentares sobre Segurança e Saúde no Trabalho - SST em todo o território nacional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "participar da implementação da Política Nacional de Segurança e Saúde no Trabalho - PNSST; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "conhecer, em última instância, dos recursos voluntários ou de ofício, das decisões proferidas pelo órgão regional competente em matéria de segurança e saúde no trabalho, salvo disposição expressa em contrário."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.3.2",
+          "depth": 2,
+          "text": "Compete à SIT e aos órgãos regionais a ela subordinados em matéria de Segurança e Saúde no Trabalho, nos limites de sua competência, executar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho; e b) as atividades relacionadas com a CANPAT e o PAT."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.3.3",
+          "depth": 2,
+          "text": "Cabe à autoridade regional competente em matéria de trabalho impor as penalidades cabíveis por descumprimento dos preceitos legais e regulamentares sobre segurança e saúde no trabalho."
+        }
+      ]
+    },
+    {
+      "id": "14-direitos-e-deveres",
+      "number": "1.4",
+      "title": "Direitos e deveres",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.4.1",
+          "depth": 2,
+          "text": "Cabe ao empregador:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "cumprir e fazer cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "informar aos trabalhadores:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- I. os riscos ocupacionais existentes nos locais de trabalho;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- II. as medidas de prevenção adotadas pela empresa para eliminar ou reduzir tais riscos;"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "- III. os resultados dos exames médicos e de exames complementares de diagnóstico aos quais os  próprios trabalhadores forem submetidos; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- IV. os resultados das avaliações ambientais realizadas nos locais de trabalho."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "elaborar ordens de serviço sobre segurança e saúde no trabalho, dando ciência aos trabalhadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "permitir que representantes dos trabalhadores acompanhem a fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "determinar procedimentos que devem ser adotados em caso de acidente ou doença relacionada ao trabalho, incluindo a análise de suas causas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "disponibilizar à Inspeção do Trabalho todas as informações relativas à segurança e saúde no  trabalho; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "implementar medidas de prevenção, ouvidos os trabalhadores, de acordo com a seguinte ordem de prioridade:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- I. eliminação dos fatores de risco;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- II. minimização e controle dos fatores de risco, com a adoção de medidas de proteção coletiva;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- III. minimização e controle dos fatores de risco, com a adoção de medidas administrativas ou de  organização do trabalho; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- IV. adoção de medidas de proteção individual."
+        },
+        {
+          "type": "item",
+          "number": "1.4.1.1",
+          "depth": 3,
+          "text": "As organizações obrigadas a constituir CIPA nos termos da NR-05 devem adotar as seguintes medidas, além de outras que entenderem necessárias, com vistas à prevenção e ao combate ao assédio sexual e às demais formas de violência no âmbito do trabalho: _(incluído pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "inclusão de regras de conduta a respeito do assédio sexual e de outras formas de violência nas normas internas da empresa, com ampla divulgação do seu conteúdo aos empregados e às empregadas; _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "fixação de procedimentos para recebimento e acompanhamento de denúncias, para apuração dos fatos e, quando for o caso, para aplicação de sanções administrativas aos responsáveis diretos e indiretos pelos atos de assédio sexual e de violência, garantido o anonimato da pessoa denunciante, sem prejuízo dos procedimentos jurídicos cabíveis; e _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "realização, no mínimo a cada 12 (doze) meses, de ações de capacitação, de orientação e de sensibilização dos empregados e das empregadas de todos os níveis hierárquicos da empresa sobre temas relacionados à violência, ao assédio, à igualdade e à diversidade no âmbito do trabalho, em formatos acessíveis, apropriados e que apresentem máxima efetividade de tais ações. _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "142-cabe-ao-trabalhador",
+      "number": "",
+      "title": "1.4.2 Cabe ao trabalhador:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "cumprir as disposições legais e regulamentares sobre segurança e saúde no trabalho, inclusive as ordens de serviço expedidas pelo empregador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "submeter-se aos exames médicos previstos nas NR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "colaborar com a organização na aplicação das NR; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "usar o equipamento de proteção individual fornecido pelo empregador."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "item",
+          "number": "1.4.2.1",
+          "depth": 3,
+          "text": "Constitui ato faltoso a recusa injustificada do empregado ao cumprimento do disposto nas alíneas do subitem anterior."
+        },
+        {
+          "type": "item",
+          "number": "1.4.3",
+          "depth": 2,
+          "text": "O trabalhador pode interromper suas atividades quando constatar uma situação de trabalho onde, a seu ver, por motivos razoáveis, envolva um risco grave e iminente para a sua vida ou saúde, informando imediatamente ao seu superior hierárquico. _(alterado pela Portaria MTE nº 342, de 21 de março de 2024)_"
+        },
+        {
+          "type": "item",
+          "number": "1.4.3.1",
+          "depth": 3,
+          "text": "O empregador não pode exigir o retorno dos trabalhadores à atividade enquanto não sejam adotadas as medidas corretivas da situação de grave e iminente risco para sua vida ou saúde. _(alterado pela Portaria MTE nº 342, de 21 de março de 2024)_"
+        },
+        {
+          "type": "item",
+          "number": "1.4.3.2",
+          "depth": 3,
+          "text": "O trabalhador deve ser protegido de consequências injustificadas, em decorrência da interrupção prevista no caput do item 1.4.3 desta NR. _(inserido pela Portaria MTE nº 342, de 21 de março de 2024)_"
+        },
+        {
+          "type": "item",
+          "number": "1.4.3.3",
+          "depth": 3,
+          "text": "O trabalhador deve comunicar, imediatamente, ao seu superior hierárquico as situações de trabalho que envolvam um risco grave e iminente para a sua vida ou saúde, bem como de terceiros. _(inserido pela Portaria MTE nº 342, de 21 de março de 2024)_"
+        },
+        {
+          "type": "item",
+          "number": "1.4.4",
+          "depth": 2,
+          "text": "Todo trabalhador, ao ser admitido ou quando mudar de função que implique em alteração de risco, deve receber informações sobre:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os riscos ocupacionais que existam ou possam originar-se nos locais de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "os meios para prevenir e controlar tais riscos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "as medidas adotadas pela organização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "os procedimentos a serem adotados em situação de emergência; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "os procedimentos a serem adotados, em conformidade com os subitens 1.4.3 e 1.4.3.1."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.4.4.1",
+          "depth": 3,
+          "text": "As informações podem ser transmitidas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "durante os treinamentos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "por meio de diálogos de segurança, documento físico ou eletrônico."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "_Redação dada pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_**"
+        },
+        {
+          "type": "paragraph",
+          "text": "_<mark>Entra em vigor em 26 de maio de 2026</mark>_ _<u>(Portaria MTE nº 765, de 15 de maio de 2025)</u>_"
+        }
+      ]
+    },
+    {
+      "id": "15-gerenciamento-de-riscos-ocupacionais",
+      "number": "1.5",
+      "title": "Gerenciamento de riscos ocupacionais",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.5.1",
+          "depth": 2,
+          "text": "O disposto neste item deve ser utilizado para fins de prevenção e gerenciamento dos riscos ocupacionais."
+        },
+        {
+          "type": "item",
+          "number": "1.5.2",
+          "depth": 2,
+          "text": "Para fins de caracterização de atividades ou operações insalubres ou perigosas, devem ser aplicadas as disposições previstas na NR-15 - Atividades e operações insalubres e na NR16 - Atividades e operações perigosas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3",
+          "depth": 2,
+          "text": "Responsabilidades"
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1",
+          "depth": 3,
+          "text": "A organização deve implementar nos seus estabelecimentos o gerenciamento de riscos ocupacionais de suas atividades."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1.1",
+          "depth": 4,
+          "text": "O gerenciamento de riscos ocupacionais deve constituir um Programa de Gerenciamento de Riscos - PGR."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1.1.1",
+          "depth": 5,
+          "text": "O Programa de Gerenciamento de Riscos deve ser implementado por estabelecimento, podendo ser por unidade operacional, setor ou atividade."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1.2",
+          "depth": 4,
+          "text": "O gerenciamento de riscos ocupacionais pode ser atendido por sistemas de gestão, desde que estes cumpram as exigências previstas nesta NR e em dispositivos legais de segurança e saúde no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1.3",
+          "depth": 4,
+          "text": "O PGR deve contemplar ou estar integrado com planos, programas e outros documentos previstos na legislação de segurança e saúde no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.1.4",
+          "depth": 4,
+          "text": "O gerenciamento de riscos ocupacionais deve abranger os riscos que decorrem dos agentes físicos, químicos, biológicos, riscos de acidentes e riscos relacionados aos fatores ergonômicos, incluindo os fatores de risco psicossociais relacionados ao trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.2",
+          "depth": 3,
+          "text": "A organização deve:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "evitar ou eliminar os perigos ocupacionais que possam ser originados no trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "identificar os perigos e possíveis lesões ou agravos à saúde;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "avaliar os riscos ocupacionais indicando o nível de risco;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "classificar os riscos ocupacionais para determinar a necessidade de adoção de medidas de prevenção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "implementar medidas de prevenção, de acordo com a classificação de risco e na ordem de prioridade estabelecida na alínea “g” do subitem 1.4.1; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "acompanhar o controle dos riscos ocupacionais."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.2.1",
+          "depth": 4,
+          "text": "A organização deve considerar as condições de trabalho, nos termos da NR-17, incluindo os fatores de risco psicossociais relacionados ao trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.3",
+          "depth": 3,
+          "text": "A organização deve adotar mecanismos para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a participação de trabalhadores no processo de gerenciamentos de riscos ocupacionais, proporcionando noções básicas sobre o gerenciamento de riscos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a consulta aos trabalhadores quanto à percepção de riscos ocupacionais, podendo para este fim ser adotadas as manifestações da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "comunicar aos trabalhadores os riscos consolidados no inventário de riscos e as medidas de prevenção previstas no plano de ação."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.4",
+          "depth": 3,
+          "text": "A organização deve adotar as medidas necessárias para avaliar e melhorar o desempenho em SST."
+        },
+        {
+          "type": "item",
+          "number": "1.5.3.5",
+          "depth": 3,
+          "text": "Sempre que várias organizações realizem, simultaneamente, atividades no mesmo local de trabalho devem executar ações integradas para aplicar as medidas de prevenção, visando à proteção de todos os trabalhadores expostos aos riscos ocupacionais."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "5"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4",
+          "depth": 2,
+          "text": "Processo de identificação de perigos e avaliação de riscos ocupacionais"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.1",
+          "depth": 3,
+          "text": "O processo de identificação de perigos e avaliação de riscos ocupacionais deve considerar o disposto nas NR e exigências legais de segurança e saúde no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2",
+          "depth": 3,
+          "text": "Levantamento preliminar de perigos e riscos"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2.1",
+          "depth": 4,
+          "text": "O levantamento preliminar de perigos e riscos deve ser realizado:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "antes do início do funcionamento do estabelecimento ou novas instalações;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "para as atividades existentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "nas mudanças e introdução de novos processos ou atividades de trabalho."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2.1.1",
+          "depth": 5,
+          "text": "O levantamento preliminar de perigos e riscos deve ser realizado para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificar situações em que é possível evitar ou eliminar perigos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "identificar situações de risco ocupacional evidente nas quais a organização deve adotar medidas de redução ou controle imediatamente."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2.1.2",
+          "depth": 5,
+          "text": "Quando na fase de levantamento preliminar de perigos e riscos, o perigo não puder ser evitado ou eliminado, a organização deve implementar o processo de identificação de perigos e avaliação de riscos ocupacionais, conforme disposto nos subitens 1.5.4.3 e 1.5.4.4 desta NR."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2.1.3",
+          "depth": 5,
+          "text": "Quando na fase de levantamento preliminar de perigos e riscos não for possível adotar medidas imediatas para reduzir ou controlar o risco ocupacional evidente, as medidas devem ser inseridas no plano de ação e o risco registrado no inventário de riscos."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.2.1.4",
+          "depth": 5,
+          "text": "A critério da organização, a etapa de levantamento preliminar de perigos e riscos pode estar contemplada na etapa de identificação de perigos. _(numeração retificada - DOU de 30 de julho de 2025)_"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.3",
+          "depth": 3,
+          "text": "Identificação de perigos"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.3.1",
+          "depth": 4,
+          "text": "A etapa de identificação de perigos deve incluir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "descrição dos perigos e possíveis lesões ou agravos à saúde;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "identificação das fontes e/ou circunstâncias; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "indicação do grupo de trabalhadores sujeitos ao perigo, que pode ser constituído por um ou mais trabalhadores."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.3.2",
+          "depth": 4,
+          "text": "A identificação dos perigos deve abordar os perigos externos previsíveis relacionados ao trabalho que possam afetar a saúde e segurança no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4",
+          "depth": 3,
+          "text": "Avaliação de riscos ocupacionais"
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.1",
+          "depth": 4,
+          "text": "A organização deve avaliar os riscos ocupacionais relativos aos perigos identificados em seu(s) estabelecimento(s), de forma a manter informações para adoção de medidas de"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "6"
+        },
+        {
+          "type": "paragraph",
+          "text": "prevenção."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.2",
+          "depth": 4,
+          "text": "Para cada risco deve ser indicado o nível de risco ocupacional, determinado pela combinação da severidade das possíveis lesões ou agravos à saúde com a probabilidade de sua ocorrência."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.2.1",
+          "depth": 5,
+          "text": "A organização deve selecionar as ferramentas e técnicas de avaliação de riscos que sejam adequadas ao risco ou circunstância em avaliação."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.2.2",
+          "depth": 5,
+          "text": "A organização deve detalhar em documento os critérios das gradações de severidade e de probabilidade, os níveis de risco, os critérios de classificação de riscos e de tomada de decisão utilizados no gerenciamento de riscos ocupacionais."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.3",
+          "depth": 4,
+          "text": "Após a determinação dos níveis de risco, os riscos ocupacionais devem ser classificados para fins de identificar a necessidade de adoção ou manutenção de medidas de prevenção e elaboração do plano de ação."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.4",
+          "depth": 4,
+          "text": "A severidade deve ser estabelecida em razão da magnitude das possíveis consequências das lesões ou agravos à saúde."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.4.1",
+          "depth": 5,
+          "text": "Para cada perigo identificado, quando existir mais de uma consequência possível, deve ser selecionada a consequência de maior magnitude."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.5",
+          "depth": 4,
+          "text": "A probabilidade deve ser estabelecida com base na chance de ocorrência das lesões ou agravos à saúde."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.5.1",
+          "depth": 5,
+          "text": "A gradação da probabilidade deve levar em consideração o cumprimento dos requisitos estabelecidos em NR e na legislação aplicável."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.5.2",
+          "depth": 5,
+          "text": "Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de perigos físicos, químicos e biológicos, a avaliação deve comparar o perfil de exposição ocupacional com valores de referência ou aplicar outros critérios estabelecidos na NR-09 e a eficácia das medidas de prevenção implementadas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.5.3",
+          "depth": 5,
+          "text": "Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de fatores ergonômicos, incluindo os fatores de riscos psicossociais relacionados ao trabalho, a avaliação de risco deve considerar as exigências da atividade de trabalho e a eficácia das medidas de prevenção implementadas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.5.4",
+          "depth": 5,
+          "text": "Para a probabilidade de ocorrência das lesões ou agravos à saúde decorrentes de acidentes, a avaliação de risco deve considerar a exposição do trabalhador ao perigo e a eficácia das medidas de prevenção implementadas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.6",
+          "depth": 4,
+          "text": "A avaliação de riscos deve constituir um processo contínuo e ser revista a cada dois anos ou quando da ocorrência das seguintes situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "após implementação das medidas de prevenção, para avaliação de riscos residuais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "após inovações e modificações nas tecnologias, ambientes, processos, condições, <u>procedimentos e organização do trabalho que impliquem em novos riscos ou modifiquem</u>"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "7"
+        },
+        {
+          "type": "paragraph",
+          "text": "os riscos existentes;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "quando identificadas inadequações, insuficiência ou ineficácia das medidas de prevenção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "na ocorrência de acidentes ou doenças relacionadas ao trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "quando houver mudança nos requisitos legais aplicáveis; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "após a solicitação justificada dos trabalhadores ou da CIPA, quando houver."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.4.4.6.1",
+          "depth": 5,
+          "text": "No caso de organizações que possuírem certificações em sistema de gestão de SST, o prazo poderá ser de até 3 (três) anos. _(numeração retificada - DOU de 30 de julho de 2025)_"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5",
+          "depth": 2,
+          "text": "Controle dos riscos"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.1",
+          "depth": 3,
+          "text": "Medidas de prevenção"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.1.1",
+          "depth": 4,
+          "text": "A organização deve adotar medidas de prevenção para eliminar, reduzir ou controlar os riscos sempre que:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "exigências previstas em Normas Regulamentadoras e em dispositivos legais determinarem;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a classificação dos riscos ocupacionais assim determinar, conforme subitem 1.5.4.4.3;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "houver evidências de associação entre as lesões e os agravos à saúde dos trabalhadores e os riscos e as situações de trabalho identificados; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "os resultados das análises de acidentes e doenças concluírem por esta necessidade."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.1.2",
+          "depth": 4,
+          "text": "Quando comprovada pela organização a inviabilidade técnica da adoção de medidas de proteção coletiva, ou quando estas não forem suficientes ou encontrarem-se em fase de estudo, planejamento ou implantação ou, ainda, em caráter complementar ou emergencial, deverão ser adotadas outras medidas, obedecendo-se a seguinte hierarquia:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "medidas de caráter administrativo ou de organização do trabalho; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "utilização de equipamento de proteção individual - EPI."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.1.3",
+          "depth": 4,
+          "text": "A implantação de medidas de prevenção deve ser acompanhada de informação aos trabalhadores quanto aos procedimentos a serem adotados e limitações das medidas de prevenção."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.2",
+          "depth": 3,
+          "text": "Planos de ação"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.2.1",
+          "depth": 4,
+          "text": "A organização deve elaborar plano de ação, indicando as medidas de prevenção a serem introduzidas, aprimoradas ou mantidas, conforme o subitem 1.5.4.4.3."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.2.1.1",
+          "depth": 5,
+          "text": "O número de trabalhadores possivelmente atingidos deve ser utilizado como critério para aumentar a prioridade de ação."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.2.2",
+          "depth": 4,
+          "text": "Para as medidas de prevenção deve ser definido cronograma com responsáveis, formas de acompanhamento e aferição de resultados."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.3",
+          "depth": 3,
+          "text": "Implementação e acompanhamento das medidas de prevenção"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "8"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.3.1",
+          "depth": 4,
+          "text": "A implementação das medidas de prevenção e respectivos ajustes devem ser registrados."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.3.2",
+          "depth": 4,
+          "text": "O desempenho das medidas de prevenção deve ser acompanhado de forma planejada e contemplar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a verificação da execução das ações planejadas e da continuidade de sua aplicação, quando for o caso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as inspeções dos locais e equipamentos de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "o monitoramento das condições ambientais e exposições a agentes nocivos, quando aplicável; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "a participação dos trabalhadores e da CIPA, quando houver."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.3.2.1",
+          "depth": 5,
+          "text": "As medidas de prevenção devem ser corrigidas quando os dados obtidos no acompanhamento indicarem ineficácia em seu desempenho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.4",
+          "depth": 3,
+          "text": "Acompanhamento da saúde ocupacional dos trabalhadores"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.4.1",
+          "depth": 4,
+          "text": "A organização deve desenvolver ações em saúde ocupacional dos trabalhadores integradas às demais medidas de prevenção em SST, de acordo com os riscos gerados pelo trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.4.2",
+          "depth": 4,
+          "text": "O controle da saúde dos empregados deve ser um processo preventivo planejado, sistemático e continuado, de acordo com a classificação de riscos ocupacionais e nos termos da NR-7."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.5",
+          "depth": 3,
+          "text": "Análise de acidentes e doenças relacionadas ao trabalho"
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.5.1",
+          "depth": 4,
+          "text": "A organização deve analisar os acidentes e as doenças relacionadas ao trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.5.1.1",
+          "depth": 5,
+          "text": "Deve ser realizada a análise de eventos perigosos que poderiam ter consequências graves."
+        },
+        {
+          "type": "item",
+          "number": "1.5.5.5.2",
+          "depth": 4,
+          "text": "As análises de acidentes e doenças relacionadas ao trabalho devem ser documentadas e:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "considerar as situações geradoras dos eventos, levando em conta as atividades efetivamente desenvolvidas, ambiente de trabalho, materiais, processo produtivo, organização do trabalho e outros fatores relacionados com os eventos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "considerar os dados da organização, dados epidemiológicos e as informações prestadas pelos trabalhadores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "fornecer evidências para revisar e aprimorar as medidas de prevenção existentes."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.6",
+          "depth": 2,
+          "text": "Preparação e resposta a emergências"
+        },
+        {
+          "type": "item",
+          "number": "1.5.6.1",
+          "depth": 3,
+          "text": "A organização deve estabelecer, implementar e manter procedimentos de resposta a emergências, de acordo com os riscos, as características e as circunstâncias das atividades."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "9"
+        },
+        {
+          "type": "item",
+          "number": "1.5.6.2",
+          "depth": 3,
+          "text": "Os procedimentos de resposta a emergências devem prever, no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os meios, responsáveis e recursos necessários para os primeiros socorros, encaminhamento de acidentados e abandono de locais afetados; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as medidas necessárias para emergências de grande magnitude, quando aplicável."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.6.3",
+          "depth": 3,
+          "text": "A organização deve realizar exercícios simulados, conforme previsto em procedimento de resposta a emergências, que deve incluir sua periodicidade."
+        },
+        {
+          "type": "item",
+          "number": "1.5.6.3.1",
+          "depth": 4,
+          "text": "Devem ser geradas evidências do exercício simulado quando realizado."
+        },
+        {
+          "type": "item",
+          "number": "1.5.7",
+          "depth": 2,
+          "text": "Documentação"
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.1",
+          "depth": 3,
+          "text": "O PGR deve conter, no mínimo, os seguintes documentos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "inventário de riscos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "plano de ação."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.2",
+          "depth": 3,
+          "text": "Os documentos integrantes do PGR devem ser elaborados sob a responsabilidade da organização, respeitado o disposto nas demais Normas Regulamentadoras, datados e assinados."
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.2.1",
+          "depth": 4,
+          "text": "Os documentos integrantes do PGR devem estar sempre disponíveis aos trabalhadores interessados, aos sindicatos representantes das categorias profissionais e à Inspeção do Trabalho."
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.3",
+          "depth": 3,
+          "text": "Inventário de riscos ocupacionais"
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.3.1",
+          "depth": 4,
+          "text": "Os dados da identificação dos perigos e das avaliações dos riscos ocupacionais devem ser consolidados em um inventário de riscos ocupacionais."
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.3.2",
+          "depth": 4,
+          "text": "O inventário de riscos ocupacionais deve contemplar, no mínimo, as seguintes informações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "caracterização dos processos e ambientes de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "caracterização das atividades;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "descrição dos perigos, com a identificação das fontes e/ou circunstâncias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "indicação das possíveis lesões ou agravos à saúde decorrentes da exposição dos trabalhadores aos perigos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "indicação dos grupos de trabalhadores expostos aos perigos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "descrição das medidas de prevenção implementadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "caracterização da exposição dos trabalhadores aos perigos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "dados da análise preliminar ou do monitoramento das exposições a agentes físicos, químicos e biológicos e os resultados da avaliação de ergonomia nos termos da NR-17; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "avaliação dos riscos, incluindo a classificação para fins de elaboração do plano de ação."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "10"
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.3.3",
+          "depth": 4,
+          "text": "O inventário de riscos ocupacionais deve ser mantido atualizado."
+        },
+        {
+          "type": "item",
+          "number": "1.5.7.3.3.1",
+          "depth": 5,
+          "text": "O histórico das atualizações deve ser mantido por um período mínimo de 20 (vinte) anos ou pelo período estabelecido em normatização específica."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8",
+          "depth": 2,
+          "text": "GRO nas relações de prestação de serviços a terceiros"
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.1",
+          "depth": 3,
+          "text": "O PGR da organização contratante deve incluir as medidas de prevenção para as organizações contratadas que atuem em suas dependências ou local previamente convencionado em contrato ou utilizar os programas das contratadas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.1.1",
+          "depth": 4,
+          "text": "No caso de utilização dos programas das organizações contratadas, estas devem fornecer à organização contratante o inventário de riscos ocupacionais e o plano de ação referente às atividades objeto de sua contratação."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.1.2",
+          "depth": 4,
+          "text": "No caso das organizações contratadas em que os serviços são prestados somente pelo titular ou sócios, a organização contratante deve estender suas medidas de prevenção aos riscos das atividades objeto de sua contratação, quando atuarem em suas dependências ou local previamente convencionado em contrato."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.2",
+          "depth": 3,
+          "text": "As organizações contratantes devem informar às organizações contratadas os riscos ocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações contratadas."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.3",
+          "depth": 3,
+          "text": "As organizações contratadas devem informar às organizações contratantes os riscos ocupacionais sob sua responsabilidade que possam impactar nas atividades das organizações contratantes."
+        },
+        {
+          "type": "item",
+          "number": "1.5.8.4",
+          "depth": 3,
+          "text": "No caso de organizações contratadas que realizam atividades no estabelecimento da organização contratante cujos riscos resultem da interação das atividades das organizações, as medidas de prevenção devem ser definidas em conjunto, sob a coordenação da organização contratante."
+        }
+      ]
+    },
+    {
+      "id": "16-da-prestação-de-informação-digital-e-digitalização-de-documentos",
+      "number": "1.6",
+      "title": "Da prestação de informação digital e digitalização de documentos",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.6.1",
+          "depth": 2,
+          "text": "As organizações devem prestar informações de segurança e saúde no trabalho em formato digital, conforme modelo aprovado pela STRAB, ouvida a SIT."
+        },
+        {
+          "type": "item",
+          "number": "1.6.1.1",
+          "depth": 3,
+          "text": "Os modelos aprovados pela STRAB devem considerar os princípios de simplificação e desburocratização."
+        },
+        {
+          "type": "item",
+          "number": "1.6.2",
+          "depth": 2,
+          "text": "Os documentos previstos nas NR podem ser emitidos e armazenados em meio digital com certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), normatizada por lei específica."
+        },
+        {
+          "type": "item",
+          "number": "1.6.3",
+          "depth": 2,
+          "text": "Os documentos físicos, assinados manualmente, inclusive os anteriores à vigência desta NR, podem ser arquivados em meio digital, pelo período correspondente exigido pela legislação própria, mediante processo de digitalização conforme disposto em Lei."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "11"
+        },
+        {
+          "type": "item",
+          "number": "1.6.3.1",
+          "depth": 3,
+          "text": "O processo de digitalização deve ser realizado de forma a manter a integridade, a autenticidade e, se necessário, a confidencialidade do documento digital, com o emprego de certificado digital emitido no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil)."
+        },
+        {
+          "type": "item",
+          "number": "1.6.3.2",
+          "depth": 3,
+          "text": "Os empregadores que optarem pela guarda de documentos prevista no _caput_ devem manter os originais conforme previsão em lei."
+        },
+        {
+          "type": "item",
+          "number": "1.6.4",
+          "depth": 2,
+          "text": "O empregador deve garantir a preservação de todos os documentos nato digitais ou digitalizados por meio de procedimentos e tecnologias que permitam verificar, a qualquer tempo, sua validade jurídica em todo território nacional, garantindo permanentemente sua  autenticidade, integridade, disponibilidade, rastreabilidade, irretratabilidade, privacidade e interoperabilidade."
+        },
+        {
+          "type": "item",
+          "number": "1.6.5",
+          "depth": 2,
+          "text": "O empregador deve garantir à Inspeção do Trabalho amplo e irrestrito acesso a todos os documentos digitalizados ou nato digitais."
+        },
+        {
+          "type": "item",
+          "number": "1.6.5.1",
+          "depth": 3,
+          "text": "Para os documentos que devem estar à disposição dos trabalhadores ou dos seus representantes, a organização deverá prover meios de acesso destes às informações, de modo a atender os objetivos da norma específica."
+        }
+      ]
+    },
+    {
+      "id": "17-capacitação-e-treinamento-em-segurança-e-saúde-no-trabalho",
+      "number": "1.7",
+      "title": "Capacitação e treinamento em Segurança e Saúde no Trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.7.1",
+          "depth": 2,
+          "text": "O empregador deve promover capacitação e treinamento dos trabalhadores, em conformidade com o disposto nas NR."
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.1",
+          "depth": 3,
+          "text": "Ao término dos treinamentos inicial, periódico ou eventual, previstos nas NR, deve ser emitido certificado contendo o nome e assinatura do trabalhador, conteúdo programático, carga horária, data, local de realização do treinamento, nome e qualificação dos instrutores e assinatura do responsável técnico do treinamento."
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.2",
+          "depth": 3,
+          "text": "A capacitação deve incluir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "treinamento inicial;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "treinamento periódico; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "treinamento eventual."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.2.1",
+          "depth": 4,
+          "text": "O treinamento inicial deve ocorrer antes de o trabalhador iniciar suas funções ou de acordo com o prazo especificado em NR."
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.2.2",
+          "depth": 4,
+          "text": "O treinamento periódico deve ocorrer de acordo com periodicidade estabelecida nas NR ou, quando não estabelecido, em prazo determinado pelo empregador."
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.2.3",
+          "depth": 4,
+          "text": "O treinamento eventual deve ocorrer:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "quando houver mudança nos procedimentos, condições ou operações de trabalho, que impliquem em alteração dos riscos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "na ocorrência de acidente grave ou fatal, que indique a necessidade de novo treinamento; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "após retorno de afastamento ao trabalho por período superior a 180 (cento e oitenta) dias."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.2.3.1",
+          "depth": 5,
+          "text": "A carga horária, o prazo para sua realização e o conteúdo programático do"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "12"
+        },
+        {
+          "type": "paragraph",
+          "text": "treinamento eventual deve atender à situação que o motivou."
+        },
+        {
+          "type": "item",
+          "number": "1.7.1.3",
+          "depth": 3,
+          "text": "A capacitação pode incluir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estágio prático, prática profissional supervisionada ou orientação em serviço;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "exercícios simulados; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "habilitação para operação de veículos, embarcações, máquinas ou equipamentos."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.7.2",
+          "depth": 2,
+          "text": "O tempo despendido em treinamentos previstos nas NR é considerado como de trabalho efetivo."
+        },
+        {
+          "type": "item",
+          "number": "1.7.3",
+          "depth": 2,
+          "text": "O certificado deve ser disponibilizado ao trabalhador e uma cópia arquivada na organização."
+        },
+        {
+          "type": "item",
+          "number": "1.7.4",
+          "depth": 2,
+          "text": "A capacitação deve ser consignada nos documentos funcionais do empregado."
+        },
+        {
+          "type": "item",
+          "number": "1.7.5",
+          "depth": 2,
+          "text": "Os treinamentos previstos em NR podem ser ministrados em conjunto com outros treinamentos da organização, observados os conteúdos e a carga horária previstos na respectiva norma regulamentadora."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aproveitamento de conteúdos de treinamento na mesma organização"
+        },
+        {
+          "type": "item",
+          "number": "1.7.6",
+          "depth": 2,
+          "text": "É permitido o aproveitamento de conteúdos de treinamentos ministrados na mesma organização desde que:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o conteúdo e a carga horária requeridos no novo treinamento estejam compreendidos no  treinamento anterior;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "o conteúdo do treinamento anterior tenha sido ministrado no prazo inferior ao estabelecido em NR ou há menos de 2 (dois) anos, quando não estabelecida esta periodicidade; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "seja validado pelo responsável técnico do treinamento."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.7.6.1",
+          "depth": 3,
+          "text": "O aproveitamento de conteúdos deve ser registrado no certificado, mencionando o conteúdo e a data de realização do treinamento aproveitado."
+        },
+        {
+          "type": "item",
+          "number": "1.7.6.1.1",
+          "depth": 4,
+          "text": "A validade do novo treinamento passa a considerar a data do treinamento mais antigo aproveitado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aproveitamento de treinamentos entre organizações"
+        },
+        {
+          "type": "item",
+          "number": "1.7.7",
+          "depth": 2,
+          "text": "Os treinamentos realizados pelo trabalhador podem ser avaliados pela organização e convalidados ou complementados."
+        },
+        {
+          "type": "item",
+          "number": "1.7.7.1",
+          "depth": 3,
+          "text": "A convalidação ou complementação deve considerar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as atividades desenvolvidas pelo trabalhador na organização anterior, quando for o caso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as atividades que desempenhará na organização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "o conteúdo e carga horária cumpridos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "o conteúdo e carga horária exigidos; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "13"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "que o último treinamento tenha sido realizado em período inferior ao estabelecido na NR ou  há menos de 2 (dois) anos, nos casos em que não haja prazo estabelecido em NR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.7.8",
+          "depth": 2,
+          "text": "O aproveitamento de treinamentos anteriores, total ou parcialmente, não exclui a responsabilidade da organização de emitir a certificação da capacitação do trabalhador, devendo mencionar no certificado a data da realização dos treinamentos convalidados ou complementados."
+        },
+        {
+          "type": "item",
+          "number": "1.7.8.1",
+          "depth": 3,
+          "text": "Para efeito de periodicidade de realização de novo treinamento, é considerada a data do treinamento mais antigo convalidado ou complementado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos treinamentos ministrados na modalidade de ensino a distância ou semipresencial"
+        },
+        {
+          "type": "item",
+          "number": "1.7.9",
+          "depth": 2,
+          "text": "Os treinamentos podem ser ministrados na modalidade de ensino a distância ou semipresencial, desde que atendidos os requisitos operacionais, administrativos, tecnológicos e de estruturação pedagógica previstos no Anexo II desta NR."
+        },
+        {
+          "type": "item",
+          "number": "1.7.9.1",
+          "depth": 3,
+          "text": "O conteúdo prático do treinamento pode ser realizado na modalidade de ensino a distância ou semipresencial, desde que previsto em NR específica."
+        }
+      ]
+    },
+    {
+      "id": "18-tratamento-diferenciado-ao-microempreendedor-individual---mei-à-microempresa---me-e-à-empresa-de-pequeno-porte---epp",
+      "number": "1.8",
+      "title": "Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.8.1",
+          "depth": 2,
+          "text": "O Microempreendedor Individual - MEI está dispensado de elaborar o PGR"
+        },
+        {
+          "type": "item",
+          "number": "1.8.1.1",
+          "depth": 3,
+          "text": "A dispensa da obrigação de elaborar o PGR não alcança a organização contratante do MEI, que deverá incluí-lo nas suas ações de prevenção e no seu PGR, quando este atuar em suas dependências ou local previamente convencionado em contrato."
+        },
+        {
+          "type": "item",
+          "number": "1.8.2",
+          "depth": 2,
+          "text": "Serão expedidas pela Secretaria Especial de Previdência e Trabalho - SEPRT fichas com orientações sobre as medidas de prevenção a serem adotadas pelo MEI."
+        },
+        {
+          "type": "item",
+          "number": "1.8.3",
+          "depth": 2,
+          "text": "As microempresa e empresas de pequeno porte que não forem obrigadas a constituir SESMT e optarem pela utilização de ferramenta(s) de avaliação de risco a serem disponibilizada(s) pela SEPRT, em alternativa às ferramentas e técnicas previstas no subitem 1.5.4.4.2.1, poderão estruturar o PGR considerando o relatório produzido por esta(s) ferramenta(s) e o plano de ação."
+        },
+        {
+          "type": "item",
+          "number": "1.8.4",
+          "depth": 2,
+          "text": "As microempresas e empresas de pequeno porte, graus de risco 1 e 2, que no levantamento preliminar de perigos não identificarem exposições ocupacionais a agentes físicos, químicos e biológicos, em conformidade com a NR-9, e declararem as informações digitais na forma do subitem 1.6.1, ficam dispensadas da elaboração do PGR."
+        },
+        {
+          "type": "item",
+          "number": "1.8.4.1",
+          "depth": 3,
+          "text": "As informações digitais de segurança e saúde no trabalho declaradas devem ser divulgadas junto aos trabalhadores."
+        },
+        {
+          "type": "item",
+          "number": "1.8.5",
+          "depth": 2,
+          "text": "A dispensa prevista nesta Norma é aplicável quanto à obrigação de elaboração do PGR e não afasta a obrigação de cumprimento por parte do MEI, ME e EPP das demais disposições previstas em NR."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "14"
+        },
+        {
+          "type": "item",
+          "number": "1.8.6",
+          "depth": 2,
+          "text": "O MEI, a ME e a EPP, graus de risco 1 e 2, que declararem as informações digitais na forma do subitem 1.6.1 e não identificarem exposições ocupacionais a agentes físicos, químicos, biológicos e riscos relacionados a fatores ergonômicos, ficam dispensados de elaboração do Programa de Controle Médico de Saúde Ocupacional - PCMSO."
+        },
+        {
+          "type": "item",
+          "number": "1.8.7.1",
+          "depth": 3,
+          "text": "A dispensa do PCMSO não desobriga a empresa da realização dos exames médicos e emissão do Atestado de Saúde Ocupacional - ASO."
+        },
+        {
+          "type": "item",
+          "number": "1.8.7",
+          "depth": 2,
+          "text": "Os graus de riscos 1 e 2 mencionados nos subitens 1.8.4 e 1.8.6 são os previstos na Norma Regulamentadores nº 04 - Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho - SESMT."
+        },
+        {
+          "type": "item",
+          "number": "1.8.8",
+          "depth": 2,
+          "text": "O empregador é o responsável pela prestação das informações previstas nos subitens 1.8.4 e 1.8.6."
+        }
+      ]
+    },
+    {
+      "id": "19-disposições-finais",
+      "number": "1.9",
+      "title": "Disposições finais",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.9.1",
+          "depth": 2,
+          "text": "O não-cumprimento das disposições legais e regulamentares sobre segurança e saúde no trabalho acarretará a aplicação das penalidades previstas na legislação pertinente."
+        },
+        {
+          "type": "item",
+          "number": "1.9.2",
+          "depth": 2,
+          "text": "Os casos omissos verificados no cumprimento das NR serão decididos pela Secretaria de Trabalho, ouvida a SIT."
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-da-nr-01",
+      "number": "ANEXO I",
+      "title": "da NR-01",
+      "blocks": []
+    },
+    {
+      "id": "termos-e-definições",
+      "number": "",
+      "title": "Termos e definições",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Agente biológico: Microrganismos, parasitas ou materiais originados de organismos que, em função de sua natureza e do tipo de exposição, são capazes de acarretar lesão ou agravo à saúde do trabalhador. Exemplos: bactéria **Bacillus anthracis** , vírus linfotrópico da célula T humana, príon agente de doença de **Creutzfeldt-Jakob** , fungo **Coccidioides immitis** ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agente físico: Qualquer forma de energia que, em função de sua natureza, intensidade e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: ruído, vibrações, pressões anormais, temperaturas extremas, radiações ionizantes, radiações não ionizantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Observação: Critérios sobre iluminamento, conforto térmico e conforto acústico da NR-17 não constituem agente físico para fins da NR-09."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agente químico: Substância química, por si só ou em misturas, quer seja em seu estado natural, quer seja produzida, utilizada ou gerada no processo de trabalho, que em função de sua natureza, concentração e exposição, é capaz de causar lesão ou agravo à saúde do trabalhador. Exemplos: fumos de cádmio, poeira mineral contendo sílica cristalina, vapores de tolueno, névoas de ácido sulfúrico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avaliação de riscos: Processo contínuo e sistemático destinado a determinar os níveis de risco relacionados aos perigos a que estão sujeitos os trabalhadores, sua classificação e julgamento sobre a necessidade de adoção ou manutenção de medidas de prevenção. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Canteiro de obra: área de trabalho fixa e temporária, onde se desenvolvem operações de apoio e execução à construção, demolição ou reforma de uma obra."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "15"
+        },
+        {
+          "type": "paragraph",
+          "text": "Emergências de grande magnitude: evento inesperado, sem aviso, relacionados aos processos da organização, cujas consequências atinjam, além dos trabalhadores, a população ou o meio ambiente. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Empregado: a pessoa física que presta serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empregador: a empresa individual ou coletiva que, assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviços. Equiparam-se ao empregador as organizações, os profissionais liberais, as instituições de beneficência, as associações recreativas ou outras instituições sem fins lucrativos, que admitam trabalhadores como empregados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estabelecimento: local privado ou público, edificado ou não, móvel ou imóvel, próprio ou de terceiros, onde a empresa ou a organização exerce suas atividades em caráter temporário ou permanente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Evento perigoso: Ocorrência ou acontecimento com o potencial de causar lesões ou agravos à saúde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frente de trabalho: área de trabalho móvel e temporária."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gerenciamento de Riscos Ocupacionais (GRO): Processo contínuo e sistemático de identificação de perigos, avaliação e controle dos riscos ocupacionais de uma organização, com a finalidade de proporcionar locais de trabalho seguros e saudáveis, prevenir lesões e agravos à saúde relacionados com o trabalho e melhorar o desempenho em Segurança e Saúde do Trabalho nas organizações. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Identificação de perigos: processo de buscar, reconhecer e descrever perigos à segurança e saúde dos trabalhadores. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de_** _2024 -_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Levantamento preliminar de perigos e riscos: etapa inicial do gerenciamento de riscos ocupacionais para identificar perigos e riscos com a finalidade de evitar ou eliminar perigos e reduzir ou controlar os riscos ocupacionais evidentes à segurança e saúde dos trabalhadores, com a adoção de medidas imediatas. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Local de trabalho: área onde são executados os trabalhos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Normas europeias harmonizadas: norma técnica europeia desenvolvida por Organização Europeia de Normalização reconhecida. A lista atualizada das normas harmonizadas é publicada no Jornal Oficial da União Europeia. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Normas técnicas internacionais: normas publicadas por uma das seguintes entidades internacionais: International Organization for Standardization (ISO) ou International Electrotechnical Commission (IEC). _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Normas técnicas nacionais ou Norma técnica oficial ou Norma técnica brasileira: normas técnicas publicadas pela Associação Brasileira de Normas Técnicas (ABNT), entidade privada reconhecida como Foro Nacional de Normalização por intermédio da Resolução nº 07, de 24 de agosto de 1992, do Conselho Nacional de Metrologia, Normalização e Qualidade Industrial - CONMETRO. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Obra: todo e qualquer serviço de engenharia de construção, montagem, instalação, manutenção ou reforma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ordem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "id": "contemplada-em-procedimentos-de-trabalho-e-outras-instruções-de-sst",
+      "number": "",
+      "title": "contemplada em procedimentos de trabalho e outras instruções de SST.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Organização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou privada."
+        },
+        {
+          "type": "paragraph",
+          "text": "Organização contratada: pessoa jurídica de direito privado prestadora de serviços contratada para a execução de atividades da organização contratante, nos termos da Lei 6.019/1974 e suas alterações. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perigo externo: situações previsíveis não controladas pela organização, fora dos limites do estabelecimento, da frente ou local de trabalho, que possam causar lesões e agravos à saúde dos trabalhadores, para as quais se deve adotar medidas de prevenção mitigadoras possíveis. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perigo ou fator de risco ocupacional/ Perigo ou fonte de risco ocupacional: Fonte com o potencial de causar lesões ou agravos à saúde. Elemento que isoladamente ou em combinação com outros tem o potencial intrínseco de dar origem a lesões ou agravos à saúde. _(Redação pela_ **_Portaria MTE nº 344, de 21 de março de 2024 -_** _<mark>vigente até 25 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perigo ou fator de risco ocupacional: Elemento ou situação que, isoladamente ou em combinação, tem o potencial de dar origem a lesões ou agravos à saúde. _(Redação dada pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prevenção: o conjunto das disposições ou medidas tomadas ou previstas em todas as fases da atividade da organização, visando evitar, eliminar, minimizar ou controlar os riscos ocupacionais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Programa de Gerenciamento de Riscos (PGR): conjunto coordenado de ações da organização para atingir os objetivos de prevenção e gerenciamento dos riscos ocupacionais, formalmente documentado. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025)</mark>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Responsável técnico pela capacitação: profissional legalmente habilitado ou trabalhador qualificado, conforme disposto em NR específica, responsável pela elaboração das capacitações e treinamentos, podendo ser o responsável técnico pelo treinamento. _(alterada pela Portaria MTE nº 344, de 21 de março de 2024)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Responsável técnico pelo treinamento: profissional ou trabalhador qualificado, ou ainda profissional legalmente habilitado, salvo disposição de NR específica, responsável pela execução do treinamento, podendo ser o próprio instrutor do treinamento. _(inserida pela Portaria MTE nº 344, de 21 de março de 2024)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risco ocupacional: Combinação da probabilidade de ocorrer lesão ou agravo à saúde causados por um evento perigoso, exposição a agente nocivo ou exigência da atividade de trabalho e da severidade dessa lesão ou agravo à saúde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risco ocupacional evidente: situação de risco óbvio e não controlado, que não requer análise aprofundada e pode ser reduzido ou controlado pela adoção imediata de medidas de prevenção. _(Inserido pela_ **_Portaria MTE nº 1.419, de 27 de agosto de 2024_** _-_ _<mark>vigência em 26 de maio de 2025</mark> )_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setor de serviço: a menor unidade administrativa ou operacional compreendida no mesmo estabelecimento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trabalhador: pessoa física inserida em uma relação de trabalho, inclusive de natureza administrativa, como os empregados e outros sem vínculo de emprego."
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii-da-nr-01",
+      "number": "ANEXO II",
+      "title": "da NR-01",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "17"
+        }
+      ]
+    },
+    {
+      "id": "diretrizes-e-requisitos-mínimos-para-utilização-da-modalidade-de-ensino-a-distância-e-semipresencial",
+      "number": "",
+      "title": "Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial.",
+      "blocks": []
+    },
+    {
+      "id": "sumário",
+      "number": "",
+      "title": "Sumário :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1. Objetivo"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Disposições gerais"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Estruturação pedagógica"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Requisitos operacionais e administrativo"
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Requisitos tecnológicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Glossário"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivo",
+      "number": "",
+      "title": "1. Objetivo",
+      "blocks": []
+    },
+    {
+      "id": "11-estabelecer-diretrizes-e-requisitos-mínimos-para-utilização-da-modalidade-de-ensino-à-distância-e-semipresencial-para-as-capacitações-previstas-nas-nr-disciplinando-tanto-aspectos-relativos-à-estruturação-pedagógica-quanto-exigências-relacionadas-às-condições-operacionais-tecnológicas-e-administrativas-necessárias-para-uso-desta-modalidade-de-ensino",
+      "number": "1.1",
+      "title": "Estabelecer diretrizes e requisitos mínimos para utilização da modalidade de ensino à distância e semipresencial para as capacitações previstas nas NR, disciplinando tanto aspectos relativos à estruturação pedagógica, quanto exigências relacionadas às condições operacionais, tecnológicas e administrativas necessárias para uso desta modalidade de ensino",
+      "blocks": []
+    },
+    {
+      "id": "2-disposições-gerais",
+      "number": "",
+      "title": "2. Disposições gerais",
+      "blocks": []
+    },
+    {
+      "id": "21-o-empregador-que-optar-pela-realização-das-capacitações-por-meio-das-modalidades-de-ensino-a-distância-ou-semipresencial-poderá-desenvolver-toda-a-capacitação-ou-contratar-empresa-ou-instituição-especializada-que-a-oferte-devendo-em-ambos-os-casos-observar-os-requisitos-constantes-deste-anexo-e-da-nr-01",
+      "number": "2.1",
+      "title": "O empregador que optar pela realização das capacitações por meio das modalidades de ensino a distância ou semipresencial poderá desenvolver toda a capacitação ou contratar empresa ou instituição especializada que a oferte, devendo em ambos os casos observar os requisitos constantes deste Anexo e da NR-01",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.1.1",
+          "depth": 2,
+          "text": "A empresa ou instituição especializada que oferte as capacitações previstas nas NR na modalidade de ensino à distância e semipresencial, deve atender aos requisitos constantes deste Anexo e da NR-01 para que seus certificados sejam considerados válidos."
+        }
+      ]
+    },
+    {
+      "id": "22-o-empregador-que-optar-pela-contratação-de-serviços-de-empresa-ou-instituição-especializada-deve-fazer-constar-na-documentação-que-formaliza-a-prestação-de-serviços-a-obrigatoriedade-pelo-prestador-de-serviço-do-atendimento-aos-requisitos-previstos-neste-anexo-e-nos-itens-relativos-à-capacitação-previstos-nas-nr",
+      "number": "2.2",
+      "title": "O empregador que optar pela contratação de serviços de empresa ou instituição especializada deve fazer constar na documentação que formaliza a prestação de serviços a obrigatoriedade pelo prestador de serviço do atendimento aos requisitos previstos neste Anexo e nos itens relativos à capacitação previstos nas NR",
+      "blocks": []
+    },
+    {
+      "id": "23-as-capacitações-que-utilizam-ensino-a-distância-ou-semipresencial-devem-ser-estruturadas-com-no-mínimo-a-duração-definida-para-as-respectivas-capacitações-na-modalidade-presencial",
+      "number": "2.3",
+      "title": "As capacitações que utilizam ensino a distância ou semipresencial devem ser estruturadas com, no mínimo, a duração definida para as respectivas capacitações na modalidade presencial",
+      "blocks": []
+    },
+    {
+      "id": "24-a-elaboração-do-conteúdo-programático-deve-abranger-os-tópicos-de-aprendizagem-requeridos-bem-como-respeitar-a-carga-horária-estabelecida-para-todos-os-conteúdos",
+      "number": "2.4",
+      "title": "A elaboração do conteúdo programático deve abranger os tópicos de aprendizagem requeridos, bem como respeitar a carga horária estabelecida para todos os conteúdos",
+      "blocks": []
+    },
+    {
+      "id": "25-as-atividades-práticas-obrigatórias-devem-respeitar-as-orientações-previstas-nas-nr-e-estar-descritas-no-projeto-pedagógico-do-curso",
+      "number": "2.5",
+      "title": "As atividades práticas obrigatórias devem respeitar as orientações previstas nas NR e estar descritas no Projeto Pedagógico do curso",
+      "blocks": []
+    },
+    {
+      "id": "3-estruturação-pedagógica",
+      "number": "",
+      "title": "3. Estruturação pedagógica",
+      "blocks": []
+    },
+    {
+      "id": "31-sempre-que-a-modalidade-de-ensino-a-distância-ou-semipresencial-for-utilizada-será-obrigatória-a-elaboração-de-projeto-pedagógico-que-deve-conter",
+      "number": "3.1",
+      "title": "Sempre que a modalidade de ensino a distância ou semipresencial for utilizada, será obrigatória a elaboração de projeto pedagógico que deve conter:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "objetivo geral da capacitação;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "18"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "princípios e conceitos para a proteção da segurança e da saúde dos trabalhadores, definidos nas NR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "estratégia pedagógica da capacitação, incluindo abordagem quanto à parte teórica e prática, quando houver;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "indicação do responsável técnico pela capacitação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "relação de instrutores, quando aplicável;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "infraestrutura operacional de apoio e controle;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "conteúdo programático teórico e prático, quando houver;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "objetivo de cada módulo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "carga horária;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "estimativa de tempo mínimo de dedicação diária ao curso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "prazo máximo para conclusão da capacitação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "público-alvo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "m",
+              "text": "material didático;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "n",
+              "text": "instrumentos para potencialização do aprendizado; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "o",
+              "text": "avaliação de aprendizagem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33-o-projeto-pedagógico-do-curso-deverá-ser-validado-a-cada-2-dois-anos-ou-quando-houver-mudança-na-nr-procedendo-a-sua-revisão-caso-necessário",
+      "number": "3.3",
+      "title": "O projeto pedagógico do curso deverá ser validado a cada 2 (dois) anos ou quando houver mudança na NR, procedendo a sua revisão, caso necessário",
+      "blocks": []
+    },
+    {
+      "id": "4-requisitos-operacionais-e-administrativos",
+      "number": "",
+      "title": "4. Requisitos operacionais e administrativos",
+      "blocks": []
+    },
+    {
+      "id": "41-o-empregador-deve-manter-o-projeto-pedagógico-disponível-para-a-inspeção-do-trabalho-para-a-representação-sindical-da-categoria-no-estabelecimento-e-para-a-comissão-interna-de-prevenção-de-acidentes-e-de-assédio---cipa-_alterado-pela-portaria-mtp-nº-4219-de-20-de-dezembro-de-2022_",
+      "number": "4.1",
+      "title": "O empregador deve manter o projeto pedagógico disponível para a Inspeção do Trabalho, para a representação sindical da categoria no estabelecimento e para a Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.1.1",
+          "depth": 2,
+          "text": "A empresa ou instituição especializada deve disponibilizar aos contratantes o projeto pedagógico."
+        }
+      ]
+    },
+    {
+      "id": "42-deve-ser-disponibilizado-aos-trabalhadores-todo-o-material-didático-necessário-para-participar-da-capacitação-conforme-item-31-deste-anexo",
+      "number": "4.2",
+      "title": "Deve ser disponibilizado aos trabalhadores todo o material didático necessário para participar da capacitação, conforme item 3.1 deste Anexo",
+      "blocks": []
+    },
+    {
+      "id": "43-devem-ser-disponibilizados-recursos-e-ambiente-que-favoreça-a-concentração-e-a-absorção-do-conhecimento-pelo-empregado-para-a-realização-da-capacitação",
+      "number": "4.3",
+      "title": "Devem ser disponibilizados recursos e ambiente que favoreça a concentração e a absorção do conhecimento pelo empregado, para a realização da capacitação",
+      "blocks": []
+    },
+    {
+      "id": "44-o-período-de-realização-do-curso-deve-ser-exclusivamente-utilizado-para-tal-fim-para-que-não-seja-concomitante-com-o-exercício-das-atividades-diárias-de-trabalho",
+      "number": "4.4",
+      "title": "O período de realização do curso deve ser exclusivamente utilizado para tal fim para que não seja concomitante com o exercício das atividades diárias de trabalho",
+      "blocks": []
+    },
+    {
+      "id": "45-deve-ser-mantido-canal-de-comunicação-para-esclarecimento-de-dúvidas-possibilitando-a-solução-das-mesmas-devendo-tal-canal-estar-operacional-durante-o-período-de-realização-do-curso",
+      "number": "4.5",
+      "title": "Deve ser mantido canal de comunicação para esclarecimento de dúvidas, possibilitando a solução das mesmas, devendo tal canal estar operacional durante o período de realização do curso",
+      "blocks": []
+    },
+    {
+      "id": "46-a-verificação-de-aprendizagem-deve-ser-realizada-de-acordo-com-a-estratégia-pedagógica",
+      "number": "4.6",
+      "title": "A verificação de aprendizagem deve ser realizada de acordo com a estratégia pedagógica",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "19"
+        },
+        {
+          "type": "paragraph",
+          "text": "adotada para a capacitação, estabelecendo a classificação com o conceito satisfatório ou insatisfatório."
+        },
+        {
+          "type": "item",
+          "number": "4.6.1",
+          "depth": 2,
+          "text": "A avaliação da aprendizagem se dará pela aplicação da prova no formato presencial, obtendo, dessa forma, o registro da assinatura do empregado, ou pelo formato digital, exigindo a sua identificação e senha individual."
+        },
+        {
+          "type": "item",
+          "number": "4.6.2",
+          "depth": 2,
+          "text": "Quando a avaliação da aprendizagem for online, devem ser preservadas condições de rastreabilidade que garantam a confiabilidade do processo."
+        },
+        {
+          "type": "item",
+          "number": "4.6.3",
+          "depth": 2,
+          "text": "O processo de avaliação da aprendizagem deve contemplar situações práticas que representem a rotina laboral do trabalhador para a adequada tomada de decisões com vistas à prevenção de acidentes e doenças relacionadas ao trabalho."
+        }
+      ]
+    },
+    {
+      "id": "47-após-o-término-do-curso-as-empresas-devem-registrar-sua-realização-mantendo-o-resultado-das-avaliações-de-aprendizagem-e-informações-sobre-acesso-dos-participantes-logs",
+      "number": "4.7",
+      "title": "Após o término do curso, as empresas devem registrar sua realização, mantendo o resultado das avaliações de aprendizagem e informações sobre acesso dos participantes (logs)",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.7.1",
+          "depth": 2,
+          "text": "O histórico do registro de acesso dos participantes (logs) deve ser mantido pelo prazo mínimo de 2 (dois) anos após o término da validade do curso."
+        }
+      ]
+    },
+    {
+      "id": "5-requisitos-tecnológicos",
+      "number": "",
+      "title": "5. Requisitos tecnológicos",
+      "blocks": []
+    },
+    {
+      "id": "51-somente-serão-válidas-as-capacitações-realizadas-na-modalidade-de-ensino-à-distância-ou-semipresencial-que-sejam-executadas-em-um-ambiente-virtual-de-aprendizagem-apropriado-à-gestão-transmissão-do-conhecimento-e-aprendizagem-do-conteúdo",
+      "number": "5.1",
+      "title": "Somente serão válidas as capacitações realizadas na modalidade de ensino à distância ou semipresencial que sejam executadas em um Ambiente Virtual de Aprendizagem apropriado à gestão, transmissão do conhecimento e aprendizagem do conteúdo",
+      "blocks": []
+    },
+    {
+      "id": "6-glossário",
+      "number": "",
+      "title": "6. Glossário",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ambiente exclusivo: espaço físico distinto do posto de trabalho que disponibilize ao trabalhador os recursos tecnológicos necessários à execução do curso e condições de conforto adequadas para a aprendizagem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ambiente Virtual de Aprendizagem (AVA): espaço virtual de aprendizagem que oferece condições para interações (síncrona e assíncrona) permanentes entre seus usuários. Pode ser traduzida como sendo uma “sala de aula” acessada via web. Permite integrar múltiplas mídias, linguagens e recursos, apresentar informações de maneira organizada, desenvolver interações entre pessoas e objetos de conhecimento, elaborar e socializar produções, tendo em vista atingir determinados objetivos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avaliação de Aprendizagem: visa aferir o conhecimento adquirido pelo trabalhador e o respectivo grau de assimilação após a realização da capacitação."
+        },
+        {
+          "type": "paragraph",
+          "text": "EAD: segundo Decreto n.º 9.057/2017, caracteriza-se a Educação a Distância como modalidade educacional na qual a mediação didático-pedagógica nos processos de ensino e aprendizagem ocorre com a utilização de meios e tecnologias de informação e comunicação, com estudantes e professores desenvolvendo atividades educativas em lugares ou tempos diversos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensino semipresencial: conjugação de atividades presenciais obrigatórias com outras atividades educacionais que podem ser realizadas sem a presença física do participante em sala de aula, utilizando recursos didáticos com suporte da tecnologia, de material impresso e/ou de outros meios de comunicação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projeto pedagógico: instrumento de concepção do processo ensino-aprendizagem. Nele deve-"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "20"
+        },
+        {
+          "type": "paragraph",
+          "text": "se registrar o objetivo da aprendizagem, a estratégia pedagógica escolhida para a formação e capacitação dos trabalhadores, bem como todas as informações que estejam envolvidas no processo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instrumentos para potencialização do aprendizado: recursos, ferramentas, dinâmicas e tecnologias de comunicação que tenham como objetivo tornar mais eficaz o processo de ensinoaprendizagem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Log: registro informatizado de acesso ao sistema. Ex.: log de acesso: registro de acessos; login: registro de entrada; logoff: registro de saída."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "21"
+        }
+      ]
+    }
+  ]
+}

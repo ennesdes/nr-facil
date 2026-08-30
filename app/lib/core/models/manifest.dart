@@ -4,6 +4,8 @@
 /// Fallbacks defensivos em fromMap() para lidar com cache corrompido ou versão antiga.
 library;
 
+import 'package:nrfacil/core/utils/nr_id_utils.dart';
+
 class Manifest {
   final DateTime generatedAt;
   final int version;
@@ -154,6 +156,16 @@ class ManifestEntry {
 
   /// Verificar se NR foi revogada (opcional).
   bool get isRevoked => revogada == true;
+
+  /// Número ordinal para ordenação (ex.: `nr-06` → 6).
+  int get sortNumber => parseNrNumber(id);
+
+  /// Rótulo curto para exibição (ex.: `NR-06`).
+  String get nrLabel => formatNrLabel(id);
+
+  /// Ordena entradas pelo número da NR.
+  static int compareByNumber(ManifestEntry a, ManifestEntry b) =>
+      a.sortNumber.compareTo(b.sortNumber);
 }
 
 class ManifestParseException implements Exception {

@@ -1,0 +1,4510 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 13 - CALDEIRAS, VASOS DE PRESSÃO, TUBULAÇÕES E TANQUES METÁLICOS DE ARMAZENAMENTO**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria SSMT nº02, de 08 de maio de 1984|07/06/84|\n|Portaria SSST nº23, de 27 de dezembro de 1994|Rep.:26/04/95|\n|Portaria SIT nº57, de 19 de junho de 2008|24/06/08|\n|Portaria MTE nº594, de 28 de abril de 2014|02/05/14|\n|Portaria MTb nº1.084, de 28 de setembro de 2017|29/09/17|\n|Portaria MTb nº1.082, de 18 de dezembro de 2018|20/12/18|\n|Portaria MTP nº1.846, de 01 de julho de 2022|04/07/22|\n|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTb nº 1.846, de 01 de julho de 2022)_"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "131-objetivo",
+      "number": "13.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.1.1",
+          "depth": 2,
+          "text": "O objetivo desta Norma Regulamentadora - NR é estabelecer requisitos mínimos para a gestão da integridade estrutural de caldeiras, vasos de pressão, suas tubulações de interligação e tanques metálicos de armazenamento nos aspectos relacionados à instalação, inspeção, operação e manutenção, visando a segurança e saúde dos trabalhadores."
+        },
+        {
+          "type": "item",
+          "number": "13.1.2",
+          "depth": 2,
+          "text": "O empregador é o responsável pela adoção das medidas determinadas nesta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.1.3",
+          "depth": 2,
+          "text": "O disposto no item anterior aplica-se também aos equipamentos pertencentes a terceiros, circunscritos ao estabelecimento do empregador."
+        },
+        {
+          "type": "item",
+          "number": "13.1.3.1",
+          "depth": 3,
+          "text": "A responsabilidade do empregador não elide o dever do proprietário dos equipamentos de cumprir as disposições legais e regulamentares acerca do tema."
+        },
+        {
+          "type": "item",
+          "number": "13.1.4",
+          "depth": 2,
+          "text": "Considera-se estabelecimento com Serviço Próprio de Inspeção de Equipamentos - SPIE aquele cujo empregador obtém, de forma voluntária, a certificação prevista no Anexo II desta NR."
+        }
+      ]
+    },
+    {
+      "id": "132-campo-de-aplicação",
+      "number": "13.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.2.1",
+          "depth": 2,
+          "text": "Esta NR deve ser aplicada aos seguintes equipamentos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "caldeiras com pressão de operação superior a 60 kPa (0,61 kgf/cm²);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vasos de pressão cujo produto P.V seja superior a 8 (oito), onde P é o módulo da pressão máxima de operação em kPa e V o seu volume interno em m³;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vasos de pressão que contenham fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1, independente do produto P.V;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "recipientes móveis com P.V superior a oito, onde P é o módulo da pressão máxima de operação em kPa, ou com fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "tubulações que contenham fluidos de classe A ou B, conforme as alíneas “a” e “b” do subitem 13.5.1.1.1, ligadas a caldeiras ou vasos de pressão abrangidos por esta NR; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "tanques metálicos de armazenamento, com diâmetro externo maior do que três metros, capacidade nominal acima de vinte mil litros, e que contenham fluidos de classe A ou B, conforme as alíneas “a” e “b” do subitem 13.5.1.1.1 desta NR. _(entra em vigor em 04 de julho de 2026 - art. 3º da Portaria MTP nº 1.846/22)_"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.2.2",
+          "depth": 2,
+          "text": "Esta NR não se aplica aos seguintes equipamentos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "recipientes transportáveis, vasos de pressão destinados ao transporte de produtos, reservatórios portáteis de fluido comprimido e extintores de incêndio;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vasos de pressão destinados à ocupação humana;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vasos de pressão integrantes de sistemas auxiliares de pacote de máquinas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "dutos e seus componentes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "fornos, serpentinas para troca térmica e aquecedores de fluido térmico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "vasos de pressão com diâmetro interno inferior a cento e cinquenta milímetros independentemente da classe do fluido;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "geradores de vapor não enquadrados em códigos de vasos de pressão ou caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "tubos de sistemas de instrumentação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "tubulações de redes públicas de distribuição de gás;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "vasos de pressão fabricados em Plástico Reforçado de Fibra de Vidro - PRFV, inclusive aqueles sujeitos à condição de vácuo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "caldeiras com volume inferior a cem litros;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "tanques estruturais de embarcações, navios e plataformas marítimas de exploração e produção de petróleo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "m",
+              "text": "vasos e acumuladores de equipamentos submarinos destinados à produção e exploração de petróleo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "n",
+              "text": "tanques enterrados ou apoiados sobre pernas, sapatas, pedestais ou selas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "o",
+              "text": "panelas de cocção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "p",
+              "text": "acumuladores e blocos hidráulicos; _(retificada em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "q",
+              "text": "tubulações que operam com vapor, observado o disposto no subitem 13.6.2.6 desta NR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "r",
+              "text": "trocador de calor de placas corrugadas gaxetadas e brasadas; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "s",
+              "text": "vasos de pressão sujeitos exclusivamente a condições de vácuo menor ou igual a 5 kPa, que não contenham fluidos de classe A."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.2.3",
+          "depth": 2,
+          "text": "O disposto no item 13.2.2 não exime o empregador do dever de inspecionar e executar a manutenção dos referidos equipamentos e de outros sistemas pressurizados que ofereçam riscos aos trabalhadores, acompanhadas ou executadas por um"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "responsável técnico, e observadas as recomendações do fabricante, bem como o disposto em códigos ou normas aplicáveis. _(retificado em 20/10/2022)_"
+        }
+      ]
+    },
+    {
+      "id": "133-disposições-gerais",
+      "number": "13.3",
+      "title": "Disposições gerais",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.3.1",
+          "depth": 2,
+          "text": "As seguintes situações constituem condição de grave e iminente risco:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "operação de equipamentos abrangidos por esta NR sem os dispositivos de segurança previstos nos subitens 13.4.1.2 “a”, 13.5.1.2 “a”, 13.6.1.2 e 13.7.2.1;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "atraso na inspeção de segurança periódica de caldeiras;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ausência ou bloqueio de dispositivos de segurança, sem a devida justificativa técnica, baseada em códigos, normas ou procedimentos formais de operação do equipamento;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ausência ou indisponibilidade operacional de dispositivo de controle do nível de água na caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "operação de equipamento enquadrado nesta NR, cujo relatório de inspeção ateste a sua inaptidão operacional; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "operação de caldeira em desacordo com o disposto no item 13.4.3.3 desta NR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.1.1",
+          "depth": 3,
+          "text": "Por motivo de força maior e com justificativa formal do empregador, acompanhada por análise técnica e respectivas medidas de contingência para mitigação dos riscos, elaborada por Profissional Legalmente Habilitado - PLH ou por grupo multidisciplinar por ele coordenado, pode ocorrer postergação de até seis meses do prazo previsto para a inspeção de segurança periódica dos equipamentos abrangidos por esta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.3.1.1.1",
+          "depth": 4,
+          "text": "O empregador deve comunicar ao sindicato dos trabalhadores da categoria predominante do estabelecimento a justificativa formal para postergação da inspeção de segurança periódica dos equipamentos abrangidos por esta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.3.2",
+          "depth": 2,
+          "text": "Para efeito desta NR, considera-se PLH aquele que tem competência legal para o exercício da profissão de engenheiro nas atividades referentes a projeto de construção, acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, vasos de pressão, tubulações e tanques metálicos de armazenamento, em conformidade com a regulamentação profissional vigente no País."
+        },
+        {
+          "type": "item",
+          "number": "13.3.2.1",
+          "depth": 3,
+          "text": "O PLH pode obter voluntariamente a certificação de suas competências profissionais por intermédio de um Organismo de Certificação de Pessoas - OPC acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO, conforme estabelece o Anexo III desta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.3.3",
+          "depth": 2,
+          "text": "A inspeção de segurança dos equipamentos abrangidos por esta NR deve ser executada sob a responsabilidade técnica de PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.3.4",
+          "depth": 2,
+          "text": "A inspeção de segurança dos equipamentos abrangidos por esta NR deve ser respaldada por exames e testes, a critério técnico do PLH, observado o disposto em códigos ou normas aplicáveis."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "13.3.4.1",
+          "depth": 3,
+          "text": "Deve ser observado o histórico dos equipamentos quando existente."
+        },
+        {
+          "type": "item",
+          "number": "13.3.4.2",
+          "depth": 3,
+          "text": "Os exames e testes devem ser realizados em condições de segurança para os executantes e demais trabalhadores envolvidos."
+        },
+        {
+          "type": "item",
+          "number": "13.3.4.3",
+          "depth": 3,
+          "text": "A execução de testes pneumáticos ou hidropneumáticos, quando indispensável, deve ser realizada sob responsabilidade técnica de PLH, com aprovação prévia dos procedimentos a serem aplicados. _(retificado em 20/10/2022)_"
+        },
+        {
+          "type": "item",
+          "number": "13.3.5",
+          "depth": 2,
+          "text": "É proibida a inibição dos instrumentos, controles e sistemas de segurança, exceto quando prevista, de forma provisória, em procedimentos formais de operação e manutenção ou mediante justificativa formalmente documentada elaborada por responsável técnico, com prévia análise de risco e anuência do empregador ou de preposto por ele designado, desde que mantida a segurança operacional."
+        },
+        {
+          "type": "item",
+          "number": "13.3.6",
+          "depth": 2,
+          "text": "Os instrumentos e sistemas de controle e segurança dos equipamentos abrangidos por esta NR devem ser mantidos em condições adequadas de uso e devidamente inspecionados e testados ou, quando aplicável, calibrados."
+        },
+        {
+          "type": "item",
+          "number": "13.3.7",
+          "depth": 2,
+          "text": "Todos os reparos ou alterações em equipamentos abrangidos nesta NR devem respeitar os respectivos códigos de construção e as prescrições do fabricante no que se refere a:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "materiais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "procedimentos de execução;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "procedimentos de controle de qualidade; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "qualificação e certificação de pessoal."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.7.1",
+          "depth": 3,
+          "text": "Quando não for conhecido o código de construção, deve ser respeitada a concepção original da caldeira, vaso de pressão, tubulação ou tanque metálico de armazenamento, empregando-se os procedimentos de controle prescritos pelos códigos aplicáveis a esses equipamentos."
+        },
+        {
+          "type": "item",
+          "number": "13.3.7.2",
+          "depth": 3,
+          "text": "A critério técnico do PLH, podem ser utilizadas tecnologias de cálculo ou procedimentos mais avançados, em substituição aos previstos pelos códigos de construção."
+        },
+        {
+          "type": "item",
+          "number": "13.3.7.3",
+          "depth": 3,
+          "text": "Projetos de alteração ou reparo devem ser concebidos previamente nas seguintes situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que as condições de projeto forem modificadas; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "sempre que forem realizados reparos que possam comprometer a segurança."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.7.4",
+          "depth": 3,
+          "text": "Os projetos de alteração e os projetos de reparo devem:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser concebidos ou aprovados por PLH;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "determinar materiais, procedimentos de execução, controle de qualidade e qualificação de pessoal; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ser divulgados para os empregados do estabelecimento que estão envolvidos com o equipamento."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.7.5",
+          "depth": 3,
+          "text": "Todas as intervenções que exijam mandrilamento ou soldagem em partes que operem sob pressão devem ser objeto de exames ou testes para controle da qualidade com parâmetros definidos por PLH, de acordo com códigos ou normas aplicáveis."
+        },
+        {
+          "type": "item",
+          "number": "13.3.8",
+          "depth": 2,
+          "text": "Os relatórios de inspeção de segurança dos equipamentos abrangidos por esta NR devem ser elaborados em até 60 (sessenta) dias ou, no caso de parada geral de manutenção, em até 90 (noventa) dias."
+        },
+        {
+          "type": "item",
+          "number": "13.3.8.1",
+          "depth": 3,
+          "text": "Imediatamente após a inspeção de segurança de caldeira, vaso de pressão ou tanque metálico de armazenamento, deve ser anotada, no respectivo registro de segurança, previsto nos subitens 13.4.1.8, 13.5.1.7 e 13.7.1.3 desta NR, a condição operacional e de segurança."
+        },
+        {
+          "type": "item",
+          "number": "13.3.8.2",
+          "depth": 3,
+          "text": "As recomendações decorrentes das inspeções de segurança devem ser registradas e implementadas pelo empregador, com a determinação de prazos e responsáveis pela execução."
+        },
+        {
+          "type": "item",
+          "number": "13.3.9",
+          "depth": 2,
+          "text": "Os relatórios, projetos, certificados e demais documentos previstos nesta NR podem ser elaborados e armazenados em sistemas informatizados, com segurança da informação, ou mantidos em mídia eletrônica com assinatura validada por uma Autoridade Certificadora - AC, assegurados os requisitos de autenticidade, integridade, disponibilidade, rastreabilidade e irretratabilidade das informações."
+        },
+        {
+          "type": "item",
+          "number": "13.3.9.1",
+          "depth": 3,
+          "text": "No caso de versão impressa de relatórios de inspeção de segurança, as páginas devem ser numeradas."
+        },
+        {
+          "type": "item",
+          "number": "13.3.10",
+          "depth": 2,
+          "text": "A documentação dos equipamentos abrangidos por esta NR deve permanecer à disposição para consulta dos operadores, do pessoal de manutenção, de inspeção e das representações dos trabalhadores e do empregador na Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, devendo o empregador assegurar pleno acesso a essa documentação, inclusive à representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitado."
+        },
+        {
+          "type": "item",
+          "number": "13.3.11",
+          "depth": 2,
+          "text": "O empregador deve comunicar à autoridade regional competente em matéria de trabalho e ao sindicato da categoria profissional predominante do estabelecimento a ocorrência de vazamento, incêndio ou explosão envolvendo equipamentos abrangidos por esta NR que tenha como consequência uma das situações a seguir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "morte de trabalhador(es);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "internação hospitalar de trabalhador(es); ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "eventos de grande proporção."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.11.1",
+          "depth": 3,
+          "text": "A comunicação deve ser encaminhada até o segundo dia útil após a ocorrência e deve conter:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "razão social do empregador, endereço, local, data e hora da ocorrência;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "descrição da ocorrência;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "nome e função da(s) vítima(s);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "procedimentos de investigação adotados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "cópia do último relatório de inspeção de segurança do equipamento envolvido; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "cópia da Comunicação de Acidente de Trabalho - CAT."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.3.11.2",
+          "depth": 3,
+          "text": "Na ocorrência de acidentes previstos no subitem 13.3.11, o empregador deve comunicar formalmente a representação sindical dos trabalhadores predominante do estabelecimento para participar da respectiva investigação."
+        },
+        {
+          "type": "item",
+          "number": "13.3.12",
+          "depth": 2,
+          "text": "As caldeiras e vasos de pressão comprovadamente fabricados em série devem ser certificados no âmbito do Sistema Brasileiro de Avaliação de Conformidade, quando aplicável. _(retificado em 20/10/2022)_"
+        },
+        {
+          "type": "item",
+          "number": "13.3.13",
+          "depth": 2,
+          "text": "É proibida a construção, importação, comercialização, leilão, locação, cessão a qualquer título, exposição e utilização de caldeiras e vasos de pressão sem a indicação do respectivo código de construção no prontuário e na placa de identificação. _(para equipamentos fabricados a partir de 20 de março de 2018 - vide art. 4º da Portaria MTP nº 1.846/22)_"
+        }
+      ]
+    },
+    {
+      "id": "134-caldeiras",
+      "number": "13.4",
+      "title": "Caldeiras",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.4.1",
+          "depth": 2,
+          "text": "Disposições Gerais"
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.1",
+          "depth": 3,
+          "text": "Para os propósitos desta NR, as caldeiras devem ser categorizadas da seguinte forma:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "caldeiras da categoria A são aquelas cuja pressão de operação é igual ou superior a 1.960 kPa (19,98 kgf/cm²); ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "caldeiras da categoria B são aquelas cuja pressão de operação seja superior a 60 kPa (0,61 kgf/cm²) e inferior a 1.960 kPa (19,98 kgf/cm²)."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.2",
+          "depth": 3,
+          "text": "As caldeiras devem ser dotadas dos seguintes itens:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "válvula de segurança com pressão de abertura ajustada em valor igual ou inferior à Pressão Máxima de Trabalho Admissível - PMTA, respeitados os requisitos do código de construção relativos a aberturas escalonadas e tolerâncias de pressão de ajuste;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "instrumento que indique a pressão do vapor acumulado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "injetor ou sistema de alimentação de água independente do principal, nas caldeiras de combustível sólido não atomizado ou com queima em suspensão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "sistema dedicado de drenagem rápida de água em caldeiras de recuperação de álcalis, com ações automáticas após acionamento pelo operador; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "sistema automático de controle do nível de água com intertravamento que evite o superaquecimento por alimentação deficiente."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.3",
+          "depth": 3,
+          "text": "Toda caldeira deve ter afixada em seu corpo, em local de fácil acesso e visível, placa de identificação indelével com, no mínimo, as seguintes informações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "nome do fabricante;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "número de ordem dado pelo fabricante da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ano de fabricação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "pressão máxima de trabalho admissível;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "capacidade de produção de vapor;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "área de superfície de aquecimento; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "código de construção e ano de edição."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.4",
+          "depth": 3,
+          "text": "Além da placa de identificação, deve constar, em local visível, a categoria da caldeira e seu número ou código de identificação."
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.5",
+          "depth": 3,
+          "text": "Toda caldeira deve possuir, no estabelecimento onde estiver instalada, a seguinte documentação devidamente atualizada:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "prontuário da caldeira, fornecido por seu fabricante, contendo as seguintes informações:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- I - código de construção e ano de edição;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - especificação dos materiais;"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - procedimentos utilizados na fabricação, montagem e inspeção final;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IV - metodologia para estabelecimento da PMTA;"
+        },
+        {
+          "type": "paragraph",
+          "text": "V - registros da execução do teste hidrostático de fabricação;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VI - conjunto de desenhos e demais dados necessários ao monitoramento da vida útil da caldeira;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VII - características funcionais;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII - dados dos dispositivos de segurança;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IX - ano de fabricação; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- X - categoria da caldeira;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "registro de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "projeto de instalação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "projeto de alteração ou reparo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "relatórios de inspeção de segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "certificados de inspeção e teste dos dispositivos de segurança."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.6",
+          "depth": 3,
+          "text": "Quando inexistente ou extraviado, o prontuário da caldeira deve ser reconstituído pelo empregador, com responsabilidade técnica do fabricante ou de PLH, sendo imprescindível a reconstituição das características funcionais, dos dados dos dispositivos de segurança e da memória de cálculo da PMTA."
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.7",
+          "depth": 3,
+          "text": "Quando a caldeira for vendida ou transferida de estabelecimento, os documentos mencionados nas alíneas “a”, “d”, e “e” do subitem 13.4.1.5 devem acompanhá-la."
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.8",
+          "depth": 3,
+          "text": "O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança da caldeira, inclusive alterações nos prazos de inspeção; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional da caldeira, o nome legível e assinatura de PLH e do operador de caldeira presente na ocasião da inspeção."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.1.9",
+          "depth": 3,
+          "text": "Caso a caldeira venha a ser considerada inadequada para uso, o registro de segurança deve conter tal informação e receber encerramento formal."
+        },
+        {
+          "type": "item",
+          "number": "13.4.2",
+          "depth": 2,
+          "text": "Instalação de caldeiras"
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.1",
+          "depth": 3,
+          "text": "A autoria do projeto de instalação de caldeiras é de responsabilidade de PLH, e deve obedecer aos aspectos de segurança, saúde e meio ambiente previstos nas normas regulamentadoras, convenções e disposições legais aplicáveis."
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.2",
+          "depth": 3,
+          "text": "As caldeiras de qualquer estabelecimento devem ser instaladas em local específico para tal fim, denominado casa de caldeiras ou área de caldeiras."
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.3",
+          "depth": 3,
+          "text": "Quando a caldeira for instalada em ambiente aberto, a área de caldeiras deve satisfazer os seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estar afastada, no mínimo, três metros de outras instalações do estabelecimento, dos depósitos de combustíveis, excetuando-se reservatórios para partida com até dois mil litros de capacidade, do limite de propriedade de terceiros e do limite com as vias públicas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "dispor de acesso fácil e seguro, necessário à operação e à manutenção da caldeira, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ter sistema de captação e lançamento dos gases e material particulado, provenientes da combustão, para fora da área de operação, atendendo às normas ambientais vigentes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "dispor de iluminação conforme normas oficiais vigentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "ter sistema de iluminação de emergência caso opere à noite."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.4",
+          "depth": 3,
+          "text": "Quando a caldeira estiver instalada em ambiente fechado, a casa de caldeiras deve satisfazer os seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "constituir prédio separado, construído de material resistente ao fogo, podendo ter apenas uma parede adjacente a outras instalações do estabelecimento, porém com as outras paredes afastadas de, no mínimo, três metros de outras instalações, do limite de propriedade de terceiros, do limite com as vias públicas e de depósitos de combustíveis, excetuando-se reservatórios para partida com até dois mil litros de capacidade;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "dispor de ventilação permanente com entradas de ar que não possam ser bloqueadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "dispor de sensor para detecção de vazamento de gás, quando se tratar de caldeira a combustível gasoso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "não ser utilizada para qualquer outra finalidade;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "dispor de acesso fácil e seguro, necessário à operação e à manutenção da caldeira, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "ter sistema de captação e lançamento dos gases e material particulado, provenientes da combustão, para fora da área de operação, atendendo às normas ambientais vigentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "dispor de iluminação conforme normas oficiais vigentes e ter sistema de iluminação de emergência."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.5",
+          "depth": 3,
+          "text": "Quando o estabelecimento não puder atender ao disposto nos subitens 13.4.2.3 e 13.4.2.4, deve ser elaborado projeto alternativo de instalação, com medidas complementares de segurança que permitam a atenuação dos riscos, comunicando previamente à representação sindical da categoria profissional predominante do estabelecimento."
+        },
+        {
+          "type": "item",
+          "number": "13.4.2.6",
+          "depth": 3,
+          "text": "As caldeiras classificadas na categoria A devem possuir painel de instrumentos instalados em sala de controle, construída segundo o que estabelecem as normas regulamentadoras aplicáveis."
+        },
+        {
+          "type": "item",
+          "number": "13.4.3",
+          "depth": 2,
+          "text": "Segurança na operação de caldeiras"
+        },
+        {
+          "type": "item",
+          "number": "13.4.3.1",
+          "depth": 3,
+          "text": "Toda caldeira deve possuir manual de operação atualizado, em língua portuguesa, em local de fácil acesso aos operadores, contendo no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "procedimentos de partidas e paradas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "procedimentos e parâmetros operacionais de rotina;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "procedimentos para situações de emergência; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "procedimentos gerais de segurança, de saúde e de preservação do meio ambiente."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.3.2",
+          "depth": 3,
+          "text": "A qualidade da água deve ser controlada e tratamentos devem ser implementados, quando necessários, para compatibilizar suas propriedades físicoquímicas com os parâmetros de operação da caldeira definidos pelo fabricante."
+        },
+        {
+          "type": "item",
+          "number": "13.4.3.3",
+          "depth": 3,
+          "text": "Toda caldeira deve estar, obrigatoriamente, sob operação e controle de operador de caldeira."
+        },
+        {
+          "type": "item",
+          "number": "13.4.3.4",
+          "depth": 3,
+          "text": "É considerado operador de caldeira aquele que cumprir o disposto no item 1.1 do Anexo I desta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4",
+          "depth": 2,
+          "text": "Inspeção de segurança de caldeiras"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.1",
+          "depth": 3,
+          "text": "As caldeiras devem ser submetidas a inspeções de segurança inicial, periódica e extraordinária."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.2",
+          "depth": 3,
+          "text": "A inspeção de segurança inicial deve ser feita em caldeiras novas, antes da entrada em funcionamento, no local definitivo de instalação, devendo compreender exame interno, externo e teste de pressão."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.3",
+          "depth": 3,
+          "text": "As caldeiras devem, obrigatoriamente, ser submetidas a Teste Hidrostático - TH em sua fase de fabricação, com comprovação por meio de laudo assinado por PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.3.1",
+          "depth": 4,
+          "text": "Na falta de comprovação documental de que o TH tenha sido realizado na fase de fabricação, se aplicará o disposto a seguir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "para as caldeiras fabricadas ou importadas a partir de 2 de maio de 2014, o TH correspondente ao da fase de fabricação deve ser feito durante a inspeção de segurança inicial; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "para as caldeiras em operação antes de 2 de maio de 2014, a execução do TH correspondente ao da fase de fabricação fica a critério técnico do PLH e, caso este julgue necessário, deve ser executado até a próxima inspeção de segurança periódica interna."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.4",
+          "depth": 3,
+          "text": "A inspeção de segurança periódica, constituída por exames interno e externo, deve ser executada nos seguintes prazos máximos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "doze meses para caldeiras das categorias A e B;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "dezoito meses para caldeiras de recuperação de álcalis de qualquer categoria;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vinte e quatro meses para caldeiras da categoria A, desde que aos doze meses sejam testadas as pressões de abertura das válvulas de segurança; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "trinta meses para caldeiras de categoria B com sistema de gerenciamento de combustão - SGC que atendam ao disposto no Anexo IV desta NR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.5",
+          "depth": 3,
+          "text": "Estabelecimentos que possuam SPIE, conforme estabelecido no Anexo II, podem estender os períodos entre inspeções de segurança, respeitando os seguintes prazos máximos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "vinte e quatro meses para as caldeiras de recuperação de álcalis;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vinte e quatro meses para as caldeiras da categoria B;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "trinta meses para caldeiras da categoria A; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "quarenta e oito meses para caldeiras de categoria A com Sistema Instrumentado de Segurança - SIS, que atendam ao disposto no Anexo IV desta NR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.6",
+          "depth": 3,
+          "text": "No máximo, ao completar vinte e cinco anos de uso, na sua inspeção subsequente, as caldeiras devem ser submetidas a uma avaliação de integridade com maior abrangência, de acordo com códigos ou normas aplicáveis, para determinar a sua vida remanescente e novos prazos máximos para inspeção, caso ainda estejam em condições de uso."
+        },
+        {
+          "type": "note",
+          "text": "**13.4.4.7** As válvulas de segurança de caldeiras devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém, não superior ao previsto Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "para a inspeção de segurança periódica das caldeiras por elas protegidas, de acordo com os subitens 13.4.4.4 e 13.4.4.5."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.7.1",
+          "depth": 4,
+          "text": "Em situações excepcionais, devidamente justificadas por PLH, as válvulas de segurança que não atendam ao disposto no subitem 13.4.4.7 podem ser testadas no campo, com uma frequência compatível com o histórico operacional destes dispositivos."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.8",
+          "depth": 3,
+          "text": "Além do disposto no subitem 13.4.4.7, as válvulas de segurança instaladas em caldeiras de categoria B devem ser testadas periodicamente conforme segue:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "pelo menos uma vez por mês, mediante acionamento manual da alavanca durante a operação de caldeiras sem tratamento de água, exceto para aquelas que vaporizem fluido térmico; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as caldeiras que operem com água tratada devem ter a alavanca acionada manualmente, de acordo com as prescrições do fabricante."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.9",
+          "depth": 3,
+          "text": "Adicionalmente aos testes prescritos nos subitens 13.4.4.7 e 13.4.4.8, as válvulas de segurança instaladas em caldeiras podem ser submetidas a testes de acumulação, a critério técnico do PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.10",
+          "depth": 3,
+          "text": "A inspeção de segurança extraordinária deve ser feita nas seguintes oportunidades:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que a caldeira for danificada por acidente ou outra ocorrência capaz de comprometer sua segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando a caldeira for submetida a alteração ou reparo importante capaz de alterar suas condições de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "antes de a caldeira ser recolocada em funcionamento, quando permanecer inativa por mais de seis meses; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "quando houver mudança de local de instalação da caldeira."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.11",
+          "depth": 3,
+          "text": "O empregador deve informar à representação sindical da categoria profissional predominante do estabelecimento, quando demandado formalmente, num prazo máximo de 30 (trinta) dias após o término da inspeção de segurança periódica, a condição operacional da caldeira."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.11.1",
+          "depth": 4,
+          "text": "Mediante o recebimento de requisição formal, o empregador deve encaminhar à representação sindical da categoria profissional predominante do estabelecimento, no prazo máximo de 10 (dez) dias após a sua elaboração, a cópia do relatório de inspeção."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.11.2",
+          "depth": 4,
+          "text": "A representação sindical da categoria profissional predominante do estabelecimento pode solicitar ao empregador que seja enviada, de maneira regular, cópia do relatório de inspeção de segurança da caldeira, no prazo de trinta dias após a sua elaboração, ficando o empregador desobrigado de atender ao contido nos subitens 13.4.4.11 e 13.4.4.11.1."
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.12",
+          "depth": 3,
+          "text": "O relatório de inspeção de segurança, mencionado na alínea “e” do subitem 13.4.1.5, deve conter no mínimo:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "dados constantes na placa de identificação da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "categoria da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "tipo da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "tipo de inspeção executada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "data de início e término da inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "descrição das inspeções, exames e testes executados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "registros fotográficos do exame interno da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "resultado das inspeções e intervenções executadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "relação dos itens desta NR, relativos a caldeiras, que não estão sendo atendidos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "recomendações e providências necessárias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "parecer conclusivo quanto à integridade da caldeira até a próxima inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "data prevista para a próxima inspeção de segurança da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "m",
+              "text": "nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "n",
+              "text": "número do certificado de inspeção e teste da válvula de segurança."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.4.4.13",
+          "depth": 3,
+          "text": "Sempre que os resultados da inspeção determinarem alterações dos dados de projeto, a placa de identificação e a documentação do prontuário devem ser atualizadas."
+        }
+      ]
+    },
+    {
+      "id": "135-vasos-de-pressão",
+      "number": "13.5",
+      "title": "Vasos de pressão",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.5.1",
+          "depth": 2,
+          "text": "Disposições Gerais"
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.1",
+          "depth": 3,
+          "text": "Para os efeitos desta NR, os vasos de pressão devem ser categorizados, com base na classe do fluido e no grupo de potencial de risco, mediante a aplicação da Tabela 1."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.1.1",
+          "depth": 4,
+          "text": "Os fluidos contidos nos vasos de pressão devem ser classificados conforme descrito a seguir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "classe A:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - fluidos inflamáveis;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - fluidos combustíveis com temperatura superior ou igual a duzentos graus Celsius (200 ºC);"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - fluidos tóxicos com limite de tolerância igual ou inferior a vinte partes por milhão (20 ppm);"
+        },
+        {
+          "type": "paragraph",
+          "text": "IV - hidrogênio; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "V - acetileno."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "classe B:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - fluidos combustíveis com temperatura inferior a duzentos graus Celsius (200 ºC); e"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - fluidos tóxicos com limite de tolerância superior a vinte partes por milhão (20 ppm)."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "classe C:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - vapor de água;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - gases asfixiantes simples; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - ar comprimido."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "classe D:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - outros fluidos não enquadrados nas classes anteriores."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.1.2",
+          "depth": 4,
+          "text": "Quando se tratar de mistura, deve ser considerado, para fins de classificação, o fluido que apresentar maior risco aos trabalhadores e às instalações, considerando-se sua toxicidade, inflamabilidade e concentração."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.1.3",
+          "depth": 4,
+          "text": "O grupo de potencial de risco do vaso de pressão deve ser estabelecido a partir do produto P.V, onde P é a pressão máxima de operação em MPa, em módulo, e V o seu volume em m³ (metro cúbico), conforme segue:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "Grupo 1 - P.V > 100; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "Grupo 2 - P.V < 100 e P.V > 30; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "Grupo 3 - P.V < 30 e P.V > 2,5; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "Grupo 4 - P.V < 2,5 e P.V > 1; ou _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "Grupo 5 - P.V < 1."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Tabela 1 - Categorização de vasos de pressão**"
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.2",
+          "depth": 3,
+          "text": "Os vasos de pressão devem ser dotados dos seguintes itens:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "válvula de segurança ou outro dispositivo de segurança com pressão de abertura ajustada em valor igual ou inferior à PMTA, instalado diretamente no vaso ou no sistema que o inclui, considerados os requisitos do código de construção relativos a aberturas escalonadas e tolerâncias de pressão de ajuste; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vasos de pressão submetidos a vácuo devem ser dotados de dispositivos de segurança ou outros meios previstos no projeto;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "medidas para evitar o bloqueio inadvertido de dispositivos de segurança, incluindo controles administrativos ou, quando inexistentes, utilização de Dispositivo Contra Bloqueio Inadvertido - DCBI associado à sinalização de advertência; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "instrumento que indique a pressão de operação, instalado diretamente no vaso ou no sistema que o contenha."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| Classe do Fluido | Grupo de Potencial de Risco |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |"
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.2.1",
+          "depth": 4,
+          "text": "Os sistemas intrinsicamente protegidos, concebidos e mantidos em conformidade com o respectivo código de construção, podem prescindir do disposto no subitem 13.5.1.2, alínea “a” ou “b”, mediante parecer técnico emitido por PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.3",
+          "depth": 3,
+          "text": "Todo vaso de pressão deve ter afixado em seu corpo, em local de fácil acesso e visível, placa de identificação indelével com, no mínimo, as seguintes informações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "fabricante;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "número de identificação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ano de fabricação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "pressão máxima de trabalho admissível; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "código de construção e ano de edição."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.4",
+          "depth": 3,
+          "text": "Além da placa de identificação, devem constar, em local visível, a categoria do vaso e seu número ou código de identificação."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.5",
+          "depth": 3,
+          "text": "Todo vaso de pressão deve possuir, no estabelecimento onde estiver instalado, a seguinte documentação devidamente atualizada:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "prontuário do vaso de pressão, fornecido pelo fabricante, contendo as seguintes informações:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- I - código de construção e ano de edição;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - especificação dos materiais;"
+        },
+        {
+          "type": "paragraph",
+          "text": "III - procedimentos utilizados na fabricação, montagem e inspeção final;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IV - metodologia para estabelecimento da PMTA;"
+        },
+        {
+          "type": "paragraph",
+          "text": "V - conjunto de desenhos e demais dados necessários ao monitoramento da sua vida útil;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VI - pressão máxima de operação;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VII - registros da execução do teste hidrostático de fabricação;"
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII - características funcionais;"
+        },
+        {
+          "type": "paragraph",
+          "text": "IX - dados dos dispositivos de segurança;"
+        },
+        {
+          "type": "paragraph",
+          "text": "X - ano de fabricação; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "XI - categoria do vaso; _(retificado em 20/10/2022)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "registro de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "projeto de alteração ou reparo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "relatórios de inspeção de segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "certificados de inspeção e teste dos dispositivos de segurança."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.6",
+          "depth": 3,
+          "text": "Quando inexistente ou extraviado, o prontuário do vaso de pressão deve ser reconstituído pelo empregador, com responsabilidade técnica do fabricante ou de PLH, sendo imprescindível a reconstituição das premissas de projeto, dos dados dos dispositivos de segurança e da memória de cálculo da PMTA."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.6.1",
+          "depth": 4,
+          "text": "Vasos de pressão construídos sem códigos de construção, instalados antes da publicação da Portaria MTb nº 1.082, de 18 de dezembro de 2018, D.O.U de 20/12/2018, para os quais não seja possível a reconstituição da memória de cálculo por códigos reconhecidos, devem ter PMTA atribuída por PLH, a partir dos dados operacionais e serem submetidos a inspeções periódicas, conforme os prazos abaixo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "um ano, para inspeção de segurança periódica externa; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "três anos, para inspeção de segurança periódica interna."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.6.2",
+          "depth": 4,
+          "text": "A empresa deve elaborar um plano de ação para realização de inspeção extraordinária especial de todos os vasos relacionados no subitem 13.5.1.6.1."
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.6.3",
+          "depth": 4,
+          "text": "O prazo para implementação do projeto de alteração ou de reparo não deve ser superior à vida remanescente calculada quando da execução da inspeção extraordinária especial. _(entra em vigor em 20 de dezembro de 2028 - Art. 5º da Portaria MTP nº 1.846/22)_"
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.7",
+          "depth": 3,
+          "text": "O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança dos vasos de pressão, inclusive alterações nos prazos de inspeção; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do vaso, o nome legível e assinatura do PLH."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.1.7.1",
+          "depth": 4,
+          "text": "O empregador deve fornecer cópias impressas ou em mídia eletrônica das páginas dos registros de segurança selecionadas pela representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitadas."
+        },
+        {
+          "type": "item",
+          "number": "13.5.2",
+          "depth": 2,
+          "text": "Instalação de vasos de pressão."
+        },
+        {
+          "type": "item",
+          "number": "13.5.2.1",
+          "depth": 3,
+          "text": "Todo vaso de pressão deve ser instalado de modo que todos os drenos, respiros, bocas de visita e indicadores de nível, pressão e temperatura, quando existentes, sejam acessados por meio seguros."
+        },
+        {
+          "type": "item",
+          "number": "13.5.2.2",
+          "depth": 3,
+          "text": "Quando os vasos de pressão forem instalados em ambientes fechados, a instalação deve satisfazer os seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "acesso fácil e seguro para as atividades de manutenção, operação e inspeção, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ventilação permanente com entradas de ar que não possam ser bloqueadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "iluminação nos termos da legislação vigente; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "sistema de iluminação de emergência, exceto para vasos de pressão móveis que não exijam a presença de um operador para seu funcionamento."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "13.5.2.3",
+          "depth": 3,
+          "text": "Quando o vaso de pressão for instalado em ambiente aberto, a instalação deve satisfazer os requisitos contidos nas alíneas “a”, “b”, “d” e “e” do subitem 13.5.2.2."
+        },
+        {
+          "type": "item",
+          "number": "13.5.2.4",
+          "depth": 3,
+          "text": "A instalação de vasos de pressão deve obedecer aos aspectos de segurança, saúde e meio ambiente previstos nas normas regulamentadoras, convenções e disposições legais aplicáveis."
+        },
+        {
+          "type": "item",
+          "number": "13.5.2.5",
+          "depth": 3,
+          "text": "Quando o estabelecimento não puder atender ao disposto no subitem 13.5.2.2 ou 13.5.2.3, o empregador deve adotar medidas complementares de segurança, constantes em relatório elaborado por responsável técnico, que permitam a atenuação dos riscos."
+        },
+        {
+          "type": "item",
+          "number": "13.5.3",
+          "depth": 2,
+          "text": "Segurança na operação de vasos de pressão"
+        },
+        {
+          "type": "item",
+          "number": "13.5.3.1",
+          "depth": 3,
+          "text": "Todo vaso de pressão enquadrado nas categorias I ou II deve possuir manual de operação próprio, manual de operação da unidade ou instruções de operação, em língua portuguesa, em local de fácil acesso aos operadores, contendo no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "procedimentos de partidas e paradas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "procedimentos e parâmetros operacionais de rotina;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "procedimentos para situações de emergência; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "procedimentos gerais de segurança, saúde e de preservação do meio ambiente."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.3.2",
+          "depth": 3,
+          "text": "A operação de unidade(s) de processo que possuam vasos de pressão de categorias I ou II deve ser efetuada por profissional capacitado, conforme item 2.1 do Anexo I desta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4",
+          "depth": 2,
+          "text": "Inspeção de segurança de vasos de pressão."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.1",
+          "depth": 3,
+          "text": "Os vasos de pressão devem ser submetidos a inspeções de segurança inicial, periódica e extraordinária."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.2",
+          "depth": 3,
+          "text": "A inspeção de segurança inicial deve ser feita em vasos de pressão novos, antes de sua entrada em funcionamento, no local definitivo de instalação, devendo compreender exames externo e interno."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.3",
+          "depth": 3,
+          "text": "Os vasos de pressão devem, obrigatoriamente, ser submetidos a TH em sua fase de fabricação, com comprovação por meio de laudo assinado por responsável técnico designado pelo fabricante ou importador."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.3.1",
+          "depth": 4,
+          "text": "Na falta de comprovação documental de que o TH tenha sido realizado na fase de fabricação, se aplicará o disposto a seguir:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "para os vasos de pressão fabricados ou importados a partir de 2 de maio de 2014, o TH deve ser feito durante a inspeção inicial; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "para os vasos de pressão em operação antes de 02 de maio de 2014, a execução do TH correspondente ao da fase de fabricação fica a critério técnico do PLH e, caso este julgue necessário, deve ser executado até a próxima inspeção de segurança periódica interna."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.4",
+          "depth": 3,
+          "text": "Os vasos de pressão categorias IV ou V de produção seriada, certificados por Organismo de Certificação de Produto - OCP, acreditado pelo INMETRO, ficam dispensados da inspeção inicial, desde que instalados de acordo com as recomendações do fabricante."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.4.1",
+          "depth": 4,
+          "text": "Deve ser anotada no registro de segurança a data da instalação do vaso de pressão, a partir da qual se inicia a contagem do prazo para a inspeção de segurança periódica."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.5",
+          "depth": 3,
+          "text": "A inspeção de segurança periódica, constituída por exames externo e interno, deve obedecer aos prazos máximos indicados na Tabela 2, com base na categoria do vaso:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Tabela 2 - Prazos máximos para as inspeções de segurança periódicas**"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(retificada em 20/10/2022)_"
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.5.1",
+          "depth": 4,
+          "text": "Os estabelecimentos que possuam SPIE certificado poderão ampliar os prazos disciplinados na Tabela 2, nos casos de implementação de metodologia documentada de inspeção baseada em risco, observado o limite máximo de 10 (dez) anos para o exame interno de vasos categoria I."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.5.2",
+          "depth": 4,
+          "text": "A metodologia a que alude o item anterior deve ser integrada ao Programa de Gerenciamento de Riscos - PGR, nos termos da NR-01, com a definição dos critérios, das normas de referência e dos responsáveis pela sua implementação e aprovação."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.5.3",
+          "depth": 4,
+          "text": "A inspeção periódica interna dos vasos de pressão poderá ser postergada, pela metade do prazo fixado na Tabela 2, mediante o atendimento dos seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "empresas que possuam SPIE, conforme Anexo II desta NR; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "avaliação de risco aprovada por PLH, assegurada a participação dos responsáveis pela operação do equipamento; _(retificado em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "definição dos parâmetros operacionais e dos instrumentos de controle essenciais ao monitoramento do equipamento;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "implementação de metodologia documentada de Inspeção Não Intrusiva - INI, observado o disposto na ABNT NBR 16455 ou alteração posterior;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "emissão de relatório de inspeção, com a definição da data improrrogável da próxima inspeção periódica interna; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "anuência do empregador ou de preposto por ele designado."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| Categoria | Estabelecimento sem SPIE |  | Estabelecimento com SPIE |  |\n| --- | --- | --- | --- | --- |\n|  | Exame Externo | Exame Interno | Exame Externo | Exame Interno |\n| I | 1 ano | 3 anos | 3 anos | 6 anos |\n| II | 2 anos | 4 anos | 4 anos | 8 anos |\n| III | 3 anos | 6 anos | 5 anos | 10 anos |\n| IV | 4 anos | 8 anos | 6 anos | 12 anos |\n| V | 5 anos | 10 anos | 7 anos | a critério |"
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.5.4",
+          "depth": 4,
+          "text": "O empregador deve comunicar à representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitado, a implementação dos novos prazos de inspeção de segurança em face da aplicação das metodologias definidas nos subitens 13.5.4.5.1 e 13.5.4.5.3."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.6",
+          "depth": 3,
+          "text": "Vasos de pressão que não permitam acesso visual para o exame interno ou externo por impossibilidade física devem ser submetidos a exames não destrutivos ou a outras metodologias de avaliação de integridade definidas por PLH, considerados os mecanismos de danos previsíveis."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.7",
+          "depth": 3,
+          "text": "Vasos de pressão com enchimento interno ou com catalisador podem ter a periodicidade de exame interno ampliada, de forma a coincidir com a época da substituição de enchimentos ou de catalisador, desde que esta ampliação seja precedida de estudos conduzidos por PLH ou por grupo multidisciplinar por ele coordenado, baseados em códigos ou normas aplicáveis, onde sejam implementadas tecnologias alternativas para a avaliação da sua integridade estrutural."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.8",
+          "depth": 3,
+          "text": "Vasos de pressão com temperatura de operação inferior a zero grau Celsius (0 °C) e que operem em condições nas quais a experiência mostre que não ocorre deterioração devem ser submetidos a exame externo a cada 2 (dois) anos e a exame interno, quando exigido pelo código de construção ou a critério do PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.9",
+          "depth": 3,
+          "text": "As válvulas de segurança dos vasos de pressão devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém não superior ao previsto para a inspeção de segurança periódica interna dos vasos de pressão por elas protegidos, de acordo com o subitem 13.5.4.5."
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.10",
+          "depth": 3,
+          "text": "A inspeção de segurança extraordinária deve ser feita nas seguintes oportunidades:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que o vaso de pressão for danificado por acidente ou outra ocorrência que comprometa sua segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando o vaso de pressão for submetido a reparo ou alterações importantes, capazes de alterar sua condição de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "antes de o vaso de pressão ser recolocado em funcionamento, quando permanecer inativo por mais de 12 (doze) meses; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "quando houver alteração do local de instalação do vaso de pressão, exceto para vasos móveis."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.11",
+          "depth": 3,
+          "text": "O relatório de inspeção de segurança, mencionado na alínea \"d\" do subitem 13.5.1.5, deve conter no mínimo: _(Retificado em 20/10/2022)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificação do vaso de pressão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "categoria do vaso de pressão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "fluidos de serviço;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "tipo do vaso de pressão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "tipo de inspeção executada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "data de início e término da inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "descrição das inspeções, exames e testes executados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "registro fotográfico das anomalias detectadas no exame interno e externo do vaso de pressão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "resultado das inspeções e intervenções executadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "recomendações e providências necessárias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "parecer conclusivo quanto à integridade do vaso de pressão até a próxima inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "data prevista para a próxima inspeção de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "m",
+              "text": "nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "n",
+              "text": "número do certificado de inspeção e teste da(s) válvula(s) de segurança."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.5.4.12",
+          "depth": 3,
+          "text": "Sempre que os resultados da inspeção determinarem alterações das condições de projeto, a placa de identificação e a documentação do prontuário devem ser atualizadas."
+        }
+      ]
+    },
+    {
+      "id": "136-tubulações",
+      "number": "13.6",
+      "title": "Tubulações",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.6.1",
+          "depth": 2,
+          "text": "Disposições Gerais"
+        },
+        {
+          "type": "item",
+          "number": "13.6.1.1",
+          "depth": 3,
+          "text": "As empresas que possuam tubulações enquadradas nesta NR devem elaborar um programa e um plano de inspeção que considere, no mínimo, as variáveis, condições e premissas descritas abaixo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os fluidos transportados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a pressão de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a temperatura de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "os mecanismos de danos previsíveis; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "as consequências para os trabalhadores, instalações e meio ambiente trazidas por possíveis falhas das tubulações."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.6.1.2",
+          "depth": 3,
+          "text": "As tubulações devem possuir dispositivos de segurança em conformidade com o respectivo código de construção, observado, quanto à frequência de inspeção e teste, o prazo máximo previsto no item 13.6.2.2 desta NR."
+        },
+        {
+          "type": "item",
+          "number": "13.6.1.3",
+          "depth": 3,
+          "text": "As tubulações devem possuir indicador de pressão, conforme previsto em projeto ou diagramas de engenharia, processos e instrumentação."
+        },
+        {
+          "type": "item",
+          "number": "13.6.1.4",
+          "depth": 3,
+          "text": "Todo estabelecimento que possua tubulações deve ter a seguinte documentação devidamente atualizada:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "especificações aplicáveis às tubulações ou sistemas, necessárias ao planejamento e à execução da inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "fluxograma de engenharia com a identificação da linha e dos seus acessórios;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "projeto de alteração ou reparo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "relatórios de inspeção de segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "certificados de inspeção e teste dos dispositivos de segurança, se aplicável."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.6.1.5",
+          "depth": 3,
+          "text": "Os documentos referidos no subitem 13.6.1.4, alíneas “a” e “b”, quando inexistentes ou extraviados, devem ser reconstituídos pelo empregador, sob a responsabilidade técnica de PLH."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2",
+          "depth": 2,
+          "text": "Inspeção de segurança de tubulações"
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.1",
+          "depth": 3,
+          "text": "As tubulações devem ser submetidas a inspeções de segurança inicial, periódica e extraordinária. _(para tubulações instaladas a partir de 20 de março de 2018 - vide art. 6º da Portaria MTP nº 1.846/22)_"
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.1.1",
+          "depth": 4,
+          "text": "Devem ser executados testes hidrostáticos de fabricação, antes da operação inicial, em conformidade com o respectivo código de construção."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.1.2",
+          "depth": 4,
+          "text": "A critério técnico do PLH, observado o disposto no respectivo código de construção, poderão ser adotadas outras técnicas em substituição ao teste hidrostático."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.2",
+          "depth": 3,
+          "text": "Os intervalos de inspeção das tubulações devem atender aos prazos máximos da inspeção interna do vaso ou caldeira mais crítica a elas ligados."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.2.1",
+          "depth": 4,
+          "text": "Desde que fundamentado tecnicamente, os prazos de inspeção podem ser duplicados, a critério do PLH, observado o limite máximo de 10 (dez) anos."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.3",
+          "depth": 3,
+          "text": "O programa de inspeção pode ser elaborado por tubulação, por linha ou por sistema."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.3.1",
+          "depth": 4,
+          "text": "No caso de constatação de risco à saúde e à integridade física dos trabalhadores envolvidos na execução da inspeção, a tubulação deve ser retirada de operação."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.4",
+          "depth": 3,
+          "text": "Deve ser executada inspeção extraordinária nas seguintes situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que a tubulação for danificada por acidente ou outra ocorrência que comprometa a segurança dos trabalhadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando a tubulação for submetida a reparo provisório ou alterações significativas, capazes de alterar sua capacidade de contenção de fluído; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "antes de a tubulação ser recolocada em funcionamento, quando permanecer inativa por mais de doze meses ou, para sistemas com comprovação de hibernação, vinte e quatro meses."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.5",
+          "depth": 3,
+          "text": "O relatório de inspeção de segurança, mencionado na alínea “d” do subitem 13.6.1.4, deve conter, no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificação da(s) linha(s) ou sistema de tubulação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "fluidos de serviço da tubulação, e respectivas temperatura e pressão de operação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "tipo de inspeção executada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "data de início e de término da inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "descrição das inspeções, exames e testes executados;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "registro fotográfico ou registro da localização das anomalias significativas detectadas no exame externo da tubulação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "resultado das inspeções e intervenções executadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "recomendações e providências necessárias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "parecer conclusivo quanto à integridade da tubulação, do sistema de tubulação ou da linha até a próxima inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "data prevista para a próxima inspeção de segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.6",
+          "depth": 3,
+          "text": "As tubulações de vapor de água devem ser mantidas em boas condições operacionais, de acordo com um plano de manutenção."
+        },
+        {
+          "type": "item",
+          "number": "13.6.2.7",
+          "depth": 3,
+          "text": "As tubulações devem ser identificadas conforme padronização formalmente instituída pelo estabelecimento."
+        }
+      ]
+    },
+    {
+      "id": "137-tanques-metálicos-de-armazenamento",
+      "number": "13.7",
+      "title": "Tanques metálicos de armazenamento",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "13.7.1",
+          "depth": 2,
+          "text": "Disposições gerais"
+        },
+        {
+          "type": "item",
+          "number": "13.7.1.1",
+          "depth": 3,
+          "text": "As empresas que possuam tanques enquadrados nesta NR devem elaborar um programa e um plano de inspeção que considere, no mínimo, as seguintes variáveis, condições e premissas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os fluidos armazenados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "condições operacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "os mecanismos de danos previsíveis; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "as consequências para os trabalhadores, instalações e meio ambiente decorrentes de possíveis falhas dos tanques."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.7.1.2",
+          "depth": 3,
+          "text": "Todo estabelecimento que possua tanques enquadrados nesta NR deve ter a seguinte documentação devidamente atualizada:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "folhas de dados com as especificações dos tanques necessárias ao planejamento e execução da sua inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "projeto de alteração ou reparo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "relatórios de inspeção de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "registro de segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "certificados de inspeção e teste dos dispositivos de segurança, se aplicável."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.7.1.3",
+          "depth": 3,
+          "text": "O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado, onde serão registradas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança dos tanques; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do tanque, o nome legível e assinatura de responsável técnico formalmente designado pelo empregador."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.7.1.4",
+          "depth": 3,
+          "text": "Os documentos referidos no subitem 13.7.1.2, alínea “a”, quando inexistentes ou extraviados, devem ser reconstituídos pelo empregador."
+        },
+        {
+          "type": "item",
+          "number": "13.7.2",
+          "depth": 2,
+          "text": "Segurança na operação de tanques metálicos de armazenamento"
+        },
+        {
+          "type": "item",
+          "number": "13.7.2.1",
+          "depth": 3,
+          "text": "Os tanques devem possuir dispositivos de segurança contra sobrepressão e vácuo, conforme os critérios do código de construção utilizado, ou em atendimento às recomendações de estudo de análises de cenários de falhas."
+        },
+        {
+          "type": "item",
+          "number": "13.7.2.2",
+          "depth": 3,
+          "text": "Os dispositivos contra sobrepressão, vácuo e as válvulas corta-chamas, quando aplicáveis, devem ser mantidos e inspecionados em conformidade com um plano de manutenção."
+        },
+        {
+          "type": "item",
+          "number": "13.7.2.3",
+          "depth": 3,
+          "text": "Os tanques devem ser identificados conforme padronização instituída pelo empregador."
+        },
+        {
+          "type": "item",
+          "number": "13.7.3",
+          "depth": 2,
+          "text": "Inspeção de segurança de tanques metálicos de armazenamento"
+        },
+        {
+          "type": "item",
+          "number": "13.7.3.1",
+          "depth": 3,
+          "text": "Os tanques devem ser submetidos a inspeções de segurança inicial, periódica e extraordinária. _(para tanques instalados a partir de 20 de dezembro de 2022 - vide art. 6º da Portaria MTP nº 1.846/22)_"
+        },
+        {
+          "type": "item",
+          "number": "13.7.3.2",
+          "depth": 3,
+          "text": "Os intervalos de inspeção de segurança periódica dos tanques devem atender aos prazos estabelecidos no programa de inspeção elaborado por responsável técnico, de acordo com códigos ou normas aplicáveis."
+        },
+        {
+          "type": "item",
+          "number": "13.7.3.3",
+          "depth": 3,
+          "text": "Deve ser executada inspeção extraordinária nas seguintes situações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que o tanque for danificado por acidente ou outra ocorrência que comprometa a segurança dos trabalhadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando o tanque for submetido a reparos ou alterações significativas, capazes de alterar sua capacidade de contenção de fluído;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "antes de o tanque ser recolocado em funcionamento, quando permanecer inativo por mais de vinte e quatro meses; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "quando houver alteração do local de instalação."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "13.7.3.4",
+          "depth": 3,
+          "text": "O relatório de inspeção de segurança, mencionado na alínea “c” do subitem 13.7.1.2 deve conter no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificação do tanque;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "fluidos armazenados no tanque, e respectiva temperatura de operação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "tipo de inspeção executada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "data de início e de término da inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "descrição das inspeções, exames e testes executados;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "registro fotográfico ou registro da localização das anomalias significativas detectadas nos exames internos e externos do tanque;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "resultado das inspeções e intervenções executadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "recomendações e providências necessárias;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "parecer conclusivo quanto à integridade do tanque até a próxima inspeção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "data prevista para a próxima inspeção de segurança;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "nome legível, assinatura e número do registro no conselho profissional de responsável técnico e nome legível e assinatura de técnicos que participaram da inspeção; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "certificados de inspeção e teste dos dispositivos de sobrepressão e vácuo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-da-nr-13",
+      "number": "ANEXO I",
+      "title": "DA NR-13",
+      "blocks": []
+    },
+    {
+      "id": "capacitação-e-treinamento",
+      "number": "",
+      "title": "CAPACITAÇÃO E TREINAMENTO",
+      "blocks": []
+    },
+    {
+      "id": "1-caldeiras",
+      "number": "",
+      "title": "1 . Caldeiras",
+      "blocks": []
+    },
+    {
+      "id": "11-para-efeito-da-nr-13-é-considerado-operador-de-caldeira-aquele-que-cumprir-uma-das-seguintes-condições",
+      "number": "1.1",
+      "title": "Para efeito da NR-13, é considerado operador de caldeira aquele que cumprir uma das seguintes condições:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "possuir certificado de treinamento de segurança na operação de caldeiras expedido por instituição competente e comprovação de prática profissional supervisionada, conforme item 1.5 deste Anexo; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "possuir certificado de treinamento de segurança na operação de caldeiras previsto na NR-13 aprovada pela Portaria SSMT n° 02, de 08 de maio de 1984 ou na Portaria SSST nº 23, de 27 de dezembro de 1994."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-o-pré-requisito-mínimo-para-participação-como-aluno-no-treinamento-de-segurança-na-operação-de-caldeiras-é-o-atestado-de-conclusão-do-ensino-médio",
+      "number": "1.2",
+      "title": "O pré-requisito mínimo para participação como aluno, no treinamento de segurança na operação de caldeiras, é o atestado de conclusão do ensino médio",
+      "blocks": []
+    },
+    {
+      "id": "13-o-treinamento-de-segurança-na-operação-de-caldeiras-deve-obrigatoriamente",
+      "number": "1.3",
+      "title": "O treinamento de segurança na operação de caldeiras deve, obrigatoriamente:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser supervisionado tecnicamente por PLH;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser ministrado por instrutores com proficiência no assunto;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "obedecer, no mínimo, ao currículo proposto no item 1.9 deste Anexo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ser integrado com a prática profissional supervisionada, conforme item 1.5 deste Anexo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "ter carga horária mínima de quarenta horas; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "estabelecer formas de avaliação de aprendizagem."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.3.1",
+          "depth": 2,
+          "text": "O treinamento de segurança na operação de caldeiras pode ser realizado sob a forma de Ensino a Distância - EaD."
+        },
+        {
+          "type": "item",
+          "number": "1.3.2",
+          "depth": 2,
+          "text": "A adoção do EaD não elide o disposto no item 1.3, alínea “d” deste Anexo."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "14-os-responsáveis-pelo-treinamento-de-segurança-na-operação-de-caldeiras-estão-sujeitos-ao-impedimento-de-ministrar-novos-cursos-bem-como-a-outras-sanções-legais-cabíveis-no-caso-de-inobservância-do-disposto-no-item-13-deste-anexo",
+      "number": "1.4",
+      "title": "Os responsáveis pelo treinamento de segurança na operação de caldeiras estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 1.3 deste Anexo",
+      "blocks": []
+    },
+    {
+      "id": "15-todo-operador-de-caldeira-deve-ser-submetido-à-prática-profissional-supervisionada-na-operação-da-própria-caldeira-que-irá-operar-a-qual-deve-ser-documentada-e-possuir-duração-mínima-de",
+      "number": "1.5",
+      "title": "Todo operador de caldeira deve ser submetido à prática profissional supervisionada na operação da própria caldeira que irá operar, a qual deve ser documentada e possuir duração mínima de:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "caldeiras de categoria A - oitenta horas; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "caldeiras de categoria B - sessenta horas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16-o-estabelecimento-onde-for-realizada-a-prática-profissional-supervisionada-prevista-nesta-nr-deve-informar-quando-requerido-pela-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento",
+      "number": "1.6",
+      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "período de realização da prática profissional supervisionada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "entidade, empregador ou profissional responsável pelo treinamento de segurança na operação de caldeira; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "relação dos participantes desta prática profissional supervisionada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17-deve-ser-realizada-a-atualização-dos-conhecimentos-dos-operadores-de-caldeiras-quando",
+      "number": "1.7",
+      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de caldeiras quando:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ocorrer modificação na caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ocorrer acidentes e/ou incidentes de alto potencial, que envolvam a operação da caldeira; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "houver recorrência de incidentes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18-a-prática-profissional-supervisionada-obrigatória-deve-ser-realizada-após-a-conclusão-de-todo-o-conteúdo-programático-previsto-no-item-19-deste-anexo-inclusive-nos-casos-de-aproveitamento-de-treinamentos-entre-organizações",
+      "number": "1.8",
+      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 1.9 deste Anexo, inclusive nos casos de aproveitamento de treinamentos entre organizações",
+      "blocks": []
+    },
+    {
+      "id": "19-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-caldeiras-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-em-caldeiras-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-escoamento-de-gases-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-considerações-gerais-sobre-caldeiras-tipos-de-caldeiras-e-suas-utilizações-caldeiras-flamotubulares-caldeiras-aquatubulares-caldeiras-elétricas-caldeiras-a-combustíveis-sólidos-caldeiras-a-combustíveis-líquidos-caldeiras-a-gás-acessórios-de-caldeiras-instrumentos-e-dispositivos-de-controle-de-caldeiras-dispositivo-de-alimentação-visor-de-nível-sistema-de-controle-de-nível-indicadores-de-pressão-dispositivos-de-segurança-dispositivos-auxiliares-válvulas-e-tubulações-tiragem-de-fumaça-sistema-instrumentado-de-segurança-operação-de-caldeiras-partida-e-parada-regulagem-e-controle-de-temperatura-de-pressão-de-fornecimento-de-energia-do",
+      "number": "1.9",
+      "title": "Currículo mínimo para treinamento de segurança na operação de Caldeiras: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna em caldeiras. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos Vapor saturado e vapor superaquecido. Mecânica dos Fluidos. Conceitos fundamentais. Pressão em escoamento. Escoamento de gases. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Considerações gerais sobre caldeiras. Tipos de caldeiras e suas utilizações. Caldeiras flamotubulares. Caldeiras aquatubulares. Caldeiras elétricas. Caldeiras a combustíveis sólidos. Caldeiras a combustíveis líquidos. Caldeiras a gás. Acessórios de caldeiras. Instrumentos e dispositivos de controle de caldeiras. Dispositivo de alimentação. Visor de nível. Sistema de controle de nível. Indicadores de pressão. Dispositivos de segurança. Dispositivos auxiliares. Válvulas e tubulações. Tiragem de fumaça. Sistema instrumentado de segurança. Operação de caldeiras. Partida e parada. Regulagem e controle: de temperatura, de pressão, de fornecimento de energia, do",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "nível de água, de poluentes e de combustão. Falhas de operação, causas e providências. Roteiro de vistoria diária. Operação de um sistema de várias caldeiras. Procedimentos para situações de emergência. Tratamento de água de caldeiras. Impurezas da água e suas consequências. Tratamento de água de alimentação. Controle de água de caldeira. Prevenção contra explosões e outros riscos. Riscos gerais de acidentes e riscos à saúde. Riscos de explosão. Estudos de caso. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categoria de caldeiras B. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificado em 20/10/2022)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** Vasos de Pressão"
+        }
+      ]
+    },
+    {
+      "id": "21-a-operação-de-unidades-de-processo-que-possuam-vasos-de-pressão-de-categorias-i-ou-ii-deve-ser-feita-por-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processos",
+      "number": "2.1",
+      "title": "A operação de unidades de processo que possuam vasos de pressão de categorias I ou II deve ser feita por profissional com treinamento de segurança na operação de unidades de processos",
+      "blocks": []
+    },
+    {
+      "id": "22-para-efeito-desta-nr-é-considerado-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processo-aquele-que-satisfizer-uma-das-seguintes-condições",
+      "number": "2.2",
+      "title": "Para efeito desta NR é considerado profissional com treinamento de segurança na operação de unidades de processo aquele que satisfizer uma das seguintes condições:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "possuir certificado de treinamento de segurança na operação de unidades de processo expedido por instituição competente para o treinamento e comprovação de prática profissional supervisionada, conforme item 2.6 deste Anexo; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "possuir experiência comprovada na operação de vasos de pressão das categorias I ou II de pelo menos dois anos antes da vigência da NR-13, aprovada pela Portaria SSST nº 23, de 27 de dezembro de 1994."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23-o-pré-requisito-mínimo-para-participação-como-aluno-no-treinamento-de-segurança-na-operação-de-unidades-de-processo-é-o-atestado-de-conclusão-do-ensino-médio",
+      "number": "2.3",
+      "title": "O pré-requisito mínimo para participação, como aluno, no treinamento de segurança na operação de unidades de processo é o atestado de conclusão do ensino médio",
+      "blocks": []
+    },
+    {
+      "id": "24-o-treinamento-de-segurança-na-operação-de-unidades-de-processo-deve-obrigatoriamente",
+      "number": "2.4",
+      "title": "O treinamento de segurança na operação de unidades de processo deve, obrigatoriamente:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser supervisionado tecnicamente por PLH;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser ministrado por instrutores com proficiência no assunto;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "obedecer, no mínimo, ao currículo proposto no item 2.10 deste Anexo; _(Retificada em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ser integrado com a prática profissional supervisionada, conforme item 2.6;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "ter carga horária mínima de quarenta horas; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "estabelecer formas de avaliação de aprendizagem."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.4.1",
+          "depth": 2,
+          "text": "O treinamento de segurança na operação de unidades de processo pode ser realizado sob a forma de EaD."
+        },
+        {
+          "type": "item",
+          "number": "2.4.2",
+          "depth": 2,
+          "text": "A adoção do EaD não elide o disposto no item 2.4, alínea “d” deste Anexo."
+        }
+      ]
+    },
+    {
+      "id": "25-os-responsáveis-pelo-treinamento-de-segurança-na-operação-de-unidades-de-processo-estão-sujeitos-ao-impedimento-de-ministrar-novos-cursos-bem-como-a-outras-sanções-legais-cabíveis-no-caso-de-inobservância-do-disposto-no-item-24",
+      "number": "2.5",
+      "title": "Os responsáveis pelo treinamento de segurança na operação de unidades de processo estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 2.4",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "26-todo-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processo-deve-ser-submetido-à-prática-profissional-supervisionada-com-duração-de-trezentas-horas-na-operação-de-unidade-de-processo-que-possuam-vasos-de-pressão-de-categorias-i-ou-ii",
+      "number": "2.6",
+      "title": "Todo profissional com treinamento de segurança na operação de unidades de processo deve ser submetido à prática profissional supervisionada com duração de trezentas horas na operação de unidade de processo que possuam vasos de pressão de categorias I ou II",
+      "blocks": []
+    },
+    {
+      "id": "27-o-estabelecimento-onde-for-realizada-a-prática-profissional-supervisionada-prevista-nesta-nr-deve-informar-quando-requerido-pela-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento",
+      "number": "2.7",
+      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "período de realização da prática profissional supervisionada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "entidade, empregador ou profissional responsável pelo treinamento de segurança na operação de unidades de processo; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "relação dos participantes desta prática profissional supervisionada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28-deve-ser-realizada-a-atualização-dos-conhecimentos-dos-operadores-de-unidades-de-processo-quando",
+      "number": "2.8",
+      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de unidades de processo quando:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ocorrer modificação na unidade de processo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ocorrer acidentes e/ou incidentes de alto potencial, que envolvam a operação de vasos de pressão; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "houver recorrência de incidentes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29-a-prática-profissional-supervisionada-obrigatória-deve-ser-realizada-após-a-conclusão-de-todo-o-conteúdo-programático-previsto-no-item-210-inclusive-nos-casos-de-aproveitamento-de-treinamentos-entre-organizações-com-carga-horária-definida-pelo-empregador",
+      "number": "2.9",
+      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 2.10, inclusive nos casos de aproveitamento de treinamentos entre organizações, com carga horária definida pelo empregador",
+      "blocks": []
+    },
+    {
+      "id": "210-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-unidades-de-processo-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-pressão-externa-e-vácuo-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-tipos-de-escoamento-laminar-e-turbulento-escoamento-de-líquidos-transferência-por-gravidade-diferença-de-pressão-sifão-perda-de-carga-conceito-rugosidade-acidentes-princípio-de-bombeamento-de-fluidos-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-equipamentos-de-processo-carga-horária-estabelecida-de-acordo-com-a-complexidade-da-unidade-onde-aplicável-acessórios-de-tubulações-acessórios-elétricos-e-outros-itens-aquecedores-de-água-bombas-caldeiras-conhecimento-básico-compressores-condensador-desmineralizador-esferas-evaporadores-filtros-lavador-de-gases-reatores-resfriador-secadores-silos-tanques-de-armazenamento-torres-trocadores-calor-tubulações-industriais-turbinas-a-vapor-injetores-e-ejetores-dispositivos-de-segurança-outros-instrumentação-operação-da-unidade-descrição-do-processo-partida-e-parada-procedimentos-de-emergência-descarte-de-produtos-químicos-e-preservação-do-meio-ambiente-avaliação-e-controle-de-riscos-inerentes-ao-processo-prevenção-contra-deterioração-explosão-e-outros-riscos-legislação-e-normalização",
+      "number": "2.10",
+      "title": "Currículo mínimo para treinamento de segurança na operação de unidades de processo: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna, pressão externa e vácuo. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos. Vapor saturado e vapor superaquecido. Mecânica dos fluidos. Conceitos fundamentais. Pressão em escoamento. Tipos de escoamento: laminar e turbulento. Escoamento de líquidos: transferência por gravidade, diferença de pressão, sifão. Perda de carga: conceito, rugosidade, acidentes. Princípio de bombeamento de fluidos. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Equipamentos de processo (carga horária estabelecida de acordo com a complexidade da unidade, onde aplicável). Acessórios de tubulações. Acessórios elétricos e outros itens. Aquecedores de água. Bombas. Caldeiras (conhecimento básico). Compressores. Condensador. Desmineralizador. Esferas. Evaporadores. Filtros. Lavador de gases. Reatores. Resfriador. Secadores. Silos. Tanques de armazenamento. Torres. Trocadores calor. Tubulações industriais. Turbinas a vapor. Injetores e ejetores. Dispositivos de segurança. Outros. Instrumentação. Operação da unidade. Descrição do processo. Partida e parada. Procedimentos de emergência. Descarte de produtos químicos e preservação do meio ambiente. Avaliação e controle de riscos inerentes ao processo. Prevenção contra deterioração, explosão e outros riscos. Legislação e normalização",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Norma Regulamentadora nº 13 (NR-13). Categorias de vasos de pressão. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificada em 20/10/2022)_"
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii-da-nr-13",
+      "number": "ANEXO II",
+      "title": "DA NR-13",
+      "blocks": []
+    },
+    {
+      "id": "requisitos-para-certificação-de-serviço-próprio-de-inspeção-de-equipamentos---spie",
+      "number": "",
+      "title": "REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1. O SPIE da empresa, organizado na forma de setor, seção, departamento, divisão, ou equivalente, deve ser certificado por OCP acreditado pelo INMETRO, que irá verificar, por meio de auditorias programadas, o atendimento aos seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "existência de pessoal próprio da empresa onde estão instaladas caldeiras, vasos de pressão, tubulações e tanques, com dedicação exclusiva a atividades de inspeção, avaliação de integridade e vida remanescente, com formação, qualificação e treinamento compatíveis com a atividade proposta de preservação da segurança; _(Retificada em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "mão de obra contratada para ensaios não destrutivos certificada segundo regulamentação vigente e, para outros serviços de caráter eventual, selecionada e avaliada segundo critérios semelhantes ao utilizado para a mão de obra própria;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "serviço de inspeção de equipamentos proposto com um responsável pelo seu gerenciamento formalmente designado para esta função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "existência de pelo menos um PLH;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "existência de condições para manutenção de arquivo técnico atualizado, necessário ao atendimento da NR-13, assim como mecanismos para distribuição de informações quando requeridas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "existência de procedimentos escritos para as principais atividades executadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "existência de aparelhagem condizente com a execução das atividades propostas; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "cumprimento mínimo da programação de inspeção."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** A certificação de SPIE e a sua manutenção estão sujeitas a regulamento específico do INMETRO."
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii-da-nr-13",
+      "number": "ANEXO III",
+      "title": "DA NR-13",
+      "blocks": []
+    },
+    {
+      "id": "certificação-voluntária-de-competências-do-profissional-legalmente-habilitado---plh",
+      "number": "",
+      "title": "CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1.** O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento."
+        },
+        {
+          "type": "note",
+          "text": "**2.** Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO. Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "**3.** O esquema de certificação a ser desenvolvido pelo OPC deve considerar, como prérequisito, que o candidato à certificação voluntária possua graduação de nível superior em Engenharia, com reconhecimento pelo respectivo conselho para as atribuições de PLH."
+        },
+        {
+          "type": "paragraph",
+          "text": "**4.** O Programa de certificação voluntária de PLH, executado pelo OPC, deverá ter, no mínimo, as seguintes fases:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "avaliação - comprovação de formação acadêmica, cursos complementares, experiência profissional e realização de exames teóricos e práticos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "análise e decisão - realização por pessoa(s) ou comitê formalmente designados para este fim, não envolvidos nos processos (a);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "formalização - emissão de certificado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "supervisão - manutenção da certificação, com reavaliação periódica; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "recertificação - realização a cada sessenta meses."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**5.** Os profissionais que obtiverem o reconhecimento de suas competências profissionais através desta certificação voluntária devem ter esta informação divulgada pela autoridade competente em matéria de segurança e saúde no trabalho."
+        }
+      ]
+    },
+    {
+      "id": "anexo-iv-da-nr-13",
+      "number": "ANEXO IV",
+      "title": "DA NR-13",
+      "blocks": []
+    },
+    {
+      "id": "requisitos-para-ampliação-de-prazo-de-inspeção-de-caldeiras-categoria-a-com-sistema-instrumentado-de-segurança-sis-e-de-caldeiras-categoria-b-com-sistema-de-gerenciamento-de-combustão---sgc",
+      "number": "",
+      "title": "REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1.** Caldeiras de categoria A dotadas de Sistema Instrumentado de Segurança - SIS"
+        }
+      ]
+    },
+    {
+      "id": "11-a-ampliação-dos-prazos-de-inspeções-de-segurança-das-caldeiras-de-categoria-a-que-operam-de-forma-contínua-fica-condicionada-ao-cumprimento-integral-das-seguintes-exigências",
+      "number": "1.1",
+      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria A que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "instalação da caldeira em estabelecimentos que possuam certificação de SPIE, conforme Anexo II desta NR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "plano e programa de inspeção aprovados por PLH, observado o limite máximo de quarenta e oito meses entre inspeções internas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "sistema instrumentado de segurança, em conformidade com normas técnicas aplicáveis, atestado por responsável técnico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "controle da deterioração dos materiais que compõem as principais partes da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "análise e controle periódico da qualidade da água;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "testes da pressão de abertura das válvulas de segurança a cada doze meses; _(Retificada em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "acompanhamento periódico dos parâmetros operacionais que influenciam a integridade da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "parecer técnico de PLH fundamentando a decisão de extensão de prazo; e"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "registro formal do cumprimento das alíneas anteriores."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12-o-sis-deve",
+      "number": "1.2",
+      "title": "O SIS deve:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser baseado em estudo de confiabilidade que garanta execução segura da sequência de acendimento e o bloqueio automático dos combustíveis em casos de perda do controle de combustão ou da geração de vapor, assim como possuir análise de risco conduzida por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser projetado, instalado e testado, sob a responsabilidade de responsável técnico; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ser mantido de acordo com procedimentos específicos definidos pelo fabricante ou por responsável técnico."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.2.1",
+          "depth": 2,
+          "text": "Os procedimentos de inspeção, testes e manutenção devem ser executados e aprovados por responsável técnico."
+        }
+      ]
+    },
+    {
+      "id": "13-as-alterações-nas-funções-instrumentadas-de-segurança-do-sis-bem-como-em-outros-componentes-da-malha-de-controle-provisórias-ou-definitivas-devem-ser-registradas-e-aprovadas-por-responsável-técnico-com-anuência-do-empregador-ou-de-preposto-por-ele-designado",
+      "number": "1.3",
+      "title": "As alterações nas funções instrumentadas de segurança do SIS, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado",
+      "blocks": []
+    },
+    {
+      "id": "14-o-empregador-deve-comunicar-formalmente-à-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento-a-implementação-dos-novos-prazos-de-inspeção-de-segurança-das-caldeiras",
+      "number": "1.4",
+      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança das caldeiras",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**2** Caldeiras de categoria B com Sistema de Gerenciamento de Combustão - SGC"
+        }
+      ]
+    },
+    {
+      "id": "21-a-ampliação-dos-prazos-de-inspeções-de-segurança-das-caldeiras-de-categoria-b-que-operam-de-forma-contínua-fica-condicionada-ao-cumprimento-integral-das-seguintes-exigências",
+      "number": "2.1",
+      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria B que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "plano e programa de inspeção aprovados por PLH, observado o limite máximo de trinta meses entre inspeções internas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "SGC com projeto de funções instrumentadas de segurança em conformidade com normas técnicas aplicáveis, atestado por responsável técnico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "controle da deterioração dos materiais que compõem as partes importantes para integridade da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "análise e controle periódico da qualidade da água, conforme prescrições do fabricante da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "testes da pressão de abertura das válvulas de segurança a cada 12 meses;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "acompanhamento periódico dos parâmetros operacionais que influenciam a integridade da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "parecer técnico de PLH fundamentando a decisão de extensão de prazo; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "registro formal do cumprimento das alíneas anteriores."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.2",
+          "depth": 1,
+          "text": "O SGC deve:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ter estudos de confiabilidade e análise de risco conduzidos por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser projetado, instalado e testado sob a responsabilidade de responsável técnico; e _(Retificada em 20/10/2022)_"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ser mantido de acordo com procedimentos específicos definidos pelo fabricante ou por responsável técnico."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.2.1",
+          "depth": 2,
+          "text": "Os procedimentos de inspeção, testes e manutenção devem ser executados e/ou aprovados por responsável técnico."
+        }
+      ]
+    },
+    {
+      "id": "23-as-alterações-nas-funções-instrumentadas-de-segurança-bem-como-em-outros-componentes-da-malha-de-controle-provisórias-ou-definitivas-devem-ser-registradas-e-aprovadas-por-responsável-técnico-com-anuência-do-empregador-ou-de-preposto-por-ele-designado",
+      "number": "2.3",
+      "title": "As alterações nas funções instrumentadas de segurança, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado",
+      "blocks": []
+    },
+    {
+      "id": "24-o-empregador-deve-comunicar-formalmente-à-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento-a-implementação-dos-novos-prazos-de-inspeção-de-segurança",
+      "number": "2.4",
+      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança",
+      "blocks": []
+    },
+    {
+      "id": "glossário",
+      "number": "Glossário",
+      "title": "GLOSSÁRIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Abertura escalonada de válvulas de segurança: condição diferenciada de ajuste da pressão de abertura de múltiplas válvulas de segurança, prevista no código de construção do equipamento por elas protegido, onde podem ser estabelecidos valores de abertura acima da PMTA, consideradas as vazões necessárias para o alívio da sobrepressão em cenários distintos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alteração: mudança nas condições de projeto ou nos parâmetros operacionais, com impactos na integridade estrutural dos equipamentos abrangidos por esta NR, ou que possam afetar a segurança dos trabalhadores e de terceiros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Caldeiras: equipamentos destinados a produzir e acumular vapor sob pressão superior à atmosférica, utilizando qualquer fonte de energia, projetados conforme códigos pertinentes, excetuando-se refervedores e similares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Caldeiras de recuperação de álcalis: caldeiras que utilizam como combustível principal o licor negro oriundo do processo de fabricação de celulose, realizando a recuperação de químicos e geração de energia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Códigos de construção: publicações normativas desenvolvidas por associações técnicas ou por sociedades de normalização, dotadas de um conjunto coerente de regras, exigências, procedimentos, fórmulas e parâmetros, oriundas de entidades nacionais, internacionais ou estrangeiras e utilizadas na construção dos equipamentos abrangidos por esta NR. Exemplos: ASME Boiler and Pressure Vessel Code, British Standards Institution, AD 2000 Merkblatt, SNCTTI, ABNT, entre outros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dispositivo Contra Bloqueio Inadvertido - DCBI: dispositivo utilizado para evitar o fechamento inadvertido de válvulas instaladas à montante e à jusante de dispositivos de segurança."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dispositivos de segurança: dispositivos ou componentes que protegem um equipamento contra sobrepressão manométrica, independente da ação do operador e de acionamento por fonte externa de energia. O dispositivo também pode ser projetado"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "para evitar vácuo interno excessivo. Exemplos: válvulas de segurança, válvulas de alívio, válvulas de segurança e alívio, válvulas piloto operadas, discos de ruptura, quebra - vácuo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enchimento interno: materiais inseridos no interior dos vasos de pressão com finalidades específicas e período de vida útil determinado, tipo catalisador, recheio, peneira molecular, e carvão ativado. Bandejas e acessórios internos não configuram enchimento interno."
+        },
+        {
+          "type": "paragraph",
+          "text": "Equipamentos de terceiros: equipamentos abrangidos por esta NR, pertencentes a terceiros, e instalados no estabelecimento do empregador."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eventos de grande proporção: ocorrências de grande magnitude (emanações, vazamentos, contaminações, incêndios ou explosões), classificadas como acidentes maiores ou ampliados, nos termos da Convenção nº 174, da Organização Internacional do Trabalho - OIT."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exame: atividade conduzida por PLH ou técnicos qualificados ou certificados, quando exigido por códigos ou normas, para avaliar se determinados produtos, processos ou serviços estão em conformidade com critérios especificados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exame externo: exame da superfície e de componentes externos de um equipamento, podendo ser realizado em operação, visando avaliar a sua integridade estrutural."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exame interno: exame da superfície interna e de componentes internos de um equipamento, executado visualmente, para detecção de defeitos com relação a pontos de corrosão, trincas, incrustações e depósitos ou qualquer descontinuidade nas regiões das soldas, com o emprego de ensaios e testes apropriados para avaliar sua integridade estrutural."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fluidos inflamáveis: líquidos que possuem ponto de fulgor menor ou igual a sessenta graus Celsius (60 °C) ou gases que inflamam com o ar a vinte graus Celsius (20 °C) e a uma pressão padrão de cento e um vírgula três quilopascal (101,3 kPa)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fluidos combustíveis: fluidos com ponto de fulgor maior que 60ºC e menor ou igual a 93ºC. _(Retificada em 20/10/2022)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fluidos tóxicos: fluidos nocivos à saúde dos trabalhadores, observado, quanto ao limite de tolerância, o disposto na NR-15."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fluxograma de engenharia (P&ID): diagrama mostrando o fluxo do processo com os equipamentos, as tubulações e seus acessórios, e as malhas de controle de instrumentação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Força maior: todo acontecimento inevitável, em relação à vontade do empregador, e para a realização do qual este não concorreu, direta ou indiretamente. A imprevidência do empregador exclui a razão de força maior."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gerador de vapor: equipamento destinado a produzir vapor sob pressão superior à atmosférica, sem acumulação e não enquadrados em códigos de vasos de pressão ou caldeira. _(Retificada em 20/10/2022)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hibernação: desativação temporária de máquina, equipamento, sistema ou unidade industrial, já em funcionamento ou em construção, por longa duração e com previsão de retorno operacional, preservando suas características."
+        },
+        {
+          "type": "note",
+          "text": "Inspeção de segurança extraordinária: inspeção executada devido a ocorrências que possam afetar a condição física do equipamento, tais como hibernação prolongada, Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "mudança de locação, surgimento de deformações inesperadas, choques mecânicos de grande impacto ou vazamentos, entre outros, envolvendo caldeiras, vasos de pressão, tubulações e tanques, com abrangência definida por PLH."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspeção de segurança inicial: inspeção executada no equipamento novo, montado no local definitivo de instalação e antes de sua entrada em operação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspeção de segurança periódica: inspeção executada durante a vida útil de um equipamento, com critérios e periodicidades determinados por PLH, respeitados os intervalos máximos estabelecidos nesta Norma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inspeção extraordinária especial: inspeção executada em vaso de pressão construído sem código de construção com a finalidade de coletar dados que permitam ao PLH definir com maior precisão os valores de PMTA e outras informações importantes para o acompanhamento da vida remanescente do vaso, como os tipos de materiais utilizados nas suas diferentes partes, suas dimensões, especialmente espessura, e respectivas resistências mecânicas, a eficiência de junta a ser considerada para as juntas soldadas, os detalhes de conexões e reforços e a reconstituição dos principais desenhos. Caso necessário, devem ser implementadas alterações ou reparos que permitam a operação segura do vaso de pressão."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instrumentos e sistemas de controle e segurança: dispositivos utilizados para monitorar e controlar o comportamento de variáveis operacionais, compreendendo elementos primários, sensores, visores, indicadores, transdutores, controladores, elementos finais, sistemas supervisórios, entre outros, com atuação local ou remota, em malha aberta ou fechada, com funções de indicação, controle e/ou segurança."
+        },
+        {
+          "type": "paragraph",
+          "text": "Integridade estrutural: conjunto de propriedades e características físicas necessárias para que um equipamento ou item desempenhe com segurança e eficiência as funções para as quais foi projetado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Linha: trecho de tubulação individualizado entre dois pontos definidos e que obedece a uma única especificação de materiais, produtos transportados, pressão e temperatura de projeto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Número/código de identificação: designação distintiva, normalmente alfanumérica, também conhecida como “tag” ou “posição”, por meio da qual os equipamentos abrangidos por esta NR são identificados em documentos técnicos, relatórios, registros, sistemas informatizados, bem como nas instalações."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operação contínua: operação da caldeira por mais de 95% do tempo correspondente aos prazos estipulados no subitem 13.4.4.4 desta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacote de Máquinas: conjunto formado por equipamentos e acessórios periféricos de máquinas de fluido (bombas, compressores, turbinas, etc.), máquinas operatrizes e demais equipamentos dinâmicos, normalmente agrupados em sistemas de selagem, lubrificação e arrefecimento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plano de inspeção: descrição das atividades, incluindo os exames e testes a serem realizados, necessários para avaliar as condições físicas dos equipamentos abrangidos por esta NR, considerando o histórico e os mecanismos de danos previsíveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prática profissional supervisionada: momento em que o trabalhador desenvolve atividades profissionais vinculadas com os conteúdos teóricos recebidos em treinamento, com o acompanhamento e supervisão de outro profissional ou instrutor com domínio das atividades desenvolvidas."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressão máxima de operação: máxima pressão manométrica esperada durante a operação normal do sistema ou equipamento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressão Máxima de Trabalho Admissível - PMTA: maior valor de pressão a que um equipamento pode ser submetido continuamente, de acordo com o código de construção, a resistência dos materiais utilizados, as dimensões do equipamento e seus parâmetros operacionais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. Para avaliação da proficiência, pode ser verificado o currículo do profissional, a partir do conteúdo programático que ele ministrará. O conhecimento teórico pode ser comprovado através de diplomas, certificados e material didático elaborado pelo profissional. A experiência pode ser avaliada pelo tempo em que o profissional atua na área e serviços prestados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Programa de inspeção: cronograma contendo, entre outros dados, as datas das inspeções de segurança periódicas a serem executadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projeto de alteração: projeto elaborado por ocasião de alteração que implique em intervenção estrutural ou mudança de processo significativa nos equipamentos abrangidos por esta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projeto de reparo: projeto estabelecendo os procedimentos de execução e controle de reparos que possam comprometer a segurança dos equipamentos abrangidos por esta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projeto alternativo de instalação: projeto concebido para minimizar os impactos de segurança para o trabalhador quando as instalações não estiverem atendendo os critérios estabelecidos nesta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Projeto de instalação de caldeiras: plantas de arranjo ou de locação, correspondendo a desenhos em escala que mostram, em projeção horizontal, a disposição geral dos equipamentos, representados em um ou mais documentos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recipientes móveis: vasos de pressão que podem ser movidos dentro de uma instalação ou entre instalações e que não podem ser enquadrados como transportáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recipientes transportáveis: recipientes projetados e construídos para serem transportados pressurizados e em conformidade com normas e regulamentações específicas de recipientes transportáveis, incluindo recipientes para GLP com capacidade volumétrica de 5,5 a 500 L (ABNT NBR 8460), cilindros recarregáveis para gases comprimidos, liquefeitos ou dissolvidos (ABNT NBR ISO 9809), entre outros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Responsável técnico: considera-se responsável técnico aquele que tem competência legal para o exercício das demais atribuições de cunho técnico preconizadas nesta NR, na respectiva modalidade profissional, em conformidade com a regulamentação vigente no país."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sistema de gerenciamento de combustão: sistema automático de controle do processo de combustão, compreendendo a purga da fornalha, a ignição, a alimentação e o corte de combustíveis, bem como o monitoramento da chama, de modo a assessorar o operador e conferir mais segurança em etapas críticas de acendimento e desligamento da caldeira, inclusive nos cenários de intertravamento."
+        },
+        {
+          "type": "note",
+          "text": "Sistema de tubulação: agrupamento de tubulações sujeitas a condições operacionais e a mecanismos de deterioração semelhantes, vinculadas a um mesmo plano de inspeção, com a discriminação expressa dos respectivos códigos de identificação (tag), visando a Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "otimizar a alocação de recursos e aumentar a efetividade das inspeções de segurança, sem prejuízo da rastreabilidade das informações pertinentes a cada tubulação integrante do sistema."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sistemas intrinsecamente protegidos: vasos isolados ou interligados cuja pressão se mantenha inferior à PMTA em todos os cenários possíveis, bem como aqueles dotados de instrumentos de segurança concebidos em substituição ou em complemento aos dispositivos de segurança preconizados nesta NR, observadas as premissas e os requisitos técnicos e documentais previstos nos respectivos códigos de construção."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sistema instrumentado de segurança: sistema que reúne uma ou mais funções instrumentadas de segurança, normalmente dissociado da malha básica de controle, cujo propósito é conduzir o equipamento/processo a um estado seguro nas ocorrências de violações a parâmetros operacionais pré-estabelecidos, abarcando, entre outros, sensores, executores lógicos e elementos finais, especificados considerando-se um nível de integridade de segurança desejável, estimado em análise de risco."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tanques metálicos de armazenamento: equipamentos estáticos, metálicos, não enterrados, sujeitos à pressão atmosférica ou a pressões menores que 103kPa, cujo costado se desenvolve, em regra, a partir de um eixo vertical de revolução, com preponderância para as construções cilíndricas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tecnologias de cálculo/procedimentos avançados: métodos analíticos, numéricos ou computacionais destinados à avaliação da integridade estrutural dos equipamentos abrangidos por esta NR, normalmente conhecidos como “métodos de adequação ao uso” (Fitness-For-Service), bem como técnicas de reparo, permanente ou provisório, amparadas em publicações técnicas destinadas a equipamentos em serviço (postconstruction code). Exemplos de referências técnicas: API 579, BS 7910, API 510, API 570, API 653, ASME PCC-2, entre outros, a critério do PLH."
+        },
+        {
+          "type": "paragraph",
+          "text": "Teste de pressão: termo genérico que compreende as diversas técnicas de pressurização de equipamentos novos ou em serviço, incluindo testes hidrostáticos, pneumáticos, hidropneumáticos e hidrodinâmicos, normalmente executados com água ou ar, com a finalidade de detectar vazamentos, atestar a resistência estrutural, bem como verificar a estanqueidade de juntas e de outros elementos de vedação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Teste hidrostático de fabricação: aquele baseado em código de construção, executado na etapa de fabricação ou no campo, antes do início da operação, observadas as disposições complementares previstas nesta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tubulações: conjunto formado por tubos e seus respectivos acessórios, projetados por códigos específicos, destinado ao transporte de fluidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unidade(s) de processo: conjunto de equipamentos e interligações de unidade(s) destinados ao processamento, transformação ou armazenamento de materiais/substâncias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasos de pressão: recipientes estanques, de quaisquer tipos, formato ou finalidade, capazes de conter fluidos sob pressões manométricas positivas ou negativas, diferentes da atmosférica, observados os critérios de enquadramento desta NR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vida remanescente (ou vida residual): estimativa de tempo restante de vida de um equipamento ou acessório, a partir de dados coletados em ensaios e testes destinados a monitorar os efeitos dos mecanismos de danos atuantes."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volume: para fins desta NR é o volume interno do vaso de pressão, excluindo o volume dos acessórios, de enchimentos ou de catalisadores."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

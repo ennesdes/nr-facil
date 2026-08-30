@@ -1,0 +1,127 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 23 - PROTEÇÃO CONTRA INCÊNDIOS**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SNT nº06, de 29 de outubro de 1991|31/10/91|\n|Portaria SNT nº02, de 21 de janeiro de 1992|22/01/92|\n|Portaria SIT nº24, de 09 de outubro de 2001|01/11/01|\n|Portaria SIT nº221, de 06 de maio de 2011|10/05/11|\n|Portaria MTP nº2.769, de 05 de setembro de 2022|06/09/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP nº 2.769, de 05 de setembro de 2022)_"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "231-objetivo",
+      "number": "23.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "23.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR estabelece medidas de prevenção contra incêndios nos ambientes de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "232-campo-de-aplicação",
+      "number": "23.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "23.2.1",
+          "depth": 2,
+          "text": "As medidas de prevenção estabelecidas nesta NR se aplicam aos estabelecimentos e locais de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "233-medidas-de-prevenção-contra-incêndios",
+      "number": "23.3",
+      "title": "Medidas de prevenção contra incêndios",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "23.3.1",
+          "depth": 2,
+          "text": "Toda organização deve adotar medidas de prevenção contra incêndios em conformidade com a legislação estadual e, quando aplicável, de forma complementar, com as normas técnicas oficiais."
+        },
+        {
+          "type": "item",
+          "number": "23.3.2",
+          "depth": 2,
+          "text": "A organização deve providenciar para todos os trabalhadores informações sobre:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "utilização dos equipamentos de combate ao incêndio;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "procedimentos de resposta aos cenários de emergências e para evacuação dos locais de trabalho com segurança; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "dispositivos de alarme existentes."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "23.3.3",
+          "depth": 2,
+          "text": "Os locais de trabalho devem dispor de saídas em número suficiente e dispostas de modo que aqueles que se encontrem nesses locais possam abandoná-los com rapidez e segurança em caso de emergência."
+        },
+        {
+          "type": "item",
+          "number": "23.3.4",
+          "depth": 2,
+          "text": "As aberturas, saídas e vias de passagem de emergência devem ser identificadas e sinalizadas de acordo com a legislação estadual e, quando aplicável, de forma complementar, com as normas técnicas oficiais, indicando a direção da saída."
+        },
+        {
+          "type": "item",
+          "number": "23.3.4.1",
+          "depth": 3,
+          "text": "As aberturas, saídas e vias de passagem devem ser mantidas desobstruídas."
+        },
+        {
+          "type": "item",
+          "number": "23.3.5",
+          "depth": 2,
+          "text": "Nenhuma saída de emergência deve ser fechada à chave ou presa durante a jornada de trabalho."
+        },
+        {
+          "type": "item",
+          "number": "23.3.5.1",
+          "depth": 3,
+          "text": "As saídas de emergência podem ser equipadas com dispositivos de travamento que permitam fácil abertura do interior do estabelecimento."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

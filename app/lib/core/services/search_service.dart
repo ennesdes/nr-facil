@@ -105,6 +105,17 @@ class SearchService extends GetxService {
     AppLogger.debug('Busca "$normalizedQuery" retornou ${results.length} resultados');
     return results;
   }
+
+  /// Buscar dentro de uma NR específica (search_index.json local).
+  Future<List<SearchChunk>> searchInNr(String nrId, String query) async {
+    final normalizedQuery = query.trim().toLowerCase();
+    if (normalizedQuery.isEmpty) return [];
+
+    final chunks = await contentService.readSearchIndex(nrId);
+    return chunks
+        .where((chunk) => chunk.text.toLowerCase().contains(normalizedQuery))
+        .toList();
+  }
 }
 
 /// Resultado de busca — chunk com metadados da NR.

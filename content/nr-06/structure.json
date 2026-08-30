@@ -1,0 +1,1736 @@
+{
+  "title": "NR 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "**NR 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI** # **Publicação** <u>Portaria MTb nº 3.214, de 08 de junho de 1978</u> # **D.O.U.** 06/07/78"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Alterações/Atualizações**|**D.O.U.**|\n|---|---|\n|Portaria SSMT nº05, de 07 de maio de 1982|17/05/82|\n|Portaria SSMT nº06, de 09 de março de 1983|14/03/83|\n|Portaria DSST nº03, de 03 de junho de 1991|06/06/91|\n|Portaria DSST nº05, de 28 de outubro de 1991|30/10/91|\n|Portaria DSST nº03, de 20 de fevereiro de 1992|21/02/92|\n|Portaria DSST nº02, de 20 de maio de 1992|21/05/92|\n|Portaria DNSST nº06, de 19 de agosto de 1992|20/08/92|\n|Portaria SSST nº26, de 29 de dezembro de 1994|30/12/94|\n|Portaria SIT nº25, de 15 de outubro de 2001|17/10/01|\n|Portaria SIT nº48, de 25 de março de 2003|28/03/04|\n|Portaria SIT nº108, de 30 de dezembro de 2004|10/12/04|\n|Portaria SIT nº191, de 04 de dezembro de 2006|06/12/06|\n|Portaria SIT nº194, de 22 de dezembro de 2006|22/12/06|\n|Portaria SIT nº107, de 25 de agosto de 2009|27/08/09|\n|Portaria SIT nº125, de 12 de novembro de 2009|13/11/09|\n|Portaria SIT nº194, de 07 de dezembro de 2010|08/12/10|\n|Portaria SIT nº292, de 08 de dezembro de 2011|09/12/11|\n|Portaria MTE nº1.134, de 23 de julho de 2014|24/07/14|\n|Portaria MTE nº505, de 16 de abril de 2015|17/04/15|\n|Portaria MTb nº870, de 06 de julho de 2017|07/06/17|\n|Portaria MTb nº877, de 24 de outubro de 2018|Repub. 26/10/18|\n|Portaria MTP nº2.175, de 28 de julho de 2022|05/08/22|\n|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|\n|Portaria MTE nº57, de 16 de janeiro de 2025|17/01/25|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP nº 2.175, de 28 de julho de 2022)_ # **SUMÁRIO** 6.1 Objetivo 6.2 Campo de aplicação 6.3 Disposições gerais 6.4 Comercialização e utilização 6.5 Responsabilidades da organização 6.6 Responsabilidades do trabalhador 6.7 Treinamentos e informações em segurança e saúde no trabalho 6.8 Responsabilidades de fabricantes e importadores 6.9 Certificado de Aprovação 6.10 Competências Anexo I - Lista de Equipamentos de Proteção Individual Glossário"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "61-objetivo",
+      "number": "6.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.1.1",
+          "depth": 2,
+          "text": "O objetivo desta Norma Regulamentadora - NR é estabelecer os requisitos para aprovação,"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "comercialização, fornecimento e utilização de Equipamentos de Proteção Individual - EPI."
+        }
+      ]
+    },
+    {
+      "id": "62-campo-de-aplicação",
+      "number": "6.2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.2.1",
+          "depth": 2,
+          "text": "As disposições desta NR se aplicam às organizações que adquiram EPI, aos trabalhadores que os utilizam, assim como aos fabricantes e importadores de EPI."
+        },
+        {
+          "type": "item",
+          "number": "6.2.1.1",
+          "depth": 3,
+          "text": "Para os fins de aplicação desta NR considera-se fabricante a pessoa jurídica estabelecida em território nacional que fabrica o EPI ou o manda projetar ou fabricar, assumindo a responsabilidade pela fabricação, desempenho, garantia e assistência técnica pós-venda, e que o comercializa sob seu nome ou marca."
+        },
+        {
+          "type": "item",
+          "number": "6.2.1.2",
+          "depth": 3,
+          "text": "Para os fins de aplicação desta NR considera-se importador a pessoa jurídica estabelecida em território nacional que, sob seu nome ou marca, importa e assume a responsabilidade pela comercialização, desempenho, garantia e assistência técnica pós-venda do EPI."
+        },
+        {
+          "type": "item",
+          "number": "6.2.1.2.1",
+          "depth": 4,
+          "text": "Equiparam-se a importador o adquirente da importação por conta e ordem de terceiro e o encomendante predeterminado da importação por encomenda previstos na legislação nacional."
+        }
+      ]
+    },
+    {
+      "id": "63-disposições-gerais",
+      "number": "6.3",
+      "title": "Disposições gerais",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.3.1",
+          "depth": 2,
+          "text": "Para os fins de aplicação desta NR considera-se EPI o dispositivo ou produto de uso individual utilizado pelo trabalhador, concebido e fabricado para oferecer proteção contra os riscos ocupacionais existentes no ambiente de trabalho, conforme previsto no Anexo I."
+        },
+        {
+          "type": "item",
+          "number": "6.3.2",
+          "depth": 2,
+          "text": "Entende-se como Equipamento Conjugado de Proteção Individual todo aquele utilizado pelo trabalhador, composto por vários dispositivos que o fabricante tenha conjugado contra um ou mais riscos ocupacionais existentes no ambiente de trabalho."
+        },
+        {
+          "type": "item",
+          "number": "6.3.3",
+          "depth": 2,
+          "text": "As solicitações para que os produtos que não estejam relacionados no Anexo I sejam considerados como EPI, bem como as propostas para reexame daqueles ora elencados, devem ser avaliadas pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho."
+        }
+      ]
+    },
+    {
+      "id": "64-comercialização-e-utilização",
+      "number": "6.4",
+      "title": "Comercialização e utilização",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.4.1",
+          "depth": 2,
+          "text": "O EPI, de fabricação nacional ou importado, só pode ser posto à venda ou utilizado com a indicação do Certificado de Aprovação - CA, expedido pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho."
+        }
+      ]
+    },
+    {
+      "id": "65-responsabilidades-da-organização",
+      "number": "6.5",
+      "title": "Responsabilidades da organização",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.5.1",
+          "depth": 2,
+          "text": "Cabe à organização, quanto ao EPI:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "adquirir somente o aprovado pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "orientar e treinar o empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "fornecer ao empregado, gratuitamente, EPI adequado ao risco, em perfeito estado de conservação e funcionamento, nas situações previstas no subitem 1.5.5.1.2 da Norma"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, observada a hierarquia das medidas de prevenção;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "registrar o seu fornecimento ao empregado, podendo ser adotados livros, fichas ou sistema eletrônico, inclusive, por sistema biométrico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "exigir seu uso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "responsabilizar-se pela higienização e manutenção periódica, quando aplicáveis esses procedimentos, em conformidade com as informações fornecidas pelo fabricante ou importador;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "substituir imediatamente, quando danificado ou extraviado; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "comunicar ao órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho qualquer irregularidade observada."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "6.5.1.1",
+          "depth": 3,
+          "text": "O sistema eletrônico, para fins de registro de fornecimento de EPI, caso seja adotado, deve permitir a extração de relatórios."
+        },
+        {
+          "type": "item",
+          "number": "6.5.1.2",
+          "depth": 3,
+          "text": "Quando inviável o registro de fornecimento de EPI descartável e creme de proteção, cabe à organização garantir sua disponibilização, na embalagem original, em quantidade suficiente para cada trabalhador nos locais de trabalho, assegurando-se imediato fornecimento ou reposição."
+        },
+        {
+          "type": "item",
+          "number": "6.5.1.2.1",
+          "depth": 4,
+          "text": "Caso não seja mantida a embalagem original, deve-se disponibilizar no local de fornecimento as informações de identificação do produto, nome do fabricante ou importador, lote de fabricação, data de validade e CA do EPI."
+        },
+        {
+          "type": "item",
+          "number": "6.5.1.3",
+          "depth": 3,
+          "text": "A organização pode estabelecer procedimentos específicos para a higienização, manutenção periódica e substituição de EPI, referidas nas alíneas “f” e “g” do item 6.5.1, com a correspondente informação aos empregados envolvidos, nos termos do capítulo 6.7."
+        },
+        {
+          "type": "item",
+          "number": "6.5.2",
+          "depth": 2,
+          "text": "A organização deve selecionar os EPI, considerando:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a atividade exercida;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as medidas de prevenção em função dos perigos identificados e dos riscos ocupacionais avaliados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "o disposto no Anexo I;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "a eficácia necessária para o controle da exposição ao risco;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "as exigências estabelecidas em normas regulamentadoras e nos dispositivos legais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "a adequação do equipamento ao empregado e o conforto oferecido, segundo avaliação do conjunto de empregados; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "a compatibilidade, em casos que exijam a utilização simultânea de vários EPI, de maneira a assegurar as respectivas eficácias para proteção contra os riscos existentes."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "6.5.2.1",
+          "depth": 3,
+          "text": "A seleção do EPI deve ser registrada, podendo integrar ou ser referenciada no Programa de Gerenciamento de Riscos - PGR."
+        },
+        {
+          "type": "item",
+          "number": "6.5.2.1.1",
+          "depth": 4,
+          "text": "Para as organizações dispensadas de elaboração do PGR, deve ser mantido registro que especifique as atividades exercidas e os respectivos EPI."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "item",
+          "number": "6.5.2.2",
+          "depth": 3,
+          "text": "A seleção do EPI deve ser realizada pela organização com a participação do Serviço Especializado em Engenharia de Segurança e em Medicina do Trabalho - SESMT, quando houver, após ouvidos empregados usuários e a Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA ou nomeado. _(Alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
+        },
+        {
+          "type": "item",
+          "number": "6.5.2.3",
+          "depth": 3,
+          "text": "A seleção do EPI deve ser revista nas situações previstas no subitem 1.5.4.4.6 da NR-01, quando couber."
+        },
+        {
+          "type": "item",
+          "number": "6.5.3",
+          "depth": 2,
+          "text": "A seleção, uso e manutenção de EPI deve, ainda, considerar os programas e regulamentações relacionados a EPI."
+        },
+        {
+          "type": "item",
+          "number": "6.5.4",
+          "depth": 2,
+          "text": "A seleção do EPI deve considerar o uso de óculos de segurança de sobrepor em conjunto com lentes corretivas ou a adaptação do EPI, sem ônus para o empregado, quando for necessária a utilização de correção visual pelo empregado no desempenho de suas funções."
+        }
+      ]
+    },
+    {
+      "id": "66-responsabilidades-do-trabalhador",
+      "number": "6.6",
+      "title": "Responsabilidades do trabalhador",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.6.1",
+          "depth": 2,
+          "text": "Cabe ao trabalhador, quanto ao EPI:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "usar o fornecido pela organização, observado o disposto no item 6.5.2;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "utilizar apenas para a finalidade a que se destina;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "responsabilizar-se pela limpeza, guarda e conservação;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "comunicar à organização quando extraviado, danificado ou qualquer alteração que o torne impróprio para uso; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "cumprir as determinações da organização sobre o uso adequado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67-treinamentos-e-informações-em-segurança-e-saúde-no-trabalho",
+      "number": "6.7",
+      "title": "Treinamentos e informações em segurança e saúde no trabalho",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.7.1",
+          "depth": 2,
+          "text": "As informações e treinamentos referidos nesta NR devem atender às disposições da NR-01."
+        },
+        {
+          "type": "item",
+          "number": "6.7.2",
+          "depth": 2,
+          "text": "Quando do fornecimento de EPI, a organização deve assegurar a prestação de informações, observadas as recomendações do manual de instruções fornecidas pelo fabricante ou importador do EPI, em especial sobre:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "descrição do equipamento e seus componentes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "risco ocupacional contra o qual o EPI oferece proteção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "restrições e limitações de proteção;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "forma adequada de uso e ajuste;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "manutenção e substituição; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "cuidados de limpeza, higienização, guarda e conservação."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "6.7.2.1",
+          "depth": 3,
+          "text": "A organização deve realizar treinamento acerca do EPI a ser fornecido, quando as características do EPI requeiram, observada a atividade realizada e as exigências estabelecidas em normas regulamentadoras e nos dispositivos legais."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    },
+    {
+      "id": "68-responsabilidades-de-fabricantes-e-importadores",
+      "number": "6.8",
+      "title": "Responsabilidades de fabricantes e importadores",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.8.1",
+          "depth": 2,
+          "text": "Cabe ao fabricante e ao importador de EPI:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "comercializar ou colocar à venda somente o EPI portador de CA, emitido pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "comercializar o EPI com manual de instruções em língua portuguesa, orientando sua utilização, manutenção, processos de limpeza e higienização, restrição e demais referências ao seu uso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "comercializar o EPI com as marcações previstas nesta norma;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "responsabilizar-se pela manutenção da qualidade do EPI que deu origem ao CA; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "promover, quando solicitado e se tecnicamente possível, a adaptação do EPI detentor de CA para pessoas com deficiência, preservando a sua eficácia."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "6.8.1.1",
+          "depth": 3,
+          "text": "As informações sobre os processos de limpeza e higienização do EPI devem indicar, quando for o caso, o número de higienizações acima do qual não é possível garantir a manutenção da proteção original, sendo necessária a substituição do equipamento."
+        },
+        {
+          "type": "item",
+          "number": "6.8.1.2",
+          "depth": 3,
+          "text": "Salvo disposição em contrário da norma técnica de avaliação, o manual de instruções do EPI pode ser disponibilizado em meio eletrônico, desde que presentes na embalagem final ou no próprio EPI:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a descrição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "os materiais de composição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "as instruções de uso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "a indicação de proteção oferecida;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "as restrições e as limitações do equipamento; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "o meio de acesso eletrônico ao manual completo do equipamento."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "69-certificado-de-aprovação---ca",
+      "number": "6.9",
+      "title": "Certificado de Aprovação - CA",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.9.1",
+          "depth": 2,
+          "text": "Os procedimentos para emissão e renovação de CA são estabelecidos em regulamento emitido pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "6.9.2",
+          "depth": 2,
+          "text": "O CA concedido ao EPI tem validade vinculada ao prazo da avaliação da conformidade definida em regulamento emitido pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho."
+        },
+        {
+          "type": "item",
+          "number": "6.9.2.1",
+          "depth": 3,
+          "text": "O EPI deve ser comercializado com o CA válido."
+        },
+        {
+          "type": "item",
+          "number": "6.9.2.1.1",
+          "depth": 4,
+          "text": "Após adquirido, o fornecimento do EPI deve observar as condições de armazenamento e o prazo de validade do equipamento informados pelo fabricante ou importador."
+        },
+        {
+          "type": "item",
+          "number": "6.9.3",
+          "depth": 2,
+          "text": "Todo EPI deve apresentar, em caracteres indeléveis, legíveis e visíveis, marcações com o nome comercial do fabricante ou do importador, o lote de fabricação e o número do CA."
+        },
+        {
+          "type": "item",
+          "number": "6.9.3.1",
+          "depth": 3,
+          "text": "Na impossibilidade de cumprir o determinado no item 6.9.3, pode ser autorizada forma"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "alternativa de gravação, devendo esta constar do CA."
+        },
+        {
+          "type": "item",
+          "number": "6.9.4",
+          "depth": 2,
+          "text": "É vedada a cessão de uso do CA emitido a determinado fabricante ou importador para que outro fabricante ou importador o utilize sem que se submeta ao procedimento regular para a obtenção de CA próprio. _(Alterado pela Portaria MTE nº 57, de 16 de janeiro de 2025)_"
+        },
+        {
+          "type": "item",
+          "number": "6.9.5",
+          "depth": 2,
+          "text": "A adaptação do EPI para uso por pessoa com deficiência feita pelo fabricante ou importador detentor do CA, prevista no item 6.8.1, não invalida o certificado já emitido, sendo desnecessária a emissão de novo CA."
+        }
+      ]
+    },
+    {
+      "id": "610-competências",
+      "number": "6.10",
+      "title": "Competências",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "6.10.1",
+          "depth": 2,
+          "text": "Cabe ao órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estabelecer os regulamentos para aprovação de EPI;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "emitir ou renovar o CA;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "fiscalizar a qualidade do EPI;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "solicitar o recolhimento de amostras de EPI ao órgão regional competente em matéria de segurança e saúde no trabalho; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "suspender e cancelar o CA."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "6.10.1.1",
+          "depth": 3,
+          "text": "Caso seja identificada alguma irregularidade ou em caso de denúncia fundamentada, o órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho pode requisitar amostras de EPI ao fabricante ou importador."
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-lista-de-equipamentos-de-proteção-individual",
+      "number": "ANEXO I",
+      "title": "LISTA DE EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A - EPI PARA PROTEÇÃO DA CABEÇA"
+        },
+        {
+          "type": "paragraph",
+          "text": "A.1 - Capacete:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "capacete para proteção contra impactos de objetos sobre o crânio;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "capacete para proteção contra choques elétricos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "capacete para proteção do crânio e face contra agentes térmicos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- A.2 - Capuz ou balaclava:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "capuz para proteção do crânio e pescoço contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "capuz para proteção do crânio, face e pescoço contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "capuz para proteção do crânio e pescoço contra agentes abrasivos e escoriantes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "capuz para proteção do crânio e pescoço contra umidade proveniente de operações com utilização de água."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- B - EPI PARA PROTEÇÃO DOS OLHOS E FACE"
+        },
+        {
+          "type": "paragraph",
+          "text": "- B.1 - Óculos:"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "óculos para proteção dos olhos contra impactos de partículas volantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "óculos para proteção dos olhos contra luminosidade intensa;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "óculos para proteção dos olhos contra radiação ultravioleta;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "óculos para proteção dos olhos contra radiação infravermelha; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "óculos de tela para proteção limitada dos olhos contra impactos de partículas volantes (em cumprimento à decisão judicial proferida nos autos 2008.38.11.001984-6, em trâmite na 2ª Vara do Juizado Especial Federal da Subseção Judiciária de Divinópolis/MG)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- B.2 - Protetor facial:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "protetor facial para proteção da face contra impactos de partículas volantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "protetor facial para proteção dos olhos contra luminosidade intensa;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "protetor facial para proteção da face contra radiação infravermelha;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "protetor facial para proteção da face contra radiação ultravioleta; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "protetor facial para proteção da face contra agentes térmicos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "B.3 - Máscara de solda para proteção dos olhos e face contra impactos de partículas volantes, radiação ultravioleta, radiação infravermelha e luminosidade intensa."
+        }
+      ]
+    },
+    {
+      "id": "c---epi-para-proteção-auditiva",
+      "number": "",
+      "title": "C - EPI PARA PROTEÇÃO AUDITIVA",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C.1 - Protetor auditivo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "protetor auditivo circum-auricular para proteção do sistema auditivo contra níveis de pressão sonora superiores ao estabelecido na NR-15, Anexos nº 1 e 2;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "protetor auditivo de inserção para proteção do sistema auditivo contra níveis de pressão sonora superiores ao estabelecido na NR-15, Anexos nº 1 e 2; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "protetor auditivo semiauricular para proteção do sistema auditivo contra níveis de pressão sonora superiores ao estabelecido na NR-15, Anexos nº 1 e 2."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- D - EPI PARA PROTEÇÃO RESPIRATÓRIA"
+        },
+        {
+          "type": "paragraph",
+          "text": "- D.1 - Respirador purificador de ar não motorizado:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "peça semifacial filtrante para partículas PFF1 para proteção das vias respiratórias contra poeiras e névoas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "peça semifacial filtrante para partículas PFF2 para proteção das vias respiratórias contra poeiras, névoas e fumos;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "peça semifacial filtrante para partículas PFF3 para proteção das vias respiratórias contra poeiras, névoas, fumos e radionuclídeos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "peça um quarto facial ou semifacial com filtros para partículas classe P1, para proteção das vias respiratórias contra poeiras e névoas; peça um quarto facial, semifacial ou facial inteira com filtros para partículas classe P2, para proteção das vias respiratórias contra poeira, névoas e fumos, ou com filtros para partículas classe P3, para proteção das vias respiratórias contra poeiras, névoas, fumos ou radionuclídeos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "peça um quarto facial, semifacial ou facial inteira com filtros químicos para proteção das vias respiratórias contra gases e vapores; ou com filtros combinados para proteção das vias respiratórias contra gases e vapores e/ou material particulado."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- D.2 - Respirador purificador de ar motorizado:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sem vedação facial tipo touca com anteparo tipo protetor facial, capuz ou capacete com filtros para partículas para proteção das vias respiratórias contra material particulado; ou com filtros químicos para proteção contra gases e vapores; ou com filtros combinados para proteção contra material particulado e/ou gases e vapores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "com vedação facial tipo peça semifacial ou facial inteira com filtros para partículas para proteção das vias respiratórias contra material particulado; ou com filtros químicos para proteção contra gases e vapores; ou com filtros combinados para proteção contra material particulado e/ou gases e vapores."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- D.3 - Respirador de adução de ar tipo linha de ar comprimido:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sem vedação facial de fluxo contínuo tipo capuz, protetor facial ou capacete, para proteção das vias respiratórias em atmosferas com concentração de oxigênio maior que 12,5% ao nível do mar;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "sem vedação facial de fluxo contínuo tipo capuz ou capacete, para proteção das vias respiratórias em operações de jateamento e em atmosferas com concentração de oxigênio maior que 12,5% ao nível do mar;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "com vedação facial de fluxo contínuo tipo peça semifacial ou facial inteira, para proteção das vias respiratórias em atmosferas com concentração de oxigênio maior que 12,5% ao nível do mar;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "de demanda com ou sem pressão positiva, com peça semifacial ou facial inteira, para proteção das vias respiratórias em atmosferas com concentração de oxigênio maior que 12,5% ao nível do mar; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "de demanda com pressão positiva, com peça facial inteira, combinado com cilindro auxiliar para fuga, para proteção das vias respiratórias em atmosferas Imediatamente Perigosas à Vida e à Saúde - IPVS."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- D.4 - Respirador de adução de ar tipo máscara autônoma:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "de circuito aberto de demanda com pressão positiva, com peça facial inteira, para proteção das vias respiratórias em atmosferas IPVS; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "de circuito fechado de demanda com pressão positiva, com peça facial inteira, para proteção das vias respiratórias em atmosferas IPVS."
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "D.5 - Respirador de fuga:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "tipo purificador de ar para fuga, com bocal e pinça nasal, capuz ou peça facial, para proteção das vias respiratórias contra gases e vapores, quando utilizado com filtros químicos ou combinados, ou contra material particulado, quando utilizado com filtros para partículas ou combinados, em condições de escape de atmosferas perigosas com concentração de oxigênio maior que 18% ao nível do mar; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "tipo máscara autônoma para fuga, com bocal e pinça nasal, capuz ou peça facial inteira, para proteção das vias respiratórias em condições de escape de atmosferas IPVS."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "E - EPI PARA PROTEÇÃO DO TRONCO"
+        },
+        {
+          "type": "paragraph",
+          "text": "- E.1 - Vestimentas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "vestimenta para proteção do tronco contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vestimenta para proteção do tronco contra agentes mecânicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vestimenta para proteção do tronco contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "vestimenta para proteção do tronco contra radiação ionizante;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "vestimenta para proteção do tronco contra umidade proveniente de precipitação pluviométrica; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "vestimenta para proteção do tronco contra umidade proveniente de operações com utilização de água."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "E.2 - Colete à prova de balas de uso permitido para vigilantes que trabalhem portando arma de fogo, para proteção do tronco contra agentes mecânicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "F - EPI PARA PROTEÇÃO DOS MEMBROS SUPERIORES"
+        },
+        {
+          "type": "paragraph",
+          "text": "- F.1 - Luvas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "luvas para proteção das mãos contra agentes abrasivos e escoriantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "luvas para proteção das mãos contra agentes cortantes e perfurantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "luvas para proteção das mãos contra choques elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "luvas para proteção das mãos contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "luvas para proteção das mãos contra agentes biológicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "luvas para proteção das mãos contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "luvas para proteção das mãos contra vibrações;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "luvas para proteção contra umidade proveniente de operações com utilização de água; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "luvas para proteção das mãos contra radiação ionizante."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "F.2 - Creme protetor de segurança para proteção dos membros superiores contra agentes químicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "- F.3 - Manga:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "manga para proteção do braço e do antebraço contra choques elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "manga para proteção do braço e do antebraço contra agentes abrasivos e escoriantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "manga para proteção do braço e do antebraço contra agentes cortantes e perfurantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "manga para proteção do braço e do antebraço contra umidade proveniente de operações com utilização de água;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "manga para proteção do braço e do antebraço contra agentes térmicos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "manga para proteção do braço e do antebraço contra agentes químicos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- F.4 - Braçadeira:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "braçadeira para proteção do antebraço contra agentes cortantes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "braçadeira para proteção do antebraço contra agentes escoriantes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- F.5 - Dedeira para proteção dos dedos contra agentes abrasivos e escoriantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "- G - EPI PARA PROTEÇÃO DOS MEMBROS INFERIORES"
+        },
+        {
+          "type": "paragraph",
+          "text": "- G.1 - Calçado:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "calçado para proteção contra impactos de quedas de objetos sobre os artelhos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "calçado para proteção dos pés contra choques elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "calçado para proteção dos pés contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "calçado para proteção dos pés contra agentes abrasivos e escoriantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "calçado para proteção dos pés contra agentes cortantes e perfurantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "calçado para proteção dos pés e pernas contra umidade proveniente de operações com utilização de água; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "calçado para proteção dos pés e pernas contra agentes químicos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- G.2 - Meia para proteção dos pés contra baixas temperaturas."
+        }
+      ]
+    },
+    {
+      "id": "g3---perneira",
+      "number": "",
+      "title": "G.3 - Perneira:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "perneira para proteção da perna contra agentes abrasivos e escoriantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "perneira para proteção da perna contra agentes cortantes e perfurantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "perneira para proteção da perna contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "perneira para proteção da perna contra agentes químicos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "perneira para proteção da perna contra umidade proveniente de operações com utilização de água."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- G.4 - Calça:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "calça para proteção das pernas contra agentes abrasivos e escoriantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "calça para proteção das pernas contra agentes cortantes e perfurantes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "calça para proteção das pernas contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "calça para proteção das pernas contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "calça para proteção das pernas contra umidade proveniente de operações com utilização de água; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "calça para proteção das pernas contra umidade proveniente de precipitação pluviométrica."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- H - EPI PARA PROTEÇÃO DO CORPO INTEIRO"
+        },
+        {
+          "type": "paragraph",
+          "text": "- H.1 - Macacão:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "macacão para proteção do tronco e membros superiores e inferiores contra agentes térmicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "macacão para proteção do tronco e membros superiores e inferiores contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "macacão para proteção do tronco e membros superiores e inferiores contra umidade proveniente de operações com utilização de água; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "macacão para proteção do tronco e membros superiores e inferiores contra umidade proveniente de precipitação pluviométrica."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- H.2 - Vestimenta de corpo inteiro:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "vestimenta para proteção de todo o corpo contra agentes químicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vestimenta condutiva para proteção de todo o corpo contra choques elétricos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vestimenta para proteção de todo o corpo contra umidade proveniente de operações com utilização de água; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "vestimenta para proteção de todo o corpo contra umidade proveniente de precipitação pluviométrica."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "I - EPI PARA PROTEÇÃO CONTRA QUEDAS COM DIFERENÇA DE NÍVEL"
+        },
+        {
+          "type": "paragraph",
+          "text": "I.1 - Cinturão de segurança com dispositivo trava-queda para proteção do usuário contra quedas em operações com movimentação vertical ou horizontal."
+        },
+        {
+          "type": "paragraph",
+          "text": "- I.2 - Cinturão de segurança com talabarte:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "cinturão de segurança com talabarte para proteção do usuário contra riscos de queda em trabalhos em altura; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "cinturão de segurança com talabarte para proteção do usuário contra riscos de queda no posicionamento em trabalhos em altura."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glossário",
+      "number": "Glossário",
+      "title": "Glossário",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Adquirente da importação por conta e ordem de terceiro: a pessoa jurídica que realiza transação comercial de compra e venda da mercadoria no exterior, em seu nome e com recursos próprios, e contrata o importador por conta e ordem para promover o despacho aduaneiro de importação."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aprovação de EPI: emissão do CA pelo órgão nacional competente em matéria de segurança e saúde no trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avaliação de conformidade: demonstração de que os requisitos especificados são atendidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certificado de Aprovação: documento emitido pelo órgão nacional competente em matéria de segurança e saúde no trabalho autorizando a comercialização e utilização do EPI no território nacional."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "Encomendante predeterminado: a pessoa jurídica que contrata o importador por encomenda para realizar a transação comercial de compra e venda de mercadoria estrangeira a ser importada, o despacho aduaneiro de importação e a revenda ao próprio encomendante predeterminado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Higienização: remoção de contaminantes que necessitam de cuidados ou procedimentos específicos. Contempla os processos de descontaminação e desinfecção."
+        },
+        {
+          "type": "paragraph",
+          "text": "Limpeza: remoção de sujidades e resíduos de forma manual ou mecânica, utilizando produtos de uso comum, tais como água, detergente, sabão ou sanitizante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nome comercial: Para fins desta NR, é considerada a razão social ou nome fantasia, que conste no Cadastro Nacional da Pessoa Jurídica - CNPJ, emitido pela Receita Federal do Brasil, ou, ainda, marca registrada da qual o fabricante ou importador do EPI seja o detentor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sistema biométrico: Para fins desta NR, é considerado o sistema que analisa características físicas para identificar de forma inequívoca um indivíduo, como por exemplo impressão digital, reconhecimento facial e íris."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        }
+      ]
+    }
+  ]
+}

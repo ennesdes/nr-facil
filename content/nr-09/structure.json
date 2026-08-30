@@ -1,0 +1,1474 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR-09 - AVALIAÇÃO E CONTROLE DAS EXPOSIÇÕES OCUPACIONAIS A AGENTES FÍSICOS, QUÍMICOS E BIOLÓGICOS** # **Publicação D.O.U.** <u>Portaria MTb nº 3.214, de 08 de junho de 1978</u> 06/07/78"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Alterações/Atualizações**|**D.O.U.**|\n|---|---|\n|Portaria SSST nº25, de 29 de dezembro de 1994|30/12/94|\n|Portaria MTE nº1.297, de 13 de agosto de 2014|14/08/14|\n|Portaria MTE nº1.471, de 24 de setembro de 2014|25/09/14|\n|Portaria MTb nº1.109, de 21 de setembro de 2016|22/09/16|\n|Portaria MTb nº871, de 06 de julho de 2017|07/07/17|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/09/19|\n|Portaria SEPRT nº1.358, de 09 de dezembro de 2019|10/12/19|\n|Portaria SEPRT nº1.359, de 09 de dezembro de 2019|10/12/19|\n|Portaria SEPRT nº6.735, de 10 de março de 2020|12/03/20|\n|Portaria SEPRT nº1.295, de 02 de fevereiro de 2021|03/02/21|\n|Portaria SEPRT nº8.873, de 23 de julho de 2021|26/07/21|\n|Portaria MTP nº426, de 07 de outubro de 2021|08/10/21|\n|Portaria MTE nº105, de 29 de janeiro de 2026|30/01/26|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria SEPRT nº 6.735, de 10 de março de 2020)_ # **SUMÁRIO**"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "91-objetivo",
+      "number": "9.1",
+      "title": "Objetivo",
+      "blocks": []
+    },
+    {
+      "id": "92-campo-de-aplicação",
+      "number": "9.2",
+      "title": "Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "9.3 Identificação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.4 Avaliação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.5 Medidas de Prevenção e Controle das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "9.6 Disposições Transitórias"
+        }
+      ]
+    },
+    {
+      "id": "91-objetivo",
+      "number": "9.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR estabelece os requisitos para a avaliação das exposições ocupacionais a agentes físicos, químicos e biológicos quando identificados no Programa de Gerenciamento de Riscos - PGR, previsto na NR-1, e subsidiá-lo quanto às medidas de prevenção para os riscos ocupacionais."
+        }
+      ]
+    },
+    {
+      "id": "92-campo-de-aplicação",
+      "number": "9.2",
+      "title": "Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.2.1",
+          "depth": 2,
+          "text": "As medidas de prevenção estabelecidas nesta Norma se aplicam onde houver exposições ocupacionais aos agentes físicos, químicos e biológicos."
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "item",
+          "number": "9.2.1.1",
+          "depth": 3,
+          "text": "A abrangência e profundidade das medidas de prevenção dependem das características das exposições e das necessidades de controle."
+        },
+        {
+          "type": "item",
+          "number": "9.2.2",
+          "depth": 2,
+          "text": "Esta NR e seus anexos devem ser utilizados para fins de prevenção e controle dos riscos ocupacionais causados por agentes físicos, químicos e biológicos."
+        },
+        {
+          "type": "item",
+          "number": "9.2.2.1",
+          "depth": 3,
+          "text": "Para fins de caracterização de atividades ou operações insalubres ou perigosas, devem ser aplicadas as disposições previstas na NR-15 - Atividades e operações insalubres e NR-16 - Atividades e operações perigosas."
+        }
+      ]
+    },
+    {
+      "id": "93-identificação-das-exposições-ocupacionais-aos-agentes-físicos-químicos-e-biológicos",
+      "number": "9.3",
+      "title": "Identificação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.3.1",
+          "depth": 2,
+          "text": "A identificação das exposições ocupacionais aos agentes físicos, químicos e biológicos deverá considerar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "descrição das atividades;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "identificação do agente e formas de exposição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "possíveis lesões ou agravos à saúde relacionados às exposições identificadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "fatores determinantes da exposição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "medidas de prevenção já existentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "identificação dos grupos de trabalhadores expostos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "94-avaliação-das-exposições-ocupacionais-aos-agentes-físicos-químicos-e-biológicos",
+      "number": "9.4",
+      "title": "Avaliação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.4.1",
+          "depth": 2,
+          "text": "Deve ser realizada análise preliminar das atividades de trabalho e dos dados já disponíveis relativos aos agentes físicos, químicos e biológicos, a fim de determinar a necessidade de adoção direta de medidas de prevenção ou de realização de avaliações qualitativas ou, quando aplicáveis, de avaliações quantitativas."
+        },
+        {
+          "type": "item",
+          "number": "9.4.2",
+          "depth": 2,
+          "text": "A avaliação quantitativa das exposições ocupacionais aos agentes físicos, químicos e biológicos, quando necessária, deverá ser realizada para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "comprovar o controle da exposição ocupacional aos agentes identificados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "dimensionar a exposição ocupacional dos grupos de trabalhadores;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "subsidiar o equacionamento das medidas de prevenção."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "9.4.2.1",
+          "depth": 3,
+          "text": "A avaliação quantitativa deve ser representativa da exposição ocupacional, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício das suas atividades."
+        },
+        {
+          "type": "item",
+          "number": "9.4.3",
+          "depth": 2,
+          "text": "Os resultados das avaliações das exposições ocupacionais aos agentes físicos, químicos e biológicos devem ser incorporados ao inventário de riscos do PGR."
+        },
+        {
+          "type": "item",
+          "number": "9.4.4",
+          "depth": 2,
+          "text": "As avaliações das exposições ocupacionais devem ser registradas pela organização, conforme"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "os aspectos específicos constantes nos Anexos desta NR."
+        }
+      ]
+    },
+    {
+      "id": "95-medidas-de-prevenção-e-controle-das-exposições-ocupacionais-aos-agentes-físicos-químicos-e-biológicos",
+      "number": "9.5",
+      "title": "Medidas de Prevenção e Controle das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.5.1",
+          "depth": 2,
+          "text": "As medidas de prevenção e controle das exposições ocupacionais referentes a cada agente físico, químico e biológico estão estabelecidas nos Anexos desta NR."
+        },
+        {
+          "type": "item",
+          "number": "9.5.2",
+          "depth": 2,
+          "text": "Devem ser adotadas as medidas necessárias para a eliminação ou o controle das exposições ocupacionais relacionados aos agentes físicos, químicos e biológicos, de acordo com os critérios estabelecidos nos Anexos desta NR, em conformidade com o PGR."
+        },
+        {
+          "type": "item",
+          "number": "9.5.3",
+          "depth": 2,
+          "text": "As medidas de prevenção e controle das exposições ocupacionais integram os controles dos riscos do PGR e devem ser incorporados ao Plano de Ação."
+        }
+      ]
+    },
+    {
+      "id": "96-disposições-transitórias",
+      "number": "9.6",
+      "title": "Disposições Transitórias",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "9.6.1",
+          "depth": 2,
+          "text": "Enquanto não forem estabelecidos os Anexos a esta Norma, devem ser adotados para fins de medidas de prevenção:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os critérios e limites de tolerância constantes na NR-15 e seus anexos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "como nível de ação para agentes químicos, a metade dos limites de tolerância;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "como nível de ação para o agente físico ruído, a metade da dose."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "9.6.1.1",
+          "depth": 3,
+          "text": "Na ausência de limites de tolerância previstos na NR-15 e seus anexos, devem ser utilizados como referência para a adoção de medidas de prevenção aqueles previstos pela American Conference of Governmental Industrial Higyenists - ACGIH."
+        },
+        {
+          "type": "item",
+          "number": "9.6.1.2",
+          "depth": 3,
+          "text": "Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição."
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-da-nr-09-vibração",
+      "number": "ANEXO I",
+      "title": "da NR-09 VIBRAÇÃO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_"
+        }
+      ]
+    },
+    {
+      "id": "sumário",
+      "number": "",
+      "title": "SUMÁRIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>1. Objetivos</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>2. Campo de Aplicação</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3. Disposições Gerais</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4. Avaliação Preliminar da Exposição</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5. Avaliação Quantitativa da Exposição</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>6. Medidas de Prevenção</mark>"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivos",
+      "number": "",
+      "title": "1. Objetivos",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "",
+      "title": "2. Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "3-disposições-gerais",
+      "number": "",
+      "title": "3. Disposições Gerais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.1.1 No processo de eliminação ou redução dos riscos relacionados à exposição às vibrações mecânicas devem ser considerados, entre outros fatores, os esforços físicos e aspectos posturais.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.2 A organização deve comprovar, no âmbito das ações de manutenção preventiva e corretiva de veículos, máquinas, equipamentos e ferramentas, a adoção de medidas que visem o controle e a redução da exposição a vibrações.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s</mark><sup>2</sup> <mark>nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "4-avaliação-preliminar-da-exposição",
+      "number": "",
+      "title": "4. Avaliação Preliminar da Exposição",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>4.1 Deve ser realizada avaliação preliminar da exposição às VMB e VCI, considerando os seguintes aspectos:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ambientes de trabalho, processos, operações e condições de exposição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "características das máquinas, veículos, ferramentas ou equipamentos de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "informações fornecidas por fabricantes sobre os níveis de vibração gerados por ferramentas, <mark>veículos, máquinas ou equipamentos envolvidos na exposição, quando disponíveis;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "condições de uso e estado de conservação de veículos, máquinas, equipamentos e ferramentas, <mark>incluindo componentes ou dispositivos de isolamento e amortecimento que interfiram na exposição de operadores ou condutores;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "características da superfície de circulação, cargas transportadas e velocidades de operação, no <mark>caso de VCI;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "estimativa de tempo efetivo de exposição diária;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "constatação de condições específicas de trabalho que possam contribuir para o agravamento dos <mark>efeitos decorrentes da exposição;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "esforços físicos e aspectos posturais;"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "dados de exposição ocupacional existentes; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "informações ou registros relacionados a queixas e antecedentes médicos relacionados aos <mark>trabalhadores expostos.</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2 Os resultados da avaliação preliminar devem subsidiar a adoção de medidas preventivas e corretivas, sem prejuízo de outras medidas previstas nas demais NR.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.3 Se a avaliação preliminar não for suficiente para permitir a tomada de decisão quanto à necessidade de implantação de medidas preventivas e corretivas, deve-se proceder à avaliação quantitativa da exposição.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "5-avaliação-quantitativa-da-exposição",
+      "number": "",
+      "title": "5. Avaliação Quantitativa da Exposição",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>5.1 A avaliação quantitativa deve ser representativa da exposição, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício de suas funções.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.1.1 Os procedimentos de avaliação quantitativa para VCI e VMB, a serem adotados no âmbito deste anexo, são aqueles estabelecidos nas Normas de Higiene Ocupacional – NHO, publicadas pela FUNDACENTRO.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2 Avaliação quantitativa da exposição dos trabalhadores às VMB.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2.1 A avaliação da exposição ocupacional à vibração em mãos e braços deve ser feita utilizando-se sistemas de medição que permitam a obtenção da aceleração resultante de exposição normalizada (aren), parâmetro representativo da exposição diária do trabalhador.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 2,5 m/s</mark><sup>2</sup> <mark>.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2.3 O limite de exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 5 m/s</mark><sup>2</sup> <mark>.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2.4 As situações de exposição ocupacional superior ao nível de ação, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2.5 As situações de exposição ocupacional superior ao limite de exposição, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3 Avaliação quantitativa da exposição dos trabalhadores às VCI.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.1 A avaliação da exposição ocupacional à vibração de corpo inteiro deve ser feita utilizando-se sistemas de medição que permitam a determinação da aceleração resultante de exposição</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "5"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>normalizada (aren) e do valor da dose de vibração resultante (VDVR), parâmetros representativos da exposição diária do trabalhador.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração de corpo inteiro corresponde a um valor da aceleração resultante de exposição normalizada (aren) de 0,5m/s</mark><sup>2</sup> <mark>, ou ao valor da dose de vibração resultante (VDVR) de 9,1m/s</mark><sup>1,75</sup> <mark>.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.3 O limite de exposição ocupacional diária à vibração de corpo inteiro corresponde ao:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "valor da aceleração resultante de exposição normalizada (aren) de 1,1 m/s<sup>2</sup> ; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "valor da dose de vibração resultante (VDVR) de 21,0 m/s<sup>1,75</sup> ."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.3.1 Para fins de caracterização da exposição, a organização deve comprovar a avaliação dos dois parâmetros acima descritos.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.4 As situações de exposição ocupacional superiores ao nível de ação implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "6-medidas-de-prevenção",
+      "number": "",
+      "title": "6. Medidas de Prevenção",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>6.1 As medidas de prevenção devem contemplar:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "avaliação periódica da exposição;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "orientação dos trabalhadores quanto aos riscos decorrentes da exposição à vibração e à utilização <mark>adequada dos equipamentos de trabalho, bem como quanto ao direito de comunicar aos seus superiores sobre níveis anormais de vibração observados durante suas atividades;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "vigilância da saúde dos trabalhadores focada nos efeitos da exposição à vibração; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "adoção de procedimentos e métodos de trabalho alternativos que permitam reduzir a exposição <mark>a vibrações mecânicas.</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>6.1.1 As medidas de prevenção descritas neste item não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>6.2 As medidas de caráter corretivo devem contemplar, no mínimo, uma das medidas abaixo, obedecida a hierarquia prevista na alínea “g” do subitem 1.4.1 da NR-01:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "no caso de exposição às VMB, modificação do processo ou da operação de trabalho, podendo <mark>envolver: a substituição de ferramentas e acessórios; a reformulação ou a reorganização de bancadas e postos de trabalho; a alteração das rotinas ou dos procedimentos de trabalho; a adequação do tipo de ferramenta, do acessório utilizado e das velocidades operacionais;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "6"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "no caso de exposição às VCI, modificação do processo ou da operação de trabalho, podendo <mark>envolver: o reprojeto de plataformas de trabalho; a reformulação, a reorganização ou a alteração das rotinas ou dos procedimentos e organização do trabalho; a adequação de veículos utilizados, especialmente pela adoção de assentos antivibratórios; a melhoria das condições e das características dos pisos e pavimentos utilizados para circulação das máquinas e dos veículos;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "redução do tempo e da intensidade de exposição diária à vibração; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "alternância de atividades ou operações que gerem exposições a níveis mais elevados de vibração <mark>com outras que não apresentem exposições ou impliquem exposições a menores níveis.</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii-da-nr-09",
+      "number": "ANEXO III",
+      "title": "da NR-09",
+      "blocks": []
+    },
+    {
+      "id": "calor",
+      "number": "",
+      "title": "CALOR",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_"
+        }
+      ]
+    },
+    {
+      "id": "sumário",
+      "number": "",
+      "title": "SUMÁRIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>1. Objetivos</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>2. Campo de Aplicação</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3. Responsabilidades da organização</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4. Medidas de prevenção</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5. Aclimatização</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>6. Procedimentos de Emergência</mark>"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivos",
+      "number": "",
+      "title": "1. Objetivos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "",
+      "title": "2. Campo de Aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "3-responsabilidades-da-organização",
+      "number": "",
+      "title": "3. Responsabilidades da organização",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.1.1 A organização deve orientar os trabalhadores especialmente quanto aos seguintes aspectos:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "fatores que influenciam os riscos relacionados à exposição ao calor;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "7"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "distúrbios relacionados ao calor, com exemplos de seus sinais e sintomas, tratamentos, entre <mark>outros;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "necessidade de informar ao superior hierárquico ou ao médico a ocorrência de sinais e sintomas <mark>relacionados ao calor;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "medidas de prevenção relacionadas à exposição ao calor, de acordo com a avalição de risco da <mark>atividade;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "informações sobre o ambiente de trabalho e suas características; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "situações de emergência decorrentes da exposição ocupacional ao calor e condutas a serem <mark>adotadas.</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.1.2 Devem ser realizados treinamentos periódicos anuais específicos, quando indicados nas medidas de prevenção.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.2 A avaliação preliminar da exposição ocupacional ao calor deve considerar os seguintes aspectos, quando aplicáveis:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a identificação do perigo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a caracterização das fontes geradoras;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a identificação das possíveis trajetórias e dos meios de propagação dos agentes no ambiente de <mark>trabalho;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "identificação das funções e determinação do número de trabalhadores expostos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "a caracterização das atividades e do tipo da exposição, considerando a organização do trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "a obtenção de dados existentes na empresa, indicativos de possível comprometimento da saúde <mark>decorrente do trabalho;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "os possíveis lesões ou agravos à saúde relacionados aos perigos identificados, disponíveis na <mark>literatura técnica;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "a descrição das medidas de prevenção já existentes;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "características dos fatores ambientais e demais condições de trabalho que possam influenciar na <mark>exposição ao calor e no mecanismo de trocas térmicas entre o trabalhador e o ambiente;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "estimativas do tempo de permanência em cada atividade e situação térmica às quais o trabalhador <mark>permanece exposto ao longo da sua jornada de trabalho;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "taxa metabólica para execução das atividades com exposição ao calor; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "registros disponíveis sobre a exposição ocupacional ao calor."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.2.1 A avaliação preliminar deve subsidiar a adoção de medidas de prevenção, sem prejuízo de outras medidas previstas nas demais Normas Regulamentadoras.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.2.1.1 Se as informações obtidas na avaliação preliminar não forem suficientes para permitir a tomada de decisão quanto à necessidade de implementação de medidas de prevenção, deve-se proceder à avaliação quantitativa para:</mark>"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "8"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "comprovar o controle da exposição ou a inexistência de riscos identificados na etapa de avaliação <mark>preliminar;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "dimensionar a exposição dos trabalhadores; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "subsidiar o equacionamento das medidas de prevenção."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3 A avaliação quantitativa do calor deverá ser realizada com base na metodologia e procedimentos descritos na Norma de Higiene Ocupacional n° 06 - NHO 06 (2ª edição - 2017) da Fundacentro, nos seguintes aspectos:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "determinação de sobrecarga térmica por meio do índice IBUTG - Índice de Bulbo Úmido <mark>Termômetro de Globo;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "equipamentos de medição e formas de montagem, posicionamento e procedimentos de uso dos <mark>mesmos nos locais avaliados;</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "procedimentos quanto à conduta do avaliador; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "medições e cálculos."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3.1 A taxa metabólica deve ser estimada com base na comparação da atividade realizada pelo trabalhador com as opções apresentadas no Quadro 3 deste anexo.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3.1.1 Caso uma atividade específica não esteja apresentada no Quadro 3 deste anexo, o valor da taxa metabólica deverá ser obtido por associação com atividade similar do referido Quadro.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3.1.1.1 Na impossibilidade de enquadramento por similaridade, a taxa metabólica também pode ser estimada com base em outras referências técnicas, desde que justificadas tecnicamente.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "4-medidas-de-prevenção",
+      "number": "",
+      "title": "4. Medidas de prevenção",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>4.1 Medidas preventivas</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.1.1 Sempre que os níveis de ação para exposição ocupacional ao calor, estabelecidos no Quadro 1 forem excedidos, devem ser adotadas pela organização, uma ou mais das seguintes medidas:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "disponibilizar água fresca potável (ou outro líquido de reposição adequado) e incentivar a sua <mark>ingestão; e</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "programar os trabalhos mais pesados (acima de 414W - quatrocentos e quatorze watts), <mark>preferencialmente nos períodos com condições térmicas mais amenas, desde que nesses períodos não ocorram riscos adicionais.</mark>"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.1.2 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.1.1, o empregador deve fornecer vestimentas de trabalho adaptadas ao tipo de exposição e à natureza da atividade.</mark>"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "9"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2 Medidas corretivas</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2.1 As medidas corretivas visam reduzir a exposição ocupacional ao calor a valores abaixo do limite de exposição.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2.2 Quando ultrapassados os limites de exposição estabelecidos no Quadro 2, devem ser adotadas pela organização uma ou mais das seguintes medidas corretivas:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "adequar os processos, as rotinas ou as operações de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "alternar operações que gerem exposições a níveis mais elevados de calor com outras que não <mark>apresentem exposições ou impliquem exposições a menores níveis, resultando na redução da exposição; e</mark>"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "disponibilizar acesso a locais, inclusive naturais, termicamente mais amenos, que possibilitem <mark>pausas, permitindo a recuperação térmica nas atividades realizadas em locais abertos e distantes de quaisquer edificações ou estruturas naturais ou artificiais.</mark> _<mark>(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)</mark>_"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2.2.1 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.2.2, a organização deve:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "adaptar os locais e postos de trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "reduzir a temperatura ou a emissividade das fontes de calor;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "utilizar barreiras para o calor radiante;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "adequar o sistema de ventilação do ar; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "adequar a temperatura e a umidade relativa do ar."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2.3 O Programa de Controle Médico de Saúde Ocupacional - PCMSO, previsto na Norma Regulamentadora nº 07, deve prever procedimentos e avaliações médicas considerando a necessidade de exames complementares e monitoramento fisiológico quando ultrapassados os limites de exposição previstos no Quadro 2 deste anexo e caracterizado risco de sobrecarga térmica e fisiológica dos trabalhadores expostos ao calor.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>4.2.3.1 Fica caracterizado o risco de sobrecarga térmica e fisiológica com possibilidade de lesão grave a integridade física ou a saúde dos trabalhadores:</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "quando não forem adotadas as medidas previstas no item 4 deste Anexo; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando as medidas adotadas não forem suficientes para a redução do risco."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-aclimatização",
+      "number": "",
+      "title": "5. Aclimatização",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "10"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente.</mark>"
+        }
+      ]
+    },
+    {
+      "id": "6-procedimentos-de-emergência",
+      "number": "",
+      "title": "6. Procedimentos de emergência",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "<mark>6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando:</mark> a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador <mark>para atendimento; e</mark>"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "informação a todas as pessoas envolvidas nos cenários de emergências."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para trabalhadores não aclimatizados</mark> _<u><mark>(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)</mark></u>_"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "11"
+        },
+        {
+          "type": "table",
+          "markdown": "| 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências |  |  |  |  |  |\n| técnicas emitidas por organização competente. |  |  |  |  |  |\n|  |  |  |  |  |  |\n| 6. Procedimentos de emergência |  |  |  |  |  |\n|  |  |  |  |  |  |\n| 6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: |  |  |  |  |  |\n| a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador |  |  |  |  |  |\n| para atendimento; e |  |  |  |  |  |\n| b) informação a todas as pessoas envolvidas nos cenários de emergências. |  |  |  |  |  |\n|  |  |  |  |  |  |\n| Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para |  |  |  |  |  |\n| trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) |  |  |  |  |  |\n| 𝐌 [𝐖] | ∘"
+        },
+        {
+          "type": "paragraph",
+          "text": "𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 100 | 31,7 | 183 | 28,0 | 334 | 24,3 |\n| 101 | 31,6 | 186 | 27,9 | 340 | 24,2 |\n| 103 | 31,5 | 189 | 27,8 | 345 | 24,1 |\n| 105 | 31,4 | 192 | 27,7 | 351 | 24,0 |\n| 106 | 31,3 | 195 | 27,6 | 357 | 23,9 |\n| 108 | 31,2 | 198 | 27,5 | 363 | 23,8 |\n| 110 | 31,1 | 201 | 27,4 | 369 | 23,7 |\n| 112 | 31,0 | 205 | 27,3 | 375 | 23,6 |\n| 114 | 30,9 | 208 | 27,2 | 381 | 23,5 |\n| 115 | 30,8 | 212 | 27,1 | 387 | 23,4 |\n| 117 | 30,7 | 215 | 27,0 | 394 | 23,3 |\n| 119 | 30,6 | 219 | 26,9 | 400 | 23,2 |\n| 121 | 30,5 | 222 | 26,8 | 407 | 23,1 |\n| 123 | 30,4 | 226 | 26,7 | 414 | 23,0 |\n| 125 | 30,3 | 230 | 26,6 | 420 | 22,9 |\n| 127 | 30,2 | 233 | 26,5 | 427 | 22,8 |\n| 129 | 30,1 | 237 | 26,4 | 434 | 22,7 |\n| 132 | 30,0 | 241 | 26,3 | 442 | 22,6 |\n| 134 | 29,9 | 245 | 26,2 | 449 | 22,5 |\n| 136 | 29,8 | 249 | 26,1 | 456 | 22,4 |\n| 138 | 29,7 | 253 | 26,0 | 464 | 22,3 |\n| 140 | 29,6 | 257 | 25,9 | 479 | 22,1 |\n| 143 | 29,5 | 262 | 25,8 | 487 | 22,0 |\n| 145 | 29,4 | 266 | 25,7 | 495 | 21,9 |\n| 148 | 29,3 | 270 | 25,6 | 503 | 21,8 |\n| 150 | 29,2 | 275 | 25,5 | 511 | 21,7 |\n| 152 | 29,1 | 279 | 25,4 | 520 | 21,6 |\n| 155 | 29,0 | 284 | 25,3 | 528 | 21,5 |\n| 158 | 28,9 | 289 | 25,2 | 537 | 21,4 |"
+        },
+        {
+          "type": "paragraph",
+          "text": "<u><mark>Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados</mark></u>"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "12"
+        },
+        {
+          "type": "table",
+          "markdown": "| 𝐌 [𝐖] |  | ∘"
+        },
+        {
+          "type": "paragraph",
+          "text": "𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- |\n| 160 |  | 28,8 | 293 | 25,1 | 546 | 21,3 |\n| 163 |  | 28,7 | 298 | 25,0 | 555 | 21,2 |\n| 165 |  | 28,6 | 303 | 24,9 | 564 | 21,1 |\n| 168 |  | 28,5 | 308 | 24,8 | 573 | 21,0 |\n| 171 |  | 28,4 | 313 | 24,7 | 583 | 20,9 |\n| 174 |  | 28,3 | 318 | 24,6 | 593 | 20,8 |\n| 177 |  | 28,2 | 324 | 24,5 | 602 | 20,7 |\n| 180 |  | 28,1 | 329 | 24,4 |  |  |\n|  |  |  |  |  |  |  |\n| Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados |  |  |  |  |  |  |\n| 𝐌 [𝐖] | ∘"
+        },
+        {
+          "type": "paragraph",
+          "text": "𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |  | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 100 | 33,7 |  | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 |  | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 |  | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 |  | 197 | 30,3 | 367 | 27,2 |\n| 108 | 33,3 |  | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 |  | 205 | 30,1 | 382 | 27,0 |\n| 112 | 33,1 |  | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 |  | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 |  | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 |  | 222 | 29,7 | 414 | 26,6 |\n| 122 | 32,7 |  | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 |  | 231 | 29,5 | 431 | 26,4 |\n| 127 | 32,5 |  | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 |  | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 |  | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 |  | 251 | 29,1 | 467 | 26,0 |\n| 137 | 32,1 |  | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 |  | 261 | 28,9 | 486 | 25,8 |\n| 143 | 31,9 |  | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 |  | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 |  | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 |  | 283 | 28,5 | 526 | 25,4 |\n| 155 | 31,5 |  | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 |  | 294 | 28,3 | 548 | 25,2 |\n| 161 | 31,3 |  | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 |  | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 |  | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 |  | 319 | 27,9 | 594 | 24,8 |\n| 175 | 30,9 |  | 325 | 27,8 | 606 | 24,7 |\n| 178 | 30,8 |  | 332 | 27,7 |  |  |\n| 182 | 30,7 |  | 339 | 27,6 |  |  |"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação <mark>médica prevista na NR-07.</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<u><mark>Quadro 3 - Taxa metabólica por tipo de atividade</mark></u>"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "13"
+        },
+        {
+          "type": "table",
+          "markdown": "| Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que |  |\n| --- | --- |\n| não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. |  |\n| Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação |  |\n| médica prevista na NR-07. |  |\n|  |  |\n| Quadro 3 - Taxa metabólica por tipo de atividade |  |\n| Atividade | Taxa metabólica(W) |\n| Sentado |  |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado |  |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "paragraph",
+          "text": "14"
+        },
+        {
+          "type": "table",
+          "markdown": "| Em pé, em movimento |  |\n| --- | --- |\n| Andando no plano |  |\n| 1. Sem carga |  |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga |  |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano |  |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa |  |\n| 1. Sem carga |  |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg |  |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga |  |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do"
+        },
+        {
+          "type": "paragraph",
+          "text": "degrau de 0,17 m) |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minuto - altura do"
+        },
+        {
+          "type": "paragraph",
+          "text": "degrau de 0,17 m) |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas*</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "<mark>*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C</mark>"
+        },
+        {
+          "type": "paragraph",
+          "text": "15"
+        },
+        {
+          "type": "note",
+          "text": "Este texto não substitui o publicado no DOU"
+        },
+        {
+          "type": "table",
+          "markdown": "| Trabalho moderado de braços (ex.: varrer, trabalho"
+        },
+        {
+          "type": "paragraph",
+          "text": "em almoxarifado) | 320 |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- |\n| Trabalho moderado de levantar ou empurrar | 349 |  |\n| Trabalho de empurrar carrinhos de mão, no mesmo"
+        },
+        {
+          "type": "paragraph",
+          "text": "plano, com carga | 391 |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Trabalho de carregar pesos ou com movimentos"
+        },
+        {
+          "type": "paragraph",
+          "text": "vigorosos com os braços (ex.: trabalho com foice) | 495 |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Trabalho pesado de levantar, empurrar ou arrastar"
+        },
+        {
+          "type": "paragraph",
+          "text": "pesos (ex.: remoção com pá, abertura de valas) | 524 |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |  |\n| Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* |  |  |\n|  |  |  |\n| Tipo de roupa |  | Adição ao"
+        },
+        {
+          "type": "paragraph",
+          "text": "IBUTG [°C] |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Uniforme de trabalho (calça e camisa de manga comprida) |  | 0 |\n| Macacão de tecido |  | 0 |\n| Macacão de polipropileno SMS (Spun-Melt-Spun) |  | 0,5 |\n| Macacão de poliolefina |  | 2 |\n| Vestimenta ou macacão forrado (tecido duplo) |  | 3 |\n| Avental longo de manga comprida impermeável ao vapor |  | 4 |\n| Macacão impermeável ao vapor |  | 10 |\n| Macacão impermeável ao vapor sobreposto à roupa de"
+        },
+        {
+          "type": "paragraph",
+          "text": "trabalho |  | 12 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C |  |  |\n|  |  |  |"
+        }
+      ]
+    }
+  ]
+}

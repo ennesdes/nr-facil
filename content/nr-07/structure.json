@@ -1,0 +1,4476 @@
+{
+  "title": "",
+  "preamble": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "# **NR 7 - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL - PCMSO**"
+      },
+      {
+        "type": "table",
+        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º12, de 06 de junho de 1983|14/06/83|\n|Portaria MTPS n.º3.720, de 31 de outubro de 1990|01/11/90|\n|Portaria SSST n.º24, de 29 de dezembro de 1994|30/12/90|\n|Portaria SSST n.º08, de 08 de maio de 1996|Rep. 09/05/96|\n|Portaria SSST n.º19, de 09 de abril de 1998|22/04/98|\n|Portaria SIT n.º223, de 06 de maio de 2011|10/05/11|\n|Portaria SIT n.º236, de 10 de junho de 2011|13/06/11|\n|Portaria MTE n.º1.892, de 09 de dezembro de 2013|11/12/13|\n|Portaria MTb n.º1.031, de 06 de dezembro de 2018|10/12/18|\n|Portaria SEPRT n.º6.734, de 09 de março de 2020|13/03/20|\n|Portaria SEPRT n.º1.295, de 02 de fevereiro de 2021|03/02/21|\n|Portaria SEPRT n.º8.873, de 23 de julho de 2021|26/07/21|\n|Portaria MTP n.º567, de 10 março de 2022|01/04/22|"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria SEPRT n.º 6.734, de 10 de março de 2020)_ SUMÁRIO"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "71-objetivo",
+      "number": "7.1",
+      "title": "Objetivo",
+      "blocks": []
+    },
+    {
+      "id": "72-campo-de-aplicação",
+      "number": "7.2",
+      "title": "Campo de Aplicação",
+      "blocks": []
+    },
+    {
+      "id": "73-diretrizes",
+      "number": "7.3",
+      "title": "Diretrizes",
+      "blocks": []
+    },
+    {
+      "id": "74-responsabilidades",
+      "number": "7.4",
+      "title": "Responsabilidades",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "- 7.5 Planejamento"
+        }
+      ]
+    },
+    {
+      "id": "76-documentação",
+      "number": "7.6",
+      "title": "Documentação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "7.7 Microempreendedor Individual - MEI, Microempresa - ME e Empresa de Pequeno Porte - EPP ANEXO I - Monitoração da exposição ocupacional a agentes químicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "ANEXO II - Controle médico ocupacional da exposição a níveis de pressão sonora elevados"
+        },
+        {
+          "type": "paragraph",
+          "text": "ANEXO III - Controle radiológico e espirométrico da exposição a agentes químicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "ANEXO IV - Controle médico ocupacional de exposição a condições hiperbáricas"
+        },
+        {
+          "type": "paragraph",
+          "text": "ANEXO V - Controle médico ocupacional da exposição a substâncias químicas cancerígenas e a radiações ionizantes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Glossário"
+        }
+      ]
+    },
+    {
+      "id": "71-objetivo",
+      "number": "7.1",
+      "title": "OBJETIVO",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.1.1",
+          "depth": 2,
+          "text": "Esta Norma Regulamentadora - NR estabelece diretrizes e requisitos  para o desenvolvimento do Programa de Controle Médico de Saúde Ocupacional - PCMSO nas organizações, com o objetivo"
+        },
+        {
+          "type": "paragraph",
+          "text": "de proteger e preservar a saúde de seus empregados em relação aos riscos ocupacionais, conforme avaliação de riscos do Programa de Gerenciamento de Risco - PGR da organização."
+        }
+      ]
+    },
+    {
+      "id": "72-campo-de-aplicação",
+      "number": "7.2",
+      "title": "CAMPO DE APLICAÇÃO",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.2.1",
+          "depth": 2,
+          "text": "Esta Norma se aplica às organizações e aos órgãos públicos da administração direta e indireta, bem como aos órgãos dos poderes legislativo e judiciário e ao Ministério Público, que possuam empregados regidos pela Consolidação das Leis do Trabalho - CLT."
+        }
+      ]
+    },
+    {
+      "id": "73-diretrizes",
+      "number": "7.3",
+      "title": "DIRETRIZES",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.3.1",
+          "depth": 2,
+          "text": "O PCMSO é parte integrante do conjunto mais amplo de iniciativas da organização no campo da saúde de seus empregados, devendo estar harmonizado com o disposto nas demais NR."
+        }
+      ]
+    },
+    {
+      "id": "732-são-diretrizes-do-pcmso",
+      "number": "",
+      "title": "7.3.2 São diretrizes do PCMSO:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "rastrear e detectar precocemente os agravos à saúde relacionados ao trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "detectar possíveis exposições excessivas a agentes nocivos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "definir a aptidão de cada empregado para exercer suas funções ou tarefas determinadas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "subsidiar a implantação e o monitoramento da eficácia das medidas de prevenção adotadas na organização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "subsidiar análises epidemiológicas e estatísticas sobre os agravos à saúde e sua relação com os riscos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "subsidiar decisões sobre o afastamento de empregados de situações de trabalho que possam comprometer sua saúde;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "subsidiar a emissão de notificações de agravos relacionados ao trabalho, de acordo com a regulamentação pertinente;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "subsidiar o encaminhamento de empregados à Previdência Social;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "acompanhar de forma diferenciada o empregado cujo estado de saúde possa ser especialmente afetado pelos riscos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "subsidiar a Previdência Social nas ações de reabilitação profissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "subsidiar  ações de readaptação profissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "controlar da imunização ativa dos empregados, relacionada a riscos ocupacionais, sempre que houver recomendação do Ministério da Saúde."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.3.2.1",
+          "depth": 3,
+          "text": "O PCMSO deve incluir ações de:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "vigilância passiva da saúde ocupacional, a partir de informações sobre a demanda espontânea de empregados que procurem serviços médicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "vigilância ativa da saúde ocupacional, por meio de exames médicos dirigidos que incluam, além dos exames previstos nesta NR, a coleta de dados sobre sinais e sintomas de agravos à saúde relacionados aos riscos ocupacionais."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.3.2.2",
+          "depth": 3,
+          "text": "O PCMSO não deve ter caráter de seleção de pessoal."
+        }
+      ]
+    },
+    {
+      "id": "74-responsabilidades",
+      "number": "7.4",
+      "title": "RESPONSABILIDADES",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.4.1",
+          "depth": 2,
+          "text": "Compete ao empregador:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "garantir a elaboração e efetiva implantação do PCMSO;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "custear sem ônus para o empregado todos os procedimentos relacionados ao PCMSO;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "indicar médico do trabalho responsável pelo PCMSO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "75-planejamento",
+      "number": "7.5",
+      "title": "PLANEJAMENTO",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.5.1",
+          "depth": 2,
+          "text": "O PCMSO deve ser elaborado considerando os riscos ocupacionais identificados e classificados pelo PGR."
+        },
+        {
+          "type": "item",
+          "number": "7.5.2",
+          "depth": 2,
+          "text": "Inexistindo médico do trabalho na localidade, a organização pode contratar médico de outra especialidade como responsável pelo PCMSO."
+        },
+        {
+          "type": "item",
+          "number": "7.5.3",
+          "depth": 2,
+          "text": "O PCMSO deve incluir a avaliação do estado de saúde dos empregados em atividades críticas, como definidas nesta Norma, considerando os riscos envolvidos em cada situação e a investigação de patologias que possam impedir o exercício de tais atividades com segurança."
+        },
+        {
+          "type": "item",
+          "number": "7.5.4",
+          "depth": 2,
+          "text": "A organização deve garantir que o PCMSO:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "descreva os possíveis agravos à saúde relacionados aos riscos ocupacionais identificados e classificados no PGR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "contenha planejamento de exames médicos clínicos e complementares necessários, conforme os riscos ocupacionais identificados, atendendo ao determinado nos Anexos desta NR;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "contenha os critérios de interpretação e planejamento das condutas relacionadas aos achados dos exames médicos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "seja conhecido e atendido por todos os médicos que realizarem os exames médicos ocupacionais dos empregados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "inclua relatório analítico sobre o desenvolvimento do programa, conforme o subitem 7.6.2 desta NR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.5",
+          "depth": 2,
+          "text": "O médico responsável pelo PCMSO, caso observe inconsistências no inventário de riscos da organização, deve reavaliá-las em conjunto com os responsáveis pelo PGR."
+        },
+        {
+          "type": "item",
+          "number": "7.5.6",
+          "depth": 2,
+          "text": "O PCMSO deve incluir a realização obrigatória dos exames médicos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "periódico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "de retorno ao trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "de mudança de riscos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "demissional."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.7",
+          "depth": 2,
+          "text": "Os exames médicos de que trata o subitem 7.5.6 compreendem exame clínico e exames complementares, realizados de acordo com as especificações desta e de outras NR."
+        },
+        {
+          "type": "item",
+          "number": "7.5.8",
+          "depth": 2,
+          "text": "O exame clínico deve obedecer aos prazos e à seguinte periodicidade:"
+        },
+        {
+          "type": "paragraph",
+          "text": "- I - no exame admissional: ser realizado antes que o empregado assuma suas atividades;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - no exame periódico: ser realizado de acordo com os seguintes intervalos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "para empregados expostos a riscos ocupacionais identificados e classificados no PGR e para portadores de doenças crônicas que aumentem a susceptibilida ~~d~~ e a tais riscos:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "1. a cada ano ou a intervalos menores, a critério do médico responsável;"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. de acordo com a periodicidade especificada no Anexo IV desta Norma, relativo a empregados expostos a condições hiperbáricas;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "para os demais empregados, o exame clínico deve ser realizado a cada dois anos."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.9",
+          "depth": 2,
+          "text": "No exame de retorno ao trabalho, o exame clínico deve ser realizado antes que o empregado reassuma suas funções, quando ausente por período igual ou superior a 30 (trinta) dias por motivo de doença ou acidente, de natureza ocupacional ou não."
+        },
+        {
+          "type": "item",
+          "number": "7.5.9.1",
+          "depth": 3,
+          "text": "No exame de retorno ao trabalho, a avaliação médica deve definir a necessidade de retorno gradativo ao trabalho."
+        },
+        {
+          "type": "item",
+          "number": "7.5.10",
+          "depth": 2,
+          "text": "O exame de mudança de risco ocupacional deve, obrigatoriamente, ser realizado antes da data da mudança, adequando-se o controle médico aos novos riscos."
+        },
+        {
+          "type": "item",
+          "number": "7.5.11",
+          "depth": 2,
+          "text": "No exame demissional, o exame clínico deve ser realizado em até 10 (dez) dias contados do término do contrato, podendo ser dispensado caso o exame clínico ocupacional mais recente tenha sido realizado há menos de 135 (centro e trinta e cinco) dias, para as organizações graus de risco 1 e 2, e há menos de 90 (noventa) dias, para as organizações graus de risco 3 e 4."
+        },
+        {
+          "type": "item",
+          "number": "7.5.12",
+          "depth": 2,
+          "text": "Os exames complementares laboratoriais previstos nesta NR devem ser executados por laboratório que atenda ao disposto na RDC/Anvisa n.º 302/2005, no que se refere aos procedimentos de coleta, acondicionamento, transporte e análise, e interpretados com base nos critérios constantes nos Anexos desta Norma e são obrigatórios quando:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o levantamento preliminar do PGR indicar a necessidade de medidas de prevenção imediatas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "houver exposições ocupacionais acima dos níveis de ação determinados na NR-09 ou se a classificação de riscos do PGR indicar."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.12.1",
+          "depth": 3,
+          "text": "O momento da coleta das amostras biológicas deve seguir o determinado nos Quadros 1 e 2 do Anexo I desta NR."
+        },
+        {
+          "type": "item",
+          "number": "7.5.12.2",
+          "depth": 3,
+          "text": "Quando a organização realizar o armazenamento e o transporte das amostras, devem ser seguidos os procedimentos recomendados pelo laboratório contratado."
+        },
+        {
+          "type": "item",
+          "number": "7.5.13",
+          "depth": 2,
+          "text": "Os exames previstos nos Quadros 1 e 2 do Anexo I desta NR devem ser realizados a cada seis meses, podendo ser antecipados ou postergados por até 45 (quarenta e cinco) dias, a critério do médico responsável, mediante justificativa técnica, a fim de que os exames sejam realizados em situações mais representativas da exposição do empregado ao agente."
+        },
+        {
+          "type": "item",
+          "number": "7.5.14",
+          "depth": 2,
+          "text": "Para as atividades realizadas de forma sazonal, a periodicidade dos exames constantes nos Quadros 1 e 2 do Anexo I desta NR pode ser anual, desde que realizada em concomitância com o período da execução da atividade."
+        },
+        {
+          "type": "item",
+          "number": "7.5.15",
+          "depth": 2,
+          "text": "Os exames previstos no Quadro 1 do Anexo I desta NR não serão obrigatórios nos exames admissional, de retorno ao trabalho, de mudança de risco ocupacional e demissional."
+        },
+        {
+          "type": "item",
+          "number": "7.5.16",
+          "depth": 2,
+          "text": "Os empregados devem ser informados, durante o exame clínico, das razões da realização dos exames complementares previstos nesta NR e do significado dos resultados de tais exames."
+        },
+        {
+          "type": "item",
+          "number": "7.5.17",
+          "depth": 2,
+          "text": "No exame admissional, a critério do médico responsável, poderão ser aceitos exames complementares realizados nos 90 (noventa) dias anteriores, exceto quando definidos prazos diferentes nos Anexos desta NR."
+        },
+        {
+          "type": "item",
+          "number": "7.5.18",
+          "depth": 2,
+          "text": "Podem ser realizados outros exames complementares, a critério do médico responsável, desde que relacionados aos riscos ocupacionais classificados no PGR e tecnicamente justificados no PCMSO."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19",
+          "depth": 2,
+          "text": "Para cada exame clínico ocupacional realizado, o médico emitirá Atestado de Saúde Ocupacional - ASO, que deve ser  comprovadamente disponibilizado ao empregado, devendo ser fornecido em meio físico quando solicitado."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.1",
+          "depth": 3,
+          "text": "O ASO deve conter no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "razão social e CNPJ ou CAEPF da organização;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "nome completo do empregado, o número de seu CPF e sua função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a descrição dos perigos ou fatores de risco identificados e classificados no PGR que necessitem de controle médico previsto no PCMSO, ou a sua inexistência;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "indicação e data de realização do ~~s~~ exames ocupacionais clínicos e complementares a que foi submetido o empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "definição de apto ou inapto para a função do empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "o nome e número de registro profissional do médico responsável pelo PCMSO, se houver;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "data, número de registro profissional e assinatura do médico que realizou o exame clínico."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.2",
+          "depth": 3,
+          "text": "A aptidão para trabalho em atividades específicas, quando assim definido em Normas Regulamentadoras e seus Anexos, deve ser consignada no ASO."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.3",
+          "depth": 3,
+          "text": "Quando forem realizados exames complementares sem que tenha ocorrido exame clínico, a organização emitirá recibo de entrega do resultado do exame, devendo o recibo ser fornecido ao empregado em meio físico, quando solicitado."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.4",
+          "depth": 3,
+          "text": "Sendo verificada a possibilidade de exposição excessiva a agentes listados no Quadro 1 do Anexo I desta NR, o médico do trabalho responsável pelo PCMSO deve informar o fato aos responsáveis pelo PGR para reavaliação dos riscos ocupacionais e das medidas de prevenção."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.5",
+          "depth": 3,
+          "text": "Constatada ocorrência ou agravamento de doença relacionada ao trabalho ou  alteração que revele disfunção orgânica por meio dos exames complementares do Quadro 2 do Anexo I, dos demais Anexos desta NR ou dos exames complementares incluídos com base no subitem 7.5.18 da presente NR, caberá à organização, após informada pelo médico responsável pelo PCMSO:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "emitir a Comunicação de Acidente do Trabalho - CAT;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "afastar o empregado da situação, ou do trabalho, quando necessário;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "encaminhar o empregado à Previdência Social, quando houver afastamento do trabalho superior a 15 (quinze) dias, para avaliação de incapacidade e definição da conduta previdenciária;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "reavaliar os riscos ocupacionais e as medidas de prevenção pertinentes no PGR."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.6",
+          "depth": 3,
+          "text": "O empregado, em uma das situações previstas nos subitens 7.5.19.4 ou 7.5.19.5, deve ser submetido a exame clínico e informado sobre o significado dos exames alterados e condutas necessárias."
+        },
+        {
+          "type": "item",
+          "number": "7.5.19.6.1",
+          "depth": 4,
+          "text": "O médico responsável pelo PCMSO deve avaliar a necessidade de realização de exames médicos em outros empregados sujeitos às mesmas situações de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "76-documentação",
+      "number": "7.6",
+      "title": "DOCUMENTAÇÃO",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.6.1",
+          "depth": 2,
+          "text": "Os dados dos exames clínicos e complementares deverão ser registrados em prontuário médico individual sob a responsabilidade do médico responsável pelo PCMSO, ou do médico responsável pelo exame, quando a organização estiver dispensada de PCMSO."
+        },
+        {
+          "type": "item",
+          "number": "7.6.1.1",
+          "depth": 3,
+          "text": "O prontuário do empregado deve ser mantido pela organização, no mínimo, por 20 (vinte) anos após o seu desligamento, exceto em caso de previsão diversa constante nos Anexos desta NR. **7.6.1.2** Em caso de substituição do médico responsável pelo PCMSO, a organização deve garantir que os prontuários médicos sejam formalmente transferidos para seu sucessor."
+        },
+        {
+          "type": "item",
+          "number": "7.6.1.3",
+          "depth": 3,
+          "text": "Podem ser utilizados prontuários médicos em meio eletrônico desde que atendidas as exigências do Conselho Federal de Medicina."
+        },
+        {
+          "type": "item",
+          "number": "7.6.2",
+          "depth": 2,
+          "text": "O médico responsável pelo PCMSO deve elaborar relatório analítico do Programa, anualmente, considerando a data do último relatório, contendo, no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o número de exames clínicos realizados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "o número e tipos de exames complementares realizados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "estatística de resultados anormais dos exames complementares, categorizados por tipo do exame e por unidade operacional, setor ou função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "incidência e prevalência de doenças relacionadas ao trabalho, categorizadas por unidade operacional, setor ou função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "informações sobre o número, tipo de eventos e doenças informadas nas CAT, emitidas pela organização, referentes a seus empregados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "análise comparativa em relação ao relatório anterior e discussão sobre as variações nos resultados."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.6.3",
+          "depth": 2,
+          "text": "A organização deve garantir que o médico responsável pelo PCMSO considere, na elaboração do relatório analítico, os dados dos prontuários médicos a ele transferidos, se for o caso."
+        },
+        {
+          "type": "item",
+          "number": "7.6.4",
+          "depth": 2,
+          "text": "Caso o médico responsável pelo PCMSO não tenha recebido os prontuários médicos ou considere as informações insuficientes, deve informar o ocorrido no relatório analítico."
+        },
+        {
+          "type": "item",
+          "number": "7.6.5",
+          "depth": 2,
+          "text": "O relatório analítico deve ser apresentado e discutido com os responsáveis por segurança e saúde no trabalho da organização, incluindo a CIPA, quando existente, para que as medidas de prevenção necessárias sejam adotadas na organização."
+        },
+        {
+          "type": "item",
+          "number": "7.6.6",
+          "depth": 2,
+          "text": "As organizações de graus de risco 1 e 2 com até 25 (vinte e cinco) empregados e as organizações de graus de risco 3 e 4 com até 10 (dez) empregados podem elaborar relatório analítico apenas com as informações solicitadas nas alíneas “a” e “b” do subitem 7.6.2."
+        }
+      ]
+    },
+    {
+      "id": "77-microempreendedor-individual---mei-microempresa---me-e-empresa-de-pequeno-porte---epp",
+      "number": "7.7",
+      "title": "MICROEMPREENDEDOR INDIVIDUAL - MEI, MICROEMPRESA - ME E EMPRESA DE PEQUENO PORTE - EPP",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "7.7.1",
+          "depth": 2,
+          "text": "As MEI, ME e EPP desobrigadas de elaborar PCMSO, de acordo com o subitem 1.8.6 da NR-01, devem realizar e custear exames médicos ocupacionais admissionais, demissionais e periódicos, a cada dois anos, de seus empregados."
+        },
+        {
+          "type": "item",
+          "number": "7.7.1.1",
+          "depth": 3,
+          "text": "Os empregados devem ser encaminhados pela organização, para realização dos exames médicos ocupacionais, a:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "médico do trabalho; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "serviço médico especializado em medicina do trabalho, devidamente registrado, de acordo com a legislação."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "7.7.2",
+          "depth": 2,
+          "text": "A organização deve informar, ao médico do trabalho ou ao serviço médico especializado em medicina do trabalho, que está dispensada da elaboração do PCMSO, de acordo com a NR-01, e que a função que o empregado exerce ou irá exercer não apresenta riscos ocupacionais."
+        },
+        {
+          "type": "item",
+          "number": "7.7.3",
+          "depth": 2,
+          "text": "Para cada exame clínico ocupacional, o médico que realizou o exame emitirá ASO, que deve ser disponibilizado ao empregado, mediante recibo, em meio físico, quando assim solicitado, e"
+        },
+        {
+          "type": "paragraph",
+          "text": "atender ao subitem 7.5.19.1 desta NR."
+        },
+        {
+          "type": "item",
+          "number": "7.7.4",
+          "depth": 2,
+          "text": "O relatório analítico não será exigido para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "Microempreendedores Individuais - MEI;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ME e EPP dispensadas da elaboração do PCMSO."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anexo-i",
+      "number": "ANEXO I",
+      "title": "ANEXO I",
+      "blocks": []
+    },
+    {
+      "id": "monitoração-da-exposição-ocupacional-a-agentes-químicos",
+      "number": "",
+      "title": "MONITORAÇÃO DA EXPOSIÇÃO OCUPACIONAL A AGENTES QUÍMICOS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        }
+      ]
+    },
+    {
+      "id": "quadro-1---indicadores-biológicos-de-exposição-excessiva-ibeee",
+      "number": "",
+      "title": "**QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)***",
+      "blocks": [
+        {
+          "type": "table",
+          "markdown": "| Substância | Número CAS | Indicador(es) | Momento"
+        },
+        {
+          "type": "paragraph",
+          "text": "da Coleta | Valor do IBE/EE | Observações |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- |\n| 1,1,1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tricloroetano | 71-55-6 | 1,1,1 Tricloroetano no ar exalado final ou | AJFS | 40 ppm | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Ácido"
+        },
+        {
+          "type": "paragraph",
+          "text": "tricloroacético na urina ou | FJFS | 10 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Tricloroetanol total"
+        },
+        {
+          "type": "paragraph",
+          "text": "na urina ou | FJFS | 30 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Tricloroetanol total"
+        },
+        {
+          "type": "paragraph",
+          "text": "no sangue | FJFS | 1 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1,3 butadieno | 106-99-0 | 1,2 dihidro-4"
+        },
+        {
+          "type": "paragraph",
+          "text": "(nacetilcisteína) butano na urina | FJ | 2,5 mg/L | EPNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 1,6 diisocianato"
+        },
+        {
+          "type": "paragraph",
+          "text": "de hexametileno (HDI) | 822-06-0 | 1,6 hexametilenodia mina na urina | FJ | 15 µg/g creat. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2-butoxietanol | 111-76-2 | Ácido butoxiacético"
+        },
+        {
+          "type": "paragraph",
+          "text": "na urina (BAA) (H) | FJ | 200 mg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2-metoxietanol e | 109-86-4 | Ácido 2metóxiacético na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina | FJFS | 1 mg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2metoxietilacetato | 109-49-6 |  |  |  |  |\n| 2-propanol | 67-63-0 | Acetona na urina | FJFS | 40 mg/L | EPNE, NE |\n| 2,4 e 2,6 Tolueno"
+        },
+        {
+          "type": "paragraph",
+          "text": "diisocianato | 58484-9 9108-7 | Isômeros 2,4 e 2,6 toluenodiamino | FJ | 5 µg/g creat. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| (puros ou em"
+        },
+        {
+          "type": "paragraph",
+          "text": "mistura dos dois isômeros) |  | na urina(H) (soma dos isômeros) |  |  |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Acetona | 67-64-1 | Acetona na urina | FJ | 25 mg/L | NE |\n| Anilina | 62-53-3 | p-amino-fenol na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina(H) ou | FJ | 50 mg/L | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | metahemoglobina no"
+        },
+        {
+          "type": "paragraph",
+          "text": "sangue | FJ | 1,5% da hemoglobina | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Arsênico"
+        },
+        {
+          "type": "paragraph",
+          "text": "elementar e seus compostos inorgânicos solúveis, exceto arsina e arsenato de gálio | 7440-38-2 | Arsênico inorgânico mais metabólitos metilados na urina | FS | 35 µg/L | EPNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Benzeno | 71-43-2 | Ácido sfenilmercaptúrico (SPMA) na urina"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou | FJ | 45 µg/g creat. | EPNE, NF |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Ácido transtransmucônico"
+        },
+        {
+          "type": "paragraph",
+          "text": "(TTMA) na urina | FJ | 750 µg/g creat. Observação: para a siderurgia será mantida a regra atualmente vigente. | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Chumbo"
+        },
+        {
+          "type": "paragraph",
+          "text": "tetraetila | 78-00-2 | Chumbo na urina | FJ | 50 µg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Ciclohexanona | 108-94-1 | 1,2 ciclohexanodiol("
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "na urina ou | FJFS | 80 mg/L | NE |"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Ciclohexanol (H) na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina | FJ | 8 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Clorobenzeno | 108-90-7 | 4clorocatecol(H) na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina ou | FJFS | 100 mg/g creat. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | p-clorofenol (H) na | FJFS | 20 mg/g | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | urina |  | creat. |  |\n| --- | --- | --- | --- | --- | --- |\n| Cobalto e seus"
+        },
+        {
+          "type": "paragraph",
+          "text": "compostos inorgânicos, incluindo óxidos de cobalto, mas não combinados com carbeto de tungstênio | 7440-48-4 | Cobalto na urina | FJFS | 15 µg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Cromo"
+        },
+        {
+          "type": "paragraph",
+          "text": "hexavalente (compostos solúveis) | 7440-47-3 | Cromo na urina ou | FJFS | 25 µg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Cromo na urina | AJ-FJ"
+        },
+        {
+          "type": "paragraph",
+          "text": "(Aumento durante a Jornada) | 10 µg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Diclorometano | 75-09-2 | Diclorometano na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina | FJ | 0,3 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Estireno | 100-42-5 | Soma dos ácidos"
+        },
+        {
+          "type": "paragraph",
+          "text": "mandélico e fenilglioxílico na urina ou | FJ | 400 mg/g creat. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Estireno na urina | FJ | 40 µg/L | - |\n| Etilbenzeno | 100-41-4 | Soma dos ácidos"
+        },
+        {
+          "type": "paragraph",
+          "text": "mandélico e fenilglioxílico na urina | FJ | 0,15 g/g creat. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Etoxietanol e"
+        },
+        {
+          "type": "paragraph",
+          "text": "Etoxietilacetato | 1. 111-15-9 | Ácido etoxiacético na urina | FJFS | 100 mg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Fenol | 108-95-2 | Fenol(H) na urina | FJ | 250 mg/g"
+        },
+        {
+          "type": "paragraph",
+          "text": "creat. | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Furfural | 98-01-1 | Ácido furóico(H) na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina | FJ | 200 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Indutores de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Metahemoglobin a |  | Metahemoglobina no sangue | FJ | 1,5% da hemoglobin a | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Mercúrio"
+        },
+        {
+          "type": "paragraph",
+          "text": "metálico | 7439-97-6 | Mercúrio na urina | AJ | 20 µg/g creat. | EPNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Metanol | 67-56-1 | Metanol na urina | FJ | 15 mg/L | EPNE, NE |\n| Metil butil cetona | 591-78-6 | 2,5 | FJFS | 0,4 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | hexanodiona(SH) (2,5H"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "na urina |  |  |  |"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Metiletilcetona"
+        },
+        {
+          "type": "paragraph",
+          "text": "(MEK) | 78-93-3 | MEK na urina | FJ | 2 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Metilisobutilceto"
+        },
+        {
+          "type": "paragraph",
+          "text": "na (MIBK) | 108-10-1 | MIBK na urina | FJ | 1 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Monóxido de"
+        },
+        {
+          "type": "paragraph",
+          "text": "carbono | 630-08-0 | Carboxihemoglobina no sangue ou | FJ | 3,5% da hemoglobina | EPNE, NE, NF |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Monóxido de carbono"
+        },
+        {
+          "type": "paragraph",
+          "text": "no ar exalado final | FJ | 20 ppm | EPNE, NE, NF |"
+        },
+        {
+          "type": "table",
+          "markdown": "| n-hexano | 110-54-3 | 2,5"
+        },
+        {
+          "type": "paragraph",
+          "text": "hexanodiona(SH) (2,5H"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "na urina | FJ | 0,5 mg/L | - |"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "markdown": "| Nitrobenzeno | 98-95-3 | Metahemoglobina no"
+        },
+        {
+          "type": "paragraph",
+          "text": "sangue | FJ | 1,5% da hemoglobina | EPNE, NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| N-metil-2pirrolidona | 872-50-4 | 5-hidroxi-n-metil- | FJ | 100 mg/L | - |\n|  |  | 2- pirrolidona(SH) na"
+        },
+        {
+          "type": "paragraph",
+          "text": "urina |  |  |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| N,N"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dimetilacetami da | 127-19-5 | Nmetilacetamida na urina | FJFS | 30 mg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| N,N"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dimetilformamid a | 68-12-2 | Nmetilformamida total1 na urina 1(soma da N- metilformamida e N-(hidroximetil)-Nmetilformamida) ou | FJ | 30 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | N-Acetil-S-(Nmetilcarbemoil)"
+        },
+        {
+          "type": "paragraph",
+          "text": "cisteína na urina | FJFS | 30 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Óxido de etileno | 75-21-8 | Adutos de N-(2hidroxietil) valina"
+        },
+        {
+          "type": "paragraph",
+          "text": "(HEV) em hemoglobina | NC | 5.000 pmol/g hemog. | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Sulfeto de"
+        },
+        {
+          "type": "paragraph",
+          "text": "carbono | 75-15-0 | Ácido 2tioxotiazolidina 4 carboxílico (TTCA) na urina | FJ | 0,5 mg/g creat. | EPNE, NE |"
+        },
+        {
+          "type": "paragraph",
+          "text": "*São indicadores de exposição excessiva (EE) aqueles que não têm caráter diagnóstico ou significado clínico. Avaliam a absorção dos agentes por todas as vias de exposição e indicam, quando alterados, após descartadas outras causas não ocupacionais que justifiquem o achado, a possibilidade de exposição acima dos limites de exposição ocupacional. As amostras devem ser colhidas nas jornadas de trabalho em que o trabalhador efetivamente estiver exposto ao agente a ser monitorado."
+        }
+      ]
+    },
+    {
+      "id": "quadro-2---indicadores-biológicos-de-exposição-com-significado-clínico-ibesc",
+      "number": "",
+      "title": "QUADRO 2 - Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)*",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_<u>(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)</u>_"
+        },
+        {
+          "type": "table",
+          "markdown": "| Tetracloroetileno | 127-18-4 | Tetracloretile no ar"
+        },
+        {
+          "type": "paragraph",
+          "text": "exalado final ou | AJ | 3 ppm | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- |\n|  |  | Tetracloroetieno no"
+        },
+        {
+          "type": "paragraph",
+          "text": "sangue | AJ | 0,5 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Tetrahidrofurano | 109-99-9 | Tetrahidrofurano na"
+        },
+        {
+          "type": "paragraph",
+          "text": "Urina | FJ | 2 mg/L | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Tolueno | 108-88-3 | Tolueno no sangue ou | AJFS | 0,02 mg/L | - |\n|  |  | Tolueno na urina ou | FJ | 0,03 mg/L | - |\n|  |  | Orto-cresol na urina(H) | FJ | 0,3 mg/g"
+        },
+        {
+          "type": "paragraph",
+          "text": "creat. | EPNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Tricloroetileno | 79-01-6 | Ácido tricloroacético"
+        },
+        {
+          "type": "paragraph",
+          "text": "na urina ou | FJFS | 15 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Tricloroetanol no"
+        },
+        {
+          "type": "paragraph",
+          "text": "sangue(SH) | FJFS | 0,5 mg/L | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Xilenos | 9547-6"
+        },
+        {
+          "type": "paragraph",
+          "text": "10642-3 10838-3 1330-27-7 | Ácido metilhipúrico na urina | FJ | 1,5 mg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Substância | Número"
+        },
+        {
+          "type": "paragraph",
+          "text": "CAS | Indicador | Coleta | Valor do IBE/SC | Observações |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Cádmio e seus compostos"
+        },
+        {
+          "type": "paragraph",
+          "text": "inorgânicos | 7440-43-9 | Cádmio na urina | NC | 5 µg/g creat. | - |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Chumbo e seus"
+        },
+        {
+          "type": "paragraph",
+          "text": "compostos inorgânicos | 7439-92-1 | Chumbo no sangue (Pb-S) e | NC | 60 µg/100ml(M) | EPNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  | Ácido Delta Amino"
+        },
+        {
+          "type": "paragraph",
+          "text": "Levulínico na urina (ALAU) | NC | 10 mg/g creat. | EPNE, PNE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Inseticidas inibidores da"
+        },
+        {
+          "type": "paragraph",
+          "text": "Colinesterase |  | Atividade da acetilcolinesterase eritrocitária ou | FJ | 70% da ativid ade basal | NE |"
+        },
+        {
+          "type": "paragraph",
+          "text": "(*) Indicadores biológicos com significado clínico (SC) evidenciam disfunções orgânicas e efeitos adversos à saúde."
+        },
+        {
+          "type": "paragraph",
+          "text": "(#) A atividade basal é a atividade enzimática pré-ocupacional e deve ser estabelecida com o empregado afastado por pelo menos 30 (trinta) dias da exposição a inseticidas inibidores da colinesterase."
+        },
+        {
+          "type": "paragraph",
+          "text": "(M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb-S) a partir de 30 µg/100ml, devem ser afastadas da exposição ao agente."
+        }
+      ]
+    },
+    {
+      "id": "abreviaturas",
+      "number": "",
+      "title": "Abreviaturas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "IBE/EE - Indicadores Biológicos de Exposição Excessiva"
+        },
+        {
+          "type": "paragraph",
+          "text": "IBE/SC - Indicadores Biológicos de Exposição com Significado Clínico µg/g creat. - Microgramas por grama de creatinina µg/L - Microgramas por litro"
+        },
+        {
+          "type": "paragraph",
+          "text": "AJ - Antes da Jornada"
+        },
+        {
+          "type": "paragraph",
+          "text": "AJ-FJ - Diferença pré e pós-jornada"
+        },
+        {
+          "type": "paragraph",
+          "text": "AJ48 - Antes da jornada com no mínimo 48 horas sem exposição"
+        },
+        {
+          "type": "paragraph",
+          "text": "AJFS - Início da última jornada de trabalho da semana"
+        },
+        {
+          "type": "paragraph",
+          "text": "EPNE - Encontrado em populações não expostas ocupacionalmente"
+        },
+        {
+          "type": "paragraph",
+          "text": "FJ - Final de jornada de trabalho"
+        },
+        {
+          "type": "paragraph",
+          "text": "FJFS - Final do último dia de jornada da semana"
+        },
+        {
+          "type": "paragraph",
+          "text": "FS - Após 4 ou 5 jornadas de trabalho consecutivas"
+        },
+        {
+          "type": "paragraph",
+          "text": "H - Método analítico exige hidrólise para este IBE/EE"
+        },
+        {
+          "type": "paragraph",
+          "text": "SH - O método analítico deve ser realizado sem hidrólise para este IBE/EE mg/L - Miligramas por litro"
+        },
+        {
+          "type": "paragraph",
+          "text": "NC - Não crítica (pode ser colhido a qualquer momento desde que o trabalhador esteja trabalhando nas últimas semanas)"
+        },
+        {
+          "type": "paragraph",
+          "text": "NE - Não específico (pode ser encontrado por exposições a outras substâncias)"
+        },
+        {
+          "type": "paragraph",
+          "text": "NF - Valores para não fumantes (fumantes apresentam valores basais elevados deste indicador que inviabilizam a interpretação)"
+        },
+        {
+          "type": "paragraph",
+          "text": "pmol/g hemog - Picomoles por grama de hemoglobina"
+        },
+        {
+          "type": "paragraph",
+          "text": "ppm - Partes por milhão” (NR)"
+        },
+        {
+          "type": "table",
+          "markdown": "|  |  |  |  | (#) |  |\n| --- | --- | --- | --- | --- | --- |\n|  |  | Atividade da"
+        },
+        {
+          "type": "paragraph",
+          "text": "butilcolinesterase no plasma ou soro | FJ | 60% da ativid ade basal (#) | NE |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Flúor, ácido fluorídrico e"
+        },
+        {
+          "type": "paragraph",
+          "text": "fluoretos inorgânicos |  | Fluoreto urinário | AJ48 | 2 mg/L | EPNE |"
+        }
+      ]
+    },
+    {
+      "id": "anexo-ii",
+      "number": "ANEXO II",
+      "title": "ANEXO II",
+      "blocks": []
+    },
+    {
+      "id": "controle-médico-ocupacional-da-exposição-a-níveis-de-pressão-sonora-elevados",
+      "number": "",
+      "title": "CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1.** Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de empregados expostos a níveis de pressão sonora elevados."
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados que exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam acima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso de protetor auditivo."
+        }
+      ]
+    },
+    {
+      "id": "21-compõem-os-exames-audiológicos-de-referência-e-seqüenciais",
+      "number": "2.1",
+      "title": "Compõem os exames audiológicos de referência e seqüenciais:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "anamnese clínico-ocupacional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "exame otológico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "exame audiométrico realizado segundo os termos previstos neste Anexo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "outros exames audiológicos complementares solicitados a critério médico."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**3.** Exame audiométrico"
+        }
+      ]
+    },
+    {
+      "id": "31-o-exame-audiométrico-será-realizado-em-cabina-audiométrica-cujos-níveis-de-pressão-sonora-não-ultrapassem-os-níveis-máximos-permitidos-de-acordo-com-a-norma-técnica-iso-8253-1",
+      "number": "3.1",
+      "title": "O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora não ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.1.1",
+          "depth": 2,
+          "text": "Nas empresas em que existir ambiente acusticamente tratado, que atenda à norma técnica ISO 8253-1, a cabina audiométrica poderá ser dispensada."
+        }
+      ]
+    },
+    {
+      "id": "32-o-audiômetro-deve-ser-submetido-a-procedimentos-de-verificação-e-controle-periódico-do-seu-funcionamento-incluindo",
+      "number": "3.2",
+      "title": "O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu funcionamento, incluindo:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I - aferição acústica anual;"
+        },
+        {
+          "type": "paragraph",
+          "text": "II - calibração acústica:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "sempre que a aferição acústica indicar alteração;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando houver recomendação de prazo pelo fabricante;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a cada 5 (cinco) anos, se não houver indicação do fabricante."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "III - aferição biológica precedendo a realização dos exames audiométricos."
+        },
+        {
+          "type": "item",
+          "number": "3.2.1",
+          "depth": 2,
+          "text": "Os procedimentos constantes das alíneas “a” e “b” acima devem seguir o preconizado na norma técnica ISO 8253-1, e os resultados devem ser incluídos em certificado de aferição e/ou calibração que acompanhará o equipamento."
+        },
+        {
+          "type": "item",
+          "number": "3.2.1.1",
+          "depth": 3,
+          "text": "Na impossibilidade da realização do exame audiométrico nas condições previstas no item 3.1, o responsável pela execução do exame avaliará a viabilidade de sua realização em ambiente silencioso, por meio do exame audiométrico em 2 (dois) indivíduos, cujos limiares auditivos sejam"
+        },
+        {
+          "type": "paragraph",
+          "text": "conhecidos, detectados em exames audiométricos de referência atuais, e que não haja diferença de limiar auditivo, em qualquer freqüência e em qualquer um dos 2 (dois) indivíduos examinados, acima de 5 (cinco) dB (NA) (nível de audição em decibéis)."
+        }
+      ]
+    },
+    {
+      "id": "33-o-exame-audiométrico-deve-ser-executado-por-médico-ou-fonoaudiólogo-conforme-resoluções-dos-respectivos-conselhos-federais-profissionais",
+      "number": "3.3",
+      "title": "O exame audiométrico deve ser executado por médico ou fonoaudiólogo, conforme resoluções dos respectivos conselhos federais profissionais",
+      "blocks": []
+    },
+    {
+      "id": "34-o-empregado-deve-permanecer-em-repouso-auditivo-por-um-período-mínimo-de-14-horas-até-o-exame-audiométrico",
+      "number": "3.4",
+      "title": "O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o exame audiométrico",
+      "blocks": []
+    },
+    {
+      "id": "35-o-resultado-do-exame-audiométrico-deve-ser-registrado-e-conter-no-mínimo",
+      "number": "3.5",
+      "title": "O resultado do exame audiométrico deve ser registrado e conter, no mínimo:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "nome, idade, CPF e função do empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "razão social da organização e CNPJ ou CPF;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "tempo de repouso auditivo cumprido para a realização do exame audiométrico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "nome do fabricante, modelo e data da última aferição acústica do audiômetro;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "traçado audiométrico e símbolos, conforme indicados neste Anexo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "nome, número de registro no conselho regional e assinatura do profissional responsável pelo exame audiométrico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36-o-exame-audiométrico-deve-ser-realizado-sempre-pela-via-aérea-nas-freqüências-de-500-1000-2000-3000-4000-6000-e-8000-hz",
+      "number": "3.6",
+      "title": "O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000, 2.000. 3.000, 4.000, 6.000 e 8.000 Hz",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.6.1",
+          "depth": 2,
+          "text": "No caso de alteração detectada no teste pela via aérea, a audiometria deve ser feita, também, por via óssea, nas freqüências de 500, 1.000, 2.000, 3.000 e 4.000 Hz, ou ainda segundo a avaliação do profissional responsável pela execução do exame."
+        },
+        {
+          "type": "item",
+          "number": "3.6.2",
+          "depth": 2,
+          "text": "Segundo a avaliação do profissional responsável, no momento da execução do exame, podem ser determinados os Limiares de Reconhecimento de Fala - LRF."
+        },
+        {
+          "type": "paragraph",
+          "text": "**4.** Periodicidade dos exames audiométricos"
+        },
+        {
+          "type": "item",
+          "number": "4.1",
+          "depth": 1,
+          "text": "O exame audiométrico deve ser realizado, no mínimo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "na admissão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "anualmente, tendo como referência o exame da alínea “a” acima;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "na demissão."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "4.1.1",
+          "depth": 2,
+          "text": "Na demissão pode ser aceito exame audiométrico realizado até 120 (cento e vinte) dias antes da data de finalização do contrato de trabalho."
+        }
+      ]
+    },
+    {
+      "id": "42-o-intervalo-entre-os-exames-audiométricos-pode-ser-reduzido-a-critério-do-médico-do-trabalho-responsável-pelo-pcmso",
+      "number": "4.2",
+      "title": "O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho responsável pelo PCMSO",
+      "blocks": []
+    },
+    {
+      "id": "43-o-empregado-deve-ser-submetido-a-exame-audiométrico-de-referência-e-a-exames-audiométricos-sequenciais-na-forma-descrita-nos-subitens-seguintes",
+      "number": "4.3",
+      "title": "O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos sequenciais na forma descrita nos subitens seguintes",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.3.1",
+          "depth": 2,
+          "text": "Exame audiométrico de referência é aquele com o qual os exames sequenciais serão comparados e que deve ser realizado:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "quando não houver um exame audiométrico de referência prévio;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "quando algum exame audiométrico sequencial apresentar alteração significativa em relação ao exame de referência."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "4.3.2",
+          "depth": 2,
+          "text": "Exame audiométrico sequencial é aquele que será comparado com o exame de referência e se aplica a todo empregado que já possua um exame audiométrico de referência prévio."
+        },
+        {
+          "type": "paragraph",
+          "text": "**5.** Interpretação dos resultados dos exames audiométricos"
+        }
+      ]
+    },
+    {
+      "id": "51-são-considerados-dentro-dos-limites-aceitáveis-para-efeito-deste-anexo-os-casos-cujos-audiogramas-mostram-limiares-auditivos-menores-ou-iguais-a-25-vinte-e-cinco-db-na-em-todas-as-frequências-examinadas",
+      "number": "5.1",
+      "title": "São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos audiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as frequências examinadas",
+      "blocks": []
+    },
+    {
+      "id": "52-são-considerados-sugestivos-de-perda-auditiva-induzida-por-níveis-de-pressão-sonora-elevados-painpse-os-casos-cujos-audiogramas-nas-frequências-de-3000-eou-4000-eou-6000-hz-apresentem-limiares-auditivos-acima-de-25-vinte-e-cinco-db-na-e-mais-elevados-do-que-nas-outras-frequências-testadas-estando-estas-comprometidas-ou-não-tanto-no-teste-da-via-aérea-quanto-da-via-óssea-em-um-ou-em-ambos-os-lados",
+      "number": "5.2",
+      "title": "São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados (PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz, apresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras frequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da via óssea, em um ou em ambos os lados",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "5.2.1",
+          "depth": 2,
+          "text": "Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem  nos critérios definidos no item 5.2 acima."
+        }
+      ]
+    },
+    {
+      "id": "53-são-considerados-sugestivos-de-desencadeamento-de-painpse-os-casos-em-que-os-limiares-auditivos-em-todas-as-frequências-testadas-no-exame-audiométrico-de-referência-e-no-sequencial-permaneçam-menores-ou-iguais-a-25-vinte-e-cinco-db-na-mas-a-comparação-do-audiograma-sequencial-com-o-de-referência-mostra-evolução-que-preencha-um-dos-critérios-abaixo",
+      "number": "5.3",
+      "title": "São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares auditivos em todas as frequências testadas no exame audiométrico de referência e no sequencial permaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma sequencial com o de referência mostra evolução que preencha um dos critérios abaixo:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a piora em pelo menos uma das frequências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15 (quinze) dB (NA)."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "5.3.1",
+          "depth": 2,
+          "text": "São considerados também sugestivos de desencadeamento de PAINPSE os casos em que apenas o exame audiométrico de referência apresente limiares auditivos em todas as frequências testadas menores ou iguais a 25 (vinte e cinco) dB (NA), e a comparação do audiograma seqüencial com o de referência preencha um dos critérios abaixo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a diferença entre as médias aritméticas dos limiares auditivos no grupo de freqüências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a piora em pelo menos uma das freqüências de 3.000, 4.000 ou 6.000 Hz iguala ou ultrapassa 15 dB (NA)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "54-são-considerados-sugestivos-de-agravamento-da-painpse-os-casos-já-confirmados-em-exame-audiométrico-de-referência-e-nos-quais-a-comparação-de-exame-audiométrico-seqüencial-com-o-de-referência-mostra-evolução-que-preenche-um-dos-critérios-abaixo",
+      "number": "5.4",
+      "title": "São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que  preenche um dos critérios abaixo:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a diferença entre as médias aritméticas dos limiares auditivos no grupo de frequências de 500, 1.000 e 2.000 Hz, ou no grupo de frequências de 3.000, 4.000 e 6.000 Hz iguala ou ultrapassa 10 (dez) dB (NA);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a piora em uma freqüência isolada iguala ou ultrapassa 15 (quinze) dB (NA)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "55-para-fins-deste-anexo-o-exame-audiométrico-de-referência-deve-permanecer-como-tal-até-que-algum-dos-exames-audiométricos-sequenciais-demonstre-desencadeamento-ou-agravamento-de-painpse",
+      "number": "5.5",
+      "title": "Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que algum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de PAINPSE",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "5.5.1",
+          "depth": 2,
+          "text": "O exame audiométrico sequencial que venha a demonstrar desencadeamento ou agravamento de PAINPSE passará a ser, a partir de então, o novo exame audiométrico de referência."
+        },
+        {
+          "type": "paragraph",
+          "text": "**6.** O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou atividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo PCMSO."
+        },
+        {
+          "type": "paragraph",
+          "text": "**7.** Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou vibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição."
+        },
+        {
+          "type": "paragraph",
+          "text": "**8.** A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo-se levar em consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial de exames audiométricos, os seguintes fatores:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a história clínica e ocupacional do empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "o resultado da otoscopia e de outros testes audiológicos complementares;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a idade do empregado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "os tempos de exposição pregressa e atual a níveis de pressão sonora elevados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "os níveis de pressão sonora a que o empregado estará, está ou esteve exposto no exercício do trabalho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "a demanda auditiva do trabalho ou da função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "a exposição não ocupacional a níveis de pressão sonora elevados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "a exposição ocupacional a outro(s) agente(s) de risco ao sistema auditivo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "a exposição não ocupacional a outro(s) agentes de risco ao sistema auditivo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "a capacitação profissional do empregado examinado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "os programas de conservação auditiva aos quais tem ou terá acesso o empregado."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**9.** Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste Anexo, o médico do trabalho responsável pelo PCMSO deve:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "definir a aptidão do empregado para a função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "incluir o caso no Relatório Analítico do PCMSO;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "participar da implantação, aprimoramento e controle de programas que visem à conservação auditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros expostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a agentes ototóxicos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "disponibilizar cópias dos exames audiométricos aos empregados."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**10.** Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução esteja em desacordo com os moldes definidos neste Anexo para PAINPSE, o médico do trabalho responsável pelo PCMSO deve:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "verificar a possibilidade da presença concomitante de mais de um tipo de agressão ao sistema auditivo;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "orientar e encaminhar o empregado para avaliação especializada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "definir sobre a aptidão do empregado para função;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "participar da implantação e aprimoramento de programas que visem à conservação auditiva e prevenção da progressão da perda auditiva do empregado acometido e de outros expostos a riscos ocupacionais à audição, levando-se em consideração, inclusive, a exposição à vibração e a agentes ototóxicos ocupacionais;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "disponibilizar cópias dos exames audiométricos aos empregados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modelo-de-formulário-para-registro-de-traçado-audiométrico",
+      "number": "",
+      "title": "MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO",
+      "blocks": []
+    },
+    {
+      "id": "orelha-direita-frequência-em-khz",
+      "number": "",
+      "title": "ORELHA DIREITA Frequência em kHz",
+      "blocks": []
+    },
+    {
+      "id": "orelha-esquerda-frequência-em-khz",
+      "number": "",
+      "title": "ORELHA ESQUERDA Frequência em kHz",
+      "blocks": [
+        {
+          "type": "image",
+          "alt": "Página 18 — imagem 0",
+          "src": "../assets/pages/page-018-image-00.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Observação: A distância entre cada oitava de freqüência deve corresponder a uma variação de 20 dB no eixo do nível de audição (D)."
+        },
+        {
+          "type": "paragraph",
+          "text": "SÍMBOLOS PARA REGISTROS DE AUDIOMETRIAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Observações:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas  contínuas para a orelha direita e linhas interrompidas para a orelha esquerda."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "Os símbolos de condução óssea não devem ser interligados."
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "No caso do uso de cores: a cor vermelha deve ser usada para os símbolos referentes à orelha direita; a cor azul deve ser usada para os símbolos referentes à orelha esquerda."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii",
+      "number": "ANEXO III",
+      "title": "ANEXO III",
+      "blocks": []
+    },
+    {
+      "id": "controle-radiológico-e-espirométrico-da-exposição-a-agentes-químicos",
+      "number": "",
+      "title": "CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1.** A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros mínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "Radiografias de Tórax - RXTP em programas de controle médico em saúde ocupacional de empregados expostos a poeiras minerais, de acordo com os critérios da Organização Internacional do Trabalho - OIT;"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Página 19 — imagem 0",
+          "src": "../assets/pages/page-019-image-00.png"
+        },
+        {
+          "type": "image",
+          "alt": "Página 19 — imagem 1",
+          "src": "../assets/pages/page-019-image-01.png"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "Espirometrias para avaliação da função respiratória em empregados expostos a poeiras minerais e para avaliação de empregados com indicação de uso de equipamentos individuais de proteção respiratória."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES"
+        }
+      ]
+    },
+    {
+      "id": "21-os-procedimentos-para-realização-de-rxtp-devem-atender-às-diretrizes-da-resolução-da-diretoria-colegiada---rdc-n-º-330-de-20-de-dezembro-de-2019-que-dispõe-sobre-o-uso-dos-raios-x-diagnósticos-em-todo-o-território-nacional-ou-suas-revisões-mais-recentes",
+      "number": "2.1",
+      "title": "Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos em todo o território nacional, ou suas revisões mais recentes",
+      "blocks": []
+    },
+    {
+      "id": "22-os-equipamentos-utilizados-para-realização-de-rxtp-devem-possuir-as-seguintes-características",
+      "number": "2.2",
+      "title": "Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "gerador monofásico de alta frequência de preferência e/ou trifásico de 6 a 12 pulsos, no mínimo de 500 mA;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "tubo de raios X - 30/50;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "filtro de alumínio de 3 a 5 mm;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "grade fixa com distância focal de 1,50 m;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "razão da grade 10:1 com mais de 100 colunas;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "razão da grade 12:1 com 100 colunas."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.2.1",
+          "depth": 2,
+          "text": "A unidades móveis de raios X podem utilizar equipamentos de 300 mA (trezentos miliamperes) desde que o gerador tenha potência mínima de 30 kW (trinta quilowatts)."
+        },
+        {
+          "type": "item",
+          "number": "2.2.2",
+          "depth": 2,
+          "text": "No caso de utilização de equipamentos para RXTP em unidades móveis, devem ser cumpridas, além do exigido acima, as seguintes condições:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "dispor de alvará específico para funcionamento da unidade transportável de raios X;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser realizado por profissional legalmente habilitado e sob a supervisão de responsável técnico nos termos da RDC já referida;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "dispor de Laudo Técnico emitido por profissional legalmente habilitado, comprovando que os equipamentos utilizados atendem ao exigido neste Anexo."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.3",
+          "depth": 1,
+          "text": "A técnica radiológica para RXTP deve observar os seguintes padrões:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "foco fino (0,6 a 1,2 mm);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "100 mA ou 200 mA (tubo de alta rotação);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "tempo - 0,01 a 0,02 ou 0,03 segundos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "constante - 40 ou 50 kV (quilovolts)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24-o-processamento-dos-filmes-deve-ser-realizado-por-processadora-automática-e-que-atenda-às-exigências-dos-órgãos-ambientais-responsáveis",
+      "number": "2.4",
+      "title": "O processamento dos filmes deve ser realizado por processadora automática e que atenda às exigências dos órgãos ambientais responsáveis",
+      "blocks": []
+    },
+    {
+      "id": "25-a-identificação-dos-filmes-radiográficos-utilizados-em-radiologia-convencional-deve-incluir-no-canto-superior-direito-do-filme-radiográfico-a-data-da-realização-do-exame-o-número-de-ordem-do-serviço-ou-do-prontuário-do-empregado-e-nome-completo-do-empregado-ou-as-iniciais-do-nome",
+      "number": "2.5",
+      "title": "A identificação dos filmes radiográficos utilizados em radiologia convencional deve incluir, no canto superior direito do filme radiográfico, a data da realização do exame, o número de ordem do serviço ou do prontuário do empregado e nome completo do empregado ou as iniciais do nome",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "completo."
+        }
+      ]
+    },
+    {
+      "id": "26-a-leitura-radiológica-deve-ser-descritiva-e-para-a-interpretação-e-emissão-dos-laudos-dos-rxtp-devem-ser-utilizados-obrigatoriamente-os-critérios-da-oit-na-sua-revisão-mais-recente-e-a-coleção-de-radiografias-padrão-da-oit",
+      "number": "2.6",
+      "title": "A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP, devem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção de radiografias-padrão da OIT",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.6.1",
+          "depth": 2,
+          "text": "Em casos selecionados, a critério clínico, pode ser realizada a Tomografia Computadorizada de Alta Resolução de Tórax."
+        },
+        {
+          "type": "item",
+          "number": "2.6.2",
+          "depth": 2,
+          "text": "As leituras radiológicas devem ser anotadas em Folha de Leitura Radiológica que contenha a identificação da radiografia e do leitor, informações sobre a qualidade da imagem e os itens da classificação."
+        }
+      ]
+    },
+    {
+      "id": "27-o-laudo-do-exame-radiológico-deve-ser-assinado-por-um-ou-mais-de-um-em-caso-de-múltiplas-leituras-dos-seguintes-profissionais",
+      "number": "2.7",
+      "title": "O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas leituras, dos seguintes profissionais:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "médico radiologista com título de especialista ou registro de especialidade no Conselho Regional de Medicina e com qualificação e/ou certificação em Leitura Radiológica das Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "médicos de outras especialidades, que possuam título ou registro de especialidade no Conselho Regional de Medicina em Pneumologia, Medicina do Trabalho ou Clínica Médica (ou uma das suas subespecialidades) e que possuam qualificação e/ou certificação em Leitura Radiológica das Pneumoconioses - Classificação Radiológica da OIT, por meio de curso/módulo específico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28-as-certificações-são-concedidas-por-aprovação-nos-exames-do-national-institute-for-occupational-safety-and-health---niosh-ou-pelo-exame-air-pneumo-sendo-que-em-caso-de-certificação-concedida-pelo-exame-do-niosh-o-profissional-também-pode-ser-denominado-leitor-b",
+      "number": "2.8",
+      "title": "As certificações são concedidas por aprovação nos exames do National Institute for Occupational Safety and Health - NIOSH ou pelo exame “AIR-Pneumo”, sendo que, em caso de certificação concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”",
+      "blocks": []
+    },
+    {
+      "id": "29-sistemas-de-radiologia-digital-do-tipo-cr-ou-dr-podem-ser-utilizados-para-a-obtenção-de-imagens-radiológicas-do-tórax-para-fins-de-interpretação-radiológica-da-oit",
+      "number": "2.9",
+      "title": "Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens radiológicas do tórax para fins de interpretação radiológica da OIT",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.9.1",
+          "depth": 2,
+          "text": "Os parâmetros físicos para obtenção de RXTP de qualidade técnica adequada, utilizando-se equipamentos de radiologia digital, devem ser similares aos da radiologia convencional."
+        },
+        {
+          "type": "item",
+          "number": "2.9.2",
+          "depth": 2,
+          "text": "A identificação dos filmes digitais deve conter, no mínimo, a data da realização do exame, número de ordem do serviço ou do prontuário do paciente e nome completo do paciente ou as iniciais do nome completo."
+        }
+      ]
+    },
+    {
+      "id": "210-a-interpretação-radiológica-de-radiografias-digitais-deve-seguir-os-critérios-da-oit",
+      "number": "2.10",
+      "title": "A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.10.1",
+          "depth": 2,
+          "text": "Imagens geradas em sistemas de radiologia digital (CR ou DR) e transferidas para monitores só podem ser interpretadas com as radiografias-padrão em monitor anexo."
+        },
+        {
+          "type": "item",
+          "number": "2.10.2",
+          "depth": 2,
+          "text": "Os monitores utilizados para exibição da radiografia a ser interpretada e das radiografiaspadrão devem ser de qualidade diagnóstica, possuir resolução mínima de 3 megapixels e 21” (54 cm) de exibição diagonal por imagem."
+        },
+        {
+          "type": "item",
+          "number": "2.10.3",
+          "depth": 2,
+          "text": "Imagens digitais impressas em filmes radiológicos devem ser interpretadas com as radiografias-padrão em formato impresso, em negatoscópios."
+        },
+        {
+          "type": "item",
+          "number": "2.10.4",
+          "depth": 2,
+          "text": "Não é permitida a interpretação de radiografias digitais, para fins de classificação radiológica da OIT, nas seguintes condições:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "radiografias em monitores comparadas com as radiografias-padrão em negatoscópio, ou o inverso;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "radiografias digitais impressas em filmes radiológicos com reduções menores do que 2/3 do tamanho original;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "radiografias digitais impressas em papel fotográfico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "imagens originadas no sistema de radiografia convencional que foram digitalizadas por scanner e, posteriormente, impressas ou exibidas em tela."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211-os-serviços-que-ofertem-radiologia-digital-devem-assegurar-a-confidencialidade-dos-arquivos-eletrônicos-e-de-dados-dos-trabalhadores-submetidos-a-rxtp-admissionais-periódicos-e-demissionais-para-fins-da-classificação-radiológica-da-oit-por-meio-de-procedimentos-técnicos-e-administrativos-adequados",
+      "number": "2.11",
+      "title": "Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos eletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e demissionais, para fins da classificação radiológica da OIT, por meio de procedimentos técnicos e administrativos adequados",
+      "blocks": []
+    },
+    {
+      "id": "212-rxtp-obtidas-pelo-método-convencional-devem-ser-guardadas-em-filmes-radiológicos-em-formato-original",
+      "number": "2.12",
+      "title": "RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em formato original",
+      "blocks": []
+    },
+    {
+      "id": "213-imagens-obtidas-por-sistemas-digitais-cr-ou-dr-devem-ser-armazenadas-nos-seguintes-formatos",
+      "number": "2.13",
+      "title": "Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes formatos:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "impressas em filmes radiológicos cuja redução máxima seja equivalente a 2/3 do tamanho original; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "em mídia digital, gravadas em formato DICOM e acompanhadas de visualizador (viewer) de imagens radiológicas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214-a-guarda-das-imagens-deve-ter-sua-responsabilidade-definida-e-documentada",
+      "number": "2.14",
+      "title": "A guarda das imagens deve ter sua responsabilidade definida e documentada",
+      "blocks": []
+    },
+    {
+      "id": "215-são-responsáveis-pela-guarda-o-médico-do-trabalho-responsável-pelo-pcmso-ou-no-caso-de-a-empresa-possuir-serviço-próprio-o-responsável-pelo-serviço-de-radiologia",
+      "number": "2.15",
+      "title": "São responsáveis  pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.15.1",
+          "depth": 2,
+          "text": "A guarda das imagens refere-se às radiografias de cunho ocupacional, admissionais, periódicas e demissionais, bem como a eventuais radiografias cujas alterações sejam suspeitas ou atribuíveis à exposição ocupacional."
+        }
+      ]
+    },
+    {
+      "id": "216-o-tempo-de-guarda-dos-exames-deve-obedecer-aos-critérios-definidos-na-nr-07",
+      "number": "2.16",
+      "title": "O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07",
+      "blocks": []
+    },
+    {
+      "id": "217-cabe-ao-empregador-após-o-término-do-contrato-de-trabalho-envolvendo-exposição-ao-asbesto-disponibilizar-a-realização-periódica-de-exames-médicos-de-controle-durante-no-mínimo-trinta-anos-sem-custos-aos-trabalhadores-_inserido-pela-portaria-mtp-nº-567-de-10-de-março-de-2022_",
+      "number": "2.17",
+      "title": "Cabe ao empregador, após o término do contrato de trabalho envolvendo exposição ao asbesto, disponibilizar a realização periódica de exames médicos de controle durante, no mínimo, trinta anos, sem custos aos trabalhadores. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "2.17.1",
+          "depth": 2,
+          "text": "Estes exames, incluindo raios X de Tórax, devem ser realizados com a seguinte periodicidade: _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a cada três anos para trabalhadores com período de exposição até doze anos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a cada dois anos para trabalhadores com período de exposição de mais de doze a vinte anos; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "anual para trabalhadores com período de exposição superior a vinte anos."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "2.17.2",
+          "depth": 2,
+          "text": "O trabalhador receberá, por ocasião da demissão e retornos posteriores, comunicação da data e local da próxima avaliação médica. _(Inserido pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        }
+      ]
+    },
+    {
+      "id": "quadro-1---periodicidade-dos-exames-radiológicos-para-empregados-expostos-poeira-contendo-sílica-asbesto-ou-carvão-mineral",
+      "number": "",
+      "title": "QUADRO 1 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95%."
+        },
+        {
+          "type": "paragraph",
+          "text": "**LEO = Limite de exposição ocupacional."
+        },
+        {
+          "type": "table",
+          "markdown": "| Empresas com medições quantitativas periódicas | Radiografia de Tórax |\n| --- | --- |\n| LSC* ≤ 10% LEO** | - na admissão; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- na demissão, se o último exame foi realizado há mais de 2 anos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| LSC > 10% e ≤ 50% LEO | - na admissão;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada 5 anos até os 15 anos de exposição, e, após, a cada 3 anos; e - na demissão, se o último exame foi realizado há mais de 2 anos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| LSC > 50% e ≤ 100% LEO | - na admissão;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada 3 anos até 15 anos de exposição, e, após, a cada 2 anos; e - na demissão, se o último exame foi realizado há mais de 1 ano. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| LSC > 100% LEO | - na admissão;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada ano de exposição; e - na demissão, se o último exame foi realizado há mais de 1 ano. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Empresas sem avaliações quantitativas | - na admissão;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada 2 anos até 15 anos de exposição, e, após, a cada ano; e - na demissão, se o último exame foi realizado há mais de 1 ano. |"
+        },
+        {
+          "type": "paragraph",
+          "text": "**_NOTA 1_** _: Trabalhadores que apresentarem Leitura Radiológica 0/1 ou mais deverão ser avaliados por profissionais médicos especializados._"
+        },
+        {
+          "type": "paragraph",
+          "text": "**_NOTA 2_** _: Para trabalhadores que tenham a sua exposição diminuída, mas que estiveram expostos a concentrações superiores por um ano ou mais, deverá ser mantido o mesmo intervalo de exames radiológicos do período de maior exposição._"
+        }
+      ]
+    },
+    {
+      "id": "quadro-2---periodicidade-dos-exames-radiológicos-para-empregados-expostos-a-poeiras-contendo-partículas-insolúveis-ou-pouco-solúveis-de-baixa-toxicidade-e-não-classificadas-de-outra-forma",
+      "number": "",
+      "title": "QUADRO 2 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E NÃO CLASSIFICADAS DE OUTRA FORMA ***",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_<u>(Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022)</u>_"
+        },
+        {
+          "type": "paragraph",
+          "text": "*LSC = Limite superior do intervalo de confiança da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95%"
+        },
+        {
+          "type": "paragraph",
+          "text": "**LEO = Limite de exposição ocupacional"
+        },
+        {
+          "type": "paragraph",
+          "text": "***Para ser classificado como PNOS (particles not otherwise specified), o material particulado sólido deve ter as seguintes características (ACGIH, 2017):"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "não possuir um LEO definido;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser insolúvel ou pouco solúvel na água (ou preferencialmente no fluido pulmonar, se esta informação estiver disponível);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ter baixa toxicidade, isto é, não ser citotóxico, genotóxico ou quimicamente reativo com o tecido pulmonar, não ser emissor de radiação ionizante, não ser sensibilizante, não causar efeitos tóxicos além de inflamação ou mecanismo de sobrecarga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-espirometrias-ocupacionais",
+      "number": "",
+      "title": "3. ESPIROMETRIAS OCUPACIONAIS",
+      "blocks": []
+    },
+    {
+      "id": "31-os-empregados-expostos-ocupacionalmente-a-poeiras-minerais-indicadas-no-inventário-de-riscos-do-pgr-devem-ser-submetidos-a-espirometria-nos-exames-médicos-admissional-e-a-cada-dois-anos",
+      "number": "3.1",
+      "title": "Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos do PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos",
+      "blocks": [
+        {
+          "type": "table",
+          "markdown": "| Empresas com medições quantitativas periódicas de poeira respirável | Radiografia de tórax |\n| --- | --- |\n| LSC* ≤ 10% LEO** | - na admissão. |\n| LSC > 10% e ≤ 100% LEO | - na admissão;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- após 5 anos de exposição; e - repetir a critério clínico. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| LSC> 100% LEO | - na admissão; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada 5 anos. |"
+        },
+        {
+          "type": "table",
+          "markdown": "| Empresas sem avaliações quantitativas | - na admissão; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "- a cada 5 anos. |"
+        }
+      ]
+    },
+    {
+      "id": "32-os-empregados-expostos-ocupacionalmente-a-outros-agentes-agressores-pulmonares-indicados-no-inventário-de-riscos-do-pgr-que-não-as-poeiras-minerais-deverão-ser-submetidos-a-espirometria-se-desenvolverem-sinais-ou-sintomas-respiratórios",
+      "number": "3.2",
+      "title": "Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados no inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria se desenvolverem sinais ou sintomas respiratórios",
+      "blocks": []
+    },
+    {
+      "id": "33-nas-funções-com-indicação-de-uso-de-equipamentos-individuais-de-proteção-respiratória-os-empregados-com-histórico-de-doença-respiratória-crônica-ou-sinais-e-sintomas-respiratórios-devem-ser-submetidos-a-espirometria-no-exame-médico-admissional-ou-no-exame-de-mudança-de-risco",
+      "number": "3.3",
+      "title": "Nas funções com indicação de uso de equipamentos individuais de proteção respiratória, os empregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem ser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco",
+      "blocks": []
+    },
+    {
+      "id": "34-no-caso-da-constatação-de-alteração-espirométrica-o-médico-do-trabalho-responsável-pelo-pcmso-deve",
+      "number": "3.4",
+      "title": "No caso da constatação de alteração espirométrica, o médico do trabalho responsável pelo PCMSO deve:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "investigar possíveis relações do resultado com as exposições ocupacionais; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "avaliar a necessidade de encaminhamento para avaliação médica especializada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35-nos-exames-pós-demissionais-em-empregados-expostos-ao-asbesto-a-periodicidade-da-espirometria-deve-ser-a-mesma-do-exame-radiológico",
+      "number": "3.5",
+      "title": "Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da espirometria deve ser a mesma do exame radiológico",
+      "blocks": []
+    },
+    {
+      "id": "36-a-organização-deve-garantir-que-a-execução-e-a-interpretação-das-espirometrias-sigam-as-padronizações-constantes-nas-diretrizes-do-consenso-brasileiro-sobre-espirometria-na-sua-mais-recente-versão",
+      "number": "3.6",
+      "title": "A organização deve garantir que a execução e a interpretação das espirometrias sigam as padronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais recente versão",
+      "blocks": []
+    },
+    {
+      "id": "37-a-interpretação-do-exame-e-o-laudo-da-espirometria-devem-ser-feitos-por-médico",
+      "number": "3.7",
+      "title": "A interpretação do exame e o laudo da espirometria devem ser feitos por médico",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "*“Outros agentes agressores pulmonares” referem-se a agentes químicos que possam ser inalados na forma de partículas, fumos, névoas ou vapores e que sejam considerados como sensibilizantes e/ou irritantes pelos critérios constantes no Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS.” (NR)"
+        }
+      ]
+    },
+    {
+      "id": "anexo-iv",
+      "number": "ANEXO IV",
+      "title": "ANEXO IV",
+      "blocks": []
+    },
+    {
+      "id": "controle-médico-ocupacional-de-exposição-a-condições-hiperbáricas",
+      "number": "",
+      "title": "CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1.** TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        }
+      ]
+    },
+    {
+      "id": "11-é-obrigatória-a-realização-de-exames-médicos-dentro-dos-padrões-estabelecidos-neste-anexo-para-o-exercício-de-atividade-sob-pressão-atmosférica-elevada-pressão-hiperbárica",
+      "number": "1.1",
+      "title": "É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo, para o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica)",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.2",
+          "depth": 1,
+          "text": "** Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão ser avaliados por médico qualificado."
+        },
+        {
+          "type": "item",
+          "number": "1.3",
+          "depth": 1,
+          "text": "** O atestado de aptidão terá validade por 6 (seis) meses."
+        }
+      ]
+    },
+    {
+      "id": "14-o-trabalhador-não-pode-sofrer-mais-que-uma-compressão-num-período-de-24-vinte-e-quatro-horas",
+      "number": "1.4",
+      "title": "O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro) horas",
+      "blocks": []
+    },
+    {
+      "id": "15-profissionais-que-realizem-liberação-de-base-dentro-dos-tubulões-de-ar-comprimido-em-jornadas-de-curta-duração-de-até-30-minutos-podem-ser-submetidos-a-mais-de-uma-compressão-em-menos",
+      "number": "1.5",
+      "title": "Profissionais que realizem liberação de base dentro dos tubulões de ar comprimido em jornadas de curta duração, de até 30 minutos, podem ser submetidos a mais de uma compressão em menos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "de 24 horas e até o máximo de três compressões."
+        }
+      ]
+    },
+    {
+      "id": "16-o-trabalhador-não-pode-ser-exposto-à-pressão-superior-a-44-ata-exceto-em-caso-de-emergência-sob-supervisão-direta-do-médico-qualificado",
+      "number": "1.6",
+      "title": "O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência, sob supervisão direta do médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "17-a-duração-do-período-de-trabalho-sob-ar-comprimido-não-pode-ser-superior-a-8-oito-horas-em-pressões-de-trabalho-de-10-a-20-ata-a-6-seis-horas-em-pressões-de-trabalho-de-21-a-35-ata-e-a-4-quatro-horas-em-pressão-de-trabalho-de-36-a-44-ata",
+      "number": "1.7",
+      "title": "A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em pressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e a 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA",
+      "blocks": []
+    },
+    {
+      "id": "18-após-a-descompressão-os-trabalhadores-devem-ser-obrigados-a-permanecer-no-mínimo-por-2-duas-horas-no-canteiro-de-obra-cumprindo-um-período-de-observação-médica",
+      "number": "1.8",
+      "title": "Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2 (duas) horas, no canteiro de obra, cumprindo um período de observação médica",
+      "blocks": []
+    },
+    {
+      "id": "19-o-local-adequado-para-o-cumprimento-do-período-de-observação-deve-ser-designado-pelo-médico-do-trabalho-responsável-pelo-pcmso-ou-pelo-médico-qualificado",
+      "number": "1.9",
+      "title": "O local adequado para o cumprimento do período de observação deve ser designado pelo médico do trabalho responsável pelo PCMSO ou pelo médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "110-o-médico-qualificado-deve-manter-disponibilidade-para-contato-enquanto-houver-trabalho-sob-ar-comprimido-sendo-que-em-caso-de-acidente-de-trabalho-deve-ser-providenciada-assistência-bem-como-local-apropriado-para-atendimento-médico",
+      "number": "1.10",
+      "title": "O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob ar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência, bem como local apropriado para atendimento médico",
+      "blocks": []
+    },
+    {
+      "id": "111-todo-empregado-que-trabalhe-sob-ar-comprimido-deve-ter-um-prontuário-médico-no-qual-devem-ser-registrados-os-dados-relativos-aos-exames-realizados",
+      "number": "1.11",
+      "title": "Todo empregado que trabalhe sob ar comprimido deve ter um prontuário médico, no qual devem ser registrados os dados relativos aos exames realizados",
+      "blocks": []
+    },
+    {
+      "id": "112-em-caso-de-ausência-ao-trabalho-por-mais-de-15-quinze-dias-ou-afastamento-por-doença-o-empregado-ao-retornar-deve-ser-submetido-a-novo-exame-médico-com-emisão-de-aso",
+      "number": "1.12",
+      "title": "Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO",
+      "blocks": []
+    },
+    {
+      "id": "113-em-caso-de-ausência-ao-trabalho-por-doença-por-até-15-quinze-dias-o-empregado-deve-ser-submetido-a-novo-exame-clínico-supervisionado-pelo-médico-qualificado-sem-a-necessidade-da-emissão-de-um-novo-aso",
+      "number": "1.13",
+      "title": "Em caso de ausência ao trabalho por doença, por até 15 (quinze) dias, o empregado deve ser submetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da emissão de um novo ASO",
+      "blocks": []
+    },
+    {
+      "id": "114-se-durante-o-processo-de-compressão-o-empregado-apresentar-queixas-dores-no-ouvido-ou-de-cabeça-a-compressão-deve-ser-imediatamente-interrompida-com-redução-gradual-da-pressão-na-campânula-até-que-o-empregado-se-recupere",
+      "number": "1.14",
+      "title": "Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de cabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na campânula até que o empregado se recupere",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.14.1",
+          "depth": 2,
+          "text": "Caso não ocorra a recuperação, a descompressão deve continuar até a pressão atmosférica, retirando-se, então, o empregado e encaminhando-o ao serviço médico."
+        }
+      ]
+    },
+    {
+      "id": "115-todo-empregado-que-vá-exercer-trabalho-sob-ar-comprimido-deve-ser-orientado-quanto-aos-riscos-decorrentes-da-atividade-e-às-precauções-que-devem-ser-tomadas",
+      "number": "1.15",
+      "title": "Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos riscos decorrentes da atividade e às precauções que devem ser tomadas",
+      "blocks": []
+    },
+    {
+      "id": "116-a-capacidade-física-de-empregados-para-trabalho-em-condições-hiperbáricas-deve-ser-avaliada-antes-do-início-das-atividades-e-supervisionada-por-médico-qualificado",
+      "number": "1.16",
+      "title": "A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada antes do início das atividades e supervisionada por médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "117-é-proibido-o-trabalho-de-menores-de-18-anos-em-qualquer-ambiente-hiperbárico",
+      "number": "1.17",
+      "title": "É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "1.18",
+          "depth": 1,
+          "text": "Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para trabalho em condições hiperbáricas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "eletrocardiograma: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "hemograma completo: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "grupo sanguíneo e fator RH: apenas admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "dosagem de glicose sanguínea: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e bienal;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "audiometria: admissional, seis meses após o início da atividade, e, a seguir, anualmente;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "eletroencefalograma: apenas admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "espirometria: admissional e bienal."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "1.18.1",
+          "depth": 2,
+          "text": "A critério médico, outros exames complementares poderão ser solicitados a qualquer tempo."
+        }
+      ]
+    },
+    {
+      "id": "119-a-descompressão-deve-ser-realizada-segundo-as-tabelas-constantes-deste-anexo",
+      "number": "1.19",
+      "title": "A descompressão deve ser realizada segundo as tabelas constantes deste Anexo",
+      "blocks": []
+    },
+    {
+      "id": "120-deve-ser-disponibilizada-uma-câmara-hiperbárica-de-tratamento-24-horas-por-dia-7-dias-por-semana-situada-a-uma-distância-tal-que-o-trabalhador-seja-atendido-em-no-máximo-1-uma-hora-após-a-ocorrência",
+      "number": "1.20",
+      "title": "Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, situada a uma distância tal que o trabalhador seja atendido em, no máximo, 1 (uma) hora após a ocorrência",
+      "blocks": []
+    },
+    {
+      "id": "121-o-empregador-deve-garantir-a-disponibilidade-no-local-de-trabalho-de-recursos-médicos-incluindo-oxigênio-medicinal-de-superfície-e-de-pessoal-necessário-para-os-primeiros-socorros-em-casos-de-acidentes-descompressivos-ou-outros-eventos-que-comprometam-a-saúde-dos-trabalhadores-na-frente-de-trabalho-sendo-que-o-planejamento-desses-recursos-cabe-ao-médico-do-trabalho-responsável-pelo-pcmso-ou-ao-médico-qualificado",
+      "number": "1.21",
+      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do trabalho responsável pelo PCMSO ou ao médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "122-o-tratamento-recompressivo-deve-ser-conduzido-sob-supervisão-do-médico-qualificado",
+      "number": "1.22",
+      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "123-em-relação-à-ventilação-à-temperatura-e-à-qualidade-do-ar-devem-ser-observadas-as-seguintes-condições",
+      "number": "1.23",
+      "title": "Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes condições:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "durante a permanência dos trabalhadores na câmara de trabalho ou na campânula ou eclusa, a ventilação deve ser contínua, à razão de, no mínimo, 30 (trinta) pés cúbicos/min./homem;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a temperatura, no interior da campânula ou eclusa e da câmara de trabalho, não deve exceder a 27 °C (vinte e sete graus centígrados);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "a qualidade do ar deve ser mantida dentro dos padrões de pureza a seguir: monóxido de carbono menor que 20 ppm; dióxido de carbono menor que 2.500 ppm; óleo menor que 5 mg/m³ (PT>2atm); material particulado menor que 3 g/m³ (PT<2atm);"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "oxigênio maior que 20% (vinte por cento)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "124-a-compressão-deve-ser-realizada-a-uma-vazão-máxima-de-03-atm-no-primeiro-minuto-e-não-poderá-exceder-07-atm-nos-minutos-subsequentes",
+      "number": "1.24",
+      "title": "A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não poderá exceder 0,7 atm nos minutos subsequentes",
+      "blocks": []
+    },
+    {
+      "id": "125-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-vinte-e-quatro-horas-que-sucederem-um-mergulho-seco",
+      "number": "1.25",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco",
+      "blocks": []
+    },
+    {
+      "id": "2-guias-internos-de-câmaras-hiperbáricas-multiplace",
+      "number": "",
+      "title": "2. GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE",
+      "blocks": []
+    },
+    {
+      "id": "21-esta-categoria-profissional-deve-ser-avaliada-com-os-mesmos-critérios-clínicos-e-de-exames-complementares-do-item-1-trabalhador-na-indústria-da-construção-exposto-a-condições-hiperbáricas-deste-anexo-_alterado-pela-portaria-mtp-nº-567-de-10-de-março-de-2022_",
+      "number": "2.1",
+      "title": "Esta categoria profissional deve ser avaliada com os mesmos critérios clínicos e de exames complementares do item “1. TRABALHADOR NA INDÚSTRIA DA CONSTRUÇÃO EXPOSTO A CONDIÇÕES HIPERBÁRICAS” deste Anexo. _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_",
+      "blocks": []
+    },
+    {
+      "id": "22-esta-categoria-profissional-pode-ser-submetida-a-até-2-duas-exposições-em-24-vinte-e-quatro-horas-sob-supervisão-do-médico-qualificado",
+      "number": "2.2",
+      "title": "Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro) horas, sob supervisão do médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "23-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-vinte-e-quatro-horas-que-sucederem-um-mergulho-seco",
+      "number": "2.3",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco",
+      "blocks": []
+    },
+    {
+      "id": "3-mergulhadores-profissionais",
+      "number": "",
+      "title": "3. MERGULHADORES PROFISSIONAIS",
+      "blocks": []
+    },
+    {
+      "id": "31-para-mergulho-profissional-as-atividades-devem-ser-acompanhadas-e-orientadas-por-médico-qualificado-com-conhecimento-de-fisiologia-de-mergulho-escolha-de-misturas-gasosas-diagnóstico-e-tratamento-de-doenças-e-acidentes-ligados-ao-mergulho",
+      "number": "3.1",
+      "title": "Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico qualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico e tratamento de doenças e acidentes ligados ao mergulho",
+      "blocks": []
+    },
+    {
+      "id": "32-todos-os-mergulhos-devem-ser-registrados-incluindo-a-identificação-dos-mergulhadores-participantes-e-os-dados-técnicos-de-pressões-tempos-e-composição-do-gás-respirado",
+      "number": "3.2",
+      "title": "Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores participantes e os dados técnicos de pressões, tempos e composição do gás respirado",
+      "blocks": []
+    },
+    {
+      "id": "33-nos-mergulhos-em-que-se-utilize-mistura-gasosa-diferente-do-ar-devem-ser-obedecidas-medidas-específicas-para-evitar-enganos-troca-de-cilindros-e-erros-na-execução-de-paradas-de-descompressão",
+      "number": "3.3",
+      "title": "Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas específicas para evitar enganos, troca de cilindros e erros na execução de paradas de descompressão",
+      "blocks": []
+    },
+    {
+      "id": "34-os-exames-médicos-ocupacionais-dos-empregados-em-mergulho-profissional-devem-ser-realizados",
+      "number": "3.4",
+      "title": "Os exames médicos ocupacionais dos empregados em mergulho profissional devem ser realizados:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "por ocasião da admissão;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "a cada 6 (seis) meses, para todo o pessoal em efetiva atividade de mergulho;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "após acidente ocorrido no desempenho de atividade de mergulho ou doença grave;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "em situações especiais outros exames podem ser solicitados a critério médico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35-devem-ser-realizados-os-seguintes-exames-complementares-quando-da-realização-do-admissional-e-periódico-para-mergulho-profissional",
+      "number": "3.5",
+      "title": "Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para mergulho profissional:",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "radiografia de tórax em visão anteroposterior e de perfil: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "eletrocardiograma ou teste ergométrico de esforço, a critério médico: anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ecocardiograma: apenas admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "teste ergométrico de esforço: admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "hemograma completo: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "grupo sanguíneo e fator RH: apenas admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "dosagem de glicose sanguínea: admissional e anual;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "radiografia bilateral das articulações escapuloumerais, coxofemorais e de joelhos: admissional e bienal, que poderão ser substituídos, a critério médico, por Ressonância Nuclear Magnética ou Tomografia Computadorizada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "audiometria: admissional, seis meses após o início da atividade e, a seguir, anualmente;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "eletroencefalograma: admissional;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "k",
+              "text": "espirometria: admissional e bienal;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "l",
+              "text": "acuidade visual: admissional e anual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36-a-critério-médico-outros-exames-complementares-e-pareceres-de-outros-profissionais-de-saúde-podem-ser-solicitados-a-qualquer-tempo",
+      "number": "3.6",
+      "title": "A critério médico, outros exames complementares e pareceres de outros profissionais de saúde podem ser solicitados a qualquer tempo",
+      "blocks": []
+    },
+    {
+      "id": "37-é-vedada-a-atividade-de-mergulho-para-gestantes-e-lactantes",
+      "number": "3.7",
+      "title": "É vedada a atividade de mergulho para gestantes e lactantes",
+      "blocks": []
+    },
+    {
+      "id": "38-a-compressão-e-a-descompressão-devem-ser-definidas-pelo-médico-qualificado-responsável-pelo-mergulho",
+      "number": "3.8",
+      "title": "A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo mergulho",
+      "blocks": []
+    },
+    {
+      "id": "39-todas-as-embarcações-para-trabalho-de-mergulho-profissional-devem-ter-a-bordo-uma-câmara-hiperbárica-de-tratamento-para-atendimento-de-doenças-ou-acidentes-de-mergulho",
+      "number": "3.9",
+      "title": "Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho",
+      "blocks": []
+    },
+    {
+      "id": "310-os-tratamentos-de-doenças-ou-acidentes-de-mergulho-devem-estar-a-cargo-de-médico-qualificado",
+      "number": "3.10",
+      "title": "Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "311-para-os-mergulhos-realizados-a-partir-de-bases-em-terra-deve-se-disponibilizada-uma-câmara-hiperbárica-de-tratamento-24-horas-por-dia-7-dias-por-semana-para-que-o-mergulhador-seja-atendido-em-no-máximo-1-hora-após-a-ocorrência",
+      "number": "3.11",
+      "title": "Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, para que o mergulhador seja atendido em, no máximo, 1 hora após a ocorrência",
+      "blocks": []
+    },
+    {
+      "id": "312-o-empregador-deve-garantir-a-disponibilidade-no-local-de-trabalho-de-recursos-médicos-incluindo-oxigênio-medicinal-de-superfície-e-de-pessoal-necessário-para-os-primeiros-socorros-em-casos-de-acidentes-descompressivos-ou-outros-eventos-que-comprometam-a-saúde-dos-trabalhadores-na-frente-de-traballho-sendo-que-o-planejamento-desses-recursos-cabe-ao-médico-qualificado",
+      "number": "3.12",
+      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "313-a-segurança-de-mergulho-deve-seguir-a-normam-15dpc-em-sua-última-revisão",
+      "number": "3.13",
+      "title": "A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão",
+      "blocks": []
+    },
+    {
+      "id": "314-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-horas-que-sucederem-um-mergulho-raso-ou-48-horas-para-mergulho-saturado",
+      "number": "3.14",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado",
+      "blocks": []
+    },
+    {
+      "id": "315-o-tratamento-recompressivo-deve-ser-conduzido-sob-supervisão-do-médico-qualificado",
+      "number": "3.15",
+      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado",
+      "blocks": []
+    },
+    {
+      "id": "tabelas-de-descompressão-para-o-trabalho-na-indústria-da-construção",
+      "number": "",
+      "title": "TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA"
+        },
+        {
+          "type": "paragraph",
+          "text": "TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA"
+        },
+        {
+          "type": "paragraph",
+          "text": "TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA |  |  |  |\n| --- | --- | --- | --- |\n| PERÍODO DE TRABALHO"
+        },
+        {
+          "type": "paragraph",
+          "text": "(HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO (**) |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | 1,3 ATA |  |  |\n| 0 a 6:00 | 4 min | 4min | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "1 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 6:00 a 8:00 | 14min | 14min | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| + de 8:00 (**) | 30min | 30min | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA |  |  |  |  |  |  |  |  |  |  |  |\n| PRESSÃO DE"
+        },
+        {
+          "type": "paragraph",
+          "text": "TRABALHO *** (ATA) | ESTÁGIO DE DESCOMPRESSÃO (ATA)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | 2,8 | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  |  | - | Linha 4 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  |  |  | - | Linha 5 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  |  | 5 | 5 | Linha 6 |\n| 2,6 a 2,8 |  |  |  |  |  |  |  |  | 10 | 10 | Linha 7 |\n| 2,8 a 2,9 |  |  |  |  |  |  |  | 5 | 15 | 20 | Linha 8 |\n| TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  |  | - | Linha 9 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "10 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  |  |  | 10 | 10 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "11 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,6 a 2,8 |  |  |  |  |  |  |  | 5 | 15 | 20 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "12 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,8 a 2,9 |  |  |  |  |  |  |  | 5 | 20 | 35 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "13 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "14 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 10 | 10 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "15 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  |  | 5 | 20 | 25 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "16 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,6 a 2,8 |  |  |  |  |  |  |  | 10 | 30 | 40 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "17 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,8 a 2,9 |  |  |  |  |  |  | 5 | 15 | 35 | 55 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "18 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "19 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,2 a 2,4 |  |  |  |  |  |  |  |  | 20 | 20 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "20 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  |  | 5 | 30 | 35 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "21 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,6 a 2,8 |  |  |  |  |  |  |  | 15 | 40 | 55 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "22 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,8 a 2,9 |  |  |  |  |  |  | 5 | 25 | 40 | 70 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "23 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 10 | 10 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "24 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 20 | 25 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "25 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  |  | 10 | 35 | 45 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "26 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,6 a 2,8 |  |  |  |  |  |  | 5 | 20 | 40 | 65 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "27 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,8 a 2,9 |  |  |  |  |  |  | 10 | 30 | 40 | 80 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "28 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 15 | 15 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "29 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 30 | 35 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "30 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  |  | 15 | 40 | 55 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "31 |"
+        }
+      ]
+    },
+    {
+      "id": "tabela-3---pressão-de-trabalho-de-30-a-44-ata",
+      "number": "",
+      "title": "TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA",
+      "blocks": []
+    },
+    {
+      "id": "tabela-31---período-de-trabalho-de-0-a-30-minutos",
+      "number": "",
+      "title": "TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,6 a 2,8 |  |  |  |  |  |  | 5 | 25 | 45 | 75 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "32 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,8 a 2,9 |  |  |  |  |  | 5 | 15 | 30 | 45 | 95 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "33 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  |  | 20 | 20 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "34 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 35 | 40 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "35 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,4 a 2,6 |  |  |  |  |  |  | 5 | 20 | 40 | 65 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "36 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,6 a 2,8 |  |  |  |  |  |  | 10 | 30 | 45 | 85 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "37 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 2,8 a 2,9 |  |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "38 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| PRESSÃO DE"
+        },
+        {
+          "type": "paragraph",
+          "text": "TRABALHO *** (ATA) | ESTÁGIO DE DESCOMPRESSÃO (ATA)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "|  | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 |  |  |\n| 3,0 a 3,2 |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "39 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "40 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "41 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  |  |  |  |  |  | 5 | 5 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "42 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  |  |  |  |  |  | 5 | 5 | 10 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "43 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  |  |  |  |  |  | 5 | 5 | 10 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "44 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 |  |  |  |  |  |  | 5 | 10 | 15 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "45 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA |  |  |  |  |  |  |  |  |  |  |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,0 a 3,2 |  |  |  |  |  |  | 5 | 15 | 20 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "46 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,2 a 3,4 |  |  |  |  |  |  | 5 | 20 | 25 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "47 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  |  |  |  | 10 | 25 | 35 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "48 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  |  |  |  | 5 | 10 | 35 | 50 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "49 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  |  |  |  |  | 5 | 15 | 40 | 60 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "50 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  |  |  |  | 5 | 5 | 20 | 40 | 70 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "51 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 |  |  |  |  | 5 | 10 | 25 | 40 | 80 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "52 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  |  | 5 | 10 | 35 | 50 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "53 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  |  |  | 5 | 20 | 35 | 60 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "54 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  |  |  | 10 | 25 | 40 | 75 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "55 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  |  |  | 5 | 10 | 30 | 45 | 90 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "56 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "57 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  |  |  | 5 | 10 | 20 | 35 | 45 | 115 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "58 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 |  |  |  | 5 | 15 | 25 | 35 | 45 | 125 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "59 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  |  | 5 | 25 | 40 | 70 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "60 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  |  | 5 | 10 | 30 | 40 | 85 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "61 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  |  | 5 | 20 | 35 | 40 | 100 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "62 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  |  | 5 | 10 | 25 | 35 | 40 | 115 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "63 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,8 a 4,0 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "64 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "66 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 |  |  | 5 | 15 | 25 | 30 | 35 | 45 | 155 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "67 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 5 | 10 | 30 | 45 | 90 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "68 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  |  | 5 | 20 | 35 | 45 | 105 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "69 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  | 5 | 10 | 25 | 35 | 45 | 120 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "70 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  |  | 5 | 20 | 30 | 35 | 45 | 135 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "71 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "72 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "73 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "74 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 5 | 15 | 35 | 40 | 95 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "75 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  |  | 10 | 25 | 35 | 45 | 115 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "76 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "77 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "78 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  |  | 5 | 20 | 25 | 30 | 35 | 45 | 160 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "79 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "80 |"
+        },
+        {
+          "type": "paragraph",
+          "text": "NOTAS:"
+        },
+        {
+          "type": "paragraph",
+          "text": "(*) A descompressão tanto para o 1º estágio quanto entre os estágios subsequentes deve ser feita a velocidade não superior a 0,4 atm/minuto."
+        },
+        {
+          "type": "paragraph",
+          "text": "(**) Não está incluído o tempo entre estágios."
+        },
+        {
+          "type": "paragraph",
+          "text": "(***) Para os valores limites de pressão de trabalho, use a maior descompressão."
+        },
+        {
+          "type": "paragraph",
+          "text": "(****) O período de trabalho mais o tempo de descompressão (incluindo o tempo entre os estágios) não deverá exceder a 12 horas.” (NR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "**ANEXO V**"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 | 5 | 5 | 15 | 25 | 25 | 30 |  | 40 | 45 | 190 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "81 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  |  | 10 |  | 20 | 35 | 45 | 110 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "82 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  | 5 | 15 |  | 25 | 40 | 45 | 130 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "83 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  | 5 | 5 | 25 |  | 30 | 40 | 45 | 150 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "84 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  |  | 5 | 15 | 25 |  | 30 | 40 | 45 | 160 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "85 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  | 5 | 10 | 20 | 25 |  | 30 | 40 | 45 | 175 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "86 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,0 a 4,2 | 5 | 5 | 15 | 25 | 25 |  | 30 | 40 | 45 | 190 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "87 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 4,2 a 4,4 | 5 | 15 | 20 | 25 | 30 |  | 30 | 40 | 45 | 210 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "88 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS |  |  |  |  |  |  |  |  |  |  |  |\n| 3,0 a 3,2 |  |  |  | 5 | 10 |  | 25 | 40 | 50 | 130 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "89 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,2 a 3,4 |  |  |  | 10 | 20 |  | 30 | 40 | 55 | 155 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "90 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,4 a 3,6 |  |  | 5 | 15 | 25 |  | 30 | 45 | 60 | 180 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "91 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,6 a 3,8 |  | 5 | 10 | 20 | 25 |  | 30 | 45 | 70 | 205 | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "92 |"
+        },
+        {
+          "type": "table",
+          "markdown": "| 3,8 a 4,0 |  | 10 | 15 | 20 | 30 |  | 40 | 50 | 80 | 245 **** | Linha"
+        },
+        {
+          "type": "paragraph",
+          "text": "93 |"
+        }
+      ]
+    },
+    {
+      "id": "controle-médico-ocupacional-da-exposição-a-substâncias-químicas-cancerígenas-e-a-radiações-ionizantes",
+      "number": "",
+      "title": "CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E A RADIAÇÕES IONIZANTES",
+      "blocks": []
+    },
+    {
+      "id": "1-objetivos",
+      "number": "",
+      "title": "1. OBJETIVOS",
+      "blocks": []
+    },
+    {
+      "id": "11-estabelecer-diretrizes-e-parâmetros-complementares-no-pcmso-para-vigilância-da-saúde-dos-empregados-expostos-ocupacionalmente-a-substâncias-químicas-cancerígenas-e-a-radiações-ionizantes-de-acordo-com-as-informações-fornecidas-pelo-programa-de-gerenciamento-de-risco---pgr-visando-à-prevenção-e-à-detecção-do-câncer-e-de-lesões-e-alterações-pré-cancerígenas-relacionados-ao-trabalho",
+      "number": "1.1",
+      "title": "Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos empregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações ionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciamento de Risco - PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré-cancerígenas relacionados ao trabalho",
+      "blocks": []
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "",
+      "title": "2. CAMPO DE APLICAÇÃO",
+      "blocks": []
+    },
+    {
+      "id": "21-o-presente-anexo-aplica-se-às-organizações-que-produzam-transportem-armazenem-utilizem-ou-manipulem-substâncias-químicas-cancerígenas-com-registro-cas-conforme-indicadas-no-inventário-de-riscos-do-pgr-misturas-líquidas-contendo-concentração-igual-ou-maior-que-01-zero-vírgula-um-por-cento-em-volume-dessas-substâncias-ou-mistura-gasosa-contendo-essas-substâncias-e-às-organizações-nas-quais-os-processos-de-trabalho-exponham-seus-empregados-a-radiações-ionizantes",
+      "number": "2.1",
+      "title": "O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem ou manipulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no Inventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias, e às organizações nas quais os processos de trabalho exponham seus empregados a radiações ionizantes",
+      "blocks": []
+    },
+    {
+      "id": "3-diretrizes",
+      "number": "",
+      "title": "3. DIRETRIZES",
+      "blocks": []
+    },
+    {
+      "id": "31-o-médico-do-trabalho-responsável-deve-registrar-no-pcmso-as-atividades-e-funções-na-organização-com-exposição-ocupacional-a-radiações-ionizantes-e-a-substâncias-químicas-cancerígenas-identificadas-e-classificadas-no-pgr",
+      "number": "3.1",
+      "title": "O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na organização com exposição ocupacional a radiações ionizantes e a substâncias químicas cancerígenas, identificadas e classificadas no PGR",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.1.1",
+          "depth": 2,
+          "text": "O médico responsável pelo PCMSO deve orientar os médicos que realizam o exame clínico desses empregados sobre a importância da identificação de lesões e alterações clínicas ou laboratoriais que possam estar relacionadas à exposição ocupacional a substâncias químicas cancerígenas e a radiações ionizantes."
+        }
+      ]
+    },
+    {
+      "id": "4-substâncias-químicas-cancerígenas",
+      "number": "",
+      "title": "4. SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS",
+      "blocks": []
+    },
+    {
+      "id": "41-os-prontuários-médicos-dos-empregados-expostos-a-substâncias-químicas-cancerígenas-devem-ser-mantidos-por-período-mínimo-de-40-quarenta-anos-após-o-desligamento-do-empregado",
+      "number": "4.1",
+      "title": "Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.1.1",
+          "depth": 2,
+          "text": "Os exames complementares para os empregados expostos a agentes químicos cancerígenos, conforme informado no PGR da organização, são obrigatórios quando a exposição ocupacional estiver acima de 10% (dez por cento) dos limites de exposição ocupacional, ou quando não houver avaliação ambiental, e devem ser executados e interpretados com base nos critérios constantes nesta NR."
+        }
+      ]
+    },
+    {
+      "id": "42-benzeno",
+      "number": "4.2",
+      "title": "Benzeno",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.2.1",
+          "depth": 2,
+          "text": "As ações de vigilância da saúde dos empregados expostos a benzeno devem seguir o disposto na Instrução Normativa Nº 2, de 20 de dezembro de 1995, da SSST/Ministério do Trabalho, e na Portaria de Consolidação Nº 5, Anexos LXVIII, LXIX, LXX e LXXI, de 28 de setembro de 2017, do"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ministério da Saúde."
+        }
+      ]
+    },
+    {
+      "id": "5-radiações-ionizantes",
+      "number": "",
+      "title": "5. RADIAÇÕES IONIZANTES",
+      "blocks": []
+    },
+    {
+      "id": "51-os-empregados-devem-ser-avaliados-no-exame-médico-admissional-de-retorno-ao-trabalho-ou-de-mudança-de-risco-quanto-à-sua-aptidão-para-exercer-atividades-em-áreas-controladas-ou-supervisionadas-de-acordo-com-as-informações-do-pgr-e-a-classificação-da-comissão-nacional-de-energia-nuclear---cnen-norma-cnen-nn-301-para-áreas-de-trabalho-com-radiação-ou-material-radioativo",
+      "number": "5.1",
+      "title": "Os empregados devem ser avaliados, no exame médico admissional, de retorno ao trabalho ou de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou supervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de Energia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material radioativo",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "5.1.1",
+          "depth": 2,
+          "text": "A informação sobre aptidão ou inaptidão para exercer atividade com exposição a radiação ou material radioativo deve ser consignada no ASO do empregado."
+        }
+      ]
+    },
+    {
+      "id": "52-no-caso-de-exposição-ocupacional-acima-do-limite-de-dose-anual-de-radiação-ionizante-efetiva-ou-equivalente-deve-ser-realizada-nova-avaliação-médica-do-empregado-para-definição-sobre-a-sua-continuidade-na-atividade-quando-deve-ser-emitido-novo-aso",
+      "number": "5.2",
+      "title": "No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua continuidade na atividade, quando deve ser emitido novo ASO",
+      "blocks": []
+    },
+    {
+      "id": "53-no-caso-de-exposição-ocupacional-acidental-a-níveis-elevados-de-radiação-ionizante-deve-ser-realizada-nova-avaliação-médica-com-coleta-de-hemograma-completo-imediatamente-e-24-horas-após-a-exposição",
+      "number": "5.3",
+      "title": "No caso de exposição ocupacional acidental a níveis elevados de radiação ionizante, deve ser realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas após a exposição",
+      "blocks": []
+    },
+    {
+      "id": "54-os-prontuários-médicos-dos-empregados-expostos-a-radiações-ionizantes-devem-ser-mantidos-até-a-data-em-que-o-empregado-completará-75-anos-e-pelo-menos-por-período-mínimo-de-30-trinta-anos-após-o-desligamento-do-empregado",
+      "number": "5.4",
+      "title": "Os prontuários médicos dos empregados expostos a radiações ionizantes devem ser mantidos até a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30 (trinta) anos após o desligamento do empregado",
+      "blocks": []
+    },
+    {
+      "id": "glossário",
+      "number": "Glossário",
+      "title": "GLOSSÁRIO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ATA: abreviação de Atmosfera de Pressão Absoluta. Unidade de pressão que considera a pressão manométrica e a pressão atmosférica ambiente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Atividades críticas: aquelas que exijam avaliação médica específica para definir a aptidão do empregado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara hiperbárica de tratamento: câmara que, independentemente da câmara de trabalho, é usada para tratamento de indivíduos que adquiram doença descompressiva ou embolia e é diretamente supervisionada por médico qualificado; constitui Vaso de Pressão para Ocupação Humana - VPOH, do tipo multipaciente (para mais de uma pessoa)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara de superfície: uma câmara hiperbárica especialmente projetada para ser utilizada na descompressão dos mergulhadores, requerida pela operação ou pelo tratamento hiperbárico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara de trabalho: espaço ou compartimento com pressão superior à pressão atmosférica, onde o trabalho é realizado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Câmara submersível de pressão atmosférica: câmara resistente à pressão externa, especialmente projetada para uso submerso, na qual os seus ocupantes permanecem submetidos à pressão atmosférica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Campânula: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho do tubulão e vice-versa. O termo é utilizado nos trabalhos em tubulões de ar comprimido e define a"
+        },
+        {
+          "type": "paragraph",
+          "text": "câmara onde o trabalhador permanece aguardando enquanto a pressão é aumentada no início da atividade laboral, e onde a pressão é diminuída no final da atividade laboral."
+        },
+        {
+          "type": "paragraph",
+          "text": "Descompressão: o conjunto de procedimentos, por meio do qual um mergulhador elimina do seu organismo o excesso de gases inertes absorvidos durante determinadas condições hiperbáricas, sendo tais procedimentos absolutamente necessários no seu retorno à pressão atmosférica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eclusa de pessoal: câmara através da qual o trabalhador passa do ar livre para a câmara de trabalho em túneis pressurizados e vice-versa; termo utilizado nos trabalhos em perfuração de túneis, também conhecidas como ”Shield”, em referência ao nome da marca do equipamento de perfuração de túneis, que tem acoplada uma câmara hiperbárica para a compressão. É a câmara onde o trabalhador aguarda enquanto a pressão é aumentada no início da atividade laboral, e onde a pressão é diminuída no final da atividade laboral."
+        },
+        {
+          "type": "paragraph",
+          "text": "Encarregado de ar comprimido: profissional treinado e conhecedor das técnicas empregadas nos trabalhos em condições hiperbáricas, designado pela organização como o responsável imediato pelos empregados e por toda a operação de ar comprimido, incluindo pessoal e equipamento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Guia interno: profissional de saúde ou mergulhador profissional que é pressurizado juntamente com o paciente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Médico qualificado: médico com habilitação em medicina hiperbárica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mergulhador: trabalhador qualificado para utilização de equipamentos de mergulho com suprimento de gás respiratório, em ambiente submerso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Misturas respiratórias artificiais: misturas de oxigênio, hélio ou outros gases, apropriadas à respiração durante os trabalhos submersos, quando não seja indicado o uso do ar natural."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operador de eclusa ou de campânula: trabalhador previamente treinado nas manobras de compressão e descompressão das eclusas ou campânulas, responsável pelo controle da pressão no seu interior, tanto no tubulão quanto na eclusa de pessoal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operação de mergulho: toda aquela que envolve trabalhos submersos e que se estende desde os procedimentos iniciais de preparação até o final do período de observação, determinado pelo médico qualificado responsável pelo mergulho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho: tempo em que o trabalhador permanece sob condição hiperbárica excluindose o tempo de descompressão. Na atividade de mergulho é chamado “tempo de fundo”."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poeiras contendo partículas insolúveis ou pouco solúveis de baixa toxicidade e não classificadas de outra forma: também chamadas de “poeiras incômodas”, \"biologicamente inertes\", \"partículas não classificadas de outra forma\" - PNOC e que, quando inaladas em quantidades excessivas, podem contribuir para doenças pulmonares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressão Máxima de Trabalho - PMT: a maior pressão de ar à qual o trabalhador é exposto durante sua jornada de trabalho. Esta pressão é aquela que deve ser considerada na programação da descompressão."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trabalhos sob ar comprimido: os efetuados em ambientes onde o trabalhador é obrigado a suportar pressões maiores que a atmosférica, e onde se exige cuidadosa descompressão, de acordo com padrões técnicos estabelecidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tratamento recompressivo: tratamento de emergência em câmara hiperbárica multipaciente,"
+        },
+        {
+          "type": "paragraph",
+          "text": "realizado ou supervisionado exclusivamente por médico qualificado e acompanhado diretamente por guia interno junto ao paciente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tubulão de ar comprimido: equipamento para fundações com estrutura vertical, que se estende abaixo da superfície da água ou solo, no interior da qual os trabalhadores devem penetrar, entrando pela campânula, para uma pressão maior que atmosférica. A atmosfera pressurizada opõe-se à pressão da água e permite trabalho em seu interior."
+        },
+        {
+          "type": "paragraph",
+          "text": "Túnel pressurizado: escavação abaixo da superfície do solo, cujo maior eixo faz um ângulo não superior a 45° (quarenta e cinco graus) com a horizontal, fechado nas duas extremidades, em cujo interior haja pressão superior a uma atmosfera."
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import '../constants/storage_keys.dart';
 import '../models/app_meta.dart';
 import '../models/manifest.dart';
 import '../models/nr_index.dart';
+import '../models/nr_structure.dart';
 import '../models/reading_history_entry.dart';
 import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
@@ -192,6 +193,25 @@ class ContentService extends GetxService {
         savePath: '${nrDir.path}/${entry.id}.md',
         retries: AppConfig.maxRetries,
       );
+
+      // Baixar JSONs auxiliares (índice, busca, estrutura)
+      for (final jsonName in [
+        'index.json',
+        'search_index.json',
+        'structure.json',
+      ]) {
+        try {
+          await _downloadFile(
+            url: '${AppConfig.contentBaseUrl}/${entry.id}/$jsonName',
+            savePath: '${nrDir.path}/$jsonName',
+            retries: AppConfig.maxRetries,
+          );
+        } catch (e) {
+          AppLogger.warning(
+            'Falha ao baixar $jsonName de ${entry.id}: $e',
+          );
+        }
+      }
 
       // Baixar assets (images, tables, pages) referenciados no markdown
       await _downloadAssets(nrDir, entry.id);
@@ -548,6 +568,28 @@ class ContentService extends GetxService {
     } catch (e) {
       AppLogger.warning('Erro ao verificar versão do app: $e');
       return false; // Em caso de erro, não bloquear o app
+    }
+  }
+
+  /// Ler structure.json de uma NR do cache local.
+  ///
+  /// Retorna null se arquivo não existir ou estiver corrompido.
+  Future<NrStructure?> readNrStructure(String nrId) async {
+    try {
+      final structureFile =
+          File('${_cacheDir.path}/content/$nrId/structure.json');
+
+      if (!structureFile.existsSync()) {
+        AppLogger.debug('structure.json de $nrId não encontrado em cache');
+        return null;
+      }
+
+      final content = await structureFile.readAsString();
+      final jsonMap = jsonDecode(content) as Map<String, dynamic>;
+      return NrStructure.fromMap(jsonMap);
+    } catch (e, st) {
+      AppLogger.error('Erro ao ler structure.json de NR $nrId', e, st);
+      return null;
     }
   }
 
