@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTE n.º86, de 03 de março de 2005|04/03/05|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria MTE n.º2.546, de 14 de dezembro de 2011|16/12/11|\n|Portaria MTb n.º1.896, de 09 de dezembro de 2013|11/12/13|\n|Portaria MTb n.º1.086, de 18 de dezembro de 2018|19/12/18|\n|Portaria SEPRT n.º22.677, de 22 de outubro de 2020|27/10/20|\n|Portaria MTP n.º698, de 04 de abril de 2022|Retif. 14/04/22|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|\n|Portaria MTP n.º4.223, de 20 de dezembro de 2022|22/12/22|\n|Portaria MTP n.º4.371, de 28 de dezembro de 2022|29/12/22|\n|Portaria MTE n.º342, de 21 de março de 2024|22/03/24|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTE n.º86, de 03 de março de 2005 | 04/03/05 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria MTE n.º2.546, de 14 de dezembro de 2011 | 16/12/11 |\n| Portaria MTb n.º1.896, de 09 de dezembro de 2013 | 11/12/13 |\n| Portaria MTb n.º1.086, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPRT n.º22.677, de 22 de outubro de 2020 | 27/10/20 |\n| Portaria MTP n.º698, de 04 de abril de 2022 | Retif. 14/04/22 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.223, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.371, de 28 de dezembro de 2022 | 29/12/22 |\n| Portaria MTE n.º342, de 21 de março de 2024 | 22/03/24 |"
       },
       {
         "type": "paragraph",
@@ -1589,19 +1589,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Número de Trabalhadores | Profissionais Legalmente Habilitados |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | Eng. Seg. | Med. Trab. | Téc. Seg. | Enf. Trab. | Aux. ou Téc. Enf. |\n| 51 a 100 | - | - | 1* | - | - |\n| 101 a 150 | - | - | 1 | - | - |\n| 151 a 300 | - | - | 1 | - | 1** |\n| 301 a 500 | - | 1*** | 2 | - | 1**** |\n| 501 a 1000 | 1 | 1 | 2 | 1 | 1 |\n| 1001 a 3000 | 1 | 1 | 3 | 1 | 2 |\n| Acima de 3000 para cada"
-        },
-        {
-          "type": "paragraph",
-          "text": "grupo de 2000 ou fração | 1 | 1 | 3 | 1 | 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| * técnico em segurança do trabalho em tempo parcial (20 horas semanais)"
-        },
-        {
-          "type": "paragraph",
-          "text": "** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo integral, em substitução ao auxiliar ou técnico de enfermagem do trabalho *** médico do trabalho em tempo parcial (15 horas semanais) **** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho OBSERVAÇÕES: 1) A jornada de trabalho do auxiliar ou técnico de enfermagem sempre será em tempo integral; (retificado pela Portaria MTP nº 698, de 04 de abril de 2022) 2) A ausência de asterisco corresponde às cargas horárias de 30 (trinta) horas, para os profissionais de nível superior, e de 36 (trinta e seis) horas, para os profissionais de nível médio. |  |  |  |  |  |"
+          "markdown": "| Número de Trabalhadores | Profissionais Legalmente Habilitados | | | | |\n| --- | --- | --- | --- | --- | --- |\n| | Eng. Seg. | Med. Trab. | Téc. Seg. | Enf. Trab. | Aux. ou Téc. Enf. |\n| 51 a 100 | - | - | 1* | - | - |\n| 101 a 150 | - | - | 1 | - | - |\n| 151 a 300 | - | - | 1 | - | 1** |\n| 301 a 500 | - | 1*** | 2 | - | 1**** |\n| 501 a 1000 | 1 | 1 | 2 | 1 | 1 |\n| 1001 a 3000 | 1 | 1 | 3 | 1 | 2 |\n| Acima de 3000 para cada grupo de 2000 ou fração | 1 | 1 | 3 | 1 | 2 |\n| * técnico em segurança do trabalho em tempo parcial (20 horas semanais) ** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo integral, em substitução ao auxiliar ou técnico de enfermagem do trabalho *** médico do trabalho em tempo parcial (15 horas semanais) **** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho OBSERVAÇÕES: 1) A jornada de trabalho do auxiliar ou técnico de enfermagem sempre será em tempo integral; (retificado pela Portaria MTP nº 698, de 04 de abril de 2022) 2) A ausência de asterisco corresponde às cargas horárias de 30 (trinta) horas, para os profissionais de nível superior, e de 36 (trinta e seis) horas, para os profissionais de nível médio. | | | | | |"
         },
         {
           "type": "paragraph",
@@ -1713,27 +1701,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Nº de Trabalhadores"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nº Membros | 20 a 35 | 36 a 70 | 71 a 100 | 101 a 500 | 501 a 1000 | Acima de 1000 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- |\n| Representantes dos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Trabalhadores | 1 | 2 | 3 | 4 | 5 | 6 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Representantes do"
-        },
-        {
-          "type": "paragraph",
-          "text": "Empregador | 1 | 2 | 3 | 4 | 5 | 6 |"
+          "markdown": "| Nº de Trabalhadores Nº Membros | 20 a 35 | 36 a 70 | 71 a 100 | 101 a 500 | 501 a 1000 | Acima de 1000 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Representantes dos Trabalhadores | 1 | 2 | 3 | 4 | 5 | 6 |\n| Representantes do Empregador | 1 | 2 | 3 | 4 | 5 | 6 |"
         },
         {
           "type": "paragraph",
@@ -7735,19 +7703,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Tipo de máquina | Subitem"
-        },
-        {
-          "type": "paragraph",
-          "text": "31.12.38 Estrutura de proteção na capotagem EPC | Subitem 31.12.38 Cinto de segurança | Subitem 31.12.28 Proteção contra projeção do material em processamento | Subitem 31.12.37 Sinal sonoro de ré acoplados ao sistema de transmissão e espelho retrovisor | Subitem 31.12.37 Faróis, buzina e lanternas traseiras de posição |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros microtratores e"
-        },
-        {
-          "type": "paragraph",
-          "text": "cortadores de grama autopropelidos (peso bruto total abaixo de 600kg) | X | X | X | X | X |"
+          "markdown": "| Tipo de máquina | Subitem 31.12.38 Estrutura de proteção na capotagem EPC | Subitem 31.12.38 Cinto de segurança | Subitem 31.12.28 Proteção contra projeção do material em processamento | Subitem 31.12.37 Sinal sonoro de ré acoplados ao sistema de transmissão e espelho retrovisor | Subitem 31.12.37 Faróis, buzina e lanternas traseiras de posição |\n| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600kg) | X | X | X | X | X |"
         }
       ]
     },
@@ -7758,123 +7714,11 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "| Pulverizadores"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidos | X |  |  |  |  |"
+          "markdown": "| Pulverizadores autopropelidos | X | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Adubadoras autopropelidas e tracionadas | X | | X | | |\n| Colhedoras de grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X | | X | | |\n| Escavadeiras Hidráulicas | X | | | | |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma porta- implementos(acoplável ao motocultivador) | X | X | X | X | X |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Adubadoras"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidas e tracionadas | X |  | X |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de grãos,"
-        },
-        {
-          "type": "paragraph",
-          "text": "cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X |  | X |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Escavadeiras Hidráulicas | X |  |  |  |  |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma portaimplementos(acoplável"
-        },
-        {
-          "type": "paragraph",
-          "text": "ao motocultivador) | X | X | X | X | X |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Máquina/ implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com"
-        },
-        {
-          "type": "paragraph",
-          "text": "a aplicação. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Outros microtratores e cortadores"
-        },
-        {
-          "type": "paragraph",
-          "text": "de grama autopropelidos (peso bruto total abaixo de 600kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Adubadoras tracionadas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação"
-        },
-        {
-          "type": "paragraph",
-          "text": "(plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de cana-de- açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser"
-        },
-        {
-          "type": "paragraph",
-          "text": "processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de algodão | Área de recolhimento da fibra do algodão;"
-        },
-        {
-          "type": "paragraph",
-          "text": "Área de descarregamento do fardo de algodão. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas"
-        },
-        {
-          "type": "paragraph",
-          "text": "retráteis, transportadores e descarregamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas"
-        },
-        {
-          "type": "paragraph",
-          "text": "retráteis, transportadores e descarregamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Escavadeiras hidráulicas, feller"
-        },
-        {
-          "type": "paragraph",
-          "text": "bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Forrageiras tracionadas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de"
-        },
-        {
-          "type": "paragraph",
-          "text": "plantio e seus componentes; |"
+          "markdown": "| Máquina/ implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com a aplicação. |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |\n| Adubadoras tracionadas e autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |\n| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de- açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |\n| Colhedoras de algodão | Área de recolhimento da fibra do algodão; Área de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Escavadeiras hidráulicas, feller bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |\n| Forrageiras tracionadas e autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |\n| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de plantio e seus componentes; |"
         },
         {
           "type": "paragraph",
@@ -7886,31 +7730,15 @@
         },
         {
           "type": "table",
-          "markdown": "|  | Área de distribuição de sementes e adubos. |\n| --- | --- |"
+          "markdown": "| | Área de distribuição de sementes e adubos. |\n| --- | --- |"
         },
         {
           "type": "table",
-          "markdown": "| Marca | Modelo | EPC"
-        },
-        {
-          "type": "paragraph",
-          "text": "Subitem 31.12.39 (a partir do mês / ano) | Cinto de segurança Subitem 31.12.39 (a partir do mês / ano) |"
+          "markdown": "| Marca | Modelo | EPC Subitem 31.12.39 (a partir do mês / ano) | Cinto de segurança Subitem 31.12.39 (a partir do mês / ano) |\n| --- | --- | --- | --- |\n| Agrale | 4100 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4100 gás | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4118 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4230 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 5075 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 5085 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6110 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6150 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6180 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1030-h | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1030-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1045-h | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1045-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1055-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1145 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1145.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1155.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1175.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech ou yanmar | 2060-xt | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | Ke-40 | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | F-28 | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | 1040 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 135 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 150 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 180 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Magnum 220 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Magnum 240 | Janeiro /2008 | Janeiro /2008 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n| Agrale | 4100 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4100 gás | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4118 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 4230 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 5075 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 5085 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6110 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6150 | Janeiro /2009 | Janeiro /2009 |\n| Agrale | 6180 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1030-h | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1030-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1045-h | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1045-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1055-dt | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1145 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1145.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1155.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech | 1175.4 | Janeiro /2009 | Janeiro /2009 |\n| Agritech ou yanmar | 2060-xt | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | Ke-40 | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | F-28 | Janeiro /2008 | Janeiro /2008 |\n| Agritech ou yanmar | 1040 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 135 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 150 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Maxxum 180 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Magnum 220 | Janeiro /2008 | Janeiro /2008 |\n| Case ih | Magnum 240 | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Case ih | Magnum 270 | Janeiro /2008 | Janeiro /2008 |\n| --- | --- | --- | --- |\n| Case ih | Magnum 305 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5303 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5403 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5603 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5605 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5705 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6405 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6415 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6605 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6615 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6415 classic | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6615 classic | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6110j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6125j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6145j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6165j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7505 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7515 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7715 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7815 | Janeiro /2008 | Janeiro /2008 |\n| Landini | Technofarm | Janeiro /2008 | Janeiro /2008 |\n| Landini | Globalfarm | Janeiro /2008 | Janeiro /2008 |\n| Landini | Rex | Janeiro /2008 | Janeiro /2008 |\n| Landini | Mistral | Janeiro /2008 | Janeiro /2008 |\n| Landini | Rex | Janeiro /2008 | Janeiro /2008 |\n| Landini | Landpower | Janeiro /2008 | Janeiro /2008 |\n| Landini | Montana"
-        },
-        {
-          "type": "paragraph",
-          "text": "30/40/45/50/60 | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Maxion | Maxion 750 | Janeiro /2011 | Janeiro /2011 |\n| Massey ferguson | Mf250 | Janeiro /2008 | Janeiro /2008 |"
+          "markdown": "| Case ih | Magnum 270 | Janeiro /2008 | Janeiro /2008 |\n| --- | --- | --- | --- |\n| Case ih | Magnum 305 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5303 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5403 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5603 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5605 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 5705 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6405 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6415 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6605 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6615 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6415 classic | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6615 classic | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6110j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6125j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6145j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 6165j | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7505 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7515 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7715 | Janeiro /2008 | Janeiro /2008 |\n| John deere | 7815 | Janeiro /2008 | Janeiro /2008 |\n| Landini | Technofarm | Janeiro /2008 | Janeiro /2008 |\n| Landini | Globalfarm | Janeiro /2008 | Janeiro /2008 |\n| Landini | Rex | Janeiro /2008 | Janeiro /2008 |\n| Landini | Mistral | Janeiro /2008 | Janeiro /2008 |\n| Landini | Rex | Janeiro /2008 | Janeiro /2008 |\n| Landini | Landpower | Janeiro /2008 | Janeiro /2008 |\n| Landini | Montana 30/40/45/50/60 | Janeiro /2008 | Janeiro /2008 |\n| Maxion | Maxion 750 | Janeiro /2011 | Janeiro /2011 |\n| Massey ferguson | Mf250 | Janeiro /2008 | Janeiro /2008 |"
         },
         {
           "type": "table",
@@ -7922,55 +7750,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Valtra | Bm100 | Janeiro /2008 | Janeiro /2008 |\n| --- | --- | --- | --- |\n| Valtra | Bm110 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bm125i | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh145 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh165 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh180 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh185i | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh205i | Agosto /2008 | Agosto /2008 |\n| Valtra | Bt150 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt170 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt190 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt210 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bf65 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bf75 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 585 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 685ats | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 685 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 785 | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira 521d toldo | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira 621d toldo | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira w20e cabine | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora"
-        },
-        {
-          "type": "paragraph",
-          "text": "120h/ 120k | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Caterpillar | Motoniveladora"
-        },
-        {
-          "type": "paragraph",
-          "text": "140h/ 140k | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Caterpillar | Motoniveladora"
-        },
-        {
-          "type": "paragraph",
-          "text": "160h/ 160k | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Caterpillar | Motoniveladora"
-        },
-        {
-          "type": "paragraph",
-          "text": "12h/12k | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Caterpillar | Motoniveladora"
-        },
-        {
-          "type": "paragraph",
-          "text": "135h | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Ciber | Rolo hamm"
-        },
-        {
-          "type": "paragraph",
-          "text": "3410/11 | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| New holland | Pá carregadeira w130 toldo | Janeiro /2008 | Janeiro /2008 |"
+          "markdown": "| Valtra | Bm100 | Janeiro /2008 | Janeiro /2008 |\n| --- | --- | --- | --- |\n| Valtra | Bm110 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bm125i | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh145 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh165 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh180 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh185i | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bh205i | Agosto /2008 | Agosto /2008 |\n| Valtra | Bt150 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt170 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt190 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bt210 | Setembro /2010 | Setembro /2010 |\n| Valtra | Bf65 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | Bf75 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 585 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 685ats | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 685 | Janeiro /2008 | Janeiro /2008 |\n| Valtra | 785 | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira - 521d toldo | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira - 621d toldo | Janeiro /2008 | Janeiro /2008 |\n| Case | Pá carregadeira - w20e cabine | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora 120h/ 120k | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora 140h/ 140k | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora 160h/ 160k | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora 12h/12k | Janeiro /2008 | Janeiro /2008 |\n| Caterpillar | Motoniveladora 135h | Janeiro /2008 | Janeiro /2008 |\n| Ciber | Rolo hamm 3410/11 | Janeiro /2008 | Janeiro /2008 |\n| New holland | Pá carregadeira - w130 toldo | Janeiro /2008 | Janeiro /2008 |"
         },
         {
           "type": "paragraph",
@@ -8016,15 +7796,7 @@
         },
         {
           "type": "table",
-          "markdown": "| New holland | Trator de esteira"
-        },
-        {
-          "type": "paragraph",
-          "text": "- d170 | Janeiro /2008 | Janeiro /2008 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- |"
+          "markdown": "| New holland | Trator de esteira - d170 | Janeiro /2008 | Janeiro /2008 |\n| --- | --- | --- | --- |"
         },
         {
           "type": "paragraph",
@@ -8065,19 +7837,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  | Altura da estrutura de proteção b¹ |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1000 | 1200 | 1400² | 1600 | 1800 | 2000 | 2200 | 2400 | 2500 | 2700 |\n| Altura da"
-        },
-        {
-          "type": "paragraph",
-          "text": "zona de perigo a | Distância horizontal à zona de perigo “c” |  |  |  |  |  |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 27003 | - | - | - | - | - | - | - | - | - | - |\n| 2600 | 900 | 800 | 700 | 600 | 600 | 500 | 400 | 300 | 100 | - |\n| 2400 | 1100 | 1100 | 900 | 800 | 700 | 600 | 400 | 300 | 100 | - |\n| 2200 | 1300 | 1200 | 1000 | 900 | 800 | 600 | 400 | 300 | - | - |\n| 2000 | 1400 | 1300 | 1100 | 900 | 800 | 600 | 400 | - | - | - |\n| 1800 | 1500 | 1400 | 1100 | 900 | 800 | 600 | - | - | - | - |\n| 1600 | 1500 | 1400 | 1100 | 900 | 800 | 500 | - | - | - | - |\n| 1400 | 1500 | 1400 | 1100 | 900 | 800 | - | - | - | - | - |\n| 1200 | 1500 | 1400 | 1100 | 900 | 700 | - | - | - | - | - |\n| 1000 | 1500 | 1400 | 1100 | 800 | - | - | - | - | - | - |\n| 800 | 1500 | 1300 | 900 | 600 | - | - | - | - | - | - |\n| 600 | 1400 | 1300 | 800 | - | - | - | - | - | - | - |\n| 400 | 1400 | 1200 | 400 | - | - | - | - | - | - | - |\n| 200 | 1200 | 900 | - | - | - | - | - | - | - | - |\n| 0 | 1100 | 500 | - | - | - | - | - | - | - | - |\n| 1) Estruturas de proteção com altura inferior que 1000 mm (mil milímetros) não estão incluídas"
-        },
-        {
-          "type": "paragraph",
-          "text": "por não restringirem suficientemente o acesso do corpo. 2) Estruturas de proteção com altura menor que 1400 mm (um mil e quatrocentos milímetros) não devem ser usadas sem medidas adicionais de segurança. 3) Para zonas de perigo com altura superior a 2700 mm (dois mil e setecentos milímetros), ver Figura 8. Não devem ser feitas interpolações dos valores deste quadro; consequentemente, quando os valores conhecidos de “a”, “b” ou “c” estiverem entre dois valores do quadro, os valores a serem utilizados serão os que propiciarem maior segurança |  |  |  |  |  |  |  |  |  |  |"
+          "markdown": "| | Altura da estrutura de proteção b¹ | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1000 | 1200 | 1400² | 1600 | 1800 | 2000 | 2200 | 2400 | 2500 | 2700 |\n| Altura da zona de perigo a | Distância horizontal à zona de perigo “c” | | | | | | | | | |\n| 27003 | - | - | - | - | - | - | - | - | - | - |\n| 2600 | 900 | 800 | 700 | 600 | 600 | 500 | 400 | 300 | 100 | - |\n| 2400 | 1100 | 1100 | 900 | 800 | 700 | 600 | 400 | 300 | 100 | - |\n| 2200 | 1300 | 1200 | 1000 | 900 | 800 | 600 | 400 | 300 | - | - |\n| 2000 | 1400 | 1300 | 1100 | 900 | 800 | 600 | 400 | - | - | - |\n| 1800 | 1500 | 1400 | 1100 | 900 | 800 | 600 | - | - | - | - |\n| 1600 | 1500 | 1400 | 1100 | 900 | 800 | 500 | - | - | - | - |\n| 1400 | 1500 | 1400 | 1100 | 900 | 800 | - | - | - | - | - |\n| 1200 | 1500 | 1400 | 1100 | 900 | 700 | - | - | - | - | - |\n| 1000 | 1500 | 1400 | 1100 | 800 | - | - | - | - | - | - |\n| 800 | 1500 | 1300 | 900 | 600 | - | - | - | - | - | - |\n| 600 | 1400 | 1300 | 800 | - | - | - | - | - | - | - |\n| 400 | 1400 | 1200 | 400 | - | - | - | - | - | - | - |\n| 200 | 1200 | 900 | - | - | - | - | - | - | - | - |\n| 0 | 1100 | 500 | - | - | - | - | - | - | - | - |\n| 1) Estruturas de proteção com altura inferior que 1000 mm (mil milímetros) não estão incluídas por não restringirem suficientemente o acesso do corpo. 2) Estruturas de proteção com altura menor que 1400 mm (um mil e quatrocentos milímetros) não devem ser usadas sem medidas adicionais de segurança. 3) Para zonas de perigo com altura superior a 2700 mm (dois mil e setecentos milímetros), ver Figura 8. Não devem ser feitas interpolações dos valores deste quadro; consequentemente, quando os valores conhecidos de “a”, “b” ou “c” estiverem entre dois valores do quadro, os valores a serem utilizados serão os que propiciarem maior segurança | | | | | | | | | | |"
         },
         {
           "type": "paragraph",

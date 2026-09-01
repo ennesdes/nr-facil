@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria SIT n.º34, de 04 de dezembro de 2002|09/12/02|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SIT n.º12, de 31 de maio de 2007|04/06/07|\n|Portaria SIT n.º36, de 29 de janeiro de 2008|30/01/08|\n|Portaria SIT n.º58, de 19 de junho de 2008|24/06/08|\n|Portaria SIT n.º183, de 11 de maio de 2010|14/05/10|\n|Portaria MTE n.º100, de 17 de janeiro de 2013|18/01/13|\n|Portaria MTE n.º2.062, de 30 de dezembro de 2014|02/01/15|\n|Portaria MTE n.º1.186, de 20 de dezembro de 2018|21/12/18|\n|Portaria MTP n.º425, de 07 de outubro de 2021|08/10/21|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria SIT n.º34, de 04 de dezembro de 2002 | 09/12/02 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SIT n.º12, de 31 de maio de 2007 | 04/06/07 |\n| Portaria SIT n.º36, de 29 de janeiro de 2008 | 30/01/08 |\n| Portaria SIT n.º58, de 19 de junho de 2008 | 24/06/08 |\n| Portaria SIT n.º183, de 11 de maio de 2010 | 14/05/10 |\n| Portaria MTE n.º100, de 17 de janeiro de 2013 | 18/01/13 |\n| Portaria MTE n.º2.062, de 30 de dezembro de 2014 | 02/01/15 |\n| Portaria MTE n.º1.186, de 20 de dezembro de 2018 | 21/12/18 |\n| Portaria MTP n.º425, de 07 de outubro de 2021 | 08/10/21 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |"
       },
       {
         "type": "paragraph",
@@ -2543,23 +2543,7 @@
         },
         {
           "type": "table",
-          "markdown": "| QUADRO ESTATÍSTICO DE ACIDENTES |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| EMPRESA: |  |  |  |  | ANO: |\n| NAVIO: |  |  |  |  |  |\n| (1) HORAS HOMEM DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "EXPOSIÇÃO AO RISCO |  | NÚMERO DE ACIDENTES OCORRIDOS |  | TAXA DE ACIDENTADOS |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| MÊS | QUANTIDADE | (2) SEM"
-        },
-        {
-          "type": "paragraph",
-          "text": "AFASTAMENTO | (3) COM AFASTAMENTO | (4) TFSA | (5) TFCA |"
-        },
-        {
-          "type": "table",
-          "markdown": "| JAN |  |  |  |  |  |\n| FEV |  |  |  |  |  |\n| MAR |  |  |  |  |  |\n| ABR |  |  |  |  |  |\n| MAI |  |  |  |  |  |\n| JUN |  |  |  |  |  |\n| JUL |  |  |  |  |  |\n| AGO |  |  |  |  |  |\n| SET |  |  |  |  |  |\n| OUT |  |  |  |  |  |\n| NOV |  |  |  |  |  |\n| DEZ |  |  |  |  |  |\n| TOTAL |  |  |  |  |  |"
+          "markdown": "| QUADRO ESTATÍSTICO DE ACIDENTES | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| EMPRESA: | | | | | ANO: |\n| NAVIO: | | | | | |\n| (1) HORAS HOMEM DE EXPOSIÇÃO AO RISCO | | NÚMERO DE ACIDENTES OCORRIDOS | | TAXA DE ACIDENTADOS | |\n| MÊS | QUANTIDADE | (2) SEM AFASTAMENTO | (3) COM AFASTAMENTO | (4) TFSA | (5) TFCA |\n| JAN | | | | | |\n| FEV | | | | | |\n| MAR | | | | | |\n| ABR | | | | | |\n| MAI | | | | | |\n| JUN | | | | | |\n| JUL | | | | | |\n| AGO | | | | | |\n| SET | | | | | |\n| OUT | | | | | |\n| NOV | | | | | |\n| DEZ | | | | | |\n| TOTAL | | | | | |"
         },
         {
           "type": "list",
@@ -2661,118 +2645,7 @@
         },
         {
           "type": "table",
-          "markdown": "| a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de"
-        },
-        {
-          "type": "paragraph",
-          "text": "movimentar-se sobre superfícies escorregadias irregulares e instáveis;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "não apresentar qualquer limitação ou doença que possa impedir a sua"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "movimentação normal e o desempenho das atividades físicas de rotina de bordo, incluído agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas;"
-            },
-            {
-              "label": "d",
-              "text": "ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum,"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "ser capaz de manter uma conversação normal;"
-            },
-            {
-              "label": "f",
-              "text": "não apresentar sintomas de distúrbios mentais ou de comportamento;"
-            },
-            {
-              "label": "g",
-              "text": "dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "não comprometam a articulação normal e os tecidos moles. |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Acuidade Visual |  |  |\n| Suficiente com correção"
-        },
-        {
-          "type": "paragraph",
-          "text": "para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PADRÕES MÍNIMOS ESPECÍFICOS |  |  |\n| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Comandante, Oficiais de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 no melhor olho = 1 e 6 / 12 = 0,5 no outro olho |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tripulante que se tornou monocular em serviço com evidência de doença progressiva"
-        },
-        {
-          "type": "paragraph",
-          "text": "no olho remanescente |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Comandante, Oficiais de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 = 1 no olho remanescente |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Oficiais de máquinas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 18 = 0,4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tripulante que se tornou monocular em serviço com evidência de doença progressiva"
-        },
-        {
-          "type": "paragraph",
-          "text": "no olho remanescente |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Oficiais de máquinas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 9 = 0,6 no olho remanescente |"
+          "markdown": "| a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de movimentar-se sobre superfícies escorregadias irregulares e instáveis; b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina de bordo, incluído agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) ser capaz de manter uma conversação normal; f) não apresentar sintomas de distúrbios mentais ou de comportamento; g) dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles. | | |\n| --- | --- | --- |\n| Acuidade Visual | | |\n| Suficiente com correção para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. | |\n| PADRÕES MÍNIMOS ESPECÍFICOS | | |\n| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Comandante, Oficiais de Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 no melhor olho = 1 e 6 / 12 = 0,5 no outro olho |\n| Tripulante que se tornou monocular em serviço com evidência de doença progressiva no olho remanescente | | |\n| Comandante, Oficiais de Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 = 1 no olho remanescente |\n| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Oficiais de máquinas e Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 18 = 0,4 |\n| Tripulante que se tornou monocular em serviço com evidência de doença progressiva no olho remanescente | | |\n| Oficiais de máquinas e Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 9 = 0,6 no olho remanescente |"
         },
         {
           "type": "paragraph",
@@ -2907,139 +2780,11 @@
         },
         {
           "type": "table",
-          "markdown": "| PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS |  |\n| --- | --- |\n| Requisitos gerais por ocasião do exame médico:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de se"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "movimentar sobre superfícies escorregadias irregulares e instáveis;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "não apresentar qualquer limitação ou doença que possa impedir a sua movimentação"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "normal e o desempenho das atividades físicas de rotina e emergência a bordo, durante o período de validade do seu certificado médico, incluindo-se agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas;"
-            },
-            {
-              "label": "d",
-              "text": "ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "e fechar alavancas e volantes de válvulas e equipamentos de uso comum;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "demonstrar ter uma audição e uma fala adequadas para se comunicar de maneira eficaz e"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "detectar quaisquer alarmes sonoros;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "não apresentar sintomas de distúrbios mentais ou de comportamento;"
-            },
-            {
-              "label": "g",
-              "text": "dentição - mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "comprometam a articulação normal e os tecidos moles;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "h",
-              "text": "não estar sofrendo de qualquer problema de saúde que possa ser agravado pelo serviço"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "no mar ou tornar o aquaviário inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "i",
-              "text": "não estar tomando qualquer medicamento que tenha efeitos colaterais que possam"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "prejudicar quaisquer requisitos para um desempenho eficaz e seguro de atribuições de rotina e de emergência a bordo;"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "j",
-              "text": "ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais. |  |"
+          "markdown": "| PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS | |\n| --- | --- |\n| Requisitos gerais por ocasião do exame médico: a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de se movimentar sobre superfícies escorregadias irregulares e instáveis; b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina e emergência a bordo, durante o período de validade do seu certificado médico, incluindo-se agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) demonstrar ter uma audição e uma fala adequadas para se comunicar de maneira eficaz e detectar quaisquer alarmes sonoros; f) não apresentar sintomas de distúrbios mentais ou de comportamento; g) dentição - mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles; h) não estar sofrendo de qualquer problema de saúde que possa ser agravado pelo serviço no mar ou tornar o aquaviário inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo; i) não estar tomando qualquer medicamento que tenha efeitos colaterais que possam prejudicar quaisquer requisitos para um desempenho eficaz e seguro de atribuições de rotina e de emergência a bordo; j) ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais. | |\n| Acuidade Visual | |\n| Suficiente com correção para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. |"
         },
         {
           "type": "table",
-          "markdown": "| Acuidade Visual |  |\n| Suficiente com correção para"
-        },
-        {
-          "type": "paragraph",
-          "text": "desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Regra da"
-        },
-        {
-          "type": "paragraph",
-          "text": "Convenç | Categoria do | Visão para | Visão para perto | Visão de | Campo s | Cegueira noturna4 | Diplopia (visão |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- |"
+          "markdown": "| Regra da Convenç | Categoria do | Visão para | Visão para perto | Visão de | Campo s | Cegueira noturna4 | Diplopia (visão |\n| --- | --- | --- | --- | --- | --- | --- | --- |"
         },
         {
           "type": "note",
@@ -3047,35 +2792,7 @@
         },
         {
           "type": "table",
-          "markdown": "| ão STCW | Aquaviário | longe"
-        },
-        {
-          "type": "paragraph",
-          "text": "com correção¹ |  |  | Core s3 | Visuais4 |  | dupla)4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | Um"
-        },
-        {
-          "type": "paragraph",
-          "text": "olh o | Outr o olho | Os dois olhos juntos, com ou sem correção |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| I/11"
-        },
-        {
-          "type": "paragraph",
-          "text": "II/1 II/2 II/3 II/4 II/5 VII/2 | Comandant e, oficiais do departamen to de convés e subalternos de convés dos quais é exigido que desempenh em atribuições de vigilância | 0,5 ² | 0,5 | Visão exigida para a navegação do navio (ex.: consulta a cartas e publicaçõe s náuticas, utilização dos instrument os e equipamen tos do passadiço e identificaç ão dos auxílios à navegação ) | Ver Nota 6 | Campos visuais normai s | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1/11"
-        },
-        {
-          "type": "paragraph",
-          "text": "III/1 III/2 III/3 III/4 III/5 III/6 III/7 VII/2 | Todos os oficiais de máquinas, oficiais eletrotécnic os, subalternos eletrotécnic os e subalternos | 0,4 5 | 0,4 (Ver Not a 5) | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome | Nenhum problem a significat ivo evidente |"
+          "markdown": "| ão STCW | Aquaviário | longe com correção¹ | | | Core s3 | Visuais4 | | dupla)4 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Um olh o | Outr o olho | Os dois olhos juntos, com ou sem correção | | | | |\n| I/11 II/1 II/2 II/3 II/4 II/5 VII/2 | Comandant e, oficiais do departamen to de convés e subalternos de convés dos quais é exigido que desempenh em atribuições de vigilância | 0,5 ² | 0,5 | Visão exigida para a navegação do navio (ex.: consulta a cartas e publicaçõe s náuticas, utilização dos instrument os e equipamen tos do passadiço e identificaç ão dos auxílios à navegação ) | Ver Nota 6 | Campos visuais normai s | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |\n| 1/11 III/1 III/2 III/3 III/4 III/5 III/6 III/7 VII/2 | Todos os oficiais de máquinas, oficiais eletrotécnic os, subalternos eletrotécnic os e subalternos | 0,4 5 | 0,4 (Ver Not a 5) | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome | Nenhum problem a significat ivo evidente |"
         }
       ]
     },
@@ -3125,35 +2842,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  | ou outros"
-        },
-        {
-          "type": "paragraph",
-          "text": "que façam parte de um quarto de serviço na máquina |  |  | sistemas/ componen tes como for necessário |  |  | ter o seu desempen ho |  |"
+          "markdown": "| | ou outros que façam parte de um quarto de serviço na máquina | | | sistemas/ componen tes como for necessário | | | ter o seu desempen ho | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| I/11 IV/2 | Radioperad ores de GMDSS | 0,4 | 0,4 | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar sistemas/ componen tes como for necessário | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| I/11"
-        },
-        {
-          "type": "paragraph",
-          "text": "IV/2 | Radioperad ores de GMDSS | 0,4 | 0,4 | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar sistemas/ componen tes como for necessário | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
-        },
-        {
-          "type": "table",
-          "markdown": "| TAREFA, FUNÇÃO, EVENTO"
-        },
-        {
-          "type": "paragraph",
-          "text": "OU SITUAÇÃO A BORDO3 | CAPACIDADE FÍSICA RELACIONADA | UM EXAMINADOR MÉDICO deve estar convencido de que o candidato4,5 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Movimentos de rotina em"
-        },
-        {
-          "type": "paragraph",
-          "text": "superfícies escorregadias, desniveladas e | Manter o equilíbrio | não tem perturbação do senso de equilíbrio. |"
+          "markdown": "| TAREFA, FUNÇÃO, EVENTO OU SITUAÇÃO A BORDO3 | CAPACIDADE FÍSICA RELACIONADA | UM EXAMINADOR MÉDICO deve estar convencido de que o candidato4,5 |\n| --- | --- | --- |\n| Movimentos de rotina em superfícies escorregadias, desniveladas e | Manter o equilíbrio | não tem perturbação do senso de equilíbrio. |"
         },
         {
           "type": "note",
@@ -3161,67 +2854,7 @@
         },
         {
           "type": "table",
-          "markdown": "| instáveis; risco de ferimentos |  |  |\n| --- | --- | --- |\n| Acesso de rotina entre níveis;"
-        },
-        {
-          "type": "paragraph",
-          "text": "procedimentos de reação à emergência | Subir e descer escadas verticais e Inclinadas | é capaz de subir e descer, sem ajuda, escadas verticais e inclinadas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Movimentos de rotina entre"
-        },
-        {
-          "type": "paragraph",
-          "text": "espaços e compartimentos; procedimentos de reação à emergência | Passar por cima de braçolas (ex.: de até 60 cm de altura) | é capaz de passar por cima, sem ajuda, de uma soleira de porta alta (braçola). |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Abrir e fechar portas"
-        },
-        {
-          "type": "paragraph",
-          "text": "estanques; sistemas manuais de manivelas; abrir e fechar volantes de válvulas; manusear cabos; utilizar ferramentas manuais (isto é, chaves de boca, machados de incêndio, chaves para válvulas, martelos, chaves de fenda, alicates) | Manusear dispositivos mecânicos (destreza e força manual e digital) | é capaz de segurar, levantar e manusear diversas ferramentas comuns de bordo; mover as mãos/braços para abrir e fechar volantes de válvulas nas direções vertical e horizontal; girar os punhos para girar manivelas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Obter acesso através do navio;"
-        },
-        {
-          "type": "paragraph",
-          "text": "utilizar ferramentas e equipamentos; os procedimentos de reação à emergência devem ser seguidos prontamente, inclusive vestir colete salvavidas ou roupa de exposição | Mover-se com agilidade | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Manusear os suprimentos de"
-        },
-        {
-          "type": "paragraph",
-          "text": "bordo; utilizar ferramentas e equipamentos; manusear cabos; seguir os procedimentos de reação à emergência | Levantar, puxar, empurrar e transportar uma carga | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Armazenar em local elevado;"
-        },
-        {
-          "type": "paragraph",
-          "text": "abrir e fechar válvulas | Alcançar locais acima da altura dos ombros | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Manutenção geral do navio;"
-        },
-        {
-          "type": "paragraph",
-          "text": "procedimentos de reação à emergência, inclusive controle de avarias | Agachar (reduzir a altura dobrando os joelhos); Ajoelhar (colocar os joelhos no chão); Curvar o corpo (reduzir a altura curvando a cintura). | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Procedimentos de reação à"
-        },
-        {
-          "type": "paragraph",
-          "text": "emergência, inclusive escape de compartimentos cheios de fumaça | Rastejar (a capacidade de mover o corpo com as mãos e os joelhos); Sentir (a capacidade de manusear ou tocar para examinar ou verificar | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
+          "markdown": "| instáveis; risco de ferimentos | | |\n| --- | --- | --- |\n| Acesso de rotina entre níveis; procedimentos de reação à emergência | Subir e descer escadas verticais e Inclinadas | é capaz de subir e descer, sem ajuda, escadas verticais e inclinadas. |\n| Movimentos de rotina entre espaços e compartimentos; procedimentos de reação à emergência | Passar por cima de braçolas (ex.: de até 60 cm de altura) | é capaz de passar por cima, sem ajuda, de uma soleira de porta alta (braçola). |\n| Abrir e fechar portas estanques; sistemas manuais de manivelas; abrir e fechar volantes de válvulas; manusear cabos; utilizar ferramentas manuais (isto é, chaves de boca, machados de incêndio, chaves para válvulas, martelos, chaves de fenda, alicates) | Manusear dispositivos mecânicos (destreza e força manual e digital) | é capaz de segurar, levantar e manusear diversas ferramentas comuns de bordo; mover as mãos/braços para abrir e fechar volantes de válvulas nas direções vertical e horizontal; girar os punhos para girar manivelas. |\n| Obter acesso através do navio; utilizar ferramentas e equipamentos; os procedimentos de reação à emergência devem ser seguidos prontamente, inclusive vestir colete salva- vidas ou roupa de exposição | Mover-se com agilidade | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manusear os suprimentos de bordo; utilizar ferramentas e equipamentos; manusear cabos; seguir os procedimentos de reação à emergência | Levantar, puxar, empurrar e transportar uma carga | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Armazenar em local elevado; abrir e fechar válvulas | Alcançar locais acima da altura dos ombros | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manutenção geral do navio; procedimentos de reação à emergência, inclusive controle de avarias | Agachar (reduzir a altura dobrando os joelhos); Ajoelhar (colocar os joelhos no chão); Curvar o corpo (reduzir a altura curvando a cintura). | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Procedimentos de reação à emergência, inclusive escape de compartimentos cheios de fumaça | Rastejar (a capacidade de mover o corpo com as mãos e os joelhos); Sentir (a capacidade de manusear ou tocar para examinar ou verificar | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
         },
         {
           "type": "paragraph",
@@ -3253,51 +2886,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  | diferenças de"
-        },
-        {
-          "type": "paragraph",
-          "text": "temperatura). |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Fazer serviço de quarto"
-        },
-        {
-          "type": "paragraph",
-          "text": "no mínimo por 4 horas | Ficar em pé e andar por longos períodos de tempo | é capaz de ficar em pé e andar por longos períodos de tempo. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Obter acesso entre"
-        },
-        {
-          "type": "paragraph",
-          "text": "compartimentos; seguir os procedimentos de reação à emergência | Trabalhar em espaços apertados e mover-se através de aberturas restritas (ex.: 60 cm x 60 cm) | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Reagir a alarmes, avisos e"
-        },
-        {
-          "type": "paragraph",
-          "text": "instruções visuais; procedimentos de reação à emergência | Distinguir um objeto ou uma forma a uma certa distância | atende aos padrões de acuidade visual especificados pela autoridade competente. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Reagir a alarmes e instruções"
-        },
-        {
-          "type": "paragraph",
-          "text": "sonoras; procedimentos de reação à emergência | Ouvir um som com um nível especificado de dB, numa frequência especificada | atende aos padrões de capacidade auditiva especificados pela autoridade competente. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Dar informações verbais ou"
-        },
-        {
-          "type": "paragraph",
-          "text": "chamar a atenção para situações suspeitas ou de emergência | Descrever o que está à sua volta e atividades próximas e pronunciar claramente as palavras | é capaz de manter uma conversação normal. |"
+          "markdown": "| | diferenças de temperatura). | |\n| --- | --- | --- |\n| Fazer serviço de quarto no mínimo por 4 horas | Ficar em pé e andar por longos períodos de tempo | é capaz de ficar em pé e andar por longos períodos de tempo. |\n| Obter acesso entre compartimentos; seguir os procedimentos de reação à emergência | Trabalhar em espaços apertados e mover-se através de aberturas restritas (ex.: 60 cm x 60 cm) | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Reagir a alarmes, avisos e instruções visuais; procedimentos de reação à emergência | Distinguir um objeto ou uma forma a uma certa distância | atende aos padrões de acuidade visual especificados pela autoridade competente. |\n| Reagir a alarmes e instruções sonoras; procedimentos de reação à emergência | Ouvir um som com um nível especificado de dB, numa frequência especificada | atende aos padrões de capacidade auditiva especificados pela autoridade competente. |\n| Dar informações verbais ou chamar a atenção para situações suspeitas ou de emergência | Descrever o que está à sua volta e atividades próximas e pronunciar claramente as palavras | é capaz de manter uma conversação normal. |"
         },
         {
           "type": "paragraph",
@@ -3380,75 +2969,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Pergunta/Question | Sim / Yes | Não / No |\n| --- | --- | --- |\n| A identificação foi verificada?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Wastheidentityverified? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| A audição atende os requisitos mínimos para"
-        },
-        {
-          "type": "paragraph",
-          "text": "embarque? Ishearingadequate for boarding? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| A audição sem próteses é adequada?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Isunaidedhearingadequate? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| A acuidade visual satisfaz os padrões estabelecidos no"
-        },
-        {
-          "type": "paragraph",
-          "text": "STCW seção A-I/9? Visual acuitymeets standards in section A-I/9? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| A visão de cores atende aos padrões estabelecidos no"
-        },
-        {
-          "type": "paragraph",
-          "text": "STWC seção A - I/9? Iscolourvisionadequate in accordancewith STCW AI/9? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Data da última verificação de daltonismo (máximo: 6"
-        },
-        {
-          "type": "paragraph",
-          "text": "anos) Lastcolourvisionevaluation (Max. 6 years) |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Alguma limitação ou restrição médica?"
-        },
-        {
-          "type": "paragraph",
-          "text": "Any medical limitationorrestriction? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Se sim, qual?"
-        },
-        {
-          "type": "paragraph",
-          "text": "If (Yes), specify: |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| O aquaviário está livre de condições que possam"
-        },
-        {
-          "type": "paragraph",
-          "text": "torná-lo inapto ou qualquer problema de saúde que possa ser agravado pelo serviço de navegação no mar ou tornar o marítimo inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo? Is the seafarer free for many medical condition likely to be |  |  |"
+          "markdown": "| Pergunta/Question | Sim / Yes | Não / No |\n| --- | --- | --- |\n| A identificação foi verificada? Wastheidentityverified? | | |\n| A audição atende os requisitos mínimos para embarque? Ishearingadequate for boarding? | | |\n| A audição sem próteses é adequada? Isunaidedhearingadequate? | | |\n| A acuidade visual satisfaz os padrões estabelecidos no STCW seção A-I/9? Visual acuitymeets standards in section A-I/9? | | |\n| A visão de cores atende aos padrões estabelecidos no STWC seção A - I/9? Iscolourvisionadequate in accordancewith STCW A- I/9? | | |\n| Data da última verificação de daltonismo (máximo: 6 anos) Lastcolourvisionevaluation (Max. 6 years) | | |\n| Alguma limitação ou restrição médica? Any medical limitationorrestriction? | | |\n| Se sim, qual? If (Yes), specify: | | |\n| O aquaviário está livre de condições que possam torná-lo inapto ou qualquer problema de saúde que possa ser agravado pelo serviço de navegação no mar ou tornar o marítimo inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo? Is the seafarer free for many medical condition likely to be | | |"
         },
         {
           "type": "paragraph",
@@ -3553,15 +3074,7 @@
         },
         {
           "type": "table",
-          "markdown": "| aggravated by service at sea orto render these afarerunfit"
-        },
-        {
-          "type": "paragraph",
-          "text": "for suchserviceortoendangerthehealthofotherpersonson board? |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |"
+          "markdown": "| aggravated by service at sea orto render these afarerunfit for suchserviceortoendangerthehealthofotherpersonson board? | | |\n| --- | --- | --- |"
         },
         {
           "type": "paragraph",

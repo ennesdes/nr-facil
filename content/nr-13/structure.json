@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria SSMT nº02, de 08 de maio de 1984|07/06/84|\n|Portaria SSST nº23, de 27 de dezembro de 1994|Rep.:26/04/95|\n|Portaria SIT nº57, de 19 de junho de 2008|24/06/08|\n|Portaria MTE nº594, de 28 de abril de 2014|02/05/14|\n|Portaria MTb nº1.084, de 28 de setembro de 2017|29/09/17|\n|Portaria MTb nº1.082, de 18 de dezembro de 2018|20/12/18|\n|Portaria MTP nº1.846, de 01 de julho de 2022|04/07/22|\n|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT nº12, de 06 de junho de 1983 | 14/06/83 |\n| Portaria SSMT nº02, de 08 de maio de 1984 | 07/06/84 |\n| Portaria SSST nº23, de 27 de dezembro de 1994 | Rep.:26/04/95 |\n| Portaria SIT nº57, de 19 de junho de 2008 | 24/06/08 |\n| Portaria MTE nº594, de 28 de abril de 2014 | 02/05/14 |\n| Portaria MTb nº1.084, de 28 de setembro de 2017 | 29/09/17 |\n| Portaria MTb nº1.082, de 18 de dezembro de 2018 | 20/12/18 |\n| Portaria MTP nº1.846, de 01 de julho de 2022 | 04/07/22 |\n| Portaria MTP nº4.219, de 20 de dezembro de 2022 | 22/12/22 |"
       },
       {
         "type": "paragraph",
@@ -1880,7 +1880,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Classe do Fluido | Grupo de Potencial de Risco |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n|  | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |"
+          "markdown": "| Classe do Fluido | Grupo de Potencial de Risco | | | | |\n| --- | --- | --- | --- | --- | --- |\n| | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |"
         },
         {
           "type": "item",
@@ -2411,7 +2411,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Categoria | Estabelecimento sem SPIE |  | Estabelecimento com SPIE |  |\n| --- | --- | --- | --- | --- |\n|  | Exame Externo | Exame Interno | Exame Externo | Exame Interno |\n| I | 1 ano | 3 anos | 3 anos | 6 anos |\n| II | 2 anos | 4 anos | 4 anos | 8 anos |\n| III | 3 anos | 6 anos | 5 anos | 10 anos |\n| IV | 4 anos | 8 anos | 6 anos | 12 anos |\n| V | 5 anos | 10 anos | 7 anos | a critério |"
+          "markdown": "| Categoria | Estabelecimento sem SPIE | | Estabelecimento com SPIE | |\n| --- | --- | --- | --- | --- |\n| | Exame Externo | Exame Interno | Exame Externo | Exame Interno |\n| I | 1 ano | 3 anos | 3 anos | 6 anos |\n| II | 2 anos | 4 anos | 4 anos | 8 anos |\n| III | 3 anos | 6 anos | 5 anos | 10 anos |\n| IV | 4 anos | 8 anos | 6 anos | 12 anos |\n| V | 5 anos | 10 anos | 7 anos | a critério |"
         },
         {
           "type": "item",

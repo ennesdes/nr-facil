@@ -7204,91 +7204,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Capacitação | Treinamento inicial"
-        },
-        {
-          "type": "paragraph",
-          "text": "(carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n| Básico em segurança do"
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalho | 4 horas | 4 horas/2 anos | carga horária a critério do empregador |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operador de grua | 80 horas, sendo pelo"
-        },
-        {
-          "type": "paragraph",
-          "text": "menos 40 horas para a parte prática | a critério do empregador |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operador de guindaste | 120 horas, sendo"
-        },
-        {
-          "type": "paragraph",
-          "text": "pelo menos 80 horas para a parte prática | a critério do empregador |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operador de"
-        },
-        {
-          "type": "paragraph",
-          "text": "equipamentos de guindar | a critério do empregador, sendo pelo menos 50% para a parte prática | a critério do empregador/ 2 anos |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Sinaleiro/amarrador de"
-        },
-        {
-          "type": "paragraph",
-          "text": "cargas | 16 horas | a critério do empregador/ 2 anos |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operador de elevador | 16 horas | 4 horas/anual |  |\n| Instalação, montagem,"
-        },
-        {
-          "type": "paragraph",
-          "text": "desmontagem e manutenção de elevadores | a critério do empregador | a critério do empregador/anual |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operador de PEMT | 4 horas | 4 horas/2 anos |  |\n| Encarregado de ar"
-        },
-        {
-          "type": "paragraph",
-          "text": "comprimido | 16 horas | a critério do empregador |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Resgate e remoção em"
-        },
-        {
-          "type": "paragraph",
-          "text": "atividades no tubulão | 8 horas | a critério do empregador |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Serviços de"
-        },
-        {
-          "type": "paragraph",
-          "text": "impermeabilização | 4 horas | a critério do empregador |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Utilização de cadeira"
-        },
-        {
-          "type": "paragraph",
-          "text": "suspensa | 16 horas, sendo pelo menos 8 horas para | 8 horas/anual |  |"
+          "markdown": "| Capacitação | Treinamento inicial (carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |\n| --- | --- | --- | --- |\n| Básico em segurança do trabalho | 4 horas | 4 horas/2 anos | carga horária a critério do empregador |\n| Operador de grua | 80 horas, sendo pelo menos 40 horas para a parte prática | a critério do empregador | |\n| Operador de guindaste | 120 horas, sendo pelo menos 80 horas para a parte prática | a critério do empregador | |\n| Operador de equipamentos de guindar | a critério do empregador, sendo pelo menos 50% para a parte prática | a critério do empregador/ 2 anos | |\n| Sinaleiro/amarrador de cargas | 16 horas | a critério do empregador/ 2 anos | |\n| Operador de elevador | 16 horas | 4 horas/anual | |\n| Instalação, montagem, desmontagem e manutenção de elevadores | a critério do empregador | a critério do empregador/anual | |\n| Operador de PEMT | 4 horas | 4 horas/2 anos | |\n| Encarregado de ar comprimido | 16 horas | a critério do empregador | |\n| Resgate e remoção em atividades no tubulão | 8 horas | a critério do empregador | |\n| Serviços de impermeabilização | 4 horas | a critério do empregador | |\n| Utilização de cadeira suspensa | 16 horas, sendo pelo menos 8 horas para | 8 horas/anual | |"
         }
       ]
     },
@@ -7455,19 +7371,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  | a parte prática |  |  |\n| --- | --- | --- | --- |\n| Atividade de escavação"
-        },
-        {
-          "type": "paragraph",
-          "text": "manual de tubulão | 24 horas, sendo pelo menos 8 horas para a parte prática | 8 horas/anual |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Demais atividades/funções | a critério do"
-        },
-        {
-          "type": "paragraph",
-          "text": "empregador | a critério do empregador/ a critério do empregador |  |"
+          "markdown": "| | a parte prática | | |\n| --- | --- | --- | --- |\n| Atividade de escavação manual de tubulão | 24 horas, sendo pelo menos 8 horas para a parte prática | 8 horas/anual | |\n| Demais atividades/funções | a critério do empregador | a critério do empregador/ a critério do empregador | |"
         },
         {
           "type": "list",

@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|\n|<br>Portaria SIT nº308, de 29 de fevereiro de 2012|06/03/12|\n|Portaria MTE nº1.079, de 16 de julho de 2014|17/06/14|\n|<br>Portaria MTb nº872, de 06 de julho de 2017|07/07/17|\n|<br>Portaria MTb nº860, de 16 de outubro de 2018|17/10/18|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/07/19|\n|Portaria SEPRT nº1.360, de 09 de dezembro de 2019|10/12/19|\n|Portaria MTP nº427, de 07 de setembro de 2021|08/10/21|\n|Portaria MTP nº806, de 13 de abril de 2022|19/04/22|\n|<br>Portaria MTP nº4.219, de 20 de dezembro de 2022|<br>22/12/22|\n|Portaria MTP nº2.776, de 05 de setembro de 2022|06/09/22|\n|Portaria MTE nº3.643, de 09 de novembro de 2023|10/11/23|\n|<br>Portaria MTE nº1.146, de 12 de julho de 2024|15/07/24|\n|<br>Portaria MTE nº60, de 21 de janeiro de 2025|22/01/25|"
+        "markdown": "| **Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978 | **D.O.U.**<br>06/07/78 |\n| --- | --- |\n| **Alterações/Atualizações** | **D.O.U.** |\n| <br>Portaria SIT nº308, de 29 de fevereiro de 2012 | 06/03/12 |\n| Portaria MTE nº1.079, de 16 de julho de 2014 | 17/06/14 |\n| <br>Portaria MTb nº872, de 06 de julho de 2017 | 07/07/17 |\n| <br>Portaria MTb nº860, de 16 de outubro de 2018 | 17/10/18 |\n| Portaria SEPRT nº915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria SEPRT nº1.360, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria MTP nº427, de 07 de setembro de 2021 | 08/10/21 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 19/04/22 |\n| <br>Portaria MTP nº4.219, de 20 de dezembro de 2022 | <br>22/12/22 |\n| Portaria MTP nº2.776, de 05 de setembro de 2022 | 06/09/22 |\n| Portaria MTE nº3.643, de 09 de novembro de 2023 | 10/11/23 |\n| <br>Portaria MTE nº1.146, de 12 de julho de 2024 | 15/07/24 |\n| <br>Portaria MTE nº60, de 21 de janeiro de 2025 | 22/01/25 |"
       },
       {
         "type": "paragraph",
@@ -1597,47 +1597,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Atividade"
-        },
-        {
-          "type": "paragraph",
-          "text": "Classe | Instalação Classe I | Instalação Classe II | Instalação Classe III |"
+          "markdown": "| Atividade Classe | Instalação Classe I | Instalação Classe II | Instalação Classe III |\n| --- | --- | --- | --- |\n| Específica, pontual e de curta duração | Curso Básico (4 horas) | Curso Básico (6 horas) | Curso Básico (8 horas) |\n| Manutenção e inspeção | Curso Intermediário (12 horas) | Curso Intermediário (14 horas) | Curso Intermediário (16 horas) |\n| Operação e atendimento a emergências | Curso Intermediário (12 horas) | Curso Avançado I (20 horas) | Curso Avançado II (32 horas) |\n| Segurança e saúde no trabalho | - | Curso Específico (14 horas) | Curso Específico (16 horas) |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n| Específica, pontual e de"
-        },
-        {
-          "type": "paragraph",
-          "text": "curta duração | Curso Básico (4 horas) | Curso Básico (6 horas) | Curso Básico (8 horas) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Manutenção e inspeção | Curso Intermediário (12"
-        },
-        {
-          "type": "paragraph",
-          "text": "horas) | Curso Intermediário (14 horas) | Curso Intermediário (16 horas) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Operação e atendimento"
-        },
-        {
-          "type": "paragraph",
-          "text": "a emergências | Curso Intermediário (12 horas) | Curso Avançado I (20 horas) | Curso Avançado II (32 horas) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Segurança e saúde no"
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalho | - | Curso Específico (14 horas) | Curso Específico (16 horas) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Curso | Periodicidade |  |  | Carga Horária |\n| --- | --- | --- | --- | --- |\n| Básico | Trienal |  |  | 4 horas |\n|  | Classe I | Classe II | Classe III |  |"
+          "markdown": "| Curso | Periodicidade | | | Carga Horária |\n| --- | --- | --- | --- | --- |\n| Básico | Trienal | | | 4 horas |\n| | Classe I | Classe II | Classe III | |"
         }
       ]
     },
@@ -1810,7 +1774,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Intermediário | Trienal | Bienal | Bienal | 4 horas |\n| --- | --- | --- | --- | --- |\n| Avançado I | Bienal |  |  | 4 horas |\n| Avançado II | Anual |  |  | 4 horas |"
+          "markdown": "| Intermediário | Trienal | Bienal | Bienal | 4 horas |\n| --- | --- | --- | --- | --- |\n| Avançado I | Bienal | | | 4 horas |\n| Avançado II | Anual | | | 4 horas |"
         },
         {
           "type": "paragraph",
@@ -2074,43 +2038,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Capacidade armazenada (gases inflamáveis e/ou líquidos inflamáveis"
-        },
-        {
-          "type": "paragraph",
-          "text": "e/ou combustíveis) | Nº de trabalhadores treinados |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| ³"
-        },
-        {
-          "type": "paragraph",
-          "text": "Acima de 1 ton até 5 ton e/ou acima de 1 m até 9 m³ | mínimo: 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ³ ³"
-        },
-        {
-          "type": "paragraph",
-          "text": "Acima de 5 ton até 10 ton e/ou acima de 9 m até 42 m | mínimo: 3 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ³ ³"
-        },
-        {
-          "type": "paragraph",
-          "text": "Acima de 10 ton até 20 ton e/ou acima de 42 m até 84 m | mínimo: 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ³"
-        },
-        {
-          "type": "paragraph",
-          "text": "Para cada 20 ton e/ou 84 m | mais de 2 trabalhadores |"
+          "markdown": "| Capacidade armazenada (gases inflamáveis e/ou líquidos inflamáveis e/ou combustíveis) | Nº de trabalhadores treinados |\n| --- | --- |\n| ³ Acima de 1 ton até 5 ton e/ou acima de 1 m até 9 m³ | mínimo: 2 |\n| ³ ³ Acima de 5 ton até 10 ton e/ou acima de 9 m até 42 m | mínimo: 3 |\n| ³ ³ Acima de 10 ton até 20 ton e/ou acima de 42 m até 84 m | mínimo: 4 |\n| ³ Para cada 20 ton e/ou 84 m | mais de 2 trabalhadores |"
         },
         {
           "type": "paragraph",

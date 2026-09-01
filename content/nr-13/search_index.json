@@ -1,1472 +1,1472 @@
 [
   {
     "id": "chunk-0",
-    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria SSMT nº02, de 08 de maio de 1984|07/06/84|\n|Portaria SSST nº23, de 27 de dezembro de 1994|Rep.:26/04/95|",
+    "text": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT nº12, de 06 de junho de 1983 | 14/06/83 |\n| Portaria SSMT nº02, de 08 de maio de 1984 | 07/06/84 |",
     "heading": "**NR 13 - CALDEIRAS, VASOS DE PRESSÃO, TUBULAÇÕES E TANQUES METÁLICOS DE ARMAZENAMENTO**",
     "char_offset": 1
   },
   {
     "id": "chunk-1",
-    "text": "|Portaria SIT nº57, de 19 de junho de 2008|24/06/08|\n|Portaria MTE nº594, de 28 de abril de 2014|02/05/14|\n|Portaria MTb nº1.084, de 28 de setembro de 2017|29/09/17|\n|Portaria MTb nº1.082, de 18 de dezembro de 2018|20/12/18|\n|Portaria MTP nº1.846, de 01 de julho de 2022|04/07/22|",
+    "text": "| Portaria SSST nº23, de 27 de dezembro de 1994 | Rep.:26/04/95 |\n| Portaria SIT nº57, de 19 de junho de 2008 | 24/06/08 |\n| Portaria MTE nº594, de 28 de abril de 2014 | 02/05/14 |\n| Portaria MTb nº1.084, de 28 de setembro de 2017 | 29/09/17 |\n| Portaria MTb nº1.082, de 18 de dezembro de 2018 | 20/12/18 |",
     "heading": "**NR 13 - CALDEIRAS, VASOS DE PRESSÃO, TUBULAÇÕES E TANQUES METÁLICOS DE ARMAZENAMENTO**",
-    "char_offset": 305
+    "char_offset": 267
   },
   {
     "id": "chunk-2",
-    "text": "|Portaria MTP nº4.219, de 20 de dezembro de 2022|22/12/22|\n_(Redação dada pela Portaria MTb nº 1.846, de 01 de julho de 2022)_",
+    "text": "| Portaria MTP nº1.846, de 01 de julho de 2022 | 04/07/22 |\n| Portaria MTP nº4.219, de 20 de dezembro de 2022 | 22/12/22 |\n_(Redação dada pela Portaria MTb nº 1.846, de 01 de julho de 2022)_",
     "heading": "**13.1 Objetivo**",
-    "char_offset": 716
+    "char_offset": 768
   },
   {
     "id": "chunk-3",
     "text": "**13.1.1** O objetivo desta Norma Regulamentadora - NR é estabelecer requisitos mínimos para a gestão da integridade estrutural de caldeiras, vasos de pressão, suas tubulações de interligação e tanques metálicos de armazenamento nos aspectos relacionados à instalação, inspeção, operação e manutenção, visando a segurança e saúde dos trabalhadores.",
     "heading": "**13.1 Objetivo**",
-    "char_offset": 717
+    "char_offset": 769
   },
   {
     "id": "chunk-4",
     "text": "**13.1.2** O empregador é o responsável pela adoção das medidas determinadas nesta NR. \n**13.1.3** O disposto no item anterior aplica-se também aos equipamentos pertencentes a terceiros, circunscritos ao estabelecimento do empregador. \n**13.1.3.1** A responsabilidade do empregador não elide o dever do proprietário dos equipamentos de cumprir as disposições legais e regulamentares acerca do tema.",
     "heading": "**13.1 Objetivo**",
-    "char_offset": 1070
+    "char_offset": 1122
   },
   {
     "id": "chunk-5",
     "text": "**13.1.4** Considera-se estabelecimento com Serviço Próprio de Inspeção de Equipamentos - SPIE aquele cujo empregador obtém, de forma voluntária, a certificação prevista no Anexo II desta NR.",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 1665
+    "char_offset": 1717
   },
   {
     "id": "chunk-6",
     "text": "**13.2.1** Esta NR deve ser aplicada aos seguintes equipamentos: \n- a) caldeiras com pressão de operação superior a 60 kPa (0,61 kgf/cm²); \n- b) vasos de pressão cujo produto P.V seja superior a 8 (oito), onde P é o módulo da pressão máxima de operação em kPa e V o seu volume interno em m³;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 1668
+    "char_offset": 1720
   },
   {
     "id": "chunk-7",
     "text": "- c) vasos de pressão que contenham fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1, independente do produto P.V; \nEste texto não substitui o publicado no DOU \n- d) recipientes móveis com P.V superior a oito, onde P é o módulo da pressão máxima de operação em kPa, ou com fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 1964
+    "char_offset": 2016
   },
   {
     "id": "chunk-8",
     "text": "- e) tubulações que contenham fluidos de classe A ou B, conforme as alíneas “a” e “b” do subitem 13.5.1.1.1, ligadas a caldeiras ou vasos de pressão abrangidos por esta NR; e \n- f) tanques metálicos de armazenamento, com diâmetro externo maior do que três metros, capacidade nominal acima de vinte mil litros, e que contenham fluidos de classe A ou B, conforme as alíneas “a” e “b” do subitem 13.5.1.1.1 desta NR. _(entra em vigor em 04 de julho de 2026 - art. 3º da Portaria MTP nº 1.846/22)_",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 2334
+    "char_offset": 2386
   },
   {
     "id": "chunk-9",
     "text": "**13.2.2** Esta NR não se aplica aos seguintes equipamentos: \n- a) recipientes transportáveis, vasos de pressão destinados ao transporte de produtos, reservatórios portáteis de fluido comprimido e extintores de incêndio; \n- b) vasos de pressão destinados à ocupação humana;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 2832
+    "char_offset": 2884
   },
   {
     "id": "chunk-10",
     "text": "- c) vasos de pressão integrantes de sistemas auxiliares de pacote de máquinas; \n- d) dutos e seus componentes; \n- e) fornos, serpentinas para troca térmica e aquecedores de fluido térmico; \n- f) vasos de pressão com diâmetro interno inferior a cento e cinquenta milímetros independentemente da classe do fluido;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 3111
+    "char_offset": 3163
   },
   {
     "id": "chunk-11",
     "text": "- g) geradores de vapor não enquadrados em códigos de vasos de pressão ou caldeira; \n- h) tubos de sistemas de instrumentação; \n- i) tubulações de redes públicas de distribuição de gás; \n- j) vasos de pressão fabricados em Plástico Reforçado de Fibra de Vidro - PRFV, inclusive aqueles sujeitos à condição de vácuo;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 3429
+    "char_offset": 3481
   },
   {
     "id": "chunk-12",
     "text": "- k) caldeiras com volume inferior a cem litros; \n- l) tanques estruturais de embarcações, navios e plataformas marítimas de exploração e produção de petróleo; \n- m)vasos e acumuladores de equipamentos submarinos destinados à produção e exploração de petróleo;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 3749
+    "char_offset": 3801
   },
   {
     "id": "chunk-13",
     "text": "- n) tanques enterrados ou apoiados sobre pernas, sapatas, pedestais ou selas; \n- o) panelas de cocção; \n- p) acumuladores e blocos hidráulicos; _(retificada em 20/10/2022)_ \n- q) tubulações que operam com vapor, observado o disposto no subitem 13.6.2.6 desta NR;",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 4015
+    "char_offset": 4067
   },
   {
     "id": "chunk-14",
     "text": "- r) trocador de calor de placas corrugadas gaxetadas e brasadas; e \n- s) vasos de pressão sujeitos exclusivamente a condições de vácuo menor ou igual a 5 kPa, que não contenham fluidos de classe A. \n**13.2.3** O disposto no item 13.2.2 não exime o empregador do dever de inspecionar e executar a manutenção dos referidos equipamentos e de outros sistemas pressurizados que ofereçam riscos aos trabalhadores, acompanhadas ou executadas por um",
     "heading": "**13.2 Campo de aplicação**",
-    "char_offset": 4283
+    "char_offset": 4335
   },
   {
     "id": "chunk-15",
     "text": "Este texto não substitui o publicado no DOU \nresponsável técnico, e observadas as recomendações do fabricante, bem como o disposto em códigos ou normas aplicáveis. _(retificado em 20/10/2022)_",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 4924
+    "char_offset": 4976
   },
   {
     "id": "chunk-16",
     "text": "**13.3.1** As seguintes situações constituem condição de grave e iminente risco: \n- a) operação de equipamentos abrangidos por esta NR sem os dispositivos de segurança previstos nos subitens 13.4.1.2 “a”, 13.5.1.2 “a”, 13.6.1.2 e 13.7.2.1; \n- b) atraso na inspeção de segurança periódica de caldeiras;",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 4927
+    "char_offset": 4979
   },
   {
     "id": "chunk-17",
     "text": "- c) ausência ou bloqueio de dispositivos de segurança, sem a devida justificativa técnica, baseada em códigos, normas ou procedimentos formais de operação do equipamento; \n- d) ausência ou indisponibilidade operacional de dispositivo de controle do nível de água na caldeira;",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 5232
+    "char_offset": 5284
   },
   {
     "id": "chunk-18",
     "text": "- e) operação de equipamento enquadrado nesta NR, cujo relatório de inspeção ateste a sua inaptidão operacional; ou \n- f) operação de caldeira em desacordo com o disposto no item 13.4.3.3 desta NR. \n**13.3.1.1** Por motivo de força maior e com justificativa formal do empregador, acompanhada por análise técnica e respectivas medidas de contingência para mitigação dos riscos, elaborada por Profissional Legalmente Habilitado - PLH ou por grupo multidisciplinar por ele coordenado, pode ocorrer postergação de até seis meses do prazo previsto para a inspeção de segurança periódica dos equipamentos abrangidos por esta NR.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 5513
+    "char_offset": 5565
   },
   {
     "id": "chunk-19",
     "text": "**13.3.1.1.1** O empregador deve comunicar ao sindicato dos trabalhadores da categoria predominante do estabelecimento a justificativa formal para postergação da inspeção de segurança periódica dos equipamentos abrangidos por esta NR. \n**13.3.2** Para efeito desta NR, considera-se PLH aquele que tem competência legal para o exercício da profissão de engenheiro nas atividades referentes a projeto de construção, acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, vasos de pressão, tubulações e tanques metálicos de armazenamento, em conformidade com a regulamentação profissional vigente no País.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 6139
+    "char_offset": 6191
   },
   {
     "id": "chunk-20",
     "text": "**13.3.2.1** O PLH pode obter voluntariamente a certificação de suas competências profissionais por intermédio de um Organismo de Certificação de Pessoas - OPC acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO, conforme estabelece o Anexo III desta NR.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 6781
+    "char_offset": 6833
   },
   {
     "id": "chunk-21",
     "text": "**13.3.3** A inspeção de segurança dos equipamentos abrangidos por esta NR deve ser executada sob a responsabilidade técnica de PLH. \n**13.3.4** A inspeção de segurança dos equipamentos abrangidos por esta NR deve ser respaldada por exames e testes, a critério técnico do PLH, observado o disposto em códigos ou normas aplicáveis.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 7112
+    "char_offset": 7164
   },
   {
     "id": "chunk-22",
     "text": "Este texto não substitui o publicado no DOU \n**13.3.4.1** Deve ser observado o histórico dos equipamentos quando existente. \n**13.3.4.2** Os exames e testes devem ser realizados em condições de segurança para os executantes e demais trabalhadores envolvidos.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 7447
+    "char_offset": 7499
   },
   {
     "id": "chunk-23",
     "text": "**13.3.4.3** A execução de testes pneumáticos ou hidropneumáticos, quando indispensável, deve ser realizada sob responsabilidade técnica de PLH, com aprovação prévia dos procedimentos a serem aplicados. _(retificado em 20/10/2022)_ \n**13.3.5** É proibida a inibição dos instrumentos, controles e sistemas de segurança, exceto quando prevista, de forma provisória, em procedimentos formais de operação e manutenção ou mediante justificativa formalmente documentada elaborada por responsável técnico, com prévia análise de risco e anuência do empregador ou de preposto por ele designado, desde que mantida a segurança operacional.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 7709
+    "char_offset": 7761
   },
   {
     "id": "chunk-24",
     "text": "**13.3.6** Os instrumentos e sistemas de controle e segurança dos equipamentos abrangidos por esta NR devem ser mantidos em condições adequadas de uso e devidamente inspecionados e testados ou, quando aplicável, calibrados. \n**13.3.7** Todos os reparos ou alterações em equipamentos abrangidos nesta NR devem respeitar os respectivos códigos de construção e as prescrições do fabricante no que se refere a:",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 8341
+    "char_offset": 8393
   },
   {
     "id": "chunk-25",
     "text": "- a) materiais; \n- b) procedimentos de execução; \n- c) procedimentos de controle de qualidade; e \n- d) qualificação e certificação de pessoal. \n**13.3.7.1** Quando não for conhecido o código de construção, deve ser respeitada a concepção original da caldeira, vaso de pressão, tubulação ou tanque metálico de armazenamento, empregando-se os procedimentos de controle prescritos pelos códigos aplicáveis a esses equipamentos.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 8754
+    "char_offset": 8806
   },
   {
     "id": "chunk-26",
     "text": "**13.3.7.2** A critério técnico do PLH, podem ser utilizadas tecnologias de cálculo ou procedimentos mais avançados, em substituição aos previstos pelos códigos de construção. \n**13.3.7.3** Projetos de alteração ou reparo devem ser concebidos previamente nas seguintes situações:",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 9182
+    "char_offset": 9234
   },
   {
     "id": "chunk-27",
     "text": "a) sempre que as condições de projeto forem modificadas; ou \nb) sempre que forem realizados reparos que possam comprometer a segurança. \n**13.3.7.4** Os projetos de alteração e os projetos de reparo devem: \na) ser concebidos ou aprovados por PLH; \nb) determinar materiais, procedimentos de execução, controle de qualidade e qualificação de pessoal; e",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 9468
+    "char_offset": 9520
   },
   {
     "id": "chunk-28",
     "text": "Este texto não substitui o publicado no DOU \nc) ser divulgados para os empregados do estabelecimento que estão envolvidos com o equipamento. \n**13.3.7.5** Todas as intervenções que exijam mandrilamento ou soldagem em partes que operem sob pressão devem ser objeto de exames ou testes para controle da qualidade com parâmetros definidos por PLH, de acordo com códigos ou normas aplicáveis.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 9823
+    "char_offset": 9875
   },
   {
     "id": "chunk-29",
     "text": "**13.3.8** Os relatórios de inspeção de segurança dos equipamentos abrangidos por esta NR devem ser elaborados em até 60 (sessenta) dias ou, no caso de parada geral de manutenção, em até 90 (noventa) dias. \n**13.3.8.1** Imediatamente após a inspeção de segurança de caldeira, vaso de pressão ou tanque metálico de armazenamento, deve ser anotada, no respectivo registro de segurança, previsto nos subitens 13.4.1.8, 13.5.1.7 e 13.7.1.3 desta NR, a condição operacional e de segurança.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 10215
+    "char_offset": 10267
   },
   {
     "id": "chunk-30",
     "text": "**13.3.8.2** As recomendações decorrentes das inspeções de segurança devem ser registradas e implementadas pelo empregador, com a determinação de prazos e responsáveis pela execução. \n**13.3.9** Os relatórios, projetos, certificados e demais documentos previstos nesta NR podem ser elaborados e armazenados em sistemas informatizados, com segurança da informação, ou mantidos em mídia eletrônica com assinatura validada por uma Autoridade Certificadora - AC, assegurados os requisitos de autenticidade, integridade, disponibilidade, rastreabilidade e irretratabilidade das informações.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 10703
+    "char_offset": 10755
   },
   {
     "id": "chunk-31",
     "text": "**13.3.9.1** No caso de versão impressa de relatórios de inspeção de segurança, as páginas devem ser numeradas. \n**13.3.10** A documentação dos equipamentos abrangidos por esta NR deve permanecer à disposição para consulta dos operadores, do pessoal de manutenção, de inspeção e das representações dos trabalhadores e do empregador na Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, devendo o empregador assegurar pleno acesso a essa documentação, inclusive à representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitado.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 11292
+    "char_offset": 11344
   },
   {
     "id": "chunk-32",
     "text": "**13.3.11** O empregador deve comunicar à autoridade regional competente em matéria de trabalho e ao sindicato da categoria profissional predominante do estabelecimento a ocorrência de vazamento, incêndio ou explosão envolvendo equipamentos abrangidos por esta NR que tenha como consequência uma das situações a seguir:",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 11883
+    "char_offset": 11935
   },
   {
     "id": "chunk-33",
     "text": "a) morte de trabalhador(es); \nb) internação hospitalar de trabalhador(es); ou \nc) eventos de grande proporção. \n**13.3.11.1** A comunicação deve ser encaminhada até o segundo dia útil após a ocorrência e deve conter: \na) razão social do empregador, endereço, local, data e hora da ocorrência;",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 12209
+    "char_offset": 12261
   },
   {
     "id": "chunk-34",
     "text": "b) descrição da ocorrência; \nEste texto não substitui o publicado no DOU \n- c) nome e função da(s) vítima(s); \n- d) procedimentos de investigação adotados; \n- e) cópia do último relatório de inspeção de segurança do equipamento envolvido; e \n- f) cópia da Comunicação de Acidente de Trabalho - CAT.",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 12509
+    "char_offset": 12561
   },
   {
     "id": "chunk-35",
     "text": "**13.3.11.2** Na ocorrência de acidentes previstos no subitem 13.3.11, o empregador deve comunicar formalmente a representação sindical dos trabalhadores predominante do estabelecimento para participar da respectiva investigação. \n**13.3.12** As caldeiras e vasos de pressão comprovadamente fabricados em série devem ser certificados no âmbito do Sistema Brasileiro de Avaliação de Conformidade, quando aplicável. _(retificado em 20/10/2022)_",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 12811
+    "char_offset": 12863
   },
   {
     "id": "chunk-36",
     "text": "**13.3.13** É proibida a construção, importação, comercialização, leilão, locação, cessão a qualquer título, exposição e utilização de caldeiras e vasos de pressão sem a indicação do respectivo código de construção no prontuário e na placa de identificação. _(para equipamentos fabricados a partir de 20 de março de 2018 - vide art. 4º da Portaria MTP nº 1.846/22)_",
     "heading": "**13.3 Disposições gerais**",
-    "char_offset": 13256
+    "char_offset": 13308
   },
   {
     "id": "chunk-37",
     "text": "**13.4.1** Disposições Gerais \n**13.4.1.1** Para os propósitos desta NR, as caldeiras devem ser categorizadas da seguinte forma: \n- a) caldeiras da categoria A são aquelas cuja pressão de operação é igual ou superior a 1.960 kPa (19,98 kgf/cm²); ou",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 13627
+    "char_offset": 13679
   },
   {
     "id": "chunk-38",
     "text": "- b) caldeiras da categoria B são aquelas cuja pressão de operação seja superior a 60 kPa (0,61 kgf/cm²) e inferior a 1.960 kPa (19,98 kgf/cm²). \n**13.4.1.2** As caldeiras devem ser dotadas dos seguintes itens: \n- a) válvula de segurança com pressão de abertura ajustada em valor igual ou inferior à Pressão Máxima de Trabalho Admissível - PMTA, respeitados os requisitos do código de construção relativos a aberturas escalonadas e tolerâncias de pressão de ajuste;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 13880
+    "char_offset": 13932
   },
   {
     "id": "chunk-39",
     "text": "- b) instrumento que indique a pressão do vapor acumulado; \n- c) injetor ou sistema de alimentação de água independente do principal, nas caldeiras de combustível sólido não atomizado ou com queima em suspensão; \n- d) sistema dedicado de drenagem rápida de água em caldeiras de recuperação de álcalis, com ações automáticas após acionamento pelo operador; e",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 14350
+    "char_offset": 14402
   },
   {
     "id": "chunk-40",
     "text": "- e) sistema automático de controle do nível de água com intertravamento que evite o superaquecimento por alimentação deficiente. \n**13.4.1.3** Toda caldeira deve ter afixada em seu corpo, em local de fácil acesso e visível, placa de identificação indelével com, no mínimo, as seguintes informações:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 14711
+    "char_offset": 14763
   },
   {
     "id": "chunk-41",
     "text": "- a) nome do fabricante; \nb) número de ordem dado pelo fabricante da caldeira; \nEste texto não substitui o publicado no DOU \n- c) ano de fabricação; \n- d) pressão máxima de trabalho admissível; \n- e) capacidade de produção de vapor; \n- f) área de superfície de aquecimento; e",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 15019
+    "char_offset": 15071
   },
   {
     "id": "chunk-42",
     "text": "- g) código de construção e ano de edição. \n**13.4.1.4** Além da placa de identificação, deve constar, em local visível, a categoria da caldeira e seu número ou código de identificação. \n**13.4.1.5** Toda caldeira deve possuir, no estabelecimento onde estiver instalada, a seguinte documentação devidamente atualizada:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 15299
+    "char_offset": 15351
   },
   {
     "id": "chunk-43",
     "text": "- a) prontuário da caldeira, fornecido por seu fabricante, contendo as seguintes informações: \n- I - código de construção e ano de edição; \nII - especificação dos materiais; \nIII - procedimentos utilizados na fabricação, montagem e inspeção final; \nIV - metodologia para estabelecimento da PMTA;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 15624
+    "char_offset": 15676
   },
   {
     "id": "chunk-44",
     "text": "V - registros da execução do teste hidrostático de fabricação; \nVI - conjunto de desenhos e demais dados necessários ao monitoramento da vida útil da caldeira; \nVII - características funcionais; \nVIII - dados dos dispositivos de segurança; \nIX - ano de fabricação; e",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 15926
+    "char_offset": 15978
   },
   {
     "id": "chunk-45",
     "text": "- X - categoria da caldeira; \n- b) registro de segurança; \n- c) projeto de instalação; \n- d) projeto de alteração ou reparo; \n- e) relatórios de inspeção de segurança; e \n- f) certificados de inspeção e teste dos dispositivos de segurança. \n**13.4.1.6** Quando inexistente ou extraviado, o prontuário da caldeira deve ser reconstituído pelo empregador, com responsabilidade técnica do fabricante ou de PLH, sendo imprescindível a reconstituição das características funcionais, dos dados dos dispositivos de segurança e da memória de cálculo da PMTA.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 16201
+    "char_offset": 16253
   },
   {
     "id": "chunk-46",
     "text": "**13.4.1.7** Quando a caldeira for vendida ou transferida de estabelecimento, os documentos mencionados nas alíneas “a”, “d”, e “e” do subitem 13.4.1.5 devem acompanhá-la. \n**13.4.1.8** O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 16754
+    "char_offset": 16806
   },
   {
     "id": "chunk-47",
     "text": "Este texto não substitui o publicado no DOU \n- a) todas as ocorrências importantes capazes de influir nas condições de segurança da caldeira, inclusive alterações nos prazos de inspeção; e \n- b) as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional da caldeira, o nome legível e assinatura de PLH e do operador de caldeira presente na ocasião da inspeção.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 17077
+    "char_offset": 17129
   },
   {
     "id": "chunk-48",
     "text": "**13.4.1.9** Caso a caldeira venha a ser considerada inadequada para uso, o registro de segurança deve conter tal informação e receber encerramento formal. \n**13.4.2** Instalação de caldeiras \n**13.4.2.1** A autoria do projeto de instalação de caldeiras é de responsabilidade de PLH, e deve obedecer aos aspectos de segurança, saúde e meio ambiente previstos nas normas regulamentadoras, convenções e disposições legais aplicáveis.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 17500
+    "char_offset": 17552
   },
   {
     "id": "chunk-49",
     "text": "**13.4.2.2** As caldeiras de qualquer estabelecimento devem ser instaladas em local específico para tal fim, denominado casa de caldeiras ou área de caldeiras. \n**13.4.2.3** Quando a caldeira for instalada em ambiente aberto, a área de caldeiras deve satisfazer os seguintes requisitos:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 17935
+    "char_offset": 17987
   },
   {
     "id": "chunk-50",
     "text": "- a) estar afastada, no mínimo, três metros de outras instalações do estabelecimento, dos depósitos de combustíveis, excetuando-se reservatórios para partida com até dois mil litros de capacidade, do limite de propriedade de terceiros e do limite com as vias públicas;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 18224
+    "char_offset": 18276
   },
   {
     "id": "chunk-51",
     "text": "- b) dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas; \n- c) dispor de acesso fácil e seguro, necessário à operação e à manutenção da caldeira, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 18496
+    "char_offset": 18548
   },
   {
     "id": "chunk-52",
     "text": "- d) ter sistema de captação e lançamento dos gases e material particulado, provenientes da combustão, para fora da área de operação, atendendo às normas ambientais vigentes; \n- e) dispor de iluminação conforme normas oficiais vigentes; e \n- f) ter sistema de iluminação de emergência caso opere à noite.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 18812
+    "char_offset": 18864
   },
   {
     "id": "chunk-53",
     "text": "**13.4.2.4** Quando a caldeira estiver instalada em ambiente fechado, a casa de caldeiras deve satisfazer os seguintes requisitos: \n- a) constituir prédio separado, construído de material resistente ao fogo, podendo ter apenas uma parede adjacente a outras instalações do estabelecimento, porém com as outras paredes afastadas de, no mínimo, três metros de outras instalações, do limite de propriedade de terceiros, do limite com as vias públicas e de depósitos de combustíveis, excetuando-se reservatórios para partida com até dois mil litros de capacidade;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 19120
+    "char_offset": 19172
   },
   {
     "id": "chunk-54",
     "text": "- b) dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas; \nEste texto não substitui o publicado no DOU \n- c) dispor de ventilação permanente com entradas de ar que não possam ser bloqueadas;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 19683
+    "char_offset": 19735
   },
   {
     "id": "chunk-55",
     "text": "- d) dispor de sensor para detecção de vazamento de gás, quando se tratar de caldeira a combustível gasoso; \n- e) não ser utilizada para qualquer outra finalidade; \n- f) dispor de acesso fácil e seguro, necessário à operação e à manutenção da caldeira, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 19944
+    "char_offset": 19996
   },
   {
     "id": "chunk-56",
     "text": "- g) ter sistema de captação e lançamento dos gases e material particulado, provenientes da combustão, para fora da área de operação, atendendo às normas ambientais vigentes; e \n- h) dispor de iluminação conforme normas oficiais vigentes e ter sistema de iluminação de emergência.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 20299
+    "char_offset": 20351
   },
   {
     "id": "chunk-57",
     "text": "**13.4.2.5** Quando o estabelecimento não puder atender ao disposto nos subitens 13.4.2.3 e 13.4.2.4, deve ser elaborado projeto alternativo de instalação, com medidas complementares de segurança que permitam a atenuação dos riscos, comunicando previamente à representação sindical da categoria profissional predominante do estabelecimento.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 20582
+    "char_offset": 20634
   },
   {
     "id": "chunk-58",
     "text": "**13.4.2.6** As caldeiras classificadas na categoria A devem possuir painel de instrumentos instalados em sala de controle, construída segundo o que estabelecem as normas regulamentadoras aplicáveis. \n**13.4.3** Segurança na operação de caldeiras \n**13.4.3.1** Toda caldeira deve possuir manual de operação atualizado, em língua portuguesa, em local de fácil acesso aos operadores, contendo no mínimo:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 20927
+    "char_offset": 20979
   },
   {
     "id": "chunk-59",
     "text": "a) procedimentos de partidas e paradas; \n- b) procedimentos e parâmetros operacionais de rotina; \n- c) procedimentos para situações de emergência; e \nd) procedimentos gerais de segurança, de saúde e de preservação do meio ambiente. \n**13.4.3.2** A qualidade da água deve ser controlada e tratamentos devem ser implementados, quando necessários, para compatibilizar suas propriedades físicoquímicas com os parâmetros de operação da caldeira definidos pelo fabricante.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 21335
+    "char_offset": 21387
   },
   {
     "id": "chunk-60",
     "text": "**13.4.3.3** Toda caldeira deve estar, obrigatoriamente, sob operação e controle de operador de caldeira. \n**13.4.3.4** É considerado operador de caldeira aquele que cumprir o disposto no item 1.1 do Anexo I desta NR. \n**13.4.4** Inspeção de segurança de caldeiras",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 21806
+    "char_offset": 21858
   },
   {
     "id": "chunk-61",
     "text": "Este texto não substitui o publicado no DOU \n**13.4.4.1** As caldeiras devem ser submetidas a inspeções de segurança inicial, periódica e extraordinária. \n**13.4.4.2** A inspeção de segurança inicial deve ser feita em caldeiras novas, antes da entrada em funcionamento, no local definitivo de instalação, devendo compreender exame interno, externo e teste de pressão.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 22075
+    "char_offset": 22127
   },
   {
     "id": "chunk-62",
     "text": "**13.4.4.3** As caldeiras devem, obrigatoriamente, ser submetidas a Teste Hidrostático - TH em sua fase de fabricação, com comprovação por meio de laudo assinado por PLH. \n**13.4.4.3.1** Na falta de comprovação documental de que o TH tenha sido realizado na fase de fabricação, se aplicará o disposto a seguir:",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 22446
+    "char_offset": 22498
   },
   {
     "id": "chunk-63",
     "text": "- a) para as caldeiras fabricadas ou importadas a partir de 2 de maio de 2014, o TH correspondente ao da fase de fabricação deve ser feito durante a inspeção de segurança inicial; ou \n- b) para as caldeiras em operação antes de 2 de maio de 2014, a execução do TH correspondente ao da fase de fabricação fica a critério técnico do PLH e, caso este julgue necessário, deve ser executado até a próxima inspeção de segurança periódica interna.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 22760
+    "char_offset": 22812
   },
   {
     "id": "chunk-64",
     "text": "**13.4.4.4** A inspeção de segurança periódica, constituída por exames interno e externo, deve ser executada nos seguintes prazos máximos: \na) doze meses para caldeiras das categorias A e B; \nb) dezoito meses para caldeiras de recuperação de álcalis de qualquer categoria;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 23205
+    "char_offset": 23257
   },
   {
     "id": "chunk-65",
     "text": "c) vinte e quatro meses para caldeiras da categoria A, desde que aos doze meses sejam testadas as pressões de abertura das válvulas de segurança; ou \nd) trinta meses para caldeiras de categoria B com sistema de gerenciamento de combustão - SGC que atendam ao disposto no Anexo IV desta NR.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 23481
+    "char_offset": 23533
   },
   {
     "id": "chunk-66",
     "text": "**13.4.4.5** Estabelecimentos que possuam SPIE, conforme estabelecido no Anexo II, podem estender os períodos entre inspeções de segurança, respeitando os seguintes prazos máximos: \na) vinte e quatro meses para as caldeiras de recuperação de álcalis;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 23774
+    "char_offset": 23826
   },
   {
     "id": "chunk-67",
     "text": "- b) vinte e quatro meses para as caldeiras da categoria B; \n- c) trinta meses para caldeiras da categoria A; ou \n- d) quarenta e oito meses para caldeiras de categoria A com Sistema Instrumentado de Segurança - SIS, que atendam ao disposto no Anexo IV desta NR.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 24029
+    "char_offset": 24081
   },
   {
     "id": "chunk-68",
     "text": "**13.4.4.6** No máximo, ao completar vinte e cinco anos de uso, na sua inspeção subsequente, as caldeiras devem ser submetidas a uma avaliação de integridade com maior abrangência, de acordo com códigos ou normas aplicáveis, para determinar a sua vida remanescente e novos prazos máximos para inspeção, caso ainda estejam em condições de uso.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 24294
+    "char_offset": 24346
   },
   {
     "id": "chunk-69",
     "text": "**13.4.4.7** As válvulas de segurança de caldeiras devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém, não superior ao previsto Este texto não substitui o publicado no DOU \npara a inspeção de segurança periódica das caldeiras por elas protegidas, de acordo com os subitens 13.4.4.4 e 13.4.4.5.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 24640
+    "char_offset": 24692
   },
   {
     "id": "chunk-70",
     "text": "**13.4.4.7.1** Em situações excepcionais, devidamente justificadas por PLH, as válvulas de segurança que não atendam ao disposto no subitem 13.4.4.7 podem ser testadas no campo, com uma frequência compatível com o histórico operacional destes dispositivos.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 24976
+    "char_offset": 25028
   },
   {
     "id": "chunk-71",
     "text": "**13.4.4.8** Além do disposto no subitem 13.4.4.7, as válvulas de segurança instaladas em caldeiras de categoria B devem ser testadas periodicamente conforme segue: \n- a) pelo menos uma vez por mês, mediante acionamento manual da alavanca durante a operação de caldeiras sem tratamento de água, exceto para aquelas que vaporizem fluido térmico; ou",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 25236
+    "char_offset": 25288
   },
   {
     "id": "chunk-72",
     "text": "- b) as caldeiras que operem com água tratada devem ter a alavanca acionada manualmente, de acordo com as prescrições do fabricante. \n**13.4.4.9** Adicionalmente aos testes prescritos nos subitens 13.4.4.7 e 13.4.4.8, as válvulas de segurança instaladas em caldeiras podem ser submetidas a testes de acumulação, a critério técnico do PLH.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 25587
+    "char_offset": 25639
   },
   {
     "id": "chunk-73",
     "text": "**13.4.4.10** A inspeção de segurança extraordinária deve ser feita nas seguintes oportunidades: \n- a) sempre que a caldeira for danificada por acidente ou outra ocorrência capaz de comprometer sua segurança; \n- b) quando a caldeira for submetida a alteração ou reparo importante capaz de alterar suas condições de segurança;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 25930
+    "char_offset": 25982
   },
   {
     "id": "chunk-74",
     "text": "- c) antes de a caldeira ser recolocada em funcionamento, quando permanecer inativa por mais de seis meses; ou \n- d) quando houver mudança de local de instalação da caldeira. \n**13.4.4.11** O empregador deve informar à representação sindical da categoria profissional predominante do estabelecimento, quando demandado formalmente, num prazo máximo de 30 (trinta) dias após o término da inspeção de segurança periódica, a condição operacional da caldeira.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 26260
+    "char_offset": 26312
   },
   {
     "id": "chunk-75",
     "text": "**13.4.4.11.1** Mediante o recebimento de requisição formal, o empregador deve encaminhar à representação sindical da categoria profissional predominante do estabelecimento, no prazo máximo de 10 (dez) dias após a sua elaboração, a cópia do relatório de inspeção.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 26717
+    "char_offset": 26769
   },
   {
     "id": "chunk-76",
     "text": "**13.4.4.11.2** A representação sindical da categoria profissional predominante do estabelecimento pode solicitar ao empregador que seja enviada, de maneira regular, cópia do relatório de inspeção de segurança da caldeira, no prazo de trinta dias após a sua elaboração, ficando o empregador desobrigado de atender ao contido nos subitens 13.4.4.11 e 13.4.4.11.1.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 26983
+    "char_offset": 27035
   },
   {
     "id": "chunk-77",
     "text": "**13.4.4.12** O relatório de inspeção de segurança, mencionado na alínea “e” do subitem 13.4.1.5, deve conter no mínimo: \nEste texto não substitui o publicado no DOU \n- a) dados constantes na placa de identificação da caldeira; \n- b) categoria da caldeira;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 27351
+    "char_offset": 27403
   },
   {
     "id": "chunk-78",
     "text": "- c) tipo da caldeira; \n- d) tipo de inspeção executada; \n- e) data de início e término da inspeção; \n- f) descrição das inspeções, exames e testes executados; \n- g) registros fotográficos do exame interno da caldeira; \n- h) resultado das inspeções e intervenções executadas;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 27615
+    "char_offset": 27667
   },
   {
     "id": "chunk-79",
     "text": "- i) relação dos itens desta NR, relativos a caldeiras, que não estão sendo atendidos; \n- j) recomendações e providências necessárias; \n- k) parecer conclusivo quanto à integridade da caldeira até a próxima inspeção; \n- l) data prevista para a próxima inspeção de segurança da caldeira;",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 27896
+    "char_offset": 27948
   },
   {
     "id": "chunk-80",
     "text": "- m)nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção; e \n- n) número do certificado de inspeção e teste da válvula de segurança. \n**13.4.4.13** Sempre que os resultados da inspeção determinarem alterações dos dados de projeto, a placa de identificação e a documentação do prontuário devem ser atualizadas.",
     "heading": "**13.4 Caldeiras**",
-    "char_offset": 28187
+    "char_offset": 28239
   },
   {
     "id": "chunk-81",
     "text": "**13.5.1** Disposições Gerais \n**13.5.1.1** Para os efeitos desta NR, os vasos de pressão devem ser categorizados, com base na classe do fluido e no grupo de potencial de risco, mediante a aplicação da Tabela 1. \n**13.5.1.1.1** Os fluidos contidos nos vasos de pressão devem ser classificados conforme descrito a seguir:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 28596
+    "char_offset": 28648
   },
   {
     "id": "chunk-82",
     "text": "a) classe A: \nI - fluidos inflamáveis; \nII - fluidos combustíveis com temperatura superior ou igual a duzentos graus Celsius (200 ºC); \nIII - fluidos tóxicos com limite de tolerância igual ou inferior a vinte partes por milhão (20 ppm); \nIV - hidrogênio; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 28923
+    "char_offset": 28975
   },
   {
     "id": "chunk-83",
     "text": "V - acetileno. \nb) classe B: \nI - fluidos combustíveis com temperatura inferior a duzentos graus Celsius (200 ºC); e \nII - fluidos tóxicos com limite de tolerância superior a vinte partes por milhão (20 ppm). \nEste texto não substitui o publicado no DOU",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 29186
+    "char_offset": 29238
   },
   {
     "id": "chunk-84",
     "text": "c) classe C: \nI - vapor de água; \nII - gases asfixiantes simples; e \nIII - ar comprimido. \nd) classe D: \nI - outros fluidos não enquadrados nas classes anteriores. \n**13.5.1.1.2** Quando se tratar de mistura, deve ser considerado, para fins de classificação, o fluido que apresentar maior risco aos trabalhadores e às instalações, considerando-se sua toxicidade, inflamabilidade e concentração.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 29448
+    "char_offset": 29500
   },
   {
     "id": "chunk-85",
     "text": "**13.5.1.1.3** O grupo de potencial de risco do vaso de pressão deve ser estabelecido a partir do produto P.V, onde P é a pressão máxima de operação em MPa, em módulo, e V o seu volume em m³ (metro cúbico), conforme segue: \na) Grupo 1 - P.V > 100; _(retificado em 20/10/2022)_",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 29846
+    "char_offset": 29898
   },
   {
     "id": "chunk-86",
     "text": "b) Grupo 2 - P.V < 100 e P.V > 30; _(retificado em 20/10/2022)_ \nc) Grupo 3 - P.V < 30 e P.V > 2,5; _(retificado em 20/10/2022)_ \nd) Grupo 4 - P.V < 2,5 e P.V > 1; ou _(retificado em 20/10/2022)_ \ne) Grupo 5 - P.V < 1. \n**Tabela 1 - Categorização de vasos de pressão**",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 30129
+    "char_offset": 30181
   },
   {
     "id": "chunk-87",
     "text": "**13.5.1.2** Os vasos de pressão devem ser dotados dos seguintes itens: \na) válvula de segurança ou outro dispositivo de segurança com pressão de abertura ajustada em valor igual ou inferior à PMTA, instalado diretamente no vaso ou no sistema que o inclui, considerados os requisitos do código de construção relativos a aberturas escalonadas e tolerâncias de pressão de ajuste; _(retificado em 20/10/2022)_",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 30401
+    "char_offset": 30453
   },
   {
     "id": "chunk-88",
     "text": "b) vasos de pressão submetidos a vácuo devem ser dotados de dispositivos de segurança ou outros meios previstos no projeto; \nc) medidas para evitar o bloqueio inadvertido de dispositivos de segurança, incluindo controles administrativos ou, quando inexistentes, utilização de Dispositivo Contra Bloqueio Inadvertido - DCBI associado à sinalização de advertência; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 30811
+    "char_offset": 30863
   },
   {
     "id": "chunk-89",
-    "text": "d) instrumento que indique a pressão de operação, instalado diretamente no vaso ou no sistema que o contenha. \nEste texto não substitui o publicado no DOU \n| Classe do Fluido | Grupo de Potencial de Risco |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |",
+    "text": "d) instrumento que indique a pressão de operação, instalado diretamente no vaso ou no sistema que o contenha. \nEste texto não substitui o publicado no DOU \n| Classe do Fluido | Grupo de Potencial de Risco | | | | |\n| --- | --- | --- | --- | --- | --- |",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 31180
+    "char_offset": 31232
   },
   {
     "id": "chunk-90",
-    "text": "|  | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |\n**13.5.1.2.1** Os sistemas intrinsicamente protegidos, concebidos e mantidos em conformidade com o respectivo código de construção, podem prescindir do disposto no subitem 13.5.1.2, alínea “a” ou “b”, mediante parecer técnico emitido por PLH.",
+    "text": "| | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |\n**13.5.1.2.1** Os sistemas intrinsicamente protegidos, concebidos e mantidos em conformidade com o respectivo código de construção, podem prescindir do disposto no subitem 13.5.1.2, alínea “a” ou “b”, mediante parecer técnico emitido por PLH.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 31438
+    "char_offset": 31486
   },
   {
     "id": "chunk-91",
     "text": "**13.5.1.3** Todo vaso de pressão deve ter afixado em seu corpo, em local de fácil acesso e visível, placa de identificação indelével com, no mínimo, as seguintes informações: \na) fabricante; \nb) número de identificação; \nc) ano de fabricação; \nd) pressão máxima de trabalho admissível; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 31834
+    "char_offset": 31881
   },
   {
     "id": "chunk-92",
     "text": "e) código de construção e ano de edição. \n**13.5.1.4** Além da placa de identificação, devem constar, em local visível, a categoria do vaso e seu número ou código de identificação. \n**13.5.1.5** Todo vaso de pressão deve possuir, no estabelecimento onde estiver instalado, a seguinte documentação devidamente atualizada:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 32127
+    "char_offset": 32174
   },
   {
     "id": "chunk-93",
     "text": "a) prontuário do vaso de pressão, fornecido pelo fabricante, contendo as seguintes informações: \n- I - código de construção e ano de edição; \nII - especificação dos materiais; \nIII - procedimentos utilizados na fabricação, montagem e inspeção final;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 32453
+    "char_offset": 32500
   },
   {
     "id": "chunk-94",
     "text": "IV - metodologia para estabelecimento da PMTA; \nV - conjunto de desenhos e demais dados necessários ao monitoramento da sua vida útil; \nVI - pressão máxima de operação; \nVII - registros da execução do teste hidrostático de fabricação; \nVIII - características funcionais;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 32709
+    "char_offset": 32756
   },
   {
     "id": "chunk-95",
     "text": "IX - dados dos dispositivos de segurança; \nX - ano de fabricação; e \nXI - categoria do vaso; _(retificado em 20/10/2022)_ \n- b) registro de segurança; \nc) projeto de alteração ou reparo; \n- d) relatórios de inspeção de segurança; e \n- e) certificados de inspeção e teste dos dispositivos de segurança.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 32988
+    "char_offset": 33035
   },
   {
     "id": "chunk-96",
     "text": "**13.5.1.6** Quando inexistente ou extraviado, o prontuário do vaso de pressão deve ser reconstituído pelo empregador, com responsabilidade técnica do fabricante ou de PLH, sendo imprescindível a reconstituição das premissas de projeto, dos dados dos dispositivos de segurança e da memória de cálculo da PMTA.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 33292
+    "char_offset": 33339
   },
   {
     "id": "chunk-97",
     "text": "Este texto não substitui o publicado no DOU \n**13.5.1.6.1** Vasos de pressão construídos sem códigos de construção, instalados antes da publicação da Portaria MTb nº 1.082, de 18 de dezembro de 2018, D.O.U de 20/12/2018, para os quais não seja possível a reconstituição da memória de cálculo por códigos reconhecidos, devem ter PMTA atribuída por PLH, a partir dos dados operacionais e serem submetidos a inspeções periódicas, conforme os prazos abaixo:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 33605
+    "char_offset": 33652
   },
   {
     "id": "chunk-98",
     "text": "a) um ano, para inspeção de segurança periódica externa; e \nb) três anos, para inspeção de segurança periódica interna. \n**13.5.1.6.2** A empresa deve elaborar um plano de ação para realização de inspeção extraordinária especial de todos os vasos relacionados no subitem 13.5.1.6.1.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 34063
+    "char_offset": 34110
   },
   {
     "id": "chunk-99",
     "text": "**13.5.1.6.3** O prazo para implementação do projeto de alteração ou de reparo não deve ser superior à vida remanescente calculada quando da execução da inspeção extraordinária especial. _(entra em vigor em 20 de dezembro de 2028 - Art. 5º da Portaria MTP nº 1.846/22)_",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 34348
+    "char_offset": 34395
   },
   {
     "id": "chunk-100",
     "text": "**13.5.1.7** O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas: \n- a) todas as ocorrências importantes capazes de influir nas condições de segurança dos vasos de pressão, inclusive alterações nos prazos de inspeção; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 34621
+    "char_offset": 34668
   },
   {
     "id": "chunk-101",
     "text": "- b) as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do vaso, o nome legível e assinatura do PLH. \n**13.5.1.7.1** O empregador deve fornecer cópias impressas ou em mídia eletrônica das páginas dos registros de segurança selecionadas pela representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitadas.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 34924
+    "char_offset": 34971
   },
   {
     "id": "chunk-102",
     "text": "**13.5.2** Instalação de vasos de pressão. \n**13.5.2.1** Todo vaso de pressão deve ser instalado de modo que todos os drenos, respiros, bocas de visita e indicadores de nível, pressão e temperatura, quando existentes, sejam acessados por meio seguros.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 35348
+    "char_offset": 35395
   },
   {
     "id": "chunk-103",
     "text": "**13.5.2.2** Quando os vasos de pressão forem instalados em ambientes fechados, a instalação deve satisfazer os seguintes requisitos: \n- a) pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 35603
+    "char_offset": 35650
   },
   {
     "id": "chunk-104",
     "text": "- b) acesso fácil e seguro para as atividades de manutenção, operação e inspeção, sendo que, para guarda-corpos vazados, os vãos devem ter dimensões que impeçam a queda de pessoas; \n- c) ventilação permanente com entradas de ar que não possam ser bloqueadas;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 35855
+    "char_offset": 35902
   },
   {
     "id": "chunk-105",
     "text": "- d) iluminação nos termos da legislação vigente; e \n- e) sistema de iluminação de emergência, exceto para vasos de pressão móveis que não exijam a presença de um operador para seu funcionamento. \nEste texto não substitui o publicado no DOU \n**13.5.2.3** Quando o vaso de pressão for instalado em ambiente aberto, a instalação deve satisfazer os requisitos contidos nas alíneas “a”, “b”, “d” e “e” do subitem 13.5.2.2.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 36119
+    "char_offset": 36166
   },
   {
     "id": "chunk-106",
     "text": "**13.5.2.4** A instalação de vasos de pressão deve obedecer aos aspectos de segurança, saúde e meio ambiente previstos nas normas regulamentadoras, convenções e disposições legais aplicáveis. \n**13.5.2.5** Quando o estabelecimento não puder atender ao disposto no subitem 13.5.2.2 ou 13.5.2.3, o empregador deve adotar medidas complementares de segurança, constantes em relatório elaborado por responsável técnico, que permitam a atenuação dos riscos.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 36541
+    "char_offset": 36588
   },
   {
     "id": "chunk-107",
     "text": "**13.5.3** Segurança na operação de vasos de pressão \n**13.5.3.1** Todo vaso de pressão enquadrado nas categorias I ou II deve possuir manual de operação próprio, manual de operação da unidade ou instruções de operação, em língua portuguesa, em local de fácil acesso aos operadores, contendo no mínimo:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 36996
+    "char_offset": 37043
   },
   {
     "id": "chunk-108",
     "text": "- a) procedimentos de partidas e paradas; \n- b) procedimentos e parâmetros operacionais de rotina; \n- c) procedimentos para situações de emergência; e \nd) procedimentos gerais de segurança, saúde e de preservação do meio ambiente. \n**13.5.3.2** A operação de unidade(s) de processo que possuam vasos de pressão de categorias I ou II deve ser efetuada por profissional capacitado, conforme item 2.1 do Anexo I desta NR.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 37305
+    "char_offset": 37352
   },
   {
     "id": "chunk-109",
     "text": "**13.5.4** Inspeção de segurança de vasos de pressão. \n**13.5.4.1** Os vasos de pressão devem ser submetidos a inspeções de segurança inicial, periódica e extraordinária. \n**13.5.4.2** A inspeção de segurança inicial deve ser feita em vasos de pressão novos, antes de sua entrada em funcionamento, no local definitivo de instalação, devendo compreender exames externo e interno.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 37728
+    "char_offset": 37775
   },
   {
     "id": "chunk-110",
     "text": "**13.5.4.3** Os vasos de pressão devem, obrigatoriamente, ser submetidos a TH em sua fase de fabricação, com comprovação por meio de laudo assinado por responsável técnico designado pelo fabricante ou importador. \n**13.5.4.3.1** Na falta de comprovação documental de que o TH tenha sido realizado na fase de fabricação, se aplicará o disposto a seguir:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 38110
+    "char_offset": 38157
   },
   {
     "id": "chunk-111",
     "text": "- a) para os vasos de pressão fabricados ou importados a partir de 2 de maio de 2014, o TH deve ser feito durante a inspeção inicial; ou \n- b) para os vasos de pressão em operação antes de 02 de maio de 2014, a execução do TH correspondente ao da fase de fabricação fica a critério técnico do PLH e, caso este julgue necessário, deve ser executado até a próxima inspeção de segurança periódica interna.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 38466
+    "char_offset": 38513
   },
   {
     "id": "chunk-112",
     "text": "Este texto não substitui o publicado no DOU \n**13.5.4.4** Os vasos de pressão categorias IV ou V de produção seriada, certificados por Organismo de Certificação de Produto - OCP, acreditado pelo INMETRO, ficam dispensados da inspeção inicial, desde que instalados de acordo com as recomendações do fabricante.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 38872
+    "char_offset": 38919
   },
   {
     "id": "chunk-113",
     "text": "**13.5.4.4.1** Deve ser anotada no registro de segurança a data da instalação do vaso de pressão, a partir da qual se inicia a contagem do prazo para a inspeção de segurança periódica. \n**13.5.4.5** A inspeção de segurança periódica, constituída por exames externo e interno, deve obedecer aos prazos máximos indicados na Tabela 2, com base na categoria do vaso:",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 39185
+    "char_offset": 39232
   },
   {
     "id": "chunk-114",
     "text": "**Tabela 2 - Prazos máximos para as inspeções de segurança periódicas** \n_(retificada em 20/10/2022)_ \n**13.5.4.5.1** Os estabelecimentos que possuam SPIE certificado poderão ampliar os prazos disciplinados na Tabela 2, nos casos de implementação de metodologia documentada de inspeção baseada em risco, observado o limite máximo de 10 (dez) anos para o exame interno de vasos categoria I.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 39552
+    "char_offset": 39599
   },
   {
     "id": "chunk-115",
     "text": "**13.5.4.5.2** A metodologia a que alude o item anterior deve ser integrada ao Programa de Gerenciamento de Riscos - PGR, nos termos da NR-01, com a definição dos critérios, das normas de referência e dos responsáveis pela sua implementação e aprovação.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 39944
+    "char_offset": 39991
   },
   {
     "id": "chunk-116",
     "text": "**13.5.4.5.3** A inspeção periódica interna dos vasos de pressão poderá ser postergada, pela metade do prazo fixado na Tabela 2, mediante o atendimento dos seguintes requisitos: \n- a) empresas que possuam SPIE, conforme Anexo II desta NR; _(retificado em 20/10/2022)_",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 40201
+    "char_offset": 40248
   },
   {
     "id": "chunk-117",
     "text": "- b) avaliação de risco aprovada por PLH, assegurada a participação dos responsáveis pela operação do equipamento; _(retificado em 20/10/2022)_ \n- c) definição dos parâmetros operacionais e dos instrumentos de controle essenciais ao monitoramento do equipamento;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 40472
+    "char_offset": 40519
   },
   {
     "id": "chunk-118",
     "text": "- d) implementação de metodologia documentada de Inspeção Não Intrusiva - INI, observado o disposto na ABNT NBR 16455 ou alteração posterior; \n- e) emissão de relatório de inspeção, com a definição da data improrrogável da próxima inspeção periódica interna; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 40738
+    "char_offset": 40785
   },
   {
     "id": "chunk-119",
-    "text": "- f) anuência do empregador ou de preposto por ele designado. \nEste texto não substitui o publicado no DOU \n| Categoria | Estabelecimento sem SPIE |  | Estabelecimento com SPIE |  |\n| --- | --- | --- | --- | --- |\n|  | Exame Externo | Exame Interno | Exame Externo | Exame Interno |",
+    "text": "- f) anuência do empregador ou de preposto por ele designado. \nEste texto não substitui o publicado no DOU \n| Categoria | Estabelecimento sem SPIE | | Estabelecimento com SPIE | |\n| --- | --- | --- | --- | --- |\n| | Exame Externo | Exame Interno | Exame Externo | Exame Interno |",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 41003
+    "char_offset": 41050
   },
   {
     "id": "chunk-120",
     "text": "| I | 1 ano | 3 anos | 3 anos | 6 anos |\n| II | 2 anos | 4 anos | 4 anos | 8 anos |\n| III | 3 anos | 6 anos | 5 anos | 10 anos |\n| IV | 4 anos | 8 anos | 6 anos | 12 anos |\n| V | 5 anos | 10 anos | 7 anos | a critério |\n**13.5.4.5.4** O empregador deve comunicar à representação sindical da categoria profissional predominante do estabelecimento, quando formalmente solicitado, a implementação dos novos prazos de inspeção de segurança em face da aplicação das metodologias definidas nos subitens 13.5.4.5.1 e 13.5.4.5.3.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 41287
+    "char_offset": 41331
   },
   {
     "id": "chunk-121",
     "text": "**13.5.4.6** Vasos de pressão que não permitam acesso visual para o exame interno ou externo por impossibilidade física devem ser submetidos a exames não destrutivos ou a outras metodologias de avaliação de integridade definidas por PLH, considerados os mecanismos de danos previsíveis.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 41811
+    "char_offset": 41855
   },
   {
     "id": "chunk-122",
     "text": "**13.5.4.7** Vasos de pressão com enchimento interno ou com catalisador podem ter a periodicidade de exame interno ampliada, de forma a coincidir com a época da substituição de enchimentos ou de catalisador, desde que esta ampliação seja precedida de estudos conduzidos por PLH ou por grupo multidisciplinar por ele coordenado, baseados em códigos ou normas aplicáveis, onde sejam implementadas tecnologias alternativas para a avaliação da sua integridade estrutural.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 42100
+    "char_offset": 42144
   },
   {
     "id": "chunk-123",
     "text": "**13.5.4.8** Vasos de pressão com temperatura de operação inferior a zero grau Celsius (0 °C) e que operem em condições nas quais a experiência mostre que não ocorre deterioração devem ser submetidos a exame externo a cada 2 (dois) anos e a exame interno, quando exigido pelo código de construção ou a critério do PLH.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 42570
+    "char_offset": 42614
   },
   {
     "id": "chunk-124",
     "text": "**13.5.4.9** As válvulas de segurança dos vasos de pressão devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém não superior ao previsto para a inspeção de segurança periódica interna dos vasos de pressão por elas protegidos, de acordo com o subitem 13.5.4.5.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 42891
+    "char_offset": 42935
   },
   {
     "id": "chunk-125",
     "text": "**13.5.4.10** A inspeção de segurança extraordinária deve ser feita nas seguintes oportunidades: \n- a) sempre que o vaso de pressão for danificado por acidente ou outra ocorrência que comprometa sua segurança; \n- b) quando o vaso de pressão for submetido a reparo ou alterações importantes, capazes de alterar sua condição de segurança;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 43193
+    "char_offset": 43237
   },
   {
     "id": "chunk-126",
     "text": "- c) antes de o vaso de pressão ser recolocado em funcionamento, quando permanecer inativo por mais de 12 (doze) meses; ou \n- d) quando houver alteração do local de instalação do vaso de pressão, exceto para vasos móveis. \n**13.5.4.11** O relatório de inspeção de segurança, mencionado na alínea \"d\" do subitem 13.5.1.5, deve conter no mínimo: _(Retificado em 20/10/2022)_",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 43534
+    "char_offset": 43578
   },
   {
     "id": "chunk-127",
     "text": "- a) identificação do vaso de pressão; \n- b) categoria do vaso de pressão; \n- c) fluidos de serviço; \n- d) tipo do vaso de pressão; \n- e) tipo de inspeção executada; \n- f) data de início e término da inspeção; \nEste texto não substitui o publicado no DOU",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 43915
+    "char_offset": 43959
   },
   {
     "id": "chunk-128",
     "text": "- g) descrição das inspeções, exames e testes executados; \n- h) registro fotográfico das anomalias detectadas no exame interno e externo do vaso de pressão; \n- i) resultado das inspeções e intervenções executadas; \n- j) recomendações e providências necessárias;",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 44175
+    "char_offset": 44219
   },
   {
     "id": "chunk-129",
     "text": "- k) parecer conclusivo quanto à integridade do vaso de pressão até a próxima inspeção; \n- l) data prevista para a próxima inspeção de segurança; \n- m) nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção; e",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 44441
+    "char_offset": 44485
   },
   {
     "id": "chunk-130",
     "text": "- n) número do certificado de inspeção e teste da(s) válvula(s) de segurança. \n**13.5.4.12** Sempre que os resultados da inspeção determinarem alterações das condições de projeto, a placa de identificação e a documentação do prontuário devem ser atualizadas.",
     "heading": "**13.5 Vasos de pressão**",
-    "char_offset": 44746
+    "char_offset": 44790
   },
   {
     "id": "chunk-131",
     "text": "**13.6.1** Disposições Gerais \n**13.6.1.1** As empresas que possuam tubulações enquadradas nesta NR devem elaborar um programa e um plano de inspeção que considere, no mínimo, as variáveis, condições e premissas descritas abaixo: \n- a) os fluidos transportados;",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 45010
+    "char_offset": 45054
   },
   {
     "id": "chunk-132",
     "text": "- b) a pressão de trabalho; \n- c) a temperatura de trabalho; \n- d) os mecanismos de danos previsíveis; e \n- e) as consequências para os trabalhadores, instalações e meio ambiente trazidas por possíveis falhas das tubulações. \n**13.6.1.2** As tubulações devem possuir dispositivos de segurança em conformidade com o respectivo código de construção, observado, quanto à frequência de inspeção e teste, o prazo máximo previsto no item 13.6.2.2 desta NR.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 45278
+    "char_offset": 45322
   },
   {
     "id": "chunk-133",
     "text": "**13.6.1.3** As tubulações devem possuir indicador de pressão, conforme previsto em projeto ou diagramas de engenharia, processos e instrumentação. \n**13.6.1.4** Todo estabelecimento que possua tubulações deve ter a seguinte documentação devidamente atualizada:",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 45732
+    "char_offset": 45776
   },
   {
     "id": "chunk-134",
     "text": "- a) especificações aplicáveis às tubulações ou sistemas, necessárias ao planejamento e à execução da inspeção; \n- b) fluxograma de engenharia com a identificação da linha e dos seus acessórios; \n- c) projeto de alteração ou reparo; \n- d) relatórios de inspeção de segurança; e",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 45999
+    "char_offset": 46043
   },
   {
     "id": "chunk-135",
     "text": "Este texto não substitui o publicado no DOU \ne) certificados de inspeção e teste dos dispositivos de segurança, se aplicável. \n**13.6.1.5** Os documentos referidos no subitem 13.6.1.4, alíneas “a” e “b”, quando inexistentes ou extraviados, devem ser reconstituídos pelo empregador, sob a responsabilidade técnica de PLH.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 46281
+    "char_offset": 46325
   },
   {
     "id": "chunk-136",
     "text": "**13.6.2** Inspeção de segurança de tubulações \n**13.6.2.1** As tubulações devem ser submetidas a inspeções de segurança inicial, periódica e extraordinária. _(para tubulações instaladas a partir de 20 de março de 2018 - vide art. 6º da Portaria MTP nº 1.846/22)_",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 46605
+    "char_offset": 46649
   },
   {
     "id": "chunk-137",
     "text": "**13.6.2.1.1** Devem ser executados testes hidrostáticos de fabricação, antes da operação inicial, em conformidade com o respectivo código de construção. \n**13.6.2.1.2** A critério técnico do PLH, observado o disposto no respectivo código de construção, poderão ser adotadas outras técnicas em substituição ao teste hidrostático.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 46872
+    "char_offset": 46916
   },
   {
     "id": "chunk-138",
     "text": "**13.6.2.2** Os intervalos de inspeção das tubulações devem atender aos prazos máximos da inspeção interna do vaso ou caldeira mais crítica a elas ligados. \n**13.6.2.2.1** Desde que fundamentado tecnicamente, os prazos de inspeção podem ser duplicados, a critério do PLH, observado o limite máximo de 10 (dez) anos.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 47205
+    "char_offset": 47249
   },
   {
     "id": "chunk-139",
     "text": "**13.6.2.3** O programa de inspeção pode ser elaborado por tubulação, por linha ou por sistema. \n**13.6.2.3.1** No caso de constatação de risco à saúde e à integridade física dos trabalhadores envolvidos na execução da inspeção, a tubulação deve ser retirada de operação.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 47524
+    "char_offset": 47568
   },
   {
     "id": "chunk-140",
     "text": "**13.6.2.4** Deve ser executada inspeção extraordinária nas seguintes situações: \n- a) sempre que a tubulação for danificada por acidente ou outra ocorrência que comprometa a segurança dos trabalhadores; \n- b) quando a tubulação for submetida a reparo provisório ou alterações significativas, capazes de alterar sua capacidade de contenção de fluído; ou",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 47800
+    "char_offset": 47844
   },
   {
     "id": "chunk-141",
     "text": "- c) antes de a tubulação ser recolocada em funcionamento, quando permanecer inativa por mais de doze meses ou, para sistemas com comprovação de hibernação, vinte e quatro meses. \n**13.6.2.5** O relatório de inspeção de segurança, mencionado na alínea “d” do subitem 13.6.1.4, deve conter, no mínimo:",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 48157
+    "char_offset": 48201
   },
   {
     "id": "chunk-142",
     "text": "a) identificação da(s) linha(s) ou sistema de tubulação; \nb) fluidos de serviço da tubulação, e respectivas temperatura e pressão de operação; \n- c) tipo de inspeção executada; \n- d) data de início e de término da inspeção; \ne) descrição das inspeções, exames e testes executados;",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 48464
+    "char_offset": 48508
   },
   {
     "id": "chunk-143",
     "text": "Este texto não substitui o publicado no DOU \n- f) registro fotográfico ou registro da localização das anomalias significativas detectadas no exame externo da tubulação; \n- g) resultado das inspeções e intervenções executadas; \n- h) recomendações e providências necessárias;",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 48750
+    "char_offset": 48794
   },
   {
     "id": "chunk-144",
     "text": "- i) parecer conclusivo quanto à integridade da tubulação, do sistema de tubulação ou da linha até a próxima inspeção; \n- j) data prevista para a próxima inspeção de segurança; e \n- k) nome legível, assinatura e número do registro no conselho profissional do PLH e nome legível e assinatura de técnicos que participaram da inspeção.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 49028
+    "char_offset": 49072
   },
   {
     "id": "chunk-145",
     "text": "**13.6.2.6** As tubulações de vapor de água devem ser mantidas em boas condições operacionais, de acordo com um plano de manutenção. \n**13.6.2.7** As tubulações devem ser identificadas conforme padronização formalmente instituída pelo estabelecimento.",
     "heading": "**13.6 Tubulações**",
-    "char_offset": 49364
+    "char_offset": 49408
   },
   {
     "id": "chunk-146",
     "text": "**13.7.1** Disposições gerais \n**13.7.1.1** As empresas que possuam tanques enquadrados nesta NR devem elaborar um programa e um plano de inspeção que considere, no mínimo, as seguintes variáveis, condições e premissas: \n- a) os fluidos armazenados;",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 49621
+    "char_offset": 49665
   },
   {
     "id": "chunk-147",
     "text": "- b) condições operacionais; \n- c) os mecanismos de danos previsíveis; e \n- d) as consequências para os trabalhadores, instalações e meio ambiente decorrentes de possíveis falhas dos tanques. \n**13.7.1.2** Todo estabelecimento que possua tanques enquadrados nesta NR deve ter a seguinte documentação devidamente atualizada:",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 49876
+    "char_offset": 49920
   },
   {
     "id": "chunk-148",
     "text": "- a) folhas de dados com as especificações dos tanques necessárias ao planejamento e execução da sua inspeção; \n- b) projeto de alteração ou reparo; \n- c) relatórios de inspeção de segurança; \n- d) registro de segurança; e \n- e) certificados de inspeção e teste dos dispositivos de segurança, se aplicável.",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 50206
+    "char_offset": 50250
   },
   {
     "id": "chunk-149",
     "text": "**13.7.1.3** O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado, onde serão registradas: \n- a) todas as ocorrências importantes capazes de influir nas condições de segurança dos tanques; e \nEste texto não substitui o publicado no DOU",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 50517
+    "char_offset": 50561
   },
   {
     "id": "chunk-150",
     "text": "- b) as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do tanque, o nome legível e assinatura de responsável técnico formalmente designado pelo empregador. \n**13.7.1.4** Os documentos referidos no subitem 13.7.1.2, alínea “a”, quando inexistentes ou extraviados, devem ser reconstituídos pelo empregador.",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 50812
+    "char_offset": 50856
   },
   {
     "id": "chunk-151",
     "text": "**13.7.2** Segurança na operação de tanques metálicos de armazenamento \n**13.7.2.1** Os tanques devem possuir dispositivos de segurança contra sobrepressão e vácuo, conforme os critérios do código de construção utilizado, ou em atendimento às recomendações de estudo de análises de cenários de falhas.",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 51187
+    "char_offset": 51231
   },
   {
     "id": "chunk-152",
     "text": "**13.7.2.2** Os dispositivos contra sobrepressão, vácuo e as válvulas corta-chamas, quando aplicáveis, devem ser mantidos e inspecionados em conformidade com um plano de manutenção. \n**13.7.2.3** Os tanques devem ser identificados conforme padronização instituída pelo empregador.",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 51492
+    "char_offset": 51536
   },
   {
     "id": "chunk-153",
     "text": "**13.7.3** Inspeção de segurança de tanques metálicos de armazenamento \n**13.7.3.1** Os tanques devem ser submetidos a inspeções de segurança inicial, periódica e extraordinária. _(para tanques instalados a partir de 20 de dezembro de 2022 - vide art. 6º da Portaria MTP nº 1.846/22)_",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 51776
+    "char_offset": 51820
   },
   {
     "id": "chunk-154",
     "text": "**13.7.3.2** Os intervalos de inspeção de segurança periódica dos tanques devem atender aos prazos estabelecidos no programa de inspeção elaborado por responsável técnico, de acordo com códigos ou normas aplicáveis. \n**13.7.3.3** Deve ser executada inspeção extraordinária nas seguintes situações:",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 52064
+    "char_offset": 52108
   },
   {
     "id": "chunk-155",
     "text": "- a) sempre que o tanque for danificado por acidente ou outra ocorrência que comprometa a segurança dos trabalhadores; \n- b) quando o tanque for submetido a reparos ou alterações significativas, capazes de alterar sua capacidade de contenção de fluído;",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 52365
+    "char_offset": 52409
   },
   {
     "id": "chunk-156",
     "text": "- c) antes de o tanque ser recolocado em funcionamento, quando permanecer inativo por mais de vinte e quatro meses; ou \n- d) quando houver alteração do local de instalação. \n**13.7.3.4** O relatório de inspeção de segurança, mencionado na alínea “c” do subitem 13.7.1.2 deve conter no mínimo:",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 52622
+    "char_offset": 52666
   },
   {
     "id": "chunk-157",
     "text": "- a) identificação do tanque; \n- b) fluidos armazenados no tanque, e respectiva temperatura de operação; \n- c) tipo de inspeção executada; \n- d) data de início e de término da inspeção; \n- e) descrição das inspeções, exames e testes executados; \nEste texto não substitui o publicado no DOU",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 52922
+    "char_offset": 52966
   },
   {
     "id": "chunk-158",
     "text": "- f) registro fotográfico ou registro da localização das anomalias significativas detectadas nos exames internos e externos do tanque; \n- g) resultado das inspeções e intervenções executadas; \n- h) recomendações e providências necessárias; \n- i) parecer conclusivo quanto à integridade do tanque até a próxima inspeção;",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 53217
+    "char_offset": 53261
   },
   {
     "id": "chunk-159",
     "text": "- j) data prevista para a próxima inspeção de segurança; \n- k) nome legível, assinatura e número do registro no conselho profissional de responsável técnico e nome legível e assinatura de técnicos que participaram da inspeção; e \n- l) certificados de inspeção e teste dos dispositivos de sobrepressão e vácuo.",
     "heading": "**13.7 Tanques metálicos de armazenamento**",
-    "char_offset": 53541
+    "char_offset": 53585
   },
   {
     "id": "chunk-160",
     "text": "**1.1** Para efeito da NR-13, é considerado operador de caldeira aquele que cumprir uma das seguintes condições: \n- a) possuir certificado de treinamento de segurança na operação de caldeiras expedido por instituição competente e comprovação de prática profissional supervisionada, conforme item 1.5 deste Anexo; ou",
     "heading": "**1** . Caldeiras",
-    "char_offset": 53857
+    "char_offset": 53901
   },
   {
     "id": "chunk-161",
     "text": "- b) possuir certificado de treinamento de segurança na operação de caldeiras previsto na NR-13 aprovada pela Portaria SSMT n° 02, de 08 de maio de 1984 ou na Portaria SSST nº 23, de 27 de dezembro de 1994. \n**1.2** O pré-requisito mínimo para participação como aluno, no treinamento de segurança na operação de caldeiras, é o atestado de conclusão do ensino médio.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 54176
+    "char_offset": 54220
   },
   {
     "id": "chunk-162",
     "text": "**1.3** O treinamento de segurança na operação de caldeiras deve, obrigatoriamente: \n- a) ser supervisionado tecnicamente por PLH; \n- b) ser ministrado por instrutores com proficiência no assunto; \n- c) obedecer, no mínimo, ao currículo proposto no item 1.9 deste Anexo;",
     "heading": "**1** . Caldeiras",
-    "char_offset": 54547
+    "char_offset": 54591
   },
   {
     "id": "chunk-163",
     "text": "- d) ser integrado com a prática profissional supervisionada, conforme item 1.5 deste Anexo; \n- e) ter carga horária mínima de quarenta horas; e \n- f) estabelecer formas de avaliação de aprendizagem. \n**1.3.1** O treinamento de segurança na operação de caldeiras pode ser realizado sob a forma de Ensino a Distância - EaD.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 54823
+    "char_offset": 54867
   },
   {
     "id": "chunk-164",
     "text": "**1.3.2** A adoção do EaD não elide o disposto no item 1.3, alínea “d” deste Anexo. \nEste texto não substitui o publicado no DOU \n**1.4** Os responsáveis pelo treinamento de segurança na operação de caldeiras estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 1.3 deste Anexo.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 55150
+    "char_offset": 55194
   },
   {
     "id": "chunk-165",
     "text": "**1.5** Todo operador de caldeira deve ser submetido à prática profissional supervisionada na operação da própria caldeira que irá operar, a qual deve ser documentada e possuir duração mínima de: \na) caldeiras de categoria A - oitenta horas; ou \nb) caldeiras de categoria B - sessenta horas.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 55525
+    "char_offset": 55569
   },
   {
     "id": "chunk-166",
     "text": "**1.6** O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento: \n- a) período de realização da prática profissional supervisionada;",
     "heading": "**1** . Caldeiras",
-    "char_offset": 55820
+    "char_offset": 55864
   },
   {
     "id": "chunk-167",
     "text": "- b) entidade, empregador ou profissional responsável pelo treinamento de segurança na operação de caldeira; e \nc) relação dos participantes desta prática profissional supervisionada. \n**1.7** Deve ser realizada a atualização dos conhecimentos dos operadores de caldeiras quando:",
     "heading": "**1** . Caldeiras",
-    "char_offset": 56112
+    "char_offset": 56156
   },
   {
     "id": "chunk-168",
     "text": "- a) ocorrer modificação na caldeira; \n- b) ocorrer acidentes e/ou incidentes de alto potencial, que envolvam a operação da caldeira; ou \n- c) houver recorrência de incidentes. \n**1.8** A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 1.9 deste Anexo, inclusive nos casos de aproveitamento de treinamentos entre organizações.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 56397
+    "char_offset": 56441
   },
   {
     "id": "chunk-169",
     "text": "**1.9** Currículo mínimo para treinamento de segurança na operação de Caldeiras: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna em caldeiras. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos Vapor saturado e vapor superaquecido. Mecânica dos Fluidos. Conceitos fundamentais. Pressão em escoamento. Escoamento de gases. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Considerações gerais sobre caldeiras. Tipos de caldeiras e suas utilizações. Caldeiras flamotubulares. Caldeiras aquatubulares. Caldeiras elétricas. Caldeiras a combustíveis sólidos. Caldeiras a combustíveis líquidos. Caldeiras a gás. Acessórios de caldeiras. Instrumentos e dispositivos de controle de caldeiras. Dispositivo de alimentação. Visor de nível. Sistema de controle de nível. Indicadores de pressão. Dispositivos de segurança. Dispositivos auxiliares. Válvulas e tubulações. Tiragem de fumaça. Sistema instrumentado de segurança. Operação de caldeiras. Partida e parada. Regulagem e controle: de temperatura, de pressão, de fornecimento de energia, do",
     "heading": "**1** . Caldeiras",
-    "char_offset": 56811
+    "char_offset": 56855
   },
   {
     "id": "chunk-170",
     "text": "Este texto não substitui o publicado no DOU \nnível de água, de poluentes e de combustão. Falhas de operação, causas e providências. Roteiro de vistoria diária. Operação de um sistema de várias caldeiras. Procedimentos para situações de emergência. Tratamento de água de caldeiras. Impurezas da água e suas consequências. Tratamento de água de alimentação. Controle de água de caldeira. Prevenção contra explosões e outros riscos. Riscos gerais de acidentes e riscos à saúde. Riscos de explosão. Estudos de caso. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categoria de caldeiras B. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificado em 20/10/2022)_",
     "heading": "**1** . Caldeiras",
-    "char_offset": 58228
+    "char_offset": 58272
   },
   {
     "id": "chunk-171",
     "text": "**2.** Vasos de Pressão \n**2.1** A operação de unidades de processo que possuam vasos de pressão de categorias I ou II deve ser feita por profissional com treinamento de segurança na operação de unidades de processos. \n**2.2** Para efeito desta NR é considerado profissional com treinamento de segurança na operação de unidades de processo aquele que satisfizer uma das seguintes condições:",
     "heading": "**1** . Caldeiras",
-    "char_offset": 58925
+    "char_offset": 58969
   },
   {
     "id": "chunk-172",
     "text": "- a) possuir certificado de treinamento de segurança na operação de unidades de processo expedido por instituição competente para o treinamento e comprovação de prática profissional supervisionada, conforme item 2.6 deste Anexo; ou \n- b) possuir experiência comprovada na operação de vasos de pressão das categorias I ou II de pelo menos dois anos antes da vigência da NR-13, aprovada pela Portaria SSST nº 23, de 27 de dezembro de 1994.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 59319
+    "char_offset": 59363
   },
   {
     "id": "chunk-173",
     "text": "**2.3** O pré-requisito mínimo para participação, como aluno, no treinamento de segurança na operação de unidades de processo é o atestado de conclusão do ensino médio. \n**2.4** O treinamento de segurança na operação de unidades de processo deve, obrigatoriamente:",
     "heading": "**1** . Caldeiras",
-    "char_offset": 59760
+    "char_offset": 59804
   },
   {
     "id": "chunk-174",
     "text": "- a) ser supervisionado tecnicamente por PLH; \n- b) ser ministrado por instrutores com proficiência no assunto; \n- c) obedecer, no mínimo, ao currículo proposto no item 2.10 deste Anexo; _(Retificada em 20/10/2022)_ \n- d) ser integrado com a prática profissional supervisionada, conforme item 2.6;",
     "heading": "**1** . Caldeiras",
-    "char_offset": 60030
+    "char_offset": 60074
   },
   {
     "id": "chunk-175",
     "text": "- e) ter carga horária mínima de quarenta horas; e \n- f) estabelecer formas de avaliação de aprendizagem. \n**2.4.1** O treinamento de segurança na operação de unidades de processo pode ser realizado sob a forma de EaD. \n**2.4.2** A adoção do EaD não elide o disposto no item 2.4, alínea “d” deste Anexo.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 60333
+    "char_offset": 60377
   },
   {
     "id": "chunk-176",
     "text": "**2.5** Os responsáveis pelo treinamento de segurança na operação de unidades de processo estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 2.4. \nEste texto não substitui o publicado no DOU",
     "heading": "**1** . Caldeiras",
-    "char_offset": 60640
+    "char_offset": 60684
   },
   {
     "id": "chunk-177",
     "text": "**2.6** Todo profissional com treinamento de segurança na operação de unidades de processo deve ser submetido à prática profissional supervisionada com duração de trezentas horas na operação de unidade de processo que possuam vasos de pressão de categorias I ou II.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 60927
+    "char_offset": 60971
   },
   {
     "id": "chunk-178",
     "text": "**2.7** O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento: \na) período de realização da prática profissional supervisionada;",
     "heading": "**1** . Caldeiras",
-    "char_offset": 61196
+    "char_offset": 61240
   },
   {
     "id": "chunk-179",
     "text": "b) entidade, empregador ou profissional responsável pelo treinamento de segurança na operação de unidades de processo; e \nc) relação dos participantes desta prática profissional supervisionada. \n**2.8** Deve ser realizada a atualização dos conhecimentos dos operadores de unidades de processo quando:",
     "heading": "**1** . Caldeiras",
-    "char_offset": 61486
+    "char_offset": 61530
   },
   {
     "id": "chunk-180",
     "text": "- a) ocorrer modificação na unidade de processo; \n- b) ocorrer acidentes e/ou incidentes de alto potencial, que envolvam a operação de vasos de pressão; ou \n- c) houver recorrência de incidentes. \n**2.9** A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 2.10, inclusive nos casos de aproveitamento de treinamentos entre organizações, com carga horária definida pelo empregador.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 61792
+    "char_offset": 61836
   },
   {
     "id": "chunk-181",
     "text": "**2.10** Currículo mínimo para treinamento de segurança na operação de unidades de processo: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna, pressão externa e vácuo. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos. Vapor saturado e vapor superaquecido. Mecânica dos fluidos. Conceitos fundamentais. Pressão em escoamento. Tipos de escoamento: laminar e turbulento. Escoamento de líquidos: transferência por gravidade, diferença de pressão, sifão. Perda de carga: conceito, rugosidade, acidentes. Princípio de bombeamento de fluidos. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Equipamentos de processo (carga horária estabelecida de acordo com a complexidade da unidade, onde aplicável). Acessórios de tubulações. Acessórios elétricos e outros itens. Aquecedores de água. Bombas. Caldeiras (conhecimento básico). Compressores. Condensador. Desmineralizador. Esferas. Evaporadores. Filtros. Lavador de gases. Reatores. Resfriador. Secadores. Silos. Tanques de armazenamento. Torres. Trocadores calor. Tubulações industriais. Turbinas a vapor. Injetores e ejetores. Dispositivos de segurança. Outros. Instrumentação. Operação da unidade. Descrição do processo. Partida e parada. Procedimentos de emergência. Descarte de produtos químicos e preservação do meio ambiente. Avaliação e controle de riscos inerentes ao processo. Prevenção contra deterioração, explosão e outros riscos. Legislação e normalização.",
     "heading": "**1** . Caldeiras",
-    "char_offset": 62258
+    "char_offset": 62302
   },
   {
     "id": "chunk-182",
     "text": "Este texto não substitui o publicado no DOU \nNorma Regulamentadora nº 13 (NR-13). Categorias de vasos de pressão. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificada em 20/10/2022)_",
     "heading": "**ANEXO II DA NR-13**",
-    "char_offset": 64262
+    "char_offset": 64306
   },
   {
     "id": "chunk-183",
     "text": "1. O SPIE da empresa, organizado na forma de setor, seção, departamento, divisão, ou equivalente, deve ser certificado por OCP acreditado pelo INMETRO, que irá verificar, por meio de auditorias programadas, o atendimento aos seguintes requisitos: \n- a) existência de pessoal próprio da empresa onde estão instaladas caldeiras, vasos de pressão, tubulações e tanques, com dedicação exclusiva a atividades de inspeção, avaliação de integridade e vida remanescente, com formação, qualificação e treinamento compatíveis com a atividade proposta de preservação da segurança; _(Retificada em 20/10/2022)_",
     "heading": "**REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE**",
-    "char_offset": 64265
+    "char_offset": 64309
   },
   {
     "id": "chunk-184",
     "text": "- b) mão de obra contratada para ensaios não destrutivos certificada segundo regulamentação vigente e, para outros serviços de caráter eventual, selecionada e avaliada segundo critérios semelhantes ao utilizado para a mão de obra própria; \n- c) serviço de inspeção de equipamentos proposto com um responsável pelo seu gerenciamento formalmente designado para esta função;",
     "heading": "**REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE**",
-    "char_offset": 64867
+    "char_offset": 64911
   },
   {
     "id": "chunk-185",
     "text": "- d) existência de pelo menos um PLH; \n- e) existência de condições para manutenção de arquivo técnico atualizado, necessário ao atendimento da NR-13, assim como mecanismos para distribuição de informações quando requeridas; \n- f) existência de procedimentos escritos para as principais atividades executadas;",
     "heading": "**REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE**",
-    "char_offset": 65243
+    "char_offset": 65287
   },
   {
     "id": "chunk-186",
     "text": "- g) existência de aparelhagem condizente com a execução das atividades propostas; e \n- h) cumprimento mínimo da programação de inspeção. \n**2.** A certificação de SPIE e a sua manutenção estão sujeitas a regulamento específico do INMETRO.",
     "heading": "**ANEXO III DA NR-13**",
-    "char_offset": 65799
+    "char_offset": 65843
   },
   {
     "id": "chunk-187",
     "text": "**1.** O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento.",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 65801
+    "char_offset": 65845
   },
   {
     "id": "chunk-188",
     "text": "**2.** Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO. Este texto não substitui o publicado no DOU",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 66224
+    "char_offset": 66268
   },
   {
     "id": "chunk-189",
     "text": "**3.** O esquema de certificação a ser desenvolvido pelo OPC deve considerar, como prérequisito, que o candidato à certificação voluntária possua graduação de nível superior em Engenharia, com reconhecimento pelo respectivo conselho para as atribuições de PLH.",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 66498
+    "char_offset": 66542
   },
   {
     "id": "chunk-190",
     "text": "**4.** O Programa de certificação voluntária de PLH, executado pelo OPC, deverá ter, no mínimo, as seguintes fases: \n- a) avaliação - comprovação de formação acadêmica, cursos complementares, experiência profissional e realização de exames teóricos e práticos;",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 66762
+    "char_offset": 66806
   },
   {
     "id": "chunk-191",
     "text": "- b) análise e decisão - realização por pessoa(s) ou comitê formalmente designados para este fim, não envolvidos nos processos (a); \n- c) formalização - emissão de certificado; \n- d) supervisão - manutenção da certificação, com reavaliação periódica; e",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 67027
+    "char_offset": 67071
   },
   {
     "id": "chunk-192",
     "text": "- e) recertificação - realização a cada sessenta meses. \n**5.** Os profissionais que obtiverem o reconhecimento de suas competências profissionais através desta certificação voluntária devem ter esta informação divulgada pela autoridade competente em matéria de segurança e saúde no trabalho.",
     "heading": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**",
-    "char_offset": 67283
+    "char_offset": 67327
   },
   {
     "id": "chunk-193",
     "text": "**1.** Caldeiras de categoria A dotadas de Sistema Instrumentado de Segurança - SIS \n**1.1** A ampliação dos prazos de inspeções de segurança das caldeiras de categoria A que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências:",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 67581
+    "char_offset": 67625
   },
   {
     "id": "chunk-194",
     "text": "- a) instalação da caldeira em estabelecimentos que possuam certificação de SPIE, conforme Anexo II desta NR; \n- b) plano e programa de inspeção aprovados por PLH, observado o limite máximo de quarenta e oito meses entre inspeções internas; \n- c) sistema instrumentado de segurança, em conformidade com normas técnicas aplicáveis, atestado por responsável técnico;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 67853
+    "char_offset": 67897
   },
   {
     "id": "chunk-195",
     "text": "- d) controle da deterioração dos materiais que compõem as principais partes da caldeira; \n- e) análise e controle periódico da qualidade da água; \n- f) testes da pressão de abertura das válvulas de segurança a cada doze meses; _(Retificada em 20/10/2022)_",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 68222
+    "char_offset": 68266
   },
   {
     "id": "chunk-196",
     "text": "- g) acompanhamento periódico dos parâmetros operacionais que influenciam a integridade da caldeira; \n- h) parecer técnico de PLH fundamentando a decisão de extensão de prazo; e \nEste texto não substitui o publicado no DOU \ni) registro formal do cumprimento das alíneas anteriores.",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 68484
+    "char_offset": 68528
   },
   {
     "id": "chunk-197",
     "text": "**1.2** O SIS deve: \n- a) ser baseado em estudo de confiabilidade que garanta execução segura da sequência de acendimento e o bloqueio automático dos combustíveis em casos de perda do controle de combustão ou da geração de vapor, assim como possuir análise de risco conduzida por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 68769
+    "char_offset": 68813
   },
   {
     "id": "chunk-198",
     "text": "- b) ser projetado, instalado e testado, sob a responsabilidade de responsável técnico; e \n- c) ser mantido de acordo com procedimentos específicos definidos pelo fabricante ou por responsável técnico. \n**1.2.1** Os procedimentos de inspeção, testes e manutenção devem ser executados e aprovados por responsável técnico.",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 69139
+    "char_offset": 69183
   },
   {
     "id": "chunk-199",
     "text": "**1.3** As alterações nas funções instrumentadas de segurança do SIS, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado.",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 69462
+    "char_offset": 69506
   },
   {
     "id": "chunk-200",
     "text": "**1.4** O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança das caldeiras. \n**2** Caldeiras de categoria B com Sistema de Gerenciamento de Combustão - SGC",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 69736
+    "char_offset": 69780
   },
   {
     "id": "chunk-201",
     "text": "**2.1** A ampliação dos prazos de inspeções de segurança das caldeiras de categoria B que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências: \n- a) plano e programa de inspeção aprovados por PLH, observado o limite máximo de trinta meses entre inspeções internas;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 70023
+    "char_offset": 70067
   },
   {
     "id": "chunk-202",
     "text": "- b) SGC com projeto de funções instrumentadas de segurança em conformidade com normas técnicas aplicáveis, atestado por responsável técnico; \n- c) controle da deterioração dos materiais que compõem as partes importantes para integridade da caldeira;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 70331
+    "char_offset": 70375
   },
   {
     "id": "chunk-203",
     "text": "- d) análise e controle periódico da qualidade da água, conforme prescrições do fabricante da caldeira; \n- e) testes da pressão de abertura das válvulas de segurança a cada 12 meses; \n- f) acompanhamento periódico dos parâmetros operacionais que influenciam a integridade da caldeira;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 70586
+    "char_offset": 70630
   },
   {
     "id": "chunk-204",
     "text": "g) parecer técnico de PLH fundamentando a decisão de extensão de prazo; e \nh) registro formal do cumprimento das alíneas anteriores. \n- **2.2** O SGC deve: \nEste texto não substitui o publicado no DOU \n- a) ter estudos de confiabilidade e análise de risco conduzidos por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 70877
+    "char_offset": 70921
   },
   {
     "id": "chunk-205",
     "text": "- b) ser projetado, instalado e testado sob a responsabilidade de responsável técnico; e _(Retificada em 20/10/2022)_ \n- c) ser mantido de acordo com procedimentos específicos definidos pelo fabricante ou por responsável técnico. \n**2.2.1** Os procedimentos de inspeção, testes e manutenção devem ser executados e/ou aprovados por responsável técnico.",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 71238
+    "char_offset": 71282
   },
   {
     "id": "chunk-206",
     "text": "**2.3** As alterações nas funções instrumentadas de segurança, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado.",
     "heading": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**",
-    "char_offset": 71592
+    "char_offset": 71636
   },
   {
     "id": "chunk-207",
     "text": "**2.4** O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 72050
+    "char_offset": 72094
   },
   {
     "id": "chunk-208",
     "text": "Abertura escalonada de válvulas de segurança: condição diferenciada de ajuste da pressão de abertura de múltiplas válvulas de segurança, prevista no código de construção do equipamento por elas protegido, onde podem ser estabelecidos valores de abertura acima da PMTA, consideradas as vazões necessárias para o alívio da sobrepressão em cenários distintos.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 72051
+    "char_offset": 72095
   },
   {
     "id": "chunk-209",
     "text": "Alteração: mudança nas condições de projeto ou nos parâmetros operacionais, com impactos na integridade estrutural dos equipamentos abrangidos por esta NR, ou que possam afetar a segurança dos trabalhadores e de terceiros. \nCaldeiras: equipamentos destinados a produzir e acumular vapor sob pressão superior à atmosférica, utilizando qualquer fonte de energia, projetados conforme códigos pertinentes, excetuando-se refervedores e similares.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 72411
+    "char_offset": 72455
   },
   {
     "id": "chunk-210",
     "text": "Caldeiras de recuperação de álcalis: caldeiras que utilizam como combustível principal o licor negro oriundo do processo de fabricação de celulose, realizando a recuperação de químicos e geração de energia. \nCódigos de construção: publicações normativas desenvolvidas por associações técnicas ou por sociedades de normalização, dotadas de um conjunto coerente de regras, exigências, procedimentos, fórmulas e parâmetros, oriundas de entidades nacionais, internacionais ou estrangeiras e utilizadas na construção dos equipamentos abrangidos por esta NR. Exemplos: ASME Boiler and Pressure Vessel Code, British Standards Institution, AD 2000 Merkblatt, SNCTTI, ABNT, entre outros.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 72856
+    "char_offset": 72900
   },
   {
     "id": "chunk-211",
     "text": "Dispositivo Contra Bloqueio Inadvertido - DCBI: dispositivo utilizado para evitar o fechamento inadvertido de válvulas instaladas à montante e à jusante de dispositivos de segurança. \nDispositivos de segurança: dispositivos ou componentes que protegem um equipamento contra sobrepressão manométrica, independente da ação do operador e de acionamento por fonte externa de energia. O dispositivo também pode ser projetado",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 73538
+    "char_offset": 73582
   },
   {
     "id": "chunk-212",
     "text": "Este texto não substitui o publicado no DOU \npara evitar vácuo interno excessivo. Exemplos: válvulas de segurança, válvulas de alívio, válvulas de segurança e alívio, válvulas piloto operadas, discos de ruptura, quebra - vácuo. \nEnchimento interno: materiais inseridos no interior dos vasos de pressão com finalidades específicas e período de vida útil determinado, tipo catalisador, recheio, peneira molecular, e carvão ativado. Bandejas e acessórios internos não configuram enchimento interno.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 73962
+    "char_offset": 74006
   },
   {
     "id": "chunk-213",
     "text": "Equipamentos de terceiros: equipamentos abrangidos por esta NR, pertencentes a terceiros, e instalados no estabelecimento do empregador. \nEventos de grande proporção: ocorrências de grande magnitude (emanações, vazamentos, contaminações, incêndios ou explosões), classificadas como acidentes maiores ou ampliados, nos termos da Convenção nº 174, da Organização Internacional do Trabalho - OIT.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 74461
+    "char_offset": 74505
   },
   {
     "id": "chunk-214",
     "text": "Exame: atividade conduzida por PLH ou técnicos qualificados ou certificados, quando exigido por códigos ou normas, para avaliar se determinados produtos, processos ou serviços estão em conformidade com critérios especificados. \nExame externo: exame da superfície e de componentes externos de um equipamento, podendo ser realizado em operação, visando avaliar a sua integridade estrutural.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 74858
+    "char_offset": 74902
   },
   {
     "id": "chunk-215",
     "text": "Exame interno: exame da superfície interna e de componentes internos de um equipamento, executado visualmente, para detecção de defeitos com relação a pontos de corrosão, trincas, incrustações e depósitos ou qualquer descontinuidade nas regiões das soldas, com o emprego de ensaios e testes apropriados para avaliar sua integridade estrutural.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 75249
+    "char_offset": 75293
   },
   {
     "id": "chunk-216",
     "text": "Fluidos inflamáveis: líquidos que possuem ponto de fulgor menor ou igual a sessenta graus Celsius (60 °C) ou gases que inflamam com o ar a vinte graus Celsius (20 °C) e a uma pressão padrão de cento e um vírgula três quilopascal (101,3 kPa). \nFluidos combustíveis: fluidos com ponto de fulgor maior que 60ºC e menor ou igual a 93ºC. _(Retificada em 20/10/2022)_",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 75596
+    "char_offset": 75640
   },
   {
     "id": "chunk-217",
     "text": "Fluidos tóxicos: fluidos nocivos à saúde dos trabalhadores, observado, quanto ao limite de tolerância, o disposto na NR-15. \nFluxograma de engenharia (P&ID): diagrama mostrando o fluxo do processo com os equipamentos, as tubulações e seus acessórios, e as malhas de controle de instrumentação.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 75961
+    "char_offset": 76005
   },
   {
     "id": "chunk-218",
     "text": "Força maior: todo acontecimento inevitável, em relação à vontade do empregador, e para a realização do qual este não concorreu, direta ou indiretamente. A imprevidência do empregador exclui a razão de força maior. \nGerador de vapor: equipamento destinado a produzir vapor sob pressão superior à atmosférica, sem acumulação e não enquadrados em códigos de vasos de pressão ou caldeira. _(Retificada em 20/10/2022)_",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 76258
+    "char_offset": 76302
   },
   {
     "id": "chunk-219",
     "text": "Hibernação: desativação temporária de máquina, equipamento, sistema ou unidade industrial, já em funcionamento ou em construção, por longa duração e com previsão de retorno operacional, preservando suas características. \nInspeção de segurança extraordinária: inspeção executada devido a ocorrências que possam afetar a condição física do equipamento, tais como hibernação prolongada, Este texto não substitui o publicado no DOU",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 76675
+    "char_offset": 76719
   },
   {
     "id": "chunk-220",
     "text": "mudança de locação, surgimento de deformações inesperadas, choques mecânicos de grande impacto ou vazamentos, entre outros, envolvendo caldeiras, vasos de pressão, tubulações e tanques, com abrangência definida por PLH. \nInspeção de segurança inicial: inspeção executada no equipamento novo, montado no local definitivo de instalação e antes de sua entrada em operação.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 77106
+    "char_offset": 77150
   },
   {
     "id": "chunk-221",
     "text": "Inspeção de segurança periódica: inspeção executada durante a vida útil de um equipamento, com critérios e periodicidades determinados por PLH, respeitados os intervalos máximos estabelecidos nesta Norma. \nInspeção extraordinária especial: inspeção executada em vaso de pressão construído sem código de construção com a finalidade de coletar dados que permitam ao PLH definir com maior precisão os valores de PMTA e outras informações importantes para o acompanhamento da vida remanescente do vaso, como os tipos de materiais utilizados nas suas diferentes partes, suas dimensões, especialmente espessura, e respectivas resistências mecânicas, a eficiência de junta a ser considerada para as juntas soldadas, os detalhes de conexões e reforços e a reconstituição dos principais desenhos. Caso necessário, devem ser implementadas alterações ou reparos que permitam a operação segura do vaso de pressão.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 77479
+    "char_offset": 77523
   },
   {
     "id": "chunk-222",
     "text": "Instrumentos e sistemas de controle e segurança: dispositivos utilizados para monitorar e controlar o comportamento de variáveis operacionais, compreendendo elementos primários, sensores, visores, indicadores, transdutores, controladores, elementos finais, sistemas supervisórios, entre outros, com atuação local ou remota, em malha aberta ou fechada, com funções de indicação, controle e/ou segurança.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 78383
+    "char_offset": 78427
   },
   {
     "id": "chunk-223",
     "text": "Integridade estrutural: conjunto de propriedades e características físicas necessárias para que um equipamento ou item desempenhe com segurança e eficiência as funções para as quais foi projetado. \nLinha: trecho de tubulação individualizado entre dois pontos definidos e que obedece a uma única especificação de materiais, produtos transportados, pressão e temperatura de projeto.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 78789
+    "char_offset": 78833
   },
   {
     "id": "chunk-224",
     "text": "Número/código de identificação: designação distintiva, normalmente alfanumérica, também conhecida como “tag” ou “posição”, por meio da qual os equipamentos abrangidos por esta NR são identificados em documentos técnicos, relatórios, registros, sistemas informatizados, bem como nas instalações.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 79172
+    "char_offset": 79216
   },
   {
     "id": "chunk-225",
     "text": "Operação contínua: operação da caldeira por mais de 95% do tempo correspondente aos prazos estipulados no subitem 13.4.4.4 desta NR. \nPacote de Máquinas: conjunto formado por equipamentos e acessórios periféricos de máquinas de fluido (bombas, compressores, turbinas, etc.), máquinas operatrizes e demais equipamentos dinâmicos, normalmente agrupados em sistemas de selagem, lubrificação e arrefecimento.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 79470
+    "char_offset": 79514
   },
   {
     "id": "chunk-226",
     "text": "Plano de inspeção: descrição das atividades, incluindo os exames e testes a serem realizados, necessários para avaliar as condições físicas dos equipamentos abrangidos por esta NR, considerando o histórico e os mecanismos de danos previsíveis. \nPrática profissional supervisionada: momento em que o trabalhador desenvolve atividades profissionais vinculadas com os conteúdos teóricos recebidos em treinamento, com o acompanhamento e supervisão de outro profissional ou instrutor com domínio das atividades desenvolvidas.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 79878
+    "char_offset": 79922
   },
   {
     "id": "chunk-227",
     "text": "Este texto não substitui o publicado no DOU \nPressão máxima de operação: máxima pressão manométrica esperada durante a operação normal do sistema ou equipamento. \nPressão Máxima de Trabalho Admissível - PMTA: maior valor de pressão a que um equipamento pode ser submetido continuamente, de acordo com o código de construção, a resistência dos materiais utilizados, as dimensões do equipamento e seus parâmetros operacionais.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 80403
+    "char_offset": 80447
   },
   {
     "id": "chunk-228",
     "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. Para avaliação da proficiência, pode ser verificado o currículo do profissional, a partir do conteúdo programático que ele ministrará. O conhecimento teórico pode ser comprovado através de diplomas, certificados e material didático elaborado pelo profissional. A experiência pode ser avaliada pelo tempo em que o profissional atua na área e serviços prestados.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 80830
+    "char_offset": 80874
   },
   {
     "id": "chunk-229",
     "text": "Programa de inspeção: cronograma contendo, entre outros dados, as datas das inspeções de segurança periódicas a serem executadas. \nProjeto de alteração: projeto elaborado por ocasião de alteração que implique em intervenção estrutural ou mudança de processo significativa nos equipamentos abrangidos por esta NR.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 81278
+    "char_offset": 81322
   },
   {
     "id": "chunk-230",
     "text": "Projeto de reparo: projeto estabelecendo os procedimentos de execução e controle de reparos que possam comprometer a segurança dos equipamentos abrangidos por esta NR. \nProjeto alternativo de instalação: projeto concebido para minimizar os impactos de segurança para o trabalhador quando as instalações não estiverem atendendo os critérios estabelecidos nesta NR.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 81594
+    "char_offset": 81638
   },
   {
     "id": "chunk-231",
     "text": "Projeto de instalação de caldeiras: plantas de arranjo ou de locação, correspondendo a desenhos em escala que mostram, em projeção horizontal, a disposição geral dos equipamentos, representados em um ou mais documentos. \nRecipientes móveis: vasos de pressão que podem ser movidos dentro de uma instalação ou entre instalações e que não podem ser enquadrados como transportáveis.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 81961
+    "char_offset": 82005
   },
   {
     "id": "chunk-232",
     "text": "Recipientes transportáveis: recipientes projetados e construídos para serem transportados pressurizados e em conformidade com normas e regulamentações específicas de recipientes transportáveis, incluindo recipientes para GLP com capacidade volumétrica de 5,5 a 500 L (ABNT NBR 8460), cilindros recarregáveis para gases comprimidos, liquefeitos ou dissolvidos (ABNT NBR ISO 9809), entre outros.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 82342
+    "char_offset": 82386
   },
   {
     "id": "chunk-233",
     "text": "Responsável técnico: considera-se responsável técnico aquele que tem competência legal para o exercício das demais atribuições de cunho técnico preconizadas nesta NR, na respectiva modalidade profissional, em conformidade com a regulamentação vigente no país.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 82738
+    "char_offset": 82782
   },
   {
     "id": "chunk-234",
     "text": "Sistema de gerenciamento de combustão: sistema automático de controle do processo de combustão, compreendendo a purga da fornalha, a ignição, a alimentação e o corte de combustíveis, bem como o monitoramento da chama, de modo a assessorar o operador e conferir mais segurança em etapas críticas de acendimento e desligamento da caldeira, inclusive nos cenários de intertravamento.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 83000
+    "char_offset": 83044
   },
   {
     "id": "chunk-235",
     "text": "Sistema de tubulação: agrupamento de tubulações sujeitas a condições operacionais e a mecanismos de deterioração semelhantes, vinculadas a um mesmo plano de inspeção, com a discriminação expressa dos respectivos códigos de identificação (tag), visando a Este texto não substitui o publicado no DOU",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 83383
+    "char_offset": 83427
   },
   {
     "id": "chunk-236",
     "text": "otimizar a alocação de recursos e aumentar a efetividade das inspeções de segurança, sem prejuízo da rastreabilidade das informações pertinentes a cada tubulação integrante do sistema. \nSistemas intrinsecamente protegidos: vasos isolados ou interligados cuja pressão se mantenha inferior à PMTA em todos os cenários possíveis, bem como aqueles dotados de instrumentos de segurança concebidos em substituição ou em complemento aos dispositivos de segurança preconizados nesta NR, observadas as premissas e os requisitos técnicos e documentais previstos nos respectivos códigos de construção.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 83684
+    "char_offset": 83728
   },
   {
     "id": "chunk-237",
     "text": "Sistema instrumentado de segurança: sistema que reúne uma ou mais funções instrumentadas de segurança, normalmente dissociado da malha básica de controle, cujo propósito é conduzir o equipamento/processo a um estado seguro nas ocorrências de violações a parâmetros operacionais pré-estabelecidos, abarcando, entre outros, sensores, executores lógicos e elementos finais, especificados considerando-se um nível de integridade de segurança desejável, estimado em análise de risco.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 84277
+    "char_offset": 84321
   },
   {
     "id": "chunk-238",
     "text": "Tanques metálicos de armazenamento: equipamentos estáticos, metálicos, não enterrados, sujeitos à pressão atmosférica ou a pressões menores que 103kPa, cujo costado se desenvolve, em regra, a partir de um eixo vertical de revolução, com preponderância para as construções cilíndricas.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 84758
+    "char_offset": 84802
   },
   {
     "id": "chunk-239",
     "text": "Tecnologias de cálculo/procedimentos avançados: métodos analíticos, numéricos ou computacionais destinados à avaliação da integridade estrutural dos equipamentos abrangidos por esta NR, normalmente conhecidos como “métodos de adequação ao uso” (Fitness-For-Service), bem como técnicas de reparo, permanente ou provisório, amparadas em publicações técnicas destinadas a equipamentos em serviço (postconstruction code). Exemplos de referências técnicas: API 579, BS 7910, API 510, API 570, API 653, ASME PCC-2, entre outros, a critério do PLH.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 85045
+    "char_offset": 85089
   },
   {
     "id": "chunk-240",
     "text": "Teste de pressão: termo genérico que compreende as diversas técnicas de pressurização de equipamentos novos ou em serviço, incluindo testes hidrostáticos, pneumáticos, hidropneumáticos e hidrodinâmicos, normalmente executados com água ou ar, com a finalidade de detectar vazamentos, atestar a resistência estrutural, bem como verificar a estanqueidade de juntas e de outros elementos de vedação.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 85589
+    "char_offset": 85633
   },
   {
     "id": "chunk-241",
     "text": "Teste hidrostático de fabricação: aquele baseado em código de construção, executado na etapa de fabricação ou no campo, antes do início da operação, observadas as disposições complementares previstas nesta NR. \nTubulações: conjunto formado por tubos e seus respectivos acessórios, projetados por códigos específicos, destinado ao transporte de fluidos.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 85988
+    "char_offset": 86032
   },
   {
     "id": "chunk-242",
     "text": "Unidade(s) de processo: conjunto de equipamentos e interligações de unidade(s) destinados ao processamento, transformação ou armazenamento de materiais/substâncias. \nVasos de pressão: recipientes estanques, de quaisquer tipos, formato ou finalidade, capazes de conter fluidos sob pressões manométricas positivas ou negativas, diferentes da atmosférica, observados os critérios de enquadramento desta NR.",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 86344
+    "char_offset": 86388
   },
   {
     "id": "chunk-243",
     "text": "Vida remanescente (ou vida residual): estimativa de tempo restante de vida de um equipamento ou acessório, a partir de dados coletados em ensaios e testes destinados a monitorar os efeitos dos mecanismos de danos atuantes. \nEste texto não substitui o publicado no DOU",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 86751
+    "char_offset": 86795
   },
   {
     "id": "chunk-244",
     "text": "Volume: para fins desta NR é o volume interno do vaso de pressão, excluindo o volume dos acessórios, de enchimentos ou de catalisadores. \nEste texto não substitui o publicado no DOU",
     "heading": "**GLOSSÁRIO**",
-    "char_offset": 87023
+    "char_offset": 87067
   }
 ]

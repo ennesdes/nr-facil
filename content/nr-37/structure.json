@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º1.186, de 20 de dezembro de 2018|21/12/18|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SEPRT n.º1.412, de 17 de dezembro de 2019|18/12/19|\n|Portaria SEPRT n.º25.235, de 18 de dezembro de 2020|21/12/20|\n|Portaria SEPRT n.º8.873, de 23 de julho de 2021|26/07/21|\n|Portaria MTP n.º90, de 18 de janeiro de 2022|26/01/22|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb n.º1.186, de 20 de dezembro de 2018 | 21/12/18 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SEPRT n.º1.412, de 17 de dezembro de 2019 | 18/12/19 |\n| Portaria SEPRT n.º25.235, de 18 de dezembro de 2020 | 21/12/20 |\n| Portaria SEPRT n.º8.873, de 23 de julho de 2021 | 26/07/21 |\n| Portaria MTP n.º90, de 18 de janeiro de 2022 | 26/01/22 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |"
       },
       {
         "type": "paragraph",
@@ -6937,43 +6937,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Velocidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "do vento | Condições para operação do equipamento de guindar |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| 0 a 38 km/h | - Permitidas todas as operações de movimentação de"
-        },
-        {
-          "type": "paragraph",
-          "text": "cargas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 39 a 49 km/h | - Acionamento de alarme sonoro a partir de 39 km/h;"
-        },
-        {
-          "type": "paragraph",
-          "text": "- Operações ordinárias de movimentação de cargas devem ser interrompidas; e - Permitidas apenas as operações assistidas, inclusive entre a plataforma e embarcações, com observação contínua das condições climáticas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 50 a 61 km/h | - Permitidas apenas as operações assistidas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "realizadas somente dentro da própria plataforma, com observação contínua das condições climáticas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Acima de 61"
-        },
-        {
-          "type": "paragraph",
-          "text": "km/h | - Todas as operações devem ser interrompidas. |"
+          "markdown": "| Velocidade do vento | Condições para operação do equipamento de guindar |\n| --- | --- |\n| 0 a 38 km/h | - Permitidas todas as operações de movimentação de cargas. |\n| 39 a 49 km/h | - Acionamento de alarme sonoro a partir de 39 km/h; - Operações ordinárias de movimentação de cargas devem ser interrompidas; e - Permitidas apenas as operações assistidas, inclusive entre a plataforma e embarcações, com observação contínua das condições climáticas. |\n| 50 a 61 km/h | - Permitidas apenas as operações assistidas e realizadas somente dentro da própria plataforma, com observação contínua das condições climáticas. |\n| Acima de 61 km/h | - Todas as operações devem ser interrompidas. |"
         },
         {
           "type": "paragraph",

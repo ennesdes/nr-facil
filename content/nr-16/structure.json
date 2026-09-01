@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº02, de 02 de fevereiro de 1979|08/02/79|\n|Portaria MTb nº3.393, de 17 de dezembro de 1987|(Rev.) 23/12/87|\n|Portaria SSST nº25, de 29 de dezembro de 1994|(Rep. )17/02/83|\n|Portaria MTE nº545, de 10 de julho de 2000|11/07/00|\n|Portaria SIT nº26, de 02 de agosto de 2000|03/08/00|\n|Portaria MTE nº496, de 11 de dezembro de 2002|(Rev.) 12/12/02|\n|Portaria MTE nº518, de 04 de abril de 2003|07/04/03|\n|Portaria MTE nº1.885, de 02 de dezembro de 2013|03/12/13|\n|Portaria MTE nº1.078, de 16 de julho de 2014|17/07/14|\n|Portaria SEPRT nº1.357, de 09 de dezembro de 2019|10/12/19|\n|Portaria MTE nº1.418, de 27 de agosto de 2024|28/08/24|\n|Portaria MTE nº1.411, de 22 de agosto de 2025|(Rep.) 26/08/25|\n|Portaria MTE nº2.021, de 03 de dezembro de 2025|04/12/25|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT nº02, de 02 de fevereiro de 1979 | 08/02/79 |\n| Portaria MTb nº3.393, de 17 de dezembro de 1987 | (Rev.) 23/12/87 |\n| Portaria SSST nº25, de 29 de dezembro de 1994 | (Rep. )17/02/83 |\n| Portaria MTE nº545, de 10 de julho de 2000 | 11/07/00 |\n| Portaria SIT nº26, de 02 de agosto de 2000 | 03/08/00 |\n| Portaria MTE nº496, de 11 de dezembro de 2002 | (Rev.) 12/12/02 |\n| Portaria MTE nº518, de 04 de abril de 2003 | 07/04/03 |\n| Portaria MTE nº1.885, de 02 de dezembro de 2013 | 03/12/13 |\n| Portaria MTE nº1.078, de 16 de julho de 2014 | 17/07/14 |\n| Portaria SEPRT nº1.357, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria MTE nº1.418, de 27 de agosto de 2024 | 28/08/24 |\n| Portaria MTE nº1.411, de 22 de agosto de 2025 | (Rep.) 26/08/25 |\n| Portaria MTE nº2.021, de 03 de dezembro de 2025 | 04/12/25 |"
       },
       {
         "type": "item",
@@ -134,11 +134,7 @@
         },
         {
           "type": "table",
-          "markdown": "| ATIVIDADES | ADICIONAL DE 30% |\n| --- | --- |\n| a) no armazenamento de explosivos"
-        },
-        {
-          "type": "paragraph",
-          "text": "no transporte de explosivos b) na operação de escorva dos cartuchos c) de explosivos na operação de carregamento de d) explosivos na detonação e) na verificação de denotações falhadas f) na queima e destruição de explosivos g) deteriorados nas operações de manuseio de h) explosivos | Todos os trabalhadores nessa atividade ou que permaneçam na área de risco. Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade |"
+          "markdown": "| ATIVIDADES | ADICIONAL DE 30% |\n| --- | --- |\n| a) no armazenamento de explosivos no transporte de explosivos b) na operação de escorva dos cartuchos c) de explosivos na operação de carregamento de d) explosivos na detonação e) na verificação de denotações falhadas f) na queima e destruição de explosivos g) deteriorados nas operações de manuseio de h) explosivos | Todos os trabalhadores nessa atividade ou que permaneçam na área de risco. Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade Todos os trabalhadores nessa atividade |"
         },
         {
           "type": "paragraph",
@@ -210,47 +206,15 @@
         },
         {
           "type": "table",
-          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
-        },
-        {
-          "type": "paragraph",
-          "text": "MÁXIMA DE |"
+          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA MÁXIMA DE |\n| --- | --- |\n| até 4.500 mais de 4.500 até 45.000 mais de 45.000 até 90.000 mais de 90.000 até 225.000* | 45 metros 90 metros 110 metros 180 metros |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- |\n| até 4.500"
-        },
-        {
-          "type": "paragraph",
-          "text": "mais de 4.500 até 45.000 mais de 45.000 até 90.000 mais de 90.000 até 225.000* | 45 metros 90 metros 110 metros 180 metros |"
+          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA MÁXIMA |\n| --- | --- |\n| até 20 mais de 20 até 200 mais de 200 até 900 mais de 900 até 2.200 mais de 2.200 até 4.500 mais de 4.500 até 6.800 mais de 6.800 até 9.000* | 75 metros 220 metros 300 metros 370 metros 460 metros 500 metros 530 metros |"
         },
         {
           "type": "table",
-          "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
-        },
-        {
-          "type": "paragraph",
-          "text": "MÁXIMA |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| até 20"
-        },
-        {
-          "type": "paragraph",
-          "text": "mais de 20 até 200 mais de 200 até 900 mais de 900 até 2.200 mais de 2.200 até 4.500 mais de 4.500 até 6.800 mais de 6.800 até 9.000* | 75 metros 220 metros 300 metros 370 metros 460 metros 500 metros 530 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| QUANTIDADE EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA"
-        },
-        {
-          "type": "paragraph",
-          "text": "MÁXIMA |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |"
+          "markdown": "| QUANTIDADE EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA MÁXIMA |\n| --- | --- |"
         },
         {
           "type": "list",
@@ -293,19 +257,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Atividades | Adicional de 30% |\n| --- | --- |\n| a."
-        },
-        {
-          "type": "paragraph",
-          "text": "na produção, transporte, processamento e armazenamento de gás liqüefeito. | na produção, transporte, processamento e armazenamento de gás liqüefeito. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| b."
-        },
-        {
-          "type": "paragraph",
-          "text": "no transporte e armazenagem de inflamáveis líquidos e gasosos liqüefeitos e de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores da área de operação. |"
+          "markdown": "| Atividades | Adicional de 30% |\n| --- | --- |\n| a. na produção, transporte, processamento e armazenamento de gás liqüefeito. | na produção, transporte, processamento e armazenamento de gás liqüefeito. |\n| b. no transporte e armazenagem de inflamáveis líquidos e gasosos liqüefeitos e de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores da área de operação. |"
         },
         {
           "type": "paragraph",
@@ -321,83 +273,7 @@
         },
         {
           "type": "table",
-          "markdown": "| c."
-        },
-        {
-          "type": "paragraph",
-          "text": "nos postos de reabastecimento de aeronaves. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| d."
-        },
-        {
-          "type": "paragraph",
-          "text": "nos locais de carregamento de navios-tanques, vagões-tanques e caminhões-tanques e enchimento de vasilhames, com inflamáveis líquidos ou gasosos liqüefeitos. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| e."
-        },
-        {
-          "type": "paragraph",
-          "text": "nos locais de descarga de navios-tanques, vagõestanques e caminhões-tanques com inflamáveis líquidos ou gasosos liqüefeitos ou de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco |"
-        },
-        {
-          "type": "table",
-          "markdown": "| f."
-        },
-        {
-          "type": "paragraph",
-          "text": "nos serviços de operações e manutenção de navios-tanque, vagões-tanques, caminhõestanques, bombas e vasilhames, com inflamáveis líquidos ou gasosos liquefeitos, ou vazios nãodesgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| g."
-        },
-        {
-          "type": "paragraph",
-          "text": "nas operações de desgaseificação, decantação e reparos de vasilhames não-desgaseificados ou decantados. | T o d os os trabalhadores nessas atividades ou que operam na área de risco. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| h."
-        },
-        {
-          "type": "paragraph",
-          "text": "nas operações de testes de aparelhos de consumo do gás e seus equipamentos. | Todos os trabalhadores nessas atividades ou que operam na área de risco. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| i."
-        },
-        {
-          "type": "paragraph",
-          "text": "no transporte de inflamáveis líquidos e gasosos liqüefeitos em caminhão-tanque. | motorista e ajudantes. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| j."
-        },
-        {
-          "type": "paragraph",
-          "text": "no transporte de vasilhames (em caminhão de carga), contendo inflamável líquido, em quantidade total igual ou superior a 200 litros, quando não observado o disposto nos subitens 4.1 e 4.2 deste Anexo. (Alterado pela Portaria MTE nº 545, de 10 de julho de 2000) | motorista e ajudantes |"
-        },
-        {
-          "type": "table",
-          "markdown": "| l."
-        },
-        {
-          "type": "paragraph",
-          "text": "no transporte de vasilhames (em carreta ou caminhão de carga), contendo inflamável gasosos e líquido, em quantidade total igual ou superior a 135 quilos. | motorista e ajudantes. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| m"
-        },
-        {
-          "type": "paragraph",
-          "text": "nas operação em postos de serviço e bombas de . abastecimento de inflamáveis líquidos. | operador de bomba e trabalhadores que operam na área de risco. |"
+          "markdown": "| c. nos postos de reabastecimento de aeronaves. | todos os trabalhadores nessas atividades ou que operam na área de risco. |\n| --- | --- |\n| d. nos locais de carregamento de navios-tanques, vagões-tanques e caminhões-tanques e enchimento de vasilhames, com inflamáveis líquidos ou gasosos liqüefeitos. | todos os trabalhadores nessas atividades ou que operam na área de risco. |\n| e. nos locais de descarga de navios-tanques, vagões- tanques e caminhões-tanques com inflamáveis líquidos ou gasosos liqüefeitos ou de vasilhames vazios não-desgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco |\n| f. nos serviços de operações e manutenção de navios-tanque, vagões-tanques, caminhões- tanques, bombas e vasilhames, com inflamáveis líquidos ou gasosos liquefeitos, ou vazios não- desgaseificados ou decantados. | todos os trabalhadores nessas atividades ou que operam na área de risco. |\n| g. nas operações de desgaseificação, decantação e reparos de vasilhames não-desgaseificados ou decantados. | T o d os os trabalhadores nessas atividades ou que operam na área de risco. |\n| h. nas operações de testes de aparelhos de consumo do gás e seus equipamentos. | Todos os trabalhadores nessas atividades ou que operam na área de risco. |\n| i. no transporte de inflamáveis líquidos e gasosos liqüefeitos em caminhão-tanque. | motorista e ajudantes. |\n| j. no transporte de vasilhames (em caminhão de carga), contendo inflamável líquido, em quantidade total igual ou superior a 200 litros, quando não observado o disposto nos subitens 4.1 e 4.2 deste Anexo. (Alterado pela Portaria MTE nº 545, de 10 de julho de 2000) | motorista e ajudantes |\n| l. no transporte de vasilhames (em carreta ou caminhão de carga), contendo inflamável gasosos e líquido, em quantidade total igual ou superior a 135 quilos. | motorista e ajudantes. |\n| m nas operação em postos de serviço e bombas de . abastecimento de inflamáveis líquidos. | operador de bomba e trabalhadores que operam na área de risco. |"
         },
         {
           "type": "paragraph",
@@ -593,7 +469,7 @@
         },
         {
           "type": "table",
-          "markdown": "|l. Enchimento de vasilhames com inflamáveis<br>líquidos, em locais abertos.|Círculo com raio de 7,5 metros com centro nos<br>bicos de enchimento.|\n|---|---|\n|m. Enchimento de vasilhames com inflamáveis<br>líquidos, em recinto fechado.|Toda a área interna do recinto.|\n|n. Manutenção de viaturas-tanques, bombas e<br>vasilhames que continham inflamável líquido.|Local de operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos.|\n|o. Desgaseificação, decantação e reparos de<br>vasilhames não desgaseificados ou decantados,<br>utilizados no transporte de inflamáveis.|Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos.|\n|p. Testes em aparelhos de consumo de gás e seus<br>equipamentos.|Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>extremos.|\n|q. abastecimento de inflamáveis|Toda a área de operação, abrangendo, no<br>mínimo, círculo com raio de 7,5 metros com<br>centro no ponto de abastecimento e o círculo<br>com raio de 7,5 metros com centro na bomba<br>de abastecimento da viatura e faixa de 7,5<br>metros de largura para ambos os lados da<br>máquina.|\n|r. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados<br>ou decantados, em locais abertos.|Faixa de 3 metros de largura em torno dos seus<br>pontos externos.|\n|s. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados,<br>ou decantados, em recinto fechado.|Toda a área interna do recinto.|\n|t. Carga e descarga de vasilhames contendo<br>inflamáveis líquidos ou vasilhames vazios não<br>desgaseificados ou decantados, transportados pôr<br>navios,chatas ou batelões.|Afastamento de 3 metros da beira do cais,<br>durante a operação, com extensão<br>correspondente ao comprimento da<br>embarcação.|"
+          "markdown": "| l. Enchimento de vasilhames com inflamáveis<br>líquidos, em locais abertos. | Círculo com raio de 7,5 metros com centro nos<br>bicos de enchimento. |\n| --- | --- |\n| m. Enchimento de vasilhames com inflamáveis<br>líquidos, em recinto fechado. | Toda a área interna do recinto. |\n| n. Manutenção de viaturas-tanques, bombas e<br>vasilhames que continham inflamável líquido. | Local de operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos. |\n| o. Desgaseificação, decantação e reparos de<br>vasilhames não desgaseificados ou decantados,<br>utilizados no transporte de inflamáveis. | Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>externos. |\n| p. Testes em aparelhos de consumo de gás e seus<br>equipamentos. | Local da operação, acrescido de faixa de 7,5<br>metros de largura em torno dos seus pontos<br>extremos. |\n| q. abastecimento de inflamáveis | Toda a área de operação, abrangendo, no<br>mínimo, círculo com raio de 7,5 metros com<br>centro no ponto de abastecimento e o círculo<br>com raio de 7,5 metros com centro na bomba<br>de abastecimento da viatura e faixa de 7,5<br>metros de largura para ambos os lados da<br>máquina. |\n| r. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados<br>ou decantados, em locais abertos. | Faixa de 3 metros de largura em torno dos seus<br>pontos externos. |\n| s. Armazenamento de vasilhames que contenham<br>inflamáveis líquidos ou vazios não desgaseificados,<br>ou decantados, em recinto fechado. | Toda a área interna do recinto. |\n| t. Carga e descarga de vasilhames contendo<br>inflamáveis líquidos ou vasilhames vazios não<br>desgaseificados ou decantados, transportados pôr<br>navios,chatas ou batelões. | Afastamento de 3 metros da beira do cais,<br>durante a operação, com extensão<br>correspondente ao comprimento da<br>embarcação. |"
         },
         {
           "type": "paragraph",
@@ -628,47 +504,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Capacidade Máxima para Embalagens de Líquidos Inflamáveis |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| Embalagem combinada |  |  |  |  |\n| Embalagem interna | Embalagem"
-        },
-        {
-          "type": "paragraph",
-          "text": "Externa | Grupo de Embalagens* I | Grupo de Embalagens* lI | Grupo de Embalagens* III |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Recipientes de Vidro"
-        },
-        {
-          "type": "paragraph",
-          "text": "com mais de 5 e até 10 litros; Plástico com mais de 5 e até 30 litros; Metal com mais de 5 e até 40 litros. | Tambores de: Metal Plástico Madeira Compensada Fibra | 250 kg 250 kg 150 kg 75 kg | 400 kg 400 kg 400 kg | 400 kg 400 kg 400 kg |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  | Caixas |  |  |  |\n|  | Aço ou Alumínio"
-        },
-        {
-          "type": "paragraph",
-          "text": "Madeira Natural ou compensada Madeira Aglomerada Papelão Plástico Flexível Plástico Rígido | 250 kg | 400 kg | 400 kg |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  |  | 150 kg | 400 kg | 400 kg |\n|  |  | 75 kg | 400 kg | 400 kg |\n|  |  | 60 kg | 60 kg | 60 kg |\n|  |  | 150 kg | 400 kg | 400 kg |\n|  | Bombonas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Aço ou Alumínio Plástico | 120 kg 120 kg | 120 kg 120 kg |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Embalagens Simples |  |  |  |  |\n|  | Grupo de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Embalagens* I | Grupo de Embalagens* II |  | Grupo de Embalagens* III |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  |  | 450 L |  | 450 L |"
+          "markdown": "| Capacidade Máxima para Embalagens de Líquidos Inflamáveis | | | | |\n| --- | --- | --- | --- | --- |\n| Embalagem combinada | | | | |\n| Embalagem interna | Embalagem Externa | Grupo de Embalagens* I | Grupo de Embalagens* lI | Grupo de Embalagens* III |\n| Recipientes de Vidro com mais de 5 e até 10 litros; Plástico com mais de 5 e até 30 litros; Metal com mais de 5 e até 40 litros. | Tambores de: Metal Plástico Madeira Compensada Fibra | 250 kg 250 kg 150 kg 75 kg | 400 kg 400 kg 400 kg 400 kg | 400 kg 400 kg 400 kg 400 kg |\n| | Caixas | | | |\n| | Aço ou Alumínio Madeira Natural ou compensada Madeira Aglomerada Papelão Plástico Flexível Plástico Rígido | 250 kg | 400 kg | 400 kg |\n| | | 150 kg | 400 kg | 400 kg |\n| | | 75 kg | 400 kg | 400 kg |\n| | | 60 kg | 60 kg | 60 kg |\n| | | 150 kg | 400 kg | 400 kg |\n| | Bombonas Aço ou Alumínio Plástico | 120 kg 120 kg | 120 kg 120 kg | 120 kg 120 kg |\n| Embalagens Simples | | | | |\n| | Grupo de Embalagens* I | Grupo de Embalagens* II | | Grupo de Embalagens* III |\n| | | 450 L | | 450 L |"
         },
         {
           "type": "paragraph",
@@ -691,43 +527,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  |  |  |  |\n| --- | --- | --- | --- |\n| Bombonas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Aço, tampa não removível Aço, tampa removível Alumínio, tampa não removível Alumínio, tampa removível Outros metais, tampa não removível Outros metais, tampa removível Plástico, tampa não removível Plástico, tampa removível | 60 L 60 L** 60 L 60 L** 60 L 60 L** 60 L 60 L** | 60 L | 60 L |"
+          "markdown": "| | | | |\n| --- | --- | --- | --- |\n| Bombonas Aço, tampa não removível Aço, tampa removível Alumínio, tampa não removível Alumínio, tampa removível Outros metais, tampa não removível Outros metais, tampa removível Plástico, tampa não removível Plástico, tampa removível | 60 L 60 L** 60 L 60 L** 60 L 60 L** 60 L 60 L** | 60 L | 60 L |"
         },
         {
           "type": "table",
-          "markdown": "| Embalagens Compostas |  |  |  |\n| --- | --- | --- | --- |\n|  | Grupo de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Embalagens* I | Grupo de Embalagens* II | Grupo de Embalagens* III |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Plástico com tambor externo de aço"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou alumínio Plástico com tambor externo de fibra, plástico ou compensado | 250 L | 250 L | 250 L |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Plástico com engradado ou caixa"
-        },
-        {
-          "type": "paragraph",
-          "text": "externa de aço ou alumínio ou madeira externa ou caixa externa de compensado ou de cartão ou de plástico rígido Vidro com tambor externo de aço, alumínio, fibra, | 120 L | 250 L | 250 L |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Compensado, plástico flexível ou | 60 L | 60 L | 60 L |\n| Em caixa de aço, alumínio, madeira,"
-        },
-        {
-          "type": "paragraph",
-          "text": "papelão ou compensado | 60 L | 60 L | 60 L |"
+          "markdown": "| Embalagens Compostas | | | |\n| --- | --- | --- | --- |\n| | Grupo de Embalagens* I | Grupo de Embalagens* II | Grupo de Embalagens* III |\n| Plástico com tambor externo de aço ou alumínio Plástico com tambor externo de fibra, plástico ou compensado | 250 L | 250 L | 250 L |\n| Plástico com engradado ou caixa externa de aço ou alumínio ou madeira externa ou caixa externa de compensado ou de cartão ou de plástico rígido Vidro com tambor externo de aço, alumínio, fibra, | 120 L | 250 L | 250 L |\n| Compensado, plástico flexível ou | 60 L | 60 L | 60 L |\n| Em caixa de aço, alumínio, madeira, papelão ou compensado | 60 L | 60 L | 60 L |"
         },
         {
           "type": "paragraph",
@@ -858,75 +662,7 @@
         },
         {
           "type": "table",
-          "markdown": "| ATIVIDADES OU OPERAÇÕES | DESCRIÇÃO |\n| --- | --- |\n| Vigilância patrimonial | Segurança patrimonial e/ou pessoal na preservação do"
-        },
-        {
-          "type": "paragraph",
-          "text": "patrimônio em estabelecimentos públicos ou privados e da incolumidade física de pessoas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Segurança de eventos | Segurança patrimonial e/ou pessoal em espaços públicos"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou privados, de uso comum do povo. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Segurança nos transportes coletivos | Segurança patrimonial e/ou pessoal nos transportes"
-        },
-        {
-          "type": "paragraph",
-          "text": "coletivos e em suas respectivas instalações. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Segurança ambiental e florestal | Segurança patrimonial e/ou pessoal em áreas de"
-        },
-        {
-          "type": "paragraph",
-          "text": "conservação de fauna, flora natural e de reflorestamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Transporte de valores | Segurança na execução do serviço de transporte de"
-        },
-        {
-          "type": "paragraph",
-          "text": "valores. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Escolta armada | Segurança no acompanhamento de qualquer tipo de"
-        },
-        {
-          "type": "paragraph",
-          "text": "carga ou de valores. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Segurança pessoal | Acompanhamento e proteção da integridade física de"
-        },
-        {
-          "type": "paragraph",
-          "text": "pessoa ou de grupos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Supervisão/fiscalização Operacional | Supervisão e/ou fiscalização direta dos locais de trabalho"
-        },
-        {
-          "type": "paragraph",
-          "text": "para acompanhamento e orientação dos vigilantes. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Telemonitoramento/telecontrole | Execução de controle e/ou monitoramento de locais,"
-        },
-        {
-          "type": "paragraph",
-          "text": "através de sistemas eletrônicos de segurança. |"
+          "markdown": "| ATIVIDADES OU OPERAÇÕES | DESCRIÇÃO |\n| --- | --- |\n| Vigilância patrimonial | Segurança patrimonial e/ou pessoal na preservação do patrimônio em estabelecimentos públicos ou privados e da incolumidade física de pessoas. |\n| Segurança de eventos | Segurança patrimonial e/ou pessoal em espaços públicos ou privados, de uso comum do povo. |\n| Segurança nos transportes coletivos | Segurança patrimonial e/ou pessoal nos transportes coletivos e em suas respectivas instalações. |\n| Segurança ambiental e florestal | Segurança patrimonial e/ou pessoal em áreas de conservação de fauna, flora natural e de reflorestamento. |\n| Transporte de valores | Segurança na execução do serviço de transporte de valores. |\n| Escolta armada | Segurança no acompanhamento de qualquer tipo de carga ou de valores. |\n| Segurança pessoal | Acompanhamento e proteção da integridade física de pessoa ou de grupos. |\n| Supervisão/fiscalização Operacional | Supervisão e/ou fiscalização direta dos locais de trabalho para acompanhamento e orientação dos vigilantes. |\n| Telemonitoramento/telecontrole | Execução de controle e/ou monitoramento de locais, através de sistemas eletrônicos de segurança. |"
         }
       ]
     },
@@ -1229,23 +965,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  | ATIVIDADES |  |  | ÁREAS DE RISCO |  |\n| --- | --- | --- | --- | --- | --- |\n| . Atividades, constantes no item 4.1, de"
-        },
-        {
-          "type": "paragraph",
-          "text": "construção, operação e manutenção de redes de linhas aéreas ou subterrâneas de alta e baixa tensão integrantes do SEP, energizados ou desenergizados, mas com possibilidade de energização acidental ou por falha operacional. |  |  |  | a) Estruturas, condutores e equipamentos de |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  |  |  |  | linhas aéreas de transmissão, subtransmissão e |  |\n|  |  |  |  | distribuição, incluindo plataformas e cestos |  |\n|  |  |  |  | aéreos usados para execução dos trabalhos; |  |\n|  |  |  |  | b) Pátio e salas de operação de subestações; |  |\n|  |  |  |  | c) Cabines de distribuição; |  |\n|  |  |  |  | d) Estruturas, condutores e equipamentos de |  |\n|  |  |  |  | redes de tração elétrica, incluindo escadas, |  |\n|  |  |  |  | plataformas e cestos aéreos usados para |  |\n|  |  |  |  | execução dos trabalhos; |  |\n|  |  |  |  | e) Valas, bancos de dutos, canaletas, condutores, |  |\n|  |  |  |  | recintos internos de caixas, poços de inspeção, |  |\n|  |  |  |  | câmaras, galerias, túneis, estruturas terminais |  |\n|  |  |  |  | e aéreas de superfície correspondentes; |  |\n|  |  |  |  | f) Áreas submersas em rios, lagos e mares. |  |\n| . | Atividades, constantes no item 4.2, de |  |  | a) Pontos de medição e cabinas de distribuição, |  |\n|  | construção, operação e manutenção nas usinas, |  |  | inclusive de consumidores; |  |\n|  | unidades geradoras, subestações e cabinas de |  |  |  |  |\n|  |  |  |  | b) Salas de controles, casa de máquinas, |  |\n|  | distribuição em operações, integrantes do SEP, |  |  |  |  |\n|  |  |  |  | barragens de usinas e unidades geradoras; |  |\n|  | energizados ou desenergizados, mas com |  |  |  |  |\n|  |  |  |  | c) Pátios e salas de operações de subestações, |  |\n|  | possibilidade de energização acidental ou por |  |  |  |  |\n|  | falha operacional. |  |  | inclusive consumidoras. |  |\n| . Atividades de inspeção, testes, ensaios,"
-        },
-        {
-          "type": "paragraph",
-          "text": "calibração, medição e reparos em equipamentos e materiais elétricos, eletrônicos, eletromecânicos e de segurança individual e coletiva em sistemas elétricos de potência de alta e baixa tensão. |  |  |  | a) Áreas das oficinas e laboratórios de testes e |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  |  |  |  | manutenção elétrica, eletrônica e |  |\n|  |  |  |  | eletromecânica onde são executados testes, |  |\n|  |  |  |  | ensaios, calibração e reparos de equipamentos |  |\n|  |  |  |  | energizados ou passíveis de energização |  |\n|  |  |  |  | acidental; |  |\n|  |  |  |  | b) Sala de controle e casas de máquinas de usinas |  |\n|  |  |  |  | e unidades geradoras; |  |\n|  |  |  |  | c) Pátios e salas de operação de subestações, |  |\n|  |  |  |  | inclusive consumidoras; |  |\n|  |  |  |  | d) Salas de ensaios elétricos de alta tensão; |  |\n|  |  |  |  | e) Sala de controle dos centros de operações. |  |\n| . | Atividades de treinamento em equipamentos ou |  | a) Todas as áreas descritas nos itens anteriores. |  |  |\n|  | instalações integrantes do SEP, energizadas ou |  |  |  |  |"
+          "markdown": "| | ATIVIDADES | | | ÁREAS DE RISCO | |\n| --- | --- | --- | --- | --- | --- |\n| . Atividades, constantes no item 4.1, de construção, operação e manutenção de redes de linhas aéreas ou subterrâneas de alta e baixa tensão integrantes do SEP, energizados ou desenergizados, mas com possibilidade de energização acidental ou por falha operacional. | | | | a) Estruturas, condutores e equipamentos de | |\n| | | | | linhas aéreas de transmissão, subtransmissão e | |\n| | | | | distribuição, incluindo plataformas e cestos | |\n| | | | | aéreos usados para execução dos trabalhos; | |\n| | | | | b) Pátio e salas de operação de subestações; | |\n| | | | | c) Cabines de distribuição; | |\n| | | | | d) Estruturas, condutores e equipamentos de | |\n| | | | | redes de tração elétrica, incluindo escadas, | |\n| | | | | plataformas e cestos aéreos usados para | |\n| | | | | execução dos trabalhos; | |\n| | | | | e) Valas, bancos de dutos, canaletas, condutores, | |\n| | | | | recintos internos de caixas, poços de inspeção, | |\n| | | | | câmaras, galerias, túneis, estruturas terminais | |\n| | | | | e aéreas de superfície correspondentes; | |\n| | | | | f) Áreas submersas em rios, lagos e mares. | |\n| . | Atividades, constantes no item 4.2, de | | | a) Pontos de medição e cabinas de distribuição, | |\n| | construção, operação e manutenção nas usinas, | | | inclusive de consumidores; | |\n| | unidades geradoras, subestações e cabinas de | | | | |\n| | | | | b) Salas de controles, casa de máquinas, | |\n| | distribuição em operações, integrantes do SEP, | | | | |\n| | | | | barragens de usinas e unidades geradoras; | |\n| | energizados ou desenergizados, mas com | | | | |\n| | | | | c) Pátios e salas de operações de subestações, | |\n| | possibilidade de energização acidental ou por | | | | |\n| | falha operacional. | | | inclusive consumidoras. | |\n| . Atividades de inspeção, testes, ensaios, calibração, medição e reparos em equipamentos e materiais elétricos, eletrônicos, eletromecânicos e de segurança individual e coletiva em sistemas elétricos de potência de alta e baixa tensão. | | | | a) Áreas das oficinas e laboratórios de testes e | |\n| | | | | manutenção elétrica, eletrônica e | |\n| | | | | eletromecânica onde são executados testes, | |\n| | | | | ensaios, calibração e reparos de equipamentos | |\n| | | | | energizados ou passíveis de energização | |\n| | | | | acidental; | |\n| | | | | b) Sala de controle e casas de máquinas de usinas | |\n| | | | | e unidades geradoras; | |\n| | | | | c) Pátios e salas de operação de subestações, | |\n| | | | | inclusive consumidoras; | |\n| | | | | d) Salas de ensaios elétricos de alta tensão; | |\n| | | | | e) Sala de controle dos centros de operações. | |\n| . | Atividades de treinamento em equipamentos ou | | a) Todas as áreas descritas nos itens anteriores. | | |\n| | instalações integrantes do SEP, energizadas ou | | | | |"
         },
         {
           "type": "paragraph",
@@ -1368,7 +1088,7 @@
         },
         {
           "type": "table",
-          "markdown": "| desenergizadas, mas com possibilidade de |  |  |\n| --- | --- | --- |\n| energização acidental ou por falha operacional. |  |  |"
+          "markdown": "| desenergizadas, mas com possibilidade de | | |\n| --- | --- | --- |\n| energização acidental ou por falha operacional. | | |"
         },
         {
           "type": "paragraph",
@@ -1549,27 +1269,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  |  |\n| --- | --- |\n| ATIVIDADES/ÁREAS DE RISCO |  |\n| ATIVIDADES | ÁREAS DE RISCO |\n| 1. Produção, utilização, processamento, transporte,"
-        },
-        {
-          "type": "paragraph",
-          "text": "guarda, estocagem e manuseio de materiais radioativos, selados e não selados, de estado físico e forma química quaisquer, naturais ou artificiais, incluindo: | Minas e depósitos de materiais radioativos. Plantas-piloto e Usinas de beneficiamento de minerais radioativos. Outras áreas sujeitas a risco potencial devido às radiações ionizantes |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.1. Prospecção, mineração, operação,"
-        },
-        {
-          "type": "paragraph",
-          "text": "beneficiamento e processamento de minerais radioativos. | Lixiviação de mineiras radiativos para a produção de concentrados de urânio e tório. Purificação de concentrados e conversão em outras formas para uso como combustível nuclear. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.2. Produção, transformação e tratamento de"
-        },
-        {
-          "type": "paragraph",
-          "text": "materiais nucleares para o ciclo do combustível nuclear. | Produção de fluoretos de urânio para a produção de hexafluoretos e urânio metálico. Instalações para enriquecimento isotópico e reconversão. Fabricação de elemento combustível nuclear. |"
+          "markdown": "| | |\n| --- | --- |\n| ATIVIDADES/ÁREAS DE RISCO | |\n| ATIVIDADES | ÁREAS DE RISCO |\n| 1. Produção, utilização, processamento, transporte, guarda, estocagem e manuseio de materiais radioativos, selados e não selados, de estado físico e forma química quaisquer, naturais ou artificiais, incluindo: | Minas e depósitos de materiais radioativos. Plantas-piloto e Usinas de beneficiamento de minerais radioativos. Outras áreas sujeitas a risco potencial devido às radiações ionizantes |\n| 1.1. Prospecção, mineração, operação, beneficiamento e processamento de minerais radioativos. | Lixiviação de mineiras radiativos para a produção de concentrados de urânio e tório. Purificação de concentrados e conversão em outras formas para uso como combustível nuclear. |\n| 1.2. Produção, transformação e tratamento de materiais nucleares para o ciclo do combustível nuclear. | Produção de fluoretos de urânio para a produção de hexafluoretos e urânio metálico. Instalações para enriquecimento isotópico e reconversão. Fabricação de elemento combustível nuclear. |"
         },
         {
           "type": "note",
@@ -1577,163 +1277,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  | Instalações para armazenamento dos"
-        },
-        {
-          "type": "paragraph",
-          "text": "elementos combustíveis usados. Instalações para o retratamento do combustível irradiado. Instalações para o tratamento e deposições, provisórias e finais, dos rejeitos radioativos naturais e artificiais. |"
+          "markdown": "| | Instalações para armazenamento dos elementos combustíveis usados. Instalações para o retratamento do combustível irradiado. Instalações para o tratamento e deposições, provisórias e finais, dos rejeitos radioativos naturais e artificiais. |\n| --- | --- |\n| 1.3. Produção de radioisótopos para uso em medicina, agricultura, agropecuária, pesquisa científica e tecnológica. | Laboratórios para a produção de radioisótopos e moléculas marcadas. |\n| 1.4. Produção de Fontes Radioativas | Instalações para tratamento de material radioativo e confecção de fontes. Laboratórios de testes, ensaios e calibração de fontes, detectores e monitores de radiação, com fontes radioativas. |\n| 1.5. Testes, ensaios e calibração de detectores e monitores de radiação com fontes de radiação. | Laboratórios de ensaios para materiais radioativos Laboratórios de radioquímica. |\n| 1.6. Descontaminação de superfícies, instrumentos, máquinas, ferramentas, utensílios de laboratório, vestimentas e de quaisquer outras áreas ou bens duráveis contaminados com material radioativos. | Laboratórios para descontaminação de peças e materiais radioativos. Coleta de rejeitos radioativos em instalações, prédios e em áreas abertas. Lavanderia para roupas contaminadas. Transporte de materiais e rejeitos radioativos, condicionamento, estocagens e suas deposição. |\n| 1.7. Separação isotópica e processamento radioquímico. | Instalações para tratamento, condicionamento, contenção, estabilização, estocagem e deposição de rejeitos radioativos. Instalações para retenção de rejeitos radioativos. |\n| 1.8. Manuseio, condicionamento, liberação, monitoração, estabilização, inspeção, retenção e deposição de rejeitos radioativos. | Sítios de rejeitos. Instalações para estocagem de produtos radioativos para posterior aproveitamento. |\n| 2. Atividades de operação e manutenção de reatores nucleares, incluindo: | Edifícios de reatores. Edifícios de estocagem de combustível. |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- |\n| 1.3. Produção de radioisótopos para uso em"
-        },
-        {
-          "type": "paragraph",
-          "text": "medicina, agricultura, agropecuária, pesquisa científica e tecnológica. | Laboratórios para a produção de radioisótopos e moléculas marcadas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.4. Produção de Fontes Radioativas | Instalações para tratamento de material"
-        },
-        {
-          "type": "paragraph",
-          "text": "radioativo e confecção de fontes. Laboratórios de testes, ensaios e calibração de fontes, detectores e monitores de radiação, com fontes radioativas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.5. Testes, ensaios e calibração de detectores e"
-        },
-        {
-          "type": "paragraph",
-          "text": "monitores de radiação com fontes de radiação. | Laboratórios de ensaios para materiais radioativos Laboratórios de radioquímica. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.6. Descontaminação de superfícies, instrumentos,"
-        },
-        {
-          "type": "paragraph",
-          "text": "máquinas, ferramentas, utensílios de laboratório, vestimentas e de quaisquer outras áreas ou bens duráveis contaminados com material radioativos. | Laboratórios para descontaminação de peças e materiais radioativos. Coleta de rejeitos radioativos em instalações, prédios e em áreas abertas. Lavanderia para roupas contaminadas. Transporte de materiais e rejeitos radioativos, condicionamento, estocagens e suas deposição. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.7. Separação isotópica e processamento"
-        },
-        {
-          "type": "paragraph",
-          "text": "radioquímico. | Instalações para tratamento, condicionamento, contenção, estabilização, estocagem e deposição de rejeitos radioativos. Instalações para retenção de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.8. Manuseio, condicionamento, liberação,"
-        },
-        {
-          "type": "paragraph",
-          "text": "monitoração, estabilização, inspeção, retenção e deposição de rejeitos radioativos. | Sítios de rejeitos. Instalações para estocagem de produtos radioativos para posterior aproveitamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2. Atividades de operação e manutenção de"
-        },
-        {
-          "type": "paragraph",
-          "text": "reatores nucleares, incluindo: | Edifícios de reatores. Edifícios de estocagem de combustível. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2.1. Montagem, instalação, substituição e inspeção"
-        },
-        {
-          "type": "paragraph",
-          "text": "de elementos combustíveis. | Instalações de tratamento e estocagem de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| 2.2. Manutenção de componentes integrantes do"
-        },
-        {
-          "type": "paragraph",
-          "text": "reator e dos sistemas hidráulicos mecânicos e elétricos, irradiados, contaminados ou situados em áreas de radiação. | Instalações para tratamento de água e reatores e separação e contenção de produtos radioativos. Salas de operação de reatores. Salas de amostragem de efluentes radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2.3. Manuseio de amostras irradiadas. | Laboratórios de medidas de radioativos. |\n| 2.4. Experimentos utilizados canais de irradiação. | Outras áreas sujeitas a risco potencial às"
-        },
-        {
-          "type": "paragraph",
-          "text": "radiações ionizantes, passíveis de serem atingidas por dispersão de produtos voláteis. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2.5 Medição de radiação, levantamento de dados"
-        },
-        {
-          "type": "paragraph",
-          "text": "radiológicos e nucleares, ensaios, testes, inspeções, fiscalização e supervisão de trabalhos técnicos. | Laboratórios semiquentes e quentes. Minas de urânio e tório. Depósitos de minerais radiativos e produtos do tratamento de minerais radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2.6 Segregação, manuseio, tratamento,"
-        },
-        {
-          "type": "paragraph",
-          "text": "acondicionamento e armazenamento de rejeitos radioativos. | Coletas de materiais e peças radioativas, materiais contaminados com radiosótopos e águas radioativas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3. atividades de operação e manutenção de"
-        },
-        {
-          "type": "paragraph",
-          "text": "aceleradores de partículas, incluindo: | Áreas de irradiação de alvos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3.1. Montagem, instalação substituição e"
-        },
-        {
-          "type": "paragraph",
-          "text": "manutenção de componentes irradiados ou contaminados. | Oficinas de manutenção de componentes irradiados ou contaminados. |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  | Salas de operação de aceleradores. |\n| 3.2. Processamento de alvos irradiados. | Laboratórios para tratamento de alvos"
-        },
-        {
-          "type": "paragraph",
-          "text": "irradiados e separação de radioisótopos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3.3. Experimentos com feixes de partículas. | Laboratórios de testes com radiação e"
-        },
-        {
-          "type": "paragraph",
-          "text": "medidas nucleares. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3.4. Medição de radiação, levantamento de dados"
-        },
-        {
-          "type": "paragraph",
-          "text": "radiológicos e nucleares, testes, inspeções e supervisão de trabalhos técnicos. | Áreas de tratamento e estocagem de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3.5. Segregação, manuseio, tratamento,"
-        },
-        {
-          "type": "paragraph",
-          "text": "acondicionamento e armazenamento de rejeitos radioativos. | Laboratórios de processamento de alvos irradiados. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4. Atividades de operação com aparelhos de raios-X,"
-        },
-        {
-          "type": "paragraph",
-          "text": "com irradiadores de radiação gama, radiação beta ou radiação de nêutrons, incluindo: | Salas de irradiação e de operação de aparelhos de raios-X e de irradiadores gama, beta ou neutrons |"
+          "markdown": "| 2.1. Montagem, instalação, substituição e inspeção de elementos combustíveis. | Instalações de tratamento e estocagem de rejeitos radioativos. |\n| --- | --- |\n| 2.2. Manutenção de componentes integrantes do reator e dos sistemas hidráulicos mecânicos e elétricos, irradiados, contaminados ou situados em áreas de radiação. | Instalações para tratamento de água e reatores e separação e contenção de produtos radioativos. Salas de operação de reatores. Salas de amostragem de efluentes radioativos. |\n| 2.3. Manuseio de amostras irradiadas. | Laboratórios de medidas de radioativos. |\n| 2.4. Experimentos utilizados canais de irradiação. | Outras áreas sujeitas a risco potencial às radiações ionizantes, passíveis de serem atingidas por dispersão de produtos voláteis. |\n| 2.5 Medição de radiação, levantamento de dados radiológicos e nucleares, ensaios, testes, inspeções, fiscalização e supervisão de trabalhos técnicos. | Laboratórios semiquentes e quentes. Minas de urânio e tório. Depósitos de minerais radiativos e produtos do tratamento de minerais radioativos. |\n| 2.6 Segregação, manuseio, tratamento, acondicionamento e armazenamento de rejeitos radioativos. | Coletas de materiais e peças radioativas, materiais contaminados com radiosótopos e águas radioativas. |\n| 3. atividades de operação e manutenção de aceleradores de partículas, incluindo: | Áreas de irradiação de alvos. |\n| 3.1. Montagem, instalação substituição e manutenção de componentes irradiados ou contaminados. | Oficinas de manutenção de componentes irradiados ou contaminados. |\n| | Salas de operação de aceleradores. |\n| 3.2. Processamento de alvos irradiados. | Laboratórios para tratamento de alvos irradiados e separação de radioisótopos. |\n| 3.3. Experimentos com feixes de partículas. | Laboratórios de testes com radiação e medidas nucleares. |\n| 3.4. Medição de radiação, levantamento de dados radiológicos e nucleares, testes, inspeções e supervisão de trabalhos técnicos. | Áreas de tratamento e estocagem de rejeitos radioativos. |\n| 3.5. Segregação, manuseio, tratamento, acondicionamento e armazenamento de rejeitos radioativos. | Laboratórios de processamento de alvos irradiados. |\n| 4. Atividades de operação com aparelhos de raios-X, com irradiadores de radiação gama, radiação beta ou radiação de nêutrons, incluindo: | Salas de irradiação e de operação de aparelhos de raios-X e de irradiadores gama, beta ou neutrons |"
         },
         {
           "type": "note",
@@ -1741,123 +1289,7 @@
         },
         {
           "type": "table",
-          "markdown": "| 4.1. Diagnostico médico e odontológico. | Laboratórios de testes, ensaios e calibração"
-        },
-        {
-          "type": "paragraph",
-          "text": "com as fontes de radiação descritas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| 4.2. Radioterapia. |  |\n| 4.3. Radiografia industrial, gamagrafia e"
-        },
-        {
-          "type": "paragraph",
-          "text": "neutronradiografia. | Manuseio de fontes. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4.4. Análise de materiais por difratometria. | Manuseio do equipamento. |\n| 4.5. Testes ensaios e calibração de detectores e"
-        },
-        {
-          "type": "paragraph",
-          "text": "monitores e radiação. | Manuseio de fontes amostras radioativas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4.6. Irradiação de alimentos. | Manuseio de fontes e instalações para a"
-        },
-        {
-          "type": "paragraph",
-          "text": "irradiação de alimentos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4.7. Estabilização de instrumentos médicohospitalares. | Manuseio de fontes e instalações para a"
-        },
-        {
-          "type": "paragraph",
-          "text": "operação. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4.8. Irradiação de espécimes minerais e biológicos. | Manuseio de amostras irradiadas. |\n| 4.9. Medição de radiação, levantamento de dados"
-        },
-        {
-          "type": "paragraph",
-          "text": "radiológicos, ensaios, testes, inspeções, fiscalização de trabalhos técnicos. | Laboratórios de ensaios e calibração de fontes e materiais radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5. Atividades de medicina nuclear. | Sala de diagnósticos e terapia com medicina"
-        },
-        {
-          "type": "paragraph",
-          "text": "nuclear. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5.1. Manuseio e aplicação de radioisótopos para"
-        },
-        {
-          "type": "paragraph",
-          "text": "diagnóstico médico e terapia. | Enfermaria de pacientes, sob tratamento com radioisótopos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  | Enfermaria de pacientes contaminados com"
-        },
-        {
-          "type": "paragraph",
-          "text": "radioisótopos em observação e sob tratamento de descontaminação. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5.2. Manuseio de fontes seladas para aplicação em"
-        },
-        {
-          "type": "paragraph",
-          "text": "braquiterapia. | Área de tratamento e estocagem de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5.3. Obtenção de dados biológicos de pacientes com"
-        },
-        {
-          "type": "paragraph",
-          "text": "radioisótopos incorporados. | Manuseio de materiais biológicos contendo radioisótopos ou moléculas marcadas. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5.4. Segregação, manuseio, tratamento,"
-        },
-        {
-          "type": "paragraph",
-          "text": "acondicionamento e estocagem de rejeitos radioativos. | Laboratórios para descontaminação e coleta de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6. Descomissionamento de instalações nucleares e"
-        },
-        {
-          "type": "paragraph",
-          "text": "radioativas, que inclui: | Áreas de instalações nucleares e radioativas contaminadas e com rejeitos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6.1 Todas as descontaminações radioativas"
-        },
-        {
-          "type": "paragraph",
-          "text": "inerentes. | Depósitos provisórios e definitivos de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6.2. Gerenciamento dos rejeitos radioativos"
-        },
-        {
-          "type": "paragraph",
-          "text": "existentes, ou sejam; tratamento e acondicionamento dos rejeitos líquidos, sólidos, | Instalações para contenção de rejeitos radioativos. |"
+          "markdown": "| 4.1. Diagnostico médico e odontológico. | Laboratórios de testes, ensaios e calibração com as fontes de radiação descritas. |\n| --- | --- |\n| 4.2. Radioterapia. | |\n| 4.3. Radiografia industrial, gamagrafia e neutronradiografia. | Manuseio de fontes. |\n| 4.4. Análise de materiais por difratometria. | Manuseio do equipamento. |\n| 4.5. Testes ensaios e calibração de detectores e monitores e radiação. | Manuseio de fontes amostras radioativas. |\n| 4.6. Irradiação de alimentos. | Manuseio de fontes e instalações para a irradiação de alimentos. |\n| 4.7. Estabilização de instrumentos médico- hospitalares. | Manuseio de fontes e instalações para a operação. |\n| 4.8. Irradiação de espécimes minerais e biológicos. | Manuseio de amostras irradiadas. |\n| 4.9. Medição de radiação, levantamento de dados radiológicos, ensaios, testes, inspeções, fiscalização de trabalhos técnicos. | Laboratórios de ensaios e calibração de fontes e materiais radioativos. |\n| 5. Atividades de medicina nuclear. | Sala de diagnósticos e terapia com medicina nuclear. |\n| 5.1. Manuseio e aplicação de radioisótopos para diagnóstico médico e terapia. | Enfermaria de pacientes, sob tratamento com radioisótopos. |\n| | Enfermaria de pacientes contaminados com radioisótopos em observação e sob tratamento de descontaminação. |\n| 5.2. Manuseio de fontes seladas para aplicação em braquiterapia. | Área de tratamento e estocagem de rejeitos radioativos. |\n| 5.3. Obtenção de dados biológicos de pacientes com radioisótopos incorporados. | Manuseio de materiais biológicos contendo radioisótopos ou moléculas marcadas. |\n| 5.4. Segregação, manuseio, tratamento, acondicionamento e estocagem de rejeitos radioativos. | Laboratórios para descontaminação e coleta de rejeitos radioativos. |\n| 6. Descomissionamento de instalações nucleares e radioativas, que inclui: | Áreas de instalações nucleares e radioativas contaminadas e com rejeitos. |\n| 6.1 Todas as descontaminações radioativas inerentes. | Depósitos provisórios e definitivos de rejeitos radioativos. |\n| 6.2. Gerenciamento dos rejeitos radioativos existentes, ou sejam; tratamento e acondicionamento dos rejeitos líquidos, sólidos, | Instalações para contenção de rejeitos radioativos. |"
         },
         {
           "type": "paragraph",
@@ -1885,23 +1317,7 @@
         },
         {
           "type": "table",
-          "markdown": "| gasosos e aerossóis; transporte e deposição dos"
-        },
-        {
-          "type": "paragraph",
-          "text": "mesmos. | Instalações para asfaltamento de rejeitos radioativos. Instalações para cimentação de rejeitos radioativos. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| 7. Descomissionamento de minas, moinhos e usinas"
-        },
-        {
-          "type": "paragraph",
-          "text": "de tratamento de minerais radioativos. | Tratamento de rejeitos minerais. Repositório de rejeitos naturais (bacia de contenção de rádio e outros radioisótopos). Deposição de gangas e rejeitos de mineração. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Nota Explicativa: |  |\n| (Inserida pela Portaria MTE nº 595, de 07 de maio de 2015) |  |\n| 1. Não são consideradas perigosas, para efeito deste anexo, as atividades desenvolvidas em áreas que |  |\n| utilizam equipamentos móveis de Raios X para diagnóstico médico. |  |\n| 2. Áreas tais como emergências, centro de tratamento intensivo, sala de recuperação e leitos de |  |\n| internação não são classificadas como salas de irradiação em razão do uso do equipamento móvel de |  |\n| Raios X. |  |\n| (*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987. |  |"
+          "markdown": "| gasosos e aerossóis; transporte e deposição dos mesmos. | Instalações para asfaltamento de rejeitos radioativos. Instalações para cimentação de rejeitos radioativos. |\n| --- | --- |\n| 7. Descomissionamento de minas, moinhos e usinas de tratamento de minerais radioativos. | Tratamento de rejeitos minerais. Repositório de rejeitos naturais (bacia de contenção de rádio e outros radioisótopos). Deposição de gangas e rejeitos de mineração. |\n| Nota Explicativa: | |\n| (Inserida pela Portaria MTE nº 595, de 07 de maio de 2015) | |\n| 1. Não são consideradas perigosas, para efeito deste anexo, as atividades desenvolvidas em áreas que | |\n| utilizam equipamentos móveis de Raios X para diagnóstico médico. | |\n| 2. Áreas tais como emergências, centro de tratamento intensivo, sala de recuperação e leitos de | |\n| internação não são classificadas como salas de irradiação em razão do uso do equipamento móvel de | |\n| Raios X. | |\n| (*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987. | |"
         }
       ]
     }

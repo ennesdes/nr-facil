@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria SSST N.º53, de 17 de dezembro de 1997|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSST nº18, de 30 de março de 1998|03/09/98|\n|Portaria SIT nº18, de 12 de julho de 2002|13/07/02|\n|Portaria SIT nº158, de 10 de abril de 2006|17/04/06|\n|Portaria MTE nº1.895, de 09 de dezembro de 2013|12/12/13|\n|Portaria MTE nº1.080, de 16 de julho de 2014|17/07/14|\n|Portaria MTP nº671, de 30 de março de 2022|01/04/22|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria SSST N.º53, de 17 de dezembro de 1997 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSST nº18, de 30 de março de 1998 | 03/09/98 |\n| Portaria SIT nº18, de 12 de julho de 2002 | 13/07/02 |\n| Portaria SIT nº158, de 10 de abril de 2006 | 17/04/06 |\n| Portaria MTE nº1.895, de 09 de dezembro de 2013 | 12/12/13 |\n| Portaria MTE nº1.080, de 16 de julho de 2014 | 17/07/14 |\n| Portaria MTP nº671, de 30 de março de 2022 | 01/04/22 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |"
       },
       {
         "type": "paragraph",
@@ -4403,63 +4403,15 @@
         },
         {
           "type": "table",
-          "markdown": "|  | Número de trabalhadores avulsos |  |  |  |\n| --- | --- | --- | --- | --- |\n| Profissionais especializados | 20 - 250 | 251 - 750 | 751 - 2000 | 2001 - 3500 |\n| Engenheiro de Segurança do Trabalho | -- | 01 | 02 | 03 |\n| Técnico de Segurança do Trabalho | 01 | 02 | 04 | 11 |\n| Médico do Trabalho | -- | 01 * | 02 | 03 |\n| Enfermeiro do Trabalho | -- | -- | 01 | 03 |\n| Auxiliar/Técnico de Enfermagem do Trabalho | 01 | 01 | 02 | 04 |"
+          "markdown": "| | Número de trabalhadores avulsos | | | |\n| --- | --- | --- | --- | --- |\n| Profissionais especializados | 20 - 250 | 251 - 750 | 751 - 2000 | 2001 - 3500 |\n| Engenheiro de Segurança do Trabalho | -- | 01 | 02 | 03 |\n| Técnico de Segurança do Trabalho | 01 | 02 | 04 | 11 |\n| Médico do Trabalho | -- | 01 * | 02 | 03 |\n| Enfermeiro do Trabalho | -- | -- | 01 | 03 |\n| Auxiliar/Técnico de Enfermagem do Trabalho | 01 | 01 | 02 | 04 |"
         },
         {
           "type": "table",
-          "markdown": "| Nº médio de trabalhadores avulsos | 20"
-        },
-        {
-          "type": "paragraph",
-          "text": "a 50 | 51 a 100 | 101 a 500 | 501 a 1000 | 1001 a 2000 | 2001 a 5000 | 5001 a 10000 | Acima de 10000 a cada grupo de 2500 acrescentar |"
+          "markdown": "| Nº médio de trabalhadores avulsos | 20 a 50 | 51 a 100 | 101 a 500 | 501 a 1000 | 1001 a 2000 | 2001 a 5000 | 5001 a 10000 | Acima de 10000 a cada grupo de 2500 acrescentar |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Nº de representantes titulares dos operadores portuários e dos tomadores de serviço | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |\n| Nº de representantes titulares dos trabalhadores avulsos | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Nº de representantes titulares dos"
-        },
-        {
-          "type": "paragraph",
-          "text": "operadores portuários e dos tomadores de serviço | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Nº de representantes titulares dos"
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalhadores avulsos | 01 | 02 | 04 | 06 | 09 | 12 | 15 | 02 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Faixa de Temperatura"
-        },
-        {
-          "type": "paragraph",
-          "text": "de Bulbo Seco (°C) | Regime de tempo de trabalho com tempo de recuperação fora do ambiente frio, para trabalhadores utilizando EPI e vestimenta adequados para exposição ao frio |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| +15,0 a -17,9 *"
-        },
-        {
-          "type": "paragraph",
-          "text": "+12,0 a -17,9 ** +10,0 a -17,9 *** | Tempo total de trabalho no ambiente frio de 6 horas e 40 minutos, sendo quatro períodos de 1 hora e 40 minutos alternados com 20 minutos de repouso e recuperação térmica fora do ambiente de trabalho. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| -18,0 a -33,9 | Tempo total de trabalho no ambiente frio de 4 horas alternando-se 1 hora de"
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalho com 1 hora para recuperação térmica fora do ambiente frio. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| -34,0 a -56,9 | Tempo total de trabalho no ambiente frio de 1 hora, sendo dois períodos de"
-        },
-        {
-          "type": "paragraph",
-          "text": "30 minutos com separação mínima de 4 horas para recuperação térmica fora |"
+          "markdown": "| Faixa de Temperatura de Bulbo Seco (°C) | Regime de tempo de trabalho com tempo de recuperação fora do ambiente frio, para trabalhadores utilizando EPI e vestimenta adequados para exposição ao frio |\n| --- | --- |\n| +15,0 a -17,9 * +12,0 a -17,9 ** +10,0 a -17,9 *** | Tempo total de trabalho no ambiente frio de 6 horas e 40 minutos, sendo quatro períodos de 1 hora e 40 minutos alternados com 20 minutos de repouso e recuperação térmica fora do ambiente de trabalho. |\n| -18,0 a -33,9 | Tempo total de trabalho no ambiente frio de 4 horas alternando-se 1 hora de trabalho com 1 hora para recuperação térmica fora do ambiente frio. |\n| -34,0 a -56,9 | Tempo total de trabalho no ambiente frio de 1 hora, sendo dois períodos de 30 minutos com separação mínima de 4 horas para recuperação térmica fora |"
         },
         {
           "type": "paragraph",
@@ -4492,79 +4444,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  | do ambiente frio. |\n| --- | --- |\n| -57,0 a -73,0 | Tempo total de trabalho no ambiente frio de 5 minutos sendo o restante da"
-        },
-        {
-          "type": "paragraph",
-          "text": "jornada cumprida obrigatoriamente fora do ambiente frio. |"
+          "markdown": "| | do ambiente frio. |\n| --- | --- |\n| -57,0 a -73,0 | Tempo total de trabalho no ambiente frio de 5 minutos sendo o restante da jornada cumprida obrigatoriamente fora do ambiente frio. |\n| Abaixo de -73,0 | Não é permitida a exposição ao ambiente frio, seja qual for a vestimenta utilizada. |"
         },
         {
           "type": "table",
-          "markdown": "| Abaixo de -73,0 | Não é permitida a exposição ao ambiente frio, seja qual for a vestimenta"
-        },
-        {
-          "type": "paragraph",
-          "text": "utilizada. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| CLASSE 1 - EXPLOSIVOS |  |\n| --- | --- |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 1.1 | Substâncias ou produtos que apresentam perigo de explosão em massa. |\n| 1.2 | Substâncias ou produtos que apresentam perigo de projeção, mas não apresentam perigo"
-        },
-        {
-          "type": "paragraph",
-          "text": "de explosão em massa. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.3 | Substâncias e produtos que apresentam perigo de incêndio e perigo de produção de"
-        },
-        {
-          "type": "paragraph",
-          "text": "pequenos efeitos de onda de choque ou projeção ou ambos os efeitos, mas que não apresentam um perigo de explosão em massa. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.4 | Substâncias e produtos que não apresentam perigo considerável. |\n| 1.5 | Substâncias e produtos muito insensíveis e produtos, mas que apresentam perigo de"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosão em massa. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1.6 | Substâncias e produtos extremamente insensíveis que não apresentam perigo de explosão"
-        },
-        {
-          "type": "paragraph",
-          "text": "em massa. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| CLASSE 2 - GASES COMPRIMIDOS, LIQUEFEITOS OU DISSOLVIDOS SOB PRESSÃO |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 2.1 | Gases inflamáveis. |\n| 2.2 | Gases não inflamáveis e não tóxico. |\n| 2.3 | Gases tóxicos. |\n| CLASSE 3 - LÍQUIDOS INFLÁMAVEIS |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n|  | Líquidos inflamáveis: são líquidos que possuem ponto de fulgor ≤ 60° C (sessenta graus"
-        },
-        {
-          "type": "paragraph",
-          "text": "Celsius). |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  | Líquidos que possuem ponto de fulgor superior a 60° C (sessenta graus Celsius), quando"
-        },
-        {
-          "type": "paragraph",
-          "text": "armazenados e transferidos aquecidos a temperaturas iguais ou superiores ao seu ponto de fulgor, se equiparam aos líquidos inflamáveis. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| CLASSE 4 - SÓLIDOS INFLAMÁVEIS, SUBSTÂNCIAS SUJEITAS À COMBUSTÃO ESPONTÂNEA,"
-        },
-        {
-          "type": "paragraph",
-          "text": "SUBSTÂNCIAS QUE, EM CONTATO COM A ÁGUA EMITEM GASES INFLAMÁVEIS. |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 4.1 | Sólidos inflamáveis, substâncias sujeitas a autoignição, sólidos explosivos dessensibilizadas |"
+          "markdown": "| CLASSE 1 - EXPLOSIVOS | |\n| --- | --- |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 1.1 | Substâncias ou produtos que apresentam perigo de explosão em massa. |\n| 1.2 | Substâncias ou produtos que apresentam perigo de projeção, mas não apresentam perigo de explosão em massa. |\n| 1.3 | Substâncias e produtos que apresentam perigo de incêndio e perigo de produção de pequenos efeitos de onda de choque ou projeção ou ambos os efeitos, mas que não apresentam um perigo de explosão em massa. |\n| 1.4 | Substâncias e produtos que não apresentam perigo considerável. |\n| 1.5 | Substâncias e produtos muito insensíveis e produtos, mas que apresentam perigo de explosão em massa. |\n| 1.6 | Substâncias e produtos extremamente insensíveis que não apresentam perigo de explosão em massa. |\n| CLASSE 2 - GASES COMPRIMIDOS, LIQUEFEITOS OU DISSOLVIDOS SOB PRESSÃO | |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 2.1 | Gases inflamáveis. |\n| 2.2 | Gases não inflamáveis e não tóxico. |\n| 2.3 | Gases tóxicos. |\n| CLASSE 3 - LÍQUIDOS INFLÁMAVEIS | |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| | Líquidos inflamáveis: são líquidos que possuem ponto de fulgor ≤ 60° C (sessenta graus Celsius). |\n| | Líquidos que possuem ponto de fulgor superior a 60° C (sessenta graus Celsius), quando armazenados e transferidos aquecidos a temperaturas iguais ou superiores ao seu ponto de fulgor, se equiparam aos líquidos inflamáveis. |\n| CLASSE 4 - SÓLIDOS INFLAMÁVEIS, SUBSTÂNCIAS SUJEITAS À COMBUSTÃO ESPONTÂNEA, SUBSTÂNCIAS QUE, EM CONTATO COM A ÁGUA EMITEM GASES INFLAMÁVEIS. | |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 4.1 | Sólidos inflamáveis, substâncias sujeitas a autoignição, sólidos explosivos dessensibilizadas |"
         }
       ]
     },
@@ -4585,95 +4469,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  | e substâncias polimerizadas |\n| --- | --- |\n| 4.2 | Substâncias sujeitas à combustão espontânea. |\n| 4.3 | Substâncias que, em contato com a água, emitem gases inflamáveis. |\n| CLASSE 5 - SUBSTÂNCIAS OXIDANTES E PERÓXIDOS ORGÂNICOS. |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 5.1 | Substâncias oxidantes |\n| 5.2 | Peróxidos orgânicos |\n| CLASSE 6 - SUBSTÂNCIAS TÓXICAS OU INFECTANTES. |  |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 6.1 | Substâncias tóxicas |\n| 6.2 | Substâncias infectantes |\n| CLASSE 7 - MATERIAL RADIOATIVO |  |\n| CLASSE 8 - SUBSTÂNCIAS CORROSIVAS |  |\n| CLASSE 9 - SUBSTÂNCIAS E MATERIAIS PERIGOSOS DIVERSOS |  |"
+          "markdown": "| | e substâncias polimerizadas |\n| --- | --- |\n| 4.2 | Substâncias sujeitas à combustão espontânea. |\n| 4.3 | Substâncias que, em contato com a água, emitem gases inflamáveis. |\n| CLASSE 5 - SUBSTÂNCIAS OXIDANTES E PERÓXIDOS ORGÂNICOS. | |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 5.1 | Substâncias oxidantes |\n| 5.2 | Peróxidos orgânicos |\n| CLASSE 6 - SUBSTÂNCIAS TÓXICAS OU INFECTANTES. | |\n| DIVISÃO | DESCRIÇÃO DA SUBSTÂNCIA OU ARTIGO |\n| 6.1 | Substâncias tóxicas |\n| 6.2 | Substâncias infectantes |\n| CLASSE 7 - MATERIAL RADIOATIVO | |\n| CLASSE 8 - SUBSTÂNCIAS CORROSIVAS | |\n| CLASSE 9 - SUBSTÂNCIAS E MATERIAIS PERIGOSOS DIVERSOS | |"
         },
         {
           "type": "table",
-          "markdown": "| CLASSE | 1.1,"
-        },
-        {
-          "type": "paragraph",
-          "text": "1.2, 1.5 | 1.3, 1.6 | 1.4 | 2.1 | 2.2 | 2.3 | 3 | 4.1 | 4.2 | 4.3 | 5.1 | 5.2 | 6.1 | 6.2 | 7 | 8 | 9 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Explosivos"
-        },
-        {
-          "type": "paragraph",
-          "text": "1.1, 1.2, 1.5 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Explosivos"
-        },
-        {
-          "type": "paragraph",
-          "text": "1.3, 1.6 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Explosivos"
-        },
-        {
-          "type": "paragraph",
-          "text": "1.4 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Gases inflamáveis"
-        },
-        {
-          "type": "paragraph",
-          "text": "2.1 | * | * | * | x | x | x | 2 | 1 | 2 | x | 2 | 2 | x | 4 | 2 | 1 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Gases não tóxicos, não"
-        },
-        {
-          "type": "paragraph",
-          "text": "inflamáveis 2.2 | * | * | * | x | x | x | 1 | x | 1 | x | x | 1 | x | 2 | 1 | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Gases venenosos"
-        },
-        {
-          "type": "paragraph",
-          "text": "2.3 | * | * | * | x | x | x | 2 | x | 2 | x | x | 2 | x | 2 | 1 | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Líquidos inflamáveis"
-        },
-        {
-          "type": "paragraph",
-          "text": "3 | * | * | * | 2 | 1 | 2 | X | x | 2 | 1 | 2 | 2 | x | 3 | 2 | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Sólidos inflamáveis"
-        },
-        {
-          "type": "paragraph",
-          "text": "4.1 | * | * | * | 1 | x | x | X | x | 1 | x | 1 | 2 | x | 3 | 2 | 1 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Substâncias sujeitas à combustão"
-        },
-        {
-          "type": "paragraph",
-          "text": "espontânea 4.2 | * | * | * | 2 | 1 | 2 | 2 | 1 | x | 1 | 2 | 2 | 1 | 3 | 2 | 1 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Substâncias que são perigosas quando"
-        },
-        {
-          "type": "paragraph",
-          "text": "molhadas 4.3 | * | * | * | x | x | x | 1 | x | 1 | x | 2 | 2 | x | 2 | 2 | 1 | x |"
+          "markdown": "| CLASSE | 1.1, 1.2, 1.5 | 1.3, 1.6 | 1.4 | 2.1 | 2.2 | 2.3 | 3 | 4.1 | 4.2 | 4.3 | 5.1 | 5.2 | 6.1 | 6.2 | 7 | 8 | 9 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Explosivos 1.1, 1.2, 1.5 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |\n| Explosivos 1.3, 1.6 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |\n| Explosivos 1.4 | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * | * |\n| Gases inflamáveis 2.1 | * | * | * | x | x | x | 2 | 1 | 2 | x | 2 | 2 | x | 4 | 2 | 1 | x |\n| Gases não tóxicos, não inflamáveis 2.2 | * | * | * | x | x | x | 1 | x | 1 | x | x | 1 | x | 2 | 1 | x | x |\n| Gases venenosos 2.3 | * | * | * | x | x | x | 2 | x | 2 | x | x | 2 | x | 2 | 1 | x | x |\n| Líquidos inflamáveis 3 | * | * | * | 2 | 1 | 2 | X | x | 2 | 1 | 2 | 2 | x | 3 | 2 | x | x |\n| Sólidos inflamáveis 4.1 | * | * | * | 1 | x | x | X | x | 1 | x | 1 | 2 | x | 3 | 2 | 1 | x |\n| Substâncias sujeitas à combustão espontânea 4.2 | * | * | * | 2 | 1 | 2 | 2 | 1 | x | 1 | 2 | 2 | 1 | 3 | 2 | 1 | x |\n| Substâncias que são perigosas quando molhadas 4.3 | * | * | * | x | x | x | 1 | x | 1 | x | 2 | 2 | x | 2 | 2 | 1 | x |"
         },
         {
           "type": "paragraph",
@@ -4726,99 +4526,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Substâncias oxidantes"
-        },
-        {
-          "type": "paragraph",
-          "text": "5.1 | * | * | * | 2 | x | x | 2 | 1 | 2 | 2 | x | 2 | 1 | 3 | 1 | 2 | x |"
+          "markdown": "| Substâncias oxidantes 5.1 | * | * | * | 2 | x | x | 2 | 1 | 2 | 2 | x | 2 | 1 | 3 | 1 | 2 | x |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Peróxidos orgânicos 5.2 | * | * | * | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | x | 1 | 3 | 2 | 2 | x |\n| Venenos 6.1 | * | * | * | x | x | x | X | x | 1 | x | 1 | 1 | x | 1 | x | x | x |\n| Substâncias infecciosas 6.2 | * | * | * | 4 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 3 | 1 | x | 3 | 3 | x |\n| Materiais radiativos 7 | * | * | * | 2 | 1 | 1 | 2 | 2 | 2 | 2 | 1 | 2 | x | 3 | x | 2 | x |\n| Corrosivos 8 | * | * | * | 1 | x | x | X | 1 | 1 | 1 | 2 | 2 | x | 3 | 2 | x | x |\n| Misturas de substâncias e artigos perigosos 9 | * | * | * | x | x | x | X | x | x | x | x | x | x | x | x | x | x |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Peróxidos orgânicos"
-        },
-        {
-          "type": "paragraph",
-          "text": "5.2 | * | * | * | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | x | 1 | 3 | 2 | 2 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Venenos"
-        },
-        {
-          "type": "paragraph",
-          "text": "6.1 | * | * | * | x | x | x | X | x | 1 | x | 1 | 1 | x | 1 | x | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Substâncias infecciosas"
-        },
-        {
-          "type": "paragraph",
-          "text": "6.2 | * | * | * | 4 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 3 | 1 | x | 3 | 3 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Materiais radiativos"
-        },
-        {
-          "type": "paragraph",
-          "text": "7 | * | * | * | 2 | 1 | 1 | 2 | 2 | 2 | 2 | 1 | 2 | x | 3 | x | 2 | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Corrosivos"
-        },
-        {
-          "type": "paragraph",
-          "text": "8 | * | * | * | 1 | x | x | X | 1 | 1 | 1 | 2 | 2 | x | 3 | 2 | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Misturas de substâncias e artigos"
-        },
-        {
-          "type": "paragraph",
-          "text": "perigosos 9 | * | * | * | x | x | x | X | x | x | x | x | x | x | x | x | x | x |"
-        },
-        {
-          "type": "table",
-          "markdown": "| TIPO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "SEGREGAÇÃO | SENTIDO DA SEGREGAÇÃO |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n|  | LONGITUDINAL | TRANSVERSAL | VERTICAL |\n| Tipo 1 | Não há restrições | Não há restrições | Permitido um remonte |\n| Tipo 2 | Um espaço para contêiner"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou contêiner neutro | Um espaço para contêiner ou contêiner neutro | Proibido o remonte |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tipo 3 | Um espaço para contêiner"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou contêiner neutro | Dois espaços para contêineres ou dois contêineres neutros | Proibido o remonte |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tipo 4 | A distância de pelo menos"
-        },
-        {
-          "type": "paragraph",
-          "text": "24 metros | A distância de pelo menos 24 metros | Proibido o remonte |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tipo x | Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada"
-        },
-        {
-          "type": "paragraph",
-          "text": "produto |  |  |"
+          "markdown": "| TIPO DE SEGREGAÇÃO | SENTIDO DA SEGREGAÇÃO | | |\n| --- | --- | --- | --- |\n| | LONGITUDINAL | TRANSVERSAL | VERTICAL |\n| Tipo 1 | Não há restrições | Não há restrições | Permitido um remonte |\n| Tipo 2 | Um espaço para contêiner ou contêiner neutro | Um espaço para contêiner ou contêiner neutro | Proibido o remonte |\n| Tipo 3 | Um espaço para contêiner ou contêiner neutro | Dois espaços para contêineres ou dois contêineres neutros | Proibido o remonte |\n| Tipo 4 | A distância de pelo menos 24 metros | A distância de pelo menos 24 metros | Proibido o remonte |\n| Tipo x | Não há nenhuma recomendação geral. Consultar a ficha correspondente em cada produto | | |"
         },
         {
           "type": "paragraph",

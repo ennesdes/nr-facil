@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTE n.º202, 22 de dezembro de 2006|27/12/06|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria MTE n.º1.409, 29 de agosto de 2012|31/08/12|\n|Portaria SEPRT n.º915, de 30 de julho de 2019|31/07/19|\n|Portaria SEPRT n.º1.690, de 15 de junho de 2022|24/06/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTE n.º202, 22 de dezembro de 2006 | 27/12/06 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria MTE n.º1.409, 29 de agosto de 2012 | 31/08/12 |\n| Portaria SEPRT n.º915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria SEPRT n.º1.690, de 15 de junho de 2022 | 24/06/22 |"
       },
       {
         "type": "paragraph",
@@ -1895,7 +1895,7 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "|**Modelo de caráter informativo para elaboração da PET em Espaço Confinado**|\n|---|\n|Nome da organização:|\n|Local do espaço confinado:|\n|Espaço confinado nº:|\n|Data e horário da emissão:|\n|Data e horário do término:|\n|Trabalho a ser realizado:|\n|Trabalhadores autorizados:|\n|Vigia:|\n|Equipe de resgate:|\n|Supervisor de Entrada:|"
+          "markdown": "| **Modelo de caráter informativo para elaboração da PET em Espaço Confinado** |\n| --- |\n| Nome da organização: |\n| Local do espaço confinado: |\n| Espaço confinado nº: |\n| Data e horário da emissão: |\n| Data e horário do término: |\n| Trabalho a ser realizado: |\n| Trabalhadores autorizados: |\n| Vigia: |\n| Equipe de resgate: |\n| Supervisor de Entrada: |"
         },
         {
           "type": "note",
@@ -1916,55 +1916,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Procedimentos que devem ser completados antes da entrada |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento |  |  |  |  | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário |  |  |  |  |  |  |\n| Oxigênio_________________________________________________ % O"
-        },
-        {
-          "type": "paragraph",
-          "text": "2 |  |  |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Inflamáveis_______________________________________________ % LIE |  |  |  |  |  |  |\n| Gases / vapores tóxicos _____________________________________ ppm |  |  |  |  |  |  |\n| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento"
-        },
-        {
-          "type": "paragraph",
-          "text": "detector de gás)______________________________________________________ppm |  |  |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ |  |  |  |  |  |  |\n| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |\n| 3. Bloqueios, travamento e etiquetagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 5. Ventilação/exaustão - tipo, equipamento e tempo |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 6. Teste após ventilação e isolamento: horário ___:___ |  |  |  |  |  |  |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0%"
-        },
-        {
-          "type": "paragraph",
-          "text": "2 |  |  |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Inflamáveis _______________________________________________ %LIE < 10% |  |  |  |  |  |  |\n| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector"
-        },
-        {
-          "type": "paragraph",
-          "text": "de gás) ppm |  |  |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ |  |  |  |  |  |  |\n| Nome legível / assinatura do Supervisor dos testes: |  |  |  |  |  |  |\n| 7. Iluminação geral |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 10. Procedimentos e proteção de movimentação vertical |  |  |  | N/A ( ) | S ( ) | N ( ) |\n| 11. Treinamento de todos os"
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalhadores? | S ( ) | N ( ) | Estão válidos? |  | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 12. Equipamentos: |  |  |  |  |  |  |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho"
-        },
-        {
-          "type": "paragraph",
-          "text": "em áreas potencialmente explosivas de leitura direta com alarmes em condições: |  |  |  |  | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Lanternas |  |  |  |  | S ( ) | N ( ) |"
+          "markdown": "| Procedimentos que devem ser completados antes da entrada | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento | | | | | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário | | | | | | |\n| Oxigênio_________________________________________________ % O 2 | | | | | | |\n| Inflamáveis_______________________________________________ % LIE | | | | | | |\n| Gases / vapores tóxicos _____________________________________ ppm | | | | | | |\n| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás)______________________________________________________ppm | | | | | | |\n| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ | | | | | | |\n| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 3. Bloqueios, travamento e etiquetagem | | | | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem | | | | N/A ( ) | S ( ) | N ( ) |\n| 5. Ventilação/exaustão - tipo, equipamento e tempo | | | | N/A ( ) | S ( ) | N ( ) |\n| 6. Teste após ventilação e isolamento: horário ___:___ | | | | | | |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0% 2 | | | | | | |\n| Inflamáveis _______________________________________________ %LIE < 10% | | | | | | |\n| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás) ppm | | | | | | |\n| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ | | | | | | |\n| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 7. Iluminação geral | | | | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação | | | | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate | | | | N/A ( ) | S ( ) | N ( ) |\n| 10. Procedimentos e proteção de movimentação vertical | | | | N/A ( ) | S ( ) | N ( ) |\n| 11. Treinamento de todos os trabalhadores? | S ( ) | N ( ) | Estão válidos? | | S ( ) | N ( ) |\n| 12. Equipamentos: | | | | | | |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho em áreas potencialmente explosivas de leitura direta com alarmes em condições: | | | | | S ( ) | N ( ) |\n| Lanternas | | | | | S ( ) | N ( ) |"
         },
         {
           "type": "paragraph",
@@ -2000,43 +1952,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Roupa de proteção | S ( ) | N ( ) |\n| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |\n| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado"
-        },
-        {
-          "type": "paragraph",
-          "text": "com cilindro de escape | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |\n| Equipamentos de comunicação eletrônica adequado para trabalho em áreas"
-        },
-        {
-          "type": "paragraph",
-          "text": "potencialmente explosivas | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Equipamento de proteção respiratória autônomo ou sistema de ar mandado"
-        },
-        {
-          "type": "paragraph",
-          "text": "com cilindro de escape para a equipe de resgate | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas"
-        },
-        {
-          "type": "paragraph",
-          "text": "potencialmente explosivas | S ( ) | N ( ) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos |  |  |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |\n| Procedimentos de Emergência e Resgate: |  |  |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ |  |  |\n| Legenda:"
-        },
-        {
-          "type": "paragraph",
-          "text": "N/A - “não se aplica”; N - “não”; S - “sim”. ATENÇÃO: A entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. |  |  |"
+          "markdown": "| Roupa de proteção | S ( ) | N ( ) |\n| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |\n| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado com cilindro de escape | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |\n| Equipamentos de comunicação eletrônica adequado para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |\n| Equipamento de proteção respiratória autônomo ou sistema de ar mandado com cilindro de escape para a equipe de resgate | S ( ) | N ( ) |\n| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |\n| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos | | |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |\n| Procedimentos de Emergência e Resgate: | | |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ | | |\n| Legenda: N/A - “não se aplica”; N - “não”; S - “sim”. ATENÇÃO: A entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. | | |"
         },
         {
           "type": "paragraph",
@@ -2117,35 +2033,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Capacitação | Treinamento inicial"
-        },
-        {
-          "type": "paragraph",
-          "text": "(carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n| Supervisor de"
-        },
-        {
-          "type": "paragraph",
-          "text": "entrada | 40 horas | 8 horas/anual | Conforme previsto na NR-01 ou quando houver desvios na utilização de equipamentos ou nos procedimentos de entrada nos espaços confinados Conforme previsto na NR-01 ou quando identificados desvios na operação de resgate ou nos simulados |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Vigia e trabalhador"
-        },
-        {
-          "type": "paragraph",
-          "text": "autorizado | 16 horas | 8 horas/anual |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Equipe de"
-        },
-        {
-          "type": "paragraph",
-          "text": "emergência e salvamento | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista/bianual |  |"
+          "markdown": "| Capacitação | Treinamento inicial (carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |\n| --- | --- | --- | --- |\n| Supervisor de entrada | 40 horas | 8 horas/anual | Conforme previsto na NR-01 ou quando houver desvios na utilização de equipamentos ou nos procedimentos de entrada nos espaços confinados Conforme previsto na NR-01 ou quando identificados desvios na operação de resgate ou nos simulados |\n| Vigia e trabalhador autorizado | 16 horas | 8 horas/anual | |\n| Equipe de emergência e salvamento | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista/bianual | |"
         },
         {
           "type": "paragraph",

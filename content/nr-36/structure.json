@@ -2046,15 +2046,7 @@
         },
         {
           "type": "table",
-          "markdown": "| JORNADA DE TRABALHO | Tempo de tolerância para"
-        },
-        {
-          "type": "paragraph",
-          "text": "aplicação da pausa | TEMPO DE PAUSA |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| até 6h | Até 6h20 | 20 MINUTOS |\n| até 7h20 | Até 7h40 | 45 MINUTOS |\n| até 8h48 | Até 9h10 | 60 MINUTOS |"
+          "markdown": "| JORNADA DE TRABALHO | Tempo de tolerância para aplicação da pausa | TEMPO DE PAUSA |\n| --- | --- | --- |\n| até 6h | Até 6h20 | 20 MINUTOS |\n| até 7h20 | Até 7h40 | 45 MINUTOS |\n| até 8h48 | Até 9h10 | 60 MINUTOS |"
         },
         {
           "type": "paragraph",

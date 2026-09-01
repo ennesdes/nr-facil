@@ -7,56 +7,62 @@
   },
   {
     "id": "chunk-1",
-    "text": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º12, de 06 de junho de 1983|14/06/83|\n|Portaria MTP n.º2.189, de 28 de julho de 2022|05/08/22|\n_(Redação dada pela Portaria MTP n.º 2.189, de 28 de julho de 2022)_",
+    "text": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb n.º3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT n.º12, de 06 de junho de 1983 | 14/06/83 |\n| Portaria MTP n.º2.189, de 28 de julho de 2022 | 05/08/22 |",
     "heading": "**Publicação**",
-    "char_offset": 23
+    "char_offset": 22
   },
   {
     "id": "chunk-2",
-    "text": "14.1 Objetivo \n14.2 Campo de aplicação \n14.3 Medidas de prevenção",
-    "heading": "**14.1 Objetivo**",
-    "char_offset": 413
+    "text": "_(Redação dada pela Portaria MTP n.º 2.189, de 28 de julho de 2022)_",
+    "heading": "**SUMÁRIO**",
+    "char_offset": 366
   },
   {
     "id": "chunk-3",
-    "text": "**14.1.1** Esta Norma Regulamentadora - NR visa estabelecer requisitos para a operação de fornos com segurança.",
-    "heading": "**14.2 Campo de aplicação**",
-    "char_offset": 528
+    "text": "14.1 Objetivo \n14.2 Campo de aplicação \n14.3 Medidas de prevenção",
+    "heading": "**14.1 Objetivo**",
+    "char_offset": 437
   },
   {
     "id": "chunk-4",
-    "text": "**14.2.1** As medidas de prevenção estabelecidas nesta Norma se aplicam às organizações que utilizem fornos em seus processos produtivos.",
-    "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 669
+    "text": "**14.1.1** Esta Norma Regulamentadora - NR visa estabelecer requisitos para a operação de fornos com segurança.",
+    "heading": "**14.2 Campo de aplicação**",
+    "char_offset": 552
   },
   {
     "id": "chunk-5",
-    "text": "**14.3.1** Os fornos, para qualquer utilização, devem ser construídos solidamente, revestidos com material refratário, de forma que o calor radiante não ultrapasse os limites de tolerância estabelecidos pela NR-15 - Atividades e operações insalubres.",
+    "text": "**14.2.1** As medidas de prevenção estabelecidas nesta Norma se aplicam às organizações que utilizem fornos em seus processos produtivos.",
     "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 670
+    "char_offset": 693
   },
   {
     "id": "chunk-6",
-    "text": "**14.3.2** Os fornos devem ser instalados: \na) em conformidade com o disposto em normas técnicas oficiais; \nb) em locais que ofereçam segurança e conforto aos trabalhadores; e \nc) de forma a evitar o acúmulo de gases nocivos e as altas temperaturas em áreas vizinhas.",
+    "text": "**14.3.1** Os fornos, para qualquer utilização, devem ser construídos solidamente, revestidos com material refratário, de forma que o calor radiante não ultrapasse os limites de tolerância estabelecidos pela NR-15 - Atividades e operações insalubres.",
     "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 926
+    "char_offset": 694
   },
   {
     "id": "chunk-7",
-    "text": "**14.3.2.1** As escadas e plataformas dos fornos devem ser construídas de modo a garantir aos trabalhadores o acesso e a execução de suas tarefas com segurança. \n**14.3.3** Os fornos que utilizam combustíveis gasosos ou líquidos devem ter sistemas de proteção para evitar:",
+    "text": "**14.3.2** Os fornos devem ser instalados: \na) em conformidade com o disposto em normas técnicas oficiais; \nb) em locais que ofereçam segurança e conforto aos trabalhadores; e \nc) de forma a evitar o acúmulo de gases nocivos e as altas temperaturas em áreas vizinhas.",
     "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 1197
+    "char_offset": 950
   },
   {
     "id": "chunk-8",
-    "text": "a) explosão por falha da chama de aquecimento e/ou no acionamento do queimador; e \nb) retrocesso da chama. \n**14.3.4** Os fornos devem ser dotados de chaminé suficientemente dimensionada para a livre saída dos gases de combustão, de acordo com normas técnicas oficiais.",
+    "text": "**14.3.2.1** As escadas e plataformas dos fornos devem ser construídas de modo a garantir aos trabalhadores o acesso e a execução de suas tarefas com segurança. \n**14.3.3** Os fornos que utilizam combustíveis gasosos ou líquidos devem ter sistemas de proteção para evitar:",
     "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 1474
+    "char_offset": 1221
   },
   {
     "id": "chunk-9",
+    "text": "a) explosão por falha da chama de aquecimento e/ou no acionamento do queimador; e \nb) retrocesso da chama. \n**14.3.4** Os fornos devem ser dotados de chaminé suficientemente dimensionada para a livre saída dos gases de combustão, de acordo com normas técnicas oficiais.",
+    "heading": "**14.3 Medidas de Prevenção**",
+    "char_offset": 1498
+  },
+  {
+    "id": "chunk-10",
     "text": "Este texto não substitui o publicado no DOU",
     "heading": "**14.3 Medidas de Prevenção**",
-    "char_offset": 1747
+    "char_offset": 1771
   }
 ]

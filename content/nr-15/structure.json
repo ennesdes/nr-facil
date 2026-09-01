@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb nº3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº12, de 12 de novembro de 1979|23/11/79|\n|Portaria SSMT nº01, de 17 de abril de 1980|25/04/80|\n|Portaria SSMT nº05, de 09 de fevereiro de 1983|17/02/83|\n|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria SSMT nº24, de 14 de setembro de 1983|15/09/83|\n|Portaria MTE nº3.751, de 23 de novembro de 1990|26/11/90|\n|Portaria DSST nº01, de 28 de maio de 1991|29/05/91|\n|Portaria DNSST nº08, de 05 de outubro de 1992|08/10/92|\n|Portaria DNSST nº09, de 05 de outubro de 1992|14/10/92|\n|Portaria SSST nº03, de 10 de março de 1994|10/03/94|\n|Portaria SSST nº04, de 11 de abril de 1994|14/04/94|\n|Portaria SSST nº22, de 26 de dezembro de 1994|27/12/94|\n|Portaria SSST nº14, de 20 de dezembro de 1995|22/12/95|\n|Portaria SIT nº99, de 19 de outubro de 2004|21/10/04|\n|Portaria SIT nº43, de 11 de março de 2008|(Rep.)  13/03/08|\n|Portaria SIT nº203, de 28 de janeiro de 2011|01/02/11|\n|Portaria SIT nº291, de 08 de dezembro de 2011|09/12/11|\n|Portaria MTE nº1.297, de 13 de agosto de 2014|14/08/14|\n|Portaria MTb nº1.084, de 18 de dezembro de 2018|19/12/18|\n|Portaria SEPRT nº1.359, de 09 de dezembro de 2019|11/12/19|\n|Portaria MTP nº426, de 07 de outubro de 2021|08/10/21|\n|Portaria MTP nº806, de 13 de abril de 2022|13/04/22|\n|Portaria MTE nº2.021, de 03 de dezembro de 2025|04/12/25|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT nº12, de 12 de novembro de 1979 | 23/11/79 |\n| Portaria SSMT nº01, de 17 de abril de 1980 | 25/04/80 |\n| Portaria SSMT nº05, de 09 de fevereiro de 1983 | 17/02/83 |\n| Portaria SSMT nº12, de 06 de junho de 1983 | 14/06/83 |\n| Portaria SSMT nº24, de 14 de setembro de 1983 | 15/09/83 |\n| Portaria MTE nº3.751, de 23 de novembro de 1990 | 26/11/90 |\n| Portaria DSST nº01, de 28 de maio de 1991 | 29/05/91 |\n| Portaria DNSST nº08, de 05 de outubro de 1992 | 08/10/92 |\n| Portaria DNSST nº09, de 05 de outubro de 1992 | 14/10/92 |\n| Portaria SSST nº03, de 10 de março de 1994 | 10/03/94 |\n| Portaria SSST nº04, de 11 de abril de 1994 | 14/04/94 |\n| Portaria SSST nº22, de 26 de dezembro de 1994 | 27/12/94 |\n| Portaria SSST nº14, de 20 de dezembro de 1995 | 22/12/95 |\n| Portaria SIT nº99, de 19 de outubro de 2004 | 21/10/04 |\n| Portaria SIT nº43, de 11 de março de 2008 | (Rep.) 13/03/08 |\n| Portaria SIT nº203, de 28 de janeiro de 2011 | 01/02/11 |\n| Portaria SIT nº291, de 08 de dezembro de 2011 | 09/12/11 |\n| Portaria MTE nº1.297, de 13 de agosto de 2014 | 14/08/14 |\n| Portaria MTb nº1.084, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPRT nº1.359, de 09 de dezembro de 2019 | 11/12/19 |\n| Portaria MTP nº426, de 07 de outubro de 2021 | 08/10/21 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 13/04/22 |\n| Portaria MTE nº2.021, de 03 de dezembro de 2025 | 04/12/25 |"
       },
       {
         "type": "item",
@@ -163,11 +163,11 @@
       },
       {
         "type": "table",
-        "markdown": "| NÍVEL DE RUÍDO dB (A) | MÁXIMA EXPOSIÇÃO DIÁRIA PERMISSÍVEL |\n| --- | --- |\n| 85"
+        "markdown": "| NÍVEL DE RUÍDO dB (A) | MÁXIMA EXPOSIÇÃO DIÁRIA PERMISSÍVEL |\n| --- | --- |\n| 85 86 87 88 89 90 91 92 93 94 95 96 98 100 102 104 105 106 108 110 112 114 115 | 8 horas 7 horas 6 horas 5 horas 4 horas e 30 minutos 4 horas 3 horas e 30 minutos 3 horas 2 horas e 40 minutos 2 horas e 15 minutos 2 horas 1 hora e 45 minutos 1 hora e 15 minutos 1 hora 45 minutos 35 minutos 30 minutos 25 minutos 20 minutos 15 minutos 10 minutos 8 minutos 7 minutos |"
       },
       {
         "type": "paragraph",
-        "text": "86 87 88 89 90 91 92 93 94 95 96 98 100 102 104 105 106 108 110 112 114 115 | 8 horas 7 horas 6 horas 5 horas 4 horas e 30 minutos 4 horas 3 horas e 30 minutos 3 horas 2 horas e 40 minutos 2 horas e 15 minutos 2 horas 1 hora e 45 minutos 1 hora e 15 minutos 1 hora 45 minutos 35 minutos 30 minutos 25 minutos 20 minutos 15 minutos 10 minutos 8 minutos 7 minutos | <u>C₁    +    C₂     +   C₃        ____________________ +  Cn</u> T₁           T₂          T₃ Tn T₁           T₂          T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente."
+        "text": "<u>C₁    +    C₂     +   C₃        ____________________ +  Cn</u> T₁           T₂          T₃ Tn T₁           T₂          T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente."
       }
     ]
   },
@@ -436,15 +436,7 @@
         },
         {
           "type": "table",
-          "markdown": "| 𝐌 [𝐖] | ∘"
-        },
-        {
-          "type": "paragraph",
-          "text": "𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| 100 | 33,7 | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 | 197 | 30,3 | 367 | 27,2 |\n| 108 | 33,3 | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 | 205 | 30,1 | 382 | 27,0 |\n| 112 | 33,1 | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 | 222 | 29,7 | 414 | 26,6 |\n| 122 | 32,7 | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 | 231 | 29,5 | 431 | 26,4 |\n| 127 | 32,5 | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 | 251 | 29,1 | 467 | 26,0 |\n| 137 | 32,1 | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 | 261 | 28,9 | 486 | 25,8 |\n| 143 | 31,9 | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 | 283 | 28,5 | 526 | 25,4 |\n| 155 | 31,5 | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 | 294 | 28,3 | 548 | 25,2 |\n| 161 | 31,3 | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 | 319 | 27,9 | 594 | 24,8 |"
+          "markdown": "| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| --- | --- | --- | --- | --- | --- |\n| 100 | 33,7 | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 | 197 | 30,3 | 367 | 27,2 |\n| 108 | 33,3 | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 | 205 | 30,1 | 382 | 27,0 |\n| 112 | 33,1 | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 | 222 | 29,7 | 414 | 26,6 |\n| 122 | 32,7 | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 | 231 | 29,5 | 431 | 26,4 |\n| 127 | 32,5 | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 | 251 | 29,1 | 467 | 26,0 |\n| 137 | 32,1 | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 | 261 | 28,9 | 486 | 25,8 |\n| 143 | 31,9 | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 | 283 | 28,5 | 526 | 25,4 |\n| 155 | 31,5 | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 | 294 | 28,3 | 548 | 25,2 |\n| 161 | 31,3 | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 | 319 | 27,9 | 594 | 24,8 |"
         }
       ]
     },
@@ -459,19 +451,11 @@
         },
         {
           "type": "table",
-          "markdown": "| 175 | 30,9 | 325 | 27,8 | 606 | 24,7 |\n| --- | --- | --- | --- | --- | --- |\n| 178 | 30,8 | 332 | 27,7 |  |  |\n| 182 | 30,7 | 339 | 27,6 |  |  |"
+          "markdown": "| 175 | 30,9 | 325 | 27,8 | 606 | 24,7 |\n| --- | --- | --- | --- | --- | --- |\n| 178 | 30,8 | 332 | 27,7 | | |\n| 182 | 30,7 | 339 | 27,6 | | |"
         },
         {
           "type": "table",
-          "markdown": "| Atividade | Taxa metabólica"
-        },
-        {
-          "type": "paragraph",
-          "text": "(W) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| Sentado |  |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado |  |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |\n| Em pé, em movimento |  |"
+          "markdown": "| Atividade | Taxa metabólica (W) |\n| --- | --- |\n| Sentado | |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado | |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |\n| Em pé, em movimento | |"
         },
         {
           "type": "note",
@@ -479,31 +463,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Andando no plano |  |\n| --- | --- |\n| 1. Sem carga |  |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga |  |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano |  |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa |  |\n| 1. Sem carga |  |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg |  |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga |  |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do"
-        },
-        {
-          "type": "paragraph",
-          "text": "degrau de 0,17 m) |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minu- to - altura do"
-        },
-        {
-          "type": "paragraph",
-          "text": "degrau de 0,17 m) |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n| Trabalho moderado de braços (ex.: varrer, trabalho"
-        },
-        {
-          "type": "paragraph",
-          "text": "em almoxarifado) | 320 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Trabalho moderado de levantar ou empurrar | 349 |"
+          "markdown": "| Andando no plano | |\n| --- | --- |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minu- to - altura do degrau de 0,17 m) | |\n| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 |\n| Trabalho moderado de levantar ou empurrar | 349 |"
         }
       ]
     },
@@ -623,27 +583,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Trabalho de empurrar carrinhos de mão, no mesmo"
-        },
-        {
-          "type": "paragraph",
-          "text": "plano, com carga | 391 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| Trabalho de carregar pesos ou com movimentos"
-        },
-        {
-          "type": "paragraph",
-          "text": "vigorosos com os braços (ex.: trabalho com foice) | 495 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Trabalho pesado de levantar, empurrar ou arrastar"
-        },
-        {
-          "type": "paragraph",
-          "text": "pesos (ex.: remoção com pá, abertura de valas) | 524 |"
+          "markdown": "| Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga | 391 |\n| --- | --- |\n| Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trabalho com foice) | 495 |\n| Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas) | 524 |"
         },
         {
           "type": "paragraph",
@@ -999,23 +939,7 @@
         },
         {
           "type": "table",
-          "markdown": "| CONTAMINANTE | LIMITE DE TOLERÂNCIA |\n| --- | --- |\n| Monóxido de carbono | 20 ppm |\n| Dióxido de carbono | 2.500 ppm |\n| Óleo ou material particulado | 5 mg/m³ (PT>2kgf/cm 2)"
-        },
-        {
-          "type": "paragraph",
-          "text": "3 g/m³ (PT<2kgf/cm2) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Metano | 10% do limite inferior de"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosividade |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Oxigênio | mais de 20% |"
+          "markdown": "| CONTAMINANTE | LIMITE DE TOLERÂNCIA |\n| --- | --- |\n| Monóxido de carbono | 20 ppm |\n| Dióxido de carbono | 2.500 ppm |\n| Óleo ou material particulado | 5 mg/m³ (PT>2kgf/cm 2) 3 g/m³ (PT<2kgf/cm2) |\n| Metano | 10% do limite inferior de explosividade |\n| Oxigênio | mais de 20% |"
         },
         {
           "type": "paragraph",
@@ -1192,39 +1116,15 @@
         },
         {
           "type": "table",
-          "markdown": "| FIRMA |  |  |  |  |  |  | DATA |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| OBRA |  |  |  | NOME DO ENCARREGADO |  |  |  |  |\n| NOME | FUNÇÃO | COMPRESSÃO |  | DESCOMPRESSÃO |  |  |  |  |\n|  |  | PRESSÃO"
-        },
-        {
-          "type": "paragraph",
-          "text": "DE TRABALHO | HORA DE ENTRADA | PERÍODO DE TRABALHO | INÍCIO | TÉRMINO | DURAÇÃO | OBS. |"
+          "markdown": "| FIRMA | | | | | | | DATA | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| OBRA | | | | NOME DO ENCARREGADO | | | | |\n| NOME | FUNÇÃO | COMPRESSÃO | | DESCOMPRESSÃO | | | | |\n| | | PRESSÃO DE TRABALHO | HORA DE ENTRADA | PERÍODO DE TRABALHO | INÍCIO | TÉRMINO | DURAÇÃO | OBS. |\n| | | | | | | | | |"
         },
         {
           "type": "table",
-          "markdown": "|  |  |  |  |  |  |  |  |  |"
+          "markdown": "| PERÍODO DE TRABALHO (HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO |\n| --- | --- | --- |\n| | 0,3 kgf/cm2 | |\n| 0 a 6:00 | 4 min. | 7 min. |\n| 6 a 8:00 | 14 min. | 17 min. |\n| + de 8:00** | 30 min. | 33 min. |"
         },
         {
           "type": "table",
-          "markdown": "| PERÍODO DE TRABALHO"
-        },
-        {
-          "type": "paragraph",
-          "text": "(HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n|  | 0,3 kgf/cm2 |  |\n| 0 a 6:00 | 4 min. | 7 min. |\n| 6 a 8:00 | 14 min. | 17 min. |\n| + de 8:00** | 30 min. | 33 min. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |"
         },
         {
           "type": "paragraph",
@@ -1301,31 +1201,15 @@
         },
         {
           "type": "table",
-          "markdown": "| 1,0 a 1,2 |  |  |  |  |  |  |  |  |  | - |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,2 a 1,4 |  |  |  |  |  |  |  |  |  | - |\n| 1,4 a 1,6 |  |  |  |  |  |  |  |  | 5 | 5 |\n| 1,6 a 1,8 |  |  |  |  |  |  |  |  | 10 | 10 |\n| 1,8 a 2,0 |  |  |  |  |  |  |  | 5 | 15 | 20 |"
+          "markdown": "| 1,0 a 1,2 | | | | | | | | | | - |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,2 a 1,4 | | | | | | | | | | - |\n| 1,4 a 1,6 | | | | | | | | | 5 | 5 |\n| 1,6 a 1,8 | | | | | | | | | 10 | 10 |\n| 1,8 a 2,0 | | | | | | | | 5 | 15 | 20 |"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | | - |\n| 1,2 a 1,4 | | | | | | | | | 5 | 5 |\n| 1,4 a 1,6 | | | | | | | | | 10 | 10 |\n| 1,6 a 1,8 | | | | | | | | 5 | 15 | 20 |\n| 1,8 a 2,0 | | | | | | | | 5 | 20 | 35 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  |  | - |\n| 1,2 a 1,4 |  |  |  |  |  |  |  |  | 5 | 5 |\n| 1,4 a 1,6 |  |  |  |  |  |  |  |  | 10 | 10 |\n| 1,6 a 1,8 |  |  |  |  |  |  |  | 5 | 15 | 20 |\n| 1,8 a 2,0 |  |  |  |  |  |  |  | 5 | 20 | 35 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  | 5 | 5 |\n| 1,2 a 1,4 |  |  |  |  |  |  |  |  | 10 | 10 |\n| 1,4 a 1,6 |  |  |  |  |  |  |  | 5 | 20 | 25 |\n| 1,6 a 1,8 |  |  |  |  |  |  |  | 10 | 30 | 40 |\n| 1,8 a 2,0 |  |  |  |  |  |  | 5 | 15 | 35 | 55 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 5 | 5 |\n| 1,2 a 1,4 | | | | | | | | | 10 | 10 |\n| 1,4 a 1,6 | | | | | | | | 5 | 20 | 25 |\n| 1,6 a 1,8 | | | | | | | | 10 | 30 | 40 |\n| 1,8 a 2,0 | | | | | | | 5 | 15 | 35 | 55 |"
         },
         {
           "type": "paragraph",
@@ -1408,39 +1292,15 @@
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 5 | 5 |\n| 1,2 a 1,4 | | | | | | | | | 20 | 20 |\n| 1,4 a 1,6 | | | | | | | | 5 | 30 | 35 |\n| 1,6 a 1,8 | | | | | | | | 15 | 40 | 55 |\n| 1,8 a 2,0 | | | | | | | 5 | 25 | 40 | 70 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  | 5 | 5 |\n| 1,2 a 1,4 |  |  |  |  |  |  |  |  | 20 | 20 |\n| 1,4 a 1,6 |  |  |  |  |  |  |  | 5 | 30 | 35 |\n| 1,6 a 1,8 |  |  |  |  |  |  |  | 15 | 40 | 55 |\n| 1,8 a 2,0 |  |  |  |  |  |  | 5 | 25 | 40 | 70 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 10 | 10 |\n| 1,2 a 1,4 | | | | | | | | 5 | 20 | 25 |\n| 1,4 a 1,6 | | | | | | | | 10 | 35 | 45 |\n| 1,6 a 1,8 | | | | | | | 5 | 20 | 40 | 65 |\n| 1,8 a 2,0 | | | | | | | 10 | 30 | 40 | 80 |"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  | 10 | 10 |\n| 1,2 a 1,4 |  |  |  |  |  |  |  | 5 | 20 | 25 |\n| 1,4 a 1,6 |  |  |  |  |  |  |  | 10 | 35 | 45 |\n| 1,6 a 1,8 |  |  |  |  |  |  | 5 | 20 | 40 | 65 |\n| 1,8 a 2,0 |  |  |  |  |  |  | 10 | 30 | 40 | 80 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  | 15 | 15 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 15 | 15 |"
         }
       ]
     },
@@ -1519,31 +1379,15 @@
         },
         {
           "type": "table",
-          "markdown": "| 1,2 a 1,4 |  |  |  |  |  |  |  | 5 | 30 | 35 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,4 a 1,6 |  |  |  |  |  |  |  | 15 | 40 | 55 |\n| 1,6 a 1,8 |  |  |  |  |  |  | 5 | 25 | 45 | 75 |\n| 1,8 a 2,0 |  |  |  |  |  | 5 | 15 | 30 | 45 | 95 |"
+          "markdown": "| 1,2 a 1,4 | | | | | | | | 5 | 30 | 35 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,4 a 1,6 | | | | | | | | 15 | 40 | 55 |\n| 1,6 a 1,8 | | | | | | | 5 | 25 | 45 | 75 |\n| 1,8 a 2,0 | | | | | | 5 | 15 | 30 | 45 | 95 |"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 20 | 20 |\n| 1,2 a 1,4 | | | | | | | | 5 | 35 | 40 |\n| 1,4 a 1,6 | | | | | | | 5 | 20 | 40 | 65 |\n| 1,6 a 1,8 | | | | | | | 10 | 30 | 45 | 85 |\n| 1,8 a 2,0 | | | | | | 5 | 20 | 35 | 45 | 105 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 1,0 a 1,2 |  |  |  |  |  |  |  |  | 20 | 20 |\n| 1,2 a 1,4 |  |  |  |  |  |  |  | 5 | 35 | 40 |\n| 1,4 a 1,6 |  |  |  |  |  |  | 5 | 20 | 40 | 65 |\n| 1,6 a 1,8 |  |  |  |  |  |  | 10 | 30 | 45 | 85 |\n| 1,8 a 2,0 |  |  |  |  |  | 5 | 20 | 35 | 45 | 105 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  |  |  |  | 5 | 5 |\n| 2,2 a 2,4 |  |  |  |  |  |  |  | 5 | 5 |\n| 2,4 a 2,6 |  |  |  |  |  |  |  | 5 | 5 |\n| 2,6 a 2,8 |  |  |  |  |  |  |  | 5 | 5 |\n| 2,8 a 3,0 |  |  |  |  |  |  | 5 | 5 | 10 |\n| 3,0 a 3,2 |  |  |  |  |  |  | 5 | 5 | 10 |\n| 3,2 a 3,4 |  |  |  |  |  |  | 5 | 10 | 15 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | | | 5 | 5 |\n| 2,2 a 2,4 | | | | | | | | 5 | 5 |\n| 2,4 a 2,6 | | | | | | | | 5 | 5 |\n| 2,6 a 2,8 | | | | | | | | 5 | 5 |\n| 2,8 a 3,0 | | | | | | | 5 | 5 | 10 |\n| 3,0 a 3,2 | | | | | | | 5 | 5 | 10 |\n| 3,2 a 3,4 | | | | | | | 5 | 10 | 15 |"
         },
         {
           "type": "paragraph",
@@ -1630,27 +1474,11 @@
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | | 5 | 15 | 20 |\n| 2,2 a 2,4 | | | | | | | 5 | 20 | 25 |\n| 2,4 a 2,6 | | | | | | | 10 | 25 | 35 |\n| 2,6 a 2,8 | | | | | | 5 | 10 | 35 | 50 |\n| 2,8 a 3,0 | | | | | | 5 | 15 | 40 | 60 |\n| 3,0 a 3,2 | | | | | 5 | 5 | 20 | 40 | 70 |\n| 3,2 a 3,4 | | | | | 5 | 10 | 25 | 40 | 80 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  |  |  | 5 | 15 | 20 |\n| 2,2 a 2,4 |  |  |  |  |  |  | 5 | 20 | 25 |\n| 2,4 a 2,6 |  |  |  |  |  |  | 10 | 25 | 35 |\n| 2,6 a 2,8 |  |  |  |  |  | 5 | 10 | 35 | 50 |\n| 2,8 a 3,0 |  |  |  |  |  | 5 | 15 | 40 | 60 |\n| 3,0 a 3,2 |  |  |  |  | 5 | 5 | 20 | 40 | 70 |\n| 3,2 a 3,4 |  |  |  |  | 5 | 10 | 25 | 40 | 80 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  |  | 5 | 10 | 35 | 50 |\n| 2,2 a 2,4 |  |  |  |  |  | 5 | 20 | 35 | 60 |\n| 2,4 a 2,6 |  |  |  |  |  | 10 | 25 | 40 | 75 |\n| 2,6 a 2,8 |  |  |  |  | 5 | 10 | 30 | 45 | 90 |\n| 2,8 a 3,0 |  |  |  |  | 5 | 20 | 35 | 45 | 105 |\n| 3,0 a 3,2 |  |  |  | 5 | 10 | 20 | 35 | 45 | 115 |\n| 3,2 a 3,4 |  |  |  | 5 | 15 | 25 | 35 | 45 | 125 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | 5 | 10 | 35 | 50 |\n| 2,2 a 2,4 | | | | | | 5 | 20 | 35 | 60 |\n| 2,4 a 2,6 | | | | | | 10 | 25 | 40 | 75 |\n| 2,6 a 2,8 | | | | | 5 | 10 | 30 | 45 | 90 |\n| 2,8 a 3,0 | | | | | 5 | 20 | 35 | 45 | 105 |\n| 3,0 a 3,2 | | | | 5 | 10 | 20 | 35 | 45 | 115 |\n| 3,2 a 3,4 | | | | 5 | 15 | 25 | 35 | 45 | 125 |"
         },
         {
           "type": "paragraph",
@@ -1719,39 +1547,15 @@
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | 5 | 25 | 40 | 70 |\n| 2,2 a 2,4 | | | | | 5 | 10 | 30 | 40 | 85 |\n| 2,4 a 2,6 | | | | | 5 | 20 | 35 | 40 | 100 |\n| 2,6 a 2,8 | | | | 5 | 10 | 25 | 35 | 40 | 115 |\n| 2,8 a 3,0 | | | | 5 | 15 | 30 | 35 | 45 | 130 |\n| 3,0 a 3,2 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,2 a 3,4 | | | 5 | 15 | 25 | 30 | 35 | 45 | 155 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  |  | 5 | 25 | 40 | 70 |\n| 2,2 a 2,4 |  |  |  |  | 5 | 10 | 30 | 40 | 85 |\n| 2,4 a 2,6 |  |  |  |  | 5 | 20 | 35 | 40 | 100 |\n| 2,6 a 2,8 |  |  |  | 5 | 10 | 25 | 35 | 40 | 115 |\n| 2,8 a 3,0 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 |\n| 3,0 a 3,2 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,2 a 3,4 |  |  | 5 | 15 | 25 | 30 | 35 | 45 | 155 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | 5 | 10 | 30 | 45 | 90 |\n| 2,2 a 2,4 | | | | | 5 | 20 | 35 | 45 | 105 |\n| 2,4 a 2,6 | | | | 5 | 10 | 25 | 35 | 45 | 120 |\n| 2,6 a 2,8 | | | | 5 | 20 | 30 | 35 | 45 | 135 |\n| 2,8 a 3,0 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,0 a 3,2 | | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 |\n| 3,2 a 3,4 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  | 5 | 10 | 30 | 45 | 90 |\n| 2,2 a 2,4 |  |  |  |  | 5 | 20 | 35 | 45 | 105 |\n| 2,4 a 2,6 |  |  |  | 5 | 10 | 25 | 35 | 45 | 120 |\n| 2,6 a 2,8 |  |  |  | 5 | 20 | 30 | 35 | 45 | 135 |\n| 2,8 a 3,0 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,0 a 3,2 |  | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 |\n| 3,2 a 3,4 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |"
         }
       ]
     },
@@ -1819,31 +1623,15 @@
         },
         {
           "type": "table",
-          "markdown": "| 2,0 a 2,2 |  |  |  |  | 5 | 15 | 35 | 40 | 95 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,2 a 2,4 |  |  |  |  | 10 | 25 | 35 | 45 | 115 |\n| 2,4 a 2,6 |  |  |  | 5 | 15 | 30 | 35 | 45 | 130 |\n| 2,6 a 2,8 |  |  | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 2,8 a 3,0 |  |  | 5 | 20 | 25 | 30 | 35 | 45 | 160 |\n| 3,0 a 3,2 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |\n| 3,2 a 3,4 | 5 | 5 | 15 | 25 | 25 | 30 | 40 | 45 | 190 |"
+          "markdown": "| 2,0 a 2,2 | | | | | 5 | 15 | 35 | 40 | 95 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,2 a 2,4 | | | | | 10 | 25 | 35 | 45 | 115 |\n| 2,4 a 2,6 | | | | 5 | 15 | 30 | 35 | 45 | 130 |\n| 2,6 a 2,8 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 2,8 a 3,0 | | | 5 | 20 | 25 | 30 | 35 | 45 | 160 |\n| 3,0 a 3,2 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |\n| 3,2 a 3,4 | 5 | 5 | 15 | 25 | 25 | 30 | 40 | 45 | 190 |"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | 10 | 20 | 35 | 45 | 110 |\n| 2,2 a 2,4 | | | | 5 | 15 | 25 | 40 | 45 | 130 |\n| 2,4 a 2,6 | | | 5 | 5 | 25 | 30 | 40 | 45 | 150 |\n| 2,6 a 2,8 | | | 5 | 15 | 25 | 30 | 40 | 45 | 160 |\n| 2,8 a 3,0 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |\n| 3,0 a 3,2 | 5 | 5 | 15 | 25 | 25 | 30 | 40 | 45 | 190 |\n| 3,2 a 3,4 | 5 | 15 | 20 | 25 | 30 | 30 | 40 | 45 | 210 |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  |  | 10 | 20 | 35 | 45 | 110 |\n| 2,2 a 2,4 |  |  |  | 5 | 15 | 25 | 40 | 45 | 130 |\n| 2,4 a 2,6 |  |  | 5 | 5 | 25 | 30 | 40 | 45 | 150 |\n| 2,6 a 2,8 |  |  | 5 | 15 | 25 | 30 | 40 | 45 | 160 |\n| 2,8 a 3,0 |  | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |\n| 3,0 a 3,2 | 5 | 5 | 15 | 25 | 25 | 30 | 40 | 45 | 190 |\n| 3,2 a 3,4 | 5 | 15 | 20 | 25 | 30 | 30 | 40 | 45 | 210 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* |  |  |  |  |  |  |  | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 |  |\n| 2,0 a 2,2 |  |  |  | 5 | 10 | 25 | 40 | 50 | 130 |\n| 2,2 a 2,4 |  |  |  | 10 | 20 | 30 | 40 | 55 | 155 |\n| 2,4 a 2,6 |  |  | 5 | 15 | 25 | 30 | 45 | 60 | 180 |\n| 2,6 a 2,8 |  | 5 | 10 | 20 | 25 | 30 | 45 | 70 | 205 |\n| 2,8 a 3,0 |  | 10 | 15 | 20 | 30 | 40 | 50 | 80 | 245 **** |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | 5 | 10 | 25 | 40 | 50 | 130 |\n| 2,2 a 2,4 | | | | 10 | 20 | 30 | 40 | 55 | 155 |\n| 2,4 a 2,6 | | | 5 | 15 | 25 | 30 | 45 | 60 | 180 |\n| 2,6 a 2,8 | | 5 | 10 | 20 | 25 | 30 | 45 | 70 | 205 |\n| 2,8 a 3,0 | | 10 | 15 | 20 | 30 | 40 | 50 | 80 | 245 **** |"
         },
         {
           "type": "paragraph",
@@ -3778,43 +3566,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Testes"
-        },
-        {
-          "type": "paragraph",
-          "text": "Equipamentos | De Vazamento | De Ruptura |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Câmaras"
-        },
-        {
-          "type": "paragraph",
-          "text": "Hiperbáricas | 2 anos | 5 anos |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Reservatório de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Gases não Submerso | 5 anos | 5 anos |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Reservatório de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Gases Submerso | 2 anos | 5 anos |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Equipamentos com pressão"
-        },
-        {
-          "type": "paragraph",
-          "text": "de trabalho superior a 500 mbar | 2 anos | 2 anos |"
+          "markdown": "| Testes Equipamentos | De Vazamento | De Ruptura |\n| --- | --- | --- |\n| Câmaras Hiperbáricas | 2 anos | 5 anos |\n| Reservatório de Gases não Submerso | 5 anos | 5 anos |\n| Reservatório de Gases Submerso | 2 anos | 5 anos |\n| Equipamentos com pressão de trabalho superior a 500 mbar | 2 anos | 2 anos |"
         },
         {
           "type": "item",
@@ -5315,19 +5067,7 @@
         },
         {
           "type": "table",
-          "markdown": "| PROFUNDIDADE"
-        },
-        {
-          "type": "paragraph",
-          "text": "(METROS) | TEMPO DE FUNDO (MINUTOS ) | TEMPO P/ 1ª PARADA (MIN. SEG.) | PARADAS P/ DESCOMPRESSÃO (MINUTOS) |  |  |  |  |  |  |  |  |  |  | TEMPO TOTAL P/SUBIDA (MIN. SEG.) | GRUPO REPETITI VO |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 33"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |  |"
+          "markdown": "| PROFUN- DIDADE (METROS) | TEMPO DE FUNDO (MINUTOS ) | TEMPO P/ 1ª PARADA (MIN. SEG.) | PARADAS P/ DESCOMPRESSÃO (MINUTOS) | | | | | | | | | | | TEMPO TOTAL P/SUBIDA (MIN. SEG.) | GRUPO REPETITI VO |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5350,19 +5090,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 33"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |  |"
+          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5385,19 +5113,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 33"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |  |"
+          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5420,32 +5136,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros) | Tempo de Fundo (minuto"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "s",
-              "text": "| Tempo p/"
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min:seg) | Grupo Repetitiv o |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 33"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 30m | 27m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |  |"
+          "markdown": "| Profun- didade (metros) | Tempo de Fundo (minuto s) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min:seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30m | 27m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5468,19 +5159,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 33"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |  |"
+          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5499,23 +5178,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min:seg) |"
+          "markdown": "| Profun- didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 39"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "||5|3:20||||||1|4:30|\n|---|---|---|---|---|---|---|---|---|---|\n||10|3:10|||||2|4|9:30|\n||15|3:00||||1|5|13|22:30|\n|63|20|3:00||||4|10|23|40:30|\n|(**)|25|2:50|||2|7|17|27|56:30|\n||30|2:50|||4|9|24|41|81:30|\n||40|2:40||4|9|19|26|63|124:30|\n||50|2:30|1|9|17|19|45|80|174:30|\n||5|3:30||||||2|5:40|\n||10|3:20|||||2|5|10:40|\n||15|3:10||||2|5|16|26:40|\n|66|20|3:00|||1|3|11|24|42:40|\n|(**)|25|3:00|||3|8|19|33|66:40|\n||30|2:50||1|7|10|23|47|91:40|\n||40|2:50||6|12|22|29|68|140:40|\n||50|2:40|3|12|17|18|51|86|190:40|\n||5|3:40||||||2|5:50|\n||10|3:20||||1|2|6|12:50|\n||15|3:20||||3|6|18|30:50|\n|69|20|3:10|||2|5|12|26|48:50|\n|(**)|25|3:10|||4|8|22|37|74:50|\n||30|3:00||2|8|12|23|51|99:50|\n||40|2:50|1|7|15|22|34|74|156:50|\n||50|2:50|5|14|16|24|51|89|202:50|\n||5|3:50||||||2|6:00|\n||10|3:30||||1|3|6|14:00|\n|72|15|3:30||||4|6|21|35:00|\n|(**)|20|3:20|||3|6|15|25|53:00|\n||25|3:10||1|4|9|24|40|82:00|\n||30|3:10||4|8|15|22|56|109:00|\n||40|3:00|3|7|17|22|39|75|167:00|\n||50|2:50<br>1|8|15|16|29|51|94|218:00|\n||5||||||1|2|7:10|\n||10|3:50||||1|4|7|16:10|\n||15|3:40|||1|4|7|22|38:10|\n|75|20|3:30|||4|7|17|27|59:10|\n|(**)|25|3:20||2|7|10|24|45|92:10|\n||30|3:20||6|7|17|23|59|116:10|\n||40|3:10|5|9|17|19|45|79|178:10|\n||60|2:40<br>4 10 10|10|12|22|36|64|126|298:10|\n||90|2:10<br>8 10 10 10 10 10|28|28|44|68|98|186|514:10|"
+          "markdown": "| | 5 | 3:20 | | | | | | 1 | 4:30 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 10 | 3:10 | | | | | 2 | 4 | 9:30 |\n| | 15 | 3:00 | | | | 1 | 5 | 13 | 22:30 |\n| 63 | 20 | 3:00 | | | | 4 | 10 | 23 | 40:30 |\n| (**) | 25 | 2:50 | | | 2 | 7 | 17 | 27 | 56:30 |\n| | 30 | 2:50 | | | 4 | 9 | 24 | 41 | 81:30 |\n| | 40 | 2:40 | | 4 | 9 | 19 | 26 | 63 | 124:30 |\n| | 50 | 2:30 | 1 | 9 | 17 | 19 | 45 | 80 | 174:30 |\n| | 5 | 3:30 | | | | | | 2 | 5:40 |\n| | 10 | 3:20 | | | | | 2 | 5 | 10:40 |\n| | 15 | 3:10 | | | | 2 | 5 | 16 | 26:40 |\n| 66 | 20 | 3:00 | | | 1 | 3 | 11 | 24 | 42:40 |\n| (**) | 25 | 3:00 | | | 3 | 8 | 19 | 33 | 66:40 |\n| | 30 | 2:50 | | 1 | 7 | 10 | 23 | 47 | 91:40 |\n| | 40 | 2:50 | | 6 | 12 | 22 | 29 | 68 | 140:40 |\n| | 50 | 2:40 | 3 | 12 | 17 | 18 | 51 | 86 | 190:40 |\n| | 5 | 3:40 | | | | | | 2 | 5:50 |\n| | 10 | 3:20 | | | | 1 | 2 | 6 | 12:50 |\n| | 15 | 3:20 | | | | 3 | 6 | 18 | 30:50 |\n| 69 | 20 | 3:10 | | | 2 | 5 | 12 | 26 | 48:50 |\n| (**) | 25 | 3:10 | | | 4 | 8 | 22 | 37 | 74:50 |\n| | 30 | 3:00 | | 2 | 8 | 12 | 23 | 51 | 99:50 |\n| | 40 | 2:50 | 1 | 7 | 15 | 22 | 34 | 74 | 156:50 |\n| | 50 | 2:50 | 5 | 14 | 16 | 24 | 51 | 89 | 202:50 |\n| | 5 | 3:50 | | | | | | 2 | 6:00 |\n| | 10 | 3:30 | | | | 1 | 3 | 6 | 14:00 |\n| 72 | 15 | 3:30 | | | | 4 | 6 | 21 | 35:00 |\n| (**) | 20 | 3:20 | | | 3 | 6 | 15 | 25 | 53:00 |\n| | 25 | 3:10 | | 1 | 4 | 9 | 24 | 40 | 82:00 |\n| | 30 | 3:10 | | 4 | 8 | 15 | 22 | 56 | 109:00 |\n| | 40 | 3:00 | 3 | 7 | 17 | 22 | 39 | 75 | 167:00 |\n| | 50 | 2:50<br>1 | 8 | 15 | 16 | 29 | 51 | 94 | 218:00 |\n| | 5 | | | | | | 1 | 2 | 7:10 |\n| | 10 | 3:50 | | | | 1 | 4 | 7 | 16:10 |\n| | 15 | 3:40 | | | 1 | 4 | 7 | 22 | 38:10 |\n| 75 | 20 | 3:30 | | | 4 | 7 | 17 | 27 | 59:10 |\n| (**) | 25 | 3:20 | | 2 | 7 | 10 | 24 | 45 | 92:10 |\n| | 30 | 3:20 | | 6 | 7 | 17 | 23 | 59 | 116:10 |\n| | 40 | 3:10 | 5 | 9 | 17 | 19 | 45 | 79 | 178:10 |\n| | 60 | 2:40<br>4 10 10 | 10 | 12 | 22 | 36 | 64 | 126 | 298:10 |\n| | 90 | 2:10<br>8 10 10 10 10 10 | 28 | 28 | 44 | 68 | 98 | 186 | 514:10 |"
         },
         {
           "type": "paragraph",
@@ -5549,27 +5216,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) |  |  |  |  |  |  |  |  |  |  |  |  | Tempo Total p/Subida (min:seg) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 39"
-        },
-        {
-          "type": "paragraph",
-          "text": "m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5 4:00 1 2 7:20"
-        },
-        {
-          "type": "paragraph",
-          "text": "10 3:50 2 4 9 19:20 78 15 3:40 2 4 10 22 42:20 (**) 20 3:30 1 4 7 20 31 67:20 25 3:30 3 8 11 23 50 99:20 30 3:20 2 6 8 19 26 61 126:20 40 3:10 1 6 11 16 19 49 84 190:20 5 4:10 1 3 8:30 10 4:00 2 5 11 22:30 81 15 3:50 3 4 11 24 46:30 (**) 20 3:40 2 3 9 21 35 74:30 25 3:30 2 3 8 13 23 53 106:30 30 3:30 3 6 12 22 27 64 138:30 40 3:20 5 6 11 17 22 51 88 204:30 5 4:20 2 2 8:40 10 4:00 1 2 5 13 25:40 84 15 3:50 1 3 4 11 26 49:40 (**) 20 3:50 3 4 8 23 39 81:40 25 3:40 2 5 7 16 23 56 113:40 30 3:30 1 3 7 13 22 30 70 150:40 40 3:20 1 6 6 13 17 27 51 93 218:40 5 4:30 2 3 9:50 10 4:10 1 3 5 16 29:50 87 15 4:00 1 3 6 12 26 52:50 (**) 20 4:00 3 7 9 23 43 89:50 25 3:50 1 3 5 8 17 23 60 120:50 30 3:40 1 5 6 15 22 36 72 162:50 40 3:30 3 5 7 15 16 32 51 95 228:50 5 4:40 3 3 11:00 10 4:20 1 3 6 17 32:00 15 4:10 2 3 6 15 26 57:00 90 20 4:00 2 3 7 10 23 47 97:00 (**) 25 3:50 1 3 6 8 19 26 61 129:00 30 3:50 2 5 7 17 22 39 75 172:00 40 3:40 4 6 9 15 17 34 51 90 231:00 60 3:00 4 10 10 10 10 10 14 28 32 50 90 187 460:00 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
+          "markdown": "| Profun- didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |\n| 5 4:00 1 2 7:20 10 3:50 2 4 9 19:20 78 15 3:40 2 4 10 22 42:20 (**) 20 3:30 1 4 7 20 31 67:20 25 3:30 3 8 11 23 50 99:20 30 3:20 2 6 8 19 26 61 126:20 40 3:10 1 6 11 16 19 49 84 190:20 5 4:10 1 3 8:30 10 4:00 2 5 11 22:30 81 15 3:50 3 4 11 24 46:30 (**) 20 3:40 2 3 9 21 35 74:30 25 3:30 2 3 8 13 23 53 106:30 30 3:30 3 6 12 22 27 64 138:30 40 3:20 5 6 11 17 22 51 88 204:30 5 4:20 2 2 8:40 10 4:00 1 2 5 13 25:40 84 15 3:50 1 3 4 11 26 49:40 (**) 20 3:50 3 4 8 23 39 81:40 25 3:40 2 5 7 16 23 56 113:40 30 3:30 1 3 7 13 22 30 70 150:40 40 3:20 1 6 6 13 17 27 51 93 218:40 5 4:30 2 3 9:50 10 4:10 1 3 5 16 29:50 87 15 4:00 1 3 6 12 26 52:50 (**) 20 4:00 3 7 9 23 43 89:50 25 3:50 1 3 5 8 17 23 60 120:50 30 3:40 1 5 6 15 22 36 72 162:50 40 3:30 3 5 7 15 16 32 51 95 228:50 5 4:40 3 3 11:00 10 4:20 1 3 6 17 32:00 15 4:10 2 3 6 15 26 57:00 90 20 4:00 2 3 7 10 23 47 97:00 (**) 25 3:50 1 3 6 8 19 26 61 129:00 30 3:50 2 5 7 17 22 39 75 172:00 40 3:40 4 6 9 15 17 34 51 90 231:00 60 3:00 4 10 10 10 10 10 14 28 32 50 90 187 460:00 | | | | | | | | | | | | | | | | |"
         },
         {
           "type": "note",
@@ -5582,19 +5229,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros) | Tempo Limite s/Descompressã o (minutos) | Designação de Grupo (tempos em minutos) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
+          "markdown": "| Profundidade (metros) | Tempo Limite s/Descompressã o (minutos) | Designação de Grupo (tempos em minutos) | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |"
-        },
-        {
-          "type": "table",
-          "markdown": "|36|15|5|10|12 15|\n|---|---|---|---|---|\n|39|10|5|8|10|\n|42|10|5|7|10|\n|45|5|5|||\n|48|5||5||\n|51|5||5||\n|54|5||5||\n|57|5||5||"
+          "markdown": "| 36 | 15 | 5 | 10 | 12 15 |\n| --- | --- | --- | --- | --- |\n| 39 | 10 | 5 | 8 | 10 |\n| 42 | 10 | 5 | 7 | 10 |\n| 45 | 5 | 5 | | |\n| 48 | 5 | | 5 | |\n| 51 | 5 | | 5 | |\n| 54 | 5 | | 5 | |\n| 57 | 5 | | 5 | |"
         },
         {
           "type": "note",
@@ -5609,7 +5248,7 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "||||||||**C**|**B**<br>0:1<br>0|0:1<br>0<br>2:1<br>0<br>1:4<br>0|12:00*<br>2:11<br>12:00*<br>2:50|\n|---|---|---|---|---|---|---|---|---|---|---|\n|||||||||1:3<br>9|2:4<br>9|12:00*|\n|||||||**D**|0:1|1:1|2:3|5:49|\n||||||||0|0|9||\n||||||||1:0|2:3|5:4|12:00*|\n||||||||9|8|8||\n||||||**E**|0:1|0:5|1:5|3:2|6:33|\n|||||||0|5|8|3||\n|||||||0:5|1:5|3:2|6:3|12:00*|\n|||||||4|7|2|2||\n|||||**F**|0:1|0:4|1:3|2:2|3:5|7:06|\n||||||0|6|0|9|8||\n||||||0:4|1:2|2:2|3:5|7:0|12:00*|\n||||||5|9|8|7|5||\n||||**G**|0:1|0:4|1:1|2:0|2:5|4:2|7:36|\n|||||0|1|6|0|9|6||\n|||||0:4|1:1|1:5|2:5|4:2|7:3|12:00*|\n|||||0|5|9|8|5|5||\n|||**H**|0:1|0:3|1:0|1:4|2:2|3:2|4:5|8:00|\n||||0|7|7|2|4|1|0||\n||||0:3|1:0|1:4|2:2|3:2|4:4|7:5|12:00*|\n||||6|6|1|3|0|9|9||\n||**I**|0:1|0:3|1:0|1:3|2:0|2:4|3:4|5:1|8:22|\n|||0|4|0|0|3|5|4|3||\n|||0:3|0:5|1:2|2:0|2:4|3:4|5:1|8:2|12:00*|\n|||3|9|9|2|4|3|2|1||\n|**J**|0:1|0;3|0:5|1:2|1:4|2:2|3:0|4;0|5:4|8:41|\n||0|2|5|0|8|1|5|3|1||\n||0:3|0:5|1:1|1:4|2:2|3:0|4:0|5:4|8:4|12:00*|\n||1|4|9|7|0|4|2|0|0||\n|**K**<br>0:1|0:2|0:5|1:1|1:3|2:0|2:3|3:2|4:2|5:4|8:59|\n|0|9|0|2|6|4|9|2|0|9||\n|0:2|0:4|1:1|1:3|2:0|2:3|3:2|4:1|5:4|8:5|12:00*|\n|8|9|1|5|3|8|1|9|8|8||\n|**L**<br>0:1<br>0:2|0:4|1:0|1:2|1:5|2:2|2:5|3:3|4:3|6:0|9:13|\n|0<br>7|6|5|6|0|0|4|7|6|3||\n|0:2<br>0:4|1:0|1:2|1:4|2:1|2:5|3:3|4:3|6:0|9:1|12:00*|\n|6<br>5|4|5|9|9|3|6|5|2|2||\n|**M**<br>0:1<br>0:2<br>0:4|1:0|1:1|1:4|2:0|2:3|3:0|3:5|4:5|6:1|9:29|\n|0<br>6<br>3|0|9|0|6|5|9|3|0|9||"
+          "markdown": "| | | | | | | | **C** | **B**<br>0:1<br>0 | 0:1<br>0<br>2:1<br>0<br>1:4<br>0 | 12:00*<br>2:11<br>12:00*<br>2:50 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | | | | | 1:3<br>9 | 2:4<br>9 | 12:00* |\n| | | | | | | **D** | 0:1 | 1:1 | 2:3 | 5:49 |\n| | | | | | | | 0 | 0 | 9 | |\n| | | | | | | | 1:0 | 2:3 | 5:4 | 12:00* |\n| | | | | | | | 9 | 8 | 8 | |\n| | | | | | **E** | 0:1 | 0:5 | 1:5 | 3:2 | 6:33 |\n| | | | | | | 0 | 5 | 8 | 3 | |\n| | | | | | | 0:5 | 1:5 | 3:2 | 6:3 | 12:00* |\n| | | | | | | 4 | 7 | 2 | 2 | |\n| | | | | **F** | 0:1 | 0:4 | 1:3 | 2:2 | 3:5 | 7:06 |\n| | | | | | 0 | 6 | 0 | 9 | 8 | |\n| | | | | | 0:4 | 1:2 | 2:2 | 3:5 | 7:0 | 12:00* |\n| | | | | | 5 | 9 | 8 | 7 | 5 | |\n| | | | **G** | 0:1 | 0:4 | 1:1 | 2:0 | 2:5 | 4:2 | 7:36 |\n| | | | | 0 | 1 | 6 | 0 | 9 | 6 | |\n| | | | | 0:4 | 1:1 | 1:5 | 2:5 | 4:2 | 7:3 | 12:00* |\n| | | | | 0 | 5 | 9 | 8 | 5 | 5 | |\n| | | **H** | 0:1 | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:5 | 8:00 |\n| | | | 0 | 7 | 7 | 2 | 4 | 1 | 0 | |\n| | | | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:4 | 7:5 | 12:00* |\n| | | | 6 | 6 | 1 | 3 | 0 | 9 | 9 | |\n| | **I** | 0:1 | 0:3 | 1:0 | 1:3 | 2:0 | 2:4 | 3:4 | 5:1 | 8:22 |\n| | | 0 | 4 | 0 | 0 | 3 | 5 | 4 | 3 | |\n| | | 0:3 | 0:5 | 1:2 | 2:0 | 2:4 | 3:4 | 5:1 | 8:2 | 12:00* |\n| | | 3 | 9 | 9 | 2 | 4 | 3 | 2 | 1 | |\n| **J** | 0:1 | 0;3 | 0:5 | 1:2 | 1:4 | 2:2 | 3:0 | 4;0 | 5:4 | 8:41 |\n| | 0 | 2 | 5 | 0 | 8 | 1 | 5 | 3 | 1 | |\n| | 0:3 | 0:5 | 1:1 | 1:4 | 2:2 | 3:0 | 4:0 | 5:4 | 8:4 | 12:00* |\n| | 1 | 4 | 9 | 7 | 0 | 4 | 2 | 0 | 0 | |\n| **K**<br>0:1 | 0:2 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:2 | 5:4 | 8:59 |\n| 0 | 9 | 0 | 2 | 6 | 4 | 9 | 2 | 0 | 9 | |\n| 0:2 | 0:4 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:1 | 5:4 | 8:5 | 12:00* |\n| 8 | 9 | 1 | 5 | 3 | 8 | 1 | 9 | 8 | 8 | |\n| **L**<br>0:1<br>0:2 | 0:4 | 1:0 | 1:2 | 1:5 | 2:2 | 2:5 | 3:3 | 4:3 | 6:0 | 9:13 |\n| 0<br>7 | 6 | 5 | 6 | 0 | 0 | 4 | 7 | 6 | 3 | |\n| 0:2<br>0:4 | 1:0 | 1:2 | 1:4 | 2:1 | 2:5 | 3:3 | 4:3 | 6:0 | 9:1 | 12:00* |\n| 6<br>5 | 4 | 5 | 9 | 9 | 3 | 6 | 5 | 2 | 2 | |\n| **M**<br>0:1<br>0:2<br>0:4 | 1:0 | 1:1 | 1:4 | 2:0 | 2:3 | 3:0 | 3:5 | 4:5 | 6:1 | 9:29 |\n| 0<br>6<br>3 | 0 | 9 | 0 | 6 | 5 | 9 | 3 | 0 | 9 | |"
         },
         {
           "type": "note",
@@ -5622,7 +5261,7 @@
         },
         {
           "type": "table",
-          "markdown": "|||||0:2|0:4|0:5|1:1|1:3|2:0|2:3|3:0|3:5|4:4|6:1|9:2|12:00*|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|||||5|2|9|8|9|5|4|8|2|9|8|8||\n|||**N**|0:1|0:2|0:4|0:5|1:1|1:3|1:5|2:1|2:4|3:2|4:0|5:0|6:3|9:44|\n||||0|5|0|5|2|1|4|9|8|3|5|4|3||\n||||0:2|0:3|0:5|1:1|1:3|1:5|2:1|2:4|3:2|4:0|5:0|6:3|9:4|12:00*|\n||||4|9|4|1|0|3|8|7|2|4|3|2|3||\n||**O**|0:10|0:2|0:3|0:5|1:0|1:2|1:4|2:0|2:3|3:0|3:3|4:1|5:1|6:4|9:55|\n||||4|7|2|8|5|4|5|0|0|4|8|7|5||\n|||0:23|0:3|0:5|1:0|1:2|1:4|2:0|2:2|2:5|3:3|4:1|5:1|6:4|9:5|12:00*|\n||||6|1|7|4|3|4|9|9|3|7|6|4|4||\n|**Z**<br>|0:1|0:23|0:3|0:4|1:0|1:1|1:3|1:5|2:1|2:4|3:1|3:4|4:3|5:2|6:5|10:06|\n||0||5|9|3|9|7|6|8|3|1|6|0|8|7||\n|0:2<br>0:34|0:4|<br>1:0|1:1|1:3|1:5|2:1|2:4|3:1|3:4|4:2|5:2|6:5|10:|12:|00||\n|2|8|<br>2|8|6|5|7|2|0|5|9|7|6|05||||\n|**Nova**|||||||||||||||||\n|**significação**|**Z**|**O**|**N**|**M**|**L**|**K**|**J**|**I**|**H**|**G**|**F**|**E**|**D**|**C**|**B**|**A**|\n|**de Grupo **|||||||||||||||||"
+          "markdown": "| | | | | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:0 | 3:5 | 4:4 | 6:1 | 9:2 | 12:00* |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | 5 | 2 | 9 | 8 | 9 | 5 | 4 | 8 | 2 | 9 | 8 | 8 | |\n| | | **N** | 0:1 | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:44 |\n| | | | 0 | 5 | 0 | 5 | 2 | 1 | 4 | 9 | 8 | 3 | 5 | 4 | 3 | |\n| | | | 0:2 | 0:3 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:4 | 12:00* |\n| | | | 4 | 9 | 4 | 1 | 0 | 3 | 8 | 7 | 2 | 4 | 3 | 2 | 3 | |\n| | **O** | 0:10 | 0:2 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:3 | 3:0 | 3:3 | 4:1 | 5:1 | 6:4 | 9:55 |\n| | | | 4 | 7 | 2 | 8 | 5 | 4 | 5 | 0 | 0 | 4 | 8 | 7 | 5 | |\n| | | 0:23 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:2 | 2:5 | 3:3 | 4:1 | 5:1 | 6:4 | 9:5 | 12:00* |\n| | | | 6 | 1 | 7 | 4 | 3 | 4 | 9 | 9 | 3 | 7 | 6 | 4 | 4 | |\n| **Z**<br> | 0:1 | 0:23 | 0:3 | 0:4 | 1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:3 | 5:2 | 6:5 | 10:06 |\n| | 0 | | 5 | 9 | 3 | 9 | 7 | 6 | 8 | 3 | 1 | 6 | 0 | 8 | 7 | |\n| 0:2<br>0:34 | 0:4 | <br>1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:2 | 5:2 | 6:5 | 10: | 12: | 00 | |\n| 2 | 8 | <br>2 | 8 | 6 | 5 | 7 | 2 | 0 | 5 | 9 | 7 | 6 | 05 | | | |\n| **Nova** | | | | | | | | | | | | | | | | |\n| **significação** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |\n| **de Grupo ** | | | | | | | | | | | | | | | | |"
         },
         {
           "type": "paragraph",
@@ -5634,7 +5273,7 @@
         },
         {
           "type": "table",
-          "markdown": "|**Profundidade**<br>**de Mergulho**<br>**Repetitivo**|||||||||||||||||\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|**(Metros)**|**Z**|**O**|**N**|**M**|**L**|**K**|**J**|**I**|**H**|**G**|**F**|**E**|**D**|C|**B**|**A**|\n|12|257|241|213|187|161|138|116|101|87|73|61|49|37|25|17|7|\n|15|169|160|142|124|111|99|87|76|66|56|47|38|29|21|13|6|\n|18|122|117|107|97|88|79|70|61|52|44|36|30|24|17|11|5|\n|21|100|96|87|80|72|64|57|50|43|37|31|26|20|15|9|4|\n|24|84|80|73|68|61|54|48|43|38|32|28|23|18|13|8|4|\n|27|73|70|64|58|53|47|43|38|33|29|24|20|16|11|7|3|\n|30|64|62|57|52|48|43|38|34|30|26|22|18|14|10|7|3|\n|33|57|55|51|47|42|38|34|31|27|24|20|16|13|10|6|3|\n|36|52|50|46|43|39|35|32|28|25|21|18|15|12|9|6|3|\n|39|46|44|40|38|35|31|28|25|22|19|16|13|11|8|6|3|\n|42|42|40|38|35|32|29|26|23|20|18|15|12|10|7|5|2|\n|45|40|38|35|32|30|27|24|22|19|17|14|12|9|7|5|2|\n|48|37|36|33|31|28|26|23|20|18|16|13|11|9|6|4|2|\n|51|35|34|31|29|26|24|22|19|17|15|13|10|8|6|4|2|\n|54|32|31|29|27|25|22|20|18|16|14|12|10|8|6|4|2|\n|57|31|30|28|26|24|21|19|17|15|13|11|10|8|6|4|2|"
+          "markdown": "| **Profundidade**<br>**de Mergulho**<br>**Repetitivo** | | | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **(Metros)** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | C | **B** | **A** |\n| 12 | 257 | 241 | 213 | 187 | 161 | 138 | 116 | 101 | 87 | 73 | 61 | 49 | 37 | 25 | 17 | 7 |\n| 15 | 169 | 160 | 142 | 124 | 111 | 99 | 87 | 76 | 66 | 56 | 47 | 38 | 29 | 21 | 13 | 6 |\n| 18 | 122 | 117 | 107 | 97 | 88 | 79 | 70 | 61 | 52 | 44 | 36 | 30 | 24 | 17 | 11 | 5 |\n| 21 | 100 | 96 | 87 | 80 | 72 | 64 | 57 | 50 | 43 | 37 | 31 | 26 | 20 | 15 | 9 | 4 |\n| 24 | 84 | 80 | 73 | 68 | 61 | 54 | 48 | 43 | 38 | 32 | 28 | 23 | 18 | 13 | 8 | 4 |\n| 27 | 73 | 70 | 64 | 58 | 53 | 47 | 43 | 38 | 33 | 29 | 24 | 20 | 16 | 11 | 7 | 3 |\n| 30 | 64 | 62 | 57 | 52 | 48 | 43 | 38 | 34 | 30 | 26 | 22 | 18 | 14 | 10 | 7 | 3 |\n| 33 | 57 | 55 | 51 | 47 | 42 | 38 | 34 | 31 | 27 | 24 | 20 | 16 | 13 | 10 | 6 | 3 |\n| 36 | 52 | 50 | 46 | 43 | 39 | 35 | 32 | 28 | 25 | 21 | 18 | 15 | 12 | 9 | 6 | 3 |\n| 39 | 46 | 44 | 40 | 38 | 35 | 31 | 28 | 25 | 22 | 19 | 16 | 13 | 11 | 8 | 6 | 3 |\n| 42 | 42 | 40 | 38 | 35 | 32 | 29 | 26 | 23 | 20 | 18 | 15 | 12 | 10 | 7 | 5 | 2 |\n| 45 | 40 | 38 | 35 | 32 | 30 | 27 | 24 | 22 | 19 | 17 | 14 | 12 | 9 | 7 | 5 | 2 |\n| 48 | 37 | 36 | 33 | 31 | 28 | 26 | 23 | 20 | 18 | 16 | 13 | 11 | 9 | 6 | 4 | 2 |\n| 51 | 35 | 34 | 31 | 29 | 26 | 24 | 22 | 19 | 17 | 15 | 13 | 10 | 8 | 6 | 4 | 2 |\n| 54 | 32 | 31 | 29 | 27 | 25 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 |\n| 57 | 31 | 30 | 28 | 26 | 24 | 21 | 19 | 17 | 15 | 13 | 11 | 10 | 8 | 6 | 4 | 2 |"
         },
         {
           "type": "paragraph",
@@ -5661,19 +5300,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Prof."
-        },
-        {
-          "type": "paragraph",
-          "text": "(metros ) | Tempo de Fundo (min) | Tempo p/ 1ª Parada ou Superfície (min:seg) | Paradas de Descompressão na Água. Tempo em Minutos Respirando Ar |  |  |  | Intervalo de Superfície | Tempo a 12m na Câmara Respirando Oxigênio (min) | Tempo de Superfície | Tempo Total de Descompressão (min:seg) |"
+          "markdown": "| Prof. (metros ) | Tempo de Fundo (min) | Tempo p/ 1ª Parada ou Superfície (min:seg) | Paradas de Descompressão na Água. Tempo em Minutos Respirando Ar | | | | Intervalo de Superfície | Tempo a 12m na Câmara Respirando Oxigênio (min) | Tempo de Superfície | Tempo Total de Descom- pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 18m | 15m | 12m | 9m | | | | |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 18m | 15m | 12m | 9m |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "||18|4:48|0|0|0|0|0|4:48|\n|---|---|---|---|---|---|---|---|---|\n||30|4:48|0|0|0|0|9|19:48|\n||40|4:48|0|0|0|0|16|26:48|\n||50|4:48|0|0|0|0|24|34:48|\n|36|60|3:36|0|0|0|2|32|44:36|\n||70|3:36|0|0|0|4|39|53:36|\n||80|3:36|0|0|0|5|46|61:36|\n||90|3:12|0|0|3|7|51|72:12|\n||100|3:12|0|0|6|15|54|86:12|\n||15|5:12|0|0|0|0|0|5:12|\n||30|5:12|0|0|0|0|12|23:12|\n||40|5:12|0|0|0|0|21|32:12|\n||50|4:00|0|0|0|3|29|43:00|\n|39|60|4:00|0|0|0|5|37|53:00|\n||70|4:00|0|0|0|7|45|63:00|\n||80|3:36|0|0|6|7|51|75:36|\n||90|3:36|0|0|10|10|56|89:36|\n||13|5:36|0|0|0|0|0|5:36|\n||25|5:36|0|0|0|0|11|22:36|\n||30|5:36|0|0|0|0|15|26:36|\n||35|5:36|0|0|0|0|20|31:36|\n||40|4:24|0|0|0|2|24|37:24|\n||45|4:24|0|0|0|4|29|44:24|\n|42|50|4:24|0|0|0|6|33|50:24|\n||55|4:24|0|0|0|7|38|56:24|\n||60|4:24|0|0|0|8|43|62:24|\n||65|4:00|0|0|3|7|48|70:00|\n||70|3:36|0|2|7|7|51|79:36|\n||11|6:00|0|0|0|0|0|6:00|\n||25|6:00|0|0|0|0|13|25:00|\n||30|6:00|0|0|0|0|18|30:00|\n||35|4:48|0|0|0|4|23|38:48|\n|45|40|4:24|0|0|3|6|27|48:24|\n||45|4:24|0|0|5|7|33|57:24|\n||50|4:00|0|2|5|8|38|66:00|\n||55|3:36|2|5|9|4|44|77:36|\n||9|6:24|0|0|0|0|0|6:24|\n||20|6:24|0|0|0|0|11|23:24|\n||25|6:24|0|0|0|0|16|28:24|\n|48|30|5:12|0|0|0|2|21|35:12|\n||35|4:48|0|0|4|6|26|48:48|\n||40|4:24|0|3|5|8|32|61:24|"
+          "markdown": "| | 18 | 4:48 | 0 | 0 | 0 | 0 | 0 | 4:48 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 30 | 4:48 | 0 | 0 | 0 | 0 | 9 | 19:48 |\n| | 40 | 4:48 | 0 | 0 | 0 | 0 | 16 | 26:48 |\n| | 50 | 4:48 | 0 | 0 | 0 | 0 | 24 | 34:48 |\n| 36 | 60 | 3:36 | 0 | 0 | 0 | 2 | 32 | 44:36 |\n| | 70 | 3:36 | 0 | 0 | 0 | 4 | 39 | 53:36 |\n| | 80 | 3:36 | 0 | 0 | 0 | 5 | 46 | 61:36 |\n| | 90 | 3:12 | 0 | 0 | 3 | 7 | 51 | 72:12 |\n| | 100 | 3:12 | 0 | 0 | 6 | 15 | 54 | 86:12 |\n| | 15 | 5:12 | 0 | 0 | 0 | 0 | 0 | 5:12 |\n| | 30 | 5:12 | 0 | 0 | 0 | 0 | 12 | 23:12 |\n| | 40 | 5:12 | 0 | 0 | 0 | 0 | 21 | 32:12 |\n| | 50 | 4:00 | 0 | 0 | 0 | 3 | 29 | 43:00 |\n| 39 | 60 | 4:00 | 0 | 0 | 0 | 5 | 37 | 53:00 |\n| | 70 | 4:00 | 0 | 0 | 0 | 7 | 45 | 63:00 |\n| | 80 | 3:36 | 0 | 0 | 6 | 7 | 51 | 75:36 |\n| | 90 | 3:36 | 0 | 0 | 10 | 10 | 56 | 89:36 |\n| | 13 | 5:36 | 0 | 0 | 0 | 0 | 0 | 5:36 |\n| | 25 | 5:36 | 0 | 0 | 0 | 0 | 11 | 22:36 |\n| | 30 | 5:36 | 0 | 0 | 0 | 0 | 15 | 26:36 |\n| | 35 | 5:36 | 0 | 0 | 0 | 0 | 20 | 31:36 |\n| | 40 | 4:24 | 0 | 0 | 0 | 2 | 24 | 37:24 |\n| | 45 | 4:24 | 0 | 0 | 0 | 4 | 29 | 44:24 |\n| 42 | 50 | 4:24 | 0 | 0 | 0 | 6 | 33 | 50:24 |\n| | 55 | 4:24 | 0 | 0 | 0 | 7 | 38 | 56:24 |\n| | 60 | 4:24 | 0 | 0 | 0 | 8 | 43 | 62:24 |\n| | 65 | 4:00 | 0 | 0 | 3 | 7 | 48 | 70:00 |\n| | 70 | 3:36 | 0 | 2 | 7 | 7 | 51 | 79:36 |\n| | 11 | 6:00 | 0 | 0 | 0 | 0 | 0 | 6:00 |\n| | 25 | 6:00 | 0 | 0 | 0 | 0 | 13 | 25:00 |\n| | 30 | 6:00 | 0 | 0 | 0 | 0 | 18 | 30:00 |\n| | 35 | 4:48 | 0 | 0 | 0 | 4 | 23 | 38:48 |\n| 45 | 40 | 4:24 | 0 | 0 | 3 | 6 | 27 | 48:24 |\n| | 45 | 4:24 | 0 | 0 | 5 | 7 | 33 | 57:24 |\n| | 50 | 4:00 | 0 | 2 | 5 | 8 | 38 | 66:00 |\n| | 55 | 3:36 | 2 | 5 | 9 | 4 | 44 | 77:36 |\n| | 9 | 6:24 | 0 | 0 | 0 | 0 | 0 | 6:24 |\n| | 20 | 6:24 | 0 | 0 | 0 | 0 | 11 | 23:24 |\n| | 25 | 6:24 | 0 | 0 | 0 | 0 | 16 | 28:24 |\n| 48 | 30 | 5:12 | 0 | 0 | 0 | 2 | 21 | 35:12 |\n| | 35 | 4:48 | 0 | 0 | 4 | 6 | 26 | 48:48 |\n| | 40 | 4:24 | 0 | 3 | 5 | 8 | 32 | 61:24 |"
         },
         {
           "type": "note",
@@ -5692,15 +5323,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidad"
-        },
-        {
-          "type": "paragraph",
-          "text": "e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar |  |  |  |  | Tempo a 12m na Câmara Respirando Oxigênio (min) | Paradas na Câmara (minutos) |  | Tempo Total de Descompressão (min:seg) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 15m | 12m | 9m | 6m | 3m |  | 6m | 3m |  |"
+          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Tempo a 12m na Câmara Respirando Oxigênio (min) | Paradas na Câmara (minutos) | | Tempo Total de Descom- pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
         }
       ]
     },
@@ -5715,19 +5338,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Profundidad"
-        },
-        {
-          "type": "paragraph",
-          "text": "e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar |  |  |  |  | Intervalo de Superfície | Paradas na Câmara (minutos) |  | Tempo Total de p/Subida (min:seg) |"
+          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Intervalo de Superfície | Paradas na Câmara (minutos) | | Tempo Total de p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  | 15m | 12m | 9m | 6m | 3m |  | 6m | 3m |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "||90|1:20|||12|30||30|64|142:00|\n|---|---|---|---|---|---|---|---|---|---|---|\n||100|1:20|||15|37||37|72|167:00|\n||25|1:50|||||3||6|14:50|\n||30|1:50|||||3||14|22:50|\n||40|1:40||||3||5|25|39:10|\n||50|1:40||||15||15|31|67:10|\n|36|60|1:30|||2|22||22|45|97:10|\n||70|1:30|||9|23||23|55|116:10|\n||80|1:30|||15|27||27|63|138:10|\n||90|1:30|||19|37||37|74|173:10|\n||100|1:30|||23|45||45|80|189:10|\n||25|2:00|||||3||10|19:00|\n||30|1:50||||3||3|18|30:20|\n||40|1:50||||10||10|25|51:20|\n|39|50|1:40|||3|21||21|37|88:20|\n||60|1:40|||9|23||23|52|113:20|\n||70|1:40|||16|24||24|61|131:20|\n||80|1:30||3|19|35||35|72|170:20|\n||90|1:30||8|19|45||45|80|203:20|\n||20|2:10|||||3||6|15:10|\n||25|2:00||||3||3|14|26:30|\n||30|2:00||||5||5|21|37:30|\n|42|40|1:50|||2|16||16|26|66:30|\n||50|1:50|||6|24||24|44|104:30|\n||60|1:50|||16|23||23|56|124:30|\n||70|1:40||4|19|32||32|68|161:30|\n||80|1:40||10|23|41||41|79|200:30|\n||20|2:10||||3||3|7|19:40|\n||25|2:10||||4||4|17|31:40|\n||30|2:10||||8||8|24|46:40|\n|45|40|2:00|||5|19||19|33|82:40|\n||50|2:00|||12|23||23|51|115:40|\n||60|1:50||3|19|26||26|62|142:40|\n||70|1:50||11|19|39||39|75|189:40|\n||80|1:40|1|11|19|50||50|84|227:40|\n||20|2:20||||3||3|11|23:50|\n||25|2:20||||7||7|20|40:50|\n||30|2:10|||2|11||11|25|55:50|\n|48|40|2:10|||7|23||23|39|98:50|\n||50|2:00||2|16|23||23|55|125:50|\n||60|2:00||9|19|33||33|69|169:50|\n||70|1:50|1|17|22|44||44|80|214:50|\n||15|2:30||||3||3|5|18:00|"
+          "markdown": "| | 90 | 1:20 | | | 12 | 30 | | 30 | 64 | 142:00 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 100 | 1:20 | | | 15 | 37 | | 37 | 72 | 167:00 |\n| | 25 | 1:50 | | | | | 3 | | 6 | 14:50 |\n| | 30 | 1:50 | | | | | 3 | | 14 | 22:50 |\n| | 40 | 1:40 | | | | 3 | | 5 | 25 | 39:10 |\n| | 50 | 1:40 | | | | 15 | | 15 | 31 | 67:10 |\n| 36 | 60 | 1:30 | | | 2 | 22 | | 22 | 45 | 97:10 |\n| | 70 | 1:30 | | | 9 | 23 | | 23 | 55 | 116:10 |\n| | 80 | 1:30 | | | 15 | 27 | | 27 | 63 | 138:10 |\n| | 90 | 1:30 | | | 19 | 37 | | 37 | 74 | 173:10 |\n| | 100 | 1:30 | | | 23 | 45 | | 45 | 80 | 189:10 |\n| | 25 | 2:00 | | | | | 3 | | 10 | 19:00 |\n| | 30 | 1:50 | | | | 3 | | 3 | 18 | 30:20 |\n| | 40 | 1:50 | | | | 10 | | 10 | 25 | 51:20 |\n| 39 | 50 | 1:40 | | | 3 | 21 | | 21 | 37 | 88:20 |\n| | 60 | 1:40 | | | 9 | 23 | | 23 | 52 | 113:20 |\n| | 70 | 1:40 | | | 16 | 24 | | 24 | 61 | 131:20 |\n| | 80 | 1:30 | | 3 | 19 | 35 | | 35 | 72 | 170:20 |\n| | 90 | 1:30 | | 8 | 19 | 45 | | 45 | 80 | 203:20 |\n| | 20 | 2:10 | | | | | 3 | | 6 | 15:10 |\n| | 25 | 2:00 | | | | 3 | | 3 | 14 | 26:30 |\n| | 30 | 2:00 | | | | 5 | | 5 | 21 | 37:30 |\n| 42 | 40 | 1:50 | | | 2 | 16 | | 16 | 26 | 66:30 |\n| | 50 | 1:50 | | | 6 | 24 | | 24 | 44 | 104:30 |\n| | 60 | 1:50 | | | 16 | 23 | | 23 | 56 | 124:30 |\n| | 70 | 1:40 | | 4 | 19 | 32 | | 32 | 68 | 161:30 |\n| | 80 | 1:40 | | 10 | 23 | 41 | | 41 | 79 | 200:30 |\n| | 20 | 2:10 | | | | 3 | | 3 | 7 | 19:40 |\n| | 25 | 2:10 | | | | 4 | | 4 | 17 | 31:40 |\n| | 30 | 2:10 | | | | 8 | | 8 | 24 | 46:40 |\n| 45 | 40 | 2:00 | | | 5 | 19 | | 19 | 33 | 82:40 |\n| | 50 | 2:00 | | | 12 | 23 | | 23 | 51 | 115:40 |\n| | 60 | 1:50 | | 3 | 19 | 26 | | 26 | 62 | 142:40 |\n| | 70 | 1:50 | | 11 | 19 | 39 | | 39 | 75 | 189:40 |\n| | 80 | 1:40 | 1 | 11 | 19 | 50 | | 50 | 84 | 227:40 |\n| | 20 | 2:20 | | | | 3 | | 3 | 11 | 23:50 |\n| | 25 | 2:20 | | | | 7 | | 7 | 20 | 40:50 |\n| | 30 | 2:10 | | | 2 | 11 | | 11 | 25 | 55:50 |\n| 48 | 40 | 2:10 | | | 7 | 23 | | 23 | 39 | 98:50 |\n| | 50 | 2:00 | | 2 | 16 | 23 | | 23 | 55 | 125:50 |\n| | 60 | 2:00 | | 9 | 19 | 33 | | 33 | 69 | 169:50 |\n| | 70 | 1:50 | 1 | 17 | 22 | 44 | | 44 | 80 | 214:50 |\n| | 15 | 2:30 | | | | 3 | | 3 | 5 | 18:00 |"
         },
         {
           "type": "note",
@@ -5735,7 +5350,7 @@
         },
         {
           "type": "table",
-          "markdown": "||20|2:30||||4|4|15|30:00|\n|---|---|---|---|---|---|---|---|---|---|\n||25|2:20|||2|7|7|23|46:00|\n||30|2:20|||4|13|13|26|63:00|\n||40|2:10||1|10|23|23|45|109:00|\n|51|50|2:10||5|18|23|23|61|137:00|\n||60|2:00|2|15|22|37|37|74|194:00|\n||70|2:00|8|17|19|51|51|86|239:00|\n||15|2:40||||3|3|6|19:10|\n||20|2:30|||1|5|5|17|35:10|\n||25|2:30|||3|10|10|24|54:10|\n|54|30|2:30|||6|17|17|27|74:10|\n||40|2:20||3|14|23|23|50|120:10|\n||50|2:10|2|9|19|30|30|65|162:10|\n||60|2:10|5|15|19|44|44|81|216:10|\n||15|2:50||||4|4|7|22:20|\n||20|2:40|||2|6|6|20|41:20|\n|57|25|2:40|||5|11|11|25|59:20|\n||30|2:30||1|8|19|19|32|86:20|\n||40|2:30||8|14|23|23|55|130:20|\n||50|2:20|4|13|22|33|33|72|184:20|\n||60|2:20|10|17|19|50|50|84|237:20|"
+          "markdown": "| | 20 | 2:30 | | | | 4 | 4 | 15 | 30:00 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 25 | 2:20 | | | 2 | 7 | 7 | 23 | 46:00 |\n| | 30 | 2:20 | | | 4 | 13 | 13 | 26 | 63:00 |\n| | 40 | 2:10 | | 1 | 10 | 23 | 23 | 45 | 109:00 |\n| 51 | 50 | 2:10 | | 5 | 18 | 23 | 23 | 61 | 137:00 |\n| | 60 | 2:00 | 2 | 15 | 22 | 37 | 37 | 74 | 194:00 |\n| | 70 | 2:00 | 8 | 17 | 19 | 51 | 51 | 86 | 239:00 |\n| | 15 | 2:40 | | | | 3 | 3 | 6 | 19:10 |\n| | 20 | 2:30 | | | 1 | 5 | 5 | 17 | 35:10 |\n| | 25 | 2:30 | | | 3 | 10 | 10 | 24 | 54:10 |\n| 54 | 30 | 2:30 | | | 6 | 17 | 17 | 27 | 74:10 |\n| | 40 | 2:20 | | 3 | 14 | 23 | 23 | 50 | 120:10 |\n| | 50 | 2:10 | 2 | 9 | 19 | 30 | 30 | 65 | 162:10 |\n| | 60 | 2:10 | 5 | 15 | 19 | 44 | 44 | 81 | 216:10 |\n| | 15 | 2:50 | | | | 4 | 4 | 7 | 22:20 |\n| | 20 | 2:40 | | | 2 | 6 | 6 | 20 | 41:20 |\n| 57 | 25 | 2:40 | | | 5 | 11 | 11 | 25 | 59:20 |\n| | 30 | 2:30 | | 1 | 8 | 19 | 19 | 32 | 86:20 |\n| | 40 | 2:30 | | 8 | 14 | 23 | 23 | 55 | 130:20 |\n| | 50 | 2:20 | 4 | 13 | 22 | 33 | 33 | 72 | 184:20 |\n| | 60 | 2:20 | 10 | 17 | 19 | 50 | 50 | 84 | 237:20 |"
         }
       ]
     },
@@ -5863,31 +5478,7 @@
         },
         {
           "type": "table",
-          "markdown": "| SINAIS E SINTOMAS | DOENÇA DESCOMPRESSIVA |  |  |  | EMBOLIA GASOSA |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Pele | Dor"
-        },
-        {
-          "type": "paragraph",
-          "text": "Somente | Sintomas Sérios |  | Sintomas no Sistema Nervoso Central |  | PneumoTórax | Enfisema do Mediastin o |"
-        },
-        {
-          "type": "table",
-          "markdown": "|  |  |  | Sistema"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nervos o Central | Sufocaçã o | Lesão Cerebral | Lesão na Medula Espinhal |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| DOR NA CABEÇA |  |  |  |  | ** |  |  |  |\n| DOR NAS COSTAS |  |  | * |  |  |  |  |  |\n| DOR NO PESCOÇO |  |  |  |  |  |  |  | ** |\n| DOR NO PEITO |  |  | * | ** |  | * | ** | * |\n| DOR NO ESTÔMAGO |  |  | ** |  |  | * |  |  |\n| DOR NO(S)"
-        },
-        {
-          "type": "paragraph",
-          "text": "BRAÇO(S)/PERNA(S) |  | ** |  |  |  | * |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| DOR NOS OMBROS |  | ** |  |  |  | * |  |  |\n| DOR NOS QUADRIS |  | ** |  |  |  | * |  |  |\n| INCONSCIÊNCIA |  |  | ** | * | ** | * | * |  |\n| CHOQUE |  |  | ** | * | ** | * | * |  |\n| VERTIGENS/TONTEIRA |  |  | ** |  |  |  |  |  |\n| DIFICULDADE VISUAL |  |  | ** |  | ** |  |  |  |\n| NÁUSEAS/VÔMITOS |  |  | ** |  | ** |  |  |  |\n| DIFICULDADE DE OUVIR |  |  | ** |  | ** |  |  |  |\n| DIFICULDADE DE FALAR |  |  | ** |  | ** |  |  |  |\n| FALTA DE EQUILÍBRIO |  |  | ** |  | ** |  |  |  |\n| DORMÊNCIA | * |  | ** |  | ** | * |  | * |\n| FRAQUEZA |  | * | ** |  | ** | * |  |  |\n| SENSAÇÃO ESTRANHA | * |  | ** |  | ** | * |  |  |\n| PESCOÇO INCHADO |  |  |  |  |  |  |  | ** |\n| RESPIRAÇÃO CURTA |  |  | * | * | * | * | * | * |\n| CIANOSE |  |  |  | * | * | * | * | * |\n| MODIFICAÇÃO NA PELE | ** |  |  |  |  |  |  |  |\n| * * = MAIS PROVÁVEL * = CAUSA POSSÍVEL |  |  |  |  |  |  |  |  |"
+          "markdown": "| SINAIS E SINTOMAS | DOENÇA DESCOMPRESSIVA | | | | EMBOLIA GASOSA | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | Pele | Dor Somente | Sintomas Sérios | | Sintomas no Sistema Nervoso Central | | Pneumo- Tórax | Enfisema do Mediastin o |\n| | | | Sistema Nervos o Central | Sufocaçã o | Lesão Cerebral | Lesão na Medula Espinhal | | |\n| DOR NA CABEÇA | | | | | ** | | | |\n| DOR NAS COSTAS | | | * | | | | | |\n| DOR NO PESCOÇO | | | | | | | | ** |\n| DOR NO PEITO | | | * | ** | | * | ** | * |\n| DOR NO ESTÔMAGO | | | ** | | | * | | |\n| DOR NO(S) BRAÇO(S)/PERNA(S) | | ** | | | | * | | |\n| DOR NOS OMBROS | | ** | | | | * | | |\n| DOR NOS QUADRIS | | ** | | | | * | | |\n| INCONSCIÊNCIA | | | ** | * | ** | * | * | |\n| CHOQUE | | | ** | * | ** | * | * | |\n| VERTIGENS/TONTEIRA | | | ** | | | | | |\n| DIFICULDADE VISUAL | | | ** | | ** | | | |\n| NÁUSEAS/VÔMITOS | | | ** | | ** | | | |\n| DIFICULDADE DE OUVIR | | | ** | | ** | | | |\n| DIFICULDADE DE FALAR | | | ** | | ** | | | |\n| FALTA DE EQUILÍBRIO | | | ** | | ** | | | |\n| DORMÊNCIA | * | | ** | | ** | * | | * |\n| FRAQUEZA | | * | ** | | ** | * | | |\n| SENSAÇÃO ESTRANHA | * | | ** | | ** | * | | |\n| PESCOÇO INCHADO | | | | | | | | ** |\n| RESPIRAÇÃO CURTA | | | * | * | * | * | * | * |\n| CIANOSE | | | | * | * | * | * | * |\n| MODIFICAÇÃO NA PELE | ** | | | | | | | |\n| * * = MAIS PROVÁVEL * = CAUSA POSSÍVEL | | | | | | | | |"
         },
         {
           "type": "paragraph",
@@ -6004,19 +5595,15 @@
         },
         {
           "type": "table",
-          "markdown": "|  | NÃO |\n| --- | --- |"
+          "markdown": "| | NÃO |\n| --- | --- |"
         },
         {
           "type": "table",
-          "markdown": "| NÃO |  |\n| --- | --- |"
+          "markdown": "| NÃO | |\n| --- | --- |"
         },
         {
           "type": "table",
-          "markdown": "|  | NÃO |\n| --- | --- |\n| COMPLETE MAIS 2"
-        },
-        {
-          "type": "paragraph",
-          "text": "PERÍODOS DE OXIGÊNIO DA TABELA 6 |  |"
+          "markdown": "| | NÃO |\n| --- | --- |\n| COMPLETE MAIS 2 PERÍODOS DE OXIGÊNIO DA TABELA 6 | |"
         }
       ]
     },
@@ -6045,7 +5632,7 @@
         },
         {
           "type": "table",
-          "markdown": "| NÃO |  |\n| --- | --- |"
+          "markdown": "| NÃO | |\n| --- | --- |"
         }
       ]
     },
@@ -6064,15 +5651,7 @@
         },
         {
           "type": "table",
-          "markdown": "| S | ?"
-        },
-        {
-          "type": "paragraph",
-          "text": "NÃO |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |"
+          "markdown": "| S | ? NÃO |\n| --- | --- |"
         }
       ]
     },
@@ -6091,59 +5670,7 @@
         },
         {
           "type": "table",
-          "markdown": "| TABELA | UTILIZAÇÃO |\n| --- | --- |\n| 5 - TRATAMENTO, COM OXIGÊNIO DE DOENÇA"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCOMPRESSIVA - DOR SOMENTE | Tratamento de doença descompressiva sintomas sérios ou dor somente usando os sintomas não são aliviados dentro de 10 minutos a 18 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6 - TRATAMENTO COM OXIGÊNIO, DE DOENÇAS"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCOMPRESSIVA - SITOMAS SERIOS | Tratamento de doença descompressiva sintomas sérios dor somente quando os sintomas são aliviados dentro de 10 minutos a 18 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6A - TRATAMENTO COM AR E OXIGÊNIO, DE"
-        },
-        {
-          "type": "paragraph",
-          "text": "EBOLSA GASOSA | Tratamento de embolia gasosa. Utilize também quando incapaz de determinar quando os sintomas são causados por embolia gasosa ou grave doença descompressiva |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1 A - TRATAMENTO, COM AR, DE DOENÇAS"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCIMPRESSIVA - DOR SOMENTE TRATAMENTO A 30 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível oxigênio e a dor é aliviado a profundidade maior que 20 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2A - TRATAMENTO, DE DOENÇA"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCOMPRESSIVA - DOR SOMENTE TRATAMENTO A 50 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível ocigênio e a dor e aliviada a profundidade maior que 20 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3 - TRATAMENTO, COM AR, DE DOENÇA"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCOMPRESSICA - SITOMAS SÉRIOS, OU EMBOLIA GASOSA | Tratamento de doença descompressiva sintomas sérios ou de embolia gasosa quando não for disponível oxigênio e os sintomas são aliviados dentro de 30 minutos a 50 metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4 - TRATAMENTO, COM AR, DE DOENÇA"
-        },
-        {
-          "type": "paragraph",
-          "text": "DESCOMPRESSIVA - SITOMAS SÉRIOS OU EMBOLIA GASOSA. | Tratamento de sintomas piorando durante os primeiros 20 minutos de respiração de oxigênio a 18 metros na Tabela 6, ou quando os sintomas não são aliviados dentro de 30 minutos a 50 metros utilizar o tratamento com AR da Tabela 3 |"
+          "markdown": "| TABELA | UTILIZAÇÃO |\n| --- | --- |\n| 5 - TRATAMENTO, COM OXIGÊNIO DE DOENÇA DESCOMPRESSIVA - DOR SOMENTE | Tratamento de doença descompressiva - sintomas sérios ou dor somente usando os sintomas não são aliviados dentro de 10 minutos a 18 metros |\n| 6 - TRATAMENTO COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVA - SITOMAS SERIOS | Tratamento de doença descompressiva - sintomas sérios dor somente quando os sintomas são aliviados dentro de 10 minutos a 18 metros |\n| 6A - TRATAMENTO COM AR E OXIGÊNIO, DE EBOLSA GASOSA | Tratamento de embolia gasosa. Utilize também quando incapaz de determinar quando os sintomas são causados por embolia gasosa ou grave doença descompressiva |\n| 1 A - TRATAMENTO, COM AR, DE DOENÇAS DESCIMPRESSIVA - DOR SOMENTE TRATAMENTO A 30 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível oxigênio e a dor é aliviado a profundidade maior que 20 metros |\n| 2A - TRATAMENTO, DE DOENÇA DESCOMPRESSIVA - DOR SOMENTE TRATAMENTO A 50 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível ocigênio e a dor e aliviada a profundidade maior que 20 metros |\n| 3 - TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSICA - SITOMAS SÉRIOS, OU EMBOLIA GASOSA | Tratamento de doença descompressiva - sintomas sérios ou de embolia gasosa quando não for disponível oxigênio e os sintomas são aliviados dentro de 30 minutos a 50 metros |\n| 4 - TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA - SITOMAS SÉRIOS OU EMBOLIA GASOSA. | Tratamento de sintomas piorando durante os primeiros 20 minutos de respiração de oxigênio a 18 metros na Tabela 6, ou quando os sintomas não são aliviados dentro de 30 minutos a 50 metros utilizar o tratamento com AR da Tabela 3 |"
         }
       ]
     },
@@ -6557,19 +6084,7 @@
         },
         {
           "type": "table",
-          "markdown": "| PROFUNDIDADE"
-        },
-        {
-          "type": "paragraph",
-          "text": "(METROS) | TEMPO | MISTURA RESPIRATÓRIA | TEMPO TOTAL DECORRIDO (Hs : MIN) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- |\n| 50"
-        },
-        {
-          "type": "paragraph",
-          "text": "42 36 30 24 18 15 12 9 6 3 3 a 0 | l/2 a 2 h l/2 h 6 h 11 h 1 h 1 min | AR AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) OXIGÊNIO (OU AR) | 2:00 2:31 3:02 3:33 4:04 10:05 16:06 22:07 33:08 34:08 35:09 36:09 37:10 38:10 38:11 |"
+          "markdown": "| PROFUNDIDADE (METROS) | TEMPO | MISTURA RESPIRATÓRIA | TEMPO TOTAL DECORRIDO (Hs : MIN) |\n| --- | --- | --- | --- |\n| 50 42 36 30 24 18 15 12 9 9 6 6 3 3 3 a 0 | l/2 a 2 h l/2 h l/2 h l/2 h l/2 h 6 h 6 h 6 h 11 h 1 h 1 h 1 h 1 h 1 h 1 min | AR AR AR AR AR AR AR AR AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) OXIGÊNIO (OU AR) | 2:00 2:31 3:02 3:33 4:04 10:05 16:06 22:07 33:08 34:08 35:09 36:09 37:10 38:10 38:11 |"
         },
         {
           "type": "note",
@@ -6908,11 +6423,7 @@
         },
         {
           "type": "table",
-          "markdown": "| QUADRO Nº 2 |  |\n| --- | --- |\n| L.T. | F.D. |\n| (pp, ou"
-        },
-        {
-          "type": "paragraph",
-          "text": "mg/m³) 0 a 1 1 a 10 10 a 100 100 a 1000 acima de 1000 | 3 2 1,5 1,25 1,1 |"
+          "markdown": "| QUADRO Nº 2 | |\n| --- | --- |\n| L.T. | F.D. |\n| (pp, ou mg/m³) 0 a 1 1 a 10 10 a 100 100 a 1000 acima de 1000 | 3 2 1,5 1,25 1,1 |"
         }
       ]
     },
@@ -6927,63 +6438,7 @@
         },
         {
           "type": "table",
-          "markdown": "| AGENTES QUÍMICOS | Valor"
-        },
-        {
-          "type": "paragraph",
-          "text": "teto | Absorção também p/pele | Até 48 horas/semana |  | Grau de insalubridade a ser considerado no caso de sua caracterização |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n|  |  |  | ppm* | mg/m3*"
-        },
-        {
-          "type": "paragraph",
-          "text": "* |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Acetaldeído |  |  | 78 | 140 | máximo |\n| Acetato de cellosolve |  | + | 78 | 420 | médio |\n| Acetato de éter monoetílico de"
-        },
-        {
-          "type": "paragraph",
-          "text": "etileno glicol (vide acetado de cellsolve) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Acetato de etila |  |  | 310 | 1090 | mínimo |\n| Acetato de 2-etóxi etila (vide"
-        },
-        {
-          "type": "paragraph",
-          "text": "acetato de cellosolve) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Acetileno |  |  | Axfixiante | simples | - |\n| Acetona |  |  | 780 | 1870 | mínimo |\n| Acetonitrila |  |  | 30 | 55 | máximo |\n| Ácido acético |  |  | 8 | 20 | médio |\n| Ácido cianídrico |  | + | 8 | 9 | máximo |\n| Ácido clorídrico | + |  | 4 | 5,5 | máximo |\n| Ácido crômico (névoa) |  |  | - | 0,04 | máximo |\n| Ácido etanóico (vide ácido acético) |  |  | - | - | - |\n| Ácido fluorídrico |  |  | 2,5 | 1,5 | máximo |\n| Ácido fórmico |  |  | 4 | 7 | médio |\n| Ácido metanóico (vide ácido"
-        },
-        {
-          "type": "paragraph",
-          "text": "fórmico) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Acrilato de metila |  | + | 8 | 27 | máximo |\n| Acrilonitrila |  | + | 16 | 35 | máximo |\n| Álcool isoamílico |  |  | 78 | 280 | mínimo |\n| Álcool n-butílico | + | + | 40 | 115 | máximo |\n| Álcool isobutílico |  |  | 40 | 115 | médio |\n| Álcool sec-butílico (2-butanol) |  |  | 115 | 350 | médio |\n| Álcool terc-butílico |  |  | 78 | 235 | médio |\n| Álcool etílico |  |  | 780 | 1480 | mínimo |\n| Álcool furfurílico |  | + | 4 | 15,5 | médio |\n| Álcool metil amílico (vide metil"
-        },
-        {
-          "type": "paragraph",
-          "text": "isobutil carbinol) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Álcool metílico |  | + | 156 | 200 | máximo |\n| Álcool n-propílico |  | + | 156 | 390 | médio |\n| Álcool isopropílico |  | + | 310 | 765 | médio |\n| Aldeído acético (vide acetaldeído) |  |  | - | - | - |\n| Aldeído fórmico (vide formaldeído) |  |  | - | - | - |\n| Amônia |  |  | 20 | 14 | médio |\n| Anidro sulfuroso (vide dióxido de"
-        },
-        {
-          "type": "paragraph",
-          "text": "enxofre) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Anilina |  | + | 4 | 15 | máximo |"
+          "markdown": "| AGENTES QUÍMICOS | Valor teto | Absorção também p/pele | Até 48 horas/semana | | Grau de insalubridade a ser considerado no caso de sua caracterização |\n| --- | --- | --- | --- | --- | --- |\n| | | | ppm* | mg/m3* * | |\n| Acetaldeído | | | 78 | 140 | máximo |\n| Acetato de cellosolve | | + | 78 | 420 | médio |\n| Acetato de éter monoetílico de etileno glicol (vide acetado de cellsolve) | | | - | - | - |\n| Acetato de etila | | | 310 | 1090 | mínimo |\n| Acetato de 2-etóxi etila (vide acetato de cellosolve) | | | - | - | - |\n| Acetileno | | | Axfixiante | simples | - |\n| Acetona | | | 780 | 1870 | mínimo |\n| Acetonitrila | | | 30 | 55 | máximo |\n| Ácido acético | | | 8 | 20 | médio |\n| Ácido cianídrico | | + | 8 | 9 | máximo |\n| Ácido clorídrico | + | | 4 | 5,5 | máximo |\n| Ácido crômico (névoa) | | | - | 0,04 | máximo |\n| Ácido etanóico (vide ácido acético) | | | - | - | - |\n| Ácido fluorídrico | | | 2,5 | 1,5 | máximo |\n| Ácido fórmico | | | 4 | 7 | médio |\n| Ácido metanóico (vide ácido fórmico) | | | - | - | - |\n| Acrilato de metila | | + | 8 | 27 | máximo |\n| Acrilonitrila | | + | 16 | 35 | máximo |\n| Álcool isoamílico | | | 78 | 280 | mínimo |\n| Álcool n-butílico | + | + | 40 | 115 | máximo |\n| Álcool isobutílico | | | 40 | 115 | médio |\n| Álcool sec-butílico (2-butanol) | | | 115 | 350 | médio |\n| Álcool terc-butílico | | | 78 | 235 | médio |\n| Álcool etílico | | | 780 | 1480 | mínimo |\n| Álcool furfurílico | | + | 4 | 15,5 | médio |\n| Álcool metil amílico (vide metil isobutil carbinol) | | | - | - | - |\n| Álcool metílico | | + | 156 | 200 | máximo |\n| Álcool n-propílico | | + | 156 | 390 | médio |\n| Álcool isopropílico | | + | 310 | 765 | médio |\n| Aldeído acético (vide acetaldeído) | | | - | - | - |\n| Aldeído fórmico (vide formaldeído) | | | - | - | - |\n| Amônia | | | 20 | 14 | médio |\n| Anidro sulfuroso (vide dióxido de enxofre) | | | - | - | - |\n| Anilina | | + | 4 | 15 | máximo |"
         },
         {
           "type": "note",
@@ -6991,31 +6446,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Argônio |  |  | Asfixante |  | simples | - |\n| --- | --- | --- | --- | --- | --- | --- |\n| Arsina (arsenamina) |  |  | 0,04 |  | 0,16 | máximo |\n| Benzeno | (Excluído pela Portaria nº 03, de 10 de março de 1994) |  |  |  |  |  |\n| Brometo de etila |  |  | 156 |  | 695 | máximo |\n| Brometo de metila |  | + | 12 |  | 47 | máximo |\n| Bromo |  |  | 0,08 |  | 0,6 | máximo |\n| Bromoetano (vide brometo de etila) |  |  | - |  | - | - |\n| Bromofórmio |  | + | 0,4 |  | 4 | médio |\n| Bromometano (vide brometo de"
-        },
-        {
-          "type": "paragraph",
-          "text": "metila) |  |  | - |  | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1,3 Butadieno |  |  | 780 |  | 1720 | médio |\n| n-Butano |  |  | 470 |  | 1090 | médio |\n| n-Butano (vide álcoo n-butílico) |  |  | - |  | - | - |\n| sec-Butanol (vide álcool secbutílico) |  |  | - |  | - | - |\n| Butanona (vide metil etil cetona) |  |  | - |  | - | - |\n| 1-Butanotiol (vide butil mercaptana) |  |  | - |  | - | - |\n| n-Butilamina | + | + | 4 |  | 12 | máximo |\n| Butil cellosolve |  | + | 39 |  | 190 | médio |\n| n-Butil mercaptana |  |  | 0,4 |  | 1,2 | médio |\n| 2-Butóxi etanol (vide butil"
-        },
-        {
-          "type": "paragraph",
-          "text": "cellosolve) |  |  | - |  | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Cellosolve (vide 2-etóxi etanol) |  |  | - |  | - | - |\n| Chumbo |  |  | - |  | 0,1 | máximo |\n| Cianeto de metila (vide acetonitrila) |  |  | - |  | - | - |\n| Cianeto de vinila (vide acrilonitrila) |  |  | - |  | - | - |\n| Cianogênio |  |  | 8 |  | 16 | máximo |\n| Ciclohexano |  |  | 235 |  | 820 | médio |\n| Ciclohexanol |  |  | 40 |  | 160 | máximo |\n| Ciclohexilamina |  | + | 8 |  | 32 | máximo |\n| Cloreto de carbonila (vide fosgênio) |  |  | - |  | - | - |\n| Cloreto de etila |  |  | 780 | 2030 |  | médio |\n| Cloreto de fenila (vide cloro"
-        },
-        {
-          "type": "paragraph",
-          "text": "benzeno) |  |  | - | - |  | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Cloreto de metila |  |  | 78 | 165 |  | máximo |\n| Cloreto de metileno |  |  | 156 | 560 |  | máximo |\n| Cloreto de vinila | + |  | 156 | 398 |  | máximo |\n| Cloreto de vinilideno |  |  | 8 | 31 |  | máximo |\n| Cloro |  |  | 0,8 | 2,3 |  | máximo |\n| Clorobenzeno |  |  | 59 | 275 |  | médio |\n| Clorobromometano |  |  | 156 | 820 |  | máximo |\n| Cloroetano (vide cloreto de etila) |  |  | - | - |  | - |\n| Cloroetílico (vide cloreto de vinila) |  |  | - | - |  | - |\n| Clorodifluometano (freon 22) |  |  | 780 | 2730 |  | mínimo |\n| Clorofórmio |  |  | 20 | 94 |  | máximo |\n| 1-Cloro 1-nitropropano |  |  | 16 | 78 |  | máximo |\n| Cloroprene |  | + | 20 | 70 |  | máximo |"
+          "markdown": "| Argônio | | | Asfixante | | simples | - |\n| --- | --- | --- | --- | --- | --- | --- |\n| Arsina (arsenamina) | | | 0,04 | | 0,16 | máximo |\n| Benzeno | (Excluído pela Portaria nº 03, de 10 de março de 1994) | | | | | |\n| Brometo de etila | | | 156 | | 695 | máximo |\n| Brometo de metila | | + | 12 | | 47 | máximo |\n| Bromo | | | 0,08 | | 0,6 | máximo |\n| Bromoetano (vide brometo de etila) | | | - | | - | - |\n| Bromofórmio | | + | 0,4 | | 4 | médio |\n| Bromometano (vide brometo de metila) | | | - | | - | - |\n| 1,3 Butadieno | | | 780 | | 1720 | médio |\n| n-Butano | | | 470 | | 1090 | médio |\n| n-Butano (vide álcoo n-butílico) | | | - | | - | - |\n| sec-Butanol (vide álcool sec- butílico) | | | - | | - | - |\n| Butanona (vide metil etil cetona) | | | - | | - | - |\n| 1-Butanotiol (vide butil mercaptana) | | | - | | - | - |\n| n-Butilamina | + | + | 4 | | 12 | máximo |\n| Butil cellosolve | | + | 39 | | 190 | médio |\n| n-Butil mercaptana | | | 0,4 | | 1,2 | médio |\n| 2-Butóxi etanol (vide butil cellosolve) | | | - | | - | - |\n| Cellosolve (vide 2-etóxi etanol) | | | - | | - | - |\n| Chumbo | | | - | | 0,1 | máximo |\n| Cianeto de metila (vide acetonitrila) | | | - | | - | - |\n| Cianeto de vinila (vide acrilonitrila) | | | - | | - | - |\n| Cianogênio | | | 8 | | 16 | máximo |\n| Ciclohexano | | | 235 | | 820 | médio |\n| Ciclohexanol | | | 40 | | 160 | máximo |\n| Ciclohexilamina | | + | 8 | | 32 | máximo |\n| Cloreto de carbonila (vide fosgênio) | | | - | | - | - |\n| Cloreto de etila | | | 780 | 2030 | | médio |\n| Cloreto de fenila (vide cloro benzeno) | | | - | - | | - |\n| Cloreto de metila | | | 78 | 165 | | máximo |\n| Cloreto de metileno | | | 156 | 560 | | máximo |\n| Cloreto de vinila | + | | 156 | 398 | | máximo |\n| Cloreto de vinilideno | | | 8 | 31 | | máximo |\n| Cloro | | | 0,8 | 2,3 | | máximo |\n| Clorobenzeno | | | 59 | 275 | | médio |\n| Clorobromometano | | | 156 | 820 | | máximo |\n| Cloroetano (vide cloreto de etila) | | | - | - | | - |\n| Cloroetílico (vide cloreto de vinila) | | | - | - | | - |\n| Clorodifluometano (freon 22) | | | 780 | 2730 | | mínimo |\n| Clorofórmio | | | 20 | 94 | | máximo |\n| 1-Cloro 1-nitropropano | | | 16 | 78 | | máximo |\n| Cloroprene | | + | 20 | 70 | | máximo |"
         },
         {
           "type": "note",
@@ -7023,55 +6454,7 @@
         },
         {
           "type": "table",
-          "markdown": "|  | Cumeno |  | + | 39 | 190 | máximo |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | Decaborano |  | + | 0,04 | 0,25 | máximo |\n|  | Demeton |  | + | 0,008 | 0,08 | máximo |\n| Diamina (vide hidrazina) |  |  |  | - | - | - |\n| Diborano |  |  |  | 0,08 | 0,08 | máximo |\n| 1,2-Dibramoetano |  |  | + | 16 | 110 | médio |\n| o-Diclorobenzeno |  |  |  | 39 | 235 | máximo |\n| Diclorodifluormetano (freon 12) |  | + |  | 780 | 3860 | mínimo |\n| 1,1 Dicloroetano |  |  |  | 156 | 640 | médio |\n| 1,2 Dicloroetano |  |  |  | 39 | 156 | máximo |\n| 1,1 Dicloreotileno (vide cloreto de"
-        },
-        {
-          "type": "paragraph",
-          "text": "vinilideno) |  |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1,2 Dicloroetileno |  |  |  | 155 | 615 | médio |\n| Diclorometano (vide cloreto de"
-        },
-        {
-          "type": "paragraph",
-          "text": "metilino) |  |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1,1 Dicloro-1-nitroetano |  | + |  | 8 | 47 | máximo |\n| 1,2 Dicloropropano |  |  |  | 59 | 275 | máximo |\n| Diclorotetrafluoretano (freon 114) |  |  |  | 780 | 5460 | mínimo |\n| Dietil amina |  |  |  | 20 | 59 | médio |\n| Dietil éter (vide éter etílico) |  |  |  | - | - | - |\n| 2,4 Diisocianato de tolueno (TDI) |  | + |  | 0,016 | 0,11 | máximo |\n| Diisopropilamina |  |  | + | 4 | 16 | máximo |\n| Dimetilacetamida |  |  | + | 8 | 28 | máximo |\n| Dimetilamina |  |  |  | 8 | 14 | médio |\n| Dimetiformamida |  |  |  | 8 | 24 | médio |\n| l,l Dimetil hidrazina |  |  | + | 0,4 | 0,8 | máximo |\n| Dióxido de carbono |  |  |  | 3900 | 7020 | mínimo |\n| Dióxido de cloro |  |  |  | 0,08 | 0,25 | máximo |\n| Dióxido de enxofre |  |  |  | 4 | 10 | máximo |\n| Dióxido de nitrogênio |  | + |  | 4 | 7 | máximo |\n| Dissulfeto de carbono |  |  | + | 16 | 47 | máximo |\n| Estibina |  |  |  | 0,08 | 0,4 | máximo |\n| Estireno |  |  |  | 78 | 328 | médio |\n| Etanol (vide acetaldeído) |  |  |  | _ | _ | _ |\n| Etano |  |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Etanol (vide etílico) |  |  |  | _ | _ | _ |\n| Etanotiol (vide etil mercaptana) |  |  |  | _ | _ | _ |\n| Éter decloroetílico |  |  | + | 4 | 24 | máximo |\n| Éter etílico |  |  |  | 310 | 940 | médio |\n| Éter monobutílico do etileno glicol"
-        },
-        {
-          "type": "paragraph",
-          "text": "(vide butil cellosolve |  |  |  | _ | _ | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Éter monoetílico do etileno glicol"
-        },
-        {
-          "type": "paragraph",
-          "text": "(vide cellosolve) |  |  |  | _ | _ | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Éter monometílico do etileno glicol"
-        },
-        {
-          "type": "paragraph",
-          "text": "(vide metil cellosolve) |  |  |  | _ | _ | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Etilamina |  |  |  | 8 | 14 | máximo |"
+          "markdown": "| | Cumeno | | + | 39 | 190 | máximo |\n| --- | --- | --- | --- | --- | --- | --- |\n| | Decaborano | | + | 0,04 | 0,25 | máximo |\n| | Demeton | | + | 0,008 | 0,08 | máximo |\n| Diamina (vide hidrazina) | | | | - | - | - |\n| Diborano | | | | 0,08 | 0,08 | máximo |\n| 1,2-Dibramoetano | | | + | 16 | 110 | médio |\n| o-Diclorobenzeno | | | | 39 | 235 | máximo |\n| Diclorodifluormetano (freon 12) | | + | | 780 | 3860 | mínimo |\n| 1,1 Dicloroetano | | | | 156 | 640 | médio |\n| 1,2 Dicloroetano | | | | 39 | 156 | máximo |\n| 1,1 Dicloreotileno (vide cloreto de vinilideno) | | | | - | - | - |\n| 1,2 Dicloroetileno | | | | 155 | 615 | médio |\n| Diclorometano (vide cloreto de metilino) | | | | - | - | - |\n| 1,1 Dicloro-1-nitroetano | | + | | 8 | 47 | máximo |\n| 1,2 Dicloropropano | | | | 59 | 275 | máximo |\n| Diclorotetrafluoretano (freon 114) | | | | 780 | 5460 | mínimo |\n| Dietil amina | | | | 20 | 59 | médio |\n| Dietil éter (vide éter etílico) | | | | - | - | - |\n| 2,4 Diisocianato de tolueno (TDI) | | + | | 0,016 | 0,11 | máximo |\n| Diisopropilamina | | | + | 4 | 16 | máximo |\n| Dimetilacetamida | | | + | 8 | 28 | máximo |\n| Dimetilamina | | | | 8 | 14 | médio |\n| Dimetiformamida | | | | 8 | 24 | médio |\n| l,l Dimetil hidrazina | | | + | 0,4 | 0,8 | máximo |\n| Dióxido de carbono | | | | 3900 | 7020 | mínimo |\n| Dióxido de cloro | | | | 0,08 | 0,25 | máximo |\n| Dióxido de enxofre | | | | 4 | 10 | máximo |\n| Dióxido de nitrogênio | | + | | 4 | 7 | máximo |\n| Dissulfeto de carbono | | | + | 16 | 47 | máximo |\n| Estibina | | | | 0,08 | 0,4 | máximo |\n| Estireno | | | | 78 | 328 | médio |\n| Etanol (vide acetaldeído) | | | | _ | _ | _ |\n| Etano | | | | Asfixiant e | simples | _ |\n| Etanol (vide etílico) | | | | _ | _ | _ |\n| Etanotiol (vide etil mercaptana) | | | | _ | _ | _ |\n| Éter decloroetílico | | | + | 4 | 24 | máximo |\n| Éter etílico | | | | 310 | 940 | médio |\n| Éter monobutílico do etileno glicol (vide butil cellosolve | | | | _ | _ | _ |\n| Éter monoetílico do etileno glicol (vide cellosolve) | | | | _ | _ | _ |\n| Éter monometílico do etileno glicol (vide metil cellosolve) | | | | _ | _ | _ |\n| Etilamina | | | | 8 | 14 | máximo |"
         },
         {
           "type": "note",
@@ -7079,63 +6462,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Etilbenzeno |  |  | 78 | 340 | médio |\n| --- | --- | --- | --- | --- | --- |\n| Etileno |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Etilenoimina |  | + | 0,4 | 0,8 | máximo |\n| Etil mercaptana |  |  | 0,4 | 0,8 | médio |\n| n-Etil morfolina |  | + | 16 | 74 | médio |\n| 2-Etoxietanol |  | + | 78 | 290 | médio |\n| Fenol |  | + | 4 | 15 | máximo |\n| Fluortriclorometano (freon 11) |  |  | 780 | 4370 | médio |\n| Formaldeído (formol) | + |  | 1,6 | 2,3 | máximo |\n| Fosfina (fosfamina) |  |  | 0,23 | 0,3 | máximo |\n| Fosgênio |  |  | 0,08 | 0,3 | máximo |\n| Freon 11 (vide flortriclorometano) |  |  | _ | _ | _ |\n| Freon 12 (vide diclorodiflormetano) |  |  | _ | _ | _ |\n| Freon 22 (vide clorodifluormetano) |  |  | _ | _ | _ |\n| Freon 113 (vide 1,1,2,tricloro-1,2,2trifluoretano) |  |  | _ | _ | _ |\n| Freon 114 (vide"
-        },
-        {
-          "type": "paragraph",
-          "text": "declrorotetrafloretano) |  |  | _ | _ | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Gás amoníaco (vide amônia) |  |  | _ | _ | _ |\n| Gás carbônico (vide dióxido de"
-        },
-        {
-          "type": "paragraph",
-          "text": "carbono |  |  | _ | _ | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Gás cianídrico (vide ácido cianídrico) |  |  | _ | _ | _ |\n| Gás clorídrico (vide ácido clorídrico) |  |  | _ | _ | _ |\n| Gás sulfídrico |  |  | 8 | 12 | máximo |\n| Hélio |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Hidrazina |  | + | 0,08 | 0,08 | máximo |\n| Hidreto de antimônio (vide estibina) |  |  | _ | _ | _ |\n| Hidrogênio |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Isobutanol (vide álcool isobutílico) |  |  | _ | _ | _ |\n| Isopropilamina |  |  | 4 | 9,5 | médio |\n| Isopropil benzeno (vide cumeno) |  |  | _ | _ | _ |\n| Mercúrio (todas as formas exceto"
-        },
-        {
-          "type": "paragraph",
-          "text": "orgânicas) |  |  | _ | 0,04 | máximo |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Metacrilato de metila |  |  | 78 | 320 | mínimo |\n| Metano |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Metanol (vide álcool metílico) |  |  | _ | _ | _ |\n| Metilamina |  |  | 8 | 9,5 | máximo |\n| Metil cellosolve |  | + | 20 | 60 | máximo |\n| Metil ciclohexanol |  |  | 39 | 180 | médio |\n| Metilclorofórmio |  |  | 275 | 1480 | médio |\n| Metil demeton |  | + | _ | 0,4 | máximo |\n| metil etil cetona |  |  | 155 | 460 | médio |\n| Metil isobutilcarbinol |  | + | 20 | 78 | máximo |"
+          "markdown": "| Etilbenzeno | | | 78 | 340 | médio |\n| --- | --- | --- | --- | --- | --- |\n| Etileno | | | Asfixiant e | simples | _ |\n| Etilenoimina | | + | 0,4 | 0,8 | máximo |\n| Etil mercaptana | | | 0,4 | 0,8 | médio |\n| n-Etil morfolina | | + | 16 | 74 | médio |\n| 2-Etoxietanol | | + | 78 | 290 | médio |\n| Fenol | | + | 4 | 15 | máximo |\n| Fluortriclorometano (freon 11) | | | 780 | 4370 | médio |\n| Formaldeído (formol) | + | | 1,6 | 2,3 | máximo |\n| Fosfina (fosfamina) | | | 0,23 | 0,3 | máximo |\n| Fosgênio | | | 0,08 | 0,3 | máximo |\n| Freon 11 (vide flortriclorometano) | | | _ | _ | _ |\n| Freon 12 (vide diclorodiflormetano) | | | _ | _ | _ |\n| Freon 22 (vide clorodifluormetano) | | | _ | _ | _ |\n| Freon 113 (vide 1,1,2,tricloro-1,2,2- trifluoretano) | | | _ | _ | _ |\n| Freon 114 (vide declrorotetrafloretano) | | | _ | _ | _ |\n| Gás amoníaco (vide amônia) | | | _ | _ | _ |\n| Gás carbônico (vide dióxido de carbono | | | _ | _ | _ |\n| Gás cianídrico (vide ácido cianídrico) | | | _ | _ | _ |\n| Gás clorídrico (vide ácido clorídrico) | | | _ | _ | _ |\n| Gás sulfídrico | | | 8 | 12 | máximo |\n| Hélio | | | Asfixiant e | simples | _ |\n| Hidrazina | | + | 0,08 | 0,08 | máximo |\n| Hidreto de antimônio (vide estibina) | | | _ | _ | _ |\n| Hidrogênio | | | Asfixiant e | simples | _ |\n| Isobutanol (vide álcool isobutílico) | | | _ | _ | _ |\n| Isopropilamina | | | 4 | 9,5 | médio |\n| Isopropil benzeno (vide cumeno) | | | _ | _ | _ |\n| Mercúrio (todas as formas exceto orgânicas) | | | _ | 0,04 | máximo |\n| Metacrilato de metila | | | 78 | 320 | mínimo |\n| Metano | | | Asfixiant e | simples | _ |\n| Metanol (vide álcool metílico) | | | _ | _ | _ |\n| Metilamina | | | 8 | 9,5 | máximo |\n| Metil cellosolve | | + | 20 | 60 | máximo |\n| Metil ciclohexanol | | | 39 | 180 | médio |\n| Metilclorofórmio | | | 275 | 1480 | médio |\n| Metil demeton | | + | _ | 0,4 | máximo |\n| metil etil cetona | | | 155 | 460 | médio |\n| Metil isobutilcarbinol | | + | 20 | 78 | máximo |"
         },
         {
           "type": "paragraph",
@@ -7147,71 +6474,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Metil mercaptana (metanotiol) |  |  | 0,4 | 0,8 | médio |\n| --- | --- | --- | --- | --- | --- |\n| 2-Metoxi etanol (vide metil"
-        },
-        {
-          "type": "paragraph",
-          "text": "cellosolve) |  |  | _ | _ | _ |"
+          "markdown": "| Metil mercaptana (metanotiol) | | | 0,4 | 0,8 | médio |\n| --- | --- | --- | --- | --- | --- |\n| 2-Metoxi etanol (vide metil cellosolve) | | | _ | _ | _ |\n| Monometil hidrazina | + | + | 0,16 | 0,27 | máximo |\n| Monóxido de carbono | | | 39 | 43 | máximo |\n| Negro de fumo(1) | | | | 3,5 | máximo |\n| Neônio | | | Asfixiant e | simples | _ |\n| Níquel carbonila (níquel tetracarbonila) | | | 0,04 | 0,28 | máximo |\n| Nitrato de n-propila | | | 20 | 85 | máximo |\n| Nitroetano | | | 78 | 245 | médio |\n| Nitrometano | | | 78 | 195 | máximo |\n| 1 - Nitropropano | | | 20 | 70 | médio |\n| 2 - Nitropropano | | | 20 | 70 | médio |\n| Óxido de etileno | | | 39 | 70 | máximo |"
         },
         {
           "type": "table",
-          "markdown": "| Monometil hidrazina | + | + | 0,16 | 0,27 | máximo |\n| Monóxido de carbono |  |  | 39 | 43 | máximo |\n| Negro de fumo(1) |  |  |  | 3,5 | máximo |\n| Neônio |  |  | Asfixiant"
-        },
-        {
-          "type": "paragraph",
-          "text": "e | simples | _ |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Níquel carbonila (níquel"
-        },
-        {
-          "type": "paragraph",
-          "text": "tetracarbonila) |  |  | 0,04 | 0,28 | máximo |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Nitrato de n-propila |  |  | 20 | 85 | máximo |\n| Nitroetano |  |  | 78 | 245 | médio |\n| Nitrometano |  |  | 78 | 195 | máximo |\n| 1 - Nitropropano |  |  | 20 | 70 | médio |\n| 2 - Nitropropano |  |  | 20 | 70 | médio |\n| Óxido de etileno |  |  | 39 | 70 | máximo |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Óxido nítrico (NO) |  |  | 20 | 23 | máximo |\n| --- | --- | --- | --- | --- | --- |\n| Óxido nitroso (N O)"
-        },
-        {
-          "type": "paragraph",
-          "text": "2 |  |  | Asfixiante | simples | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Ozona |  |  | 0,08 | 0,16 | máximo |\n| Pentaborano |  |  | 0,004 | 0,008 | máximo |\n| n-Pentano |  |  | 470 | 1400 | mínimo |\n| Percloroetíleno |  | + | 78 | 525 | médio |\n| Piridina |  |  | 4 | 12 | médio |\n| n-propano |  |  | Asfixiante | simples | - |\n| n-Propanol (vide álcool n-propílico) |  |  | - | - | - |\n| iso-Propanol (vide álcool isopropílico) |  |  | - | - | - |\n| Propanona (vide acetona) |  |  | - | - | - |\n| Propileno |  |  | Asfixiante | simples | - |\n| Propileno imina |  | + | 1,6 | 4 | máximo |\n| Sulfato de dimetila | + | + | 0,08 | 0,4 | máximo |\n| Sulfeto de hidrogênio (vide gás"
-        },
-        {
-          "type": "paragraph",
-          "text": "sulfídrico) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Systox (vide demeton) |  |  | - | - | - |\n| 1,1,2,2,Tetrabromoetano |  |  | 0,8 | 11 | médio |\n| Tetracloreto de carbono |  | + | 8 | 50 | máximo |\n| Tetracloroetano |  | + | 4 | 27 | máximo |\n| Tetracloroetileno (vide"
-        },
-        {
-          "type": "paragraph",
-          "text": "percloroetileno) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tetrahidrofurano |  |  | 156 | 460 | máximo |\n| Tolueno (toluol) |  | + | 78 | 290 | médio |\n| Tolueno-2,4-diisocianato (TDI) (vide"
-        },
-        {
-          "type": "paragraph",
-          "text": "2,4 diisocianato de tolueno) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Tribromometano (vide bromofórmio) |  |  | - | - | - |\n| Tricloreto de vinila (vide 1,1,2"
-        },
-        {
-          "type": "paragraph",
-          "text": "tricloroetano) |  |  | - | - | - |"
+          "markdown": "| Óxido nítrico (NO) | | | 20 | 23 | máximo |\n| --- | --- | --- | --- | --- | --- |\n| Óxido nitroso (N O) 2 | | | Asfixiante | simples | - |\n| Ozona | | | 0,08 | 0,16 | máximo |\n| Pentaborano | | | 0,004 | 0,008 | máximo |\n| n-Pentano | | | 470 | 1400 | mínimo |\n| Percloroetíleno | | + | 78 | 525 | médio |\n| Piridina | | | 4 | 12 | médio |\n| n-propano | | | Asfixiante | simples | - |\n| n-Propanol (vide álcool n-propílico) | | | - | - | - |\n| iso-Propanol (vide álcool isopropílico) | | | - | - | - |\n| Propanona (vide acetona) | | | - | - | - |\n| Propileno | | | Asfixiante | simples | - |\n| Propileno imina | | + | 1,6 | 4 | máximo |\n| Sulfato de dimetila | + | + | 0,08 | 0,4 | máximo |\n| Sulfeto de hidrogênio (vide gás sulfídrico) | | | - | - | - |\n| Systox (vide demeton) | | | - | - | - |\n| 1,1,2,2,Tetrabromoetano | | | 0,8 | 11 | médio |\n| Tetracloreto de carbono | | + | 8 | 50 | máximo |\n| Tetracloroetano | | + | 4 | 27 | máximo |\n| Tetracloroetileno (vide percloroetileno) | | | - | - | - |\n| Tetrahidrofurano | | | 156 | 460 | máximo |\n| Tolueno (toluol) | | + | 78 | 290 | médio |\n| Tolueno-2,4-diisocianato (TDI) (vide 2,4 diisocianato de tolueno) | | | - | - | - |\n| Tribromometano (vide bromofórmio) | | | - | - | - |\n| Tricloreto de vinila (vide 1,1,2 tricloroetano) | | | - | - | - |"
         },
         {
           "type": "paragraph",
@@ -7286,23 +6553,7 @@
         },
         {
           "type": "table",
-          "markdown": "| 1,1,1 Tricloroetano (vide metil"
-        },
-        {
-          "type": "paragraph",
-          "text": "clorofórmio) |  |  | - | - | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| 1,1,2 Tricloroetano |  | + | 8 | 35 | médio |\n| Tricloroetileno |  |  | 78 | 420 | máximo |\n| Triclorometano (vide clorofórmio) |  |  | - | - | - |\n| 1,2,3 Tricloropropano |  |  | 40 | 235 | máximo |\n| 1,1,2 Tricloro-1,2,2 trifluoretano"
-        },
-        {
-          "type": "paragraph",
-          "text": "(freon 113) |  |  | 780 | 5930 | médio |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Trietilamina |  |  | 20 | 78 | máximo |\n| Trifluormonobramometano |  |  | 780 | 4760 | médio |\n| Vinibenzeno (vide estireno) |  |  | - | - | - |\n| Xileno (xilol) |  | + | 78 | 340 | médio |"
+          "markdown": "| 1,1,1 Tricloroetano (vide metil clorofórmio) | | | - | - | - |\n| --- | --- | --- | --- | --- | --- |\n| 1,1,2 Tricloroetano | | + | 8 | 35 | médio |\n| Tricloroetileno | | | 78 | 420 | máximo |\n| Triclorometano (vide clorofórmio) | | | - | - | - |\n| 1,2,3 Tricloropropano | | | 40 | 235 | máximo |\n| 1,1,2 Tricloro-1,2,2 trifluoretano (freon 113) | | | 780 | 5930 | médio |\n| Trietilamina | | | 20 | 78 | máximo |\n| Trifluormonobramometano | | | 780 | 4760 | médio |\n| Vinibenzeno (vide estireno) | | | - | - | - |\n| Xileno (xilol) | | + | 78 | 340 | médio |"
         },
         {
           "type": "paragraph",
@@ -7636,7 +6887,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Gênero de produto que contém asbesto | Utilização a que se destina |\n| --- | --- |\n|  |  |"
+          "markdown": "| Gênero de produto que contém asbesto | Utilização a que se destina |\n| --- | --- |\n| | |"
         },
         {
           "type": "paragraph",
@@ -7663,7 +6914,7 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "|**Item e Subitem**|**Prazo**|**Infração**|\n|---|---|---|\n|- 2.1|P4|I4|\n|- 3|P2|I2|\n|- 4|P1|I4|\n|- 5|P1|I4|\n|- 6|P1|I4|\n|- 7, 7.2, 7.4|P1|I3|\n|- 8|P2|I3|\n|- 9, 9.1, 9.2|P4|I3|\n|- 10|P4|I3|\n|- 11, 11.1, 11.2 e 11.4|P4|I3|\n|- 12|P4|I4|\n|- 14, 14.1, 14.2|P3|I3|\n|- 15|P4|I3|\n|- 16|P1|I1|\n|- 17|P4|I4|\n|- 18, 18.2|P3|I2|\n|- 19, 19.1|P1|I1|\n|- 20,20.1|P1|I1|"
+          "markdown": "| **Item e Subitem** | **Prazo** | **Infração** |\n| --- | --- | --- |\n| - 2.1 | P4 | I4 |\n| - 3 | P2 | I2 |\n| - 4 | P1 | I4 |\n| - 5 | P1 | I4 |\n| - 6 | P1 | I4 |\n| - 7, 7.2, 7.4 | P1 | I3 |\n| - 8 | P2 | I3 |\n| - 9, 9.1, 9.2 | P4 | I3 |\n| - 10 | P4 | I3 |\n| - 11, 11.1, 11.2 e 11.4 | P4 | I3 |\n| - 12 | P4 | I4 |\n| - 14, 14.1, 14.2 | P3 | I3 |\n| - 15 | P4 | I3 |\n| - 16 | P1 | I1 |\n| - 17 | P4 | I4 |\n| - 18, 18.2 | P3 | I2 |\n| - 19, 19.1 | P1 | I1 |\n| - 20,20.1 | P1 | I1 |"
         }
       ]
     },
@@ -7879,19 +7130,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Diâmetro Aerodinâmico (um)"
-        },
-        {
-          "type": "paragraph",
-          "text": "(esfera de densidade unitária) | % de passagem pelo seletor |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| menor ou igual a 2"
-        },
-        {
-          "type": "paragraph",
-          "text": "2,5 3,5 5,0 10,0 | 90 75 50 25 0 (zero) |"
+          "markdown": "| Diâmetro Aerodinâmico (um) (esfera de densidade unitária) | % de passagem pelo seletor |\n| --- | --- |\n| menor ou igual a 2 2,5 3,5 5,0 10,0 | 90 75 50 25 0 (zero) |"
         },
         {
           "type": "paragraph",
@@ -9327,99 +8566,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Anexo | Atividades ou operações que exponham o trabalhador | Percentual |\n| --- | --- | --- |\n| 1 | Níveis de ruído contínuo ou intermitente superiores aos"
-        },
-        {
-          "type": "paragraph",
-          "text": "limites de tolerância fixados no Quadro constante do Anexo 1 e no item 6 do mesmo Anexo. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2 | Níveis de ruído de impacto superiores aos limites de"
-        },
-        {
-          "type": "paragraph",
-          "text": "tolerância fixados nos itens 2 e 3 do Anexo 2. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3 | Exposição ao calor com valores de IBUTG, superiores aos"
-        },
-        {
-          "type": "paragraph",
-          "text": "limites de tolerância fixados nos Quadros 1 e 2. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 4 | (Revogado pela Portaria MTE nº 3.751, de 23 de novembro"
-        },
-        {
-          "type": "paragraph",
-          "text": "de 1990) |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 5 | Níveis de radiações ionizantes com radioati,vidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "superior aos limites de tolerância fixados neste Anexo. | 40% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 6 | Ar comprimido. | 40% |\n| 7 | Radiações não-ionizantes consideradas insalubres em"
-        },
-        {
-          "type": "paragraph",
-          "text": "decorrência de inspeção realizada no local de trabalho. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 8 | Vibrações consideradas insalubres em decorrência de"
-        },
-        {
-          "type": "paragraph",
-          "text": "inspeção realizada no local de trabalho. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 9 | Frio considerado insalubre em decorrência de inspeção"
-        },
-        {
-          "type": "paragraph",
-          "text": "realizada no local de trabalho. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 10 | Umidade considerada insalubre em decorrência de"
-        },
-        {
-          "type": "paragraph",
-          "text": "inspeção realizada no local de trabalho. | 20% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 11 | Agentes químicos cujas concentrações sejam superiores"
-        },
-        {
-          "type": "paragraph",
-          "text": "aos limites de tolerância fixados no Quadro 1. | 10%, 20% e 40% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 12 | Poeiras minerais cujas concentrações sejam superiores aos"
-        },
-        {
-          "type": "paragraph",
-          "text": "limites de tolerância fixados neste Anexo. | 40% |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 13 | Atividades ou operações, envolvendo agentes químicos,"
-        },
-        {
-          "type": "paragraph",
-          "text": "consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 10%, 20% e 40% |"
+          "markdown": "| Anexo | Atividades ou operações que exponham o trabalhador | Percentual |\n| --- | --- | --- |\n| 1 | Níveis de ruído contínuo ou intermitente superiores aos limites de tolerância fixados no Quadro constante do Anexo 1 e no item 6 do mesmo Anexo. | 20% |\n| 2 | Níveis de ruído de impacto superiores aos limites de tolerância fixados nos itens 2 e 3 do Anexo 2. | 20% |\n| 3 | Exposição ao calor com valores de IBUTG, superiores aos limites de tolerância fixados nos Quadros 1 e 2. | 20% |\n| 4 | (Revogado pela Portaria MTE nº 3.751, de 23 de novembro de 1990) | |\n| 5 | Níveis de radiações ionizantes com radioati,vidade superior aos limites de tolerância fixados neste Anexo. | 40% |\n| 6 | Ar comprimido. | 40% |\n| 7 | Radiações não-ionizantes consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 8 | Vibrações consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 9 | Frio considerado insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 10 | Umidade considerada insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 11 | Agentes químicos cujas concentrações sejam superiores aos limites de tolerância fixados no Quadro 1. | 10%, 20% e 40% |\n| 12 | Poeiras minerais cujas concentrações sejam superiores aos limites de tolerância fixados neste Anexo. | 40% |\n| 13 | Atividades ou operações, envolvendo agentes químicos, consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 10%, 20% e 40% |"
         },
         {
           "type": "paragraph",

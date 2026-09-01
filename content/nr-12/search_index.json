@@ -1219,7 +1219,7 @@
   },
   {
     "id": "chunk-203",
-    "text": "| Capacidade de\nDetecção\nmm | Distância Adicional\nC\nmm |\n| --- | --- |\n|  14\n> 14  20\n> 20  30 | 0\n80\n130 |\n| > 30  40\n> 40 | 240\n850 |\n**1.4.** Outras características de instalação de cortina de luz, tais como aproximação paralela, aproximação em ângulo e equipamentos de dupla posição devem atender às condições específicas previstas na norma ISO 13855. A aplicação de cortina de luz em dobradeiras hidráulicas deve atender à norma EN 12622.",
+    "text": "| Capacidade de Detecção mm | Distância Adicional C mm |\n| --- | --- |\n|  14 > 14  20 > 20  30 | 0 80 130 |\n| > 30  40 > 40 | 240 850 |\n**1.4.** Outras características de instalação de cortina de luz, tais como aproximação paralela, aproximação em ângulo e equipamentos de dupla posição devem atender às condições específicas previstas na norma ISO 13855. A aplicação de cortina de luz em dobradeiras hidráulicas deve atender à norma EN 12622.",
     "heading": "**A) Cálculo das distâncias mínimas de segurança para instalação de detectores de presença optoeletrônicos - ESPE usando cortina de luz - AOPD.**",
     "char_offset": 73342
   },
@@ -5413,872 +5413,854 @@
   },
   {
     "id": "chunk-902",
-    "text": "| Tipo de máquina | Item 9\nEstrutura de\nproteção na\ncapotagem\nEPC | Item 9\nCinto de\nsegurança | Subitem 6.8\nProteção contra\nprojeção do\nmaterial em\nprocessamento | Item 8\nSinal sonoro\nde ré\nacoplados ao\nsistema de\ntransmissão e\nespelho\nretrovisor | Item 8",
+    "text": "| Tipo de máquina | Item 9 Estrutura de proteção na capotagem EPC | Item 9 Cinto de segurança | Subitem 6.8 Proteção contra projeção do material em processamento | Item 8 Sinal sonoro de ré acoplados ao sistema de transmissão e espelho retrovisor | Item 8 Faróis, buzina e lanternas traseiras de posição |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
     "char_offset": 323635
   },
   {
     "id": "chunk-903",
-    "text": "Faróis,\nbuzina e\nlanternas\ntraseiras\nde posição |\n| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros\nmicrotratores e\ncortadores de grama\nautopropelidos\n(peso bruto total abaixo\nde 600 kg) | X | X | X | X | X |\n| Pulverizadores",
+    "text": "| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | X | X | X | X | X |\n| Pulverizadores autopropelidos | X | | | | |\n| Adubadoras | X | | X | | |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 323891
+    "char_offset": 323941
   },
   {
     "id": "chunk-904",
-    "text": "autopropelidos | X |  |  |  |  |\n| Adubadoras | X |  | X |  |  |\n<u>Quadro II - Exclusões à proteção em partes móveis (subitens 6.1.1 e 6.6)</u> \nEste texto não substitui o publicado no DOU \n| autopropelidas e\ntracionadas |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |",
+    "text": "<u>Quadro II - Exclusões à proteção em partes móveis (subitens 6.1.1 e 6.6)</u> \nEste texto não substitui o publicado no DOU \n| autopropelidas e tracionadas | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Colhedoras de grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X | | X | | |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 324158
+    "char_offset": 324216
   },
   {
     "id": "chunk-905",
-    "text": "| Colhedoras de\ngrãos, cereais, forragem,\ncafé,\ncana-de-açúcar,\nalgodão, laranja\nentre outras. | X |  | X |  |  |\n| Escavadeiras Hidráulicas | X |  |  |  |  |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma portaimplementos (acoplável\nao motocultivador) | X | X | X | X | X |",
+    "text": "| Escavadeiras Hidráulicas | X | | | | |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma porta- implementos (acoplável ao motocultivador) | X | X | X | X | X |\n| Máquina - implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com aplicação. |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 324435
+    "char_offset": 324535
   },
   {
     "id": "chunk-906",
-    "text": "| Máquina - implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com\naplicação. |\n| Outros microtratores e\ncortadores de grama\nautopropelidos (peso bruto\ntotal abaixo de 600 kg) | Área do cortador de grama, embaixo da máquina, protegido por",
+    "text": "| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |\n| Adubadoras tracionadas e autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 324726
+    "char_offset": 324863
   },
   {
     "id": "chunk-907",
-    "text": "proteções laterais. |\n| Adubadoras tracionadas e\nautopropelidas | Área distribuidora - área do distribuidor (disco ou tubo);\nÁrea de transporte e esteira helicoidal. |\n| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de",
+    "text": "| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de-açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 325039
+    "char_offset": 325190
   },
   {
     "id": "chunk-908",
-    "text": "corte/recolhimento);\nÁrea de expulsão e projeção de resíduos (espalhador de palha);\nÁrea de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de-açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada\n(unidades de corte e recolhimento);",
+    "text": "| Colhedoras de algodão | Área de recolhimento da fibra do algodão; Área de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 325300
+    "char_offset": 325644
   },
   {
     "id": "chunk-909",
-    "text": "Área de projeção/descarregamento do material (picador e\ntransportador de material). |\n| Colhedoras de algodão | Área de recolhimento da fibra do algodão;\nÁrea de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis,",
+    "text": "| Escavadeiras hidráulicas, feller bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |\n| Forrageiras tracionadas e autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |",
     "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 325575
+    "char_offset": 326002
   },
   {
     "id": "chunk-910",
-    "text": "transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis,\ntransportadores e descarregamento. |\n| Escavadeiras hidráulicas, feller\nbunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento",
-    "heading": "**MÁQUINAS E IMPLEMENTOS PARA USO AGRÍCOLA E FLORESTAL**",
-    "char_offset": 325859
+    "text": "CESTA AÉREA: Equipamento veicular destinado à elevação de pessoas para execução de trabalho em altura, dotado de braço móvel, articulado, telescópico ou misto, com caçamba ou plataforma, com ou sem isolamento elétrico, podendo, desde que projetado para este fim, também elevar material por meio de guincho e de lança complementar (JIB), respeitadas as especificações do fabricante.",
+    "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
+    "char_offset": 326335
   },
   {
     "id": "chunk-911",
-    "text": "de toras. |\n| Forrageiras tracionadas e\nautopropelidas | Área de corte ou recolhimento da planta a ser processada\n(plataforma de corte ou recolhimento);\nÁrea de descarregamento/projeção do material triturado. |",
-    "heading": "**ANEXO XII da NR-12**",
-    "char_offset": 326350
+    "text": "CESTO ACOPLADO: Caçamba ou plataforma acoplada a um guindaste veicular para elevação de pessoas e execução de trabalho em altura, com ou sem isolamento elétrico, podendo também elevar material de apoio indispensável para realização do serviço. \nCESTO SUSPENSO: Conjunto formado pelo sistema de suspensão e a caçamba ou plataforma suspensa por equipamento de guindar que atenda aos requisitos de segurança deste Anexo, para utilização em trabalhos em altura.",
+    "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
+    "char_offset": 326720
   },
   {
     "id": "chunk-912",
-    "text": "CESTA AÉREA: Equipamento veicular destinado à elevação de pessoas para execução de trabalho em altura, dotado de braço móvel, articulado, telescópico ou misto, com caçamba ou plataforma, com ou sem isolamento elétrico, podendo, desde que projetado para este fim, também elevar material por meio de guincho e de lança complementar (JIB), respeitadas as especificações do fabricante.",
+    "text": "1. Para fins deste Anexo, consideram-se as seguintes definições: \nAltura nominal de trabalho (para cestas aéreas e cestos acoplados): Distância medida na elevação máxima desde o fundo da caçamba até o solo, acrescida de 1,5 m. \nBerço: Suporte de apoio da lança do guindaste na sua posição recolhida.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 326352
+    "char_offset": 327182
   },
   {
     "id": "chunk-913",
-    "text": "CESTO ACOPLADO: Caçamba ou plataforma acoplada a um guindaste veicular para elevação de pessoas e execução de trabalho em altura, com ou sem isolamento elétrico, podendo também elevar material de apoio indispensável para realização do serviço. \nCESTO SUSPENSO: Conjunto formado pelo sistema de suspensão e a caçamba ou plataforma suspensa por equipamento de guindar que atenda aos requisitos de segurança deste Anexo, para utilização em trabalhos em altura.",
+    "text": "Caçamba ou plataforma (vide figura 1): Componente destinado à acomodação e movimentação de pessoas à posição de trabalho. \nCarga nominal (carga bruta): Capacidade estabelecida pelo fabricante ou por Profissional Legalmente Habilitado para determinada configuração do equipamento de guindar e caçamba ou plataforma.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 326737
+    "char_offset": 327485
   },
   {
     "id": "chunk-914",
-    "text": "1. Para fins deste Anexo, consideram-se as seguintes definições: \nAltura nominal de trabalho (para cestas aéreas e cestos acoplados): Distância medida na elevação máxima desde o fundo da caçamba até o solo, acrescida de 1,5 m. \nBerço: Suporte de apoio da lança do guindaste na sua posição recolhida.",
+    "text": "Capacidade nominal da caçamba ou plataforma: A capacidade máxima da caçamba, estabelecida pelo fabricante, em termos de peso e número de ocupantes previsto. \nChassi (vide figura 1): É a estrutura de todo o conjunto onde se monta o mecanismo de giro, coluna, braços e lanças, bem como o sistema de estabilizadores.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 327199
+    "char_offset": 327803
   },
   {
     "id": "chunk-915",
-    "text": "Caçamba ou plataforma (vide figura 1): Componente destinado à acomodação e movimentação de pessoas à posição de trabalho. \nCarga nominal (carga bruta): Capacidade estabelecida pelo fabricante ou por Profissional Legalmente Habilitado para determinada configuração do equipamento de guindar e caçamba ou plataforma.",
+    "text": "Classificação de capacidade de carga (tabela de carga): Conjunto de cargas nominais para as configurações estipuladas de equipamentos de guindar e condições operacionais. \nComando: Sistema responsável pela execução de uma função. \nControle: Atuador de interface entre o operador e o comando.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 327502
+    "char_offset": 328121
   },
   {
     "id": "chunk-916",
-    "text": "Capacidade nominal da caçamba ou plataforma: A capacidade máxima da caçamba, estabelecida pelo fabricante, em termos de peso e número de ocupantes previsto. \nChassi (vide figura 1): É a estrutura de todo o conjunto onde se monta o mecanismo de giro, coluna, braços e lanças, bem como o sistema de estabilizadores.",
+    "text": "Este texto não substitui o publicado no DOU \n| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de plantio e seus componentes; Área de distribuição de sementes e adubos; Transmissões acionadas somente quando a máquina estiver em movimento de deslocamento, exceto quanto às faces laterais. |",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 327820
+    "char_offset": 328416
   },
   {
     "id": "chunk-917",
-    "text": "Classificação de capacidade de carga (tabela de carga): Conjunto de cargas nominais para as configurações estipuladas de equipamentos de guindar e condições operacionais. \nComando: Sistema responsável pela execução de uma função. \nControle: Atuador de interface entre o operador e o comando.",
+    "text": "| --- | --- |\nCuba isolante ou Liner: Componente projetado para ser acomodado dentro da caçamba, plataforma ou suporte similar, capaz de modificar as propriedades elétricas da caçamba/plataforma. Pode ser de duas naturezas: \n• Liner/Cuba Isolante: Acessório da caçamba destinado a garantir a sua isolação elétrica em Cestas Aéreas Isoladas, aplicáveis de acordo com a classe de isolação e método de trabalho.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 328138
+    "char_offset": 328739
   },
   {
     "id": "chunk-918",
-    "text": "Este texto não substitui o publicado no DOU \n| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes;\nLinhas de plantio e seus componentes;\nÁrea de distribuição de sementes e adubos;\nTransmissões acionadas somente quando a máquina estiver em",
+    "text": "• Liner/Cuba condutiva: Acessório da caçamba destinado à equalização de potencial entre a rede, as partes metálicas e o eletricista, para trabalhos pelo método ao potencial. \nEnsaios Não Destrutivos: Exame das Cestas Aéreas ou de seus componentes sem alteração das suas características originais. Portanto, eles (Cesta Aérea e componentes), após serem submetidos a esses ensaios, devem funcionar como antes. Incluem, mas não se limitam a: Inspeção Visual, ensaios de Emissão Acústica, Partícula Magnética/Líquido Penetrante, Ultrassom e Dielétrico.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 328433
+    "char_offset": 329151
   },
   {
     "id": "chunk-919",
-    "text": "movimento de deslocamento, exceto quanto às faces laterais. |\n| --- | --- |\nCuba isolante ou Liner: Componente projetado para ser acomodado dentro da caçamba, plataforma ou suporte similar, capaz de modificar as propriedades elétricas da caçamba/plataforma. Pode ser de duas naturezas:",
+    "text": "Dispositivo de tração na subida e descida do moitão: Sistema ou dispositivo que controle o içamento ou descida motorizada da caçamba ou plataforma, impedindo a queda livre. \nEslinga, linga ou lingada: Dispositivo composto de cabos e acessórios destinados a promover a interligação entre o equipamento de guindar e a caçamba ou plataforma.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 328693
+    "char_offset": 329703
   },
   {
     "id": "chunk-920",
-    "text": "• Liner/Cuba Isolante: Acessório da caçamba destinado a garantir a sua isolação elétrica em Cestas Aéreas Isoladas, aplicáveis de acordo com a classe de isolação e método de trabalho. \n• Liner/Cuba condutiva: Acessório da caçamba destinado à equalização de potencial entre a rede, as partes metálicas e o eletricista, para trabalhos pelo método ao potencial.",
+    "text": "Estabilizadores (vide figura 1): Dispositivos e sistemas utilizados para estabilizar a cesta aérea, cesto acoplado ou equipamento de guindar. \nEstabilizar/estabilidade: Condição segura de trabalho prevista pelo fabricante para evitar o tombamento. \nFreio: Dispositivo utilizado para retardar ou parar o movimento.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 328982
+    "char_offset": 330046
   },
   {
     "id": "chunk-921",
-    "text": "Ensaios Não Destrutivos: Exame das Cestas Aéreas ou de seus componentes sem alteração das suas características originais. Portanto, eles (Cesta Aérea e componentes), após serem submetidos a esses ensaios, devem funcionar como antes. Incluem, mas não se limitam a: Inspeção Visual, ensaios de Emissão Acústica, Partícula Magnética/Líquido Penetrante, Ultrassom e Dielétrico.",
+    "text": "Freio automático: Dispositivo que retarda ou para o movimento, sem atuação do operador, quando os parâmetros operacionais específicos do equipamento são atingidos. \nGiro (vide figura 1): Movimento rotativo da coluna ou torre, da lança ou braço móvel em torno do eixo vertical.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 329343
+    "char_offset": 330363
   },
   {
     "id": "chunk-922",
-    "text": "Dispositivo de tração na subida e descida do moitão: Sistema ou dispositivo que controle o içamento ou descida motorizada da caçamba ou plataforma, impedindo a queda livre. \nEslinga, linga ou lingada: Dispositivo composto de cabos e acessórios destinados a promover a interligação entre o equipamento de guindar e a caçamba ou plataforma.",
+    "text": "Grau de isolamento: Cestas áreas isoladas são classificadas de acordo com sua classe de isolamento elétrico, definidas em 3 categorias conforme norma ABNT NBR 16092:2012. \nGuindaste Veicular: Equipamento hidráulico veicular dotado de braço móvel articulado, telescópico ou misto destinado a elevar cargas.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 329720
+    "char_offset": 330643
   },
   {
     "id": "chunk-923",
-    "text": "Estabilizadores (vide figura 1): Dispositivos e sistemas utilizados para estabilizar a cesta aérea, cesto acoplado ou equipamento de guindar. \nEstabilizar/estabilidade: Condição segura de trabalho prevista pelo fabricante para evitar o tombamento. \nFreio: Dispositivo utilizado para retardar ou parar o movimento.",
+    "text": "JIB: Lança auxiliar acoplada à extremidade da lança principal com objetivo de içar ou sustentar cargas adicionais. \nLança ou braço móvel (vide figura 1): Componente articulado, extensível ou misto, que sustenta e movimenta a caçamba ou plataforma. \nManilha: Acessório para movimentação ou fixação de carga, formado por duas partes facilmente desmontáveis, consistindo em corpo e pino.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 330063
+    "char_offset": 330953
   },
   {
     "id": "chunk-924",
-    "text": "Freio automático: Dispositivo que retarda ou para o movimento, sem atuação do operador, quando os parâmetros operacionais específicos do equipamento são atingidos. \nGiro (vide figura 1): Movimento rotativo da coluna ou torre, da lança ou braço móvel em torno do eixo vertical.",
+    "text": "Este texto não substitui o publicado no DOU \nPlano de movimentação de carga (Plano de Rigging): Consiste no planejamento formalizado de uma movimentação com guindaste móvel ou fixo, visando à otimização dos recursos aplicados na operação (equipamentos, acessórios e outros) para se evitar acidentes e perdas de tempo. Ele indica, por meio do estudo da carga a ser içada, das máquinas disponíveis, dos acessórios, condições do solo e ação do vento, quais as melhores soluções para fazer um içamento seguro e eficiente.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 330380
+    "char_offset": 331341
   },
   {
     "id": "chunk-925",
-    "text": "Grau de isolamento: Cestas áreas isoladas são classificadas de acordo com sua classe de isolamento elétrico, definidas em 3 categorias conforme norma ABNT NBR 16092:2012. \nGuindaste Veicular: Equipamento hidráulico veicular dotado de braço móvel articulado, telescópico ou misto destinado a elevar cargas.",
+    "text": "Ponto(s) de fixação(ões): Lugar na caçamba ou plataforma para conexão ao sistema de suspensão. \nPosição de acesso: Posição que permite o acesso à plataforma ou caçamba. Posição de acesso e posição de transporte podem ser idênticas. \nPosição de transporte: A posição de transporte da plataforma ou caçamba é a posição recomendada pelo fabricante na qual a cesta aérea ou o cesto acoplado é transportado/deslocado ao local de utilização em vias públicas ou no interior dos canteiros de obras.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 330660
+    "char_offset": 331863
   },
   {
     "id": "chunk-926",
-    "text": "JIB: Lança auxiliar acoplada à extremidade da lança principal com objetivo de içar ou sustentar cargas adicionais. \nLança ou braço móvel (vide figura 1): Componente articulado, extensível ou misto, que sustenta e movimenta a caçamba ou plataforma. \nManilha: Acessório para movimentação ou fixação de carga, formado por duas partes facilmente desmontáveis, consistindo em corpo e pino.",
+    "text": "Posição de transporte para cesto acoplado: É considerada posição de transporte aquela definida pelo fabricante, quando as lanças do guindaste estiverem posicionadas no berço ou sobre a carroceria do caminhão, desde que não ultrapassadas as dimensões de transporte (largura e altura) em conformidade com a legislação vigente.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 330970
+    "char_offset": 332356
   },
   {
     "id": "chunk-927",
-    "text": "Este texto não substitui o publicado no DOU \nPlano de movimentação de carga (Plano de Rigging): Consiste no planejamento formalizado de uma movimentação com guindaste móvel ou fixo, visando à otimização dos recursos aplicados na operação (equipamentos, acessórios e outros) para se evitar acidentes e perdas de tempo. Ele indica, por meio do estudo da carga a ser içada, das máquinas disponíveis, dos acessórios, condições do solo e ação do vento, quais as melhores soluções para fazer um içamento seguro e eficiente.",
+    "text": "Profissional de movimentação de carga (Rigger): responsável pelo planejamento e elaboração do plano de movimentação de cargas, conforme previsto no subitem 12.16.3 desta NR. \nSapatilha: Elemento utilizado na proteção para olhal de cabo de aço. \nSistema de suspensão: Cabo ou eslingas e outros componentes, incluindo dispositivos de fixação, utilizado para ligar o equipamento de guindar à caçamba ou plataforma.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 331358
+    "char_offset": 332685
   },
   {
     "id": "chunk-928",
-    "text": "Ponto(s) de fixação(ões): Lugar na caçamba ou plataforma para conexão ao sistema de suspensão. \nPosição de acesso: Posição que permite o acesso à plataforma ou caçamba. Posição de acesso e posição de transporte podem ser idênticas. \nPosição de transporte: A posição de transporte da plataforma ou caçamba é a posição recomendada pelo fabricante na qual a cesta aérea ou o cesto acoplado é transportado/deslocado ao local de utilização em vias públicas ou no interior dos canteiros de obras.",
+    "text": "Sistema de suspensão dedicado: É aquele que só pode ser utilizado para a operação em conjunto com a caçamba. Quando atendidos os requisitos de segurança previstos neste Anexo, pode ser dotado de cesto acoplado ou cesto suspenso. \nSistema limitador de momento: Sistema de segurança que atua quando alcançado o",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 331880
+    "char_offset": 333100
   },
   {
     "id": "chunk-929",
-    "text": "Posição de transporte para cesto acoplado: É considerada posição de transporte aquela definida pelo fabricante, quando as lanças do guindaste estiverem posicionadas no berço ou sobre a carroceria do caminhão, desde que não ultrapassadas as dimensões de transporte (largura e altura) em conformidade com a legislação vigente.",
+    "text": "Este texto não substitui o publicado no DOU \n![Página 148 — imagem 0](../assets/pages/page-148-image-00.png)\n![Página 148 — imagem 1](../assets/pages/page-148-image-01.png)\nlimite do momento de carga, impedindo os movimentos que aumentem o momento de carga.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 332373
+    "char_offset": 333414
   },
   {
     "id": "chunk-930",
-    "text": "Profissional de movimentação de carga (Rigger): responsável pelo planejamento e elaboração do plano de movimentação de cargas, conforme previsto no subitem 12.16.3 desta NR. \nSapatilha: Elemento utilizado na proteção para olhal de cabo de aço. \nSistema de suspensão: Cabo ou eslingas e outros componentes, incluindo dispositivos de fixação, utilizado para ligar o equipamento de guindar à caçamba ou plataforma.",
+    "text": "Superlaço: Olhal feito abrindo-se a ponta do cabo em duas metades. Uma metade é curvada para formar um olhal, e em seguida a outra metade é entrelaçada no espaço vazio da primeira. \nTrabalho pelo método ao potencial: Metodologia de trabalho em redes elétricas com tensões superiores a 60kV, onde, através de vestimentas e outros meios específicos, o trabalhador é equalizado no mesmo potencial da rede elétrica (mesmo nível de tensão), possibilitando o trabalho em contato direto com o condutor.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 332702
+    "char_offset": 333675
   },
   {
     "id": "chunk-931",
-    "text": "Sistema de suspensão dedicado: É aquele que só pode ser utilizado para a operação em conjunto com a caçamba. Quando atendidos os requisitos de segurança previstos neste Anexo, pode ser dotado de cesto acoplado ou cesto suspenso. \nSistema limitador de momento: Sistema de segurança que atua quando alcançado o",
+    "text": "Válvula de Retenção: Válvula de segurança que evita movimentos involuntários e indesejáveis de um equipamento hidráulico no caso de rompimento de mangueira e/ou perda de pressão hidráulica. \nVálvula de Contrabalanço: Válvula de segurança com função de eliminar oscilações (pulsos) gerados pela ação dinâmica do impulso de saída e do impulso de frenagem, quando dos movimentos de subida e descida do braço móvel de um equipamento hidráulico, tornando sua movimentação mais suave e segura para o operador.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 333117
+    "char_offset": 334174
   },
   {
     "id": "chunk-932",
-    "text": "Este texto não substitui o publicado no DOU \n![Página 148 — imagem 0](../assets/pages/page-148-image-00.png)\n![Página 148 — imagem 1](../assets/pages/page-148-image-01.png)\nlimite do momento de carga, impedindo os movimentos que aumentem o momento de carga.",
+    "text": "Válvula Holding: Válvula de segurança com funções de contrabalanço e retenção combinadas, possuindo ainda recurso que permite sua operação manual para recolher o braço móvel de um equipamento hidráulico no caso de rompimento de mangueira e/ou perda de pressão hidráulica.",
     "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 333431
+    "char_offset": 334680
   },
   {
     "id": "chunk-933",
-    "text": "Superlaço: Olhal feito abrindo-se a ponta do cabo em duas metades. Uma metade é curvada para formar um olhal, e em seguida a outra metade é entrelaçada no espaço vazio da primeira. \nTrabalho pelo método ao potencial: Metodologia de trabalho em redes elétricas com tensões superiores a 60kV, onde, através de vestimentas e outros meios específicos, o trabalhador é equalizado no mesmo potencial da rede elétrica (mesmo nível de tensão), possibilitando o trabalho em contato direto com o condutor.",
-    "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 333692
+    "text": "Figura 1: Exemplo de arranjo com cesto acoplado",
+    "heading": "**2. CESTAS AÉREAS**",
+    "char_offset": 335004
   },
   {
     "id": "chunk-934",
-    "text": "Válvula de Retenção: Válvula de segurança que evita movimentos involuntários e indesejáveis de um equipamento hidráulico no caso de rompimento de mangueira e/ou perda de pressão hidráulica. \nVálvula de Contrabalanço: Válvula de segurança com função de eliminar oscilações (pulsos) gerados pela ação dinâmica do impulso de saída e do impulso de frenagem, quando dos movimentos de subida e descida do braço móvel de um equipamento hidráulico, tornando sua movimentação mais suave e segura para o operador.",
-    "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 334191
+    "text": "**2.1** As cestas aéreas devem dispor de: \na) ancoragem para cinto de segurança tipo paraquedista, conforme projeto e Este texto não substitui o publicado no DOU \n![Página 149 — imagem 0](../assets/pages/page-149-image-00.png)\n![Página 149 — imagem 1](../assets/pages/page-149-image-01.png)",
+    "heading": "**2. CESTAS AÉREAS**",
+    "char_offset": 335008
   },
   {
     "id": "chunk-935",
-    "text": "Válvula Holding: Válvula de segurança com funções de contrabalanço e retenção combinadas, possuindo ainda recurso que permite sua operação manual para recolher o braço móvel de um equipamento hidráulico no caso de rompimento de mangueira e/ou perda de pressão hidráulica.",
-    "heading": "**EQUIPAMENTOS DE GUINDAR PARA ELEVAÇÃO DE PESSOAS E REALIZAÇÃO DE TRABALHO EM ALTURA**",
-    "char_offset": 334697
+    "text": "- b) todos os controles claramente identificados quanto a suas funções e protegidos contra uso inadvertido e acidental; \n- c) controles para movimentação da caçamba na parte superior e na parte inferior, que devem voltar para a posição neutra quando liberados pelo operador, exceto o controle das ferramentas hidráulicas;",
+    "heading": "sinalização do fabricante;",
+    "char_offset": 335302
   },
   {
     "id": "chunk-936",
-    "text": "Figura 1: Exemplo de arranjo com cesto acoplado",
-    "heading": "**2. CESTAS AÉREAS**",
-    "char_offset": 335021
+    "text": "- d) controles inferior e superior para a operação do guincho e válvula de pressão para limitar a carga nas cestas aéreas equipadas com guincho e “JIB” para levantamento de material, caso possua este acessório; \n- e) dispositivo de travamento de segurança de modo a impedir a atuação inadvertida dos controles superiores;",
+    "heading": "sinalização do fabricante;",
+    "char_offset": 335627
   },
   {
     "id": "chunk-937",
-    "text": "**2.1** As cestas aéreas devem dispor de: \na) ancoragem para cinto de segurança tipo paraquedista, conforme projeto e Este texto não substitui o publicado no DOU \n![Página 149 — imagem 0](../assets/pages/page-149-image-00.png)\n![Página 149 — imagem 1](../assets/pages/page-149-image-01.png)",
-    "heading": "**2. CESTAS AÉREAS**",
-    "char_offset": 335025
+    "text": "- f) controles superiores na caçamba ou ao seu lado e prontamente acessíveis ao operador; \n- g) controles inferiores prontamente acessíveis e dotados de um meio de prevalecer sobre o controle superior de movimentação da caçamba; \n- h) dispositivo de parada de emergência nos comandos superior e inferior devendo manter-se funcionais em ambos casos;",
+    "heading": "sinalização do fabricante;",
+    "char_offset": 335953
   },
   {
     "id": "chunk-938",
-    "text": "- b) todos os controles claramente identificados quanto a suas funções e protegidos contra uso inadvertido e acidental; \n- c) controles para movimentação da caçamba na parte superior e na parte inferior, que devem voltar para a posição neutra quando liberados pelo operador, exceto o controle das ferramentas hidráulicas;",
+    "text": "- i) válvulas de retenção nos cilindros hidráulicos das sapatas estabilizadoras e válvulas de retenção e contrabalanço ou holding nos cilindros hidráulicos do braço móvel a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico;",
     "heading": "sinalização do fabricante;",
-    "char_offset": 335319
+    "char_offset": 336304
   },
   {
     "id": "chunk-939",
-    "text": "- d) controles inferior e superior para a operação do guincho e válvula de pressão para limitar a carga nas cestas aéreas equipadas com guincho e “JIB” para levantamento de material, caso possua este acessório; \n- e) dispositivo de travamento de segurança de modo a impedir a atuação inadvertida dos controles superiores;",
+    "text": "- j) sistema estabilizador, com indicador de inclinação instalado, em local que permita a visualização durante a operação dos estabilizadores, para mostrar se o equipamento está posicionado dentro dos limites de inclinação lateral permitidos pelo fabricante;",
     "heading": "sinalização do fabricante;",
-    "char_offset": 335644
+    "char_offset": 336568
   },
   {
     "id": "chunk-940",
-    "text": "- f) controles superiores na caçamba ou ao seu lado e prontamente acessíveis ao operador; \n- g) controles inferiores prontamente acessíveis e dotados de um meio de prevalecer sobre o controle superior de movimentação da caçamba; \n- h) dispositivo de parada de emergência nos comandos superior e inferior devendo manter-se funcionais em ambos casos;",
+    "text": "- k) controles dos estabilizadores protegidos contra o uso inadvertido, que retornem à posição neutra quando soltos pelo operador, localizados na base da unidade móvel, de modo que o operador possa ver os estabilizadores se movimentando; \n- l) válvula seletora, junto ao comando dos estabilizadores, que numa posição bloqueie a operação dos estabilizadores e na outra posição, os comandos de movimentação da(s) caçamba(s);",
     "heading": "sinalização do fabricante;",
-    "char_offset": 335970
+    "char_offset": 336830
   },
   {
     "id": "chunk-941",
-    "text": "- i) válvulas de retenção nos cilindros hidráulicos das sapatas estabilizadoras e válvulas de retenção e contrabalanço ou holding nos cilindros hidráulicos do braço móvel a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico;",
+    "text": "- m) sistema que impeça a operação das sapatas estabilizadoras sem o prévio recolhimento do braço móvel para uma posição segura de transporte; \n- n) sistema de operação de emergência que permita a movimentação dos braços e rotação da torre em caso de pane, exceto no caso previsto na alínea “o”;",
     "heading": "sinalização do fabricante;",
-    "char_offset": 336321
+    "char_offset": 337256
   },
   {
     "id": "chunk-942",
-    "text": "- j) sistema estabilizador, com indicador de inclinação instalado, em local que permita a visualização durante a operação dos estabilizadores, para mostrar se o equipamento está posicionado dentro dos limites de inclinação lateral permitidos pelo fabricante;",
+    "text": "- o) recurso para operação de emergência que permita a movimentação dos braços e rotação da torre em caso de ruptura de mangueiras hidráulicas; \n- p) ponto para aterramento. \n**2.2** A caçamba ou plataforma deve ser dimensionada para suportar e acomodar o(s) operador(es) e as ferramentas indispensáveis para realização do serviço.",
     "heading": "sinalização do fabricante;",
-    "char_offset": 336585
+    "char_offset": 337556
   },
   {
     "id": "chunk-943",
-    "text": "- k) controles dos estabilizadores protegidos contra o uso inadvertido, que retornem à posição neutra quando soltos pelo operador, localizados na base da unidade móvel, de modo que o operador possa ver os estabilizadores se movimentando; \n- l) válvula seletora, junto ao comando dos estabilizadores, que numa posição bloqueie a operação dos estabilizadores e na outra posição, os comandos de movimentação da(s) caçamba(s);",
-    "heading": "sinalização do fabricante;",
-    "char_offset": 336847
+    "text": "Este texto não substitui o publicado no DOU",
+    "heading": "**2.2.1** Caçambas (não condutivas):",
+    "char_offset": 337936
   },
   {
     "id": "chunk-944",
-    "text": "- m) sistema que impeça a operação das sapatas estabilizadoras sem o prévio recolhimento do braço móvel para uma posição segura de transporte; \n- n) sistema de operação de emergência que permita a movimentação dos braços e rotação da torre em caso de pane, exceto no caso previsto na alínea “o”;",
-    "heading": "sinalização do fabricante;",
-    "char_offset": 337273
+    "text": "- a) as caçambas fabricadas em material não condutivo devem atender aos requisitos da norma ABNT NBR 16092:2012 e seu Anexo “C”; \n- b) a caçamba das cestas aéreas isoladas deve ser dotada de cuba isolante (liner), exceto para trabalho pelo método ao potencial;",
+    "heading": "**2.2.1** Caçambas (não condutivas):",
+    "char_offset": 337938
   },
   {
     "id": "chunk-945",
-    "text": "- o) recurso para operação de emergência que permita a movimentação dos braços e rotação da torre em caso de ruptura de mangueiras hidráulicas; \n- p) ponto para aterramento. \n**2.2** A caçamba ou plataforma deve ser dimensionada para suportar e acomodar o(s) operador(es) e as ferramentas indispensáveis para realização do serviço.",
-    "heading": "sinalização do fabricante;",
-    "char_offset": 337573
+    "text": "- c) não deve haver aberturas nem passagens nas caçambas de cestas aéreas isoladas, exceto para trabalho pelo método ao potencial. \n**2.2.2** Plataformas metálicas (condutivas): \n- a) devem possuir sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR;",
+    "heading": "**2.2.1** Caçambas (não condutivas):",
+    "char_offset": 338203
   },
   {
     "id": "chunk-946",
-    "text": "Este texto não substitui o publicado no DOU",
+    "text": "- b) quando o acesso da plataforma for por meio de portão, não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental. \n**2.3** As cestas aéreas, isoladas e não isoladas, devem possuir sistema de nivelamento da(s) caçamba(s) ativo e automático, através de sistema mecânico ou hidráulico que funcione integradamente aos movimentos do braço móvel e independente da atuação da força de gravidade.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 337953
+    "char_offset": 338566
   },
   {
     "id": "chunk-947",
-    "text": "- a) as caçambas fabricadas em material não condutivo devem atender aos requisitos da norma ABNT NBR 16092:2012 e seu Anexo “C”; \n- b) a caçamba das cestas aéreas isoladas deve ser dotada de cuba isolante (liner), exceto para trabalho pelo método ao potencial;",
+    "text": "**2.3.1** As cestas áreas não isoladas com até 10 anos de uso, contados a partir da vigência deste Anexo, estão dispensadas da exigência do subitem 2.3, podendo possuir sistema de nivelamento da caçamba por gravidade. \n**2.3.2** É proibida a utilização de cestas aéreas não isoladas que não possuam sistema de nivelamento da caçamba ativo e automático.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 337955
+    "char_offset": 339008
   },
   {
     "id": "chunk-948",
-    "text": "- c) não deve haver aberturas nem passagens nas caçambas de cestas aéreas isoladas, exceto para trabalho pelo método ao potencial. \n**2.2.2** Plataformas metálicas (condutivas): \n- a) devem possuir sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR;",
+    "text": "**2.4** Para serviços em linhas, redes e instalações energizadas com tensões superiores a 1.000V, deve-se utilizar cesta aérea isolada, que possua o grau de isolamento, categorias A, B ou C, conforme norma ABNT NBR 16092:2012, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 338220
+    "char_offset": 339363
   },
   {
     "id": "chunk-949",
-    "text": "- b) quando o acesso da plataforma for por meio de portão, não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental. \n**2.3** As cestas aéreas, isoladas e não isoladas, devem possuir sistema de nivelamento da(s) caçamba(s) ativo e automático, através de sistema mecânico ou hidráulico que funcione integradamente aos movimentos do braço móvel e independente da atuação da força de gravidade.",
+    "text": "**2.5** Para serviços em linhas, redes e instalações energizadas com tensões iguais ou inferiores a 1.000V, a caçamba deve possuir isolação própria e ser equipada com cuba isolante (liner), garantindo assim o grau de isolamento adequado, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 338583
+    "char_offset": 339717
   },
   {
     "id": "chunk-950",
-    "text": "**2.3.1** As cestas áreas não isoladas com até 10 anos de uso, contados a partir da vigência deste Anexo, estão dispensadas da exigência do subitem 2.3, podendo possuir sistema de nivelamento da caçamba por gravidade. \n**2.3.2** É proibida a utilização de cestas aéreas não isoladas que não possuam sistema de nivelamento da caçamba ativo e automático.",
+    "text": "**2.6** Para serviços em proximidade de linhas, redes e instalações energizadas ou com possibilidade de energização acidental, em que o trabalhador possa entrar na zona controlada com uma parte do seu corpo ou com extensões condutoras, o equipamento também deve possuir o grau de isolamento adequado, observando-se que:",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 339025
+    "char_offset": 340082
   },
   {
     "id": "chunk-951",
-    "text": "**2.4** Para serviços em linhas, redes e instalações energizadas com tensões superiores a 1.000V, deve-se utilizar cesta aérea isolada, que possua o grau de isolamento, categorias A, B ou C, conforme norma ABNT NBR 16092:2012, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
+    "text": "a) caso o trabalho seja realizado próximo a tensões superiores a 1.000 V, a cesta aérea \nEste texto não substitui o publicado no DOU \ndeve ser isolada, conforme previsto no subitem 2.4 deste Anexo; \n- b) caso o trabalho seja próximo a tensões igual ou inferiores a 1.000 V, a caçamba deve garantir o isolamento, conforme previsto no subitem 2.5 deste Anexo;",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 339380
+    "char_offset": 340407
   },
   {
     "id": "chunk-952",
-    "text": "**2.5** Para serviços em linhas, redes e instalações energizadas com tensões iguais ou inferiores a 1.000V, a caçamba deve possuir isolação própria e ser equipada com cuba isolante (liner), garantindo assim o grau de isolamento adequado, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
+    "text": "- c) devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10. \n**2.7** Em cestas aéreas com duas caçambas, os controles superiores devem estar posicionados ao alcance dos operadores, sem que haja a necessidade de desengatar seu cinto de segurança.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 339734
+    "char_offset": 340768
   },
   {
     "id": "chunk-953",
-    "text": "**2.6** Para serviços em proximidade de linhas, redes e instalações energizadas ou com possibilidade de energização acidental, em que o trabalhador possa entrar na zona controlada com uma parte do seu corpo ou com extensões condutoras, o equipamento também deve possuir o grau de isolamento adequado, observando-se que:",
+    "text": "**2.8** Os controles inferiores da cesta aérea não devem ser operados com trabalhadores na caçamba, exceto em situações de emergência. \n**2.9** É proibida a movimentação de carga nas cestas aéreas, exceto as ferramentas, equipamentos e materiais para a execução da tarefa acondicionados de forma segura.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 340099
+    "char_offset": 341085
   },
   {
     "id": "chunk-954",
-    "text": "a) caso o trabalho seja realizado próximo a tensões superiores a 1.000 V, a cesta aérea \nEste texto não substitui o publicado no DOU \ndeve ser isolada, conforme previsto no subitem 2.4 deste Anexo; \n- b) caso o trabalho seja próximo a tensões igual ou inferiores a 1.000 V, a caçamba deve garantir o isolamento, conforme previsto no subitem 2.5 deste Anexo;",
+    "text": "**2.10** As ferramentas, equipamentos e materiais a serem transportados não devem ter dimensões que possam trazer riscos ou desconforto aos trabalhadores. \n**2.11** O peso total dos trabalhadores, ferramentas, equipamentos e materiais não pode exceder, em nenhum momento, a capacidade de carga nominal da caçamba.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 340424
+    "char_offset": 341392
   },
   {
     "id": "chunk-955",
-    "text": "- c) devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10. \n**2.7** Em cestas aéreas com duas caçambas, os controles superiores devem estar posicionados ao alcance dos operadores, sem que haja a necessidade de desengatar seu cinto de segurança.",
+    "text": "**2.12** As cestas aéreas devem ter placa de identificação, localizada na parte inferior do equipamento, na qual constem, no mínimo, as seguintes informações: \n- a) marca; \n- b) modelo; \n- c) isolado ou não isolado; \n- d) teste de qualificação e data do ensaio, se aplicável;",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 340785
+    "char_offset": 341712
   },
   {
     "id": "chunk-956",
-    "text": "**2.8** Os controles inferiores da cesta aérea não devem ser operados com trabalhadores na caçamba, exceto em situações de emergência. \n**2.9** É proibida a movimentação de carga nas cestas aéreas, exceto as ferramentas, equipamentos e materiais para a execução da tarefa acondicionados de forma segura.",
+    "text": "- e) número de série; \n- f) data de fabricação (mês e ano); \n- g) capacidade nominal de carga; \n- h) altura nominal de trabalho; \n- i) pressão do sistema hidráulico; \n- j) número de caçambas; \n- k) categoria de isolamento da cesta aérea, se aplicável;",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 341102
+    "char_offset": 341996
   },
   {
     "id": "chunk-957",
-    "text": "**2.10** As ferramentas, equipamentos e materiais a serem transportados não devem ter dimensões que possam trazer riscos ou desconforto aos trabalhadores. \n**2.11** O peso total dos trabalhadores, ferramentas, equipamentos e materiais não pode exceder, em nenhum momento, a capacidade de carga nominal da caçamba.",
+    "text": "- l) razão Social e CNPJ do fabricante ou importador; \n- m) empresa instaladora; \n- n) existência de acessórios para manuseio de materiais (guincho e JIB); \n- o) indicação de que o equipamento atende a norma ABNT NBR 16092:2012. \nEste texto não substitui o publicado no DOU",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 341409
+    "char_offset": 342254
   },
   {
     "id": "chunk-958",
-    "text": "**2.12** As cestas aéreas devem ter placa de identificação, localizada na parte inferior do equipamento, na qual constem, no mínimo, as seguintes informações: \n- a) marca; \n- b) modelo; \n- c) isolado ou não isolado; \n- d) teste de qualificação e data do ensaio, se aplicável;",
+    "text": "**2.13** As cestas aéreas devem ser dotadas de sinalização de segurança, atendidos os requisitos desta NR, devendo contemplar também: \n- a) riscos envolvidos na operação do equipamento; \n- b) capacidade de carga da caçamba e dos equipamentos para movimentação de materiais (guincho e JIB);",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 341729
+    "char_offset": 342532
   },
   {
     "id": "chunk-959",
-    "text": "- e) número de série; \n- f) data de fabricação (mês e ano); \n- g) capacidade nominal de carga; \n- h) altura nominal de trabalho; \n- i) pressão do sistema hidráulico; \n- j) número de caçambas; \n- k) categoria de isolamento da cesta aérea, se aplicável;",
+    "text": "- c) informações relativas ao uso e à capacidade de carga da cesta aérea para múltiplas configurações. \n**2.14** Os controles das cestas aéreas devem estar identificados com símbolos e/ou inscrições com a descrição de suas funções. \n**2.15** As cestas aéreas devem ser submetidas a inspeções e ensaios previstos na norma ABNT NBR 16092:2012.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 342013
+    "char_offset": 342826
   },
   {
     "id": "chunk-960",
-    "text": "- l) razão Social e CNPJ do fabricante ou importador; \n- m) empresa instaladora; \n- n) existência de acessórios para manuseio de materiais (guincho e JIB); \n- o) indicação de que o equipamento atende a norma ABNT NBR 16092:2012. \nEste texto não substitui o publicado no DOU",
+    "text": "**2.16** Nos casos de transferência de propriedade, é responsabilidade do comprador informar ao fabricante da cesta aérea, em um prazo de 30 (trinta) dias a partir do recebimento do equipamento, seu modelo e número de série, bem como o número do CNPJ e o endereço do novo proprietário.",
     "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 342271
+    "char_offset": 343170
   },
   {
     "id": "chunk-961",
-    "text": "**2.13** As cestas aéreas devem ser dotadas de sinalização de segurança, atendidos os requisitos desta NR, devendo contemplar também: \n- a) riscos envolvidos na operação do equipamento; \n- b) capacidade de carga da caçamba e dos equipamentos para movimentação de materiais (guincho e JIB);",
-    "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 342549
+    "text": "**2.17** O vendedor deve providenciar e entregar o manual da cesta aérea para o comprador.",
+    "heading": "**3. CESTOS ACOPLADOS**",
+    "char_offset": 343551
   },
   {
     "id": "chunk-962",
-    "text": "- c) informações relativas ao uso e à capacidade de carga da cesta aérea para múltiplas configurações. \n**2.14** Os controles das cestas aéreas devem estar identificados com símbolos e/ou inscrições com a descrição de suas funções. \n**2.15** As cestas aéreas devem ser submetidas a inspeções e ensaios previstos na norma ABNT NBR 16092:2012.",
-    "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 342843
+    "text": "- **3.1** Os cestos acoplados devem dispor de: \n- a) ancoragem para cinto de segurança tipo paraquedista, conforme projeto e sinalização do fabricante; \n- b) todos os controles claramente identificados quanto a suas funções e protegidos contra uso inadvertido e acidental;",
+    "heading": "**3. CESTOS ACOPLADOS**",
+    "char_offset": 343554
   },
   {
     "id": "chunk-963",
-    "text": "**2.16** Nos casos de transferência de propriedade, é responsabilidade do comprador informar ao fabricante da cesta aérea, em um prazo de 30 (trinta) dias a partir do recebimento do equipamento, seu modelo e número de série, bem como o número do CNPJ e o endereço do novo proprietário.",
-    "heading": "**2.2.1** Caçambas (não condutivas):",
-    "char_offset": 343187
+    "text": "- c) controles para movimentação da caçamba na parte superior e na parte inferior, que voltem para a posição neutra quando liberados pelo operador; \n- d) dispositivo ou sistema de segurança que impeça a atuação inadvertida dos controles superiores;",
+    "heading": "**3. CESTOS ACOPLADOS**",
+    "char_offset": 343830
   },
   {
     "id": "chunk-964",
-    "text": "**2.17** O vendedor deve providenciar e entregar o manual da cesta aérea para o comprador.",
+    "text": "- e) controles superiores na caçamba ou ao seu lado e prontamente acessíveis ao operador; \n- f) controles inferiores prontamente acessíveis e dotados de um meio de prevalecer sobre o controle superior de movimentação da caçamba; \n- g) dispositivo de parada de emergência nos comandos superior e inferior, devendo manter-se funcionais em ambos os casos;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 343568
+    "char_offset": 344083
   },
   {
     "id": "chunk-965",
-    "text": "- **3.1** Os cestos acoplados devem dispor de: \n- a) ancoragem para cinto de segurança tipo paraquedista, conforme projeto e sinalização do fabricante; \n- b) todos os controles claramente identificados quanto a suas funções e protegidos contra uso inadvertido e acidental;",
+    "text": "- h) válvulas de retenção nos cilindros hidráulicos das sapatas estabilizadoras, e válvulas de retenção e contrabalanço ou holding nos cilindros hidráulicos do braço móvel, a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 343571
+    "char_offset": 344438
   },
   {
     "id": "chunk-966",
-    "text": "- c) controles para movimentação da caçamba na parte superior e na parte inferior, que voltem para a posição neutra quando liberados pelo operador; \n- d) dispositivo ou sistema de segurança que impeça a atuação inadvertida dos controles superiores;",
+    "text": "Este texto não substitui o publicado no DOU \n- i) controles dos estabilizadores protegidos contra o uso inadvertido, que retornem à posição neutra quando soltos pelo operador, localizados na base do guindaste, de modo que o operador possa ver os estabilizadores movimentando;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 343847
+    "char_offset": 344705
   },
   {
     "id": "chunk-967",
-    "text": "- e) controles superiores na caçamba ou ao seu lado e prontamente acessíveis ao operador; \n- f) controles inferiores prontamente acessíveis e dotados de um meio de prevalecer sobre o controle superior de movimentação da caçamba; \n- g) dispositivo de parada de emergência nos comandos superior e inferior, devendo manter-se funcionais em ambos os casos;",
+    "text": "- j) válvula ou chave seletora, junto ao comando dos estabilizadores, que numa posição bloqueie a operação dos estabilizadores e na outra posição, os comandos de movimentação do equipamento de guindar; \n- k) sistema que impeça a operação das sapatas estabilizadoras sem o prévio recolhimento do braço móvel para uma posição segura de transporte;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 344100
+    "char_offset": 344984
   },
   {
     "id": "chunk-968",
-    "text": "- h) válvulas de retenção nos cilindros hidráulicos das sapatas estabilizadoras, e válvulas de retenção e contrabalanço ou holding nos cilindros hidráulicos do braço móvel, a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico;",
+    "text": "- l) sistema de operação de emergência que permita a movimentação dos braços e rotação da torre em caso de pane, exceto no caso previsto na alínea “m”; \n- m) recurso para operação de emergência que permita a movimentação dos braços e rotação da torre em caso de ruptura de mangueiras hidráulicas;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 344455
+    "char_offset": 345333
   },
   {
     "id": "chunk-969",
-    "text": "Este texto não substitui o publicado no DOU \n- i) controles dos estabilizadores protegidos contra o uso inadvertido, que retornem à posição neutra quando soltos pelo operador, localizados na base do guindaste, de modo que o operador possa ver os estabilizadores movimentando;",
+    "text": "- n) sistema estabilizador, com indicador de inclinação instalado junto aos comandos dos estabilizadores, em ambos os lados, para mostrar se o equipamento está posicionado dentro dos limites de inclinação permitidos pelo fabricante; \n- o) sistema limitador de momento de carga que, quando alcançado o limite do momento de carga, emita um alerta visual e sonoro automaticamente e impeça o movimento de cargas acima da capacidade máxima do guindaste, bem como bloqueie as funções que aumentem o momento de carga.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 344722
+    "char_offset": 345633
   },
   {
     "id": "chunk-970",
-    "text": "- j) válvula ou chave seletora, junto ao comando dos estabilizadores, que numa posição bloqueie a operação dos estabilizadores e na outra posição, os comandos de movimentação do equipamento de guindar; \n- k) sistema que impeça a operação das sapatas estabilizadoras sem o prévio recolhimento do braço móvel para uma posição segura de transporte;",
+    "text": "- p) ponto para aterramento no equipamento de guindar; \n- q) sistema mecânico e/ou hidráulico, ativo e automático, que promova o nivelamento do cesto, evite seu basculamento e assegure que o nível do cesto não oscile além de 5 graus em relação ao plano horizontal durante os movimentos do braço móvel ao qual o cesto está acoplado.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 345001
+    "char_offset": 346147
   },
   {
     "id": "chunk-971",
-    "text": "- l) sistema de operação de emergência que permita a movimentação dos braços e rotação da torre em caso de pane, exceto no caso previsto na alínea “m”; \n- m) recurso para operação de emergência que permita a movimentação dos braços e rotação da torre em caso de ruptura de mangueiras hidráulicas;",
+    "text": "**3.2** A caçamba ou plataforma deve ser dimensionada para suportar e acomodar o(s) operador(es) e as ferramentas indispensáveis para realização do serviço. \n**3.2.1** As caçambas fabricadas em material não condutivo devem atender às dimensões do Anexo “C” da norma ABNT NBR 16092:2012.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 345350
+    "char_offset": 346482
   },
   {
     "id": "chunk-972",
-    "text": "- n) sistema estabilizador, com indicador de inclinação instalado junto aos comandos dos estabilizadores, em ambos os lados, para mostrar se o equipamento está posicionado dentro dos limites de inclinação permitidos pelo fabricante; \n- o) sistema limitador de momento de carga que, quando alcançado o limite do momento de carga, emita um alerta visual e sonoro automaticamente e impeça o movimento de cargas acima da capacidade máxima do guindaste, bem como bloqueie as funções que aumentem o momento de carga.",
+    "text": "**3.2.2** Plataformas metálicas (condutivas): \na) devem possuir sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR; \nb) quando o acesso à plataforma for por meio de portão, não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 345650
+    "char_offset": 346773
   },
   {
     "id": "chunk-973",
-    "text": "- p) ponto para aterramento no equipamento de guindar; \n- q) sistema mecânico e/ou hidráulico, ativo e automático, que promova o nivelamento do cesto, evite seu basculamento e assegure que o nível do cesto não oscile além de 5 graus em relação ao plano horizontal durante os movimentos do braço móvel ao qual o cesto está acoplado.",
+    "text": "c) possuir o piso com superfície antiderrapante e sistema de drenagem cujas aberturas não permitam a passagem de uma esfera com diâmetro de 15 mm; \nd) possuir degrau, com superfície antiderrapante, para facilitar a entrada do operador quando a altura entre o nível de acesso à plataforma e o piso em que ele se encontra for superior a 0,55 m;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 346164
+    "char_offset": 347164
   },
   {
     "id": "chunk-974",
-    "text": "**3.2** A caçamba ou plataforma deve ser dimensionada para suportar e acomodar o(s) operador(es) e as ferramentas indispensáveis para realização do serviço. \n**3.2.1** As caçambas fabricadas em material não condutivo devem atender às dimensões do Anexo “C” da norma ABNT NBR 16092:2012.",
+    "text": "Este texto não substitui o publicado no DOU \ne) possuir borda com cantos arredondados. \n**3.3** Para serviços em linhas, redes e instalações energizadas com tensões superiores a 1.000V, a caçamba e o equipamento de guindar devem possuir isolamento, garantido o grau de isolamento, categorias A, B ou C, conforme norma ABNT NBR 16092:2012, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 346499
+    "char_offset": 347511
   },
   {
     "id": "chunk-975",
-    "text": "**3.2.2** Plataformas metálicas (condutivas): \na) devem possuir sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR; \nb) quando o acesso à plataforma for por meio de portão, não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental;",
+    "text": "**3.4** Para serviços em linhas, redes e instalações energizadas com tensões iguais ou inferiores a 1.000V, a caçamba deve possuir isolação própria e ser equipada com cuba isolante (liner), garantindo assim o grau de isolamento adequado, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 346790
+    "char_offset": 347977
   },
   {
     "id": "chunk-976",
-    "text": "c) possuir o piso com superfície antiderrapante e sistema de drenagem cujas aberturas não permitam a passagem de uma esfera com diâmetro de 15 mm; \nd) possuir degrau, com superfície antiderrapante, para facilitar a entrada do operador quando a altura entre o nível de acesso à plataforma e o piso em que ele se encontra for superior a 0,55 m;",
+    "text": "**3.5** Para serviços em proximidade de linhas, redes e instalações energizadas ou com possibilidade de energização acidental, em que o trabalhador possa entrar na zona controlada com uma parte do seu corpo ou com extensões condutoras, o equipamento também deve possuir o grau de isolamento adequado, observando-se que:",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 347181
+    "char_offset": 348342
   },
   {
     "id": "chunk-977",
-    "text": "Este texto não substitui o publicado no DOU \ne) possuir borda com cantos arredondados. \n**3.3** Para serviços em linhas, redes e instalações energizadas com tensões superiores a 1.000V, a caçamba e o equipamento de guindar devem possuir isolamento, garantido o grau de isolamento, categorias A, B ou C, conforme norma ABNT NBR 16092:2012, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
+    "text": "- a) caso o trabalho seja realizado próximo a tensões superiores a 1.000 V, a caçamba e o equipamento de guindar devem ser isolados, conforme previsto no subitem 3.3 deste Anexo; \n- b) caso o trabalho seja próximo a tensões igual ou inferiores a 1.000 V, a caçamba deve garantir o isolamento, conforme previsto no subitem 3.4 deste Anexo.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 347528
+    "char_offset": 348665
   },
   {
     "id": "chunk-978",
-    "text": "**3.4** Para serviços em linhas, redes e instalações energizadas com tensões iguais ou inferiores a 1.000V, a caçamba deve possuir isolação própria e ser equipada com cuba isolante (liner), garantindo assim o grau de isolamento adequado, e devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10.",
+    "text": "- c) devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10. \n**3.6** O posto de trabalho do equipamento de guindar, junto aos comandos inferiores, não deve permitir que o operador tenha contato com o solo na execução de serviços em proximidade de energia elétrica.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 347994
+    "char_offset": 349007
   },
   {
     "id": "chunk-979",
-    "text": "**3.5** Para serviços em proximidade de linhas, redes e instalações energizadas ou com possibilidade de energização acidental, em que o trabalhador possa entrar na zona controlada com uma parte do seu corpo ou com extensões condutoras, o equipamento também deve possuir o grau de isolamento adequado, observando-se que:",
+    "text": "**3.6.1** O posto de trabalho deve ser fixado na parte inferior do equipamento de guindar ou no chassi do veículo. \n**3.7** Os equipamentos de guindar que possuam mais de um conjunto de controle inferior devem possuir meios para evitar a operação involuntária dos controles, enquanto um dos controles estiver sendo operado.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 348359
+    "char_offset": 349343
   },
   {
     "id": "chunk-980",
-    "text": "- a) caso o trabalho seja realizado próximo a tensões superiores a 1.000 V, a caçamba e o equipamento de guindar devem ser isolados, conforme previsto no subitem 3.3 deste Anexo; \n- b) caso o trabalho seja próximo a tensões igual ou inferiores a 1.000 V, a caçamba deve garantir o isolamento, conforme previsto no subitem 3.4 deste Anexo.",
+    "text": "**3.8** Em cestos acoplados com duas caçambas, os controles superiores devem estar posicionados ao alcance dos operadores, sem que haja a necessidade de desengatar seu cinto de segurança. \n**3.9** Os controles inferiores do guindaste não devem ser operados com trabalhadores na caçamba, exceto em situações de emergência.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 348682
+    "char_offset": 349670
   },
   {
     "id": "chunk-981",
-    "text": "- c) devem ser adotadas outras medidas de proteção coletivas para a prevenção do risco de choque elétrico, nos termos da NR-10. \n**3.6** O posto de trabalho do equipamento de guindar, junto aos comandos inferiores, não deve permitir que o operador tenha contato com o solo na execução de serviços em proximidade de energia elétrica.",
+    "text": "**3.10** Quando o acesso da caçamba for por meio de portão, este não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental. \nEste texto não substitui o publicado no DOU \n**3.11** O sistema de estabilização deve ser utilizado conforme orientações do fabricante para garantir a estabilidade do conjunto guindaste/cesto.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 349024
+    "char_offset": 349996
   },
   {
     "id": "chunk-982",
-    "text": "**3.6.1** O posto de trabalho deve ser fixado na parte inferior do equipamento de guindar ou no chassi do veículo. \n**3.7** Os equipamentos de guindar que possuam mais de um conjunto de controle inferior devem possuir meios para evitar a operação involuntária dos controles, enquanto um dos controles estiver sendo operado.",
+    "text": "**3.12** O conjunto guindaste/cesto acoplado deve ser ensaiado com carga de 1,5 vezes a capacidade nominal, a ser aplicada no centro da caçamba na sua posição de máximo momento de tombamento, registrado em relatório do ensaio. \n**3.13** Estabilizadores com extensão lateral devem ser projetados para evitar sua abertura involuntária e devem ter o seu curso máximo limitado por batentes mecânicos ou cilindros hidráulicos projetados para esta função.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 349360
+    "char_offset": 350363
   },
   {
     "id": "chunk-983",
-    "text": "**3.8** Em cestos acoplados com duas caçambas, os controles superiores devem estar posicionados ao alcance dos operadores, sem que haja a necessidade de desengatar seu cinto de segurança. \n**3.9** Os controles inferiores do guindaste não devem ser operados com trabalhadores na caçamba, exceto em situações de emergência.",
+    "text": "**3.14** As caçambas dos cestos acoplados devem ter placa de identificação na qual constem, no mínimo, as seguintes informações: \n- a) razão social e CNPJ do fabricante ou importador; \n- b) modelo; \n- c) data de fabricação; \n- d) capacidade nominal de carga;",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 349687
+    "char_offset": 350819
   },
   {
     "id": "chunk-984",
-    "text": "**3.10** Quando o acesso da caçamba for por meio de portão, este não pode permitir a abertura para fora e deve ter sistema de travamento que impeça a abertura acidental. \nEste texto não substitui o publicado no DOU \n**3.11** O sistema de estabilização deve ser utilizado conforme orientações do fabricante para garantir a estabilidade do conjunto guindaste/cesto.",
+    "text": "- e) número de ocupantes; \n- f) eventuais restrições de uso; \n- g) grau de isolação elétrica da caçamba, se aplicável. \n**3.15** As caçambas devem possuir sinalização, atendidos os requisitos desta NR, destacando a capacidade de carga nominal, o número de ocupantes e a tensão máxima de uso, quando aplicável.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 350013
+    "char_offset": 351083
   },
   {
     "id": "chunk-985",
-    "text": "**3.12** O conjunto guindaste/cesto acoplado deve ser ensaiado com carga de 1,5 vezes a capacidade nominal, a ser aplicada no centro da caçamba na sua posição de máximo momento de tombamento, registrado em relatório do ensaio. \n**3.13** Estabilizadores com extensão lateral devem ser projetados para evitar sua abertura involuntária e devem ter o seu curso máximo limitado por batentes mecânicos ou cilindros hidráulicos projetados para esta função.",
+    "text": "**3.16** Os equipamentos de guindar que receberem cestos acoplados para elevação de pessoas devem ser submetidos a ensaios e inspeções periódicas de forma a garantir seu bom funcionamento e sua integridade estrutural. \n**3.16.1** Devem ser realizados ensaios que comprovem a integridade estrutural, tais como ultrassom e/ou emissão acústica, conforme norma ABNT NBR 14768:2015.",
     "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 350380
+    "char_offset": 351396
   },
   {
     "id": "chunk-986",
-    "text": "**3.14** As caçambas dos cestos acoplados devem ter placa de identificação na qual constem, no mínimo, as seguintes informações: \n- a) razão social e CNPJ do fabricante ou importador; \n- b) modelo; \n- c) data de fabricação; \n- d) capacidade nominal de carga;",
-    "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 350836
+    "text": "**3.17** É proibida a movimentação de cargas suspensas no gancho do equipamento de guindar simultaneamente à movimentação de pessoas dentro do cesto acoplado.",
+    "heading": "**4. CESTOS SUSPENSOS**",
+    "char_offset": 351937
   },
   {
     "id": "chunk-987",
-    "text": "- e) número de ocupantes; \n- f) eventuais restrições de uso; \n- g) grau de isolação elétrica da caçamba, se aplicável. \n**3.15** As caçambas devem possuir sinalização, atendidos os requisitos desta NR, destacando a capacidade de carga nominal, o número de ocupantes e a tensão máxima de uso, quando aplicável.",
-    "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 351100
+    "text": "**4.1** Desde que não haja possibilidade de contato ou proximidade com redes energizadas ou com possibilidade de energização, poderá ser utilizado cesto suspenso içado por equipamento de guindar, atendendo aos requisitos mínimos previstos neste Anexo, sem prejuízo do disposto nas demais NRs e normas técnicas oficiais vigentes pertinentes à atividade, nas seguintes situações:",
+    "heading": "**4. CESTOS SUSPENSOS**",
+    "char_offset": 351938
   },
   {
     "id": "chunk-988",
-    "text": "**3.16** Os equipamentos de guindar que receberem cestos acoplados para elevação de pessoas devem ser submetidos a ensaios e inspeções periódicas de forma a garantir seu bom funcionamento e sua integridade estrutural. \n**3.16.1** Devem ser realizados ensaios que comprovem a integridade estrutural, tais como ultrassom e/ou emissão acústica, conforme norma ABNT NBR 14768:2015.",
-    "heading": "**3. CESTOS ACOPLADOS**",
-    "char_offset": 351413
+    "text": "- a) nas atividades onde tecnicamente for inviável o uso de Plataforma de Trabalho \nEste texto não substitui o publicado no DOU \nAéreo - PTA, Cesta Aérea ou Cesto Acoplado; ou \n- b) nas atividades em que o uso de Plataforma de Trabalho Aéreo - PTA, Cesta Aérea ou Cesto Acoplado ou outro processo de trabalho represente maior risco de acidentes para sua realização.",
+    "heading": "**4. CESTOS SUSPENSOS**",
+    "char_offset": 352321
   },
   {
     "id": "chunk-989",
-    "text": "**3.17** É proibida a movimentação de cargas suspensas no gancho do equipamento de guindar simultaneamente à movimentação de pessoas dentro do cesto acoplado.",
+    "text": "**4.2** A utilização de cesto suspenso nas hipóteses previstas no subitem acima, deve ser comprovada por meio de laudo técnico e precedida por análise de risco realizada por Profissional Legalmente Habilitado com respectiva Anotação de Responsabilidade Técnica - ART.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 351954
+    "char_offset": 352689
   },
   {
     "id": "chunk-990",
-    "text": "**4.1** Desde que não haja possibilidade de contato ou proximidade com redes energizadas ou com possibilidade de energização, poderá ser utilizado cesto suspenso içado por equipamento de guindar, atendendo aos requisitos mínimos previstos neste Anexo, sem prejuízo do disposto nas demais NRs e normas técnicas oficiais vigentes pertinentes à atividade, nas seguintes situações:",
+    "text": "**4.3** É proibida a movimentação de pessoas simultaneamente com carga, exceto as ferramentas, equipamentos e materiais para a execução da tarefa acondicionados de forma segura. \n**4.4** As ferramentas, equipamentos e materiais a serem transportados não devem ter dimensões que possam trazer riscos ou desconforto aos trabalhadores.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 351955
+    "char_offset": 352960
   },
   {
     "id": "chunk-991",
-    "text": "- a) nas atividades onde tecnicamente for inviável o uso de Plataforma de Trabalho \nEste texto não substitui o publicado no DOU \nAéreo - PTA, Cesta Aérea ou Cesto Acoplado; ou \n- b) nas atividades em que o uso de Plataforma de Trabalho Aéreo - PTA, Cesta Aérea ou Cesto Acoplado ou outro processo de trabalho represente maior risco de acidentes para sua realização.",
+    "text": "**4.5** O peso total dos trabalhadores, ferramentas, equipamentos e materiais não pode exceder, em nenhum momento, a capacidade de carga nominal da caçamba. \n**4.6** Para os cestos suspensos, o peso total da carga içada, incluindo o moitão, conjunto de cabos, caçamba, trabalhadores, ferramentas e material não deve exceder 50% da capacidade de carga nominal do equipamento de guindar.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 352338
+    "char_offset": 353296
   },
   {
     "id": "chunk-992",
-    "text": "**4.2** A utilização de cesto suspenso nas hipóteses previstas no subitem acima, deve ser comprovada por meio de laudo técnico e precedida por análise de risco realizada por Profissional Legalmente Habilitado com respectiva Anotação de Responsabilidade Técnica - ART.",
+    "text": "**4.7** A utilização de cesto suspenso deverá ser objeto de planejamento formal, contemplando as seguintes etapas: \na) realização de análise de risco; \n- b) especificação dos materiais e ferramentas necessárias; \n- c) elaboração de plano de movimentação de pessoas;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 352706
+    "char_offset": 353687
   },
   {
     "id": "chunk-993",
-    "text": "**4.3** É proibida a movimentação de pessoas simultaneamente com carga, exceto as ferramentas, equipamentos e materiais para a execução da tarefa acondicionados de forma segura. \n**4.4** As ferramentas, equipamentos e materiais a serem transportados não devem ter dimensões que possam trazer riscos ou desconforto aos trabalhadores.",
+    "text": "- d) elaboração de procedimentos operacionais e de emergência; \n- e) emissão de permissão de trabalho para movimentação de pessoas. \n**4.8** A utilização do cesto suspenso deve estar sob a responsabilidade técnica de Profissional Legalmente Habilitado.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 352977
+    "char_offset": 353957
   },
   {
     "id": "chunk-994",
-    "text": "**4.5** O peso total dos trabalhadores, ferramentas, equipamentos e materiais não pode exceder, em nenhum momento, a capacidade de carga nominal da caçamba. \n**4.6** Para os cestos suspensos, o peso total da carga içada, incluindo o moitão, conjunto de cabos, caçamba, trabalhadores, ferramentas e material não deve exceder 50% da capacidade de carga nominal do equipamento de guindar.",
+    "text": "**4.9** A supervisão da operação do cesto suspenso deve ser realizada por Engenheiro de Segurança do Trabalho ou Técnico de Segurança do Trabalho. \n**4.10** A operação contará com a presença física de profissional capacitado em movimentação de carga desde o planejamento até a conclusão.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 353313
+    "char_offset": 354213
   },
   {
     "id": "chunk-995",
-    "text": "**4.7** A utilização de cesto suspenso deverá ser objeto de planejamento formal, contemplando as seguintes etapas: \na) realização de análise de risco; \n- b) especificação dos materiais e ferramentas necessárias; \n- c) elaboração de plano de movimentação de pessoas;",
+    "text": "**4.11** A análise de risco da operação deve prever recurso para realização de operação de emergência com vistas à retirada do trabalhador da caçamba ou plataforma ou seu posicionamento em local seguro em caso de pane do sistema. \nEste texto não substitui o publicado no DOU",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 353704
+    "char_offset": 354504
   },
   {
     "id": "chunk-996",
-    "text": "- d) elaboração de procedimentos operacionais e de emergência; \n- e) emissão de permissão de trabalho para movimentação de pessoas. \n**4.8** A utilização do cesto suspenso deve estar sob a responsabilidade técnica de Profissional Legalmente Habilitado.",
+    "text": "**4.12** A análise de risco deve considerar possíveis interferências no entorno, em particular a operação de outros equipamentos de movimentação, devendo nesse caso ser impedida a movimentação simultânea ou adotado sistema anticolisão, quando utilizadas gruas.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 353974
+    "char_offset": 354781
   },
   {
     "id": "chunk-997",
-    "text": "**4.9** A supervisão da operação do cesto suspenso deve ser realizada por Engenheiro de Segurança do Trabalho ou Técnico de Segurança do Trabalho. \n**4.10** A operação contará com a presença física de profissional capacitado em movimentação de carga desde o planejamento até a conclusão.",
+    "text": "**4.13** Antes de içar os trabalhadores nos cestos suspensos, devem ser realizados testes operacionais de içamento com a caçamba a cada turno e após qualquer mudança de local de instalação, configuração dos equipamentos de içamento, ou do operador.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 354230
+    "char_offset": 355044
   },
   {
     "id": "chunk-998",
-    "text": "**4.11** A análise de risco da operação deve prever recurso para realização de operação de emergência com vistas à retirada do trabalhador da caçamba ou plataforma ou seu posicionamento em local seguro em caso de pane do sistema. \nEste texto não substitui o publicado no DOU",
+    "text": "**4.14** Os testes de içamento devem ser executados para avaliar a correta instalação e configuração dos equipamentos de içamento, o funcionamento dos sistemas de segurança, as capacidades de carga e a existência de qualquer interferência perigosa.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 354521
+    "char_offset": 355295
   },
   {
     "id": "chunk-999",
-    "text": "**4.12** A análise de risco deve considerar possíveis interferências no entorno, em particular a operação de outros equipamentos de movimentação, devendo nesse caso ser impedida a movimentação simultânea ou adotado sistema anticolisão, quando utilizadas gruas.",
+    "text": "**4.15** No içamento de teste, a caçamba deve ser carregada com a carga prevista para o içamento dos trabalhadores e deslocada até a posição em que ocorre o momento de carga máximo da operação planejada. \n**4.16** O cesto suspenso deve ser projetado por Profissional Legalmente Habilitado, contendo as especificações construtivas e a respectiva memória de cálculo, acompanhadas de ART.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 354798
+    "char_offset": 355547
   },
   {
     "id": "chunk-1000",
-    "text": "**4.13** Antes de içar os trabalhadores nos cestos suspensos, devem ser realizados testes operacionais de içamento com a caçamba a cada turno e após qualquer mudança de local de instalação, configuração dos equipamentos de içamento, ou do operador.",
+    "text": "**4.17** Para efeitos de dimensionamento, devem ser considerados a carga nominal com os seguintes coeficientes de segurança: \n- a) cinco para os elementos estruturais da caçamba; \n- b) sete para o sistema de suspensão com um único ponto de sustentação;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 355061
+    "char_offset": 355937
   },
   {
     "id": "chunk-1001",
-    "text": "**4.14** Os testes de içamento devem ser executados para avaliar a correta instalação e configuração dos equipamentos de içamento, o funcionamento dos sistemas de segurança, as capacidades de carga e a existência de qualquer interferência perigosa.",
+    "text": "- c) cinco para os sistemas de suspensão com dois ou mais pontos de sustentação. \n**4.18** A caçamba deve dispor de: \n- a) capacidade mínima de 136 kg; \n- b) sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 355312
+    "char_offset": 356195
   },
   {
     "id": "chunk-1002",
-    "text": "**4.15** No içamento de teste, a caçamba deve ser carregada com a carga prevista para o içamento dos trabalhadores e deslocada até a posição em que ocorre o momento de carga máximo da operação planejada. \n**4.16** O cesto suspenso deve ser projetado por Profissional Legalmente Habilitado, contendo as especificações construtivas e a respectiva memória de cálculo, acompanhadas de ART.",
+    "text": "- c) piso com superfície antiderrapante e sistema de drenagem cujas aberturas não permitam a passagem de uma esfera com diâmetro de 15 mm; \n- d) no mínimo, conjunto estrutural, piso e sistema de proteção contra quedas confeccionados em material metálico;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 355564
+    "char_offset": 356528
   },
   {
     "id": "chunk-1003",
-    "text": "**4.17** Para efeitos de dimensionamento, devem ser considerados a carga nominal com os seguintes coeficientes de segurança: \n- a) cinco para os elementos estruturais da caçamba; \n- b) sete para o sistema de suspensão com um único ponto de sustentação;",
+    "text": "- e) ponto(s) de fixação para ancoragem de cinto de segurança tipo paraquedista em qualquer posição de trabalho, sinalizados e dimensionados em função do número máximo de ocupantes da caçamba e capazes de suportar cargas de impacto em caso de queda;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 355954
+    "char_offset": 356785
   },
   {
     "id": "chunk-1004",
-    "text": "- c) cinco para os sistemas de suspensão com dois ou mais pontos de sustentação. \n**4.18** A caçamba deve dispor de: \n- a) capacidade mínima de 136 kg; \n- b) sistema de proteção contra quedas com no mínimo 990 mm de altura e demais requisitos dos itens dos itens 7, alíneas “a”, “b”, “d” e “e”, 8, 8.1 e 10 do Anexo III desta NR;",
+    "text": "- f) barra fixa no perímetro interno, na altura mínima de 990 mm, com projeção interna mínima de 50 mm a partir do limite do travessão superior do sistema de proteção contra quedas para o apoio e proteção das mãos e capaz de resistir aos esforços mencionados na alínea “g” deste subitem;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 356212
+    "char_offset": 357037
   },
   {
     "id": "chunk-1005",
-    "text": "- c) piso com superfície antiderrapante e sistema de drenagem cujas aberturas não permitam a passagem de uma esfera com diâmetro de 15 mm; \n- d) no mínimo, conjunto estrutural, piso e sistema de proteção contra quedas confeccionados em material metálico;",
+    "text": "Este texto não substitui o publicado no DOU \n- g) portão que não permita a abertura para fora e com sistema de travamento que impeça abertura acidental. \n**4.19** A caçamba deve ter afixada em seu interior placa de identificação indelével de fácil visualização, com no mínimo as seguintes informações:",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 356545
+    "char_offset": 357329
   },
   {
     "id": "chunk-1006",
-    "text": "- e) ponto(s) de fixação para ancoragem de cinto de segurança tipo paraquedista em qualquer posição de trabalho, sinalizados e dimensionados em função do número máximo de ocupantes da caçamba e capazes de suportar cargas de impacto em caso de queda;",
+    "text": "- a) identificação do fabricante; \n- b) data de fabricação; \n- c) capacidade de carga da caçamba em peso e número de ocupantes; \n- d) modelo e número de identificação de caçamba que permita a rastreabilidade do projeto; \n- e) peso do cesto suspenso vazio (caçamba e sistema de suspensão).",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 356802
+    "char_offset": 357637
   },
   {
     "id": "chunk-1007",
-    "text": "- f) barra fixa no perímetro interno, na altura mínima de 990 mm, com projeção interna mínima de 50 mm a partir do limite do travessão superior do sistema de proteção contra quedas para o apoio e proteção das mãos e capaz de resistir aos esforços mencionados na alínea “g” deste subitem;",
+    "text": "**4.20** Sempre que o cesto suspenso sofrer alterações que impliquem em mudança das informações constantes da placa de identificação, esta deve ser atualizada. \n**4.21** O içamento do cesto suspenso somente pode ser feito por meio de cabo de aço, com fitilho de identificação ou sistema para identificação e rastreamento previsto pelo INMETRO - Regulamento de Avaliação da Conformidade para Cabos de Aço de Uso Geral, Portaria INMETRO/MDIC n.º 176, de 16/06/2009.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 357054
+    "char_offset": 357929
   },
   {
     "id": "chunk-1008",
-    "text": "Este texto não substitui o publicado no DOU \n- g) portão que não permita a abertura para fora e com sistema de travamento que impeça abertura acidental. \n**4.19** A caçamba deve ter afixada em seu interior placa de identificação indelével de fácil visualização, com no mínimo as seguintes informações:",
+    "text": "**4.22** É proibida a utilização de correntes, cabos de fibras naturais ou sintéticos no içamento e/ou sustentação do cesto suspenso. \n**4.23** O sistema de suspensão deve minimizar a inclinação devido ao movimento de pessoal na caçamba e não deve permitir inclinação de mais de dez graus fora do plano horizontal.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 357346
+    "char_offset": 358396
   },
   {
     "id": "chunk-1009",
-    "text": "- a) identificação do fabricante; \n- b) data de fabricação; \n- c) capacidade de carga da caçamba em peso e número de ocupantes; \n- d) modelo e número de identificação de caçamba que permita a rastreabilidade do projeto; \n- e) peso do cesto suspenso vazio (caçamba e sistema de suspensão).",
+    "text": "**4.24** Os sistemas de suspensão devem ser dedicados, não podendo ser utilizados para outras finalidades, e satisfazer aos seguintes requisitos: \n- a) o sistema de suspensão de cabos com superlaços unidos mecanicamente deve ser projetado com sapatilha em todos os olhais, sendo proibida a utilização de grampos, soquetes tipo cunha, ou nós;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 357654
+    "char_offset": 358714
   },
   {
     "id": "chunk-1010",
-    "text": "**4.20** Sempre que o cesto suspenso sofrer alterações que impliquem em mudança das informações constantes da placa de identificação, esta deve ser atualizada. \n**4.21** O içamento do cesto suspenso somente pode ser feito por meio de cabo de aço, com fitilho de identificação ou sistema para identificação e rastreamento previsto pelo INMETRO - Regulamento de Avaliação da Conformidade para Cabos de Aço de Uso Geral, Portaria INMETRO/MDIC n.º 176, de 16/06/2009.",
+    "text": "- b) o sistema de suspensão de cabos com conexões finais de soquetes com furos deve ser concebido de acordo com as instruções do fabricante; \n- c) todos os sistemas de suspensão de eslinga devem utilizar uma ligação principal para a fixação ao gancho do moitão do equipamento de içamento ou à manilha com porca e contrapino;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 357946
+    "char_offset": 359059
   },
   {
     "id": "chunk-1011",
-    "text": "**4.22** É proibida a utilização de correntes, cabos de fibras naturais ou sintéticos no içamento e/ou sustentação do cesto suspenso. \n**4.23** O sistema de suspensão deve minimizar a inclinação devido ao movimento de pessoal na caçamba e não deve permitir inclinação de mais de dez graus fora do plano horizontal.",
+    "text": "- d) as cargas devem ser distribuídas uniformemente entre os pontos de sustentação do sistema de suspensão; \n- e) o conjunto de cabos (superlaços) destinado a suspender a caçamba deve ter sua carga nominal identificada; \n- f) manilhas, se usadas no sistema de suspensão, devem ser do tipo com porca e contrapino;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 358413
+    "char_offset": 359388
   },
   {
     "id": "chunk-1012",
-    "text": "**4.24** Os sistemas de suspensão devem ser dedicados, não podendo ser utilizados para outras finalidades, e satisfazer aos seguintes requisitos: \n- a) o sistema de suspensão de cabos com superlaços unidos mecanicamente deve ser projetado com sapatilha em todos os olhais, sendo proibida a utilização de grampos, soquetes tipo cunha, ou nós;",
+    "text": "Este texto não substitui o publicado no DOU \n- g) deve haver um elemento reserva entre o gancho do moitão e as eslingas do sistema de suspensão, de forma a garantir a continuidade de sustentação do sistema em caso de rompimento do primeiro elemento;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 358731
+    "char_offset": 359704
   },
   {
     "id": "chunk-1013",
-    "text": "- b) o sistema de suspensão de cabos com conexões finais de soquetes com furos deve ser concebido de acordo com as instruções do fabricante; \n- c) todos os sistemas de suspensão de eslinga devem utilizar uma ligação principal para a fixação ao gancho do moitão do equipamento de içamento ou à manilha com porca e contrapino;",
+    "text": "- h) os ganchos devem ser dotados de sistema distorcedor e trava de segurança; \n- i) os cabos e suas conexões devem atender aos requisitos da norma ABNT NBR 11900 - Extremidades de laços de cabos de aço. \n**4.25** Quando a análise de risco indicar a necessidade de estabilização da caçamba por auxiliar externo, esta deve ser feita por meio de elementos de material não condutor, vedado o uso de fibras naturais.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 359076
+    "char_offset": 359958
   },
   {
     "id": "chunk-1014",
-    "text": "- d) as cargas devem ser distribuídas uniformemente entre os pontos de sustentação do sistema de suspensão; \n- e) o conjunto de cabos (superlaços) destinado a suspender a caçamba deve ter sua carga nominal identificada; \n- f) manilhas, se usadas no sistema de suspensão, devem ser do tipo com porca e contrapino;",
+    "text": "**4.26** O equipamento de guindar utilizado para movimentar pessoas no cesto suspenso deve possuir, no mínimo: \n- a) anemômetro que emita alerta visual e sonoro para o operador do equipamento de guindar quando for detectada a incidência de vento com velocidade igual ou superior a 35 km/h;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 359405
+    "char_offset": 360374
   },
   {
     "id": "chunk-1015",
-    "text": "Este texto não substitui o publicado no DOU \n- g) deve haver um elemento reserva entre o gancho do moitão e as eslingas do sistema de suspensão, de forma a garantir a continuidade de sustentação do sistema em caso de rompimento do primeiro elemento;",
+    "text": "- b) indicadores do raio e do ângulo de operação da lança, com dispositivos automáticos de interrupção de movimentos (dispositivo limitador de momento de carga) que emitam um alerta visual e sonoro automaticamente e impeçam o movimento de cargas acima da capacidade máxima do guindaste;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 359721
+    "char_offset": 360666
   },
   {
     "id": "chunk-1016",
-    "text": "- h) os ganchos devem ser dotados de sistema distorcedor e trava de segurança; \n- i) os cabos e suas conexões devem atender aos requisitos da norma ABNT NBR 11900 - Extremidades de laços de cabos de aço. \n**4.25** Quando a análise de risco indicar a necessidade de estabilização da caçamba por auxiliar externo, esta deve ser feita por meio de elementos de material não condutor, vedado o uso de fibras naturais.",
+    "text": "- c) indicadores de níveis longitudinal e transversal; \n- d) limitador de altura de subida do moitão que interrompa a ascensão do mesmo ao atingir a altura previamente ajustada; \n- e) dispositivo de tração de subida e descida do moitão que impeça a descida da caçamba ou plataforma em queda livre (banguela);",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 359975
+    "char_offset": 360957
   },
   {
     "id": "chunk-1017",
-    "text": "**4.26** O equipamento de guindar utilizado para movimentar pessoas no cesto suspenso deve possuir, no mínimo: \n- a) anemômetro que emita alerta visual e sonoro para o operador do equipamento de guindar quando for detectada a incidência de vento com velocidade igual ou superior a 35 km/h;",
+    "text": "- f) ganchos com identificação e travas de segurança; \n- g) aterramento elétrico; \n- h) válvulas hidráulicas em todos os cilindros hidráulicos a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico, quando utilizado guindastes;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 360391
+    "char_offset": 361270
   },
   {
     "id": "chunk-1018",
-    "text": "- b) indicadores do raio e do ângulo de operação da lança, com dispositivos automáticos de interrupção de movimentos (dispositivo limitador de momento de carga) que emitam um alerta visual e sonoro automaticamente e impeçam o movimento de cargas acima da capacidade máxima do guindaste;",
+    "text": "- i) controles que devem voltar para a posição neutra quando liberados pelo operador; \n- j) dispositivo de parada de emergência; \n- k) dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min).",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 360683
+    "char_offset": 361537
   },
   {
     "id": "chunk-1019",
-    "text": "- c) indicadores de níveis longitudinal e transversal; \n- d) limitador de altura de subida do moitão que interrompa a ascensão do mesmo ao atingir a altura previamente ajustada; \n- e) dispositivo de tração de subida e descida do moitão que impeça a descida da caçamba ou plataforma em queda livre (banguela);",
+    "text": "**4.27** Em caso de utilização de grua, esta deve possuir, no mínimo: \n- a) limitador de momento máximo, por meio de sistema de segurança monitorado por interface de segurança; \n- b) limitador de carga máxima para bloqueio do dispositivo de elevação, por meio de sistema de segurança monitorado por interface de segurança;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 360974
+    "char_offset": 361847
   },
   {
     "id": "chunk-1020",
-    "text": "- f) ganchos com identificação e travas de segurança; \n- g) aterramento elétrico; \n- h) válvulas hidráulicas em todos os cilindros hidráulicos a fim de evitar movimentos indesejáveis em caso de perda de pressão no sistema hidráulico, quando utilizado guindastes;",
+    "text": "Este texto não substitui o publicado no DOU \n- c) limitador de fim de curso para o carro da lança nas duas extremidades, por meio de sistema de segurança monitorado por interface de segurança; \n- d) limitador de altura que permita frenagem segura para o moitão, por meio de sistema de segurança monitorado por interface de segurança;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 361287
+    "char_offset": 362174
   },
   {
     "id": "chunk-1021",
-    "text": "- i) controles que devem voltar para a posição neutra quando liberados pelo operador; \n- j) dispositivo de parada de emergência; \n- k) dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min).",
+    "text": "- e) alarme sonoro para ser acionado pelo operador em situações de risco e alerta, bem como de acionamento automático, quando o limitador de carga ou momento estiver atuando; \n- f) placas indicativas de carga admissível ao longo da lança, conforme especificado pelo fabricante;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 361554
+    "char_offset": 362511
   },
   {
     "id": "chunk-1022",
-    "text": "**4.27** Em caso de utilização de grua, esta deve possuir, no mínimo: \n- a) limitador de momento máximo, por meio de sistema de segurança monitorado por interface de segurança; \n- b) limitador de carga máxima para bloqueio do dispositivo de elevação, por meio de sistema de segurança monitorado por interface de segurança;",
+    "text": "- g) luz de obstáculo (lâmpada piloto); \n- h) trava de segurança no gancho do moitão; \n- i) cabos-guia para fixação do cabo de segurança para acesso à torre, lança e contralança; \n- j) limitador de giro, quando a grua não dispuser de coletor elétrico;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 361864
+    "char_offset": 362794
   },
   {
     "id": "chunk-1023",
-    "text": "Este texto não substitui o publicado no DOU \n- c) limitador de fim de curso para o carro da lança nas duas extremidades, por meio de sistema de segurança monitorado por interface de segurança; \n- d) limitador de altura que permita frenagem segura para o moitão, por meio de sistema de segurança monitorado por interface de segurança;",
+    "text": "- k) anemômetro que emita alerta visual e sonoro para o operador do equipamento de guindar quando for detectada a incidência de vento com velocidade igual ou superior a 35 km/h; \n- l) dispositivo instalado nas polias que impeça o escape acidental do cabo de aço;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 362191
+    "char_offset": 363049
   },
   {
     "id": "chunk-1024",
-    "text": "- e) alarme sonoro para ser acionado pelo operador em situações de risco e alerta, bem como de acionamento automático, quando o limitador de carga ou momento estiver atuando; \n- f) placas indicativas de carga admissível ao longo da lança, conforme especificado pelo fabricante;",
+    "text": "- m) limitador de curso de movimentação de gruas sobre trilhos, por meio de sistema de segurança monitorado por interface de segurança; \n- n) limitadores de curso para o movimento da lança - item obrigatório para gruas de lança móvel ou retrátil; \n- o) aterramento elétrico;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 362528
+    "char_offset": 363316
   },
   {
     "id": "chunk-1025",
-    "text": "- g) luz de obstáculo (lâmpada piloto); \n- h) trava de segurança no gancho do moitão; \n- i) cabos-guia para fixação do cabo de segurança para acesso à torre, lança e contralança; \n- j) limitador de giro, quando a grua não dispuser de coletor elétrico;",
+    "text": "- p) dispositivo de parada de emergência; \n- q) dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min). \n**4.28** É obrigatório, imediatamente antes da movimentação, a realização de:",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 362811
+    "char_offset": 363595
   },
   {
     "id": "chunk-1026",
-    "text": "- k) anemômetro que emita alerta visual e sonoro para o operador do equipamento de guindar quando for detectada a incidência de vento com velocidade igual ou superior a 35 km/h; \n- l) dispositivo instalado nas polias que impeça o escape acidental do cabo de aço;",
+    "text": "- a) reunião de segurança sobre a operação com os envolvidos, contemplando as atividades que serão desenvolvidas, o processo de trabalho, os riscos e as medidas de proteção, conforme análise de risco, consignado num documento a ser arquivado contendo o nome legível e assinatura dos participantes;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 363066
+    "char_offset": 363895
   },
   {
     "id": "chunk-1027",
-    "text": "- m) limitador de curso de movimentação de gruas sobre trilhos, por meio de sistema de segurança monitorado por interface de segurança; \n- n) limitadores de curso para o movimento da lança - item obrigatório para gruas de lança móvel ou retrátil; \n- o) aterramento elétrico;",
+    "text": "- b) inspeção visual do cesto suspenso; \n- c) checagem do funcionamento do rádio; \n- d) confirmação de que os sinais são conhecidos de todos os envolvidos na operação. \n**4.29** A reunião de segurança deve instruir toda a equipe de trabalho, dentre outros envolvidos na operação, no mínimo, sobre os seguintes perigos:",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 363333
+    "char_offset": 364198
   },
   {
     "id": "chunk-1028",
-    "text": "- p) dispositivo de parada de emergência; \n- q) dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min). \n**4.28** É obrigatório, imediatamente antes da movimentação, a realização de:",
+    "text": "- a) impacto com estruturas externas à plataforma; \nEste texto não substitui o publicado no DOU \n- b) movimento inesperado da plataforma; \n- c) queda de altura; \n- d) outros específicos associados com o içamento. \n**4.30** A equipe de trabalho é formada pelo(s) ocupante(s) do cesto, operador do equipamento de guindar, sinaleiro designado e supervisor da operação.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 363612
+    "char_offset": 364524
   },
   {
     "id": "chunk-1029",
-    "text": "- a) reunião de segurança sobre a operação com os envolvidos, contemplando as atividades que serão desenvolvidas, o processo de trabalho, os riscos e as medidas de proteção, conforme análise de risco, consignado num documento a ser arquivado contendo o nome legível e assinatura dos participantes;",
+    "text": "**4.31** A caçamba, o sistema de suspensão e os pontos de fixação devem ser inspecionados, pelo menos, uma vez por dia, antes do uso, por um trabalhador capacitado para esta inspeção. A inspeção deve contemplar no mínimo os itens da Lista de Verificação n.º 1 deste Anexo, os indicados pelo fabricante da caçamba e pelo Profissional Legalmente Habilitado responsável técnico pela utilização do cesto.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 363912
+    "char_offset": 364892
   },
   {
     "id": "chunk-1030",
-    "text": "- b) inspeção visual do cesto suspenso; \n- c) checagem do funcionamento do rádio; \n- d) confirmação de que os sinais são conhecidos de todos os envolvidos na operação. \n**4.29** A reunião de segurança deve instruir toda a equipe de trabalho, dentre outros envolvidos na operação, no mínimo, sobre os seguintes perigos:",
+    "text": "**4.32** Quaisquer condições encontradas que constituam perigo devem ser corrigidas antes do içamento do pessoal. \n**4.33** As inspeções devem ser registradas em documentos específicos, podendo ser adotado meio eletrônico. \n**4.34** A equipe de trabalho deve portar rádio comunicador operando em faixa segura e exclusiva.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 364215
+    "char_offset": 365297
   },
   {
     "id": "chunk-1031",
-    "text": "- a) impacto com estruturas externas à plataforma; \nEste texto não substitui o publicado no DOU \n- b) movimento inesperado da plataforma; \n- c) queda de altura; \n- d) outros específicos associados com o içamento. \n**4.30** A equipe de trabalho é formada pelo(s) ocupante(s) do cesto, operador do equipamento de guindar, sinaleiro designado e supervisor da operação.",
+    "text": "**4.35** Os ocupantes do cesto devem portar um rádio comunicador para operação e um rádio adicional no cesto. \n**4.36** Deve haver comunicação permanente entre os ocupantes do cesto e o operador de guindaste. \n**4.37** Se houver interrupção da comunicação entre o operador do equipamento de guindar e o trabalhador ocupante do cesto, a movimentação do cesto deve ser interrompida até que a comunicação seja restabelecida.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 364541
+    "char_offset": 365623
   },
   {
     "id": "chunk-1032",
-    "text": "**4.31** A caçamba, o sistema de suspensão e os pontos de fixação devem ser inspecionados, pelo menos, uma vez por dia, antes do uso, por um trabalhador capacitado para esta inspeção. A inspeção deve contemplar no mínimo os itens da Lista de Verificação n.º 1 deste Anexo, os indicados pelo fabricante da caçamba e pelo Profissional Legalmente Habilitado responsável técnico pela utilização do cesto.",
+    "text": "**4.38** Os sinais de mão devem seguir regras internacionais, podendo ser criados sinais adicionais desde que sejam conhecidos pela equipe e não entrem em conflito com os já estabelecidos pela regra internacional. \n**4.39** Placas ou cartazes contendo a representação dos sinais de mão devem ser afixados de modo visível dentro da caçamba e em quaisquer locais de controle e sinalização de movimento do cesto suspenso.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 364909
+    "char_offset": 366048
   },
   {
     "id": "chunk-1033",
-    "text": "**4.32** Quaisquer condições encontradas que constituam perigo devem ser corrigidas antes do içamento do pessoal. \n**4.33** As inspeções devem ser registradas em documentos específicos, podendo ser adotado meio eletrônico. \n**4.34** A equipe de trabalho deve portar rádio comunicador operando em faixa segura e exclusiva.",
+    "text": "**4.40** Dentre os ocupantes do cesto, pelo menos um trabalhador deve ser capacitado em código de sinalização de movimentação de carga. \n**4.41** É proibido o trabalho durante tempestades com descargas elétricas ou em condições climáticas adversas ou qualquer outra condição metrológica que possa afetar a segurança dos trabalhadores.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 365314
+    "char_offset": 366470
   },
   {
     "id": "chunk-1034",
-    "text": "**4.35** Os ocupantes do cesto devem portar um rádio comunicador para operação e um rádio adicional no cesto. \n**4.36** Deve haver comunicação permanente entre os ocupantes do cesto e o operador de guindaste. \n**4.37** Se houver interrupção da comunicação entre o operador do equipamento de guindar e o trabalhador ocupante do cesto, a movimentação do cesto deve ser interrompida até que a comunicação seja restabelecida.",
+    "text": "Este texto não substitui o publicado no DOU \n**4.42** Na utilização do cesto suspenso, deve ser garantido distanciamento das redes energizadas. \n5. Os sistemas de segurança previstos neste Anexo devem atingir a performance de segurança com a combinação de componentes de diferentes tecnologias (ex: mecânica, hidráulica, pneumática e eletrônica), e da seleção da categoria de cada componente levando em consideração a tecnologia usada.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 365640
+    "char_offset": 366809
   },
   {
     "id": "chunk-1035",
-    "text": "**4.38** Os sinais de mão devem seguir regras internacionais, podendo ser criados sinais adicionais desde que sejam conhecidos pela equipe e não entrem em conflito com os já estabelecidos pela regra internacional. \n**4.39** Placas ou cartazes contendo a representação dos sinais de mão devem ser afixados de modo visível dentro da caçamba e em quaisquer locais de controle e sinalização de movimento do cesto suspenso.",
+    "text": "_6._ Toda documentação prevista neste Anexo deve permanecer no estabelecimento à disposição dos Auditores Fiscais do Trabalho, dos representantes da Comissão Interna de Prevenção de Acidentes - CIPA e dos representantes das Entidades Sindicais representativas da categoria, sendo arquivada por um período mínimo de 5 (cinco) anos. _(redação vigente até 19 de março de 2023)_",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 366065
+    "char_offset": 367247
   },
   {
     "id": "chunk-1036",
-    "text": "**4.40** Dentre os ocupantes do cesto, pelo menos um trabalhador deve ser capacitado em código de sinalização de movimentação de carga. \n**4.41** É proibido o trabalho durante tempestades com descargas elétricas ou em condições climáticas adversas ou qualquer outra condição metrológica que possa afetar a segurança dos trabalhadores.",
+    "text": "**_6._** Toda documentação prevista neste Anexo deve permanecer no estabelecimento à disposição dos Auditores Fiscais do Trabalho, dos representantes da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA e dos representantes das Entidades Sindicais representativas da categoria, sendo arquivada por um período mínimo de 5 (cinco) anos. _(Portaria MTP nº 4.219, de 20 de dezembro de 2022 - redação que entra em vigor no dia 20 de março de 2023)_",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 366487
+    "char_offset": 367624
   },
   {
     "id": "chunk-1037",
-    "text": "Este texto não substitui o publicado no DOU \n**4.42** Na utilização do cesto suspenso, deve ser garantido distanciamento das redes energizadas. \n5. Os sistemas de segurança previstos neste Anexo devem atingir a performance de segurança com a combinação de componentes de diferentes tecnologias (ex: mecânica, hidráulica, pneumática e eletrônica), e da seleção da categoria de cada componente levando em consideração a tecnologia usada.",
+    "text": "**7.** Para operações específicas de transbordo em plataformas marítimas, deve ser utilizada a cesta de transferência homologada pela Diretoria de Portos e Costas - DPC da Marinha do Brasil. \n**7.1** A equipe de trabalho deve ser capacitada com Curso Básico de Segurança de Plataforma (NORMAM 24) e portar colete salva-vidas.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 366826
+    "char_offset": 368084
   },
   {
     "id": "chunk-1038",
-    "text": "_6._ Toda documentação prevista neste Anexo deve permanecer no estabelecimento à disposição dos Auditores Fiscais do Trabalho, dos representantes da Comissão Interna de Prevenção de Acidentes - CIPA e dos representantes das Entidades Sindicais representativas da categoria, sendo arquivada por um período mínimo de 5 (cinco) anos. _(redação vigente até 19 de março de 2023)_",
+    "text": "**7.2** Devem ser realizados procedimentos de adequação da embarcação, área livre de convés e condições ambientais. \n**7.3** O uso de Cesto Suspenso para o transbordo de pessoas entre cais e embarcação, deve atender, adicionalmente, aos seguintes requisitos:",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 367264
+    "char_offset": 368413
   },
   {
     "id": "chunk-1039",
-    "text": "**_6._** Toda documentação prevista neste Anexo deve permanecer no estabelecimento à disposição dos Auditores Fiscais do Trabalho, dos representantes da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA e dos representantes das Entidades Sindicais representativas da categoria, sendo arquivada por um período mínimo de 5 (cinco) anos. _(Portaria MTP nº 4.219, de 20 de dezembro de 2022 - redação que entra em vigor no dia 20 de março de 2023)_",
+    "text": "- a) deve ser emitida uma Permissão de Trabalho para a operação, cujo prazo de validade será, no máximo, aquele da jornada de trabalho do operador do equipamento de guindar; \n- b) deve ser registrado o nome de cada transbordado; \n- c) deve ser realizada, antes da entrada dos transbordados na caçamba, tanto a bordo da embarcação quanto no cais, uma instrução de segurança sobre as regras a serem observadas pelos mesmos durante o transbordo;",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 367641
+    "char_offset": 368676
   },
   {
     "id": "chunk-1040",
-    "text": "**7.** Para operações específicas de transbordo em plataformas marítimas, deve ser utilizada a cesta de transferência homologada pela Diretoria de Portos e Costas - DPC da Marinha do Brasil. \n**7.1** A equipe de trabalho deve ser capacitada com Curso Básico de Segurança de Plataforma (NORMAM 24) e portar colete salva-vidas.",
+    "text": "- d) para atividades sobre a água, todas as pessoas transbordadas devem utilizar coletes salva-vidas homologados pela Diretoria de Portos e Costas da Marinha do Brasil. \n**8.** Serviços de manutenção de instalações energizadas de linhas de transmissão e barramentos energizados para trabalhos ao potencial devem atender aos requisitos de segurança previstos na NR-10.",
     "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 368101
+    "char_offset": 369122
   },
   {
     "id": "chunk-1041",
-    "text": "**7.2** Devem ser realizados procedimentos de adequação da embarcação, área livre de convés e condições ambientais. \n**7.3** O uso de Cesto Suspenso para o transbordo de pessoas entre cais e embarcação, deve atender, adicionalmente, aos seguintes requisitos:",
-    "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 368430
+    "text": "Este texto não substitui o publicado no DOU",
+    "heading": "**Lista de verificação Nº 1**",
+    "char_offset": 369538
   },
   {
     "id": "chunk-1042",
-    "text": "- a) deve ser emitida uma Permissão de Trabalho para a operação, cujo prazo de validade será, no máximo, aquele da jornada de trabalho do operador do equipamento de guindar; \n- b) deve ser registrado o nome de cada transbordado; \n- c) deve ser realizada, antes da entrada dos transbordados na caçamba, tanto a bordo da embarcação quanto no cais, uma instrução de segurança sobre as regras a serem observadas pelos mesmos durante o transbordo;",
-    "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 368693
+    "text": "Este texto não substitui o publicado no DOU \nFORMULÁRIO DE PLANEJAMENTO E AUTORIZAÇÃO DE IÇAMENTO DE CESTO SUSPENSO<br>1.  Local: Data:  /  /<br>2.  Finalidade de içamento:<br>3.  Fabricante dos Equipamentos de içamento: Modelo: n.º:  N.º de Série:<br>4.  Raio de Operação:  (máximo);  (no local de obra)<br>5.  (A) Capacidade nominal no raio de operação:<br>(B) Carga máxima de ocupantes:  (50% de 5(A))<br>6.  Identificação do cesto: Capacidade nominal da carga:  Capacidade máxima de ocupantes:<br>7.  Peso do cesto:<br>8.  (A) N.º de ocupantes do cesto: (B) Peso total (com equipamentos):<br>9.  Peso total do içamento:  (7+8(B) (não além de 5(B) acima)<br>10.  Supervisor do içamento pessoal:<br>11.  Quais são as alternativas para este içamento de pessoal?<br>12.  Por que elas não estão sendo usadas?<br>13.  Instrução de pré-içamento feita:  (dia e hora)<br>Participantes:<br>14.  Perigos antecipados (vento, condições climáticas, visibilidade, linhas de transmissão de alta tensão):<br>15.  Data da realização do içamento:  /  / Hora:<br>16.  Observações:<br>/  /<br>Assinatura e data do Autorizador de Içamento de Pessoal<br><!-- End of picture text -->",
+    "heading": "**Lista de verificação Nº 1**",
+    "char_offset": 369571
   },
   {
     "id": "chunk-1043",
-    "text": "- d) para atividades sobre a água, todas as pessoas transbordadas devem utilizar coletes salva-vidas homologados pela Diretoria de Portos e Costas da Marinha do Brasil. \n**8.** Serviços de manutenção de instalações energizadas de linhas de transmissão e barramentos energizados para trabalhos ao potencial devem atender aos requisitos de segurança previstos na NR-10.",
-    "heading": "**4. CESTOS SUSPENSOS**",
-    "char_offset": 369139
-  },
-  {
-    "id": "chunk-1044",
-    "text": "Este texto não substitui o publicado no DOU",
-    "heading": "**Lista de verificação Nº 1**",
-    "char_offset": 369555
-  },
-  {
-    "id": "chunk-1045",
-    "text": "Este texto não substitui o publicado no DOU \nFORMULÁRIO DE PLANEJAMENTO E AUTORIZAÇÃO DE IÇAMENTO DE CESTO SUSPENSO<br>1.  Local: Data:  /  /<br>2.  Finalidade de içamento:<br>3.  Fabricante dos Equipamentos de içamento: Modelo: n.º:  N.º de Série:<br>4.  Raio de Operação:  (máximo);  (no local de obra)<br>5.  (A) Capacidade nominal no raio de operação:<br>(B) Carga máxima de ocupantes:  (50% de 5(A))<br>6.  Identificação do cesto: Capacidade nominal da carga:  Capacidade máxima de ocupantes:<br>7.  Peso do cesto:<br>8.  (A) N.º de ocupantes do cesto: (B) Peso total (com equipamentos):<br>9.  Peso total do içamento:  (7+8(B) (não além de 5(B) acima)<br>10.  Supervisor do içamento pessoal:<br>11.  Quais são as alternativas para este içamento de pessoal?<br>12.  Por que elas não estão sendo usadas?<br>13.  Instrução de pré-içamento feita:  (dia e hora)<br>Participantes:<br>14.  Perigos antecipados (vento, condições climáticas, visibilidade, linhas de transmissão de alta tensão):<br>15.  Data da realização do içamento:  /  / Hora:<br>16.  Observações:<br>/  /<br>Assinatura e data do Autorizador de Içamento de Pessoal<br><!-- End of picture text -->",
-    "heading": "**Lista de verificação Nº 1**",
-    "char_offset": 369588
-  },
-  {
-    "id": "chunk-1046",
     "text": "165",
     "heading": "**Lista de verificação Nº 1**",
-    "char_offset": 370754
+    "char_offset": 370737
   }
 ]

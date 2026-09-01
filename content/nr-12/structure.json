@@ -3314,27 +3314,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Capacidade de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Detecção mm | Distância Adicional C mm |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n|  14"
-        },
-        {
-          "type": "paragraph",
-          "text": "> 14  20 > 20  30 | 0 80 130 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| > 30  40"
-        },
-        {
-          "type": "paragraph",
-          "text": "> 40 | 240 850 |"
+          "markdown": "| Capacidade de Detecção mm | Distância Adicional C mm |\n| --- | --- |\n|  14 > 14  20 > 20  30 | 0 80 130 |\n| > 30  40 > 40 | 240 850 |"
         },
         {
           "type": "item",
@@ -14107,31 +14087,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Tipo de máquina | Item 9"
-        },
-        {
-          "type": "paragraph",
-          "text": "Estrutura de proteção na capotagem EPC | Item 9 Cinto de segurança | Subitem 6.8 Proteção contra projeção do material em processamento | Item 8 Sinal sonoro de ré acoplados ao sistema de transmissão e espelho retrovisor | Item 8 Faróis, buzina e lanternas traseiras de posição |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros"
-        },
-        {
-          "type": "paragraph",
-          "text": "microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | X | X | X | X | X |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Pulverizadores"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidos | X |  |  |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Adubadoras | X |  | X |  |  |"
+          "markdown": "| Tipo de máquina | Item 9 Estrutura de proteção na capotagem EPC | Item 9 Cinto de segurança | Subitem 6.8 Proteção contra projeção do material em processamento | Item 8 Sinal sonoro de ré acoplados ao sistema de transmissão e espelho retrovisor | Item 8 Faróis, buzina e lanternas traseiras de posição |\n| --- | --- | --- | --- | --- | --- |\n| Motocultivadores | X | X | X | X | X |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | X | X | X | X | X |\n| Pulverizadores autopropelidos | X | | | | |\n| Adubadoras | X | | X | | |"
         },
         {
           "type": "paragraph",
@@ -14143,107 +14099,11 @@
         },
         {
           "type": "table",
-          "markdown": "| autopropelidas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "tracionadas |  |  |  |  |  |"
+          "markdown": "| autopropelidas e tracionadas | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Colhedoras de grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X | | X | | |\n| Escavadeiras Hidráulicas | X | | | | |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma porta- implementos (acoplável ao motocultivador) | X | X | X | X | X |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- | --- | --- | --- |\n| Colhedoras de"
-        },
-        {
-          "type": "paragraph",
-          "text": "grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X |  | X |  |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Escavadeiras Hidráulicas | X |  |  |  |  |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma portaimplementos (acoplável"
-        },
-        {
-          "type": "paragraph",
-          "text": "ao motocultivador) | X | X | X | X | X |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Máquina - implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com"
-        },
-        {
-          "type": "paragraph",
-          "text": "aplicação. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Outros microtratores e"
-        },
-        {
-          "type": "paragraph",
-          "text": "cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Adubadoras tracionadas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de"
-        },
-        {
-          "type": "paragraph",
-          "text": "corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de cana-de-açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada"
-        },
-        {
-          "type": "paragraph",
-          "text": "(unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de algodão | Área de recolhimento da fibra do algodão;"
-        },
-        {
-          "type": "paragraph",
-          "text": "Área de descarregamento do fardo de algodão. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis,"
-        },
-        {
-          "type": "paragraph",
-          "text": "transportadores e descarregamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis,"
-        },
-        {
-          "type": "paragraph",
-          "text": "transportadores e descarregamento. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Escavadeiras hidráulicas, feller"
-        },
-        {
-          "type": "paragraph",
-          "text": "bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Forrageiras tracionadas e"
-        },
-        {
-          "type": "paragraph",
-          "text": "autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |"
+          "markdown": "| Máquina - implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com aplicação. |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600 kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |\n| Adubadoras tracionadas e autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |\n| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de-açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |\n| Colhedoras de algodão | Área de recolhimento da fibra do algodão; Área de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Escavadeiras hidráulicas, feller bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |\n| Forrageiras tracionadas e autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |"
         }
       ]
     },
@@ -14316,15 +14176,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes;"
-        },
-        {
-          "type": "paragraph",
-          "text": "Linhas de plantio e seus componentes; Área de distribuição de sementes e adubos; Transmissões acionadas somente quando a máquina estiver em movimento de deslocamento, exceto quanto às faces laterais. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |"
+          "markdown": "| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de plantio e seus componentes; Área de distribuição de sementes e adubos; Transmissões acionadas somente quando a máquina estiver em movimento de deslocamento, exceto quanto às faces laterais. |\n| --- | --- |"
         },
         {
           "type": "paragraph",

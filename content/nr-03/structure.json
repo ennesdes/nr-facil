@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Alterações/Atualizações**|**D.O.U.**|\n|---|---|\n|Portaria SSMT n.º06, de 09 de março de 1983<br>|14/03/83|\n|Portaria SIT n.º199, de 17 de janeiro de 2011<br>|19/01/11|\n|Portaria SEPRT n.º1.068, de 23 de setembro de 2019|24/09/19|"
+        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSMT n.º06, de 09 de março de 1983<br> | 14/03/83 |\n| Portaria SIT n.º199, de 17 de janeiro de 2011<br> | 19/01/11 |\n| Portaria SEPRT n.º1.068, de 23 de setembro de 2019 | 24/09/19 |"
       },
       {
         "type": "paragraph",
@@ -132,11 +132,11 @@
         },
         {
           "type": "table",
-          "markdown": "|  | CONSEQUÊNCIA |  |  | PRINCÍPIO GERAL |  |\n| --- | --- | --- | --- | --- | --- |\n| MORTE |  |  |  | Pode levar a óbito imediato ou que venha a ocorrer |  |\n|  |  |  |  | posteriormente. |  |\n| SEVERA |  |  |  | Pode prejudicar a integridade física e/ou a saúde, |  |\n|  |  |  |  | provocando lesão ou sequela permanentes. |  |\n| SIGNIFICATIVA |  |  |  | Pode prejudicar a integridade física e/ou a saúde, |  |\n|  |  |  |  | provocando lesão que implique em incapacidade temporária |  |\n|  |  |  |  | por prazo superior a 15 (quinze) dias. |  |\n| LEVE |  |  |  | Pode prejudicar a integridade física e/ou a saúde, |  |\n|  |  |  |  | provocando lesão que implique em incapacidade temporária |  |\n|  |  |  |  | por prazo igual ou inferior a 15 (quinze) dias. |  |\n|  | NENHUMA |  |  | Nenhuma lesão ou efeito à saúde. |  |"
+          "markdown": "| | CONSEQUÊNCIA | | | PRINCÍPIO GERAL | |\n| --- | --- | --- | --- | --- | --- |\n| MORTE | | | | Pode levar a óbito imediato ou que venha a ocorrer | |\n| | | | | posteriormente. | |\n| SEVERA | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão ou sequela permanentes. | |\n| SIGNIFICATIVA | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão que implique em incapacidade temporária | |\n| | | | | por prazo superior a 15 (quinze) dias. | |\n| LEVE | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão que implique em incapacidade temporária | |\n| | | | | por prazo igual ou inferior a 15 (quinze) dias. | |\n| | NENHUMA | | | Nenhuma lesão ou efeito à saúde. | |"
         },
         {
           "type": "table",
-          "markdown": "|  | CLASSIFICAÇÃO |  |  | DESCRIÇÃO |  |\n| --- | --- | --- | --- | --- | --- |\n| PROVÁVEL |  |  |  | Medidas de prevenção inexistentes ou reconhecidamente |  |\n|  |  |  |  | inadequadas. |  |\n|  |  |  |  | Uma consequência é esperada, com grande probabilidade de |  |\n|  |  |  |  | que aconteça ou se realize. |  |\n| POSSÍVEL |  |  |  | Medidas de prevenção apresentam desvios ou problemas |  |\n|  |  |  |  | significativos. Não há garantias de que as medidas sejam |  |\n|  |  |  |  | mantidas. |  |\n|  |  |  |  | Uma consequência talvez aconteça, com possibilidade de que |  |\n|  |  |  |  | se efetive, concebível. |  |\n| REMOTA |  |  |  | Medidas de prevenção adequadas, mas com pequenos |  |\n|  |  |  |  | desvios. Ainda que em funcionamento, não há garantias de |  |\n|  |  |  |  | que sejam mantidas sempre ou a longo prazo. |  |\n|  |  |  |  | Uma consequência é pouco provável que aconteça, quase |  |\n|  |  |  |  | improvável. |  |"
+          "markdown": "| | CLASSIFICAÇÃO | | | DESCRIÇÃO | |\n| --- | --- | --- | --- | --- | --- |\n| PROVÁVEL | | | | Medidas de prevenção inexistentes ou reconhecidamente | |\n| | | | | inadequadas. | |\n| | | | | Uma consequência é esperada, com grande probabilidade de | |\n| | | | | que aconteça ou se realize. | |\n| POSSÍVEL | | | | Medidas de prevenção apresentam desvios ou problemas | |\n| | | | | significativos. Não há garantias de que as medidas sejam | |\n| | | | | mantidas. | |\n| | | | | Uma consequência talvez aconteça, com possibilidade de que | |\n| | | | | se efetive, concebível. | |\n| REMOTA | | | | Medidas de prevenção adequadas, mas com pequenos | |\n| | | | | desvios. Ainda que em funcionamento, não há garantias de | |\n| | | | | que sejam mantidas sempre ou a longo prazo. | |\n| | | | | Uma consequência é pouco provável que aconteça, quase | |\n| | | | | improvável. | |"
         },
         {
           "type": "paragraph",
@@ -218,7 +218,7 @@
         },
         {
           "type": "table",
-          "markdown": "| RARA |  | Medidas de prevenção adequadas e com garantia de |  |\n| --- | --- | --- | --- |\n|  |  | continuidade desta situação. |  |\n|  |  | Uma consequência não é esperada, não é comum sua |  |\n|  |  | ocorrência, extraordinária. |  |"
+          "markdown": "| RARA | | Medidas de prevenção adequadas e com garantia de | |\n| --- | --- | --- | --- |\n| | | continuidade desta situação. | |\n| | | Uma consequência não é esperada, não é comum sua | |\n| | | ocorrência, extraordinária. | |"
         },
         {
           "type": "paragraph",

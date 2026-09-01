@@ -1,662 +1,650 @@
 [
   {
     "id": "chunk-0",
-    "text": "|**Alterações/Atualizações**|**D.O.U.**|\n|---|---|\n|Portaria SSST nº25, de 29 de dezembro de 1994|30/12/94|\n|Portaria MTE nº1.297, de 13 de agosto de 2014|14/08/14|\n|Portaria MTE nº1.471, de 24 de setembro de 2014|25/09/14|\n|Portaria MTb nº1.109, de 21 de setembro de 2016|22/09/16|",
+    "text": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSST nº25, de 29 de dezembro de 1994 | 30/12/94 |\n| Portaria MTE nº1.297, de 13 de agosto de 2014 | 14/08/14 |\n| Portaria MTE nº1.471, de 24 de setembro de 2014 | 25/09/14 |\n| Portaria MTb nº1.109, de 21 de setembro de 2016 | 22/09/16 |",
     "heading": "**Publicação D.O.U.** <u>Portaria MTb nº 3.214, de 08 de junho de 1978</u> 06/07/78",
     "char_offset": 2
   },
   {
     "id": "chunk-1",
-    "text": "|Portaria MTb nº871, de 06 de julho de 2017|07/07/17|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/09/19|\n|Portaria SEPRT nº1.358, de 09 de dezembro de 2019|10/12/19|\n|Portaria SEPRT nº1.359, de 09 de dezembro de 2019|10/12/19|\n|Portaria SEPRT nº6.735, de 10 de março de 2020|12/03/20|",
+    "text": "| Portaria MTb nº871, de 06 de julho de 2017 | 07/07/17 |\n| Portaria SEPRT nº915, de 30 de julho de 2019 | 31/09/19 |\n| Portaria SEPRT nº1.358, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria SEPRT nº1.359, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria SEPRT nº6.735, de 10 de março de 2020 | 12/03/20 |",
     "heading": "**Publicação D.O.U.** <u>Portaria MTb nº 3.214, de 08 de junho de 1978</u> 06/07/78",
-    "char_offset": 285
+    "char_offset": 309
   },
   {
     "id": "chunk-2",
-    "text": "|Portaria SEPRT nº1.295, de 02 de fevereiro de 2021|03/02/21|\n|Portaria SEPRT nº8.873, de 23 de julho de 2021|26/07/21|\n|Portaria MTP nº426, de 07 de outubro de 2021|08/10/21|\n|Portaria MTE nº105, de 29 de janeiro de 2026|30/01/26|\n_(Redação dada pela Portaria SEPRT nº 6.735, de 10 de março de 2020)_",
+    "text": "| Portaria SEPRT nº1.295, de 02 de fevereiro de 2021 | 03/02/21 |\n| Portaria SEPRT nº8.873, de 23 de julho de 2021 | 26/07/21 |\n| Portaria MTP nº426, de 07 de outubro de 2021 | 08/10/21 |\n| Portaria MTE nº105, de 29 de janeiro de 2026 | 30/01/26 |\n_(Redação dada pela Portaria SEPRT nº 6.735, de 10 de março de 2020)_",
     "heading": "**Publicação D.O.U.** <u>Portaria MTb nº 3.214, de 08 de junho de 1978</u> 06/07/78",
-    "char_offset": 576
+    "char_offset": 620
   },
   {
     "id": "chunk-3",
     "text": "9.3 Identificação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos \n9.4 Avaliação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos \n9.5 Medidas de Prevenção e Controle das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos",
     "heading": "9.2 Campo de Aplicação",
-    "char_offset": 885
+    "char_offset": 945
   },
   {
     "id": "chunk-4",
     "text": "9.6 Disposições Transitórias",
     "heading": "**9.1** Objetivo",
-    "char_offset": 1201
+    "char_offset": 1261
   },
   {
     "id": "chunk-5",
     "text": "**9.1.1** Esta Norma Regulamentadora - NR estabelece os requisitos para a avaliação das exposições ocupacionais a agentes físicos, químicos e biológicos quando identificados no Programa de Gerenciamento de Riscos - PGR, previsto na NR-1, e subsidiá-lo quanto às medidas de prevenção para os riscos ocupacionais.",
     "heading": "**9.1** Objetivo",
-    "char_offset": 1202
+    "char_offset": 1262
   },
   {
     "id": "chunk-6",
     "text": "**9.2.1** As medidas de prevenção estabelecidas nesta Norma se aplicam onde houver exposições ocupacionais aos agentes físicos, químicos e biológicos. \nEste texto não substitui o publicado no DOU \n1 \n**9.2.1.1** A abrangência e profundidade das medidas de prevenção dependem das características das exposições e das necessidades de controle.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 1520
+    "char_offset": 1580
   },
   {
     "id": "chunk-7",
     "text": "**9.2.2** Esta NR e seus anexos devem ser utilizados para fins de prevenção e controle dos riscos ocupacionais causados por agentes físicos, químicos e biológicos. \n**9.2.2.1** Para fins de caracterização de atividades ou operações insalubres ou perigosas, devem ser aplicadas as disposições previstas na NR-15 - Atividades e operações insalubres e NR-16 - Atividades e operações perigosas.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 1865
+    "char_offset": 1925
   },
   {
     "id": "chunk-8",
     "text": "**9.3** Identificação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos \n**9.3.1** A identificação das exposições ocupacionais aos agentes físicos, químicos e biológicos deverá considerar: \n- a) descrição das atividades; \n- b) identificação do agente e formas de exposição;",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 2261
+    "char_offset": 2321
   },
   {
     "id": "chunk-9",
     "text": "- c) possíveis lesões ou agravos à saúde relacionados às exposições identificadas; \n- d) fatores determinantes da exposição; \n- e) medidas de prevenção já existentes; e \n- f) identificação dos grupos de trabalhadores expostos. \n**9.4** Avaliação das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 2562
+    "char_offset": 2622
   },
   {
     "id": "chunk-10",
     "text": "**9.4.1** Deve ser realizada análise preliminar das atividades de trabalho e dos dados já disponíveis relativos aos agentes físicos, químicos e biológicos, a fim de determinar a necessidade de adoção direta de medidas de prevenção ou de realização de avaliações qualitativas ou, quando aplicáveis, de avaliações quantitativas.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 2881
+    "char_offset": 2941
   },
   {
     "id": "chunk-11",
     "text": "**9.4.2** A avaliação quantitativa das exposições ocupacionais aos agentes físicos, químicos e biológicos, quando necessária, deverá ser realizada para: \n- a) comprovar o controle da exposição ocupacional aos agentes identificados; \n- b) dimensionar a exposição ocupacional dos grupos de trabalhadores;",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 3212
+    "char_offset": 3272
   },
   {
     "id": "chunk-12",
     "text": "- c) subsidiar o equacionamento das medidas de prevenção. \n**9.4.2.1** A avaliação quantitativa deve ser representativa da exposição ocupacional, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício das suas atividades.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 3518
+    "char_offset": 3578
   },
   {
     "id": "chunk-13",
     "text": "**9.4.3** Os resultados das avaliações das exposições ocupacionais aos agentes físicos, químicos e biológicos devem ser incorporados ao inventário de riscos do PGR. \n**9.4.4** As avaliações das exposições ocupacionais devem ser registradas pela organização, conforme",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 3787
+    "char_offset": 3847
   },
   {
     "id": "chunk-14",
     "text": "Este texto não substitui o publicado no DOU \n2 \nos aspectos específicos constantes nos Anexos desta NR. \n**9.5** Medidas de Prevenção e Controle das Exposições Ocupacionais aos Agentes Físicos, Químicos e Biológicos \n**9.5.1** As medidas de prevenção e controle das exposições ocupacionais referentes a cada agente físico, químico e biológico estão estabelecidas nos Anexos desta NR.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 4060
+    "char_offset": 4120
   },
   {
     "id": "chunk-15",
     "text": "**9.5.2** Devem ser adotadas as medidas necessárias para a eliminação ou o controle das exposições ocupacionais relacionados aos agentes físicos, químicos e biológicos, de acordo com os critérios estabelecidos nos Anexos desta NR, em conformidade com o PGR.",
     "heading": "**9.2** Campo de Aplicação",
-    "char_offset": 4446
+    "char_offset": 4506
   },
   {
     "id": "chunk-16",
     "text": "**9.5.3** As medidas de prevenção e controle das exposições ocupacionais integram os controles dos riscos do PGR e devem ser incorporados ao Plano de Ação.",
     "heading": "**9.6** Disposições Transitórias",
-    "char_offset": 4864
+    "char_offset": 4924
   },
   {
     "id": "chunk-17",
     "text": "**9.6.1** Enquanto não forem estabelecidos os Anexos a esta Norma, devem ser adotados para fins de medidas de prevenção: \na) os critérios e limites de tolerância constantes na NR-15 e seus anexos; \nb) como nível de ação para agentes químicos, a metade dos limites de tolerância;",
     "heading": "**9.6** Disposições Transitórias",
-    "char_offset": 4867
+    "char_offset": 4927
   },
   {
     "id": "chunk-18",
     "text": "c) como nível de ação para o agente físico ruído, a metade da dose. \n**9.6.1.1** Na ausência de limites de tolerância previstos na NR-15 e seus anexos, devem ser utilizados como referência para a adoção de medidas de prevenção aqueles previstos pela American Conference of Governmental Industrial Higyenists - ACGIH.",
     "heading": "**9.6** Disposições Transitórias",
-    "char_offset": 5149
+    "char_offset": 5209
   },
   {
     "id": "chunk-19",
     "text": "**9.6.1.2** Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição.",
     "heading": "**<mark>ANEXO I da NR-09 VIBRAÇÃO</mark>**",
-    "char_offset": 5694
+    "char_offset": 5754
   },
   {
     "id": "chunk-20",
     "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_",
     "heading": "**<mark>SUMÁRIO</mark>**",
-    "char_offset": 5761
+    "char_offset": 5821
   },
   {
     "id": "chunk-21",
     "text": "<mark>1. Objetivos</mark> \n<mark>2. Campo de Aplicação</mark> \n<mark>3. Disposições Gerais</mark> \n<mark>4. Avaliação Preliminar da Exposição</mark> \n<mark>5. Avaliação Quantitativa da Exposição</mark> \n<mark>6. Medidas de Prevenção</mark>",
     "heading": "**<mark>1. Objetivos</mark>**",
-    "char_offset": 6009
+    "char_offset": 6069
   },
   {
     "id": "chunk-22",
     "text": "Este texto não substitui o publicado no DOU \n3 \n<mark>1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção.</mark>",
     "heading": "**<mark>1. Objetivos</mark>**",
-    "char_offset": 6012
+    "char_offset": 6072
   },
   {
     "id": "chunk-23",
     "text": "<mark>2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI.</mark>",
     "heading": "**<mark>3. Disposições Gerais</mark>**",
-    "char_offset": 6535
+    "char_offset": 6595
   },
   {
     "id": "chunk-24",
     "text": "<mark>3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis.</mark>",
     "heading": "**<mark>3. Disposições Gerais</mark>**",
-    "char_offset": 6536
+    "char_offset": 6596
   },
   {
     "id": "chunk-25",
     "text": "<mark>3.1.1 No processo de eliminação ou redução dos riscos relacionados à exposição às vibrações mecânicas devem ser considerados, entre outros fatores, os esforços físicos e aspectos posturais.</mark> \n<mark>3.2 A organização deve comprovar, no âmbito das ações de manutenção preventiva e corretiva de veículos, máquinas, equipamentos e ferramentas, a adoção de medidas que visem o controle e a redução da exposição a vibrações.</mark>",
     "heading": "**<mark>3. Disposições Gerais</mark>**",
-    "char_offset": 6832
+    "char_offset": 6892
   },
   {
     "id": "chunk-26",
     "text": "<mark>3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s</mark><sup>2</sup> <mark>nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição.</mark>",
     "heading": "**<mark>3. Disposições Gerais</mark>**",
-    "char_offset": 7272
+    "char_offset": 7332
   },
   {
     "id": "chunk-27",
     "text": "<mark>4.1 Deve ser realizada avaliação preliminar da exposição às VMB e VCI, considerando os seguintes aspectos:</mark> \na) ambientes de trabalho, processos, operações e condições de exposição; \nb) características das máquinas, veículos, ferramentas ou equipamentos de trabalho;",
     "heading": "**<mark>4. Avaliação Preliminar da Exposição</mark>**",
-    "char_offset": 7577
+    "char_offset": 7637
   },
   {
     "id": "chunk-28",
     "text": "c) informações fornecidas por fabricantes sobre os níveis de vibração gerados por ferramentas, <mark>veículos, máquinas ou equipamentos envolvidos na exposição, quando disponíveis;</mark> \nd) condições de uso e estado de conservação de veículos, máquinas, equipamentos e ferramentas, <mark>incluindo componentes ou dispositivos de isolamento e amortecimento que interfiram na exposição de operadores ou condutores;</mark>",
     "heading": "**<mark>4. Avaliação Preliminar da Exposição</mark>**",
-    "char_offset": 7859
+    "char_offset": 7919
   },
   {
     "id": "chunk-29",
     "text": "e) características da superfície de circulação, cargas transportadas e velocidades de operação, no <mark>caso de VCI;</mark> \nf) estimativa de tempo efetivo de exposição diária; \ng) constatação de condições específicas de trabalho que possam contribuir para o agravamento dos <mark>efeitos decorrentes da exposição;</mark>",
     "heading": "**<mark>4. Avaliação Preliminar da Exposição</mark>**",
-    "char_offset": 8285
+    "char_offset": 8345
   },
   {
     "id": "chunk-30",
     "text": "h) esforços físicos e aspectos posturais; \nEste texto não substitui o publicado no DOU \n4 \ni) dados de exposição ocupacional existentes; e \nj) informações ou registros relacionados a queixas e antecedentes médicos relacionados aos <mark>trabalhadores expostos.</mark>",
     "heading": "**<mark>4. Avaliação Preliminar da Exposição</mark>**",
-    "char_offset": 8614
+    "char_offset": 8674
   },
   {
     "id": "chunk-31",
     "text": "<mark>4.2 Os resultados da avaliação preliminar devem subsidiar a adoção de medidas preventivas e corretivas, sem prejuízo de outras medidas previstas nas demais NR.</mark> \n<mark>4.3 Se a avaliação preliminar não for suficiente para permitir a tomada de decisão quanto à necessidade de implantação de medidas preventivas e corretivas, deve-se proceder à avaliação quantitativa da exposição.</mark>",
     "heading": "**<mark>4. Avaliação Preliminar da Exposição</mark>**",
-    "char_offset": 8885
+    "char_offset": 8945
   },
   {
     "id": "chunk-32",
     "text": "<mark>5.1 A avaliação quantitativa deve ser representativa da exposição, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício de suas funções.</mark> \n<mark>5.1.1 Os procedimentos de avaliação quantitativa para VCI e VMB, a serem adotados no âmbito deste anexo, são aqueles estabelecidos nas Normas de Higiene Ocupacional – NHO, publicadas pela FUNDACENTRO.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 9288
+    "char_offset": 9348
   },
   {
     "id": "chunk-33",
     "text": "<mark>5.2 Avaliação quantitativa da exposição dos trabalhadores às VMB.</mark> \n<mark>5.2.1 A avaliação da exposição ocupacional à vibração em mãos e braços deve ser feita utilizando-se sistemas de medição que permitam a obtenção da aceleração resultante de exposição normalizada (aren), parâmetro representativo da exposição diária do trabalhador.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 9702
+    "char_offset": 9762
   },
   {
     "id": "chunk-34",
     "text": "<mark>5.2.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 2,5 m/s</mark><sup>2</sup> <mark>.</mark> \n<mark>5.2.3 O limite de exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 5 m/s</mark><sup>2</sup> <mark>.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 10061
+    "char_offset": 10121
   },
   {
     "id": "chunk-35",
     "text": "<mark>5.2.4 As situações de exposição ocupacional superior ao nível de ação, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 10498
+    "char_offset": 10558
   },
   {
     "id": "chunk-36",
     "text": "<mark>5.2.5 As situações de exposição ocupacional superior ao limite de exposição, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 10762
+    "char_offset": 10822
   },
   {
     "id": "chunk-37",
     "text": "<mark>5.3 Avaliação quantitativa da exposição dos trabalhadores às VCI.</mark> \n<mark>5.3.1 A avaliação da exposição ocupacional à vibração de corpo inteiro deve ser feita utilizando-se sistemas de medição que permitam a determinação da aceleração resultante de exposição</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 11033
+    "char_offset": 11093
   },
   {
     "id": "chunk-38",
     "text": "5 \nEste texto não substitui o publicado no DOU \n<mark>normalizada (aren) e do valor da dose de vibração resultante (VDVR), parâmetros representativos da exposição diária do trabalhador.</mark> \n<mark>5.3.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração de corpo inteiro corresponde a um valor da aceleração resultante de exposição normalizada (aren) de 0,5m/s</mark><sup>2</sup> <mark>, ou ao valor da dose de vibração resultante (VDVR) de 9,1m/s</mark><sup>1,75</sup> <mark>.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 11317
+    "char_offset": 11377
   },
   {
     "id": "chunk-39",
     "text": "<mark>5.3.3 O limite de exposição ocupacional diária à vibração de corpo inteiro corresponde ao:</mark> \na) valor da aceleração resultante de exposição normalizada (aren) de 1,1 m/s<sup>2</sup> ; ou \nb) valor da dose de vibração resultante (VDVR) de 21,0 m/s<sup>1,75</sup> .",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 11834
+    "char_offset": 11894
   },
   {
     "id": "chunk-40",
     "text": "<mark>5.3.3.1 Para fins de caracterização da exposição, a organização deve comprovar a avaliação dos dois parâmetros acima descritos.</mark> \n<mark>5.3.4 As situações de exposição ocupacional superiores ao nível de ação implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>",
     "heading": "**<mark>5. Avaliação Quantitativa da Exposição</mark>**",
-    "char_offset": 12113
+    "char_offset": 12173
   },
   {
     "id": "chunk-41",
     "text": "<mark>5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 12674
+    "char_offset": 12734
   },
   {
     "id": "chunk-42",
     "text": "<mark>6.1 As medidas de prevenção devem contemplar:</mark> \na) avaliação periódica da exposição; \nb) orientação dos trabalhadores quanto aos riscos decorrentes da exposição à vibração e à utilização <mark>adequada dos equipamentos de trabalho, bem como quanto ao direito de comunicar aos seus superiores sobre níveis anormais de vibração observados durante suas atividades;</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 12677
+    "char_offset": 12737
   },
   {
     "id": "chunk-43",
     "text": "c) vigilância da saúde dos trabalhadores focada nos efeitos da exposição à vibração; e \nd) adoção de procedimentos e métodos de trabalho alternativos que permitam reduzir a exposição <mark>a vibrações mecânicas.</mark> \n<mark>6.1.1 As medidas de prevenção descritas neste item não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 13062
+    "char_offset": 13122
   },
   {
     "id": "chunk-44",
     "text": "<mark>6.2 As medidas de caráter corretivo devem contemplar, no mínimo, uma das medidas abaixo, obedecida a hierarquia prevista na alínea “g” do subitem 1.4.1 da NR-01:</mark> \na) no caso de exposição às VMB, modificação do processo ou da operação de trabalho, podendo <mark>envolver: a substituição de ferramentas e acessórios; a reformulação ou a reorganização de bancadas e postos de trabalho; a alteração das rotinas ou dos procedimentos de trabalho; a adequação do tipo de ferramenta, do acessório utilizado e das velocidades operacionais;</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 13494
+    "char_offset": 13554
   },
   {
     "id": "chunk-45",
     "text": "6 \nEste texto não substitui o publicado no DOU \nb) no caso de exposição às VCI, modificação do processo ou da operação de trabalho, podendo <mark>envolver: o reprojeto de plataformas de trabalho; a reformulação, a reorganização ou a alteração das rotinas ou dos procedimentos e organização do trabalho; a adequação de veículos utilizados, especialmente pela adoção de assentos antivibratórios; a melhoria das condições e das características dos pisos e pavimentos utilizados para circulação das máquinas e dos veículos;</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 14049
+    "char_offset": 14109
   },
   {
     "id": "chunk-46",
     "text": "c) redução do tempo e da intensidade de exposição diária à vibração; e \nd) alternância de atividades ou operações que gerem exposições a níveis mais elevados de vibração <mark>com outras que não apresentem exposições ou impliquem exposições a menores níveis.</mark>",
     "heading": "**<mark>6. Medidas de Prevenção</mark>**",
-    "char_offset": 14579
+    "char_offset": 14639
   },
   {
     "id": "chunk-47",
     "text": "<mark>6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.</mark>",
     "heading": "**<mark>ANEXO III da NR-09</mark>**",
-    "char_offset": 15057
+    "char_offset": 15117
   },
   {
     "id": "chunk-48",
     "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_",
     "heading": "**<mark>SUMÁRIO</mark>**",
-    "char_offset": 15125
+    "char_offset": 15185
   },
   {
     "id": "chunk-49",
     "text": "<mark>1. Objetivos</mark> \n<mark>2. Campo de Aplicação</mark> \n<mark>3. Responsabilidades da organização</mark> \n<mark>4. Medidas de prevenção</mark> \n<mark>5. Aclimatização</mark> \n<mark>6. Procedimentos de Emergência</mark>",
     "heading": "**<mark>1. Objetivos</mark>**",
-    "char_offset": 15359
+    "char_offset": 15419
   },
   {
     "id": "chunk-50",
     "text": "<mark>1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção.</mark>",
     "heading": "**<mark>2. Campo de Aplicação</mark>**",
-    "char_offset": 15601
+    "char_offset": 15661
   },
   {
     "id": "chunk-51",
     "text": "<mark>2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor.</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 15731
+    "char_offset": 15791
   },
   {
     "id": "chunk-52",
     "text": "<mark>3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador.</mark> \n<mark>3.1.1 A organização deve orientar os trabalhadores especialmente quanto aos seguintes aspectos:</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 15733
+    "char_offset": 15793
   },
   {
     "id": "chunk-53",
     "text": "a) fatores que influenciam os riscos relacionados à exposição ao calor; \n7 \nEste texto não substitui o publicado no DOU \nb) distúrbios relacionados ao calor, com exemplos de seus sinais e sintomas, tratamentos, entre <mark>outros;</mark> \nc) necessidade de informar ao superior hierárquico ou ao médico a ocorrência de sinais e sintomas <mark>relacionados ao calor;</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 16010
+    "char_offset": 16070
   },
   {
     "id": "chunk-54",
     "text": "d) medidas de prevenção relacionadas à exposição ao calor, de acordo com a avalição de risco da <mark>atividade;</mark> \ne) informações sobre o ambiente de trabalho e suas características; e \nf) situações de emergência decorrentes da exposição ocupacional ao calor e condutas a serem <mark>adotadas.</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 16387
+    "char_offset": 16447
   },
   {
     "id": "chunk-55",
     "text": "<mark>3.1.2 Devem ser realizados treinamentos periódicos anuais específicos, quando indicados nas medidas de prevenção.</mark> \n<mark>3.2 A avaliação preliminar da exposição ocupacional ao calor deve considerar os seguintes aspectos, quando aplicáveis:</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 16697
+    "char_offset": 16757
   },
   {
     "id": "chunk-56",
     "text": "a) a identificação do perigo; \nb) a caracterização das fontes geradoras; \nc) a identificação das possíveis trajetórias e dos meios de propagação dos agentes no ambiente de <mark>trabalho;</mark> \nd) identificação das funções e determinação do número de trabalhadores expostos;",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 16962
+    "char_offset": 17022
   },
   {
     "id": "chunk-57",
     "text": "e) a caracterização das atividades e do tipo da exposição, considerando a organização do trabalho; \nf) a obtenção de dados existentes na empresa, indicativos de possível comprometimento da saúde <mark>decorrente do trabalho;</mark> \ng) os possíveis lesões ou agravos à saúde relacionados aos perigos identificados, disponíveis na <mark>literatura técnica;</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 17243
+    "char_offset": 17303
   },
   {
     "id": "chunk-58",
     "text": "h) a descrição das medidas de prevenção já existentes; \ni) características dos fatores ambientais e demais condições de trabalho que possam influenciar na <mark>exposição ao calor e no mecanismo de trocas térmicas entre o trabalhador e o ambiente;</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 17609
+    "char_offset": 17669
   },
   {
     "id": "chunk-59",
     "text": "j) estimativas do tempo de permanência em cada atividade e situação térmica às quais o trabalhador <mark>permanece exposto ao longo da sua jornada de trabalho;</mark> \nk) taxa metabólica para execução das atividades com exposição ao calor; e \nl) registros disponíveis sobre a exposição ocupacional ao calor.",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 17868
+    "char_offset": 17928
   },
   {
     "id": "chunk-60",
     "text": "<mark>3.2.1 A avaliação preliminar deve subsidiar a adoção de medidas de prevenção, sem prejuízo de outras medidas previstas nas demais Normas Regulamentadoras.</mark> \n<mark>3.2.1.1 Se as informações obtidas na avaliação preliminar não forem suficientes para permitir a tomada de decisão quanto à necessidade de implementação de medidas de prevenção, deve-se proceder à avaliação quantitativa para:</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 18179
+    "char_offset": 18239
   },
   {
     "id": "chunk-61",
     "text": "Este texto não substitui o publicado no DOU \n8 \na) comprovar o controle da exposição ou a inexistência de riscos identificados na etapa de avaliação <mark>preliminar;</mark> \nb) dimensionar a exposição dos trabalhadores; e \nc) subsidiar o equacionamento das medidas de prevenção.",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 18592
+    "char_offset": 18652
   },
   {
     "id": "chunk-62",
     "text": "<mark>3.3 A avaliação quantitativa do calor deverá ser realizada com base na metodologia e procedimentos descritos na Norma de Higiene Ocupacional n° 06 - NHO 06 (2ª edição - 2017) da Fundacentro, nos seguintes aspectos:</mark> \na) determinação de sobrecarga térmica por meio do índice IBUTG - Índice de Bulbo Úmido <mark>Termômetro de Globo;</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 18875
+    "char_offset": 18935
   },
   {
     "id": "chunk-63",
     "text": "b) equipamentos de medição e formas de montagem, posicionamento e procedimentos de uso dos <mark>mesmos nos locais avaliados;</mark> \nc) procedimentos quanto à conduta do avaliador; e \nd) medições e cálculos. \n<mark>3.3.1 A taxa metabólica deve ser estimada com base na comparação da atividade realizada pelo trabalhador com as opções apresentadas no Quadro 3 deste anexo.</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 19230
+    "char_offset": 19290
   },
   {
     "id": "chunk-64",
     "text": "<mark>3.3.1.1 Caso uma atividade específica não esteja apresentada no Quadro 3 deste anexo, o valor da taxa metabólica deverá ser obtido por associação com atividade similar do referido Quadro.</mark> \n<mark>3.3.1.1.1 Na impossibilidade de enquadramento por similaridade, a taxa metabólica também pode ser estimada com base em outras referências técnicas, desde que justificadas tecnicamente.</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 19613
+    "char_offset": 19673
   },
   {
     "id": "chunk-65",
     "text": "<mark>3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível.</mark>",
     "heading": "**<mark>3. Responsabilidades da organização</mark>**",
-    "char_offset": 20015
+    "char_offset": 20075
   },
   {
     "id": "chunk-66",
     "text": "<mark>4.1 Medidas preventivas</mark> \n<mark>4.1.1 Sempre que os níveis de ação para exposição ocupacional ao calor, estabelecidos no Quadro 1 forem excedidos, devem ser adotadas pela organização, uma ou mais das seguintes medidas:</mark> \na)   disponibilizar água fresca potável (ou outro líquido de reposição adequado) e incentivar a sua <mark>ingestão; e</mark>",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 20272
+    "char_offset": 20332
   },
   {
     "id": "chunk-67",
     "text": "b)   programar os trabalhos mais pesados (acima de 414W - quatrocentos e quatorze watts), <mark>preferencialmente nos períodos com condições térmicas mais amenas, desde que nesses períodos não ocorram riscos adicionais.</mark> \n<mark>4.1.2 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.1.1, o empregador deve fornecer vestimentas de trabalho adaptadas ao tipo de exposição e à natureza da atividade.</mark>",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 20639
+    "char_offset": 20699
   },
   {
     "id": "chunk-68",
     "text": "Este texto não substitui o publicado no DOU \n9 \n<mark>4.2 Medidas corretivas</mark> \n<mark>4.2.1 As medidas corretivas visam reduzir a exposição ocupacional ao calor a valores abaixo do limite de exposição.</mark> \n<mark>4.2.2 Quando ultrapassados os limites de exposição estabelecidos no Quadro 2, devem ser adotadas pela organização uma ou mais das seguintes medidas corretivas:</mark>",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 21087
+    "char_offset": 21147
   },
   {
     "id": "chunk-69",
     "text": "a) adequar os processos, as rotinas ou as operações de trabalho; \nb) alternar operações que gerem exposições a níveis mais elevados de calor com outras que não <mark>apresentem exposições ou impliquem exposições a menores níveis, resultando na redução da exposição; e</mark>",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 21478
+    "char_offset": 21538
   },
   {
     "id": "chunk-70",
     "text": "c) disponibilizar acesso a locais, inclusive naturais, termicamente mais amenos, que possibilitem <mark>pausas, permitindo a recuperação térmica nas atividades realizadas em locais abertos e distantes de quaisquer edificações ou estruturas naturais ou artificiais.</mark> _<mark>(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)</mark>_",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 21755
+    "char_offset": 21815
   },
   {
     "id": "chunk-71",
     "text": "<mark>4.2.2.1 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.2.2, a organização deve:</mark> \na) adaptar os locais e postos de trabalho; \nb) reduzir a temperatura ou a emissividade das fontes de calor; \nc) utilizar barreiras para o calor radiante;",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 22109
+    "char_offset": 22169
   },
   {
     "id": "chunk-72",
     "text": "d) adequar o sistema de ventilação do ar; e \ne) adequar a temperatura e a umidade relativa do ar. \n<mark>4.2.3 O Programa de Controle Médico de Saúde Ocupacional - PCMSO, previsto na Norma Regulamentadora nº 07, deve prever procedimentos e avaliações médicas considerando a necessidade de exames complementares e monitoramento fisiológico quando ultrapassados os limites de exposição previstos no Quadro 2 deste anexo e caracterizado risco de sobrecarga térmica e fisiológica dos trabalhadores expostos ao calor.</mark>",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 22395
+    "char_offset": 22455
   },
   {
     "id": "chunk-73",
     "text": "<mark>4.2.3.1 Fica caracterizado o risco de sobrecarga térmica e fisiológica com possibilidade de lesão grave a integridade física ou a saúde dos trabalhadores:</mark> \na) quando não forem adotadas as medidas previstas no item 4 deste Anexo; ou \nb) quando as medidas adotadas não forem suficientes para a redução do risco.",
     "heading": "**<mark>4. Medidas de prevenção</mark>**",
-    "char_offset": 22919
+    "char_offset": 22979
   },
   {
     "id": "chunk-74",
     "text": "<mark>5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO.</mark> \n10 \nEste texto não substitui o publicado no DOU \n<mark>5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente.</mark>",
     "heading": "**<mark>5. Aclimatização</mark>**",
-    "char_offset": 23248
+    "char_offset": 23308
   },
   {
     "id": "chunk-75",
     "text": "<mark>6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando:</mark> a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador <mark>para atendimento; e</mark> \nb) informação a todas as pessoas envolvidas nos cenários de emergências.",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 23711
+    "char_offset": 23771
   },
   {
     "id": "chunk-76",
     "text": "<mark>Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para trabalhadores não aclimatizados</mark> _<u><mark>(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)</mark></u>_ \nEste texto não substitui o publicado no DOU",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 24024
+    "char_offset": 24084
   },
   {
     "id": "chunk-77",
-    "text": "11 \n| 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- |\n| devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências |  |  |  |  |  |",
+    "text": "11 \n| 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências | | | | | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 24298
+    "char_offset": 24358
   },
   {
     "id": "chunk-78",
-    "text": "| técnicas emitidas por organização competente. |  |  |  |  |  |\n|  |  |  |  |  |  |\n| 6. Procedimentos de emergência |  |  |  |  |  |\n|  |  |  |  |  |  |\n| 6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: |  |  |  |  |  |",
+    "text": "| técnicas emitidas por organização competente. | | | | | |\n| | | | | | |\n| 6. Procedimentos de emergência | | | | | |\n| | | | | | |\n| 6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: | | | | | |\n| a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador | | | | | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 24563
+    "char_offset": 24613
   },
   {
     "id": "chunk-79",
-    "text": "| a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador |  |  |  |  |  |\n| para atendimento; e |  |  |  |  |  |\n| b) informação a todas as pessoas envolvidas nos cenários de emergências. |  |  |  |  |  |\n|  |  |  |  |  |  |",
+    "text": "| para atendimento; e | | | | | |\n| b) informação a todas as pessoas envolvidas nos cenários de emergências. | | | | | |\n| | | | | | |\n| Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para | | | | | |\n| trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) | | | | | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 24834
+    "char_offset": 24964
   },
   {
     "id": "chunk-80",
-    "text": "| Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para |  |  |  |  |  |\n| trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) |  |  |  |  |  |\n| 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]",
+    "text": "| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| 100 | 31,7 | 183 | 28,0 | 334 | 24,3 |\n| 101 | 31,6 | 186 | 27,9 | 340 | 24,2 |\n| 103 | 31,5 | 189 | 27,8 | 345 | 24,1 |\n| 105 | 31,4 | 192 | 27,7 | 351 | 24,0 |\n| 106 | 31,3 | 195 | 27,6 | 357 | 23,9 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 25097
+    "char_offset": 25318
   },
   {
     "id": "chunk-81",
-    "text": "𝐌Á𝐗 | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 |\n| 100 | 31,7 | 183 | 28,0 | 334 | 24,3 |\n| 101 | 31,6 | 186 | 27,9 | 340 | 24,2 |\n| 103 | 31,5 | 189 | 27,8 | 345 | 24,1 |\n| 105 | 31,4 | 192 | 27,7 | 351 | 24,0 |\n| 106 | 31,3 | 195 | 27,6 | 357 | 23,9 |",
+    "text": "| 108 | 31,2 | 198 | 27,5 | 363 | 23,8 |\n| 110 | 31,1 | 201 | 27,4 | 369 | 23,7 |\n| 112 | 31,0 | 205 | 27,3 | 375 | 23,6 |\n| 114 | 30,9 | 208 | 27,2 | 381 | 23,5 |\n| 115 | 30,8 | 212 | 27,1 | 387 | 23,4 |\n| 117 | 30,7 | 215 | 27,0 | 394 | 23,3 |\n| 119 | 30,6 | 219 | 26,9 | 400 | 23,2 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 25349
+    "char_offset": 25606
   },
   {
     "id": "chunk-82",
-    "text": "| 108 | 31,2 | 198 | 27,5 | 363 | 23,8 |\n| 110 | 31,1 | 201 | 27,4 | 369 | 23,7 |\n| 112 | 31,0 | 205 | 27,3 | 375 | 23,6 |\n| 114 | 30,9 | 208 | 27,2 | 381 | 23,5 |\n| 115 | 30,8 | 212 | 27,1 | 387 | 23,4 |\n| 117 | 30,7 | 215 | 27,0 | 394 | 23,3 |\n| 119 | 30,6 | 219 | 26,9 | 400 | 23,2 |",
+    "text": "| 121 | 30,5 | 222 | 26,8 | 407 | 23,1 |\n| 123 | 30,4 | 226 | 26,7 | 414 | 23,0 |\n| 125 | 30,3 | 230 | 26,6 | 420 | 22,9 |\n| 127 | 30,2 | 233 | 26,5 | 427 | 22,8 |\n| 129 | 30,1 | 237 | 26,4 | 434 | 22,7 |\n| 132 | 30,0 | 241 | 26,3 | 442 | 22,6 |\n| 134 | 29,9 | 245 | 26,2 | 449 | 22,5 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 25614
+    "char_offset": 25893
   },
   {
     "id": "chunk-83",
-    "text": "| 121 | 30,5 | 222 | 26,8 | 407 | 23,1 |\n| 123 | 30,4 | 226 | 26,7 | 414 | 23,0 |\n| 125 | 30,3 | 230 | 26,6 | 420 | 22,9 |\n| 127 | 30,2 | 233 | 26,5 | 427 | 22,8 |\n| 129 | 30,1 | 237 | 26,4 | 434 | 22,7 |\n| 132 | 30,0 | 241 | 26,3 | 442 | 22,6 |\n| 134 | 29,9 | 245 | 26,2 | 449 | 22,5 |",
+    "text": "| 136 | 29,8 | 249 | 26,1 | 456 | 22,4 |\n| 138 | 29,7 | 253 | 26,0 | 464 | 22,3 |\n| 140 | 29,6 | 257 | 25,9 | 479 | 22,1 |\n| 143 | 29,5 | 262 | 25,8 | 487 | 22,0 |\n| 145 | 29,4 | 266 | 25,7 | 495 | 21,9 |\n| 148 | 29,3 | 270 | 25,6 | 503 | 21,8 |\n| 150 | 29,2 | 275 | 25,5 | 511 | 21,7 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 25901
+    "char_offset": 26180
   },
   {
     "id": "chunk-84",
-    "text": "| 136 | 29,8 | 249 | 26,1 | 456 | 22,4 |\n| 138 | 29,7 | 253 | 26,0 | 464 | 22,3 |\n| 140 | 29,6 | 257 | 25,9 | 479 | 22,1 |\n| 143 | 29,5 | 262 | 25,8 | 487 | 22,0 |\n| 145 | 29,4 | 266 | 25,7 | 495 | 21,9 |\n| 148 | 29,3 | 270 | 25,6 | 503 | 21,8 |\n| 150 | 29,2 | 275 | 25,5 | 511 | 21,7 |",
+    "text": "| 152 | 29,1 | 279 | 25,4 | 520 | 21,6 |\n| 155 | 29,0 | 284 | 25,3 | 528 | 21,5 |\n| 158 | 28,9 | 289 | 25,2 | 537 | 21,4 |\n<u><mark>Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados</mark></u> \nEste texto não substitui o publicado no DOU",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 26188
+    "char_offset": 26469
   },
   {
     "id": "chunk-85",
-    "text": "| 152 | 29,1 | 279 | 25,4 | 520 | 21,6 |\n| 155 | 29,0 | 284 | 25,3 | 528 | 21,5 |\n| 158 | 28,9 | 289 | 25,2 | 537 | 21,4 |\n<u><mark>Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados</mark></u> \nEste texto não substitui o publicado no DOU",
+    "text": "12 \n| 𝐌 [𝐖] | | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 160 | | 28,8 | 293 | 25,1 | 546 | 21,3 |\n| 163 | | 28,7 | 298 | 25,0 | 555 | 21,2 |\n| 165 | | 28,6 | 303 | 24,9 | 564 | 21,1 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 26477
+    "char_offset": 26745
   },
   {
     "id": "chunk-86",
-    "text": "12 \n| 𝐌 [𝐖] |  | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 160 |  | 28,8 | 293 | 25,1 | 546 | 21,3 |\n| 163 |  | 28,7 | 298 | 25,0 | 555 | 21,2 |\n| 165 |  | 28,6 | 303 | 24,9 | 564 | 21,1 |",
+    "text": "| 168 | | 28,5 | 308 | 24,8 | 573 | 21,0 |\n| 171 | | 28,4 | 313 | 24,7 | 583 | 20,9 |\n| 174 | | 28,3 | 318 | 24,6 | 593 | 20,8 |\n| 177 | | 28,2 | 324 | 24,5 | 602 | 20,7 |\n| 180 | | 28,1 | 329 | 24,4 | | |\n| | | | | | | |\n| Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados | | | | | | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 26753
+    "char_offset": 27007
   },
   {
     "id": "chunk-87",
-    "text": "| 168 |  | 28,5 | 308 | 24,8 | 573 | 21,0 |\n| 171 |  | 28,4 | 313 | 24,7 | 583 | 20,9 |\n| 174 |  | 28,3 | 318 | 24,6 | 593 | 20,8 |\n| 177 |  | 28,2 | 324 | 24,5 | 602 | 20,7 |\n| 180 |  | 28,1 | 329 | 24,4 |  |  |\n|  |  |  |  |  |  |  |\n| Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados |  |  |  |  |  |  |",
+    "text": "| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| 100 | 33,7 | | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 | | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 | | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 | | 197 | 30,3 | 367 | 27,2 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 27019
+    "char_offset": 27330
   },
   {
     "id": "chunk-88",
-    "text": "| 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 |  | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 | 𝐌 [𝐖] | ∘\n𝐈𝐁𝐔𝐓𝐆 [ 𝐂]\n𝐌Á𝐗 |\n| 100 | 33,7 |  | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 |  | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 |  | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 |  | 197 | 30,3 | 367 | 27,2 |",
+    "text": "| 108 | 33,3 | | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 | | 205 | 30,1 | 382 | 27,0 |\n| 112 | 33,1 | | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 | | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 | | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 | | 222 | 29,7 | 414 | 26,6 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 27362
+    "char_offset": 27587
   },
   {
     "id": "chunk-89",
-    "text": "| 108 | 33,3 |  | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 |  | 205 | 30,1 | 382 | 27,0 |\n| 112 | 33,1 |  | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 |  | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 |  | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 |  | 222 | 29,7 | 414 | 26,6 |",
+    "text": "| 122 | 32,7 | | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 | | 231 | 29,5 | 431 | 26,4 |\n| 127 | 32,5 | | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 | | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 | | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 | | 251 | 29,1 | 467 | 26,0 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 27624
+    "char_offset": 27845
   },
   {
     "id": "chunk-90",
-    "text": "| 122 | 32,7 |  | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 |  | 231 | 29,5 | 431 | 26,4 |\n| 127 | 32,5 |  | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 |  | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 |  | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 |  | 251 | 29,1 | 467 | 26,0 |",
+    "text": "| 137 | 32,1 | | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 | | 261 | 28,9 | 486 | 25,8 |\n| 143 | 31,9 | | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 | | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 | | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 | | 283 | 28,5 | 526 | 25,4 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 27888
+    "char_offset": 28103
   },
   {
     "id": "chunk-91",
-    "text": "| 137 | 32,1 |  | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 |  | 261 | 28,9 | 486 | 25,8 |\n| 143 | 31,9 |  | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 |  | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 |  | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 |  | 283 | 28,5 | 526 | 25,4 |",
+    "text": "| 155 | 31,5 | | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 | | 294 | 28,3 | 548 | 25,2 |\n| 161 | 31,3 | | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 | | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 | | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 | | 319 | 27,9 | 594 | 24,8 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 28152
+    "char_offset": 28361
   },
   {
     "id": "chunk-92",
-    "text": "| 155 | 31,5 |  | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 |  | 294 | 28,3 | 548 | 25,2 |\n| 161 | 31,3 |  | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 |  | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 |  | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 |  | 319 | 27,9 | 594 | 24,8 |",
+    "text": "| 175 | 30,9 | | 325 | 27,8 | 606 | 24,7 |\n| 178 | 30,8 | | 332 | 27,7 | | |\n| 182 | 30,7 | | 339 | 27,6 | | |\n<mark>Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo.</mark>",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 28416
+    "char_offset": 28620
   },
   {
     "id": "chunk-93",
-    "text": "| 175 | 30,9 |  | 325 | 27,8 | 606 | 24,7 |\n| 178 | 30,8 |  | 332 | 27,7 |  |  |\n| 182 | 30,7 |  | 339 | 27,6 |  |  |\n<mark>Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo.</mark>",
+    "text": "Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação <mark>médica prevista na NR-07.</mark> \n<u><mark>Quadro 3 - Taxa metabólica por tipo de atividade</mark></u> \nEste texto não substitui o publicado no DOU",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 28681
+    "char_offset": 28939
   },
   {
     "id": "chunk-94",
-    "text": "Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação <mark>médica prevista na NR-07.</mark> \n<u><mark>Quadro 3 - Taxa metabólica por tipo de atividade</mark></u> \nEste texto não substitui o publicado no DOU",
+    "text": "13 \n| Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que | |\n| --- | --- |\n| não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. | |\n| Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 29007
+    "char_offset": 29194
   },
   {
     "id": "chunk-95",
-    "text": "13 \n| Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que |  |\n| --- | --- |\n| não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. |  |\n| Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação |  |",
+    "text": "| médica prevista na NR-07. | |\n| | |\n| Quadro 3 - Taxa metabólica por tipo de atividade | |\n| Atividade | Taxa metabólica(W) |\n| Sentado | |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 29262
+    "char_offset": 29519
   },
   {
     "id": "chunk-96",
-    "text": "| médica prevista na NR-07. |  |\n|  |  |\n| Quadro 3 - Taxa metabólica por tipo de atividade |  |\n| Atividade | Taxa metabólica(W) |\n| Sentado |  |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |",
+    "text": "| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 29590
+    "char_offset": 29796
   },
   {
     "id": "chunk-97",
-    "text": "| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |",
+    "text": "| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado | |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 29872
+    "char_offset": 30083
   },
   {
     "id": "chunk-98",
-    "text": "| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado |  |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |",
+    "text": "| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 30159
+    "char_offset": 30347
   },
   {
     "id": "chunk-99",
-    "text": "| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |",
+    "text": "| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |\nEste texto não substitui o publicado no DOU \n14 \n| Em pé, em movimento | |\n| --- | --- |\n| Andando no plano | |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 30424
+    "char_offset": 30629
   },
   {
     "id": "chunk-100",
-    "text": "| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |\nEste texto não substitui o publicado no DOU \n14 \n| Em pé, em movimento |  |\n| --- | --- |\n| Andando no plano |  |\n| 1. Sem carga |  |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |",
+    "text": "| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 30706
+    "char_offset": 30895
   },
   {
     "id": "chunk-101",
-    "text": "| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga |  |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano |  |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa |  |\n| 1. Sem carga |  |\n| • com 5° de inclinação, 4 km/h | 324 |",
+    "text": "| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 30956
+    "char_offset": 31148
   },
   {
     "id": "chunk-102",
-    "text": "| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg |  |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga |  |\n| • com 5° de inclinação | 243 |",
+    "text": "| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 31232
+    "char_offset": 31417
   },
   {
     "id": "chunk-103",
-    "text": "| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do\ndegrau de 0,17 m) |  |\n| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minuto - altura do\ndegrau de 0,17 m) |  |",
+    "text": "| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n<mark>Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas*</mark> \n<mark>*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C</mark> \n15 \nEste texto não substitui o publicado no DOU",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 31503
+    "char_offset": 31690
   },
   {
     "id": "chunk-104",
-    "text": "| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n<mark>Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas*</mark> \n<mark>*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C</mark> \n15 \nEste texto não substitui o publicado no DOU",
+    "text": "| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 | |\n| --- | --- | --- |\n| Trabalho moderado de levantar ou empurrar | 349 | |\n| Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga | 391 | |\n| Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trabalho com foice) | 495 | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 31778
+    "char_offset": 31984
   },
   {
     "id": "chunk-105",
-    "text": "| Trabalho moderado de braços (ex.: varrer, trabalho\nem almoxarifado) | 320 |  |\n| --- | --- | --- |\n| Trabalho moderado de levantar ou empurrar | 349 |  |\n| Trabalho de empurrar carrinhos de mão, no mesmo\nplano, com carga | 391 |  |\n| Trabalho de carregar pesos ou com movimentos",
+    "text": "| Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas) | 524 | |\n| | | |\n| Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* | | |\n| | | |\n| Tipo de roupa | | Adição ao IBUTG [°C] |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 32072
+    "char_offset": 32322
   },
   {
     "id": "chunk-106",
-    "text": "vigorosos com os braços (ex.: trabalho com foice) | 495 |  |\n| Trabalho pesado de levantar, empurrar ou arrastar\npesos (ex.: remoção com pá, abertura de valas) | 524 |  |\n|  |  |  |\n| Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* |  |  |",
+    "text": "| Uniforme de trabalho (calça e camisa de manga comprida) | | 0 |\n| Macacão de tecido | | 0 |\n| Macacão de polipropileno SMS (Spun-Melt-Spun) | | 0,5 |\n| Macacão de poliolefina | | 2 |\n| Vestimenta ou macacão forrado (tecido duplo) | | 3 |\n| Avental longo de manga comprida impermeável ao vapor | | 4 |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 32353
+    "char_offset": 32580
   },
   {
     "id": "chunk-107",
-    "text": "|  |  |  |\n| Tipo de roupa |  | Adição ao\nIBUTG [°C] |\n| Uniforme de trabalho (calça e camisa de manga comprida) |  | 0 |\n| Macacão de tecido |  | 0 |\n| Macacão de polipropileno SMS (Spun-Melt-Spun) |  | 0,5 |\n| Macacão de poliolefina |  | 2 |\n| Vestimenta ou macacão forrado (tecido duplo) |  | 3 |",
+    "text": "| Macacão impermeável ao vapor | | 10 |\n| Macacão impermeável ao vapor sobreposto à roupa de trabalho | | 12 |\n| *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C | | |\n| | | |",
     "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 32627
-  },
-  {
-    "id": "chunk-108",
-    "text": "| Avental longo de manga comprida impermeável ao vapor |  | 4 |\n| Macacão impermeável ao vapor |  | 10 |\n| Macacão impermeável ao vapor sobreposto à roupa de\ntrabalho |  | 12 |\n| *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C |  |  |",
-    "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 32927
-  },
-  {
-    "id": "chunk-109",
-    "text": "|  |  |  |",
-    "heading": "**<mark>6. Procedimentos de emergência</mark>**",
-    "char_offset": 33197
+    "char_offset": 32884
   }
 ]

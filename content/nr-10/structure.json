@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978|**D.O.U.**<br>06/07/78|\n|---|---|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT nº12, de 06 de junho de 1983|14/06/83|\n|Portaria MTE nº598, de 07 de dezembro de 2004|08/09/04|\n|Portaria MTPS nº508, de 29 de abril de 2016|02/05/16|\n|Portaria SEPRT nº915, de 30 de julho de 2019|31/07/19|\n|Portaria MTE nº737, de 29 de maiode 2026|01/06/26|"
+        "markdown": "| **Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978 | **D.O.U.**<br>06/07/78 |\n| --- | --- |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT nº12, de 06 de junho de 1983 | 14/06/83 |\n| Portaria MTE nº598, de 07 de dezembro de 2004 | 08/09/04 |\n| Portaria MTPS nº508, de 29 de abril de 2016 | 02/05/16 |\n| Portaria SEPRT nº915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria MTE nº737, de 29 de maiode 2026 | 01/06/26 |"
       },
       {
         "type": "paragraph",
@@ -2437,15 +2437,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Faixa de tensão Nominal"
-        },
-        {
-          "type": "paragraph",
-          "text": "da instalação elétrica em kV * | Rr - Raio de delimitação entre zona de risco e controlada em metros | Rc - Raio de delimitação entre zona controlada e livre em metros |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| < 1 | 0,20 | 0,70 |\n| ≥1 e <3 | 0,22 | 1,22 |\n| ≥3 e <6 | 0,25 | 1,25 |\n| ≥6 e <10 | 0,35 | 1,35 |\n| ≥10 e <15 | 0,38 | 1,38 |\n| ≥15 e <20 | 0,40 | 1,40 |\n| ≥20 e <30 | 0,56 | 1,56 |\n| ≥30 e <36 | 0,58 | 1,58 |\n| ≥36 e <45 | 0,63 | 1,63 |\n| ≥45 e <60 | 0,83 | 1,83 |\n| ≥60 e <70 | 0,90 | 1,90 |\n| ≥70 e <110 | 1,00 | 2,00 |"
+          "markdown": "| Faixa de tensão Nominal da instalação elétrica em kV * | Rr - Raio de delimitação entre zona de risco e controlada em metros | Rc - Raio de delimitação entre zona controlada e livre em metros |\n| --- | --- | --- |\n| < 1 | 0,20 | 0,70 |\n| ≥1 e <3 | 0,22 | 1,22 |\n| ≥3 e <6 | 0,25 | 1,25 |\n| ≥6 e <10 | 0,35 | 1,35 |\n| ≥10 e <15 | 0,38 | 1,38 |\n| ≥15 e <20 | 0,40 | 1,40 |\n| ≥20 e <30 | 0,56 | 1,56 |\n| ≥30 e <36 | 0,58 | 1,58 |\n| ≥36 e <45 | 0,63 | 1,63 |\n| ≥45 e <60 | 0,83 | 1,83 |\n| ≥60 e <70 | 0,90 | 1,90 |\n| ≥70 e <110 | 1,00 | 2,00 |"
         },
         {
           "type": "paragraph",
@@ -3904,15 +3896,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Equipamento | Parâmetros | Categoria"
-        },
-        {
-          "type": "paragraph",
-          "text": "de EPI |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Painéis ou outros equipamentos | ·Máximo de 25 kA de corrente de falha disponível; | 1 |"
+          "markdown": "| Equipamento | Parâmetros | Categoria de EPI |\n| --- | --- | --- |\n| Painéis ou outros equipamentos | ·Máximo de 25 kA de corrente de falha disponível; | 1 |"
         },
         {
           "type": "paragraph",
@@ -3920,75 +3904,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Painéis ou outros equipamentos"
-        },
-        {
-          "type": "paragraph",
-          "text": "com classificação superior a 240 volts e até 600 volts | ·Máximo de 25 kA de corrente de falha disponível; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- | --- |\n| Centros de controle de motores"
-        },
-        {
-          "type": "paragraph",
-          "text": "(CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 65 kA; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Centros de controle de motores"
-        },
-        {
-          "type": "paragraph",
-          "text": "(CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 42 kA; ·tempo máximo de eliminação de falhas de 0,33 s (20 ciclos); ·distância mínima de trabalho de 455 mm | 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Aparelhagem de distribuição de"
-        },
-        {
-          "type": "paragraph",
-          "text": "600 volts (com disjuntores de potência ou interruptores com fusível) e quadros de distribuição de 600 volts | ·Corrente de falha máxima disponível de 35 kA; ·tempo máximo de eliminação de falhas de até 0,5 s (30 ciclos); ·distância mínima de trabalho de 455 mm | 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Outros equipamentos de classe de"
-        },
-        {
-          "type": "paragraph",
-          "text": "600 volts (277 volts a 600 volts, nominal) | ·Corrente de falha máxima disponível de 65 kA; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Partidas de motor NEMA E2"
-        },
-        {
-          "type": "paragraph",
-          "text": "(contator com fusível), 2,3 kV a 7,2 kV | ·Máximo de 35 kA de corrente de falha disponível; ·empo máximo de eliminação de falhas de até 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Aparelhagem de manobra"
-        },
-        {
-          "type": "paragraph",
-          "text": "revestida de metal, 1 kV a 15 kV | ·Corrente de falha máxima disponível de 35 kA; ·tempo máximo de eliminação de falhas de até 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Chave seccionadora em invólucro"
-        },
-        {
-          "type": "paragraph",
-          "text": "metálico, com ou sem fusível, construção de 1 kV a 15 kV | ·Corrente de curto-circuito disponível máxima de 35 kA; ·tempo máximo de eliminação da falha de 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Outros equipamentos de 1 kV a 15"
-        },
-        {
-          "type": "paragraph",
-          "text": "kV | ·Corrente de curto-circuito disponível máxima de 35 kA; ·tempo máximo de eliminação da falha de até 0,24 s | 4 |"
+          "markdown": "| Painéis ou outros equipamentos com classificação superior a 240 volts e até 600 volts | ·Máximo de 25 kA de corrente de falha disponível; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |\n| --- | --- | --- |\n| Centros de controle de motores (CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 65 kA; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |\n| Centros de controle de motores (CCMs) de classe de 600 volts | ·Corrente de falha máxima disponível de 42 kA; ·tempo máximo de eliminação de falhas de 0,33 s (20 ciclos); ·distância mínima de trabalho de 455 mm | 4 |\n| Aparelhagem de distribuição de 600 volts (com disjuntores de potência ou interruptores com fusível) e quadros de distribuição de 600 volts | ·Corrente de falha máxima disponível de 35 kA; ·tempo máximo de eliminação de falhas de até 0,5 s (30 ciclos); ·distância mínima de trabalho de 455 mm | 4 |\n| Outros equipamentos de classe de 600 volts (277 volts a 600 volts, nominal) | ·Corrente de falha máxima disponível de 65 kA; ·tempo máximo de eliminação de falhas de 0,03 s (2 ciclos); ·distância mínima de trabalho de 455 mm | 2 |\n| Partidas de motor NEMA E2 (contator com fusível), 2,3 kV a 7,2 kV | ·Máximo de 35 kA de corrente de falha disponível; ·empo máximo de eliminação de falhas de até 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |\n| Aparelhagem de manobra revestida de metal, 1 kV a 15 kV | ·Corrente de falha máxima disponível de 35 kA; ·tempo máximo de eliminação de falhas de até 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |\n| Chave seccionadora em invólucro metálico, com ou sem fusível, construção de 1 kV a 15 kV | ·Corrente de curto-circuito disponível máxima de 35 kA; ·tempo máximo de eliminação da falha de 0,24 s (15 ciclos); ·distância mínima de trabalho de 910 mm | 4 |\n| Outros equipamentos de 1 kV a 15 kV | ·Corrente de curto-circuito disponível máxima de 35 kA; ·tempo máximo de eliminação da falha de até 0,24 s | 4 |"
         },
         {
           "type": "paragraph",
@@ -4042,51 +3958,11 @@
         },
         {
           "type": "table",
-          "markdown": "| Equipamentos resistentes ao arco"
-        },
-        {
-          "type": "paragraph",
-          "text": "elétrico até a classe de 600 volts | ·PORTAS FECHADAS e TRAVADAS(*); ·com corrente de falha disponível e tempo de eliminação de falha que não excedam a classificação de resistência ao arco do equipamento | N/A (Não aplicável) |"
+          "markdown": "| Equipamentos resistentes ao arco elétrico até a classe de 600 volts | ·PORTAS FECHADAS e TRAVADAS(*); ·com corrente de falha disponível e tempo de eliminação de falha que não excedam a classificação de resistência ao arco do equipamento | N/A (Não aplicável) |\n| --- | --- | --- |\n| Equipamentos resistentes ao arco elétrico de 1 kV a 15 kV | ·PORTAS FECHADAS e TRAVADAS(*); ·com corrente de falha disponível e tempo de eliminação de falha que não excedam a classificação de resistência ao arco do equipamento | N/A (Não aplicável) |"
         },
         {
           "type": "table",
-          "markdown": "| --- | --- | --- |\n| Equipamentos resistentes ao arco"
-        },
-        {
-          "type": "paragraph",
-          "text": "elétrico de 1 kV a 15 kV | ·PORTAS FECHADAS e TRAVADAS(*); ·com corrente de falha disponível e tempo de eliminação de falha que não excedam a classificação de resistência ao arco do equipamento | N/A (Não aplicável) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Equipamento/Parâmetros | Categoria de EPI |\n| --- | --- |\n| Baterias de armazenamento, quadros de corrente contínua (CC) e outras"
-        },
-        {
-          "type": "paragraph",
-          "text": "fontes de alimentação CC Parâmetros: ·Superiores a 150 volts e inferiores ou iguais a 600 volts; ·duração máxima do arco e distância mínima de trabalho: 2 segundos a 455 mm |  |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ·Corrente de curto-circuito disponível inferior a 1,5 kA | 2 |\n| ·Corrente de curto-circuito disponível maior ou igual a 1,5 kA e menor que 3"
-        },
-        {
-          "type": "paragraph",
-          "text": "kA | 2 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ·Corrente de curto-circuito disponível maior ou igual a 3 kA e menor que 7"
-        },
-        {
-          "type": "paragraph",
-          "text": "kA | 3 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ·Corrente de curto-circuito disponível maior ou igual a 7 kA e menor que 10"
-        },
-        {
-          "type": "paragraph",
-          "text": "kA | 4 |"
+          "markdown": "| Equipamento/Parâmetros | Categoria de EPI |\n| --- | --- |\n| Baterias de armazenamento, quadros de corrente contínua (CC) e outras fontes de alimentação CC Parâmetros: ·Superiores a 150 volts e inferiores ou iguais a 600 volts; ·duração máxima do arco e distância mínima de trabalho: 2 segundos a 455 mm | |\n| ·Corrente de curto-circuito disponível inferior a 1,5 kA | 2 |\n| ·Corrente de curto-circuito disponível maior ou igual a 1,5 kA e menor que 3 kA | 2 |\n| ·Corrente de curto-circuito disponível maior ou igual a 3 kA e menor que 7 kA | 3 |\n| ·Corrente de curto-circuito disponível maior ou igual a 7 kA e menor que 10 kA | 4 |"
         },
         {
           "type": "paragraph",
@@ -4094,35 +3970,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Categoria de"
-        },
-        {
-          "type": "paragraph",
-          "text": "EPI para Arco Elétrico | EPI |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |\n| 1 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 4 cal/cm²"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) • Camisa e calça de mangas compridas com resistência ao arco elétrico, ou macacão com resistência ao arco elétrico; • Protetor facial com resistência ao arco elétrico (b) ou capuz com resistência ao arco elétrico; • Jaqueta, parca, vestimenta de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf) Equipamentos de Proteção Adicional: • Capacete de segurança; • Óculos de proteção ou óculos de ampla visão (SOg); • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luva de cobertura (d) (SOg) • Calçado de couro (e) (CNf) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 2 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 8 cal/cm²"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) • Camisa e calça de mangas compridas com resistência ao arco elétrico ou macacão com resistência ao arco elétrico; • Capuz completo com resistência ao arco elétrico ou protetor facial com resistência ao arco elétrico (b) combinado com balaclava com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf) Equipamentos de Proteção Adicional: • Capacete de segurança; • Óculos de proteção ou óculos de ampla visão (SOg); • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luva de cobertura (d) (SOg) • Calçado de couro (e) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 3 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 25 cal/cm²"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, forro de capacete com resistência ao arco elétrico (CNf). Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SOg) • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco |"
+          "markdown": "| Categoria de EPI para Arco Elétrico | EPI |\n| --- | --- |\n| 1 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 4 cal/cm² (a) • Camisa e calça de mangas compridas com resistência ao arco elétrico, ou macacão com resistência ao arco elétrico; • Protetor facial com resistência ao arco elétrico (b) ou capuz com resistência ao arco elétrico; • Jaqueta, parca, vestimenta de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf) Equipamentos de Proteção Adicional: • Capacete de segurança; • Óculos de proteção ou óculos de ampla visão (SOg); • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luva de cobertura (d) (SOg) • Calçado de couro (e) (CNf) |\n| 2 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) - mínimo de 8 cal/cm² (a) • Camisa e calça de mangas compridas com resistência ao arco elétrico ou macacão com resistência ao arco elétrico; • Capuz completo com resistência ao arco elétrico ou protetor facial com resistência ao arco elétrico (b) combinado com balaclava com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf) Equipamentos de Proteção Adicional: • Capacete de segurança; • Óculos de proteção ou óculos de ampla visão (SOg); • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luva de cobertura (d) (SOg) • Calçado de couro (e) |\n| 3 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 25 cal/cm² (a) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, forro de capacete com resistência ao arco elétrico (CNf). Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SOg) • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco |"
         },
         {
           "type": "paragraph",
@@ -4178,15 +4026,7 @@
         },
         {
           "type": "table",
-          "markdown": "| 4 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 40 cal/cm²"
-        },
-        {
-          "type": "paragraph",
-          "text": "(a) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf). Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SOg) • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luvas protetoras (d) (SOg) • Calçado de couro (e) |"
-        },
-        {
-          "type": "table",
-          "markdown": "| --- | --- |"
+          "markdown": "| 4 | Vestimenta com resistência ao arco elétrico (ATPV ou EBT) – mínimo de 40 cal/cm² (a) • Traje completo com resistência ao arco elétrico (macacão ou conjunto de duas peças); • Capuz carrasco completo com resistência ao arco elétrico; • Jaqueta, parca, roupa de alta visibilidade, impermeáveis ou forro de capacete com resistência ao arco elétrico ou outras sobreposições com resistência ao arco elétrico (CNf). Equipamentos de Proteção Adicional: • Capacete de segurança • Óculos de proteção ou óculos de ampla visão (SOg) • Protetor auricular (c) (desde que protegido por um capuz com resistência ao arco elétrico); • Luvas de couro espessas, luvas com resistência ao arco elétrico ou luvas isolantes de borracha com luvas protetoras (d) (SOg) • Calçado de couro (e) |\n| --- | --- |"
         }
       ]
     }
