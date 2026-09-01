@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTb n.º3.214, de 08 de junho de 1978|06/07/78|\n|**Alterações/Atualizações**|**D.O.U.**|\n|Portaria SSMT n.º33, de 27 de outubro de 1983|31/10/83|\n|Portaria SSST n.º25, de 29 de dezembro de 1994|Rep. 15/12/95|\n|Portaria SSST n.º08, de 23 de fevereiro de 1999|Retf. 10/05/99|\n|Portaria SSST n.º15, de 26 de fevereiro de 1999|01/03/99|\n|Portaria SSST n.º24, de 27 de maio de 1999|28/05/99|\n|Portaria SSST n.º25, de 27 de maio de 1999|28/05/99|\n|Portaria SSST n.º16, de 10 de maio de 2001|11/05/01|\n|Portaria SIT n.º14, de 21 de junho de 2007|26/06/07|\n|Portaria SIT n.º247, de 12 de julho de 2011|14/07/11|\n|Portaria SEPRT n.º915, de 30 de julho de 2019|31/07/19|\n|Portaria MTP n.º422, de 07 de outubro de 2021|08/10/21|\n|Portaria MTP n.º4.219, de 20 de dezembro de 2022|22/12/22|"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb n.º3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSMT n.º33, de 27 de outubro de 1983 | 31/10/83 |\n| Portaria SSST n.º25, de 29 de dezembro de 1994 | Rep. 15/12/95 |\n| Portaria SSST n.º08, de 23 de fevereiro de 1999 | Retf. 10/05/99 |\n| Portaria SSST n.º15, de 26 de fevereiro de 1999 | 01/03/99 |\n| Portaria SSST n.º24, de 27 de maio de 1999 | 28/05/99 |\n| Portaria SSST n.º25, de 27 de maio de 1999 | 28/05/99 |\n| Portaria SSST n.º16, de 10 de maio de 2001 | 11/05/01 |\n| Portaria SIT n.º14, de 21 de junho de 2007 | 26/06/07 |\n| Portaria SIT n.º247, de 12 de julho de 2011 | 14/07/11 |\n| Portaria SEPRT n.º915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria MTP n.º422, de 07 de outubro de 2021 | 08/10/21 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |"
       },
       {
         "type": "paragraph",
@@ -1052,15 +1052,7 @@
         },
         {
           "type": "table",
-          "markdown": "| NÚMERO DE EMPREGADOS NO ESTABELECIMENTO |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| GRAU"
-        },
-        {
-          "type": "paragraph",
-          "text": "de RISCO* | Nº de INTEGRANTES da CIPA | 0 a 19 | 20 a 29 | 30 a 50 | 51 a 80 | 81 a 100 | 101 a 120 | 121 a 140 | 141 a 300 | 301 a 500 | 501 a 1000 | 1001 a 2500 | 2501 a 5000 | 5001 a 10.000 | Acima de 10.000 para cada grupo de 2500 acrescentar |"
-        },
-        {
-          "type": "table",
-          "markdown": "| 1 | Efetivos |  |  |  |  | 1 | 1 | 1 | 1 | 2 | 4 | 5 | 6 | 8 | 1 |\n|  | Suplentes |  |  |  |  | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 1 |\n| 2 | Efetivos |  |  |  | 1 | 1 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 1 |\n|  | Suplentes |  |  |  | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 1 |\n| 3 | Efetivos |  | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 2 |\n|  | Suplentes |  | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 4 | 4 | 6 | 8 | 8 | 2 |\n| 4 | Efetivos |  | 1 | 2 | 3 | 3 | 4 | 4 | 4 | 5 | 6 | 9 | 11 | 13 | 2 |\n|  | Suplentes |  | 1 | 1 | 2 | 2 | 2 | 2 | 3 | 4 | 5 | 7 | 8 | 10 | 2 |"
+          "markdown": "| NÚMERO DE EMPREGADOS NO ESTABELECIMENTO | | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| GRAU de RISCO* | Nº de INTEGRANTES da CIPA | 0 a 19 | 20 a 29 | 30 a 50 | 51 a 80 | 81 a 100 | 101 a 120 | 121 a 140 | 141 a 300 | 301 a 500 | 501 a 1000 | 1001 a 2500 | 2501 a 5000 | 5001 a 10.000 | Acima de 10.000 para cada grupo de 2500 acrescentar |\n| 1 | Efetivos | | | | | 1 | 1 | 1 | 1 | 2 | 4 | 5 | 6 | 8 | 1 |\n| | Suplentes | | | | | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 1 |\n| 2 | Efetivos | | | | 1 | 1 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 1 |\n| | Suplentes | | | | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 1 |\n| 3 | Efetivos | | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 2 |\n| | Suplentes | | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 4 | 4 | 6 | 8 | 8 | 2 |\n| 4 | Efetivos | | 1 | 2 | 3 | 3 | 4 | 4 | 4 | 5 | 6 | 9 | 11 | 13 | 2 |\n| | Suplentes | | 1 | 1 | 2 | 2 | 2 | 2 | 3 | 4 | 5 | 7 | 8 | 10 | 2 |"
         },
         {
           "type": "paragraph",

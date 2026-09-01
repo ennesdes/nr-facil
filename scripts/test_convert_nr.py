@@ -78,6 +78,16 @@ class TestTableToMarkdown(unittest.TestCase):
         self.assertEqual(len(lines), 5)  # header + sep + 3 dados
         self.assertIn("| --- | --- | --- |", result)
 
+    def test_table_with_newlines_in_cells(self):
+        """Quebras de linha dentro de célula devem virar espaço (uma linha por row)."""
+        table = [
+            ["GRAU\nde\nRISCO*", "0 a\n19"],
+            ["1", "Efetivos"],
+        ]
+        result = _table_to_markdown(table)
+        self.assertIn("| GRAU de RISCO* | 0 a 19 |", result)
+        self.assertEqual(len(result.split("\n")), 3)
+
 
 class TestIsProbablyIllegible(unittest.TestCase):
     """Testes para _is_probably_illegible."""

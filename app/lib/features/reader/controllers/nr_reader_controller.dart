@@ -11,6 +11,7 @@ import 'package:nrfacil/core/services/search_service.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/features/reader/models/nr_search_hit.dart';
 import 'package:nrfacil/features/reader/utils/nr_document_search.dart';
+import 'package:nrfacil/features/reader/utils/reader_scroll_utils.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
 
 /// Controller para o NRReaderPage — gerencia estado do leitor de uma NR.
@@ -429,7 +430,6 @@ class NRReaderController extends GetxController {
     highlightSectionId.value = null;
     highlightBlockIndex.value = null;
   }
-
   void goToSearchHit(NrSearchHit hit) {
     final query = documentSearchQuery.value.trim();
     activeHighlightQuery.value = query.isNotEmpty ? query : null;
@@ -502,26 +502,28 @@ class NRReaderController extends GetxController {
 
     if (hit.blockIndex >= 0) {
       final blockKey = _blockKeys['${hit.sectionId}-${hit.blockIndex}'];
-      if (blockKey?.currentContext != null) {
-        Scrollable.ensureVisible(
-          blockKey!.currentContext!,
-          duration: const Duration(milliseconds: 350),
-          curve: Curves.easeInOut,
-          alignment: 0.2,
+      final plainText = _plainTextForHit(hit);
+      if (blockKey?.currentContext != null && plainText != null) {
+        return scrollToSearchMatch(
+          context: blockKey!.currentContext!,
+          scrollController: _scrollController,
+          matchStart: hit.matchStart,
+          plainText: plainText,
+          fontSize: fontSize.value,
         );
-        return true;
       }
     }
 
     final sectionKey = _sectionKeys[hit.sectionId];
-    if (sectionKey?.currentContext != null) {
-      Scrollable.ensureVisible(
-        sectionKey!.currentContext!,
-        duration: const Duration(milliseconds: 350),
-        curve: Curves.easeInOut,
-        alignment: 0.1,
+    final titleText = _plainTextForHit(hit);
+    if (sectionKey?.currentContext != null && titleText != null) {
+      return scrollToSearchMatch(
+        context: sectionKey!.currentContext!,
+        scrollController: _scrollController,
+        matchStart: hit.matchStart,
+        plainText: titleText,
+        fontSize: fontSize.value + 2,
       );
-      return true;
     }
 
     return false;
@@ -531,16 +533,47 @@ class NRReaderController extends GetxController {
     for (final candidate in [hit.label, hit.sectionId]) {
       final key = _headingKeys[_normalizeKey(candidate)];
       if (key?.currentContext != null) {
-        Scrollable.ensureVisible(
-          key!.currentContext!,
-          duration: const Duration(milliseconds: 350),
-          curve: Curves.easeInOut,
-          alignment: 0.1,
+        return scrollToSearchMatch(
+          context: key!.currentContext!,
+          scrollController: _scrollController,
+          matchStart: 0,
+          plainText: hit.label,
+          fontSize: fontSize.value + 2,
         );
-        return true;
       }
     }
     return false;
+  }
+
+  String? _plainTextForHit(NrSearchHit hit) {
+    final s = structure.value;
+    if (s == null) return null;
+
+    if (hit.sectionId == 'meta') {
+      return stripInlineMarkup(s.title);
+    }
+
+    if (hit.sectionId == 'preamble') {
+      if (hit.blockIndex < 0 || hit.blockIndex >= s.preamble.blocks.length) {
+        return null;
+      }
+      return stripInlineMarkup(nrBlockPlainText(s.preamble.blocks[hit.blockIndex]));
+    }
+
+    NrSection? section;
+    for (final sec in s.sections) {
+      if (sec.id == hit.sectionId) {
+        section = sec;
+        break;
+      }
+    }
+    if (section == null) return null;
+
+    if (hit.blockIndex < 0) {
+      return stripInlineMarkup(section.displayTitle);
+    }
+    if (hit.blockIndex >= section.blocks.length) return null;
+    return stripInlineMarkup(nrBlockPlainText(section.blocks[hit.blockIndex]));
   }
 
   int _resolveBlockIndexForHit({

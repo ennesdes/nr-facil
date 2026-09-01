@@ -26,6 +26,58 @@ from _common import list_all_nrs, ensure_content_dir, setup_logging
 logger = logging.getLogger(__name__)
 
 
+def _repair_broken_table_rows(text: str) -> str:
+    """
+    Reúne linhas físicas que pertencem à mesma linha de tabela Markdown.
+
+    Quando células vêm com \\n do PDF, o markdown gerado pode quebrar uma linha
+  de tabela em várias linhas físicas (ex.: ``| GRAU`` / ``de`` / ``RISCO* | ...``).
+    """
+    lines = text.split("\n")
+    result: list[str] = []
+    i = 0
+
+    while i < len(lines):
+        stripped = lines[i].strip()
+
+        if not stripped.startswith("|"):
+            result.append(lines[i])
+            i += 1
+            continue
+
+        fragments = [stripped]
+        i += 1
+        while i < len(lines):
+            next_stripped = lines[i].strip()
+            if not next_stripped:
+                break
+            current = " ".join(fragments)
+            if current.endswith("|") and next_stripped.startswith("|"):
+                break
+            if not next_stripped.startswith("|") and "|" not in next_stripped:
+                # Continuação de célula sem pipe — ainda faz parte da mesma linha.
+                fragments.append(next_stripped)
+                i += 1
+                continue
+            if next_stripped.startswith("|") or "|" in next_stripped:
+                fragments.append(next_stripped)
+                i += 1
+                if " ".join(fragments).rstrip().endswith("|"):
+                    break
+                continue
+            break
+
+        merged = re.sub(r"\s*\|\s*", " | ", " ".join(fragments))
+        merged = re.sub(r" {2,}", " ", merged).strip()
+        if not merged.startswith("|"):
+            merged = f"| {merged}"
+        if not merged.endswith("|"):
+            merged = f"{merged} |"
+        result.append(merged)
+
+    return "\n".join(result)
+
+
 def normalize_markdown(text: str) -> str:
     """
     Normaliza o Markdown extraído de PDF.
@@ -34,8 +86,9 @@ def normalize_markdown(text: str) -> str:
     1. Remove páginas vazias / linhas de rodapé repetidas
     2. Padroniza headings em formato "17.1", "17.1.1", etc.
     3. Corrige hifenização quebrada (linha termina em hífen)
-    4. Remove espaços em branco excessivos
-    5. Remove sequências de linhas vazias > 2
+    4. Repara linhas de tabela quebradas por \\n dentro de células
+    5. Remove espaços em branco excessivos
+    6. Remove sequências de linhas vazias > 2
     """
     lines = text.split("\n")
 
@@ -80,6 +133,7 @@ def normalize_markdown(text: str) -> str:
             normalized.append(line)
 
     text = "\n".join(normalized)
+    text = _repair_broken_table_rows(text)
 
     # Remove linhas em branco excessivas (mais de 2 consecutivas)
     text = re.sub(r"\n\n\n+", "\n\n", text)

@@ -47,6 +47,12 @@ logger = logging.getLogger(__name__)
 # ============================================================================
 
 
+def _normalize_table_cell(cell) -> str:
+    """Colapsa quebras de linha dentro de célula (artefato comum do PDF)."""
+    text = re.sub(r"\s+", " ", str(cell or "").replace("\n", " ")).strip()
+    return text.replace("|", "\\|")
+
+
 def _table_to_markdown(table: list[list]) -> str:
     """
     Converte uma tabela (lista de listas) para Markdown.
@@ -58,7 +64,7 @@ def _table_to_markdown(table: list[list]) -> str:
 
     # Cabeçalho: primeira linha
     header_row = table[0]
-    header = "| " + " | ".join(str(cell or "").replace("|", "\\|") for cell in header_row) + " |"
+    header = "| " + " | ".join(_normalize_table_cell(cell) for cell in header_row) + " |"
 
     # Linha separadora: um --- por coluna
     sep_row = "| " + " | ".join("---" for _ in header_row) + " |"
@@ -66,7 +72,7 @@ def _table_to_markdown(table: list[list]) -> str:
     # Dados: demais linhas
     data_lines = []
     for row in table[1:]:
-        line = "| " + " | ".join(str(cell or "").replace("|", "\\|") for cell in row) + " |"
+        line = "| " + " | ".join(_normalize_table_cell(cell) for cell in row) + " |"
         data_lines.append(line)
 
     return header + "\n" + sep_row + "\n" + "\n".join(data_lines)

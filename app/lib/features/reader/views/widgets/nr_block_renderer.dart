@@ -91,17 +91,20 @@ class NrBlockRenderer extends StatelessWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
-      child: SearchableMarkdownBody(
-        data: table.markdown,
-        highlightQuery: highlightQuery,
-        styleSheet: MarkdownStyleSheet(
-          p: TextStyle(fontSize: fontSize - 1, color: textColor),
-          tableHead: TextStyle(
-            fontSize: fontSize - 1,
-            fontWeight: FontWeight.bold,
-            color: textColor,
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: SearchableMarkdownBody(
+          data: table.markdown,
+          highlightQuery: highlightQuery,
+          styleSheet: MarkdownStyleSheet(
+            p: TextStyle(fontSize: fontSize - 1, color: textColor),
+            tableHead: TextStyle(
+              fontSize: fontSize - 1,
+              fontWeight: FontWeight.bold,
+              color: textColor,
+            ),
+            tableBody: TextStyle(fontSize: fontSize - 1, color: textColor),
           ),
-          tableBody: TextStyle(fontSize: fontSize - 1, color: textColor),
         ),
       ),
     );
