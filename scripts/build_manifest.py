@@ -174,6 +174,10 @@ def build_nr_entry(nr_id: str, owner: str, repo: str, branch: str) -> dict[str, 
     # Por padrão False até alguém marcar como revisado
     reviewed = meta.get("reviewed", False)
 
+    revogada = bool(nr_data.get("revogada", False))
+    substitui_por = nr_data.get("substitui_por")
+    pdf_url = nr_data.get("pdf_url")
+
     entry = {
         "id": nr_id,
         "title": title,
@@ -185,7 +189,10 @@ def build_nr_entry(nr_id: str, owner: str, repo: str, branch: str) -> dict[str, 
         "publicado_em": publicado_em,
         "vigente_desde": vigente_desde,
         "url": url,
+        "pdf_url": pdf_url,
         "reviewed": reviewed,
+        "revogada": revogada,
+        "substitui_por": substitui_por,
     }
 
     return entry

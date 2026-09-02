@@ -88,20 +88,7 @@
           "items": [
             {
               "label": "c",
-              "text": "vasos de pressão que contenham fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1, independente do produto P.V;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "recipientes móveis com P.V superior a oito, onde P é o módulo da pressão máxima de operação em kPa, ou com fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1;"
+              "text": "vasos de pressão que contenham fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1, independente do produto P.V; - d) recipientes móveis com P.V superior a oito, onde P é o módulo da pressão máxima de operação em kPa, ou com fluidos da classe A, especificados na alínea “a” do subitem 13.5.1.1.1;"
             }
           ]
         },
@@ -304,15 +291,7 @@
           "type": "item",
           "number": "13.2.3",
           "depth": 2,
-          "text": "O disposto no item 13.2.2 não exime o empregador do dever de inspecionar e executar a manutenção dos referidos equipamentos e de outros sistemas pressurizados que ofereçam riscos aos trabalhadores, acompanhadas ou executadas por um"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "responsável técnico, e observadas as recomendações do fabricante, bem como o disposto em códigos ou normas aplicáveis. _(retificado em 20/10/2022)_"
+          "text": "O disposto no item 13.2.2 não exime o empregador do dever de inspecionar e executar a manutenção dos referidos equipamentos e de outros sistemas pressurizados que ofereçam riscos aos trabalhadores, acompanhadas ou executadas por um responsável técnico, e observadas as recomendações do fabricante, bem como o disposto em códigos ou normas aplicáveis. _(retificado em 20/10/2022)_"
         }
       ]
     },
@@ -416,10 +395,6 @@
           "number": "13.3.4",
           "depth": 2,
           "text": "A inspeção de segurança dos equipamentos abrangidos por esta NR deve ser respaldada por exames e testes, a critério técnico do PLH, observado o disposto em códigos ou normas aplicáveis."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -549,20 +524,7 @@
           "items": [
             {
               "label": "b",
-              "text": "determinar materiais, procedimentos de execução, controle de qualidade e qualificação de pessoal; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "ser divulgados para os empregados do estabelecimento que estão envolvidos com o equipamento."
+              "text": "determinar materiais, procedimentos de execução, controle de qualidade e qualificação de pessoal; e c) ser divulgados para os empregados do estabelecimento que estão envolvidos com o equipamento."
             }
           ]
         },
@@ -661,20 +623,7 @@
           "items": [
             {
               "label": "b",
-              "text": "descrição da ocorrência;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "nome e função da(s) vítima(s);"
+              "text": "descrição da ocorrência; - c) nome e função da(s) vítima(s);"
             }
           ]
         },
@@ -831,20 +780,7 @@
           "items": [
             {
               "label": "b",
-              "text": "número de ordem dado pelo fabricante da caldeira;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "ano de fabricação;"
+              "text": "número de ordem dado pelo fabricante da caldeira; - c) ano de fabricação;"
             }
           ]
         },
@@ -1006,20 +942,7 @@
           "type": "item",
           "number": "13.4.1.8",
           "depth": 3,
-          "text": "O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança da caldeira, inclusive alterações nos prazos de inspeção; e"
-            }
-          ]
+          "text": "O registro de segurança deve ser constituído por livro de páginas numeradas, pastas ou sistema informatizado onde serão registradas: - a) todas as ocorrências importantes capazes de influir nas condições de segurança da caldeira, inclusive alterações nos prazos de inspeção; e"
         },
         {
           "type": "list",
@@ -1134,20 +1057,7 @@
           "items": [
             {
               "label": "b",
-              "text": "dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "dispor de ventilação permanente com entradas de ar que não possam ser bloqueadas;"
+              "text": "dispor de pelo menos duas saídas amplas, permanentemente desobstruídas, sinalizadas e dispostas em direções distintas; - c) dispor de ventilação permanente com entradas de ar que não possam ser bloqueadas;"
             }
           ]
         },
@@ -1279,10 +1189,6 @@
           "number": "13.4.4",
           "depth": 2,
           "text": "Inspeção de segurança de caldeiras"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1417,8 +1323,10 @@
           "text": "No máximo, ao completar vinte e cinco anos de uso, na sua inspeção subsequente, as caldeiras devem ser submetidas a uma avaliação de integridade com maior abrangência, de acordo com códigos ou normas aplicáveis, para determinar a sua vida remanescente e novos prazos máximos para inspeção, caso ainda estejam em condições de uso."
         },
         {
-          "type": "note",
-          "text": "**13.4.4.7** As válvulas de segurança de caldeiras devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém, não superior ao previsto Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "13.4.4.7",
+          "depth": 3,
+          "text": "As válvulas de segurança de caldeiras devem ser desmontadas, inspecionadas e testadas com prazo adequado à sua manutenção, porém, não superior ao previsto"
         },
         {
           "type": "paragraph",
@@ -1524,20 +1432,7 @@
           "type": "item",
           "number": "13.4.4.12",
           "depth": 3,
-          "text": "O relatório de inspeção de segurança, mencionado na alínea “e” do subitem 13.4.1.5, deve conter no mínimo:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "dados constantes na placa de identificação da caldeira;"
-            }
-          ]
+          "text": "O relatório de inspeção de segurança, mencionado na alínea “e” do subitem 13.4.1.5, deve conter no mínimo: - a) dados constantes na placa de identificação da caldeira;"
         },
         {
           "type": "list",
@@ -1731,20 +1626,7 @@
         },
         {
           "type": "paragraph",
-          "text": "II - fluidos tóxicos com limite de tolerância superior a vinte partes por milhão (20 ppm)."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "classe C:"
-            }
-          ]
+          "text": "II - fluidos tóxicos com limite de tolerância superior a vinte partes por milhão (20 ppm). c) classe C:"
         },
         {
           "type": "paragraph",
@@ -1873,10 +1755,6 @@
               "text": "instrumento que indique a pressão de operação, instalado diretamente no vaso ou no sistema que o contenha."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2047,10 +1925,6 @@
           "text": "Quando inexistente ou extraviado, o prontuário do vaso de pressão deve ser reconstituído pelo empregador, com responsabilidade técnica do fabricante ou de PLH, sendo imprescindível a reconstituição das premissas de projeto, dos dados dos dispositivos de segurança e da memória de cálculo da PMTA."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "13.5.1.6.1",
           "depth": 4,
@@ -2180,10 +2054,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "13.5.2.3",
           "depth": 3,
@@ -2304,10 +2174,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "13.5.4.4",
           "depth": 3,
@@ -2404,10 +2270,6 @@
               "text": "anuência do empregador ou de preposto por ele designado."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2541,20 +2403,7 @@
           "items": [
             {
               "label": "f",
-              "text": "data de início e término da inspeção;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "g",
-              "text": "descrição das inspeções, exames e testes executados;"
+              "text": "data de início e término da inspeção; - g) descrição das inspeções, exames e testes executados;"
             }
           ]
         },
@@ -2741,20 +2590,7 @@
           "items": [
             {
               "label": "d",
-              "text": "relatórios de inspeção de segurança; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "certificados de inspeção e teste dos dispositivos de segurança, se aplicável."
+              "text": "relatórios de inspeção de segurança; e e) certificados de inspeção e teste dos dispositivos de segurança, se aplicável."
             }
           ]
         },
@@ -2892,20 +2728,7 @@
           "items": [
             {
               "label": "e",
-              "text": "descrição das inspeções, exames e testes executados;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "registro fotográfico ou registro da localização das anomalias significativas detectadas no exame externo da tubulação;"
+              "text": "descrição das inspeções, exames e testes executados; - f) registro fotográfico ou registro da localização das anomalias significativas detectadas no exame externo da tubulação;"
             }
           ]
         },
@@ -3083,20 +2906,7 @@
           "items": [
             {
               "label": "a",
-              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança dos tanques; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do tanque, o nome legível e assinatura de responsável técnico formalmente designado pelo empregador."
+              "text": "todas as ocorrências importantes capazes de influir nas condições de segurança dos tanques; e - b) as ocorrências de inspeções de segurança inicial, periódica e extraordinária, devendo constar a condição operacional do tanque, o nome legível e assinatura de responsável técnico formalmente designado pelo empregador."
             }
           ]
         },
@@ -3237,20 +3047,7 @@
           "items": [
             {
               "label": "e",
-              "text": "descrição das inspeções, exames e testes executados;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "registro fotográfico ou registro da localização das anomalias significativas detectadas nos exames internos e externos do tanque;"
+              "text": "descrição das inspeções, exames e testes executados; - f) registro fotográfico ou registro da localização das anomalias significativas detectadas nos exames internos e externos do tanque;"
             }
           ]
         },
@@ -3429,10 +3226,6 @@
           "number": "1.3.2",
           "depth": 2,
           "text": "A adoção do EaD não elide o disposto no item 1.3, alínea “d” deste Anexo."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -3542,18 +3335,10 @@
       "blocks": []
     },
     {
-      "id": "19-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-caldeiras-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-em-caldeiras-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-escoamento-de-gases-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-considerações-gerais-sobre-caldeiras-tipos-de-caldeiras-e-suas-utilizações-caldeiras-flamotubulares-caldeiras-aquatubulares-caldeiras-elétricas-caldeiras-a-combustíveis-sólidos-caldeiras-a-combustíveis-líquidos-caldeiras-a-gás-acessórios-de-caldeiras-instrumentos-e-dispositivos-de-controle-de-caldeiras-dispositivo-de-alimentação-visor-de-nível-sistema-de-controle-de-nível-indicadores-de-pressão-dispositivos-de-segurança-dispositivos-auxiliares-válvulas-e-tubulações-tiragem-de-fumaça-sistema-instrumentado-de-segurança-operação-de-caldeiras-partida-e-parada-regulagem-e-controle-de-temperatura-de-pressão-de-fornecimento-de-energia-do",
+      "id": "19-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-caldeiras-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-em-caldeiras-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-escoamento-de-gases-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-considerações-gerais-sobre-caldeiras-tipos-de-caldeiras-e-suas-utilizações-caldeiras-flamotubulares-caldeiras-aquatubulares-caldeiras-elétricas-caldeiras-a-combustíveis-sólidos-caldeiras-a-combustíveis-líquidos-caldeiras-a-gás-acessórios-de-caldeiras-instrumentos-e-dispositivos-de-controle-de-caldeiras-dispositivo-de-alimentação-visor-de-nível-sistema-de-controle-de-nível-indicadores-de-pressão-dispositivos-de-segurança-dispositivos-auxiliares-válvulas-e-tubulações-tiragem-de-fumaça-sistema-instrumentado-de-segurança-operação-de-caldeiras-partida-e-parada-regulagem-e-controle-de-temperatura-de-pressão-de-fornecimento-de-energia-do-nível-de-água-de-poluentes-e-de-combustão-falhas-de-operação-causas-e-providências-roteiro-de-vistoria-diária-operação-de-um-sistema-de-várias-caldeiras-procedimentos-para-situações-de-emergência-tratamento-de-água-de-caldeiras-impurezas-da-água-e-suas-consequências-tratamento-de-água-de-alimentação-controle-de-água-de-caldeira-prevenção-contra-explosões-e-outros-riscos-riscos-gerais-de-acidentes-e-riscos-à-saúde-riscos-de-explosão-estudos-de-caso-legislação-e-normalização-norma-regulamentadora-nº-13-nr-13-categoria-de-caldeiras-b-tópicos-de-inspeção-e-manutenção-de-equipamentos-e-registros-_retificado-em-20102022_",
       "number": "1.9",
-      "title": "Currículo mínimo para treinamento de segurança na operação de Caldeiras: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna em caldeiras. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos Vapor saturado e vapor superaquecido. Mecânica dos Fluidos. Conceitos fundamentais. Pressão em escoamento. Escoamento de gases. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Considerações gerais sobre caldeiras. Tipos de caldeiras e suas utilizações. Caldeiras flamotubulares. Caldeiras aquatubulares. Caldeiras elétricas. Caldeiras a combustíveis sólidos. Caldeiras a combustíveis líquidos. Caldeiras a gás. Acessórios de caldeiras. Instrumentos e dispositivos de controle de caldeiras. Dispositivo de alimentação. Visor de nível. Sistema de controle de nível. Indicadores de pressão. Dispositivos de segurança. Dispositivos auxiliares. Válvulas e tubulações. Tiragem de fumaça. Sistema instrumentado de segurança. Operação de caldeiras. Partida e parada. Regulagem e controle: de temperatura, de pressão, de fornecimento de energia, do",
+      "title": "Currículo mínimo para treinamento de segurança na operação de Caldeiras: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna em caldeiras. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos Vapor saturado e vapor superaquecido. Mecânica dos Fluidos. Conceitos fundamentais. Pressão em escoamento. Escoamento de gases. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Considerações gerais sobre caldeiras. Tipos de caldeiras e suas utilizações. Caldeiras flamotubulares. Caldeiras aquatubulares. Caldeiras elétricas. Caldeiras a combustíveis sólidos. Caldeiras a combustíveis líquidos. Caldeiras a gás. Acessórios de caldeiras. Instrumentos e dispositivos de controle de caldeiras. Dispositivo de alimentação. Visor de nível. Sistema de controle de nível. Indicadores de pressão. Dispositivos de segurança. Dispositivos auxiliares. Válvulas e tubulações. Tiragem de fumaça. Sistema instrumentado de segurança. Operação de caldeiras. Partida e parada. Regulagem e controle: de temperatura, de pressão, de fornecimento de energia, do nível de água, de poluentes e de combustão. Falhas de operação, causas e providências. Roteiro de vistoria diária. Operação de um sistema de várias caldeiras. Procedimentos para situações de emergência. Tratamento de água de caldeiras. Impurezas da água e suas consequências. Tratamento de água de alimentação. Controle de água de caldeira. Prevenção contra explosões e outros riscos. Riscos gerais de acidentes e riscos à saúde. Riscos de explosão. Estudos de caso. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categoria de caldeiras B. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificado em 20/10/2022)_",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "nível de água, de poluentes e de combustão. Falhas de operação, causas e providências. Roteiro de vistoria diária. Operação de um sistema de várias caldeiras. Procedimentos para situações de emergência. Tratamento de água de caldeiras. Impurezas da água e suas consequências. Tratamento de água de alimentação. Controle de água de caldeira. Prevenção contra explosões e outros riscos. Riscos gerais de acidentes e riscos à saúde. Riscos de explosão. Estudos de caso. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categoria de caldeiras B. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificado em 20/10/2022)_"
-        },
         {
           "type": "paragraph",
           "text": "**2.** Vasos de Pressão"
@@ -3674,12 +3459,7 @@
       "id": "25-os-responsáveis-pelo-treinamento-de-segurança-na-operação-de-unidades-de-processo-estão-sujeitos-ao-impedimento-de-ministrar-novos-cursos-bem-como-a-outras-sanções-legais-cabíveis-no-caso-de-inobservância-do-disposto-no-item-24",
       "number": "2.5",
       "title": "Os responsáveis pelo treinamento de segurança na operação de unidades de processo estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 2.4",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "26-todo-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processo-deve-ser-submetido-à-prática-profissional-supervisionada-com-duração-de-trezentas-horas-na-operação-de-unidade-de-processo-que-possuam-vasos-de-pressão-de-categorias-i-ou-ii",
@@ -3762,19 +3542,10 @@
       "blocks": []
     },
     {
-      "id": "210-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-unidades-de-processo-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-pressão-externa-e-vácuo-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-tipos-de-escoamento-laminar-e-turbulento-escoamento-de-líquidos-transferência-por-gravidade-diferença-de-pressão-sifão-perda-de-carga-conceito-rugosidade-acidentes-princípio-de-bombeamento-de-fluidos-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-equipamentos-de-processo-carga-horária-estabelecida-de-acordo-com-a-complexidade-da-unidade-onde-aplicável-acessórios-de-tubulações-acessórios-elétricos-e-outros-itens-aquecedores-de-água-bombas-caldeiras-conhecimento-básico-compressores-condensador-desmineralizador-esferas-evaporadores-filtros-lavador-de-gases-reatores-resfriador-secadores-silos-tanques-de-armazenamento-torres-trocadores-calor-tubulações-industriais-turbinas-a-vapor-injetores-e-ejetores-dispositivos-de-segurança-outros-instrumentação-operação-da-unidade-descrição-do-processo-partida-e-parada-procedimentos-de-emergência-descarte-de-produtos-químicos-e-preservação-do-meio-ambiente-avaliação-e-controle-de-riscos-inerentes-ao-processo-prevenção-contra-deterioração-explosão-e-outros-riscos-legislação-e-normalização",
+      "id": "210-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-unidades-de-processo-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-pressão-externa-e-vácuo-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-tipos-de-escoamento-laminar-e-turbulento-escoamento-de-líquidos-transferência-por-gravidade-diferença-de-pressão-sifão-perda-de-carga-conceito-rugosidade-acidentes-princípio-de-bombeamento-de-fluidos-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-equipamentos-de-processo-carga-horária-estabelecida-de-acordo-com-a-complexidade-da-unidade-onde-aplicável-acessórios-de-tubulações-acessórios-elétricos-e-outros-itens-aquecedores-de-água-bombas-caldeiras-conhecimento-básico-compressores-condensador-desmineralizador-esferas-evaporadores-filtros-lavador-de-gases-reatores-resfriador-secadores-silos-tanques-de-armazenamento-torres-trocadores-calor-tubulações-industriais-turbinas-a-vapor-injetores-e-ejetores-dispositivos-de-segurança-outros-instrumentação-operação-da-unidade-descrição-do-processo-partida-e-parada-procedimentos-de-emergência-descarte-de-produtos-químicos-e-preservação-do-meio-ambiente-avaliação-e-controle-de-riscos-inerentes-ao-processo-prevenção-contra-deterioração-explosão-e-outros-riscos-legislação-e-normalização-norma-regulamentadora-nº-13-nr-13-categorias-de-vasos-de-pressão-tópicos-de-inspeção-e-manutenção-de-equipamentos-e-registros-_retificada-em-20102022_",
       "number": "2.10",
-      "title": "Currículo mínimo para treinamento de segurança na operação de unidades de processo: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna, pressão externa e vácuo. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos. Vapor saturado e vapor superaquecido. Mecânica dos fluidos. Conceitos fundamentais. Pressão em escoamento. Tipos de escoamento: laminar e turbulento. Escoamento de líquidos: transferência por gravidade, diferença de pressão, sifão. Perda de carga: conceito, rugosidade, acidentes. Princípio de bombeamento de fluidos. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Equipamentos de processo (carga horária estabelecida de acordo com a complexidade da unidade, onde aplicável). Acessórios de tubulações. Acessórios elétricos e outros itens. Aquecedores de água. Bombas. Caldeiras (conhecimento básico). Compressores. Condensador. Desmineralizador. Esferas. Evaporadores. Filtros. Lavador de gases. Reatores. Resfriador. Secadores. Silos. Tanques de armazenamento. Torres. Trocadores calor. Tubulações industriais. Turbinas a vapor. Injetores e ejetores. Dispositivos de segurança. Outros. Instrumentação. Operação da unidade. Descrição do processo. Partida e parada. Procedimentos de emergência. Descarte de produtos químicos e preservação do meio ambiente. Avaliação e controle de riscos inerentes ao processo. Prevenção contra deterioração, explosão e outros riscos. Legislação e normalização",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Norma Regulamentadora nº 13 (NR-13). Categorias de vasos de pressão. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificada em 20/10/2022)_"
-        }
-      ]
+      "title": "Currículo mínimo para treinamento de segurança na operação de unidades de processo: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna, pressão externa e vácuo. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos. Vapor saturado e vapor superaquecido. Mecânica dos fluidos. Conceitos fundamentais. Pressão em escoamento. Tipos de escoamento: laminar e turbulento. Escoamento de líquidos: transferência por gravidade, diferença de pressão, sifão. Perda de carga: conceito, rugosidade, acidentes. Princípio de bombeamento de fluidos. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Equipamentos de processo (carga horária estabelecida de acordo com a complexidade da unidade, onde aplicável). Acessórios de tubulações. Acessórios elétricos e outros itens. Aquecedores de água. Bombas. Caldeiras (conhecimento básico). Compressores. Condensador. Desmineralizador. Esferas. Evaporadores. Filtros. Lavador de gases. Reatores. Resfriador. Secadores. Silos. Tanques de armazenamento. Torres. Trocadores calor. Tubulações industriais. Turbinas a vapor. Injetores e ejetores. Dispositivos de segurança. Outros. Instrumentação. Operação da unidade. Descrição do processo. Partida e parada. Procedimentos de emergência. Descarte de produtos químicos e preservação do meio ambiente. Avaliação e controle de riscos inerentes ao processo. Prevenção contra deterioração, explosão e outros riscos. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categorias de vasos de pressão. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificada em 20/10/2022)_",
+      "blocks": []
     },
     {
       "id": "anexo-ii-da-nr-13",
@@ -3885,8 +3656,8 @@
           "text": "**1.** O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento."
         },
         {
-          "type": "note",
-          "text": "**2.** Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "**2.** Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO."
         },
         {
           "type": "paragraph",
@@ -4037,20 +3808,7 @@
           "items": [
             {
               "label": "h",
-              "text": "parecer técnico de PLH fundamentando a decisão de extensão de prazo; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "i",
-              "text": "registro formal do cumprimento das alíneas anteriores."
+              "text": "parecer técnico de PLH fundamentando a decisão de extensão de prazo; e i) registro formal do cumprimento das alíneas anteriores."
             }
           ]
         }
@@ -4194,20 +3952,7 @@
           "type": "item",
           "number": "2.2",
           "depth": 1,
-          "text": "O SGC deve:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "ter estudos de confiabilidade e análise de risco conduzidos por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;"
-            }
-          ]
+          "text": "O SGC deve: - a) ter estudos de confiabilidade e análise de risco conduzidos por equipe multidisciplinar, com participação dos responsáveis pela operação da caldeira;"
         },
         {
           "type": "list",
@@ -4278,15 +4023,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Dispositivos de segurança: dispositivos ou componentes que protegem um equipamento contra sobrepressão manométrica, independente da ação do operador e de acionamento por fonte externa de energia. O dispositivo também pode ser projetado"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "para evitar vácuo interno excessivo. Exemplos: válvulas de segurança, válvulas de alívio, válvulas de segurança e alívio, válvulas piloto operadas, discos de ruptura, quebra - vácuo."
+          "text": "Dispositivos de segurança: dispositivos ou componentes que protegem um equipamento contra sobrepressão manométrica, independente da ação do operador e de acionamento por fonte externa de energia. O dispositivo também pode ser projetado para evitar vácuo interno excessivo. Exemplos: válvulas de segurança, válvulas de alívio, válvulas de segurança e alívio, válvulas piloto operadas, discos de ruptura, quebra - vácuo."
         },
         {
           "type": "paragraph",
@@ -4341,8 +4078,8 @@
           "text": "Hibernação: desativação temporária de máquina, equipamento, sistema ou unidade industrial, já em funcionamento ou em construção, por longa duração e com previsão de retorno operacional, preservando suas características."
         },
         {
-          "type": "note",
-          "text": "Inspeção de segurança extraordinária: inspeção executada devido a ocorrências que possam afetar a condição física do equipamento, tais como hibernação prolongada, Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "Inspeção de segurança extraordinária: inspeção executada devido a ocorrências que possam afetar a condição física do equipamento, tais como hibernação prolongada,"
         },
         {
           "type": "paragraph",
@@ -4390,15 +4127,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prática profissional supervisionada: momento em que o trabalhador desenvolve atividades profissionais vinculadas com os conteúdos teóricos recebidos em treinamento, com o acompanhamento e supervisão de outro profissional ou instrutor com domínio das atividades desenvolvidas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pressão máxima de operação: máxima pressão manométrica esperada durante a operação normal do sistema ou equipamento."
+          "text": "Prática profissional supervisionada: momento em que o trabalhador desenvolve atividades profissionais vinculadas com os conteúdos teóricos recebidos em treinamento, com o acompanhamento e supervisão de outro profissional ou instrutor com domínio das atividades desenvolvidas. Pressão máxima de operação: máxima pressão manométrica esperada durante a operação normal do sistema ou equipamento."
         },
         {
           "type": "paragraph",
@@ -4445,8 +4174,8 @@
           "text": "Sistema de gerenciamento de combustão: sistema automático de controle do processo de combustão, compreendendo a purga da fornalha, a ignição, a alimentação e o corte de combustíveis, bem como o monitoramento da chama, de modo a assessorar o operador e conferir mais segurança em etapas críticas de acendimento e desligamento da caldeira, inclusive nos cenários de intertravamento."
         },
         {
-          "type": "note",
-          "text": "Sistema de tubulação: agrupamento de tubulações sujeitas a condições operacionais e a mecanismos de deterioração semelhantes, vinculadas a um mesmo plano de inspeção, com a discriminação expressa dos respectivos códigos de identificação (tag), visando a Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "Sistema de tubulação: agrupamento de tubulações sujeitas a condições operacionais e a mecanismos de deterioração semelhantes, vinculadas a um mesmo plano de inspeção, com a discriminação expressa dos respectivos códigos de identificação (tag), visando a"
         },
         {
           "type": "paragraph",
@@ -4490,19 +4219,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vida remanescente (ou vida residual): estimativa de tempo restante de vida de um equipamento ou acessório, a partir de dados coletados em ensaios e testes destinados a monitorar os efeitos dos mecanismos de danos atuantes."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Volume: para fins desta NR é o volume interno do vaso de pressão, excluindo o volume dos acessórios, de enchimentos ou de catalisadores."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "Vida remanescente (ou vida residual): estimativa de tempo restante de vida de um equipamento ou acessório, a partir de dados coletados em ensaios e testes destinados a monitorar os efeitos dos mecanismos de danos atuantes. Volume: para fins desta NR é o volume interno do vaso de pressão, excluindo o volume dos acessórios, de enchimentos ou de catalisadores."
         }
       ]
     }

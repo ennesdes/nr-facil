@@ -5,6 +5,7 @@ import 'package:nrfacil/features/reader/views/widgets/nr_markdown_fallback_body.
 import 'package:nrfacil/features/reader/views/widgets/nr_reader_search_sheet.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_structured_body.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
+import 'package:nrfacil/features/reader/views/widgets/reader_drawer.dart';
 import 'package:nrfacil/features/reader/views/widgets/update_banner.dart';
 
 /// NRReaderPage — leitor estruturado de NRs com fallback Markdown.
@@ -22,20 +23,39 @@ class NRReaderPage extends GetView<NRReaderController> {
   }
 
   Widget _buildScaffold(BuildContext context) {
+    final isDark = controller.isDarkMode.value;
+
     return Scaffold(
+      key: controller.scaffoldKey,
+      backgroundColor: isDark ? const Color(0xFF121212) : null,
       appBar: ReaderAppBar(
         nrId: nrId,
+        isFavorite: controller.isFavorite,
+        isDarkMode: isDark,
+        onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
         onOpenSearch: () => NrReaderSearchSheet.show(
           context: context,
           controller: controller,
         ),
+        onToggleFavorite: controller.toggleFavorite,
+        onIncreaseFontSize: controller.increaseFontSize,
+        onDecreaseFontSize: controller.decreaseFontSize,
+        onToggleDarkMode: controller.toggleDarkMode,
+      ),
+      drawer: ReaderDrawer(
+        structure: controller.structure.value,
+        legacyIndex: controller.index.value,
+        onNavigate: controller.navigateToSection,
+        onNavigateToItem: controller.navigateToItemNumber,
+        onExpandAll: controller.expandAllSections,
+        onCollapseAll: controller.collapseAllSections,
       ),
       body: _buildBody(context),
     );
   }
 
   Widget _buildBody(BuildContext context) {
-    if (controller.isLoading.value) {
+    if (controller.isLoading.value || controller.isDownloading.value) {
       return const Center(child: CircularProgressIndicator());
     }
 
@@ -53,6 +73,12 @@ class NRReaderPage extends GetView<NRReaderController> {
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
+              const SizedBox(height: 16),
+              FilledButton.icon(
+                onPressed: controller.downloadNrContent,
+                icon: const Icon(Icons.download),
+                label: const Text('Baixar agora'),
+              ),
             ],
           ),
         ),
@@ -65,6 +91,7 @@ class NRReaderPage extends GetView<NRReaderController> {
     }
 
     final fontSize = controller.fontSize.value;
+    final isDark = controller.isDarkMode.value;
     final banner = controller.showUpdateBanner.value
         ? const UpdateBanner()
         : null;
@@ -75,7 +102,7 @@ class NRReaderPage extends GetView<NRReaderController> {
         nrEntry: controller.nrEntry.value,
         nrId: nrId,
         fontSize: fontSize,
-        isDarkMode: false,
+        isDarkMode: isDark,
         scrollController: controller.scrollController,
         sectionKeyFor: controller.sectionKeyFor,
         banner: banner,
@@ -87,7 +114,7 @@ class NRReaderPage extends GetView<NRReaderController> {
       nrId: nrId,
       nrEntry: controller.nrEntry.value,
       fontSize: fontSize,
-      isDarkMode: false,
+      isDarkMode: isDark,
       scrollController: controller.scrollController,
       onRegisterHeadingKey: controller.registerHeadingKey,
       banner: banner,

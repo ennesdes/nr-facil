@@ -66,6 +66,7 @@ class NRReaderController extends GetxController {
   final Map<String, GlobalKey> _blockKeys = {};
   final Map<String, GlobalKey> _headingKeys = {};
   final ScrollController _scrollController = ScrollController();
+  final scaffoldKey = GlobalKey<ScaffoldState>();
   bool _initialAnchorHandled = false;
   int _searchGeneration = 0;
 
@@ -77,13 +78,37 @@ class NRReaderController extends GetxController {
   @override
   Future<void> onInit() async {
     super.onInit();
+    _loadReaderPreferences();
     _isFavorite = contentService.isFavorite(nrId).obs;
     await _loadNr();
     if (error.value == null) {
       showUpdateBanner.value = contentService.hasUpdate(nrId);
       GetStorage().write(StorageKeys.lastOpenedNr, nrId);
       contentService.addToReadingHistory(nrId);
+      _expandInitialSections();
     }
+  }
+
+  void _loadReaderPreferences() {
+    final storedSize = GetStorage().read<num>(StorageKeys.readerFontSize);
+    if (storedSize != null) {
+      fontSize.value = storedSize.toDouble().clamp(12, 20);
+    }
+    isDarkMode.value = GetStorage().read<bool>(StorageKeys.readerDarkMode) ?? false;
+  }
+
+  void _persistReaderPreferences() {
+    GetStorage().write(StorageKeys.readerFontSize, fontSize.value);
+    GetStorage().write(StorageKeys.readerDarkMode, isDarkMode.value);
+  }
+
+  void _expandInitialSections() {
+    if (initialAnchor != null && initialAnchor!.isNotEmpty) {
+      return; // _handleInitialAnchor cuida da expansão
+    }
+    final s = structure.value;
+    if (s == null || s.sections.isEmpty) return;
+    expandSection(s.sections.first.id);
   }
 
   @override
@@ -133,7 +158,7 @@ class NRReaderController extends GetxController {
       final mdContent = await contentService.readNrContent(nrId);
       if (mdContent == null) {
         error.value =
-            'Conteúdo de $nrId não encontrado em cache. Sincronize antes.';
+            'Conteúdo de $nrId não encontrado em cache. Toque em Baixar para sincronizar.';
         return;
       }
       content.value = mdContent;
@@ -248,14 +273,79 @@ class NRReaderController extends GetxController {
 
   void increaseFontSize() {
     if (fontSize.value < 20) fontSize.value += 2;
+    _persistReaderPreferences();
   }
 
   void decreaseFontSize() {
     if (fontSize.value > 12) fontSize.value -= 2;
+    _persistReaderPreferences();
   }
 
-  void toggleDarkMode() => isDarkMode.value = !isDarkMode.value;
+  void toggleDarkMode() {
+    isDarkMode.value = !isDarkMode.value;
+    _persistReaderPreferences();
+  }
   void toggleIndex() => isIndexOpen.value = !isIndexOpen.value;
+
+  void expandAllSections() {
+    final s = structure.value;
+    if (s == null) return;
+    expandedSectionIds
+      ..clear()
+      ..addAll(s.sections.map((sec) => sec.id));
+    expandedSectionIds.refresh();
+    isPreambleExpanded.value = s.preamble.blocks.isNotEmpty;
+  }
+
+  void collapseAllSections() {
+    expandedSectionIds.clear();
+    expandedSectionIds.refresh();
+    isPreambleExpanded.value = false;
+  }
+
+  void navigateToItemNumber(String itemNumber) {
+    final normalized = itemNumber.trim();
+    if (normalized.isEmpty) return;
+
+    final s = structure.value;
+    if (s != null) {
+      for (final section in s.sections) {
+        for (var i = 0; i < section.blocks.length; i++) {
+          final block = section.blocks[i];
+          if (block is NrItemBlock && block.number == normalized) {
+            expandSection(section.id);
+            goToSearchHit(
+              NrSearchHit(
+                sectionId: section.id,
+                blockIndex: i,
+                matchStart: 0,
+                label: '${block.number} ${block.text}',
+                snippet: block.text,
+              ),
+            );
+            isIndexOpen.value = false;
+            return;
+          }
+        }
+      }
+    }
+
+    navigateToSection(normalized);
+  }
+
+  final isDownloading = false.obs;
+
+  Future<void> downloadNrContent() async {
+    isDownloading.value = true;
+    try {
+      final ok = await contentService.downloadNrIfNeeded(nrId);
+      if (ok) {
+        await _loadNr();
+      }
+    } finally {
+      isDownloading.value = false;
+    }
+  }
 
   ScrollController get scrollController => _scrollController;
   bool get isFavorite => _isFavorite.value;

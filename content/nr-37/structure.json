@@ -12,15 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria MTP n.º 90, de 18 de janeiro de 2022)_ **SUMÁRIO** : 37.1 Objetivo 37.2 Campo de aplicação 37.3 Responsabilidades 37.4 Direitos dos trabalhadores 37.5 Programa de Gerenciamento de Riscos  - PGR e análise de riscos das instalações e processos 37.6 Atenção à saúde na plataforma 37.7 Serviços Especializados em Segurança e em Medicina do Trabalho - SESMT 37.8 Comissão Interna de Prevenção de Acidentes e de Assédio em Plataformas - CIPLAT _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ 37.9 Capacitação e treinamento em segurança e saúde no trabalho 37.10 Comissionamento, ampliação, modificação, reparo, descomissionamento e desmonte 37.11 Acesso à plataforma 37.12 Condições de vivência a bordo 37.13 Alimentação a bordo 37.14 Climatização 37.15 Sinalização de segurança e saúde 37.16 Inspeções de segurança e saúde a bordo 37.17 Inspeções e manutenções 37.18 Procedimentos operacionais e organização do trabalho 37.19 Instalações elétricas 37.20 Movimentação e transporte de cargas 37.21 Armazenamento de substâncias perigosas 37.22 Caldeiras, vasos de pressão e tubulações 37.23 Sistema de detecção e alarme de incêndio e gases 37.24 Prevenção e controle de vazamentos, derramamentos, incêndios e explosões 37.25 Proteção e combate a incêndios 37.26 Proteção contra radiações ionizantes 37.27 Sistema de drenagem, de tratamento e de disposição de resíduos 37.28 Plano de Resposta a Emergências - PRE 37.29 Comunicação e investigação de acidentes 37.30 Declaração da Instalação Marítima - DIM 37.31 Documentação Anexo I - Curso básico para manipuladores de alimentos Anexo II - Símbolos para sinalizar fontes de radiação ionizante, locais de armazenamento de material radioativo e locais de trabalho com exposição à radiação ionizante industrial ou de ocorrência natural"
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
-      },
-      {
-        "type": "paragraph",
-        "text": "Anexo III - Curso complementar para serviços em instalações elétricas em alta tensão Anexo IV - Curso básico de segurança em operações de movimentação de cargas e transporte de pessoas Anexo V - Curso complementar para operadores de guindastes Anexo VI - Comunicação de Incidente em Plataforma - CIP Glossário"
+        "text": "_(Redação dada pela Portaria MTP n.º 90, de 18 de janeiro de 2022)_ **SUMÁRIO** : 37.1 Objetivo 37.2 Campo de aplicação 37.3 Responsabilidades 37.4 Direitos dos trabalhadores 37.5 Programa de Gerenciamento de Riscos  - PGR e análise de riscos das instalações e processos 37.6 Atenção à saúde na plataforma 37.7 Serviços Especializados em Segurança e em Medicina do Trabalho - SESMT 37.8 Comissão Interna de Prevenção de Acidentes e de Assédio em Plataformas - CIPLAT _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ 37.9 Capacitação e treinamento em segurança e saúde no trabalho 37.10 Comissionamento, ampliação, modificação, reparo, descomissionamento e desmonte 37.11 Acesso à plataforma 37.12 Condições de vivência a bordo 37.13 Alimentação a bordo 37.14 Climatização 37.15 Sinalização de segurança e saúde 37.16 Inspeções de segurança e saúde a bordo 37.17 Inspeções e manutenções 37.18 Procedimentos operacionais e organização do trabalho 37.19 Instalações elétricas 37.20 Movimentação e transporte de cargas 37.21 Armazenamento de substâncias perigosas 37.22 Caldeiras, vasos de pressão e tubulações 37.23 Sistema de detecção e alarme de incêndio e gases 37.24 Prevenção e controle de vazamentos, derramamentos, incêndios e explosões 37.25 Proteção e combate a incêndios 37.26 Proteção contra radiações ionizantes 37.27 Sistema de drenagem, de tratamento e de disposição de resíduos 37.28 Plano de Resposta a Emergências - PRE 37.29 Comunicação e investigação de acidentes 37.30 Declaração da Instalação Marítima - DIM 37.31 Documentação Anexo I - Curso básico para manipuladores de alimentos Anexo II - Símbolos para sinalizar fontes de radiação ionizante, locais de armazenamento de material radioativo e locais de trabalho com exposição à radiação ionizante industrial ou de ocorrência natural Anexo III - Curso complementar para serviços em instalações elétricas em alta tensão Anexo IV - Curso básico de segurança em operações de movimentação de cargas e transporte de pessoas Anexo V - Curso complementar para operadores de guindastes Anexo VI - Comunicação de Incidente em Plataforma - CIP Glossário"
       }
     ]
   },
@@ -111,8 +103,13 @@
           "text": "Cabe à operadora da instalação, além do disposto nas demais Normas Regulamentadoras gerais e especiais, de outras disposições legais com relação à matéria e, ainda, daquelas oriundas de convenções, acordos e contratos coletivos de trabalho:"
         },
         {
-          "type": "note",
-          "text": "a) garantir, pelos meios usuais de transporte e sem ônus para a inspeção do trabalho, o acesso Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "garantir, pelos meios usuais de transporte e sem ônus para a inspeção do trabalho, o acesso"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -244,17 +241,9 @@
           "items": [
             {
               "label": "c",
-              "text": "comunicar ao empregador e à inspeção do trabalho sobre qualquer risco potencial que"
+              "text": "comunicar ao empregador e à inspeção do trabalho sobre qualquer risco potencial que considere capaz de gerar um acidente ampliado."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "considere capaz de gerar um acidente ampliado."
         }
       ]
     },
@@ -375,10 +364,6 @@
           "text": "A partir das análises de riscos, a operadora da instalação deve definir a dotação e localização de lava-olhos e chuveiros de emergência na plataforma, os quais devem ser mantidos em perfeito estado de funcionamento e com fácil acesso."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.5.8",
           "depth": 2,
@@ -482,20 +467,7 @@
           "items": [
             {
               "label": "d",
-              "text": "antes da ampliação ou modificação da instalação, processo ou processamento, quando indicado pela gestão de mudanças;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "por solicitação do SESMT ou da CIPLAT, quando aprovada tecnicamente pelo responsável legal pela plataforma; e"
+              "text": "antes da ampliação ou modificação da instalação, processo ou processamento, quando indicado pela gestão de mudanças; - e) por solicitação do SESMT ou da CIPLAT, quando aprovada tecnicamente pelo responsável legal pela plataforma; e"
             }
           ]
         },
@@ -596,15 +568,7 @@
           "type": "item",
           "number": "37.6.3",
           "depth": 2,
-          "text": "Cabe ao empregador avaliar o estado de saúde dos trabalhadores que acessam a plataforma ou embarcação por intermédio de cesta de transferência, de modo que os"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "seguintes aspectos sejam considerados:"
+          "text": "Cabe ao empregador avaliar o estado de saúde dos trabalhadores que acessam a plataforma ou embarcação por intermédio de cesta de transferência, de modo que os seguintes aspectos sejam considerados:"
         },
         {
           "type": "list",
@@ -709,8 +673,10 @@
           "text": "Os profissionais de saúde lotados na plataforma devem implementar as medidas de prevenção, promoção e atendimento à saúde previstas nesta NR e nas demais, naquilo que couber, sendo vedado o desvio ou desvirtuamento dessas funções."
         },
         {
-          "type": "note",
-          "text": "**37.6.5.4** Os equipamentos, materiais e medicamentos para prestar a assistência à saúde e o atendimento de primeiros socorros aos trabalhadores a bordo devem ser definidos e descritos Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.6.5.4",
+          "depth": 3,
+          "text": "Os equipamentos, materiais e medicamentos para prestar a assistência à saúde e o atendimento de primeiros socorros aos trabalhadores a bordo devem ser definidos e descritos"
         },
         {
           "type": "paragraph",
@@ -800,15 +766,7 @@
           "type": "item",
           "number": "37.7.3.2",
           "depth": 3,
-          "text": "A empresa prestadora de serviços, em caráter permanente ou intermitente na"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "plataforma, deve lotar a bordo técnico de segurança do trabalho, quando o número total de seus empregados embarcados for igual ou superior a 50 (cinquenta), durante o período de prestação de serviços a bordo."
+          "text": "A empresa prestadora de serviços, em caráter permanente ou intermitente na plataforma, deve lotar a bordo técnico de segurança do trabalho, quando o número total de seus empregados embarcados for igual ou superior a 50 (cinquenta), durante o período de prestação de serviços a bordo."
         },
         {
           "type": "item",
@@ -893,10 +851,6 @@
           "number": "37.7.4.2",
           "depth": 3,
           "text": "Para as plataformas novas, o dimensionamento do SESMT a bordo deve ser baseado no efetivo estimado no item 37.18.5 desta NR."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -976,10 +930,6 @@
           "number": "37.8.8.1",
           "depth": 3,
           "text": "O calendário de reuniões ordinárias mensais da CIPLAT deve considerar a participação de todas as turmas de embarque ao longo do mandato."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1075,8 +1025,10 @@
           "text": "As deliberações da CIPLAT das prestadoras de serviços que demandem ações pela operadora da instalação devem ser encaminhadas à CIPLAT da operadora da instalação, para análise na sua próxima reunião."
         },
         {
-          "type": "note",
-          "text": "**37.8.13** Os membros da CIPLAT da prestadora de serviços, ou o empregado nomeado como responsável pelo cumprimento de suas atribuições, devem receber o resultado das análises de acidentes ou doenças ocupacionais ocorridas com os seus empregados a bordo e acompanhar a implementação das recomendações junto à operadora da instalação. Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.8.13",
+          "depth": 2,
+          "text": "Os membros da CIPLAT da prestadora de serviços, ou o empregado nomeado como responsável pelo cumprimento de suas atribuições, devem receber o resultado das análises de acidentes ou doenças ocupacionais ocorridas com os seus empregados a bordo e acompanhar a implementação das recomendações junto à operadora da instalação."
         },
         {
           "type": "item",
@@ -1209,20 +1161,7 @@
           "type": "item",
           "number": "37.9.6",
           "depth": 2,
-          "text": "O operador da instalação deve implementar programa de capacitação em segurança e saúde no trabalho em plataforma, compreendendo as seguintes modalidades:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "orientações gerais por ocasião de cada embarque ( **briefing** de segurança da plataforma);"
-            }
-          ]
+          "text": "O operador da instalação deve implementar programa de capacitação em segurança e saúde no trabalho em plataforma, compreendendo as seguintes modalidades: - a) orientações gerais por ocasião de cada embarque ( **briefing** de segurança da plataforma);"
         },
         {
           "type": "list",
@@ -1421,20 +1360,7 @@
           "items": [
             {
               "label": "g",
-              "text": "outros riscos inerentes às atividades específicas dos trabalhadores e as respectivas medidas de controle e eliminação;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "h",
-              "text": "riscos psicossociais decorrentes de vários estressores, como jornada prolongada, trabalho em turnos e noturno, abordando seus efeitos nas atividades laborais e na saúde;"
+              "text": "outros riscos inerentes às atividades específicas dos trabalhadores e as respectivas medidas de controle e eliminação; - h) riscos psicossociais decorrentes de vários estressores, como jornada prolongada, trabalho em turnos e noturno, abordando seus efeitos nas atividades laborais e na saúde;"
             }
           ]
         },
@@ -1614,17 +1540,9 @@
           "items": [
             {
               "label": "e",
-              "text": "acidentes com inflamáveis: suas causas  e as medidas preventivas existentes na área"
+              "text": "acidentes com inflamáveis: suas causas  e as medidas preventivas existentes na área operacional;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "operacional;"
         },
         {
           "type": "list",
@@ -1788,20 +1706,7 @@
           "items": [
             {
               "label": "c",
-              "text": "ser precedidos da emissão de permissões de trabalho e permissões de entrada e trabalho em espaços confinados, quando couber; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "ser acompanhados por profissional de segurança do trabalho, nas condições estabelecidas pela análise de riscos e simultaneidade, na qual devem ser estabelecidos os limites de permissões de trabalho por profissional de segurança."
+              "text": "ser precedidos da emissão de permissões de trabalho e permissões de entrada e trabalho em espaços confinados, quando couber; e - d) ser acompanhados por profissional de segurança do trabalho, nas condições estabelecidas pela análise de riscos e simultaneidade, na qual devem ser estabelecidos os limites de permissões de trabalho por profissional de segurança."
             }
           ]
         },
@@ -1906,10 +1811,6 @@
           "number": "37.10.2.2.1",
           "depth": 4,
           "text": "Caso ocorram alterações no cronograma inicial, a operadora da instalação deve manter a versão atualizada do cronograma a bordo, observando o prescrito no capítulo 37.31 desta NR."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -2051,10 +1952,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.11.1.3",
           "depth": 3,
@@ -2185,10 +2082,6 @@
           "number": "37.11.4.2",
           "depth": 3,
           "text": "É proibida a realização de operações simultâneas ou outras atividades na área de transferência de pessoal no decorrer da mesma."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -2356,10 +2249,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.11.5.4.1",
           "depth": 4,
@@ -2495,15 +2384,7 @@
           "type": "item",
           "number": "37.11.7",
           "depth": 2,
-          "text": "Quando a movimentação de trabalhadores entre a plataforma, fixa ou flutuante, e"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "embarcação adjacente for realizada por meio de passarela estabilizada ( **gangway** ), devem ser obedecidos os seguintes requisitos mínimos:"
+          "text": "Quando a movimentação de trabalhadores entre a plataforma, fixa ou flutuante, e embarcação adjacente for realizada por meio de passarela estabilizada ( **gangway** ), devem ser obedecidos os seguintes requisitos mínimos:"
         },
         {
           "type": "list",
@@ -2664,20 +2545,7 @@
           "items": [
             {
               "label": "d",
-              "text": "cozinha;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "lavanderia;"
+              "text": "cozinha; - e) lavanderia;"
             }
           ]
         },
@@ -2848,17 +2716,9 @@
           "items": [
             {
               "label": "e",
-              "text": "ter porta principal inteiriça, para manter a privacidade, e que permita a ventilação, seja"
+              "text": "ter porta principal inteiriça, para manter a privacidade, e que permita a ventilação, seja ejetável ou provida de painel de escape com dimensões de acordo com a NORMAM01/DPC;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "ejetável ou provida de painel de escape com dimensões de acordo com a NORMAM01/DPC;"
         },
         {
           "type": "list",
@@ -2999,8 +2859,10 @@
           "text": "Em instalações sanitárias masculinas de uso coletivo, é permitida a substituição de 50% (cinquenta por cento) dos vasos por mictórios para uso coletivo, desde que sejam assegurados, no mínimo, dois vasos."
         },
         {
-          "type": "note",
-          "text": "**37.12.4.4** A plataforma deve possuir, ainda, instalações sanitárias para uso coletivo dotadas Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.12.4.4",
+          "depth": 3,
+          "text": "A plataforma deve possuir, ainda, instalações sanitárias para uso coletivo dotadas"
         },
         {
           "type": "paragraph",
@@ -3206,17 +3068,9 @@
           "items": [
             {
               "label": "b",
-              "text": "possuir ralos com sistema de escoamento que impeça a comunicação das águas servidas"
+              "text": "possuir ralos com sistema de escoamento que impeça a comunicação das águas servidas entre os compartimentos;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "entre os compartimentos;"
         },
         {
           "type": "list",
@@ -3375,15 +3229,7 @@
           "type": "item",
           "number": "37.12.4.12",
           "depth": 3,
-          "text": "Os procedimentos de vigilância e controle da qualidade de água adotados no tratamento, armazenamento e distribuição para o consumo humano a bordo devem"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "considerar as informações contidas nas análises de riscos da instalação."
+          "text": "Os procedimentos de vigilância e controle da qualidade de água adotados no tratamento, armazenamento e distribuição para o consumo humano a bordo devem considerar as informações contidas nas análises de riscos da instalação."
         },
         {
           "type": "item",
@@ -3525,10 +3371,6 @@
           "number": "37.12.5.3",
           "depth": 3,
           "text": "Além do quantitativo de lavatórios para uso coletivo previsto no subitem 37.12.4.3, o refeitório também deve dispor de, pelo menos, um lavatório localizado nas proximidades de sua entrada, no mesmo piso, ou no seu interior, na proporção de 1 (um) para cada 30 (trinta) assentos."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -3678,8 +3520,10 @@
           "text": "Cozinha"
         },
         {
-          "type": "note",
-          "text": "**37.12.6.1** Em plataforma dotada de cozinha, a operadora da instalação deve seguir todas as Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.12.6.1",
+          "depth": 3,
+          "text": "Em plataforma dotada de cozinha, a operadora da instalação deve seguir todas as"
         },
         {
           "type": "paragraph",
@@ -3818,10 +3662,6 @@
         {
           "type": "paragraph",
           "text": "**_37.12.6.5_** As plataformas devem possuir instalações sanitárias adicionais, exclusivas para uso coletivo dos trabalhadores da cozinha, atendendo ao disposto no subitem 37.12.4.2, na proporção de 1 (um) vaso sanitário e 1 (um) lavatório para cada 10 (dez) trabalhadores ou fração, considerando o sexo e o turno de trabalho do pessoal da cozinha com maior efetivo. _(Vide prazo - Portaria MTP n.º 90, de 18 de janeiro de 2022)_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -3967,17 +3807,9 @@
           "items": [
             {
               "label": "m",
-              "text": "apresentar valores máximos de vibração de corpo inteiro inferiores ao nível de ação para a exposição ocupacional diária à vibração de corpo inteiro citada no Anexo I - Vibração da NR-09 (Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e"
+              "text": "apresentar valores máximos de vibração de corpo inteiro inferiores ao nível de ação para a exposição ocupacional diária à vibração de corpo inteiro citada no Anexo I - Vibração da NR-09 (Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos);"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Biológicos);"
         },
         {
           "type": "list",
@@ -4139,10 +3971,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.12.7.3",
           "depth": 3,
@@ -4282,10 +4110,6 @@
           "number": "37.12.7.4.2.1",
           "depth": 5,
           "text": "A solicitação deve ser feita mediante a apresentação das análises de riscos e plantas baixa e de corte."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -4438,8 +4262,10 @@
           ]
         },
         {
-          "type": "note",
-          "text": "**37.12.7.8** O camarote provisório deve ter seu projeto, prazo de utilização e prorrogação, se necessária, aprovados pelo órgão regional da inspeção do trabalho, depois de ouvidas as Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.12.7.8",
+          "depth": 3,
+          "text": "O camarote provisório deve ter seu projeto, prazo de utilização e prorrogação, se necessária, aprovados pelo órgão regional da inspeção do trabalho, depois de ouvidas as"
         },
         {
           "type": "paragraph",
@@ -4589,17 +4415,9 @@
           "items": [
             {
               "label": "e",
-              "text": "sala de internet recreativa e para comunicação interpessoal, dotada de computadores de"
+              "text": "sala de internet recreativa e para comunicação interpessoal, dotada de computadores de uso individual, conectados à rede, na razão de, no mínimo, 1 (um) para cada 50 (cinquenta) trabalhadores ou fração, considerados os trabalhadores em período de folga."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "uso individual, conectados à rede, na razão de, no mínimo, 1 (um) para cada 50 (cinquenta) trabalhadores ou fração, considerados os trabalhadores em período de folga."
         },
         {
           "type": "item",
@@ -4743,10 +4561,6 @@
           "text": "Para realizar atividade física a bordo, o trabalhador deve ser previamente orientado por profissional legalmente habilitado, apresentando o comprovante ao profissional de saúde da plataforma."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.12.10",
           "depth": 2,
@@ -4850,8 +4664,10 @@
           "text": "É obrigatório o fornecimento de água potável e fresca no casario e nas áreas operacionais da plataforma, em quantidade suficiente para atender às necessidades individuais dos trabalhadores, de no mínimo ¼ litro (250 ml) por hora para cada trabalhador."
         },
         {
-          "type": "note",
-          "text": "**37.13.3.1** A água potável deve estar de acordo com os padrões de potabilidade estabelecidos Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.13.3.1",
+          "depth": 3,
+          "text": "A água potável deve estar de acordo com os padrões de potabilidade estabelecidos"
         },
         {
           "type": "paragraph",
@@ -4972,15 +4788,7 @@
           "type": "item",
           "number": "37.13.7",
           "depth": 2,
-          "text": "O gerente da plataforma ou seu preposto deve realizar inspeções semanais para"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "verificar:"
+          "text": "O gerente da plataforma ou seu preposto deve realizar inspeções semanais para verificar:"
         },
         {
           "type": "list",
@@ -5096,10 +4904,6 @@
           "number": "37.14.2.1",
           "depth": 3,
           "text": "O método analítico e o padrão referencial da qualidade do ar interior devem obedecer ao estabelecido nas legislações vigentes, nas normas técnicas nacionais e internacionais, nessa ordem."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -5219,20 +5023,7 @@
           "items": [
             {
               "label": "c",
-              "text": "estar espaçadas de no máximo 15 (quinze) metros;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "ser tal que torne possível a identificação da tubulação, sem que seja necessário ao observador percorrê-la; e"
+              "text": "estar espaçadas de no máximo 15 (quinze) metros; - d) ser tal que torne possível a identificação da tubulação, sem que seja necessário ao observador percorrê-la; e"
             }
           ]
         },
@@ -5335,20 +5126,7 @@
           "items": [
             {
               "label": "c",
-              "text": "pendências anteriores e situação atual;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "registro das não conformidades que impliquem riscos à segurança e à saúde dos trabalhadores;"
+              "text": "pendências anteriores e situação atual; - d) registro das não conformidades que impliquem riscos à segurança e à saúde dos trabalhadores;"
             }
           ]
         },
@@ -5472,10 +5250,6 @@
           "number": "37.17.3.1",
           "depth": 3,
           "text": "A operadora da instalação deve justificar e documentar a inobservância dos prazos definidos nos planos de inspeções e manutenções."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -5635,10 +5409,6 @@
           "number": "37.17.8.1",
           "depth": 3,
           "text": "Os trabalhos de inspeção e manutenção a serem realizados nas áreas operacionais devem ser executados mediante a emissão de PT."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -5803,15 +5573,7 @@
           "type": "item",
           "number": "37.17.9",
           "depth": 2,
-          "text": "A montagem, a desmontagem e a manutenção de andaimes devem atender aos"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "requisitos estabelecidos NR-34."
+          "text": "A montagem, a desmontagem e a manutenção de andaimes devem atender aos requisitos estabelecidos NR-34."
         }
       ]
     },
@@ -5996,20 +5758,7 @@
           "items": [
             {
               "label": "e",
-              "text": "as turmas de embarque;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "os horários e turnos de trabalho;"
+              "text": "as turmas de embarque; f) os horários e turnos de trabalho;"
             }
           ]
         },
@@ -6122,10 +5871,6 @@
           "number": "37.20.2.1",
           "depth": 3,
           "text": "Os equipamentos motorizados de movimentação e transporte de cargas devem ser projetados por profissional legalmente habilitado."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -6300,20 +6045,7 @@
           "items": [
             {
               "label": "f",
-              "text": "data estabelecida para a próxima inspeção; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "g",
-              "text": "parecer conclusivo quanto à operação do equipamento."
+              "text": "data estabelecida para a próxima inspeção; e g) parecer conclusivo quanto à operação do equipamento."
             }
           ]
         },
@@ -6406,10 +6138,6 @@
           "number": "37.20.4.1",
           "depth": 3,
           "text": "As operações com guindastes eletromecânicos devem ser supervisionadas pelo responsável pela movimentação ou supervisor de convés."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -6598,8 +6326,10 @@
           "text": "Nova inspeção deve ser realizada sempre que houver a inclusão ou substituição de qualquer acessório."
         },
         {
-          "type": "note",
-          "text": "**37.20.4.4** Antes de iniciar cada jornada de trabalho, o operador do guindaste deve inspecionar Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.20.4.4",
+          "depth": 3,
+          "text": "Antes de iniciar cada jornada de trabalho, o operador do guindaste deve inspecionar"
         },
         {
           "type": "paragraph",
@@ -6790,20 +6520,7 @@
           "items": [
             {
               "label": "a",
-              "text": "iluminação deficiente;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "condições climáticas adversas ou outras desfavoráveis que exponham os trabalhadores a riscos; e"
+              "text": "iluminação deficiente; - b) condições climáticas adversas ou outras desfavoráveis que exponham os trabalhadores a riscos; e"
             }
           ]
         },
@@ -6932,8 +6649,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "- Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "-"
         },
         {
           "type": "table",
@@ -7117,20 +6834,7 @@
           "items": [
             {
               "label": "a",
-              "text": "anteparas, tetos e pisos construídos em material resistente ao fogo, sendo que os pisos não podem provocar centelha por atrito de sapatos ou ferramentas;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "dispositivo para impedir a formação de eletricidade estática;"
+              "text": "anteparas, tetos e pisos construídos em material resistente ao fogo, sendo que os pisos não podem provocar centelha por atrito de sapatos ou ferramentas; - b) dispositivo para impedir a formação de eletricidade estática;"
             }
           ]
         },
@@ -7348,15 +7052,7 @@
           "type": "item",
           "number": "37.21.7",
           "depth": 2,
-          "text": "As válvulas, tubulações, mangotes e acessórios empregados nos cilindros contendo"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "gases devem ser de material resistente à pressão, impacto e corrosão e compatível com o fluido."
+          "text": "As válvulas, tubulações, mangotes e acessórios empregados nos cilindros contendo gases devem ser de material resistente à pressão, impacto e corrosão e compatível com o fluido."
         },
         {
           "type": "item",
@@ -7474,15 +7170,7 @@
           "type": "item",
           "number": "37.22.4.1",
           "depth": 3,
-          "text": "A capacitação deve ser reconhecida formalmente pelo profissional legalmente"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "habilitado e designado pela operadora da instalação como responsável técnico pela(s) caldeira(s) ou unidade(s) de processo(s)."
+          "text": "A capacitação deve ser reconhecida formalmente pelo profissional legalmente habilitado e designado pela operadora da instalação como responsável técnico pela(s) caldeira(s) ou unidade(s) de processo(s)."
         },
         {
           "type": "item",
@@ -7564,10 +7252,6 @@
       "title": "Sistema de detecção e alarme de incêndio e gases**",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.23.1",
           "depth": 2,
@@ -7643,15 +7327,7 @@
           "type": "item",
           "number": "37.23.7",
           "depth": 2,
-          "text": "O ajuste do alarme ( **set point** ) deve considerar, quando aplicável,  os seguintes"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "aspectos:"
+          "text": "O ajuste do alarme ( **set point** ) deve considerar, quando aplicável,  os seguintes aspectos:"
         },
         {
           "type": "list",
@@ -7786,10 +7462,6 @@
           "text": "Os detectores de gases devem estar associados aos dispositivos de intertravamento para controlar ventiladores, exaustores e dampers, cujo tempo máximo de resposta assegure condições ambientais internas do compartimento adequadas à saúde humana."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.23.13.2",
           "depth": 3,
@@ -7905,10 +7577,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.24.4",
           "depth": 2,
@@ -7988,10 +7656,6 @@
           "number": "37.24.9.1",
           "depth": 3,
           "text": "As áreas classificadas devem possuir sinalização de segurança, visível e legível, indicando a proibição da presença de fontes de ignição."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -8154,10 +7818,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.25.4",
           "depth": 2,
@@ -8293,15 +7953,7 @@
           "type": "item",
           "number": "37.25.6.1.5",
           "depth": 4,
-          "text": "O suprimento de água para a rede de combate a incêndio deve ser provido por, pelo menos, dois conjuntos motobombas capazes de serem acionadas independentemente"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "do sistema elétrico principal da plataforma, mediante motor a combustão ou sistema elétrico de emergência."
+          "text": "O suprimento de água para a rede de combate a incêndio deve ser provido por, pelo menos, dois conjuntos motobombas capazes de serem acionadas independentemente do sistema elétrico principal da plataforma, mediante motor a combustão ou sistema elétrico de emergência."
         },
         {
           "type": "item",
@@ -8379,15 +8031,7 @@
           "type": "item",
           "number": "37.25.7.2.1",
           "depth": 4,
-          "text": "O extintor de incêndio sobre rodas só é contabilizado na capacidade extintora"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "quando o seu agente puder atingir a área a ser protegida."
+          "text": "O extintor de incêndio sobre rodas só é contabilizado na capacidade extintora quando o seu agente puder atingir a área a ser protegida."
         },
         {
           "type": "item",
@@ -8519,8 +8163,13 @@
           "text": "A plataforma deve possuir projeto de iluminação de emergência de acordo com a norma técnica ABNT NBR IEC 61892-2, elaborado por profissional legalmente habilitado e com os objetivos de:"
         },
         {
-          "type": "note",
-          "text": "a) facilitar a saída de zonas perigosas (áreas classificadas, de caldeiras, de vasos de pressão e Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "facilitar a saída de zonas perigosas (áreas classificadas, de caldeiras, de vasos de pressão e"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -8672,20 +8321,7 @@
           "items": [
             {
               "label": "a",
-              "text": "iluminação de emergência e escape;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "detecção e alarme de fogo e gás;"
+              "text": "iluminação de emergência e escape; - b) detecção e alarme de fogo e gás;"
             }
           ]
         },
@@ -8793,8 +8429,10 @@
           "text": "O atendimento das exigências desta NR e da NR-34 não desobriga o cumprimento de outras disposições estabelecidas pelas normas da Comissão Nacional de Energia Nuclear - CNEN, ou, na ausência destas, as disposições previstas em normas técnicas e regulamentos nacionais e internacionais, nessa ordem."
         },
         {
-          "type": "note",
-          "text": "**37.26.3** A operadora da instalação deve assegurar que as empresas contratadas que manuseiam ou utilizam equipamentos com fontes radioativas estejam licenciadas pela CNEN. Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.26.3",
+          "depth": 2,
+          "text": "A operadora da instalação deve assegurar que as empresas contratadas que manuseiam ou utilizam equipamentos com fontes radioativas estejam licenciadas pela CNEN."
         },
         {
           "type": "item",
@@ -8878,15 +8516,7 @@
           "type": "item",
           "number": "37.26.4.9",
           "depth": 3,
-          "text": "A operadora da instalação deve prover um serviço médico especializado ao tipo e às proporções das fontes e materiais radioativos presentes, visando assegurar a supervisão médica aos trabalhadores expostos a radiações ionizantes e o tratamento apropriado aos"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "envolvidos em acidentes."
+          "text": "A operadora da instalação deve prover um serviço médico especializado ao tipo e às proporções das fontes e materiais radioativos presentes, visando assegurar a supervisão médica aos trabalhadores expostos a radiações ionizantes e o tratamento apropriado aos envolvidos em acidentes."
         },
         {
           "type": "item",
@@ -9018,8 +8648,10 @@
           "text": "A operadora da instalação deve garantir a higienização e manutenção da vestimenta e dos demais EPI utilizados em atividades com materiais radioativos, bem como a descontaminação ou a sua substituição imediata, quando danificado ou extraviado."
         },
         {
-          "type": "note",
-          "text": "**37.26.4.13.1** Imediatamente após o término do serviço ou parada para as refeições, a operadora da instalação deve assegurar local apropriado para a troca da vestimenta de Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.26.4.13.1",
+          "depth": 4,
+          "text": "Imediatamente após o término do serviço ou parada para as refeições, a operadora da instalação deve assegurar local apropriado para a troca da vestimenta de"
         },
         {
           "type": "paragraph",
@@ -9204,20 +8836,7 @@
           "items": [
             {
               "label": "d",
-              "text": "interrupção imediata do serviço no caso de mudança das condições que o torne potencialmente perigoso, observada a alínea “a” do subitem 37.4.1 desta NR;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "interrupção imediata da atividade e recolhimento da fonte para exposições acima do limite estabelecido pelo Anexo nº 5 (Radiações Ionizantes) da NR-15 (Atividades e Operações Insalubres); e"
+              "text": "interrupção imediata do serviço no caso de mudança das condições que o torne potencialmente perigoso, observada a alínea “a” do subitem 37.4.1 desta NR; - e) interrupção imediata da atividade e recolhimento da fonte para exposições acima do limite estabelecido pelo Anexo nº 5 (Radiações Ionizantes) da NR-15 (Atividades e Operações Insalubres); e"
             }
           ]
         },
@@ -9366,10 +8985,6 @@
           "text": "Os resíduos removidos devem ser caracterizados conforme normas da CNEN."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "37.26.6.2.2",
           "depth": 4,
@@ -9447,20 +9062,7 @@
           "items": [
             {
               "label": "a",
-              "text": "desenvolver ações de controle para evitar riscos à segurança e à saúde dos trabalhadores, em cada uma das etapas;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "coletar, acondicionar, armazenar e transportar para a sua adequada disposição final;"
+              "text": "desenvolver ações de controle para evitar riscos à segurança e à saúde dos trabalhadores, em cada uma das etapas; - b) coletar, acondicionar, armazenar e transportar para a sua adequada disposição final;"
             }
           ]
         },
@@ -9552,15 +9154,7 @@
           "type": "item",
           "number": "37.27.5.2.4",
           "depth": 4,
-          "text": "Os operadores devem ser capacitados no procedimento operacional descrito no"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "subitem 37.27.5.2.3."
+          "text": "Os operadores devem ser capacitados no procedimento operacional descrito no subitem 37.27.5.2.3."
         },
         {
           "type": "item",
@@ -9687,10 +9281,6 @@
           "number": "37.27.9",
           "depth": 2,
           "text": "A operadora da instalação deve gerenciar os rejeitos radioativos de ocorrência natural, segundo as normas da CNEN."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -9834,10 +9424,6 @@
       "number": "37.28",
       "title": "Plano de Resposta a Emergências - PRE**",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "item",
           "number": "37.28.1",
@@ -10007,8 +9593,10 @@
           "text": "A operadora da instalação deve manter em local visível a tabela atualizada de postos de emergência, relacionando nominalmente os trabalhadores integrantes das equipes que compõem o PRE a bordo."
         },
         {
-          "type": "note",
-          "text": "**37.28.3** A operadora da instalação deve disponibilizar meios de resgate de emergência Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.28.3",
+          "depth": 2,
+          "text": "A operadora da instalação deve disponibilizar meios de resgate de emergência"
         },
         {
           "type": "paragraph",
@@ -10110,10 +9698,6 @@
           "number": "37.29.3",
           "depth": 2,
           "text": "A operadora da instalação deve encaminhar o relatório de investigação e análise do incidente à inspeção do trabalho da jurisdição da plataforma, em até 60 (sessenta) dias após a ocorrência do incidente."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -10257,10 +9841,6 @@
       "number": "37.30",
       "title": "Declaração da Instalação Marítima - DIM**",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "item",
           "number": "37.30.1",
@@ -10443,8 +10023,10 @@
           "text": "Para as plataformas desabitadas, os documentos podem estar arquivados na sede da operadora da instalação ou em outra plataforma habitada."
         },
         {
-          "type": "note",
-          "text": "**37.31.1.2** Para as atividades relacionadas com trabalhador estrangeiro embarcado, os Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "37.31.1.2",
+          "depth": 3,
+          "text": "Para as atividades relacionadas com trabalhador estrangeiro embarcado, os"
         },
         {
           "type": "paragraph",
@@ -10597,12 +10179,7 @@
       "id": "símbolos-para-sinalizar-fontes-de-radiação-ionizante-locais-de-armazenamento-de-material-radioativo-e-locais-de-trabalho-com-exposição-à-radiação-ionizante-industrial-ou-de-ocorrência-natural",
       "number": "",
       "title": "SÍMBOLOS PARA SINALIZAR FONTES DE RADIAÇÃO IONIZANTE, LOCAIS DE ARMAZENAMENTO DE MATERIAL RADIOATIVO E LOCAIS DE TRABALHO COM EXPOSIÇÃO À RADIAÇÃO IONIZANTE INDUSTRIAL OU DE OCORRÊNCIA NATURAL",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "anexo-iii",
@@ -10819,8 +10396,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "- Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "-"
         },
         {
           "type": "image",
@@ -10997,10 +10574,6 @@
           "text": "<!-- Start of picture text --> ANEXO VI<br>COMUNICAÇÃO DE INCIDENTE EM PLATAFORMA - CIP<br>a)  Nome  da  operadora  da  instalação,  endereço,  CNPJ,  correio  eletrônico  e<br>telefone:<br>b)  Identificação,  tipo  e  localização  da<br>plataforma:<br>c)   Data  e  hora  do<br>incidente:<br><!-- End of picture text -->"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "<!-- Start of picture text -->"
         },
@@ -11030,15 +10603,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Água potável:** água que atenda ao padrão de potabilidade estabelecido pela legislação vigente"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "e que não ofereça riscos à saúde."
+          "text": "**Água potável:** água que atenda ao padrão de potabilidade estabelecido pela legislação vigente e que não ofereça riscos à saúde."
         },
         {
           "type": "paragraph",
@@ -11093,8 +10658,8 @@
           "text": "**Desmonte** : consiste na desmontagem completa da plataforma em local destinado para esse fim, visando à reciclagem de seus componentes, após o término do período de vida útil da plataforma."
         },
         {
-          "type": "note",
-          "text": "**Emissões fugitivas** : liberações involuntárias de gases e vapores que ocorrem de maneira contínua ou intermitente durante as operações normais dos equipamentos e instrumentos. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "**Emissões fugitivas** : liberações involuntárias de gases e vapores que ocorrem de maneira contínua ou intermitente durante as operações normais dos equipamentos e instrumentos."
         },
         {
           "type": "paragraph",
@@ -11154,15 +10719,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Profissional legalmente habilitado** : profissional previamente qualificado, com atribuições legais para a atividade a ser desempenhada, que assume a responsabilidade técnica, possuindo registro no conselho de classe competente."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Proteção radiológica ou radioproteção** : conjunto de medidas que visam a proteger o ser humano e seus descendentes e o meio ambiente contra possíveis efeitos indesejados causados pela radiação ionizante."
+          "text": "**Profissional legalmente habilitado** : profissional previamente qualificado, com atribuições legais para a atividade a ser desempenhada, que assume a responsabilidade técnica, possuindo registro no conselho de classe competente. **Proteção radiológica ou radioproteção** : conjunto de medidas que visam a proteger o ser humano e seus descendentes e o meio ambiente contra possíveis efeitos indesejados causados pela radiação ionizante."
         },
         {
           "type": "paragraph",
@@ -11207,10 +10764,6 @@
         {
           "type": "paragraph",
           "text": "**Treinamento (capacitação ou curso)** : conjunto de instruções teóricas e práticas ministradas sob a supervisão de profissional legalmente habilitado, e que seguem conteúdo programático planejado, destinado a tornar o trabalhador apto a exercer determinada função."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

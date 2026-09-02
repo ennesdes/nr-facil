@@ -163,6 +163,44 @@ class ContentService extends GetxService {
     }
   }
 
+  /// Baixa uma NR específica sob demanda (quando não está em cache).
+  Future<bool> downloadNrIfNeeded(String nrId) async {
+    final entry = manifest.value?.findNr(nrId);
+    if (entry == null) {
+      lastError.value = 'NR $nrId não encontrada no manifest';
+      return false;
+    }
+    if (entry.isRevoked) {
+      lastError.value = 'NR $nrId está revogada';
+      return false;
+    }
+
+    final localHash = GetStorage().read(StorageKeys.nrLastSyncedHash(nrId));
+    if (entry.hash == localHash) {
+      return true;
+    }
+
+    try {
+      await _downloadNr(entry);
+      return true;
+    } catch (e, st) {
+      lastError.value = 'Falha ao baixar $nrId: $e';
+      AppLogger.error('Erro no download sob demanda de $nrId', e, st);
+      return false;
+    }
+  }
+
+  /// Texto amigável do status de sincronização.
+  String? get lastSyncedLabel {
+    final synced = lastSyncedAt.value;
+    if (synced == null) return null;
+    final diff = DateTime.now().difference(synced);
+    if (diff.inMinutes < 1) return 'Sincronizado agora';
+    if (diff.inHours < 1) return 'Sincronizado há ${diff.inMinutes} min';
+    if (diff.inDays < 1) return 'Sincronizado há ${diff.inHours} h';
+    return 'Sincronizado há ${diff.inDays} dia(s)';
+  }
+
   /// Download o conteúdo de uma NR (.md + pasta assets/).
   ///
   /// Cria estrutura em cache:

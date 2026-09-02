@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 
+import '../models/nr_structure.dart';
 import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
 import 'content_service.dart';
@@ -46,9 +47,16 @@ class SearchService extends GetxService {
       // Iterar apenas sobre NRs não revogadas
       for (final entry in manifest.nrs.where((e) => !e.isRevoked)) {
         final chunks = await contentService.readSearchIndex(entry.id);
-        _chunksByNr[entry.id] = chunks;
+        _chunksByNr[entry.id] = List<SearchChunk>.from(chunks);
+
+        // Indexar itens normativos do structure.json para busca por número
+        final structure = await contentService.readNrStructure(entry.id);
+        if (structure != null) {
+          _appendStructureItemChunks(entry.id, structure, _chunksByNr[entry.id]!);
+        }
+
         AppLogger.debug(
-            'Carregados ${chunks.length} chunks para ${entry.id}');
+            'Carregados ${_chunksByNr[entry.id]!.length} chunks para ${entry.id}');
       }
 
       isReady.value = true;
@@ -62,48 +70,121 @@ class SearchService extends GetxService {
 
   /// Buscar chunks que contêm o texto (case-insensitive).
   ///
-  /// Retorna lista de SearchResult com informações da NR.
-  /// Se query vazia, retorna lista vazia.
-  /// Se índice não carregado, carrega antes de buscar.
-  Future<List<SearchResult>> search(String query) async {
-    // Validar e normalizar query
+  /// [favoritesOnly] restringe a NRs favoritadas.
+  /// [nrFilter] restringe a uma NR específica (ex.: nr-06).
+  Future<List<SearchResult>> search(
+    String query, {
+    bool favoritesOnly = false,
+    String? nrFilter,
+  }) async {
     final normalizedQuery = query.trim().toLowerCase();
     if (normalizedQuery.isEmpty) {
       return [];
     }
 
-    // Carregar chunks se ainda não carregados
     if (!isReady.value) {
       await _loadChunks();
     }
 
+    final itemNumberPattern = RegExp(r'^\d+(?:\.\d+)+$');
+    final isItemNumberSearch = itemNumberPattern.hasMatch(normalizedQuery);
+
     final results = <SearchResult>[];
 
-    // Iterar sobre todos os chunks de todas as NRs
     for (final entry in _chunksByNr.entries) {
       final nrId = entry.key;
       final chunks = entry.value;
 
-      // Obter metadados da NR
+      if (nrFilter != null && nrFilter.isNotEmpty && nrId != nrFilter) {
+        continue;
+      }
+
       final nrEntry = contentService.manifest.value?.findNr(nrId);
       if (nrEntry == null) continue;
 
-      // Filtrar chunks que contêm o termo de busca
+      if (favoritesOnly && !contentService.isFavorite(nrId)) {
+        continue;
+      }
+
       for (final chunk in chunks) {
-        if (chunk.text.toLowerCase().contains(normalizedQuery)) {
+        final haystack = chunk.text.toLowerCase();
+        final matchesText = haystack.contains(normalizedQuery);
+        final matchesItem = isItemNumberSearch &&
+            haystack.contains('**$normalizedQuery**');
+
+        if (matchesText || matchesItem) {
           results.add(
             SearchResult(
               nrId: nrId,
               nrTitle: nrEntry.title,
               chunk: chunk,
+              score: _scoreResult(
+                nrId: nrId,
+                chunk: chunk,
+                normalizedQuery: normalizedQuery,
+                isItemNumberSearch: isItemNumberSearch,
+              ),
             ),
           );
         }
       }
     }
 
+    results.sort((a, b) => b.score.compareTo(a.score));
+
     AppLogger.debug('Busca "$normalizedQuery" retornou ${results.length} resultados');
     return results;
+  }
+
+  int _scoreResult({
+    required String nrId,
+    required SearchChunk chunk,
+    required String normalizedQuery,
+    required bool isItemNumberSearch,
+  }) {
+    var score = 0;
+    if (contentService.isFavorite(nrId)) score += 10;
+
+    final text = chunk.text.toLowerCase();
+    if (isItemNumberSearch && text.contains('**$normalizedQuery**')) {
+      score += 100;
+    } else if (text.startsWith('**$normalizedQuery')) {
+      score += 50;
+    }
+
+    // Preferir ocorrências mais cedo no documento
+    score -= chunk.charOffset ~/ 10000;
+    return score;
+  }
+
+  void _appendStructureItemChunks(
+    String nrId,
+    NrStructure structure,
+    List<SearchChunk> chunks,
+  ) {
+    var offset = 0;
+    for (final section in structure.sections) {
+      for (final block in section.blocks) {
+        if (block is NrItemBlock && block.number.isNotEmpty) {
+          final text = '**${block.number}** ${block.text}';
+          final exists = chunks.any(
+            (c) =>
+                c.text.toLowerCase().contains('**${block.number.toLowerCase()}**'),
+          );
+          if (!exists) {
+            chunks.add(
+              SearchChunk(
+                id: 'item-${block.number}',
+                text: text,
+                heading: section.displayTitle,
+                charOffset: offset,
+              ),
+            );
+          }
+          offset += text.length;
+        }
+      }
+    }
   }
 
   /// Buscar dentro de uma NR específica (search_index.json local).
@@ -123,10 +204,12 @@ class SearchResult {
   final String nrId;
   final String nrTitle;
   final SearchChunk chunk;
+  final int score;
 
   SearchResult({
     required this.nrId,
     required this.nrTitle,
     required this.chunk,
+    this.score = 0,
   });
 }

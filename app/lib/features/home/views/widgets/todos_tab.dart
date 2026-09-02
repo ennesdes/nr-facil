@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
 
 /// Aba "Todos" — exibir todas as NRs (incluindo revogadas).
 ///
@@ -37,15 +39,12 @@ class _TodosTabState extends State<TodosTab> {
 
     return Obx(
       () {
-        // Estado de sincronização
-        if (contentService.isSyncing.value) {
-          return const Center(
-            child: CircularProgressIndicator(),
-          );
-        }
+        // Erro na sincronização (mas ainda mostra lista se houver manifest)
+        final syncError = contentService.lastError.value;
+        final hasManifest = contentService.manifest.value != null &&
+            contentService.manifest.value!.nrs.isNotEmpty;
 
-        // Erro na sincronização
-        if (contentService.lastError.value != null) {
+        if (!hasManifest && syncError != null) {
           return Center(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
@@ -59,7 +58,7 @@ class _TodosTabState extends State<TodosTab> {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    contentService.lastError.value!,
+                    syncError,
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.bodyLarge,
                   ),
@@ -69,9 +68,7 @@ class _TodosTabState extends State<TodosTab> {
           );
         }
 
-        // Sem manifest carregado
-        if (contentService.manifest.value == null ||
-            contentService.manifest.value!.nrs.isEmpty) {
+        if (!hasManifest) {
           return Center(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
@@ -87,6 +84,19 @@ class _TodosTabState extends State<TodosTab> {
         return SingleChildScrollView(
           child: Column(
             children: [
+              if (contentService.isSyncing.value)
+                const LinearProgressIndicator(minHeight: 2),
+              if (contentService.lastSyncedLabel != null)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      contentService.lastSyncedLabel!,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ),
+                ),
               // Card "Continuar leitura"
               _buildContinuarLeituraSection(context, contentService),
 
@@ -116,6 +126,7 @@ class _TodosTabState extends State<TodosTab> {
 
               // Lista de NRs
               _buildNrsList(context, contentService),
+              const ListBannerAd(),
             ],
           ),
         );
@@ -191,9 +202,8 @@ class _TodosTabState extends State<TodosTab> {
           hasUpdate: contentService.hasUpdate(entry.id),
           isRevoked: entry.isRevoked,
           onTap: () {
-            // Revogadas não abrem leitor por enquanto
             if (entry.isRevoked) {
-              // TODO: Implementar tela de detalhe de NR revogada (item 16)
+              Get.to(() => RevokedNrPage(entry: entry));
               return;
             }
             Get.to(

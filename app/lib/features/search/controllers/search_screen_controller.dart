@@ -40,6 +40,12 @@ class SearchScreenController extends GetxController {
   /// Indicador se houve uma busca realizada
   final hasSearched = false.obs;
 
+  /// Filtrar apenas favoritos
+  final favoritesOnly = false.obs;
+
+  /// Filtrar por NR específica (null = todas)
+  final nrFilter = RxnString();
+
   /// Timer para debounce
   Timer? _debounceTimer;
 
@@ -95,7 +101,11 @@ class SearchScreenController extends GetxController {
     hasSearched.value = true;
 
     try {
-      final searchResults = await searchService.search(searchQuery);
+      final searchResults = await searchService.search(
+        searchQuery,
+        favoritesOnly: favoritesOnly.value,
+        nrFilter: nrFilter.value,
+      );
       results.value = searchResults;
       AppLogger.debug('Busca realizada: ${searchResults.length} resultados');
     } catch (e, st) {
@@ -111,5 +121,12 @@ class SearchScreenController extends GetxController {
     queryController.clear();
     results.clear();
     hasSearched.value = false;
+  }
+
+  /// Repete busca atual (útil após mudar filtros).
+  Future<void> performSearchNow() async {
+    final q = queryController.text.trim();
+    if (q.isEmpty) return;
+    await _performSearch(q);
   }
 }

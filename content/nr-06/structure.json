@@ -26,15 +26,7 @@
           "type": "item",
           "number": "6.1.1",
           "depth": 2,
-          "text": "O objetivo desta Norma Regulamentadora - NR é estabelecer os requisitos para aprovação,"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "comercialização, fornecimento e utilização de Equipamentos de Proteção Individual - EPI."
+          "text": "O objetivo desta Norma Regulamentadora - NR é estabelecer os requisitos para aprovação, comercialização, fornecimento e utilização de Equipamentos de Proteção Individual - EPI."
         }
       ]
     },
@@ -141,17 +133,9 @@
           "items": [
             {
               "label": "c",
-              "text": "fornecer ao empregado, gratuitamente, EPI adequado ao risco, em perfeito estado de conservação e funcionamento, nas situações previstas no subitem 1.5.5.1.2 da Norma"
+              "text": "fornecer ao empregado, gratuitamente, EPI adequado ao risco, em perfeito estado de conservação e funcionamento, nas situações previstas no subitem 1.5.5.1.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, observada a hierarquia das medidas de prevenção;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, observada a hierarquia das medidas de prevenção;"
         },
         {
           "type": "list",
@@ -302,10 +286,6 @@
           "number": "6.5.2.1.1",
           "depth": 4,
           "text": "Para as organizações dispensadas de elaboração do PGR, deve ser mantido registro que especifique as atividades exercidas e os respectivos EPI."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -467,10 +447,6 @@
           "number": "6.7.2.1",
           "depth": 3,
           "text": "A organização deve realizar treinamento acerca do EPI a ser fornecido, quando as características do EPI requeiram, observada a atividade realizada e as exigências estabelecidas em normas regulamentadoras e nos dispositivos legais."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -637,15 +613,7 @@
           "type": "item",
           "number": "6.9.3.1",
           "depth": 3,
-          "text": "Na impossibilidade de cumprir o determinado no item 6.9.3, pode ser autorizada forma"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "alternativa de gravação, devendo esta constar do CA."
+          "text": "Na impossibilidade de cumprir o determinado no item 6.9.3, pode ser autorizada forma alternativa de gravação, devendo esta constar do CA."
         },
         {
           "type": "item",
@@ -811,20 +779,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- B.1 - Óculos:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "óculos para proteção dos olhos contra impactos de partículas volantes;"
-            }
-          ]
+          "text": "- B.1 - Óculos: - a) óculos para proteção dos olhos contra impactos de partículas volantes;"
         },
         {
           "type": "list",
@@ -975,20 +930,7 @@
           "items": [
             {
               "label": "b",
-              "text": "peça semifacial filtrante para partículas PFF2 para proteção das vias respiratórias contra poeiras, névoas e fumos;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "peça semifacial filtrante para partículas PFF3 para proteção das vias respiratórias contra poeiras, névoas, fumos e radionuclídeos;"
+              "text": "peça semifacial filtrante para partículas PFF2 para proteção das vias respiratórias contra poeiras, névoas e fumos; - c) peça semifacial filtrante para partículas PFF3 para proteção das vias respiratórias contra poeiras, névoas, fumos e radionuclídeos;"
             }
           ]
         },
@@ -1099,17 +1041,9 @@
           "items": [
             {
               "label": "b",
-              "text": "de circuito fechado de demanda com pressão positiva, com peça facial inteira, para proteção das vias respiratórias em atmosferas IPVS."
+              "text": "de circuito fechado de demanda com pressão positiva, com peça facial inteira, para proteção das vias respiratórias em atmosferas IPVS. D.5 - Respirador de fuga:"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "D.5 - Respirador de fuga:"
         },
         {
           "type": "list",
@@ -1297,20 +1231,7 @@
           "items": [
             {
               "label": "a",
-              "text": "manga para proteção do braço e do antebraço contra choques elétricos;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "manga para proteção do braço e do antebraço contra agentes abrasivos e escoriantes;"
+              "text": "manga para proteção do braço e do antebraço contra choques elétricos; - b) manga para proteção do braço e do antebraço contra agentes abrasivos e escoriantes;"
             }
           ]
         },
@@ -1539,20 +1460,7 @@
           "items": [
             {
               "label": "d",
-              "text": "calça para proteção das pernas contra agentes térmicos;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "calça para proteção das pernas contra umidade proveniente de operações com utilização de água; e"
+              "text": "calça para proteção das pernas contra agentes térmicos; - e) calça para proteção das pernas contra umidade proveniente de operações com utilização de água; e"
             }
           ]
         },
@@ -1700,15 +1608,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Certificado de Aprovação: documento emitido pelo órgão nacional competente em matéria de segurança e saúde no trabalho autorizando a comercialização e utilização do EPI no território nacional."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Encomendante predeterminado: a pessoa jurídica que contrata o importador por encomenda para realizar a transação comercial de compra e venda de mercadoria estrangeira a ser importada, o despacho aduaneiro de importação e a revenda ao próprio encomendante predeterminado."
+          "text": "Certificado de Aprovação: documento emitido pelo órgão nacional competente em matéria de segurança e saúde no trabalho autorizando a comercialização e utilização do EPI no território nacional. Encomendante predeterminado: a pessoa jurídica que contrata o importador por encomenda para realizar a transação comercial de compra e venda de mercadoria estrangeira a ser importada, o despacho aduaneiro de importação e a revenda ao próprio encomendante predeterminado."
         },
         {
           "type": "paragraph",
@@ -1725,10 +1625,6 @@
         {
           "type": "paragraph",
           "text": "Sistema biométrico: Para fins desta NR, é considerado o sistema que analisa características físicas para identificar de forma inequívoca um indivíduo, como por exemplo impressão digital, reconhecimento facial e íris."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

@@ -83,10 +83,6 @@
         "text": "Os equipamentos de transporte motorizados deverão possuir sinal de advertência sonora (buzina)."
       },
       {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
-      },
-      {
         "type": "item",
         "number": "11.1.8",
         "depth": 2,
@@ -175,20 +171,7 @@
         "items": [
           {
             "label": "a",
-            "text": "lance único de degraus com acesso a um patamar final;"
-          }
-        ]
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
-      },
-      {
-        "type": "list",
-        "items": [
-          {
-            "label": "b",
-            "text": "a largura mínima de 1,00m (um metro), apresentando o patamar as dimensões mínimas de 1,00m x 1,00m (um metro x um metro) e a altura máxima, em relação ao solo, de 2,25m (dois metros e vinte e cinco centímetros);"
+            "text": "lance único de degraus com acesso a um patamar final; - b) a largura mínima de 1,00m (um metro), apresentando o patamar as dimensões mínimas de 1,00m x 1,00m (um metro x um metro) e a altura máxima, em relação ao solo, de 2,25m (dois metros e vinte e cinco centímetros);"
           },
           {
             "label": "c",
@@ -273,10 +256,6 @@
         "number": "11.4.1",
         "depth": 2,
         "text": "A movimentação, armazenagem e manuseio de chapas de mármore, granito e outras rochas deve obedecer ao disposto no Regulamento Técnico de Procedimentos constante no Anexo I desta NR. _(Acrescentado pela Portaria SIT n.º 56, de 17 de setembro de 2003)_"
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
       }
     ]
   },
@@ -351,10 +330,6 @@
           "number": "1.3.1",
           "depth": 2,
           "text": "Após a inspeção do equipamento ou elemento de sustentação, deve ser emitido “Relatório de Inspeção”, com periodicidade anual, elaborado por profissional legalmente habilitado com ART – Anotação de Responsabilidade Técnica – recolhida, que passa a fazer parte da documentação do equipamento."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -452,10 +427,6 @@
           "number": "2.2.3",
           "depth": 2,
           "text": "É proibida a retirada de chapas de um único lado do carro porta-blocos, com objetivo de manter a sua estabilidade."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -614,10 +585,6 @@
       "title": "Movimentação de chapas com uso de ventosas",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "2.5.1",
           "depth": 2,
@@ -722,10 +689,6 @@
       "number": "3.1",
       "title": "Os pisos dos locais de trabalho onde houver movimentação de chapas de rochas ornamentais fracionadas devem ser projetados e construídos de acordo com parâmetros técnicos, com o objetivo de suportar as cargas usuais e oferecer segurança na movimentação",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "item",
           "number": "3.1.1",
@@ -832,12 +795,7 @@
       "id": "43-a-atividade-de-empacotamento-de-chapas-deve-ser-realizada-com-uso-de-cavaletes-que-propiciem-boa-postura-e-segurança-aos-trabalhadores",
       "number": "4.3",
       "title": "A atividade de empacotamento de chapas deve ser realizada com uso de cavaletes que propiciem boa postura e segurança aos trabalhadores",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "44-o-interior-de-contêineres-deve-possuir-iluminação-natural-ou-artificial-nos-termos-definidos-nas-normas-de-higiene-ocupacional-da-fundacentro",
@@ -927,10 +885,6 @@
           "number": "5.4.3.1",
           "depth": 3,
           "text": "O certificado deve ser fornecido ao trabalhador, mediante recibo, arquivando-se uma cópia na empresa."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1067,15 +1021,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Carga horária: 4 horas"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Objetivo: Fornecer conhecimentos básicos ao participante para assimilar o conteúdo da legislação de segurança do setor de rochas ornamentais."
+          "text": "Carga horária: 4 horas Objetivo: Fornecer conhecimentos básicos ao participante para assimilar o conteúdo da legislação de segurança do setor de rochas ornamentais."
         },
         {
           "type": "paragraph",
@@ -1195,15 +1141,7 @@
         },
         {
           "type": "paragraph",
-          "text": "9. Uso de quebra-canto;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "10. Manilhas, cintas, peras, ganchos - bitolas e capacidades;"
+          "text": "9. Uso de quebra-canto; 10. Manilhas, cintas, peras, ganchos - bitolas e capacidades;"
         },
         {
           "type": "paragraph",
@@ -1312,15 +1250,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Armazenamento: Constitui-se em um conjunto de funções de recepção, descarga, carregamento, arrumação, conservação, etc., realizadas em espaço destinado para o fluxo e armazenagem de chapas de rochas ornamentais, com o objetivo de controle e proteção dos materiais."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Beneficiamento: Constitui-se em processo de desdobramento do bloco até o produto final, podendo passar pelas seguintes etapas: serragem, desplacamento, levigamento (primeiro polimento), secagem, resinagem, polimento e recorte."
+          "text": "Armazenamento: Constitui-se em um conjunto de funções de recepção, descarga, carregamento, arrumação, conservação, etc., realizadas em espaço destinado para o fluxo e armazenagem de chapas de rochas ornamentais, com o objetivo de controle e proteção dos materiais. Beneficiamento: Constitui-se em processo de desdobramento do bloco até o produto final, podendo passar pelas seguintes etapas: serragem, desplacamento, levigamento (primeiro polimento), secagem, resinagem, polimento e recorte."
         },
         {
           "type": "paragraph",
@@ -1384,15 +1314,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Máquina de corte de fio diamantado: Máquina de corte de rocha ornamental que utiliza um fio diamantado. O processo de corte ocorre pela ação abrasiva dos anéis ou pérolas com grãos de diamante dispostos ao longo do fio."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Monofio: Máquina de corte de rocha ornamental que utiliza um fio diamantado. O processo de corte ocorre pela ação abrasiva dos anéis ou pérolas com grãos de diamante dispostos ao longo do fio."
+          "text": "Máquina de corte de fio diamantado: Máquina de corte de rocha ornamental que utiliza um fio diamantado. O processo de corte ocorre pela ação abrasiva dos anéis ou pérolas com grãos de diamante dispostos ao longo do fio. Monofio: Máquina de corte de rocha ornamental que utiliza um fio diamantado. O processo de corte ocorre pela ação abrasiva dos anéis ou pérolas com grãos de diamante dispostos ao longo do fio."
         },
         {
           "type": "paragraph",
@@ -1433,10 +1355,6 @@
         {
           "type": "paragraph",
           "text": "Ventosa (transportador pneumático): Equipamento a vácuo usado na movimentação de chapas de rochas ornamentais."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

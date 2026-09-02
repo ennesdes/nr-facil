@@ -19,7 +19,10 @@ class StorageKeys {
   // Histórico
   static const String readingHistory = '${_prefix}reading_history';
 
-  // Última NR aberta (Continuar leitura)
   static const String lastOpenedNr = '${_prefix}last_opened_nr';
   static const String lastOpenedNrScroll = '${_prefix}last_opened_nr_scroll';
+
+  // Preferências do leitor
+  static const String readerFontSize = '${_prefix}reader_font_size';
+  static const String readerDarkMode = '${_prefix}reader_dark_mode';
 }

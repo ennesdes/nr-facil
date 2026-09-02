@@ -61,10 +61,6 @@
       "title": "Avaliação das situações de trabalho",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "17.3.1",
           "depth": 2,
@@ -197,8 +193,10 @@
           "text": "As Microempresas - ME e Empresas de Pequeno Porte - EPP enquadradas como graus de risco 1 e 2 e o Microempreendedor Individual - MEI não são obrigados a elaborar a AET, mas devem atender todos os demais requisitos estabelecidos nesta NR, quando aplicáveis."
         },
         {
-          "type": "note",
-          "text": "**17.3.4.1** As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "17.3.4.1",
+          "depth": 3,
+          "text": "As ME ou EPP enquadradas como graus de risco 1 e 2 devem realizar a AET quando"
         },
         {
           "type": "paragraph",
@@ -380,8 +378,13 @@
           ]
         },
         {
-          "type": "note",
-          "text": "e) exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "exposição a vibrações, nos termos do Anexo I da Norma Regulamentadora nº 09 - Avaliação e"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -521,20 +524,7 @@
           "items": [
             {
               "label": "c",
-              "text": "facilitar o trabalho em equipe; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho."
+              "text": "facilitar o trabalho em equipe; e d) estimular tratamento justo e respeitoso nas relações pessoais no ambiente de trabalho."
             }
           ]
         },
@@ -657,10 +647,6 @@
           "text": "Todo trabalhador designado para o transporte manual não eventual de cargas deve receber orientação quanto aos métodos de levantamento, carregamento e deposição de cargas."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "17.5.6",
           "depth": 2,
@@ -774,20 +760,7 @@
           "items": [
             {
               "label": "b",
-              "text": "sistemas de ajustes e manuseio acessíveis;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "características de pouca ou nenhuma conformação na base do assento;"
+              "text": "sistemas de ajustes e manuseio acessíveis; c) características de pouca ou nenhuma conformação na base do assento;"
             }
           ]
         },
@@ -898,15 +871,7 @@
           "type": "item",
           "number": "17.7.6",
           "depth": 2,
-          "text": "A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "da empunhadura sejam apropriados à tarefa e ao eventual uso de luvas."
+          "text": "A organização deve selecionar as ferramentas manuais para que o tipo, formato e a textura da empunhadura sejam apropriados à tarefa e ao eventual uso de luvas."
         }
       ]
     },
@@ -1005,10 +970,6 @@
         {
           "type": "paragraph",
           "text": "**3. Posto de trabalho**"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -1161,17 +1122,9 @@
           "items": [
             {
               "label": "b",
-              "text": "posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador,"
+              "text": "posicioná-los no posto de trabalho dentro dos limites de alcance manual e visual do operador, permitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da tarefa;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "permitindo a movimentação dos membros superiores e inferiores e respeitando a natureza da tarefa;"
         },
         {
           "type": "list",
@@ -1322,10 +1275,6 @@
           "text": "4.3.1 A escolha dentre as medidas relacionadas no item 4.3 é prerrogativa da organização."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "4.4 A pesagem de mercadorias pelo operador de checkout só poderá ocorrer quando os seguintes requisitos forem atendidos simultaneamente:"
         },
@@ -1467,10 +1416,6 @@
           "text": "6.1 Todo trabalhador envolvido com o trabalho em **checkout** deve portar um dispositivo de identificação visível, com nome e/ou sobrenome, escolhido(s) pelo próprio trabalhador."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "6.2 É vedado obrigar o trabalhador ao uso, permanente ou temporário, de vestimentas ou propagandas ou maquilagem temática que causem constrangimento ou firam sua dignidade pessoal."
         }
@@ -1553,10 +1498,6 @@
         {
           "type": "paragraph",
           "text": "7.6 A elaboração do conteúdo técnico e avaliação dos resultados do treinamento devem contar com a participação de integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT e da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando houver, do médico responsável pelo Programa de Controle Médico de Saúde Ocupacional - PCMSO e dos responsáveis pela elaboração e implementação do Programa de Gerenciamento de Riscos - PGR. _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -1668,10 +1609,6 @@
               "text": "o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -1794,8 +1731,8 @@
           "text": "VIII - encosto ajustável em altura e em sentido anteroposterior, com forma levemente adaptada ao corpo para proteção da região lombar;"
         },
         {
-          "type": "note",
-          "text": "IX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "IX - largura de, no mínimo, 40 cm (quarenta centímetros) e, com relação aos encostos, de no mínimo, 30,5 cm (trinta vírgula cinquenta centímetros); e"
         },
         {
           "type": "paragraph",
@@ -1887,10 +1824,6 @@
           "text": "5.2 Os ambientes de trabalho devem atender ao disposto no item 17.8.4.2 da NR 17 em relação à temperatura, velocidade do ar e umidade com a finalidade de proporcionar conforto térmico nas situações de trabalho."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "5.2.1 Devem ser implementados projetos adequados de climatização dos ambientes de trabalho que permitam distribuição homogênea das temperaturas e fluxos de ar, utilizando, se necessário, controles locais e/ou setorizados da temperatura, velocidade e direção dos fluxos."
         },
@@ -1940,10 +1873,6 @@
         {
           "type": "paragraph",
           "text": "6.2 O contingente de operadores deve ser dimensionado às demandas da produção no sentido de não gerar sobrecarga habitual ao trabalhador."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -2025,8 +1954,8 @@
           "text": "6.4.5 Devem ser garantidas pausas no trabalho imediatamente após operação em que tenham ocorrido ameaças, abuso verbal ou agressões, ou que tenha sido especialmente desgastante, que permitam ao operador recuperar-se e socializar conflitos e dificuldades com colegas, supervisores ou profissionais de saúde ocupacional especialmente capacitados para tal acolhimento."
         },
         {
-          "type": "note",
-          "text": "6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "6.5 O tempo necessário para a atualização do conhecimento do operador e para o ajuste do posto"
         },
         {
           "type": "paragraph",
@@ -2155,8 +2084,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto a ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas, Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "6.14 Com a finalidade de reduzir o estresse dos operadores, devem ser minimizados os conflitos e ambiguidades de papéis nas tarefas a executar, estabelecendo-se claramente as diretrizes quanto a ordens e instruções de diversos níveis hierárquicos, autonomia para resolução de problemas,"
         },
         {
           "type": "paragraph",
@@ -2259,17 +2188,9 @@
           "items": [
             {
               "label": "b",
-              "text": "integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando"
+              "text": "integrantes do Serviço Especializado em Segurança e Medicina do Trabalho - SESMT, quando houver;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "houver;"
         },
         {
           "type": "list",
@@ -2371,10 +2292,6 @@
               "text": "estímulo à ingestão frequente de água potável fornecida gratuitamente aos operadores."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -2536,10 +2453,6 @@
       "title": "10. Pessoas com Deficiência",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "10.1 Para as pessoas com deficiência e aquelas cujas medidas antropométricas não sejam atendidas pelas especificações deste Anexo, o mobiliário dos postos de trabalho deve ser adaptado para atender às suas necessidades, e devem estar disponíveis ajudas técnicas necessárias em seu respectivo posto de trabalho para facilitar sua integração ao trabalho, levando em consideração as repercussões sobre a saúde desses trabalhadores."
         },
@@ -2557,10 +2470,6 @@
         {
           "type": "paragraph",
           "text": "11.1 As organizações que, na data de 02 de abril de 2007, mantinham com seus trabalhadores a contratação de jornada de 6 (seis) horas diárias, nela contemplados e remunerados 15 (quinze) minutos de intervalo para repouso e alimentação, obrigar-se-ão somente à complementação de 5 (cinco) minutos, igualmente remunerados, de maneira a alcançar o total de 20 (vinte) minutos de pausas obrigatórias remuneradas, concedidos na forma dos itens 6.4.1 e 6.4.2."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

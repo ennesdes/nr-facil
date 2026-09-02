@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../ads/widgets/list_banner_ad.dart';
 import '../../reader/bindings/reader_binding.dart';
 import '../../reader/views/nr_reader_page.dart';
 import '../controllers/search_screen_controller.dart';
@@ -53,6 +54,27 @@ class SearchPage extends GetView<SearchScreenController> {
                     horizontal: 16,
                     vertical: 12,
                   ),
+                ),
+              ),
+            ),
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Obx(
+                () => Wrap(
+                  spacing: 8,
+                  children: [
+                    FilterChip(
+                      label: const Text('Só favoritos'),
+                      selected: controller.favoritesOnly.value,
+                      onSelected: (value) {
+                        controller.favoritesOnly.value = value;
+                        if (controller.query.value.isNotEmpty) {
+                          controller.performSearchNow();
+                        }
+                      },
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -161,6 +183,7 @@ class SearchPage extends GetView<SearchScreenController> {
                 },
               ),
             ),
+            const ListBannerAd(),
           ],
         ),
       ),

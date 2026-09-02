@@ -24,6 +24,11 @@ if [ -f "scripts/validate_manifest.py" ]; then
   python3 scripts/validate_manifest.py || ERRORS=1
 fi
 
+if [ -f "scripts/validate_quality.py" ]; then
+  echo "==> validate quality..."
+  python3 scripts/validate_quality.py --all || ERRORS=1
+fi
+
 if [ "$ERRORS" -ne 0 ]; then
   echo "✗ check.sh falhou"
   exit 1

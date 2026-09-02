@@ -25,6 +25,99 @@ from _common import list_all_nrs, ensure_content_dir, setup_logging
 
 logger = logging.getLogger(__name__)
 
+DOU_NOTE = "Este texto não substitui o publicado no DOU"
+DOU_LINE_RE = re.compile(
+    r"^\s*Este texto não substitui o publicado no DOU\.?\s*$",
+    re.IGNORECASE,
+)
+# Hifenização residual: "deve- se", "minu- to"
+BROKEN_HYPHEN_RE = re.compile(r"(\w)- (\w)")
+# Número de página solto entre parágrafos (1–3 dígitos, linha isolada)
+PAGE_NUMBER_LINE_RE = re.compile(r"^\s*\d{1,3}\s*$")
+
+
+def _is_structural_line(line: str) -> bool:
+    """Linha que não deve ser fundida com parágrafo anterior."""
+    stripped = line.strip()
+    if not stripped:
+        return True
+    if stripped.startswith("#"):
+        return True
+    if stripped.startswith("|"):
+        return True
+    if stripped.startswith("!["):
+        return True
+    if stripped.startswith("<!--"):
+        return True
+    if ITEM_LIKE_RE.match(stripped):
+        return True
+    return False
+
+
+ITEM_LIKE_RE = re.compile(r"^(\*\*)?\d+(?:\.\d+)+\*?\*?")
+
+
+def _remove_dou_footer_lines(lines: list[str]) -> list[str]:
+    """
+    Remove avisos DOU que quebram itens normativos no meio do parágrafo.
+
+    Quando o rodapé aparece entre duas partes do mesmo item, une o texto.
+  Linhas que são só o aviso DOU são removidas.
+    """
+    result: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.strip()
+
+        if DOU_LINE_RE.match(stripped):
+            # Une parágrafo anterior com continuação após o aviso DOU
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            prev_idx = len(result) - 1
+            while prev_idx >= 0 and not result[prev_idx].strip():
+                prev_idx -= 1
+            if (
+                prev_idx >= 0
+                and j < len(lines)
+                and not _is_structural_line(lines[j])
+            ):
+                merged = result[prev_idx].rstrip() + " " + lines[j].lstrip()
+                result = result[:prev_idx] + [merged]
+                i = j + 1
+                continue
+            i += 1
+            continue
+
+        # DOU inline no meio da linha
+        if DOU_NOTE.lower() in stripped.lower():
+            cleaned = re.sub(
+                rf"\s*{re.escape(DOU_NOTE)}\.?\s*",
+                " ",
+                stripped,
+                flags=re.IGNORECASE,
+            ).strip()
+            if cleaned:
+                result.append(cleaned if line == stripped else line.replace(stripped, cleaned))
+            i += 1
+            continue
+
+        result.append(line)
+        i += 1
+
+    return result
+
+
+def _remove_orphan_page_numbers(lines: list[str]) -> list[str]:
+    """Remove linhas que são só número de página do PDF."""
+    return [line for line in lines if not PAGE_NUMBER_LINE_RE.match(line)]
+
+
+def _fix_broken_hyphenation(text: str) -> str:
+    """Corrige hifenização residual tipo 'deve- se' → 'deve-se'."""
+    return BROKEN_HYPHEN_RE.sub(r"\1-\2", text)
+
 
 def _repair_broken_table_rows(text: str) -> str:
     """
@@ -83,14 +176,18 @@ def normalize_markdown(text: str) -> str:
     Normaliza o Markdown extraído de PDF.
 
     Executa:
-    1. Remove páginas vazias / linhas de rodapé repetidas
-    2. Padroniza headings em formato "17.1", "17.1.1", etc.
-    3. Corrige hifenização quebrada (linha termina em hífen)
-    4. Repara linhas de tabela quebradas por \\n dentro de células
-    5. Remove espaços em branco excessivos
-    6. Remove sequências de linhas vazias > 2
+    1. Remove avisos DOU que partem itens normativos
+    2. Remove números de página soltos e rodapés repetidos
+    3. Padroniza headings em formato "17.1", "17.1.1", etc.
+    4. Corrige hifenização quebrada (linha termina em hífen)
+    5. Repara linhas de tabela quebradas por \\n dentro de células
+    6. Remove espaços em branco excessivos
+    7. Remove sequências de linhas vazias > 2
     """
     lines = text.split("\n")
+
+    lines = _remove_dou_footer_lines(lines)
+    lines = _remove_orphan_page_numbers(lines)
 
     # Remove sequências de rodapé/cabeçalho repetidas (ex: "Página 5" repetida)
     lines = [
@@ -134,6 +231,7 @@ def normalize_markdown(text: str) -> str:
 
     text = "\n".join(normalized)
     text = _repair_broken_table_rows(text)
+    text = _fix_broken_hyphenation(text)
 
     # Remove linhas em branco excessivas (mais de 2 consecutivas)
     text = re.sub(r"\n\n\n+", "\n\n", text)

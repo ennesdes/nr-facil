@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
 import 'package:nrfacil/features/home/views/widgets/empty_favoritos_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
@@ -37,6 +38,7 @@ class FavoritosTab extends StatelessWidget {
 
               // ReorderableListView com favoritos
               _buildFavoritosList(context, contentService),
+              const ListBannerAd(),
             ],
           ),
         );

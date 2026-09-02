@@ -1,0 +1,46 @@
+"""Testes para normalize_md.py."""
+from __future__ import annotations
+
+import unittest
+
+from normalize_md import DOU_NOTE, normalize_markdown
+
+
+class TestNormalizeMarkdown(unittest.TestCase):
+    def test_removes_dou_line_splitting_item(self) -> None:
+        text = (
+            "**6.1.1** O objetivo desta NR é estabelecer os requisitos para aprovação,\n\n"
+            f"{DOU_NOTE}\n\n"
+            "comercialização, fornecimento e utilização de EPI.\n"
+        )
+        result = normalize_markdown(text)
+        self.assertNotIn(DOU_NOTE, result)
+        self.assertIn("aprovação, comercialização", result)
+
+    def test_removes_standalone_dou_line(self) -> None:
+        text = f"# **6.1 Objetivo**\n\n{DOU_NOTE}\n\n**6.1.1** Texto do item.\n"
+        result = normalize_markdown(text)
+        self.assertNotIn(DOU_NOTE, result)
+        self.assertIn("**6.1.1** Texto do item.", result)
+
+    def test_fixes_broken_hyphenation(self) -> None:
+        text = "O empregador deve- se certificar de que o trabalhador usa EPI.\n"
+        result = normalize_markdown(text)
+        self.assertIn("deve-se", result)
+        self.assertNotIn("deve- se", result)
+
+    def test_removes_orphan_page_numbers(self) -> None:
+        text = "Parágrafo inicial.\n\n42\n\nContinuação do texto.\n"
+        result = normalize_markdown(text)
+        self.assertNotIn("\n42\n", result)
+        self.assertIn("Continuação do texto.", result)
+
+    def test_preserves_headings_and_tables(self) -> None:
+        text = "# **6.1 Objetivo**\n\n| Col A | Col B |\n| --- | --- |\n| 1 | 2 |\n"
+        result = normalize_markdown(text)
+        self.assertIn("# **6.1 Objetivo**", result)
+        self.assertIn("| Col A | Col B |", result)
+
+
+if __name__ == "__main__":
+    unittest.main()

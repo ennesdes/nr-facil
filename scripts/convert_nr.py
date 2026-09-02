@@ -121,7 +121,35 @@ def _is_probably_illegible(table: list[list]) -> bool:
     if total_non_empty == 0:
         return False
 
-    return suspicious_count >= total_non_empty * 0.5
+    if suspicious_count >= total_non_empty * 0.5:
+        return True
+
+    # Matrizes esparsas (ex.: NR-03) — muitas células vazias em grade larga
+    total_cells = sum(len(row) for row in table)
+    if total_cells == 0:
+        return False
+    empty_cells = sum(
+        1 for row in table for cell in row if not str(cell or "").strip()
+    )
+    max_cols = max((len(row) for row in table), default=0)
+    if max_cols >= 5 and empty_cells / total_cells >= 0.35:
+        return True
+
+    return False
+
+
+def _markdown_table_is_fragmented(table_md: str) -> bool:
+    """Detecta tabela Markdown gerada com células espalhadas/quebradas."""
+    lines = [ln.strip() for ln in table_md.splitlines() if ln.strip()]
+    if len(lines) < 3:
+        return False
+
+    data_rows = [ln for ln in lines if ln.startswith("|") and "---" not in ln]
+    if len(data_rows) < 2:
+        return False
+
+    short_rows = sum(1 for ln in data_rows if ln.count("|") <= 3)
+    return short_rows >= len(data_rows) * 0.4
 
 
 def _strip_duplicate_markdown_table(page_text: str) -> str:
@@ -268,11 +296,22 @@ def extract_tables_pass(
                         page_tables.append({"illegible_page": True, "bbox": bbox})
                         illegible_count += 1
                     else:
-                        # Converte para Markdown
                         table_md = _table_to_markdown(table)
-                        page_tables.append(table_md)
-                        table_count += 1
-                        logger.debug(f"  Page {page_num + 1}: tabela {table_idx} convertida para Markdown")
+                        if _markdown_table_is_fragmented(table_md):
+                            logger.debug(
+                                f"  Page {page_num + 1}: tabela {table_idx} "
+                                "fragmentada → fallback PNG"
+                            )
+                            bbox = table_obj.bbox
+                            page_tables.append({"illegible_page": True, "bbox": bbox})
+                            illegible_count += 1
+                        else:
+                            page_tables.append(table_md)
+                            table_count += 1
+                            logger.debug(
+                                f"  Page {page_num + 1}: tabela {table_idx} "
+                                "convertida para Markdown"
+                            )
 
                 if page_tables:
                     tables_by_page[page_num] = page_tables

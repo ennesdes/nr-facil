@@ -138,17 +138,9 @@
           "items": [
             {
               "label": "c",
-              "text": "resíduos originários das atividades referidas no item 38.2.1."
+              "text": "resíduos originários das atividades referidas no item 38.2.1. **<mark>38.2.1.3</mark>** <mark>Esta NR não se aplica às atividades de manejo de:</mark>"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.2.1.3</mark>** <mark>Esta NR não se aplica às atividades de manejo de:</mark>"
         },
         {
           "type": "paragraph",
@@ -281,15 +273,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.3.2.1</mark>** <mark>O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.3.2.1.1</mark>** <mark>Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio.</mark>"
+          "text": "**<mark>38.3.2.1</mark>** <mark>O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR.</mark> **<mark>38.3.2.1.1</mark>** <mark>Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio.</mark>"
         },
         {
           "type": "paragraph",
@@ -353,15 +337,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.4.1.3</mark>** <mark>Deve ser fornecido ao empregado comprovante das vacinas quando fornecidas pela organização.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1.3.1</mark>** <mark>Quando a vacinação for realizada na rede pública, a organização deve solicitar aos empregados que apresentem o respectivo certificado de vacinação.</mark>"
+          "text": "**<mark>38.4.1.3</mark>** <mark>Deve ser fornecido ao empregado comprovante das vacinas quando fornecidas pela organização.</mark> **<mark>38.4.1.3.1</mark>** <mark>Quando a vacinação for realizada na rede pública, a organização deve solicitar aos empregados que apresentem o respectivo certificado de vacinação.</mark>"
         },
         {
           "type": "paragraph",
@@ -472,20 +448,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- <mark>a) controles do ciclo de compactação, devendo estar localizados em sua lateral, de modo que o operador tenha uma visão clara tanto do ponto de operação quanto da abertura de carga;</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "sinalizador rotativo ou intermitente na parte traseira e dianteira, instalado de forma a não <mark>ofuscar a visão dos trabalhadores;</mark>"
-            }
-          ]
+          "text": "- <mark>a) controles do ciclo de compactação, devendo estar localizados em sua lateral, de modo que o operador tenha uma visão clara tanto do ponto de operação quanto da abertura de carga;</mark> - b) sinalizador rotativo ou intermitente na parte traseira e dianteira, instalado de forma a não <mark>ofuscar a visão dos trabalhadores;</mark>"
         },
         {
           "type": "list",
@@ -603,17 +566,9 @@
           "items": [
             {
               "label": "d",
-              "text": "é vedada a permanência dos coletores na plataforma quando o veículo operar em marcha à ré."
+              "text": "é vedada a permanência dos coletores na plataforma quando o veículo operar em marcha à ré. **<mark>38.6.2.2.1</mark>** <mark>O deslocamento dos trabalhadores de um setor para outro adjacente, com o uso da plataforma operacional, somente pode ser realizado quando houver sequência da execução da atividade de coleta entre os setores.</mark>"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.2.1</mark>** <mark>O deslocamento dos trabalhadores de um setor para outro adjacente, com o uso da plataforma operacional, somente pode ser realizado quando houver sequência da execução da atividade de coleta entre os setores.</mark>"
         },
         {
           "type": "paragraph",
@@ -683,15 +638,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.6.5.1</mark>** <mark>Os contentores móveis devem ser posicionados em locais de fácil acesso e movimentação, sendo vedada a coleta de resíduos utilizando recipientes improvisados.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.6.6</mark>** <mark>A coleta de resíduos sólidos domiciliares deve ser realizada em veículo que não exija a movimentação habitual de material em altura superior à do ombro dos trabalhadores.</mark>"
+          "text": "**<mark>38.6.5.1</mark>** <mark>Os contentores móveis devem ser posicionados em locais de fácil acesso e movimentação, sendo vedada a coleta de resíduos utilizando recipientes improvisados.</mark> **<mark>38.6.6</mark>** <mark>A coleta de resíduos sólidos domiciliares deve ser realizada em veículo que não exija a movimentação habitual de material em altura superior à do ombro dos trabalhadores.</mark>"
         },
         {
           "type": "paragraph",
@@ -827,20 +774,7 @@
           "items": [
             {
               "label": "b",
-              "text": "o isolamento e a sinalização no entorno da área de trabalho;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "a avaliação da integridade física da árvore a ser submetida a poda, através de análise visual <mark>externa;</mark>"
+              "text": "o isolamento e a sinalização no entorno da área de trabalho; - c) a avaliação da integridade física da árvore a ser submetida a poda, através de análise visual <mark>externa;</mark>"
             }
           ]
         },
@@ -971,15 +905,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.8.7</mark>** <mark>É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.8.8</mark>** <mark>Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto.</mark>"
+          "text": "**<mark>38.8.7</mark>** <mark>É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore.</mark> **<mark>38.8.8</mark>** <mark>Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto.</mark>"
         }
       ]
     },
@@ -1107,20 +1033,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- <mark>a) técnicas de cortes de árvores, incluindo derrubada, direcionamento de queda, remoção de árvores cortadas que permanecem suspensas por galhos de outras árvores, desgalhamento, traçamento/toragem; e</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "posturas corporais para preservar a coluna vertebral e manter o equilíbrio durante operação de <mark>motosserras, motopodas e similares.</mark>"
-            }
-          ]
+          "text": "- <mark>a) técnicas de cortes de árvores, incluindo derrubada, direcionamento de queda, remoção de árvores cortadas que permanecem suspensas por galhos de outras árvores, desgalhamento, traçamento/toragem; e</mark> - b) posturas corporais para preservar a coluna vertebral e manter o equilíbrio durante operação de <mark>motosserras, motopodas e similares.</mark>"
         },
         {
           "type": "paragraph",
@@ -1228,20 +1141,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<mark>a) o dispositivo de proteção pessoal indicado na alínea \"c\" do subitem 38.10.1.1; e</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "EPI tipo óculos de proteção contra radiação solar no período diurno."
-            }
-          ]
+          "text": "<mark>a) o dispositivo de proteção pessoal indicado na alínea \"c\" do subitem 38.10.1.1; e</mark> b) EPI tipo óculos de proteção contra radiação solar no período diurno."
         },
         {
           "type": "paragraph",
@@ -1335,15 +1235,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Análise visual externa: identificação de sinais e sintomas de pragas, patógenos e doenças, <mark>rachaduras, injúrias e cavidades, assim como a presença de ninhos e de animais peçonhentos.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Carrinho coletor (Lutocar): carrinho coletor com duas rodas, cujo corpo central apresenta <mark>características para acomodar saco descartável.</mark>"
+          "text": "Análise visual externa: identificação de sinais e sintomas de pragas, patógenos e doenças, <mark>rachaduras, injúrias e cavidades, assim como a presença de ninhos e de animais peçonhentos.</mark> Carrinho coletor (Lutocar): carrinho coletor com duas rodas, cujo corpo central apresenta <mark>características para acomodar saco descartável.</mark>"
         },
         {
           "type": "paragraph",
@@ -1407,15 +1299,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Resíduos da construção civil: os gerados nas construções, reformas, reparos e demolições de obras <mark>de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Resíduos de limpeza urbana: os resíduos sólidos originários da varrição, limpeza de logradouros e <mark>vias públicas e outros serviços de limpeza urbana.</mark>"
+          "text": "Resíduos da construção civil: os gerados nas construções, reformas, reparos e demolições de obras <mark>de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis.</mark> Resíduos de limpeza urbana: os resíduos sólidos originários da varrição, limpeza de logradouros e <mark>vias públicas e outros serviços de limpeza urbana.</mark>"
         },
         {
           "type": "paragraph",
@@ -1456,10 +1340,6 @@
         {
           "type": "paragraph",
           "text": "Transporte de trabalhadores: transporte de trabalhadores em veículos legalmente habilitados para <mark>circulação, fornecidos pela organização, em trânsito de qualquer estabelecimento da empresa para as áreas (setores) de coleta e vice-versa, entre setores de coleta, não adjacentes, bem como para os locais de transbordo e/ou destinação final dos resíduos sólidos urbanos.</mark>"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

@@ -97,12 +97,25 @@ class SearchResultTile extends StatelessWidget {
     if (start > 0) snippet = '...$snippet';
     if (end < text.length) snippet = '$snippet...';
 
-    // Construir RichText com highlight
-    final beforeMatch = snippet.substring(0, snippet.indexOf(searchQuery));
-    final match = searchQuery;
-    final afterMatch = snippet.substring(
-      snippet.indexOf(searchQuery) + searchQuery.length,
+    final normalizedSnippet = snippet.toLowerCase();
+
+    // Construir RichText com highlight (case-insensitive)
+    final matchStartInSnippet = normalizedSnippet.indexOf(normalizedQuery);
+    if (matchStartInSnippet == -1) {
+      return Text(
+        snippet,
+        style: Theme.of(context).textTheme.bodySmall,
+        maxLines: 3,
+        overflow: TextOverflow.ellipsis,
+      );
+    }
+
+    final beforeMatch = snippet.substring(0, matchStartInSnippet);
+    final match = snippet.substring(
+      matchStartInSnippet,
+      matchStartInSnippet + searchQuery.length,
     );
+    final afterMatch = snippet.substring(matchStartInSnippet + searchQuery.length);
 
     return RichText(
       text: TextSpan(

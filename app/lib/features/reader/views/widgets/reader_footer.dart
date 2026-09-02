@@ -101,10 +101,15 @@ class ReaderFooter extends StatelessWidget {
       children: [
         Divider(color: textColor),
         const SizedBox(height: 4),
-        if (entry.portaria != null)
+        if (entry.portaria != null && entry.portaria!.trim().isNotEmpty)
           Text(
             'Portaria: ${entry.portaria}',
             style: TextStyle(fontSize: 10, color: textColor),
+          )
+        else
+          Text(
+            'Portaria: conferir no PDF oficial',
+            style: TextStyle(fontSize: 10, color: textColor, fontStyle: FontStyle.italic),
           ),
         if (entry.publicadoEm != null)
           Text(
@@ -115,6 +120,25 @@ class ReaderFooter extends StatelessWidget {
           Text(
             'Vigente desde: ${entry.vigenteSde}',
             style: TextStyle(fontSize: 10, color: textColor),
+          )
+        else if (entry.portaria == null || entry.publicadoEm == null)
+          Text(
+            'Datas de vigência: conferir no PDF oficial',
+            style: TextStyle(fontSize: 10, color: textColor, fontStyle: FontStyle.italic),
+          ),
+        if (entry.reviewed == true)
+          Padding(
+            padding: const EdgeInsets.only(top: 4),
+            child: Row(
+              children: [
+                Icon(Icons.verified, size: 12, color: Colors.green.shade600),
+                const SizedBox(width: 4),
+                Text(
+                  'Conteúdo revisado',
+                  style: TextStyle(fontSize: 10, color: Colors.green.shade700),
+                ),
+              ],
+            ),
           ),
       ],
     );

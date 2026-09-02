@@ -1,15 +1,21 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'core/bindings/app_binding.dart';
+import 'core/constants/app_config.dart';
 import 'features/home/views/home_page.dart';
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Inicializar GetStorage antes de criar o app
   await GetStorage.init();
+
+  if (AppConfig.adsEnabled && !kIsWeb) {
+    await MobileAds.instance.initialize();
+  }
 
   runApp(const MyApp());
 }

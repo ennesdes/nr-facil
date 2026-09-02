@@ -26,4 +26,14 @@ class AppConfig {
 
   /// Intervalo entre tentativas de download (em segundos).
   static const int retryDelaySeconds = 2;
+
+  /// AdMob — IDs de teste do Google (substituir em produção).
+  /// Ver docs/procedures/05-configurar-admob.md
+  static const String admobAppId =
+      'ca-app-pub-3940256099942544~3347511713';
+  static const String admobBannerListUnitId =
+      'ca-app-pub-3940256099942544/6300978111';
+
+  /// Habilitar banners em listas (Favoritos/Todos/Busca). Nunca no leitor.
+  static const bool adsEnabled = true;
 }

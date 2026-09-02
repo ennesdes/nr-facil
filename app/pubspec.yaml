@@ -45,6 +45,9 @@ dependencies:
   # Networking
   http: ^1.1.0
 
+  # Monetização (banner só em listas — nunca no leitor)
+  google_mobile_ads: ^5.3.0
+
   # Markdown rendering
   flutter_markdown: ^0.7.3
   markdown: ^7.1.1

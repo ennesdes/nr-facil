@@ -44,34 +44,38 @@ class NrMarkdownImageBuilder extends StatelessWidget {
   }
 
   Widget _buildRemoteImage(BuildContext context, String url) {
-    return Container(
-      constraints: const BoxConstraints(maxHeight: 400),
-      margin: const EdgeInsets.symmetric(vertical: 8.0),
-      child: Image.network(
-        url,
-        fit: BoxFit.fitWidth,
-        errorBuilder: (context, error, stackTrace) {
-          return _buildErrorImage(context);
-        },
-        loadingBuilder: (context, child, loadingProgress) {
-          if (loadingProgress == null) return child;
-          return Center(
-            child: CircularProgressIndicator(
-              value: loadingProgress.expectedTotalBytes != null
-                  ? loadingProgress.cumulativeBytesLoaded /
-                      loadingProgress.expectedTotalBytes!
-                  : null,
-            ),
-          );
-        },
+    return _zoomable(
+      context,
+      Container(
+        constraints: const BoxConstraints(maxHeight: 400),
+        margin: const EdgeInsets.symmetric(vertical: 8.0),
+        child: Image.network(
+          url,
+          fit: BoxFit.fitWidth,
+          errorBuilder: (context, error, stackTrace) {
+            return _buildErrorImage(context);
+          },
+          loadingBuilder: (context, child, loadingProgress) {
+            if (loadingProgress == null) return child;
+            return Center(
+              child: CircularProgressIndicator(
+                value: loadingProgress.expectedTotalBytes != null
+                    ? loadingProgress.cumulativeBytesLoaded /
+                        loadingProgress.expectedTotalBytes!
+                    : null,
+              ),
+            );
+          },
+        ),
       ),
+      Image.network(url, fit: BoxFit.contain),
     );
   }
 
   Widget _buildLocalImage(BuildContext context, String relativePath) {
     try {
       final contentService = Get.find<ContentService>();
-      final localPath = contentService.getAssetPath(nrId, relativePath);
+      final localPath = _resolveLocalPath(contentService, relativePath);
       final file = File(localPath);
 
       if (!file.existsSync()) {
@@ -79,21 +83,58 @@ class NrMarkdownImageBuilder extends StatelessWidget {
         return _buildPlaceholder(context, 'Imagem não encontrada:\n$relativePath');
       }
 
-      return Container(
-        constraints: const BoxConstraints(maxHeight: 400),
-        margin: const EdgeInsets.symmetric(vertical: 8.0),
-        child: Image.file(
-          file,
-          fit: BoxFit.fitWidth,
-          errorBuilder: (context, error, stackTrace) {
-            return _buildErrorImage(context);
-          },
+      final preview = Image.file(file, fit: BoxFit.fitWidth);
+      final fullscreen = Image.file(file, fit: BoxFit.contain);
+
+      return _zoomable(
+        context,
+        Container(
+          constraints: const BoxConstraints(maxHeight: 400),
+          margin: const EdgeInsets.symmetric(vertical: 8.0),
+          child: preview,
         ),
+        fullscreen,
       );
     } catch (e) {
       AppLogger.error('Erro ao carregar imagem local: $relativePath', e);
       return _buildErrorImage(context);
     }
+  }
+
+  String _resolveLocalPath(ContentService contentService, String relativePath) {
+    final normalized = relativePath.replaceFirst(RegExp(r'^\.\./'), '');
+    return contentService.getAssetPath(nrId, normalized);
+  }
+
+  Widget _zoomable(BuildContext context, Widget preview, Widget fullscreenImage) {
+    return GestureDetector(
+      onTap: () {
+        showDialog<void>(
+          context: context,
+          builder: (ctx) => Dialog(
+            insetPadding: const EdgeInsets.all(16),
+            child: Stack(
+              children: [
+                InteractiveViewer(
+                  minScale: 0.5,
+                  maxScale: 4,
+                  child: fullscreenImage,
+                ),
+                Positioned(
+                  top: 8,
+                  right: 8,
+                  child: IconButton(
+                    icon: const Icon(Icons.close),
+                    onPressed: () => Navigator.of(ctx).pop(),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+      child: preview,
+    );
   }
 
   Widget _buildErrorImage(BuildContext context) {

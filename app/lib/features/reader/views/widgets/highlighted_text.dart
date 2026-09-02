@@ -7,12 +7,14 @@ class HighlightedText extends StatelessWidget {
   final String? highlight;
   final TextStyle? style;
   final int? maxLines;
+  final bool selectable;
 
   const HighlightedText({
     required this.text,
     this.highlight,
     this.style,
     this.maxLines,
+    this.selectable = false,
     super.key,
   });
 
@@ -23,11 +25,17 @@ class HighlightedText extends StatelessWidget {
     final query = highlight?.trim();
 
     if (query == null || query.isEmpty) {
+      if (selectable) {
+        return SelectableText(clean, style: baseStyle, maxLines: maxLines);
+      }
       return Text(clean, style: baseStyle, maxLines: maxLines);
     }
 
     final normalizedQuery = normalizeForSearch(query);
     if (normalizedQuery.isEmpty) {
+      if (selectable) {
+        return SelectableText(clean, style: baseStyle, maxLines: maxLines);
+      }
       return Text(clean, style: baseStyle, maxLines: maxLines);
     }
 
@@ -63,8 +71,16 @@ class HighlightedText extends StatelessWidget {
       start = index + normalizedQuery.length;
     }
 
+    final rich = TextSpan(children: spans);
+    if (selectable) {
+      return SelectableText.rich(
+        rich,
+        maxLines: maxLines,
+      );
+    }
+
     return Text.rich(
-      TextSpan(children: spans),
+      rich,
       maxLines: maxLines,
       overflow: maxLines != null ? TextOverflow.ellipsis : null,
     );

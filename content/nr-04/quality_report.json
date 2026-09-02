@@ -1,0 +1,12 @@
+{
+  "nr_id": "nr-04",
+  "ok": true,
+  "warnings": [
+    "fragmented_tables: 28 separadores de tabela"
+  ],
+  "char_ratio": 1.084,
+  "md_chars": 88985,
+  "pdf_chars": 82116,
+  "pages_fallback_png": 0,
+  "reviewed": true
+}
