@@ -99,14 +99,8 @@
   },
   "sections": [
     {
-      "id": "anexo-i",
+      "id": "anexo-i-atividades-e-operações-perigosas-com-explosivos",
       "number": "ANEXO I",
-      "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "atividades-e-operações-perigosas-com-explosivos",
-      "number": "",
       "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPLOSIVOS",
       "blocks": [
         {
@@ -141,17 +135,10 @@
           "items": [
             {
               "label": "a",
-              "text": "nos locais de armazenagem de pólvoras químicas, artifícios pirotécnicos e produtos químicos usados na fabricação de misturas explosivas ou de fogos de artifício, a área compreendida no Quadro nº 2:"
+              "text": "nos locais de armazenagem de pólvoras químicas, artifícios pirotécnicos e produtos químicos usados na fabricação de misturas explosivas ou de fogos de artifício, a área compreendida no Quadro nº 2: QUADRO Nº 2"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "quadro-nº-2",
-      "number": "",
-      "title": "QUADRO Nº 2",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "* quantidade máxima que não pode ser ultrapassada."
@@ -161,17 +148,10 @@
           "items": [
             {
               "label": "b",
-              "text": "nos locais de armazenagem de explosivos iniciadores, a área compreendida no Quadro nº 3:"
+              "text": "nos locais de armazenagem de explosivos iniciadores, a área compreendida no Quadro nº 3: QUADRO Nº 3"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "quadro-nº-3",
-      "number": "",
-      "title": "QUADRO Nº 3",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "* quantidade máxima que não pode ser ultrapassada."
@@ -181,17 +161,10 @@
           "items": [
             {
               "label": "c",
-              "text": "Nos locais de armazenagem de explosivos de ruptura e pólvoras mecânicos (pólvora negra e pólvora chocolate ou parda), área de operação compreendida no Quadro nº 4:"
+              "text": "Nos locais de armazenagem de explosivos de ruptura e pólvoras mecânicos (pólvora negra e pólvora chocolate ou parda), área de operação compreendida no Quadro nº 4: QUADRO Nº 4"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "quadro-nº-4",
-      "number": "",
-      "title": "QUADRO Nº 4",
-      "blocks": [
+        },
         {
           "type": "table",
           "markdown": "| QUANTIDADE ARMAZENADA EM QUILO | FAIXA DE TERRENO ATÉ A DISTÃNCIA MÁXIMA DE |\n| --- | --- |\n| até 4.500 mais de 4.500 até 45.000 mais de 45.000 até 90.000 mais de 90.000 até 225.000* | 45 metros 90 metros 110 metros 180 metros |"
@@ -225,14 +198,8 @@
       ]
     },
     {
-      "id": "anexo-ii",
+      "id": "anexo-ii-atividades-e-operações-perigosas-com-inflamáveis",
       "number": "ANEXO II",
-      "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "atividades-e-operações-perigosas-com-inflamáveis",
-      "number": "",
       "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM INFLAMÁVEIS",
       "blocks": [
         {
@@ -462,18 +429,12 @@
         },
         {
           "type": "paragraph",
-          "text": "4.2 O manuseio, a armazenagem e o transporte de recipientes de até cinco litros, lacrados na fabricação, contendo líquidos inflamáveis, independentemente do número total de recipientes manuseados, armazenados ou transportados, sempre que obedecidas as Normas Regulamentadoras expedidas pelo Ministério do Trabalho e Emprego e a legislação sobre produtos perigosos relativa aos meios de transporte utilizados."
-        }
-      ]
-    },
-    {
-      "id": "quadro-l",
-      "number": "",
-      "title": "QUADRO l",
-      "blocks": [
+          "text": "4.2 O manuseio, a armazenagem e o transporte de recipientes de até cinco litros, lacrados na fabricação, contendo líquidos inflamáveis, independentemente do número total de recipientes manuseados, armazenados ou transportados, sempre que obedecidas as Normas Regulamentadoras expedidas pelo Ministério do Trabalho e Emprego e a legislação sobre produtos perigosos relativa aos meios de transporte utilizados. QUADRO l"
+        },
         {
-          "type": "table",
-          "markdown": "| Capacidade Máxima para Embalagens de Líquidos Inflamáveis | | | | |\n| --- | --- | --- | --- | --- |\n| Embalagem combinada | | | | |\n| Embalagem interna | Embalagem Externa | Grupo de Embalagens* I | Grupo de Embalagens* lI | Grupo de Embalagens* III |\n| Recipientes de Vidro com mais de 5 e até 10 litros; Plástico com mais de 5 e até 30 litros; Metal com mais de 5 e até 40 litros. | Tambores de: Metal Plástico Madeira Compensada Fibra | 250 kg 250 kg 150 kg 75 kg | 400 kg 400 kg 400 kg 400 kg | 400 kg 400 kg 400 kg 400 kg |\n| | Caixas | | | |\n| | Aço ou Alumínio Madeira Natural ou compensada Madeira Aglomerada Papelão Plástico Flexível Plástico Rígido | 250 kg | 400 kg | 400 kg |\n| | | 150 kg | 400 kg | 400 kg |\n| | | 75 kg | 400 kg | 400 kg |\n| | | 60 kg | 60 kg | 60 kg |\n| | | 150 kg | 400 kg | 400 kg |\n| | Bombonas Aço ou Alumínio Plástico | 120 kg 120 kg | 120 kg 120 kg | 120 kg 120 kg |\n| Embalagens Simples | | | | |\n| | Grupo de Embalagens* I | Grupo de Embalagens* II | | Grupo de Embalagens* III |\n| | | 450 L | | 450 L |"
+          "type": "image",
+          "alt": "Tabela da página 9",
+          "src": "../assets/pages/page-009-table-00.png"
         },
         {
           "type": "paragraph",
@@ -481,18 +442,12 @@
         },
         {
           "type": "paragraph",
-          "text": "** Somente para substâncias com viscosidades maior que 200 mm²/seg"
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
+          "text": "** Somente para substâncias com viscosidades maior que 200 mm²/seg GLOSSÁRIO"
+        },
         {
-          "type": "table",
-          "markdown": "| | | | |\n| --- | --- | --- | --- |\n| Bombonas Aço, tampa não removível Aço, tampa removível Alumínio, tampa não removível Alumínio, tampa removível Outros metais, tampa não removível Outros metais, tampa removível Plástico, tampa não removível Plástico, tampa removível | 60 L 60 L** 60 L 60 L** 60 L 60 L** 60 L 60 L** | 60 L | 60 L |"
+          "type": "image",
+          "alt": "Tabela da página 10",
+          "src": "../assets/pages/page-010-table-00.png"
         },
         {
           "type": "table",
@@ -576,13 +531,11 @@
       "id": "anexo-iii",
       "number": "ANEXO III",
       "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "atividades-e-operações-perigosas-com-exposição-a-roubos-ou-outras-espécies-de-violência-física-nas-atividades-profissionais-de-segurança-pessoal-ou-patrimonial",
-      "number": "",
-      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPOSIÇÃO A ROUBOS OU OUTRAS ESPÉCIES DE VIOLÊNCIA FÍSICA NAS ATIVIDADES PROFISSIONAIS DE SEGURANÇA PESSOAL OU PATRIMONIAL",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPOSIÇÃO A ROUBOS OU OUTRAS ESPÉCIES DE VIOLÊNCIA FÍSICA NAS ATIVIDADES PROFISSIONAIS DE SEGURANÇA PESSOAL OU PATRIMONIAL**"
+        },
         {
           "type": "paragraph",
           "text": "_(Aprovado pela Portaria MTE nº 1.885, de 02 de dezembro de 2013)_"
@@ -891,12 +844,18 @@
           ]
         },
         {
-          "type": "note",
-          "text": "- d) ensaios, testes, medições, supervisão, fiscalizações e levantamentos de circuitos e equipamentos elétricos, eletrônicos de telecomunicações e telecontrole. Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ensaios, testes, medições, supervisão, fiscalizações e levantamentos de circuitos e equipamentos elétricos, eletrônicos de telecomunicações e telecontrole."
+            }
+          ]
         },
         {
-          "type": "table",
-          "markdown": "| | ATIVIDADES | | | ÁREAS DE RISCO | |\n| --- | --- | --- | --- | --- | --- |\n| . Atividades, constantes no item 4.1, de construção, operação e manutenção de redes de linhas aéreas ou subterrâneas de alta e baixa tensão integrantes do SEP, energizados ou desenergizados, mas com possibilidade de energização acidental ou por falha operacional. | | | | a) Estruturas, condutores e equipamentos de | |\n| | | | | linhas aéreas de transmissão, subtransmissão e | |\n| | | | | distribuição, incluindo plataformas e cestos | |\n| | | | | aéreos usados para execução dos trabalhos; | |\n| | | | | b) Pátio e salas de operação de subestações; | |\n| | | | | c) Cabines de distribuição; | |\n| | | | | d) Estruturas, condutores e equipamentos de | |\n| | | | | redes de tração elétrica, incluindo escadas, | |\n| | | | | plataformas e cestos aéreos usados para | |\n| | | | | execução dos trabalhos; | |\n| | | | | e) Valas, bancos de dutos, canaletas, condutores, | |\n| | | | | recintos internos de caixas, poços de inspeção, | |\n| | | | | câmaras, galerias, túneis, estruturas terminais | |\n| | | | | e aéreas de superfície correspondentes; | |\n| | | | | f) Áreas submersas em rios, lagos e mares. | |\n| . | Atividades, constantes no item 4.2, de | | | a) Pontos de medição e cabinas de distribuição, | |\n| | construção, operação e manutenção nas usinas, | | | inclusive de consumidores; | |\n| | unidades geradoras, subestações e cabinas de | | | | |\n| | | | | b) Salas de controles, casa de máquinas, | |\n| | distribuição em operações, integrantes do SEP, | | | | |\n| | | | | barragens de usinas e unidades geradoras; | |\n| | energizados ou desenergizados, mas com | | | | |\n| | | | | c) Pátios e salas de operações de subestações, | |\n| | possibilidade de energização acidental ou por | | | | |\n| | falha operacional. | | | inclusive consumidoras. | |\n| . Atividades de inspeção, testes, ensaios, calibração, medição e reparos em equipamentos e materiais elétricos, eletrônicos, eletromecânicos e de segurança individual e coletiva em sistemas elétricos de potência de alta e baixa tensão. | | | | a) Áreas das oficinas e laboratórios de testes e | |\n| | | | | manutenção elétrica, eletrônica e | |\n| | | | | eletromecânica onde são executados testes, | |\n| | | | | ensaios, calibração e reparos de equipamentos | |\n| | | | | energizados ou passíveis de energização | |\n| | | | | acidental; | |\n| | | | | b) Sala de controle e casas de máquinas de usinas | |\n| | | | | e unidades geradoras; | |\n| | | | | c) Pátios e salas de operação de subestações, | |\n| | | | | inclusive consumidoras; | |\n| | | | | d) Salas de ensaios elétricos de alta tensão; | |\n| | | | | e) Sala de controle dos centros de operações. | |\n| . | Atividades de treinamento em equipamentos ou | | a) Todas as áreas descritas nos itens anteriores. | | |\n| | instalações integrantes do SEP, energizadas ou | | | | |"
+          "type": "image",
+          "alt": "Tabela da página 15",
+          "src": "../assets/pages/page-015-table-00.png"
         },
         {
           "type": "paragraph",
@@ -1014,8 +973,9 @@
           ]
         },
         {
-          "type": "table",
-          "markdown": "| desenergizadas, mas com possibilidade de | | |\n| --- | --- | --- |\n| energização acidental ou por falha operacional. | | |"
+          "type": "image",
+          "alt": "Tabela da página 16",
+          "src": "../assets/pages/page-016-table-00.png"
         },
         {
           "type": "paragraph",
@@ -1037,21 +997,9 @@
       ]
     },
     {
-      "id": "41-é-responsabilidade-da-organização-a-caracterização-ou-descaracterização-da-periculosidade-nas-hipóteses-dos-itens-31-e-32-deste-anexo-que-deve-ser-feita-mediante-laudo-técnico-elaborado-por-médico-do-trabalho-ou-engenheiro-de-segurança-do-trabalho-nos-termos-do-artigo-195-da-clt-e-do-item-163-da-nr-16",
+      "id": "41-é-responsabilidade-da-organização-a-caracterização-ou-descaracterização-da-periculosidade-nas-hipóteses-dos-itens-31-e-32-deste-anexo-que-deve-ser-feita-mediante-laudo-técnico-elaborado-por-médico-do-trabalho-ou-engenheiro-de-segurança-do-trabalho-nos-termos-do-artigo-195-da-clt-e-do-item-163-da-nr-16-anexo-v-atividades-perigosas-em-motocicleta",
       "number": "4.1",
-      "title": "É responsabilidade da organização a caracterização ou descaracterização da periculosidade, nas hipóteses dos itens 3.1 e 3.2 deste anexo, que deve ser feita mediante laudo técnico elaborado por Médico do Trabalho ou Engenheiro de Segurança do Trabalho, nos termos do artigo 195 da CLT e do item 16.3 da NR-16",
-      "blocks": []
-    },
-    {
-      "id": "anexo-v",
-      "number": "",
-      "title": "~~ANEXO V~~",
-      "blocks": []
-    },
-    {
-      "id": "atividades-perigosas-em-motocicleta",
-      "number": "",
-      "title": "~~ATIVIDADES PERIGOSAS EM MOTOCICLETA~~",
+      "title": "É responsabilidade da organização a caracterização ou descaracterização da periculosidade, nas hipóteses dos itens 3.1 e 3.2 deste anexo, que deve ser feita mediante laudo técnico elaborado por Médico do Trabalho ou Engenheiro de Segurança do Trabalho, nos termos do artigo 195 da CLT e do item 16.3 da NR-16. ~~ANEXO V~~ ~~ATIVIDADES PERIGOSAS EM MOTOCICLETA~~",
       "blocks": [
         {
           "type": "paragraph",
@@ -1091,13 +1039,11 @@
       "id": "anexo-vi",
       "number": "ANEXO VI",
       "title": "ANEXO VI",
-      "blocks": []
-    },
-    {
-      "id": "atividades-perigosas-dos-agentes-das-autoridades-de-trânsito",
-      "number": "",
-      "title": "ATIVIDADES PERIGOSAS DOS AGENTES DAS AUTORIDADES DE TRÂNSITO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**ATIVIDADES PERIGOSAS DOS AGENTES DAS AUTORIDADES DE TRÂNSITO**"
+        },
         {
           "type": "paragraph",
           "text": "_(Inserido pela Portaria MTE nº 1.411, de 22 de agosto de 2025)_"
@@ -1106,8 +1052,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -1161,31 +1107,19 @@
           "number": "3.2.1",
           "depth": 2,
           "text": "Na elaboração do laudo, deve ser analisada a exposição do trabalhador ao risco de colisões, atropelamentos ou outras espécies de acidentes ou violências, independentemente do local de realização da atividade."
-        }
-      ]
-    },
-    {
-      "id": "anexo",
-      "number": "",
-      "title": "**ANEXO (*)**",
-      "blocks": []
-    },
-    {
-      "id": "atividades-e-operações-perigosas-com-radiações-ionizantes-ou-substâncias-radioativas",
-      "number": "",
-      "title": "ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "_(Adotado pela Portaria MTE nº 518, de 04 de abril de 2003)_"
-        }
-      ]
-    },
-    {
-      "id": "atividadesáreas-de-risco",
-      "number": "",
-      "title": "ATIVIDADES/ÁREAS DE RISCO",
-      "blocks": [
+          "text": "**ANEXO (*)**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS**"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(Adotado pela Portaria MTE nº 518, de 04 de abril de 2003)_ ATIVIDADES/ÁREAS DE RISCO"
+        },
         {
           "type": "table",
           "markdown": "| | |\n| --- | --- |\n| ATIVIDADES/ÁREAS DE RISCO | |\n| ATIVIDADES | ÁREAS DE RISCO |\n| 1. Produção, utilização, processamento, transporte, guarda, estocagem e manuseio de materiais radioativos, selados e não selados, de estado físico e forma química quaisquer, naturais ou artificiais, incluindo: | Minas e depósitos de materiais radioativos. Plantas-piloto e Usinas de beneficiamento de minerais radioativos. Outras áreas sujeitas a risco potencial devido às radiações ionizantes |\n| 1.1. Prospecção, mineração, operação, beneficiamento e processamento de minerais radioativos. | Lixiviação de mineiras radiativos para a produção de concentrados de urânio e tório. Purificação de concentrados e conversão em outras formas para uso como combustível nuclear. |\n| 1.2. Produção, transformação e tratamento de materiais nucleares para o ciclo do combustível nuclear. | Produção de fluoretos de urânio para a produção de hexafluoretos e urânio metálico. Instalações para enriquecimento isotópico e reconversão. Fabricação de elemento combustível nuclear. |"
@@ -1223,8 +1157,9 @@
           "text": "(*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987."
         },
         {
-          "type": "table",
-          "markdown": "| gasosos e aerossóis; transporte e deposição dos mesmos. | Instalações para asfaltamento de rejeitos radioativos. Instalações para cimentação de rejeitos radioativos. |\n| --- | --- |\n| 7. Descomissionamento de minas, moinhos e usinas de tratamento de minerais radioativos. | Tratamento de rejeitos minerais. Repositório de rejeitos naturais (bacia de contenção de rádio e outros radioisótopos). Deposição de gangas e rejeitos de mineração. |\n| Nota Explicativa: | |\n| (Inserida pela Portaria MTE nº 595, de 07 de maio de 2015) | |\n| 1. Não são consideradas perigosas, para efeito deste anexo, as atividades desenvolvidas em áreas que | |\n| utilizam equipamentos móveis de Raios X para diagnóstico médico. | |\n| 2. Áreas tais como emergências, centro de tratamento intensivo, sala de recuperação e leitos de | |\n| internação não são classificadas como salas de irradiação em razão do uso do equipamento móvel de | |\n| Raios X. | |\n| (*) Anexo acrescentado pela Portaria nº 3.393, de 17-12-1987. | |"
+          "type": "image",
+          "alt": "Tabela da página 22",
+          "src": "../assets/pages/page-022-table-00.png"
         }
       ]
     }

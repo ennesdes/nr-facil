@@ -152,15 +152,9 @@
       ]
     },
     {
-      "id": "243-componentes-sanitários",
+      "id": "243-componentes-sanitários-bacias-sanitárias",
       "number": "24.3",
-      "title": "Componentes sanitários",
-      "blocks": []
-    },
-    {
-      "id": "bacias-sanitárias",
-      "number": "",
-      "title": "Bacias sanitárias",
+      "title": "Componentes sanitários Bacias sanitárias",
       "blocks": [
         {
           "type": "item",
@@ -209,17 +203,10 @@
           "items": [
             {
               "label": "e",
-              "text": "possuir dimensões de acordo com o código de obras local ou, na ausência desse, deve haver área livre de pelo menos 0,60m (sessenta centímetros) de diâmetro entre a borda frontal da bacia sanitária e a porta fechada."
+              "text": "possuir dimensões de acordo com o código de obras local ou, na ausência desse, deve haver área livre de pelo menos 0,60m (sessenta centímetros) de diâmetro entre a borda frontal da bacia sanitária e a porta fechada. Mictórios"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "mictórios",
-      "number": "",
-      "title": "Mictórios",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "24.3.2",
@@ -242,15 +229,8 @@
           "type": "item",
           "number": "24.3.2.3",
           "depth": 3,
-          "text": "Os mictórios devem ser construídos com material impermeável e mantidos em condições de limpeza e higiene."
-        }
-      ]
-    },
-    {
-      "id": "lavatórios",
-      "number": "",
-      "title": "Lavatórios",
-      "blocks": [
+          "text": "Os mictórios devem ser construídos com material impermeável e mantidos em condições de limpeza e higiene. Lavatórios"
+        },
         {
           "type": "item",
           "number": "24.3.3",
@@ -259,15 +239,8 @@
         },
         {
           "type": "paragraph",
-          "text": "24.3.4 O lavatório deve ser provido de material ou dispositivo para a limpeza, enxugo ou secagem das mãos, proibindo-se o uso de toalhas coletivas."
-        }
-      ]
-    },
-    {
-      "id": "chuveiros",
-      "number": "",
-      "title": "Chuveiros",
-      "blocks": [
+          "text": "24.3.4 O lavatório deve ser provido de material ou dispositivo para a limpeza, enxugo ou secagem das mãos, proibindo-se o uso de toalhas coletivas. Chuveiros"
+        },
         {
           "type": "item",
           "number": "24.3.5",
@@ -439,17 +412,10 @@
           "items": [
             {
               "label": "e",
-              "text": "dispor de armários individuais simples e/ou duplos com sistema de trancamento."
+              "text": "dispor de armários individuais simples e/ou duplos com sistema de trancamento. Armários"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "armários",
-      "number": "",
-      "title": "Armários",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "24.4.4",
@@ -1277,13 +1243,11 @@
       "id": "anexo-i-da-nr-24",
       "number": "ANEXO I",
       "title": "da NR-24",
-      "blocks": []
-    },
-    {
-      "id": "condições-sanitárias-e-de-conforto-aplicáveis-a-trabalhadores-em-shopping-center",
-      "number": "",
-      "title": "CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM “SHOPPING CENTER”",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM “SHOPPING CENTER”**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** Para efeito deste Anexo, considera-se “Shopping Center” o espaço planejado sob uma administração central sujeito a normas contratuais padronizadas, procurando assegurar convivência integrada, composto por estabelecimentos tais como: lojas de qualquer natureza e quiosques, lanchonetes, restaurantes, salas de cinema e estacionamento, destinados à exploração comercial e à prestação de serviços."
@@ -1325,13 +1289,11 @@
       "id": "anexo-ii-da-nr-24",
       "number": "ANEXO II",
       "title": "da NR-24",
-      "blocks": []
-    },
-    {
-      "id": "condições-sanitárias-e-de-conforto-aplicáveis-a-trabalhadores-em-trabalho-externo-de-prestação-de-serviços-1-para-efeito-deste-anexo-considera-se-trabalho-externo-todo-aquele-realizado-fora-do-estabelecimento-do-empregador-cuja-execução-se-dará-no-estabelecimento-do-cliente-ou-em-logradouro-público-excetua-se-deste-anexo-as-atividades-relacionadas-à-construção-leituristas-vendedores-entregadores-carteiros-e-similares-bem-como-o-de-atividade-regulamentada-pelo-anexo-iii-desta-norma",
-      "number": "",
-      "title": "CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRABALHO EXTERNO DE PRESTAÇÃO DE SERVIÇOS 1. Para efeito deste Anexo, considera-se trabalho externo todo aquele realizado fora do estabelecimento do empregador cuja execução se dará no estabelecimento do cliente ou em logradouro público. Excetua-se deste anexo as atividades relacionadas à construção, leituristas, vendedores, entregadores, carteiros e similares, bem como o de atividade regulamentada pelo Anexo III desta norma.",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRABALHO EXTERNO DE PRESTAÇÃO DE SERVIÇOS** **1.** Para efeito deste Anexo, considera-se trabalho externo todo aquele realizado fora do estabelecimento do empregador cuja execução se dará no estabelecimento do cliente ou em logradouro público. Excetua-se deste anexo as atividades relacionadas à construção, leituristas, vendedores, entregadores, carteiros e similares, bem como o de atividade regulamentada pelo Anexo III desta norma."
+        },
         {
           "type": "paragraph",
           "text": "**2.** Nas atividades desenvolvidas em estabelecimento do cliente, este será o responsável pelas garantias de conforto para satisfação das necessidades básicas de higiene e alimentação, conforme item 24.1 desta norma."
@@ -1388,13 +1350,11 @@
       "id": "anexo-iii-da-nr-24",
       "number": "ANEXO III",
       "title": "da NR-24",
-      "blocks": []
-    },
-    {
-      "id": "condições-sanitárias-e-de-conforto-aplicáveis-a-trabalhadores-em-transporte-público-rodoviário-coletivo-urbano-de-passageiros-em-atividade-externa",
-      "number": "",
-      "title": "CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRANSPORTE PÚBLICO RODOVIÁRIO COLETIVO URBANO DE PASSAGEIROS EM ATIVIDADE EXTERNA",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRANSPORTE PÚBLICO RODOVIÁRIO COLETIVO URBANO DE PASSAGEIROS EM ATIVIDADE EXTERNA**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** Para efeito deste Anexo, considera-se trabalho em transporte público coletivo rodoviário urbano de passageiros aquele desempenhado pelo pessoal de operação do transporte coletivo urbano e de caráter urbano por ônibus: os motoristas, cobradores e fiscais de campo - assim identificados como trabalhadores."

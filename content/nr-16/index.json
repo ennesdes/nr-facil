@@ -7,13 +7,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO I**",
-      "id": "anexo-i"
-    },
-    {
-      "level": 1,
-      "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPLOSIVOS**",
-      "id": "atividades-e-operações-perigosas-com-explosivos"
+      "text": "**ANEXO I** ATIVIDADES E OPERAÇÕES PERIGOSAS COM EXPLOSIVOS",
+      "id": "anexo-i-atividades-e-operações-perigosas-com-explosivos"
     },
     {
       "level": 1,
@@ -22,38 +17,8 @@
     },
     {
       "level": 1,
-      "text": "**QUADRO Nº 2**",
-      "id": "quadro-nº-2"
-    },
-    {
-      "level": 1,
-      "text": "**QUADRO Nº 3**",
-      "id": "quadro-nº-3"
-    },
-    {
-      "level": 1,
-      "text": "**QUADRO Nº 4**",
-      "id": "quadro-nº-4"
-    },
-    {
-      "level": 1,
-      "text": "**ANEXO II**",
-      "id": "anexo-ii"
-    },
-    {
-      "level": 1,
-      "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM INFLAMÁVEIS**",
-      "id": "atividades-e-operações-perigosas-com-inflamáveis"
-    },
-    {
-      "level": 1,
-      "text": "**QUADRO l**",
-      "id": "quadro-l"
-    },
-    {
-      "level": 1,
-      "text": "**GLOSSÁRIO**",
-      "id": "glossário"
+      "text": "**ANEXO II** ATIVIDADES E OPERAÇÕES PERIGOSAS COM INFLAMÁVEIS",
+      "id": "anexo-ii-atividades-e-operações-perigosas-com-inflamáveis"
     },
     {
       "level": 1,
@@ -74,16 +39,6 @@
       "level": 1,
       "text": "**ANEXO V ATIVIDADES PERIGOSAS EM MOTOCICLETA**",
       "id": "anexo-v-atividades-perigosas-em-motocicleta"
-    },
-    {
-      "level": 1,
-      "text": "**~~ANEXO V~~**",
-      "id": "anexo-v"
-    },
-    {
-      "level": 1,
-      "text": "**~~ATIVIDADES PERIGOSAS EM MOTOCICLETA~~**",
-      "id": "atividades-perigosas-em-motocicleta"
     },
     {
       "level": 1,
@@ -109,11 +64,6 @@
       "level": 1,
       "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS**",
       "id": "atividades-e-operações-perigosas-com-radiações-ionizantes-ou-substâncias-radioativas"
-    },
-    {
-      "level": 1,
-      "text": "**ATIVIDADES/ÁREAS DE RISCO**",
-      "id": "atividadesáreas-de-risco"
     }
   ]
 }

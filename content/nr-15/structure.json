@@ -157,21 +157,15 @@
       },
       {
         "type": "paragraph",
-        "text": "C₁ + C₂ + C₃ ____________________ + Cn T₁ T₂ T₃ Tn T₁ T₂ T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente."
+        "text": "C₁ + C₂ + C₃ ____________________ + Cn T₁ T₂ T₃ Tn T₁ T₂ T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente. # **Sumário** :"
       }
     ]
   },
   "sections": [
     {
-      "id": "anexo-nº-2",
+      "id": "anexo-nº-2-limites-de-tolerância-para-ruídos-de-impacto",
       "number": "",
-      "title": "ANEXO Nº 2",
-      "blocks": []
-    },
-    {
-      "id": "limites-de-tolerância-para-ruídos-de-impacto",
-      "number": "",
-      "title": "LIMITES DE TOLERÂNCIA PARA RUÍDOS DE IMPACTO",
+      "title": "ANEXO Nº 2 LIMITES DE TOLERÂNCIA PARA RUÍDOS DE IMPACTO",
       "blocks": [
         {
           "type": "paragraph",
@@ -192,15 +186,9 @@
       ]
     },
     {
-      "id": "anexo-nº-3",
+      "id": "anexo-nº-3-limites-de-tolerância-para-exposição-ao-calor",
       "number": "",
-      "title": "ANEXO Nº 3",
-      "blocks": []
-    },
-    {
-      "id": "limites-de-tolerância-para-exposição-ao-calor",
-      "number": "",
-      "title": "LIMITES DE TOLERÂNCIA PARA EXPOSIÇÃO AO CALOR",
+      "title": "ANEXO Nº 3 LIMITES DE TOLERÂNCIA PARA EXPOSIÇÃO AO CALOR",
       "blocks": [
         {
           "type": "paragraph",
@@ -214,8 +202,8 @@
     },
     {
       "id": "1-objetivos",
-      "number": "",
-      "title": "1. Objetivos",
+      "number": "1",
+      "title": "Objetivos",
       "blocks": [
         {
           "type": "paragraph",
@@ -424,8 +412,8 @@
     },
     {
       "id": "quadro-2---taxa-metabólica-por-tipo-de-atividade",
-      "number": "",
-      "title": "Quadro 2 - Taxa metabólica por tipo de atividade",
+      "number": "Quadro 2",
+      "title": "Taxa metabólica por tipo de atividade",
       "blocks": [
         {
           "type": "table",
@@ -464,15 +452,9 @@
       ]
     },
     {
-      "id": "anexo-nº-6",
+      "id": "anexo-nº-6-trabalho-sob-condições-hiperbáricas",
       "number": "",
-      "title": "ANEXO Nº 6",
-      "blocks": []
-    },
-    {
-      "id": "trabalho-sob-condições-hiperbáricas",
-      "number": "",
-      "title": "TRABALHO SOB CONDIÇÕES HIPERBÁRICAS",
+      "title": "ANEXO Nº 6 TRABALHO SOB CONDIÇÕES HIPERBÁRICAS",
       "blocks": [
         {
           "type": "paragraph",
@@ -486,8 +468,8 @@
     },
     {
       "id": "1-trabalhos-sob-ar-comprimido",
-      "number": "",
-      "title": "1. TRABALHOS SOB AR COMPRIMIDO",
+      "number": "1",
+      "title": "TRABALHOS SOB AR COMPRIMIDO",
       "blocks": [
         {
           "type": "paragraph",
@@ -877,14 +859,13 @@
               "text": "a qualidade do ar deverá ser mantida dentro dos padrões de pureza estabelecidos no subitem 1.3.15.6, através da utilização de filtros apropriados, colocados entre a fonte de ar e a câmara de trabalho, campânula ou eclusa."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "13156",
-      "number": "",
-      "title": "1.3.15.6",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "1.3.15.6",
+          "depth": 3,
+          "text": ""
+        },
         {
           "type": "item",
           "number": "1.3.15.7",
@@ -989,13 +970,11 @@
       "id": "quadro-i",
       "number": "",
       "title": "QUADRO I",
-      "blocks": []
-    },
-    {
-      "id": "modelo-de-placa-de-identificação-para-trabalho-em-ambiente-sob-ar-comprimido",
-      "number": "",
-      "title": "MODELO DE PLACA DE IDENTIFICAÇÃO PARA TRABALHO EM AMBIENTE SOB AR COMPRIMIDO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**MODELO DE PLACA DE IDENTIFICAÇÃO PARA TRABALHO EM AMBIENTE SOB AR COMPRIMIDO**"
+        },
         {
           "type": "paragraph",
           "text": "ESPECIFICAÇÃO DO MATERIAL DA PLACA: Alumínio com espessura de 2 mm"
@@ -1003,28 +982,20 @@
       ]
     },
     {
-      "id": "quadro-ii",
+      "id": "quadro-ii-folha-de-registro-do-trabalho-sob-ar-comprimido",
       "number": "",
-      "title": "QUADRO II",
-      "blocks": []
-    },
-    {
-      "id": "folha-de-registro-do-trabalho-sob-ar-comprimido",
-      "number": "",
-      "title": "FOLHA DE REGISTRO DO TRABALHO SOB AR COMPRIMIDO",
+      "title": "QUADRO II FOLHA DE REGISTRO DO TRABALHO SOB AR COMPRIMIDO",
       "blocks": []
     },
     {
       "id": "quadro-iii",
       "number": "",
       "title": "QUADRO III",
-      "blocks": []
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Pressão de Trabalho de 0 a 0,900 kgf/cm<sup>2</sup>"
@@ -1040,29 +1011,28 @@
         {
           "type": "paragraph",
           "text": "- ** somente em casos excepecionais, não podendo ultrapassar 12 horas."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de ½ a 1 hora."
         },
         {
-          "type": "table",
-          "markdown": "| FIRMA | | | | | | | DATA | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| OBRA | | | | NOME DO ENCARREGADO | | | | |\n| NOME | FUNÇÃO | COMPRESSÃO | | DESCOMPRESSÃO | | | | |\n| | | PRESSÃO DE TRABALHO | HORA DE ENTRADA | PERÍODO DE TRABALHO | INÍCIO | TÉRMINO | DURAÇÃO | OBS. |\n| | | | | | | | | |"
+          "type": "image",
+          "alt": "Tabela da página 15",
+          "src": "../assets/pages/page-015-table-00.png"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 15",
+          "src": "../assets/pages/page-015-table-01.png"
         },
         {
           "type": "table",
           "markdown": "| PERÍODO DE TRABALHO (HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO |\n| --- | --- | --- |\n| | 0,3 kgf/cm2 | |\n| 0 a 6:00 | 4 min. | 7 min. |\n| 6 a 8:00 | 14 min. | 17 min. |\n| + de 8:00** | 30 min. | 33 min. |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |"
         },
         {
           "type": "paragraph",
@@ -1079,25 +1049,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 1h a 1 ½ hora"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 1h a 1 ½ hora NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1109,14 +1069,11 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de lh 30 min. a 2 horas"
@@ -1134,39 +1091,32 @@
           "text": "(**) Não está incluído o tempo entre estágios."
         },
         {
-          "type": "table",
-          "markdown": "| 1,0 a 1,2 | | | | | | | | | | - |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,2 a 1,4 | | | | | | | | | | - |\n| 1,4 a 1,6 | | | | | | | | | 5 | 5 |\n| 1,6 a 1,8 | | | | | | | | | 10 | 10 |\n| 1,8 a 2,0 | | | | | | | | 5 | 15 | 20 |"
+          "type": "image",
+          "alt": "Tabela da página 16",
+          "src": "../assets/pages/page-016-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | | - |\n| 1,2 a 1,4 | | | | | | | | | 5 | 5 |\n| 1,4 a 1,6 | | | | | | | | | 10 | 10 |\n| 1,6 a 1,8 | | | | | | | | 5 | 15 | 20 |\n| 1,8 a 2,0 | | | | | | | | 5 | 20 | 35 |"
+          "type": "image",
+          "alt": "Tabela da página 16",
+          "src": "../assets/pages/page-016-table-01.png"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 5 | 5 |\n| 1,2 a 1,4 | | | | | | | | | 10 | 10 |\n| 1,4 a 1,6 | | | | | | | | 5 | 20 | 25 |\n| 1,6 a 1,8 | | | | | | | | 10 | 30 | 40 |\n| 1,8 a 2,0 | | | | | | | 5 | 15 | 35 | 55 |"
+          "type": "image",
+          "alt": "Tabela da página 16",
+          "src": "../assets/pages/page-016-table-02.png"
         },
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 2h a 2h 30 min."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 2h a 2h 30 min. NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1178,25 +1128,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 2½ a 3 horas"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 2½ a 3 horas NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1208,37 +1148,29 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de 3 a 4 horas"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 5 | 5 |\n| 1,2 a 1,4 | | | | | | | | | 20 | 20 |\n| 1,4 a 1,6 | | | | | | | | 5 | 30 | 35 |\n| 1,6 a 1,8 | | | | | | | | 15 | 40 | 55 |\n| 1,8 a 2,0 | | | | | | | 5 | 25 | 40 | 70 |"
+          "type": "image",
+          "alt": "Tabela da página 17",
+          "src": "../assets/pages/page-017-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 10 | 10 |\n| 1,2 a 1,4 | | | | | | | | 5 | 20 | 25 |\n| 1,4 a 1,6 | | | | | | | | 10 | 35 | 45 |\n| 1,6 a 1,8 | | | | | | | 5 | 20 | 40 | 65 |\n| 1,8 a 2,0 | | | | | | | 10 | 30 | 40 | 80 |"
+          "type": "image",
+          "alt": "Tabela da página 17",
+          "src": "../assets/pages/page-017-table-01.png"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 15 | 15 |"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "type": "paragraph",
+          "text": "![Tabela da página 17](../assets/pages/page-017-table-02.png) NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1250,25 +1182,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 4 a 6 horas ****"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 4 a 6 horas **** NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1284,36 +1206,29 @@
         {
           "type": "paragraph",
           "text": "**** Até 8 (oito) horas para pressão de trabalho de 1,0 Kg/cm<sup>2</sup> e até 6 (seis) horas para as demais pressões."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 0 a ½ hora."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
-        {
-          "type": "table",
-          "markdown": "| 1,2 a 1,4 | | | | | | | | 5 | 30 | 35 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,4 a 1,6 | | | | | | | | 15 | 40 | 55 |\n| 1,6 a 1,8 | | | | | | | 5 | 25 | 45 | 75 |\n| 1,8 a 2,0 | | | | | | 5 | 15 | 30 | 45 | 95 |"
+          "text": "**TABELA DE DESCOMPRESSÃO**"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.)** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 20 | 20 |\n| 1,2 a 1,4 | | | | | | | | 5 | 35 | 40 |\n| 1,4 a 1,6 | | | | | | | 5 | 20 | 40 | 65 |\n| 1,6 a 1,8 | | | | | | | 10 | 30 | 45 | 85 |\n| 1,8 a 2,0 | | | | | | 5 | 20 | 35 | 45 | 105 |"
+          "type": "paragraph",
+          "text": "Período de trabalho de 0 a ½ hora. NOTAS:"
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | | | 5 | 5 |\n| 2,2 a 2,4 | | | | | | | | 5 | 5 |\n| 2,4 a 2,6 | | | | | | | | 5 | 5 |\n| 2,6 a 2,8 | | | | | | | | 5 | 5 |\n| 2,8 a 3,0 | | | | | | | 5 | 5 | 10 |\n| 3,0 a 3,2 | | | | | | | 5 | 5 | 10 |\n| 3,2 a 3,4 | | | | | | | 5 | 10 | 15 |"
+          "type": "image",
+          "alt": "Tabela da página 18",
+          "src": "../assets/pages/page-018-table-00.png"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 18",
+          "src": "../assets/pages/page-018-table-01.png"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 18",
+          "src": "../assets/pages/page-018-table-02.png"
         },
         {
           "type": "paragraph",
@@ -1326,25 +1241,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho ½ a 1:00 hora."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho ½ a 1:00 hora. NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1356,25 +1261,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 1 a 1 ½ hora."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 1 a 1 ½ hora. NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1386,33 +1281,25 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | | 5 | 15 | 20 |\n| 2,2 a 2,4 | | | | | | | 5 | 20 | 25 |\n| 2,4 a 2,6 | | | | | | | 10 | 25 | 35 |\n| 2,6 a 2,8 | | | | | | 5 | 10 | 35 | 50 |\n| 2,8 a 3,0 | | | | | | 5 | 15 | 40 | 60 |\n| 3,0 a 3,2 | | | | | 5 | 5 | 20 | 40 | 70 |\n| 3,2 a 3,4 | | | | | 5 | 10 | 25 | 40 | 80 |"
-        },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | 5 | 10 | 35 | 50 |\n| 2,2 a 2,4 | | | | | | 5 | 20 | 35 | 60 |\n| 2,4 a 2,6 | | | | | | 10 | 25 | 40 | 75 |\n| 2,6 a 2,8 | | | | | 5 | 10 | 30 | 45 | 90 |\n| 2,8 a 3,0 | | | | | 5 | 20 | 35 | 45 | 105 |\n| 3,0 a 3,2 | | | | 5 | 10 | 20 | 35 | 45 | 115 |\n| 3,2 a 3,4 | | | | 5 | 15 | 25 | 35 | 45 | 125 |"
         },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 1 ½ a 2:00 horas."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 19",
+          "src": "../assets/pages/page-019-table-00.png"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 19",
+          "src": "../assets/pages/page-019-table-01.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 1 ½ a 2:00 horas. NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1424,14 +1311,11 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de 2:00 a 2 ½ horas."
@@ -1451,37 +1335,29 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de 2 ½ a 3:00 horas."
         },
         {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | 5 | 25 | 40 | 70 |\n| 2,2 a 2,4 | | | | | 5 | 10 | 30 | 40 | 85 |\n| 2,4 a 2,6 | | | | | 5 | 20 | 35 | 40 | 100 |\n| 2,6 a 2,8 | | | | 5 | 10 | 25 | 35 | 40 | 115 |\n| 2,8 a 3,0 | | | | 5 | 15 | 30 | 35 | 45 | 130 |\n| 3,0 a 3,2 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,2 a 3,4 | | | 5 | 15 | 25 | 30 | 35 | 45 | 155 |"
+          "type": "image",
+          "alt": "Tabela da página 20",
+          "src": "../assets/pages/page-020-table-00.png"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 20",
+          "src": "../assets/pages/page-020-table-01.png"
         },
         {
           "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | 5 | 10 | 30 | 45 | 90 |\n| 2,2 a 2,4 | | | | | 5 | 20 | 35 | 45 | 105 |\n| 2,4 a 2,6 | | | | 5 | 10 | 25 | 35 | 45 | 120 |\n| 2,6 a 2,8 | | | | 5 | 20 | 30 | 35 | 45 | 135 |\n| 2,8 a 3,0 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,0 a 3,2 | | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 |\n| 3,2 a 3,4 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 |"
+          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | 5 | 10 | 30 | 45 | 90 |\n| 2,2 a 2,4 | | | | | 5 | 20 | 35 | 45 | 105 |\n| 2,4 a 2,6 | | | | 5 | 10 | 25 | 35 | 45 | 120 |\n| 2,6 a 2,8 | | | | 5 | 20 | 30 | 35 | 45 | 135 |\n| 2,8 a 3,0 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 |\n| 3,0 a 3,2 | | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 |\n| 3,2 a 3,4 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | NOTAS: |"
         },
-        {
-          "type": "table",
-          "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1493,25 +1369,15 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
-          "text": "Período de trabalho de 3:00 a 4:00 horas."
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "NOTAS:",
-      "blocks": [
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Período de trabalho de 3:00 a 4:00 horas. NOTAS:"
+        },
         {
           "type": "paragraph",
           "text": "(*) A descompressão tanto para o 1<sup>o</sup> estágio quanto entre os estágios subseqüentes deverá ser feita a velocidade não superior a 0,4 kgf/cm<sup>2</sup> /minuto."
@@ -1523,14 +1389,11 @@
         {
           "type": "paragraph",
           "text": "(***) Para os valores limite de pressão de trabalho use a maior descompressão."
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Período de trabalho de 4 a 6 horas."
@@ -1571,8 +1434,8 @@
     },
     {
       "id": "2-trabalhos-submersos",
-      "number": "",
-      "title": "2. TRABALHOS SUBMERSOS",
+      "number": "2",
+      "title": "TRABALHOS SUBMERSOS",
       "blocks": [
         {
           "type": "paragraph",
@@ -3671,14 +3534,13 @@
         {
           "type": "paragraph",
           "text": "- IX. lanterna, para mergulhos noturnos ou em locais escuros."
-        }
-      ]
-    },
-    {
-      "id": "21119-todas-as-câmaras-hiperbáricas-deverão",
-      "number": "",
-      "title": "2.11.19 Todas as câmaras hiperbáricas deverão:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "2.11.19",
+          "depth": 2,
+          "text": "Todas as câmaras hiperbáricas deverão:"
+        },
         {
           "type": "list",
           "items": [
@@ -3761,15 +3623,8 @@
           "type": "item",
           "number": "2.11.20",
           "depth": 2,
-          "text": "Todas as câmaras de superfície deverão:"
-        }
-      ]
-    },
-    {
-      "id": "a-ser-construídas",
-      "number": "",
-      "title": "a) ser construídas:",
-      "blocks": [
+          "text": "Todas as câmaras de superfície deverão: a) ser construídas:"
+        },
         {
           "type": "paragraph",
           "text": "- I. com, no mínimo, 2 (dois) compartimentos estanques, pressurizáveis independentemente;"
@@ -4233,46 +4088,25 @@
       "id": "anexo-a",
       "number": "",
       "title": "ANEXO “A”",
-      "blocks": []
-    },
-    {
-      "id": "padrões-psicofísicos-para-seleção-dos-candidatos-à-atividade-de-mergulho",
-      "number": "",
-      "title": "PADRÕES PSICOFÍSICOS PARA SELEÇÃO DOS CANDIDATOS À ATIVIDADE DE MERGULHO",
-      "blocks": []
-    },
-    {
-      "id": "i---idade",
-      "number": "",
-      "title": "I - IDADE",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "O trabalho submerso ou sob pressão somente será permitido a trabalhadores com idade mínima de 18 (dezoito) anos."
-        }
-      ]
-    },
-    {
-      "id": "ii---anamnese",
-      "number": "",
-      "title": "II - ANAMNESE",
-      "blocks": [
+          "text": "PADRÕES PSICOFÍSICOS PARA SELEÇÃO DOS CANDIDATOS À ATIVIDADE DE MERGULHO I - **IDADE"
+        },
         {
           "type": "paragraph",
-          "text": "Inabilita o candidato à atividade de mergulho a ocorrência ou constatação de patologias referentes a: epilepsia, meningite, tuberculose, asma e qualquer doença pulmonar crônica; sinusites crônicas ou repetidas; otite média e otite externa crônica; doença incapacitante do aparelho locomotor; distúrbios gastrointestinais crônicos ou repetidos; alcoolismo crônico e sífilis (salvo quando convenientemente tratada e sem a persistência de nenhum sintoma conseqüente); outras a critério médico."
+          "text": "O trabalho submerso ou sob pressão somente será permitido a trabalhadores com idade mínima de 18 (dezoito) anos. II - **ANAMNESE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inabilita o candidato à atividade de mergulho a ocorrência ou constatação de patologias referentes a: epilepsia, meningite, tuberculose, asma e qualquer doença pulmonar crônica; sinusites crônicas ou repetidas; otite média e otite externa crônica; doença incapacitante do aparelho locomotor; distúrbios gastrointestinais crônicos ou repetidos; alcoolismo crônico e sífilis (salvo quando convenientemente tratada e sem a persistência de nenhum sintoma conseqüente); outras a critério médico. III - **EXAME MÉDICO"
         }
       ]
-    },
-    {
-      "id": "iii---exame-médico",
-      "number": "",
-      "title": "III - EXAME MÉDICO",
-      "blocks": []
     },
     {
       "id": "1-biometria",
-      "number": "",
-      "title": "1. BIOMETRIA",
+      "number": "1",
+      "title": "BIOMETRIA",
       "blocks": [
         {
           "type": "paragraph",
@@ -4282,8 +4116,8 @@
     },
     {
       "id": "2-aparelho-circulatório",
-      "number": "",
-      "title": "2. APARELHO CIRCULATÓRIO",
+      "number": "2",
+      "title": "APARELHO CIRCULATÓRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4293,8 +4127,8 @@
     },
     {
       "id": "3-aparelho-respiratório",
-      "number": "",
-      "title": "3. APARELHO RESPIRATÓRIO",
+      "number": "3",
+      "title": "APARELHO RESPIRATÓRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4340,8 +4174,8 @@
     },
     {
       "id": "4-aparelho-digestivo",
-      "number": "",
-      "title": "4. APARELHO DIGESTIVO",
+      "number": "4",
+      "title": "APARELHO DIGESTIVO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4373,8 +4207,8 @@
     },
     {
       "id": "5-aparelho-gênito-urinário",
-      "number": "",
-      "title": "5. APARELHO GÊNITO-URINÁRIO",
+      "number": "5",
+      "title": "APARELHO GÊNITO-URINÁRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4384,20 +4218,13 @@
     },
     {
       "id": "6-sistema-endócrino",
-      "number": "",
-      "title": "6. SISTEMA ENDÓCRINO",
+      "number": "6",
+      "title": "SISTEMA ENDÓCRINO",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "As perturbações do metabolismo, da nutrição ou das funções endócrinas são incapacitantes."
-        }
-      ]
-    },
-    {
-      "id": "iv---exame-oftalmo-otorrino-laringológico",
-      "number": "",
-      "title": "IV - EXAME OFTALMO-OTORRINO-LARINGOLÓGICO",
-      "blocks": [
+          "text": "As perturbações do metabolismo, da nutrição ou das funções endócrinas são incapacitantes. IV - **EXAME OFTALMO-OTORRINO-LARINGOLÓGICO"
+        },
         {
           "type": "list",
           "items": [
@@ -4439,17 +4266,10 @@
           "items": [
             {
               "label": "e",
-              "text": "As obstruções à respiração e as sinusites crônicas são causas de inabilitação. As amígdalas com inflamações crônicas, bem como todos os obstáculos nasofaringeanos que dificultam a ventilação adequada, devem inabilitar os candidatos."
+              "text": "As obstruções à respiração e as sinusites crônicas são causas de inabilitação. As amígdalas com inflamações crônicas, bem como todos os obstáculos nasofaringeanos que dificultam a ventilação adequada, devem inabilitar os candidatos. V - **EXAME NEURO-PSIQUIÁTRICO"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "v---exame-neuro-psiquiátrico",
-      "number": "",
-      "title": "V - EXAME NEURO-PSIQUIÁTRICO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Será verificada a integridade anatômica e funcional do sistema nervoso:"
@@ -4477,17 +4297,10 @@
           "items": [
             {
               "label": "c",
-              "text": "tendências neuróticas, imaturidade ou instabilidade emocional, manifestações anti-sociais, desajustamentos ou inadaptações inabilitam os candidatos."
+              "text": "tendências neuróticas, imaturidade ou instabilidade emocional, manifestações anti-sociais, desajustamentos ou inadaptações inabilitam os candidatos. VI - **EXAMES COMPLEMENTARES"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "vi---exames-complementares",
-      "number": "",
-      "title": "VI - EXAMES COMPLEMENTARES",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Serão exigidos os seguintes exames complementares:"
@@ -4522,37 +4335,16 @@
         },
         {
           "type": "paragraph",
-          "text": "8. Audiometria."
-        }
-      ]
-    },
-    {
-      "id": "vii---testes-de-pressão",
-      "number": "",
-      "title": "VII - TESTES DE PRESSÃO",
-      "blocks": [
+          "text": "8. Audiometria. VII - **TESTES DE PRESSÃO"
+        },
         {
           "type": "paragraph",
-          "text": "Todos os candidatos devem ser submetidos à pressão de 6 ATA na câmara de recompressão, para verificar a capacidade de equilibrar a pressão no ouvido médio e seios da face. Qualquer sinal de claustrofobia, bem como apresentação de suscetibilidade individual à narcose pelo nitrogênio, será motivo de inabilitação do candidato."
-        }
-      ]
-    },
-    {
-      "id": "viii---teste-de-tolerância-ao-oxigênio",
-      "number": "",
-      "title": "VIII - TESTE DE TOLERÂNCIA AO OXIGÊNIO",
-      "blocks": [
+          "text": "Todos os candidatos devem ser submetidos à pressão de 6 ATA na câmara de recompressão, para verificar a capacidade de equilibrar a pressão no ouvido médio e seios da face. Qualquer sinal de claustrofobia, bem como apresentação de suscetibilidade individual à narcose pelo nitrogênio, será motivo de inabilitação do candidato. VIII - **TESTE DE TOLERÂNCIA AO OXIGÊNIO"
+        },
         {
           "type": "paragraph",
-          "text": "Deverá ser realizado o teste de tolerância ao oxigênio, que consiste em fazer o candidato respirar oxigênio puro sob pressão (2,8 ATA) num período de 30 (trinta) minutos, na câmara de recompressão. Qualquer sinal ou sintoma de intoxicação pelo oxigênio, será motivo de inabilitação."
-        }
-      ]
-    },
-    {
-      "id": "ix---teste-de-aptidão-física",
-      "number": "",
-      "title": "IX - TESTE DE APTIDÃO FÍSICA",
-      "blocks": [
+          "text": "Deverá ser realizado o teste de tolerância ao oxigênio, que consiste em fazer o candidato respirar oxigênio puro sob pressão (2,8 ATA) num período de 30 (trinta) minutos, na câmara de recompressão. Qualquer sinal ou sintoma de intoxicação pelo oxigênio, será motivo de inabilitação. IX - **TESTE DE APTIDÃO FÍSICA"
+        },
         {
           "type": "paragraph",
           "text": "Todos os candidatos devem ser submetidos ao \"Teste de Ruffier\" (ou similar) que consiste em: 30 (trinta) agachamentos em 45 (quarenta e cinco) segundos e tomadas de freqüência do pulso:"
@@ -4575,55 +4367,33 @@
       "id": "anexo-b",
       "number": "",
       "title": "ANEXO “B”",
-      "blocks": []
-    },
-    {
-      "id": "padrões-psicofísicos-para-controle-do-pessoal-em-atividade-de-mergulho",
-      "number": "",
-      "title": "PADRÕES PSICOFÍSICOS PARA CONTROLE DO PESSOAL EM ATIVIDADE DE MERGULHO",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Os critérios psicofísicos para controle do pessoal em atividade de mergulho são os mesmos prescritos no Anexo A, com as seguintes modificações:"
-        }
-      ]
-    },
-    {
-      "id": "i---idade",
-      "number": "",
-      "title": "I - IDADE",
-      "blocks": [
+          "text": "PADRÕES PSICOFÍSICOS PARA CONTROLE DO PESSOAL EM ATIVIDADE DE MERGULHO"
+        },
+        {
+          "type": "paragraph",
+          "text": "Os critérios psicofísicos para controle do pessoal em atividade de mergulho são os mesmos prescritos no Anexo A, com as seguintes modificações: I - **IDADE"
+        },
         {
           "type": "paragraph",
           "text": "Todos os mergulhadores que permaneçam em atividade deverão ser submetidos a exames"
         },
         {
           "type": "paragraph",
-          "text": "médicos periódicos."
-        }
-      ]
-    },
-    {
-      "id": "ii---anamnese",
-      "number": "",
-      "title": "II - ANAMNESE",
-      "blocks": [
+          "text": "médicos periódicos. II - **ANAMNESE"
+        },
         {
           "type": "paragraph",
-          "text": "A história de qualquer doença constatada após a última inspeção será meticulosamente averiguada, principalmente as doenças neuropsiquiátricas, otorrinolaringológicas, pulmonares e cardíacas, advindas ou não de acidentes de mergulho."
+          "text": "A história de qualquer doença constatada após a última inspeção será meticulosamente averiguada, principalmente as doenças neuropsiquiátricas, otorrinolaringológicas, pulmonares e cardíacas, advindas ou não de acidentes de mergulho. III - **EXAME MÉDICO"
         }
       ]
-    },
-    {
-      "id": "iii---exame-médico",
-      "number": "",
-      "title": "III - EXAME MÉDICO",
-      "blocks": []
     },
     {
       "id": "1-biometria",
-      "number": "",
-      "title": "1. BIOMETRIA",
+      "number": "1",
+      "title": "BIOMETRIA",
       "blocks": [
         {
           "type": "paragraph",
@@ -4633,8 +4403,8 @@
     },
     {
       "id": "2-aparelho-circulatório",
-      "number": "",
-      "title": "2. APARELHO CIRCULATÓRIO",
+      "number": "2",
+      "title": "APARELHO CIRCULATÓRIO",
       "blocks": [
         {
           "type": "list",
@@ -4649,8 +4419,8 @@
     },
     {
       "id": "3-aparelho-respiratório",
-      "number": "",
-      "title": "3. APARELHO RESPIRATÓRIO",
+      "number": "3",
+      "title": "APARELHO RESPIRATÓRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4660,8 +4430,8 @@
     },
     {
       "id": "4-aparelho-digestivo",
-      "number": "",
-      "title": "4. APARELHO DIGESTIVO",
+      "number": "4",
+      "title": "APARELHO DIGESTIVO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4671,8 +4441,8 @@
     },
     {
       "id": "5-aparelho-gênito-urinário",
-      "number": "",
-      "title": "5. APARELHO GÊNITO-URINÁRIO",
+      "number": "5",
+      "title": "APARELHO GÊNITO-URINÁRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -4682,42 +4452,21 @@
     },
     {
       "id": "6-sistema-endócrino",
-      "number": "",
-      "title": "6. SISTEMA ENDÓCRINO",
+      "number": "6",
+      "title": "SISTEMA ENDÓCRINO",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "As perturbações do metabolismo, da nutrição ou das funções endócrinas acarretam uma incapacidade temporária; a diabetes caracterizada é motivo de inaptidão."
-        }
-      ]
-    },
-    {
-      "id": "iv---exame-oftalmo-otorrino-laringológico",
-      "number": "",
-      "title": "IV - EXAME OFTALMO-OTORRINO-LARINGOLÓGICO",
-      "blocks": [
+          "text": "As perturbações do metabolismo, da nutrição ou das funções endócrinas acarretam uma incapacidade temporária; a diabetes caracterizada é motivo de inaptidão. IV - **EXAME OFTALMO-OTORRINO-LARINGOLÓGICO"
+        },
         {
           "type": "paragraph",
-          "text": "Os Mesmos critérios do Anexo A com a seguinte alteração: acuidade visual: 20/40 de visão em ambos os olhos, corrigível para 20/20."
-        }
-      ]
-    },
-    {
-      "id": "v---exame-neuro-psiquiátrico",
-      "number": "",
-      "title": "V - EXAME NEURO-PSIQUIÁTRICO",
-      "blocks": [
+          "text": "Os Mesmos critérios do Anexo A com a seguinte alteração: acuidade visual: 20/40 de visão em ambos os olhos, corrigível para 20/20. V - **EXAME NEURO-PSIQUIÁTRICO"
+        },
         {
           "type": "paragraph",
-          "text": "Os mesmos critérios do Anexo A. Dar atenção a um passado de embolia traumática pelo ar ou doença descompressiva, forma neurológica, que tenha deixado seqüelas neuropsiquiátricas."
-        }
-      ]
-    },
-    {
-      "id": "vi---exames-complementares",
-      "number": "",
-      "title": "VI - EXAMES COMPLEMENTARES",
-      "blocks": [
+          "text": "Os mesmos critérios do Anexo A. Dar atenção a um passado de embolia traumática pelo ar ou doença descompressiva, forma neurológica, que tenha deixado seqüelas neuropsiquiátricas. VI - **EXAMES COMPLEMENTARES"
+        },
         {
           "type": "paragraph",
           "text": "1. Telerradiografia do tórax (AP);"
@@ -4748,15 +4497,8 @@
         },
         {
           "type": "paragraph",
-          "text": "8. Quaisquer outros exames (ex. ecocardiograma, cicloergometria, etc.) poderão ser solicitados a critério do médico responsável pelo exame de saúde do mergulhador. **ANEXO “C”**"
-        }
-      ]
-    },
-    {
-      "id": "tabelas-de-descompressão",
-      "number": "",
-      "title": "TABELAS DE DESCOMPRESSÃO",
-      "blocks": [
+          "text": "8. Quaisquer outros exames (ex. ecocardiograma, cicloergometria, etc.) poderão ser solicitados a critério do médico responsável pelo exame de saúde do mergulhador. **ANEXO “C”** TABELAS DE DESCOMPRESSÃO"
+        },
         {
           "type": "paragraph",
           "text": "1 - Definições dos Termos"
@@ -4832,17 +4574,15 @@
         {
           "type": "paragraph",
           "text": "2.5 - Não inclua o tempo de subida entre as paradas para descompressão no tempo indicado para as paradas."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| PROFUN-DIDADE (METROS) | TEMPO DE FUNDO (MINUTOS ) | TEMPO P/ 1ª PARADA (MIN. SEG.) | PARADAS P/ DESCOMPRESSÃO (MINUTOS) | | | | | | | | | | | TEMPO TOTAL P/SUBIDA (MIN. SEG.) | GRUPO REPETITI VO |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 44",
+          "src": "../assets/pages/page-044-table-00.png"
         },
         {
           "type": "paragraph",
@@ -4851,17 +4591,15 @@
         {
           "type": "paragraph",
           "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 45",
+          "src": "../assets/pages/page-045-table-00.png"
         },
         {
           "type": "paragraph",
@@ -4870,17 +4608,15 @@
         {
           "type": "paragraph",
           "text": "- (**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 46",
+          "src": "../assets/pages/page-046-table-00.png"
         },
         {
           "type": "paragraph",
@@ -4889,17 +4625,15 @@
         {
           "type": "paragraph",
           "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR*",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros) | Tempo de Fundo (minuto s) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min:seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30m | 27m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR***"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 47",
+          "src": "../assets/pages/page-047-table-00.png"
         },
         {
           "type": "paragraph",
@@ -4908,32 +4642,28 @@
         {
           "type": "paragraph",
           "text": "- (**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 48",
+          "src": "../assets/pages/page-048-table-00.png"
         },
         {
           "type": "paragraph",
           "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 49",
+          "src": "../assets/pages/page-049-table-00.png"
         },
         {
           "type": "table",
@@ -4942,23 +4672,19 @@
         {
           "type": "paragraph",
           "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
-    },
-    {
-      "id": "tabela-padrão-de-descompressão-com-ar-não-deverá-ser-permitido-nenhum-mergulho-repetitivo-após-mergulhos-excepcionais",
-      "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR (**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais.",
-      "blocks": []
-    },
-    {
-      "id": "tabelas-para-exposições-extremas---descompressão-com-ar",
-      "number": "",
-      "title": "TABELAS PARA EXPOSIÇÕES EXTREMAS - DESCOMPRESSÃO COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profun-didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |\n| 5 4:00 1 2 7:20 10 3:50 2 4 9 19:20 78 15 3:40 2 4 10 22 42:20 (**) 20 3:30 1 4 7 20 31 67:20 25 3:30 3 8 11 23 50 99:20 30 3:20 2 6 8 19 26 61 126:20 40 3:10 1 6 11 16 19 49 84 190:20 5 4:10 1 3 8:30 10 4:00 2 5 11 22:30 81 15 3:50 3 4 11 24 46:30 (**) 20 3:40 2 3 9 21 35 74:30 25 3:30 2 3 8 13 23 53 106:30 30 3:30 3 6 12 22 27 64 138:30 40 3:20 5 6 11 17 22 51 88 204:30 5 4:20 2 2 8:40 10 4:00 1 2 5 13 25:40 84 15 3:50 1 3 4 11 26 49:40 (**) 20 3:50 3 4 8 23 39 81:40 25 3:40 2 5 7 16 23 56 113:40 30 3:30 1 3 7 13 22 30 70 150:40 40 3:20 1 6 6 13 17 27 51 93 218:40 5 4:30 2 3 9:50 10 4:10 1 3 5 16 29:50 87 15 4:00 1 3 6 12 26 52:50 (**) 20 4:00 3 7 9 23 43 89:50 25 3:50 1 3 5 8 17 23 60 120:50 30 3:40 1 5 6 15 22 36 72 162:50 40 3:30 3 5 7 15 16 32 51 95 228:50 5 4:40 3 3 11:00 10 4:20 1 3 6 17 32:00 15 4:10 2 3 6 15 26 57:00 90 20 4:00 2 3 7 10 23 47 97:00 (**) 25 3:50 1 3 6 8 19 26 61 129:00 30 3:50 2 5 7 17 22 39 75 172:00 40 3:40 4 6 9 15 17 34 51 90 231:00 60 3:00 4 10 10 10 10 10 14 28 32 50 90 187 460:00 | | | | | | | | | | | | | | | | |"
+          "type": "paragraph",
+          "text": "**TABELA PADRÃO DE DESCOMPRESSÃO COM AR** (**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELAS PARA EXPOSIÇÕES EXTREMAS - DESCOMPRESSÃO COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 51",
+          "src": "../assets/pages/page-051-table-00.png"
         },
         {
           "type": "image",
@@ -4966,20 +4692,18 @@
           "src": "../assets/pages/page-052-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| Profundidade (metros) | Tempo Limite s/Descompressã o (minutos) | Designação de Grupo (tempos em minutos) | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |"
+          "type": "image",
+          "alt": "Tabela da página 52",
+          "src": "../assets/pages/page-052-table-01.png"
         },
         {
           "type": "table",
           "markdown": "| 36 | 15 | 5 | 10 | 12 15 |\n| --- | --- | --- | --- | --- |\n| 39 | 10 | 5 | 8 | 10 |\n| 42 | 10 | 5 | 7 | 10 |\n| 45 | 5 | 5 | | |\n| 48 | 5 | | 5 | |\n| 51 | 5 | | 5 | |\n| 54 | 5 | | 5 | |\n| 57 | 5 | | 5 | |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-nitrogênio-residual-para-mergulhos-a-010-repetitivos-com-ar",
-      "number": "",
-      "title": "TABELA DE NITROGÊNIO RESIDUAL PARA MERGULHOS A 0:10 REPETITIVOS COM AR",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE NITROGÊNIO RESIDUAL PARA MERGULHOS A** 0:10 **REPETITIVOS COM AR**"
+        },
         {
           "type": "table",
           "markdown": "| | | | | | | | **C** | **B** 0:1 0 | 0:1 0 2:1 0 1:4 0 | 12:00* 2:11 12:00* 2:50 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | | | | | 1:3 9 | 2:4 9 | 12:00* |\n| | | | | | | **D** | 0:1 | 1:1 | 2:3 | 5:49 |\n| | | | | | | | 0 | 0 | 9 | |\n| | | | | | | | 1:0 | 2:3 | 5:4 | 12:00* |\n| | | | | | | | 9 | 8 | 8 | |\n| | | | | | **E** | 0:1 | 0:5 | 1:5 | 3:2 | 6:33 |\n| | | | | | | 0 | 5 | 8 | 3 | |\n| | | | | | | 0:5 | 1:5 | 3:2 | 6:3 | 12:00* |\n| | | | | | | 4 | 7 | 2 | 2 | |\n| | | | | **F** | 0:1 | 0:4 | 1:3 | 2:2 | 3:5 | 7:06 |\n| | | | | | 0 | 6 | 0 | 9 | 8 | |\n| | | | | | 0:4 | 1:2 | 2:2 | 3:5 | 7:0 | 12:00* |\n| | | | | | 5 | 9 | 8 | 7 | 5 | |\n| | | | **G** | 0:1 | 0:4 | 1:1 | 2:0 | 2:5 | 4:2 | 7:36 |\n| | | | | 0 | 1 | 6 | 0 | 9 | 6 | |\n| | | | | 0:4 | 1:1 | 1:5 | 2:5 | 4:2 | 7:3 | 12:00* |\n| | | | | 0 | 5 | 9 | 8 | 5 | 5 | |\n| | | **H** | 0:1 | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:5 | 8:00 |\n| | | | 0 | 7 | 7 | 2 | 4 | 1 | 0 | |\n| | | | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:4 | 7:5 | 12:00* |\n| | | | 6 | 6 | 1 | 3 | 0 | 9 | 9 | |\n| | **I** | 0:1 | 0:3 | 1:0 | 1:3 | 2:0 | 2:4 | 3:4 | 5:1 | 8:22 |\n| | | 0 | 4 | 0 | 0 | 3 | 5 | 4 | 3 | |\n| | | 0:3 | 0:5 | 1:2 | 2:0 | 2:4 | 3:4 | 5:1 | 8:2 | 12:00* |\n| | | 3 | 9 | 9 | 2 | 4 | 3 | 2 | 1 | |\n| **J** | 0:1 | 0;3 | 0:5 | 1:2 | 1:4 | 2:2 | 3:0 | 4;0 | 5:4 | 8:41 |\n| | 0 | 2 | 5 | 0 | 8 | 1 | 5 | 3 | 1 | |\n| | 0:3 | 0:5 | 1:1 | 1:4 | 2:2 | 3:0 | 4:0 | 5:4 | 8:4 | 12:00* |\n| | 1 | 4 | 9 | 7 | 0 | 4 | 2 | 0 | 0 | |\n| **K** 0:1 | 0:2 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:2 | 5:4 | 8:59 |\n| 0 | 9 | 0 | 2 | 6 | 4 | 9 | 2 | 0 | 9 | |\n| 0:2 | 0:4 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:1 | 5:4 | 8:5 | 12:00* |\n| 8 | 9 | 1 | 5 | 3 | 8 | 1 | 9 | 8 | 8 | |\n| **L** 0:1 0:2 | 0:4 | 1:0 | 1:2 | 1:5 | 2:2 | 2:5 | 3:3 | 4:3 | 6:0 | 9:13 |\n| 0 7 | 6 | 5 | 6 | 0 | 0 | 4 | 7 | 6 | 3 | |\n| 0:2 0:4 | 1:0 | 1:2 | 1:4 | 2:1 | 2:5 | 3:3 | 4:3 | 6:0 | 9:1 | 12:00* |\n| 6 5 | 4 | 5 | 9 | 9 | 3 | 6 | 5 | 2 | 2 | |\n| **M** 0:1 0:2 0:4 | 1:0 | 1:1 | 1:4 | 2:0 | 2:3 | 3:0 | 3:5 | 4:5 | 6:1 | 9:29 |\n| 0 6 3 | 0 | 9 | 0 | 6 | 5 | 9 | 3 | 0 | 9 | |"
@@ -5012,43 +4736,37 @@
         {
           "type": "paragraph",
           "text": "(Minutos)"
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão-na-superfície-usando-oxigênio-este-texto-não-substitui-o-publicado-no-dou",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE USANDO OXIGÊNIO Este texto não substitui o publicado no DOU",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Prof. (metros ) | Tempo de Fundo (min) | Tempo p/ 1ª Parada ou Superfície (min:seg) | Paradas de Descompressão na Água. Tempo em Minutos Respirando Ar | | | | Intervalo de Superfície | Tempo a 12m na Câmara Respirando Oxigênio (min) | Tempo de Superfície | Tempo Total de Descom-pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 18m | 15m | 12m | 9m | | | | |"
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE USANDO OXIGÊNIO**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 56",
+          "src": "../assets/pages/page-056-table-00.png"
         },
         {
           "type": "table",
           "markdown": "| | 18 | 4:48 | 0 | 0 | 0 | 0 | 0 | 4:48 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 30 | 4:48 | 0 | 0 | 0 | 0 | 9 | 19:48 |\n| | 40 | 4:48 | 0 | 0 | 0 | 0 | 16 | 26:48 |\n| | 50 | 4:48 | 0 | 0 | 0 | 0 | 24 | 34:48 |\n| 36 | 60 | 3:36 | 0 | 0 | 0 | 2 | 32 | 44:36 |\n| | 70 | 3:36 | 0 | 0 | 0 | 4 | 39 | 53:36 |\n| | 80 | 3:36 | 0 | 0 | 0 | 5 | 46 | 61:36 |\n| | 90 | 3:12 | 0 | 0 | 3 | 7 | 51 | 72:12 |\n| | 100 | 3:12 | 0 | 0 | 6 | 15 | 54 | 86:12 |\n| | 15 | 5:12 | 0 | 0 | 0 | 0 | 0 | 5:12 |\n| | 30 | 5:12 | 0 | 0 | 0 | 0 | 12 | 23:12 |\n| | 40 | 5:12 | 0 | 0 | 0 | 0 | 21 | 32:12 |\n| | 50 | 4:00 | 0 | 0 | 0 | 3 | 29 | 43:00 |\n| 39 | 60 | 4:00 | 0 | 0 | 0 | 5 | 37 | 53:00 |\n| | 70 | 4:00 | 0 | 0 | 0 | 7 | 45 | 63:00 |\n| | 80 | 3:36 | 0 | 0 | 6 | 7 | 51 | 75:36 |\n| | 90 | 3:36 | 0 | 0 | 10 | 10 | 56 | 89:36 |\n| | 13 | 5:36 | 0 | 0 | 0 | 0 | 0 | 5:36 |\n| | 25 | 5:36 | 0 | 0 | 0 | 0 | 11 | 22:36 |\n| | 30 | 5:36 | 0 | 0 | 0 | 0 | 15 | 26:36 |\n| | 35 | 5:36 | 0 | 0 | 0 | 0 | 20 | 31:36 |\n| | 40 | 4:24 | 0 | 0 | 0 | 2 | 24 | 37:24 |\n| | 45 | 4:24 | 0 | 0 | 0 | 4 | 29 | 44:24 |\n| 42 | 50 | 4:24 | 0 | 0 | 0 | 6 | 33 | 50:24 |\n| | 55 | 4:24 | 0 | 0 | 0 | 7 | 38 | 56:24 |\n| | 60 | 4:24 | 0 | 0 | 0 | 8 | 43 | 62:24 |\n| | 65 | 4:00 | 0 | 0 | 3 | 7 | 48 | 70:00 |\n| | 70 | 3:36 | 0 | 2 | 7 | 7 | 51 | 79:36 |\n| | 11 | 6:00 | 0 | 0 | 0 | 0 | 0 | 6:00 |\n| | 25 | 6:00 | 0 | 0 | 0 | 0 | 13 | 25:00 |\n| | 30 | 6:00 | 0 | 0 | 0 | 0 | 18 | 30:00 |\n| | 35 | 4:48 | 0 | 0 | 0 | 4 | 23 | 38:48 |\n| 45 | 40 | 4:24 | 0 | 0 | 3 | 6 | 27 | 48:24 |\n| | 45 | 4:24 | 0 | 0 | 5 | 7 | 33 | 57:24 |\n| | 50 | 4:00 | 0 | 2 | 5 | 8 | 38 | 66:00 |\n| | 55 | 3:36 | 2 | 5 | 9 | 4 | 44 | 77:36 |\n| | 9 | 6:24 | 0 | 0 | 0 | 0 | 0 | 6:24 |\n| | 20 | 6:24 | 0 | 0 | 0 | 0 | 11 | 23:24 |\n| | 25 | 6:24 | 0 | 0 | 0 | 0 | 16 | 28:24 |\n| 48 | 30 | 5:12 | 0 | 0 | 0 | 2 | 21 | 35:12 |\n| | 35 | 4:48 | 0 | 0 | 4 | 6 | 26 | 48:48 |\n| | 40 | 4:24 | 0 | 3 | 5 | 8 | 32 | 61:24 |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão-na-superfície-com-ar",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Tempo a 12m na Câmara Respirando Oxigênio (min) | Paradas na Câmara (minutos) | | Tempo Total de Descom-pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-descompressão-na-superfície-com-ar",
-      "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR",
-      "blocks": [
+          "type": "paragraph",
+          "text": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR"
+        },
         {
-          "type": "table",
-          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Intervalo de Superfície | Paradas na Câmara (minutos) | | Tempo Total de p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
+          "type": "image",
+          "alt": "Tabela da página 58",
+          "src": "../assets/pages/page-058-table-00.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR**"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 59",
+          "src": "../assets/pages/page-059-table-00.png"
         },
         {
           "type": "table",
@@ -5056,15 +4774,8 @@
         },
         {
           "type": "table",
-          "markdown": "| | 20 | 2:30 | | | | 4 | 4 | 15 | 30:00 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 25 | 2:20 | | | 2 | 7 | 7 | 23 | 46:00 |\n| | 30 | 2:20 | | | 4 | 13 | 13 | 26 | 63:00 |\n| | 40 | 2:10 | | 1 | 10 | 23 | 23 | 45 | 109:00 |\n| 51 | 50 | 2:10 | | 5 | 18 | 23 | 23 | 61 | 137:00 |\n| | 60 | 2:00 | 2 | 15 | 22 | 37 | 37 | 74 | 194:00 |\n| | 70 | 2:00 | 8 | 17 | 19 | 51 | 51 | 86 | 239:00 |\n| | 15 | 2:40 | | | | 3 | 3 | 6 | 19:10 |\n| | 20 | 2:30 | | | 1 | 5 | 5 | 17 | 35:10 |\n| | 25 | 2:30 | | | 3 | 10 | 10 | 24 | 54:10 |\n| 54 | 30 | 2:30 | | | 6 | 17 | 17 | 27 | 74:10 |\n| | 40 | 2:20 | | 3 | 14 | 23 | 23 | 50 | 120:10 |\n| | 50 | 2:10 | 2 | 9 | 19 | 30 | 30 | 65 | 162:10 |\n| | 60 | 2:10 | 5 | 15 | 19 | 44 | 44 | 81 | 216:10 |\n| | 15 | 2:50 | | | | 4 | 4 | 7 | 22:20 |\n| | 20 | 2:40 | | | 2 | 6 | 6 | 20 | 41:20 |\n| 57 | 25 | 2:40 | | | 5 | 11 | 11 | 25 | 59:20 |\n| | 30 | 2:30 | | 1 | 8 | 19 | 19 | 32 | 86:20 |\n| | 40 | 2:30 | | 8 | 14 | 23 | 23 | 55 | 130:20 |\n| | 50 | 2:20 | 4 | 13 | 22 | 33 | 33 | 72 | 184:20 |\n| | 60 | 2:20 | 10 | 17 | 19 | 50 | 50 | 84 | 237:20 |"
-        }
-      ]
-    },
-    {
-      "id": "ii---tabelas-para-recompressão-terapêutica",
-      "number": "",
-      "title": "II - TABELAS PARA RECOMPRESSÃO TERAPÊUTICA",
-      "blocks": [
+          "markdown": "| | 20 | 2:30 | | | | 4 | 4 | 15 | 30:00 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 25 | 2:20 | | | 2 | 7 | 7 | 23 | 46:00 |\n| | 30 | 2:20 | | | 4 | 13 | 13 | 26 | 63:00 |\n| | 40 | 2:10 | | 1 | 10 | 23 | 23 | 45 | 109:00 |\n| 51 | 50 | 2:10 | | 5 | 18 | 23 | 23 | 61 | 137:00 |\n| | 60 | 2:00 | 2 | 15 | 22 | 37 | 37 | 74 | 194:00 |\n| | 70 | 2:00 | 8 | 17 | 19 | 51 | 51 | 86 | 239:00 |\n| | 15 | 2:40 | | | | 3 | 3 | 6 | 19:10 |\n| | 20 | 2:30 | | | 1 | 5 | 5 | 17 | 35:10 |\n| | 25 | 2:30 | | | 3 | 10 | 10 | 24 | 54:10 |\n| 54 | 30 | 2:30 | | | 6 | 17 | 17 | 27 | 74:10 |\n| | 40 | 2:20 | | 3 | 14 | 23 | 23 | 50 | 120:10 |\n| | 50 | 2:10 | 2 | 9 | 19 | 30 | 30 | 65 | 162:10 |\n| | 60 | 2:10 | 5 | 15 | 19 | 44 | 44 | 81 | 216:10 |\n| | 15 | 2:50 | | | | 4 | 4 | 7 | 22:20 |\n| | 20 | 2:40 | | | 2 | 6 | 6 | 20 | 41:20 |\n| 57 | 25 | 2:40 | | | 5 | 11 | 11 | 25 | 59:20 |\n| | 30 | 2:30 | | 1 | 8 | 19 | 19 | 32 | 86:20 |\n| | 40 | 2:30 | | 8 | 14 | 23 | 23 | 55 | 130:20 |\n| | 50 | 2:20 | 4 | 13 | 22 | 33 | 33 | 72 | 184:20 |\n| | 60 | 2:20 | 10 | 17 | 19 | 50 | 50 | 84 | 237:20 | II - TABELAS PARA RECOMPRESSÃO TERAPÊUTICA |"
+        },
         {
           "type": "paragraph",
           "text": "Instruções para uso das Tabelas de Recompressão Terapêutica"
@@ -5152,35 +4863,15 @@
         {
           "type": "paragraph",
           "text": "- 21 - Não permita ao paciente ou acompanhante a permanência em posições que possam interferir com a completa circulação sangüínea dos seus organismos."
-        }
-      ]
-    },
-    {
-      "id": "diagnóstico-de-doença-descompressiva-e-embolia-gasosa",
-      "number": "",
-      "title": "DIAGNÓSTICO DE DOENÇA DESCOMPRESSIVA E EMBOLIA GASOSA",
-      "blocks": []
-    },
-    {
-      "id": "informação-confirmativa",
-      "number": "",
-      "title": "INFORMAÇÃO CONFIRMATIVA",
-      "blocks": []
-    },
-    {
-      "id": "histórico-do-mergulho",
-      "number": "",
-      "title": "HISTÓRICO DO MERGULHO",
-      "blocks": []
-    },
-    {
-      "id": "exame-do-paciente",
-      "number": "",
-      "title": "EXAME DO PACIENTE",
-      "blocks": [
+        },
         {
-          "type": "table",
-          "markdown": "| SINAIS E SINTOMAS | DOENÇA DESCOMPRESSIVA | | | | EMBOLIA GASOSA | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | Pele | Dor Somente | Sintomas Sérios | | Sintomas no Sistema Nervoso Central | | Pneumo-Tórax | Enfisema do Mediastin o |\n| | | | Sistema Nervos o Central | Sufocaçã o | Lesão Cerebral | Lesão na Medula Espinhal | | |\n| DOR NA CABEÇA | | | | | ** | | | |\n| DOR NAS COSTAS | | | * | | | | | |\n| DOR NO PESCOÇO | | | | | | | | ** |\n| DOR NO PEITO | | | * | ** | | * | ** | * |\n| DOR NO ESTÔMAGO | | | ** | | | * | | |\n| DOR NO(S) BRAÇO(S)/PERNA(S) | | ** | | | | * | | |\n| DOR NOS OMBROS | | ** | | | | * | | |\n| DOR NOS QUADRIS | | ** | | | | * | | |\n| INCONSCIÊNCIA | | | ** | * | ** | * | * | |\n| CHOQUE | | | ** | * | ** | * | * | |\n| VERTIGENS/TONTEIRA | | | ** | | | | | |\n| DIFICULDADE VISUAL | | | ** | | ** | | | |\n| NÁUSEAS/VÔMITOS | | | ** | | ** | | | |\n| DIFICULDADE DE OUVIR | | | ** | | ** | | | |\n| DIFICULDADE DE FALAR | | | ** | | ** | | | |\n| FALTA DE EQUILÍBRIO | | | ** | | ** | | | |\n| DORMÊNCIA | * | | ** | | ** | * | | * |\n| FRAQUEZA | | * | ** | | ** | * | | |\n| SENSAÇÃO ESTRANHA | * | | ** | | ** | * | | |\n| PESCOÇO INCHADO | | | | | | | | ** |\n| RESPIRAÇÃO CURTA | | | * | * | * | * | * | * |\n| CIANOSE | | | | * | * | * | * | * |\n| MODIFICAÇÃO NA PELE | ** | | | | | | | |\n| * * = MAIS PROVÁVEL * = CAUSA POSSÍVEL | | | | | | | | |"
+          "type": "paragraph",
+          "text": "DIAGNÓSTICO DE DOENÇA DESCOMPRESSIVA E EMBOLIA GASOSA INFORMAÇÃO CONFIRMATIVA HISTÓRICO DO MERGULHO EXAME DO PACIENTE"
+        },
+        {
+          "type": "image",
+          "alt": "Tabela da página 62",
+          "src": "../assets/pages/page-062-table-00.png"
         },
         {
           "type": "paragraph",
@@ -5272,24 +4963,18 @@
           "src": "../assets/pages/page-064-image-16.png"
         },
         {
+          "type": "image",
+          "alt": "Tabela da página 65",
+          "src": "../assets/pages/page-065-table-00.png"
+        },
+        {
           "type": "table",
           "markdown": "| | NÃO |\n| --- | --- |"
         },
         {
           "type": "table",
-          "markdown": "| NÃO | |\n| --- | --- |"
+          "markdown": "| NÃO | |\n| --- | --- | RECORRÊNCIA DURANTE O TRATAMENTO |"
         },
-        {
-          "type": "table",
-          "markdown": "| | NÃO |\n| --- | --- |\n| COMPLETE MAIS 2 PERÍODOS DE OXIGÊNIO DA TABELA 6 | |"
-        }
-      ]
-    },
-    {
-      "id": "recorrência-durante-o-tratamento",
-      "number": "",
-      "title": "RECORRÊNCIA DURANTE O TRATAMENTO",
-      "blocks": [
         {
           "type": "image",
           "alt": "Página 66 — imagem 0",
@@ -5302,26 +4987,12 @@
         },
         {
           "type": "table",
-          "markdown": "| NÃO | |\n| --- | --- |"
-        }
-      ]
-    },
-    {
-      "id": "recorrência-após-o-tratamento",
-      "number": "",
-      "title": "RECORRÊNCIA APÓS O TRATAMENTO",
-      "blocks": [
+          "markdown": "| NÃO | |\n| --- | --- | RECORRÊNCIA APÓS O TRATAMENTO |"
+        },
         {
           "type": "table",
-          "markdown": "| S | ? NÃO |\n| --- | --- |"
-        }
-      ]
-    },
-    {
-      "id": "relação-das-tabelas-de-tratamento",
-      "number": "",
-      "title": "**RELAÇÃO DAS TABELAS DE TRATAMENTO (*)**",
-      "blocks": [
+          "markdown": "| S | ? NÃO |\n| --- | --- | RELAÇÃO DAS TABELAS DE TRATAMENTO (*) |"
+        },
         {
           "type": "paragraph",
           "text": "(*) As tabelas de tratamento com oxigênio são apresentadas antes das de ar porque o método de tratamento com oxigênio será sempre preferível"
@@ -5329,14 +5000,11 @@
         {
           "type": "table",
           "markdown": "| TABELA | UTILIZAÇÃO |\n| --- | --- |\n| 5 - TRATAMENTO, COM OXIGÊNIO DE DOENÇA DESCOMPRESSIVA - DOR SOMENTE | Tratamento de doença descompressiva - sintomas sérios ou dor somente usando os sintomas não são aliviados dentro de 10 minutos a 18 metros |\n| 6 - TRATAMENTO COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVA - SITOMAS SERIOS | Tratamento de doença descompressiva - sintomas sérios dor somente quando os sintomas são aliviados dentro de 10 minutos a 18 metros |\n| 6A - TRATAMENTO COM AR E OXIGÊNIO, DE EBOLSA GASOSA | Tratamento de embolia gasosa. Utilize também quando incapaz de determinar quando os sintomas são causados por embolia gasosa ou grave doença descompressiva |\n| 1 A - TRATAMENTO, COM AR, DE DOENÇAS DESCIMPRESSIVA - DOR SOMENTE TRATAMENTO A 30 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível oxigênio e a dor é aliviado a profundidade maior que 20 metros |\n| 2A - TRATAMENTO, DE DOENÇA DESCOMPRESSIVA - DOR SOMENTE TRATAMENTO A 50 METROS | Tratamento de doença descompressiva - dor somente quando não for disponível ocigênio e a dor e aliviada a profundidade maior que 20 metros |\n| 3 - TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSICA - SITOMAS SÉRIOS, OU EMBOLIA GASOSA | Tratamento de doença descompressiva - sintomas sérios ou de embolia gasosa quando não for disponível oxigênio e os sintomas são aliviados dentro de 30 minutos a 50 metros |\n| 4 - TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA - SITOMAS SÉRIOS OU EMBOLIA GASOSA. | Tratamento de sintomas piorando durante os primeiros 20 minutos de respiração de oxigênio a 18 metros na Tabela 6, ou quando os sintomas não são aliviados dentro de 30 minutos a 50 metros utilizar o tratamento com AR da Tabela 3 |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-5-tratamento-com-oxigênio-de-doenças-descompressivas-dor-somente",
-      "number": "",
-      "title": "TABELA 5 TRATAMENTO, COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVAS DOR SOMENTE",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 5 TRATAMENTO, COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVAS DOR SOMENTE**"
+        },
         {
           "type": "paragraph",
           "text": "1 - Tratamento de doenças descompressivas - dor somente, quando os sintomas são aliviados dentro de 10 minutos a 18 metros."
@@ -5364,14 +5032,11 @@
         {
           "type": "paragraph",
           "text": "7 - O acompanhante deve respirar ar. Se o tratamento é um mergulho repetitivo para o acompanhante ou as tabelas forem prolongadas, o acompanhante deve respirar oxigênio durante os últimos 30 minutos até a superfície."
-        }
-      ]
-    },
-    {
-      "id": "tabela-5-perfil-profundidadetempo",
-      "number": "",
-      "title": "TABELA 5 PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 5 PERFIL PROFUNDIDADE/TEMPO**"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 69",
@@ -5380,14 +5045,11 @@
         {
           "type": "paragraph",
           "text": "![Página 69 — imagem 0](../assets/pages/page-069-image-00.png) **TABELA 6**"
-        }
-      ]
-    },
-    {
-      "id": "tratamento-com-oxigênio-de-doenças-descompressivas-sintomas-sérios",
-      "number": "",
-      "title": "TRATAMENTO, COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVAS SINTOMAS SÉRIOS",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TRATAMENTO, COM OXIGÊNIO, DE DOENÇAS DESCOMPRESSIVAS SINTOMAS SÉRIOS**"
+        },
         {
           "type": "paragraph",
           "text": "1 - Tratamento de doença descompressiva - sintomas sérios ou dor somente, quando os sintomas não são aliviados dentro de 10 minutos a 18 metros."
@@ -5415,20 +5077,11 @@
         {
           "type": "paragraph",
           "text": "7 - A Tabela 6 pode ser prolongada por 25 minutos adicionais a 18 metros (20 minutos de oxigênio e 5 minutos de ar) ou por 75 minutos adicionais a 9m (15 minutos de ar e 60 minutos de oxigênio) ou ambos"
-        }
-      ]
-    },
-    {
-      "id": "tabela-6",
-      "number": "",
-      "title": "TABELA 6",
-      "blocks": []
-    },
-    {
-      "id": "perfil-profundidadetempo",
-      "number": "",
-      "title": "PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 6** PERFIL PROFUNDIDADE/TEMPO"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 71",
@@ -5438,14 +5091,11 @@
           "type": "image",
           "alt": "Página 72 — imagem 0",
           "src": "../assets/pages/page-072-image-00.png"
-        }
-      ]
-    },
-    {
-      "id": "tabela-6a-tratamento-com-ar-e-oxigênio-de-embolia-gasosa",
-      "number": "",
-      "title": "TABELA 6A TRATAMENTO, COM AR E OXIGÊNIO, DE EMBOLIA GASOSA",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 6A TRATAMENTO, COM AR E OXIGÊNIO, DE EMBOLIA GASOSA**"
+        },
         {
           "type": "paragraph",
           "text": "1 - Tratamento de embolia gasosa. Utilize também quando for impossível determinar se os sintomas são causados por embolia gasosa ou grave doença descompressiva."
@@ -5473,20 +5123,11 @@
         {
           "type": "paragraph",
           "text": "7 - A Tabela 6 pode ser prolongada por 25 minutos adicionais a 18 metros (20 minutos de oxigênio e 5 minutos de Ar) ou por 75 minutos adicionais a 9 metros (15 minutos no ar e 60 minutos de oxigênio) ou ambos."
-        }
-      ]
-    },
-    {
-      "id": "tabela-6a",
-      "number": "",
-      "title": "TABELA 6A",
-      "blocks": []
-    },
-    {
-      "id": "perfil-profundidadetempo",
-      "number": "",
-      "title": "PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 6A** PERFIL PROFUNDIDADE/TEMPO"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 73",
@@ -5496,20 +5137,15 @@
           "type": "image",
           "alt": "Página 74 — imagem 0",
           "src": "../assets/pages/page-074-image-00.png"
-        }
-      ]
-    },
-    {
-      "id": "tabela-1a",
-      "number": "",
-      "title": "TABELA 1A",
-      "blocks": []
-    },
-    {
-      "id": "tratamento-com-ar-de-doença-descompressiva-dor-somente-tratamento-a-30-metros",
-      "number": "",
-      "title": "TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA DOR SOMENTE TRATAMENTO A 30 METROS",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 1A**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA DOR SOMENTE TRATAMENTO A 30 METROS**"
+        },
         {
           "type": "paragraph",
           "text": "- 1 - Tratamento de doença descompressiva - dor somente, quando não se dispuser de oxigênio e a dor é aliviada à profundidade menor que 20 metros."
@@ -5529,20 +5165,11 @@
         {
           "type": "paragraph",
           "text": "- 5 - Se a configuração das tubulações da câmara não permite o retorno à superfície desde os 3 metros dentro de 1 minuto como específico, não considere o tempo adicional requerido."
-        }
-      ]
-    },
-    {
-      "id": "tabela-1a",
-      "number": "",
-      "title": "TABELA 1A",
-      "blocks": []
-    },
-    {
-      "id": "perfil-profundidadetempo",
-      "number": "",
-      "title": "PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 1A** PERFIL PROFUNDIDADE/TEMPO"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 75",
@@ -5552,26 +5179,11 @@
           "type": "image",
           "alt": "Página 75 — imagem 0",
           "src": "../assets/pages/page-075-image-00.png"
-        }
-      ]
-    },
-    {
-      "id": "tabela-2a",
-      "number": "",
-      "title": "TABELA 2A",
-      "blocks": []
-    },
-    {
-      "id": "tratamento-com-ar-de-doença-descompressiva",
-      "number": "",
-      "title": "TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA",
-      "blocks": []
-    },
-    {
-      "id": "dor-somente-tratamento-a-50-metros",
-      "number": "",
-      "title": "DOR SOMENTE TRATAMENTO A 50 METROS",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 2A** TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA DOR SOMENTE TRATAMENTO A 50 METROS"
+        },
         {
           "type": "paragraph",
           "text": "- 1 - Tratamento de doença descompressiva - dor somente, quando não tiver disponível oxigênio e a dor é aliviada a uma profundidade maior que 20 metros."
@@ -5587,20 +5199,11 @@
         {
           "type": "paragraph",
           "text": "- 4 - Tempo a 50 metros - inclui o tempo desde a superfície."
-        }
-      ]
-    },
-    {
-      "id": "tabela-2-a",
-      "number": "",
-      "title": "TABELA 2 A",
-      "blocks": []
-    },
-    {
-      "id": "perfil-profundidadetempo",
-      "number": "",
-      "title": "PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 2 A** PERFIL PROFUNDIDADE/TEMPO"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 76",
@@ -5610,20 +5213,15 @@
           "type": "image",
           "alt": "Página 76 — imagem 0",
           "src": "../assets/pages/page-076-image-00.png"
-        }
-      ]
-    },
-    {
-      "id": "tabela-3",
-      "number": "",
-      "title": "TABELA 3",
-      "blocks": []
-    },
-    {
-      "id": "tratamento-com-ar-de-doença-descompressiva-sintomas-sérios-ou-embolia-gasosa",
-      "number": "",
-      "title": "TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA SINTOMAS SÉRIOS OU EMBOLIA GASOSA",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 3**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA SINTOMAS SÉRIOS OU EMBOLIA GASOSA**"
+        },
         {
           "type": "paragraph",
           "text": "1 - Tratamento de doença descompressiva - sintomas sérios ou embolia gasosa, quando não dispuser de oxigênio e os sintomas são aliviados dentro de 30 minutos a 50 metros."
@@ -5639,14 +5237,11 @@
         {
           "type": "paragraph",
           "text": "4 - O tempo a 5 metros inclui o tempo desde a superfície."
-        }
-      ]
-    },
-    {
-      "id": "tabela-3-perfil-profundidadetempo",
-      "number": "",
-      "title": "TABELA 3 PERFIL PROFUNDIDADE/TEMPO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 3 PERFIL PROFUNDIDADE/TEMPO**"
+        },
         {
           "type": "image",
           "alt": "Tabela da página 77",
@@ -5656,20 +5251,15 @@
           "type": "image",
           "alt": "Página 77 — imagem 0",
           "src": "../assets/pages/page-077-image-00.png"
-        }
-      ]
-    },
-    {
-      "id": "tabela-4",
-      "number": "",
-      "title": "TABELA 4",
-      "blocks": []
-    },
-    {
-      "id": "tratamento-com-ar-de-doença-descompressiva-sintomas-sérios-ou-embolia-gasosa",
-      "number": "",
-      "title": "TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA SINTOMAS SÉRIOS OU EMBOLIA GASOSA",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 4**"
+        },
+        {
+          "type": "paragraph",
+          "text": "**TRATAMENTO, COM AR, DE DOENÇA DESCOMPRESSIVA SINTOMAS SÉRIOS OU EMBOLIA GASOSA**"
+        },
         {
           "type": "paragraph",
           "text": "1 - Tratamento de sintomas piorando durante os primeiros 20 minutos de respiração do oxigênio a 18 metros na Tabela 6 ou quando os sintomas não são aliviados dentro de 30 minutos a 50metros, utilizando o tratamento com ar da Tabela 3."
@@ -5702,15 +5292,9 @@
       ]
     },
     {
-      "id": "anexo-nº-7",
+      "id": "anexo-nº-7-radiações-não-ionizantes",
       "number": "",
-      "title": "ANEXO Nº 7",
-      "blocks": []
-    },
-    {
-      "id": "radiações-não-ionizantes",
-      "number": "",
-      "title": "RADIAÇÕES NÃO-IONIZANTES",
+      "title": "ANEXO Nº 7 RADIAÇÕES NÃO-IONIZANTES",
       "blocks": [
         {
           "type": "paragraph",
@@ -5733,21 +5317,8 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_(Redação dada pela Portaria MTE nº 1.297, de 13 de agosto de 2014)_"
-        }
-      ]
-    },
-    {
-      "id": "vibração",
-      "number": "",
-      "title": "VIBRAÇÃO",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "Sumário :",
-      "blocks": [
+          "text": "_(Redação dada pela Portaria MTE nº 1.297, de 13 de agosto de 2014)_ VIBRAÇÃO"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivos"
@@ -5760,8 +5331,8 @@
     },
     {
       "id": "1-objetivos",
-      "number": "",
-      "title": "1. Objetivos",
+      "number": "1",
+      "title": "Objetivos",
       "blocks": []
     },
     {
@@ -5914,15 +5485,9 @@
       ]
     },
     {
-      "id": "anexo-nº-9",
+      "id": "anexo-nº-9-frio",
       "number": "",
-      "title": "ANEXO Nº 9",
-      "blocks": []
-    },
-    {
-      "id": "frio",
-      "number": "",
-      "title": "FRIO",
+      "title": "ANEXO Nº 9 FRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -5931,15 +5496,9 @@
       ]
     },
     {
-      "id": "anexo-nº-10",
+      "id": "anexo-nº-10-umidade",
       "number": "",
-      "title": "ANEXO Nº 10",
-      "blocks": []
-    },
-    {
-      "id": "umidade",
-      "number": "",
-      "title": "UMIDADE",
+      "title": "ANEXO Nº 10 UMIDADE",
       "blocks": [
         {
           "type": "paragraph",
@@ -5951,13 +5510,11 @@
       "id": "anexo-nº-11",
       "number": "",
       "title": "ANEXO Nº 11",
-      "blocks": []
-    },
-    {
-      "id": "agentes-químicos-cuja-insalubridade-é-caracterizada-por-limite-de-tolerância-e-inspeção-no-local-de-trabalho",
-      "number": "",
-      "title": "AGENTES QUÍMICOS CUJA INSALUBRIDADE É CARACTERIZADA POR LIMITE DE TOLERÂNCIA E INSPEÇÃO NO LOCAL DE TRABALHO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**AGENTES QUÍMICOS CUJA INSALUBRIDADE É CARACTERIZADA POR LIMITE DE TOLERÂNCIA E INSPEÇÃO NO LOCAL DE TRABALHO**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** Nas atividades ou operações nas quais os trabalhadores ficam expostos a agentes químicos, a caracterização de insalubridade ocorrerá quando forem ultrapassados os limites de tolerância constantes do Quadro n.<sup>o</sup> 1 deste Anexo."
@@ -6020,25 +5577,24 @@
         {
           "type": "table",
           "markdown": "| QUADRO Nº 2 | |\n| --- | --- |\n| L.T. | F.D. |\n| (pp, ou mg/m³) 0 a 1 1 a 10 10 a 100 100 a 1000 acima de 1000 | 3 2 1,5 1,25 1,1 |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-de-limites-de-tolerância",
-      "number": "",
-      "title": "TABELA DE LIMITES DE TOLERÂNCIA",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE LIMITES DE TOLERÂNCIA**"
+        },
         {
           "type": "table",
           "markdown": "| AGENTES QUÍMICOS | Valor teto | Absorção também p/pele | Até 48 horas/semana | | Grau de insalubridade a ser considerado no caso de sua caracterização |\n| --- | --- | --- | --- | --- | --- |\n| | | | ppm* | mg/m3* * | |\n| Acetaldeído | | | 78 | 140 | máximo |\n| Acetato de cellosolve | | + | 78 | 420 | médio |\n| Acetato de éter monoetílico de etileno glicol (vide acetado de cellsolve) | | | - | - | - |\n| Acetato de etila | | | 310 | 1090 | mínimo |\n| Acetato de 2-etóxi etila (vide acetato de cellosolve) | | | - | - | - |\n| Acetileno | | | Axfixiante | simples | - |\n| Acetona | | | 780 | 1870 | mínimo |\n| Acetonitrila | | | 30 | 55 | máximo |\n| Ácido acético | | | 8 | 20 | médio |\n| Ácido cianídrico | | + | 8 | 9 | máximo |\n| Ácido clorídrico | + | | 4 | 5,5 | máximo |\n| Ácido crômico (névoa) | | | - | 0,04 | máximo |\n| Ácido etanóico (vide ácido acético) | | | - | - | - |\n| Ácido fluorídrico | | | 2,5 | 1,5 | máximo |\n| Ácido fórmico | | | 4 | 7 | médio |\n| Ácido metanóico (vide ácido fórmico) | | | - | - | - |\n| Acrilato de metila | | + | 8 | 27 | máximo |\n| Acrilonitrila | | + | 16 | 35 | máximo |\n| Álcool isoamílico | | | 78 | 280 | mínimo |\n| Álcool n-butílico | + | + | 40 | 115 | máximo |\n| Álcool isobutílico | | | 40 | 115 | médio |\n| Álcool sec-butílico (2-butanol) | | | 115 | 350 | médio |\n| Álcool terc-butílico | | | 78 | 235 | médio |\n| Álcool etílico | | | 780 | 1480 | mínimo |\n| Álcool furfurílico | | + | 4 | 15,5 | médio |\n| Álcool metil amílico (vide metil isobutil carbinol) | | | - | - | - |\n| Álcool metílico | | + | 156 | 200 | máximo |\n| Álcool n-propílico | | + | 156 | 390 | médio |\n| Álcool isopropílico | | + | 310 | 765 | médio |\n| Aldeído acético (vide acetaldeído) | | | - | - | - |\n| Aldeído fórmico (vide formaldeído) | | | - | - | - |\n| Amônia | | | 20 | 14 | médio |\n| Anidro sulfuroso (vide dióxido de enxofre) | | | - | - | - |\n| Anilina | | + | 4 | 15 | máximo |"
         },
         {
-          "type": "table",
-          "markdown": "| Argônio | | | Asfixante | | simples | - |\n| --- | --- | --- | --- | --- | --- | --- |\n| Arsina (arsenamina) | | | 0,04 | | 0,16 | máximo |\n| Benzeno | (Excluído pela Portaria nº 03, de 10 de março de 1994) | | | | | |\n| Brometo de etila | | | 156 | | 695 | máximo |\n| Brometo de metila | | + | 12 | | 47 | máximo |\n| Bromo | | | 0,08 | | 0,6 | máximo |\n| Bromoetano (vide brometo de etila) | | | - | | - | - |\n| Bromofórmio | | + | 0,4 | | 4 | médio |\n| Bromometano (vide brometo de metila) | | | - | | - | - |\n| 1,3 Butadieno | | | 780 | | 1720 | médio |\n| n-Butano | | | 470 | | 1090 | médio |\n| n-Butano (vide álcoo n-butílico) | | | - | | - | - |\n| sec-Butanol (vide álcool sec-butílico) | | | - | | - | - |\n| Butanona (vide metil etil cetona) | | | - | | - | - |\n| 1-Butanotiol (vide butil mercaptana) | | | - | | - | - |\n| n-Butilamina | + | + | 4 | | 12 | máximo |\n| Butil cellosolve | | + | 39 | | 190 | médio |\n| n-Butil mercaptana | | | 0,4 | | 1,2 | médio |\n| 2-Butóxi etanol (vide butil cellosolve) | | | - | | - | - |\n| Cellosolve (vide 2-etóxi etanol) | | | - | | - | - |\n| Chumbo | | | - | | 0,1 | máximo |\n| Cianeto de metila (vide acetonitrila) | | | - | | - | - |\n| Cianeto de vinila (vide acrilonitrila) | | | - | | - | - |\n| Cianogênio | | | 8 | | 16 | máximo |\n| Ciclohexano | | | 235 | | 820 | médio |\n| Ciclohexanol | | | 40 | | 160 | máximo |\n| Ciclohexilamina | | + | 8 | | 32 | máximo |\n| Cloreto de carbonila (vide fosgênio) | | | - | | - | - |\n| Cloreto de etila | | | 780 | 2030 | | médio |\n| Cloreto de fenila (vide cloro benzeno) | | | - | - | | - |\n| Cloreto de metila | | | 78 | 165 | | máximo |\n| Cloreto de metileno | | | 156 | 560 | | máximo |\n| Cloreto de vinila | + | | 156 | 398 | | máximo |\n| Cloreto de vinilideno | | | 8 | 31 | | máximo |\n| Cloro | | | 0,8 | 2,3 | | máximo |\n| Clorobenzeno | | | 59 | 275 | | médio |\n| Clorobromometano | | | 156 | 820 | | máximo |\n| Cloroetano (vide cloreto de etila) | | | - | - | | - |\n| Cloroetílico (vide cloreto de vinila) | | | - | - | | - |\n| Clorodifluometano (freon 22) | | | 780 | 2730 | | mínimo |\n| Clorofórmio | | | 20 | 94 | | máximo |\n| 1-Cloro 1-nitropropano | | | 16 | 78 | | máximo |\n| Cloroprene | | + | 20 | 70 | | máximo |"
+          "type": "image",
+          "alt": "Tabela da página 84",
+          "src": "../assets/pages/page-084-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| | Cumeno | | + | 39 | 190 | máximo |\n| --- | --- | --- | --- | --- | --- | --- |\n| | Decaborano | | + | 0,04 | 0,25 | máximo |\n| | Demeton | | + | 0,008 | 0,08 | máximo |\n| Diamina (vide hidrazina) | | | | - | - | - |\n| Diborano | | | | 0,08 | 0,08 | máximo |\n| 1,2-Dibramoetano | | | + | 16 | 110 | médio |\n| o-Diclorobenzeno | | | | 39 | 235 | máximo |\n| Diclorodifluormetano (freon 12) | | + | | 780 | 3860 | mínimo |\n| 1,1 Dicloroetano | | | | 156 | 640 | médio |\n| 1,2 Dicloroetano | | | | 39 | 156 | máximo |\n| 1,1 Dicloreotileno (vide cloreto de vinilideno) | | | | - | - | - |\n| 1,2 Dicloroetileno | | | | 155 | 615 | médio |\n| Diclorometano (vide cloreto de metilino) | | | | - | - | - |\n| 1,1 Dicloro-1-nitroetano | | + | | 8 | 47 | máximo |\n| 1,2 Dicloropropano | | | | 59 | 275 | máximo |\n| Diclorotetrafluoretano (freon 114) | | | | 780 | 5460 | mínimo |\n| Dietil amina | | | | 20 | 59 | médio |\n| Dietil éter (vide éter etílico) | | | | - | - | - |\n| 2,4 Diisocianato de tolueno (TDI) | | + | | 0,016 | 0,11 | máximo |\n| Diisopropilamina | | | + | 4 | 16 | máximo |\n| Dimetilacetamida | | | + | 8 | 28 | máximo |\n| Dimetilamina | | | | 8 | 14 | médio |\n| Dimetiformamida | | | | 8 | 24 | médio |\n| l,l Dimetil hidrazina | | | + | 0,4 | 0,8 | máximo |\n| Dióxido de carbono | | | | 3900 | 7020 | mínimo |\n| Dióxido de cloro | | | | 0,08 | 0,25 | máximo |\n| Dióxido de enxofre | | | | 4 | 10 | máximo |\n| Dióxido de nitrogênio | | + | | 4 | 7 | máximo |\n| Dissulfeto de carbono | | | + | 16 | 47 | máximo |\n| Estibina | | | | 0,08 | 0,4 | máximo |\n| Estireno | | | | 78 | 328 | médio |\n| Etanol (vide acetaldeído) | | | | _ | _ | _ |\n| Etano | | | | Asfixiant e | simples | _ |\n| Etanol (vide etílico) | | | | _ | _ | _ |\n| Etanotiol (vide etil mercaptana) | | | | _ | _ | _ |\n| Éter decloroetílico | | | + | 4 | 24 | máximo |\n| Éter etílico | | | | 310 | 940 | médio |\n| Éter monobutílico do etileno glicol (vide butil cellosolve | | | | _ | _ | _ |\n| Éter monoetílico do etileno glicol (vide cellosolve) | | | | _ | _ | _ |\n| Éter monometílico do etileno glicol (vide metil cellosolve) | | | | _ | _ | _ |\n| Etilamina | | | | 8 | 14 | máximo |"
+          "type": "image",
+          "alt": "Tabela da página 85",
+          "src": "../assets/pages/page-085-table-00.png"
         },
         {
           "type": "table",
@@ -6067,21 +5623,9 @@
       ]
     },
     {
-      "id": "anexo-nº-12",
+      "id": "anexo-nº-12-limites-de-tolerância-para-poeiras-minerais-asbesto",
       "number": "",
-      "title": "ANEXO Nº 12",
-      "blocks": []
-    },
-    {
-      "id": "limites-de-tolerância-para-poeiras-minerais",
-      "number": "",
-      "title": "LIMITES DE TOLERÂNCIA PARA POEIRAS MINERAIS",
-      "blocks": []
-    },
-    {
-      "id": "asbesto",
-      "number": "",
-      "title": "ASBESTO",
+      "title": "ANEXO Nº 12 LIMITES DE TOLERÂNCIA PARA POEIRAS MINERAIS ASBESTO",
       "blocks": [
         {
           "type": "paragraph",
@@ -6411,23 +5955,18 @@
       ]
     },
     {
-      "id": "anexo-nº-1",
+      "id": "anexo-nº-1-modelo-do-cadastro-dos-utilizadores-do-asbesto",
       "number": "",
-      "title": "ANEXO Nº 1",
-      "blocks": []
-    },
-    {
-      "id": "modelo-do-cadastro-dos-utilizadores-do-asbesto",
-      "number": "",
-      "title": "MODELO DO CADASTRO DOS UTILIZADORES DO ASBESTO",
+      "title": "ANEXO Nº 1 MODELO DO CADASTRO DOS UTILIZADORES DO ASBESTO",
       "blocks": [
         {
           "type": "paragraph",
           "text": "NOTA: As declarações acima prestadas são de inteira responsabilidade da empresa, passíveis de verificação e eventuais penalidades facultadas pela lei."
         },
         {
-          "type": "table",
-          "markdown": "| Gênero de produto que contém asbesto | Utilização a que se destina |\n| --- | --- |\n| | |"
+          "type": "image",
+          "alt": "Tabela da página 93",
+          "src": "../assets/pages/page-093-table-00.png"
         },
         {
           "type": "paragraph",
@@ -6446,15 +5985,8 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "| **Item e Subitem** | **Prazo** | **Infração** |\n| --- | --- | --- |\n| - 2.1 | P4 | I4 |\n| - 3 | P2 | I2 |\n| - 4 | P1 | I4 |\n| - 5 | P1 | I4 |\n| - 6 | P1 | I4 |\n| - 7, 7.2, 7.4 | P1 | I3 |\n| - 8 | P2 | I3 |\n| - 9, 9.1, 9.2 | P4 | I3 |\n| - 10 | P4 | I3 |\n| - 11, 11.1, 11.2 e 11.4 | P4 | I3 |\n| - 12 | P4 | I4 |\n| - 14, 14.1, 14.2 | P3 | I3 |\n| - 15 | P4 | I3 |\n| - 16 | P1 | I1 |\n| - 17 | P4 | I4 |\n| - 18, 18.2 | P3 | I2 |\n| - 19, 19.1 | P1 | I1 |\n| - 20,20.1 | P1 | I1 |"
-        }
-      ]
-    },
-    {
-      "id": "manganês-e-seus-compostos",
-      "number": "",
-      "title": "MANGANÊS E SEUS COMPOSTOS",
-      "blocks": [
+          "markdown": "| **Item e Subitem** | **Prazo** | **Infração** |\n| --- | --- | --- |\n| - 2.1 | P4 | I4 |\n| - 3 | P2 | I2 |\n| - 4 | P1 | I4 |\n| - 5 | P1 | I4 |\n| - 6 | P1 | I4 |\n| - 7, 7.2, 7.4 | P1 | I3 |\n| - 8 | P2 | I3 |\n| - 9, 9.1, 9.2 | P4 | I3 |\n| - 10 | P4 | I3 |\n| - 11, 11.1, 11.2 e 11.4 | P4 | I3 |\n| - 12 | P4 | I4 |\n| - 14, 14.1, 14.2 | P3 | I3 |\n| - 15 | P4 | I3 |\n| - 16 | P1 | I1 |\n| - 17 | P4 | I4 |\n| - 18, 18.2 | P3 | I2 |\n| - 19, 19.1 | P1 | I1 |\n| - 20,20.1 | P1 | I1 | MANGANÊS E SEUS COMPOSTOS |"
+        },
         {
           "type": "paragraph",
           "text": "_(Incluído pela Portaria DNSST nº 08, de 05 de outubro de 1992)_"
@@ -6554,15 +6086,8 @@
         },
         {
           "type": "paragraph",
-          "text": "- Troca de roupas de passeio/serviço/passeio; - Proibição de se tomarem refeições nos locais de trabalho."
-        }
-      ]
-    },
-    {
-      "id": "sílica-livre-cristalizada",
-      "number": "",
-      "title": "SÍLICA LIVRE CRISTALIZADA",
-      "blocks": [
+          "text": "- Troca de roupas de passeio/serviço/passeio; - Proibição de se tomarem refeições nos locais de trabalho. SÍLICA LIVRE CRISTALIZADA"
+        },
         {
           "type": "paragraph",
           "text": "_(Incluído pela Portaria DNSST nº 08, de 05 de outubro de 1992)_"
@@ -6651,33 +6176,14 @@
       ]
     },
     {
-      "id": "anexo-nº-13",
+      "id": "anexo-nº-13-agentes-químicos",
       "number": "",
-      "title": "ANEXO Nº 13",
-      "blocks": []
-    },
-    {
-      "id": "agentes-químicos",
-      "number": "",
-      "title": "AGENTES QUÍMICOS",
+      "title": "ANEXO Nº 13 AGENTES QUÍMICOS",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1. Relação das atividades e operações envolvendo agentes químicos, consideradas, insalubres em decorrência de inspeção realizada no local de trabalho. Excluam-se desta relação as atividades ou operações com os agentes químicos constantes dos Anexos 11 e 12."
-        }
-      ]
-    },
-    {
-      "id": "arsênico",
-      "number": "",
-      "title": "ARSÊNICO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "1. Relação das atividades e operações envolvendo agentes químicos, consideradas, insalubres em decorrência de inspeção realizada no local de trabalho. Excluam-se desta relação as atividades ou operações com os agentes químicos constantes dos Anexos 11 e 12. ARSÊNICO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Extração e manipulação de arsênico e preparação de seus compostos. Fabricação e preparação de tintas à base de arsênico."
@@ -6696,15 +6202,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Produção de trióxido de arsênico."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Produção de trióxido de arsênico. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Bronzeamento em negro e verde com compostos de arsênico."
@@ -6731,15 +6230,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Operações de galvanotécnica à base de compostos de arsênico. Pintura manual (pincel, rolo e escova) com pigmentos de compostos de arsênico em recintos limitados ou fechados, exceto com pincel capilar."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-mínimo",
-      "number": "",
-      "title": "Insalubridade de grau mínimo",
-      "blocks": [
+          "text": "Operações de galvanotécnica à base de compostos de arsênico. Pintura manual (pincel, rolo e escova) com pigmentos de compostos de arsênico em recintos limitados ou fechados, exceto com pincel capilar. Insalubridade de grau mínimo"
+        },
         {
           "type": "paragraph",
           "text": "Empalhamento de animais à base de compostos de arsênico."
@@ -6750,60 +6242,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Pintura a pistola ou manual com pigmentos de compostos de arsênico ao ar livre."
-        }
-      ]
-    },
-    {
-      "id": "carvão",
-      "number": "",
-      "title": "CARVÃO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Pintura a pistola ou manual com pigmentos de compostos de arsênico ao ar livre. CARVÃO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
-          "text": "Trabalho permanente no subsolo em operações de corte, furação e desmonte, de carregamento no local de desmonte, em atividades de manobra, nos pontos de transferência de carga e de viradores."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Trabalho permanente no subsolo em operações de corte, furação e desmonte, de carregamento no local de desmonte, em atividades de manobra, nos pontos de transferência de carga e de viradores. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
-          "text": "Demais atividades permanentes do subsolo compreendendo serviços, tais como: operações de locomotiva, condutores, engatadores, bombeiros, madeireiros, trilheiros e eletricistas."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-mínimo",
-      "number": "",
-      "title": "Insalubridade de grau mínimo",
-      "blocks": [
+          "text": "Demais atividades permanentes do subsolo compreendendo serviços, tais como: operações de locomotiva, condutores, engatadores, bombeiros, madeireiros, trilheiros e eletricistas. Insalubridade de grau mínimo"
+        },
         {
           "type": "paragraph",
-          "text": "Atividades permanentes de superfícies nas operações a seco, com britadores, peneiras, classificadores, carga e descarga de silos, de transportadores de correia e de teleférreos."
-        }
-      ]
-    },
-    {
-      "id": "chumbo",
-      "number": "",
-      "title": "CHUMBO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Atividades permanentes de superfícies nas operações a seco, com britadores, peneiras, classificadores, carga e descarga de silos, de transportadores de correia e de teleférreos. CHUMBO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Fabricação de compostos de chumbo, carbonato, arseniato, cromato mínio, litargírio e outros."
@@ -6834,15 +6286,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Vulcanização de borracha pelo litargírio ou outros compostos de chumbo."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Vulcanização de borracha pelo litargírio ou outros compostos de chumbo. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Aplicação e emprego de esmaltes, vernizes, cores, pigmentos, tintas, ungüentos, óleos, pastas, líquidos e pós à base de compostos de chumbo."
@@ -6857,47 +6302,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Tinturaria e estamparia com pigmentos à base de compostos de chumbo."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-mínimo",
-      "number": "",
-      "title": "Insalubridade de grau mínimo",
-      "blocks": [
+          "text": "Tinturaria e estamparia com pigmentos à base de compostos de chumbo. Insalubridade de grau mínimo"
+        },
         {
           "type": "paragraph",
-          "text": "Pintura a pistola ou manual com pigmentos de compostos de chumbo ao ar livre."
-        }
-      ]
-    },
-    {
-      "id": "cromo",
-      "number": "",
-      "title": "CROMO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Pintura a pistola ou manual com pigmentos de compostos de chumbo ao ar livre. CROMO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Fabricação de cromatos e bicromatos."
         },
         {
           "type": "paragraph",
-          "text": "Pintura a pistola com pigmentos de compostos de cromo, em recintos limitados ou fechados."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Pintura a pistola com pigmentos de compostos de cromo, em recintos limitados ou fechados. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Cromagem eletrolítica dos metais."
@@ -6920,36 +6338,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Tanagem a cromo."
-        }
-      ]
-    },
-    {
-      "id": "fósforo",
-      "number": "",
-      "title": "FÓSFORO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo-extração-e-preparação-de-fósforo-branco-e-seus-compostos",
-      "number": "",
-      "title": "Insalubridade de grau máximo Extração e preparação de fósforo branco e seus compostos.",
-      "blocks": [
+          "text": "Tanagem a cromo. FÓSFORO"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Insalubridade de grau máximo** Extração e preparação de fósforo branco e seus compostos."
+        },
         {
           "type": "paragraph",
           "text": "Fabricação de defensivos fosforados e organofosforados."
         },
         {
           "type": "paragraph",
-          "text": "Fabricação de projéteis incendiários, explosivos e gases asfixiantes à base de fósforo branco."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Fabricação de projéteis incendiários, explosivos e gases asfixiantes à base de fósforo branco. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Emprego de defensivos organofosforados."
@@ -6960,21 +6362,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Fabricação de mechas fosforadas para lâmpadas de mineiros."
-        }
-      ]
-    },
-    {
-      "id": "hidrocarbonetos-e-outros-compostos-de-carbono",
-      "number": "",
-      "title": "HIDROCARBONETOS E OUTROS COMPOSTOS DE CARBONO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Fabricação de mechas fosforadas para lâmpadas de mineiros. HIDROCARBONETOS E OUTROS COMPOSTOS DE CARBONO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Destilação do alcatrão da hulha."
@@ -6997,15 +6386,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Pintura a pistola com esmaltes, tintas, vernizes e solventes contendo hidrocarbonetos aromáticos."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Pintura a pistola com esmaltes, tintas, vernizes e solventes contendo hidrocarbonetos aromáticos. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Emprego de defensivos organoclorados: DDT (diclorodifeniltricloretano) DDD (diclorodifenildicloretano), metoxicloro (dimetoxidifeniltricloretano), BHC (hexacloreto de benzeno) e seus compostos e isômeros."
@@ -7040,38 +6422,12 @@
         },
         {
           "type": "paragraph",
-          "text": "Pintura a pincel com esmaltes, tintas e vernizes em solvente contendo hidrocarbonetos aromáticos."
-        }
-      ]
-    },
-    {
-      "id": "mercúrio",
-      "number": "",
-      "title": "MERCÚRIO",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Pintura a pincel com esmaltes, tintas e vernizes em solvente contendo hidrocarbonetos aromáticos. MERCÚRIO Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
-          "text": "Fabricação e manipulação de compostos orgânicos de mercúrio."
-        }
-      ]
-    },
-    {
-      "id": "silicatos",
-      "number": "",
-      "title": "SILICATOS",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Fabricação e manipulação de compostos orgânicos de mercúrio. SILICATOS Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Operações que desprendam poeira de silicatos em trabalhos permanentes no subsolo, em minas e túneis (operações de corte, furação, desmonte, carregamentos e outras atividades exercidas no local do desmonte e britagem no subsolo)."
@@ -7082,15 +6438,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Fabricação de material refratário, como refratários para fôrmas, chaminés e cadinhos; recuperação de resíduos."
-        }
-      ]
-    },
-    {
-      "id": "substâncias-cancerígenas",
-      "number": "",
-      "title": "SUBSTÂNCIAS CANCERÍGENAS",
-      "blocks": [
+          "text": "Fabricação de material refratário, como refratários para fôrmas, chaminés e cadinhos; recuperação de resíduos. SUBSTÂNCIAS CANCERÍGENAS"
+        },
         {
           "type": "paragraph",
           "text": "_(Alterado pela Portaria SSST nº14, de 20 de dezembro de 1995)_"
@@ -7121,21 +6470,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Sempre que os processos ou operações não forem hermetizados, será considerada como situação de risco grave e iminente para o trabalhador. Para o Benzeno, deve ser observado o disposto no anexo 13-A."
-        }
-      ]
-    },
-    {
-      "id": "operações-diversas",
-      "number": "",
-      "title": "OPERAÇÕES DIVERSAS",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Sempre que os processos ou operações não forem hermetizados, será considerada como situação de risco grave e iminente para o trabalhador. Para o Benzeno, deve ser observado o disposto no anexo 13-A. OPERAÇÕES DIVERSAS Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Operações com cádmio e seus compostos, extração, tratamento, preparação de ligas, fabricação e emprego de seus compostos, solda com cádmio, utilização em fotografia com luz ultravioleta, em fabricação de vidros, como antioxidante, em revestimentos metálicos, e outros produtos."
@@ -7206,15 +6542,8 @@
         },
         {
           "type": "paragraph",
-          "text": "- Produção de trióxido de amônio ustulação de sulfeto de níquel."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "- Produção de trióxido de amônio ustulação de sulfeto de níquel. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Aplicação a pistola de tintas de alumínio. Fabricação de pós de alumínio (trituração e moagem). Fabricação de emetina e pulverização de ipeca."
@@ -7245,15 +6574,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Trabalho em convés de navios. _(Revogado pela Portaria SSMT nº 12, de 06 de junho de 1983)_"
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-mínimo",
-      "number": "",
-      "title": "Insalubridade de grau mínimo",
-      "blocks": [
+          "text": "Trabalho em convés de navios. _(Revogado pela Portaria SSMT nº 12, de 06 de junho de 1983)_ Insalubridade de grau mínimo"
+        },
         {
           "type": "paragraph",
           "text": "Fabricação e transporte de cal e cimento nas fases de grande exposição a poeiras. Trabalhos de carregamento, descarregamento ou remoção de enxofre ou sulfitos em geral, em sacos ou a granel."
@@ -7267,15 +6589,8 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_(Incluído pela Portaria SSST nº 14, de 20 de dezembro de 1995)_"
-        }
-      ]
-    },
-    {
-      "id": "benzeno",
-      "number": "",
-      "title": "Benzeno",
-      "blocks": [
+          "text": "_(Incluído pela Portaria SSST nº 14, de 20 de dezembro de 1995)_ Benzeno"
+        },
         {
           "type": "paragraph",
           "text": "**1.** O presente Anexo tem como objetivo regulamentar ações, atribuições e procedimentos de prevenção da exposição ocupacional ao benzeno, visando à proteção da saúde do trabalhador, visto tratar-se de um produto comprovadamente cancerígeno."
@@ -7717,21 +7032,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**15.** Os dispositivos estabelecidos nos itens anteriores, decorrido o prazo para sua aplicação, são de autuação imediata, dispensando prévia notificação, enquadrando-se na categoria \"I-4\", prevista na NR-28."
-        }
-      ]
-    },
-    {
-      "id": "operações-diversas",
-      "number": "",
-      "title": "OPERAÇÕES DIVERSAS",
-      "blocks": []
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "**15.** Os dispositivos estabelecidos nos itens anteriores, decorrido o prazo para sua aplicação, são de autuação imediata, dispensando prévia notificação, enquadrando-se na categoria \"I-4\", prevista na NR-28. OPERAÇÕES DIVERSAS Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Operações com cádmio e seus compostos:"
@@ -7802,15 +7104,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Produção de trióxido de amônio - ustulação de sulfeto de níquel."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio",
-      "number": "",
-      "title": "Insalubridade de grau médio",
-      "blocks": [
+          "text": "Produção de trióxido de amônio - ustulação de sulfeto de níquel. Insalubridade de grau médio"
+        },
         {
           "type": "paragraph",
           "text": "Aplicação a pistola de tintas de alumínio."
@@ -7857,30 +7152,16 @@
         },
         {
           "type": "paragraph",
-          "text": "Fabricação e manuseio de álcalis cáusticos."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-mínimo",
-      "number": "",
-      "title": "Insalubridade de grau mínimo",
-      "blocks": [
+          "text": "Fabricação e manuseio de álcalis cáusticos. Insalubridade de grau mínimo"
+        },
         {
           "type": "paragraph",
           "text": "Fabricação e transporte de cal e cimento nas fases de grande exposição à poeira."
         },
         {
           "type": "paragraph",
-          "text": "Trabalhos de carregamento, descarregamento ou remoção de enxofre ou sulfitos em geral, em sacos ou granel."
-        }
-      ]
-    },
-    {
-      "id": "agentes-biológicos",
-      "number": "",
-      "title": "AGENTES BIOLÓGICOS",
-      "blocks": [
+          "text": "Trabalhos de carregamento, descarregamento ou remoção de enxofre ou sulfitos em geral, em sacos ou granel. AGENTES BIOLÓGICOS"
+        },
         {
           "type": "paragraph",
           "text": "_(Revogado pela Portaria SSST nº 12, de 12 de novembro de 1979)_"
@@ -7894,26 +7175,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_(Aprovado pela Portaria SSST nº 12, de 12 de novembro de 1979)_"
-        }
-      ]
-    },
-    {
-      "id": "agentes-biológicos",
-      "number": "",
-      "title": "AGENTES BIOLÓGICOS",
-      "blocks": [
+          "text": "_(Aprovado pela Portaria SSST nº 12, de 12 de novembro de 1979)_ AGENTES BIOLÓGICOS"
+        },
         {
           "type": "paragraph",
-          "text": "Relação das atividades que envolvem agentes biológicos, cuja insalubridade é caracterizada pela avaliação qualitativa."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-máximo",
-      "number": "",
-      "title": "Insalubridade de grau máximo",
-      "blocks": [
+          "text": "Relação das atividades que envolvem agentes biológicos, cuja insalubridade é caracterizada pela avaliação qualitativa. Insalubridade de grau máximo"
+        },
         {
           "type": "paragraph",
           "text": "Trabalho ou operações, em contato permanente com:"
@@ -7933,14 +7200,11 @@
         {
           "type": "paragraph",
           "text": "- lixo urbano (coleta e industrialização)."
-        }
-      ]
-    },
-    {
-      "id": "insalubridade-de-grau-médio-trabalhos-e-operações-em-contato-permanente-com-pacientes-animais-ou-com-material-infectocontagiante-em",
-      "number": "",
-      "title": "Insalubridade de grau médio Trabalhos e operações em contato permanente com pacientes, animais ou com material infectocontagiante, em:",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**Insalubridade de grau médio** Trabalhos e operações em contato permanente com pacientes, animais ou com material infectocontagiante, em:"
+        },
         {
           "type": "paragraph",
           "text": "- hospitais, serviços de emergência, enfermarias, ambulatórios, postos de vacinação e outros estabelecimentos destinados aos cuidados da saúde humana (aplica-se unicamente ao pessoal que tenha contato com os pacientes, bem como aos que manuseiam objetos de uso desses pacientes, não previamente esterilizados);"
@@ -7971,15 +7235,8 @@
         },
         {
           "type": "paragraph",
-          "text": "- resíduos de animais deteriorados."
-        }
-      ]
-    },
-    {
-      "id": "graus-de-insalubridade",
-      "number": "",
-      "title": "GRAUS DE INSALUBRIDADE",
-      "blocks": [
+          "text": "- resíduos de animais deteriorados. GRAUS DE INSALUBRIDADE"
+        },
         {
           "type": "table",
           "markdown": "| Anexo | Atividades ou operações que exponham o trabalhador | Percentual |\n| --- | --- | --- |\n| 1 | Níveis de ruído contínuo ou intermitente superiores aos limites de tolerância fixados no Quadro constante do Anexo 1 e no item 6 do mesmo Anexo. | 20% |\n| 2 | Níveis de ruído de impacto superiores aos limites de tolerância fixados nos itens 2 e 3 do Anexo 2. | 20% |\n| 3 | Exposição ao calor com valores de IBUTG, superiores aos limites de tolerância fixados nos Quadros 1 e 2. | 20% |\n| 4 | (Revogado pela Portaria MTE nº 3.751, de 23 de novembro de 1990) | |\n| 5 | Níveis de radiações ionizantes com radioati,vidade superior aos limites de tolerância fixados neste Anexo. | 40% |\n| 6 | Ar comprimido. | 40% |\n| 7 | Radiações não-ionizantes consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 8 | Vibrações consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 9 | Frio considerado insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 10 | Umidade considerada insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 11 | Agentes químicos cujas concentrações sejam superiores aos limites de tolerância fixados no Quadro 1. | 10%, 20% e 40% |\n| 12 | Poeiras minerais cujas concentrações sejam superiores aos limites de tolerância fixados neste Anexo. | 40% |\n| 13 | Atividades ou operações, envolvendo agentes químicos, consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 10%, 20% e 40% |"

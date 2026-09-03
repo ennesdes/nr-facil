@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada Portaria MTE n.º 225, de 26 de fevereiro de 2024)_ **SUMÁRIO** 22.1 Objetivo 22.2 Campo de aplicação 22.3 Das responsabilidades da organização 22.4 Gerenciamento de Riscos Ocupacionais (GRO) 22.5 Do direito e do dever dos Trabalhadores 22.6 Organização dos locais e das atividades de trabalho 22.7 Circulação e transporte de pessoas e materiais 22.8 Transportadores Contínuos 22.9 Superfícies de trabalho, plataformas móveis e passarelas 22.10 Escadas 22.11 Equipamentos de guindar 22.12 Máquinas, equipamentos e ferramentas 22.13 Estabilidade dos maciços 22.14 Aberturas subterrâneas: desenvolvimento, tratamento e sistemas de suporte e sinalização 22.15 Exposição ao Calor 22.16 Sistemas de comunicação 22.17 Sinalização 22.18 Instalações elétricas 22.19 Operações com explosivos e acessórios 22.20 Atividades com dragas flutuantes 22.21 Desmonte hidráulico 22.22 Ventilação em atividades de subsolo 22.23 Beneficiamento 22.24 Deposição de estéril, rejeitos e produtos 22.25 Iluminação 22.26 Prevenção contra incêndios e explosões acidentais 22.27 Prevenção de explosão de poeiras inflamáveis em minas subterrâneas de carvão 22.28 Proteção contra inundações 22.29 Equipamentos radioativos 22.30 Plano de atendimento a emergências (PAE) 22.31 Vias e saídas de emergência em minas de Subsolo 22.32 Paralisação e retomada de atividades nas minas 22.33 Comissão Interna de Prevenção de Acidentes e de Assédio na Mineração (CIPAMIN) 22.34 Condições sanitárias e de conforto nos locais de trabalho 22.35 Disposições gerais GLOSSÁRIO ANEXO I - Cabos de Aço, Correntes e Acessórios ANEXO II - Capacitação e Treinamento ANEXO III - Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa ANEXO IV - Quadros ANEXO V - Exposição a Poeiras Minerais"
+        "text": "_(Redação dada Portaria MTE n.º 225, de 26 de fevereiro de 2024)_ **SUMÁRIO** 22.1 Objetivo 22.2 Campo de aplicação 22.3 Das responsabilidades da organização 22.4 Gerenciamento de Riscos Ocupacionais (GRO) 22.5 Do direito e do dever dos Trabalhadores 22.6 Organização dos locais e das atividades de trabalho 22.7 Circulação e transporte de pessoas e materiais 22.8 Transportadores Contínuos 22.9 Superfícies de trabalho, plataformas móveis e passarelas 22.10 Escadas 22.11 Equipamentos de guindar 22.12 Máquinas, equipamentos e ferramentas 22.13 Estabilidade dos maciços 22.14 Aberturas subterrâneas: desenvolvimento, tratamento e sistemas de suporte e sinalização 22.15 Exposição ao Calor 22.16 Sistemas de comunicação 22.17 Sinalização 22.18 Instalações elétricas 22.19 Operações com explosivos e acessórios 22.20 Atividades com dragas flutuantes 22.21 Desmonte hidráulico 22.22 Ventilação em atividades de subsolo 22.23 Beneficiamento 22.24 Deposição de estéril, rejeitos e produtos 22.25 Iluminação 22.26 Prevenção contra incêndios e explosões acidentais 22.27 Prevenção de explosão de poeiras inflamáveis em minas subterrâneas de carvão 22.28 Proteção contra inundações 22.29 Equipamentos radioativos 22.30 Plano de atendimento a emergências (PAE) 22.31 Vias e saídas de emergência em minas de Subsolo 22.32 Paralisação e retomada de atividades nas minas 22.33 Comissão Interna de Prevenção de Acidentes e de Assédio na Mineração (CIPAMIN) 22.34 Condições sanitárias e de conforto nos locais de trabalho 22.35 Disposições gerais GLOSSÁRIO ANEXO I - Cabos de Aço, Correntes e Acessórios ANEXO II - Capacitação e Treinamento ANEXO III - Requisitos Mínimos para Utilização de Equipamentos de Guindar de Lança Fixa ANEXO IV - Quadros ANEXO V - Exposição a Poeiras Minerais # **SUMÁRIO**"
       }
     ]
   },
@@ -544,17 +544,10 @@
           "items": [
             {
               "label": "a",
-              "text": "planta baixa identificando as vias de circulação com suas larguras, atualizada conforme necessidade operacional da mina;"
+              "text": "planta baixa identificando as vias de circulação com suas larguras, atualizada conforme necessidade operacional da mina; b) localização de placas de sinalização; e"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "b-localização-de-placas-de-sinalização-e",
-      "number": "",
-      "title": "b) localização de placas de sinalização; e",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -4487,23 +4480,10 @@
           "items": [
             {
               "label": "c",
-              "text": "teares;"
+              "text": "teares; d) galgas; e) transportadores contínuos;"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "d-galgas",
-      "number": "",
-      "title": "d) galgas;",
-      "blocks": []
-    },
-    {
-      "id": "e-transportadores-contínuos",
-      "number": "",
-      "title": "e) transportadores contínuos;",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -4518,17 +4498,10 @@
           "items": [
             {
               "label": "g",
-              "text": "silos de armazenamento e transferência;"
+              "text": "silos de armazenamento e transferência; h) britadores; e"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "h-britadores-e",
-      "number": "",
-      "title": "h) britadores; e",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -5968,15 +5941,8 @@
           "type": "item",
           "number": "22.35.2.1",
           "depth": 3,
-          "text": "Os acidentes e doenças relacionadas ao trabalho devem ser analisados conforme o"
-        }
-      ]
-    },
-    {
-      "id": "subitem-1555-da-nr-1",
-      "number": "",
-      "title": "subitem 1.5.5.5 da NR-1.",
-      "blocks": [
+          "text": "Os acidentes e doenças relacionadas ao trabalho devem ser analisados conforme o subitem 1.5.5.5 da NR-1."
+        },
         {
           "type": "item",
           "number": "22.35.2.2",
@@ -6009,7 +5975,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _-Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6019,7 +5985,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _-Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6047,7 +6013,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _-Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6061,7 +6027,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _-Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         }
       ]
     },
@@ -6473,21 +6439,15 @@
       ]
     },
     {
-      "id": "anexo-i-da-nr-22",
+      "id": "anexo-i-da-nr-22-cabos-de-aço-correntes-e-acessórios",
       "number": "ANEXO I",
-      "title": "da NR-22",
-      "blocks": []
-    },
-    {
-      "id": "cabos-de-aço-correntes-e-acessórios",
-      "number": "",
-      "title": "Cabos de Aço, Correntes e Acessórios",
+      "title": "da NR-22 Cabos de Aço, Correntes e Acessórios",
       "blocks": []
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -6498,8 +6458,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de aplicação",
+      "number": "2",
+      "title": "Campo de aplicação",
       "blocks": []
     },
     {
@@ -6510,8 +6470,8 @@
     },
     {
       "id": "3-disposições-gerais",
-      "number": "",
-      "title": "3. Disposições gerais",
+      "number": "3",
+      "title": "Disposições gerais",
       "blocks": []
     },
     {
@@ -6807,7 +6767,7 @@
     {
       "id": "314-o-sistema-gerador-de-vácuo-deve",
       "number": "3.14",
-      "title": "O sistema gerador de vácuo deve:",
+      "title": "O sistema gerador de vácuo deve",
       "blocks": [
         {
           "type": "list",
@@ -6836,21 +6796,15 @@
       "blocks": []
     },
     {
-      "id": "anexo-ii-da-nr-22",
+      "id": "anexo-ii-da-nr-22-capacitação-e-treinamento",
       "number": "ANEXO II",
-      "title": "da NR-22",
-      "blocks": []
-    },
-    {
-      "id": "capacitação-e-treinamento",
-      "number": "",
-      "title": "Capacitação e Treinamento",
+      "title": "da NR-22 Capacitação e Treinamento",
       "blocks": []
     },
     {
       "id": "1-objetivo-e-campo-de-aplicação",
-      "number": "",
-      "title": "1. Objetivo e campo de aplicação",
+      "number": "1",
+      "title": "Objetivo e campo de aplicação",
       "blocks": []
     },
     {
@@ -6861,8 +6815,8 @@
     },
     {
       "id": "2-disposições-gerais",
-      "number": "",
-      "title": "2. Disposições gerais",
+      "number": "2",
+      "title": "Disposições gerais",
       "blocks": []
     },
     {
@@ -7281,8 +7235,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -7293,8 +7247,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de aplicação",
+      "number": "2",
+      "title": "Campo de aplicação",
       "blocks": []
     },
     {
@@ -7305,8 +7259,8 @@
     },
     {
       "id": "3-projeto",
-      "number": "",
-      "title": "3. Projeto",
+      "number": "3",
+      "title": "Projeto",
       "blocks": []
     },
     {
@@ -7323,8 +7277,8 @@
     },
     {
       "id": "4-material-da-lança",
-      "number": "",
-      "title": "4. Material da lança",
+      "number": "4",
+      "title": "Material da lança",
       "blocks": []
     },
     {
@@ -7335,8 +7289,8 @@
     },
     {
       "id": "5-bases-da-lança-e-dos-estaios",
-      "number": "",
-      "title": "5. Bases da Lança e dos Estaios",
+      "number": "5",
+      "title": "Bases da Lança e dos Estaios",
       "blocks": []
     },
     {
@@ -7353,8 +7307,8 @@
     },
     {
       "id": "6-fixação-da-lança",
-      "number": "",
-      "title": "6. Fixação da lança",
+      "number": "6",
+      "title": "Fixação da lança",
       "blocks": []
     },
     {
@@ -7377,8 +7331,8 @@
     },
     {
       "id": "7-reforço-metálico",
-      "number": "",
-      "title": "7. Reforço metálico",
+      "number": "7",
+      "title": "Reforço metálico",
       "blocks": []
     },
     {
@@ -7394,8 +7348,8 @@
     },
     {
       "id": "8-fixação-dos-estaios-nas-bases",
-      "number": "",
-      "title": "8. Fixação dos estaios nas bases",
+      "number": "8",
+      "title": "Fixação dos estaios nas bases",
       "blocks": []
     },
     {
@@ -7406,8 +7360,8 @@
     },
     {
       "id": "9-dimensionamento-dos-cabos-de-aço-e-confecção-dos-laços",
-      "number": "",
-      "title": "9. Dimensionamento dos cabos de aço e confecção dos laços",
+      "number": "9",
+      "title": "Dimensionamento dos cabos de aço e confecção dos laços",
       "blocks": [
         {
           "type": "image",
@@ -7424,8 +7378,8 @@
     },
     {
       "id": "10-acesso-ao-topo-da-lança",
-      "number": "",
-      "title": "10. Acesso ao topo da lança",
+      "number": "10",
+      "title": "Acesso ao topo da lança",
       "blocks": []
     },
     {
@@ -7442,8 +7396,8 @@
     },
     {
       "id": "11-aquisição-de-cabos-de-aço",
-      "number": "",
-      "title": "11. Aquisição de cabos de aço",
+      "number": "11",
+      "title": "Aquisição de cabos de aço",
       "blocks": []
     },
     {
@@ -7460,8 +7414,8 @@
     },
     {
       "id": "12-lubrificação-dos-cabos-de-aço",
-      "number": "",
-      "title": "12. Lubrificação dos cabos de aço",
+      "number": "12",
+      "title": "Lubrificação dos cabos de aço",
       "blocks": []
     },
     {
@@ -7472,8 +7426,8 @@
     },
     {
       "id": "13-travamento-de-eixos-e-pinos",
-      "number": "",
-      "title": "13. Travamento de eixos e pinos",
+      "number": "13",
+      "title": "Travamento de eixos e pinos",
       "blocks": []
     },
     {
@@ -7484,8 +7438,8 @@
     },
     {
       "id": "14-fixação-da-roda-de-manobra-ao-pé-da-lança-catarina",
-      "number": "",
-      "title": "14. Fixação da roda de manobra ao pé da lança (“catarina”)",
+      "number": "14",
+      "title": "Fixação da roda de manobra ao pé da lança (“catarina”)",
       "blocks": []
     },
     {
@@ -7496,8 +7450,8 @@
     },
     {
       "id": "15-inspeções-nos-cabos-de-aço",
-      "number": "",
-      "title": "15. Inspeções nos cabos de aço",
+      "number": "15",
+      "title": "Inspeções nos cabos de aço",
       "blocks": []
     },
     {
@@ -7508,8 +7462,8 @@
     },
     {
       "id": "16-indicação-da-capacidade-de-carga",
-      "number": "",
-      "title": "16. Indicação da capacidade de carga",
+      "number": "16",
+      "title": "Indicação da capacidade de carga",
       "blocks": []
     },
     {
@@ -7520,8 +7474,8 @@
     },
     {
       "id": "17-registros",
-      "number": "",
-      "title": "17. Registros",
+      "number": "17",
+      "title": "Registros",
       "blocks": []
     },
     {
@@ -7543,8 +7497,8 @@
     },
     {
       "id": "18-operação-de-arraste",
-      "number": "",
-      "title": "18. Operação de arraste",
+      "number": "18",
+      "title": "Operação de arraste",
       "blocks": []
     },
     {
@@ -7555,8 +7509,8 @@
     },
     {
       "id": "19-montagem-e-realocação",
-      "number": "",
-      "title": "19. Montagem e realocação",
+      "number": "19",
+      "title": "Montagem e realocação",
       "blocks": []
     },
     {
@@ -7566,21 +7520,15 @@
       "blocks": []
     },
     {
-      "id": "anexo-iv-da-nr-22",
+      "id": "anexo-iv-da-nr-22-quadros",
       "number": "ANEXO IV",
-      "title": "da NR-22",
-      "blocks": []
-    },
-    {
-      "id": "quadros",
-      "number": "",
-      "title": "Quadros",
+      "title": "da NR-22 Quadros",
       "blocks": []
     },
     {
       "id": "quadro-i---determinação-da-vazão-de-ar-fresco",
-      "number": "",
-      "title": "Quadro I - Determinação da Vazão de Ar Fresco",
+      "number": "Quadro I",
+      "title": "Determinação da Vazão de Ar Fresco",
       "blocks": [
         {
           "type": "list",
@@ -7645,20 +7593,17 @@
     },
     {
       "id": "quadro-ii---dimensionamento-da-cipamin",
-      "number": "",
-      "title": "Quadro II - Dimensionamento da CIPAMIN",
+      "number": "Quadro II",
+      "title": "Dimensionamento da CIPAMIN",
       "blocks": [
         {
           "type": "table",
           "markdown": "| Nº de empregados no | 15 a | 31 a | 51 a 100 | 101 a | 251 a | 501 a 1.000 | 1.001 a | 2.501 a | Acima de 5.000 para cada grupo de 500 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
-        }
-      ]
-    },
-    {
-      "id": "quadro-iii---número-de-trabalhadores-a-serem-amostrados-em-função-do-número-de-trabalhadores-do",
-      "number": "",
-      "title": "~~QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do~~",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**~~QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do~~**"
+        },
         {
           "type": "paragraph",
           "text": "**~~Grupo de Exposição Similar~~** _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_"
@@ -7682,27 +7627,14 @@
       ]
     },
     {
-      "id": "anexo-v-da-nr-22",
+      "id": "anexo-v-da-nr-22-exposição-a-poeiras-minerais",
       "number": "ANEXO V",
-      "title": "da NR-22",
-      "blocks": []
-    },
-    {
-      "id": "exposição-a-poeiras-minerais",
-      "number": "",
-      "title": "Exposição a Poeiras Minerais",
+      "title": "da NR-22 Exposição a Poeiras Minerais",
       "blocks": [
         {
           "type": "paragraph",
           "text": "_(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_"
-        }
-      ]
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivo"
@@ -7747,8 +7679,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -7759,8 +7691,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de aplicação",
+      "number": "2",
+      "title": "Campo de aplicação",
       "blocks": []
     },
     {
@@ -7771,8 +7703,8 @@
     },
     {
       "id": "3-caracterização-da-exposição",
-      "number": "",
-      "title": "3. Caracterização da exposição",
+      "number": "3",
+      "title": "Caracterização da exposição",
       "blocks": []
     },
     {
@@ -7890,8 +7822,8 @@
     },
     {
       "id": "4-avaliação-das-exposições-ocupacionais-a-poeiras-minerais",
-      "number": "",
-      "title": "4. Avaliação das exposições ocupacionais a poeiras minerais",
+      "number": "4",
+      "title": "Avaliação das exposições ocupacionais a poeiras minerais",
       "blocks": []
     },
     {
@@ -8074,8 +8006,8 @@
     },
     {
       "id": "5-medidas-de-prevenção",
-      "number": "",
-      "title": "5. medidas de prevenção",
+      "number": "5",
+      "title": "medidas de prevenção",
       "blocks": []
     },
     {
@@ -8151,8 +8083,8 @@
     },
     {
       "id": "6-vigilância-da-saúde",
-      "number": "",
-      "title": "6. Vigilância da saúde",
+      "number": "6",
+      "title": "Vigilância da saúde",
       "blocks": []
     },
     {
@@ -8163,8 +8095,8 @@
     },
     {
       "id": "7-documentação",
-      "number": "",
-      "title": "7. Documentação",
+      "number": "7",
+      "title": "Documentação",
       "blocks": []
     },
     {
@@ -8290,8 +8222,8 @@
     },
     {
       "id": "8-avaliação-de-poeiras-de-asbesto-em-ambientes-de-extração-mineral",
-      "number": "",
-      "title": "8. Avaliação de poeiras de asbesto em ambientes de extração mineral",
+      "number": "8",
+      "title": "Avaliação de poeiras de asbesto em ambientes de extração mineral",
       "blocks": []
     },
     {
@@ -8332,15 +8264,8 @@
           "type": "item",
           "number": "8.4.1",
           "depth": 2,
-          "text": "Para as demais poeiras minerais e para fibras respiráveis de asbesto devem ser adotados, para fins de medidas de prevenção, o disposto no item 9.6.1 da NR-9. _(Inserido pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_"
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+          "text": "Para as demais poeiras minerais e para fibras respiráveis de asbesto devem ser adotados, para fins de medidas de prevenção, o disposto no item 9.6.1 da NR-9. _(Inserido pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_ Glossário"
+        },
         {
           "type": "paragraph",
           "text": "**Fibras respiráveis de asbesto** : Fibras com diâmetro inferior a 3 micrômetros, comprimento maior que 5 micrômetros e relação entre comprimento e diâmetro igual ou superior a 3:1. (Fonte: NHO 04 - Fundacentro)"

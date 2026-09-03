@@ -12,11 +12,22 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria MTE n.º 1.690, de 15 de junho de 2022)_ # **33.1. Objetivo** 33.1.1 Esta Norma Regulamentadora tem como objetivo estabelecer os requisitos para a caracterização dos espaços confinados, os critérios para o gerenciamento de riscos ocupacionais em espaços confinados e as medidas de prevenção, de forma a garantir a segurança e a saúde dos trabalhadores que interagem direta ou indiretamente com estes espaços."
+        "text": "_(Redação dada pela Portaria MTE n.º 1.690, de 15 de junho de 2022)_"
       }
     ]
   },
   "sections": [
+    {
+      "id": "331-objetivo",
+      "number": "33.1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "33.1.1 Esta Norma Regulamentadora tem como objetivo estabelecer os requisitos para a caracterização dos espaços confinados, os critérios para o gerenciamento de riscos ocupacionais em espaços confinados e as medidas de prevenção, de forma a garantir a segurança e a saúde dos trabalhadores que interagem direta ou indiretamente com estes espaços."
+        }
+      ]
+    },
     {
       "id": "332-campo-de-aplicação",
       "number": "33.2",
@@ -201,14 +212,13 @@
               "text": "supervisionar as atividades em espaços confinados executadas pelas organizações contratadas, observado o disposto no subitem 1.5.8.1 da NR-01, visando ao atendimento do disposto nesta NR."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3332-compete-ao-responsável-técnico",
-      "number": "",
-      "title": "33.3.2 Compete ao responsável técnico:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "33.3.2",
+          "depth": 2,
+          "text": "Compete ao responsável técnico:"
+        },
         {
           "type": "list",
           "items": [
@@ -262,14 +272,13 @@
               "text": "coordenar a capacitação inicial e periódica dos supervisores de entrada, vigias, trabalhadores autorizados e da equipe de emergência e salvamento."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3333-compete-ao-supervisor-de-entrada",
-      "number": "",
-      "title": "33.3.3 Compete ao supervisor de entrada:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "33.3.3",
+          "depth": 2,
+          "text": "Compete ao supervisor de entrada:"
+        },
         {
           "type": "list",
           "items": [
@@ -341,14 +350,13 @@
               "text": "assegurar que o vigia esteja operante durante a realização dos trabalhos em espaço confinado."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3334-compete-ao-vigia",
-      "number": "",
-      "title": "33.3.4 Compete ao vigia:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "33.3.4",
+          "depth": 2,
+          "text": "Compete ao vigia:"
+        },
         {
           "type": "list",
           "items": [
@@ -1874,14 +1882,8 @@
       ]
     },
     {
-      "id": "anexo-i",
+      "id": "anexo-i-sinalização-obrigatória-para-espaço-confinado",
       "number": "ANEXO I",
-      "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "sinalização-obrigatória-para-espaço-confinado",
-      "number": "",
       "title": "SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO",
       "blocks": [
         {
@@ -1895,14 +1897,8 @@
       ]
     },
     {
-      "id": "anexo-ii",
+      "id": "anexo-ii-modelo-de-pet",
       "number": "ANEXO II",
-      "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "modelo-de-pet",
-      "number": "",
       "title": "MODELO DE PET",
       "blocks": [
         {
@@ -1927,8 +1923,9 @@
           "text": "_ _"
         },
         {
-          "type": "table",
-          "markdown": "| Procedimentos que devem ser completados antes da entrada | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento | | | | | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário | | | | | | |\n| Oxigênio_________________________________________________ % O 2 | | | | | | |\n| Inflamáveis_______________________________________________ % LIE | | | | | | |\n| Gases / vapores tóxicos _____________________________________ ppm | | | | | | |\n| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás)______________________________________________________ppm | | | | | | |\n| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ | | | | | | |\n| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 3. Bloqueios, travamento e etiquetagem | | | | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem | | | | N/A ( ) | S ( ) | N ( ) |\n| 5. Ventilação/exaustão - tipo, equipamento e tempo | | | | N/A ( ) | S ( ) | N ( ) |\n| 6. Teste após ventilação e isolamento: horário ___:___ | | | | | | |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0% 2 | | | | | | |\n| Inflamáveis _______________________________________________ %LIE < 10% | | | | | | |\n| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás) ppm | | | | | | |\n| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ | | | | | | |\n| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 7. Iluminação geral | | | | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação | | | | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate | | | | N/A ( ) | S ( ) | N ( ) |\n| 10. Procedimentos e proteção de movimentação vertical | | | | N/A ( ) | S ( ) | N ( ) |\n| 11. Treinamento de todos os trabalhadores? | S ( ) | N ( ) | Estão válidos? | | S ( ) | N ( ) |\n| 12. Equipamentos: | | | | | | |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho em áreas potencialmente explosivas de leitura direta com alarmes em condições: | | | | | S ( ) | N ( ) |\n| Lanternas | | | | | S ( ) | N ( ) |"
+          "type": "image",
+          "alt": "Tabela da página 13",
+          "src": "../assets/pages/page-013-table-00.png"
         },
         {
           "type": "paragraph",
@@ -1969,14 +1966,11 @@
         {
           "type": "paragraph",
           "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_"
-        }
-      ]
-    },
-    {
-      "id": "capacitação-carga-horária-periodicidade-e-conteúdo-programático",
-      "number": "",
-      "title": "CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**"
+        },
         {
           "type": "paragraph",
           "text": "**1** Carga horária e periodicidade"
@@ -1993,13 +1987,12 @@
       "id": "12-a-carga-horária-da-parte-prática-do-treinamento-inicial-e-periódico-dos-supervisores-de-entrada-vigias-trabalhadores-autorizados-e-equipe-de-emergência-e-salvamento-deve-ser-de-no-mínimo-50-cinquenta-por-cento-da-carga-horária-prevista-no-quadro-1-deste-anexo",
       "number": "1.2",
       "title": "A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo",
-      "blocks": []
-    },
-    {
-      "id": "2-conteúdo-programático",
-      "number": "",
-      "title": "2 Conteúdo programático",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**2 Conteúdo programático**"
+        }
+      ]
     },
     {
       "id": "21-o-conteúdo-programático-do-treinamento-inicial-deve-conter-informações-sobre-_retificado-em-20102022_",
@@ -2122,15 +2115,9 @@
       "blocks": []
     },
     {
-      "id": "23-o-conteúdo-dos-treinamentos-periódicos-e-eventuais-será-definido-pela-organização-e-deve-contemplar-os-princípios-básicos-de-segurança-compatíveis-com-o-tipo-de-espaço-confinado-e-as-atividades-desenvolvidas-no-seu-interior",
+      "id": "23-o-conteúdo-dos-treinamentos-periódicos-e-eventuais-será-definido-pela-organização-e-deve-contemplar-os-princípios-básicos-de-segurança-compatíveis-com-o-tipo-de-espaço-confinado-e-as-atividades-desenvolvidas-no-seu-interior-glossário",
       "number": "2.3",
-      "title": "O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior",
-      "blocks": []
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
+      "title": "O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior. GLOSSÁRIO",
       "blocks": [
         {
           "type": "paragraph",

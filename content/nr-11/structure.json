@@ -268,19 +268,17 @@
         {
           "type": "paragraph",
           "text": "**Criado D.O.U.** Portaria SIT n.º 56, 17 de setembro de 2003 17/09/03 **Alterações/Atualizações D.O.U.** Portaria MTPS n.º 505, de 29 de abril de 2016 02/05/16"
+        },
+        {
+          "type": "paragraph",
+          "text": "**REGULAMENTO TÉCNICO DE PROCEDIMENTOS PARA MOVIMENTAÇÃO, ARMAZENAGEM E MANUSEIO DE CHAPAS DE ROCHAS ORNAMENTAIS**"
         }
       ]
     },
     {
-      "id": "regulamento-técnico-de-procedimentos-para-movimentação-armazenagem-e-manuseio-de-chapas-de-rochas-ornamentais",
-      "number": "",
-      "title": "REGULAMENTO TÉCNICO DE PROCEDIMENTOS PARA MOVIMENTAÇÃO, ARMAZENAGEM E MANUSEIO DE CHAPAS DE ROCHAS ORNAMENTAIS",
-      "blocks": []
-    },
-    {
       "id": "1-princípios-gerais",
-      "number": "",
-      "title": "1. Princípios gerais",
+      "number": "1",
+      "title": "Princípios gerais",
       "blocks": []
     },
     {
@@ -1215,8 +1213,8 @@
     },
     {
       "id": "6-disposições-gerais",
-      "number": "",
-      "title": "6. Disposições gerais",
+      "number": "6",
+      "title": "Disposições gerais",
       "blocks": []
     },
     {
@@ -1238,15 +1236,9 @@
       "blocks": []
     },
     {
-      "id": "64-as-bancadas-de-trabalho-sobre-as-quais-são-depositadas-chapas-inteiras-ou-fracionadas-devem-possuir-resistência-e-estabilidade-para-suportar-as-cargas-manuseadas",
+      "id": "64-as-bancadas-de-trabalho-sobre-as-quais-são-depositadas-chapas-inteiras-ou-fracionadas-devem-possuir-resistência-e-estabilidade-para-suportar-as-cargas-manuseadas-glossário",
       "number": "6.4",
-      "title": "As bancadas de trabalho, sobre as quais são depositadas chapas, inteiras ou fracionadas, devem possuir resistência e estabilidade para suportar as cargas manuseadas",
-      "blocks": []
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
+      "title": "As bancadas de trabalho, sobre as quais são depositadas chapas, inteiras ou fracionadas, devem possuir resistência e estabilidade para suportar as cargas manuseadas. GLOSSÁRIO",
       "blocks": [
         {
           "type": "paragraph",

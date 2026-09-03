@@ -342,14 +342,13 @@
           "number": "32.2.3.5",
           "depth": 3,
           "text": "Em toda ocorrência de acidente envolvendo riscos biológicos, com ou sem afastamento do trabalhador, deve ser emitida a Comunicação de Acidente de Trabalho - CAT."
-        }
-      ]
-    },
-    {
-      "id": "3224-das-medidas-de-proteção",
-      "number": "",
-      "title": "32.2.4 Das Medidas de Proteção",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "32.2.4",
+          "depth": 2,
+          "text": "Das Medidas de Proteção"
+        },
         {
           "type": "item",
           "number": "32.2.4.1",
@@ -1148,14 +1147,13 @@
               "text": "sinalização alusiva a perigo."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3239-dos-medicamentos-e-das-drogas-de-risco",
-      "number": "",
-      "title": "32.3.9 Dos Medicamentos e das Drogas de Risco",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "32.3.9",
+          "depth": 2,
+          "text": "Dos Medicamentos e das Drogas de Risco"
+        },
         {
           "type": "item",
           "number": "32.3.9.1",
@@ -1167,14 +1165,13 @@
           "number": "32.3.9.2",
           "depth": 3,
           "text": "Deve constar no PGR, além do previsto na NR-01, a descrição dos perigos inerentes às atividades de recebimento, armazenamento, preparo, distribuição, administração dos medicamentos e das drogas de risco. _(Alterado pela Portaria MTP nº 806, de 13 de abril de 2022)_"
-        }
-      ]
-    },
-    {
-      "id": "32393-dos-gases-e-vapores-anestésicos",
-      "number": "",
-      "title": "32.3.9.3 Dos Gases e Vapores Anestésicos",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "32.3.9.3",
+          "depth": 3,
+          "text": "Dos Gases e Vapores Anestésicos"
+        },
         {
           "type": "item",
           "number": "32.3.9.3.1",
@@ -3578,8 +3575,9 @@
           "markdown": "| Vírus | | |\n| --- | --- | --- |\n| Herpesvirus de cobaias | 2 | O |\n| Shope fibroma virus | 2 | O |\n| Vírus da Doença hemorrágica de coelhos | 4 | |\n| Vírus da Enterite viral de patos, gansos e cisnes | 4 | |\n| Vírus da Febre catarral maligna de bovinos e cervos | 4 | |\n| Vírus da Hepatite viral do pato tipos 1, 2 e 3 | 4 | |\n| Vírus da Leucemia de Hamsters | 2 | O |\n| Vírus da Leucose Bovina Enzoótica | 2 | O |\n| Vírus da lumpy skin | 4 | |\n| Vírus do Sarcoma Canino | 2 | O |\n| Vírus do Tumor Mamário de camundongos | 2 | O |\n| Vírus Lucke (vírus de rãs) | 2 | O |\n| Adenoviridae | 2 | |\n| Adenovirus 1 aviário - Vírus CELO | 2 | O |\n| Adenovirus 2 - Vírus Símio 40 (Ad2-SV40) | 2 | O+ |\n| Adenovirus 7 - Vírus Símio 40 (Ad7-SV40) | 2 | O |\n| Arenaviridae: | | |\n| * Complexos virais LCM-Lassa (arenavírus do Velho Continente) | | |\n| Vírus Lassa | 4 | |\n| Vírus da coriomeningite linfocítica (cepas neurotrópicas) | 3 | |\n| Vírus da coriomeningite linfocítica (outras cepas) | 2 | |\n| * Complexos virais Tacaribe (arenavírus do Novo Mundo): | | |\n| Vírus Amapari | 2 | |\n| Vírus Flechal | 2 | |\n| Vírus Guanarito | 4 | |\n| Vírus Junin | 4 | |\n| Vírus Latino | 2 | |\n| Vírus Machupo | 4 | |\n| Vírus Paraná | 2 | |\n| Vírus Pichinde | 2 | |\n| Vírus Sabiá | 4 | |\n| Astroviridae | 2 | |\n| Birnavirus: incluindo Picobirnavirus, Picotrinavirus | 2 | |\n| Bunyaviridae: | | |\n| Vírus Belém | 2 | |\n| Vírus Mojuí dos Campos | 2 | |\n| Vírus Pará | 2 | |\n| Vírus Santarém | 2 | |\n| Vírus Turlock | 2 | |\n| * Grupo Anopheles A | | |\n| Vírus Arumateua | 2 | |\n| Vírus Caraipé | 2 | |\n| Vírus Lukuni | 2 | |\n| Vírus Tacaiuma | 2 | |\n| Vírus Trombetas | 2 | |"
         },
         {
-          "type": "table",
-          "markdown": "| | 2 | |\n| --- | --- | --- |\n| * Grupo Bunyamwera | | |\n| Vírus Iaco | 2 | |\n| Vírus Kairi | 2 | |\n| Vírus Macauã | 2 | |\n| Vírus Maguari | 2 | |\n| Vírus Sororoca | 2 | |\n| Vírus Taiassuí | 2 | |\n| Vírus Tucunduba | 2 | |\n| Vírus Xingu | 2 | |\n| * Grupo da encefalite da Califórnia | | |\n| Vírus Inkoo | 2 | |\n| Vírus La Crosse | 2 | |\n| Vírus Lumbo | 2 | |\n| Vírus San Angelo | 2 | |\n| Vírus Snow hare | 2 | |\n| Vírus Tahyna | 2 | |\n| * Grupo Melão | | |\n| Vírus Guaroa | 2 | |\n| Vírus Jamestown Canyon | 2 | |\n| Vírus Keystone | 2 | |\n| Vírus Serra do Navio | 2 | |\n| Vírus South River | 2 | |\n| Vírus Trivittatus | 2 | |\n| * Grupo C | | |\n| Vírus Apeu | 2 | |\n| Vírus Caraparu | 2 | |\n| Vírus Itaqui | 2 | |\n| Vírus Marituba | 2 | |\n| Vírus Murutucu | 2 | |\n| Vírus Nepuyo | 2 | |\n| Vírus Oriboca | 2 | |\n| * Grupo Capim | | |\n| Vírus Acara | 2 | |\n| Vírus Benevides | 2 | |\n| Vírus Benfica | 2 | |\n| Vírus Capim | 2 | |\n| Vírus Guajará | 2 | |\n| Vírus Moriche | 2 | |\n| * Grupo Guamá | | |\n| Vírus Ananindeua | 2 | |\n| Vírus Bimiti | 2 | |\n| Vírus Catú | 2 | |\n| Vírus Guamá | 2 | |\n| Vírus Mirim | 2 | |\n| Vírus Moju | 2 | |\n| Vírus Timboteua | 2 | |"
+          "type": "image",
+          "alt": "Tabela da página 30",
+          "src": "../assets/pages/page-030-table-00.png"
         },
         {
           "type": "table",
@@ -3611,15 +3609,8 @@
         },
         {
           "type": "table",
-          "markdown": "| Blastomyces dermatitidis (Ajellomyces dermatitidis) | 2 | A |\n| --- | --- | --- |\n| Candida albicans | 2 | A |\n| Candida lipolytica | 2 | E |\n| Candida pulcherrima | 2 | E |\n| Candida ravautii | 2 | E |\n| Candida tropicalis | 2 | |\n| Candida viswanathii | 2 | E |\n| Chaetoconidium spp | 2 | E |\n| Chaetomium spp | 2 | E |\n| Chaetosphaeronema larense | 2 | E |\n| Cladophialophora bantiana (Xylophora bantiana, Cladosporium bantianum ou C. trichoides) | 2 | |\n| Cladophialophora carrioni (Cladosporium carrioni) | 2 | |\n| Cladosporium cladosporioides | 2 | E |\n| Coccidioides immitis | 3 | A |\n| Conidiobolus incongruus | 2 | E |\n| Coprinus cinereus | 2 | E |\n| Cryptococcus neoformans | 2 | |\n| Cryptococcus neoformans var. gattii (Filobasidiella bacillispora) | 2 | A |\n| Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans) | 2 | A |\n| Cunninghamella geniculata | 2 | E |\n| Curvularia pallescens | 2 | E |\n| Curvularia senegalensis | 2 | E |\n| Cylindrocarpon tonkinense | 2 | E |\n| Drechslera spp | 2 | E |\n| Emmonsia parva var. crescens | 2 | |\n| Emmonsia parva var. parva | 2 | |\n| Epidermophyton floccosum | 2 | A |\n| Epidermophyton spp | 2 | |\n| Exophiala (Wangiella) dermatitidis | 2 | |\n| Exophiala moniliae | 2 | E |\n| Fonsecaea compacta | 2 | |\n| Fonsecaea pedrosoi | 2 | |\n| Fusarium dimerum | 2 | E |\n| Fusarium nivale | 2 | E |\n| Geotrichum candidum | 2 | E |\n| Hansenula polymorpha | 2 | E |\n| Histoplasma capsulatum duboisii | 3 | |\n| Histoplasma capsulatum var capsulatum (Ajellomyces capsulatus) | 3 | |\n| Lasiodiplodia theobramae | 2 | E |\n| Madurella grisea | 2 | |\n| Madurella mycetomatis | 2 | |\n| Madurella spp | 2 | |\n| Microascus desmosporus | 2 | E |\n| Microsporum aldouinii | 2 | A |"
-        }
-      ]
-    },
-    {
-      "id": "fontes",
-      "number": "",
-      "title": "Fontes:",
-      "blocks": [
+          "markdown": "| Blastomyces dermatitidis (Ajellomyces dermatitidis) | 2 | A |\n| --- | --- | --- |\n| Candida albicans | 2 | A |\n| Candida lipolytica | 2 | E |\n| Candida pulcherrima | 2 | E |\n| Candida ravautii | 2 | E |\n| Candida tropicalis | 2 | |\n| Candida viswanathii | 2 | E |\n| Chaetoconidium spp | 2 | E |\n| Chaetomium spp | 2 | E |\n| Chaetosphaeronema larense | 2 | E |\n| Cladophialophora bantiana (Xylophora bantiana, Cladosporium bantianum ou C. trichoides) | 2 | |\n| Cladophialophora carrioni (Cladosporium carrioni) | 2 | |\n| Cladosporium cladosporioides | 2 | E |\n| Coccidioides immitis | 3 | A |\n| Conidiobolus incongruus | 2 | E |\n| Coprinus cinereus | 2 | E |\n| Cryptococcus neoformans | 2 | |\n| Cryptococcus neoformans var. gattii (Filobasidiella bacillispora) | 2 | A |\n| Cryptococcus neoformans var. neoformans (Filobasidiella neoformans var. neoformans) | 2 | A |\n| Cunninghamella geniculata | 2 | E |\n| Curvularia pallescens | 2 | E |\n| Curvularia senegalensis | 2 | E |\n| Cylindrocarpon tonkinense | 2 | E |\n| Drechslera spp | 2 | E |\n| Emmonsia parva var. crescens | 2 | |\n| Emmonsia parva var. parva | 2 | |\n| Epidermophyton floccosum | 2 | A |\n| Epidermophyton spp | 2 | |\n| Exophiala (Wangiella) dermatitidis | 2 | |\n| Exophiala moniliae | 2 | E |\n| Fonsecaea compacta | 2 | |\n| Fonsecaea pedrosoi | 2 | |\n| Fusarium dimerum | 2 | E |\n| Fusarium nivale | 2 | E |\n| Geotrichum candidum | 2 | E |\n| Hansenula polymorpha | 2 | E |\n| Histoplasma capsulatum duboisii | 3 | |\n| Histoplasma capsulatum var capsulatum (Ajellomyces capsulatus) | 3 | |\n| Lasiodiplodia theobramae | 2 | E |\n| Madurella grisea | 2 | |\n| Madurella mycetomatis | 2 | |\n| Madurella spp | 2 | |\n| Microascus desmosporus | 2 | E |\n| Microsporum aldouinii | 2 | A | Fontes: |"
+        },
         {
           "type": "paragraph",
           "text": "1. Brasil (2004) **Diretrizes Gerais para o trabalho em contenção com material biológico. Série A: Normas e Manuais Técnicos.** Ministério da Saúde, Secretaria de Ciência, Tecnologia e"
@@ -3670,13 +3661,11 @@
       "id": "anexo-iii",
       "number": "ANEXO III",
       "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "plano-de-prevenção-de-riscos-de-acidentes-com-materiais-perfurocortantes",
-      "number": "",
-      "title": "PLANO DE PREVENÇÃO DE RISCOS DE ACIDENTES COM MATERIAIS PERFUROCORTANTES",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**PLANO DE PREVENÇÃO DE RISCOS DE ACIDENTES COM MATERIAIS PERFUROCORTANTES**"
+        },
         {
           "type": "paragraph",
           "text": "_(Aprovado pela Portaria MTE n.º 1.748, de 30 de agosto de 2011)_"
@@ -3685,8 +3674,8 @@
     },
     {
       "id": "1-objetivo-e-campo-de-aplicação",
-      "number": "",
-      "title": "1. Objetivo e Campo de Aplicação:",
+      "number": "1",
+      "title": "Objetivo e Campo de Aplicação:",
       "blocks": []
     },
     {
@@ -4041,15 +4030,9 @@
       ]
     },
     {
-      "id": "101-o-plano-deve-ser-avaliado-a-cada-ano-no-mínimo-e-sempre-que-se-produza-uma-mudança-nas-condições-de-trabalho-e-quando-a-análise-das-situações-de-risco-e-dos-acidentes-assim-o-determinar",
+      "id": "101-o-plano-deve-ser-avaliado-a-cada-ano-no-mínimo-e-sempre-que-se-produza-uma-mudança-nas-condições-de-trabalho-e-quando-a-análise-das-situações-de-risco-e-dos-acidentes-assim-o-determinar-glossário-da-nr-32",
       "number": "10.1",
-      "title": "O plano deve ser avaliado a cada ano, no mínimo, e sempre que se produza uma mudança nas condições de trabalho e quando a análise das situações de risco e dos acidentes assim o determinar",
-      "blocks": []
-    },
-    {
-      "id": "glossário-da-nr-32",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO DA NR-32",
+      "title": "O plano deve ser avaliado a cada ano, no mínimo, e sempre que se produza uma mudança nas condições de trabalho e quando a análise das situações de risco e dos acidentes assim o determinar. GLOSSÁRIO DA NR-32",
       "blocks": [
         {
           "type": "paragraph",

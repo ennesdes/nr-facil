@@ -117,14 +117,13 @@
           "number": "7.3.1",
           "depth": 2,
           "text": "O PCMSO é parte integrante do conjunto mais amplo de iniciativas da organização no campo da saúde de seus empregados, devendo estar harmonizado com o disposto nas demais NR."
-        }
-      ]
-    },
-    {
-      "id": "732-são-diretrizes-do-pcmso",
-      "number": "",
-      "title": "7.3.2 São diretrizes do PCMSO:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "7.3.2",
+          "depth": 2,
+          "text": "São diretrizes do PCMSO:"
+        },
         {
           "type": "list",
           "items": [
@@ -917,13 +916,11 @@
       "id": "anexo-i",
       "number": "ANEXO I",
       "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "monitoração-da-exposição-ocupacional-a-agentes-químicos",
-      "number": "",
-      "title": "MONITORAÇÃO DA EXPOSIÇÃO OCUPACIONAL A AGENTES QUÍMICOS",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**MONITORAÇÃO DA EXPOSIÇÃO OCUPACIONAL A AGENTES QUÍMICOS**"
+        },
         {
           "type": "paragraph",
           "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
@@ -932,8 +929,8 @@
     },
     {
       "id": "quadro-1---indicadores-biológicos-de-exposição-excessiva-ibeee",
-      "number": "",
-      "title": "QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)*",
+      "number": "QUADRO 1",
+      "title": "Indicadores Biológicos de Exposição Excessiva (IBE/EE)*",
       "blocks": [
         {
           "type": "table",
@@ -959,8 +956,8 @@
     },
     {
       "id": "quadro-2---indicadores-biológicos-de-exposição-com-significado-clínico-ibesc",
-      "number": "",
-      "title": "QUADRO 2 - Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)*",
+      "number": "QUADRO 2",
+      "title": "Indicadores Biológicos de Exposição com Significado Clínico (IBE/SC)*",
       "blocks": [
         {
           "type": "paragraph",
@@ -984,15 +981,8 @@
         },
         {
           "type": "paragraph",
-          "text": "(M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb-S) a partir de 30 µg/100ml, devem ser afastadas da exposição ao agente."
-        }
-      ]
-    },
-    {
-      "id": "abreviaturas",
-      "number": "",
-      "title": "Abreviaturas",
-      "blocks": [
+          "text": "(M) Mulheres em idade fértil, com valores de Chumbo no sangue (Pb-S) a partir de 30 µg/100ml, devem ser afastadas da exposição ao agente. Abreviaturas"
+        },
         {
           "type": "paragraph",
           "text": "IBE/EE - Indicadores Biológicos de Exposição Excessiva"
@@ -1062,8 +1052,9 @@
           "text": "ppm - Partes por milhão” (NR)"
         },
         {
-          "type": "table",
-          "markdown": "| | | | | (#) | |\n| --- | --- | --- | --- | --- | --- |\n| | | Atividade da butilcolinesterase no plasma ou soro | FJ | 60% da ativid ade basal (#) | NE |\n| Flúor, ácido fluorídrico e fluoretos inorgânicos | | Fluoreto urinário | AJ48 | 2 mg/L | EPNE |"
+          "type": "image",
+          "alt": "Tabela da página 13",
+          "src": "../assets/pages/page-013-table-00.png"
         }
       ]
     },
@@ -1071,13 +1062,11 @@
       "id": "anexo-ii",
       "number": "ANEXO II",
       "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "controle-médico-ocupacional-da-exposição-a-níveis-de-pressão-sonora-elevados",
-      "number": "",
-      "title": "CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de empregados expostos a níveis de pressão sonora elevados."
@@ -1695,26 +1684,11 @@
               "text": "disponibilizar cópias dos exames audiométricos aos empregados."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "modelo-de-formulário-para-registro-de-traçado-audiométrico",
-      "number": "",
-      "title": "MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO",
-      "blocks": []
-    },
-    {
-      "id": "orelha-direita-frequência-em-khz",
-      "number": "",
-      "title": "ORELHA DIREITA Frequência em kHz",
-      "blocks": []
-    },
-    {
-      "id": "orelha-esquerda-frequência-em-khz",
-      "number": "",
-      "title": "ORELHA ESQUERDA Frequência em kHz",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO** ORELHA DIREITA Frequência em kHz ORELHA ESQUERDA Frequência em kHz"
+        },
         {
           "type": "image",
           "alt": "Página 18 — imagem 0",
@@ -1765,13 +1739,11 @@
       "id": "anexo-iii",
       "number": "ANEXO III",
       "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "controle-radiológico-e-espirométrico-da-exposição-a-agentes-químicos",
-      "number": "",
-      "title": "CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros mínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
@@ -2221,8 +2193,8 @@
     },
     {
       "id": "quadro-1---periodicidade-dos-exames-radiológicos-para-empregados-expostos-poeira-contendo-sílica-asbesto-ou-carvão-mineral",
-      "number": "",
-      "title": "QUADRO 1 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL",
+      "number": "QUADRO 1",
+      "title": "PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS POEIRA CONTENDO SÍLICA, ASBESTO OU CARVÃO MINERAL",
       "blocks": [
         {
           "type": "paragraph",
@@ -2248,8 +2220,8 @@
     },
     {
       "id": "quadro-2---periodicidade-dos-exames-radiológicos-para-empregados-expostos-a-poeiras-contendo-partículas-insolúveis-ou-pouco-solúveis-de-baixa-toxicidade-e-não-classificadas-de-outra-forma",
-      "number": "",
-      "title": "QUADRO 2 - PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E NÃO CLASSIFICADAS DE OUTRA FORMA ***",
+      "number": "QUADRO 2",
+      "title": "PERIODICIDADE DOS EXAMES RADIOLÓGICOS PARA EMPREGADOS EXPOSTOS A POEIRAS CONTENDO PARTÍCULAS INSOLÚVEIS OU POUCO SOLÚVEIS DE BAIXA TOXICIDADE E NÃO CLASSIFICADAS DE OUTRA FORMA ***",
       "blocks": [
         {
           "type": "paragraph",
@@ -2298,8 +2270,8 @@
     },
     {
       "id": "3-espirometrias-ocupacionais",
-      "number": "",
-      "title": "3. ESPIROMETRIAS OCUPACIONAIS",
+      "number": "3",
+      "title": "ESPIROMETRIAS OCUPACIONAIS",
       "blocks": []
     },
     {
@@ -2377,13 +2349,11 @@
       "id": "anexo-iv",
       "number": "ANEXO IV",
       "title": "ANEXO IV",
-      "blocks": []
-    },
-    {
-      "id": "controle-médico-ocupacional-de-exposição-a-condições-hiperbáricas",
-      "number": "",
-      "title": "CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
@@ -2680,8 +2650,8 @@
     },
     {
       "id": "2-guias-internos-de-câmaras-hiperbáricas-multiplace",
-      "number": "",
-      "title": "2. GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE",
+      "number": "2",
+      "title": "GUIAS INTERNOS DE CÂMARAS HIPERBÁRICAS MULTIPLACE",
       "blocks": []
     },
     {
@@ -2704,8 +2674,8 @@
     },
     {
       "id": "3-mergulhadores-profissionais",
-      "number": "",
-      "title": "3. MERGULHADORES PROFISSIONAIS",
+      "number": "3",
+      "title": "MERGULHADORES PROFISSIONAIS",
       "blocks": []
     },
     {
@@ -2942,13 +2912,11 @@
       "id": "315-o-tratamento-recompressivo-deve-ser-conduzido-sob-supervisão-do-médico-qualificado",
       "number": "3.15",
       "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado",
-      "blocks": []
-    },
-    {
-      "id": "tabelas-de-descompressão-para-o-trabalho-na-indústria-da-construção",
-      "number": "",
-      "title": "TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**TABELAS DE DESCOMPRESSÃO PARA O TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO**"
+        },
         {
           "type": "paragraph",
           "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
@@ -2966,49 +2934,50 @@
           "text": "TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA"
         },
         {
+          "type": "image",
+          "alt": "Tabela da página 30",
+          "src": "../assets/pages/page-030-table-00.png"
+        },
+        {
           "type": "table",
           "markdown": "| TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA | | | |\n| --- | --- | --- | --- |\n| PERÍODO DE TRABALHO (HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO (**) | |\n| | 1,3 ATA | | |\n| 0 a 6:00 | 4 min | 4min | Linha 1 |\n| 6:00 a 8:00 | 14min | 14min | Linha 2 |\n| + de 8:00 (**) | 30min | 30min | Linha 3 |"
         },
         {
-          "type": "table",
-          "markdown": "| TABELA 2 - PRESSÃO DE TRABALHO DE 2,0 A 2,9 ATA | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 2.1 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA | | | | | | | | | | | |\n| PRESSÃO DE TRABALHO *** (ATA) | ESTÁGIO DE DESCOMPRESSÃO (ATA)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) | |\n| | 2,8 | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 | | |\n| 2,0 a 2,2 | | | | | | | | | | - | Linha 4 |\n| 2,2 a 2,4 | | | | | | | | | | - | Linha 5 |\n| 2,4 a 2,6 | | | | | | | | | 5 | 5 | Linha 6 |\n| 2,6 a 2,8 | | | | | | | | | 10 | 10 | Linha 7 |\n| 2,8 a 2,9 | | | | | | | | 5 | 15 | 20 | Linha 8 |\n| TABELA 2.2 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | | - | Linha 9 |\n| 2,2 a 2,4 | | | | | | | | | 5 | 5 | Linha 10 |\n| 2,4 a 2,6 | | | | | | | | | 10 | 10 | Linha 11 |\n| 2,6 a 2,8 | | | | | | | | 5 | 15 | 20 | Linha 12 |\n| 2,8 a 2,9 | | | | | | | | 5 | 20 | 35 | Linha 13 |\n| TABELA 2.3 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | 5 | 5 | Linha 14 |\n| 2,2 a 2,4 | | | | | | | | | 10 | 10 | Linha 15 |"
+          "type": "image",
+          "alt": "Tabela da página 31",
+          "src": "../assets/pages/page-031-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| 2,4 a 2,6 | | | | | | | | 5 | 20 | 25 | Linha 16 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,6 a 2,8 | | | | | | | | 10 | 30 | 40 | Linha 17 |\n| 2,8 a 2,9 | | | | | | | 5 | 15 | 35 | 55 | Linha 18 |\n| TABELA 2.4 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | 5 | 5 | Linha 19 |\n| 2,2 a 2,4 | | | | | | | | | 20 | 20 | Linha 20 |\n| 2,4 a 2,6 | | | | | | | | 5 | 30 | 35 | Linha 21 |\n| 2,6 a 2,8 | | | | | | | | 15 | 40 | 55 | Linha 22 |\n| 2,8 a 2,9 | | | | | | | 5 | 25 | 40 | 70 | Linha 23 |\n| TABELA 2.5 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | 10 | 10 | Linha 24 |\n| 2,2 a 2,4 | | | | | | | | 5 | 20 | 25 | Linha 25 |\n| 2,4 a 2,6 | | | | | | | | 10 | 35 | 45 | Linha 26 |\n| 2,6 a 2,8 | | | | | | | 5 | 20 | 40 | 65 | Linha 27 |\n| 2,8 a 2,9 | | | | | | | 10 | 30 | 40 | 80 | Linha 28 |\n| TABELA 2.6 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | 15 | 15 | Linha 29 |\n| 2,2 a 2,4 | | | | | | | | 5 | 30 | 35 | Linha 30 |\n| 2,4 a 2,6 | | | | | | | | 15 | 40 | 55 | Linha 31 |"
-        }
-      ]
-    },
-    {
-      "id": "tabela-3---pressão-de-trabalho-de-30-a-44-ata",
-      "number": "",
-      "title": "TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA",
-      "blocks": []
-    },
-    {
-      "id": "tabela-31---período-de-trabalho-de-0-a-30-minutos",
-      "number": "",
-      "title": "TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS",
-      "blocks": [
+          "type": "paragraph",
+          "text": "TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA"
+        },
+        {
+          "type": "paragraph",
+          "text": "TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS"
+        },
         {
           "type": "paragraph",
           "text": "TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA"
         },
         {
-          "type": "table",
-          "markdown": "| 2,6 a 2,8 | | | | | | | 5 | 25 | 45 | 75 | Linha 32 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2,8 a 2,9 | | | | | | 5 | 15 | 30 | 45 | 95 | Linha 33 |\n| TABELA 2.7 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS | | | | | | | | | | | |\n| 2,0 a 2,2 | | | | | | | | | 20 | 20 | Linha 34 |\n| 2,2 a 2,4 | | | | | | | | 5 | 35 | 40 | Linha 35 |\n| 2,4 a 2,6 | | | | | | | 5 | 20 | 40 | 65 | Linha 36 |\n| 2,6 a 2,8 | | | | | | | 10 | 30 | 45 | 85 | Linha 37 |\n| 2,8 a 2,9 | | | | | | 5 | 20 | 35 | 45 | 105 | Linha 38 |"
+          "type": "image",
+          "alt": "Tabela da página 32",
+          "src": "../assets/pages/page-032-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| TABELA 3 - PRESSÃO DE TRABALHO DE 3,0 A 4,4 ATA | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 3.1 - PERÍODO DE TRABALHO DE 0 A 30 MINUTOS | | | | | | | | | | |\n| PRESSÃO DE TRABALHO *** (ATA) | ESTÁGIO DE DESCOMPRESSÃO (ATA)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) | |\n| | 2,6 | 2,4 | 2,2 | 2,0 | 1,8 | 1,6 | 1,4 | 1,2 | | |\n| 3,0 a 3,2 | | | | | | | | 5 | 5 | Linha 39 |\n| 3,2 a 3,4 | | | | | | | | 5 | 5 | Linha 40 |\n| 3,4 a 3,6 | | | | | | | | 5 | 5 | Linha 41 |\n| 3,6 a 3,8 | | | | | | | | 5 | 5 | Linha 42 |\n| 3,8 a 4,0 | | | | | | | 5 | 5 | 10 | Linha 43 |\n| 4,0 a 4,2 | | | | | | | 5 | 5 | 10 | Linha 44 |\n| 4,2 a 4,4 | | | | | | | 5 | 10 | 15 | Linha 45 |\n| TABELA 3.2 - PERÍODO DE TRABALHO DE 30 MINUTOS A 1 HORA | | | | | | | | | | |"
+          "type": "image",
+          "alt": "Tabela da página 32",
+          "src": "../assets/pages/page-032-table-01.png"
         },
         {
-          "type": "table",
-          "markdown": "| 3,0 a 3,2 | | | | | | | 5 | 15 | 20 | Linha 46 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,2 a 3,4 | | | | | | | 5 | 20 | 25 | Linha 47 |\n| 3,4 a 3,6 | | | | | | | 10 | 25 | 35 | Linha 48 |\n| 3,6 a 3,8 | | | | | | 5 | 10 | 35 | 50 | Linha 49 |\n| 3,8 a 4,0 | | | | | | 5 | 15 | 40 | 60 | Linha 50 |\n| 4,0 a 4,2 | | | | | 5 | 5 | 20 | 40 | 70 | Linha 51 |\n| 4,2 a 4,4 | | | | | 5 | 10 | 25 | 40 | 80 | Linha 52 |\n| TABELA 3.3 - PERÍODO DE TRABALHO DE 1 HORA A 1 HORA E 30 MINUTOS | | | | | | | | | | |\n| 3,0 a 3,2 | | | | | | 5 | 10 | 35 | 50 | Linha 53 |\n| 3,2 a 3,4 | | | | | | 5 | 20 | 35 | 60 | Linha 54 |\n| 3,4 a 3,6 | | | | | | 10 | 25 | 40 | 75 | Linha 55 |\n| 3,6 a 3,8 | | | | | 5 | 10 | 30 | 45 | 90 | Linha 56 |\n| 3,8 a 4,0 | | | | | 5 | 20 | 35 | 45 | 105 | Linha 57 |\n| 4,0 a 4,2 | | | | 5 | 10 | 20 | 35 | 45 | 115 | Linha 58 |\n| 4,2 a 4,4 | | | | 5 | 15 | 25 | 35 | 45 | 125 | Linha 59 |\n| TABELA 3.4 - PERÍODO DE TRABALHO DE 1 HORA E 30 MINUTOS A 2 HORAS | | | | | | | | | | |\n| 3,0 a 3,2 | | | | | | 5 | 25 | 40 | 70 | Linha 60 |\n| 3,2 a 3,4 | | | | | 5 | 10 | 30 | 40 | 85 | Linha 61 |\n| 3,4 a 3,6 | | | | | 5 | 20 | 35 | 40 | 100 | Linha 62 |"
+          "type": "image",
+          "alt": "Tabela da página 33",
+          "src": "../assets/pages/page-033-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| 3,6 a 3,8 | | | | 5 | 10 | 25 | 35 | 40 | 115 | Linha 63 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 3,8 a 4,0 | | | | 5 | 15 | 30 | 35 | 45 | 130 | Linha 64 |\n| 4,0 a 4,2 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha 66 |\n| 4,2 a 4,4 | | | 5 | 15 | 25 | 30 | 35 | 45 | 155 | Linha 67 |\n| TABELA 3.5 - PERÍODO DE TRABALHO DE 2 HORAS A 2 HORAS E 30 MINUTOS | | | | | | | | | | |\n| 3,0 a 3,2 | | | | | 5 | 10 | 30 | 45 | 90 | Linha 68 |\n| 3,2 a 3,4 | | | | | 5 | 20 | 35 | 45 | 105 | Linha 69 |\n| 3,4 a 3,6 | | | | 5 | 10 | 25 | 35 | 45 | 120 | Linha 70 |\n| 3,6 a 3,8 | | | | 5 | 20 | 30 | 35 | 45 | 135 | Linha 71 |\n| 3,8 a 4,0 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha 72 |\n| 4,0 a 4,2 | | 5 | 5 | 15 | 25 | 30 | 35 | 45 | 160 | Linha 73 |\n| 4,2 a 4,4 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha 74 |\n| TABELA 3.6 - PERÍODO DE TRABALHO DE 2 HORAS E 30 MINUTOS A 3 HORAS | | | | | | | | | | |\n| 3,0 a 3,2 | | | | | 5 | 15 | 35 | 40 | 95 | Linha 75 |\n| 3,2 a 3,4 | | | | | 10 | 25 | 35 | 45 | 115 | Linha 76 |\n| 3,4 a 3,6 | | | | 5 | 15 | 30 | 35 | 45 | 130 | Linha 77 |\n| 3,6 a 3,8 | | | 5 | 10 | 20 | 30 | 35 | 45 | 145 | Linha 78 |\n| 3,8 a 4,0 | | | 5 | 20 | 25 | 30 | 35 | 45 | 160 | Linha 79 |\n| 4,0 a 4,2 | | 5 | 10 | 20 | 25 | 30 | 40 | 45 | 175 | Linha 80 |"
+          "type": "image",
+          "alt": "Tabela da página 34",
+          "src": "../assets/pages/page-034-table-00.png"
         },
         {
           "type": "paragraph",
@@ -3035,21 +3004,20 @@
           "text": "**ANEXO V**"
         },
         {
-          "type": "table",
-          "markdown": "| 4,2 a 4,4 | 5 | 5 | 15 | 25 | 25 | 30 | | 40 | 45 | 190 | Linha 81 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TABELA 3.7 - PERÍODO DE TRABALHO DE 3 HORAS A 4 HORAS | | | | | | | | | | | |\n| 3,0 a 3,2 | | | | | 10 | | 20 | 35 | 45 | 110 | Linha 82 |\n| 3,2 a 3,4 | | | | 5 | 15 | | 25 | 40 | 45 | 130 | Linha 83 |\n| 3,4 a 3,6 | | | 5 | 5 | 25 | | 30 | 40 | 45 | 150 | Linha 84 |\n| 3,6 a 3,8 | | | 5 | 15 | 25 | | 30 | 40 | 45 | 160 | Linha 85 |\n| 3,8 a 4,0 | | 5 | 10 | 20 | 25 | | 30 | 40 | 45 | 175 | Linha 86 |\n| 4,0 a 4,2 | 5 | 5 | 15 | 25 | 25 | | 30 | 40 | 45 | 190 | Linha 87 |\n| 4,2 a 4,4 | 5 | 15 | 20 | 25 | 30 | | 30 | 40 | 45 | 210 | Linha 88 |\n| TABELA 3.8 - PERÍODO DE TRABALHO DE 4 HORAS A 6 HORAS | | | | | | | | | | | |\n| 3,0 a 3,2 | | | | 5 | 10 | | 25 | 40 | 50 | 130 | Linha 89 |\n| 3,2 a 3,4 | | | | 10 | 20 | | 30 | 40 | 55 | 155 | Linha 90 |\n| 3,4 a 3,6 | | | 5 | 15 | 25 | | 30 | 45 | 60 | 180 | Linha 91 |\n| 3,6 a 3,8 | | 5 | 10 | 20 | 25 | | 30 | 45 | 70 | 205 | Linha 92 |\n| 3,8 a 4,0 | | 10 | 15 | 20 | 30 | | 40 | 50 | 80 | 245 **** | Linha 93 |"
+          "type": "image",
+          "alt": "Tabela da página 35",
+          "src": "../assets/pages/page-035-table-00.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E A RADIAÇÕES IONIZANTES**"
         }
       ]
     },
     {
-      "id": "controle-médico-ocupacional-da-exposição-a-substâncias-químicas-cancerígenas-e-a-radiações-ionizantes",
-      "number": "",
-      "title": "CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS E A RADIAÇÕES IONIZANTES",
-      "blocks": []
-    },
-    {
       "id": "1-objetivos",
-      "number": "",
-      "title": "1. OBJETIVOS",
+      "number": "1",
+      "title": "OBJETIVOS",
       "blocks": []
     },
     {
@@ -3060,8 +3028,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. CAMPO DE APLICAÇÃO",
+      "number": "2",
+      "title": "CAMPO DE APLICAÇÃO",
       "blocks": []
     },
     {
@@ -3072,8 +3040,8 @@
     },
     {
       "id": "3-diretrizes",
-      "number": "",
-      "title": "3. DIRETRIZES",
+      "number": "3",
+      "title": "DIRETRIZES",
       "blocks": []
     },
     {
@@ -3091,8 +3059,8 @@
     },
     {
       "id": "4-substâncias-químicas-cancerígenas",
-      "number": "",
-      "title": "4. SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS",
+      "number": "4",
+      "title": "SUBSTÂNCIAS QUÍMICAS CANCERÍGENAS",
       "blocks": []
     },
     {
@@ -3127,8 +3095,8 @@
     },
     {
       "id": "5-radiações-ionizantes",
-      "number": "",
-      "title": "5. RADIAÇÕES IONIZANTES",
+      "number": "5",
+      "title": "RADIAÇÕES IONIZANTES",
       "blocks": []
     },
     {
@@ -3157,15 +3125,9 @@
       "blocks": []
     },
     {
-      "id": "54-os-prontuários-médicos-dos-empregados-expostos-a-radiações-ionizantes-devem-ser-mantidos-até-a-data-em-que-o-empregado-completará-75-anos-e-pelo-menos-por-período-mínimo-de-30-trinta-anos-após-o-desligamento-do-empregado",
+      "id": "54-os-prontuários-médicos-dos-empregados-expostos-a-radiações-ionizantes-devem-ser-mantidos-até-a-data-em-que-o-empregado-completará-75-anos-e-pelo-menos-por-período-mínimo-de-30-trinta-anos-após-o-desligamento-do-empregado-glossário",
       "number": "5.4",
-      "title": "Os prontuários médicos dos empregados expostos a radiações ionizantes devem ser mantidos até a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30 (trinta) anos após o desligamento do empregado",
-      "blocks": []
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
+      "title": "Os prontuários médicos dos empregados expostos a radiações ionizantes devem ser mantidos até a data em que o empregado completará 75 anos e, pelo menos, por período mínimo de 30 (trinta) anos após o desligamento do empregado. GLOSSÁRIO",
       "blocks": [
         {
           "type": "paragraph",

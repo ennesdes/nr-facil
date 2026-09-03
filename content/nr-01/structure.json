@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria SEPRT n.º 6.730, de 09/03/20)_ # **SUMÁRIO** - 1.1 Objetivo - 1.2 Campo de aplicação - 1.3 Competências e estrutura - 1.4 Direitos e deveres - 1.5 Gerenciamento de riscos ocupacionais - 1.6 Da prestação de informação digital e digitalização de documentos 1.7 Capacitação e treinamento em Segurança e Saúde no Trabalho 1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP 1.9 Disposições finais Anexo I - Termos e definições Anexo II - Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial."
+        "text": "_(Redação dada pela Portaria SEPRT n.º 6.730, de 09/03/20)_ # **SUMÁRIO** - 1.1 Objetivo - 1.2 Campo de aplicação - 1.3 Competências e estrutura - 1.4 Direitos e deveres - 1.5 Gerenciamento de riscos ocupacionais - 1.6 Da prestação de informação digital e digitalização de documentos 1.7 Capacitação e treinamento em Segurança e Saúde no Trabalho 1.8 Tratamento diferenciado ao Microempreendedor Individual - MEI, à Microempresa - ME e à Empresa de Pequeno Porte - EPP 1.9 Disposições finais Anexo I - Termos e definições Anexo II - Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial. # **Sumário** :"
       }
     ]
   },
@@ -293,14 +293,13 @@
               "text": "realização, no mínimo a cada 12 (doze) meses, de ações de capacitação, de orientação e de sensibilização dos empregados e das empregadas de todos os níveis hierárquicos da empresa sobre temas relacionados à violência, ao assédio, à igualdade e à diversidade no âmbito do trabalho, em formatos acessíveis, apropriados e que apresentem máxima efetividade de tais ações. _(incluída pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "142-cabe-ao-trabalhador",
-      "number": "",
-      "title": "1.4.2 Cabe ao trabalhador:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "1.4.2",
+          "depth": 2,
+          "text": "Cabe ao trabalhador:"
+        },
         {
           "type": "list",
           "items": [
@@ -1850,15 +1849,9 @@
       ]
     },
     {
-      "id": "anexo-i-da-nr-01",
+      "id": "anexo-i-da-nr-01-termos-e-definições",
       "number": "ANEXO I",
-      "title": "da NR-01",
-      "blocks": []
-    },
-    {
-      "id": "termos-e-definições",
-      "number": "",
-      "title": "Termos e definições",
+      "title": "da NR-01 Termos e definições",
       "blocks": [
         {
           "type": "paragraph",
@@ -1943,14 +1936,11 @@
         {
           "type": "paragraph",
           "text": "Ordem de serviço de segurança e saúde no trabalho: instruções por escrito quanto às precauções para evitar acidentes do trabalho ou doenças ocupacionais. A ordem de serviço pode estar 16"
-        }
-      ]
-    },
-    {
-      "id": "contemplada-em-procedimentos-de-trabalho-e-outras-instruções-de-sst",
-      "number": "",
-      "title": "contemplada em procedimentos de trabalho e outras instruções de SST.",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "contemplada em procedimentos de trabalho e outras instruções de SST."
+        },
         {
           "type": "paragraph",
           "text": "Organização: pessoa ou grupo de pessoas com suas próprias funções com responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não é limitado a empregador, a tomador de serviços, a empresa, a empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou instituição, ou parte ou combinação desses, seja incorporada ou não, pública ou privada."
@@ -2009,19 +1999,11 @@
       "id": "anexo-ii-da-nr-01-17",
       "number": "ANEXO II",
       "title": "da NR-01 17",
-      "blocks": []
-    },
-    {
-      "id": "diretrizes-e-requisitos-mínimos-para-utilização-da-modalidade-de-ensino-a-distância-e-semipresencial",
-      "number": "",
-      "title": "Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial.",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "Sumário :",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Diretrizes e requisitos mínimos para utilização da modalidade de ensino a distância e semipresencial.**"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivo"
@@ -2050,8 +2032,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -2062,8 +2044,8 @@
     },
     {
       "id": "2-disposições-gerais",
-      "number": "",
-      "title": "2. Disposições gerais",
+      "number": "2",
+      "title": "Disposições gerais",
       "blocks": []
     },
     {
@@ -2105,8 +2087,8 @@
     },
     {
       "id": "3-estruturação-pedagógica",
-      "number": "",
-      "title": "3. Estruturação pedagógica",
+      "number": "3",
+      "title": "Estruturação pedagógica",
       "blocks": []
     },
     {
@@ -2259,8 +2241,8 @@
     },
     {
       "id": "4-requisitos-operacionais-e-administrativos",
-      "number": "",
-      "title": "4. Requisitos operacionais e administrativos",
+      "number": "4",
+      "title": "Requisitos operacionais e administrativos",
       "blocks": []
     },
     {
@@ -2344,8 +2326,8 @@
     },
     {
       "id": "5-requisitos-tecnológicos",
-      "number": "",
-      "title": "5. Requisitos tecnológicos",
+      "number": "5",
+      "title": "Requisitos tecnológicos",
       "blocks": []
     },
     {
@@ -2356,8 +2338,8 @@
     },
     {
       "id": "6-glossário",
-      "number": "",
-      "title": "6. Glossário",
+      "number": "6",
+      "title": "Glossário",
       "blocks": [
         {
           "type": "paragraph",

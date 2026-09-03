@@ -571,14 +571,13 @@
               "text": "verificar a adoção de medidas de proteção coletiva e que todos a bordo recebam e usem equipamentos de proteção individual adequados ao risco."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3076-das-reuniões",
-      "number": "",
-      "title": "30.7.6 Das reuniões",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "30.7.6",
+          "depth": 2,
+          "text": "Das reuniões"
+        },
         {
           "type": "item",
           "number": "30.7.6.1",
@@ -925,14 +924,13 @@
           "number": "30.9.5",
           "depth": 2,
           "text": "É vedada a sobreposição de camas ao longo do costado da embarcação, quando esta sobreposição impedir a ventilação e iluminação natural proporcionada por uma vigia."
-        }
-      ]
-    },
-    {
-      "id": "3096-as-camas-devem",
-      "number": "",
-      "title": "30.9.6 As camas devem:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "30.9.6",
+          "depth": 2,
+          "text": "As camas devem:"
+        },
         {
           "type": "list",
           "items": [
@@ -2387,15 +2385,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**Vento relativo** : vento resultante da soma vetorial do vento real com o vento induzido pela velocidade da embarcação."
-        }
-      ]
-    },
-    {
-      "id": "quadro-i-da-nr-30",
-      "number": "",
-      "title": "QUADRO I da NR-30",
-      "blocks": [
+          "text": "**Vento relativo** : vento resultante da soma vetorial do vento real com o vento induzido pela velocidade da embarcação. QUADRO I da NR-30"
+        },
         {
           "type": "paragraph",
           "text": "(1) Total de horas à disposição do empregador (número de tripulantes x 24 horas x 30 dias)."
@@ -2414,28 +2405,16 @@
         },
         {
           "type": "paragraph",
-          "text": "(5) Número de acidentes com afastamento x 1.000.000 / número de horas homem de exposição."
-        }
-      ]
-    },
-    {
-      "id": "quadro-ii-da-nr-30",
-      "number": "",
-      "title": "QUADRO II da NR-30",
-      "blocks": []
-    },
-    {
-      "id": "padrões-mínimos-básicos-nos-exames-médicos",
-      "number": "",
-      "title": "PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS",
-      "blocks": [
+          "text": "(5) Número de acidentes com afastamento x 1.000.000 / número de horas homem de exposição. QUADRO II da NR-30 PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS"
+        },
         {
           "type": "paragraph",
           "text": "Requisitos gerais para todos os trabalhadores aquaviários por ocasião do exame médico:"
         },
         {
-          "type": "table",
-          "markdown": "| QUADRO ESTATÍSTICO DE ACIDENTES | | | | | |\n| --- | --- | --- | --- | --- | --- |\n| EMPRESA: | | | | | ANO: |\n| NAVIO: | | | | | |\n| (1) HORAS HOMEM DE EXPOSIÇÃO AO RISCO | | NÚMERO DE ACIDENTES OCORRIDOS | | TAXA DE ACIDENTADOS | |\n| MÊS | QUANTIDADE | (2) SEM AFASTAMENTO | (3) COM AFASTAMENTO | (4) TFSA | (5) TFCA |\n| JAN | | | | | |\n| FEV | | | | | |\n| MAR | | | | | |\n| ABR | | | | | |\n| MAI | | | | | |\n| JUN | | | | | |\n| JUL | | | | | |\n| AGO | | | | | |\n| SET | | | | | |\n| OUT | | | | | |\n| NOV | | | | | |\n| DEZ | | | | | |\n| TOTAL | | | | | |"
+          "type": "image",
+          "alt": "Tabela da página 19",
+          "src": "../assets/pages/page-019-table-00.png"
         },
         {
           "type": "list",
@@ -2487,23 +2466,10 @@
           "items": [
             {
               "label": "g",
-              "text": "dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles."
+              "text": "dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles. Acuidade Visual PADRÕES MÍNIMOS ESPECÍFICOS"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "acuidade-visual",
-      "number": "",
-      "title": "Acuidade Visual",
-      "blocks": []
-    },
-    {
-      "id": "padrões-mínimos-específicos",
-      "number": "",
-      "title": "PADRÕES MÍNIMOS ESPECÍFICOS",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Para todas as funções a bordo serão considerados como padrões mínimos específicos:"
@@ -2537,15 +2503,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**PADRÕES MÉDICOS E MODELO DE CERTIFICADO MÉDICO (** **_HEALTH CERTIFICATE_ - CONVENÇÃO INTERNACIONAL SOBRE PADRÕES DE INSTRUÇÃO, CERTIFICAÇÃO E SERVIÇO DE QUARTO PARA MARÍTIMOS - STCW), PARA OS TRABALHADORES AQUAVIÁRIOS DO GRUPO MARÍTIMOS QUE OPERAM EMBARCAÇÕES CLASSIFICADAS PARA NAVEGAÇÃO EM MAR ABERTO E APOIO MARÍTIMO.**"
-        }
-      ]
-    },
-    {
-      "id": "padrões-mínimos-básicos-nos-exames-médicos",
-      "number": "",
-      "title": "PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS",
-      "blocks": [
+          "text": "**PADRÕES MÉDICOS E MODELO DE CERTIFICADO MÉDICO (** **_HEALTH CERTIFICATE_ - CONVENÇÃO INTERNACIONAL SOBRE PADRÕES DE INSTRUÇÃO, CERTIFICAÇÃO E SERVIÇO DE QUARTO PARA MARÍTIMOS - STCW), PARA OS TRABALHADORES AQUAVIÁRIOS DO GRUPO MARÍTIMOS QUE OPERAM EMBARCAÇÕES CLASSIFICADAS PARA NAVEGAÇÃO EM MAR ABERTO E APOIO MARÍTIMO.** PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS"
+        },
         {
           "type": "paragraph",
           "text": "Requisitos gerais por ocasião do exame médico:"
@@ -2636,35 +2595,22 @@
           "items": [
             {
               "label": "j",
-              "text": "ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais."
+              "text": "ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais. Acuidade Visual"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "acuidade-visual",
-      "number": "",
-      "title": "Acuidade Visual",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Suficiente com correção para desempenhar suas atividades ou funções a bordo."
         },
         {
           "type": "paragraph",
-          "text": "Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo."
-        }
-      ]
-    },
-    {
-      "id": "padrões-mínimos-de-visão-em-serviço",
-      "number": "",
-      "title": "PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO",
-      "blocks": [
+          "text": "Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO"
+        },
         {
-          "type": "table",
-          "markdown": "| PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS | |\n| --- | --- |\n| Requisitos gerais por ocasião do exame médico: a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de se movimentar sobre superfícies escorregadias irregulares e instáveis; b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina e emergência a bordo, durante o período de validade do seu certificado médico, incluindo-se agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) demonstrar ter uma audição e uma fala adequadas para se comunicar de maneira eficaz e detectar quaisquer alarmes sonoros; f) não apresentar sintomas de distúrbios mentais ou de comportamento; g) dentição - mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles; h) não estar sofrendo de qualquer problema de saúde que possa ser agravado pelo serviço no mar ou tornar o aquaviário inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo; i) não estar tomando qualquer medicamento que tenha efeitos colaterais que possam prejudicar quaisquer requisitos para um desempenho eficaz e seguro de atribuições de rotina e de emergência a bordo; j) ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais. | |\n| Acuidade Visual | |\n| Suficiente com correção para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. |"
+          "type": "image",
+          "alt": "Tabela da página 21",
+          "src": "../assets/pages/page-021-table-00.png"
         },
         {
           "type": "table",
@@ -2672,15 +2618,8 @@
         },
         {
           "type": "table",
-          "markdown": "| ão STCW | Aquaviário | longe com correção¹ | | | Core s3 | Visuais4 | | dupla)4 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Um olh o | Outr o olho | Os dois olhos juntos, com ou sem correção | | | | |\n| I/11 II/1 II/2 II/3 II/4 II/5 VII/2 | Comandant e, oficiais do departamen to de convés e subalternos de convés dos quais é exigido que desempenh em atribuições de vigilância | 0,5 ² | 0,5 | Visão exigida para a navegação do navio (ex.: consulta a cartas e publicaçõe s náuticas, utilização dos instrument os e equipamen tos do passadiço e identificaç ão dos auxílios à navegação ) | Ver Nota 6 | Campos visuais normai s | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |\n| 1/11 III/1 III/2 III/3 III/4 III/5 III/6 III/7 VII/2 | Todos os oficiais de máquinas, oficiais eletrotécnic os, subalternos eletrotécnic os e subalternos | 0,4 5 | 0,4 (Ver Not a 5) | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome | Nenhum problem a significat ivo evidente |"
-        }
-      ]
-    },
-    {
-      "id": "notas",
-      "number": "",
-      "title": "Notas:",
-      "blocks": [
+          "markdown": "| ão STCW | Aquaviário | longe com correção¹ | | | Core s3 | Visuais4 | | dupla)4 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Um olh o | Outr o olho | Os dois olhos juntos, com ou sem correção | | | | |\n| I/11 II/1 II/2 II/3 II/4 II/5 VII/2 | Comandant e, oficiais do departamen to de convés e subalternos de convés dos quais é exigido que desempenh em atribuições de vigilância | 0,5 ² | 0,5 | Visão exigida para a navegação do navio (ex.: consulta a cartas e publicaçõe s náuticas, utilização dos instrument os e equipamen tos do passadiço e identificaç ão dos auxílios à navegação ) | Ver Nota 6 | Campos visuais normai s | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |\n| 1/11 III/1 III/2 III/3 III/4 III/5 III/6 III/7 VII/2 | Todos os oficiais de máquinas, oficiais eletrotécnic os, subalternos eletrotécnic os e subalternos | 0,4 5 | 0,4 (Ver Not a 5) | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome | Nenhum problem a significat ivo evidente | Notas: |"
+        },
         {
           "type": "paragraph",
           "text": "1. Valores fornecidos na escala decimal de Snellen."
@@ -2708,14 +2647,11 @@
         {
           "type": "paragraph",
           "text": "7. Padrão de visão de cores 1, 2 ou 3 da CIE."
-        }
-      ]
-    },
-    {
-      "id": "diretrizes-sobre-a-avaliação-do-nível-mínimo-da-capacidade-física-necessária-para-admissão-e-para-a-permanência-em-serviço",
-      "number": "",
-      "title": "DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**"
+        },
         {
           "type": "table",
           "markdown": "| | ou outros que façam parte de um quarto de serviço na máquina | | | sistemas/ componen tes como for necessário | | | ter o seu desempen ho | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| I/11 IV/2 | Radioperad ores de GMDSS | 0,4 | 0,4 | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar sistemas/ componen tes como for necessário | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
@@ -2814,18 +2750,12 @@
         },
         {
           "type": "paragraph",
-          "text": "De acordo com Regra I/9 do SCTW, MLC-2006 / _In accordancewith SCTW Reg I/9, MLC-2006._"
-        }
-      ]
-    },
-    {
-      "id": "_informações-adicionaisadditionalinformation_",
-      "number": "",
-      "title": "_Informações adicionais/AdditionalInformation:_",
-      "blocks": [
+          "text": "De acordo com Regra I/9 do SCTW, MLC-2006 / _In accordancewith SCTW Reg I/9, MLC-2006._ _Informações adicionais/AdditionalInformation:_"
+        },
         {
-          "type": "table",
-          "markdown": "| Pergunta/Question | Sim / Yes | Não / No |\n| --- | --- | --- |\n| A identificação foi verificada? Wastheidentityverified? | | |\n| A audição atende os requisitos mínimos para embarque? Ishearingadequate for boarding? | | |\n| A audição sem próteses é adequada? Isunaidedhearingadequate? | | |\n| A acuidade visual satisfaz os padrões estabelecidos no STCW seção A-I/9? Visual acuitymeets standards in section A-I/9? | | |\n| A visão de cores atende aos padrões estabelecidos no STWC seção A - I/9? Iscolourvisionadequate in accordancewith STCW A-I/9? | | |\n| Data da última verificação de daltonismo (máximo: 6 anos) Lastcolourvisionevaluation (Max. 6 years) | | |\n| Alguma limitação ou restrição médica? Any medical limitationorrestriction? | | |\n| Se sim, qual? If (Yes), specify: | | |\n| O aquaviário está livre de condições que possam torná-lo inapto ou qualquer problema de saúde que possa ser agravado pelo serviço de navegação no mar ou tornar o marítimo inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo? Is the seafarer free for many medical condition likely to be | | |"
+          "type": "image",
+          "alt": "Tabela da página 27",
+          "src": "../assets/pages/page-027-table-00.png"
         },
         {
           "type": "paragraph",
@@ -2890,8 +2820,8 @@
     },
     {
       "id": "1-objetivo-e-campo-de-aplicação",
-      "number": "",
-      "title": "1. Objetivo e campo de aplicação",
+      "number": "1",
+      "title": "Objetivo e campo de aplicação",
       "blocks": [
         {
           "type": "paragraph",
@@ -2913,8 +2843,8 @@
     },
     {
       "id": "2-definições",
-      "number": "",
-      "title": "2. Definições",
+      "number": "2",
+      "title": "Definições",
       "blocks": [
         {
           "type": "paragraph",
@@ -2960,8 +2890,8 @@
     },
     {
       "id": "3-obrigações-gerais",
-      "number": "",
-      "title": "3. Obrigações Gerais",
+      "number": "3",
+      "title": "Obrigações Gerais",
       "blocks": [
         {
           "type": "paragraph",
@@ -3001,8 +2931,8 @@
     },
     {
       "id": "4-disposições-de-segurança-e-saúde-nos-barcos",
-      "number": "",
-      "title": "4. Disposições de segurança e saúde nos barcos",
+      "number": "4",
+      "title": "Disposições de segurança e saúde nos barcos",
       "blocks": [
         {
           "type": "paragraph",
@@ -3078,8 +3008,8 @@
     },
     {
       "id": "5-exames-médicos-e-primeiros-socorros",
-      "number": "",
-      "title": "5. Exames médicos e primeiros socorros",
+      "number": "5",
+      "title": "Exames médicos e primeiros socorros",
       "blocks": [
         {
           "type": "paragraph",
@@ -3136,8 +3066,8 @@
     },
     {
       "id": "6-formação-e-informação",
-      "number": "",
-      "title": "6. Formação e informação",
+      "number": "6",
+      "title": "Formação e informação",
       "blocks": [
         {
           "type": "paragraph",
@@ -3253,26 +3183,17 @@
     },
     {
       "id": "7-disposição-final",
-      "number": "",
-      "title": "7. Disposição Final",
+      "number": "7",
+      "title": "Disposição Final",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "7.1 Cabe à Fundacentro elaborar e manter atualizado um Guia Técnico, de caráter recomendatório, para a avaliação e a prevenção dos riscos relativos à utilização de barcos de pesca."
-        }
-      ]
-    },
-    {
-      "id": "apêndice-i",
-      "number": "",
-      "title": "APÊNDICE I",
-      "blocks": []
-    },
-    {
-      "id": "disposições-mínimas-de-segurança-e-saúde-aplicáveis-aos-barcos-de-pesca-novos",
-      "number": "",
-      "title": "Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos",
-      "blocks": [
+          "text": "7.1 Cabe à Fundacentro elaborar e manter atualizado um Guia Técnico, de caráter recomendatório, para a avaliação e a prevenção dos riscos relativos à utilização de barcos de pesca. APÊNDICE I"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Novos**"
+        },
         {
           "type": "paragraph",
           "text": "1. Campo de aplicação"
@@ -3951,8 +3872,8 @@
     },
     {
       "id": "83-dormitórios",
-      "number": "",
-      "title": "8.3. Dormitórios",
+      "number": "8.3",
+      "title": "Dormitórios",
       "blocks": [
         {
           "type": "paragraph",
@@ -4177,8 +4098,8 @@
     },
     {
       "id": "9-inspeções-periódicas",
-      "number": "",
-      "title": "9. Inspeções periódicas",
+      "number": "9",
+      "title": "Inspeções periódicas",
       "blocks": [
         {
           "type": "paragraph",
@@ -4190,21 +4111,12 @@
         },
         {
           "type": "paragraph",
-          "text": "9.1.2 Os resultados das inspeções devem ser anotados no livro de bordo, assim como as medidas adotadas para solucionar as anomalias detectadas."
-        }
-      ]
-    },
-    {
-      "id": "apêndice-ii",
-      "number": "",
-      "title": "APÊNDICE II",
-      "blocks": []
-    },
-    {
-      "id": "disposições-mínimas-de-segurança-e-saúde-aplicáveis-aos-barcos-de-pesca-existentes",
-      "number": "",
-      "title": "Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes",
-      "blocks": [
+          "text": "9.1.2 Os resultados das inspeções devem ser anotados no livro de bordo, assim como as medidas adotadas para solucionar as anomalias detectadas. APÊNDICE II"
+        },
+        {
+          "type": "paragraph",
+          "text": "**Disposições Mínimas de Segurança e Saúde Aplicáveis aos Barcos de Pesca Existentes**"
+        },
         {
           "type": "paragraph",
           "text": "1. Campo de aplicação"
@@ -4792,21 +4704,8 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "8.3.1 Todos os barcos deverão dispor de material de primeiros socorros, de acordo com as normas das autoridades marítima e sanitária."
-        }
-      ]
-    },
-    {
-      "id": "apêndice-iii",
-      "number": "",
-      "title": "APÊNDICE III",
-      "blocks": []
-    },
-    {
-      "id": "meios-de-salvamento-e-sobrevivência",
-      "number": "",
-      "title": "Meios de Salvamento e Sobrevivência",
-      "blocks": [
+          "text": "8.3.1 Todos os barcos deverão dispor de material de primeiros socorros, de acordo com as normas das autoridades marítima e sanitária. APÊNDICE III Meios de Salvamento e Sobrevivência"
+        },
         {
           "type": "paragraph",
           "text": "1. As obrigações previstas neste Apêndice aplicam-se a todos os barcos de pesca, considerando:"

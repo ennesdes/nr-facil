@@ -459,17 +459,10 @@
           "items": [
             {
               "label": "a",
-              "text": "os circuitos que sirvam a pontos de utilização situados em locais contendo banheira ou"
+              "text": "os circuitos que sirvam a pontos de utilização situados em locais contendo banheira ou chuveiro;"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "chuveiro",
-      "number": "",
-      "title": "chuveiro;",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -1687,17 +1680,10 @@
           "items": [
             {
               "label": "b",
-              "text": "constatação da ausência de tensão;"
+              "text": "constatação da ausência de tensão; c) impedimento de reenergização;"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "c-impedimento-de-reenergização",
-      "number": "",
-      "title": "c) impedimento de reenergização;",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -2241,15 +2227,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Limitação da tensão: ação de definição de tensão máxima destinada à proteção do trabalhador"
-        }
-      ]
-    },
-    {
-      "id": "contra-choque-elétrico",
-      "number": "",
-      "title": "contra choque elétrico.",
-      "blocks": [
+          "text": "Limitação da tensão: ação de definição de tensão máxima destinada à proteção do trabalhador contra choque elétrico."
+        },
         {
           "type": "paragraph",
           "text": "Média Tensão (MT): tensão superior a 1000 Volts em corrente alternada ou 1500 Volts em corrente contínua e igual ou inferior a 36.200 Volts em corrente alternada ou 3000 Volts em corrente contínua. Observação: A atribuição do valor de 3000 Volts em corrente contínua foi definida em razão do limite de tensão utilizado na alimentação do transporte sobre trilhos."
@@ -2345,14 +2324,8 @@
       ]
     },
     {
-      "id": "anexo-ii",
+      "id": "anexo-ii-zona-de-risco-zona-controlada-e-zona-livre",
       "number": "ANEXO II",
-      "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "zona-de-risco-zona-controlada-e-zona-livre",
-      "number": "",
       "title": "ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE",
       "blocks": [
         {
@@ -2366,14 +2339,11 @@
         {
           "type": "paragraph",
           "text": "* OBSERVAÇÕES: Níveis de tensão aplicáveis em corrente alternada ou contínua. Para sistemas trifásicos, considera-se como tal a tensão composta (valor eficaz entre fases)."
-        }
-      ]
-    },
-    {
-      "id": "figura-1---distâncias-no-ar-que-delimitam-radialmente-a-zona-de-risco-a-zona-controlada-e-a-zona-livre",
-      "number": "",
-      "title": "Figura 1 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "Figura 1 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre"
+        },
         {
           "type": "paragraph",
           "text": "Figura 2 - Distâncias no ar que delimitam radialmente a zona de risco, a zona controlada e a zona livre, com interposição de superfície de separação física adequada."
@@ -2403,21 +2373,15 @@
       ]
     },
     {
-      "id": "anexo-iii",
+      "id": "anexo-iii-treinamentos-de-segurança-e-saúde-no-trabalho",
       "number": "ANEXO III",
-      "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "treinamentos-de-segurança-e-saúde-no-trabalho",
-      "number": "",
       "title": "TREINAMENTOS DE SEGURANÇA E SAÚDE NO TRABALHO",
       "blocks": []
     },
     {
       "id": "1-treinamento-inicial-básico",
-      "number": "",
-      "title": "1. TREINAMENTO INICIAL BÁSICO",
+      "number": "1",
+      "title": "TREINAMENTO INICIAL BÁSICO",
       "blocks": [
         {
           "type": "paragraph",
@@ -2945,17 +2909,10 @@
           "items": [
             {
               "label": "d",
-              "text": "avaliação do cenário e técnicas para imobilização, remoção, resgate e transporte de acidentados."
+              "text": "avaliação do cenário e técnicas para imobilização, remoção, resgate e transporte de acidentados. B. Prático"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "b-prático",
-      "number": "",
-      "title": "B. Prático",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "14. Deve ser abordada a prática, no mínimo, dos conteúdos referidos nos itens 7, 8, 10, 11, 12 e 13 da parte teórica."
@@ -3207,8 +3164,8 @@
     },
     {
       "id": "3-treinamento-inicial-complementar-de-média-e-alta-tensão---sec",
-      "number": "",
-      "title": "3. TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
+      "number": "3",
+      "title": "TREINAMENTO INICIAL COMPLEMENTAR DE MÉDIA E ALTA TENSÃO - SEC",
       "blocks": [
         {
           "type": "paragraph",
@@ -3767,13 +3724,11 @@
       "id": "anexo-iv",
       "number": "ANEXO IV",
       "title": "ANEXO IV",
-      "blocks": []
-    },
-    {
-      "id": "especificação-mínima-de-epi-para-proteção-contra-o-arco-elétrico",
-      "number": "",
-      "title": "ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**ESPECIFICAÇÃO MÍNIMA DE EPI PARA PROTEÇÃO CONTRA O ARCO ELÉTRICO**"
+        },
         {
           "type": "paragraph",
           "text": "* Quadros referentes a EPI para Arco Elétrico, adaptados da norma da National Fire Protection Association (NFPA) 70E - Tabelas 130.7(C)(15)(a), 130.7(C)(15)(b) e 130.7(C)(15)(c), 2024."

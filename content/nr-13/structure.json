@@ -3108,22 +3108,15 @@
       ]
     },
     {
-      "id": "anexo-i-da-nr-13",
+      "id": "anexo-i-da-nr-13-capacitação-e-treinamento",
       "number": "ANEXO I",
-      "title": "DA NR-13",
-      "blocks": []
-    },
-    {
-      "id": "capacitação-e-treinamento",
-      "number": "",
-      "title": "CAPACITAÇÃO E TREINAMENTO",
-      "blocks": []
-    },
-    {
-      "id": "1-caldeiras",
-      "number": "",
-      "title": "1 . Caldeiras",
-      "blocks": []
+      "title": "DA NR-13 CAPACITAÇÃO E TREINAMENTO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1** . Caldeiras"
+        }
+      ]
     },
     {
       "id": "11-para-efeito-da-nr-13-é-considerado-operador-de-caldeira-aquele-que-cumprir-uma-das-seguintes-condições",
@@ -3551,13 +3544,11 @@
       "id": "anexo-ii-da-nr-13",
       "number": "ANEXO II",
       "title": "DA NR-13",
-      "blocks": []
-    },
-    {
-      "id": "requisitos-para-certificação-de-serviço-próprio-de-inspeção-de-equipamentos---spie",
-      "number": "",
-      "title": "REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**REQUISITOS PARA CERTIFICAÇÃO DE SERVIÇO PRÓPRIO DE INSPEÇÃO DE EQUIPAMENTOS - SPIE**"
+        },
         {
           "type": "paragraph",
           "text": "1. O SPIE da empresa, organizado na forma de setor, seção, departamento, divisão, ou equivalente, deve ser certificado por OCP acreditado pelo INMETRO, que irá verificar, por meio de auditorias programadas, o atendimento aos seguintes requisitos:"
@@ -3644,13 +3635,11 @@
       "id": "anexo-iii-da-nr-13",
       "number": "ANEXO III",
       "title": "DA NR-13",
-      "blocks": []
-    },
-    {
-      "id": "certificação-voluntária-de-competências-do-profissional-legalmente-habilitado---plh",
-      "number": "",
-      "title": "CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento."
@@ -3722,13 +3711,11 @@
       "id": "anexo-iv-da-nr-13",
       "number": "ANEXO IV",
       "title": "DA NR-13",
-      "blocks": []
-    },
-    {
-      "id": "requisitos-para-ampliação-de-prazo-de-inspeção-de-caldeiras-categoria-a-com-sistema-instrumentado-de-segurança-sis-e-de-caldeiras-categoria-b-com-sistema-de-gerenciamento-de-combustão---sgc",
-      "number": "",
-      "title": "REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**"
+        },
         {
           "type": "paragraph",
           "text": "**1.** Caldeiras de categoria A dotadas de Sistema Instrumentado de Segurança - SIS"
@@ -3987,15 +3974,9 @@
       "blocks": []
     },
     {
-      "id": "24-o-empregador-deve-comunicar-formalmente-à-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento-a-implementação-dos-novos-prazos-de-inspeção-de-segurança",
+      "id": "24-o-empregador-deve-comunicar-formalmente-à-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento-a-implementação-dos-novos-prazos-de-inspeção-de-segurança-glossário",
       "number": "2.4",
-      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança",
-      "blocks": []
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
+      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança. GLOSSÁRIO",
       "blocks": [
         {
           "type": "paragraph",

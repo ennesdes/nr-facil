@@ -42,11 +42,6 @@
     },
     {
       "level": 1,
-      "text": "chuveiro;",
-      "id": "chuveiro"
-    },
-    {
-      "level": 1,
       "text": "**10.7 MEDIDAS ADMINISTRATIVAS E DE ORGANIZAÇÃO DO TRABALHO**",
       "id": "107-medidas-administrativas-e-de-organização-do-trabalho"
     },
@@ -82,11 +77,6 @@
     },
     {
       "level": 1,
-      "text": "c) impedimento de reenergização;",
-      "id": "c-impedimento-de-reenergização"
-    },
-    {
-      "level": 1,
       "text": "**10.14 SEGURANÇA EM INSTALAÇÕES ELÉTRICAS ENERGIZADAS E NO TRABALHO EM PROXIMIDADE DE INSTALAÇÕES ELÉTRICAS**",
       "id": "1014-segurança-em-instalações-elétricas-energizadas-e-no-trabalho-em-proximidade-de-instalações-elétricas"
     },
@@ -107,18 +97,8 @@
     },
     {
       "level": 1,
-      "text": "contra choque elétrico.",
-      "id": "contra-choque-elétrico"
-    },
-    {
-      "level": 1,
-      "text": "**ANEXO II**",
-      "id": "anexo-ii"
-    },
-    {
-      "level": 1,
-      "text": "**ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE**",
-      "id": "zona-de-risco-zona-controlada-e-zona-livre"
+      "text": "**ANEXO II** ZONA DE RISCO, ZONA CONTROLADA E ZONA LIVRE",
+      "id": "anexo-ii-zona-de-risco-zona-controlada-e-zona-livre"
     },
     {
       "level": 1,
@@ -127,23 +107,13 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO III**",
-      "id": "anexo-iii"
-    },
-    {
-      "level": 1,
-      "text": "**TREINAMENTOS DE SEGURANÇA E SAÚDE NO TRABALHO**",
-      "id": "treinamentos-de-segurança-e-saúde-no-trabalho"
+      "text": "**ANEXO III** TREINAMENTOS DE SEGURANÇA E SAÚDE NO TRABALHO",
+      "id": "anexo-iii-treinamentos-de-segurança-e-saúde-no-trabalho"
     },
     {
       "level": 1,
       "text": "1. TREINAMENTO INICIAL BÁSICO",
       "id": "1-treinamento-inicial-básico"
-    },
-    {
-      "level": 1,
-      "text": "B. Prático",
-      "id": "b-prático"
     },
     {
       "level": 1,

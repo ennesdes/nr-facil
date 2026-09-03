@@ -115,524 +115,476 @@
   },
   {
     "id": "chunk-19",
-    "text": "**9.6.1.2** Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição.",
-    "heading": "**ANEXO I da NR-09 VIBRAÇÃO**",
-    "char_offset": 5658
+    "text": "**9.6.1.2** Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição. ANEXO I da NR-09 VIBRAÇÃO",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 5432
   },
   {
     "id": "chunk-20",
-    "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 5725
+    "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_ SUMÁRIO\n1. Objetivos \n2. Campo de Aplicação \n3. Disposições Gerais \n4. Avaliação Preliminar da Exposição \n5. Avaliação Quantitativa da Exposição \n6. Medidas de Prevenção 1. Objetivos** 3",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 5689
   },
   {
     "id": "chunk-21",
-    "text": "1. Objetivos \n2. Campo de Aplicação \n3. Disposições Gerais \n4. Avaliação Preliminar da Exposição \n5. Avaliação Quantitativa da Exposição \n6. Medidas de Prevenção",
-    "heading": "**1. Objetivos** 3",
-    "char_offset": 5895
+    "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção. 2. Campo de Aplicação",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 5941
   },
   {
     "id": "chunk-22",
-    "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção.",
-    "heading": "**1. Objetivos** 3",
-    "char_offset": 5896
+    "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI. 3. Disposições Gerais\n3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis.",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 6244
   },
   {
     "id": "chunk-23",
-    "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 6345
+    "text": "3.1.1 No processo de eliminação ou redução dos riscos relacionados à exposição às vibrações mecânicas devem ser considerados, entre outros fatores, os esforços físicos e aspectos posturais. \n3.2 A organização deve comprovar, no âmbito das ações de manutenção preventiva e corretiva de veículos, máquinas, equipamentos e ferramentas, a adoção de medidas que visem o controle e a redução da exposição a vibrações.",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 6714
   },
   {
     "id": "chunk-24",
-    "text": "3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 6346
+    "text": "3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s<sup>2</sup> nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição. 4. Avaliação Preliminar da Exposição",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 7128
   },
   {
     "id": "chunk-25",
-    "text": "3.1.1 No processo de eliminação ou redução dos riscos relacionados à exposição às vibrações mecânicas devem ser considerados, entre outros fatores, os esforços físicos e aspectos posturais. \n3.2 A organização deve comprovar, no âmbito das ações de manutenção preventiva e corretiva de veículos, máquinas, equipamentos e ferramentas, a adoção de medidas que visem o controle e a redução da exposição a vibrações.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 6629
+    "text": "4.1 Deve ser realizada avaliação preliminar da exposição às VMB e VCI, considerando os seguintes aspectos: \na) ambientes de trabalho, processos, operações e condições de exposição; \nb) características das máquinas, veículos, ferramentas ou equipamentos de trabalho;",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 7442
   },
   {
     "id": "chunk-26",
-    "text": "3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s<sup>2</sup> nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição.",
-    "heading": "**3. Disposições Gerais**",
-    "char_offset": 7043
+    "text": "c) informações fornecidas por fabricantes sobre os níveis de vibração gerados por ferramentas, veículos, máquinas ou equipamentos envolvidos na exposição, quando disponíveis; \nd) condições de uso e estado de conservação de veículos, máquinas, equipamentos e ferramentas, incluindo componentes ou dispositivos de isolamento e amortecimento que interfiram na exposição de operadores ou condutores;",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 7711
   },
   {
     "id": "chunk-27",
-    "text": "4.1 Deve ser realizada avaliação preliminar da exposição às VMB e VCI, considerando os seguintes aspectos: \na) ambientes de trabalho, processos, operações e condições de exposição; \nb) características das máquinas, veículos, ferramentas ou equipamentos de trabalho;",
-    "heading": "**4. Avaliação Preliminar da Exposição**",
-    "char_offset": 7322
+    "text": "e) características da superfície de circulação, cargas transportadas e velocidades de operação, no caso de VCI; \nf) estimativa de tempo efetivo de exposição diária; \ng) constatação de condições específicas de trabalho que possam contribuir para o agravamento dos efeitos decorrentes da exposição;",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 8111
   },
   {
     "id": "chunk-28",
-    "text": "c) informações fornecidas por fabricantes sobre os níveis de vibração gerados por ferramentas, veículos, máquinas ou equipamentos envolvidos na exposição, quando disponíveis; \nd) condições de uso e estado de conservação de veículos, máquinas, equipamentos e ferramentas, incluindo componentes ou dispositivos de isolamento e amortecimento que interfiram na exposição de operadores ou condutores;",
-    "heading": "**4. Avaliação Preliminar da Exposição**",
-    "char_offset": 7591
+    "text": "h) esforços físicos e aspectos posturais; 4 \ni) dados de exposição ocupacional existentes; e \nj) informações ou registros relacionados a queixas e antecedentes médicos relacionados aos trabalhadores expostos. \n4.2 Os resultados da avaliação preliminar devem subsidiar a adoção de medidas preventivas e corretivas, sem prejuízo de outras medidas previstas nas demais NR.",
+    "heading": "**9.6** Disposições Transitórias",
+    "char_offset": 8413
   },
   {
     "id": "chunk-29",
-    "text": "e) características da superfície de circulação, cargas transportadas e velocidades de operação, no caso de VCI; \nf) estimativa de tempo efetivo de exposição diária; \ng) constatação de condições específicas de trabalho que possam contribuir para o agravamento dos efeitos decorrentes da exposição;",
-    "heading": "**4. Avaliação Preliminar da Exposição**",
-    "char_offset": 7991
+    "text": "4.3 Se a avaliação preliminar não for suficiente para permitir a tomada de decisão quanto à necessidade de implantação de medidas preventivas e corretivas, deve-se proceder à avaliação quantitativa da exposição.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 8999
   },
   {
     "id": "chunk-30",
-    "text": "h) esforços físicos e aspectos posturais; 4 \ni) dados de exposição ocupacional existentes; e \nj) informações ou registros relacionados a queixas e antecedentes médicos relacionados aos trabalhadores expostos. \n4.2 Os resultados da avaliação preliminar devem subsidiar a adoção de medidas preventivas e corretivas, sem prejuízo de outras medidas previstas nas demais NR.",
-    "heading": "**4. Avaliação Preliminar da Exposição**",
-    "char_offset": 8293
+    "text": "5.1 A avaliação quantitativa deve ser representativa da exposição, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício de suas funções. \n5.1.1 Os procedimentos de avaliação quantitativa para VCI e VMB, a serem adotados no âmbito deste anexo, são aqueles estabelecidos nas Normas de Higiene Ocupacional – NHO, publicadas pela FUNDACENTRO.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 9001
   },
   {
     "id": "chunk-31",
-    "text": "4.3 Se a avaliação preliminar não for suficiente para permitir a tomada de decisão quanto à necessidade de implantação de medidas preventivas e corretivas, deve-se proceder à avaliação quantitativa da exposição.",
+    "text": "5.2 Avaliação quantitativa da exposição dos trabalhadores às VMB. \n5.2.1 A avaliação da exposição ocupacional à vibração em mãos e braços deve ser feita utilizando-se sistemas de medição que permitam a obtenção da aceleração resultante de exposição normalizada (aren), parâmetro representativo da exposição diária do trabalhador.",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 8879
+    "char_offset": 9389
   },
   {
     "id": "chunk-32",
-    "text": "5.1 A avaliação quantitativa deve ser representativa da exposição, abrangendo aspectos organizacionais e condições ambientais que envolvam o trabalhador no exercício de suas funções. \n5.1.1 Os procedimentos de avaliação quantitativa para VCI e VMB, a serem adotados no âmbito deste anexo, são aqueles estabelecidos nas Normas de Higiene Ocupacional – NHO, publicadas pela FUNDACENTRO.",
+    "text": "5.2.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 2,5 m/s<sup>2</sup> . \n5.2.3 O limite de exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 5 m/s<sup>2</sup> .",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 8881
+    "char_offset": 9722
   },
   {
     "id": "chunk-33",
-    "text": "5.2 Avaliação quantitativa da exposição dos trabalhadores às VMB. \n5.2.1 A avaliação da exposição ocupacional à vibração em mãos e braços deve ser feita utilizando-se sistemas de medição que permitam a obtenção da aceleração resultante de exposição normalizada (aren), parâmetro representativo da exposição diária do trabalhador.",
+    "text": "5.2.4 As situações de exposição ocupacional superior ao nível de ação, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 9269
+    "char_offset": 10107
   },
   {
     "id": "chunk-34",
-    "text": "5.2.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 2,5 m/s<sup>2</sup> . \n5.2.3 O limite de exposição ocupacional diária à vibração em mãos e braços corresponde a um valor de aceleração resultante de exposição normalizada (aren) de 5 m/s<sup>2</sup> .",
+    "text": "5.2.5 As situações de exposição ocupacional superior ao limite de exposição, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 9602
+    "char_offset": 10358
   },
   {
     "id": "chunk-35",
-    "text": "5.2.4 As situações de exposição ocupacional superior ao nível de ação, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01",
+    "text": "5.3 Avaliação quantitativa da exposição dos trabalhadores às VCI. \n5.3.1 A avaliação da exposição ocupacional à vibração de corpo inteiro deve ser feita utilizando-se sistemas de medição que permitam a determinação da aceleração resultante de exposição",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 9987
+    "char_offset": 10616
   },
   {
     "id": "chunk-36",
-    "text": "5.2.5 As situações de exposição ocupacional superior ao limite de exposição, independentemente do uso de equipamentos de proteção individual, implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.",
+    "text": "5 normalizada (aren) e do valor da dose de vibração resultante (VDVR), parâmetros representativos da exposição diária do trabalhador. \n5.3.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração de corpo inteiro corresponde a um valor da aceleração resultante de exposição normalizada (aren) de 0,5m/s<sup>2</sup> , ou ao valor da dose de vibração resultante (VDVR) de 9,1m/s<sup>1,75</sup> .",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 10238
+    "char_offset": 10872
   },
   {
     "id": "chunk-37",
-    "text": "5.3 Avaliação quantitativa da exposição dos trabalhadores às VCI. \n5.3.1 A avaliação da exposição ocupacional à vibração de corpo inteiro deve ser feita utilizando-se sistemas de medição que permitam a determinação da aceleração resultante de exposição",
+    "text": "5.3.3 O limite de exposição ocupacional diária à vibração de corpo inteiro corresponde ao: \na) valor da aceleração resultante de exposição normalizada (aren) de 1,1 m/s<sup>2</sup> ; ou \nb) valor da dose de vibração resultante (VDVR) de 21,0 m/s<sup>1,75</sup> .",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 10496
+    "char_offset": 11291
   },
   {
     "id": "chunk-38",
-    "text": "5 normalizada (aren) e do valor da dose de vibração resultante (VDVR), parâmetros representativos da exposição diária do trabalhador. \n5.3.2 O nível de ação para a avaliação da exposição ocupacional diária à vibração de corpo inteiro corresponde a um valor da aceleração resultante de exposição normalizada (aren) de 0,5m/s<sup>2</sup> , ou ao valor da dose de vibração resultante (VDVR) de 9,1m/s<sup>1,75</sup> .",
+    "text": "5.3.3.1 Para fins de caracterização da exposição, a organização deve comprovar a avaliação dos dois parâmetros acima descritos. \n5.3.4 As situações de exposição ocupacional superiores ao nível de ação implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 10752
+    "char_offset": 11557
   },
   {
     "id": "chunk-39",
-    "text": "5.3.3 O limite de exposição ocupacional diária à vibração de corpo inteiro corresponde ao: \na) valor da aceleração resultante de exposição normalizada (aren) de 1,1 m/s<sup>2</sup> ; ou \nb) valor da dose de vibração resultante (VDVR) de 21,0 m/s<sup>1,75</sup> .",
+    "text": "5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01. 6. Medidas de Prevenção\n6.1 As medidas de prevenção devem contemplar:",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 11171
+    "char_offset": 11875
   },
   {
     "id": "chunk-40",
-    "text": "5.3.3.1 Para fins de caracterização da exposição, a organização deve comprovar a avaliação dos dois parâmetros acima descritos. \n5.3.4 As situações de exposição ocupacional superiores ao nível de ação implicam obrigatória adoção de medidas de caráter preventivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.",
+    "text": "a) avaliação periódica da exposição; \nb) orientação dos trabalhadores quanto aos riscos decorrentes da exposição à vibração e à utilização adequada dos equipamentos de trabalho, bem como quanto ao direito de comunicar aos seus superiores sobre níveis anormais de vibração observados durante suas atividades;",
     "heading": "**5. Avaliação Quantitativa da Exposição**",
-    "char_offset": 11437
+    "char_offset": 12151
   },
   {
     "id": "chunk-41",
-    "text": "5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01.",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 11959
+    "text": "c) vigilância da saúde dos trabalhadores focada nos efeitos da exposição à vibração; e \nd) adoção de procedimentos e métodos de trabalho alternativos que permitam reduzir a exposição a vibrações mecânicas. \n6.1.1 As medidas de prevenção descritas neste item não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 12463
   },
   {
     "id": "chunk-42",
-    "text": "6.1 As medidas de prevenção devem contemplar: \na) avaliação periódica da exposição; \nb) orientação dos trabalhadores quanto aos riscos decorrentes da exposição à vibração e à utilização adequada dos equipamentos de trabalho, bem como quanto ao direito de comunicar aos seus superiores sobre níveis anormais de vibração observados durante suas atividades;",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 11962
+    "text": "6.2 As medidas de caráter corretivo devem contemplar, no mínimo, uma das medidas abaixo, obedecida a hierarquia prevista na alínea “g” do subitem 1.4.1 da NR-01: \na) no caso de exposição às VMB, modificação do processo ou da operação de trabalho, podendo envolver: a substituição de ferramentas e acessórios; a reformulação ou a reorganização de bancadas e postos de trabalho; a alteração das rotinas ou dos procedimentos de trabalho; a adequação do tipo de ferramenta, do acessório utilizado e das velocidades operacionais;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 12869
   },
   {
     "id": "chunk-43",
-    "text": "c) vigilância da saúde dos trabalhadores focada nos efeitos da exposição à vibração; e \nd) adoção de procedimentos e métodos de trabalho alternativos que permitam reduzir a exposição a vibrações mecânicas. \n6.1.1 As medidas de prevenção descritas neste item não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 12321
+    "text": "6 b) no caso de exposição às VCI, modificação do processo ou da operação de trabalho, podendo envolver: o reprojeto de plataformas de trabalho; a reformulação, a reorganização ou a alteração das rotinas ou dos procedimentos e organização do trabalho; a adequação de veículos utilizados, especialmente pela adoção de assentos antivibratórios; a melhoria das condições e das características dos pisos e pavimentos utilizados para circulação das máquinas e dos veículos;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 13396
   },
   {
     "id": "chunk-44",
-    "text": "6.2 As medidas de caráter corretivo devem contemplar, no mínimo, uma das medidas abaixo, obedecida a hierarquia prevista na alínea “g” do subitem 1.4.1 da NR-01: \na) no caso de exposição às VMB, modificação do processo ou da operação de trabalho, podendo envolver: a substituição de ferramentas e acessórios; a reformulação ou a reorganização de bancadas e postos de trabalho; a alteração das rotinas ou dos procedimentos de trabalho; a adequação do tipo de ferramenta, do acessório utilizado e das velocidades operacionais;",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 12727
+    "text": "c) redução do tempo e da intensidade de exposição diária à vibração; e \nd) alternância de atividades ou operações que gerem exposições a níveis mais elevados de vibração com outras que não apresentem exposições ou impliquem exposições a menores níveis.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 13867
   },
   {
     "id": "chunk-45",
-    "text": "6 b) no caso de exposição às VCI, modificação do processo ou da operação de trabalho, podendo envolver: o reprojeto de plataformas de trabalho; a reformulação, a reorganização ou a alteração das rotinas ou dos procedimentos e organização do trabalho; a adequação de veículos utilizados, especialmente pela adoção de assentos antivibratórios; a melhoria das condições e das características dos pisos e pavimentos utilizados para circulação das máquinas e dos veículos;",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 13254
+    "text": "6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho. ANEXO III da NR-09 CALOR\n_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_ SUMÁRIO",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 14123
   },
   {
     "id": "chunk-46",
-    "text": "c) redução do tempo e da intensidade de exposição diária à vibração; e \nd) alternância de atividades ou operações que gerem exposições a níveis mais elevados de vibração com outras que não apresentem exposições ou impliquem exposições a menores níveis.",
-    "heading": "**6. Medidas de Prevenção**",
-    "char_offset": 13725
+    "text": "1. Objetivos \n2. Campo de Aplicação \n3. Responsabilidades da organização \n4. Medidas de prevenção \n5. Aclimatização \n6. Procedimentos de Emergência 1. Objetivos\n1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção. 2. Campo de Aplicação",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 14422
   },
   {
     "id": "chunk-47",
-    "text": "6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho.",
-    "heading": "**ANEXO III da NR-09**",
-    "char_offset": 14177
+    "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor. 3. Responsabilidades da organização\n3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 14833
   },
   {
     "id": "chunk-48",
-    "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 14245
+    "text": "3.1.1 A organização deve orientar os trabalhadores especialmente quanto aos seguintes aspectos: \na) fatores que influenciam os riscos relacionados à exposição ao calor; \n7 b) distúrbios relacionados ao calor, com exemplos de seus sinais e sintomas, tratamentos, entre outros;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 15135
   },
   {
     "id": "chunk-49",
-    "text": "1. Objetivos \n2. Campo de Aplicação \n3. Responsabilidades da organização \n4. Medidas de prevenção \n5. Aclimatização \n6. Procedimentos de Emergência",
-    "heading": "**1. Objetivos**",
-    "char_offset": 14401
+    "text": "c) necessidade de informar ao superior hierárquico ou ao médico a ocorrência de sinais e sintomas relacionados ao calor; \nd) medidas de prevenção relacionadas à exposição ao calor, de acordo com a avalição de risco da atividade; \ne) informações sobre o ambiente de trabalho e suas características; e",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 15415
   },
   {
     "id": "chunk-50",
-    "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção.",
-    "heading": "**2. Campo de Aplicação**",
-    "char_offset": 14630
+    "text": "f) situações de emergência decorrentes da exposição ocupacional ao calor e condutas a serem adotadas. \n3.1.2 Devem ser realizados treinamentos periódicos anuais específicos, quando indicados nas medidas de prevenção. \n3.2 A avaliação preliminar da exposição ocupacional ao calor deve considerar os seguintes aspectos, quando aplicáveis:",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 15719
   },
   {
     "id": "chunk-51",
-    "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor.",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 14747
+    "text": "a) a identificação do perigo; \nb) a caracterização das fontes geradoras; \nc) a identificação das possíveis trajetórias e dos meios de propagação dos agentes no ambiente de trabalho; \nd) identificação das funções e determinação do número de trabalhadores expostos;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 16061
   },
   {
     "id": "chunk-52",
-    "text": "3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador. \n3.1.1 A organização deve orientar os trabalhadores especialmente quanto aos seguintes aspectos: \na) fatores que influenciam os riscos relacionados à exposição ao calor;",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 14750
+    "text": "e) a caracterização das atividades e do tipo da exposição, considerando a organização do trabalho; \nf) a obtenção de dados existentes na empresa, indicativos de possível comprometimento da saúde decorrente do trabalho; \ng) os possíveis lesões ou agravos à saúde relacionados aos perigos identificados, disponíveis na literatura técnica;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 16329
   },
   {
     "id": "chunk-53",
-    "text": "7 b) distúrbios relacionados ao calor, com exemplos de seus sinais e sintomas, tratamentos, entre outros; \nc) necessidade de informar ao superior hierárquico ou ao médico a ocorrência de sinais e sintomas relacionados ao calor; \nd) medidas de prevenção relacionadas à exposição ao calor, de acordo com a avalição de risco da atividade;",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 15072
+    "text": "h) a descrição das medidas de prevenção já existentes; \ni) características dos fatores ambientais e demais condições de trabalho que possam influenciar na exposição ao calor e no mecanismo de trocas térmicas entre o trabalhador e o ambiente; \nj) estimativas do tempo de permanência em cada atividade e situação térmica às quais o trabalhador permanece exposto ao longo da sua jornada de trabalho;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 16670
   },
   {
     "id": "chunk-54",
-    "text": "e) informações sobre o ambiente de trabalho e suas características; e \nf) situações de emergência decorrentes da exposição ocupacional ao calor e condutas a serem adotadas. \n3.1.2 Devem ser realizados treinamentos periódicos anuais específicos, quando indicados nas medidas de prevenção.",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 15412
+    "text": "k) taxa metabólica para execução das atividades com exposição ao calor; e \nl) registros disponíveis sobre a exposição ocupacional ao calor. \n3.2.1 A avaliação preliminar deve subsidiar a adoção de medidas de prevenção, sem prejuízo de outras medidas previstas nas demais Normas Regulamentadoras.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 17071
   },
   {
     "id": "chunk-55",
-    "text": "3.2 A avaliação preliminar da exposição ocupacional ao calor deve considerar os seguintes aspectos, quando aplicáveis: \na) a identificação do perigo; \nb) a caracterização das fontes geradoras; \nc) a identificação das possíveis trajetórias e dos meios de propagação dos agentes no ambiente de trabalho;",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 15705
+    "text": "3.2.1.1 Se as informações obtidas na avaliação preliminar não forem suficientes para permitir a tomada de decisão quanto à necessidade de implementação de medidas de prevenção, deve-se proceder à avaliação quantitativa para: 8 \na) comprovar o controle da exposição ou a inexistência de riscos identificados na etapa de avaliação preliminar;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 17370
   },
   {
     "id": "chunk-56",
-    "text": "d) identificação das funções e determinação do número de trabalhadores expostos; \ne) a caracterização das atividades e do tipo da exposição, considerando a organização do trabalho; \nf) a obtenção de dados existentes na empresa, indicativos de possível comprometimento da saúde decorrente do trabalho;",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 16011
+    "text": "b) dimensionar a exposição dos trabalhadores; e \nc) subsidiar o equacionamento das medidas de prevenção. \n3.3 A avaliação quantitativa do calor deverá ser realizada com base na metodologia e procedimentos descritos na Norma de Higiene Ocupacional n° 06 - NHO 06 (2ª edição - 2017) da Fundacentro, nos seguintes aspectos:",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 17715
   },
   {
     "id": "chunk-57",
-    "text": "g) os possíveis lesões ou agravos à saúde relacionados aos perigos identificados, disponíveis na literatura técnica; \nh) a descrição das medidas de prevenção já existentes; \ni) características dos fatores ambientais e demais condições de trabalho que possam influenciar na exposição ao calor e no mecanismo de trocas térmicas entre o trabalhador e o ambiente;",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 16316
+    "text": "a) determinação de sobrecarga térmica por meio do índice IBUTG - Índice de Bulbo Úmido Termômetro de Globo; \nb) equipamentos de medição e formas de montagem, posicionamento e procedimentos de uso dos mesmos nos locais avaliados; \nc) procedimentos quanto à conduta do avaliador; e",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 18040
   },
   {
     "id": "chunk-58",
-    "text": "j) estimativas do tempo de permanência em cada atividade e situação térmica às quais o trabalhador permanece exposto ao longo da sua jornada de trabalho; \nk) taxa metabólica para execução das atividades com exposição ao calor; e \nl) registros disponíveis sobre a exposição ocupacional ao calor.",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 16680
+    "text": "d) medições e cálculos. \n3.3.1 A taxa metabólica deve ser estimada com base na comparação da atividade realizada pelo trabalhador com as opções apresentadas no Quadro 3 deste anexo. \n3.3.1.1 Caso uma atividade específica não esteja apresentada no Quadro 3 deste anexo, o valor da taxa metabólica deverá ser obtido por associação com atividade similar do referido Quadro.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 18324
   },
   {
     "id": "chunk-59",
-    "text": "3.2.1 A avaliação preliminar deve subsidiar a adoção de medidas de prevenção, sem prejuízo de outras medidas previstas nas demais Normas Regulamentadoras. \n3.2.1.1 Se as informações obtidas na avaliação preliminar não forem suficientes para permitir a tomada de decisão quanto à necessidade de implementação de medidas de prevenção, deve-se proceder à avaliação quantitativa para: 8",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 16978
+    "text": "3.3.1.1.1 Na impossibilidade de enquadramento por similaridade, a taxa metabólica também pode ser estimada com base em outras referências técnicas, desde que justificadas tecnicamente. \n3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível. 4. Medidas de prevenção",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 18698
   },
   {
     "id": "chunk-60",
-    "text": "a) comprovar o controle da exposição ou a inexistência de riscos identificados na etapa de avaliação preliminar; \nb) dimensionar a exposição dos trabalhadores; e \nc) subsidiar o equacionamento das medidas de prevenção. \n3.3 A avaliação quantitativa do calor deverá ser realizada com base na metodologia e procedimentos descritos na Norma de Higiene Ocupacional n° 06 - NHO 06 (2ª edição - 2017) da Fundacentro, nos seguintes aspectos:",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 17366
+    "text": "4.1 Medidas preventivas \n4.1.1 Sempre que os níveis de ação para exposição ocupacional ao calor, estabelecidos no Quadro 1 forem excedidos, devem ser adotadas pela organização, uma ou mais das seguintes medidas: \na) disponibilizar água fresca potável (ou outro líquido de reposição adequado) e incentivar a sua ingestão; e",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 19150
   },
   {
     "id": "chunk-61",
-    "text": "a) determinação de sobrecarga térmica por meio do índice IBUTG - Índice de Bulbo Úmido Termômetro de Globo; \nb) equipamentos de medição e formas de montagem, posicionamento e procedimentos de uso dos mesmos nos locais avaliados; \nc) procedimentos quanto à conduta do avaliador; e",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 17805
+    "text": "b) programar os trabalhos mais pesados (acima de 414W - quatrocentos e quatorze watts), preferencialmente nos períodos com condições térmicas mais amenas, desde que nesses períodos não ocorram riscos adicionais. \n4.1.2 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.1.1, o empregador deve fornecer vestimentas de trabalho adaptadas ao tipo de exposição e à natureza da atividade. 9",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 19476
   },
   {
     "id": "chunk-62",
-    "text": "d) medições e cálculos. \n3.3.1 A taxa metabólica deve ser estimada com base na comparação da atividade realizada pelo trabalhador com as opções apresentadas no Quadro 3 deste anexo. \n3.3.1.1 Caso uma atividade específica não esteja apresentada no Quadro 3 deste anexo, o valor da taxa metabólica deverá ser obtido por associação com atividade similar do referido Quadro.",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 18089
+    "text": "4.2 Medidas corretivas \n4.2.1 As medidas corretivas visam reduzir a exposição ocupacional ao calor a valores abaixo do limite de exposição. \n4.2.2 Quando ultrapassados os limites de exposição estabelecidos no Quadro 2, devem ser adotadas pela organização uma ou mais das seguintes medidas corretivas:",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 19896
   },
   {
     "id": "chunk-63",
-    "text": "3.3.1.1.1 Na impossibilidade de enquadramento por similaridade, a taxa metabólica também pode ser estimada com base em outras referências técnicas, desde que justificadas tecnicamente. \n3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível.",
-    "heading": "**3. Responsabilidades da organização**",
-    "char_offset": 18463
+    "text": "a) adequar os processos, as rotinas ou as operações de trabalho; \nb) alternar operações que gerem exposições a níveis mais elevados de calor com outras que não apresentem exposições ou impliquem exposições a menores níveis, resultando na redução da exposição; e",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 20200
   },
   {
     "id": "chunk-64",
-    "text": "4.1 Medidas preventivas \n4.1.1 Sempre que os níveis de ação para exposição ocupacional ao calor, estabelecidos no Quadro 1 forem excedidos, devem ser adotadas pela organização, uma ou mais das seguintes medidas: \na) disponibilizar água fresca potável (ou outro líquido de reposição adequado) e incentivar a sua ingestão; e",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 18893
+    "text": "c) disponibilizar acesso a locais, inclusive naturais, termicamente mais amenos, que possibilitem pausas, permitindo a recuperação térmica nas atividades realizadas em locais abertos e distantes de quaisquer edificações ou estruturas naturais ou artificiais. _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 20464
   },
   {
     "id": "chunk-65",
-    "text": "b) programar os trabalhos mais pesados (acima de 414W - quatrocentos e quatorze watts), preferencialmente nos períodos com condições térmicas mais amenas, desde que nesses períodos não ocorram riscos adicionais. \n4.1.2 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.1.1, o empregador deve fornecer vestimentas de trabalho adaptadas ao tipo de exposição e à natureza da atividade. 9",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 19219
+    "text": "4.2.2.1 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.2.2, a organização deve: \na) adaptar os locais e postos de trabalho; \nb) reduzir a temperatura ou a emissividade das fontes de calor; \nc) utilizar barreiras para o calor radiante;",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 20792
   },
   {
     "id": "chunk-66",
-    "text": "4.2 Medidas corretivas \n4.2.1 As medidas corretivas visam reduzir a exposição ocupacional ao calor a valores abaixo do limite de exposição. \n4.2.2 Quando ultrapassados os limites de exposição estabelecidos no Quadro 2, devem ser adotadas pela organização uma ou mais das seguintes medidas corretivas:",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 19639
+    "text": "d) adequar o sistema de ventilação do ar; e \ne) adequar a temperatura e a umidade relativa do ar. \n4.2.3 O Programa de Controle Médico de Saúde Ocupacional - PCMSO, previsto na Norma Regulamentadora nº 07, deve prever procedimentos e avaliações médicas considerando a necessidade de exames complementares e monitoramento fisiológico quando ultrapassados os limites de exposição previstos no Quadro 2 deste anexo e caracterizado risco de sobrecarga térmica e fisiológica dos trabalhadores expostos ao calor.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 21065
   },
   {
     "id": "chunk-67",
-    "text": "a) adequar os processos, as rotinas ou as operações de trabalho; \nb) alternar operações que gerem exposições a níveis mais elevados de calor com outras que não apresentem exposições ou impliquem exposições a menores níveis, resultando na redução da exposição; e",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 19943
+    "text": "4.2.3.1 Fica caracterizado o risco de sobrecarga térmica e fisiológica com possibilidade de lesão grave a integridade física ou a saúde dos trabalhadores: \na) quando não forem adotadas as medidas previstas no item 4 deste Anexo; ou \nb) quando as medidas adotadas não forem suficientes para a redução do risco. 5. Aclimatização",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 21576
   },
   {
     "id": "chunk-68",
-    "text": "c) disponibilizar acesso a locais, inclusive naturais, termicamente mais amenos, que possibilitem pausas, permitindo a recuperação térmica nas atividades realizadas em locais abertos e distantes de quaisquer edificações ou estruturas naturais ou artificiais. _(Alterada pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 20207
+    "text": "5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO. \n10 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente. 6. Procedimentos de emergência",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 21905
   },
   {
     "id": "chunk-69",
-    "text": "4.2.2.1 Para os ambientes fechados ou com fontes artificiais de calor, além do subitem 4.2.2, a organização deve: \na) adaptar os locais e postos de trabalho; \nb) reduzir a temperatura ou a emissividade das fontes de calor; \nc) utilizar barreiras para o calor radiante;",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 20535
+    "text": "6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador para atendimento; e \nb) informação a todas as pessoas envolvidas nos cenários de emergências.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 22325
   },
   {
     "id": "chunk-70",
-    "text": "d) adequar o sistema de ventilação do ar; e \ne) adequar a temperatura e a umidade relativa do ar. \n4.2.3 O Programa de Controle Médico de Saúde Ocupacional - PCMSO, previsto na Norma Regulamentadora nº 07, deve prever procedimentos e avaliações médicas considerando a necessidade de exames complementares e monitoramento fisiológico quando ultrapassados os limites de exposição previstos no Quadro 2 deste anexo e caracterizado risco de sobrecarga térmica e fisiológica dos trabalhadores expostos ao calor.",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 20808
+    "text": "Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para trabalhadores não aclimatizados _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_ 11 \n| 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, | | | | | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 22612
   },
   {
     "id": "chunk-71",
-    "text": "4.2.3.1 Fica caracterizado o risco de sobrecarga térmica e fisiológica com possibilidade de lesão grave a integridade física ou a saúde dos trabalhadores: \na) quando não forem adotadas as medidas previstas no item 4 deste Anexo; ou \nb) quando as medidas adotadas não forem suficientes para a redução do risco.",
-    "heading": "**4. Medidas de prevenção**",
-    "char_offset": 21319
+    "text": "| --- | --- | --- | --- | --- | --- |\n| devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências | | | | | |\n| técnicas emitidas por organização competente. | | | | | |\n| | | | | | |\n| 6. Procedimentos de emergência | | | | | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 22914
   },
   {
     "id": "chunk-72",
-    "text": "5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO. \n10 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente.",
-    "heading": "**5. Aclimatização**",
-    "char_offset": 21633
+    "text": "| | | | | | |\n| 6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: | | | | | |\n| a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador | | | | | |\n| para atendimento; e | | | | | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 23179
   },
   {
     "id": "chunk-73",
-    "text": "6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador para atendimento; e \nb) informação a todas as pessoas envolvidas nos cenários de emergências.",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 22024
+    "text": "| b) informação a todas as pessoas envolvidas nos cenários de emergências. | | | | | |\n| | | | | | |\n| Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para | | | | | |\n| trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) | | | | | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 23445
   },
   {
     "id": "chunk-74",
-    "text": "Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para trabalhadores não aclimatizados _(Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026)_ 11 \n| 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, | | | | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 22311
+    "text": "| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| 100 | 31,7 | 183 | 28,0 | 334 | 24,3 |\n| 101 | 31,6 | 186 | 27,9 | 340 | 24,2 |\n| 103 | 31,5 | 189 | 27,8 | 345 | 24,1 |\n| 105 | 31,4 | 192 | 27,7 | 351 | 24,0 |\n| 106 | 31,3 | 195 | 27,6 | 357 | 23,9 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 23765
   },
   {
     "id": "chunk-75",
-    "text": "| --- | --- | --- | --- | --- | --- |\n| devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências | | | | | |\n| técnicas emitidas por organização competente. | | | | | |\n| | | | | | |\n| 6. Procedimentos de emergência | | | | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 22613
+    "text": "| 108 | 31,2 | 198 | 27,5 | 363 | 23,8 |\n| 110 | 31,1 | 201 | 27,4 | 369 | 23,7 |\n| 112 | 31,0 | 205 | 27,3 | 375 | 23,6 |\n| 114 | 30,9 | 208 | 27,2 | 381 | 23,5 |\n| 115 | 30,8 | 212 | 27,1 | 387 | 23,4 |\n| 117 | 30,7 | 215 | 27,0 | 394 | 23,3 |\n| 119 | 30,6 | 219 | 26,9 | 400 | 23,2 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 24053
   },
   {
     "id": "chunk-76",
-    "text": "| | | | | | |\n| 6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: | | | | | |\n| a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador | | | | | |\n| para atendimento; e | | | | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 22878
+    "text": "| 121 | 30,5 | 222 | 26,8 | 407 | 23,1 |\n| 123 | 30,4 | 226 | 26,7 | 414 | 23,0 |\n| 125 | 30,3 | 230 | 26,6 | 420 | 22,9 |\n| 127 | 30,2 | 233 | 26,5 | 427 | 22,8 |\n| 129 | 30,1 | 237 | 26,4 | 434 | 22,7 |\n| 132 | 30,0 | 241 | 26,3 | 442 | 22,6 |\n| 134 | 29,9 | 245 | 26,2 | 449 | 22,5 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 24340
   },
   {
     "id": "chunk-77",
-    "text": "| b) informação a todas as pessoas envolvidas nos cenários de emergências. | | | | | |\n| | | | | | |\n| Quadro 1 - Nível de Ação para Trabalhadores Aclimatizados e Limite de Exposição Ocupacional para | | | | | |\n| trabalhadores não aclimatizados (Alterado pela Portaria MTE nº 105, de 29 de janeiro de 2026) | | | | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 23144
+    "text": "| 136 | 29,8 | 249 | 26,1 | 456 | 22,4 |\n| 138 | 29,7 | 253 | 26,0 | 464 | 22,3 |\n| 140 | 29,6 | 257 | 25,9 | 479 | 22,1 |\n| 143 | 29,5 | 262 | 25,8 | 487 | 22,0 |\n| 145 | 29,4 | 266 | 25,7 | 495 | 21,9 |\n| 148 | 29,3 | 270 | 25,6 | 503 | 21,8 |\n| 150 | 29,2 | 275 | 25,5 | 511 | 21,7 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 24627
   },
   {
     "id": "chunk-78",
-    "text": "| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |\n| 100 | 31,7 | 183 | 28,0 | 334 | 24,3 |\n| 101 | 31,6 | 186 | 27,9 | 340 | 24,2 |\n| 103 | 31,5 | 189 | 27,8 | 345 | 24,1 |\n| 105 | 31,4 | 192 | 27,7 | 351 | 24,0 |\n| 106 | 31,3 | 195 | 27,6 | 357 | 23,9 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 23464
+    "text": "| 152 | 29,1 | 279 | 25,4 | 520 | 21,6 |\n| 155 | 29,0 | 284 | 25,3 | 528 | 21,5 |\n| 158 | 28,9 | 289 | 25,2 | 537 | 21,4 |\nQuadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados 12 \n| 𝐌 [𝐖] | | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 24916
   },
   {
     "id": "chunk-79",
-    "text": "| 108 | 31,2 | 198 | 27,5 | 363 | 23,8 |\n| 110 | 31,1 | 201 | 27,4 | 369 | 23,7 |\n| 112 | 31,0 | 205 | 27,3 | 375 | 23,6 |\n| 114 | 30,9 | 208 | 27,2 | 381 | 23,5 |\n| 115 | 30,8 | 212 | 27,1 | 387 | 23,4 |\n| 117 | 30,7 | 215 | 27,0 | 394 | 23,3 |\n| 119 | 30,6 | 219 | 26,9 | 400 | 23,2 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 23752
+    "text": "| --- | --- | --- | --- | --- | --- | --- |\n| 160 | | 28,8 | 293 | 25,1 | 546 | 21,3 |\n| 163 | | 28,7 | 298 | 25,0 | 555 | 21,2 |\n| 165 | | 28,6 | 303 | 24,9 | 564 | 21,1 |\n| 168 | | 28,5 | 308 | 24,8 | 573 | 21,0 |\n| 171 | | 28,4 | 313 | 24,7 | 583 | 20,9 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 25213
   },
   {
     "id": "chunk-80",
-    "text": "| 121 | 30,5 | 222 | 26,8 | 407 | 23,1 |\n| 123 | 30,4 | 226 | 26,7 | 414 | 23,0 |\n| 125 | 30,3 | 230 | 26,6 | 420 | 22,9 |\n| 127 | 30,2 | 233 | 26,5 | 427 | 22,8 |\n| 129 | 30,1 | 237 | 26,4 | 434 | 22,7 |\n| 132 | 30,0 | 241 | 26,3 | 442 | 22,6 |\n| 134 | 29,9 | 245 | 26,2 | 449 | 22,5 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 24039
+    "text": "| 174 | | 28,3 | 318 | 24,6 | 593 | 20,8 |\n| 177 | | 28,2 | 324 | 24,5 | 602 | 20,7 |\n| 180 | | 28,1 | 329 | 24,4 | | |\n| | | | | | | |\n| Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados | | | | | | |\n| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 25472
   },
   {
     "id": "chunk-81",
-    "text": "| 136 | 29,8 | 249 | 26,1 | 456 | 22,4 |\n| 138 | 29,7 | 253 | 26,0 | 464 | 22,3 |\n| 140 | 29,6 | 257 | 25,9 | 479 | 22,1 |\n| 143 | 29,5 | 262 | 25,8 | 487 | 22,0 |\n| 145 | 29,4 | 266 | 25,7 | 495 | 21,9 |\n| 148 | 29,3 | 270 | 25,6 | 503 | 21,8 |\n| 150 | 29,2 | 275 | 25,5 | 511 | 21,7 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 24326
+    "text": "| 100 | 33,7 | | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 | | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 | | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 | | 197 | 30,3 | 367 | 27,2 |\n| 108 | 33,3 | | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 | | 205 | 30,1 | 382 | 27,0 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 25794
   },
   {
     "id": "chunk-82",
-    "text": "| 152 | 29,1 | 279 | 25,4 | 520 | 21,6 |\n| 155 | 29,0 | 284 | 25,3 | 528 | 21,5 |\n| 158 | 28,9 | 289 | 25,2 | 537 | 21,4 |\nQuadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados 12 \n| 𝐌 [𝐖] | | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 24615
+    "text": "| 112 | 33,1 | | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 | | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 | | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 | | 222 | 29,7 | 414 | 26,6 |\n| 122 | 32,7 | | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 | | 231 | 29,5 | 431 | 26,4 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 26052
   },
   {
     "id": "chunk-83",
-    "text": "| --- | --- | --- | --- | --- | --- | --- |\n| 160 | | 28,8 | 293 | 25,1 | 546 | 21,3 |\n| 163 | | 28,7 | 298 | 25,0 | 555 | 21,2 |\n| 165 | | 28,6 | 303 | 24,9 | 564 | 21,1 |\n| 168 | | 28,5 | 308 | 24,8 | 573 | 21,0 |\n| 171 | | 28,4 | 313 | 24,7 | 583 | 20,9 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 24912
+    "text": "| 127 | 32,5 | | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 | | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 | | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 | | 251 | 29,1 | 467 | 26,0 |\n| 137 | 32,1 | | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 | | 261 | 28,9 | 486 | 25,8 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 26310
   },
   {
     "id": "chunk-84",
-    "text": "| 174 | | 28,3 | 318 | 24,6 | 593 | 20,8 |\n| 177 | | 28,2 | 324 | 24,5 | 602 | 20,7 |\n| 180 | | 28,1 | 329 | 24,4 | | |\n| | | | | | | |\n| Quadro 2 - Limite de exposição ocupacional ao calor para trabalhadores aclimatizados | | | | | | |\n| 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 | 𝐌 [𝐖] | ∘ 𝐈𝐁𝐔𝐓𝐆 [ 𝐂] 𝐌Á𝐗 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 25171
+    "text": "| 143 | 31,9 | | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 | | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 | | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 | | 283 | 28,5 | 526 | 25,4 |\n| 155 | 31,5 | | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 | | 294 | 28,3 | 548 | 25,2 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 26568
   },
   {
     "id": "chunk-85",
-    "text": "| 100 | 33,7 | | 186 | 30,6 | 346 | 27,5 |\n| 102 | 33,6 | | 189 | 30,5 | 353 | 27,4 |\n| 104 | 33,5 | | 193 | 30,4 | 360 | 27,3 |\n| 106 | 33,4 | | 197 | 30,3 | 367 | 27,2 |\n| 108 | 33,3 | | 201 | 30,2 | 374 | 27,1 |\n| 110 | 33,2 | | 205 | 30,1 | 382 | 27,0 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 25493
+    "text": "| 161 | 31,3 | | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 | | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 | | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 | | 319 | 27,9 | 594 | 24,8 |\n| 175 | 30,9 | | 325 | 27,8 | 606 | 24,7 |\n| 178 | 30,8 | | 332 | 27,7 | | |\n| 182 | 30,7 | | 339 | 27,6 | | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 26826
   },
   {
     "id": "chunk-86",
-    "text": "| 112 | 33,1 | | 209 | 30,0 | 390 | 26,9 |\n| 115 | 33,0 | | 214 | 29,9 | 398 | 26,8 |\n| 117 | 32,9 | | 218 | 29,8 | 406 | 26,7 |\n| 119 | 32,8 | | 222 | 29,7 | 414 | 26,6 |\n| 122 | 32,7 | | 227 | 29,6 | 422 | 26,5 |\n| 124 | 32,6 | | 231 | 29,5 | 431 | 26,4 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 25751
+    "text": "Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. \nNota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação médica prevista na NR-07.",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 27111
   },
   {
     "id": "chunk-87",
-    "text": "| 127 | 32,5 | | 236 | 29,4 | 440 | 26,3 |\n| 129 | 32,4 | | 241 | 29,3 | 448 | 26,2 |\n| 132 | 32,3 | | 246 | 29,2 | 458 | 26,1 |\n| 135 | 32,2 | | 251 | 29,1 | 467 | 26,0 |\n| 137 | 32,1 | | 256 | 29,0 | 476 | 25,9 |\n| 140 | 32,0 | | 261 | 28,9 | 486 | 25,8 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 26009
+    "text": "Quadro 3 - Taxa metabólica por tipo de atividade 13 \n| Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que | |\n| --- | --- |\n| não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 27430
   },
   {
     "id": "chunk-88",
-    "text": "| 143 | 31,9 | | 266 | 28,8 | 496 | 25,7 |\n| 146 | 31,8 | | 272 | 28,7 | 506 | 25,6 |\n| 149 | 31,7 | | 277 | 28,6 | 516 | 25,5 |\n| 152 | 31,6 | | 283 | 28,5 | 526 | 25,4 |\n| 155 | 31,5 | | 289 | 28,4 | 537 | 25,3 |\n| 158 | 31,4 | | 294 | 28,3 | 548 | 25,2 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 26267
+    "text": "| Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação | |\n| médica prevista na NR-07. | |\n| | |\n| Quadro 3 - Taxa metabólica por tipo de atividade | |\n| Atividade | Taxa metabólica(W) |\n| Sentado | |\n| Em repouso | 100 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 27700
   },
   {
     "id": "chunk-89",
-    "text": "| 161 | 31,3 | | 300 | 28,2 | 559 | 25,1 |\n| 165 | 31,2 | | 306 | 28,1 | 570 | 25,0 |\n| 168 | 31,1 | | 313 | 28,0 | 582 | 24,9 |\n| 171 | 31,0 | | 319 | 27,9 | 594 | 24,8 |\n| 175 | 30,9 | | 325 | 27,8 | 606 | 24,7 |\n| 178 | 30,8 | | 332 | 27,7 | | |\n| 182 | 30,7 | | 339 | 27,6 | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 26525
+    "text": "| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 27967
   },
   {
     "id": "chunk-90",
-    "text": "Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. \nNota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação médica prevista na NR-07.",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 26810
+    "text": "| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 28238
   },
   {
     "id": "chunk-91",
-    "text": "Quadro 3 - Taxa metabólica por tipo de atividade 13 \n| Nota 1: Os limites estabelecidos são válidos apenas para trabalhadores com uso de vestimentas que | |\n| --- | --- |\n| não incrementem ajuste de IBUTG médio, conforme correções previstas no Quadro 4 deste anexo. | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 27129
+    "text": "| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 28497
   },
   {
     "id": "chunk-92",
-    "text": "| Nota 2: Os limites são válidos para trabalhadores com aptidão para o trabalho, conforme avaliação | |\n| médica prevista na NR-07. | |\n| | |\n| Quadro 3 - Taxa metabólica por tipo de atividade | |\n| Atividade | Taxa metabólica(W) |\n| Sentado | |\n| Em repouso | 100 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 27399
+    "text": "| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 | 14 |\n| Em pé, em movimento | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 28750
   },
   {
     "id": "chunk-93",
-    "text": "| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 27666
+    "text": "| --- | --- |\n| Andando no plano | |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 29021
   },
   {
     "id": "chunk-94",
-    "text": "| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 27937
+    "text": "| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 29287
   },
   {
     "id": "chunk-95",
-    "text": "| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 28196
+    "text": "| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 29541
   },
   {
     "id": "chunk-96",
-    "text": "| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 | 14 |\n| Em pé, em movimento | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 28449
+    "text": "| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\nQuadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas*",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 29799
   },
   {
     "id": "chunk-97",
-    "text": "| --- | --- |\n| Andando no plano | |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 28720
-  },
-  {
-    "id": "chunk-98",
-    "text": "| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 28986
-  },
-  {
-    "id": "chunk-99",
-    "text": "| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 29240
-  },
-  {
-    "id": "chunk-100",
-    "text": "| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\nQuadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas*",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 29498
-  },
-  {
-    "id": "chunk-101",
-    "text": "*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C \n| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 | |\n| --- | --- | --- |\n| Trabalho moderado de levantar ou empurrar | 349 | |\n| Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga | 391 | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 29762
-  },
-  {
-    "id": "chunk-102",
-    "text": "| Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trabalho com foice) | 495 | |\n| Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas) | 524 | |\n| | | |\n| Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 30076
-  },
-  {
-    "id": "chunk-103",
-    "text": "| | | |\n| Tipo de roupa | | Adição ao IBUTG [°C] |\n| Uniforme de trabalho (calça e camisa de manga comprida) | | 0 |\n| Macacão de tecido | | 0 |\n| Macacão de polipropileno SMS (Spun-Melt-Spun) | | 0,5 |\n| Macacão de poliolefina | | 2 |\n| Vestimenta ou macacão forrado (tecido duplo) | | 3 |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 30390
-  },
-  {
-    "id": "chunk-104",
-    "text": "| Avental longo de manga comprida impermeável ao vapor | | 4 |\n| Macacão impermeável ao vapor | | 10 |\n| Macacão impermeável ao vapor sobreposto à roupa de trabalho | | 12 |\n| *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 30681
-  },
-  {
-    "id": "chunk-105",
-    "text": "| | | |",
-    "heading": "**6. Procedimentos de emergência**",
-    "char_offset": 30946
+    "text": "*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C \n![Tabela da página 15](../assets/pages/page-015-table-00.png)",
+    "heading": "**5. Avaliação Quantitativa da Exposição**",
+    "char_offset": 30064
   }
 ]

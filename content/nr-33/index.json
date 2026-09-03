@@ -57,23 +57,13 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO I**",
-      "id": "anexo-i"
+      "text": "**ANEXO I** SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO",
+      "id": "anexo-i-sinalização-obrigatória-para-espaço-confinado"
     },
     {
       "level": 1,
-      "text": "**SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO**",
-      "id": "sinalização-obrigatória-para-espaço-confinado"
-    },
-    {
-      "level": 1,
-      "text": "**ANEXO II**",
-      "id": "anexo-ii"
-    },
-    {
-      "level": 1,
-      "text": "**MODELO DE PET**",
-      "id": "modelo-de-pet"
+      "text": "**ANEXO II** MODELO DE PET",
+      "id": "anexo-ii-modelo-de-pet"
     },
     {
       "level": 1,
@@ -84,11 +74,6 @@
       "level": 1,
       "text": "**2 Conteúdo programático**",
       "id": "2-conteúdo-programático"
-    },
-    {
-      "level": 1,
-      "text": "**GLOSSÁRIO**",
-      "id": "glossário"
     }
   ]
 }

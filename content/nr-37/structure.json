@@ -93,8 +93,8 @@
     },
     {
       "id": "373-responsabilidades",
-      "number": "",
-      "title": "37.3. Responsabilidades",
+      "number": "37.3",
+      "title": "Responsabilidades",
       "blocks": [
         {
           "type": "item",
@@ -249,8 +249,8 @@
     },
     {
       "id": "375-programa-de-gerenciamento-de-riscos---pgr-e-análise-de-riscos-das-instalações-e-processos",
-      "number": "",
-      "title": "37.5. Programa de Gerenciamento de Riscos - PGR e análise de riscos das instalações e processos",
+      "number": "37.5",
+      "title": "Programa de Gerenciamento de Riscos - PGR e análise de riscos das instalações e processos",
       "blocks": [
         {
           "type": "item",
@@ -706,14 +706,13 @@
           "number": "37.7.1",
           "depth": 2,
           "text": "A operadora da instalação e as empresas que prestam serviços a bordo da plataforma devem constituir SESMT em terra e a bordo de cada plataforma, de acordo com o estabelecido nesta NR e na NR-04 (Serviços Especializados em Segurança e Medicina do Trabalho - SESMT), no que não conflitar."
-        }
-      ]
-    },
-    {
-      "id": "3772-sesmt-em-terra",
-      "number": "",
-      "title": "37.7.2 SESMT em terra",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "37.7.2",
+          "depth": 2,
+          "text": "SESMT em terra"
+        },
         {
           "type": "item",
           "number": "37.7.2.1",
@@ -3680,14 +3679,13 @@
           "number": "37.12.6.8",
           "depth": 3,
           "text": "A câmara de refrigeração deve ter botoeira de emergência no seu interior e dispositivo que permita a abertura internamente."
-        }
-      ]
-    },
-    {
-      "id": "37127-camarotes",
-      "number": "",
-      "title": "37.12.7 Camarotes",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "37.12.7",
+          "depth": 2,
+          "text": "Camarotes"
+        },
         {
           "type": "item",
           "number": "37.12.7.1",
@@ -4282,14 +4280,13 @@
           "number": "37.12.7.10",
           "depth": 3,
           "text": "É vedado o transbordo de trabalhadores registrados no People On Board - POB de uma plataforma para o pernoite em alojamento de outra plataforma, com a finalidade de suprir ausência de acomodações."
-        }
-      ]
-    },
-    {
-      "id": "37128-lavanderia",
-      "number": "",
-      "title": "37.12.8 Lavanderia",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "37.12.8",
+          "depth": 2,
+          "text": "Lavanderia"
+        },
         {
           "type": "item",
           "number": "37.12.8.1",
@@ -10059,14 +10056,8 @@
       ]
     },
     {
-      "id": "anexo-i",
+      "id": "anexo-i-curso-básico-para-manipuladores-de-alimentos",
       "number": "ANEXO I",
-      "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "curso-básico-para-manipuladores-de-alimentos",
-      "number": "",
       "title": "CURSO BÁSICO PARA MANIPULADORES DE ALIMENTOS",
       "blocks": [
         {
@@ -10173,25 +10164,22 @@
       "id": "anexo-ii",
       "number": "ANEXO II",
       "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "símbolos-para-sinalizar-fontes-de-radiação-ionizante-locais-de-armazenamento-de-material-radioativo-e-locais-de-trabalho-com-exposição-à-radiação-ionizante-industrial-ou-de-ocorrência-natural",
-      "number": "",
-      "title": "SÍMBOLOS PARA SINALIZAR FONTES DE RADIAÇÃO IONIZANTE, LOCAIS DE ARMAZENAMENTO DE MATERIAL RADIOATIVO E LOCAIS DE TRABALHO COM EXPOSIÇÃO À RADIAÇÃO IONIZANTE INDUSTRIAL OU DE OCORRÊNCIA NATURAL",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**SÍMBOLOS PARA SINALIZAR FONTES DE RADIAÇÃO IONIZANTE, LOCAIS DE ARMAZENAMENTO DE MATERIAL RADIOATIVO E LOCAIS DE TRABALHO COM EXPOSIÇÃO À RADIAÇÃO IONIZANTE INDUSTRIAL OU DE OCORRÊNCIA NATURAL**"
+        }
+      ]
     },
     {
       "id": "anexo-iii",
       "number": "ANEXO III",
       "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "curso-complementar-para-serviços-em-instalações-elétricas-em-alta-tensão",
-      "number": "",
-      "title": "CURSO COMPLEMENTAR PARA SERVIÇOS EM INSTALAÇÕES ELÉTRICAS EM ALTA TENSÃO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CURSO COMPLEMENTAR PARA SERVIÇOS EM INSTALAÇÕES ELÉTRICAS EM ALTA TENSÃO**"
+        },
         {
           "type": "paragraph",
           "text": "Carga horária mínima: 16 horas."
@@ -10344,13 +10332,11 @@
       "id": "anexo-iv",
       "number": "ANEXO IV",
       "title": "ANEXO IV",
-      "blocks": []
-    },
-    {
-      "id": "curso-básico-de-segurança-em-operações-de-movimentação-de-cargas-e-transporte-de-pessoas",
-      "number": "",
-      "title": "CURSO BÁSICO DE SEGURANÇA EM OPERAÇÕES DE MOVIMENTAÇÃO DE CARGAS E TRANSPORTE DE PESSOAS",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CURSO BÁSICO DE SEGURANÇA EM OPERAÇÕES DE MOVIMENTAÇÃO DE CARGAS E TRANSPORTE DE PESSOAS**"
+        },
         {
           "type": "paragraph",
           "text": "Carga horária mínima: 20 horas."
@@ -10479,14 +10465,8 @@
       ]
     },
     {
-      "id": "anexo-v",
+      "id": "anexo-v-curso-complementar-para-operadores-de-guindastes",
       "number": "ANEXO V",
-      "title": "ANEXO V",
-      "blocks": []
-    },
-    {
-      "id": "curso-complementar-para-operadores-de-guindastes",
-      "number": "",
       "title": "CURSO COMPLEMENTAR PARA OPERADORES DE GUINDASTES",
       "blocks": [
         {
@@ -10568,14 +10548,11 @@
               "text": "avaliação final."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "Glossário"
+        },
         {
           "type": "paragraph",
           "text": "**Acidente ampliado:** evento subitâneo, como emissão, incêndio ou explosão de grande magnitude, no curso de uma atividade em instalação sujeita a riscos de acidentes maiores, envolvendo uma ou mais substâncias perigosas e que implica grave perigo, imediato ou retardado, para os trabalhadores, a população ou o meio ambiente."

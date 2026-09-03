@@ -494,277 +494,241 @@
   {
     "id": "chunk-82",
     "text": "a) equipamentos de sondagem inicial e de monitoramento contínuo da atmosfera; \nb) serviço de emergência e salvamento; e \nc) prevenção de riscos em espaços confinados mediante projeto.",
-    "heading": "**ANEXO I**",
+    "heading": "**ANEXO I** SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO",
     "char_offset": 26858
   },
   {
     "id": "chunk-83",
     "text": "_ _ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
-    "heading": "**ANEXO II**",
-    "char_offset": 26967
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 26966
   },
   {
     "id": "chunk-84",
     "text": "| **Modelo de caráter informativo para elaboração da PET em Espaço Confinado** |\n| --- |\n| Nome da organização: |\n| Local do espaço confinado: |\n| Espaço confinado nº: |\n| Data e horário da emissão: |\n| Data e horário do término: |\n| Trabalho a ser realizado: |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 26969
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 26967
   },
   {
     "id": "chunk-85",
     "text": "| Trabalhadores autorizados: |\n| Vigia: |\n| Equipe de resgate: |\n| Supervisor de Entrada: |\n_ _ \n![Página 12 — imagem 0](../assets/pages/page-012-image-00.png)\nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 27234
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 27232
   },
   {
     "id": "chunk-86",
-    "text": "_ _ \n| Procedimentos que devem ser completados antes da entrada | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1. Isolamento | | | | | S ( ) | N ( ) |\n| 2. Teste inicial da atmosfera: horário | | | | | | |\n| Oxigênio_________________________________________________ % O 2 | | | | | | |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 27496
+    "text": "_ _ \n![Tabela da página 13](../assets/pages/page-013-table-00.png)\nEntra em vigor no dia **03 de outubro de 2022** \n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nA entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”.",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 27497
   },
   {
     "id": "chunk-87",
-    "text": "| Inflamáveis_______________________________________________ % LIE | | | | | | |\n| Gases / vapores tóxicos _____________________________________ ppm | | | | | | |\n| Gases / vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás)______________________________________________________ppm | | | | | | |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 27795
+    "text": "A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. \nQualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR.",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 27767
   },
   {
     "id": "chunk-88",
-    "text": "| Poeiras / fumos / névoas tóxicas ______________________________ mg/m³ | | | | | | |\n| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 3. Bloqueios, travamento e etiquetagem | | | | N/A ( ) | S ( ) | N ( ) |\n| 4. Purga e/ou lavagem | | | | N/A ( ) | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 28134
+    "text": "Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. \n**ANEXO III** \n_ _ \n| Roupa de proteção | S ( ) | N ( ) |\n| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 28155
   },
   {
     "id": "chunk-89",
-    "text": "| 5. Ventilação/exaustão - tipo, equipamento e tempo | | | | N/A ( ) | S ( ) | N ( ) |\n| 6. Teste após ventilação e isolamento: horário ___:___ | | | | | | |\n| Oxigênio _________________________________________________ % O > 19,5% ou < 23,0% 2 | | | | | | |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 28421
+    "text": "| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado com cilindro de escape | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 28426
   },
   {
     "id": "chunk-90",
-    "text": "| Inflamáveis _______________________________________________ %LIE < 10% | | | | | | |\n| Gases/vapores tóxicos (listar na PET adaptada os gases monitorados pelo instrumento detector de gás) ppm | | | | | | |\n| Poeiras/fumos/névoas tóxicas ________________________________________ mg/m³ | | | | | | |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 28679
+    "text": "| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |\n| Equipamentos de comunicação eletrônica adequado para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 28678
   },
   {
     "id": "chunk-91",
-    "text": "| Nome legível / assinatura do Supervisor dos testes: | | | | | | |\n| 7. Iluminação geral | | | | N/A ( ) | S ( ) | N ( ) |\n| 8. Procedimentos de comunicação | | | | N/A ( ) | S ( ) | N ( ) |\n| 9. Procedimentos de resgate | | | | N/A ( ) | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 28979
+    "text": "| Equipamento de proteção respiratória autônomo ou sistema de ar mandado com cilindro de escape para a equipe de resgate | S ( ) | N ( ) |\n| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 28982
   },
   {
     "id": "chunk-92",
-    "text": "| 10. Procedimentos e proteção de movimentação vertical | | | | N/A ( ) | S ( ) | N ( ) |\n| 11. Treinamento de todos os trabalhadores? | S ( ) | N ( ) | Estão válidos? | | S ( ) | N ( ) |\n| 12. Equipamentos: | | | | | | |\n| 13. Equipamento de monitoramento contínuo de gases adequado para trabalho em áreas potencialmente explosivas de leitura direta com alarmes em condições: | | | | | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 29235
+    "text": "| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos | | |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |\n| Procedimentos de Emergência e Resgate: | | |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ | | |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 29237
   },
   {
     "id": "chunk-93",
-    "text": "| Lanternas | | | | | S ( ) | N ( ) |\nEntra em vigor no dia **03 de outubro de 2022** \n_(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nA entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. \nA falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área.",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 29642
+    "text": "| Legenda: N/A - “não se aplica”; N - “não”; S - “sim”. ATENÇÃO: A entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. | | |",
+    "heading": "**ANEXO II** MODELO DE PET",
+    "char_offset": 29516
   },
   {
     "id": "chunk-94",
-    "text": "Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. \nEsta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada.",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 30086
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
+    "heading": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
+    "char_offset": 30319
   },
   {
     "id": "chunk-95",
-    "text": "**ANEXO III** \n_ _ \n| Roupa de proteção | S ( ) | N ( ) |\n| --- | --- | --- |\n| Extintores de incêndio | S ( ) | N ( ) |\n| Capacetes, botas, luvas | S ( ) | N ( ) |\n| Equipamentos de proteção respiratória/autônomo ou sistema de ar mandado com cilindro de escape | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 30420
+    "text": "**1** Carga horária e periodicidade \n**1.1** A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no Quadro 1 deste Anexo. \n**1.2** A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo.",
+    "heading": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
+    "char_offset": 30322
   },
   {
     "id": "chunk-96",
-    "text": "| Cinturão de segurança e linhas de vida para os trabalhadores autorizados | S ( ) | N ( ) |\n| Cinturão de segurança e linhas de vida para a equipe de resgate | S ( ) | N ( ) |\n| Escada | S ( ) | N ( ) |\n| Equipamentos de movimentação vertical/suportes externos | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 30700
+    "text": "**2.1** O conteúdo programático do treinamento inicial deve conter informações sobre: _(Retificado em 20/10/2022)_ \na) para o supervisor de entrada: \nI. definições; _(Retificado em 20/10/2022)_ \nII. identificação dos espaços confinados; \nIII. reconhecimento, avaliação e controle de riscos;",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 30850
   },
   {
     "id": "chunk-97",
-    "text": "| Equipamentos de comunicação eletrônica adequado para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |\n| Equipamento de proteção respiratória autônomo ou sistema de ar mandado com cilindro de escape para a equipe de resgate | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 30980
+    "text": "IV. funcionamento de equipamentos utilizados; \nV. procedimentos e utilização da PET; \nVI. critérios de indicação e uso de equipamentos para controle de riscos; \n_ _ \n| Capacitação | Treinamento inicial (carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 31147
   },
   {
     "id": "chunk-98",
-    "text": "| Equipamentos elétricos e eletrônicos adequados para trabalho em áreas potencialmente explosivas | S ( ) | N ( ) |\n| Procedimentos que devem ser completados durante o desenvolvimento dos trabalhos | | |\n| 14. Permissão de trabalhos à quente | S ( ) | N ( ) |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 31236
+    "text": "| --- | --- | --- | --- |\n| Supervisor de entrada | 40 horas | 8 horas/anual | Conforme previsto na NR-01 ou quando houver desvios na utilização de equipamentos ou nos procedimentos de entrada nos espaços confinados Conforme previsto na NR-01 ou quando identificados desvios na operação de resgate ou nos simulados |",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 31444
   },
   {
     "id": "chunk-99",
-    "text": "| Procedimentos de Emergência e Resgate: | | |\n| Telefones e contatos: Ambulância: ________ Bombeiros:________ Segurança: ______ | | |\n| Legenda: N/A - “não se aplica”; N - “não”; S - “sim”. ATENÇÃO: A entrada deve ser proibida se algum campo não for preenchido ou contiver a marca na coluna “não”. A falta de monitoramento contínuo da atmosfera no interior do espaço confinado, alarme, ordem do vigia ou qualquer situação de risco à segurança dos trabalhadores, implica no abandono imediato da área. Qualquer saída de toda a equipe implica a emissão de nova permissão de entrada e trabalho, exceto quanto a PET for prorrogada, atendidos os requisitos do item 33.5.12.1, desta NR. Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada. | | |",
-    "heading": "**MODELO DE PET**",
-    "char_offset": 31496
+    "text": "| Vigia e trabalhador autorizado | 16 horas | 8 horas/anual | |\n| Equipe de emergência e salvamento | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista/bianual | |",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 31761
   },
   {
     "id": "chunk-100",
-    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_",
-    "heading": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
-    "char_offset": 32434
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nVII. conhecimento sobre práticas seguras em espaços confinados; \nVIII. legislação de segurança e saúde no trabalho; \nXI. Programa de Proteção Respiratória;",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 32075
   },
   {
     "id": "chunk-101",
-    "text": "**1** Carga horária e periodicidade \n**1.1** A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no Quadro 1 deste Anexo. \n**1.2** A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo.",
-    "heading": "**CAPACITAÇÃO: CARGA HORÁRIA, PERIODICIDADE E CONTEÚDO PROGRAMÁTICO**",
-    "char_offset": 32437
+    "text": "X. área classificada; \nXI. noções de resgate e primeiros socorros; e \nXII. operações de salvamento. \nb) para o vigia e trabalhador autorizado: \nI. definições \nII. reconhecimento, avaliação e controle de riscos; \nIII. funcionamento de equipamentos utilizados;",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 32339
   },
   {
     "id": "chunk-102",
-    "text": "**2.1** O conteúdo programático do treinamento inicial deve conter informações sobre: _(Retificado em 20/10/2022)_ \na) para o supervisor de entrada: \nI. definições; _(Retificado em 20/10/2022)_ \nII. identificação dos espaços confinados; \nIII. reconhecimento, avaliação e controle de riscos;",
+    "text": "IV. procedimentos e utilização da PET; e \nV. noções de resgate e primeiros socorros. \nc) para a equipe de emergência e salvamento: temas estabelecidos em normas técnicas nacionais vigentes que tratam de resgate técnico em espaços confinados e, na sua ausência, em normas técnicas internacionais.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 32965
+    "char_offset": 32602
   },
   {
     "id": "chunk-103",
-    "text": "IV. funcionamento de equipamentos utilizados; \nV. procedimentos e utilização da PET; \nVI. critérios de indicação e uso de equipamentos para controle de riscos; \n_ _ \n| Capacitação | Treinamento inicial (carga horária) | Treinamento periódico (carga horária/periodicidade) | Treinamento eventual |",
+    "text": "**2.2** Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho. \n**2.3** O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior. GLOSSÁRIO",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 33262
+    "char_offset": 32901
   },
   {
     "id": "chunk-104",
-    "text": "| --- | --- | --- | --- |\n| Supervisor de entrada | 40 horas | 8 horas/anual | Conforme previsto na NR-01 ou quando houver desvios na utilização de equipamentos ou nos procedimentos de entrada nos espaços confinados Conforme previsto na NR-01 ou quando identificados desvios na operação de resgate ou nos simulados |",
+    "text": "Afogamento: aspiração de sólido ou líquido não corporal por submersão ou imersão do trabalhador. \nÁrea classificada: área potencialmente explosiva ou com probabilidade de ocorrência desta, ocasionada pela presença de mistura de ar com materiais inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, exigindo precauções especiais para instalação, manutenção, inspeção e utilização de equipamentos, instrumentos e acessórios empregados em instalações elétricas.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 33559
+    "char_offset": 33340
   },
   {
     "id": "chunk-105",
-    "text": "| Vigia e trabalhador autorizado | 16 horas | 8 horas/anual | |\n| Equipe de emergência e salvamento | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista | Conforme plano de emergência, 24 horas ou 32 horas, observado o nível profissional do resgatista/bianual | |",
+    "text": "Ajuste: operação destinada a fazer com que um instrumento de medição tenha desempenho compatível com o seu uso. O ajuste tem como objetivo atualizar o ponto de referência dos sensores. \nAuto-zero (ou ajuste de ar limpo): recurso dos detectores de gases para que se estabeleça a referência zero para todos os sensores de monitoramento de gases e vapores inflamáveis e contaminantes, além de ajustar o sensor de oxigênio para a concentração normal dessa substância no ar. Deve ser realizado em local com ar limpo, mantendo o botão liga/desliga do equipamento pressionado por determinado período para limpar as leituras e retirar eventual pressão existente no equipamento.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 33876
+    "char_offset": 33810
   },
   {
     "id": "chunk-106",
-    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nVII. conhecimento sobre práticas seguras em espaços confinados; \nVIII. legislação de segurança e saúde no trabalho; \nXI. Programa de Proteção Respiratória;",
+    "text": "Atmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde: qualquer atmosfera que apresente risco imediato à vida ou produza imediato efeito debilitante à saúde. \nAvaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do espaço confinado.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 34190
+    "char_offset": 34483
   },
   {
     "id": "chunk-107",
-    "text": "X. área classificada; \nXI. noções de resgate e primeiros socorros; e \nXII. operações de salvamento. \nb) para o vigia e trabalhador autorizado: \nI. definições \nII. reconhecimento, avaliação e controle de riscos; \nIII. funcionamento de equipamentos utilizados;",
+    "text": "_ _ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nBloqueio: dispositivo que impede a liberação de energias perigosas, tais como pressão, vapor, fluidos, combustíveis, água e outros, visando à contenção de energias perigosas para trabalho seguro em espaços confinados.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 34454
+    "char_offset": 34773
   },
   {
     "id": "chunk-108",
-    "text": "IV. procedimentos e utilização da PET; e \nV. noções de resgate e primeiros socorros. \nc) para a equipe de emergência e salvamento: temas estabelecidos em normas técnicas nacionais vigentes que tratam de resgate técnico em espaços confinados e, na sua ausência, em normas técnicas internacionais.",
+    "text": "Calibração operação que estabelece, sob condições especificadas, em uma primeira etapa, uma relação entre os valores e as incertezas de medição fornecidos por padrões e as indicações correspondentes com as incertezas associadas; em uma segunda etapa, utiliza esta informação visando à obtenção de um resultado de medição a partir de uma indicação.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 34717
+    "char_offset": 35098
   },
   {
     "id": "chunk-109",
-    "text": "**2.2** Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho. \n**2.3** O conteúdo dos treinamentos periódicos e eventuais será definido pela organização e deve contemplar os princípios básicos de segurança compatíveis com o tipo de espaço confinado e as atividades desenvolvidas no seu interior.",
+    "text": "Calibração acreditada: calibração realizada por laboratório acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro. \nChama aberta: mistura de gases incandescentes emitindo energia, que é também denominada chama ou fogo. \nConaminantes: gases, vapores, névoas, fumos e poeiras presentes na atmosfera do espaço confinado.",
     "heading": "**2 Conteúdo programático**",
-    "char_offset": 35016
+    "char_offset": 35450
   },
   {
     "id": "chunk-110",
-    "text": "Afogamento: aspiração de sólido ou líquido não corporal por submersão ou imersão do trabalhador. \nÁrea classificada: área potencialmente explosiva ou com probabilidade de ocorrência desta, ocasionada pela presença de mistura de ar com materiais inflamáveis na forma de gás, vapor, névoa, poeira ou fibras, exigindo precauções especiais para instalação, manutenção, inspeção e utilização de equipamentos, instrumentos e acessórios empregados em instalações elétricas.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 35447
+    "text": "Deficiência de oxigênio: atmosfera contendo menos de 20,9% de oxigênio em volume na pressão atmosférica normal, a não ser que a redução do percentual seja devidamente monitorada e controlada. \nEnergia perigosa: qualquer forma de energia que possa causar a morte, ferimentos ou danos à saúde dos trabalhadores.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 35800
   },
   {
     "id": "chunk-111",
-    "text": "Ajuste: operação destinada a fazer com que um instrumento de medição tenha desempenho compatível com o seu uso. O ajuste tem como objetivo atualizar o ponto de referência dos sensores. \nAuto-zero (ou ajuste de ar limpo): recurso dos detectores de gases para que se estabeleça a referência zero para todos os sensores de monitoramento de gases e vapores inflamáveis e contaminantes, além de ajustar o sensor de oxigênio para a concentração normal dessa substância no ar. Deve ser realizado em local com ar limpo, mantendo o botão liga/desliga do equipamento pressionado por determinado período para limpar as leituras e retirar eventual pressão existente no equipamento.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 35917
+    "text": "Equipe de emergência e salvamento: trabalhadores capacitados e equipados para resgatar e prestar os primeiros socorros a trabalhadores em caso de emergência. \nEngolfamnto: envolvimento e captura de uma pessoa por material particulado sólido capaz de causar a inconsciência ou morte.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 36113
   },
   {
     "id": "chunk-112",
-    "text": "Atmosfera IPVS - Atmosfera Imediatamente Perigosa à Vida ou à Saúde: qualquer atmosfera que apresente risco imediato à vida ou produza imediato efeito debilitante à saúde. \nAvaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do espaço confinado.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 36590
+    "text": "Enriquecimento de oxigênio: atmosfera contendo mais de 23% de oxigênio em volume. \nEtiquetagem: colocação de rótulo num dispositivo isolador de energia para indicar que o dispositivo e o equipamento a ser controlado não podem ser utilizados até a sua remoção.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 36399
   },
   {
     "id": "chunk-113",
-    "text": "_ _ \nEntra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \nBloqueio: dispositivo que impede a liberação de energias perigosas, tais como pressão, vapor, fluidos, combustíveis, água e outros, visando à contenção de energias perigosas para trabalho seguro em espaços confinados.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 36880
+    "text": "Faísca: partícula candente gerada em processos mecânicos de esmerilhamento, polimento, corte ou solda. \nGrau de proteção: classificação numérica, precedida pelo índice IP, referente à proteção provida por um invólucro contra o acesso às partes perigosas, contra a penetração de objetos sólidos estranhos e/ou contra a penetração de água, verificado através de métodos de ensaios normalizados.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 36662
   },
   {
     "id": "chunk-114",
-    "text": "Calibração operação que estabelece, sob condições especificadas, em uma primeira etapa, uma relação entre os valores e as incertezas de medição fornecidos por padrões e as indicações correspondentes com as incertezas associadas; em uma segunda etapa, utiliza esta informação visando à obtenção de um resultado de medição a partir de uma indicação.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 37205
+    "text": "Inertização: deslocamento da atmosfera existente em um espaço confinado por um gás inerte, resultando numa atmosfera não combustível e com deficiência de oxigênio. \nInterferências eletromagnéticas de radiofrequência: recebimento de informações não desejadas que atrapalham o funcionamento do equipamento utilizado para avaliações atmosféricas, podendo causar erros de leitura.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 37058
   },
   {
     "id": "chunk-115",
-    "text": "Calibração acreditada: calibração realizada por laboratório acreditado pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia - Inmetro. \nChama aberta: mistura de gases incandescentes emitindo energia, que é também denominada chama ou fogo. \nConaminantes: gases, vapores, névoas, fumos e poeiras presentes na atmosfera do espaço confinado.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 37557
+    "text": "Intrinsecamente seguro: situação em que o equipamento não pode liberar energia elétrica ou térmica suficientes para, em condições normais ou anormais, causar a ignição de uma dada atmosfera explosiva, conforme expresso no certificado de conformidade do equipamento.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 37437
   },
   {
     "id": "chunk-116",
-    "text": "Deficiência de oxigênio: atmosfera contendo menos de 20,9% de oxigênio em volume na pressão atmosférica normal, a não ser que a redução do percentual seja devidamente monitorada e controlada. \nEnergia perigosa: qualquer forma de energia que possa causar a morte, ferimentos ou danos à saúde dos trabalhadores.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 37907
+    "text": "Leitua direta ou instantânea: dispositivo ou equipamento que permite realizar leituras de contaminantes em tempo real. \nOxigênio puro: atmosfera contendo somente oxigênio (100%). \nPET: documento contendo o conjunto de medidas de controle visando à entrada e _ _",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 37707
   },
   {
     "id": "chunk-117",
-    "text": "Equipe de emergência e salvamento: trabalhadores capacitados e equipados para resgatar e prestar os primeiros socorros a trabalhadores em caso de emergência. \nEngolfamnto: envolvimento e captura de uma pessoa por material particulado sólido capaz de causar a inconsciência ou morte.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 38220
+    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \ndesenvolvimento de trabalho seguro, além de medidas de emergência e resgate em espaços confinados. \nPlano de resgate: documento previamente escrito, para ser utilizado pela equipe que irá executar o resgate, contendo o planejamento do resgate e primeiros socorros.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 37973
   },
   {
     "id": "chunk-118",
-    "text": "Enriquecimento de oxigênio: atmosfera contendo mais de 23% de oxigênio em volume. \nEtiquetagem: colocação de rótulo num dispositivo isolador de energia para indicar que o dispositivo e o equipamento a ser controlado não podem ser utilizados até a sua remoção.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 38506
+    "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. \nPurga: método de limpeza que torna a atmosfera interior do espaço confinado isenta de gases, vapores e outras impurezas indesejáveis através de ventilação ou lavagem com água ou vapor.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 38341
   },
   {
     "id": "chunk-119",
-    "text": "Faísca: partícula candente gerada em processos mecânicos de esmerilhamento, polimento, corte ou solda. \nGrau de proteção: classificação numérica, precedida pelo índice IP, referente à proteção provida por um invólucro contra o acesso às partes perigosas, contra a penetração de objetos sólidos estranhos e/ou contra a penetração de água, verificado através de métodos de ensaios normalizados.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 38769
+    "text": "Responsável técnico: profissional legalmente habilitado ou qualificado, em segurança do trabalho, para executar as medidas previstas no item 33.3.2 desta NR. \nSupervisor de entrada: pessoa capacitada para operar a permissão de entrada com responsabilidade para preencher e assinar a PET para o desenvolvimento de entrada e trabalho seguro no interior de espaços confinados.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 38614
   },
   {
     "id": "chunk-120",
-    "text": "Inertização: deslocamento da atmosfera existente em um espaço confinado por um gás inerte, resultando numa atmosfera não combustível e com deficiência de oxigênio. \nInterferências eletromagnéticas de radiofrequência: recebimento de informações não desejadas que atrapalham o funcionamento do equipamento utilizado para avaliações atmosféricas, podendo causar erros de leitura.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 39165
+    "text": "Teste de resposta ou “bumptest”: tem por finalidade verificar a funcionalidade dos sensores e alarme, sem medir a precisão dos sensores nem fazer eventuais ajustes necessários. \nTrabalhador autorizado: trabalhador capacitado para entrar no espaço confinado, ciente dos seus direitos e deveres e com conhecimento dos riscos e das medidas de controle existentes.",
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 38991
   },
   {
     "id": "chunk-121",
-    "text": "Intrinsecamente seguro: situação em que o equipamento não pode liberar energia elétrica ou térmica suficientes para, em condições normais ou anormais, causar a ignição de uma dada atmosfera explosiva, conforme expresso no certificado de conformidade do equipamento.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 39544
-  },
-  {
-    "id": "chunk-122",
-    "text": "Leitua direta ou instantânea: dispositivo ou equipamento que permite realizar leituras de contaminantes em tempo real. \nOxigênio puro: atmosfera contendo somente oxigênio (100%). \nPET: documento contendo o conjunto de medidas de controle visando à entrada e _ _",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 39814
-  },
-  {
-    "id": "chunk-123",
-    "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_ \ndesenvolvimento de trabalho seguro, além de medidas de emergência e resgate em espaços confinados. \nPlano de resgate: documento previamente escrito, para ser utilizado pela equipe que irá executar o resgate, contendo o planejamento do resgate e primeiros socorros.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 40080
-  },
-  {
-    "id": "chunk-124",
-    "text": "Proficiência: competência, aptidão, capacitação e habilidade aliadas à experiência. \nPurga: método de limpeza que torna a atmosfera interior do espaço confinado isenta de gases, vapores e outras impurezas indesejáveis através de ventilação ou lavagem com água ou vapor.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 40448
-  },
-  {
-    "id": "chunk-125",
-    "text": "Responsável técnico: profissional legalmente habilitado ou qualificado, em segurança do trabalho, para executar as medidas previstas no item 33.3.2 desta NR. \nSupervisor de entrada: pessoa capacitada para operar a permissão de entrada com responsabilidade para preencher e assinar a PET para o desenvolvimento de entrada e trabalho seguro no interior de espaços confinados.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 40721
-  },
-  {
-    "id": "chunk-126",
-    "text": "Teste de resposta ou “bumptest”: tem por finalidade verificar a funcionalidade dos sensores e alarme, sem medir a precisão dos sensores nem fazer eventuais ajustes necessários. \nTrabalhador autorizado: trabalhador capacitado para entrar no espaço confinado, ciente dos seus direitos e deveres e com conhecimento dos riscos e das medidas de controle existentes.",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 41098
-  },
-  {
-    "id": "chunk-127",
     "text": "Vigia: trabalhador designado para permanecer fora do espaço confinado e que é responsável pelo acompanhamento, comunicação e ordem de abandono para os trabalhadores. \n_ _",
-    "heading": "**GLOSSÁRIO**",
-    "char_offset": 41463
+    "heading": "**2 Conteúdo programático**",
+    "char_offset": 39356
   }
 ]

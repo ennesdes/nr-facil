@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria MTP n.º 423 de 07 de outubro de 2021)_ # **SUMÁRIO** 17.1 Objetivo 17.2 Campo de Aplicação 17.3 Avaliação das situações de trabalho 17.4 Organização do trabalho 17.5 Levantamento, transporte e descarga individual de cargas 17.6 Mobiliário dos postos de trabalho 17.7 Trabalho com máquinas, equipamentos e ferramentas manuais **17.8** Condições de conforto no ambiente de trabalho Anexo I - Trabalho dos Operadores de **Checkout** Anexo II - Trabalho em Teleatendimento/ **Telemarketing**"
+        "text": "_(Redação dada pela Portaria MTP n.º 423 de 07 de outubro de 2021)_ # **SUMÁRIO** 17.1 Objetivo 17.2 Campo de Aplicação 17.3 Avaliação das situações de trabalho 17.4 Organização do trabalho 17.5 Levantamento, transporte e descarga individual de cargas 17.6 Mobiliário dos postos de trabalho 17.7 Trabalho com máquinas, equipamentos e ferramentas manuais **17.8** Condições de conforto no ambiente de trabalho Anexo I - Trabalho dos Operadores de **Checkout** Anexo II - Trabalho em Teleatendimento/ **Telemarketing** # **Sumário** # **Sumário**"
       }
     ]
   },
@@ -943,21 +943,9 @@
       ]
     },
     {
-      "id": "anexo-i-da-nr-17",
+      "id": "anexo-i-da-nr-17-trabalho-dos-operadores-de-checkout",
       "number": "ANEXO I DA NR 17",
-      "title": "ANEXO I DA NR 17",
-      "blocks": []
-    },
-    {
-      "id": "trabalho-dos-operadores-de-checkout",
-      "number": "",
       "title": "TRABALHO DOS OPERADORES DE CHECKOUT",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "Sumário",
       "blocks": [
         {
           "type": "paragraph",
@@ -975,8 +963,8 @@
     },
     {
       "id": "4-manipulação-de-mercadorias",
-      "number": "",
-      "title": "4. Manipulação de mercadorias",
+      "number": "4",
+      "title": "Manipulação de mercadorias",
       "blocks": [
         {
           "type": "paragraph",
@@ -994,8 +982,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": [
         {
           "type": "paragraph",
@@ -1005,8 +993,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "number": "2",
+      "title": "Campo de Aplicação",
       "blocks": [
         {
           "type": "paragraph",
@@ -1016,8 +1004,8 @@
     },
     {
       "id": "3-posto-de-trabalho",
-      "number": "",
-      "title": "3. Posto de trabalho",
+      "number": "3",
+      "title": "Posto de trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1183,8 +1171,8 @@
     },
     {
       "id": "4-manipulação-de-mercadorias",
-      "number": "",
-      "title": "4. Manipulação de mercadorias",
+      "number": "4",
+      "title": "Manipulação de mercadorias",
       "blocks": [
         {
           "type": "paragraph",
@@ -1331,8 +1319,8 @@
     },
     {
       "id": "5-organização-do-trabalho",
-      "number": "",
-      "title": "5. Organização do trabalho",
+      "number": "5",
+      "title": "Organização do trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1408,8 +1396,8 @@
     },
     {
       "id": "6-aspectos-psicossociais-do-trabalho",
-      "number": "",
-      "title": "6. Aspectos psicossociais do trabalho",
+      "number": "6",
+      "title": "Aspectos psicossociais do trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1423,8 +1411,8 @@
     },
     {
       "id": "7-treinamento-e-capacitação-dos-trabalhadores",
-      "number": "",
-      "title": "7. Treinamento e capacitação dos trabalhadores",
+      "number": "7",
+      "title": "Treinamento e capacitação dos trabalhadores",
       "blocks": [
         {
           "type": "paragraph",
@@ -1505,12 +1493,6 @@
       "id": "anexo-ii-da-nr-17-trabalho-em-teleatendimentotelemarketing",
       "number": "ANEXO II DA NR 17",
       "title": "TRABALHO EM TELEATENDIMENTO/TELEMARKETING",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "Sumário",
       "blocks": [
         {
           "type": "paragraph",
@@ -1560,8 +1542,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": [
         {
           "type": "paragraph",
@@ -1571,8 +1553,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "number": "2",
+      "title": "Campo de Aplicação",
       "blocks": [
         {
           "type": "paragraph",
@@ -1594,8 +1576,8 @@
     },
     {
       "id": "3-mobiliário-dos-postos-de-trabalho",
-      "number": "",
-      "title": "3. Mobiliário dos Postos de Trabalho",
+      "number": "3",
+      "title": "Mobiliário dos Postos de Trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1606,17 +1588,10 @@
           "items": [
             {
               "label": "a",
-              "text": "o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de"
+              "text": "o monitor de vídeo e o teclado devem estar apoiados em superfícies com mecanismos de b) regulagem independentes;"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "b-regulagem-independentes",
-      "number": "",
-      "title": "b) regulagem independentes;",
-      "blocks": [
+        },
         {
           "type": "list",
           "items": [
@@ -1742,8 +1717,8 @@
     },
     {
       "id": "4-equipamentos-dos-postos-de-trabalho",
-      "number": "",
-      "title": "4. Equipamentos dos Postos de Trabalho",
+      "number": "4",
+      "title": "Equipamentos dos Postos de Trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1752,14 +1727,11 @@
         {
           "type": "paragraph",
           "text": "4.1.1 Alternativamente, poderá ser fornecido um _headset_ para cada posto de atendimento, desde que as partes que permitam qualquer espécie de contágio ou risco à saúde sejam de uso individual."
-        }
-      ]
-    },
-    {
-      "id": "412-os-headsets-devem",
-      "number": "",
-      "title": "4.1.2 Os headsets devem:",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.2 Os headsets devem:"
+        },
         {
           "type": "list",
           "items": [
@@ -1812,8 +1784,8 @@
     },
     {
       "id": "5-condições-ambientais-de-trabalho",
-      "number": "",
-      "title": "5. Condições Ambientais de Trabalho",
+      "number": "5",
+      "title": "Condições Ambientais de Trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -1847,8 +1819,8 @@
     },
     {
       "id": "6-organização-do-trabalho",
-      "number": "",
-      "title": "6. Organização do Trabalho",
+      "number": "6",
+      "title": "Organização do Trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -2103,8 +2075,8 @@
     },
     {
       "id": "7-capacitação-e-treinamento-dos-trabalhadores",
-      "number": "",
-      "title": "7. Capacitação e Treinamento dos Trabalhadores",
+      "number": "7",
+      "title": "Capacitação e Treinamento dos Trabalhadores",
       "blocks": [
         {
           "type": "paragraph",
@@ -2232,8 +2204,8 @@
     },
     {
       "id": "8-condições-sanitárias-de-conforto",
-      "number": "",
-      "title": "8. Condições Sanitárias de Conforto",
+      "number": "8",
+      "title": "Condições Sanitárias de Conforto",
       "blocks": [
         {
           "type": "paragraph",
@@ -2251,8 +2223,8 @@
     },
     {
       "id": "9-programa-de-controle-médico-de-saúde-ocupacional-e-análise-ergonômica-do-trabalho",
-      "number": "",
-      "title": "9. Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho",
+      "number": "9",
+      "title": "Programa de Controle Médico de Saúde Ocupacional e Análise Ergonômica do Trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -2449,8 +2421,8 @@
     },
     {
       "id": "10-pessoas-com-deficiência",
-      "number": "",
-      "title": "10. Pessoas com Deficiência",
+      "number": "10",
+      "title": "Pessoas com Deficiência",
       "blocks": [
         {
           "type": "paragraph",
@@ -2464,8 +2436,8 @@
     },
     {
       "id": "11-disposições-transitórias",
-      "number": "",
-      "title": "11. Disposições Transitórias",
+      "number": "11",
+      "title": "Disposições Transitórias",
       "blocks": [
         {
           "type": "paragraph",

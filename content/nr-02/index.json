@@ -12,13 +12,8 @@
     },
     {
       "level": 1,
-      "text": "**~~MINISTÉRIO DO TRABALHO SECRETARIA DE SEGURANÇA E MEDICINA DO TRABALHO~~**",
-      "id": "ministério-do-trabalho-secretaria-de-segurança-e-medicina-do-trabalho"
-    },
-    {
-      "level": 1,
-      "text": "**~~DELEGACIA_____________________________~~**",
-      "id": "delegacia_____________________________"
+      "text": "**~~MINISTÉRIO DO TRABALHO SECRETARIA DE SEGURANÇA E MEDICINA DO TRABALHO~~** ~~DELEGACIA_____________________________~~",
+      "id": "ministério-do-trabalho-secretaria-de-segurança-e-medicina-do-trabalho-delegacia_____________________________"
     }
   ]
 }

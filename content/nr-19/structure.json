@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria MTP n.º 424, de 07 de outubro de 2021)_ # **SUMÁRIO** 19.1 Objetivo 19.2 Campo de aplicação 19.3 Disposições Gerais 19.4 Fabricação de explosivos 19.5 Armazenamento de explosivos 19.6 Transporte de explosivos Anexo I - Segurança e Saúde na Indústria e Comércio de Fogos de Artifício e outros Artigos Pirotécnicos Anexo II - Tabelas de Quantidades - Distâncias Anexo III - Grupos de Incompatibilidade para Armazenamento e Transporte Glossário"
+        "text": "_(Redação dada pela Portaria MTP n.º 424, de 07 de outubro de 2021)_ # **SUMÁRIO** 19.1 Objetivo 19.2 Campo de aplicação 19.3 Disposições Gerais 19.4 Fabricação de explosivos 19.5 Armazenamento de explosivos 19.6 Transporte de explosivos Anexo I - Segurança e Saúde na Indústria e Comércio de Fogos de Artifício e outros Artigos Pirotécnicos Anexo II - Tabelas de Quantidades - Distâncias Anexo III - Grupos de Incompatibilidade para Armazenamento e Transporte Glossário # **SUMÁRIO** # **SUMÁRIO**"
       }
     ]
   },
@@ -679,15 +679,9 @@
       "blocks": []
     },
     {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
-      "blocks": []
-    },
-    {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": [
         {
           "type": "paragraph",
@@ -761,8 +755,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -773,8 +767,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "number": "2",
+      "title": "Campo de Aplicação",
       "blocks": []
     },
     {
@@ -791,8 +785,8 @@
     },
     {
       "id": "3-disposições-gerais",
-      "number": "",
-      "title": "3. Disposições Gerais",
+      "number": "3",
+      "title": "Disposições Gerais",
       "blocks": []
     },
     {
@@ -855,8 +849,8 @@
     },
     {
       "id": "4-instalações",
-      "number": "",
-      "title": "4. Instalações",
+      "number": "4",
+      "title": "Instalações",
       "blocks": []
     },
     {
@@ -1019,7 +1013,7 @@
     {
       "id": "47-os-pavilhões-de-trabalho-no-setor-de-explosivos-devem-ser-dotados-de",
       "number": "4.7",
-      "title": "Os pavilhões de trabalho no setor de explosivos devem ser dotados de:",
+      "title": "Os pavilhões de trabalho no setor de explosivos devem ser dotados de",
       "blocks": [
         {
           "type": "list",
@@ -1145,8 +1139,8 @@
     },
     {
       "id": "5-programa-de-gerenciamento-de-riscos---pgr",
-      "number": "",
-      "title": "5. Programa de Gerenciamento de Riscos - PGR",
+      "number": "5",
+      "title": "Programa de Gerenciamento de Riscos - PGR",
       "blocks": []
     },
     {
@@ -1526,13 +1520,12 @@
       "id": "64-o-treinamento-anual-da-cipa-ou-do-trabalhador-nomeado-para-o-cumprimento-dos-objetivos-da-comissão-deverá-incluir-todos-os-aspectos-relativos-aos-riscos-de-acidentes-com-explosivos-e-sua-prevenção",
       "number": "6.4",
       "title": "O treinamento anual da CIPA ou do trabalhador nomeado para o cumprimento dos objetivos da Comissão deverá incluir todos os aspectos relativos aos riscos de acidentes com explosivos e sua prevenção",
-      "blocks": []
-    },
-    {
-      "id": "7-responsabilidade-técnica",
-      "number": "",
-      "title": "7 Responsabilidade técnica",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**7 Responsabilidade técnica**"
+        }
+      ]
     },
     {
       "id": "71-todas-as-organizações-devem-manter-responsável-técnico-a-seu-serviço-legalmente-habilitado-cujo-nome-deverá-figurar-em-todos-os-rótulos-e-anúncios",
@@ -1560,8 +1553,8 @@
     },
     {
       "id": "8-locais-de-trabalho",
-      "number": "",
-      "title": "8. Locais de trabalho",
+      "number": "8",
+      "title": "Locais de trabalho",
       "blocks": []
     },
     {
@@ -1640,8 +1633,8 @@
     },
     {
       "id": "9-transporte-interno",
-      "number": "",
-      "title": "9. Transporte interno",
+      "number": "9",
+      "title": "Transporte interno",
       "blocks": []
     },
     {
@@ -1665,8 +1658,8 @@
     },
     {
       "id": "10-proteção-individual",
-      "number": "",
-      "title": "10. Proteção individual",
+      "number": "10",
+      "title": "Proteção individual",
       "blocks": []
     },
     {
@@ -1709,8 +1702,8 @@
     },
     {
       "id": "11-acesso-aos-estabelecimentos",
-      "number": "",
-      "title": "11. Acesso aos estabelecimentos",
+      "number": "11",
+      "title": "Acesso aos estabelecimentos",
       "blocks": []
     },
     {
@@ -1740,8 +1733,8 @@
     },
     {
       "id": "12-destruição-de-resíduos",
-      "number": "",
-      "title": "12. Destruição de resíduos",
+      "number": "12",
+      "title": "Destruição de resíduos",
       "blocks": []
     },
     {
@@ -1771,8 +1764,8 @@
     },
     {
       "id": "13-higiene-e-conforto-no-trabalho",
-      "number": "",
-      "title": "13. Higiene e conforto no trabalho",
+      "number": "13",
+      "title": "Higiene e conforto no trabalho",
       "blocks": []
     },
     {
@@ -1828,8 +1821,8 @@
     },
     {
       "id": "14-treinamento-de-trabalhadores",
-      "number": "",
-      "title": "14. Treinamento de trabalhadores",
+      "number": "14",
+      "title": "Treinamento de trabalhadores",
       "blocks": []
     },
     {
@@ -1910,8 +1903,8 @@
     },
     {
       "id": "15-acidentes-de-trabalho",
-      "number": "",
-      "title": "15. Acidentes de trabalho",
+      "number": "15",
+      "title": "Acidentes de trabalho",
       "blocks": []
     },
     {
@@ -1965,8 +1958,8 @@
     },
     {
       "id": "16-controle-de-qualidade",
-      "number": "",
-      "title": "16. Controle de qualidade",
+      "number": "16",
+      "title": "Controle de qualidade",
       "blocks": []
     },
     {
@@ -1984,8 +1977,8 @@
     },
     {
       "id": "17-comercialização",
-      "number": "",
-      "title": "17. Comercialização",
+      "number": "17",
+      "title": "Comercialização",
       "blocks": []
     },
     {
@@ -2083,8 +2076,8 @@
     },
     {
       "id": "18-disposições-finais",
-      "number": "",
-      "title": "18. Disposições Finais",
+      "number": "18",
+      "title": "Disposições Finais",
       "blocks": []
     },
     {
@@ -2133,12 +2126,6 @@
       "id": "anexo-ii-da-nr-19-tabelas-de-quantidades-distâncias",
       "number": "ANEXO II",
       "title": "da NR-19 TABELAS DE QUANTIDADES-DISTÂNCIAS",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
       "blocks": [
         {
           "type": "paragraph",
@@ -2152,8 +2139,8 @@
     },
     {
       "id": "1-considerações-iniciais",
-      "number": "",
-      "title": "1. Considerações iniciais",
+      "number": "1",
+      "title": "Considerações iniciais",
       "blocks": [
         {
           "type": "paragraph",
@@ -2183,8 +2170,8 @@
     },
     {
       "id": "2-tabelas",
-      "number": "",
-      "title": "2. Tabelas",
+      "number": "2",
+      "title": "Tabelas",
       "blocks": []
     },
     {
@@ -2206,14 +2193,11 @@
         {
           "type": "paragraph",
           "text": "De uma forma geral, compreendem os materiais que produzem gases quentes sem a formação de onda de choque e liberam energia por meio de deflagração quando confinados, isto é, apresentam taxas de queima subsônicas conduzidas pelo efeito progressivo de transferência de calor, de modo que esta expansão de gases exerça uma pressão que possa ser aproveitada para a geração de um empuxo controlado, dando origem a efeitos balísticos de propulsão. Para os produtos enquadrados no grupo baixos explosivos, devem ser aplicadas as distâncias constantes da Tabela 1."
-        }
-      ]
-    },
-    {
-      "id": "221-pólvoras-químicas-base-simples-dupla-e-tripla",
-      "number": "",
-      "title": "2.2.1. Pólvoras químicas (base simples, dupla e tripla)",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "2.2.1. Pólvoras químicas (base simples, dupla e tripla)"
+        },
         {
           "type": "paragraph",
           "text": "Esses produtos se deterioram pela ação da umidade, temperatura elevada e idade; queimam produzindo calor intenso, sem estilhaços ou pressões capazes de causar danos sérios, deve-se aplicar a Tabela 1, para seu armazenamento, exceto quando classificadas como sólido inflamável conforme descrito no subitem 19.5.5 desta norma. Neste caso, o risco principal é o incêndio, não havendo necessidade de tabela especial de distâncias."
@@ -2222,8 +2206,8 @@
     },
     {
       "id": "23-iniciadores-explosivos",
-      "number": "",
-      "title": "2.3. Iniciadores Explosivos",
+      "number": "2.3",
+      "title": "Iniciadores Explosivos",
       "blocks": [
         {
           "type": "paragraph",
@@ -2374,15 +2358,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1) X - combinações incompatíveis entre si, ou seja, os produtos não devem ser transportados ou armazenados em uma mesma unidade."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
+          "text": "1) X - combinações incompatíveis entre si, ou seja, os produtos não devem ser transportados ou armazenados em uma mesma unidade. GLOSSÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "**Acessório explosivo** : engenho não muito sensível, de elevada energia de ativação, que tem por finalidade fornecer energia suficiente à continuidade de um trem explosivo e que necessita de um acessório iniciador para ser ativado."

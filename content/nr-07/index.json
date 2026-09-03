@@ -77,11 +77,6 @@
     },
     {
       "level": 1,
-      "text": "**Abreviaturas**",
-      "id": "abreviaturas"
-    },
-    {
-      "level": 1,
       "text": "**ANEXO II**",
       "id": "anexo-ii"
     },
@@ -92,18 +87,8 @@
     },
     {
       "level": 1,
-      "text": "**MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO**",
-      "id": "modelo-de-formulário-para-registro-de-traçado-audiométrico"
-    },
-    {
-      "level": 1,
-      "text": "**ORELHA DIREITA Frequência em kHz**",
-      "id": "orelha-direita-frequência-em-khz"
-    },
-    {
-      "level": 1,
-      "text": "**ORELHA ESQUERDA Frequência em kHz**",
-      "id": "orelha-esquerda-frequência-em-khz"
+      "text": "**MODELO DE FORMULÁRIO PARA REGISTRO DE TRAÇADO AUDIOMÉTRICO** ORELHA DIREITA Frequência em kHz ORELHA ESQUERDA Frequência em kHz",
+      "id": "modelo-de-formulário-para-registro-de-traçado-audiométrico-orelha-direita-frequência-em-khz-orelha-esquerda-frequência-em-khz"
     },
     {
       "level": 1,
@@ -199,11 +184,6 @@
       "level": 1,
       "text": "**5.** RADIAÇÕES IONIZANTES",
       "id": "5-radiações-ionizantes"
-    },
-    {
-      "level": 1,
-      "text": "**GLOSSÁRIO**",
-      "id": "glossário"
     }
   ]
 }

@@ -12,137 +12,76 @@
       },
       {
         "type": "paragraph",
-        "text": "# **SUMÁRIO** 35.1 Objetivo 35.2 Campo de Aplicação 35.3 Responsabilidades 35.4 Autorização, Capacitação e Aptidão 35.5 Planejamento e Organização 35.6 Sistemas de Proteção Contra Quedas - SPQ 35.7. Emergência e Salvamento Glossário Anexo I - Acesso por Cordas Anexo II - Sistema de Ancoragem Anexo III - Escadas de Uso Individual _(Redação dada pela Portaria MTP nº 4.218, de 20/12/2022)_"
+        "text": "# **SUMÁRIO** 35.1 Objetivo 35.2 Campo de Aplicação 35.3 Responsabilidades 35.4 Autorização, Capacitação e Aptidão 35.5 Planejamento e Organização 35.6 Sistemas de Proteção Contra Quedas - SPQ 35.7. Emergência e Salvamento Glossário Anexo I - Acesso por Cordas Anexo II - Sistema de Ancoragem Anexo III - Escadas de Uso Individual _(Redação dada pela Portaria MTP nº 4.218, de 20/12/2022)_ 35.1 Objetivo"
+      },
+      {
+        "type": "item",
+        "number": "35.1.1",
+        "depth": 2,
+        "text": "Esta Norma estabelece os requisitos e as medidas de prevenção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade. 35.2 Campo de Aplicação"
+      },
+      {
+        "type": "item",
+        "number": "35.2.1",
+        "depth": 2,
+        "text": "Aplica-se o disposto nessa Norma a toda atividade com diferença de nível acima de 2,0m (dois metros) do nível inferior, onde haja risco de queda. 35.3 Responsabilidades"
+      },
+      {
+        "type": "item",
+        "number": "35.3.1",
+        "depth": 2,
+        "text": "Cabe à organização:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "garantir a implementação das medidas de prevenção estabelecidas nesta NR;"
+          },
+          {
+            "label": "b",
+            "text": "assegurar a realização da Análise de Risco - AR e, quando aplicável, a emissão da Permissão de Trabalho - PT;"
+          },
+          {
+            "label": "c",
+            "text": "elaborar procedimento operacional para as atividades rotineiras de trabalho em altura; - d) disponibilizar, através dos meios de comunicação da organização de fácil acesso ao trabalhador, instruções de segurança contempladas na AR, PT e procedimentos operacionais a todos os integrantes da equipe de trabalho;"
+          },
+          {
+            "label": "e",
+            "text": "assegurar a realização de avaliação prévia das condições no local do trabalho em altura, pelo estudo, planejamento e implementação das ações e das medidas complementares de segurança aplicáveis;"
+          },
+          {
+            "label": "f",
+            "text": "adotar as providências necessárias para acompanhar o cumprimento das medidas de prevenção estabelecidas nesta Norma pelas organizações prestadoras de serviços;"
+          },
+          {
+            "label": "g",
+            "text": "garantir que qualquer trabalho em altura só se inicie depois de adotadas as medidas de prevenção definidas nesta NR;"
+          },
+          {
+            "label": "h",
+            "text": "assegurar a suspensão dos trabalhos em altura quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível;"
+          },
+          {
+            "label": "i",
+            "text": "estabelecer uma sistemática de autorização dos trabalhadores para trabalho em altura; e"
+          },
+          {
+            "label": "j",
+            "text": "assegurar a organização e o arquivamento da documentação prevista nesta NR, por período mínimo de 5 (cinco) anos, exceto se houver disposição específica em outra Norma Regulamentadora."
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "number": "35.3.2",
+        "depth": 2,
+        "text": "Cabe ao trabalhador cumprir as disposições previstas nesta norma e no item 1.4.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, e os procedimentos operacionais expedidos pelo empregador."
       }
     ]
   },
   "sections": [
-    {
-      "id": "351-objetivo",
-      "number": "35.1",
-      "title": "Objetivo",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "35.1.1",
-          "depth": 2,
-          "text": "Esta Norma estabelece os requisitos e as medidas de prevenção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade."
-        }
-      ]
-    },
-    {
-      "id": "352-campo-de-aplicação",
-      "number": "35.2",
-      "title": "Campo de Aplicação",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "35.2.1",
-          "depth": 2,
-          "text": "Aplica-se o disposto nessa Norma a toda atividade com diferença de nível acima de 2,0m (dois metros) do nível inferior, onde haja risco de queda."
-        }
-      ]
-    },
-    {
-      "id": "353-responsabilidades",
-      "number": "35.3",
-      "title": "Responsabilidades",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "35.3.1",
-          "depth": 2,
-          "text": "Cabe à organização:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "garantir a implementação das medidas de prevenção estabelecidas nesta NR;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "assegurar a realização da Análise de Risco - AR e, quando aplicável, a emissão da Permissão de Trabalho - PT;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "elaborar procedimento operacional para as atividades rotineiras de trabalho em altura; - d) disponibilizar, através dos meios de comunicação da organização de fácil acesso ao trabalhador, instruções de segurança contempladas na AR, PT e procedimentos operacionais a todos os integrantes da equipe de trabalho;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "assegurar a realização de avaliação prévia das condições no local do trabalho em altura, pelo estudo, planejamento e implementação das ações e das medidas complementares de segurança aplicáveis;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "adotar as providências necessárias para acompanhar o cumprimento das medidas de prevenção estabelecidas nesta Norma pelas organizações prestadoras de serviços;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "g",
-              "text": "garantir que qualquer trabalho em altura só se inicie depois de adotadas as medidas de prevenção definidas nesta NR;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "h",
-              "text": "assegurar a suspensão dos trabalhos em altura quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "i",
-              "text": "estabelecer uma sistemática de autorização dos trabalhadores para trabalho em altura; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "j",
-              "text": "assegurar a organização e o arquivamento da documentação prevista nesta NR, por período mínimo de 5 (cinco) anos, exceto se houver disposição específica em outra Norma Regulamentadora."
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "number": "35.3.2",
-          "depth": 2,
-          "text": "Cabe ao trabalhador cumprir as disposições previstas nesta norma e no item 1.4.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, e os procedimentos operacionais expedidos pelo empregador."
-        }
-      ]
-    },
     {
       "id": "354-autorização-capacitação-e-aptidão",
       "number": "35.4",
@@ -308,15 +247,8 @@
           "type": "item",
           "number": "35.4.5",
           "depth": 2,
-          "text": "Os treinamentos previstos nesta NR devem ser realizados na modalidade presencial. _(Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)_"
-        }
-      ]
-    },
-    {
-      "id": "355-planejamento-e-organização",
-      "number": "35.5",
-      "title": "Planejamento e Organização",
-      "blocks": [
+          "text": "Os treinamentos previstos nesta NR devem ser realizados na modalidade presencial. _(Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)_ 35.5 Planejamento e Organização"
+        },
         {
           "type": "item",
           "number": "35.5.1",
@@ -565,14 +497,13 @@
           "number": "35.5.8",
           "depth": 2,
           "text": "A PT deve ser emitida, em meio físico ou digital, aprovada pelo responsável pela autorização da permissão, e acessível no local de execução da atividade e, ao final, encerrada e arquivada de forma a permitir sua rastreabilidade."
-        }
-      ]
-    },
-    {
-      "id": "35581-a-pt-deve-conter",
-      "number": "",
-      "title": "35.5.8.1 A PT deve conter:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "35.5.8.1",
+          "depth": 3,
+          "text": "A PT deve conter:"
+        },
         {
           "type": "list",
           "items": [
@@ -918,17 +849,10 @@
           "items": [
             {
               "label": "b",
-              "text": "com nós ou laços."
+              "text": "com nós ou laços. 35.7. Emergência e Salvamento"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "357-emergência-e-salvamento",
-      "number": "",
-      "title": "35.7. Emergência e Salvamento",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "35.7.1",
@@ -993,15 +917,8 @@
           "type": "item",
           "number": "35.7.3.1",
           "depth": 3,
-          "text": "Quando realizado por equipe interna, a organização deve estabelecer o conteúdo e carga horária da capacitação em função dos cenários de emergência."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
+          "text": "Quando realizado por equipe interna, a organização deve estabelecer o conteúdo e carga horária da capacitação em função dos cenários de emergência. GLOSSÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "Absorvedor de energia: Elemento com função de limitar a força de impacto transmitida ao trabalhador pela dissipação da energia cinética."
@@ -1164,7 +1081,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sistemas de ancoragem temporários: São aqueles utilizados por um período de tempo pré- determinado sendo removidos após concluídos os serviços, como os sistemas montados para a execução de uma determinada tarefa ou trabalhos em uma frente de trabalho"
+          "text": "Sistemas de ancoragem temporários: São aqueles utilizados por um período de tempo pré-determinado sendo removidos após concluídos os serviços, como os sistemas montados para a execução de uma determinada tarefa ou trabalhos em uma frente de trabalho"
         },
         {
           "type": "paragraph",
@@ -1192,21 +1109,9 @@
         },
         {
           "type": "paragraph",
-          "text": "Zona livre de queda - ZLQ: O espaço mínimo abaixo do ponto de ancoragem no caso do talabarte de segurança ou espaço mínimo abaixo dos pés do usuário no caso dos dispositivos trava-quedas, com o objetivo de evitar choques com a estrutura, obstáculo mais próximo ou com o solo depois de uma queda. _(Alterada pela Portaria MTE nº 1.680, de 02 de outubro de 2025)_"
+          "text": "Zona livre de queda - ZLQ: O espaço mínimo abaixo do ponto de ancoragem no caso do talabarte de segurança ou espaço mínimo abaixo dos pés do usuário no caso dos dispositivos trava-quedas, com o objetivo de evitar choques com a estrutura, obstáculo mais próximo ou com o solo depois de uma queda. _(Alterada pela Portaria MTE nº 1.680, de 02 de outubro de 2025)_ ANEXO I da NR-35 ACESSO POR CORDAS 1. Objetivo"
         }
       ]
-    },
-    {
-      "id": "anexo-i-da-nr-35-acesso-por-cordas",
-      "number": "ANEXO I",
-      "title": "da NR-35 ACESSO POR CORDAS",
-      "blocks": []
-    },
-    {
-      "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
-      "blocks": []
     },
     {
       "id": "11-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-o-trabalho-em-altura-utilizando-a-técnica-de-acesso-por-cordas",
@@ -1216,8 +1121,8 @@
     },
     {
       "id": "2-campo-de-aplicação-21-para-fins-desta-norma-regulamentadora-considera-se-acesso-por-corda-a-técnica-de-progressão-utilizando-cordas-com-outros-equipamentos-para-ascender-descender-ou-se-deslocar-horizontalmente-assim-como-para-posicionamento-no-local-de-trabalho-normalmente-incorporando-dois-sistemas-de-segurança-fixados-de-forma-independente-um-deles-como-forma-de-acesso-e-o-outro-como-corda-de-segurança-utilizado-com-cinturão-de-segurança-tipo-paraquedista",
-      "number": "",
-      "title": "2. Campo de Aplicação 2.1 Para fins desta Norma Regulamentadora, considera-se acesso por corda a técnica de progressão utilizando cordas, com outros equipamentos para ascender, descender ou se deslocar horizontalmente, assim como para posicionamento no local de trabalho, normalmente incorporando dois sistemas de segurança fixados de forma independente, um deles como forma de acesso e o outro como corda de segurança utilizado com cinturão de segurança tipo paraquedista.",
+      "number": "2",
+      "title": "Campo de Aplicação 2.1 Para fins desta Norma Regulamentadora, considera-se acesso por corda a técnica de progressão utilizando cordas, com outros equipamentos para ascender, descender ou se deslocar horizontalmente, assim como para posicionamento no local de trabalho, normalmente incorporando dois sistemas de segurança fixados de forma independente, um deles como forma de acesso e o outro como corda de segurança utilizado com cinturão de segurança tipo paraquedista.",
       "blocks": []
     },
     {
@@ -1263,17 +1168,10 @@
           "items": [
             {
               "label": "d",
-              "text": "atividades de espeleologia."
+              "text": "atividades de espeleologia. 3. Execução das atividades"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3-execução-das-atividades",
-      "number": "",
-      "title": "3. Execução das atividades",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "3.1 As atividades com acesso por cordas devem ser executadas:"
@@ -1338,17 +1236,11 @@
           "items": [
             {
               "label": "b",
-              "text": "sejam implementadas medidas suplementares, previstas na análise de risco, que garantam um desempenho de segurança no mínimo equivalente ao uso de duas cordas."
+              "text": "sejam implementadas medidas suplementares, previstas na análise de risco, que garantam um desempenho de segurança no mínimo equivalente ao uso de duas cordas. 4. Equipamentos e cordas"
             }
           ]
         }
       ]
-    },
-    {
-      "id": "4-equipamentos-e-cordas",
-      "number": "",
-      "title": "4. Equipamentos e cordas",
-      "blocks": []
     },
     {
       "id": "41-as-cordas-utilizadas-devem-atender-aos-requisitos-das-normas-técnicas-nacionais-ou-ser-certificadas-de-acordo-com-as-normas-técnicas-internacionais",
@@ -1472,15 +1364,9 @@
       ]
     },
     {
-      "id": "45-os-equipamentos-utilizados-para-acesso-por-corda-devem-ser-armazenados-e-mantidos-conforme-recomendação-do-fabricante-ou-fornecedor",
+      "id": "45-os-equipamentos-utilizados-para-acesso-por-corda-devem-ser-armazenados-e-mantidos-conforme-recomendação-do-fabricante-ou-fornecedor-5-resgate",
       "number": "4.5",
-      "title": "Os equipamentos utilizados para acesso por corda devem ser armazenados e mantidos conforme recomendação do fabricante ou fornecedor",
-      "blocks": []
-    },
-    {
-      "id": "5-resgate",
-      "number": "",
-      "title": "5. Resgate",
+      "title": "Os equipamentos utilizados para acesso por corda devem ser armazenados e mantidos conforme recomendação do fabricante ou fornecedor. 5. Resgate",
       "blocks": []
     },
     {
@@ -1497,8 +1383,8 @@
     },
     {
       "id": "6-condições-impeditivas-61-além-das-condições-impeditivas-identificadas-na-análise-de-risco-como-estabelece-a-alínea-j-do-subitem-35551-da-nr-35-o-trabalho-de-acesso-por-corda-deve-ser-interrompido-imediatamente-em-caso-de-ventos-superiores-a-quarenta-quilômetros-por-hora",
-      "number": "",
-      "title": "6. Condições impeditivas 6.1 Além das condições impeditivas identificadas na Análise de Risco, como estabelece a alínea \"j\", do subitem 35.5.5.1, da NR-35, o trabalho de acesso por corda deve ser interrompido imediatamente em caso de ventos superiores a quarenta quilômetros por hora.",
+      "number": "6",
+      "title": "Condições impeditivas 6.1 Além das condições impeditivas identificadas na Análise de Risco, como estabelece a alínea \"j\", do subitem 35.5.5.1, da NR-35, o trabalho de acesso por corda deve ser interrompido imediatamente em caso de ventos superiores a quarenta quilômetros por hora.",
       "blocks": []
     },
     {
@@ -1538,40 +1424,16 @@
           "items": [
             {
               "label": "d",
-              "text": "ser realizada mediante operação assistida pelo supervisor das atividades."
+              "text": "ser realizada mediante operação assistida pelo supervisor das atividades. ANEXO II da NR-35 SISTEMAS DE ANCORAGEM 1. Objetivo"
             }
           ]
         }
       ]
     },
     {
-      "id": "anexo-ii-da-nr-35",
-      "number": "ANEXO II",
-      "title": "da NR-35",
-      "blocks": []
-    },
-    {
-      "id": "sistemas-de-ancoragem",
-      "number": "",
-      "title": "SISTEMAS DE ANCORAGEM",
-      "blocks": []
-    },
-    {
-      "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
-      "blocks": []
-    },
-    {
-      "id": "11-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-o-emprego-de-sistemas-de-ancoragem-como-parte-integrante-de-um-sistema-de-proteção-contra-quedas-no-trabalho-em-altura",
+      "id": "11-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-o-emprego-de-sistemas-de-ancoragem-como-parte-integrante-de-um-sistema-de-proteção-contra-quedas-no-trabalho-em-altura-2-campo-de-aplicação",
       "number": "1.1",
-      "title": "Estabelecer os requisitos e as medidas de prevenção para o emprego de sistemas de ancoragem, como parte integrante de um sistema de proteção contra quedas, no trabalho em altura",
-      "blocks": []
-    },
-    {
-      "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "title": "Estabelecer os requisitos e as medidas de prevenção para o emprego de sistemas de ancoragem, como parte integrante de um sistema de proteção contra quedas, no trabalho em altura. 2. Campo de Aplicação",
       "blocks": []
     },
     {
@@ -1676,8 +1538,8 @@
     },
     {
       "id": "3-componentes-do-sistema-de-ancoragem",
-      "number": "",
-      "title": "3. Componentes do sistema de ancoragem",
+      "number": "3",
+      "title": "Componentes do sistema de ancoragem",
       "blocks": []
     },
     {
@@ -1826,8 +1688,8 @@
     },
     {
       "id": "4-requisitos-do-sistema-de-ancoragem-41-os-sistemas-de-ancoragem-devem",
-      "number": "",
-      "title": "4. Requisitos do sistema de ancoragem 4.1 Os sistemas de ancoragem devem:",
+      "number": "4",
+      "title": "Requisitos do sistema de ancoragem 4.1 Os sistemas de ancoragem devem:",
       "blocks": [
         {
           "type": "list",
@@ -1893,15 +1755,9 @@
       ]
     },
     {
-      "id": "43-o-sistema-de-ancoragem-permanente-deve-possuir-projeto-e-a-instalação-deve-estar-sob-responsabilidade-de-profissional-legalmente-habilitado",
+      "id": "43-o-sistema-de-ancoragem-permanente-deve-possuir-projeto-e-a-instalação-deve-estar-sob-responsabilidade-de-profissional-legalmente-habilitado-5-projetos-e-especificações",
       "number": "4.3",
-      "title": "O sistema de ancoragem permanente deve possuir projeto e a instalação deve estar sob responsabilidade de profissional legalmente habilitado",
-      "blocks": []
-    },
-    {
-      "id": "5-projetos-e-especificações",
-      "number": "",
-      "title": "5. Projetos e especificações",
+      "title": "O sistema de ancoragem permanente deve possuir projeto e a instalação deve estar sob responsabilidade de profissional legalmente habilitado. 5. Projetos e especificações",
       "blocks": [
         {
           "type": "item",
@@ -1974,17 +1830,11 @@
           "items": [
             {
               "label": "c",
-              "text": "a zona livre de queda necessária."
+              "text": "a zona livre de queda necessária. 6. Procedimentos operacionais"
             }
           ]
         }
       ]
-    },
-    {
-      "id": "6-procedimentos-operacionais",
-      "number": "",
-      "title": "6. Procedimentos operacionais",
-      "blocks": []
     },
     {
       "id": "61-o-sistema-de-ancoragem-deve-ter-procedimento-operacional-de-montagem-e-utilização-o-qual-deve",
@@ -2005,17 +1855,10 @@
           "items": [
             {
               "label": "b",
-              "text": "ser elaborado por profissional qualificado em segurança do trabalho, considerando os requisitos do projeto, quando aplicável, e as instruções dos fabricantes."
+              "text": "ser elaborado por profissional qualificado em segurança do trabalho, considerando os requisitos do projeto, quando aplicável, e as instruções dos fabricantes. ~~ANEXO III da NR-35 - ESCADAS~~"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "anexo-iii-da-nr-35---escadas",
-      "number": "",
-      "title": "~~ANEXO III da NR-35 - ESCADAS~~",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "_(Revogado pela Portaria MTE nº 3.903, de 28 de dezembro de 2023)_"
@@ -2023,15 +1866,9 @@
       ]
     },
     {
-      "id": "anexo-iii-da-nr-35",
+      "id": "anexo-iii-da-nr-35-escadas-de-uso-individual",
       "number": "ANEXO III",
-      "title": "da NR-35",
-      "blocks": []
-    },
-    {
-      "id": "escadas-de-uso-individual",
-      "number": "",
-      "title": "ESCADAS DE USO INDIVIDUAL",
+      "title": "da NR-35 ESCADAS DE USO INDIVIDUAL",
       "blocks": [
         {
           "type": "paragraph",
@@ -2065,8 +1902,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": []
     },
     {
@@ -2077,8 +1914,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de aplicação",
+      "number": "2",
+      "title": "Campo de aplicação",
       "blocks": []
     },
     {
@@ -2102,8 +1939,8 @@
     },
     {
       "id": "3-classificação-das-escadas-de-uso-individual",
-      "number": "",
-      "title": "3. Classificação das escadas de uso individual",
+      "number": "3",
+      "title": "Classificação das escadas de uso individual",
       "blocks": []
     },
     {
@@ -2120,8 +1957,8 @@
     },
     {
       "id": "4-planejamento-e-capacitação",
-      "number": "",
-      "title": "4. Planejamento e capacitação",
+      "number": "4",
+      "title": "Planejamento e capacitação",
       "blocks": []
     },
     {
@@ -2212,8 +2049,8 @@
     },
     {
       "id": "5-requisitos",
-      "number": "",
-      "title": "5. Requisitos",
+      "number": "5",
+      "title": "Requisitos",
       "blocks": []
     },
     {
@@ -2253,14 +2090,13 @@
               "text": "ser projetada por profissional legalmente habilitado, tendo como referência as normas técnicas nacionais vigentes."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "512-a-escada-de-uso-individual-deve",
-      "number": "",
-      "title": "5.1.2 A escada de uso individual deve:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "5.1.2",
+          "depth": 2,
+          "text": "A escada de uso individual deve:"
+        },
         {
           "type": "list",
           "items": [
@@ -2803,15 +2639,8 @@
           "type": "item",
           "number": "5.2.2.9.3",
           "depth": 4,
-          "text": "A escada portátil autossustentável de uso individual deve possuir, no máximo, 6 m (seis metros) de comprimento quando fechada."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+          "text": "A escada portátil autossustentável de uso individual deve possuir, no máximo, 6 m (seis metros) de comprimento quando fechada. Glossário"
+        },
         {
           "type": "paragraph",
           "text": "Contato de 3 (três) pontos: manter apoiados dois pés e uma mão na escada ou duas mãos e um pé. Equipamento de acesso: máquinas ou equipamentos utilizados para deslocamento ou como posto de trabalho, tais como escadas, passarelas, rampas, elevadores, plataformas elevatórias móveis, andaimes."

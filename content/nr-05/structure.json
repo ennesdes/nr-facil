@@ -771,13 +771,9 @@
           "items": [
             {
               "label": "e",
-              "text": "noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no"
+              "text": "noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no trabalho;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalho;"
         },
         {
           "type": "list",
@@ -1032,31 +1028,21 @@
           "type": "item",
           "number": "5.9.3",
           "depth": 2,
-          "text": "Em havendo alteração do grau de risco do estabelecimento, o redimensionamento da CIPA deve ser efetivado na próxima eleição."
-        }
-      ]
-    },
-    {
-      "id": "quadro-i-dimensionamento-da-cipa",
-      "number": "Quadro I",
-      "title": "Dimensionamento da CIPA",
-      "blocks": [
+          "text": "Em havendo alteração do grau de risco do estabelecimento, o redimensionamento da CIPA deve ser efetivado na próxima eleição. Quadro I – Dimensionamento da CIPA"
+        },
         {
           "type": "paragraph",
           "text": "*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com correspondente Grau de Risco - GR para fins de dimensionamento do SESMT."
         },
         {
           "type": "image",
-          "alt": "Quadro I – Dimensionamento da CIPA",
+          "alt": "Tabela da página 11",
           "src": "../assets/pages/page-011-table-00.png"
-        }
-      ]
-    },
-    {
-      "id": "anexo-i-cipa-da-indústria-da-construção",
-      "number": "ANEXO I",
-      "title": "CIPA da Indústria da Construção",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**ANEXO I da NR-5 CIPA DA INDÚSTRIA DA CONSTRUÇÃO**"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivo"

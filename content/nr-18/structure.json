@@ -1140,17 +1140,10 @@
           "items": [
             {
               "label": "h",
-              "text": "utilizar iluminação blindada e à prova de explosão."
+              "text": "utilizar iluminação blindada e à prova de explosão. Tubulão com pressão hiperbárica"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "tubulão-com-pressão-hiperbárica",
-      "number": "",
-      "title": "Tubulão com pressão hiperbárica",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.7.2.23",
@@ -1989,20 +1982,13 @@
           "number": "18.8.5",
           "depth": 2,
           "text": "O transporte de materiais deve ser feito por meio adequado, quando utilizadas escadas que demandem o uso das mãos como ponto de apoio para o acesso ou para a execução do trabalho."
-        }
-      ]
-    },
-    {
-      "id": "1886-escadas",
-      "number": "",
-      "title": "18.8.6 Escadas",
-      "blocks": []
-    },
-    {
-      "id": "escada-fixa-de-uso-coletivo",
-      "number": "",
-      "title": "Escada fixa de uso coletivo",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "18.8.6",
+          "depth": 2,
+          "text": "Escadas Escada fixa de uso coletivo"
+        },
         {
           "type": "item",
           "number": "18.8.6.1",
@@ -2068,17 +2054,10 @@
           "items": [
             {
               "label": "g",
-              "text": "ser firmemente fixadas em suas extremidades."
+              "text": "ser firmemente fixadas em suas extremidades. Escada fixa vertical"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "escada-fixa-vertical",
-      "number": "",
-      "title": "Escada fixa vertical",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.8.6.2",
@@ -2179,15 +2158,8 @@
           "type": "item",
           "number": "18.8.6.3",
           "depth": 3,
-          "text": "É obrigatória a utilização de SPIQ em escadas tipo fixa vertical com altura superior a 2 m (dois metros)."
-        }
-      ]
-    },
-    {
-      "id": "escadas-portáteis",
-      "number": "",
-      "title": "Escadas portáteis",
-      "blocks": [
+          "text": "É obrigatória a utilização de SPIQ em escadas tipo fixa vertical com altura superior a 2 m (dois metros). Escadas portáteis"
+        },
         {
           "type": "item",
           "number": "18.8.6.4",
@@ -2422,15 +2394,8 @@
           "type": "item",
           "number": "18.8.6.17",
           "depth": 3,
-          "text": "As escadas duplas devem ser utilizadas apenas para a realização de atividades com ela compatíveis, sendo proibida sua utilização para a transposição de nível."
-        }
-      ]
-    },
-    {
-      "id": "escada-portátil-extensível",
-      "number": "",
-      "title": "Escada portátil extensível",
-      "blocks": [
+          "text": "As escadas duplas devem ser utilizadas apenas para a realização de atividades com ela compatíveis, sendo proibida sua utilização para a transposição de nível. Escada portátil extensível"
+        },
         {
           "type": "item",
           "number": "18.8.6.18",
@@ -2487,14 +2452,13 @@
           "number": "18.8.6.19",
           "depth": 3,
           "text": "A escada extensível com mais de 7 m (sete metros) de comprimento deve possuir sistema de travamento (tirante ou vareta de segurança) para impedir que os montantes fiquem soltos e prejudiquem a estabilidade."
-        }
-      ]
-    },
-    {
-      "id": "1887-rampas-e-passarelas",
-      "number": "",
-      "title": "18.8.7 Rampas e passarelas",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "18.8.7",
+          "depth": 2,
+          "text": "Rampas e passarelas"
+        },
         {
           "type": "item",
           "number": "18.8.7.1",
@@ -2861,17 +2825,10 @@
           "items": [
             {
               "label": "h",
-              "text": "ter coifa ou outro dispositivo que impeça a projeção do disco de corte."
+              "text": "ter coifa ou outro dispositivo que impeça a projeção do disco de corte. Máquina autopropelida"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "máquina-autopropelida",
-      "number": "",
-      "title": "Máquina autopropelida",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.10.1.6",
@@ -3589,17 +3546,10 @@
           "items": [
             {
               "label": "c",
-              "text": "nas plataformas de carga e descarga, por trabalhador capacitado e autorizado pelo seu empregador, mediante lista de verificação."
+              "text": "nas plataformas de carga e descarga, por trabalhador capacitado e autorizado pelo seu empregador, mediante lista de verificação. Gruas"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "gruas",
-      "number": "",
-      "title": "Gruas",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.10.1.33",
@@ -4062,17 +4012,10 @@
           "items": [
             {
               "label": "b",
-              "text": "que necessite de ação manual para girar a lança."
+              "text": "que necessite de ação manual para girar a lança. Guincho de coluna"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "guincho-de-coluna",
-      "number": "",
-      "title": "Guincho de coluna",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.10.1.45",
@@ -4234,17 +4177,10 @@
           "items": [
             {
               "label": "b",
-              "text": "exceder a pressão máxima do ar."
+              "text": "exceder a pressão máxima do ar. Ferramenta de fixação a pólvora ou gás"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ferramenta-de-fixação-a-pólvora-ou-gás",
-      "number": "",
-      "title": "Ferramenta de fixação a pólvora ou gás",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.10.2.13",
@@ -4285,15 +4221,8 @@
           "type": "item",
           "number": "18.10.2.16",
           "depth": 3,
-          "text": "Antes da fixação de pinos por ferramenta de fixação, devem ser verificados o tipo e a espessura da parede ou laje, o tipo de pino e finca-pino mais adequados, e a região oposta à superfície de aplicação deve ser previamente inspecionada."
-        }
-      ]
-    },
-    {
-      "id": "ferramenta-manual",
-      "number": "",
-      "title": "Ferramenta manual",
-      "blocks": [
+          "text": "Antes da fixação de pinos por ferramenta de fixação, devem ser verificados o tipo e a espessura da parede ou laje, o tipo de pino e finca-pino mais adequados, e a região oposta à superfície de aplicação deve ser previamente inspecionada. Ferramenta manual"
+        },
         {
           "type": "item",
           "number": "18.10.2.17",
@@ -4744,17 +4673,10 @@
           "items": [
             {
               "label": "h",
-              "text": "sistema que impeça a movimentação do equipamento quando a carga ultrapassar a capacidade permitida."
+              "text": "sistema que impeça a movimentação do equipamento quando a carga ultrapassar a capacidade permitida. Movimentação de pessoas"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "movimentação-de-pessoas",
-      "number": "",
-      "title": "Movimentação de pessoas",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "18.11.20",
@@ -5030,15 +4952,8 @@
           "type": "item",
           "number": "18.12.10",
           "depth": 2,
-          "text": "A manutenção do andaime deve ser feita por trabalhador capacitado, sob supervisão e responsabilidade técnica de profissional legalmente habilitado, obedecendo às especificações"
-        }
-      ]
-    },
-    {
-      "id": "técnicas-do-fabricante",
-      "number": "",
-      "title": "técnicas do fabricante.",
-      "blocks": [
+          "text": "A manutenção do andaime deve ser feita por trabalhador capacitado, sob supervisão e responsabilidade técnica de profissional legalmente habilitado, obedecendo às especificações técnicas do fabricante."
+        },
         {
           "type": "item",
           "number": "18.12.11",
@@ -5281,15 +5196,8 @@
           "type": "item",
           "number": "18.12.17",
           "depth": 2,
-          "text": "É proibido o deslocamento das estruturas do andaime com trabalhadores sobre os mesmos."
-        }
-      ]
-    },
-    {
-      "id": "andaime-suspenso",
-      "number": "",
-      "title": "Andaime suspenso",
-      "blocks": [
+          "text": "É proibido o deslocamento das estruturas do andaime com trabalhadores sobre os mesmos. Andaime suspenso"
+        },
         {
           "type": "item",
           "number": "18.12.18",
@@ -5522,15 +5430,8 @@
           "type": "item",
           "number": "18.12.27",
           "depth": 2,
-          "text": "Quando utilizado apenas um guincho de sustentação por armação, é obrigatório o uso de um cabo de aço de segurança adicional, ligado a um dispositivo de bloqueio mecânico automático, observando-se a sobrecarga indicada pelo fabricante do equipamento."
-        }
-      ]
-    },
-    {
-      "id": "andaime-suspenso-motorizado",
-      "number": "",
-      "title": "Andaime suspenso motorizado",
-      "blocks": [
+          "text": "Quando utilizado apenas um guincho de sustentação por armação, é obrigatório o uso de um cabo de aço de segurança adicional, ligado a um dispositivo de bloqueio mecânico automático, observando-se a sobrecarga indicada pelo fabricante do equipamento. Andaime suspenso motorizado"
+        },
         {
           "type": "item",
           "number": "18.12.28",
@@ -6549,15 +6450,8 @@
           "type": "item",
           "number": "18.17.1",
           "depth": 2,
-          "text": "O Programa de Condições e Meio Ambiente de Trabalho da indústria da construção (PCMAT) existente antes da entrada em vigência desta Norma terá validade até o término da obra a que se refere."
-        }
-      ]
-    },
-    {
-      "id": "contêiner",
-      "number": "",
-      "title": "Contêiner",
-      "blocks": [
+          "text": "O Programa de Condições e Meio Ambiente de Trabalho da indústria da construção (PCMAT) existente antes da entrada em vigência desta Norma terá validade até o término da obra a que se refere. Contêiner"
+        },
         {
           "type": "item",
           "number": "18.17.2",
@@ -6566,15 +6460,8 @@
         },
         {
           "type": "paragraph",
-          "text": "~~vivência.~~ _(Revogado pela Portaria MTE nº 1.420, de 27 de agosto de 2024 - vide art. 2º - regras para uso e reuso de contêineres)_"
-        }
-      ]
-    },
-    {
-      "id": "tubulões-com-pressão-hiperbárica",
-      "number": "",
-      "title": "Tubulões com pressão hiperbárica",
-      "blocks": [
+          "text": "~~vivência.~~ _(Revogado pela Portaria MTE nº 1.420, de 27 de agosto de 2024 - vide art. 2º - regras para uso e reuso de contêineres)_ Tubulões com pressão hiperbárica"
+        },
         {
           "type": "item",
           "number": "18.17.3",
@@ -6930,20 +6817,14 @@
     },
     {
       "id": "1-carga-horária-e-periodicidade",
-      "number": "",
-      "title": "1. Carga horária e periodicidade",
+      "number": "1",
+      "title": "Carga horária e periodicidade",
       "blocks": []
     },
     {
-      "id": "11-a-carga-horária-e-a-periodicidade-das-capacitações-dos-trabalhadores-da-indústria-da-construção-devem-seguir-o-disposto-no-quadro-1-deste-anexo",
+      "id": "11-a-carga-horária-e-a-periodicidade-das-capacitações-dos-trabalhadores-da-indústria-da-construção-devem-seguir-o-disposto-no-quadro-1-deste-anexo-quadro-1",
       "number": "1.1",
-      "title": "A carga horária e a periodicidade das capacitações dos trabalhadores da indústria da construção devem seguir o disposto no Quadro 1 deste Anexo",
-      "blocks": []
-    },
-    {
-      "id": "quadro-1",
-      "number": "",
-      "title": "Quadro 1",
+      "title": "A carga horária e a periodicidade das capacitações dos trabalhadores da indústria da construção devem seguir o disposto no Quadro 1 deste Anexo. Quadro 1",
       "blocks": [
         {
           "type": "table",
@@ -6966,8 +6847,8 @@
     },
     {
       "id": "2-conteúdo-programático",
-      "number": "",
-      "title": "2. Conteúdo programático",
+      "number": "2",
+      "title": "Conteúdo programático",
       "blocks": [
         {
           "type": "item",
@@ -7109,8 +6990,9 @@
           "text": "- IV. conhecimento para inspeções visuais das condições de uso e conformidade de ganchos, cabos de aço, cintas sintéticas e de todos outros elementos e acessórios utilizados no içamento de cargas."
         },
         {
-          "type": "table",
-          "markdown": "| | a parte prática | | |\n| --- | --- | --- | --- |\n| Atividade de escavação manual de tubulão | 24 horas, sendo pelo menos 8 horas para a parte prática | 8 horas/anual | |\n| Demais atividades/funções | a critério do empregador | a critério do empregador/ a critério do empregador | |"
+          "type": "image",
+          "alt": "Tabela da página 49",
+          "src": "../assets/pages/page-049-table-00.png"
         },
         {
           "type": "list",
@@ -7271,15 +7153,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**11.** O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
+          "text": "**11.** O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação. GLOSSÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "Ancoragem: ponto ou elemento de fixação instalado na edificação ou outra estrutura para a sustentação de equipamento de trabalho ou EPI."

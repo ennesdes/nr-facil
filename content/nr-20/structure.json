@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria SEPRT nº 1.360, de 09 de dezembro de 2019)_ # **SUMÁRIO** - 20.1 Introdução - 20.2 Abrangência - 20.3 Definições - 20.4 Classificação das Instalações - 20.5 Projeto da Instalação - 20.6 Prontuário da Instalação - 20.7 Análise de Riscos - 20.8 Segurança na Construção e Montagem - 20.9 Segurança Operacional - 20.10 Manutenção e Inspeção das Instalações - 20.11 Inspeção em Segurança e Saúde no Ambiente de Trabalho - 20.12 Capacitação dos Trabalhadores - 20.13 Controle de Fontes de Ignição - 20.14 Prevenção e Controle de Vazamentos, Derramamentos, Incêndios, Explosões e Emissões fugitivas - 20.15 Plano de Resposta a Emergências da Instalação - 20.16 Comunicação de Ocorrências - 20.17 Contratante e Contratadas ANEXO I - Critérios para Capacitação dos Trabalhadores e Conteúdo Programático ANEXO II - Exceções à aplicação do item 20.4 (Classificação das Instalações) ANEXO III - Tanques de Inflamáveis no Interior de Edifícios ANEXO IV - Exposição Ocupacional ao Benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos GLOSSÁRIO"
+        "text": "_(Redação dada pela Portaria SEPRT nº 1.360, de 09 de dezembro de 2019)_ # **SUMÁRIO** - 20.1 Introdução - 20.2 Abrangência - 20.3 Definições - 20.4 Classificação das Instalações - 20.5 Projeto da Instalação - 20.6 Prontuário da Instalação - 20.7 Análise de Riscos - 20.8 Segurança na Construção e Montagem - 20.9 Segurança Operacional - 20.10 Manutenção e Inspeção das Instalações - 20.11 Inspeção em Segurança e Saúde no Ambiente de Trabalho - 20.12 Capacitação dos Trabalhadores - 20.13 Controle de Fontes de Ignição - 20.14 Prevenção e Controle de Vazamentos, Derramamentos, Incêndios, Explosões e Emissões fugitivas - 20.15 Plano de Resposta a Emergências da Instalação - 20.16 Comunicação de Ocorrências - 20.17 Contratante e Contratadas ANEXO I - Critérios para Capacitação dos Trabalhadores e Conteúdo Programático ANEXO II - Exceções à aplicação do item 20.4 (Classificação das Instalações) ANEXO III - Tanques de Inflamáveis no Interior de Edifícios ANEXO IV - Exposição Ocupacional ao Benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos GLOSSÁRIO # **SUMÁRIO**"
       }
     ]
   },
@@ -1492,20 +1492,14 @@
           "text": "**Tabela 2 - Critérios para Atualização**"
         },
         {
-          "type": "table",
-          "markdown": "| Atividade Classe | Instalação Classe I | Instalação Classe II | Instalação Classe III |\n| --- | --- | --- | --- |\n| Específica, pontual e de curta duração | Curso Básico (4 horas) | Curso Básico (6 horas) | Curso Básico (8 horas) |\n| Manutenção e inspeção | Curso Intermediário (12 horas) | Curso Intermediário (14 horas) | Curso Intermediário (16 horas) |\n| Operação e atendimento a emergências | Curso Intermediário (12 horas) | Curso Avançado I (20 horas) | Curso Avançado II (32 horas) |\n| Segurança e saúde no trabalho | - | Curso Específico (14 horas) | Curso Específico (16 horas) |"
+          "type": "image",
+          "alt": "Tabela da página 14",
+          "src": "../assets/pages/page-014-table-00.png"
         },
         {
           "type": "table",
-          "markdown": "| Curso | Periodicidade | | | Carga Horária |\n| --- | --- | --- | --- | --- |\n| Básico | Trienal | | | 4 horas |\n| | Classe I | Classe II | Classe III | |"
-        }
-      ]
-    },
-    {
-      "id": "conteúdo-programático",
-      "number": "",
-      "title": "Conteúdo programático",
-      "blocks": [
+          "markdown": "| Atividade Classe | Instalação Classe I | Instalação Classe II | Instalação Classe III |\n| --- | --- | --- | --- |\n| Específica, pontual e de curta duração | Curso Básico (4 horas) | Curso Básico (6 horas) | Curso Básico (8 horas) |\n| Manutenção e inspeção | Curso Intermediário (12 horas) | Curso Intermediário (14 horas) | Curso Intermediário (16 horas) |\n| Operação e atendimento a emergências | Curso Intermediário (12 horas) | Curso Avançado I (20 horas) | Curso Avançado II (32 horas) |\n| Segurança e saúde no trabalho | - | Curso Específico (14 horas) | Curso Específico (16 horas) | Conteúdo programático |"
+        },
         {
           "type": "list",
           "items": [
@@ -1533,15 +1527,8 @@
         },
         {
           "type": "paragraph",
-          "text": "4. Procedimentos básicos em situações de emergência com inflamáveis."
-        }
-      ]
-    },
-    {
-      "id": "b-curso-básico",
-      "number": "",
-      "title": "b) Curso Básico",
-      "blocks": [
+          "text": "4. Procedimentos básicos em situações de emergência com inflamáveis. b) Curso Básico"
+        },
         {
           "type": "list",
           "items": [
@@ -1573,15 +1560,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis."
-        }
-      ]
-    },
-    {
-      "id": "c-curso-intermediário",
-      "number": "",
-      "title": "c) Curso Intermediário",
-      "blocks": [
+          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis. c) Curso Intermediário"
+        },
         {
           "type": "list",
           "items": [
@@ -1621,15 +1601,8 @@
         },
         {
           "type": "paragraph",
-          "text": "8. Permissão para Trabalho com Inflamáveis."
-        }
-      ]
-    },
-    {
-      "id": "ii-conteúdo-programático-prático",
-      "number": "",
-      "title": "II) Conteúdo programático prático:",
-      "blocks": [
+          "text": "8. Permissão para Trabalho com Inflamáveis. II) Conteúdo programático prático:"
+        },
         {
           "type": "paragraph",
           "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis."
@@ -1702,15 +1675,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis."
-        }
-      ]
-    },
-    {
-      "id": "e-curso-avançado-ii",
-      "number": "",
-      "title": "e) Curso Avançado II",
-      "blocks": [
+          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis. e) Curso Avançado II"
+        },
         {
           "type": "list",
           "items": [
@@ -1774,15 +1740,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis."
-        }
-      ]
-    },
-    {
-      "id": "f-curso-específico",
-      "number": "",
-      "title": "f) Curso Específico",
-      "blocks": [
+          "text": "1. Conhecimentos e utilização dos sistemas de segurança contra incêndio com inflamáveis. f) Curso Específico"
+        },
         {
           "type": "list",
           "items": [
@@ -1818,13 +1777,11 @@
       "id": "anexo-ii-da-nr-20",
       "number": "ANEXO II",
       "title": "da NR-20",
-      "blocks": []
-    },
-    {
-      "id": "instalações-que-constituem-exceções-à-aplicação-do-item-204-classificação-das-instalações",
-      "number": "",
-      "title": "Instalações que constituem exceções à aplicação do item 20.4 (Classificação das Instalações)",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Instalações que constituem exceções à aplicação do item 20.4 (Classificação das Instalações)**"
+        },
         {
           "type": "paragraph",
           "text": "_1._ As instalações que desenvolvem atividades de manuseio, armazenamento, manipulação e transporte com gases inflamáveis acima de 1 (uma) tonelada até 2 (duas) toneladas e de líquidos inflamáveis e/ou combustíveis acima de 1 m³ (um metro cúbico) até 10 m³ (dez metros cúbicos) devem anexar ao seu PGR os seguintes registros atualizados ou mantidos em documento apartado, quando a organização for dispensada de manter o PGR: _(Todo o item alterado pela Portaria MTP nº 806, de 13 de abril de_ _2022)_"
@@ -2081,19 +2038,11 @@
       "id": "anexo-iv-da-nr-20",
       "number": "ANEXO IV",
       "title": "da NR-20",
-      "blocks": []
-    },
-    {
-      "id": "exposição-ocupacional-ao-benzeno-em-postos-de-serviços-revendedores-de-combustíveis-automotivos",
-      "number": "",
-      "title": "Exposição Ocupacional ao Benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos",
-      "blocks": []
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Exposição Ocupacional ao Benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos**"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivo"
@@ -2154,8 +2103,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": [
         {
           "type": "paragraph",
@@ -2169,8 +2118,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "number": "2",
+      "title": "Campo de Aplicação",
       "blocks": [
         {
           "type": "paragraph",
@@ -2184,14 +2133,14 @@
     },
     {
       "id": "3-responsabilidades",
-      "number": "",
-      "title": "3. Responsabilidades",
+      "number": "3",
+      "title": "Responsabilidades",
       "blocks": []
     },
     {
       "id": "31-cabe-à-organização",
       "number": "3.1",
-      "title": "Cabe à organização:",
+      "title": "Cabe à organização",
       "blocks": [
         {
           "type": "list",
@@ -2252,7 +2201,7 @@
     {
       "id": "32-cabe-aos-trabalhadores",
       "number": "3.2",
-      "title": "Cabe aos trabalhadores:",
+      "title": "Cabe aos trabalhadores",
       "blocks": [
         {
           "type": "list",
@@ -2297,8 +2246,8 @@
     },
     {
       "id": "5-treinamento-e-capacitação-dos-trabalhadores",
-      "number": "",
-      "title": "5. Treinamento e capacitação dos Trabalhadores",
+      "number": "5",
+      "title": "Treinamento e capacitação dos Trabalhadores",
       "blocks": [
         {
           "type": "paragraph",
@@ -2518,8 +2467,8 @@
     },
     {
       "id": "6-programa-de-controle-médico-de-saúde-ocupacional---pcmso",
-      "number": "",
-      "title": "6. Programa de Controle Médico de Saúde Ocupacional - PCMSO",
+      "number": "6",
+      "title": "Programa de Controle Médico de Saúde Ocupacional - PCMSO",
       "blocks": [
         {
           "type": "paragraph",
@@ -2557,8 +2506,8 @@
     },
     {
       "id": "7-programa-de-gerenciamento-de-riscos",
-      "number": "",
-      "title": "7. Programa de Gerenciamento de Riscos",
+      "number": "7",
+      "title": "Programa de Gerenciamento de Riscos",
       "blocks": [
         {
           "type": "paragraph",
@@ -2572,8 +2521,8 @@
     },
     {
       "id": "8-procedimentos-operacionais",
-      "number": "",
-      "title": "8. Procedimentos Operacionais",
+      "number": "8",
+      "title": "Procedimentos Operacionais",
       "blocks": [
         {
           "type": "paragraph",
@@ -2746,17 +2695,10 @@
           "items": [
             {
               "label": "e",
-              "text": "investigação para análise de risco de contaminação de solo; e"
+              "text": "investigação para análise de risco de contaminação de solo; e f) remediações de solo."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "f-remediações-de-solo",
-      "number": "",
-      "title": "f) remediações de solo.",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "8.3 Os procedimentos citados nos subitens 8.1 e 8.2 devem estar disponíveis à inspeção do trabalho e para consulta dos trabalhadores."
@@ -2769,8 +2711,8 @@
     },
     {
       "id": "9-atividades-operacionais",
-      "number": "",
-      "title": "9. Atividades Operacionais",
+      "number": "9",
+      "title": "Atividades Operacionais",
       "blocks": [
         {
           "type": "paragraph",
@@ -2943,8 +2885,8 @@
     },
     {
       "id": "10-ambientes-de-trabalho-anexos",
-      "number": "",
-      "title": "10. Ambientes de Trabalho Anexos",
+      "number": "10",
+      "title": "Ambientes de Trabalho Anexos",
       "blocks": [
         {
           "type": "paragraph",
@@ -2962,8 +2904,8 @@
     },
     {
       "id": "11-vestimenta-de-trabalho",
-      "number": "",
-      "title": "11. Vestimenta de trabalho",
+      "number": "11",
+      "title": "Vestimenta de trabalho",
       "blocks": [
         {
           "type": "paragraph",
@@ -2981,8 +2923,8 @@
     },
     {
       "id": "12-equipamentos-de-proteção-individual---epi",
-      "number": "",
-      "title": "12. Equipamentos de Proteção Individual - EPI",
+      "number": "12",
+      "title": "Equipamentos de Proteção Individual - EPI",
       "blocks": [
         {
           "type": "paragraph",
@@ -3012,8 +2954,8 @@
     },
     {
       "id": "13-sinalização-referente-ao-benzeno",
-      "number": "",
-      "title": "13. Sinalização referente ao Benzeno",
+      "number": "13",
+      "title": "Sinalização referente ao Benzeno",
       "blocks": [
         {
           "type": "paragraph",
@@ -3023,8 +2965,8 @@
     },
     {
       "id": "14-medidas-de-controle-coletivo-de-exposição-durante-o-abastecimento",
-      "number": "",
-      "title": "14. Medidas de Controle Coletivo de Exposição durante o abastecimento",
+      "number": "14",
+      "title": "Medidas de Controle Coletivo de Exposição durante o abastecimento",
       "blocks": [
         {
           "type": "paragraph",
@@ -3040,15 +2982,8 @@
         },
         {
           "type": "paragraph",
-          "text": "14.3.1 Considera-se como data de aprovação a data de emissão do Alvará de Construção do PRC ou documento equivalente."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
+          "text": "14.3.1 Considera-se como data de aprovação a data de emissão do Alvará de Construção do PRC ou documento equivalente. GLOSSÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "Áreas Classificadas - área na qual uma atmosfera explosiva está presente ou na qual é provável sua ocorrência a ponto de exigir precauções e critérios especiais para seleção, instalação e utilização de equipamentos elétricos."

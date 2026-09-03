@@ -78,13 +78,13 @@
       "id": "264-identificação-de-produto-químico",
       "number": "26.4",
       "title": "Identificação de produto químico",
-      "blocks": []
-    },
-    {
-      "id": "2641-classificação",
-      "number": "",
-      "title": "26.4.1 Classificação",
       "blocks": [
+        {
+          "type": "item",
+          "number": "26.4.1",
+          "depth": 2,
+          "text": "Classificação"
+        },
         {
           "type": "item",
           "number": "26.4.1.1",

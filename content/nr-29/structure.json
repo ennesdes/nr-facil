@@ -381,14 +381,13 @@
           "number": "29.4.1.1",
           "depth": 3,
           "text": "O operador portuário e o tomador de serviço devem incluir as atividades do trabalho avulso em seu PGR."
-        }
-      ]
-    },
-    {
-      "id": "2942-a-administração-portuária-deve",
-      "number": "",
-      "title": "29.4.2 A administração portuária deve:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "29.4.2",
+          "depth": 2,
+          "text": "A administração portuária deve:"
+        },
         {
           "type": "list",
           "items": [
@@ -422,14 +421,13 @@
         {
           "type": "paragraph",
           "text": "_ _"
-        }
-      ]
-    },
-    {
-      "id": "2944-o-ogmo-deve",
-      "number": "",
-      "title": "29.4.4 O OGMO deve:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "29.4.4",
+          "depth": 2,
+          "text": "O OGMO deve:"
+        },
         {
           "type": "list",
           "items": [
@@ -869,14 +867,13 @@
         {
           "type": "paragraph",
           "text": "desempenho dos trabalhadores portuários quanto à segurança e saúde no trabalho."
-        }
-      ]
-    },
-    {
-      "id": "29716-compete-ao-ogmo",
-      "number": "",
-      "title": "29.7.16 Compete ao OGMO:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "29.7.16",
+          "depth": 2,
+          "text": "Compete ao OGMO:"
+        },
         {
           "type": "list",
           "items": [
@@ -4356,14 +4353,8 @@
       ]
     },
     {
-      "id": "anexo-i",
+      "id": "anexo-i-dimensionamento-do-sesstp",
       "number": "ANEXO I",
-      "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "dimensionamento-do-sesstp",
-      "number": "",
       "title": "DIMENSIONAMENTO DO SESSTP",
       "blocks": [
         {
@@ -4382,13 +4373,11 @@
       "id": "anexo-iii",
       "number": "ANEXO III",
       "title": "ANEXO III",
-      "blocks": []
-    },
-    {
-      "id": "regime-de-tempo-de-trabalho-com-tempo-de-recuperação-térmica-fora-do-ambiente-frio",
-      "number": "",
-      "title": "REGIME DE TEMPO DE TRABALHO COM TEMPO DE RECUPERAÇÃO TÉRMICA FORA DO AMBIENTE FRIO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**REGIME DE TEMPO DE TRABALHO COM TEMPO DE RECUPERAÇÃO TÉRMICA FORA DO AMBIENTE FRIO**"
+        },
         {
           "type": "paragraph",
           "text": "_ _"
@@ -4420,15 +4409,9 @@
       ]
     },
     {
-      "id": "anexo-iv-cargas-perigosas",
+      "id": "anexo-iv-cargas-perigosas-classe-1---explosivos",
       "number": "ANEXO IV",
-      "title": "CARGAS PERIGOSAS",
-      "blocks": []
-    },
-    {
-      "id": "classe-1---explosivos",
-      "number": "",
-      "title": "CLASSE 1 - EXPLOSIVOS",
+      "title": "CARGAS PERIGOSAS CLASSE 1 - EXPLOSIVOS",
       "blocks": [
         {
           "type": "paragraph",
@@ -4448,13 +4431,11 @@
       "id": "anexo-v-segregação-de-cargas-perigosas",
       "number": "ANEXO V",
       "title": "SEGREGAÇÃO DE CARGAS PERIGOSAS",
-      "blocks": []
-    },
-    {
-      "id": "tabela-i---tipo-de-segregação",
-      "number": "",
-      "title": "TABELA I - TIPO DE SEGREGAÇÃO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**TABELA I - TIPO DE SEGREGAÇÃO**"
+        },
         {
           "type": "paragraph",
           "text": "_ _"
@@ -4494,20 +4475,11 @@
         {
           "type": "paragraph",
           "text": "- - Não se aplica o presente anexo"
-        }
-      ]
-    },
-    {
-      "id": "tabela-ii---distância-de-segregação",
-      "number": "",
-      "title": "TABELA II - DISTÂNCIA DE SEGREGAÇÃO",
-      "blocks": []
-    },
-    {
-      "id": "observações",
-      "number": "",
-      "title": "OBSERVAÇÕES:",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA II - DISTÂNCIA DE SEGREGAÇÃO** OBSERVAÇÕES:"
+        },
         {
           "type": "paragraph",
           "text": "1) As tabelas estão baseadas no quadro de segregação do Código Marítimo Internacional de Mercadorias Perigosas - IMDG/CODE-IMO."
@@ -4530,15 +4502,8 @@
         },
         {
           "type": "paragraph",
-          "text": "3) Contêiner neutro significa cofre com carga compatível com o da mercadoria perigosa (por exemplo: contêiner com carga geral - não alimento)."
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+          "text": "3) Contêiner neutro significa cofre com carga compatível com o da mercadoria perigosa (por exemplo: contêiner com carga geral - não alimento). Glossário"
+        },
         {
           "type": "paragraph",
           "text": "Acessórios de estivagem ou de içamento - todo acessório por meio do qual uma carga pode ser fixada num aparelho de içar, mas que não seja parte integrante do aparelho ou da carga."

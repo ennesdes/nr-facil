@@ -89,14 +89,13 @@
           "number": "8.3.2.5",
           "depth": 3,
           "text": "Os andares acima do solo devem dispor de proteção contra queda de pessoas ou objetos, de acordo com a legislação municipal e as normas técnicas oficiais, atendidas as condições de segurança e conforto."
-        }
-      ]
-    },
-    {
-      "id": "833-proteção-contra-intempéries",
-      "number": "",
-      "title": "8.3.3 Proteção contra intempéries",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "8.3.3",
+          "depth": 2,
+          "text": "Proteção contra intempéries"
+        },
         {
           "type": "item",
           "number": "8.3.3.1",

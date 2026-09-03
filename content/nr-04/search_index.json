@@ -1699,92 +1699,68 @@
   },
   {
     "id": "chunk-283",
-    "text": "| 94.11-1 | Atividades de organizações associativas patronais e empresariais | 1 |\n| --- | --- | --- |\n| 94.12-0 | Atividades de organizações associativas profissionais | 1 |\n| 94.2 | Atividades de organizações sindicais | |\n| 94.20-1 | Atividades de organizações sindicais | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
+    "text": "![Tabela da página 30](../assets/pages/page-030-table-00.png)\n| 94.11-1 | Atividades de organizações associativas patronais e empresariais | 1 |\n| --- | --- | --- |\n| 94.12-0 | Atividades de organizações associativas profissionais | 1 |\n| 94.2 | Atividades de organizações sindicais | |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
     "char_offset": 82801
   },
   {
     "id": "chunk-284",
-    "text": "| 94.3 | Atividades de associações de defesa de direitos sociais | |\n| 94.30-8 | Atividades de associações de defesa de direitos sociais | 1 |\n| 94.9 | Atividades de organizações associativas não especificadas anteriormente | |\n| 94.91-0 | Atividades de organizações religiosas | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 83081
+    "text": "| 94.20-1 | Atividades de organizações sindicais | 1 |\n| 94.3 | Atividades de associações de defesa de direitos sociais | |\n| 94.30-8 | Atividades de associações de defesa de direitos sociais | 1 |\n| 94.9 | Atividades de organizações associativas não especificadas anteriormente | |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 83088
   },
   {
     "id": "chunk-285",
-    "text": "| 94.92-8 | Atividades de organizações políticas | 1 |\n| 94.93-6 | Atividades de organizações associativas ligadas à cultura e à arte | 1 |\n| 94.99-5 | Atividades associativas não especificadas anteriormente | 1 |\n| 95 | REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS | |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 83365
+    "text": "| 94.91-0 | Atividades de organizações religiosas | 1 |\n| 94.92-8 | Atividades de organizações políticas | 1 |\n| 94.93-6 | Atividades de organizações associativas ligadas à cultura e à arte | 1 |\n| 94.99-5 | Atividades associativas não especificadas anteriormente | 1 |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 83371
   },
   {
     "id": "chunk-286",
-    "text": "| 95.1 | Reparação e manutenção de equipamentos de informática e comunicação | |\n| 95.11-8 | Reparação e manutenção de computadores e de equipamentos periféricos | 3 |\n| 95.12-6 | Reparação e manutenção de equipamentos de comunicação | 3 |\n| 95.2 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos | |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 83693
+    "text": "| 95 | REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS | |\n| 95.1 | Reparação e manutenção de equipamentos de informática e comunicação | |\n| 95.11-8 | Reparação e manutenção de computadores e de equipamentos periféricos | 3 |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 83641
   },
   {
     "id": "chunk-287",
-    "text": "| 95.21-5 | Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico | 3 |\n| 95.29-1 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente | 3 |\n| 96 | OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS | |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 84017
+    "text": "| 95.12-6 | Reparação e manutenção de equipamentos de comunicação | 3 |\n| 95.2 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos | |\n| 95.21-5 | Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico | 3 |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 83923
   },
   {
     "id": "chunk-288",
-    "text": "| 96.0 | Outras atividades de serviços pessoais | |\n| 96.01-7 | Lavanderias, tinturarias e toalheiros | 2 |\n| 96.02-5 | Cabeleireiros e outras atividades de tratamento de beleza | 2 |\n| 96.03-3 | Atividades funerárias e serviços relacionados | 2 |\n| 96.09-2 | Atividades de serviços pessoais não especificadas anteriormente | 2 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 84290
+    "text": "| 95.29-1 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente | 3 |\n| 96 | OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS | |\n| 96.0 | Outras atividades de serviços pessoais | |\n| 96.01-7 | Lavanderias, tinturarias e toalheiros | 2 |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 84181
   },
   {
     "id": "chunk-289",
-    "text": "| T | SERVIÇOS DOMÉSTICOS | |\n| 97 | SERVIÇOS DOMÉSTICOS | |\n| 97.0 | Serviços domésticos | |\n| 97.00-5 | Serviços domésticos | 2 |\n| U | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99 | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 84620
+    "text": "| 96.02-5 | Cabeleireiros e outras atividades de tratamento de beleza | 2 |\n| 96.03-3 | Atividades funerárias e serviços relacionados | 2 |\n| 96.09-2 | Atividades de serviços pessoais não especificadas anteriormente | 2 |\n| T | SERVIÇOS DOMÉSTICOS | |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 84460
   },
   {
     "id": "chunk-290",
-    "text": "| 99.0 | Organismos internacionais e outras instituições extraterritoriais | |\n| 99.00-8 | Organismos internacionais e outras instituições extraterritoriais | 1 |\n| | Nº de Trabalhadores no estabelecimento | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 84906
+    "text": "| 97 | SERVIÇOS DOMÉSTICOS | |\n| 97.0 | Serviços domésticos | |\n| 97.00-5 | Serviços domésticos | 2 |\n| U | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99 | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 84712
   },
   {
     "id": "chunk-291",
-    "text": "| Grau de Risco | Profissionais | 50 a 100 | 101 a 250 | 251 a 500 | 501 a 1.000 | 1.001 a 2.000 | 2.001 a 3.500 | 3.501 a 5.000 | Acima de 5.000 Para cada grupo De 4.000 ou |\n(*) Tempo parcial (mínimo de três horas) \n(**) O dimensionamento total deverá ser feito levando-se em consideração o dimensionamento da faixa de 3.501 a 5.000, acrescido do dimensionamento do(s) grupo(s) de 4.000 ou fração acima de 2.000. (***) O empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho. OBSERVAÇÕES:",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 85194
+    "text": "| 99.0 | Organismos internacionais e outras instituições extraterritoriais | |\n| 99.00-8 | Organismos internacionais e outras instituições extraterritoriais | 1 |\n(*) Tempo parcial (mínimo de três horas) \n(**) O dimensionamento total deverá ser feito levando-se em consideração o dimensionamento da faixa de 3.501 a 5.000, acrescido do dimensionamento do(s) grupo(s) de 4.000 ou fração acima de 2.000. (***) O empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho. OBSERVAÇÕES:",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 84969
   },
   {
     "id": "chunk-292",
     "text": "A) hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares deverão contratar um enfermeiro do trabalho em tempo integral quando possuírem mais de quinhentos trabalhadores; e \nB) em virtude das características das atribuições do SESMT, não se faz necessária a supervisão do técnico de enfermagem do trabalho por enfermeiro do trabalho, salvo quando a atividade for executada em hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares.",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 85785
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 85547
   },
   {
     "id": "chunk-293",
-    "text": "| | | | | | | | | | fração acima 2.000** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Técnico Seg. Trabalho | | | | 1 | 1 | 1 | 2 | 1 |\n| | Engenheiro Seg. Trabalho | | | | | | 1* | 1 | 1* |\n| | Aux./Tec. Enferm. do Trabalho | | | | | | 1*** | 1 | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 86315
-  },
-  {
-    "id": "chunk-294",
-    "text": "| | Enfermeiro do Trabalho | | | | | | | 1* | |\n| | Médico do Trabalho | | | | | 1* | 1* | 1 | 1* |\n| 2 | Técnico Seg. Trabalho | | | | 1 | 1 | 2 | 5 | 1 |\n| | Engenheiro Seg. Trabalho | | | | | 1* | 1 | 1 | 1* |\n| | Aux./Tec. Enferm. do Trabalho | | | | | 1*** | 1*** | 1 | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 86592
-  },
-  {
-    "id": "chunk-295",
-    "text": "| | Enfermeiro do Trabalho | | | | | | | 1 | |\n| | Médico do Trabalho | | | | | 1* | 1 | 1 | 1 |\n| 3 | Técnico Seg. Trabalho | | 1 | 2 | 3 | 4 | 6 | 8 | 3 |\n| | Engenheiro Seg. Trabalho | | | | 1* | 1 | 1 | 2 | 1 |\n| | Aux./Tec. Enferm. do Trabalho | | | | | 1*** | 1 | 1 | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 86871
-  },
-  {
-    "id": "chunk-296",
-    "text": "| | Enfermeiro do Trabalho | | | | | | 1 | 1 | |\n| | Médico do Trabalho | | | | 1* | 1 | 1 | 2 | 1 |\n| 4 | Técnico Seg. Trabalho | 1 | 2 | 3 | 4 | 5 | 8 | 10 | 3 |\n| | Engenheiro Seg. Trabalho | | 1* | 1* | 1 | 1 | 2 | 3 | 1 |\n| | Aux./Tec. Enferm. do Trabalho | | | | 1*** | 1*** | 1 | 1 | 1 |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 87149
-  },
-  {
-    "id": "chunk-297",
-    "text": "| | Enfermeiro do Trabalho | | | | | | 1 | 1 | |\n| | Médico do Trabalho | | 1* | 1* | 1 | 1 | 2 | 3 | 1 |\n| (*) Tempo parcial (mínimo de três horas) (**) O dimensionamento total deverá ser feito levando-se em consideração o dimensionamento da faixa de 3.501 a 5.000, acrescido do dimensionamento do(s) grupo(s) de 4.000 ou fração acima de 2.000. (***) O empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho. OBSERVAÇÕES: A) hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares deverão contratar um enfermeiro do trabalho em tempo integral quando possuírem mais de quinhentos trabalhadores; e B) em virtude das características das atribuições do SESMT, não se faz necessária a supervisão do técnico de enfermagem do trabalho por enfermeiro do trabalho, salvo quando a atividade for executada em hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares. | | | | | | | | | |",
-    "heading": "**DIMENSIONAMENTO DO SESMT**",
-    "char_offset": 87444
+    "text": "![Tabela da página 31](../assets/pages/page-031-table-00.png)",
+    "heading": "**ANEXO II** DIMENSIONAMENTO DO SESMT",
+    "char_offset": 86078
   }
 ]

@@ -4,7 +4,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "**NR 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI** # **Publicação** Portaria MTb nº 3.214, de 08 de junho de 1978 # **D.O.U.** 06/07/78"
+        "text": "**NR 06 - EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL - EPI** # **Publicação** Portaria MTb nº 3.214, de 08 de junho de 1978 D.O.U.** 06/07/78"
       },
       {
         "type": "table",
@@ -868,15 +868,8 @@
         },
         {
           "type": "paragraph",
-          "text": "B.3 - Máscara de solda para proteção dos olhos e face contra impactos de partículas volantes, radiação ultravioleta, radiação infravermelha e luminosidade intensa."
-        }
-      ]
-    },
-    {
-      "id": "c---epi-para-proteção-auditiva",
-      "number": "",
-      "title": "C - EPI PARA PROTEÇÃO AUDITIVA",
-      "blocks": [
+          "text": "B.3 - Máscara de solda para proteção dos olhos e face contra impactos de partículas volantes, radiação ultravioleta, radiação infravermelha e luminosidade intensa. C - EPI PARA PROTEÇÃO AUDITIVA"
+        },
         {
           "type": "paragraph",
           "text": "C.1 - Protetor auditivo:"
@@ -1370,15 +1363,8 @@
         },
         {
           "type": "paragraph",
-          "text": "- G.2 - Meia para proteção dos pés contra baixas temperaturas."
-        }
-      ]
-    },
-    {
-      "id": "g3---perneira",
-      "number": "",
-      "title": "G.3 - Perneira:",
-      "blocks": [
+          "text": "- G.2 - Meia para proteção dos pés contra baixas temperaturas. G.3 - Perneira:"
+        },
         {
           "type": "list",
           "items": [
@@ -1583,17 +1569,10 @@
           "items": [
             {
               "label": "b",
-              "text": "cinturão de segurança com talabarte para proteção do usuário contra riscos de queda no posicionamento em trabalhos em altura."
+              "text": "cinturão de segurança com talabarte para proteção do usuário contra riscos de queda no posicionamento em trabalhos em altura. Glossário"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Adquirente da importação por conta e ordem de terceiro: a pessoa jurídica que realiza transação comercial de compra e venda da mercadoria no exterior, em seu nome e com recursos próprios, e contrata o importador por conta e ordem para promover o despacho aduaneiro de importação."

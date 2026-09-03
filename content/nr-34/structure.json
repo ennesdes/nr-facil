@@ -322,14 +322,13 @@
         {
           "type": "paragraph",
           "text": "Medidas de Ordem Geral"
-        }
-      ]
-    },
-    {
-      "id": "3452-inspeção-preliminar",
-      "number": "",
-      "title": "34.5.2 Inspeção Preliminar",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "34.5.2",
+          "depth": 2,
+          "text": "Inspeção Preliminar"
+        },
         {
           "type": "item",
           "number": "34.5.2.1",
@@ -362,14 +361,13 @@
               "text": "o trabalho a quente seja executado por trabalhador capacitado, conforme item 4 do Anexo I. _(alterada pela Portaria MTE nº 1.897, de 09 de dezembro de 2013)_"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "3453-proteção-contra-incêndio",
-      "number": "",
-      "title": "34.5.3 Proteção contra Incêndio",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "34.5.3",
+          "depth": 2,
+          "text": "Proteção contra Incêndio"
+        },
         {
           "type": "item",
           "number": "34.5.3.1",
@@ -954,14 +952,13 @@
           "number": "34.6.3.16",
           "depth": 3,
           "text": "Os apoios das extremidades das passarelas devem ser dimensionados em função do comprimento total das mesmas e das cargas a que estarão submetidas."
-        }
-      ]
-    },
-    {
-      "id": "3464-plataformas-fixas",
-      "number": "",
-      "title": "34.6.4 Plataformas Fixas",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "34.6.4",
+          "depth": 2,
+          "text": "Plataformas Fixas"
+        },
         {
           "type": "item",
           "number": "34.6.4.1",
@@ -991,14 +988,13 @@
           "number": "34.6.4.5",
           "depth": 3,
           "text": "Deve ser afixada nas plataformas, de forma visível e indelével, placa contendo a indicação da carga máxima permitida."
-        }
-      ]
-    },
-    {
-      "id": "3465-plataformas-elevatórias",
-      "number": "",
-      "title": "34.6.5 Plataformas Elevatórias",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "34.6.5",
+          "depth": 2,
+          "text": "Plataformas Elevatórias"
+        },
         {
           "type": "item",
           "number": "34.6.5.1",
@@ -1884,15 +1880,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**_34.9.5.1_** Exceto em serviços realizados em cabine de pintura, a área somente deve ser liberada após autorização do profissional de segurança e saúde no trabalho ou, na sua inexistência, pelo responsável pelo cumprimento desta Norma, observados os limites inferiores de explosividade e de exposição estabelecidos na APR. _(alterado pela Portaria MTb nº 1.112, de 21 de setembro de 2016)_"
-        }
-      ]
-    },
-    {
-      "id": "preparo-e-descarte",
-      "number": "",
-      "title": "Preparo e Descarte",
-      "blocks": [
+          "text": "**_34.9.5.1_** Exceto em serviços realizados em cabine de pintura, a área somente deve ser liberada após autorização do profissional de segurança e saúde no trabalho ou, na sua inexistência, pelo responsável pelo cumprimento desta Norma, observados os limites inferiores de explosividade e de exposição estabelecidos na APR. _(alterado pela Portaria MTb nº 1.112, de 21 de setembro de 2016)_ Preparo e Descarte"
+        },
         {
           "type": "item",
           "number": "34.9.6",
@@ -1915,15 +1904,8 @@
           "type": "item",
           "number": "34.9.9",
           "depth": 2,
-          "text": "Os resíduos devem ser tratados, dispostos ou retirados dos limites do estabelecimento em conformidade com a legislação ambiental."
-        }
-      ]
-    },
-    {
-      "id": "espaço-confinado",
-      "number": "",
-      "title": "Espaço Confinado",
-      "blocks": [
+          "text": "Os resíduos devem ser tratados, dispostos ou retirados dos limites do estabelecimento em conformidade com a legislação ambiental. Espaço Confinado"
+        },
         {
           "type": "item",
           "number": "34.9.10",
@@ -2693,15 +2675,8 @@
         },
         {
           "type": "paragraph",
-          "text": "**_34.11_** Montagem e Desmontagem de Andaimes _(alterado pela Portaria MTPS nº 207, de 08 de_ _dezembro de 2015)_"
-        }
-      ]
-    },
-    {
-      "id": "medidas-de-ordem-geral",
-      "number": "",
-      "title": "Medidas de Ordem Geral",
-      "blocks": [
+          "text": "**_34.11_** Montagem e Desmontagem de Andaimes _(alterado pela Portaria MTPS nº 207, de 08 de_ _dezembro de 2015)_ Medidas de Ordem Geral"
+        },
         {
           "type": "item",
           "number": "34.11.1",
@@ -4935,13 +4910,11 @@
       "id": "anexo-i",
       "number": "ANEXO I",
       "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "conteúdo-programático-e-carga-horária-mínima-para-o-programa-de-treinamento",
-      "number": "",
-      "title": "CONTEÚDO PROGRAMÁTICO E CARGA HORÁRIA MÍNIMA PARA O PROGRAMA DE TREINAMENTO",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**CONTEÚDO PROGRAMÁTICO E CARGA HORÁRIA MÍNIMA PARA O PROGRAMA DE TREINAMENTO**"
+        },
         {
           "type": "paragraph",
           "text": "**1. Curso básico para observador de Trabalhos a Quente** Carga horária mínima de oito horas."
@@ -5168,8 +5141,8 @@
     },
     {
       "id": "4-curso-básico-de-segurança-para-trabalhos-a-quente",
-      "number": "",
-      "title": "4. Curso Básico de Segurança para Trabalhos a Quente",
+      "number": "4",
+      "title": "Curso Básico de Segurança para Trabalhos a Quente",
       "blocks": [
         {
           "type": "paragraph",
@@ -5629,8 +5602,9 @@
           "markdown": "| | SITUAÇÃO DE FIXAÇÃO TEMPORÁRIA | | PESO (TON) - P | | | ÁREA VÉLICA (M2) - A | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | POSIÇÃO | SUPORTE & ESTABILIZAÇÃO | P<0,3 0 | 0,3<P≤1 0,0 | P>10,0 | A<2,0 | 2,0<A≤ 16,0 | A>16,0 |\n| HASTILHAS, SUB-CONJUNTOS E | HORIZONTAL | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | APOIADO EM | N/A | G | E | N/A | G | E |"
         },
         {
-          "type": "table",
-          "markdown": "| DEMAIS ESTRUTURAS LEVES | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| VÃOS DE CAVERNAS | HORIZONTAL | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| PAINÉIS | HORIZONTAL | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO | N/A | G | E | N/A | G | E |"
+          "type": "image",
+          "alt": "Tabela da página 47",
+          "src": "../assets/pages/page-047-table-00.png"
         },
         {
           "type": "paragraph",

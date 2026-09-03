@@ -469,13 +469,11 @@
       "id": "anexo-i",
       "number": "ANEXO I",
       "title": "ANEXO I",
-      "blocks": []
-    },
-    {
-      "id": "relação-da-classificação-nacional-de-atividades-econômicas---cnae-versão-20-com-correspondente-grau-de-risco---gr",
-      "number": "",
-      "title": "RELAÇÃO DA CLASSIFICAÇÃO NACIONAL DE ATIVIDADES ECONÔMICAS - CNAE (VERSÃO 2.0), COM CORRESPONDENTE GRAU DE RISCO - GR",
       "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**RELAÇÃO DA CLASSIFICAÇÃO NACIONAL DE ATIVIDADES ECONÔMICAS - CNAE (VERSÃO 2.0), COM CORRESPONDENTE GRAU DE RISCO - GR**"
+        },
         {
           "type": "table",
           "markdown": "| Códigos | Denominação | GR |\n| --- | --- | --- |\n| A | AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA | |\n| 01 | AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS | |\n| 01.1 | Produção de lavouras temporárias | |\n| 01.11-3 | Cultivo de cereais | 3 |\n| 01.12-1 | Cultivo de algodão herbáceo e de outras fibras de lavoura temporária | 3 |\n| 01.13-0 | Cultivo de cana-de-açúcar | 3 |\n| 01.14-8 | Cultivo de fumo | 3 |\n| 01.15-6 | Cultivo de soja | 3 |\n| 01.16-4 | Cultivo de oleaginosas de lavoura temporária, exceto soja | 3 |\n| 01.19-9 | Cultivo de plantas de lavoura temporária não especificadas anteriormente | 3 |\n| 01.2 | Horticultura e floricultura | |\n| 01.21-1 | Horticultura | 3 |\n| 01.22-9 | Cultivo de flores e plantas ornamentais | 3 |\n| 01.3 | Produção de lavouras permanentes | |\n| 01.31-8 | Cultivo de laranja | 3 |\n| 01.32-6 | Cultivo de uva | 3 |\n| 01.33-4 | Cultivo de frutas de lavoura permanente, exceto laranja e uva | 3 |\n| 01.34-2 | Cultivo de café | 3 |\n| 01.35-1 | Cultivo de cacau | 3 |\n| 01.39-3 | Cultivo de plantas de lavoura permanente não especificadas anteriormente | 3 |\n| 01.4 | Produção de sementes e mudas certificadas | |\n| 01.41-5 | Produção de sementes certificadas | 3 |\n| 01.42-3 | Produção de mudas e outras formas de propagação vegetal, certificadas | 3 |\n| 01.5 | Pecuária | |\n| 01.51-2 | Criação de bovinos | 3 |\n| 01.52-1 | Criação de outros animais de grande porte | 3 |\n| 01.53-9 | Criação de caprinos e ovinos | 3 |\n| 01.54-7 | Criação de suínos | 3 |\n| 01.55-5 | Criação de aves | 3 |\n| 01.59-8 | Criação de animais não especificados anteriormente | 3 |\n| 01.6 | Atividades de apoio à agricultura e à pecuária; atividades de pós-colheita | |\n| 01.61-0 | Atividades de apoio à agricultura | 3 |\n| 01.62-8 | Atividades de apoio à pecuária | 3 |\n| 01.63-6 | Atividades de pós-colheita | 3 |\n| 01.7 | Caça e serviços relacionados | |\n| 01.70-9 | Caça e serviços relacionados | 3 |\n| 02 | PRODUÇÃO FLORESTAL | |\n| 02.1 | Produção florestal - florestas plantadas | |"
@@ -579,23 +577,18 @@
       ]
     },
     {
-      "id": "anexo-ii",
+      "id": "anexo-ii-dimensionamento-do-sesmt",
       "number": "ANEXO II",
-      "title": "ANEXO II",
-      "blocks": []
-    },
-    {
-      "id": "dimensionamento-do-sesmt",
-      "number": "",
       "title": "DIMENSIONAMENTO DO SESMT",
       "blocks": [
         {
-          "type": "table",
-          "markdown": "| 94.11-1 | Atividades de organizações associativas patronais e empresariais | 1 |\n| --- | --- | --- |\n| 94.12-0 | Atividades de organizações associativas profissionais | 1 |\n| 94.2 | Atividades de organizações sindicais | |\n| 94.20-1 | Atividades de organizações sindicais | 1 |\n| 94.3 | Atividades de associações de defesa de direitos sociais | |\n| 94.30-8 | Atividades de associações de defesa de direitos sociais | 1 |\n| 94.9 | Atividades de organizações associativas não especificadas anteriormente | |\n| 94.91-0 | Atividades de organizações religiosas | 1 |\n| 94.92-8 | Atividades de organizações políticas | 1 |\n| 94.93-6 | Atividades de organizações associativas ligadas à cultura e à arte | 1 |\n| 94.99-5 | Atividades associativas não especificadas anteriormente | 1 |\n| 95 | REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS | |\n| 95.1 | Reparação e manutenção de equipamentos de informática e comunicação | |\n| 95.11-8 | Reparação e manutenção de computadores e de equipamentos periféricos | 3 |\n| 95.12-6 | Reparação e manutenção de equipamentos de comunicação | 3 |\n| 95.2 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos | |\n| 95.21-5 | Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico | 3 |\n| 95.29-1 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente | 3 |\n| 96 | OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS | |\n| 96.0 | Outras atividades de serviços pessoais | |\n| 96.01-7 | Lavanderias, tinturarias e toalheiros | 2 |\n| 96.02-5 | Cabeleireiros e outras atividades de tratamento de beleza | 2 |\n| 96.03-3 | Atividades funerárias e serviços relacionados | 2 |\n| 96.09-2 | Atividades de serviços pessoais não especificadas anteriormente | 2 |\n| T | SERVIÇOS DOMÉSTICOS | |\n| 97 | SERVIÇOS DOMÉSTICOS | |\n| 97.0 | Serviços domésticos | |\n| 97.00-5 | Serviços domésticos | 2 |\n| U | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99 | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99.0 | Organismos internacionais e outras instituições extraterritoriais | |\n| 99.00-8 | Organismos internacionais e outras instituições extraterritoriais | 1 |"
+          "type": "image",
+          "alt": "Tabela da página 30",
+          "src": "../assets/pages/page-030-table-00.png"
         },
         {
           "type": "table",
-          "markdown": "| | Nº de Trabalhadores no estabelecimento | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Grau de Risco | Profissionais | 50 a 100 | 101 a 250 | 251 a 500 | 501 a 1.000 | 1.001 a 2.000 | 2.001 a 3.500 | 3.501 a 5.000 | Acima de 5.000 Para cada grupo De 4.000 ou |"
+          "markdown": "| 94.11-1 | Atividades de organizações associativas patronais e empresariais | 1 |\n| --- | --- | --- |\n| 94.12-0 | Atividades de organizações associativas profissionais | 1 |\n| 94.2 | Atividades de organizações sindicais | |\n| 94.20-1 | Atividades de organizações sindicais | 1 |\n| 94.3 | Atividades de associações de defesa de direitos sociais | |\n| 94.30-8 | Atividades de associações de defesa de direitos sociais | 1 |\n| 94.9 | Atividades de organizações associativas não especificadas anteriormente | |\n| 94.91-0 | Atividades de organizações religiosas | 1 |\n| 94.92-8 | Atividades de organizações políticas | 1 |\n| 94.93-6 | Atividades de organizações associativas ligadas à cultura e à arte | 1 |\n| 94.99-5 | Atividades associativas não especificadas anteriormente | 1 |\n| 95 | REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS | |\n| 95.1 | Reparação e manutenção de equipamentos de informática e comunicação | |\n| 95.11-8 | Reparação e manutenção de computadores e de equipamentos periféricos | 3 |\n| 95.12-6 | Reparação e manutenção de equipamentos de comunicação | 3 |\n| 95.2 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos | |\n| 95.21-5 | Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico | 3 |\n| 95.29-1 | Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente | 3 |\n| 96 | OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS | |\n| 96.0 | Outras atividades de serviços pessoais | |\n| 96.01-7 | Lavanderias, tinturarias e toalheiros | 2 |\n| 96.02-5 | Cabeleireiros e outras atividades de tratamento de beleza | 2 |\n| 96.03-3 | Atividades funerárias e serviços relacionados | 2 |\n| 96.09-2 | Atividades de serviços pessoais não especificadas anteriormente | 2 |\n| T | SERVIÇOS DOMÉSTICOS | |\n| 97 | SERVIÇOS DOMÉSTICOS | |\n| 97.0 | Serviços domésticos | |\n| 97.00-5 | Serviços domésticos | 2 |\n| U | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99 | ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS | |\n| 99.0 | Organismos internacionais e outras instituições extraterritoriais | |\n| 99.00-8 | Organismos internacionais e outras instituições extraterritoriais | 1 |"
         },
         {
           "type": "paragraph",
@@ -624,8 +617,9 @@
           ]
         },
         {
-          "type": "table",
-          "markdown": "| | | | | | | | | | fração acima 2.000** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | Técnico Seg. Trabalho | | | | 1 | 1 | 1 | 2 | 1 |\n| | Engenheiro Seg. Trabalho | | | | | | 1* | 1 | 1* |\n| | Aux./Tec. Enferm. do Trabalho | | | | | | 1*** | 1 | 1 |\n| | Enfermeiro do Trabalho | | | | | | | 1* | |\n| | Médico do Trabalho | | | | | 1* | 1* | 1 | 1* |\n| 2 | Técnico Seg. Trabalho | | | | 1 | 1 | 2 | 5 | 1 |\n| | Engenheiro Seg. Trabalho | | | | | 1* | 1 | 1 | 1* |\n| | Aux./Tec. Enferm. do Trabalho | | | | | 1*** | 1*** | 1 | 1 |\n| | Enfermeiro do Trabalho | | | | | | | 1 | |\n| | Médico do Trabalho | | | | | 1* | 1 | 1 | 1 |\n| 3 | Técnico Seg. Trabalho | | 1 | 2 | 3 | 4 | 6 | 8 | 3 |\n| | Engenheiro Seg. Trabalho | | | | 1* | 1 | 1 | 2 | 1 |\n| | Aux./Tec. Enferm. do Trabalho | | | | | 1*** | 1 | 1 | 1 |\n| | Enfermeiro do Trabalho | | | | | | 1 | 1 | |\n| | Médico do Trabalho | | | | 1* | 1 | 1 | 2 | 1 |\n| 4 | Técnico Seg. Trabalho | 1 | 2 | 3 | 4 | 5 | 8 | 10 | 3 |\n| | Engenheiro Seg. Trabalho | | 1* | 1* | 1 | 1 | 2 | 3 | 1 |\n| | Aux./Tec. Enferm. do Trabalho | | | | 1*** | 1*** | 1 | 1 | 1 |\n| | Enfermeiro do Trabalho | | | | | | 1 | 1 | |\n| | Médico do Trabalho | | 1* | 1* | 1 | 1 | 2 | 3 | 1 |\n| (*) Tempo parcial (mínimo de três horas) (**) O dimensionamento total deverá ser feito levando-se em consideração o dimensionamento da faixa de 3.501 a 5.000, acrescido do dimensionamento do(s) grupo(s) de 4.000 ou fração acima de 2.000. (***) O empregador pode optar pela contratação de um enfermeiro do trabalho em tempo parcial, em substituição ao auxiliar ou técnico de enfermagem do trabalho. OBSERVAÇÕES: A) hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares deverão contratar um enfermeiro do trabalho em tempo integral quando possuírem mais de quinhentos trabalhadores; e B) em virtude das características das atribuições do SESMT, não se faz necessária a supervisão do técnico de enfermagem do trabalho por enfermeiro do trabalho, salvo quando a atividade for executada em hospitais, ambulatórios, maternidades, casas de saúde e repouso, clínicas e estabelecimentos similares. | | | | | | | | | |"
+          "type": "image",
+          "alt": "Tabela da página 31",
+          "src": "../assets/pages/page-031-table-00.png"
         }
       ]
     }

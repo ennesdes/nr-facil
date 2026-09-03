@@ -112,13 +112,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO I**",
-      "id": "anexo-i"
-    },
-    {
-      "level": 1,
-      "text": "**CURSO BÁSICO PARA MANIPULADORES DE ALIMENTOS**",
-      "id": "curso-básico-para-manipuladores-de-alimentos"
+      "text": "**ANEXO I** CURSO BÁSICO PARA MANIPULADORES DE ALIMENTOS",
+      "id": "anexo-i-curso-básico-para-manipuladores-de-alimentos"
     },
     {
       "level": 1,
@@ -152,18 +147,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO V**",
-      "id": "anexo-v"
-    },
-    {
-      "level": 1,
-      "text": "**CURSO COMPLEMENTAR PARA OPERADORES DE GUINDASTES**",
-      "id": "curso-complementar-para-operadores-de-guindastes"
-    },
-    {
-      "level": 1,
-      "text": "**Glossário**",
-      "id": "glossário"
+      "text": "**ANEXO V** CURSO COMPLEMENTAR PARA OPERADORES DE GUINDASTES",
+      "id": "anexo-v-curso-complementar-para-operadores-de-guindastes"
     }
   ]
 }

@@ -162,13 +162,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO I**",
-      "id": "anexo-i"
-    },
-    {
-      "level": 1,
-      "text": "**DIMENSIONAMENTO DO SESSTP**",
-      "id": "dimensionamento-do-sesstp"
+      "text": "**ANEXO I** DIMENSIONAMENTO DO SESSTP",
+      "id": "anexo-i-dimensionamento-do-sesstp"
     },
     {
       "level": 1,
@@ -187,13 +182,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO IV CARGAS PERIGOSAS**",
-      "id": "anexo-iv-cargas-perigosas"
-    },
-    {
-      "level": 1,
-      "text": "**CLASSE 1 - EXPLOSIVOS**",
-      "id": "classe-1---explosivos"
+      "text": "**ANEXO IV CARGAS PERIGOSAS** CLASSE 1 - EXPLOSIVOS",
+      "id": "anexo-iv-cargas-perigosas-classe-1---explosivos"
     },
     {
       "level": 1,
@@ -207,18 +197,8 @@
     },
     {
       "level": 1,
-      "text": "**TABELA II - DISTÂNCIA DE SEGREGAÇÃO**",
-      "id": "tabela-ii---distância-de-segregação"
-    },
-    {
-      "level": 1,
-      "text": "**OBSERVAÇÕES:**",
-      "id": "observações"
-    },
-    {
-      "level": 1,
-      "text": "**Glossário**",
-      "id": "glossário"
+      "text": "**TABELA II - DISTÂNCIA DE SEGREGAÇÃO** OBSERVAÇÕES:",
+      "id": "tabela-ii---distância-de-segregação-observações"
     }
   ]
 }

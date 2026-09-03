@@ -42,11 +42,6 @@
     },
     {
       "level": 1,
-      "text": "b) localização de placas de sinalização; e",
-      "id": "b-localização-de-placas-de-sinalização-e"
-    },
-    {
-      "level": 1,
       "text": "**22.8 Transportadores Contínuos**",
       "id": "228-transportadores-contínuos"
     },
@@ -117,21 +112,6 @@
     },
     {
       "level": 1,
-      "text": "d) galgas;",
-      "id": "d-galgas"
-    },
-    {
-      "level": 1,
-      "text": "e) transportadores contínuos;",
-      "id": "e-transportadores-contínuos"
-    },
-    {
-      "level": 1,
-      "text": "h) britadores; e",
-      "id": "h-britadores-e"
-    },
-    {
-      "level": 1,
       "text": "**22.24 Deposição de estéril, rejeitos e produtos**",
       "id": "2224-deposição-de-estéril-rejeitos-e-produtos"
     },
@@ -191,24 +171,14 @@
       "id": "2235-disposições-gerais"
     },
     {
-      "level": 1,
-      "text": "subitem 1.5.5.5 da NR-1.",
-      "id": "subitem-1555-da-nr-1"
-    },
-    {
       "level": 2,
       "text": "**GLOSSÁRIO DA NR-22**",
       "id": "glossário-da-nr-22"
     },
     {
       "level": 1,
-      "text": "**ANEXO I da NR-22**",
-      "id": "anexo-i-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "**Cabos de Aço, Correntes e Acessórios**",
-      "id": "cabos-de-aço-correntes-e-acessórios"
+      "text": "**ANEXO I da NR-22** Cabos de Aço, Correntes e Acessórios",
+      "id": "anexo-i-da-nr-22-cabos-de-aço-correntes-e-acessórios"
     },
     {
       "level": 1,
@@ -232,13 +202,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO II da NR-22**",
-      "id": "anexo-ii-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "**Capacitação e Treinamento**",
-      "id": "capacitação-e-treinamento"
+      "text": "**ANEXO II da NR-22** Capacitação e Treinamento",
+      "id": "anexo-ii-da-nr-22-capacitação-e-treinamento"
     },
     {
       "level": 1,
@@ -352,13 +317,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO IV da NR-22**",
-      "id": "anexo-iv-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "**Quadros**",
-      "id": "quadros"
+      "text": "**ANEXO IV da NR-22** Quadros",
+      "id": "anexo-iv-da-nr-22-quadros"
     },
     {
       "level": 1,
@@ -377,13 +337,8 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO V da NR-22**",
-      "id": "anexo-v-da-nr-22"
-    },
-    {
-      "level": 1,
-      "text": "**Exposição a Poeiras Minerais**",
-      "id": "exposição-a-poeiras-minerais"
+      "text": "**ANEXO V da NR-22** Exposição a Poeiras Minerais",
+      "id": "anexo-v-da-nr-22-exposição-a-poeiras-minerais"
     },
     {
       "level": 1,
@@ -439,11 +394,6 @@
       "level": 1,
       "text": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
       "id": "8-avaliação-de-poeiras-de-asbesto-em-ambientes-de-extração-mineral"
-    },
-    {
-      "level": 1,
-      "text": "**Glossário**",
-      "id": "glossário"
     }
   ]
 }

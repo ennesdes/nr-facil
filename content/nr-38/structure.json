@@ -16,379 +16,245 @@
         "type": "item",
         "number": "38.1.1",
         "depth": 2,
-        "text": "Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores nas atividades de limpeza urbana e manejo de resíduos sólidos."
+        "text": "Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores nas atividades de limpeza urbana e manejo de resíduos sólidos. 38.2 Campo de aplicação"
+      },
+      {
+        "type": "item",
+        "number": "38.2.1",
+        "depth": 2,
+        "text": "As disposições contidas nesta NR aplicam-se às seguintes atividades de limpeza urbana e manejo de resíduos sólidos:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "coleta, transporte e transbordo de resíduos sólidos urbanos e resíduos de serviços de saúde até a descarga para destinação final;"
+          },
+          {
+            "label": "b",
+            "text": "varrição e lavagem de feiras, vias e logradouros públicos;"
+          },
+          {
+            "label": "c",
+            "text": "capina, roçagem e poda de árvores;"
+          },
+          {
+            "label": "d",
+            "text": "manutenção de áreas verdes;"
+          },
+          {
+            "label": "e",
+            "text": "raspagem e pintura de meio-fio;"
+          },
+          {
+            "label": "f",
+            "text": "limpeza e conservação de mobiliário urbano, monumentos, túneis, pontes e viadutos;"
+          },
+          {
+            "label": "g",
+            "text": "desobstrução e limpeza de bueiros, bocas de lobo e correlatos;"
+          },
+          {
+            "label": "h",
+            "text": "triagem e manejo de resíduos sólidos urbanos recicláveis;"
+          },
+          {
+            "label": "i",
+            "text": "limpeza de praias;"
+          },
+          {
+            "label": "j",
+            "text": "pontos de recebimento de resíduos sólidos urbanos; e"
+          },
+          {
+            "label": "k",
+            "text": "disposição final."
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "number": "38.2.1.1",
+        "depth": 3,
+        "text": "Em relação aos resíduos de serviços de saúde, devem ser atendidos, além do disposto nesta NR, a regulamentação aplicável ao tema."
+      },
+      {
+        "type": "item",
+        "number": "38.2.1.2",
+        "depth": 3,
+        "text": "Para os fins desta NR, consideram-se resíduos sólidos urbanos:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "resíduos domésticos;"
+          },
+          {
+            "label": "b",
+            "text": "resíduos originários de atividades comerciais, industriais e de serviços, em quantidade e qualidade similares às dos resíduos domésticos, que, por decisão do titular, sejam considerados resíduos sólidos urbanos, desde que tais resíduos não sejam de responsabilidade de seu gerador nos termos da norma legal ou administrativa, de decisão judicial ou de termo de ajustamento de conduta; e"
+          },
+          {
+            "label": "c",
+            "text": "resíduos originários das atividades referidas no item 38.2.1. **38.2.1.3** Esta NR não se aplica às atividades de manejo de:"
+          },
+          {
+            "label": "a",
+            "text": "resíduos industriais abrangidos pela Norma Regulamentadora nº 25 (NR-25) - Resíduos Industriais;"
+          },
+          {
+            "label": "b",
+            "text": "resíduos dos serviços públicos de saneamento básico;"
+          },
+          {
+            "label": "c",
+            "text": "resíduos da construção civil;"
+          },
+          {
+            "label": "d",
+            "text": "resíduos agrossilvopastoris;"
+          },
+          {
+            "label": "e",
+            "text": "resíduos de serviços de transportes; e"
+          },
+          {
+            "label": "f",
+            "text": "resíduos de mineração."
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "number": "38.2.1.4",
+        "depth": 3,
+        "text": "As atividades referidas no item 38.2.1 podem ser contempladas em anexos específicos desta NR. 38.3 Disposições Gerais"
+      },
+      {
+        "type": "item",
+        "number": "38.3.1",
+        "depth": 2,
+        "text": "A organização deve manter registro atualizado de todos os logradouros em que desenvolve suas atividades, por rota, frente de serviço ou pontos de coleta, com identificação dos pontos de apoio, suas características e definição do tipo de atendimento prestado aos trabalhadores."
+      },
+      {
+        "type": "item",
+        "number": "38.3.1.1",
+        "depth": 3,
+        "text": "O registro previsto no item 38.3.1 deve conter informações relativas a:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "rota e extensão da área de trabalho (setor);"
+          },
+          {
+            "label": "b",
+            "text": "distâncias percorridas pelos empregados e as características da área de trabalho;"
+          },
+          {
+            "label": "c",
+            "text": "rota dos veículos de coleta;"
+          },
+          {
+            "label": "d",
+            "text": "tempo estimado para o cumprimento de cada uma das rotas, sem considerar intercorrências;"
+          },
+          {
+            "label": "e",
+            "text": "composição mínima das equipes de trabalho por rota e atividade; e"
+          },
+          {
+            "label": "f",
+            "text": "relação de veículos, máquinas e equipamentos."
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "number": "38.3.1.1.1",
+        "depth": 4,
+        "text": "O registro do subitem 38.3.1.1 deve conter informações para a realização de avaliação ergonômica preliminar das situações de trabalho e de Análise Ergonômica do Trabalho - AET quando aplicável."
+      },
+      {
+        "type": "item",
+        "number": "38.3.1.2",
+        "depth": 3,
+        "text": "As informações do subitem 38.3.1.1 devem permanecer à disposição dos membros da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando solicitado, podendo ser utilizado sistema informatizado. _(Retificado - DOU de 30/12/2022)_"
+      },
+      {
+        "type": "item",
+        "number": "38.3.2",
+        "depth": 2,
+        "text": "A organização deve providenciar pontos de apoio em locais estratégicos, considerando suas rotas de trabalho, para a satisfação de necessidades fisiológicas e a tomada de refeições para os trabalhadores que realizam atividades externas, observando-se o Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços - da Norma Regulamentadora n.º 24 (NR-24) - Condições Sanitárias e de Conforto nos Locais de Trabalho."
+      },
+      {
+        "type": "item",
+        "number": "38.3.2.1",
+        "depth": 3,
+        "text": "O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR. **38.3.2.1.1** Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio."
+      },
+      {
+        "type": "item",
+        "number": "38.3.3",
+        "depth": 2,
+        "text": "A organização deve disponibilizar água, sabão e material para enxugo das mãos nos veículos utilizados nas atividades que exponham o trabalhador a sujidade."
+      },
+      {
+        "type": "item",
+        "number": "38.3.4",
+        "depth": 2,
+        "text": "A organização deve garantir nas rotas e frentes de serviço suprimento de água potável e fresca, para consumo no local de trabalho durante as atividades, fornecida em recipientes portáteis hermeticamente fechados."
+      },
+      {
+        "type": "item",
+        "number": "38.3.4.1",
+        "depth": 3,
+        "text": "Os recipientes individuais para consumo de água devem ser transportados em compartimentos com adequada condição de higiene, sendo proibido o seu uso coletivo."
+      },
+      {
+        "type": "item",
+        "number": "38.3.4.2",
+        "depth": 3,
+        "text": "A organização deve garantir que os recipientes de armazenamento sejam abastecidos no início da jornada e higienizados periodicamente ou ao final de cada jornada."
+      },
+      {
+        "type": "item",
+        "number": "38.3.5",
+        "depth": 2,
+        "text": "O veículo de transporte de trabalhadores ao local de prestação de serviço deve observar os seguintes requisitos:"
+      },
+      {
+        "type": "list",
+        "items": [
+          {
+            "label": "a",
+            "text": "estar em conformidade com as normas de trânsito; e"
+          },
+          {
+            "label": "b",
+            "text": "possuir compartimento resistente e fixo, separado dos passageiros, quando necessário o transporte de ferramentas e materiais de trabalho."
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "number": "38.3.6",
+        "depth": 2,
+        "text": "Para as atividades que exponham os empregados a risco de acidentes de trânsito em via pública, a organização deve implementar procedimento de segurança incluindo a sinalização de advertência, observadas as atividades realizadas e em conformidade, no que for aplicável, com as normas de trânsito."
+      },
+      {
+        "type": "item",
+        "number": "38.3.7",
+        "depth": 2,
+        "text": "A organização deve estabelecer plano de contingência para a recuperação de evento adverso durante a execução das operações, considerando riscos adicionais e sobrecarga para os trabalhadores."
       }
     ]
   },
   "sections": [
-    {
-      "id": "382-campo-de-aplicação",
-      "number": "38.2",
-      "title": "Campo de aplicação",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "38.2.1",
-          "depth": 2,
-          "text": "As disposições contidas nesta NR aplicam-se às seguintes atividades de limpeza urbana e manejo de resíduos sólidos:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "coleta, transporte e transbordo de resíduos sólidos urbanos e resíduos de serviços de saúde até a descarga para destinação final;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "varrição e lavagem de feiras, vias e logradouros públicos;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "capina, roçagem e poda de árvores;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "manutenção de áreas verdes;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "raspagem e pintura de meio-fio;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "limpeza e conservação de mobiliário urbano, monumentos, túneis, pontes e viadutos;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "g",
-              "text": "desobstrução e limpeza de bueiros, bocas de lobo e correlatos;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "h",
-              "text": "triagem e manejo de resíduos sólidos urbanos recicláveis;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "i",
-              "text": "limpeza de praias;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "j",
-              "text": "pontos de recebimento de resíduos sólidos urbanos; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "k",
-              "text": "disposição final."
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "number": "38.2.1.1",
-          "depth": 3,
-          "text": "Em relação aos resíduos de serviços de saúde, devem ser atendidos, além do disposto nesta NR, a regulamentação aplicável ao tema."
-        },
-        {
-          "type": "item",
-          "number": "38.2.1.2",
-          "depth": 3,
-          "text": "Para os fins desta NR, consideram-se resíduos sólidos urbanos:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "resíduos domésticos;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "resíduos originários de atividades comerciais, industriais e de serviços, em quantidade e qualidade similares às dos resíduos domésticos, que, por decisão do titular, sejam considerados resíduos sólidos urbanos, desde que tais resíduos não sejam de responsabilidade de seu gerador nos termos da norma legal ou administrativa, de decisão judicial ou de termo de ajustamento de conduta; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "resíduos originários das atividades referidas no item 38.2.1. **38.2.1.3** Esta NR não se aplica às atividades de manejo de:"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "resíduos industriais abrangidos pela Norma Regulamentadora nº 25 (NR-25) - Resíduos Industriais;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "resíduos dos serviços públicos de saneamento básico;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "resíduos da construção civil;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "resíduos agrossilvopastoris;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "resíduos de serviços de transportes; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "resíduos de mineração."
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "number": "38.2.1.4",
-          "depth": 3,
-          "text": "As atividades referidas no item 38.2.1 podem ser contempladas em anexos específicos desta NR."
-        }
-      ]
-    },
-    {
-      "id": "383-disposições-gerais",
-      "number": "38.3",
-      "title": "Disposições Gerais",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "38.3.1",
-          "depth": 2,
-          "text": "A organização deve manter registro atualizado de todos os logradouros em que desenvolve suas atividades, por rota, frente de serviço ou pontos de coleta, com identificação dos pontos de apoio, suas características e definição do tipo de atendimento prestado aos trabalhadores."
-        },
-        {
-          "type": "item",
-          "number": "38.3.1.1",
-          "depth": 3,
-          "text": "O registro previsto no item 38.3.1 deve conter informações relativas a:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "rota e extensão da área de trabalho (setor);"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "distâncias percorridas pelos empregados e as características da área de trabalho;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "rota dos veículos de coleta;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "tempo estimado para o cumprimento de cada uma das rotas, sem considerar intercorrências;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "composição mínima das equipes de trabalho por rota e atividade; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "f",
-              "text": "relação de veículos, máquinas e equipamentos."
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "number": "38.3.1.1.1",
-          "depth": 4,
-          "text": "O registro do subitem 38.3.1.1 deve conter informações para a realização de avaliação ergonômica preliminar das situações de trabalho e de Análise Ergonômica do Trabalho - AET quando aplicável."
-        },
-        {
-          "type": "item",
-          "number": "38.3.1.2",
-          "depth": 3,
-          "text": "As informações do subitem 38.3.1.1 devem permanecer à disposição dos membros da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando solicitado, podendo ser utilizado sistema informatizado. _(Retificado - DOU de 30/12/2022)_"
-        },
-        {
-          "type": "item",
-          "number": "38.3.2",
-          "depth": 2,
-          "text": "A organização deve providenciar pontos de apoio em locais estratégicos, considerando suas rotas de trabalho, para a satisfação de necessidades fisiológicas e a tomada de refeições para os trabalhadores que realizam atividades externas, observando-se o Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços - da Norma Regulamentadora n.º 24 (NR-24) - Condições Sanitárias e de Conforto nos Locais de Trabalho."
-        },
-        {
-          "type": "item",
-          "number": "38.3.2.1",
-          "depth": 3,
-          "text": "O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR. **38.3.2.1.1** Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio."
-        },
-        {
-          "type": "item",
-          "number": "38.3.3",
-          "depth": 2,
-          "text": "A organização deve disponibilizar água, sabão e material para enxugo das mãos nos veículos utilizados nas atividades que exponham o trabalhador a sujidade."
-        },
-        {
-          "type": "item",
-          "number": "38.3.4",
-          "depth": 2,
-          "text": "A organização deve garantir nas rotas e frentes de serviço suprimento de água potável e fresca, para consumo no local de trabalho durante as atividades, fornecida em recipientes portáteis hermeticamente fechados."
-        },
-        {
-          "type": "item",
-          "number": "38.3.4.1",
-          "depth": 3,
-          "text": "Os recipientes individuais para consumo de água devem ser transportados em compartimentos com adequada condição de higiene, sendo proibido o seu uso coletivo."
-        },
-        {
-          "type": "item",
-          "number": "38.3.4.2",
-          "depth": 3,
-          "text": "A organização deve garantir que os recipientes de armazenamento sejam abastecidos no início da jornada e higienizados periodicamente ou ao final de cada jornada."
-        },
-        {
-          "type": "item",
-          "number": "38.3.5",
-          "depth": 2,
-          "text": "O veículo de transporte de trabalhadores ao local de prestação de serviço deve observar os seguintes requisitos:"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "estar em conformidade com as normas de trânsito; e"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "possuir compartimento resistente e fixo, separado dos passageiros, quando necessário o transporte de ferramentas e materiais de trabalho."
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "number": "38.3.6",
-          "depth": 2,
-          "text": "Para as atividades que exponham os empregados a risco de acidentes de trânsito em via pública, a organização deve implementar procedimento de segurança incluindo a sinalização de advertência, observadas as atividades realizadas e em conformidade, no que for aplicável, com as normas de trânsito."
-        },
-        {
-          "type": "item",
-          "number": "38.3.7",
-          "depth": 2,
-          "text": "A organização deve estabelecer plano de contingência para a recuperação de evento adverso durante a execução das operações, considerando riscos adicionais e sobrecarga para os trabalhadores."
-        }
-      ]
-    },
     {
       "id": "384-programa-de-controle-médico-de-saúde-ocupacional---pcmso",
       "number": "38.4",
@@ -615,15 +481,8 @@
           "type": "item",
           "number": "38.5.3.2",
           "depth": 3,
-          "text": "A operação de marcha à ré somente poderá ser realizada quando o motorista tiver a visão de todos os trabalhadores da operação, sendo proibida a presença de trabalhadores no trajeto da manobra e na parte traseira do veículo."
-        }
-      ]
-    },
-    {
-      "id": "386-coleta-de-resíduos-sólidos",
-      "number": "38.6",
-      "title": "Coleta de resíduos sólidos",
-      "blocks": [
+          "text": "A operação de marcha à ré somente poderá ser realizada quando o motorista tiver a visão de todos os trabalhadores da operação, sendo proibida a presença de trabalhadores no trajeto da manobra e na parte traseira do veículo. 38.6 Coleta de resíduos sólidos"
+        },
         {
           "type": "item",
           "number": "38.6.1",
@@ -789,15 +648,8 @@
           "type": "item",
           "number": "38.6.7",
           "depth": 2,
-          "text": "Nas vias públicas onde o veículo coletor não puder ingressar para realizar o serviço de coleta, deverão ser utilizadas alternativas facilitadoras, de modo a reduzir o esforço no transporte manual de cargas pelos coletores."
-        }
-      ]
-    },
-    {
-      "id": "387-varrição",
-      "number": "38.7",
-      "title": "Varrição",
-      "blocks": [
+          "text": "Nas vias públicas onde o veículo coletor não puder ingressar para realizar o serviço de coleta, deverão ser utilizadas alternativas facilitadoras, de modo a reduzir o esforço no transporte manual de cargas pelos coletores. 38.7 Varrição"
+        },
         {
           "type": "item",
           "number": "38.7.1",
@@ -871,15 +723,8 @@
           "type": "item",
           "number": "38.7.3.2",
           "depth": 3,
-          "text": "É vedado o acondicionamento de alimentos, bebidas e itens pessoais no carrinho coletor (lutocar), exceto quando acondicionado em compartimento apropriado para essa finalidade."
-        }
-      ]
-    },
-    {
-      "id": "388-poda-de-árvores",
-      "number": "38.8",
-      "title": "Poda de árvores",
-      "blocks": [
+          "text": "É vedado o acondicionamento de alimentos, bebidas e itens pessoais no carrinho coletor (lutocar), exceto quando acondicionado em compartimento apropriado para essa finalidade. 38.8 Poda de árvores"
+        },
         {
           "type": "item",
           "number": "38.8.1",
@@ -1118,15 +963,8 @@
           "type": "item",
           "number": "38.8.7",
           "depth": 2,
-          "text": "É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore. **38.8.8** Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto."
-        }
-      ]
-    },
-    {
-      "id": "389-treinamento",
-      "number": "38.9",
-      "title": "Treinamento",
-      "blocks": [
+          "text": "É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore. **38.8.8** Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto. 38.9 Treinamento"
+        },
         {
           "type": "item",
           "number": "38.9.1",
@@ -1542,17 +1380,10 @@
           "items": [
             {
               "label": "b",
-              "text": "luva de segurança aprovada para proteção das mãos do usuário contra agentes abrasivos, escoriantes, cortantes e perfurantes, aprovada para o ensaio de resistência a corte por lâmina e para o ensaio de resistência à perfuração."
+              "text": "luva de segurança aprovada para proteção das mãos do usuário contra agentes abrasivos, escoriantes, cortantes e perfurantes, aprovada para o ensaio de resistência a corte por lâmina e para o ensaio de resistência à perfuração. Glossário"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "glossário",
-      "number": "Glossário",
-      "title": "Glossário",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "Análise visual externa: identificação de sinais e sintomas de pragas, patógenos e doenças, rachaduras, injúrias e cavidades, assim como a presença de ninhos e de animais peçonhentos. Carrinho coletor (Lutocar): carrinho coletor com duas rodas, cujo corpo central apresenta características para acomodar saco descartável."
@@ -1655,7 +1486,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Silencioso: elemento que se acopla e compõe o sistema de escapamento do caminhão- compactador, exigindo um percurso adicional das ondas sonoras através de câmaras internas que reduzem a emissão de ruídos. Este componente possui, também, a denominação usual de silenciador."
+          "text": "Silencioso: elemento que se acopla e compõe o sistema de escapamento do caminhão-compactador, exigindo um percurso adicional das ondas sonoras através de câmaras internas que reduzem a emissão de ruídos. Este componente possui, também, a denominação usual de silenciador."
         },
         {
           "type": "paragraph",

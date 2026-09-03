@@ -115,12 +115,14 @@
           "text": "TABELA 3.2: Classificação das probabilidades 2"
         },
         {
-          "type": "table",
-          "markdown": "| | CONSEQUÊNCIA | | | PRINCÍPIO GERAL | |\n| --- | --- | --- | --- | --- | --- |\n| MORTE | | | | Pode levar a óbito imediato ou que venha a ocorrer | |\n| | | | | posteriormente. | |\n| SEVERA | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão ou sequela permanentes. | |\n| SIGNIFICATIVA | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão que implique em incapacidade temporária | |\n| | | | | por prazo superior a 15 (quinze) dias. | |\n| LEVE | | | | Pode prejudicar a integridade física e/ou a saúde, | |\n| | | | | provocando lesão que implique em incapacidade temporária | |\n| | | | | por prazo igual ou inferior a 15 (quinze) dias. | |\n| | NENHUMA | | | Nenhuma lesão ou efeito à saúde. | |"
+          "type": "image",
+          "alt": "Tabela da página 2",
+          "src": "../assets/pages/page-002-table-00.png"
         },
         {
-          "type": "table",
-          "markdown": "| | CLASSIFICAÇÃO | | | DESCRIÇÃO | |\n| --- | --- | --- | --- | --- | --- |\n| PROVÁVEL | | | | Medidas de prevenção inexistentes ou reconhecidamente | |\n| | | | | inadequadas. | |\n| | | | | Uma consequência é esperada, com grande probabilidade de | |\n| | | | | que aconteça ou se realize. | |\n| POSSÍVEL | | | | Medidas de prevenção apresentam desvios ou problemas | |\n| | | | | significativos. Não há garantias de que as medidas sejam | |\n| | | | | mantidas. | |\n| | | | | Uma consequência talvez aconteça, com possibilidade de que | |\n| | | | | se efetive, concebível. | |\n| REMOTA | | | | Medidas de prevenção adequadas, mas com pequenos | |\n| | | | | desvios. Ainda que em funcionamento, não há garantias de | |\n| | | | | que sejam mantidas sempre ou a longo prazo. | |\n| | | | | Uma consequência é pouco provável que aconteça, quase | |\n| | | | | improvável. | |"
+          "type": "image",
+          "alt": "Tabela da página 2",
+          "src": "../assets/pages/page-002-table-01.png"
         },
         {
           "type": "paragraph",
@@ -193,8 +195,9 @@
       "title": "Requisitos de embargo e interdição 3",
       "blocks": [
         {
-          "type": "table",
-          "markdown": "| RARA | | Medidas de prevenção adequadas e com garantia de | |\n| --- | --- | --- | --- |\n| | | continuidade desta situação. | |\n| | | Uma consequência não é esperada, não é comum sua | |\n| | | ocorrência, extraordinária. | |"
+          "type": "image",
+          "alt": "Tabela da página 3",
+          "src": "../assets/pages/page-003-table-00.png"
         },
         {
           "type": "paragraph",

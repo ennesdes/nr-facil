@@ -298,26 +298,12 @@
           "type": "item",
           "number": "9.6.1.2",
           "depth": 3,
-          "text": "Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição."
-        }
-      ]
-    },
-    {
-      "id": "anexo-i-da-nr-09-vibração",
-      "number": "ANEXO I",
-      "title": "da NR-09 VIBRAÇÃO",
-      "blocks": [
+          "text": "Considera-se nível de ação, o valor acima do qual devem ser implementadas ações de controle sistemático de forma a minimizar a probabilidade de que as exposições ocupacionais ultrapassem os limites de exposição. ANEXO I da NR-09 VIBRAÇÃO"
+        },
         {
           "type": "paragraph",
-          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_"
-        }
-      ]
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
-      "blocks": [
+          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_ SUMÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivos"
@@ -340,37 +326,16 @@
         },
         {
           "type": "paragraph",
-          "text": "6. Medidas de Prevenção"
-        }
-      ]
-    },
-    {
-      "id": "1-objetivos-3",
-      "number": "",
-      "title": "1. Objetivos 3",
-      "blocks": [
+          "text": "6. Medidas de Prevenção 1. Objetivos** 3"
+        },
         {
           "type": "paragraph",
-          "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção."
-        }
-      ]
-    },
-    {
-      "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
-      "blocks": [
+          "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI, quando identificadas no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiá-lo quanto às medidas de prevenção. 2. Campo de Aplicação"
+        },
         {
           "type": "paragraph",
-          "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI."
-        }
-      ]
-    },
-    {
-      "id": "3-disposições-gerais",
-      "number": "",
-      "title": "3. Disposições Gerais",
-      "blocks": [
+          "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional às Vibrações em Mãos e Braços - VMB e às Vibrações de Corpo Inteiro - VCI. 3. Disposições Gerais"
+        },
         {
           "type": "paragraph",
           "text": "3.1 As organizações devem adotar medidas de prevenção e controle da exposição às vibrações mecânicas que possam afetar a segurança e a saúde dos trabalhadores, eliminando o risco ou, onde comprovadamente não houver tecnologia disponível, reduzindo-o aos menores níveis possíveis."
@@ -385,15 +350,8 @@
         },
         {
           "type": "paragraph",
-          "text": "3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s<sup>2</sup> nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição."
-        }
-      ]
-    },
-    {
-      "id": "4-avaliação-preliminar-da-exposição",
-      "number": "",
-      "title": "4. Avaliação Preliminar da Exposição",
-      "blocks": [
+          "text": "3.3 As ferramentas manuais vibratórias que produzam acelerações superiores a 2,5 m/s<sup>2</sup> nas mãos dos operadores devem informar junto às suas especificações técnicas a vibração emitida pelas mesmas, indicando as normas de ensaio que foram utilizadas para a medição. 4. Avaliação Preliminar da Exposição"
+        },
         {
           "type": "paragraph",
           "text": "4.1 Deve ser realizada avaliação preliminar da exposição às VMB e VCI, considerando os seguintes aspectos:"
@@ -500,8 +458,8 @@
     },
     {
       "id": "5-avaliação-quantitativa-da-exposição",
-      "number": "",
-      "title": "5. Avaliação Quantitativa da Exposição",
+      "number": "5",
+      "title": "Avaliação Quantitativa da Exposição",
       "blocks": [
         {
           "type": "paragraph",
@@ -583,15 +541,8 @@
         },
         {
           "type": "paragraph",
-          "text": "5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01."
-        }
-      ]
-    },
-    {
-      "id": "6-medidas-de-prevenção",
-      "number": "",
-      "title": "6. Medidas de Prevenção",
-      "blocks": [
+          "text": "5.3.5 As situações de exposição ocupacional superiores ao limite de exposição ocupacional implicam obrigatória adoção de medidas de caráter corretivo, sem prejuízo do disposto no subitem 1.5.5 da NR-01. 6. Medidas de Prevenção"
+        },
         {
           "type": "paragraph",
           "text": "6.1 As medidas de prevenção devem contemplar:"
@@ -673,32 +624,12 @@
         },
         {
           "type": "paragraph",
-          "text": "6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho."
-        }
-      ]
-    },
-    {
-      "id": "anexo-iii-da-nr-09",
-      "number": "ANEXO III",
-      "title": "da NR-09",
-      "blocks": []
-    },
-    {
-      "id": "calor",
-      "number": "",
-      "title": "CALOR",
-      "blocks": [
+          "text": "6.2.1 As medidas de caráter corretivo mencionadas não excluem outras medidas que possam ser consideradas necessárias ou recomendáveis em função das particularidades de cada condição de trabalho. ANEXO III da NR-09 CALOR"
+        },
         {
           "type": "paragraph",
-          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_"
-        }
-      ]
-    },
-    {
-      "id": "sumário",
-      "number": "",
-      "title": "SUMÁRIO",
-      "blocks": [
+          "text": "_(Inserido pela Portaria MTP nº 426, de 07 de outubro de 2021)_ SUMÁRIO"
+        },
         {
           "type": "paragraph",
           "text": "1. Objetivos"
@@ -721,37 +652,16 @@
         },
         {
           "type": "paragraph",
-          "text": "6. Procedimentos de Emergência"
-        }
-      ]
-    },
-    {
-      "id": "1-objetivos",
-      "number": "",
-      "title": "1. Objetivos",
-      "blocks": [
+          "text": "6. Procedimentos de Emergência 1. Objetivos"
+        },
         {
           "type": "paragraph",
-          "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção."
-        }
-      ]
-    },
-    {
-      "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
-      "blocks": [
+          "text": "1.1 Estabelecer os requisitos para a avaliação da exposição ocupacional ao agente físico calor, quando identificado no Programa de Gerenciamento de Riscos - PGR, previsto na NR-01, e subsidiálo quanto às medidas de prevenção. 2. Campo de Aplicação"
+        },
         {
           "type": "paragraph",
-          "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor."
-        }
-      ]
-    },
-    {
-      "id": "3-responsabilidades-da-organização",
-      "number": "",
-      "title": "3. Responsabilidades da organização",
-      "blocks": [
+          "text": "2.1 As disposições estabelecidas neste Anexo se aplicam onde houver exposição ocupacional ao agente físico calor. 3. Responsabilidades da organização"
+        },
         {
           "type": "paragraph",
           "text": "3.1 A organização deve adotar medidas de prevenção, de modo que a exposição ocupacional ao calor não cause efeitos adversos à saúde do trabalhador."
@@ -1014,15 +924,8 @@
         },
         {
           "type": "paragraph",
-          "text": "3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível."
-        }
-      ]
-    },
-    {
-      "id": "4-medidas-de-prevenção",
-      "number": "",
-      "title": "4. Medidas de prevenção",
-      "blocks": [
+          "text": "3.3.2 Para atividades em ambientes externos sem fontes artificiais de calor, alternativamente ao previsto nas alíneas “b”, “c”, e “d” do subitem 3.3, poderá ser utilizada ferramenta da Fundacentro, para estimativa do IBUTG, se disponível. 4. Medidas de prevenção"
+        },
         {
           "type": "paragraph",
           "text": "4.1 Medidas preventivas"
@@ -1163,32 +1066,18 @@
           "items": [
             {
               "label": "b",
-              "text": "quando as medidas adotadas não forem suficientes para a redução do risco."
+              "text": "quando as medidas adotadas não forem suficientes para a redução do risco. 5. Aclimatização"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "5-aclimatização",
-      "number": "",
-      "title": "5. Aclimatização",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "5.1 Para atividades de exposição ocupacional ao calor acima do nível de ação, deve ser considerada a aclimatização dos trabalhadores descrita no PCMSO."
         },
         {
           "type": "paragraph",
-          "text": "10 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente."
-        }
-      ]
-    },
-    {
-      "id": "6-procedimentos-de-emergência",
-      "number": "",
-      "title": "6. Procedimentos de emergência",
-      "blocks": [
+          "text": "10 5.2 Quando houver a necessidade de elaboração de plano de aclimatização dos trabalhadores, devem ser considerados os parâmetros previstos na NHO 06 da Fundacentro ou outras referências técnicas emitidas por organização competente. 6. Procedimentos de emergência"
+        },
         {
           "type": "paragraph",
           "text": "6.1 A organização deve possuir procedimento de emergência específico para o calor, contemplando: a) meios e recursos necessários para o primeiro atendimento ou encaminhamento do trabalhador para atendimento; e"
@@ -1247,8 +1136,9 @@
           "text": "*O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C"
         },
         {
-          "type": "table",
-          "markdown": "| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 | |\n| --- | --- | --- |\n| Trabalho moderado de levantar ou empurrar | 349 | |\n| Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga | 391 | |\n| Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trabalho com foice) | 495 | |\n| Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas) | 524 | |\n| | | |\n| Quadro 4 - Incrementos de ajuste do IBUTG médio para alguns tipos de vestimentas* | | |\n| | | |\n| Tipo de roupa | | Adição ao IBUTG [°C] |\n| Uniforme de trabalho (calça e camisa de manga comprida) | | 0 |\n| Macacão de tecido | | 0 |\n| Macacão de polipropileno SMS (Spun-Melt-Spun) | | 0,5 |\n| Macacão de poliolefina | | 2 |\n| Vestimenta ou macacão forrado (tecido duplo) | | 3 |\n| Avental longo de manga comprida impermeável ao vapor | | 4 |\n| Macacão impermeável ao vapor | | 10 |\n| Macacão impermeável ao vapor sobreposto à roupa de trabalho | | 12 |\n| *O valor do IBUTG para vestimentas com capuz deve ter seu valor acrescido em 1 °C | | |\n| | | |"
+          "type": "image",
+          "alt": "Tabela da página 15",
+          "src": "../assets/pages/page-015-table-00.png"
         }
       ]
     }

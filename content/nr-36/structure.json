@@ -276,17 +276,10 @@
           "items": [
             {
               "label": "d",
-              "text": "proteção contra intempéries quando as atividades ocorrerem em área externa, obedecida a hierarquia das medidas previstas na alínea “g” do item 1.4.1 da NR-1 (Disposições Gerais e Gerenciamento de Riscos Ocupacionais); e"
+              "text": "proteção contra intempéries quando as atividades ocorrerem em área externa, obedecida a hierarquia das medidas previstas na alínea “g” do item 1.4.1 da NR-1 (Disposições Gerais e Gerenciamento de Riscos Ocupacionais); e e) limpeza e higienização constantes."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "e-limpeza-e-higienização-constantes",
-      "number": "",
-      "title": "e) limpeza e higienização constantes.",
-      "blocks": [
+        },
         {
           "type": "item",
           "number": "36.2.10",
@@ -1018,13 +1011,13 @@
       "id": "369-condições-ambientais-de-trabalho",
       "number": "36.9",
       "title": "Condições ambientais de trabalho",
-      "blocks": []
-    },
-    {
-      "id": "3691-ruído",
-      "number": "",
-      "title": "36.9.1 Ruído",
       "blocks": [
+        {
+          "type": "item",
+          "number": "36.9.1",
+          "depth": 2,
+          "text": "Ruído"
+        },
         {
           "type": "item",
           "number": "36.9.1.1",
@@ -1974,15 +1967,8 @@
           "type": "item",
           "number": "36.12.9",
           "depth": 2,
-          "text": "Cabe ao empregador, conforme orientação do médico responsável pelo PCMSO, proceder, quando necessário, à readaptação funcional em atividade compatível com o grau de"
-        }
-      ]
-    },
-    {
-      "id": "incapacidade-apresentada-pelo-trabalhador",
-      "number": "",
-      "title": "incapacidade apresentada pelo trabalhador.",
-      "blocks": [
+          "text": "Cabe ao empregador, conforme orientação do médico responsável pelo PCMSO, proceder, quando necessário, à readaptação funcional em atividade compatível com o grau de incapacidade apresentada pelo trabalhador."
+        },
         {
           "type": "item",
           "number": "36.12.10",
@@ -3128,14 +3114,11 @@
         {
           "type": "paragraph",
           "text": "_V._ Máquina para corte de carcaças de animais de médio e grande porte."
-        }
-      ]
-    },
-    {
-      "id": "i---máquina-automática-para-descourear-e-retirar-pele-e-película",
-      "number": "",
-      "title": "I - Máquina automática para descourear e retirar pele e película",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**I - Máquina automática para descourear e retirar pele e película**"
+        },
         {
           "type": "paragraph",
           "text": "1.1 A máquina automática para descourear e retirar pele e película de carnes destinadas ao consumo humano é definida para fins deste anexo como a máquina com cilindros de tração e lâmina utilizada para descourear e retirar a pele e a película de carnes, com alimentação por esteira transportadora, sistema de retenção e esteira de descarga, conforme exemplificado nas figuras 1 e 2."
@@ -3598,15 +3581,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Figura 9 - Detalhe das zonas de perigo 1, 2 e 3 da máquina aberta de descourear e retirar a pele e a membrana (com pente raspador)"
-        }
-      ]
-    },
-    {
-      "id": "legenda",
-      "number": "",
-      "title": "Legenda:",
-      "blocks": [
+          "text": "Figura 9 - Detalhe das zonas de perigo 1, 2 e 3 da máquina aberta de descourear e retirar a pele e a membrana (com pente raspador) Legenda:"
+        },
         {
           "type": "paragraph",
           "text": "1. Cilindro dentado giratório e porta lâmina ajustável na altura com a lâmina montada;"
@@ -3625,15 +3601,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Figura 10 - Detalhe das zonas de perigo 1, 2 e 3 da máquina aberta de descourear e retirar a pele e a membrana (com cilindro raspador giratório)."
-        }
-      ]
-    },
-    {
-      "id": "legenda",
-      "number": "",
-      "title": "Legenda:",
-      "blocks": [
+          "text": "Figura 10 - Detalhe das zonas de perigo 1, 2 e 3 da máquina aberta de descourear e retirar a pele e a membrana (com cilindro raspador giratório). Legenda:"
+        },
         {
           "type": "paragraph",
           "text": "1. Cilindro de arraste giratório e porta lâmina fixo com a lâmina montada;"
@@ -3792,15 +3761,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1.2.9.1 O dispositivo de parada de emergência deve atender ao disposto na NR-12."
-        }
-      ]
-    },
-    {
-      "id": "iii---máquina-de-repasse-de-moela",
-      "number": "",
-      "title": "III - Máquina de repasse de moela",
-      "blocks": [
+          "text": "1.2.9.1 O dispositivo de parada de emergência deve atender ao disposto na NR-12. III - Máquina de repasse de moela"
+        },
         {
           "type": "paragraph",
           "text": "1.3 Máquina de repasse de moela é definida para fins deste Anexo como a máquina com esteira e/ou local de alimentação, cilindros dentados, local de descarga e funil de resíduo de descarga utilizada para realizar o repasse da limpeza de moelas."
@@ -3883,15 +3845,8 @@
         },
         {
           "type": "paragraph",
-          "text": "1.3.7.1 O dispositivo de parada de emergência deve atender ao disposto na NR-12."
-        }
-      ]
-    },
-    {
-      "id": "disposições-transitórias",
-      "number": "",
-      "title": "Disposições transitórias",
-      "blocks": [
+          "text": "1.3.7.1 O dispositivo de parada de emergência deve atender ao disposto na NR-12. Disposições transitórias"
+        },
         {
           "type": "paragraph",
           "text": "1.3.8 As máquinas utilizadas para o repasse de moela fabricadas antes da vigência desta Portaria têm o prazo indicado no Art. 2º para se adequarem ao disposto no item 1.3 e seus subitens, podendo ser utilizadas nesse período desde que atendam aos requisitos indicados nos subitens de 1.3.8.1 a 1.3.8.6."
@@ -3926,15 +3881,8 @@
         },
         {
           "type": "paragraph",
-          "text": "_1.3.8.6_ O sistema de segurança e suas interligações devem atingir no mínimo categoria de segurança 3."
-        }
-      ]
-    },
-    {
-      "id": "iv-máquina-serra-de-fita",
-      "number": "",
-      "title": "IV. Máquina Serra de Fita.",
-      "blocks": [
+          "text": "_1.3.8.6_ O sistema de segurança e suas interligações devem atingir no mínimo categoria de segurança 3. IV. Máquina Serra de Fita."
+        },
         {
           "type": "paragraph",
           "text": "1.4. A máquina serra de fita é definida para fins deste anexo como sendo aquela formada por uma mesa de alimentação fixa ou uma mesa de alimentação parcialmente deslizante ou um transportador com cilindros ou uma correia transportadora, com uma canaleta regulável deslizante, uma polia superior e uma polia inferior, uma fita de corte, uma guia superior e uma guia inferior para a fita de corte, um dispositivo para ajustar a tensão da fita de corte, um sistema motriz e componentes elétricos, dependendo da especificidade"
@@ -4181,14 +4129,11 @@
         {
           "type": "paragraph",
           "text": "1.4.17 Os operadores da máquina serra de fita devem estar identificados durante seu turno de trabalho."
-        }
-      ]
-    },
-    {
-      "id": "v-máquina-para-corte-de-carcaças-de-animais-de-médio-e-grande-porte",
-      "number": "",
-      "title": "V. Máquina para corte de carcaças de animais de médio e grande porte.",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "**V. Máquina para corte de carcaças de animais de médio e grande porte.**"
+        },
         {
           "type": "paragraph",
           "text": "1.5 A máquina para corte de carcaças de animais de médio e grande porte é definida para fins deste anexo como a máquina com discos giratórios utilizados para a segregação de carcaças tais como pernil, carré, sobre paleta ou outros e dotada de esteira transportadora automática, conforme exemplificado na Figura 1 (a figura é meramente ilustrativa, para fins de demonstração das partes da máquina)."
@@ -4199,15 +4144,8 @@
         },
         {
           "type": "paragraph",
-          "text": "Figura 1 - Módulo da máquina para corte de carcaças de animais de médio e grande porte"
-        }
-      ]
-    },
-    {
-      "id": "legenda",
-      "number": "",
-      "title": "Legenda:",
-      "blocks": [
+          "text": "Figura 1 - Módulo da máquina para corte de carcaças de animais de médio e grande porte Legenda:"
+        },
         {
           "type": "paragraph",
           "text": "- 1 - Proteção externa fixa ou móvel da área de corte;"
