@@ -46,6 +46,24 @@ class TestHelpers(unittest.TestCase):
     self.assertFalse(is_normative_section_heading("**SUMÁRIO**"))
     self.assertFalse(is_normative_section_heading("**Publicação**"))
 
+  def test_parse_section_heading_subitem(self):
+    number, title = parse_section_heading("**5.3.1** A CIPA tem por atribuição:")
+    self.assertEqual(number, "5.3.1")
+    self.assertEqual(title, "A CIPA tem por atribuição")
+
+  def test_parse_section_heading_quadro(self):
+    number, title = parse_section_heading("**Quadro I – Dimensionamento da CIPA**")
+    self.assertEqual(number, "Quadro I")
+    self.assertEqual(title, "Dimensionamento da CIPA")
+
+  def test_is_major_section(self):
+    from build_structure import is_major_section
+
+    self.assertTrue(is_major_section("5.3", "Atribuições"))
+    self.assertFalse(is_major_section("5.3.1", "A CIPA tem por atribuição"))
+    self.assertTrue(is_major_section("1", "Objetivo"))
+    self.assertTrue(is_major_section("Quadro I", "Dimensionamento da CIPA"))
+
 
 class TestBuildStructureNr06(unittest.TestCase):
   @classmethod
@@ -102,6 +120,52 @@ class TestBuildStructureNr12(unittest.TestCase):
   def test_has_section_12_1(self):
     numbers = [s["number"] for s in self.structure["sections"]]
     self.assertIn("12.1", numbers)
+
+
+class TestBuildStructureNr05(unittest.TestCase):
+  @classmethod
+  def setUpClass(cls):
+    md_path = CONTENT_DIR / "nr-05" / "nr-05.md"
+    if not md_path.exists():
+      raise unittest.SkipTest("content/nr-05/nr-05.md não encontrado")
+    cls.structure = build_structure(md_path.read_text(encoding="utf-8"))
+
+  def test_section_order_and_titles(self):
+    sections = self.structure["sections"]
+    numbers = [s["number"] for s in sections]
+    self.assertEqual(
+      numbers,
+      [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9",
+        "Quadro I",
+        "ANEXO I",
+        "1",
+        "2",
+        "3",
+      ],
+    )
+
+  def test_section_53_contains_subitems(self):
+    section = next(s for s in self.structure["sections"] if s["number"] == "5.3")
+    self.assertGreater(len(section["blocks"]), 0)
+    items = [b for b in section["blocks"] if b["type"] == "item"]
+    numbers = {b["number"] for b in items}
+    self.assertIn("5.3.1", numbers)
+    self.assertIn("5.3.3", numbers)
+
+  def test_quadro_i_has_image(self):
+    section = next(s for s in self.structure["sections"] if s["number"] == "Quadro I")
+    self.assertEqual(section["title"], "Dimensionamento da CIPA")
+    images = [b for b in section["blocks"] if b["type"] == "image"]
+    self.assertEqual(len(images), 1)
 
 
 class TestBuildStructureNr17(unittest.TestCase):

@@ -81,6 +81,40 @@ def _table_to_markdown(table: list[list]) -> str:
     return header + "\n" + sep_row + "\n" + "\n".join(data_lines)
 
 
+def _row_has_merged_cell_artifact(cells: list[str]) -> bool:
+    """
+    Detecta linha com célula mesclada mal extraída do PDF.
+
+    Padrões:
+    - Grade larga (8+ colunas) com 1–2 células preenchidas e o resto vazio
+      (caso real: NR-05 Quadro I — cabeçalho "NÚMERO DE EMPREGADOS..." + 15 vazias)
+    - Mesmo texto repetido em metade+ das colunas (Pass 1 duplicando cabeçalho mesclado)
+    """
+    if len(cells) < 8:
+        return False
+
+    non_empty = [c for c in cells if c]
+    empty = len(cells) - len(non_empty)
+    if len(non_empty) <= 2 and empty >= 6:
+        return True
+
+    if len(non_empty) >= 4:
+        unique = set(non_empty)
+        if len(unique) == 1 and len(non_empty) >= len(cells) * 0.5:
+            return True
+
+    return False
+
+
+def _table_has_merged_cell_artifact(table: list[list]) -> bool:
+    """True se qualquer linha da tabela tem artefato de célula mesclada."""
+    for row in table:
+        cells = [str(cell or "").strip() for cell in row]
+        if _row_has_merged_cell_artifact(cells):
+            return True
+    return False
+
+
 def _is_probably_illegible(table: list[list]) -> bool:
     """
     Heurística para detectar tabelas com texto vertical quebrado (caractere a caractere).
@@ -98,6 +132,9 @@ def _is_probably_illegible(table: list[list]) -> bool:
     Como fallback, também conta como ilegível se >= 50% das células não-vazias
     (incluindo header) forem ao menos moderadamente suspeitas (3+ quebras).
     """
+    if _table_has_merged_cell_artifact(table):
+        return True
+
     suspicious_count = 0
     total_non_empty = 0
 
@@ -150,6 +187,11 @@ def _markdown_table_is_fragmented(table_md: str) -> bool:
     data_rows = [ln for ln in lines if ln.startswith("|") and "---" not in ln]
     if len(data_rows) < 2:
         return False
+
+    for ln in data_rows:
+        cells = [c.strip() for c in ln.strip("|").split("|")]
+        if _row_has_merged_cell_artifact(cells):
+            return True
 
     # Linhas com no máximo 1 coluna (| x |) indicam fragmentação
     short_rows = sum(1 for ln in data_rows if ln.count("|") <= 2)

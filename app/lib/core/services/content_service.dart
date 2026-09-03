@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
@@ -273,17 +274,49 @@ class ContentService extends GetxService {
   ///
   /// Falha em um asset individual não aborta a sincronização da NR — a NR
   /// deve ficar legível mesmo que uma imagem específica falhe.
-  static final _mdImageRefPattern = RegExp(r'!\[[^\]]*\]\((assets/[^)\s]+)\)');
+  static final _mdImageRefPattern = RegExp(
+    r'!\[[^\]]*\]\((?:\.\./)?(assets/[^)\s]+)\)',
+  );
+
+  static final _jsonAssetRefPattern = RegExp(
+    r'"src"\s*:\s*"\.\./(assets/[^"]+)"',
+  );
+
+  /// Extrai caminhos `assets/...` referenciados no markdown e no structure.json.
+  @visibleForTesting
+  static Set<String> collectAssetPaths({
+    required String markdown,
+    String? structureJson,
+  }) {
+    final paths = _mdImageRefPattern
+        .allMatches(markdown)
+        .map((m) => m.group(1)!)
+        .toSet();
+    if (structureJson != null) {
+      paths.addAll(
+        _jsonAssetRefPattern
+            .allMatches(structureJson)
+            .map((m) => m.group(1)!),
+      );
+    }
+    return paths;
+  }
 
   Future<void> _downloadAssets(Directory nrDir, String nrId) async {
     final mdFile = File('${nrDir.path}/$nrId.md');
     if (!mdFile.existsSync()) return;
 
     final content = await mdFile.readAsString();
-    final relativePaths = _mdImageRefPattern
-        .allMatches(content)
-        .map((m) => m.group(1)!)
-        .toSet();
+    String? structureJson;
+    final structureFile = File('${nrDir.path}/structure.json');
+    if (structureFile.existsSync()) {
+      structureJson = await structureFile.readAsString();
+    }
+
+    final relativePaths = collectAssetPaths(
+      markdown: content,
+      structureJson: structureJson,
+    );
 
     for (final relativePath in relativePaths) {
       try {

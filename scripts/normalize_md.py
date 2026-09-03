@@ -41,6 +41,12 @@ PICTURE_TEXT_BLOCK_RE = re.compile(
     r"<!--\s*Start of picture text\s*-->.*?<!--\s*End of picture text\s*-->",
     re.DOTALL | re.IGNORECASE,
 )
+# Heading falso gerado por quebra de linha no PDF (ex.: "# trabalho;" após item de lista)
+FRAGMENT_HEADING_RE = re.compile(r"^#\s+(.+)$")
+NORMATIVE_HEADING_RE = re.compile(
+    r"^(?:\d+(?:\.\d+)*|SUMÁRIO|SUMARIO|ANEXO|Quadro|Tabela)\b",
+    re.IGNORECASE,
+)
 
 
 def _is_structural_line(line: str) -> bool:
@@ -124,6 +130,31 @@ def _remove_orphan_page_numbers(lines: list[str]) -> list[str]:
 def _fix_broken_hyphenation(text: str) -> str:
     """Corrige hifenização residual tipo 'deve- se' → 'deve-se'."""
     return BROKEN_HYPHEN_RE.sub(r"\1-\2", text)
+
+
+def _fix_spurious_fragment_headings(lines: list[str]) -> list[str]:
+    """
+    Une headings espúrios (fragmentos de linha quebrada) ao parágrafo anterior.
+
+    Caso real: NR-05 item e) termina em "...saúde no" e a continuação "trabalho;"
+    vira "# trabalho;" no Pass 1.
+    """
+    result: list[str] = []
+    for line in lines:
+        stripped = line.strip()
+        match = FRAGMENT_HEADING_RE.match(stripped)
+        if match and result:
+            inner = match.group(1).strip()
+            clean = re.sub(r"^\*\*|\*\*$", "", inner).strip()
+            if not NORMATIVE_HEADING_RE.match(clean) and len(clean) < 50:
+                prev_idx = len(result) - 1
+                while prev_idx >= 0 and not result[prev_idx].strip():
+                    prev_idx -= 1
+                if prev_idx >= 0:
+                    result[prev_idx] = result[prev_idx].rstrip() + " " + clean
+                    continue
+        result.append(line)
+    return result
 
 
 def _strip_br_tags(text: str) -> str:
@@ -225,6 +256,7 @@ def normalize_markdown(text: str) -> str:
 
     lines = _remove_dou_footer_lines(lines)
     lines = _remove_orphan_page_numbers(lines)
+    lines = _fix_spurious_fragment_headings(lines)
 
     # Remove sequências de rodapé/cabeçalho repetidas (ex: "Página 5" repetida)
     lines = [

@@ -75,12 +75,27 @@ def parse_section_heading(raw: str) -> tuple[str, str]:
 
     Exemplos:
       "**6.1 Objetivo**" -> ("6.1", "Objetivo")
+      "**5.3.1** A CIPA tem por atribuição:" -> ("5.3.1", "A CIPA tem por atribuição:")
+      "**1. Objetivo**" -> ("1", "Objetivo")
       "**ANEXO I LISTA DE EPI**" -> ("ANEXO I", "LISTA DE EPI")
+      "**Quadro I – Dimensionamento da CIPA**" -> ("Quadro I", "Dimensionamento da CIPA")
     """
     clean = strip_markdown_inline(raw)
 
-    # Seção numerada: 6.1 Objetivo
-    match = re.match(r"^(\d+\.\d+)\s+(.+)$", clean, re.IGNORECASE)
+    # Quadro normativo: Quadro I – título
+    match = re.match(r"^(Quadro\s+[IVXLC\d]+)\s*[–-]\s*(.+)$", clean, re.IGNORECASE)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+
+    # Seção numerada com qualquer profundidade: 6.1, 5.3.1, 17.2.3
+    match = re.match(r"^(\d+(?:\.\d+)+)\.?\s*(.*)$", clean)
+    if match:
+        number = match.group(1).rstrip(".")
+        title = match.group(2).strip().rstrip(":").strip()
+        return number, title
+
+    # Subseção de anexo: 1. Objetivo
+    match = re.match(r"^(\d+)\.\s+(.+)$", clean)
     if match:
         return match.group(1), match.group(2).strip()
 
@@ -88,7 +103,7 @@ def parse_section_heading(raw: str) -> tuple[str, str]:
     match = re.match(r"^(ANEXO\s+[IVXLC\d]+(?:\s+da\s+NR\s+\d+)?)\s*(.*)$", clean, re.IGNORECASE)
     if match:
         number = match.group(1).strip()
-        title = match.group(2).strip().lstrip("- ").strip()
+        title = match.group(2).strip().lstrip("-–— ").strip()
         return number.upper(), title or number.upper()
 
     # Glossário
@@ -97,6 +112,41 @@ def parse_section_heading(raw: str) -> tuple[str, str]:
 
     # Fallback: número vazio, título inteiro
     return "", clean
+
+
+def is_major_section(number: str, title: str) -> bool:
+    """
+    Indica se o heading deve virar card de seção no app.
+
+    Major: 5.3, 17.1 (dois níveis), anexo 1/2/3, ANEXO I, Quadro I, Glossário.
+    Minor: 5.3.1, 5.3.2 (três+ níveis) — ficam como blocos dentro da seção pai.
+    """
+    label = number or title
+    if re.match(r"^(ANEXO|Quadro|Glossário)", label, re.IGNORECASE):
+        return True
+    if not number:
+        return False
+    parts = number.split(".")
+    if len(parts) == 2 and all(p.isdigit() for p in parts):
+        return True
+    if len(parts) == 1 and number.isdigit():
+        return True
+    return False
+
+
+def classify_section_heading(raw: str) -> tuple[str, str, str]:
+    """
+    Classifica heading: (number, title, role).
+
+    role: "preamble" | "major" | "minor"
+    """
+    if is_preamble_heading(raw):
+        return "", strip_markdown_inline(raw), "preamble"
+
+    number, title = parse_section_heading(raw)
+    if is_major_section(number, title):
+        return number, title, "major"
+    return number, title, "minor"
 
 
 def is_preamble_heading(text: str) -> bool:
@@ -301,12 +351,19 @@ def build_structure(md_text: str) -> dict[str, Any]:
         heading_match = HEADING_RE.match(stripped)
         if heading_match:
             raw_heading = heading_match.group(1).strip()
+            number, section_title, role = classify_section_heading(raw_heading)
 
-            if in_preamble and is_normative_section_heading(raw_heading):
-                # Fecha preâmbulo e abre primeira seção normativa
+            if role == "preamble":
+                flush_preamble_line(stripped)
+            elif role == "minor":
+                # Subitem (ex.: 5.3.1) — conteúdo da seção pai, não card novo
+                if current_section is not None:
+                    current_lines.append(stripped.lstrip("#").strip())
+                elif stripped:
+                    flush_preamble_line(stripped)
+            elif in_preamble:
                 in_preamble = False
                 flush_section()
-                number, section_title = parse_section_heading(raw_heading)
                 current_section = {
                     "id": slugify(raw_heading),
                     "number": number,
@@ -314,12 +371,8 @@ def build_structure(md_text: str) -> dict[str, Any]:
                     "blocks": [],
                 }
                 current_lines = []
-            elif in_preamble:
-                flush_preamble_line(stripped)
             else:
-                # Nova seção normativa
                 flush_section()
-                number, section_title = parse_section_heading(raw_heading)
                 current_section = {
                     "id": slugify(raw_heading),
                     "number": number,

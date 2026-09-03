@@ -20,6 +20,8 @@ from convert_nr import (
     _table_to_markdown,
     _is_probably_illegible,
     _markdown_table_is_fragmented,
+    _row_has_merged_cell_artifact,
+    _table_has_merged_cell_artifact,
     _strip_duplicate_markdown_table,
     _combine_and_sort_bboxes,
 )
@@ -272,6 +274,18 @@ class TestMarkdownTableIsFragmented(unittest.TestCase):
         md = _table_to_markdown(table)
         self.assertNotIn("<br>", md)
         self.assertFalse(_markdown_table_is_fragmented(md))
+
+    def test_nr05_quadro_i_merged_header_is_illegible(self):
+        """NR-05 Quadro I: cabeçalho mesclado com 1 célula + colunas vazias."""
+        table = [
+            ["NÚMERO DE EMPREGADOS NO ESTABELECIMENTO"] + [None] * 15,
+            ["GRAU de RISCO*", "Nº de INTEGRANTES da CIPA", "0 a 19"] + [""] * 13,
+            ["1", "Efetivos"] + [""] * 5 + ["1", "1", "1", "1", "2", "4", "5", "6", "8", "1"],
+        ]
+        self.assertTrue(_table_has_merged_cell_artifact(table))
+        self.assertTrue(_is_probably_illegible(table))
+        md = _table_to_markdown(table)
+        self.assertTrue(_markdown_table_is_fragmented(md))
 
 
 class TestIntegration(unittest.TestCase):

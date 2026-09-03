@@ -16,6 +16,13 @@ void main() {
     expect(looksLikeMarkdownParagraph('Texto normativo simples.'), isFalse);
   });
 
+  test('stripHtmlTags remove tags sem afetar negrito', () {
+    expect(
+      stripHtmlTags('<u>Quadro I</u> com **negrito**'),
+      'Quadro I com **negrito**',
+    );
+  });
+
   test('findOccurrenceOffsets encontra múltiplas ocorrências', () {
     expect(
       findOccurrenceOffsets('EPI de proteção com EPI adequado', 'EPI'),

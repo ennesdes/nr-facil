@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Texto dado pela Portaria MTP n.º 422, de 07 de outubro de 2021)_ # **SUMÁRIO** 5.1 Objetivo 5.2 Campo de aplicação 5.3 Atribuições 5.4 Constituição e estruturação 5.5 Processo eleitoral 5.6 Funcionamento 5.7 Treinamento 5.8 CIPA das organizações contratadas para prestação de serviços 5.9 Disposições finais Anexo I - CIPA da Indústria da Construção"
+        "text": "_(Texto dado pela Portaria MTP n.º 422, de 07 de outubro de 2021)_ # **SUMÁRIO** 5.1 Objetivo 5.2 Campo de aplicação 5.3 Atribuições 5.4 Constituição e estruturação 5.5 Processo eleitoral 5.6 Funcionamento 5.7 Treinamento 5.8 CIPA das organizações contratadas para prestação de serviços 5.9 Disposições finais Anexo I - CIPA da Indústria da Construção # **Sumário**"
       }
     ]
   },
@@ -53,13 +53,13 @@
       "id": "53-atribuições",
       "number": "5.3",
       "title": "Atribuições",
-      "blocks": []
-    },
-    {
-      "id": "531-a-cipa-tem-por-atribuição",
-      "number": "",
-      "title": "5.3.1 A CIPA tem por atribuição:",
       "blocks": [
+        {
+          "type": "item",
+          "number": "5.3.1",
+          "depth": 2,
+          "text": "A CIPA tem por atribuição:"
+        },
         {
           "type": "list",
           "items": [
@@ -149,14 +149,13 @@
               "text": "incluir temas referentes à prevenção e ao combate ao assédio sexual e a outras formas de violência no trabalho nas suas atividades e práticas. _(inserida pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "532-cabe-à-organização",
-      "number": "",
-      "title": "5.3.2 Cabe à organização:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "5.3.2",
+          "depth": 2,
+          "text": "Cabe à organização:"
+        },
         {
           "type": "list",
           "items": [
@@ -189,14 +188,13 @@
           "number": "5.3.3",
           "depth": 2,
           "text": "Cabe aos trabalhadores indicar à CIPA, ao SESMT e à organização situações de riscos e apresentar sugestões para melhoria das condições de trabalho."
-        }
-      ]
-    },
-    {
-      "id": "534-cabe-ao-presidente-da-cipa",
-      "number": "",
-      "title": "5.3.4 Cabe ao Presidente da CIPA:",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "5.3.4",
+          "depth": 2,
+          "text": "Cabe ao Presidente da CIPA:"
+        },
         {
           "type": "list",
           "items": [
@@ -776,14 +774,11 @@
               "text": "noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "trabalho",
-      "number": "",
-      "title": "trabalho;",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "trabalho;"
+        },
         {
           "type": "list",
           "items": [
@@ -1043,27 +1038,24 @@
     },
     {
       "id": "quadro-i-dimensionamento-da-cipa",
-      "number": "",
-      "title": "Quadro I – Dimensionamento da CIPA",
+      "number": "Quadro I",
+      "title": "Dimensionamento da CIPA",
       "blocks": [
         {
           "type": "paragraph",
           "text": "*Grau de Risco conforme estabelecido no Quadro I da NR-04 - Relação da Classificação Nacional de Atividades Econômicas - CNAE (Versão 2.0), com correspondente Grau de Risco - GR para fins de dimensionamento do SESMT."
         },
         {
-          "type": "table",
-          "markdown": "| NÚMERO DE EMPREGADOS NO ESTABELECIMENTO | | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| GRAU de RISCO* | Nº de INTEGRANTES da CIPA | 0 a 19 | 20 a 29 | 30 a 50 | 51 a 80 | 81 a 100 | 101 a 120 | 121 a 140 | 141 a 300 | 301 a 500 | 501 a 1000 | 1001 a 2500 | 2501 a 5000 | 5001 a 10.000 | Acima de 10.000 para cada grupo de 2500 acrescentar |\n| 1 | Efetivos | | | | | 1 | 1 | 1 | 1 | 2 | 4 | 5 | 6 | 8 | 1 |\n| | Suplentes | | | | | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 1 |\n| 2 | Efetivos | | | | 1 | 1 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 1 |\n| | Suplentes | | | | 1 | 1 | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 1 |\n| 3 | Efetivos | | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 2 |\n| | Suplentes | | 1 | 1 | 1 | 1 | 1 | 2 | 2 | 4 | 4 | 6 | 8 | 8 | 2 |\n| 4 | Efetivos | | 1 | 2 | 3 | 3 | 4 | 4 | 4 | 5 | 6 | 9 | 11 | 13 | 2 |\n| | Suplentes | | 1 | 1 | 2 | 2 | 2 | 2 | 3 | 4 | 5 | 7 | 8 | 10 | 2 |"
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO I da NR-5 CIPA DA INDÚSTRIA DA CONSTRUÇÃO**"
+          "type": "image",
+          "alt": "Quadro I – Dimensionamento da CIPA",
+          "src": "../assets/pages/page-011-table-00.png"
         }
       ]
     },
     {
-      "id": "sumário",
-      "number": "",
-      "title": "Sumário",
+      "id": "anexo-i-cipa-da-indústria-da-construção",
+      "number": "ANEXO I",
+      "title": "CIPA da Indústria da Construção",
       "blocks": [
         {
           "type": "paragraph",
@@ -1081,8 +1073,8 @@
     },
     {
       "id": "1-objetivo",
-      "number": "",
-      "title": "1. Objetivo",
+      "number": "1",
+      "title": "Objetivo",
       "blocks": [
         {
           "type": "paragraph",
@@ -1092,8 +1084,8 @@
     },
     {
       "id": "2-campo-de-aplicação",
-      "number": "",
-      "title": "2. Campo de Aplicação",
+      "number": "2",
+      "title": "Campo de Aplicação",
       "blocks": [
         {
           "type": "paragraph",
@@ -1103,8 +1095,8 @@
     },
     {
       "id": "3-disposições-gerais",
-      "number": "",
-      "title": "3. Disposições Gerais",
+      "number": "3",
+      "title": "Disposições Gerais",
       "blocks": [
         {
           "type": "paragraph",

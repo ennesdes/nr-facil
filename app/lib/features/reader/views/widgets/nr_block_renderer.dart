@@ -89,32 +89,70 @@ class NrBlockRenderer extends StatelessWidget {
   Widget _buildTable(NrTableBlock table) {
     final textColor = isDarkMode ? Colors.white : Colors.black87;
 
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: SearchableMarkdownBody(
-          data: table.markdown,
-          highlightQuery: highlightQuery,
-          styleSheet: MarkdownStyleSheet(
-            p: TextStyle(fontSize: fontSize - 1, color: textColor),
-            tableHead: TextStyle(
-              fontSize: fontSize - 1,
-              fontWeight: FontWeight.bold,
-              color: textColor,
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: ConstrainedBox(
+              constraints: BoxConstraints(minWidth: constraints.maxWidth),
+              child: SearchableMarkdownBody(
+                data: stripHtmlTags(table.markdown),
+                highlightQuery: highlightQuery,
+                styleSheet: MarkdownStyleSheet(
+                  p: TextStyle(fontSize: fontSize - 1, color: textColor),
+                  tableHead: TextStyle(
+                    fontSize: fontSize - 1,
+                    fontWeight: FontWeight.bold,
+                    color: textColor,
+                  ),
+                  tableBody: TextStyle(fontSize: fontSize - 1, color: textColor),
+                ),
+              ),
             ),
-            tableBody: TextStyle(fontSize: fontSize - 1, color: textColor),
           ),
-        ),
-      ),
+        );
+      },
     );
   }
 
   Widget _buildImage(NrImageBlock image) {
-    return NrMarkdownImageBuilder(
-      uri: Uri.parse(image.src),
-      nrId: nrId,
-      alt: image.alt,
+    final captionColor = isDarkMode ? Colors.white70 : Colors.black54;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        if (image.alt.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.only(top: 8, bottom: 4),
+            child: Row(
+              children: [
+                Icon(
+                  Icons.table_chart_outlined,
+                  size: fontSize,
+                  color: captionColor,
+                ),
+                const SizedBox(width: 6),
+                Expanded(
+                  child: Text(
+                    '${image.alt} — toque na imagem para ampliar',
+                    style: TextStyle(
+                      fontSize: fontSize - 1,
+                      fontStyle: FontStyle.italic,
+                      color: captionColor,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        NrMarkdownImageBuilder(
+          uri: Uri.parse(image.src),
+          nrId: nrId,
+          alt: image.alt,
+        ),
+      ],
     );
   }
 

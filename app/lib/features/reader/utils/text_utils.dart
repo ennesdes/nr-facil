@@ -1,6 +1,11 @@
 /// Utilitários de texto para o leitor estruturado.
 library;
 
+/// Remove apenas tags HTML (preserva Markdown como **negrito** e tabelas).
+String stripHtmlTags(String text) {
+  return text.replaceAll(RegExp(r'<[^>]+>'), '');
+}
+
 /// Remove marcação Markdown/HTML inline para exibição.
 String stripInlineMarkup(String text) {
   var result = text;

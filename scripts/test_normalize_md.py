@@ -72,6 +72,16 @@ class TestNormalizeMarkdown(unittest.TestCase):
         self.assertIn("Texto antes.", result)
         self.assertIn("Texto depois.", result)
 
+    def test_merges_spurious_fragment_heading(self) -> None:
+        text = (
+            "e) noções sobre as legislações trabalhista e previdenciária relativas à segurança e saúde no\n\n"
+            "# trabalho;\n\n"
+            "f) próximo item.\n"
+        )
+        result = normalize_markdown(text)
+        self.assertNotIn("# trabalho", result)
+        self.assertIn("saúde no trabalho;", result)
+
 
 if __name__ == "__main__":
     unittest.main()
