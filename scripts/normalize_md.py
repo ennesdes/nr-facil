@@ -34,6 +34,13 @@ DOU_LINE_RE = re.compile(
 BROKEN_HYPHEN_RE = re.compile(r"(\w)- (\w)")
 # Número de página solto entre parágrafos (1–3 dígitos, linha isolada)
 PAGE_NUMBER_LINE_RE = re.compile(r"^\s*\d{1,3}\s*$")
+BR_TAG_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
+# Tags de destaque/sublinhado vindas do PDF (ex.: NR-35 com <mark>)
+HTML_INLINE_TAG_RE = re.compile(r"</?(?:mark|u)\b[^>]*>", re.IGNORECASE)
+PICTURE_TEXT_BLOCK_RE = re.compile(
+    r"<!--\s*Start of picture text\s*-->.*?<!--\s*End of picture text\s*-->",
+    re.DOTALL | re.IGNORECASE,
+)
 
 
 def _is_structural_line(line: str) -> bool:
@@ -119,6 +126,34 @@ def _fix_broken_hyphenation(text: str) -> str:
     return BROKEN_HYPHEN_RE.sub(r"\1-\2", text)
 
 
+def _strip_br_tags(text: str) -> str:
+    """Converte <br> (comum em células do pdfplumber) em espaço."""
+    return BR_TAG_RE.sub(" ", text)
+
+
+def _strip_html_inline_tags(text: str) -> str:
+    """Remove tags <mark> e <u> preservando o conteúdo interno."""
+    return HTML_INLINE_TAG_RE.sub("", text)
+
+
+def _strip_html_artifacts(text: str) -> str:
+    """Limpa artefatos HTML residuais do pipeline de extração."""
+    text = _strip_br_tags(text)
+    text = _strip_html_inline_tags(text)
+    # Colapsa espaços duplicados por linha (preserva quebras de parágrafo)
+    return "\n".join(re.sub(r" {2,}", " ", line) for line in text.split("\n"))
+
+
+def _strip_picture_text_blocks(text: str) -> str:
+    """
+    Remove blocos OCR de diagramas gerados pelo pymupdf4llm.
+
+    Esse texto é lixo visual (formulários, fluxogramas) — o conteúdo real
+    deve vir do Pass 3 (PNG recortado), não do OCR do Pass 1.
+    """
+    return PICTURE_TEXT_BLOCK_RE.sub("", text)
+
+
 def _repair_broken_table_rows(text: str) -> str:
     """
     Reúne linhas físicas que pertencem à mesma linha de tabela Markdown.
@@ -181,8 +216,10 @@ def normalize_markdown(text: str) -> str:
     3. Padroniza headings em formato "17.1", "17.1.1", etc.
     4. Corrige hifenização quebrada (linha termina em hífen)
     5. Repara linhas de tabela quebradas por \\n dentro de células
-    6. Remove espaços em branco excessivos
-    7. Remove sequências de linhas vazias > 2
+    6. Remove blocos OCR de diagramas (picture text)
+    7. Limpa artefatos HTML (<br>, <mark>, <u>)
+    8. Remove espaços em branco excessivos
+    9. Remove sequências de linhas vazias > 2
     """
     lines = text.split("\n")
 
@@ -232,6 +269,8 @@ def normalize_markdown(text: str) -> str:
     text = "\n".join(normalized)
     text = _repair_broken_table_rows(text)
     text = _fix_broken_hyphenation(text)
+    text = _strip_picture_text_blocks(text)
+    text = _strip_html_artifacts(text)
 
     # Remove linhas em branco excessivas (mais de 2 consecutivas)
     text = re.sub(r"\n\n\n+", "\n\n", text)

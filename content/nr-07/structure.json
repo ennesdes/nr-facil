@@ -86,7 +86,7 @@
           "type": "item",
           "number": "7.1.1",
           "depth": 2,
-          "text": "Esta Norma Regulamentadora - NR estabelece diretrizes e requisitos  para o desenvolvimento do Programa de Controle Médico de Saúde Ocupacional - PCMSO nas organizações, com o objetivo"
+          "text": "Esta Norma Regulamentadora - NR estabelece diretrizes e requisitos para o desenvolvimento do Programa de Controle Médico de Saúde Ocupacional - PCMSO nas organizações, com o objetivo"
         },
         {
           "type": "paragraph",
@@ -220,7 +220,7 @@
           "items": [
             {
               "label": "k",
-              "text": "subsidiar  ações de readaptação profissional;"
+              "text": "subsidiar ações de readaptação profissional;"
             }
           ]
         },
@@ -582,7 +582,7 @@
           "type": "item",
           "number": "7.5.19",
           "depth": 2,
-          "text": "Para cada exame clínico ocupacional realizado, o médico emitirá Atestado de Saúde Ocupacional - ASO, que deve ser  comprovadamente disponibilizado ao empregado, devendo ser fornecido em meio físico quando solicitado."
+          "text": "Para cada exame clínico ocupacional realizado, o médico emitirá Atestado de Saúde Ocupacional - ASO, que deve ser comprovadamente disponibilizado ao empregado, devendo ser fornecido em meio físico quando solicitado."
         },
         {
           "type": "item",
@@ -675,7 +675,7 @@
           "type": "item",
           "number": "7.5.19.5",
           "depth": 3,
-          "text": "Constatada ocorrência ou agravamento de doença relacionada ao trabalho ou  alteração que revele disfunção orgânica por meio dos exames complementares do Quadro 2 do Anexo I, dos demais Anexos desta NR ou dos exames complementares incluídos com base no subitem 7.5.18 da presente NR, caberá à organização, após informada pelo médico responsável pelo PCMSO:"
+          "text": "Constatada ocorrência ou agravamento de doença relacionada ao trabalho ou alteração que revele disfunção orgânica por meio dos exames complementares do Quadro 2 do Anexo I, dos demais Anexos desta NR ou dos exames complementares incluídos com base no subitem 7.5.18 da presente NR, caberá à organização, após informada pelo médico responsável pelo PCMSO:"
         },
         {
           "type": "list",
@@ -933,15 +933,15 @@
     {
       "id": "quadro-1---indicadores-biológicos-de-exposição-excessiva-ibeee",
       "number": "",
-      "title": "**QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)***",
+      "title": "QUADRO 1 - Indicadores Biológicos de Exposição Excessiva (IBE/EE)*",
       "blocks": [
         {
           "type": "table",
-          "markdown": "| Substância | Número CAS | Indicador(es) | Momento da Coleta | Valor do IBE/EE | Observações |\n| --- | --- | --- | --- | --- | --- |\n| 1,1,1 Tricloroetano | 71-55-6 | 1,1,1 Tricloroetano no ar exalado final ou | AJFS | 40 ppm | - |\n| | | Ácido tricloroacético na urina ou | FJFS | 10 mg/L | NE |\n| | | Tricloroetanol total na urina ou | FJFS | 30 mg/L | NE |\n| | | Tricloroetanol total no sangue | FJFS | 1 mg/L | NE |\n| 1,3 butadieno | 106-99-0 | 1,2 dihidro-4 (nacetilcisteína) butano na urina | FJ | 2,5 mg/L | EPNE |\n| 1,6 diisocianato de hexametileno (HDI) | 822-06-0 | 1,6 hexametilenodia mina na urina | FJ | 15 µg/g creat. | NE |\n| 2-butoxietanol | 111-76-2 | Ácido butoxiacético na urina (BAA) (H) | FJ | 200 mg/g creat. | - |\n| 2-metoxietanol e | 109-86-4 | Ácido 2- metóxiacético na urina | FJFS | 1 mg/g creat. | - |\n| 2- metoxietilacetato | 109-49-6 | | | | |\n| 2-propanol | 67-63-0 | Acetona na urina | FJFS | 40 mg/L | EPNE, NE |\n| 2,4 e 2,6 Tolueno diisocianato | 58484-9 9108-7 | Isômeros 2,4 e 2,6 toluenodiamino | FJ | 5 µg/g creat. | NE |"
+          "markdown": "| Substância | Número CAS | Indicador(es) | Momento da Coleta | Valor do IBE/EE | Observações |\n| --- | --- | --- | --- | --- | --- |\n| 1,1,1 Tricloroetano | 71-55-6 | 1,1,1 Tricloroetano no ar exalado final ou | AJFS | 40 ppm | - |\n| | | Ácido tricloroacético na urina ou | FJFS | 10 mg/L | NE |\n| | | Tricloroetanol total na urina ou | FJFS | 30 mg/L | NE |\n| | | Tricloroetanol total no sangue | FJFS | 1 mg/L | NE |\n| 1,3 butadieno | 106-99-0 | 1,2 dihidro-4 (nacetilcisteína) butano na urina | FJ | 2,5 mg/L | EPNE |\n| 1,6 diisocianato de hexametileno (HDI) | 822-06-0 | 1,6 hexametilenodia mina na urina | FJ | 15 µg/g creat. | NE |\n| 2-butoxietanol | 111-76-2 | Ácido butoxiacético na urina (BAA) (H) | FJ | 200 mg/g creat. | - |\n| 2-metoxietanol e | 109-86-4 | Ácido 2-metóxiacético na urina | FJFS | 1 mg/g creat. | - |\n| 2-metoxietilacetato | 109-49-6 | | | | |\n| 2-propanol | 67-63-0 | Acetona na urina | FJFS | 40 mg/L | EPNE, NE |\n| 2,4 e 2,6 Tolueno diisocianato | 58484-9 9108-7 | Isômeros 2,4 e 2,6 toluenodiamino | FJ | 5 µg/g creat. | NE |"
         },
         {
           "type": "table",
-          "markdown": "| (puros ou em mistura dos dois isômeros) | | na urina(H) (soma dos isômeros) | | | |\n| --- | --- | --- | --- | --- | --- |\n| Acetona | 67-64-1 | Acetona na urina | FJ | 25 mg/L | NE |\n| Anilina | 62-53-3 | p-amino-fenol na urina(H) ou | FJ | 50 mg/L | EPNE, NE |\n| | | metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| Arsênico elementar e seus compostos inorgânicos solúveis, exceto arsina e arsenato de gálio | 7440-38-2 | Arsênico inorgânico mais metabólitos metilados na urina | FS | 35 µg/L | EPNE |\n| Benzeno | 71-43-2 | Ácido s- fenilmercaptúrico (S- PMA) na urina ou | FJ | 45 µg/g creat. | EPNE, NF |\n| | | Ácido trans- transmucônico (TTMA) na urina | FJ | 750 µg/g creat. Observação: para a siderurgia será mantida a regra atualmente vigente. | EPNE, NE |\n| Chumbo tetraetila | 78-00-2 | Chumbo na urina | FJ | 50 µg/L | - |\n| Ciclohexanona | 108-94-1 | 1,2 ciclohexanodiol( H) na urina ou | FJFS | 80 mg/L | NE |\n| | | Ciclohexanol (H) na urina | FJ | 8 mg/L | NE |\n| Clorobenzeno | 108-90-7 | 4clorocatecol(H) na urina ou | FJFS | 100 mg/g creat. | NE |\n| | | p-clorofenol (H) na | FJFS | 20 mg/g | NE |"
+          "markdown": "| (puros ou em mistura dos dois isômeros) | | na urina(H) (soma dos isômeros) | | | |\n| --- | --- | --- | --- | --- | --- |\n| Acetona | 67-64-1 | Acetona na urina | FJ | 25 mg/L | NE |\n| Anilina | 62-53-3 | p-amino-fenol na urina(H) ou | FJ | 50 mg/L | EPNE, NE |\n| | | metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| Arsênico elementar e seus compostos inorgânicos solúveis, exceto arsina e arsenato de gálio | 7440-38-2 | Arsênico inorgânico mais metabólitos metilados na urina | FS | 35 µg/L | EPNE |\n| Benzeno | 71-43-2 | Ácido s-fenilmercaptúrico (S-PMA) na urina ou | FJ | 45 µg/g creat. | EPNE, NF |\n| | | Ácido trans-transmucônico (TTMA) na urina | FJ | 750 µg/g creat. Observação: para a siderurgia será mantida a regra atualmente vigente. | EPNE, NE |\n| Chumbo tetraetila | 78-00-2 | Chumbo na urina | FJ | 50 µg/L | - |\n| Ciclohexanona | 108-94-1 | 1,2 ciclohexanodiol( H) na urina ou | FJFS | 80 mg/L | NE |\n| | | Ciclohexanol (H) na urina | FJ | 8 mg/L | NE |\n| Clorobenzeno | 108-90-7 | 4clorocatecol(H) na urina ou | FJFS | 100 mg/g creat. | NE |\n| | | p-clorofenol (H) na | FJFS | 20 mg/g | NE |"
         },
         {
           "type": "table",
@@ -949,7 +949,7 @@
         },
         {
           "type": "table",
-          "markdown": "| | | hexanodiona(SH) (2,5H D) na urina | | | |\n| --- | --- | --- | --- | --- | --- |\n| Metiletilcetona (MEK) | 78-93-3 | MEK na urina | FJ | 2 mg/L | NE |\n| Metilisobutilceto na (MIBK) | 108-10-1 | MIBK na urina | FJ | 1 mg/L | - |\n| Monóxido de carbono | 630-08-0 | Carboxihemoglobina no sangue ou | FJ | 3,5% da hemoglobina | EPNE, NE, NF |\n| | | Monóxido de carbono no ar exalado final | FJ | 20 ppm | EPNE, NE, NF |\n| n-hexano | 110-54-3 | 2,5 hexanodiona(SH) (2,5H D) na urina | FJ | 0,5 mg/L | - |\n| Nitrobenzeno | 98-95-3 | Metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| N-metil-2- pirrolidona | 872-50-4 | 5-hidroxi-n-metil- | FJ | 100 mg/L | - |\n| | | 2- pirrolidona(SH) na urina | | | |\n| N,N Dimetilacetami da | 127-19-5 | Nmetilacetamida na urina | FJFS | 30 mg/g creat. | - |\n| N,N Dimetilformamid a | 68-12-2 | Nmetilformamida total1 na urina 1(soma da N- metilformamida e N-(hidroximetil)-N- metilformamida) ou | FJ | 30 mg/L | - |\n| | | N-Acetil-S-(N- metilcarbemoil) cisteína na urina | FJFS | 30 mg/L | - |\n| Óxido de etileno | 75-21-8 | Adutos de N-(2- hidroxietil) valina (HEV) em hemoglobina | NC | 5.000 pmol/g hemog. | NE |\n| Sulfeto de carbono | 75-15-0 | Ácido 2- tioxotiazolidina 4 carboxílico (TTCA) na urina | FJ | 0,5 mg/g creat. | EPNE, NE |"
+          "markdown": "| | | hexanodiona(SH) (2,5H D) na urina | | | |\n| --- | --- | --- | --- | --- | --- |\n| Metiletilcetona (MEK) | 78-93-3 | MEK na urina | FJ | 2 mg/L | NE |\n| Metilisobutilceto na (MIBK) | 108-10-1 | MIBK na urina | FJ | 1 mg/L | - |\n| Monóxido de carbono | 630-08-0 | Carboxihemoglobina no sangue ou | FJ | 3,5% da hemoglobina | EPNE, NE, NF |\n| | | Monóxido de carbono no ar exalado final | FJ | 20 ppm | EPNE, NE, NF |\n| n-hexano | 110-54-3 | 2,5 hexanodiona(SH) (2,5H D) na urina | FJ | 0,5 mg/L | - |\n| Nitrobenzeno | 98-95-3 | Metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| N-metil-2-pirrolidona | 872-50-4 | 5-hidroxi-n-metil- | FJ | 100 mg/L | - |\n| | | 2-pirrolidona(SH) na urina | | | |\n| N,N Dimetilacetami da | 127-19-5 | Nmetilacetamida na urina | FJFS | 30 mg/g creat. | - |\n| N,N Dimetilformamid a | 68-12-2 | Nmetilformamida total1 na urina 1(soma da N-metilformamida e N-(hidroximetil)-N-metilformamida) ou | FJ | 30 mg/L | - |\n| | | N-Acetil-S-(N-metilcarbemoil) cisteína na urina | FJFS | 30 mg/L | - |\n| Óxido de etileno | 75-21-8 | Adutos de N-(2-hidroxietil) valina (HEV) em hemoglobina | NC | 5.000 pmol/g hemog. | NE |\n| Sulfeto de carbono | 75-15-0 | Ácido 2-tioxotiazolidina 4 carboxílico (TTCA) na urina | FJ | 0,5 mg/g creat. | EPNE, NE |"
         },
         {
           "type": "paragraph",
@@ -964,7 +964,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_<u>(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)</u>_"
+          "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
         },
         {
           "type": "table",
@@ -972,7 +972,7 @@
         },
         {
           "type": "table",
-          "markdown": "| Substância | Número CAS | Indicador | Coleta | Valor do IBE/SC | Observações |\n| --- | --- | --- | --- | --- | --- |\n| Cádmio e seus compostos inorgânicos | 7440-43-9 | Cádmio na urina | NC | 5 µg/g creat. | - |\n| Chumbo e seus compostos inorgânicos | 7439-92-1 | Chumbo no sangue (Pb-S) e | NC | 60 µg/100ml(M) | EPNE |\n| | | Ácido Delta Amino Levulínico na urina (ALA- U) | NC | 10 mg/g creat. | EPNE, PNE |\n| Inseticidas inibidores da Colinesterase | | Atividade da acetilcolinesterase eritrocitária ou | FJ | 70% da ativid ade basal | NE |"
+          "markdown": "| Substância | Número CAS | Indicador | Coleta | Valor do IBE/SC | Observações |\n| --- | --- | --- | --- | --- | --- |\n| Cádmio e seus compostos inorgânicos | 7440-43-9 | Cádmio na urina | NC | 5 µg/g creat. | - |\n| Chumbo e seus compostos inorgânicos | 7439-92-1 | Chumbo no sangue (Pb-S) e | NC | 60 µg/100ml(M) | EPNE |\n| | | Ácido Delta Amino Levulínico na urina (ALA-U) | NC | 10 mg/g creat. | EPNE, PNE |\n| Inseticidas inibidores da Colinesterase | | Atividade da acetilcolinesterase eritrocitária ou | FJ | 70% da ativid ade basal | NE |"
         },
         {
           "type": "paragraph",
@@ -1407,7 +1407,7 @@
           "type": "item",
           "number": "5.2.1",
           "depth": 2,
-          "text": "Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem  nos critérios definidos no item 5.2 acima."
+          "text": "Não são consideradas alterações sugestivas de PAINPSE aquelas que não se enquadrem nos critérios definidos no item 5.2 acima."
         }
       ]
     },
@@ -1463,7 +1463,7 @@
     {
       "id": "54-são-considerados-sugestivos-de-agravamento-da-painpse-os-casos-já-confirmados-em-exame-audiométrico-de-referência-e-nos-quais-a-comparação-de-exame-audiométrico-seqüencial-com-o-de-referência-mostra-evolução-que-preenche-um-dos-critérios-abaixo",
       "number": "5.4",
-      "title": "São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que  preenche um dos critérios abaixo:",
+      "title": "São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que preenche um dos critérios abaixo:",
       "blocks": [
         {
           "type": "list",
@@ -1737,7 +1737,7 @@
           "items": [
             {
               "label": "a",
-              "text": "Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas  contínuas para a orelha direita e linhas interrompidas para a orelha esquerda."
+              "text": "Os símbolos referentes à via de condução aérea devem ser ligados por meio de linhas contínuas para a orelha direita e linhas interrompidas para a orelha esquerda."
             }
           ]
         },
@@ -2157,7 +2157,7 @@
     {
       "id": "215-são-responsáveis-pela-guarda-o-médico-do-trabalho-responsável-pelo-pcmso-ou-no-caso-de-a-empresa-possuir-serviço-próprio-o-responsável-pelo-serviço-de-radiologia",
       "number": "2.15",
-      "title": "São responsáveis  pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia",
+      "title": "São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia",
       "blocks": [
         {
           "type": "item",
@@ -2253,7 +2253,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_<u>(Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022)</u>_"
+          "text": "_(Alterado e Realocado pela Portaria MTP nº 567, de 10 de março de 2022)_"
         },
         {
           "type": "paragraph",

@@ -23,8 +23,10 @@
       "title": "Objetivo",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.1.1</mark>** <mark>Esta Norma estabelece os requisitos e as medidas de prevenção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade.</mark>"
+          "type": "item",
+          "number": "35.1.1",
+          "depth": 2,
+          "text": "Esta Norma estabelece os requisitos e as medidas de prevenção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade."
         }
       ]
     },
@@ -34,8 +36,10 @@
       "title": "Campo de Aplicação",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.2.1</mark>** <mark>Aplica-se o disposto nessa Norma a toda atividade com diferença de nível acima de 2,0m (dois metros) do nível inferior, onde haja risco de queda.</mark>"
+          "type": "item",
+          "number": "35.2.1",
+          "depth": 2,
+          "text": "Aplica-se o disposto nessa Norma a toda atividade com diferença de nível acima de 2,0m (dois metros) do nível inferior, onde haja risco de queda."
         }
       ]
     },
@@ -45,19 +49,26 @@
       "title": "Responsabilidades",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.3.1</mark>** <mark>Cabe à organização:</mark>"
+          "type": "item",
+          "number": "35.3.1",
+          "depth": 2,
+          "text": "Cabe à organização:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) garantir a implementação das medidas de prevenção estabelecidas nesta NR;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "garantir a implementação das medidas de prevenção estabelecidas nesta NR;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "assegurar a realização da Análise de Risco - AR e, quando aplicável, a emissão da Permissão de <mark>Trabalho - PT;</mark>"
+              "text": "assegurar a realização da Análise de Risco - AR e, quando aplicável, a emissão da Permissão de Trabalho - PT;"
             }
           ]
         },
@@ -66,7 +77,7 @@
           "items": [
             {
               "label": "c",
-              "text": "elaborar procedimento operacional para as atividades rotineiras de trabalho em altura; - d) disponibilizar, através dos meios de comunicação da organização de fácil acesso ao trabalhador, <mark>instruções de segurança contempladas na AR, PT e procedimentos operacionais a todos os integrantes da equipe de trabalho;</mark>"
+              "text": "elaborar procedimento operacional para as atividades rotineiras de trabalho em altura; - d) disponibilizar, através dos meios de comunicação da organização de fácil acesso ao trabalhador, instruções de segurança contempladas na AR, PT e procedimentos operacionais a todos os integrantes da equipe de trabalho;"
             }
           ]
         },
@@ -75,7 +86,7 @@
           "items": [
             {
               "label": "e",
-              "text": "assegurar a realização de avaliação prévia das condições no local do trabalho em altura, pelo <mark>estudo, planejamento e implementação das ações e das medidas complementares de segurança aplicáveis;</mark>"
+              "text": "assegurar a realização de avaliação prévia das condições no local do trabalho em altura, pelo estudo, planejamento e implementação das ações e das medidas complementares de segurança aplicáveis;"
             }
           ]
         },
@@ -84,7 +95,7 @@
           "items": [
             {
               "label": "f",
-              "text": "adotar as providências necessárias para acompanhar o cumprimento das medidas de prevenção <mark>estabelecidas nesta Norma pelas organizações prestadoras de serviços;</mark>"
+              "text": "adotar as providências necessárias para acompanhar o cumprimento das medidas de prevenção estabelecidas nesta Norma pelas organizações prestadoras de serviços;"
             }
           ]
         },
@@ -93,7 +104,7 @@
           "items": [
             {
               "label": "g",
-              "text": "garantir que qualquer trabalho em altura só se inicie depois de adotadas as medidas de <mark>prevenção definidas nesta NR;</mark>"
+              "text": "garantir que qualquer trabalho em altura só se inicie depois de adotadas as medidas de prevenção definidas nesta NR;"
             }
           ]
         },
@@ -102,7 +113,7 @@
           "items": [
             {
               "label": "h",
-              "text": "assegurar a suspensão dos trabalhos em altura quando verificar situação ou condição de risco <mark>não prevista, cuja eliminação ou neutralização imediata não seja possível;</mark>"
+              "text": "assegurar a suspensão dos trabalhos em altura quando verificar situação ou condição de risco não prevista, cuja eliminação ou neutralização imediata não seja possível;"
             }
           ]
         },
@@ -120,13 +131,15 @@
           "items": [
             {
               "label": "j",
-              "text": "assegurar a organização e o arquivamento da documentação prevista nesta NR, por período <mark>mínimo de 5 (cinco) anos, exceto se houver disposição específica em outra Norma Regulamentadora.</mark>"
+              "text": "assegurar a organização e o arquivamento da documentação prevista nesta NR, por período mínimo de 5 (cinco) anos, exceto se houver disposição específica em outra Norma Regulamentadora."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.3.2</mark>** <mark>Cabe ao trabalhador cumprir as disposições previstas nesta norma e no item 1.4.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, e os procedimentos operacionais expedidos pelo empregador.</mark>"
+          "type": "item",
+          "number": "35.3.2",
+          "depth": 2,
+          "text": "Cabe ao trabalhador cumprir as disposições previstas nesta norma e no item 1.4.2 da Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, e os procedimentos operacionais expedidos pelo empregador."
         }
       ]
     },
@@ -136,20 +149,31 @@
       "title": "Autorização, Capacitação e Aptidão",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.1</mark>** <mark>Todo trabalho em altura deve ser realizado por trabalhador formalmente autorizado pela organização.</mark>"
+          "type": "item",
+          "number": "35.4.1",
+          "depth": 2,
+          "text": "Todo trabalho em altura deve ser realizado por trabalhador formalmente autorizado pela organização."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.1.1</mark>** <mark>Considera-se trabalhador autorizado para trabalho em altura aquele capacitado cujo estado de saúde foi avaliado, tendo sido considerado apto para executar suas atividades.</mark>"
+          "type": "item",
+          "number": "35.4.1.1",
+          "depth": 3,
+          "text": "Considera-se trabalhador autorizado para trabalho em altura aquele capacitado cujo estado de saúde foi avaliado, tendo sido considerado apto para executar suas atividades."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.1.2</mark>** <mark>A autorização para trabalho em altura deve considerar:</mark>"
+          "type": "item",
+          "number": "35.4.1.2",
+          "depth": 3,
+          "text": "A autorização para trabalho em altura deve considerar:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) as atividades que serão desenvolvidas pelo trabalhador;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as atividades que serão desenvolvidas pelo trabalhador;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -170,24 +194,37 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.1.3</mark>** <mark>A autorização deve ser consignada nos documentos funcionais do empregado.</mark>"
+          "type": "item",
+          "number": "35.4.1.3",
+          "depth": 3,
+          "text": "A autorização deve ser consignada nos documentos funcionais do empregado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.1.3.1</mark>** <mark>A organização deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador.</mark>"
+          "type": "item",
+          "number": "35.4.1.3.1",
+          "depth": 4,
+          "text": "A organização deve estabelecer sistema de identificação que permita a qualquer tempo conhecer a abrangência da autorização de cada trabalhador."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.2</mark>** <mark>Considera-se trabalhador capacitado para trabalho em altura aquele que foi submetido e aprovado no processo de capacitação, envolvendo treinamento, teórico e prático, inicial, periódico e eventual, observado o disposto na NR-01.</mark>"
+          "type": "item",
+          "number": "35.4.2",
+          "depth": 2,
+          "text": "Considera-se trabalhador capacitado para trabalho em altura aquele que foi submetido e aprovado no processo de capacitação, envolvendo treinamento, teórico e prático, inicial, periódico e eventual, observado o disposto na NR-01."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.2.1</mark>** <mark>O treinamento inicial, com carga horária mínima de 8 (oito) horas, deve ser realizado antes de o trabalhador iniciar a atividade e contemplar:</mark> _<mark>(Prazo de realização - Vide Art. 8º da Portaria MTE nº 1.259,</mark>_ _<mark>de 15 de julho de 2026)</mark>_"
+          "type": "item",
+          "number": "35.4.2.1",
+          "depth": 3,
+          "text": "O treinamento inicial, com carga horária mínima de 8 (oito) horas, deve ser realizado antes de o trabalhador iniciar a atividade e contemplar: _(Prazo de realização - Vide Art. 8º da Portaria MTE nº 1.259,_ _de 15 de julho de 2026)_"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) normas e regulamentos aplicáveis ao trabalho em altura;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "normas e regulamentos aplicáveis ao trabalho em altura;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -239,29 +276,39 @@
           "items": [
             {
               "label": "g",
-              "text": "condutas em situações de emergência, incluindo noções básicas de técnicas de resgate e de <mark>primeiros socorros.</mark>"
+              "text": "condutas em situações de emergência, incluindo noções básicas de técnicas de resgate e de primeiros socorros."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.2.2</mark>** <mark>O treinamento periódico deve ser realizado a cada dois anos, com carga horária mínima de oito horas, conforme conteúdo programático definido pelo empregador.</mark>"
+          "type": "item",
+          "number": "35.4.2.2",
+          "depth": 3,
+          "text": "O treinamento periódico deve ser realizado a cada dois anos, com carga horária mínima de oito horas, conforme conteúdo programático definido pelo empregador."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.3</mark>** <mark>Os treinamentos devem ser ministrados por instrutores com comprovada proficiência no assunto, sob a responsabilidade de profissional qualificado ou legalmente habilitado em segurança no trabalho.</mark>"
+          "type": "item",
+          "number": "35.4.3",
+          "depth": 2,
+          "text": "Os treinamentos devem ser ministrados por instrutores com comprovada proficiência no assunto, sob a responsabilidade de profissional qualificado ou legalmente habilitado em segurança no trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.4</mark>** <mark>Cabe à organização avaliar o estado de saúde dos empregados que exercem atividades de trabalho em altura de acordo com o estabelecido na NR-07 (Programa de Controle Médico de Saúde Ocupacional), em especial o item 7.5.3, considerando patologias que poderão originar mal súbito e queda de altura, bem como os fatores psicossociais.</mark>"
+          "type": "item",
+          "number": "35.4.4",
+          "depth": 2,
+          "text": "Cabe à organização avaliar o estado de saúde dos empregados que exercem atividades de trabalho em altura de acordo com o estabelecido na NR-07 (Programa de Controle Médico de Saúde Ocupacional), em especial o item 7.5.3, considerando patologias que poderão originar mal súbito e queda de altura, bem como os fatores psicossociais."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.4.1</mark>** <mark>A aptidão para trabalho em altura deve ser consignada no atestado de saúde ocupacional do trabalhador.</mark>"
+          "type": "item",
+          "number": "35.4.4.1",
+          "depth": 3,
+          "text": "A aptidão para trabalho em altura deve ser consignada no atestado de saúde ocupacional do trabalhador."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.4.5</mark>** <mark>Os treinamentos previstos nesta NR devem ser realizados na modalidade presencial.</mark> _<mark>(Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)</mark>_"
+          "type": "item",
+          "number": "35.4.5",
+          "depth": 2,
+          "text": "Os treinamentos previstos nesta NR devem ser realizados na modalidade presencial. _(Inserido pela Portaria MTE nº 1.259, de 15 de julho de 2026)_"
         }
       ]
     },
@@ -271,23 +318,32 @@
       "title": "Planejamento e Organização",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.1</mark>** <mark>Todo trabalho em altura deve ser planejado e organizado.</mark>"
+          "type": "item",
+          "number": "35.5.1",
+          "depth": 2,
+          "text": "Todo trabalho em altura deve ser planejado e organizado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.2</mark>** <mark>No planejamento do trabalho devem ser adotadas, de acordo com a seguinte hierarquia:</mark>"
+          "type": "item",
+          "number": "35.5.2",
+          "depth": 2,
+          "text": "No planejamento do trabalho devem ser adotadas, de acordo com a seguinte hierarquia:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) medidas para evitar o trabalho em altura, sempre que existir meio alternativo de execução;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "medidas para evitar o trabalho em altura, sempre que existir meio alternativo de execução;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "medidas que eliminem o risco de queda dos trabalhadores, na impossibilidade de execução do <mark>trabalho de outra forma; e</mark>"
+              "text": "medidas que eliminem o risco de queda dos trabalhadores, na impossibilidade de execução do trabalho de outra forma; e"
             }
           ]
         },
@@ -296,25 +352,36 @@
           "items": [
             {
               "label": "c",
-              "text": "medidas que minimizem as consequências da queda, quando o risco de queda não puder ser <mark>eliminado.</mark>"
+              "text": "medidas que minimizem as consequências da queda, quando o risco de queda não puder ser eliminado."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.3</mark>** <mark>Todo trabalho em altura deve ser realizado sob supervisão, cuja forma deve ser definida pela AR de acordo com as peculiaridades da atividade.</mark>"
+          "type": "item",
+          "number": "35.5.3",
+          "depth": 2,
+          "text": "Todo trabalho em altura deve ser realizado sob supervisão, cuja forma deve ser definida pela AR de acordo com as peculiaridades da atividade."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.4</mark>** <mark>A execução do serviço deve considerar as influências externas que possam alterar as condições do local de trabalho já previstas na AR.</mark> **<mark>35.5.5</mark>** <mark>Todo trabalho em altura deve ser precedido de AR.</mark>"
+          "type": "item",
+          "number": "35.5.4",
+          "depth": 2,
+          "text": "A execução do serviço deve considerar as influências externas que possam alterar as condições do local de trabalho já previstas na AR. **35.5.5** Todo trabalho em altura deve ser precedido de AR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.5.1</mark>** <mark>A AR deve, além dos riscos inerentes ao trabalho em altura, considerar:</mark>"
+          "type": "item",
+          "number": "35.5.5.1",
+          "depth": 3,
+          "text": "A AR deve, além dos riscos inerentes ao trabalho em altura, considerar:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) o local em que os serviços serão executados e seu entorno;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o local em que os serviços serão executados e seu entorno;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -348,7 +415,7 @@
           "items": [
             {
               "label": "e",
-              "text": "a seleção, inspeção, forma de utilização e limitação de uso dos sistemas de proteção coletiva e <mark>individual, atendendo às normas técnicas vigentes, às orientações do fabricante ou projetista e aos princípios da redução do impacto e dos fatores de queda;</mark>"
+              "text": "a seleção, inspeção, forma de utilização e limitação de uso dos sistemas de proteção coletiva e individual, atendendo às normas técnicas vigentes, às orientações do fabricante ou projetista e aos princípios da redução do impacto e dos fatores de queda;"
             }
           ]
         },
@@ -375,7 +442,7 @@
           "items": [
             {
               "label": "h",
-              "text": "o atendimento aos requisitos de segurança e saúde contidos nas demais normas <mark>regulamentadoras;</mark>"
+              "text": "o atendimento aos requisitos de segurança e saúde contidos nas demais normas regulamentadoras;"
             }
           ]
         },
@@ -402,7 +469,7 @@
           "items": [
             {
               "label": "k",
-              "text": "as situações de emergência e o planejamento do resgate e primeiros socorros, de forma a <mark>reduzir o tempo da suspensão inerte do trabalhador;</mark>"
+              "text": "as situações de emergência e o planejamento do resgate e primeiros socorros, de forma a reduzir o tempo da suspensão inerte do trabalhador;"
             }
           ]
         },
@@ -425,16 +492,25 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.6</mark>** <mark>Para atividades rotineiras de trabalho em altura, a AR pode estar contemplada no respectivo procedimento operacional.</mark>"
+          "type": "item",
+          "number": "35.5.6",
+          "depth": 2,
+          "text": "Para atividades rotineiras de trabalho em altura, a AR pode estar contemplada no respectivo procedimento operacional."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.6.1</mark>** <mark>Os procedimentos operacionais para as atividades rotineiras de trabalho em altura devem conter:</mark>"
+          "type": "item",
+          "number": "35.5.6.1",
+          "depth": 3,
+          "text": "Os procedimentos operacionais para as atividades rotineiras de trabalho em altura devem conter:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) o detalhamento da tarefa;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o detalhamento da tarefa;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -473,16 +549,22 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.7</mark>** <mark>As atividades de trabalho em altura não rotineiras devem ser previamente autorizadas mediante PT.</mark>"
+          "type": "item",
+          "number": "35.5.7",
+          "depth": 2,
+          "text": "As atividades de trabalho em altura não rotineiras devem ser previamente autorizadas mediante PT."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.7.1</mark>** <mark>Para as atividades não rotineiras as medidas de prevenção devem ser evidenciadas na AR e na PT.</mark>"
+          "type": "item",
+          "number": "35.5.7.1",
+          "depth": 3,
+          "text": "Para as atividades não rotineiras as medidas de prevenção devem ser evidenciadas na AR e na PT."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.8</mark>** <mark>A PT deve ser emitida, em meio físico ou digital, aprovada pelo responsável pela autorização da permissão, e acessível no local de execução da atividade e, ao final, encerrada e arquivada de forma a permitir sua rastreabilidade.</mark>"
+          "type": "item",
+          "number": "35.5.8",
+          "depth": 2,
+          "text": "A PT deve ser emitida, em meio físico ou digital, aprovada pelo responsável pela autorização da permissão, e acessível no local de execução da atividade e, ao final, encerrada e arquivada de forma a permitir sua rastreabilidade."
         }
       ]
     },
@@ -492,8 +574,13 @@
       "title": "35.5.8.1 A PT deve conter:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "- <mark>a) os requisitos mínimos a serem atendidos para a execução dos trabalhos;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os requisitos mínimos a serem atendidos para a execução dos trabalhos;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -514,8 +601,10 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.5.8.2</mark>** <mark>A PT tem validade limitada à duração da atividade, restrita ao turno ou à jornada de trabalho, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho.</mark>"
+          "type": "item",
+          "number": "35.5.8.2",
+          "depth": 3,
+          "text": "A PT tem validade limitada à duração da atividade, restrita ao turno ou à jornada de trabalho, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho."
         }
       ]
     },
@@ -525,16 +614,25 @@
       "title": "Sistemas de Proteção Contra Quedas - SPQ",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.1</mark>** <mark>É obrigatória a utilização de SPQ sempre que não for possível evitar o trabalho em altura.</mark>"
+          "type": "item",
+          "number": "35.6.1",
+          "depth": 2,
+          "text": "É obrigatória a utilização de SPQ sempre que não for possível evitar o trabalho em altura."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.2</mark>** <mark>O SPQ deve:</mark>"
+          "type": "item",
+          "number": "35.6.2",
+          "depth": 2,
+          "text": "O SPQ deve:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) ser adequado à tarefa a ser executada;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser adequado à tarefa a ser executada;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -568,7 +666,7 @@
           "items": [
             {
               "label": "e",
-              "text": "atender às normas técnicas nacionais ou na sua inexistência às normas internacionais aplicáveis <mark>vigentes à época de sua fabricação ou construção; e</mark>"
+              "text": "atender às normas técnicas nacionais ou na sua inexistência às normas internacionais aplicáveis vigentes à época de sua fabricação ou construção; e"
             }
           ]
         },
@@ -582,12 +680,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.3</mark>** <mark>A seleção do SPQ deve considerar a utilização:</mark>"
+          "type": "item",
+          "number": "35.6.3",
+          "depth": 2,
+          "text": "A seleção do SPQ deve considerar a utilização:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) de Sistema de Proteção Coletiva Contra Quedas - SPCQ; ou</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "de Sistema de Proteção Coletiva Contra Quedas - SPCQ; ou"
+            }
+          ]
         },
         {
           "type": "list",
@@ -600,7 +705,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<mark>I - na impossibilidade de adoção do SPCQ;</mark>"
+          "text": "I - na impossibilidade de adoção do SPCQ;"
         },
         {
           "type": "paragraph",
@@ -611,68 +716,103 @@
           "text": "III - para atender situações de emergência."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.3.1</mark>** <mark>O SPCQ deve ser projetado por profissional legalmente habilitado.</mark>"
+          "type": "item",
+          "number": "35.6.3.1",
+          "depth": 3,
+          "text": "O SPCQ deve ser projetado por profissional legalmente habilitado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.4</mark>** <mark>O SPIQ pode ser de restrição de movimentação, de retenção de queda, de posicionamento no trabalho ou de acesso por cordas.</mark>"
+          "type": "item",
+          "number": "35.6.4",
+          "depth": 2,
+          "text": "O SPIQ pode ser de restrição de movimentação, de retenção de queda, de posicionamento no trabalho ou de acesso por cordas."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.5</mark>** <mark>O fabricante ou o importador de Equipamento de Proteção Individual - EPI deve disponibilizar informações quanto ao desempenho dos equipamentos e os limites de uso, considerando a massa total aplicada ao sistema (trabalhador e equipamentos) e os demais aspectos previstos no item 35.6.11.</mark>"
+          "type": "item",
+          "number": "35.6.5",
+          "depth": 2,
+          "text": "O fabricante ou o importador de Equipamento de Proteção Individual - EPI deve disponibilizar informações quanto ao desempenho dos equipamentos e os limites de uso, considerando a massa total aplicada ao sistema (trabalhador e equipamentos) e os demais aspectos previstos no item 35.6.11."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.6</mark>** <mark>Devem ser efetuadas inspeções inicial, rotineira e periódica do SPIQ, observadas as recomendações do fabricante ou projetista, recusando-se os elementos que apresentem defeitos ou deformações.</mark> **<mark>35.6.6.1</mark>** <mark>A inspeção inicial é aquela realizada entre o recebimento e a primeira utilização do SPIQ.</mark>"
+          "type": "item",
+          "number": "35.6.6",
+          "depth": 2,
+          "text": "Devem ser efetuadas inspeções inicial, rotineira e periódica do SPIQ, observadas as recomendações do fabricante ou projetista, recusando-se os elementos que apresentem defeitos ou deformações. **35.6.6.1** A inspeção inicial é aquela realizada entre o recebimento e a primeira utilização do SPIQ."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.6.2</mark>** <mark>A inspeção rotineira é aquela realizada antes do início dos trabalhos.</mark>"
+          "type": "item",
+          "number": "35.6.6.2",
+          "depth": 3,
+          "text": "A inspeção rotineira é aquela realizada antes do início dos trabalhos."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.6.3</mark>** <mark>A inspeção periódica deve ser realizada no mínimo uma vez a cada doze meses, podendo o intervalo entre as inspeções ser reduzido em função do tipo de utilização, frequência de uso ou exposição a agentes agressivos.</mark>"
+          "type": "item",
+          "number": "35.6.6.3",
+          "depth": 3,
+          "text": "A inspeção periódica deve ser realizada no mínimo uma vez a cada doze meses, podendo o intervalo entre as inspeções ser reduzido em função do tipo de utilização, frequência de uso ou exposição a agentes agressivos."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.6.4</mark>** <mark>Devem ser registradas as inspeções iniciais, periódicas e aquelas rotineiras que tiverem os elementos do SPIQ recusados.</mark>"
+          "type": "item",
+          "number": "35.6.6.4",
+          "depth": 3,
+          "text": "Devem ser registradas as inspeções iniciais, periódicas e aquelas rotineiras que tiverem os elementos do SPIQ recusados."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.6.5</mark>** <mark>Os elementos do SPIQ que apresentarem defeitos, degradação, deformações ou sofrerem impactos de queda devem ser inutilizados e descartados, exceto quando sua restauração for prevista em normas técnicas nacionais ou, na sua ausência, em normas internacionais e de acordo com as recomendações do fabricante.</mark>"
+          "type": "item",
+          "number": "35.6.6.5",
+          "depth": 3,
+          "text": "Os elementos do SPIQ que apresentarem defeitos, degradação, deformações ou sofrerem impactos de queda devem ser inutilizados e descartados, exceto quando sua restauração for prevista em normas técnicas nacionais ou, na sua ausência, em normas internacionais e de acordo com as recomendações do fabricante."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.7</mark>** <mark>O SPIQ deve ser selecionado de forma que a força de impacto transmitida ao trabalhador seja de no máximo 6 kN, quando de uma eventual queda.</mark>"
+          "type": "item",
+          "number": "35.6.7",
+          "depth": 2,
+          "text": "O SPIQ deve ser selecionado de forma que a força de impacto transmitida ao trabalhador seja de no máximo 6 kN, quando de uma eventual queda."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.8</mark>** <mark>Os sistemas de ancoragem destinados à restrição de movimentação devem ser dimensionados para resistir às forças que possam vir a ser aplicadas.</mark>"
+          "type": "item",
+          "number": "35.6.8",
+          "depth": 2,
+          "text": "Os sistemas de ancoragem destinados à restrição de movimentação devem ser dimensionados para resistir às forças que possam vir a ser aplicadas."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.8.1</mark>** <mark>Havendo possibilidade de ocorrência de queda com diferença de nível, em conformidade com a AR, o sistema deve ser dimensionado como de retenção de queda.</mark>"
+          "type": "item",
+          "number": "35.6.8.1",
+          "depth": 3,
+          "text": "Havendo possibilidade de ocorrência de queda com diferença de nível, em conformidade com a AR, o sistema deve ser dimensionado como de retenção de queda."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.9</mark>** <mark>No SPIQ de retenção de queda e no de acesso por cordas, o equipamento de proteção individual deve ser o cinturão de segurança tipo paraquedista.</mark>"
+          "type": "item",
+          "number": "35.6.9",
+          "depth": 2,
+          "text": "No SPIQ de retenção de queda e no de acesso por cordas, o equipamento de proteção individual deve ser o cinturão de segurança tipo paraquedista."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.9.1</mark>** <mark>O cinturão de segurança tipo paraquedista, quando utilizado em retenção de queda, deve estar conectado pelo seu elemento de engate para retenção de queda indicado pelo fabricante.</mark>"
+          "type": "item",
+          "number": "35.6.9.1",
+          "depth": 3,
+          "text": "O cinturão de segurança tipo paraquedista, quando utilizado em retenção de queda, deve estar conectado pelo seu elemento de engate para retenção de queda indicado pelo fabricante."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.9.1.1</mark>** <mark>Se o elemento de ligação utilizado para retenção de quedas for um talabarte, este deve ser um talabarte integrado com absorvedor de energia.</mark> _<mark>(Alterado pela Portaria MTE nº 1.680, de 02 de outubro de 2025)</mark>_"
+          "type": "item",
+          "number": "35.6.9.1.1",
+          "depth": 4,
+          "text": "Se o elemento de ligação utilizado para retenção de quedas for um talabarte, este deve ser um talabarte integrado com absorvedor de energia. _(Alterado pela Portaria MTE nº 1.680, de 02 de outubro de 2025)_"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.10</mark>** <mark>A utilização do sistema de retenção de queda por trava-queda deslizante guiado deve atender às recomendações do fabricante, em particular no que se refere:</mark>"
+          "type": "item",
+          "number": "35.6.10",
+          "depth": 2,
+          "text": "A utilização do sistema de retenção de queda por trava-queda deslizante guiado deve atender às recomendações do fabricante, em particular no que se refere:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) à compatibilidade do trava-quedas deslizante guiado com a linha de vida vertical; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "à compatibilidade do trava-quedas deslizante guiado com a linha de vida vertical; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -684,12 +824,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.11</mark>** <mark>A AR prevista nesta norma deve considerar para o SPIQ os seguintes aspectos:</mark>"
+          "type": "item",
+          "number": "35.6.11",
+          "depth": 2,
+          "text": "A AR prevista nesta norma deve considerar para o SPIQ os seguintes aspectos:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) que o trabalhador deve permanecer conectado ao sistema durante todo o período de exposição ao risco de queda;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "que o trabalhador deve permanecer conectado ao sistema durante todo o período de exposição ao risco de queda;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -705,7 +852,7 @@
           "items": [
             {
               "label": "c",
-              "text": "o fator de queda; - d) a utilização de um elemento de ligação que garanta que um impacto de no máximo 6kN seja <mark>transmitido ao trabalhador quando da retenção de uma queda;</mark>"
+              "text": "o fator de queda; - d) a utilização de um elemento de ligação que garanta que um impacto de no máximo 6kN seja transmitido ao trabalhador quando da retenção de uma queda;"
             }
           ]
         },
@@ -728,12 +875,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.11.1</mark>** <mark>O talabarte e o dispositivo trava-quedas devem ser posicionados:</mark>"
+          "type": "item",
+          "number": "35.6.11.1",
+          "depth": 3,
+          "text": "O talabarte e o dispositivo trava-quedas devem ser posicionados:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) de modo a restringir a distância de queda livre; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "de modo a restringir a distância de queda livre; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -745,12 +899,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.6.11.1.1</mark>** <mark>O talabarte, exceto quando especificado pelo fabricante e considerando suas limitações de uso, não pode ser utilizado:</mark>"
+          "type": "item",
+          "number": "35.6.11.1.1",
+          "depth": 4,
+          "text": "O talabarte, exceto quando especificado pelo fabricante e considerando suas limitações de uso, não pode ser utilizado:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) conectado a outro talabarte, elemento de ligação ou extensor; ou</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "conectado a outro talabarte, elemento de ligação ou extensor; ou"
+            }
+          ]
         },
         {
           "type": "list",
@@ -769,12 +930,19 @@
       "title": "35.7. Emergência e Salvamento",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>35.7.1</mark>** <mark>A organização deve estabelecer, implementar e manter procedimentos de respostas aos cenários de emergências de trabalho em altura, considerando, além do disposto na NR-01:</mark>"
+          "type": "item",
+          "number": "35.7.1",
+          "depth": 2,
+          "text": "A organização deve estabelecer, implementar e manter procedimentos de respostas aos cenários de emergências de trabalho em altura, considerando, além do disposto na NR-01:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) os perigos associados à operação de resgate;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os perigos associados à operação de resgate;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -799,25 +967,33 @@
           "items": [
             {
               "label": "d",
-              "text": "as técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e sistema de resgate <mark>disponível, de forma a reduzir o tempo de suspensão inerte do trabalhador e sua exposição aos perigos existentes.</mark>"
+              "text": "as técnicas apropriadas, equipamentos pessoais e/ou coletivos específicos e sistema de resgate disponível, de forma a reduzir o tempo de suspensão inerte do trabalhador e sua exposição aos perigos existentes."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.7.1.1</mark>** <mark>A organização deve realizar AR dos cenários de emergência de trabalho em altura identificados.</mark>"
+          "type": "item",
+          "number": "35.7.1.1",
+          "depth": 3,
+          "text": "A organização deve realizar AR dos cenários de emergência de trabalho em altura identificados."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.7.2</mark>** <mark>A organização deve assegurar que a equipe possua os recursos necessários para as respostas às emergências.</mark>"
+          "type": "item",
+          "number": "35.7.2",
+          "depth": 2,
+          "text": "A organização deve assegurar que a equipe possua os recursos necessários para as respostas às emergências."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.7.3</mark>** <mark>As pessoas responsáveis pela execução das medidas de salvamento devem estar capacitadas a executar o resgate, prestar primeiros socorros e possuir aptidão física e mental compatível com a atividade a desempenhar.</mark>"
+          "type": "item",
+          "number": "35.7.3",
+          "depth": 2,
+          "text": "As pessoas responsáveis pela execução das medidas de salvamento devem estar capacitadas a executar o resgate, prestar primeiros socorros e possuir aptidão física e mental compatível com a atividade a desempenhar."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>35.7.3.1</mark>** <mark>Quando realizado por equipe interna, a organização deve estabelecer o conteúdo e carga horária da capacitação em função dos cenários de emergência.</mark>"
+          "type": "item",
+          "number": "35.7.3.1",
+          "depth": 3,
+          "text": "Quando realizado por equipe interna, a organização deve estabelecer o conteúdo e carga horária da capacitação em função dos cenários de emergência."
         }
       ]
     },
@@ -828,27 +1004,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Absorvedor de energia: Elemento com função de limitar a força de impacto transmitida ao <mark>trabalhador pela dissipação da energia cinética.</mark>"
+          "text": "Absorvedor de energia: Elemento com função de limitar a força de impacto transmitida ao trabalhador pela dissipação da energia cinética."
         },
         {
           "type": "paragraph",
-          "text": "Análise de Risco: Avaliação dos riscos potenciais, suas causas, consequências e medidas de controle. Ancoragem estrutural: Elemento fixado de forma permanente na estrutura, no qual um dispositivo <mark>de ancoragem ou um EPI pode ser conectado.</mark>"
+          "text": "Análise de Risco: Avaliação dos riscos potenciais, suas causas, consequências e medidas de controle. Ancoragem estrutural: Elemento fixado de forma permanente na estrutura, no qual um dispositivo de ancoragem ou um EPI pode ser conectado."
         },
         {
           "type": "paragraph",
-          "text": "Atividades rotineiras: Atividades habituais, independente da frequência, que fazem parte do <mark>processo de trabalho da empresa.</mark>"
+          "text": "Atividades rotineiras: Atividades habituais, independente da frequência, que fazem parte do processo de trabalho da empresa."
         },
         {
           "type": "paragraph",
-          "text": "Avaliação de conformidade: Demonstração de que os requisitos especificados em norma técnica <mark>relativos a um produto, processo, sistema, pessoa são atendidos.</mark>"
+          "text": "Avaliação de conformidade: Demonstração de que os requisitos especificados em norma técnica relativos a um produto, processo, sistema, pessoa são atendidos."
         },
         {
           "type": "paragraph",
-          "text": "Avaliação Prévia: É uma avaliação, não necessariamente na forma escrita, realizada no local de <mark>trabalho para a identificação e antecipação dos eventos indesejáveis e acidentes, não passíveis de previsão nas análises de risco realizadas ou não considerados nos procedimentos, em função de situações específicas que fogem à normalidade ou previsibilidade de ocorrência.</mark>"
+          "text": "Avaliação Prévia: É uma avaliação, não necessariamente na forma escrita, realizada no local de trabalho para a identificação e antecipação dos eventos indesejáveis e acidentes, não passíveis de previsão nas análises de risco realizadas ou não considerados nos procedimentos, em função de situações específicas que fogem à normalidade ou previsibilidade de ocorrência."
         },
         {
           "type": "paragraph",
-          "text": "Certificação: Atestação por organismo de avaliação de conformidade relativa a produtos, processos, <mark>sistemas ou pessoas de que o atendimento aos requisitos especificados em norma técnica foi demonstrado.</mark>"
+          "text": "Certificação: Atestação por organismo de avaliação de conformidade relativa a produtos, processos, sistemas ou pessoas de que o atendimento aos requisitos especificados em norma técnica foi demonstrado."
         },
         {
           "type": "paragraph",
@@ -856,19 +1032,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Cinturão de segurança tipo paraquedista: Equipamento de Proteção Individual utilizado para <mark>trabalhos em altura onde haja risco de queda, constituído por um dispositivo preso ao corpo destinado a deter e distribuir as forças de queda pelo menos nas partes superior das coxas, pélvis, peito e tronco.</mark>"
+          "text": "Cinturão de segurança tipo paraquedista: Equipamento de Proteção Individual utilizado para trabalhos em altura onde haja risco de queda, constituído por um dispositivo preso ao corpo destinado a deter e distribuir as forças de queda pelo menos nas partes superior das coxas, pélvis, peito e tronco."
         },
         {
           "type": "paragraph",
-          "text": "Condições impeditivas: Situações que impedem a realização ou continuidade do serviço que possam <mark>colocar em risco a saúde ou a integridade física do trabalhador.</mark>"
+          "text": "Condições impeditivas: Situações que impedem a realização ou continuidade do serviço que possam colocar em risco a saúde ou a integridade física do trabalhador."
         },
         {
           "type": "paragraph",
-          "text": "Dispositivo de ancoragem: Dispositivo removível da estrutura, projetado para utilização como parte <mark>de um sistema pessoal de proteção contra queda, cujos elementos incorporam um ou mais pontos de ancoragem fixos ou móveis.</mark>"
+          "text": "Dispositivo de ancoragem: Dispositivo removível da estrutura, projetado para utilização como parte de um sistema pessoal de proteção contra queda, cujos elementos incorporam um ou mais pontos de ancoragem fixos ou móveis."
         },
         {
           "type": "paragraph",
-          "text": "Distância de frenagem: Distância percorrida durante a atuação do sistema de absorção de energia, <mark>normalmente compreendida entre o início da frenagem e o término da queda.</mark>"
+          "text": "Distância de frenagem: Distância percorrida durante a atuação do sistema de absorção de energia, normalmente compreendida entre o início da frenagem e o término da queda."
         },
         {
           "type": "paragraph",
@@ -876,11 +1052,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Elemento de engate: Elemento de um cinturão de segurança para conexão de um elemento de <mark>ligação.</mark>"
+          "text": "Elemento de engate: Elemento de um cinturão de segurança para conexão de um elemento de ligação."
         },
         {
           "type": "paragraph",
-          "text": "Elemento de engate para retenção de quedas: Elemento de engate projetado para suportar força <mark>de impacto de retenção de quedas, localizado na região dorsal ou peitoral.</mark>"
+          "text": "Elemento de engate para retenção de quedas: Elemento de engate projetado para suportar força de impacto de retenção de quedas, localizado na região dorsal ou peitoral."
         },
         {
           "type": "paragraph",
@@ -888,135 +1064,135 @@
         },
         {
           "type": "paragraph",
-          "text": "Elemento de ligação: Elemento com a função de conectar o cinturão de segurança ao sistema de <mark>ancoragem, podendo incorporar um absorvedor de energia. Também chamado de componente de união.</mark>"
+          "text": "Elemento de ligação: Elemento com a função de conectar o cinturão de segurança ao sistema de ancoragem, podendo incorporar um absorvedor de energia. Também chamado de componente de união."
         },
         {
           "type": "paragraph",
-          "text": "Equipamentos auxiliares: Equipamentos utilizados nos trabalhos de acesso por corda que <mark>completam o cinturão tipo paraquedista, talabarte, trava-quedas e corda, tais como: conectores, bloqueadores, anéis de cintas têxteis, polias, descensores, ascensores, dentre outros.</mark>"
+          "text": "Equipamentos auxiliares: Equipamentos utilizados nos trabalhos de acesso por corda que completam o cinturão tipo paraquedista, talabarte, trava-quedas e corda, tais como: conectores, bloqueadores, anéis de cintas têxteis, polias, descensores, ascensores, dentre outros."
         },
         {
           "type": "paragraph",
-          "text": "Escada de uso coletivo: São aquelas de uso coletivo utilizadas como meios de acesso e circulação <mark>nos locais de trabalho dos prédios e das estruturas industriais e flutuantes, bem como as utilizadas para situações de emergência.</mark>"
+          "text": "Escada de uso coletivo: São aquelas de uso coletivo utilizadas como meios de acesso e circulação nos locais de trabalho dos prédios e das estruturas industriais e flutuantes, bem como as utilizadas para situações de emergência."
         },
         {
           "type": "paragraph",
-          "text": "Estrutura: Estrutura artificial ou natural utilizada para integrar o sistema de ancoragem, com <mark>capacidade de resistir aos esforços desse sistema.</mark> Extensor: Componente ou elemento de conexão de um trava-quedas."
+          "text": "Estrutura: Estrutura artificial ou natural utilizada para integrar o sistema de ancoragem, com capacidade de resistir aos esforços desse sistema. Extensor: Componente ou elemento de conexão de um trava-quedas."
         },
         {
           "type": "paragraph",
-          "text": "Fator de queda: Razão entre a distância que o trabalhador percorreria na queda e o comprimento <mark>do equipamento que irá detê-lo.</mark>"
+          "text": "Fator de queda: Razão entre a distância que o trabalhador percorreria na queda e o comprimento do equipamento que irá detê-lo."
         },
         {
           "type": "paragraph",
-          "text": "Força de impacto: Força dinâmica gerada pela frenagem de um trabalhador durante a retenção de <mark>uma queda.</mark>"
+          "text": "Força de impacto: Força dinâmica gerada pela frenagem de um trabalhador durante a retenção de uma queda."
         },
         {
           "type": "paragraph",
-          "text": "Força máxima aplicável: Maior força que pode ser aplicada em um elemento de um sistema de <mark>ancoragem.</mark>"
+          "text": "Força máxima aplicável: Maior força que pode ser aplicada em um elemento de um sistema de ancoragem."
         },
         {
           "type": "paragraph",
-          "text": "Inspeção Inicial: Realizada entre o recebimento e a primeira utilização do componente do SPIQ, com <mark>o objetivo de assegurar que este seja apropriado para a aplicação pretendida, que funciona corretamente, que atende aos requisitos normativos e que esteja em boas condições.</mark>"
+          "text": "Inspeção Inicial: Realizada entre o recebimento e a primeira utilização do componente do SPIQ, com o objetivo de assegurar que este seja apropriado para a aplicação pretendida, que funciona corretamente, que atende aos requisitos normativos e que esteja em boas condições."
         },
         {
           "type": "paragraph",
-          "text": "Inspeção Periódica: Realizada periodicamente e caracterizada por um controle do equipamento, <mark>componente ou sistema a fim de detectar seus defeitos, danos ou desgastes, respeitando as instruções do projetista ou fabricante, com periodicidade não superior a 12 meses.</mark>"
+          "text": "Inspeção Periódica: Realizada periodicamente e caracterizada por um controle do equipamento, componente ou sistema a fim de detectar seus defeitos, danos ou desgastes, respeitando as instruções do projetista ou fabricante, com periodicidade não superior a 12 meses."
         },
         {
           "type": "paragraph",
-          "text": "Inspeção Rotineira: Realizada sempre antes do início dos trabalhos, sendo visual e táctil, executada <mark>pelo trabalhador antes de utilizar os equipamentos que compõem o SPIQ.</mark>"
+          "text": "Inspeção Rotineira: Realizada sempre antes do início dos trabalhos, sendo visual e táctil, executada pelo trabalhador antes de utilizar os equipamentos que compõem o SPIQ."
         },
         {
           "type": "paragraph",
-          "text": "Influências Externas: Variáveis que devem ser consideradas na definição e seleção das medidas de <mark>proteção, para segurança das pessoas, cujo controle não é possível implementar de forma antecipada.</mark>"
+          "text": "Influências Externas: Variáveis que devem ser consideradas na definição e seleção das medidas de proteção, para segurança das pessoas, cujo controle não é possível implementar de forma antecipada."
         },
         {
           "type": "paragraph",
-          "text": "Operação Assistida: Atividade realizada sob supervisão permanente de profissional com <mark>conhecimentos para avaliar os riscos nas atividades e implantar medidas para controlar, minimizar ou neutralizar tais riscos.</mark>"
+          "text": "Operação Assistida: Atividade realizada sob supervisão permanente de profissional com conhecimentos para avaliar os riscos nas atividades e implantar medidas para controlar, minimizar ou neutralizar tais riscos."
         },
         {
           "type": "paragraph",
-          "text": "Permissão de Trabalho - PT: Documento escrito contendo conjunto de medidas de controle, visando <mark>ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate.</mark>"
+          "text": "Permissão de Trabalho - PT: Documento escrito contendo conjunto de medidas de controle, visando ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate."
         },
         {
           "type": "paragraph",
-          "text": "Ponto de ancoragem: Parte integrante de um sistema de ancoragem onde o equipamento de <mark>proteção individual é conectado.</mark>"
+          "text": "Ponto de ancoragem: Parte integrante de um sistema de ancoragem onde o equipamento de proteção individual é conectado."
         },
         {
           "type": "paragraph",
-          "text": "Proficiência: Competência, aptidão, capacitação e habilidade aliadas à experiência profissional, <mark>comprovadas por meio de diplomas, registro na carteira de trabalho, contratos específicos na área em questão ou outros documentos.</mark>"
+          "text": "Proficiência: Competência, aptidão, capacitação e habilidade aliadas à experiência profissional, comprovadas por meio de diplomas, registro na carteira de trabalho, contratos específicos na área em questão ou outros documentos."
         },
         {
           "type": "paragraph",
-          "text": "Observação: A comprovada proficiência no assunto não significa formação em curso específico, mas <mark>habilidades, experiência e conhecimentos capazes de ministrar os ensinamentos referentes aos tópicos abordados nos treinamentos. O treinamento, no entanto, deve estar sob a responsabilidade de profissional qualificado em segurança no trabalho.</mark>"
+          "text": "Observação: A comprovada proficiência no assunto não significa formação em curso específico, mas habilidades, experiência e conhecimentos capazes de ministrar os ensinamentos referentes aos tópicos abordados nos treinamentos. O treinamento, no entanto, deve estar sob a responsabilidade de profissional qualificado em segurança no trabalho."
         },
         {
           "type": "paragraph",
-          "text": "Profissional legalmente habilitado: Trabalhador previamente qualificado e com registro no <mark>competente conselho de classe.</mark>"
+          "text": "Profissional legalmente habilitado: Trabalhador previamente qualificado e com registro no competente conselho de classe."
         },
         {
           "type": "paragraph",
-          "text": "Projetista: Profissional Legalmente Habilitado, de acordo com as atribuições do respectivo conselho <mark>de classe, responsável pela elaboração de projetos.</mark>"
+          "text": "Projetista: Profissional Legalmente Habilitado, de acordo com as atribuições do respectivo conselho de classe, responsável pela elaboração de projetos."
         },
         {
           "type": "paragraph",
-          "text": "Riscos adicionais: Todos os demais grupos ou fatores de risco, além dos existentes no trabalho em <mark>altura, específicos de cada ambiente ou atividade que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho.</mark>"
+          "text": "Riscos adicionais: Todos os demais grupos ou fatores de risco, além dos existentes no trabalho em altura, específicos de cada ambiente ou atividade que, direta ou indiretamente, possam afetar a segurança e a saúde no trabalho."
         },
         {
           "type": "paragraph",
-          "text": "Sistema de acesso por cordas: Sistema de trabalho em que são utilizadas cordas como meio de <mark>acesso e como proteção contra quedas.</mark>"
+          "text": "Sistema de acesso por cordas: Sistema de trabalho em que são utilizadas cordas como meio de acesso e como proteção contra quedas."
         },
         {
           "type": "paragraph",
-          "text": "Sistema de posicionamento no trabalho: Sistema de trabalho configurado para permitir que o <mark>trabalhador permaneça posicionado no local de trabalho, total ou parcialmente suspenso, sem o uso das mãos.</mark>"
+          "text": "Sistema de posicionamento no trabalho: Sistema de trabalho configurado para permitir que o trabalhador permaneça posicionado no local de trabalho, total ou parcialmente suspenso, sem o uso das mãos."
         },
         {
           "type": "paragraph",
-          "text": "Sistema de Proteção Contra Quedas - SPQ: Sistema destinado a eliminar o risco de queda dos <mark>trabalhadores ou a minimizar as consequências da queda.</mark>"
+          "text": "Sistema de Proteção Contra Quedas - SPQ: Sistema destinado a eliminar o risco de queda dos trabalhadores ou a minimizar as consequências da queda."
         },
         {
           "type": "paragraph",
-          "text": "Sistema de restrição de movimentação: SPQ que limita a movimentação de modo que o trabalhador <mark>não fique exposto a risco de queda.</mark>"
+          "text": "Sistema de restrição de movimentação: SPQ que limita a movimentação de modo que o trabalhador não fique exposto a risco de queda."
         },
         {
           "type": "paragraph",
-          "text": "Sistema de retenção de queda: SPQ que não evita a queda, mas a interrompe depois de iniciada, <mark>reduzindo as suas consequências.</mark>"
+          "text": "Sistema de retenção de queda: SPQ que não evita a queda, mas a interrompe depois de iniciada, reduzindo as suas consequências."
         },
         {
           "type": "paragraph",
-          "text": "Supervisão para trabalho em altura: É um ato que implica em promover orientações - presencial, <mark>semipresencial ou de forma remota - para a realização segura de trabalho em altura.</mark>"
+          "text": "Supervisão para trabalho em altura: É um ato que implica em promover orientações - presencial, semipresencial ou de forma remota - para a realização segura de trabalho em altura."
         },
         {
           "type": "paragraph",
-          "text": "Sistemas de ancoragem temporários: São aqueles utilizados por um período de tempo pré- <mark>determinado sendo removidos após concluídos os serviços, como os sistemas montados para a execução de uma determinada tarefa ou trabalhos em uma frente de trabalho</mark>"
+          "text": "Sistemas de ancoragem temporários: São aqueles utilizados por um período de tempo pré- determinado sendo removidos após concluídos os serviços, como os sistemas montados para a execução de uma determinada tarefa ou trabalhos em uma frente de trabalho"
         },
         {
           "type": "paragraph",
-          "text": "Suspensão inerte: Situação em que um trabalhador permanece suspenso pelo sistema de <mark>segurança, até o momento do socorro.</mark>"
+          "text": "Suspensão inerte: Situação em que um trabalhador permanece suspenso pelo sistema de segurança, até o momento do socorro."
         },
         {
           "type": "paragraph",
-          "text": "Talabarte: Dispositivo de conexão de um sistema de segurança, regulável ou não, para sustentar, <mark>posicionar e/ou limitar a movimentação do trabalhador.</mark>"
+          "text": "Talabarte: Dispositivo de conexão de um sistema de segurança, regulável ou não, para sustentar, posicionar e/ou limitar a movimentação do trabalhador."
         },
         {
           "type": "paragraph",
-          "text": "Talabarte integrado com absorvedor de energia: Talabarte que contém um absorvedor de energia <mark>que não pode ser removido do talabarte sem danificá-lo.</mark> _<mark>(Inserida pela Portaria MTE nº 1.680, de 02 de outubro de 2025)</mark>_"
+          "text": "Talabarte integrado com absorvedor de energia: Talabarte que contém um absorvedor de energia que não pode ser removido do talabarte sem danificá-lo. _(Inserida pela Portaria MTE nº 1.680, de 02 de outubro de 2025)_"
         },
         {
           "type": "paragraph",
-          "text": "Tempo estimado para resgate: Tempo estimado entre a ocorrência indesejável em trabalho em <mark>altura, como a queda ou suspensão do trabalhador, e a remoção do trabalhador ou sua estabilização numa condição que não possa causar agravos a sua saúde, como os decorrentes da suspensão inerte.</mark>"
+          "text": "Tempo estimado para resgate: Tempo estimado entre a ocorrência indesejável em trabalho em altura, como a queda ou suspensão do trabalhador, e a remoção do trabalhador ou sua estabilização numa condição que não possa causar agravos a sua saúde, como os decorrentes da suspensão inerte."
         },
         {
           "type": "paragraph",
-          "text": "Trabalhador qualificado: Trabalhador que comprove conclusão de curso específico para sua <mark>atividade em instituição reconhecida pelo sistema oficial de ensino.</mark>"
+          "text": "Trabalhador qualificado: Trabalhador que comprove conclusão de curso específico para sua atividade em instituição reconhecida pelo sistema oficial de ensino."
         },
         {
           "type": "paragraph",
-          "text": "Trava-queda: Dispositivo de segurança para proteção do usuário contra quedas em operações com <mark>movimentação vertical ou horizontal, quando conectado com cinturão de segurança para proteção contra quedas.</mark>"
+          "text": "Trava-queda: Dispositivo de segurança para proteção do usuário contra quedas em operações com movimentação vertical ou horizontal, quando conectado com cinturão de segurança para proteção contra quedas."
         },
         {
           "type": "paragraph",
-          "text": "Zona livre de queda - ZLQ: O espaço mínimo abaixo do ponto de ancoragem no caso do talabarte de <mark>segurança ou espaço mínimo abaixo dos pés do usuário no caso dos dispositivos trava-quedas, com o objetivo de evitar choques com a estrutura, obstáculo mais próximo ou com o solo depois de uma queda.</mark> _<mark>(Alterada pela Portaria MTE nº 1.680, de 02 de outubro de 2025)</mark>_"
+          "text": "Zona livre de queda - ZLQ: O espaço mínimo abaixo do ponto de ancoragem no caso do talabarte de segurança ou espaço mínimo abaixo dos pés do usuário no caso dos dispositivos trava-quedas, com o objetivo de evitar choques com a estrutura, obstáculo mais próximo ou com o solo depois de uma queda. _(Alterada pela Portaria MTE nº 1.680, de 02 de outubro de 2025)_"
         }
       ]
     },
@@ -1030,29 +1206,39 @@
       "id": "1-objetivo",
       "number": "",
       "title": "1. Objetivo",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**<mark>1.1</mark>** <mark>Estabelecer os requisitos e as medidas de prevenção para o trabalho em altura utilizando a técnica de acesso por cordas.</mark>"
-        }
-      ]
+      "blocks": []
+    },
+    {
+      "id": "11-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-o-trabalho-em-altura-utilizando-a-técnica-de-acesso-por-cordas",
+      "number": "1.1",
+      "title": "Estabelecer os requisitos e as medidas de prevenção para o trabalho em altura utilizando a técnica de acesso por cordas",
+      "blocks": []
     },
     {
       "id": "2-campo-de-aplicação-21-para-fins-desta-norma-regulamentadora-considera-se-acesso-por-corda-a-técnica-de-progressão-utilizando-cordas-com-outros-equipamentos-para-ascender-descender-ou-se-deslocar-horizontalmente-assim-como-para-posicionamento-no-local-de-trabalho-normalmente-incorporando-dois-sistemas-de-segurança-fixados-de-forma-independente-um-deles-como-forma-de-acesso-e-o-outro-como-corda-de-segurança-utilizado-com-cinturão-de-segurança-tipo-paraquedista",
       "number": "",
       "title": "2. Campo de Aplicação 2.1 Para fins desta Norma Regulamentadora, considera-se acesso por corda a técnica de progressão utilizando cordas, com outros equipamentos para ascender, descender ou se deslocar horizontalmente, assim como para posicionamento no local de trabalho, normalmente incorporando dois sistemas de segurança fixados de forma independente, um deles como forma de acesso e o outro como corda de segurança utilizado com cinturão de segurança tipo paraquedista.",
+      "blocks": []
+    },
+    {
+      "id": "22-em-situações-de-trabalho-em-planos-inclinados-a-aplicação-deste-anexo-deve-ser-estabelecida-por-análise-de-risco",
+      "number": "2.2",
+      "title": "Em situações de trabalho em planos inclinados, a aplicação deste anexo deve ser estabelecida por Análise de Risco",
+      "blocks": []
+    },
+    {
+      "id": "23-as-disposições-deste-anexo-não-se-aplicam-nas-seguintes-situações",
+      "number": "2.3",
+      "title": "As disposições deste anexo não se aplicam nas seguintes situações:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>2.2</mark>** <mark>Em situações de trabalho em planos inclinados, a aplicação deste anexo deve ser estabelecida por Análise de Risco.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>2.3</mark>** <mark>As disposições deste anexo não se aplicam nas seguintes situações:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) atividades recreacionais, esportivas e de turismo de aventura;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades recreacionais, esportivas e de turismo de aventura;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1068,7 +1254,7 @@
           "items": [
             {
               "label": "c",
-              "text": "serviços de atendimento de emergência destinados a salvamento e resgate de pessoas que não <mark>pertençam à própria equipe de acesso por corda; e</mark>"
+              "text": "serviços de atendimento de emergência destinados a salvamento e resgate de pessoas que não pertençam à própria equipe de acesso por corda; e"
             }
           ]
         },
@@ -1090,18 +1276,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "<mark>3.1 As atividades com acesso por cordas devem ser executadas:</mark>"
+          "text": "3.1 As atividades com acesso por cordas devem ser executadas:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) de acordo com procedimentos em conformidade com as normas técnicas nacionais vigentes;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "de acordo com procedimentos em conformidade com as normas técnicas nacionais vigentes;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "por trabalhadores certificados em conformidade com normas técnicas nacionais vigentes de <mark>certificação de pessoas; e</mark>"
+              "text": "por trabalhadores certificados em conformidade com normas técnicas nacionais vigentes de certificação de pessoas; e"
             }
           ]
         },
@@ -1115,27 +1306,39 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.1.1</mark>** <mark>Os trabalhadores certificados podem ser dispensados dos treinamentos inicial e periódico previstos nos subitens 35.4.2 e 35.4.3 da NR-35.</mark>"
+          "type": "item",
+          "number": "3.1.1",
+          "depth": 2,
+          "text": "Os trabalhadores certificados podem ser dispensados dos treinamentos inicial e periódico previstos nos subitens 35.4.2 e 35.4.3 da NR-35."
+        }
+      ]
+    },
+    {
+      "id": "32-durante-a-execução-da-atividade-o-trabalhador-deve-estar-conectado-a-pelo-menos-duas-cordas-em-pontos-de-ancoragem-independentes",
+      "number": "3.2",
+      "title": "Durante a execução da atividade o trabalhador deve estar conectado a pelo menos duas cordas em pontos de ancoragem independentes",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "3.2.1",
+          "depth": 2,
+          "text": "A execução da atividade com o trabalhador conectado a apenas uma corda pode ser permitida se atendidos cumulativamente os seguintes requisitos:"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.2</mark>** <mark>Durante a execução da atividade o trabalhador deve estar conectado a pelo menos duas cordas em pontos de ancoragem independentes.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>3.2.1</mark>** <mark>A execução da atividade com o trabalhador conectado a apenas uma corda pode ser permitida se atendidos cumulativamente os seguintes requisitos:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) for evidenciado na análise de risco que o uso de uma segunda corda gera um risco superior; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "for evidenciado na análise de risco que o uso de uma segunda corda gera um risco superior; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "sejam implementadas medidas suplementares, previstas na análise de risco, que garantam um <mark>desempenho de segurança no mínimo equivalente ao uso de duas cordas.</mark>"
+              "text": "sejam implementadas medidas suplementares, previstas na análise de risco, que garantam um desempenho de segurança no mínimo equivalente ao uso de duas cordas."
             }
           ]
         }
@@ -1145,34 +1348,53 @@
       "id": "4-equipamentos-e-cordas",
       "number": "",
       "title": "4. Equipamentos e cordas",
+      "blocks": []
+    },
+    {
+      "id": "41-as-cordas-utilizadas-devem-atender-aos-requisitos-das-normas-técnicas-nacionais-ou-ser-certificadas-de-acordo-com-as-normas-técnicas-internacionais",
+      "number": "4.1",
+      "title": "As cordas utilizadas devem atender aos requisitos das normas técnicas nacionais ou ser certificadas de acordo com as normas técnicas internacionais",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>4.1</mark>** <mark>As cordas utilizadas devem atender aos requisitos das normas técnicas nacionais ou ser certificadas de acordo com as normas técnicas internacionais.</mark>"
+          "type": "item",
+          "number": "4.1.1",
+          "depth": 2,
+          "text": "Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN)."
+        }
+      ]
+    },
+    {
+      "id": "42-os-equipamentos-auxiliares-utilizados-devem-ser-certificados-de-acordo-com-normas-técnicas-nacionais-ou-na-ausência-dessas-de-acordo-com-normas-técnicas-internacionais",
+      "number": "4.2",
+      "title": "Os equipamentos auxiliares utilizados devem ser certificados de acordo com normas técnicas nacionais ou, na ausência dessas, de acordo com normas técnicas internacionais",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.2.1",
+          "depth": 2,
+          "text": "Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN)."
+        }
+      ]
+    },
+    {
+      "id": "43-os-equipamentos-e-cordas-devem-ser-submetidos-a-inspeções-de-acordo-com-as-recomendações-do-fabricante-e-os-critérios-estabelecidos-na-análise-de-risco-ou-no-procedimento-operacional",
+      "number": "4.3",
+      "title": "Os equipamentos e cordas devem ser submetidos a inspeções, de acordo com as recomendações do fabricante e os critérios estabelecidos na Análise de Risco ou no Procedimento Operacional",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.3.1",
+          "depth": 2,
+          "text": "Os equipamentos e cordas devem ser inspecionados nas seguintes situações:"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.1.1</mark>** <mark>Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN).</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.2</mark>** <mark>Os equipamentos auxiliares utilizados devem ser certificados de acordo com normas técnicas</mark> <mark>nacionais ou, na ausência dessas, de acordo com normas técnicas internacionais.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.2.1</mark>** <mark>Na inexistência de normas técnicas internacionais, a certificação por normas estrangeiras pode ser aceita desde que atendidos os requisitos previstos na norma europeia (EN).</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.3</mark>** <mark>Os equipamentos e cordas devem ser submetidos a inspeções, de acordo com as recomendações do fabricante e os critérios estabelecidos na Análise de Risco ou no Procedimento Operacional.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.3.1</mark>** <mark>Os equipamentos e cordas devem ser inspecionados nas seguintes situações:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) antes da sua utilização; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "antes da sua utilização; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1184,20 +1406,31 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.3.1.1</mark>** <mark>Em função do tipo de utilização ou exposição a agentes agressivos, o intervalo entre as inspeções deve ser reduzido.</mark>"
+          "type": "item",
+          "number": "4.3.1.1",
+          "depth": 3,
+          "text": "Em função do tipo de utilização ou exposição a agentes agressivos, o intervalo entre as inspeções deve ser reduzido."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.3.2</mark>** <mark>Todo equipamento ou corda que apresente defeito, desgaste, degradação ou deformação deve ser recusado, inutilizado e descartado.</mark>"
+          "type": "item",
+          "number": "4.3.2",
+          "depth": 2,
+          "text": "Todo equipamento ou corda que apresente defeito, desgaste, degradação ou deformação deve ser recusado, inutilizado e descartado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.3.3</mark>** <mark>As inspeções devem ser registradas:</mark>"
+          "type": "item",
+          "number": "4.3.3",
+          "depth": 2,
+          "text": "As inspeções devem ser registradas:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) na aquisição;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "na aquisição;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1216,59 +1449,78 @@
               "text": "quando os equipamentos ou cordas forem recusados."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.4</mark>** <mark>A Análise de Risco deve considerar as interferências externas que possam comprometer a integridade dos equipamentos e cordas.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.4.1</mark>** <mark>Quando houver exposições a agentes químicos que possam comprometer a integridade das cordas ou equipamentos, devem ser adotadas medidas adicionais em conformidade com as recomendações do fabricante considerando as tabelas de incompatibilidade dos produtos identificados com as cordas e equipamentos.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.4.2</mark>** <mark>Nas atividades nas proximidades de sistemas energizados ou com possibilidade de energização, devem ser adotadas medidas adicionais.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.5</mark>** <mark>Os equipamentos utilizados para acesso por corda devem ser armazenados e mantidos conforme recomendação do fabricante ou fornecedor.</mark>"
         }
       ]
+    },
+    {
+      "id": "44-a-análise-de-risco-deve-considerar-as-interferências-externas-que-possam-comprometer-a-integridade-dos-equipamentos-e-cordas",
+      "number": "4.4",
+      "title": "A Análise de Risco deve considerar as interferências externas que possam comprometer a integridade dos equipamentos e cordas",
+      "blocks": [
+        {
+          "type": "item",
+          "number": "4.4.1",
+          "depth": 2,
+          "text": "Quando houver exposições a agentes químicos que possam comprometer a integridade das cordas ou equipamentos, devem ser adotadas medidas adicionais em conformidade com as recomendações do fabricante considerando as tabelas de incompatibilidade dos produtos identificados com as cordas e equipamentos."
+        },
+        {
+          "type": "item",
+          "number": "4.4.2",
+          "depth": 2,
+          "text": "Nas atividades nas proximidades de sistemas energizados ou com possibilidade de energização, devem ser adotadas medidas adicionais."
+        }
+      ]
+    },
+    {
+      "id": "45-os-equipamentos-utilizados-para-acesso-por-corda-devem-ser-armazenados-e-mantidos-conforme-recomendação-do-fabricante-ou-fornecedor",
+      "number": "4.5",
+      "title": "Os equipamentos utilizados para acesso por corda devem ser armazenados e mantidos conforme recomendação do fabricante ou fornecedor",
+      "blocks": []
     },
     {
       "id": "5-resgate",
       "number": "",
       "title": "5. Resgate",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**<mark>5.1</mark>** <mark>A equipe de trabalho deve ser capacitada para autorresgate e resgate da própria equipe.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>5.2</mark>** <mark>Para cada frente de trabalho deve haver um plano de resgate dos trabalhadores.</mark>"
-        }
-      ]
+      "blocks": []
+    },
+    {
+      "id": "51-a-equipe-de-trabalho-deve-ser-capacitada-para-autorresgate-e-resgate-da-própria-equipe",
+      "number": "5.1",
+      "title": "A equipe de trabalho deve ser capacitada para autorresgate e resgate da própria equipe",
+      "blocks": []
+    },
+    {
+      "id": "52-para-cada-frente-de-trabalho-deve-haver-um-plano-de-resgate-dos-trabalhadores",
+      "number": "5.2",
+      "title": "Para cada frente de trabalho deve haver um plano de resgate dos trabalhadores",
+      "blocks": []
     },
     {
       "id": "6-condições-impeditivas-61-além-das-condições-impeditivas-identificadas-na-análise-de-risco-como-estabelece-a-alínea-j-do-subitem-35551-da-nr-35-o-trabalho-de-acesso-por-corda-deve-ser-interrompido-imediatamente-em-caso-de-ventos-superiores-a-quarenta-quilômetros-por-hora",
       "number": "",
       "title": "6. Condições impeditivas 6.1 Além das condições impeditivas identificadas na Análise de Risco, como estabelece a alínea \"j\", do subitem 35.5.5.1, da NR-35, o trabalho de acesso por corda deve ser interrompido imediatamente em caso de ventos superiores a quarenta quilômetros por hora.",
+      "blocks": []
+    },
+    {
+      "id": "62-pode-ser-autorizada-a-execução-de-trabalho-em-altura-utilizando-acesso-por-cordas-em-condições-com-ventos-superiores-a-quarenta-quilômetros-por-hora-e-inferiores-a-quarenta-e-seis-quilômetros-por-hora-desde-que-atendidos-os-seguintes-requisitos",
+      "number": "6.2",
+      "title": "Pode ser autorizada a execução de trabalho em altura utilizando acesso por cordas em condições com ventos superiores a quarenta quilômetros por hora e inferiores a quarenta e seis quilômetros por hora, desde que atendidos os seguintes requisitos:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>6.2</mark>** <mark>Pode ser autorizada a execução de trabalho em altura utilizando acesso por cordas em condições com ventos superiores a quarenta quilômetros por hora e inferiores a quarenta e seis quilômetros por hora, desde que atendidos os seguintes requisitos:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) justificar a impossibilidade do adiamento dos serviços mediante documento assinado pelo responsável pela execução dos serviços;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "justificar a impossibilidade do adiamento dos serviços mediante documento assinado pelo responsável pela execução dos serviços;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "elaborar Análise de Risco complementar com avaliação dos riscos, suas causas, consequências <mark>e medidas de controle, efetuada por equipe multidisciplinar coordenada por profissional qualificado em segurança do trabalho, anexada à justificativa, com as medidas de prevenção adicionais aplicáveis, assinada por todos os participantes;</mark>"
+              "text": "elaborar Análise de Risco complementar com avaliação dos riscos, suas causas, consequências e medidas de controle, efetuada por equipe multidisciplinar coordenada por profissional qualificado em segurança do trabalho, anexada à justificativa, com as medidas de prevenção adicionais aplicáveis, assinada por todos os participantes;"
             }
           ]
         },
@@ -1308,29 +1560,39 @@
       "id": "1-objetivo",
       "number": "",
       "title": "1. Objetivo",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**<mark>1.1</mark>** <mark>Estabelecer os requisitos e as medidas de prevenção para o emprego de sistemas de ancoragem, como parte integrante de um sistema de proteção contra quedas, no trabalho em altura.</mark>"
-        }
-      ]
+      "blocks": []
+    },
+    {
+      "id": "11-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-o-emprego-de-sistemas-de-ancoragem-como-parte-integrante-de-um-sistema-de-proteção-contra-quedas-no-trabalho-em-altura",
+      "number": "1.1",
+      "title": "Estabelecer os requisitos e as medidas de prevenção para o emprego de sistemas de ancoragem, como parte integrante de um sistema de proteção contra quedas, no trabalho em altura",
+      "blocks": []
     },
     {
       "id": "2-campo-de-aplicação",
       "number": "",
       "title": "2. Campo de Aplicação",
+      "blocks": []
+    },
+    {
+      "id": "21-este-anexo-se-aplica-ao-sistema-de-ancoragem-definido-como-um-conjunto-de-componentes-integrante-de-um-sistema-de-proteção-individual-contra-quedas---spiq-que-incorpora-um-ou-mais-pontos-de-ancoragem-aos-quais-podem-ser-conectados-equipamentos-de-proteção-individual---epi-contra-quedas-diretamente-ou-por-meio-de-outro-componente-e-projetado-para-suportar-as-forças-aplicáveis",
+      "number": "2.1",
+      "title": "Este Anexo se aplica ao sistema de ancoragem, definido como um conjunto de componentes, integrante de um Sistema de Proteção Individual contra Quedas - SPIQ, que incorpora um ou mais pontos de ancoragem, aos quais podem ser conectados Equipamentos de Proteção Individual - EPI contra quedas, diretamente ou por meio de outro componente, e projetado para suportar as forças aplicáveis",
+      "blocks": []
+    },
+    {
+      "id": "22-os-sistemas-de-ancoragem-tratados-neste-anexo-atendem-às-seguintes-finalidades",
+      "number": "2.2",
+      "title": "Os sistemas de ancoragem tratados neste anexo atendem às seguintes finalidades:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>2.1</mark>** <mark>Este Anexo se aplica ao sistema de ancoragem, definido como um conjunto de componentes, integrante de um Sistema de Proteção Individual contra Quedas - SPIQ, que incorpora um ou mais pontos de ancoragem, aos quais podem ser conectados Equipamentos de Proteção Individual - EPI contra quedas, diretamente ou por meio de outro componente, e projetado para suportar as forças aplicáveis.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>2.2</mark>** <mark>Os sistemas de ancoragem tratados neste anexo atendem às seguintes finalidades:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) retenção de queda;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "retenção de queda;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1360,12 +1622,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "- **<mark>2.3</mark>** <mark>As disposições deste anexo não se aplicam às seguintes situações:</mark>"
+          "type": "item",
+          "number": "2.3",
+          "depth": 1,
+          "text": "As disposições deste anexo não se aplicam às seguintes situações:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) atividades recreacionais, esportivas e de turismo de aventura;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atividades recreacionais, esportivas e de turismo de aventura;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1390,7 +1659,7 @@
           "items": [
             {
               "label": "d",
-              "text": "sistemas de ancoragem para fixação de equipamentos de acesso; - e) sistemas de ancoragem para equipamentos de transporte vertical ou horizontal de pessoas ou <mark>materiais; e</mark>"
+              "text": "sistemas de ancoragem para fixação de equipamentos de acesso; - e) sistemas de ancoragem para equipamentos de transporte vertical ou horizontal de pessoas ou materiais; e"
             }
           ]
         },
@@ -1409,14 +1678,21 @@
       "id": "3-componentes-do-sistema-de-ancoragem",
       "number": "",
       "title": "3. Componentes do sistema de ancoragem",
+      "blocks": []
+    },
+    {
+      "id": "31-o-sistema-de-ancoragem-pode-apresentar-seu-ponto-de-ancoragem",
+      "number": "3.1",
+      "title": "O sistema de ancoragem pode apresentar seu ponto de ancoragem:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>3.1</mark>** <mark>O sistema de ancoragem pode apresentar seu ponto de ancoragem:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) diretamente na estrutura;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "diretamente na estrutura;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1437,33 +1713,50 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.1.1</mark>** <mark>A estrutura integrante de um sistema de ancoragem deve ser capaz de resistir à força máxima aplicável.</mark>"
-        },
+          "type": "item",
+          "number": "3.1.1",
+          "depth": 2,
+          "text": "A estrutura integrante de um sistema de ancoragem deve ser capaz de resistir à força máxima aplicável."
+        }
+      ]
+    },
+    {
+      "id": "32-a-ancoragem-estrutural-e-os-elementos-de-fixação-devem",
+      "number": "3.2",
+      "title": "A ancoragem estrutural e os elementos de fixação devem:",
+      "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>3.2</mark>** <mark>A ancoragem estrutural e os elementos de fixação devem:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) ser projetados e construídos sob responsabilidade de profissional legalmente habilitado; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser projetados e construídos sob responsabilidade de profissional legalmente habilitado; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "atender às normas técnicas nacionais ou, na sua inexistência, às normas internacionais <mark>aplicáveis.</mark>"
+              "text": "atender às normas técnicas nacionais ou, na sua inexistência, às normas internacionais aplicáveis."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.2.1</mark>** <mark>Os pontos de ancoragem da ancoragem estrutural devem possuir marcação realizada pelo fabricante ou responsável técnico contendo:</mark>"
+          "type": "item",
+          "number": "3.2.1",
+          "depth": 2,
+          "text": "Os pontos de ancoragem da ancoragem estrutural devem possuir marcação realizada pelo fabricante ou responsável técnico contendo:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) identificação do fabricante;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "identificação do fabricante;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1479,32 +1772,44 @@
           "items": [
             {
               "label": "c",
-              "text": "número máximo de trabalhadores que podem estar conectados simultaneamente ou força <mark>máxima aplicável.</mark>"
+              "text": "número máximo de trabalhadores que podem estar conectados simultaneamente ou força máxima aplicável."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.2.1.1</mark>** <mark>Os pontos de ancoragem da ancoragem estrutural já instalados e que não possuem a marcação prevista nesse item devem ter sua marcação reconstituída pelo fabricante ou responsável técnico.</mark>"
+          "type": "item",
+          "number": "3.2.1.1",
+          "depth": 3,
+          "text": "Os pontos de ancoragem da ancoragem estrutural já instalados e que não possuem a marcação prevista nesse item devem ter sua marcação reconstituída pelo fabricante ou responsável técnico."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>3.2.1.1.1</mark>** <mark>Na impossibilidade de recuperação das informações, os pontos de ancoragem devem ser submetidos a ensaios, sob responsabilidade de profissional legalmente habilitado, e marcados com a identificação do número máximo de trabalhadores que podem estar conectados simultaneamente ou da força máxima aplicável e identificação que permita a rastreabilidade do ensaio.</mark>"
-        },
+          "type": "item",
+          "number": "3.2.1.1.1",
+          "depth": 4,
+          "text": "Na impossibilidade de recuperação das informações, os pontos de ancoragem devem ser submetidos a ensaios, sob responsabilidade de profissional legalmente habilitado, e marcados com a identificação do número máximo de trabalhadores que podem estar conectados simultaneamente ou da força máxima aplicável e identificação que permita a rastreabilidade do ensaio."
+        }
+      ]
+    },
+    {
+      "id": "33-o-dispositivo-de-ancoragem-deve-atender-a-um-dos-seguintes-requisitos",
+      "number": "3.3",
+      "title": "O dispositivo de ancoragem deve atender a um dos seguintes requisitos:",
+      "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>3.3</mark>** <mark>O dispositivo de ancoragem deve atender a um dos seguintes requisitos:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "<mark>a) ser certificado;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser certificado;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "ser fabricado em conformidade com as normas técnicas nacionais vigentes sob responsabilidade <mark>do profissional legalmente habilitado; ou</mark>"
+              "text": "ser fabricado em conformidade com as normas técnicas nacionais vigentes sob responsabilidade do profissional legalmente habilitado; ou"
             }
           ]
         },
@@ -1513,7 +1818,7 @@
           "items": [
             {
               "label": "c",
-              "text": "ser projetado por profissional legalmente habilitado, tendo como referência as normas técnicas <mark>nacionais vigentes, como parte integrante de um sistema completo de proteção individual contra quedas.</mark>"
+              "text": "ser projetado por profissional legalmente habilitado, tendo como referência as normas técnicas nacionais vigentes, como parte integrante de um sistema completo de proteção individual contra quedas."
             }
           ]
         }
@@ -1525,8 +1830,13 @@
       "title": "4. Requisitos do sistema de ancoragem 4.1 Os sistemas de ancoragem devem:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "- <mark>a) ser instalados por trabalhadores capacitados; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser instalados por trabalhadores capacitados; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1538,39 +1848,55 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.1.1</mark>** <mark>A inspeção inicial deve ser realizada após a instalação, alteração ou mudança de local.</mark>"
+          "type": "item",
+          "number": "4.1.1",
+          "depth": 2,
+          "text": "A inspeção inicial deve ser realizada após a instalação, alteração ou mudança de local."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.1.2</mark>** <mark>A inspeção periódica do sistema de ancoragem deve ser efetuada de acordo com o procedimento operacional previsto no item 6 deste Anexo, considerando o projeto do sistema de ancoragem e o de montagem, respeitando as instruções do fabricante e as normas regulamentadoras e técnicas aplicáveis, com periodicidade não superior a 12 (doze) meses.</mark>"
-        },
+          "type": "item",
+          "number": "4.1.2",
+          "depth": 2,
+          "text": "A inspeção periódica do sistema de ancoragem deve ser efetuada de acordo com o procedimento operacional previsto no item 6 deste Anexo, considerando o projeto do sistema de ancoragem e o de montagem, respeitando as instruções do fabricante e as normas regulamentadoras e técnicas aplicáveis, com periodicidade não superior a 12 (doze) meses."
+        }
+      ]
+    },
+    {
+      "id": "42-o-sistema-de-ancoragem-quando-temporário-deve",
+      "number": "4.2",
+      "title": "O sistema de ancoragem, quando temporário, deve:",
+      "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>4.2</mark>** <mark>O sistema de ancoragem, quando temporário, deve:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) atender aos requisitos de compatibilidade a cada local de instalação conforme procedimento operacional; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "atender aos requisitos de compatibilidade a cada local de instalação conforme procedimento operacional; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "ter os pontos de fixação definidos por profissional legalmente habilitado ou serem selecionados <mark>por trabalhador capacitado de acordo com procedimento de seleção elaborado por profissional legalmente habilitado.</mark>"
+              "text": "ter os pontos de fixação definidos por profissional legalmente habilitado ou serem selecionados por trabalhador capacitado de acordo com procedimento de seleção elaborado por profissional legalmente habilitado."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>4.2.1</mark>** <mark>Cabe à organização autorizar formalmente o trabalhador capacitado para seleção de pontos de fixação do sistema de ancoragem temporário.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>4.3</mark>** <mark>O sistema de ancoragem permanente deve possuir projeto e a instalação deve estar sob responsabilidade de profissional legalmente habilitado.</mark>"
+          "type": "item",
+          "number": "4.2.1",
+          "depth": 2,
+          "text": "Cabe à organização autorizar formalmente o trabalhador capacitado para seleção de pontos de fixação do sistema de ancoragem temporário."
         }
       ]
+    },
+    {
+      "id": "43-o-sistema-de-ancoragem-permanente-deve-possuir-projeto-e-a-instalação-deve-estar-sob-responsabilidade-de-profissional-legalmente-habilitado",
+      "number": "4.3",
+      "title": "O sistema de ancoragem permanente deve possuir projeto e a instalação deve estar sob responsabilidade de profissional legalmente habilitado",
+      "blocks": []
     },
     {
       "id": "5-projetos-e-especificações",
@@ -1578,12 +1904,19 @@
       "title": "5. Projetos e especificações",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "- **<mark>5.1</mark>** <mark>O projeto, quando aplicável, e as especificações técnicas do sistema de ancoragem devem:</mark>"
+          "type": "item",
+          "number": "5.1",
+          "depth": 1,
+          "text": "O projeto, quando aplicável, e as especificações técnicas do sistema de ancoragem devem:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) estar sob responsabilidade de um profissional legalmente habilitado;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estar sob responsabilidade de um profissional legalmente habilitado;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1608,17 +1941,24 @@
           "items": [
             {
               "label": "d",
-              "text": "conter detalhamento e/ou especificação dos dispositivos de ancoragem, ancoragens estruturais <mark>e elementos de fixação a serem utilizados.</mark>"
+              "text": "conter detalhamento e/ou especificação dos dispositivos de ancoragem, ancoragens estruturais e elementos de fixação a serem utilizados."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>5.1.1</mark>** <mark>O projeto, quando aplicável, e as especificações técnicas devem conter dimensionamento que determine os seguintes parâmetros:</mark>"
+          "type": "item",
+          "number": "5.1.1",
+          "depth": 2,
+          "text": "O projeto, quando aplicável, e as especificações técnicas devem conter dimensionamento que determine os seguintes parâmetros:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) a força de impacto de retenção da queda do(s) trabalhador(es), levando em conta o efeito de impactos simultâneos ou sequenciais;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a força de impacto de retenção da queda do(s) trabalhador(es), levando em conta o efeito de impactos simultâneos ou sequenciais;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1644,21 +1984,28 @@
       "id": "6-procedimentos-operacionais",
       "number": "",
       "title": "6. Procedimentos operacionais",
+      "blocks": []
+    },
+    {
+      "id": "61-o-sistema-de-ancoragem-deve-ter-procedimento-operacional-de-montagem-e-utilização-o-qual-deve",
+      "number": "6.1",
+      "title": "O sistema de ancoragem deve ter procedimento operacional de montagem e utilização, o qual deve:",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>6.1</mark>** <mark>O sistema de ancoragem deve ter procedimento operacional de montagem e utilização, o qual</mark> <mark>deve:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) contemplar a montagem, manutenção, alteração, mudança de local e desmontagem; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "contemplar a montagem, manutenção, alteração, mudança de local e desmontagem; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "ser elaborado por profissional qualificado em segurança do trabalho, considerando os requisitos <mark>do projeto, quando aplicável, e as instruções dos fabricantes.</mark>"
+              "text": "ser elaborado por profissional qualificado em segurança do trabalho, considerando os requisitos do projeto, quando aplicável, e as instruções dos fabricantes."
             }
           ]
         }
@@ -1671,7 +2018,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_<mark>(Revogado pela Portaria MTE nº 3.903, de 28 de dezembro de 2023)</mark>_"
+          "text": "_(Revogado pela Portaria MTE nº 3.903, de 28 de dezembro de 2023)_"
         }
       ]
     },
@@ -2222,7 +2569,7 @@
           "type": "item",
           "number": "5.2.2.4",
           "depth": 3,
-          "text": "A marcação da escada portátil de uso individual deve conter no mínimo: _(Caput e alíneas -_ _<mark>entram em vigor a partir de 04 de janeiro de 2027)</mark>_"
+          "text": "A marcação da escada portátil de uso individual deve conter no mínimo: _(Caput e alíneas -_ _entram em vigor a partir de 04 de janeiro de 2027)_"
         },
         {
           "type": "list",

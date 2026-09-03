@@ -30,6 +30,9 @@ BROKEN_HYPHEN_RE = re.compile(r"\w- \w")
 ORPHAN_PAGE_RE = re.compile(r"^\s*\d{1,3}\s*$", re.MULTILINE)
 BROKEN_TABLE_RE = re.compile(r"^\|\s*---\s*\|", re.MULTILINE)
 IMAGE_REF_RE = re.compile(r"!\[[^\]]*\]\([^)]+\)")
+HTML_BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
+HTML_MARK_RE = re.compile(r"</?mark\b", re.IGNORECASE)
+PICTURE_TEXT_RE = re.compile(r"Start of picture text", re.IGNORECASE)
 
 
 def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
@@ -67,6 +70,17 @@ def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
     table_seps = BROKEN_TABLE_RE.findall(text)
     if len(table_seps) > 3:
         warnings.append(f"fragmented_tables: {len(table_seps)} separadores de tabela")
+
+    if HTML_BR_RE.search(text):
+        count = len(HTML_BR_RE.findall(text))
+        warnings.append(f"html_br_tags: {count} ocorrência(s)")
+
+    if HTML_MARK_RE.search(text):
+        count = len(HTML_MARK_RE.findall(text))
+        warnings.append(f"html_mark_tags: {count} ocorrência(s)")
+
+    if PICTURE_TEXT_RE.search(text):
+        warnings.append("picture_text_ocr: blocos OCR de diagrama não removidos")
 
     pages_dir = nr_dir / "assets" / "pages"
     if pages_dir.exists():

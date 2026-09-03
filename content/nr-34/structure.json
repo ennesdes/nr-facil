@@ -27,10 +27,6 @@
         "text": "Esta Norma Regulamentadora - NR estabelece os requisitos mínimos e as medidas de proteção à segurança, à saúde e ao meio ambiente de trabalho nas atividades da indústria de construção, reparação e desmonte naval. _(alterado pela Portaria MTb nº 790, de 09 de junho de 2017)_"
       },
       {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
-      },
-      {
         "type": "item",
         "number": "34.1.2",
         "depth": 2,
@@ -154,15 +150,7 @@
           "type": "item",
           "number": "34.3.4",
           "depth": 2,
-          "text": "~~O empregador deve desenvolver e implantar programa de capacitação, compreendendo~~"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "~~treinamento admissional, periódico e sempre que ocorrer qualquer das seguintes situações:~~ _(Revogado pela Portaria SEPRT nº 915, de 30 de julho de 2019)_"
+          "text": "~~O empregador deve desenvolver e implantar programa de capacitação, compreendendo~~ ~~treinamento admissional, periódico e sempre que ocorrer qualquer das seguintes situações:~~ _(Revogado pela Portaria SEPRT nº 915, de 30 de julho de 2019)_"
         },
         {
           "type": "paragraph",
@@ -272,8 +260,13 @@
           "text": "Consiste a Permissão de Trabalho - PT em documento escrito que contém o conjunto de medidas de controle necessárias para que o trabalho seja desenvolvido de forma segura, além de medidas emergência e resgate, e deve:"
         },
         {
-          "type": "note",
-          "text": "a) ser emitida em três vias, para: afixação no local de trabalho, entrega à chefia imediata dos Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser emitida em três vias, para: afixação no local de trabalho, entrega à chefia imediata dos"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -377,10 +370,6 @@
       "number": "",
       "title": "34.5.3 Proteção contra Incêndio",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "item",
           "number": "34.5.3.1",
@@ -523,8 +512,13 @@
           "text": "Quanto ao circuito de gás, devem ser observadas:"
         },
         {
-          "type": "note",
-          "text": "a) a inspeção antes do início do trabalho, de modo a assegurar a ausência de vazamentos e o seu Este texto não substitui o publicado no DOU"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "a inspeção antes do início do trabalho, de modo a assegurar a ausência de vazamentos e o seu"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -674,20 +668,7 @@
           "items": [
             {
               "label": "c",
-              "text": "sinalizar e isolar a área;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "avaliar a necessidade de vigilância especial contra incêndios (observador) e de sistema de alarme;"
+              "text": "sinalizar e isolar a área; - d) avaliar a necessidade de vigilância especial contra incêndios (observador) e de sistema de alarme;"
             }
           ]
         },
@@ -799,15 +780,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- _a)_ justificada a impossibilidade do adiamento dos serviços mediante documento apensado à APR, assinado por profissional de segurança no trabalho e pelo responsável pela execução dos serviços, consignando as medidas de proteção adicionais aplicáveis; _(alterada pela Portaria MTb nº 836, de 09 de outubro de 2018)_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- _b)_ realizada mediante operação assistida por profissional de segurança no trabalho e pelo responsável pela execução das atividades. _(alterada pela Portaria MTb nº 836, de 09 de outubro de 2018)_"
+          "text": "- _a)_ justificada a impossibilidade do adiamento dos serviços mediante documento apensado à APR, assinado por profissional de segurança no trabalho e pelo responsável pela execução dos serviços, consignando as medidas de proteção adicionais aplicáveis; _(alterada pela Portaria MTb nº 836, de 09 de outubro de 2018)_ - _b)_ realizada mediante operação assistida por profissional de segurança no trabalho e pelo responsável pela execução das atividades. _(alterada pela Portaria MTb nº 836, de 09 de outubro de 2018)_"
         },
         {
           "type": "item",
@@ -925,10 +898,6 @@
           "text": "As escadas extensíveis devem possuir dispositivo limitador de curso, colocado no quarto vão a contar da catraca ou, caso não haja o limitador de curso, devem permitir uma sobreposição de no mínimo um metro quando estendidas."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.6.3.11",
           "depth": 3,
@@ -1037,10 +1006,6 @@
           "text": "As plataformas de trabalho com sistema de movimentação vertical em pinhão e cremalheira e as plataformas hidráulicas devem observar as especificações técnicas do fabricante quanto à montagem, operação, manutenção, desmontagem e inspeções periódicas, sob responsabilidade técnica de profissional legalmente habilitado."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.6.5.2",
           "depth": 3,
@@ -1146,10 +1111,6 @@
           "text": "No percurso vertical das plataformas não pode haver interferências que obstruam seu livre deslocamento."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.6.5.15",
           "depth": 3,
@@ -1244,10 +1205,6 @@
           "number": "34.6.6.4",
           "depth": 3,
           "text": "Para cada local de trabalho deve haver um plano de autorresgate e resgate dos profissionais."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1386,10 +1343,6 @@
               "text": "ser apoiadas somente sobre superfícies horizontais planas."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -1531,17 +1484,9 @@
           "items": [
             {
               "label": "g",
-              "text": "a relação de funcionários trabalhadores envolvidos; _(retificada no DOU, de 08 de agosto de_"
+              "text": "a relação de funcionários trabalhadores envolvidos; _(retificada no DOU, de 08 de agosto de_ _2017)_"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "_2017)_"
         },
         {
           "type": "list",
@@ -1634,15 +1579,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_34.7.12_** As medidas estabelecidas no plano de emergência do Plano de Proteção Respiratória da executante devem ser informadas à empresa contratante. _(inserido pela Portaria MTb nº 790,_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "_de 09 de junho de 2017, retificada no DOU, de 08 de agosto de 2017)_"
+          "text": "**_34.7.12_** As medidas estabelecidas no plano de emergência do Plano de Proteção Respiratória da executante devem ser informadas à empresa contratante. _(inserido pela Portaria MTb nº 790,_ _de 09 de junho de 2017, retificada no DOU, de 08 de agosto de 2017)_"
         },
         {
           "type": "item",
@@ -1802,8 +1739,10 @@
           "text": "Deve ser mantido sistema de drenagem para retirar a água liberada durante o hidrojateamento."
         },
         {
-          "type": "note",
-          "text": "**34.8.8** O dispositivo de segurança (trava) da pistola deve ser acionado quando da interrupção do Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "34.8.8",
+          "depth": 2,
+          "text": "O dispositivo de segurança (trava) da pistola deve ser acionado quando da interrupção do"
         },
         {
           "type": "paragraph",
@@ -1938,10 +1877,6 @@
           "text": "Os contaminantes devem ser direcionados para fora dos locais de trabalho, onde não haja fontes de ignição próxima, observando a legislação vigente."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.9.5",
           "depth": 2,
@@ -2039,15 +1974,7 @@
           "type": "item",
           "number": "34.9.17",
           "depth": 2,
-          "text": "Devem ser   mantidos   lava-olhos   de   emergência   próximo   ao   local   da   pintura   e"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "disponibilizados chuveiros de emergência em locais definidos pela APR."
+          "text": "Devem ser mantidos lava-olhos de emergência próximo ao local da pintura e disponibilizados chuveiros de emergência em locais definidos pela APR."
         }
       ]
     },
@@ -2245,10 +2172,6 @@
               "text": "eletroímã."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -2464,15 +2387,7 @@
           "type": "item",
           "number": "34.10.8",
           "depth": 2,
-          "text": "É proibida a utilização de cabos de fibras naturais na movimentação de cargas ou de pessoas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Procedimentos de movimentação de cargas"
+          "text": "É proibida a utilização de cabos de fibras naturais na movimentação de cargas ou de pessoas. Procedimentos de movimentação de cargas"
         },
         {
           "type": "item",
@@ -2643,20 +2558,7 @@
           "type": "item",
           "number": "34.10.13",
           "depth": 2,
-          "text": "A cabine de operação do equipamento de guindar deve dispor de:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "mobiliário do posto de trabalho e condições ambientais ergonômicas, em conformidade com a NR-17;"
-            }
-          ]
+          "text": "A cabine de operação do equipamento de guindar deve dispor de: - a) mobiliário do posto de trabalho e condições ambientais ergonômicas, em conformidade com a NR-17;"
         },
         {
           "type": "list",
@@ -2791,15 +2693,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_34.11_** Montagem e Desmontagem de Andaimes _(alterado pela Portaria MTPS nº 207, de 08 de_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "_dezembro de 2015)_"
+          "text": "**_34.11_** Montagem e Desmontagem de Andaimes _(alterado pela Portaria MTPS nº 207, de 08 de_ _dezembro de 2015)_"
         }
       ]
     },
@@ -2908,15 +2802,7 @@
           "type": "item",
           "number": "34.11.13",
           "depth": 2,
-          "text": "Os andaimes com pisos situados a mais de um metro de altura devem ser providos de escadas ou rampas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Dos Elementos Constitutivos"
+          "text": "Os andaimes com pisos situados a mais de um metro de altura devem ser providos de escadas ou rampas. Dos Elementos Constitutivos"
         },
         {
           "type": "item",
@@ -3012,10 +2898,6 @@
         {
           "type": "paragraph",
           "text": "Dos Andaimes Multidirecionais"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -3123,10 +3005,6 @@
           "text": "É obrigatório o uso de cinto de segurança do tipo paraquedista, dotado de talabarte duplo pelos montadores de andaimes."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.11.27",
           "depth": 2,
@@ -3164,7 +3042,7 @@
           "type": "item",
           "number": "34.11.31",
           "depth": 2,
-          "text": "O material a ser usado  na montagem de andaimes deve  ser armazenado em local iluminado, nivelado, não escorregadio e protegido de intempéries."
+          "text": "O material a ser usado na montagem de andaimes deve ser armazenado em local iluminado, nivelado, não escorregadio e protegido de intempéries."
         },
         {
           "type": "item",
@@ -3219,20 +3097,7 @@
           "type": "item",
           "number": "34.12.6",
           "depth": 2,
-          "text": "Para o trabalho com máquinas e equipamentos portáteis devem ser providenciadas as seguintes medidas:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "inspecionar o equipamento e os acessórios antes do início das atividades;"
-            }
-          ]
+          "text": "Para o trabalho com máquinas e equipamentos portáteis devem ser providenciadas as seguintes medidas: - a) inspecionar o equipamento e os acessórios antes do início das atividades;"
         },
         {
           "type": "list",
@@ -3399,20 +3264,7 @@
           "items": [
             {
               "label": "b",
-              "text": "confeccionadas em material não combustível, livre de arestas cortantes;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "aterradas e protegidas por disjuntores;"
+              "text": "confeccionadas em material não combustível, livre de arestas cortantes; - c) aterradas e protegidas por disjuntores;"
             }
           ]
         },
@@ -3537,15 +3389,7 @@
           "type": "item",
           "number": "34.14.2.2",
           "depth": 3,
-          "text": "O trabalhador capacitado em teste de estanqueidade deve receber treinamento"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "periódico a cada 12 meses, com carga horária mínima de 8 horas. _(inserido pela Portaria MTE nº 1.897, de 09 de dezembro de 2013)_"
+          "text": "O trabalhador capacitado em teste de estanqueidade deve receber treinamento periódico a cada 12 meses, com carga horária mínima de 8 horas. _(inserido pela Portaria MTE nº 1.897, de 09 de dezembro de 2013)_"
         },
         {
           "type": "paragraph",
@@ -3669,15 +3513,7 @@
           "type": "item",
           "number": "34.14.15",
           "depth": 2,
-          "text": "Durante a realização dos testes, a pressão deve ser elevada gradativamente até a"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "pressão final de teste."
+          "text": "Durante a realização dos testes, a pressão deve ser elevada gradativamente até a pressão final de teste."
         },
         {
           "type": "paragraph",
@@ -3834,15 +3670,7 @@
           "type": "item",
           "number": "34.15.4.1",
           "depth": 3,
-          "text": "Somente o RO deve autorizar a liberação do equipamento de guindar ou remoção dos"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "dispositivos temporários."
+          "text": "Somente o RO deve autorizar a liberação do equipamento de guindar ou remoção dos dispositivos temporários."
         },
         {
           "type": "item",
@@ -3973,17 +3801,9 @@
           "items": [
             {
               "label": "c",
-              "text": "garantir que na estrutura flutuante, dotada de propulsão própria, desloque-se para condições de mar e vento seguros sempre que forem alcançadas as condições máximas de mar e de vento alusivas à força 5 da Escala Beaufort (vento com velocidade de 29 km/h a 38 km/h e altura de"
+              "text": "garantir que na estrutura flutuante, dotada de propulsão própria, desloque-se para condições de mar e vento seguros sempre que forem alcançadas as condições máximas de mar e de vento alusivas à força 5 da Escala Beaufort (vento com velocidade de 29 km/h a 38 km/h e altura de onda entre 2,5 metros e 4,0 metros)."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "onda entre 2,5 metros e 4,0 metros)."
         },
         {
           "type": "item",
@@ -4061,20 +3881,7 @@
           "type": "item",
           "number": "34.16.16",
           "depth": 2,
-          "text": "O trabalhador na atividade em estruturas flutuantes deve ter acesso a banheiro, situado a uma distância máxima de 50 (cinquenta) metros do posto de trabalho, na proporção de 1 (um) banheiro para cada 20 (vinte) trabalhadores ou fração, separados por sexo, com as seguintes características:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "mantido em perfeito estado de higiene e funcionamento;"
-            }
-          ]
+          "text": "O trabalhador na atividade em estruturas flutuantes deve ter acesso a banheiro, situado a uma distância máxima de 50 (cinquenta) metros do posto de trabalho, na proporção de 1 (um) banheiro para cada 20 (vinte) trabalhadores ou fração, separados por sexo, com as seguintes características: - a) mantido em perfeito estado de higiene e funcionamento;"
         },
         {
           "type": "list",
@@ -4203,10 +4010,6 @@
           "text": "É obrigatório o fornecimento a bordo de água potável em condições higiênicas, filtrada e fresca, por meio de bebedouro de jato inclinado ou equipamento similar que garanta as mesmas condições."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.16.20.1",
           "depth": 3,
@@ -4310,20 +4113,7 @@
           "type": "item",
           "number": "34.17.1.1",
           "depth": 3,
-          "text": "Aplicam-se ao PRE, de forma complementar, as disposições constantes em:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "Normas Regulamentadoras da Portaria MTb nº 3.214/78 e suas alterações posteriores;"
-            }
-          ]
+          "text": "Aplicam-se ao PRE, de forma complementar, as disposições constantes em: - a) Normas Regulamentadoras da Portaria MTb nº 3.214/78 e suas alterações posteriores;"
         },
         {
           "type": "list",
@@ -4527,10 +4317,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.17.3.1",
           "depth": 3,
@@ -4671,10 +4457,6 @@
           "text": "É proibido o uso de solvente, ar comprimido e gases pressurizados para limpar a pele ou as vestimentas."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "34.18.5",
           "depth": 2,
@@ -4763,10 +4545,6 @@
           "number": "34.18.10",
           "depth": 2,
           "text": "A área de produção industrial deve ser provida de sistema de escoamento de águas pluviais."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -4909,15 +4687,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Acesso por corda** : também denominado alpinismo industrial, é o conjunto de técnicas específicas, adequadas para a área industrial, destinadas à realização de trabalhos em altura ou em ambiente de difícil acesso."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Acessórios de movimentação** : dispositivos utilizados na movimentação de carga, situados entre a carga e o cabo de elevação do equipamento de transporte, tais como moitões, estropos, manilhas, balanças, correntes, grampos, distorcedores, olhais de suspensão, cintas e ganchos."
+          "text": "**Acesso por corda** : também denominado alpinismo industrial, é o conjunto de técnicas específicas, adequadas para a área industrial, destinadas à realização de trabalhos em altura ou em ambiente de difícil acesso. **Acessórios de movimentação** : dispositivos utilizados na movimentação de carga, situados entre a carga e o cabo de elevação do equipamento de transporte, tais como moitões, estropos, manilhas, balanças, correntes, grampos, distorcedores, olhais de suspensão, cintas e ganchos."
         },
         {
           "type": "paragraph",
@@ -4981,15 +4751,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Coifa** : anteparo fixado a máquina para proteger o operador contra projeções de fragmentos, fagulhas ou contato acidental."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Colimador** : dispositivo de formato especial empregado para blindar e direcionar a radiação por uma abertura visando reduzir a área de radiação."
+          "text": "**Coifa** : anteparo fixado a máquina para proteger o operador contra projeções de fragmentos, fagulhas ou contato acidental. **Colimador** : dispositivo de formato especial empregado para blindar e direcionar a radiação por uma abertura visando reduzir a área de radiação."
         },
         {
           "type": "paragraph",
@@ -5061,15 +4823,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Hidrojateamento** : tratamento prévio de superfícies por meio de jato d’água pressurizado para remover depósitos aderidos, podendo ser de baixa pressão (até cinco mil psi), alta pressão (de cinco mil psi a vinte mil psi) ou ultra-alta pressão (superiores a vinte mil psi)."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Indivíduo Ocupacionalmente Exposto - IOE:** indivíduo sujeito à exposição ocupacional à radiação ionizante, de acordo com os critérios estabelecidos pela CNEN **. (** _alterada pela Portaria MTb nº 790, de 09 de junho de 2017)_"
+          "text": "**Hidrojateamento** : tratamento prévio de superfícies por meio de jato d’água pressurizado para remover depósitos aderidos, podendo ser de baixa pressão (até cinco mil psi), alta pressão (de cinco mil psi a vinte mil psi) ou ultra-alta pressão (superiores a vinte mil psi). **Indivíduo Ocupacionalmente Exposto - IOE:** indivíduo sujeito à exposição ocupacional à radiação ionizante, de acordo com os critérios estabelecidos pela CNEN **. (** _alterada pela Portaria MTb nº 790, de 09 de junho de 2017)_"
         },
         {
           "type": "paragraph",
@@ -5148,8 +4902,8 @@
           "text": "**Sistema amortecedor** : dispositivo destinado a reduzir o impacto transmitido ao corpo do trabalhador e sistema de segurança durante a contenção de queda."
         },
         {
-          "type": "note",
-          "text": "**Soldagem ou soldadura** : processo de união de materiais para obter a coalescência localizada, produzida por aquecimento, com ou sem a utilização de pressão e/ou material de adição. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "**Soldagem ou soldadura** : processo de união de materiais para obter a coalescência localizada, produzida por aquecimento, com ou sem a utilização de pressão e/ou material de adição."
         },
         {
           "type": "paragraph",
@@ -5317,20 +5071,7 @@
           "items": [
             {
               "label": "f",
-              "text": "Segurança na movimentação de cargas;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "g",
-              "text": "Exercício prático;"
+              "text": "Segurança na movimentação de cargas; - g) Exercício prático;"
             }
           ]
         },
@@ -5527,15 +5268,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- Sinalização e Isolamento do Local de Trabalho;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- Inspeção Posterior para controle de fontes de ignição"
+          "text": "- Sinalização e Isolamento do Local de Trabalho; - Inspeção Posterior para controle de fontes de ignição"
         },
         {
           "type": "list",
@@ -5686,15 +5419,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- Equipamentos de Corte e Desbaste;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- Acessórios: Coifas, Disco de Corte, Disco de Desbaste, Escova, Retífica, Lixa e Outros;"
+          "text": "- Equipamentos de Corte e Desbaste; - Acessórios: Coifas, Disco de Corte, Disco de Desbaste, Escova, Retífica, Lixa e Outros;"
         },
         {
           "type": "paragraph",
@@ -5869,23 +5594,11 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_(inserido pela Portaria MTE nº 592, de 28 de abril de 2014)_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**TABELA 1 - SERVIÇOS EM OFICINAS**"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "_(inserido pela Portaria MTE nº 592, de 28 de abril de 2014)_ **TABELA 1 - SERVIÇOS EM OFICINAS**"
         },
         {
           "type": "table",
-          "markdown": "| | SITUAÇÃO DE FIXAÇÃO TEMPORÁRIA | | PESO (TON) - P | | | ÁREA VÉLICA (M2) - A | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | POSIÇÃO | SUPORTE & ESTABILIZAÇÃO | P≤0,3 0 | 0,3<P≤1 0,0 | P>10, 0 | A≤4, 0 | 4,0<A≤3 2,0 | A>32 ,0 |\n| HASTILHAS, SUB- CONJUNTOS E DEMAIS ESTRUTURA S LEVES | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| VÃOS DE CAVERNAS | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| PAINÉIS | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM | N/A | G | E | N/A | G | E |"
+          "markdown": "| | SITUAÇÃO DE FIXAÇÃO TEMPORÁRIA | | PESO (TON) - P | | | ÁREA VÉLICA (M2) - A | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | POSIÇÃO | SUPORTE & ESTABILIZAÇÃO | P≤0,3 0 | 0,3<P≤1 0,0 | P>10, 0 | A≤4, 0 | 4,0<A≤3 2,0 | A>32 ,0 |\n| HASTILHAS, SUB-CONJUNTOS E DEMAIS ESTRUTURA S LEVES | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| VÃOS DE CAVERNAS | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| PAINÉIS | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM | N/A | G | E | N/A | G | E |"
         },
         {
           "type": "paragraph",
@@ -5908,20 +5621,12 @@
           "text": "**TABELA 2 - SERVIÇOS EM ÁREA DESCOBERTAS**"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |\n| BLOCOS | HORIZONTA L | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | APOIADO EM PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR CACHORROS | N/A | G | E | N/A | G | E |\n| | VERTICAL | APOIADO EM OUTRAS ESTRUTURAS E ESTABILIZADO POR PONTOS DE SOLDA | N/A | G | E | N/A | G | E |\n| | HORIZONTA L | PENDURADO EM CACHORROS | G | G | E | G | G | E |\n| | VERTICAL | PENDURADO E ESTABILIZADO POR CACHORROS | G | G | E | G | G | E |"
         },
         {
           "type": "table",
-          "markdown": "| | SITUAÇÃO DE FIXAÇÃO TEMPORÁRIA | | PESO (TON) - P | | | ÁREA VÉLICA (M2) - A | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | POSIÇÃO | SUPORTE & ESTABILIZAÇÃO | P<0,3 0 | 0,3<P≤1 0,0 | P>10,0 | A<2,0 | 2,0<A≤ 16,0 | A>16,0 |\n| HASTILHAS, SUB- CONJUNTOS E | HORIZONTAL | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | APOIADO EM | N/A | G | E | N/A | G | E |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "markdown": "| | SITUAÇÃO DE FIXAÇÃO TEMPORÁRIA | | PESO (TON) - P | | | ÁREA VÉLICA (M2) - A | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | POSIÇÃO | SUPORTE & ESTABILIZAÇÃO | P<0,3 0 | 0,3<P≤1 0,0 | P>10,0 | A<2,0 | 2,0<A≤ 16,0 | A>16,0 |\n| HASTILHAS, SUB-CONJUNTOS E | HORIZONTAL | APOIADO EM CACHORROS | N/A | G | E | N/A | G | E |\n| | HORIZONTAL | APOIADO EM | N/A | G | E | N/A | G | E |"
         },
         {
           "type": "table",
@@ -5942,10 +5647,6 @@
         {
           "type": "paragraph",
           "text": "E - PROCEDIMENTO ESPECÍFICO PARA CADA PROJETO OU SERVIÇO, EMITIDO POR RESPONSÁVEL TÉCNICO."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",

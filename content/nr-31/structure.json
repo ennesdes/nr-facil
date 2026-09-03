@@ -12,7 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_Redação dada pela Portaria SEPRT n.º 22.677, de 22 de outubro de 2020_ # **SUMÁRIO** - 31.1     Objetivo 31.2     Campo de Aplicação - Obrigações e Competências - Das Responsabilidades - 31.3     Programa de Gerenciamento de Riscos no Trabalho Rural - PGRTR - 31.4 Serviço Especializado em Segurança e Saúde no Trabalho Rural - SESTR - 31.5 Comissão Interna de Prevenção de Acidentes e de Assédio do Trabalho Rural - CIPATR _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ - 31.6 Medidas de Proteção Pessoal - 31.7 Agrotóxicos, Aditivos, Adjuvantes e Produtos Afins - 31.8 Ergonomia - 31.9 Transporte de Trabalhadores - 31.10 Instalações Elétricas - 31.11 Ferramentas Manuais - 31.12 Segurança no Trabalho em Máquinas, Equipamentos e Implementos - 31.13 Secadores, Silos e Espaços Confinados - 31.14 Movimentação e Armazenamento de Materiais - 31.15   Trabalho em Altura - 31.16   Edificações Rurais - 31.17 Condições Sanitárias e de Conforto no Trabalho Rural - ANEXO I - Meios de acesso a máquinas, equipamentos e implementos ANEXO II - Quadros e Figuras auxiliares Glossário"
+        "text": "_Redação dada pela Portaria SEPRT n.º 22.677, de 22 de outubro de 2020_ # **SUMÁRIO** - 31.1 Objetivo 31.2 Campo de Aplicação - Obrigações e Competências - Das Responsabilidades - 31.3 Programa de Gerenciamento de Riscos no Trabalho Rural - PGRTR - 31.4 Serviço Especializado em Segurança e Saúde no Trabalho Rural - SESTR - 31.5 Comissão Interna de Prevenção de Acidentes e de Assédio do Trabalho Rural - CIPATR _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ - 31.6 Medidas de Proteção Pessoal - 31.7 Agrotóxicos, Aditivos, Adjuvantes e Produtos Afins - 31.8 Ergonomia - 31.9 Transporte de Trabalhadores - 31.10 Instalações Elétricas - 31.11 Ferramentas Manuais - 31.12 Segurança no Trabalho em Máquinas, Equipamentos e Implementos - 31.13 Secadores, Silos e Espaços Confinados - 31.14 Movimentação e Armazenamento de Materiais - 31.15 Trabalho em Altura - 31.16 Edificações Rurais - 31.17 Condições Sanitárias e de Conforto no Trabalho Rural - ANEXO I - Meios de acesso a máquinas, equipamentos e implementos ANEXO II - Quadros e Figuras auxiliares Glossário"
       }
     ]
   },
@@ -166,7 +166,7 @@
         },
         {
           "type": "paragraph",
-          "text": "I. os riscos decorrentes do trabalho e as medidas de  prevenção implantadas, inclusive em relação a novas tecnologias adotadas pelo empregador;"
+          "text": "I. os riscos decorrentes do trabalho e as medidas de prevenção implantadas, inclusive em relação a novas tecnologias adotadas pelo empregador;"
         },
         {
           "type": "paragraph",
@@ -700,12 +700,19 @@
           "text": "Os parâmetros para avaliações dos riscos e da exposição dos trabalhadores aos agentes físicos, químicos e biológicos e os critérios para a prevenção dos riscos à saúde dos trabalhadores decorrentes das exposições ocupacionais devem ser realizados conforme os Anexos da Norma Regulamentadora nº 9 - Avaliação e Controle das Exposições Ocupacionais a Agentes Físicos, Químicos e Biológicos. _(retificado pela Portaria MTP nº 698, de 04 de abril de 2022)_"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>31.3.3.2</mark>** <mark>O PGRTR deve conter, no mínimo, os seguintes documentos:</mark>"
+          "type": "item",
+          "number": "31.3.3.2",
+          "depth": 3,
+          "text": "O PGRTR deve conter, no mínimo, os seguintes documentos:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) inventário de riscos ocupacionais; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "inventário de riscos ocupacionais; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -931,7 +938,7 @@
           "type": "item",
           "number": "31.3.8",
           "depth": 2,
-          "text": "Para cada  exame clínico ocupacional, deve ser emitido um Atestado de Saúde Ocupacional - ASO, em duas vias, contendo, no mínimo:"
+          "text": "Para cada exame clínico ocupacional, deve ser emitido um Atestado de Saúde Ocupacional - ASO, em duas vias, contendo, no mínimo:"
         },
         {
           "type": "list",
@@ -994,7 +1001,7 @@
           "type": "item",
           "number": "31.3.9",
           "depth": 2,
-          "text": "Todo estabelecimento rural deve estar equipado com material necessário à prestação de primeiros socorros, considerando-se as características da atividade desenvolvida, sob cuidados  de pessoa treinada para este fim."
+          "text": "Todo estabelecimento rural deve estar equipado com material necessário à prestação de primeiros socorros, considerando-se as características da atividade desenvolvida, sob cuidados de pessoa treinada para este fim."
         },
         {
           "type": "item",
@@ -1555,7 +1562,7 @@
         },
         {
           "type": "paragraph",
-          "text": "2) A ausência de asterisco corresponde às cargas horárias de 30 (trinta) horas, para os profissionais de nível superior, e de 36 (trinta e seis) horas, <u>para os profissionais de nível médio.</u>"
+          "text": "2) A ausência de asterisco corresponde às cargas horárias de 30 (trinta) horas, para os profissionais de nível superior, e de 36 (trinta e seis) horas, para os profissionais de nível médio."
         }
       ]
     },
@@ -1712,7 +1719,7 @@
           "items": [
             {
               "label": "f",
-              "text": "promover, anualmente, em conjunto com o SESTR, onde houver, a Semana Interna de Prevenção de Acidentes do Trabalho Rural - SIPATR,  em dias e turnos definidos conforme cronograma;"
+              "text": "promover, anualmente, em conjunto com o SESTR, onde houver, a Semana Interna de Prevenção de Acidentes do Trabalho Rural - SIPATR, em dias e turnos definidos conforme cronograma;"
             }
           ]
         },
@@ -2073,7 +2080,7 @@
           "type": "item",
           "number": "31.5.20",
           "depth": 2,
-          "text": "Os membros da CIPATR eleitos pelos empregados não podem sofrer despedida arbitrária, entendendo-se como tal a que não se fundar em motivo disciplinar, técnico,  econômico ou financeiro."
+          "text": "Os membros da CIPATR eleitos pelos empregados não podem sofrer despedida arbitrária, entendendo-se como tal a que não se fundar em motivo disciplinar, técnico, econômico ou financeiro."
         },
         {
           "type": "item",
@@ -2468,7 +2475,7 @@
           "items": [
             {
               "label": "a",
-              "text": "a manipulação de quaisquer agrotóxicos, aditivos, adjuvantes e produtos afins que não  estejam registrados e autorizados pelos órgãos governamentais competentes;"
+              "text": "a manipulação de quaisquer agrotóxicos, aditivos, adjuvantes e produtos afins que não estejam registrados e autorizados pelos órgãos governamentais competentes;"
             }
           ]
         },
@@ -2531,7 +2538,7 @@
           "items": [
             {
               "label": "h",
-              "text": "a reutilização, para qualquer fim, das embalagens vazias de agrotóxicos, aditivos, adjuvantes e produtos afins, incluindo as respectivas tampas, cuja destinação final deve atender à  legislação vigente."
+              "text": "a reutilização, para qualquer fim, das embalagens vazias de agrotóxicos, aditivos, adjuvantes e produtos afins, incluindo as respectivas tampas, cuja destinação final deve atender à legislação vigente."
             }
           ]
         },
@@ -2584,7 +2591,7 @@
           "type": "item",
           "number": "31.7.4",
           "depth": 2,
-          "text": "A aplicação de agrotóxicos com a utilização de atomizador mecanizado somente pode ser realizada por meio de máquina com cabine fechada original do fabricante ou adaptada. _(Alterado pela Portaria MTP nº 4.223, de 20 de dezembro de 2022 -_ _<u><mark>vide prazos de implementação no art. 3º)</mark></u>_"
+          "text": "A aplicação de agrotóxicos com a utilização de atomizador mecanizado somente pode ser realizada por meio de máquina com cabine fechada original do fabricante ou adaptada. _(Alterado pela Portaria MTP nº 4.223, de 20 de dezembro de 2022 -_ _vide prazos de implementação no art. 3º)_"
         },
         {
           "type": "item",
@@ -3037,7 +3044,7 @@
           "type": "item",
           "number": "31.7.16",
           "depth": 2,
-          "text": "O armazenamento de agrotóxicos, aditivos e adjuvantes e produtos afins até o limite de 100 (cem) litros ou 100 (cem) quilos, ou a somatória de litros e quilos considerados conjuntamente, pode ser feito em armários de uso exclusivo, trancados e abrigados de sol e intempéries, confeccionados de material resistente que permita higienização e não propicie a propagação de chamas, localizados fora de moradias, áreas de vivência e áreas administrativas, respeitadas as alíneas  “b” e “d” do subitem  31.7.14 desta Norma, desde que obedecidos os seguintes requisitos:"
+          "text": "O armazenamento de agrotóxicos, aditivos e adjuvantes e produtos afins até o limite de 100 (cem) litros ou 100 (cem) quilos, ou a somatória de litros e quilos considerados conjuntamente, pode ser feito em armários de uso exclusivo, trancados e abrigados de sol e intempéries, confeccionados de material resistente que permita higienização e não propicie a propagação de chamas, localizados fora de moradias, áreas de vivência e áreas administrativas, respeitadas as alíneas “b” e “d” do subitem 31.7.14 desta Norma, desde que obedecidos os seguintes requisitos:"
         },
         {
           "type": "list",
@@ -3062,7 +3069,7 @@
           "items": [
             {
               "label": "c",
-              "text": "estar fixados em paredes ou piso de forma a evitar o  risco de tombamento."
+              "text": "estar fixados em paredes ou piso de forma a evitar o risco de tombamento."
             }
           ]
         },
@@ -3640,7 +3647,7 @@
           "type": "item",
           "number": "31.12.7.1",
           "depth": 3,
-          "text": "Excetuam-se da vedação do subitem 31.12.7 as máquinas autopropelidas e seus implementos  que possuam postos de trabalhos projetados para este fim pelo fabricante ou por profissional legalmente habilitado, desde que garantidas as condições de segurança, conforme disposto nesta Norma."
+          "text": "Excetuam-se da vedação do subitem 31.12.7 as máquinas autopropelidas e seus implementos que possuam postos de trabalhos projetados para este fim pelo fabricante ou por profissional legalmente habilitado, desde que garantidas as condições de segurança, conforme disposto nesta Norma."
         },
         {
           "type": "item",
@@ -4860,7 +4867,7 @@
         },
         {
           "type": "paragraph",
-          "text": "implementos  ou troca de métodos, processos e organização do trabalho."
+          "text": "implementos ou troca de métodos, processos e organização do trabalho."
         },
         {
           "type": "item",
@@ -5603,7 +5610,7 @@
           "type": "item",
           "number": "31.14.8",
           "depth": 2,
-          "text": "As pilhas de sacos e “big bags” devem ser montadas e mantidas de forma a  garantir a sua estabilidade e possuir altura máxima em função da forma e resistência dos materiais da embalagem, de modo a não causar riscos aos trabalhadores."
+          "text": "As pilhas de sacos e “big bags” devem ser montadas e mantidas de forma a garantir a sua estabilidade e possuir altura máxima em função da forma e resistência dos materiais da embalagem, de modo a não causar riscos aos trabalhadores."
         },
         {
           "type": "item",
@@ -6794,7 +6801,7 @@
           "type": "item",
           "number": "31.17.8",
           "depth": 2,
-          "text": "Disposições Gerais Sanitárias e de  Conforto no Trabalho"
+          "text": "Disposições Gerais Sanitárias e de Conforto no Trabalho"
         },
         {
           "type": "item",
@@ -7714,11 +7721,11 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "| Pulverizadores autopropelidos | X | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Adubadoras autopropelidas e tracionadas | X | | X | | |\n| Colhedoras de grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X | | X | | |\n| Escavadeiras Hidráulicas | X | | | | |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma porta- implementos(acoplável ao motocultivador) | X | X | X | X | X |"
+          "markdown": "| Pulverizadores autopropelidos | X | | | | |\n| --- | --- | --- | --- | --- | --- |\n| Adubadoras autopropelidas e tracionadas | X | | X | | |\n| Colhedoras de grãos, cereais, forragem, café, cana-de-açúcar, algodão, laranja entre outras. | X | | X | | |\n| Escavadeiras Hidráulicas | X | | | | |\n| Plantadeiras tracionadas | X | X | X | X | X |\n| Plataforma porta-implementos(acoplável ao motocultivador) | X | X | X | X | X |"
         },
         {
           "type": "table",
-          "markdown": "| Máquina/ implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com a aplicação. |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |\n| Adubadoras tracionadas e autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |\n| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de- açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |\n| Colhedoras de algodão | Área de recolhimento da fibra do algodão; Área de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Escavadeiras hidráulicas, feller bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |\n| Forrageiras tracionadas e autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |\n| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de plantio e seus componentes; |"
+          "markdown": "| Máquina/ implemento | Descrição da Exclusão |\n| --- | --- |\n| Motocultivadores | Área da parte ativa do implemento acoplado de acordo com a aplicação. |\n| Outros microtratores e cortadores de grama autopropelidos (peso bruto total abaixo de 600kg) | Área do cortador de grama, embaixo da máquina, protegido por proteções laterais. |\n| Adubadoras tracionadas e autopropelidas | Área distribuidora - área do distribuidor (disco ou tubo); Área de transporte e esteira helicoidal. |\n| Colhedoras de grãos ou cereais | Área de corte e alimentação ou de captação (plataforma de corte/recolhimento); Área de expulsão e projeção de resíduos (espalhador de palha); Área de descarregamento (tubo descarregador de grãos). |\n| Colhedoras de cana-de-açúcar | Área de corte ou recolhimento da cana-de-açúcar a ser processada (unidades de corte e recolhimento); Área de projeção/descarregamento do material (picador e transportador de material). |\n| Colhedoras de algodão | Área de recolhimento da fibra do algodão; Área de descarregamento do fardo de algodão. |\n| Colhedoras de café | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Colhedoras de laranja | Área de conjunto das hastes vibratórias, lâminas retráteis, transportadores e descarregamento. |\n| Escavadeiras hidráulicas, feller bunchers e harvesters | Área de corte, desgalhamento, processamento ou carregamento de toras. |\n| Forrageiras tracionadas e autopropelidas | Área de corte ou recolhimento da planta a ser processada (plataforma de corte ou recolhimento); Área de descarregamento/projeção do material triturado. |\n| Plantadeiras tracionadas | Linhas de corte da palha e seus componentes; Linhas de plantio e seus componentes; |"
         },
         {
           "type": "paragraph",
@@ -7945,7 +7952,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Atividade itinerante: aquela realizada em contínuo deslocamento, de lugar em lugar, no exercício de uma função, e que não  utilize um ponto de apoio para sua realização."
+          "text": "Atividade itinerante: aquela realizada em contínuo deslocamento, de lugar em lugar, no exercício de uma função, e que não utilize um ponto de apoio para sua realização."
         },
         {
           "type": "paragraph",
@@ -7977,7 +7984,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Categoria: classificação das partes de um sistema de comando relacionadas à segurança, com respeito à sua resistência a defeitos e seu subsequente comportamento na condição de defeito, e que é alcançada pela combinação e interligação das partes e/ou por sua confiabilidade. O desempenho com relação à ocorrência de defeitos de uma parte de um sistema de comando, relacionado à segurança, é dividido em cinco categorias (B, 1, 2, 3 e 4), segundo a norma técnica ABNT NBR 14153 - Segurança de máquinas - Partes de sistemas de comando relacionadas à segurança - Princípios gerais para projeto, equivalente à norma técnica europeia EN 954-1 - **Safety of machinery. Safety related parts of control systems** . **General principles for design** , que leva em conta princípios qualitativos para sua seleção. A norma europeia EN 954 foi substituída pela norma internacional ISO 13849, após um período de adaptação e convivência, a qual foi traduzida no Brasil pela Associação Brasileira de Normas Técnicas - ABNT, por meio da publicação da  norma técnica ABNT NBR ISO 13849 partes 1 e 2, atualizada em 2019. A norma ISO 13849-1 prevê requisitos para a concepção e integração de componentes relacionadas com a segurança dos sistemas de controle, incluindo alguns aspectos do **software** , expressos por nível de **performance** (PL), que é classificado de “a” até “e”. O conceito de categoria é mantido, mas existem requisitos adicionais a serem preenchidos para que um nível de **performance** possa ser reivindicado por um sistema ou componente, sendo fundamental a confiabilidade dos dados que serão empregados em uma análise quantitativa do sistema de segurança. Máquinas importadas e componentes que já utilizam o conceito de PL não devem ser consideradas, apenas por esta razão, em desacordo com a NR-12, pois existe uma correlação, embora não linear, entre o os conceitos de PL e categoria (vide Nota Técnica DSST/SIT n.º 48/2016)."
+          "text": "Categoria: classificação das partes de um sistema de comando relacionadas à segurança, com respeito à sua resistência a defeitos e seu subsequente comportamento na condição de defeito, e que é alcançada pela combinação e interligação das partes e/ou por sua confiabilidade. O desempenho com relação à ocorrência de defeitos de uma parte de um sistema de comando, relacionado à segurança, é dividido em cinco categorias (B, 1, 2, 3 e 4), segundo a norma técnica ABNT NBR 14153 - Segurança de máquinas - Partes de sistemas de comando relacionadas à segurança - Princípios gerais para projeto, equivalente à norma técnica europeia EN 954-1 - **Safety of machinery. Safety related parts of control systems** . **General principles for design** , que leva em conta princípios qualitativos para sua seleção. A norma europeia EN 954 foi substituída pela norma internacional ISO 13849, após um período de adaptação e convivência, a qual foi traduzida no Brasil pela Associação Brasileira de Normas Técnicas - ABNT, por meio da publicação da norma técnica ABNT NBR ISO 13849 partes 1 e 2, atualizada em 2019. A norma ISO 13849-1 prevê requisitos para a concepção e integração de componentes relacionadas com a segurança dos sistemas de controle, incluindo alguns aspectos do **software** , expressos por nível de **performance** (PL), que é classificado de “a” até “e”. O conceito de categoria é mantido, mas existem requisitos adicionais a serem preenchidos para que um nível de **performance** possa ser reivindicado por um sistema ou componente, sendo fundamental a confiabilidade dos dados que serão empregados em uma análise quantitativa do sistema de segurança. Máquinas importadas e componentes que já utilizam o conceito de PL não devem ser consideradas, apenas por esta razão, em desacordo com a NR-12, pois existe uma correlação, embora não linear, entre o os conceitos de PL e categoria (vide Nota Técnica DSST/SIT n.º 48/2016)."
         },
         {
           "type": "paragraph",
@@ -8192,7 +8199,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Dispositivo mecânico de intertravamento: dispositivo cujo funcionamento se dá pela inserção/remoção de um atuador externo no corpo do dispositivo, ou pela ação mecânica direta (ou positiva) de partes da máquina ou equipamento, geralmente proteções móveis, sobre elementos mecânicos do dispositivo. É passível de desgaste, devendo ser utilizado de forma redundante e diversa quando a apreciação de riscos assim exigir, para evitar que uma falha mecânica, como a quebra do atuador ou de outros elementos, leve à perda da função de segurança. Quando exigidos em redundância (dois dispositivos), pode-se aplicar um deles com ação direta de abertura de um elemento de contato normalmente fechado (NF), e o outro com ação não direta de abertura (por ação de mola) de um elemento de contato normalmente aberto (NA), gerando os sinais de  parada, dentre outras configurações possíveis. A depender também da interface de segurança utilizada, que pode operar com sinais iguais ou invertidos (ISO 14119 - **Safety of machinery — Interlocking devices associated with guards — Principles for design and selection** )."
+          "text": "Dispositivo mecânico de intertravamento: dispositivo cujo funcionamento se dá pela inserção/remoção de um atuador externo no corpo do dispositivo, ou pela ação mecânica direta (ou positiva) de partes da máquina ou equipamento, geralmente proteções móveis, sobre elementos mecânicos do dispositivo. É passível de desgaste, devendo ser utilizado de forma redundante e diversa quando a apreciação de riscos assim exigir, para evitar que uma falha mecânica, como a quebra do atuador ou de outros elementos, leve à perda da função de segurança. Quando exigidos em redundância (dois dispositivos), pode-se aplicar um deles com ação direta de abertura de um elemento de contato normalmente fechado (NF), e o outro com ação não direta de abertura (por ação de mola) de um elemento de contato normalmente aberto (NA), gerando os sinais de parada, dentre outras configurações possíveis. A depender também da interface de segurança utilizada, que pode operar com sinais iguais ou invertidos (ISO 14119 - **Safety of machinery — Interlocking devices associated with guards — Principles for design and selection** )."
         },
         {
           "type": "paragraph",

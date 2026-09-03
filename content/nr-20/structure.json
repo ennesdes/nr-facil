@@ -8,15 +8,11 @@
       },
       {
         "type": "table",
-        "markdown": "| **Publicação**<br>Portaria MTb nº3.214, de 08 de junho de 1978 | **D.O.U.**<br>06/07/78 |\n| --- | --- |\n| **Alterações/Atualizações** | **D.O.U.** |\n| <br>Portaria SIT nº308, de 29 de fevereiro de 2012 | 06/03/12 |\n| Portaria MTE nº1.079, de 16 de julho de 2014 | 17/06/14 |\n| <br>Portaria MTb nº872, de 06 de julho de 2017 | 07/07/17 |\n| <br>Portaria MTb nº860, de 16 de outubro de 2018 | 17/10/18 |\n| Portaria SEPRT nº915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria SEPRT nº1.360, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria MTP nº427, de 07 de setembro de 2021 | 08/10/21 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 19/04/22 |\n| <br>Portaria MTP nº4.219, de 20 de dezembro de 2022 | <br>22/12/22 |\n| Portaria MTP nº2.776, de 05 de setembro de 2022 | 06/09/22 |\n| Portaria MTE nº3.643, de 09 de novembro de 2023 | 10/11/23 |\n| <br>Portaria MTE nº1.146, de 12 de julho de 2024 | 15/07/24 |\n| <br>Portaria MTE nº60, de 21 de janeiro de 2025 | 22/01/25 |"
+        "markdown": "| **Publicação** Portaria MTb nº3.214, de 08 de junho de 1978 | **D.O.U.** 06/07/78 |\n| --- | --- |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SIT nº308, de 29 de fevereiro de 2012 | 06/03/12 |\n| Portaria MTE nº1.079, de 16 de julho de 2014 | 17/06/14 |\n| Portaria MTb nº872, de 06 de julho de 2017 | 07/07/17 |\n| Portaria MTb nº860, de 16 de outubro de 2018 | 17/10/18 |\n| Portaria SEPRT nº915, de 30 de julho de 2019 | 31/07/19 |\n| Portaria SEPRT nº1.360, de 09 de dezembro de 2019 | 10/12/19 |\n| Portaria MTP nº427, de 07 de setembro de 2021 | 08/10/21 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 19/04/22 |\n| Portaria MTP nº4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP nº2.776, de 05 de setembro de 2022 | 06/09/22 |\n| Portaria MTE nº3.643, de 09 de novembro de 2023 | 10/11/23 |\n| Portaria MTE nº1.146, de 12 de julho de 2024 | 15/07/24 |\n| Portaria MTE nº60, de 21 de janeiro de 2025 | 22/01/25 |"
       },
       {
         "type": "paragraph",
         "text": "_(Redação dada pela Portaria SEPRT nº 1.360, de 09 de dezembro de 2019)_ # **SUMÁRIO** - 20.1 Introdução - 20.2 Abrangência - 20.3 Definições - 20.4 Classificação das Instalações - 20.5 Projeto da Instalação - 20.6 Prontuário da Instalação - 20.7 Análise de Riscos - 20.8 Segurança na Construção e Montagem - 20.9 Segurança Operacional - 20.10 Manutenção e Inspeção das Instalações - 20.11 Inspeção em Segurança e Saúde no Ambiente de Trabalho - 20.12 Capacitação dos Trabalhadores - 20.13 Controle de Fontes de Ignição - 20.14 Prevenção e Controle de Vazamentos, Derramamentos, Incêndios, Explosões e Emissões fugitivas - 20.15 Plano de Resposta a Emergências da Instalação - 20.16 Comunicação de Ocorrências - 20.17 Contratante e Contratadas ANEXO I - Critérios para Capacitação dos Trabalhadores e Conteúdo Programático ANEXO II - Exceções à aplicação do item 20.4 (Classificação das Instalações) ANEXO III - Tanques de Inflamáveis no Interior de Edifícios ANEXO IV - Exposição Ocupacional ao Benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos GLOSSÁRIO"
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
       }
     ]
   },
@@ -135,15 +131,7 @@
           "type": "item",
           "number": "20.4.1",
           "depth": 2,
-          "text": "Para efeito desta NR, as instalações são divididas em classes, conforme Tabela 1."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Tabela 1**"
+          "text": "Para efeito desta NR, as instalações são divididas em classes, conforme Tabela 1. **Tabela 1**"
         },
         {
           "type": "paragraph",
@@ -184,15 +172,7 @@
           "type": "item",
           "number": "20.5.1",
           "depth": 2,
-          "text": "As instalações para extração, produção, armazenamento, transferência, manuseio e manipulação de inflamáveis e líquidos combustíveis devem ser projetadas considerando os aspectos de segurança, saúde e meio ambiente que impactem sobre a integridade física dos trabalhadores previstos nas Normas Regulamentadoras, normas técnicas nacionais e, na ausência ou omissão"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "destas, nas normas internacionais, convenções e acordos coletivos, bem como nas demais regulamentações pertinentes em vigor."
+          "text": "As instalações para extração, produção, armazenamento, transferência, manuseio e manipulação de inflamáveis e líquidos combustíveis devem ser projetadas considerando os aspectos de segurança, saúde e meio ambiente que impactem sobre a integridade física dos trabalhadores previstos nas Normas Regulamentadoras, normas técnicas nacionais e, na ausência ou omissão destas, nas normas internacionais, convenções e acordos coletivos, bem como nas demais regulamentações pertinentes em vigor."
         },
         {
           "type": "item",
@@ -326,20 +306,7 @@
           "items": [
             {
               "label": "a",
-              "text": "Projeto da Instalação;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "Plano de Inspeção e Manutenção;"
+              "text": "Projeto da Instalação; - b) Plano de Inspeção e Manutenção;"
             }
           ]
         },
@@ -447,20 +414,7 @@
           "type": "item",
           "number": "20.7.5",
           "depth": 2,
-          "text": "As análises de riscos devem ser revisadas:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "no prazo recomendado pela própria análise;"
-            }
-          ]
+          "text": "As análises de riscos devem ser revisadas: - a) no prazo recomendado pela própria análise;"
         },
         {
           "type": "list",
@@ -586,20 +540,7 @@
           "items": [
             {
               "label": "d",
-              "text": "operação em emergência;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "parada normal;"
+              "text": "operação em emergência; - e) parada normal;"
             }
           ]
         },
@@ -767,20 +708,7 @@
           "type": "item",
           "number": "20.10.4",
           "depth": 2,
-          "text": "A fixação da periodicidade das inspeções e das intervenções de manutenção deve considerar:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "o previsto nas Normas Regulamentadoras e normas técnicas nacionais e, na ausência ou omissão destas, nas normas internacionais;"
-            }
-          ]
+          "text": "A fixação da periodicidade das inspeções e das intervenções de manutenção deve considerar: - a) o previsto nas Normas Regulamentadoras e normas técnicas nacionais e, na ausência ou omissão destas, nas normas internacionais;"
         },
         {
           "type": "list",
@@ -928,10 +856,6 @@
       "title": "Inspeção em Segurança e Saúde no Ambiente de Trabalho",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "20.11.1",
           "depth": 2,
@@ -1053,10 +977,6 @@
           "text": "Os trabalhadores que laboram em instalações classes I, II ou III e não adentram na área ou local de extração, produção, armazenamento, transferência, manuseio e manipulação de inflamáveis e líquidos combustíveis devem receber informações sobre os perigos, riscos e sobre procedimentos para situações de emergências."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "20.12.5",
           "depth": 2,
@@ -1157,10 +1077,6 @@
           "number": "20.12.14",
           "depth": 2,
           "text": "Os participantes da capacitação devem receber material didático, que pode ser em meio impresso, eletrônico ou similar."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1270,10 +1186,6 @@
           "text": "No caso de bacias de contenção, é vedado o armazenamento de materiais, recipientes e similares em seu interior, exceto nas atividades de manutenção e inspeção."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "20.14.5",
           "depth": 2,
@@ -1377,15 +1289,7 @@
           "type": "item",
           "number": "20.15.5.2",
           "depth": 3,
-          "text": "O empregador deve estabelecer critérios para avaliação dos resultados dos exercícios"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "simulados."
+          "text": "O empregador deve estabelecer critérios para avaliação dos resultados dos exercícios simulados."
         },
         {
           "type": "item",
@@ -1516,10 +1420,6 @@
           "number": "20.16.2",
           "depth": 2,
           "text": "O empregador deve elaborar relatório de investigação e análise da ocorrência descrita no item 20.16.1, contendo as causas básicas e medidas preventivas adotadas, e mantê-lo no local de trabalho a disposição da autoridade competente, dos trabalhadores e seus representantes."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -1590,10 +1490,6 @@
         {
           "type": "paragraph",
           "text": "**Tabela 2 - Critérios para Atualização**"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1769,10 +1665,6 @@
           "text": "3. Fontes de ignição e seu controle;"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| Intermediário | Trienal | Bienal | Bienal | 4 horas |\n| --- | --- | --- | --- | --- |\n| Avançado I | Bienal | | | 4 horas |\n| Avançado II | Anual | | | 4 horas |"
         },
@@ -1935,15 +1827,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "_1._ As instalações que desenvolvem atividades de manuseio, armazenamento, manipulação e transporte com gases inflamáveis acima de 1 (uma) tonelada até 2 (duas) toneladas e de líquidos inflamáveis e/ou combustíveis acima de 1 m³ (um metro cúbico) até 10 m³ (dez metros cúbicos) devem anexar ao seu PGR os seguintes registros atualizados ou mantidos em documento apartado, quando a organização for dispensada de manter o PGR: _(Todo o item alterado pela Portaria MTP nº 806, de 13 de abril de_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "_2022)_"
+          "text": "_1._ As instalações que desenvolvem atividades de manuseio, armazenamento, manipulação e transporte com gases inflamáveis acima de 1 (uma) tonelada até 2 (duas) toneladas e de líquidos inflamáveis e/ou combustíveis acima de 1 m³ (um metro cúbico) até 10 m³ (dez metros cúbicos) devem anexar ao seu PGR os seguintes registros atualizados ou mantidos em documento apartado, quando a organização for dispensada de manter o PGR: _(Todo o item alterado pela Portaria MTP nº 806, de 13 de abril de_ _2022)_"
         },
         {
           "type": "list",
@@ -2031,10 +1915,6 @@
         {
           "type": "paragraph",
           "text": "3.1 A instalação de armazenamento de recipientes com volume total superior aos limites mencionados no item 3 deve elaborar análise de riscos, conforme disposto nos itens 20.7.2, 20.7.2.1, 20.7.2.2, 20.7.4, 20.7.4.1, 20.7.5, 20.7.6 e 20.7.6.1, e plano de resposta a emergências, conforme itens"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2172,10 +2052,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "2.1.1 As alíneas \"d\" e \"f\" do item 2.1 deste Anexo não se aplicam a tanques de consumo, separados ou integrados na base do grupo gerador alimentados por diesel ou biodiesel. _(Alterado pela Portaria MTE nº 60, de 21 de janeiro de 2025)_"
         },
@@ -2283,15 +2159,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1.1 Este anexo estabelece os requisitos de segurança e saúde no trabalho para as atividades com exposição ocupacional ao benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- PRC contendo essa substância."
+          "text": "1.1 Este anexo estabelece os requisitos de segurança e saúde no trabalho para as atividades com exposição ocupacional ao benzeno em Postos de Serviços Revendedores de Combustíveis Automotivos - PRC contendo essa substância."
         },
         {
           "type": "paragraph",
@@ -2415,15 +2283,7 @@
         },
         {
           "type": "paragraph",
-          "text": "3.3 São direitos dos trabalhadores, além do previsto no item 1.4.4 da NR-01, serem informados sobre"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "os riscos potenciais de exposição ao benzeno que possam afetar sua segurança e saúde, bem como as medidas preventivas necessárias."
+          "text": "3.3 São direitos dos trabalhadores, além do previsto no item 1.4.4 da NR-01, serem informados sobre os riscos potenciais de exposição ao benzeno que possam afetar sua segurança e saúde, bem como as medidas preventivas necessárias."
         },
         {
           "type": "paragraph",
@@ -2610,20 +2470,7 @@
           "items": [
             {
               "label": "k",
-              "text": "esgotamento e limpeza de caixas separadoras;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "l",
-              "text": "limpeza de caixas de passagem e canaletas;"
+              "text": "esgotamento e limpeza de caixas separadoras; l) limpeza de caixas de passagem e canaletas;"
             }
           ]
         },
@@ -2716,10 +2563,6 @@
         {
           "type": "paragraph",
           "text": "7.1 Para os PRCs, o processo de identificação de perigos e avaliação de riscos ocupacionais previsto no subitem 1.5.4 da NR-01 deve considerar todas as atividades, setores, áreas, operações, procedimentos e equipamentos onde possa haver exposição dos trabalhadores a combustíveis líquidos contendo benzeno, seja pela via respiratória, seja pela via cutânea, incluindo as atividades relacionadas no subitem 5.1.1.1 deste anexo, no que couber."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -2906,10 +2749,6 @@
               "text": "investigação para análise de risco de contaminação de solo; e"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -3004,10 +2843,6 @@
         {
           "type": "paragraph",
           "text": "9.3.1 Nas situações em que a medição de tanques tiver que ser realizada com o uso de régua, é obrigatória a utilização dos EPI referidos no item 12 deste anexo."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -3112,10 +2947,6 @@
       "title": "10. Ambientes de Trabalho Anexos",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "10.1 Os PRC devem dispor de área exclusiva para armazenamento de amostras coletadas de combustíveis líquidos contendo benzeno, dotada de ventilação e temperatura adequadas e afastada de outras áreas de trabalho, dos locais de tomada de refeições e de vestiários."
         },
@@ -3175,15 +3006,7 @@
         },
         {
           "type": "paragraph",
-          "text": "12.2 Os trabalhadores que realizem a atividade de abastecimento de veículos, citada nas alíneas “g” e"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "“h” do subitem 5.1.1.1, em função das características inerentes à própria atividade, estão dispensados do uso de equipamento de proteção respiratória."
+          "text": "12.2 Os trabalhadores que realizem a atividade de abastecimento de veículos, citada nas alíneas “g” e “h” do subitem 5.1.1.1, em função das características inerentes à própria atividade, estão dispensados do uso de equipamento de proteção respiratória."
         }
       ]
     },
@@ -3205,7 +3028,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "14.1 Os PRC devem instalar sistema de recuperação de vapores. _(Vide prazo de implementação  - Portaria MTE_ _<u>nº 1.146, de 12 dejulho de 2024)</u>_"
+          "text": "14.1 Os PRC devem instalar sistema de recuperação de vapores. _(Vide prazo de implementação - Portaria MTE_ _nº 1.146, de 12 dejulho de 2024)_"
         },
         {
           "type": "paragraph",
@@ -3248,15 +3071,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Contratante - pessoa física ou jurídica que celebra contrato com empresa de prestação de serviços relacionados a quaisquer de suas atividades, inclusive sua atividade principal."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Coordenação - ação de assumir responsabilidade técnica."
+          "text": "Contratante - pessoa física ou jurídica que celebra contrato com empresa de prestação de serviços relacionados a quaisquer de suas atividades, inclusive sua atividade principal. Coordenação - ação de assumir responsabilidade técnica."
         },
         {
           "type": "paragraph",
@@ -3316,15 +3131,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Metodologias de análises de risco - constitui-se em um conjunto de métodos e técnicas que, aplicados"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "a operações que envolvam processo ou processamento, identificam os cenários hipotéticos de ocorrências indesejadas (acidentes), as possibilidades de danos, efeitos e consequências."
+          "text": "Metodologias de análises de risco - constitui-se em um conjunto de métodos e técnicas que, aplicados a operações que envolvam processo ou processamento, identificam os cenários hipotéticos de ocorrências indesejadas (acidentes), as possibilidades de danos, efeitos e consequências."
         },
         {
           "type": "paragraph",
@@ -3443,15 +3250,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Proficiência - competência, aptidão, capacitação e habilidade aliadas à experiência. Para avaliação da proficiência, pode ser verificado o currículo do profissional, a partir do conteúdo programático que ele ministrará. O conhecimento teórico pode ser comprovado através de diplomas, certificados e material didático elaborado pelo profissional. A experiência pode ser avaliada pelo tempo em que o profissional atua na área e serviços prestados."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Profissional habilitado - profissional com atribuições legais para a atividade a ser desempenhada e que assume a responsabilidade técnica, tendo registro no conselho profissional de classe."
+          "text": "Proficiência - competência, aptidão, capacitação e habilidade aliadas à experiência. Para avaliação da proficiência, pode ser verificado o currículo do profissional, a partir do conteúdo programático que ele ministrará. O conhecimento teórico pode ser comprovado através de diplomas, certificados e material didático elaborado pelo profissional. A experiência pode ser avaliada pelo tempo em que o profissional atua na área e serviços prestados. Profissional habilitado - profissional com atribuições legais para a atividade a ser desempenhada e que assume a responsabilidade técnica, tendo registro no conselho profissional de classe."
         },
         {
           "type": "paragraph",
@@ -3496,10 +3295,6 @@
         {
           "type": "paragraph",
           "text": "Unidade de processo - organização produtora que alcança o objetivo para o qual se destina através do processamento e/ou transformação de materiais/substância."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

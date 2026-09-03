@@ -4,7 +4,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 19 - EXPLOSIVOS** **Publicação D.O.U.** <u>Portaria MTb n.º 3.214, de 08 de junho de 1978</u> 06/07/78"
+        "text": "# **NR 19 - EXPLOSIVOS** **Publicação D.O.U.** Portaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78"
       },
       {
         "type": "table",
@@ -59,10 +59,6 @@
           "number": "19.3.2",
           "depth": 2,
           "text": "As atividades de fabricação, manuseio, armazenamento e transporte de explosivos devem obedecer ao disposto nesta norma, e no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -199,20 +195,7 @@
           "items": [
             {
               "label": "b",
-              "text": "fumar ou praticar ato suscetível de produzir fogo ou centelha;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "usar calçados cravejados com pregos ou peças metálicas externas; e"
+              "text": "fumar ou praticar ato suscetível de produzir fogo ou centelha; c) usar calçados cravejados com pregos ou peças metálicas externas; e"
             }
           ]
         },
@@ -323,15 +306,7 @@
           "type": "item",
           "number": "19.5.6",
           "depth": 2,
-          "text": "Na capacidade de armazenamento de depósitos levar-se-á em consideração os seguintes fatores:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "I - dimensões das embalagens de explosivos a armazenar;"
+          "text": "Na capacidade de armazenamento de depósitos levar-se-á em consideração os seguintes fatores: I - dimensões das embalagens de explosivos a armazenar;"
         },
         {
           "type": "paragraph",
@@ -435,15 +410,7 @@
           "type": "item",
           "number": "19.5.13",
           "depth": 2,
-          "text": "Para efeito da aplicação das Tabelas de Quantidades-Distâncias (Anexo II), serão considerados:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "I - como construção única, os depósitos de explosivos cujas distâncias entre si sejam inferiores às constantes nas Tabelas de Quantidades-Distâncias (Anexo II); ou"
+          "text": "Para efeito da aplicação das Tabelas de Quantidades-Distâncias (Anexo II), serão considerados: I - como construção única, os depósitos de explosivos cujas distâncias entre si sejam inferiores às constantes nas Tabelas de Quantidades-Distâncias (Anexo II); ou"
         },
         {
           "type": "paragraph",
@@ -587,20 +554,7 @@
           "items": [
             {
               "label": "k",
-              "text": "salvo casos especiais, de acordo com a análise de riscos da operação, os serviços de carga e descarga de explosivos devem ser feitos durante o dia e com tempo sem ocorrência de intempéries; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "l",
-              "text": "quando houver necessidade de carregar ou descarregar explosivos durante a noite, somente será usada iluminação com lanternas e holofotes elétricos que sejam específicos para áreas classificadas."
+              "text": "salvo casos especiais, de acordo com a análise de riscos da operação, os serviços de carga e descarga de explosivos devem ser feitos durante o dia e com tempo sem ocorrência de intempéries; e l) quando houver necessidade de carregar ou descarregar explosivos durante a noite, somente será usada iluminação com lanternas e holofotes elétricos que sejam específicos para áreas classificadas."
             }
           ]
         },
@@ -728,12 +682,7 @@
       "id": "sumário",
       "number": "",
       "title": "SUMÁRIO",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "1-objetivo",
@@ -874,17 +823,9 @@
           "items": [
             {
               "label": "c",
-              "text": "acidente do trabalho, o evento não previsto, ocorrido no exercício do trabalho ou como"
+              "text": "acidente do trabalho, o evento não previsto, ocorrido no exercício do trabalho ou como consequência desse, que resulte em danos à saúde ou integridade física do trabalhador;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "consequência desse, que resulte em danos à saúde ou integridade física do trabalhador;"
         },
         {
           "type": "list",
@@ -1051,20 +992,7 @@
           "items": [
             {
               "label": "a",
-              "text": "identificação do pavilhão e da atividade desenvolvida;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "número máximo de trabalhadores permitido;"
+              "text": "identificação do pavilhão e da atividade desenvolvida; b) número máximo de trabalhadores permitido;"
             }
           ]
         },
@@ -1219,12 +1147,7 @@
       "id": "5-programa-de-gerenciamento-de-riscos---pgr",
       "number": "",
       "title": "5. Programa de Gerenciamento de Riscos - PGR",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "51-o-pgr-das-organizações-deve-contemplar-além-do-disposto-na-norma-regulamentadora-nº-1-nr-1-as-disposições-deste-capítulo",
@@ -1388,20 +1311,7 @@
           "items": [
             {
               "label": "d",
-              "text": "local de armazenamento;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "e",
-              "text": "processos ou operações onde são utilizados;"
+              "text": "local de armazenamento; e) processos ou operações onde são utilizados;"
             }
           ]
         },
@@ -1544,15 +1454,7 @@
         },
         {
           "type": "paragraph",
-          "text": "IV. acionamento da brigada de incêndio;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "V. isolamento da área afetada (perímetro de segurança);"
+          "text": "IV. acionamento da brigada de incêndio; V. isolamento da área afetada (perímetro de segurança);"
         },
         {
           "type": "paragraph",
@@ -1618,12 +1520,7 @@
       "id": "63-as-organizações-desobrigadas-de-manter-cipa-devem-indicar-comissão-para-realizar-as-inspeções-que-deve-incluir-obrigatoriamente-pelo-menos-um-trabalhador-do-setor-de-produção-e-o-responsável-técnico",
       "number": "6.3",
       "title": "As organizações desobrigadas de manter CIPA devem indicar comissão para realizar as inspeções, que deve incluir, obrigatoriamente, pelo menos um trabalhador do setor de produção e o Responsável Técnico",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "64-o-treinamento-anual-da-cipa-ou-do-trabalhador-nomeado-para-o-cumprimento-dos-objetivos-da-comissão-deverá-incluir-todos-os-aspectos-relativos-aos-riscos-de-acidentes-com-explosivos-e-sua-prevenção",
@@ -1708,12 +1605,7 @@
       "id": "86-durante-a-jornada-laboral-as-portas-dos-pavilhões-de-trabalho-devem-ser-mantidas-totalmente-abertas-para-fora-por-meio-de-dispositivo-adequado-para-sua-fixação-nessa-posição-constituído-de-material-que-não-gere-centelhas-por-atrito-devendo-permanecer-desobstruídas",
       "number": "8.6",
       "title": "Durante a jornada laboral as portas dos pavilhões de trabalho devem ser mantidas totalmente abertas para fora, por meio de dispositivo adequado para sua fixação nessa posição, constituído de material que não gere centelhas por atrito, devendo permanecer desobstruídas",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "87-sempre-que-o-trabalho-puder-ser-executado-alternando-a-posição-de-pé-com-a-posição-sentada-o-posto-de-trabalho-deve-ser-planejado-ou-adaptado-para-favorecer-a-alternância-das-posições",
@@ -1802,10 +1694,6 @@
       "title": "Todos os trabalhadores devem portar calçados adequados ao trabalho",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "10.2.1",
           "depth": 2,
@@ -1888,19 +1776,10 @@
       "blocks": []
     },
     {
-      "id": "131-as-organizações-devem-manter-instalações-sanitárias-para-uso-de-seus-trabalhadores-separadas-por-sexo-adequadamente-conservadas-e-permanentemente-limpas-em-quantidade-suficiente-ao-número-daqueles-de-acordo-com-o-dimensionamento-previsto-na-norma-regulamentadora-nº-24",
+      "id": "131-as-organizações-devem-manter-instalações-sanitárias-para-uso-de-seus-trabalhadores-separadas-por-sexo-adequadamente-conservadas-e-permanentemente-limpas-em-quantidade-suficiente-ao-número-daqueles-de-acordo-com-o-dimensionamento-previsto-na-norma-regulamentadora-nº-24-nr-24-localizadas-estrategicamente-de-forma-a-atender-todo-o-perímetro-da-fábrica-à-distância-máxima-de-120-m-cento-e-vinte-metros-dos-postos-de-trabalho",
       "number": "13.1",
-      "title": "As organizações devem manter instalações sanitárias para uso de seus trabalhadores, separadas por sexo, adequadamente conservadas e permanentemente limpas, em quantidade suficiente ao número daqueles, de acordo com o dimensionamento previsto na Norma Regulamentadora nº 24",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "(NR-24), localizadas estrategicamente de forma a atender todo o perímetro da fábrica, à distância máxima de 120 m (cento e vinte metros) dos postos de trabalho."
-        }
-      ]
+      "title": "As organizações devem manter instalações sanitárias para uso de seus trabalhadores, separadas por sexo, adequadamente conservadas e permanentemente limpas, em quantidade suficiente ao número daqueles, de acordo com o dimensionamento previsto na Norma Regulamentadora nº 24 (NR-24), localizadas estrategicamente de forma a atender todo o perímetro da fábrica, à distância máxima de 120 m (cento e vinte metros) dos postos de trabalho",
+      "blocks": []
     },
     {
       "id": "132-os-estabelecimentos-devem-ser-dotados-de-vestiários-com-chuveiros-e-armários-individuais-em-quantidade-suficiente-ao-número-de-trabalhadores-de-acordo-com-o-dimensionamento-previsto-na-nr-24-localizados-estrategicamente-de-forma-a-permitir-que-todos-ingressem-na-área-perigosa-portando-somente-as-vestimentas-e-calçados-adequados-e-de-modo-a-propiciar-a-higienização-antes-do-acesso-ao-local-de-refeições",
@@ -2002,10 +1881,6 @@
               "text": "a correta utilização e manutenção dos equipamentos de proteção individual, bem como as suas limitações."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -2135,10 +2010,6 @@
               "text": "comércio de produtos de uso permitido: venda a varejo e/ou atacado de fogos de artifício ou outros artifícios pirotécnicos em geral que não são definidos como de uso restrito pela legislação do Exército Brasileiro."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -2223,19 +2094,10 @@
       "blocks": []
     },
     {
-      "id": "182-é-vedada-a-fabricação-de-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-com-as-matérias",
+      "id": "182-é-vedada-a-fabricação-de-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-com-as-matérias-primas-proibidas-pela-legislação-da-diretoria-de-fiscalização-de-produtos-controlados-do-exército-brasileiro",
       "number": "18.2",
-      "title": "É vedada a fabricação de fogos de artifícios ou outros artifícios pirotécnicos com as matérias-",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "primas proibidas pela legislação da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro."
-        }
-      ]
+      "title": "É vedada a fabricação de fogos de artifícios ou outros artifícios pirotécnicos com as matérias-primas proibidas pela legislação da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro",
+      "blocks": []
     },
     {
       "id": "183-é-vedada-a-contratação-de-serviços-externos-que-envolvam-o-manuseio-de-materiais-ou-misturas-de-explosivos-exceto-de-organização-ou-prestador-de-serviço-que-atenda-o-disposto-nesta-norma",
@@ -2314,10 +2176,6 @@
           "text": "1.5 As distâncias previstas nas tabelas não só decorrem da quantidade total do material armazenado, como também do alcance dos estilhaços."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "1.6 Para depósitos ou oficinas barricados ou entrincheirados, as distâncias previstas podem ser reduzidas à metade, tudo dependendo da vistoria do local."
         }
@@ -2377,27 +2235,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Fazem parte desta categoria o clorato de potássio, dinitrotolueno, emulsão base ou pré-emulsão, nitrato de amônio, perclorato  de amônio, perclorato  de potássio e  outros que só detonam em condições especiais:"
+          "text": "Fazem parte desta categoria o clorato de potássio, dinitrotolueno, emulsão base ou pré-emulsão, nitrato de amônio, perclorato de amônio, perclorato de potássio e outros que só detonam em condições especiais:"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "a",
-              "text": "quando os produtos armazenados apresentarem apenas o risco de fogo, as distâncias constantes da Tabela 1 devem ser aplicadas; e"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "quando os produtos forem armazenados próximos a outros materiais, com os quais podem formar misturas explosivas, as distâncias entre depósitos, devem obedecer às constantes da Tabela 3, permanecendo as demais distâncias (habitações, rodovias e ferrovias) as constantes da Tabela 1."
+              "text": "quando os produtos armazenados apresentarem apenas o risco de fogo, as distâncias constantes da Tabela 1 devem ser aplicadas; e b) quando os produtos forem armazenados próximos a outros materiais, com os quais podem formar misturas explosivas, as distâncias entre depósitos, devem obedecer às constantes da Tabela 3, permanecendo as demais distâncias (habitações, rodovias e ferrovias) as constantes da Tabela 1."
             }
           ]
         },
@@ -2453,10 +2298,6 @@
           "text": "**TABELA 2**"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| Peso Líquido | | Distâncias mínimas (m) | | | |\n| --- | --- | --- | --- | --- | --- |\n| (kg) | | Edifícios habitados | Ferrovias | Rodovias | Entre Depósitos ou oficinas |\n| De | Até | | | | |\n| 0 | 450 | 25 | 25 | 25 | 15 |\n| 451 | 2.250 | 35 | 35 | 35 | 25 |\n| 2.251 | 4.500 | 45 | 45 | 45 | 30 |\n| 4.501 | 9.000 | 60 | 60 | 60 | 40 |\n| 9.001 | 18.100 | 70 | 70 | 70 | 50 |\n| 18.001 | 31.750 | 80 | 80 | 80 | 55 |\n| 31.751 | 45.350 | 90 | 90 | 90 | 60 |\n| 45.351 | 90.700 | 115 | 115 | 115 | 75 |\n| 90.701 | 136.000 | 110 | 110 | 110 | 75 |\n| 136.001 | 181.400 | 150 | 150 | 150 | 100 |\n| 181.401 | 226.800 | 180 | 180 | 180 | 120 |"
         },
@@ -2473,10 +2314,6 @@
           "text": "**TABELA 3**"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| 201 | 500 | 260 | 160 | 80 | 65 |\n| --- | --- | --- | --- | --- | --- |\n| 501 | 900 | 300 | 180 | 95 | 90 |\n| 901 | 2.200 | 370 | 220 | 110 | 90 |\n| 2.201 | 4.500 | 460 | 280 | 140 | 90 |\n| 4.501 | 6.800 | 500 | 300 | 150 | 90 |\n| 6.801 | 9.000 | 530 | 320 | 160 | 90 |"
         },
@@ -2491,10 +2328,6 @@
         {
           "type": "paragraph",
           "text": "**TABELA 4**"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2516,10 +2349,6 @@
       "title": "da NR-19 GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| 68.021 | 90.700 | 999 | 500 | 250 | 167 |\n| --- | --- | --- | --- | --- | --- |\n| 90.701 | 113.370 | 1.076 | 538 | 269 | 179 |"
         },
@@ -2529,15 +2358,11 @@
         },
         {
           "type": "paragraph",
-          "text": "**GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE** **_<u>(cont.)</u>_**"
+          "text": "**GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE** **_(cont.)_**"
         },
         {
           "type": "paragraph",
           "text": "Observação:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2604,15 +2429,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Depósitos temporários móveis** : são construções especiais, geralmente galpões fechados, de material leve, com as laterais reforçadas e o teto de pouca resistência. Podem ser desmontáveis ou não, a fim de permitir o seu deslocamento de um ponto a outro do terreno, acompanhando a mudança de local dos trabalhos."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Dinamite** : são todos os que contêm nitroglicerina em sua composição, exigindo maior cuidado em seu manuseio e utilização devido à elevada sensibilidade."
+          "text": "**Depósitos temporários móveis** : são construções especiais, geralmente galpões fechados, de material leve, com as laterais reforçadas e o teto de pouca resistência. Podem ser desmontáveis ou não, a fim de permitir o seu deslocamento de um ponto a outro do terreno, acompanhando a mudança de local dos trabalhos. **Dinamite** : são todos os que contêm nitroglicerina em sua composição, exigindo maior cuidado em seu manuseio e utilização devido à elevada sensibilidade."
         },
         {
           "type": "paragraph",
@@ -2664,15 +2481,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Lama Explosiva** : são misturas de nitratos diluídos em água e agentes sensibilizantes na forma de"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "pastas; também conhecidos como “slurries” (ou, no singular, “slurry”)."
+          "text": "**Lama Explosiva** : são misturas de nitratos diluídos em água e agentes sensibilizantes na forma de pastas; também conhecidos como “slurries” (ou, no singular, “slurry”)."
         },
         {
           "type": "paragraph",
@@ -2713,10 +2522,6 @@
         {
           "type": "paragraph",
           "text": "**Veículos automotores que transportam explosivos e seus acessórios, munições e outros implementos de material bélico** : não são considerados depósitos. Devendo atender as características, dispositivos de segurança e habilitação dos condutores exigidos na legislação de transporte de cargas perigosas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

@@ -48,8 +48,11 @@ logger = logging.getLogger(__name__)
 
 
 def _normalize_table_cell(cell) -> str:
-    """Colapsa quebras de linha dentro de célula (artefato comum do PDF)."""
-    text = re.sub(r"\s+", " ", str(cell or "").replace("\n", " ")).strip()
+    """Colapsa quebras de linha e tags HTML dentro de célula."""
+    text = str(cell or "")
+    text = re.sub(r"<br\s*/?>", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"</?(?:mark|u)\b[^>]*>", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+", " ", text.replace("\n", " ")).strip()
     return text.replace("|", "\\|")
 
 
@@ -148,8 +151,24 @@ def _markdown_table_is_fragmented(table_md: str) -> bool:
     if len(data_rows) < 2:
         return False
 
-    short_rows = sum(1 for ln in data_rows if ln.count("|") <= 3)
-    return short_rows >= len(data_rows) * 0.4
+    # Linhas com no máximo 1 coluna (| x |) indicam fragmentação
+    short_rows = sum(1 for ln in data_rows if ln.count("|") <= 2)
+    if short_rows >= len(data_rows) * 0.4:
+        return True
+
+    # Grade esparsa: muitas células vazias no markdown gerado
+    total_cells = 0
+    empty_cells = 0
+    for ln in data_rows:
+        cells = [c.strip() for c in ln.strip("|").split("|")]
+        for cell in cells:
+            total_cells += 1
+            if not cell:
+                empty_cells += 1
+    if total_cells > 0 and empty_cells / total_cells >= 0.35:
+        return True
+
+    return False
 
 
 def _strip_duplicate_markdown_table(page_text: str) -> str:

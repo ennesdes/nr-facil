@@ -12,15 +12,7 @@
       },
       {
         "type": "paragraph",
-        "text": "_(Redação dada pela Portaria MTP nº 671, de 30 de março de 2022)_ **SUMÁRIO** 29.1 Objetivo 29.2 Campo de aplicação 29.3 Competências e responsabilidades 29.4 Programa de Gerenciamento de Riscos - PGR 29.5 Serviço Especializado em Segurança e Saúde do Trabalhador Portuário - SESSTP 29.6 Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho – SESMT 29.7 Comissão de Prevenção de Acidentes no Trabalho Portuário - CPATP 29.8 Operações de atracação, desatracação e manobras de embarcações 29.9 Acesso a embarcações atracadas e fundeadas 29.10 Operação em conveses 29.11 Porões 29.12 Trabalho em espaços confinados 29.13 Máquinas, equipamentos e acessórios de estivagem 29.14 Equipamentos de guindar de bordo e acessórios de estivagem 29.15 Lingamento e deslingamento de cargas 29.16 Operações com contêineres 29.17 Operações com granéis secos 29.18 Transporte, movimentação, armazenagem e manuseio 29.19 Segurança em armazéns e silos 29.20 Segurança nos trabalhos de limpeza e manutenção 29.21 Segurança nos serviços do vigia de portaló 29.22 Iluminação dos locais de trabalho 29.23 Transporte de trabalhadores por via aquática 29.24 Locais frigorificados 29.25 Condições sanitárias e de conforto nos locais de trabalho 29.26 Primeiros socorros e outras providências 29.27 Operações com cargas perigosas 29.28 Plano de Controle de Emergência - PCE 29.29 Plano de Ajuda Mútua - PAM ANEXO I - Dimensionamento do SESSTP"
-      },
-      {
-        "type": "note",
-        "text": "_Este texto não substitui o publicado no DOU_"
-      },
-      {
-        "type": "paragraph",
-        "text": "ANEXO II - Dimensionamento da CPATP ANEXO III - Regime de tempo de trabalho com tempo de recuperação térmica fora do ambiente frio ANEXO IV - Cargas perigosas ANEXO V - Segregação de cargas perigosas Glossário"
+        "text": "_(Redação dada pela Portaria MTP nº 671, de 30 de março de 2022)_ **SUMÁRIO** 29.1 Objetivo 29.2 Campo de aplicação 29.3 Competências e responsabilidades 29.4 Programa de Gerenciamento de Riscos - PGR 29.5 Serviço Especializado em Segurança e Saúde do Trabalhador Portuário - SESSTP 29.6 Serviços Especializados em Engenharia de Segurança e em Medicina do Trabalho – SESMT 29.7 Comissão de Prevenção de Acidentes no Trabalho Portuário - CPATP 29.8 Operações de atracação, desatracação e manobras de embarcações 29.9 Acesso a embarcações atracadas e fundeadas 29.10 Operação em conveses 29.11 Porões 29.12 Trabalho em espaços confinados 29.13 Máquinas, equipamentos e acessórios de estivagem 29.14 Equipamentos de guindar de bordo e acessórios de estivagem 29.15 Lingamento e deslingamento de cargas 29.16 Operações com contêineres 29.17 Operações com granéis secos 29.18 Transporte, movimentação, armazenagem e manuseio 29.19 Segurança em armazéns e silos 29.20 Segurança nos trabalhos de limpeza e manutenção 29.21 Segurança nos serviços do vigia de portaló 29.22 Iluminação dos locais de trabalho 29.23 Transporte de trabalhadores por via aquática 29.24 Locais frigorificados 29.25 Condições sanitárias e de conforto nos locais de trabalho 29.26 Primeiros socorros e outras providências 29.27 Operações com cargas perigosas 29.28 Plano de Controle de Emergência - PCE 29.29 Plano de Ajuda Mútua - PAM ANEXO I - Dimensionamento do SESSTP _ _ ANEXO II - Dimensionamento da CPATP ANEXO III - Regime de tempo de trabalho com tempo de recuperação térmica fora do ambiente frio ANEXO IV - Cargas perigosas ANEXO V - Segregação de cargas perigosas Glossário"
       }
     ]
   },
@@ -174,8 +166,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -319,8 +311,8 @@
           "text": "Compete também à administração do porto garantir infraestrutura adequada para a realização segura da atividade portuária em suas instalações, inclusive aquelas dedicadas às situações"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -428,8 +420,8 @@
           "text": "Os operadores portuários, tomadores de serviço, empregadores e o OGMO podem referenciar o PGR da administração portuária em seus programas."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         }
       ]
     },
@@ -566,8 +558,8 @@
           "text": "O SESSTP local, formado de acordo com o item anterior, deve ser coordenado pelo OGMO."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -675,8 +667,8 @@
           "text": "Aplicam-se ao SESSTP as disposições da NR-04 no que não forem contrárias ao disposto no item 29.5 desta NR."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         }
       ]
     },
@@ -777,8 +769,8 @@
           "text": "No caso de atendimento pelo SESSTP, este deverá desempenhar as atribuições da CPATP."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -871,8 +863,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -995,8 +987,8 @@
       "title": "Operações de atracação, desatracação e manobras de embarcações.",
       "blocks": [
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -1141,8 +1133,8 @@
           "text": "Somente podem ser utilizados meios de acesso à embarcação quando estes atenderem ao"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1296,8 +1288,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -1449,8 +1441,8 @@
           "text": "Quando não houver condições de utilização dos agulheiros, o acesso ao porão da embarcação"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1559,8 +1551,8 @@
           "text": "Quando em atividade, os vãos livres devem ser devidamente sinalizados, iluminados e"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1688,8 +1680,8 @@
           "text": "Identificado espaço confinado em operações portuárias no interior de embarcações, as"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1820,8 +1812,8 @@
           "text": "É proibida a circulação de empilhadeiras sobre cargas estivadas que formem saliências ou depressões ou sejam feitas de material não resistente, de forma a prejudicar sua movimentação."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -1923,8 +1915,8 @@
           "text": "Lingas descartáveis não devem ser reutilizadas, sendo inutilizadas imediatamente após o uso."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -2039,8 +2031,8 @@
           "text": "As cabines dos equipamentos de guindar de bordo devem ter acesso seguro, proteção contra queda de pessoas e objetos, proteção contra contaminantes e mobiliário fixo à estrutura."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -2179,8 +2171,8 @@
           "text": "O sinaleiro deve ser facilmente destacável das demais pessoas na área de operação pelo uso"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -2311,8 +2303,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -2451,8 +2443,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -2576,8 +2568,8 @@
           "text": "O laudo da vistoria deve atender aos seguintes requisitos:"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -2722,8 +2714,8 @@
           "text": "Máquinas e equipamentos que trafeguem em instalação portuária devem estar em condições seguras para circulação."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -2856,8 +2848,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -2949,8 +2941,8 @@
           "text": "Deve ser fornecido ao vigia assento com encosto, com forma levemente adaptada ao corpo para a proteção da região lombar."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         }
       ]
     },
@@ -3092,8 +3084,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -3190,8 +3182,8 @@
           "text": "No caso de acidente grave ou fatal a bordo, o responsável pela embarcação deve comunicar, imediatamente, à Capitania dos Portos, às suas Delegacias ou Agências e ao órgão regional competente em matéria de segurança e saúde no trabalho."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -3324,8 +3316,8 @@
           "text": "O Operador Portuário ou o Tomador de Serviço, responsável pela movimentação da carga perigosa, deve garantir, com a antecedência mínima de vinte e quatro horas antes da escalação, o recebimento da seguinte documentação pelo OGMO ou, quando substituindo o OGMO, pelos sindicatos dos trabalhadores:"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -3454,8 +3446,8 @@
           "text": "As cargas perigosas devem ser submetidas a cuidados especiais considerando suas características, sendo observadas, dentre outras, as providências para adoção das medidas constantes das fichas com informações de segurança de cargas perigosas, inclusive aquelas cujas"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -3639,8 +3631,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "list",
@@ -3811,8 +3803,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -3957,8 +3949,8 @@
           "text": "O armazenamento de cargas perigosas em contêineres deve obedecer a tabela de tipo de segregação prevista no Anexo V desta NR."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -4076,8 +4068,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -4251,8 +4243,8 @@
           "text": "O resultado da avaliação deverá ser informado aos participantes do simulado."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -4346,8 +4338,8 @@
           "text": "Cada membro do PAM deverá designar um representante técnico."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "item",
@@ -4398,8 +4390,8 @@
       "title": "REGIME DE TEMPO DE TRABALHO COM TEMPO DE RECUPERAÇÃO TÉRMICA FORA DO AMBIENTE FRIO",
       "blocks": [
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -4439,8 +4431,8 @@
       "title": "CLASSE 1 - EXPLOSIVOS",
       "blocks": [
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -4464,8 +4456,8 @@
       "title": "TABELA I - TIPO DE SEGREGAÇÃO",
       "blocks": [
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -4521,8 +4513,8 @@
           "text": "1) As tabelas estão baseadas no quadro de segregação do Código Marítimo Internacional de Mercadorias Perigosas - IMDG/CODE-IMO."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -4604,8 +4596,8 @@
           "text": "Administração Portuária - é a pessoa jurídica responsável pela administração do porto organizado, também denominada autoridade portuária."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -4660,8 +4652,8 @@
           "text": "Escada Quebra-Peito (escada de marinheiro) - escada vertical utilizada para subida e descida, esporádicas, de embarcações, construídas de cordas e madeira, obedecendo a normas marítimas internacionais."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -4720,8 +4712,8 @@
           "text": "Instalação portuária - instalação localizada dentro ou fora da área do porto organizado e utilizada em movimentação de passageiros, em movimentação ou armazenagem de mercadorias e cargas diversas destinadas ou provenientes de transporte aquaviário. Estão também compreendidas: a ETC - Estação de Transbordo de Cargas: instalação portuária explorada mediante autorização, localizada fora da área do porto organizado e utilizada exclusivamente para operação de transbordo de mercadorias ou cargas em embarcações de navegação interior ou cabotagem; a Instalação Portuária Pública de"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -4776,8 +4768,8 @@
           "text": "Porto - local situado em baía, angra, enseada, foz ou margens de rios, que ofereça proteção natural ou artificial contra ventos, marés, ondas e correntes, e ofereça instalações para atracação e amarração de embarcações, áreas de armazenagem e equipamentos de movimentação de carga, que possibilite o embarque e desembarque de mercadorias, cargas diversas e passageiros."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -4832,8 +4824,8 @@
           "text": "Vigia de portaló - vigia portuário que fica no controle de entrada e saída de pessoas junto à escada de portaló."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         }
       ]
     }

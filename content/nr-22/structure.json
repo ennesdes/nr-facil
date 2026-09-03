@@ -8,7 +8,7 @@
       },
       {
         "type": "table",
-        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| <br>Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria MTb nº2.037, de 15 de dezembro de 1999 | 20/12/99 |\n| Portaria SIT nº33, de 26 de dezembro de 2000 | 27/12/00 |\n| Portaria SIT nº27, de 01 de outubro de 2002 | 03/10/02 |\n| Portaria SIT nº63, de 02 de dezembro de 2003 | 04/12/03 |\n| Portaria SIT nº70, de 12 de março de 2004 | 17/03/04 |\n| Portaria SIT nº202, de 26 de janeiro de 2011 | 27/01/11 |\n| Portaria SIT nº1.894, de 09 de dezembro de 2013 | 11/12/13 |\n| Portaria MTE nº732, de 22 de maio de 2014 | 26/05/14 |\n| Portaria MTPS nº506, de 29 de abril de 2016 | 02/05/16 |\n| Portaria MTb nº1.085, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPTR nº210, de 11 de abril de 2019 | 12/04/19 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 19/04/22 |\n| Portaria MTP nº4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTE nº225, de 26 de fevereiro de 2024 | 27/02/24 |\n| Portaria MTE nº836, de 27 de maio de 2024 | 27/05/24 |\n| Portaria MTE nº1.344, de 08 de agosto de 2024 | 09/08/24 |\n| <br>Portaria MTE nº2.105, de 23 de dezembro de 2024 | 24/12/24 |\n| Portaria MTE nº105, de 29 de janeiro de 2026 | 30/01/26 |\n| Portaria MTE nº261, de 12 de fevereiro de 2026 | 13/02/26 |"
+        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb nº3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria MTb nº2.037, de 15 de dezembro de 1999 | 20/12/99 |\n| Portaria SIT nº33, de 26 de dezembro de 2000 | 27/12/00 |\n| Portaria SIT nº27, de 01 de outubro de 2002 | 03/10/02 |\n| Portaria SIT nº63, de 02 de dezembro de 2003 | 04/12/03 |\n| Portaria SIT nº70, de 12 de março de 2004 | 17/03/04 |\n| Portaria SIT nº202, de 26 de janeiro de 2011 | 27/01/11 |\n| Portaria SIT nº1.894, de 09 de dezembro de 2013 | 11/12/13 |\n| Portaria MTE nº732, de 22 de maio de 2014 | 26/05/14 |\n| Portaria MTPS nº506, de 29 de abril de 2016 | 02/05/16 |\n| Portaria MTb nº1.085, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPTR nº210, de 11 de abril de 2019 | 12/04/19 |\n| Portaria MTP nº806, de 13 de abril de 2022 | 19/04/22 |\n| Portaria MTP nº4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTE nº225, de 26 de fevereiro de 2024 | 27/02/24 |\n| Portaria MTE nº836, de 27 de maio de 2024 | 27/05/24 |\n| Portaria MTE nº1.344, de 08 de agosto de 2024 | 09/08/24 |\n| Portaria MTE nº2.105, de 23 de dezembro de 2024 | 24/12/24 |\n| Portaria MTE nº105, de 29 de janeiro de 2026 | 30/01/26 |\n| Portaria MTE nº261, de 12 de fevereiro de 2026 | 13/02/26 |"
       },
       {
         "type": "paragraph",
@@ -592,7 +592,7 @@
           "type": "item",
           "number": "22.7.4",
           "depth": 2,
-          "text": "As instalações de tratamento de minério com altura superior a 12 m (doze metros) devem possuir sistema de transporte vertical mecanizado de pessoas e materiais para acesso aos locais de trabalho, sendo proibida a instalação de elevador tracionado com cabo único e aqueles adaptados com mais de um cabo que não atendam as normas técnicas nacionais vigentes. _(Vide_ _<mark>prazo para vigência</mark> - Art. 3º da Portaria MTE nº 225, de 26 de fevereiro de 2024)_"
+          "text": "As instalações de tratamento de minério com altura superior a 12 m (doze metros) devem possuir sistema de transporte vertical mecanizado de pessoas e materiais para acesso aos locais de trabalho, sendo proibida a instalação de elevador tracionado com cabo único e aqueles adaptados com mais de um cabo que não atendam as normas técnicas nacionais vigentes. _(Vide_ _prazo para vigência - Art. 3º da Portaria MTE nº 225, de 26 de fevereiro de 2024)_"
         },
         {
           "type": "item",
@@ -692,7 +692,7 @@
           "type": "item",
           "number": "22.7.12",
           "depth": 2,
-          "text": "É proibido o transporte de material por meio de vagonetas. _(Vide_ _<mark>prazo para vigência</mark> - Art. 3º da_ _<u>Portaria MTE nº 225, de 26 de fevereiro de 2024)</u>_"
+          "text": "É proibido o transporte de material por meio de vagonetas. _(Vide_ _prazo para vigência - Art. 3º da_ _Portaria MTE nº 225, de 26 de fevereiro de 2024)_"
         },
         {
           "type": "item",
@@ -1968,7 +1968,7 @@
           "type": "item",
           "number": "22.12.11",
           "depth": 2,
-          "text": "A máquina autopropelida com massa (tara) superior a 4.500 kg (quatro mil e quinhentos quilos) deve possuir cabine climatizada e oferecer proteção contra queda e projeção de objetos e contra incidência de raios solares e intempéries. _(Vide_ _<mark>prazo para vigência</mark> - Art. 3º da Portaria MTE nº 225,_ _<u>de 26 de fevereiro de 2024)</u>_"
+          "text": "A máquina autopropelida com massa (tara) superior a 4.500 kg (quatro mil e quinhentos quilos) deve possuir cabine climatizada e oferecer proteção contra queda e projeção de objetos e contra incidência de raios solares e intempéries. _(Vide_ _prazo para vigência - Art. 3º da Portaria MTE nº 225,_ _de 26 de fevereiro de 2024)_"
         },
         {
           "type": "item",
@@ -1978,7 +1978,7 @@
         },
         {
           "type": "paragraph",
-          "text": "contra incidência de raios solares e intempéries. _(Vide_ _<mark>prazo para vigência</mark> - Art. 3º da Portaria MTE nº 225,_ _<u>de 26 de fevereiro de 2024)</u>_"
+          "text": "contra incidência de raios solares e intempéries. _(Vide_ _prazo para vigência - Art. 3º da Portaria MTE nº 225,_ _de 26 de fevereiro de 2024)_"
         },
         {
           "type": "item",
@@ -4734,19 +4734,19 @@
         },
         {
           "type": "paragraph",
-          "text": "**_<mark>Observações sobre prazo:</mark>_**"
+          "text": "**_Observações sobre prazo:_**"
         },
         {
           "type": "paragraph",
-          "text": "_<mark>1 -</mark>_ **_<mark>Vigente</mark>_** _<mark>para</mark>_ **_<mark>barragens</mark>_** _<mark>alteadas pelo</mark>_ **_<mark>método a montante</mark>_** _<mark>.</mark>_"
+          "text": "_1 -_ **_Vigente_** _para_ **_barragens_** _alteadas pelo_ **_método a montante_** _._"
         },
         {
           "type": "paragraph",
-          "text": "_<mark>2 - Para</mark>_ **_<mark>barragens alteadas</mark>_** _<mark>por</mark>_ **_<mark>outro método</mark>_** _<mark>que</mark>_ **_<mark>não a montante</mark>_** _<mark>, o item entra em vigor</mark>_ **_<mark>no dia 26 de dezembro de 2029,</mark>_** _<mark>de acordo com o §1º, do art. 7º, da Portaria MTE nº 105, de 29 de janeiro de 2026, em função da data de</mark>_"
+          "text": "_2 - Para_ **_barragens alteadas_** _por_ **_outro método_** _que_ **_não a montante_** _, o item entra em vigor_ **_no dia 26 de dezembro de 2029,_** _de acordo com o §1º, do art. 7º, da Portaria MTE nº 105, de 29 de janeiro de 2026, em função da data de_"
         },
         {
           "type": "paragraph",
-          "text": "_<mark>publicação da Portaria MTE nº 2.105, de 23 de dezembro de 2024,</mark>_ **_<mark>devendo ser obedecido</mark>_** _<mark>, como disposição transitória, o disposto no item</mark>_ **_<mark>22.35.3</mark>_** _<mark>e subitens</mark>_ **_<mark>22.35.3.1</mark>_** _<u><mark>,</mark></u>_ **_<mark>22.35.3.2</mark>_** _<mark>e</mark>_ **_<mark>22.35.3.3</mark>_** _<u><mark>).</mark></u>_"
+          "text": "_publicação da Portaria MTE nº 2.105, de 23 de dezembro de 2024,_ **_devendo ser obedecido_** _, como disposição transitória, o disposto no item_ **_22.35.3_** _e subitens_ **_22.35.3.1_** _,_ **_22.35.3.2_** _e_ **_22.35.3.3_** _)._"
         },
         {
           "type": "item",
@@ -6009,7 +6009,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_<mark>Obs.:</mark>_** _<u><mark>(Portaria MTE nº 836, de 27 de maio de 2024)</mark></u>_ _<mark>- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método</mark>_ _<u><mark>que não a montante.</mark></u>_"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6019,7 +6019,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_<mark>Obs.:</mark>_** _<u><mark>(Portaria MTE nº 836, de 27 de maio de 2024)</mark></u>_ _<mark>- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método</mark>_ _<u><mark>que não a montante.</mark></u>_"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6047,7 +6047,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_<mark>Obs.:</mark>_** _<u><mark>(Portaria MTE nº 836, de 27 de maio de 2024)</mark></u>_ _<mark>- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método</mark>_ _<u><mark>que não a montante.</mark></u>_"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         },
         {
           "type": "item",
@@ -6061,7 +6061,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**_<mark>Obs.:</mark>_** _<u><mark>(Portaria MTE nº 836, de 27 de maio de 2024)</mark></u>_ _<mark>- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método</mark>_ _<u><mark>que não a montante.</mark></u>_"
+          "text": "**_Obs.:_** _(Portaria MTE nº 836, de 27 de maio de 2024)_ _- Não se aplica a barragens alteados pelo método a montante. - Vigente transitoriamente ao item 22.24.8, até 26 de dezembro de 2029, para barragens alteadas por outro método_ _que não a montante._"
         }
       ]
     },
@@ -6256,7 +6256,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Intemperizada - área onde as rochas expostas ficaram sujeitas ao processo de intemperismo físico, químico e biológico, causado por fatores como clima, mudanças bruscas de temperatura e pela água.  Intemperização é um termo da geologia que significa desgaste do solo. Dependendo da localização da rocha, ela sofre intemperização (intemperismo), ou seja, ela se desgasta."
+          "text": "Intemperizada - área onde as rochas expostas ficaram sujeitas ao processo de intemperismo físico, químico e biológico, causado por fatores como clima, mudanças bruscas de temperatura e pela água. Intemperização é um termo da geologia que significa desgaste do solo. Dependendo da localização da rocha, ela sofre intemperização (intemperismo), ou seja, ela se desgasta."
         },
         {
           "type": "paragraph",
@@ -7661,7 +7661,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**~~Grupo de Exposição Similar~~** _<u>(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)</u>_"
+          "text": "**~~Grupo de Exposição Similar~~** _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_"
         },
         {
           "type": "paragraph",

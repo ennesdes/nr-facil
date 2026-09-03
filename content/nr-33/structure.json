@@ -132,8 +132,13 @@
           ]
         },
         {
-          "type": "note",
-          "text": "c) assegurar que o gerenciamento de riscos ocupacionais contemple as medidas de prevenção _Este texto não substitui o publicado no DOU_"
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "assegurar que o gerenciamento de riscos ocupacionais contemple as medidas de prevenção _ _"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -345,8 +350,13 @@
       "title": "33.3.4 Compete ao vigia:",
       "blocks": [
         {
-          "type": "note",
-          "text": "a) permitir somente a entrada de trabalhadores autorizados em espaços confinados _Este texto não substitui o publicado no DOU_"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "permitir somente a entrada de trabalhadores autorizados em espaços confinados _ _"
+            }
+          ]
         },
         {
           "type": "paragraph",
@@ -543,8 +553,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -741,8 +751,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -907,8 +917,8 @@
           "text": "A PET deve ser emitida em meio físico ou digital."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1110,8 +1120,10 @@
           ]
         },
         {
-          "type": "note",
-          "text": "**33.5.12.1.1** A validade da PET, incluindo as prorrogações, não pode exceder a 24 (vinte e _Este texto não substitui o publicado no DOU_"
+          "type": "item",
+          "number": "33.5.12.1.1",
+          "depth": 4,
+          "text": "A validade da PET, incluindo as prorrogações, não pode exceder a 24 (vinte e _ _"
         },
         {
           "type": "paragraph",
@@ -1293,8 +1305,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1454,8 +1466,8 @@
           "text": "O auto-zero ou ajuste de ar limpo e o teste de resposta do equipamento de avaliação, quando utilizados, devem ser realizados diariamente antes do início das avaliações."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1576,8 +1588,8 @@
           "text": "A organização deve, além do previsto na preparação para emergências estabelecida pela da NR-01, elaborar um Plano de Resgate para espaços confinados, podendo estar"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1640,7 +1652,7 @@
         },
         {
           "type": "paragraph",
-          "text": "33.5.20.3  A organização deve assegurar que a equipe de emergência e salvamento atenda o disposto na alínea \"c\" do subitem 33.5.20.2."
+          "text": "33.5.20.3 A organização deve assegurar que a equipe de emergência e salvamento atenda o disposto na alínea \"c\" do subitem 33.5.20.2."
         },
         {
           "type": "item",
@@ -1746,8 +1758,8 @@
           "text": "A capacitação dos trabalhadores designados para trabalhos em espaços confinados deve ser feita de acordo com o estabelecido na NR-01."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1873,8 +1885,8 @@
       "title": "SINALIZAÇÃO OBRIGATÓRIA PARA ESPAÇO CONFINADO",
       "blocks": [
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -1898,8 +1910,8 @@
           "markdown": "| **Modelo de caráter informativo para elaboração da PET em Espaço Confinado** |\n| --- |\n| Nome da organização: |\n| Local do espaço confinado: |\n| Espaço confinado nº: |\n| Data e horário da emissão: |\n| Data e horário do término: |\n| Trabalho a ser realizado: |\n| Trabalhadores autorizados: |\n| Vigia: |\n| Equipe de resgate: |\n| Supervisor de Entrada: |"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "image",
@@ -1911,8 +1923,8 @@
           "text": "Entra em vigor no dia **03 de outubro de 2022** _(Portaria MTP n.º 1.690, de 15 de junho de 2022)_"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -1947,8 +1959,8 @@
           "text": "**ANEXO III**"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -1986,7 +1998,7 @@
     {
       "id": "2-conteúdo-programático",
       "number": "",
-      "title": "2  Conteúdo programático",
+      "title": "2 Conteúdo programático",
       "blocks": []
     },
     {
@@ -2005,31 +2017,31 @@
         },
         {
           "type": "paragraph",
-          "text": "I.  definições; _(Retificado em 20/10/2022)_"
+          "text": "I. definições; _(Retificado em 20/10/2022)_"
         },
         {
           "type": "paragraph",
-          "text": "II.  identificação dos espaços confinados;"
+          "text": "II. identificação dos espaços confinados;"
         },
         {
           "type": "paragraph",
-          "text": "III.  reconhecimento, avaliação e controle de riscos;"
+          "text": "III. reconhecimento, avaliação e controle de riscos;"
         },
         {
           "type": "paragraph",
-          "text": "IV.  funcionamento de equipamentos utilizados;"
+          "text": "IV. funcionamento de equipamentos utilizados;"
         },
         {
           "type": "paragraph",
-          "text": "V.  procedimentos e utilização da PET;"
+          "text": "V. procedimentos e utilização da PET;"
         },
         {
           "type": "paragraph",
-          "text": "VI.  critérios de indicação e uso de equipamentos para controle de riscos;"
+          "text": "VI. critérios de indicação e uso de equipamentos para controle de riscos;"
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "table",
@@ -2041,27 +2053,27 @@
         },
         {
           "type": "paragraph",
-          "text": "VII.  conhecimento sobre práticas seguras em espaços confinados;"
+          "text": "VII. conhecimento sobre práticas seguras em espaços confinados;"
         },
         {
           "type": "paragraph",
-          "text": "VIII.  legislação de segurança e saúde no trabalho;"
+          "text": "VIII. legislação de segurança e saúde no trabalho;"
         },
         {
           "type": "paragraph",
-          "text": "XI.  Programa de Proteção Respiratória;"
+          "text": "XI. Programa de Proteção Respiratória;"
         },
         {
           "type": "paragraph",
-          "text": "X.  área classificada;"
+          "text": "X. área classificada;"
         },
         {
           "type": "paragraph",
-          "text": "XI.  noções de resgate e primeiros socorros; e"
+          "text": "XI. noções de resgate e primeiros socorros; e"
         },
         {
           "type": "paragraph",
-          "text": "XII.  operações de salvamento."
+          "text": "XII. operações de salvamento."
         },
         {
           "type": "list",
@@ -2074,23 +2086,23 @@
         },
         {
           "type": "paragraph",
-          "text": "I.  definições"
+          "text": "I. definições"
         },
         {
           "type": "paragraph",
-          "text": "II.  reconhecimento, avaliação e controle de riscos;"
+          "text": "II. reconhecimento, avaliação e controle de riscos;"
         },
         {
           "type": "paragraph",
-          "text": "III.  funcionamento de equipamentos utilizados;"
+          "text": "III. funcionamento de equipamentos utilizados;"
         },
         {
           "type": "paragraph",
-          "text": "IV.  procedimentos e utilização da PET; e"
+          "text": "IV. procedimentos e utilização da PET; e"
         },
         {
           "type": "paragraph",
-          "text": "V.  noções de resgate e primeiros socorros."
+          "text": "V. noções de resgate e primeiros socorros."
         },
         {
           "type": "list",
@@ -2145,8 +2157,8 @@
           "text": "Avaliações iniciais da atmosfera: conjunto de medições preliminares realizadas na atmosfera do espaço confinado."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         },
         {
           "type": "paragraph",
@@ -2225,8 +2237,8 @@
           "text": "Oxigênio puro: atmosfera contendo somente oxigênio (100%)."
         },
         {
-          "type": "note",
-          "text": "PET: documento contendo o conjunto de medidas de controle visando à entrada e _Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "PET: documento contendo o conjunto de medidas de controle visando à entrada e _ _"
         },
         {
           "type": "paragraph",
@@ -2269,8 +2281,8 @@
           "text": "Vigia: trabalhador designado para permanecer fora do espaço confinado e que é responsável pelo acompanhamento, comunicação e ordem de abandono para os trabalhadores."
         },
         {
-          "type": "note",
-          "text": "_Este texto não substitui o publicado no DOU_"
+          "type": "paragraph",
+          "text": "_ _"
         }
       ]
     }

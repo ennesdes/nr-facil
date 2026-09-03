@@ -19,6 +19,7 @@ except ImportError:
 from convert_nr import (
     _table_to_markdown,
     _is_probably_illegible,
+    _markdown_table_is_fragmented,
     _strip_duplicate_markdown_table,
     _combine_and_sort_bboxes,
 )
@@ -233,6 +234,44 @@ class TestStripDuplicateMarkdownTable(unittest.TestCase):
         self.assertNotIn("| Col1 | Col2 |", result)
         self.assertIn("Texto", result)
         self.assertIn("Mais", result)
+
+
+class TestMarkdownTableIsFragmented(unittest.TestCase):
+    """Testes para _markdown_table_is_fragmented."""
+
+    def test_good_table_not_fragmented(self):
+        md = "| A | B |\n| --- | --- |\n| 1 | 2 |\n| 3 | 4 |"
+        self.assertFalse(_markdown_table_is_fragmented(md))
+
+    def test_sparse_table_is_fragmented(self):
+        md = (
+            "| A | | | | B |\n"
+            "| --- | --- | --- | --- | --- |\n"
+            "| | | x | | |\n"
+            "| | y | | | |\n"
+        )
+        self.assertTrue(_markdown_table_is_fragmented(md))
+
+    def test_short_rows_table_is_fragmented(self):
+        md = (
+            "| a |\n"
+            "| --- |\n"
+            "| b |\n"
+            "| c |\n"
+            "| d |\n"
+            "| e |\n"
+        )
+        self.assertTrue(_markdown_table_is_fragmented(md))
+
+    def test_table_with_br_in_cell_is_not_fragmented(self):
+        """<br> é normalizado na célula — tabela legítima não deve virar PNG."""
+        table = [
+            ["Publicação", "D.O.U."],
+            ["Portaria<br>MTb nº3.214", "06/07/78"],
+        ]
+        md = _table_to_markdown(table)
+        self.assertNotIn("<br>", md)
+        self.assertFalse(_markdown_table_is_fragmented(md))
 
 
 class TestIntegration(unittest.TestCase):

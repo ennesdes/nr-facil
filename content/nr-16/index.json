@@ -22,18 +22,18 @@
     },
     {
       "level": 1,
-      "text": "**<u>QUADRO Nº 2</u>**",
-      "id": "uquadro-nº-2u"
+      "text": "**QUADRO Nº 2**",
+      "id": "quadro-nº-2"
     },
     {
       "level": 1,
-      "text": "**<u>QUADRO Nº 3</u>**",
-      "id": "uquadro-nº-3u"
+      "text": "**QUADRO Nº 3**",
+      "id": "quadro-nº-3"
     },
     {
       "level": 1,
-      "text": "**<u>QUADRO Nº 4</u>**",
-      "id": "uquadro-nº-4u"
+      "text": "**QUADRO Nº 4**",
+      "id": "quadro-nº-4"
     },
     {
       "level": 1,
@@ -47,8 +47,8 @@
     },
     {
       "level": 1,
-      "text": "**<u>QUADRO l</u>**",
-      "id": "uquadro-lu"
+      "text": "**QUADRO l**",
+      "id": "quadro-l"
     },
     {
       "level": 1,
@@ -107,13 +107,13 @@
     },
     {
       "level": 1,
-      "text": "**<mark>ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS</mark>**",
-      "id": "markatividades-e-operações-perigosas-com-radiações-ionizantes-ou-substâncias-radioativasmark"
+      "text": "**ATIVIDADES E OPERAÇÕES PERIGOSAS COM RADIAÇÕES IONIZANTES OU SUBSTÂNCIAS RADIOATIVAS**",
+      "id": "atividades-e-operações-perigosas-com-radiações-ionizantes-ou-substâncias-radioativas"
     },
     {
       "level": 1,
-      "text": "**<mark>ATIVIDADES/ÁREAS DE RISCO</mark>**",
-      "id": "markatividadesáreas-de-riscomark"
+      "text": "**ATIVIDADES/ÁREAS DE RISCO**",
+      "id": "atividadesáreas-de-risco"
     }
   ]
 }

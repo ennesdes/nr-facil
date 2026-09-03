@@ -4,7 +4,19 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 38 - SEGURANÇA E SAÚDE NO TRABALHO NAS ATIVIDADES DE LIMPEZA URBANA E MANEJO DE RESÍDUOS SÓLIDOS** **Publicação D.O.U.** <u>Portaria MTP nº 4.101, de 16 de dezembro de 2022</u> 19/12/22 <u>Portaria MTE nº 779, de 16 de maio de 2025</u> 20/05/25 <u>Portaria MTE nº 817, de 08 de maio de 2026</u> 11/05/26 _<mark>(Redação dada pela Portaria MTP nº 4.101, de 16 de dezembro de 2022)</mark>_ **<mark>38.1 Objetivo</mark>** **<mark>38.1.1</mark>** <mark>Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores nas atividades de limpeza urbana e manejo de resíduos sólidos.</mark>"
+        "text": "# **NR 38 - SEGURANÇA E SAÚDE NO TRABALHO NAS ATIVIDADES DE LIMPEZA URBANA E MANEJO DE RESÍDUOS SÓLIDOS** **Publicação D.O.U.** Portaria MTP nº 4.101, de 16 de dezembro de 2022 19/12/22 Portaria MTE nº 779, de 16 de maio de 2025 20/05/25 Portaria MTE nº 817, de 08 de maio de 2026 11/05/26 _(Redação dada pela Portaria MTP nº 4.101, de 16 de dezembro de 2022)_"
+      },
+      {
+        "type": "item",
+        "number": "38.1",
+        "depth": 1,
+        "text": "Objetivo**"
+      },
+      {
+        "type": "item",
+        "number": "38.1.1",
+        "depth": 2,
+        "text": "Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores nas atividades de limpeza urbana e manejo de resíduos sólidos."
       }
     ]
   },
@@ -15,12 +27,19 @@
       "title": "Campo de aplicação",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.2.1</mark>** <mark>As disposições contidas nesta NR aplicam-se às seguintes atividades de limpeza urbana e manejo de resíduos sólidos:</mark>"
+          "type": "item",
+          "number": "38.2.1",
+          "depth": 2,
+          "text": "As disposições contidas nesta NR aplicam-se às seguintes atividades de limpeza urbana e manejo de resíduos sólidos:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) coleta, transporte e transbordo de resíduos sólidos urbanos e resíduos de serviços de saúde até a descarga para destinação final;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "coleta, transporte e transbordo de resíduos sólidos urbanos e resíduos de serviços de saúde até a descarga para destinação final;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -113,23 +132,32 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.2.1.1</mark>** <mark>Em relação aos resíduos de serviços de saúde, devem ser atendidos, além do disposto nesta NR, a regulamentação aplicável ao tema.</mark>"
+          "type": "item",
+          "number": "38.2.1.1",
+          "depth": 3,
+          "text": "Em relação aos resíduos de serviços de saúde, devem ser atendidos, além do disposto nesta NR, a regulamentação aplicável ao tema."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.2.1.2</mark>** <mark>Para os fins desta NR, consideram-se resíduos sólidos urbanos:</mark>"
+          "type": "item",
+          "number": "38.2.1.2",
+          "depth": 3,
+          "text": "Para os fins desta NR, consideram-se resíduos sólidos urbanos:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) resíduos domésticos;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "resíduos domésticos;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "resíduos originários de atividades comerciais, industriais e de serviços, em quantidade e <mark>qualidade similares às dos resíduos domésticos, que, por decisão do titular, sejam considerados resíduos sólidos urbanos, desde que tais resíduos não sejam de responsabilidade de seu gerador nos termos da norma legal ou administrativa, de decisão judicial ou de termo de ajustamento de conduta; e</mark>"
+              "text": "resíduos originários de atividades comerciais, industriais e de serviços, em quantidade e qualidade similares às dos resíduos domésticos, que, por decisão do titular, sejam considerados resíduos sólidos urbanos, desde que tais resíduos não sejam de responsabilidade de seu gerador nos termos da norma legal ou administrativa, de decisão judicial ou de termo de ajustamento de conduta; e"
             }
           ]
         },
@@ -138,13 +166,18 @@
           "items": [
             {
               "label": "c",
-              "text": "resíduos originários das atividades referidas no item 38.2.1. **<mark>38.2.1.3</mark>** <mark>Esta NR não se aplica às atividades de manejo de:</mark>"
+              "text": "resíduos originários das atividades referidas no item 38.2.1. **38.2.1.3** Esta NR não se aplica às atividades de manejo de:"
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) resíduos industriais abrangidos pela Norma Regulamentadora nº 25 (NR-25) - Resíduos Industriais;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "resíduos industriais abrangidos pela Norma Regulamentadora nº 25 (NR-25) - Resíduos Industriais;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -192,8 +225,10 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.2.1.4</mark>** <mark>As atividades referidas no item 38.2.1 podem ser contempladas em anexos específicos desta NR.</mark>"
+          "type": "item",
+          "number": "38.2.1.4",
+          "depth": 3,
+          "text": "As atividades referidas no item 38.2.1 podem ser contempladas em anexos específicos desta NR."
         }
       ]
     },
@@ -203,16 +238,25 @@
       "title": "Disposições Gerais",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.1</mark>** <mark>A organização deve manter registro atualizado de todos os logradouros em que desenvolve suas atividades, por rota, frente de serviço ou pontos de coleta, com identificação dos pontos de apoio, suas características e definição do tipo de atendimento prestado aos trabalhadores.</mark>"
+          "type": "item",
+          "number": "38.3.1",
+          "depth": 2,
+          "text": "A organização deve manter registro atualizado de todos os logradouros em que desenvolve suas atividades, por rota, frente de serviço ou pontos de coleta, com identificação dos pontos de apoio, suas características e definição do tipo de atendimento prestado aos trabalhadores."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.1.1</mark>** <mark>O registro previsto no item 38.3.1 deve conter informações relativas a:</mark>"
+          "type": "item",
+          "number": "38.3.1.1",
+          "depth": 3,
+          "text": "O registro previsto no item 38.3.1 deve conter informações relativas a:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) rota e extensão da área de trabalho (setor);</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "rota e extensão da área de trabalho (setor);"
+            }
+          ]
         },
         {
           "type": "list",
@@ -260,61 +304,88 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.1.1.1</mark>** <mark>O registro do subitem 38.3.1.1 deve conter informações para a realização de avaliação ergonômica preliminar das situações de trabalho e de Análise Ergonômica do Trabalho - AET quando aplicável.</mark>"
+          "type": "item",
+          "number": "38.3.1.1.1",
+          "depth": 4,
+          "text": "O registro do subitem 38.3.1.1 deve conter informações para a realização de avaliação ergonômica preliminar das situações de trabalho e de Análise Ergonômica do Trabalho - AET quando aplicável."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.1.2</mark>** <mark>As informações do subitem 38.3.1.1 devem permanecer à disposição dos membros da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando solicitado, podendo ser utilizado sistema informatizado.</mark> _<mark>(Retificado - DOU de 30/12/2022)</mark>_"
+          "type": "item",
+          "number": "38.3.1.2",
+          "depth": 3,
+          "text": "As informações do subitem 38.3.1.1 devem permanecer à disposição dos membros da Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA, quando solicitado, podendo ser utilizado sistema informatizado. _(Retificado - DOU de 30/12/2022)_"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.2</mark>** <mark>A organização deve providenciar pontos de apoio em locais estratégicos, considerando suas rotas de trabalho, para a satisfação de necessidades fisiológicas e a tomada de refeições para os trabalhadores que realizam atividades externas, observando-se o Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços - da Norma Regulamentadora n.º 24 (NR-24) - Condições Sanitárias e de Conforto nos Locais de Trabalho.</mark>"
+          "type": "item",
+          "number": "38.3.2",
+          "depth": 2,
+          "text": "A organização deve providenciar pontos de apoio em locais estratégicos, considerando suas rotas de trabalho, para a satisfação de necessidades fisiológicas e a tomada de refeições para os trabalhadores que realizam atividades externas, observando-se o Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços - da Norma Regulamentadora n.º 24 (NR-24) - Condições Sanitárias e de Conforto nos Locais de Trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.2.1</mark>** <mark>O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR.</mark> **<mark>38.3.2.1.1</mark>** <mark>Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio.</mark>"
+          "type": "item",
+          "number": "38.3.2.1",
+          "depth": 3,
+          "text": "O empregador deve monitorar as condições de uso das instalações disponibilizadas aos trabalhadores, quando da utilização de pontos de apoio conveniados, nos termos do Anexo II da NR-24, para garantir o atendimento do item 38.3.2 desta NR. **38.3.2.1.1** Cabe à organização disponibilizar canais de comunicação para que os trabalhadores possam relatar as condições encontradas nos pontos de apoio."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.3</mark>** <mark>A organização deve disponibilizar água, sabão e material para enxugo das mãos nos veículos utilizados nas atividades que exponham o trabalhador a sujidade.</mark>"
+          "type": "item",
+          "number": "38.3.3",
+          "depth": 2,
+          "text": "A organização deve disponibilizar água, sabão e material para enxugo das mãos nos veículos utilizados nas atividades que exponham o trabalhador a sujidade."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.4</mark>** <mark>A organização deve garantir nas rotas e frentes de serviço suprimento de água potável e fresca, para consumo no local de trabalho durante as atividades, fornecida em recipientes portáteis hermeticamente fechados.</mark>"
+          "type": "item",
+          "number": "38.3.4",
+          "depth": 2,
+          "text": "A organização deve garantir nas rotas e frentes de serviço suprimento de água potável e fresca, para consumo no local de trabalho durante as atividades, fornecida em recipientes portáteis hermeticamente fechados."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.4.1</mark>** <mark>Os recipientes individuais para consumo de água devem ser transportados em compartimentos com adequada condição de higiene, sendo proibido o seu uso coletivo.</mark>"
+          "type": "item",
+          "number": "38.3.4.1",
+          "depth": 3,
+          "text": "Os recipientes individuais para consumo de água devem ser transportados em compartimentos com adequada condição de higiene, sendo proibido o seu uso coletivo."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.4.2</mark>** <mark>A organização deve garantir que os recipientes de armazenamento sejam abastecidos no início da jornada e higienizados periodicamente ou ao final de cada jornada.</mark>"
+          "type": "item",
+          "number": "38.3.4.2",
+          "depth": 3,
+          "text": "A organização deve garantir que os recipientes de armazenamento sejam abastecidos no início da jornada e higienizados periodicamente ou ao final de cada jornada."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.5</mark>** <mark>O veículo de transporte de trabalhadores ao local de prestação de serviço deve observar os seguintes requisitos:</mark>"
+          "type": "item",
+          "number": "38.3.5",
+          "depth": 2,
+          "text": "O veículo de transporte de trabalhadores ao local de prestação de serviço deve observar os seguintes requisitos:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) estar em conformidade com as normas de trânsito; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "estar em conformidade com as normas de trânsito; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "possuir compartimento resistente e fixo, separado dos passageiros, quando necessário o <mark>transporte de ferramentas e materiais de trabalho.</mark>"
+              "text": "possuir compartimento resistente e fixo, separado dos passageiros, quando necessário o transporte de ferramentas e materiais de trabalho."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.6</mark>** <mark>Para as atividades que exponham os empregados a risco de acidentes de trânsito em via pública, a organização deve implementar procedimento de segurança incluindo a sinalização de advertência, observadas as atividades realizadas e em conformidade, no que for aplicável, com as normas de trânsito.</mark>"
+          "type": "item",
+          "number": "38.3.6",
+          "depth": 2,
+          "text": "Para as atividades que exponham os empregados a risco de acidentes de trânsito em via pública, a organização deve implementar procedimento de segurança incluindo a sinalização de advertência, observadas as atividades realizadas e em conformidade, no que for aplicável, com as normas de trânsito."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.3.7</mark>** <mark>A organização deve estabelecer plano de contingência para a recuperação de evento adverso durante a execução das operações, considerando riscos adicionais e sobrecarga para os trabalhadores.</mark>"
+          "type": "item",
+          "number": "38.3.7",
+          "depth": 2,
+          "text": "A organização deve estabelecer plano de contingência para a recuperação de evento adverso durante a execução das operações, considerando riscos adicionais e sobrecarga para os trabalhadores."
         }
       ]
     },
@@ -324,32 +395,46 @@
       "title": "Programa de Controle Médico de Saúde Ocupacional - PCMSO",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1</mark>** <mark>O PCMSO deve prever programa de imunização ativa, principalmente contra tétano e hepatite B, considerando a avaliação de riscos ocupacionais previstos no Programa de Gerenciamento de Riscos - PGR.</mark>"
+          "type": "item",
+          "number": "38.4.1",
+          "depth": 2,
+          "text": "O PCMSO deve prever programa de imunização ativa, principalmente contra tétano e hepatite B, considerando a avaliação de riscos ocupacionais previstos no Programa de Gerenciamento de Riscos - PGR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1.1</mark>** <mark>A vacinação deve obedecer às recomendações do Ministério da Saúde, podendo ser aceita vacinação anterior, a critério médico.</mark>"
+          "type": "item",
+          "number": "38.4.1.1",
+          "depth": 3,
+          "text": "A vacinação deve obedecer às recomendações do Ministério da Saúde, podendo ser aceita vacinação anterior, a critério médico."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1.2</mark>** <mark>A organização deve assegurar que os trabalhadores tenham acesso à material informativo sobre a necessidade da vacinação identificada no PCMSO e seus benefícios, assim como dos possíveis riscos a que estarão expostos por falta ou recusa dessa vacinação.</mark>"
+          "type": "item",
+          "number": "38.4.1.2",
+          "depth": 3,
+          "text": "A organização deve assegurar que os trabalhadores tenham acesso à material informativo sobre a necessidade da vacinação identificada no PCMSO e seus benefícios, assim como dos possíveis riscos a que estarão expostos por falta ou recusa dessa vacinação."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1.3</mark>** <mark>Deve ser fornecido ao empregado comprovante das vacinas quando fornecidas pela organização.</mark> **<mark>38.4.1.3.1</mark>** <mark>Quando a vacinação for realizada na rede pública, a organização deve solicitar aos empregados que apresentem o respectivo certificado de vacinação.</mark>"
+          "type": "item",
+          "number": "38.4.1.3",
+          "depth": 3,
+          "text": "Deve ser fornecido ao empregado comprovante das vacinas quando fornecidas pela organização. **38.4.1.3.1** Quando a vacinação for realizada na rede pública, a organização deve solicitar aos empregados que apresentem o respectivo certificado de vacinação."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.1.4</mark>** <mark>A vacinação, ou sua recusa, deve ser registrada no prontuário clínico individual do empregado.</mark>"
+          "type": "item",
+          "number": "38.4.1.4",
+          "depth": 3,
+          "text": "A vacinação, ou sua recusa, deve ser registrada no prontuário clínico individual do empregado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.2</mark>** <mark>Devem ser previstos no PCMSO os protocolos de saúde de acordo com a identificação dos perigos e avaliação dos riscos do PGR.</mark>"
+          "type": "item",
+          "number": "38.4.2",
+          "depth": 2,
+          "text": "Devem ser previstos no PCMSO os protocolos de saúde de acordo com a identificação dos perigos e avaliação dos riscos do PGR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.4.3</mark>** <mark>O PCMSO, caso haja risco avaliado no PGR, deve estabelecer procedimento específico para o caso de acidente de trabalho envolvendo perfurocortantes, com ou sem afastamento do trabalhador, incluindo acompanhamento da evolução clínica do quadro do trabalhador.</mark>"
+          "type": "item",
+          "number": "38.4.3",
+          "depth": 2,
+          "text": "O PCMSO, caso haja risco avaliado no PGR, deve estabelecer procedimento específico para o caso de acidente de trabalho envolvendo perfurocortantes, com ou sem afastamento do trabalhador, incluindo acompanhamento da evolução clínica do quadro do trabalhador."
         }
       ]
     },
@@ -359,23 +444,32 @@
       "title": "Veículos, máquinas e equipamentos",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.5.1</mark>** <mark>Os veículos, máquinas e equipamentos devem ser submetidos a processos de limpeza que assegurem condições de higiene.</mark>"
+          "type": "item",
+          "number": "38.5.1",
+          "depth": 2,
+          "text": "Os veículos, máquinas e equipamentos devem ser submetidos a processos de limpeza que assegurem condições de higiene."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.5.2</mark>** <mark>As máquinas autopropelidas utilizadas nas atividades elencadas no campo de aplicação dessa NR devem atender, além do disposto na Norma Regulamentadora nº 12 (NR-12) - Segurança no Trabalho em Máquinas e Equipamentos, às seguintes medidas:</mark>"
+          "type": "item",
+          "number": "38.5.2",
+          "depth": 2,
+          "text": "As máquinas autopropelidas utilizadas nas atividades elencadas no campo de aplicação dessa NR devem atender, além do disposto na Norma Regulamentadora nº 12 (NR-12) - Segurança no Trabalho em Máquinas e Equipamentos, às seguintes medidas:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) as zonas de perigo e as partes móveis devem possuir proteções de modo a impedir o acesso de partes do corpo do trabalhador, podendo ser retiradas somente para limpeza, lubrificação, reparo e ajuste, e, após, devem ser, obrigatoriamente, recolocadas;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as zonas de perigo e as partes móveis devem possuir proteções de modo a impedir o acesso de partes do corpo do trabalhador, podendo ser retiradas somente para limpeza, lubrificação, reparo e ajuste, e, após, devem ser, obrigatoriamente, recolocadas;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "os operadores não podem se afastar do equipamento sob sua responsabilidade quando em <mark>funcionamento;</mark>"
+              "text": "os operadores não podem se afastar do equipamento sob sua responsabilidade quando em funcionamento;"
             }
           ]
         },
@@ -384,7 +478,7 @@
           "items": [
             {
               "label": "c",
-              "text": "nas paradas temporárias ou prolongadas, devem ser adotadas medidas com o objetivo de <mark>eliminar riscos provenientes de funcionamento acidental;</mark>"
+              "text": "nas paradas temporárias ou prolongadas, devem ser adotadas medidas com o objetivo de eliminar riscos provenientes de funcionamento acidental;"
             }
           ]
         },
@@ -393,7 +487,7 @@
           "items": [
             {
               "label": "d",
-              "text": "quando o operador do equipamento tiver a visão dificultada por obstáculos, deve ser exigida a <mark>presença de um trabalhador capacitado para orientar o operador;</mark>"
+              "text": "quando o operador do equipamento tiver a visão dificultada por obstáculos, deve ser exigida a presença de um trabalhador capacitado para orientar o operador;"
             }
           ]
         },
@@ -402,7 +496,7 @@
           "items": [
             {
               "label": "e",
-              "text": "em caso de superaquecimento de pneus e sistema de freio, devem ser tomadas precauções <mark>especiais, prevenindo-se de possíveis explosões ou incêndios;</mark>"
+              "text": "em caso de superaquecimento de pneus e sistema de freio, devem ser tomadas precauções especiais, prevenindo-se de possíveis explosões ou incêndios;"
             }
           ]
         },
@@ -411,7 +505,7 @@
           "items": [
             {
               "label": "f",
-              "text": "possuir retrovisores e alarme sonoro acoplado ao sistema de câmbio quando operada em <mark>marcha a ré;</mark>"
+              "text": "possuir retrovisores e alarme sonoro acoplado ao sistema de câmbio quando operada em marcha a ré;"
             }
           ]
         },
@@ -429,7 +523,7 @@
           "items": [
             {
               "label": "h",
-              "text": "antes de iniciar a movimentação ou dar partida no motor, é preciso certificar-se de que não há <mark>ninguém sobre, debaixo ou perto dos mesmos, de modo a garantir que a movimentação da máquina não exponha trabalhadores ou terceiros a acidentes; e</mark>"
+              "text": "antes de iniciar a movimentação ou dar partida no motor, é preciso certificar-se de que não há ninguém sobre, debaixo ou perto dos mesmos, de modo a garantir que a movimentação da máquina não exponha trabalhadores ou terceiros a acidentes; e"
             }
           ]
         },
@@ -438,24 +532,31 @@
           "items": [
             {
               "label": "i",
-              "text": "assegurar que, antes da operação, estejam brecadas e com suas rodas travadas, implementando <mark>medidas adicionais no caso de pisos inclinados ou irregulares.</mark> _<mark>(Retificada - DOU de 30/12/2022)</mark>_"
+              "text": "assegurar que, antes da operação, estejam brecadas e com suas rodas travadas, implementando medidas adicionais no caso de pisos inclinados ou irregulares. _(Retificada - DOU de 30/12/2022)_"
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.5.3</mark>** <mark>O veículo coletor-compactador de resíduos sólidos deve possuir, no mínimo:</mark>"
+          "type": "item",
+          "number": "38.5.3",
+          "depth": 2,
+          "text": "O veículo coletor-compactador de resíduos sólidos deve possuir, no mínimo:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) controles do ciclo de compactação, devendo estar localizados em sua lateral, de modo que o operador tenha uma visão clara tanto do ponto de operação quanto da abertura de carga;</mark> - b) sinalizador rotativo ou intermitente na parte traseira e dianteira, instalado de forma a não <mark>ofuscar a visão dos trabalhadores;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "controles do ciclo de compactação, devendo estar localizados em sua lateral, de modo que o operador tenha uma visão clara tanto do ponto de operação quanto da abertura de carga; - b) sinalizador rotativo ou intermitente na parte traseira e dianteira, instalado de forma a não ofuscar a visão dos trabalhadores;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "c",
-              "text": "câmera de monitoramento sem captação de som, de forma que seja possível ao motorista a <mark>visualização da operação na parte traseira do veículo, com o acionamento automático em marcha ré, sem prejuízo de outras medidas de visualização dos trabalhadores;</mark>"
+              "text": "câmera de monitoramento sem captação de som, de forma que seja possível ao motorista a visualização da operação na parte traseira do veículo, com o acionamento automático em marcha ré, sem prejuízo de outras medidas de visualização dos trabalhadores;"
             }
           ]
         },
@@ -473,7 +574,7 @@
           "items": [
             {
               "label": "e",
-              "text": "sistema de iluminação acima das áreas de carregamento e descarregamento, para permitir <mark>visibilidade nos trabalhos noturnos ou de baixa luminosidade;</mark>"
+              "text": "sistema de iluminação acima das áreas de carregamento e descarregamento, para permitir visibilidade nos trabalhos noturnos ou de baixa luminosidade;"
             }
           ]
         },
@@ -500,17 +601,21 @@
           "items": [
             {
               "label": "h",
-              "text": "dispositivos de parada de emergência do mecanismo de compactação, em cada lateral do <mark>veículo.</mark>"
+              "text": "dispositivos de parada de emergência do mecanismo de compactação, em cada lateral do veículo."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.5.3.1</mark>** <mark>A organização deve elaborar e implementar procedimento para que os trabalhadores permaneçam na lateral do veículo coletor compactador durante a operação do mecanismo de compactação.</mark>"
+          "type": "item",
+          "number": "38.5.3.1",
+          "depth": 3,
+          "text": "A organização deve elaborar e implementar procedimento para que os trabalhadores permaneçam na lateral do veículo coletor compactador durante a operação do mecanismo de compactação."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.5.3.2</mark>** <mark>A operação de marcha à ré somente poderá ser realizada quando o motorista tiver a visão de todos os trabalhadores da operação, sendo proibida a presença de trabalhadores no trajeto da manobra e na parte traseira do veículo.</mark>"
+          "type": "item",
+          "number": "38.5.3.2",
+          "depth": 3,
+          "text": "A operação de marcha à ré somente poderá ser realizada quando o motorista tiver a visão de todos os trabalhadores da operação, sendo proibida a presença de trabalhadores no trajeto da manobra e na parte traseira do veículo."
         }
       ]
     },
@@ -520,35 +625,50 @@
       "title": "Coleta de resíduos sólidos",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.1</mark>** <mark>É vedado o transporte dos trabalhadores nas partes externas dos veículos utilizados na coleta de resíduos sólidos no deslocamento entre a organização e as áreas de coleta e vice-versa, entre setores de coleta não adjacentes, bem como para o transbordo e a destinação final.</mark>"
+          "type": "item",
+          "number": "38.6.1",
+          "depth": 2,
+          "text": "É vedado o transporte dos trabalhadores nas partes externas dos veículos utilizados na coleta de resíduos sólidos no deslocamento entre a organização e as áreas de coleta e vice-versa, entre setores de coleta não adjacentes, bem como para o transbordo e a destinação final."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2</mark>** <mark>O deslocamento do trabalhador em plataforma operacional deve observar as disposições estabelecidas nesta NR.</mark>"
+          "type": "item",
+          "number": "38.6.2",
+          "depth": 2,
+          "text": "O deslocamento do trabalhador em plataforma operacional deve observar as disposições estabelecidas nesta NR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.1</mark>** <mark>A plataforma operacional somente pode ser utilizada em veículos coletores compactadores.</mark>"
+          "type": "item",
+          "number": "38.6.2.1",
+          "depth": 3,
+          "text": "A plataforma operacional somente pode ser utilizada em veículos coletores compactadores."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.1.1</mark>** <mark>Os trabalhadores não devem permanecer na plataforma operacional durante a operação do mecanismo de compactação.</mark>"
+          "type": "item",
+          "number": "38.6.2.1.1",
+          "depth": 4,
+          "text": "Os trabalhadores não devem permanecer na plataforma operacional durante a operação do mecanismo de compactação."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.2</mark>** <mark>A plataforma operacional somente poderá ser utilizada pelos coletores nas áreas de trabalho (setores) de coleta desde que sejam observados os seguintes procedimentos de segurança:</mark>"
+          "type": "item",
+          "number": "38.6.2.2",
+          "depth": 3,
+          "text": "A plataforma operacional somente poderá ser utilizada pelos coletores nas áreas de trabalho (setores) de coleta desde que sejam observados os seguintes procedimentos de segurança:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) subida e descida da plataforma apenas com o veículo parado;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "subida e descida da plataforma apenas com o veículo parado;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "limitação da velocidade do caminhão a 10 km/h no deslocamento nas áreas de trabalho <mark>(setores);</mark>"
+              "text": "limitação da velocidade do caminhão a 10 km/h no deslocamento nas áreas de trabalho (setores);"
             }
           ]
         },
@@ -557,7 +677,7 @@
           "items": [
             {
               "label": "c",
-              "text": "o motorista deve esperar o coletor acionar o sinal sonoro, de acordo com a alínea \"g\" do item <mark>38.5.3 desta NR, antes de mover o veículo; e</mark>"
+              "text": "o motorista deve esperar o coletor acionar o sinal sonoro, de acordo com a alínea \"g\" do item 38.5.3 desta NR, antes de mover o veículo; e"
             }
           ]
         },
@@ -566,57 +686,80 @@
           "items": [
             {
               "label": "d",
-              "text": "é vedada a permanência dos coletores na plataforma quando o veículo operar em marcha à ré. **<mark>38.6.2.2.1</mark>** <mark>O deslocamento dos trabalhadores de um setor para outro adjacente, com o uso da plataforma operacional, somente pode ser realizado quando houver sequência da execução da atividade de coleta entre os setores.</mark>"
+              "text": "é vedada a permanência dos coletores na plataforma quando o veículo operar em marcha à ré. **38.6.2.2.1** O deslocamento dos trabalhadores de um setor para outro adjacente, com o uso da plataforma operacional, somente pode ser realizado quando houver sequência da execução da atividade de coleta entre os setores."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.2.2</mark>** <mark>A organização deve acompanhar a adoção do limite de velocidade dos caminhões coletores, por meio de monitoramento de seus veículos, tais como análises dos registros dos tacógrafos, do sistema de rastreamento, ou outro meio adequado.</mark>"
+          "type": "item",
+          "number": "38.6.2.2.2",
+          "depth": 4,
+          "text": "A organização deve acompanhar a adoção do limite de velocidade dos caminhões coletores, por meio de monitoramento de seus veículos, tais como análises dos registros dos tacógrafos, do sistema de rastreamento, ou outro meio adequado."
+        },
+        {
+          "type": "item",
+          "number": "38.6.2.3",
+          "depth": 3,
+          "text": "A plataforma operacional deve atender às especificações da norma técnica oficial vigente."
+        },
+        {
+          "type": "item",
+          "number": "38.6.2.4",
+          "depth": 3,
+          "text": "O fabricante de implemento deve informar a capacidade de carga da plataforma operacional e dos balaústres."
+        },
+        {
+          "type": "item",
+          "number": "38.6.2.4.1",
+          "depth": 4,
+          "text": "O projeto da plataforma operacional deve ser elaborado para que esta seja capaz de suportar no mínimo 250 kg no ponto mais distante de seu ponto de fixação e os balaústres devem ser capazes de suportar 250 kg cada um."
+        },
+        {
+          "type": "item",
+          "number": "38.6.2.5",
+          "depth": 3,
+          "text": "Para os veículos compactadores adquiridos após a publicação desta portaria, o projeto técnico da plataforma operacional deve atender ao disposto nesta NR."
+        },
+        {
+          "type": "item",
+          "number": "38.6.2.6",
+          "depth": 3,
+          "text": "As plataformas existentes na data de publicação desta portaria, se necessário, devem ser adaptadas mediante projeto técnico e execução sob responsabilidade de profissional legalmente habilitado."
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.6.2.3</mark>** <mark>A plataforma operacional deve atender às especificações da norma técnica oficial vigente.</mark>"
+          "text": "**~~38.6.2.7~~** ~~A organização deve acompanhar a adoção do limite de velocidade dos caminhões coletores, por meio de monitoramento de seus veículos, tais como análises dos registros dos~~"
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.6.2.4</mark>** <mark>O fabricante de implemento deve informar a capacidade de carga da plataforma operacional e dos balaústres.</mark>"
+          "text": "~~tacógrafos, do sistema de rastreamento, ou outro meio adequado.~~ _(Excluído por Retificação – DOU de 30/12/2022)_"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.4.1</mark>** <mark>O projeto da plataforma operacional deve ser elaborado para que esta seja capaz de suportar no mínimo 250 kg no ponto mais distante de seu ponto de fixação e os balaústres devem ser capazes de suportar 250 kg cada um.</mark>"
+          "type": "item",
+          "number": "38.6.3",
+          "depth": 2,
+          "text": "A colocação de resíduos no caminhão deve ocorrer somente com o veículo parado."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.5</mark>** <mark>Para os veículos compactadores adquiridos após a publicação desta portaria, o projeto técnico da plataforma operacional deve atender ao disposto nesta NR.</mark>"
+          "type": "item",
+          "number": "38.6.4",
+          "depth": 2,
+          "text": "Os pontos de descarga da combustão dos veículos de coleta de resíduos devem estar situados acima da carroceria do veículo, de forma a não expor os trabalhadores aos gases da combustão, devendo possuir catalisador e silencioso, sendo objeto de manutenção em periodicidade de acordo com o fabricante."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.2.6</mark>** <mark>As plataformas existentes na data de publicação desta portaria, se necessário, devem ser adaptadas mediante projeto técnico e execução sob responsabilidade de profissional legalmente habilitado.</mark>"
+          "type": "item",
+          "number": "38.6.5",
+          "depth": 2,
+          "text": "Os contentores móveis destinados à coleta de resíduos sólidos, fornecidos ou mantidos pela organização, deverão seguir as normas técnicas oficiais vigentes e, em sua falta, as normas internacionais, observando ainda as seguintes características:"
         },
         {
-          "type": "paragraph",
-          "text": "**~~<mark>38.6.2.7</mark>~~** ~~<mark>A organização deve acompanhar a adoção do limite de velocidade dos caminhões coletores, por meio de monitoramento de seus veículos, tais como análises dos registros dos</mark>~~"
-        },
-        {
-          "type": "paragraph",
-          "text": "~~<mark>tacógrafos, do sistema de rastreamento, ou outro meio adequado.</mark>~~ _<mark>(Excluído por Retificação – DOU de 30/12/2022)</mark>_"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.6.3</mark>** <mark>A colocação de resíduos no caminhão deve ocorrer somente com o veículo parado.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.6.4</mark>** <mark>Os pontos de descarga da combustão dos veículos de coleta de resíduos devem estar situados acima da carroceria do veículo, de forma a não expor os trabalhadores aos gases da combustão, devendo possuir catalisador e silencioso, sendo objeto de manutenção em periodicidade de acordo com o fabricante.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.6.5</mark>** <mark>Os contentores móveis destinados à coleta de resíduos sólidos, fornecidos ou mantidos pela organização, deverão seguir as normas técnicas oficiais vigentes e, em sua falta, as normas internacionais, observando ainda as seguintes características:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "<mark>a) não possuir bordas ou arestas cortantes;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "não possuir bordas ou arestas cortantes;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -632,17 +775,21 @@
           "items": [
             {
               "label": "c",
-              "text": "ser fabricados em dimensão apropriada, em material resistente e que permita fácil <mark>deslocamento, possuindo rodízios, sendo que seu raio de giro não poderá exceder os limites externos do quadro estrutural superior.</mark>"
+              "text": "ser fabricados em dimensão apropriada, em material resistente e que permita fácil deslocamento, possuindo rodízios, sendo que seu raio de giro não poderá exceder os limites externos do quadro estrutural superior."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.5.1</mark>** <mark>Os contentores móveis devem ser posicionados em locais de fácil acesso e movimentação, sendo vedada a coleta de resíduos utilizando recipientes improvisados.</mark> **<mark>38.6.6</mark>** <mark>A coleta de resíduos sólidos domiciliares deve ser realizada em veículo que não exija a movimentação habitual de material em altura superior à do ombro dos trabalhadores.</mark>"
+          "type": "item",
+          "number": "38.6.5.1",
+          "depth": 3,
+          "text": "Os contentores móveis devem ser posicionados em locais de fácil acesso e movimentação, sendo vedada a coleta de resíduos utilizando recipientes improvisados. **38.6.6** A coleta de resíduos sólidos domiciliares deve ser realizada em veículo que não exija a movimentação habitual de material em altura superior à do ombro dos trabalhadores."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.6.7</mark>** <mark>Nas vias públicas onde o veículo coletor não puder ingressar para realizar o serviço de coleta, deverão ser utilizadas alternativas facilitadoras, de modo a reduzir o esforço no transporte manual de cargas pelos coletores.</mark>"
+          "type": "item",
+          "number": "38.6.7",
+          "depth": 2,
+          "text": "Nas vias públicas onde o veículo coletor não puder ingressar para realizar o serviço de coleta, deverão ser utilizadas alternativas facilitadoras, de modo a reduzir o esforço no transporte manual de cargas pelos coletores."
         }
       ]
     },
@@ -652,20 +799,31 @@
       "title": "Varrição",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.7.1</mark>** <mark>A execução do serviço de varrição deve preferencialmente ser realizada no contrafluxo do trânsito.</mark>"
+          "type": "item",
+          "number": "38.7.1",
+          "depth": 2,
+          "text": "A execução do serviço de varrição deve preferencialmente ser realizada no contrafluxo do trânsito."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.7.2</mark>** <mark>A organização deve ser responsável pelo transporte e guarda do carrinho coletor antes e após o término do trabalho.</mark>"
+          "type": "item",
+          "number": "38.7.2",
+          "depth": 2,
+          "text": "A organização deve ser responsável pelo transporte e guarda do carrinho coletor antes e após o término do trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.7.3</mark>** <mark>O carrinho coletor (lutocar) deve possuir as seguintes características:</mark>"
+          "type": "item",
+          "number": "38.7.3",
+          "depth": 2,
+          "text": "O carrinho coletor (lutocar) deve possuir as seguintes características:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) ser constituído de materiais leves e de fácil higienização;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser constituído de materiais leves e de fácil higienização;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -704,12 +862,16 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.7.3.1</mark>** <mark>O carrinho coletor (lutocar) deverá ser mantido em boas condições de uso, cabendo à organização realizar manutenções periódicas.</mark>"
+          "type": "item",
+          "number": "38.7.3.1",
+          "depth": 3,
+          "text": "O carrinho coletor (lutocar) deverá ser mantido em boas condições de uso, cabendo à organização realizar manutenções periódicas."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.7.3.2</mark>** <mark>É vedado o acondicionamento de alimentos, bebidas e itens pessoais no carrinho coletor (lutocar), exceto quando acondicionado em compartimento apropriado para essa finalidade.</mark>"
+          "type": "item",
+          "number": "38.7.3.2",
+          "depth": 3,
+          "text": "É vedado o acondicionamento de alimentos, bebidas e itens pessoais no carrinho coletor (lutocar), exceto quando acondicionado em compartimento apropriado para essa finalidade."
         }
       ]
     },
@@ -719,20 +881,31 @@
       "title": "Poda de árvores",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.1</mark>** <mark>Todo trabalho de poda de árvores deve ser precedido de Análise de Riscos - AR.</mark>"
+          "type": "item",
+          "number": "38.8.1",
+          "depth": 2,
+          "text": "Todo trabalho de poda de árvores deve ser precedido de Análise de Riscos - AR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.1.1</mark>** <mark>A AR deve indicar a emissão de Permissão de Trabalho - PT, quando necessário.</mark>"
+          "type": "item",
+          "number": "38.8.1.1",
+          "depth": 3,
+          "text": "A AR deve indicar a emissão de Permissão de Trabalho - PT, quando necessário."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.2</mark>** <mark>A AR deve ser:</mark>"
+          "type": "item",
+          "number": "38.8.2",
+          "depth": 2,
+          "text": "A AR deve ser:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) realizada pela equipe envolvida na atividade de poda de árvores;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "realizada pela equipe envolvida na atividade de poda de árvores;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -762,19 +935,26 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.2.1</mark>** <mark>A AR deve considerar:</mark>"
+          "type": "item",
+          "number": "38.8.2.1",
+          "depth": 3,
+          "text": "A AR deve considerar:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) o local em que os serviços serão executados e seu entorno, incluindo a área de projeção da queda dos galhos;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o local em que os serviços serão executados e seu entorno, incluindo a área de projeção da queda dos galhos;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "o isolamento e a sinalização no entorno da área de trabalho; - c) a avaliação da integridade física da árvore a ser submetida a poda, através de análise visual <mark>externa;</mark>"
+              "text": "o isolamento e a sinalização no entorno da área de trabalho; - c) a avaliação da integridade física da árvore a ser submetida a poda, através de análise visual externa;"
             }
           ]
         },
@@ -783,7 +963,7 @@
           "items": [
             {
               "label": "d",
-              "text": "a seleção de ferramentas e de técnicas de trabalho, devendo ser adotadas medidas para evitar <mark>o trabalho em altura, sempre que existir meio alternativo de execução dos serviços;</mark>"
+              "text": "a seleção de ferramentas e de técnicas de trabalho, devendo ser adotadas medidas para evitar o trabalho em altura, sempre que existir meio alternativo de execução dos serviços;"
             }
           ]
         },
@@ -792,7 +972,7 @@
           "items": [
             {
               "label": "e",
-              "text": "as condições impeditivas de trabalho, incluindo condições meteorológicas adversas e <mark>iluminação insuficiente; e</mark>"
+              "text": "as condições impeditivas de trabalho, incluindo condições meteorológicas adversas e iluminação insuficiente; e"
             }
           ]
         },
@@ -806,12 +986,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.3</mark>** <mark>A PT deve conter:</mark>"
+          "type": "item",
+          "number": "38.8.3",
+          "depth": 2,
+          "text": "A PT deve conter:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) as disposições e medidas estabelecidas na AR;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "as disposições e medidas estabelecidas na AR;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -841,12 +1028,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.3.1</mark>** <mark>A PT deve ser:</mark>"
+          "type": "item",
+          "number": "38.8.3.1",
+          "depth": 3,
+          "text": "A PT deve ser:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) aprovada pelo supervisor responsável pela atividade;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "aprovada pelo supervisor responsável pela atividade;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -867,45 +1061,64 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.3.2</mark>** <mark>A PT deve ter validade limitada à duração da atividade, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho.</mark>"
+          "type": "item",
+          "number": "38.8.3.2",
+          "depth": 3,
+          "text": "A PT deve ter validade limitada à duração da atividade, podendo ser revalidada pelo responsável pela aprovação nas situações em que não ocorram mudanças nas condições estabelecidas ou na equipe de trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.3.2.1</mark>** <mark>A validade da PT não poderá exceder o período de 24 (vinte e quatro) horas.</mark>"
+          "type": "item",
+          "number": "38.8.3.2.1",
+          "depth": 4,
+          "text": "A validade da PT não poderá exceder o período de 24 (vinte e quatro) horas."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.4</mark>** <mark>Na execução de trabalho em altura, além do cumprimento da Norma Regulamentadora nº 35 (NR-35) - Trabalho em Altura, devem ser tomadas as seguintes providências:</mark>"
+          "type": "item",
+          "number": "38.8.4",
+          "depth": 2,
+          "text": "Na execução de trabalho em altura, além do cumprimento da Norma Regulamentadora nº 35 (NR-35) - Trabalho em Altura, devem ser tomadas as seguintes providências:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) isolamento e sinalização de toda a área afetada pelo serviço antes do início das atividades; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "isolamento e sinalização de toda a área afetada pelo serviço antes do início das atividades; e"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "adoção de medidas para evitar a queda de ferramentas e materiais, inclusive no caso de <mark>interrupção dos trabalhos.</mark>"
+              "text": "adoção de medidas para evitar a queda de ferramentas e materiais, inclusive no caso de interrupção dos trabalhos."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.4.1</mark>** <mark>É proibida a utilização da escalada livre para execução das atividades de poda, bem como a ancoragem do trabalhador nos galhos a serem cortados.</mark>"
+          "type": "item",
+          "number": "38.8.4.1",
+          "depth": 3,
+          "text": "É proibida a utilização da escalada livre para execução das atividades de poda, bem como a ancoragem do trabalhador nos galhos a serem cortados."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.5</mark>** <mark>A atividade de poda de árvore em proximidade de instalações elétricas deve atender ao previsto na Norma Regulamentadora nº 10 (NR-10) - Segurança em Instalações e Serviços em Eletricidade.</mark>"
+          "type": "item",
+          "number": "38.8.5",
+          "depth": 2,
+          "text": "A atividade de poda de árvore em proximidade de instalações elétricas deve atender ao previsto na Norma Regulamentadora nº 10 (NR-10) - Segurança em Instalações e Serviços em Eletricidade."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.6</mark>** <mark>A atividade de desobstrução de redes de eletricidade, quando prevista em contrato de limpeza urbana e manejo de resíduos sólidos, deve atender ao previsto na NR-10.</mark>"
+          "type": "item",
+          "number": "38.8.6",
+          "depth": 2,
+          "text": "A atividade de desobstrução de redes de eletricidade, quando prevista em contrato de limpeza urbana e manejo de resíduos sólidos, deve atender ao previsto na NR-10."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.8.7</mark>** <mark>É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore.</mark> **<mark>38.8.8</mark>** <mark>Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto.</mark>"
+          "type": "item",
+          "number": "38.8.7",
+          "depth": 2,
+          "text": "É vedada a designação de trabalhador sem prévia capacitação para atividades de poda de árvore. **38.8.8** Nos processos de poda de árvores devem ser utilizadas serras, serrotes, tesouras de poda, alicates de poda, apropriados para a tarefa, não sendo permitido o uso de ferramenta de corte por impacto."
         }
       ]
     },
@@ -915,31 +1128,44 @@
       "title": "Treinamento",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.1</mark>** <mark>A organização deve realizar treinamento dos empregados, observados a atividade realizada e os riscos a que estão expostos.</mark>"
+          "type": "item",
+          "number": "38.9.1",
+          "depth": 2,
+          "text": "A organização deve realizar treinamento dos empregados, observados a atividade realizada e os riscos a que estão expostos."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.2</mark>** <mark>Os treinamentos previstos nesta NR devem observar o disposto na NR-01 e ser realizados durante a jornada de trabalho, a cargo e custo da organização, conforme disposto nesta NR.</mark>"
+          "type": "item",
+          "number": "38.9.2",
+          "depth": 2,
+          "text": "Os treinamentos previstos nesta NR devem observar o disposto na NR-01 e ser realizados durante a jornada de trabalho, a cargo e custo da organização, conforme disposto nesta NR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.3</mark>** <mark>O treinamento inicial deve ser dividido em partes teórica e prática.</mark>"
+          "type": "item",
+          "number": "38.9.3",
+          "depth": 2,
+          "text": "O treinamento inicial deve ser dividido em partes teórica e prática."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.3.1</mark>** <mark>O conteúdo teórico do treinamento inicial deve abordar:</mark>"
+          "type": "item",
+          "number": "38.9.3.1",
+          "depth": 3,
+          "text": "O conteúdo teórico do treinamento inicial deve abordar:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) condições e meio ambiente de trabalho, incluindo situações de grave e iminente risco e o exercício do direito de recusa, conforme previsto na Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, especialmente quanto ao risco de descarga atmosférica e atropelamento;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "condições e meio ambiente de trabalho, incluindo situações de grave e iminente risco e o exercício do direito de recusa, conforme previsto na Norma Regulamentadora nº 01 (NR-01) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais, especialmente quanto ao risco de descarga atmosférica e atropelamento;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "perigos identificados, riscos avaliados e as medidas adotadas no PGR relacionadas às atividades <mark>de trabalho;</mark>"
+              "text": "perigos identificados, riscos avaliados e as medidas adotadas no PGR relacionadas às atividades de trabalho;"
             }
           ]
         },
@@ -957,7 +1183,7 @@
           "items": [
             {
               "label": "d",
-              "text": "orientações sobre aspectos ergonômicos do trabalho, incluindo técnicas de movimentação de <mark>carga;</mark>"
+              "text": "orientações sobre aspectos ergonômicos do trabalho, incluindo técnicas de movimentação de carga;"
             }
           ]
         },
@@ -989,12 +1215,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.3.2</mark>** <mark>O conteúdo prático do treinamento inicial deve abordar no mínimo:</mark>"
+          "type": "item",
+          "number": "38.9.3.2",
+          "depth": 3,
+          "text": "O conteúdo prático do treinamento inicial deve abordar no mínimo:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) manuseio e movimentação de carga;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "manuseio e movimentação de carga;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1019,45 +1252,66 @@
           "items": [
             {
               "label": "d",
-              "text": "meios e recursos necessários para os primeiros socorros, encaminhamento de acidentados e <mark>abandono da área de trabalho, quando necessário.</mark>"
+              "text": "meios e recursos necessários para os primeiros socorros, encaminhamento de acidentados e abandono da área de trabalho, quando necessário."
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.4</mark>** <mark>Para o trabalhador que realiza atividade de coleta de resíduos, o conteúdo previsto no subitem 38.9.3.1 desta NR deve incluir orientações sobre as situações nas quais os resíduos estejam acondicionados de forma que ofereçam risco à sua segurança ou saúde.</mark>"
+          "type": "item",
+          "number": "38.9.4",
+          "depth": 2,
+          "text": "Para o trabalhador que realiza atividade de coleta de resíduos, o conteúdo previsto no subitem 38.9.3.1 desta NR deve incluir orientações sobre as situações nas quais os resíduos estejam acondicionados de forma que ofereçam risco à sua segurança ou saúde."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.5</mark>** <mark>Para o trabalhador que realiza a atividade de poda de árvores o conteúdo previsto no item 38.9.3 desta NR deve incluir:</mark>"
+          "type": "item",
+          "number": "38.9.5",
+          "depth": 2,
+          "text": "Para o trabalhador que realiza a atividade de poda de árvores o conteúdo previsto no item 38.9.3 desta NR deve incluir:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) técnicas de cortes de árvores, incluindo derrubada, direcionamento de queda, remoção de árvores cortadas que permanecem suspensas por galhos de outras árvores, desgalhamento, traçamento/toragem; e</mark> - b) posturas corporais para preservar a coluna vertebral e manter o equilíbrio durante operação de <mark>motosserras, motopodas e similares.</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "técnicas de cortes de árvores, incluindo derrubada, direcionamento de queda, remoção de árvores cortadas que permanecem suspensas por galhos de outras árvores, desgalhamento, traçamento/toragem; e - b) posturas corporais para preservar a coluna vertebral e manter o equilíbrio durante operação de motosserras, motopodas e similares."
+            }
+          ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.5.1</mark>** <mark>Além do treinamento inicial, o trabalhador da atividade de poda de árvore deve ser treinado para operação segura de máquinas de acordo com a NR-12.</mark>"
+          "type": "item",
+          "number": "38.9.5.1",
+          "depth": 3,
+          "text": "Além do treinamento inicial, o trabalhador da atividade de poda de árvore deve ser treinado para operação segura de máquinas de acordo com a NR-12."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.6</mark>** <mark>As máquinas, equipamentos e ferramentas manuais utilizados no treinamento devem ser selecionados de forma que proporcionem o aprendizado dos participantes em condições similares às existentes em suas atividades de trabalho.</mark>"
+          "type": "item",
+          "number": "38.9.6",
+          "depth": 2,
+          "text": "As máquinas, equipamentos e ferramentas manuais utilizados no treinamento devem ser selecionados de forma que proporcionem o aprendizado dos participantes em condições similares às existentes em suas atividades de trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.7</mark>** <mark>O material didático utilizado nos treinamentos deve ser disponibilizado aos empregados, em meio físico ou digital.</mark>"
+          "type": "item",
+          "number": "38.9.7",
+          "depth": 2,
+          "text": "O material didático utilizado nos treinamentos deve ser disponibilizado aos empregados, em meio físico ou digital."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.8</mark>** <mark>Durante os primeiros 10 (dez) dias de trabalho na atividade, os coletores e varredores devem integrar equipe de trabalho que inclua empregado com experiência prévia nas funções, a fim de receberem instruções sobre a atividade.</mark>"
+          "type": "item",
+          "number": "38.9.8",
+          "depth": 2,
+          "text": "Durante os primeiros 10 (dez) dias de trabalho na atividade, os coletores e varredores devem integrar equipe de trabalho que inclua empregado com experiência prévia nas funções, a fim de receberem instruções sobre a atividade."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.9</mark>** <mark>A carga horária e o conteúdo dos treinamentos periódicos devem ser definidos pela organização e devem contemplar os princípios básicos de segurança e saúde relacionados à atividade de trabalho.</mark>"
+          "type": "item",
+          "number": "38.9.9",
+          "depth": 2,
+          "text": "A carga horária e o conteúdo dos treinamentos periódicos devem ser definidos pela organização e devem contemplar os princípios básicos de segurança e saúde relacionados à atividade de trabalho."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.9.10</mark>** <mark>A carga horária do treinamento inicial dever ser de 4 (quatro) horas para o conteúdo teórico e de 4 (quatro) horas para o conteúdo prático.</mark>"
+          "type": "item",
+          "number": "38.9.10",
+          "depth": 2,
+          "text": "A carga horária do treinamento inicial dever ser de 4 (quatro) horas para o conteúdo teórico e de 4 (quatro) horas para o conteúdo prático."
         }
       ]
     },
@@ -1067,12 +1321,19 @@
       "title": "Equipamentos de proteção individual e vestimentas de trabalho",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.1</mark>** <mark>É obrigatório o fornecimento gratuito de:</mark>"
+          "type": "item",
+          "number": "38.10.1",
+          "depth": 2,
+          "text": "É obrigatório o fornecimento gratuito de:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) EPI, sem prejuízo do previsto na Norma Regulamentadora nº 06 (NR-06) - Equipamentos de Proteção Individual;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "EPI, sem prejuízo do previsto na Norma Regulamentadora nº 06 (NR-06) - Equipamentos de Proteção Individual;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1093,12 +1354,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.1.1</mark>** <mark>Para fins desta NR, consideram-se dispositivos de proteção pessoal para uso no período diurno:</mark>"
+          "type": "item",
+          "number": "38.10.1.1",
+          "depth": 3,
+          "text": "Para fins desta NR, consideram-se dispositivos de proteção pessoal para uso no período diurno:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) chapéu ou boné tipo árabe ou legionário ou que cumpra a mesma função para auxílio na proteção contra radiação solar;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "chapéu ou boné tipo árabe ou legionário ou que cumpra a mesma função para auxílio na proteção contra radiação solar;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1119,12 +1387,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.2</mark>** <mark>Para atividades em local a céu aberto devem ser fornecidos:</mark>"
+          "type": "item",
+          "number": "38.10.2",
+          "depth": 2,
+          "text": "Para atividades em local a céu aberto devem ser fornecidos:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) os dispositivos de proteção pessoal indicados nas alíneas \"a\" e \"b\" do item 38.10.1.1; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os dispositivos de proteção pessoal indicados nas alíneas \"a\" e \"b\" do item 38.10.1.1; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1136,39 +1411,59 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.3</mark>** <mark>Para atividades em local a céu aberto, quando a avaliação de risco do PGR indicar a adoção de medidas de proteção individual, devem ser fornecidos:</mark>"
+          "type": "item",
+          "number": "38.10.3",
+          "depth": 2,
+          "text": "Para atividades em local a céu aberto, quando a avaliação de risco do PGR indicar a adoção de medidas de proteção individual, devem ser fornecidos:"
         },
         {
-          "type": "paragraph",
-          "text": "<mark>a) o dispositivo de proteção pessoal indicado na alínea \"c\" do subitem 38.10.1.1; e</mark> b) EPI tipo óculos de proteção contra radiação solar no período diurno."
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "o dispositivo de proteção pessoal indicado na alínea \"c\" do subitem 38.10.1.1; e b) EPI tipo óculos de proteção contra radiação solar no período diurno."
+            }
+          ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.4</mark>** <mark>Cabe à organização garantir o fornecimento do protetor solar durante a execução das atividades, na embalagem original ou por meio de dispensador coletivo.</mark>"
+          "type": "item",
+          "number": "38.10.4",
+          "depth": 2,
+          "text": "Cabe à organização garantir o fornecimento do protetor solar durante a execução das atividades, na embalagem original ou por meio de dispensador coletivo."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.4.1</mark>** <mark>A periodicidade do uso e o fator de proteção UV do protetor solar devem ser estabelecidos no PGR.</mark>"
+          "type": "item",
+          "number": "38.10.4.1",
+          "depth": 3,
+          "text": "A periodicidade do uso e o fator de proteção UV do protetor solar devem ser estabelecidos no PGR."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.5</mark>** <mark>É obrigatório o fornecimento gratuito de, no mínimo, 2 (duas) vestimentas de trabalho a todos os trabalhadores no início de suas atividades.</mark>"
+          "type": "item",
+          "number": "38.10.5",
+          "depth": 2,
+          "text": "É obrigatório o fornecimento gratuito de, no mínimo, 2 (duas) vestimentas de trabalho a todos os trabalhadores no início de suas atividades."
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.5.1</mark>** <mark>As vestimentas de trabalho devem ser:</mark>"
+          "type": "item",
+          "number": "38.10.5.1",
+          "depth": 3,
+          "text": "As vestimentas de trabalho devem ser:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) compostas de sinalização refletiva;</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "compostas de sinalização refletiva;"
+            }
+          ]
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "substituídas obrigatoriamente a cada 6 (seis) meses de trabalho contados do fornecimento <mark>inicial ou da reposição; e</mark>"
+              "text": "substituídas obrigatoriamente a cada 6 (seis) meses de trabalho contados do fornecimento inicial ou da reposição; e"
             }
           ]
         },
@@ -1182,12 +1477,19 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.5.1.1</mark>** <mark>As vestimentas de trabalho devem ser compostas de:</mark>"
+          "type": "item",
+          "number": "38.10.5.1.1",
+          "depth": 4,
+          "text": "As vestimentas de trabalho devem ser compostas de:"
         },
         {
-          "type": "paragraph",
-          "text": "- <mark>a) calças compridas; e</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "calças compridas; e"
+            }
+          ]
         },
         {
           "type": "list",
@@ -1199,32 +1501,50 @@
           ]
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.5.1.1.1</mark>** <mark>Na atividade de limpeza de praias ou assemelhados à praia podem ser fornecidas bermudas.</mark>"
+          "type": "item",
+          "number": "38.10.5.1.1.1",
+          "depth": 5,
+          "text": "Na atividade de limpeza de praias ou assemelhados à praia podem ser fornecidas bermudas."
+        },
+        {
+          "type": "item",
+          "number": "38.10",
+          "depth": 1,
+          "text": "** 6 As vestimentas de trabalho das atividades referidas alíneas \"g\" e \"h\" do item 38.2.1 e da atividade de coleta de resíduos de saúde devem ser submetidas a higienização diária sob a responsabilidade do empregador."
+        },
+        {
+          "type": "item",
+          "number": "38.10.6.1",
+          "depth": 3,
+          "text": "No caso do item 38.10.6, não se aplica o item 38.10.5 e a alínea \"b\" do item 38.10.5.1."
+        },
+        {
+          "type": "item",
+          "number": "38.10.7",
+          "depth": 2,
+          "text": "Para a atividade de coleta de resíduos sólidos, devem ser fornecidos ao trabalhador, entre outros, os seguintes tipos de EPI:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "calçado de segurança do tipo tênis aprovado, no mínimo, para proteção contra impactos de quedas sobre os artelhos e contra agentes abrasivos, escoriantes e perfurantes, com absorção de energia na área do salto (calcanhar) e com resistência ao escorregamento; e _(Alínea suspensa até 22 de outubro de 2026)_"
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "**<mark>38.10.</mark>** <mark>6 As vestimentas de trabalho das atividades referidas alíneas \"g\" e \"h\" do item 38.2.1 e da atividade de coleta de resíduos de saúde devem ser submetidas a higienização diária sob a responsabilidade do empregador.</mark>"
+          "text": "**Obs.:** _Durante o período de suspensão de que trata o art. 1º, a organização deve fornecer Equipamento de_ _Proteção Individual - EPI tipo calçado selecionado de acordo com os riscos ocupacionais identificados no Programa de Gerenciamento de Riscos - PGR, previsto na NR-1, e com observância ao disposto na NR-6._ _(Portaria MTE nº 779, de 16 de maio de 2025_ _e Portaria MTE nº 817, de 05 de maio de 2026)_"
         },
         {
-          "type": "paragraph",
-          "text": "**<mark>38.10.6.1</mark>** <mark>No caso do item 38.10.6, não se aplica o item 38.10.5 e a alínea \"b\" do item 38.10.5.1.</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>38.10.7</mark>** <mark>Para a atividade de coleta de resíduos sólidos, devem ser fornecidos ao trabalhador, entre outros, os seguintes tipos de EPI:</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>a) calçado de segurança do tipo tênis aprovado, no mínimo, para proteção contra impactos de quedas sobre os artelhos e contra agentes abrasivos, escoriantes e perfurantes, com absorção de energia na área do salto (calcanhar) e com resistência ao escorregamento; e</mark> _<mark>(Alínea suspensa até 22 de outubro de 2026)</mark>_"
-        },
-        {
-          "type": "paragraph",
-          "text": "**<mark>Obs.:</mark>** _Durante o período de suspensão de que trata o art. 1º, a organização deve fornecer Equipamento de_ _<mark>Proteção Individual - EPI tipo calçado selecionado de acordo com os riscos ocupacionais identificados no Programa de Gerenciamento de Riscos - PGR, previsto na NR-1, e com observância ao disposto na NR-6.</mark>_ _<u><mark>(Portaria MTE nº 779, de 16 de maio de 2025</mark></u>_ _<mark>e Portaria MTE nº 817, de 05 de maio de 2026)</mark>_"
-        },
-        {
-          "type": "paragraph",
-          "text": "- <mark>b) luva de segurança aprovada para proteção das mãos do usuário contra agentes abrasivos, escoriantes, cortantes e perfurantes, aprovada para o ensaio de resistência a corte por lâmina e para o ensaio de resistência à perfuração.</mark>"
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "luva de segurança aprovada para proteção das mãos do usuário contra agentes abrasivos, escoriantes, cortantes e perfurantes, aprovada para o ensaio de resistência a corte por lâmina e para o ensaio de resistência à perfuração."
+            }
+          ]
         }
       ]
     },
@@ -1235,83 +1555,83 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Análise visual externa: identificação de sinais e sintomas de pragas, patógenos e doenças, <mark>rachaduras, injúrias e cavidades, assim como a presença de ninhos e de animais peçonhentos.</mark> Carrinho coletor (Lutocar): carrinho coletor com duas rodas, cujo corpo central apresenta <mark>características para acomodar saco descartável.</mark>"
+          "text": "Análise visual externa: identificação de sinais e sintomas de pragas, patógenos e doenças, rachaduras, injúrias e cavidades, assim como a presença de ninhos e de animais peçonhentos. Carrinho coletor (Lutocar): carrinho coletor com duas rodas, cujo corpo central apresenta características para acomodar saco descartável."
         },
         {
           "type": "paragraph",
-          "text": "Coleta seletiva: coleta de resíduos sólidos previamente segregados conforme sua constituição ou <mark>composição.</mark>"
+          "text": "Coleta seletiva: coleta de resíduos sólidos previamente segregados conforme sua constituição ou composição."
         },
         {
           "type": "paragraph",
-          "text": "Contentores móveis: contêineres ou recipientes, de material plástico ou metálico, geralmente de <mark>grandes dimensões, usados para transporte, acondicionamento ou transporte de materiais.</mark>"
+          "text": "Contentores móveis: contêineres ou recipientes, de material plástico ou metálico, geralmente de grandes dimensões, usados para transporte, acondicionamento ou transporte de materiais."
         },
         {
           "type": "paragraph",
-          "text": "Deslocamento de trabalhadores na plataforma operacional: Deslocamentos de trabalhadores em <mark>plataformas de trabalho acopladas a veículos coletores compactadores, exclusivamente em marcha à frente durante a atividade de coleta e nos limites das áreas de trabalho (setores) de coleta, em velocidades e distâncias reduzidas, seguindo rotas e limites pré-determinados.</mark>"
+          "text": "Deslocamento de trabalhadores na plataforma operacional: Deslocamentos de trabalhadores em plataformas de trabalho acopladas a veículos coletores compactadores, exclusivamente em marcha à frente durante a atividade de coleta e nos limites das áreas de trabalho (setores) de coleta, em velocidades e distâncias reduzidas, seguindo rotas e limites pré-determinados."
         },
         {
           "type": "paragraph",
-          "text": "Destinação final: reutilização, reciclagem, compostagem, recuperação e/ou aproveitamento <mark>energético de resíduos sólidos.</mark>"
+          "text": "Destinação final: reutilização, reciclagem, compostagem, recuperação e/ou aproveitamento energético de resíduos sólidos."
         },
         {
           "type": "paragraph",
-          "text": "Disposição final: distribuição ordenada de rejeitos em aterros, observando normas operacionais <mark>específicas de modo a evitar danos ou riscos à saúde pública e à segurança e a minimizar os impactos ambientais adversos.</mark>"
+          "text": "Disposição final: distribuição ordenada de rejeitos em aterros, observando normas operacionais específicas de modo a evitar danos ou riscos à saúde pública e à segurança e a minimizar os impactos ambientais adversos."
         },
         {
           "type": "paragraph",
-          "text": "Escalada livre: escalada para acesso ou trabalho em altura sem a utilização de Sistema de Proteção <mark>contra Quedas - SPQ, destinado a eliminar o risco de queda dos trabalhadores ou a minimizar as consequências da queda.</mark>"
+          "text": "Escalada livre: escalada para acesso ou trabalho em altura sem a utilização de Sistema de Proteção contra Quedas - SPQ, destinado a eliminar o risco de queda dos trabalhadores ou a minimizar as consequências da queda."
         },
         {
           "type": "paragraph",
-          "text": "Evento adverso: qualquer ocorrência de natureza indesejável relacionada direta ou indiretamente <mark>ao trabalho, incluindo acidente de trabalho, incidente ou circunstância indesejada.</mark>"
+          "text": "Evento adverso: qualquer ocorrência de natureza indesejável relacionada direta ou indiretamente ao trabalho, incluindo acidente de trabalho, incidente ou circunstância indesejada."
         },
         {
           "type": "paragraph",
-          "text": "Ferramentas de corte por impacto: ferramentas de corte como foices, machados e facões, não <mark>adequados para poda de galhos e árvores.</mark>"
+          "text": "Ferramentas de corte por impacto: ferramentas de corte como foices, machados e facões, não adequados para poda de galhos e árvores."
         },
         {
           "type": "paragraph",
-          "text": "Geradores de resíduos sólidos: pessoas físicas ou jurídicas, de direito público ou privado, que geram <mark>resíduos sólidos por meio de suas atividades, nelas incluído o consumo.</mark>"
+          "text": "Geradores de resíduos sólidos: pessoas físicas ou jurídicas, de direito público ou privado, que geram resíduos sólidos por meio de suas atividades, nelas incluído o consumo."
         },
         {
           "type": "paragraph",
-          "text": "Imunização ativa: aplicação de vacinas contra determinada doença para que o sistema imunológico <mark>do indivíduo produza anticorpos contra essa doença.</mark>"
+          "text": "Imunização ativa: aplicação de vacinas contra determinada doença para que o sistema imunológico do indivíduo produza anticorpos contra essa doença."
         },
         {
           "type": "paragraph",
-          "text": "Máquinas autopropelidas: máquina automotriz ou autopropulsada, que se desloca em meio <mark>terrestre a partir de sistema próprio de propulsão, com motor e transmissão próprios, trabalhando de maneira independente de outros equipamentos ou máquinas.</mark>"
+          "text": "Máquinas autopropelidas: máquina automotriz ou autopropulsada, que se desloca em meio terrestre a partir de sistema próprio de propulsão, com motor e transmissão próprios, trabalhando de maneira independente de outros equipamentos ou máquinas."
         },
         {
           "type": "paragraph",
-          "text": "Poda de árvores: Atividade de retirada seletiva de partes indesejadas ou danificadas de árvores, as <mark>quais se caracterizam como plantas lenhosas perenes, com tronco e copa definidos, com mais de cinco metros de altura.</mark>"
+          "text": "Poda de árvores: Atividade de retirada seletiva de partes indesejadas ou danificadas de árvores, as quais se caracterizam como plantas lenhosas perenes, com tronco e copa definidos, com mais de cinco metros de altura."
         },
         {
           "type": "paragraph",
-          "text": "Poda para desobstrução de redes de eletricidade: Atividade de retirada seletiva de árvores podendo <mark>ser realizada em zona livre ou com trabalho em proximidade do Sistema Elétrico de Potência - SEP, com técnicas e equipamentos específicos.</mark>"
+          "text": "Poda para desobstrução de redes de eletricidade: Atividade de retirada seletiva de árvores podendo ser realizada em zona livre ou com trabalho em proximidade do Sistema Elétrico de Potência - SEP, com técnicas e equipamentos específicos."
         },
         {
           "type": "paragraph",
-          "text": "Trabalho em Proximidade: trabalho durante o qual o trabalhador pode entrar na zona controlada, <mark>ainda que seja com uma parte do seu corpo ou com extensões condutoras, representadas por materiais, ferramentas ou equipamentos que manipule.</mark>"
+          "text": "Trabalho em Proximidade: trabalho durante o qual o trabalhador pode entrar na zona controlada, ainda que seja com uma parte do seu corpo ou com extensões condutoras, representadas por materiais, ferramentas ou equipamentos que manipule."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos agrossilvopastoris: os gerados nas atividades agropecuárias e silviculturais, incluídos os <mark>relacionados a insumos utilizados nessas atividades.</mark>"
+          "text": "Resíduos agrossilvopastoris: os gerados nas atividades agropecuárias e silviculturais, incluídos os relacionados a insumos utilizados nessas atividades."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos da construção civil: os gerados nas construções, reformas, reparos e demolições de obras <mark>de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis.</mark> Resíduos de limpeza urbana: os resíduos sólidos originários da varrição, limpeza de logradouros e <mark>vias públicas e outros serviços de limpeza urbana.</mark>"
+          "text": "Resíduos da construção civil: os gerados nas construções, reformas, reparos e demolições de obras de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis. Resíduos de limpeza urbana: os resíduos sólidos originários da varrição, limpeza de logradouros e vias públicas e outros serviços de limpeza urbana."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos de mineração: os gerados na atividade de pesquisa, extração ou beneficiamento de <mark>minérios.</mark>"
+          "text": "Resíduos de mineração: os gerados na atividade de pesquisa, extração ou beneficiamento de minérios."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos de serviços de saúde: os gerados nos serviços de atenção à saúde humana e animal, <mark>inclusive assistência domiciliar; laboratórios analíticos de produtos para saúde; necrotérios, funerárias, serviços de embalsamamento; serviços de medicina legal; drogarias e farmácias; estabelecimentos de ensino e pesquisa na área da saúde; centros de controle de zoonose; distribuidores de produtos farmacêuticos, importadores, distribuidores de materiais e controles para diagnóstico in vitro; unidades móveis de atendimento à saúde; serviços de acupuntura; serviços de piercing e tatuagem, salões de beleza e estética, dentre outros afins (RDC nº 222/18).</mark>"
+          "text": "Resíduos de serviços de saúde: os gerados nos serviços de atenção à saúde humana e animal, inclusive assistência domiciliar; laboratórios analíticos de produtos para saúde; necrotérios, funerárias, serviços de embalsamamento; serviços de medicina legal; drogarias e farmácias; estabelecimentos de ensino e pesquisa na área da saúde; centros de controle de zoonose; distribuidores de produtos farmacêuticos, importadores, distribuidores de materiais e controles para diagnóstico in vitro; unidades móveis de atendimento à saúde; serviços de acupuntura; serviços de piercing e tatuagem, salões de beleza e estética, dentre outros afins (RDC nº 222/18)."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos de serviços de transportes: os originários de portos, aeroportos, terminais alfandegários, <mark>rodoviários e ferroviários e passagens de fronteira.</mark>"
+          "text": "Resíduos de serviços de transportes: os originários de portos, aeroportos, terminais alfandegários, rodoviários e ferroviários e passagens de fronteira."
         },
         {
           "type": "paragraph",
@@ -1319,11 +1639,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Resíduos perigosos: aqueles que, em razão de suas características de inflamabilidade, corrosividade, <mark>reatividade, toxicidade, patogenicidade, carcinogenicidade, teratogenicidade e mutagenicidade, apresentam significativo risco à saúde pública ou à qualidade ambiental, de acordo com lei, regulamento ou norma técnica.</mark>"
+          "text": "Resíduos perigosos: aqueles que, em razão de suas características de inflamabilidade, corrosividade, reatividade, toxicidade, patogenicidade, carcinogenicidade, teratogenicidade e mutagenicidade, apresentam significativo risco à saúde pública ou à qualidade ambiental, de acordo com lei, regulamento ou norma técnica."
         },
         {
           "type": "paragraph",
-          "text": "Resíduos sólidos domiciliares: os resíduos sólidos originários de atividades domésticas em <mark>residências urbanas.</mark>"
+          "text": "Resíduos sólidos domiciliares: os resíduos sólidos originários de atividades domésticas em residências urbanas."
         },
         {
           "type": "paragraph",
@@ -1331,15 +1651,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Resíduos sólidos: material, substância, objeto ou bem descartado nos estados sólido ou semissólido <mark>resultante de atividades humanas em sociedade.</mark>"
+          "text": "Resíduos sólidos: material, substância, objeto ou bem descartado nos estados sólido ou semissólido resultante de atividades humanas em sociedade."
         },
         {
           "type": "paragraph",
-          "text": "Silencioso: elemento que se acopla e compõe o sistema de escapamento do caminhão- <mark>compactador, exigindo um percurso adicional das ondas sonoras através de câmaras internas que reduzem a emissão de ruídos. Este componente possui, também, a denominação usual de silenciador.</mark>"
+          "text": "Silencioso: elemento que se acopla e compõe o sistema de escapamento do caminhão- compactador, exigindo um percurso adicional das ondas sonoras através de câmaras internas que reduzem a emissão de ruídos. Este componente possui, também, a denominação usual de silenciador."
         },
         {
           "type": "paragraph",
-          "text": "Transporte de trabalhadores: transporte de trabalhadores em veículos legalmente habilitados para <mark>circulação, fornecidos pela organização, em trânsito de qualquer estabelecimento da empresa para as áreas (setores) de coleta e vice-versa, entre setores de coleta, não adjacentes, bem como para os locais de transbordo e/ou destinação final dos resíduos sólidos urbanos.</mark>"
+          "text": "Transporte de trabalhadores: transporte de trabalhadores em veículos legalmente habilitados para circulação, fornecidos pela organização, em trânsito de qualquer estabelecimento da empresa para as áreas (setores) de coleta e vice-versa, entre setores de coleta, não adjacentes, bem como para os locais de transbordo e/ou destinação final dos resíduos sólidos urbanos."
         }
       ]
     }

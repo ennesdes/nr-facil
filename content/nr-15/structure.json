@@ -47,8 +47,10 @@
         "text": "Entende-se por \"Limite de Tolerância\", para os fins desta Norma, a concentração ou intensidade máxima ou mínima, relacionada com a natureza e o tempo de exposição ao agente, que não causará dano à saúde do trabalhador, durante a sua vida laboral."
       },
       {
-        "type": "note",
-        "text": "**15.2** O exercício de trabalho em condições de insalubridade, de acordo com os subitens do item Este texto não substitui o publicado no DOU"
+        "type": "item",
+        "number": "15.2",
+        "depth": 1,
+        "text": "O exercício de trabalho em condições de insalubridade, de acordo com os subitens do item"
       },
       {
         "type": "paragraph",
@@ -119,7 +121,7 @@
         "type": "item",
         "number": "15.4.1.3",
         "depth": 3,
-        "text": "O laudo caracterizador da insalubridade deve estar disponível aos trabalhadores, sindicatos das categorias profissionais e à inspeção do trabalho. _(Inserido pela Portaria MTE nº 2.021, de 03 de dezembro de 2025 -_ _<mark>entra em vigor a partir de 03 de abril de 2026</mark> )_"
+        "text": "O laudo caracterizador da insalubridade deve estar disponível aos trabalhadores, sindicatos das categorias profissionais e à inspeção do trabalho. _(Inserido pela Portaria MTE nº 2.021, de 03 de dezembro de 2025 -_ _entra em vigor a partir de 03 de abril de 2026 )_"
       },
       {
         "type": "item",
@@ -147,19 +149,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**ANEXO Nº 1** # **LIMITES DE TOLERÂNCIA PARA RUÍDO CONTÍNUO OU INTERMITENTE**"
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
-      },
-      {
-        "type": "paragraph",
-        "text": "**1.** Entende-se por Ruído Contínuo ou Intermitente, para os fins de aplicação de Limites de Tolerância, o ruído que não seja ruído de impacto. **2.** Os níveis de ruído contínuo ou intermitente devem ser medidos em decibéis (dB) com instrumento de nível de pressão sonora operando no circuito de compensação \"A\" e circuito de resposta lenta (SLOW). As leituras devem ser feitas próximas ao ouvido do trabalhador. **3.** Os tempos de exposição aos níveis de ruído não devem exceder os limites de tolerância fixados no Quadro deste anexo. **4.** Para os valores encontrados de nível de ruído intermediário será considerada a máxima exposição diária permissível relativa ao nível imediatamente mais elevado. **5.** Não é permitida exposição a níveis de ruído acima de 115 dB(A) para indivíduos que não estejam adequadamente protegidos. **6.** Se durante a jornada de trabalho ocorrerem dois ou mais períodos de exposição a ruído de diferentes níveis, devem ser considerados os seus efeitos combinados, de forma que, se a soma das seguintes frações:"
-      },
-      {
-        "type": "note",
-        "text": "Este texto não substitui o publicado no DOU"
+        "text": "**ANEXO Nº 1** # **LIMITES DE TOLERÂNCIA PARA RUÍDO CONTÍNUO OU INTERMITENTE** **1.** Entende-se por Ruído Contínuo ou Intermitente, para os fins de aplicação de Limites de Tolerância, o ruído que não seja ruído de impacto. **2.** Os níveis de ruído contínuo ou intermitente devem ser medidos em decibéis (dB) com instrumento de nível de pressão sonora operando no circuito de compensação \"A\" e circuito de resposta lenta (SLOW). As leituras devem ser feitas próximas ao ouvido do trabalhador. **3.** Os tempos de exposição aos níveis de ruído não devem exceder os limites de tolerância fixados no Quadro deste anexo. **4.** Para os valores encontrados de nível de ruído intermediário será considerada a máxima exposição diária permissível relativa ao nível imediatamente mais elevado. **5.** Não é permitida exposição a níveis de ruído acima de 115 dB(A) para indivíduos que não estejam adequadamente protegidos. **6.** Se durante a jornada de trabalho ocorrerem dois ou mais períodos de exposição a ruído de diferentes níveis, devem ser considerados os seus efeitos combinados, de forma que, se a soma das seguintes frações:"
       },
       {
         "type": "table",
@@ -167,7 +157,7 @@
       },
       {
         "type": "paragraph",
-        "text": "<u>C₁    +    C₂     +   C₃        ____________________ +  Cn</u> T₁           T₂          T₃ Tn T₁           T₂          T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente."
+        "text": "C₁ + C₂ + C₃ ____________________ + Cn T₁ T₂ T₃ Tn T₁ T₂ T₃ exceder a unidade, a exposição estará acima do limite de tolerância. Na equação acima, Cn indica o tempo total que o trabalhador fica exposto a um nível de ruído específico, e Tn indica a máxima exposição diária permissível a este nível, segundo o Quadro deste Anexo. **7.** As atividades ou operações que exponham os trabalhadores a níveis de ruído, contínuo ou intermitente, superiores a 115 dB(A), sem proteção adequada, oferecerão risco grave e iminente."
       }
     ]
   },
@@ -242,9 +232,9 @@
       ]
     },
     {
-      "id": "11-o-objetivo-deste-anexo-é-estabelecer-critério-para-caracterizar-as-atividades-ou-operações-insalubres-decorrentes-da-exposição-ocupacional-ao-calor-em-ambientes-fechados-ou-ambientes-este-texto-não-substitui-o-publicado-no-dou",
+      "id": "11-o-objetivo-deste-anexo-é-estabelecer-critério-para-caracterizar-as-atividades-ou-operações-insalubres-decorrentes-da-exposição-ocupacional-ao-calor-em-ambientes-fechados-ou-ambientes",
       "number": "1.1",
-      "title": "O objetivo deste Anexo é estabelecer critério para caracterizar as atividades ou operações insalubres decorrentes da exposição ocupacional ao calor em ambientes fechados ou ambientes Este texto não substitui o publicado no DOU",
+      "title": "O objetivo deste Anexo é estabelecer critério para caracterizar as atividades ou operações insalubres decorrentes da exposição ocupacional ao calor em ambientes fechados ou ambientes",
       "blocks": [
         {
           "type": "paragraph",
@@ -321,13 +311,13 @@
     {
       "id": "23-são-caracterizadas-como-insalubres-as-atividades-ou-operações-realizadas-em-ambientes-fechados-ou-ambientes-com-fonte-artificial-de-calor-sempre-que-o-ibutg-médio-medido-ultrapassar-os-limites-de-exposição-ocupacional-estabelecidos-com-base-no-índice-de-bulbo-úmido-termômetro-de-globo-apresentados-no-quadro-1-ibutgmáx-e-determinados-a-partir-da-taxa-metabólica-das-atividades-apresentadas-no-quadro-2-ambos-deste-anexo",
       "number": "2.3",
-      "title": "São caracterizadas como insalubres as atividades ou operações realizadas em ambientes fechados ou ambientes com fonte artificial de calor sempre que o IBUTG (médio) medido ultrapassar os limites de exposição ocupacional estabelecidos com base no Índice de Bulbo Úmido Termômetro de Globo apresentados no Quadro 1 ( IBUTGMÁX <u>) e determinados a partir da taxa metabólica das</u> atividades, apresentadas no Quadro 2, ambos deste anexo",
+      "title": "São caracterizadas como insalubres as atividades ou operações realizadas em ambientes fechados ou ambientes com fonte artificial de calor sempre que o IBUTG (médio) medido ultrapassar os limites de exposição ocupacional estabelecidos com base no Índice de Bulbo Úmido Termômetro de Globo apresentados no Quadro 1 ( IBUTGMÁX ) e determinados a partir da taxa metabólica das atividades, apresentadas no Quadro 2, ambos deste anexo",
       "blocks": []
     },
     {
       "id": "24-o-índice-de-bulbo-úmido-termômetro-de-globo-médio---ibutg-e-a-taxa-metabólica-média---𝑀-a-serem-considerados-na-avaliação-da-exposição-ao-calor-devem-ser-aqueles-que-obtidos-no-período-de-60-sessenta-minutos-corridos-resultem-na-condição-mais-crítica-de-exposição",
       "number": "2.4",
-      "title": "O Índice de Bulbo Úmido Termômetro de Globo Médio - IBUTG e a Taxa Metabólica Média - 𝑀 <u>, a</u> serem considerados na avaliação da exposição ao calor, devem ser aqueles que, obtidos no período de 60 (sessenta) minutos corridos, resultem na condição mais crítica de exposição",
+      "title": "O Índice de Bulbo Úmido Termômetro de Globo Médio - IBUTG e a Taxa Metabólica Média - 𝑀 , a serem considerados na avaliação da exposição ao calor, devem ser aqueles que, obtidos no período de 60 (sessenta) minutos corridos, resultem na condição mais crítica de exposição",
       "blocks": [
         {
           "type": "item",
@@ -340,7 +330,7 @@
     {
       "id": "25-os-limites-de-exposição-ocupacional-ao-calor-ibutgmáx-estão-apresentados-no-quadro-1-deste-anexo-para-os-diferentes-valores-de-taxa-metabólica-média-m",
       "number": "2.5",
-      "title": "Os limites de exposição ocupacional ao calor, IBUTGMÁX <u>, estão apresentados no Quadro 1 deste</u> anexo para os diferentes valores de taxa metabólica média ( M <u>).</u>",
+      "title": "Os limites de exposição ocupacional ao calor, IBUTGMÁX , estão apresentados no Quadro 1 deste anexo para os diferentes valores de taxa metabólica média ( M )",
       "blocks": []
     },
     {
@@ -351,10 +341,6 @@
         {
           "type": "paragraph",
           "text": "**3.** Laudo Técnico para caracterização da exposição ocupacional ao calor"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -428,11 +414,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**<u>Quadro 1</u>** - Limite de exposição ocupacional ao calor"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "**Quadro 1** - Limite de exposição ocupacional ao calor"
         },
         {
           "type": "table",
@@ -446,10 +428,6 @@
       "title": "Quadro 2 - Taxa metabólica por tipo de atividade",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| 175 | 30,9 | 325 | 27,8 | 606 | 24,7 |\n| --- | --- | --- | --- | --- | --- |\n| 178 | 30,8 | 332 | 27,7 | | |\n| 182 | 30,7 | 339 | 27,6 | | |"
         },
@@ -458,12 +436,8 @@
           "markdown": "| Atividade | Taxa metabólica (W) |\n| --- | --- |\n| Sentado | |\n| Em repouso | 100 |\n| Trabalho leve com as mãos | 126 |\n| Trabalho moderado com as mãos | 153 |\n| Trabalho pesado com as mãos | 171 |\n| Trabalho leve com um braço | 162 |\n| Trabalho moderado com um braço | 198 |\n| Trabalho pesado com um braço | 234 |\n| Trabalho leve com dois braços | 216 |\n| Trabalho moderado com dois braços | 252 |\n| Trabalho pesado com dois braços | 288 |\n| Trabalho leve com braços e pernas | 324 |\n| Trabalho moderado com braços e pernas | 441 |\n| Trabalho pesado com braços e pernas | 603 |\n| Em pé, agachado ou ajoelhado | |\n| Em repouso | 126 |\n| Trabalho leve com as mãos | 153 |\n| Trabalho moderado com as mãos | 180 |\n| Trabalho pesado com as mãos | 198 |\n| Trabalho leve com um braço | 189 |\n| Trabalho moderado com um braço | 225 |\n| Trabalho pesado com um braço | 261 |\n| Trabalho leve com dois braços | 243 |\n| Trabalho moderado com dois braços | 279 |\n| Trabalho pesado com dois braços | 315 |\n| Trabalho leve com o corpo | 351 |\n| Trabalho moderado com o corpo | 468 |\n| Trabalho pesado com o corpo | 630 |\n| Em pé, em movimento | |"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Andando no plano | |\n| --- | --- |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minu- to - altura do degrau de 0,17 m) | |\n| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 |\n| Trabalho moderado de levantar ou empurrar | 349 |"
+          "markdown": "| Andando no plano | |\n| --- | --- |\n| 1. Sem carga | |\n| • 2 km/h | 198 |\n| • 3 km/h | 252 |\n| • 4 km/h | 297 |\n| • 5 km/h | 360 |\n| 2. Com carga | |\n| • 10 kg, 4 km/h | 333 |\n| • 30 kg, 4 km/h | 450 |\n| Correndo no plano | |\n| • 9 km/h | 787 |\n| • 12 km/h | 873 |\n| • 15 km/h | 990 |\n| Subindo rampa | |\n| 1. Sem carga | |\n| • com 5° de inclinação, 4 km/h | 324 |\n| • com 15° de inclinação, 3 km/h | 378 |\n| • com 25° de inclinação, 3 km/h | 540 |\n| 2. Com carga de 20 kg | |\n| • com 15° de inclinação, 4 km/h | 486 |\n| • com 25° de inclinação, 4 km/h | 738 |\n| Descendo rampa (5 km/h) sem carga | |\n| • com 5° de inclinação | 243 |\n| • com 15° de inclinação | 252 |\n| • com 25° de inclinação | 324 |\n| Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m) | |\n| • Sem carga | 522 |\n| • Com carga (20 kg) | 648 |\n| Descendo escada (80 degraus por minu-to - altura do degrau de 0,17 m) | |\n| • Sem carga | 279 |\n| • Com carga (20 kg) | 400 |\n| Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado) | 320 |\n| Trabalho moderado de levantar ou empurrar | 349 |"
         }
       ]
     },
@@ -576,10 +550,6 @@
               "text": "**Encarregado de Ar Comprimido** - É o profissional treinado e conhecedor das diversas técnicas empregadas nos trabalhos sob ar comprimido, designado pelo empregador como o responsável"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -697,17 +667,9 @@
           "items": [
             {
               "label": "b",
-              "text": "ser submetido a exame médico obrigatório, pré-admissional e periódico, exigido pelas"
+              "text": "ser submetido a exame médico obrigatório, pré-admissional e periódico, exigido pelas características e peculiaridades próprias do trabalho;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "características e peculiaridades próprias do trabalho;"
         },
         {
           "type": "list",
@@ -827,10 +789,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "1.3.15",
           "depth": 2,
@@ -932,10 +890,6 @@
           "number": "1.3.15.7",
           "depth": 3,
           "text": "A comunicação entre o interior dos ambientes sob pressão de ar comprimido e o exterior"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1043,18 +997,6 @@
       "title": "MODELO DE PLACA DE IDENTIFICAÇÃO PARA TRABALHO EM AMBIENTE SOB AR COMPRIMIDO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "<!-- Start of picture text --> FRENTE<br>EM CASO DE INCOSNCIÊNCIA OU MAL DE<br>CAUSA<br>INDETERMINADA TELEFONAR PARA O<br>Nº_____________<br>E ENCAMINHAR O PORTADOR DESTA PARA<br>___________<br>6 cm<br>VERSO<br>NOME DA CIA<br>NOME DO TRABALHADOR<br>ATENÇÃO: TRABALHA EM AR COMPRIMIDO<br>6 cm<br>4 cm<br>4 cm<br><!-- End of picture text -->"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "ESPECIFICAÇÃO DO MATERIAL DA PLACA: Alumínio com espessura de 2 mm"
         }
@@ -1109,10 +1051,6 @@
         {
           "type": "paragraph",
           "text": "Período de trabalho de ½ a 1 hora."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1194,10 +1132,6 @@
         {
           "type": "paragraph",
           "text": "(**) Não está incluído o tempo entre estágios."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1287,10 +1221,6 @@
           "text": "Período de trabalho de 3 a 4 horas"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO (min.) ** |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,8 | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 1,0 a 1,2 | | | | | | | | | 5 | 5 |\n| 1,2 a 1,4 | | | | | | | | | 20 | 20 |\n| 1,4 a 1,6 | | | | | | | | 5 | 30 | 35 |\n| 1,6 a 1,8 | | | | | | | | 15 | 40 | 55 |\n| 1,8 a 2,0 | | | | | | | 5 | 25 | 40 | 70 |"
         },
@@ -1373,10 +1303,6 @@
       "number": "",
       "title": "NOTAS:",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "table",
           "markdown": "| 1,2 a 1,4 | | | | | | | | 5 | 30 | 35 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1,4 a 1,6 | | | | | | | | 15 | 40 | 55 |\n| 1,6 a 1,8 | | | | | | | 5 | 25 | 45 | 75 |\n| 1,8 a 2,0 | | | | | | 5 | 15 | 30 | 45 | 95 |"
@@ -1469,10 +1395,6 @@
       "title": "TABELA DE DESCOMPRESSÃO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| PRESSÃO DE TRABALHO *** (kgf/cm2) | ESTÁGIO DE DESCOMPRESSÃO (kgf/cm2)* | | | | | | | | TEMPO TOTAL DE DESCOMPRESSÃO** (min.) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 1,6 | 1,4 | 1,2 | 1,0 | 0,8 | 0,6 | 0,4 | 0,2 | |\n| 2,0 a 2,2 | | | | | | | 5 | 15 | 20 |\n| 2,2 a 2,4 | | | | | | | 5 | 20 | 25 |\n| 2,4 a 2,6 | | | | | | | 10 | 25 | 35 |\n| 2,6 a 2,8 | | | | | | 5 | 10 | 35 | 50 |\n| 2,8 a 3,0 | | | | | | 5 | 15 | 40 | 60 |\n| 3,0 a 3,2 | | | | | 5 | 5 | 20 | 40 | 70 |\n| 3,2 a 3,4 | | | | | 5 | 10 | 25 | 40 | 80 |"
         },
@@ -1540,10 +1462,6 @@
         {
           "type": "paragraph",
           "text": "Período de trabalho de 2 ½ a 3:00 horas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1616,10 +1534,6 @@
         {
           "type": "paragraph",
           "text": "Período de trabalho de 4 a 6 horas."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -1776,8 +1690,8 @@
           ]
         },
         {
-          "type": "note",
-          "text": "IX **- Contratante** : pessoa física ou jurídica que contrata os serviços de mergulho ou para quem Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "IX **- Contratante** : pessoa física ou jurídica que contrata os serviços de mergulho ou para quem"
         },
         {
           "type": "paragraph",
@@ -1864,15 +1778,7 @@
         },
         {
           "type": "paragraph",
-          "text": "XXIII - **Pressão Ambiente** : a pressão do meio que envolve o mergulhador;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "XXIV - **Programa Médico** : o conjunto de atividades desenvolvidas pelo empregador, na área médica, necessária à manutenção da saúde e integridade física do mergulhador;"
+          "text": "XXIII - **Pressão Ambiente** : a pressão do meio que envolve o mergulhador; XXIV - **Programa Médico** : o conjunto de atividades desenvolvidas pelo empregador, na área médica, necessária à manutenção da saúde e integridade física do mergulhador;"
         },
         {
           "type": "paragraph",
@@ -1940,20 +1846,7 @@
           "items": [
             {
               "label": "a",
-              "text": "exigir do empregador, através do instrumento contratual, que os serviços sejam desenvolvidos de acordo com o estabelecido neste item;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "exigir do empregador que apresente Certificado de Cadastramento expedido pela Diretoria de Portos e Costas - DPC;"
+              "text": "exigir do empregador, através do instrumento contratual, que os serviços sejam desenvolvidos de acordo com o estabelecido neste item; - b) exigir do empregador que apresente Certificado de Cadastramento expedido pela Diretoria de Portos e Costas - DPC;"
             }
           ]
         },
@@ -2141,20 +2034,7 @@
           "items": [
             {
               "label": "c",
-              "text": "garantir que nenhuma manobra seja realizada e qualquer máquina ou equipamento pare de operar, se oferecerem perigo para os mergulhadores em operação;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "d",
-              "text": "providenciar para que o supervisor de mergulho seja informado, antes do início da operação e a convenientes intervalos no curso da mesma, sobre as previsões meteorológicas para a área de operação;"
+              "text": "garantir que nenhuma manobra seja realizada e qualquer máquina ou equipamento pare de operar, se oferecerem perigo para os mergulhadores em operação; - d) providenciar para que o supervisor de mergulho seja informado, antes do início da operação e a convenientes intervalos no curso da mesma, sobre as previsões meteorológicas para a área de operação;"
             }
           ]
         },
@@ -2380,10 +2260,6 @@
           "text": "Da Classificação dos Mergulhadores."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "2.7.1",
           "depth": 2,
@@ -2526,8 +2402,10 @@
           "text": "- todos os elementos acima e mais 1 (um) mergulhador encarregado da operação da câmara hiperbárica."
         },
         {
-          "type": "note",
-          "text": "**2.8.7** Nas operações com técnica de saturação deverá haver, no mínimo, 2 (dois) supervisores e Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "2.8.7",
+          "depth": 2,
+          "text": "Nas operações com técnica de saturação deverá haver, no mínimo, 2 (dois) supervisores e"
         },
         {
           "type": "paragraph",
@@ -2701,15 +2579,7 @@
           "type": "item",
           "number": "2.10.2",
           "depth": 2,
-          "text": "Em mergulho a mais de 50,00m (cinqüenta metros) de profundidade, quando utilizando sino de mergulho ou câmara submersível de pressão atmosférica, é obrigatória a disponibilidade"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "de intercomunicador, sem fio, que permita comunicações verbais, para utilização em caso de emergência."
+          "text": "Em mergulho a mais de 50,00m (cinqüenta metros) de profundidade, quando utilizando sino de mergulho ou câmara submersível de pressão atmosférica, é obrigatória a disponibilidade de intercomunicador, sem fio, que permita comunicações verbais, para utilização em caso de emergência."
         },
         {
           "type": "item",
@@ -2815,19 +2685,9 @@
           "items": [
             {
               "label": "d",
-              "text": "afastar-se do local da câmara, caso o mergulho tenha se realizado com a utilização de misturas respiratórias artificiais."
+              "text": "afastar-se do local da câmara, caso o mergulho tenha se realizado com a utilização de misturas respiratórias artificiais. - **2.10.13** Nas operações de mergulho discriminadas neste subitem deve ser observado o seguinte:"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "item",
-          "number": "2.10.13",
-          "depth": 2,
-          "text": "Nas operações de mergulho discriminadas neste subitem deve ser observado o seguinte:"
         },
         {
           "type": "list",
@@ -2968,10 +2828,6 @@
           "text": "Utilizando a técnica de saturação, o período máximo de permanência sob pressão será de 28 dias e o intervalo mínimo entre duas saturações será igual ao tempo de saturação, não podendo este intervalo ser inferior a 14 dias. O tempo total de permanência sob saturação num período de 12 meses consecutivos não poderá ser superior a 120 dias."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "2.10.14",
           "depth": 2,
@@ -3092,8 +2948,10 @@
           ]
         },
         {
-          "type": "note",
-          "text": "**2.10.19.1** Caso as condições de visibilidade não permitam a completa visão do trajeto do Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "2.10.19.1",
+          "depth": 3,
+          "text": "Caso as condições de visibilidade não permitam a completa visão do trajeto do"
         },
         {
           "type": "paragraph",
@@ -3359,20 +3217,7 @@
           "items": [
             {
               "label": "j",
-              "text": "tabelas de descompressão, inclusive as de tratamento e de correção;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "l",
-              "text": "controle das alterações das condições iniciais;"
+              "text": "tabelas de descompressão, inclusive as de tratamento e de correção; - l) controle das alterações das condições iniciais;"
             }
           ]
         },
@@ -3561,10 +3406,6 @@
           "text": "A pressão do teste de ruptura dos equipamentos deverá ser igual a 1,5 vezes a pressão máxima de trabalho para a qual foram projetados."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| Testes Equipamentos | De Vazamento | De Ruptura |\n| --- | --- | --- |\n| Câmaras Hiperbáricas | 2 anos | 5 anos |\n| Reservatório de Gases não Submerso | 5 anos | 5 anos |\n| Reservatório de Gases Submerso | 2 anos | 5 anos |\n| Equipamentos com pressão de trabalho superior a 500 mbar | 2 anos | 2 anos |"
         },
@@ -3696,10 +3537,6 @@
           "number": "2.11.15",
           "depth": 2,
           "text": "Todos os indicadores de pressão, profundidade ou equivalente, deverão ser construídos de forma a não serem afetados pelas condições ambientes, exceto aqueles projetados para tal."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -3864,8 +3701,8 @@
           "text": "- III. de forma que todas as redes que atravessem seu corpo disponham, interna e"
         },
         {
-          "type": "note",
-          "text": "- Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "-"
         },
         {
           "type": "paragraph",
@@ -3979,26 +3816,13 @@
           "items": [
             {
               "label": "a",
-              "text": "com sistema de controle de temperatura e umidade relativa do meio ambiente;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "com sistema sanitário completo, incluindo vaso, chuveiro e lavatório com água quente e fria."
+              "text": "com sistema de controle de temperatura e umidade relativa do meio ambiente; - B) com sistema sanitário completo, incluindo vaso, chuveiro e lavatório com água quente e fria."
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "- IV.  com flange padronizado pela Diretoria de Portos e Costas (DPC), que permita o seu acoplamento em emergência, a diferentes sinos de mergulho, quando prevista a utilização destes sinos."
+          "text": "- IV. com flange padronizado pela Diretoria de Portos e Costas (DPC), que permita o seu acoplamento em emergência, a diferentes sinos de mergulho, quando prevista a utilização destes sinos."
         },
         {
           "type": "item",
@@ -4109,20 +3933,7 @@
           "items": [
             {
               "label": "b",
-              "text": "o período de realização da operação;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "o nome ou outra designação da plataforma de mergulho, sua localização e o nome do seu comandante ou responsável;"
+              "text": "o período de realização da operação; - c) o nome ou outra designação da plataforma de mergulho, sua localização e o nome do seu comandante ou responsável;"
             }
           ]
         },
@@ -4370,8 +4181,8 @@
           "text": "Das Tabelas de Descompressão e Tratamento."
         },
         {
-          "type": "note",
-          "text": "- Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "-"
         },
         {
           "type": "item",
@@ -4477,10 +4288,6 @@
         {
           "type": "paragraph",
           "text": "A integridade do aparelho circulatório será verificada pelo exame clínico, radiológico e eletrocardiográfico; a pressão arterial sistólica não deverá exceder a 145 mm/Hg e a diastólica a 90mm/Hg, sem nenhuma repercussão hemodinâmica. As perturbações da circulação venosa periférica (varizes e hemorróidas) acarretam a inaptidão."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -4661,17 +4468,9 @@
           "items": [
             {
               "label": "b",
-              "text": "história pregressa de distúrbios neuropsíquicos ou de moléstia orgânica do sistema nervoso,"
+              "text": "história pregressa de distúrbios neuropsíquicos ou de moléstia orgânica do sistema nervoso, epilepsia, ou pós-traumática, inabilitam os candidatos;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "epilepsia, ou pós-traumática, inabilitam os candidatos;"
         },
         {
           "type": "list",
@@ -4768,10 +4567,6 @@
         },
         {
           "type": "paragraph",
-          "text": "10"
-        },
-        {
-          "type": "paragraph",
           "text": "O \"Índice de Ruffier\" deverá ser abaixo de 10 (dez)."
         }
       ]
@@ -4799,8 +4594,8 @@
       "title": "I - IDADE",
       "blocks": [
         {
-          "type": "note",
-          "text": "Todos os mergulhadores que permaneçam em atividade deverão ser submetidos a exames Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "Todos os mergulhadores que permaneçam em atividade deverão ser submetidos a exames"
         },
         {
           "type": "paragraph",
@@ -4953,15 +4748,7 @@
         },
         {
           "type": "paragraph",
-          "text": "8. Quaisquer outros exames (ex. ecocardiograma, cicloergometria, etc.) poderão ser solicitados a critério do médico responsável pelo exame de saúde do mergulhador."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO “C”**"
+          "text": "8. Quaisquer outros exames (ex. ecocardiograma, cicloergometria, etc.) poderão ser solicitados a critério do médico responsável pelo exame de saúde do mergulhador. **ANEXO “C”**"
         }
       ]
     },
@@ -5024,15 +4811,7 @@
         },
         {
           "type": "paragraph",
-          "text": "2.1 - Para dar início à descompressão, utilizar a tabela com a profundidade exata ou a próxima maior profundidade alcançada durante o mergulho."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Exemplo: Profundidade máxima = 12,5 metros. Selecione a tabela de 15 metros."
+          "text": "2.1 - Para dar início à descompressão, utilizar a tabela com a profundidade exata ou a próxima maior profundidade alcançada durante o mergulho. Exemplo: Profundidade máxima = 12,5 metros. Selecione a tabela de 15 metros."
         },
         {
           "type": "paragraph",
@@ -5062,12 +4841,8 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| PROFUN- DIDADE (METROS) | TEMPO DE FUNDO (MINUTOS ) | TEMPO P/ 1ª PARADA (MIN. SEG.) | PARADAS P/ DESCOMPRESSÃO (MINUTOS) | | | | | | | | | | | TEMPO TOTAL P/SUBIDA (MIN. SEG.) | GRUPO REPETITI VO |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "markdown": "| PROFUN-DIDADE (METROS) | TEMPO DE FUNDO (MINUTOS ) | TEMPO P/ 1ª PARADA (MIN. SEG.) | PARADAS P/ DESCOMPRESSÃO (MINUTOS) | | | | | | | | | | | TEMPO TOTAL P/SUBIDA (MIN. SEG.) | GRUPO REPETITI VO |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5085,12 +4860,8 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5108,12 +4879,8 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5131,12 +4898,8 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR*",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Profun- didade (metros) | Tempo de Fundo (minuto s) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min:seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30m | 27m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "markdown": "| Profun-didade (metros) | Tempo de Fundo (minuto s) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min:seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30m | 27m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5154,12 +4917,8 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Profun- didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
+          "markdown": "| Profun-didade (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | Tempo Total p/Subida (min/seg) | Grupo Repetitiv o |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | | |"
         },
         {
           "type": "paragraph",
@@ -5173,16 +4932,12 @@
       "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "type": "table",
+          "markdown": "| Profun-didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |"
         },
         {
           "type": "table",
-          "markdown": "| Profun- didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/ Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |"
-        },
-        {
-          "type": "table",
-          "markdown": "| | 5 | 3:20 | | | | | | 1 | 4:30 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 10 | 3:10 | | | | | 2 | 4 | 9:30 |\n| | 15 | 3:00 | | | | 1 | 5 | 13 | 22:30 |\n| 63 | 20 | 3:00 | | | | 4 | 10 | 23 | 40:30 |\n| (**) | 25 | 2:50 | | | 2 | 7 | 17 | 27 | 56:30 |\n| | 30 | 2:50 | | | 4 | 9 | 24 | 41 | 81:30 |\n| | 40 | 2:40 | | 4 | 9 | 19 | 26 | 63 | 124:30 |\n| | 50 | 2:30 | 1 | 9 | 17 | 19 | 45 | 80 | 174:30 |\n| | 5 | 3:30 | | | | | | 2 | 5:40 |\n| | 10 | 3:20 | | | | | 2 | 5 | 10:40 |\n| | 15 | 3:10 | | | | 2 | 5 | 16 | 26:40 |\n| 66 | 20 | 3:00 | | | 1 | 3 | 11 | 24 | 42:40 |\n| (**) | 25 | 3:00 | | | 3 | 8 | 19 | 33 | 66:40 |\n| | 30 | 2:50 | | 1 | 7 | 10 | 23 | 47 | 91:40 |\n| | 40 | 2:50 | | 6 | 12 | 22 | 29 | 68 | 140:40 |\n| | 50 | 2:40 | 3 | 12 | 17 | 18 | 51 | 86 | 190:40 |\n| | 5 | 3:40 | | | | | | 2 | 5:50 |\n| | 10 | 3:20 | | | | 1 | 2 | 6 | 12:50 |\n| | 15 | 3:20 | | | | 3 | 6 | 18 | 30:50 |\n| 69 | 20 | 3:10 | | | 2 | 5 | 12 | 26 | 48:50 |\n| (**) | 25 | 3:10 | | | 4 | 8 | 22 | 37 | 74:50 |\n| | 30 | 3:00 | | 2 | 8 | 12 | 23 | 51 | 99:50 |\n| | 40 | 2:50 | 1 | 7 | 15 | 22 | 34 | 74 | 156:50 |\n| | 50 | 2:50 | 5 | 14 | 16 | 24 | 51 | 89 | 202:50 |\n| | 5 | 3:50 | | | | | | 2 | 6:00 |\n| | 10 | 3:30 | | | | 1 | 3 | 6 | 14:00 |\n| 72 | 15 | 3:30 | | | | 4 | 6 | 21 | 35:00 |\n| (**) | 20 | 3:20 | | | 3 | 6 | 15 | 25 | 53:00 |\n| | 25 | 3:10 | | 1 | 4 | 9 | 24 | 40 | 82:00 |\n| | 30 | 3:10 | | 4 | 8 | 15 | 22 | 56 | 109:00 |\n| | 40 | 3:00 | 3 | 7 | 17 | 22 | 39 | 75 | 167:00 |\n| | 50 | 2:50<br>1 | 8 | 15 | 16 | 29 | 51 | 94 | 218:00 |\n| | 5 | | | | | | 1 | 2 | 7:10 |\n| | 10 | 3:50 | | | | 1 | 4 | 7 | 16:10 |\n| | 15 | 3:40 | | | 1 | 4 | 7 | 22 | 38:10 |\n| 75 | 20 | 3:30 | | | 4 | 7 | 17 | 27 | 59:10 |\n| (**) | 25 | 3:20 | | 2 | 7 | 10 | 24 | 45 | 92:10 |\n| | 30 | 3:20 | | 6 | 7 | 17 | 23 | 59 | 116:10 |\n| | 40 | 3:10 | 5 | 9 | 17 | 19 | 45 | 79 | 178:10 |\n| | 60 | 2:40<br>4 10 10 | 10 | 12 | 22 | 36 | 64 | 126 | 298:10 |\n| | 90 | 2:10<br>8 10 10 10 10 10 | 28 | 28 | 44 | 68 | 98 | 186 | 514:10 |"
+          "markdown": "| | 5 | 3:20 | | | | | | 1 | 4:30 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 10 | 3:10 | | | | | 2 | 4 | 9:30 |\n| | 15 | 3:00 | | | | 1 | 5 | 13 | 22:30 |\n| 63 | 20 | 3:00 | | | | 4 | 10 | 23 | 40:30 |\n| (**) | 25 | 2:50 | | | 2 | 7 | 17 | 27 | 56:30 |\n| | 30 | 2:50 | | | 4 | 9 | 24 | 41 | 81:30 |\n| | 40 | 2:40 | | 4 | 9 | 19 | 26 | 63 | 124:30 |\n| | 50 | 2:30 | 1 | 9 | 17 | 19 | 45 | 80 | 174:30 |\n| | 5 | 3:30 | | | | | | 2 | 5:40 |\n| | 10 | 3:20 | | | | | 2 | 5 | 10:40 |\n| | 15 | 3:10 | | | | 2 | 5 | 16 | 26:40 |\n| 66 | 20 | 3:00 | | | 1 | 3 | 11 | 24 | 42:40 |\n| (**) | 25 | 3:00 | | | 3 | 8 | 19 | 33 | 66:40 |\n| | 30 | 2:50 | | 1 | 7 | 10 | 23 | 47 | 91:40 |\n| | 40 | 2:50 | | 6 | 12 | 22 | 29 | 68 | 140:40 |\n| | 50 | 2:40 | 3 | 12 | 17 | 18 | 51 | 86 | 190:40 |\n| | 5 | 3:40 | | | | | | 2 | 5:50 |\n| | 10 | 3:20 | | | | 1 | 2 | 6 | 12:50 |\n| | 15 | 3:20 | | | | 3 | 6 | 18 | 30:50 |\n| 69 | 20 | 3:10 | | | 2 | 5 | 12 | 26 | 48:50 |\n| (**) | 25 | 3:10 | | | 4 | 8 | 22 | 37 | 74:50 |\n| | 30 | 3:00 | | 2 | 8 | 12 | 23 | 51 | 99:50 |\n| | 40 | 2:50 | 1 | 7 | 15 | 22 | 34 | 74 | 156:50 |\n| | 50 | 2:50 | 5 | 14 | 16 | 24 | 51 | 89 | 202:50 |\n| | 5 | 3:50 | | | | | | 2 | 6:00 |\n| | 10 | 3:30 | | | | 1 | 3 | 6 | 14:00 |\n| 72 | 15 | 3:30 | | | | 4 | 6 | 21 | 35:00 |\n| (**) | 20 | 3:20 | | | 3 | 6 | 15 | 25 | 53:00 |\n| | 25 | 3:10 | | 1 | 4 | 9 | 24 | 40 | 82:00 |\n| | 30 | 3:10 | | 4 | 8 | 15 | 22 | 56 | 109:00 |\n| | 40 | 3:00 | 3 | 7 | 17 | 22 | 39 | 75 | 167:00 |\n| | 50 | 2:50 1 | 8 | 15 | 16 | 29 | 51 | 94 | 218:00 |\n| | 5 | | | | | | 1 | 2 | 7:10 |\n| | 10 | 3:50 | | | | 1 | 4 | 7 | 16:10 |\n| | 15 | 3:40 | | | 1 | 4 | 7 | 22 | 38:10 |\n| 75 | 20 | 3:30 | | | 4 | 7 | 17 | 27 | 59:10 |\n| (**) | 25 | 3:20 | | 2 | 7 | 10 | 24 | 45 | 92:10 |\n| | 30 | 3:20 | | 6 | 7 | 17 | 23 | 59 | 116:10 |\n| | 40 | 3:10 | 5 | 9 | 17 | 19 | 45 | 79 | 178:10 |\n| | 60 | 2:40 4 10 10 | 10 | 12 | 22 | 36 | 64 | 126 | 298:10 |\n| | 90 | 2:10 8 10 10 10 10 10 | 28 | 28 | 44 | 68 | 98 | 186 | 514:10 |"
         },
         {
           "type": "paragraph",
@@ -5191,19 +4946,10 @@
       ]
     },
     {
-      "id": "tabela-padrão-de-descompressão-com-ar",
+      "id": "tabela-padrão-de-descompressão-com-ar-não-deverá-ser-permitido-nenhum-mergulho-repetitivo-após-mergulhos-excepcionais",
       "number": "",
-      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais."
-        }
-      ]
+      "title": "TABELA PADRÃO DE DESCOMPRESSÃO COM AR (**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais.",
+      "blocks": []
     },
     {
       "id": "tabelas-para-exposições-extremas---descompressão-com-ar",
@@ -5211,16 +4957,8 @@
       "title": "TABELAS PARA EXPOSIÇÕES EXTREMAS - DESCOMPRESSÃO COM AR",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Profun- didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |\n| 5 4:00 1 2 7:20 10 3:50 2 4 9 19:20 78 15 3:40 2 4 10 22 42:20 (**) 20 3:30 1 4 7 20 31 67:20 25 3:30 3 8 11 23 50 99:20 30 3:20 2 6 8 19 26 61 126:20 40 3:10 1 6 11 16 19 49 84 190:20 5 4:10 1 3 8:30 10 4:00 2 5 11 22:30 81 15 3:50 3 4 11 24 46:30 (**) 20 3:40 2 3 9 21 35 74:30 25 3:30 2 3 8 13 23 53 106:30 30 3:30 3 6 12 22 27 64 138:30 40 3:20 5 6 11 17 22 51 88 204:30 5 4:20 2 2 8:40 10 4:00 1 2 5 13 25:40 84 15 3:50 1 3 4 11 26 49:40 (**) 20 3:50 3 4 8 23 39 81:40 25 3:40 2 5 7 16 23 56 113:40 30 3:30 1 3 7 13 22 30 70 150:40 40 3:20 1 6 6 13 17 27 51 93 218:40 5 4:30 2 3 9:50 10 4:10 1 3 5 16 29:50 87 15 4:00 1 3 6 12 26 52:50 (**) 20 4:00 3 7 9 23 43 89:50 25 3:50 1 3 5 8 17 23 60 120:50 30 3:40 1 5 6 15 22 36 72 162:50 40 3:30 3 5 7 15 16 32 51 95 228:50 5 4:40 3 3 11:00 10 4:20 1 3 6 17 32:00 15 4:10 2 3 6 15 26 57:00 90 20 4:00 2 3 7 10 23 47 97:00 (**) 25 3:50 1 3 6 8 19 26 61 129:00 30 3:50 2 5 7 17 22 39 75 172:00 40 3:40 4 6 9 15 17 34 51 90 231:00 60 3:00 4 10 10 10 10 10 14 28 32 50 90 187 460:00 | | | | | | | | | | | | | | | | |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "markdown": "| Profun-didade (metros ) | Tempo de Fundo (minutos) | Tempo p/ 1ª Parada (min:seg) | Paradas p/Descompressão (minutos) | | | | | | | | | | | | | Tempo Total p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 39 m | 36 m | 33 m | 30 m | 27 m | 24 m | 21 m | 18 m | 15 m | 12 m | 9m | 6m | 3m | |\n| 5 4:00 1 2 7:20 10 3:50 2 4 9 19:20 78 15 3:40 2 4 10 22 42:20 (**) 20 3:30 1 4 7 20 31 67:20 25 3:30 3 8 11 23 50 99:20 30 3:20 2 6 8 19 26 61 126:20 40 3:10 1 6 11 16 19 49 84 190:20 5 4:10 1 3 8:30 10 4:00 2 5 11 22:30 81 15 3:50 3 4 11 24 46:30 (**) 20 3:40 2 3 9 21 35 74:30 25 3:30 2 3 8 13 23 53 106:30 30 3:30 3 6 12 22 27 64 138:30 40 3:20 5 6 11 17 22 51 88 204:30 5 4:20 2 2 8:40 10 4:00 1 2 5 13 25:40 84 15 3:50 1 3 4 11 26 49:40 (**) 20 3:50 3 4 8 23 39 81:40 25 3:40 2 5 7 16 23 56 113:40 30 3:30 1 3 7 13 22 30 70 150:40 40 3:20 1 6 6 13 17 27 51 93 218:40 5 4:30 2 3 9:50 10 4:10 1 3 5 16 29:50 87 15 4:00 1 3 6 12 26 52:50 (**) 20 4:00 3 7 9 23 43 89:50 25 3:50 1 3 5 8 17 23 60 120:50 30 3:40 1 5 6 15 22 36 72 162:50 40 3:30 3 5 7 15 16 32 51 95 228:50 5 4:40 3 3 11:00 10 4:20 1 3 6 17 32:00 15 4:10 2 3 6 15 26 57:00 90 20 4:00 2 3 7 10 23 47 97:00 (**) 25 3:50 1 3 6 8 19 26 61 129:00 30 3:50 2 5 7 17 22 39 75 172:00 40 3:40 4 6 9 15 17 34 51 90 231:00 60 3:00 4 10 10 10 10 10 14 28 32 50 90 187 460:00 | | | | | | | | | | | | | | | | |"
         },
         {
           "type": "image",
@@ -5234,10 +4972,6 @@
         {
           "type": "table",
           "markdown": "| 36 | 15 | 5 | 10 | 12 15 |\n| --- | --- | --- | --- | --- |\n| 39 | 10 | 5 | 8 | 10 |\n| 42 | 10 | 5 | 7 | 10 |\n| 45 | 5 | 5 | | |\n| 48 | 5 | | 5 | |\n| 51 | 5 | | 5 | |\n| 54 | 5 | | 5 | |\n| 57 | 5 | | 5 | |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -5248,11 +4982,7 @@
       "blocks": [
         {
           "type": "table",
-          "markdown": "| | | | | | | | **C** | **B**<br>0:1<br>0 | 0:1<br>0<br>2:1<br>0<br>1:4<br>0 | 12:00*<br>2:11<br>12:00*<br>2:50 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | | | | | 1:3<br>9 | 2:4<br>9 | 12:00* |\n| | | | | | | **D** | 0:1 | 1:1 | 2:3 | 5:49 |\n| | | | | | | | 0 | 0 | 9 | |\n| | | | | | | | 1:0 | 2:3 | 5:4 | 12:00* |\n| | | | | | | | 9 | 8 | 8 | |\n| | | | | | **E** | 0:1 | 0:5 | 1:5 | 3:2 | 6:33 |\n| | | | | | | 0 | 5 | 8 | 3 | |\n| | | | | | | 0:5 | 1:5 | 3:2 | 6:3 | 12:00* |\n| | | | | | | 4 | 7 | 2 | 2 | |\n| | | | | **F** | 0:1 | 0:4 | 1:3 | 2:2 | 3:5 | 7:06 |\n| | | | | | 0 | 6 | 0 | 9 | 8 | |\n| | | | | | 0:4 | 1:2 | 2:2 | 3:5 | 7:0 | 12:00* |\n| | | | | | 5 | 9 | 8 | 7 | 5 | |\n| | | | **G** | 0:1 | 0:4 | 1:1 | 2:0 | 2:5 | 4:2 | 7:36 |\n| | | | | 0 | 1 | 6 | 0 | 9 | 6 | |\n| | | | | 0:4 | 1:1 | 1:5 | 2:5 | 4:2 | 7:3 | 12:00* |\n| | | | | 0 | 5 | 9 | 8 | 5 | 5 | |\n| | | **H** | 0:1 | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:5 | 8:00 |\n| | | | 0 | 7 | 7 | 2 | 4 | 1 | 0 | |\n| | | | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:4 | 7:5 | 12:00* |\n| | | | 6 | 6 | 1 | 3 | 0 | 9 | 9 | |\n| | **I** | 0:1 | 0:3 | 1:0 | 1:3 | 2:0 | 2:4 | 3:4 | 5:1 | 8:22 |\n| | | 0 | 4 | 0 | 0 | 3 | 5 | 4 | 3 | |\n| | | 0:3 | 0:5 | 1:2 | 2:0 | 2:4 | 3:4 | 5:1 | 8:2 | 12:00* |\n| | | 3 | 9 | 9 | 2 | 4 | 3 | 2 | 1 | |\n| **J** | 0:1 | 0;3 | 0:5 | 1:2 | 1:4 | 2:2 | 3:0 | 4;0 | 5:4 | 8:41 |\n| | 0 | 2 | 5 | 0 | 8 | 1 | 5 | 3 | 1 | |\n| | 0:3 | 0:5 | 1:1 | 1:4 | 2:2 | 3:0 | 4:0 | 5:4 | 8:4 | 12:00* |\n| | 1 | 4 | 9 | 7 | 0 | 4 | 2 | 0 | 0 | |\n| **K**<br>0:1 | 0:2 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:2 | 5:4 | 8:59 |\n| 0 | 9 | 0 | 2 | 6 | 4 | 9 | 2 | 0 | 9 | |\n| 0:2 | 0:4 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:1 | 5:4 | 8:5 | 12:00* |\n| 8 | 9 | 1 | 5 | 3 | 8 | 1 | 9 | 8 | 8 | |\n| **L**<br>0:1<br>0:2 | 0:4 | 1:0 | 1:2 | 1:5 | 2:2 | 2:5 | 3:3 | 4:3 | 6:0 | 9:13 |\n| 0<br>7 | 6 | 5 | 6 | 0 | 0 | 4 | 7 | 6 | 3 | |\n| 0:2<br>0:4 | 1:0 | 1:2 | 1:4 | 2:1 | 2:5 | 3:3 | 4:3 | 6:0 | 9:1 | 12:00* |\n| 6<br>5 | 4 | 5 | 9 | 9 | 3 | 6 | 5 | 2 | 2 | |\n| **M**<br>0:1<br>0:2<br>0:4 | 1:0 | 1:1 | 1:4 | 2:0 | 2:3 | 3:0 | 3:5 | 4:5 | 6:1 | 9:29 |\n| 0<br>6<br>3 | 0 | 9 | 0 | 6 | 5 | 9 | 3 | 0 | 9 | |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "markdown": "| | | | | | | | **C** | **B** 0:1 0 | 0:1 0 2:1 0 1:4 0 | 12:00* 2:11 12:00* 2:50 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | | | | | 1:3 9 | 2:4 9 | 12:00* |\n| | | | | | | **D** | 0:1 | 1:1 | 2:3 | 5:49 |\n| | | | | | | | 0 | 0 | 9 | |\n| | | | | | | | 1:0 | 2:3 | 5:4 | 12:00* |\n| | | | | | | | 9 | 8 | 8 | |\n| | | | | | **E** | 0:1 | 0:5 | 1:5 | 3:2 | 6:33 |\n| | | | | | | 0 | 5 | 8 | 3 | |\n| | | | | | | 0:5 | 1:5 | 3:2 | 6:3 | 12:00* |\n| | | | | | | 4 | 7 | 2 | 2 | |\n| | | | | **F** | 0:1 | 0:4 | 1:3 | 2:2 | 3:5 | 7:06 |\n| | | | | | 0 | 6 | 0 | 9 | 8 | |\n| | | | | | 0:4 | 1:2 | 2:2 | 3:5 | 7:0 | 12:00* |\n| | | | | | 5 | 9 | 8 | 7 | 5 | |\n| | | | **G** | 0:1 | 0:4 | 1:1 | 2:0 | 2:5 | 4:2 | 7:36 |\n| | | | | 0 | 1 | 6 | 0 | 9 | 6 | |\n| | | | | 0:4 | 1:1 | 1:5 | 2:5 | 4:2 | 7:3 | 12:00* |\n| | | | | 0 | 5 | 9 | 8 | 5 | 5 | |\n| | | **H** | 0:1 | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:5 | 8:00 |\n| | | | 0 | 7 | 7 | 2 | 4 | 1 | 0 | |\n| | | | 0:3 | 1:0 | 1:4 | 2:2 | 3:2 | 4:4 | 7:5 | 12:00* |\n| | | | 6 | 6 | 1 | 3 | 0 | 9 | 9 | |\n| | **I** | 0:1 | 0:3 | 1:0 | 1:3 | 2:0 | 2:4 | 3:4 | 5:1 | 8:22 |\n| | | 0 | 4 | 0 | 0 | 3 | 5 | 4 | 3 | |\n| | | 0:3 | 0:5 | 1:2 | 2:0 | 2:4 | 3:4 | 5:1 | 8:2 | 12:00* |\n| | | 3 | 9 | 9 | 2 | 4 | 3 | 2 | 1 | |\n| **J** | 0:1 | 0;3 | 0:5 | 1:2 | 1:4 | 2:2 | 3:0 | 4;0 | 5:4 | 8:41 |\n| | 0 | 2 | 5 | 0 | 8 | 1 | 5 | 3 | 1 | |\n| | 0:3 | 0:5 | 1:1 | 1:4 | 2:2 | 3:0 | 4:0 | 5:4 | 8:4 | 12:00* |\n| | 1 | 4 | 9 | 7 | 0 | 4 | 2 | 0 | 0 | |\n| **K** 0:1 | 0:2 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:2 | 5:4 | 8:59 |\n| 0 | 9 | 0 | 2 | 6 | 4 | 9 | 2 | 0 | 9 | |\n| 0:2 | 0:4 | 1:1 | 1:3 | 2:0 | 2:3 | 3:2 | 4:1 | 5:4 | 8:5 | 12:00* |\n| 8 | 9 | 1 | 5 | 3 | 8 | 1 | 9 | 8 | 8 | |\n| **L** 0:1 0:2 | 0:4 | 1:0 | 1:2 | 1:5 | 2:2 | 2:5 | 3:3 | 4:3 | 6:0 | 9:13 |\n| 0 7 | 6 | 5 | 6 | 0 | 0 | 4 | 7 | 6 | 3 | |\n| 0:2 0:4 | 1:0 | 1:2 | 1:4 | 2:1 | 2:5 | 3:3 | 4:3 | 6:0 | 9:1 | 12:00* |\n| 6 5 | 4 | 5 | 9 | 9 | 3 | 6 | 5 | 2 | 2 | |\n| **M** 0:1 0:2 0:4 | 1:0 | 1:1 | 1:4 | 2:0 | 2:3 | 3:0 | 3:5 | 4:5 | 6:1 | 9:29 |\n| 0 6 3 | 0 | 9 | 0 | 6 | 5 | 9 | 3 | 0 | 9 | |"
         },
         {
           "type": "image",
@@ -5261,7 +4991,7 @@
         },
         {
           "type": "table",
-          "markdown": "| | | | | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:0 | 3:5 | 4:4 | 6:1 | 9:2 | 12:00* |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | 5 | 2 | 9 | 8 | 9 | 5 | 4 | 8 | 2 | 9 | 8 | 8 | |\n| | | **N** | 0:1 | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:44 |\n| | | | 0 | 5 | 0 | 5 | 2 | 1 | 4 | 9 | 8 | 3 | 5 | 4 | 3 | |\n| | | | 0:2 | 0:3 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:4 | 12:00* |\n| | | | 4 | 9 | 4 | 1 | 0 | 3 | 8 | 7 | 2 | 4 | 3 | 2 | 3 | |\n| | **O** | 0:10 | 0:2 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:3 | 3:0 | 3:3 | 4:1 | 5:1 | 6:4 | 9:55 |\n| | | | 4 | 7 | 2 | 8 | 5 | 4 | 5 | 0 | 0 | 4 | 8 | 7 | 5 | |\n| | | 0:23 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:2 | 2:5 | 3:3 | 4:1 | 5:1 | 6:4 | 9:5 | 12:00* |\n| | | | 6 | 1 | 7 | 4 | 3 | 4 | 9 | 9 | 3 | 7 | 6 | 4 | 4 | |\n| **Z**<br> | 0:1 | 0:23 | 0:3 | 0:4 | 1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:3 | 5:2 | 6:5 | 10:06 |\n| | 0 | | 5 | 9 | 3 | 9 | 7 | 6 | 8 | 3 | 1 | 6 | 0 | 8 | 7 | |\n| 0:2<br>0:34 | 0:4 | <br>1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:2 | 5:2 | 6:5 | 10: | 12: | 00 | |\n| 2 | 8 | <br>2 | 8 | 6 | 5 | 7 | 2 | 0 | 5 | 9 | 7 | 6 | 05 | | | |\n| **Nova** | | | | | | | | | | | | | | | | |\n| **significação** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |\n| **de Grupo ** | | | | | | | | | | | | | | | | |"
+          "markdown": "| | | | | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 2:0 | 2:3 | 3:0 | 3:5 | 4:4 | 6:1 | 9:2 | 12:00* |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | | 5 | 2 | 9 | 8 | 9 | 5 | 4 | 8 | 2 | 9 | 8 | 8 | |\n| | | **N** | 0:1 | 0:2 | 0:4 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:44 |\n| | | | 0 | 5 | 0 | 5 | 2 | 1 | 4 | 9 | 8 | 3 | 5 | 4 | 3 | |\n| | | | 0:2 | 0:3 | 0:5 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:2 | 4:0 | 5:0 | 6:3 | 9:4 | 12:00* |\n| | | | 4 | 9 | 4 | 1 | 0 | 3 | 8 | 7 | 2 | 4 | 3 | 2 | 3 | |\n| | **O** | 0:10 | 0:2 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:3 | 3:0 | 3:3 | 4:1 | 5:1 | 6:4 | 9:55 |\n| | | | 4 | 7 | 2 | 8 | 5 | 4 | 5 | 0 | 0 | 4 | 8 | 7 | 5 | |\n| | | 0:23 | 0:3 | 0:5 | 1:0 | 1:2 | 1:4 | 2:0 | 2:2 | 2:5 | 3:3 | 4:1 | 5:1 | 6:4 | 9:5 | 12:00* |\n| | | | 6 | 1 | 7 | 4 | 3 | 4 | 9 | 9 | 3 | 7 | 6 | 4 | 4 | |\n| **Z** | 0:1 | 0:23 | 0:3 | 0:4 | 1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:3 | 5:2 | 6:5 | 10:06 |\n| | 0 | | 5 | 9 | 3 | 9 | 7 | 6 | 8 | 3 | 1 | 6 | 0 | 8 | 7 | |\n| 0:2 0:34 | 0:4 | 1:0 | 1:1 | 1:3 | 1:5 | 2:1 | 2:4 | 3:1 | 3:4 | 4:2 | 5:2 | 6:5 | 10: | 12: | 00 | |\n| 2 | 8 | 2 | 8 | 6 | 5 | 7 | 2 | 0 | 5 | 9 | 7 | 6 | 05 | | | |\n| **Nova** | | | | | | | | | | | | | | | | |\n| **significação** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |\n| **de Grupo ** | | | | | | | | | | | | | | | | |"
         },
         {
           "type": "paragraph",
@@ -5273,7 +5003,7 @@
         },
         {
           "type": "table",
-          "markdown": "| **Profundidade**<br>**de Mergulho**<br>**Repetitivo** | | | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **(Metros)** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | C | **B** | **A** |\n| 12 | 257 | 241 | 213 | 187 | 161 | 138 | 116 | 101 | 87 | 73 | 61 | 49 | 37 | 25 | 17 | 7 |\n| 15 | 169 | 160 | 142 | 124 | 111 | 99 | 87 | 76 | 66 | 56 | 47 | 38 | 29 | 21 | 13 | 6 |\n| 18 | 122 | 117 | 107 | 97 | 88 | 79 | 70 | 61 | 52 | 44 | 36 | 30 | 24 | 17 | 11 | 5 |\n| 21 | 100 | 96 | 87 | 80 | 72 | 64 | 57 | 50 | 43 | 37 | 31 | 26 | 20 | 15 | 9 | 4 |\n| 24 | 84 | 80 | 73 | 68 | 61 | 54 | 48 | 43 | 38 | 32 | 28 | 23 | 18 | 13 | 8 | 4 |\n| 27 | 73 | 70 | 64 | 58 | 53 | 47 | 43 | 38 | 33 | 29 | 24 | 20 | 16 | 11 | 7 | 3 |\n| 30 | 64 | 62 | 57 | 52 | 48 | 43 | 38 | 34 | 30 | 26 | 22 | 18 | 14 | 10 | 7 | 3 |\n| 33 | 57 | 55 | 51 | 47 | 42 | 38 | 34 | 31 | 27 | 24 | 20 | 16 | 13 | 10 | 6 | 3 |\n| 36 | 52 | 50 | 46 | 43 | 39 | 35 | 32 | 28 | 25 | 21 | 18 | 15 | 12 | 9 | 6 | 3 |\n| 39 | 46 | 44 | 40 | 38 | 35 | 31 | 28 | 25 | 22 | 19 | 16 | 13 | 11 | 8 | 6 | 3 |\n| 42 | 42 | 40 | 38 | 35 | 32 | 29 | 26 | 23 | 20 | 18 | 15 | 12 | 10 | 7 | 5 | 2 |\n| 45 | 40 | 38 | 35 | 32 | 30 | 27 | 24 | 22 | 19 | 17 | 14 | 12 | 9 | 7 | 5 | 2 |\n| 48 | 37 | 36 | 33 | 31 | 28 | 26 | 23 | 20 | 18 | 16 | 13 | 11 | 9 | 6 | 4 | 2 |\n| 51 | 35 | 34 | 31 | 29 | 26 | 24 | 22 | 19 | 17 | 15 | 13 | 10 | 8 | 6 | 4 | 2 |\n| 54 | 32 | 31 | 29 | 27 | 25 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 |\n| 57 | 31 | 30 | 28 | 26 | 24 | 21 | 19 | 17 | 15 | 13 | 11 | 10 | 8 | 6 | 4 | 2 |"
+          "markdown": "| **Profundidade** **de Mergulho** **Repetitivo** | | | | | | | | | | | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **(Metros)** | **Z** | **O** | **N** | **M** | **L** | **K** | **J** | **I** | **H** | **G** | **F** | **E** | **D** | C | **B** | **A** |\n| 12 | 257 | 241 | 213 | 187 | 161 | 138 | 116 | 101 | 87 | 73 | 61 | 49 | 37 | 25 | 17 | 7 |\n| 15 | 169 | 160 | 142 | 124 | 111 | 99 | 87 | 76 | 66 | 56 | 47 | 38 | 29 | 21 | 13 | 6 |\n| 18 | 122 | 117 | 107 | 97 | 88 | 79 | 70 | 61 | 52 | 44 | 36 | 30 | 24 | 17 | 11 | 5 |\n| 21 | 100 | 96 | 87 | 80 | 72 | 64 | 57 | 50 | 43 | 37 | 31 | 26 | 20 | 15 | 9 | 4 |\n| 24 | 84 | 80 | 73 | 68 | 61 | 54 | 48 | 43 | 38 | 32 | 28 | 23 | 18 | 13 | 8 | 4 |\n| 27 | 73 | 70 | 64 | 58 | 53 | 47 | 43 | 38 | 33 | 29 | 24 | 20 | 16 | 11 | 7 | 3 |\n| 30 | 64 | 62 | 57 | 52 | 48 | 43 | 38 | 34 | 30 | 26 | 22 | 18 | 14 | 10 | 7 | 3 |\n| 33 | 57 | 55 | 51 | 47 | 42 | 38 | 34 | 31 | 27 | 24 | 20 | 16 | 13 | 10 | 6 | 3 |\n| 36 | 52 | 50 | 46 | 43 | 39 | 35 | 32 | 28 | 25 | 21 | 18 | 15 | 12 | 9 | 6 | 3 |\n| 39 | 46 | 44 | 40 | 38 | 35 | 31 | 28 | 25 | 22 | 19 | 16 | 13 | 11 | 8 | 6 | 3 |\n| 42 | 42 | 40 | 38 | 35 | 32 | 29 | 26 | 23 | 20 | 18 | 15 | 12 | 10 | 7 | 5 | 2 |\n| 45 | 40 | 38 | 35 | 32 | 30 | 27 | 24 | 22 | 19 | 17 | 14 | 12 | 9 | 7 | 5 | 2 |\n| 48 | 37 | 36 | 33 | 31 | 28 | 26 | 23 | 20 | 18 | 16 | 13 | 11 | 9 | 6 | 4 | 2 |\n| 51 | 35 | 34 | 31 | 29 | 26 | 24 | 22 | 19 | 17 | 15 | 13 | 10 | 8 | 6 | 4 | 2 |\n| 54 | 32 | 31 | 29 | 27 | 25 | 22 | 20 | 18 | 16 | 14 | 12 | 10 | 8 | 6 | 4 | 2 |\n| 57 | 31 | 30 | 28 | 26 | 24 | 21 | 19 | 17 | 15 | 13 | 11 | 10 | 8 | 6 | 4 | 2 |"
         },
         {
           "type": "paragraph",
@@ -5281,34 +5011,22 @@
         },
         {
           "type": "paragraph",
-          "text": "<u>(Minutos)</u>"
+          "text": "(Minutos)"
         }
       ]
     },
     {
-      "id": "tabela-de-descompressão-na-superfície-usando-oxigênio",
+      "id": "tabela-de-descompressão-na-superfície-usando-oxigênio-este-texto-não-substitui-o-publicado-no-dou",
       "number": "",
-      "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE USANDO OXIGÊNIO",
+      "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE USANDO OXIGÊNIO Este texto não substitui o publicado no DOU",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Prof. (metros ) | Tempo de Fundo (min) | Tempo p/ 1ª Parada ou Superfície (min:seg) | Paradas de Descompressão na Água. Tempo em Minutos Respirando Ar | | | | Intervalo de Superfície | Tempo a 12m na Câmara Respirando Oxigênio (min) | Tempo de Superfície | Tempo Total de Descom- pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 18m | 15m | 12m | 9m | | | | |"
+          "markdown": "| Prof. (metros ) | Tempo de Fundo (min) | Tempo p/ 1ª Parada ou Superfície (min:seg) | Paradas de Descompressão na Água. Tempo em Minutos Respirando Ar | | | | Intervalo de Superfície | Tempo a 12m na Câmara Respirando Oxigênio (min) | Tempo de Superfície | Tempo Total de Descom-pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 18m | 15m | 12m | 9m | | | | |"
         },
         {
           "type": "table",
           "markdown": "| | 18 | 4:48 | 0 | 0 | 0 | 0 | 0 | 4:48 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 30 | 4:48 | 0 | 0 | 0 | 0 | 9 | 19:48 |\n| | 40 | 4:48 | 0 | 0 | 0 | 0 | 16 | 26:48 |\n| | 50 | 4:48 | 0 | 0 | 0 | 0 | 24 | 34:48 |\n| 36 | 60 | 3:36 | 0 | 0 | 0 | 2 | 32 | 44:36 |\n| | 70 | 3:36 | 0 | 0 | 0 | 4 | 39 | 53:36 |\n| | 80 | 3:36 | 0 | 0 | 0 | 5 | 46 | 61:36 |\n| | 90 | 3:12 | 0 | 0 | 3 | 7 | 51 | 72:12 |\n| | 100 | 3:12 | 0 | 0 | 6 | 15 | 54 | 86:12 |\n| | 15 | 5:12 | 0 | 0 | 0 | 0 | 0 | 5:12 |\n| | 30 | 5:12 | 0 | 0 | 0 | 0 | 12 | 23:12 |\n| | 40 | 5:12 | 0 | 0 | 0 | 0 | 21 | 32:12 |\n| | 50 | 4:00 | 0 | 0 | 0 | 3 | 29 | 43:00 |\n| 39 | 60 | 4:00 | 0 | 0 | 0 | 5 | 37 | 53:00 |\n| | 70 | 4:00 | 0 | 0 | 0 | 7 | 45 | 63:00 |\n| | 80 | 3:36 | 0 | 0 | 6 | 7 | 51 | 75:36 |\n| | 90 | 3:36 | 0 | 0 | 10 | 10 | 56 | 89:36 |\n| | 13 | 5:36 | 0 | 0 | 0 | 0 | 0 | 5:36 |\n| | 25 | 5:36 | 0 | 0 | 0 | 0 | 11 | 22:36 |\n| | 30 | 5:36 | 0 | 0 | 0 | 0 | 15 | 26:36 |\n| | 35 | 5:36 | 0 | 0 | 0 | 0 | 20 | 31:36 |\n| | 40 | 4:24 | 0 | 0 | 0 | 2 | 24 | 37:24 |\n| | 45 | 4:24 | 0 | 0 | 0 | 4 | 29 | 44:24 |\n| 42 | 50 | 4:24 | 0 | 0 | 0 | 6 | 33 | 50:24 |\n| | 55 | 4:24 | 0 | 0 | 0 | 7 | 38 | 56:24 |\n| | 60 | 4:24 | 0 | 0 | 0 | 8 | 43 | 62:24 |\n| | 65 | 4:00 | 0 | 0 | 3 | 7 | 48 | 70:00 |\n| | 70 | 3:36 | 0 | 2 | 7 | 7 | 51 | 79:36 |\n| | 11 | 6:00 | 0 | 0 | 0 | 0 | 0 | 6:00 |\n| | 25 | 6:00 | 0 | 0 | 0 | 0 | 13 | 25:00 |\n| | 30 | 6:00 | 0 | 0 | 0 | 0 | 18 | 30:00 |\n| | 35 | 4:48 | 0 | 0 | 0 | 4 | 23 | 38:48 |\n| 45 | 40 | 4:24 | 0 | 0 | 3 | 6 | 27 | 48:24 |\n| | 45 | 4:24 | 0 | 0 | 5 | 7 | 33 | 57:24 |\n| | 50 | 4:00 | 0 | 2 | 5 | 8 | 38 | 66:00 |\n| | 55 | 3:36 | 2 | 5 | 9 | 4 | 44 | 77:36 |\n| | 9 | 6:24 | 0 | 0 | 0 | 0 | 0 | 6:24 |\n| | 20 | 6:24 | 0 | 0 | 0 | 0 | 11 | 23:24 |\n| | 25 | 6:24 | 0 | 0 | 0 | 0 | 16 | 28:24 |\n| 48 | 30 | 5:12 | 0 | 0 | 0 | 2 | 21 | 35:12 |\n| | 35 | 4:48 | 0 | 0 | 4 | 6 | 26 | 48:48 |\n| | 40 | 4:24 | 0 | 3 | 5 | 8 | 32 | 61:24 |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -5317,13 +5035,9 @@
       "number": "",
       "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "table",
-          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Tempo a 12m na Câmara Respirando Oxigênio (min) | Paradas na Câmara (minutos) | | Tempo Total de Descom- pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
+          "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Tempo a 12m na Câmara Respirando Oxigênio (min) | Paradas na Câmara (minutos) | | Tempo Total de Descom-pressão (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
         }
       ]
     },
@@ -5332,10 +5046,6 @@
       "number": "",
       "title": "TABELA DE DESCOMPRESSÃO NA SUPERFÍCIE COM AR",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "table",
           "markdown": "| Profundidad e (metros) | Tempo de Fundo (min) | Tempo p/ 1ª Parada (min:seg) | Paradas de Descompressão na Água. Tempo em minutos Respirando Ar | | | | | Intervalo de Superfície | Paradas na Câmara (minutos) | | Tempo Total de p/Subida (min:seg) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | | 15m | 12m | 9m | 6m | 3m | | 6m | 3m | |"
@@ -5343,10 +5053,6 @@
         {
           "type": "table",
           "markdown": "| | 90 | 1:20 | | | 12 | 30 | | 30 | 64 | 142:00 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | 100 | 1:20 | | | 15 | 37 | | 37 | 72 | 167:00 |\n| | 25 | 1:50 | | | | | 3 | | 6 | 14:50 |\n| | 30 | 1:50 | | | | | 3 | | 14 | 22:50 |\n| | 40 | 1:40 | | | | 3 | | 5 | 25 | 39:10 |\n| | 50 | 1:40 | | | | 15 | | 15 | 31 | 67:10 |\n| 36 | 60 | 1:30 | | | 2 | 22 | | 22 | 45 | 97:10 |\n| | 70 | 1:30 | | | 9 | 23 | | 23 | 55 | 116:10 |\n| | 80 | 1:30 | | | 15 | 27 | | 27 | 63 | 138:10 |\n| | 90 | 1:30 | | | 19 | 37 | | 37 | 74 | 173:10 |\n| | 100 | 1:30 | | | 23 | 45 | | 45 | 80 | 189:10 |\n| | 25 | 2:00 | | | | | 3 | | 10 | 19:00 |\n| | 30 | 1:50 | | | | 3 | | 3 | 18 | 30:20 |\n| | 40 | 1:50 | | | | 10 | | 10 | 25 | 51:20 |\n| 39 | 50 | 1:40 | | | 3 | 21 | | 21 | 37 | 88:20 |\n| | 60 | 1:40 | | | 9 | 23 | | 23 | 52 | 113:20 |\n| | 70 | 1:40 | | | 16 | 24 | | 24 | 61 | 131:20 |\n| | 80 | 1:30 | | 3 | 19 | 35 | | 35 | 72 | 170:20 |\n| | 90 | 1:30 | | 8 | 19 | 45 | | 45 | 80 | 203:20 |\n| | 20 | 2:10 | | | | | 3 | | 6 | 15:10 |\n| | 25 | 2:00 | | | | 3 | | 3 | 14 | 26:30 |\n| | 30 | 2:00 | | | | 5 | | 5 | 21 | 37:30 |\n| 42 | 40 | 1:50 | | | 2 | 16 | | 16 | 26 | 66:30 |\n| | 50 | 1:50 | | | 6 | 24 | | 24 | 44 | 104:30 |\n| | 60 | 1:50 | | | 16 | 23 | | 23 | 56 | 124:30 |\n| | 70 | 1:40 | | 4 | 19 | 32 | | 32 | 68 | 161:30 |\n| | 80 | 1:40 | | 10 | 23 | 41 | | 41 | 79 | 200:30 |\n| | 20 | 2:10 | | | | 3 | | 3 | 7 | 19:40 |\n| | 25 | 2:10 | | | | 4 | | 4 | 17 | 31:40 |\n| | 30 | 2:10 | | | | 8 | | 8 | 24 | 46:40 |\n| 45 | 40 | 2:00 | | | 5 | 19 | | 19 | 33 | 82:40 |\n| | 50 | 2:00 | | | 12 | 23 | | 23 | 51 | 115:40 |\n| | 60 | 1:50 | | 3 | 19 | 26 | | 26 | 62 | 142:40 |\n| | 70 | 1:50 | | 11 | 19 | 39 | | 39 | 75 | 189:40 |\n| | 80 | 1:40 | 1 | 11 | 19 | 50 | | 50 | 84 | 227:40 |\n| | 20 | 2:20 | | | | 3 | | 3 | 11 | 23:50 |\n| | 25 | 2:20 | | | | 7 | | 7 | 20 | 40:50 |\n| | 30 | 2:10 | | | 2 | 11 | | 11 | 25 | 55:50 |\n| 48 | 40 | 2:10 | | | 7 | 23 | | 23 | 39 | 98:50 |\n| | 50 | 2:00 | | 2 | 16 | 23 | | 23 | 55 | 125:50 |\n| | 60 | 2:00 | | 9 | 19 | 33 | | 33 | 69 | 169:50 |\n| | 70 | 1:50 | 1 | 17 | 22 | 44 | | 44 | 80 | 214:50 |\n| | 15 | 2:30 | | | | 3 | | 3 | 5 | 18:00 |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -5416,8 +5122,8 @@
           "text": "- 14 - Não permita qualquer encurtamento ou outra alteração nas tabelas, exceto aquelas autorizadas pelo órgão competente sob a supervisão direta de um médico qualificado."
         },
         {
-          "type": "note",
-          "text": "- 15 - Não permita ao paciente dormir entre as paradas de descompressão ou por mais de 1 hora Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "- 15 - Não permita ao paciente dormir entre as paradas de descompressão ou por mais de 1 hora"
         },
         {
           "type": "paragraph",
@@ -5473,32 +5179,12 @@
       "title": "EXAME DO PACIENTE",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| SINAIS E SINTOMAS | DOENÇA DESCOMPRESSIVA | | | | EMBOLIA GASOSA | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | Pele | Dor Somente | Sintomas Sérios | | Sintomas no Sistema Nervoso Central | | Pneumo- Tórax | Enfisema do Mediastin o |\n| | | | Sistema Nervos o Central | Sufocaçã o | Lesão Cerebral | Lesão na Medula Espinhal | | |\n| DOR NA CABEÇA | | | | | ** | | | |\n| DOR NAS COSTAS | | | * | | | | | |\n| DOR NO PESCOÇO | | | | | | | | ** |\n| DOR NO PEITO | | | * | ** | | * | ** | * |\n| DOR NO ESTÔMAGO | | | ** | | | * | | |\n| DOR NO(S) BRAÇO(S)/PERNA(S) | | ** | | | | * | | |\n| DOR NOS OMBROS | | ** | | | | * | | |\n| DOR NOS QUADRIS | | ** | | | | * | | |\n| INCONSCIÊNCIA | | | ** | * | ** | * | * | |\n| CHOQUE | | | ** | * | ** | * | * | |\n| VERTIGENS/TONTEIRA | | | ** | | | | | |\n| DIFICULDADE VISUAL | | | ** | | ** | | | |\n| NÁUSEAS/VÔMITOS | | | ** | | ** | | | |\n| DIFICULDADE DE OUVIR | | | ** | | ** | | | |\n| DIFICULDADE DE FALAR | | | ** | | ** | | | |\n| FALTA DE EQUILÍBRIO | | | ** | | ** | | | |\n| DORMÊNCIA | * | | ** | | ** | * | | * |\n| FRAQUEZA | | * | ** | | ** | * | | |\n| SENSAÇÃO ESTRANHA | * | | ** | | ** | * | | |\n| PESCOÇO INCHADO | | | | | | | | ** |\n| RESPIRAÇÃO CURTA | | | * | * | * | * | * | * |\n| CIANOSE | | | | * | * | * | * | * |\n| MODIFICAÇÃO NA PELE | ** | | | | | | | |\n| * * = MAIS PROVÁVEL * = CAUSA POSSÍVEL | | | | | | | | |"
+          "markdown": "| SINAIS E SINTOMAS | DOENÇA DESCOMPRESSIVA | | | | EMBOLIA GASOSA | | | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | Pele | Dor Somente | Sintomas Sérios | | Sintomas no Sistema Nervoso Central | | Pneumo-Tórax | Enfisema do Mediastin o |\n| | | | Sistema Nervos o Central | Sufocaçã o | Lesão Cerebral | Lesão na Medula Espinhal | | |\n| DOR NA CABEÇA | | | | | ** | | | |\n| DOR NAS COSTAS | | | * | | | | | |\n| DOR NO PESCOÇO | | | | | | | | ** |\n| DOR NO PEITO | | | * | ** | | * | ** | * |\n| DOR NO ESTÔMAGO | | | ** | | | * | | |\n| DOR NO(S) BRAÇO(S)/PERNA(S) | | ** | | | | * | | |\n| DOR NOS OMBROS | | ** | | | | * | | |\n| DOR NOS QUADRIS | | ** | | | | * | | |\n| INCONSCIÊNCIA | | | ** | * | ** | * | * | |\n| CHOQUE | | | ** | * | ** | * | * | |\n| VERTIGENS/TONTEIRA | | | ** | | | | | |\n| DIFICULDADE VISUAL | | | ** | | ** | | | |\n| NÁUSEAS/VÔMITOS | | | ** | | ** | | | |\n| DIFICULDADE DE OUVIR | | | ** | | ** | | | |\n| DIFICULDADE DE FALAR | | | ** | | ** | | | |\n| FALTA DE EQUILÍBRIO | | | ** | | ** | | | |\n| DORMÊNCIA | * | | ** | | ** | * | | * |\n| FRAQUEZA | | * | ** | | ** | * | | |\n| SENSAÇÃO ESTRANHA | * | | ** | | ** | * | | |\n| PESCOÇO INCHADO | | | | | | | | ** |\n| RESPIRAÇÃO CURTA | | | * | * | * | * | * | * |\n| CIANOSE | | | | * | * | * | * | * |\n| MODIFICAÇÃO NA PELE | ** | | | | | | | |\n| * * = MAIS PROVÁVEL * = CAUSA POSSÍVEL | | | | | | | | |"
         },
         {
           "type": "paragraph",
-          "text": "Descompressão obrigatória? Sente-se bem? Descompressão adequada? Reage e tem aparência normal? Subida descontrolada? Tem o vigor normal? Prendeu a respiração? Sua sensibilidade é normal? Causado fora do mergulho? Seus olhos estão normais? Mergulho repetitivo? Seus reflexos estão normais? Sei pulso é normal? (cardíaco) Seu modo de andar é normal? Sua audição está normal? Sua coordenação motora está normal?"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**TRATAMENTO DE EMBOLIA GASOSA**"
-        },
-        {
-          "type": "paragraph",
-          "text": "<!-- Start of picture text --> DIAGNÓSTI COMPRIMA ATÉ 50  COMPLETE O PERÍODO<br>CO:  METROS PACIENTE  DE 30 MINUTOS<br>EMBOLIA  RESPIRANDO AR  RESPIRANDO AR DA<br>TABELA 6A<br>COMPLETE 3  DESCOMPRIMA ATÉ 18<br>PERÍODOS DE 20  METROS. EM 4 MINUTOS<br>MINUTOS  (VELOCIDADE DE<br>RESPIRANDO  SUBIDA = 8 M POR MIN.)<br>OXIGÊNIO<br>COMPLETE O  SIM<br>TRATAMENTO PELA  ALÍVIO?<br>TABELA 6A<br>NÃO<br>PROLONGUE A<br>TABELA 6ª POR 20<br>MINUTOS DE<br>OXIGÊNIO A 18<br>METROS<br>COMPLETE O  SIM<br>TRATAMENTO PELA  ALÍVIO?<br>TABELA 6A<br>NÃO<br>PROLONGUE A TABELA<br>6ª POR 60 MINUTOS DE<br>OXIGÊNIO A 9 METROS.<br>COMPLETE A<br>DESCOMPRESSÃO<br><!-- End of picture text -->"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "Descompressão obrigatória? Sente-se bem? Descompressão adequada? Reage e tem aparência normal? Subida descontrolada? Tem o vigor normal? Prendeu a respiração? Sua sensibilidade é normal? Causado fora do mergulho? Seus olhos estão normais? Mergulho repetitivo? Seus reflexos estão normais? Sei pulso é normal? (cardíaco) Seu modo de andar é normal? Sua audição está normal? Sua coordenação motora está normal? **TRATAMENTO DE EMBOLIA GASOSA**"
         },
         {
           "type": "image",
@@ -5586,14 +5272,6 @@
           "src": "../assets/pages/page-064-image-16.png"
         },
         {
-          "type": "paragraph",
-          "text": "<!-- Start of picture text -->"
-        },
-        {
-          "type": "note",
-          "text": "TRATAMENTO DE DOENÇA DESCOMPRESSIVA<br>DIAGNÓSTICO:<br>DOENÇA<br>DESCOMPRESSIV<br>PACIENTE RESPIRANDO<br>OXIGÊNIO: COMPRIMA<br>ATÉ 18 METROS<br>COMPLETE O 1º PERÍODO<br>DE 20 MINUTOS<br>RESPIRANDO OXIGÊNIO<br>COMPLETE O<br>NÃO  SIM<br>SINTOM ALÍVIO?  TRATAMENTO<br>AS PELA TABELA 5<br>SIM  NÃO<br>SINTOMAS<br>SIM  PIORANDO E<br>NECESSIDADE<br>DE<br>RECOMPRESSÃO<br>NÃO  NÃO<br>COMPLETE MAIS 2<br>PERÍODOS DE OXIGÊNIO<br>DA TABELA 6<br>SIM  DESCOMPRIMIDA<br>SINTOMA<br>PELA TABELA 6<br>S<br>NÃO<br>PROLONGUE A TABELA<br>6 POR 20 MINUTOS DE<br>OXIGÊNIO A 18 METROS<br>SIM  DESCOMPRIMIDA<br>SINTOMA<br>PELA TABELA 6<br>S<br>NÃO<br>PROLONGUE A TABELA<br>DESCOMPRIMIDA<br>6 POR 60 MINUTOS DE<br>PELA TABELA 6<br>OXIGÊNIO A 9 METROS<br>PROLONGUE A TABELA<br>DESCOMPRIMIDA<br>6 POR 60 MINUTOS DE<br>PELA TABELA 4<br>Este texto não substitui o publicado no DOU  OXIGÊNIO A 9 METROS<br><!-- End of picture text -->"
-        },
-        {
           "type": "table",
           "markdown": "| | NÃO |\n| --- | --- |"
         },
@@ -5612,14 +5290,6 @@
       "number": "",
       "title": "RECORRÊNCIA DURANTE O TRATAMENTO",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "<!-- Start of picture text --> DIAGNÓSTICO:<br>RECORRÊNCIA<br>DURANTE<br>TRATAMENTO<br>SINTOMAS<br>REAPARECEM EM  DIAGNÓSTICO:<br>SIM  PROFUNDIDADE  NÃO  RECORRÊNCIA<br>MAIOR QUE 18  DURANTE<br>METROS?  TRATAMENTO<br>COMPLETE 3 PERÍODOS<br>DE 20 MINUTOS COM<br>OXIGÊNIO DA TABELA 6<br>PACIENTE RESPIRAR,<br>COMPRIMA ATÉ A  SIM  DESCOMPRIMID<br>SINTOMA<br>PROFUNDIDADE DE  A PELA TABELA<br>ALÍVIO (MÁXIMO DE  S 6<br>50 METROS)<br>MANTENHA POR 30<br>MINUTOS<br>NÃO<br>PROLONGUE A TABELA<br>6 POR 20 MINUTOS COM<br>OXIGÊNIO A 18 METROS<br>SIM  DESCOMPRIMID<br>SINTOMA<br>A PELA TABELA<br>S<br>6<br>NÃO<br>DESCOMPRIMA PELA  PROLONGUE A TABELA<br>TABELA 4 A PARTIR  6 POR 60 MINUTOS COM  DESCOMPRIMID<br>DA PROFUNDIDADE  OXIGÊNIO A 9 METROS  A PELA TABELA<br>DE ALÍVIO  6<br><!-- End of picture text -->"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "image",
           "alt": "Página 66 — imagem 0",
@@ -5642,14 +5312,6 @@
       "title": "RECORRÊNCIA APÓS O TRATAMENTO",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "<!-- Start of picture text --> DIAGNÓSTICO:<br>RECORRÊNCIA APÓS<br>O TRATAMENTO<br>DIAGNÓSTICO:<br>RECORRÊNCIA APÓS<br>O TRATAMENTO<br>DIAGNÓSTICO:<br>RECORRÊNCIA APÓS<br>O TRATAMENTO<br>NÃO  SIM  COMPLETE O<br>SINTOMA SINTOMA TRATAMENTO<br>S SÉRIOS? S PELA TABELA 5<br>SIM  NÃO<br>DIAGNÓSTICO:<br>RECORRÊNCIA APÓS<br>O TRATAMENTO<br>SINTOMA SIM  DESCOMPRIMID<br>S A PELA TABELA<br>6<br>NÃO<br>DIAGNÓSTICO:<br>RECORRÊNCIA APÓS<br>O TRATAMENTO<br>SINTOMA SIM  DESCOMPRIMID<br>S A PELA TABELA<br>6<br>NÃO<br>DIAGNÓSTICO:<br>RECORRÊNCIA APÓS  DESCOMPRIMID<br>A PELA TABELA<br>O TRATAMENTO<br>6<br><!-- End of picture text -->"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| S | ? NÃO |\n| --- | --- |"
         }
@@ -5663,10 +5325,6 @@
         {
           "type": "paragraph",
           "text": "(*) As tabelas de tratamento com oxigênio são apresentadas antes das de ar porque o método de tratamento com oxigênio será sempre preferível"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -5715,26 +5373,13 @@
       "title": "TABELA 5 PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 69",
           "src": "../assets/pages/page-069-table-00.png"
         },
         {
-          "type": "image",
-          "alt": "Página 69 — imagem 0",
-          "src": "../assets/pages/page-069-image-00.png"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
-          "text": "**TABELA 6**"
+          "text": "![Página 69 — imagem 0](../assets/pages/page-069-image-00.png) **TABELA 6**"
         }
       ]
     },
@@ -5785,17 +5430,9 @@
       "title": "PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 71",
           "src": "../assets/pages/page-071-table-00.png"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "image",
@@ -5851,17 +5488,9 @@
       "title": "PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 73",
           "src": "../assets/pages/page-073-table-00.png"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "image",
@@ -5914,10 +5543,6 @@
       "number": "",
       "title": "PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "image",
           "alt": "Tabela da página 75",
@@ -5977,10 +5602,6 @@
       "title": "PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 76",
           "src": "../assets/pages/page-076-table-00.png"
@@ -6027,10 +5648,6 @@
       "title": "TABELA 3 PERFIL PROFUNDIDADE/TEMPO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 77",
           "src": "../assets/pages/page-077-table-00.png"
@@ -6074,10 +5691,6 @@
           "text": "**TABELA 4 PERFIL PROFUNDIDADE/TEMPO**"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Página 78 — imagem 0",
           "src": "../assets/pages/page-078-image-00.png"
@@ -6085,10 +5698,6 @@
         {
           "type": "table",
           "markdown": "| PROFUNDIDADE (METROS) | TEMPO | MISTURA RESPIRATÓRIA | TEMPO TOTAL DECORRIDO (Hs : MIN) |\n| --- | --- | --- | --- |\n| 50 42 36 30 24 18 15 12 9 9 6 6 3 3 3 a 0 | l/2 a 2 h l/2 h l/2 h l/2 h l/2 h 6 h 6 h 6 h 11 h 1 h 1 h 1 h 1 h 1 h 1 min | AR AR AR AR AR AR AR AR AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) AR OXIGÊNIO (OU AR) OXIGÊNIO (OU AR) | 2:00 2:31 3:02 3:33 4:04 10:05 16:06 22:07 33:08 34:08 35:09 36:09 37:10 38:10 38:11 |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -6213,12 +5822,7 @@
       "id": "23-as-situações-de-exposição-a-vmb-e-vci-superiores-aos-limites-de-exposição-ocupacional-são-caracterizadas-como-insalubres-em-grau-médio",
       "number": "2.3",
       "title": "As situações de exposição a VMB e VCI superiores aos limites de exposição ocupacional são caracterizadas como insalubres em grau médio",
-      "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        }
-      ]
+      "blocks": []
     },
     {
       "id": "24-a-avaliação-quantitativa-deve-ser-representativa-da-exposição-abrangendo-aspectos-organizacionais-e-ambientais-que-envolvam-o-trabalhador-no-exercício-de-suas-funções",
@@ -6363,8 +5967,8 @@
           "text": "**2.** Todos os valores fixados no Quadro n.<sup>o</sup> 1 - Tabela de Limites de Tolerância são válidos para absorção apenas por via respiratória."
         },
         {
-          "type": "note",
-          "text": "**3.** Todos os valores fixados no Quadro n.<sup>o</sup> 1 como \"Asfixiantes Simples\" determinam que nos Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "**3.** Todos os valores fixados no Quadro n.<sup>o</sup> 1 como \"Asfixiantes Simples\" determinam que nos"
         },
         {
           "type": "paragraph",
@@ -6409,18 +6013,10 @@
       ]
     },
     {
-      "id": "101-para-jornadas-de-trabalho-que-excedam-as-48-quarenta-e-oito-horas-semanais-dever-se-á-cumprir-o-disposto-no-art-60-da-clt",
+      "id": "101-para-jornadas-de-trabalho-que-excedam-as-48-quarenta-e-oito-horas-semanais-dever-se-á-cumprir-o-disposto-no-art-60-da-clt-quadro-nº-1",
       "number": "10.1",
-      "title": "Para jornadas de trabalho que excedam as 48 (quarenta e oito) horas semanais dever-se-á cumprir o disposto no art. 60 da CLT",
+      "title": "Para jornadas de trabalho que excedam as 48 (quarenta e oito) horas semanais dever-se-á cumprir o disposto no art. 60 da CLT. **QUADRO Nº 1**",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**QUADRO Nº 1**"
-        },
         {
           "type": "table",
           "markdown": "| QUADRO Nº 2 | |\n| --- | --- |\n| L.T. | F.D. |\n| (pp, ou mg/m³) 0 a 1 1 a 10 10 a 100 100 a 1000 acima de 1000 | 3 2 1,5 1,25 1,1 |"
@@ -6433,44 +6029,24 @@
       "title": "TABELA DE LIMITES DE TOLERÂNCIA",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| AGENTES QUÍMICOS | Valor teto | Absorção também p/pele | Até 48 horas/semana | | Grau de insalubridade a ser considerado no caso de sua caracterização |\n| --- | --- | --- | --- | --- | --- |\n| | | | ppm* | mg/m3* * | |\n| Acetaldeído | | | 78 | 140 | máximo |\n| Acetato de cellosolve | | + | 78 | 420 | médio |\n| Acetato de éter monoetílico de etileno glicol (vide acetado de cellsolve) | | | - | - | - |\n| Acetato de etila | | | 310 | 1090 | mínimo |\n| Acetato de 2-etóxi etila (vide acetato de cellosolve) | | | - | - | - |\n| Acetileno | | | Axfixiante | simples | - |\n| Acetona | | | 780 | 1870 | mínimo |\n| Acetonitrila | | | 30 | 55 | máximo |\n| Ácido acético | | | 8 | 20 | médio |\n| Ácido cianídrico | | + | 8 | 9 | máximo |\n| Ácido clorídrico | + | | 4 | 5,5 | máximo |\n| Ácido crômico (névoa) | | | - | 0,04 | máximo |\n| Ácido etanóico (vide ácido acético) | | | - | - | - |\n| Ácido fluorídrico | | | 2,5 | 1,5 | máximo |\n| Ácido fórmico | | | 4 | 7 | médio |\n| Ácido metanóico (vide ácido fórmico) | | | - | - | - |\n| Acrilato de metila | | + | 8 | 27 | máximo |\n| Acrilonitrila | | + | 16 | 35 | máximo |\n| Álcool isoamílico | | | 78 | 280 | mínimo |\n| Álcool n-butílico | + | + | 40 | 115 | máximo |\n| Álcool isobutílico | | | 40 | 115 | médio |\n| Álcool sec-butílico (2-butanol) | | | 115 | 350 | médio |\n| Álcool terc-butílico | | | 78 | 235 | médio |\n| Álcool etílico | | | 780 | 1480 | mínimo |\n| Álcool furfurílico | | + | 4 | 15,5 | médio |\n| Álcool metil amílico (vide metil isobutil carbinol) | | | - | - | - |\n| Álcool metílico | | + | 156 | 200 | máximo |\n| Álcool n-propílico | | + | 156 | 390 | médio |\n| Álcool isopropílico | | + | 310 | 765 | médio |\n| Aldeído acético (vide acetaldeído) | | | - | - | - |\n| Aldeído fórmico (vide formaldeído) | | | - | - | - |\n| Amônia | | | 20 | 14 | médio |\n| Anidro sulfuroso (vide dióxido de enxofre) | | | - | - | - |\n| Anilina | | + | 4 | 15 | máximo |"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Argônio | | | Asfixante | | simples | - |\n| --- | --- | --- | --- | --- | --- | --- |\n| Arsina (arsenamina) | | | 0,04 | | 0,16 | máximo |\n| Benzeno | (Excluído pela Portaria nº 03, de 10 de março de 1994) | | | | | |\n| Brometo de etila | | | 156 | | 695 | máximo |\n| Brometo de metila | | + | 12 | | 47 | máximo |\n| Bromo | | | 0,08 | | 0,6 | máximo |\n| Bromoetano (vide brometo de etila) | | | - | | - | - |\n| Bromofórmio | | + | 0,4 | | 4 | médio |\n| Bromometano (vide brometo de metila) | | | - | | - | - |\n| 1,3 Butadieno | | | 780 | | 1720 | médio |\n| n-Butano | | | 470 | | 1090 | médio |\n| n-Butano (vide álcoo n-butílico) | | | - | | - | - |\n| sec-Butanol (vide álcool sec- butílico) | | | - | | - | - |\n| Butanona (vide metil etil cetona) | | | - | | - | - |\n| 1-Butanotiol (vide butil mercaptana) | | | - | | - | - |\n| n-Butilamina | + | + | 4 | | 12 | máximo |\n| Butil cellosolve | | + | 39 | | 190 | médio |\n| n-Butil mercaptana | | | 0,4 | | 1,2 | médio |\n| 2-Butóxi etanol (vide butil cellosolve) | | | - | | - | - |\n| Cellosolve (vide 2-etóxi etanol) | | | - | | - | - |\n| Chumbo | | | - | | 0,1 | máximo |\n| Cianeto de metila (vide acetonitrila) | | | - | | - | - |\n| Cianeto de vinila (vide acrilonitrila) | | | - | | - | - |\n| Cianogênio | | | 8 | | 16 | máximo |\n| Ciclohexano | | | 235 | | 820 | médio |\n| Ciclohexanol | | | 40 | | 160 | máximo |\n| Ciclohexilamina | | + | 8 | | 32 | máximo |\n| Cloreto de carbonila (vide fosgênio) | | | - | | - | - |\n| Cloreto de etila | | | 780 | 2030 | | médio |\n| Cloreto de fenila (vide cloro benzeno) | | | - | - | | - |\n| Cloreto de metila | | | 78 | 165 | | máximo |\n| Cloreto de metileno | | | 156 | 560 | | máximo |\n| Cloreto de vinila | + | | 156 | 398 | | máximo |\n| Cloreto de vinilideno | | | 8 | 31 | | máximo |\n| Cloro | | | 0,8 | 2,3 | | máximo |\n| Clorobenzeno | | | 59 | 275 | | médio |\n| Clorobromometano | | | 156 | 820 | | máximo |\n| Cloroetano (vide cloreto de etila) | | | - | - | | - |\n| Cloroetílico (vide cloreto de vinila) | | | - | - | | - |\n| Clorodifluometano (freon 22) | | | 780 | 2730 | | mínimo |\n| Clorofórmio | | | 20 | 94 | | máximo |\n| 1-Cloro 1-nitropropano | | | 16 | 78 | | máximo |\n| Cloroprene | | + | 20 | 70 | | máximo |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "markdown": "| Argônio | | | Asfixante | | simples | - |\n| --- | --- | --- | --- | --- | --- | --- |\n| Arsina (arsenamina) | | | 0,04 | | 0,16 | máximo |\n| Benzeno | (Excluído pela Portaria nº 03, de 10 de março de 1994) | | | | | |\n| Brometo de etila | | | 156 | | 695 | máximo |\n| Brometo de metila | | + | 12 | | 47 | máximo |\n| Bromo | | | 0,08 | | 0,6 | máximo |\n| Bromoetano (vide brometo de etila) | | | - | | - | - |\n| Bromofórmio | | + | 0,4 | | 4 | médio |\n| Bromometano (vide brometo de metila) | | | - | | - | - |\n| 1,3 Butadieno | | | 780 | | 1720 | médio |\n| n-Butano | | | 470 | | 1090 | médio |\n| n-Butano (vide álcoo n-butílico) | | | - | | - | - |\n| sec-Butanol (vide álcool sec-butílico) | | | - | | - | - |\n| Butanona (vide metil etil cetona) | | | - | | - | - |\n| 1-Butanotiol (vide butil mercaptana) | | | - | | - | - |\n| n-Butilamina | + | + | 4 | | 12 | máximo |\n| Butil cellosolve | | + | 39 | | 190 | médio |\n| n-Butil mercaptana | | | 0,4 | | 1,2 | médio |\n| 2-Butóxi etanol (vide butil cellosolve) | | | - | | - | - |\n| Cellosolve (vide 2-etóxi etanol) | | | - | | - | - |\n| Chumbo | | | - | | 0,1 | máximo |\n| Cianeto de metila (vide acetonitrila) | | | - | | - | - |\n| Cianeto de vinila (vide acrilonitrila) | | | - | | - | - |\n| Cianogênio | | | 8 | | 16 | máximo |\n| Ciclohexano | | | 235 | | 820 | médio |\n| Ciclohexanol | | | 40 | | 160 | máximo |\n| Ciclohexilamina | | + | 8 | | 32 | máximo |\n| Cloreto de carbonila (vide fosgênio) | | | - | | - | - |\n| Cloreto de etila | | | 780 | 2030 | | médio |\n| Cloreto de fenila (vide cloro benzeno) | | | - | - | | - |\n| Cloreto de metila | | | 78 | 165 | | máximo |\n| Cloreto de metileno | | | 156 | 560 | | máximo |\n| Cloreto de vinila | + | | 156 | 398 | | máximo |\n| Cloreto de vinilideno | | | 8 | 31 | | máximo |\n| Cloro | | | 0,8 | 2,3 | | máximo |\n| Clorobenzeno | | | 59 | 275 | | médio |\n| Clorobromometano | | | 156 | 820 | | máximo |\n| Cloroetano (vide cloreto de etila) | | | - | - | | - |\n| Cloroetílico (vide cloreto de vinila) | | | - | - | | - |\n| Clorodifluometano (freon 22) | | | 780 | 2730 | | mínimo |\n| Clorofórmio | | | 20 | 94 | | máximo |\n| 1-Cloro 1-nitropropano | | | 16 | 78 | | máximo |\n| Cloroprene | | + | 20 | 70 | | máximo |"
         },
         {
           "type": "table",
           "markdown": "| | Cumeno | | + | 39 | 190 | máximo |\n| --- | --- | --- | --- | --- | --- | --- |\n| | Decaborano | | + | 0,04 | 0,25 | máximo |\n| | Demeton | | + | 0,008 | 0,08 | máximo |\n| Diamina (vide hidrazina) | | | | - | - | - |\n| Diborano | | | | 0,08 | 0,08 | máximo |\n| 1,2-Dibramoetano | | | + | 16 | 110 | médio |\n| o-Diclorobenzeno | | | | 39 | 235 | máximo |\n| Diclorodifluormetano (freon 12) | | + | | 780 | 3860 | mínimo |\n| 1,1 Dicloroetano | | | | 156 | 640 | médio |\n| 1,2 Dicloroetano | | | | 39 | 156 | máximo |\n| 1,1 Dicloreotileno (vide cloreto de vinilideno) | | | | - | - | - |\n| 1,2 Dicloroetileno | | | | 155 | 615 | médio |\n| Diclorometano (vide cloreto de metilino) | | | | - | - | - |\n| 1,1 Dicloro-1-nitroetano | | + | | 8 | 47 | máximo |\n| 1,2 Dicloropropano | | | | 59 | 275 | máximo |\n| Diclorotetrafluoretano (freon 114) | | | | 780 | 5460 | mínimo |\n| Dietil amina | | | | 20 | 59 | médio |\n| Dietil éter (vide éter etílico) | | | | - | - | - |\n| 2,4 Diisocianato de tolueno (TDI) | | + | | 0,016 | 0,11 | máximo |\n| Diisopropilamina | | | + | 4 | 16 | máximo |\n| Dimetilacetamida | | | + | 8 | 28 | máximo |\n| Dimetilamina | | | | 8 | 14 | médio |\n| Dimetiformamida | | | | 8 | 24 | médio |\n| l,l Dimetil hidrazina | | | + | 0,4 | 0,8 | máximo |\n| Dióxido de carbono | | | | 3900 | 7020 | mínimo |\n| Dióxido de cloro | | | | 0,08 | 0,25 | máximo |\n| Dióxido de enxofre | | | | 4 | 10 | máximo |\n| Dióxido de nitrogênio | | + | | 4 | 7 | máximo |\n| Dissulfeto de carbono | | | + | 16 | 47 | máximo |\n| Estibina | | | | 0,08 | 0,4 | máximo |\n| Estireno | | | | 78 | 328 | médio |\n| Etanol (vide acetaldeído) | | | | _ | _ | _ |\n| Etano | | | | Asfixiant e | simples | _ |\n| Etanol (vide etílico) | | | | _ | _ | _ |\n| Etanotiol (vide etil mercaptana) | | | | _ | _ | _ |\n| Éter decloroetílico | | | + | 4 | 24 | máximo |\n| Éter etílico | | | | 310 | 940 | médio |\n| Éter monobutílico do etileno glicol (vide butil cellosolve | | | | _ | _ | _ |\n| Éter monoetílico do etileno glicol (vide cellosolve) | | | | _ | _ | _ |\n| Éter monometílico do etileno glicol (vide metil cellosolve) | | | | _ | _ | _ |\n| Etilamina | | | | 8 | 14 | máximo |"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Etilbenzeno | | | 78 | 340 | médio |\n| --- | --- | --- | --- | --- | --- |\n| Etileno | | | Asfixiant e | simples | _ |\n| Etilenoimina | | + | 0,4 | 0,8 | máximo |\n| Etil mercaptana | | | 0,4 | 0,8 | médio |\n| n-Etil morfolina | | + | 16 | 74 | médio |\n| 2-Etoxietanol | | + | 78 | 290 | médio |\n| Fenol | | + | 4 | 15 | máximo |\n| Fluortriclorometano (freon 11) | | | 780 | 4370 | médio |\n| Formaldeído (formol) | + | | 1,6 | 2,3 | máximo |\n| Fosfina (fosfamina) | | | 0,23 | 0,3 | máximo |\n| Fosgênio | | | 0,08 | 0,3 | máximo |\n| Freon 11 (vide flortriclorometano) | | | _ | _ | _ |\n| Freon 12 (vide diclorodiflormetano) | | | _ | _ | _ |\n| Freon 22 (vide clorodifluormetano) | | | _ | _ | _ |\n| Freon 113 (vide 1,1,2,tricloro-1,2,2- trifluoretano) | | | _ | _ | _ |\n| Freon 114 (vide declrorotetrafloretano) | | | _ | _ | _ |\n| Gás amoníaco (vide amônia) | | | _ | _ | _ |\n| Gás carbônico (vide dióxido de carbono | | | _ | _ | _ |\n| Gás cianídrico (vide ácido cianídrico) | | | _ | _ | _ |\n| Gás clorídrico (vide ácido clorídrico) | | | _ | _ | _ |\n| Gás sulfídrico | | | 8 | 12 | máximo |\n| Hélio | | | Asfixiant e | simples | _ |\n| Hidrazina | | + | 0,08 | 0,08 | máximo |\n| Hidreto de antimônio (vide estibina) | | | _ | _ | _ |\n| Hidrogênio | | | Asfixiant e | simples | _ |\n| Isobutanol (vide álcool isobutílico) | | | _ | _ | _ |\n| Isopropilamina | | | 4 | 9,5 | médio |\n| Isopropil benzeno (vide cumeno) | | | _ | _ | _ |\n| Mercúrio (todas as formas exceto orgânicas) | | | _ | 0,04 | máximo |\n| Metacrilato de metila | | | 78 | 320 | mínimo |\n| Metano | | | Asfixiant e | simples | _ |\n| Metanol (vide álcool metílico) | | | _ | _ | _ |\n| Metilamina | | | 8 | 9,5 | máximo |\n| Metil cellosolve | | + | 20 | 60 | máximo |\n| Metil ciclohexanol | | | 39 | 180 | médio |\n| Metilclorofórmio | | | 275 | 1480 | médio |\n| Metil demeton | | + | _ | 0,4 | máximo |\n| metil etil cetona | | | 155 | 460 | médio |\n| Metil isobutilcarbinol | | + | 20 | 78 | máximo |"
+          "markdown": "| Etilbenzeno | | | 78 | 340 | médio |\n| --- | --- | --- | --- | --- | --- |\n| Etileno | | | Asfixiant e | simples | _ |\n| Etilenoimina | | + | 0,4 | 0,8 | máximo |\n| Etil mercaptana | | | 0,4 | 0,8 | médio |\n| n-Etil morfolina | | + | 16 | 74 | médio |\n| 2-Etoxietanol | | + | 78 | 290 | médio |\n| Fenol | | + | 4 | 15 | máximo |\n| Fluortriclorometano (freon 11) | | | 780 | 4370 | médio |\n| Formaldeído (formol) | + | | 1,6 | 2,3 | máximo |\n| Fosfina (fosfamina) | | | 0,23 | 0,3 | máximo |\n| Fosgênio | | | 0,08 | 0,3 | máximo |\n| Freon 11 (vide flortriclorometano) | | | _ | _ | _ |\n| Freon 12 (vide diclorodiflormetano) | | | _ | _ | _ |\n| Freon 22 (vide clorodifluormetano) | | | _ | _ | _ |\n| Freon 113 (vide 1,1,2,tricloro-1,2,2-trifluoretano) | | | _ | _ | _ |\n| Freon 114 (vide declrorotetrafloretano) | | | _ | _ | _ |\n| Gás amoníaco (vide amônia) | | | _ | _ | _ |\n| Gás carbônico (vide dióxido de carbono | | | _ | _ | _ |\n| Gás cianídrico (vide ácido cianídrico) | | | _ | _ | _ |\n| Gás clorídrico (vide ácido clorídrico) | | | _ | _ | _ |\n| Gás sulfídrico | | | 8 | 12 | máximo |\n| Hélio | | | Asfixiant e | simples | _ |\n| Hidrazina | | + | 0,08 | 0,08 | máximo |\n| Hidreto de antimônio (vide estibina) | | | _ | _ | _ |\n| Hidrogênio | | | Asfixiant e | simples | _ |\n| Isobutanol (vide álcool isobutílico) | | | _ | _ | _ |\n| Isopropilamina | | | 4 | 9,5 | médio |\n| Isopropil benzeno (vide cumeno) | | | _ | _ | _ |\n| Mercúrio (todas as formas exceto orgânicas) | | | _ | 0,04 | máximo |\n| Metacrilato de metila | | | 78 | 320 | mínimo |\n| Metano | | | Asfixiant e | simples | _ |\n| Metanol (vide álcool metílico) | | | _ | _ | _ |\n| Metilamina | | | 8 | 9,5 | máximo |\n| Metil cellosolve | | + | 20 | 60 | máximo |\n| Metil ciclohexanol | | | 39 | 180 | médio |\n| Metilclorofórmio | | | 275 | 1480 | médio |\n| Metil demeton | | + | _ | 0,4 | máximo |\n| metil etil cetona | | | 155 | 460 | médio |\n| Metil isobutilcarbinol | | + | 20 | 78 | máximo |"
         },
         {
           "type": "paragraph",
           "text": "(1) _(Incluído pela Portaria DNSST nº 09, de 09 de outubro de 1992)_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -6546,10 +6122,6 @@
         {
           "type": "paragraph",
           "text": "**3.** Cabe ao empregador elaborar normas de procedimento a serem adotadas em situações de"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -6656,15 +6228,7 @@
           "type": "item",
           "number": "9.1",
           "depth": 1,
-          "text": "** A rotulagem deverá conter, conforme modelo Anexo:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- a letra minúscula \"a\" ocupando 40% (quarenta por cento) da área total da etiqueta;"
+          "text": "** A rotulagem deverá conter, conforme modelo Anexo: - a letra minúscula \"a\" ocupando 40% (quarenta por cento) da área total da etiqueta;"
         },
         {
           "type": "paragraph",
@@ -6743,10 +6307,6 @@
         {
           "type": "paragraph",
           "text": "**14.** O empregador deverá fornecer gratuitamente toda vestimenta de trabalho que poderá ser contaminada por asbesto, não podendo esta ser utilizada fora dos locais de trabalho."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -6832,15 +6392,7 @@
           "type": "item",
           "number": "19.2",
           "depth": 1,
-          "text": "** O trabalhador receberá, por ocasião da demissão e retornos posteriores, comunicação da data e local da próxima avaliação médica."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**20.** O empregador deve garantir informações e treinamento aos trabalhadores, com freqüência mínima anual, priorizando os riscos e as medidas de proteção e controle devido à exposição ao asbesto."
+          "text": "** O trabalhador receberá, por ocasião da demissão e retornos posteriores, comunicação da data e local da próxima avaliação médica. **20.** O empregador deve garantir informações e treinamento aos trabalhadores, com freqüência mínima anual, priorizando os riscos e as medidas de proteção e controle devido à exposição ao asbesto."
         },
         {
           "type": "item",
@@ -6855,17 +6407,13 @@
         {
           "type": "paragraph",
           "text": "**22.** As exigências contidas neste anexo entrarão em vigor em 180 (cento e oitenta dias) a contar da data de sua publicação, revogadas as disposições em contrário."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
     {
       "id": "anexo-nº-1",
       "number": "",
-      "title": "ANEXO Nº  1",
+      "title": "ANEXO Nº 1",
       "blocks": []
     },
     {
@@ -6875,15 +6423,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "<!-- Start of picture text --> Gênero de produto que contém asbesto Utilização a que se destina<br>4. Observações:<br>____________________________________________________________________________<br>____________________________________________________________________________<br>____________________________________________________________________________<br><!-- End of picture text -->"
-        },
-        {
-          "type": "paragraph",
           "text": "NOTA: As declarações acima prestadas são de inteira responsabilidade da empresa, passíveis de verificação e eventuais penalidades facultadas pela lei."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -6895,15 +6435,7 @@
         },
         {
           "type": "paragraph",
-          "text": "________________________________ Assinatura e carimbo"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO II**"
+          "text": "________________________________ Assinatura e carimbo **ANEXO II**"
         }
       ]
     },
@@ -6930,10 +6462,6 @@
         {
           "type": "paragraph",
           "text": "**1.** O limite de tolerância para as operações com manganês e seus compostos referente à extração, tratamento, moagem, transporte do minério, ou ainda a outras operações com exposição a poeiras do manganês ou de seus compostos é de até 5mg/m<sup>3</sup> no ar, para jornada de até 8 (oito) horas por dia."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "image",
@@ -7026,15 +6554,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- Troca de roupas de passeio/serviço/passeio;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- Proibição de se tomarem refeições nos locais de trabalho."
+          "text": "- Troca de roupas de passeio/serviço/passeio; - Proibição de se tomarem refeições nos locais de trabalho."
         }
       ]
     },
@@ -7073,10 +6593,6 @@
         },
         {
           "type": "paragraph",
-          "text": "8"
-        },
-        {
-          "type": "paragraph",
           "text": "L.T. = ——————— mg/m<sup>3</sup>"
         },
         {
@@ -7100,10 +6616,6 @@
         },
         {
           "type": "paragraph",
-          "text": "24"
-        },
-        {
-          "type": "paragraph",
           "text": "L.T. = ————————mg/m<sup>3</sup>"
         },
         {
@@ -7123,10 +6635,6 @@
           "number": "6.1",
           "depth": 1,
           "text": "** Para jornadas de trabalho que excedem a 48 (quarenta e oito) horas semanais, os limites deverão ser deduzidos, sendo estes valores fixados pela autoridade competente."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -7155,7 +6663,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1. Relação das atividades e operações envolvendo agentes químicos, consideradas, insalubres em decorrência de inspeção realizada no local de trabalho. Excluam-se desta relação as atividades ou operações com  os agentes químicos constantes dos Anexos 11 e 12."
+          "text": "1. Relação das atividades e operações envolvendo agentes químicos, consideradas, insalubres em decorrência de inspeção realizada no local de trabalho. Excluam-se desta relação as atividades ou operações com os agentes químicos constantes dos Anexos 11 e 12."
         }
       ]
     },
@@ -7223,15 +6731,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Operações de galvanotécnica à base de compostos de arsênico."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pintura manual (pincel, rolo e escova) com pigmentos de compostos de arsênico em recintos limitados ou fechados, exceto com pincel capilar."
+          "text": "Operações de galvanotécnica à base de compostos de arsênico. Pintura manual (pincel, rolo e escova) com pigmentos de compostos de arsênico em recintos limitados ou fechados, exceto com pincel capilar."
         }
       ]
     },
@@ -7329,8 +6829,8 @@
           "text": "Limpeza, raspagem e reparação de tanques de mistura, armazenamento e demais trabalhos com gasolina contendo chumbo tetraetila."
         },
         {
-          "type": "note",
-          "text": "Pintura a pistola com pigmentos de compostos de chumbo em recintos limitados ou fechados. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "Pintura a pistola com pigmentos de compostos de chumbo em recintos limitados ou fechados."
         },
         {
           "type": "paragraph",
@@ -7431,18 +6931,10 @@
       "blocks": []
     },
     {
-      "id": "insalubridade-de-grau-máximo",
+      "id": "insalubridade-de-grau-máximo-extração-e-preparação-de-fósforo-branco-e-seus-compostos",
       "number": "",
-      "title": "Insalubridade de grau máximo",
+      "title": "Insalubridade de grau máximo Extração e preparação de fósforo branco e seus compostos.",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Extração e preparação de fósforo branco e seus compostos."
-        },
         {
           "type": "paragraph",
           "text": "Fabricação de defensivos fosforados e organofosforados."
@@ -7532,15 +7024,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Emprego de isocianatos na formação de poliuretanas (lacas de desmoldagem, lacas de dupla composição, lacas protetoras de madeira e metais, adesivos especiais e outros produtos à base de poliisocianetos e poliuretanas)."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Emprego de produtos contendo hidrocarbonetos aromáticos como solventes ou em limpeza de peças."
+          "text": "Emprego de isocianatos na formação de poliuretanas (lacas de desmoldagem, lacas de dupla composição, lacas protetoras de madeira e metais, adesivos especiais e outros produtos à base de poliisocianetos e poliuretanas). Emprego de produtos contendo hidrocarbonetos aromáticos como solventes ou em limpeza de peças."
         },
         {
           "type": "paragraph",
@@ -7637,15 +7121,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sempre que os processos ou operações não forem hermetizados, será considerada como situação de risco grave e iminente para o trabalhador."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Para o Benzeno, deve ser observado o disposto no anexo 13-A."
+          "text": "Sempre que os processos ou operações não forem hermetizados, será considerada como situação de risco grave e iminente para o trabalhador. Para o Benzeno, deve ser observado o disposto no anexo 13-A."
         }
       ]
     },
@@ -7666,7 +7142,7 @@
         },
         {
           "type": "paragraph",
-          "text": "~~Operações com manganês e seus compostos: extração, tratamento, trituração, transporte de minério; fabricação de compostos de manganês, fabricação de pilhas secas, fabricação de vidros especiais, indústria de cerâmica e ainda outras operações com exposição prolongada à poeira de pirolusita ou de outros compostos de manganês.~~ _(Excluído pela Portaria SNT nº 8,  de 05 de outubro de 1992)_"
+          "text": "~~Operações com manganês e seus compostos: extração, tratamento, trituração, transporte de minério; fabricação de compostos de manganês, fabricação de pilhas secas, fabricação de vidros especiais, indústria de cerâmica e ainda outras operações com exposição prolongada à poeira de pirolusita ou de outros compostos de manganês.~~ _(Excluído pela Portaria SNT nº 8, de 05 de outubro de 1992)_"
         },
         {
           "type": "paragraph",
@@ -7765,15 +7241,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Trabalhos com escórias de Thomás: remoção, trituração, moagem e acondicionamento. Trabalho de retirada, raspagem a seco e queima de pinturas. Trabalhos na extração de sal (salinas)."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Fabricação e manuseio de álcalis cáusticos."
+          "text": "Trabalhos com escórias de Thomás: remoção, trituração, moagem e acondicionamento. Trabalho de retirada, raspagem a seco e queima de pinturas. Trabalhos na extração de sal (salinas). Fabricação e manuseio de álcalis cáusticos."
         },
         {
           "type": "paragraph",
@@ -7895,17 +7363,9 @@
           "items": [
             {
               "label": "a",
-              "text": "identificação da empresa (nome, endereço, CGC, ramo de atividade e Classificação"
+              "text": "identificação da empresa (nome, endereço, CGC, ramo de atividade e Classificação Nacional de Atividade Econômica - CNAE);"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Nacional de Atividade Econômica - CNAE);"
         },
         {
           "type": "list",
@@ -8027,10 +7487,6 @@
           "text": "** _(Revogado pela Portaria SIT nº 203, de 28 de janeiro de 2011)_"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "5.2",
           "depth": 1,
@@ -8104,15 +7560,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- descrição dos procedimentos usuais nas operações de drenagem, lavagem, purga de equipamentos, operação manual de válvulas, transferências, limpezas, controle de vazamentos, partidas e paradas de unidades que requeiram procedimentos rigorosos de controle de emanação de vapores e prevenção de contato direto do trabalhador com o benzeno;"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- descrição dos procedimentos e recursos necessários para o controle da situação de emergência, até o retorno à normalidade;"
+          "text": "- descrição dos procedimentos usuais nas operações de drenagem, lavagem, purga de equipamentos, operação manual de válvulas, transferências, limpezas, controle de vazamentos, partidas e paradas de unidades que requeiram procedimentos rigorosos de controle de emanação de vapores e prevenção de contato direto do trabalhador com o benzeno; - descrição dos procedimentos e recursos necessários para o controle da situação de emergência, até o retorno à normalidade;"
         },
         {
           "type": "paragraph",
@@ -8177,10 +7625,6 @@
           "number": "7.3",
           "depth": 1,
           "text": "** Situações consideradas de maior risco ou atípicas devem ser obrigatoriamente avaliadas segundo critérios de julgamento profissional que devem estar especificados no relatório da avaliação."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -8251,17 +7695,9 @@
           "items": [
             {
               "label": "c",
-              "text": "o registro da emergência deve ser feito segundo o roteiro que se segue: - descrição da emergência - descrever as condições em que a emergência ocorreu indicando:"
+              "text": "o registro da emergência deve ser feito segundo o roteiro que se segue: - descrição da emergência - descrever as condições em que a emergência ocorreu indicando: - atividade; local, data e hora da emergência;"
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "- atividade; local, data e hora da emergência;"
         },
         {
           "type": "paragraph",
@@ -8393,15 +7829,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Metalização a pistola."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Operações com bagaço de cana nas fases de grande exposição à poeira."
+          "text": "Metalização a pistola. Operações com bagaço de cana nas fases de grande exposição à poeira."
         },
         {
           "type": "paragraph",
@@ -8496,7 +7924,7 @@
         },
         {
           "type": "paragraph",
-          "text": "- carnes, glândulas, vísceras, sangue, ossos, couros, pêlos e dejeções de animais portadores de doenças  infecto-contagiosas (carbunculose, brucelose, tuberculose);"
+          "text": "- carnes, glândulas, vísceras, sangue, ossos, couros, pêlos e dejeções de animais portadores de doenças infecto-contagiosas (carbunculose, brucelose, tuberculose);"
         },
         {
           "type": "paragraph",
@@ -8509,18 +7937,10 @@
       ]
     },
     {
-      "id": "insalubridade-de-grau-médio",
+      "id": "insalubridade-de-grau-médio-trabalhos-e-operações-em-contato-permanente-com-pacientes-animais-ou-com-material-infectocontagiante-em",
       "number": "",
-      "title": "Insalubridade de grau médio",
+      "title": "Insalubridade de grau médio Trabalhos e operações em contato permanente com pacientes, animais ou com material infectocontagiante, em:",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "Trabalhos e operações em contato permanente com pacientes, animais ou com material infectocontagiante, em:"
-        },
         {
           "type": "paragraph",
           "text": "- hospitais, serviços de emergência, enfermarias, ambulatórios, postos de vacinação e outros estabelecimentos destinados aos cuidados da saúde humana (aplica-se unicamente ao pessoal que tenha contato com os pacientes, bem como aos que manuseiam objetos de uso desses pacientes, não previamente esterilizados);"
@@ -8561,20 +7981,12 @@
       "title": "GRAUS DE INSALUBRIDADE",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| Anexo | Atividades ou operações que exponham o trabalhador | Percentual |\n| --- | --- | --- |\n| 1 | Níveis de ruído contínuo ou intermitente superiores aos limites de tolerância fixados no Quadro constante do Anexo 1 e no item 6 do mesmo Anexo. | 20% |\n| 2 | Níveis de ruído de impacto superiores aos limites de tolerância fixados nos itens 2 e 3 do Anexo 2. | 20% |\n| 3 | Exposição ao calor com valores de IBUTG, superiores aos limites de tolerância fixados nos Quadros 1 e 2. | 20% |\n| 4 | (Revogado pela Portaria MTE nº 3.751, de 23 de novembro de 1990) | |\n| 5 | Níveis de radiações ionizantes com radioati,vidade superior aos limites de tolerância fixados neste Anexo. | 40% |\n| 6 | Ar comprimido. | 40% |\n| 7 | Radiações não-ionizantes consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 8 | Vibrações consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 9 | Frio considerado insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 10 | Umidade considerada insalubre em decorrência de inspeção realizada no local de trabalho. | 20% |\n| 11 | Agentes químicos cujas concentrações sejam superiores aos limites de tolerância fixados no Quadro 1. | 10%, 20% e 40% |\n| 12 | Poeiras minerais cujas concentrações sejam superiores aos limites de tolerância fixados neste Anexo. | 40% |\n| 13 | Atividades ou operações, envolvendo agentes químicos, consideradas insalubres em decorrência de inspeção realizada no local de trabalho. | 10%, 20% e 40% |"
         },
         {
           "type": "paragraph",
           "text": "14 Agentes biológicos. 20% e 40%"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",

@@ -41,6 +41,37 @@ class TestNormalizeMarkdown(unittest.TestCase):
         self.assertIn("# **6.1 Objetivo**", result)
         self.assertIn("| Col A | Col B |", result)
 
+    def test_strips_br_tags_in_tables(self) -> None:
+        text = (
+            "| **Publicação**<br>Portaria MTb | **D.O.U.**<br>06/07/78 |\n"
+            "| --- | --- |\n"
+            "| <br>Portaria SIT | 06/03/12 |\n"
+        )
+        result = normalize_markdown(text)
+        self.assertNotIn("<br>", result)
+        self.assertIn("**Publicação** Portaria MTb", result)
+
+    def test_strips_mark_tags(self) -> None:
+        text = "**<mark>35.1 Objetivo</mark>**\n\n<mark>Texto normativo.</mark>\n"
+        result = normalize_markdown(text)
+        self.assertNotIn("<mark>", result)
+        self.assertIn("**35.1 Objetivo**", result)
+        self.assertIn("Texto normativo.", result)
+
+    def test_strips_picture_text_blocks(self) -> None:
+        text = (
+            "Texto antes.\n\n"
+            "<!-- Start of picture text -->\n"
+            "FORMULÁRIO<br>com lixo OCR\n"
+            "<!-- End of picture text -->\n\n"
+            "Texto depois.\n"
+        )
+        result = normalize_markdown(text)
+        self.assertNotIn("picture text", result)
+        self.assertNotIn("FORMULÁRIO", result)
+        self.assertIn("Texto antes.", result)
+        self.assertIn("Texto depois.", result)
+
 
 if __name__ == "__main__":
     unittest.main()

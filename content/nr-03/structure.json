@@ -4,11 +4,11 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "**NORMA REGULAMENTADORA N.º 03 – EMBARGO E INTERDIÇÃO** **Publicação D.O.U.** <u>Portaria MTb n.º 3.214, de 08 de junho de 1978</u> 06/07/78"
+        "text": "**NORMA REGULAMENTADORA N.º 03 – EMBARGO E INTERDIÇÃO** **Publicação D.O.U.** Portaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78"
       },
       {
         "type": "table",
-        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSMT n.º06, de 09 de março de 1983<br> | 14/03/83 |\n| Portaria SIT n.º199, de 17 de janeiro de 2011<br> | 19/01/11 |\n| Portaria SEPRT n.º1.068, de 23 de setembro de 2019 | 24/09/19 |"
+        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSMT n.º06, de 09 de março de 1983 | 14/03/83 |\n| Portaria SIT n.º199, de 17 de janeiro de 2011 | 19/01/11 |\n| Portaria SEPRT n.º1.068, de 23 de setembro de 2019 | 24/09/19 |"
       },
       {
         "type": "paragraph",
@@ -64,18 +64,10 @@
       ]
     },
     {
-      "id": "33-caracterização-do-grave-e-iminente-risco",
+      "id": "33-caracterização-do-grave-e-iminente-risco-1",
       "number": "3.3",
-      "title": "Caracterização do grave e iminente risco",
+      "title": "Caracterização do grave e iminente risco 1",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "1"
-        },
         {
           "type": "paragraph",
           "text": "3.3.1 A caracterização do grave e iminente risco deve considerar:"
@@ -120,15 +112,7 @@
         },
         {
           "type": "paragraph",
-          "text": "TABELA 3.2: Classificação das probabilidades"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "2"
+          "text": "TABELA 3.2: Classificação das probabilidades 2"
         },
         {
           "type": "table",
@@ -204,18 +188,10 @@
       ]
     },
     {
-      "id": "34-requisitos-de-embargo-e-interdição",
+      "id": "34-requisitos-de-embargo-e-interdição-3",
       "number": "3.4",
-      "title": "Requisitos de embargo e interdição",
+      "title": "Requisitos de embargo e interdição 3",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "3"
-        },
         {
           "type": "table",
           "markdown": "| RARA | | Medidas de prevenção adequadas e com garantia de | |\n| --- | --- | --- | --- |\n| | | continuidade desta situação. | |\n| | | Uma consequência não é esperada, não é comum sua | |\n| | | ocorrência, extraordinária. | |"
@@ -250,15 +226,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<mark>E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum</mark>"
-        },
-        {
-          "type": "paragraph",
-          "text": "4"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum"
         },
         {
           "type": "image",
@@ -275,7 +243,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<mark>E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum</mark>"
+          "text": "E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum"
         }
       ]
     },
@@ -301,14 +269,6 @@
           "text": "3.5.2.1 Nas condições ou situações de trabalho em que não haja previsão normativa da situação objetivo (risco de referência), o Auditor Fiscal do Trabalho deverá incluir na fundamentação os critérios técnicos utilizados para determinação da situação objetivo (risco de referência)."
         },
         {
-          "type": "paragraph",
-          "text": "5"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "image",
           "alt": "Tabela da página 5",
           "src": "../assets/pages/page-005-table-00.png"
@@ -324,14 +284,6 @@
         {
           "type": "paragraph",
           "text": "3.5.5 Durante a paralisação do serviço, em decorrência da interdição ou do embargo, os trabalhadores receberão os salários como se estivessem em efetivo exercício."
-        },
-        {
-          "type": "paragraph",
-          "text": "6"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }

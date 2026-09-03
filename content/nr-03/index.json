@@ -1,3 +1,34 @@
 {
-  "headings": []
+  "headings": [
+    {
+      "level": 1,
+      "text": "**Sumário**",
+      "id": "sumário"
+    },
+    {
+      "level": 1,
+      "text": "**3.1 Objetivo**",
+      "id": "31-objetivo"
+    },
+    {
+      "level": 1,
+      "text": "**3.2 Definições**",
+      "id": "32-definições"
+    },
+    {
+      "level": 1,
+      "text": "**3.3 Caracterização do grave e iminente risco** 1",
+      "id": "33-caracterização-do-grave-e-iminente-risco-1"
+    },
+    {
+      "level": 1,
+      "text": "**3.4 Requisitos de embargo e interdição** 3",
+      "id": "34-requisitos-de-embargo-e-interdição-3"
+    },
+    {
+      "level": 1,
+      "text": "**3.5 Disposições Finais**",
+      "id": "35-disposições-finais"
+    }
+  ]
 }

@@ -23,10 +23,6 @@
       "title": "Objetivo",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.1.1",
           "depth": 2,
@@ -102,8 +98,10 @@
           "text": "A elaboração do PGRTA não dispensa a organização de elaborar e implementar o PGR em seus estabelecimentos, nos termos da NR-01."
         },
         {
-          "type": "note",
-          "text": "**30.4.1.2** Nas embarcações com até 500 (quinhentos) de arqueação bruta (AB), o empregador ou equiparado pode optar pela utilização de ferramenta de avaliação de risco a ser disponibilizada pelo Ministério do Trabalho e Previdência, para estruturar o PGRTA e elaborar Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "30.4.1.2",
+          "depth": 3,
+          "text": "Nas embarcações com até 500 (quinhentos) de arqueação bruta (AB), o empregador ou equiparado pode optar pela utilização de ferramenta de avaliação de risco a ser disponibilizada pelo Ministério do Trabalho e Previdência, para estruturar o PGRTA e elaborar"
         },
         {
           "type": "paragraph",
@@ -231,10 +229,6 @@
           "text": "Caso o prazo de validade do exame médico expire no decorrer de uma travessia, fica prorrogado até a data da escala da embarcação em porto onde haja condições necessárias para realização desses exames, observado o prazo máximo de quarenta e cinco dias."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.5.4",
           "depth": 2,
@@ -351,10 +345,6 @@
           "number": "30.6.2.1",
           "depth": 3,
           "text": "Os aquaviários que estejam em período de descanso poderão participar do processo eleitoral, devendo a organização garantir os meios necessários para o exercício do voto."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -479,10 +469,6 @@
           "number": "30.7.4",
           "depth": 2,
           "text": "O GSSTB tem como finalidade manter procedimentos que visem à preservação da segurança e saúde no trabalho, procurando atuar de forma preventiva."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -673,20 +659,7 @@
           "items": [
             {
               "label": "h",
-              "text": "avaliação do estado do navio quanto às condições de habitabilidade, conforto, arrumação e limpeza, definindo ações corretivas;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "i",
-              "text": "análise das solicitações de materiais não-atendidas que estejam impactando a segurança; e"
+              "text": "avaliação do estado do navio quanto às condições de habitabilidade, conforto, arrumação e limpeza, definindo ações corretivas; i) análise das solicitações de materiais não-atendidas que estejam impactando a segurança; e"
             }
           ]
         },
@@ -805,20 +778,7 @@
           "type": "item",
           "number": "30.7.7.1",
           "depth": 3,
-          "text": "Cabe ao comandante da embarcação:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "a",
-              "text": "comunicar e divulgar as normas que a tripulação deve conhecer e cumprir em matéria de segurança e saúde no trabalho, em especial o PGRTA;"
-            }
-          ]
+          "text": "Cabe ao comandante da embarcação: a) comunicar e divulgar as normas que a tripulação deve conhecer e cumprir em matéria de segurança e saúde no trabalho, em especial o PGRTA;"
         },
         {
           "type": "list",
@@ -952,15 +912,7 @@
           "type": "item",
           "number": "30.9.3",
           "depth": 2,
-          "text": "A cama superior deve ser provida de escada fixa para que possa ser acessada com"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "segurança."
+          "text": "A cama superior deve ser provida de escada fixa para que possa ser acessada com segurança."
         },
         {
           "type": "item",
@@ -1134,20 +1086,7 @@
           "items": [
             {
               "label": "a",
-              "text": "possuir dispositivos para fixação ao piso;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "b",
-              "text": "ser de material resistente à umidade;"
+              "text": "possuir dispositivos para fixação ao piso; b) ser de material resistente à umidade;"
             }
           ]
         },
@@ -1305,10 +1244,6 @@
       "title": "Locais para Lavagem, Secagem e Guarda de Roupas de Trabalho",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.13.1",
           "depth": 2,
@@ -1461,10 +1396,6 @@
               "text": "assinada por todos os participantes da análise, podendo a assinatura ser eletrônica."
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1631,10 +1562,6 @@
           "number": "30.15.1.1",
           "depth": 3,
           "text": "Nova certificação deve ocorrer de acordo com o prazo estabelecido em norma técnica nacional ou em conformidade com recomendação do órgão certificador, em prazo não superior a 5 (cinco) anos."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "item",
@@ -1811,10 +1738,6 @@
           "text": "A inspeção eventual deve ser realizada quando da ocorrência de manutenção, reparo ou avaria que possa afetar a operação segura do equipamento, em conformidade com as recomendações do fabricante ou do órgão certificador."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.15.3.3",
           "depth": 3,
@@ -1919,8 +1842,10 @@
           ]
         },
         {
-          "type": "note",
-          "text": "**30.17.3.2** Os treinamentos periódicos deverão ser aplicados a cada 2 (dois) anos e abranger no mínimo o conteúdo programático do treinamento inicial. Este texto não substitui o publicado no DOU"
+          "type": "item",
+          "number": "30.17.3.2",
+          "depth": 3,
+          "text": "Os treinamentos periódicos deverão ser aplicados a cada 2 (dois) anos e abranger no mínimo o conteúdo programático do treinamento inicial."
         }
       ]
     },
@@ -2095,10 +2020,6 @@
           "text": "Os suportes e os cabos de sustentação das escadas ligados ao guincho não podem criar obstáculos à circulação de pessoas e devem garantir a estabilidade da escada."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.18.2.7",
           "depth": 3,
@@ -2229,20 +2150,7 @@
           "items": [
             {
               "label": "b",
-              "text": "deve estar suficientemente afastada, na medida do possível, das arestas do navio e situar-se na parte plana do costado a meia-nau;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "deve ser lançada a sotavento;"
+              "text": "deve estar suficientemente afastada, na medida do possível, das arestas do navio e situar-se na parte plana do costado a meia-nau; c) deve ser lançada a sotavento;"
             }
           ]
         },
@@ -2401,10 +2309,6 @@
           "text": "Toda embarcação deve estar provida de um sistema de ventilação que mantenha o ar em condições atmosféricas satisfatórias, de modo suficiente a atender quaisquer circunstâncias climáticas."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "item",
           "number": "30.19.4",
           "depth": 2,
@@ -2471,15 +2375,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Ocorrência perigosa:** ocorrência que, sem ter resultado em danos à saúde ou integridade física de trabalhadores, tem potencial para causar tais agravos."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Permissão de Trabalho - PT** : documento escrito contendo conjunto de medidas de prevenção, visando ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate."
+          "text": "**Ocorrência perigosa:** ocorrência que, sem ter resultado em danos à saúde ou integridade física de trabalhadores, tem potencial para causar tais agravos. **Permissão de Trabalho - PT** : documento escrito contendo conjunto de medidas de prevenção, visando ao desenvolvimento de trabalho seguro, além de medidas de emergência e resgate."
         },
         {
           "type": "paragraph",
@@ -2536,10 +2432,6 @@
         {
           "type": "paragraph",
           "text": "Requisitos gerais para todos os trabalhadores aquaviários por ocasião do exame médico:"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2639,10 +2531,6 @@
       "number": "",
       "title": "QUADRO III da NR-30",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "table",
           "markdown": "| a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de movimentar-se sobre superfícies escorregadias irregulares e instáveis; b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina de bordo, incluído agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) ser capaz de manter uma conversação normal; f) não apresentar sintomas de distúrbios mentais ou de comportamento; g) dentição – mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles. | | |\n| --- | --- | --- |\n| Acuidade Visual | | |\n| Suficiente com correção para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. | |\n| PADRÕES MÍNIMOS ESPECÍFICOS | | |\n| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Comandante, Oficiais de Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 no melhor olho = 1 e 6 / 12 = 0,5 no outro olho |\n| Tripulante que se tornou monocular em serviço com evidência de doença progressiva no olho remanescente | | |\n| Comandante, Oficiais de Náutica e Subalternos da Seção de Convés. | Sem Correção 6 / 60 = 0,6 | 6 / 6 = 1 no olho remanescente |\n| Função a bordo | Acuidade Visual Básica | Acuidade Visual Corrigida |\n| Oficiais de máquinas e Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 18 = 0,4 |\n| Tripulante que se tornou monocular em serviço com evidência de doença progressiva no olho remanescente | | |\n| Oficiais de máquinas e Subalternos da Seção de Máquinas | Sem Correção 6 / 60 = 0,6 | 6 / 9 = 0,6 no olho remanescente |"
@@ -2775,20 +2663,12 @@
       "title": "PADRÕES MÍNIMOS DE VISÃO EM SERVIÇO",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| PADRÕES MÍNIMOS BÁSICOS NOS EXAMES MÉDICOS | |\n| --- | --- |\n| Requisitos gerais por ocasião do exame médico: a) não apresentar qualquer distúrbio em seu senso de equilíbrio, sendo capaz de se movimentar sobre superfícies escorregadias irregulares e instáveis; b) não apresentar qualquer limitação ou doença que possa impedir a sua movimentação normal e o desempenho das atividades físicas de rotina e emergência a bordo, durante o período de validade do seu certificado médico, incluindo-se agachar, ajoelhar, curvar e alcançar objetos localizados acima da altura do ombro; c) ser capaz de subir e descer, sem ajuda, escadas verticais e inclinadas; d) ser capaz de segurar, levantar, girar e manejar diversas ferramentas de uso comum, abrir e fechar alavancas e volantes de válvulas e equipamentos de uso comum; e) demonstrar ter uma audição e uma fala adequadas para se comunicar de maneira eficaz e detectar quaisquer alarmes sonoros; f) não apresentar sintomas de distúrbios mentais ou de comportamento; g) dentição - mínimo de 10 dentes naturais ou prótese similar, em cada arcada, que não comprometam a articulação normal e os tecidos moles; h) não estar sofrendo de qualquer problema de saúde que possa ser agravado pelo serviço no mar ou tornar o aquaviário inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo; i) não estar tomando qualquer medicamento que tenha efeitos colaterais que possam prejudicar quaisquer requisitos para um desempenho eficaz e seguro de atribuições de rotina e de emergência a bordo; j) ter capacitação física compatível com técnicas de sobrevivência pessoal, prevenção e combate a incêndio, primeiros socorros elementares, segurança pessoal e responsabilidades sociais. | |\n| Acuidade Visual | |\n| Suficiente com correção para desempenhar suas atividades ou funções a bordo. | Para os trabalhadores aquaviários que se tornarem monoculares em serviço, sem evidência de doença degenerativa progressiva, será requerida uma acuidade visual, com correção, compatível com as atividades ou funções que desempenham a bordo. |"
         },
         {
           "type": "table",
           "markdown": "| Regra da Convenç | Categoria do | Visão para | Visão para perto | Visão de | Campo s | Cegueira noturna4 | Diplopia (visão |\n| --- | --- | --- | --- | --- | --- | --- | --- |"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2837,10 +2717,6 @@
       "title": "DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
           "markdown": "| | ou outros que façam parte de um quarto de serviço na máquina | | | sistemas/ componen tes como for necessário | | | ter o seu desempen ho | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| I/11 IV/2 | Radioperad ores de GMDSS | 0,4 | 0,4 | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar sistemas/ componen tes como for necessário | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
         },
@@ -2849,12 +2725,8 @@
           "markdown": "| TAREFA, FUNÇÃO, EVENTO OU SITUAÇÃO A BORDO3 | CAPACIDADE FÍSICA RELACIONADA | UM EXAMINADOR MÉDICO deve estar convencido de que o candidato4,5 |\n| --- | --- | --- |\n| Movimentos de rotina em superfícies escorregadias, desniveladas e | Manter o equilíbrio | não tem perturbação do senso de equilíbrio. |"
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| instáveis; risco de ferimentos | | |\n| --- | --- | --- |\n| Acesso de rotina entre níveis; procedimentos de reação à emergência | Subir e descer escadas verticais e Inclinadas | é capaz de subir e descer, sem ajuda, escadas verticais e inclinadas. |\n| Movimentos de rotina entre espaços e compartimentos; procedimentos de reação à emergência | Passar por cima de braçolas (ex.: de até 60 cm de altura) | é capaz de passar por cima, sem ajuda, de uma soleira de porta alta (braçola). |\n| Abrir e fechar portas estanques; sistemas manuais de manivelas; abrir e fechar volantes de válvulas; manusear cabos; utilizar ferramentas manuais (isto é, chaves de boca, machados de incêndio, chaves para válvulas, martelos, chaves de fenda, alicates) | Manusear dispositivos mecânicos (destreza e força manual e digital) | é capaz de segurar, levantar e manusear diversas ferramentas comuns de bordo; mover as mãos/braços para abrir e fechar volantes de válvulas nas direções vertical e horizontal; girar os punhos para girar manivelas. |\n| Obter acesso através do navio; utilizar ferramentas e equipamentos; os procedimentos de reação à emergência devem ser seguidos prontamente, inclusive vestir colete salva- vidas ou roupa de exposição | Mover-se com agilidade | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manusear os suprimentos de bordo; utilizar ferramentas e equipamentos; manusear cabos; seguir os procedimentos de reação à emergência | Levantar, puxar, empurrar e transportar uma carga | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Armazenar em local elevado; abrir e fechar válvulas | Alcançar locais acima da altura dos ombros | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manutenção geral do navio; procedimentos de reação à emergência, inclusive controle de avarias | Agachar (reduzir a altura dobrando os joelhos); Ajoelhar (colocar os joelhos no chão); Curvar o corpo (reduzir a altura curvando a cintura). | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Procedimentos de reação à emergência, inclusive escape de compartimentos cheios de fumaça | Rastejar (a capacidade de mover o corpo com as mãos e os joelhos); Sentir (a capacidade de manusear ou tocar para examinar ou verificar | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
+          "markdown": "| instáveis; risco de ferimentos | | |\n| --- | --- | --- |\n| Acesso de rotina entre níveis; procedimentos de reação à emergência | Subir e descer escadas verticais e Inclinadas | é capaz de subir e descer, sem ajuda, escadas verticais e inclinadas. |\n| Movimentos de rotina entre espaços e compartimentos; procedimentos de reação à emergência | Passar por cima de braçolas (ex.: de até 60 cm de altura) | é capaz de passar por cima, sem ajuda, de uma soleira de porta alta (braçola). |\n| Abrir e fechar portas estanques; sistemas manuais de manivelas; abrir e fechar volantes de válvulas; manusear cabos; utilizar ferramentas manuais (isto é, chaves de boca, machados de incêndio, chaves para válvulas, martelos, chaves de fenda, alicates) | Manusear dispositivos mecânicos (destreza e força manual e digital) | é capaz de segurar, levantar e manusear diversas ferramentas comuns de bordo; mover as mãos/braços para abrir e fechar volantes de válvulas nas direções vertical e horizontal; girar os punhos para girar manivelas. |\n| Obter acesso através do navio; utilizar ferramentas e equipamentos; os procedimentos de reação à emergência devem ser seguidos prontamente, inclusive vestir colete salva-vidas ou roupa de exposição | Mover-se com agilidade | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manusear os suprimentos de bordo; utilizar ferramentas e equipamentos; manusear cabos; seguir os procedimentos de reação à emergência | Levantar, puxar, empurrar e transportar uma carga | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Armazenar em local elevado; abrir e fechar válvulas | Alcançar locais acima da altura dos ombros | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Manutenção geral do navio; procedimentos de reação à emergência, inclusive controle de avarias | Agachar (reduzir a altura dobrando os joelhos); Ajoelhar (colocar os joelhos no chão); Curvar o corpo (reduzir a altura curvando a cintura). | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |\n| Procedimentos de reação à emergência, inclusive escape de compartimentos cheios de fumaça | Rastejar (a capacidade de mover o corpo com as mãos e os joelhos); Sentir (a capacidade de manusear ou tocar para examinar ou verificar | não tem qualquer debilitação ou doença que possa impedir seus movimentos e suas atividades físicas normais. |"
         },
         {
           "type": "paragraph",
@@ -2879,10 +2751,6 @@
         {
           "type": "paragraph",
           "text": "5. Na dúvida, o examinador médico deve quantificar, por meio de testes objetivos, o grau de"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "table",
@@ -2918,15 +2786,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Riscos Ocupacionais da Atividade** / _Occupational Risks_ : **Físicos** / _Physical_ : ( ) Ausentes/ _Absent_ (   ) Calor/ _Heat_ (   ) Ruído/ _Noise_ ( ) Frio/ _Cold_ / ( ) Vibração/ _Vibration_ ( ) Outros/ _Others:_ **Químicos** / _Chemical_ : ( ) Ausentes/A _bsent_ ( ) Hidrocarbonetos/ _Hydrocarbons_ ( ) Gases Tóxicos/ _Toxic Gases_ ( ) Produtos Químicos/ _ChemicalProducts_ ( ) Outros/ _Others:_ **Biológicos** / _Biological_ : ( ) Ausentes/ _Absent_ ( ) Agentes microbiológicos/ _Microbiological pathogens_ ( ) Outros/ _Others:_"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "**EXAMES COMPLEMENTARES** / _Additional Exams_ : **Exame** / _Exam:_ **Data** / _Date:_ **( ) Apto** / _Fit for duty_ **( ) Inapto** / _Unfit for duty_"
+          "text": "**Riscos Ocupacionais da Atividade** / _Occupational Risks_ : **Físicos** / _Physical_ : ( ) Ausentes/ _Absent_ ( ) Calor/ _Heat_ ( ) Ruído/ _Noise_ ( ) Frio/ _Cold_ / ( ) Vibração/ _Vibration_ ( ) Outros/ _Others:_ **Químicos** / _Chemical_ : ( ) Ausentes/A _bsent_ ( ) Hidrocarbonetos/ _Hydrocarbons_ ( ) Gases Tóxicos/ _Toxic Gases_ ( ) Produtos Químicos/ _ChemicalProducts_ ( ) Outros/ _Others:_ **Biológicos** / _Biological_ : ( ) Ausentes/ _Absent_ ( ) Agentes microbiológicos/ _Microbiological pathogens_ ( ) Outros/ _Others:_ **EXAMES COMPLEMENTARES** / _Additional Exams_ : **Exame** / _Exam:_ **Data** / _Date:_ **( ) Apto** / _Fit for duty_ **( ) Inapto** / _Unfit for duty_"
         },
         {
           "type": "paragraph",
@@ -2938,7 +2798,7 @@
         },
         {
           "type": "paragraph",
-          "text": ", <u>de de</u> ."
+          "text": ", de de ."
         },
         {
           "type": "paragraph",
@@ -2964,12 +2824,8 @@
       "title": "_Informações adicionais/AdditionalInformation:_",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "table",
-          "markdown": "| Pergunta/Question | Sim / Yes | Não / No |\n| --- | --- | --- |\n| A identificação foi verificada? Wastheidentityverified? | | |\n| A audição atende os requisitos mínimos para embarque? Ishearingadequate for boarding? | | |\n| A audição sem próteses é adequada? Isunaidedhearingadequate? | | |\n| A acuidade visual satisfaz os padrões estabelecidos no STCW seção A-I/9? Visual acuitymeets standards in section A-I/9? | | |\n| A visão de cores atende aos padrões estabelecidos no STWC seção A - I/9? Iscolourvisionadequate in accordancewith STCW A- I/9? | | |\n| Data da última verificação de daltonismo (máximo: 6 anos) Lastcolourvisionevaluation (Max. 6 years) | | |\n| Alguma limitação ou restrição médica? Any medical limitationorrestriction? | | |\n| Se sim, qual? If (Yes), specify: | | |\n| O aquaviário está livre de condições que possam torná-lo inapto ou qualquer problema de saúde que possa ser agravado pelo serviço de navegação no mar ou tornar o marítimo inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo? Is the seafarer free for many medical condition likely to be | | |"
+          "markdown": "| Pergunta/Question | Sim / Yes | Não / No |\n| --- | --- | --- |\n| A identificação foi verificada? Wastheidentityverified? | | |\n| A audição atende os requisitos mínimos para embarque? Ishearingadequate for boarding? | | |\n| A audição sem próteses é adequada? Isunaidedhearingadequate? | | |\n| A acuidade visual satisfaz os padrões estabelecidos no STCW seção A-I/9? Visual acuitymeets standards in section A-I/9? | | |\n| A visão de cores atende aos padrões estabelecidos no STWC seção A - I/9? Iscolourvisionadequate in accordancewith STCW A-I/9? | | |\n| Data da última verificação de daltonismo (máximo: 6 anos) Lastcolourvisionevaluation (Max. 6 years) | | |\n| Alguma limitação ou restrição médica? Any medical limitationorrestriction? | | |\n| Se sim, qual? If (Yes), specify: | | |\n| O aquaviário está livre de condições que possam torná-lo inapto ou qualquer problema de saúde que possa ser agravado pelo serviço de navegação no mar ou tornar o marítimo inapto para esse serviço, ou colocar em perigo a saúde e a segurança de outras pessoas a bordo? Is the seafarer free for many medical condition likely to be | | |"
         },
         {
           "type": "paragraph",
@@ -2977,7 +2833,7 @@
         },
         {
           "type": "paragraph",
-          "text": ", <u>de de</u> ."
+          "text": ", de de ."
         },
         {
           "type": "paragraph",
@@ -3066,11 +2922,7 @@
         },
         {
           "type": "paragraph",
-          "text": "2.1.1 Barco de pesca, para os fins deste Anexo, é toda embarcação de bandeira brasileira utilizada para fins comerciais  ou industriais que exerça atividade de captura, conservação,"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
+          "text": "2.1.1 Barco de pesca, para os fins deste Anexo, é toda embarcação de bandeira brasileira utilizada para fins comerciais ou industriais que exerça atividade de captura, conservação,"
         },
         {
           "type": "table",
@@ -3152,10 +3004,6 @@
       "number": "",
       "title": "4. Disposições de segurança e saúde nos barcos",
       "blocks": [
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
         {
           "type": "paragraph",
           "text": "4.1 Os barcos de pesca novos, ou que sofreram reformas ou modificações importantes, devem atender às disposições mínimas de segurança e saúde previstas no Apêndice I do presente Anexo."
@@ -3267,10 +3115,6 @@
         {
           "type": "paragraph",
           "text": "5.2 Para cada exame médico realizado, o médico responsável emitirá o Atestado de Saúde Ocupacional - ASO, em três vias."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -3413,10 +3257,6 @@
       "title": "7. Disposição Final",
       "blocks": [
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "7.1 Cabe à Fundacentro elaborar e manter atualizado um Guia Técnico, de caráter recomendatório, para a avaliação e a prevenção dos riscos relativos à utilização de barcos de pesca."
         }
@@ -3550,10 +3390,6 @@
           "text": "3.1.2 O barco deve ser dotado de fonte de energia elétrica de emergência."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "3.1.2.1 A fonte de energia elétrica de emergência deve estar situada fora da praça de máquinas e ser projetada, em todos os casos, de forma a garantir, em caso de incêndio ou de avaria da instalação elétrica principal, o funcionamento simultâneo, por no mínimo 3h (três horas):"
         },
@@ -3657,8 +3493,8 @@
           "text": "3.2.5 Os equipamentos de cozinha e eletrodomésticos que utilizem gases somente devem ser usados em espaços ventilados."
         },
         {
-          "type": "note",
-          "text": "3.2.6 Cilindros que contenham gases inflamáveis ou outros gases perigosos devem ter indicação clara do seu conteúdo e ser armazenados em espaços abertos. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "3.2.6 Cilindros que contenham gases inflamáveis ou outros gases perigosos devem ter indicação clara do seu conteúdo e ser armazenados em espaços abertos."
         },
         {
           "type": "paragraph",
@@ -3772,10 +3608,6 @@
           "text": "5.1.2 Os trabalhadores devem ser informados quanto à localização, aos mecanismos de funcionamento e à forma de utilização dos dispositivos de combate a incêndio."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "5.1.3 É obrigatória a verificação da existência de extintores e demais equipamentos de combate a incêndio a bordo, antes de qualquer saída do barco do porto."
         },
@@ -3836,8 +3668,8 @@
           "text": "6.2 Pisos, anteparas e tetos"
         },
         {
-          "type": "note",
-          "text": "6.2.1 Todos os locais aos quais os trabalhadores tenham acesso devem possuir pisos antiderrapantes ou dispositivos contra quedas e estar livres de obstáculos. Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "6.2.1 Todos os locais aos quais os trabalhadores tenham acesso devem possuir pisos antiderrapantes ou dispositivos contra quedas e estar livres de obstáculos."
         },
         {
           "type": "paragraph",
@@ -3905,10 +3737,6 @@
         {
           "type": "paragraph",
           "text": "7.1 As áreas de trabalho devem estar preparadas para sua finalidade e oferecer proteção adequada aos trabalhadores contra quedas a bordo ou no mar."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -4004,10 +3832,6 @@
           ]
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "7.10 Os equipamentos de proteção individual utilizados como peças de vestuários ou que se usem por cima dessas peças devem ser de cores vivas, para contrastar com o meio marinho e serem bem visíveis."
         },
@@ -4064,10 +3888,6 @@
           "text": "8.1.6 Todos os espaços das áreas de vivência em seu conjunto devem possuir pelo menos duas saídas de emergência em bordos opostos."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "8.1.7 A temperatura nos dormitórios, nas áreas de serviço, nos refeitórios e nos locais de primeiros socorros deve estar de acordo com o uso específico de cada lugar."
         },
@@ -4120,8 +3940,8 @@
           "text": "8.2.5 As áreas de vivência dos barcos projetados para operar em áreas situadas fora das Zonas Tropicais ou sujeitas a temperaturas inferiores a 15ºC devem possuir sistema de calefação capaz de garantir um nível de aquecimento adequado."
         },
         {
-          "type": "note",
-          "text": "8.2.5.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), deve ser instalado sistema de ar condicionado nos espaços destinados a áreas de vivência, ponte de comando, sala de rádio e salas de controle central de máquinas, assim como nos locais de trabalho onde Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "8.2.5.1 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), deve ser instalado sistema de ar condicionado nos espaços destinados a áreas de vivência, ponte de comando, sala de rádio e salas de controle central de máquinas, assim como nos locais de trabalho onde"
         },
         {
           "type": "paragraph",
@@ -4177,10 +3997,6 @@
         {
           "type": "paragraph",
           "text": "8.3.6. Os dormitórios devem ser equipados com mobiliário que facilite a limpeza e proporcione comodidade aos pescadores profissionais, devendo ser incluídos camas, armários individuais e uma escrivaninha em cada dormitório."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -4268,15 +4084,7 @@
         },
         {
           "type": "paragraph",
-          "text": "8.5.3. Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os trabalhadores"
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "devem poder ter acesso a um refrigerador de volume adequado e possibilidade de preparar bebidas quentes e frias."
+          "text": "8.5.3. Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), os trabalhadores devem poder ter acesso a um refrigerador de volume adequado e possibilidade de preparar bebidas quentes e frias."
         },
         {
           "type": "paragraph",
@@ -4329,10 +4137,6 @@
         {
           "type": "paragraph",
           "text": "8.6.7.1 A autoridade competente pode estabelecer requisitos mínimos quanto ao valor nutricional dos alimentos e às quantidades mínimas de alimentos e água que devem ser levadas a bordo."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     },
@@ -4423,20 +4227,7 @@
           "items": [
             {
               "label": "b",
-              "text": "a distância máxima de operação;"
-            }
-          ]
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "a autonomia de tempo de navegação e pesca;"
+              "text": "a distância máxima de operação; c) a autonomia de tempo de navegação e pesca;"
             }
           ]
         },
@@ -4566,10 +4357,6 @@
           "text": "3.1.2.2 A bateria de acumuladores, quando utilizada como fonte, deve estar ligada automaticamente ao quadro de distribuição de energia elétrica de emergência e garantir, em caso de falha da fonte principal, a alimentação ininterrupta durante três horas dos dispositivos a que se fez referência nas alíneas “a”, “b” e “c” do subitem 3.1.2 deste Apêndice."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "3.1.3 O quadro principal de distribuição de eletricidade e o quadro de emergência devem ser instalados de forma a não estarem expostos à água ou ao fogo."
         },
@@ -4663,8 +4450,8 @@
           "text": "5. Detecção e combate a incêndios"
         },
         {
-          "type": "note",
-          "text": "5.1 Os alojamentos e os lugares de trabalho fechados, incluindo praça de máquinas e porões de pesca, devem ter dispositivos adequados de combate a incêndio e, se necessário, detectores de Este texto não substitui o publicado no DOU"
+          "type": "paragraph",
+          "text": "5.1 Os alojamentos e os lugares de trabalho fechados, incluindo praça de máquinas e porões de pesca, devem ter dispositivos adequados de combate a incêndio e, se necessário, detectores de"
         },
         {
           "type": "paragraph",
@@ -4731,10 +4518,6 @@
           "text": "6.1.4 A critério da autoridade competente, os locais de trabalho devem dispor de isolamento acústico e térmico suficientes, levando-se em conta o tipo de tarefas e a atividade física dos trabalhadores."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "6.1.5 Os locais de trabalho, na medida do possível, devem receber luz natural suficiente e ser equipados com iluminação artificial adequada às circunstâncias da pesca, que não ponha em perigo a segurança e saúde dos trabalhadores, nem a navegação de outros barcos."
         },
@@ -4799,10 +4582,6 @@
           "text": "6.4.3.1. Os guarda-corpos devem ter altura mínima de 1,20 m (um metro de vinte centímetros)."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "6.4.4 As aberturas de acesso às áreas do convés ou da coberta utilizadas para permitir a manutenção das instalações devem ser feitas de modo a garantir a segurança dos trabalhadores."
         },
@@ -4863,10 +4642,6 @@
           "text": "7.6 O sistema de comunicação entre o passadiço e o convés de trabalho deve ser confiável."
         },
         {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
           "type": "paragraph",
           "text": "7.7 Deve-se manter constantemente rigorosa vigilância e procedimentos para alerta da tripulação quanto ao risco iminente de golpe do mar durante as operações de pesca ou quando se realize trabalho no convés."
         },
@@ -4925,10 +4700,6 @@
         {
           "type": "paragraph",
           "text": "8.1.4.2 Nos barcos com comprimento total igual ou superior a 26,5 m (vinte e seis metros e cinquenta centímetros) ou Arqueação Bruta igual ou superior a 100 (cem), as dimensões das camas não podem ser inferiores a 1,90 x 0,68 m (um metro de noventa centímetros por sessenta e oito centímetros)."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         },
         {
           "type": "paragraph",
@@ -5087,15 +4858,7 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Os barcos de pesca devem dispor de meios adequados de salvamento e sobrevivência, incluindo os que permitam a retirada de trabalhadores da água e os determinados pelas normas da autoridade marítima."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
-        },
-        {
-          "type": "paragraph",
-          "text": "3. Todos os meios de salvamento e sobrevivência devem estar em lugar apropriado e em bom estado de conservação, prontos para uso imediato."
+          "text": "2. Os barcos de pesca devem dispor de meios adequados de salvamento e sobrevivência, incluindo os que permitam a retirada de trabalhadores da água e os determinados pelas normas da autoridade marítima. 3. Todos os meios de salvamento e sobrevivência devem estar em lugar apropriado e em bom estado de conservação, prontos para uso imediato."
         },
         {
           "type": "paragraph",
@@ -5124,10 +4887,6 @@
         {
           "type": "paragraph",
           "text": "9. Os pescadores profissionais devem estar familiarizados com as instalações do equipamento de radiocomunicação e ser treinados em seu manejo."
-        },
-        {
-          "type": "note",
-          "text": "Este texto não substitui o publicado no DOU"
         }
       ]
     }
