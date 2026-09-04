@@ -239,8 +239,8 @@ Consultar, Baixar, Atualizar, Sincronizar, Buscar, Favoritar, Continuar leitura
 
 | Contexto | Copy |
 |----------|------|
-| Título Play Store | NR Fácil |
-| Descrição curta | Consulte NRs oficiais offline, com busca rápida |
+| Título Play Store | NR Fácil: Normas do Trabalho |
+| Descrição curta | Normas Regulamentadoras offline: busca, favoritos e atualização automática. |
 | Empty state favoritos | Você ainda não tem favoritos. Toque na estrela em qualquer NR para adicionar. |
 | Erro de sync | Não foi possível sincronizar. Verifique sua conexão e tente novamente. |
 | Atualização obrigatória | Uma nova versão do app é necessária para continuar. |

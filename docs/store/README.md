@@ -46,4 +46,5 @@ Qualidade inferior — usar só para testes rápidos de layout.
 ## Referências
 
 - [brand.md](../brand.md) — diretrizes visuais
-- [procedures/07-publicar-play-store.md](../procedures/07-publicar-play-store.md) — ficha da loja
+- [listing-pt-BR.md](listing-pt-BR.md) — título, descrições e checklist Play Console
+- [procedures/07-publicar-play-store.md](../procedures/07-publicar-play-store.md) — fluxo de publicação

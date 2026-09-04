@@ -27,12 +27,20 @@ Enviar AAB, passar revisão e publicar o NR Fácil.
 
 ### 2. Preencher ficha da loja
 
-**Presença na loja → Ficha principal:**
+**Presença na loja → Ficha principal** (idioma: Português (Brasil)).
 
-- Título: NR Fácil
-- Descrição curta (80 chars): Consulte NRs oficiais offline, com busca rápida
-- Descrição completa: destaque offline, atualização automática, fonte MTE
-- Ícone, feature graphic, screenshots
+Copy completa e variantes A/B: [docs/store/listing-pt-BR.md](../store/listing-pt-BR.md).
+
+| Campo | Valor (recomendado) |
+|-------|---------------------|
+| Título (30 chars) | `NR Fácil: Normas do Trabalho` |
+| Descrição curta (80 chars) | `Normas Regulamentadoras offline: busca, favoritos e atualização automática.` |
+| Descrição completa | Ver [listing-pt-BR.md](../store/listing-pt-BR.md) — seção "Descrição completa" |
+| Ícone | `docs/store/play_store_icon_512.png` |
+| Feature graphic | `docs/store/feature_graphic_1024x500.png` |
+| Screenshots | ≥4 telas (Home, Leitor, Busca, Atualizações) |
+
+**Checklist Play Console:** marcar itens em [listing-pt-BR.md](../store/listing-pt-BR.md#checklist--play-console).
 
 ### 3. Política e classificação
 
