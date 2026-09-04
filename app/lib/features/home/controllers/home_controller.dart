@@ -2,61 +2,85 @@ import 'dart:async';
 
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
+import 'package:nrfacil/features/search/controllers/search_screen_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/forced_update_dialog.dart';
 
 /// Controller para HomePage — gerencia navegação entre abas.
-///
-/// Responsabilidades:
-/// - Gerenciar seleção de aba (Favoritos/Todos)
-/// - Determinar aba padrão (Favoritos se houver favoritos, senão Todos)
-/// - Expor ContentService para as views
-/// - Verificar se atualização obrigatória é necessária (min_app_version)
 class HomeController extends GetxController {
-  final ContentService _contentService;
+  static const int tabNormas = 0;
+  static const int tabFavoritos = 1;
+  static const int tabBuscar = 2;
 
-  HomeController({required this._contentService});
+  HomeController({required this.contentService});
 
-  /// Índice da aba selecionada (0 = Favoritos, 1 = Todos)
+  final ContentService contentService;
+
+  /// Índice da aba selecionada (0 = Normas, 1 = Favoritos, 2 = Buscar)
   final selectedTab = 0.obs;
 
-  ContentService get contentService => _contentService;
-
   Worker? _syncErrorWorker;
+  var _initialTabApplied = false;
 
   @override
   Future<void> onInit() async {
     super.onInit();
 
-    // Determinar aba padrão
-    // Se houver favoritos, iniciar em Favoritos (0)
-    // Senão, iniciar em Todos (1)
-    if (_contentService.favoriteIds.isEmpty) {
-      selectedTab.value = 1; // Todos
-    } else {
-      selectedTab.value = 0; // Favoritos
-    }
+    _applyInitialTabIfNeeded();
 
-    // Avisar (sem bloquear) se a sincronização falhar — o app continua
-    // usável offline com o cache local existente.
-    _syncErrorWorker = ever<String?>(_contentService.lastError, (error) {
-      if (error != null) {
-        AppSnackbar.showError(title: 'Sincronização', message: error);
+    // Garante aba correta após ContentService carregar favoritos do storage.
+    once(contentService.favoriteIds, (_) => _applyInitialTabIfNeeded());
+
+    _syncErrorWorker = ever<String?>(contentService.lastError, (error) {
+      if (error == null) return;
+      // Empty state da aba Normas já cobre falha no boot sem cache.
+      if (error == UserMessages.noNetworkNoLocal && !contentService.hasManifest) {
+        return;
       }
+      AppSnackbar.showError(title: 'Sincronização', message: error);
     });
 
-    // Sincronização leve em background: metadados → índices de busca + favoritas.
     unawaited(_runStartupSync());
   }
 
+  void _applyInitialTabIfNeeded() {
+    if (_initialTabApplied) return;
+    _initialTabApplied = true;
+    selectedTab.value =
+        contentService.favoriteIds.isEmpty ? tabNormas : tabFavoritos;
+  }
+
+  String get tabTitle {
+    switch (selectedTab.value) {
+      case tabNormas:
+        return 'Normas';
+      case tabFavoritos:
+        return 'Favoritos';
+      case tabBuscar:
+        return 'Buscar';
+      default:
+        return 'NR Fácil';
+    }
+  }
+
+  bool get showContinuarLeitura => false;
+
+  /// Abre a aba Buscar com termo pré-preenchido para busca full-text.
+  void openSearchTab(String query) {
+    selectTab(tabBuscar);
+    if (!Get.isRegistered<SearchScreenController>()) return;
+    unawaited(Get.find<SearchScreenController>().openWithQuery(query));
+  }
+
   Future<void> _runStartupSync() async {
-    final ok = await _contentService.syncMetadata();
+    final ok = await contentService.syncMetadata();
     if (!ok) return;
 
     await _checkForcedUpdate();
 
-    unawaited(_contentService.syncSearchIndices());
-    unawaited(_contentService.prefetchFavorites());
+    unawaited(contentService.syncSearchIndices());
+    unawaited(contentService.prefetchFavorites());
   }
 
   @override
@@ -65,23 +89,17 @@ class HomeController extends GetxController {
     super.onClose();
   }
 
-  /// Verificar se atualização obrigatória é necessária e exibir diálogo.
-  ///
-  /// Chamado após sync() completar (com sucesso ou não).
-  /// Se [forcedUpdateRequired] retornar true, exibe um diálogo bloqueante.
   Future<void> _checkForcedUpdate() async {
     try {
-      final updateRequired = await _contentService.forcedUpdateRequired;
+      final updateRequired = await contentService.forcedUpdateRequired;
       if (updateRequired) {
-        // Exibir diálogo bloqueante não dispensável
         Get.dialog(
           const ForcedUpdateDialog(),
           barrierDismissible: false,
         );
       }
-    } catch (e) {
+    } catch (_) {
       // Falha ao verificar versão não deve bloquear o app
-      // Logar aviso e continuar
     }
   }
 

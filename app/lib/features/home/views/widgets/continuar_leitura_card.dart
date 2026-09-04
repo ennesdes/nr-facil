@@ -1,52 +1,109 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/display_text_utils.dart';
 
-/// Card "Continuar leitura" — exibir última NR aberta.
-///
-/// Mostra título da NR e permite tap para continuar lendo.
+/// Card compacto "Continuar leitura".
 class ContinuarLeituraCard extends StatelessWidget {
   final ManifestEntry nrEntry;
+  final String? sectionLabel;
+  final int? progressPercent;
   final VoidCallback onTap;
 
   const ContinuarLeituraCard({
     required this.nrEntry,
     required this.onTap,
+    this.sectionLabel,
+    this.progressPercent,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final displayTitle = formatNrTitleForDisplay(nrEntry.title);
+
     return Card(
-      margin: const EdgeInsets.all(AppSpacing.md),
+      margin: const EdgeInsets.fromLTRB(
+        AppSpacing.md,
+        AppSpacing.sm,
+        AppSpacing.md,
+        AppSpacing.sm,
+      ),
       child: InkWell(
+        borderRadius: BorderRadius.circular(AppRadius.md),
         onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.all(AppSpacing.md),
-          child: Column(
+          child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                'Continuar leitura',
-                style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'CONTINUAR LENDO',
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: colorScheme.onSurfaceVariant,
+                        letterSpacing: 0.5,
+                      ),
                     ),
-              ),
-              const SizedBox(height: AppSpacing.sm),
-              Text(
-                nrEntry.title,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
+                    const SizedBox(height: AppSpacing.sm),
+                    Text(
+                      '${nrEntry.nrLabel} · $displayTitle',
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        color: colorScheme.onSurface,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
                     ),
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
+                    if (sectionLabel != null && sectionLabel!.isNotEmpty) ...[
+                      const SizedBox(height: AppSpacing.xs),
+                      Text(
+                        sectionLabel!,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: colorScheme.onSurfaceVariant,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                    if (progressPercent != null) ...[
+                      const SizedBox(height: AppSpacing.sm),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(2),
+                              child: LinearProgressIndicator(
+                                value: progressPercent! / 100,
+                                minHeight: 4,
+                                backgroundColor: colorScheme.outline
+                                    .withValues(alpha: 0.22),
+                                color: colorScheme.primary,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: AppSpacing.sm),
+                          Text(
+                            '$progressPercent%',
+                            style: theme.textTheme.labelSmall?.copyWith(
+                              color: colorScheme.onSurfaceVariant,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ],
+                ),
               ),
-              const SizedBox(height: AppSpacing.sm),
-              Align(
-                alignment: Alignment.centerRight,
+              Padding(
+                padding: const EdgeInsets.only(left: AppSpacing.sm, top: 20),
                 child: Icon(
-                  Icons.arrow_forward,
-                  color: Theme.of(context).colorScheme.primary,
+                  Icons.chevron_right,
+                  color: colorScheme.onSurfaceVariant,
                 ),
               ),
             ],

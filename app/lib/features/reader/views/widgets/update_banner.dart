@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
-import 'package:nrfacil/core/theme/app_theme_extensions.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/app_modal_bottom_sheet.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
 
@@ -11,23 +12,30 @@ class UpdateBanner extends GetView<NRReaderController> {
 
   @override
   Widget build(BuildContext context) {
-    final semantics = context.semanticColors;
     final colorScheme = Theme.of(context).colorScheme;
 
     return DecoratedBox(
       decoration: BoxDecoration(
-        color: semantics.infoContainer,
+        color: colorScheme.surfaceContainerHigh,
         border: Border(
-          bottom: BorderSide(color: semantics.info.withValues(alpha: 0.4)),
+          bottom: BorderSide(color: colorScheme.outline),
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSpacing.md,
+          vertical: AppSpacing.sm + AppSpacing.xs,
+        ),
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.only(right: 12),
-              child: Icon(Icons.update, color: semantics.info),
+              padding: const EdgeInsets.only(right: AppSpacing.sm, top: 2),
+              child: Icon(
+                Icons.update,
+                size: 18,
+                color: colorScheme.onSurfaceVariant,
+              ),
             ),
             Expanded(
               child: Column(
@@ -36,28 +44,27 @@ class UpdateBanner extends GetView<NRReaderController> {
                   Text(
                     'Esta NR foi atualizada',
                     style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                          fontWeight: FontWeight.bold,
-                          color: colorScheme.onSurface,
+                          fontWeight: FontWeight.w600,
                         ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 4),
+                    padding: const EdgeInsets.only(top: AppSpacing.xs),
                     child: Text(
-                      'Toque para ver o que mudou',
+                      'Houve alterações desde sua última leitura.',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: semantics.info,
+                            color: colorScheme.onSurfaceVariant,
                           ),
                     ),
+                  ),
+                  TextButton(
+                    onPressed: () => _showUpdateDetails(context),
+                    child: const Text('Ver alterações'),
                   ),
                 ],
               ),
             ),
-            TextButton(
-              onPressed: () => _showUpdateDetails(context),
-              child: const Text('Ver'),
-            ),
             IconButton(
-              icon: const Icon(Icons.close),
+              icon: const Icon(Icons.close, size: 20),
               tooltip: 'Dispensar',
               onPressed: controller.dismissUpdateBanner,
             ),
@@ -71,7 +78,7 @@ class UpdateBanner extends GetView<NRReaderController> {
     final updateEntry = controller.getUpdateEntry();
     final colorScheme = Theme.of(context).colorScheme;
 
-    showModalBottomSheet(
+    showAppModalBottomSheet(
       context: context,
       isScrollControlled: true,
       builder: (context) => DraggableScrollableSheet(
@@ -84,19 +91,22 @@ class UpdateBanner extends GetView<NRReaderController> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                padding: const EdgeInsets.symmetric(
+                  vertical: AppSpacing.md,
+                  horizontal: AppSpacing.md,
+                ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'O que mudou',
+                      'O que mudou?',
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
                     ),
                     if (updateEntry != null && updateEntry.createdAt != null)
                       Padding(
-                        padding: const EdgeInsets.only(top: 4),
+                        padding: const EdgeInsets.only(top: AppSpacing.xs),
                         child: Text(
                           'Atualizado em ${_formatDate(updateEntry.createdAt!)}',
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
@@ -114,7 +124,7 @@ class UpdateBanner extends GetView<NRReaderController> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(AppSpacing.md),
                 child: SizedBox(
                   width: double.infinity,
                   child: FilledButton(
@@ -131,14 +141,12 @@ class UpdateBanner extends GetView<NRReaderController> {
         },
       ),
     );
-
-    controller.dismissUpdateBanner();
   }
 
   Widget _buildUpdateContent(BuildContext context, UpdateEntry? updateEntry) {
     if (updateEntry == null) {
       return Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(AppSpacing.md),
         child: Text(
           'Detalhes da atualização indisponíveis',
           style: Theme.of(context).textTheme.bodyMedium,
@@ -151,7 +159,7 @@ class UpdateBanner extends GetView<NRReaderController> {
     }
 
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(AppSpacing.md),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -162,7 +170,7 @@ class UpdateBanner extends GetView<NRReaderController> {
             ),
           if (updateEntry.portaria != null && updateEntry.portaria!.isNotEmpty)
             Padding(
-              padding: const EdgeInsets.only(top: 12),
+              padding: const EdgeInsets.only(top: AppSpacing.sm + AppSpacing.xs),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -173,7 +181,7 @@ class UpdateBanner extends GetView<NRReaderController> {
                         ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 4),
+                    padding: const EdgeInsets.only(top: AppSpacing.xs),
                     child: Text(
                       updateEntry.portaria!,
                       style: Theme.of(context).textTheme.bodySmall,

@@ -229,5 +229,90 @@ void main() {
       GetStorage().write(StorageKeys.nrLastSyncedHash('nr-06'), 'hash-06');
       expect(contentService.isNrFullyCached('nr-06'), isTrue);
     });
+
+    test('primeira syncMetadata estabelece baseline e não marca NRs como atualizadas',
+        () async {
+      expect(
+        GetStorage().read(StorageKeys.updatesBaselineEstablished),
+        isNull,
+      );
+
+      await contentService.syncMetadata();
+
+      expect(
+        GetStorage().read(StorageKeys.updatesBaselineEstablished),
+        isTrue,
+      );
+      expect(
+        GetStorage().read(StorageKeys.nrLastSeenHash('nr-06')),
+        'hash-06',
+      );
+      expect(
+        GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')),
+        'hash-10',
+      );
+      expect(contentService.hasUpdate('nr-06'), isFalse);
+      expect(contentService.hasUpdate('nr-10'), isFalse);
+      expect(contentService.updatedNrs, isEmpty);
+      expect(contentService.unreadUpdatesCount.value, 0);
+    });
+
+    test('após baseline, mudança de hash remoto marca NR como atualizada', () async {
+      await contentService.syncMetadata();
+      expect(contentService.hasUpdate('nr-06'), isFalse);
+
+      final updatedManifest = Map<String, dynamic>.from(manifestJson);
+      updatedManifest['nrs'] = [
+        ...(manifestJson['nrs'] as List).map((nr) {
+          if (nr['id'] == 'nr-06') {
+            return {...nr as Map<String, dynamic>, 'hash': 'hash-06-v2'};
+          }
+          return nr;
+        }),
+      ];
+
+      contentService.onClose();
+      contentService = ContentService(
+        httpClient: MockClient((request) async {
+          if (request.url.path.endsWith('/manifest.json')) {
+            return http.Response(jsonEncode(updatedManifest), 200);
+          }
+          if (request.url.path.endsWith('/app_meta.json')) {
+            return http.Response(
+              jsonEncode({
+                'generated_at': '2026-01-01T00:00:00.000Z',
+                'min_app_version': '0.0.1',
+                'updates': [],
+              }),
+              200,
+            );
+          }
+          return http.Response('not found', 404);
+        }),
+        cacheDirOverride: cacheDir,
+      );
+      await contentService.onInit();
+      await contentService.syncMetadata();
+
+      expect(contentService.hasUpdate('nr-06'), isTrue);
+      expect(contentService.hasUpdate('nr-10'), isFalse);
+      expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
+    });
+
+    test('baseline não sobrescreve last_seen_hash já gravado', () async {
+      GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');
+
+      await contentService.syncMetadata();
+
+      expect(
+        GetStorage().read(StorageKeys.nrLastSeenHash('nr-06')),
+        'hash-antigo',
+      );
+      expect(contentService.hasUpdate('nr-06'), isTrue);
+      expect(
+        GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')),
+        'hash-10',
+      );
+    });
   });
 }

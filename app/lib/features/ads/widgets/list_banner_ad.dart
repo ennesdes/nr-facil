@@ -55,12 +55,10 @@ class _ListBannerAdState extends State<ListBannerAd> {
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: AppSpacing.md),
-      child: SafeArea(
-        child: SizedBox(
-          width: _bannerAd!.size.width.toDouble(),
-          height: _bannerAd!.size.height.toDouble(),
-          child: AdWidget(ad: _bannerAd!),
-        ),
+      child: SizedBox(
+        width: _bannerAd!.size.width.toDouble(),
+        height: _bannerAd!.size.height.toDouble(),
+        child: AdWidget(ad: _bannerAd!),
       ),
     );
   }

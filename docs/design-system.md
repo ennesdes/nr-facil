@@ -65,9 +65,11 @@ flowchart TB
 | onSecondary | `#FFFFFF` | `onSecondary` |
 | surface | `#FAFBFC` | `surface` |
 | onSurface | `#1A1C1E` | `onSurface` |
-| onSurfaceVariant | `#5C6670` | `onSurfaceVariant` |
-| surfaceContainer | `#F0F2F4` | `surfaceContainerHighest` |
-| outline | `#C5CDD4` | `outline` |
+| onSurfaceVariant | `#4A5560` | `onSurfaceVariant` |
+| surfaceContainer | `#F0F2F4` | `surfaceContainer` / `surfaceContainerLow` |
+| surfaceContainerHigh | `#E8EAED` | `surfaceContainerHigh` |
+| surfaceBright | `#FFFFFF` | `surfaceContainerHighest` |
+| outline | `#B0BAC4` | `outline` |
 | error | `#C62828` | `error` |
 | onError | `#FFFFFF` | `onError` |
 
@@ -81,10 +83,10 @@ flowchart TB
 | onPrimaryContainer | `#D4EDE6` | `onPrimaryContainer` |
 | surface | `#121212` | `surface` |
 | onSurface | `#E8EAED` | `onSurface` |
-| onSurfaceVariant | `#9AA0A6` | `onSurfaceVariant` |
+| onSurfaceVariant | `#B8BFC6` | `onSurfaceVariant` |
 | surfaceContainer | `#1E1E1E` | `surfaceContainer` |
-| surfaceContainerHigh | `#2A2A2A` | `surfaceContainerHigh` |
-| outline | `#5C6670` | `outline` |
+| surfaceContainerHigh | `#2A2A2A` | `surfaceContainerHigh` / `surfaceContainerHighest` |
+| outline | `#6E7A85` | `outline` |
 | error | `#EF5350` | `error` |
 
 ### 2.3 Cores semânticas (fora do `ColorScheme`)
@@ -95,10 +97,15 @@ Estender via classe `AppColors` ou `ThemeExtension`:
 |-------|-------|------|-----|
 | success | `#2E7D4F` | `#66BB6A` | Snackbar sucesso, ícone verificado |
 | warning | `#B45309` | `#FFB74D` | Texto de aviso |
-| warningContainer | `#FEF3C7` | `#4A3F1A` | Badge atualização, highlight busca |
-| info | `#1565A8` | `#64B5F6` | Links PDF, texto informativo |
+| warningContainer | `#FEF3C7` | `#4A3F1A` | Badge atualização, fundo de aviso |
+| onWarningContainer | `#92400E` | `#FFD180` | Texto sobre warningContainer |
+| info | `#1565A8` | `#64B5F6` | Links PDF, ícones informativos |
 | infoContainer | `#E3F0FA` | `#1A2F42` | Fundo UpdateBanner |
-| revoked | `#9E9E9E` | `#757575` | Badge NR revogada |
+| onInfoContainer | `#0D4A7A` | `#90CAF9` | Texto/CTA sobre infoContainer |
+| searchHighlight | `#FFF3CD` | `#5C4A1A` | Destaque de busca (fundo) |
+| onSearchHighlight | `#1A1C1E` | `#FFE082` | Texto sobre searchHighlight |
+| revoked | `#5C6670` | `#9E9E9E` | Badge NR revogada |
+| muted | `#6B7280` | `#9AA0A6` | Texto atenuado (NR revogada em lista) |
 
 ### 2.4 Exemplo de implementação Flutter
 
@@ -159,14 +166,16 @@ ThemeData buildLightTheme() {
 
 ### 3.3 Leitor — escala relativa
 
-Preservar a lógica existente em `nr_reader_controller.dart` (base 12–20px):
+Faixa fixa em `nr_reader_controller.dart`: **14 / 16 / 18 / 20 px** (padrão 16). Valores legados &lt; 14 migram para 14.
 
 ```dart
 TextStyle readerHeading1(double base) =>
-    TextStyle(fontSize: base + 8, fontWeight: FontWeight.w600, height: 1.3);
+    TextStyle(fontSize: base + 2, fontWeight: FontWeight.w600, height: 1.3);
 TextStyle readerBody(double base) =>
     TextStyle(fontSize: base, height: 1.6);
 ```
+
+Layout contínuo: seções normativas sem cards (`NrSectionBlock`); preâmbulo e banner de atualização são os únicos blocos colapsáveis/especiais.
 
 ---
 
@@ -216,26 +225,29 @@ abstract final class AppRadius {
 
 ### 5.1 NrListTile
 
-**Arquivo atual:** `app/lib/features/home/views/widgets/nr_list_tile.dart`
+**Arquivo:** `app/lib/features/home/views/widgets/nr_list_tile.dart`
+
+Layout em duas colunas: bloco de texto à esquerda (label → título → badges) e ações à direita alinhadas ao topo.
 
 | Elemento | Token |
 |----------|-------|
-| Label NR (ex: NR-06) | `titleMedium`, cor `primary` |
-| Título da NR | `bodyLarge`, cor `onSurface` |
-| Padding | horizontal `md`, vertical `xs` |
-| Badge atualização | `NrBadge` variant `update` |
+| Label NR | `titleSmall`, `primary` (revogada: `onSurfaceVariant`) |
+| Título | `bodyMedium`, `onSurface` (sempre legível), gap de 2px abaixo do label |
+| Padding | horizontal `md`, vertical 12px |
+| Ações | `NrTileIconButton` — 48dp, coluna à direita, paralelas ao label |
+| Badge atualização | `NrBadge` variant `update` — label "Atualização disponível" |
 | Badge revogada | `NrBadge` variant `revoked` |
-| Ícone não baixada | 20dp, cor `outline` |
-| Estrela favorito | 24dp, `primary` (ativo) / `onSurfaceVariant` (inativo) |
+| Download offline | `NrDownloadAction` — oculto se já baixada |
+| Estrela favorito | 48dp, `AnimatedSwitcher`, sem SnackBar |
 
 **Estados:**
 
 | Estado | Comportamento visual |
 |--------|---------------------|
-| Normal | Opacidade 1.0 |
-| Revogada | Opacidade 0.55 no tile inteiro |
-| Com atualização | Chip "Atualizada" em `warningContainer` |
-| Não baixada | Ícone `cloud_off` à direita |
+| Normal | Título `onSurface`, label `primary` |
+| Revogada | Título legível + badge; sem badge "Atualização disponível" |
+| Com atualização | Chip "Atualização disponível" |
+| Não baixada | Ícone download acionável (bottom sheet + Baixar) |
 
 ### 5.2 NrBadge (novo — abstrair de inline)
 
@@ -243,8 +255,8 @@ Componente reutilizável para substituir badges inline e emoji 🆕.
 
 | Variante | Fundo | Texto | Label |
 |----------|-------|-------|-------|
-| `update` | `warningContainer` | `warning` | "Atualizada" |
-| `revoked` | transparente | `revoked` | "Revogada" |
+| `update` | `warningContainer` | `onWarningContainer` | "Atualização disponível" |
+| `revoked` | `surfaceContainerHigh` | `revoked` | "Revogada" |
 | `downloaded` | `primaryContainer` | `onPrimaryContainer` | "Baixada" | ✅ |
 
 - Padding: horizontal `sm`, vertical `xs`
@@ -299,7 +311,7 @@ Padrão unificado para estados vazios (favoritos, atualizações, busca).
 
 | Elemento | Token |
 |----------|-------|
-| Ícone | 64dp, `onSurfaceVariant` 40% opacidade |
+| Ícone | 64dp, `onSurfaceVariant` |
 | Título | `titleMedium`, `onSurface` |
 | Corpo | `bodyMedium`, `onSurfaceVariant` |
 | Espaçamento ícone → título | `lg` |
@@ -308,19 +320,18 @@ Padrão unificado para estados vazios (favoritos, atualizações, busca).
 
 **Arquivos a unificar:** `empty_favoritos_state.dart`, trechos de `updates_page.dart`, `search_page.dart`.
 
-### 5.7 NrSectionCard
+### 5.7 NrSectionBlock
 
-**Arquivo:** `app/lib/features/reader/views/widgets/nr_section_card.dart`
+**Arquivo:** `app/lib/features/reader/views/widgets/nr_section_block.dart`
 
-| Elemento | Light | Dark |
-|----------|-------|------|
-| Fundo card | `surface` (branco) | `surfaceContainer` (`#1E1E1E`) |
-| Borda | `outline` 1px | `white12` |
-| Título seção | `bodyLarge` semibold | idem |
-| Subtítulo | `bodyMedium`, `onSurfaceVariant` | idem |
-| Radius | `radius.md` | idem |
+Leitura contínua — sem card. Hierarquia tipográfica + divisor `outline` entre seções.
 
-Substituir hex `#1E1E1E` e `Colors.white` hardcoded por tokens.
+| Elemento | Token |
+|----------|-------|
+| Título seção | `titleMedium`, `fontSize + 2`, semibold |
+| Divisor | `outline` 1px |
+| Padding horizontal | `AppSpacing.md` |
+| Espaço entre seções | `AppSpacing.lg` |
 
 ### 5.8 ReaderFooter
 
@@ -343,8 +354,8 @@ Unificar highlight em leitor e busca global.
 
 | Contexto | Arquivo atual | Token alvo |
 |----------|---------------|------------|
-| Leitor | `highlighted_text.dart`, `searchable_markdown_body.dart` | `warningContainer` 60% opacidade |
-| Busca global | `search_result_tile.dart`, `nr_search_snippet.dart` | `warningContainer` 60% opacidade + `FontWeight.w600` |
+| Leitor | `highlighted_text.dart`, `searchable_markdown_body.dart` | `searchHighlight` + `onSearchHighlight` |
+| Busca global | `search_result_tile.dart`, `nr_search_snippet.dart` | `searchHighlight` + `onSearchHighlight` + `FontWeight.w600` |
 
 Substituir `Colors.amber` (leitor) e `Colors.blue` (busca) pelo mesmo token.
 
@@ -377,38 +388,51 @@ Substituir `Colors.amber` (leitor) e `Colors.blue` (busca) pelo mesmo token.
 
 ### 6.1 AppBar
 
-- Título alinhado à esquerda
+- Título alinhado à esquerda (nome da aba ativa: Normas / Favoritos / Buscar)
 - `elevation: 1`
-- Ações: busca, sino (com badge), ajustes
+- Ações: sino (com badge), ajustes
 - Cor de fundo: `surface` (light) / `surfaceContainer` (dark)
 
 ### 6.2 Bottom navigation
 
-- 2 itens: Favoritos | Todos
-- Ícone + label
+- 3 itens: Normas | Favoritos | Buscar
+- Ícone outlined (inativo) / filled (ativo) + label
 - Indicador de seleção: cor `primary`
 - Altura padrão Material 3
 
 ### 6.3 Anúncios (AdMob)
 
-- Banner **somente** em listas (Favoritos, Todos, Busca)
+- Banner **somente** em listas (Normas, Favoritos, Busca)
 - **Nunca** no leitor
 - Padding `md` acima e abaixo do banner
 - Separador visual opcional: `outline` 1px
 
-### 6.4 Listas
+### 6.4 Aba Normas
+
+**Arquivos:** `normas_tab.dart`, `normas_list_header.dart`, `normas_controller.dart`, `sync_status_bar.dart`
+
+Ordem no scroll (`CustomScrollView`):
+
+1. Campo de busca local + link "Buscar no conteúdo" → aba Buscar
+2. Chips: Todas | Favoritas | Atualizadas | Revogadas
+3. `SyncStatusBar` (↻ sincronizando / ✓ ok / ⚠ erro)
+4. `ContinuarLeituraSection` (compacto, com progresso %)
+5. Lista filtrada de `NrListTile` (ordem numérica)
+6. `ListBannerAd` no final
+
+### 6.5 Listas (geral)
 
 - `contentPadding`: horizontal `md`
 - Separador: `Divider` com cor `outline` ou nenhum (Material 3 list tiles)
 - Pull-to-refresh: cor `primary`
 
-### 6.5 Modo escuro
+### 6.6 Modo escuro
 
-Estratégia recomendada na implementação:
+Estratégia na implementação:
 
-1. Adicionar `darkTheme` global em `main.dart`
-2. Unificar paleta do leitor com o dark theme global (remover hex locais)
-3. Manter toggle de modo escuro no leitor como atalho, mas persistir preferência globalmente
+1. `darkTheme` global em `main.dart`
+2. Paleta do leitor unificada com o dark theme global
+3. Preferência de tema somente em Ajustes (`ThemeController`: Sistema / Claro / Escuro)
 
 ---
 
@@ -458,7 +482,7 @@ Arquivos que usavam `Colors.*` ou `Color(0x...)` hardcoded — maioria já migra
 |------|-----------|
 | Screenshots Play Store | ≥4 capturas (Home, Leitor, Busca, Atualizações) — ver `docs/store/README.md` |
 | Testes visuais | Golden tests para componentes principais (opcional) |
-| Auditoria WCAG | Contraste formal e revisão de acessibilidade |
+| Auditoria WCAG | Concluída — `scripts/audit_contrast.py` valida pares críticos AA |
 
 ---
 

@@ -18,11 +18,11 @@ class NrBadge extends StatelessWidget {
     final (background, foreground, label) = switch (variant) {
       NrBadgeVariant.update => (
           semantics.warningContainer,
-          semantics.warning,
-          'Atualizada',
+          semantics.onWarningContainer,
+          'Atualização disponível',
         ),
       NrBadgeVariant.revoked => (
-          Colors.transparent,
+          colorScheme.surfaceContainerHigh,
           semantics.revoked,
           'Revogada',
         ),

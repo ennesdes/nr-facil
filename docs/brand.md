@@ -121,10 +121,12 @@ Direção: **verde-teal institucional** — remete a segurança e compliance sem
 | On Primary Container | `#0A3D34` | Texto sobre primaryContainer |
 | Secondary | `#1E3A5F` | Ênfase secundária, headers alternativos |
 | Surface | `#FAFBFC` | Fundo geral (off-white, menos fadiga) |
-| Surface Container | `#F0F2F4` | Cards, inputs, áreas elevadas |
-| Outline | `#C5CDD4` | Bordas de input, divisores |
+| Surface Container | `#F0F2F4` | Containers, inputs, áreas elevadas |
+| Surface Container High | `#E8EAED` | Preamble, footer do leitor (light) |
+| Surface Bright | `#FFFFFF` | Cards brancos sobre fundo off-white |
+| Outline | `#B0BAC4` | Bordas de input, divisores |
 | On Surface | `#1A1C1E` | Texto principal |
-| On Surface Variant | `#5C6670` | Metadata, subtítulos, placeholders |
+| On Surface Variant | `#4A5560` | Metadata, subtítulos, placeholders |
 
 ### Cores semânticas (ambos os modos)
 
@@ -132,10 +134,15 @@ Direção: **verde-teal institucional** — remete a segurança e compliance sem
 |------|-----|-----|
 | Success | `#2E7D4F` | Sync OK, download concluído, verificado |
 | Warning | `#B45309` | Atualização disponível, avisos |
-| Warning Container | `#FEF3C7` | Fundo badge "Nova versão", highlight de busca |
+| Warning Container | `#FEF3C7` | Fundo badge "Atualização disponível" |
+| On Warning Container | `#92400E` | Texto sobre warningContainer |
 | Error | `#C62828` | Erros, badge de notificação |
 | Info | `#1565A8` | Links externos (PDF MTE), banners informativos |
 | Info Container | `#E3F0FA` | Fundo do UpdateBanner |
+| On Info Container | `#0D4A7A` | Texto/CTA sobre infoContainer |
+| Search Highlight | `#FFF3CD` / `#5C4A1A` | Destaque de busca (light / dark) |
+| On Search Highlight | `#1A1C1E` / `#FFE082` | Texto sobre highlight (light / dark) |
+| Muted | `#6B7280` / `#9AA0A6` | Texto atenuado (light / dark) |
 
 ### Cores dark mode
 
@@ -145,21 +152,22 @@ Direção: **verde-teal institucional** — remete a segurança e compliance sem
 | Surface Container | `#1E1E1E` | Cards de seção no leitor |
 | Surface Container High | `#2A2A2A` | Preamble, footer do leitor |
 | On Surface | `#E8EAED` | Texto principal |
-| On Surface Variant | `#9AA0A6` | Texto secundário |
+| On Surface Variant | `#B8BFC6` | Texto secundário |
+| Outline | `#6E7A85` | Bordas e divisores |
 | Primary | `#4DB6A0` | Labels NR (mais claro para contraste em fundo escuro) |
 
 ### Estados especiais
 
 | Estado | Tratamento |
 |--------|------------|
-| NR revogada | Opacidade 0.55 no tile + badge outline cinza `#9E9E9E` |
-| NR com atualização | Chip `warningContainer` + texto "Atualizada" (sem emoji) |
-| Não baixada | Ícone `outline` + cor `onSurfaceVariant` |
-| Highlight de busca | `warningContainer` a 60% de opacidade (leitor e busca global) |
+| NR revogada | Texto `muted` + badge com fundo `surfaceContainerHigh` |
+| NR com atualização | Chip `warningContainer` + texto `onWarningContainer` |
+| Não baixada | Ícone `cloud_off` em `onSurfaceVariant` |
+| Highlight de busca | `searchHighlight` + `onSearchHighlight` (leitor e busca global) |
 
 ### Contraste
 
-Todas as combinações texto/fundo devem atingir **WCAG 2.1 AA** (4.5:1 para texto normal, 3:1 para texto grande). Priorizar legibilidade no leitor com fonte pequena (12px mínimo).
+Todas as combinações texto/fundo críticas são validadas por `scripts/audit_contrast.py` (**WCAG 2.1 AA**: 4.5:1 texto normal, 3:1 texto grande).
 
 ---
 
@@ -245,7 +253,7 @@ Consultar, Baixar, Atualizar, Sincronizar, Buscar, Favoritar, Continuar leitura
 | Erro de sync | Não foi possível sincronizar. Verifique sua conexão e tente novamente. |
 | Atualização obrigatória | Uma nova versão do app é necessária para continuar. |
 | Disclaimer legal | Este aplicativo disponibiliza conteúdo público oficial das Normas Regulamentadoras do Ministério do Trabalho e Emprego. O conteúdo não substitui a consulta às publicações oficiais no portal gov.br. |
-| Badge atualização | Atualizada |
+| Badge atualização | Atualização disponível |
 | Badge revogada | Revogada |
 | Link PDF | Ver PDF original no MTE |
 

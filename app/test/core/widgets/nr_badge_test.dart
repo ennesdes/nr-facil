@@ -20,7 +20,7 @@ void main() {
       ),
     );
 
-    expect(find.text('Atualizada'), findsOneWidget);
+    expect(find.text('Atualização disponível'), findsOneWidget);
     expect(find.text('Revogada'), findsOneWidget);
     expect(find.text('Baixada'), findsOneWidget);
   });

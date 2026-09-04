@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/display_text_utils.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
+import 'package:nrfacil/features/home/views/widgets/nr_download_action.dart';
+import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
+
+/// Espaçamento entre o label NR e o título da norma.
+const double kNrListTileLabelTitleGap = 2;
 
 /// Tile para exibir uma NR em lista.
 class NrListTile extends StatelessWidget {
@@ -26,89 +32,121 @@ class NrListTile extends StatelessWidget {
     super.key,
   });
 
+  bool get _showUpdateBadge => hasUpdate && !isRevoked;
+
+  bool get _showActions =>
+      (showNotDownloaded && !isRevoked) || (!isRevoked && !hideStarButton);
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+    final displayTitle = formatNrTitleForDisplay(nrEntry.title);
 
-    final tile = ListTile(
-      onTap: onTap,
-      contentPadding: const EdgeInsets.symmetric(
-        horizontal: AppSpacing.md,
-        vertical: AppSpacing.sm,
-      ),
-      minVerticalPadding: AppSpacing.sm,
-      title: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            nrEntry.nrLabel,
-            style: theme.textTheme.titleMedium?.copyWith(
-              color: colorScheme.primary,
-            ),
+    final labelColor =
+        isRevoked ? colorScheme.onSurfaceVariant : colorScheme.primary;
+    final titleColor = colorScheme.onSurface;
+
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.md,
+            vertical: 12,
           ),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  nrEntry.title,
-                  style: theme.textTheme.bodyLarge,
-                ),
-                if (hasUpdate || isRevoked) ...[
-                  const SizedBox(height: AppSpacing.xs),
-                  Row(
-                    children: [
-                      if (hasUpdate) const NrBadge(variant: NrBadgeVariant.update),
-                      if (isRevoked) ...[
-                        if (hasUpdate) const SizedBox(width: AppSpacing.sm),
-                        const NrBadge(variant: NrBadgeVariant.revoked),
-                      ],
-                    ],
-                  ),
-                ],
-              ],
-            ),
-          ),
-        ],
-      ),
-      trailing: (isRevoked || hideStarButton)
-          ? (showNotDownloaded
-              ? Icon(
-                  Icons.cloud_off,
-                  color: colorScheme.outline,
-                  size: 20,
-                )
-              : null)
-          : Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                if (showNotDownloaded)
-                  Padding(
-                    padding: const EdgeInsets.only(right: AppSpacing.xs),
-                    child: Icon(
-                      Icons.cloud_off,
-                      color: colorScheme.outline,
-                      size: 20,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      nrEntry.nrLabel,
+                      style: theme.textTheme.titleSmall?.copyWith(
+                        color: labelColor,
+                      ),
                     ),
-                  ),
-                IconButton(
-                  icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-                  color: isFavorite
-                      ? colorScheme.primary
-                      : colorScheme.onSurfaceVariant,
-                  tooltip: isFavorite
-                      ? 'Remover dos favoritos'
-                      : 'Adicionar aos favoritos',
-                  onPressed: onToggleFavorite,
+                    const SizedBox(height: kNrListTileLabelTitleGap),
+                    Text(
+                      displayTitle,
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: titleColor,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    if (_showUpdateBadge || isRevoked) ...[
+                      const SizedBox(height: AppSpacing.sm),
+                      Row(
+                        children: [
+                          if (_showUpdateBadge)
+                            const NrBadge(variant: NrBadgeVariant.update),
+                          if (isRevoked) ...[
+                            if (_showUpdateBadge)
+                              const SizedBox(width: AppSpacing.sm),
+                            const NrBadge(variant: NrBadgeVariant.revoked),
+                          ],
+                        ],
+                      ),
+                    ],
+                  ],
                 ),
-              ],
-            ),
+              ),
+              if (_showActions)
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (showNotDownloaded)
+                      NrDownloadAction(nrEntry: nrEntry),
+                    if (!isRevoked && !hideStarButton)
+                      _FavoriteButton(
+                        isFavorite: isFavorite,
+                        onPressed: onToggleFavorite,
+                      ),
+                  ],
+                ),
+            ],
+          ),
+        ),
+      ),
     );
+  }
+}
 
-    if (!isRevoked) return tile;
+class _FavoriteButton extends StatelessWidget {
+  final bool isFavorite;
+  final VoidCallback onPressed;
 
-    return Opacity(opacity: 0.55, child: tile);
+  const _FavoriteButton({
+    required this.isFavorite,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return NrTileIconButton(
+      icon: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 200),
+        transitionBuilder: (child, animation) {
+          return ScaleTransition(scale: animation, child: child);
+        },
+        child: Icon(
+          isFavorite ? Icons.star : Icons.star_border,
+          key: ValueKey(isFavorite),
+          color: isFavorite
+              ? colorScheme.primary
+              : colorScheme.onSurfaceVariant,
+        ),
+      ),
+      tooltip: isFavorite
+          ? 'Remover dos favoritos'
+          : 'Adicionar aos favoritos',
+      onPressed: onPressed,
+    );
   }
 }

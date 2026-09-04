@@ -34,6 +34,9 @@ class FakeContentService implements ContentService {
 
   NrStructure? structureResult;
   String? contentResult;
+  String? lastItemNumberResult;
+  String? lastHeadingResult;
+  double scrollPositionResult = 0;
 
   @override
   bool isFavorite(String nrId) => favoriteIds.contains(nrId);
@@ -48,7 +51,13 @@ class FakeContentService implements ContentService {
   void markNrAsSeen(String nrId) => markNrAsSeenCalls.add(nrId);
 
   @override
-  double getScrollPosition(String nrId) => 0.0;
+  double getScrollPosition(String nrId) => scrollPositionResult;
+
+  @override
+  String? getLastItemNumber(String nrId) => lastItemNumberResult;
+
+  @override
+  String? getLastHeadingViewed(String nrId) => lastHeadingResult;
 
   @override
   Future<NrStructure?> readNrStructure(String nrId) async => structureResult;
@@ -137,13 +146,24 @@ void main() {
       expect(controller.useStructuredView, isTrue);
     });
 
-    test('expandSection adiciona id ao conjunto expandido', () {
+    test('fontSize padrão é 16 e faixa é 14–20', () {
       final controller = NRReaderController(
         nrId: 'nr-06',
         contentService: fake,
       );
-      controller.expandSection('61-objetivo');
-      expect(controller.isSectionExpanded('61-objetivo'), isTrue);
+      expect(controller.fontSize.value, 16);
+      expect(kReaderFontSizes, [14, 16, 18, 20]);
+      expect(kReaderFontSizes.contains(controller.fontSize.value), isTrue);
+    });
+
+    test('continueLabel prioriza item numerado', () {
+      fake.lastItemNumberResult = '6.5.1';
+      fake.lastHeadingResult = '6.1 Objetivo';
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      expect(controller.continueLabel, 'item 6.5.1');
     });
 
     test('searchInDocument encontra título de seção e bloco', () async {

@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -39,19 +40,19 @@ void main() {
     Get.reset();
   });
 
-  testWidgets('shows HomePage with Favoritos and Todos tabs', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
-    await tester.pumpAndSettle();
-
-    // Verificar se os títulos das abas estão presentes
-    expect(find.text('Favoritos'), findsOneWidget);
-    expect(find.text('Todos'), findsOneWidget);
-
-    // HomeController dispara ContentService.sync() em background no onInit;
-    // em ambiente de teste a request HTTP falha (mock retorna 400), o que
-    // aciona um SnackBar de erro com timer próprio — drenar esse timer antes
-    // do widget tree ser descartado, senão o teste falha com "Timer pending".
+  testWidgets('shows HomePage with Normas, Favoritos and Buscar tabs',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(
+      const TickerMode(
+        enabled: false,
+        child: MyApp(),
+      ),
+    );
+    await tester.pump();
     await tester.pump(const Duration(seconds: 4));
-    await tester.pumpAndSettle();
+
+    expect(find.text('Normas'), findsAtLeast(1));
+    expect(find.text('Favoritos'), findsAtLeast(1));
+    expect(find.text('Buscar'), findsAtLeast(1));
   });
 }

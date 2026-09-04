@@ -1,22 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
-import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
+import 'package:nrfacil/features/home/views/widgets/continuar_leitura_section.dart';
 import 'package:nrfacil/features/home/views/widgets/empty_favoritos_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
 
-/// Aba "Favoritos" — exibir NRs favoritadas com reordenação.
-///
-/// Estrutura:
-/// - Se vazio: EmptyFavoritosState
-/// - Se não vazio:
-///   - ContinuarLeituraCard (topo, se houver última NR aberta)
-///   - ReorderableListView com favoritos
-class FavoritosTab extends StatelessWidget {
+/// Aba "Favoritos" — NRs favoritadas com reordenação.
+class FavoritosTab extends StatefulWidget {
   const FavoritosTab({super.key});
+
+  @override
+  State<FavoritosTab> createState() => _FavoritosTabState();
+}
+
+class _FavoritosTabState extends State<FavoritosTab> {
+  static var _revokedSnackShown = false;
 
   @override
   Widget build(BuildContext context) {
@@ -24,69 +27,51 @@ class FavoritosTab extends StatelessWidget {
 
     return Obx(
       () {
-        // Mostrar estado vazio se sem favoritos
         if (contentService.favoriteIds.isEmpty) {
           return EmptyFavoritosState(manifest: contentService.manifest.value);
         }
 
-        // Listar favoritos com reordenação
-        return SingleChildScrollView(
-          child: Column(
-            children: [
-              // Card "Continuar leitura"
-              _buildContinuarLeituraSection(context, contentService),
+        _maybeNotifyRevokedFavorites(contentService);
 
-              // ReorderableListView com favoritos
-              _buildFavoritosList(context, contentService),
-              const ListBannerAd(),
-            ],
-          ),
+        return ListView(
+          children: [
+            const ContinuarLeituraSection(),
+            ReorderableListView(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              onReorderItem: (oldIndex, newIndex) {
+                contentService.reorderFavorites(oldIndex, newIndex);
+              },
+              children: [
+                for (final nrId in contentService.favoriteIds)
+                  _buildFavoritoTile(context, nrId, contentService),
+              ],
+            ),
+            const ListBannerAd(),
+          ],
         );
       },
     );
   }
 
-  /// Construir section de "Continuar leitura" se houver última NR aberta.
-  Widget _buildContinuarLeituraSection(
-    BuildContext context,
-    ContentService contentService,
-  ) {
-    final lastOpenedNrId = contentService.lastOpenedNrId;
-    if (lastOpenedNrId == null) return const SizedBox.shrink();
+  void _maybeNotifyRevokedFavorites(ContentService contentService) {
+    if (_revokedSnackShown) return;
 
-    final entry = contentService.manifest.value?.findNr(lastOpenedNrId);
-    if (entry == null || entry.isRevoked) return const SizedBox.shrink();
+    final hasRevoked = contentService.favoriteIds.any((id) {
+      final entry = contentService.manifest.value?.findNr(id);
+      return entry?.isRevoked == true;
+    });
 
-    return ContinuarLeituraCard(
-      nrEntry: entry,
-      onTap: () {
-        Get.to(
-          () => NRReaderPage(nrId: lastOpenedNrId),
-          binding: ReaderBinding(nrId: lastOpenedNrId),
-        );
-      },
-    );
+    if (hasRevoked) {
+      _revokedSnackShown = true;
+      AppSnackbar.showInfo(
+        title: 'Favorito revogado',
+        message:
+            'Uma ou mais normas favoritas foram revogadas. Toque para ver detalhes.',
+      );
+    }
   }
 
-  /// Construir ReorderableListView com favoritos.
-  Widget _buildFavoritosList(
-    BuildContext context,
-    ContentService contentService,
-  ) {
-    return ReorderableListView(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      onReorderItem: (oldIndex, newIndex) {
-        contentService.reorderFavorites(oldIndex, newIndex);
-      },
-      children: [
-        for (final nrId in contentService.favoriteIds)
-          _buildFavoritoTile(context, nrId, contentService),
-      ],
-    );
-  }
-
-  /// Construir um tile de favorito.
   Widget _buildFavoritoTile(
     BuildContext context,
     String nrId,
@@ -94,23 +79,24 @@ class FavoritosTab extends StatelessWidget {
   ) {
     final entry = contentService.manifest.value?.findNr(nrId);
     if (entry == null) {
-      // NR removida do manifest — removê-la de favoritos
       Future.microtask(() => contentService.toggleFavorite(nrId));
-      return const SizedBox.shrink();
-    }
-
-    // Filtrar NRs revogadas de favoritos
-    if (entry.isRevoked) {
-      return const SizedBox.shrink();
+      return SizedBox(key: ValueKey(nrId), width: 0, height: 0);
     }
 
     return NrListTile(
       key: ValueKey(nrId),
       nrEntry: entry,
-      isFavorite: true, // Always true in favoritos tab
+      isFavorite: true,
       hasUpdate: contentService.hasUpdate(nrId),
-      showNotDownloaded: !contentService.isNrFullyCached(nrId),
+      isRevoked: entry.isRevoked,
+      showNotDownloaded:
+          !entry.isRevoked && !contentService.isNrFullyCached(nrId),
+      hideStarButton: entry.isRevoked,
       onTap: () {
+        if (entry.isRevoked) {
+          Get.to(() => RevokedNrPage(entry: entry));
+          return;
+        }
         Get.to(
           () => NRReaderPage(nrId: nrId),
           binding: ReaderBinding(nrId: nrId),

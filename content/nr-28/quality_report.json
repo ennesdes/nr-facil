@@ -2,11 +2,11 @@
   "nr_id": "nr-28",
   "ok": true,
   "warnings": [
-    "fragmented_tables: 209 separadores de tabela"
+    "fragmented_tables: 199 separadores de tabela"
   ],
   "char_ratio": null,
-  "md_chars": 230189,
+  "md_chars": 220170,
   "pdf_chars": null,
-  "pages_fallback_png": 26,
+  "pages_fallback_png": 10,
   "reviewed": false
 }

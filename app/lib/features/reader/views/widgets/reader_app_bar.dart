@@ -1,28 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
+import 'package:nrfacil/features/reader/views/widgets/reader_font_size_control.dart';
 
-/// App bar do leitor: número da NR, índice, favorito, busca e preferências.
+/// App bar do leitor: voltar, título, busca, índice e menu.
 class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String nrId;
   final bool isFavorite;
-  final bool isDarkMode;
+  final double fontSize;
+  final VoidCallback onBack;
   final VoidCallback onOpenIndex;
   final VoidCallback onOpenSearch;
   final VoidCallback onToggleFavorite;
   final VoidCallback onIncreaseFontSize;
   final VoidCallback onDecreaseFontSize;
-  final VoidCallback onToggleDarkMode;
 
   const ReaderAppBar({
     required this.nrId,
     required this.isFavorite,
-    required this.isDarkMode,
+    required this.fontSize,
+    required this.onBack,
     required this.onOpenIndex,
     required this.onOpenSearch,
     required this.onToggleFavorite,
     required this.onIncreaseFontSize,
     required this.onDecreaseFontSize,
-    required this.onToggleDarkMode,
     super.key,
   });
 
@@ -32,60 +33,50 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      automaticallyImplyLeading: false,
+      leading: Tooltip(
+        message: 'Voltar para normas',
+        child: BackButton(onPressed: onBack),
+      ),
       title: Text(nr_id.formatNrLabel(nrId)),
       centerTitle: false,
       elevation: 1,
       actions: [
         IconButton(
-          icon: const Icon(Icons.list_alt),
-          tooltip: 'Índice',
-          onPressed: onOpenIndex,
-        ),
-        IconButton(
-          icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-          tooltip: isFavorite ? 'Remover dos favoritos' : 'Favoritar',
-          onPressed: onToggleFavorite,
-        ),
-        IconButton(
           icon: const Icon(Icons.search),
           tooltip: 'Buscar nesta NR',
           onPressed: onOpenSearch,
         ),
+        IconButton(
+          icon: const Icon(Icons.list_alt),
+          tooltip: 'Índice',
+          onPressed: onOpenIndex,
+        ),
         PopupMenuButton<String>(
-          tooltip: 'Preferências de leitura',
+          tooltip: 'Mais opções',
           onSelected: (value) {
-            switch (value) {
-              case 'font_up':
-                onIncreaseFontSize();
-              case 'font_down':
-                onDecreaseFontSize();
-              case 'dark':
-                onToggleDarkMode();
-            }
+            if (value == 'favorite') onToggleFavorite();
           },
           itemBuilder: (context) => [
-            const PopupMenuItem(
-              value: 'font_up',
-              child: ListTile(
-                leading: Icon(Icons.text_increase),
-                title: Text('Aumentar fonte'),
-                contentPadding: EdgeInsets.zero,
-              ),
-            ),
-            const PopupMenuItem(
-              value: 'font_down',
-              child: ListTile(
-                leading: Icon(Icons.text_decrease),
-                title: Text('Diminuir fonte'),
-                contentPadding: EdgeInsets.zero,
-              ),
-            ),
             PopupMenuItem(
-              value: 'dark',
+              value: 'favorite',
               child: ListTile(
-                leading: Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode),
-                title: Text(isDarkMode ? 'Modo claro' : 'Modo escuro'),
+                leading: Icon(
+                  isFavorite ? Icons.star : Icons.star_border,
+                ),
+                title: Text(
+                  isFavorite ? 'Remover dos favoritos' : 'Favoritar',
+                ),
                 contentPadding: EdgeInsets.zero,
+              ),
+            ),
+            const PopupMenuDivider(),
+            PopupMenuItem(
+              enabled: false,
+              child: ReaderFontSizeControl(
+                fontSize: fontSize,
+                onDecrease: onDecreaseFontSize,
+                onIncrease: onIncreaseFontSize,
               ),
             ),
           ],

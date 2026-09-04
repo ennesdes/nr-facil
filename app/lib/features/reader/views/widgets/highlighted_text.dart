@@ -66,6 +66,7 @@ class HighlightedText extends StatelessWidget {
           text: matched,
           style: baseStyle.copyWith(
             backgroundColor: context.searchHighlightColor,
+            color: context.onSearchHighlightColor,
             fontWeight: FontWeight.w600,
           ),
         ),

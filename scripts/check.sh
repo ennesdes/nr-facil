@@ -29,6 +29,11 @@ if [ -f "scripts/validate_quality.py" ]; then
   python3 scripts/validate_quality.py --all || ERRORS=1
 fi
 
+if [ -f "scripts/audit_contrast.py" ]; then
+  echo "==> audit contrast..."
+  python3 scripts/audit_contrast.py || ERRORS=1
+fi
+
 if [ "$ERRORS" -ne 0 ]; then
   echo "✗ check.sh falhou"
   exit 1

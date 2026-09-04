@@ -32,6 +32,8 @@ class SearchableMarkdownBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final processed = injectMarkdownHighlights(data, highlightQuery);
     final highlightColor = context.searchHighlightColor;
+    final onHighlightColor = context.onSearchHighlightColor;
+    final fallbackStyle = styleSheet.p ?? DefaultTextStyle.of(context).style;
 
     return MarkdownBody(
       data: processed,
@@ -40,7 +42,11 @@ class SearchableMarkdownBody extends StatelessWidget {
       styleSheet: styleSheet,
       inlineSyntaxes: [_highlightSyntax],
       builders: {
-        'searchhl': SearchHighlightBuilder(highlightColor: highlightColor),
+        'searchhl': SearchHighlightBuilder(
+          highlightColor: highlightColor,
+          onHighlightColor: onHighlightColor,
+          fallbackStyle: fallbackStyle,
+        ),
       },
       onTapLink: onTapLink,
       sizedImageBuilder: sizedImageBuilder ??
@@ -67,18 +73,25 @@ class SearchHighlightSyntax extends md.InlineSyntax {
 }
 
 class SearchHighlightBuilder extends MarkdownElementBuilder {
-  SearchHighlightBuilder({required this.highlightColor});
+  SearchHighlightBuilder({
+    required this.highlightColor,
+    required this.onHighlightColor,
+    required this.fallbackStyle,
+  });
 
   final Color highlightColor;
+  final Color onHighlightColor;
+  final TextStyle fallbackStyle;
 
   @override
   Widget visitElementAfter(md.Element element, TextStyle? preferredStyle) {
-    final baseStyle = preferredStyle ?? const TextStyle();
+    final baseStyle = preferredStyle ?? fallbackStyle;
     return Text.rich(
       TextSpan(
         text: element.textContent,
         style: baseStyle.copyWith(
           backgroundColor: highlightColor,
+          color: onHighlightColor,
           fontWeight: FontWeight.w600,
         ),
       ),

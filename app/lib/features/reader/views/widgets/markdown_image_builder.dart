@@ -3,6 +3,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/utils/nr_id_utils.dart';
+import 'package:nrfacil/core/utils/user_messages.dart';
+import 'package:nrfacil/features/reader/views/widgets/nr_image_viewer.dart';
+import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:get/get.dart';
 
 /// Builder customizado para renderizar imagens no Markdown.
@@ -44,7 +48,7 @@ class NrMarkdownImageBuilder extends StatelessWidget {
   }
 
   Widget _buildRemoteImage(BuildContext context, String url) {
-    return _zoomable(
+    return _tappable(
       context,
       Container(
         constraints: const BoxConstraints(maxHeight: 400),
@@ -57,18 +61,12 @@ class NrMarkdownImageBuilder extends StatelessWidget {
           },
           loadingBuilder: (context, child, loadingProgress) {
             if (loadingProgress == null) return child;
-            return Center(
-              child: CircularProgressIndicator(
-                value: loadingProgress.expectedTotalBytes != null
-                    ? loadingProgress.cumulativeBytesLoaded /
-                        loadingProgress.expectedTotalBytes!
-                    : null,
-              ),
-            );
+            return const ImageShimmerPlaceholder(height: 200);
           },
         ),
       ),
-      Image.network(url, fit: BoxFit.contain),
+      imageProvider: NetworkImage(url),
+      remoteUrl: url,
     );
   }
 
@@ -85,23 +83,20 @@ class NrMarkdownImageBuilder extends StatelessWidget {
 
         if (!file.existsSync()) {
           AppLogger.warning('Imagem local não encontrada: $relativePath');
-          return _buildPlaceholder(
-            context,
-            'Imagem não encontrada:\n$relativePath',
-          );
+          return _buildPlaceholder(context, UserMessages.imageUnavailable);
         }
 
         final preview = Image.file(file, fit: BoxFit.fitWidth);
-        final fullscreen = Image.file(file, fit: BoxFit.contain);
 
-        return _zoomable(
+        return _tappable(
           context,
           Container(
             constraints: const BoxConstraints(maxHeight: 400),
             margin: const EdgeInsets.symmetric(vertical: 8.0),
             child: preview,
           ),
-          fullscreen,
+          imageProvider: FileImage(file),
+          localFilePath: localPath,
         );
       } catch (e) {
         AppLogger.error('Erro ao carregar imagem local: $relativePath', e);
@@ -111,46 +106,48 @@ class NrMarkdownImageBuilder extends StatelessWidget {
   }
 
   String _resolveLocalPath(ContentService contentService, String relativePath) {
-    final normalized = relativePath.replaceFirst(RegExp(r'^\.\./'), '');
-    return contentService.getAssetPath(nrId, normalized);
+    return contentService.getAssetPath(nrId, relativePath);
   }
 
-  Widget _zoomable(BuildContext context, Widget preview, Widget fullscreenImage) {
+  Widget _tappable(
+    BuildContext context,
+    Widget preview, {
+    required ImageProvider imageProvider,
+    String? localFilePath,
+    String? remoteUrl,
+  }) {
     return GestureDetector(
       onTap: () {
-        showDialog<void>(
+        AppLogger.debug(
+          'MarkdownImage tap nrId=$nrId '
+          'local=${localFilePath != null} remote=${remoteUrl != null} '
+          'exists=${localFilePath != null && File(localFilePath).existsSync()}',
+        );
+        NrImageViewer.open(
           context: context,
-          builder: (ctx) => Dialog(
-            insetPadding: const EdgeInsets.all(16),
-            child: Stack(
-              children: [
-                InteractiveViewer(
-                  minScale: 0.5,
-                  maxScale: 4,
-                  child: fullscreenImage,
-                ),
-                Positioned(
-                  top: 8,
-                  right: 8,
-                  child: IconButton(
-                    icon: const Icon(Icons.close),
-                    onPressed: () => Navigator.of(ctx).pop(),
-                  ),
-                ),
-              ],
-            ),
-          ),
+          imageProvider: imageProvider,
+          localFilePath: localFilePath,
+          remoteUrl: remoteUrl,
+          fileName: _suggestFileName(),
+          caption: alt ?? title,
         );
       },
       child: preview,
     );
   }
 
+  String _suggestFileName() {
+    final label = formatNrLabel(nrId);
+    final description = (alt ?? title)?.trim();
+    if (description != null && description.isNotEmpty) {
+      final sanitized = description.replaceAll(RegExp(r'[\\/:*?"<>|]'), '_');
+      return '$label-$sanitized.png';
+    }
+    return '$label-imagem.png';
+  }
+
   Widget _buildErrorImage(BuildContext context) {
-    return _buildPlaceholder(
-      context,
-      'Erro ao carregar imagem',
-    );
+    return _buildPlaceholder(context, UserMessages.imageLoadFailed);
   }
 
   Widget _buildPlaceholder(BuildContext context, String message) {
@@ -174,7 +171,7 @@ class NrMarkdownImageBuilder extends StatelessWidget {
             Icon(
               Icons.image_not_supported,
               size: 48,
-              color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
+              color: colorScheme.onSurfaceVariant,
             ),
             const SizedBox(height: 8),
             Text(

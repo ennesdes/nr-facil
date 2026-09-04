@@ -3,18 +3,21 @@ import 'package:google_fonts/google_fonts.dart';
 
 /// Tipografia Inter conforme [docs/design-system.md].
 abstract final class AppTypography {
-  static TextTheme textTheme([TextTheme? base]) {
-    final scaled = _scaledTextTheme(base);
+  static TextTheme textTheme(ColorScheme colorScheme) {
+    final source = ThemeData(brightness: colorScheme.brightness).textTheme;
+    final scaled = _scaledTextTheme(source);
 
-    if (GoogleFonts.config.allowRuntimeFetching) {
-      return GoogleFonts.interTextTheme(scaled);
-    }
+    final themed = GoogleFonts.config.allowRuntimeFetching
+        ? GoogleFonts.interTextTheme(scaled)
+        : scaled;
 
-    return scaled;
+    return themed.apply(
+      bodyColor: colorScheme.onSurface,
+      displayColor: colorScheme.onSurface,
+    );
   }
 
-  static TextTheme _scaledTextTheme([TextTheme? base]) {
-    final source = base ?? ThemeData.light().textTheme;
+  static TextTheme _scaledTextTheme(TextTheme source) {
     return source.copyWith(
       displaySmall: _style(source.displaySmall, 28, FontWeight.w600, 1.2),
       titleLarge: _style(source.titleLarge, 20, FontWeight.w600, 1.3),
@@ -38,6 +41,7 @@ abstract final class AppTypography {
       fontSize: size,
       fontWeight: weight,
       height: height,
+      color: null,
     );
   }
 }

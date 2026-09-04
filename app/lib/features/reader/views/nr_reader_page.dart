@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
+import 'package:nrfacil/core/theme/app_system_ui.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
+import 'package:nrfacil/core/widgets/app_safe_area.dart';
+import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_markdown_fallback_body.dart';
-import 'package:nrfacil/features/reader/views/widgets/nr_reader_search_sheet.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_structured_body.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_drawer.dart';
+import 'package:nrfacil/features/reader/views/widgets/reader_search_bar.dart';
 import 'package:nrfacil/features/reader/views/widgets/update_banner.dart';
 
 /// NRReaderPage — leitor estruturado de NRs com fallback Markdown.
@@ -21,47 +25,62 @@ class NRReaderPage extends GetView<NRReaderController> {
   @override
   Widget build(BuildContext context) {
     return Obx(() {
-      // Rebuild ao alternar tema global ou estado do controller.
       Get.find<ThemeController>().themeMode.value;
       return _buildScaffold(context);
     });
   }
 
   Widget _buildScaffold(BuildContext context) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final readerSurface = context.readerSurfaceColor;
 
-    return Scaffold(
-      key: controller.scaffoldKey,
-      backgroundColor: Theme.of(context).colorScheme.surface,
+    return AppSystemUiScope(
+      surface: readerSurface,
+      child: Scaffold(
+        key: controller.scaffoldKey,
+        backgroundColor: readerSurface,
       appBar: ReaderAppBar(
         nrId: nrId,
         isFavorite: controller.isFavorite,
-        isDarkMode: isDark,
+        fontSize: controller.fontSize.value,
+        onBack: () => Get.back(),
         onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
-        onOpenSearch: () => NrReaderSearchSheet.show(
-          context: context,
-          controller: controller,
-        ),
+        onOpenSearch: controller.openSearch,
         onToggleFavorite: controller.toggleFavorite,
         onIncreaseFontSize: controller.increaseFontSize,
         onDecreaseFontSize: controller.decreaseFontSize,
-        onToggleDarkMode: controller.toggleDarkMode,
       ),
-      drawer: ReaderDrawer(
-        structure: controller.structure.value,
-        legacyIndex: controller.index.value,
-        onNavigate: controller.navigateToSection,
-        onNavigateToItem: controller.navigateToItemNumber,
-        onExpandAll: controller.expandAllSections,
-        onCollapseAll: controller.collapseAllSections,
+      drawer: Obx(
+        () => ReaderDrawer(
+          structure: controller.structure.value,
+          legacyIndex: controller.index.value,
+          currentSectionId: controller.currentSectionId.value,
+          currentItemNumber: controller.currentItemNumber.value,
+          currentPositionLabel: controller.currentPositionLabel,
+          progressPercent: controller.readingProgressPercent.value,
+          onNavigate: controller.navigateToSection,
+          onNavigateToItem: controller.navigateToItemNumber,
+        ),
       ),
-      body: _buildBody(context),
+      body: AppScaffoldBody(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Obx(
+              () => controller.isSearchOpen.value
+                  ? ReaderSearchBar(controller: controller)
+                  : const SizedBox.shrink(),
+            ),
+            Expanded(child: _buildBody(context)),
+          ],
+        ),
+      ),
+      ),
     );
   }
 
   Widget _buildBody(BuildContext context) {
     if (controller.isLoading.value || controller.isDownloading.value) {
-      return const Center(child: CircularProgressIndicator());
+      return const ReaderBodyShimmer();
     }
 
     if (controller.error.value != null) {

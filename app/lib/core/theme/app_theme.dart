@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app_colors.dart';
 import 'app_semantic_colors.dart';
 import 'app_spacing.dart';
+import 'app_system_ui.dart';
 import 'app_typography.dart';
 
 /// Temas light e dark do NR Fácil.
@@ -19,13 +20,18 @@ abstract final class AppTheme {
           surface: AppColors.surface,
           onSurface: AppColors.onSurface,
           onSurfaceVariant: AppColors.onSurfaceVariant,
-          surfaceContainerHighest: AppColors.surfaceContainer,
+          surfaceContainerLowest: AppColors.surface,
+          surfaceContainerLow: AppColors.surfaceContainer,
+          surfaceContainer: AppColors.surfaceContainer,
           surfaceContainerHigh: AppColors.surfaceContainerHigh,
+          surfaceContainerHighest: AppColors.surfaceBright,
           outline: AppColors.outline,
           error: AppColors.error,
           onError: AppColors.onError,
         ),
         semanticColors: AppSemanticColors.light,
+        appBarBackground: AppColors.surface,
+        cardColor: AppColors.surfaceBright,
       );
 
   static ThemeData get dark => _build(
@@ -40,30 +46,43 @@ abstract final class AppTheme {
           surface: AppColors.surfaceDark,
           onSurface: AppColors.onSurfaceDark,
           onSurfaceVariant: AppColors.onSurfaceVariantDark,
+          surfaceContainerLowest: AppColors.surfaceDark,
+          surfaceContainerLow: AppColors.surfaceContainerDark,
           surfaceContainer: AppColors.surfaceContainerDark,
           surfaceContainerHigh: AppColors.surfaceContainerHighDark,
+          surfaceContainerHighest: AppColors.surfaceContainerHighDark,
           outline: AppColors.outlineDark,
           error: AppColors.errorDark,
           onError: AppColors.onPrimary,
         ),
         semanticColors: AppSemanticColors.dark,
+        appBarBackground: AppColors.surfaceContainerDark,
+        cardColor: AppColors.surfaceContainerDark,
       );
 
   static ThemeData _build({
     required Brightness brightness,
     required ColorScheme colorScheme,
     required AppSemanticColors semanticColors,
+    required Color appBarBackground,
+    required Color cardColor,
   }) {
     final base = ThemeData(
       useMaterial3: true,
       brightness: brightness,
       colorScheme: colorScheme,
-      textTheme: AppTypography.textTheme(),
+      scaffoldBackgroundColor: colorScheme.surface,
+      dividerColor: colorScheme.outline,
+      textTheme: AppTypography.textTheme(colorScheme),
       appBarTheme: AppBarTheme(
         elevation: 1,
         centerTitle: false,
-        backgroundColor: colorScheme.surface,
+        backgroundColor: appBarBackground,
         foregroundColor: colorScheme.onSurface,
+        systemOverlayStyle: AppSystemUi.overlayFor(
+          brightness: brightness,
+          surface: colorScheme.surface,
+        ),
       ),
       inputDecorationTheme: InputDecorationTheme(
         border: OutlineInputBorder(
@@ -85,11 +104,14 @@ abstract final class AppTheme {
         ),
       ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: colorScheme.surface,
         selectedItemColor: colorScheme.primary,
         unselectedItemColor: colorScheme.onSurfaceVariant,
         type: BottomNavigationBarType.fixed,
+        elevation: 0,
       ),
       cardTheme: CardThemeData(
+        color: cardColor,
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppRadius.md),

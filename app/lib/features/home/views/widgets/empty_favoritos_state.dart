@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
+import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
 
@@ -20,26 +21,34 @@ class EmptyFavoritosState extends StatelessWidget {
     return EmptyState(
       icon: Icons.star_outline,
       title: 'Sem favoritos ainda',
-      body: 'Adicione NRs aos favoritos para acessá-las rapidamente',
-      actions: manifest == null
-          ? null
-          : [
-              Text(
-                'Sugestões populares:',
-                style: Theme.of(context).textTheme.labelMedium,
-              ),
-              const SizedBox(height: AppSpacing.sm),
-              Wrap(
-                spacing: AppSpacing.sm,
-                runSpacing: AppSpacing.sm,
-                alignment: WrapAlignment.center,
-                children: [
-                  _buildSuggestionChip(context, 'NR-06', manifest!),
-                  _buildSuggestionChip(context, 'NR-10', manifest!),
-                  _buildSuggestionChip(context, 'NR-18', manifest!),
-                ].whereType<Widget>().toList(),
-              ),
-            ],
+      body: 'Adicione normas aos favoritos para acessá-las rapidamente',
+      actions: [
+        FilledButton.icon(
+          onPressed: () {
+            Get.find<HomeController>().selectTab(HomeController.tabNormas);
+          },
+          icon: const Icon(Icons.library_books_outlined),
+          label: const Text('Explorar normas'),
+        ),
+        if (manifest != null) ...[
+          const SizedBox(height: AppSpacing.lg),
+          Text(
+            'Sugestões populares:',
+            style: Theme.of(context).textTheme.labelMedium,
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          Wrap(
+            spacing: AppSpacing.sm,
+            runSpacing: AppSpacing.sm,
+            alignment: WrapAlignment.center,
+            children: [
+              _buildSuggestionChip(context, 'NR-06', manifest!),
+              _buildSuggestionChip(context, 'NR-10', manifest!),
+              _buildSuggestionChip(context, 'NR-18', manifest!),
+            ].whereType<Widget>().toList(),
+          ),
+        ],
+      ],
     );
   }
 

@@ -1,6 +1,52 @@
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
+/// Restaura a posição de scroll proporcionalmente quando o conteúdo mudou de tamanho.
+double resolveScrollOffset({
+  required double savedPosition,
+  required double savedMaxExtent,
+  required double currentMaxExtent,
+}) {
+  if (currentMaxExtent <= 0) return savedPosition;
+  if (savedMaxExtent <= 0) {
+    return savedPosition.clamp(0.0, currentMaxExtent);
+  }
+  final ratio = (savedPosition / savedMaxExtent).clamp(0.0, 1.0);
+  return ratio * currentMaxExtent;
+}
+
+/// Rola até um widget identificado por [key] usando o [scrollController] informado.
+bool scrollToWidgetKey({
+  required GlobalKey key,
+  required ScrollController scrollController,
+  double alignment = 0.08,
+  Duration duration = const Duration(milliseconds: 350),
+  Curve curve = Curves.easeInOut,
+}) {
+  final context = key.currentContext;
+  if (context == null || !scrollController.hasClients) return false;
+
+  final renderObject = context.findRenderObject();
+  if (renderObject == null ||
+      renderObject is! RenderBox ||
+      !renderObject.hasSize) {
+    return false;
+  }
+
+  final viewport = RenderAbstractViewport.maybeOf(renderObject);
+  if (viewport == null) return false;
+
+  final reveal = viewport.getOffsetToReveal(renderObject, alignment);
+  final position = scrollController.position;
+  final target =
+      reveal.offset.clamp(position.minScrollExtent, position.maxScrollExtent);
+
+  if ((position.pixels - target).abs() < 2) return true;
+
+  position.animateTo(target, duration: duration, curve: curve);
+  return true;
+}
+
 /// Retângulo aproximado da linha que contém [matchStart] dentro de um bloco.
 Rect matchRectInBlock({
   required double maxWidth,

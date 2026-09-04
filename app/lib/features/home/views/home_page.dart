@@ -1,83 +1,89 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
-import 'package:nrfacil/features/home/views/widgets/todos_tab.dart';
-import 'package:nrfacil/features/search/views/search_page.dart';
+import 'package:nrfacil/features/home/views/widgets/normas_tab.dart';
+import 'package:nrfacil/features/search/views/search_tab.dart';
 import 'package:nrfacil/features/settings/views/settings_page.dart';
 import 'package:nrfacil/features/updates/bindings/updates_binding.dart';
 import 'package:nrfacil/features/updates/views/updates_page.dart';
 
-/// HomePage — tela principal com bottom nav (Favoritos/Todos).
-///
-/// Estrutura:
-/// - Bottom nav com 2 abas: Favoritos (0) e Todos (1)
-/// - IndexedStack para alternar entre abas
-/// - Lógica de seleção de aba padrão em HomeController
+/// HomePage — shell principal com bottom nav (Normas / Favoritos / Buscar).
 class HomePage extends GetView<HomeController> {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Obx(
-      () => Scaffold(
-        appBar: AppBar(
-          title: const Text('NR Fácil'),
-          centerTitle: false,
-          elevation: 1,
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.search),
-              tooltip: 'Buscar',
-              onPressed: () {
-                Get.to(() => const SearchPage());
-              },
+      () {
+        final tab = controller.selectedTab.value;
+
+        return Scaffold(
+          appBar: AppBar(
+            title: Text(controller.tabTitle),
+            centerTitle: false,
+            elevation: 1,
+            actions: [
+              _buildNotificationsBell(context),
+              IconButton(
+                icon: const Icon(Icons.settings_outlined),
+                tooltip: 'Ajustes',
+                onPressed: () => Get.to(() => const SettingsPage()),
+              ),
+            ],
+          ),
+          body: IndexedStack(
+            index: tab,
+            children: [
+              const SizedBox.expand(child: NormasTab()),
+              const SizedBox.expand(child: FavoritosTab()),
+              SizedBox.expand(
+                child: SearchTab(
+                  isActive: tab == HomeController.tabBuscar,
+                ),
+              ),
+            ],
+          ),
+          bottomNavigationBar: AppBottomNavBar(
+            child: BottomNavigationBar(
+              currentIndex: tab,
+              onTap: controller.selectTab,
+              items: [
+              BottomNavigationBarItem(
+                icon: Icon(
+                  tab == HomeController.tabNormas
+                      ? Icons.library_books
+                      : Icons.library_books_outlined,
+                ),
+                label: 'Normas',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  tab == HomeController.tabFavoritos
+                      ? Icons.star
+                      : Icons.star_border,
+                ),
+                label: 'Favoritos',
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                  tab == HomeController.tabBuscar
+                      ? Icons.search
+                      : Icons.search_outlined,
+                ),
+                label: 'Buscar',
+              ),
+              ],
             ),
-            _buildNotificationsBell(context),
-            IconButton(
-              icon: const Icon(Icons.settings_outlined),
-              tooltip: 'Ajustes',
-              onPressed: () => Get.to(() => const SettingsPage()),
-            ),
-          ],
-          bottom: controller.contentService.isSyncing.value
-              ? const PreferredSize(
-                  preferredSize: Size.fromHeight(2),
-                  child: LinearProgressIndicator(minHeight: 2),
-                )
-              : null,
-        ),
-        body: IndexedStack(
-          index: controller.selectedTab.value,
-          children: const [
-            FavoritosTab(),
-            TodosTab(),
-          ],
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          currentIndex: controller.selectedTab.value,
-          onTap: controller.selectTab,
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.star),
-              label: 'Favoritos',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.list),
-              label: 'Todos',
-            ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
   }
 
-  /// Construir ícone de notificações (sino) com badge reativo.
-  ///
-  /// O badge mostra a contagem de atualizações não lidas.
-  /// Ao tocar, abre a tela de Atualizações.
   Widget _buildNotificationsBell(BuildContext context) {
     final contentService = Get.find<ContentService>();
 
@@ -97,7 +103,6 @@ class HomePage extends GetView<HomeController> {
                 );
               },
             ),
-            // Badge com contagem
             if (unreadCount > 0)
               Positioned(
                 right: 4,

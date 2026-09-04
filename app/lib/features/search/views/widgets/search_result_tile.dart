@@ -62,7 +62,7 @@ class SearchResultTile extends StatelessWidget {
         trailing: Icon(
           Icons.arrow_forward_ios,
           size: 16,
-          color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
+          color: colorScheme.onSurfaceVariant,
         ),
       ),
     );
@@ -118,6 +118,7 @@ class SearchResultTile extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               backgroundColor: context.searchHighlightColor,
+              color: context.onSearchHighlightColor,
             ),
           ),
           TextSpan(text: afterMatch),

@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/widgets/app_modal_bottom_sheet.dart';
+import 'package:nrfacil/core/widgets/app_shimmer.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 
 /// Bottom sheet compacto de busca dentro da NR aberta.
@@ -17,20 +19,11 @@ class NrReaderSearchSheet extends StatefulWidget {
     required BuildContext context,
     required NRReaderController controller,
   }) {
-    return showModalBottomSheet<void>(
+    return showAppModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
-      builder: (sheetContext) {
-        final mediaQuery = MediaQuery.of(sheetContext);
-        // viewInsets = teclado; padding.bottom = barra de navegação do sistema
-        final bottomInset =
-            mediaQuery.viewInsets.bottom + mediaQuery.padding.bottom;
-
-        return Padding(
-          padding: EdgeInsets.only(bottom: bottomInset),
-          child: NrReaderSearchSheet(controller: controller),
-        );
-      },
+      respondToKeyboard: true,
+      builder: (_) => NrReaderSearchSheet(controller: controller),
     );
   }
 
@@ -132,11 +125,7 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
     if (isSearching) {
       return const Align(
         alignment: Alignment.centerLeft,
-        child: SizedBox(
-          height: 20,
-          width: 20,
-          child: CircularProgressIndicator(strokeWidth: 2),
-        ),
+        child: AppShimmerIcon(size: 20),
       );
     }
 

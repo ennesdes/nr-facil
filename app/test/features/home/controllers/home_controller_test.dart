@@ -76,80 +76,55 @@ void main() {
       Get.reset();
     });
 
-    test('Inicializa com aba Todos quando não há favoritos', () async {
-      // Setup
+    test('Inicializa com aba Normas quando não há favoritos', () async {
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = false;
 
-      // Execute
       await homeController.onInit();
 
-      // Verify
-      expect(homeController.selectedTab.value, 1); // Todos
+      expect(homeController.selectedTab.value, HomeController.tabNormas);
     });
 
     test('Inicializa com aba Favoritos quando há favoritos', () async {
-      // Setup
       fakeContentService.favoriteIds.assignAll(['nr-06', 'nr-10']);
       fakeContentService._forcedUpdateRequired = false;
 
-      // Execute
       await homeController.onInit();
 
-      // Verify
-      expect(homeController.selectedTab.value, 0); // Favoritos
+      expect(homeController.selectedTab.value, HomeController.tabFavoritos);
     });
 
     test('_checkForcedUpdate com forcedUpdateRequired == true não deve lançar erro',
         () async {
-      // Setup
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = true;
 
-      // Execute: onInit chama _checkForcedUpdate (via unawaited após sync)
-      // Deve completar sem erro mesmo com forcedUpdateRequired == true
       await homeController.onInit();
-
-      // Esperar um pouco para a corrotina completar
       await Future.delayed(const Duration(milliseconds: 100));
 
-      // Verify: não deve lançar erro
-      expect(homeController.selectedTab.value, 1);
+      expect(homeController.selectedTab.value, HomeController.tabNormas);
     });
 
     test('_checkForcedUpdate com forcedUpdateRequired == false não deve lançar erro',
         () async {
-      // Setup
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = false;
 
-      // Execute: onInit chama _checkForcedUpdate (via unawaited após sync)
-      // Deve completar sem erro mesmo com forcedUpdateRequired == false
       await homeController.onInit();
-
-      // Esperar um pouco para a corrotina completar
       await Future.delayed(const Duration(milliseconds: 100));
 
-      // Verify: não deve lançar erro
-      expect(homeController.selectedTab.value, 1);
+      expect(homeController.selectedTab.value, HomeController.tabNormas);
     });
 
     test('selectTab muda a aba selecionada', () {
-      // Setup
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = false;
 
-      // Execute
-      homeController.selectTab(0);
+      homeController.selectTab(HomeController.tabFavoritos);
+      expect(homeController.selectedTab.value, HomeController.tabFavoritos);
 
-      // Verify
-      expect(homeController.selectedTab.value, 0);
-
-      // Execute
-      homeController.selectTab(1);
-
-      // Verify
-      expect(homeController.selectedTab.value, 1);
+      homeController.selectTab(HomeController.tabBuscar);
+      expect(homeController.selectedTab.value, HomeController.tabBuscar);
     });
   });
 }

@@ -129,4 +129,15 @@ class SearchScreenController extends GetxController {
     if (q.isEmpty) return;
     await _performSearch(q);
   }
+
+  /// Abre busca full-text com termo pré-preenchido (ex.: link da aba Normas).
+  Future<void> openWithQuery(String searchQuery) async {
+    final q = searchQuery.trim();
+    if (q.isEmpty) return;
+
+    _debounceTimer?.cancel();
+    queryController.text = q;
+    query.value = q;
+    await _performSearch(q);
+  }
 }

@@ -3,9 +3,10 @@ import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-/// Footer fixo no final de cada NR.
+/// Rodapé do leitor com seção "Documento oficial" e metadados.
 class ReaderFooter extends StatelessWidget {
   final String nrId;
   final ManifestEntry? nrEntry;
@@ -19,58 +20,42 @@ class ReaderFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final textTheme = Theme.of(context).textTheme;
 
-    return Container(
-      color: colorScheme.surfaceContainerHigh,
-      padding: const EdgeInsets.all(AppSpacing.md),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: kReaderHorizontalPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          if (nrEntry?.pdfUrl != null) ...[
-            _buildPdfLink(context),
-            const SizedBox(height: AppSpacing.sm + AppSpacing.xs),
-          ],
-          _buildLegalDisclaimer(context),
+          Divider(color: colorScheme.outline),
+          const SizedBox(height: AppSpacing.lg),
+          Text(
+            'Documento oficial',
+            style: textTheme.titleSmall?.copyWith(
+              fontWeight: FontWeight.w600,
+            ),
+          ),
           const SizedBox(height: AppSpacing.sm),
+          Text(
+            'Esta aplicação organiza e facilita a consulta da norma, '
+            'mas não substitui a publicação oficial no portal gov.br.',
+            style: textTheme.bodySmall?.copyWith(
+              color: colorScheme.onSurfaceVariant,
+              fontStyle: FontStyle.italic,
+              height: 1.4,
+            ),
+          ),
+          const SizedBox(height: AppSpacing.md),
+          if (nrEntry?.pdfUrl != null)
+            OutlinedButton.icon(
+              onPressed: () => _launchPdfUrl(nrEntry?.pdfUrl),
+              icon: const Icon(Icons.picture_as_pdf, size: 18),
+              label: const Text('Ver PDF original no MTE'),
+            ),
+          const SizedBox(height: AppSpacing.md),
           if (nrEntry != null) _buildNrMetadata(context),
         ],
       ),
-    );
-  }
-
-  Widget _buildPdfLink(BuildContext context) {
-    final semantics = context.semanticColors;
-
-    return InkWell(
-      onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
-      child: Row(
-        children: [
-          Icon(Icons.picture_as_pdf, color: semantics.info, size: 20),
-          const SizedBox(width: AppSpacing.sm),
-          Expanded(
-            child: Text(
-              'Ver PDF original no MTE',
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: semantics.info,
-                    decoration: TextDecoration.underline,
-                  ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildLegalDisclaimer(BuildContext context) {
-    return Text(
-      'Este aplicativo disponibiliza conteúdo público oficial das Normas '
-      'Regulamentadoras do Ministério do Trabalho e Emprego. O conteúdo não '
-      'substitui a consulta às publicações oficiais no portal gov.br.',
-      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-            color: Theme.of(context).colorScheme.onSurfaceVariant,
-            fontStyle: FontStyle.italic,
-            height: 1.4,
-          ),
     );
   }
 
@@ -89,7 +74,10 @@ class ReaderFooter extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Divider(color: textColor.withValues(alpha: 0.5)),
+        Text(
+          'Fonte: Ministério do Trabalho e Emprego',
+          style: metadataStyle,
+        ),
         const SizedBox(height: AppSpacing.xs),
         if (entry.portaria != null && entry.portaria!.trim().isNotEmpty)
           Text('Portaria: ${entry.portaria}', style: metadataStyle)
@@ -99,9 +87,9 @@ class ReaderFooter extends StatelessWidget {
             style: metadataItalicStyle,
           ),
         if (entry.publicadoEm != null)
-          Text('Publicado em: ${entry.publicadoEm}', style: metadataStyle),
+          Text('Publicação: ${entry.publicadoEm}', style: metadataStyle),
         if (entry.vigenteSde != null)
-          Text('Vigente desde: ${entry.vigenteSde}', style: metadataStyle)
+          Text('Vigência: ${entry.vigenteSde}', style: metadataStyle)
         else if (entry.portaria == null || entry.publicadoEm == null)
           Text(
             'Datas de vigência: conferir no PDF oficial',

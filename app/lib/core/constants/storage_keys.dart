@@ -9,6 +9,10 @@ class StorageKeys {
   static const String lastSyncedAt = '${_prefix}last_synced_at';
   static const String manifestHash = '${_prefix}manifest_hash';
 
+  /// Primeira sincronização já gravou `last_seen_hash` como baseline local.
+  static const String updatesBaselineEstablished =
+      '${_prefix}updates_baseline_established';
+
   // Por NR: hash sincronizado vs. hash visto
   static String nrLastSyncedHash(String nrId) => '${_prefix}nr_${nrId}_synced_hash';
   static String nrCoreSyncedHash(String nrId) => '${_prefix}nr_${nrId}_core_synced_hash';

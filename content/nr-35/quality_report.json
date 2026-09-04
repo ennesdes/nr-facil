@@ -1,11 +1,9 @@
 {
   "nr_id": "nr-35",
   "ok": true,
-  "warnings": [
-    "broken_hyphenation: hifenização residual detectada"
-  ],
+  "warnings": [],
   "char_ratio": null,
-  "md_chars": 51380,
+  "md_chars": 51223,
   "pdf_chars": null,
   "pages_fallback_png": 0,
   "reviewed": false

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/app_safe_area.dart';
+import 'package:nrfacil/core/widgets/app_shimmer.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/updates/controllers/updates_controller.dart';
@@ -27,11 +29,7 @@ class UpdatesPage extends GetView<UpdatesController> {
           Obx(
             () => IconButton(
               icon: controller.isDownloadingAll.value
-                  ? const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
+                  ? const AppShimmerIcon(size: 20)
                   : const Icon(Icons.download_for_offline_outlined),
               tooltip: 'Baixar tudo para offline',
               onPressed: controller.isDownloadingAll.value
@@ -42,11 +40,7 @@ class UpdatesPage extends GetView<UpdatesController> {
           Obx(
             () => IconButton(
               icon: controller.isChecking.value
-                  ? const SizedBox(
-                      width: 20,
-                      height: 20,
-                      child: CircularProgressIndicator(strokeWidth: 2),
-                    )
+                  ? const AppShimmerIcon(size: 20)
                   : const Icon(Icons.refresh),
               tooltip: 'Verificar atualizações',
               onPressed: controller.isChecking.value
@@ -56,8 +50,9 @@ class UpdatesPage extends GetView<UpdatesController> {
           ),
         ],
       ),
-      body: Obx(
-        () {
+      body: AppScaffoldBody(
+        child: Obx(
+          () {
           final updates = controller.updatedNrs.value;
 
           // Estado vazio
@@ -73,11 +68,7 @@ class UpdatesPage extends GetView<UpdatesController> {
                         ? null
                         : controller.checkForUpdates,
                     icon: controller.isChecking.value
-                        ? const SizedBox(
-                            width: 16,
-                            height: 16,
-                            child: CircularProgressIndicator(strokeWidth: 2),
-                          )
+                        ? const AppShimmerIcon(size: 16)
                         : const Icon(Icons.refresh),
                     label: const Text('Verificar atualizações'),
                   ),
@@ -89,11 +80,7 @@ class UpdatesPage extends GetView<UpdatesController> {
                         ? null
                         : controller.downloadAllForOffline,
                     icon: controller.isDownloadingAll.value
-                        ? const SizedBox(
-                            width: 16,
-                            height: 16,
-                            child: CircularProgressIndicator(strokeWidth: 2),
-                          )
+                        ? const AppShimmerIcon(size: 16)
                         : const Icon(Icons.download_for_offline_outlined),
                     label: const Text('Baixar tudo para offline'),
                   ),
@@ -132,6 +119,7 @@ class UpdatesPage extends GetView<UpdatesController> {
             },
           );
         },
+        ),
       ),
     );
   }
@@ -158,7 +146,7 @@ class _UpdateDetailCard extends StatelessWidget {
           color: colorScheme.surfaceContainerHighest,
           borderRadius: BorderRadius.circular(8),
           border: Border.all(
-            color: colorScheme.outline.withValues(alpha: 0.5),
+            color: colorScheme.outline,
           ),
         ),
         child: Padding(

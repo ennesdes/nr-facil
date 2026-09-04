@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 
 import '../../features/home/controllers/home_controller.dart';
+import '../../features/home/controllers/normas_controller.dart';
+import '../../features/search/controllers/search_screen_controller.dart';
 import '../controllers/theme_controller.dart';
 import '../services/content_service.dart';
 import '../services/search_service.dart';
@@ -54,9 +56,20 @@ class AppBinding extends Bindings {
       permanent: true,
     );
 
-    // HomeController — navegação entre abas Favoritos/Todos
+    // SearchScreenController — busca full-text na aba Buscar
+    Get.put<SearchScreenController>(
+      SearchScreenController(searchService: Get.find()),
+      permanent: true,
+    );
+
+    // HomeController — navegação entre abas Normas/Favoritos/Buscar
     Get.put<HomeController>(
       HomeController(contentService: Get.find()),
+      permanent: true,
+    );
+
+    Get.put<NormasController>(
+      NormasController(contentService: Get.find()),
       permanent: true,
     );
   }

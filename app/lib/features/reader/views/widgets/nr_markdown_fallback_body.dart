@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/utils/markdown_utils.dart';
+import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_footer.dart';
 import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -30,39 +31,34 @@ class NrMarkdownFallbackBody extends StatelessWidget {
   });
 
   MarkdownStyleSheet _styleSheet(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
-    final textColor = colorScheme.onSurface;
+    final textTheme = Theme.of(context).textTheme;
+    final textColor = Theme.of(context).colorScheme.onSurface;
+
+    final bodyStyle = textTheme.bodyLarge!.copyWith(
+      fontSize: fontSize,
+      color: textColor,
+      height: 1.6,
+    );
 
     return MarkdownStyleSheet(
-      h1: TextStyle(
+      h1: textTheme.titleLarge?.copyWith(
         fontSize: fontSize + 8,
         fontWeight: FontWeight.bold,
         color: textColor,
       ),
-      h2: TextStyle(
+      h2: textTheme.titleMedium?.copyWith(
         fontSize: fontSize + 6,
         fontWeight: FontWeight.bold,
         color: textColor,
       ),
-      h3: TextStyle(
+      h3: textTheme.titleSmall?.copyWith(
         fontSize: fontSize + 4,
         fontWeight: FontWeight.bold,
         color: textColor,
       ),
-      p: TextStyle(
-        fontSize: fontSize,
-        color: textColor,
-        height: 1.6,
-      ),
-      strong: TextStyle(
-        fontSize: fontSize,
-        fontWeight: FontWeight.bold,
-        color: textColor,
-      ),
-      listBullet: TextStyle(
-        fontSize: fontSize,
-        color: textColor,
-      ),
+      p: bodyStyle,
+      strong: bodyStyle.copyWith(fontWeight: FontWeight.bold),
+      listBullet: bodyStyle,
     );
   }
 
@@ -103,6 +99,7 @@ class NrMarkdownFallbackBody extends StatelessWidget {
               nrId: nrId,
               nrEntry: nrEntry,
             ),
+            const SizedBox(height: kReaderBottomScrollPadding),
           ],
         ),
       );

@@ -4,6 +4,7 @@ import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -26,9 +27,10 @@ class RevokedNrPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(entry.nrLabel),
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(24),
-        child: Column(
+      body: AppScaffoldBody(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(24),
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Icon(
@@ -95,6 +97,7 @@ class RevokedNrPage extends StatelessWidget {
                   ),
             ),
           ],
+        ),
         ),
       ),
     );

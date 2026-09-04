@@ -4,6 +4,7 @@ import 'package:nrfacil/core/constants/app_config.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -18,15 +19,17 @@ class SettingsPage extends GetView<ThemeController> {
         title: const Text('Ajustes'),
         elevation: 1,
       ),
-      body: ListView(
-        padding: const EdgeInsets.symmetric(vertical: AppSpacing.md),
-        children: [
+      body: AppScaffoldBody(
+        child: ListView(
+          padding: const EdgeInsets.symmetric(vertical: AppSpacing.md),
+          children: [
           _ThemeSection(controller: controller),
           const Divider(height: 1, indent: AppSpacing.md, endIndent: AppSpacing.md),
           const _LegalSection(),
           const Divider(height: 1, indent: AppSpacing.md, endIndent: AppSpacing.md),
           const _AboutSection(),
         ],
+        ),
       ),
     );
   }

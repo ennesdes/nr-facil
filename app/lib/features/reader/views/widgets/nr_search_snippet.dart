@@ -61,6 +61,7 @@ class NrSearchSnippet extends StatelessWidget {
             style: baseStyle?.copyWith(
               fontWeight: FontWeight.bold,
               backgroundColor: context.searchHighlightColor,
+              color: context.onSearchHighlightColor,
             ),
           ),
           TextSpan(

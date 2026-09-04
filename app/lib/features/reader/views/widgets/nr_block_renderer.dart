@@ -3,6 +3,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
+import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_item_row.dart';
@@ -27,6 +28,7 @@ class NrBlockRenderer extends StatelessWidget {
   Widget build(BuildContext context) {
     return switch (block) {
       NrItemBlock item => NrItemRow(
+          nrId: nrId,
           number: item.number,
           depth: item.depth,
           text: stripInlineMarkup(item.text),
@@ -41,8 +43,18 @@ class NrBlockRenderer extends StatelessWidget {
     };
   }
 
+  TextStyle _bodyStyle(BuildContext context) {
+    return readerBodyStyle(context, fontSize);
+  }
+
   Widget _buildList(BuildContext context, NrListBlock list) {
-    final colorScheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final bodyStyle = _bodyStyle(context);
+    final labelStyle = theme.textTheme.bodyLarge?.copyWith(
+      fontSize: fontSize,
+      fontWeight: FontWeight.w600,
+      color: theme.colorScheme.onSurface,
+    );
 
     return Padding(
       padding: const EdgeInsets.only(left: 8, top: 4, bottom: 4),
@@ -58,22 +70,14 @@ class NrBlockRenderer extends StatelessWidget {
                   width: 24,
                   child: Text(
                     '${item.label})',
-                    style: TextStyle(
-                      fontSize: fontSize,
-                      fontWeight: FontWeight.w600,
-                      color: colorScheme.onSurface,
-                    ),
+                    style: labelStyle,
                   ),
                 ),
                 Expanded(
                   child: HighlightedText(
                     text: stripInlineMarkup(item.text),
                     highlight: highlightQuery,
-                    style: TextStyle(
-                      fontSize: fontSize,
-                      color: colorScheme.onSurface,
-                      height: 1.6,
-                    ),
+                    style: bodyStyle,
                   ),
                 ),
               ],
@@ -85,8 +89,8 @@ class NrBlockRenderer extends StatelessWidget {
   }
 
   Widget _buildTable(BuildContext context, NrTableBlock table) {
-    final colorScheme = Theme.of(context).colorScheme;
-    final textColor = colorScheme.onSurface;
+    final tableStyle = _bodyStyle(context).copyWith(fontSize: fontSize - 1);
+    final headStyle = tableStyle.copyWith(fontWeight: FontWeight.bold);
 
     return LayoutBuilder(
       builder: (context, constraints) {
@@ -100,13 +104,9 @@ class NrBlockRenderer extends StatelessWidget {
                 data: stripHtmlTags(table.markdown),
                 highlightQuery: highlightQuery,
                 styleSheet: MarkdownStyleSheet(
-                  p: TextStyle(fontSize: fontSize - 1, color: textColor),
-                  tableHead: TextStyle(
-                    fontSize: fontSize - 1,
-                    fontWeight: FontWeight.bold,
-                    color: textColor,
-                  ),
-                  tableBody: TextStyle(fontSize: fontSize - 1, color: textColor),
+                  p: tableStyle,
+                  tableHead: headStyle,
+                  tableBody: tableStyle,
                 ),
               ),
             ),
@@ -117,7 +117,12 @@ class NrBlockRenderer extends StatelessWidget {
   }
 
   Widget _buildImage(BuildContext context, NrImageBlock image) {
-    final colorScheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final captionStyle = theme.textTheme.bodyMedium?.copyWith(
+      fontSize: fontSize - 1,
+      fontStyle: FontStyle.italic,
+      color: theme.colorScheme.onSurfaceVariant,
+    );
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -130,17 +135,13 @@ class NrBlockRenderer extends StatelessWidget {
                 Icon(
                   Icons.table_chart_outlined,
                   size: fontSize,
-                  color: colorScheme.onSurfaceVariant,
+                  color: theme.colorScheme.onSurfaceVariant,
                 ),
                 const SizedBox(width: 6),
                 Expanded(
                   child: Text(
                     '${image.alt} — toque na imagem para ampliar',
-                    style: TextStyle(
-                      fontSize: fontSize - 1,
-                      fontStyle: FontStyle.italic,
-                      color: colorScheme.onSurfaceVariant,
-                    ),
+                    style: captionStyle,
                   ),
                 ),
               ],
@@ -157,17 +158,18 @@ class NrBlockRenderer extends StatelessWidget {
 
   Widget _buildNote(BuildContext context, NrNoteBlock note) {
     final semantics = context.semanticColors;
+    final noteStyle = Theme.of(context).textTheme.bodyMedium?.copyWith(
+      fontSize: fontSize - 1,
+      fontStyle: FontStyle.italic,
+      color: semantics.onWarningContainer,
+    );
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
       child: HighlightedText(
         text: stripInlineMarkup(note.text),
         highlight: highlightQuery,
-        style: TextStyle(
-          fontSize: fontSize - 1,
-          fontStyle: FontStyle.italic,
-          color: semantics.warning,
-        ),
+        style: noteStyle,
       ),
     );
   }
@@ -176,12 +178,7 @@ class NrBlockRenderer extends StatelessWidget {
     final text = paragraph.text;
     if (text.trim().isEmpty) return const SizedBox.shrink();
 
-    final colorScheme = Theme.of(context).colorScheme;
-    final baseStyle = TextStyle(
-      fontSize: fontSize,
-      color: colorScheme.onSurface,
-      height: 1.6,
-    );
+    final baseStyle = _bodyStyle(context);
 
     if (looksLikeMarkdownParagraph(text)) {
       return Padding(

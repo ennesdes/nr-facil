@@ -12,7 +12,7 @@ Referência consolidada. Checklist de execução: [todo.md](../todo.md).
 | Fonte da verdade | **GitHub** (MD, PDF, manifest, histórico git) |
 | Backend | **Nenhum** — feed de atualizações + versão mínima em `app_meta.json` versionado no GitHub — **R$ 0**, sem conta externa |
 | Monetização | AdMob (lançamento); IAP `remove_ads_lifetime` R$ 9,90 (Fase 6, pós-lançamento) |
-| Navegação | Abas **Favoritos** \| **Todos** |
+| Navegação | Abas **Normas** \| **Favoritos** \| **Buscar** |
 
 ## Fluxo de dados
 
@@ -173,20 +173,20 @@ Documentação de marca e design system (não implementados no código ainda —
 | [brand.md](brand.md) | Posicionamento, logo, paleta, tipografia, tom de voz, restrições legais, assets Play Store |
 | [design-system.md](design-system.md) | Tokens (cor, tipografia, espaçamento), specs de componentes, mapeamento Flutter, checklist de migração |
 
-Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica governamental. Tipografia: Inter. Modo escuro global via `ThemeController` (system / light / dark), com atalho no leitor e tela de Ajustes na app bar.
+Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica governamental. Tipografia: Inter. Modo escuro global via `ThemeController` (system / light / dark) na tela de Ajustes.
 
 ## App Flutter
 
 ### Navegação
 
-- **Bottom nav:** Favoritos (padrão se ≥1 favorito) | Todos
-- **App bar:** Busca | Sino (atualizações + badge) | Ajustes
-- **Continuar leitura:** card no topo de Favoritos
+- **Bottom nav:** Normas | Favoritos | Buscar (padrão: Favoritos se ≥1 favorito, senão Normas)
+- **App bar:** título da aba ativa | Sino (atualizações + badge) | Ajustes
+- **Continuar leitura:** card único no topo do shell (abas Normas e Favoritos)
 - **Histórico:** automático, não é aba
 
 ### NRs revogadas no app
 
-- Aparecem na aba **Todos** com badge "Revogada" (visual opaco/cinza), mas **não** entram em Favoritos nem no índice de busca (`search_index.json`) — não são convertidas pelo pipeline.
+- Aparecem na aba **Normas** com badge "Revogada" (visual opaco/cinza), mas **não** entram no índice de busca (`search_index.json`) — não são convertidas pelo pipeline. Em Favoritos, aparecem esmaecidas com aviso.
 - Ao tocar: tela simples (sem leitor interno) mostrando:
   - Botão "Ver PDF oficial (histórico)" → link externo pro PDF arquivado no MTE, sem cache local
   - Se houver NR sucessora mapeada (`substitui_por` no `nr_index.json`, quando o gov.br indicar), botão "Ver NR vigente" levando direto pra NR atual
@@ -221,8 +221,8 @@ Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica govername
 
 ### Busca
 
-- Filtro (aba Todos): título/número da NR
-- Busca (app bar): full-text em `search_index.json` chunks com highlight
+- Aba **Buscar** (bottom nav): full-text em `search_index.json` chunks com highlight; chip "Só favoritos"
+- Menu do leitor: busca in-document na NR aberta ("Buscar nesta NR")
 
 ### Offline
 

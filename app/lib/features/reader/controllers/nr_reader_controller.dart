@@ -12,10 +12,16 @@ import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/services/search_service.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/features/reader/models/nr_search_hit.dart';
 import 'package:nrfacil/features/reader/utils/nr_document_search.dart';
+import 'package:nrfacil/features/reader/utils/reader_document_metrics.dart';
+import 'package:nrfacil/features/reader/utils/reader_scroll_tracker.dart';
 import 'package:nrfacil/features/reader/utils/reader_scroll_utils.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
+
+/// Tamanhos de fonte disponíveis no leitor (px).
+const List<double> kReaderFontSizes = [14, 16, 18, 20];
 
 /// Controller para o NRReaderPage — gerencia estado do leitor de uma NR.
 class NRReaderController extends GetxController {
@@ -30,6 +36,7 @@ class NRReaderController extends GetxController {
     required this.contentService,
     this.searchService,
   });
+
   /// Conteúdo Markdown da NR (fallback)
   final content = Rxn<String>();
 
@@ -44,7 +51,7 @@ class NRReaderController extends GetxController {
 
   final isLoading = true.obs;
   final error = Rxn<String>();
-  final fontSize = 14.0.obs;
+  final fontSize = 16.0.obs;
   final isIndexOpen = false.obs;
   late final Rx<bool> _isFavorite;
   final showUpdateBanner = false.obs;
@@ -53,6 +60,7 @@ class NRReaderController extends GetxController {
   final documentSearchQuery = ''.obs;
   final documentSearchResults = <NrSearchHit>[].obs;
   final isDocumentSearching = false.obs;
+  final isSearchOpen = false.obs;
 
   /// Destaque ativo após selecionar um resultado
   final activeHighlightQuery = Rxn<String>();
@@ -61,8 +69,12 @@ class NRReaderController extends GetxController {
   final currentHitIndex = 0.obs;
   final isPreambleExpanded = false.obs;
 
-  /// Seções expandidas no leitor estruturado
-  final expandedSectionIds = <String>{}.obs;
+  /// Posição de leitura atual (scroll tracker)
+  final currentSectionId = Rxn<String>();
+  final currentItemNumber = Rxn<String>();
+  final readingProgressPercent = Rxn<int>();
+  final showContinueChip = false.obs;
+  final showPositionIndicator = true.obs;
 
   final Map<String, GlobalKey> _sectionKeys = {};
   final Map<String, GlobalKey> _blockKeys = {};
@@ -71,6 +83,9 @@ class NRReaderController extends GetxController {
   final scaffoldKey = GlobalKey<ScaffoldState>();
   bool _initialAnchorHandled = false;
   int _searchGeneration = 0;
+  Timer? _scrollSaveDebounce;
+  Timer? _positionIndicatorTimer;
+  double? _savedScrollPosition;
 
   bool get useStructuredView {
     final s = structure.value;
@@ -80,48 +95,63 @@ class NRReaderController extends GetxController {
   @override
   Future<void> onInit() async {
     super.onInit();
+    _scrollController.addListener(_onScrollChanged);
     _loadReaderPreferences();
     _isFavorite = contentService.isFavorite(nrId).obs;
+    _savedScrollPosition = contentService.getScrollPosition(nrId);
     await _loadNr();
     if (error.value == null) {
       showUpdateBanner.value = contentService.hasUpdate(nrId);
-      GetStorage().write(StorageKeys.lastOpenedNr, nrId);
-      contentService.addToReadingHistory(nrId);
-      _expandInitialSections();
+      contentService.recordNrOpened(nrId);
+      _maybeShowContinueChip();
     }
+  }
+
+  void _maybeShowContinueChip() {
+    final saved = _savedScrollPosition ?? 0;
+    final hasLabel = contentService.getLastItemNumber(nrId) != null ||
+        contentService.getLastHeadingViewed(nrId) != null;
+    showContinueChip.value = saved > 0 && hasLabel;
   }
 
   void _loadReaderPreferences() {
     final storedSize = GetStorage().read<num>(StorageKeys.readerFontSize);
     if (storedSize != null) {
-      fontSize.value = storedSize.toDouble().clamp(12, 20);
+      fontSize.value = _migrateFontSize(storedSize.toDouble());
     }
+  }
+
+  double _migrateFontSize(double stored) {
+    if (stored < 14) return 14;
+    return kReaderFontSizes.reduce(
+      (a, b) => (stored - a).abs() <= (stored - b).abs() ? a : b,
+    );
   }
 
   void _persistReaderPreferences() {
     GetStorage().write(StorageKeys.readerFontSize, fontSize.value);
   }
 
-  void _expandInitialSections() {
-    if (initialAnchor != null && initialAnchor!.isNotEmpty) {
-      return; // _handleInitialAnchor cuida da expansão
-    }
-    final s = structure.value;
-    if (s == null || s.sections.isEmpty) return;
-    expandSection(s.sections.first.id);
-  }
-
   @override
   void onReady() {
     super.onReady();
-    Future.microtask(() {
-      if (error.value == null && _scrollController.hasClients) {
-        final scrollPosition = contentService.getScrollPosition(nrId);
-        if (scrollPosition > 0) {
-          _scrollController.jumpTo(scrollPosition);
-        }
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (error.value != null || !_scrollController.hasClients) return;
+
+      final saved = contentService.getReadingHistoryEntry(nrId);
+      final scrollPosition = _savedScrollPosition ?? 0;
+      if (scrollPosition > 0 && !showContinueChip.value) {
+        final target = saved != null
+            ? resolveScrollOffset(
+                savedPosition: saved.scrollPosition,
+                savedMaxExtent: saved.scrollMaxExtent,
+                currentMaxExtent: _scrollController.position.maxScrollExtent,
+              )
+            : scrollPosition;
+        _scrollController.jumpTo(target);
       }
       _handleInitialAnchor();
+      _updateScrollPosition();
     });
   }
 
@@ -133,12 +163,181 @@ class NRReaderController extends GetxController {
     navigateToSection(initialAnchor!);
   }
 
+  void _onScrollChanged() {
+    _scrollSaveDebounce?.cancel();
+    _scrollSaveDebounce = Timer(
+      const Duration(milliseconds: 500),
+      _persistScrollState,
+    );
+    _updateScrollPosition();
+    _showPositionIndicatorBriefly();
+  }
+
+  void _showPositionIndicatorBriefly() {
+    showPositionIndicator.value = true;
+    _positionIndicatorTimer?.cancel();
+    _positionIndicatorTimer = Timer(const Duration(seconds: 3), () {
+      if (_scrollController.hasClients &&
+          _scrollController.position.pixels < 48) {
+        showPositionIndicator.value = false;
+      }
+    });
+  }
+
+  void _updateScrollPosition() {
+    if (!_scrollController.hasClients) return;
+
+    final position = _scrollController.position;
+    final anchors = _buildScrollAnchors();
+    final detected = findTopmostVisiblePosition(anchors: anchors);
+
+    final s = structure.value;
+    final int percent;
+    if (useStructuredView &&
+        s != null &&
+        detected.sectionId != null &&
+        detected.blockIndex != null) {
+      percent = computeStructureReadingProgressPercent(
+        structure: s,
+        sectionId: detected.sectionId!,
+        blockIndex: detected.blockIndex!,
+        scrollPixels: position.pixels,
+        maxScrollExtent: position.maxScrollExtent,
+      );
+      currentSectionId.value = detected.sectionId;
+      currentItemNumber.value = detected.itemNumber;
+    } else {
+      percent = computeReadingProgressPercent(
+        scrollPixels: position.pixels,
+        maxScrollExtent: position.maxScrollExtent,
+        estimatedDocumentHeight: _estimatedDocumentHeight(),
+      );
+      if (detected.sectionId != null) {
+        currentSectionId.value = detected.sectionId;
+        currentItemNumber.value = detected.itemNumber;
+      }
+    }
+    readingProgressPercent.value = percent;
+  }
+
+  List<ReaderScrollAnchor> _buildScrollAnchors() {
+    final anchors = <ReaderScrollAnchor>[];
+    final s = structure.value;
+    if (s == null) return anchors;
+
+    for (final section in s.sections) {
+      final hasItems = section.blocks.any(
+        (b) => b is NrItemBlock && b.number.isNotEmpty,
+      );
+
+      if (!hasItems) {
+        final sectionKey = _sectionKeys[section.id];
+        if (sectionKey != null) {
+          anchors.add(
+            ReaderScrollAnchor(
+              key: sectionKey,
+              sectionId: section.id,
+              headingLabel: _formatSectionLabel(section),
+            ),
+          );
+        }
+      }
+
+      for (var i = 0; i < section.blocks.length; i++) {
+        final block = section.blocks[i];
+        final blockKey = _blockKeys['${section.id}-$i'];
+        if (blockKey == null) continue;
+
+        String? itemNumber;
+        if (block is NrItemBlock && block.number.isNotEmpty) {
+          itemNumber = block.number;
+        }
+
+        anchors.add(
+          ReaderScrollAnchor(
+            key: blockKey,
+            sectionId: section.id,
+            blockIndex: i,
+            itemNumber: itemNumber,
+            headingLabel: itemNumber ?? _formatSectionLabel(section),
+          ),
+        );
+      }
+    }
+
+    return anchors;
+  }
+
+  void _persistScrollState() {
+    if (!_scrollController.hasClients) return;
+    final position = _scrollController.position;
+    final estimatedHeight = _estimatedDocumentHeight();
+    contentService.saveScrollPosition(
+      nrId,
+      position.pixels,
+      scrollMaxExtent: stableScrollExtent(
+        maxScrollExtent: position.maxScrollExtent,
+        estimatedDocumentHeight: estimatedHeight,
+      ),
+      lastHeadingViewed: _currentHeadingLabel(),
+      lastItemNumber: currentItemNumber.value,
+    );
+  }
+
+  double _estimatedDocumentHeight() {
+    final s = structure.value;
+    if (s == null || !useStructuredView) return 0;
+    return estimateDocumentHeight(s);
+  }
+
+  String? _currentHeadingLabel() {
+    if (currentItemNumber.value != null) return currentItemNumber.value;
+    final s = structure.value;
+    final sectionId = currentSectionId.value;
+    if (s != null && sectionId != null) {
+      for (final section in s.sections) {
+        if (section.id == sectionId) return section.displayTitle;
+      }
+    }
+    if (isPreambleExpanded.value) return 'Publicação e histórico';
+    return highlightSectionId.value;
+  }
+
+  void continueFromSavedPosition() {
+    final saved = contentService.getReadingHistoryEntry(nrId);
+    final position = _savedScrollPosition ?? contentService.getScrollPosition(nrId);
+    if (_scrollController.hasClients && position > 0) {
+      final target = saved != null
+          ? resolveScrollOffset(
+              savedPosition: saved.scrollPosition,
+              savedMaxExtent: saved.scrollMaxExtent,
+              currentMaxExtent: _scrollController.position.maxScrollExtent,
+            )
+          : position;
+      _scrollController.jumpTo(target);
+    }
+    showContinueChip.value = false;
+    _updateScrollPosition();
+  }
+
+  void dismissContinueChip() => showContinueChip.value = false;
+
+  void toggleSearch() => isSearchOpen.value = !isSearchOpen.value;
+
+  void openSearch() => isSearchOpen.value = true;
+
+  void closeSearch() {
+    isSearchOpen.value = false;
+    clearDocumentSearch();
+  }
+
   @override
   void onClose() {
+    _scrollSaveDebounce?.cancel();
+    _positionIndicatorTimer?.cancel();
     _isFavorite.close();
-    if (_scrollController.hasClients) {
-      contentService.saveScrollPosition(nrId, _scrollController.offset);
-    }
+    _persistScrollState();
+    _scrollController.removeListener(_onScrollChanged);
     _scrollController.dispose();
     super.onClose();
   }
@@ -150,7 +349,7 @@ class NRReaderController extends GetxController {
 
       final entry = contentService.manifest.value?.findNr(nrId);
       if (entry == null) {
-        error.value = 'NR $nrId não encontrada no manifest';
+        error.value = UserMessages.nrNotAvailable(nrId);
         return;
       }
       nrEntry.value = entry;
@@ -162,7 +361,7 @@ class NRReaderController extends GetxController {
           final ok = await contentService.downloadNrForReading(nrId);
           if (!ok) {
             error.value = contentService.lastError.value ??
-                'Conteúdo de $nrId não encontrado. Verifique sua conexão e tente novamente.';
+                UserMessages.nrLoadRetry(nrId);
             return;
           }
         } finally {
@@ -171,8 +370,7 @@ class NRReaderController extends GetxController {
 
         final downloaded = await contentService.readNrContent(nrId);
         if (downloaded == null) {
-          error.value =
-              'Conteúdo de $nrId não encontrado em cache. Toque em Baixar para tentar novamente.';
+          error.value = UserMessages.nrNotDownloaded(nrId);
           return;
         }
         content.value = downloaded;
@@ -191,7 +389,7 @@ class NRReaderController extends GetxController {
       );
     } catch (e, st) {
       AppLogger.error('Erro ao carregar NR $nrId', e, st);
-      error.value = 'Erro ao carregar NR: $e';
+      error.value = UserMessages.nrLoadFailed;
     } finally {
       isLoading.value = false;
     }
@@ -214,36 +412,164 @@ class NRReaderController extends GetxController {
 
   void navigateToSection(String sectionIdOrAnchor) {
     if (useStructuredView) {
-      final sectionId = _resolveSectionId(sectionIdOrAnchor) ?? sectionIdOrAnchor;
-      if (sectionId.isNotEmpty) {
-        expandSection(sectionId);
+      if (sectionIdOrAnchor == 'preamble') {
+        isPreambleExpanded.value = true;
+        _scheduleScrollToTarget(sectionId: 'preamble', blockIndex: 0);
+        isIndexOpen.value = false;
+        return;
       }
-      final key = _sectionKeys[sectionId];
-      if (key?.currentContext != null) {
-        Scrollable.ensureVisible(
-          key!.currentContext!,
-          duration: const Duration(milliseconds: 300),
-          curve: Curves.easeInOut,
-        );
-      } else {
-        // Seção ainda não montada (lazy), tenta após frame
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          final retryKey = _sectionKeys[sectionId];
-          if (retryKey?.currentContext != null) {
-            Scrollable.ensureVisible(
-              retryKey!.currentContext!,
-              duration: const Duration(milliseconds: 300),
-              curve: Curves.easeInOut,
-            );
-          } else {
-            AppLogger.warning('Seção não encontrada: $sectionIdOrAnchor');
-          }
-        });
-      }
+
+      final sectionId =
+          _resolveSectionId(sectionIdOrAnchor) ?? sectionIdOrAnchor;
+      _scheduleScrollToTarget(sectionId: sectionId, blockIndex: -1);
     } else {
       navigateToHeading(sectionIdOrAnchor);
     }
     isIndexOpen.value = false;
+  }
+
+  void _scheduleScrollToTarget({
+    required String sectionId,
+    required int blockIndex,
+  }) {
+    void tryScroll(int attempt) {
+      if (attempt == 0) {
+        _jumpToEstimatedOffset(sectionId: sectionId, blockIndex: blockIndex);
+      } else {
+        _nudgeLazyListScroll(
+          sectionId: sectionId,
+          blockIndex: blockIndex,
+          attempt: attempt,
+        );
+      }
+
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (_tryScrollToTarget(sectionId: sectionId, blockIndex: blockIndex)) {
+          _updateScrollPosition();
+          return;
+        }
+        if (attempt >= 48) {
+          AppLogger.warning(
+            'Não foi possível rolar até $sectionId'
+            '${blockIndex >= 0 ? ' bloco $blockIndex' : ''}',
+          );
+          return;
+        }
+        tryScroll(attempt + 1);
+      });
+    }
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      tryScroll(0);
+    });
+  }
+
+  double? _estimatedScrollOffset({
+    required String sectionId,
+    int blockIndex = -1,
+  }) {
+    if (!useStructuredView) return null;
+
+    if (sectionId == 'preamble' || sectionId == 'meta') return 0;
+
+    final s = structure.value;
+    if (s == null) return null;
+
+    final sectionIndex = s.sections.indexWhere((sec) => sec.id == sectionId);
+    if (sectionIndex < 0) return null;
+
+    return estimateProgressOffset(
+      structure: s,
+      sectionId: sectionId,
+      blockIndex: blockIndex,
+    );
+  }
+
+  void _jumpToEstimatedOffset({
+    required String sectionId,
+    required int blockIndex,
+  }) {
+    if (!_scrollController.hasClients || !useStructuredView) return;
+
+    final offset = _estimatedScrollOffset(
+      sectionId: sectionId,
+      blockIndex: blockIndex,
+    );
+    if (offset == null) return;
+
+    final max = _scrollController.position.maxScrollExtent;
+    _scrollController.jumpTo(offset.clamp(0.0, max));
+  }
+
+  void _nudgeLazyListScroll({
+    required String sectionId,
+    required int blockIndex,
+    required int attempt,
+  }) {
+    if (!_scrollController.hasClients) return;
+
+    final position = _scrollController.position;
+    final estimated = _estimatedScrollOffset(
+      sectionId: sectionId,
+      blockIndex: blockIndex,
+    );
+
+    if (estimated != null && estimated > position.pixels + 24) {
+      final target = estimated.clamp(0.0, position.maxScrollExtent);
+      position.jumpTo(target);
+      return;
+    }
+
+    if (attempt % 4 == 0 && estimated != null) {
+      position.jumpTo(estimated.clamp(0.0, position.maxScrollExtent));
+      return;
+    }
+
+    final step = 480.0 + (attempt * 80.0);
+    position.jumpTo(
+      (position.pixels + step).clamp(0.0, position.maxScrollExtent),
+    );
+  }
+
+  bool _scrollToKey(GlobalKey? key, {double alignment = 0.08}) {
+    if (key == null) return false;
+    return scrollToWidgetKey(
+      key: key,
+      scrollController: _scrollController,
+      alignment: alignment,
+    );
+  }
+
+  bool _tryScrollToTarget({
+    required String sectionId,
+    required int blockIndex,
+  }) {
+    if (!useStructuredView) return false;
+
+    if (sectionId == 'meta') {
+      if (!_scrollController.hasClients) return false;
+      _scrollController.animateTo(
+        0,
+        duration: const Duration(milliseconds: 350),
+        curve: Curves.easeInOut,
+      );
+      return true;
+    }
+
+    if (sectionId == 'preamble') {
+      isPreambleExpanded.value = true;
+      return _scrollToKey(_blockKeys['preamble-0']);
+    }
+
+    if (blockIndex >= 0) {
+      final blockKey = _blockKeys['$sectionId-$blockIndex'];
+      if (_scrollToKey(blockKey)) {
+        return true;
+      }
+    }
+
+    final sectionKey = _sectionKeys[sectionId];
+    return _scrollToKey(sectionKey, alignment: 0.05);
   }
 
   void navigateToHeading(String headingText) {
@@ -276,7 +602,6 @@ class NRReaderController extends GetxController {
       }
     }
 
-    // Match parcial pelo texto do heading de busca
     for (final section in s.sections) {
       final cleanTitle = _normalizeKey(stripInlineMarkup(section.displayTitle));
       if (cleanTitle.contains(normalized) || normalized.contains(cleanTitle)) {
@@ -292,35 +617,26 @@ class NRReaderController extends GetxController {
   }
 
   void increaseFontSize() {
-    if (fontSize.value < 20) fontSize.value += 2;
+    final idx = kReaderFontSizes.indexOf(fontSize.value);
+    if (idx < 0 || idx >= kReaderFontSizes.length - 1) return;
+    fontSize.value = kReaderFontSizes[idx + 1];
     _persistReaderPreferences();
   }
 
   void decreaseFontSize() {
-    if (fontSize.value > 12) fontSize.value -= 2;
+    final idx = kReaderFontSizes.indexOf(fontSize.value);
+    if (idx <= 0) return;
+    fontSize.value = kReaderFontSizes[idx - 1];
     _persistReaderPreferences();
   }
 
   void toggleDarkMode() {
     Get.find<ThemeController>().toggleDarkMode();
   }
+
   void toggleIndex() => isIndexOpen.value = !isIndexOpen.value;
 
-  void expandAllSections() {
-    final s = structure.value;
-    if (s == null) return;
-    expandedSectionIds
-      ..clear()
-      ..addAll(s.sections.map((sec) => sec.id));
-    expandedSectionIds.refresh();
-    isPreambleExpanded.value = s.preamble.blocks.isNotEmpty;
-  }
-
-  void collapseAllSections() {
-    expandedSectionIds.clear();
-    expandedSectionIds.refresh();
-    isPreambleExpanded.value = false;
-  }
+  void setPreambleExpanded(bool value) => isPreambleExpanded.value = value;
 
   void navigateToItemNumber(String itemNumber) {
     final normalized = itemNumber.trim();
@@ -331,17 +647,12 @@ class NRReaderController extends GetxController {
       for (final section in s.sections) {
         for (var i = 0; i < section.blocks.length; i++) {
           final block = section.blocks[i];
-          if (block is NrItemBlock && block.number == normalized) {
-            expandSection(section.id);
-            goToSearchHit(
-              NrSearchHit(
-                sectionId: section.id,
-                blockIndex: i,
-                matchStart: 0,
-                label: '${block.number} ${block.text}',
-                snippet: block.text,
-              ),
-            );
+          if (block is NrItemBlock && block.number.trim() == normalized) {
+            highlightSectionId.value = section.id;
+            highlightBlockIndex.value = i;
+            currentSectionId.value = section.id;
+            currentItemNumber.value = normalized;
+            _scheduleScrollToTarget(sectionId: section.id, blockIndex: i);
             isIndexOpen.value = false;
             return;
           }
@@ -371,6 +682,37 @@ class NRReaderController extends GetxController {
   ScrollController get scrollController => _scrollController;
   bool get isFavorite => _isFavorite.value;
 
+  String? get continueLabel {
+    final item = contentService.getLastItemNumber(nrId);
+    if (item != null) return 'item $item';
+    final heading = contentService.getLastHeadingViewed(nrId);
+    if (heading != null) return heading;
+    return null;
+  }
+
+  /// Label amigável para o indicador de posição (nunca slug interno).
+  String? get currentPositionLabel {
+    if (currentItemNumber.value != null) return currentItemNumber.value;
+    final s = structure.value;
+    final sectionId = currentSectionId.value;
+    if (s == null || sectionId == null) return null;
+    for (final section in s.sections) {
+      if (section.id == sectionId) {
+        return _formatSectionLabel(section);
+      }
+    }
+    return null;
+  }
+
+  String _formatSectionLabel(NrSection section) {
+    final title = stripInlineMarkup(section.title);
+    if (section.number.isEmpty) {
+      return stripInlineMarkup(section.displayTitle);
+    }
+    if (title.isEmpty) return section.number;
+    return '${section.number} $title';
+  }
+
   void toggleFavorite() {
     contentService.toggleFavorite(nrId);
     _isFavorite.value = contentService.isFavorite(nrId);
@@ -382,25 +724,6 @@ class NRReaderController extends GetxController {
   }
 
   UpdateEntry? getUpdateEntry() => contentService.updateEntryFor(nrId);
-
-  bool isSectionExpanded(String sectionId) =>
-      expandedSectionIds.contains(sectionId);
-
-  void toggleSectionExpanded(String sectionId) {
-    if (expandedSectionIds.contains(sectionId)) {
-      expandedSectionIds.remove(sectionId);
-    } else {
-      expandedSectionIds.add(sectionId);
-    }
-    expandedSectionIds.refresh();
-  }
-
-  void expandSection(String sectionId) {
-    if (!expandedSectionIds.contains(sectionId)) {
-      expandedSectionIds.add(sectionId);
-      expandedSectionIds.refresh();
-    }
-  }
 
   Future<void> searchInDocument(String query) async {
     documentSearchQuery.value = query;
@@ -433,12 +756,11 @@ class NRReaderController extends GetxController {
       if (generation != _searchGeneration) return;
 
       _setDocumentSearchResults(results);
-      _expandSectionsForHits(results);
       currentHitIndex.value = 0;
-
       activeHighlightQuery.value = trimmed;
 
       if (results.isNotEmpty) {
+        _expandPreambleForHits(results);
         WidgetsBinding.instance.addPostFrameCallback((_) {
           if (generation == _searchGeneration) {
             goToSearchHit(results.first);
@@ -479,16 +801,13 @@ class NRReaderController extends GetxController {
     goToSearchHit(documentSearchResults[currentHitIndex.value]);
   }
 
-  void _expandSectionsForHits(List<NrSearchHit> hits) {
-    var hasPreamble = false;
+  void _expandPreambleForHits(List<NrSearchHit> hits) {
     for (final hit in hits) {
       if (hit.sectionId == 'preamble') {
-        hasPreamble = true;
-      } else if (hit.sectionId != 'meta') {
-        expandSection(hit.sectionId);
+        isPreambleExpanded.value = true;
+        break;
       }
     }
-    isPreambleExpanded.value = hasPreamble;
   }
 
   Future<List<NrSearchHit>> _searchViaIndexAsHits(String trimmed) async {
@@ -532,7 +851,6 @@ class NRReaderController extends GetxController {
     documentSearchQuery.value = '';
     _setDocumentSearchResults([]);
     currentHitIndex.value = 0;
-    isPreambleExpanded.value = false;
     clearHighlight();
   }
 
@@ -541,6 +859,7 @@ class NRReaderController extends GetxController {
     highlightSectionId.value = null;
     highlightBlockIndex.value = null;
   }
+
   void goToSearchHit(NrSearchHit hit) {
     final query = documentSearchQuery.value.trim();
     activeHighlightQuery.value = query.isNotEmpty ? query : null;
@@ -549,22 +868,32 @@ class NRReaderController extends GetxController {
 
     if (hit.sectionId == 'preamble') {
       isPreambleExpanded.value = true;
-    } else if (hit.sectionId != 'meta') {
-      expandSection(hit.sectionId);
-      expandedSectionIds.refresh();
     }
 
     _scheduleScrollToHit(hit);
   }
 
   void _scheduleScrollToHit(NrSearchHit hit) {
-    if (useStructuredView) {
-      _preScrollForStructuredHit(hit);
-    }
-
     void tryScroll(int attempt) {
-      if (_tryScrollToHit(hit) || attempt >= 12) return;
+      if (attempt == 0) {
+        _jumpToEstimatedOffset(
+          sectionId: hit.sectionId,
+          blockIndex: hit.blockIndex,
+        );
+      } else {
+        _nudgeLazyListScroll(
+          sectionId: hit.sectionId,
+          blockIndex: hit.blockIndex,
+          attempt: attempt,
+        );
+      }
+
       WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (_tryScrollToHit(hit)) {
+          _updateScrollPosition();
+          return;
+        }
+        if (attempt >= 48) return;
         tryScroll(attempt + 1);
       });
     }
@@ -574,70 +903,35 @@ class NRReaderController extends GetxController {
     });
   }
 
-  void _preScrollForStructuredHit(NrSearchHit hit) {
-    if (!_scrollController.hasClients) return;
-
-    if (hit.sectionId == 'meta' || hit.sectionId == 'preamble') {
-      _scrollController.jumpTo(0);
-      return;
-    }
-
-    final s = structure.value;
-    if (s == null) return;
-
-    final index = s.sections.indexWhere((sec) => sec.id == hit.sectionId);
-    if (index < 0) return;
-
-    const headerEstimate = 320.0;
-    final sectionHeight =
-        expandedSectionIds.contains(hit.sectionId) ? 280.0 : 80.0;
-    final offset = headerEstimate + index * sectionHeight;
-    final max = _scrollController.position.maxScrollExtent;
-    _scrollController.jumpTo(offset.clamp(0.0, max));
-  }
-
   bool _tryScrollToHit(NrSearchHit hit) {
     if (!useStructuredView) {
       return _tryScrollToMarkdownHit(hit);
-    }
-
-    if (hit.sectionId == 'meta') {
-      if (!_scrollController.hasClients) return false;
-      _scrollController.animateTo(
-        0,
-        duration: const Duration(milliseconds: 350),
-        curve: Curves.easeInOut,
-      );
-      return true;
     }
 
     if (hit.blockIndex >= 0) {
       final blockKey = _blockKeys['${hit.sectionId}-${hit.blockIndex}'];
       final plainText = _plainTextForHit(hit);
       if (blockKey?.currentContext != null && plainText != null) {
-        return scrollToSearchMatch(
-          context: blockKey!.currentContext!,
-          scrollController: _scrollController,
-          matchStart: hit.matchStart,
-          plainText: plainText,
-          fontSize: fontSize.value,
-        );
+        if (hit.matchStart > 0) {
+          final scrolled = scrollToSearchMatch(
+            context: blockKey!.currentContext!,
+            scrollController: _scrollController,
+            matchStart: hit.matchStart,
+            plainText: plainText,
+            fontSize: fontSize.value,
+          );
+          if (scrolled) {
+            return true;
+          }
+        }
+        return _scrollToKey(blockKey);
       }
     }
 
-    final sectionKey = _sectionKeys[hit.sectionId];
-    final titleText = _plainTextForHit(hit);
-    if (sectionKey?.currentContext != null && titleText != null) {
-      return scrollToSearchMatch(
-        context: sectionKey!.currentContext!,
-        scrollController: _scrollController,
-        matchStart: hit.matchStart,
-        plainText: titleText,
-        fontSize: fontSize.value + 2,
-      );
-    }
-
-    return false;
+    return _tryScrollToTarget(
+      sectionId: hit.sectionId,
+      blockIndex: hit.blockIndex,
+    );
   }
 
   bool _tryScrollToMarkdownHit(NrSearchHit hit) {

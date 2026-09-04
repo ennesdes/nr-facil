@@ -18,6 +18,7 @@ import '../models/nr_structure.dart';
 import '../models/reading_history_entry.dart';
 import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
+import '../utils/user_messages.dart';
 
 /// ContentService — sincronizar e cache de NRs offline.
 ///
@@ -51,6 +52,9 @@ class ContentService extends GetxService {
   /// Estado reativo — se está sincronizando no momento
   final isSyncing = false.obs;
 
+  /// True após a primeira tentativa de sync de metadados (boot ou manual).
+  final initialSyncComplete = false.obs;
+
   /// Estado reativo — mensagem de erro da última operação (null = sucesso)
   final lastError = Rxn<String>();
 
@@ -60,8 +64,17 @@ class ContentService extends GetxService {
   /// Lista reativa de IDs de NRs favoritadas (ordem de exibição importa)
   final favoriteIds = <String>[].obs;
 
+  /// NRs com download em andamento (lista sob demanda na UI).
+  final downloadingNrIds = <String>{}.obs;
+
   /// Contagem reativa de atualizações não lidas
   final unreadUpdatesCount = 0.obs;
+
+  /// Última NR aberta (reativo — alimenta "Continuar leitura").
+  final lastOpenedNrId = Rxn<String>();
+
+  /// Incrementado quando histórico/progresso de leitura mudam (UI reativa).
+  final readingHistoryVersion = 0.obs;
 
   /// Incrementado quando assets de uma NR terminam de baixar (UI reativa).
   final RxMap<String, int> nrAssetVersions = <String, int>{}.obs;
@@ -77,11 +90,16 @@ class ContentService extends GetxService {
     _cacheDir = _cacheDirOverride ?? await getApplicationDocumentsDirectory();
     AppLogger.info('ContentService iniciado. Cache em: ${_cacheDir.path}');
 
+    // Carregar favoritos antes do manifest (síncrono) para aba padrão correta
+    _loadFavorites();
+
+    lastOpenedNrId.value =
+        GetStorage().read<String?>(StorageKeys.lastOpenedNr);
+
     // Carregar manifest do cache local ao iniciar
     await _loadManifestFromCache();
 
-    // Carregar favoritos do storage local
-    _loadFavorites();
+    _establishUpdatesBaselineIfNeeded();
 
     // Atualizar contagem de atualizações não lidas
     _updateUnreadCount();
@@ -112,13 +130,20 @@ class ContentService extends GetxService {
     try {
       return await _fetchRemoteMetadata();
     } catch (e, st) {
-      lastError.value = 'Erro na sincronização: $e';
+      lastError.value = UserMessages.syncFailed;
       AppLogger.error('Erro na sincronização de metadados', e, st);
       return false;
     } finally {
       isSyncing.value = false;
+      initialSyncComplete.value = true;
     }
   }
+
+  /// Manifest com ao menos uma NR disponível.
+  bool get hasManifest => manifest.value?.nrs.isNotEmpty ?? false;
+
+  /// Carregamento inicial sem cache local — exibir shimmer até o primeiro sync.
+  bool get isManifestLoading => !hasManifest && !initialSyncComplete.value;
 
   Future<bool> _fetchRemoteMetadata() async {
     AppLogger.info('Iniciando sincronização de manifest...');
@@ -129,8 +154,7 @@ class ContentService extends GetxService {
         'Falha ao sincronizar manifest remoto. Usando cache local.',
       );
       if (manifest.value == null) {
-        lastError.value =
-            'Falha de rede e sem cache local. Tente novamente mais tarde.';
+        lastError.value = UserMessages.noNetworkNoLocal;
         return false;
       }
       return true;
@@ -139,6 +163,8 @@ class ContentService extends GetxService {
     manifest.value = remoteManifest;
     await _downloadAppMeta();
     await _saveManifestToCache(remoteManifest);
+
+    _establishUpdatesBaselineIfNeeded();
 
     lastSyncedAt.value = DateTime.now();
     GetStorage().write(
@@ -260,7 +286,7 @@ class ContentService extends GetxService {
       AppLogger.info('Sincronização completa concluída com sucesso');
       return true;
     } catch (e, st) {
-      lastError.value = 'Erro na sincronização: $e';
+      lastError.value = UserMessages.syncFailed;
       AppLogger.error('Erro na sincronização completa', e, st);
       return false;
     } finally {
@@ -293,11 +319,11 @@ class ContentService extends GetxService {
   Future<bool> downloadNrForReading(String nrId) async {
     final entry = manifest.value?.findNr(nrId);
     if (entry == null) {
-      lastError.value = 'NR $nrId não encontrada no manifest';
+      lastError.value = UserMessages.nrNotAvailable(nrId);
       return false;
     }
     if (entry.isRevoked) {
-      lastError.value = 'NR $nrId está revogada';
+      lastError.value = UserMessages.nrRevoked;
       return false;
     }
 
@@ -312,7 +338,7 @@ class ContentService extends GetxService {
 
       return true;
     } catch (e, st) {
-      lastError.value = 'Falha ao baixar $nrId: $e';
+      lastError.value = UserMessages.nrDownloadFailed;
       AppLogger.error('Erro no download para leitura de $nrId', e, st);
       return false;
     }
@@ -322,11 +348,11 @@ class ContentService extends GetxService {
   Future<bool> downloadNrIfNeeded(String nrId) async {
     final entry = manifest.value?.findNr(nrId);
     if (entry == null) {
-      lastError.value = 'NR $nrId não encontrada no manifest';
+      lastError.value = UserMessages.nrNotAvailable(nrId);
       return false;
     }
     if (entry.isRevoked) {
-      lastError.value = 'NR $nrId está revogada';
+      lastError.value = UserMessages.nrRevoked;
       return false;
     }
 
@@ -334,26 +360,27 @@ class ContentService extends GetxService {
       return true;
     }
 
+    if (downloadingNrIds.contains(nrId)) {
+      return false;
+    }
+
+    downloadingNrIds.add(nrId);
+    downloadingNrIds.refresh();
+
     try {
       await _downloadNr(entry);
       return true;
     } catch (e, st) {
-      lastError.value = 'Falha ao baixar $nrId: $e';
+      lastError.value = UserMessages.nrDownloadFailed;
       AppLogger.error('Erro no download sob demanda de $nrId', e, st);
       return false;
+    } finally {
+      downloadingNrIds.remove(nrId);
+      downloadingNrIds.refresh();
     }
   }
 
-  /// Texto amigável do status de sincronização.
-  String? get lastSyncedLabel {
-    final synced = lastSyncedAt.value;
-    if (synced == null) return null;
-    final diff = DateTime.now().difference(synced);
-    if (diff.inMinutes < 1) return 'Sincronizado agora';
-    if (diff.inHours < 1) return 'Sincronizado há ${diff.inMinutes} min';
-    if (diff.inDays < 1) return 'Sincronizado há ${diff.inHours} h';
-    return 'Sincronizado há ${diff.inDays} dia(s)';
-  }
+  bool isNrDownloading(String nrId) => downloadingNrIds.contains(nrId);
 
   /// Download completo de uma NR (.md + JSONs + assets).
   Future<void> _downloadNr(ManifestEntry entry) async {
@@ -736,9 +763,40 @@ class ContentService extends GetxService {
 
   /// Obter caminho local de um asset (imagem, tabela, etc) de uma NR.
   ///
+  /// [assetRef] é o valor do `src` no markdown/structure (ex.:
+  /// `../assets/pages/page-001.png` ou `assets/pages/page-001.png`).
   /// Retorna caminho absoluto. Verificar com File(path).exists() antes de usar.
-  String getAssetPath(String nrId, String assetPath) {
-    return '${_cacheDir.path}/content/$nrId/assets/$assetPath';
+  String getAssetPath(String nrId, String assetRef) {
+    final relative = assetRef.replaceFirst(RegExp(r'^\.\./'), '');
+    return '${_cacheDir.path}/content/$nrId/$relative';
+  }
+
+  /// Na primeira sincronização do dispositivo, grava `last_seen_hash` com o hash
+  /// atual de cada NR para que a instalação nova não mostre tudo como "atualizado".
+  ///
+  /// NRs sem `last_seen_hash` recebem o hash do manifest; hashes já gravados
+  /// (ex.: atualização pendente) não são sobrescritos. NRs novas no manifest
+  /// depois do baseline continuam com `last_seen_hash` nulo e aparecem como novidade.
+  void _establishUpdatesBaselineIfNeeded() {
+    if (GetStorage().read(StorageKeys.updatesBaselineEstablished) == true) {
+      return;
+    }
+
+    final current = manifest.value;
+    if (current == null) return;
+
+    for (final entry in current.nrs) {
+      final seen =
+          GetStorage().read(StorageKeys.nrLastSeenHash(entry.id)) as String?;
+      if (seen == null) {
+        GetStorage().write(StorageKeys.nrLastSeenHash(entry.id), entry.hash);
+      }
+    }
+
+    GetStorage().write(StorageKeys.updatesBaselineEstablished, true);
+    AppLogger.debug(
+      'Baseline de atualizações estabelecido (${current.nrs.length} NRs)',
+    );
   }
 
   /// Verificar se há atualização para uma NR.
@@ -983,15 +1041,35 @@ class ContentService extends GetxService {
   /// Obter ID da última NR aberta (para "Continuar leitura").
   ///
   /// Retorna null se nenhuma NR foi aberta.
-  String? get lastOpenedNrId {
-    return GetStorage().read<String?>(StorageKeys.lastOpenedNr);
+  String? get lastOpenedNr => lastOpenedNrId.value;
+
+  /// Registrar abertura de uma NR no histórico e como última lida.
+  void recordNrOpened(String nrId) {
+    setLastOpenedNr(nrId);
+    addToReadingHistory(nrId);
+  }
+
+  /// Atualizar a última NR aberta (storage + estado reativo).
+  void setLastOpenedNr(String nrId) {
+    GetStorage().write(StorageKeys.lastOpenedNr, nrId);
+    lastOpenedNrId.value = nrId;
+  }
+
+  void _notifyReadingHistoryChanged() {
+    readingHistoryVersion.value++;
   }
 
   /// Adicionar ou atualizar entrada no histórico de leitura.
   ///
-  /// Se a NR já existe no histórico, atualiza timestamp e posição de scroll.
-  /// Mantém as últimas ~20 NRs lidas (FIFO).
-  void addToReadingHistory(String nrId, {double scrollPosition = 0.0}) {
+  /// Se a NR já existe no histórico, preserva progresso/heading salvos e só
+  /// atualiza o timestamp (reposiciona no topo). Mantém as últimas ~20 NRs.
+  void addToReadingHistory(
+    String nrId, {
+    double? scrollPosition,
+    double? scrollMaxExtent,
+    String? lastHeadingViewed,
+    String? lastItemNumber,
+  }) {
     try {
       final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
       final historyList = savedList ?? [];
@@ -1002,6 +1080,9 @@ class ContentService extends GetxService {
               item is Map<String, dynamic> ? item : <String, dynamic>{}))
           .toList();
 
+      final existingIndex = history.indexWhere((entry) => entry.nrId == nrId);
+      final existing = existingIndex >= 0 ? history[existingIndex] : null;
+
       // Remover entrada anterior se existir (para reposicionar no topo)
       history.removeWhere((entry) => entry.nrId == nrId);
 
@@ -1011,7 +1092,12 @@ class ContentService extends GetxService {
         ReadingHistoryEntry(
           nrId: nrId,
           lastAccessedAt: DateTime.now(),
-          scrollPosition: scrollPosition,
+          scrollPosition: scrollPosition ?? existing?.scrollPosition ?? 0.0,
+          scrollMaxExtent:
+              scrollMaxExtent ?? existing?.scrollMaxExtent ?? 0.0,
+          lastHeadingViewed:
+              lastHeadingViewed ?? existing?.lastHeadingViewed,
+          lastItemNumber: lastItemNumber ?? existing?.lastItemNumber,
         ),
       );
 
@@ -1024,6 +1110,7 @@ class ContentService extends GetxService {
       final mapList = history.map((e) => e.toMap()).toList();
       GetStorage().write(StorageKeys.readingHistory, mapList);
 
+      _notifyReadingHistoryChanged();
       AppLogger.debug('NR $nrId adicionada ao histórico de leitura');
     } catch (e, st) {
       AppLogger.error('Erro ao adicionar ao histórico de leitura', e, st);
@@ -1049,6 +1136,33 @@ class ContentService extends GetxService {
     }
   }
 
+  /// Obter entrada de histórico para uma NR (ou null).
+  ReadingHistoryEntry? getReadingHistoryEntry(String nrId) {
+    try {
+      final history = getReadingHistory();
+      for (final entry in history) {
+        if (entry.nrId == nrId) return entry;
+      }
+      return null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  /// Progresso de leitura em percentual (0–100), ou null se desconhecido.
+  int? getReadingProgressPercent(String nrId) {
+    return getReadingHistoryEntry(nrId)?.progressPercent;
+  }
+
+  /// Última seção/heading visualizada no leitor.
+  String? getLastHeadingViewed(String nrId) {
+    return getReadingHistoryEntry(nrId)?.lastHeadingViewed;
+  }
+
+  /// Último item numerado visualizado no leitor.
+  String? getLastItemNumber(String nrId) {
+    return getReadingHistoryEntry(nrId)?.lastItemNumber;
+  }
   /// Obter posição de scroll salva para uma NR.
   ///
   /// Retorna 0.0 se nenhuma posição foi salva.
@@ -1072,7 +1186,13 @@ class ContentService extends GetxService {
   /// Salvar posição de scroll para uma NR.
   ///
   /// Atualiza entrada existente no histórico.
-  void saveScrollPosition(String nrId, double scrollPosition) {
+  void saveScrollPosition(
+    String nrId,
+    double scrollPosition, {
+    double? scrollMaxExtent,
+    String? lastHeadingViewed,
+    String? lastItemNumber,
+  }) {
     try {
       final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
       final historyList = savedList ?? [];
@@ -1082,17 +1202,46 @@ class ContentService extends GetxService {
               item is Map<String, dynamic> ? item : <String, dynamic>{}))
           .toList();
 
-      // Encontrar e atualizar entrada
       final index = history.indexWhere((e) => e.nrId == nrId);
       if (index >= 0) {
-        history[index] = history[index].copyWith(scrollPosition: scrollPosition);
+        final existing = history[index];
+        var effectivePosition = scrollPosition;
+        final effectiveMaxExtent = scrollMaxExtent ?? existing.scrollMaxExtent;
+
+        // Conteúdo pode crescer entre sessões; preserva a razão de leitura quando
+        // a posição absoluta não mudou (ex.: reabrir com jumpTo na posição antiga).
+        if (scrollMaxExtent != null &&
+            existing.scrollMaxExtent > 0 &&
+            scrollMaxExtent > existing.scrollMaxExtent + 1 &&
+            (scrollPosition - existing.scrollPosition).abs() < 4) {
+          final ratio = (existing.scrollPosition / existing.scrollMaxExtent)
+              .clamp(0.0, 1.0);
+          effectivePosition = ratio * scrollMaxExtent;
+        }
+
+        history[index] = existing.copyWith(
+          scrollPosition: effectivePosition,
+          scrollMaxExtent: effectiveMaxExtent,
+          lastHeadingViewed:
+              lastHeadingViewed ?? existing.lastHeadingViewed,
+          lastItemNumber: lastItemNumber ?? existing.lastItemNumber,
+          lastAccessedAt: DateTime.now(),
+        );
         final mapList = history.map((e) => e.toMap()).toList();
         GetStorage().write(StorageKeys.readingHistory, mapList);
+        _notifyReadingHistoryChanged();
         AppLogger.debug('Posição de scroll salva para $nrId: $scrollPosition');
+      } else {
+        addToReadingHistory(
+          nrId,
+          scrollPosition: scrollPosition,
+          scrollMaxExtent: scrollMaxExtent,
+          lastHeadingViewed: lastHeadingViewed,
+          lastItemNumber: lastItemNumber,
+        );
       }
     } catch (e, st) {
       AppLogger.error('Erro ao salvar posição de scroll', e, st);
-      // Continuar sem falhar
     }
   }
 }
