@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -157,11 +159,31 @@ class NRReaderController extends GetxController {
 
       final mdContent = await contentService.readNrContent(nrId);
       if (mdContent == null) {
-        error.value =
-            'Conteúdo de $nrId não encontrado em cache. Toque em Baixar para sincronizar.';
-        return;
+        isDownloading.value = true;
+        try {
+          final ok = await contentService.downloadNrForReading(nrId);
+          if (!ok) {
+            error.value = contentService.lastError.value ??
+                'Conteúdo de $nrId não encontrado. Verifique sua conexão e tente novamente.';
+            return;
+          }
+        } finally {
+          isDownloading.value = false;
+        }
+
+        final downloaded = await contentService.readNrContent(nrId);
+        if (downloaded == null) {
+          error.value =
+              'Conteúdo de $nrId não encontrado em cache. Toque em Baixar para tentar novamente.';
+          return;
+        }
+        content.value = downloaded;
+      } else {
+        content.value = mdContent;
+        if (!contentService.isNrFullyCached(nrId)) {
+          unawaited(contentService.downloadNrForReading(nrId));
+        }
       }
-      content.value = mdContent;
 
       structure.value = await contentService.readNrStructure(nrId);
       index.value = await contentService.readNrIndex(nrId);
@@ -341,6 +363,8 @@ class NRReaderController extends GetxController {
       final ok = await contentService.downloadNrIfNeeded(nrId);
       if (ok) {
         await _loadNr();
+      } else if (contentService.lastError.value != null) {
+        error.value = contentService.lastError.value;
       }
     } finally {
       isDownloading.value = false;

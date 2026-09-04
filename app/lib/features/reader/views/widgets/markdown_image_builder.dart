@@ -73,32 +73,41 @@ class NrMarkdownImageBuilder extends StatelessWidget {
   }
 
   Widget _buildLocalImage(BuildContext context, String relativePath) {
-    try {
-      final contentService = Get.find<ContentService>();
-      final localPath = _resolveLocalPath(contentService, relativePath);
-      final file = File(localPath);
+    final contentService = Get.find<ContentService>();
 
-      if (!file.existsSync()) {
-        AppLogger.warning('Imagem local não encontrada: $relativePath');
-        return _buildPlaceholder(context, 'Imagem não encontrada:\n$relativePath');
+    return Obx(() {
+      // Rebuild quando assets terminarem de baixar em background.
+      contentService.nrAssetVersions[nrId];
+
+      try {
+        final localPath = _resolveLocalPath(contentService, relativePath);
+        final file = File(localPath);
+
+        if (!file.existsSync()) {
+          AppLogger.warning('Imagem local não encontrada: $relativePath');
+          return _buildPlaceholder(
+            context,
+            'Imagem não encontrada:\n$relativePath',
+          );
+        }
+
+        final preview = Image.file(file, fit: BoxFit.fitWidth);
+        final fullscreen = Image.file(file, fit: BoxFit.contain);
+
+        return _zoomable(
+          context,
+          Container(
+            constraints: const BoxConstraints(maxHeight: 400),
+            margin: const EdgeInsets.symmetric(vertical: 8.0),
+            child: preview,
+          ),
+          fullscreen,
+        );
+      } catch (e) {
+        AppLogger.error('Erro ao carregar imagem local: $relativePath', e);
+        return _buildErrorImage(context);
       }
-
-      final preview = Image.file(file, fit: BoxFit.fitWidth);
-      final fullscreen = Image.file(file, fit: BoxFit.contain);
-
-      return _zoomable(
-        context,
-        Container(
-          constraints: const BoxConstraints(maxHeight: 400),
-          margin: const EdgeInsets.symmetric(vertical: 8.0),
-          child: preview,
-        ),
-        fullscreen,
-      );
-    } catch (e) {
-      AppLogger.error('Erro ao carregar imagem local: $relativePath', e);
-      return _buildErrorImage(context);
-    }
+    });
   }
 
   String _resolveLocalPath(ContentService contentService, String relativePath) {

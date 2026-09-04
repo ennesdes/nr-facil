@@ -2,9 +2,9 @@
   "nr_id": "nr-06",
   "ok": true,
   "warnings": [],
-  "char_ratio": 1.0,
+  "char_ratio": null,
   "md_chars": 26802,
-  "pdf_chars": 26805,
+  "pdf_chars": null,
   "pages_fallback_png": 0,
   "reviewed": false
 }

@@ -201,6 +201,8 @@ class _TodosTabState extends State<TodosTab> {
           isFavorite: contentService.isFavorite(entry.id),
           hasUpdate: contentService.hasUpdate(entry.id),
           isRevoked: entry.isRevoked,
+          showNotDownloaded:
+              !entry.isRevoked && !contentService.isNrFullyCached(entry.id),
           onTap: () {
             if (entry.isRevoked) {
               Get.to(() => RevokedNrPage(entry: entry));

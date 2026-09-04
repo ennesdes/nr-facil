@@ -11,6 +11,9 @@ class StorageKeys {
 
   // Por NR: hash sincronizado vs. hash visto
   static String nrLastSyncedHash(String nrId) => '${_prefix}nr_${nrId}_synced_hash';
+  static String nrCoreSyncedHash(String nrId) => '${_prefix}nr_${nrId}_core_synced_hash';
+  static String nrSearchIndexSyncedHash(String nrId) =>
+      '${_prefix}nr_${nrId}_search_index_synced_hash';
   static String nrLastSeenHash(String nrId) => '${_prefix}nr_${nrId}_seen_hash';
 
   // Favoritos

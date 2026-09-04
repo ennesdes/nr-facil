@@ -4,9 +4,9 @@
   "warnings": [
     "broken_hyphenation: hifenização residual detectada"
   ],
-  "char_ratio": 0.998,
+  "char_ratio": null,
   "md_chars": 51380,
-  "pdf_chars": 51475,
+  "pdf_chars": null,
   "pages_fallback_png": 0,
   "reviewed": false
 }

@@ -109,6 +109,7 @@ class FavoritosTab extends StatelessWidget {
       nrEntry: entry,
       isFavorite: true, // Always true in favoritos tab
       hasUpdate: contentService.hasUpdate(nrId),
+      showNotDownloaded: !contentService.isNrFullyCached(nrId),
       onTap: () {
         Get.to(
           () => NRReaderPage(nrId: nrId),

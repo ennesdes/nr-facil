@@ -24,6 +24,21 @@ class UpdatesPage extends GetView<UpdatesController> {
         actions: [
           Obx(
             () => IconButton(
+              icon: controller.isDownloadingAll.value
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(strokeWidth: 2),
+                    )
+                  : const Icon(Icons.download_for_offline_outlined),
+              tooltip: 'Baixar tudo para offline',
+              onPressed: controller.isDownloadingAll.value
+                  ? null
+                  : controller.downloadAllForOffline,
+            ),
+          ),
+          Obx(
+            () => IconButton(
               icon: controller.isChecking.value
                   ? const SizedBox(
                       width: 20,
@@ -81,6 +96,20 @@ class UpdatesPage extends GetView<UpdatesController> {
                             )
                           : const Icon(Icons.refresh),
                       label: const Text('Verificar atualizações'),
+                    ),
+                    const SizedBox(height: 8),
+                    OutlinedButton.icon(
+                      onPressed: controller.isDownloadingAll.value
+                          ? null
+                          : controller.downloadAllForOffline,
+                      icon: controller.isDownloadingAll.value
+                          ? const SizedBox(
+                              width: 16,
+                              height: 16,
+                              child: CircularProgressIndicator(strokeWidth: 2),
+                            )
+                          : const Icon(Icons.download_for_offline_outlined),
+                      label: const Text('Baixar tudo para offline'),
                     ),
                   ],
                 ),

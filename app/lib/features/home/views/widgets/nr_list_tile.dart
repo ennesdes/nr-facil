@@ -13,6 +13,7 @@ class NrListTile extends StatelessWidget {
   final ManifestEntry nrEntry;
   final bool isFavorite;
   final bool hasUpdate;
+  final bool showNotDownloaded;
   final VoidCallback onTap;
   final VoidCallback onToggleFavorite;
   final bool isRevoked;
@@ -22,6 +23,7 @@ class NrListTile extends StatelessWidget {
     required this.nrEntry,
     required this.isFavorite,
     required this.hasUpdate,
+    this.showNotDownloaded = false,
     required this.onTap,
     required this.onToggleFavorite,
     this.isRevoked = false,
@@ -100,13 +102,33 @@ class NrListTile extends StatelessWidget {
         ],
       ),
       trailing: (isRevoked || hideStarButton)
-          ? null
-          : IconButton(
-              icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-              tooltip: isFavorite
-                  ? 'Remover dos favoritos'
-                  : 'Adicionar aos favoritos',
-              onPressed: onToggleFavorite,
+          ? (showNotDownloaded
+              ? Icon(
+                  Icons.cloud_download_outlined,
+                  color: theme.colorScheme.outline,
+                  size: 20,
+                )
+              : null)
+          : Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                if (showNotDownloaded)
+                  Padding(
+                    padding: const EdgeInsets.only(right: 4),
+                    child: Icon(
+                      Icons.cloud_download_outlined,
+                      color: theme.colorScheme.outline,
+                      size: 20,
+                    ),
+                  ),
+                IconButton(
+                  icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+                  tooltip: isFavorite
+                      ? 'Remover dos favoritos'
+                      : 'Adicionar aos favoritos',
+                  onPressed: onToggleFavorite,
+                ),
+              ],
             ),
     );
   }

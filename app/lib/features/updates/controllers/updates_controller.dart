@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
@@ -25,6 +27,9 @@ class UpdatesController extends GetxController {
   /// Se está verificando atualizações no momento (acionado pelo botão manual).
   final isChecking = false.obs;
 
+  /// Se está baixando todo o conteúdo offline.
+  final isDownloadingAll = false.obs;
+
   @override
   void onInit() {
     super.onInit();
@@ -51,7 +56,9 @@ class UpdatesController extends GetxController {
     final previousSyncedAt = _contentService.lastSyncedAt.value;
     final countBefore = _contentService.updatedNrs.length;
 
-    await _contentService.sync();
+    await _contentService.syncMetadata();
+    unawaited(_contentService.syncSearchIndices());
+    unawaited(_contentService.prefetchFavorites());
 
     isChecking.value = false;
 
@@ -78,6 +85,31 @@ class UpdatesController extends GetxController {
       AppSnackbar.showSuccess(title: 'Verificar atualizações', message: message);
     } else {
       AppSnackbar.showInfo(title: 'Verificar atualizações', message: message);
+    }
+  }
+
+  /// Baixar todas as NRs para uso offline (pacote completo).
+  Future<void> downloadAllForOffline() async {
+    if (isDownloadingAll.value) return;
+    isDownloadingAll.value = true;
+
+    try {
+      final ok = await _contentService.syncAllContent();
+      if (!ok) {
+        AppSnackbar.showError(
+          title: 'Download offline',
+          message: _contentService.lastError.value ??
+              'Não foi possível baixar todo o conteúdo.',
+        );
+        return;
+      }
+
+      AppSnackbar.showSuccess(
+        title: 'Download offline',
+        message: 'Todas as normas foram baixadas para uso offline.',
+      );
+    } finally {
+      isDownloadingAll.value = false;
     }
   }
 

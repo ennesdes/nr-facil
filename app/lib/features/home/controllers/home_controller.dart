@@ -45,12 +45,18 @@ class HomeController extends GetxController {
       }
     });
 
-    // Sincronizar manifest remoto em background — não bloqueia a UI,
-    // que já renderiza com o cache local existente (offline-first).
-    // Após sync completar, verificar se atualização obrigatória é necessária.
-    unawaited(
-      _contentService.sync().then((_) => _checkForcedUpdate()),
-    );
+    // Sincronização leve em background: metadados → índices de busca + favoritas.
+    unawaited(_runStartupSync());
+  }
+
+  Future<void> _runStartupSync() async {
+    final ok = await _contentService.syncMetadata();
+    if (!ok) return;
+
+    await _checkForcedUpdate();
+
+    unawaited(_contentService.syncSearchIndices());
+    unawaited(_contentService.prefetchFavorites());
   }
 
   @override

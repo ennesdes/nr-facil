@@ -23,14 +23,22 @@ import '../utils/app_logger.dart';
 ///
 /// Responsabilidades:
 /// - Baixar manifest.json do GitHub raw periodicamente
-/// - Comparar hash por NR e fazer download incremental de .md + assets
+/// - Download sob demanda: conteúdo completo só quando o usuário abre uma NR
+/// - Prefetch em background: favoritas + índices de busca leves
 /// - Cache em path_provider (getApplicationDocumentsDirectory)
-/// - Funcionar 100% offline após primeiro sync bem-sucedido
 /// - Detectar atualização: last_synced_hash vs last_seen_hash
 ///
 /// Usar via GetX: `Get.find<ContentService>()`
 /// Bindings: ContentService será injetado como permanent: true em Binding
 class ContentService extends GetxService {
+  ContentService({
+    http.Client? httpClient,
+    this._cacheDirOverride,
+  }) : _httpClientOverride = httpClient;
+
+  final http.Client? _httpClientOverride;
+  final Directory? _cacheDirOverride;
+
   late final http.Client _httpClient;
   late final Directory _cacheDir;
 
@@ -55,11 +63,18 @@ class ContentService extends GetxService {
   /// Contagem reativa de atualizações não lidas
   final unreadUpdatesCount = 0.obs;
 
+  /// Incrementado quando assets de uma NR terminam de baixar (UI reativa).
+  final RxMap<String, int> nrAssetVersions = <String, int>{}.obs;
+
+  static const int _downloadConcurrency = 3;
+
+  final Map<String, Future<void>> _pendingAssetDownloads = {};
+
   @override
   Future<void> onInit() async {
     super.onInit();
-    _httpClient = http.Client();
-    _cacheDir = await getApplicationDocumentsDirectory();
+    _httpClient = _httpClientOverride ?? http.Client();
+    _cacheDir = _cacheDirOverride ?? await getApplicationDocumentsDirectory();
     AppLogger.info('ContentService iniciado. Cache em: ${_cacheDir.path}');
 
     // Carregar manifest do cache local ao iniciar
@@ -78,20 +93,14 @@ class ContentService extends GetxService {
     super.onClose();
   }
 
-  /// Sincronizar — baixar manifest remoto e fazer download incremental de NRs.
+  /// Sincronização completa de todas as NRs (comportamento legado).
   ///
-  /// Fluxo:
-  /// 1. Baixar manifest.json do GitHub raw
-  /// 2. Para cada NR: comparar hash remoto vs cache local (via StorageKeys.nrLastSyncedHash)
-  /// 3. Se diferente: baixar .md + assets (pasta assets/)
-  /// 4. Salvar manifest no cache
-  /// 5. Atualizar lastSyncedAt
-  ///
-  /// Tratamento de erro:
-  /// - Falha de rede: continuar com manifest do cache local (offline fallback)
-  /// - Manifest inválido: loga erro, não atualiza, mantém versão anterior
-  /// - Falha numa NR específica: tenta não bloqueia outras NRs (mas por enquanto, falha a sincronização)
-  Future<bool> sync() async {
+  /// Usado pelo botão "Baixar tudo para offline". Para o boot normal, use
+  /// [syncMetadata], [syncSearchIndices] e [prefetchFavorites].
+  Future<bool> sync() => syncAllContent();
+
+  /// Baixar manifest + app_meta (boot e "Verificar atualizações").
+  Future<bool> syncMetadata() async {
     if (isSyncing.value) {
       AppLogger.warning('Sincronização já em andamento');
       return false;
@@ -101,37 +110,142 @@ class ContentService extends GetxService {
     lastError.value = null;
 
     try {
-      AppLogger.info('Iniciando sincronização de manifest...');
+      return await _fetchRemoteMetadata();
+    } catch (e, st) {
+      lastError.value = 'Erro na sincronização: $e';
+      AppLogger.error('Erro na sincronização de metadados', e, st);
+      return false;
+    } finally {
+      isSyncing.value = false;
+    }
+  }
 
-      // Baixar manifest remoto
-      final remoteManifest = await _downloadManifest();
-      if (remoteManifest == null) {
-        // Falha de rede — usar cache local se disponível
-        AppLogger.warning('Falha ao sincronizar manifest remoto. Usando cache local.');
-        if (manifest.value == null) {
-          lastError.value =
-              'Falha de rede e sem cache local. Tente novamente mais tarde.';
-          return false;
+  Future<bool> _fetchRemoteMetadata() async {
+    AppLogger.info('Iniciando sincronização de manifest...');
+
+    final remoteManifest = await _downloadManifest();
+    if (remoteManifest == null) {
+      AppLogger.warning(
+        'Falha ao sincronizar manifest remoto. Usando cache local.',
+      );
+      if (manifest.value == null) {
+        lastError.value =
+            'Falha de rede e sem cache local. Tente novamente mais tarde.';
+        return false;
+      }
+      return true;
+    }
+
+    manifest.value = remoteManifest;
+    await _downloadAppMeta();
+    await _saveManifestToCache(remoteManifest);
+
+    lastSyncedAt.value = DateTime.now();
+    GetStorage().write(
+      StorageKeys.lastSyncedAt,
+      lastSyncedAt.value!.toIso8601String(),
+    );
+    _updateUnreadCount();
+
+    AppLogger.info('Metadados sincronizados com sucesso');
+    return true;
+  }
+
+  /// Baixa search_index.json de todas as NRs não revogadas (~4 MB total).
+  Future<void> syncSearchIndices() async {
+    final currentManifest = manifest.value;
+    if (currentManifest == null) return;
+
+    final entries =
+        currentManifest.nrs.where((entry) => !entry.isRevoked).toList();
+
+    AppLogger.info('Sincronizando índices de busca (${entries.length} NRs)...');
+
+    await _forEachConcurrent(
+      entries,
+      (nrEntry) async {
+        final localHash =
+            GetStorage().read(StorageKeys.nrSearchIndexSyncedHash(nrEntry.id));
+        if (nrEntry.hash == localHash) {
+          return;
         }
-        return true; // Offline mode OK
+
+        try {
+          final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
+          if (!nrDir.existsSync()) {
+            nrDir.createSync(recursive: true);
+          }
+
+          await _downloadFile(
+            url:
+                '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
+            savePath: '${nrDir.path}/search_index.json',
+            retries: AppConfig.maxRetries,
+          );
+
+          GetStorage().write(
+            StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+            nrEntry.hash,
+          );
+        } catch (e) {
+          AppLogger.warning(
+            'Falha ao baixar search_index de ${nrEntry.id}: $e',
+          );
+        }
+      },
+    );
+
+    AppLogger.info('Índices de busca sincronizados');
+  }
+
+  /// Prefetch completo das NRs favoritas com hash desatualizado.
+  Future<void> prefetchFavorites() async {
+    if (favoriteIds.isEmpty) return;
+
+    AppLogger.info('Prefetch de ${favoriteIds.length} favorita(s)...');
+
+    for (final nrId in favoriteIds) {
+      final entry = manifest.value?.findNr(nrId);
+      if (entry == null || entry.isRevoked) continue;
+
+      final localHash = GetStorage().read(StorageKeys.nrLastSyncedHash(nrId));
+      if (entry.hash == localHash) continue;
+
+      try {
+        await _downloadNr(entry);
+      } catch (e) {
+        AppLogger.warning('Falha no prefetch de favorita $nrId: $e');
+      }
+    }
+
+    AppLogger.info('Prefetch de favoritas concluído');
+  }
+
+  /// Baixa todas as NRs não revogadas com hash diferente do cache local.
+  Future<bool> syncAllContent() async {
+    if (isSyncing.value) {
+      AppLogger.warning('Sincronização já em andamento');
+      return false;
+    }
+
+    isSyncing.value = true;
+    lastError.value = null;
+
+    try {
+      final metadataOk = await _fetchRemoteMetadata();
+      if (!metadataOk && manifest.value == null) {
+        return false;
       }
 
-      // Atualizar manifest em memória
-      manifest.value = remoteManifest;
+      final remoteManifest = manifest.value;
+      if (remoteManifest == null) return false;
 
-      // Baixar app_meta.json (feed de atualizações) em paralelo
-      // Falha não bloqueia o sync do manifest, que é essencial
-      await _downloadAppMeta();
-
-      // Para cada NR: verificar se precisa atualizar e fazer download incremental
       for (final nrEntry in remoteManifest.nrs) {
-        // Pular NRs revogadas — não fazer download
         if (nrEntry.isRevoked) {
           AppLogger.info('NR ${nrEntry.id} está revogada. Pulando download.');
           continue;
         }
 
-        // Verificar se precisa sincronizar
         final localHash =
             GetStorage().read(StorageKeys.nrLastSyncedHash(nrEntry.id));
         if (nrEntry.hash == localHash) {
@@ -143,28 +257,68 @@ class ContentService extends GetxService {
         await _downloadNr(nrEntry);
       }
 
-      // Salvar manifest no cache
-      await _saveManifestToCache(remoteManifest);
-
-      // Atualizar timestamp
-      lastSyncedAt.value = DateTime.now();
-      GetStorage().write(StorageKeys.lastSyncedAt, lastSyncedAt.value!.toIso8601String());
-
-      // Atualizar contagem de atualizações
-      _updateUnreadCount();
-
-      AppLogger.info('Sincronização concluída com sucesso');
+      AppLogger.info('Sincronização completa concluída com sucesso');
       return true;
     } catch (e, st) {
       lastError.value = 'Erro na sincronização: $e';
-      AppLogger.error('Erro na sincronização', e, st);
+      AppLogger.error('Erro na sincronização completa', e, st);
       return false;
     } finally {
       isSyncing.value = false;
     }
   }
 
-  /// Baixa uma NR específica sob demanda (quando não está em cache).
+  /// Verifica se o texto da NR (.md) está em cache e atualizado.
+  bool isNrContentCached(String nrId) {
+    final entry = manifest.value?.findNr(nrId);
+    if (entry == null) return false;
+
+    final mdFile = File('${_cacheDir.path}/content/$nrId/$nrId.md');
+    if (!mdFile.existsSync()) return false;
+
+    final coreHash = GetStorage().read(StorageKeys.nrCoreSyncedHash(nrId));
+    return entry.hash == coreHash;
+  }
+
+  /// Verifica se a NR está totalmente offline (texto + assets tentados).
+  bool isNrFullyCached(String nrId) {
+    final entry = manifest.value?.findNr(nrId);
+    if (entry == null) return false;
+
+    final syncedHash = GetStorage().read(StorageKeys.nrLastSyncedHash(nrId));
+    return entry.hash == syncedHash;
+  }
+
+  /// Baixa uma NR para leitura: core bloqueante, assets em background.
+  Future<bool> downloadNrForReading(String nrId) async {
+    final entry = manifest.value?.findNr(nrId);
+    if (entry == null) {
+      lastError.value = 'NR $nrId não encontrada no manifest';
+      return false;
+    }
+    if (entry.isRevoked) {
+      lastError.value = 'NR $nrId está revogada';
+      return false;
+    }
+
+    try {
+      if (!isNrContentCached(nrId)) {
+        await _downloadNrCore(entry);
+      }
+
+      if (!isNrFullyCached(nrId)) {
+        unawaited(_ensureAssetsDownloaded(entry));
+      }
+
+      return true;
+    } catch (e, st) {
+      lastError.value = 'Falha ao baixar $nrId: $e';
+      AppLogger.error('Erro no download para leitura de $nrId', e, st);
+      return false;
+    }
+  }
+
+  /// Baixa uma NR específica sob demanda (pacote completo).
   Future<bool> downloadNrIfNeeded(String nrId) async {
     final entry = manifest.value?.findNr(nrId);
     if (entry == null) {
@@ -176,8 +330,7 @@ class ContentService extends GetxService {
       return false;
     }
 
-    final localHash = GetStorage().read(StorageKeys.nrLastSyncedHash(nrId));
-    if (entry.hash == localHash) {
+    if (isNrFullyCached(nrId)) {
       return true;
     }
 
@@ -202,23 +355,22 @@ class ContentService extends GetxService {
     return 'Sincronizado há ${diff.inDays} dia(s)';
   }
 
-  /// Download o conteúdo de uma NR (.md + pasta assets/).
-  ///
-  /// Cria estrutura em cache:
-  /// - ${cacheDir}/content/nr-06/
-  ///   - nr-06.md
-  ///   - assets/
-  ///     - images/
-  ///     - tables/
-  ///     - pages/
-  ///
-  /// Ao final, atualiza StorageKeys.nrLastSyncedHash para rastrear que essa versão foi baixada.
+  /// Download completo de uma NR (.md + JSONs + assets).
   Future<void> _downloadNr(ManifestEntry entry) async {
+    await _downloadNrCore(entry);
+    final nrDir = Directory('${_cacheDir.path}/content/${entry.id}');
+    await _downloadAssets(nrDir, entry.id);
+    GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
+    _notifyAssetsUpdated(entry.id);
+    AppLogger.info('NR ${entry.id} sincronizada com sucesso');
+  }
+
+  /// Fase 1: texto e JSONs auxiliares (rápido — suficiente para abrir o leitor).
+  Future<void> _downloadNrCore(ManifestEntry entry) async {
     try {
       final nrDir = Directory('${_cacheDir.path}/content/${entry.id}');
       final assetsDir = Directory('${nrDir.path}/assets');
 
-      // Criar estrutura de pastas
       if (!nrDir.existsSync()) {
         nrDir.createSync(recursive: true);
       }
@@ -226,14 +378,12 @@ class ContentService extends GetxService {
         assetsDir.createSync(recursive: true);
       }
 
-      // Baixar .md principal
       await _downloadFile(
         url: entry.url,
         savePath: '${nrDir.path}/${entry.id}.md',
         retries: AppConfig.maxRetries,
       );
 
-      // Baixar JSONs auxiliares (índice, busca, estrutura)
       for (final jsonName in [
         'index.json',
         'search_index.json',
@@ -252,17 +402,70 @@ class ContentService extends GetxService {
         }
       }
 
-      // Baixar assets (images, tables, pages) referenciados no markdown
-      await _downloadAssets(nrDir, entry.id);
-
-      // Marcar como sincronizado
-      GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
-
-      AppLogger.info('NR ${entry.id} sincronizada com sucesso');
+      GetStorage().write(StorageKeys.nrCoreSyncedHash(entry.id), entry.hash);
+      GetStorage().write(
+        StorageKeys.nrSearchIndexSyncedHash(entry.id),
+        entry.hash,
+      );
     } catch (e, st) {
-      AppLogger.error('Erro ao baixar NR ${entry.id}', e, st);
-      rethrow; // Propagar erro
+      AppLogger.error('Erro ao baixar core de NR ${entry.id}', e, st);
+      rethrow;
     }
+  }
+
+  Future<void> _ensureAssetsDownloaded(ManifestEntry entry) async {
+    if (isNrFullyCached(entry.id)) return;
+
+    final pending = _pendingAssetDownloads[entry.id];
+    if (pending != null) {
+      await pending;
+      return;
+    }
+
+    final future = _downloadNrAssets(entry);
+    _pendingAssetDownloads[entry.id] = future;
+    try {
+      await future;
+    } finally {
+      _pendingAssetDownloads.remove(entry.id);
+    }
+  }
+
+  Future<void> _downloadNrAssets(ManifestEntry entry) async {
+    try {
+      final nrDir = Directory('${_cacheDir.path}/content/${entry.id}');
+      await _downloadAssets(nrDir, entry.id);
+      GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
+      _notifyAssetsUpdated(entry.id);
+      AppLogger.info('Assets de ${entry.id} sincronizados');
+    } catch (e, st) {
+      AppLogger.error('Erro ao baixar assets de ${entry.id}', e, st);
+    }
+  }
+
+  void _notifyAssetsUpdated(String nrId) {
+    nrAssetVersions[nrId] = (nrAssetVersions[nrId] ?? 0) + 1;
+    nrAssetVersions.refresh();
+  }
+
+  Future<void> _forEachConcurrent<T>(
+    List<T> items,
+    Future<void> Function(T item) action, {
+    int concurrency = _downloadConcurrency,
+  }) async {
+    if (items.isEmpty) return;
+
+    var index = 0;
+    Future<void> worker() async {
+      while (true) {
+        final currentIndex = index++;
+        if (currentIndex >= items.length) return;
+        await action(items[currentIndex]);
+      }
+    }
+
+    final workerCount = concurrency.clamp(1, items.length);
+    await Future.wait(List.generate(workerCount, (_) => worker()));
   }
 
   /// Download dos assets (imagens/tabelas) referenciados no `.md` de uma NR.
@@ -318,24 +521,26 @@ class ContentService extends GetxService {
       structureJson: structureJson,
     );
 
-    for (final relativePath in relativePaths) {
-      try {
-        final savePath = '${nrDir.path}/$relativePath';
-        final saveDir = File(savePath).parent;
-        if (!saveDir.existsSync()) {
-          saveDir.createSync(recursive: true);
-        }
+    await _forEachConcurrent(
+      relativePaths.toList(),
+      (relativePath) async {
+        try {
+          final savePath = '${nrDir.path}/$relativePath';
+          final saveDir = File(savePath).parent;
+          if (!saveDir.existsSync()) {
+            saveDir.createSync(recursive: true);
+          }
 
-        await _downloadFile(
-          url: '${AppConfig.contentBaseUrl}/$nrId/$relativePath',
-          savePath: savePath,
-          retries: AppConfig.maxRetries,
-        );
-      } catch (e) {
-        AppLogger.warning('Falha ao baixar asset $relativePath de $nrId: $e');
-        // Continuar com os demais assets — uma imagem faltando não impede a leitura do texto
-      }
-    }
+          await _downloadFile(
+            url: '${AppConfig.contentBaseUrl}/$nrId/$relativePath',
+            savePath: savePath,
+            retries: AppConfig.maxRetries,
+          );
+        } catch (e) {
+          AppLogger.warning('Falha ao baixar asset $relativePath de $nrId: $e');
+        }
+      },
+    );
   }
 
   /// Baixar um arquivo remoto para o cache local.
@@ -738,14 +943,30 @@ class ContentService extends GetxService {
   ///
   /// Atualiza lista reativa e persiste em storage.
   void toggleFavorite(String nrId) {
-    if (favoriteIds.contains(nrId)) {
+    final wasFavorite = favoriteIds.contains(nrId);
+    if (wasFavorite) {
       favoriteIds.remove(nrId);
       AppLogger.debug('NR $nrId removida dos favoritos');
     } else {
       favoriteIds.add(nrId);
       AppLogger.debug('NR $nrId adicionada aos favoritos');
+      unawaited(_prefetchSingleFavorite(nrId));
     }
     GetStorage().write(StorageKeys.favoriteNrs, favoriteIds.toList());
+  }
+
+  Future<void> _prefetchSingleFavorite(String nrId) async {
+    final entry = manifest.value?.findNr(nrId);
+    if (entry == null || entry.isRevoked) return;
+
+    final localHash = GetStorage().read(StorageKeys.nrLastSyncedHash(nrId));
+    if (entry.hash == localHash) return;
+
+    try {
+      await _downloadNr(entry);
+    } catch (e) {
+      AppLogger.warning('Falha no prefetch de favorita $nrId: $e');
+    }
   }
 
   /// Reordenar favoritos (usado em ReorderableListView.onReorderItem).

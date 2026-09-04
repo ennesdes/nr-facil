@@ -39,6 +39,15 @@ class FakeContentService implements ContentService {
   Future<bool> sync() async => _syncResult;
 
   @override
+  Future<bool> syncMetadata() async => _syncResult;
+
+  @override
+  Future<void> syncSearchIndices() async {}
+
+  @override
+  Future<void> prefetchFavorites() async {}
+
+  @override
   Future<void> onClose() async {}
 
   @override
