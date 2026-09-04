@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500" role="img" aria-label="NR Fácil feature graphic">
+  <rect width="1024" height="500" fill="#FAFBFC"/>
+  <g transform="translate(80, 90)">
+    <rect width="320" height="320" rx="24" ry="24" fill="#0F5C4E"/>
+    <g fill="#FFFFFF" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="600">
+      <text x="160" y="138" text-anchor="middle" font-size="76">NR</text>
+    </g>
+    <g stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="9" stroke-linecap="round">
+      <line x1="96" y1="164" x2="224" y2="164"/>
+      <line x1="108" y1="184" x2="212" y2="184"/>
+      <line x1="120" y1="204" x2="200" y2="204"/>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, Helvetica, sans-serif" fill="#1A1C1E">
+    <text x="440" y="210" font-size="64" font-weight="600">NR</text>
+    <text x="560" y="210" font-size="64" font-weight="400">Fácil</text>
+    <text x="440" y="280" font-size="28" font-weight="400" fill="#5C6670">Consulte NRs oficiais offline,</text>
+    <text x="440" y="320" font-size="28" font-weight="400" fill="#5C6670">com busca rápida</text>
+  </g>
+</svg>

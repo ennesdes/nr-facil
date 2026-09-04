@@ -123,7 +123,9 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
     if (query.isEmpty) {
       return Text(
         'Busque por seção, item ou palavra-chave',
-        style: TextStyle(color: Colors.grey[600], fontSize: 13),
+        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
       );
     }
 
@@ -141,7 +143,9 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
     if (count == 0) {
       return Text(
         'Nenhum resultado para "$query"',
-        style: TextStyle(color: Colors.grey[600], fontSize: 13),
+        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
       );
     }
 

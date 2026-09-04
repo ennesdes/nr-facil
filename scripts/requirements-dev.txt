@@ -1,0 +1,2 @@
+# Dependências opcionais para desenvolvimento (não usadas no pipeline de NRs).
+Pillow>=10.0.0

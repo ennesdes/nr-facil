@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/updates/controllers/updates_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
@@ -60,60 +62,43 @@ class UpdatesPage extends GetView<UpdatesController> {
 
           // Estado vazio
           if (updates.isEmpty) {
-            return Center(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Icon(
-                      Icons.notifications_off_outlined,
-                      size: 48,
-                      color: Colors.grey,
-                    ),
-                    const SizedBox(height: 16),
-                    Text(
-                      'Nenhuma atualização disponível',
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.bodyLarge,
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Suas normas estão em dia.',
-                      textAlign: TextAlign.center,
-                      style: Theme.of(context).textTheme.bodySmall,
-                    ),
-                    const SizedBox(height: 16),
-                    ElevatedButton.icon(
-                      onPressed: controller.isChecking.value
-                          ? null
-                          : controller.checkForUpdates,
-                      icon: controller.isChecking.value
-                          ? const SizedBox(
-                              width: 16,
-                              height: 16,
-                              child: CircularProgressIndicator(strokeWidth: 2),
-                            )
-                          : const Icon(Icons.refresh),
-                      label: const Text('Verificar atualizações'),
-                    ),
-                    const SizedBox(height: 8),
-                    OutlinedButton.icon(
-                      onPressed: controller.isDownloadingAll.value
-                          ? null
-                          : controller.downloadAllForOffline,
-                      icon: controller.isDownloadingAll.value
-                          ? const SizedBox(
-                              width: 16,
-                              height: 16,
-                              child: CircularProgressIndicator(strokeWidth: 2),
-                            )
-                          : const Icon(Icons.download_for_offline_outlined),
-                      label: const Text('Baixar tudo para offline'),
-                    ),
-                  ],
+            return EmptyState(
+              icon: Icons.notifications_off_outlined,
+              title: 'Nenhuma atualização disponível',
+              body: 'Suas normas estão em dia.',
+              actions: [
+                Obx(
+                  () => FilledButton.icon(
+                    onPressed: controller.isChecking.value
+                        ? null
+                        : controller.checkForUpdates,
+                    icon: controller.isChecking.value
+                        ? const SizedBox(
+                            width: 16,
+                            height: 16,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          )
+                        : const Icon(Icons.refresh),
+                    label: const Text('Verificar atualizações'),
+                  ),
                 ),
-              ),
+                const SizedBox(height: AppSpacing.sm),
+                Obx(
+                  () => OutlinedButton.icon(
+                    onPressed: controller.isDownloadingAll.value
+                        ? null
+                        : controller.downloadAllForOffline,
+                    icon: controller.isDownloadingAll.value
+                        ? const SizedBox(
+                            width: 16,
+                            height: 16,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          )
+                        : const Icon(Icons.download_for_offline_outlined),
+                    label: const Text('Baixar tudo para offline'),
+                  ),
+                ),
+              ],
             );
           }
 
@@ -164,17 +149,16 @@ class _UpdateDetailCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: Container(
         decoration: BoxDecoration(
-          color: Theme.of(context).brightness == Brightness.dark
-              ? Colors.grey[900]
-              : Colors.grey[50],
+          color: colorScheme.surfaceContainerHighest,
           borderRadius: BorderRadius.circular(8),
           border: Border.all(
-            color: Colors.grey.withValues(alpha: 0.2),
+            color: colorScheme.outline.withValues(alpha: 0.5),
           ),
         ),
         child: Padding(
@@ -189,7 +173,7 @@ class _UpdateDetailCard extends StatelessWidget {
                   child: Text(
                     'Atualizado em ${_formatDate(updateEntry.createdAt!)}',
                     style: textTheme.bodySmall?.copyWith(
-                      color: Colors.grey[600],
+                      color: colorScheme.onSurfaceVariant,
                     ),
                   ),
                 ),

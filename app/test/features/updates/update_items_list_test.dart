@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
+import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
 
 void main() {
   group('UpdateItemsList Widget', () {
-    testWidgets('renderiza lista vazia sem erro', (WidgetTester tester) async {
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: []),
-          ),
-        ),
+    Widget wrap(Widget child) {
+      return MaterialApp(
+        theme: AppTheme.light,
+        home: Scaffold(body: child),
       );
+    }
 
-      // Não deve renderizar nada visível (retorna SizedBox.shrink())
+    testWidgets('renderiza lista vazia sem erro', (WidgetTester tester) async {
+      await tester.pumpWidget(wrap(const UpdateItemsList(items: [])));
       expect(find.byType(UpdateItemsList), findsOneWidget);
     });
 
-    testWidgets('renderiza item único com emoji "novo"',
+    testWidgets('renderiza item tipo novo com ícone semântico',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
@@ -28,20 +28,14 @@ void main() {
         ),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('🆕'), findsOneWidget);
+      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
       expect(find.text('6.5'), findsOneWidget);
       expect(find.text('Novo requisito adicionado'), findsOneWidget);
     });
 
-    testWidgets('renderiza item único com emoji "removido"',
+    testWidgets('renderiza item tipo removido com ícone semântico',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
@@ -51,20 +45,14 @@ void main() {
         ),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('❌'), findsOneWidget);
+      expect(find.byIcon(Icons.remove_circle_outline), findsOneWidget);
       expect(find.text('6.21'), findsOneWidget);
       expect(find.text('Requisito descontinuado'), findsOneWidget);
     });
 
-    testWidgets('renderiza item único com emoji "alterado"',
+    testWidgets('renderiza item tipo alterado com ícone semântico',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
@@ -74,15 +62,9 @@ void main() {
         ),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('✏️'), findsOneWidget);
+      expect(find.byIcon(Icons.edit_outlined), findsOneWidget);
       expect(find.text('6.1'), findsOneWidget);
       expect(find.text('Texto atualizado para maior clareza'), findsOneWidget);
     });
@@ -90,92 +72,51 @@ void main() {
     testWidgets('renderiza múltiplos itens de tipos diferentes',
         (WidgetTester tester) async {
       final items = [
-        UpdateItem(
-          item: '6.1',
-          tipo: 'novo',
-          resumo: 'Novo artigo',
-        ),
-        UpdateItem(
-          item: '6.5',
-          tipo: 'alterado',
-          resumo: 'Modificação importante',
-        ),
-        UpdateItem(
-          item: '6.21',
-          tipo: 'removido',
-          resumo: 'Item removido',
-        ),
+        UpdateItem(item: '6.1', tipo: 'novo', resumo: 'Novo artigo'),
+        UpdateItem(item: '6.5', tipo: 'alterado', resumo: 'Modificação importante'),
+        UpdateItem(item: '6.21', tipo: 'removido', resumo: 'Item removido'),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('🆕'), findsOneWidget);
-      expect(find.text('✏️'), findsOneWidget);
-      expect(find.text('❌'), findsOneWidget);
-
+      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
+      expect(find.byIcon(Icons.edit_outlined), findsOneWidget);
+      expect(find.byIcon(Icons.remove_circle_outline), findsOneWidget);
       expect(find.text('6.1'), findsOneWidget);
       expect(find.text('6.5'), findsOneWidget);
       expect(find.text('6.21'), findsOneWidget);
-
-      expect(find.text('Novo artigo'), findsOneWidget);
-      expect(find.text('Modificação importante'), findsOneWidget);
-      expect(find.text('Item removido'), findsOneWidget);
     });
 
     testWidgets('renderiza item sem resumo corretamente',
         (WidgetTester tester) async {
       final items = [
-        UpdateItem(
-          item: '6.5',
-          tipo: 'novo',
-          resumo: '', // Resumo vazio
-        ),
+        UpdateItem(item: '6.5', tipo: 'novo', resumo: ''),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('🆕'), findsOneWidget);
+      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
       expect(find.text('6.5'), findsOneWidget);
-      // Não renderiza container de resumo se vazio
     });
 
     testWidgets('respeta padding customizado', (WidgetTester tester) async {
       final items = [
-        UpdateItem(
-          item: '6.5',
-          tipo: 'novo',
-          resumo: 'Teste',
-        ),
+        UpdateItem(item: '6.5', tipo: 'novo', resumo: 'Teste'),
       ];
 
       await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(
-              items: items,
-              padding: const EdgeInsets.all(32),
-            ),
+        wrap(
+          UpdateItemsList(
+            items: items,
+            padding: const EdgeInsets.all(32),
           ),
         ),
       );
 
-      expect(find.text('🆕'), findsOneWidget);
-      // O widget deve estar renderizado com o padding aplicado
+      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
     });
 
-    testWidgets('renderiza com tipo desconhecido usando emoji padrão',
+    testWidgets('renderiza tipo desconhecido com ícone padrão',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
@@ -185,15 +126,9 @@ void main() {
         ),
       ];
 
-      await tester.pumpWidget(
-        MaterialApp(
-          home: Scaffold(
-            body: UpdateItemsList(items: items),
-          ),
-        ),
-      );
+      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.text('•'), findsOneWidget); // Emoji padrão
+      expect(find.byIcon(Icons.circle), findsOneWidget);
       expect(find.text('6.5'), findsOneWidget);
       expect(find.text('Tipo não mapeado'), findsOneWidget);
     });

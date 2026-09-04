@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
+import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
@@ -44,7 +45,6 @@ class NRReaderController extends GetxController {
   final isLoading = true.obs;
   final error = Rxn<String>();
   final fontSize = 14.0.obs;
-  final isDarkMode = false.obs;
   final isIndexOpen = false.obs;
   late final Rx<bool> _isFavorite;
   final showUpdateBanner = false.obs;
@@ -96,12 +96,10 @@ class NRReaderController extends GetxController {
     if (storedSize != null) {
       fontSize.value = storedSize.toDouble().clamp(12, 20);
     }
-    isDarkMode.value = GetStorage().read<bool>(StorageKeys.readerDarkMode) ?? false;
   }
 
   void _persistReaderPreferences() {
     GetStorage().write(StorageKeys.readerFontSize, fontSize.value);
-    GetStorage().write(StorageKeys.readerDarkMode, isDarkMode.value);
   }
 
   void _expandInitialSections() {
@@ -304,8 +302,7 @@ class NRReaderController extends GetxController {
   }
 
   void toggleDarkMode() {
-    isDarkMode.value = !isDarkMode.value;
-    _persistReaderPreferences();
+    Get.find<ThemeController>().toggleDarkMode();
   }
   void toggleIndex() => isIndexOpen.value = !isIndexOpen.value;
 

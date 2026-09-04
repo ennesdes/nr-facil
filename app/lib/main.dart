@@ -6,12 +6,16 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'core/bindings/app_binding.dart';
 import 'core/constants/app_config.dart';
+import 'core/controllers/theme_controller.dart';
+import 'core/theme/app_theme.dart';
 import 'features/home/views/home_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await GetStorage.init();
+
+  Get.put(ThemeController(), permanent: true);
 
   if (AppConfig.adsEnabled && !kIsWeb) {
     await MobileAds.instance.initialize();
@@ -20,20 +24,21 @@ Future<void> main() async {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends GetView<ThemeController> {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'NR Fácil',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+    return Obx(
+      () => GetMaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'NR Fácil',
+        theme: AppTheme.light,
+        darkTheme: AppTheme.dark,
+        themeMode: controller.themeMode.value,
+        initialBinding: AppBinding(),
+        home: const HomePage(),
       ),
-      initialBinding: AppBinding(),
-      home: const HomePage(),
     );
   }
 }

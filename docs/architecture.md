@@ -164,6 +164,17 @@ Detecção de mudança usa `hash` (do markdown convertido), **não** `pdf_hash` 
 - App → só lê via GitHub raw HTTP
 - `generate_summary()` nunca interpola um campo que pode ser `None` diretamente — gera resumo curto a partir da contagem/tipo de `items[]` (ex.: "2 itens alterados"), não mais "Seções alteradas: 6.3, 6.9" nem datas cruas do manifest
 
+## Identidade visual
+
+Documentação de marca e design system (não implementados no código ainda — tema atual é placeholder `Colors.deepPurple`):
+
+| Documento | Conteúdo |
+|-----------|----------|
+| [brand.md](brand.md) | Posicionamento, logo, paleta, tipografia, tom de voz, restrições legais, assets Play Store |
+| [design-system.md](design-system.md) | Tokens (cor, tipografia, espaçamento), specs de componentes, mapeamento Flutter, checklist de migração |
+
+Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica governamental. Tipografia: Inter. Modo escuro global via `ThemeController` (system / light / dark), com atalho no leitor e tela de Ajustes na app bar.
+
 ## App Flutter
 
 ### Navegação

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
 
 /// Card "Continuar leitura" — exibir última NR aberta.
 ///
@@ -17,21 +18,21 @@ class ContinuarLeituraCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.all(16),
+      margin: const EdgeInsets.all(AppSpacing.md),
       child: InkWell(
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(AppSpacing.md),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 'Continuar leitura',
                 style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: Colors.grey[600],
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: AppSpacing.sm),
               Text(
                 nrEntry.title,
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
@@ -40,12 +41,12 @@ class ContinuarLeituraCard extends StatelessWidget {
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: AppSpacing.sm),
               Align(
                 alignment: Alignment.centerRight,
                 child: Icon(
                   Icons.arrow_forward,
-                  color: Theme.of(context).primaryColor,
+                  color: Theme.of(context).colorScheme.primary,
                 ),
               ),
             ],

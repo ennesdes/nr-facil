@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
 import '../../features/home/controllers/home_controller.dart';
+import '../controllers/theme_controller.dart';
 import '../services/content_service.dart';
 import '../services/search_service.dart';
 import '../services/storage_service.dart';
@@ -28,6 +29,13 @@ import '../services/storage_service.dart';
 class AppBinding extends Bindings {
   @override
   void dependencies() {
+    if (!Get.isRegistered<ThemeController>()) {
+      Get.put<ThemeController>(
+        ThemeController(),
+        permanent: true,
+      );
+    }
+
     // StorageService — gerencia GetStorage local
     Get.put<StorageService>(
       StorageService(),

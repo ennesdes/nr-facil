@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
+import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
 import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 
@@ -9,6 +10,7 @@ void main() {
     testWidgets('renderiza item numerado com badge', (tester) async {
       await tester.pumpWidget(
         MaterialApp(
+          theme: AppTheme.light,
           home: Scaffold(
             body: NrBlockRenderer(
               block: const NrItemBlock(
@@ -17,7 +19,6 @@ void main() {
                 text: 'Texto do item normativo.',
               ),
               fontSize: 14,
-              isDarkMode: false,
               nrId: 'nr-06',
             ),
           ),
@@ -31,6 +32,7 @@ void main() {
     testWidgets('renderiza lista com alíneas', (tester) async {
       await tester.pumpWidget(
         MaterialApp(
+          theme: AppTheme.light,
           home: Scaffold(
             body: NrBlockRenderer(
               block: NrListBlock(
@@ -40,7 +42,6 @@ void main() {
                 ],
               ),
               fontSize: 14,
-              isDarkMode: false,
               nrId: 'nr-06',
             ),
           ),
@@ -55,6 +56,7 @@ void main() {
     testWidgets('renderiza tabela markdown com colunas', (tester) async {
       await tester.pumpWidget(
         MaterialApp(
+          theme: AppTheme.light,
           home: Scaffold(
             body: NrBlockRenderer(
               block: NrTableBlock(
@@ -62,7 +64,6 @@ void main() {
                     '|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTP|06/07/78|',
               ),
               fontSize: 14,
-              isDarkMode: false,
               nrId: 'nr-06',
               highlightQuery: 'Portaria',
             ),

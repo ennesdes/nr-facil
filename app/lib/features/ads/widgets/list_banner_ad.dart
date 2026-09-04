@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 
 /// Banner AdMob para telas de lista (Favoritos, Todos, Busca).
@@ -52,11 +53,14 @@ class _ListBannerAdState extends State<ListBannerAd> {
       return const SizedBox.shrink();
     }
 
-    return SafeArea(
-      child: SizedBox(
-        width: _bannerAd!.size.width.toDouble(),
-        height: _bannerAd!.size.height.toDouble(),
-        child: AdWidget(ad: _bannerAd!),
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: AppSpacing.md),
+      child: SafeArea(
+        child: SizedBox(
+          width: _bannerAd!.size.width.toDouble(),
+          height: _bannerAd!.size.height.toDouble(),
+          child: AdWidget(ad: _bannerAd!),
+        ),
       ),
     );
   }

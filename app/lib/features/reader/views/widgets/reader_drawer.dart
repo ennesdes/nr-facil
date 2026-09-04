@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/empty_state.dart';
 
 /// Drawer de navegação com seções, subitens e campo "Ir para item".
 class ReaderDrawer extends StatefulWidget {
@@ -37,62 +39,59 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
   @override
   Widget build(BuildContext context) {
     final structure = widget.structure;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Drawer(
+      backgroundColor: colorScheme.surface,
       child: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+              padding: const EdgeInsets.fromLTRB(
+                AppSpacing.md,
+                AppSpacing.md,
+                AppSpacing.md,
+                AppSpacing.sm,
+              ),
               child: Text(
                 'Índice',
                 style: Theme.of(context).textTheme.titleLarge,
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+              padding: const EdgeInsets.symmetric(
+                horizontal: AppSpacing.md,
+                vertical: AppSpacing.xs,
+              ),
               child: Row(
                 children: [
                   Expanded(
                     child: TextField(
                       controller: _itemController,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Ir para item (ex.: 6.5.1)',
                         isDense: true,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(8),
-                        ),
-                        contentPadding: const EdgeInsets.symmetric(
-                          horizontal: 12,
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: AppSpacing.sm,
                           vertical: 10,
                         ),
                       ),
                       textInputAction: TextInputAction.go,
-                      onSubmitted: (value) {
-                        final trimmed = value.trim();
-                        if (trimmed.isEmpty) return;
-                        widget.onNavigateToItem(trimmed);
-                        Navigator.of(context).pop();
-                      },
+                      onSubmitted: _submitItem,
                     ),
                   ),
-                  const SizedBox(width: 8),
+                  const SizedBox(width: AppSpacing.sm),
                   IconButton(
                     tooltip: 'Ir',
-                    onPressed: () {
-                      final trimmed = _itemController.text.trim();
-                      if (trimmed.isEmpty) return;
-                      widget.onNavigateToItem(trimmed);
-                      Navigator.of(context).pop();
-                    },
+                    onPressed: () => _submitItem(_itemController.text),
                     icon: const Icon(Icons.arrow_forward),
                   ),
                 ],
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8),
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm),
               child: Row(
                 children: [
                   TextButton.icon(
@@ -108,7 +107,7 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
                 ],
               ),
             ),
-            const Divider(height: 1),
+            Divider(height: 1, color: colorScheme.outline.withValues(alpha: 0.5)),
             Expanded(
               child: structure != null && structure.sections.isNotEmpty
                   ? _buildStructureList(structure)
@@ -120,8 +119,18 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
     );
   }
 
+  void _submitItem(String value) {
+    final trimmed = value.trim();
+    if (trimmed.isEmpty) return;
+    widget.onNavigateToItem(trimmed);
+    Navigator.of(context).pop();
+  }
+
   Widget _buildStructureList(NrStructure structure) {
+    final textTheme = Theme.of(context).textTheme;
+
     return ListView(
+      padding: const EdgeInsets.only(bottom: AppSpacing.md),
       children: [
         if (structure.preamble.blocks.isNotEmpty)
           ListTile(
@@ -142,7 +151,7 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
             return ListTile(
               title: Text(
                 section.displayTitle,
-                style: const TextStyle(fontWeight: FontWeight.w600),
+                style: textTheme.titleSmall,
               ),
               onTap: () {
                 widget.onNavigate(section.id);
@@ -154,11 +163,10 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
           return ExpansionTile(
             title: Text(
               section.displayTitle,
-              style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
+              style: textTheme.titleSmall,
             ),
             children: [
               ListTile(
-                dense: true,
                 title: Text('Seção ${section.number}'),
                 onTap: () {
                   widget.onNavigate(section.id);
@@ -167,11 +175,13 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
               ),
               ...items.map(
                 (item) => ListTile(
-                  dense: true,
-                  title: Text(item.number),
+                  title: Text(
+                    item.number,
+                    style: textTheme.labelMedium,
+                  ),
                   subtitle: Text(
                     item.text,
-                    maxLines: 1,
+                    maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
                   onTap: () {
@@ -190,10 +200,15 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
   Widget _buildLegacyIndex() {
     final headings = widget.legacyIndex?.headings ?? [];
     if (headings.isEmpty) {
-      return const Center(child: Text('Índice indisponível'));
+      return const EmptyState(
+        icon: Icons.list_alt,
+        title: 'Índice indisponível',
+        body: 'O índice desta NR não pôde ser carregado.',
+      );
     }
 
     return ListView.builder(
+      padding: const EdgeInsets.only(bottom: AppSpacing.md),
       itemCount: headings.length,
       itemBuilder: (context, index) {
         final heading = headings[index];

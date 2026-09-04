@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="NR Fácil mark">
+  <g fill="#FFFFFF" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="600">
+    <text x="256" y="215" text-anchor="middle" font-size="120">NR</text>
+  </g>
+  <g stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="14" stroke-linecap="round">
+    <line x1="166" y1="255" x2="346" y2="255"/>
+    <line x1="186" y1="286" x2="326" y2="286"/>
+    <line x1="206" y1="317" x2="306" y2="317"/>
+  </g>
+</svg>

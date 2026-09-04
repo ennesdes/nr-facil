@@ -1,41 +1,34 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
 
 /// Banner dispensável indicando que a NR foi atualizada.
-///
-/// Exibe um ícone de atualização, texto curto e dois CTA:
-/// - Botão X: fechar o banner (dispensa sem visualizar)
-/// - Botão "Ver o que mudou": abrir bottom sheet com itens granulares
-///
-/// Tanto disparir quanto abrir o CTA chama dismissUpdateBanner(),
-/// que marca a NR como vista e oculta o banner.
-///
-/// Se a UpdateEntry não houver itens granulares, mostra o summary
-/// como texto simples dentro do bottom sheet.
 class UpdateBanner extends GetView<NRReaderController> {
   const UpdateBanner({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.blue[50],
+    final semantics = context.semanticColors;
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: semantics.infoContainer,
+        border: Border(
+          bottom: BorderSide(color: semantics.info.withValues(alpha: 0.4)),
+        ),
+      ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         child: Row(
           children: [
-            // Ícone de atualização
             Padding(
               padding: const EdgeInsets.only(right: 12),
-              child: Icon(
-                Icons.update,
-                color: Colors.blue[700],
-              ),
+              child: Icon(Icons.update, color: semantics.info),
             ),
-
-            // Texto: "Esta NR foi atualizada"
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,7 +37,7 @@ class UpdateBanner extends GetView<NRReaderController> {
                     'Esta NR foi atualizada',
                     style: Theme.of(context).textTheme.labelLarge?.copyWith(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue[900],
+                          color: colorScheme.onSurface,
                         ),
                   ),
                   Padding(
@@ -52,27 +45,21 @@ class UpdateBanner extends GetView<NRReaderController> {
                     child: Text(
                       'Toque para ver o que mudou',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Colors.blue[700],
+                            color: semantics.info,
                           ),
                     ),
                   ),
                 ],
               ),
             ),
-
-            // CTA "Ver o que mudou" (link azul)
             TextButton(
               onPressed: () => _showUpdateDetails(context),
               child: const Text('Ver'),
             ),
-
-            // Botão de fechar (X)
             IconButton(
               icon: const Icon(Icons.close),
               tooltip: 'Dispensar',
               onPressed: controller.dismissUpdateBanner,
-              iconSize: 20,
-              constraints: const BoxConstraints(minWidth: 32, minHeight: 32),
             ),
           ],
         ),
@@ -80,9 +67,9 @@ class UpdateBanner extends GetView<NRReaderController> {
     );
   }
 
-  /// Abrir bottom sheet com detalhes da atualização.
   void _showUpdateDetails(BuildContext context) {
     final updateEntry = controller.getUpdateEntry();
+    final colorScheme = Theme.of(context).colorScheme;
 
     showModalBottomSheet(
       context: context,
@@ -96,7 +83,6 @@ class UpdateBanner extends GetView<NRReaderController> {
           return Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              // Header com título
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
                 child: Column(
@@ -114,23 +100,19 @@ class UpdateBanner extends GetView<NRReaderController> {
                         child: Text(
                           'Atualizado em ${_formatDate(updateEntry.createdAt!)}',
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                color: Colors.grey[600],
+                                color: colorScheme.onSurfaceVariant,
                               ),
                         ),
                       ),
                   ],
                 ),
               ),
-
-              // Conteúdo: items ou summary
               Expanded(
                 child: SingleChildScrollView(
                   controller: scrollController,
                   child: _buildUpdateContent(context, updateEntry),
                 ),
               ),
-
-              // Botão de fechar
               Padding(
                 padding: const EdgeInsets.all(16),
                 child: SizedBox(
@@ -150,11 +132,9 @@ class UpdateBanner extends GetView<NRReaderController> {
       ),
     );
 
-    // Também dismissir o banner ao abrir o CTA (se ainda não foi)
     controller.dismissUpdateBanner();
   }
 
-  /// Construir conteúdo do bottom sheet: items ou summary.
   Widget _buildUpdateContent(BuildContext context, UpdateEntry? updateEntry) {
     if (updateEntry == null) {
       return Padding(
@@ -166,12 +146,10 @@ class UpdateBanner extends GetView<NRReaderController> {
       );
     }
 
-    // Se houver items, mostrar a lista granular
     if (updateEntry.items.isNotEmpty) {
       return UpdateItemsList(items: updateEntry.items);
     }
 
-    // Fallback: mostrar summary como texto
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
@@ -209,7 +187,6 @@ class UpdateBanner extends GetView<NRReaderController> {
     );
   }
 
-  /// Formatar data para exibição (ex: "26 de agosto de 2026")
   String _formatDate(DateTime date) {
     const months = [
       'janeiro',

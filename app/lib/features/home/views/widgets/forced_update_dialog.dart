@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -19,15 +20,26 @@ class ForcedUpdateDialog extends StatelessWidget {
     return PopScope(
       canPop: false,
       child: AlertDialog(
+        icon: Icon(
+          Icons.system_update_alt,
+          size: 48,
+          color: Theme.of(context).colorScheme.error,
+        ),
         title: const Text('Atualização obrigatória'),
         content: const Text(
           'Uma nova versão do NR Fácil é necessária para continuar usando o app. '
           'Por favor, atualize na Play Store.',
         ),
         actions: [
-          FilledButton(
-            onPressed: () => _openPlayStore(),
-            child: const Text('Atualizar'),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton(
+              onPressed: () => _openPlayStore(),
+              child: const Padding(
+                padding: EdgeInsets.symmetric(vertical: AppSpacing.xs),
+                child: Text('Atualizar na Play Store'),
+              ),
+            ),
           ),
         ],
       ),

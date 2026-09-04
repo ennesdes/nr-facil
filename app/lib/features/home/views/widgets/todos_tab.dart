@@ -45,16 +45,17 @@ class _TodosTabState extends State<TodosTab> {
             contentService.manifest.value!.nrs.isNotEmpty;
 
         if (!hasManifest && syncError != null) {
+          final colorScheme = Theme.of(context).colorScheme;
           return Center(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(
+                  Icon(
                     Icons.error_outline,
                     size: 48,
-                    color: Colors.red,
+                    color: colorScheme.error,
                   ),
                   const SizedBox(height: 16),
                   Text(

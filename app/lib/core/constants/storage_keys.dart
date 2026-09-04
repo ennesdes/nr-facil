@@ -27,5 +27,10 @@ class StorageKeys {
 
   // Preferências do leitor
   static const String readerFontSize = '${_prefix}reader_font_size';
+
+  /// Legado — migrado para [appThemeMode] na inicialização do [ThemeController].
   static const String readerDarkMode = '${_prefix}reader_dark_mode';
+
+  // Tema global (system | light | dark)
+  static const String appThemeMode = '${_prefix}app_theme_mode';
 }

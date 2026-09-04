@@ -1,10 +1,12 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/main.dart';
 
 class _FakePathProviderPlatform extends PathProviderPlatform
@@ -29,10 +31,12 @@ void main() {
     tempDir = await Directory.systemTemp.createTemp('nrfacil_test_');
     PathProviderPlatform.instance = _FakePathProviderPlatform(tempDir.path);
     await GetStorage.init();
+    Get.put(ThemeController(), permanent: true);
   });
 
   tearDown(() async {
     await tempDir.delete(recursive: true);
+    Get.reset();
   });
 
   testWidgets('shows HomePage with Favoritos and Todos tabs', (WidgetTester tester) async {

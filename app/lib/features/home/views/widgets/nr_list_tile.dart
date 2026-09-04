@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/nr_badge.dart';
 
 /// Tile para exibir uma NR em lista.
-///
-/// Mostra:
-/// - Número da NR (NR-06) + título completo em múltiplas linhas
-/// - Badge "Revogada" se isRevoked
-/// - Badge "🆕" se hasUpdate
-/// - Ícone de estrela para toggle favorito (desabilitado se revogado)
-/// - Tap handler
 class NrListTile extends StatelessWidget {
   final ManifestEntry nrEntry;
   final bool isFavorite;
@@ -34,18 +29,22 @@ class NrListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
 
-    return ListTile(
+    final tile = ListTile(
       onTap: onTap,
-      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+      contentPadding: const EdgeInsets.symmetric(
+        horizontal: AppSpacing.md,
+        vertical: AppSpacing.sm,
+      ),
+      minVerticalPadding: AppSpacing.sm,
       title: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             nrEntry.nrLabel,
-            style: theme.textTheme.titleSmall?.copyWith(
-              fontWeight: FontWeight.w700,
-              color: theme.colorScheme.primary,
+            style: theme.textTheme.titleMedium?.copyWith(
+              color: colorScheme.primary,
             ),
           ),
           const SizedBox(width: 10),
@@ -58,40 +57,13 @@ class NrListTile extends StatelessWidget {
                   style: theme.textTheme.bodyLarge,
                 ),
                 if (hasUpdate || isRevoked) ...[
-                  const SizedBox(height: 4),
+                  const SizedBox(height: AppSpacing.xs),
                   Row(
                     children: [
-                      if (hasUpdate)
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 6,
-                            vertical: 2,
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.amber,
-                            borderRadius: BorderRadius.circular(4),
-                          ),
-                          child: const Text(
-                            '🆕',
-                            style: TextStyle(fontSize: 12),
-                          ),
-                        ),
+                      if (hasUpdate) const NrBadge(variant: NrBadgeVariant.update),
                       if (isRevoked) ...[
-                        if (hasUpdate) const SizedBox(width: 8),
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 6,
-                            vertical: 2,
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.grey[400],
-                            borderRadius: BorderRadius.circular(4),
-                          ),
-                          child: const Text(
-                            'Revogada',
-                            style: TextStyle(fontSize: 10, color: Colors.grey),
-                          ),
-                        ),
+                        if (hasUpdate) const SizedBox(width: AppSpacing.sm),
+                        const NrBadge(variant: NrBadgeVariant.revoked),
                       ],
                     ],
                   ),
@@ -104,8 +76,8 @@ class NrListTile extends StatelessWidget {
       trailing: (isRevoked || hideStarButton)
           ? (showNotDownloaded
               ? Icon(
-                  Icons.cloud_download_outlined,
-                  color: theme.colorScheme.outline,
+                  Icons.cloud_off,
+                  color: colorScheme.outline,
                   size: 20,
                 )
               : null)
@@ -114,15 +86,18 @@ class NrListTile extends StatelessWidget {
               children: [
                 if (showNotDownloaded)
                   Padding(
-                    padding: const EdgeInsets.only(right: 4),
+                    padding: const EdgeInsets.only(right: AppSpacing.xs),
                     child: Icon(
-                      Icons.cloud_download_outlined,
-                      color: theme.colorScheme.outline,
+                      Icons.cloud_off,
+                      color: colorScheme.outline,
                       size: 20,
                     ),
                   ),
                 IconButton(
                   icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+                  color: isFavorite
+                      ? colorScheme.primary
+                      : colorScheme.onSurfaceVariant,
                   tooltip: isFavorite
                       ? 'Remover dos favoritos'
                       : 'Adicionar aos favoritos',
@@ -131,5 +106,9 @@ class NrListTile extends StatelessWidget {
               ],
             ),
     );
+
+    if (!isRevoked) return tile;
+
+    return Opacity(opacity: 0.55, child: tile);
   }
 }

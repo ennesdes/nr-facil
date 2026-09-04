@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_markdown_fallback_body.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_reader_search_sheet.dart';
@@ -19,15 +20,19 @@ class NRReaderPage extends GetView<NRReaderController> {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(() => _buildScaffold(context));
+    return Obx(() {
+      // Rebuild ao alternar tema global ou estado do controller.
+      Get.find<ThemeController>().themeMode.value;
+      return _buildScaffold(context);
+    });
   }
 
   Widget _buildScaffold(BuildContext context) {
-    final isDark = controller.isDarkMode.value;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
       key: controller.scaffoldKey,
-      backgroundColor: isDark ? const Color(0xFF121212) : null,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: ReaderAppBar(
         nrId: nrId,
         isFavorite: controller.isFavorite,
@@ -60,13 +65,14 @@ class NRReaderPage extends GetView<NRReaderController> {
     }
 
     if (controller.error.value != null) {
+      final colorScheme = Theme.of(context).colorScheme;
       return Center(
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.error_outline, size: 48, color: Colors.red),
+              Icon(Icons.error_outline, size: 48, color: colorScheme.error),
               const SizedBox(height: 16),
               Text(
                 controller.error.value!,
@@ -91,7 +97,6 @@ class NRReaderPage extends GetView<NRReaderController> {
     }
 
     final fontSize = controller.fontSize.value;
-    final isDark = controller.isDarkMode.value;
     final banner = controller.showUpdateBanner.value
         ? const UpdateBanner()
         : null;
@@ -102,7 +107,6 @@ class NRReaderPage extends GetView<NRReaderController> {
         nrEntry: controller.nrEntry.value,
         nrId: nrId,
         fontSize: fontSize,
-        isDarkMode: isDark,
         scrollController: controller.scrollController,
         sectionKeyFor: controller.sectionKeyFor,
         banner: banner,
@@ -114,7 +118,6 @@ class NRReaderPage extends GetView<NRReaderController> {
       nrId: nrId,
       nrEntry: controller.nrEntry.value,
       fontSize: fontSize,
-      isDarkMode: isDark,
       scrollController: controller.scrollController,
       onRegisterHeadingKey: controller.registerHeadingKey,
       banner: banner,

@@ -3,6 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../theme/app_spacing.dart';
+import '../theme/app_theme_extensions.dart';
+
 enum _AppSnackbarVariant { success, info, warning, error }
 
 /// Snackbar único do app — nunca `Get.snackbar` / `SnackBar` inline, sempre
@@ -182,17 +185,26 @@ class _AppSnackbarOverlayState extends State<_AppSnackbarOverlay>
     super.dispose();
   }
 
-  ({IconData icon, Color color}) _semantics(ColorScheme scheme) => switch (widget.variant) {
-        _AppSnackbarVariant.success => (icon: Icons.check_circle_rounded, color: Colors.green.shade600),
-        _AppSnackbarVariant.warning => (icon: Icons.warning_amber_rounded, color: Colors.orange.shade700),
-        _AppSnackbarVariant.error => (icon: Icons.error_rounded, color: scheme.error),
-        _AppSnackbarVariant.info => (icon: Icons.info_rounded, color: scheme.primary),
-      };
+  ({IconData icon, Color color}) _semantics(BuildContext context, ColorScheme scheme) {
+    final semantics = context.semanticColors;
+    return switch (widget.variant) {
+      _AppSnackbarVariant.success => (
+          icon: Icons.check_circle_rounded,
+          color: semantics.success,
+        ),
+      _AppSnackbarVariant.warning => (
+          icon: Icons.warning_amber_rounded,
+          color: semantics.warning,
+        ),
+      _AppSnackbarVariant.error => (icon: Icons.error_rounded, color: scheme.error),
+      _AppSnackbarVariant.info => (icon: Icons.info_rounded, color: semantics.info),
+    };
+  }
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final semantics = _semantics(theme.colorScheme);
+    final semantics = _semantics(context, theme.colorScheme);
     final bottomInset = MediaQuery.viewPaddingOf(context).bottom;
 
     return Material(
@@ -216,7 +228,7 @@ class _AppSnackbarOverlayState extends State<_AppSnackbarOverlay>
                   child: Material(
                     color: theme.colorScheme.surfaceContainerHigh,
                     elevation: 6,
-                    borderRadius: BorderRadius.circular(12),
+                    borderRadius: BorderRadius.circular(AppRadius.md),
                     child: ConstrainedBox(
                       constraints: const BoxConstraints(minHeight: 56),
                       child: Padding(

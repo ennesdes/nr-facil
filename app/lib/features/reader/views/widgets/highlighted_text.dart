@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
+
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
 
-/// Texto com o termo de busca destacado (fundo amarelo).
+/// Texto com o termo de busca destacado.
 class HighlightedText extends StatelessWidget {
   final String text;
   final String? highlight;
@@ -63,7 +65,7 @@ class HighlightedText extends StatelessWidget {
         TextSpan(
           text: matched,
           style: baseStyle.copyWith(
-            backgroundColor: Colors.amber.withValues(alpha: 0.55),
+            backgroundColor: context.searchHighlightColor,
             fontWeight: FontWeight.w600,
           ),
         ),

@@ -36,4 +36,8 @@ class AppConfig {
 
   /// Habilitar banners em listas (Favoritos/Todos/Busca). Nunca no leitor.
   static const bool adsEnabled = true;
+
+  /// Política de privacidade (GitHub Pages). Ver docs/procedures/08-github-pages-privacidade.md
+  static const String privacyPolicyUrl =
+      'https://ennesdes.github.io/nr-facil/privacy-policy';
 }

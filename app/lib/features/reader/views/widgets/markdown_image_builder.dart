@@ -154,15 +154,17 @@ class NrMarkdownImageBuilder extends StatelessWidget {
   }
 
   Widget _buildPlaceholder(BuildContext context, String message) {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Container(
       constraints: const BoxConstraints(
         maxHeight: 200,
         minHeight: 100,
       ),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey[300]!),
+        border: Border.all(color: colorScheme.outline),
         borderRadius: BorderRadius.circular(4),
-        color: Colors.grey[100],
+        color: colorScheme.surfaceContainerHighest,
       ),
       margin: const EdgeInsets.symmetric(vertical: 8.0),
       child: Center(
@@ -172,16 +174,15 @@ class NrMarkdownImageBuilder extends StatelessWidget {
             Icon(
               Icons.image_not_supported,
               size: 48,
-              color: Colors.grey[400],
+              color: colorScheme.onSurfaceVariant.withValues(alpha: 0.5),
             ),
             const SizedBox(height: 8),
             Text(
               message,
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 12,
-                color: Colors.grey[600],
-              ),
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                  ),
             ),
           ],
         ),

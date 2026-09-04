@@ -7,7 +7,6 @@ import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
 class NrSectionCard extends StatelessWidget {
   final NrSection section;
   final double fontSize;
-  final bool isDarkMode;
   final String nrId;
   final bool isExpanded;
   final ValueChanged<bool> onExpansionChanged;
@@ -17,7 +16,6 @@ class NrSectionCard extends StatelessWidget {
   const NrSectionCard({
     required this.section,
     required this.fontSize,
-    required this.isDarkMode,
     required this.nrId,
     required this.isExpanded,
     required this.onExpansionChanged,
@@ -28,18 +26,15 @@ class NrSectionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
-    final cardColor = isDarkMode ? const Color(0xFF1E1E1E) : Colors.white;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Card(
-      color: cardColor,
-      elevation: isDarkMode ? 0 : 1,
+      color: colorScheme.surfaceContainer,
+      elevation: 0,
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
-        side: BorderSide(
-          color: isDarkMode ? Colors.white12 : Colors.grey.shade200,
-        ),
+        side: BorderSide(color: colorScheme.outline.withValues(alpha: 0.5)),
       ),
       clipBehavior: Clip.antiAlias,
       child: Theme(
@@ -53,18 +48,17 @@ class NrSectionCard extends StatelessWidget {
           title: HighlightedText(
             text: section.displayTitle,
             highlight: highlightQuery,
-            style: TextStyle(
-              fontSize: fontSize + 2,
-              fontWeight: FontWeight.bold,
-              color: textColor,
-            ),
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  fontSize: fontSize + 2,
+                  color: colorScheme.onSurface,
+                ),
           ),
           subtitle: Text(
             '${section.blocks.length} trecho(s)',
-            style: TextStyle(
-              fontSize: fontSize - 2,
-              color: isDarkMode ? Colors.white54 : Colors.black45,
-            ),
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  fontSize: fontSize - 2,
+                  color: colorScheme.onSurfaceVariant,
+                ),
           ),
           children: [
             for (var i = 0; i < section.blocks.length; i++)
@@ -73,7 +67,6 @@ class NrSectionCard extends StatelessWidget {
                 child: NrBlockRenderer(
                   block: section.blocks[i],
                   fontSize: fontSize,
-                  isDarkMode: isDarkMode,
                   nrId: nrId,
                   highlightQuery: highlightQuery,
                 ),

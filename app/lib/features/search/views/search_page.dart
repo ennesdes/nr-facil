@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/theme/app_spacing.dart';
+import '../../../core/widgets/empty_state.dart';
 import '../../ads/widgets/list_banner_ad.dart';
 import '../../reader/bindings/reader_binding.dart';
 import '../../reader/views/nr_reader_page.dart';
@@ -32,7 +34,7 @@ class SearchPage extends GetView<SearchScreenController> {
           children: [
             // Campo de busca
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(AppSpacing.md),
               child: TextField(
                 controller: controller.queryController,
                 autofocus: true,
@@ -48,10 +50,10 @@ class SearchPage extends GetView<SearchScreenController> {
                         : const SizedBox.shrink(),
                   ),
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8),
+                    borderRadius: BorderRadius.circular(AppRadius.sm),
                   ),
                   contentPadding: const EdgeInsets.symmetric(
-                    horizontal: 16,
+                    horizontal: AppSpacing.md,
                     vertical: 12,
                   ),
                 ),
@@ -59,7 +61,7 @@ class SearchPage extends GetView<SearchScreenController> {
             ),
 
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
               child: Obx(
                 () => Wrap(
                   spacing: 8,
@@ -99,26 +101,10 @@ class SearchPage extends GetView<SearchScreenController> {
 
                   // Vazio inicial
                   if (!controller.hasSearched.value) {
-                    return Center(
-                      child: Padding(
-                        padding: const EdgeInsets.all(32.0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.search,
-                              size: 64,
-                              color: Colors.grey[300],
-                            ),
-                            const SizedBox(height: 16),
-                            Text(
-                              'Digite para buscar',
-                              style: Theme.of(context).textTheme.bodyLarge,
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
-                        ),
-                      ),
+                    return const EmptyState(
+                      icon: Icons.search,
+                      title: 'Digite para buscar',
+                      body: 'Busque por número, título ou trecho normativo',
                     );
                   }
 
@@ -131,32 +117,10 @@ class SearchPage extends GetView<SearchScreenController> {
 
                   // Sem resultados
                   if (controller.results.isEmpty) {
-                    return Center(
-                      child: Padding(
-                        padding: const EdgeInsets.all(32.0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Icon(
-                              Icons.not_interested,
-                              size: 64,
-                              color: Colors.grey[300],
-                            ),
-                            const SizedBox(height: 16),
-                            Text(
-                              'Nenhum resultado encontrado',
-                              style: Theme.of(context).textTheme.bodyLarge,
-                              textAlign: TextAlign.center,
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              'Tente outro termo de busca',
-                              style: Theme.of(context).textTheme.bodySmall,
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
-                        ),
-                      ),
+                    return const EmptyState(
+                      icon: Icons.not_interested,
+                      title: 'Nenhum resultado encontrado',
+                      body: 'Tente outro termo de busca',
                     );
                   }
 

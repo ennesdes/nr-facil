@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 
 /// Snippet de texto com termo de busca destacado (case-insensitive).
 class NrSearchSnippet extends StatelessWidget {
@@ -59,7 +60,7 @@ class NrSearchSnippet extends StatelessWidget {
             text: matchedText,
             style: baseStyle?.copyWith(
               fontWeight: FontWeight.bold,
-              color: Colors.blue,
+              backgroundColor: context.searchHighlightColor,
             ),
           ),
           TextSpan(

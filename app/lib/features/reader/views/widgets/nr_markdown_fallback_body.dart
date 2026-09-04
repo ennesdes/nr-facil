@@ -14,7 +14,6 @@ class NrMarkdownFallbackBody extends StatelessWidget {
   final String nrId;
   final ManifestEntry? nrEntry;
   final double fontSize;
-  final bool isDarkMode;
   final ScrollController scrollController;
   final void Function(String headingText, GlobalKey key) onRegisterHeadingKey;
   final Widget? banner;
@@ -24,14 +23,16 @@ class NrMarkdownFallbackBody extends StatelessWidget {
     required this.nrId,
     required this.nrEntry,
     required this.fontSize,
-    required this.isDarkMode,
     required this.scrollController,
     required this.onRegisterHeadingKey,
     this.banner,
     super.key,
   });
 
-  MarkdownStyleSheet _styleSheet(Color textColor) {
+  MarkdownStyleSheet _styleSheet(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final textColor = colorScheme.onSurface;
+
     return MarkdownStyleSheet(
       h1: TextStyle(
         fontSize: fontSize + 8,
@@ -69,7 +70,6 @@ class NrMarkdownFallbackBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = Get.find<NRReaderController>();
     final sections = splitMarkdownBySections(content);
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
 
     return Obx(() {
       final highlightQuery = controller.activeHighlightQuery.value;
@@ -91,7 +91,7 @@ class NrMarkdownFallbackBody extends StatelessWidget {
                 child: SearchableMarkdownBody(
                   data: section.markdownContent,
                   highlightQuery: highlightQuery,
-                  styleSheet: _styleSheet(textColor),
+                  styleSheet: _styleSheet(context),
                   nrId: nrId,
                   onTapLink: (text, href, title) {
                     if (href != null) launchUrl(Uri.parse(href));
@@ -102,7 +102,6 @@ class NrMarkdownFallbackBody extends StatelessWidget {
             ReaderFooter(
               nrId: nrId,
               nrEntry: nrEntry,
-              isDarkMode: isDarkMode,
             ),
           ],
         ),

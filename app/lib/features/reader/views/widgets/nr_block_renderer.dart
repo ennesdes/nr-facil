@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dart';
@@ -11,14 +12,12 @@ import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.d
 class NrBlockRenderer extends StatelessWidget {
   final NrBlock block;
   final double fontSize;
-  final bool isDarkMode;
   final String nrId;
   final String? highlightQuery;
 
   const NrBlockRenderer({
     required this.block,
     required this.fontSize,
-    required this.isDarkMode,
     required this.nrId,
     this.highlightQuery,
     super.key,
@@ -32,19 +31,18 @@ class NrBlockRenderer extends StatelessWidget {
           depth: item.depth,
           text: stripInlineMarkup(item.text),
           fontSize: fontSize,
-          isDarkMode: isDarkMode,
           highlightQuery: highlightQuery,
         ),
-      NrListBlock list => _buildList(list),
-      NrTableBlock table => _buildTable(table),
-      NrImageBlock image => _buildImage(image),
-      NrNoteBlock note => _buildNote(note),
-      NrParagraphBlock paragraph => _buildParagraph(paragraph),
+      NrListBlock list => _buildList(context, list),
+      NrTableBlock table => _buildTable(context, table),
+      NrImageBlock image => _buildImage(context, image),
+      NrNoteBlock note => _buildNote(context, note),
+      NrParagraphBlock paragraph => _buildParagraph(context, paragraph),
     };
   }
 
-  Widget _buildList(NrListBlock list) {
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
+  Widget _buildList(BuildContext context, NrListBlock list) {
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Padding(
       padding: const EdgeInsets.only(left: 8, top: 4, bottom: 4),
@@ -63,7 +61,7 @@ class NrBlockRenderer extends StatelessWidget {
                     style: TextStyle(
                       fontSize: fontSize,
                       fontWeight: FontWeight.w600,
-                      color: textColor,
+                      color: colorScheme.onSurface,
                     ),
                   ),
                 ),
@@ -73,7 +71,7 @@ class NrBlockRenderer extends StatelessWidget {
                     highlight: highlightQuery,
                     style: TextStyle(
                       fontSize: fontSize,
-                      color: textColor,
+                      color: colorScheme.onSurface,
                       height: 1.6,
                     ),
                   ),
@@ -86,8 +84,9 @@ class NrBlockRenderer extends StatelessWidget {
     );
   }
 
-  Widget _buildTable(NrTableBlock table) {
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
+  Widget _buildTable(BuildContext context, NrTableBlock table) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final textColor = colorScheme.onSurface;
 
     return LayoutBuilder(
       builder: (context, constraints) {
@@ -117,8 +116,8 @@ class NrBlockRenderer extends StatelessWidget {
     );
   }
 
-  Widget _buildImage(NrImageBlock image) {
-    final captionColor = isDarkMode ? Colors.white70 : Colors.black54;
+  Widget _buildImage(BuildContext context, NrImageBlock image) {
+    final colorScheme = Theme.of(context).colorScheme;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -131,7 +130,7 @@ class NrBlockRenderer extends StatelessWidget {
                 Icon(
                   Icons.table_chart_outlined,
                   size: fontSize,
-                  color: captionColor,
+                  color: colorScheme.onSurfaceVariant,
                 ),
                 const SizedBox(width: 6),
                 Expanded(
@@ -140,7 +139,7 @@ class NrBlockRenderer extends StatelessWidget {
                     style: TextStyle(
                       fontSize: fontSize - 1,
                       fontStyle: FontStyle.italic,
-                      color: captionColor,
+                      color: colorScheme.onSurfaceVariant,
                     ),
                   ),
                 ),
@@ -156,8 +155,8 @@ class NrBlockRenderer extends StatelessWidget {
     );
   }
 
-  Widget _buildNote(NrNoteBlock note) {
-    final textColor = isDarkMode ? Colors.amber[200] : Colors.amber[900];
+  Widget _buildNote(BuildContext context, NrNoteBlock note) {
+    final semantics = context.semanticColors;
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
@@ -167,20 +166,20 @@ class NrBlockRenderer extends StatelessWidget {
         style: TextStyle(
           fontSize: fontSize - 1,
           fontStyle: FontStyle.italic,
-          color: textColor,
+          color: semantics.warning,
         ),
       ),
     );
   }
 
-  Widget _buildParagraph(NrParagraphBlock paragraph) {
+  Widget _buildParagraph(BuildContext context, NrParagraphBlock paragraph) {
     final text = paragraph.text;
     if (text.trim().isEmpty) return const SizedBox.shrink();
 
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
+    final colorScheme = Theme.of(context).colorScheme;
     final baseStyle = TextStyle(
       fontSize: fontSize,
-      color: textColor,
+      color: colorScheme.onSurface,
       height: 1.6,
     );
 

@@ -1,72 +1,59 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Footer fixo no final de cada NR.
-///
-/// Exibe:
-/// - Link para visualizar PDF original no MTE
-/// - Aviso legal: o app complementa, nunca substitui, a publicação oficial
 class ReaderFooter extends StatelessWidget {
   final String nrId;
   final ManifestEntry? nrEntry;
-  final bool isDarkMode;
 
   const ReaderFooter({
     required this.nrId,
     required this.nrEntry,
-    required this.isDarkMode,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return Container(
-      color: isDarkMode ? Color(0xFF2E2E2E) : Colors.grey[100],
-      padding: const EdgeInsets.all(16.0),
+      color: colorScheme.surfaceContainerHigh,
+      padding: const EdgeInsets.all(AppSpacing.md),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Link para PDF original
           if (nrEntry?.pdfUrl != null) ...[
             _buildPdfLink(context),
-            const SizedBox(height: 12),
+            const SizedBox(height: AppSpacing.sm + AppSpacing.xs),
           ],
-
-          // Aviso legal
           _buildLegalDisclaimer(context),
-
-          const SizedBox(height: 8),
-
-          // Dados da NR
-          if (nrEntry != null) ...[
-            _buildNrMetadata(context),
-          ],
+          const SizedBox(height: AppSpacing.sm),
+          if (nrEntry != null) _buildNrMetadata(context),
         ],
       ),
     );
   }
 
   Widget _buildPdfLink(BuildContext context) {
+    final semantics = context.semanticColors;
+
     return InkWell(
       onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
       child: Row(
         children: [
-          Icon(
-            Icons.picture_as_pdf,
-            color: Colors.red,
-            size: 20,
-          ),
-          const SizedBox(width: 8),
+          Icon(Icons.picture_as_pdf, color: semantics.info, size: 20),
+          const SizedBox(width: AppSpacing.sm),
           Expanded(
             child: Text(
               'Ver PDF original no MTE',
-              style: TextStyle(
-                color: Colors.blue[isDarkMode ? 300 : 600],
-                decoration: TextDecoration.underline,
-                fontSize: 12,
-              ),
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: semantics.info,
+                    decoration: TextDecoration.underline,
+                  ),
             ),
           ),
         ],
@@ -75,23 +62,26 @@ class ReaderFooter extends StatelessWidget {
   }
 
   Widget _buildLegalDisclaimer(BuildContext context) {
-    final textColor = isDarkMode ? Colors.white70 : Colors.black54;
-
     return Text(
       'Este aplicativo disponibiliza conteúdo público oficial das Normas '
       'Regulamentadoras do Ministério do Trabalho e Emprego. O conteúdo não '
       'substitui a consulta às publicações oficiais no portal gov.br.',
-      style: TextStyle(
-        fontSize: 11,
-        color: textColor,
-        fontStyle: FontStyle.italic,
-        height: 1.4,
-      ),
+      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+            color: Theme.of(context).colorScheme.onSurfaceVariant,
+            fontStyle: FontStyle.italic,
+            height: 1.4,
+          ),
     );
   }
 
   Widget _buildNrMetadata(BuildContext context) {
-    final textColor = isDarkMode ? Colors.white54 : Colors.black45;
+    final textTheme = Theme.of(context).textTheme;
+    final textColor = Theme.of(context).colorScheme.onSurfaceVariant;
+    final semantics = context.semanticColors;
+    final metadataStyle = textTheme.bodySmall?.copyWith(color: textColor);
+    final metadataItalicStyle = metadataStyle?.copyWith(
+      fontStyle: FontStyle.italic,
+    );
     final entry = nrEntry;
 
     if (entry == null) return const SizedBox.shrink();
@@ -99,43 +89,36 @@ class ReaderFooter extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Divider(color: textColor),
-        const SizedBox(height: 4),
+        Divider(color: textColor.withValues(alpha: 0.5)),
+        const SizedBox(height: AppSpacing.xs),
         if (entry.portaria != null && entry.portaria!.trim().isNotEmpty)
-          Text(
-            'Portaria: ${entry.portaria}',
-            style: TextStyle(fontSize: 10, color: textColor),
-          )
+          Text('Portaria: ${entry.portaria}', style: metadataStyle)
         else
           Text(
             'Portaria: conferir no PDF oficial',
-            style: TextStyle(fontSize: 10, color: textColor, fontStyle: FontStyle.italic),
+            style: metadataItalicStyle,
           ),
         if (entry.publicadoEm != null)
-          Text(
-            'Publicado em: ${entry.publicadoEm}',
-            style: TextStyle(fontSize: 10, color: textColor),
-          ),
+          Text('Publicado em: ${entry.publicadoEm}', style: metadataStyle),
         if (entry.vigenteSde != null)
-          Text(
-            'Vigente desde: ${entry.vigenteSde}',
-            style: TextStyle(fontSize: 10, color: textColor),
-          )
+          Text('Vigente desde: ${entry.vigenteSde}', style: metadataStyle)
         else if (entry.portaria == null || entry.publicadoEm == null)
           Text(
             'Datas de vigência: conferir no PDF oficial',
-            style: TextStyle(fontSize: 10, color: textColor, fontStyle: FontStyle.italic),
+            style: metadataItalicStyle,
           ),
         if (entry.reviewed == true)
           Padding(
-            padding: const EdgeInsets.only(top: 4),
+            padding: const EdgeInsets.only(top: AppSpacing.xs),
             child: Row(
               children: [
-                Icon(Icons.verified, size: 12, color: Colors.green.shade600),
-                const SizedBox(width: 4),
+                Icon(Icons.verified, size: 12, color: semantics.success),
+                const SizedBox(width: AppSpacing.xs),
                 Text(
                   'Conteúdo revisado',
-                  style: TextStyle(fontSize: 10, color: Colors.green.shade700),
+                  style: textTheme.bodySmall?.copyWith(
+                    color: semantics.success,
+                  ),
                 ),
               ],
             ),

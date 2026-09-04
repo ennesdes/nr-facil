@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
 
@@ -10,6 +11,7 @@ void main() {
 
     await tester.pumpWidget(
       MaterialApp(
+        theme: AppTheme.light,
         home: Scaffold(
           appBar: ReaderAppBar(
             nrId: 'nr-06',

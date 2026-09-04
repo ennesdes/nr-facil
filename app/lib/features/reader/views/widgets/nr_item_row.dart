@@ -7,7 +7,6 @@ class NrItemRow extends StatelessWidget {
   final int depth;
   final String text;
   final double fontSize;
-  final bool isDarkMode;
   final String? highlightQuery;
 
   const NrItemRow({
@@ -15,21 +14,13 @@ class NrItemRow extends StatelessWidget {
     required this.depth,
     required this.text,
     required this.fontSize,
-    required this.isDarkMode,
     this.highlightQuery,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    final textColor = isDarkMode ? Colors.white : Colors.black87;
-    final badgeColor = isDarkMode
-        ? Theme.of(context).colorScheme.primaryContainer
-        : Theme.of(context).colorScheme.primary.withValues(alpha: 0.1);
-    final badgeTextColor = isDarkMode
-        ? Theme.of(context).colorScheme.onPrimaryContainer
-        : Theme.of(context).colorScheme.primary;
-
+    final colorScheme = Theme.of(context).colorScheme;
     final indent = (depth - 1) * 12.0;
 
     return Padding(
@@ -44,7 +35,7 @@ class NrItemRow extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
             decoration: BoxDecoration(
-              color: badgeColor,
+              color: colorScheme.primaryContainer,
               borderRadius: BorderRadius.circular(4),
             ),
             child: Text(
@@ -52,7 +43,7 @@ class NrItemRow extends StatelessWidget {
               style: TextStyle(
                 fontSize: fontSize - 2,
                 fontWeight: FontWeight.bold,
-                color: badgeTextColor,
+                color: colorScheme.onPrimaryContainer,
               ),
             ),
           ),
@@ -64,7 +55,7 @@ class NrItemRow extends StatelessWidget {
               selectable: true,
               style: TextStyle(
                 fontSize: fontSize,
-                color: textColor,
+                color: colorScheme.onSurface,
                 height: 1.6,
               ),
             ),

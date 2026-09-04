@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:markdown/markdown.dart' as md;
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/features/reader/utils/markdown_highlight_utils.dart';
 import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dart';
 
@@ -26,13 +27,11 @@ class SearchableMarkdownBody extends StatelessWidget {
   });
 
   static final _highlightSyntax = SearchHighlightSyntax();
-  static final _highlightBuilders = <String, MarkdownElementBuilder>{
-    'searchhl': SearchHighlightBuilder(),
-  };
 
   @override
   Widget build(BuildContext context) {
     final processed = injectMarkdownHighlights(data, highlightQuery);
+    final highlightColor = context.searchHighlightColor;
 
     return MarkdownBody(
       data: processed,
@@ -40,7 +39,9 @@ class SearchableMarkdownBody extends StatelessWidget {
       softLineBreak: softLineBreak,
       styleSheet: styleSheet,
       inlineSyntaxes: [_highlightSyntax],
-      builders: _highlightBuilders,
+      builders: {
+        'searchhl': SearchHighlightBuilder(highlightColor: highlightColor),
+      },
       onTapLink: onTapLink,
       sizedImageBuilder: sizedImageBuilder ??
           (nrId == null
@@ -66,6 +67,10 @@ class SearchHighlightSyntax extends md.InlineSyntax {
 }
 
 class SearchHighlightBuilder extends MarkdownElementBuilder {
+  SearchHighlightBuilder({required this.highlightColor});
+
+  final Color highlightColor;
+
   @override
   Widget visitElementAfter(md.Element element, TextStyle? preferredStyle) {
     final baseStyle = preferredStyle ?? const TextStyle();
@@ -73,7 +78,7 @@ class SearchHighlightBuilder extends MarkdownElementBuilder {
       TextSpan(
         text: element.textContent,
         style: baseStyle.copyWith(
-          backgroundColor: Colors.amber.withValues(alpha: 0.55),
+          backgroundColor: highlightColor,
           fontWeight: FontWeight.w600,
         ),
       ),

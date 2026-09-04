@@ -1,50 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 
-/// Widget que renderiza uma lista de itens granulares de atualização.
+/// Lista de itens granulares de uma atualização de NR.
 ///
-/// Usado na tela de Atualizações (Fase 4) e no banner do leitor (Fase 5).
-/// Cada item é exibido como: ícone/emoji por tipo + identificador (ex: "6.5") + resumo.
-///
-/// - 🆕 para tipo "novo"
-/// - ❌ para tipo "removido"
-/// - ✏️ para tipo "alterado"
-///
-/// Sem dependência de contexto específico — recebe dados prontos via construtor.
+/// Cada linha: ícone semântico por tipo + identificador (ex: "6.5") + resumo.
 class UpdateItemsList extends StatelessWidget {
-  /// Lista de itens granulares a renderizar
   final List<UpdateItem> items;
-
-  /// Padding externo (padrão: 16dp em todos os lados)
   final EdgeInsets padding;
-
-  /// Espaçamento entre itens (padrão: 12dp)
   final double itemSpacing;
 
   const UpdateItemsList({
     required this.items,
-    this.padding = const EdgeInsets.all(16),
+    this.padding = const EdgeInsets.all(AppSpacing.md),
     this.itemSpacing = 12,
     super.key,
   });
 
-  /// Retornar emoji correspondente ao tipo de mudança
-  String _getEmojiForType(String tipo) {
-    switch (tipo.toLowerCase()) {
-      case 'novo':
-        return '🆕';
-      case 'removido':
-        return '❌';
-      case 'alterado':
-        return '✏️';
-      default:
-        return '•';
-    }
+  static ({IconData icon, Color color}) _iconForType(
+    BuildContext context,
+    String tipo,
+  ) {
+    final semantics = context.semanticColors;
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return switch (tipo.toLowerCase()) {
+      'novo' => (icon: Icons.add_circle_outline, color: semantics.success),
+      'removido' => (icon: Icons.remove_circle_outline, color: colorScheme.error),
+      'alterado' => (icon: Icons.edit_outlined, color: semantics.warning),
+      _ => (icon: Icons.circle, color: colorScheme.onSurfaceVariant),
+    };
   }
 
   @override
   Widget build(BuildContext context) {
-    // Se a lista está vazia, não renderizar nada
     if (items.isEmpty) {
       return const SizedBox.shrink();
     }
@@ -69,37 +59,30 @@ class UpdateItemsList extends StatelessWidget {
     );
   }
 
-  /// Construir uma linha de item individual
   Widget _buildItemRow(BuildContext context, UpdateItem item) {
     final textTheme = Theme.of(context).textTheme;
+    final iconData = _iconForType(context, item.tipo);
 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // Emoji por tipo
         Padding(
-          padding: const EdgeInsets.only(right: 12, top: 2),
-          child: Text(
-            _getEmojiForType(item.tipo),
-            style: const TextStyle(fontSize: 16),
-          ),
+          padding: const EdgeInsets.only(right: AppSpacing.sm, top: 2),
+          child: Icon(iconData.icon, size: 20, color: iconData.color),
         ),
-        // Item + resumo
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Item identificador (ex: "6.5") em destaque
               Text(
                 item.item,
                 style: textTheme.labelMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              // Resumo da mudança
               if (item.resumo.isNotEmpty)
                 Padding(
-                  padding: const EdgeInsets.only(top: 4),
+                  padding: const EdgeInsets.only(top: AppSpacing.xs),
                   child: Text(
                     item.resumo,
                     style: textTheme.bodySmall,

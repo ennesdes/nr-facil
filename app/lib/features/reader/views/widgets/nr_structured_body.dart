@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_preamble_section.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_reader_header.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_section_card.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_footer.dart';
-import 'package:nrfacil/core/models/manifest.dart';
 
 /// Corpo estruturado do leitor com SliverList lazy e seções recolhíveis.
 class NrStructuredBody extends StatelessWidget {
@@ -14,7 +14,6 @@ class NrStructuredBody extends StatelessWidget {
   final ManifestEntry? nrEntry;
   final String nrId;
   final double fontSize;
-  final bool isDarkMode;
   final ScrollController scrollController;
   final GlobalKey Function(String sectionId) sectionKeyFor;
   final Widget? banner;
@@ -24,7 +23,6 @@ class NrStructuredBody extends StatelessWidget {
     required this.nrEntry,
     required this.nrId,
     required this.fontSize,
-    required this.isDarkMode,
     required this.scrollController,
     required this.sectionKeyFor,
     this.banner,
@@ -34,10 +32,10 @@ class NrStructuredBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<NRReaderController>();
-    final bgColor = isDarkMode ? const Color(0xFF121212) : Colors.grey.shade50;
+    final colorScheme = Theme.of(context).colorScheme;
 
     return ColoredBox(
-      color: bgColor,
+      color: colorScheme.surface,
       child: CustomScrollView(
         controller: scrollController,
         slivers: [
@@ -49,7 +47,6 @@ class NrStructuredBody extends StatelessWidget {
                     ? structure.title
                     : (nrEntry?.title ?? nrId),
                 nrEntry: nrEntry,
-                isDarkMode: isDarkMode,
                 highlightQuery: controller.activeHighlightQuery.value,
               ),
             ),
@@ -59,7 +56,6 @@ class NrStructuredBody extends StatelessWidget {
               child: NrPreambleSection(
                 preamble: structure.preamble,
                 fontSize: fontSize,
-                isDarkMode: isDarkMode,
                 nrId: nrId,
                 isExpanded: controller.isPreambleExpanded.value,
                 highlightQuery: controller.activeHighlightQuery.value,
@@ -72,10 +68,10 @@ class NrStructuredBody extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
               child: Text(
                 '${structure.sections.length} seções — toque para expandir',
-                style: TextStyle(
-                  fontSize: fontSize - 2,
-                  color: isDarkMode ? Colors.white54 : Colors.black45,
-                ),
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      fontSize: fontSize - 2,
+                      color: colorScheme.onSurfaceVariant,
+                    ),
               ),
             ),
           ),
@@ -95,7 +91,6 @@ class NrStructuredBody extends StatelessWidget {
                       child: NrSectionCard(
                         section: section,
                         fontSize: fontSize,
-                        isDarkMode: isDarkMode,
                         nrId: nrId,
                         isExpanded: expanded,
                         highlightQuery: highlightQuery,
@@ -119,7 +114,6 @@ class NrStructuredBody extends StatelessWidget {
             child: ReaderFooter(
               nrId: nrId,
               nrEntry: nrEntry,
-              isDarkMode: isDarkMode,
             ),
           ),
         ],

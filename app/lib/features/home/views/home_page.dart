@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
 import 'package:nrfacil/features/home/views/widgets/todos_tab.dart';
 import 'package:nrfacil/features/search/views/search_page.dart';
+import 'package:nrfacil/features/settings/views/settings_page.dart';
 import 'package:nrfacil/features/updates/bindings/updates_binding.dart';
 import 'package:nrfacil/features/updates/views/updates_page.dart';
 
@@ -33,7 +35,12 @@ class HomePage extends GetView<HomeController> {
                 Get.to(() => const SearchPage());
               },
             ),
-            _buildNotificationsBell(),
+            _buildNotificationsBell(context),
+            IconButton(
+              icon: const Icon(Icons.settings_outlined),
+              tooltip: 'Ajustes',
+              onPressed: () => Get.to(() => const SettingsPage()),
+            ),
           ],
           bottom: controller.contentService.isSyncing.value
               ? const PreferredSize(
@@ -71,7 +78,7 @@ class HomePage extends GetView<HomeController> {
   ///
   /// O badge mostra a contagem de atualizações não lidas.
   /// Ao tocar, abre a tela de Atualizações.
-  Widget _buildNotificationsBell() {
+  Widget _buildNotificationsBell(BuildContext context) {
     final contentService = Get.find<ContentService>();
 
     return Obx(
@@ -101,8 +108,8 @@ class HomePage extends GetView<HomeController> {
                     vertical: 2.5,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.red,
-                    borderRadius: BorderRadius.circular(10),
+                    color: Theme.of(context).colorScheme.error,
+                    borderRadius: BorderRadius.circular(AppRadius.full),
                   ),
                   constraints: const BoxConstraints(
                     minWidth: 18,
@@ -110,11 +117,9 @@ class HomePage extends GetView<HomeController> {
                   ),
                   child: Text(
                     unreadCount > 99 ? '99+' : '$unreadCount',
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 11,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                          color: Theme.of(context).colorScheme.onError,
+                        ),
                     textAlign: TextAlign.center,
                   ),
                 ),
