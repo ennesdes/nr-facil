@@ -402,10 +402,10 @@ Substituir `Colors.amber` (leitor) e `Colors.blue` (busca) pelo mesmo token.
 
 ### 6.3 Anúncios (AdMob)
 
-- Banner **somente** em listas (Normas, Favoritos, Busca)
-- **Nunca** no leitor
-- Padding `md` acima e abaixo do banner
-- Separador visual opcional: `outline` 1px
+- Banner **fixo** acima da bottom nav na Home (Normas, Favoritos, Busca) — widget `PersistentBannerAd`
+- Interstitial (vídeo/tela cheia) **somente ao sair do leitor**, com cooldown de 15 min
+- **Nunca** no leitor, Ajustes ou Atualizações
+- Separador visual: `outline` 1px acima do banner
 
 ### 6.4 Aba Normas
 
@@ -418,7 +418,6 @@ Ordem no scroll (`CustomScrollView`):
 3. `SyncStatusBar` (↻ sincronizando / ✓ ok / ⚠ erro)
 4. `ContinuarLeituraSection` (compacto, com progresso %)
 5. Lista filtrada de `NrListTile` (ordem numérica)
-6. `ListBannerAd` no final
 
 ### 6.5 Listas (geral)
 

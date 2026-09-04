@@ -68,8 +68,9 @@ Fase 4 do @todo.md
 ```
 Fase 5, item 33 do @todo.md
 
-- google_mobile_ads: banner só em Favoritos, Todos e Busca
+- google_mobile_ads: banner fixo na Home (acima da bottom nav) + interstitial ao sair do leitor
 - NUNCA no leitor
+- Cooldown interstitial: 15 min (AppConfig)
 - IDs de teste em debug
 ```
 

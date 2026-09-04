@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
 import 'package:nrfacil/features/home/views/widgets/normas_tab.dart';
@@ -47,37 +48,43 @@ class HomePage extends GetView<HomeController> {
               ),
             ],
           ),
-          bottomNavigationBar: AppBottomNavBar(
-            child: BottomNavigationBar(
-              currentIndex: tab,
-              onTap: controller.selectTab,
-              items: [
-              BottomNavigationBarItem(
-                icon: Icon(
-                  tab == HomeController.tabNormas
-                      ? Icons.library_books
-                      : Icons.library_books_outlined,
+          bottomNavigationBar: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const PersistentBannerAd(),
+              AppBottomNavBar(
+                child: BottomNavigationBar(
+                  currentIndex: tab,
+                  onTap: controller.selectTab,
+                  items: [
+                    BottomNavigationBarItem(
+                      icon: Icon(
+                        tab == HomeController.tabNormas
+                            ? Icons.library_books
+                            : Icons.library_books_outlined,
+                      ),
+                      label: 'Normas',
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Icon(
+                        tab == HomeController.tabFavoritos
+                            ? Icons.star
+                            : Icons.star_border,
+                      ),
+                      label: 'Favoritos',
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Icon(
+                        tab == HomeController.tabBuscar
+                            ? Icons.search
+                            : Icons.search_outlined,
+                      ),
+                      label: 'Buscar',
+                    ),
+                  ],
                 ),
-                label: 'Normas',
               ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  tab == HomeController.tabFavoritos
-                      ? Icons.star
-                      : Icons.star_border,
-                ),
-                label: 'Favoritos',
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  tab == HomeController.tabBuscar
-                      ? Icons.search
-                      : Icons.search_outlined,
-                ),
-                label: 'Buscar',
-              ),
-              ],
-            ),
+            ],
           ),
         );
       },

@@ -5,13 +5,11 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
-import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_section.dart';
 import 'package:nrfacil/features/home/views/widgets/normas_list_header.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
 
 /// Aba "Normas" — lista completa de NRs com busca e filtros.
@@ -95,7 +93,6 @@ class NormasTab extends StatelessWidget {
               childCount: entries.length,
             ),
           ),
-          const SliverToBoxAdapter(child: ListBannerAd()),
         ],
       );
     });
@@ -106,9 +103,6 @@ class NormasTab extends StatelessWidget {
       Get.to(() => RevokedNrPage(entry: entry));
       return;
     }
-    Get.to(
-      () => NRReaderPage(nrId: entry.id),
-      binding: ReaderBinding(nrId: entry.id),
-    );
+    ReaderNavigation.open(nrId: entry.id);
   }
 }

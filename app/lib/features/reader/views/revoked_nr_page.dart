@@ -5,8 +5,7 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Tela informativa para NRs revogadas — evita consulta acidental sem contexto.
@@ -73,10 +72,7 @@ class RevokedNrPage extends StatelessWidget {
                 width: double.infinity,
                 child: OutlinedButton.icon(
                   onPressed: () {
-                    Get.to(
-                      () => NRReaderPage(nrId: successor.id),
-                      binding: ReaderBinding(nrId: successor.id),
-                    );
+                    ReaderNavigation.open(nrId: successor.id);
                   },
                   icon: const Icon(Icons.arrow_forward),
                   label: Text(

@@ -3,9 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
-import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/search/controllers/search_screen_controller.dart';
 import 'package:nrfacil/features/search/views/widgets/search_result_tile.dart';
 
@@ -129,12 +127,9 @@ class _SearchTabState extends State<SearchTab> {
                     result: result,
                     searchQuery: _controller.query.value,
                     onTap: () {
-                      Get.to(
-                        () => NRReaderPage(nrId: result.nrId),
-                        binding: ReaderBinding(
-                          nrId: result.nrId,
-                          initialAnchor: result.chunk.heading,
-                        ),
+                      ReaderNavigation.open(
+                        nrId: result.nrId,
+                        initialAnchor: result.chunk.heading,
                       );
                     },
                   );
@@ -143,7 +138,6 @@ class _SearchTabState extends State<SearchTab> {
             },
           ),
         ),
-        const ListBannerAd(),
       ],
     );
   }

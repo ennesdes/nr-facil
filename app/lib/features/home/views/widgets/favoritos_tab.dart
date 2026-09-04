@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
-import 'package:nrfacil/features/ads/widgets/list_banner_ad.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_section.dart';
 import 'package:nrfacil/features/home/views/widgets/empty_favoritos_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
 
 /// Aba "Favoritos" — NRs favoritadas com reordenação.
@@ -47,7 +45,6 @@ class _FavoritosTabState extends State<FavoritosTab> {
                   _buildFavoritoTile(context, nrId, contentService),
               ],
             ),
-            const ListBannerAd(),
           ],
         );
       },
@@ -97,10 +94,7 @@ class _FavoritosTabState extends State<FavoritosTab> {
           Get.to(() => RevokedNrPage(entry: entry));
           return;
         }
-        Get.to(
-          () => NRReaderPage(nrId: nrId),
-          binding: ReaderBinding(nrId: nrId),
-        );
+        ReaderNavigation.open(nrId: nrId);
       },
       onToggleFavorite: () {
         contentService.toggleFavorite(nrId);

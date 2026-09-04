@@ -34,7 +34,20 @@ class AppConfig {
   static const String admobBannerListUnitId =
       'ca-app-pub-3940256099942544/6300978111';
 
-  /// Habilitar banners em listas (Favoritos/Todos/Busca). Nunca no leitor.
+  /// Interstitial (vídeo/tela cheia) — IDs de teste em dev.
+  static const String admobInterstitialUnitId =
+      'ca-app-pub-3940256099942544/1033173712';
+
+  /// Intervalo mínimo entre interstitials (minutos).
+  static const int interstitialCooldownMinutes = 15;
+
+  /// Tempo mínimo de sessão antes do primeiro interstitial (minutos).
+  static const int interstitialMinSessionMinutes = 2;
+
+  /// Teto de interstitials por hora de uso ativo.
+  static const int interstitialMaxPerHour = 6;
+
+  /// Habilitar anúncios (banner na Home; interstitial ao sair do leitor).
   static const bool adsEnabled = true;
 
   /// Política de privacidade (GitHub Pages). Ver docs/procedures/08-github-pages-privacidade.md

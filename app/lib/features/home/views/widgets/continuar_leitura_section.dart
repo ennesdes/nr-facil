@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 
 /// Card "Continuar leitura" — exibir última NR aberta com progresso.
 class ContinuarLeituraSection extends StatelessWidget {
@@ -31,10 +30,7 @@ class ContinuarLeituraSection extends StatelessWidget {
         sectionLabel: heading,
         progressPercent: progress,
         onTap: () {
-          Get.to(
-            () => NRReaderPage(nrId: lastOpenedNrId),
-            binding: ReaderBinding(nrId: lastOpenedNrId),
-          );
+          ReaderNavigation.open(nrId: lastOpenedNrId);
         },
       );
     });

@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 
+import '../../features/ads/services/ads_service.dart';
 import '../../features/home/controllers/home_controller.dart';
 import '../../features/home/controllers/normas_controller.dart';
 import '../../features/search/controllers/search_screen_controller.dart';
@@ -41,6 +42,11 @@ class AppBinding extends Bindings {
     // StorageService — gerencia GetStorage local
     Get.put<StorageService>(
       StorageService(),
+      permanent: true,
+    );
+
+    Get.put<AdsService>(
+      AdsService(storage: Get.find()),
       permanent: true,
     );
 

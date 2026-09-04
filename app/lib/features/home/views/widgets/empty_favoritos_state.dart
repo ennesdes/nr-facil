@@ -4,8 +4,7 @@ import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
-import 'package:nrfacil/features/reader/bindings/reader_binding.dart';
-import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
+import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 
 /// Estado vazio para quando não há NRs favoritadas.
 class EmptyFavoritosState extends StatelessWidget {
@@ -64,10 +63,7 @@ class EmptyFavoritosState extends StatelessWidget {
 
     return ActionChip(
       onPressed: () {
-        Get.to(
-          () => NRReaderPage(nrId: nrId),
-          binding: ReaderBinding(nrId: nrId),
-        );
+        ReaderNavigation.open(nrId: nrId);
       },
       label: Text(nrId),
       avatar: const Icon(Icons.open_in_new, size: 18),
