@@ -29,12 +29,34 @@ jobs:
       - name: Flutter analyze
         if: hashFiles('app/pubspec.yaml') != ''
         working-directory: app
-        run: flutter analyze --fatal-infos
+        run: |
+          set +e
+          flutter analyze --fatal-infos 2>&1 | tee analyze_output.txt
+          status=${PIPESTATUS[0]}
+
+          while IFS= read -r line; do
+            if [[ "$line" =~ ^[[:space:]]*(error|warning|info)[[:space:]]•[[:space:]](.+)[[:space:]]•[[:space:]]([^[:space:]]+):([0-9]+):([0-9]+)[[:space:]]•[[:space:]](.+)$ ]]; then
+              severity="${BASH_REMATCH[1]}"
+              message="${BASH_REMATCH[2]}"
+              file="${BASH_REMATCH[3]}"
+              file_line="${BASH_REMATCH[4]}"
+              col="${BASH_REMATCH[5]}"
+              rule="${BASH_REMATCH[6]}"
+              case "$severity" in
+                error) level=error ;;
+                warning) level=warning ;;
+                *) level=notice ;;
+              esac
+              echo "::$level file=app/$file,line=$file_line,col=$col::$message ($rule)"
+            fi
+          done < analyze_output.txt
+
+          exit "$status"
 
       - name: Flutter test
         if: hashFiles('app/pubspec.yaml') != ''
         working-directory: app
-        run: flutter test
+        run: flutter test --reporter=github
 
       - uses: actions/setup-python@v5
         with:

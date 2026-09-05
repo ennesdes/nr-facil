@@ -66,7 +66,18 @@ ReaderScrollPosition findTopmostVisiblePosition({
     }
   }
 
-  final best = lastPassed ?? firstBelow;
+  // Quando o anchor recém-passado já saiu de vista (ex.: fim do documento,
+  // onde o scroll fica travado antes do alinhamento ideal), prefere o
+  // próximo anchor se ele estiver mais perto da linha de leitura — evita
+  // apontar para um item que não está mais visível na tela.
+  ReaderScrollAnchor? best;
+  if (lastPassed != null && firstBelow != null) {
+    final passedDistance = viewportTopOffset - lastPassedDy;
+    final belowDistance = firstBelowDy - viewportTopOffset;
+    best = belowDistance < passedDistance ? firstBelow : lastPassed;
+  } else {
+    best = lastPassed ?? firstBelow;
+  }
   if (best == null) {
     return const ReaderScrollPosition();
   }
