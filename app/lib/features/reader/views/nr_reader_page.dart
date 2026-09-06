@@ -4,6 +4,7 @@ import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_system_ui.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
@@ -109,10 +110,11 @@ class NRReaderPage extends GetView<NRReaderController> {
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               const SizedBox(height: 16),
-              FilledButton.icon(
-                onPressed: controller.downloadNrContent,
-                icon: const Icon(Icons.download),
-                label: const Text('Baixar agora'),
+              AppFilterChip(
+                label: 'Baixar agora',
+                icon: Icons.download,
+                emphasized: true,
+                onTap: controller.downloadNrContent,
               ),
             ],
           ),

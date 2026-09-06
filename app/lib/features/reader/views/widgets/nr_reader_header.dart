@@ -4,6 +4,7 @@ import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/core/utils/display_text_utils.dart';
+import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -63,20 +64,11 @@ class NrReaderHeader extends StatelessWidget {
           ],
           if (nrEntry?.pdfUrl != null) ...[
             const SizedBox(height: AppSpacing.sm),
-            TextButton.icon(
+            AppTextLink(
+              label: 'Ver PDF oficial',
+              icon: Icons.picture_as_pdf,
+              useInfoColor: true,
               onPressed: () => _launchPdf(nrEntry!.pdfUrl!),
-              icon: Icon(Icons.picture_as_pdf, size: 16, color: semantics.info),
-              label: Text(
-                'Ver PDF oficial',
-                style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                      color: semantics.info,
-                    ),
-              ),
-              style: TextButton.styleFrom(
-                padding: EdgeInsets.zero,
-                minimumSize: Size.zero,
-                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-              ),
             ),
           ],
         ],

@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
+import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
@@ -56,7 +58,6 @@ class _NormasListHeaderState extends State<NormasListHeader> {
 
   @override
   Widget build(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
     final contentService = Get.find<ContentService>();
 
     return Obx(() {
@@ -100,49 +101,31 @@ class _NormasListHeaderState extends State<NormasListHeader> {
               alignment: Alignment.centerLeft,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-                child: TextButton(
+                child: AppTextLink(
+                  label: 'Buscar "$query" no conteúdo das normas →',
                   onPressed: _openContentSearch,
-                  child: Text('Buscar "$query" no conteúdo das normas →'),
                 ),
               ),
             ),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-            child: Row(
-              children: [
-                for (final item in _filterItems)
-                  Padding(
-                    padding: const EdgeInsets.only(right: AppSpacing.sm),
-                    child: FilterChip(
-                      label: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Text(item.label),
-                          if (item.filter == NormasFilter.updated &&
-                              pendingUpdates > 0) ...[
-                            const SizedBox(width: AppSpacing.xs),
-                            UpdateCountBadge(
-                              count: pendingUpdates,
-                              minSize: 16,
-                            ),
-                          ],
-                        ],
-                      ),
-                      selected: activeFilter == item.filter,
-                      showCheckmark: false,
-                      selectedColor: colorScheme.primary,
-                      labelStyle: TextStyle(
-                        color: activeFilter == item.filter
-                            ? colorScheme.onPrimary
-                            : colorScheme.onSurfaceVariant,
-                      ),
-                      onSelected: (_) =>
-                          _normasController.setFilter(item.filter),
-                    ),
+          AppFilterChipRow(
+            children: [
+              for (final item in _filterItems)
+                Padding(
+                  padding: const EdgeInsets.only(right: AppSpacing.sm),
+                  child: AppFilterChip(
+                    label: item.label,
+                    selected: activeFilter == item.filter,
+                    onTap: () => _normasController.setFilter(item.filter),
+                    trailing: item.filter == NormasFilter.updated &&
+                            pendingUpdates > 0
+                        ? UpdateCountBadge(
+                            count: pendingUpdates,
+                            minSize: 16,
+                          )
+                        : null,
                   ),
-              ],
-            ),
+                ),
+            ],
           ),
         ],
       );

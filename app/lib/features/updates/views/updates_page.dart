@@ -24,34 +24,6 @@ class UpdatesPage extends GetView<UpdatesController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Atualizações'),
-        actions: [
-          Obx(
-            () {
-              final showDownload =
-                  controller.offlineDownloadNeeded.value &&
-                  !controller.isBulkDownloading;
-
-              return Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  if (showDownload)
-                    IconButton(
-                      icon: const Icon(Icons.download_for_offline_outlined),
-                      tooltip: 'Baixar tudo para offline',
-                      onPressed: controller.downloadAllForOffline,
-                    ),
-                  IconButton(
-                    icon: const Icon(Icons.refresh),
-                    tooltip: 'Verificar atualizações',
-                    onPressed: controller.isChecking.value
-                        ? null
-                        : controller.checkForUpdates,
-                  ),
-                ],
-              );
-            },
-          ),
-        ],
       ),
       body: AppScaffoldBody(
         child: Obx(
@@ -75,40 +47,60 @@ class UpdatesPage extends GetView<UpdatesController> {
                   : null,
             );
 
+            final quickActions = Padding(
+              padding: const EdgeInsets.fromLTRB(
+                AppSpacing.md,
+                AppSpacing.sm,
+                AppSpacing.md,
+                AppSpacing.xs,
+              ),
+              child: UpdatesQuickActions(
+                isChecking: isChecking,
+                showDownloadButton: showDownloadButton,
+                onCheck: controller.checkForUpdates,
+                onDownload: controller.downloadAllForOffline,
+              ),
+            );
+
             if (updates.isEmpty) {
               return ListView(
                 padding: const EdgeInsets.all(AppSpacing.md),
                 children: [
-                  const SizedBox(height: AppSpacing.lg),
-                  const EmptyState(
-                    icon: Icons.notifications_off_outlined,
-                    title: 'Nenhuma atualização disponível',
-                    body: 'Suas normas estão em dia.',
-                  ),
-                  const SizedBox(height: AppSpacing.lg),
                   if (showProgress) ...[
                     progressCard,
                     const SizedBox(height: AppSpacing.md),
                   ],
-                  UpdatesQuickActions(
-                    isChecking: isChecking,
-                    showDownloadButton: showDownloadButton,
-                    onCheck: controller.checkForUpdates,
-                    onDownload: controller.downloadAllForOffline,
+                  EmptyState(
+                    icon: Icons.notifications_off_outlined,
+                    title: 'Nenhuma atualização disponível',
+                    body: 'Suas normas estão em dia.',
+                    actions: [
+                      UpdatesQuickActions(
+                        centered: true,
+                        isChecking: isChecking,
+                        showDownloadButton: showDownloadButton,
+                        onCheck: controller.checkForUpdates,
+                        onDownload: controller.downloadAllForOffline,
+                      ),
+                    ],
                   ),
                 ],
               );
             }
 
+            final headerCount = showProgress ? 3 : 2;
+
             return ListView.builder(
               padding: const EdgeInsets.only(bottom: AppSpacing.md),
-              itemCount: updates.length + (showProgress ? 2 : 1),
+              itemCount: updates.length + headerCount,
               itemBuilder: (context, index) {
-                if (showProgress && index == 0) {
+                if (index == 0) return quickActions;
+
+                if (showProgress && index == 1) {
                   return Padding(
                     padding: const EdgeInsets.fromLTRB(
                       AppSpacing.md,
-                      AppSpacing.sm,
+                      0,
                       AppSpacing.md,
                       AppSpacing.xs,
                     ),
@@ -116,12 +108,12 @@ class UpdatesPage extends GetView<UpdatesController> {
                   );
                 }
 
-                final summaryIndex = showProgress ? 1 : 0;
+                final summaryIndex = showProgress ? 2 : 1;
                 if (index == summaryIndex) {
                   return UpdatesSummaryHeader(pendingCount: updates.length);
                 }
 
-                final entryIndex = index - summaryIndex - 1;
+                final entryIndex = index - headerCount;
                 final entry = updates[entryIndex];
                 final updateEntry = controller.getUpdateEntry(entry.id);
 

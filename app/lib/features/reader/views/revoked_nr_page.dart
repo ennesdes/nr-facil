@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -56,31 +58,28 @@ class RevokedNrPage extends StatelessWidget {
               'oficial apenas para fins históricos ou verifique a norma vigente.',
               style: Theme.of(context).textTheme.bodyLarge,
             ),
-            const SizedBox(height: 24),
-            if (entry.pdfUrl != null && entry.pdfUrl!.isNotEmpty)
-              SizedBox(
-                width: double.infinity,
-                child: FilledButton.icon(
-                  onPressed: () => _launchUrl(entry.pdfUrl!),
-                  icon: const Icon(Icons.picture_as_pdf),
-                  label: const Text('Ver PDF histórico no MTE'),
-                ),
-              ),
-            if (successor != null) ...[
-              const SizedBox(height: 12),
-              SizedBox(
-                width: double.infinity,
-                child: OutlinedButton.icon(
-                  onPressed: () {
-                    ReaderNavigation.open(nrId: successor.id);
-                  },
-                  icon: const Icon(Icons.arrow_forward),
-                  label: Text(
-                    'Abrir ${successor.nrLabel} (sucessora)',
+            const SizedBox(height: AppSpacing.lg),
+            Wrap(
+              spacing: AppSpacing.sm,
+              runSpacing: AppSpacing.sm,
+              children: [
+                if (entry.pdfUrl != null && entry.pdfUrl!.isNotEmpty)
+                  AppFilterChip(
+                    label: 'Ver PDF histórico no MTE',
+                    icon: Icons.picture_as_pdf,
+                    emphasized: true,
+                    onTap: () => _launchUrl(entry.pdfUrl!),
                   ),
-                ),
-              ),
-            ],
+                if (successor != null)
+                  AppFilterChip(
+                    label: 'Abrir ${successor.nrLabel} (sucessora)',
+                    icon: Icons.arrow_forward,
+                    onTap: () {
+                      ReaderNavigation.open(nrId: successor.id);
+                    },
+                  ),
+              ],
+            ),
             const SizedBox(height: 24),
             Text(
               'Este aplicativo disponibiliza conteúdo público oficial das '

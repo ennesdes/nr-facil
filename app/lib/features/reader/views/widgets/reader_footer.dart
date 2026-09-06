@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -47,10 +48,10 @@ class ReaderFooter extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.md),
           if (nrEntry?.pdfUrl != null)
-            OutlinedButton.icon(
-              onPressed: () => _launchPdfUrl(nrEntry?.pdfUrl),
-              icon: const Icon(Icons.picture_as_pdf, size: 18),
-              label: const Text('Ver PDF original no MTE'),
+            AppFilterChip(
+              label: 'Ver PDF original no MTE',
+              icon: Icons.picture_as_pdf,
+              onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
             ),
           const SizedBox(height: AppSpacing.md),
           if (nrEntry != null) _buildNrMetadata(context),

@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_modal_bottom_sheet.dart';
 import 'package:nrfacil/core/widgets/app_shimmer.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
@@ -70,12 +71,17 @@ class NrDownloadAction extends StatelessWidget {
                   ),
             ),
             const SizedBox(height: AppSpacing.lg),
-            FilledButton(
-              onPressed: () async {
-                Navigator.pop(context);
-                await contentService.downloadNrIfNeeded(nrEntry.id);
-              },
-              child: const Text('Baixar'),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: AppFilterChip(
+                label: 'Baixar',
+                icon: Icons.download,
+                emphasized: true,
+                onTap: () async {
+                  Navigator.pop(context);
+                  await contentService.downloadNrIfNeeded(nrEntry.id);
+                },
+              ),
             ),
           ],
         ),

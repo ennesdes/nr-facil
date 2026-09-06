@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
+import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
@@ -43,10 +44,10 @@ class NormasTab extends StatelessWidget {
           body: syncError ??
               'Não foi possível carregar as normas. Tente novamente.',
           actions: [
-            FilledButton.icon(
-              onPressed: () => contentService.syncMetadata(),
-              icon: const Icon(Icons.refresh),
-              label: const Text('Tentar novamente'),
+            AppFilterChip(
+              label: 'Tentar novamente',
+              icon: Icons.refresh,
+              onTap: () => contentService.syncMetadata(),
             ),
           ],
         );

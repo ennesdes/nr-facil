@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/features/reader/utils/preamble_info_utils.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
@@ -126,20 +127,13 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
                       const SizedBox(height: AppSpacing.sm),
                       Align(
                         alignment: Alignment.centerLeft,
-                        child: TextButton(
+                        child: AppTextLink(
+                          label: _showFullHistory
+                              ? 'Ocultar histórico'
+                              : 'Ver histórico completo (${previous.length})',
                           onPressed: () {
                             setState(() => _showFullHistory = !_showFullHistory);
                           },
-                          style: TextButton.styleFrom(
-                            padding: EdgeInsets.zero,
-                            minimumSize: Size.zero,
-                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                          ),
-                          child: Text(
-                            _showFullHistory
-                                ? 'Ocultar histórico'
-                                : 'Ver histórico completo (${previous.length})',
-                          ),
                         ),
                       ),
                       if (_showFullHistory) ...[
