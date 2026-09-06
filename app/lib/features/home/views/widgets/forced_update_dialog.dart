@@ -11,7 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 class ForcedUpdateDialog extends StatelessWidget {
   /// URL do app na Play Store
   static const String _playStoreUrl =
-      'https://play.google.com/store/apps/details?id=com.douglasennes.nrfacil';
+      'https://play.google.com/store/apps/details?id=br.com.solvebetter.nrfacil';
 
   const ForcedUpdateDialog({super.key});
 

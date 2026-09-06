@@ -1,4 +1,4 @@
-package com.douglasennes.nrfacil
+package br.com.solvebetter.nrfacil
 
 import io.flutter.embedding.android.FlutterActivity
 

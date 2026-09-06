@@ -18,7 +18,7 @@ val admobAppId =
     System.getenv("ADMOB_APP_ID") ?: "ca-app-pub-3940256099942544~3347511713"
 
 android {
-    namespace = "com.douglasennes.nrfacil"
+    namespace = "br.com.solvebetter.nrfacil"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -28,7 +28,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.douglasennes.nrfacil"
+        applicationId = "br.com.solvebetter.nrfacil"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

@@ -314,7 +314,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1.1.5
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
-          packageName: com.douglasennes.nrfacil
+          packageName: br.com.solvebetter.nrfacil
           releaseFiles: aab/app-release.aab
           track: ${{ inputs.track }}
 

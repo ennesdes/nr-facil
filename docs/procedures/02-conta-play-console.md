@@ -45,7 +45,7 @@ Aguarde aprovação (pode levar alguns dias).
 
 Guarde em local seguro (não no git):
 
-- Package name: `com.douglasennes.nrfacil` (definir no Flutter)
+- Package name: `br.com.solvebetter.nrfacil` (mesmo padrão do Treino Base)
 - E-mail da conta desenvolvedor
 
 ## O que NÃO fazer agora

@@ -90,7 +90,7 @@ Se já configurou no Treino Base ou Agenda Fácil, pule para o item 2.
 1. [Play Console](https://play.google.com/console/) → **Users and permissions**
 2. Convide o e-mail da Service Account (`...@....iam.gserviceaccount.com`)
 3. Permissão: **Release manager**
-4. Crie o app **NR Fácil** com package `com.douglasennes.nrfacil` (se ainda não existir)
+4. Crie o app **NR Fácil** com package `br.com.solvebetter.nrfacil` (se ainda não existir)
 
 ---
 
@@ -152,7 +152,7 @@ Necessário para cache, commits automáticos de format e version bump.
 
 ## Checklist antes do primeiro deploy
 
-- [ ] App criado no Play Console (`com.douglasennes.nrfacil`)
+- [ ] App criado no Play Console (`br.com.solvebetter.nrfacil`)
 - [ ] Service Account com Release manager no app NR Fácil
 - [ ] `PLAY_SERVICE_ACCOUNT_JSON` cadastrado
 - [ ] Keystore gerado + 4 secrets de assinatura
