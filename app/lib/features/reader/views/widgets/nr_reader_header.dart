@@ -5,6 +5,7 @@ import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/core/utils/display_text_utils.dart';
 import 'package:nrfacil/core/widgets/app_text_link.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -28,11 +29,16 @@ class NrReaderHeader extends StatelessWidget {
     final semantics = context.semanticColors;
     final displayTitle = formatNrTitleForDisplay(title);
 
+    final horizontalPadding = ResponsiveLayout.readerHorizontalPadding(
+      context,
+      base: kReaderHorizontalPadding,
+    );
+
     return Padding(
-      padding: const EdgeInsets.fromLTRB(
-        kReaderHorizontalPadding,
+      padding: EdgeInsets.fromLTRB(
+        horizontalPadding,
         AppSpacing.lg,
-        kReaderHorizontalPadding,
+        horizontalPadding,
         AppSpacing.md,
       ),
       child: Column(
@@ -53,11 +59,15 @@ class NrReaderHeader extends StatelessWidget {
               children: [
                 Icon(Icons.circle, size: 7, color: semantics.success),
                 const SizedBox(width: AppSpacing.xs),
-                Text(
-                  'Vigente desde ${nrEntry!.vigenteSde}',
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        color: colorScheme.onSurfaceVariant,
-                      ),
+                Flexible(
+                  child: Text(
+                    'Vigente desde ${nrEntry!.vigenteSde}',
+                    style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                          color: colorScheme.onSurfaceVariant,
+                        ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
               ],
             ),

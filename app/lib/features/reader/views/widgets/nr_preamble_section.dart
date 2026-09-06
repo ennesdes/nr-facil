@@ -4,6 +4,7 @@ import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/features/reader/utils/preamble_info_utils.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 
@@ -60,7 +61,12 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
     final previous = info.previousAmendments;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: kReaderHorizontalPadding),
+      padding: EdgeInsets.symmetric(
+        horizontal: ResponsiveLayout.readerHorizontalPadding(
+          context,
+          base: kReaderHorizontalPadding,
+        ),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -90,6 +96,8 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: colorScheme.onSurfaceVariant,
                     ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
               ),
               children: [
                 Column(

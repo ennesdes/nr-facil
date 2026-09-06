@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
@@ -81,7 +82,7 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
 
     return Drawer(
       backgroundColor: colorScheme.surface,
-      width: MediaQuery.sizeOf(context).width * 0.88,
+      width: ResponsiveLayout.drawerWidth(context),
       child: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -427,6 +428,8 @@ class _IndexSectionGroup extends StatelessWidget {
                 isSectionSelected || isActive ? FontWeight.w600 : FontWeight.w500,
             color: isActive ? colorScheme.onSurface : colorScheme.onSurfaceVariant,
           ),
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
         ),
         children: children,
       ),

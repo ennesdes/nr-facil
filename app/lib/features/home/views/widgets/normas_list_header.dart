@@ -97,12 +97,13 @@ class _NormasListHeaderState extends State<NormasListHeader> {
             ),
           ),
           if (query.isNotEmpty)
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+              child: Align(
+                alignment: Alignment.centerLeft,
                 child: AppTextLink(
                   label: 'Buscar "$query" no conteúdo das normas →',
+                  maxLines: 2,
                   onPressed: _openContentSearch,
                 ),
               ),

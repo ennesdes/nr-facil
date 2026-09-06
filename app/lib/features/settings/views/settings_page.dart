@@ -5,6 +5,7 @@ import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
+import 'package:nrfacil/core/widgets/responsive_content.dart';
 import 'package:nrfacil/features/settings/views/widgets/settings_action_tile.dart';
 import 'package:nrfacil/features/settings/views/widgets/settings_section_card.dart';
 import 'package:nrfacil/features/settings/views/widgets/theme_mode_selector.dart';
@@ -22,9 +23,10 @@ class SettingsPage extends GetView<ThemeController> {
         title: const Text('Ajustes'),
       ),
       body: AppScaffoldBody(
-        child: ListView(
-          padding: const EdgeInsets.all(AppSpacing.md),
-          children: [
+        child: ResponsiveContent(
+          child: ListView(
+            padding: const EdgeInsets.all(AppSpacing.md),
+            children: [
             SettingsSectionCard(
               title: 'Aparência',
               description:
@@ -53,6 +55,7 @@ class SettingsPage extends GetView<ThemeController> {
             const SizedBox(height: AppSpacing.md),
             const _AboutSection(),
           ],
+        ),
         ),
       ),
     );

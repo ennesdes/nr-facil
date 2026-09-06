@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
+import 'package:nrfacil/core/widgets/responsive_content.dart';
 import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
@@ -36,17 +37,19 @@ class HomePage extends GetView<HomeController> {
               ),
             ],
           ),
-          body: IndexedStack(
-            index: tab,
-            children: [
-              const SizedBox.expand(child: NormasTab()),
-              const SizedBox.expand(child: FavoritosTab()),
-              SizedBox.expand(
-                child: SearchTab(
-                  isActive: tab == HomeController.tabBuscar,
+          body: ResponsiveContent(
+            child: IndexedStack(
+              index: tab,
+              children: [
+                const SizedBox.expand(child: NormasTab()),
+                const SizedBox.expand(child: FavoritosTab()),
+                SizedBox.expand(
+                  child: SearchTab(
+                    isActive: tab == HomeController.tabBuscar,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
           bottomNavigationBar: Column(
             mainAxisSize: MainAxisSize.min,

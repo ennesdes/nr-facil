@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
@@ -30,7 +31,12 @@ class NrSectionBlock extends StatelessWidget {
     final sectionLabel = formatSectionTitle(section.number, section.title);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: kReaderHorizontalPadding),
+      padding: EdgeInsets.symmetric(
+        horizontal: ResponsiveLayout.readerHorizontalPadding(
+          context,
+          base: kReaderHorizontalPadding,
+        ),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

@@ -32,6 +32,7 @@ class SearchResultTile extends StatelessWidget {
       child: ListTile(
         onTap: onTap,
         contentPadding: const EdgeInsets.all(12),
+        isThreeLine: true,
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -40,6 +41,8 @@ class SearchResultTile extends StatelessWidget {
               style: Theme.of(context).textTheme.titleSmall?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
             ),
             const SizedBox(height: 4),
             Text(

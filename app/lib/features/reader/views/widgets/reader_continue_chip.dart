@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 
 /// Chip discreto para retomar leitura de onde parou.
@@ -19,11 +20,16 @@ class ReaderContinueChip extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
+    final horizontalPadding = ResponsiveLayout.readerHorizontalPadding(
+      context,
+      base: kReaderHorizontalPadding,
+    );
+
     return Padding(
-      padding: const EdgeInsets.fromLTRB(
-        kReaderHorizontalPadding,
+      padding: EdgeInsets.fromLTRB(
+        horizontalPadding,
         AppSpacing.sm,
-        kReaderHorizontalPadding,
+        horizontalPadding,
         0,
       ),
       child: Material(
@@ -51,6 +57,8 @@ class ReaderContinueChip extends StatelessWidget {
                     style: Theme.of(context).textTheme.labelLarge?.copyWith(
                           color: colorScheme.onSurface,
                         ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
                 Icon(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 
 /// Controle A− / valor / A+ para tamanho de fonte no menu do leitor.
@@ -26,6 +27,8 @@ class ReaderFontSizeControl extends StatelessWidget {
       final canDecrease = size > kReaderFontSizes.first;
       final canIncrease = size < kReaderFontSizes.last;
       final colorScheme = Theme.of(context).colorScheme;
+      final compact = ResponsiveLayout.isCompactWidth(context);
+      final buttonWidth = compact ? 44.0 : 52.0;
       final labelStyle = Theme.of(context).textTheme.labelMedium?.copyWith(
             color: colorScheme.onSurfaceVariant,
             fontWeight: FontWeight.w600,
@@ -55,6 +58,7 @@ class ReaderFontSizeControl extends StatelessWidget {
                   children: [
                     _StepButton(
                       label: 'A−',
+                      width: buttonWidth,
                       labelStyle: const TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,
@@ -92,6 +96,7 @@ class ReaderFontSizeControl extends StatelessWidget {
                     ),
                     _StepButton(
                       label: 'A+',
+                      width: buttonWidth,
                       labelStyle: const TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
@@ -119,6 +124,7 @@ class _StepButton extends StatelessWidget {
   final bool enabled;
   final VoidCallback onPressed;
   final BorderRadius borderRadius;
+  final double width;
 
   const _StepButton({
     required this.label,
@@ -126,6 +132,7 @@ class _StepButton extends StatelessWidget {
     required this.enabled,
     required this.onPressed,
     this.borderRadius = BorderRadius.zero,
+    this.width = 52,
   });
 
   @override
@@ -141,7 +148,7 @@ class _StepButton extends StatelessWidget {
         onTap: enabled ? onPressed : null,
         borderRadius: borderRadius,
         child: SizedBox(
-          width: 52,
+          width: width,
           height: 48,
           child: Center(
             child: Text(

@@ -71,6 +71,8 @@ class UpdatesBottomSheet {
                         child: Text(
                           'Atualizações pendentes',
                           style: Theme.of(context).textTheme.titleLarge,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ),
                       const NrBadge(variant: NrBadgeVariant.update),

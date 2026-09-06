@@ -46,6 +46,9 @@ class _FakeContentService implements ContentService {
   String? getLastHeadingViewed(String nrId) => null;
 
   @override
+  String? getContinueReadingPositionLabel(String nrId) => null;
+
+  @override
   void saveScrollPosition(
     String nrId,
     double position, {

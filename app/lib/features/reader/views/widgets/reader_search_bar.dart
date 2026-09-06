@@ -150,6 +150,8 @@ class _ReaderSearchBarState extends State<ReaderSearchBar> {
         style: Theme.of(context).textTheme.bodySmall?.copyWith(
               color: colorScheme.onSurfaceVariant,
             ),
+        maxLines: 2,
+        overflow: TextOverflow.ellipsis,
       );
     }
 

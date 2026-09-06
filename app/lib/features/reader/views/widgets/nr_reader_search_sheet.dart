@@ -135,6 +135,8 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
         style: Theme.of(context).textTheme.bodySmall?.copyWith(
               color: Theme.of(context).colorScheme.onSurfaceVariant,
             ),
+        maxLines: 2,
+        overflow: TextOverflow.ellipsis,
       );
     }
 

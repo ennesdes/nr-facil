@@ -111,19 +111,21 @@ class NrListTile extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          Text(
-                            nrEntry.nrLabel,
-                            style: theme.textTheme.titleSmall?.copyWith(
-                              color: labelColor,
+                          Flexible(
+                            child: Text(
+                              nrEntry.nrLabel,
+                              style: theme.textTheme.titleSmall?.copyWith(
+                                color: labelColor,
+                              ),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ),
                           if (_showUpdateBadge) ...[
                             const SizedBox(width: AppSpacing.sm),
-                            const Flexible(
-                              child: NrBadge(
-                                variant: NrBadgeVariant.update,
-                                compact: true,
-                              ),
+                            const NrBadge(
+                              variant: NrBadgeVariant.update,
+                              compact: true,
                             ),
                           ],
                         ],

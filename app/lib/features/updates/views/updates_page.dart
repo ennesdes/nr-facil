@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
+import 'package:nrfacil/core/widgets/responsive_content.dart';
 import 'package:nrfacil/features/updates/controllers/updates_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_entry_card.dart';
 import 'package:nrfacil/features/updates/views/widgets/updates_action_progress.dart';
@@ -26,8 +27,9 @@ class UpdatesPage extends GetView<UpdatesController> {
         title: const Text('Atualizações'),
       ),
       body: AppScaffoldBody(
-        child: Obx(
-          () {
+        child: ResponsiveContent(
+          child: Obx(
+            () {
             final updates = controller.updatedNrs.value;
             final isChecking = controller.isChecking.value;
             final isDownloading = controller.isBulkDownloading;
@@ -125,6 +127,7 @@ class UpdatesPage extends GetView<UpdatesController> {
               },
             );
           },
+        ),
         ),
       ),
     );

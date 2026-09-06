@@ -9,12 +9,14 @@ class AppTextLink extends StatelessWidget {
   final VoidCallback? onPressed;
   final IconData? icon;
   final bool useInfoColor;
+  final int? maxLines;
 
   const AppTextLink({
     required this.label,
     this.onPressed,
     this.icon,
     this.useInfoColor = false,
+    this.maxLines,
     super.key,
   });
 
@@ -32,12 +34,18 @@ class AppTextLink extends StatelessWidget {
     final labelStyle = Theme.of(context).textTheme.labelLarge?.copyWith(
           color: color,
         );
+    final textOverflow = maxLines != null ? TextOverflow.ellipsis : null;
 
     if (icon != null) {
       return TextButton.icon(
         onPressed: onPressed,
         icon: Icon(icon, size: 16, color: color),
-        label: Text(label, style: labelStyle),
+        label: Text(
+          label,
+          style: labelStyle,
+          maxLines: maxLines,
+          overflow: textOverflow,
+        ),
         style: _buttonStyle,
       );
     }
@@ -45,7 +53,12 @@ class AppTextLink extends StatelessWidget {
     return TextButton(
       onPressed: onPressed,
       style: _buttonStyle,
-      child: Text(label, style: labelStyle),
+      child: Text(
+        label,
+        style: labelStyle,
+        maxLines: maxLines,
+        overflow: textOverflow,
+      ),
     );
   }
 }

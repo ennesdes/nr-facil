@@ -39,7 +39,13 @@ class AppFilterChip extends StatelessWidget {
             Icon(icon, size: 18, color: foreground),
             const SizedBox(width: AppSpacing.xs),
           ],
-          Text(label),
+          Flexible(
+            child: Text(
+              label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
           if (trailing != null) ...[
             const SizedBox(width: AppSpacing.xs),
             trailing!,

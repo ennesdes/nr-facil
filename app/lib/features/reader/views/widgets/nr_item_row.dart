@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_item_actions.dart';
@@ -25,7 +26,7 @@ class NrItemRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final indent = (depth - 1) * 14.0;
+    final indent = ResponsiveLayout.readerItemIndent(context, depth);
 
     final numberStyle = readerItemNumberStyle(context, fontSize);
     final bodyStyle = readerBodyStyle(context, fontSize);

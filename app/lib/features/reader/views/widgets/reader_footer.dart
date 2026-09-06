@@ -4,6 +4,7 @@ import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -24,7 +25,12 @@ class ReaderFooter extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: kReaderHorizontalPadding),
+      padding: EdgeInsets.symmetric(
+        horizontal: ResponsiveLayout.readerHorizontalPadding(
+          context,
+          base: kReaderHorizontalPadding,
+        ),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
