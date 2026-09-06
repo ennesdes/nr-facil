@@ -1,6 +1,6 @@
 # Política de Privacidade — NR Fácil
 
-**Última atualização:** agosto de 2026
+**Última atualização:** setembro de 2026
 
 ## Introdução
 
@@ -41,8 +41,4 @@ Podemos atualizar esta política. A data da última atualização será indicada
 
 ## Contato
 
-Para dúvidas sobre privacidade: [seu-email@exemplo.com]
-
----
-
-*Substitua o e-mail de contato antes de publicar.*
+Para dúvidas sobre privacidade: [ennes.devmobile@gmail.com](mailto:ennes.devmobile@gmail.com)

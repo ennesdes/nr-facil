@@ -1,8 +1,9 @@
+import 'package:flutter/foundation.dart';
+
 /// Logger centralized para o app.
 ///
 /// Nunca usar print() ou debugPrint() em produção — sempre usar AppLogger.
-/// Em produção, logs vão para arquivo ou serviço de observabilidade.
-/// Em desenvolvimento, logs vão para console.
+/// Em release, logs são suprimidos (evita vazamento de URLs/caminhos no logcat).
 class AppLogger {
   static const String _tag = '[NRFácil]';
 
@@ -33,8 +34,7 @@ class AppLogger {
   }
 
   static void _log(String level, String message) {
-    // Em produção, isso entraria em um serviço de logging.
-    // Por enquanto, vamos apenas imprimir com tag.
+    if (!kDebugMode) return;
     // ignore: avoid_print
     print('$_tag [$level] $message');
   }
