@@ -13,11 +13,14 @@ class ReadingHistoryEntry {
   final double scrollMaxExtent;
   final String? lastHeadingViewed;
   final String? lastItemNumber;
+
   /// Seção/bloco exatos no leitor estruturado (parágrafos, tabelas, etc.).
   final String? lastSectionId;
   final int? lastBlockIndex;
+
   /// Razão de scroll salva (0.0–1.0) — fonte primária para restaurar posição.
   final double? scrollRatio;
+
   /// Percentual estrutural salvo pelo leitor (0–100), quando disponível.
   final int? progressPercent;
 
@@ -88,10 +91,10 @@ class ReadingHistoryEntry {
 
   /// Razão efetiva de scroll para restaurar posição (0.0–1.0).
   double get effectiveScrollRatio => effectiveScrollRatioFromEntry(
-        scrollRatio: scrollRatio,
-        scrollPosition: scrollPosition,
-        scrollMaxExtent: scrollMaxExtent,
-      );
+    scrollRatio: scrollRatio,
+    scrollPosition: scrollPosition,
+    scrollMaxExtent: scrollMaxExtent,
+  );
 
   /// Há posição salva relevante para "continuar leitura".
   bool get hasSavedReadingPosition =>

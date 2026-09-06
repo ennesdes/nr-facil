@@ -54,7 +54,8 @@ class _FakeContentService implements ContentService {
   double? lastSavedScrollPosition;
 
   @override
-  ReadingHistoryEntry? getReadingHistoryEntry(String nrId) => readingHistoryEntry;
+  ReadingHistoryEntry? getReadingHistoryEntry(String nrId) =>
+      readingHistoryEntry;
 
   @override
   int? getReadingProgressPercent(String nrId) =>
@@ -75,7 +76,8 @@ class _FakeContentService implements ContentService {
   }) {
     lastSavedScrollPosition = position;
     final extent = scrollMaxExtent ?? readingHistoryEntry?.scrollMaxExtent ?? 0;
-    final ratio = scrollRatio ??
+    final ratio =
+        scrollRatio ??
         (extent > 0 ? (position / extent).clamp(0.0, 1.0) : null);
     if (readingHistoryEntry != null) {
       readingHistoryEntry = readingHistoryEntry!.copyWith(
@@ -186,116 +188,124 @@ void main() {
   );
 
   testWidgets(
-      'continueFromSavedPosition rola até item salvo no corpo estruturado',
-      (tester) async {
-    Get.testMode = true;
-    final fake = _FakeContentService();
-    final structure = _buildLongStructure();
-    fake.readingHistoryEntry = ReadingHistoryEntry(
-      nrId: 'nr-06',
-      lastAccessedAt: DateTime(2026),
-      scrollPosition: 5000,
-      scrollMaxExtent: 6000,
-      lastHeadingViewed: '6.25.1',
-      lastItemNumber: '6.25.1',
-      lastSectionId: 'sec-25',
-      lastBlockIndex: 0,
-      progressPercent: 72,
-    );
+    'continueFromSavedPosition rola até item salvo no corpo estruturado',
+    (tester) async {
+      Get.testMode = true;
+      final fake = _FakeContentService();
+      final structure = _buildLongStructure();
+      fake.readingHistoryEntry = ReadingHistoryEntry(
+        nrId: 'nr-06',
+        lastAccessedAt: DateTime(2026),
+        scrollPosition: 5000,
+        scrollMaxExtent: 6000,
+        lastHeadingViewed: '6.25.1',
+        lastItemNumber: '6.25.1',
+        lastSectionId: 'sec-25',
+        lastBlockIndex: 0,
+        progressPercent: 72,
+      );
 
-    final controller = NRReaderController(nrId: 'nr-06', contentService: fake);
-    controller.structure.value = structure;
-    controller.isLoading.value = false;
-    controller.showContinueChip.value = true;
-    controller.readingProgressPercent.value = 0;
-    Get.put(controller);
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = structure;
+      controller.isLoading.value = false;
+      controller.showContinueChip.value = true;
+      controller.readingProgressPercent.value = 0;
+      Get.put(controller);
 
-    await tester.pumpWidget(
-      GetMaterialApp(
-        theme: AppTheme.light,
-        home: Scaffold(
-          body: SizedBox(
-            height: 640,
-            child: NrStructuredBody(
-              structure: structure,
-              nrEntry: null,
-              nrId: 'nr-06',
-              fontSize: 16,
-              scrollController: controller.scrollController,
-              sectionKeyFor: controller.sectionKeyFor,
+      await tester.pumpWidget(
+        GetMaterialApp(
+          theme: AppTheme.light,
+          home: Scaffold(
+            body: SizedBox(
+              height: 640,
+              child: NrStructuredBody(
+                structure: structure,
+                nrEntry: null,
+                nrId: 'nr-06',
+                fontSize: 16,
+                scrollController: controller.scrollController,
+                sectionKeyFor: controller.sectionKeyFor,
+              ),
             ),
           ),
         ),
-      ),
-    );
+      );
 
-    await tester.pumpAndSettle();
-    expect(controller.scrollController.offset, lessThan(100));
+      await tester.pumpAndSettle();
+      expect(controller.scrollController.offset, lessThan(100));
 
-    controller.continueFromSavedPosition();
-    expect(controller.readingProgressPercent.value, 72);
+      controller.continueFromSavedPosition();
+      expect(controller.readingProgressPercent.value, 72);
 
-    for (var i = 0; i < 80; i++) {
-      await tester.pump(const Duration(milliseconds: 50));
-    }
+      for (var i = 0; i < 80; i++) {
+        await tester.pump(const Duration(milliseconds: 50));
+      }
 
-    expect(controller.scrollController.offset, greaterThan(800));
-    expect(controller.showContinueChip.value, isFalse);
-  });
+      expect(controller.scrollController.offset, greaterThan(800));
+      expect(controller.showContinueChip.value, isFalse);
+    },
+  );
 
   testWidgets(
-      'continueFromSavedPosition usa scroll quando só há heading de seção',
-      (tester) async {
-    Get.testMode = true;
-    final fake = _FakeContentService();
-    final structure = _buildLongStructure();
-    fake.readingHistoryEntry = ReadingHistoryEntry(
-      nrId: 'nr-06',
-      lastAccessedAt: DateTime(2026),
-      scrollPosition: 5000,
-      scrollMaxExtent: 6000,
-      lastHeadingViewed: '6.25 Seção 25',
-      progressPercent: 87,
-    );
+    'continueFromSavedPosition usa scroll quando só há heading de seção',
+    (tester) async {
+      Get.testMode = true;
+      final fake = _FakeContentService();
+      final structure = _buildLongStructure();
+      fake.readingHistoryEntry = ReadingHistoryEntry(
+        nrId: 'nr-06',
+        lastAccessedAt: DateTime(2026),
+        scrollPosition: 5000,
+        scrollMaxExtent: 6000,
+        lastHeadingViewed: '6.25 Seção 25',
+        progressPercent: 87,
+      );
 
-    final controller = NRReaderController(nrId: 'nr-06', contentService: fake);
-    controller.structure.value = structure;
-    controller.isLoading.value = false;
-    controller.showContinueChip.value = true;
-    Get.put(controller);
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = structure;
+      controller.isLoading.value = false;
+      controller.showContinueChip.value = true;
+      Get.put(controller);
 
-    await tester.pumpWidget(
-      GetMaterialApp(
-        theme: AppTheme.light,
-        home: Scaffold(
-          body: SizedBox(
-            height: 640,
-            child: NrStructuredBody(
-              structure: structure,
-              nrEntry: null,
-              nrId: 'nr-06',
-              fontSize: 16,
-              scrollController: controller.scrollController,
-              sectionKeyFor: controller.sectionKeyFor,
+      await tester.pumpWidget(
+        GetMaterialApp(
+          theme: AppTheme.light,
+          home: Scaffold(
+            body: SizedBox(
+              height: 640,
+              child: NrStructuredBody(
+                structure: structure,
+                nrEntry: null,
+                nrId: 'nr-06',
+                fontSize: 16,
+                scrollController: controller.scrollController,
+                sectionKeyFor: controller.sectionKeyFor,
+              ),
             ),
           ),
         ),
-      ),
-    );
+      );
 
-    await tester.pumpAndSettle();
-    controller.continueFromSavedPosition();
+      await tester.pumpAndSettle();
+      controller.continueFromSavedPosition();
 
-    for (var i = 0; i < 80; i++) {
-      await tester.pump(const Duration(milliseconds: 50));
-    }
+      for (var i = 0; i < 80; i++) {
+        await tester.pump(const Duration(milliseconds: 50));
+      }
 
-    expect(controller.scrollController.offset, greaterThan(800));
-  });
+      expect(controller.scrollController.offset, greaterThan(800));
+    },
+  );
 
-  testWidgets(
-      'continueFromSavedPosition rola até bloco sem item numerado',
-      (tester) async {
+  testWidgets('continueFromSavedPosition rola até bloco sem item numerado', (
+    tester,
+  ) async {
     Get.testMode = true;
     final fake = _FakeContentService();
     final structure = NrStructure(
@@ -314,7 +324,8 @@ void main() {
                     'Equipamentos de proteção individual e responsabilidades.',
               ),
               NrParagraphBlock(
-                text: 'Segundo parágrafo da seção $i com mais conteúdo normativo.',
+                text:
+                    'Segundo parágrafo da seção $i com mais conteúdo normativo.',
               ),
             ],
           ),
@@ -367,9 +378,9 @@ void main() {
     expect(controller.scrollController.offset, greaterThan(800));
   });
 
-  testWidgets(
-      'abrir no topo com chip não apaga posição salva no histórico',
-      (tester) async {
+  testWidgets('abrir no topo com chip não apaga posição salva no histórico', (
+    tester,
+  ) async {
     Get.testMode = true;
     final fake = _FakeContentService();
     final structure = _buildLongStructure();
@@ -455,8 +466,9 @@ void main() {
     expect(navigatedTo, '6.10.1');
   });
 
-  testWidgets('continueFromSavedPosition prioriza lastSectionId sobre ratio',
-      (tester) async {
+  testWidgets('continueFromSavedPosition prioriza lastSectionId sobre ratio', (
+    tester,
+  ) async {
     Get.testMode = true;
     final fake = _FakeContentService();
     final structure = _buildLongStructure();
@@ -508,8 +520,9 @@ void main() {
     expect(controller.currentItemNumber.value, '6.25.1');
   });
 
-  testWidgets('continueFromSavedPosition não rola só com progressPercent',
-      (tester) async {
+  testWidgets('continueFromSavedPosition não rola só com progressPercent', (
+    tester,
+  ) async {
     Get.testMode = true;
     final fake = _FakeContentService();
     final structure = _buildLongStructure();
@@ -596,8 +609,9 @@ void main() {
     await tester.pump(const Duration(seconds: 3));
   });
 
-  testWidgets('navigateToItemNumber rola até parágrafo sem item numerado',
-      (tester) async {
+  testWidgets('navigateToItemNumber rola até parágrafo sem item numerado', (
+    tester,
+  ) async {
     Get.testMode = true;
     final fake = _FakeContentService();
     final structure = NrStructure(
@@ -615,9 +629,7 @@ void main() {
                     'Texto introdutório longo da seção $i sem itens numerados. '
                     'Equipamentos de proteção individual e responsabilidades.',
               ),
-              NrTableBlock(
-                markdown: '| Coluna |\n| --- |\n| Tabela $i |',
-              ),
+              NrTableBlock(markdown: '| Coluna |\n| --- |\n| Tabela $i |'),
             ],
           ),
       ],

@@ -72,8 +72,10 @@ bool jumpToWidgetKey({
 
   final reveal = viewport.getOffsetToReveal(renderObject, alignment);
   final position = scrollController.position;
-  final target =
-      reveal.offset.clamp(position.minScrollExtent, position.maxScrollExtent);
+  final target = reveal.offset.clamp(
+    position.minScrollExtent,
+    position.maxScrollExtent,
+  );
 
   if ((position.pixels - target).abs() < tolerance) return true;
 

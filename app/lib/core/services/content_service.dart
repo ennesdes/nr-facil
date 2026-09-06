@@ -1443,7 +1443,8 @@ class ContentService extends GetxService {
         final existing = history[index];
         var effectivePosition = scrollPosition;
         final effectiveMaxExtent = scrollMaxExtent ?? existing.scrollMaxExtent;
-        final effectiveRatio = scrollRatio ??
+        final effectiveRatio =
+            scrollRatio ??
             (effectiveMaxExtent > 0
                 ? (effectivePosition / effectiveMaxExtent).clamp(0.0, 1.0)
                 : existing.scrollRatio);

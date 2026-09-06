@@ -5,10 +5,7 @@ import 'package:nrfacil/features/reader/utils/reader_scroll_restore.dart';
 void main() {
   group('effectiveScrollRatioFromEntry', () {
     test('prioriza scrollRatio salvo', () {
-      expect(
-        effectiveScrollRatioFromEntry(scrollRatio: 0.87),
-        0.87,
-      );
+      expect(effectiveScrollRatioFromEntry(scrollRatio: 0.87), 0.87);
     });
 
     test('calcula a partir de posição e extent', () {

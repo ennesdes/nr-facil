@@ -120,8 +120,8 @@ class NRReaderController extends GetxController {
       return;
     }
 
-    final hasLabel = contentService.getContinueReadingPositionLabel(nrId) !=
-            null ||
+    final hasLabel =
+        contentService.getContinueReadingPositionLabel(nrId) != null ||
         (entry.effectiveProgressPercent ?? 0) > 0;
     showContinueChip.value = hasLabel;
     if (showContinueChip.value) {
@@ -384,7 +384,10 @@ class NRReaderController extends GetxController {
     }
 
     if (saved.lastItemNumber != null && saved.lastItemNumber!.isNotEmpty) {
-      navigateToItemNumber(saved.lastItemNumber!, onComplete: onRestoreComplete);
+      navigateToItemNumber(
+        saved.lastItemNumber!,
+        onComplete: onRestoreComplete,
+      );
       return;
     }
 
