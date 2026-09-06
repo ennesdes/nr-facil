@@ -170,5 +170,23 @@ void main() {
       expect(entry?.scrollMaxExtent, 4000);
       expect(contentService.getReadingProgressPercent('nr-06'), 80);
     });
+
+    test('saveScrollPosition persiste seção e bloco estruturais', () {
+      contentService.saveScrollPosition(
+        'nr-06',
+        500,
+        scrollMaxExtent: 1000,
+        scrollRatio: 0.5,
+        lastHeadingViewed: '6.5 Anexos',
+        lastSectionId: 'sec-anexos',
+        lastBlockIndex: 2,
+        replacePositionLabels: true,
+      );
+
+      final entry = contentService.getReadingHistoryEntry('nr-06');
+      expect(entry?.lastSectionId, 'sec-anexos');
+      expect(entry?.lastBlockIndex, 2);
+      expect(entry?.scrollRatio, 0.5);
+    });
   });
 }

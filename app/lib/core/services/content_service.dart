@@ -1274,6 +1274,9 @@ class ContentService extends GetxService {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    String? lastSectionId,
+    int? lastBlockIndex,
+    double? scrollRatio,
     int? progressPercent,
   }) {
     try {
@@ -1305,6 +1308,9 @@ class ContentService extends GetxService {
           scrollMaxExtent: scrollMaxExtent ?? existing?.scrollMaxExtent ?? 0.0,
           lastHeadingViewed: lastHeadingViewed ?? existing?.lastHeadingViewed,
           lastItemNumber: lastItemNumber ?? existing?.lastItemNumber,
+          lastSectionId: lastSectionId ?? existing?.lastSectionId,
+          lastBlockIndex: lastBlockIndex ?? existing?.lastBlockIndex,
+          scrollRatio: scrollRatio ?? existing?.scrollRatio,
           progressPercent: progressPercent ?? existing?.progressPercent,
         ),
       );
@@ -1414,6 +1420,9 @@ class ContentService extends GetxService {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    String? lastSectionId,
+    int? lastBlockIndex,
+    double? scrollRatio,
     int? progressPercent,
     bool replacePositionLabels = false,
   }) {
@@ -1434,6 +1443,10 @@ class ContentService extends GetxService {
         final existing = history[index];
         var effectivePosition = scrollPosition;
         final effectiveMaxExtent = scrollMaxExtent ?? existing.scrollMaxExtent;
+        final effectiveRatio = scrollRatio ??
+            (effectiveMaxExtent > 0
+                ? (effectivePosition / effectiveMaxExtent).clamp(0.0, 1.0)
+                : existing.scrollRatio);
 
         // Conteúdo pode crescer entre sessões; preserva a razão de leitura quando
         // a posição absoluta não mudou (ex.: reabrir com jumpTo na posição antiga).
@@ -1454,6 +1467,9 @@ class ContentService extends GetxService {
                 scrollMaxExtent: effectiveMaxExtent,
                 lastHeadingViewed: lastHeadingViewed,
                 lastItemNumber: lastItemNumber,
+                lastSectionId: lastSectionId,
+                lastBlockIndex: lastBlockIndex,
+                scrollRatio: effectiveRatio,
                 progressPercent: progressPercent ?? existing.progressPercent,
               )
             : existing.copyWith(
@@ -1462,6 +1478,9 @@ class ContentService extends GetxService {
                 lastHeadingViewed:
                     lastHeadingViewed ?? existing.lastHeadingViewed,
                 lastItemNumber: lastItemNumber ?? existing.lastItemNumber,
+                lastSectionId: lastSectionId ?? existing.lastSectionId,
+                lastBlockIndex: lastBlockIndex ?? existing.lastBlockIndex,
+                scrollRatio: effectiveRatio,
                 progressPercent: progressPercent ?? existing.progressPercent,
                 lastAccessedAt: DateTime.now(),
               );
@@ -1476,6 +1495,9 @@ class ContentService extends GetxService {
           scrollMaxExtent: scrollMaxExtent,
           lastHeadingViewed: lastHeadingViewed,
           lastItemNumber: lastItemNumber,
+          lastSectionId: lastSectionId,
+          lastBlockIndex: lastBlockIndex,
+          scrollRatio: scrollRatio,
           progressPercent: progressPercent,
         );
       }

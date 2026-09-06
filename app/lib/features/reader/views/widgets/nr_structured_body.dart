@@ -45,6 +45,7 @@ class NrStructuredBody extends StatelessWidget {
           color: readerBg,
           child: CustomScrollView(
             controller: scrollController,
+            cacheExtent: kReaderNavigationCacheExtent,
             slivers: [
               if (banner != null) SliverToBoxAdapter(child: banner),
               Obx(() {

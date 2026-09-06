@@ -16,12 +16,16 @@ import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/features/reader/models/nr_search_hit.dart';
 import 'package:nrfacil/features/reader/utils/nr_document_search.dart';
 import 'package:nrfacil/features/reader/utils/reader_document_metrics.dart';
+import 'package:nrfacil/features/reader/utils/reader_scroll_restore.dart';
 import 'package:nrfacil/features/reader/utils/reader_scroll_tracker.dart';
 import 'package:nrfacil/features/reader/utils/reader_scroll_utils.dart';
 import 'package:nrfacil/features/reader/utils/text_utils.dart';
 
 /// Tamanhos de fonte disponíveis no leitor (px).
 const List<double> kReaderFontSizes = [14, 16, 18, 20];
+
+/// Cache extent elevado no leitor para montar widgets distantes na navegação.
+const double kReaderNavigationCacheExtent = 50000.0;
 
 /// Controller para o NRReaderPage — gerencia estado do leitor de uma NR.
 class NRReaderController extends GetxController {
@@ -75,6 +79,7 @@ class NRReaderController extends GetxController {
   final readingProgressPercent = Rxn<int>();
   final showContinueChip = false.obs;
   final showPositionIndicator = true.obs;
+  final isNavigating = false.obs;
 
   final Map<String, GlobalKey> _sectionKeys = {};
   final Map<String, GlobalKey> _blockKeys = {};
@@ -85,7 +90,7 @@ class NRReaderController extends GetxController {
   int _searchGeneration = 0;
   Timer? _scrollSaveDebounce;
   Timer? _positionIndicatorTimer;
-  double? _savedScrollPosition;
+  bool _deferScrollPersistence = false;
 
   bool get useStructuredView {
     final s = structure.value;
@@ -98,7 +103,8 @@ class NRReaderController extends GetxController {
     _scrollController.addListener(_onScrollChanged);
     _loadReaderPreferences();
     _isFavorite = contentService.isFavorite(nrId).obs;
-    _savedScrollPosition = contentService.getScrollPosition(nrId);
+    final savedEntry = contentService.getReadingHistoryEntry(nrId);
+    _deferScrollPersistence = savedEntry?.hasSavedReadingPosition ?? false;
     await _loadNr();
     if (error.value == null) {
       showUpdateBanner.value = contentService.hasUpdate(nrId);
@@ -108,11 +114,23 @@ class NRReaderController extends GetxController {
   }
 
   void _maybeShowContinueChip() {
-    final saved = _savedScrollPosition ?? 0;
-    final hasLabel =
-        contentService.getLastItemNumber(nrId) != null ||
-        contentService.getLastHeadingViewed(nrId) != null;
-    showContinueChip.value = saved > 0 && hasLabel;
+    final entry = contentService.getReadingHistoryEntry(nrId);
+    if (entry == null || !entry.hasSavedReadingPosition) {
+      showContinueChip.value = false;
+      return;
+    }
+
+    final hasLabel = contentService.getContinueReadingPositionLabel(nrId) !=
+            null ||
+        (entry.effectiveProgressPercent ?? 0) > 0;
+    showContinueChip.value = hasLabel;
+    if (showContinueChip.value) {
+      _deferScrollPersistence = true;
+    }
+  }
+
+  void _markScrollPersistenceReady() {
+    _deferScrollPersistence = false;
   }
 
   void _loadReaderPreferences() {
@@ -139,25 +157,18 @@ class NRReaderController extends GetxController {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (error.value != null || !_scrollController.hasClients) return;
 
-      final saved = contentService.getReadingHistoryEntry(nrId);
-      final scrollPosition = _savedScrollPosition ?? 0;
-      if (scrollPosition > 0 && !showContinueChip.value) {
-        final target = saved != null
-            ? resolveScrollOffset(
-                savedPosition: saved.scrollPosition,
-                savedMaxExtent: saved.scrollMaxExtent,
-                currentMaxExtent: _scrollController.position.maxScrollExtent,
-              )
-            : scrollPosition;
-        _scrollController.jumpTo(target);
+      if (initialAnchor != null && initialAnchor!.isNotEmpty) {
+        _handleInitialAnchor();
+      } else if (!showContinueChip.value) {
+        _restoreSavedReadingPosition();
       }
-      _handleInitialAnchor();
       _updateScrollPosition();
-      // Âncoras (GlobalKey) podem não estar prontas no 1º frame após jumpTo.
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (error.value != null) return;
         _updateScrollPosition();
-        _persistScrollState();
+        if (!_deferScrollPersistence) {
+          _persistScrollState();
+        }
       });
     });
   }
@@ -173,6 +184,10 @@ class NRReaderController extends GetxController {
   }
 
   void _onScrollChanged() {
+    if (_scrollController.hasClients &&
+        _scrollController.position.pixels >= 48) {
+      _deferScrollPersistence = false;
+    }
     _scrollSaveDebounce?.cancel();
     _scrollSaveDebounce = Timer(
       const Duration(milliseconds: 500),
@@ -279,6 +294,9 @@ class NRReaderController extends GetxController {
 
   void _persistScrollState() {
     if (!_scrollController.hasClients) return;
+    if (_deferScrollPersistence && _scrollController.position.pixels < 48) {
+      return;
+    }
     _updateScrollPosition();
 
     final position = _scrollController.position;
@@ -288,15 +306,36 @@ class NRReaderController extends GetxController {
         ? 'Publicação e histórico'
         : (detected.headingLabel ?? currentPositionLabel);
 
+    final String? savedSectionId;
+    final int? savedBlockIndex;
+    if (isPreambleExpanded.value) {
+      savedSectionId = 'preamble';
+      savedBlockIndex = 0;
+    } else if (detected.sectionId != null && detected.blockIndex != null) {
+      savedSectionId = detected.sectionId;
+      savedBlockIndex = detected.blockIndex;
+    } else {
+      savedSectionId = null;
+      savedBlockIndex = null;
+    }
+
+    final extent = stableScrollExtent(
+      maxScrollExtent: position.maxScrollExtent,
+      estimatedDocumentHeight: estimatedHeight,
+    );
+    final ratio = extent > 0
+        ? (position.pixels / extent).clamp(0.0, 1.0)
+        : null;
+
     contentService.saveScrollPosition(
       nrId,
       position.pixels,
-      scrollMaxExtent: stableScrollExtent(
-        maxScrollExtent: position.maxScrollExtent,
-        estimatedDocumentHeight: estimatedHeight,
-      ),
+      scrollMaxExtent: extent,
       lastHeadingViewed: label,
       lastItemNumber: detected.itemNumber,
+      lastSectionId: savedSectionId,
+      lastBlockIndex: savedBlockIndex,
+      scrollRatio: ratio,
       progressPercent: readingProgressPercent.value,
       replacePositionLabels: true,
     );
@@ -309,21 +348,112 @@ class NRReaderController extends GetxController {
   }
 
   void continueFromSavedPosition() {
-    final saved = contentService.getReadingHistoryEntry(nrId);
-    final position =
-        _savedScrollPosition ?? contentService.getScrollPosition(nrId);
-    if (_scrollController.hasClients && position > 0) {
-      final target = saved != null
-          ? resolveScrollOffset(
-              savedPosition: saved.scrollPosition,
-              savedMaxExtent: saved.scrollMaxExtent,
-              currentMaxExtent: _scrollController.position.maxScrollExtent,
-            )
-          : position;
-      _scrollController.jumpTo(target);
-    }
     showContinueChip.value = false;
-    _updateScrollPosition();
+    _restoreSavedReadingPosition();
+    _showPositionIndicatorBriefly();
+  }
+
+  void _restoreSavedReadingPosition() {
+    final saved = contentService.getReadingHistoryEntry(nrId);
+    if (saved == null) {
+      _markScrollPersistenceReady();
+      return;
+    }
+
+    if (saved.effectiveProgressPercent != null) {
+      readingProgressPercent.value = saved.effectiveProgressPercent;
+    }
+
+    void onRestoreComplete() {
+      _updateScrollPosition();
+      _markScrollPersistenceReady();
+    }
+
+    _deferScrollPersistence = true;
+
+    if (saved.lastSectionId != null && saved.lastBlockIndex != null) {
+      if (saved.lastSectionId == 'preamble') {
+        isPreambleExpanded.value = true;
+      }
+      _scheduleScrollToTarget(
+        sectionId: saved.lastSectionId!,
+        blockIndex: saved.lastBlockIndex!,
+        onComplete: onRestoreComplete,
+      );
+      return;
+    }
+
+    if (saved.lastItemNumber != null && saved.lastItemNumber!.isNotEmpty) {
+      navigateToItemNumber(saved.lastItemNumber!, onComplete: onRestoreComplete);
+      return;
+    }
+
+    final ratio = saved.effectiveScrollRatio;
+    if (ratio <= 0.01) {
+      _markScrollPersistenceReady();
+      return;
+    }
+
+    _restoreScrollRatio(ratio, onComplete: onRestoreComplete);
+  }
+
+  /// Restaura posição por razão de scroll — única estratégia para "continuar".
+  ///
+  /// Repete até o extent da lista lazy estabilizar e o offset bater com a razão.
+  void _restoreScrollRatio(double ratio, {VoidCallback? onComplete}) {
+    double? lastMaxExtent;
+    var stableExtentFrames = 0;
+
+    void tryScroll(int attempt) {
+      if (!_scrollController.hasClients) {
+        if (attempt < 72) {
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            tryScroll(attempt + 1);
+          });
+        } else {
+          onComplete?.call();
+        }
+        return;
+      }
+
+      final position = _scrollController.position;
+      final maxExtent = position.maxScrollExtent;
+      stableExtentFrames = nextStableExtentFrameCount(
+        previousMaxExtent: lastMaxExtent,
+        currentMaxExtent: maxExtent,
+        currentStableFrames: stableExtentFrames,
+      );
+      lastMaxExtent = maxExtent;
+
+      if (maxExtent > 1) {
+        final target = targetOffsetForScrollRatio(ratio, maxExtent);
+        position.jumpTo(target.clamp(0.0, maxExtent));
+      }
+
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (!_scrollController.hasClients) {
+          onComplete?.call();
+          return;
+        }
+
+        final current = _scrollController.position;
+        if (isScrollRatioRestoreComplete(
+              pixels: current.pixels,
+              maxScrollExtent: current.maxScrollExtent,
+              ratio: ratio,
+              stableExtentFrames: stableExtentFrames,
+            ) ||
+            attempt >= 72) {
+          onComplete?.call();
+          return;
+        }
+        tryScroll(attempt + 1);
+      });
+    }
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      tryScroll(0);
+    });
   }
 
   void dismissContinueChip() => showContinueChip.value = false;
@@ -342,7 +472,9 @@ class NRReaderController extends GetxController {
     _scrollSaveDebounce?.cancel();
     _positionIndicatorTimer?.cancel();
     _isFavorite.close();
-    _persistScrollState();
+    if (!_deferScrollPersistence) {
+      _persistScrollState();
+    }
     _scrollController.removeListener(_onScrollChanged);
     _scrollController.dispose();
     super.onClose();
@@ -416,20 +548,40 @@ class NRReaderController extends GetxController {
     _headingKeys[_normalizeKey(headingText)] = key;
   }
 
-  void navigateToSection(String sectionIdOrAnchor) {
+  void navigateToSection(String sectionIdOrAnchor, {VoidCallback? onComplete}) {
     if (useStructuredView) {
       if (sectionIdOrAnchor == 'preamble') {
         isPreambleExpanded.value = true;
-        _scheduleScrollToTarget(sectionId: 'preamble', blockIndex: 0);
+        _scheduleScrollToTarget(
+          sectionId: 'preamble',
+          blockIndex: 0,
+          onComplete: onComplete,
+        );
         isIndexOpen.value = false;
         return;
       }
 
       final sectionId =
           _resolveSectionId(sectionIdOrAnchor) ?? sectionIdOrAnchor;
-      _scheduleScrollToTarget(sectionId: sectionId, blockIndex: -1);
+      final s = structure.value;
+      var blockIndex = -1;
+      if (s != null) {
+        for (final section in s.sections) {
+          if (section.id == sectionId) {
+            blockIndex = section.blocks.isEmpty ? -1 : 0;
+            currentSectionId.value = sectionId;
+            break;
+          }
+        }
+      }
+      _scheduleScrollToTarget(
+        sectionId: sectionId,
+        blockIndex: blockIndex,
+        onComplete: onComplete,
+      );
     } else {
       navigateToHeading(sectionIdOrAnchor);
+      onComplete?.call();
     }
     isIndexOpen.value = false;
   }
@@ -437,7 +589,15 @@ class NRReaderController extends GetxController {
   void _scheduleScrollToTarget({
     required String sectionId,
     required int blockIndex,
+    VoidCallback? onComplete,
   }) {
+    isNavigating.value = true;
+
+    void complete() {
+      isNavigating.value = false;
+      onComplete?.call();
+    }
+
     void tryScroll(int attempt) {
       if (attempt == 0) {
         _jumpToEstimatedOffset(sectionId: sectionId, blockIndex: blockIndex);
@@ -452,6 +612,7 @@ class NRReaderController extends GetxController {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (_tryScrollToTarget(sectionId: sectionId, blockIndex: blockIndex)) {
           _updateScrollPosition();
+          complete();
           return;
         }
         if (attempt >= 48) {
@@ -459,6 +620,7 @@ class NRReaderController extends GetxController {
             'Não foi possível rolar até $sectionId'
             '${blockIndex >= 0 ? ' bloco $blockIndex' : ''}',
           );
+          complete();
           return;
         }
         tryScroll(attempt + 1);
@@ -539,7 +701,7 @@ class NRReaderController extends GetxController {
 
   bool _scrollToKey(GlobalKey? key, {double alignment = 0.08}) {
     if (key == null) return false;
-    return scrollToWidgetKey(
+    return jumpToWidgetKey(
       key: key,
       scrollController: _scrollController,
       alignment: alignment,
@@ -554,28 +716,30 @@ class NRReaderController extends GetxController {
 
     if (sectionId == 'meta') {
       if (!_scrollController.hasClients) return false;
-      _scrollController.animateTo(
-        0,
-        duration: const Duration(milliseconds: 350),
-        curve: Curves.easeInOut,
-      );
-      return true;
+      _scrollController.jumpTo(0);
+      return _scrollController.position.pixels < 4;
     }
 
     if (sectionId == 'preamble') {
       isPreambleExpanded.value = true;
-      return _scrollToKey(_blockKeys['preamble-0']);
+      final idx = blockIndex >= 0 ? blockIndex : 0;
+      return _scrollToKey(_blockKeys['preamble-$idx']);
     }
 
     if (blockIndex >= 0) {
-      final blockKey = _blockKeys['$sectionId-$blockIndex'];
-      if (_scrollToKey(blockKey)) {
-        return true;
+      return _scrollToKey(_blockKeys['$sectionId-$blockIndex']);
+    }
+
+    final s = structure.value;
+    if (s != null) {
+      for (final section in s.sections) {
+        if (section.id == sectionId && section.blocks.isNotEmpty) {
+          return _scrollToKey(_blockKeys['$sectionId-0']);
+        }
       }
     }
 
-    final sectionKey = _sectionKeys[sectionId];
-    return _scrollToKey(sectionKey, alignment: 0.05);
+    return _scrollToKey(_sectionKeys[sectionId], alignment: 0.05);
   }
 
   void navigateToHeading(String headingText) {
@@ -644,7 +808,7 @@ class NRReaderController extends GetxController {
 
   void setPreambleExpanded(bool value) => isPreambleExpanded.value = value;
 
-  void navigateToItemNumber(String itemNumber) {
+  void navigateToItemNumber(String itemNumber, {VoidCallback? onComplete}) {
     final normalized = itemNumber.trim();
     if (normalized.isEmpty) return;
 
@@ -658,7 +822,11 @@ class NRReaderController extends GetxController {
             highlightBlockIndex.value = i;
             currentSectionId.value = section.id;
             currentItemNumber.value = normalized;
-            _scheduleScrollToTarget(sectionId: section.id, blockIndex: i);
+            _scheduleScrollToTarget(
+              sectionId: section.id,
+              blockIndex: i,
+              onComplete: onComplete,
+            );
             isIndexOpen.value = false;
             return;
           }
@@ -666,7 +834,7 @@ class NRReaderController extends GetxController {
       }
     }
 
-    navigateToSection(normalized);
+    navigateToSection(normalized, onComplete: onComplete);
   }
 
   final isDownloading = false.obs;
@@ -690,10 +858,14 @@ class NRReaderController extends GetxController {
 
   String? get continueLabel {
     final label = contentService.getContinueReadingPositionLabel(nrId);
-    if (label == null) return null;
-    final item = contentService.getLastItemNumber(nrId);
-    if (item != null && item == label) return 'item $label';
-    return label;
+    if (label != null && label.isNotEmpty) {
+      final item = contentService.getLastItemNumber(nrId);
+      if (item != null && item == label) return 'item $label';
+      return label;
+    }
+    final pct = contentService.getReadingProgressPercent(nrId);
+    if (pct != null && pct > 0) return '$pct% do documento';
+    return null;
   }
 
   /// Label amigável para o indicador de posição (nunca slug interno).

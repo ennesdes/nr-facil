@@ -49,6 +49,38 @@ bool scrollToWidgetKey({
   return true;
 }
 
+/// Rola instantaneamente até um widget; retorna true somente quando o offset
+/// está no alvo (para navegação programática com retry em listas lazy).
+bool jumpToWidgetKey({
+  required GlobalKey key,
+  required ScrollController scrollController,
+  double alignment = 0.08,
+  double tolerance = 2,
+}) {
+  final context = key.currentContext;
+  if (context == null || !scrollController.hasClients) return false;
+
+  final renderObject = context.findRenderObject();
+  if (renderObject == null ||
+      renderObject is! RenderBox ||
+      !renderObject.hasSize) {
+    return false;
+  }
+
+  final viewport = RenderAbstractViewport.maybeOf(renderObject);
+  if (viewport == null) return false;
+
+  final reveal = viewport.getOffsetToReveal(renderObject, alignment);
+  final position = scrollController.position;
+  final target =
+      reveal.offset.clamp(position.minScrollExtent, position.maxScrollExtent);
+
+  if ((position.pixels - target).abs() < tolerance) return true;
+
+  position.jumpTo(target);
+  return (position.pixels - target).abs() < tolerance;
+}
+
 /// Retângulo aproximado da linha que contém [matchStart] dentro de um bloco.
 Rect matchRectInBlock({
   required double maxWidth,

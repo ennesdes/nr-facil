@@ -1,14 +1,15 @@
 # CI/CD — Deploy na Play Store
 
-O workflow roda em **7 jobs** visíveis no GitHub Actions:
+O workflow roda em **uma VM** (job único), com etapas numeradas no log:
 
 1. **Validar secrets** — Play Console + keystore + AdMob (8 secrets)
-2. **Format · Fix** — `dart fix` + `dart format`
-3. **Analyze** — `flutter analyze --fatal-infos`
-4. **Testes** — `flutter test`
-5. **Assinar · Build AAB** — version bump, keystore, AdMob via secrets, build release
-6. **Publicar Play Store** — upload no track escolhido (`internal` / `production`)
-7. **Version bump** — commita `app/pubspec.yaml` após publish ok
+2. **Format · Fix** — `dart fix` + `dart format` (commit automático se mudar algo)
+3. **Analyze + Testes** — `flutter analyze` e `flutter test` **em paralelo** na mesma VM
+4. **Assinar · Build AAB** — version bump local, keystore, AdMob via secrets, build release
+5. **Publicar Play Store** — upload no track escolhido (`internal` / `production`)
+6. **Version bump** — commita `app/pubspec.yaml` após publish ok
+
+**Performance:** checkout, setup Flutter e `pub get` rodam **uma vez** no início (via [`.github/actions/flutter-setup`](../.github/actions/flutter-setup/action.yml)). O build usa `--no-pub` porque as deps já estão resolvidas na mesma VM. Símbolos Dart sobem como artefato opcional (`app-release-symbols`, 90 dias).
 
 Disparo: **Actions → Deploy Play Store → Run workflow** (`workflow_dispatch`).
 
@@ -146,7 +147,7 @@ Necessário para cache, commits automáticos de format e version bump.
 2. GitHub → **Actions** → **Deploy Play Store** → **Run workflow**
 3. Branch: `main`
 4. Track: `internal` (primeiro deploy) ou `production`
-5. Acompanhe o **Job Summary** de cada job
+5. Acompanhe o **Job Summary** e os steps numerados no log
 
 ---
 

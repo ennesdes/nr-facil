@@ -7,32 +7,28 @@ on:
     branches: [main]
 
 jobs:
-  analyze-and-test:
+  flutter:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Ler versão do Flutter (.fvmrc)
-        id: fvmrc
-        run: echo "version=$(jq -r .flutter .fvmrc)" >> "$GITHUB_OUTPUT"
-
-      - uses: subosito/flutter-action@v2
-        with:
-          flutter-version: ${{ steps.fvmrc.outputs.version }}
-          channel: stable
-
-      - name: Flutter pub get
+      - name: Flutter + deps
         if: hashFiles('app/pubspec.yaml') != ''
-        working-directory: app
-        run: flutter pub get
+        uses: ./.github/actions/flutter-setup
 
-      - name: Flutter analyze
+      - name: Flutter analyze + test (paralelo)
         if: hashFiles('app/pubspec.yaml') != ''
         working-directory: app
         run: |
           set +e
-          flutter analyze --fatal-infos 2>&1 | tee analyze_output.txt
-          status=${PIPESTATUS[0]}
+          flutter analyze --fatal-infos > analyze_output.txt 2>&1 &
+          ANALYZE_PID=$!
+
+          flutter test --reporter=github --concurrency=$(nproc)
+          TEST_STATUS=$?
+
+          wait "$ANALYZE_PID"
+          ANALYZE_STATUS=$?
 
           while IFS= read -r line; do
             if [[ "$line" =~ ^[[:space:]]*(error|warning|info)[[:space:]]•[[:space:]](.+)[[:space:]]•[[:space:]]([^[:space:]]+):([0-9]+):([0-9]+)[[:space:]]•[[:space:]](.+)$ ]]; then
@@ -51,12 +47,17 @@ jobs:
             fi
           done < analyze_output.txt
 
-          exit "$status"
+          cat analyze_output.txt
 
-      - name: Flutter test
-        if: hashFiles('app/pubspec.yaml') != ''
-        working-directory: app
-        run: flutter test --reporter=github
+          if [[ "$ANALYZE_STATUS" -ne 0 ]]; then
+            exit "$ANALYZE_STATUS"
+          fi
+          exit "$TEST_STATUS"
+
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:

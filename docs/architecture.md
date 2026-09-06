@@ -258,8 +258,10 @@ Lançamento (Fase 5) sai apenas com a coluna grátis + ads. A coluna premium (IA
 
 ### `ci.yml`
 
-- `fvm flutter analyze` + `test`
-- `validate_manifest.py`
+Dois jobs **em paralelo**:
+
+- **flutter** — `flutter analyze` ∥ `flutter test --concurrency=$(nproc)` (mesma VM)
+- **manifest** — `validate_manifest.py` (não depende de Flutter)
 
 ## Escopo MVP
 

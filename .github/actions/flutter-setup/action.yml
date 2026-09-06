@@ -1,0 +1,23 @@
+name: Flutter setup + deps
+description: SDK Flutter, pub-cache, cache de .dart_tool e pub get
+
+runs:
+  using: composite
+  steps:
+    - uses: subosito/flutter-action@v2
+      with:
+        flutter-version-file: .fvmrc
+        cache: true
+        pub-cache: true
+
+    - uses: actions/cache@v4
+      with:
+        path: app/.dart_tool
+        key: dart-tool-${{ hashFiles('app/pubspec.lock') }}
+        restore-keys: |
+          dart-tool-
+
+    - name: Pub get
+      shell: bash
+      working-directory: app
+      run: bash ../scripts/ci_step_report.sh "Pub get" flutter pub get
