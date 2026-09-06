@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -22,7 +23,25 @@ class _FakePathProviderPlatform extends PathProviderPlatform
 void main() {
   late Directory tempDir;
 
+  const packageInfoChannel =
+      MethodChannel('dev.fluttercommunity.plus/package_info');
+
   setUp(() async {
+    TestWidgetsFlutterBinding.ensureInitialized();
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(packageInfoChannel, (call) async {
+      if (call.method == 'getAll') {
+        return {
+          'appName': 'NR Fácil',
+          'packageName': 'com.example.nrfacil',
+          'version': '1.0.0',
+          'buildNumber': '42',
+          'buildSignature': '',
+        };
+      }
+      return null;
+    });
+
     tempDir = await Directory.systemTemp.createTemp('nrfacil_settings_test_');
     PathProviderPlatform.instance = _FakePathProviderPlatform(tempDir.path);
     await GetStorage.init();
@@ -30,6 +49,8 @@ void main() {
   });
 
   tearDown(() async {
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(packageInfoChannel, null);
     await tempDir.delete(recursive: true);
     Get.reset();
   });
@@ -50,6 +71,7 @@ void main() {
     expect(find.text('Sistema'), findsOneWidget);
     expect(find.text('Claro'), findsOneWidget);
     expect(find.text('Escuro'), findsOneWidget);
+    expect(find.textContaining('Versão 1.0.0 (42)'), findsOneWidget);
 
     await tester.tap(find.text('Escuro'));
     await tester.pumpAndSettle();
