@@ -4,11 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:nrfacil/core/bindings/app_binding.dart';
+import 'package:nrfacil/core/controllers/theme_controller.dart';
+import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/main.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'package:nrfacil/core/controllers/theme_controller.dart';
-import 'package:nrfacil/main.dart';
+import 'support/offline_http_client.dart';
 
 class _FakePathProviderPlatform extends PathProviderPlatform
     with MockPlatformInterfaceMixin {
@@ -29,9 +32,11 @@ void main() {
   late Directory tempDir;
 
   setUp(() async {
+    Get.testMode = true;
     tempDir = await Directory.systemTemp.createTemp('nrfacil_test_');
     PathProviderPlatform.instance = _FakePathProviderPlatform(tempDir.path);
     await GetStorage.init();
+    GetStorage().erase();
     Get.put(ThemeController(), permanent: true);
   });
 
@@ -43,9 +48,21 @@ void main() {
   testWidgets('shows HomePage with Normas, Favoritos and Buscar tabs', (
     WidgetTester tester,
   ) async {
-    await tester.pumpWidget(const TickerMode(enabled: false, child: MyApp()));
+    await tester.pumpWidget(
+      TickerMode(
+        enabled: false,
+        child: MyApp(
+          initialBinding: AppBinding(
+            contentServiceBuilder: () => ContentService(
+              httpClient: createOfflineHttpClient(),
+              cacheDirOverride: tempDir,
+            ),
+          ),
+        ),
+      ),
+    );
     await tester.pump();
-    await tester.pump(const Duration(seconds: 4));
+    await tester.pump(const Duration(milliseconds: 100));
 
     expect(find.text('Normas'), findsAtLeast(1));
     expect(find.text('Favoritos'), findsAtLeast(1));

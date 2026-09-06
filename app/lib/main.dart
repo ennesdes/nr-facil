@@ -32,7 +32,9 @@ Future<void> main() async {
 }
 
 class MyApp extends GetView<ThemeController> {
-  const MyApp({super.key});
+  const MyApp({super.key, this.initialBinding});
+
+  final Bindings? initialBinding;
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +45,7 @@ class MyApp extends GetView<ThemeController> {
         theme: AppTheme.light,
         darkTheme: AppTheme.dark,
         themeMode: controller.themeMode.value,
-        initialBinding: AppBinding(),
+        initialBinding: initialBinding ?? AppBinding(),
         builder: (context, child) {
           final mediaQuery = MediaQuery.of(context);
           return AppSystemUiScope(

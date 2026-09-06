@@ -30,6 +30,10 @@ import '../services/storage_service.dart';
 /// }
 /// ```
 class AppBinding extends Bindings {
+  AppBinding({this._contentServiceBuilder});
+
+  final ContentService Function()? _contentServiceBuilder;
+
   @override
   void dependencies() {
     if (!Get.isRegistered<ThemeController>()) {
@@ -42,7 +46,10 @@ class AppBinding extends Bindings {
     Get.put<AdsService>(AdsService(storage: Get.find()), permanent: true);
 
     // ContentService — sincroniza e cache de NRs
-    Get.put<ContentService>(ContentService(), permanent: true);
+    Get.put<ContentService>(
+      _contentServiceBuilder?.call() ?? ContentService(),
+      permanent: true,
+    );
 
     // SearchService — busca full-text em chunks
     Get.put<SearchService>(
