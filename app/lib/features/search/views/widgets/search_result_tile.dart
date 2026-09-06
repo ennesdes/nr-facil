@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 
 import '../../../../core/services/search_service.dart';
-import '../../../../core/theme/app_theme_extensions.dart';
+import '../../../reader/utils/text_utils.dart';
+import '../../../reader/views/widgets/highlighted_text.dart';
 
 /// Tile de um resultado de busca.
 ///
 /// Exibe:
 /// - Título da NR
 /// - Heading da seção
-/// - Snippet do texto com o termo de busca destacado em negrito
+/// - Snippet do texto com negrito Markdown e termo de busca destacado
 /// - Clicável para navegar para a seção no leitor
 class SearchResultTile extends StatelessWidget {
   final SearchResult result;
@@ -42,7 +43,7 @@ class SearchResultTile extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             Text(
-              result.chunk.heading,
+              stripInlineMarkup(result.chunk.heading),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontStyle: FontStyle.italic,
@@ -56,7 +57,16 @@ class SearchResultTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 8),
-            _buildHighlightedSnippet(context),
+            HighlightedText(
+              text: extractMarkdownSnippet(
+                result.chunk.text,
+                query: searchQuery,
+              ),
+              highlight: searchQuery,
+              preserveBold: true,
+              style: Theme.of(context).textTheme.bodySmall,
+              maxLines: 3,
+            ),
           ],
         ),
         trailing: Icon(
@@ -65,67 +75,6 @@ class SearchResultTile extends StatelessWidget {
           color: colorScheme.onSurfaceVariant,
         ),
       ),
-    );
-  }
-
-  Widget _buildHighlightedSnippet(BuildContext context) {
-    final text = result.chunk.text;
-    final normalizedQuery = searchQuery.toLowerCase();
-    final normalizedText = text.toLowerCase();
-
-    final index = normalizedText.indexOf(normalizedQuery);
-    if (index == -1) {
-      return Text(
-        text.length > 120 ? '${text.substring(0, 120)}...' : text,
-        style: Theme.of(context).textTheme.bodySmall,
-        maxLines: 3,
-        overflow: TextOverflow.ellipsis,
-      );
-    }
-
-    final start = (index - 60).clamp(0, text.length);
-    final end = (index + searchQuery.length + 60).clamp(0, text.length);
-
-    String snippet = text.substring(start, end);
-    if (start > 0) snippet = '...$snippet';
-    if (end < text.length) snippet = '$snippet...';
-
-    final normalizedSnippet = snippet.toLowerCase();
-    final matchStartInSnippet = normalizedSnippet.indexOf(normalizedQuery);
-    if (matchStartInSnippet == -1) {
-      return Text(
-        snippet,
-        style: Theme.of(context).textTheme.bodySmall,
-        maxLines: 3,
-        overflow: TextOverflow.ellipsis,
-      );
-    }
-
-    final beforeMatch = snippet.substring(0, matchStartInSnippet);
-    final match = snippet.substring(
-      matchStartInSnippet,
-      matchStartInSnippet + searchQuery.length,
-    );
-    final afterMatch = snippet.substring(matchStartInSnippet + searchQuery.length);
-
-    return RichText(
-      text: TextSpan(
-        style: Theme.of(context).textTheme.bodySmall,
-        children: [
-          TextSpan(text: beforeMatch),
-          TextSpan(
-            text: match,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              backgroundColor: context.searchHighlightColor,
-              color: context.onSearchHighlightColor,
-            ),
-          ),
-          TextSpan(text: afterMatch),
-        ],
-      ),
-      maxLines: 3,
-      overflow: TextOverflow.ellipsis,
     );
   }
 }

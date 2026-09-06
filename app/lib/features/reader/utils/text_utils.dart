@@ -6,6 +6,65 @@ String stripHtmlTags(String text) {
   return text.replaceAll(RegExp(r'<[^>]+>'), '');
 }
 
+/// Segmento de texto inline com negrito Markdown opcional.
+class InlineMarkdownSegment {
+  const InlineMarkdownSegment(this.text, {this.isBold = false});
+
+  final String text;
+  final bool isBold;
+}
+
+/// Interpreta `**negrito**`, `_(nota)_` e tags HTML como no leitor.
+List<InlineMarkdownSegment> parseInlineMarkdownSegments(String raw) {
+  final segments = <InlineMarkdownSegment>[];
+  final plainBuffer = StringBuffer();
+
+  void flushPlain() {
+    if (plainBuffer.isEmpty) return;
+    segments.add(InlineMarkdownSegment(plainBuffer.toString()));
+    plainBuffer.clear();
+  }
+
+  var index = 0;
+  while (index < raw.length) {
+    if (raw.startsWith('**', index)) {
+      final end = raw.indexOf('**', index + 2);
+      if (end != -1) {
+        flushPlain();
+        segments.add(
+          InlineMarkdownSegment(
+            raw.substring(index + 2, end),
+            isBold: true,
+          ),
+        );
+        index = end + 2;
+        continue;
+      }
+    }
+
+    final htmlMatch = RegExp(r'<[^>]+>').matchAsPrefix(raw, index);
+    if (htmlMatch != null) {
+      index = htmlMatch.end;
+      continue;
+    }
+
+    if (raw.startsWith('_(', index)) {
+      final end = raw.indexOf(')_', index + 2);
+      if (end != -1) {
+        plainBuffer.write(raw.substring(index + 2, end));
+        index = end + 2;
+        continue;
+      }
+    }
+
+    plainBuffer.write(raw[index]);
+    index += 1;
+  }
+
+  flushPlain();
+  return segments;
+}
+
 /// Remove marcação Markdown/HTML inline para exibição.
 String stripInlineMarkup(String text) {
   var result = text;
@@ -78,6 +137,96 @@ List<int> findOccurrenceOffsets(String text, String query) {
   }
 
   return offsets;
+}
+
+/// Trecho do Markdown original centrado em uma ocorrência de busca.
+String extractMarkdownSnippet(
+  String raw, {
+  required String query,
+  int context = 60,
+  int maxLength = 200,
+}) {
+  final clean = stripInlineMarkup(raw);
+  if (clean.isEmpty) return '';
+
+  final normalizedQuery = normalizeForSearch(query);
+  if (normalizedQuery.isEmpty) {
+    return clean.length > maxLength
+        ? '${clean.substring(0, maxLength)}...'
+        : clean;
+  }
+
+  final normalizedText = normalizeForSearch(clean);
+  final index = normalizedText.indexOf(normalizedQuery);
+  if (index == -1) {
+    return clean.length > maxLength
+        ? '${clean.substring(0, maxLength)}...'
+        : clean;
+  }
+
+  final cleanStart = (index - context).clamp(0, clean.length);
+  final cleanEnd =
+      (index + normalizedQuery.length + context).clamp(0, clean.length);
+
+  var snippet = rawMarkdownForCleanRange(raw, cleanStart, cleanEnd);
+  if (cleanStart > 0) snippet = '...$snippet';
+  if (cleanEnd < clean.length) snippet = '$snippet...';
+  if (snippet.length > maxLength) {
+    snippet = '${snippet.substring(0, maxLength)}...';
+  }
+  return snippet;
+}
+
+String rawMarkdownForCleanRange(String raw, int cleanStart, int cleanEnd) {
+  if (cleanStart >= cleanEnd) return '';
+
+  final buffer = StringBuffer();
+  var cleanIndex = 0;
+  var index = 0;
+
+  while (index < raw.length && cleanIndex < cleanEnd) {
+    if (raw.startsWith('**', index)) {
+      final end = raw.indexOf('**', index + 2);
+      if (end != -1) {
+        final content = raw.substring(index + 2, end);
+        final segmentStart = cleanIndex;
+        cleanIndex += content.length;
+        if (segmentStart < cleanEnd && cleanIndex > cleanStart) {
+          buffer.write(raw.substring(index, end + 2));
+        }
+        index = end + 2;
+        continue;
+      }
+    }
+
+    final htmlMatch = RegExp(r'<[^>]+>').matchAsPrefix(raw, index);
+    if (htmlMatch != null) {
+      index = htmlMatch.end;
+      continue;
+    }
+
+    if (raw.startsWith('_(', index)) {
+      final end = raw.indexOf(')_', index + 2);
+      if (end != -1) {
+        final content = raw.substring(index + 2, end);
+        final segmentStart = cleanIndex;
+        cleanIndex += content.length;
+        if (segmentStart < cleanEnd && cleanIndex > cleanStart) {
+          buffer.write(raw.substring(index, end + 2));
+        }
+        index = end + 2;
+        continue;
+      }
+    }
+
+    if (cleanIndex >= cleanStart && cleanIndex < cleanEnd) {
+      buffer.write(raw[index]);
+    }
+    cleanIndex += 1;
+    index += 1;
+  }
+
+  return buffer.toString();
 }
 
 /// Trecho de texto centrado em uma ocorrência para exibição.

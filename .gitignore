@@ -18,6 +18,7 @@ app/android/**/GeneratedPluginRegistrant.java
 app/android/key.properties
 app/android/app/*.jks
 app/android/app/*.keystore
+app/admob.local.env
 
 # IDE
 .idea/

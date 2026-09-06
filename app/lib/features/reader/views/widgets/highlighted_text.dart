@@ -10,6 +10,7 @@ class HighlightedText extends StatelessWidget {
   final TextStyle? style;
   final int? maxLines;
   final bool selectable;
+  final bool preserveBold;
 
   const HighlightedText({
     required this.text,
@@ -17,30 +18,83 @@ class HighlightedText extends StatelessWidget {
     this.style,
     this.maxLines,
     this.selectable = false,
+    this.preserveBold = false,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    final clean = stripInlineMarkup(text);
     final baseStyle = style ?? DefaultTextStyle.of(context).style;
     final query = highlight?.trim();
+    final segments = preserveBold
+        ? parseInlineMarkdownSegments(text)
+        : [InlineMarkdownSegment(stripInlineMarkup(text))];
 
     if (query == null || query.isEmpty) {
-      if (selectable) {
-        return SelectableText(clean, style: baseStyle, maxLines: maxLines);
-      }
-      return Text(clean, style: baseStyle, maxLines: maxLines);
+      return _buildRichText(
+        context,
+        _segmentsToSpans(segments, baseStyle),
+        selectable: selectable,
+      );
     }
 
     final normalizedQuery = normalizeForSearch(query);
     if (normalizedQuery.isEmpty) {
-      if (selectable) {
-        return SelectableText(clean, style: baseStyle, maxLines: maxLines);
-      }
-      return Text(clean, style: baseStyle, maxLines: maxLines);
+      return _buildRichText(
+        context,
+        _segmentsToSpans(segments, baseStyle),
+        selectable: selectable,
+      );
     }
 
+    final spans = <TextSpan>[];
+    for (final segment in segments) {
+      spans.addAll(
+        _highlightSegment(
+          context,
+          segment,
+          baseStyle,
+          normalizedQuery,
+        ),
+      );
+    }
+
+    return _buildRichText(
+      context,
+      spans,
+      selectable: selectable,
+    );
+  }
+
+  List<TextSpan> _segmentsToSpans(
+    List<InlineMarkdownSegment> segments,
+    TextStyle baseStyle,
+  ) {
+    return segments
+        .map(
+          (segment) => TextSpan(
+            text: segment.text,
+            style: _segmentStyle(baseStyle, segment.isBold),
+          ),
+        )
+        .toList();
+  }
+
+  TextStyle _segmentStyle(TextStyle baseStyle, bool isBold) {
+    if (!isBold) return baseStyle;
+    return baseStyle.copyWith(fontWeight: FontWeight.bold);
+  }
+
+  List<TextSpan> _highlightSegment(
+    BuildContext context,
+    InlineMarkdownSegment segment,
+    TextStyle baseStyle,
+    String normalizedQuery,
+  ) {
+    final clean = segment.text;
+    if (clean.isEmpty) return const [];
+
+    final segmentStyle = _segmentStyle(baseStyle, segment.isBold);
     final normalizedText = normalizeForSearch(clean);
     final spans = <TextSpan>[];
     var start = 0;
@@ -49,14 +103,16 @@ class HighlightedText extends StatelessWidget {
       final index = normalizedText.indexOf(normalizedQuery, start);
       if (index == -1) {
         if (start < clean.length) {
-          spans.add(TextSpan(text: clean.substring(start), style: baseStyle));
+          spans.add(
+            TextSpan(text: clean.substring(start), style: segmentStyle),
+          );
         }
         break;
       }
 
       if (index > start) {
         spans.add(
-          TextSpan(text: clean.substring(start, index), style: baseStyle),
+          TextSpan(text: clean.substring(start, index), style: segmentStyle),
         );
       }
 
@@ -64,7 +120,7 @@ class HighlightedText extends StatelessWidget {
       spans.add(
         TextSpan(
           text: matched,
-          style: baseStyle.copyWith(
+          style: segmentStyle.copyWith(
             backgroundColor: context.searchHighlightColor,
             color: context.onSearchHighlightColor,
             fontWeight: FontWeight.w600,
@@ -74,6 +130,14 @@ class HighlightedText extends StatelessWidget {
       start = index + normalizedQuery.length;
     }
 
+    return spans;
+  }
+
+  Widget _buildRichText(
+    BuildContext context,
+    List<TextSpan> spans, {
+    required bool selectable,
+  }) {
     final rich = TextSpan(children: spans);
     if (selectable) {
       return SelectableText.rich(

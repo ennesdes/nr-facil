@@ -20,4 +20,23 @@ void main() {
     expect(find.textContaining('EPI'), findsOneWidget);
     expect(find.textContaining('Fornecimento'), findsOneWidget);
   });
+
+  testWidgets('HighlightedText renderiza negrito Markdown', (tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: const Scaffold(
+          body: HighlightedText(
+            text: '**28.1** fiscalização normativa',
+            highlight: 'fiscal',
+            preserveBold: true,
+          ),
+        ),
+      ),
+    );
+
+    expect(find.textContaining('**'), findsNothing);
+    expect(find.textContaining('28.1'), findsOneWidget);
+    expect(find.textContaining('fiscal'), findsOneWidget);
+  });
 }

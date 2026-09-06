@@ -69,6 +69,16 @@ Use IDs oficiais de teste do Google durante dev — **nunca clique em seus próp
 
 \* Interstitial só se passaram ≥15 min desde o último, sessão ≥2 min, e usuário já abriu o leitor nesta sessão.
 
+### 8. IDs de produção (repo público)
+
+**Não commite** os IDs reais no git. Cadastre como GitHub Secrets e use o workflow de deploy:
+
+- `ADMOB_APP_ID`
+- `ADMOB_BANNER_UNIT_ID`
+- `ADMOB_INTERSTITIAL_UNIT_ID`
+
+Guia completo: [docs/CI_SETUP.md](../CI_SETUP.md)
+
 ## Troubleshooting
 
 | Problema | Solução |

@@ -30,4 +30,30 @@ void main() {
     );
     expect(findOccurrenceOffsets('sem match aqui', 'xyz'), isEmpty);
   });
+
+  test('parseInlineMarkdownSegments interpreta negrito e notas', () {
+    final segments = parseInlineMarkdownSegments(
+      '**28.1** Texto _(nota)_ com **fiscal**ização',
+    );
+
+    expect(segments.length, 4);
+    expect(segments[0].text, '28.1');
+    expect(segments[0].isBold, isTrue);
+    expect(segments[1].text, ' Texto nota com ');
+    expect(segments[2].text, 'fiscal');
+    expect(segments[2].isBold, isTrue);
+    expect(segments[3].text, 'ização');
+  });
+
+  test('extractMarkdownSnippet preserva negrito no trecho', () {
+    final snippet = extractMarkdownSnippet(
+      'Introdução longa. **28.1** fiscalização da NR e mais texto normativo.',
+      query: 'fiscal',
+      context: 10,
+    );
+
+    expect(snippet, contains('**28.1**'));
+    expect(snippet, isNot(contains('**fiscal**')));
+    expect(stripInlineMarkup(snippet).toLowerCase(), contains('fiscal'));
+  });
 }

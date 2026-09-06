@@ -38,16 +38,32 @@ class AppConfig {
   /// Intervalo entre tentativas de download (em segundos).
   static const int retryDelaySeconds = 2;
 
-  /// AdMob — IDs de teste do Google (substituir em produção).
-  /// Ver docs/procedures/05-configurar-admob.md
-  static const String admobAppId =
+  /// AdMob — IDs de teste do Google em dev local.
+  /// Em release (CI ou build local), injetar via --dart-define / GitHub Secrets.
+  /// Ver docs/procedures/05-configurar-admob.md e docs/CI_SETUP.md
+  static const String _admobTestAppId =
       'ca-app-pub-3940256099942544~3347511713';
-  static const String admobBannerListUnitId =
+  static const String _admobTestBannerUnitId =
       'ca-app-pub-3940256099942544/6300978111';
-
-  /// Interstitial (vídeo/tela cheia) — IDs de teste em dev.
-  static const String admobInterstitialUnitId =
+  static const String _admobTestInterstitialUnitId =
       'ca-app-pub-3940256099942544/1033173712';
+
+  /// App ID (AndroidManifest usa env ADMOB_APP_ID no build de release).
+  static const String admobAppId = String.fromEnvironment(
+    'ADMOB_APP_ID',
+    defaultValue: _admobTestAppId,
+  );
+
+  static const String admobBannerListUnitId = String.fromEnvironment(
+    'ADMOB_BANNER_UNIT_ID',
+    defaultValue: _admobTestBannerUnitId,
+  );
+
+  /// Interstitial (vídeo/tela cheia).
+  static const String admobInterstitialUnitId = String.fromEnvironment(
+    'ADMOB_INTERSTITIAL_UNIT_ID',
+    defaultValue: _admobTestInterstitialUnitId,
+  );
 
   /// Intervalo mínimo entre interstitials (minutos).
   static const int interstitialCooldownMinutes = 15;
