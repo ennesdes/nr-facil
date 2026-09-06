@@ -349,7 +349,7 @@ class _JumpToItemField extends StatelessWidget {
       controller: controller,
       decoration: InputDecoration(
         hintText: 'Ir para item (ex.: 6.5.1)',
-        prefixIcon: const Icon(Icons.tag, size: 20),
+        prefixIcon: const Icon(Icons.search_rounded, size: 20),
         suffixIcon: IconButton(
           icon: const Icon(Icons.arrow_forward),
           tooltip: 'Ir',
