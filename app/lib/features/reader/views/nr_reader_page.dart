@@ -52,7 +52,7 @@ class NRReaderPage extends GetView<NRReaderController> {
         nrId: nrId,
         isFavorite: isFavorite,
         hasPendingUpdate: controller.showUpdateBanner.value,
-        fontSize: controller.fontSize.value,
+        fontSize: controller.fontSize,
         onBack: () => Get.back(),
         onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
         onOpenSearch: controller.openSearch,

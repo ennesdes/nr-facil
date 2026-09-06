@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get/get.dart';
 import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
@@ -19,7 +20,7 @@ void main() {
             nrId: 'nr-06',
             isFavorite: false,
             hasPendingUpdate: false,
-            fontSize: 16,
+            fontSize: 16.0.obs,
             onBack: () => backTapped = true,
             onOpenIndex: () => indexTapped = true,
             onOpenSearch: () => searchTapped = true,
@@ -62,7 +63,7 @@ void main() {
             nrId: 'nr-06',
             isFavorite: false,
             hasPendingUpdate: true,
-            fontSize: 16,
+            fontSize: 16.0.obs,
             onBack: () {},
             onOpenIndex: () {},
             onOpenSearch: () {},

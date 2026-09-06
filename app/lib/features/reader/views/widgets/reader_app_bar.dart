@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
 import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_font_size_control.dart';
@@ -8,7 +9,7 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String nrId;
   final bool isFavorite;
   final bool hasPendingUpdate;
-  final double fontSize;
+  final Rx<double> fontSize;
   final VoidCallback onBack;
   final VoidCallback onOpenIndex;
   final VoidCallback onOpenSearch;
@@ -78,19 +79,25 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
           itemBuilder: (context) => [
             PopupMenuItem(
               value: 'favorite',
-              child: ListTile(
-                leading: Icon(
-                  isFavorite ? Icons.star : Icons.star_border,
-                ),
-                title: Text(
-                  isFavorite ? 'Remover dos favoritos' : 'Favoritar',
-                ),
-                contentPadding: EdgeInsets.zero,
+              child: Row(
+                children: [
+                  Icon(
+                    isFavorite ? Icons.star : Icons.star_border,
+                    size: 22,
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      isFavorite ? 'Remover dos favoritos' : 'Favoritar',
+                    ),
+                  ),
+                ],
               ),
             ),
             const PopupMenuDivider(),
             PopupMenuItem(
               enabled: false,
+              padding: EdgeInsets.zero,
               child: ReaderFontSizeControl(
                 fontSize: fontSize,
                 onDecrease: onDecreaseFontSize,
