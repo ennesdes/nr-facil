@@ -146,8 +146,9 @@ Necessário para cache, commits automáticos de format e version bump.
 1. Confirme os **8 secrets** cadastrados
 2. GitHub → **Actions** → **Deploy Play Store** → **Run workflow**
 3. Branch: `main`
-4. Track: `internal` (primeiro deploy) ou `production`
-5. Acompanhe o **Job Summary** e os steps numerados no log
+4. Track: `internal` + status `draft` (primeiro deploy) — finalize no Play Console
+5. Depois do app publicado: `production` + status `completed`
+6. Acompanhe o **Job Summary** e os steps numerados no log
 
 ---
 
@@ -168,6 +169,7 @@ Necessário para cache, commits automáticos de format e version bump.
 
 | Problema | Solução |
 |----------|---------|
+| `Only releases with status draft may be created on draft app` | App ainda em rascunho no Play Console — rode com track `internal` e status `draft`; abra o Play Console, preencha ficha/classificação e clique **Revisar e lançar** manualmente |
 | `Missing required secret(s): ADMOB_*` | Cadastre os 3 secrets AdMob no GitHub |
 | `versionCode` duplicado | Workflow incrementa automaticamente; confira se o bump foi commitado |
 | Ad não carrega em teste interno | Aguarde até 24h após criar unidade; use dispositivo de teste no AdMob |

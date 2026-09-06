@@ -10,8 +10,15 @@ on:
           - internal
           - production
         default: internal
+      status:
+        description: Status do release (app em rascunho na Play Console exige draft)
+        type: choice
+        options:
+          - draft
+          - completed
+        default: draft
 
-run-name: Deploy → ${{ inputs.track }} · ${{ github.ref_name }}
+run-name: Deploy → ${{ inputs.track }} · ${{ inputs.status }} · ${{ github.ref_name }}
 
 permissions:
   contents: write
@@ -167,7 +174,8 @@ jobs:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
           packageName: br.com.solvebetter.nrfacil
           releaseFiles: app/build/app/outputs/bundle/release/app-release.aab
-          track: ${{ inputs.track }}
+          tracks: ${{ inputs.track }}
+          status: ${{ inputs.status }}
 
       - name: "7/7 · Version bump + commit"
         env:
