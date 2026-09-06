@@ -35,7 +35,8 @@ class HomeController extends GetxController {
     _syncErrorWorker = ever<String?>(contentService.lastError, (error) {
       if (error == null) return;
       // Empty state da aba Normas já cobre falha no boot sem cache.
-      if (error == UserMessages.noNetworkNoLocal && !contentService.hasManifest) {
+      if (error == UserMessages.noNetworkNoLocal &&
+          !contentService.hasManifest) {
         return;
       }
       AppSnackbar.showError(title: 'Sincronização', message: error);
@@ -47,8 +48,9 @@ class HomeController extends GetxController {
   void _applyInitialTabIfNeeded() {
     if (_initialTabApplied) return;
     _initialTabApplied = true;
-    selectedTab.value =
-        contentService.favoriteIds.isEmpty ? tabNormas : tabFavoritos;
+    selectedTab.value = contentService.favoriteIds.isEmpty
+        ? tabNormas
+        : tabFavoritos;
   }
 
   String get tabTitle {
@@ -93,10 +95,7 @@ class HomeController extends GetxController {
     try {
       final updateRequired = await contentService.forcedUpdateRequired;
       if (updateRequired) {
-        Get.dialog(
-          const ForcedUpdateDialog(),
-          barrierDismissible: false,
-        );
+        Get.dialog(const ForcedUpdateDialog(), barrierDismissible: false);
       }
     } catch (_) {
       // Falha ao verificar versão não deve bloquear o app

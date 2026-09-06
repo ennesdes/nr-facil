@@ -41,7 +41,9 @@ Texto normativo.
 
   group('ContentService.getAssetPath', () {
     test('resolve caminho sem duplicar prefixo assets/', () async {
-      final cacheDir = await Directory.systemTemp.createTemp('nr_facil_assets_');
+      final cacheDir = await Directory.systemTemp.createTemp(
+        'nr_facil_assets_',
+      );
       final service = ContentService(cacheDirOverride: cacheDir);
       await service.onInit();
 

@@ -42,9 +42,7 @@ abstract final class UpdateHighlight {
     return DecoratedBox(
       decoration: BoxDecoration(
         color: backgroundColor(context),
-        border: Border(
-          left: BorderSide(color: accentColor(context), width: 3),
-        ),
+        border: Border(left: BorderSide(color: accentColor(context), width: 3)),
       ),
       child: child,
     );

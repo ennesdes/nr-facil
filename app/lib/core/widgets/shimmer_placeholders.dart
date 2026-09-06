@@ -167,10 +167,7 @@ class ReaderBodyShimmer extends StatelessWidget {
         for (var i = 0; i < 6; i++) ...[
           const AppShimmerBox(width: double.infinity, height: 14),
           const SizedBox(height: AppSpacing.sm),
-          AppShimmerBox(
-            width: i.isEven ? double.infinity : 280,
-            height: 14,
-          ),
+          AppShimmerBox(width: i.isEven ? double.infinity : 280, height: 14),
           const SizedBox(height: AppSpacing.lg),
         ],
       ],
@@ -225,10 +222,7 @@ class _SearchResultTileShimmer extends StatelessWidget {
 
 /// Placeholder retangular para imagens em carregamento.
 class ImageShimmerPlaceholder extends StatelessWidget {
-  const ImageShimmerPlaceholder({
-    this.height = 200,
-    super.key,
-  });
+  const ImageShimmerPlaceholder({this.height = 200, super.key});
 
   final double height;
 

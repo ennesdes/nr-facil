@@ -56,15 +56,15 @@ class AdsService extends GetxService {
   }
 
   bool get isInterstitialEligible => isInterstitialEligibleAt(
-        now: DateTime.now(),
-        lastShownAt: _readLastInterstitialAt(),
-        sessionStart: _sessionStart,
-        readerWasOpenedThisSession: _readerWasOpenedThisSession,
-        interstitialShownThisSession: _interstitialShownThisSession,
-        cooldownMinutes: AppConfig.interstitialCooldownMinutes,
-        minSessionMinutes: AppConfig.interstitialMinSessionMinutes,
-        maxPerHour: AppConfig.interstitialMaxPerHour,
-      );
+    now: DateTime.now(),
+    lastShownAt: _readLastInterstitialAt(),
+    sessionStart: _sessionStart,
+    readerWasOpenedThisSession: _readerWasOpenedThisSession,
+    interstitialShownThisSession: _interstitialShownThisSession,
+    cooldownMinutes: AppConfig.interstitialCooldownMinutes,
+    minSessionMinutes: AppConfig.interstitialMinSessionMinutes,
+    maxPerHour: AppConfig.interstitialMaxPerHour,
+  );
 
   Future<void> showInterstitialIfEligible() async {
     if (!shouldShowAds || _isShowingInterstitial) return;

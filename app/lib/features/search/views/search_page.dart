@@ -11,9 +11,7 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Buscar'),
-      ),
+      appBar: AppBar(title: const Text('Buscar')),
       body: AppScaffoldBody(
         child: SearchTab(
           isActive: true,

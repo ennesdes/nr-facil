@@ -8,11 +8,7 @@ class UpdateCountBadge extends StatelessWidget {
   final int count;
   final double minSize;
 
-  const UpdateCountBadge({
-    required this.count,
-    this.minSize = 18,
-    super.key,
-  });
+  const UpdateCountBadge({required this.count, this.minSize = 18, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,22 +18,13 @@ class UpdateCountBadge extends StatelessWidget {
     final semantics = context.semanticColors;
 
     return Container(
-      padding: const EdgeInsets.symmetric(
-        horizontal: 4.5,
-        vertical: 2.5,
-      ),
+      padding: const EdgeInsets.symmetric(horizontal: 4.5, vertical: 2.5),
       decoration: BoxDecoration(
         color: semantics.warning,
         borderRadius: BorderRadius.circular(AppRadius.full),
-        border: Border.all(
-          color: theme.colorScheme.surface,
-          width: 1.5,
-        ),
+        border: Border.all(color: theme.colorScheme.surface, width: 1.5),
       ),
-      constraints: BoxConstraints(
-        minWidth: minSize,
-        minHeight: minSize,
-      ),
+      constraints: BoxConstraints(minWidth: minSize, minHeight: minSize),
       child: Text(
         count > 99 ? '99+' : '$count',
         style: theme.textTheme.labelSmall?.copyWith(

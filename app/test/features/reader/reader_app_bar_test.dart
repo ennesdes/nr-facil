@@ -6,8 +6,9 @@ import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
 import 'package:nrfacil/features/reader/views/widgets/reader_app_bar.dart';
 
 void main() {
-  testWidgets('ReaderAppBar mostra voltar, NR-06, busca, índice e menu',
-      (tester) async {
+  testWidgets('ReaderAppBar mostra voltar, NR-06, busca, índice e menu', (
+    tester,
+  ) async {
     var searchTapped = false;
     var indexTapped = false;
     var backTapped = false;
@@ -53,8 +54,9 @@ void main() {
     expect(find.text('16'), findsOneWidget);
   });
 
-  testWidgets('ReaderAppBar exibe badge quando há atualização pendente',
-      (tester) async {
+  testWidgets('ReaderAppBar exibe badge quando há atualização pendente', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

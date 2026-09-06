@@ -11,11 +11,7 @@ class ReaderSearchBar extends StatefulWidget {
   final NRReaderController controller;
   final VoidCallback? onClose;
 
-  const ReaderSearchBar({
-    required this.controller,
-    this.onClose,
-    super.key,
-  });
+  const ReaderSearchBar({required this.controller, this.onClose, super.key});
 
   @override
   State<ReaderSearchBar> createState() => _ReaderSearchBarState();
@@ -147,9 +143,8 @@ class _ReaderSearchBarState extends State<ReaderSearchBar> {
     if (count == 0) {
       return Text(
         'Nenhum resultado para "$query"',
-        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: colorScheme.onSurfaceVariant,
-            ),
+        style: Theme.of(context).textTheme.bodySmall
+            ?.copyWith(color: colorScheme.onSurfaceVariant),
         maxLines: 2,
         overflow: TextOverflow.ellipsis,
       );

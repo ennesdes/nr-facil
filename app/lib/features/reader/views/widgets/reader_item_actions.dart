@@ -42,9 +42,8 @@ class ReaderItemActions {
     if (action == 'copy') {
       await Clipboard.setData(ClipboardData(text: citation));
       if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Referência copiada')),
-        );
+        ScaffoldMessenger.of(context)
+            .showSnackBar(const SnackBar(content: Text('Referência copiada')));
       }
     } else if (action == 'share') {
       await SharePlus.instance.share(ShareParams(text: citation));

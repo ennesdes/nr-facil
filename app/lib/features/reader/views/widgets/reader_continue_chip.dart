@@ -54,9 +54,8 @@ class ReaderContinueChip extends StatelessWidget {
                 Expanded(
                   child: Text(
                     'Continuar de $label',
-                    style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                          color: colorScheme.onSurface,
-                        ),
+                    style: Theme.of(context).textTheme.labelLarge
+                        ?.copyWith(color: colorScheme.onSurface),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),

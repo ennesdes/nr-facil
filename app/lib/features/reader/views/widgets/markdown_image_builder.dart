@@ -154,10 +154,7 @@ class NrMarkdownImageBuilder extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
 
     return Container(
-      constraints: const BoxConstraints(
-        maxHeight: 200,
-        minHeight: 100,
-      ),
+      constraints: const BoxConstraints(maxHeight: 200, minHeight: 100),
       decoration: BoxDecoration(
         border: Border.all(color: colorScheme.outline),
         borderRadius: BorderRadius.circular(4),
@@ -177,9 +174,8 @@ class NrMarkdownImageBuilder extends StatelessWidget {
             Text(
               message,
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                  ),
+              style: Theme.of(context).textTheme.bodySmall
+                  ?.copyWith(color: colorScheme.onSurfaceVariant),
             ),
           ],
         ),

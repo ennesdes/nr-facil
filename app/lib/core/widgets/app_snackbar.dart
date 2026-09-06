@@ -25,37 +25,49 @@ class AppSnackbar {
   static Timer? _dismissTimer;
   static _AppSnackbarOverlayState? _activeState;
 
-  static void showSuccess({required String title, String? message, Duration? duration}) =>
-      _present(
-        variant: _AppSnackbarVariant.success,
-        title: title,
-        message: message,
-        duration: duration ?? _durationSimple,
-      );
+  static void showSuccess({
+    required String title,
+    String? message,
+    Duration? duration,
+  }) => _present(
+    variant: _AppSnackbarVariant.success,
+    title: title,
+    message: message,
+    duration: duration ?? _durationSimple,
+  );
 
-  static void showInfo({required String title, String? message, Duration? duration}) =>
-      _present(
-        variant: _AppSnackbarVariant.info,
-        title: title,
-        message: message,
-        duration: duration ?? _durationSimple,
-      );
+  static void showInfo({
+    required String title,
+    String? message,
+    Duration? duration,
+  }) => _present(
+    variant: _AppSnackbarVariant.info,
+    title: title,
+    message: message,
+    duration: duration ?? _durationSimple,
+  );
 
-  static void showWarning({required String title, String? message, Duration? duration}) =>
-      _present(
-        variant: _AppSnackbarVariant.warning,
-        title: title,
-        message: message,
-        duration: duration ?? _durationImportant,
-      );
+  static void showWarning({
+    required String title,
+    String? message,
+    Duration? duration,
+  }) => _present(
+    variant: _AppSnackbarVariant.warning,
+    title: title,
+    message: message,
+    duration: duration ?? _durationImportant,
+  );
 
-  static void showError({required String title, String? message, Duration? duration}) =>
-      _present(
-        variant: _AppSnackbarVariant.error,
-        title: title,
-        message: message,
-        duration: duration ?? _durationImportant,
-      );
+  static void showError({
+    required String title,
+    String? message,
+    Duration? duration,
+  }) => _present(
+    variant: _AppSnackbarVariant.error,
+    title: title,
+    message: message,
+    duration: duration ?? _durationImportant,
+  );
 
   static void _present({
     required _AppSnackbarVariant variant,
@@ -160,12 +172,14 @@ class _AppSnackbarOverlayState extends State<_AppSnackbarOverlay>
       duration: AppSnackbar._animationDuration,
       reverseDuration: const Duration(milliseconds: 150),
     );
-    _slide = Tween<Offset>(begin: const Offset(0, 0.35), end: Offset.zero).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeOutCubic),
-    );
-    _fade = Tween<double>(begin: 0, end: 1).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeOutCubic),
-    );
+    _slide = Tween<Offset>(
+      begin: const Offset(0, 0.35),
+      end: Offset.zero,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutCubic));
+    _fade = Tween<double>(
+      begin: 0,
+      end: 1,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeOutCubic));
     widget.onStateCreated(this);
     unawaited(_controller.forward());
   }
@@ -185,19 +199,28 @@ class _AppSnackbarOverlayState extends State<_AppSnackbarOverlay>
     super.dispose();
   }
 
-  ({IconData icon, Color color}) _semantics(BuildContext context, ColorScheme scheme) {
+  ({IconData icon, Color color}) _semantics(
+    BuildContext context,
+    ColorScheme scheme,
+  ) {
     final semantics = context.semanticColors;
     return switch (widget.variant) {
       _AppSnackbarVariant.success => (
-          icon: Icons.check_circle_rounded,
-          color: semantics.success,
-        ),
+        icon: Icons.check_circle_rounded,
+        color: semantics.success,
+      ),
       _AppSnackbarVariant.warning => (
-          icon: Icons.warning_amber_rounded,
-          color: semantics.warning,
-        ),
-      _AppSnackbarVariant.error => (icon: Icons.error_rounded, color: scheme.error),
-      _AppSnackbarVariant.info => (icon: Icons.info_rounded, color: semantics.info),
+        icon: Icons.warning_amber_rounded,
+        color: semantics.warning,
+      ),
+      _AppSnackbarVariant.error => (
+        icon: Icons.error_rounded,
+        color: scheme.error,
+      ),
+      _AppSnackbarVariant.info => (
+        icon: Icons.info_rounded,
+        color: semantics.info,
+      ),
     };
   }
 
@@ -232,25 +255,38 @@ class _AppSnackbarOverlayState extends State<_AppSnackbarOverlay>
                     child: ConstrainedBox(
                       constraints: const BoxConstraints(minHeight: 56),
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 12,
+                        ),
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Icon(semantics.icon, size: 20, color: semantics.color),
+                            Icon(
+                              semantics.icon,
+                              size: 20,
+                              color: semantics.color,
+                            ),
                             const SizedBox(width: 12),
                             Expanded(
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
-                                  Text(widget.title, style: theme.textTheme.titleSmall),
+                                  Text(
+                                    widget.title,
+                                    style: theme.textTheme.titleSmall,
+                                  ),
                                   if (widget.message != null) ...[
                                     const SizedBox(height: 2),
                                     Text(
                                       widget.message!,
-                                      style: theme.textTheme.bodySmall?.copyWith(
-                                        color: theme.colorScheme.onSurfaceVariant,
-                                      ),
+                                      style: theme.textTheme.bodySmall
+                                          ?.copyWith(
+                                            color: theme
+                                                .colorScheme
+                                                .onSurfaceVariant,
+                                          ),
                                     ),
                                   ],
                                 ],

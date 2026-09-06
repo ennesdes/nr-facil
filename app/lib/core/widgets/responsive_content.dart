@@ -6,15 +6,12 @@ class ResponsiveContent extends StatelessWidget {
   final Widget child;
   final double? maxWidth;
 
-  const ResponsiveContent({
-    required this.child,
-    this.maxWidth,
-    super.key,
-  });
+  const ResponsiveContent({required this.child, this.maxWidth, super.key});
 
   @override
   Widget build(BuildContext context) {
-    final resolvedMax = maxWidth ?? ResponsiveLayout.listContentMaxWidth(context);
+    final resolvedMax =
+        maxWidth ?? ResponsiveLayout.listContentMaxWidth(context);
     final screenWidth = MediaQuery.sizeOf(context).width;
 
     if (screenWidth <= resolvedMax) {
@@ -25,10 +22,7 @@ class ResponsiveContent extends StatelessWidget {
       alignment: Alignment.topCenter,
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: resolvedMax),
-        child: SizedBox(
-          width: double.infinity,
-          child: child,
-        ),
+        child: SizedBox(width: double.infinity, child: child),
       ),
     );
   }

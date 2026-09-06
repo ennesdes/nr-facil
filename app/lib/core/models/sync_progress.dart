@@ -36,8 +36,4 @@ class BulkSyncProgress {
   bool get isActive => phase != BulkSyncPhase.idle;
 }
 
-enum BulkSyncPhase {
-  idle,
-  preparing,
-  downloading,
-}
+enum BulkSyncPhase { idle, preparing, downloading }

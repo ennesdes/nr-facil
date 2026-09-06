@@ -51,8 +51,8 @@ class NormasController extends GetxController {
     if (q.isEmpty) return entries;
 
     return entries.where((entry) {
-      final haystack =
-          '${entry.nrLabel} ${entry.id} ${entry.title}'.toLowerCase();
+      final haystack = '${entry.nrLabel} ${entry.id} ${entry.title}'
+          .toLowerCase();
       return haystack.contains(q);
     }).toList();
   }

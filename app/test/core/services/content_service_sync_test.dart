@@ -40,8 +40,7 @@ void main() {
           'hash': 'hash-06',
           'pdf_hash': 'pdf-06',
           'updated_at': '2026-01-01T00:00:00.000Z',
-          'url':
-              '${AppConfig.contentBaseUrl}/nr-06/nr-06.md',
+          'url': '${AppConfig.contentBaseUrl}/nr-06/nr-06.md',
           'revogada': false,
         },
         {
@@ -51,14 +50,13 @@ void main() {
           'hash': 'hash-10',
           'pdf_hash': 'pdf-10',
           'updated_at': '2026-01-01T00:00:00.000Z',
-          'url':
-              '${AppConfig.contentBaseUrl}/nr-10/nr-10.md',
+          'url': '${AppConfig.contentBaseUrl}/nr-10/nr-10.md',
           'revogada': false,
         },
       ],
     };
 
-  http.Client buildMockClient({Set<String> allowedSuffixes = const {}}) {
+    http.Client buildMockClient({Set<String> allowedSuffixes = const {}}) {
       return MockClient((request) async {
         final path = request.url.path;
 
@@ -86,7 +84,9 @@ void main() {
 
     setUpAll(() async {
       storageDir = await Directory.systemTemp.createTemp('nr_facil_storage_');
-      PathProviderPlatform.instance = _FakePathProviderPlatform(storageDir.path);
+      PathProviderPlatform.instance = _FakePathProviderPlatform(
+        storageDir.path,
+      );
       await GetStorage.init();
     });
 
@@ -230,74 +230,64 @@ void main() {
       expect(contentService.isNrFullyCached('nr-06'), isTrue);
     });
 
-    test('primeira syncMetadata estabelece baseline e não marca NRs como atualizadas',
-        () async {
-      expect(
-        GetStorage().read(StorageKeys.updatesBaselineEstablished),
-        isNull,
-      );
+    test('primeira syncMetadata estabelece baseline e não marca NRs como atualizadas', () async {
+      expect(GetStorage().read(StorageKeys.updatesBaselineEstablished), isNull);
 
       await contentService.syncMetadata();
 
-      expect(
-        GetStorage().read(StorageKeys.updatesBaselineEstablished),
-        isTrue,
-      );
-      expect(
-        GetStorage().read(StorageKeys.nrLastSeenHash('nr-06')),
-        'hash-06',
-      );
-      expect(
-        GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')),
-        'hash-10',
-      );
+      expect(GetStorage().read(StorageKeys.updatesBaselineEstablished), isTrue);
+      expect(GetStorage().read(StorageKeys.nrLastSeenHash('nr-06')), 'hash-06');
+      expect(GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')), 'hash-10');
       expect(contentService.hasUpdate('nr-06'), isFalse);
       expect(contentService.hasUpdate('nr-10'), isFalse);
       expect(contentService.updatedNrs, isEmpty);
       expect(contentService.unreadUpdatesCount.value, 0);
     });
 
-    test('após baseline, mudança de hash remoto marca NR como atualizada', () async {
-      await contentService.syncMetadata();
-      expect(contentService.hasUpdate('nr-06'), isFalse);
+    test(
+      'após baseline, mudança de hash remoto marca NR como atualizada',
+      () async {
+        await contentService.syncMetadata();
+        expect(contentService.hasUpdate('nr-06'), isFalse);
 
-      final updatedManifest = Map<String, dynamic>.from(manifestJson);
-      updatedManifest['nrs'] = [
-        ...(manifestJson['nrs'] as List).map((nr) {
-          if (nr['id'] == 'nr-06') {
-            return {...nr as Map<String, dynamic>, 'hash': 'hash-06-v2'};
-          }
-          return nr;
-        }),
-      ];
+        final updatedManifest = Map<String, dynamic>.from(manifestJson);
+        updatedManifest['nrs'] = [
+          ...(manifestJson['nrs'] as List).map((nr) {
+            if (nr['id'] == 'nr-06') {
+              return {...nr as Map<String, dynamic>, 'hash': 'hash-06-v2'};
+            }
+            return nr;
+          }),
+        ];
 
-      contentService.onClose();
-      contentService = ContentService(
-        httpClient: MockClient((request) async {
-          if (request.url.path.endsWith('/manifest.json')) {
-            return http.Response(jsonEncode(updatedManifest), 200);
-          }
-          if (request.url.path.endsWith('/app_meta.json')) {
-            return http.Response(
-              jsonEncode({
-                'generated_at': '2026-01-01T00:00:00.000Z',
-                'min_app_version': '0.0.1',
-                'updates': [],
-              }),
-              200,
-            );
-          }
-          return http.Response('not found', 404);
-        }),
-        cacheDirOverride: cacheDir,
-      );
-      await contentService.onInit();
-      await contentService.syncMetadata();
+        contentService.onClose();
+        contentService = ContentService(
+          httpClient: MockClient((request) async {
+            if (request.url.path.endsWith('/manifest.json')) {
+              return http.Response(jsonEncode(updatedManifest), 200);
+            }
+            if (request.url.path.endsWith('/app_meta.json')) {
+              return http.Response(
+                jsonEncode({
+                  'generated_at': '2026-01-01T00:00:00.000Z',
+                  'min_app_version': '0.0.1',
+                  'updates': [],
+                }),
+                200,
+              );
+            }
+            return http.Response('not found', 404);
+          }),
+          cacheDirOverride: cacheDir,
+        );
+        await contentService.onInit();
+        await contentService.syncMetadata();
 
-      expect(contentService.hasUpdate('nr-06'), isTrue);
-      expect(contentService.hasUpdate('nr-10'), isFalse);
-      expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
-    });
+        expect(contentService.hasUpdate('nr-06'), isTrue);
+        expect(contentService.hasUpdate('nr-10'), isFalse);
+        expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
+      },
+    );
 
     test('dismissPendingUpdatesCard oculta card e persiste snapshot', () async {
       GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');
@@ -327,56 +317,58 @@ void main() {
         'hash-antigo',
       );
       expect(contentService.hasUpdate('nr-06'), isTrue);
-      expect(
-        GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')),
-        'hash-10',
-      );
+      expect(GetStorage().read(StorageKeys.nrLastSeenHash('nr-10')), 'hash-10');
     });
 
-    test('syncAllContent baixa NR com arquivo antigo e hash de core desatualizado',
-        () async {
-      await contentService.syncMetadata();
-      GetStorage().write(StorageKeys.nrLastSyncedHash('nr-10'), 'hash-10');
-      GetStorage().write(StorageKeys.nrCoreSyncedHash('nr-10'), 'hash-10');
-      final nr10Dir = Directory('${cacheDir.path}/content/nr-10');
-      nr10Dir.createSync(recursive: true);
-      File('${nr10Dir.path}/nr-10.md').writeAsStringSync('# nr-10 ok');
+    test(
+      'syncAllContent baixa NR com arquivo antigo e hash de core desatualizado',
+      () async {
+        await contentService.syncMetadata();
+        GetStorage().write(StorageKeys.nrLastSyncedHash('nr-10'), 'hash-10');
+        GetStorage().write(StorageKeys.nrCoreSyncedHash('nr-10'), 'hash-10');
+        final nr10Dir = Directory('${cacheDir.path}/content/nr-10');
+        nr10Dir.createSync(recursive: true);
+        File('${nr10Dir.path}/nr-10.md').writeAsStringSync('# nr-10 ok');
 
-      final nrDir = Directory('${cacheDir.path}/content/nr-06');
-      nrDir.createSync(recursive: true);
-      File('${nrDir.path}/nr-06.md').writeAsStringSync('# conteúdo antigo');
-      GetStorage().write(StorageKeys.nrCoreSyncedHash('nr-06'), 'hash-antigo');
-      GetStorage().write(StorageKeys.nrLastSyncedHash('nr-06'), 'hash-antigo');
+        final nrDir = Directory('${cacheDir.path}/content/nr-06');
+        nrDir.createSync(recursive: true);
+        File('${nrDir.path}/nr-06.md').writeAsStringSync('# conteúdo antigo');
+        GetStorage().write(
+          StorageKeys.nrCoreSyncedHash('nr-06'),
+          'hash-antigo',
+        );
+        GetStorage().write(
+          StorageKeys.nrLastSyncedHash('nr-06'),
+          'hash-antigo',
+        );
 
-      contentService.onClose();
-      contentService = ContentService(
-        httpClient: buildMockClient(
-          allowedSuffixes: {
-            'nr-06/nr-06.md',
-            'nr-06/index.json',
-            'nr-06/structure.json',
-            'nr-06/search_index.json',
-          },
-        ),
-        cacheDirOverride: cacheDir,
-      );
-      await contentService.onInit();
+        contentService.onClose();
+        contentService = ContentService(
+          httpClient: buildMockClient(
+            allowedSuffixes: {
+              'nr-06/nr-06.md',
+              'nr-06/index.json',
+              'nr-06/structure.json',
+              'nr-06/search_index.json',
+            },
+          ),
+          cacheDirOverride: cacheDir,
+        );
+        await contentService.onInit();
 
-      final result = await contentService.syncAllContent();
+        final result = await contentService.syncAllContent();
 
-      expect(result.success, isTrue);
-      expect(result.downloadedCount, 1);
-      expect(
-        File('${nrDir.path}/nr-06.md').readAsStringSync(),
-        'payload',
-      );
-      expect(
-        GetStorage().read(StorageKeys.nrLastSyncedHash('nr-06')),
-        'hash-06',
-      );
-      expect(contentService.isNrFullyCached('nr-06'), isTrue);
-      expect(contentService.offlineDownloadNeeded.value, isFalse);
-    });
+        expect(result.success, isTrue);
+        expect(result.downloadedCount, 1);
+        expect(File('${nrDir.path}/nr-06.md').readAsStringSync(), 'payload');
+        expect(
+          GetStorage().read(StorageKeys.nrLastSyncedHash('nr-06')),
+          'hash-06',
+        );
+        expect(contentService.isNrFullyCached('nr-06'), isTrue);
+        expect(contentService.offlineDownloadNeeded.value, isFalse);
+      },
+    );
 
     test('syncAllContent respeita cancelamento entre normas', () async {
       await contentService.syncMetadata();
@@ -445,8 +437,12 @@ void main() {
     late ContentService contentService;
 
     setUpAll(() async {
-      storageDir = await Directory.systemTemp.createTemp('nr_facil_fav_storage_');
-      PathProviderPlatform.instance = _FakePathProviderPlatform(storageDir.path);
+      storageDir = await Directory.systemTemp.createTemp(
+        'nr_facil_fav_storage_',
+      );
+      PathProviderPlatform.instance = _FakePathProviderPlatform(
+        storageDir.path,
+      );
       await GetStorage.init();
     });
 
@@ -478,10 +474,7 @@ void main() {
 
       expect(contentService.isFavorite('nr-06'), isTrue);
       expect(contentService.favoritesVersion.value, 1);
-      expect(
-        GetStorage().read<List>(StorageKeys.favoriteNrs),
-        ['nr-06'],
-      );
+      expect(GetStorage().read<List>(StorageKeys.favoriteNrs), ['nr-06']);
 
       contentService.onClose();
       Get.reset();
@@ -501,48 +494,48 @@ void main() {
       expect(GetStorage().read<List>(StorageKeys.favoriteNrs), isEmpty);
     });
 
-    test('_pruneOrphanFavorites remove apenas IDs inexistentes no manifest',
-        () async {
-      contentService.onClose();
-      Get.reset();
+    test(
+      '_pruneOrphanFavorites remove apenas IDs inexistentes no manifest',
+      () async {
+        contentService.onClose();
+        Get.reset();
 
-      final pruneCacheDir =
-          await Directory.systemTemp.createTemp('nr_facil_prune_cache_');
-      final manifestJson = {
-        'generated_at': '2026-01-01T00:00:00.000Z',
-        'version': 1,
-        'nrs': [
-          {
-            'id': 'nr-06',
-            'title': 'EPI',
-            'version': '1',
-            'hash': 'hash-06',
-            'pdf_hash': 'pdf-06',
-            'updated_at': '2026-01-01T00:00:00.000Z',
-            'url': 'https://example.com/nr-06.md',
-            'revogada': false,
-          },
-        ],
-      };
+        final pruneCacheDir = await Directory.systemTemp.createTemp(
+          'nr_facil_prune_cache_',
+        );
+        final manifestJson = {
+          'generated_at': '2026-01-01T00:00:00.000Z',
+          'version': 1,
+          'nrs': [
+            {
+              'id': 'nr-06',
+              'title': 'EPI',
+              'version': '1',
+              'hash': 'hash-06',
+              'pdf_hash': 'pdf-06',
+              'updated_at': '2026-01-01T00:00:00.000Z',
+              'url': 'https://example.com/nr-06.md',
+              'revogada': false,
+            },
+          ],
+        };
 
-      final manifestFile = File('${pruneCacheDir.path}/manifest.json');
-      manifestFile.parent.createSync(recursive: true);
-      await manifestFile.writeAsString(jsonEncode(manifestJson));
-      GetStorage().write(StorageKeys.favoriteNrs, ['nr-06', 'nr-99']);
+        final manifestFile = File('${pruneCacheDir.path}/manifest.json');
+        manifestFile.parent.createSync(recursive: true);
+        await manifestFile.writeAsString(jsonEncode(manifestJson));
+        GetStorage().write(StorageKeys.favoriteNrs, ['nr-06', 'nr-99']);
 
-      final pruneService = ContentService(cacheDirOverride: pruneCacheDir);
-      await pruneService.onInit();
+        final pruneService = ContentService(cacheDirOverride: pruneCacheDir);
+        await pruneService.onInit();
 
-      expect(pruneService.favoriteIds, ['nr-06']);
-      expect(
-        GetStorage().read<List>(StorageKeys.favoriteNrs),
-        ['nr-06'],
-      );
+        expect(pruneService.favoriteIds, ['nr-06']);
+        expect(GetStorage().read<List>(StorageKeys.favoriteNrs), ['nr-06']);
 
-      pruneService.onClose();
-      if (pruneCacheDir.existsSync()) {
-        await pruneCacheDir.delete(recursive: true);
-      }
-    });
+        pruneService.onClose();
+        if (pruneCacheDir.existsSync()) {
+          await pruneCacheDir.delete(recursive: true);
+        }
+      },
+    );
   });
 }

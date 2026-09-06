@@ -94,17 +94,26 @@ class AppSemanticColors extends ThemeExtension<AppSemanticColors> {
     return AppSemanticColors(
       success: Color.lerp(success, other.success, t)!,
       warning: Color.lerp(warning, other.warning, t)!,
-      warningContainer:
-          Color.lerp(warningContainer, other.warningContainer, t)!,
-      onWarningContainer:
-          Color.lerp(onWarningContainer, other.onWarningContainer, t)!,
+      warningContainer: Color.lerp(
+        warningContainer,
+        other.warningContainer,
+        t,
+      )!,
+      onWarningContainer: Color.lerp(
+        onWarningContainer,
+        other.onWarningContainer,
+        t,
+      )!,
       info: Color.lerp(info, other.info, t)!,
       infoContainer: Color.lerp(infoContainer, other.infoContainer, t)!,
       onInfoContainer: Color.lerp(onInfoContainer, other.onInfoContainer, t)!,
       revoked: Color.lerp(revoked, other.revoked, t)!,
       searchHighlight: Color.lerp(searchHighlight, other.searchHighlight, t)!,
-      onSearchHighlight:
-          Color.lerp(onSearchHighlight, other.onSearchHighlight, t)!,
+      onSearchHighlight: Color.lerp(
+        onSearchHighlight,
+        other.onSearchHighlight,
+        t,
+      )!,
       muted: Color.lerp(muted, other.muted, t)!,
     );
   }

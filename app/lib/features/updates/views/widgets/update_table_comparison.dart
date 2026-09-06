@@ -44,8 +44,9 @@ class UpdateTableComparison extends StatelessWidget {
           _UpdateTableImageSection(
             title: 'Antes',
             titleColor: semantics.muted,
-            backgroundColor:
-                colorScheme.surfaceContainerHigh.withValues(alpha: 0.55),
+            backgroundColor: colorScheme.surfaceContainerHigh.withValues(
+              alpha: 0.55,
+            ),
             child: _BeforeTableImage(
               nrId: nrId,
               assetPath: tabela.antesAsset!,
@@ -59,10 +60,7 @@ class UpdateTableComparison extends StatelessWidget {
             title: 'Depois',
             titleColor: semantics.warning,
             backgroundColor: semantics.warningContainer.withValues(alpha: 0.35),
-            child: _AfterTableImage(
-              nrId: nrId,
-              assetPath: tabela.depoisAsset!,
-            ),
+            child: _AfterTableImage(nrId: nrId, assetPath: tabela.depoisAsset!),
           ),
         ],
       ],
@@ -92,9 +90,7 @@ class _UpdateTableImageSection extends StatelessWidget {
       children: [
         Text(
           '$title:',
-          style: theme.textTheme.labelMedium?.copyWith(
-            color: titleColor,
-          ),
+          style: theme.textTheme.labelMedium?.copyWith(color: titleColor),
         ),
         const SizedBox(height: AppSpacing.xs),
         Container(
@@ -138,11 +134,7 @@ class _BeforeTableImage extends StatelessWidget {
       );
     }
 
-    final url = AppConfig.contentAssetUrl(
-      nrId,
-      assetPath,
-      gitRef: contentRef!,
-    );
+    final url = AppConfig.contentAssetUrl(nrId, assetPath, gitRef: contentRef!);
 
     return _NetworkTableImage(url: url);
   }
@@ -152,10 +144,7 @@ class _AfterTableImage extends StatelessWidget {
   final String nrId;
   final String assetPath;
 
-  const _AfterTableImage({
-    required this.nrId,
-    required this.assetPath,
-  });
+  const _AfterTableImage({required this.nrId, required this.assetPath});
 
   @override
   Widget build(BuildContext context) {
@@ -204,8 +193,8 @@ class _NetworkTableImage extends StatelessWidget {
           return Text(
             'Não foi possível carregar a imagem.',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Theme.of(context).colorScheme.onSurfaceVariant,
-                ),
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
           );
         },
       ),
@@ -229,8 +218,8 @@ class _LocalTableImage extends StatelessWidget {
           return Text(
             'Não foi possível carregar a imagem.',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Theme.of(context).colorScheme.onSurfaceVariant,
-                ),
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
           );
         },
       ),

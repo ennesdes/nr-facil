@@ -23,8 +23,9 @@ void main() {
     expect(find.text('Corpo explicativo'), findsOneWidget);
   });
 
-  testWidgets('EmptyState permanece legível com textScaleFactor 1.3',
-      (tester) async {
+  testWidgets('EmptyState permanece legível com textScaleFactor 1.3', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

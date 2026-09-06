@@ -29,8 +29,12 @@ void main() {
     late ContentService contentService;
 
     setUpAll(() async {
-      storageDir = await Directory.systemTemp.createTemp('nr_facil_fav_tab_storage_');
-      PathProviderPlatform.instance = _FakePathProviderPlatform(storageDir.path);
+      storageDir = await Directory.systemTemp.createTemp(
+        'nr_facil_fav_tab_storage_',
+      );
+      PathProviderPlatform.instance = _FakePathProviderPlatform(
+        storageDir.path,
+      );
       await GetStorage.init();
     });
 
@@ -44,7 +48,9 @@ void main() {
       Get.testMode = true;
       GetStorage().erase();
 
-      cacheDir = await Directory.systemTemp.createTemp('nr_facil_fav_tab_cache_');
+      cacheDir = await Directory.systemTemp.createTemp(
+        'nr_facil_fav_tab_cache_',
+      );
       contentService = ContentService(cacheDirOverride: cacheDir);
       Get.put<ContentService>(contentService);
 
@@ -61,26 +67,22 @@ void main() {
       }
     });
 
-    testWidgets(
-      'não remove favoritos enquanto manifest ainda não carregou',
-      (tester) async {
-        expect(contentService.manifest.value, isNull);
+    testWidgets('não remove favoritos enquanto manifest ainda não carregou', (
+      tester,
+    ) async {
+      expect(contentService.manifest.value, isNull);
 
-        await tester.pumpWidget(
-          GetMaterialApp(
-            theme: AppTheme.light,
-            home: const Scaffold(body: FavoritosTab()),
-          ),
-        );
-        await tester.pump();
-        await tester.pump(const Duration(milliseconds: 100));
+      await tester.pumpWidget(
+        GetMaterialApp(
+          theme: AppTheme.light,
+          home: const Scaffold(body: FavoritosTab()),
+        ),
+      );
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 100));
 
-        expect(contentService.favoriteIds, ['nr-06']);
-        expect(
-          GetStorage().read<List>(StorageKeys.favoriteNrs),
-          ['nr-06'],
-        );
-      },
-    );
+      expect(contentService.favoriteIds, ['nr-06']);
+      expect(GetStorage().read<List>(StorageKeys.favoriteNrs), ['nr-06']);
+    });
   });
 }

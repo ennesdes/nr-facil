@@ -46,10 +46,7 @@ class UpdateItemDisplay {
   final explicitDepois = item.depois?.trim();
   if ((explicitAntes?.isNotEmpty ?? false) ||
       (explicitDepois?.isNotEmpty ?? false)) {
-    return (
-      antes: explicitAntes ?? '',
-      depois: explicitDepois ?? '',
-    );
+    return (antes: explicitAntes ?? '', depois: explicitDepois ?? '');
   }
 
   return _parseLegacyAlteradoResumo(item.resumo);

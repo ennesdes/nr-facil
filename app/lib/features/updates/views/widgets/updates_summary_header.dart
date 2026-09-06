@@ -5,10 +5,7 @@ import 'package:nrfacil/core/theme/app_spacing.dart';
 class UpdatesSummaryHeader extends StatelessWidget {
   final int pendingCount;
 
-  const UpdatesSummaryHeader({
-    required this.pendingCount,
-    super.key,
-  });
+  const UpdatesSummaryHeader({required this.pendingCount, super.key});
 
   @override
   Widget build(BuildContext context) {

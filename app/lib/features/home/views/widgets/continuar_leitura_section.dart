@@ -22,8 +22,9 @@ class ContinuarLeituraSection extends StatelessWidget {
       final entry = manifest?.findNr(lastOpenedNrId);
       if (entry == null || entry.isRevoked) return const SizedBox.shrink();
 
-      final positionLabel =
-          contentService.getContinueReadingPositionLabel(lastOpenedNrId);
+      final positionLabel = contentService.getContinueReadingPositionLabel(
+        lastOpenedNrId,
+      );
       final progress = contentService.getReadingProgressPercent(lastOpenedNrId);
 
       return ContinuarLeituraCard(

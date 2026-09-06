@@ -33,22 +33,19 @@ class ReactiveNrListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(
-      () {
-        contentService.favoritesVersion.value;
-        return NrListTile(
-          nrEntry: nrEntry,
-          isFavorite: contentService.isFavorite(nrEntry.id),
-          hasUpdate: contentService.hasUpdate(nrEntry.id),
-          isRevoked: isRevoked,
-          showNotDownloaded: showNotDownloaded,
-          hideStarButton: hideStarButton,
-          onTap: onTap,
-          onToggleFavorite: () =>
-              contentService.toggleFavorite(nrEntry.id),
-        );
-      },
-    );
+    return Obx(() {
+      contentService.favoritesVersion.value;
+      return NrListTile(
+        nrEntry: nrEntry,
+        isFavorite: contentService.isFavorite(nrEntry.id),
+        hasUpdate: contentService.hasUpdate(nrEntry.id),
+        isRevoked: isRevoked,
+        showNotDownloaded: showNotDownloaded,
+        hideStarButton: hideStarButton,
+        onTap: onTap,
+        onToggleFavorite: () => contentService.toggleFavorite(nrEntry.id),
+      );
+    });
   }
 }
 
@@ -86,8 +83,9 @@ class NrListTile extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final displayTitle = formatNrTitleForDisplay(nrEntry.title);
 
-    final labelColor =
-        isRevoked ? colorScheme.onSurfaceVariant : colorScheme.primary;
+    final labelColor = isRevoked
+        ? colorScheme.onSurfaceVariant
+        : colorScheme.primary;
     final titleColor = colorScheme.onSurface;
 
     return UpdateHighlight.listShell(
@@ -150,8 +148,7 @@ class NrListTile extends StatelessWidget {
                   Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      if (showNotDownloaded)
-                        NrDownloadAction(nrEntry: nrEntry),
+                      if (showNotDownloaded) NrDownloadAction(nrEntry: nrEntry),
                       if (!isRevoked && !hideStarButton)
                         _FavoriteButton(
                           isFavorite: isFavorite,
@@ -172,10 +169,7 @@ class _FavoriteButton extends StatelessWidget {
   final bool isFavorite;
   final VoidCallback onPressed;
 
-  const _FavoriteButton({
-    required this.isFavorite,
-    required this.onPressed,
-  });
+  const _FavoriteButton({required this.isFavorite, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -195,9 +189,7 @@ class _FavoriteButton extends StatelessWidget {
               : colorScheme.onSurfaceVariant,
         ),
       ),
-      tooltip: isFavorite
-          ? 'Remover dos favoritos'
-          : 'Adicionar aos favoritos',
+      tooltip: isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
       onPressed: onPressed,
     );
   }

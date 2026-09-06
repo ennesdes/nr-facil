@@ -49,15 +49,16 @@ class SearchableMarkdownBody extends StatelessWidget {
         ),
       },
       onTapLink: onTapLink,
-      sizedImageBuilder: sizedImageBuilder ??
+      sizedImageBuilder:
+          sizedImageBuilder ??
           (nrId == null
               ? null
               : (config) => NrMarkdownImageBuilder(
-                    uri: config.uri,
-                    nrId: nrId!,
-                    title: config.title,
-                    alt: config.alt,
-                  )),
+                  uri: config.uri,
+                  nrId: nrId!,
+                  title: config.title,
+                  alt: config.alt,
+                )),
     );
   }
 }

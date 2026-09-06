@@ -135,8 +135,7 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
       widget.currentSectionId == sectionId;
 
   bool _isSectionSelected(String sectionId) =>
-      widget.currentSectionId == sectionId &&
-      widget.currentItemNumber == null;
+      widget.currentSectionId == sectionId && widget.currentItemNumber == null;
 
   bool _isItemSelected(String itemNumber) =>
       widget.currentItemNumber?.trim() == itemNumber.trim();
@@ -145,24 +144,22 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
     if (widget.currentItemNumber == null) return false;
     final current = widget.currentItemNumber!.trim();
     return section.blocks.whereType<NrItemBlock>().any(
-          (b) => b.number.trim() == current,
-        );
+      (b) => b.number.trim() == current,
+    );
   }
 
   Widget _buildStructureList(NrStructure structure) {
     return ListView(
       controller: _scrollController,
-      padding: const EdgeInsets.only(
-        top: AppSpacing.sm,
-        bottom: AppSpacing.lg,
-      ),
+      padding: const EdgeInsets.only(top: AppSpacing.sm, bottom: AppSpacing.lg),
       children: [
         if (structure.preamble.blocks.isNotEmpty)
           _IndexNavTile(
             label: 'Publicação e alterações',
             icon: Icons.history_edu_outlined,
             isSelected: widget.currentSectionId == 'preamble',
-            onTap: () => _navigateAfterClose(() => widget.onNavigate('preamble')),
+            onTap: () =>
+                _navigateAfterClose(() => widget.onNavigate('preamble')),
           ),
         ...structure.sections.map((section) {
           final sectionLabel = formatSectionTitle(
@@ -181,7 +178,8 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
               label: sectionLabel,
               isSelected: _isSectionSelected(section.id),
               isActive: sectionActive,
-              onTap: () => _navigateAfterClose(() => widget.onNavigate(section.id)),
+              onTap: () =>
+                  _navigateAfterClose(() => widget.onNavigate(section.id)),
             );
           }
 
@@ -196,8 +194,9 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
                 number: item.number,
                 snippet: stripInlineMarkup(item.text),
                 isSelected: selected,
-                onTap: () =>
-                    _navigateAfterClose(() => widget.onNavigateToItem(item.number)),
+                onTap: () => _navigateAfterClose(
+                  () => widget.onNavigateToItem(item.number),
+                ),
               );
               if (selected) {
                 return KeyedSubtree(key: _currentItemKey, child: tile);
@@ -228,7 +227,8 @@ class _ReaderDrawerState extends State<ReaderDrawer> {
         final heading = headings[index];
         return _IndexNavTile(
           label: heading.text,
-          onTap: () => _navigateAfterClose(() => widget.onNavigate(heading.text)),
+          onTap: () =>
+              _navigateAfterClose(() => widget.onNavigate(heading.text)),
         );
       },
     );
@@ -262,9 +262,8 @@ class _DrawerHeader extends StatelessWidget {
         children: [
           Text(
             'Índice',
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w600,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w600),
           ),
           if (label != null && label.isNotEmpty) ...[
             const SizedBox(height: AppSpacing.md),
@@ -284,17 +283,18 @@ class _DrawerHeader extends StatelessWidget {
                     Text(
                       'Você está em',
                       style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                            color: colorScheme.onPrimaryContainer
-                                .withValues(alpha: 0.8),
-                          ),
+                        color: colorScheme.onPrimaryContainer.withValues(
+                          alpha: 0.8,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: AppSpacing.xs),
                     Text(
                       label,
                       style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                            fontWeight: FontWeight.w700,
-                            color: colorScheme.onPrimaryContainer,
-                          ),
+                        fontWeight: FontWeight.w700,
+                        color: colorScheme.onPrimaryContainer,
+                      ),
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
@@ -316,11 +316,11 @@ class _DrawerHeader extends StatelessWidget {
                         const SizedBox(width: AppSpacing.sm),
                         Text(
                           '$percent%',
-                          style:
-                              Theme.of(context).textTheme.labelMedium?.copyWith(
-                                    fontWeight: FontWeight.w700,
-                                    color: colorScheme.onPrimaryContainer,
-                                  ),
+                          style: Theme.of(context).textTheme.labelMedium
+                              ?.copyWith(
+                                fontWeight: FontWeight.w700,
+                                color: colorScheme.onPrimaryContainer,
+                              ),
                         ),
                       ],
                     ),
@@ -339,10 +339,7 @@ class _JumpToItemField extends StatelessWidget {
   final TextEditingController controller;
   final ValueChanged<String> onSubmit;
 
-  const _JumpToItemField({
-    required this.controller,
-    required this.onSubmit,
-  });
+  const _JumpToItemField({required this.controller, required this.onSubmit});
 
   @override
   Widget build(BuildContext context) {
@@ -408,9 +405,12 @@ class _IndexSectionGroup extends StatelessWidget {
         childrenPadding: const EdgeInsets.only(bottom: AppSpacing.xs),
         shape: const Border(),
         collapsedShape: const Border(),
-        iconColor: isActive ? colorScheme.primary : colorScheme.onSurfaceVariant,
-        collapsedIconColor:
-            isActive ? colorScheme.primary : colorScheme.onSurfaceVariant,
+        iconColor: isActive
+            ? colorScheme.primary
+            : colorScheme.onSurfaceVariant,
+        collapsedIconColor: isActive
+            ? colorScheme.primary
+            : colorScheme.onSurfaceVariant,
         leading: isActive
             ? Container(
                 width: 4,
@@ -424,9 +424,12 @@ class _IndexSectionGroup extends StatelessWidget {
         title: Text(
           sectionLabel,
           style: textTheme.titleSmall?.copyWith(
-            fontWeight:
-                isSectionSelected || isActive ? FontWeight.w600 : FontWeight.w500,
-            color: isActive ? colorScheme.onSurface : colorScheme.onSurfaceVariant,
+            fontWeight: isSectionSelected || isActive
+                ? FontWeight.w600
+                : FontWeight.w500,
+            color: isActive
+                ? colorScheme.onSurface
+                : colorScheme.onSurfaceVariant,
           ),
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
@@ -476,11 +479,11 @@ class _IndexNavTile extends StatelessWidget {
             child: Text(
               label,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    fontWeight: highlighted ? FontWeight.w600 : FontWeight.w400,
-                    color: highlighted
-                        ? colorScheme.onSurface
-                        : colorScheme.onSurfaceVariant,
-                  ),
+                fontWeight: highlighted ? FontWeight.w600 : FontWeight.w400,
+                color: highlighted
+                    ? colorScheme.onSurface
+                    : colorScheme.onSurfaceVariant,
+              ),
             ),
           ),
         ],
@@ -603,10 +606,7 @@ class _IndexTileShell extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               border: isSelected
                   ? Border(
-                      left: BorderSide(
-                        color: colorScheme.primary,
-                        width: 3,
-                      ),
+                      left: BorderSide(color: colorScheme.primary, width: 3),
                     )
                   : null,
             ),

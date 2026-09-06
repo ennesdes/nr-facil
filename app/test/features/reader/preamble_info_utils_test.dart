@@ -16,7 +16,8 @@ String _repoRoot() {
 
 NrPreamble _preambleFromFile(String nrId) {
   final path = '${_repoRoot()}/content/$nrId/structure.json';
-  final json = jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>;
+  final json =
+      jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>;
   final preambleMap = json['preamble'] as Map<String, dynamic>? ?? {};
   return NrPreamble.fromMap(preambleMap);
 }
@@ -27,10 +28,7 @@ void main() {
       final info = parsePreambleInfo(_preambleFromFile('nr-06'));
 
       expect(info.originalPublication, isNotNull);
-      expect(
-        info.originalPublication!.portaria,
-        contains('Portaria MTb'),
-      );
+      expect(info.originalPublication!.portaria, contains('Portaria MTb'));
       expect(info.originalPublication!.douDate, '06/07/78');
       expect(info.amendments.length, greaterThan(10));
       expect(info.amendments.first.portaria, contains('Portaria'));
@@ -47,15 +45,18 @@ void main() {
       expect(info.amendments.length, greaterThan(5));
     });
 
-    test('nr-05 usa tabela para publicação, não nota de alteração do título', () {
-      final info = parsePreambleInfo(_preambleFromFile('nr-05'));
+    test(
+      'nr-05 usa tabela para publicação, não nota de alteração do título',
+      () {
+        final info = parsePreambleInfo(_preambleFromFile('nr-05'));
 
-      expect(info.originalPublication, isNotNull);
-      expect(info.originalPublication!.portaria, contains('Portaria MTb'));
-      expect(info.originalPublication!.portaria, isNot(contains('4.219')));
-      expect(info.originalPublication!.portaria, isNot(contains(')_')));
-      expect(info.amendments.length, 12);
-    });
+        expect(info.originalPublication, isNotNull);
+        expect(info.originalPublication!.portaria, contains('Portaria MTb'));
+        expect(info.originalPublication!.portaria, isNot(contains('4.219')));
+        expect(info.originalPublication!.portaria, isNot(contains(')_')));
+        expect(info.amendments.length, 12);
+      },
+    );
 
     test('nr-03 extrai publicação do parágrafo', () {
       final info = parsePreambleInfo(_preambleFromFile('nr-03'));

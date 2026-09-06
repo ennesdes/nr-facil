@@ -19,10 +19,7 @@ import 'package:nrfacil/features/reader/views/widgets/update_banner.dart';
 class NRReaderPage extends GetView<NRReaderController> {
   final String nrId;
 
-  const NRReaderPage({
-    required this.nrId,
-    super.key,
-  });
+  const NRReaderPage({required this.nrId, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -48,43 +45,43 @@ class NRReaderPage extends GetView<NRReaderController> {
       child: Scaffold(
         key: controller.scaffoldKey,
         backgroundColor: readerSurface,
-      appBar: ReaderAppBar(
-        nrId: nrId,
-        isFavorite: isFavorite,
-        hasPendingUpdate: controller.showUpdateBanner.value,
-        fontSize: controller.fontSize,
-        onBack: () => Get.back(),
-        onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
-        onOpenSearch: controller.openSearch,
-        onToggleFavorite: controller.toggleFavorite,
-        onIncreaseFontSize: controller.increaseFontSize,
-        onDecreaseFontSize: controller.decreaseFontSize,
-      ),
-      drawer: Obx(
-        () => ReaderDrawer(
-          structure: controller.structure.value,
-          legacyIndex: controller.index.value,
-          currentSectionId: controller.currentSectionId.value,
-          currentItemNumber: controller.currentItemNumber.value,
-          currentPositionLabel: controller.currentPositionLabel,
-          progressPercent: controller.readingProgressPercent.value,
-          onNavigate: controller.navigateToSection,
-          onNavigateToItem: controller.navigateToItemNumber,
+        appBar: ReaderAppBar(
+          nrId: nrId,
+          isFavorite: isFavorite,
+          hasPendingUpdate: controller.showUpdateBanner.value,
+          fontSize: controller.fontSize,
+          onBack: () => Get.back(),
+          onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
+          onOpenSearch: controller.openSearch,
+          onToggleFavorite: controller.toggleFavorite,
+          onIncreaseFontSize: controller.increaseFontSize,
+          onDecreaseFontSize: controller.decreaseFontSize,
         ),
-      ),
-      body: AppScaffoldBody(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Obx(
-              () => controller.isSearchOpen.value
-                  ? ReaderSearchBar(controller: controller)
-                  : const SizedBox.shrink(),
-            ),
-            Expanded(child: _buildBody(context)),
-          ],
+        drawer: Obx(
+          () => ReaderDrawer(
+            structure: controller.structure.value,
+            legacyIndex: controller.index.value,
+            currentSectionId: controller.currentSectionId.value,
+            currentItemNumber: controller.currentItemNumber.value,
+            currentPositionLabel: controller.currentPositionLabel,
+            progressPercent: controller.readingProgressPercent.value,
+            onNavigate: controller.navigateToSection,
+            onNavigateToItem: controller.navigateToItemNumber,
+          ),
         ),
-      ),
+        body: AppScaffoldBody(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Obx(
+                () => controller.isSearchOpen.value
+                    ? ReaderSearchBar(controller: controller)
+                    : const SizedBox.shrink(),
+              ),
+              Expanded(child: _buildBody(context)),
+            ],
+          ),
+        ),
       ),
     );
   }

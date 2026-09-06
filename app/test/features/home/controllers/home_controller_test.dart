@@ -68,8 +68,7 @@ void main() {
     setUp(() {
       Get.testMode = true;
       fakeContentService = FakeContentService();
-      homeController =
-          HomeController(contentService: fakeContentService);
+      homeController = HomeController(contentService: fakeContentService);
     });
 
     tearDown(() {
@@ -94,8 +93,7 @@ void main() {
       expect(homeController.selectedTab.value, HomeController.tabFavoritos);
     });
 
-    test('_checkForcedUpdate com forcedUpdateRequired == true não deve lançar erro',
-        () async {
+    test('_checkForcedUpdate com forcedUpdateRequired == true não deve lançar erro', () async {
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = true;
 
@@ -105,8 +103,7 @@ void main() {
       expect(homeController.selectedTab.value, HomeController.tabNormas);
     });
 
-    test('_checkForcedUpdate com forcedUpdateRequired == false não deve lançar erro',
-        () async {
+    test('_checkForcedUpdate com forcedUpdateRequired == false não deve lançar erro', () async {
       fakeContentService.favoriteIds.clear();
       fakeContentService._forcedUpdateRequired = false;
 

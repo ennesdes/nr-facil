@@ -52,7 +52,8 @@ ReaderScrollPosition findTopmostVisiblePosition({
     final dy = box.localToGlobal(Offset.zero).dy;
 
     if (dy <= viewportTopOffset) {
-      final isBetter = dy > lastPassedDy ||
+      final isBetter =
+          dy > lastPassedDy ||
           (dy >= lastPassedDy - 1 &&
               anchor.blockIndex > (lastPassed?.blockIndex ?? -1) &&
               anchor.sectionId == lastPassed?.sectionId);

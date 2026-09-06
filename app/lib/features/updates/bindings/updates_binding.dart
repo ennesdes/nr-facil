@@ -10,9 +10,7 @@ class UpdatesBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut<UpdatesController>(
-      () => UpdatesController(
-        contentService: Get.find<ContentService>(),
-      ),
+      () => UpdatesController(contentService: Get.find<ContentService>()),
     );
   }
 }

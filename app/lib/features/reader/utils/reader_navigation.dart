@@ -17,10 +17,7 @@ class ReaderNavigation {
 
     await Get.to(
       () => NRReaderPage(nrId: nrId),
-      binding: ReaderBinding(
-        nrId: nrId,
-        initialAnchor: initialAnchor,
-      ),
+      binding: ReaderBinding(nrId: nrId, initialAnchor: initialAnchor),
     );
 
     if (Get.isRegistered<AdsService>()) {

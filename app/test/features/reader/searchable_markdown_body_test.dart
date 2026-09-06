@@ -5,7 +5,9 @@ import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 
 void main() {
-  testWidgets('SearchableMarkdownBody destaca termo mantendo heading', (tester) async {
+  testWidgets('SearchableMarkdownBody destaca termo mantendo heading', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

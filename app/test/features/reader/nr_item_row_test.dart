@@ -4,8 +4,9 @@ import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_item_row.dart';
 
 void main() {
-  testWidgets('NrItemRow mostra número em linha própria acima do texto',
-      (tester) async {
+  testWidgets('NrItemRow mostra número em linha própria acima do texto', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

@@ -92,8 +92,9 @@ class UpdatesBottomSheet {
                       for (var i = 0; i < entries.length; i++) ...[
                         _NrUpdatesGroup(
                           entry: entries[i],
-                          updateEntry:
-                              contentService.updateEntryFor(entries[i].id),
+                          updateEntry: contentService.updateEntryFor(
+                            entries[i].id,
+                          ),
                           showNrHeader: entries.length > 1,
                           onItemTap: (item) => _handleItemTap(
                             sheetContext: sheetContext,
@@ -166,7 +167,8 @@ class _NrUpdatesGroup extends StatelessWidget {
         ],
         if (items.isEmpty)
           _FallbackSummaryRow(
-            summary: updateEntry?.summary ??
+            summary:
+                updateEntry?.summary ??
                 'Detalhes indisponíveis para esta atualização.',
           )
         else
@@ -191,10 +193,7 @@ class _UpdateSheetItemRow extends StatelessWidget {
   final UpdateItem item;
   final VoidCallback onTap;
 
-  const _UpdateSheetItemRow({
-    required this.item,
-    required this.onTap,
-  });
+  const _UpdateSheetItemRow({required this.item, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -238,10 +237,7 @@ class _UpdateSheetItemRow extends StatelessWidget {
                   ],
                 ),
               ),
-              Icon(
-                Icons.chevron_right,
-                color: colorScheme.onSurfaceVariant,
-              ),
+              Icon(Icons.chevron_right, color: colorScheme.onSurfaceVariant),
             ],
           ),
         ),
@@ -258,25 +254,25 @@ class _UpdateSheetItemRow extends StatelessWidget {
 
     return switch (tipo) {
       'novo' => (
-          icon: Icons.add_circle_outline,
-          color: semantics.success,
-          label: 'Novo',
-        ),
+        icon: Icons.add_circle_outline,
+        color: semantics.success,
+        label: 'Novo',
+      ),
       'removido' => (
-          icon: Icons.remove_circle_outline,
-          color: colorScheme.error,
-          label: 'Removido',
-        ),
+        icon: Icons.remove_circle_outline,
+        color: colorScheme.error,
+        label: 'Removido',
+      ),
       'alterado' => (
-          icon: Icons.edit_outlined,
-          color: semantics.warning,
-          label: 'Alterado',
-        ),
+        icon: Icons.edit_outlined,
+        color: semantics.warning,
+        label: 'Alterado',
+      ),
       _ => (
-          icon: Icons.circle,
-          color: colorScheme.onSurfaceVariant,
-          label: 'Alteração',
-        ),
+        icon: Icons.circle,
+        color: colorScheme.onSurfaceVariant,
+        label: 'Alteração',
+      ),
     };
   }
 }
@@ -292,9 +288,8 @@ class _FallbackSummaryRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: AppSpacing.xs),
       child: Text(
         summary,
-        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-          color: Theme.of(context).colorScheme.onSurfaceVariant,
-        ),
+        style: Theme.of(context).textTheme.bodyMedium
+            ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
       ),
     );
   }

@@ -100,53 +100,58 @@ void main() {
 
   tearDown(Get.reset);
 
-  testWidgets('navigateToItemNumber rola até item distante no corpo estruturado',
-      (tester) async {
-    Get.testMode = true;
-    final fake = _FakeContentService();
-    final structure = _buildLongStructure();
-    final controller = NRReaderController(nrId: 'nr-06', contentService: fake);
-    controller.structure.value = structure;
-    controller.isLoading.value = false;
-    controller.showContinueChip.value = false;
-    Get.put(controller);
+  testWidgets(
+    'navigateToItemNumber rola até item distante no corpo estruturado',
+    (tester) async {
+      Get.testMode = true;
+      final fake = _FakeContentService();
+      final structure = _buildLongStructure();
+      final controller = NRReaderController(
+        nrId: 'nr-06',
+        contentService: fake,
+      );
+      controller.structure.value = structure;
+      controller.isLoading.value = false;
+      controller.showContinueChip.value = false;
+      Get.put(controller);
 
-    await tester.pumpWidget(
-      GetMaterialApp(
-        theme: AppTheme.light,
-        home: Scaffold(
-          body: SizedBox(
-            height: 640,
-            child: NrStructuredBody(
-              structure: structure,
-              nrEntry: null,
-              nrId: 'nr-06',
-              fontSize: 16,
-              scrollController: controller.scrollController,
-              sectionKeyFor: controller.sectionKeyFor,
+      await tester.pumpWidget(
+        GetMaterialApp(
+          theme: AppTheme.light,
+          home: Scaffold(
+            body: SizedBox(
+              height: 640,
+              child: NrStructuredBody(
+                structure: structure,
+                nrEntry: null,
+                nrId: 'nr-06',
+                fontSize: 16,
+                scrollController: controller.scrollController,
+                sectionKeyFor: controller.sectionKeyFor,
+              ),
             ),
           ),
         ),
-      ),
-    );
+      );
 
-    await tester.pumpAndSettle();
-    expect(controller.scrollController.hasClients, isTrue);
-    expect(
-      controller.scrollController.position.maxScrollExtent,
-      greaterThan(1000),
-    );
-    expect(controller.scrollController.offset, lessThan(100));
+      await tester.pumpAndSettle();
+      expect(controller.scrollController.hasClients, isTrue);
+      expect(
+        controller.scrollController.position.maxScrollExtent,
+        greaterThan(1000),
+      );
+      expect(controller.scrollController.offset, lessThan(100));
 
-    controller.navigateToItemNumber('6.25.1');
+      controller.navigateToItemNumber('6.25.1');
 
-    for (var i = 0; i < 80; i++) {
-      await tester.pump(const Duration(milliseconds: 50));
-    }
+      for (var i = 0; i < 80; i++) {
+        await tester.pump(const Duration(milliseconds: 50));
+      }
 
-    expect(controller.scrollController.offset, greaterThan(800));
-    expect(controller.currentItemNumber.value, '6.25.1');
-  });
+      expect(controller.scrollController.offset, greaterThan(800));
+      expect(controller.currentItemNumber.value, '6.25.1');
+    },
+  );
 
   testWidgets('ReaderDrawer chama navegação após fechar', (tester) async {
     Get.testMode = true;

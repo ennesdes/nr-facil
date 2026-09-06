@@ -56,10 +56,7 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
           if (hasPendingUpdate) ...[
             const SizedBox(width: 8),
-            const NrBadge(
-              variant: NrBadgeVariant.update,
-              compact: true,
-            ),
+            const NrBadge(variant: NrBadgeVariant.update, compact: true),
           ],
         ],
       ),
@@ -117,10 +114,7 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
               value: 'favorite',
               child: Row(
                 children: [
-                  Icon(
-                    isFavorite ? Icons.star : Icons.star_border,
-                    size: 22,
-                  ),
+                  Icon(isFavorite ? Icons.star : Icons.star_border, size: 22),
                   const SizedBox(width: 12),
                   Expanded(
                     child: Text(

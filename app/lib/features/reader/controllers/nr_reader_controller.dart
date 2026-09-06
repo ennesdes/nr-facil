@@ -109,7 +109,8 @@ class NRReaderController extends GetxController {
 
   void _maybeShowContinueChip() {
     final saved = _savedScrollPosition ?? 0;
-    final hasLabel = contentService.getLastItemNumber(nrId) != null ||
+    final hasLabel =
+        contentService.getLastItemNumber(nrId) != null ||
         contentService.getLastHeadingViewed(nrId) != null;
     showContinueChip.value = saved > 0 && hasLabel;
   }
@@ -162,7 +163,9 @@ class NRReaderController extends GetxController {
   }
 
   void _handleInitialAnchor() {
-    if (_initialAnchorHandled || initialAnchor == null || initialAnchor!.isEmpty) {
+    if (_initialAnchorHandled ||
+        initialAnchor == null ||
+        initialAnchor!.isEmpty) {
       return;
     }
     _initialAnchorHandled = true;
@@ -307,7 +310,8 @@ class NRReaderController extends GetxController {
 
   void continueFromSavedPosition() {
     final saved = contentService.getReadingHistoryEntry(nrId);
-    final position = _savedScrollPosition ?? contentService.getScrollPosition(nrId);
+    final position =
+        _savedScrollPosition ?? contentService.getScrollPosition(nrId);
     if (_scrollController.hasClients && position > 0) {
       final target = saved != null
           ? resolveScrollOffset(
@@ -364,7 +368,8 @@ class NRReaderController extends GetxController {
         try {
           final ok = await contentService.downloadNrForReading(nrId);
           if (!ok) {
-            error.value = contentService.lastError.value ??
+            error.value =
+                contentService.lastError.value ??
                 UserMessages.nrLoadRetry(nrId);
             return;
           }
@@ -404,10 +409,7 @@ class NRReaderController extends GetxController {
   }
 
   GlobalKey blockKeyFor(String sectionId, int blockIndex) {
-    return _blockKeys.putIfAbsent(
-      '$sectionId-$blockIndex',
-      GlobalKey.new,
-    );
+    return _blockKeys.putIfAbsent('$sectionId-$blockIndex', GlobalKey.new);
   }
 
   void registerHeadingKey(String headingText, GlobalKey key) {
@@ -752,9 +754,7 @@ class NRReaderController extends GetxController {
       }
 
       if (results.isEmpty && content.value != null) {
-        results.addAll(
-          searchInMarkdownContent(content.value!, s, trimmed),
-        );
+        results.addAll(searchInMarkdownContent(content.value!, s, trimmed));
       }
 
       if (generation != _searchGeneration) return;
@@ -801,7 +801,7 @@ class NRReaderController extends GetxController {
     if (documentSearchResults.isEmpty) return;
     currentHitIndex.value =
         (currentHitIndex.value - 1 + documentSearchResults.length) %
-            documentSearchResults.length;
+        documentSearchResults.length;
     goToSearchHit(documentSearchResults[currentHitIndex.value]);
   }
 
@@ -966,7 +966,9 @@ class NRReaderController extends GetxController {
       if (hit.blockIndex < 0 || hit.blockIndex >= s.preamble.blocks.length) {
         return null;
       }
-      return stripInlineMarkup(nrBlockPlainText(s.preamble.blocks[hit.blockIndex]));
+      return stripInlineMarkup(
+        nrBlockPlainText(s.preamble.blocks[hit.blockIndex]),
+      );
     }
 
     NrSection? section;

@@ -38,9 +38,8 @@ class SearchResultTile extends StatelessWidget {
           children: [
             Text(
               result.nrTitle,
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
+              style: Theme.of(context).textTheme.titleSmall
+                  ?.copyWith(fontWeight: FontWeight.bold),
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
             ),
@@ -48,9 +47,9 @@ class SearchResultTile extends StatelessWidget {
             Text(
               stripInlineMarkup(result.chunk.heading),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                    fontStyle: FontStyle.italic,
-                  ),
+                color: colorScheme.onSurfaceVariant,
+                fontStyle: FontStyle.italic,
+              ),
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
             ),

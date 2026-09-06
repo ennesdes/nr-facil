@@ -50,20 +50,11 @@ class HighlightedText extends StatelessWidget {
     final spans = <TextSpan>[];
     for (final segment in segments) {
       spans.addAll(
-        _highlightSegment(
-          context,
-          segment,
-          baseStyle,
-          normalizedQuery,
-        ),
+        _highlightSegment(context, segment, baseStyle, normalizedQuery),
       );
     }
 
-    return _buildRichText(
-      context,
-      spans,
-      selectable: selectable,
-    );
+    return _buildRichText(context, spans, selectable: selectable);
   }
 
   List<TextSpan> _segmentsToSpans(
@@ -140,10 +131,7 @@ class HighlightedText extends StatelessWidget {
   }) {
     final rich = TextSpan(children: spans);
     if (selectable) {
-      return SelectableText.rich(
-        rich,
-        maxLines: maxLines,
-      );
+      return SelectableText.rich(rich, maxLines: maxLines);
     }
 
     return Text.rich(

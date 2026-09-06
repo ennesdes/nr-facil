@@ -42,9 +42,7 @@ class ReaderPositionIndicator extends StatelessWidget {
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
           child: Material(
-            color: colorScheme.surface.withValues(
-              alpha: isDark ? 0.88 : 0.94,
-            ),
+            color: colorScheme.surface.withValues(alpha: isDark ? 0.88 : 0.94),
             elevation: isDark ? 4 : 2,
             shadowColor: Colors.black.withValues(alpha: isDark ? 0.35 : 0.12),
             borderRadius: BorderRadius.circular(14),
@@ -93,9 +91,7 @@ class ReaderPositionIndicator extends StatelessWidget {
                                   ),
                                 Text(
                                   label,
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .titleSmall
+                                  style: Theme.of(context).textTheme.titleSmall
                                       ?.copyWith(
                                         fontWeight: FontWeight.w600,
                                         color: colorScheme.onSurface,
@@ -138,10 +134,7 @@ class _ProgressTrack extends StatelessWidget {
   final double value;
   final ColorScheme colorScheme;
 
-  const _ProgressTrack({
-    required this.value,
-    required this.colorScheme,
-  });
+  const _ProgressTrack({required this.value, required this.colorScheme});
 
   @override
   Widget build(BuildContext context) {
@@ -204,10 +197,10 @@ class _PercentBadge extends StatelessWidget {
       child: Text(
         '$percent%',
         style: Theme.of(context).textTheme.labelMedium?.copyWith(
-              fontWeight: FontWeight.w700,
-              color: colorScheme.onPrimaryContainer,
-              fontFeatures: const [FontFeature.tabularFigures()],
-            ),
+          fontWeight: FontWeight.w700,
+          color: colorScheme.onPrimaryContainer,
+          fontFeatures: const [FontFeature.tabularFigures()],
+        ),
       ),
     );
   }

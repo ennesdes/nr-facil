@@ -8,11 +8,7 @@ class NrBadge extends StatelessWidget {
   final NrBadgeVariant variant;
   final bool compact;
 
-  const NrBadge({
-    required this.variant,
-    this.compact = false,
-    super.key,
-  });
+  const NrBadge({required this.variant, this.compact = false, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,23 +18,23 @@ class NrBadge extends StatelessWidget {
 
     final (background, foreground, label, icon) = switch (variant) {
       NrBadgeVariant.update => (
-          semantics.warningContainer,
-          semantics.onWarningContainer,
-          compact ? 'Atualizada' : 'Atualização disponível',
-          Icons.update,
-        ),
+        semantics.warningContainer,
+        semantics.onWarningContainer,
+        compact ? 'Atualizada' : 'Atualização disponível',
+        Icons.update,
+      ),
       NrBadgeVariant.revoked => (
-          colorScheme.surfaceContainerHigh,
-          semantics.revoked,
-          'Revogada',
-          null,
-        ),
+        colorScheme.surfaceContainerHigh,
+        semantics.revoked,
+        'Revogada',
+        null,
+      ),
       NrBadgeVariant.downloaded => (
-          colorScheme.primaryContainer,
-          colorScheme.onPrimaryContainer,
-          'Baixada',
-          Icons.download_done,
-        ),
+        colorScheme.primaryContainer,
+        colorScheme.onPrimaryContainer,
+        'Baixada',
+        Icons.download_done,
+      ),
     };
 
     final textStyle = variant == NrBadgeVariant.revoked
@@ -56,10 +52,8 @@ class NrBadge extends StatelessWidget {
         border: variant == NrBadgeVariant.revoked
             ? Border.all(color: semantics.revoked)
             : variant == NrBadgeVariant.update
-                ? Border.all(
-                    color: semantics.warning.withValues(alpha: 0.35),
-                  )
-                : null,
+            ? Border.all(color: semantics.warning.withValues(alpha: 0.35))
+            : null,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,

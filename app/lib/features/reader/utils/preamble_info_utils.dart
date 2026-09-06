@@ -7,10 +7,7 @@ class PreamblePortariaEntry {
   final String portaria;
   final String douDate;
 
-  const PreamblePortariaEntry({
-    required this.portaria,
-    required this.douDate,
-  });
+  const PreamblePortariaEntry({required this.portaria, required this.douDate});
 
   /// Texto plano para busca e snippets.
   String get plainText {
@@ -44,8 +41,9 @@ class PreambleInfo {
       amendments.isNotEmpty ? amendments.last : null;
 
   /// Alterações anteriores à mais recente.
-  List<PreamblePortariaEntry> get previousAmendments =>
-      amendments.length > 1 ? amendments.sublist(0, amendments.length - 1) : const [];
+  List<PreamblePortariaEntry> get previousAmendments => amendments.length > 1
+      ? amendments.sublist(0, amendments.length - 1)
+      : const [];
 
   /// Blocos de preâmbulo com conteúdo visível (exclui sumário).
   int get visibleBlockCount {
@@ -67,10 +65,7 @@ final _douPattern = RegExp(
   caseSensitive: false,
 );
 
-final _portariaPattern = RegExp(
-  r'Portaria\s+[^\n|#]+',
-  caseSensitive: false,
-);
+final _portariaPattern = RegExp(r'Portaria\s+[^\n|#]+', caseSensitive: false);
 
 final _vigenciaPattern = RegExp(
   r'_\(\s*(Vigência[^)_]+)\)_',
@@ -82,10 +77,7 @@ final _redacaoPattern = RegExp(
   caseSensitive: false,
 );
 
-final _nrTitlePattern = RegExp(
-  r'#\s*\*{0,2}\s*NR\s',
-  caseSensitive: false,
-);
+final _nrTitlePattern = RegExp(r'#\s*\*{0,2}\s*NR\s', caseSensitive: false);
 
 /// Extrai publicação e alterações de [preamble], com fallback em [manifestEntry].
 PreambleInfo parsePreambleInfo(
@@ -181,8 +173,10 @@ PreamblePortariaEntry? _parsePortariaFromText(String text) {
 
   var portaria = stripInlineMarkup(portariaMatch.group(0) ?? '').trim();
   portaria = portaria.replaceAll(
-    RegExp(r'\s*D\.?\s*O\.?\s*U\.?\s*[:\*\s]*[\d/]+(?:\s+Repub\.\s+[\d/]+)?\s*$',
-        caseSensitive: false),
+    RegExp(
+      r'\s*D\.?\s*O\.?\s*U\.?\s*[:\*\s]*[\d/]+(?:\s+Repub\.\s+[\d/]+)?\s*$',
+      caseSensitive: false,
+    ),
     '',
   );
   portaria = portaria.replaceAll(
@@ -258,9 +252,7 @@ void _parseTableMarkdown(
 enum _TableSection { none, publication, amendments }
 
 bool _isSeparatorRow(List<String> cells) {
-  return cells.every(
-    (c) => c.replaceAll(RegExp(r'[-:]+'), '').trim().isEmpty,
-  );
+  return cells.every((c) => c.replaceAll(RegExp(r'[-:]+'), '').trim().isEmpty);
 }
 
 bool _isInlinePublicationRow(List<String> cells) {
@@ -303,10 +295,7 @@ PreamblePortariaEntry? _entryFromTableCells(List<String> cells) {
   if (portariaCell.isEmpty) return null;
   if (!portariaCell.toLowerCase().contains('portaria')) return null;
 
-  return PreamblePortariaEntry(
-    portaria: portariaCell,
-    douDate: douCell.trim(),
-  );
+  return PreamblePortariaEntry(portaria: portariaCell, douDate: douCell.trim());
 }
 
 PreamblePortariaEntry? _publicationFromManifest(ManifestEntry entry) {
@@ -314,7 +303,10 @@ PreamblePortariaEntry? _publicationFromManifest(ManifestEntry entry) {
   final date = entry.publicadoEm?.trim() ?? '';
   if (portaria == null || portaria.isEmpty) {
     if (date.isEmpty) return null;
-    return PreamblePortariaEntry(portaria: 'Publicação', douDate: _formatIsoDate(date));
+    return PreamblePortariaEntry(
+      portaria: 'Publicação',
+      douDate: _formatIsoDate(date),
+    );
   }
   return PreamblePortariaEntry(
     portaria: portaria,

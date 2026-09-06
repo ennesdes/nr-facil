@@ -25,74 +25,68 @@ class RevokedNrPage extends StatelessWidget {
         : null;
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(entry.nrLabel),
-      ),
+      appBar: AppBar(title: Text(entry.nrLabel)),
       body: AppScaffoldBody(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
           child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Icon(
-              Icons.warning_amber_rounded,
-              size: 56,
-              color: context.semanticColors.warning,
-            ),
-            const SizedBox(height: 16),
-            Text(
-              'NR revogada',
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              entry.title,
-              style: Theme.of(context).textTheme.titleMedium,
-            ),
-            const SizedBox(height: 16),
-            Text(
-              'Esta norma foi revogada e não deve ser usada como referência '
-              'para fiscalização, laudos ou documentos de SST. Consulte o PDF '
-              'oficial apenas para fins históricos ou verifique a norma vigente.',
-              style: Theme.of(context).textTheme.bodyLarge,
-            ),
-            const SizedBox(height: AppSpacing.lg),
-            Wrap(
-              spacing: AppSpacing.sm,
-              runSpacing: AppSpacing.sm,
-              children: [
-                if (entry.pdfUrl != null && entry.pdfUrl!.isNotEmpty)
-                  AppFilterChip(
-                    label: 'Ver PDF histórico no MTE',
-                    icon: Icons.picture_as_pdf,
-                    emphasized: true,
-                    onTap: () => _launchUrl(entry.pdfUrl!),
-                  ),
-                if (successor != null)
-                  AppFilterChip(
-                    label: 'Abrir ${successor.nrLabel} (sucessora)',
-                    icon: Icons.arrow_forward,
-                    onTap: () {
-                      ReaderNavigation.open(nrId: successor.id);
-                    },
-                  ),
-              ],
-            ),
-            const SizedBox(height: 24),
-            Text(
-              'Este aplicativo disponibiliza conteúdo público oficial das '
-              'Normas Regulamentadoras do Ministério do Trabalho e Emprego. '
-              'O conteúdo não substitui a consulta às publicações oficiais '
-              'no portal gov.br.',
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    fontStyle: FontStyle.italic,
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
-            ),
-          ],
-        ),
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(
+                Icons.warning_amber_rounded,
+                size: 56,
+                color: context.semanticColors.warning,
+              ),
+              const SizedBox(height: 16),
+              Text(
+                'NR revogada',
+                style: Theme.of(context).textTheme.headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 8),
+              Text(entry.title, style: Theme.of(context).textTheme.titleMedium),
+              const SizedBox(height: 16),
+              Text(
+                'Esta norma foi revogada e não deve ser usada como referência '
+                'para fiscalização, laudos ou documentos de SST. Consulte o PDF '
+                'oficial apenas para fins históricos ou verifique a norma vigente.',
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              const SizedBox(height: AppSpacing.lg),
+              Wrap(
+                spacing: AppSpacing.sm,
+                runSpacing: AppSpacing.sm,
+                children: [
+                  if (entry.pdfUrl != null && entry.pdfUrl!.isNotEmpty)
+                    AppFilterChip(
+                      label: 'Ver PDF histórico no MTE',
+                      icon: Icons.picture_as_pdf,
+                      emphasized: true,
+                      onTap: () => _launchUrl(entry.pdfUrl!),
+                    ),
+                  if (successor != null)
+                    AppFilterChip(
+                      label: 'Abrir ${successor.nrLabel} (sucessora)',
+                      icon: Icons.arrow_forward,
+                      onTap: () {
+                        ReaderNavigation.open(nrId: successor.id);
+                      },
+                    ),
+                ],
+              ),
+              const SizedBox(height: 24),
+              Text(
+                'Este aplicativo disponibiliza conteúdo público oficial das '
+                'Normas Regulamentadoras do Ministério do Trabalho e Emprego. '
+                'O conteúdo não substitui a consulta às publicações oficiais '
+                'no portal gov.br.',
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  fontStyle: FontStyle.italic,
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

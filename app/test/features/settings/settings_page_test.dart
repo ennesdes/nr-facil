@@ -23,24 +23,25 @@ class _FakePathProviderPlatform extends PathProviderPlatform
 void main() {
   late Directory tempDir;
 
-  const packageInfoChannel =
-      MethodChannel('dev.fluttercommunity.plus/package_info');
+  const packageInfoChannel = MethodChannel(
+    'dev.fluttercommunity.plus/package_info',
+  );
 
   setUp(() async {
     TestWidgetsFlutterBinding.ensureInitialized();
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(packageInfoChannel, (call) async {
-      if (call.method == 'getAll') {
-        return {
-          'appName': 'NR Fácil',
-          'packageName': 'com.example.nrfacil',
-          'version': '1.0.0',
-          'buildNumber': '42',
-          'buildSignature': '',
-        };
-      }
-      return null;
-    });
+          if (call.method == 'getAll') {
+            return {
+              'appName': 'NR Fácil',
+              'packageName': 'com.example.nrfacil',
+              'version': '1.0.0',
+              'buildNumber': '42',
+              'buildSignature': '',
+            };
+          }
+          return null;
+        });
 
     tempDir = await Directory.systemTemp.createTemp('nrfacil_settings_test_');
     PathProviderPlatform.instance = _FakePathProviderPlatform(tempDir.path);
@@ -55,8 +56,9 @@ void main() {
     Get.reset();
   });
 
-  testWidgets('SettingsPage exibe opções de tema e altera ThemeController',
-      (tester) async {
+  testWidgets('SettingsPage exibe opções de tema e altera ThemeController', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       GetMaterialApp(
         theme: AppTheme.light,

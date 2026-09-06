@@ -3,10 +3,7 @@ class MarkdownSection {
   final String? headingText; // null se for conteúdo inicial sem heading
   final String markdownContent; // markdown da seção (inclui heading se existir)
 
-  MarkdownSection({
-    required this.headingText,
-    required this.markdownContent,
-  });
+  MarkdownSection({required this.headingText, required this.markdownContent});
 }
 
 /// Dividir conteúdo markdown em seções por heading.

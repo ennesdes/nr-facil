@@ -33,10 +33,8 @@ import '../utils/user_messages.dart';
 /// Usar via GetX: `Get.find<ContentService>()`
 /// Bindings: ContentService será injetado como permanent: true em Binding
 class ContentService extends GetxService {
-  ContentService({
-    http.Client? httpClient,
-    this._cacheDirOverride,
-  }) : _httpClientOverride = httpClient;
+  ContentService({http.Client? httpClient, this._cacheDirOverride})
+    : _httpClientOverride = httpClient;
 
   final http.Client? _httpClientOverride;
   final Directory? _cacheDirOverride;
@@ -113,8 +111,7 @@ class ContentService extends GetxService {
     // Carregar favoritos antes do manifest (síncrono) para aba padrão correta
     _loadFavorites();
 
-    lastOpenedNrId.value =
-        GetStorage().read<String?>(StorageKeys.lastOpenedNr);
+    lastOpenedNrId.value = GetStorage().read<String?>(StorageKeys.lastOpenedNr);
 
     // Carregar manifest do cache local ao iniciar
     await _loadManifestFromCache();
@@ -209,44 +206,40 @@ class ContentService extends GetxService {
     final currentManifest = manifest.value;
     if (currentManifest == null) return;
 
-    final entries =
-        currentManifest.nrs.where((entry) => !entry.isRevoked).toList();
+    final entries = currentManifest.nrs
+        .where((entry) => !entry.isRevoked)
+        .toList();
 
     AppLogger.info('Sincronizando índices de busca (${entries.length} NRs)...');
 
-    await _forEachConcurrent(
-      entries,
-      (nrEntry) async {
-        final localHash =
-            GetStorage().read(StorageKeys.nrSearchIndexSyncedHash(nrEntry.id));
-        if (nrEntry.hash == localHash) {
-          return;
+    await _forEachConcurrent(entries, (nrEntry) async {
+      final localHash = GetStorage().read(
+        StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+      );
+      if (nrEntry.hash == localHash) {
+        return;
+      }
+
+      try {
+        final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
+        if (!nrDir.existsSync()) {
+          nrDir.createSync(recursive: true);
         }
 
-        try {
-          final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
-          if (!nrDir.existsSync()) {
-            nrDir.createSync(recursive: true);
-          }
+        await _downloadFile(
+          url: '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
+          savePath: '${nrDir.path}/search_index.json',
+          retries: AppConfig.maxRetries,
+        );
 
-          await _downloadFile(
-            url:
-                '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
-            savePath: '${nrDir.path}/search_index.json',
-            retries: AppConfig.maxRetries,
-          );
-
-          GetStorage().write(
-            StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
-            nrEntry.hash,
-          );
-        } catch (e) {
-          AppLogger.warning(
-            'Falha ao baixar search_index de ${nrEntry.id}: $e',
-          );
-        }
-      },
-    );
+        GetStorage().write(
+          StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+          nrEntry.hash,
+        );
+      } catch (e) {
+        AppLogger.warning('Falha ao baixar search_index de ${nrEntry.id}: $e');
+      }
+    });
 
     AppLogger.info('Índices de busca sincronizados');
   }
@@ -443,8 +436,7 @@ class ContentService extends GetxService {
       return;
     }
 
-    offlineDownloadNeeded.value =
-        currentManifest.nrs.any(_needsFullDownload);
+    offlineDownloadNeeded.value = currentManifest.nrs.any(_needsFullDownload);
   }
 
   /// NR precisa de download completo quando o pacote offline está ausente
@@ -586,9 +578,7 @@ class ContentService extends GetxService {
             retries: AppConfig.maxRetries,
           );
         } catch (e) {
-          AppLogger.warning(
-            'Falha ao baixar $jsonName de ${entry.id}: $e',
-          );
+          AppLogger.warning('Falha ao baixar $jsonName de ${entry.id}: $e');
         }
       }
 
@@ -687,9 +677,7 @@ class ContentService extends GetxService {
         .toSet();
     if (structureJson != null) {
       paths.addAll(
-        _jsonAssetRefPattern
-            .allMatches(structureJson)
-            .map((m) => m.group(1)!),
+        _jsonAssetRefPattern.allMatches(structureJson).map((m) => m.group(1)!),
       );
     }
     return paths;
@@ -711,26 +699,23 @@ class ContentService extends GetxService {
       structureJson: structureJson,
     );
 
-    await _forEachConcurrent(
-      relativePaths.toList(),
-      (relativePath) async {
-        try {
-          final savePath = '${nrDir.path}/$relativePath';
-          final saveDir = File(savePath).parent;
-          if (!saveDir.existsSync()) {
-            saveDir.createSync(recursive: true);
-          }
-
-          await _downloadFile(
-            url: '${AppConfig.contentBaseUrl}/$nrId/$relativePath',
-            savePath: savePath,
-            retries: AppConfig.maxRetries,
-          );
-        } catch (e) {
-          AppLogger.warning('Falha ao baixar asset $relativePath de $nrId: $e');
+    await _forEachConcurrent(relativePaths.toList(), (relativePath) async {
+      try {
+        final savePath = '${nrDir.path}/$relativePath';
+        final saveDir = File(savePath).parent;
+        if (!saveDir.existsSync()) {
+          saveDir.createSync(recursive: true);
         }
-      },
-    );
+
+        await _downloadFile(
+          url: '${AppConfig.contentBaseUrl}/$nrId/$relativePath',
+          savePath: savePath,
+          retries: AppConfig.maxRetries,
+        );
+      } catch (e) {
+        AppLogger.warning('Falha ao baixar asset $relativePath de $nrId: $e');
+      }
+    });
   }
 
   /// Baixar um arquivo remoto para o cache local.
@@ -757,11 +742,9 @@ class ContentService extends GetxService {
           AppLogger.debug('Arquivo salvo: $savePath');
           return; // Sucesso
         } else if (response.statusCode == 404) {
-          throw HttpException(
-              'Arquivo não encontrado: $url (404)');
+          throw HttpException('Arquivo não encontrado: $url (404)');
         } else {
-          throw HttpException(
-              'HTTP ${response.statusCode}: $url');
+          throw HttpException('HTTP ${response.statusCode}: $url');
         }
       } catch (e) {
         attempt++;
@@ -770,9 +753,7 @@ class ContentService extends GetxService {
           rethrow;
         }
         // Esperar antes de retentar
-        await Future.delayed(
-          Duration(seconds: AppConfig.retryDelaySeconds),
-        );
+        await Future.delayed(Duration(seconds: AppConfig.retryDelaySeconds));
       }
     }
   }
@@ -791,7 +772,8 @@ class ContentService extends GetxService {
 
       if (response.statusCode != 200) {
         AppLogger.warning(
-            'Falha ao baixar manifest: HTTP ${response.statusCode}');
+          'Falha ao baixar manifest: HTTP ${response.statusCode}',
+        );
         return null;
       }
 
@@ -800,7 +782,8 @@ class ContentService extends GetxService {
       final remoteManifest = Manifest.fromMap(jsonMap);
 
       AppLogger.info(
-          'Manifest baixado: ${remoteManifest.nrs.length} NRs encontradas');
+        'Manifest baixado: ${remoteManifest.nrs.length} NRs encontradas',
+      );
       return remoteManifest;
     } on TimeoutException catch (e) {
       AppLogger.warning('Timeout ao baixar manifest: $e');
@@ -829,7 +812,8 @@ class ContentService extends GetxService {
 
       if (response.statusCode != 200) {
         AppLogger.warning(
-            'Falha ao baixar app_meta: HTTP ${response.statusCode}');
+          'Falha ao baixar app_meta: HTTP ${response.statusCode}',
+        );
         return;
       }
 
@@ -838,7 +822,8 @@ class ContentService extends GetxService {
       appMeta.value = AppMeta.fromJson(jsonMap);
 
       AppLogger.info(
-          'AppMeta baixado: ${appMeta.value?.updates.length ?? 0} atualizações encontradas');
+        'AppMeta baixado: ${appMeta.value?.updates.length ?? 0} atualizações encontradas',
+      );
     } on TimeoutException catch (e) {
       AppLogger.warning('Timeout ao baixar app_meta: $e');
       // Continuar sem falhar
@@ -858,8 +843,7 @@ class ContentService extends GetxService {
   /// Se cache estiver corrompido, loga aviso e continua com manifest vazio.
   Future<void> _loadManifestFromCache() async {
     try {
-      final manifestFile =
-          File('${_cacheDir.path}/manifest.json');
+      final manifestFile = File('${_cacheDir.path}/manifest.json');
 
       if (!manifestFile.existsSync()) {
         AppLogger.debug('Sem manifest.json em cache (primeira execução?)');
@@ -871,13 +855,15 @@ class ContentService extends GetxService {
       manifest.value = Manifest.fromMap(jsonMap);
 
       // Restaurar timestamp
-      final lastSyncedStr = GetStorage().read(StorageKeys.lastSyncedAt) as String?;
+      final lastSyncedStr =
+          GetStorage().read(StorageKeys.lastSyncedAt) as String?;
       if (lastSyncedStr != null) {
         lastSyncedAt.value = DateTime.parse(lastSyncedStr);
       }
 
       AppLogger.info(
-          'Manifest carregado do cache: ${manifest.value?.nrs.length ?? 0} NRs');
+        'Manifest carregado do cache: ${manifest.value?.nrs.length ?? 0} NRs',
+      );
     } catch (e) {
       AppLogger.warning('Falha ao carregar manifest do cache: $e');
       // Continuar — cache pode estar corrompido
@@ -887,8 +873,7 @@ class ContentService extends GetxService {
   /// Salvar manifest no cache local.
   Future<void> _saveManifestToCache(Manifest manifest) async {
     try {
-      final manifestFile =
-          File('${_cacheDir.path}/manifest.json');
+      final manifestFile = File('${_cacheDir.path}/manifest.json');
 
       if (!manifestFile.parent.existsSync()) {
         manifestFile.parent.createSync(recursive: true);
@@ -1007,8 +992,7 @@ class ContentService extends GetxService {
 
   /// Snapshot ordenado dos IDs com atualização pendente (para dismiss do card).
   String pendingUpdatesSnapshot() {
-    final ids = updatedNrs.map((entry) => entry.id).toList()
-      ..sort();
+    final ids = updatedNrs.map((entry) => entry.id).toList()..sort();
     return ids.join(',');
   }
 
@@ -1065,8 +1049,9 @@ class ContentService extends GetxService {
         final installedPart = i < installed.length
             ? int.tryParse(installed[i]) ?? 0
             : 0;
-        final minimumPart =
-            i < minimum.length ? int.tryParse(minimum[i]) ?? 0 : 0;
+        final minimumPart = i < minimum.length
+            ? int.tryParse(minimum[i]) ?? 0
+            : 0;
 
         if (installedPart < minimumPart) return true;
         if (installedPart > minimumPart) return false;
@@ -1104,8 +1089,9 @@ class ContentService extends GetxService {
   /// Retorna null se arquivo não existir ou estiver corrompido.
   Future<NrStructure?> readNrStructure(String nrId) async {
     try {
-      final structureFile =
-          File('${_cacheDir.path}/content/$nrId/structure.json');
+      final structureFile = File(
+        '${_cacheDir.path}/content/$nrId/structure.json',
+      );
 
       if (!structureFile.existsSync()) {
         AppLogger.debug('structure.json de $nrId não encontrado em cache');
@@ -1150,7 +1136,9 @@ class ContentService extends GetxService {
   /// Lança exceção se houver erro de I/O.
   Future<List<SearchChunk>> readSearchIndex(String nrId) async {
     try {
-      final searchFile = File('${_cacheDir.path}/content/$nrId/search_index.json');
+      final searchFile = File(
+        '${_cacheDir.path}/content/$nrId/search_index.json',
+      );
 
       if (!searchFile.existsSync()) {
         AppLogger.debug('Índice de busca de $nrId não encontrado em cache');
@@ -1160,8 +1148,11 @@ class ContentService extends GetxService {
       final content = await searchFile.readAsString();
       final jsonList = jsonDecode(content) as List<dynamic>;
       return jsonList
-          .map((e) => SearchChunk.fromMap(
-              e is Map<String, dynamic> ? e : <String, dynamic>{}))
+          .map(
+            (e) => SearchChunk.fromMap(
+              e is Map<String, dynamic> ? e : <String, dynamic>{},
+            ),
+          )
           .toList();
     } catch (e, st) {
       AppLogger.error('Erro ao ler índice de busca de NR $nrId', e, st);
@@ -1175,10 +1166,8 @@ class ContentService extends GetxService {
     try {
       final savedList = GetStorage().read<List>(StorageKeys.favoriteNrs);
       if (savedList != null) {
-        favoriteIds.value =
-            savedList.map((item) => item.toString()).toList();
-        AppLogger.debug(
-            'Favoritos carregados: ${favoriteIds.length} NRs');
+        favoriteIds.value = savedList.map((item) => item.toString()).toList();
+        AppLogger.debug('Favoritos carregados: ${favoriteIds.length} NRs');
       }
     } catch (e) {
       AppLogger.warning('Erro ao carregar favoritos: $e');
@@ -1191,8 +1180,7 @@ class ContentService extends GetxService {
     final manifestIds = manifest.value?.nrs.map((entry) => entry.id).toSet();
     if (manifestIds == null || manifestIds.isEmpty) return;
 
-    final kept =
-        favoriteIds.where((id) => manifestIds.contains(id)).toList();
+    final kept = favoriteIds.where((id) => manifestIds.contains(id)).toList();
     if (kept.length == favoriteIds.length) return;
 
     AppLogger.debug(
@@ -1294,8 +1282,11 @@ class ContentService extends GetxService {
 
       // Converter para ReadingHistoryEntry
       final history = historyList
-          .map((item) => ReadingHistoryEntry.fromMap(
-              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .map(
+            (item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{},
+            ),
+          )
           .toList();
 
       final existingIndex = history.indexWhere((entry) => entry.nrId == nrId);
@@ -1311,10 +1302,8 @@ class ContentService extends GetxService {
           nrId: nrId,
           lastAccessedAt: DateTime.now(),
           scrollPosition: scrollPosition ?? existing?.scrollPosition ?? 0.0,
-          scrollMaxExtent:
-              scrollMaxExtent ?? existing?.scrollMaxExtent ?? 0.0,
-          lastHeadingViewed:
-              lastHeadingViewed ?? existing?.lastHeadingViewed,
+          scrollMaxExtent: scrollMaxExtent ?? existing?.scrollMaxExtent ?? 0.0,
+          lastHeadingViewed: lastHeadingViewed ?? existing?.lastHeadingViewed,
           lastItemNumber: lastItemNumber ?? existing?.lastItemNumber,
           progressPercent: progressPercent ?? existing?.progressPercent,
         ),
@@ -1346,8 +1335,11 @@ class ContentService extends GetxService {
       if (savedList == null) return [];
 
       return savedList
-          .map((item) => ReadingHistoryEntry.fromMap(
-              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .map(
+            (item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{},
+            ),
+          )
           .toList();
     } catch (e, st) {
       AppLogger.error('Erro ao carregar histórico de leitura', e, st);
@@ -1394,6 +1386,7 @@ class ContentService extends GetxService {
   String? getLastItemNumber(String nrId) {
     return getReadingHistoryEntry(nrId)?.lastItemNumber;
   }
+
   /// Obter posição de scroll salva para uma NR.
   ///
   /// Retorna 0.0 se nenhuma posição foi salva.
@@ -1402,10 +1395,8 @@ class ContentService extends GetxService {
       final history = getReadingHistory();
       final entry = history.firstWhere(
         (e) => e.nrId == nrId,
-        orElse: () => ReadingHistoryEntry(
-          nrId: nrId,
-          lastAccessedAt: DateTime.now(),
-        ),
+        orElse: () =>
+            ReadingHistoryEntry(nrId: nrId, lastAccessedAt: DateTime.now()),
       );
       return entry.scrollPosition;
     } catch (e) {
@@ -1431,8 +1422,11 @@ class ContentService extends GetxService {
       final historyList = savedList ?? [];
 
       final history = historyList
-          .map((item) => ReadingHistoryEntry.fromMap(
-              item is Map<String, dynamic> ? item : <String, dynamic>{}))
+          .map(
+            (item) => ReadingHistoryEntry.fromMap(
+              item is Map<String, dynamic> ? item : <String, dynamic>{},
+            ),
+          )
           .toList();
 
       final index = history.indexWhere((e) => e.nrId == nrId);

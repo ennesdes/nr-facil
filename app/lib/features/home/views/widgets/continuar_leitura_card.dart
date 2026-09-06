@@ -121,8 +121,9 @@ class ContinuarLeituraCard extends StatelessWidget {
                               child: LinearProgressIndicator(
                                 value: clampedProgress / 100,
                                 minHeight: 3,
-                                backgroundColor: colorScheme.outline
-                                    .withValues(alpha: 0.22),
+                                backgroundColor: colorScheme.outline.withValues(
+                                  alpha: 0.22,
+                                ),
                                 color: colorScheme.primary,
                               ),
                             ),
@@ -140,10 +141,7 @@ class ContinuarLeituraCard extends StatelessWidget {
                   ],
                 ),
               ),
-              Icon(
-                Icons.chevron_right,
-                color: colorScheme.onSurfaceVariant,
-              ),
+              Icon(Icons.chevron_right, color: colorScheme.onSurfaceVariant),
             ],
           ),
         ),

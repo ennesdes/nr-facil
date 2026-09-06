@@ -17,50 +17,52 @@ void main() {
       Get.reset();
     });
 
-    test('fromJson caminho feliz: app_meta com items[] é parseado corretamente',
-        () {
-      final json = {
-        'generated_at': '2026-08-30T12:00:00+00:00',
-        'min_app_version': '1.0.0',
-        'updates': [
-          {
-            'nr_id': 'nr-06',
-            'title': 'EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI',
-            'portaria': 'Portaria MTE nº 509/2018',
-            'hash': 'abc123',
-            'pdf_hash': 'def456',
-            'summary': '2 itens alterados',
-            'items': [
-              {
-                'item': '6.5',
-                'tipo': 'alterado',
-                'resumo': 'Antes: …texto antigo… → depois: …texto novo…'
-              },
-              {
-                'item': '6.21',
-                'tipo': 'novo',
-                'resumo': 'Equipamento de proteção contra radiação'
-              },
-            ],
-            'created_at': '2026-08-30T12:00:00+00:00',
-          },
-        ],
-      };
+    test(
+      'fromJson caminho feliz: app_meta com items[] é parseado corretamente',
+      () {
+        final json = {
+          'generated_at': '2026-08-30T12:00:00+00:00',
+          'min_app_version': '1.0.0',
+          'updates': [
+            {
+              'nr_id': 'nr-06',
+              'title': 'EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI',
+              'portaria': 'Portaria MTE nº 509/2018',
+              'hash': 'abc123',
+              'pdf_hash': 'def456',
+              'summary': '2 itens alterados',
+              'items': [
+                {
+                  'item': '6.5',
+                  'tipo': 'alterado',
+                  'resumo': 'Antes: …texto antigo… → depois: …texto novo…',
+                },
+                {
+                  'item': '6.21',
+                  'tipo': 'novo',
+                  'resumo': 'Equipamento de proteção contra radiação',
+                },
+              ],
+              'created_at': '2026-08-30T12:00:00+00:00',
+            },
+          ],
+        };
 
-      final appMeta = AppMeta.fromJson(json);
+        final appMeta = AppMeta.fromJson(json);
 
-      expect(appMeta.minAppVersion, '1.0.0');
-      expect(appMeta.updates.length, 1);
+        expect(appMeta.minAppVersion, '1.0.0');
+        expect(appMeta.updates.length, 1);
 
-      final entry = appMeta.updates[0];
-      expect(entry.nrId, 'nr-06');
-      expect(entry.title, 'EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI');
-      expect(entry.portaria, 'Portaria MTE nº 509/2018');
-      expect(entry.summary, '2 itens alterados');
-      expect(entry.items.length, 2);
-      expect(entry.items[0].tipo, 'alterado');
-      expect(entry.items[1].tipo, 'novo');
-    });
+        final entry = appMeta.updates[0];
+        expect(entry.nrId, 'nr-06');
+        expect(entry.title, 'EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL - EPI');
+        expect(entry.portaria, 'Portaria MTE nº 509/2018');
+        expect(entry.summary, '2 itens alterados');
+        expect(entry.items.length, 2);
+        expect(entry.items[0].tipo, 'alterado');
+        expect(entry.items[1].tipo, 'novo');
+      },
+    );
 
     test('Edge case: entrada sem items (schema legado) não quebra', () {
       final json = {
@@ -94,11 +96,7 @@ void main() {
             hash: 'abc123',
             summary: '2 itens alterados',
             items: [
-              UpdateItem(
-                item: '6.5',
-                tipo: 'alterado',
-                resumo: 'Alterado',
-              ),
+              UpdateItem(item: '6.5', tipo: 'alterado', resumo: 'Alterado'),
             ],
             createdAt: DateTime(2026, 8, 30, 12),
           ),
@@ -128,17 +126,17 @@ void main() {
       expect(entryNotFound, isNull);
     });
 
-    test('ContentService.updateEntryFor: retorna null se appMeta não foi baixado',
-        () {
-      contentService.appMeta.value = null;
-
-      final entry = contentService.updateEntryFor('nr-06');
-      expect(entry, isNull);
-    });
-
     test(
-        'ContentService.updateEntryFor: ordena por createdAt e retorna a mais recente',
-        () {
+      'ContentService.updateEntryFor: retorna null se appMeta não foi baixado',
+      () {
+        contentService.appMeta.value = null;
+
+        final entry = contentService.updateEntryFor('nr-06');
+        expect(entry, isNull);
+      },
+    );
+
+    test('ContentService.updateEntryFor: ordena por createdAt e retorna a mais recente', () {
       final appMeta = AppMeta(
         generatedAt: DateTime.now(),
         minAppVersion: '1.0.0',

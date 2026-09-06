@@ -28,13 +28,13 @@ class NrBlockRenderer extends StatelessWidget {
   Widget build(BuildContext context) {
     return switch (block) {
       NrItemBlock item => NrItemRow(
-          nrId: nrId,
-          number: item.number,
-          depth: item.depth,
-          text: stripInlineMarkup(item.text),
-          fontSize: fontSize,
-          highlightQuery: highlightQuery,
-        ),
+        nrId: nrId,
+        number: item.number,
+        depth: item.depth,
+        text: stripInlineMarkup(item.text),
+        fontSize: fontSize,
+        highlightQuery: highlightQuery,
+      ),
       NrListBlock list => _buildList(context, list),
       NrTableBlock table => _buildTable(context, table),
       NrImageBlock image => _buildImage(context, image),
@@ -68,10 +68,7 @@ class NrBlockRenderer extends StatelessWidget {
               children: [
                 SizedBox(
                   width: 24,
-                  child: Text(
-                    '${item.label})',
-                    style: labelStyle,
-                  ),
+                  child: Text('${item.label})', style: labelStyle),
                 ),
                 Expanded(
                   child: HighlightedText(

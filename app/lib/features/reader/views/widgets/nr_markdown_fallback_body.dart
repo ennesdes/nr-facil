@@ -95,10 +95,7 @@ class NrMarkdownFallbackBody extends StatelessWidget {
                 ),
               );
             }),
-            ReaderFooter(
-              nrId: nrId,
-              nrEntry: nrEntry,
-            ),
+            ReaderFooter(nrId: nrId, nrEntry: nrEntry),
             const SizedBox(height: kReaderBottomScrollPadding),
           ],
         ),

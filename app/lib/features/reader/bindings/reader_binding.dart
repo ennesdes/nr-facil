@@ -8,10 +8,7 @@ class ReaderBinding extends Bindings {
   final String nrId;
   final String? initialAnchor;
 
-  ReaderBinding({
-    required this.nrId,
-    this.initialAnchor,
-  });
+  ReaderBinding({required this.nrId, this.initialAnchor});
 
   @override
   void dependencies() {

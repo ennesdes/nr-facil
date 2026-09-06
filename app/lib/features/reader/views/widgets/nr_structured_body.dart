@@ -47,21 +47,19 @@ class NrStructuredBody extends StatelessWidget {
             controller: scrollController,
             slivers: [
               if (banner != null) SliverToBoxAdapter(child: banner),
-              Obx(
-                () {
-                  final label = controller.continueLabel;
-                  if (!controller.showContinueChip.value || label == null) {
-                    return const SliverToBoxAdapter(child: SizedBox.shrink());
-                  }
-                  return SliverToBoxAdapter(
-                    child: ReaderContinueChip(
-                      label: label,
-                      onTap: controller.continueFromSavedPosition,
-                      onDismiss: controller.dismissContinueChip,
-                    ),
-                  );
-                },
-              ),
+              Obx(() {
+                final label = controller.continueLabel;
+                if (!controller.showContinueChip.value || label == null) {
+                  return const SliverToBoxAdapter(child: SizedBox.shrink());
+                }
+                return SliverToBoxAdapter(
+                  child: ReaderContinueChip(
+                    label: label,
+                    onTap: controller.continueFromSavedPosition,
+                    onDismiss: controller.dismissContinueChip,
+                  ),
+                );
+              }),
               Obx(
                 () => SliverToBoxAdapter(
                   child: NrReaderHeader(
@@ -87,37 +85,29 @@ class NrStructuredBody extends StatelessWidget {
                   ),
                 ),
               ),
-              Obx(
-                () {
-                  final highlightQuery = controller.activeHighlightQuery.value;
+              Obx(() {
+                final highlightQuery = controller.activeHighlightQuery.value;
 
-                  return SliverList(
-                    delegate: SliverChildBuilderDelegate(
-                      (context, index) {
-                        final section = structure.sections[index];
+                return SliverList(
+                  delegate: SliverChildBuilderDelegate((context, index) {
+                    final section = structure.sections[index];
 
-                        return KeyedSubtree(
-                          key: sectionKeyFor(section.id),
-                          child: NrSectionBlock(
-                            section: section,
-                            fontSize: fontSize,
-                            nrId: nrId,
-                            highlightQuery: highlightQuery,
-                            blockKeyFor: controller.blockKeyFor,
-                            showTopDivider: index == 0,
-                          ),
-                        );
-                      },
-                      childCount: structure.sections.length,
-                    ),
-                  );
-                },
-              ),
+                    return KeyedSubtree(
+                      key: sectionKeyFor(section.id),
+                      child: NrSectionBlock(
+                        section: section,
+                        fontSize: fontSize,
+                        nrId: nrId,
+                        highlightQuery: highlightQuery,
+                        blockKeyFor: controller.blockKeyFor,
+                        showTopDivider: index == 0,
+                      ),
+                    );
+                  }, childCount: structure.sections.length),
+                );
+              }),
               SliverToBoxAdapter(
-                child: ReaderFooter(
-                  nrId: nrId,
-                  nrEntry: nrEntry,
-                ),
+                child: ReaderFooter(nrId: nrId, nrEntry: nrEntry),
               ),
               const SliverToBoxAdapter(
                 child: SizedBox(height: kReaderBottomScrollPadding),
@@ -125,19 +115,16 @@ class NrStructuredBody extends StatelessWidget {
             ],
           ),
         ),
-        Obx(
-          () {
-            if (!controller.showPositionIndicator.value) {
-              return const SizedBox.shrink();
-            }
-            return ReaderPositionIndicator(
-              itemLabel: controller.currentPositionLabel,
-              progressPercent: controller.readingProgressPercent.value,
-              onTap: () =>
-                  controller.scaffoldKey.currentState?.openDrawer(),
-            );
-          },
-        ),
+        Obx(() {
+          if (!controller.showPositionIndicator.value) {
+            return const SizedBox.shrink();
+          }
+          return ReaderPositionIndicator(
+            itemLabel: controller.currentPositionLabel,
+            progressPercent: controller.readingProgressPercent.value,
+            onTap: () => controller.scaffoldKey.currentState?.openDrawer(),
+          );
+        }),
       ],
     );
   }

@@ -25,38 +25,36 @@ class _FavoritosTabState extends State<FavoritosTab> {
   Widget build(BuildContext context) {
     final contentService = Get.find<ContentService>();
 
-    return Obx(
-      () {
-        contentService.favoritesVersion.value;
-        if (contentService.favoriteIds.isEmpty) {
-          return const EmptyFavoritosState();
-        }
+    return Obx(() {
+      contentService.favoritesVersion.value;
+      if (contentService.favoriteIds.isEmpty) {
+        return const EmptyFavoritosState();
+      }
 
-        if (contentService.isManifestLoading) {
-          return const NormasTabShimmer();
-        }
+      if (contentService.isManifestLoading) {
+        return const NormasTabShimmer();
+      }
 
-        _maybeNotifyRevokedFavorites(contentService);
+      _maybeNotifyRevokedFavorites(contentService);
 
-        return ListView(
-          children: [
-            const PendingUpdatesSection(),
-            const ContinuarLeituraSection(),
-            ReorderableListView(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              onReorderItem: (oldIndex, newIndex) {
-                contentService.reorderFavorites(oldIndex, newIndex);
-              },
-              children: [
-                for (final nrId in contentService.favoriteIds)
-                  _buildFavoritoTile(context, nrId, contentService),
-              ],
-            ),
-          ],
-        );
-      },
-    );
+      return ListView(
+        children: [
+          const PendingUpdatesSection(),
+          const ContinuarLeituraSection(),
+          ReorderableListView(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            onReorderItem: (oldIndex, newIndex) {
+              contentService.reorderFavorites(oldIndex, newIndex);
+            },
+            children: [
+              for (final nrId in contentService.favoriteIds)
+                _buildFavoritoTile(context, nrId, contentService),
+            ],
+          ),
+        ],
+      );
+    });
   }
 
   void _maybeNotifyRevokedFavorites(ContentService contentService) {
@@ -71,8 +69,7 @@ class _FavoritosTabState extends State<FavoritosTab> {
       _revokedSnackShown = true;
       AppSnackbar.showInfo(
         title: 'Favorito revogado',
-        message:
-            'Uma ou mais normas favoritas foram revogadas. Toque para ver detalhes.',
+        message: 'Uma ou mais normas favoritas foram revogadas. Toque para ver detalhes.',
       );
     }
   }

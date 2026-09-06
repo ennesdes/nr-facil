@@ -17,11 +17,7 @@ void main() {
             'tipo': 'novo',
             'resumo': 'Novo requisito adicionado',
           },
-          {
-            'item': '6.21',
-            'tipo': 'alterado',
-            'resumo': 'Texto atualizado',
-          },
+          {'item': '6.21', 'tipo': 'alterado', 'resumo': 'Texto atualizado'},
         ],
         'created_at': '2024-08-15T10:30:00.000Z',
       };
@@ -99,11 +95,8 @@ void main() {
 
     test('UpdateItem.fromJson com tipos válidos', () {
       expect(
-        UpdateItem.fromJson({
-          'item': '6.1',
-          'tipo': 'novo',
-          'resumo': 'Test',
-        }).tipo,
+        UpdateItem.fromJson({'item': '6.1', 'tipo': 'novo', 'resumo': 'Test'})
+            .tipo,
         'novo',
       );
 
@@ -134,13 +127,7 @@ void main() {
         hash: 'hash_06',
         pdfHash: 'pdf_hash_06',
         summary: '2 itens',
-        items: [
-          UpdateItem(
-            item: '6.5',
-            tipo: 'novo',
-            resumo: 'Novo',
-          ),
-        ],
+        items: [UpdateItem(item: '6.5', tipo: 'novo', resumo: 'Novo')],
         createdAt: DateTime(2024, 8, 15),
       );
 

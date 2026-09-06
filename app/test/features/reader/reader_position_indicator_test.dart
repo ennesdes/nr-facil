@@ -4,18 +4,16 @@ import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_position_indicator.dart';
 
 void main() {
-  testWidgets('ReaderPositionIndicator mostra item, caption e percentual',
-      (tester) async {
+  testWidgets('ReaderPositionIndicator mostra item, caption e percentual', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,
         home: Scaffold(
           body: Stack(
             children: const [
-              ReaderPositionIndicator(
-                itemLabel: '6.5.2',
-                progressPercent: 68,
-              ),
+              ReaderPositionIndicator(itemLabel: '6.5.2', progressPercent: 68),
             ],
           ),
         ),
@@ -27,8 +25,9 @@ void main() {
     expect(find.text('68%'), findsOneWidget);
   });
 
-  testWidgets('ReaderPositionIndicator mostra caption Seção para títulos',
-      (tester) async {
+  testWidgets('ReaderPositionIndicator mostra caption Seção para títulos', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

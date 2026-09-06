@@ -53,7 +53,9 @@ class ForcedUpdateDialog extends StatelessWidget {
       if (await canLaunchUrl(uri)) {
         await launchUrl(uri, mode: LaunchMode.externalApplication);
       } else {
-        AppLogger.warning('Não foi possível abrir a Play Store: $_playStoreUrl');
+        AppLogger.warning(
+          'Não foi possível abrir a Play Store: $_playStoreUrl',
+        );
       }
     } catch (e) {
       AppLogger.error('Erro ao abrir Play Store', e);

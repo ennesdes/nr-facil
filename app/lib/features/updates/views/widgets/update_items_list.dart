@@ -79,9 +79,7 @@ class _UpdateItemCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: colorScheme.surface.withValues(alpha: 0.55),
         borderRadius: BorderRadius.circular(AppRadius.sm),
-        border: Border.all(
-          color: colorScheme.outline.withValues(alpha: 0.35),
-        ),
+        border: Border.all(color: colorScheme.outline.withValues(alpha: 0.35)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -126,8 +124,9 @@ class _UpdateItemCard extends StatelessWidget {
                 title: 'Antes',
                 text: display.antes.first,
                 titleColor: semantics.muted,
-                backgroundColor: colorScheme.surfaceContainerHigh
-                    .withValues(alpha: 0.55),
+                backgroundColor: colorScheme.surfaceContainerHigh.withValues(
+                  alpha: 0.55,
+                ),
                 textColor: colorScheme.onSurfaceVariant,
               ),
             ],
@@ -137,7 +136,9 @@ class _UpdateItemCard extends StatelessWidget {
                 title: 'Depois',
                 text: display.depois.first,
                 titleColor: style.color,
-                backgroundColor: semantics.warningContainer.withValues(alpha: 0.35),
+                backgroundColor: semantics.warningContainer.withValues(
+                  alpha: 0.35,
+                ),
                 textColor: colorScheme.onSurface,
               ),
             ],
@@ -177,25 +178,25 @@ class _UpdateItemCard extends StatelessWidget {
 
     return switch (tipo) {
       'novo' => (
-          icon: Icons.add_circle_outline,
-          color: semantics.success,
-          label: 'Novo',
-        ),
+        icon: Icons.add_circle_outline,
+        color: semantics.success,
+        label: 'Novo',
+      ),
       'removido' => (
-          icon: Icons.remove_circle_outline,
-          color: colorScheme.error,
-          label: 'Removido',
-        ),
+        icon: Icons.remove_circle_outline,
+        color: colorScheme.error,
+        label: 'Removido',
+      ),
       'alterado' => (
-          icon: Icons.edit_outlined,
-          color: semantics.warning,
-          label: 'Alterado',
-        ),
+        icon: Icons.edit_outlined,
+        color: semantics.warning,
+        label: 'Alterado',
+      ),
       _ => (
-          icon: Icons.circle,
-          color: colorScheme.onSurfaceVariant,
-          label: 'Alteração',
-        ),
+        icon: Icons.circle,
+        color: colorScheme.onSurfaceVariant,
+        label: 'Alteração',
+      ),
     };
   }
 }
@@ -224,9 +225,7 @@ class _TextBlockSection extends StatelessWidget {
       children: [
         Text(
           '$title:',
-          style: theme.textTheme.labelMedium?.copyWith(
-            color: titleColor,
-          ),
+          style: theme.textTheme.labelMedium?.copyWith(color: titleColor),
         ),
         const SizedBox(height: AppSpacing.xs),
         Container(

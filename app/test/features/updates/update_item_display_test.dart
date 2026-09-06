@@ -10,10 +10,8 @@ void main() {
           item: '5.7.2',
           tipo: 'alterado',
           resumo: '',
-          antes:
-              'O empregador deve garantir a implementação de medidas de proteção coletiva, de caráter administrativo ou de organização do # trabalho.',
-          depois:
-              'O empregador deve garantir a implementação de medidas de proteção coletiva, de caráter administrativo ou de organização do trabalho.',
+          antes: 'O empregador deve garantir a implementação de medidas de proteção coletiva, de caráter administrativo ou de organização do # trabalho.',
+          depois: 'O empregador deve garantir a implementação de medidas de proteção coletiva, de caráter administrativo ou de organização do trabalho.',
         ),
       );
 
@@ -29,8 +27,7 @@ void main() {
         UpdateItem(
           item: '33.6.5',
           tipo: 'alterado',
-          resumo:
-              'antes: …1331400… → depois: …133140- 0…',
+          resumo: 'antes: …1331400… → depois: …133140- 0…',
         ),
       );
 
@@ -51,10 +48,9 @@ void main() {
     });
 
     test('fullTextBullets não divide por pipe', () {
-      expect(
-        fullTextBullets('Coluna A | Coluna B | Coluna C'),
-        ['Coluna A | Coluna B | Coluna C'],
-      );
+      expect(fullTextBullets('Coluna A | Coluna B | Coluna C'), [
+        'Coluna A | Coluna B | Coluna C',
+      ]);
     });
   });
 }

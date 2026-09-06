@@ -11,6 +11,7 @@ class ReadingHistoryEntry {
   final double scrollMaxExtent;
   final String? lastHeadingViewed;
   final String? lastItemNumber;
+
   /// Percentual estrutural salvo pelo leitor (0–100), quando disponível.
   final int? progressPercent;
 
@@ -35,15 +36,15 @@ class ReadingHistoryEntry {
         nrId: map['nr_id'] as String? ?? 'unknown',
         lastAccessedAt: lastAccessedAt,
         scrollPosition: (map['scroll_position'] as num?)?.toDouble() ?? 0.0,
-        scrollMaxExtent:
-            (map['scroll_max_extent'] as num?)?.toDouble() ?? 0.0,
+        scrollMaxExtent: (map['scroll_max_extent'] as num?)?.toDouble() ?? 0.0,
         lastHeadingViewed: map['last_heading_viewed'] as String?,
         lastItemNumber: map['last_item_number'] as String?,
         progressPercent: (map['progress_percent'] as num?)?.toInt(),
       );
     } catch (e) {
       throw ReadingHistoryParseException(
-          'Falha ao parsear entrada de histórico: $e');
+        'Falha ao parsear entrada de histórico: $e',
+      );
     }
   }
 
@@ -68,8 +69,7 @@ class ReadingHistoryEntry {
   }
 
   /// Percentual efetivo para exibição (estrutural preferido, scroll como fallback).
-  int? get effectiveProgressPercent =>
-      progressPercent ?? scrollProgressPercent;
+  int? get effectiveProgressPercent => progressPercent ?? scrollProgressPercent;
 
   ReadingHistoryEntry copyWith({
     String? nrId,

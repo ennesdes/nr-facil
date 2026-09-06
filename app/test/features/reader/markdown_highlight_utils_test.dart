@@ -14,7 +14,10 @@ void main() {
       final result = injectMarkdownHighlights(markdown, 'objetivo');
 
       expect(result, contains('**'));
-      expect(result, contains('${searchHighlightOpen}objetivo$searchHighlightClose'));
+      expect(
+        result,
+        contains('${searchHighlightOpen}objetivo$searchHighlightClose'),
+      );
     });
 
     test('destaca termo em heading', () {
@@ -22,14 +25,20 @@ void main() {
       final result = injectMarkdownHighlights(markdown, 'objetivo');
 
       expect(result, startsWith('# '));
-      expect(result, contains('${searchHighlightOpen}Objetivo$searchHighlightClose'));
+      expect(
+        result,
+        contains('${searchHighlightOpen}Objetivo$searchHighlightClose'),
+      );
     });
 
     test('destaca termo em célula de tabela', () {
       const markdown = '|Portaria MTP|06/07/78|';
       final result = injectMarkdownHighlights(markdown, 'portaria');
 
-      expect(result, contains('${searchHighlightOpen}Portaria$searchHighlightClose'));
+      expect(
+        result,
+        contains('${searchHighlightOpen}Portaria$searchHighlightClose'),
+      );
       expect(result.split('|').length, markdown.split('|').length);
     });
 
@@ -37,7 +46,10 @@ void main() {
       const markdown = 'Campo de aplicação normativa';
       final result = injectMarkdownHighlights(markdown, 'aplicacao');
 
-      expect(result, contains('${searchHighlightOpen}aplicação$searchHighlightClose'));
+      expect(
+        result,
+        contains('${searchHighlightOpen}aplicação$searchHighlightClose'),
+      );
     });
   });
 }

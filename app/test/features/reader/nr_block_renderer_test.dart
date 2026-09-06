@@ -60,8 +60,7 @@ void main() {
           home: Scaffold(
             body: NrBlockRenderer(
               block: NrTableBlock(
-                markdown:
-                    '|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTP|06/07/78|',
+                markdown: '|**Publicação**|**D.O.U.**|\n|---|---|\n|Portaria MTP|06/07/78|',
               ),
               fontSize: 14,
               nrId: 'nr-06',

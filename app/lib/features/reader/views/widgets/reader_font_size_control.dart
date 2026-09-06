@@ -30,9 +30,9 @@ class ReaderFontSizeControl extends StatelessWidget {
       final compact = ResponsiveLayout.isCompactWidth(context);
       final buttonWidth = compact ? 44.0 : 52.0;
       final labelStyle = Theme.of(context).textTheme.labelMedium?.copyWith(
-            color: colorScheme.onSurfaceVariant,
-            fontWeight: FontWeight.w600,
-          );
+        color: colorScheme.onSurfaceVariant,
+        fontWeight: FontWeight.w600,
+      );
 
       return Padding(
         padding: const EdgeInsets.fromLTRB(
@@ -82,10 +82,8 @@ class ReaderFontSizeControl extends StatelessWidget {
                         child: Text(
                           size.toInt().toString(),
                           textAlign: TextAlign.center,
-                          style:
-                              Theme.of(context).textTheme.titleLarge?.copyWith(
-                                    fontWeight: FontWeight.w700,
-                                  ),
+                          style: Theme.of(context).textTheme.titleLarge
+                              ?.copyWith(fontWeight: FontWeight.w700),
                         ),
                       ),
                     ),
@@ -151,10 +149,7 @@ class _StepButton extends StatelessWidget {
           width: width,
           height: 48,
           child: Center(
-            child: Text(
-              label,
-              style: labelStyle.copyWith(color: foreground),
-            ),
+            child: Text(label, style: labelStyle.copyWith(color: foreground)),
           ),
         ),
       ),

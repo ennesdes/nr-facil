@@ -35,8 +35,9 @@ void main() {
     contentService = FakeContentService();
   });
 
-  testWidgets('UpdatesBottomSheet lista itens agrupados por NR',
-      (tester) async {
+  testWidgets('UpdatesBottomSheet lista itens agrupados por NR', (
+    tester,
+  ) async {
     contentService.updateEntry = UpdateEntry(
       nrId: 'nr-06',
       title: 'NR 06',

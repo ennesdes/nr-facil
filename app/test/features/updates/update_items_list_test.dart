@@ -18,8 +18,9 @@ void main() {
       expect(find.byType(UpdateItemsList), findsOneWidget);
     });
 
-    testWidgets('renderiza item tipo novo com bloco Adicionado',
-        (WidgetTester tester) async {
+    testWidgets('renderiza item tipo novo com bloco Adicionado', (
+      WidgetTester tester,
+    ) async {
       final items = [
         UpdateItem(
           item: '6.5',
@@ -32,11 +33,15 @@ void main() {
 
       expect(find.text('Item 6.5'), findsOneWidget);
       expect(find.text('Adicionado:'), findsOneWidget);
-      expect(find.text('Novo requisito adicionado com texto completo.'), findsOneWidget);
+      expect(
+        find.text('Novo requisito adicionado com texto completo.'),
+        findsOneWidget,
+      );
     });
 
-    testWidgets('renderiza item alterado com parágrafos Antes e Depois',
-        (WidgetTester tester) async {
+    testWidgets('renderiza item alterado com parágrafos Antes e Depois', (
+      WidgetTester tester,
+    ) async {
       final items = [
         UpdateItem(
           item: '6.1',
@@ -51,13 +56,20 @@ void main() {
 
       expect(find.text('Antes:'), findsOneWidget);
       expect(find.text('Depois:'), findsOneWidget);
-      expect(find.text('Texto completo do item antes da alteração normativa.'), findsOneWidget);
-      expect(find.text('Texto completo do item depois da alteração normativa.'), findsOneWidget);
+      expect(
+        find.text('Texto completo do item antes da alteração normativa.'),
+        findsOneWidget,
+      );
+      expect(
+        find.text('Texto completo do item depois da alteração normativa.'),
+        findsOneWidget,
+      );
       expect(find.textContaining('→'), findsNothing);
     });
 
-    testWidgets('renderiza item de tabela com blocos Antes e Depois',
-        (WidgetTester tester) async {
+    testWidgets('renderiza item de tabela com blocos Antes e Depois', (
+      WidgetTester tester,
+    ) async {
       final items = [
         UpdateItem(
           item: '3.4',
@@ -74,11 +86,7 @@ void main() {
 
       await tester.pumpWidget(
         wrap(
-          UpdateItemsList(
-            items: items,
-            nrId: 'nr-03',
-            contentRef: 'abc123',
-          ),
+          UpdateItemsList(items: items, nrId: 'nr-03', contentRef: 'abc123'),
         ),
       );
 

@@ -40,14 +40,10 @@ void main() {
     Get.reset();
   });
 
-  testWidgets('shows HomePage with Normas, Favoritos and Buscar tabs',
-      (WidgetTester tester) async {
-    await tester.pumpWidget(
-      const TickerMode(
-        enabled: false,
-        child: MyApp(),
-      ),
-    );
+  testWidgets('shows HomePage with Normas, Favoritos and Buscar tabs', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(const TickerMode(enabled: false, child: MyApp()));
     await tester.pump();
     await tester.pump(const Duration(seconds: 4));
 

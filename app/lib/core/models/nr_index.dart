@@ -7,20 +7,21 @@ library;
 class NrIndex {
   final List<Heading> headings;
 
-  NrIndex({
-    required this.headings,
-  });
+  NrIndex({required this.headings});
 
   factory NrIndex.fromMap(Map<String, dynamic> map) {
     try {
-      final headingsList = (map['headings'] as List<dynamic>?)
-          ?.map((e) => Heading.fromMap(
-              e is Map<String, dynamic> ? e : <String, dynamic>{}))
-          .toList() ?? [];
+      final headingsList =
+          (map['headings'] as List<dynamic>?)
+              ?.map(
+                (e) => Heading.fromMap(
+                  e is Map<String, dynamic> ? e : <String, dynamic>{},
+                ),
+              )
+              .toList() ??
+          [];
 
-      return NrIndex(
-        headings: headingsList,
-      );
+      return NrIndex(headings: headingsList);
     } catch (e) {
       // Index corrompido — retornar vazio
       throw NrIndexParseException('Falha ao parsear index.json: $e');
@@ -28,9 +29,7 @@ class NrIndex {
   }
 
   Map<String, dynamic> toMap() {
-    return {
-      'headings': headings.map((e) => e.toMap()).toList(),
-    };
+    return {'headings': headings.map((e) => e.toMap()).toList()};
   }
 }
 
@@ -40,11 +39,7 @@ class Heading {
   final String text; // ex: "6.1 Objetivo"
   final String id; // ex: "heading-6-1" (âncora para navegação)
 
-  Heading({
-    required this.level,
-    required this.text,
-    required this.id,
-  });
+  Heading({required this.level, required this.text, required this.id});
 
   factory Heading.fromMap(Map<String, dynamic> map) {
     return Heading(
@@ -55,11 +50,7 @@ class Heading {
   }
 
   Map<String, dynamic> toMap() {
-    return {
-      'level': level,
-      'text': text,
-      'id': id,
-    };
+    return {'level': level, 'text': text, 'id': id};
   }
 }
 

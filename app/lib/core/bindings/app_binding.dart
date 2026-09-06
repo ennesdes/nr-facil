@@ -33,28 +33,16 @@ class AppBinding extends Bindings {
   @override
   void dependencies() {
     if (!Get.isRegistered<ThemeController>()) {
-      Get.put<ThemeController>(
-        ThemeController(),
-        permanent: true,
-      );
+      Get.put<ThemeController>(ThemeController(), permanent: true);
     }
 
     // StorageService — gerencia GetStorage local
-    Get.put<StorageService>(
-      StorageService(),
-      permanent: true,
-    );
+    Get.put<StorageService>(StorageService(), permanent: true);
 
-    Get.put<AdsService>(
-      AdsService(storage: Get.find()),
-      permanent: true,
-    );
+    Get.put<AdsService>(AdsService(storage: Get.find()), permanent: true);
 
     // ContentService — sincroniza e cache de NRs
-    Get.put<ContentService>(
-      ContentService(),
-      permanent: true,
-    );
+    Get.put<ContentService>(ContentService(), permanent: true);
 
     // SearchService — busca full-text em chunks
     Get.put<SearchService>(

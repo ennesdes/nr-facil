@@ -33,12 +33,11 @@ class _FakeContentService implements ContentService {
 }
 
 void main() {
-  testWidgets('NrReaderSearchSheet mostra contador e navegação', (tester) async {
+  testWidgets('NrReaderSearchSheet mostra contador e navegação', (
+    tester,
+  ) async {
     final fake = _FakeContentService();
-    final controller = NRReaderController(
-      nrId: 'nr-06',
-      contentService: fake,
-    );
+    final controller = NRReaderController(nrId: 'nr-06', contentService: fake);
     controller.structure.value = NrStructure(
       title: 'NR 06',
       preamble: NrPreamble(blocks: []),
@@ -55,20 +54,13 @@ void main() {
             ),
           ],
         ),
-        NrSection(
-          id: '62-campo',
-          number: '6.2',
-          title: 'Campo',
-          blocks: [],
-        ),
+        NrSection(id: '62-campo', number: '6.2', title: 'Campo', blocks: []),
       ],
     );
 
     await tester.pumpWidget(
       MaterialApp(
-        home: Scaffold(
-          body: NrReaderSearchSheet(controller: controller),
-        ),
+        home: Scaffold(body: NrReaderSearchSheet(controller: controller)),
       ),
     );
 

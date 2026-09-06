@@ -54,7 +54,8 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
     _isLoading = true;
 
     // Formato padrão (≤90dp): large adaptive ocupa até 150dp e compete com a lista.
-    final size = await AdSize
+    final size =
+        await AdSize
         // ignore: deprecated_member_use — UX intencional; large é para vídeo/non-scroll.
         .getCurrentOrientationAnchoredAdaptiveBannerAdSize(width);
     if (!mounted || size == null) {
@@ -101,7 +102,10 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
 
     final adsService = Get.find<AdsService>();
     return Obx(() {
-      if (!adsService.shouldShowAds || kIsWeb || !_isLoaded || _bannerAd == null) {
+      if (!adsService.shouldShowAds ||
+          kIsWeb ||
+          !_isLoaded ||
+          _bannerAd == null) {
         return const SizedBox.shrink();
       }
 
@@ -126,9 +130,7 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
                 child: SizedBox(
                   width: banner.size.width.toDouble(),
                   height: banner.size.height.toDouble(),
-                  child: _NonScrollableBannerHost(
-                    child: AdWidget(ad: banner),
-                  ),
+                  child: _NonScrollableBannerHost(child: AdWidget(ad: banner)),
                 ),
               ),
             ),

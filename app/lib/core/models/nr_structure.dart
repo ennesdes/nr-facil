@@ -15,9 +15,13 @@ class NrStructure {
 
   factory NrStructure.fromMap(Map<String, dynamic> map) {
     final preambleMap = map['preamble'] as Map<String, dynamic>? ?? {};
-    final sectionsList = (map['sections'] as List<dynamic>?)
-            ?.map((e) => NrSection.fromMap(
-                e is Map<String, dynamic> ? e : <String, dynamic>{}))
+    final sectionsList =
+        (map['sections'] as List<dynamic>?)
+            ?.map(
+              (e) => NrSection.fromMap(
+                e is Map<String, dynamic> ? e : <String, dynamic>{},
+              ),
+            )
             .toList() ??
         [];
 
@@ -38,9 +42,13 @@ class NrPreamble {
   NrPreamble({required this.blocks});
 
   factory NrPreamble.fromMap(Map<String, dynamic> map) {
-    final blocksList = (map['blocks'] as List<dynamic>?)
-            ?.map((e) => NrBlock.fromMap(
-                e is Map<String, dynamic> ? e : <String, dynamic>{}))
+    final blocksList =
+        (map['blocks'] as List<dynamic>?)
+            ?.map(
+              (e) => NrBlock.fromMap(
+                e is Map<String, dynamic> ? e : <String, dynamic>{},
+              ),
+            )
             .toList() ??
         [];
     return NrPreamble(blocks: blocksList);
@@ -62,9 +70,13 @@ class NrSection {
   });
 
   factory NrSection.fromMap(Map<String, dynamic> map) {
-    final blocksList = (map['blocks'] as List<dynamic>?)
-            ?.map((e) => NrBlock.fromMap(
-                e is Map<String, dynamic> ? e : <String, dynamic>{}))
+    final blocksList =
+        (map['blocks'] as List<dynamic>?)
+            ?.map(
+              (e) => NrBlock.fromMap(
+                e is Map<String, dynamic> ? e : <String, dynamic>{},
+              ),
+            )
             .toList() ??
         [];
 
@@ -141,9 +153,13 @@ class NrListBlock extends NrBlock {
   const NrListBlock({required this.items});
 
   factory NrListBlock.fromMap(Map<String, dynamic> map) {
-    final itemsList = (map['items'] as List<dynamic>?)
-            ?.map((e) => NrListItem.fromMap(
-                e is Map<String, dynamic> ? e : <String, dynamic>{}))
+    final itemsList =
+        (map['items'] as List<dynamic>?)
+            ?.map(
+              (e) => NrListItem.fromMap(
+                e is Map<String, dynamic> ? e : <String, dynamic>{},
+              ),
+            )
             .toList() ??
         [];
     return NrListBlock(items: itemsList);

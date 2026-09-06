@@ -9,6 +9,7 @@ import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
+
 /// Cabeçalho da aba Normas: busca local e filtros.
 class NormasListHeader extends StatefulWidget {
   const NormasListHeader({super.key});
@@ -26,7 +27,9 @@ class _NormasListHeaderState extends State<NormasListHeader> {
   @override
   void initState() {
     super.initState();
-    _searchController = TextEditingController(text: _normasController.query.value);
+    _searchController = TextEditingController(
+      text: _normasController.query.value,
+    );
     _searchController.addListener(_onSearchChanged);
   }
 
@@ -117,12 +120,10 @@ class _NormasListHeaderState extends State<NormasListHeader> {
                     label: item.label,
                     selected: activeFilter == item.filter,
                     onTap: () => _normasController.setFilter(item.filter),
-                    trailing: item.filter == NormasFilter.updated &&
+                    trailing:
+                        item.filter == NormasFilter.updated &&
                             pendingUpdates > 0
-                        ? UpdateCountBadge(
-                            count: pendingUpdates,
-                            minSize: 16,
-                          )
+                        ? UpdateCountBadge(count: pendingUpdates, minSize: 16)
                         : null,
                   ),
                 ),

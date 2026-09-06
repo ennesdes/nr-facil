@@ -6,10 +6,7 @@ import 'package:flutter/material.dart';
 class AppScaffoldBody extends StatelessWidget {
   final Widget child;
 
-  const AppScaffoldBody({
-    required this.child,
-    super.key,
-  });
+  const AppScaffoldBody({required this.child, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,10 +24,7 @@ class AppScaffoldBody extends StatelessWidget {
 class AppBottomNavBar extends StatelessWidget {
   final Widget child;
 
-  const AppBottomNavBar({
-    required this.child,
-    super.key,
-  });
+  const AppBottomNavBar({required this.child, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +40,9 @@ class AppBottomNavBar extends StatelessWidget {
         child: DecoratedBox(
           decoration: BoxDecoration(
             border: Border(
-              top: BorderSide(color: colorScheme.outline.withValues(alpha: 0.45)),
+              top: BorderSide(
+                color: colorScheme.outline.withValues(alpha: 0.45),
+              ),
             ),
           ),
           child: child,

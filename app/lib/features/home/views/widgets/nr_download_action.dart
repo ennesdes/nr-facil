@@ -12,10 +12,7 @@ import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
 class NrDownloadAction extends StatelessWidget {
   final ManifestEntry nrEntry;
 
-  const NrDownloadAction({
-    required this.nrEntry,
-    super.key,
-  });
+  const NrDownloadAction({required this.nrEntry, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -67,8 +64,8 @@ class NrDownloadAction extends StatelessWidget {
             Text(
               'Baixe ${nrEntry.nrLabel} para consultar sem internet.',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
             ),
             const SizedBox(height: AppSpacing.lg),
             Align(

@@ -23,9 +23,7 @@ class UpdateBanner extends GetView<NRReaderController> {
       decoration: BoxDecoration(
         color: semantics.warningContainer.withValues(alpha: 0.55),
         border: Border(
-          bottom: BorderSide(
-            color: semantics.warning.withValues(alpha: 0.45),
-          ),
+          bottom: BorderSide(color: semantics.warning.withValues(alpha: 0.45)),
         ),
       ),
       child: Padding(
@@ -41,10 +39,10 @@ class UpdateBanner extends GetView<NRReaderController> {
                 onTap: entry == null
                     ? null
                     : () => UpdatesBottomSheet.showForNr(
-                          context,
-                          entry: entry,
-                          readerController: controller,
-                        ),
+                        context,
+                        entry: entry,
+                        readerController: controller,
+                      ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [

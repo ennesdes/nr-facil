@@ -42,17 +42,18 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
   Widget build(BuildContext context) {
     if (widget.preamble.blocks.isEmpty) return const SizedBox.shrink();
 
-    final info = parsePreambleInfo(widget.preamble, manifestEntry: widget.nrEntry);
+    final info = parsePreambleInfo(
+      widget.preamble,
+      manifestEntry: widget.nrEntry,
+    );
     if (info.isEmpty) return const SizedBox.shrink();
 
     final colorScheme = Theme.of(context).colorScheme;
     final bodyStyle = readerBodyStyle(context, widget.fontSize);
     final mutedStyle = bodyStyle.copyWith(color: colorScheme.onSurfaceVariant);
     final noteStyle = mutedStyle.copyWith(fontStyle: FontStyle.italic);
-    final labelStyle = Theme.of(context).textTheme.labelMedium?.copyWith(
-          fontWeight: FontWeight.w600,
-          color: colorScheme.onSurface,
-        );
+    final labelStyle = Theme.of(context).textTheme.labelMedium
+        ?.copyWith(fontWeight: FontWeight.w600, color: colorScheme.onSurface);
     final secondaryLabelStyle = labelStyle?.copyWith(
       color: colorScheme.onSurfaceVariant,
     );
@@ -70,14 +71,11 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Divider(
-            height: 1,
-            color: colorScheme.outline.withValues(alpha: 0.5),
-          ),
+          Divider(height: 1, color: colorScheme.outline.withValues(alpha: 0.5)),
           Theme(
-            data: Theme.of(context).copyWith(
-              dividerColor: colorScheme.surface.withValues(alpha: 0),
-            ),
+            data: Theme.of(
+              context,
+            ).copyWith(dividerColor: colorScheme.surface.withValues(alpha: 0)),
             child: ExpansionTile(
               key: ValueKey('preamble-${widget.isExpanded}'),
               initiallyExpanded: widget.isExpanded,
@@ -87,15 +85,14 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
               title: Text(
                 'Publicação e histórico',
                 style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      color: colorScheme.onSurface,
-                    ),
+                  fontWeight: FontWeight.w600,
+                  color: colorScheme.onSurface,
+                ),
               ),
               subtitle: Text(
                 _buildSubtitle(info),
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
-                    ),
+                style: Theme.of(context).textTheme.bodyMedium
+                    ?.copyWith(color: colorScheme.onSurfaceVariant),
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),
@@ -140,7 +137,9 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
                               ? 'Ocultar histórico'
                               : 'Ver histórico completo (${previous.length})',
                           onPressed: () {
-                            setState(() => _showFullHistory = !_showFullHistory);
+                            setState(
+                              () => _showFullHistory = !_showFullHistory,
+                            );
                           },
                         ),
                       ),
@@ -154,7 +153,9 @@ class _NrPreambleSectionState extends State<NrPreambleSection> {
                               ),
                               child: Divider(
                                 height: 1,
-                                color: colorScheme.outline.withValues(alpha: 0.35),
+                                color: colorScheme.outline.withValues(
+                                  alpha: 0.35,
+                                ),
                               ),
                             ),
                           _PortariaBlock(

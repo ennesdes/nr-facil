@@ -9,9 +9,7 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.dark,
-        home: const Scaffold(
-          body: AppShimmerBox(width: 100, height: 20),
-        ),
+        home: const Scaffold(body: AppShimmerBox(width: 100, height: 20)),
       ),
     );
 

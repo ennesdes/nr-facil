@@ -3,9 +3,7 @@ import 'package:nrfacil/core/models/app_meta.dart';
 
 void main() {
   group('UpdatesPage — Integration scenarios', () {
-    test(
-        'CA6 — NR atualizada com UpdateEntry mostra data/portaria/itens',
-        () {
+    test('CA6 — NR atualizada com UpdateEntry mostra data/portaria/itens', () {
       // Cenário: uma NR em updatedNrs tem entrada correspondente em app_meta.json
       // com items[] populado
 

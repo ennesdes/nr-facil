@@ -43,7 +43,9 @@ class SettingsSectionCard extends StatelessWidget {
               ),
             ],
             if (children.isNotEmpty) ...[
-              SizedBox(height: description != null ? AppSpacing.md : AppSpacing.sm),
+              SizedBox(
+                height: description != null ? AppSpacing.md : AppSpacing.sm,
+              ),
               ...children,
             ],
           ],

@@ -135,11 +135,7 @@ class _IconBadge extends StatelessWidget {
         color: colorScheme.primaryContainer.withValues(alpha: 0.55),
         borderRadius: BorderRadius.circular(AppRadius.sm),
       ),
-      child: Icon(
-        icon,
-        size: 22,
-        color: colorScheme.primary,
-      ),
+      child: Icon(icon, size: 22, color: colorScheme.primary),
     );
   }
 }

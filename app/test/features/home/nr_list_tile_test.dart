@@ -42,8 +42,7 @@ void main() {
     expect(find.text('Inspeção prévia'), findsOneWidget);
   });
 
-  testWidgets('NrListTile ativa exibe badge quando há update',
-      (tester) async {
+  testWidgets('NrListTile ativa exibe badge quando há update', (tester) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,
@@ -64,8 +63,9 @@ void main() {
     expect(find.text('Revogada'), findsNothing);
   });
 
-  testWidgets('NrListTile mantém título próximo ao label com ações visíveis',
-      (tester) async {
+  testWidgets('NrListTile mantém título próximo ao label com ações visíveis', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,
@@ -83,15 +83,16 @@ void main() {
     );
 
     final labelTop = tester.getTopLeft(find.text('NR-02')).dy;
-    final labelBottom =
-        labelTop + tester.getSize(find.text('NR-02')).height;
+    final labelBottom = labelTop + tester.getSize(find.text('NR-02')).height;
     final titleTop = tester.getTopLeft(find.text('Inspeção prévia')).dy;
 
     expect(titleTop - labelBottom, lessThan(24));
     expect(find.byIcon(Icons.star_border), findsOneWidget);
   });
 
-  testWidgets('ReactiveNrListTile atualiza estrela ao favoritar', (tester) async {
+  testWidgets('ReactiveNrListTile atualiza estrela ao favoritar', (
+    tester,
+  ) async {
     Get.testMode = true;
     final contentService = ContentService();
     Get.put<ContentService>(contentService);

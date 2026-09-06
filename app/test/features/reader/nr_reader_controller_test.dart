@@ -95,9 +95,7 @@ void main() {
       Get.reset();
     });
 
-    test(
-        'dismissUpdateBanner() esconde o banner e marca a NR como vista',
-        () {
+    test('dismissUpdateBanner() esconde o banner e marca a NR como vista', () {
       controller.showUpdateBanner.value = true;
       controller.dismissUpdateBanner();
       expect(controller.showUpdateBanner.value, false);
@@ -281,29 +279,32 @@ void main() {
       expect(controller.currentHitIndex.value, 0);
     });
 
-    test('activeHighlightQuery permanece com termo mesmo sem resultados', () async {
-      fake.structureResult = NrStructure(
-        title: 'NR 06',
-        preamble: NrPreamble(blocks: []),
-        sections: [
-          NrSection(
-            id: '61-objetivo',
-            number: '6.1',
-            title: 'Objetivo',
-            blocks: [],
-          ),
-        ],
-      );
+    test(
+      'activeHighlightQuery permanece com termo mesmo sem resultados',
+      () async {
+        fake.structureResult = NrStructure(
+          title: 'NR 06',
+          preamble: NrPreamble(blocks: []),
+          sections: [
+            NrSection(
+              id: '61-objetivo',
+              number: '6.1',
+              title: 'Objetivo',
+              blocks: [],
+            ),
+          ],
+        );
 
-      final controller = NRReaderController(
-        nrId: 'nr-06',
-        contentService: fake,
-      );
-      controller.structure.value = fake.structureResult;
+        final controller = NRReaderController(
+          nrId: 'nr-06',
+          contentService: fake,
+        );
+        controller.structure.value = fake.structureResult;
 
-      await controller.searchInDocument('termo_inexistente_xyz');
-      expect(controller.documentSearchResults, isEmpty);
-      expect(controller.activeHighlightQuery.value, 'termo_inexistente_xyz');
-    });
+        await controller.searchInDocument('termo_inexistente_xyz');
+        expect(controller.documentSearchResults, isEmpty);
+        expect(controller.activeHighlightQuery.value, 'termo_inexistente_xyz');
+      },
+    );
   });
 }

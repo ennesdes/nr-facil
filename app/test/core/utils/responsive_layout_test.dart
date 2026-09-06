@@ -3,7 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:nrfacil/core/utils/responsive_layout.dart';
 
 void main() {
-  testWidgets('readerHorizontalPadding centraliza em telas largas', (tester) async {
+  testWidgets('readerHorizontalPadding centraliza em telas largas', (
+    tester,
+  ) async {
     late double padding;
 
     await tester.pumpWidget(

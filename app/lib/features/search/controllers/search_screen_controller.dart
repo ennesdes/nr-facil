@@ -18,9 +18,7 @@ import '../../../core/utils/app_logger.dart';
 class SearchScreenController extends GetxController {
   final SearchService searchService;
 
-  SearchScreenController({
-    required this.searchService,
-  });
+  SearchScreenController({required this.searchService});
 
   /// Controlador de entrada de texto de busca
   late final TextEditingController queryController;

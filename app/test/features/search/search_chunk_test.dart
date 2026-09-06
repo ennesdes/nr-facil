@@ -20,10 +20,7 @@ void main() {
     });
 
     test('fromMap com dados faltando (fallback para defaults)', () {
-      final map = {
-        'id': 'chunk-1',
-        'text': 'Algum texto',
-      };
+      final map = {'id': 'chunk-1', 'text': 'Algum texto'};
 
       final chunk = SearchChunk.fromMap(map);
 
@@ -100,10 +97,7 @@ void main() {
       };
 
       // Não deve lançar exceção, deve usar defensivos
-      expect(
-        () => SearchChunk.fromMap(map),
-        returnsNormally,
-      );
+      expect(() => SearchChunk.fromMap(map), returnsNormally);
     });
   });
 }

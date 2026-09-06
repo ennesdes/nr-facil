@@ -17,9 +17,7 @@ import 'content_service.dart';
 class SearchService extends GetxService {
   final ContentService contentService;
 
-  SearchService({
-    required this.contentService,
-  });
+  SearchService({required this.contentService});
 
   /// Mapa de chunks por NR: nrId -> List&lt;SearchChunk&gt;
   /// Preenchido na primeira busca (lazy loading)
@@ -52,15 +50,22 @@ class SearchService extends GetxService {
         // Indexar itens normativos do structure.json para busca por número
         final structure = await contentService.readNrStructure(entry.id);
         if (structure != null) {
-          _appendStructureItemChunks(entry.id, structure, _chunksByNr[entry.id]!);
+          _appendStructureItemChunks(
+            entry.id,
+            structure,
+            _chunksByNr[entry.id]!,
+          );
         }
 
         AppLogger.debug(
-            'Carregados ${_chunksByNr[entry.id]!.length} chunks para ${entry.id}');
+          'Carregados ${_chunksByNr[entry.id]!.length} chunks para ${entry.id}',
+        );
       }
 
       isReady.value = true;
-      AppLogger.info('SearchService pronto. Total de NRs: ${_chunksByNr.length}');
+      AppLogger.info(
+        'SearchService pronto. Total de NRs: ${_chunksByNr.length}',
+      );
     } catch (e, st) {
       AppLogger.error('Erro ao carregar chunks de busca', e, st);
     } finally {
@@ -71,10 +76,7 @@ class SearchService extends GetxService {
   /// Buscar chunks que contêm o texto (case-insensitive).
   ///
   /// [nrFilter] restringe a uma NR específica (ex.: nr-06).
-  Future<List<SearchResult>> search(
-    String query, {
-    String? nrFilter,
-  }) async {
+  Future<List<SearchResult>> search(String query, {String? nrFilter}) async {
     final normalizedQuery = query.trim().toLowerCase();
     if (normalizedQuery.isEmpty) {
       return [];
@@ -103,8 +105,8 @@ class SearchService extends GetxService {
       for (final chunk in chunks) {
         final haystack = chunk.text.toLowerCase();
         final matchesText = haystack.contains(normalizedQuery);
-        final matchesItem = isItemNumberSearch &&
-            haystack.contains('**$normalizedQuery**');
+        final matchesItem =
+            isItemNumberSearch && haystack.contains('**$normalizedQuery**');
 
         if (matchesText || matchesItem) {
           results.add(
@@ -126,7 +128,9 @@ class SearchService extends GetxService {
 
     results.sort((a, b) => b.score.compareTo(a.score));
 
-    AppLogger.debug('Busca "$normalizedQuery" retornou ${results.length} resultados');
+    AppLogger.debug(
+      'Busca "$normalizedQuery" retornou ${results.length} resultados',
+    );
     return results;
   }
 
@@ -162,8 +166,9 @@ class SearchService extends GetxService {
         if (block is NrItemBlock && block.number.isNotEmpty) {
           final text = '**${block.number}** ${block.text}';
           final exists = chunks.any(
-            (c) =>
-                c.text.toLowerCase().contains('**${block.number.toLowerCase()}**'),
+            (c) => c.text.toLowerCase().contains(
+              '**${block.number.toLowerCase()}**',
+            ),
           );
           if (!exists) {
             chunks.add(

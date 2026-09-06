@@ -38,10 +38,9 @@ class NormasTab extends StatelessWidget {
 
         return EmptyState(
           icon: isOfflineNoCache ? Icons.cloud_off : Icons.error_outline,
-          title: isOfflineNoCache
-              ? 'Sem conexão'
-              : 'Erro ao carregar normas',
-          body: syncError ??
+          title: isOfflineNoCache ? 'Sem conexão' : 'Erro ao carregar normas',
+          body:
+              syncError ??
               'Não foi possível carregar as normas. Tente novamente.',
           actions: [
             AppFilterChip(
@@ -78,21 +77,19 @@ class NormasTab extends StatelessWidget {
           const SliverToBoxAdapter(child: PendingUpdatesSection()),
           const SliverToBoxAdapter(child: ContinuarLeituraSection()),
           SliverList(
-            delegate: SliverChildBuilderDelegate(
-              (context, index) {
-                final entry = entries[index];
-                return ReactiveNrListTile(
-                  key: ValueKey(entry.id),
-                  nrEntry: entry,
-                  contentService: contentService,
-                  isRevoked: entry.isRevoked,
-                  showNotDownloaded: !entry.isRevoked &&
-                      !contentService.isNrFullyCached(entry.id),
-                  onTap: () => _openNr(entry),
-                );
-              },
-              childCount: entries.length,
-            ),
+            delegate: SliverChildBuilderDelegate((context, index) {
+              final entry = entries[index];
+              return ReactiveNrListTile(
+                key: ValueKey(entry.id),
+                nrEntry: entry,
+                contentService: contentService,
+                isRevoked: entry.isRevoked,
+                showNotDownloaded:
+                    !entry.isRevoked &&
+                    !contentService.isNrFullyCached(entry.id),
+                onTap: () => _openNr(entry),
+              );
+            }, childCount: entries.length),
           ),
         ],
       );

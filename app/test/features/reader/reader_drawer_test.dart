@@ -5,7 +5,9 @@ import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_drawer.dart';
 
 void main() {
-  testWidgets('ReaderDrawer destaca item atual e mostra posição', (tester) async {
+  testWidgets('ReaderDrawer destaca item atual e mostra posição', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

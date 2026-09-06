@@ -76,7 +76,9 @@ List<_InlineToken> _tokenizeInline(String content) {
     if (content[index] == '`') {
       final end = content.indexOf('`', index + 1);
       if (end != -1) {
-        tokens.add(_InlineToken(content.substring(index, end + 1), isSyntax: true));
+        tokens.add(
+          _InlineToken(content.substring(index, end + 1), isSyntax: true),
+        );
         index = end + 1;
         continue;
       }
@@ -87,7 +89,9 @@ List<_InlineToken> _tokenizeInline(String content) {
       if (end != -1) {
         tokens
           ..add(const _InlineToken('**', isSyntax: true))
-          ..add(_InlineToken(content.substring(index + 2, end), isSyntax: false))
+          ..add(
+            _InlineToken(content.substring(index + 2, end), isSyntax: false),
+          )
           ..add(const _InlineToken('**', isSyntax: true));
         index = end + 2;
         continue;
@@ -105,7 +109,8 @@ List<_InlineToken> _tokenizeInline(String content) {
       }
     }
 
-    final linkMatch = RegExp(r'\[([^\]]*)\]\(([^)]*)\)').matchAsPrefix(content, index);
+    final linkMatch = RegExp(r'\[([^\]]*)\]\(([^)]*)\)')
+        .matchAsPrefix(content, index);
     if (linkMatch != null) {
       tokens.add(_InlineToken(linkMatch.group(0)!, isSyntax: true));
       index = linkMatch.end;
@@ -121,7 +126,9 @@ List<_InlineToken> _tokenizeInline(String content) {
 
     final nextSpecial = _findNextSpecial(content, index);
     if (nextSpecial > index) {
-      tokens.add(_InlineToken(content.substring(index, nextSpecial), isSyntax: false));
+      tokens.add(
+        _InlineToken(content.substring(index, nextSpecial), isSyntax: false),
+      );
     }
     index = nextSpecial == index ? index + 1 : nextSpecial;
   }

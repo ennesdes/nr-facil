@@ -10,10 +10,7 @@ import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 class NrReaderSearchSheet extends StatefulWidget {
   final NRReaderController controller;
 
-  const NrReaderSearchSheet({
-    required this.controller,
-    super.key,
-  });
+  const NrReaderSearchSheet({required this.controller, super.key});
 
   static Future<void> show({
     required BuildContext context,
@@ -116,9 +113,8 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
     if (query.isEmpty) {
       return Text(
         'Busque por seção, item ou palavra-chave',
-        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
-            ),
+        style: Theme.of(context).textTheme.bodySmall
+            ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
       );
     }
 
@@ -132,9 +128,8 @@ class _NrReaderSearchSheetState extends State<NrReaderSearchSheet> {
     if (count == 0) {
       return Text(
         'Nenhum resultado para "$query"',
-        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Theme.of(context).colorScheme.onSurfaceVariant,
-            ),
+        style: Theme.of(context).textTheme.bodySmall
+            ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
         maxLines: 2,
         overflow: TextOverflow.ellipsis,
       );

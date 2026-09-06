@@ -3,11 +3,7 @@ import 'package:nrfacil/core/theme/app_spacing.dart';
 
 /// Efeito shimmer reutilizável — padrão de carregamento do app.
 class AppShimmer extends StatefulWidget {
-  const AppShimmer({
-    required this.child,
-    this.enabled = true,
-    super.key,
-  });
+  const AppShimmer({required this.child, this.enabled = true, super.key});
 
   final Widget child;
   final bool enabled;
@@ -99,10 +95,7 @@ class AppShimmerBox extends StatelessWidget {
 
 /// Shimmer circular compacto — ícones e ações inline.
 class AppShimmerIcon extends StatelessWidget {
-  const AppShimmerIcon({
-    this.size = 20,
-    super.key,
-  });
+  const AppShimmerIcon({this.size = 20, super.key});
 
   final double size;
 

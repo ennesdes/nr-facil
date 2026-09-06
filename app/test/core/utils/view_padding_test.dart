@@ -4,7 +4,9 @@ import 'package:nrfacil/core/utils/view_padding.dart';
 
 void main() {
   group('ViewPadding', () {
-    testWidgets('ensureSystemPadding copia viewPadding para padding', (tester) async {
+    testWidgets('ensureSystemPadding copia viewPadding para padding', (
+      tester,
+    ) async {
       late MediaQueryData result;
 
       await tester.pumpWidget(
@@ -16,7 +18,9 @@ void main() {
             ),
             child: Builder(
               builder: (context) {
-                result = ViewPadding.ensureSystemPadding(MediaQuery.of(context));
+                result = ViewPadding.ensureSystemPadding(
+                  MediaQuery.of(context),
+                );
                 return const SizedBox.shrink();
               },
             ),

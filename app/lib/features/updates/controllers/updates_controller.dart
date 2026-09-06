@@ -75,7 +75,8 @@ class UpdatesController extends GetxController {
     if (!reachedNetwork) {
       AppSnackbar.showError(
         title: 'Verificar atualizações',
-        message: _contentService.lastError.value ??
+        message:
+            _contentService.lastError.value ??
             'Não foi possível conectar. Tente novamente mais tarde.',
       );
       return;
@@ -84,12 +85,15 @@ class UpdatesController extends GetxController {
     final newCount = _contentService.updatedNrs.length - countBefore;
     final message = newCount > 0
         ? (newCount == 1
-            ? '1 nova atualização encontrada.'
-            : '$newCount novas atualizações encontradas.')
+              ? '1 nova atualização encontrada.'
+              : '$newCount novas atualizações encontradas.')
         : 'Nenhuma atualização nova. Suas normas estão em dia.';
 
     if (newCount > 0) {
-      AppSnackbar.showSuccess(title: 'Verificar atualizações', message: message);
+      AppSnackbar.showSuccess(
+        title: 'Verificar atualizações',
+        message: message,
+      );
     } else {
       AppSnackbar.showInfo(title: 'Verificar atualizações', message: message);
     }
@@ -108,8 +112,8 @@ class UpdatesController extends GetxController {
       final message = done == 0
           ? 'Download cancelado.'
           : total > 0
-              ? 'Download cancelado. $done de $total normas baixadas.'
-              : 'Download cancelado. $done normas baixadas.';
+          ? 'Download cancelado. $done de $total normas baixadas.'
+          : 'Download cancelado. $done normas baixadas.';
       AppSnackbar.showInfo(title: 'Download offline', message: message);
       return;
     }
@@ -117,7 +121,8 @@ class UpdatesController extends GetxController {
     if (!result.success) {
       AppSnackbar.showError(
         title: 'Download offline',
-        message: _contentService.lastError.value ??
+        message:
+            _contentService.lastError.value ??
             'Não foi possível baixar todo o conteúdo.',
       );
       return;
@@ -126,7 +131,8 @@ class UpdatesController extends GetxController {
     if (!result.reachedNetwork && result.downloadedCount == 0) {
       AppSnackbar.showError(
         title: 'Download offline',
-        message: _contentService.lastError.value ??
+        message:
+            _contentService.lastError.value ??
             'Não foi possível conectar. Verifique sua internet.',
       );
       return;
@@ -137,14 +143,16 @@ class UpdatesController extends GetxController {
       (0, 0) => 'Todas as normas já estavam baixadas e em dia.',
       (0, _) =>
         'Seu conteúdo offline já está atualizado. '
-        'Abra cada norma para revisar as mudanças.',
-      (_, 0) => result.downloadedCount == 1
-          ? '1 norma baixada para uso offline.'
-          : '${result.downloadedCount} normas baixadas para uso offline.',
-      (_, _) => result.downloadedCount == 1
-          ? '1 norma baixada. Abra-a para revisar as mudanças.'
-          : '${result.downloadedCount} normas baixadas. '
-              'Abra-as para revisar as mudanças.',
+            'Abra cada norma para revisar as mudanças.',
+      (_, 0) =>
+        result.downloadedCount == 1
+            ? '1 norma baixada para uso offline.'
+            : '${result.downloadedCount} normas baixadas para uso offline.',
+      (_, _) =>
+        result.downloadedCount == 1
+            ? '1 norma baixada. Abra-a para revisar as mudanças.'
+            : '${result.downloadedCount} normas baixadas. '
+                  'Abra-as para revisar as mudanças.',
     };
 
     if (result.downloadedCount > 0) {

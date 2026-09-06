@@ -9,14 +9,16 @@ abstract final class AppSystemUi {
     required Brightness brightness,
     required Color surface,
   }) {
-    final navIconBrightness =
-        brightness == Brightness.dark ? Brightness.light : Brightness.dark;
+    final navIconBrightness = brightness == Brightness.dark
+        ? Brightness.light
+        : Brightness.dark;
 
     return SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       statusBarIconBrightness: navIconBrightness,
-      statusBarBrightness:
-          brightness == Brightness.dark ? Brightness.dark : Brightness.light,
+      statusBarBrightness: brightness == Brightness.dark
+          ? Brightness.dark
+          : Brightness.light,
       systemNavigationBarColor: surface,
       systemNavigationBarDividerColor: surface,
       systemNavigationBarIconBrightness: navIconBrightness,
@@ -25,10 +27,7 @@ abstract final class AppSystemUi {
   }
 
   /// Estilo derivado do [Theme] atual, com fundo opcional (ex.: leitor).
-  static SystemUiOverlayStyle forTheme(
-    ThemeData theme, {
-    Color? surface,
-  }) {
+  static SystemUiOverlayStyle forTheme(ThemeData theme, {Color? surface}) {
     return overlayFor(
       brightness: theme.brightness,
       surface: surface ?? theme.colorScheme.surface,
@@ -47,11 +46,7 @@ class AppSystemUiScope extends StatefulWidget {
   final Widget child;
   final Color? surface;
 
-  const AppSystemUiScope({
-    required this.child,
-    this.surface,
-    super.key,
-  });
+  const AppSystemUiScope({required this.child, this.surface, super.key});
 
   @override
   State<AppSystemUiScope> createState() => _AppSystemUiScopeState();

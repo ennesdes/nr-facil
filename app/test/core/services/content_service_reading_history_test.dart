@@ -26,8 +26,9 @@ void main() {
 
     setUpAll(() async {
       final storageDir = await Directory.systemTemp.createTemp('nr_reading_');
-      PathProviderPlatform.instance =
-          _FakePathProviderPlatform(storageDir.path);
+      PathProviderPlatform.instance = _FakePathProviderPlatform(
+        storageDir.path,
+      );
       await GetStorage.init();
     });
 
@@ -49,10 +50,7 @@ void main() {
       contentService.recordNrOpened('nr-06');
 
       expect(contentService.lastOpenedNrId.value, 'nr-06');
-      expect(
-        GetStorage().read<String>(StorageKeys.lastOpenedNr),
-        'nr-06',
-      );
+      expect(GetStorage().read<String>(StorageKeys.lastOpenedNr), 'nr-06');
     });
 
     test('reabrir NR preserva progresso salvo', () {
@@ -86,11 +84,7 @@ void main() {
     test('saveScrollPosition incrementa readingHistoryVersion', () {
       final before = contentService.readingHistoryVersion.value;
 
-      contentService.saveScrollPosition(
-        'nr-06',
-        1000,
-        scrollMaxExtent: 1000,
-      );
+      contentService.saveScrollPosition('nr-06', 1000, scrollMaxExtent: 1000);
 
       expect(contentService.readingHistoryVersion.value, before + 1);
       expect(contentService.getReadingProgressPercent('nr-06'), 100);
@@ -118,22 +112,24 @@ void main() {
       expect(contentService.getReadingProgressPercent('nr-06'), 42);
     });
 
-    test('getContinueReadingPositionLabel prioriza heading sobre item obsoleto',
-        () {
-      contentService.saveScrollPosition(
-        'nr-06',
-        500,
-        scrollMaxExtent: 1000,
-        lastHeadingViewed: '6.5 Objetivo',
-        lastItemNumber: '6.1.1',
-        replacePositionLabels: true,
-      );
+    test(
+      'getContinueReadingPositionLabel prioriza heading sobre item obsoleto',
+      () {
+        contentService.saveScrollPosition(
+          'nr-06',
+          500,
+          scrollMaxExtent: 1000,
+          lastHeadingViewed: '6.5 Objetivo',
+          lastItemNumber: '6.1.1',
+          replacePositionLabels: true,
+        );
 
-      expect(
-        contentService.getContinueReadingPositionLabel('nr-06'),
-        '6.5 Objetivo',
-      );
-    });
+        expect(
+          contentService.getContinueReadingPositionLabel('nr-06'),
+          '6.5 Objetivo',
+        );
+      },
+    );
 
     test('replacePositionLabels limpa lastItemNumber ao mudar de seção', () {
       contentService.saveScrollPosition(
@@ -164,18 +160,10 @@ void main() {
     });
 
     test('saveScrollPosition preserva razão quando maxExtent cresce', () {
-      contentService.saveScrollPosition(
-        'nr-06',
-        800,
-        scrollMaxExtent: 1000,
-      );
+      contentService.saveScrollPosition('nr-06', 800, scrollMaxExtent: 1000);
       expect(contentService.getReadingProgressPercent('nr-06'), 80);
 
-      contentService.saveScrollPosition(
-        'nr-06',
-        800,
-        scrollMaxExtent: 4000,
-      );
+      contentService.saveScrollPosition('nr-06', 800, scrollMaxExtent: 4000);
 
       final entry = contentService.getReadingHistoryEntry('nr-06');
       expect(entry?.scrollPosition, 3200);

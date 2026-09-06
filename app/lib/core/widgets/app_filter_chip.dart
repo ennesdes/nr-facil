@@ -28,8 +28,9 @@ class AppFilterChip extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final isActive = selected || emphasized;
-    final foreground =
-        isActive ? colorScheme.onPrimary : colorScheme.onSurfaceVariant;
+    final foreground = isActive
+        ? colorScheme.onPrimary
+        : colorScheme.onSurfaceVariant;
 
     return FilterChip(
       label: Row(
@@ -40,11 +41,7 @@ class AppFilterChip extends StatelessWidget {
             const SizedBox(width: AppSpacing.xs),
           ],
           Flexible(
-            child: Text(
-              label,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-            ),
+            child: Text(label, maxLines: 1, overflow: TextOverflow.ellipsis),
           ),
           if (trailing != null) ...[
             const SizedBox(width: AppSpacing.xs),
@@ -66,18 +63,13 @@ class AppFilterChipRow extends StatelessWidget {
   final List<Widget> children;
   final EdgeInsetsGeometry? padding;
 
-  const AppFilterChipRow({
-    required this.children,
-    this.padding,
-    super.key,
-  });
+  const AppFilterChipRow({required this.children, this.padding, super.key});
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
-      padding: padding ??
-          const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+      padding: padding ?? const EdgeInsets.symmetric(horizontal: AppSpacing.md),
       child: Row(children: children),
     );
   }

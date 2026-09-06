@@ -12,10 +12,7 @@ class SearchTab extends StatefulWidget {
   /// Quando true, o campo de busca recebe foco (aba Buscar ativa).
   final bool isActive;
 
-  const SearchTab({
-    this.isActive = false,
-    super.key,
-  });
+  const SearchTab({this.isActive = false, super.key});
 
   @override
   State<SearchTab> createState() => _SearchTabState();
@@ -73,50 +70,48 @@ class _SearchTabState extends State<SearchTab> {
           ),
         ),
         Expanded(
-          child: Obx(
-            () {
-              if (_controller.isIndexLoading.value) {
-                return const SearchResultsShimmer();
-              }
+          child: Obx(() {
+            if (_controller.isIndexLoading.value) {
+              return const SearchResultsShimmer();
+            }
 
-              if (!_controller.hasSearched.value) {
-                return const EmptyState(
-                  icon: Icons.search,
-                  title: 'Digite para buscar',
-                  body: 'Busque por número, título ou trecho normativo',
-                );
-              }
-
-              if (_controller.isSearching.value) {
-                return const SearchResultsShimmer();
-              }
-
-              if (_controller.results.isEmpty) {
-                return const EmptyState(
-                  icon: Icons.not_interested,
-                  title: 'Nenhum resultado encontrado',
-                  body: 'Tente outro termo de busca',
-                );
-              }
-
-              return ListView.builder(
-                itemCount: _controller.results.length,
-                itemBuilder: (context, index) {
-                  final result = _controller.results[index];
-                  return SearchResultTile(
-                    result: result,
-                    searchQuery: _controller.query.value,
-                    onTap: () {
-                      ReaderNavigation.open(
-                        nrId: result.nrId,
-                        initialAnchor: result.chunk.heading,
-                      );
-                    },
-                  );
-                },
+            if (!_controller.hasSearched.value) {
+              return const EmptyState(
+                icon: Icons.search,
+                title: 'Digite para buscar',
+                body: 'Busque por número, título ou trecho normativo',
               );
-            },
-          ),
+            }
+
+            if (_controller.isSearching.value) {
+              return const SearchResultsShimmer();
+            }
+
+            if (_controller.results.isEmpty) {
+              return const EmptyState(
+                icon: Icons.not_interested,
+                title: 'Nenhum resultado encontrado',
+                body: 'Tente outro termo de busca',
+              );
+            }
+
+            return ListView.builder(
+              itemCount: _controller.results.length,
+              itemBuilder: (context, index) {
+                final result = _controller.results[index];
+                return SearchResultTile(
+                  result: result,
+                  searchQuery: _controller.query.value,
+                  onTap: () {
+                    ReaderNavigation.open(
+                      nrId: result.nrId,
+                      initialAnchor: result.chunk.heading,
+                    );
+                  },
+                );
+              },
+            );
+          }),
         ),
       ],
     );

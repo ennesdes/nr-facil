@@ -26,16 +26,17 @@ class Manifest {
 
       final version = (map['version'] as num?)?.toInt() ?? 1;
 
-      final nrsList = (map['nrs'] as List<dynamic>?)
-          ?.map((e) => ManifestEntry.fromMap(
-              e is Map<String, dynamic> ? e : <String, dynamic>{}))
-          .toList() ?? [];
+      final nrsList =
+          (map['nrs'] as List<dynamic>?)
+              ?.map(
+                (e) => ManifestEntry.fromMap(
+                  e is Map<String, dynamic> ? e : <String, dynamic>{},
+                ),
+              )
+              .toList() ??
+          [];
 
-      return Manifest(
-        generatedAt: generatedAt,
-        version: version,
-        nrs: nrsList,
-      );
+      return Manifest(generatedAt: generatedAt, version: version, nrs: nrsList);
     } catch (e) {
       // Manifest corrompido — retornar vazio e retentar download
       throw ManifestParseException('Falha ao parsear manifest.json: $e');
@@ -120,7 +121,8 @@ class ManifestEntry {
     } catch (e) {
       // Entrada corrompida — retornar vazio/defaults
       throw ManifestEntryParseException(
-          'Falha ao parsear entrada do manifest: $e');
+        'Falha ao parsear entrada do manifest: $e',
+      );
     }
   }
 

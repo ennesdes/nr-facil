@@ -69,10 +69,7 @@ void main() {
     test('encontra título de seção no índice', () {
       final results = searchInNrDocument(structure, 'objetivo');
       expect(results.any((h) => h.blockIndex == -1), isTrue);
-      expect(
-        results.any((h) => h.label.contains('Objetivo')),
-        isTrue,
-      );
+      expect(results.any((h) => h.label.contains('Objetivo')), isTrue);
     });
 
     test('encontra seção pelo número', () {

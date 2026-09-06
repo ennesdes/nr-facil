@@ -48,10 +48,10 @@ class NrReaderHeader extends StatelessWidget {
             text: displayTitle,
             highlight: highlightQuery,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  color: colorScheme.onSurface,
-                  height: 1.35,
-                  fontWeight: FontWeight.w600,
-                ),
+              color: colorScheme.onSurface,
+              height: 1.35,
+              fontWeight: FontWeight.w600,
+            ),
           ),
           if (nrEntry?.vigenteSde != null) ...[
             const SizedBox(height: AppSpacing.sm),
@@ -62,9 +62,8 @@ class NrReaderHeader extends StatelessWidget {
                 Flexible(
                   child: Text(
                     'Vigente desde ${nrEntry!.vigenteSde}',
-                    style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                          color: colorScheme.onSurfaceVariant,
-                        ),
+                    style: Theme.of(context).textTheme.labelMedium
+                        ?.copyWith(color: colorScheme.onSurfaceVariant),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),

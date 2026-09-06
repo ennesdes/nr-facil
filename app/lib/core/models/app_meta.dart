@@ -28,10 +28,15 @@ class AppMeta {
 
       final minAppVersion = json['min_app_version'] as String? ?? '0.0.0';
 
-      final updatesList = (json['updates'] as List<dynamic>?)
-          ?.map((e) => UpdateEntry.fromJson(
-              e is Map<String, dynamic> ? e : <String, dynamic>{}))
-          .toList() ?? [];
+      final updatesList =
+          (json['updates'] as List<dynamic>?)
+              ?.map(
+                (e) => UpdateEntry.fromJson(
+                  e is Map<String, dynamic> ? e : <String, dynamic>{},
+                ),
+              )
+              .toList() ??
+          [];
 
       return AppMeta(
         generatedAt: generatedAt,
@@ -79,14 +84,20 @@ class UpdateEntry {
   factory UpdateEntry.fromJson(Map<String, dynamic> json) {
     try {
       final createdAtStr = json['created_at'] as String?;
-      final createdAt =
-          createdAtStr != null ? DateTime.parse(createdAtStr) : null;
+      final createdAt = createdAtStr != null
+          ? DateTime.parse(createdAtStr)
+          : null;
 
       // items pode ser ausente em entradas legadas — usar lista vazia como fallback
-      final itemsList = (json['items'] as List<dynamic>?)
-          ?.map((e) => UpdateItem.fromJson(
-              e is Map<String, dynamic> ? e : <String, dynamic>{}))
-          .toList() ?? [];
+      final itemsList =
+          (json['items'] as List<dynamic>?)
+              ?.map(
+                (e) => UpdateItem.fromJson(
+                  e is Map<String, dynamic> ? e : <String, dynamic>{},
+                ),
+              )
+              .toList() ??
+          [];
 
       return UpdateEntry(
         nrId: json['nr_id'] as String? ?? 'unknown',
@@ -101,7 +112,8 @@ class UpdateEntry {
       );
     } catch (e) {
       throw UpdateEntryParseException(
-          'Falha ao parsear entrada de atualização: $e');
+        'Falha ao parsear entrada de atualização: $e',
+      );
     }
   }
 
@@ -126,11 +138,7 @@ class UpdateTableChange {
   final String? antesAsset;
   final String? depoisAsset;
 
-  const UpdateTableChange({
-    this.label,
-    this.antesAsset,
-    this.depoisAsset,
-  });
+  const UpdateTableChange({this.label, this.antesAsset, this.depoisAsset});
 
   factory UpdateTableChange.fromJson(Map<String, dynamic>? json) {
     if (json == null) return const UpdateTableChange();
@@ -192,7 +200,9 @@ class UpdateItem {
             : null,
       );
     } catch (e) {
-      throw UpdateItemParseException('Falha ao parsear item de atualização: $e');
+      throw UpdateItemParseException(
+        'Falha ao parsear item de atualização: $e',
+      );
     }
   }
 

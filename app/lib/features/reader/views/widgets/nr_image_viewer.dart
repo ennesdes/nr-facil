@@ -130,10 +130,22 @@ class _NrImageViewerState extends State<NrImageViewer> {
     );
     // Matrix4 em Flutter é column-major: translação fica em storage[12]/[13].
     _transformationController.value = Matrix4(
-      scale, 0, 0, 0,
-      0, scale, 0, 0,
-      0, 0, 1, 0,
-      tx, ty, 0, 1,
+      scale,
+      0,
+      0,
+      0,
+      0,
+      scale,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      tx,
+      ty,
+      0,
+      1,
     );
   }
 
@@ -237,11 +249,7 @@ class _NrImageViewerState extends State<NrImageViewer> {
         elevation: 0,
         title: caption == null || caption.isEmpty
             ? null
-            : Text(
-                caption,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
+            : Text(caption, maxLines: 1, overflow: TextOverflow.ellipsis),
         actions: [
           if (_isSaving)
             const Padding(
@@ -308,9 +316,8 @@ class _NrImageViewerState extends State<NrImageViewer> {
               child: Text(
                 'Pinça ou duplo toque para ampliar · Arraste para mover',
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Colors.white70,
-                    ),
+                style: Theme.of(context).textTheme.bodySmall
+                    ?.copyWith(color: Colors.white70),
               ),
             ),
           ),

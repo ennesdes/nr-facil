@@ -29,7 +29,9 @@ void main() {
       expect(padding.padding, const EdgeInsets.only(bottom: 48));
     });
 
-    testWidgets('prioriza teclado quando respondToKeyboard é true', (tester) async {
+    testWidgets('prioriza teclado quando respondToKeyboard é true', (
+      tester,
+    ) async {
       await tester.pumpWidget(
         MaterialApp(
           home: MediaQuery(

@@ -9,10 +9,7 @@ import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
 class UpdateDetailPanel extends StatelessWidget {
   final UpdateEntry updateEntry;
 
-  const UpdateDetailPanel({
-    required this.updateEntry,
-    super.key,
-  });
+  const UpdateDetailPanel({required this.updateEntry, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,20 +23,14 @@ class UpdateDetailPanel extends StatelessWidget {
       decoration: BoxDecoration(
         color: semantics.infoContainer.withValues(alpha: 0.45),
         borderRadius: BorderRadius.circular(AppRadius.sm),
-        border: Border.all(
-          color: semantics.info.withValues(alpha: 0.35),
-        ),
+        border: Border.all(color: semantics.info.withValues(alpha: 0.35)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              Icon(
-                Icons.history_edu_outlined,
-                size: 18,
-                color: semantics.info,
-              ),
+              Icon(Icons.history_edu_outlined, size: 18, color: semantics.info),
               const SizedBox(width: AppSpacing.sm),
               Text(
                 'O que mudou',

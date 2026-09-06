@@ -50,9 +50,7 @@ void main() {
     });
 
     test('fromMap com JSON real de nr-06 (se existir no repo)', () {
-      final file = File(
-        '../../content/nr-06/structure.json',
-      );
+      final file = File('../../content/nr-06/structure.json');
       if (!file.existsSync()) return;
 
       final map = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;

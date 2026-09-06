@@ -45,8 +45,8 @@ class UpdatesActionProgress extends StatelessWidget {
     final subtitle = progress.total == 0
         ? 'Nenhuma norma pendente.'
         : label == null
-            ? 'Baixando ${progress.completed} de ${progress.total} normas…'
-            : 'Baixando $label (${progress.completed} de ${progress.total})…';
+        ? 'Baixando ${progress.completed} de ${progress.total} normas…'
+        : 'Baixando $label (${progress.completed} de ${progress.total})…';
 
     return _ProgressCard(
       icon: Icons.download_for_offline_outlined,

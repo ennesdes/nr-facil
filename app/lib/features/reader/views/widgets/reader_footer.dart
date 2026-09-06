@@ -13,11 +13,7 @@ class ReaderFooter extends StatelessWidget {
   final String nrId;
   final ManifestEntry? nrEntry;
 
-  const ReaderFooter({
-    required this.nrId,
-    required this.nrEntry,
-    super.key,
-  });
+  const ReaderFooter({required this.nrId, required this.nrEntry, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,9 +34,7 @@ class ReaderFooter extends StatelessWidget {
           const SizedBox(height: AppSpacing.lg),
           Text(
             'Documento oficial',
-            style: textTheme.titleSmall?.copyWith(
-              fontWeight: FontWeight.w600,
-            ),
+            style: textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600),
           ),
           const SizedBox(height: AppSpacing.sm),
           Text(
@@ -81,18 +75,12 @@ class ReaderFooter extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Fonte: Ministério do Trabalho e Emprego',
-          style: metadataStyle,
-        ),
+        Text('Fonte: Ministério do Trabalho e Emprego', style: metadataStyle),
         const SizedBox(height: AppSpacing.xs),
         if (entry.portaria != null && entry.portaria!.trim().isNotEmpty)
           Text('Portaria: ${entry.portaria}', style: metadataStyle)
         else
-          Text(
-            'Portaria: conferir no PDF oficial',
-            style: metadataItalicStyle,
-          ),
+          Text('Portaria: conferir no PDF oficial', style: metadataItalicStyle),
         if (entry.publicadoEm != null)
           Text('Publicação: ${entry.publicadoEm}', style: metadataStyle),
         if (entry.vigenteSde != null)

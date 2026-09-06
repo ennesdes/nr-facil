@@ -5,7 +5,9 @@ import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_section_block.dart';
 
 void main() {
-  testWidgets('NrSectionBlock renderiza título e blocos sem card', (tester) async {
+  testWidgets('NrSectionBlock renderiza título e blocos sem card', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,

@@ -38,8 +38,10 @@ bool scrollToWidgetKey({
 
   final reveal = viewport.getOffsetToReveal(renderObject, alignment);
   final position = scrollController.position;
-  final target =
-      reveal.offset.clamp(position.minScrollExtent, position.maxScrollExtent);
+  final target = reveal.offset.clamp(
+    position.minScrollExtent,
+    position.maxScrollExtent,
+  );
 
   if ((position.pixels - target).abs() < 2) return true;
 
@@ -75,12 +77,7 @@ Rect matchRectInBlock({
     Rect.zero,
   );
 
-  return Rect.fromLTWH(
-    0,
-    caret.dy,
-    width,
-    lineHeightPx,
-  );
+  return Rect.fromLTWH(0, caret.dy, width, lineHeightPx);
 }
 
 /// Rola o [scrollController] para deixar a ocorrência em [matchStart] no topo
@@ -111,8 +108,10 @@ bool scrollToSearchMatch({
 
   final reveal = viewport.getOffsetToReveal(renderObject, 0.0, rect: matchRect);
   final position = scrollController.position;
-  final target =
-      reveal.offset.clamp(position.minScrollExtent, position.maxScrollExtent);
+  final target = reveal.offset.clamp(
+    position.minScrollExtent,
+    position.maxScrollExtent,
+  );
 
   if ((position.pixels - target).abs() < 1) return true;
 

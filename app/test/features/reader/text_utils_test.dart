@@ -24,10 +24,10 @@ void main() {
   });
 
   test('findOccurrenceOffsets encontra múltiplas ocorrências', () {
-    expect(
-      findOccurrenceOffsets('EPI de proteção com EPI adequado', 'EPI'),
-      [0, 20],
-    );
+    expect(findOccurrenceOffsets('EPI de proteção com EPI adequado', 'EPI'), [
+      0,
+      20,
+    ]);
     expect(findOccurrenceOffsets('sem match aqui', 'xyz'), isEmpty);
   });
 

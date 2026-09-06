@@ -18,7 +18,8 @@ String _repoRoot() {
 
 NrPreamble _preambleFromFile(String nrId) {
   final path = '${_repoRoot()}/content/$nrId/structure.json';
-  final json = jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>;
+  final json =
+      jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>;
   final preambleMap = json['preamble'] as Map<String, dynamic>? ?? {};
   return NrPreamble.fromMap(preambleMap);
 }
@@ -28,8 +29,7 @@ void main() {
     final preamble = NrPreamble(
       blocks: [
         const NrParagraphBlock(
-          text:
-              'Portaria MTb nº 3.214, de 08 de junho de 1978 D.O.U. 06/07/78',
+          text: 'Portaria MTb nº 3.214, de 08 de junho de 1978 D.O.U. 06/07/78',
         ),
       ],
     );
@@ -64,11 +64,11 @@ void main() {
     final preamble = NrPreamble(
       blocks: [
         const NrParagraphBlock(
-          text:
-              'Portaria MTb nº 1, de 01 de janeiro de 2000 D.O.U. 02/01/00',
+          text: 'Portaria MTb nº 1, de 01 de janeiro de 2000 D.O.U. 02/01/00',
         ),
         NrTableBlock(
-          markdown: '| Alterações | D.O.U. |\n| --- | --- |\n'
+          markdown:
+              '| Alterações | D.O.U. |\n| --- | --- |\n'
               '| Portaria SSMT nº 2, de 01 de fevereiro de 2001 | 02/02/01 |',
         ),
         const NrParagraphBlock(
@@ -128,7 +128,9 @@ void main() {
     );
   });
 
-  testWidgets('nr-06 expandido mostra última alteração e publicação original', (tester) async {
+  testWidgets('nr-06 expandido mostra última alteração e publicação original', (
+    tester,
+  ) async {
     final preamble = _preambleFromFile('nr-06');
     final info = parsePreambleInfo(preamble);
     final latest = info.latestAmendment!;
@@ -155,10 +157,7 @@ void main() {
     expect(find.text('Publicação original'), findsOneWidget);
     expect(find.textContaining('D.O.U. ${latest.douDate}'), findsOneWidget);
     expect(find.textContaining('D.O.U. 06/07/78'), findsOneWidget);
-    expect(
-      find.textContaining('Portaria MTb nº 3.214'),
-      findsOneWidget,
-    );
+    expect(find.textContaining('Portaria MTb nº 3.214'), findsOneWidget);
     expect(find.textContaining(latest.portaria), findsOneWidget);
   });
 }

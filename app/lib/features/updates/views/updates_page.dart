@@ -23,20 +23,18 @@ class UpdatesPage extends GetView<UpdatesController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Atualizações'),
-      ),
+      appBar: AppBar(title: const Text('Atualizações')),
       body: AppScaffoldBody(
         child: ResponsiveContent(
-          child: Obx(
-            () {
+          child: Obx(() {
             final updates = controller.updatedNrs.value;
             final isChecking = controller.isChecking.value;
             final isDownloading = controller.isBulkDownloading;
             final downloadProgress = controller.bulkSyncProgress.value;
             final showDownloadButton =
                 controller.offlineDownloadNeeded.value && !isDownloading;
-            final showProgress = isChecking ||
+            final showProgress =
+                isChecking ||
                 (isDownloading &&
                     downloadProgress != null &&
                     downloadProgress.isActive);
@@ -126,8 +124,7 @@ class UpdatesPage extends GetView<UpdatesController> {
                 );
               },
             );
-          },
-        ),
+          }),
         ),
       ),
     );

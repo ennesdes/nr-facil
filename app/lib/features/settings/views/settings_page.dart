@@ -19,43 +19,39 @@ class SettingsPage extends GetView<ThemeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Ajustes'),
-      ),
+      appBar: AppBar(title: const Text('Ajustes')),
       body: AppScaffoldBody(
         child: ResponsiveContent(
           child: ListView(
             padding: const EdgeInsets.all(AppSpacing.md),
             children: [
-            SettingsSectionCard(
-              title: 'Aparência',
-              description:
-                  'Escolha como o app se adapta ao tema do dispositivo.',
-              children: [
-                ThemeModeSelector(controller: controller),
-              ],
-            ),
-            const SizedBox(height: AppSpacing.md),
-            SettingsSectionCard(
-              title: 'Legal',
-              children: [
-                SettingsActionTile(
-                  icon: Icons.privacy_tip_outlined,
-                  title: 'Política de privacidade',
-                  subtitle: 'Como tratamos seus dados',
-                  trailing: Icon(
-                    Icons.open_in_new,
-                    size: 20,
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+              SettingsSectionCard(
+                title: 'Aparência',
+                description:
+                    'Escolha como o app se adapta ao tema do dispositivo.',
+                children: [ThemeModeSelector(controller: controller)],
+              ),
+              const SizedBox(height: AppSpacing.md),
+              SettingsSectionCard(
+                title: 'Legal',
+                children: [
+                  SettingsActionTile(
+                    icon: Icons.privacy_tip_outlined,
+                    title: 'Política de privacidade',
+                    subtitle: 'Como tratamos seus dados',
+                    trailing: Icon(
+                      Icons.open_in_new,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    onTap: _openPrivacyPolicy,
                   ),
-                  onTap: _openPrivacyPolicy,
-                ),
-              ],
-            ),
-            const SizedBox(height: AppSpacing.md),
-            const _AboutSection(),
-          ],
-        ),
+                ],
+              ),
+              const SizedBox(height: AppSpacing.md),
+              const _AboutSection(),
+            ],
+          ),
         ),
       ),
     );
