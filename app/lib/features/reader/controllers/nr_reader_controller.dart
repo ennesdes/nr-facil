@@ -355,7 +355,9 @@ class NRReaderController extends GetxController {
       nrEntry.value = entry;
 
       final mdContent = await contentService.readNrContent(nrId);
-      if (mdContent == null) {
+      final contentIsCurrent = contentService.isNrContentCached(nrId);
+
+      if (mdContent == null || !contentIsCurrent) {
         isDownloading.value = true;
         try {
           final ok = await contentService.downloadNrForReading(nrId);

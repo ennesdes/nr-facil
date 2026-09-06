@@ -1,8 +1,10 @@
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/models/sync_progress.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
@@ -26,8 +28,14 @@ class UpdatesController extends GetxController {
   /// Se está verificando atualizações no momento (acionado pelo botão manual).
   final isChecking = false.obs;
 
-  /// Se está baixando todo o conteúdo offline.
-  final isDownloadingAll = false.obs;
+  /// Se está baixando todo o conteúdo offline (estado global no [ContentService]).
+  bool get isBulkDownloading => _contentService.isBulkDownloading;
+
+  Rxn<BulkSyncProgress> get bulkSyncProgress =>
+      _contentService.bulkSyncProgress;
+
+  /// Exibe botão "Baixar tudo" enquanto houver NRs pendentes de download offline.
+  RxBool get offlineDownloadNeeded => _contentService.offlineDownloadNeeded;
 
   @override
   void onInit() {
@@ -89,26 +97,60 @@ class UpdatesController extends GetxController {
 
   /// Baixar todas as NRs para uso offline (pacote completo).
   Future<void> downloadAllForOffline() async {
-    if (isDownloadingAll.value) return;
-    isDownloadingAll.value = true;
+    if (_contentService.isBulkDownloading) return;
 
-    try {
-      final ok = await _contentService.syncAllContent();
-      if (!ok) {
-        AppSnackbar.showError(
-          title: 'Download offline',
-          message: _contentService.lastError.value ??
-              'Não foi possível baixar todo o conteúdo.',
-        );
-        return;
-      }
+    final result = await _contentService.syncAllContent();
+    updatedNrs.value = _contentService.updatedNrs;
 
-      AppSnackbar.showSuccess(
+    if (result.cancelled) {
+      final total = result.totalToDownload;
+      final done = result.downloadedCount;
+      final message = done == 0
+          ? 'Download cancelado.'
+          : total > 0
+              ? 'Download cancelado. $done de $total normas baixadas.'
+              : 'Download cancelado. $done normas baixadas.';
+      AppSnackbar.showInfo(title: 'Download offline', message: message);
+      return;
+    }
+
+    if (!result.success) {
+      AppSnackbar.showError(
         title: 'Download offline',
-        message: 'Todas as normas foram baixadas para uso offline.',
+        message: _contentService.lastError.value ??
+            'Não foi possível baixar todo o conteúdo.',
       );
-    } finally {
-      isDownloadingAll.value = false;
+      return;
+    }
+
+    if (!result.reachedNetwork && result.downloadedCount == 0) {
+      AppSnackbar.showError(
+        title: 'Download offline',
+        message: _contentService.lastError.value ??
+            'Não foi possível conectar. Verifique sua internet.',
+      );
+      return;
+    }
+
+    final pendingUpdates = _contentService.updatedNrs.length;
+    final message = switch ((result.downloadedCount, pendingUpdates)) {
+      (0, 0) => 'Todas as normas já estavam baixadas e em dia.',
+      (0, _) =>
+        'Seu conteúdo offline já está atualizado. '
+        'Abra cada norma para revisar as mudanças.',
+      (_, 0) => result.downloadedCount == 1
+          ? '1 norma baixada para uso offline.'
+          : '${result.downloadedCount} normas baixadas para uso offline.',
+      (_, _) => result.downloadedCount == 1
+          ? '1 norma baixada. Abra-a para revisar as mudanças.'
+          : '${result.downloadedCount} normas baixadas. '
+              'Abra-as para revisar as mudanças.',
+    };
+
+    if (result.downloadedCount > 0) {
+      AppSnackbar.showSuccess(title: 'Download offline', message: message);
+    } else {
+      AppSnackbar.showInfo(title: 'Download offline', message: message);
     }
   }
 
@@ -128,5 +170,35 @@ class UpdatesController extends GetxController {
   /// aparecer, já que `hasUpdate` já estaria `false` quando o leitor abrisse.
   void openNrAndMarkSeen(ManifestEntry entry) {
     ReaderNavigation.open(nrId: entry.id);
+  }
+
+  /// Exibe confirmação e cancela o download em massa, se o usuário confirmar.
+  Future<void> confirmCancelDownload(BuildContext context) async {
+    if (!_contentService.isBulkDownloading) return;
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Cancelar download?'),
+        content: const Text(
+          'O download será interrompido. As normas já baixadas '
+          'continuarão disponíveis offline.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Continuar baixando'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Cancelar download'),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed == true) {
+      _contentService.cancelBulkSync();
+    }
   }
 }

@@ -26,7 +26,7 @@ class _FavoritosTabState extends State<FavoritosTab> {
     return Obx(
       () {
         if (contentService.favoriteIds.isEmpty) {
-          return EmptyFavoritosState(manifest: contentService.manifest.value);
+          return const EmptyFavoritosState();
         }
 
         _maybeNotifyRevokedFavorites(contentService);

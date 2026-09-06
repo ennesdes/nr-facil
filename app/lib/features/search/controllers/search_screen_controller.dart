@@ -40,9 +40,6 @@ class SearchScreenController extends GetxController {
   /// Indicador se houve uma busca realizada
   final hasSearched = false.obs;
 
-  /// Filtrar apenas favoritos
-  final favoritesOnly = false.obs;
-
   /// Filtrar por NR específica (null = todas)
   final nrFilter = RxnString();
 
@@ -103,7 +100,6 @@ class SearchScreenController extends GetxController {
     try {
       final searchResults = await searchService.search(
         searchQuery,
-        favoritesOnly: favoritesOnly.value,
         nrFilter: nrFilter.value,
       );
       results.value = searchResults;

@@ -314,5 +314,110 @@ void main() {
         'hash-10',
       );
     });
+
+    test('syncAllContent baixa NR com arquivo antigo e hash de core desatualizado',
+        () async {
+      await contentService.syncMetadata();
+      GetStorage().write(StorageKeys.nrLastSyncedHash('nr-10'), 'hash-10');
+      GetStorage().write(StorageKeys.nrCoreSyncedHash('nr-10'), 'hash-10');
+      final nr10Dir = Directory('${cacheDir.path}/content/nr-10');
+      nr10Dir.createSync(recursive: true);
+      File('${nr10Dir.path}/nr-10.md').writeAsStringSync('# nr-10 ok');
+
+      final nrDir = Directory('${cacheDir.path}/content/nr-06');
+      nrDir.createSync(recursive: true);
+      File('${nrDir.path}/nr-06.md').writeAsStringSync('# conteúdo antigo');
+      GetStorage().write(StorageKeys.nrCoreSyncedHash('nr-06'), 'hash-antigo');
+      GetStorage().write(StorageKeys.nrLastSyncedHash('nr-06'), 'hash-antigo');
+
+      contentService.onClose();
+      contentService = ContentService(
+        httpClient: buildMockClient(
+          allowedSuffixes: {
+            'nr-06/nr-06.md',
+            'nr-06/index.json',
+            'nr-06/structure.json',
+            'nr-06/search_index.json',
+          },
+        ),
+        cacheDirOverride: cacheDir,
+      );
+      await contentService.onInit();
+
+      final result = await contentService.syncAllContent();
+
+      expect(result.success, isTrue);
+      expect(result.downloadedCount, 1);
+      expect(
+        File('${nrDir.path}/nr-06.md').readAsStringSync(),
+        'payload',
+      );
+      expect(
+        GetStorage().read(StorageKeys.nrLastSyncedHash('nr-06')),
+        'hash-06',
+      );
+      expect(contentService.isNrFullyCached('nr-06'), isTrue);
+      expect(contentService.offlineDownloadNeeded.value, isFalse);
+    });
+
+    test('syncAllContent respeita cancelamento entre normas', () async {
+      await contentService.syncMetadata();
+
+      contentService.onClose();
+      contentService = ContentService(
+        httpClient: MockClient((request) async {
+          await Future<void>.delayed(const Duration(milliseconds: 150));
+
+          final path = request.url.path;
+          if (path.endsWith('/manifest.json')) {
+            return http.Response(jsonEncode(manifestJson), 200);
+          }
+          if (path.endsWith('/app_meta.json')) {
+            return http.Response(
+              jsonEncode({
+                'generated_at': '2026-01-01T00:00:00.000Z',
+                'min_app_version': '0.0.1',
+                'updates': [],
+              }),
+              200,
+            );
+          }
+
+          const allowedSuffixes = {
+            'nr-06/nr-06.md',
+            'nr-06/index.json',
+            'nr-06/structure.json',
+            'nr-06/search_index.json',
+            'nr-10/nr-10.md',
+            'nr-10/index.json',
+            'nr-10/structure.json',
+            'nr-10/search_index.json',
+          };
+          if (allowedSuffixes.any(path.endsWith)) {
+            return http.Response('payload', 200);
+          }
+
+          return http.Response('not found', 404);
+        }),
+        cacheDirOverride: cacheDir,
+      );
+      await contentService.onInit();
+
+      final syncFuture = contentService.syncAllContent();
+      while (true) {
+        await Future<void>.delayed(const Duration(milliseconds: 20));
+        final progress = contentService.bulkSyncProgress.value;
+        if (progress == null) break;
+        if (progress.completed >= 1) {
+          contentService.cancelBulkSync();
+          break;
+        }
+      }
+      final result = await syncFuture;
+
+      expect(result.cancelled, isTrue);
+      expect(result.downloadedCount, greaterThanOrEqualTo(1));
+      expect(result.downloadedCount, lessThanOrEqualTo(2));
+    });
   });
 }

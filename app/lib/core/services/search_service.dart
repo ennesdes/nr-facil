@@ -70,11 +70,9 @@ class SearchService extends GetxService {
 
   /// Buscar chunks que contêm o texto (case-insensitive).
   ///
-  /// [favoritesOnly] restringe a NRs favoritadas.
   /// [nrFilter] restringe a uma NR específica (ex.: nr-06).
   Future<List<SearchResult>> search(
     String query, {
-    bool favoritesOnly = false,
     String? nrFilter,
   }) async {
     final normalizedQuery = query.trim().toLowerCase();
@@ -101,10 +99,6 @@ class SearchService extends GetxService {
 
       final nrEntry = contentService.manifest.value?.findNr(nrId);
       if (nrEntry == null) continue;
-
-      if (favoritesOnly && !contentService.isFavorite(nrId)) {
-        continue;
-      }
 
       for (final chunk in chunks) {
         final haystack = chunk.text.toLowerCase();

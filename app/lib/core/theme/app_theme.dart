@@ -30,7 +30,7 @@ abstract final class AppTheme {
           onError: AppColors.onError,
         ),
         semanticColors: AppSemanticColors.light,
-        appBarBackground: AppColors.surface,
+        appBarBackground: AppColors.surfaceBright,
         cardColor: AppColors.surfaceBright,
       );
 
@@ -56,7 +56,7 @@ abstract final class AppTheme {
           onError: AppColors.onPrimary,
         ),
         semanticColors: AppSemanticColors.dark,
-        appBarBackground: AppColors.surfaceContainerDark,
+        appBarBackground: AppColors.surfaceDark,
         cardColor: AppColors.surfaceContainerDark,
       );
 
@@ -75,13 +75,21 @@ abstract final class AppTheme {
       dividerColor: colorScheme.outline,
       textTheme: AppTypography.textTheme(colorScheme),
       appBarTheme: AppBarTheme(
-        elevation: 1,
+        elevation: 0,
+        scrolledUnderElevation: 0,
+        surfaceTintColor: Colors.transparent,
+        shadowColor: Colors.transparent,
         centerTitle: false,
         backgroundColor: appBarBackground,
         foregroundColor: colorScheme.onSurface,
+        shape: Border(
+          bottom: BorderSide(
+            color: colorScheme.outline.withValues(alpha: 0.35),
+          ),
+        ),
         systemOverlayStyle: AppSystemUi.overlayFor(
           brightness: brightness,
-          surface: colorScheme.surface,
+          surface: appBarBackground,
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(

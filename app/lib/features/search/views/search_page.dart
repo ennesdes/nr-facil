@@ -13,7 +13,6 @@ class SearchPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Buscar'),
-        elevation: 1,
       ),
       body: AppScaffoldBody(
         child: SearchTab(

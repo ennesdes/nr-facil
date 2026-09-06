@@ -26,7 +26,6 @@ class HomePage extends GetView<HomeController> {
           appBar: AppBar(
             title: Text(controller.tabTitle),
             centerTitle: false,
-            elevation: 1,
             actions: [
               _buildNotificationsBell(context),
               IconButton(

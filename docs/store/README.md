@@ -9,35 +9,35 @@ Arquivos para upload na Play Console (item 37 do [todo.md](../todo.md)).
 | `play_store_icon_512.png` | 512×512 | Presença na loja → Ícone do app |
 | `feature_graphic_1024x500.png` | 1024×500 | Presença na loja → Gráfico de recursos |
 
+Fontes em `app/assets/branding/` (`app_icon.png`, `app_icon_foreground.png`, `splash_mark.png`).
+
 ## Regenerar
 
-### Opção recomendada: geração por IA
+### Feature graphic (capa)
 
-Os PNGs atuais foram gerados com a ferramenta de imagem do Cursor e pós-processados (resize + chroma key no foreground). Prompts de referência:
-
-**Ícone (1:1):** usar a feature graphic como `reference_image_paths` e pedir o mesmo mark da esquerda (NR ligado + 3 linhas iguais). Evitar gerar ícone isolado sem referência — o estilo diverge.
-
-**Foreground (1:1):** mesmo mark em branco/cinza sobre preto puro (chroma key → transparência).
-
-**Feature graphic (16:9 → crop 1024×500):** fundo `#FAFBFC`, ícone à esquerda, wordmark "NR Fácil" + tagline à direita. Esta é a referência visual mestre do mark.
-
-Após gerar, processar e copiar:
-
-```bash
-# Ajuste os paths dos PNGs gerados no script abaixo, depois:
-python3 scripts/postprocess_branding.py
-cd app && fvm dart run flutter_launcher_icons && fvm dart run flutter_native_splash:create
-```
-
-### Opção fallback: Pillow (prototipagem)
+Salve o arquivo como `~/Downloads/capa.png` (ou `.jpg` / `.jpeg` / `.webp`), depois:
 
 ```bash
 source .venv/bin/activate
-pip install -r scripts/requirements-dev.txt
-python3 scripts/generate_branding.py
+python3 scripts/import_feature_graphic.py
 ```
 
-Qualidade inferior — usar só para testes rápidos de layout.
+O script redimensiona/corta para `docs/store/feature_graphic_1024x500.png` (1024×500).
+
+### Ícone + splash (Android e iOS)
+
+Coloque em `branding-input/` via **Finder** (arrastar do Downloads — o Terminal não tem permissão):
+
+- `logo.png` ← **ChatGPT Image 5 de set. de 2026, 20_37_00.png**
+- `easyappicon-icons-1788651440281/` ← export do [EasyAppIcon](https://easyappicon.com/)
+
+Depois rode na raiz do repo:
+
+```bash
+./scripts/import_branding.sh
+```
+
+O script copia logo + ícones, gera `app/assets/branding/`, instala mipmaps Android, cria plataforma iOS (se ausente) com `AppIcon.appiconset`, e regenera o splash nativo.
 
 ## Pendente
 

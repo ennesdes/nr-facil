@@ -40,7 +40,6 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       title: Text(nr_id.formatNrLabel(nrId)),
       centerTitle: false,
-      elevation: 1,
       actions: [
         IconButton(
           icon: const Icon(Icons.search),

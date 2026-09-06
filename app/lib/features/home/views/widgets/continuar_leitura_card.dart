@@ -27,17 +27,19 @@ class ContinuarLeituraCard extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.fromLTRB(
         AppSpacing.md,
-        AppSpacing.sm,
+        AppSpacing.xs,
         AppSpacing.md,
-        AppSpacing.sm,
+        AppSpacing.xs,
       ),
       child: InkWell(
         borderRadius: BorderRadius.circular(AppRadius.md),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(AppSpacing.md),
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.md,
+            vertical: AppSpacing.sm,
+          ),
           child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
                 child: Column(
@@ -48,19 +50,19 @@ class ContinuarLeituraCard extends StatelessWidget {
                       style: theme.textTheme.labelSmall?.copyWith(
                         color: colorScheme.onSurfaceVariant,
                         letterSpacing: 0.5,
+                        fontSize: 10,
                       ),
                     ),
-                    const SizedBox(height: AppSpacing.sm),
+                    const SizedBox(height: AppSpacing.xs),
                     Text(
                       '${nrEntry.nrLabel} · $displayTitle',
                       style: theme.textTheme.titleSmall?.copyWith(
                         color: colorScheme.onSurface,
                       ),
-                      maxLines: 2,
+                      maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
                     if (sectionLabel != null && sectionLabel!.isNotEmpty) ...[
-                      const SizedBox(height: AppSpacing.xs),
                       Text(
                         sectionLabel!,
                         style: theme.textTheme.bodySmall?.copyWith(
@@ -70,8 +72,10 @@ class ContinuarLeituraCard extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                       ),
                     ],
-                    if (progressPercent != null) ...[
-                      const SizedBox(height: AppSpacing.sm),
+                    if (progressPercent != null &&
+                        progressPercent! > 0 &&
+                        progressPercent! < 100) ...[
+                      const SizedBox(height: AppSpacing.xs),
                       Row(
                         children: [
                           Expanded(
@@ -79,7 +83,7 @@ class ContinuarLeituraCard extends StatelessWidget {
                               borderRadius: BorderRadius.circular(2),
                               child: LinearProgressIndicator(
                                 value: progressPercent! / 100,
-                                minHeight: 4,
+                                minHeight: 3,
                                 backgroundColor: colorScheme.outline
                                     .withValues(alpha: 0.22),
                                 color: colorScheme.primary,
@@ -99,12 +103,9 @@ class ContinuarLeituraCard extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: AppSpacing.sm, top: 20),
-                child: Icon(
-                  Icons.chevron_right,
-                  color: colorScheme.onSurfaceVariant,
-                ),
+              Icon(
+                Icons.chevron_right,
+                color: colorScheme.onSurfaceVariant,
               ),
             ],
           ),

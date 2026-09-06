@@ -17,7 +17,6 @@ class SettingsPage extends GetView<ThemeController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ajustes'),
-        elevation: 1,
       ),
       body: AppScaffoldBody(
         child: ListView(

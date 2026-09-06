@@ -29,7 +29,7 @@ class AuditContrastTest(unittest.TestCase):
     def test_parse_app_colors_reads_known_tokens(self):
         mod = _load_module()
         colors = mod.parse_app_colors(mod.APP_COLORS)
-        self.assertEqual(colors["primary"], "#0F5C4E")
+        self.assertEqual(colors["primary"], "#032853")
         self.assertEqual(colors["searchHighlightDark"], "#5C4A1A")
 
     def test_critical_pairs_pass_wcag_aa(self):

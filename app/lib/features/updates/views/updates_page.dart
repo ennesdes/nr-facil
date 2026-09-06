@@ -3,11 +3,11 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
-import 'package:nrfacil/core/widgets/app_shimmer.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/updates/controllers/updates_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
+import 'package:nrfacil/features/updates/views/widgets/updates_action_progress.dart';
 
 /// UpdatesPage — tela de atualizações de NRs.
 ///
@@ -24,101 +24,128 @@ class UpdatesPage extends GetView<UpdatesController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Atualizações'),
-        elevation: 1,
         actions: [
           Obx(
-            () => IconButton(
-              icon: controller.isDownloadingAll.value
-                  ? const AppShimmerIcon(size: 20)
-                  : const Icon(Icons.download_for_offline_outlined),
-              tooltip: 'Baixar tudo para offline',
-              onPressed: controller.isDownloadingAll.value
-                  ? null
-                  : controller.downloadAllForOffline,
-            ),
-          ),
-          Obx(
-            () => IconButton(
-              icon: controller.isChecking.value
-                  ? const AppShimmerIcon(size: 20)
-                  : const Icon(Icons.refresh),
-              tooltip: 'Verificar atualizações',
-              onPressed: controller.isChecking.value
-                  ? null
-                  : controller.checkForUpdates,
-            ),
+            () {
+              final showDownload =
+                  controller.offlineDownloadNeeded.value &&
+                  !controller.isBulkDownloading;
+
+              return Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (showDownload)
+                    IconButton(
+                      icon: const Icon(Icons.download_for_offline_outlined),
+                      tooltip: 'Baixar tudo para offline',
+                      onPressed: controller.downloadAllForOffline,
+                    ),
+                  IconButton(
+                    icon: const Icon(Icons.refresh),
+                    tooltip: 'Verificar atualizações',
+                    onPressed: controller.isChecking.value
+                        ? null
+                        : controller.checkForUpdates,
+                  ),
+                ],
+              );
+            },
           ),
         ],
       ),
       body: AppScaffoldBody(
         child: Obx(
           () {
-          final updates = controller.updatedNrs.value;
+            final updates = controller.updatedNrs.value;
+            final isChecking = controller.isChecking.value;
+            final isDownloading = controller.isBulkDownloading;
+            final downloadProgress = controller.bulkSyncProgress.value;
+            final showDownloadButton =
+                controller.offlineDownloadNeeded.value && !isDownloading;
+            final showProgress = isChecking ||
+                (isDownloading &&
+                    downloadProgress != null &&
+                    downloadProgress.isActive);
 
-          // Estado vazio
-          if (updates.isEmpty) {
-            return EmptyState(
-              icon: Icons.notifications_off_outlined,
-              title: 'Nenhuma atualização disponível',
-              body: 'Suas normas estão em dia.',
-              actions: [
-                Obx(
-                  () => FilledButton.icon(
-                    onPressed: controller.isChecking.value
-                        ? null
-                        : controller.checkForUpdates,
-                    icon: controller.isChecking.value
-                        ? const AppShimmerIcon(size: 16)
-                        : const Icon(Icons.refresh),
+            final progressCard = UpdatesActionProgress(
+              isChecking: isChecking,
+              downloadProgress: downloadProgress,
+              onDownloadTap: isDownloading
+                  ? () => controller.confirmCancelDownload(context)
+                  : null,
+            );
+
+            if (updates.isEmpty) {
+              return EmptyState(
+                icon: Icons.notifications_off_outlined,
+                title: 'Nenhuma atualização disponível',
+                body: 'Suas normas estão em dia.',
+                actions: [
+                  if (showProgress) ...[
+                    progressCard,
+                    const SizedBox(height: AppSpacing.md),
+                  ],
+                  FilledButton.icon(
+                    onPressed: isChecking ? null : controller.checkForUpdates,
+                    icon: const Icon(Icons.refresh),
                     label: const Text('Verificar atualizações'),
                   ),
-                ),
-                const SizedBox(height: AppSpacing.sm),
-                Obx(
-                  () => OutlinedButton.icon(
-                    onPressed: controller.isDownloadingAll.value
-                        ? null
-                        : controller.downloadAllForOffline,
-                    icon: controller.isDownloadingAll.value
-                        ? const AppShimmerIcon(size: 16)
-                        : const Icon(Icons.download_for_offline_outlined),
-                    label: const Text('Baixar tudo para offline'),
+                  if (showDownloadButton) ...[
+                    const SizedBox(height: AppSpacing.sm),
+                    OutlinedButton.icon(
+                      onPressed: controller.downloadAllForOffline,
+                      icon: const Icon(Icons.download_for_offline_outlined),
+                      label: const Text('Baixar tudo para offline'),
+                    ),
+                  ],
+                ],
+              );
+            }
+
+            return Column(
+              children: [
+                if (showProgress)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                      AppSpacing.md,
+                      AppSpacing.sm,
+                      AppSpacing.md,
+                      0,
+                    ),
+                    child: progressCard,
+                  ),
+                Expanded(
+                  child: ListView.builder(
+                    itemCount: updates.length,
+                    itemBuilder: (context, index) {
+                      final entry = updates[index];
+                      final updateEntry = controller.getUpdateEntry(entry.id);
+
+                      return Column(
+                        children: [
+                          NrListTile(
+                            nrEntry: entry,
+                            isFavorite: false,
+                            hasUpdate: true,
+                            isRevoked: false,
+                            hideStarButton: true,
+                            onTap: () {
+                              controller.openNrAndMarkSeen(entry);
+                            },
+                            onToggleFavorite: () {},
+                          ),
+                          if (updateEntry != null)
+                            _UpdateDetailCard(updateEntry: updateEntry)
+                          else
+                            const SizedBox.shrink(),
+                        ],
+                      );
+                    },
                   ),
                 ),
               ],
             );
-          }
-
-          // Lista de atualizações
-          return ListView.builder(
-            itemCount: updates.length,
-            itemBuilder: (context, index) {
-              final entry = updates[index];
-              final updateEntry = controller.getUpdateEntry(entry.id);
-
-              return Column(
-                children: [
-                  NrListTile(
-                    nrEntry: entry,
-                    isFavorite: false,
-                    hasUpdate: true, // Todas as NRs aqui têm atualização por definição
-                    isRevoked: false,
-                    hideStarButton: true, // Atualizações não suportam favoritar
-                    onTap: () {
-                      controller.openNrAndMarkSeen(entry);
-                    },
-                    onToggleFavorite: () {},
-                  ),
-                  // Renderizar detalhes de atualização se houver entrada correspondente
-                  if (updateEntry != null)
-                    _UpdateDetailCard(updateEntry: updateEntry)
-                  else
-                    const SizedBox.shrink(),
-                ],
-              );
-            },
-          );
-        },
+          },
         ),
       ),
     );
@@ -154,7 +181,6 @@ class _UpdateDetailCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Data de atualização
               if (updateEntry.createdAt != null)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 8),
@@ -165,9 +191,8 @@ class _UpdateDetailCard extends StatelessWidget {
                     ),
                   ),
                 ),
-
-              // Portaria
-              if (updateEntry.portaria != null && updateEntry.portaria!.isNotEmpty)
+              if (updateEntry.portaria != null &&
+                  updateEntry.portaria!.isNotEmpty)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Text(
@@ -176,8 +201,6 @@ class _UpdateDetailCard extends StatelessWidget {
                     softWrap: true,
                   ),
                 ),
-
-              // Lista de itens granulares (se houver) ou summary como fallback
               if (updateEntry.items.isNotEmpty)
                 UpdateItemsList(
                   items: updateEntry.items,
@@ -199,7 +222,6 @@ class _UpdateDetailCard extends StatelessWidget {
     );
   }
 
-  /// Formatar data para exibição amigável
   String _formatDate(DateTime date) {
     final now = DateTime.now();
     final today = DateTime(now.year, now.month, now.day);

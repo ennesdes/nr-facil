@@ -13,6 +13,7 @@ import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
 import '../models/app_meta.dart';
 import '../models/manifest.dart';
+import '../models/sync_progress.dart';
 import '../models/nr_index.dart';
 import '../models/nr_structure.dart';
 import '../models/reading_history_entry.dart';
@@ -70,6 +71,19 @@ class ContentService extends GetxService {
   /// Contagem reativa de atualizações não lidas
   final unreadUpdatesCount = 0.obs;
 
+  /// Progresso do download em massa (null = ocioso).
+  final bulkSyncProgress = Rxn<BulkSyncProgress>();
+
+  /// True enquanto existir NR não revogada pendente de download offline completo.
+  final offlineDownloadNeeded = false.obs;
+
+  bool _bulkSyncCancelRequested = false;
+  Future<SyncAllContentResult>? _ongoingBulkSync;
+
+  /// Download em massa ativo (persiste ao sair da tela de Atualizações).
+  bool get isBulkDownloading =>
+      isSyncing.value && bulkSyncProgress.value != null;
+
   /// Última NR aberta (reativo — alimenta "Continuar leitura").
   final lastOpenedNrId = Rxn<String>();
 
@@ -103,6 +117,7 @@ class ContentService extends GetxService {
 
     // Atualizar contagem de atualizações não lidas
     _updateUnreadCount();
+    _updateOfflineDownloadNeeded();
   }
 
   @override
@@ -115,7 +130,10 @@ class ContentService extends GetxService {
   ///
   /// Usado pelo botão "Baixar tudo para offline". Para o boot normal, use
   /// [syncMetadata], [syncSearchIndices] e [prefetchFavorites].
-  Future<bool> sync() => syncAllContent();
+  Future<bool> sync() async {
+    final result = await syncAllContent();
+    return result.success;
+  }
 
   /// Baixar manifest + app_meta (boot e "Verificar atualizações").
   Future<bool> syncMetadata() async {
@@ -174,6 +192,7 @@ class ContentService extends GetxService {
     _updateUnreadCount();
 
     AppLogger.info('Metadados sincronizados com sucesso');
+    _updateOfflineDownloadNeeded();
     return true;
   }
 
@@ -247,51 +266,186 @@ class ContentService extends GetxService {
     AppLogger.info('Prefetch de favoritas concluído');
   }
 
-  /// Baixa todas as NRs não revogadas com hash diferente do cache local.
-  Future<bool> syncAllContent() async {
+  /// Solicita cancelamento do download em massa em andamento.
+  void cancelBulkSync() {
+    if (isSyncing.value && bulkSyncProgress.value != null) {
+      _bulkSyncCancelRequested = true;
+      AppLogger.info('Cancelamento de download em massa solicitado');
+    }
+  }
+
+  /// Baixa todas as NRs não revogadas desatualizadas no cache local.
+  Future<SyncAllContentResult> syncAllContent() async {
+    final ongoing = _ongoingBulkSync;
+    if (ongoing != null) return ongoing;
+
     if (isSyncing.value) {
       AppLogger.warning('Sincronização já em andamento');
-      return false;
+      return const SyncAllContentResult(
+        success: false,
+        downloadedCount: 0,
+        totalToDownload: 0,
+        reachedNetwork: false,
+      );
     }
 
+    final future = _runBulkSyncAllContent();
+    _ongoingBulkSync = future;
+    try {
+      return await future;
+    } finally {
+      if (identical(_ongoingBulkSync, future)) {
+        _ongoingBulkSync = null;
+      }
+    }
+  }
+
+  Future<SyncAllContentResult> _runBulkSyncAllContent() async {
     isSyncing.value = true;
     lastError.value = null;
+    _bulkSyncCancelRequested = false;
+    bulkSyncProgress.value = const BulkSyncProgress(
+      completed: 0,
+      total: 0,
+      phase: BulkSyncPhase.preparing,
+    );
+
+    final previousSyncedAt = lastSyncedAt.value;
+    var downloadedCount = 0;
+    var totalToDownload = 0;
 
     try {
       final metadataOk = await _fetchRemoteMetadata();
+      if (_bulkSyncCancelRequested) {
+        return SyncAllContentResult(
+          success: true,
+          downloadedCount: 0,
+          totalToDownload: 0,
+          reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+          cancelled: true,
+        );
+      }
+
       if (!metadataOk && manifest.value == null) {
-        return false;
+        return const SyncAllContentResult(
+          success: false,
+          downloadedCount: 0,
+          totalToDownload: 0,
+          reachedNetwork: false,
+        );
       }
 
       final remoteManifest = manifest.value;
-      if (remoteManifest == null) return false;
+      if (remoteManifest == null) {
+        return const SyncAllContentResult(
+          success: false,
+          downloadedCount: 0,
+          totalToDownload: 0,
+          reachedNetwork: false,
+        );
+      }
 
-      for (final nrEntry in remoteManifest.nrs) {
-        if (nrEntry.isRevoked) {
-          AppLogger.info('NR ${nrEntry.id} está revogada. Pulando download.');
-          continue;
+      final toDownload = remoteManifest.nrs
+          .where((entry) => _needsFullDownload(entry))
+          .toList();
+      totalToDownload = toDownload.length;
+
+      bulkSyncProgress.value = BulkSyncProgress(
+        completed: 0,
+        total: totalToDownload,
+        phase: BulkSyncPhase.downloading,
+      );
+
+      for (final nrEntry in toDownload) {
+        if (_bulkSyncCancelRequested) {
+          AppLogger.info(
+            'Download em massa cancelado após $downloadedCount de '
+            '$totalToDownload normas',
+          );
+          return SyncAllContentResult(
+            success: true,
+            downloadedCount: downloadedCount,
+            totalToDownload: totalToDownload,
+            reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+            cancelled: true,
+          );
         }
 
-        final localHash =
-            GetStorage().read(StorageKeys.nrLastSyncedHash(nrEntry.id));
-        if (nrEntry.hash == localHash) {
-          AppLogger.debug('NR ${nrEntry.id} já sincronizada (hash igual)');
-          continue;
-        }
+        bulkSyncProgress.value = BulkSyncProgress(
+          completed: downloadedCount,
+          total: totalToDownload,
+          currentNrLabel: nrEntry.nrLabel,
+          phase: BulkSyncPhase.downloading,
+        );
 
         AppLogger.info('Sincronizando NR ${nrEntry.id}...');
         await _downloadNr(nrEntry);
+        downloadedCount++;
+
+        if (_bulkSyncCancelRequested) {
+          AppLogger.info(
+            'Download em massa cancelado após $downloadedCount de '
+            '$totalToDownload normas',
+          );
+          return SyncAllContentResult(
+            success: true,
+            downloadedCount: downloadedCount,
+            totalToDownload: totalToDownload,
+            reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+            cancelled: true,
+          );
+        }
+
+        bulkSyncProgress.value = BulkSyncProgress(
+          completed: downloadedCount,
+          total: totalToDownload,
+          currentNrLabel: nrEntry.nrLabel,
+          phase: BulkSyncPhase.downloading,
+        );
       }
 
       AppLogger.info('Sincronização completa concluída com sucesso');
-      return true;
+      return SyncAllContentResult(
+        success: true,
+        downloadedCount: downloadedCount,
+        totalToDownload: totalToDownload,
+        reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+      );
     } catch (e, st) {
       lastError.value = UserMessages.syncFailed;
       AppLogger.error('Erro na sincronização completa', e, st);
-      return false;
+      return SyncAllContentResult(
+        success: false,
+        downloadedCount: downloadedCount,
+        totalToDownload: totalToDownload,
+        reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+      );
     } finally {
       isSyncing.value = false;
+      bulkSyncProgress.value = null;
+      _bulkSyncCancelRequested = false;
+      _updateOfflineDownloadNeeded();
     }
+  }
+
+  void _updateOfflineDownloadNeeded() {
+    final currentManifest = manifest.value;
+    if (currentManifest == null || currentManifest.nrs.isEmpty) {
+      offlineDownloadNeeded.value = false;
+      return;
+    }
+
+    offlineDownloadNeeded.value =
+        currentManifest.nrs.any(_needsFullDownload);
+  }
+
+  /// NR precisa de download completo quando o pacote offline está ausente
+  /// ou inconsistente com o hash do manifest.
+  bool _needsFullDownload(ManifestEntry entry) {
+    if (entry.isRevoked) return false;
+    if (!isNrFullyCached(entry.id)) return true;
+    if (!isNrContentCached(entry.id)) return true;
+    return false;
   }
 
   /// Verifica se o texto da NR (.md) está em cache e atualizado.
@@ -389,6 +543,7 @@ class ContentService extends GetxService {
     await _downloadAssets(nrDir, entry.id);
     GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
     _notifyAssetsUpdated(entry.id);
+    _updateOfflineDownloadNeeded();
     AppLogger.info('NR ${entry.id} sincronizada com sucesso');
   }
 

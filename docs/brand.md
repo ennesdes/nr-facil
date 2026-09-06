@@ -291,7 +291,7 @@ Especificações e arquivos gerados para o item 37 do [todo.md](../todo.md):
 | Feature graphic | 1024×500 | `docs/store/feature_graphic_1024x500.png` |
 | Splash (mark) | 512×512 | `app/assets/branding/splash_mark.png` |
 
-Fontes SVG versionadas em `app/assets/branding/`. Regenerar PNGs: `python3 scripts/generate_branding.py` (ver `docs/store/README.md`).
+Fontes em `app/assets/branding/`. Regenerar: ver [docs/store/README.md](store/README.md).
 
 | Asset | Dimensão | Diretriz |
 |-------|----------|----------|

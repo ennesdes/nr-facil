@@ -53,7 +53,10 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
 
     _isLoading = true;
 
-    final size = await AdSize.getLargeAnchoredAdaptiveBannerAdSize(width);
+    // Formato padrão (≤90dp): large adaptive ocupa até 150dp e compete com a lista.
+    final size = await AdSize
+        // ignore: deprecated_member_use — UX intencional; large é para vídeo/non-scroll.
+        .getCurrentOrientationAnchoredAdaptiveBannerAdSize(width);
     if (!mounted || size == null) {
       _isLoading = false;
       return;
@@ -115,19 +118,46 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
               ),
             ),
           ),
-          child: SizedBox(
-            width: double.infinity,
-            height: banner.size.height.toDouble(),
-            child: Center(
-              child: SizedBox(
-                width: banner.size.width.toDouble(),
-                height: banner.size.height.toDouble(),
-                child: AdWidget(ad: banner),
+          child: ClipRect(
+            child: SizedBox(
+              width: double.infinity,
+              height: banner.size.height.toDouble(),
+              child: Center(
+                child: SizedBox(
+                  width: banner.size.width.toDouble(),
+                  height: banner.size.height.toDouble(),
+                  child: _NonScrollableBannerHost(
+                    child: AdWidget(ad: banner),
+                  ),
+                ),
               ),
             ),
           ),
         ),
       );
     });
+  }
+}
+
+/// Bloqueia rolagem horizontal/vertical no WebView nativo do anúncio e evita
+/// que gestos de arraste propaguem para a lista atrás (Android platform view).
+class _NonScrollableBannerHost extends StatelessWidget {
+  const _NonScrollableBannerHost({required this.child});
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return NotificationListener<ScrollNotification>(
+      onNotification: (_) => true,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onHorizontalDragStart: (_) {},
+        onHorizontalDragUpdate: (_) {},
+        onVerticalDragStart: (_) {},
+        onVerticalDragUpdate: (_) {},
+        child: child,
+      ),
+    );
   }
 }

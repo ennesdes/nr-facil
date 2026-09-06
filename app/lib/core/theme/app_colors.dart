@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 /// Preferir [ColorScheme] e [AppSemanticColors] nos widgets; usar esta classe
 /// apenas na construção do tema.
 abstract final class AppColors {
-  // Light
-  static const primary = Color(0xFF0F5C4E);
+  // Light — navy (#032853) + amarelo (#FABE00) do logo
+  static const primary = Color(0xFF032853);
   static const onPrimary = Color(0xFFFFFFFF);
-  static const primaryContainer = Color(0xFFD4EDE6);
-  static const onPrimaryContainer = Color(0xFF0A3D34);
-  static const secondary = Color(0xFF1E3A5F);
-  static const onSecondary = Color(0xFFFFFFFF);
+  static const primaryContainer = Color(0xFFFFF3CC);
+  static const onPrimaryContainer = Color(0xFF032853);
+  static const secondary = Color(0xFFFABE00);
+  static const onSecondary = Color(0xFF032853);
   static const surface = Color(0xFFFAFBFC);
   static const readerSurface = Color(0xFFFCFCFA);
   static const onSurface = Color(0xFF1A1C1E);
@@ -24,10 +24,10 @@ abstract final class AppColors {
   static const onError = Color(0xFFFFFFFF);
 
   // Dark
-  static const primaryDark = Color(0xFF4DB6A0);
-  static const onPrimaryDark = Color(0xFF0A3D34);
-  static const primaryContainerDark = Color(0xFF0F5C4E);
-  static const onPrimaryContainerDark = Color(0xFFD4EDE6);
+  static const primaryDark = Color(0xFFFFD54F);
+  static const onPrimaryDark = Color(0xFF032853);
+  static const primaryContainerDark = Color(0xFF032853);
+  static const onPrimaryContainerDark = Color(0xFFFFF3CC);
   static const surfaceDark = Color(0xFF121212);
   static const readerSurfaceDark = Color(0xFF1A1A1C);
   static const onSurfaceDark = Color(0xFFE8EAED);

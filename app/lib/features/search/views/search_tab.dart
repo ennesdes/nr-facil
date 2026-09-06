@@ -72,26 +72,6 @@ class _SearchTabState extends State<SearchTab> {
             ),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-          child: Obx(
-            () => Wrap(
-              spacing: 8,
-              children: [
-                FilterChip(
-                  label: const Text('Só favoritos'),
-                  selected: _controller.favoritesOnly.value,
-                  onSelected: (value) {
-                    _controller.favoritesOnly.value = value;
-                    if (_controller.query.value.isNotEmpty) {
-                      _controller.performSearchNow();
-                    }
-                  },
-                ),
-              ],
-            ),
-          ),
-        ),
         Expanded(
           child: Obx(
             () {
