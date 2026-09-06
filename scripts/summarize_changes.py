@@ -16,10 +16,16 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from typing import Any
 
 from _common import ROOT
 
 ITEM_MARKER_RE = re.compile(r"^\*\*(\d+(?:\.\d+)+)\*\*", re.MULTILINE)
+TABLE_IMAGE_RE = re.compile(
+    r"!\[([^\]]*)\]\((?:\.\./)?(assets/pages/page-\d+-table-\d+\.png)\)",
+    re.IGNORECASE,
+)
+MARKDOWN_TABLE_RE = re.compile(r"\|[^|\n]{1,300}\|")
 VIGENCIA_CAMPOS = ["publicado_em", "vigente_desde", "ultima_alteracao"]
 MAX_ITEMS_PER_NR = 30
 
@@ -85,8 +91,128 @@ def diff_snippet(old: str, new: str, context: int = 6) -> tuple[str, str, int]:
     return antes, depois, len(ops) - 1
 
 
+def git_head_sha() -> str | None:
+    """SHA do commit atual (HEAD) — snapshot dos assets antes da atualização."""
+    result = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    return result.stdout.strip() if result.returncode == 0 else None
+
+
+def extract_table_png_refs(text: str) -> list[tuple[str, str]]:
+    """Retorna pares (alt, asset_path) de imagens de tabela no item."""
+    return [(m.group(1).strip(), m.group(2)) for m in TABLE_IMAGE_RE.finditer(text)]
+
+
+def has_markdown_table(text: str) -> bool:
+    """True se o texto contém linhas em formato de tabela Markdown."""
+    return bool(MARKDOWN_TABLE_RE.search(text))
+
+
+def classify_table_change(old_body: str, new_body: str) -> dict[str, str | None] | None:
+    """Detecta alteração de tabela com PNG renderizado (antes/depois por imagem)."""
+    old_refs = extract_table_png_refs(old_body)
+    new_refs = extract_table_png_refs(new_body)
+    old_assets = [path for _, path in old_refs]
+    new_assets = [path for _, path in new_refs]
+
+    if not old_assets and not new_assets:
+        return None
+
+    label = ""
+    if new_refs and new_refs[0][0]:
+        label = new_refs[0][0]
+    elif old_refs and old_refs[0][0]:
+        label = old_refs[0][0]
+    else:
+        label = "Tabela"
+
+    return {
+        "label": label,
+        "antes_asset": old_assets[0] if old_assets else None,
+        "depois_asset": new_assets[0] if new_assets else None,
+    }
+
+
 def item_sort_key(item: str) -> tuple[int, ...]:
     return tuple(int(p) for p in item.split("."))
+
+
+def build_update_items(
+    old_text: str | None,
+    new_text: str,
+    *,
+    max_items: int = MAX_ITEMS_PER_NR,
+) -> list[dict[str, Any]]:
+    """Itens estruturados para app_meta.json — texto integral de cada item normativo.
+
+    Diferente de `summarize_md()` (resumo curto para changelog), aqui o app recebe
+    o parágrafo completo antes/depois para o usuário comparar no leitor de
+    atualizações.
+    """
+    if old_text is None:
+        return []
+
+    old_items = parse_items(old_text)
+    new_items = parse_items(new_text)
+
+    added = sorted(set(new_items) - set(old_items), key=item_sort_key)
+    removed = sorted(set(old_items) - set(new_items), key=item_sort_key)
+    changed = sorted(
+        (k for k in set(old_items) & set(new_items) if old_items[k] != new_items[k]),
+        key=item_sort_key,
+    )
+
+    items: list[dict[str, Any]] = []
+    shown = 0
+
+    def _append(payload: dict[str, Any]) -> bool:
+        nonlocal shown
+        if shown >= max_items:
+            return False
+        items.append(payload)
+        shown += 1
+        return True
+
+    for item in added:
+        if not _append({"item": item, "tipo": "novo", "resumo": new_items[item]}):
+            break
+    for item in removed:
+        if not _append({"item": item, "tipo": "removido", "resumo": old_items[item]}):
+            break
+    for item in changed:
+        old_body = old_items[item]
+        new_body = new_items[item]
+        table = classify_table_change(old_body, new_body)
+        if table:
+            payload: dict[str, Any] = {
+                "item": item,
+                "tipo": "alterado",
+                "kind": "tabela",
+                "resumo": "",
+                "tabela": {
+                    "label": table["label"],
+                },
+            }
+            if table.get("antes_asset"):
+                payload["tabela"]["antes_asset"] = table["antes_asset"]
+            if table.get("depois_asset"):
+                payload["tabela"]["depois_asset"] = table["depois_asset"]
+        else:
+            payload = {
+                "item": item,
+                "tipo": "alterado",
+                "resumo": "",
+                "antes": old_body,
+                "depois": new_body,
+            }
+        if not _append(payload):
+            break
+
+    return items
 
 
 def summarize_md(nr_id: str, old_text: str | None, new_text: str) -> list[str]:
@@ -121,12 +247,17 @@ def summarize_md(nr_id: str, old_text: str | None, new_text: str) -> list[str]:
     for item in changed:
         if shown >= MAX_ITEMS_PER_NR:
             break
-        antes, depois, outras = diff_snippet(old_items[item], new_items[item])
-        lines.append(f"- ✏️ Item alterado **{item}**")
-        lines.append(f"  - antes: …{truncate(antes, 160)}…")
-        lines.append(f"  - depois: …{truncate(depois, 160)}…")
-        if outras:
-            lines.append(f"  - (+{outras} outro(s) trecho(s) diferente(s) neste item)")
+        table = classify_table_change(old_items[item], new_items[item])
+        if table:
+            label = table.get("label") or "Tabela"
+            lines.append(f"- ✏️ Tabela alterada **{item}** ({label})")
+        else:
+            antes, depois, outras = diff_snippet(old_items[item], new_items[item])
+            lines.append(f"- ✏️ Item alterado **{item}**")
+            lines.append(f"  - antes: …{truncate(antes, 160)}…")
+            lines.append(f"  - depois: …{truncate(depois, 160)}…")
+            if outras:
+                lines.append(f"  - (+{outras} outro(s) trecho(s) diferente(s) neste item)")
         shown += 1
     if total > shown:
         lines.append(f"- … +{total - shown} outra(s) alteração(ões) de item omitida(s) (mudança grande — ver diff completo do commit)")

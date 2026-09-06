@@ -11,6 +11,8 @@ class ReadingHistoryEntry {
   final double scrollMaxExtent;
   final String? lastHeadingViewed;
   final String? lastItemNumber;
+  /// Percentual estrutural salvo pelo leitor (0–100), quando disponível.
+  final int? progressPercent;
 
   ReadingHistoryEntry({
     required this.nrId,
@@ -19,6 +21,7 @@ class ReadingHistoryEntry {
     this.scrollMaxExtent = 0.0,
     this.lastHeadingViewed,
     this.lastItemNumber,
+    this.progressPercent,
   });
 
   factory ReadingHistoryEntry.fromMap(Map<String, dynamic> map) {
@@ -36,6 +39,7 @@ class ReadingHistoryEntry {
             (map['scroll_max_extent'] as num?)?.toDouble() ?? 0.0,
         lastHeadingViewed: map['last_heading_viewed'] as String?,
         lastItemNumber: map['last_item_number'] as String?,
+        progressPercent: (map['progress_percent'] as num?)?.toInt(),
       );
     } catch (e) {
       throw ReadingHistoryParseException(
@@ -51,17 +55,21 @@ class ReadingHistoryEntry {
       'scroll_max_extent': scrollMaxExtent,
       'last_heading_viewed': lastHeadingViewed,
       'last_item_number': lastItemNumber,
+      if (progressPercent != null) 'progress_percent': progressPercent,
     };
   }
 
-  int? get progressPercent {
-    if (scrollMaxExtent <= 0) {
-      return scrollPosition > 0 ? 100 : null;
-    }
+  /// Fallback por scroll quando o percentual estrutural não foi salvo.
+  int? get scrollProgressPercent {
+    if (scrollMaxExtent <= 0) return null;
     if (scrollPosition >= scrollMaxExtent - 4) return 100;
     final ratio = (scrollPosition / scrollMaxExtent).clamp(0.0, 1.0);
     return (ratio * 100).round();
   }
+
+  /// Percentual efetivo para exibição (estrutural preferido, scroll como fallback).
+  int? get effectiveProgressPercent =>
+      progressPercent ?? scrollProgressPercent;
 
   ReadingHistoryEntry copyWith({
     String? nrId,
@@ -70,6 +78,7 @@ class ReadingHistoryEntry {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    int? progressPercent,
   }) {
     return ReadingHistoryEntry(
       nrId: nrId ?? this.nrId,
@@ -78,6 +87,7 @@ class ReadingHistoryEntry {
       scrollMaxExtent: scrollMaxExtent ?? this.scrollMaxExtent,
       lastHeadingViewed: lastHeadingViewed ?? this.lastHeadingViewed,
       lastItemNumber: lastItemNumber ?? this.lastItemNumber,
+      progressPercent: progressPercent ?? this.progressPercent,
     );
   }
 }

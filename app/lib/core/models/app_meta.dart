@@ -61,6 +61,7 @@ class UpdateEntry {
   final String? pdfHash;
   final String summary; // resumo curto (ex: "2 itens alterados")
   final List<UpdateItem> items; // itens granulares (novo, alterado, removido)
+  final String? contentRef; // SHA git do conteúdo anterior (assets "antes")
   final DateTime? createdAt; // quando a atualização foi gerada
 
   UpdateEntry({
@@ -71,6 +72,7 @@ class UpdateEntry {
     this.pdfHash,
     required this.summary,
     this.items = const [],
+    this.contentRef,
     this.createdAt,
   });
 
@@ -94,6 +96,7 @@ class UpdateEntry {
         pdfHash: json['pdf_hash'] as String?,
         summary: json['summary'] as String? ?? 'Atualizado',
         items: itemsList,
+        contentRef: json['content_ref'] as String?,
         createdAt: createdAt,
       );
     } catch (e) {
@@ -111,7 +114,38 @@ class UpdateEntry {
       'pdf_hash': pdfHash,
       'summary': summary,
       'items': items.map((e) => e.toJson()).toList(),
+      if (contentRef != null) 'content_ref': contentRef,
       'created_at': createdAt?.toIso8601String(),
+    };
+  }
+}
+
+/// Metadados de alteração de tabela (PNG antes/depois).
+class UpdateTableChange {
+  final String? label;
+  final String? antesAsset;
+  final String? depoisAsset;
+
+  const UpdateTableChange({
+    this.label,
+    this.antesAsset,
+    this.depoisAsset,
+  });
+
+  factory UpdateTableChange.fromJson(Map<String, dynamic>? json) {
+    if (json == null) return const UpdateTableChange();
+    return UpdateTableChange(
+      label: json['label'] as String?,
+      antesAsset: json['antes_asset'] as String?,
+      depoisAsset: json['depois_asset'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (label != null) 'label': label,
+      if (antesAsset != null) 'antes_asset': antesAsset,
+      if (depoisAsset != null) 'depois_asset': depoisAsset,
     };
   }
 }
@@ -120,20 +154,42 @@ class UpdateEntry {
 class UpdateItem {
   final String item; // ex: "6.5", "6.21"
   final String tipo; // "novo", "removido", "alterado"
-  final String resumo; // resumo da mudança
+  final String resumo; // resumo curto (novo/removido) ou legado (alterado)
+  final String? antes; // trecho anterior (alterado)
+  final String? depois; // trecho novo (alterado)
+  final String? kind; // ex.: "tabela"
+  final UpdateTableChange? tabela;
 
   UpdateItem({
     required this.item,
     required this.tipo,
     required this.resumo,
+    this.antes,
+    this.depois,
+    this.kind,
+    this.tabela,
   });
+
+  bool get isTableChange => kind == 'tabela' && tabela != null;
 
   factory UpdateItem.fromJson(Map<String, dynamic> json) {
     try {
+      final tipo = json['tipo'] as String? ?? 'desconhecido';
+      final resumoRaw = json['resumo'] as String?;
+      final antes = json['antes'] as String?;
+      final depois = json['depois'] as String?;
+      final tabelaRaw = json['tabela'];
+
       return UpdateItem(
         item: json['item'] as String? ?? 'desconhecido',
-        tipo: json['tipo'] as String? ?? 'desconhecido',
-        resumo: json['resumo'] as String? ?? 'Sem detalhes',
+        tipo: tipo,
+        resumo: resumoRaw ?? (tipo == 'alterado' ? '' : 'Sem detalhes'),
+        antes: antes,
+        depois: depois,
+        kind: json['kind'] as String?,
+        tabela: tabelaRaw is Map<String, dynamic>
+            ? UpdateTableChange.fromJson(tabelaRaw)
+            : null,
       );
     } catch (e) {
       throw UpdateItemParseException('Falha ao parsear item de atualização: $e');
@@ -145,6 +201,10 @@ class UpdateItem {
       'item': item,
       'tipo': tipo,
       'resumo': resumo,
+      if (antes != null) 'antes': antes,
+      if (depois != null) 'depois': depois,
+      if (kind != null) 'kind': kind,
+      if (tabela != null) 'tabela': tabela!.toJson(),
     };
   }
 }

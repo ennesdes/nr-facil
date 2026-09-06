@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Any
 
 from _common import ROOT, setup_logging
-from summarize_changes import summarize_md, git_show
+from summarize_changes import build_update_items, git_head_sha, git_show
 
 logger = logging.getLogger(__name__)
 
@@ -53,7 +53,7 @@ def parse_summary_items(lines: list[str]) -> list[dict[str, str]]:
     - "- 🆕 Novo item **6.3**: descrição..."
     - "- ❌ Item removido **6.3**: descrição..."
     - "- ✏️ Item alterado **6.3**" seguido de sub-linhas indentadas
-      "  - antes: ..." / "  - depois: ..." (montadas em um único resumo)
+      "  - antes: ..." / "  - depois: ..." (campos separados `antes`/`depois`)
     """
     items = []
     i, n = 0, len(lines)
@@ -87,8 +87,17 @@ def parse_summary_items(lines: list[str]) -> list[dict[str, str]]:
                     depois = sub[len("depois:"):].strip()
                 j += 1
 
-            resumo = f"antes: {antes} → depois: {depois}" if (antes or depois) else ""
-            items.append({"item": item_num, "tipo": "alterado", "resumo": resumo})
+            resumo = ""
+            item_payload: dict[str, str] = {
+                "item": item_num,
+                "tipo": "alterado",
+                "resumo": resumo,
+            }
+            if antes:
+                item_payload["antes"] = antes
+            if depois:
+                item_payload["depois"] = depois
+            items.append(item_payload)
             i = j
 
         else:
@@ -116,8 +125,11 @@ def generate_summary(items: list[dict[str, str]]) -> str:
 
     # Resumo genérico baseado no total
     if total == 1:
-        # Se há só um item alterado, mostre detalhes
         item = items[0]
+        if item.get("kind") == "tabela":
+            tabela = item.get("tabela") or {}
+            label = tabela.get("label") or "Tabela"
+            return f"Tabela alterada: {item.get('item', '?')} ({label})"
         tipo_text = {
             "novo": "novo item adicionado",
             "removido": "item removido",
@@ -136,7 +148,7 @@ def build_app_meta(dry_run: bool = False) -> int:
     1. Para cada NR no manifest.json
     2. Compara hash (md) com a última entrada conhecida em app_meta.json
     3. Se mudou, acrescenta nova entrada em "updates"
-    4. Gera items[] granulares usando summarize_md (se git_show disponível)
+    4. Gera items[] granulares com texto integral (`build_update_items`)
     5. Gera summary curto a partir dos items
     6. Mantém só as MAX_UPDATES entradas mais recentes
 
@@ -161,6 +173,7 @@ def build_app_meta(dry_run: bool = False) -> int:
     # que só gravava pdf_hash) — usado para não rotular como "Primeira versão" uma
     # NR que só está sem `hash` por causa da migração de critério (D1: pdf_hash → hash).
     seen_nr_ids = {u["nr_id"] for u in previous_updates if "nr_id" in u}
+    content_ref = git_head_sha()
 
     new_entries = []
     for nr in nrs:
@@ -192,11 +205,10 @@ def build_app_meta(dry_run: bool = False) -> int:
                     old_text = git_show("HEAD", str(content_file.relative_to(ROOT)))
 
                     if old_text is not None:
-                        # summarize_md retorna lista de linhas (markdown)
-                        summary_lines = summarize_md(nr_id, old_text, new_text)
-                        # Parse das linhas para extrair itens estruturados
-                        items = parse_summary_items(summary_lines)
-                        logger.debug(f"  {nr_id}: {len(items)} items extraídos do diff")
+                        items = build_update_items(old_text, new_text)
+                        logger.debug(
+                            f"  {nr_id}: {len(items)} items extraídos do diff (texto integral)"
+                        )
                     else:
                         logger.debug(f"  {nr_id}: git_show falhou, ignorando diff granular")
                 else:
@@ -216,6 +228,7 @@ def build_app_meta(dry_run: bool = False) -> int:
             "pdf_hash": nr.get("pdf_hash"),  # preserva para compatibilidade/auditoria
             "summary": summary,
             "items": items,  # novo: diff granular
+            "content_ref": content_ref,
             "created_at": datetime.now(timezone.utc).isoformat(),
         })
         logger.info(f"  {nr_id}: {summary} ({len(items)} items)")

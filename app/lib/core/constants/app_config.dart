@@ -18,6 +18,17 @@ class AppConfig {
   /// URL base para download de conteúdo das NRs (content/nr-XX/...).
   static const String contentBaseUrl = '$githubRawBaseUrl/content';
 
+  /// URL raw de um asset versionado (PNG de tabela, etc.) em um ref git.
+  static String contentAssetUrl(
+    String nrId,
+    String assetPath, {
+    String gitRef = 'main',
+  }) {
+    final normalized = assetPath.replaceFirst(RegExp(r'^\.\./'), '');
+    const repoRoot = 'https://raw.githubusercontent.com/ennesdes/nr-facil';
+    return '$repoRoot/$gitRef/content/$nrId/$normalized';
+  }
+
   /// Tempo máximo de espera para sync (em segundos).
   static const int syncTimeoutSeconds = 30;
 

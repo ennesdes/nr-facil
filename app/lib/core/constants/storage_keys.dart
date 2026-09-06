@@ -37,4 +37,8 @@ class StorageKeys {
 
   // Tema global (system | light | dark)
   static const String appThemeMode = '${_prefix}app_theme_mode';
+
+  /// Snapshot das NRs pendentes quando o card da home foi dispensado.
+  static const String pendingUpdatesCardDismissedSnapshot =
+      '${_prefix}pending_updates_card_dismissed_snapshot';
 }

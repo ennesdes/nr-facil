@@ -65,11 +65,17 @@ class ContentService extends GetxService {
   /// Lista reativa de IDs de NRs favoritadas (ordem de exibição importa)
   final favoriteIds = <String>[].obs;
 
+  /// Sinal explícito para UI reagir a mudanças em [favoriteIds].
+  final favoritesVersion = 0.obs;
+
   /// NRs com download em andamento (lista sob demanda na UI).
   final downloadingNrIds = <String>{}.obs;
 
   /// Contagem reativa de atualizações não lidas
   final unreadUpdatesCount = 0.obs;
+
+  /// Card de atualizações pendentes na home (reativo).
+  final pendingUpdatesCardVisible = false.obs;
 
   /// Progresso do download em massa (null = ocioso).
   final bulkSyncProgress = Rxn<BulkSyncProgress>();
@@ -112,6 +118,7 @@ class ContentService extends GetxService {
 
     // Carregar manifest do cache local ao iniciar
     await _loadManifestFromCache();
+    _pruneOrphanFavorites();
 
     _establishUpdatesBaselineIfNeeded();
 
@@ -183,6 +190,7 @@ class ContentService extends GetxService {
     await _saveManifestToCache(remoteManifest);
 
     _establishUpdatesBaselineIfNeeded();
+    _pruneOrphanFavorites();
 
     lastSyncedAt.value = DateTime.now();
     GetStorage().write(
@@ -994,6 +1002,37 @@ class ContentService extends GetxService {
   /// Chamado internamente após marcar NR como vista ou carregar manifest.
   void _updateUnreadCount() {
     unreadUpdatesCount.value = updatedNrs.length;
+    _refreshPendingUpdatesCardVisibility();
+  }
+
+  /// Snapshot ordenado dos IDs com atualização pendente (para dismiss do card).
+  String pendingUpdatesSnapshot() {
+    final ids = updatedNrs.map((entry) => entry.id).toList()
+      ..sort();
+    return ids.join(',');
+  }
+
+  /// Atualiza visibilidade do card de atualizações na home.
+  void _refreshPendingUpdatesCardVisibility() {
+    if (updatedNrs.isEmpty) {
+      pendingUpdatesCardVisible.value = false;
+      return;
+    }
+
+    final current = pendingUpdatesSnapshot();
+    final dismissed = GetStorage().read<String?>(
+      StorageKeys.pendingUpdatesCardDismissedSnapshot,
+    );
+    pendingUpdatesCardVisible.value = current != dismissed;
+  }
+
+  /// Dispensar card de atualizações pendentes na home.
+  void dismissPendingUpdatesCard() {
+    GetStorage().write(
+      StorageKeys.pendingUpdatesCardDismissedSnapshot,
+      pendingUpdatesSnapshot(),
+    );
+    pendingUpdatesCardVisible.value = false;
   }
 
   /// Buscar entrada de atualização mais recente para uma NR.
@@ -1147,6 +1186,23 @@ class ContentService extends GetxService {
     }
   }
 
+  /// Remove IDs que não existem mais no manifest (só com manifest carregado).
+  void _pruneOrphanFavorites() {
+    final manifestIds = manifest.value?.nrs.map((entry) => entry.id).toSet();
+    if (manifestIds == null || manifestIds.isEmpty) return;
+
+    final kept =
+        favoriteIds.where((id) => manifestIds.contains(id)).toList();
+    if (kept.length == favoriteIds.length) return;
+
+    AppLogger.debug(
+      'Removendo ${favoriteIds.length - kept.length} favorito(s) órfão(s)',
+    );
+    favoriteIds.assignAll(kept);
+    favoritesVersion.value++;
+    GetStorage().write(StorageKeys.favoriteNrs, kept);
+  }
+
   /// Verificar se uma NR é favorita.
   bool isFavorite(String nrId) {
     return favoriteIds.contains(nrId);
@@ -1156,16 +1212,19 @@ class ContentService extends GetxService {
   ///
   /// Atualiza lista reativa e persiste em storage.
   void toggleFavorite(String nrId) {
-    final wasFavorite = favoriteIds.contains(nrId);
+    final updated = List<String>.from(favoriteIds);
+    final wasFavorite = updated.contains(nrId);
     if (wasFavorite) {
-      favoriteIds.remove(nrId);
+      updated.remove(nrId);
       AppLogger.debug('NR $nrId removida dos favoritos');
     } else {
-      favoriteIds.add(nrId);
+      updated.add(nrId);
       AppLogger.debug('NR $nrId adicionada aos favoritos');
       unawaited(_prefetchSingleFavorite(nrId));
     }
-    GetStorage().write(StorageKeys.favoriteNrs, favoriteIds.toList());
+    favoriteIds.assignAll(updated);
+    favoritesVersion.value++;
+    GetStorage().write(StorageKeys.favoriteNrs, updated);
   }
 
   Future<void> _prefetchSingleFavorite(String nrId) async {
@@ -1187,9 +1246,12 @@ class ContentService extends GetxService {
   /// `newIndex` já vem ajustado pelo `onReorderItem` — não reajustar aqui.
   /// Atualiza ordem e persiste em storage.
   void reorderFavorites(int oldIndex, int newIndex) {
-    final item = favoriteIds.removeAt(oldIndex);
-    favoriteIds.insert(newIndex, item);
-    GetStorage().write(StorageKeys.favoriteNrs, favoriteIds.toList());
+    final updated = List<String>.from(favoriteIds);
+    final item = updated.removeAt(oldIndex);
+    updated.insert(newIndex, item);
+    favoriteIds.assignAll(updated);
+    favoritesVersion.value++;
+    GetStorage().write(StorageKeys.favoriteNrs, updated);
     AppLogger.debug('Favoritos reordenados: índice $oldIndex para $newIndex');
   }
 
@@ -1224,6 +1286,7 @@ class ContentService extends GetxService {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    int? progressPercent,
   }) {
     try {
       final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
@@ -1253,6 +1316,7 @@ class ContentService extends GetxService {
           lastHeadingViewed:
               lastHeadingViewed ?? existing?.lastHeadingViewed,
           lastItemNumber: lastItemNumber ?? existing?.lastItemNumber,
+          progressPercent: progressPercent ?? existing?.progressPercent,
         ),
       );
 
@@ -1306,7 +1370,19 @@ class ContentService extends GetxService {
 
   /// Progresso de leitura em percentual (0–100), ou null se desconhecido.
   int? getReadingProgressPercent(String nrId) {
-    return getReadingHistoryEntry(nrId)?.progressPercent;
+    return getReadingHistoryEntry(nrId)?.effectiveProgressPercent;
+  }
+
+  /// Label de posição salva (item ou seção) para "Continuar leitura".
+  ///
+  /// Usa [lastHeadingViewed] (label formatado pelo leitor) como fonte
+  /// principal — [lastItemNumber] pode ficar obsoleto em entradas antigas.
+  String? getContinueReadingPositionLabel(String nrId) {
+    final heading = getLastHeadingViewed(nrId);
+    if (heading != null && heading.isNotEmpty) return heading;
+    final item = getLastItemNumber(nrId);
+    if (item != null && item.isNotEmpty) return item;
+    return null;
   }
 
   /// Última seção/heading visualizada no leitor.
@@ -1347,6 +1423,8 @@ class ContentService extends GetxService {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    int? progressPercent,
+    bool replacePositionLabels = false,
   }) {
     try {
       final savedList = GetStorage().read<List>(StorageKeys.readingHistory);
@@ -1374,14 +1452,25 @@ class ContentService extends GetxService {
           effectivePosition = ratio * scrollMaxExtent;
         }
 
-        history[index] = existing.copyWith(
-          scrollPosition: effectivePosition,
-          scrollMaxExtent: effectiveMaxExtent,
-          lastHeadingViewed:
-              lastHeadingViewed ?? existing.lastHeadingViewed,
-          lastItemNumber: lastItemNumber ?? existing.lastItemNumber,
-          lastAccessedAt: DateTime.now(),
-        );
+        history[index] = replacePositionLabels
+            ? ReadingHistoryEntry(
+                nrId: existing.nrId,
+                lastAccessedAt: DateTime.now(),
+                scrollPosition: effectivePosition,
+                scrollMaxExtent: effectiveMaxExtent,
+                lastHeadingViewed: lastHeadingViewed,
+                lastItemNumber: lastItemNumber,
+                progressPercent: progressPercent ?? existing.progressPercent,
+              )
+            : existing.copyWith(
+                scrollPosition: effectivePosition,
+                scrollMaxExtent: effectiveMaxExtent,
+                lastHeadingViewed:
+                    lastHeadingViewed ?? existing.lastHeadingViewed,
+                lastItemNumber: lastItemNumber ?? existing.lastItemNumber,
+                progressPercent: progressPercent ?? existing.progressPercent,
+                lastAccessedAt: DateTime.now(),
+              );
         final mapList = history.map((e) => e.toMap()).toList();
         GetStorage().write(StorageKeys.readingHistory, mapList);
         _notifyReadingHistoryChanged();
@@ -1393,6 +1482,7 @@ class ContentService extends GetxService {
           scrollMaxExtent: scrollMaxExtent,
           lastHeadingViewed: lastHeadingViewed,
           lastItemNumber: lastItemNumber,
+          progressPercent: progressPercent,
         );
       }
     } catch (e, st) {

@@ -88,82 +88,87 @@ class _ProgressCard extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final showBar = indeterminate || progress != null;
 
-    final card = Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(AppSpacing.md),
-      decoration: BoxDecoration(
-        color: colorScheme.primaryContainer.withValues(alpha: 0.35),
-        borderRadius: BorderRadius.circular(AppRadius.md),
-        border: Border.all(color: colorScheme.outline.withValues(alpha: 0.35)),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Icon(icon, size: 22, color: colorScheme.primary),
-              const SizedBox(width: AppSpacing.sm),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            title,
-                            style: theme.textTheme.titleSmall?.copyWith(
-                              color: colorScheme.onSurface,
+    final card = Card(
+      margin: EdgeInsets.zero,
+      child: Padding(
+        padding: const EdgeInsets.all(AppSpacing.md),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: colorScheme.primaryContainer.withValues(alpha: 0.55),
+                    borderRadius: BorderRadius.circular(AppRadius.sm),
+                  ),
+                  child: Icon(icon, size: 22, color: colorScheme.primary),
+                ),
+                const SizedBox(width: AppSpacing.sm),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              title,
+                              style: theme.textTheme.titleSmall?.copyWith(
+                                color: colorScheme.onSurface,
+                              ),
                             ),
                           ),
-                        ),
-                        if (percentLabel != null) ...[
-                          const SizedBox(width: AppSpacing.sm),
-                          Text(
-                            percentLabel!,
-                            style: theme.textTheme.labelLarge?.copyWith(
-                              color: colorScheme.primary,
-                              fontWeight: FontWeight.w600,
+                          if (percentLabel != null) ...[
+                            const SizedBox(width: AppSpacing.sm),
+                            Text(
+                              percentLabel!,
+                              style: theme.textTheme.labelLarge?.copyWith(
+                                color: colorScheme.primary,
+                                fontWeight: FontWeight.w600,
+                              ),
                             ),
-                          ),
+                          ],
                         ],
-                      ],
-                    ),
-                    const SizedBox(height: AppSpacing.xs),
-                    Text(
-                      subtitle,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: colorScheme.onSurfaceVariant,
                       ),
-                    ),
-                    if (hint != null) ...[
                       const SizedBox(height: AppSpacing.xs),
                       Text(
-                        hint!,
-                        style: theme.textTheme.labelSmall?.copyWith(
+                        subtitle,
+                        style: theme.textTheme.bodySmall?.copyWith(
                           color: colorScheme.onSurfaceVariant,
                         ),
                       ),
+                      if (hint != null) ...[
+                        const SizedBox(height: AppSpacing.xs),
+                        Text(
+                          hint!,
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: colorScheme.onSurfaceVariant,
+                          ),
+                        ),
+                      ],
                     ],
-                  ],
+                  ),
+                ),
+              ],
+            ),
+            if (showBar) ...[
+              const SizedBox(height: AppSpacing.sm),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(2),
+                child: LinearProgressIndicator(
+                  value: indeterminate ? null : progress,
+                  minHeight: 4,
+                  backgroundColor: colorScheme.outline.withValues(alpha: 0.22),
+                  color: colorScheme.primary,
                 ),
               ),
             ],
-          ),
-          if (showBar) ...[
-            const SizedBox(height: AppSpacing.sm),
-            ClipRRect(
-              borderRadius: BorderRadius.circular(2),
-              child: LinearProgressIndicator(
-                value: indeterminate ? null : progress,
-                minHeight: 4,
-                backgroundColor: colorScheme.outline.withValues(alpha: 0.22),
-                color: colorScheme.primary,
-              ),
-            ),
           ],
-        ],
+        ),
       ),
     );
 

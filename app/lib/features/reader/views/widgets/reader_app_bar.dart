@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
+import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_font_size_control.dart';
 
 /// App bar do leitor: voltar, título, busca, índice e menu.
 class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String nrId;
   final bool isFavorite;
+  final bool hasPendingUpdate;
   final double fontSize;
   final VoidCallback onBack;
   final VoidCallback onOpenIndex;
@@ -17,6 +19,7 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
   const ReaderAppBar({
     required this.nrId,
     required this.isFavorite,
+    required this.hasPendingUpdate,
     required this.fontSize,
     required this.onBack,
     required this.onOpenIndex,
@@ -38,7 +41,23 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
         message: 'Voltar para normas',
         child: BackButton(onPressed: onBack),
       ),
-      title: Text(nr_id.formatNrLabel(nrId)),
+      title: Row(
+        children: [
+          Flexible(
+            child: Text(
+              nr_id.formatNrLabel(nrId),
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+          if (hasPendingUpdate) ...[
+            const SizedBox(width: 8),
+            const NrBadge(
+              variant: NrBadgeVariant.update,
+              compact: true,
+            ),
+          ],
+        ],
+      ),
       centerTitle: false,
       actions: [
         IconButton(

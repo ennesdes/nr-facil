@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
+import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_section.dart';
 import 'package:nrfacil/features/home/views/widgets/empty_favoritos_state.dart';
+import 'package:nrfacil/features/home/views/widgets/pending_updates_section.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
@@ -25,14 +27,20 @@ class _FavoritosTabState extends State<FavoritosTab> {
 
     return Obx(
       () {
+        contentService.favoritesVersion.value;
         if (contentService.favoriteIds.isEmpty) {
           return const EmptyFavoritosState();
+        }
+
+        if (contentService.isManifestLoading) {
+          return const NormasTabShimmer();
         }
 
         _maybeNotifyRevokedFavorites(contentService);
 
         return ListView(
           children: [
+            const PendingUpdatesSection(),
             const ContinuarLeituraSection(),
             ReorderableListView(
               shrinkWrap: true,
@@ -76,15 +84,13 @@ class _FavoritosTabState extends State<FavoritosTab> {
   ) {
     final entry = contentService.manifest.value?.findNr(nrId);
     if (entry == null) {
-      Future.microtask(() => contentService.toggleFavorite(nrId));
       return SizedBox(key: ValueKey(nrId), width: 0, height: 0);
     }
 
-    return NrListTile(
+    return ReactiveNrListTile(
       key: ValueKey(nrId),
       nrEntry: entry,
-      isFavorite: true,
-      hasUpdate: contentService.hasUpdate(nrId),
+      contentService: contentService,
       isRevoked: entry.isRevoked,
       showNotDownloaded:
           !entry.isRevoked && !contentService.isNrFullyCached(nrId),
@@ -95,9 +101,6 @@ class _FavoritosTabState extends State<FavoritosTab> {
           return;
         }
         ReaderNavigation.open(nrId: nrId);
-      },
-      onToggleFavorite: () {
-        contentService.toggleFavorite(nrId);
       },
     );
   }

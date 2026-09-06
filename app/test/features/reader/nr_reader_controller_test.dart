@@ -69,6 +69,9 @@ class FakeContentService implements ContentService {
   Future<List<SearchChunk>> readSearchIndex(String nrId) async => [];
 
   @override
+  String? getContinueReadingPositionLabel(String nrId) => lastItemNumberResult;
+
+  @override
   noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 

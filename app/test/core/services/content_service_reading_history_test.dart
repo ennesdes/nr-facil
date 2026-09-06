@@ -96,7 +96,7 @@ void main() {
       expect(contentService.getReadingProgressPercent('nr-06'), 100);
     });
 
-    test('ReadingHistoryEntry progressPercent no final do scroll', () {
+    test('ReadingHistoryEntry effectiveProgressPercent no final do scroll', () {
       final entry = ReadingHistoryEntry(
         nrId: 'nr-06',
         lastAccessedAt: DateTime(2026),
@@ -104,7 +104,63 @@ void main() {
         scrollMaxExtent: 1000,
       );
 
-      expect(entry.progressPercent, 100);
+      expect(entry.effectiveProgressPercent, 100);
+    });
+
+    test('progressPercent salvo tem prioridade sobre scroll', () {
+      contentService.saveScrollPosition(
+        'nr-06',
+        100,
+        scrollMaxExtent: 1000,
+        progressPercent: 42,
+      );
+
+      expect(contentService.getReadingProgressPercent('nr-06'), 42);
+    });
+
+    test('getContinueReadingPositionLabel prioriza heading sobre item obsoleto',
+        () {
+      contentService.saveScrollPosition(
+        'nr-06',
+        500,
+        scrollMaxExtent: 1000,
+        lastHeadingViewed: '6.5 Objetivo',
+        lastItemNumber: '6.1.1',
+        replacePositionLabels: true,
+      );
+
+      expect(
+        contentService.getContinueReadingPositionLabel('nr-06'),
+        '6.5 Objetivo',
+      );
+    });
+
+    test('replacePositionLabels limpa lastItemNumber ao mudar de seção', () {
+      contentService.saveScrollPosition(
+        'nr-06',
+        400,
+        scrollMaxExtent: 1000,
+        lastHeadingViewed: '6.1 Objetivo',
+        lastItemNumber: '6.1.1',
+        replacePositionLabels: true,
+      );
+
+      contentService.saveScrollPosition(
+        'nr-06',
+        600,
+        scrollMaxExtent: 1000,
+        lastHeadingViewed: '6.2 Campo de aplicação',
+        lastItemNumber: null,
+        replacePositionLabels: true,
+      );
+
+      final entry = contentService.getReadingHistoryEntry('nr-06');
+      expect(entry?.lastHeadingViewed, '6.2 Campo de aplicação');
+      expect(entry?.lastItemNumber, isNull);
+      expect(
+        contentService.getContinueReadingPositionLabel('nr-06'),
+        '6.2 Campo de aplicação',
+      );
     });
 
     test('saveScrollPosition preserva razão quando maxExtent cresce', () {

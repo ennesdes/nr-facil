@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
-import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/update_count_badge.dart';
+import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
@@ -98,10 +99,20 @@ class HomePage extends GetView<HomeController> {
         final unreadCount = contentService.unreadUpdatesCount.value;
 
         return Stack(
+          clipBehavior: Clip.none,
           children: [
             IconButton(
-              icon: const Icon(Icons.notifications_outlined),
-              tooltip: 'Atualizações',
+              icon: Icon(
+                unreadCount > 0
+                    ? Icons.notifications
+                    : Icons.notifications_outlined,
+              ),
+              color: unreadCount > 0
+                  ? UpdateHighlight.accentColor(context)
+                  : null,
+              tooltip: unreadCount > 0
+                  ? '$unreadCount atualizações pendentes'
+                  : 'Atualizações',
               onPressed: () {
                 Get.to(
                   () => const UpdatesPage(),
@@ -109,32 +120,11 @@ class HomePage extends GetView<HomeController> {
                 );
               },
             ),
-            if (unreadCount > 0)
-              Positioned(
-                right: 4,
-                top: 4,
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 4.5,
-                    vertical: 2.5,
-                  ),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.error,
-                    borderRadius: BorderRadius.circular(AppRadius.full),
-                  ),
-                  constraints: const BoxConstraints(
-                    minWidth: 18,
-                    minHeight: 18,
-                  ),
-                  child: Text(
-                    unreadCount > 99 ? '99+' : '$unreadCount',
-                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                          color: Theme.of(context).colorScheme.onError,
-                        ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ),
+            Positioned(
+              right: 4,
+              top: 4,
+              child: UpdateCountBadge(count: unreadCount),
+            ),
           ],
         );
       },

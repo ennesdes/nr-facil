@@ -9,7 +9,7 @@ void main() {
     Widget wrap(Widget child) {
       return MaterialApp(
         theme: AppTheme.light,
-        home: Scaffold(body: child),
+        home: Scaffold(body: SingleChildScrollView(child: child)),
       );
     }
 
@@ -18,119 +18,92 @@ void main() {
       expect(find.byType(UpdateItemsList), findsOneWidget);
     });
 
-    testWidgets('renderiza item tipo novo com ícone semântico',
+    testWidgets('renderiza item tipo novo com bloco Adicionado',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
           item: '6.5',
           tipo: 'novo',
-          resumo: 'Novo requisito adicionado',
+          resumo: 'Novo requisito adicionado com texto completo.',
         ),
       ];
 
       await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
-      expect(find.text('6.5'), findsOneWidget);
-      expect(find.text('Novo requisito adicionado'), findsOneWidget);
+      expect(find.text('Item 6.5'), findsOneWidget);
+      expect(find.text('Adicionado:'), findsOneWidget);
+      expect(find.text('Novo requisito adicionado com texto completo.'), findsOneWidget);
     });
 
-    testWidgets('renderiza item tipo removido com ícone semântico',
-        (WidgetTester tester) async {
-      final items = [
-        UpdateItem(
-          item: '6.21',
-          tipo: 'removido',
-          resumo: 'Requisito descontinuado',
-        ),
-      ];
-
-      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
-
-      expect(find.byIcon(Icons.remove_circle_outline), findsOneWidget);
-      expect(find.text('6.21'), findsOneWidget);
-      expect(find.text('Requisito descontinuado'), findsOneWidget);
-    });
-
-    testWidgets('renderiza item tipo alterado com ícone semântico',
+    testWidgets('renderiza item alterado com parágrafos Antes e Depois',
         (WidgetTester tester) async {
       final items = [
         UpdateItem(
           item: '6.1',
           tipo: 'alterado',
-          resumo: 'Texto atualizado para maior clareza',
+          resumo: '',
+          antes: 'Texto completo do item antes da alteração normativa.',
+          depois: 'Texto completo do item depois da alteração normativa.',
         ),
       ];
 
       await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.byIcon(Icons.edit_outlined), findsOneWidget);
-      expect(find.text('6.1'), findsOneWidget);
-      expect(find.text('Texto atualizado para maior clareza'), findsOneWidget);
+      expect(find.text('Antes:'), findsOneWidget);
+      expect(find.text('Depois:'), findsOneWidget);
+      expect(find.text('Texto completo do item antes da alteração normativa.'), findsOneWidget);
+      expect(find.text('Texto completo do item depois da alteração normativa.'), findsOneWidget);
+      expect(find.textContaining('→'), findsNothing);
     });
 
-    testWidgets('renderiza múltiplos itens de tipos diferentes',
+    testWidgets('renderiza item de tabela com blocos Antes e Depois',
         (WidgetTester tester) async {
       final items = [
-        UpdateItem(item: '6.1', tipo: 'novo', resumo: 'Novo artigo'),
-        UpdateItem(item: '6.5', tipo: 'alterado', resumo: 'Modificação importante'),
-        UpdateItem(item: '6.21', tipo: 'removido', resumo: 'Item removido'),
-      ];
-
-      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
-
-      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
-      expect(find.byIcon(Icons.edit_outlined), findsOneWidget);
-      expect(find.byIcon(Icons.remove_circle_outline), findsOneWidget);
-      expect(find.text('6.1'), findsOneWidget);
-      expect(find.text('6.5'), findsOneWidget);
-      expect(find.text('6.21'), findsOneWidget);
-    });
-
-    testWidgets('renderiza item sem resumo corretamente',
-        (WidgetTester tester) async {
-      final items = [
-        UpdateItem(item: '6.5', tipo: 'novo', resumo: ''),
-      ];
-
-      await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
-
-      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
-      expect(find.text('6.5'), findsOneWidget);
-    });
-
-    testWidgets('respeta padding customizado', (WidgetTester tester) async {
-      final items = [
-        UpdateItem(item: '6.5', tipo: 'novo', resumo: 'Teste'),
+        UpdateItem(
+          item: '3.4',
+          tipo: 'alterado',
+          resumo: '',
+          kind: 'tabela',
+          tabela: const UpdateTableChange(
+            label: 'Tabela da página 12',
+            antesAsset: 'assets/pages/page-012-table-00.png',
+            depoisAsset: 'assets/pages/page-012-table-01.png',
+          ),
+        ),
       ];
 
       await tester.pumpWidget(
         wrap(
           UpdateItemsList(
             items: items,
-            padding: const EdgeInsets.all(32),
+            nrId: 'nr-03',
+            contentRef: 'abc123',
           ),
         ),
       );
 
-      expect(find.byIcon(Icons.add_circle_outline), findsOneWidget);
+      expect(find.text('Tabela alterada'), findsOneWidget);
+      expect(find.text('Tabela da página 12'), findsOneWidget);
+      expect(find.text('Antes:'), findsOneWidget);
+      expect(find.text('Depois:'), findsOneWidget);
     });
 
-    testWidgets('renderiza tipo desconhecido com ícone padrão',
-        (WidgetTester tester) async {
+    testWidgets('renderiza múltiplos itens', (WidgetTester tester) async {
       final items = [
+        UpdateItem(item: '6.1', tipo: 'novo', resumo: 'Novo artigo'),
         UpdateItem(
           item: '6.5',
-          tipo: 'desconhecido_tipo',
-          resumo: 'Tipo não mapeado',
+          tipo: 'alterado',
+          resumo: '',
+          antes: 'Antes',
+          depois: 'Depois',
         ),
       ];
 
       await tester.pumpWidget(wrap(UpdateItemsList(items: items)));
 
-      expect(find.byIcon(Icons.circle), findsOneWidget);
-      expect(find.text('6.5'), findsOneWidget);
-      expect(find.text('Tipo não mapeado'), findsOneWidget);
+      expect(find.text('Item 6.1'), findsOneWidget);
+      expect(find.text('Item 6.5'), findsOneWidget);
     });
   });
 }

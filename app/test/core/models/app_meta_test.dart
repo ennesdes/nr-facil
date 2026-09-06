@@ -40,8 +40,10 @@ void main() {
     test('toJson round-trip preserva todos os campos', () {
       final item = UpdateItem(
         item: '6.5',
-        tipo: 'novo',
-        resumo: 'Teste resumo',
+        tipo: 'alterado',
+        resumo: '',
+        antes: 'Antes',
+        depois: 'Depois',
       );
 
       final json = item.toJson();
@@ -50,6 +52,72 @@ void main() {
       expect(restored.item, item.item);
       expect(restored.tipo, item.tipo);
       expect(restored.resumo, item.resumo);
+      expect(restored.antes, item.antes);
+      expect(restored.depois, item.depois);
+    });
+
+    test('fromJson com antes e depois', () {
+      final json = {
+        'item': '6.5',
+        'tipo': 'alterado',
+        'resumo': '',
+        'antes': 'Texto antigo',
+        'depois': 'Texto novo',
+      };
+
+      final item = UpdateItem.fromJson(json);
+      expect(item.antes, 'Texto antigo');
+      expect(item.depois, 'Texto novo');
+    });
+
+    test('fromJson com kind tabela', () {
+      final json = {
+        'item': '3.4',
+        'tipo': 'alterado',
+        'kind': 'tabela',
+        'resumo': '',
+        'tabela': {
+          'label': 'Tabela da página 12',
+          'antes_asset': 'assets/pages/page-012-table-00.png',
+          'depois_asset': 'assets/pages/page-012-table-01.png',
+        },
+      };
+
+      final item = UpdateItem.fromJson(json);
+      expect(item.isTableChange, isTrue);
+      expect(item.tabela?.label, 'Tabela da página 12');
+      expect(item.tabela?.antesAsset, 'assets/pages/page-012-table-00.png');
+      expect(item.tabela?.depoisAsset, 'assets/pages/page-012-table-01.png');
+    });
+  });
+
+  group('UpdateTableChange', () {
+    test('toJson round-trip', () {
+      const tabela = UpdateTableChange(
+        label: 'Tabela da página 12',
+        antesAsset: 'assets/pages/page-012-table-00.png',
+        depoisAsset: 'assets/pages/page-012-table-01.png',
+      );
+
+      final restored = UpdateTableChange.fromJson(tabela.toJson());
+      expect(restored.label, tabela.label);
+      expect(restored.antesAsset, tabela.antesAsset);
+      expect(restored.depoisAsset, tabela.depoisAsset);
+    });
+  });
+
+  group('UpdateEntry contentRef', () {
+    test('fromJson preserva content_ref', () {
+      final entry = UpdateEntry.fromJson({
+        'nr_id': 'nr-03',
+        'title': 'NR-03',
+        'hash': 'abc',
+        'summary': 'Tabela alterada: 3.4',
+        'content_ref': 'deadbeef',
+        'items': [],
+      });
+
+      expect(entry.contentRef, 'deadbeef');
     });
   });
 

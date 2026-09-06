@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
+import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_system_ui.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
@@ -24,13 +25,21 @@ class NRReaderPage extends GetView<NRReaderController> {
 
   @override
   Widget build(BuildContext context) {
+    final contentService = Get.find<ContentService>();
+
     return Obx(() {
       Get.find<ThemeController>().themeMode.value;
-      return _buildScaffold(context);
+      contentService.favoritesVersion.value;
+      controller.showUpdateBanner.value;
+      controller.fontSize.value;
+      return _buildScaffold(
+        context,
+        isFavorite: contentService.isFavorite(nrId),
+      );
     });
   }
 
-  Widget _buildScaffold(BuildContext context) {
+  Widget _buildScaffold(BuildContext context, {required bool isFavorite}) {
     final readerSurface = context.readerSurfaceColor;
 
     return AppSystemUiScope(
@@ -40,7 +49,8 @@ class NRReaderPage extends GetView<NRReaderController> {
         backgroundColor: readerSurface,
       appBar: ReaderAppBar(
         nrId: nrId,
-        isFavorite: controller.isFavorite,
+        isFavorite: isFavorite,
+        hasPendingUpdate: controller.showUpdateBanner.value,
         fontSize: controller.fontSize.value,
         onBack: () => Get.back(),
         onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),

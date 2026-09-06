@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 
@@ -58,7 +60,7 @@ void main() {
       ),
     );
 
-    expect(find.text('Atualização disponível'), findsOneWidget);
+    expect(find.text('Atualizada'), findsOneWidget);
     expect(find.text('Revogada'), findsNothing);
   });
 
@@ -87,5 +89,34 @@ void main() {
 
     expect(titleTop - labelBottom, lessThan(24));
     expect(find.byIcon(Icons.star_border), findsOneWidget);
+  });
+
+  testWidgets('ReactiveNrListTile atualiza estrela ao favoritar', (tester) async {
+    Get.testMode = true;
+    final contentService = ContentService();
+    Get.put<ContentService>(contentService);
+
+    await tester.pumpWidget(
+      GetMaterialApp(
+        theme: AppTheme.light,
+        home: Scaffold(
+          body: ReactiveNrListTile(
+            nrEntry: _entry(),
+            contentService: contentService,
+            onTap: () {},
+          ),
+        ),
+      ),
+    );
+
+    expect(find.byIcon(Icons.star_border), findsOneWidget);
+
+    contentService.toggleFavorite('nr-02');
+    await tester.pumpAndSettle();
+
+    expect(find.byIcon(Icons.star), findsOneWidget);
+
+    Get.reset();
+    contentService.onClose();
   });
 }

@@ -22,13 +22,15 @@ class ContinuarLeituraSection extends StatelessWidget {
       final entry = manifest?.findNr(lastOpenedNrId);
       if (entry == null || entry.isRevoked) return const SizedBox.shrink();
 
-      final heading = contentService.getLastHeadingViewed(lastOpenedNrId);
+      final positionLabel =
+          contentService.getContinueReadingPositionLabel(lastOpenedNrId);
       final progress = contentService.getReadingProgressPercent(lastOpenedNrId);
 
       return ContinuarLeituraCard(
         nrEntry: entry,
-        sectionLabel: heading,
+        sectionLabel: positionLabel,
         progressPercent: progress,
+        hasUpdate: contentService.hasUpdate(lastOpenedNrId),
         onTap: () {
           ReaderNavigation.open(nrId: lastOpenedNrId);
         },

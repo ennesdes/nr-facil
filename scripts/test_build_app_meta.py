@@ -19,6 +19,79 @@ from build_app_meta import (
     parse_summary_items,
     generate_summary,
 )
+from summarize_changes import build_update_items, parse_items, summarize_md
+
+
+class TestBuildUpdateItems(unittest.TestCase):
+    """Testes para build_update_items (texto integral no app)."""
+
+    def test_alterado_usa_texto_completo_do_item(self):
+        old = (
+            "**5.7.2** O empregador deve garantir medidas de proteção "
+            "coletiva, de caráter administrativo ou de organização do # trabalho."
+        )
+        new = (
+            "**5.7.2** O empregador deve garantir medidas de proteção "
+            "coletiva, de caráter administrativo ou de organização do trabalho."
+        )
+        items = build_update_items(old, new)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["tipo"], "alterado")
+        self.assertIn("# trabalho", items[0]["antes"])
+        self.assertNotIn("# trabalho", items[0]["depois"])
+        self.assertNotIn("…", items[0]["antes"])
+
+    def test_novo_e_removido_tambem_usam_texto_integral(self):
+        old = "**6.1** Item antigo removido."
+        new = "**6.2** Item novo adicionado."
+        items = build_update_items(old, new)
+
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0]["tipo"], "novo")
+        self.assertEqual(items[0]["resumo"], parse_items(new)["6.2"])
+        self.assertEqual(items[1]["tipo"], "removido")
+        self.assertEqual(items[1]["resumo"], parse_items(old)["6.1"])
+
+    def test_alterado_tabela_emite_kind_tabela(self):
+        old = (
+            "**3.4** Conteúdo com "
+            "![Tabela da página 12](../assets/pages/page-012-table-00.png) no item."
+        )
+        new = (
+            "**3.4** Conteúdo com "
+            "![Tabela da página 12](../assets/pages/page-012-table-01.png) no item."
+        )
+        items = build_update_items(old, new)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["kind"], "tabela")
+        self.assertEqual(items[0]["tabela"]["label"], "Tabela da página 12")
+        self.assertEqual(
+            items[0]["tabela"]["antes_asset"],
+            "assets/pages/page-012-table-00.png",
+        )
+        self.assertEqual(
+            items[0]["tabela"]["depois_asset"],
+            "assets/pages/page-012-table-01.png",
+        )
+        self.assertNotIn("antes", items[0])
+        self.assertNotIn("depois", items[0])
+
+    def test_summarize_md_tabela_so_menciona_alteracao(self):
+        old = (
+            "**3.4** Conteúdo com "
+            "![Tabela da página 12](assets/pages/page-012-table-00.png) no item."
+        )
+        new = (
+            "**3.4** Conteúdo com "
+            "![Tabela da página 12](assets/pages/page-012-table-01.png) no item."
+        )
+        lines = summarize_md("nr-03", old, new)
+
+        self.assertTrue(any("Tabela alterada **3.4**" in line for line in lines))
+        self.assertFalse(any("antes:" in line for line in lines))
+        self.assertFalse(any("depois:" in line for line in lines))
 
 
 class TestParseSummaryItems(unittest.TestCase):
@@ -60,6 +133,9 @@ class TestParseSummaryItems(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["item"], "1.2")
         self.assertEqual(items[0]["tipo"], "alterado")
+        self.assertEqual(items[0]["resumo"], "")
+        self.assertEqual(items[0]["antes"], "…requisitos anteriores…")
+        self.assertEqual(items[0]["depois"], "…requisitos novos…")
 
     def test_parse_mixed_items(self):
         """Parse de múltiplos itens de tipos diferentes."""
@@ -173,6 +249,22 @@ class TestGenerateSummary(unittest.TestCase):
         self.assertIn("item alterado", summary)
         self.assertIn("1.2", summary)
         self.assertNotIn("None", summary)
+
+    def test_single_tabela_item(self):
+        """Uma tabela alterada."""
+        items = [
+            {
+                "item": "3.4",
+                "tipo": "alterado",
+                "kind": "tabela",
+                "resumo": "",
+                "tabela": {"label": "Tabela da página 12"},
+            }
+        ]
+        summary = generate_summary(items)
+        self.assertIn("Tabela alterada", summary)
+        self.assertIn("3.4", summary)
+        self.assertIn("Tabela da página 12", summary)
 
     def test_multiple_items(self):
         """Múltiplos itens → contagem total."""

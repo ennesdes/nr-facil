@@ -299,6 +299,24 @@ void main() {
       expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
     });
 
+    test('dismissPendingUpdatesCard oculta card e persiste snapshot', () async {
+      GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');
+
+      await contentService.syncMetadata();
+
+      expect(contentService.pendingUpdatesCardVisible.value, isTrue);
+      expect(contentService.pendingUpdatesSnapshot(), 'nr-06');
+
+      contentService.dismissPendingUpdatesCard();
+
+      expect(contentService.pendingUpdatesCardVisible.value, isFalse);
+      expect(
+        GetStorage().read(StorageKeys.pendingUpdatesCardDismissedSnapshot),
+        'nr-06',
+      );
+      expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
+    });
+
     test('baseline não sobrescreve last_seen_hash já gravado', () async {
       GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');
 
@@ -418,6 +436,113 @@ void main() {
       expect(result.cancelled, isTrue);
       expect(result.downloadedCount, greaterThanOrEqualTo(1));
       expect(result.downloadedCount, lessThanOrEqualTo(2));
+    });
+  });
+
+  group('ContentService favoritos', () {
+    late Directory storageDir;
+    late Directory cacheDir;
+    late ContentService contentService;
+
+    setUpAll(() async {
+      storageDir = await Directory.systemTemp.createTemp('nr_facil_fav_storage_');
+      PathProviderPlatform.instance = _FakePathProviderPlatform(storageDir.path);
+      await GetStorage.init();
+    });
+
+    tearDownAll(() async {
+      if (storageDir.existsSync()) {
+        await storageDir.delete(recursive: true);
+      }
+    });
+
+    setUp(() async {
+      Get.testMode = true;
+      GetStorage().erase();
+
+      cacheDir = await Directory.systemTemp.createTemp('nr_facil_fav_cache_');
+      contentService = ContentService(cacheDirOverride: cacheDir);
+      await contentService.onInit();
+    });
+
+    tearDown(() async {
+      contentService.onClose();
+      Get.reset();
+      if (cacheDir.existsSync()) {
+        await cacheDir.delete(recursive: true);
+      }
+    });
+
+    test('toggleFavorite persiste e recarrega do storage', () async {
+      contentService.toggleFavorite('nr-06');
+
+      expect(contentService.isFavorite('nr-06'), isTrue);
+      expect(contentService.favoritesVersion.value, 1);
+      expect(
+        GetStorage().read<List>(StorageKeys.favoriteNrs),
+        ['nr-06'],
+      );
+
+      contentService.onClose();
+      Get.reset();
+
+      final reloaded = ContentService(cacheDirOverride: cacheDir);
+      await reloaded.onInit();
+
+      expect(reloaded.isFavorite('nr-06'), isTrue);
+      reloaded.onClose();
+    });
+
+    test('toggleFavorite remove favorito persistido', () async {
+      contentService.toggleFavorite('nr-06');
+      contentService.toggleFavorite('nr-06');
+
+      expect(contentService.isFavorite('nr-06'), isFalse);
+      expect(GetStorage().read<List>(StorageKeys.favoriteNrs), isEmpty);
+    });
+
+    test('_pruneOrphanFavorites remove apenas IDs inexistentes no manifest',
+        () async {
+      contentService.onClose();
+      Get.reset();
+
+      final pruneCacheDir =
+          await Directory.systemTemp.createTemp('nr_facil_prune_cache_');
+      final manifestJson = {
+        'generated_at': '2026-01-01T00:00:00.000Z',
+        'version': 1,
+        'nrs': [
+          {
+            'id': 'nr-06',
+            'title': 'EPI',
+            'version': '1',
+            'hash': 'hash-06',
+            'pdf_hash': 'pdf-06',
+            'updated_at': '2026-01-01T00:00:00.000Z',
+            'url': 'https://example.com/nr-06.md',
+            'revogada': false,
+          },
+        ],
+      };
+
+      final manifestFile = File('${pruneCacheDir.path}/manifest.json');
+      manifestFile.parent.createSync(recursive: true);
+      await manifestFile.writeAsString(jsonEncode(manifestJson));
+      GetStorage().write(StorageKeys.favoriteNrs, ['nr-06', 'nr-99']);
+
+      final pruneService = ContentService(cacheDirOverride: pruneCacheDir);
+      await pruneService.onInit();
+
+      expect(pruneService.favoriteIds, ['nr-06']);
+      expect(
+        GetStorage().read<List>(StorageKeys.favoriteNrs),
+        ['nr-06'],
+      );
+
+      pruneService.onClose();
+      if (pruneCacheDir.existsSync()) {
+        await pruneCacheDir.delete(recursive: true);
+      }
     });
   });
 }

@@ -2,7 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
+import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
 /// Cabeçalho da aba Normas: busca local e filtros.
@@ -55,10 +57,12 @@ class _NormasListHeaderState extends State<NormasListHeader> {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final contentService = Get.find<ContentService>();
 
     return Obx(() {
       final query = _normasController.query.value;
       final activeFilter = _normasController.filter.value;
+      final pendingUpdates = contentService.unreadUpdatesCount.value;
 
       return Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -111,7 +115,20 @@ class _NormasListHeaderState extends State<NormasListHeader> {
                   Padding(
                     padding: const EdgeInsets.only(right: AppSpacing.sm),
                     child: FilterChip(
-                      label: Text(item.label),
+                      label: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(item.label),
+                          if (item.filter == NormasFilter.updated &&
+                              pendingUpdates > 0) ...[
+                            const SizedBox(width: AppSpacing.xs),
+                            UpdateCountBadge(
+                              count: pendingUpdates,
+                              minSize: 16,
+                            ),
+                          ],
+                        ],
+                      ),
                       selected: activeFilter == item.filter,
                       showCheckmark: false,
                       selectedColor: colorScheme.primary,

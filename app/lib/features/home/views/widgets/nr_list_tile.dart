@@ -1,13 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/display_text_utils.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
+import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_download_action.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
 
 /// Espaçamento entre o label NR e o título da norma.
 const double kNrListTileLabelTitleGap = 2;
+
+/// Tile reativo — observa favoritos e atualiza a estrela sem rebuild da lista.
+class ReactiveNrListTile extends StatelessWidget {
+  final ManifestEntry nrEntry;
+  final ContentService contentService;
+  final bool isRevoked;
+  final bool showNotDownloaded;
+  final bool hideStarButton;
+  final VoidCallback onTap;
+
+  const ReactiveNrListTile({
+    required this.nrEntry,
+    required this.contentService,
+    required this.onTap,
+    this.isRevoked = false,
+    this.showNotDownloaded = false,
+    this.hideStarButton = false,
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Obx(
+      () {
+        contentService.favoritesVersion.value;
+        return NrListTile(
+          nrEntry: nrEntry,
+          isFavorite: contentService.isFavorite(nrEntry.id),
+          hasUpdate: contentService.hasUpdate(nrEntry.id),
+          isRevoked: isRevoked,
+          showNotDownloaded: showNotDownloaded,
+          hideStarButton: hideStarButton,
+          onTap: onTap,
+          onToggleFavorite: () =>
+              contentService.toggleFavorite(nrEntry.id),
+        );
+      },
+    );
+  }
+}
 
 /// Tile para exibir uma NR em lista.
 class NrListTile extends StatelessWidget {
@@ -47,68 +90,75 @@ class NrListTile extends StatelessWidget {
         isRevoked ? colorScheme.onSurfaceVariant : colorScheme.primary;
     final titleColor = colorScheme.onSurface;
 
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.md,
-            vertical: 12,
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      nrEntry.nrLabel,
-                      style: theme.textTheme.titleSmall?.copyWith(
-                        color: labelColor,
-                      ),
-                    ),
-                    const SizedBox(height: kNrListTileLabelTitleGap),
-                    Text(
-                      displayTitle,
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        color: titleColor,
-                      ),
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    if (_showUpdateBadge || isRevoked) ...[
-                      const SizedBox(height: AppSpacing.sm),
+    return UpdateHighlight.listShell(
+      active: _showUpdateBadge,
+      context: context,
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.md,
+              vertical: 12,
+            ),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                       Row(
                         children: [
-                          if (_showUpdateBadge)
-                            const NrBadge(variant: NrBadgeVariant.update),
-                          if (isRevoked) ...[
-                            if (_showUpdateBadge)
-                              const SizedBox(width: AppSpacing.sm),
-                            const NrBadge(variant: NrBadgeVariant.revoked),
+                          Text(
+                            nrEntry.nrLabel,
+                            style: theme.textTheme.titleSmall?.copyWith(
+                              color: labelColor,
+                            ),
+                          ),
+                          if (_showUpdateBadge) ...[
+                            const SizedBox(width: AppSpacing.sm),
+                            const Flexible(
+                              child: NrBadge(
+                                variant: NrBadgeVariant.update,
+                                compact: true,
+                              ),
+                            ),
                           ],
                         ],
                       ),
-                    ],
-                  ],
-                ),
-              ),
-              if (_showActions)
-                Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    if (showNotDownloaded)
-                      NrDownloadAction(nrEntry: nrEntry),
-                    if (!isRevoked && !hideStarButton)
-                      _FavoriteButton(
-                        isFavorite: isFavorite,
-                        onPressed: onToggleFavorite,
+                      const SizedBox(height: kNrListTileLabelTitleGap),
+                      Text(
+                        displayTitle,
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: titleColor,
+                        ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
-                  ],
+                      if (isRevoked) ...[
+                        const SizedBox(height: AppSpacing.sm),
+                        const NrBadge(variant: NrBadgeVariant.revoked),
+                      ],
+                    ],
+                  ),
                 ),
-            ],
+                if (_showActions)
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      if (showNotDownloaded)
+                        NrDownloadAction(nrEntry: nrEntry),
+                      if (!isRevoked && !hideStarButton)
+                        _FavoriteButton(
+                          isFavorite: isFavorite,
+                          onPressed: onToggleFavorite,
+                        ),
+                    ],
+                  ),
+              ],
+            ),
           ),
         ),
       ),

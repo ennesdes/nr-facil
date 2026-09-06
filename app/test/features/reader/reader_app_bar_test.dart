@@ -18,6 +18,7 @@ void main() {
           appBar: ReaderAppBar(
             nrId: 'nr-06',
             isFavorite: false,
+            hasPendingUpdate: false,
             fontSize: 16,
             onBack: () => backTapped = true,
             onOpenIndex: () => indexTapped = true,
@@ -49,6 +50,31 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Tamanho do texto'), findsOneWidget);
     expect(find.text('16'), findsOneWidget);
+  });
+
+  testWidgets('ReaderAppBar exibe badge quando há atualização pendente',
+      (tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: Scaffold(
+          appBar: ReaderAppBar(
+            nrId: 'nr-06',
+            isFavorite: false,
+            hasPendingUpdate: true,
+            fontSize: 16,
+            onBack: () {},
+            onOpenIndex: () {},
+            onOpenSearch: () {},
+            onToggleFavorite: () {},
+            onIncreaseFontSize: () {},
+            onDecreaseFontSize: () {},
+          ),
+        ),
+      ),
+    );
+
+    expect(find.text('Atualizada'), findsOneWidget);
   });
 
   test('formatNrLabel formata id da NR', () {

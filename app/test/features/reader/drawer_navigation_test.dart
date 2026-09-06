@@ -52,6 +52,8 @@ class _FakeContentService implements ContentService {
     double? scrollMaxExtent,
     String? lastHeadingViewed,
     String? lastItemNumber,
+    int? progressPercent,
+    bool replacePositionLabels = false,
   }) {}
 
   @override

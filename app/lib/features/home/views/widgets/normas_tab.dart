@@ -8,6 +8,7 @@ import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/home/controllers/normas_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_section.dart';
 import 'package:nrfacil/features/home/views/widgets/normas_list_header.dart';
+import 'package:nrfacil/features/home/views/widgets/pending_updates_section.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
@@ -57,6 +58,7 @@ class NormasTab extends StatelessWidget {
         return CustomScrollView(
           slivers: [
             const SliverToBoxAdapter(child: NormasListHeader()),
+            const SliverToBoxAdapter(child: PendingUpdatesSection()),
             const SliverToBoxAdapter(child: ContinuarLeituraSection()),
             SliverFillRemaining(
               child: EmptyState(
@@ -72,22 +74,20 @@ class NormasTab extends StatelessWidget {
       return CustomScrollView(
         slivers: [
           const SliverToBoxAdapter(child: NormasListHeader()),
+          const SliverToBoxAdapter(child: PendingUpdatesSection()),
           const SliverToBoxAdapter(child: ContinuarLeituraSection()),
           SliverList(
             delegate: SliverChildBuilderDelegate(
               (context, index) {
                 final entry = entries[index];
-                return NrListTile(
+                return ReactiveNrListTile(
+                  key: ValueKey(entry.id),
                   nrEntry: entry,
-                  isFavorite: contentService.isFavorite(entry.id),
-                  hasUpdate: contentService.hasUpdate(entry.id),
+                  contentService: contentService,
                   isRevoked: entry.isRevoked,
                   showNotDownloaded: !entry.isRevoked &&
                       !contentService.isNrFullyCached(entry.id),
                   onTap: () => _openNr(entry),
-                  onToggleFavorite: () {
-                    contentService.toggleFavorite(entry.id);
-                  },
                 );
               },
               childCount: entries.length,

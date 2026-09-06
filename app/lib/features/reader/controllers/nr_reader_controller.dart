@@ -152,6 +152,12 @@ class NRReaderController extends GetxController {
       }
       _handleInitialAnchor();
       _updateScrollPosition();
+      // Âncoras (GlobalKey) podem não estar prontas no 1º frame após jumpTo.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (error.value != null) return;
+        _updateScrollPosition();
+        _persistScrollState();
+      });
     });
   }
 
@@ -160,7 +166,7 @@ class NRReaderController extends GetxController {
       return;
     }
     _initialAnchorHandled = true;
-    navigateToSection(initialAnchor!);
+    navigateToItemNumber(initialAnchor!);
   }
 
   void _onScrollChanged() {
@@ -270,8 +276,15 @@ class NRReaderController extends GetxController {
 
   void _persistScrollState() {
     if (!_scrollController.hasClients) return;
+    _updateScrollPosition();
+
     final position = _scrollController.position;
     final estimatedHeight = _estimatedDocumentHeight();
+    final detected = findTopmostVisiblePosition(anchors: _buildScrollAnchors());
+    final label = isPreambleExpanded.value
+        ? 'Publicação e histórico'
+        : (detected.headingLabel ?? currentPositionLabel);
+
     contentService.saveScrollPosition(
       nrId,
       position.pixels,
@@ -279,8 +292,10 @@ class NRReaderController extends GetxController {
         maxScrollExtent: position.maxScrollExtent,
         estimatedDocumentHeight: estimatedHeight,
       ),
-      lastHeadingViewed: _currentHeadingLabel(),
-      lastItemNumber: currentItemNumber.value,
+      lastHeadingViewed: label,
+      lastItemNumber: detected.itemNumber,
+      progressPercent: readingProgressPercent.value,
+      replacePositionLabels: true,
     );
   }
 
@@ -288,19 +303,6 @@ class NRReaderController extends GetxController {
     final s = structure.value;
     if (s == null || !useStructuredView) return 0;
     return estimateDocumentHeight(s);
-  }
-
-  String? _currentHeadingLabel() {
-    if (currentItemNumber.value != null) return currentItemNumber.value;
-    final s = structure.value;
-    final sectionId = currentSectionId.value;
-    if (s != null && sectionId != null) {
-      for (final section in s.sections) {
-        if (section.id == sectionId) return section.displayTitle;
-      }
-    }
-    if (isPreambleExpanded.value) return 'Publicação e histórico';
-    return highlightSectionId.value;
   }
 
   void continueFromSavedPosition() {
@@ -685,11 +687,11 @@ class NRReaderController extends GetxController {
   bool get isFavorite => _isFavorite.value;
 
   String? get continueLabel {
+    final label = contentService.getContinueReadingPositionLabel(nrId);
+    if (label == null) return null;
     final item = contentService.getLastItemNumber(nrId);
-    if (item != null) return 'item $item';
-    final heading = contentService.getLastHeadingViewed(nrId);
-    if (heading != null) return heading;
-    return null;
+    if (item != null && item == label) return 'item $label';
+    return label;
   }
 
   /// Label amigável para o indicador de posição (nunca slug interno).
