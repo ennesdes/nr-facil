@@ -39,35 +39,29 @@ jobs:
     name: Deploy → ${{ inputs.track }}
     runs-on: ubuntu-latest
     steps:
-      - name: "Plano — pipeline em uma VM"
+      - name: "Plano — pipeline"
         run: |
           {
-            echo "## Deploy Play Store — uma VM"
-            echo ""
-            echo "Checkout, Flutter e \`pub get\` **uma vez**; etapas 1–7 como steps numerados."
+            echo "## Deploy Play Store"
             echo ""
             echo "| # | Etapa |"
             echo "|---|-------|"
-            echo "| 1 | Validar secrets |"
-            echo "| 2 | Format · Fix |"
-            echo "| 3–4 | Analyze + Testes (paralelo) |"
-            echo "| 5 | Assinar · Build AAB |"
+            echo "| 1 | Preparar (git + secrets) |"
+            echo "| 2 | Flutter + deps |"
+            echo "| 3 | Format · Fix |"
+            echo "| 4 | Analyze + Testes |"
+            echo "| 5 | Build release (AAB) |"
             echo "| 6 | Publicar Play Store |"
             echo "| 7 | Version bump |"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: "0/7 · Checkout"
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: "0/7 · Configurar git (bot)"
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-      - name: "1/7 · Validar secrets"
+      - name: "1 · Preparar"
         env:
           PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -77,25 +71,20 @@ jobs:
           ADMOB_APP_ID: ${{ secrets.ADMOB_APP_ID }}
           ADMOB_BANNER_UNIT_ID: ${{ secrets.ADMOB_BANNER_UNIT_ID }}
           ADMOB_INTERSTITIAL_UNIT_ID: ${{ secrets.ADMOB_INTERSTITIAL_UNIT_ID }}
-        run: bash scripts/ci_step_report.sh "Validar secrets" bash scripts/validate_ci_secrets.sh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_step_report.sh "Validar secrets" bash scripts/validate_ci_secrets.sh
 
-      - name: "Setup · Flutter + deps"
+      - name: "2 · Flutter + deps"
         uses: ./.github/actions/flutter-setup
 
-      - name: "2/7 · Format e fix"
-        working-directory: app
-        run: bash ../scripts/ci_step_report.sh "Format e fix" bash -c "dart fix --apply && dart format ."
+      - name: "3 · Format e fix"
+        uses: ./.github/actions/deploy-format
+        with:
+          branch: ${{ github.ref_name }}
 
-      - name: "2/7 · Commit format (se necessário)"
-        run: |
-          if git diff --quiet; then
-            echo "Nenhuma alteração de format/fix."
-          else
-            bash scripts/ci_step_report.sh "Commit format" bash -c \
-              'git add -A && git commit -m "chore(ci): auto-format" && git push origin HEAD:${{ github.ref_name }}'
-          fi
-
-      - name: "3–4/7 · Analyze + Testes (paralelo)"
+      - name: "4 · Analyze + Testes"
         working-directory: app
         run: |
           bash ../scripts/ci_step_report.sh "Analyze + Testes" bash -c '
@@ -110,65 +99,19 @@ jobs:
             exit "$TEST_STATUS"
           '
 
-      - name: "5/7 · Calcular próxima versão (sem commit)"
-        id: plan_version
-        run: |
-          NEW_VERSION="$(python3 scripts/bump_pubspec_version.py --dry-run)"
-          echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
-          python3 scripts/bump_pubspec_version.py --set "$NEW_VERSION"
-
-      - name: "5/7 · Setup Java + Gradle cache"
-        uses: actions/setup-java@v4
+      - name: "5 · Build release"
+        id: build
+        uses: ./.github/actions/deploy-build
         with:
-          distribution: temurin
-          java-version: "17"
-          cache: gradle
-          cache-dependency-path: app/android/**/*.gradle*
+          android_keystore_base64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          keystore_password: ${{ secrets.KEYSTORE_PASSWORD }}
+          key_alias: ${{ secrets.KEY_ALIAS }}
+          key_password: ${{ secrets.KEY_PASSWORD }}
+          admob_app_id: ${{ secrets.ADMOB_APP_ID }}
+          admob_banner_unit_id: ${{ secrets.ADMOB_BANNER_UNIT_ID }}
+          admob_interstitial_unit_id: ${{ secrets.ADMOB_INTERSTITIAL_UNIT_ID }}
 
-      - name: "5/7 · Ajustar heap do Gradle"
-        working-directory: app
-        run: |
-          sed -i 's/^org.gradle.jvmargs=.*/org.gradle.jvmargs=-Xmx4G -XX:MaxMetaspaceSize=1G -XX:+HeapDumpOnOutOfMemoryError/' android/gradle.properties
-
-      - name: "5/7 · Assinatura Android"
-        working-directory: app
-        env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-        run: |
-          bash ../scripts/ci_step_report.sh "Assinatura Android" bash -c '
-            echo "${ANDROID_KEYSTORE_BASE64}" | base64 -d > android/app/upload-keystore.jks
-            {
-              echo "storePassword=${KEYSTORE_PASSWORD}"
-              echo "keyPassword=${KEY_PASSWORD}"
-              echo "keyAlias=${KEY_ALIAS}"
-              echo "storeFile=upload-keystore.jks"
-            } > android/key.properties
-          '
-
-      - name: "5/7 · Build AAB"
-        working-directory: app
-        env:
-          ADMOB_APP_ID: ${{ secrets.ADMOB_APP_ID }}
-          ADMOB_BANNER_UNIT_ID: ${{ secrets.ADMOB_BANNER_UNIT_ID }}
-          ADMOB_INTERSTITIAL_UNIT_ID: ${{ secrets.ADMOB_INTERSTITIAL_UNIT_ID }}
-        run: |
-          bash ../scripts/ci_step_report.sh "Build AAB" flutter build appbundle --release --no-pub \
-            --obfuscate \
-            --split-debug-info=build/app/outputs/symbols \
-            --dart-define=ADMOB_BANNER_UNIT_ID="${ADMOB_BANNER_UNIT_ID}" \
-            --dart-define=ADMOB_INTERSTITIAL_UNIT_ID="${ADMOB_INTERSTITIAL_UNIT_ID}"
-
-      - name: "5/7 · Salvar símbolos Dart"
-        uses: actions/upload-artifact@v4
-        with:
-          name: app-release-symbols
-          path: app/build/app/outputs/symbols/
-          retention-days: 90
-
-      - name: "6/7 · Publicar Play Store"
+      - name: "6 · Publicar Play Store"
         uses: r0adkll/upload-google-play@v1.1.5
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
@@ -177,9 +120,9 @@ jobs:
           tracks: ${{ inputs.track }}
           status: ${{ inputs.status }}
 
-      - name: "7/7 · Version bump + commit"
+      - name: "7 · Version bump"
         env:
-          NEW_VERSION: ${{ steps.plan_version.outputs.version }}
+          NEW_VERSION: ${{ steps.build.outputs.version }}
         run: |
           python3 scripts/bump_pubspec_version.py --set "$NEW_VERSION"
           bash scripts/ci_step_report.sh "Version bump" bash -c \
@@ -187,7 +130,7 @@ jobs:
 
       - name: "Resumo final"
         env:
-          NEW_VERSION: ${{ steps.plan_version.outputs.version }}
+          NEW_VERSION: ${{ steps.build.outputs.version }}
         run: |
           {
             echo "## Deploy concluído"

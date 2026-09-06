@@ -1,0 +1,25 @@
+name: Format e fix
+description: dart fix, format e commit automático se necessário
+
+inputs:
+  branch:
+    description: Branch para push do commit de format
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Format e fix
+      shell: bash
+      working-directory: app
+      run: bash ../scripts/ci_step_report.sh "Format e fix" bash -c "dart fix --apply && dart format ."
+
+    - name: Commit format (se necessário)
+      shell: bash
+      run: |
+        if git diff --quiet; then
+          echo "Nenhuma alteração de format/fix."
+        else
+          bash scripts/ci_step_report.sh "Commit format" bash -c \
+            'git add -A && git commit -m "chore(ci): auto-format" && git push origin HEAD:${{ inputs.branch }}'
+        fi

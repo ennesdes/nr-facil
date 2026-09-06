@@ -1,0 +1,88 @@
+name: Build release AAB
+description: Versão local, Java/Gradle, assinatura, build e símbolos Dart
+
+inputs:
+  android_keystore_base64:
+    required: true
+  keystore_password:
+    required: true
+  key_alias:
+    required: true
+  key_password:
+    required: true
+  admob_app_id:
+    required: true
+  admob_banner_unit_id:
+    required: true
+  admob_interstitial_unit_id:
+    required: true
+
+outputs:
+  version:
+    description: Versão calculada para o build (ainda não commitada)
+    value: ${{ steps.plan_version.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Calcular próxima versão
+      id: plan_version
+      shell: bash
+      run: |
+        NEW_VERSION="$(python3 scripts/bump_pubspec_version.py --dry-run)"
+        echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+        python3 scripts/bump_pubspec_version.py --set "$NEW_VERSION"
+
+    - name: Setup Java + Gradle cache
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: "17"
+        cache: gradle
+        cache-dependency-path: app/android/**/*.gradle*
+
+    - name: Ajustar heap do Gradle
+      shell: bash
+      working-directory: app
+      run: |
+        sed -i 's/^org.gradle.jvmargs=.*/org.gradle.jvmargs=-Xmx4G -XX:MaxMetaspaceSize=1G -XX:+HeapDumpOnOutOfMemoryError/' android/gradle.properties
+
+    - name: Assinatura Android
+      shell: bash
+      working-directory: app
+      env:
+        ANDROID_KEYSTORE_BASE64: ${{ inputs.android_keystore_base64 }}
+        KEYSTORE_PASSWORD: ${{ inputs.keystore_password }}
+        KEY_ALIAS: ${{ inputs.key_alias }}
+        KEY_PASSWORD: ${{ inputs.key_password }}
+      run: |
+        bash ../scripts/ci_step_report.sh "Assinatura Android" bash -c '
+          echo "${ANDROID_KEYSTORE_BASE64}" | base64 -d > android/app/upload-keystore.jks
+          {
+            echo "storePassword=${KEYSTORE_PASSWORD}"
+            echo "keyPassword=${KEY_PASSWORD}"
+            echo "keyAlias=${KEY_ALIAS}"
+            echo "storeFile=upload-keystore.jks"
+          } > android/key.properties
+        '
+
+    - name: Build AAB
+      shell: bash
+      working-directory: app
+      env:
+        ADMOB_APP_ID: ${{ inputs.admob_app_id }}
+        ADMOB_BANNER_UNIT_ID: ${{ inputs.admob_banner_unit_id }}
+        ADMOB_INTERSTITIAL_UNIT_ID: ${{ inputs.admob_interstitial_unit_id }}
+      run: |
+        bash ../scripts/ci_step_report.sh "Build AAB" flutter build appbundle --release --no-pub \
+          --obfuscate \
+          --split-debug-info=build/app/outputs/symbols \
+          --dart-define=ADMOB_BANNER_UNIT_ID="${ADMOB_BANNER_UNIT_ID}" \
+          --dart-define=ADMOB_INTERSTITIAL_UNIT_ID="${ADMOB_INTERSTITIAL_UNIT_ID}"
+
+    - name: Salvar símbolos Dart
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-release-symbols
+        path: app/build/app/outputs/symbols/
+        retention-days: 90
