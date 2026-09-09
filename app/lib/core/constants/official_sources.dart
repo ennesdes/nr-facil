@@ -4,15 +4,15 @@
 /// URLs em domínio gov.br permitem ao usuário verificar a informação exibida.
 class OfficialSources {
   /// Portal do Ministério do Trabalho e Emprego.
-  static const String mtePortalUrl =
-      'https://www.gov.br/trabalho-e-emprego';
+  static const String mtePortalUrl = 'https://www.gov.br/trabalho-e-emprego';
 
   /// Página-índice das Normas Regulamentadoras no portal oficial do MTE.
   static const String nrsIndexUrl =
       'https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs';
 
   /// Diário Oficial da União — veículo de publicação das portarias normativas.
-  static const String douUrl = 'https://www.in.gov.br/servicos/diario-oficial-da-uniao';
+  static const String douUrl =
+      'https://www.in.gov.br/servicos/diario-oficial-da-uniao';
 
   /// Texto curto para disclaimers (leitor, ajustes, loja).
   static const String disclaimer =
