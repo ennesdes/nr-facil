@@ -1,9 +1,31 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
+import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+
+class _FakePathProviderPlatform extends PathProviderPlatform
+    with MockPlatformInterfaceMixin {
+  final String path;
+  _FakePathProviderPlatform(this.path);
+
+  @override
+  Future<String?> getApplicationDocumentsPath() async => path;
+}
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
+  setUpAll(() async {
+    final storageDir = await Directory.systemTemp.createTemp(
+      'nr_facil_assets_storage_',
+    );
+    PathProviderPlatform.instance = _FakePathProviderPlatform(storageDir.path);
+    await GetStorage.init();
+  });
+
   group('ContentService.collectAssetPaths', () {
     test('extrai assets com prefixo ../ do markdown', () {
       const md = '''
