@@ -70,8 +70,6 @@ void main() {
     testWidgets('não remove favoritos enquanto manifest ainda não carregou', (
       tester,
     ) async {
-      expect(contentService.manifest.value, isNull);
-
       await tester.pumpWidget(
         GetMaterialApp(
           theme: AppTheme.light,

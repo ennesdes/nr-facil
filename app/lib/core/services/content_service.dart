@@ -118,8 +118,6 @@ class ContentService extends GetxService {
     await _loadManifestFromCache();
     _pruneOrphanFavorites();
 
-    _establishUpdatesBaselineIfNeeded();
-
     // Atualizar contagem de atualizações não lidas
     _updateUnreadCount();
     _updateOfflineDownloadNeeded();
@@ -862,6 +860,7 @@ class ContentService extends GetxService {
         AppLogger.info(
           'Manifest carregado do cache: ${manifest.value?.nrs.length ?? 0} NRs',
         );
+        _establishUpdatesBaselineIfNeeded();
         return;
       }
 
@@ -873,6 +872,15 @@ class ContentService extends GetxService {
     }
   }
 
+  /// Carrega o manifest embutido no pacote do app (assets/seed) para exibir a
+  /// lista de NRs offline antes da primeira sincronização real.
+  ///
+  /// Não estabelece o baseline de atualizações aqui: os hashes do seed são
+  /// congelados na data do build e ficam desatualizados em relação ao
+  /// conteúdo publicado no repositório, então usá-los como baseline marcaria
+  /// NRs como "atualizadas" incorretamente assim que o primeiro sync real
+  /// (via [_fetchRemoteMetadata]) trouxer os hashes verdadeiros. O baseline é
+  /// estabelecido apenas com dados de cache/sync genuínos.
   Future<void> _loadBundledManifest() async {
     try {
       final content = await rootBundle.loadString(_bundledManifestAsset);
