@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
@@ -837,36 +838,51 @@ class ContentService extends GetxService {
     }
   }
 
-  /// Carregar manifest do cache local.
+  static const _bundledManifestAsset = 'assets/seed/manifest.json';
+
+  /// Carregar manifest do cache local ou do pacote (primeira execução offline).
   ///
   /// Executado no onInit() para restaurar estado anterior.
-  /// Se cache estiver corrompido, loga aviso e continua com manifest vazio.
+  /// Se cache estiver corrompido, tenta o manifest embutido no app.
   Future<void> _loadManifestFromCache() async {
     try {
       final manifestFile = File('${_cacheDir.path}/manifest.json');
 
-      if (!manifestFile.existsSync()) {
-        AppLogger.debug('Sem manifest.json em cache (primeira execução?)');
+      if (manifestFile.existsSync()) {
+        final content = await manifestFile.readAsString();
+        final jsonMap = jsonDecode(content) as Map<String, dynamic>;
+        manifest.value = Manifest.fromMap(jsonMap);
+
+        final lastSyncedStr =
+            GetStorage().read(StorageKeys.lastSyncedAt) as String?;
+        if (lastSyncedStr != null) {
+          lastSyncedAt.value = DateTime.parse(lastSyncedStr);
+        }
+
+        AppLogger.info(
+          'Manifest carregado do cache: ${manifest.value?.nrs.length ?? 0} NRs',
+        );
         return;
       }
 
-      final content = await manifestFile.readAsString();
-      final jsonMap = jsonDecode(content) as Map<String, dynamic>;
-      manifest.value = Manifest.fromMap(jsonMap);
-
-      // Restaurar timestamp
-      final lastSyncedStr =
-          GetStorage().read(StorageKeys.lastSyncedAt) as String?;
-      if (lastSyncedStr != null) {
-        lastSyncedAt.value = DateTime.parse(lastSyncedStr);
-      }
-
-      AppLogger.info(
-        'Manifest carregado do cache: ${manifest.value?.nrs.length ?? 0} NRs',
-      );
+      AppLogger.debug('Sem manifest.json em cache — tentando asset embutido');
+      await _loadBundledManifest();
     } catch (e) {
       AppLogger.warning('Falha ao carregar manifest do cache: $e');
-      // Continuar — cache pode estar corrompido
+      await _loadBundledManifest();
+    }
+  }
+
+  Future<void> _loadBundledManifest() async {
+    try {
+      final content = await rootBundle.loadString(_bundledManifestAsset);
+      final jsonMap = jsonDecode(content) as Map<String, dynamic>;
+      manifest.value = Manifest.fromMap(jsonMap);
+      AppLogger.info(
+        'Manifest embutido carregado: ${manifest.value?.nrs.length ?? 0} NRs',
+      );
+    } catch (e) {
+      AppLogger.warning('Falha ao carregar manifest embutido: $e');
     }
   }
 

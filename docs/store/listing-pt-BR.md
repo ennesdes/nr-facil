@@ -47,8 +47,15 @@ POR QUE O NR FÁCIL
 NORMAS DISPONÍVEIS
 O app sincroniza as Normas Regulamentadoras vigentes publicadas pelo MTE. NRs revogadas aparecem identificadas, com link para o PDF histórico quando aplicável.
 
+FONTES OFICIAIS
+O texto das NRs provém exclusivamente de publicações do governo federal. Para verificar a informação exibida no app, consulte:
+
+• Ministério do Trabalho e Emprego: https://www.gov.br/trabalho-e-emprego
+• Índice oficial das Normas Regulamentadoras: https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs
+• Diário Oficial da União (publicação das portarias): https://www.in.gov.br/servicos/diario-oficial-da-uniao
+
 IMPORTANTE
-Este aplicativo disponibiliza conteúdo público oficial das Normas Regulamentadoras do Ministério do Trabalho e Emprego. Não é um aplicativo governamental. O conteúdo não substitui a consulta às publicações oficiais no portal gov.br.
+Este aplicativo NÃO é governamental e NÃO representa o Ministério do Trabalho e Emprego nem qualquer órgão público. Disponibiliza conteúdo público oficial das Normas Regulamentadoras, organizado para leitura no celular. O conteúdo não substitui a consulta às publicações oficiais nos links acima.
 
 Baixe o NR Fácil e tenha as normas do trabalho sempre à mão.
 ```

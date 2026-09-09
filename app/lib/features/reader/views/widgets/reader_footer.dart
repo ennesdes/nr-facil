@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/constants/official_sources.dart';
 import 'package:nrfacil/core/models/manifest.dart';
+import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
@@ -38,13 +40,18 @@ class ReaderFooter extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.sm),
           Text(
-            'Esta aplicação organiza e facilita a consulta da norma, '
-            'mas não substitui a publicação oficial no portal gov.br.',
+            OfficialSources.disclaimer,
             style: textTheme.bodySmall?.copyWith(
               color: colorScheme.onSurfaceVariant,
               fontStyle: FontStyle.italic,
               height: 1.4,
             ),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          AppTextLink(
+            label: 'Ver índice oficial das NRs no gov.br',
+            useInfoColor: true,
+            onPressed: () => _launchPdfUrl(OfficialSources.nrsIndexUrl),
           ),
           const SizedBox(height: AppSpacing.md),
           if (nrEntry?.pdfUrl != null)
@@ -75,7 +82,11 @@ class ReaderFooter extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('Fonte: Ministério do Trabalho e Emprego', style: metadataStyle),
+        AppTextLink(
+          label: 'Fonte: Ministério do Trabalho e Emprego (gov.br)',
+          useInfoColor: true,
+          onPressed: () => _launchPdfUrl(OfficialSources.mtePortalUrl),
+        ),
         const SizedBox(height: AppSpacing.xs),
         if (entry.portaria != null && entry.portaria!.trim().isNotEmpty)
           Text('Portaria: ${entry.portaria}', style: metadataStyle)

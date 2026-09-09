@@ -7,6 +7,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'core/bindings/app_binding.dart';
 import 'core/constants/app_config.dart';
+import 'core/utils/app_logger.dart';
 import 'core/controllers/theme_controller.dart';
 import 'core/theme/app_system_ui.dart';
 import 'core/theme/app_theme.dart';
@@ -25,7 +26,12 @@ Future<void> main() async {
   Get.put(ThemeController(), permanent: true);
 
   if (AppConfig.adsEnabled && !kIsWeb) {
-    await MobileAds.instance.initialize();
+    try {
+      await MobileAds.instance.initialize();
+    } catch (e, st) {
+      // Falha no AdMob não deve impedir o app de abrir (revisão Play Store).
+      AppLogger.error('Falha ao inicializar AdMob', e, st);
+    }
   }
 
   runApp(const MyApp());

@@ -60,7 +60,6 @@ class NrItemRow extends StatelessWidget {
           HighlightedText(
             text: text,
             highlight: highlightQuery,
-            selectable: true,
             style: bodyStyle,
           ),
         ],

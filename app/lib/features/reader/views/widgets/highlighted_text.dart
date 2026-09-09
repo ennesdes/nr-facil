@@ -17,7 +17,7 @@ class HighlightedText extends StatelessWidget {
     this.highlight,
     this.style,
     this.maxLines,
-    this.selectable = false,
+    this.selectable = true,
     this.preserveBold = false,
     super.key,
   });

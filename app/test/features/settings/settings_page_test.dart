@@ -67,16 +67,22 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 50));
 
     expect(find.text('Aparência'), findsOneWidget);
+    expect(find.text('Fontes oficiais'), findsOneWidget);
+    expect(find.text('Ministério do Trabalho e Emprego'), findsOneWidget);
     expect(find.text('Política de privacidade'), findsOneWidget);
     expect(find.text('Sistema'), findsOneWidget);
     expect(find.text('Claro'), findsOneWidget);
     expect(find.text('Escuro'), findsOneWidget);
-    expect(find.textContaining('Versão 1.0.0 (42)'), findsOneWidget);
 
     await tester.tap(find.text('Escuro'));
     await tester.pumpAndSettle();
+
+    await tester.drag(find.byType(ListView), const Offset(0, -400));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Versão 1.0.0 (42)'), findsOneWidget);
 
     final controller = Get.find<ThemeController>();
     expect(controller.themeMode.value, ThemeMode.dark);

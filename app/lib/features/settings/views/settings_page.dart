@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
+import 'package:nrfacil/core/constants/official_sources.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
@@ -33,6 +34,28 @@ class SettingsPage extends GetView<ThemeController> {
               ),
               const SizedBox(height: AppSpacing.md),
               SettingsSectionCard(
+                title: 'Fontes oficiais',
+                description:
+                    'O conteúdo normativo é de domínio público e provém '
+                    'das publicações do governo federal. Consulte as fontes '
+                    'abaixo para verificar a informação.',
+                children: [
+                  for (final source in OfficialSources.entries)
+                    SettingsActionTile(
+                      icon: Icons.public,
+                      title: source.title,
+                      subtitle: source.subtitle,
+                      trailing: Icon(
+                        Icons.open_in_new,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      onTap: () => _openExternalUrl(source.url),
+                    ),
+                ],
+              ),
+              const SizedBox(height: AppSpacing.md),
+              SettingsSectionCard(
                 title: 'Legal',
                 children: [
                   SettingsActionTile(
@@ -57,21 +80,21 @@ class SettingsPage extends GetView<ThemeController> {
     );
   }
 
-  Future<void> _openPrivacyPolicy() async {
+  Future<void> _openExternalUrl(String url) async {
     try {
-      final uri = Uri.parse(AppConfig.privacyPolicyUrl);
+      final uri = Uri.parse(url);
       if (await canLaunchUrl(uri)) {
         await launchUrl(uri, mode: LaunchMode.externalApplication);
       } else {
-        AppLogger.warning(
-          'Não foi possível abrir política de privacidade: '
-          '${AppConfig.privacyPolicyUrl}',
-        );
+        AppLogger.warning('Não foi possível abrir URL: $url');
       }
     } catch (e) {
-      AppLogger.error('Erro ao abrir política de privacidade', e);
+      AppLogger.error('Erro ao abrir URL externa', e);
     }
   }
+
+  Future<void> _openPrivacyPolicy() async =>
+      _openExternalUrl(AppConfig.privacyPolicyUrl);
 }
 
 class _AboutSection extends StatefulWidget {
@@ -134,10 +157,7 @@ class _AboutSectionState extends State<_AboutSection> {
             ),
           ),
           child: Text(
-            'Este aplicativo disponibiliza conteúdo público oficial das '
-            'Normas Regulamentadoras do Ministério do Trabalho e Emprego. '
-            'O conteúdo não substitui a consulta às publicações oficiais '
-            'no portal gov.br.',
+            OfficialSources.disclaimer,
             style: theme.textTheme.bodySmall?.copyWith(
               color: colorScheme.onSurfaceVariant,
               fontStyle: FontStyle.italic,

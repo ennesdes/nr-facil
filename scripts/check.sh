@@ -24,6 +24,14 @@ if [ -f "scripts/validate_manifest.py" ]; then
   python3 scripts/validate_manifest.py || ERRORS=1
 fi
 
+if [ -f "manifest.json" ] && [ -f "app/assets/seed/manifest.json" ]; then
+  echo "==> seed manifest (app/assets/seed)..."
+  if ! diff -q manifest.json app/assets/seed/manifest.json >/dev/null 2>&1; then
+    echo "✗ app/assets/seed/manifest.json desatualizado — rode: cp manifest.json app/assets/seed/manifest.json"
+    ERRORS=1
+  fi
+fi
+
 if [ -f "scripts/validate_quality.py" ]; then
   echo "==> validate quality..."
   python3 scripts/validate_quality.py --all || ERRORS=1
