@@ -1,0 +1,56 @@
+---
+description: Mapa do código — módulos, serviços, rotas e storage. Preencher ao criar o projeto.
+globs: ["lib/**/*.dart"]
+alwaysApply: false
+---
+
+# Code Map — PREENCHER NO PROJETO
+
+> Este arquivo é um **template**. Ao criar um app novo, substitua os placeholders pelos caminhos reais.
+> Objetivo: a IA não precisa fazer grep cego — ela sabe onde está cada coisa.
+
+## Estrutura de pastas (padrão)
+
+```
+lib/
+├── app/           # bootstrap, theme, routes, bindings globais
+├── core/          # utils, constants, widgets compartilhados, services base
+├── modules/       # features (home, settings, auth...)
+│   └── <feature>/
+│       ├── bindings/
+│       ├── controllers/
+│       ├── views/
+│       └── services/ ou repositories/
+└── data/          # (opcional) Supabase, mappers, DTOs
+```
+
+## Módulos
+
+| Módulo | Caminho | Responsabilidade |
+|--------|---------|------------------|
+| _exemplo_ | `lib/modules/home/` | Tela inicial |
+
+## Rotas
+
+| Rota | Página | Binding |
+|------|--------|---------|
+| `/` | `HomePage` | `HomeBinding` |
+
+## Serviços globais
+
+| Serviço | Arquivo | Registrado em |
+|---------|---------|---------------|
+| _exemplo_ | `lib/core/services/storage_service.dart` | `initial_binding.dart` |
+
+## Storage keys (GetStorage)
+
+| Key | Tipo | Uso |
+|-----|------|-----|
+| _exemplo_ | `String` | Preferência do usuário |
+
+## Integrações externas
+
+| Integração | Onde configurar | Notas |
+|------------|-----------------|-------|
+| Supabase | `lib/data/supabase/` | Ver `domain/supabase.mdc` |
+| Firebase | `lib/firebase/` | Analytics, Crashlytics — sem Auth se usar Supabase |

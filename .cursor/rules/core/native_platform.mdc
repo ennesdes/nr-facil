@@ -1,0 +1,100 @@
+---
+description: Integração com a camada nativa Android/iOS — permissões, plugins, Manifest/Info.plist, diagnóstico de erros de build e runtime nativos.
+globs: ["android/**/*", "ios/**/*", "lib/**/*.dart"]
+alwaysApply: false
+---
+
+# Integração nativa — Android + iOS
+
+> Nunca assumir que um pacote Flutter funciona só porque foi adicionado ao `pubspec.yaml`. Toda integração nativa exige validar `AndroidManifest.xml`, `Info.plist`, `Podfile`, `build.gradle(.kts)` e `MainActivity`/`AppDelegate`.
+
+## Quando consultar
+
+- Adicionar ou atualizar plugin com canal nativo (permission_handler, image_picker, camera, geolocator, local_auth, bluetooth, etc.)
+- Erro de build nativo (Gradle, Manifest merger, Pods, Xcode signing)
+- Exceção em runtime do tipo `MissingPluginException` / `PlatformException`
+- Permissão negada, negada permanentemente, ou comportamento diferente entre versões de Android/iOS
+- Deep link, push notification, biometria, câmera, bluetooth, localização, acesso a arquivos
+
+---
+
+## 1. Permissões — fluxo obrigatório
+
+| Passo | Ação |
+|-------|------|
+| 1 | Declarar no Manifest/Info.plist **só** o que a feature realmente usa |
+| 2 | Solicitar em runtime apenas no momento de uso (just-in-time) — nunca no boot/splash |
+| 3 | Mostrar o motivo antes do request quando ele não é óbvio pelo contexto da tela |
+| 4 | Tratar os 4 estados: concedida · negada · negada permanentemente ("nunca mais perguntar") · restrita/limitada (iOS) |
+| 5 | Negada permanentemente → abrir Settings do app; nunca insistir chamando o dialog do sistema de novo |
+
+**Regra:** pedir permissão sensível (localização, câmera, bluetooth, notificação) sem que o usuário tenha acabado de acionar a ação correspondente é fricção que aumenta taxa de negação e rejeição de loja.
+
+**Exceção documentada — push notification:** por decisão explícita de produto (ver `.claude/decisions/push-notification-audit.md`), a permissão de notificação é pedida no boot do app (splash), não pós-primeiro-treino. Mitigação: evento de analytics `push_permission_result` monitora taxa de negação; decisão é revisável se negação > 40%.
+
+---
+
+## 2. Diferenças relevantes por versão de Android/iOS
+
+| Versão | Mudança que afeta o app |
+|--------|--------------------------|
+| Android 13 (API 33) | `READ_EXTERNAL_STORAGE` substituído por `READ_MEDIA_IMAGES`/`READ_MEDIA_VIDEO`/`READ_MEDIA_AUDIO`; `POST_NOTIFICATIONS` passa a exigir runtime request |
+| Android 12 (API 31) | `BLUETOOTH_SCAN`/`BLUETOOTH_CONNECT` substituem `BLUETOOTH`/`BLUETOOTH_ADMIN`; exact alarms restritos |
+| Android 10/11 | Scoped storage por padrão; localização background separada de foreground |
+| iOS 14+ | `NSUserTrackingUsageDescription` obrigatório para IDFA (App Tracking Transparency) |
+| iOS 17+ | Apple exige *Privacy Manifest* (`PrivacyInfo.xcprivacy`) para APIs "required reason" (ex.: `UserDefaults`, `FileTimestamp`) usadas por SDKs de terceiros |
+
+Antes de subir `targetSdk`/`minSdk` ou a versão mínima de iOS, checar se algum plugin do `pubspec.yaml` exige o novo comportamento.
+
+---
+
+## 3. iOS — Info.plist e Privacy Keys
+
+- Toda permissão usada precisa da *Usage Description* correspondente (`NSCameraUsageDescription`, `NSPhotoLibraryUsageDescription`, `NSLocationWhenInUseUsageDescription`, etc.) — **key ausente faz o app encerrar imediatamente** ao solicitar a permissão, sem erro tratável em Dart
+- Ao adicionar plugin novo que toca mídia/localização/bluetooth: verificar no changelog do pacote quais keys ele exige no `Info.plist`
+
+---
+
+## 4. Plugins nativos em uso no projeto — pontos de atenção
+
+| Plugin | Config nativa envolvida | Cuidado |
+|--------|--------------------------|---------|
+| `image_picker` | `NSCameraUsageDescription`/`NSPhotoLibraryUsageDescription` (iOS); `READ_MEDIA_IMAGES` (Android 13+) | pedir só ao abrir o picker (foto de perfil/progresso) |
+| `gal` | `NSPhotoLibraryAddUsageDescription` (iOS); `WRITE_EXTERNAL_STORAGE maxSdkVersion="29"` + `android:requestLegacyExternalStorage="true"` (Android) | salvar imagem de progresso/compartilhamento — caminho legado usado até API 29 (Android 10), não só até 28; chamar `Gal.hasAccess`/`Gal.requestAccess` antes de `putImage*` — o plugin nunca pede a permissão sozinho |
+| `share_plus` | `<queries>` com `ACTION_SEND`/`SEND_MULTIPLE` (Android 11+); nenhuma permissão runtime | iOS/iPad: `sharePositionOrigin` obrigatório para `UIActivityViewController` não crashar em iPad — passar retângulo do botão via [shareSheetOriginFrom] |
+| `path_provider` | nenhuma permissão | escolher diretório certo (`temporary` vs `applicationDocuments`) — cache não deve ir para Documents |
+| `firebase_messaging` + `flutter_local_notifications` | `POST_NOTIFICATIONS` (Android 13+); `UNUserNotificationCenter` (iOS) | notification channel obrigatório no Android 8+; pedir permissão no momento certo do onboarding — nunca no cold start |
+| `url_launcher` | `LSApplicationQueriesSchemes` (iOS) quando usa `canLaunchUrl` com custom scheme | schemes não declarados retornam `false` mesmo com o app instalado |
+| `supabase_flutter` (auth) | intent-filter (`AndroidManifest.xml`) + `CFBundleURLTypes` (`Info.plist`) para deep link de OAuth/reset de senha | redirect URL do Supabase precisa bater exatamente com o scheme registrado nos dois lados |
+| `purchases_flutter` (RevenueCat) | `BILLING` permission (Android); StoreKit configurado no Xcode (iOS) | testar restore/cancelamento/expiração em sandbox antes de produção |
+
+---
+
+## 5. Diagnóstico de erros nativos comuns
+
+| Erro | Causa provável | Onde olhar |
+|------|-----------------|------------|
+| `Manifest merger failed` | Atributo conflitante entre Manifest de um plugin e o do app | `tools:replace` no atributo em conflito, no `AndroidManifest.xml` do app |
+| `MissingPluginException` | Plugin adicionado ao pubspec mas não linkado no binário nativo ainda | full restart / rebuild nativo — hot reload não relinka plugin novo |
+| `PlatformException(PERMISSION_DENIED)` | Permissão usada em runtime sem estar declarada no Manifest/Info.plist | conferir a key/permission correspondente ao plugin |
+| App encerra ao abrir câmera/galeria (iOS) | *Usage Description* ausente no `Info.plist` | adicionar a key faltante para aquela API |
+| `Duplicate class` (Android) | Duas versões de uma lib nativa coexistindo (ex.: Firebase BoM desalinhado) | alinhar versões via BoM / resolução de dependência no `build.gradle` |
+| Build Android falha após update de plugin | `compileSdk`/`targetSdk` do plugin acima do configurado no projeto | subir `compileSdk`/`targetSdk` no `android/app/build.gradle.kts` |
+| Build iOS falha / Pods conflitantes | `Podfile.lock` desatualizado ou `platform :ios` abaixo do mínimo exigido por um plugin | `pod repo update` + alinhar versão mínima no `Podfile` |
+
+---
+
+## 6. Boas práticas invioláveis
+
+- Permissão pedida apenas no momento de uso — nunca no boot/splash
+- Manifest e Info.plist contêm **só** as permissões realmente usadas — remover a permissão no mesmo PR que remove a feature/plugin que a exigia
+- Toda feature nova com plugin de canal nativo (câmera, bluetooth, localização, biometria) deve ser testada em device real — emulador mascara falha de permissão real
+- Preferir API moderna do plugin (ex.: Activity Result API por trás do plugin, permissões granulares de mídia) — nunca fixar em major version antiga só para evitar migração
+
+---
+
+## Divisão de responsabilidade
+
+- **`flutter-senior`** — implementa o request de permissão, trata os 4 estados, ajusta Manifest/Info.plist da feature que está construindo
+- **`flutter-reviewer`** — valida se Manifest/Info.plist só declara o necessário, se os 4 estados de permissão foram tratados, se a permissão não é pedida cedo demais
+- **`tech-lead`** — decide se uma feature nova justifica permissão sensível (localização always, bluetooth, biometria, tracking) frente ao risco de fricção/rejeição de loja

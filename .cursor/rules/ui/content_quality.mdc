@@ -1,0 +1,271 @@
+---
+description: Qualidade de conteúdo — decisão sobre o melhor meio para cada informação (texto, imagem, animação, ícone, número, gráfico). Ler ao implementar qualquer elemento visível ao usuário.
+globs: ["lib/**/*_page.dart", "lib/**/*_widget.dart", "lib/core/widgets/**/*.dart"]
+alwaysApply: false
+---
+
+# Qualidade de Conteúdo
+
+> **Teste "faz sentido":** antes de mostrar qualquer elemento, responda 3 perguntas:
+> 1. Qual pergunta do usuário isso responde **agora**?
+> 2. Este é o **melhor meio** para essa resposta?
+> 3. Se eu removesse isso, o usuário perderia algo que importa?
+>
+> Se não souber responder a pergunta 1, o elemento não deveria estar lá.
+
+---
+
+## 1. Guia de escolha de meio
+
+| Meio | Use quando | Evite quando |
+|------|-----------|--------------|
+| **Texto** | Precisão importa; o usuário precisa ler e agir; conceito novo sem referência visual | A ação é óbvia pelo contexto; ícone universal resolve; repetiria algo já visível |
+| **Ícone** | Ação universal reconhecível (adicionar, fechar, voltar, editar); espaço limitado; acompanhado de label quando contexto é novo | O conceito é abstrato; o ícone não existe no Material Icons; seria o único elemento sem label na tela |
+| **Imagem** | Reconhecimento visual é mais rápido que leitura (exercício, postura, equipamento); o usuário precisa identificar, não ler | Só preenche espaço; repete o que o texto já diz; qualidade é insuficiente para ser credível |
+| **Animação** | Mudança de estado precisa ser percebida; direção ou transição comunica algo; celebração tem propósito emocional | Decoração pura; o usuário já entendeu o estado; a tela está carregando |
+| **Número** | O valor exato muda uma decisão ("3 de 5 treinos") | O valor é só informativo e não gera ação; a tendência importa mais que o número exato |
+| **Gráfico** | Comparação ou tendência entre múltiplos valores | 1–2 valores que um número ou barra simples resolve; ver `ui/data_viz.mdc` |
+| **Cor (semântica)** | Status precisa ser reconhecido em < 1s (feito/pendente/alerta); sem depender só de cor (daltonismo) | Decoração; criar distinção onde não há diferença de estado real |
+
+---
+
+## 2. Texto — quando e como
+
+### Texto deve estar lá se
+
+- O usuário precisa ler para tomar uma decisão ou executar uma ação
+- O conceito não tem representação visual óbvia
+- É a primeira vez que o conceito aparece (educação)
+
+### Texto deve ser removido ou substituído se
+
+- Repete o que um ícone já comunica ("← Voltar" quando o gesto de swipe resolve)
+- É um rótulo de campo óbvio pelo contexto (campo de carga em um exercício não precisa de label "Carga (kg)" se o contexto está claro)
+- É uma instrução para algo que deveria ser intuitivo — se precisa de instrução, o fluxo está errado
+- É um estado que uma cor ou ícone comunica melhor ("✓ Feito" vs ícone de check verde)
+
+### Comprimento
+
+| Contexto | Comprimento máximo |
+|----------|-------------------|
+| Toast / notificação | 1 linha (~50 chars) |
+| Label de card | 2 linhas; truncar com `...` |
+| Subtítulo de tela | 2–3 linhas |
+| Estado vazio | 3 elementos: título (1 linha) + subtítulo (2 linhas) + CTA |
+| Tooltip / detalhe expandível | Sem limite — é o lugar para aprofundar |
+
+**Regra de ouro do texto:** se o usuário vai escanear (não ler), comece pelo verbo ou pelo dado principal — não pelo contexto.
+
+| ❌ Começa pelo contexto | ✅ Começa pelo que importa |
+|------------------------|--------------------------|
+| "Seu plano de academia está com desequilíbrio em costas" | "Costas sub-trabalhadas no seu plano" |
+| "Com base no seu split atual, pernas estão abaixo do esperado" | "Pernas abaixo do esperado para o seu split" |
+| "Para continuar evoluindo, marque seus exercícios como feitos" | "Marque cada exercício ao terminar" |
+
+---
+
+## 3. Imagem — quando e como
+
+### Imagem agrega quando
+
+- Mostra **como fazer** (postura de execução, posição do corpo) — mais rápido que texto
+- Ajuda a **identificar** o exercício/equipamento sem ambiguidade
+- O usuário precisa **reconhecer**, não ler
+
+### Imagem não agrega quando
+
+- É apenas decorativa (fundo, textura, placeholder permanente)
+- Repete o nome do exercício sem adicionar informação
+- A qualidade é baixa o suficiente para prejudicar a credibilidade
+- O espaço é pequeno demais para o detalhe ser visível (< 48×48dp)
+
+### Qualidade mínima
+
+| Contexto | Tamanho mínimo do asset | Qualidade |
+|----------|------------------------|-----------|
+| Thumb em card de lista | 80×80dp (1×), 160×160px (2×) | Legível em fundo escuro |
+| Imagem no detalhe do exercício | 300×200dp (1×) | Postura clara, sem ruído |
+| Card compartilhável | Renderizado via `RepaintBoundary` | `pixelRatio: 3.0` (1080px) |
+
+**Fallback obrigatório:** imagem ausente → ícone do grupo muscular ou placeholder com ícone `fitness_center` — nunca quadrado vazio ou quebrado.
+
+**Tap na imagem:** se a imagem no detalhe for ambígua para execução, abrir modal com zoom ou link externo (YouTube, nome PT) — nunca assumir que a thumb resolve.
+
+---
+
+## 4. Animação — propósito obrigatório
+
+Toda animação precisa de um **motivo comunicativo**. Se não houver um, remover.
+
+| Motivo legítimo | Exemplo | Meio |
+|-----------------|---------|------|
+| Mudança de estado | Exercício marcado como feito | Check + cor mudam com `AnimatedSwitcher` |
+| Progresso / conquista | Dia concluído | Barras do resumo crescem ao aparecer |
+| Direção de navegação | Push de tela | Slide da direita comunica "indo mais fundo" |
+| Dado novo carregado | Gráfico muscular na prévia | Barras crescem da esquerda — "revelando" o resultado |
+| Celebração com propósito | Bottom sheet pós-treino | Animação de entrada comunica "você conquistou isso" |
+
+| Motivo ilegítimo | O que fazer |
+|-----------------|-------------|
+| "Fica mais bonito" | Remover — decoração pura tem custo de atenção e bateria |
+| "Mostra que carregou" | Usar shimmer — animação de loading tem regra própria |
+| "Todos os apps têm" | Avaliar se agrega; se não, remover |
+| Loop infinito sem estado | Remover — implica que algo está acontecendo quando não está |
+
+### Quanto tempo uma animação pode durar
+
+- Micro-interação (toggle, check): 150ms — imperceptível mas suave
+- Transição de tela: 250ms — rápido o suficiente para não parecer lento
+- Revelação de dado (gráfico): 350–600ms — tempo suficiente para o usuário acompanhar
+- Celebração (pós-treino): até 800ms — único contexto onde duração maior é tolerada
+
+**Nunca:** animação que o usuário precisa esperar terminar para interagir.
+
+### Acessibilidade e preferências
+
+- Respeitar `MediaQuery.of(context).disableAnimations` — quando ativo, pular para estado final
+- Animações de loop infinito: proibidas em qualquer contexto de uso regular
+
+---
+
+## 5. Ícone — quando funciona sozinho
+
+### Ícone sem label é aceitável quando
+
+- É uma das ações universais: voltar (`arrow_back`), fechar (`close`), adicionar (`add`), editar (`edit`), deletar (`delete`), buscar (`search`), compartilhar (`share`)
+- O contexto torna a ação óbvia (ícone de `check` numa lista de exercícios)
+- Tem `tooltip` configurado (obrigatório em `IconButton`)
+
+### Ícone precisa de label quando
+
+- O conceito é específico do app (ex.: ícone de "split de treino" não existe no vocabulário universal)
+- É uma ação primária crítica — CTA principal nunca é só ícone
+- Aparece pela primeira vez numa tela nova para o usuário
+
+### Consistência obrigatória
+
+| Ação | Ícone fixo |
+|------|-----------|
+| Editar | `Icons.edit` |
+| Deletar / remover | `Icons.delete_outline` |
+| Adicionar | `Icons.add` |
+| Concluído / feito | `Icons.check_circle` ou `Icons.check` |
+| Alerta / atenção | `Icons.warning_amber_rounded` |
+| Histórico | `Icons.history` |
+| Compartilhar | `Icons.share` |
+| Trocar exercício | `Icons.swap_horiz` |
+| Informação / detalhe | `Icons.info_outline` |
+
+Usar o mesmo ícone para a mesma ação em toda a aplicação — sem variação por "estética da tela".
+
+---
+
+## 6. Número — quando e como exibir
+
+### Número deve estar lá se
+
+- O valor exato muda o que o usuário vai fazer ("3 de 5 treinos" → sei que posso faltar 2)
+- É uma conquista concreta ("Você moveu 2.400 kg hoje")
+- É uma métrica que o usuário acompanha ativamente (carga do exercício, distância)
+
+### Número não deve estar lá se
+
+- É só informativo e não gera ação nem sensação ("ID do plano: 1247")
+- A tendência importa mais que o valor exato → usar gráfico ou barra
+- Vai mudar tão rápido que o usuário não consegue processar
+
+### Como formatar
+
+| Dado | Formato | Exemplo |
+|------|---------|---------|
+| Percentual relevante | 1 casa decimal se ≥ 10%; inteiro se < 10% | "32%", "8%" |
+| Carga (kg) | 1 casa decimal só se não for inteiro | "60 kg", "62,5 kg" |
+| Distância (km) | 2 casas decimais | "10,50 km" |
+| Tempo (corrida) | MM:SS ou H:MM:SS | "45:30", "1:12:45" |
+| Pace (corrida) | M'SS"/km | "5'30"/km" |
+| Volume (séries × reps) | Inteiro × inteiro | "3 × 12" |
+| Streak / semanas | Inteiro + label | "4 semanas" |
+
+Separador decimal: **vírgula** (pt_BR) — nunca ponto.
+Unidade sempre visível ao lado do número — nunca número sozinho sem contexto.
+
+---
+
+## 7. Hierarquia de informação por tela
+
+Cada tela tem **um** elemento principal e o restante é suporte:
+
+| Nível | Quantidade | Como comunicar |
+|-------|-----------|----------------|
+| **Principal** | 1 por tela | Maior, mais contrastado, posição de destaque |
+| **Secundário** | 2–4 por tela | Menor, `textSecondary`, ou atrás de interação (expandir, tocar) |
+| **Terciário** | Ilimitado | Disponível ao navegar para detalhe — não na tela principal |
+
+**Regra de 3 segundos:** se o usuário não consegue identificar o que fazer em 3 segundos, há elementos demais ou a hierarquia está errada.
+
+### Carga cognitiva — limites por componente
+
+| Componente | Máximo de informações visíveis |
+|-----------|-------------------------------|
+| Card de exercício (lista) | Nome + chip muscular + série/reps — 3 elementos |
+| Card de dia (home) | Label do dia + foco + progresso — 3 elementos |
+| Toast | 1 frase |
+| Bottom sheet de resumo | 3–5 métricas principais + 1 CTA |
+| Tela de prévia (wizard) | Gráfico + lista de dias — detalhe abre ao tocar no dia |
+
+Informação adicional sempre **disponível ao tocar**, nunca empurrada na tela principal.
+
+---
+
+## 8. Telas de prévia e confirmação — hierarquia obrigatória
+
+Toda tela onde o usuário revisa algo antes de confirmar (wizard preview, onboarding step, detalhe antes de salvar) segue esta ordem:
+
+1. **Hero** — a informação principal que define o que o usuário vai receber: título, resumo do plano, objetivo. Visível sem rolar.
+2. **Suporte** — detalhes relevantes para a decisão: dias, volume, avisos (`AppNoticeBanner`). Visível no scroll.
+3. **Educativo / referência** — conteúdo que esclarece mas não é necessário para confirmar (ex.: "O que cada treino significa", "Zonas de esforço"). Sempre em accordion colapsado por padrão. O usuário que não precisa nunca o expande.
+4. **CTA fixo no rodapé** — único, fora do scroll.
+
+**Regra:** se o usuário precisa rolar para encontrar o botão de confirmação, a tela está errada.
+
+**Anti-pattern:** listar os exercícios por nome em prévia de plano — o usuário ainda não treinou nada; o que importa é o foco e a quantidade por dia. A lista completa pertence ao dia de treino.
+
+---
+
+## 10. Anti-patterns de conteúdo
+
+| ❌ Anti-pattern | ✅ Correto | Motivo |
+|----------------|-----------|--------|
+| Texto instruindo ação óbvia | Remover a instrução; melhorar o affordance | Se precisa explicar, o fluxo está errado |
+| Ícone sem tooltip em `IconButton` | `tooltip:` obrigatório | Acessibilidade e descoberta |
+| Número sem unidade | "60 kg", não "60" | Ambiguidade é erro |
+| Animação decorativa em loop | Remover | Distrai, consome bateria, implica estado ativo |
+| Imagem em baixa qualidade sem fallback | Fallback com ícone + placeholder | Imagem quebrada destrói credibilidade |
+| 6+ informações visíveis num card | Mover terciários para detalhe expandível | Carga cognitiva fragmenta atenção |
+| Ícone diferente para a mesma ação em telas distintas | Ícone fixo por ação (tabela acima) | Inconsistência gera insegurança no usuário |
+| Separador decimal com ponto em pt_BR | Vírgula | Erro de localização |
+| Dado sem contexto de ação | Remover ou mover para detalhe | Informação sem uso é ruído |
+
+---
+
+## 11. Checklist de validação — ao implementar elemento visível
+
+- [ ] Cada elemento responde a uma pergunta específica do usuário naquele momento
+- [ ] O meio escolhido (texto/imagem/animação/ícone/número) é o mais eficiente para aquela informação
+- [ ] Texto: começa pelo dado ou verbo principal, não pelo contexto
+- [ ] Imagem: tem fallback implementado; qualidade legível no tamanho exibido
+- [ ] Animação: tem motivo comunicativo definido; respeita `disableAnimations`; não bloqueia interação
+- [ ] Ícone: tem `tooltip`; é consistente com a tabela de ícones fixos
+- [ ] Número: tem unidade; separador decimal é vírgula; precisão é a mínima necessária
+- [ ] Tela tem um elemento principal claro — hierarquia de 3 segundos funciona
+- [ ] Cards respeitam o limite de informações visíveis — terciário está em detalhe expandível
+
+---
+
+## Referências rápidas
+
+- Gráficos e charts → `ui/data_viz.mdc`
+- Tokens visuais (cor, tamanho, espaçamento) → `ui/design_system.mdc`
+- Tom e copy → `ui/copy_voice.mdc`
+- Animações (tokens de duração, transições de tela) → `ui/design_system.mdc`
+- Checklist de validação UI/UX (Pilares 3–5) → `validation/ui_ux.mdc`

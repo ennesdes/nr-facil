@@ -1,0 +1,173 @@
+---
+description: Checklist de validação pós-implementação — qualidade de código e funcionalidade. Ler após qualquer implementação antes de declarar "pronto".
+alwaysApply: false
+---
+
+# Validação de Qualidade de Código
+
+> **Papel:** Você é um especialista em QA e Code Review deste projeto Flutter (MVVM + GetX + GetStorage + Material 3, dark mode, pt_BR).
+> Sua missão é analisar o código recém-implementado com base nos 3 pilares abaixo (Código, Funcionalidade, Cobertura de Testes).
+> Execute o checklist **após** a implementação e **antes** de responder "pronto".
+
+---
+
+## Pilar 1 — Qualidade do Código (Code Quality)
+
+### Boas práticas e arquitetura
+
+- [ ] **Zero lógica de negócio em widgets** — widget só lê estado e dispara ações
+- [ ] `Obx` envolve o menor widget que reage — nunca o `Scaffold` inteiro
+- [ ] Cada `Obx` lê `.value`/`.obs` **dentro do próprio closure** — não só em `StatelessWidget` filho (evita *improper use of GetX*)
+- [ ] Dependências injetadas via construtor → binding; `Get.find()` só em bindings (`*_binding.dart`)
+- [ ] **Alterou `initial_binding.dart`?** Rodar `python3 scripts/check_binding_order.py` (ver `core/architecture.mdc` § Ordem em `initial_binding.dart`) — `Get.find<T>()` só é válido se `Get.put<T>()` estiver **antes** na mesma lista; `flutter analyze` não detecta isso, só o boot real do app
+- [ ] **Alterou `*_binding.dart` que lê `Get.arguments`/`Get.parameters`?** Rodar `python3 scripts/check_route_controller_bindings.py`; garantir `Get.delete` + `Get.put` e testar 2ª abertura da rota com argumentos diferentes (ver `core/architecture.mdc` § Controllers escopados à rota)
+- [ ] Workers (`ever`, `debounce`, `once`) inicializados no `onInit`, nunca no `build`
+- [ ] Estado mutado via `copyWith` (objeto novo) — nunca mutação in-place de item de lista/model; `update()`/notificação do observable disparada só **depois** da persistência confirmar (ver `.claude/decisions/teste-reatividade-estado.md`)
+- [ ] Serviços globais com `permanent: true`; controllers de módulo com `lazyPut` — **exceto** bindings que leem `Get.arguments`/`Get.parameters` (`Get.delete` + `Get.put`)
+- [ ] `AppLogger` em todo lugar — zero `print()` em produção
+- [ ] Nenhum `!` (bang) sem garantia explícita de não-null no mesmo escopo
+- [ ] `fromMap` defensivo em todos os modelos: fallback sem crash com storage corrompido
+- [ ] `toMap`/`fromMap` round-trip sem perda de dados
+- [ ] Chaves de storage centralizadas em `core/constants/` — sem string literal solta
+
+### Segurança e integridade
+
+- [ ] Nenhum dado sensível em log (senha, token, e-mail, storage key)
+- [ ] Geração de treinos offline e determinística — sem API call em runtime
+- [ ] Escrita em storage: `await` + try/catch; em falha, estado em memória revertido e usuário avisado
+- [ ] Nenhum `throw` não tratado exposto ao usuário (erros humanizados)
+
+### Performance
+
+- [ ] Listas com mais de ~10 itens usam `ListView.builder` + `ValueKey`
+- [ ] `const` aplicado a widgets sem estado dinâmico
+- [ ] Nenhum `Opacity` widget — usar alpha direto no token de cor (`AppColors`)
+- [ ] Operações pesadas (sort, filter, map em lista grande) fora do `build`
+- [ ] Sem reconstrução desnecessária de `Obx` por variável não usada no escopo
+
+### Legibilidade
+
+- [ ] Nomes de variáveis, funções e classes descrevem o conteúdo sem ambiguidade
+- [ ] Comentários existem **só** onde o "por quê" é não óbvio — sem comentários explicando o "o quê"
+- [ ] `flutter analyze` sem erros ou warnings novos
+- [ ] Código/assets/rotas/testes que a mudança tornou obsoletos foram **removidos** nesta entrega
+
+### Extração de componente (regra obrigatória)
+
+- [ ] **Se o mesmo bloco de estilo visual aparece em 2+ lugares → criar wrapper** em `lib/core/widgets/` antes de copiar pela segunda vez
+- [ ] `AlertDialog` sempre via `AppDialog.show(...)` — nunca inline
+- [ ] `SnackBar` / `Get.snackbar` sempre via `AppSnackbar.show(...)` — nunca inline
+- [ ] Ao encontrar duplicação inline em arquivo existente → corrigir no mesmo PR (não deixar dívida)
+
+---
+
+## Pilar 2 — Qualidade da Funcionalidade (Functional Quality)
+
+### Regra de negócio
+
+- [ ] O comportamento descrito na tarefa foi implementado **completamente**
+- [ ] Comportamento estava previsto na documentação antes de ter sido codado (`core/documentation.mdc`)
+- [ ] Nenhum `TODO`, `FIXME`, `HACK` ou `// temp` deixado sem resolução nesta entrega
+
+### Edge cases
+
+- [ ] Lista vazia: estado vazio com ícone + título + subtítulo + CTA
+- [ ] Dado nulo ou ausente: fallback sem crash — nunca tela em branco
+- [ ] Storage corrompido: `fromMap` defensivo retorna default sem exceção
+- [ ] Primeiro uso do app: fluxo funciona sem dados pré-existentes
+- [ ] Ação executada mais de uma vez (double tap): sem duplicação de efeito
+- [ ] Mesma rota aberta 2× com argumentos diferentes (ex.: trocar exercício A depois B): UI e filtro refletem o contexto atual, não o anterior
+
+### Tratamento de erros
+
+- [ ] Try/catch em toda operação de I/O e persistência
+- [ ] Erro comunicado ao usuário em linguagem humana — sem mensagem técnica crua
+- [ ] Estado em memória revertido quando a persistência falha
+- [ ] Testes unitários cobrem os cenários de falha para lógica nova em `core/services/` ou `domain/`
+- [ ] Testes existentes continuam passando (`flutter test`)
+
+---
+
+## Pilar 3 — Cobertura de Testes (Test Coverage)
+
+> Regra: nenhum método público novo em `core/services/` ou `domain/` sem ao menos um teste cobrindo o caminho feliz e um cobrindo a falha.
+
+### Verificação rápida
+
+```bash
+# Rodar todos os testes e checar se passam
+flutter test
+
+# Gerar relatório de cobertura (requer lcov instalado)
+flutter test --coverage
+genhtml coverage/lcov.info -o coverage/html
+open coverage/html/index.html
+```
+
+### Cobertura mínima obrigatória por camada
+
+| Camada | Cenários mínimos exigidos |
+|--------|--------------------------|
+| `core/services/` | Caminho feliz + edge cases listados em `testing/unit_tests.mdc` + cenário de falha para cada operação de I/O |
+| `modules/wizard/domain/` | Todas as combinações de split/foco definidas em `domain/gym.mdc`; flag de lesão; 1 dia; N dias |
+| `data/models/` | Round-trip `toMap`/`fromMap` sem perda + dado corrompido → sem exceção, para **todo modelo alterado** |
+| `data/repositories/` | Salvar → ler → deletar + storage vazio → retorna null/default, para **todo repositório alterado** |
+
+### Checklist de cobertura pós-implementação
+
+- [ ] Todo método público **novo** em `services/` ou `domain/` tem pelo menos 1 teste de caminho feliz
+- [ ] Todo método público **novo** em `services/` ou `domain/` tem pelo menos 1 teste de falha ou edge case
+- [ ] Todo modelo **novo ou alterado** tem teste de round-trip `toMap`/`fromMap`
+- [ ] Todo modelo **novo ou alterado** tem teste de `fromMap` com mapa corrompido/incompleto → sem exceção
+- [ ] `flutter test` passa sem falhas (`0 tests failed`)
+- [ ] Nenhum teste marcado com `skip` sem justificativa explícita no código
+- [ ] Testes **removidos** que cobriam código obsoleto — sem teste órfão apontando para código que não existe mais
+- [ ] Entrega inclui tela ou widget → `validation/ui_ux.mdc` Pilares 3–4 + síntese Pilar 5 executados antes de declarar pronto
+
+### O que está fora do escopo de testes (MVP)
+
+Conforme `testing/unit_tests.mdc`:
+- Widgets e telas (`*_page.dart`, `*_widget.dart`)
+- Navegação GetX
+- Controllers via framework (`Get.put`/`Get.find`)
+
+---
+
+## Código Incompleto — protocolo obrigatório
+
+Quando uma entrega está **parcialmente implementada** ou **não funcional**, duas ações são obrigatórias:
+
+### A. Cabeçalho no arquivo Dart afetado
+
+Inserir no topo do arquivo (após imports), antes de qualquer declaração:
+
+```dart
+// ============================================================
+// INCOMPLETO — [data: YYYY-MM-DD]
+// O QUE FALTA:
+//   1. <descrição clara do que ainda precisa ser feito>
+//   2. <próximo passo concreto>
+// COMO FAZER:
+//   - <qual serviço, método ou regra usar>
+//   - <referência ao arquivo em .cursor/rules/ se aplicável>
+// BLOQUEADOR (se houver):
+//   - <o que impede a conclusão agora>
+// ============================================================
+```
+
+### B. Tabela de pendências neste documento
+
+Adicionar abaixo (seção `## Pendências abertas`):
+
+| Arquivo | Item pendente | Como resolver | Bloqueador |
+|---------|---------------|---------------|------------|
+| `lib/path/to/file.dart` | Descrição do que falta | Referência técnica | — ou motivo |
+
+---
+
+## Referências rápidas
+
+- Arquitetura detalhada → `core/architecture.mdc`
+- Documentação antes de codar → `core/documentation.mdc`
+- Regras de testes → `testing/unit_tests.mdc`
+- Checklist de UI/UX (Pilares 3–5) → `validation/ui_ux.mdc` — obrigatório se a entrega tocar `*_page.dart`, `*_widget.dart` ou tema

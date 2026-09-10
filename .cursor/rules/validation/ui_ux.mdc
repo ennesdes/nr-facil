@@ -1,0 +1,343 @@
+---
+description: Validação UI/UX — Filtro de elemento (5 perguntas) + Pilares 3–5 (checklist + julgamento senior). Ler ao implementar ou alterar tela/widget; obrigatório antes de declarar "pronto".
+globs: ["lib/**/*_page.dart", "lib/**/*_widget.dart", "lib/core/widgets/**/*.dart", "lib/app/theme/**/*.dart"]
+alwaysApply: false
+---
+
+# Validação de UI/UX
+
+> **Papel:** Especialista em UI e UX para este app Flutter (Material 3, dark mode, paleta índigo/violeta, pt_BR).
+> **Estrutura:** Filtro de elemento = 5 perguntas por elemento novo · Pilares 3–4 = checklist verificável · Pilar 5 = julgamento narrativo (não checkbox).
+> Execute ao **implementar** (princípios em mente) e **validar após** a implementação — **antes** de responder "pronto".
+
+---
+
+## Como usar
+
+| Fase | Formato | Quando |
+|------|---------|--------|
+| Filtro de elemento | 5 perguntas numeradas | Para cada elemento novo antes de implementar |
+| 3 — Estética | Checkbox | Toda tela ou widget novo |
+| 4 — Usabilidade | Checkbox | Toda tela ou widget novo |
+| 5 — Senior | Prosa curta | Após os checkboxes; exige olhar renderizado quando possível |
+
+**Regra de ouro:** princípios genéricos ficam aqui; implementação concreta (componentes, rotas, gráficos específicos) fica nos docs de referência — não duplicar.
+
+**Performance de código** (`ListView.builder`, ops fora do `build`) → `validation/code_quality.mdc`.
+**Escolha de meio, ícones, animações** → `ui/content_quality.mdc`.
+
+---
+
+## Filtro de elemento — 5 perguntas obrigatórias
+
+> Aplicar a **todo elemento novo** (widget, card, seção, badge, ícone, banner) antes de implementar.
+> Se a pergunta 1 não tiver resposta em uma frase, o elemento não pertence à tela.
+
+**1. Por que este elemento existe nesta tela?**
+Se a resposta passar de uma frase, o elemento está fazendo dois trabalhos ou está na tela errada. Remover primeiro; reintroduzir só com justificativa clara.
+
+**2. O que o iniciante (0–6 meses) pensa ao ver isso?**
+Ele entende o que é? Sabe o que fazer? Se a resposta exige conhecimento que o iniciante não tem → adicionar micro-cópia ou simplificar.
+
+**3. O que o intermediário (6–24 meses) pensa ao ver isso?**
+Ele usa isso? Com que frequência? Se só o intermediário usa → colapsar, aba ou scroll — nunca above-fold.
+
+**4. Está no lugar certo na hierarquia visual?**
+A ação mais importante é a maior e mais contrastante? CTAs secundários estão visivelmente subordinados? A hierarquia funciona com brilho de tela a 50%?
+
+**5. Está no momento certo do fluxo do usuário?**
+Informação de revisão (progressão, distribuição muscular) não pertence ao momento de ação (treino em andamento). Informação de ação (exercício atual, peso) não pertence ao momento de planejamento.
+
+---
+
+## Pilar 3 — Qualidade da Estética (UI Quality)
+
+### Fidelidade ao design system
+
+- [ ] **Zero valores hardcoded** — consumir tokens do design system (`AppColors`, `AppSpacing`, `AppTypography` ou extensão de tema/context, ex. `ThemeExtension` / `context.colors.*`) — nunca hex/dp solto nem `Theme.of(context).colorScheme.*` sem mapear ao token canônico
+- [ ] Nenhum `Colors.white`, `Colors.black`, `Colors.grey` ou hex solto
+- [ ] `brandPrimary` não usada como fundo de card inteiro
+- [ ] Borda de card dark: **0.5dp** (não 1dp)
+- [ ] Grid de 8dp em espaçamentos **estruturais** (padding de tela/card, gaps de seção, margens externas) — múltiplos de 8 via `AppSpacing`
+- [ ] **4dp (`AppSpacing.xs`)** só em micro-agrupamento interno (ícone↔texto, título↔subtítulo imediato, gaps de chip) — proibido em bordas de card, padding de tela ou gaps entre seções (*padding creep*)
+- [ ] Dark mode sem texto ilegível ou contraste quebrado
+- [ ] `MaterialApp` usa `themeMode: ThemeMode.dark` — app **não** respeita tema do sistema
+
+### Hierarquia visual
+
+- [ ] Existe **um** elemento principal de destaque por tela — não dois, não zero
+- [ ] Tokens de tipografia conforme hierarquia (`display*` → hero · `heading*` → títulos · `body*` → corpo · `label*` → metadados · `numeric*` → valores tabulares · `button*` → CTAs)
+- [ ] Shimmer do layout real em carregamento — **sem spinner genérico** na tela inteira
+- [ ] Estado vazio: ícone + título + subtítulo + CTA — não tela em branco
+- [ ] Chips e badges secundários não competem com o elemento principal — fundo semi-transparente, label curto
+
+> Tokens e hierarquia detalhados → `ui/design_system.mdc`
+
+### Responsividade
+
+Testar (ou verificar com `MediaQuery` fake) nos perfis de largura:
+
+| Perfil | Largura lógica | Dispositivo referência |
+|--------|---------------|----------------------|
+| Compacto | 360dp | Android pequeno |
+| Regular | 390dp | iPhone 14 / Pixel 7 |
+| Grande | 430dp | iPhone Pro Max |
+| Tablet\* | 600dp+ | \*somente telas que declaram suporte |
+
+- [ ] Zero `RenderFlex overflow` nos três perfis compacto–grande
+- [ ] Textos longos truncam com `TextOverflow.ellipsis` — não quebram layout
+- [ ] `Row` com muitos elementos usa `Flexible`/`Expanded`
+- [ ] `Column` longa dentro de `SingleChildScrollView` ou lista rolável — sem overflow vertical
+- [ ] Layout funciona com `MediaQuery.textScalerOf(context)` em **1.0** e **≥ 2.0** (baixa visão) sem quebrar hierarquia — testar com `TextScaler.linear(...)`; não usar `textScaleFactor` (deprecated)
+- [ ] Escalas extremas (>2.0): se o layout não aguenta, teto explícito no `MaterialApp` via `TextScaler.linear(clamp(...))` — nunca quebra catastrófica silenciosa
+- [ ] Landscape e telas largas (≥600dp, quando suportadas): conteúdo rola ou adapta — sem áreas mortas nem crash
+
+### Safe area, teclado e barras do sistema
+
+- [ ] Listas roláveis somam `MediaQuery.viewPaddingOf(context).bottom` + altura de barra/botão fixo no rodapé
+- [ ] Botões fixos em `SafeArea(top: false)` — não cobrem gestos de navegação
+- [ ] Conteúdo não fica atrás de status bar, notch ou dynamic island
+- [ ] Teclado aberto: conteúdo rola para manter o campo focado visível
+- [ ] Dismiss do teclado em telas roláveis: `ScrollView.keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag` — evitar `GestureDetector(onTap: unfocus)` envolvendo scroll (conflita com física de rolagem); tap fora só em superfícies não roláveis ou com `HitTestBehavior.deferToChild`
+- [ ] Botão concluir/fechar ou ação explícita também dismissa o teclado quando aplicável
+- [ ] Campos numéricos usam teclado numérico (`keyboardType: TextInputType.number` ou equivalente)
+
+### Performance percebida
+
+> Implementação → `validation/code_quality.mdc` § Performance. Aqui: o que o **usuário sente**.
+
+- [ ] Transição de tela sem jank perceptível
+- [ ] Lista longa abre e rola sem congelamento visível
+- [ ] Shimmer reflete o layout real — não placeholder genérico
+- [ ] Imagens remotas (se houver): cache — sem piscar ou re-fetch a cada rebuild
+
+### Conteúdo — meio certo para cada informação
+
+> Regras completas → `ui/content_quality.mdc`. Confirmar que foram aplicadas:
+
+- [ ] Teste "faz sentido" (pergunta do usuário · melhor meio · removível?) passou em cada elemento novo
+- [ ] Texto começa pelo dado ou verbo principal — não pelo contexto
+- [ ] Nenhuma animação decorativa — motivo comunicativo definido; respeita `MediaQuery.disableAnimations` → `content_quality.mdc`
+- [ ] Números com unidade; vírgula decimal (pt_BR); precisão mínima necessária
+- [ ] Hierarquia identificável em 3 segundos; cards com no máximo 3–4 informações visíveis
+- [ ] Imagens com fallback; legível no tamanho exibido
+
+### Visualização de dados
+
+> Tipo de gráfico, arredondamento, animação por componente → `ui/data_viz.mdc`
+
+- [ ] Tipo escolhido com justificativa (tipo aceito e rejeitados documentados no doc fonte)
+- [ ] Dado insuficiente → estado vazio contextual — não gráfico zerado ou vazio
+- [ ] Labels em pt_BR — nenhuma chave técnica exposta ao usuário
+- [ ] Escala idêntica em comparações lado a lado
+- [ ] Título descreve o que o usuário entende — não nome técnico interno
+- [ ] Gráfico de snapshot/histórico não reanima ao reconstruir (`animate: false`)
+- [ ] Conteúdo capturável (share/export): sem animação dentro do `RepaintBoundary` de captura
+
+### Animações e transições
+
+- [ ] Transições de tela na rota — `Transition.rightToLeft` (push) ou `Transition.fadeIn` (substituição); não no widget
+- [ ] Duração: **250ms** telas · **150ms** micro-interações · gráficos conforme `ui/data_viz.mdc`
+- [ ] Gráficos animam **uma vez** na entrada — sem re-animação ao reconstruir
+- [ ] Mudanças de estado visíveis usam transição (`AnimatedSwitcher` ou equivalente) — sem teleporte
+- [ ] Nenhuma animação em loop infinito visível
+- [ ] Nenhuma animação bloqueia interação
+- [ ] Controladores criados no `State` (`AnimationController`, `TabController`, listeners locais) descartados em `dispose()` — sem vazamento ao sair da tela
+
+### Consistência entre telas
+
+- [ ] AppBar com altura e estilo consistentes
+- [ ] Ações secundárias (overflow, swipe) se comportam igual em contextos similares
+- [ ] Ícones do mesmo contexto são os mesmos em todo o app (ex.: editar → `Icons.edit`)
+- [ ] Botões e inputs seguem o design system
+- [ ] Formatação de data, hora e número vem de **uma fonte** — sem lógica duplicada por tela
+- [ ] Densidade visual (padding, tipografia) consistente entre telas do mesmo nível hierárquico
+
+---
+
+## Pilar 4 — Qualidade da Usabilidade (UX Quality)
+
+### Intuição e fluxo
+
+- [ ] Ação principal óbvia — usuário sabe o que fazer sem instrução
+- [ ] CTA principal em infinitivo curto ou 1ª pessoa — ver `ui/copy_voice.mdc`
+- [ ] Ação destrutiva exige confirmação antes de executar
+- [ ] Voltar ou dismiss disponível em modal, bottom sheet e overlay
+- [ ] Rotas nomeadas — arguments carregam só ID, não objeto completo
+- [ ] Recurso bloqueado (ex.: Pro) mostra teaser — não erro nem tela em branco
+- [ ] Pull-to-refresh (se usado): alternativa não-gestual (botão atualizar) para acessibilidade
+- [ ] Swipe actions (deletar, arquivar): alternativa via long-press ou menu
+- [ ] Foco do teclado/leitor de tela segue ordem lógica em sheets e dialogs
+- [ ] Formulários longos divididos em etapas com indicador de progresso; validação inline — não só no submit
+- [ ] Onboarding introdutório (antes do fluxo principal): pulável para usuários recorrentes; máx. 3–4 telas
+
+> Rotas, gates e fluxos por feature → `ui/screens_flow.mdc`
+
+### CTA e hierarquia de ação
+
+- [ ] **CTA primário em telas de confirmação/prévia é fixo no rodapé (`Stack` + `Positioned` + `SafeArea(top: false)`)** — nunca ao fim de conteúdo rolável; o usuário não deve rolar para achar o botão principal
+- [ ] **Banners de aviso e validação pertencem ao scroll**, nunca ao bloco de CTA fixo — o rodapé é exclusivo para botões de ação
+- [ ] **Hierarquia obrigatória em telas de prévia e wizard:** (1) informação hero/decisiva no topo → (2) detalhes de suporte colapsáveis abaixo → (3) CTA fixo no rodapé; nada inverte essa ordem
+- [ ] **CTA label comunica o resultado**, não o mecanismo: "Guardar e começar", "Confirmar plano", "Continuar" — nunca "Ver prévia" ou "OK"; sufixo "Próximo · [Módulo]" só se couber em uma linha (360dp)
+- [ ] **Uma hierarquia de ação por superfície:** se há um `FilledButton` abrindo a mesma rota que um card clicável, remover o affordance duplicado dentro do card (texto em azul + chevron + botão = ruído)
+
+### Escopo e relevância da tela
+
+- [ ] **Só o que existe e importa agora** — sem placeholders, slots vazios ou convites inline para configurar algo inexistente no estado atual
+- [ ] **Cada elemento responde a uma necessidade do momento** — se não se aplica, não aparece (não fica desabilitado ou genérico)
+- [ ] **Gestão no lugar certo** — criar, editar, arquivar ou mudar escopo vão para fluxo, menu ou tela secundária
+- [ ] **Fluxos encadeados terminam completos** — tela de destino sem nada "prometido mas ainda não configurado"
+- [ ] **Máximo 2 banners informativos empilhados visíveis** — quando a lógica pode gerar 3 ou mais banners simultâneos (alertas, validação, fase), verificar se todos são realmente necessários ao mesmo tempo ou se podem ser consolidados
+
+### Acessibilidade (a11y)
+
+- [ ] Área mínima **48×48dp** em todo elemento interativo
+- [ ] `Semantics` em interativos sem label textual visível
+- [ ] `tooltip` em todo `IconButton`
+- [ ] Contraste WCAG AA — texto padrão e estados `disabled` / `pressed` (atenção: `textSecondary` sobre `surfaceCard`)
+- [ ] Animações respeitam `MediaQuery.disableAnimations` quando ativado pelo sistema
+- [ ] Haptic feedback em ações importantes (confirmar, deletar, concluir)
+
+### Erros e validação
+
+- [ ] Erro de validação aparece **próximo ao campo** — não só toast/snackbar global
+- [ ] Erro comunicado em linguagem humana + ação possível — ver `ui/copy_voice.mdc`
+- [ ] **Quando houver I/O de rede:** estado dedicado para sem conexão com retry; timeout diferenciado de erro de servidor (MVP é offline-first — ver `ui/screens_flow.mdc`)
+
+### Feedback e comunicação
+
+> Copy, tom e vocabulário → `ui/copy_voice.mdc` (fonte única)
+
+- [ ] Carregamento: shimmer em listas, spinner no botão em ações pontuais — nunca "Carregando..." na tela
+- [ ] Operações < 300ms sem feedback visual — piscar é pior que nada
+- [ ] Sucesso: o que o usuário conquistou — máximo 1 linha por toast
+- [ ] Erro: o que aconteceu + o que fazer; retry quando possível
+- [ ] Estado vazio: convite à ação — não constatação de ausência
+- [ ] Datas relativas onde possível
+- [ ] Diálogo de confirmação: pergunta + consequência + botão destrutivo descritivo — nunca "OK"
+- [ ] Pronome você/seu/sua; vocabulário fixo; sem jargão técnico na UI
+
+---
+
+## Pilar 5 — Avaliação Senior (julgamento, não checklist)
+
+> Responder em **prosa curta** (2–4 frases por bloco). Exigir tela renderizada (emulador ou screenshot) quando possível.
+> Respostas genéricas ("parece ok") **não contam** como validação. Se não for possível renderizar, declarar a limitação.
+
+### Carga cognitiva
+
+- Esta tela responde **uma** pergunta do usuário, ou tenta responder três? Se eu cobrir 30% da tela aleatoriamente, ainda entendo o que fazer?
+- Quantas decisões o usuário precisa tomar antes de agir? Cada decisão extra é justificável?
+- Usuário cansado, no fim do treino: a tela exige esforço mental ou é instantânea?
+
+### Hierarquia real (não só tipográfica)
+
+- O elemento principal é também o que **o olho vai primeiro**? Tamanho de fonte não garante — cor, contraste e posição competem.
+- Algo brigando com o principal por atenção (badge, ícone, cor vibrante em posição secundária)?
+
+### Honestidade emocional do design
+
+- Microcopy e estados fazem o usuário se sentir competente/no controle, ou o app parece "ditando regras"?
+- Animações e feedback comunicam *progresso real* ou decoração que *parece* progresso (ex.: loading que enche rápido e trava no fim)?
+
+### Coerência de sistema vs. tela isolada
+
+- A tela foi validada no **fluxo**, não só isolada? CTAs equivalentes têm peso visual coerente com a prioridade real?
+- Comparando com as telas anteriores no fluxo: tom, densidade e ritmo são os mesmos — ou parece outro app?
+
+### Caminhos e fluidez do fluxo
+
+- De onde o usuário chegou aqui? Faz sentido qualquer uma das origens possíveis aterrissar nesta tela neste estado?
+- Se o usuário pressionar Voltar agora, o destino é o certo? Ele vai encontrar o que espera lá?
+- Existe algum caminho onde o usuário fica "preso" — sem CTA de progresso e sem saída clara?
+- Se ele interromper aqui (app em background, ligação) e voltar depois, o estado faz sentido?
+- Percorrendo o fluxo completo mentalmente: existe algum momento que parece ilógico ou "saltado" do ponto de vista do usuário — não do código?
+
+### Percurso do scroll (obrigatório em telas roláveis)
+
+Percorra mentalmente o scroll do topo ao rodapé antes de declarar a tela pronta:
+
+- O elemento mais importante aparece **acima da dobra** (visible sem rolar)?
+- O usuário sabe o que fazer antes de rolar qualquer coisa?
+- Há informação de suporte ou educativa abaixo do CTA? → Mover para accordion/detalhe expandível
+- O conteúdo total justifica o tamanho do scroll? Seções desnecessárias ou duplicadas?
+- Em tela de prévia/confirmação: o CTA é fixo no rodapé e visível sem rolar? Se não, **é um bug de UX**
+
+### Esforço vs. valor percebido
+
+- O usuário faz mais toques/scrolls do que o valor da informação justifica? Cada toque extra tem razão neste app?
+- Existe algo que só existe porque "precisava de uma tela" — sem necessidade real do usuário?
+
+### Primeira impressão sem contexto
+
+- Só com este print, alguém de fora entende o propósito em 3 segundos?
+- Algo parece template genérico em vez de desenhado para **este** app?
+
+### Síntese obrigatória
+
+- **Principal risco UX:** …
+- **Ajuste prioritário (se houver):** …
+
+---
+
+## Tela incompleta — protocolo obrigatório
+
+Quando uma tela ou widget está **visualmente incompleto** ou tem **comportamento de UX pendente**:
+
+### A. Cabeçalho no arquivo do widget/page
+
+```dart
+// ============================================================
+// UI INCOMPLETA — [data: YYYY-MM-DD]
+// O QUE FALTA:
+//   1. <item visual ou interação que ainda não está implementado>
+//   2. <próximo passo>
+// COMO FAZER:
+//   - <token, componente ou regra de design_system.mdc a usar>
+//   - <referência a copy_voice.mdc ou screens_flow.mdc se aplicável>
+// ============================================================
+```
+
+### B. Tabela de pendências neste documento
+
+Adicionar abaixo (seção `## Pendências de UI abertas`):
+
+| Tela / Widget | Item pendente | Referência de design | Bloqueador |
+|---------------|---------------|----------------------|------------|
+| `NomeDoWidget` | O que falta implementar | Token ou regra | — ou motivo |
+
+---
+
+## Validação home reordenada — Pilares 3–5 (jun/2026)
+
+> Contexto: home recebeu tokens de superfície com tint azul, `colorKinetic` como acento de estado "agora", CTA do spotlight migrado de índigo para laranja, spotlight cards com borda cinética, e barra de progresso cinética no `ProgramDayPage`.
+
+### Pilar 3 — Estética
+
+- [x] Tokens: zero valores hardcoded nas mudanças — `AppColors.colorKinetic`, `AppColors.onBrandPrimary`, `AppColors.borderSubtle`, `AppColors.colorKinetic.withValues(alpha: 0.45)`
+- [x] Borda de card sugerido: 1.5dp cinético (>`borderDefault` 0.5dp) — hierarquia sutil e legível
+- [x] Borda de spotlight card: 1dp cinético 45% alpha — consistência entre home força, corrida e híbrido
+- [x] CTA de spotlight: `colorKinetic` sólido com `onBrandPrimary` — contraste passa WCAG AA (laranja #FF5324 sobre branco)
+- [x] Barra de progresso: 4dp height, `borderSubtle` como trilho, cinético → verde quando completo
+- [x] `borderDefault` (0.5dp) mantida em cards não-sugeridos — delta de ~28 pts no canal azul entre `surfaceBackground` e `surfaceCard` é suficiente em condições normais; borda adiciona definição em academia com luz variável sem criar ruído
+
+### Pilar 4 — Usabilidade
+
+- [x] CTA do spotlight sem scroll — aparece imediatamente após o card de exercício; nenhuma rolagem necessária para a ação primária
+- [x] Semântica de cor coerente: índigo = estrutura (badges de navegação, labels de seção), laranja = ação agora (borda sugerido, CTA de hoje, barra de progresso), verde = conclusão (Feito, Concluído hoje)
+- [x] Barra de progresso no `ProgramDayPage`: label "X de Y feitos" resolve ambiguidade — usuário sabe exatamente onde está no treino
+- [x] Barra muda para verde quando 100% feito — reforça conclusão sem modal extra
+
+### Pilar 5 — Avaliação Senior
+
+**Carga cognitiva:** A home responde uma pergunta: "o que treino hoje?" O spotlight + CTA laranja ocupam o topo sem competição; o restante (dias da semana, revisão) fica no scroll. Usuário cansado chega, vê o botão laranja, toca. Nenhuma decisão extra necessária.
+
+**Hierarquia real:** O CTA laranja é o único elemento na cor `colorKinetic` sólida — olho vai direto. O card de exercício acima tem borda cinética 45% alpha, que contextualiza sem competir. Os cards de dia (borderDefault 0.5dp) ficam visivelmente abaixo na hierarquia.
+
+**Honestidade emocional:** A barra de progresso ("3 de 5 feitos") comunica progresso real, não decoração — ela só aparece quando há exercícios e avança conforme o usuário marca. Verde ao completar reforça conquista.
+
+**Coerência de sistema:** CTA cinético aparece apenas no contexto de "treino de hoje" (spotlight força, corrida, híbrido). CTAs de ação secundária (refazer plano, ver histórico) permanecem em índigo/outlined. Não há contaminação semântica.
+
+**Principal risco UX:** QA device pendente — em tela com brilho 50% e luz fluorescente de academia, a borda 45% alpha do spotlight pode se perder. A borda 1dp (vs 0.5dp padrão) mitiga, mas validação física é necessária.
+
+**Ajuste prioritário:** Validar em device físico com brilho reduzido (academia). Se a borda cinética 45% não distinguir bem o spotlight, elevar alpha para 0.6–0.65.

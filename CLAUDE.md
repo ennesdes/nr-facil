@@ -2,6 +2,15 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Fluxo de produto (antes de codar)
+
+```
+problema → usuário → escopo → fluxos → regras → arquitetura
+    → design system → UI → implementação → validação
+```
+
+Documentar em `docs/product/`. **Não implementar o indefinido.** Ver `docs/PRODUCT_FLOW.md` e `.cursor/rules/core/product_flow.mdc`.
+
 ## Project status
 
 This repo is pre-implementation (Fase 0 — Setup). There is no `app/` (Flutter project), no `content/` (converted NRs), and no `manifest.json` yet — those are created in later phases. Don't assume they exist; check before referencing paths under them.

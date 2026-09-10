@@ -1,0 +1,47 @@
+---
+description: Classificação de escopo e fluxo de trabalho com agente de IA.
+alwaysApply: true
+---
+
+# Agent Roles — Flutter
+
+## Classificar antes de codar
+
+| Escopo | Sinais | Abordagem |
+|--------|--------|-----------|
+| **Fix** | ≤ 3 arquivos, bug claro, sem regra nova | Implementar direto |
+| **Feature** | Tela nova, módulo, integração | Plano curto → implementar |
+| **Arquitetura** | Novo padrão, refatoração ampla | Discutir abordagem antes |
+
+## Fluxo de produto (ordem obrigatória)
+
+```
+problema → usuário → escopo → fluxos → regras → arquitetura
+    → design system → UI → implementação → validação
+```
+
+Agentes/comandos entram **depois** que o produto está definido o suficiente.
+
+## Comandos (execução com IA)
+
+```
+/descobrir (fases 1–4) → /decidir (5–6) → /plano (7–8) → /fazer (10) → /revisar (11)
+```
+
+Fix ≤ 3 arquivos com escopo claro → pode ir direto ao `/fazer`.
+
+## Checklist antes de declarar "pronto"
+
+- [ ] `flutter analyze` sem issues
+- [ ] Testes relevantes passando
+- [ ] Strings de UI revisadas (`ui/copy_voice.mdc`)
+- [ ] Se tocou tela: `validation/ui_ux.mdc`
+- [ ] Código morto removido
+- [ ] `core/code_map.mdc` atualizado se mudou estrutura
+
+## O que a IA não deve fazer sem pedir
+
+- Commit ou push
+- Alterar versão do app (`pubspec.yaml`)
+- Adicionar dependência pesada sem justificar
+- Refatorar módulos não relacionados à tarefa

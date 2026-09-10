@@ -1,0 +1,65 @@
+---
+description: Ordem obrigatória de pensamento produto → regras → arquitetura → design → implementação. Ler antes de planejar ou codar.
+alwaysApply: true
+---
+
+# Fluxo de produto — ordem obrigatória
+
+Não pule etapas. Não comece por tecnologia, telas ou código.
+
+```
+1. PROBLEMA        → por que existe?
+2. USUÁRIO         → para quem?
+3. ESCOPO          → o que faz? (capacidades, não telas)
+4. FLUXOS          → como o usuário faz?
+5. REGRAS          → o que pode / não pode? (sem mencionar stack)
+6. ARQUITETURA     → como construir? (stack, camadas, dados)
+7. DESIGN SYSTEM   → tokens, componentes reutilizáveis, estados
+8. UI / TELAS      → fluxos + regras + DS → telas
+9. AGENTES/CMDS    → organizar execução com IA (não substitui 1–8)
+10. IMPLEMENTAÇÃO  → código
+11. VALIDAÇÃO      → funciona, correto, usável, estados de erro
+12. ITERAÇÃO
+```
+
+## Regra de ouro
+
+**Não implementar o que ainda não está definido o suficiente.**
+
+Se faltar definição em problema, fluxo ou regra de negócio → perguntar ou documentar antes de codar.
+
+## Estados (antes de cada feature)
+
+Para cada capacidade, definir: sucesso, erro, loading, vazio, offline, sem permissão, primeiro uso.
+
+## Onde cada fase vive no repo
+
+| Fase | Artefato |
+|------|----------|
+| 1–4 | `.claude/discoveries/` ou `docs/product/` |
+| 5–6 | `.claude/decisions/` + `domain/*.mdc` |
+| 7–8 | `ui/design_system.mdc` + plano de telas |
+| 10 | código em `lib/` |
+| 11 | `validation/*` + testes |
+
+## Mapeamento de comandos
+
+| Fases | Comando |
+|-------|---------|
+| 1–4 | `/descobrir` |
+| 5–6 | `/decidir` |
+| 7–8 | `/plano` |
+| 10 | `/fazer` |
+| 11 | `/revisar` |
+
+Fix ≤ 3 arquivos com escopo claro → pode ir direto ao `/fazer`.
+
+## Anti-padrões
+
+- Começar com "vou usar Flutter/Supabase/GetX"
+- Listar telas antes de capacidades e fluxos
+- Codar regra de negócio sem escrever a regra em texto
+- Pular estados (loading, erro, vazio, offline)
+- Pedir implementação completa sem escopo nem regras
+
+Referência completa: `docs/PRODUCT_FLOW.md` no repo dev-standards.

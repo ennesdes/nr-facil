@@ -1,0 +1,160 @@
+---
+description: Supabase/Postgres — schema, RLS e queries. Fonte de verdade única de backend (Firestore removido na FASE 2).
+globs: ["lib/data/supabase/**", "lib/modules/**/*_service.dart", "supabase/migrations/**"]
+alwaysApply: false
+---
+
+# Supabase (Postgres) — schema e backend
+
+> Backend único do app. Firestore foi **desligado** na FASE 2 (`docs/TODO.md`) — sem `AppFirebase`, `CompanyFirestoreScope`, `cloud_firestore`, `firestore.rules`/`indexes.json` no código.
+> Migrations: `supabase/migrations/*.sql`. Aplicar via Supabase CLI (`supabase db push`) ou SQL editor do dashboard.
+> **RLS ativa** desde `20260727010000_rls_multi_tenant.sql` — ver seção abaixo.
+
+Firebase no app hoje: **apenas Analytics** e **FCM/Push** (futuro) — sem Auth, sem banco de dados.
+
+## Greenfield — sem legado a migrar
+
+> **Confirmado (ago/2026):** não houve usuários reais no Firebase Auth nem dados de produção no Firestore a compatibilizar — cutover direto, sem dual-write nem backfill.
+
+Implicações para agentes e planos — **não reabrir** salvo o dono do produto dizer o contrário:
+
+| Tema | Tratamento |
+|------|------------|
+| Script de migração de dado legado (Firestore → Postgres) | **Não existe e não é necessário** — sem dado real a importar |
+| Dual-write Firestore + Supabase | **Nunca existiu** — cutover direto por módulo |
+| Compatibilidade de sessão/usuário antigo | Não aplicável — app sem base instalada no Firestore |
+
+## Mapa de tabelas
+
+| Tabela | Observação |
+|--------|------------|
+| `companies` | `owner_user_id uuid` → FK `auth.users(id)` |
+| `members` | `user_id uuid` → FK `auth.users(id)`; `professional_id` opcional → FK `professionals` |
+| `member_permissions` | 1:1 com `members`; toggles granulares por colaborador |
+| `professionals` | Sem coluna de senha — credencial fica no Supabase Auth (FASE 3) |
+| `clients` | — |
+| `products` | — |
+| `works` | Nome mantido (`kWorksSubcollection`); representa "serviços" |
+| `transactions` | `occurred_at` — data do lançamento |
+| `schedules` | Normalizado: sem partição por ano/mês, índice em `(company_id, start_time)` |
+| `schedule_professionals` / `schedule_works` / `schedule_products` | Tabelas de junção — evita duplicar cadastro a cada agendamento |
+| `company_activation_meta` | 1:1 com `companies` |
+
+## Camada `lib/data/supabase/`
+
+| Arquivo | Papel |
+|---------|--------|
+| `AppSupabase` | Singleton + `scopeFor(companyId)`; documenta contrato de sessão |
+| `CompanySupabaseScope` | CRUD scoped por `companyId` — única camada de acesso a dado de negócio |
+| `member_lookup.dart` | `fetchMemberByUserId` — lookup global por `members.user_id` |
+| `supabase_tables.dart` | Nomes de tabelas/colunas alinhados às migrations |
+| `SupabaseAuthService` | Login, cadastro, senha — auth nativo Supabase |
+| `mappers/` | Conversão snake_case Postgres → models Dart |
+| `supabase_error.dart` | Mapeia erro PostgREST → mensagem pt-BR; **exceção deliberada** à separação de camadas (ver nota abaixo) |
+
+### Exceção de camada em `supabase_error.dart`
+
+`throwSupabaseError()` é o único funil por onde todo erro do Postgres passa (todos os métodos de `CompanySupabaseScope` + `member_lookup.dart`). Por isso, ele também detecta quando uma negação de RLS (`42501`) significa "o membro foi removido da empresa" (não só "sem permissão pra esta ação") — e nesse caso importa `CompanyService` (`lib/modules/company/`) e `SessionGuard` (`lib/utils/functions/`) para revalidar a sessão e forçar logout automático.
+
+Isso quebra a regra geral de camadas (`core/architecture.mdc` §1 — Service não deveria conhecer navegação/módulos de mais alto nível) **de propósito**: centralizar aqui evita duplicar "detectar remoção → forçar logout" em cada um dos ~10 `*_service.dart`. Decisão registrada em `.claude/decisions/centralizar-sessao-rpc.md`. Não usar este arquivo como precedente para outras exceções sem decisão equivalente — é o único funil de erro do app, não é o padrão geral.
+
+## Auth — Supabase nativo
+
+Auth = **100% Supabase** (`SupabaseAuthService`) — Firebase não participa de login.
+
+| Peça | Onde |
+|------|------|
+| Login/cadastro/senha | `SupabaseAuthService` + `login_service` / `register_service` |
+| Login Google (OAuth) | `SupabaseAuthService.signInWithGoogle()` (`signInWithOAuth` + deep link `AuthConstants.authCallbackDeepLink`); confirmação assíncrona via `authStateChanges`. Conflito de conta (email já com login por senha) fechado por **Manual Linking** no Supabase Dashboard, não por código — `/revisar` desta feature deve confirmar a config ativa |
+| Sessão | `Supabase.initialize` (persistência automática do SDK) |
+| Empresa + membro no cadastro | Postgres (`companies` + `members`) via `RegisterService` |
+| RLS | `auth.uid()` = `members.user_id` (UUID nativo) |
+| Criar login de profissional | `SupabaseAuthService.createUserWithoutAffectingSession` |
+
+**Dashboard Supabase:** confirmar email habilitado; desabilitar confirmação de email em dev se quiser cadastro imediato. **Mantido ativo em produção por decisão explícita** — ver `.claude/decisions/confirmacao-email-cadastro.md` (nenhuma policy/RPC depende de `email_confirmed_at`; a razão de manter é preservar o email como via de recuperação de conta contra typo, não anti-abuso — isso já é resolvido por monitoramento, ver `admin_trial_signup_patterns` abaixo).
+
+**Removido:** ponte third-party Firebase, Cloud Functions de custom claims, backfill de usuários.
+
+**Schedules (DT1):** writes atômicos via RPC `upsert_schedule_with_relations`; FKs validados por tenant. **Leitura:** 1 RPC `list_schedules_summary` (listagem) + 1 RPC `get_schedule_detail` (detalhe/edição) — substituem N+1 PostgREST. Cadastro via RPC `register_company_owner` (company + member admin atômico).
+
+## Queries principais
+
+> Implementação em `CompanySupabaseScope` — queries abaixo refletem o schema/RLS.
+
+- **Member lookup:**
+  ```sql
+  select * from members where user_id = auth.uid();
+  ```
+  Coberto por `members_user_id_idx` (unique) e usado em `member_company_id()`/`is_member_admin()` (RLS).
+
+- **Agendamentos — listagem (Agenda/Caixa):** RPC `list_schedules_summary(company_id, start, end, …)` — 1 request; retorna JSON com cliente + profissionais embutidos (Caixa omite profissionais).
+
+- **Transações — listagem (Caixa):** RPC `list_transactions_summary(company_id, start, end)` — 1 request; retorna JSON com descrição, valor, data e tipo.
+
+- **Agendamento — detalhe/edição:** RPC `get_schedule_detail(company_id, schedule_id)` — 1 request; retorna JSON com cliente, profissionais, serviços e produtos.
+
+- **Agendamentos por período** (legado documentado — preferir RPC acima):
+  ```sql
+  select * from schedules
+  where company_id = :company_id
+    and start_time >= :from and start_time < :to
+  order by start_time;
+  ```
+  Coberto por `schedules_company_start_time_idx (company_id, start_time)`.
+
+- **Agendamento com cadastro relacionado** (legado N+1 — substituído por `get_schedule_detail`):
+  ```sql
+  select s.*, c.name as client_name
+  from schedules s
+  join clients c on c.id = s.client_id
+  where s.id = :schedule_id;
+
+  select professional_id from schedule_professionals where schedule_id = :schedule_id;
+  select work_id from schedule_works where schedule_id = :schedule_id;
+  select product_id from schedule_products where schedule_id = :schedule_id;
+  ```
+
+- **Cadastros por empresa** (`professionals`, `clients`, `products`, `works`): sempre filtrados por `company_id = :company_id`, coberto pelo índice `<tabela>_company_id_idx` de cada uma.
+
+- **Ativação** (1:1 com a empresa):
+  ```sql
+  select * from company_activation_meta where company_id = :company_id;
+  ```
+
+Todas as queries acima já saem filtradas por `company_id`/`uid` na prática graças às policies RLS — o `where` explícito é redundante em runtime, mas mantém a intenção clara e evita full scan antes do RLS entrar.
+
+## Decisões de schema
+
+- **Normalizado, não embutido**: `schedules` referencia `client_id` e usa tabelas de junção para profissionais/serviços/produtos, em vez de duplicar o cadastro inteiro por agendamento. Evita divergência quando o cadastro muda depois.
+- **Sem partição por ano/mês**: o índice composto `(company_id, start_time)` cobre consulta por período sem precisar de subtabelas por ano/mês.
+- **Sem senha de profissional na tabela**: autenticação de profissional passa pelo Supabase Auth quando a FASE 3 chegar — sem coluna de senha em `professionals`.
+
+## RLS multi-tenant
+
+Policies base em `supabase/migrations/20260727010000_rls_multi_tenant.sql` + hardening `20260727050000_rls_rpc_hardening.sql`.
+
+- Isolamento por `company_id`, resolvido via `member_company_id()` (function `security definer` que lê `members` sem recursão de RLS)
+- Admin vs membro comum: `is_member_admin()`
+
+**Permissões por membro** (`20260727070000_member_permissions.sql`):
+
+- Tabela `member_permissions` + helper `member_permission_flag(column)`
+- Policies por operação (SELECT/INSERT/UPDATE/DELETE) em todas as tabelas operacionais
+- Admin (`is_member_admin()`) bypass em todos os helpers
+
+Agenda “só eu” — RLS + app quando `schedules_view_all_professionals = false`; filtro por `members.professional_id`.
+
+**Modo leitura comercial** (`20260808120000_company_subscription_rls.sql`):
+
+- Coluna `companies.subscription_active` — espelho server-side do entitlement `pro`
+- Helper `company_can_mutate(company_id)` → `subscription_active OR now() < trial_ends_at` — **separado** de `member_permission_flag()`
+- Helper `member_operational_write_check(company_id)` — tenant + comercial, usado em policies de mutação operacional
+- RPC `sync_company_subscription_active(p_active)` — admin only; sync otimista pós-compra
+- Edge Function `revenuecat-webhook` — webhook RevenueCat atualiza `subscription_active` (service role)
+- Guard em `upsert_schedule_with_relations` — `subscription_read_only` se vencido
+
+- **Auth Supabase nativo:** `members.user_id` = `auth.users.id` (UUID). Permissões granulares em `member_permissions` (não mais flags globais em `companies`).
+
+## Monitoramento administrativo (sem enforcement)
+
+**View `admin_trial_signup_patterns`** (`20260808130000_trial_signup_monitoring_view.sql`) — agrupa `companies.owner_user_id` por e-mail normalizado (remove `+alias`; ignora pontos em `gmail.com`/`googlemail.com`) e mostra quantas empresas cada e-mail já criou. Só observação — não bloqueia nem nega trial; não distingue empresa legítima adicional de reset de trial (revisão manual). Sem coleta de dado novo (usa `auth.users.email` + `companies` já existentes). Acesso restrito a `service_role`/SQL editor — `revoke all ... from public, anon, authenticated`, nunca exposta via PostgREST ao app. Ver `.claude/decisions/done/mitigar-abuso-trial.md`.

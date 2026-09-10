@@ -1,0 +1,54 @@
+---
+description: Mapa central do projeto Flutter — leia antes de qualquer ação.
+alwaysApply: true
+---
+
+# Flutter App — Índice de Regras
+
+> Stack padrão: Flutter 3.4+, MVVM, GetX, GetStorage, Material 3.
+> Código em inglês; UI, copy e mensagens em `pt_BR`.
+> Adapte `CLAUDE.md` com nome comercial, pacote Dart e plataformas alvo.
+
+## Ordem de pensamento (obrigatória)
+
+**Problema → Usuário → Escopo → Fluxos → Regras → Arquitetura → Design System → UI → Implementação → Validação**
+
+Ver `core/product_flow.mdc`. Agentes/comandos organizam a **execução** — não substituem definição de produto.
+
+## Mapa de regras — quando carregar cada arquivo
+
+| Arquivo | Quando ativar |
+|---------|---------------|
+| `core/product_flow.mdc` | **Sempre** — antes de planejar ou codar qualquer feature |
+| `core/code_map.mdc` | **Antes de explorar o código** — mapa de módulos, serviços, rotas e storage keys |
+| `core/architecture.mdc` | Qualquer código Dart — MVVM, GetX, DI, bindings |
+| `core/native_platform.mdc` | Permissões, plugins nativos, deep links, notificações, Gradle/Pods |
+| `core/documentation.mdc` | **Antes de alterar código** — doc-first |
+| `ui/design_system.mdc` | Widgets, telas, tema |
+| `ui/copy_voice.mdc` | Qualquer string visível ao usuário |
+| `ui/screens_flow.mdc` | Navegação, rotas, fluxos multi-step |
+| `ui/content_quality.mdc` | Todo elemento visível — texto vs imagem vs ícone |
+| `domain/supabase.mdc` | Auth, Postgres, RLS, migrations (se o app usa Supabase) |
+| `testing/unit_tests.mdc` | Arquivos `*_test.dart` ou pasta `test/` |
+| `validation/code_quality.mdc` | **Após implementação** — antes de declarar pronto |
+| `validation/ui_ux.mdc` | **Tela ou widget** — checklist de UX antes de entregar |
+
+**Ordem sugerida:** `index` → `code_map` → `documentation` → `architecture` → (UI) design + copy + content_quality + screens → (domínio) `domain/*` → testes → validação.
+
+## Regras invioláveis
+
+- Documentação antes do código (`core/documentation.mdc`)
+- Remover código, assets e docs obsoletos no mesmo PR
+- Nenhuma lógica de negócio dentro de widgets
+- `Obx` no menor widget possível — observables lidos no closure do `Obx`
+- Dependências injetadas no construtor via Binding — `Get.find()` só em bindings
+- Zero `print()` em produção — usar logger do projeto
+- Nunca usar `!` sem garantia explícita de não-null
+- `fromMap` sempre defensivo — sem crash com dado corrompido
+
+## Ao iniciar um projeto novo
+
+1. Copie `.cursor/rules/` deste pacote para o repo do app
+2. Preencha `core/code_map.mdc` com módulos reais
+3. Adicione regras em `domain/` específicas do negócio
+4. Adapte `CLAUDE.md` a partir de `templates/flutter/CLAUDE.md`

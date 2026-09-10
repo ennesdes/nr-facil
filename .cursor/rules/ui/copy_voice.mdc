@@ -1,0 +1,490 @@
+---
+description: Tom de voz e copy — como o app fala com o usuário em pt_BR. Parceiro de treino, não sistema.
+globs: ["lib/**/*_page.dart", "lib/**/*_widget.dart", "lib/core/widgets/**/*.dart", "lib/**/presentation/controllers/**/*_controller.dart", "lib/core/services/**/*.dart"]
+alwaysApply: false
+---
+
+# Copy e tom de voz — Seu App
+
+> Strings de UI em **pt_BR**. Código em inglês.
+
+## Quem é o app
+
+Um personal gente boa. Conhece o usuário, fala com ele de igual para igual, celebra sem exagero, aponta o próximo passo sem cobrar. Nunca é um sistema informando status — é um parceiro que acompanha o treino.
+
+## Pronome e português
+
+- **você / seu / sua** em todo o app — é o tratamento mais neutro no Brasil, sem sotaque regional
+- Nunca misturar **tu** com **você** na mesma tela
+- Português do Brasil — sem pt-PT (sem "guardámos", "concluíste", "quiseres")
+- 1ª pessoa do app quando couber: "montamos", "guardamos", "bora"
+- CTAs em **infinitivo** curto ou 1ª pessoa: "Começar", "Montar meu treino", "Bora"
+
+## Tom em qualquer tela
+
+| O que fazer | O que evitar |
+|-------------|--------------|
+| Convidar para a ação seguinte | Estado passivo ("ainda não registrado", "pendente") |
+| Celebrar de forma breve e genuína | Emoji em excesso ou celebração vazia |
+| Usar tempo relativo ("há 2 dias") | Data absoluta onde "há X dias" resolve |
+| Humanizar erros e estados vazios | Erros técnicos crus ("JSON inválido", "não encontrado") |
+| Frase curta, verbo claro | Rótulo só informativo sem verbo |
+
+## Vocabulário fixo
+
+| Termo | Quando usar |
+|-------|-------------|
+| **treino** | Ação do dia — ir, fazer, marcar |
+| **plano** | Ciclo ativo — criar, ver, ajustar |
+| **programa** | Ciclo arquivado no histórico |
+| **semana** | Estrutura montada no questionário |
+| **prévia** | Antes de confirmar o plano (nunca "pré-visualização") |
+| **Emagrecimento** | Objetivo principal (`fatLoss`) — não usar só "definição" |
+| **Condicionamento** | Objetivo `generalFitness` — saúde geral / condicionamento |
+| **Prova** | Evento de corrida (5 km, 10 km, meia…) — registro e sticker; não "competição" nem "race" |
+| **Treino** | Sessão prescrita ou extra tipada (leve, longão, ritmo…) — distinto de prova no registro |
+
+## Como aplicar em qualquer tela nova
+
+Antes de escrever qualquer string, responda:
+
+1. **O usuário precisa fazer algo?** → comece pelo verbo, não pelo contexto
+2. **É um estado vazio?** → convite, não constatação de ausência
+3. **É uma celebração?** → curta, verdadeira, sem emoji obrigatório
+4. **Tem data?** → relativa se possível
+5. **Tem erro?** → explique em linguagem humana o que aconteceu e o que o usuário pode fazer
+
+## CTAs de avanço em wizard e prévia
+
+O label do botão comunica **o que o usuário vai conquistar após o toque** — nunca o mecanismo da interação:
+
+| ❌ Anti-pattern | ✅ Princípio correto |
+|----------------|---------------------|
+| Verbo de mecanismo ("Ver", "Enviar") | Verbo de resultado ("Montar", "Guardar", "Começar") |
+| Label longo que quebra em 360dp | **Continuar** ou **Avançar** — contexto espacial na AppBar ou barra de progresso do wizard |
+| Sufixo de módulo com nome longo ("Próximo · Condicionamento Geral") | Sufixo só se couber em **uma linha** no botão (360dp, `textScaler` 2.0) — ex.: "Próximo · Corrida", "Próximo · Foco" |
+| "Confirmar" genérico | "Confirmar [objeto]" — identifica o que está sendo confirmado |
+| "OK" sem ação | Descreve o que acontece ao tocar |
+
+**Regras:**
+- Botão que avança para etapa intermediária: padrão **"Continuar"** ou **"Avançar"** — passo atual e total já aparecem no topo do fluxo
+- Sufixo `"Próximo · [Módulo]"` **opcional** e somente quando [Módulo] é **uma palavra curta** (ex.: "Corrida", "Foco") e cabe sem ellipsis em 360dp — nunca repetir o nome longo da etapa
+- Botão de confirmação final de um artefato: `"Confirmar [objeto]"` (ex.: "Confirmar plano")
+- Botão de confirmação final de múltiplos artefatos: `"Confirmar tudo"`
+- Botão que gera e persiste algo novo: descreve o que foi criado (ex.: "Guardar e começar")
+
+## Catálogo de exercícios — três campos, três superfícies
+
+| Campo | Superfície | Tom |
+|-------|------------|-----|
+| `cardHint` | Cards e listas | Uma linha, benefício prático — sem listar músculos |
+| `equipment` | Chips no detalhe | Objetivo — aparelho em PT-BR |
+| `description` | Tela de detalhe | Educativo — equipamento claro no início, depois execução e dicas |
+| `primaryMuscleGroup` / `participationFactors` | Detalhe — grupo principal e lista de % | Nunca exibir chave do catálogo (`chest`, `back_lats`); sempre rótulo PT-BR **leigo** (ver § Vocabulário muscular leigo). Percentuais: nome do músculo + valor (ex.: «Ombro (trás) · 44%»), sem setas técnicas |
+
+## Vocabulário muscular leigo
+
+Rótulo de músculo é **sempre** o nome popular — nunca o termo anatômico técnico. Fonte única: `lib/core/utils/muscle_labels_pt.dart` (`muscleKeySpecificPt`) — propaga sozinho para gráfico, alerta de desequilíbrio e chip de músculo primário no detalhe do exercício. Um único rótulo em todo lugar, sem versão "técnica" separada para o detalhe.
+
+| Chave | Termo técnico (evitar) | Rótulo leigo |
+|-------|------------------------|--------------|
+| `shoulders_front` | Deltóide anterior | Ombro (frente) |
+| `shoulders_side` | Deltóide lateral | Ombro (lateral) |
+| `shoulders_rear` | Deltóide posterior | Ombro (trás) |
+| `hamstrings` | Isquiotibiais | Posterior da coxa |
+
+**Mantido como está** (já é vocabulário comum de quem treina, mesmo iniciante): quadríceps, glúteos, bíceps, tríceps, panturrilha, abdômen, antebraços. **Trapézio** (`back_upper`), **grande dorsal** (`back_lats`) e **abdutora** (equipamento) também são mantidos, mas sempre com a localização entre parênteses — «Trapézio (parte de cima das costas)», «Grande dorsal (costas laterais)», «Máquina abdutora (externo da coxa)» — para não colidir com o macrogrupo "Costas" e continuar claro pra quem não reconhece o termo.
+
+**Nunca colapsar** `shoulders_front/side/rear` num rótulo genérico "Ombro" — são três chaves distintas no cálculo de desequilíbrio; perder a distinção tira do usuário a informação de qual parte do ombro está sobrecarregada ou negligenciada. Mesma lógica protege `hamstrings` (não é sinônimo de "perna" — precisa continuar distinguível de `quadriceps`).
+
+`description`/tips do catálogo de exercícios (campo educativo, lido em contexto na tela de detalhe) podem manter o termo técnico — não estão no escopo desta simplificação.
+
+## Distribuição muscular e alerta de desequilíbrio
+
+| Superfície | Tom |
+|------------|-----|
+| Gráfico / prévia | Explicar que a % é **do plano montado**, não “ideal corporal” nem meta por sexo |
+| Card de alerta | “No split que você montou…” — nunca **ideal: pelo menos X%** nem “Atenção” no título |
+| Linha do alerta | Grupo + % atual + **esperado para o seu split** (~arredondado) |
+| Teaser Pro | Manter convite; “sugestão baseada no seu plano” — sem prometer correção mágica |
+
+**Proibido:** ideal, piso fixo 15%, linguagem que culpe escolha intencional de split (ex. muitos dias superiores).
+
+## Foco por dia (questionário / home / prévia)
+
+- Título do card: **Dia X · {Superior|Inferior|…}** — nunca agrupamento muscular no título (ex.: “Braços + Peitoral”); o foco é a divisão, não os músculos.
+- Subtítulo por foco: lista humana do que entra (ex. superior → peito, costas, ombros e braços; inferior → **pernas**, incluindo glúteos no texto).
+- Questionário: uma linha explicando que Superior/Inferior são divisões da semana, não um músculo único por dia.
+
+**Exceção — dominância do dia "Superior" (push/pull):** quando o subtítulo distingue a dominância do dia (peito-dominante vs. costas-dominante), usa **"push"/"pull"** em inglês — termo do split PPL, mais reconhecido no meio fitness que a tradução literal "empurrar/puxar". Título do card mantém "Superior" sem tradução para push/pull; a exceção vale só para o subtítulo de dominância. Ver `lib/core/utils/day_focus_copy_pt.dart`.
+
+## Volume do dia (questionário / prévia)
+
+Subtítulo honesto: tempo típico **e** faixa de exercícios por foco (ex. Normal · ~50 min · em geral 3–5 exercícios conforme o foco do dia). Por dia na prévia: quantidade de exercícios abaixo do subtítulo de foco.
+
+## Estados de carregamento
+
+O usuário não precisa saber que o app está "carregando" — precisa saber **o que está prestes a aparecer**:
+
+| ❌ Genérico | ✅ Contextual |
+|------------|--------------|
+| "Carregando..." | Shimmer do layout que vai aparecer |
+| "Aguarde..." | Botão com spinner no lugar do label |
+| "Processando..." | "Montando seu plano…" (só se durar > 1s) |
+
+- Listas e conteúdo paginado: shimmer do layout real — nunca spinner no centro da tela
+- Ações pontuais (salvar, confirmar): spinner no próprio botão, label some
+- Operações instantâneas (< 300ms): sem feedback visual — piscar é pior que nada
+- Operações longas (> 1s): copy contextual no botão descrevendo o que está acontecendo
+- Transição pós-auth (intent Pro): spinner no botão de login/cadastro ou fade controlado enquanto valida sessão e abre `ProPlanSheet` — nunca tela parada sem feedback
+
+## Mensagens de sucesso
+
+Breves, verdadeiras, focadas no que o usuário conquistou — não no que o sistema fez:
+
+| ❌ Sistema confirma ação | ✅ Usuário conquistou algo |
+|-------------------------|--------------------------|
+| "Salvo com sucesso" | "Plano salvo" |
+| "Operação concluída" | "Treino registrado" |
+| "Dados atualizados" | "Carga atualizada" |
+| "Exercício substituído com sucesso" | "Exercício trocado" |
+
+- Toasts: máximo 1 linha — se precisar de 2 linhas, o evento não é um toast
+- Celebrações (dia concluído, ciclo arquivado): 1 frase curta + dado concreto ("Dia A concluído · 3 exercícios")
+- Sem ponto final em toasts e labels curtos — só em frases completas de parágrafo
+
+## Mensagens de erro
+
+O erro humanizado responde a três perguntas: o que aconteceu, por que provavelmente, e o que o usuário pode fazer:
+
+| Tipo de erro | Template | Exemplo |
+|-------------|----------|---------|
+| Falha de leitura | "Não conseguimos carregar [X]. [Ação]." | "Não conseguimos carregar seus treinos. Tente novamente." |
+| Falha de escrita | "[X] não foi salvo. Tente de novo." | "Carga não foi salva. Tente de novo." |
+| Dado corrompido | "Algo deu errado com [X]. Pode recriar?" | "Algo deu errado com seu plano. Pode recriar?" |
+| Limite atingido | "Você chegou no limite de [X]." | "Você chegou no limite de planos ativos." |
+| Feature Pro | "[Benefício] está disponível no plano Pro." | "Correção automática está disponível no plano Pro." |
+
+- Nunca expor: exceção técnica, nome de método, chave de storage, JSON, stack trace
+- Nunca culpar o usuário — "você fez errado" nunca; "algo deu errado" sempre
+- Botão de retry sempre que a ação puder ser tentada de novo
+- **Offline-first no core:** prescrição, histórico e dia de treino funcionam sem internet
+- **Rede obrigatória no MVP:** autenticação (`/auth`), compra e restore Pro (`ProPlanSheet`) — copy amigável + retry (ver § Erros de auth e § Sheet de planos); timeout diferenciado de erro de servidor quando aplicável
+- Nunca mostrar erro de rede em feature que não fez chamada de rede
+
+## Estados vazios — templates por contexto
+
+| Contexto | Estrutura | Tom |
+|----------|-----------|-----|
+| Sem plano ativo | Ícone + "Hora de montar seu treino" + subtítulo motivador + CTA "Começar" | Convite, energia |
+| Histórico vazio | Ícone + "Seus ciclos anteriores aparecerão aqui" + subtítulo sobre o que verá | Expectativa, não ausência |
+| Catálogo sem resultado | Ícone + "Nenhum exercício encontrado" + "Tente outro grupo muscular" | Neutro, útil |
+| Dia sem exercícios (lesão) | Ícone + "Este dia ficou vazio com as restrições informadas" + CTA para ajustar | Explicativo, sem culpa |
+
+Nunca: tela completamente em branco, só um ícone sem texto, ou texto sem CTA quando há ação possível.
+
+## Diálogos de confirmação
+
+Padrão: **título como pergunta direta** + subtítulo com consequência + botão destrutivo à direita:
+
+```
+Arquivar este plano?
+Ele vai para o histórico e você começa um novo.
+
+[Cancelar]  [Arquivar]   ← destrutivo à direita, sem cor de alerta desnecessária
+```
+
+- Título: pergunta curta — sem "Tem certeza que deseja…"
+- Subtítulo: consequência real, não aviso jurídico
+- Botão destrutivo: texto descritivo ("Arquivar", "Remover", "Resetar") — nunca "OK" ou "Confirmar"
+- Botão cancelar: sempre à esquerda; sem ícone
+- Diálogo de exclusão permanente é o único que usa `error` color no botão
+
+## Teaser Pro — copy do upgrade
+
+O upgrade é apresentado como **ganho do usuário**, não como bloqueio do app:
+
+| ❌ Bloqueio | ✅ Ganho |
+|-----------|---------|
+| "Este recurso é Pro" | "Com o Pro, você descobre exatamente o que ajustar" |
+| "Assine para desbloquear" | "Ver a sugestão completa — disponível no Pro" |
+| "Recurso bloqueado" | "Diagnóstico detalhado disponível no Pro" |
+
+- O Free sempre vê o problema (alerta, dado, gráfico)
+- O Pro recebe a solução (sugestão, correção, diagnóstico causa)
+- CTA do teaser: específico ao que o Pro entrega naquele contexto — nunca "Assine já"
+- Sem urgência falsa ("Oferta por tempo limitado") — o app não usa dark patterns
+
+### CTAs por gatilho (`PaywallTrigger`)
+
+Corpo do teaser = tabela em `TODO.md` § Paywalls. CTA primário leva ao fluxo Pro (Fase 3); secundário = "Agora não" ou dismiss equivalente.
+
+| Trigger | CTA primário |
+|---------|----------------|
+| `pace_target` | Ver ritmo alvo no Pro |
+| `injury_adaptation` | Ajustar meu plano |
+| `plan_timeline` | Ver treinos das próximas semanas |
+| `load_chart` | Ver evolução completa |
+| `imbalance_fix` | Ver sugestão de correção |
+| `cycle_revision` | Ver análise completa |
+
+| Trigger | Título do teaser (sugestão) |
+|---------|----------------------------|
+| `pace_target` | Ritmo certo para o seu objetivo |
+| `injury_adaptation` | Seu corpo pediu um ajuste |
+| `plan_timeline` | Sua jornada até a prova |
+| `load_chart` | Sua evolução de carga |
+| `imbalance_fix` | Como equilibrar este treino |
+| `cycle_revision` | Revisão de ciclo completa |
+
+**Benefícios da sheet (`ProPlanSheet`) — só o que o app entrega hoje:**
+
+| Benefício | Copy canônica |
+|-----------|---------------|
+| Gráfico de carga | Gráfico de carga — veja a progressão por exercício em 30, 60 ou 90 dias |
+| Ritmo alvo | Ritmo alvo por zona — calibrado ao objetivo do seu plano de corrida |
+| Corpo `load_chart` | Quer saber se a carga continua subindo? Com o Pro, você vê a progressão por exercício — filtre 30, 60, 90 dias ou tudo. |
+
+**Proibido na copy Pro (até existir no código):** “correlação academia × corrida” no gráfico; ritmo “atualizado a cada treino registrado”. Backlog → `TODO.md` icebox.
+
+### Paywall #5 — revisão de ciclo (`cycle_revision`)
+
+| Elemento | Copy |
+|----------|------|
+| Título do paywall | Revisão de ciclo completa |
+| Corpo do paywall | Antes vs depois, o que mudou em cada grupo muscular — e o próximo plano já configurado. |
+| CTA teaser Free (`CycleSummarySheet`) | Ver análise completa |
+| Banner home `complete` | Seu plano de [N] semanas está chegando ao fim. Vamos revisar como foi? |
+| CTA banner `complete` | Ver análise e próximo plano |
+| Sheet Pro — header | Ciclo encerrado · [N] semanas · [X] dias treinados |
+| Sheet Pro — sem mudança | Distribuição mantida ao longo do ciclo |
+| Sheet Pro — recomendação (crescimento) | Você fortaleceu [grupo]. Continue priorizando para solidificar o ganho. |
+| Sheet Pro — recomendação (queda) | Atenção a [grupo] — considere incluí-lo com mais ênfase no próximo ciclo. |
+| Sheet Pro — recomendação (estável) | Sua distribuição muscular se manteve estável. Isso é consistência. |
+| CTA Pro pós-análise | Montar próximo ciclo com base na evolução |
+| Prévia wizard (criação) | Ciclo recomendado: ~[N] semanas · depois revisamos juntos |
+| Prévia wizard (pós-revisão Pro) | Próximo plano pré-montado para você |
+
+Tom: parceiro de treino — "você fortaleceu", não "sistema detectou". Vocabulário: **plano** (ativo), **ciclo** só na revisão Pro.
+
+## Conta e Pro — copy do gate de login
+
+Login aparece **só** no fluxo de assinar ou restaurar Pro — nunca na abertura do app. Explicar o **porquê** da conta (Pro em outro aparelho), não tratar como barreira genérica.
+
+### Princípios
+
+| ✅ Fazer | ❌ Evitar |
+|---------|----------|
+| "Crie sua conta para ativar o Pro neste e em outros aparelhos" | "Faça login para continuar" |
+| "Seu treino continua no aparelho — a conta é só para o Pro" | "Cadastre-se para usar o app" |
+| CTA "Continuar para os planos" após auth no intent Pro | "Login obrigatório" |
+
+### Tela `/auth` — quando `intent=pro`
+
+| Elemento | Copy sugerida |
+|----------|---------------|
+| Título (login) | Entrar na sua conta |
+| Título (cadastro) | Criar conta |
+| Subtítulo (intent Pro) | Assim o Pro fica no seu perfil — você usa no celular novo sem perder a assinatura |
+| Subtítulo (menu, sem intent) | Opcional — só precisa de conta para o Pro |
+| Campo e-mail | E-mail |
+| Campo senha | Senha |
+| CTA login | Entrar |
+| CTA cadastro | Criar conta |
+| Link alternância | "Não tem conta? Criar" / "Já tem conta? Entrar" |
+| Esqueci senha | Esqueci minha senha |
+| Recuperação — título | Redefinir senha |
+| Recuperação — corpo | Enviamos um link para o seu e-mail |
+| Recuperação — CTA | Enviar link |
+| Divisor social | ou |
+| Login com Google | Continuar com Google — mesmo texto em login e cadastro (OAuth não distingue os dois) |
+| Pós-auth (intent Pro) | Spinner no botão ou fade enquanto valida sessão e abre `ProPlanSheet` — sem toast; nunca tela congelada |
+
+### Confirmação de e-mail (pós-cadastro)
+
+Estado dentro da própria tela `/auth` quando `signUp` cria a conta mas a sessão ainda não está liberada (confirmação de e-mail pendente) — substitui o formulário, nunca fecha a tela nem mostra erro genérico.
+
+| Elemento | Copy sugerida |
+|----------|---------------|
+| Título | Verifique seu e-mail |
+| Corpo | Enviamos um link para ativar sua conta. Procure na caixa de entrada ou spam. |
+| CTA reenviar | Reenviar |
+| CTA reenviar (cooldown) | Reenviar em {N}s — desabilitado até o cooldown de 60s zerar |
+| Reenvio ok | Link reenviado |
+| Reenvio falhou | Não conseguimos reenviar agora. Tente de novo em instantes. |
+| Link de volta | Já confirmou? Entrar |
+
+### Nova senha (pós deep link de recuperação)
+
+Tela própria (`/auth/new-password`), aberta automaticamente quando o app processa o link de recuperação recebido por e-mail — não importa em qual tela o usuário estava.
+
+| Elemento | Copy sugerida |
+|----------|---------------|
+| Título | Nova senha |
+| Corpo | Defina uma nova senha para sua conta. |
+| Campo 1 | Nova senha |
+| Campo 2 | Confirmar senha |
+| Erro senha curta | Use pelo menos 6 caracteres. |
+| Erro senhas diferentes | As senhas não coincidem. |
+| Erro genérico | Não conseguimos salvar. Tente de novo. |
+| CTA | Salvar nova senha |
+| Sucesso | Senha atualizada |
+
+### Alterar e-mail (menu Conta)
+
+Dialog aberto pelo menu "Conta" (drawer da home), mesmo padrão visual do dialog de redefinir senha.
+
+| Elemento | Copy sugerida |
+|----------|---------------|
+| Título | Alterar e-mail |
+| Corpo | Informe o novo e-mail. Enviaremos um link de confirmação. |
+| Campo | novo@email.com |
+| CTA | Enviar confirmação |
+| Sucesso | Confira seu e-mail para confirmar a alteração. |
+| Erro | Não conseguimos enviar agora. Confira o e-mail e tente de novo. |
+
+### Menu "Conta"
+
+| Estado | Copy |
+|--------|------|
+| Não logado | Entrar · subtítulo: "Necessário só para assinar o Pro" |
+| Logado | {e-mail} · botão "Alterar e-mail" · botão "Sair" |
+| Pro ativo | Badge discreto "Pro ativo" — sem celebração exagerada |
+
+### Sheet de planos (`ProPlanSheet`)
+
+| Elemento | Copy sugerida |
+|----------|---------------|
+| Título | Escolha seu plano Pro |
+| Subtítulo | Cancele quando quiser nas configurações da loja |
+| Badge anual | Melhor valor |
+| Badge semestral | Economize 40% |
+| Badge mensal | — (sem badge; último na lista) |
+| Equivalente/mês | "{preço}/mês no plano anual" — valor formatado via `intl` ou serviço de preços (`store/pricing_strategy.md`); nunca hardcodar símbolo de moeda no código |
+| CTA compra | Começar com o plano {anual\|semestral\|mensal} |
+| Restore | Restaurar compra |
+| Comprando | Spinner no botão — sem "Processando pagamento…" |
+| Sucesso | Pro ativo |
+| Erro compra cancelada | — silencioso; fecha sheet |
+| Erro compra falhou | Não conseguimos concluir a compra. Tente de novo ou restaure uma compra anterior. |
+| Restore sem assinatura | Nenhuma assinatura ativa encontrada nesta conta da loja. |
+| Restore ok | Pro restaurado |
+
+### Erros de auth
+
+| Situação | Copy |
+|----------|------|
+| E-mail inválido | Confira o e-mail digitado |
+| Senha curta | Use pelo menos 6 caracteres |
+| Credenciais erradas | E-mail ou senha incorretos |
+| E-mail já cadastrado | Este e-mail já tem conta — entre com sua senha |
+| Rede indisponível | Sem conexão agora. Tente de novo quando estiver online. |
+| Erro genérico | Algo deu errado. Tente de novo. |
+
+- Nunca expor mensagem crua do Supabase ou código de erro
+- Botão de retry em falhas recuperáveis
+
+## Comunicação progressiva
+
+Não sobrecarregar o usuário com informação na primeira interação:
+
+| Momento | Mostrar | Ocultar |
+|---------|---------|---------|
+| Primeiro uso | Ação principal + benefício claro | Configurações avançadas, % detalhados |
+| Configuração (wizard) | Uma pergunta por tela | Justificativa científica (disponível em tooltip/detalhe) |
+| Home | Próximo treino + progresso semanal | Histórico detalhado, métricas secundárias |
+| Durante treino | Série atual + marcar feito | Carga histórica, % muscular (colapsável) |
+| Pós-treino | Conquista do dia + próximo passo | Análise completa (disponível ao tocar) |
+
+- Tooltip e detalhe expandível para quem quer mais — sem poluir a tela principal
+- Notificações: máximo 1 por dia, no momento certo — não logo ao abrir o app. Gatilhos hoje: domingo 19h (resumo, se semana ≥50%), push matinal do dia de treino (conteúdo real do foco sugerido do dia — nunca genérico; o foco pode repetir com o ciclo do plano, mas a frase de fechamento/CTA sorteia aleatoriamente de um banco amplo — "Bora lá?" e variações), sexta 19h (descanso), semana 100% concluída (imediato, cancela o lembrete do dia corrente para não duplicar), e reengajamento por inatividade (3+ dias sem treino registrado, 1x por janela, tom parceiro — nunca cobrança). Agendamento é sempre reavaliado a gatilhos reais (abertura do app, dia concluído, plano trocado) — nunca recorrência cega que ignore o que o usuário já fez
+
+## Avisos legais e limites do app
+
+> Posicionamento completo → `core/liability.mdc`. Estas strings são **obrigatórias** onde indicado em `screens_flow.mdc`.
+
+### Disclaimer — primeiro acesso (`/onboarding/disclaimer`)
+
+**Título:** "Antes de começar"
+
+**Corpo (parágrafo único ou dois):** "Este aplicativo não substitui a orientação de um profissional de Educação Física ou de um médico. Os treinos e ritmos que você vê aqui são estimativas calculadas com base nas informações que você informou — não são avaliação clínica."
+
+**CTA:** "Entendi, bora montar"
+
+### Aceite legal — checkbox obrigatório (`/legal/accept`)
+
+**Texto introdutório:** "Antes de montar seu plano, leia os documentos legais do app. Eles abrem no navegador."
+
+**Links inline (dois, separados):** "Termos de uso" (`AppConstants.termsUrl`) e "Política de privacidade" (`AppConstants.privacyUrl`) — cada um abre sua própria URL no navegador externo via `launchExternalUrl`. Frase: "Consulte os **Termos de uso** e a **Política de privacidade**."
+
+**Label do checkbox:** "Declaro que possuo liberação médica para praticar musculação e corrida de endurance, ou que assumo a responsabilidade por iniciar as atividades por conta própria."
+
+**CTA:** "Aceitar e continuar"
+
+### Rodapé — plano e dia de treino
+
+"Sentiu dores atípicas ou desconforto articular? Interrompa o treino e consulte um especialista."
+
+- Tom direto, sem alarmismo; nunca "você está lesionado".
+- Não usar em cards de compartilhamento viral.
+
+### Lesão grave — bloqueio na prévia
+
+"Com a restrição que você informou, treinos de alto impacto não estão disponíveis aqui. Vale buscar acompanhamento presencial antes de voltar a cargas ou corridas intensas."
+
+### Prévia híbrida — validação de dias e carga
+
+Tom parceiro; nunca "você não pode treinar essa quantidade".
+
+| Severidade | Intenção | Exemplo de tom |
+|------------|----------|----------------|
+| **Info** (no teto recomendado) | Descanso faz parte do plano | "Você está no limite recomendado para o seu perfil — reserve os dias de descanso; eles fazem parte do plano." |
+| **Warning** (acima do teto, distribuição, orçamento próximo, risco) | Educar sem travar | "Você terá X dias de treino — recomendamos pelo menos Y de descanso. Se quiser, ajuste antes de confirmar." |
+| **Blocked** (7 dias ou orçamento estourado) | Pedir redução | "Com 7 dias de treino não sobra descanso na semana. Reduza academia ou corrida para continuar." / "A carga semanal passa do que recomendamos para o seu perfil — reduza um dia ou a intensidade." |
+
+Múltiplos avisos podem aparecer juntos; CTA permanece ativo exceto em `blocked`.
+
+### Avisos ao usuário — visual e tom
+
+Componente: `AppNoticeBanner` (`design_system.mdc` § Avisos).
+
+| Princípio | Regra |
+|-----------|-------|
+| Tom | Parceiro de treino — informar, não alarmar |
+| Título | Curto, descritivo — sem “Atenção”, “Alerta”, “Precisa ajustar” |
+| Corpo | O que mudou + o que pode fazer — sem ordens (“suspenda”, “não pode”) |
+| Severidade visual | `info` / `warning` / `blocked` — acento só no ícone; texto neutro |
+| Hierarquia | Avisos no scroll, abaixo do hero — nunca competir com CTA principal |
+
+### Prévia híbrida — grade semanal recomendada
+
+| Elemento | Tom |
+|----------|-----|
+| Título da seção | "Sua semana recomendada" |
+| Modo ordem (default) | "1º treino · Superior · Academia" — sequência, sem dia fixo |
+| Modo dias sugeridos | "Ter · Corrida leve" / "Qui · Descanso" |
+| Toggle dias | "Sugerir dias da semana (seg a dom)" |
+| Hint do toggle | "É só uma sugestão — você treina no dia que funcionar." |
+| Descanso | "Descanso" — parte do plano, não culpa |
+
+### Alerta consolidado (3 semanas críticas)
+
+"Você recebeu avisos de sobrecarga nas últimas semanas. Seu corpo pode estar pedindo mais descanso — vale reorganizar a semana ou falar com um profissional antes de aumentar a carga."
+
+### Vocabulário proibido na UI pública
+
+| Evitar | Preferir |
+|--------|----------|
+| prescrevo / prescrição médica | plano sugerido, organização do treino |
+| diagnóstico / você está lesionado | seu corpo pediu descanso, vale pausar |
+| liberação dada pelo app | liberação que **você** declarou |
+| tratamento / terapia | treino, sessão, ajuste de volume |
+
+## Relação com outros docs
+
+- Comportamento de telas e edge cases → `screens_flow.mdc`
+- Regras do gerador e calculador → `domain/gym.mdc`
+- Tokens visuais → `design_system.mdc`
+- Checklist de feedback, erros e estados na UI → `validation/ui_ux.mdc` § Feedback · § Erros e validação
+
+Este arquivo define **intenção e tom** — não prescreve strings literais por tela. O texto final fica no código (services/constants); ao criar ou revisar copy, seguir estes princípios.

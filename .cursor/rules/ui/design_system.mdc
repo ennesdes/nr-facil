@@ -1,0 +1,420 @@
+---
+description: Design system visual — tokens de cor, tipografia, espaçamento, componentes e safe area. Fonte única de verdade visual.
+globs: ["lib/**/*_page.dart", "lib/**/*_widget.dart", "lib/app/theme/**/*.dart", "lib/core/widgets/**/*.dart"]
+alwaysApply: false
+---
+
+# Design System — Seu App
+
+> Dark mode por padrão. Paleta índigo + laranja cinético sobre cinza-azulado. Referências: Linear, Whoop, Strava.
+> Semântica de cor: **índigo** = estrutura do plano (futuro/passado); **laranja cinético** = ação acontecendo agora (treino ativo, dia sugerido).
+
+## Regras invioláveis de UI
+
+1. **Nenhum valor hardcoded** — cor, tamanho e espaçamento vêm dos tokens (`AppColors`, `AppSpacing`, `AppTypography` ou extensão de tema/context quando exposta)
+2. **Hierarquia visual clara** — um elemento principal por tela
+3. **Toque mínimo 48×48dp** em interativos
+4. **Dark mode padrão** — ambiente de academia com luz variável
+
+## Tokens de cor — `AppColors`
+
+```dart
+// Brand
+brandPrimary      = Color(0xFF6C7AFF)  // Índigo — CTAs, navegação, estrutura
+brandPrimaryDark  = Color(0xFF5463E8)  // Pressed state
+brandPrimaryMuted = Color(0x1A6C7AFF)  // 10% — fundos de chip
+brandAccent       = Color(0xFF9B87FF)  // Violeta — gráficos de distribuição muscular (não usar em controles)
+
+// Cinético — estado "agora"
+colorKinetic      = Color(0xFFFF5324)  // Laranja — treino ativo, dia sugerido, série em andamento
+colorKineticMuted = Color(0x1AFF5324)  // 10% — fundo de badge cinético
+
+// Superfícies (dark com tint azul — maior contraste em academia com luz variável)
+surfaceBackground = Color(0xFF0D1117)  // era 0xFF111318
+surfaceCard       = Color(0xFF161E33)  // era 0xFF1C1F27 — tint azul aumenta percepção em tela com brilho reduzido
+surfaceElevated   = Color(0xFF1E2940)  // era 0xFF252831
+surfaceOverlay    = Color(0xFF26334D)  // era 0xFF2E3240
+
+// Degradês
+backgroundGradient  // surfaceBackground → surfaceElevated — fundo global do app
+surfaceGradient     // surfaceCard → surfaceElevated — modais, sheets, snackbars
+
+// Texto (dark)
+textPrimary    = Color(0xFFE8EAF0)
+textSecondary  = Color(0xFF8A8FA8)
+textTertiary   = Color(0xFF5A5F72)
+textDisabled   = Color(0xFF3A3D4A)
+
+// Bordas
+borderSubtle  = Color(0xFF1A2235)  // era 0xFF1E2130
+borderDefault = Color(0xFF253148)  // era 0xFF2A2D38
+borderStrong  = Color(0xFF2E3A55)  // era 0xFF3D4258
+
+// Semânticas
+success = Color(0xFF4CAF7D)  // Conclusão: exercício feito, treino finalizado
+warning = Color(0xFFFFB347)
+error   = Color(0xFFFF6B6B)
+
+// Grupos musculares (gráficos)
+muscleChest, muscleBack, muscleLegs, muscleShoulders, muscleArms,
+muscleCore, muscleGlutes, muscleCalves, muscleOther
+```
+
+**Proibido:** `Colors.white/black/grey`, hex solto, lime/neon, `brandPrimary` como fundo de card inteiro.
+
+### Semântica de cor — regra obrigatória
+
+| Cor | Quando usar | Quando NÃO usar |
+|-----|-------------|-----------------|
+| `brandPrimary` (índigo) | CTAs principais, links, badges de navegação, estado selecionado | Treino em andamento, estado ativo imediato |
+| `colorKinetic` (laranja) | Dia sugerido, série em andamento, badge "Próximo", card de treino de hoje | Conclusão (= verde), erro (= vermelho), informação (= índigo) |
+| `success` (verde) | Exercício concluído, treino finalizado, semana completa | Estado ativo/em andamento |
+
+**Proibido:** usar `brandAccent` (violeta) em controles interativos — somente em gráficos de distribuição muscular.
+
+## Tipografia — `AppTypography` (Inter)
+
+| Token | Uso principal |
+|-------|---------------|
+| `displayXL` / `displayLG` | Números hero, letras de dia |
+| `headingXL`–`headingSM` | Títulos de tela, seção, card, exercício |
+| `bodyLG`–`bodySM` | Corpo e legendas |
+| `labelLG`–`labelSM` | Labels, chips, badges |
+| `numericXL`–`numericSM` | Séries, reps, carga |
+| `button` / `buttonSM` | Botões |
+
+Números tabulares usam `FontFeature.tabularFigures()`.
+
+## Espaçamento — `AppSpacing`
+
+Grid de **8dp** em espaçamentos estruturais (padding de tela/card, gaps de seção, margens externas). Tokens: `xxs`–`xxxl`, `screenHorizontal`, `screenVertical`, `cardPadding`, `sectionGap`, `itemGap`, `itemGapLG`.
+
+**4dp (`xs`, `iconTextGap`, `chipGap`)** — somente micro-agrupamento interno (ícone↔texto, título↔subtítulo imediato, gaps de chip). Proibido em bordas de card, padding de tela ou gaps entre seções.
+
+## Bordas e elevação
+
+- `AppRadius`: xs–xxl + `full`
+- Cards dark: borda 0.5dp; botões dark: elevation 0 (padrão — ver exceção "Elevação emphasized" abaixo)
+
+### Elevação emphasized (fase 1 — home, jul/2026)
+
+Token aditivo — não altera o padrão `elevation: 0` de botões/cards; usar **só** onde a hierarquia pede destaque físico extra.
+
+- CTA cinético — `FilledButton.styleFrom(elevation: 4, shadowColor: Colors.black.withValues(alpha: 0.18))`, centralizado em `KineticCtaButton` (`modules/home/presentation/widgets/kinetic_cta_button.dart`)
+- Destaque do card de spotlight — **só borda sólida** `colorKinetic` 45% alpha, 1–1.5dp (sem `BoxShadow`/glow colorido — ver regra abaixo)
+
+**Proibido: glow/halo colorido** (`BoxShadow` com `color` saturada + `blurRadius`) em qualquer destaque — testado no card de spotlight em jul/2026 e revertido a pedido do dono do produto ("feio", quebra o design minimalista/moderno pretendido). Para reforçar destaque, usar **apenas**: borda sólida, contraste tipográfico/peso, espaçamento — nunca sombra colorida com blur. Sombra **neutra** (preta, `Colors.black.withValues(alpha:)`) em elevação de botão é aceitável (não foi objeto da crítica).
+
+**Escopo fase 1 (aprovado em `.claude/decisions/modernizar-visual-home.md`):** aplicar somente nos widgets exclusivos da home (`_ExerciseHighlightCard`, `_RunningHighlightCard`, `KineticCtaButton`). O parâmetro `showGlow` de `WeekSlotCard` (introduzido para o glow, agora removido) deve ser **removido do código** junto com o `BoxShadow` que ele controlava — regra do projeto é apagar o que ficou obsoleto, não manter parâmetro inerte. **Não aplicar** nenhum tratamento novo em `MuscleDistributionChart`, `WeeklyProgressStrip`, `DaySummaryCard` — isso é fase 2 (Auditoria Visual Pass 2, pós-lançamento, icebox em `docs/TODO.md`).
+
+QA obrigatório: validar legibilidade do destaque (borda 1-1.5dp) em device físico com brilho reduzido (mesma ressalva de jun/2026) — sem glow, a borda precisa bastar sozinha.
+
+## Safe area
+
+Listas e conteúdo rolável devem somar `MediaQuery.viewPaddingOf(context).bottom` + altura de barras/botões fixos no rodapé. Botões fixos: `SafeArea(top: false)`.
+
+## Componentes — princípios
+
+### Chip de seleção (`FilterChip` · `ChoiceChip` · `SelectionChip`)
+
+Estado selecionado usa **índigo** (`brandPrimary`) — alinhado a switch, barra de progresso e CTAs estruturais. Configurado globalmente em `AppTheme.dark` via `colorScheme.secondaryContainer` / `onSecondaryContainer` e `chipTheme`.
+
+| Estado | Fundo | Texto / check | Borda | Raio |
+|--------|-------|---------------|-------|------|
+| Selecionado | `brandPrimaryMuted` (10% índigo) | `brandPrimary` | transparente | `stepButtonBorderRadius` (8dp) |
+| Não selecionado | transparente | `textSecondary` | `borderDefault` 0,5dp | `stepButtonBorderRadius` (8dp) |
+
+**Raio:** chips de **seleção** usam `stepButtonBorderRadius` (8dp) — alinhado ao M3 e aos botões step. `chipBorderRadius` (pill) é só para **badges informativos** (grupo muscular, status, zona) — nunca em `FilterChip`/`ChoiceChip`/`SelectionChip`.
+
+- **Material:** `FilterChip` e `ChoiceChip` — sem override inline de `selectedColor` / `checkmarkColor`
+- **Custom tap:** `SelectionChip` em `core/widgets/selection_chip.dart` — sheets e layouts fora do Material
+- **Proibido:** `brandAccent` (violeta) ou `brandPrimary` sólido como fundo de chip selecionado
+
+`SegmentedButton` herda o mesmo par `secondaryContainer` / `onSecondaryContainer`.
+
+### Chip de grupo muscular
+Cor do grupo com fundo semi-transparente (~12–15% alpha), sem borda. Label curto.
+
+### Card de exercício (linha de dia)
+- Foco na **ação** (marcar série, descansar, ajustar carga)
+- **Faixa de execução** (abaixo do cabeçalho): micro-cópia + chips numerados por série + contador + "Descansar" — distintos visualmente dos steppers neutros de prescrição
+- Card que disparou descanso ativo: borda `brandPrimary` 35% alpha, 1dp (sem glow)
+- Nome com affordance para abrir detalhe; ícone ℹ️ 48dp (`Semantics`: "Como fazer")
+- Checkbox "Feito" no cabeçalho (atalho); "Trocar" visível no rodapé; ⋮ só repor/remover
+- Widget: `ExerciseWorkCard` em `core/widgets/exercise_work_card.dart` — hierarquia completa em `ui/screens_flow.mdc` § Hierarquia do card
+
+### Card de dia na home (`DaySummaryCard`)
+- Badge de status: Concluído hoje / Feito / Próximo / Pendente
+- Rodapé "Abrir treino" + chevron; `Semantics` no card inteiro
+
+### Empty / loading
+- Empty: ícone + título + subtítulo + CTA
+- Lista: shimmer do layout real — nunca spinner genérico na tela inteira
+
+### Feedback ao usuário (`AppDialog` · `AppSnackbar` · `AppBottomSheet`)
+
+**Regra inviolável: nunca instanciar `AlertDialog`, `SnackBar` ou bottom sheet inline — sempre usar os wrappers centralizados.**
+
+| Componente | Arquivo | Quando usar |
+|------------|---------|-------------|
+| `AppDialog.show(title, content?, actions)` | `lib/core/widgets/app_dialog.dart` | Modal de confirmação — ação destrutiva, irreversível ou que requer decisão explícita |
+| `AppSnackbar.show*` | `lib/core/widgets/app_snackbar.dart` | Feedback pontual — sucesso, erro, info, treino — sem bloqueio de interação |
+| `AppBottomSheet.show(child)` / `AppBottomSheet.showModal(context, child)` | `lib/core/widgets/app_bottom_sheet.dart` | Bottom sheet — qualquer overlay deslizante de baixo para cima |
+
+**Visual de overlays:** modais, sheets e snackbars usam `AppColors.surfaceGradient` (`surfaceCard` → `surfaceElevated`, topo→base) — reforça profundidade sem competir com o degradê global do app.
+
+**Quando criar** um wrapper centralizado: se o mesmo bloco de estilo (cor, shape, behavior) aparece em **2 ou mais lugares**, ele pertence a um componente — não a inline.
+
+**Proibido:**
+- `AlertDialog(...)` inline sem `AppDialog`
+- `SnackBar(...)` / `ScaffoldMessenger.showSnackBar(...)` inline sem `AppSnackbar`
+- `Get.snackbar(...)` inline sem `AppSnackbar`
+- `Get.bottomSheet(...)` / `showModalBottomSheet(...)` inline com `backgroundColor` sólido — usar `AppBottomSheet`
+
+#### `AppSnackbar` — snackbar minimalista
+
+Snackbar discreta para feedback rápido durante o treino — **não** parece toast Material padrão.
+
+**Aparência:** `surfaceGradient` + borda `borderSubtle` 0,5dp · `AppRadius.lg` · margem horizontal `AppSpacing.lg` · altura mínima 56dp · sombra neutra leve (sem glow colorido) · nunca largura total da tela · nunca fundo colorido por severidade.
+
+**Estrutura:** ícone semântico → título (`labelLG` / `textPrimary`) → mensagem opcional (`bodySM` / `textSecondary`) → ação opcional à direita (`button`, sem caixa alta) — **no máximo uma ação**.
+
+**Severidade (cor só no ícone):**
+
+| Método | Ícone | Uso |
+|--------|-------|-----|
+| `showSuccess` | `success` | Conclusão, save ok |
+| `showInfo` / `show` | `brandPrimary` | Confirmação, informação |
+| `showKinetic` | `colorKinetic` | Treino ativo — série, descanso, próximo exercício |
+| `showWarning` | `warning` | Vale revisar |
+| `showError` | `error` | Falha — persiste até fechar ou agir |
+
+**Duração:** feedback simples 2,5s · importante 4s · erro até dismiss ou ação.
+
+**Animação:** entrada slide+fade 250ms (`routePush`) · saída fade+slide 150ms · sem bounce.
+
+**API:**
+
+```dart
+AppSnackbar.showSuccess(title: '...', message: '...');
+AppSnackbar.showInfo(title: '...');
+AppSnackbar.showKinetic(title: 'Descanso iniciado', message: '60 segundos restantes.');
+AppSnackbar.showWarning(title: '...', message: '...');
+AppSnackbar.showError(title: '...', actionLabel: 'Tentar novamente', onAction: ...);
+AppSnackbar.show(message, title: ...); // retrocompat — mapeia para info
+```
+
+**Proibido:** topo da tela · bloquear interação fora da barra · `SnackBar`/`Get.snackbar` inline · ícones grandes · mais de um botão de ação.
+
+### Avisos ao usuário (`AppNoticeBanner`)
+
+Padrão único para alertas visíveis — desequilíbrio, validação híbrida, scheduling, corrida, edge cases do plano.
+
+| Severidade | Ícone / acento | Uso |
+|------------|----------------|-----|
+| `info` | `brandPrimary` | Contexto, lembrete, scheduling no card do dia |
+| `warning` | `warning` | Vale revisar antes de confirmar ou treinar |
+| `blocked` | `error` | Impede confirmação ou exige ajuste |
+
+**Visual minimalista — não competir com o conteúdo principal:**
+
+- Fundo `surfaceElevated`; borda `borderDefault` 0,5dp — **nunca** borda ou texto inteiro na cor semântica
+- Acento semântico **só no ícone** (16dp); título em `textPrimary`; corpo em `textSecondary`
+- `AppNoticePlacement.cardFooter` — rodapé de `DaySummaryCard` (só borda superior)
+- `AppNoticeGroup` — múltiplos avisos da mesma severidade (diagnóstico híbrido)
+- `AppNoticeSurface` — card composto com CTA (desequilíbrio muscular)
+- Infos colapsáveis: accordion com tokens `info`, título em `textPrimary`
+
+Widget: `lib/core/widgets/app_notice_banner.dart` · enum: `lib/core/domain/app_notice_severity.dart`
+
+Copy e tom → `ui/copy_voice.mdc` § Avisos ao usuário.
+
+## Branding — assets e símbolo
+
+| Asset | Uso |
+|-------|-----|
+| `assets/branding/logo.png` | Ícone do app, splash, auth — figura geométrica + gráfico de progresso (gradiente azul/roxo → verde) |
+| `assets/branding/brand_symbol.png` | Silhueta da logo (gradiente original, fundo transparente). Em shares: tint na cor do texto adjacente via `Image.color` + `BlendMode.srcIn` — sem alterar o arquivo |
+
+Widgets: `BrandSymbolImage`, `ShareLegibleBrandSymbol` em `lib/core/widgets/brand_symbol.dart`.
+
+**Símbolo:** extrai a figura humana geométrica + linhas de progresso da logo — sem texto "TREINO BASE".
+
+**Hero sutil em tela estática de identidade** (ex.: "Sobre"): `BrandSymbolImage` pequeno (~64–72dp) como âncora visual — não usar `logoAsset` completo fora de auth/splash, gradiente multicor é pesado demais para tela de informação.
+
+## Assets compartilháveis (card · foto · sticker)
+
+Widgets: `workout_share_card`, `workout_running_share_card`, `workout_photo_share_card`, `workout_sticker_card`, `program_cycle_share_card`.
+
+### Watermark unificado — `WorkoutShareWatermark`
+
+| Variante | Uso | Visual |
+|----------|-----|--------|
+| `overlay` | Sticker transparente | halo + sombra de texto |
+| `photo` | Foto do usuário exportada | branco + contorno fino 0,75 dp; sem halo, sombra ou gradiente |
+| `card` | Cards com fundo sólido | `brand_symbol` 15dp + wordmark Space Grotesk + tagline Inter |
+
+Tagline descritiva em **ambas** as variantes — responde "o que o app faz" no PNG (não é CTA de loja).
+
+**Tipografia da assinatura:** wordmark `AppTypography.brandWordmark` — Space Grotesk (só marca em share; app continua Inter). Tagline `AppTypography.watermarkTagline` — Inter. Copy: `WorkoutShareCopyPt.watermarkTagline` = `Corrida • Academia • Híbrido`. Separador `•` (três pilares).
+
+| Variante | Wordmark | Tagline | Cor tagline |
+|----------|----------|---------|-------------|
+| `sticker` | 12/w700/tracking 0.8 · **sem ícone/símbolo** · cor única | — (oculta) | — |
+| `overlay` | 11/w700/tracking 1.0 | 9/w500 | branco 100% |
+| `photo` | 14/w700/tracking 1.0 | 10/w500 | ~75% branco |
+| `card` | 14/w700/tracking 1.0 | 10/w500 | `textTertiary` ~75% |
+
+### Sticker transparente (`GymStickerCard` / `RunningStickerCard`)
+
+Padrão **Strava** — dados do treino primeiro, marca discreta por último. **Sem contorno preto** (decidido em `.claude/decisions/sticker-share-redesign.md` — lia como "legenda"/rascunho, não como estilo).
+
+- Dimensões: academia 360×360 dp; corrida 360×320 dp × pixelRatio 4 (`kStickerCapturePixelRatio`).
+- **Paleta 100% branca (padrão Strava):** texto em branco puro, **sem stroke, sem sombra, sem painel de fundo** — **proibido** `brandPrimary`, badge PRO, gradiente da logo ou qualquer cor de marca no PNG transparente.
+- **Legibilidade sobre foto arbitrária:** nenhum mecanismo de contraste artificial (decisão explícita do dono do produto — contorno e painel translúcido testados e rejeitados por lerem como "borda de legenda"/rascunho). Risco de legibilidade em fotos muito claras é aceito; mitigado só por peso (`w700`+) e tamanho de fonte maiores. Validar sempre no checklist QA manual abaixo.
+- **Fonte dos números:** valor (hero e stats secundários) em **Space Grotesk w700** — mesma fonte do wordmark, já bundled, sem custo de asset novo; labels e label de atividade continuam em Inter.
+- **Hierarquia (topo → base):**
+  1. Label de atividade — Inter `w600`, 14–15px, tracking 1.0, até 2 linhas (ex.: `LONGÃO · Z1–Z2`, `DIA A · SUPERIOR`).
+  2. Métrica hero — **só corrida**: distância (Space Grotesk 32px/w700) + unidade km (Inter 11px/w600 — mesmo tamanho do label de stat). Academia não tem hero — vai direto aos stats.
+  3. Stats secundários — valor (Space Grotesk 26px/w700) + label abaixo (Inter 11px/w600): corrida = RITMO | TEMPO; **academia = top 3 % muscular** (ex.: `32% PEITORAL`), **em coluna** (empilhados, não lado a lado) — nunca séries/exercícios. Mesmos tokens de tamanho em academia e corrida (`_kStickerFontStatValue`/`_kStickerFontStatLabel`) — só a estrutura (com/sem hero) difere entre as duas.
+  4. Marca — variante `sticker` do watermark: **só wordmark** Space Grotesk 12px/tracking 0.8, **sem símbolo/ícone** e **sem tagline** (decidido: usuário pediu remoção do símbolo).
+- **Academia:** sem hero metric; label de atividade + % muscular em coluna. **Sem exercícios, kg, séries ou data.**
+- **Corrida:** hero = distância; secundários ritmo e tempo; zona = só código (`zoneCodeLabel`/`zoneCodesLabelPt`, ex. `Z1–Z2`) embutido no label de atividade — **nunca o nome da zona** (`zoneLabelPt`, ex. "Aeróbico") junto do código, é redundante com o tipo de sessão.
+- **Prova:** label `PROVA · {distância}`; sem zona Z.
+- **Fora do sticker:** semana do plano, badge emocional, data/hora — ficam no card sólido ou foto.
+
+### Card sólido corrida (`WorkoutRunningShareCard`)
+
+- Dimensões: 360×360 dp × pixelRatio 3 = 1080×1080 px PNG opaco.
+- **Layout denso** — sem `Spacer` no meio; header + divisória + métricas em cluster + watermark.
+- Header alinhado ao sticker: check verde de conclusão + badge emocional, semana, título + zona, subtítulo `Dia N`.
+- Métricas: distância hero (`displayHero`) + ritmo/tempo em linha abaixo.
+
+### Card sólido academia (`WorkoutShareCard`)
+
+- Dimensões: 360×360 dp × pixelRatio 3 = 1080×1080 px PNG opaco.
+- **Layout denso** — check verde + badge `TREINO CONCLUÍDO` + `Dia A · Superior` + stats (kg/séries) + barras musculares + watermark; sem vazio central.
+
+### Formato Foto (`WorkoutPhotoShareCard`)
+
+- **Retrato** (`height / width >= 1.1`): card na **proporção nativa da foto** (largura lógica fixa 360 dp; altura derivada). Captura com `pixelRatio` dinâmico derivado da resolução original (teto ~4096 px no lado maior) — nunca dimensão fixa menor que a foto.
+- **Quadrada/paisagem**: mantém 360×360 dp e `pixelRatio: 3.0` (comportamento anterior — paisagem continua com corte quadrado; tratamento paisagem fora do MVP).
+- Foto em `BoxFit.cover` **sem filtro adicional sobre a imagem** — gradientes apenas nas faixas de overlay.
+- **Safe-zones percentuais** do overlay: 15% topo, 15% base, 10% laterais — dados do treino ficam fora das zonas cegas típicas de Stories/Reels/WhatsApp Status.
+- Tipografia do overlay escala com a altura do card (referência 360 dp, teto 2.5×).
+- Textos brancos com hierarquia por opacidade (100% / 80% / 75%) e contorno fino via `OverlayLegibleText` (~0,75 dp preto 50%) — legibilidade sem escurecer a foto.
+- Watermark variante `photo` — sem halo no símbolo.
+- Prévia na sheet: `WorkoutPhotoSharePlaceholder` — ícone + copy **"Toque para escolher sua foto"**; toque abre galeria antes de compartilhar/salvar.
+- Helper `photo_share_layout.dart`: decodifica dimensões (`dart:ui.instantiateImageCodec`), resolve layout e `pixelRatio` de captura — usado por academia e corrida.
+
+### Checklist QA manual (device)
+
+Antes de release, validar sticker exportado sobre foto clara e escura em Stories:
+
+- [ ] Formato Foto: foto sem gradiente sobre a imagem; textos legíveis com contorno fino em foto clara e escura
+- [ ] Formato Foto retrato: card exportado colado em Stories real (Instagram e WhatsApp Status) — subtítulo, métricas, data e watermark **fora** das zonas cegas de topo (15%), base (15%) e laterais (10%)
+- [ ] Formato Foto retrato: preview na sheet usa a mesma proporção do PNG exportado
+- [ ] Assinatura legível: wordmark 100%, tagline ~75%, sem dominar métricas
+- [ ] Hierarquia tipo > zona > métricas
+- [ ] Sem overflow em `textScaler` 2.0 (testes automatizados)
+
+## Fontes de referência visual — nunca desenhar do zero
+
+Toda tela ou widget novo parte de uma referência real, não de layout inventado.
+
+1. Escolher a referência mais próxima do fluxo em `/references/` (login, dashboard, forms, navigation, profile, calendar, chat, empty-state, cards) — se ainda não houver print salvo, buscar em [Mobbin](https://mobbin.com/), [Refero](https://refero.design/) ou [Page Flows](https://pageflows.com/).
+2. Manter da referência: hierarquia visual, espaçamento, alinhamento, proporções, organização dos componentes.
+3. Adaptar apenas: cores (`AppColors`), textos (`copy_voice.mdc`), ícones, conteúdo.
+4. Consultar [Material 3](https://m3.material.io/) para comportamento/acessibilidade de componentes nativos.
+
+Detalhe das fontes e estrutura de pastas → `/references/README.md`.
+
+## Iconografia
+
+Material Icons built-in. Manter consistência por contexto (check, add, swap, histórico, editar, apagar, alerta). Tamanhos proporcionais ao componente (chip < lista < AppBar).
+
+## Acessibilidade
+
+- `Semantics` em interativos sem label textual
+- Contraste WCAG AA; layout aguenta `MediaQuery.textScalerOf(context)` em **1.0** e **≥ 2.0** — testar com `TextScaler.linear(...)`; não usar `textScaleFactor` (deprecated)
+- Escalas extremas (>2.0): se o layout não aguenta, teto explícito no `MaterialApp` via `TextScaler.linear(clamp(...))`
+- `tooltip` em `IconButton`; haptic em ações importantes
+
+## Dark mode — aplicação obrigatória
+
+O app é **exclusivamente dark**. O tema do sistema é ignorado:
+
+```dart
+// Em MaterialApp — obrigatório
+themeMode: ThemeMode.dark,
+theme: AppTheme.dark,       // fallback caso alguém force light externamente
+darkTheme: AppTheme.dark,
+```
+
+- Nunca usar `ThemeMode.system` — a paleta índigo/violeta sobre cinza-azulado só funciona em dark
+- Nenhum widget deve usar `Theme.of(context).brightness` para alternar comportamento — o app não tem modo claro
+- Testar sempre com o tema do dispositivo em light para garantir que o `themeMode: dark` prevalece
+
+## Animações e transições
+
+### Transições de tela
+
+| Tipo de navegação | Transição | Duração |
+|-------------------|-----------|---------|
+| Push (tela nova) | `Transition.rightToLeft` | 250ms |
+| Modal / bottom sheet | Slide de baixo (padrão Material) | 300ms |
+| Popup / dialog | Fade | 200ms |
+| Substituição total (wizard step) | `Transition.fadeIn` | 200ms |
+
+Usar `GetPage(transition: ..., transitionDuration: ...)` nas rotas — nunca hardcodar em widget.
+
+**Sequência sheet → dialog/push:** fechar o sheet e aguardar `AppDurations.sheet` (300ms) antes do próximo overlay — helper `OverlayNavigation` em `core/utils/overlay_navigation.dart`. Padrão preferido para ações do drawer: `await Get.bottomSheet<T>()` com resultado, depois executar a ação (ex.: `PlanManageSheet`).
+
+**Dialog de confirmação:** `AppDialog.show` — fade 200ms (`AppDurations.fast`); após confirmar ação destrutiva, `await AppDialog.settleAfterClose()` antes de navegar.
+
+### Durações padrão (tokens de animação)
+
+| Token | Valor | Uso |
+|-------|-------|-----|
+| `durationFast` | 150ms | Micro-interações: toggle, chip select, checkbox |
+| `durationNormal` | 250ms | Transições de tela, expansão de card |
+| `durationSlow` | 350ms | Gráficos e barras animadas na entrada |
+| `durationChart` | 600ms | `MuscleDistributionChart` — barras animam uma vez |
+
+### Escopo de expansão de degradê/animação (decidido jul/2026)
+
+> Decisão completa: `.claude/decisions/expandir-degrade-animacoes.md`
+
+**Aprovado para agora:** animação de celebração nos 4 sheets de conclusão (`day_completion_sheet`, `running_completion_sheet`, `cycle_summary_sheet`, `weekly_completion_sheet`) — motivo comunicativo já coberto por `content_quality.mdc` § Animação ("celebração com propósito"), sem token novo necessário.
+
+**Icebox pós-lançamento (não fazer sem novo `/descobrir`):** gradiente em cards de superfície (`surfaceCard`), tratamento visual no paywall (`pro_plan_sheet.dart`), animação de entrada em onboarding/auth — todos exigem decisão de design (token/paleta) ou dado de conversão ainda inexistente. Consolidado junto com "Auditoria Visual Pass 2" (`docs/TODO.md`).
+
+**Auditoria de contraste vs. degradê (decidido jul/2026):** `surfaceCard` (#161E33) é matematicamente mais escuro que a base do degradê `surfaceElevated` (#1E2940) — decisão deliberada de **não corrigir** (diferença imperceptível em dark mode, sem reclamação real; ver `.claude/decisions/auditoria-contraste-degrade.md`). Revalidação de WCAG de texto contra `surfaceElevated` e levantamento de chips/tags fora de card também ficam no icebox pelo mesmo motivo. Não reabrir sem novo sinal concreto de usuário.
+
+### Regras de animação
+
+- Barras do `MuscleDistributionChart` animam **uma única vez** na entrada — `animate: false` após já exibido (evita re-animação ao reconstruir)
+- Cards marcados como "feito": `AnimatedSwitcher` com `durationFast` — estado muda sem teleportar
+- Transição loading → conteúdo: `FadeTransition` ou `AnimatedOpacity` com `durationNormal`
+- **Sem** animações em loops infinitos visíveis — prejudicam foco e bateria
+- **Sem** animações que bloqueiem interação (nenhum `IgnorePointer` durante transição de rotina)
+- Controladores criados no `State` (`AnimationController`, `TabController`, listeners locais) descartados em `dispose()`
+- `Curves.easeOutCubic` como padrão — natural para a maioria das animações; `Curves.easeInOut` para expandir/colapsar
+
+## Anti-patterns de UI
+
+| ❌ | ✅ |
+|----|---|
+| Cor/tamanho hardcoded | Tokens do design system (`AppColors`, `AppSpacing`, `AppTypography` ou `ThemeExtension`) |
+| `Column` com dezenas de filhos | `ListView.builder` |
+| Borda 1dp em card dark | 0.5dp |
+| Spinner em lista | Shimmer |
+| Lista sem inset inferior | Safe area + barra fixa |
+
+## Checklist de PR para widgets
+
+- [ ] Tokens em cor, tipo e espaçamento
+- [ ] Interativos 48×48dp; safe area ok
+- [ ] Empty e loading definidos
+- [ ] Zero lógica de negócio no widget
+- [ ] Validação UI/UX completa → `validation/ui_ux.mdc` (Pilares 3–5)

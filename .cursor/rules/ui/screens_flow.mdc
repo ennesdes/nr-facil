@@ -1,0 +1,1042 @@
+---
+description: Jornada do usuário, rotas canônicas, fluxo de telas, Free vs Pro, edge cases e snapshot vs atual.
+globs: ["lib/app/routes/**/*.dart", "lib/**/modules/**/*_page.dart", "lib/**/modules/**/*_binding.dart"]
+alwaysApply: false
+---
+
+# Telas, Fluxo e Negócio — MVP
+
+## Regra de ouro: catálogo vivo vs treinos gravados
+
+| Conceito | Comportamento |
+|----------|---------------|
+| **Catálogo** | Fonte viva — relido ao criar/editar treino |
+| **Treino atual** | Linhas com cópia de nome + pesos musculares — recalcular a partir das linhas |
+| **Histórico** | Snapshot imutável com distribuição calculada no arquivamento |
+
+## Monetização
+
+**Não implementada.** Free vs Pro, paywalls contextuais e checklist de entrega: **`docs/TODO.md`**. Grade de preços e `product_id`: **`store/pricing_strategy.md`**. Guia IAP para iniciantes: **`store/README.md`**.
+
+Princípio invariante: treino nunca bloqueado; alertas de desequilíbrio visíveis para todos; gravação de `load_history` e `session_log` para todos.
+
+### Conta e Pro
+
+| Regra | Comportamento |
+|-------|---------------|
+| Abertura do app | **Sem login** — Free funciona 100% offline com GetStorage |
+| Assinar Pro | **Login obrigatório** antes da compra IAP — email/senha ou Google |
+| Restaurar compra | Mesmo gate de login → `SubscriptionService.linkToUser(userId)` → restore via RevenueCat; compra e restore abortam com snackbar se o vínculo falhar |
+| Menu "Conta" | Atalho opcional para entrar; não bloqueia jornada Free |
+| Sair | `AuthController.signOut` → Supabase signOut + `unlinkUser`/`revalidate` no RevenueCat + `StorageService.clearUserData()` (chaves em `StorageKeys.userBoundKeys`; preserva compliance/onboarding/push do device) |
+| Sessão expirada | `authStateChanges` em `signedOut`/`tokenRefreshed` sem sessão → mesma limpeza local + flag `sessionExpired` + copy "Sua sessão expirou…" |
+| Sync na nuvem | **Pós-lançamento** — login para backup de histórico/progresso; não confundir com gate do Pro |
+
+Fluxo na `ProTeaserSheet`: CTA assinar/restaurar → (login se necessário) → sheet de 3 planos → folha nativa da loja → entitlement `pro` via RevenueCat.
+
+### Tela de conta (`/auth`)
+
+Rota canônica: `/auth` · query opcional `intent=pro` (retoma fluxo de assinatura após login).
+
+| Campo | Regra |
+|-------|--------|
+| Superfície | Uma tela — toggle login/cadastro; link "Esqueci minha senha" |
+| Campos | E-mail + senha apenas — sem nome, telefone ou foto no MVP |
+| `intent=pro` | Subtítulo explica vínculo da assinatura; após auth → `SubscriptionService.linkToUser(userId)` → `ProPlanSheet` |
+| Sem intent | Acesso via menu "Conta"; após login volta para tela anterior |
+| Google Sign-In | Botão "Continuar com Google" abaixo do CTA principal (login e cadastro) — `AuthRepository.signInWithGoogle()` chama `signInWithOAuth(OAuthProvider.google)` com o mesmo `redirectTo` do custom scheme usado no reset de senha. Login é assíncrono: `AuthController` marca `googleSignInPending` ao abrir o navegador e só fecha a tela (`Get.back`) quando `authStateChanges` emite `signedIn` via deep link — não há retorno síncrono do clique. Enquanto `googleSignInPending`, o botão Google mostra spinner e os demais campos ficam desabilitados; se o usuário voltar sem concluir (back, sair da tela ou retorno do app sem login), `cancelGoogleSignIn()` reseta a flag |
+| Confirmação de e-mail | Habilitada no Supabase. Se `signUp` tiver sucesso mas a sessão não vier (confirmação pendente), a tela substitui o formulário pelo estado "Verifique seu e-mail" (CTA reenviar com cooldown de 60s + link para voltar ao login) — nunca fecha a tela nem mostra erro genérico nesse caso. Ao tocar no link do e-mail, `emailRedirectTo` leva para `https://solvebetter.com.br/apps/treino-base/email-confirmado` (site institucional) — não abre o app diretamente; ver `.claude/decisions/auth-callback-https-site.md` |
+
+Copy literal → `copy_voice.mdc` § Conta e Pro.
+
+### Tela "Nova senha" (`/auth/new-password`)
+
+Rota canônica: `/auth/new-password` — nunca navegada manualmente pelo usuário; aberta automaticamente pelo `AuthController` (worker `ever()` em `passwordRecoveryPending`) quando o app processa o deep link de recuperação de senha (`AuthChangeEvent.passwordRecovery`), independentemente da tela em que o usuário estava. `supabase_flutter` já trata o deep link automaticamente (via `app_links`, dependência transitiva) — nenhum pacote novo nem parser de URI manual é necessário.
+
+Campos: nova senha + confirmar senha. Sucesso → `Get.offAllNamed(AppRoutes.home)`. Copy → `copy_voice.mdc` § Nova senha.
+
+**Guard:** middleware lê `StorageKeys.passwordRecoveryPending` no storage (espelho do Rx do `AuthController`); se falso, redireciona para home; `AuthController.updatePassword` também recusa fora do fluxo de recovery.
+
+**Limitação conhecida e aceita:** `redirectTo` desse fluxo é o custom scheme `br.com.solvebetter.treinobase://callback` — o único jeito de o app capturar o link e disparar `AuthChangeEvent.passwordRecovery` hoje. Se o link for aberto fora do app (cliente de e-mail no desktop, webview que bloqueia custom scheme), a captura falha e o resultado é tela em branco. Decisão consciente — trocar por HTTPS simples quebraria a captura por completo; Universal Links/App Links resolveriam mas foram descartados por ora (over-engineering pro estágio atual). Ver `.claude/decisions/auth-callback-https-site.md`.
+
+### Alterar e-mail (menu "Conta")
+
+Ação nova no menu "Conta" (drawer da home), ao lado de "Sair" — dialog no mesmo padrão do de redefinir senha. Não exige reautenticação com senha atual (segurança já vem da confirmação por e-mail do Supabase). Copy → `copy_voice.mdc` § Alterar e-mail.
+
+```
+ProTeaserSheet — CTA contextual
+        |
+        v
+   isLoggedIn? ---- não ----> /auth?intent=pro
+        |                           |
+       sim                     auth ok
+        |                           |
+        +-----------+---------------+
+                    v
+            SubscriptionService.linkToUser(userId)
+                    v
+              ProPlanSheet (3 planos)
+                    v
+            folha nativa Apple/Google
+                    v
+              isPro = true → desbloqueia feature
+```
+
+### Sheet de assinatura (ProTeaserSheet / paywall)
+
+Quando implementada, a sheet de assinar Pro segue `store/pricing_strategy.md`:
+
+| Regra | Comportamento |
+|-------|---------------|
+| Planos | 3 — anual, semestral, mensal (nunca oferta única) |
+| Ordem | Anual primeiro; mensal por último |
+| Default selecionado | Anual |
+| Destaque | Anual — badge de melhor valor |
+| Preços | Mensal R$ 24,90 · Semestral R$ 89,40 (mostrar equiv. R$ 14,90/mês) · Anual R$ 118,80 (equiv. R$ 9,90/mês) |
+| Trial | Sem trial no MVP |
+| Restore | CTA "Restaurar compra" sempre visível |
+| Copy | Valor Pro (não racional de PM) — `ui/copy_voice.mdc` |
+
+## Rotas canônicas
+
+| Tela | Rota | Status |
+|------|------|--------|
+| Home | `/` | ✓ — academia e/ou corrida (perfil híbrido integrado) |
+| Questionário academia | `/wizard` | ✓ — objetivo, silhueta de objetivo, dias, lesões, foco por dia, volume do dia |
+| Pré-visualização academia | `/wizard/preview` | ✓ — AHA #1 |
+| Dia A/B/C academia | `/workout/strength/day/:label` | ✓ |
+| Resumo do dia | bottom sheet | ✓ — AHA #2 |
+| Catálogo / detalhe exercício | `/exercise/catalog`, `/exercise/:id` | ✓ |
+| Programas anteriores | `/history` | ✓ — menu, não aba |
+| Gráfico de progressão de carga | `/load-chart/:exerciseId` | ✓ — Pro; Free vê paywall; entrada em `/history` |
+| Resumo ao arquivar (academia) | bottom sheet sobre `/home` | ✓ — AHA #3; `CycleSummaryLauncher` |
+| Resumo ao arquivar (corrida) | bottom sheet sobre `/home` | ✓ — paridade academia; `RunningCycleSummarySheet` |
+| Sobre | `/about` | ✓ — menu |
+| Perguntas frequentes | `/faq` | ✓ — menu (Drawer, seção Ações); busca local; 100% Free |
+| Conta (login/cadastro) | `/auth` | Pendente — gate Pro; atalho opcional no menu |
+| Onboarding de valor (mapa muscular + híbrido) | `/onboarding/value-prop` | ✓ Fase 1 — apenas novos usuários |
+| Disclaimer legal (primeiro acesso) | `/onboarding/disclaimer` | Entregue |
+| Aceite termos + privacidade | `/legal/accept` | Entregue — gate antes do 1º plano |
+| Onboarding de modalidade | `/onboarding/modalities` | ✓ — academia / corrida / os dois |
+| Wizard corrida | `/running/wizard` | ✓ — standalone ou encadeado (step 2/2 no híbrido) |
+| Diagnóstico híbrido | `/running/wizard/diagnosis` | ✓ — validação + ajuste inline antes da prévia integrada |
+| Pré-visualização corrida | `/running/wizard/preview` | ✓ — prévia standalone e confirm final híbrido (salva academia + corrida juntos) |
+| Dia corrida | `/workout/running/day/:label` | ✓ |
+
+**Sem bottom bar no MVP.** Navegação secundária via menu. Atualizar rotas ao criar tela nova.
+
+## Onboarding de valor — `/onboarding/value-prop`
+
+Exibido **uma única vez** para usuários completamente novos (sem `UserProfile` salvo, sem plano ativo, `valuePropSeen = false` em storage).
+
+**2 slides:**
+
+1. **Mapa muscular** — cada exercício aparece no mapa em tempo real; o app avisa quando há desequilíbrio.
+2. **Academia e corrida no mesmo app** — combinar musculação e corrida sem conflito de recuperação.
+
+**Navegação:**
+- CTA "Próximo" no slide 1 avança para o slide 2.
+- CTA "Montar meu treino" no slide 2 → marca `valuePropSeen = true` → redireciona para `routeForMissingActivePlan` (onboarding de modalidades quando ainda não há perfil; wizard de academia ou corrida conforme perfil escolhido).
+- Sem botão de pular — é curto o suficiente (2 slides apenas).
+
+**Gate:** verificado em `ActivePlansService.routeForMissingActivePlan` antes das demais rotas de onboarding.
+
+## Onboarding de modalidade — `/onboarding/modalities`
+
+Chips: **Academia** · **Corrida** · **Os dois**. CTA "Continuar" avança ao questionário da modalidade escolhida.
+
+**Navegação:**
+
+- Continuar → `Get.toNamed` ao wizard (não `offAllNamed`) — pilha preservada para voltar.
+- Questionário standalone (só academia ou só corrida): AppBar com **Voltar** → retorna a esta tela; chip da escolha anterior pré-selecionado via `onInit` (lê `_profiles.profile`).
+- Fluxo híbrido encadeado: questionário academia (AppBar "Academia · 1 de 2") → Voltar → modalidades; questionário corrida ("Corrida · 2 de 2") → Voltar → questionário academia.
+- Gesto Voltar do sistema (Android) segue a mesma pilha.
+- `ModalityOnboardingController` usa `lazyPut` sem `fenix: true` — é destruído e recriado ao voltar; `onInit` relê o perfil e pré-seleciona o chip automaticamente.
+
+**Persistência do perfil:**
+
+- "Continuar" chama `saveProvisional(choice)` — grava `enabledModalities` mas mantém `onboardingCompleted: false`.
+- `needsModalityOnboarding` retorna `true` enquanto `profile == null || !profile.onboardingCompleted` e não há plano ativo.
+- `markOnboardingComplete()` é chamado **apenas** na confirmação do plano:
+  - Academia standalone: `WizardPreviewController.confirmAndSave()` após `saveActive`.
+  - Corrida ou híbrido: `RunningWizardPreviewController.confirmAndSave()` após salvar ambos os planos.
+- Usuário que abandona antes da prévia → no próximo lançamento, `needsModalityOnboarding = true` → redirecionado de volta à tela de chips com a escolha anterior pré-selecionada.
+- Copy "você pode voltar e mudar antes de confirmar o plano" — o AppBar Voltar é o caminho explícito no primeiro acesso.
+
+**Gate:** `needsModalityOnboarding` — `(profile == null || !profile.onboardingCompleted)` E sem plano ativo → redirecionar aqui.
+
+## Compliance jurídico — fluxos obrigatórios (implementados)
+
+Regras de produto e posicionamento → `core/liability.mdc`. Copy literal → `ui/copy_voice.mdc` § Avisos legais.
+
+### Ordem no primeiro acesso (usuário novo)
+
+```
+/onboarding/value-prop  →  /onboarding/disclaimer  →  /legal/accept  →  /onboarding/modalities  →  wizard
+```
+
+- **Disclaimer** (`/onboarding/disclaimer`): uma tela, destaque visual — app não substitui profissional; dados são estimativas matemáticas. CTA "Entendi" → próximo passo. Persistir `disclaimerSeen = true`.
+- **Aceite legal** (`/legal/accept`): texto introdutório com dois links inline — "Termos de uso" (`AppConstants.termsUrl`) e "Política de privacidade" (`AppConstants.privacyUrl`) — cada um abre sua URL própria no navegador externo (LGPD); checkbox obrigatório autodeclarando liberação médica para musculação e corrida de endurance; CTA "Aceitar e continuar". Persistir `legalAcceptedAt` (timestamp) + versão dos termos (`legalTermsVersion`). Sem WebView in-app.
+- **Gate:** sem `legalAcceptedAt` válido para a versão corrente → redirecionar para `/legal/accept` antes de confirmar qualquer plano (academia, corrida, híbrido). Free e Pro iguais.
+
+### Rodapé de segurança nas visualizações de plano
+
+Exibir nota discreta mas legível (tipografia secundária, token `textSecondary`) em:
+
+- Prévia de plano (academia, corrida, híbrida)
+- Visão "Ver meu plano" / cronograma semanal
+- Tela do dia de treino (academia e corrida) — rodapé do scroll, não competir com CTAs
+
+Copy fixa → `copy_voice.mdc`. Não repetir em modais de conclusão celebratórios.
+
+### Alertas dismissíveis — UX
+
+Interference score ≥ 8 e alertas equivalentes: botões **"Ajustar semana"** (primário) e **"Ignorar alerta"** (secundário, destrutivo suave). Dismiss → append em `safety_risk_log`; snackbar breve confirmando que a decisão foi registrada localmente (sem tom punitivo).
+
+## Os 3 momentos "aha"
+
+### AHA #1 — Pré-visualização
+Gráfico de distribuição (`MuscleDistributionChart`) — barras animam na entrada em **todas** as superfícies (prévia, home, dia, resumo, histórico, sheet de conclusão); `animate: false` só se precisar desligar. Foco de cada dia visível no cartão: título **Dia X · Superior** (etc.) + subtítulo do que entra no treino — não título derivado só do % muscular. Ajuste de focos: voltar ao questionário (MVP).
+
+### AHA #2 — Resumo ao encerrar o dia
+Grupos trabalhados + %. Exibir **só na transição** 0 → todos marcados. Salvar `lastTrainedAt`. CTA para próximo treino.
+
+Gráfico inline = top 4 grupos (≥ 1%, `MuscleDistributionChart.maxVisibleEntries: 4`); texto-resumo (`dayCompletionSummaryPt`) = top 2; card share (`WorkoutShareCard`) = top 4 — mesmos grupos do gráfico inline. Detalhe: `ui/data_viz.mdc` § AHA #2.
+
+### AHA #3 — Resumo ao arquivar
+Duração, dias treinados, grupo mais trabalhado, gráfico do snapshot. CTA criar próximo plano.
+
+## Wizard — foco por dia
+
+Após dias/semana → chips por dia (Superior, Inferior, Core, Corpo inteiro) com sugestão automática; lesões abaixo. Ao mudar quantidade de dias: preservar focos existentes; dias novos recebem default. Prévia mostra `Dia A · Superior`.
+
+Customização no **questionário**, não como passo obrigatório na prévia.
+
+## Wizard — silhueta de objetivo (v1 — Free)
+
+Após objetivo principal, antes de dias/semana: três opções em `ListTile` rádio — **Equilibrado** (padrão, destacado), **Ênfase inferior**, **Ênfase superior**. Copy descreve resultado estético — nunca demografia. Persiste em `ProgramModel.muscleEmphasis`; legado sem campo → `balanced`. Modifica apenas distribuição de slots musculares no gerador — séries/reps/RIR iguais para todos.
+
+## Wizard — volume do dia (MVP — Free)
+
+Após foco por dia (ou na mesma seção): preset **Curto / Normal / Longo** — controla quantos exercícios entram em cada sessão (teto no longo, ex.: 6). Copy de tempo disponível, não de “periodização avançada”. Não bloquear treino nem exigir Pro.
+
+## Comportamentos transversais
+
+### Marcar feito
+Persistir imediatamente em storage (plano ativo + `session_log` + `load_history` quando aplicável). Nunca acumular checks só em memória até o dia 100%. Todos marcados → resumo do dia (bottom sheet).
+
+### Resiliência em treino (academia e corrida)
+
+iOS pode encerrar o app após ~40 min em background — o usuário não pode perder checks já dados.
+
+| Momento | Comportamento |
+|---------|---------------|
+| Marcar exercício feito / marcar sessão de corrida | Gravação **imediata** no plano ativo + sync de `session_log` (e `load_history` na academia) |
+| Ajuste fino de séries/reps/kg | Debounce ~500ms no controller; **flush** ao ir para background |
+| App `paused` / `hidden` | Flush de saves pendentes nos repositórios de plano ativo |
+| App `resumed` | Recarregar planos e perfil do GetStorage; controllers de dia e home atualizam UI (checks, semana atual da corrida) |
+
+Alvos de toque mínimos **48×48dp** em marcar feito, steppers +/- de carga e botão de sessão de corrida (`AppSpacing.minTouchTarget`).
+
+### Card de exercício — dia (`/program/day/:label`)
+
+Widget `ExerciseWorkCard` em `core/widgets/exercise_work_card.dart`.
+
+| Ação | Superfície |
+|------|------------|
+| Marcar feito | Checkbox + "Feito" (canto superior do card) — atalho que marca **todas** as séries de uma vez (ver § Progresso de séries) |
+| Marcar série individual | Faixa de execução — chips numerados (1…N): toque na próxima série ao terminar; toque na última feita para desfazer; quando `completed == total`, chips somem — toque em "N de N séries feitas" chama `reopenSeriesProgress` (zera contador, desmarca Feito, fluxo normal recomeça) |
+| Descansar | Botão "Descansar" na **faixa de execução** (mesma faixa do contador de séries) — dispara `_RestTimerBar`; card de origem destacado enquanto timer ativo; ver § Descanso pós-série/exercício |
+| Séries / reps / kg | Steppers +/- inline (`Wrap` em telas estreitas) — **abaixo** da faixa de execução; visual neutro, distinto dos botões rotulados de série |
+| Carga vazia | Stepper Kg exibe `—` (não `•`) |
+| Detalhe (execução, equipamento) | Toque no nome **ou** ícone ℹ️ 48×48dp (`Semantics`: "Como fazer") → `/exercise/:id` |
+| Trocar exercício | `TextButton` "Trocar" no rodapé do card (abaixo dos steppers de prescrição) |
+| Repor padrão / remover | Menu ⋮ do card (rodapé — sem "Descansar", que vive na faixa de execução) |
+
+### Hierarquia do card durante execução
+
+> Decisão: `.claude/decisions/card-exercicio-academia-ux.md`
+
+Ordem vertical fixa (topo → base):
+
+1. **Cabeçalho** — thumb, nome (tap → detalhe), chip muscular, ℹ️, checkbox "Feito" (atalho de conclusão total).
+2. **Faixa de execução** — micro-cópia "Toque a série ao terminar" + chips numerados (próxima com borda `brandPrimary`; última feita desfaz ao toque) + contador "X de Y séries feitas" + "Descansar" (`textSecondary`). Steppers de prescrição usam +/− neutros — nunca chips de série.
+3. **Prescrição** — steppers Séries / Reps / Kg (`Wrap` em telas estreitas).
+4. **Rodapé** — "Trocar" + menu ⋮ (Repor / Remover).
+
+**Timer híbrido:** `_RestTimerBar` permanece no rodapé global da tela; o card que disparou o descanso recebe borda `brandPrimary` (35% alpha, 1dp) enquanto o timer estiver ativo (`restTimerSourceLineId` no controller) — sem countdown duplicado dentro do card.
+
+| Ação do dia | Onde | Condição |
+|-------------|------|----------|
+| Marcar tudo | AppBar — menu ⋮ (1º item) | `totalCount > 0 && doneCount < totalCount` |
+| Desmarcar tudo | AppBar — menu ⋮ | `doneCount > 0` |
+| Compartilhar (replay) | AppBar — menu ⋮ | `canReplayShare` |
+| Por que esse treino? | AppBar — menu ⋮ | `showDominanceInfo` (foco superior + >1 dia superior) |
+| Adicionar exercício | `FilledButton` fixo no rodapé (acima da `_RestTimerBar`) — não usa `FloatingActionButton` | sempre |
+
+AppBar da tela do dia: **título + um único `PopupMenuButton` (⋮)** — sem `TextButton` nem ícones soltos; esconder ⋮ quando nenhum item do menu estiver disponível (`hasDayMenuActions`).
+
+### Progresso de séries dentro do exercício
+
+> Decisão completa: `.claude/decisions/progresso-series-execucao.md`
+
+Contador "X de Y séries feitas" no `ExerciseWorkCard` — na **faixa de execução**, com chips numerados por série (toque na próxima ao terminar; toque na última feita para desfazer). Regras de produto:
+
+- **Sequencial, sem pular série** — o usuário treina em ordem; não existe marcar a 3ª série sem ter passado pela 1ª e 2ª.
+- **`isDone` do exercício é derivado**: ao atingir `Y de Y`, o exercício vira automaticamente "Feito" — sem confirmação extra.
+- **Checkbox "Feito" continua existindo como atalho rápido**: tocar nele marca todas as séries de uma vez (para quem não quer granularidade); desmarcar reseta o contador de séries a zero — mesma semântica de correção do "Repor padrão".
+- **Nunca decrementa sozinho** — só o usuário corrige manualmente (segurança de dado de treino).
+- **Independente do descanso** — clicar "Descansar" não incrementa a série automaticamente; descansar e completar uma série são ações distintas que o usuário controla cada uma.
+- **Sem tela de execução dedicada** — o contador vive no card já existente da lista de exercícios do dia; a lista completa do dia continua visível durante o treino.
+
+### Descanso pós-série/exercício (`_RestTimerBar`)
+
+Gatilho é **manual** — botão "Descansar" no `ExerciseWorkCard`, sempre visível (mesmo após o exercício marcado "Feito"), nunca disparado automaticamente ao marcar feito. Usuário decide quando descansar, seja entre séries ou entre exercícios. Duração pré-selecionada por objetivo do plano (`_restDurationSeconds()`: força 180s / hipertrofia 90s / emagrecimento 45s / geral fitness 75s) — é sugestão, não imposição; controles de pular e pausar/retomar disponíveis. Não incrementa o contador de séries — ver § Progresso de séries dentro do exercício.
+
+**Preferência de duração de descanso:** stepper ±15s no countdown ativo (`_RestTimerBar`) ajusta o descanso atual **e** grava como preferência global do usuário (`StorageKeys.restDurationPreferenceSeconds`, a criar na implementação) — próximo "Descansar", em qualquer exercício/plano/objetivo, carrega esse valor em vez da sugestão por objetivo. Sem preferência salva, usa `_restDurationSeconds()` (sugestão por objetivo) como valor inicial. Clamp de segurança **absoluto 30–300s** (ver `domain/gym.mdc` §Intervalos de Descanso por Objetivo / EVD-010) — evita valores patológicos sem restringir à faixa estrita de um objetivo específico, já que o valor é global. Quando a preferência salva difere da sugestão do objetivo do dia, exibir texto secundário não bloqueante "Sugestão para hoje: Xs" ao lado do countdown — apenas informativo. Feature 100% Free — não gatear em Pro.
+
+**Primeira sessão (banner one-shot):** se nenhum dia do plano ativo tem `lastTrainedAt` e o usuário não dispensou (`StorageKeys.programDayHintDismissed`), card informativo dismissível no topo da lista com orientação de uso (Marcar série, Descansar, Feito como atalho, nome para detalhe). Persistir dismiss no GetStorage.
+
+**Home:** `DaySummaryCard` — badge de status (Concluído hoje / Feito / **Em andamento** / Próximo / Pendente), rodapé "Abrir treino" + chevron, `Semantics` "Abrir treino dia {letra}". Toque abre `/program/day/:label`. "Em andamento" = `0 < doneCount < totalCount` do dia (algum exercício feito, outros não) — ver § Retomada de treino em andamento.
+
+**Corrida — paridade de clareza:** `RunningSessionCard` (home/overview) e `_DaySessionCard` (dia) seguem o mesmo padrão: status visível, affordance de abrir treino, ícone ℹ️ 48dp para zonas (`Semantics`: "Entender zonas"), botão marcar feito com `Semantics`, banner one-shot (`StorageKeys.runningDayHintDismissed`) quando plano sem `lastTrainedAt`.
+
+**Linha de sensação por zona:** abaixo dos chips de tipo/zona em `_DaySessionCard`, exibir sensação da zona primária (mínima do range — ex.: "Z1–Z2" → Z1 → "Conversa sem esforço"). Derivada via `RunningPlanCopyPt.zoneSensation(zoneCode.split('–').first)`. Visível sempre que `zones` não vazio; cor `textSecondary` (contraste WCAG AA); estilo `bodySM`.
+
+**Educação de zona dia 1 (bridge Pro):** banner dismissível one-shot (`StorageKeys.runningDayHintDismissed`) mostra copy sobre zona + link "Entender as zonas de esforço →" (abre `EffortZoneGuideSheet`; área de toque ≥ 48dp via `InkWell + ConstrainedBox`). Copy menciona cadeado para ritmo em min/km (paywall #1). Não abre `ProPlanSheet` automaticamente.
+
+### Editar série / rep / carga / exercício
+Atualizar linha → recalcular % → persistir (debounce em ajustes finos de carga/séries; flush ao background — ver § Resiliência em treino).
+
+### Trocar exercício
+Abre lista de exercícios equivalentes por padrão (mesmo grupo muscular + mesma categoria composto/isolado, sem contraindicação de lesão declarada no plano); busca por texto ignora o filtro de equivalência (catálogo inteiro); CTA "Ver catálogo completo" para navegação irrestrita sem digitar. Nova linha do catálogo; manter séries/reps/carga da anterior.
+
+### Arquivar programa
+Snapshot com distribuição final → histórico → tela de resumo → limpar ativo → wizard.
+
+**Contrato de storage — antes/depois do ciclo (Fase 3):**
+- **`ProgramModel.initialMuscleDistribution`** — mapa `{ muscleKey: percent }` gravado **na confirmação do wizard** (academia e híbrido). Imutável durante o ciclo; edições de exercício/séries/reps/carga no dia **não** alteram este campo.
+- **`HistorySnapshot.initialMuscleDistribution`** — cópia imutável do valor do plano ativo no momento do arquivamento, junto com `globalMuscleDistribution` (distribuição final recalculada das linhas atuais).
+- Planos legados sem `initialMuscleDistribution`: no arquivamento, usar a distribuição final como fallback para ambos — card de share exibe “Distribuição mantida” (sem comparação lado a lado).
+- Chaves JSON: `initialMuscleDistribution` em plano ativo e em entrada de `history`.
+
+### Fluxo de conclusão de ciclo (academia, MVP)
+
+Home (chip "Semana X de N") → usuário arquiva plano ou banner `complete` aparece
+→ `ProgramArchiveService.archiveActiveAndGoToWizard()` → **home** → `CycleSummaryLauncher.showStrengthArchivedCycle`:
+  - **Free:** `CycleSummarySheet` (resumo básico + CTA paywall #5)
+  - **Pro:** `CycleRevisionSheet` (análise antes/depois + CTA wizard pré-preenchido)
+→ **Único caminho ao wizard é o CTA positivo** — `WizardInputs.fromRevision(snapshot)` no wizard (prefill de preferências: nível, objetivo, dias/semana, ênfase, volume, lesões).
+→ **`fromRevision` não copia `dayFocuses`** — split recalculado com defaults atuais do gerador; plano **ativo** em uso não migra em update do app (decisão `plano-errado-pos-atualizacao.md`).
+→ **Fechar o resumo sem CTA** → permanece na home — nunca abre o wizard vazio.
+
+**MVP:** chip + banner `complete` apenas para academia (`modality == strength`). Banner `halfway` → pós-MVP.
+
+### Fluxo de conclusão de ciclo (corrida)
+
+Paridade com academia — refazer plano de corrida também mostra resumo antes do wizard:
+
+Home/drawer ("Refazer plano de corrida") → `RunningArchiveService.archiveActiveAndGoToWizard()` calcula km do `session_log` (antes de `removeForPlan`) → **home** → `CycleSummaryLauncher.showRunningArchivedCycle` → `RunningCycleSummarySheet`.
+
+- CTA **"Montar próximo plano"** → `runningWizard` (sem prefill — icebox).
+- **Compartilhar resultado** → `RunningCycleShareBar` + `RunningCycleShareCard` (9:16 Stories).
+- **Fechar sem CTA** → permanece na home.
+- Sem variante Pro (`CycleRevisionSheet` equivalente) no MVP — revisão de ciclo de corrida é icebox.
+
+### Camadas de histórico (macro vs micro)
+
+| Camada | O quê | Quando grava | Storage | UI |
+|--------|-------|--------------|---------|-----|
+| **Macro** | Distribuição muscular do ciclo | Ao arquivar plano | `history` → `HistorySnapshot` | Free (resumo AHA #3, programas anteriores) |
+| **Micro — carga** | `exerciseId` + sets/reps/carga + data | Ao marcar exercício feito (upsert no dia) | `load_history` | Pro (gráfico progressão; dashboard futuro) |
+| **Micro — sessão** | Dia do plano treinado (`dayLabel` + data + parcial ou 100%) | Ao marcar 1º exercício feito no dia; atualizar ao fechar 100% | `session_log` + `lastTrainedAt` no plano ativo (só 100%) | Free (calendário, aderência, streak); Pro (consistência detalhada) |
+
+**Princípio:** gravar micro para todos desde o Free. Calendário, aderência e streak usam `session_log` e são **Free** (retenção não se tranca). Gráficos de progressão de carga e consistência detalhada = Pro.
+
+**Não gravar no MVP:** log estilo Hevy (série a série aberta, RPE, notas). Diferencial = volume muscular, não diário de séries.
+
+### Programas anteriores — lista (`/history`)
+
+- **Agrupamento:** seções por ano de `archivedAt` (local), ordem decrescente; dentro do ano, mais recente primeiro.
+- **Lista:** cards compactos (`ListTile` + chevron) — **sem** `ExpansionTile` nem accordion inline.
+- **Detalhe:** bottom sheet scrollável ao toque; charts e breakdown por dia só montam ao abrir o sheet (lazy).
+- **Busca:** filtro local por nome/data; oculta seções de ano sem match.
+- **Apagar:** ação destrutiva no sheet de detalhe — cor `error`, confirmação em dialog.
+- **Exercícios por dia (academia):** dentro do sheet, cada dia lista o nome de cada exercício feito (`DaySnapshot.lines`) com indicador visual de concluído/não concluído — sempre visível, **sem** `ExpansionTile`/accordion (a proibição de accordion vale para a lista principal; o sheet já é tela própria). **Sem** contagem de séries, carga ou reps nesse nível — granularidade série a série continua fora do MVP (ver § Camadas de histórico); quem quer progressão de carga usa o Load Chart (Pro).
+- **Sessões por dia (corrida):** o sheet lista **todas** as sessões do dia (`RunningDaySnapshot.sessions`), não só a primeira — cobre o caso de corrida extra registrada no mesmo dia.
+- **Gate:** 100% Free — é dado macro (nome + cumprimento), mesma categoria de distribuição muscular e histórico de dias.
+
+### Progresso de carga (`load_history`)
+
+Registrar para todos (Free + Pro); exibir gráfico de progressão só Pro.
+
+Regras de produto:
+- Grava sempre, inclusive com carga null (peso corporal).
+- **Gatilho:** ao marcar exercício como feito → upsert; se ainda feito e carga/reps/séries mudam no mesmo dia → atualiza; ao desmarcar → remove entrada daquele exercício naquele dia calendário.
+- Treino parcial conta por exercício (não exige dia 100% completo).
+- Um ponto por **(exerciseId, dia calendário local)** — valor final do dia para o gráfico.
+- **Evolução doc:** incluir `dayLabel` + `planId` nas entradas quando `session_log` existir — comparação entre ciclos sem inferir dia só pela data.
+- Nunca bloqueia treino se storage falhar (try/catch silencioso + log AppLogger).
+- Sem prune no MVP.
+
+Storage key: `loadHistory` (ver `StorageKeys`).
+
+### Eventos de sessão (`session_log`)
+
+Responder: “quantos dias treinou no ciclo”, “semanas com 0 treinos”, “dia A vs B mais consistente”.
+
+| Campo estável | Uso |
+|---------------|-----|
+| `planId` | Agrupar por ciclo ativo/arquivado |
+| `dayLabel` | A / B / C do plano |
+| `activityAt` | 1º exercício marcado feito naquele dia calendário (treino parcial conta) |
+| `completedAt` | Só quando 100% dos exercícios do dia estão `isDone` (= `lastTrainedAt` hoje) |
+| `isPartial` | `activityAt` sem `completedAt` no mesmo dia calendário |
+
+**Plano ativo:** `lastTrainedAt` no `DayModel` continua só com dia **100%** feito — não inflar com parcial.
+
+**Progresso semanal (home):** usa `activityAt` da semana corrente por slot (`planId` + `dayLabel`); se não houver log, cai em `lastTrainedAt` na semana (retrocompatível).
+
+**Gatilhos:** ao sincronizar linhas do dia — 1º exercício feito → upsert `activityAt` (preserva o 1º horário no mesmo dia); dia 100% → `completedAt`; nenhum exercício feito no dia calendário → remove entrada.
+
+Storage key: `session_log` (lista upsert por `planId` + `dayLabel` + dia calendário local).
+
+## Home — estados
+
+**Princípio inviolável: a home exibe apenas o que está ativo.** Zero placeholders para planos não criados; zero convites inline para criar um segundo plano. O Drawer oferece "Criar plano" quando o usuário quiser. Qualquer elemento na home responde a uma necessidade do treino atual — se não há treino ativo para aquele slot, o slot não existe.
+
+| Estado | UI |
+|--------|-----|
+| Sem plano ativo | Redirect automático ao questionário (`offNamed`) via `ActivePlansService` |
+| Um plano ativo | Seção daquele plano — a outra seção simplesmente não existe na home |
+| Dois planos ativos (híbrido) | `HybridHomeSection` ou seções separadas lado a lado |
+| Carregando | Shimmer |
+
+### Mudança de modalidade
+
+Não há card de "adicionar plano" na home. Para adicionar ou remover uma modalidade:
+- **Adicionar plano**: drawer → "Criar plano de corrida / academia"
+- **Remover modalidade**: drawer → "Focar só em academia" ou "Focar só em corrida" — visível apenas para perfil híbrido. Fluxo: dialog de confirmação → arquiva plano da modalidade removida → atualiza `UserProfile.enabledModalities` → home recarrega sem a seção removida. **Nunca expor** essa decisão como card na home.
+
+### Fluxo híbrido encadeado — primeiro setup
+
+Quando o usuário escolhe "Os dois" no onboarding de modalidade, o app encadeia os dois wizards **sem exigir ação extra**:
+
+1. Wizard academia (AppBar: "Academia · 1 de 2") → wizard corrida (AppBar: "Corrida · 2 de 2") — **sem prévia intermediária de academia**
+2. Wizard corrida → **diagnóstico híbrido** (`/running/wizard/diagnosis`) → prévia integrada enxuta (`/running/wizard/preview`, AppBar: "Seu plano") → **"Confirmar tudo"** → salva ambos os planos → home
+
+**Nenhum plano é gravado antes da confirmação final.** Os inputs de academia (`WizardInputs`) trafegam como argumento tipado até a prévia final, onde os dois planos são gerados juntos. Retroceder a qualquer ponto não persiste dados parciais; o usuário pode navegar livremente nos dois sentidos.
+
+**Diagnóstico híbrido (`/running/wizard/diagnosis`):**
+
+- **Única tela de validação** — bloqueios, avisos e infos do `HybridPlanValidator` aparecem aqui; a prévia não repete alertas.
+- Entre o questionário de corrida e a prévia integrada — **somente no fluxo híbrido encadeado**; o usuário **sempre** passa por aqui (sem auto-pular para a prévia).
+- Argumento tipado: `HybridPreviewInput` (inputs mutáveis na tela).
+- Bootstrap async via `HybridPreviewBootstrapService` (catálogo + geração + validação).
+- Copy de abertura explica que a próxima tela é só a grade semanal.
+- Bloqueios: steppers inline no card conforme `HybridValidationRemedy`; seção **Precisa ajustar**.
+- **Stepper da modalidade com plano já ativo** (`isAddingToExistingGym`/`isAddingToExistingRunning`) fica desabilitado nesta tela — esta tela ajusta apenas o plano novo sendo criado, nunca regenera um plano já confirmado. Copy explica o motivo e aponta o caminho correto para editar aquele plano (menu **Gerenciar plano**). Nunca falha silenciosa — nenhum stepper pode parecer ativo sem responder ao toque.
+- **Impasse por trava** (soma trava o CTA e só o lado desabilitado poderia resolver): banner dedicado orienta o usuário a editar/recriar o plano existente antes de continuar — nunca deixa o usuário sem saída na tela.
+- Avisos agrupados por categoria (frequência, organização, recuperação, segurança).
+- Infos na seção **Para lembrar**.
+- CTA **"Ver plano"** — habilitado quando `canConfirm == true` e academia gerada tem exercícios.
+- Voltar → questionário de corrida (pilha preservada).
+
+**Prévia integrada híbrida (`/running/wizard/preview` em modo híbrido):**
+
+- Conteúdo principal: grade semanal intercalada academia + corrida (`HybridWeekScheduleModel`) + toggle opcional de dias da semana.
+- Sem gráfico muscular, sem accordions educativos de corrida, sem hero de objetivo — resumo operacional da semana combinada.
+- **Sem banners de validação** — diagnóstico já tratou bloqueios e avisos.
+- CTA fixo "Confirmar tudo" no rodapé (habilitado quando planos gerados e academia com exercícios).
+- Bootstrap async via `HybridPreviewBootstrapService` — loading/retry.
+
+Nenhum card de convite é necessário porque o usuário nunca chega à home com uma modalidade "prometida e não criada" — o encadeamento cuida disso. Para criar o plano de corrida depois, o usuário usa o Drawer.
+
+**Validação híbrida (`HybridPlanValidator`):**
+
+- Rodada **somente no diagnóstico** (`/running/wizard/diagnosis`); revalidação inline ao ajustar dias.
+- Prévia: reutiliza planos gerados no diagnóstico via `HybridPreviewInput.hasPreGeneratedPlans` — **sem segundo bootstrap**; só monta a grade semanal. Fallback: bootstrap se entrar sem planos pré-gerados.
+- Bloqueios corrigidos inline no diagnóstico; CTA "Ver plano" só libera com `canConfirm == true`.
+- Combinações como 3 academia + 2 corrida confirmam normalmente para `beginner_sedentary` — avisos educativos no diagnóstico, sem travar o fluxo.
+
+**Grade semanal (`HybridWeekScheduleModel`):**
+
+- Seção **"Sua semana recomendada"** na prévia híbrida — lista intercalada academia + corrida.
+- Switch opcional *"Sugerir dias da semana (seg a dom)"* — default off; ao ligar, exibe descanso nos dias vazios.
+- Persistido na confirmação; home **"Sua semana"** segue `sortOrder` do schedule (não academia-first).
+- Lazy migration para planos híbridos antigos sem schedule.
+- **Reorganizar:** bottom sheet reutilizável (`ScheduleReorderSheet`) na prévia híbrida (antes de *Confirmar tudo*) e na home (*Sua semana*). Salva override de ordem; com toggle de dias ligado, recalcula `suggestedWeekday` mantendo gaps fisiológicos.
+
+**Dias preferidos por treino (academia solo):**
+
+- Campo `preferredWeekdays: Map<String, List<int>>` no `ProgramModel` e no `RunningPlanModel` (1 = seg … 7 = dom).
+- Botão *Definir dias* na accordion **Sua semana** → `DayWeekdayPickerSheet` com um ou dois grupos (**Academia** / **Corrida**), conforme planos ativos; cada linha com título canônico (**Dia A · Superior**, **Dia 1 · Longão**); cada treino/sessão com **exatamente um** dia; confirmação só quando todos tiverem dia (podem compartilhar o mesmo dia).
+- **Perfil híbrido integrado:** *Reorganizar* na accordion **Sua semana** → `ScheduleReorderSheet` (ordem unificada academia + corrida + descanso); ação secundária *Definir dias* abre o picker unificado (academia + corrida).
+- `WorkoutSuggestionService` prioriza treino cujo dia preferido coincide com hoje — quebra desempate puramente cronológico. Usuário ainda abre qualquer dia livremente.
+
+### Sugestão de dia
+Dia sugerido = nunca treinado primeiro; senão o mais antigo; ignora concluídos hoje; com `preferredWeekdays`, prioriza treino cujo dia preferido é hoje. Spotlight = 1º exercício pendente. Não forçar — usuário abre qualquer dia.
+
+### Retomada de treino em andamento
+
+> Decisão completa: `.claude/decisions/progresso-series-execucao.md`
+
+Quando o dia sugerido já está **em andamento** (`0 < doneCount < totalCount`), o mesmo spotlight/`KineticCtaButton` que hoje mostra "Próximo" passa a mostrar "Continuar — X de Y feitos", apontando para o próximo exercício pendente daquele dia. **Não** é um banner novo — é o mecanismo de spotlight já existente reconhecendo um estado adicional, para não duplicar o affordance de "o que fazer agora" nem estourar o teto de 2 banners informativos visíveis (§ Escopo e relevância da tela).
+
+**Granularidade de série em andamento:** quando o spotlight aponta para exercício com `0 < completedSetCount < sets.length`, o card destaca "Série X de Y" e o CTA pode usar `Continuar {exercício} — série X de Y` em vez da contagem de exercícios feitos — fallback para contagem de exercícios quando não há série parcial.
+
+**Scroll até o exercício ao retomar:** `openSpotlightDay` / `openDay` passam `highlightLineId` via `Get.arguments` (`ProgramDayRouteArgs`). A tela do dia faz scroll + flash breve (`colorKinetic`) no card alvo após o primeiro frame — prioridade: série em andamento, senão primeiro exercício não concluído.
+
+**Última carga no card (Free):** `ExerciseWorkCard` exibe "Última vez: X kg · dd/MM" quando há histórico anterior (leitura de `load_history`) — sem sugerir incremento automático (isso é Pro, icebox).
+
+### Modelo de status do treino — contrato canônico (academia, corrida, híbrido)
+
+> Decisão completa: `.claude/decisions/modelo-status-treino.md` · descoberta: `.claude/discoveries/modelo-status-treino.md`
+> **Emenda:** `.claude/decisions/badge-em-andamento-semana.md` — o `WeekSlotCard` (home, "Sua semana") também expõe o estado "Em andamento" distinto de "Próximo" (revisão da decisão original, que fundia os dois ali).
+
+3 estados visuais — **nunca** mais que isso no badge de status de um dia: **Não iniciado** (Pendente/Próximo) · **Em andamento** · **Concluído** (Feito/Concluído hoje). Não existe um 4º badge de "incompleto"/expirado — se um aviso de tempo parado for implementado no futuro, é banner contextual, nunca um badge novo (carga cognitiva).
+
+**"Em andamento" nos 3 pontos onde um dia é exibido (academia — progresso parcial `0 < doneCount < total`):** `DaySummaryCard` (sheet "Meu plano de academia"), `WeekSlotCard`/`HomeWeekAccordion` (home, "Sua semana") e o CTA cinético do topo (`KineticCtaButton`, como "Continuar treino — X de Y feitos") — os 3 usam o mesmo vocabulário/visual (ícone `play_arrow_rounded`, cor `colorKinetic`) para o mesmo dia, nunca textos divergentes. Implementação aditiva no `WeekSlotCard` (campo booleano ao lado do `WeekSlotStatus`, mesmo padrão de `StrengthPlanOverviewDay`) — não altera a ordenação/prioridade de spotlight, que continua regida só pelo enum existente.
+
+**Corrida (solo ou híbrida) não tem "Em andamento":** o gerador produz 1 sessão por dia, sem sub-blocos marcáveis, e a captura de esforço/sensação é sempre pós-treino — sem sinal legítimo de sessão parcial hoje. Corrida permanece com 2 estados efetivos (Pendente/Próximo → Feito) até existir estrutura de blocos internos marcáveis.
+
+**Duas réguas distintas — nunca uma no lugar da outra:**
+
+| Régua | Responde | Exige | Onde se aplica |
+|-------|----------|-------|-----------------|
+| **Feito neste dia** | "Esse dia específico está com o checklist 100% completo?" | Todas as linhas/sessões `isDone` (`lastTrainedAt` gravado) | Badge individual por dia — `DaySummaryCard`, `HomeWeekAccordion`/`WeekSlotCard`, qualquer card que declara um dia como concluído |
+| **Treinou essa semana** (aderência/streak/progresso agregado) | "Houve estímulo de treino nessa semana para esse slot?" | Qualquer atividade parcial (`session_log.activityAt`, mesmo sem `completedAt`) | Barra de progresso semanal, streak, % de aderência, contadores agregados ("X de Y treinos essa semana") |
+
+Um card que **declara** um dia como concluído (badge "Feito") usa sempre a primeira régua — nunca a segunda. Um contador **agregado** de progresso usa sempre a segunda. Misturar as duas no mesmo tipo de superfície é o bug: o mesmo dia não pode aparecer "Feito" num widget e "Pendente"/"Em andamento" em outro para a mesma pergunta.
+
+**"Próximo treino" (spotlight/CTA cinético, nos 3 contextos — academia solo, corrida solo, híbrido):** só avança para outro dia/sessão quando o atual está **concluído** pela primeira régua — nunca pula um dia em andamento para sugerir outro, mesmo que esse outro esteja mais adiantado na ordem cronológica da semana. Nunca é bloqueio de navegação — o usuário sempre pode abrir qualquer dia livremente; a regra vale só para qual dia o spotlight destaca.
+
+**Fora de escopo (backlog — não implementado, ver decisão para o porquê):** repetir o mesmo dia mais de uma vez na mesma semana ISO (hoje permitido, sem aviso); expirar automaticamente um treino em andamento após 24h sem atividade.
+
+### Reset de checks
+Reset avaliado no nível de PROGRAMA INTEIRO (todos os dias juntos). Limpa `isDone: false` em todos os dias quando QUALQUER uma das duas condições dispara:
+1. **Split completo, um dia passou.** Se cada dia em `program.days` está 100% concluído (todas as linhas `isDone == true` em cada dia) E não é o mesmo dia de calendário do maior `lastTrainedAt`, reseta todos os dias — nova rotação.
+2. **7 dias sem atividade.** Independentemente de estar 100% completo: se o máximo `lastTrainedAt` entre todos os dias foi há ≥7 dias de calendário, reseta todos os dias — rede de segurança.
+Caso contrário, retorna sem modificar (preserva checks de dias parcialmente treinados na mesma semana).
+
+### Histórico vs último treino
+Histórico = ciclos arquivados. Último treino por dia = timestamp no plano ativo.
+
+### Hierarquia de scroll — Modo Ação vs Modo Revisão
+
+A home divide o conteúdo rolável em dois blocos. O usuário frequente precisa do **treino de hoje sem rolar**; revisão de progresso fica abaixo.
+
+| Bloco | Conteúdo | Momento |
+|-------|----------|---------|
+| **Modo Ação** (topo, após saudação) | Spotlight + CTA primário; **faixa de progresso semanal compacta** (`WeeklyProgressStrip`) em todos os perfis (academia, corrida, híbrido); alertas operacionais (desequilíbrio, interferência, check-in corrida, tapering, prova vencida, fim de ciclo academia) | Abrir e executar o treino de hoje |
+| **Modo Revisão — semana** (híbrido) | Accordion **Sua semana** colapsado: lista unificada (`WeekSlotCard`) + *Reorganizar* + ações secundárias de corrida | Ver todos os slots — não compete com o CTA |
+| **Modo Revisão — evolução** (abaixo) | Accordion **Progresso da semana** (colapsado): calendário, aderência, streak; accordion **Como está seu plano** (distribuição muscular) | Consultar evolução |
+
+**Percurso do scroll híbrido (360×800):** saudação → spotlight + CTA + faixa de progresso visíveis sem scroll → (rolar) accordion **Sua semana** colapsado → progresso colapsado → distribuição muscular colapsável.
+
+Academia-only e corrida-only: spotlight + CTA antes de listas/banners; progresso no accordion **Progresso da semana** (`HomeReviewSection`). Corrida-only: spotlight e CTA **antes** de fase, banners e alertas contextuais.
+
+### Progresso semanal (home — todas as modalidades ativas)
+
+Accordion **Progresso da semana** no Modo Revisão evolução — **abaixo** do accordion **Sua semana** (híbrido) ou do bloco de ação (demais perfis), colapsado por default. Híbrido: faixa compacta de progresso também aparece no **Modo Ação**; detalhe (calendário, streak) permanece no accordion. **Uma barra por modalidade** (academia e/ou corrida) no accordion quando não híbrido integrado; híbrido usa barra combinada.
+
+| Modalidade | Feitos / total | Fonte |
+|------------|----------------|-------|
+| Academia | slots do plano com atividade na semana corrente | `session_log` (`modality` strength ou ausente) + `lastTrainedAt` na semana |
+| Corrida | dias do plano de corrida com atividade na semana | `session_log` com `modality: running` + `lastTrainedAt` na semana |
+
+Semana = segunda a domingo (data local). Treino parcial conta. Corridas extras (`dayLabel: "+"`) entram no contador de feitos como **+N extra** na label, sem aumentar o total prescrito.
+
+**Perfil híbrido — home integrada:** academia e corrida são **um plano só** na UI. Modo Ação: **spotlight + CTA cinético no topo** (sem rolar em 360×800); em seguida chip **Semana X de N** (gym), banner de fim de ciclo academia quando `isCycleComplete`, alertas operacionais (interferência Free, check-in/tapering/prova vencida corrida via `RunningHomeBanners`), diagnósticos Pro (`HybridDiagnosticBanner` — semana de prova, interferência com audit trail no CTA); faixa de progresso combinada abaixo dos alertas. Modo Revisão: accordion **Sua semana** colapsado com lista unificada — mesmo card (`WeekSlotCard`) para cada slot: tag de modalidade (Academia / Corrida), status no canto (feito / próximo / pendente), ordinal ou dia da semana discreto; toque abre o dia correto. Ações secundárias de corrida (plano completo, extra) **dentro** do accordion, não no topo. Alertas de desequilíbrio no scroll abaixo; distribuição muscular colapsável no Modo Revisão (`HomeReviewSection`).
+
+**Corrida-only — aderência e streak:** accordion **Progresso da semana** exibe aderência % e streak do plano de corrida (mesma regra gym: `SessionLogService.cycleAdherence` + `WeeklyStreakService`). Chip de streak na home quando não há spotlight ativo.
+
+### Distribuição muscular
+Seção colapsável no **Modo Revisão** (abaixo do accordion de progresso). O gráfico deve refletir o estado atual do plano **em tempo real** — se o usuário editar exercícios (trocar, remover, ajustar séries/reps/carga) no dia de treino, ao voltar para a home o gráfico global recalcula automaticamente. Mesmo comportamento que já existe no dia de treino, estendido à home. Free para todos.
+
+### Alerta de desequilíbrio (Fase 1 — funil)
+Compara distribuição real com **expectativa do split** (`dayFocuses` + `sessionVolume` no plano). Só alerta grupo que o split prevê e que ficou abaixo do esperado — evita falso positivo (ex. poucas pernas porque a semana é só superior). Copy sem “ideal X%”. Card na home para todos os usuários.
+
+## Retenção — Fase 1
+
+### Motivação e progresso (aquisição — Free)
+
+| Feature | Onde | Regra |
+|---------|------|-------|
+| **Próximo marco** | Chip no Modo Ação (acima do CTA) | Mensagem derivada de progresso semanal ou streak — sem paywall |
+| **Comparativo pós-treino** | Sheet de conclusão academia | Melhor evolução de carga vs última sessão do mesmo exercício |
+| **PR pessoal** | Snackbar ao marcar exercício | Novo recorde ou primeira gravação — dados de `load_history` |
+| **Marcos** | Home (card) + `/progress` | 1º treino, 10 treinos, 4 semanas streak, semana perfeita, 1º ciclo arquivado |
+| **Onboarding de hábito** | Sheet após wizard (one-shot) | Dias preferidos + opt-in push — grava `preferred_training_weekdays` |
+| **Hub Meu progresso** | Rota `/progress` + drawer | Calendário do mês corrente no topo; streak + aderência; heatmap "Últimos meses"; marcos; link para histórico |
+| **Sparkline Free** | Detalhe do exercício | Últimas sessões de carga + CTA "Ver evolução completa" (Pro → gráfico; Free → paywall `load_chart`) |
+| **Widget Android** | Home do SO | Headline + subtítulo + streak — atualizado via canal nativo |
+
+**Analytics de cohort:** `activation_step` (wizard → 1º treino) e `retention_d7` (retorno no 7º dia).
+
+### Calendário visual (widget na home, não rota nova)
+
+Dentro do accordion **Progresso da semana** (Modo Revisão), abaixo da faixa semanal. Widget mostrando dias do mês corrente com indicador visual por dia. **Toque em um dia** abre bottom sheet com o que foi feito e o que ainda falta na semana.
+
+| Cor | Significado |
+|-----|-------------|
+| Verde | Treinou (academia ou corrida — `session_log.activityAt` ou `lastTrainedAt` naquele dia) |
+| Cinza | Descanso (dia sem treino previsto na meta semanal combinada) |
+| Vermelho | Perdeu (semana passada: dia sem atividade quando a meta semanal ainda não estava cumprida) |
+
+**Dados:** unir entradas de academia e corrida no `session_log`; meta semanal = soma dos dias prescritos de cada plano ativo. Corrida grava `modality: running` no log ao marcar sessão.
+
+**Sheet ao tocar no dia:**
+- **Feito neste dia** — lista de treinos realizados (Dia A · academia, Dia 2 · corrida, Corrida extra, etc.)
+- **Ainda nesta semana** — slots do plano sem atividade na semana corrente (academia e corrida separados)
+- CTA **Registrar corrida extra** quando há plano de corrida — log com `dayLabel: "+"` na data escolhida; não substitui slots do plano
+- **Tipo de atividade (dia do plano):** seletor **Treino** vs **Prova** na sheet de conclusão — treino usa tipos do plano (Leve, Longão, Ritmo…); prova usa distância-alvo do objetivo (5 km, 10 km…) ou nome customizado; sticker e calendário exibem "Prova · …" sem zona Z
+- **`ExtraRunLogSheet`:** seletor **Treino** / **Prova** + nome opcional + km/tempo/ritmo (2 campos → terceiro calculado); `runActivityKind` via `SessionLogService.logExtraRun`; calendário/overview: prova → título `"Prova"` ou `"Prova · {nome}"`; **sem** sheet de conclusão/share
+
+**Cards de corrida:** km e tipo de sessão em destaque; descrição curta; status claro (feito / próximo / pendente). Dia de corrida usa card dedicado com `coachNote` e blocos de `structure` quando existirem.
+
+### Aderência % (widget na home)
+
+Exibir taxa de aderência do ciclo atual: `treinos realizados / treinos planejados * 100`. Treino = dia com `activityAt` (parcial conta). Planejados = semanas desde criação do plano x `daysPerWeek`.
+
+### Streak flexível semanal
+
+"X semanas seguidas cumprindo sua meta" — meta = realizar ao menos `daysPerWeek` treinos na semana (segunda a domingo). Perder 1 dia não quebra se ainda atingiu a meta semanal.
+
+Não usar streak diário ("14 dias seguidos") — gera abandono quando quebra (efeito "what-the-hell").
+
+### Modal semana completa (Tier 1 — MVP)
+
+Celebração automática ao fechar **100%** dos slots prescritos da semana ISO corrente (segunda–domingo). Gateway natural para share — retenção D7 + viral. Plano: `.claude/plans/done/compartilhamento-tier1.md` § Fase 5.
+
+**Gatilho:** transição no `day_completed` quando `WeekCompletionUtils.isPrescribedWeekComplete` = true (via `WeeklyCalendarService` / `HybridWeekOverviewService`). Híbrido: todos os slots academia + corrida da semana. Corrida extra **não** entra na conta. Flag ISO (`weekly_completion_modal_shown_week`) sozinha **não** abre o modal. Subtítulo contextual por modalidade (`X de Y treinos/corridas cumpridos`); Pro exibe streak ativo (`activeWeeklyStreakLabel` — academia prevalece no híbrido).
+
+**Timing:** exibir **após** dismiss da sheet de conclusão do dia (AHA #2) — nunca empilhar modais.
+
+**Frequência:** uma vez por semana ISO; persistir `weekly_completion_modal_shown_week` = `YYYY-Www`.
+
+**Free vs Pro** — celebração e share **não** são paywall; treino nunca bloqueado:
+
+| Elemento | Free | Pro |
+|----------|------|-----|
+| Modal automático | Sim | Sim |
+| Headline | "Semana fechada!" | idem |
+| Subtítulo | Progresso concreto (ex.: "3 de 3 treinos esta semana") | idem |
+| Badge "SEMANA COMPLETA" | Não | Sim — token `success` |
+| Streak semanal (≥ 2 semanas) | Não | Sim — `weeklyStreakLabel` |
+| CTA primário | "Compartilha com quem te inspirou?" → share sheet | idem |
+| CTA secundário | "Continuar" | idem |
+| Paywall / `ProPlanSheet` | **Proibido** neste modal | **Proibido** |
+
+**Analytics:** `weekly_completion_modal_shown` com `modality` + `is_pro`.
+
+**Edge:** semana já completa ao reabrir app (sem transição `day_completed`) → modal **não** dispara retroativamente.
+
+## Viralidade — Fase 3
+
+### Card compartilhável pós-treino (academia e corrida)
+
+Ao concluir o dia, a sheet (AHA #2) exibe **seletor de formato** (Sticker · Card · Foto), **prévia** do formato selecionado e CTAs **Compartilhar** / **Salvar na galeria** lado a lado, seguidos de **Continuar**.
+
+#### Formatos disponíveis
+
+| Formato | Padrão? | Fundo | Dimensões de export |
+|---------|---------|-------|---------------------|
+| **Sticker** | ✅ | Transparente (alpha PNG) | academia 360×360 · corrida 360×320 × pixelRatio 4 |
+| **Card** | – | Sólido (brand) | 360 × 360 px × pixelRatio 3 = 1080 × 1080 |
+| **Foto** | – | Foto da galeria + overlay | idem card |
+
+#### Sticker overlay (fundo transparente)
+- PNG com **alpha** — usuário cola manualmente em Stories/Reels/WhatsApp sobre sua foto.
+- **Padrão Strava:** tipo de atividade → métrica hero → stats secundários → marca mínima.
+- **Paleta 100% branca (padrão Strava):** sem roxo, badge PRO, cinza ou gradiente — só branco + contorno fino.
+- **Watermark (`sticker`):** só `brand_symbol` 10 dp + `TREINO BASE` 9 — sem tagline.
+- **Academia (`GymStickerCard`):** label `DIA A · SUPERIOR` + top 3 % muscular (ex.: `32% PEITORAL`) + até 3 exercícios principais + `e mais N exercícios`. Sem kg, séries, data ou lista longa.
+- **Corrida (`RunningStickerCard`):**
+  - Label: `LONGÃO · Z2` (treino) ou `PROVA · 10 KM` (prova, sem zona).
+  - Hero: distância km (`displayXL`).
+  - Secundários: RITMO | TEMPO.
+  - Sem semana, badge emocional, data/hora ou % muscular.
+
+#### Preview = export
+- Miniatura 160 dp de altura (mesma widget, `FittedBox` escalado).
+- Sticker: fundo checker xadrez (duas tonalidades escuras) para indicar transparência.
+- Card/Foto: preview em escala com fundo sólido.
+
+#### Seletor de tipo de atividade (corrida)
+- Chips **Treino** / **Prova** no topo da sheet — altera badge, headline e `runActivityKind` gravado no `SessionLogEntry`.
+- `runActivityKind` é persistido via `SessionLogService.syncRunningDay`.
+
+#### UX
+- Formato padrão: Sticker.
+- CTAs em Row: **Compartilhar** (ícone share) · **Salvar** (ícone download) — ambos desabilitados durante operação.
+- **Compartilhar** abre share sheet nativa; **Salvar** grava na galeria (`gal`, album "Seu App").
+- Foto: seletor de imagem abre ao clicar em Compartilhar ou Salvar quando formato Foto está ativo.
+- **Corrida extra** (`ExtraRunLogSheet`): chips **Treino** / **Prova** (default Treino) + nome opcional + km/tempo/ritmo com auto-calc — **sem** sheet de conclusão/share/sRPE (icebox: share só ao concluir dia do plano). Widget compartilhado `RunningActivityKindSelector` com a sheet de conclusão.
+- Snackbar "Salvo na galeria" após save bem-sucedido.
+- Botão **Continuar** abaixo das CTAs — chama `onFeedbackSubmit` + fecha.
+
+#### Replay pós-dismiss (share Tier 1)
+
+Quem fecha AHA #2 com **Continuar** sem compartilhar pode reabrir a mesma sheet **no mesmo dia ISO** da conclusão (decisão D1 — opção A).
+
+**Janela (`canReplayShare`):** dia 100% concluído **e** `isCompletedToday` — `lastTrainedAt` no calendário local de hoje. Academia: `WorkoutSuggestionService.isCompletedToday`; corrida: `DateTimeUtils.isSameCalendarDay(day.lastTrainedAt, now)`.
+
+**Entry points:**
+- **Home** — OutlinedButton **Compartilhar** secundário quando headline de conclusão de hoje visível (academia, corrida ou híbrido)
+- **Tela do dia** — item **Compartilhar** no menu ⋮ da AppBar quando `canReplayShare`
+
+**Modo replay (`isReplay: true`):**
+- Mesma UX (Sticker · Card · Foto · Compartilhar · Salvar · Continuar)
+- **Não** atualizar `lastTrainedAt`, **não** emitir `day_completed` / `running_day_completed`, **não** abrir modal semana fechada
+- Analytics: `share_sheet_reopened` (`modality`: gym | running, `source`: home | day_page)
+
+**Fora da janela:** após meia-noite local → CTAs ausentes; share só na próxima conclusão automática. Slot `doneThisWeek` na accordion **não** reativa replay.
+
+**Implementação:** `WorkoutDayCompletionLauncher` (core) — plano `.claude/plans/done/compartilhar-pos-conclusao.md`.
+
+#### Pós-MVP (icebox)
+- Card completo 1080×1080 com fundo sólido tipo Strava feed.
+
+### Card antes/depois ao arquivar
+
+No sheet de resumo ao arquivar academia (`CycleSummarySheet` Free / `CycleRevisionSheet` Pro, AHA #3), botão **"Compartilhar resultado"** no rodapé:
+
+- Imagem com distribuição inicial (snapshot da criação) vs distribuição final (snapshot do arquivamento)
+- Layout lado a lado ou empilhado, pronto para Instagram Stories (9:16) ou feed (1:1)
+- Marca d'água "Seu App"
+
+### Dependências técnicas
+
+- `share_plus` — compartilhamento nativo
+- `path_provider` — arquivo temporário PNG
+- `gal` — salvar na galeria (album "Seu App"); requer permissão `NSPhotoLibraryAddUsageDescription` (iOS) e `WRITE_EXTERNAL_STORAGE` maxSdk 28 (Android)
+- `image_picker` — seleção de foto (formato Foto)
+- `RepaintBoundary` + `pixelRatio: 3.0` — captura de widget para PNG
+
+## Tela Sobre — `/about`
+
+Entrada pelo drawer (**Ações → Sobre**). Scroll curto — identidade, propósito, ação opcional, compliance.
+
+| Bloco | Conteúdo |
+|-------|----------|
+| Identidade | Nome comercial + **Versão** (`AppConstants.appVersion`) — suporte e Play Store |
+| Valor | Uma linha: *Academia, corrida ou os dois — com mapa muscular em tempo real.* (`bodyMD`, `textSecondary`) |
+| CTA externo | **Conhecer o Seu App** — `TextButton` + `open_in_new`; só se `AppConstants.marketingSiteUrl` não vazio; abre browser externo (`LaunchMode.externalApplication`) |
+| Legal | **Termos de uso** e **Política de privacidade** — dois `TextButton` + `open_in_new` separados; só se `AppConstants.termsUrl`/`AppConstants.privacyUrl` não vazios; abrem `launchExternalUrl` |
+| Atribuição | Card com `AppConstants.exerciseImageAttribution` — compliance catálogo IA |
+
+Sem WebView, sem termos inline (fluxo legal separado), sem logo extra. Plano: `.claude/plans/done/tela-sobre-app.md`.
+
+## Catálogo JSON
+
+Campos essenciais: `id`, `name`, `cardHint`, `description`, `primaryMuscleGroup`, `imageAssetPath`, `restrictedFor`. Fatores de participação muscular (`participationFactors`) vivem em `assets/data/exercise_participation_factors.json`; índice lean do gerador em `assets/data/exercise_prescription_index.json` — ambos separados do catálogo UI. **Catálogo UI carrega sob demanda** (tela de biblioteca/detalhe); home, wizard e prévia carregam só o índice lean + fatores. Copy: ver `ui/copy_voice.mdc`.
+
+## Imagens de exercícios
+
+- PNG estático bundled — sem hotlink em runtime
+- Fallback: PNG do exercício → placeholder (ícone) se asset ausente ou erro de carga — ver `ImageResolver`
+- Thumb legível no card escuro: fundo claro **só na UI**, não reprocessar assets
+- Tap na imagem: modal com zoom; execução ambígua → busca YouTube externa (nome PT), sem vídeo embutido
+- Crédito de ilustrações na tela Sobre — `assets/images/IMAGENS.md`
+
+## Edge cases obrigatórios
+
+| Situação | Comportamento |
+|----------|---------------|
+| Catálogo sem exercício para grupo | Usar disponíveis; avisar se dia vazio |
+| Volume zero | Contribui 0% — sem erro |
+| Programa sem linhas | Distribuição vazia — sem crash |
+| Reabrir dia já concluído | Conclusão automática (AHA #2) não repete; replay share via CTA enquanto `isCompletedToday` |
+| JSON malformado ou catálogo vazio | Log + tela de erro (home, catálogo, prévia wizard); retry onde fizer sentido |
+| Dia vazio após lesões | Aviso na prévia por dia; CTA guardar desativado se nenhum dia tiver exercício |
+| Storage vazio | Redirecionar para wizard |
+| Histórico com exercício removido | Exibir snapshot gravado |
+| Feature Pro | Bottom sheet de upgrade contextual |
+
+## Prévia de corrida — `/running/wizard/preview`
+
+Exibida após o wizard de corrida antes de confirmar o plano. Deve comunicar:
+
+1. **Objetivo ≠ distância de treino** — deixar claro que a meta (ex.: 5 km) é o resultado ao final do plano, não a distância de cada sessão. Copy: "Seu objetivo é completar [X]. Você não corre [X] desde o primeiro treino — vamos construir semana a semana. Na semana [N], você estará pronto."
+
+2. **Resumo do plano** — mostrar em um bloco compacto: objetivo, perfil do corredor em linguagem humana, duração total (semanas) ou data da prova, estrutura da semana tipo (chips por tipo de sessão), km/semana inicial e km/semana no pico.
+
+3. **Explicação dos tipos de sessão** — accordion educativo com os 5 tipos: Rodagem leve, Treino de ritmo, Longão, Intervalos e Recuperação ativa. Objetivo: o usuário entende o propósito de cada dia antes de começar.
+
+4. **Card Galloway** — exibido apenas para `beginner_sedentary`. Remove o estigma de alternar corrida/caminhada: o método não é fraqueza, é estratégia de progressão segura.
+
+5. **Duração / data do objetivo** —
+   - Com `targetDate`: "[N] semanas até sua prova · termina em [dia]/[mês-abrev]"
+   - Sem data: "~[N] semanas para completar [X]"
+   - `generalFitness`: "Plano contínuo — sem data de prova"
+
+**Free vs Pro:** a prévia é Free. Nenhum conteúdo bloqueado.
+
+---
+
+## Tela do dia de corrida — `/running/day/:label`
+
+### AppBar
+- **Título:** nome do tipo de sessão (ex.: "Rodagem leve", "Intervalado", "Longão") — vem do `session.title` da primeira sessão do dia.
+- **Subtítulo:** combina contexto da sessão com progresso no plano — "Hoje: 9 km · Semana 3 de 8". Se a sessão for por tempo: "Hoje: ~30 min · Semana 3 de 8". Gerado via `RunningPlanCopyPt.sessionTodayLabel` + `weekLabel`.
+
+### Card de sessão
+- Chip de tipo com cor por intensidade: **LEVE** (índigo) / **RITMO** (warning) / **LONGÃO** (success) / **TIRO** (error/laranja) / **RECUPERAÇÃO** (neutro). TIRO = quality com `intervalSet`; RITMO = quality sem `intervalSet`.
+- Zona principal em português (derivada do array `zones`): Z1–Z2 → Aeróbico · Z3+ → Ritmo · Z4+ → Limiar · Z5 → Intenso.
+- Chip de zona **sempre visível** quando a sessão tem `zones` ou blocos com zona em `structure` — ver § Zonas de esforço.
+- Ícone de info no chip → guia "O que é zona de esforço?" (accordion/sheet).
+- **Meta da sessão como hero visual** — distância em km ou duração em min exibidos em `numericXL`, com sufixo em `headingSM`; aparecem abaixo do título e acima da timeline. Sessão por distância: km em destaque + duração menor ao lado. Sessão por tempo: duração em destaque.
+- Coach note colapsável (expandir/recolher inline).
+- Botão de marcar feito (checkbox).
+
+### Linha do tempo visual
+- Para sessions com `structure.intervalSet`: timeline horizontal mostrando aquecimento → bloco de intervalos → desaquecimento.
+- Para Galloway (`title == 'Corrida e caminhada'`): timeline horizontal com segmentos alternados corrida/caminhada.
+- Segmentos coloridos por intensidade; labels abaixo.
+
+### Feedback pós-corrida (ao concluir todas as sessões do dia)
+Dispara a sheet de conclusão (AHA #2 corrida) com:
+1. **O que você fez** — **Treino do plano** (padrão: tipo da sessão + zona) ou **Prova** (distância-alvo do objetivo ou nome customizado; sem zona na linha do sticker).
+2. **Resultado real** (opcional) — km / tempo / ritmo: preencher 2 de 3, o terceiro é calculado.
+3. **Esforço** — escala 1–10 em linguagem humana (sem jargão "sRPE"). Grupos: 1–3 Fácil · 4–6 Moderado · 7–8 Puxado · 9–10 Máximo.
+4. **Dor** — pergunta opcional "Sentiu desconforto?": chips Joelho / Canela / Tendão de Aquiles / Nenhum.
+5. **CTAs:** prévia do sticker transparente + compartilhar/salvar + ver próximo treino + continuar.
+
+**Persistência:** `sessionRPE` e `postRunPainSites[]` gravados em `session_log` ao submeter. Free grava; Pro usa no diagnóstico.
+
+**Free vs Pro:** tudo Free. Nenhum conteúdo bloqueado na tela do dia.
+
+---
+
+## Zonas de esforço (corrida)
+
+Referência de prescrição → `domain/running.mdc` §3. **Free sempre vê a zona**; Pro adiciona ritmo min/km (paywall #1).
+
+### Onde exibir
+
+| Superfície | Zona visível | Guia educativo |
+|------------|--------------|----------------|
+| Dia de corrida | Chip no card + zona por bloco na timeline | Ícone no chip → sheet/accordion |
+| Prévia wizard / plano | Chips por sessão na semana tipo | Link "Entenda as zonas" |
+| Home (cards corrida) | Chip na sessão do dia | — |
+| "Ver meu plano" | Por sessão na semana | Accordion no plano |
+
+### Label na UI
+
+- Duplo legível: código + nome PT-BR (ex.: "Z2 · Aeróbico") ou chip com subtítulo de sensação — nunca expor só `Z2` sem tradução.
+- **Proibido na UI:** % FCmáx, "VO₂máx", "polarized" — usar sensação e propósito (`copy_voice.mdc`).
+
+### Guia "O que é zona de esforço?"
+
+Accordion ou bottom sheet reutilizável (prévia, dia, plano):
+
+1. Z1 Regenerativo — conversa sem esforço; recuperação
+2. Z2 Aeróbico — conversa tranquila; base do plano (~80% do volume)
+3. Z3 Ritmo — frases curtas; eficiência
+4. Z4 Limiar — respiração rápida; treinos de ritmo de prova
+5. Z5 Intenso — esforço máximo; tiros curtos
+
+Uma linha sobre misturar leve + qualidade (80/20) sem nomenclatura acadêmica.
+
+**Distinto** do accordion de tipos de sessão (Rodagem leve, Longão, Intervalos…) — zonas = intensidade; tipos = papel do dia.
+
+### Free vs Pro
+
+| | Free | Pro |
+|---|------|-----|
+| Zona (Z1–Z5 + label PT) | Sim, sempre | Sim |
+| Ritmo min/km por zona/bloco | Não (borrado + paywall) | Sim (`raceGoal`) |
+
+---
+
+## Princípios de fluxo multi-step (wizard)
+
+Toda sequência de telas que coleta dados e gera um resultado (wizard, onboarding encadeado, fluxo híbrido) deve seguir estes princípios obrigatoriamente.
+
+### 1. Navegação preserva a pilha — sempre `Get.toNamed`
+
+Dentro de um wizard, **todos** os avanços usam `Get.toNamed`. O botão Voltar (nativo ou AppBar) retorna ao passo anterior automaticamente pela pilha.
+
+- `Get.offAllNamed` e `Get.offNamed` são proibidos dentro do fluxo — usar **somente** após a persistência final para redirecionar à home.
+- Nunca depender de `automaticallyImplyLeading` quando `offNamed`/`offAllNamed` esvaziou a pilha — preferir `Get.toNamed` que deixa a pilha intacta.
+
+### 2. Dados persistidos apenas na confirmação final
+
+Nenhum dado (plano, perfil, preferência) é salvo em storage enquanto o usuário ainda navega dentro do wizard. O save acontece **uma única vez**, no toque do CTA de confirmação na última tela do fluxo.
+
+- Se o fluxo tiver múltiplos artefatos (ex. híbrido: academia + corrida), todos são salvos juntos na etapa final — nunca parcialmente em etapas intermediárias.
+- Retroceder a qualquer ponto não deixa rastro persistido.
+
+### 3. Dados trafegam como argumento tipado
+
+Entre steps de um wizard, dados não confirmados transitam via `Get.toNamed(route, arguments: TypedModel(...))` — nunca via serviço global, `GetStorage` provisório, ou variável estática.
+
+- Criar um modelo específico quando dois artefatos precisam chegar juntos à etapa final (ex. `HybridPreviewInput(gymProgram, runningInputs)`).
+- O controller receptor lê `Get.arguments` no `onInit` e faz `Get.back()` se o argumento for inválido.
+
+### 4. CTA contextual reflete o próximo passo
+
+O label do botão de avanço comunica o resultado ou o avanço imediato — contexto espacial fica na AppBar ou barra de progresso (`copy_voice.mdc` § CTAs de avanço):
+
+| Situação | Label |
+|----------|-------|
+| Etapa intermediária (wizard encadeado ou step interno) | **"Continuar"** ou **"Avançar"** — padrão |
+| Etapa intermediária com sufixo opcional | `"Próximo · [Módulo]"` só se [Módulo] for **uma palavra curta** e couber em 360dp (ex.: "Próximo · Corrida") |
+| Confirmação final de plano único | "Guardar e começar" / "Confirmar plano" |
+| Confirmação final de múltiplos planos | "Confirmar tudo" |
+
+### 5. AppBar contextual com posição no fluxo
+
+Em wizard encadeado com N etapas distintas, o título do AppBar indica em qual etapa o usuário está:
+
+```
+"Academia · 1 de 2"   →   "Corrida · 2 de 2"
+```
+
+Prévia de etapa intermediária: título reflete a etapa ("Corrida · 2 de 2"), não "Prévia" genérico. Wizard standalone: título descritivo do conteúdo ("Prévia do seu plano") é aceitável.
+
+**Prévia final híbrida:** após o diagnóstico (`Revise sua semana`), a tela de confirmação dos dois planos usa título descritivo do conteúdo — **`"Confirme sua semana"`** — não contador de wizard. O fluxo tem 4 telas (academia · 1 de 2 → corrida · 2 de 2 → diagnóstico → prévia final); repetir "Corrida · 2 de 2" na confirmação confunde o usuário que já saiu do questionário de corrida. Implementado em `running_wizard_preview_page.dart` (modo `isHybridMode`).
+
+### 6. Sem botões de escape mid-flow
+
+Não adicionar botão X, "Cancelar" ou qualquer CTA que salte para a home dentro do wizard. A saída é sempre o gesto/botão Voltar nativo que percorre a pilha.
+
+- O usuário que sair pelo Voltar antes da confirmação final simplesmente não persiste nada — sem estados parciais na home.
+- AlertDialog de confirmação de saída é permitido apenas em wizards muito longos (> 5 steps) onde a perda de progresso é significativa.
+
+### 7. Barra de progresso de rolagem no wizard
+
+Wizards de formulário único (todas as perguntas em uma tela só, como academia e corrida) exibem um `LinearProgressIndicator` discreto (2dp) no slot `AppBar.bottom`. O valor avança de 0 → 1 conforme o usuário rola a lista.
+
+- **Onde**: `AppBar(bottom: PreferredSize(size: 2dp, child: Obx(...)))` — nunca hardcoded no body.
+- **Como**: `ScrollController` criado e gerenciado pelo `GetxController` do wizard (padrão do projeto — mesma lifecycle de `FocusNode`/`TextEditingController`). O controller calcula `scrollProgress` em listener e expõe como `RxDouble`.
+- **Cor**: fill = `AppColors.brandPrimary`; fundo = `AppColors.surfaceOverlay`.
+- **Transição de entrada**: `Transition.rightToLeft` (250 ms) — configurado em `app_pages.dart`; manter consistente.
+
+---
+
+## Voltar, pilha e leading explícito
+
+**Princípio:** toda tela de fluxo (wizard, prévia, dia) tem **Voltar** ou caminho explícito de saída — nunca depender só de `automaticallyImplyLeading` quando `offNamed`/`offAllNamed` esvaziou a pilha.
+
+### Regra de leading nos wizards
+
+Wizards (`/wizard`, `/running/wizard`) usam leading condicional no AppBar:
+
+```dart
+leading: Navigator.of(context).canPop()
+    ? null   // auto ← quando pilha está intacta
+    : IconButton(
+        icon: const Icon(Icons.close),
+        tooltip: 'Fechar',
+        onPressed: controller.closeWizard,  // lógica no controller, não na view
+      ),
+```
+
+- **`canPop == true`** (ex.: `modalityOnboarding → Get.toNamed(wizard)`): seta ← automática, retorna ao passo anterior.
+- **`canPop == false`** (ex.: `archiveService → Get.offAllNamed(wizard)`, `_boot → Get.offNamed(wizard)`): botão ✕ delega a `controller.closeWizard()`.
+
+### Lógica de `closeWizard()` (obrigatória em todo wizard)
+
+| Condição | Destino |
+|----------|---------|
+| `hasAnyActivePlan == true` | `Get.offAllNamed(home)` — home exibe o plano restante |
+| `hasAnyActivePlan == false` | `Get.offAllNamed(modalityOnboarding)` + snackbar "Nenhum plano ativo / Escolha uma modalidade para criar seu treino." |
+
+**Motivo:** ir para `home` quando não há plano ativo causa loop — home detecta plano faltando via `routeForMissingActivePlan` e redireciona o usuário de volta ao wizard imediatamente.
+
+### Mapa de Voltar por rota
+
+| Rota | `canPop == true` → | `canPop == false` → |
+|------|--------------------|---------------------|
+| `/wizard` | passo anterior na pilha | ✕ → `closeWizard()` |
+| `/wizard/preview` | `/wizard` (sempre `toNamed`) | — |
+| `/running/wizard` | passo anterior na pilha | ✕ → `closeWizard()` |
+| `/running/wizard/preview` | `/running/wizard` (sempre `toNamed`) | — |
+| `/workout/strength/day/:label` | home (sempre `toNamed`) | — |
+| `/workout/running/day/:label` | home (sempre `toNamed`) | — |
+
+**Previews** nunca chegam com pilha vazia: os controllers usam `Get.toNamed` para empurrar a prévia em cima do wizard. `canPop == true` garantido → `automaticallyImplyLeading` suficiente.
+
+**Responsividade:** validar 360–430dp + `textScaler` **1.0** e **≥ 2.0** em wizard/prévia corrida, dia corrida, home — zero texto cortado (`validation/ui_ux.mdc` § Responsividade; Pilar 5 § Carga cognitiva).
+
+---
+
+## Navegação
+
+Rotas nomeadas; passar só ID; picker devolve resultado via back — sem eventos globais.
+
+## Drawer lateral (menu principal)
+
+Padrão de navegação secundária via `Drawer` com ícone hambúrguer (≡) no `AppBar`. Substitui `PopupMenuButton` de 3 pontos — mais reconhecível para leigos, comporta ícone + label explícito por ação.
+
+**Estrutura do Drawer:**
+- **Header**: nome do app + tagline "seu treino, do jeito certo" + botão Fechar
+- **Seção "Meu treino"** (visível quando há ao menos um plano ativo): itens "Academia" e "Corrida" abrem o respectivo sheet de visão geral do plano (`StrengthPlanOverviewSheet` / `RunningPlanOverviewSheet`) — dias da semana, progresso e atalho "Ir para treino de hoje"; complementa os cards da home, não os substitui
+- **Seção "Ações"**: "Gerenciar plano" (sheet) · "Histórico de programas" · "Sobre"
+- **Sheet "Gerenciar plano"** (substitui 4 CTAs separados de refazer/focar): "Refazer plano de academia" · "Refazer plano de corrida" · (perfil híbrido com ambos ativos) "Refazer plano completo" · (perfil híbrido) "Focar só em academia" · "Focar só em corrida" — subtítulos e dialogs iguais aos atuais por ação
+- **Seção "Conta"**: placeholder reservado (sem auth no MVP — ver Fase 2)
+
+**Regras de item:**
+- Itens Criar/Refazer nunca somem do Drawer — quando plano existe, o label muda de "Criar" para "Refazer" com subtítulo discreto "vai arquivar o atual"; ausência de item é interpretada como erro pelo leigo
+- Ao tocar "Refazer plano": AlertDialog com "Criar um novo plano vai arquivar o atual. Você pode acessá-lo no Histórico depois." + botões "Continuar" (primário) e "Agora não" (secundário)
+- **Refazer plano de corrida:** arquiva snapshot em `history`, limpa plano ativo, **`session_log`** e grade híbrida persistida — novo wizard começa com progresso zerado (calendário, streak e aderência não herdam treinos do plano anterior)
+- **Refazer plano de academia:** arquiva com distribuição muscular; limpa plano ativo e grade híbrida; redireciona ao resumo (AHA #3) ou wizard conforme fluxo escolhido
+- **"Focar só em academia"** (subtítulo: "arquiva o plano de corrida") — visível apenas quando `isHybridProfile && hasRunningPlan`. Dialog: título "Parar de treinar corrida?" · corpo "Seu plano de corrida vai para o Histórico. Você pode criar um novo quando quiser." · botões "Agora não" e "Parar corrida" (primário)
+- **"Focar só em corrida"** (subtítulo: "arquiva o plano de academia") — visível apenas quando `isHybridProfile && hasStrengthPlan`. Dialog análogo com "Parar academia"
+- Após confirmar remoção de modalidade: arquiva o plano da modalidade, remove da `enabledModalities` do `UserProfile`, home recarrega sem a seção — sem navegar para summary
+- **"Refazer plano completo"** (híbrido, ambos ativos): dialog único — "Criar novos planos vai arquivar academia e corrida. Você pode acessá-los no Histórico depois." + "Continuar" / "Agora não". Após confirmar: arquiva corrida + academia sem resumos intermediários → `Get.offAllNamed(modalityOnboarding)` — chip pré-selecionado conforme `enabledModalities` atual; usuário pode mudar foco (academia / corrida / os dois) antes dos wizards. Não repetir disclaimer/legal. Fluxo encadeado híbrido só se escolher "Os dois"
+- `drawerEnableOpenDragGesture: true`; fechar ao tocar fora ou via botão Fechar no header
+- `Semantics(label: "Abrir menu")` no ícone hambúrguer; todos os `ListTile` com `semanticsLabel`
+
+## Tela do dia de academia — `/workout/strength/day/:label`
+
+### AppBar
+- **Título:** foco do dia com letra: "Dia A · Superior" — nunca só "Dia A"
+- Se o foco não estiver disponível (dia sem foco definido): "Dia A" como fallback
+- **Ações:** um único menu ⋮ (`PopupMenuButton`, tooltip "Opções do dia") — itens condicionais conforme tabela em § Hierarquia do card durante execução; separador visual entre ações de execução (marcar/desmarcar) e secundárias (compartilhar / FAQ) quando ambos os grupos estiverem presentes
+
+### Distribuição muscular
+- O `MuscleDistributionChart` no topo do dia **deve ser colapsável** — é informação de suporte, não a ação principal. A ação principal é marcar exercícios.
+- Padrão: colapsado por padrão para não empurrar a lista de exercícios para baixo da dobra
+
+### Empty state do dia
+- Se `day == null`: ícone + título + subtítulo + CTA ("Voltar ao plano") — não uma linha de texto isolada
+
+### Teaser de progressão de carga — ponto de entrada secundário (Pro)
+
+Após o usuário alterar o valor de peso de qualquer exercício, um teaser inline compacto aparece **após 2 segundos de debounce**, evitando oscilações durante ajustes rápidos.
+
+| Regra | Comportamento |
+|-------|---------------|
+| **Debounce** | 2 000 ms — `debounce(weightChangedRx, ()=>…, time: Duration(seconds: 2))` no `onInit` do `ProgramDayController`; nunca no `build` |
+| **Auto-abertura do paywall** | **Proibido** — `ProPlanSheet` nunca abre automaticamente; apenas no toque intencional do CTA |
+| **Free → toque** | `ProPlanSheet.show(trigger: ProPaywallTrigger.loadChart)` |
+| **Pro → toque** | `Get.toNamed(AppRoutes.loadChart(exerciseId))` |
+| **Copy** | Trigger `load_chart` — ver `copy_voice.mdc §CTAs por gatilho` |
+| **Posição** | Inline, abaixo do card do exercício modificado — não flutuante, não modal |
+| **Dismiss** | X ou swipe; não reaparece na mesma sessão de treino |
+
+---
+
+## Prévia de academia — `/wizard/preview`
+
+### CTA
+- Botão primário **fixo no rodapé** (`Stack` + `Positioned`) — nunca ao fim de scroll.
+- Label: "Guardar e começar" (standalone) ou **"Continuar"** (híbrido — AppBar já indica "Academia · 1 de 2"; sufixo "Próximo · Corrida" opcional se couber em uma linha)
+
+### Lista de exercícios
+- Mostrar por dia: foco + quantos exercícios — **sem listar os nomes** na prévia. A lista completa está no dia de treino. Listar nomes na prévia aumenta o scroll sem informação decisiva para o usuário.
+
+---
+
+## Checklist ao criar tela nova
+
+1. Rota + binding
+2. Atualizar tabela de rotas aqui
+3. Entrada, persistência, snapshot ou vivo, recálculo de %
+4. Free vs Pro
+5. Safe area no layout
+6. CTA primário fixo no rodapé (não ao fim do scroll)
+7. AppBar title reflete contexto (foco, etapa do fluxo) — nunca genérico quando há informação disponível

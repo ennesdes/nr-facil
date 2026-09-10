@@ -1,0 +1,225 @@
+---
+description: Arquitetura MVVM + GetX — padrões obrigatórios para controllers, repositórios, serviços e modelos.
+globs: ["lib/**/*.dart"]
+alwaysApply: false
+---
+
+# Arquitetura — MVVM + GetX
+
+## 1. GetX — reatividade
+
+- `Obx` envolve **só** o widget que reage — nunca o `Scaffold` inteiro
+- Primitivos → `.obs`; listas → `RxList`; mapas → `RxMap`; objetos → `Rx<T?>`
+- Mutar `RxList`/`RxMap` in-place (`add`, `removeWhere`, `assignAll`) — não reatribuir a variável
+- Workers (`ever`, `debounce`, `once`) no `onInit`, nunca no `build`
+
+### Escopo do callback `Obx`
+
+GetX registra dependências **somente** quando o closure de `Obx(() => …)` lê campos reativos (`.value`, `.obs`, `RxList`/`RxMap` in-place).
+
+| Proibido | Correto |
+|----------|---------|
+| `Obx(() => MyWidget())` e `MyWidget.build` lê os `.obs` | `Obx(() { final x = c.foo.value; return MyWidget(x); })` |
+| `Obx` aninhado cujo inner não lê `.value` no closure | Um `Obx` por seção, cada um lendo os observables no próprio closure |
+| `Obx` no `Scaffold` só para delegar rebuild ao filho | `Obx` granular no filho que consome o estado |
+
+**Regra:** se o runtime logar *improper use of GetX*, o observable foi lido fora do closure ou o `Obx` não leu nenhum `.value` dentro dele.
+
+**Padrão em telas com load + conteúdo reativo:** `Obx` externo só para `loadStatus` (switch loading/error/success); ramo `success` usa widgets filhos com `Obx` próprios — não `Obx(() => Body())` sem `.value` no inner.
+
+## 2. Injeção de dependências
+
+- Dependências no **construtor** do controller/serviço — testável sem GetX
+- `Get.find()` **só** em bindings (`*_binding.dart`, `initial_binding.dart`) para montar o construtor
+- Serviços globais: `Get.put(..., permanent: true)` no binding inicial
+- Controllers de módulo: `Get.lazyPut` no binding do módulo — **exceto** rotas cujo controller depende de `Get.arguments`/`Get.parameters` (ver § Controllers escopados à rota)
+- Proibido: `Get.put`/`Get.find` em widgets; `Get.find` no corpo do controller
+
+### Controllers escopados à rota — argumentos que mudam a cada abertura
+
+Quando o binding lê `Get.arguments` ou `Get.parameters` para montar o controller (filtro, ID, contexto de ação), **cada navegação precisa de instância nova** com esses valores. Caso contrário, a segunda abertura reutiliza estado da primeira (grupo muscular errado, busca antiga, toggle “Ver catálogo completo” preso, etc.).
+
+| Situação | Padrão obrigatório | Referência no repo |
+|----------|-------------------|-------------------|
+| Controller depende de `Get.arguments` / `Get.parameters` | `Get.delete<Controller>(force: true)` se já registrado → `Get.put(...)` com args atuais | `ProgramDayBinding`, `ExerciseCatalogBinding` |
+| Controller de módulo **sem** args de rota | `Get.lazyPut` (com ou sem `fenix`) | `HomeBinding`, wizards |
+| **`fenix: true` + `Get.arguments` no mesmo binding** | **Proibido** — `fenix` ressuscita a instância antiga **sem** reexecutar o factory nem reler args | Bug real: troca peito → troca perna mostrava peito |
+
+**Checklist ao criar/alterar binding com args:**
+- [ ] Segunda abertura da rota com argumentos **diferentes** foi testada manualmente (ou teste cobre instâncias distintas)
+- [ ] Query/campos de formulário/toggles resetam na nova instância — não confiar só em `TextField` novo se o controller reutilizado guarda `.obs` antigo
+- [ ] Rodar `python3 scripts/check_route_controller_bindings.py` — `flutter analyze` **não detecta** esse bug
+
+**Por que `flutter analyze` não pega:** o código compila; o erro só aparece em runtime na 2ª visita à mesma rota.
+
+### Ordem em `initial_binding.dart` — regra crítica
+
+`initial_binding.dart` registra serviços em uma lista de closures executada **sequencialmente** (`for (final register in registrations) register();`). Não há resolução automática de grafo de dependências — a ordem no arquivo **é** a ordem de execução.
+
+- Ao adicionar um novo `Get.put<X>(...)`: todo `Get.find<T>()` usado dentro do construtor de `X` **deve** ter seu `Get.put<T>()` **antes**, na mesma lista
+- Ao adicionar um novo serviço que outros vão consumir via `Get.find`: registrá-lo o mais cedo possível, antes de qualquer consumidor
+- **Antes de declarar pronto**, rodar `python3 scripts/check_binding_order.py` — aponta `Get.find<T>()` usado antes do `Get.put<T>()` correspondente, ou sem `Get.put<T>()` no arquivo
+
+- `flutter analyze` **não pega esse erro** — é 100% válido estaticamente (`Get.find<T>()` compila mesmo sem `T` nunca ter sido registrado); só quebra em runtime no boot do app (`"X" not found. You need to call "Get.put(X())"`)
+- Esse erro só aparece ao rodar o app de verdade — por isso o smoke test do app (splash → home) é obrigatório após qualquer alteração em `initial_binding.dart`, não apenas `flutter analyze`
+
+## 3. Estado assíncrono
+
+- Usar enum de status (`idle`, `loading`, `success`, `error`) — UI reage por switch/pattern
+- Listas: shimmer do layout real; ações pontuais: loading no botão
+
+## 4. Operações de escrita
+
+- Nunca fire-and-forget em persistência
+- `await` + try/catch; em falha, reverter estado em memória e avisar o usuário
+
+## 5. Modelos de dados
+
+- Catálogo: imutável (`@immutable`)
+- Treino ativo: mutável com `copyWith` onde fizer sentido
+- `toMap`/`fromMap` round-trip sem perda; `fromMap` **sempre defensivo** (fallbacks, sem crash com storage corrompido)
+
+## 6. Organização de arquivos
+
+| O que | Onde |
+|-------|------|
+| Lógica de cálculo pura | `core/services/` |
+| Acesso a dados | `data/repositories/` |
+| Estado + orquestração | `modules/<módulo>/presentation/controllers/` |
+| Widget compartilhado | `core/widgets/` |
+| Widget de módulo | `modules/<módulo>/presentation/widgets/` |
+| Constantes / chaves storage | `core/constants/` |
+| Helpers puros (data, formatação) | `core/utils/` |
+| Regra de geração de plano | `modules/wizard/domain/` |
+| Modalidade / planos ativos | `core/domain/`, `core/services/` |
+
+- Home orquestra planos ativos via serviço agregador — não acoplar só ao plano de academia quando houver híbrido
+- Um arquivo = uma responsabilidade; nomes descrevem conteúdo
+- Chaves de storage centralizadas; navegação via rotas nomeadas; passar só ID nos arguments
+
+## 7. Anti-patterns críticos
+
+| Anti-pattern | Solução |
+|-------------|---------|
+| `Obx` no `Scaffold` inteiro | `Obx` granular |
+| `Obx(() => Widget())` sem `.value` no closure | Ler observables no closure ou `Obx` dentro do widget filho |
+| `Obx` aninhado redundante | Um `Obx` por bloco reativo |
+| `Get.find()` no controller ou widget | Injetar via binding → construtor |
+| `map['key']` sem null-check | Fallback defensivo |
+| `Column + .map()` em lista longa | `ListView.builder` + `ValueKey` |
+| `await` ignorado em escrita | Reverter + feedback de erro |
+| `print()` | `AppLogger` |
+| `StatefulWidget` para estado reativo | Controller + `Obx` |
+| Bang `!` sem garantia | `?.` ou check explícito |
+| `Get.offAllNamed`/`offNamed` no meio de wizard | `Get.toNamed` — pilha preservada para voltar; `offAllNamed` só após save final |
+| Salvar plano mid-wizard (antes da confirmação) | Passar dados como argumento tipado via `Get.toNamed(route, arguments: model)`; persistir apenas no último step |
+| `fenix: true` em binding que lê `Get.arguments`/`Get.parameters` | `Get.delete` + `Get.put` a cada navegação — ver § Controllers escopados à rota |
+| Reutilizar controller entre aberturas com args diferentes | Nova instância no binding; testar 2ª abertura com args distintos |
+
+## 8. Checklist de PR
+
+**Documentação**
+- [ ] Comportamento previsto na doc antes do código (`core/documentation.mdc`)
+
+**Lógica**
+- [ ] Nenhuma lógica de negócio em widget
+- [ ] Async com erro + reversão; `fromMap` defensivo
+
+**Performance**
+- [ ] Listas longas com builder + key
+- [ ] `const` onde possível; sem `Opacity` widget (usar alpha no token)
+
+**GetX**
+- [ ] `Obx` mínimo; workers no `onInit`; controllers no binding
+- [ ] Binding com `Get.arguments`/`Get.parameters` → `Get.delete` + `Get.put` (nunca `fenix: true`); testar 2ª abertura com args diferentes
+
+**Qualidade**
+- [ ] Testes para lógica nova em services/domain
+- [ ] Código/assets/testes que a mudança tornou obsoletos foram removidos no mesmo PR
+
+---
+
+## 9. Lifecycle de controllers — onClose obrigatório
+
+Todo controller que cria workers, subscriptions ou timers **deve** cancelá-los em `onClose()`:
+
+```dart
+// Correto
+class ExemploController extends GetxController {
+  late final Worker _worker;
+  StreamSubscription? _sub;
+
+  @override
+  void onInit() {
+    super.onInit();
+    _worker = ever(someObs, _handleChange);
+    _sub = someStream.listen(_handleEvent);
+  }
+
+  @override
+  void onClose() {
+    _worker.dispose();
+    _sub?.cancel();
+    super.onClose();
+  }
+}
+```
+
+- Qualquer `ever`, `once`, `debounce`, `interval` → guardar referência e chamar `.dispose()` no `onClose`
+- `StreamSubscription` → `.cancel()` no `onClose`
+- `Timer` / `AnimationController` → `.cancel()` / `.dispose()` no `onClose`
+- Controllers de módulo (`lazyPut`) são descartados pelo GetX ao sair da rota — mas apenas se `onClose` limpar tudo
+- Sem `onClose`: memory leak garantido em telas que entram/saem repetidamente (ex.: dia de treino)
+
+---
+
+## 10. Migração de storage — contratos estáveis
+
+Quando o contrato de um modelo mudar entre versões do app (campo renomeado, tipo alterado, campo removido):
+
+| Situação | Ação |
+|----------|------|
+| Campo novo com default claro | `fromMap` retorna default — sem migration necessária |
+| Campo renomeado | Ler chave antiga como fallback; gravar na chave nova; remover fallback na próxima versão |
+| Tipo alterado (ex.: `String` → `int`) | Ler ambos os tipos em `fromMap`; converter na primeira leitura |
+| Chave de storage renomeada | **Nunca renomear** sem ler a chave antiga, migrar e deletar — usuário atualiza e perde tudo |
+
+**Modelos críticos** (plano ativo, histórico, perfil do usuário) devem ter campo `schemaVersion: int` para rastrear migrações futuras. Definir em `fromMap` o comportamento por versão detectada.
+
+**Regra:** `fromMap` defensivo cobre **dados corrompidos**. Migration cobre **contratos antigos válidos** — são problemas diferentes.
+
+---
+
+## 11. AppLogger — níveis e quando usar
+
+| Nível | Quando usar | Exemplo |
+|-------|-------------|---------|
+| `debug` | Fluxo de desenvolvimento — **remover antes de merge** | Valor de variável, entrada em método |
+| `info` | Evento relevante de negócio que importa para diagnóstico | `"Plano criado: 4 dias, hipertrofia"` |
+| `warning` | Estado inesperado mas recuperável — o app continuou | `"Chave storage não encontrada, usando default"` |
+| `error` | Falha que impactou o usuário ou corrompeu estado | `"Escrita do plano falhou: $e"` |
+
+- `debug` nunca em produção — usar flag de ambiente ou remover antes do merge
+- `info` nos pontos de entrada de serviços relevantes (criar plano, arquivar, marcar feito)
+- `warning` em todo `fromMap` que usou fallback por dado ausente ou corrompido
+- `error` em todo `catch` de operação de I/O com contexto suficiente para reproduzir
+
+---
+
+## 12. Erros globais em produção
+
+Configurar no `main()` antes de `runApp()`:
+
+```dart
+FlutterError.onError = (details) {
+  AppLogger.error('FlutterError', details.exception, details.stack);
+};
+PlatformDispatcher.instance.onError = (error, stack) {
+  AppLogger.error('PlatformError', error, stack);
+  return true; // capturado — não propaga para o sistema
+};
+```
+
+- Sem essa configuração, crashes em isolates e erros de build de widget são silenciosos em produção
+- O `return true` em `onError` é obrigatório — sem ele o sistema propaga o erro e pode encerrar o app sem log
+- Esses handlers **não substituem** try/catch nos fluxos de negócio — são a última linha de defesa

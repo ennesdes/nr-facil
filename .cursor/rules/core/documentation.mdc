@@ -1,0 +1,137 @@
+---
+description: Regra doc-first — toda mudança de código deve estar prevista na documentação antes de implementar.
+globs: ["lib/**/*.dart", "test/**/*.dart", "assets/**/*", "README.md", "TODO.md", "store/pricing_strategy.md", ".cursor/rules/**/*.mdc"]
+alwaysApply: false
+---
+
+# Documentação antes do código
+
+> **Regra:** nada entra no código sem estar previsto na documentação do projeto. A documentação descreve **o quê** e **por quê**; o código decide **como**.
+
+## Escopo da documentação
+
+Dois tipos de doc — não misturar:
+
+| Tipo | Onde | Conteúdo |
+|------|------|----------|
+| **Planos de implementação** | `.claude/plans/*.md` | Pesquisa, fases, arquivos, **decisões tomadas** e parâmetros — fonte para `/fazer`. Comando: `/decidir D1` atualiza plano + `.mdc` |
+| **Regras científicas / de domínio** | `domain/*.mdc`, `domain/evidence.mdc` | Fonte da verdade da prescrição — o que o app **deve** fazer quando implementado. Independe de estar no código hoje. |
+| **Status de entrega e backlog** | `docs/TODO.md` | O que falta entregar, métricas pós-lançamento, checklist IAP — **sem** itens já concluídos |
+| **Estratégia de precificação Pro** | `store/pricing_strategy.md` | Grade de preços, racional, `product_id`, métricas — fonte canônica comercial. |
+| **Produto implementado hoje** | `README.md`, `ui/screens_flow.mdc` | Jornada, rotas e comportamento **já no app** — sem backlog. |
+
+**Proibido:** marcar regra de domínio como "pendente" ou "não implementado" dentro de `domain/*.mdc` — isso vive no `docs/TODO.md`.
+
+**Proibido:** descrever backlog ou roadmap de entrega em `domain/*.mdc` — só regra de produto/prescrição.
+
+**Doc-first continua valendo:** antes de codar, a regra deve existir em `domain/*.mdc` (ou fluxo/copy correspondente); o `docs/TODO.md` diz **quando** entregar.
+
+## Ordem obrigatória
+
+1. Verificar se a mudança já está descrita em algum doc do projeto
+2. Se **não** estiver → **atualizar ou criar** a regra/documentação **antes** de alterar ou criar código
+3. Só então implementar
+4. Se a implementação revelar decisão nova → voltar ao doc e ajustar **no mesmo PR**
+5. **Remover** código, assets, configs e docs que a alteração tornou obsoletos — **no mesmo PR** (ver [Limpeza ao alterar](#limpeza-ao-alterar))
+
+**Proibido:** “implementar agora e documentar depois”, salvo correção de bug trivial sem impacto de produto (typo, crash óbvio, regressão).
+
+## Limpeza ao alterar
+
+> Toda mudança que **substitui** ou **desativa** algo deve **eliminar** o que sobrou sem uso. Não deixar “morto” no repo.
+
+**O que remover quando deixar de ser usado:**
+
+| Tipo | Exemplos |
+|------|----------|
+| Código | métodos, classes, parâmetros, imports, rotas, bindings, flags |
+| Assets | PNGs, pastas, entradas no `pubspec.yaml` |
+| Testes | casos que só cobriam comportamento removido |
+| Docs | seções, TODOs, regras `.mdc` que descrevem o antigo |
+| Scripts externos | pipelines, CSVs ou pastas só do fluxo antigo |
+
+**Como validar:** buscar referências (grep) ao nome do arquivo/símbolo/chave antes de apagar; rodar testes afetados.
+
+**Exemplo:** fallback de imagem por grupo muscular removido → apagar PNGs, entrada no `pubspec`, método no resolver, teste e menções na doc.
+
+**Proibido:** comentar bloco grande “por precaução”, duplicar implementação nova e antiga, ou deixar asset no bundle sem referência no app.
+
+## O que conta como “previsto”
+
+Basta uma regra clara de produto ou comportamento. Exemplos válidos:
+
+- “Perguntar se a pessoa quer personalizar o foco de treino de cada dia”
+- “Usuário Free vê o alerta de desequilíbrio; a sugestão de correção é Pro”
+- “Ao mudar dias por semana, preservar focos já escolhidos nos dias que continuam”
+
+## Onde registrar cada tipo de mudança
+
+| Tipo de mudança | Onde documentar |
+|-----------------|-----------------|
+| Fluxo de telas, rotas, Free vs Pro, edge cases | `ui/screens_flow.mdc` |
+| Textos visíveis ao usuário (labels, CTAs, tom) | `ui/copy_voice.mdc` |
+| Visual, tokens, componentes | `ui/design_system.mdc` |
+| Prescrição de academia — splits, volume, gerador, alertas (regras científicas) | `domain/gym.mdc` |
+| Prescrição de corrida — zonas, periodização, catálogo (regras científicas) | `domain/running.mdc` |
+| Interação híbrida — scheduling, diagnóstico, storage (regras científicas) | `domain/hybrid.mdc` |
+| Origem e confiança de regras de domínio | `domain/evidence.mdc` |
+| Padrões de código, arquitetura | `core/architecture.mdc` |
+| O que testar ao mudar lógica | `testing/unit_tests.mdc` |
+| Status de entrega, backlog, roadmap | `docs/TODO.md` |
+| Precificação Pro, grade IAP, racional comercial | `store/pricing_strategy.md` |
+| Metadados de loja (App Store / Play) | `store/app_store/`, `store/play_store/` |
+| Visão de produto e jornada implementada | `README.md` |
+| Limites legais, motor determinístico, audit trail | `core/liability.mdc` |
+| Assets visuais (imagens de exercícios) | `assets/images/IMAGENS.md` |
+
+Um mesmo change pode tocar **mais de um** arquivo — cobrir todas as camadas afetadas (fluxo + copy + domínio, etc.).
+
+## Como escrever regras (estilo)
+
+**Preferir:**
+- Comportamento observável pelo usuário ou invariante de negócio
+- Condições e exceções (“opcional”, “default automático”, “só Pro”)
+- Defaults quando o usuário não escolher nada
+
+**Evitar:**
+- Blueprint de implementação que o código resolve sozinho
+- Wireframes pixel a pixel, layouts de tela ou snippets de widget
+- Nomes de classes, widgets ou arquivos — salvo **contrato estável** difícil de inferir (chaves de storage, flags de lesão no JSON)
+- Duplicar o mesmo detalhe em README e `.mdc`; README resume, `.mdc` detalha regra
+
+**Exemplo — bom vs ruim**
+
+| Ruim (código disfarçado de doc) | Bom (regra clara) |
+|----------------------------------|-------------------|
+| “Criar enum `DayFocus` e campo `dayFocuses`” | “Após definir quantos dias treina, permitir escolher o foco de cada dia, com sugestão automática pré-preenchida” |
+| “Card com `info_outline` 18dp ao lado do `headingSM`” | “Nome do exercício deve deixar claro que abre o detalhe” |
+| “Chamar `_slotsForFocus` no gerador” | “O plano de cada dia segue o foco escolhido; splits clássicos viram apenas sugestão inicial” |
+
+## Mapeamento de caminhos do usuário (obrigatório antes de codar tela ou fluxo)
+
+Antes de escrever a primeira linha de widget ou controller, responder mentalmente:
+
+1. **De onde o usuário chega?** — Lista todas as origens possíveis (onboarding, home, drawer, deeplink, back de outra tela).
+2. **Para onde ele sai?** — Sucesso, cancelamento, erro, back — cada destino é correto e consistente?
+3. **O que acontece se ele voltar no meio?** — Dados não confirmados se perdem? O estado anterior é restaurado? Existe loop de back?
+4. **O que acontece se ele interromper?** — App fechado, ligação, notificação — ao retornar, o estado faz sentido?
+5. **Existe caminho sem saída?** — Algum estado que não oferece Voltar nem CTA de progresso?
+6. **O fluxo faz sentido na mente do usuário, não só no código?** — Se você fosse o usuário a primeira vez, o próximo passo seria óbvio?
+
+Se qualquer resposta revelar problema → ajustar o design antes de implementar.
+
+## Checklist rápido (antes de codar)
+
+- [ ] Caminhos do usuário mapeados (ver seção acima)?
+- [ ] A mudança está descrita em pelo menos um doc do mapa acima?
+- [ ] Fluxo/copy/domínio atualizados conforme o escopo?
+- [ ] `docs/TODO.md` reflete se é entrega, polish ou backlog?
+- [ ] A doc descreve regra de produto, não layout ou código?
+- [ ] Objetos obsoletos foram removidos (código, assets, testes, docs)?
+
+## Checklist rápido (antes de fechar PR)
+
+- [ ] Código e documentação do mesmo PR estão alinhados
+- [ ] Nenhum comportamento novo ficou só no código
+- [ ] Se removeu feature, a doc também foi limpa
+- [ ] Nada ficou sem uso: arquivos mortos, imports, entradas de `pubspec`, testes órfãos

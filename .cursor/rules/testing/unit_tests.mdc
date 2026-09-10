@@ -1,0 +1,87 @@
+---
+description: Testes unitários — o que testar no MVP, estrutura, mocks e princípios.
+globs: ["**/*_test.dart", "**/test/**/*.dart"]
+alwaysApply: false
+---
+
+# Testes Unitários
+
+> Foco cirúrgico — MVP 30 dias.
+
+## O que testar obrigatoriamente
+
+| Camada | O que | Por quê |
+|--------|-------|---------|
+| `core/services/` | Calculador de volume muscular + expectativa por split + desequilíbrio | Lógica pura — erro = alerta Pro equivocado |
+| `modules/wizard/domain/` | Gerador de plano | Regra de split/foco — gera o programa inteiro |
+| `data/models/` | `fromMap` / `toMap` | Storage pode corromper |
+| `data/repositories/` | Repositório de plano | Ponto de falha de persistência |
+
+## O que NÃO testar no MVP
+
+- Widgets e telas
+- Navegação GetX
+- Controllers via framework (`Get.put`/`Get.find`)
+
+## Exceção — reatividade de estado em controllers core
+
+> Decisão registrada em `.claude/decisions/teste-reatividade-estado.md`. Motivo: bug de card não atualizar ao marcar exercício como feito, causado por `GetBuilder`+`update()` dessincronizado de mutação in-place — voltou depois de corrigido uma vez.
+
+Controller instanciado **diretamente** (sem `Get.put`/`Get.find`, dependências no construtor) — não é widget test, é teste de controller puro:
+
+- **Obrigatório retroativamente:** fluxos que já tiveram bug de reatividade (`toggleLineDone` em `program_day_controller.dart`, `toggleSessionDone` em `running_day_controller.dart`) — testar que a notificação (`update()`/emissão do observable) só dispara depois da mutação estar em um objeto novo (`copyWith`, nunca mutação in-place) e sincronizada com a persistência.
+- **Obrigatório daqui pra frente:** todo controller novo com estado observável (`Obx` ou `GetBuilder`+`update()`) ligado a uma ação de toggle do usuário.
+- **Fora da exceção:** tudo o resto — não vira teste de widget, não testa renderização, não usa `Get.put`/`Get.find`.
+
+## Princípios
+
+- **AAA:** Arrange → Act → Assert
+- Testar **comportamento observável**, não detalhe de implementação
+- Dependências no construtor — nunca `Get.put`/`Get.find` nos testes
+- Testes documentam regras de negócio executáveis
+
+## Estrutura
+
+Espelhar `lib/` em `test/` — services, models, repositories, domain. Fixtures e mocks em `test/helpers/`.
+
+## Mocks
+
+Interfaces mockadas (ex.: storage, repositório de exercícios). Injetar no construtor do SUT.
+
+## Cenários mínimos — calculador
+
+- Lista vazia → mapa vazio
+- Linha com volume zero → não contribui
+- Um exercício → percentuais somam ~100
+- Dois exercícios → proporção correta
+- `weight: null` (peso corporal) → mesmo volume que carga 1
+
+## Cenários mínimos — modelos
+
+- Round-trip `toMap`/`fromMap` sem perda
+- Dados corrompidos → não lança exceção
+- Campos opcionais/null preservados
+
+## Cenários mínimos — gerador
+
+- N dias → N dias no plano (labels A, B, C…)
+- 1 dia → corpo inteiro
+- Flag de lesão → exercícios restritos ausentes
+- Foco por dia (quando implementado): defaults, slots por foco, dias repetidos com exercícios distintos
+
+## Cenários mínimos — desequilíbrio (split-relative)
+
+- Distribuição vazia → sem alertas
+- 3 dias superiores + 2 inferiores + distribuição coerente → **sem** alerta de pernas
+- Semana só superior → sem alerta de pernas
+- Peito abaixo do esperado com 2+ dias superiores → alerta de peito
+- Regressão hipertrofia / força / saúde geral (ombros, core)
+
+## Cenários mínimos — repositório
+
+- Storage vazio → plano ativo null
+- Salvar → chave correta no storage
+
+## Nomenclatura
+
+`group` por classe; `test` descreve comportamento em português ou inglês consistente: `'lista vazia retorna mapa vazio'`.
