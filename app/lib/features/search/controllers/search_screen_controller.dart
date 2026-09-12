@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/services/content_service.dart';
 import '../../../core/services/search_service.dart';
 import '../../../core/utils/app_logger.dart';
 
@@ -16,9 +17,13 @@ import '../../../core/utils/app_logger.dart';
 ///
 /// Uso: GetView com SearchScreenController
 class SearchScreenController extends GetxController {
-  final SearchService searchService;
+  SearchScreenController({
+    required this.searchService,
+    ContentService? contentService,
+  }) : _contentService = contentService ?? Get.find<ContentService>();
 
-  SearchScreenController({required this.searchService});
+  final SearchService searchService;
+  final ContentService _contentService;
 
   /// Controlador de entrada de texto de busca
   late final TextEditingController queryController;
@@ -53,10 +58,15 @@ class SearchScreenController extends GetxController {
     queryController = TextEditingController();
     queryController.addListener(_onQueryChanged);
 
-    // Observar estado de carregamento do índice
-    ever(searchService.isLoading, (isLoading) {
-      isIndexLoading.value = isLoading;
-    });
+    void refreshIndexLoading() {
+      isIndexLoading.value =
+          searchService.isLoading.value ||
+          _contentService.isSearchIndexSyncing.value;
+    }
+
+    // Observar download de índices (aba Buscar) e carga em memória (1ª busca).
+    ever(searchService.isLoading, (_) => refreshIndexLoading());
+    ever(_contentService.isSearchIndexSyncing, (_) => refreshIndexLoading());
   }
 
   @override

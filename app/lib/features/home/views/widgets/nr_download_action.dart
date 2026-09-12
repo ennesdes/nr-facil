@@ -5,7 +5,7 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_modal_bottom_sheet.dart';
-import 'package:nrfacil/core/widgets/app_shimmer.dart';
+import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
 
 /// Ação de download offline para um tile de NR.
@@ -22,6 +22,7 @@ class NrDownloadAction extends StatelessWidget {
 
     return Obx(() {
       final nrId = nrEntry.id;
+      contentService.nrAssetVersions[nrId];
       final isCached = contentService.isNrFullyCached(nrId);
       if (isCached) return const SizedBox.shrink();
 
@@ -29,10 +30,22 @@ class NrDownloadAction extends StatelessWidget {
       final colorScheme = Theme.of(context).colorScheme;
 
       if (isDownloading) {
-        return const SizedBox(
-          width: 48,
-          height: 48,
-          child: Center(child: AppShimmerIcon(size: 22)),
+        return Tooltip(
+          message: 'Baixando ${nrEntry.nrLabel}…',
+          child: SizedBox(
+            width: 48,
+            height: 48,
+            child: Center(
+              child: SizedBox(
+                width: 22,
+                height: 22,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2.5,
+                  color: colorScheme.primary,
+                ),
+              ),
+            ),
+          ),
         );
       }
 
@@ -76,7 +89,7 @@ class NrDownloadAction extends StatelessWidget {
                 emphasized: true,
                 onTap: () async {
                   Navigator.pop(context);
-                  await contentService.downloadNrIfNeeded(nrEntry.id);
+                  await _startDownload(contentService);
                 },
               ),
             ),
@@ -84,5 +97,36 @@ class NrDownloadAction extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Future<void> _startDownload(ContentService contentService) async {
+    final nrId = nrEntry.id;
+
+    if (contentService.isNrFullyCached(nrId)) {
+      AppSnackbar.showInfo(
+        title: 'Já disponível offline',
+        message: '${nrEntry.nrLabel} já está salva neste aparelho.',
+      );
+      return;
+    }
+
+    final ok = await contentService.downloadNrIfNeeded(nrId);
+    if (ok) {
+      AppSnackbar.showSuccess(
+        title: 'Download concluído',
+        message: '${nrEntry.nrLabel} disponível offline.',
+      );
+      return;
+    }
+
+    final error = contentService.lastError.value;
+    if (error != null) {
+      AppSnackbar.showError(title: 'Download', message: error);
+    } else if (contentService.isNrDownloading(nrId)) {
+      AppSnackbar.showInfo(
+        title: 'Download em andamento',
+        message: 'Aguarde a conclusão do download.',
+      );
+    }
   }
 }

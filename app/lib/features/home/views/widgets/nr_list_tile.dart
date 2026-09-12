@@ -6,6 +6,7 @@ import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/display_text_utils.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
+import 'package:nrfacil/core/widgets/nr_download_loading.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_download_action.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_tile_icon_button.dart';
 
@@ -17,7 +18,6 @@ class ReactiveNrListTile extends StatelessWidget {
   final ManifestEntry nrEntry;
   final ContentService contentService;
   final bool isRevoked;
-  final bool showNotDownloaded;
   final bool hideStarButton;
   final VoidCallback onTap;
 
@@ -26,7 +26,6 @@ class ReactiveNrListTile extends StatelessWidget {
     required this.contentService,
     required this.onTap,
     this.isRevoked = false,
-    this.showNotDownloaded = false,
     this.hideStarButton = false,
     super.key,
   });
@@ -35,15 +34,26 @@ class ReactiveNrListTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(() {
       contentService.favoritesVersion.value;
-      return NrListTile(
-        nrEntry: nrEntry,
-        isFavorite: contentService.isFavorite(nrEntry.id),
-        hasUpdate: contentService.hasUpdate(nrEntry.id),
-        isRevoked: isRevoked,
-        showNotDownloaded: showNotDownloaded,
-        hideStarButton: hideStarButton,
-        onTap: onTap,
-        onToggleFavorite: () => contentService.toggleFavorite(nrEntry.id),
+      contentService.nrAssetVersions[nrEntry.id];
+      contentService.downloadingNrIds.length;
+      final showNotDownloaded =
+          !isRevoked && !contentService.isNrFullyCached(nrEntry.id);
+
+      return Stack(
+        children: [
+          NrListTile(
+            nrEntry: nrEntry,
+            isFavorite: contentService.isFavorite(nrEntry.id),
+            hasUpdate: contentService.hasUpdate(nrEntry.id),
+            isRevoked: isRevoked,
+            showNotDownloaded: showNotDownloaded,
+            hideStarButton: hideStarButton,
+            onTap: onTap,
+            onToggleFavorite: () => contentService.toggleFavorite(nrEntry.id),
+          ),
+          if (contentService.isNrDownloading(nrEntry.id))
+            NrListTileDownloadOverlay(label: nrEntry.nrLabel),
+        ],
       );
     });
   }

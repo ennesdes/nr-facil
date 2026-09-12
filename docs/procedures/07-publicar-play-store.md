@@ -44,7 +44,7 @@ Copy completa e variantes A/B: [docs/store/listing-pt-BR.md](../store/listing-pt
 
 ### 3. Política e classificação
 
-- **Política de privacidade**: URL do GitHub Pages (procedure 08)
+- **Política de privacidade**: https://solvebetter.com.br/apps/nr-facil/privacidade/ (procedure 08)
 - **Classificação de conteúdo**: questionário (geralmente "Todos" ou baixa idade)
 - **Público-alvo**: profissionais, não app infantil
 - **Anúncios**: sim, contém anúncios
@@ -85,6 +85,7 @@ Declare honestamente:
 | Problema | Solução |
 |----------|---------|
 | Rejeição por política | Leia e-mail do Google; corrija privacy policy ou permissões |
+| Rejeição "Broken Functionality" / crash ao abrir | Teste com `fvm flutter run --release` (debug não usa R8). Regras em `app/android/app/proguard-rules.pro` |
 | "Upload key" diferente | Use sempre o mesmo keystore |
 | IAP não aparece | Produto ativo no Play Console; aguarde propagação 24h |
 

@@ -32,6 +32,9 @@ class FakeContentService implements ContentService {
   /// Controlar o resultado de sync nos testes
   final bool _syncResult = true;
 
+  var syncSearchIndicesCallCount = 0;
+  var prefetchFavoritesCallCount = 0;
+
   @override
   Future<bool> get forcedUpdateRequired async => _forcedUpdateRequired;
 
@@ -42,10 +45,14 @@ class FakeContentService implements ContentService {
   Future<bool> syncMetadata() async => _syncResult;
 
   @override
-  Future<void> syncSearchIndices() async {}
+  Future<void> syncSearchIndices() async {
+    syncSearchIndicesCallCount++;
+  }
 
   @override
-  Future<void> prefetchFavorites() async {}
+  Future<void> prefetchFavorites() async {
+    prefetchFavoritesCallCount++;
+  }
 
   @override
   Future<void> onClose() async {}
@@ -111,6 +118,26 @@ void main() {
       await Future.delayed(const Duration(milliseconds: 100));
 
       expect(homeController.selectedTab.value, HomeController.tabNormas);
+    });
+
+    test('startup não baixa índices de busca (adiado para aba Buscar)', () async {
+      fakeContentService.favoriteIds.clear();
+      fakeContentService._forcedUpdateRequired = false;
+
+      await homeController.onInit();
+      await Future<void>.delayed(const Duration(milliseconds: 100));
+
+      expect(fakeContentService.syncSearchIndicesCallCount, 0);
+    });
+
+    test('selectTab na aba Buscar dispara sync de índices', () async {
+      fakeContentService.favoriteIds.clear();
+      await homeController.onInit();
+
+      homeController.selectTab(HomeController.tabBuscar);
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+
+      expect(fakeContentService.syncSearchIndicesCallCount, 1);
     });
 
     test('selectTab muda a aba selecionada', () {

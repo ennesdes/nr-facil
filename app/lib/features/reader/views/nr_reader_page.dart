@@ -6,7 +6,8 @@ import 'package:nrfacil/core/theme/app_system_ui.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
-import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
+import 'package:nrfacil/core/utils/nr_id_utils.dart';
+import 'package:nrfacil/core/widgets/nr_download_loading.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_markdown_fallback_body.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_structured_body.dart';
@@ -78,7 +79,18 @@ class NRReaderPage extends GetView<NRReaderController> {
                     ? ReaderSearchBar(controller: controller)
                     : const SizedBox.shrink(),
               ),
-              Expanded(child: _buildBody(context)),
+              Expanded(
+                child: Obx(() {
+                  controller.isLoading.value;
+                  controller.isDownloading.value;
+                  controller.error.value;
+                  controller.content.value;
+                  controller.structure.value;
+                  controller.showUpdateBanner.value;
+                  controller.fontSize.value;
+                  return _buildBody(context);
+                }),
+              ),
             ],
           ),
         ),
@@ -88,7 +100,16 @@ class NRReaderPage extends GetView<NRReaderController> {
 
   Widget _buildBody(BuildContext context) {
     if (controller.isLoading.value || controller.isDownloading.value) {
-      return const ReaderBodyShimmer();
+      final label =
+          controller.nrEntry.value?.nrLabel ?? formatNrLabel(nrId);
+      return NrDownloadLoadingView(
+        title: controller.isDownloading.value
+            ? 'Baixando $label…'
+            : 'Carregando $label…',
+        subtitle: controller.isDownloading.value
+            ? 'Preparando leitura offline'
+            : 'Organizando conteúdo',
+      );
     }
 
     if (controller.error.value != null) {

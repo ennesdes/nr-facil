@@ -1,83 +1,49 @@
-# Procedure 08 — GitHub Pages (privacidade)
+# Procedure 08 — Política de privacidade e termos (Solve Better)
 
 ## Objetivo
 
-Publicar política de privacidade em URL pública exigida pela Play Store e AdMob.
+Usar URLs públicas exigidas pela Play Store e AdMob para privacidade e termos do NR Fácil.
 
-## Pré-requisitos
+## URLs oficiais (fonte da verdade)
 
-- Repositório `nr-facil` no GitHub
-- Arquivo `docs/privacy-policy.md` no projeto
+| Documento | URL |
+|-----------|-----|
+| Política de privacidade | https://solvebetter.com.br/apps/nr-facil/privacidade/ |
+| Termos de uso | https://solvebetter.com.br/apps/nr-facil/termos/ |
+| Site do app | https://solvebetter.com.br/apps/nr-facil/ |
 
-## Passo a passo
+Conteúdo mantido no repositório **`site-solve-better`** (`src/pages/apps/nr-facil/`). Deploy automático na Vercel → `solvebetter.com.br`.
 
-### 1. Revisar conteúdo
+## Onde usar
 
-Edite `docs/privacy-policy.md` se necessário:
+| Onde | Campo / ação |
+|------|----------------|
+| Play Console | Política do app → **Política de privacidade** → URL de privacidade acima |
+| Play Console | Presença na loja → **Website** → `https://solvebetter.com.br` (para `app-ads.txt` em `/app-ads.txt`) |
+| AdMob | Configurações do app (se solicitado) |
+| App Flutter | `AppConfig.privacyPolicyUrl` e `AppConfig.termsOfUseUrl` — Ajustes → Legal |
 
-- App usa conteúdo público do MTE
-- Favoritos armazenados localmente
-- AdMob (política Google)
-- Metadados leves (`app_meta.json`) vêm do próprio repositório GitHub, sem backend/dados pessoais
-- Contato: seu e-mail
+## app-ads.txt
 
-### 2. Habilitar GitHub Pages
-
-1. GitHub → repositório **nr-facil**
-2. **Settings → Pages**
-3. **Source**: Deploy from a branch
-4. Branch: `main` (ou `gh-pages`)
-5. Folder: `/docs` ou configure workflow para publicar `docs/privacy-policy.md`
-
-### Opção simples: arquivo `docs/index.html`
-
-Crie `docs/index.html` que renderiza a política, ou use apenas o markdown com Jekyll (GitHub Pages suporta):
-
-1. Adicione `docs/_config.yml`:
-   ```yaml
-   title: NR Fácil
-   theme: jekyll-theme-minimal
-   ```
-2. Renomeie ou copie política para `docs/index.md` com front matter:
-   ```markdown
-   ---
-   layout: default
-   title: Política de Privacidade
-   ---
-   ```
-
-### 3. Aguardar deploy
-
-Após push, URL será algo como:
+Com website `https://solvebetter.com.br` na Play Console, publique em:
 
 ```
-https://SEU_USUARIO.github.io/nr-facil/
+https://solvebetter.com.br/app-ads.txt
 ```
 
-ou
+Arquivo: `site-solve-better/public/app-ads.txt`. Ver [05-configurar-admob.md](05-configurar-admob.md#9-app-adstxt-verificação-iab).
 
-```
-https://SEU_USUARIO.github.io/nr-facil/privacy-policy
-```
+## Rascunho local (opcional)
 
-### 4. Usar na Play Console
-
-Cole a URL em:
-
-- Play Console → Política do app → Política de privacidade
-- AdMob → Configurações do app (se solicitado)
-
-### 5. Link no app
-
-Em Ajustes → "Política de privacidade" → abre URL no navegador.
+`docs/privacy-policy.md` neste repo é rascunho/referência — **não** é a URL usada na loja. A versão publicada é a do site Solve Better.
 
 ## Troubleshooting
 
 | Problema | Solução |
 |----------|---------|
-| 404 na URL | Aguarde 5–10 min; confira branch/folder em Settings → Pages |
-| Página sem estilo | Normal para MD simples; conteúdo importa mais que visual |
-| URL mudou | Atualize Play Console e AdMob |
+| 404 na URL | Confira deploy do `site-solve-better` na Vercel |
+| Play rejeita URL | Deve ser HTTPS pública; teste no navegador anônimo |
+| App abre link errado | Confira `AppConfig` e faça rebuild |
 
 ## Próximo passo
 

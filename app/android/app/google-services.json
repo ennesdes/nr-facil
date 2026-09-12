@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529943072688",
+    "project_id": "nr-facil-836b4",
+    "storage_bucket": "nr-facil-836b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529943072688:android:349b1f06ee396b23795075",
+        "android_client_info": {
+          "package_name": "br.com.solvebetter.nrfacil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY5XOc5w1ofNB33B9poGxgeQ-d0vILUxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

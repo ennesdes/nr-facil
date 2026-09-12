@@ -20,6 +20,8 @@ import '../models/nr_structure.dart';
 import '../models/reading_history_entry.dart';
 import '../models/search_chunk.dart';
 import '../utils/app_logger.dart';
+import '../utils/crash_reporting.dart';
+import '../utils/performance_monitoring.dart';
 import '../utils/user_messages.dart';
 
 /// ContentService — sincronizar e cache de NRs offline.
@@ -100,7 +102,12 @@ class ContentService extends GetxService {
 
   static const int _downloadConcurrency = 3;
 
-  final Map<String, Future<void>> _pendingAssetDownloads = {};
+  /// Concorrência baixa para índices de busca — evita pico de rede/memória no 1º uso.
+  static const int _searchIndexDownloadConcurrency = 1;
+
+  Future<void>? _ongoingSearchIndexSync;
+  final Map<String, Future<bool>> _ongoingNrDownloads = {};
+  final isSearchIndexSyncing = false.obs;
 
   @override
   Future<void> onInit() async {
@@ -149,10 +156,11 @@ class ContentService extends GetxService {
     lastError.value = null;
 
     try {
-      return await _fetchRemoteMetadata();
+      return await runPerformanceTrace('sync_metadata', _fetchRemoteMetadata);
     } catch (e, st) {
       lastError.value = UserMessages.syncFailed;
       AppLogger.error('Erro na sincronização de metadados', e, st);
+      await reportUnexpectedError('sync_metadata', e, st);
       return false;
     } finally {
       isSyncing.value = false;
@@ -200,8 +208,29 @@ class ContentService extends GetxService {
     return true;
   }
 
-  /// Baixa search_index.json de todas as NRs não revogadas (~4 MB total).
+  /// Baixa search_index.json de NRs não revogadas (~4 MB total).
+  ///
+  /// Não roda no boot — acionado ao abrir a aba Buscar ou após sync manual.
+  /// Chamadas concorrentes compartilham a mesma execução.
   Future<void> syncSearchIndices() async {
+    final ongoing = _ongoingSearchIndexSync;
+    if (ongoing != null) {
+      await ongoing;
+      return;
+    }
+
+    final future = _runSearchIndexSync();
+    _ongoingSearchIndexSync = future;
+    try {
+      await future;
+    } finally {
+      if (identical(_ongoingSearchIndexSync, future)) {
+        _ongoingSearchIndexSync = null;
+      }
+    }
+  }
+
+  Future<void> _runSearchIndexSync() async {
     final currentManifest = manifest.value;
     if (currentManifest == null) return;
 
@@ -209,38 +238,64 @@ class ContentService extends GetxService {
         .where((entry) => !entry.isRevoked)
         .toList();
 
-    AppLogger.info('Sincronizando índices de busca (${entries.length} NRs)...');
-
-    await _forEachConcurrent(entries, (nrEntry) async {
+    final pending = entries.where((entry) {
       final localHash = GetStorage().read(
-        StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+        StorageKeys.nrSearchIndexSyncedHash(entry.id),
       );
-      if (nrEntry.hash == localHash) {
-        return;
-      }
+      return entry.hash != localHash;
+    }).length;
 
-      try {
-        final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
-        if (!nrDir.existsSync()) {
-          nrDir.createSync(recursive: true);
-        }
+    if (pending == 0) {
+      AppLogger.debug('Índices de busca já atualizados');
+      return;
+    }
 
-        await _downloadFile(
-          url: '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
-          savePath: '${nrDir.path}/search_index.json',
-          retries: AppConfig.maxRetries,
-        );
+    isSearchIndexSyncing.value = true;
+    AppLogger.info(
+      'Sincronizando índices de busca ($pending de ${entries.length} NRs)...',
+    );
 
-        GetStorage().write(
-          StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
-          nrEntry.hash,
-        );
-      } catch (e) {
-        AppLogger.warning('Falha ao baixar search_index de ${nrEntry.id}: $e');
-      }
-    });
+    try {
+      await _forEachConcurrent(
+        entries,
+        (nrEntry) async {
+          final localHash = GetStorage().read(
+            StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+          );
+          if (nrEntry.hash == localHash) {
+            return;
+          }
 
-    AppLogger.info('Índices de busca sincronizados');
+          try {
+            final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
+            if (!nrDir.existsSync()) {
+              nrDir.createSync(recursive: true);
+            }
+
+            await _downloadFile(
+              url:
+                  '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
+              savePath: '${nrDir.path}/search_index.json',
+              retries: AppConfig.maxRetries,
+            );
+
+            GetStorage().write(
+              StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+              nrEntry.hash,
+            );
+          } catch (e) {
+            AppLogger.warning(
+              'Falha ao baixar search_index de ${nrEntry.id}: $e',
+            );
+          }
+        },
+        concurrency: _searchIndexDownloadConcurrency,
+      );
+
+      AppLogger.info('Índices de busca sincronizados');
+    } finally {
+      isSearchIndexSyncing.value = false;
+    }
   }
 
   /// Prefetch completo das NRs favoritas com hash desatualizado.
@@ -315,6 +370,7 @@ class ContentService extends GetxService {
     var totalToDownload = 0;
 
     try {
+      return await runPerformanceTrace('sync_all_content', () async {
       final metadataOk = await _fetchRemoteMetadata();
       if (_bulkSyncCancelRequested) {
         return SyncAllContentResult(
@@ -411,9 +467,11 @@ class ContentService extends GetxService {
         totalToDownload: totalToDownload,
         reachedNetwork: lastSyncedAt.value != previousSyncedAt,
       );
+      });
     } catch (e, st) {
       lastError.value = UserMessages.syncFailed;
       AppLogger.error('Erro na sincronização completa', e, st);
+      await reportUnexpectedError('sync_all_content', e, st);
       return SyncAllContentResult(
         success: false,
         downloadedCount: downloadedCount,
@@ -468,7 +526,7 @@ class ContentService extends GetxService {
     return entry.hash == syncedHash;
   }
 
-  /// Baixa uma NR para leitura: core bloqueante, assets em background.
+  /// Baixa uma NR para leitura: core bloqueante, depois assets até offline completo.
   Future<bool> downloadNrForReading(String nrId) async {
     final entry = manifest.value?.findNr(nrId);
     if (entry == null) {
@@ -479,22 +537,63 @@ class ContentService extends GetxService {
       lastError.value = UserMessages.nrRevoked;
       return false;
     }
-
-    try {
-      if (!isNrContentCached(nrId)) {
-        await _downloadNrCore(entry);
-      }
-
-      if (!isNrFullyCached(nrId)) {
-        unawaited(_ensureAssetsDownloaded(entry));
-      }
-
+    if (isNrFullyCached(nrId)) {
       return true;
+    }
+
+    final ongoing = _ongoingNrDownloads[nrId];
+    if (ongoing != null) {
+      return ongoing;
+    }
+
+    final future = _runDownloadForReading(entry);
+    _ongoingNrDownloads[nrId] = future;
+    try {
+      return await future;
+    } finally {
+      if (identical(_ongoingNrDownloads[nrId], future)) {
+        _ongoingNrDownloads.remove(nrId);
+      }
+    }
+  }
+
+  Future<bool> _runDownloadForReading(ManifestEntry entry) async {
+    final nrId = entry.id;
+    _trackNrDownloadStart(nrId);
+    try {
+      return await runPerformanceTrace(
+        'download_for_reading',
+        () async {
+          if (!isNrContentCached(nrId)) {
+            await _downloadNrCore(entry);
+          }
+          if (!isNrFullyCached(nrId)) {
+            await _downloadNrAssets(entry);
+          }
+          return isNrContentCached(nrId);
+        },
+        attributes: {'nr_id': nrId},
+      );
     } catch (e, st) {
       lastError.value = UserMessages.nrDownloadFailed;
       AppLogger.error('Erro no download para leitura de $nrId', e, st);
+      await reportUnexpectedError('download_for_reading:$nrId', e, st);
       return false;
+    } finally {
+      _trackNrDownloadEnd(nrId);
     }
+  }
+
+  void _trackNrDownloadStart(String nrId) {
+    if (downloadingNrIds.contains(nrId)) return;
+    downloadingNrIds.add(nrId);
+    downloadingNrIds.refresh();
+  }
+
+  void _trackNrDownloadEnd(String nrId) {
+    if (!downloadingNrIds.contains(nrId)) return;
+    downloadingNrIds.remove(nrId);
+    downloadingNrIds.refresh();
   }
 
   /// Baixa uma NR específica sob demanda (pacote completo).
@@ -510,26 +609,34 @@ class ContentService extends GetxService {
     }
 
     if (isNrFullyCached(nrId)) {
+      _notifyAssetsUpdated(nrId);
       return true;
+    }
+
+    final ongoing = _ongoingNrDownloads[nrId];
+    if (ongoing != null) {
+      return ongoing;
     }
 
     if (downloadingNrIds.contains(nrId)) {
       return false;
     }
 
-    downloadingNrIds.add(nrId);
-    downloadingNrIds.refresh();
-
+    _trackNrDownloadStart(nrId);
     try {
-      await _downloadNr(entry);
+      await runPerformanceTrace(
+        'download_nr',
+        () => _downloadNr(entry),
+        attributes: {'nr_id': nrId},
+      );
       return true;
     } catch (e, st) {
       lastError.value = UserMessages.nrDownloadFailed;
       AppLogger.error('Erro no download sob demanda de $nrId', e, st);
+      await reportUnexpectedError('download_nr:$nrId', e, st);
       return false;
     } finally {
-      downloadingNrIds.remove(nrId);
-      downloadingNrIds.refresh();
+      _trackNrDownloadEnd(nrId);
     }
   }
 
@@ -586,39 +693,26 @@ class ContentService extends GetxService {
         StorageKeys.nrSearchIndexSyncedHash(entry.id),
         entry.hash,
       );
+      _notifyAssetsUpdated(entry.id);
     } catch (e, st) {
       AppLogger.error('Erro ao baixar core de NR ${entry.id}', e, st);
       rethrow;
     }
   }
 
-  Future<void> _ensureAssetsDownloaded(ManifestEntry entry) async {
-    if (isNrFullyCached(entry.id)) return;
-
-    final pending = _pendingAssetDownloads[entry.id];
-    if (pending != null) {
-      await pending;
-      return;
-    }
-
-    final future = _downloadNrAssets(entry);
-    _pendingAssetDownloads[entry.id] = future;
-    try {
-      await future;
-    } finally {
-      _pendingAssetDownloads.remove(entry.id);
-    }
-  }
-
   Future<void> _downloadNrAssets(ManifestEntry entry) async {
+    final nrId = entry.id;
+
     try {
-      final nrDir = Directory('${_cacheDir.path}/content/${entry.id}');
-      await _downloadAssets(nrDir, entry.id);
-      GetStorage().write(StorageKeys.nrLastSyncedHash(entry.id), entry.hash);
-      _notifyAssetsUpdated(entry.id);
-      AppLogger.info('Assets de ${entry.id} sincronizados');
+      final nrDir = Directory('${_cacheDir.path}/content/$nrId');
+      await _downloadAssets(nrDir, nrId);
+      GetStorage().write(StorageKeys.nrLastSyncedHash(nrId), entry.hash);
+      _notifyAssetsUpdated(nrId);
+      _updateOfflineDownloadNeeded();
+      AppLogger.info('Assets de $nrId sincronizados');
     } catch (e, st) {
-      AppLogger.error('Erro ao baixar assets de ${entry.id}', e, st);
+      AppLogger.error('Erro ao baixar assets de $nrId', e, st);
+      await reportUnexpectedError('download_nr_assets:$nrId', e, st);
     }
   }
 
@@ -792,6 +886,7 @@ class ContentService extends GetxService {
       return null;
     } catch (e, st) {
       AppLogger.error('Erro ao baixar manifest', e, st);
+      await reportUnexpectedError('download_manifest', e, st);
       return null;
     }
   }

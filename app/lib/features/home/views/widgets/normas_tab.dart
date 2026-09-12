@@ -84,9 +84,6 @@ class NormasTab extends StatelessWidget {
                 nrEntry: entry,
                 contentService: contentService,
                 isRevoked: entry.isRevoked,
-                showNotDownloaded:
-                    !entry.isRevoked &&
-                    !contentService.isNrFullyCached(entry.id),
                 onTap: () => _openNr(entry),
               );
             }, childCount: entries.length),

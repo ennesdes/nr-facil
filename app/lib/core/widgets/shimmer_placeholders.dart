@@ -155,15 +155,19 @@ class _NormasHeaderShimmer extends StatelessWidget {
 
 /// Shimmer do corpo do leitor normativo.
 class ReaderBodyShimmer extends StatelessWidget {
-  const ReaderBodyShimmer({super.key});
+  const ReaderBodyShimmer({this.showHeader = true, super.key});
+
+  final bool showHeader;
 
   @override
   Widget build(BuildContext context) {
     return ListView(
       padding: const EdgeInsets.all(AppSpacing.md),
       children: [
-        const AppShimmerBox(width: 180, height: 24),
-        const SizedBox(height: AppSpacing.lg),
+        if (showHeader) ...[
+          const AppShimmerBox(width: 180, height: 24),
+          const SizedBox(height: AppSpacing.lg),
+        ],
         for (var i = 0; i < 6; i++) ...[
           const AppShimmerBox(width: double.infinity, height: 14),
           const SizedBox(height: AppSpacing.sm),

@@ -67,7 +67,18 @@ class SettingsPage extends GetView<ThemeController> {
                       size: 20,
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
                     ),
-                    onTap: _openPrivacyPolicy,
+                    onTap: () => _openExternalUrl(AppConfig.privacyPolicyUrl),
+                  ),
+                  SettingsActionTile(
+                    icon: Icons.description_outlined,
+                    title: 'Termos de uso',
+                    subtitle: 'Condições de uso do aplicativo',
+                    trailing: Icon(
+                      Icons.open_in_new,
+                      size: 20,
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                    onTap: () => _openExternalUrl(AppConfig.termsOfUseUrl),
                   ),
                 ],
               ),
@@ -93,8 +104,6 @@ class SettingsPage extends GetView<ThemeController> {
     }
   }
 
-  Future<void> _openPrivacyPolicy() async =>
-      _openExternalUrl(AppConfig.privacyPolicyUrl);
 }
 
 class _AboutSection extends StatefulWidget {

@@ -75,14 +75,27 @@ class HomeController extends GetxController {
     unawaited(Get.find<SearchScreenController>().openWithQuery(query));
   }
 
+  static const _prefetchFavoritesDelay = Duration(seconds: 2);
+
   Future<void> _runStartupSync() async {
     final ok = await contentService.syncMetadata();
     if (!ok) return;
 
     await _checkForcedUpdate();
 
+    // Prefetch de favoritas só depois da UI estabilizar — boot leve na 1ª abertura.
+    unawaited(
+      Future<void>.delayed(_prefetchFavoritesDelay, () async {
+        if (!isClosed) {
+          await contentService.prefetchFavorites();
+        }
+      }),
+    );
+  }
+
+  void _ensureSearchIndicesWhenNeeded(int tabIndex) {
+    if (tabIndex != tabBuscar) return;
     unawaited(contentService.syncSearchIndices());
-    unawaited(contentService.prefetchFavorites());
   }
 
   @override
@@ -105,5 +118,6 @@ class HomeController extends GetxController {
   /// Mudar aba selecionada.
   void selectTab(int index) {
     selectedTab.value = index;
+    _ensureSearchIndicesWhenNeeded(index);
   }
 }

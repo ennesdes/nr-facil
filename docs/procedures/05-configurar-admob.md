@@ -79,6 +79,30 @@ Use IDs oficiais de teste do Google durante dev — **nunca clique em seus próp
 
 Guia completo: [docs/CI_SETUP.md](../CI_SETUP.md)
 
+### 9. app-ads.txt (verificação IAB)
+
+O AdMob exige um arquivo `app-ads.txt` na **raiz do site de desenvolvedor** cadastrado na Play Console (campo *Website* / *Site do desenvolvedor*). O domínio deve ser **idêntico** ao da loja.
+
+Conteúdo (publisher ID do NR Fácil):
+
+```
+google.com, pub-9387860031191709, DIRECT, f08c47fec0942fa0
+```
+
+| Site na Play Console | Onde publicar | URL final |
+|----------------------|---------------|-----------|
+| `https://solvebetter.com.br` | `site-solve-better/public/app-ads.txt` → deploy Vercel | `https://solvebetter.com.br/app-ads.txt` |
+| `https://ennesdes.github.io/nr-facil` (legado) | `docs/app-ads.txt` neste repo → GitHub Pages (`/docs`) | `https://ennesdes.github.io/nr-facil/app-ads.txt` |
+
+**Passos:**
+
+1. Confira em Play Console → **Presença na loja → Detalhes da loja** qual URL está no campo *Website*.
+2. Publique o arquivo no caminho correspondente (tabela acima).
+3. Teste no navegador: a URL deve retornar **200** e o texto puro acima (sem HTML).
+4. AdMob → **Configurações do app → app-ads.txt → Rastrear** (pode levar minutos ou horas).
+
+Se o site tiver subcaminho (ex.: `https://example.com/apps/nr-facil/`), o arquivo vai em `…/apps/nr-facil/app-ads.txt`, não na raiz do domínio.
+
 ## Troubleshooting
 
 | Problema | Solução |
@@ -86,6 +110,8 @@ Guia completo: [docs/CI_SETUP.md](../CI_SETUP.md)
 | Ad não carrega | Use IDs de teste; confira internet; aguarde 24h após criar unidade |
 | Conta AdMob suspensa | Não clique nos próprios anúncios; use dispositivos de teste |
 | Política rejeitada | Conteúdo público MTE é ok; tenha privacy policy publicada |
+| app-ads.txt não encontrado | URL 404 → confira site na Play Console e caminho do arquivo; aguarde cache do Google |
+| app-ads.txt inválido | Uma linha por entrada; sem HTML; publisher ID = parte numérica do App ID (`pub-…`) |
 
 ## Próximo passo
 

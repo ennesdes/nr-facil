@@ -111,7 +111,7 @@ Presença na loja → **Ficha principal** (idioma: Português (Brasil)):
 
 Outros campos (procedure 07):
 
-- [ ] Política de privacidade (URL GitHub Pages)
+- [ ] Política de privacidade: https://solvebetter.com.br/apps/nr-facil/privacidade/
 - [ ] Classificação de conteúdo
 - [ ] Anúncios: sim | Compras no app: sim (remove anúncios, Fase 6)
 - [ ] Data safety declarado honestamente

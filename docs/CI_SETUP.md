@@ -121,13 +121,16 @@ cd app
 fvm flutter build appbundle --release \
   --obfuscate \
   --split-debug-info=build/app/outputs/symbols \
+  --dart-define=ADMOB_APP_ID="$ADMOB_APP_ID" \
   --dart-define=ADMOB_BANNER_UNIT_ID="$ADMOB_BANNER_UNIT_ID" \
   --dart-define=ADMOB_INTERSTITIAL_UNIT_ID="$ADMOB_INTERSTITIAL_UNIT_ID"
 ```
 
 AAB: `app/build/app/outputs/bundle/release/app-release.aab`
 
-**Ofuscação:** o CI e o comando acima usam `--obfuscate` (Dart) + R8 (`minifyEnabled` no Gradle). Isso dificulta engenharia reversa, mas **não esconde** IDs AdMob nem outras strings necessárias em runtime.
+Antes de publicar, vale abrir uma vez em **release** no emulador ou celular (`fvm flutter run --release` em `app/`) — debug não usa R8 e não reproduz o crash da v3.
+
+**Ofuscação:**
 
 **Símbolos:** guarde `build/app/outputs/symbols/` localmente (ou baixe o artefato `app-release-symbols` do job de build no GitHub Actions) para desofuscar stack traces de crash com `flutter symbolize`.
 
@@ -159,7 +162,7 @@ Necessário para cache, commits automáticos de format e version bump.
 - [ ] `PLAY_SERVICE_ACCOUNT_JSON` cadastrado
 - [ ] Keystore gerado + 4 secrets de assinatura
 - [ ] App + unidades criadas no AdMob + 3 secrets AdMob
-- [ ] Política de privacidade publicada ([08-github-pages-privacidade.md](procedures/08-github-pages-privacidade.md))
+- [ ] Política de privacidade publicada em https://solvebetter.com.br/apps/nr-facil/privacidade/ ([08-github-pages-privacidade.md](procedures/08-github-pages-privacidade.md))
 - [ ] Workflow permissions = Read and write
 - [ ] Primeiro deploy no track `internal`
 

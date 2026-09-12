@@ -89,8 +89,6 @@ class _FavoritosTabState extends State<FavoritosTab> {
       nrEntry: entry,
       contentService: contentService,
       isRevoked: entry.isRevoked,
-      showNotDownloaded:
-          !entry.isRevoked && !contentService.isNrFullyCached(nrId),
       hideStarButton: entry.isRevoked,
       onTap: () {
         if (entry.isRevoked) {

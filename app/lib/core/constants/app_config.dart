@@ -77,7 +77,11 @@ class AppConfig {
   /// Habilitar anúncios (banner na Home; interstitial ao sair do leitor).
   static const bool adsEnabled = true;
 
-  /// Política de privacidade (GitHub Pages). Ver docs/procedures/08-github-pages-privacidade.md
+  /// Política de privacidade (site Solve Better). Ver docs/procedures/08-github-pages-privacidade.md
   static const String privacyPolicyUrl =
-      'https://ennesdes.github.io/nr-facil/privacy-policy';
+      'https://solvebetter.com.br/apps/nr-facil/privacidade/';
+
+  /// Termos de uso (site Solve Better).
+  static const String termsOfUseUrl =
+      'https://solvebetter.com.br/apps/nr-facil/termos/';
 }
