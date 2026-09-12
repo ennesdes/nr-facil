@@ -6,7 +6,7 @@ O workflow roda em **uma VM** (job único), com etapas numeradas no log:
 2. **Format · Fix** — `dart fix` + `dart format` (commit automático se mudar algo)
 3. **Analyze + Testes** — `flutter analyze` e `flutter test` **em paralelo** na mesma VM
 4. **Assinar · Build AAB** — version bump local, keystore, AdMob via secrets, build release
-5. **Publicar Play Store** — upload no track escolhido (`internal` / `production`)
+5. **Publicar Play Store** — upload na faixa `production`
 6. **Version bump** — commita `app/pubspec.yaml` após publish ok
 
 **Performance:** checkout, setup Flutter e `pub get` rodam **uma vez** no início (via [`.github/actions/flutter-setup`](../.github/actions/flutter-setup/action.yml)). O build usa `--no-pub` porque as deps já estão resolvidas na mesma VM. Símbolos Dart sobem como artefato opcional (`app-release-symbols`, 90 dias).
@@ -149,9 +149,8 @@ Necessário para cache, commits automáticos de format e version bump.
 1. Confirme os **8 secrets** cadastrados
 2. GitHub → **Actions** → **Deploy Play Store** → **Run workflow**
 3. Branch: `main`
-4. Track: `internal` + status `draft` (primeiro deploy) — finalize no Play Console
-5. Depois do app publicado: `production` + status `completed`
-6. Acompanhe o **Job Summary** e os steps numerados no log
+4. Um input: **Mode** — `auto` (padrão: envia para revisão) ou `manual` (só upload; você envia no Console)
+5. Acompanhe o **Job Summary** e os steps numerados no log
 
 ---
 
@@ -164,7 +163,7 @@ Necessário para cache, commits automáticos de format e version bump.
 - [ ] App + unidades criadas no AdMob + 3 secrets AdMob
 - [ ] Política de privacidade publicada em https://solvebetter.com.br/apps/nr-facil/privacidade/ ([08-github-pages-privacidade.md](procedures/08-github-pages-privacidade.md))
 - [ ] Workflow permissions = Read and write
-- [ ] Primeiro deploy no track `internal`
+- [ ] Primeiro deploy validado no Play Console
 
 ---
 
@@ -172,7 +171,9 @@ Necessário para cache, commits automáticos de format e version bump.
 
 | Problema | Solução |
 |----------|---------|
-| `Only releases with status draft may be created on draft app` | App ainda em rascunho no Play Console — rode com track `internal` e status `draft`; abra o Play Console, preencha ficha/classificação e clique **Revisar e lançar** manualmente |
+| `Only releases with status draft may be created on draft app` | App ainda em rascunho no Play Console — finalize a ficha no Console e use mode `manual` |
+| `Changes cannot be sent for review automatically` | Rode com mode `manual`; após o upload, envie para revisão no Play Console → Visão geral da publicação |
+| `changesNotSentForReview must not be set` | Rode com mode `auto` (padrão) — o Play não aceita deferir revisão nesse estado |
 | `Missing required secret(s): ADMOB_*` | Cadastre os 3 secrets AdMob no GitHub |
 | `versionCode` duplicado | Workflow incrementa automaticamente; confira se o bump foi commitado |
 | Ad não carrega em teste interno | Aguarde até 24h após criar unidade; use dispositivo de teste no AdMob |

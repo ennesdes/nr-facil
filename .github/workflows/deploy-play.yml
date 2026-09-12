@@ -3,22 +3,15 @@ name: Deploy Play Store
 on:
   workflow_dispatch:
     inputs:
-      track:
-        description: Play Store track de destino
+      mode:
+        description: auto = envia para revisão · manual = só upload (você envia no Console)
         type: choice
         options:
-          - internal
-          - production
-        default: internal
-      status:
-        description: Status do release (app em rascunho na Play Console exige draft)
-        type: choice
-        options:
-          - draft
-          - completed
-        default: draft
+          - auto
+          - manual
+        default: auto
 
-run-name: Deploy → ${{ inputs.track }} · ${{ inputs.status }} · ${{ github.ref_name }}
+run-name: Deploy → production · ${{ inputs.mode }} · ${{ github.ref_name }}
 
 permissions:
   contents: write
@@ -36,7 +29,7 @@ env:
 
 jobs:
   deploy:
-    name: Deploy → ${{ inputs.track }}
+    name: Deploy → production
     runs-on: ubuntu-latest
     steps:
       - name: "Plano — pipeline"
@@ -51,9 +44,13 @@ jobs:
             echo "| 3 | Format · Fix |"
             echo "| 4 | Analyze + Testes |"
             echo "| 5 | Build release (AAB) |"
-            echo "| 6 | Publicar Play Store |"
+            echo "| 6 | Publicar Play Store (${{ inputs.mode }}) |"
             echo "| 7 | Version bump |"
             echo ""
+            if [[ "${{ inputs.mode }}" == "manual" ]]; then
+              echo "> **Modo manual:** após o upload, abra o Play Console → Visão geral da publicação → crie a versão e **Enviar para revisão**."
+              echo ""
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Checkout
@@ -117,8 +114,9 @@ jobs:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
           packageName: br.com.solvebetter.nrfacil
           releaseFiles: app/build/app/outputs/bundle/release/app-release.aab
-          tracks: ${{ inputs.track }}
-          status: ${{ inputs.status }}
+          tracks: production
+          status: completed
+          changesNotSentForReview: ${{ inputs.mode == 'manual' }}
 
       - name: "7 · Version bump"
         env:
@@ -137,8 +135,16 @@ jobs:
             echo ""
             echo "| Campo | Valor |"
             echo "|-------|-------|"
-            echo "| Track | \`${{ inputs.track }}\` |"
+            echo "| Modo | \`${{ inputs.mode }}\` |"
             echo "| Versão | \`${NEW_VERSION}\` |"
             echo "| Branch | \`${{ github.ref_name }}\` |"
             echo ""
+            if [[ "${{ inputs.mode }}" == "manual" ]]; then
+              echo "### Próximo passo (manual)"
+              echo ""
+              echo "1. [Play Console](https://play.google.com/console/) → NR Fácil → **Visão geral da publicação**"
+              echo "2. Confira o AAB em **Produção**, ajuste notas da versão se precisar"
+              echo "3. Clique em **Enviar para revisão**"
+              echo ""
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
