@@ -8,7 +8,9 @@ import 'package:flutter/foundation.dart';
 Future<void> configurePerformanceMonitoring() async {
   if (kIsWeb) return;
 
-  await FirebasePerformance.instance.setPerformanceCollectionEnabled(!kDebugMode);
+  await FirebasePerformance.instance.setPerformanceCollectionEnabled(
+    !kDebugMode,
+  );
 }
 
 /// Executa [action] dentro de um custom trace (release apenas).

@@ -103,7 +103,6 @@ class SettingsPage extends GetView<ThemeController> {
       AppLogger.error('Erro ao abrir URL externa', e);
     }
   }
-
 }
 
 class _AboutSection extends StatefulWidget {

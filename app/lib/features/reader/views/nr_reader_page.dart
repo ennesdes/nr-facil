@@ -100,8 +100,7 @@ class NRReaderPage extends GetView<NRReaderController> {
 
   Widget _buildBody(BuildContext context) {
     if (controller.isLoading.value || controller.isDownloading.value) {
-      final label =
-          controller.nrEntry.value?.nrLabel ?? formatNrLabel(nrId);
+      final label = controller.nrEntry.value?.nrLabel ?? formatNrLabel(nrId);
       return NrDownloadLoadingView(
         title: controller.isDownloading.value
             ? 'Baixando $label…'

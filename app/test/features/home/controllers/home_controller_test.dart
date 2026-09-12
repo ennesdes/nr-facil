@@ -120,15 +120,18 @@ void main() {
       expect(homeController.selectedTab.value, HomeController.tabNormas);
     });
 
-    test('startup não baixa índices de busca (adiado para aba Buscar)', () async {
-      fakeContentService.favoriteIds.clear();
-      fakeContentService._forcedUpdateRequired = false;
+    test(
+      'startup não baixa índices de busca (adiado para aba Buscar)',
+      () async {
+        fakeContentService.favoriteIds.clear();
+        fakeContentService._forcedUpdateRequired = false;
 
-      await homeController.onInit();
-      await Future<void>.delayed(const Duration(milliseconds: 100));
+        await homeController.onInit();
+        await Future<void>.delayed(const Duration(milliseconds: 100));
 
-      expect(fakeContentService.syncSearchIndicesCallCount, 0);
-    });
+        expect(fakeContentService.syncSearchIndicesCallCount, 0);
+      },
+    );
 
     test('selectTab na aba Buscar dispara sync de índices', () async {
       fakeContentService.favoriteIds.clear();

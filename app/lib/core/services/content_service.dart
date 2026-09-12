@@ -256,41 +256,36 @@ class ContentService extends GetxService {
     );
 
     try {
-      await _forEachConcurrent(
-        entries,
-        (nrEntry) async {
-          final localHash = GetStorage().read(
-            StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+      await _forEachConcurrent(entries, (nrEntry) async {
+        final localHash = GetStorage().read(
+          StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+        );
+        if (nrEntry.hash == localHash) {
+          return;
+        }
+
+        try {
+          final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
+          if (!nrDir.existsSync()) {
+            nrDir.createSync(recursive: true);
+          }
+
+          await _downloadFile(
+            url: '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
+            savePath: '${nrDir.path}/search_index.json',
+            retries: AppConfig.maxRetries,
           );
-          if (nrEntry.hash == localHash) {
-            return;
-          }
 
-          try {
-            final nrDir = Directory('${_cacheDir.path}/content/${nrEntry.id}');
-            if (!nrDir.existsSync()) {
-              nrDir.createSync(recursive: true);
-            }
-
-            await _downloadFile(
-              url:
-                  '${AppConfig.contentBaseUrl}/${nrEntry.id}/search_index.json',
-              savePath: '${nrDir.path}/search_index.json',
-              retries: AppConfig.maxRetries,
-            );
-
-            GetStorage().write(
-              StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
-              nrEntry.hash,
-            );
-          } catch (e) {
-            AppLogger.warning(
-              'Falha ao baixar search_index de ${nrEntry.id}: $e',
-            );
-          }
-        },
-        concurrency: _searchIndexDownloadConcurrency,
-      );
+          GetStorage().write(
+            StorageKeys.nrSearchIndexSyncedHash(nrEntry.id),
+            nrEntry.hash,
+          );
+        } catch (e) {
+          AppLogger.warning(
+            'Falha ao baixar search_index de ${nrEntry.id}: $e',
+          );
+        }
+      }, concurrency: _searchIndexDownloadConcurrency);
 
       AppLogger.info('Índices de busca sincronizados');
     } finally {
@@ -371,102 +366,102 @@ class ContentService extends GetxService {
 
     try {
       return await runPerformanceTrace('sync_all_content', () async {
-      final metadataOk = await _fetchRemoteMetadata();
-      if (_bulkSyncCancelRequested) {
+        final metadataOk = await _fetchRemoteMetadata();
+        if (_bulkSyncCancelRequested) {
+          return SyncAllContentResult(
+            success: true,
+            downloadedCount: 0,
+            totalToDownload: 0,
+            reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+            cancelled: true,
+          );
+        }
+
+        if (!metadataOk && manifest.value == null) {
+          return const SyncAllContentResult(
+            success: false,
+            downloadedCount: 0,
+            totalToDownload: 0,
+            reachedNetwork: false,
+          );
+        }
+
+        final remoteManifest = manifest.value;
+        if (remoteManifest == null) {
+          return const SyncAllContentResult(
+            success: false,
+            downloadedCount: 0,
+            totalToDownload: 0,
+            reachedNetwork: false,
+          );
+        }
+
+        final toDownload = remoteManifest.nrs
+            .where((entry) => _needsFullDownload(entry))
+            .toList();
+        totalToDownload = toDownload.length;
+
+        bulkSyncProgress.value = BulkSyncProgress(
+          completed: 0,
+          total: totalToDownload,
+          phase: BulkSyncPhase.downloading,
+        );
+
+        for (final nrEntry in toDownload) {
+          if (_bulkSyncCancelRequested) {
+            AppLogger.info(
+              'Download em massa cancelado após $downloadedCount de '
+              '$totalToDownload normas',
+            );
+            return SyncAllContentResult(
+              success: true,
+              downloadedCount: downloadedCount,
+              totalToDownload: totalToDownload,
+              reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+              cancelled: true,
+            );
+          }
+
+          bulkSyncProgress.value = BulkSyncProgress(
+            completed: downloadedCount,
+            total: totalToDownload,
+            currentNrLabel: nrEntry.nrLabel,
+            phase: BulkSyncPhase.downloading,
+          );
+
+          AppLogger.info('Sincronizando NR ${nrEntry.id}...');
+          await _downloadNr(nrEntry);
+          downloadedCount++;
+
+          if (_bulkSyncCancelRequested) {
+            AppLogger.info(
+              'Download em massa cancelado após $downloadedCount de '
+              '$totalToDownload normas',
+            );
+            return SyncAllContentResult(
+              success: true,
+              downloadedCount: downloadedCount,
+              totalToDownload: totalToDownload,
+              reachedNetwork: lastSyncedAt.value != previousSyncedAt,
+              cancelled: true,
+            );
+          }
+
+          bulkSyncProgress.value = BulkSyncProgress(
+            completed: downloadedCount,
+            total: totalToDownload,
+            currentNrLabel: nrEntry.nrLabel,
+            phase: BulkSyncPhase.downloading,
+          );
+        }
+
+        AppLogger.info('Sincronização completa concluída com sucesso');
         return SyncAllContentResult(
           success: true,
-          downloadedCount: 0,
-          totalToDownload: 0,
+          downloadedCount: downloadedCount,
+          totalToDownload: totalToDownload,
           reachedNetwork: lastSyncedAt.value != previousSyncedAt,
-          cancelled: true,
         );
-      }
-
-      if (!metadataOk && manifest.value == null) {
-        return const SyncAllContentResult(
-          success: false,
-          downloadedCount: 0,
-          totalToDownload: 0,
-          reachedNetwork: false,
-        );
-      }
-
-      final remoteManifest = manifest.value;
-      if (remoteManifest == null) {
-        return const SyncAllContentResult(
-          success: false,
-          downloadedCount: 0,
-          totalToDownload: 0,
-          reachedNetwork: false,
-        );
-      }
-
-      final toDownload = remoteManifest.nrs
-          .where((entry) => _needsFullDownload(entry))
-          .toList();
-      totalToDownload = toDownload.length;
-
-      bulkSyncProgress.value = BulkSyncProgress(
-        completed: 0,
-        total: totalToDownload,
-        phase: BulkSyncPhase.downloading,
-      );
-
-      for (final nrEntry in toDownload) {
-        if (_bulkSyncCancelRequested) {
-          AppLogger.info(
-            'Download em massa cancelado após $downloadedCount de '
-            '$totalToDownload normas',
-          );
-          return SyncAllContentResult(
-            success: true,
-            downloadedCount: downloadedCount,
-            totalToDownload: totalToDownload,
-            reachedNetwork: lastSyncedAt.value != previousSyncedAt,
-            cancelled: true,
-          );
-        }
-
-        bulkSyncProgress.value = BulkSyncProgress(
-          completed: downloadedCount,
-          total: totalToDownload,
-          currentNrLabel: nrEntry.nrLabel,
-          phase: BulkSyncPhase.downloading,
-        );
-
-        AppLogger.info('Sincronizando NR ${nrEntry.id}...');
-        await _downloadNr(nrEntry);
-        downloadedCount++;
-
-        if (_bulkSyncCancelRequested) {
-          AppLogger.info(
-            'Download em massa cancelado após $downloadedCount de '
-            '$totalToDownload normas',
-          );
-          return SyncAllContentResult(
-            success: true,
-            downloadedCount: downloadedCount,
-            totalToDownload: totalToDownload,
-            reachedNetwork: lastSyncedAt.value != previousSyncedAt,
-            cancelled: true,
-          );
-        }
-
-        bulkSyncProgress.value = BulkSyncProgress(
-          completed: downloadedCount,
-          total: totalToDownload,
-          currentNrLabel: nrEntry.nrLabel,
-          phase: BulkSyncPhase.downloading,
-        );
-      }
-
-      AppLogger.info('Sincronização completa concluída com sucesso');
-      return SyncAllContentResult(
-        success: true,
-        downloadedCount: downloadedCount,
-        totalToDownload: totalToDownload,
-        reachedNetwork: lastSyncedAt.value != previousSyncedAt,
-      );
       });
     } catch (e, st) {
       lastError.value = UserMessages.syncFailed;
@@ -561,19 +556,15 @@ class ContentService extends GetxService {
     final nrId = entry.id;
     _trackNrDownloadStart(nrId);
     try {
-      return await runPerformanceTrace(
-        'download_for_reading',
-        () async {
-          if (!isNrContentCached(nrId)) {
-            await _downloadNrCore(entry);
-          }
-          if (!isNrFullyCached(nrId)) {
-            await _downloadNrAssets(entry);
-          }
-          return isNrContentCached(nrId);
-        },
-        attributes: {'nr_id': nrId},
-      );
+      return await runPerformanceTrace('download_for_reading', () async {
+        if (!isNrContentCached(nrId)) {
+          await _downloadNrCore(entry);
+        }
+        if (!isNrFullyCached(nrId)) {
+          await _downloadNrAssets(entry);
+        }
+        return isNrContentCached(nrId);
+      }, attributes: {'nr_id': nrId});
     } catch (e, st) {
       lastError.value = UserMessages.nrDownloadFailed;
       AppLogger.error('Erro no download para leitura de $nrId', e, st);

@@ -114,9 +114,10 @@ class _PulsingDownloadIconState extends State<_PulsingDownloadIcon>
       vsync: this,
       duration: const Duration(milliseconds: 900),
     )..repeat(reverse: true);
-    _scale = Tween<double>(begin: 0.92, end: 1.08).animate(
-      CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
-    );
+    _scale = Tween<double>(
+      begin: 0.92,
+      end: 1.08,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOut));
   }
 
   @override
@@ -155,10 +156,7 @@ class NrListTileDownloadOverlay extends StatelessWidget {
         decoration: BoxDecoration(
           color: colorScheme.surface.withValues(alpha: 0.78),
         ),
-        child: NrDownloadLoadingView(
-          title: 'Baixando $label…',
-          compact: true,
-        ),
+        child: NrDownloadLoadingView(title: 'Baixando $label…', compact: true),
       ),
     );
   }
