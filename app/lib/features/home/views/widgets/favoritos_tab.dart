@@ -58,18 +58,28 @@ class _FavoritosTabState extends State<FavoritosTab> {
   }
 
   void _maybeNotifyRevokedFavorites(ContentService contentService) {
-    if (_revokedSnackShown) return;
-
-    final hasRevoked = contentService.favoriteIds.any((id) {
+    final revokedIds = contentService.favoriteIds.where((id) {
       final entry = contentService.manifest.value?.findNr(id);
       return entry?.isRevoked == true;
+    }).toList();
+
+    if (revokedIds.isEmpty) return;
+
+    // Adia a mutação de favoriteIds (observado por este próprio Obx) para
+    // depois do build atual, evitando setState/rebuild durante o build.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      for (final id in revokedIds) {
+        if (contentService.isFavorite(id)) {
+          contentService.toggleFavorite(id);
+        }
+      }
     });
 
-    if (hasRevoked) {
+    if (!_revokedSnackShown) {
       _revokedSnackShown = true;
       AppSnackbar.showInfo(
-        title: 'Favorito revogado',
-        message: 'Uma ou mais normas favoritas foram revogadas. Toque para ver detalhes.',
+        title: 'Favorito removido',
+        message: 'Uma ou mais normas favoritas foram revogadas e removidas dos favoritos.',
       );
     }
   }

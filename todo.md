@@ -75,14 +75,14 @@
 
 ## Fase 5 — Monetização (ads) e publicação (Semana 4)
 
-- [ ] 32 Configurar AdMob → [docs/procedures/05-configurar-admob.md](docs/procedures/05-configurar-admob.md)
-- [ ] 33 AdMob no app (banner só em listas) → [docs/prompts.md#i9](docs/prompts.md#i9)
-- [ ] 34 Gerar keystore → [docs/procedures/06-gerar-keystore.md](docs/procedures/06-gerar-keystore.md)
-- [ ] 35 Build release AAB → [docs/prompts.md#i10](docs/prompts.md#i10)
-- [ ] 36 Privacy policy + GitHub Pages → [docs/procedures/08-github-pages-privacidade.md](docs/procedures/08-github-pages-privacidade.md)
-- [ ] 37 Publicar Play Store → [docs/procedures/07-publicar-play-store.md](docs/procedures/07-publicar-play-store.md)
-- [ ] 38 review-bugbot + security-review antes de publicar
-- [ ] 39 Teste interno → produção
+- [x] 32 Configurar AdMob → [docs/procedures/05-configurar-admob.md](docs/procedures/05-configurar-admob.md)
+- [x] 33 AdMob no app (banner só em listas) → [docs/prompts.md#i9](docs/prompts.md#i9)
+- [x] 34 Gerar keystore → [docs/procedures/06-gerar-keystore.md](docs/procedures/06-gerar-keystore.md)
+- [x] 35 Build release AAB → [docs/prompts.md#i10](docs/prompts.md#i10)
+- [x] 36 Privacy policy + GitHub Pages → [docs/procedures/08-github-pages-privacidade.md](docs/procedures/08-github-pages-privacidade.md)
+- [x] 37 Publicar Play Store → [docs/procedures/07-publicar-play-store.md](docs/procedures/07-publicar-play-store.md)
+- [x] 38 review-bugbot + security-review antes de publicar
+- [x] 39 Teste interno → produção
 
 **Pronto quando:** AAB no teste interno; versão grátis + ads funciona; app publicado.
 

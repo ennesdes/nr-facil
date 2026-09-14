@@ -4,6 +4,7 @@ import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/display_text_utils.dart';
+import 'package:nrfacil/core/utils/tap_debouncer.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/core/widgets/nr_download_loading.dart';
@@ -49,7 +50,10 @@ class ReactiveNrListTile extends StatelessWidget {
             showNotDownloaded: showNotDownloaded,
             hideStarButton: hideStarButton,
             onTap: onTap,
-            onToggleFavorite: () => contentService.toggleFavorite(nrEntry.id),
+            onToggleFavorite: () => TapDebouncer.run(
+              'favorite:${nrEntry.id}',
+              () => contentService.toggleFavorite(nrEntry.id),
+            ),
           ),
           if (contentService.isNrDownloading(nrEntry.id))
             NrListTileDownloadOverlay(label: nrEntry.nrLabel),

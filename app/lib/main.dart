@@ -38,6 +38,9 @@ Future<void> main() async {
 
   await GetStorage.init();
 
+  // Necessário aqui (não basta o registro em AppBinding): MyApp é
+  // GetView<ThemeController> e seu build() chama Get.find<ThemeController>()
+  // antes do GetMaterialApp.initialBinding (AppBinding) ser executado.
   Get.put(ThemeController(), permanent: true);
 
   if (AppConfig.adsEnabled && !kIsWeb) {

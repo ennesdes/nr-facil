@@ -12,6 +12,7 @@ import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/services/search_service.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
+import 'package:nrfacil/core/utils/tap_debouncer.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/features/reader/models/nr_search_hit.dart';
 import 'package:nrfacil/features/reader/utils/nr_document_search.dart';
@@ -895,8 +896,10 @@ class NRReaderController extends GetxController {
   }
 
   void toggleFavorite() {
-    contentService.toggleFavorite(nrId);
-    _isFavorite.value = contentService.isFavorite(nrId);
+    TapDebouncer.run('favorite:$nrId', () {
+      contentService.toggleFavorite(nrId);
+      _isFavorite.value = contentService.isFavorite(nrId);
+    });
   }
 
   void dismissUpdateBanner() {
