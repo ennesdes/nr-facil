@@ -52,7 +52,7 @@ O texto das NRs provém exclusivamente de publicações do governo federal. Para
 
 • Ministério do Trabalho e Emprego: https://www.gov.br/trabalho-e-emprego
 • Índice oficial das Normas Regulamentadoras: https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs
-• Diário Oficial da União (publicação das portarias): https://www.in.gov.br/servicos/diario-oficial-da-uniao
+• Diário Oficial da União (publicação das portarias): https://www.in.gov.br/leiturajornal
 
 IMPORTANTE
 Este aplicativo NÃO é governamental e NÃO representa o Ministério do Trabalho e Emprego nem qualquer órgão público. Disponibiliza conteúdo público oficial das Normas Regulamentadoras, organizado para leitura no celular. O conteúdo não substitui a consulta às publicações oficiais nos links acima.
