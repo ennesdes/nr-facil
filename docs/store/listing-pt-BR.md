@@ -47,15 +47,21 @@ POR QUE O NR FÁCIL
 NORMAS DISPONÍVEIS
 O app sincroniza as Normas Regulamentadoras vigentes publicadas pelo MTE. NRs revogadas aparecem identificadas, com link para o PDF histórico quando aplicável.
 
-FONTES OFICIAIS
-O texto das NRs provém exclusivamente de publicações do governo federal. Para verificar a informação exibida no app, consulte:
+FONTES OFICIAIS (VERIFICAÇÃO)
+O texto normativo exibido no app é extraído dos PDFs oficiais do governo federal. Para conferir a informação, consulte:
 
 • Ministério do Trabalho e Emprego: https://www.gov.br/trabalho-e-emprego
 • Índice oficial das Normas Regulamentadoras: https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs
-• Diário Oficial da União (publicação das portarias): https://www.in.gov.br/leiturajornal
+• PDF original de cada NR: no índice acima ou pelo botão "Ver PDF original no MTE" dentro do app
+• Diário Oficial da União (publicação das portarias que alteram as NRs): https://www.in.gov.br/leiturajornal
 
-IMPORTANTE
-Este aplicativo NÃO é governamental e NÃO representa o Ministério do Trabalho e Emprego nem qualquer órgão público. Disponibiliza conteúdo público oficial das Normas Regulamentadoras, organizado para leitura no celular. O conteúdo não substitui a consulta às publicações oficiais nos links acima.
+COMO O APP RECEBE ATUALIZAÇÕES
+O app não possui servidor próprio. O conteúdo organizado para leitura no celular é distribuído a partir de um repositório público no GitHub, atualizado automaticamente a partir dos PDFs oficiais do MTE:
+
+• Repositório de conteúdo: https://github.com/ennesdes/nr-facil
+
+IMPORTANTE — NÃO GOVERNAMENTAL
+Este aplicativo NÃO é governamental e NÃO representa o Ministério do Trabalho e Emprego nem qualquer órgão público. É uma ferramenta independente que organiza conteúdo público oficial das Normas Regulamentadoras para leitura no celular. O conteúdo não substitui a consulta às publicações oficiais nos links acima.
 
 Baixe o NR Fácil e tenha as normas do trabalho sempre à mão.
 ```

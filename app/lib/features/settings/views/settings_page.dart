@@ -36,13 +36,36 @@ class SettingsPage extends GetView<ThemeController> {
               SettingsSectionCard(
                 title: 'Fontes oficiais',
                 description:
-                    'O conteúdo normativo é de domínio público e provém '
-                    'das publicações do governo federal. Consulte as fontes '
+                    'O texto normativo é de domínio público e provém dos '
+                    'PDFs oficiais do governo federal. Consulte as fontes '
                     'abaixo para verificar a informação.',
                 children: [
                   for (final source in OfficialSources.entries)
                     SettingsActionTile(
                       icon: Icons.public,
+                      title: source.title,
+                      subtitle: source.subtitle,
+                      trailing: Icon(
+                        Icons.open_in_new,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      onTap: () => _openExternalUrl(source.url),
+                    ),
+                ],
+              ),
+              const SizedBox(height: AppSpacing.md),
+              SettingsSectionCard(
+                title: 'Atualizações do conteúdo',
+                description:
+                    'O app não possui servidor próprio. O conteúdo '
+                    'organizado para leitura no celular é distribuído a '
+                    'partir de um repositório público, atualizado '
+                    'automaticamente a partir dos PDFs oficiais do MTE.',
+                children: [
+                  for (final source in OfficialSources.distributionEntries)
+                    SettingsActionTile(
+                      icon: Icons.cloud_download_outlined,
                       title: source.title,
                       subtitle: source.subtitle,
                       trailing: Icon(

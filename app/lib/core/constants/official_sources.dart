@@ -13,6 +13,10 @@ class OfficialSources {
   /// Diário Oficial da União — veículo de publicação das portarias normativas.
   static const String douUrl = 'https://www.in.gov.br/leiturajornal';
 
+  /// Repositório público onde o conteúdo organizado é distribuído ao app.
+  static const String contentRepositoryUrl =
+      'https://github.com/ennesdes/nr-facil';
+
   /// Texto curto para disclaimers (leitor, ajustes, loja).
   static const String disclaimer =
       'Este aplicativo não é governamental. Disponibiliza conteúdo público '
@@ -35,6 +39,16 @@ class OfficialSources {
       title: 'Diário Oficial da União',
       subtitle: 'Publicação das portarias que alteram as NRs',
       url: douUrl,
+    ),
+  ];
+
+  /// Canal de distribuição do conteúdo organizado (não é fonte normativa).
+  static const List<OfficialSourceEntry> distributionEntries = [
+    OfficialSourceEntry(
+      title: 'Repositório de conteúdo (GitHub)',
+      subtitle:
+          'Conteúdo organizado para o app, derivado dos PDFs oficiais do MTE',
+      url: contentRepositoryUrl,
     ),
   ];
 }
