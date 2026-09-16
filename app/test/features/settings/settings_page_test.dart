@@ -72,13 +72,19 @@ void main() {
     expect(find.text('Aparência'), findsOneWidget);
     expect(find.text('Fontes oficiais'), findsOneWidget);
     expect(find.text('Ministério do Trabalho e Emprego'), findsOneWidget);
-    expect(find.text('Política de privacidade'), findsOneWidget);
     expect(find.text('Sistema'), findsOneWidget);
     expect(find.text('Claro'), findsOneWidget);
     expect(find.text('Escuro'), findsOneWidget);
 
     await tester.tap(find.text('Escuro'));
     await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('Política de privacidade'),
+      200,
+      scrollable: find.byType(Scrollable),
+    );
+    expect(find.text('Política de privacidade'), findsOneWidget);
 
     await tester.drag(find.byType(ListView), const Offset(0, -400));
     await tester.pumpAndSettle();
