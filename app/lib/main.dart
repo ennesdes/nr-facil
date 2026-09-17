@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:marionette_flutter/marionette_flutter.dart';
 
 import 'core/bindings/app_binding.dart';
 import 'core/constants/app_config.dart';
@@ -15,11 +16,18 @@ import 'core/controllers/theme_controller.dart';
 import 'core/theme/app_system_ui.dart';
 import 'core/theme/app_theme.dart';
 import 'core/utils/view_padding.dart';
+import 'debug/marionette_config.dart';
+import 'debug/marionette_extensions.dart';
 import 'features/home/views/home_page.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  if (kDebugMode) {
+    MarionetteBinding.ensureInitialized(marionetteConfiguration);
+    registerMarionetteDebugExtensions();
+  } else {
+    WidgetsFlutterBinding.ensureInitialized();
+  }
 
   if (!kIsWeb) {
     await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
