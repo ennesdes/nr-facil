@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/features/ads/services/ads_service.dart';
 
@@ -112,7 +113,9 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
       final colorScheme = Theme.of(context).colorScheme;
       final banner = _bannerAd!;
 
-      return ColoredBox(
+      return Semantics(
+        identifier: ManagementSemanticsIds.adsPersistentBanner,
+        child: ColoredBox(
         color: colorScheme.surface,
         child: DecoratedBox(
           decoration: BoxDecoration(
@@ -136,6 +139,7 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
             ),
           ),
         ),
+      ),
       );
     });
   }

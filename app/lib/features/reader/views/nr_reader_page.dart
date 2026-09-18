@@ -7,6 +7,7 @@ import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/widgets/nr_download_loading.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_markdown_fallback_body.dart';
@@ -41,7 +42,9 @@ class NRReaderPage extends GetView<NRReaderController> {
   Widget _buildScaffold(BuildContext context, {required bool isFavorite}) {
     final readerSurface = context.readerSurfaceColor;
 
-    return AppSystemUiScope(
+    return Semantics(
+      identifier: ReaderSemanticsIds.readerPageRoot,
+      child: AppSystemUiScope(
       surface: readerSurface,
       child: Scaffold(
         key: controller.scaffoldKey,
@@ -95,6 +98,7 @@ class NRReaderPage extends GetView<NRReaderController> {
           ),
         ),
       ),
+    ),
     );
   }
 

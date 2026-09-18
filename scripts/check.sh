@@ -42,6 +42,14 @@ if [ -f "scripts/audit_contrast.py" ]; then
   python3 scripts/audit_contrast.py || ERRORS=1
 fi
 
+# Gate E2E: valida Maestro IDs ↔ Dart semantics (só se .maestro/flows/ci/ existir)
+if [ -d ".maestro/flows/ci" ] && [ -n "$(find .maestro/flows/ci -name '*.yaml' -type f 2>/dev/null)" ]; then
+  echo "==> check e2e semantics..."
+  python3 scripts/check_e2e_semantics.py || ERRORS=1
+else
+  echo "⚠ .maestro/flows/ci/ vazio ou ausente — pulando e2e semantics check"
+fi
+
 if [ "$ERRORS" -ne 0 ]; then
   echo "✗ check.sh falhou"
   exit 1

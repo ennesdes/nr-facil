@@ -341,6 +341,27 @@ python3 scripts/summarize_changes.py --ref HEAD~1  # compara contra outro ref
 
 ---
 
+### 12. `check_e2e_semantics.py` — Gate de consistência Dart ↔ Maestro
+
+Valida que todos os `id:` usados nos flows/subflows Maestro (`.maestro/flows/`, `.maestro/subflows/`)
+têm um correspondente em constantes Dart (`app/lib/core/constants/semantics/*_semantics_ids.dart`).
+Evita drift silencioso entre o YAML do Maestro e os IDs do widget.
+
+**Uso:**
+
+```bash
+python3 scripts/check_e2e_semantics.py              # valida todos os ids
+```
+
+**Output:**
+- Sai com código 0 se tudo está consistente ou se `.maestro/flows/ci/` não existe/está vazio
+- Sai com código 1 se um `id:` no YAML não tem constante Dart correspondente, listando arquivo + linha + id órfão
+
+**Integração:**
+Chamado automaticamente por `scripts/check.sh` (graciosamente no-op se `.maestro/` ainda não existe).
+
+---
+
 ## `_common.py` — Utilitários compartilhados
 
 Funções reutilizáveis por vários scripts:

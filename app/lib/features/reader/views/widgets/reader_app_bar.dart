@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
 import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_font_size_control.dart';
 
 /// App bar do leitor: voltar, título, busca, índice e menu.
@@ -41,9 +42,12 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
 
     return AppBar(
       automaticallyImplyLeading: false,
-      leading: Tooltip(
-        message: 'Voltar para normas',
-        child: BackButton(onPressed: onBack),
+      leading: Semantics(
+        identifier: ReaderSemanticsIds.backButton,
+        child: Tooltip(
+          message: 'Voltar para normas',
+          child: BackButton(onPressed: onBack),
+        ),
       ),
       title: Row(
         children: [
@@ -63,15 +67,21 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: false,
       actions: [
         if (!compact) ...[
-          IconButton(
-            icon: const Icon(Icons.search),
-            tooltip: 'Buscar nesta NR',
-            onPressed: onOpenSearch,
+          Semantics(
+            identifier: ReaderSemanticsIds.searchButton,
+            child: IconButton(
+              icon: const Icon(Icons.search),
+              tooltip: 'Buscar nesta NR',
+              onPressed: onOpenSearch,
+            ),
           ),
-          IconButton(
-            icon: const Icon(Icons.list_alt),
-            tooltip: 'Índice',
-            onPressed: onOpenIndex,
+          Semantics(
+            identifier: ReaderSemanticsIds.indexButton,
+            child: IconButton(
+              icon: const Icon(Icons.list_alt),
+              tooltip: 'Índice',
+              onPressed: onOpenIndex,
+            ),
           ),
         ],
         PopupMenuButton<String>(
@@ -90,38 +100,47 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
             if (compact) ...[
               PopupMenuItem(
                 value: 'search',
-                child: Row(
-                  children: [
-                    const Icon(Icons.search, size: 22),
-                    const SizedBox(width: 12),
-                    const Expanded(child: Text('Buscar nesta NR')),
-                  ],
+                child: Semantics(
+                  identifier: ReaderSemanticsIds.searchButton,
+                  child: Row(
+                    children: [
+                      const Icon(Icons.search, size: 22),
+                      const SizedBox(width: 12),
+                      const Expanded(child: Text('Buscar nesta NR')),
+                    ],
+                  ),
                 ),
               ),
               PopupMenuItem(
                 value: 'index',
-                child: Row(
-                  children: [
-                    const Icon(Icons.list_alt, size: 22),
-                    const SizedBox(width: 12),
-                    const Expanded(child: Text('Índice')),
-                  ],
+                child: Semantics(
+                  identifier: ReaderSemanticsIds.indexButton,
+                  child: Row(
+                    children: [
+                      const Icon(Icons.list_alt, size: 22),
+                      const SizedBox(width: 12),
+                      const Expanded(child: Text('Índice')),
+                    ],
+                  ),
                 ),
               ),
               const PopupMenuDivider(),
             ],
             PopupMenuItem(
               value: 'favorite',
-              child: Row(
-                children: [
-                  Icon(isFavorite ? Icons.star : Icons.star_border, size: 22),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Text(
-                      isFavorite ? 'Remover dos favoritos' : 'Favoritar',
+              child: Semantics(
+                identifier: ReaderSemanticsIds.favoriteButton,
+                child: Row(
+                  children: [
+                    Icon(isFavorite ? Icons.star : Icons.star_border, size: 22),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        isFavorite ? 'Remover dos favoritos' : 'Favoritar',
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             const PopupMenuDivider(),

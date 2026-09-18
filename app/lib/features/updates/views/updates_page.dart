@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
@@ -22,9 +23,11 @@ class UpdatesPage extends GetView<UpdatesController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Atualizações')),
-      body: AppScaffoldBody(
+    return Semantics(
+      identifier: ManagementSemanticsIds.updatesPageRoot,
+      child: Scaffold(
+        appBar: AppBar(title: const Text('Atualizações')),
+        body: AppScaffoldBody(
         child: ResponsiveContent(
           child: Obx(() {
             final updates = controller.updatedNrs.value;
@@ -127,6 +130,7 @@ class UpdatesPage extends GetView<UpdatesController> {
           }),
         ),
       ),
+    ),
     );
   }
 }

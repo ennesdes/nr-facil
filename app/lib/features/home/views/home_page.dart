@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/core/widgets/responsive_content.dart';
@@ -29,10 +30,13 @@ class HomePage extends GetView<HomeController> {
           centerTitle: false,
           actions: [
             _buildNotificationsBell(context),
-            IconButton(
-              icon: const Icon(Icons.settings_outlined),
-              tooltip: 'Ajustes',
-              onPressed: () => Get.to(() => const SettingsPage()),
+            Semantics(
+              identifier: HomeSemanticsIds.settingsButton,
+              child: IconButton(
+                icon: const Icon(Icons.settings_outlined),
+                tooltip: 'Ajustes',
+                onPressed: () => Get.to(() => const SettingsPage()),
+              ),
             ),
           ],
         ),
@@ -40,10 +44,23 @@ class HomePage extends GetView<HomeController> {
           child: IndexedStack(
             index: tab,
             children: [
-              const SizedBox.expand(child: NormasTab()),
-              const SizedBox.expand(child: FavoritosTab()),
               SizedBox.expand(
-                child: SearchTab(isActive: tab == HomeController.tabBuscar),
+                child: Semantics(
+                  identifier: HomeSemanticsIds.normasTab,
+                  child: const NormasTab(),
+                ),
+              ),
+              SizedBox.expand(
+                child: Semantics(
+                  identifier: HomeSemanticsIds.favoritosTab,
+                  child: const FavoritosTab(),
+                ),
+              ),
+              SizedBox.expand(
+                child: Semantics(
+                  identifier: HomeSemanticsIds.buscarTab,
+                  child: SearchTab(isActive: tab == HomeController.tabBuscar),
+                ),
               ),
             ],
           ),
@@ -96,31 +113,34 @@ class HomePage extends GetView<HomeController> {
     return Obx(() {
       final unreadCount = contentService.unreadUpdatesCount.value;
 
-      return Stack(
-        clipBehavior: Clip.none,
-        children: [
-          IconButton(
-            icon: Icon(
-              unreadCount > 0
-                  ? Icons.notifications
-                  : Icons.notifications_outlined,
+      return Semantics(
+        identifier: HomeSemanticsIds.notificationsBell,
+        child: Stack(
+          clipBehavior: Clip.none,
+          children: [
+            IconButton(
+              icon: Icon(
+                unreadCount > 0
+                    ? Icons.notifications
+                    : Icons.notifications_outlined,
+              ),
+              color: unreadCount > 0
+                  ? UpdateHighlight.accentColor(context)
+                  : null,
+              tooltip: unreadCount > 0
+                  ? '$unreadCount atualizações pendentes'
+                  : 'Atualizações',
+              onPressed: () {
+                Get.to(() => const UpdatesPage(), binding: UpdatesBinding());
+              },
             ),
-            color: unreadCount > 0
-                ? UpdateHighlight.accentColor(context)
-                : null,
-            tooltip: unreadCount > 0
-                ? '$unreadCount atualizações pendentes'
-                : 'Atualizações',
-            onPressed: () {
-              Get.to(() => const UpdatesPage(), binding: UpdatesBinding());
-            },
-          ),
-          Positioned(
-            right: 4,
-            top: 4,
-            child: UpdateCountBadge(count: unreadCount),
-          ),
-        ],
+            Positioned(
+              right: 4,
+              top: 4,
+              child: UpdateCountBadge(count: unreadCount),
+            ),
+          ],
+        ),
       );
     });
   }

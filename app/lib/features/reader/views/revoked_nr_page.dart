@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
@@ -24,9 +25,11 @@ class RevokedNrPage extends StatelessWidget {
         ? contentService.manifest.value?.findNr(successorId)
         : null;
 
-    return Scaffold(
-      appBar: AppBar(title: Text(entry.nrLabel)),
-      body: AppScaffoldBody(
+    return Semantics(
+      identifier: ReaderSemanticsIds.revokedNrPageRoot,
+      child: Scaffold(
+        appBar: AppBar(title: Text(entry.nrLabel)),
+        body: AppScaffoldBody(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
           child: Column(
@@ -58,19 +61,25 @@ class RevokedNrPage extends StatelessWidget {
                 runSpacing: AppSpacing.sm,
                 children: [
                   if (entry.pdfUrl != null && entry.pdfUrl!.isNotEmpty)
-                    AppFilterChip(
-                      label: 'Ver PDF histórico no MTE',
-                      icon: Icons.picture_as_pdf,
-                      emphasized: true,
-                      onTap: () => _launchUrl(entry.pdfUrl!),
+                    Semantics(
+                      identifier: ReaderSemanticsIds.revokedViewPdfButton,
+                      child: AppFilterChip(
+                        label: 'Ver PDF histórico no MTE',
+                        icon: Icons.picture_as_pdf,
+                        emphasized: true,
+                        onTap: () => _launchUrl(entry.pdfUrl!),
+                      ),
                     ),
                   if (successor != null)
-                    AppFilterChip(
-                      label: 'Abrir ${successor.nrLabel} (sucessora)',
-                      icon: Icons.arrow_forward,
-                      onTap: () {
-                        ReaderNavigation.open(nrId: successor.id);
-                      },
+                    Semantics(
+                      identifier: ReaderSemanticsIds.revokedOpenSuccessor,
+                      child: AppFilterChip(
+                        label: 'Abrir ${successor.nrLabel} (sucessora)',
+                        icon: Icons.arrow_forward,
+                        onTap: () {
+                          ReaderNavigation.open(nrId: successor.id);
+                        },
+                      ),
                     ),
                 ],
               ),
@@ -88,6 +97,7 @@ class RevokedNrPage extends StatelessWidget {
             ],
           ),
         ),
+      ),
       ),
     );
   }

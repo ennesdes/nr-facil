@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/responsive_layout.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 
 /// Controle A− / valor / A+ para tamanho de fonte no menu do leitor.
@@ -56,17 +57,20 @@ class ReaderFontSizeControl extends StatelessWidget {
               child: IntrinsicHeight(
                 child: Row(
                   children: [
-                    _StepButton(
-                      label: 'A−',
-                      width: buttonWidth,
-                      labelStyle: const TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                      ),
-                      enabled: canDecrease,
-                      onPressed: onDecrease,
-                      borderRadius: const BorderRadius.horizontal(
-                        left: Radius.circular(AppRadius.md),
+                    Semantics(
+                      identifier: ReaderSemanticsIds.fontSizeDecrease,
+                      child: _StepButton(
+                        label: 'A−',
+                        width: buttonWidth,
+                        labelStyle: const TextStyle(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        enabled: canDecrease,
+                        onPressed: onDecrease,
+                        borderRadius: const BorderRadius.horizontal(
+                          left: Radius.circular(AppRadius.md),
+                        ),
                       ),
                     ),
                     VerticalDivider(
@@ -92,17 +96,20 @@ class ReaderFontSizeControl extends StatelessWidget {
                       thickness: 1,
                       color: colorScheme.outlineVariant,
                     ),
-                    _StepButton(
-                      label: 'A+',
-                      width: buttonWidth,
-                      labelStyle: const TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w600,
-                      ),
-                      enabled: canIncrease,
-                      onPressed: onIncrease,
-                      borderRadius: const BorderRadius.horizontal(
-                        right: Radius.circular(AppRadius.md),
+                    Semantics(
+                      identifier: ReaderSemanticsIds.fontSizeIncrease,
+                      child: _StepButton(
+                        label: 'A+',
+                        width: buttonWidth,
+                        labelStyle: const TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        enabled: canIncrease,
+                        onPressed: onIncrease,
+                        borderRadius: const BorderRadius.horizontal(
+                          right: Radius.circular(AppRadius.md),
+                        ),
                       ),
                     ),
                   ],

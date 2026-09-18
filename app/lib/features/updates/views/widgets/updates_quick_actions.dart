@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 
@@ -22,20 +23,26 @@ class UpdatesQuickActions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final chips = [
-      AppFilterChip(
-        label: 'Verificar atualizações',
-        icon: Icons.refresh,
-        emphasized: !isChecking,
-        selected: isChecking,
-        enabled: !isChecking,
-        onTap: onCheck,
+      Semantics(
+        identifier: ManagementSemanticsIds.checkForUpdatesButton,
+        child: AppFilterChip(
+          label: 'Verificar atualizações',
+          icon: Icons.refresh,
+          emphasized: !isChecking,
+          selected: isChecking,
+          enabled: !isChecking,
+          onTap: onCheck,
+        ),
       ),
       if (showDownloadButton)
-        AppFilterChip(
-          label: 'Baixar tudo para offline',
-          icon: Icons.download_for_offline_outlined,
-          emphasized: true,
-          onTap: onDownload,
+        Semantics(
+          identifier: ManagementSemanticsIds.downloadOfflineButton,
+          child: AppFilterChip(
+            label: 'Baixar tudo para offline',
+            icon: Icons.download_for_offline_outlined,
+            emphasized: true,
+            onTap: onDownload,
+          ),
         ),
     ];
 

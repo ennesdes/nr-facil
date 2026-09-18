@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
@@ -61,10 +62,13 @@ class NormasTab extends StatelessWidget {
             const SliverToBoxAdapter(child: PendingUpdatesSection()),
             const SliverToBoxAdapter(child: ContinuarLeituraSection()),
             SliverFillRemaining(
-              child: EmptyState(
-                icon: Icons.search_off,
-                title: 'Nenhuma norma encontrada',
-                body: 'Tente outro termo ou filtro.',
+              child: Semantics(
+                identifier: HomeSemanticsIds.emptyNormasState,
+                child: EmptyState(
+                  icon: Icons.search_off,
+                  title: 'Nenhuma norma encontrada',
+                  body: 'Tente outro termo ou filtro.',
+                ),
               ),
             ),
           ],
@@ -79,12 +83,15 @@ class NormasTab extends StatelessWidget {
           SliverList(
             delegate: SliverChildBuilderDelegate((context, index) {
               final entry = entries[index];
-              return ReactiveNrListTile(
-                key: ValueKey(entry.id),
-                nrEntry: entry,
-                contentService: contentService,
-                isRevoked: entry.isRevoked,
-                onTap: () => _openNr(entry),
+              return Semantics(
+                identifier: HomeSemanticsIds.nrTile(entry.id),
+                child: ReactiveNrListTile(
+                  key: ValueKey(entry.id),
+                  nrEntry: entry,
+                  contentService: contentService,
+                  isRevoked: entry.isRevoked,
+                  onTap: () => _openNr(entry),
+                ),
               );
             }, childCount: entries.length),
           ),

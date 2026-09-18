@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
 import 'package:nrfacil/core/constants/official_sources.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
@@ -19,10 +20,12 @@ class SettingsPage extends GetView<ThemeController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Ajustes')),
-      body: AppScaffoldBody(
-        child: ResponsiveContent(
+    return Semantics(
+      identifier: ManagementSemanticsIds.settingsPageRoot,
+      child: Scaffold(
+        appBar: AppBar(title: const Text('Ajustes')),
+        body: AppScaffoldBody(
+          child: ResponsiveContent(
           child: ListView(
             padding: const EdgeInsets.all(AppSpacing.md),
             children: [
@@ -30,7 +33,12 @@ class SettingsPage extends GetView<ThemeController> {
                 title: 'Aparência',
                 description:
                     'Escolha como o app se adapta ao tema do dispositivo.',
-                children: [ThemeModeSelector(controller: controller)],
+                children: [
+                  Semantics(
+                    identifier: ManagementSemanticsIds.themeModeSelector,
+                    child: ThemeModeSelector(controller: controller),
+                  ),
+                ],
               ),
               const SizedBox(height: AppSpacing.md),
               SettingsSectionCard(
@@ -81,27 +89,33 @@ class SettingsPage extends GetView<ThemeController> {
               SettingsSectionCard(
                 title: 'Legal',
                 children: [
-                  SettingsActionTile(
-                    icon: Icons.privacy_tip_outlined,
-                    title: 'Política de privacidade',
-                    subtitle: 'Como tratamos seus dados',
-                    trailing: Icon(
-                      Icons.open_in_new,
-                      size: 20,
-                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  Semantics(
+                    identifier: ManagementSemanticsIds.privacyPolicyLink,
+                    child: SettingsActionTile(
+                      icon: Icons.privacy_tip_outlined,
+                      title: 'Política de privacidade',
+                      subtitle: 'Como tratamos seus dados',
+                      trailing: Icon(
+                        Icons.open_in_new,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      onTap: () => _openExternalUrl(AppConfig.privacyPolicyUrl),
                     ),
-                    onTap: () => _openExternalUrl(AppConfig.privacyPolicyUrl),
                   ),
-                  SettingsActionTile(
-                    icon: Icons.description_outlined,
-                    title: 'Termos de uso',
-                    subtitle: 'Condições de uso do aplicativo',
-                    trailing: Icon(
-                      Icons.open_in_new,
-                      size: 20,
-                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  Semantics(
+                    identifier: ManagementSemanticsIds.termsOfUseLink,
+                    child: SettingsActionTile(
+                      icon: Icons.description_outlined,
+                      title: 'Termos de uso',
+                      subtitle: 'Condições de uso do aplicativo',
+                      trailing: Icon(
+                        Icons.open_in_new,
+                        size: 20,
+                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      ),
+                      onTap: () => _openExternalUrl(AppConfig.termsOfUseUrl),
                     ),
-                    onTap: () => _openExternalUrl(AppConfig.termsOfUseUrl),
                   ),
                 ],
               ),
@@ -111,6 +125,7 @@ class SettingsPage extends GetView<ThemeController> {
           ),
         ),
       ),
+    ),
     );
   }
 
@@ -169,12 +184,15 @@ class _AboutSectionState extends State<_AboutSection> {
     return SettingsSectionCard(
       title: 'Sobre',
       children: [
-        SettingsInfoTile(
-          icon: Icons.info_outline,
-          title: 'NR Fácil',
-          subtitle: versionLabel == null
-              ? 'Carregando versão…'
-              : 'Versão $versionLabel',
+        Semantics(
+          identifier: ManagementSemanticsIds.appVersionInfo,
+          child: SettingsInfoTile(
+            icon: Icons.info_outline,
+            title: 'NR Fácil',
+            subtitle: versionLabel == null
+                ? 'Carregando versão…'
+                : 'Versão $versionLabel',
+          ),
         ),
         const SizedBox(height: AppSpacing.sm),
         Container(

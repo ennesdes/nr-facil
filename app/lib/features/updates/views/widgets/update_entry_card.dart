@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
@@ -26,7 +27,9 @@ class UpdateEntryCard extends StatelessWidget {
     final colorScheme = theme.colorScheme;
     final displayTitle = formatNrTitleForDisplay(entry.title);
 
-    return Card(
+    return Semantics(
+      identifier: ManagementSemanticsIds.updateEntry(entry.id),
+      child: Card(
       margin: const EdgeInsets.fromLTRB(
         AppSpacing.md,
         AppSpacing.xs,
@@ -108,6 +111,7 @@ class UpdateEntryCard extends StatelessWidget {
           ),
         ),
       ),
+    ),
     );
   }
 }

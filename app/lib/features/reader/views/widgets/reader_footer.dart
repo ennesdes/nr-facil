@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/constants/official_sources.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/widgets/app_text_link.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
@@ -39,12 +40,15 @@ class ReaderFooter extends StatelessWidget {
             style: textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600),
           ),
           const SizedBox(height: AppSpacing.sm),
-          Text(
-            OfficialSources.disclaimer,
-            style: textTheme.bodySmall?.copyWith(
-              color: colorScheme.onSurfaceVariant,
-              fontStyle: FontStyle.italic,
-              height: 1.4,
+          Semantics(
+            identifier: ReaderSemanticsIds.disclaimerText,
+            child: Text(
+              OfficialSources.disclaimer,
+              style: textTheme.bodySmall?.copyWith(
+                color: colorScheme.onSurfaceVariant,
+                fontStyle: FontStyle.italic,
+                height: 1.4,
+              ),
             ),
           ),
           const SizedBox(height: AppSpacing.sm),
@@ -55,10 +59,13 @@ class ReaderFooter extends StatelessWidget {
           ),
           const SizedBox(height: AppSpacing.md),
           if (nrEntry?.pdfUrl != null)
-            AppFilterChip(
-              label: 'Ver PDF original no MTE',
-              icon: Icons.picture_as_pdf,
-              onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
+            Semantics(
+              identifier: ReaderSemanticsIds.viewPdfButton,
+              child: AppFilterChip(
+                label: 'Ver PDF original no MTE',
+                icon: Icons.picture_as_pdf,
+                onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
+              ),
             ),
           const SizedBox(height: AppSpacing.md),
           if (nrEntry != null) _buildNrMetadata(context),

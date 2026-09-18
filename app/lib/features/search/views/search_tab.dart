@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/empty_state.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
@@ -45,26 +46,29 @@ class _SearchTabState extends State<SearchTab> {
       children: [
         Padding(
           padding: const EdgeInsets.all(AppSpacing.md),
-          child: TextField(
-            controller: _controller.queryController,
-            focusNode: _focusNode,
-            decoration: InputDecoration(
-              hintText: 'Buscar em todas as normas...',
-              prefixIcon: const Icon(Icons.search),
-              suffixIcon: Obx(
-                () => _controller.query.value.isNotEmpty
-                    ? IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: _controller.clearSearch,
-                      )
-                    : const SizedBox.shrink(),
-              ),
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(AppRadius.sm),
-              ),
-              contentPadding: const EdgeInsets.symmetric(
-                horizontal: AppSpacing.md,
-                vertical: 12,
+          child: Semantics(
+            identifier: HomeSemanticsIds.searchField,
+            child: TextField(
+              controller: _controller.queryController,
+              focusNode: _focusNode,
+              decoration: InputDecoration(
+                hintText: 'Buscar em todas as normas...',
+                prefixIcon: const Icon(Icons.search),
+                suffixIcon: Obx(
+                  () => _controller.query.value.isNotEmpty
+                      ? IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: _controller.clearSearch,
+                        )
+                      : const SizedBox.shrink(),
+                ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(AppRadius.sm),
+                ),
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: AppSpacing.md,
+                  vertical: 12,
+                ),
               ),
             ),
           ),
@@ -99,15 +103,18 @@ class _SearchTabState extends State<SearchTab> {
               itemCount: _controller.results.length,
               itemBuilder: (context, index) {
                 final result = _controller.results[index];
-                return SearchResultTile(
-                  result: result,
-                  searchQuery: _controller.query.value,
-                  onTap: () {
-                    ReaderNavigation.open(
-                      nrId: result.nrId,
-                      initialAnchor: result.chunk.heading,
-                    );
-                  },
+                return Semantics(
+                  identifier: HomeSemanticsIds.searchResultTile(result.nrId),
+                  child: SearchResultTile(
+                    result: result,
+                    searchQuery: _controller.query.value,
+                    onTap: () {
+                      ReaderNavigation.open(
+                        nrId: result.nrId,
+                        initialAnchor: result.chunk.heading,
+                      );
+                    },
+                  ),
                 );
               },
             );

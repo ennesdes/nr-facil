@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
@@ -28,7 +29,10 @@ class _FavoritosTabState extends State<FavoritosTab> {
     return Obx(() {
       contentService.favoritesVersion.value;
       if (contentService.favoriteIds.isEmpty) {
-        return const EmptyFavoritosState();
+        return Semantics(
+          identifier: HomeSemanticsIds.emptyFavoritosState,
+          child: const EmptyFavoritosState(),
+        );
       }
 
       if (contentService.isManifestLoading) {
@@ -94,19 +98,22 @@ class _FavoritosTabState extends State<FavoritosTab> {
       return SizedBox(key: ValueKey(nrId), width: 0, height: 0);
     }
 
-    return ReactiveNrListTile(
+    return Semantics(
       key: ValueKey(nrId),
-      nrEntry: entry,
-      contentService: contentService,
-      isRevoked: entry.isRevoked,
-      hideStarButton: entry.isRevoked,
-      onTap: () {
-        if (entry.isRevoked) {
-          Get.to(() => RevokedNrPage(entry: entry));
-          return;
-        }
-        ReaderNavigation.open(nrId: nrId);
-      },
+      identifier: HomeSemanticsIds.nrTile(nrId),
+      child: ReactiveNrListTile(
+        nrEntry: entry,
+        contentService: contentService,
+        isRevoked: entry.isRevoked,
+        hideStarButton: entry.isRevoked,
+        onTap: () {
+          if (entry.isRevoked) {
+            Get.to(() => RevokedNrPage(entry: entry));
+            return;
+          }
+          ReaderNavigation.open(nrId: nrId);
+        },
+      ),
     );
   }
 }
