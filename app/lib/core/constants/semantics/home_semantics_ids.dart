@@ -20,6 +20,9 @@ class HomeSemanticsIds {
   /// ID do ícone de configurações (settings) na AppBar.
   static const String settingsButton = 'settings_button';
 
+  /// Card de atualizações pendentes na Home (acima de Continuar leitura).
+  static const String pendingUpdatesCard = 'pending_updates_card';
+
   // === NR List Tiles ===
   /// ID do tile de uma NR na lista (Normas ou Favoritos).
   /// Uso: `Semantics(identifier: HomeSemanticsIds.nrTile(nrId), ...)`

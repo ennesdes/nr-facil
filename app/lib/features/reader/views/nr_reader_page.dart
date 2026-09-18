@@ -45,60 +45,61 @@ class NRReaderPage extends GetView<NRReaderController> {
     return Semantics(
       identifier: ReaderSemanticsIds.readerPageRoot,
       child: AppSystemUiScope(
-      surface: readerSurface,
-      child: Scaffold(
-        key: controller.scaffoldKey,
-        backgroundColor: readerSurface,
-        appBar: ReaderAppBar(
-          nrId: nrId,
-          isFavorite: isFavorite,
-          hasPendingUpdate: controller.showUpdateBanner.value,
-          fontSize: controller.fontSize,
-          onBack: () => Get.back(),
-          onOpenIndex: () => controller.scaffoldKey.currentState?.openDrawer(),
-          onOpenSearch: controller.openSearch,
-          onToggleFavorite: controller.toggleFavorite,
-          onIncreaseFontSize: controller.increaseFontSize,
-          onDecreaseFontSize: controller.decreaseFontSize,
-        ),
-        drawer: Obx(
-          () => ReaderDrawer(
-            structure: controller.structure.value,
-            legacyIndex: controller.index.value,
-            currentSectionId: controller.currentSectionId.value,
-            currentItemNumber: controller.currentItemNumber.value,
-            currentPositionLabel: controller.currentPositionLabel,
-            progressPercent: controller.readingProgressPercent.value,
-            onNavigate: controller.navigateToSection,
-            onNavigateToItem: controller.navigateToItemNumber,
+        surface: readerSurface,
+        child: Scaffold(
+          key: controller.scaffoldKey,
+          backgroundColor: readerSurface,
+          appBar: ReaderAppBar(
+            nrId: nrId,
+            isFavorite: isFavorite,
+            hasPendingUpdate: controller.showUpdateBanner.value,
+            fontSize: controller.fontSize,
+            onBack: () => Get.back(),
+            onOpenIndex: () =>
+                controller.scaffoldKey.currentState?.openDrawer(),
+            onOpenSearch: controller.openSearch,
+            onToggleFavorite: controller.toggleFavorite,
+            onIncreaseFontSize: controller.increaseFontSize,
+            onDecreaseFontSize: controller.decreaseFontSize,
           ),
-        ),
-        body: AppScaffoldBody(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Obx(
-                () => controller.isSearchOpen.value
-                    ? ReaderSearchBar(controller: controller)
-                    : const SizedBox.shrink(),
-              ),
-              Expanded(
-                child: Obx(() {
-                  controller.isLoading.value;
-                  controller.isDownloading.value;
-                  controller.error.value;
-                  controller.content.value;
-                  controller.structure.value;
-                  controller.showUpdateBanner.value;
-                  controller.fontSize.value;
-                  return _buildBody(context);
-                }),
-              ),
-            ],
+          drawer: Obx(
+            () => ReaderDrawer(
+              structure: controller.structure.value,
+              legacyIndex: controller.index.value,
+              currentSectionId: controller.currentSectionId.value,
+              currentItemNumber: controller.currentItemNumber.value,
+              currentPositionLabel: controller.currentPositionLabel,
+              progressPercent: controller.readingProgressPercent.value,
+              onNavigate: controller.navigateToSection,
+              onNavigateToItem: controller.navigateToItemNumber,
+            ),
+          ),
+          body: AppScaffoldBody(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Obx(
+                  () => controller.isSearchOpen.value
+                      ? ReaderSearchBar(controller: controller)
+                      : const SizedBox.shrink(),
+                ),
+                Expanded(
+                  child: Obx(() {
+                    controller.isLoading.value;
+                    controller.isDownloading.value;
+                    controller.error.value;
+                    controller.content.value;
+                    controller.structure.value;
+                    controller.showUpdateBanner.value;
+                    controller.fontSize.value;
+                    return _buildBody(context);
+                  }),
+                ),
+              ],
+            ),
           ),
         ),
       ),
-    ),
     );
   }
 

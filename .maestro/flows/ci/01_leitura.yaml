@@ -1,65 +1,25 @@
-# Flow: 01_leitura.yaml
-# Objetivo: validar o fluxo de leitura — abrir NR-25, índice, fonte, link PDF e disclaimer
-#
-# Passos:
-# 1. Lançar app
-# 2. Abrir leitor de NR-25 (subflow)
-# 3. Abrir índice lateral (drawer)
-# 4. Aumentar tamanho de fonte
-# 5. Verificar link "Ver PDF original no MTE" visível
-# 6. Verificar disclaimer legal visível
-# 7. Voltar ao Home
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Lançar app
-  - launchApp
-
-  # Aguardar Home carregar
-  - assertVisible:
-      id: normas_tab
-
-  # Abrir leitor de NR-25 (reutiliza subflow)
-  - runFlow:
-      file: ../subflows/open_reader_nr25.yaml
-
-  # Aguardar um instante para estabilizar
-  - sleep:
-      ms: 500
-
-  # Abrir índice/drawer do leitor
-  - tapOn:
-      id: reader_index_button
-
-  # Aguardar drawer abrir
-  - sleep:
-      ms: 300
-
-  # Fechar drawer (tapando em qualquer lugar do conteúdo ou via botão de voltar)
-  - tapOn:
-      id: reader_index_button
-
-  # Aguardar drawer fechar
-  - sleep:
-      ms: 300
-
-  # Aumentar tamanho de fonte
-  - tapOn:
-      id: reader_font_size_increase
-
-  # Aguardar um instante
-  - sleep:
-      ms: 300
-
-  # Verificar que o link PDF está visível no rodapé
-  - assertVisible:
-      id: reader_view_pdf_button
-
-  # Verificar que o disclaimer legal está visível no rodapé
-  - assertVisible:
-      id: reader_disclaimer_text
-
-  # Voltar ao Home (reutiliza subflow)
-  - runFlow:
-      file: ../subflows/close_reader.yaml
+name: "Leitura — NR-25, índice, fonte, PDF e disclaimer"
+---
+# CI smoke — leitor: abrir NR-25, índice, fonte, link PDF e disclaimer legal.
+- runFlow: ../../subflows/launch_fresh.yaml
+- assertVisible:
+    id: normas_tab
+- runFlow: ../../subflows/open_reader_nr25.yaml
+- assertVisible:
+    id: reader_search_button
+- tapOn:
+    id: reader_index_button
+- back
+- tapOn:
+    id: reader_overflow_menu
+- assertVisible:
+    id: reader_favorite_button
+- tapOn:
+    id: reader_font_size_decrease
+    point: 95%,50%
+- assertVisible:
+    id: reader_view_pdf_button
+- assertVisible:
+    id: reader_disclaimer_text
+- runFlow: ../../subflows/close_reader.yaml

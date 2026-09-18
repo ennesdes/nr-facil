@@ -18,7 +18,7 @@ O aplicativo exibe conteúdo público oficial das NRs. O conteúdo não substitu
 
 ## Dados enviados à internet
 
-- **Atualizações de conteúdo:** o app baixa arquivos de um repositório público (GitHub), incluindo um arquivo leve de metadados (datas de atualização, versão mínima do app, sem conteúdo das NRs). Não há servidor/backend próprio — tudo vem do repositório público no GitHub.
+- **Atualizações de conteúdo:** o app baixa arquivos pela internet para manter o conteúdo e metadados leves atualizados (datas de atualização, versão mínima do app). Não há servidor/backend próprio operado pelo desenvolvedor.
 - **Anúncios:** utilizamos Google AdMob, que pode coletar dados conforme a [política do Google](https://policies.google.com/privacy).
 
 ## Compras no aplicativo

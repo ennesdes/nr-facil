@@ -9,10 +9,7 @@ import 'package:nrfacil/features/search/views/search_page.dart';
 import 'package:nrfacil/features/settings/views/settings_page.dart';
 import 'package:nrfacil/features/updates/views/updates_page.dart';
 
-const _storagePresetValues = [
-  'fresh',
-  'withFavorite',
-];
+const _storagePresetValues = ['fresh', 'withFavorite'];
 
 const _navigateScreenValues = [
   'home',
@@ -93,8 +90,7 @@ void registerMarionetteDebugExtensions() {
 
   registerMarionetteExtension(
     name: 'debug.resetStorage',
-    description:
-        'Aplica preset de storage (checkpoint Marionette). Requer hot_restart depois.',
+    description: 'Aplica preset de storage (checkpoint Marionette). Requer hot_restart depois.',
     inputSchema: const ExtensionInputSchema(
       properties: {
         'preset': ExtensionParam.string(
@@ -121,17 +117,15 @@ void registerMarionetteDebugExtensions() {
         final result = await _applyStoragePreset(preset, GetStorage());
         return MarionetteExtensionResult.success(result);
       } catch (e) {
-        return MarionetteExtensionResult.error(
-          0,
-          'Storage preset failed: $e',
-        );
+        return MarionetteExtensionResult.error(0, 'Storage preset failed: $e');
       }
     },
   );
 
   registerMarionetteExtension(
     name: 'debug.navigateTo',
-    description: 'Navega para tela (offAll). Opcionalmente aplica preset antes.',
+    description:
+        'Navega para tela (offAll). Opcionalmente aplica preset antes.',
     inputSchema: const ExtensionInputSchema(
       properties: {
         'screen': ExtensionParam.string(
@@ -184,7 +178,9 @@ void registerMarionetteDebugExtensions() {
           case 'updates':
             Get.offAll(() => const UpdatesPage());
           default:
-            return MarionetteExtensionResult.invalidParams('Unknown screen: $screen');
+            return MarionetteExtensionResult.invalidParams(
+              'Unknown screen: $screen',
+            );
         }
 
         final response = <String, dynamic>{'screen': screen};
@@ -193,10 +189,7 @@ void registerMarionetteDebugExtensions() {
         }
         return MarionetteExtensionResult.success(response);
       } catch (e) {
-        return MarionetteExtensionResult.error(
-          0,
-          'Navigation failed: $e',
-        );
+        return MarionetteExtensionResult.error(0, 'Navigation failed: $e');
       }
     },
   );

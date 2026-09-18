@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
-import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 
 /// Ações manuais da tela de Atualizações (verificar e baixar offline).
 class UpdatesQuickActions extends StatelessWidget {
@@ -9,61 +8,86 @@ class UpdatesQuickActions extends StatelessWidget {
   final bool showDownloadButton;
   final VoidCallback onCheck;
   final VoidCallback onDownload;
-  final bool centered;
 
   const UpdatesQuickActions({
     required this.isChecking,
     required this.showDownloadButton,
     required this.onCheck,
     required this.onDownload,
-    this.centered = false,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
-    final chips = [
-      Semantics(
-        identifier: ManagementSemanticsIds.checkForUpdatesButton,
-        child: AppFilterChip(
-          label: 'Verificar atualizações',
-          icon: Icons.refresh,
-          emphasized: !isChecking,
-          selected: isChecking,
-          enabled: !isChecking,
-          onTap: onCheck,
-        ),
-      ),
-      if (showDownloadButton)
+    final checkIsPrimary = !showDownloadButton;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
         Semantics(
-          identifier: ManagementSemanticsIds.downloadOfflineButton,
-          child: AppFilterChip(
-            label: 'Baixar tudo para offline',
-            icon: Icons.download_for_offline_outlined,
-            emphasized: true,
-            onTap: onDownload,
+          identifier: ManagementSemanticsIds.checkForUpdatesButton,
+          button: true,
+          enabled: !isChecking,
+          child: _CheckUpdatesButton(
+            isChecking: isChecking,
+            isPrimary: checkIsPrimary,
+            onPressed: isChecking ? null : onCheck,
           ),
         ),
-    ];
+        if (showDownloadButton) ...[
+          const SizedBox(height: AppSpacing.sm),
+          Semantics(
+            identifier: ManagementSemanticsIds.downloadOfflineButton,
+            button: true,
+            child: FilledButton.icon(
+              onPressed: onDownload,
+              icon: const Icon(Icons.download_for_offline_outlined),
+              label: const Text('Baixar tudo para offline'),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+}
 
-    if (centered) {
-      return Wrap(
-        alignment: WrapAlignment.center,
-        crossAxisAlignment: WrapCrossAlignment.center,
-        spacing: AppSpacing.sm,
-        runSpacing: AppSpacing.sm,
-        children: chips,
+class _CheckUpdatesButton extends StatelessWidget {
+  final bool isChecking;
+  final bool isPrimary;
+  final VoidCallback? onPressed;
+
+  const _CheckUpdatesButton({
+    required this.isChecking,
+    required this.isPrimary,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final label = const Text('Verificar atualizações');
+    final icon = isChecking
+        ? SizedBox(
+            width: 18,
+            height: 18,
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              color: Theme.of(context).colorScheme.primary,
+            ),
+          )
+        : const Icon(Icons.refresh);
+
+    if (isPrimary) {
+      return FilledButton.icon(
+        onPressed: onPressed,
+        icon: icon,
+        label: label,
       );
     }
 
-    return AppFilterChipRow(
-      padding: EdgeInsets.zero,
-      children: [
-        for (var i = 0; i < chips.length; i++) ...[
-          if (i > 0) const SizedBox(width: AppSpacing.sm),
-          chips[i],
-        ],
-      ],
+    return OutlinedButton.icon(
+      onPressed: onPressed,
+      icon: icon,
+      label: label,
     );
   }
 }

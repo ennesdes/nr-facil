@@ -4,9 +4,9 @@
   "warnings": [
     "fragmented_tables: 9 separadores de tabela"
   ],
-  "char_ratio": 0.982,
+  "char_ratio": null,
   "md_chars": 116865,
-  "pdf_chars": 119060,
+  "pdf_chars": null,
   "pages_fallback_png": 3,
   "reviewed": false
 }

@@ -1,0 +1,8 @@
+{
+  "flow": "01_leitura",
+  "desc": "CI smoke — leitor: abrir NR-25, índice, fonte, link PDF e disclaimer legal.",
+  "status": "❌ falhou",
+  "passed": false,
+  "duration": 40,
+  "error": "Element not found: Id matching regex: reader_font_size_increase"
+}

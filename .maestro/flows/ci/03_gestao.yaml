@@ -1,107 +1,47 @@
-# Flow: 03_gestao.yaml
-# Objetivo: validar fluxos de gestão — Settings, Atualizações, validação de ads (presente em listas, ausente no leitor)
-#
-# Passos:
-# 1. Lançar app
-# 2. Abrir Settings (tap no ícone na app bar)
-# 3. Alterna modo de tema
-# 4. Voltar ao Home
-# 5. Abrir Atualizações (tap no sino)
-# 6. Confirmar página abre (assertVisible)
-# 7. Voltar ao Home
-# 8. Confirmar ads banner visível em contexto de lista (aba Normas)
-# 9. Abrir NR-25 para validação de ads no leitor
-# 10. Confirmar ads banner NÃO visível no leitor (assertNotVisible)
-# 11. Voltar ao Home
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Lançar app
-  - launchApp
-
-  # Aguardar Home carregar
-  - assertVisible:
-      id: normas_tab
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Abrir Settings (tap no ícone na app bar)
-  - tapOn:
-      id: settings_button
-
-  # Aguardar Settings carregar
-  - assertVisible:
-      id: settings_page_root
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Alterna modo de tema (tap no selector)
-  - tapOn:
-      id: theme_mode_selector
-
-  # Aguardar seletor processar
-  - sleep:
-      ms: 300
-
-  # Voltar ao Home (back button)
-  - pressBack
-
-  # Aguardar retorno à Home
-  - assertVisible:
-      id: normas_tab
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Abrir Atualizações (tap no sino)
-  - tapOn:
-      id: notifications_bell
-
-  # Aguardar página de Atualizações carregar
-  - assertVisible:
-      id: updates_page_root
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Voltar ao Home (back button)
-  - pressBack
-
-  # Aguardar retorno à Home
-  - assertVisible:
-      id: normas_tab
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Confirmar ads banner visível em contexto de lista (aba Normas)
-  - runFlow:
-      file: ../subflows/check_ads_in_list.yaml
-
-  # Aguardar um instante
-  - sleep:
-      ms: 300
-
-  # Abrir leitor de NR-25 para validar ads
-  - runFlow:
-      file: ../subflows/open_reader_nr25.yaml
-
-  # Aguardar um instante
-  - sleep:
-      ms: 500
-
-  # Confirmar ads banner NÃO está visível no leitor
-  - assertNotVisible:
-      id: ads_persistent_banner
-
-  # Voltar ao Home
-  - runFlow:
-      file: ../subflows/close_reader.yaml
+name: "Gestão — Settings, Atualizações e ads"
+---
+# CI smoke — settings, atualizações, banner em lista e ausência no leitor.
+- runFlow: ../../subflows/launch_fresh.yaml
+- assertVisible:
+    id: normas_tab
+- tapOn:
+    id: settings_button
+- assertVisible:
+    id: settings_page_root
+- scrollUntilVisible:
+    element:
+      id: settings_privacy_policy_link
+- assertVisible:
+    id: settings_privacy_policy_link
+- scrollUntilVisible:
+    element:
+      id: settings_terms_of_use_link
+- assertVisible:
+    id: settings_terms_of_use_link
+- scrollUntilVisible:
+    element:
+      id: settings_app_version_info
+- assertVisible:
+    id: settings_app_version_info
+- tapOn:
+    id: theme_mode_selector
+- back
+- assertVisible:
+    id: normas_tab
+- tapOn:
+    id: notifications_bell
+- assertVisible:
+    id: updates_page_root
+- assertVisible:
+    id: check_for_updates_button
+- assertVisible:
+    id: download_offline_button
+- back
+- assertVisible:
+    id: normas_tab
+- runFlow: ../../subflows/check_ads_in_list.yaml
+- runFlow: ../../subflows/open_reader_nr25.yaml
+- assertNotVisible:
+    id: ads_persistent_banner
+- runFlow: ../../subflows/close_reader.yaml

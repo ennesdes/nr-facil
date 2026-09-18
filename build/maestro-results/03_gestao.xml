@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="1" time="26.876" timestamp="2026-09-17T23:10:53">
+    <testcase id="Gestão — Settings, Atualizações e ads" name="Gestão — Settings, Atualizações e ads" classname="Gestão — Settings, Atualizações e ads" file=".maestro/flows/ci/03_gestao.yaml" time="26.866" timestamp="2026-09-17T23:10:53" status="ERROR">
+      <failure>Assertion is false: id: settings_terms_of_use_link is visible</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,17 +1,7 @@
-# Subflow: voltar do leitor para a Home
-#
-# Precondição: deve estar dentro do leitor (nr_reader_page ou revoked_nr_page)
-# Passos:
-# 1. Tap no botão back da app bar do leitor
-# 2. Aguardar o retorno à Home
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Tap no botão back do leitor
-  - tapOn:
-      id: reader_back_button
-
-  # Aguardar retorno à Home (bottom nav deve estar visível)
-  - assertVisible:
-      id: normas_tab
+---
+# Volta do leitor para a Home.
+- tapOn:
+    id: reader_back_button
+- assertVisible:
+    id: normas_tab

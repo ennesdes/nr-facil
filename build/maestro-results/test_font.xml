@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="1" time="29.25" timestamp="2026-09-17T23:16:44">
+    <testcase id="test_font" name="test_font" classname="test_font" file="/tmp/test_font.yaml" time="29.245" timestamp="2026-09-17T23:16:44" status="ERROR">
+      <failure>Element not found: Text matching regex: A+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

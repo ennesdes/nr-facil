@@ -1,0 +1,53 @@
+appId: br.com.solvebetter.nrfacil
+name: "Atualizações — sino, badge, card, sheet e leitor"
+---
+# CI smoke — fluxo completo de atualizações de conteúdo (sino, não push OS).
+- runFlow: ../../subflows/launch_fresh.yaml
+- extendedWaitUntil:
+    visible:
+      id: normas_tab
+    timeout: 15000
+- assertVisible:
+    id: notifications_bell
+- assertNotVisible:
+    id: updates_badge
+- tapOn:
+    id: notifications_bell
+- assertVisible:
+    id: updates_page_root
+- assertVisible:
+    id: updates_empty_state
+- tapOn:
+    id: check_for_updates_button
+- extendedWaitUntil:
+    visible:
+      id: update_entry_nr-25
+    timeout: 15000
+- back
+- assertVisible:
+    id: normas_tab
+- extendedWaitUntil:
+    visible:
+      id: updates_badge
+    timeout: 10000
+- assertVisible:
+    id: pending_updates_card
+- tapOn:
+    id: pending_updates_card
+- assertVisible:
+    id: updates_bottom_sheet
+- back
+- tapOn:
+    id: notifications_bell
+- assertVisible:
+    id: update_entry_nr-25
+- tapOn:
+    id: update_entry_nr-25
+- assertVisible:
+    id: reader_page_root
+- runFlow: ../../subflows/close_reader.yaml
+- back
+- assertVisible:
+    id: normas_tab
+- assertNotVisible:
+    id: updates_badge

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/utils/nr_id_utils.dart' as nr_id;
-import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_font_size_control.dart';
@@ -38,8 +37,6 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    final compact = ResponsiveLayout.isCompactWidth(context);
-
     return AppBar(
       automaticallyImplyLeading: false,
       leading: Semantics(
@@ -66,94 +63,72 @@ class ReaderAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       centerTitle: false,
       actions: [
-        if (!compact) ...[
-          Semantics(
-            identifier: ReaderSemanticsIds.searchButton,
-            child: IconButton(
-              icon: const Icon(Icons.search),
-              tooltip: 'Buscar nesta NR',
-              onPressed: onOpenSearch,
-            ),
+        Semantics(
+          identifier: ReaderSemanticsIds.searchButton,
+          button: true,
+          child: IconButton(
+            icon: const Icon(Icons.search),
+            tooltip: 'Buscar nesta NR',
+            onPressed: onOpenSearch,
           ),
-          Semantics(
-            identifier: ReaderSemanticsIds.indexButton,
-            child: IconButton(
-              icon: const Icon(Icons.list_alt),
-              tooltip: 'Índice',
-              onPressed: onOpenIndex,
-            ),
+        ),
+        Semantics(
+          identifier: ReaderSemanticsIds.indexButton,
+          button: true,
+          child: IconButton(
+            icon: const Icon(Icons.list_alt),
+            tooltip: 'Índice',
+            onPressed: onOpenIndex,
           ),
-        ],
-        PopupMenuButton<String>(
-          tooltip: 'Mais opções',
-          onSelected: (value) {
-            switch (value) {
-              case 'favorite':
-                onToggleFavorite();
-              case 'search':
-                onOpenSearch();
-              case 'index':
-                onOpenIndex();
-            }
-          },
-          itemBuilder: (context) => [
-            if (compact) ...[
+        ),
+        Semantics(
+          identifier: ReaderSemanticsIds.overflowMenu,
+          button: true,
+          child: PopupMenuButton<String>(
+            tooltip: 'Mais opções',
+            onSelected: (value) {
+              switch (value) {
+                case 'favorite':
+                  onToggleFavorite();
+                case 'search':
+                  onOpenSearch();
+                case 'index':
+                  onOpenIndex();
+              }
+            },
+            itemBuilder: (context) => [
               PopupMenuItem(
-                value: 'search',
+                value: 'favorite',
                 child: Semantics(
-                  identifier: ReaderSemanticsIds.searchButton,
+                  identifier: ReaderSemanticsIds.favoriteButton,
                   child: Row(
                     children: [
-                      const Icon(Icons.search, size: 22),
+                      Icon(
+                        isFavorite ? Icons.star : Icons.star_border,
+                        size: 22,
+                      ),
                       const SizedBox(width: 12),
-                      const Expanded(child: Text('Buscar nesta NR')),
-                    ],
-                  ),
-                ),
-              ),
-              PopupMenuItem(
-                value: 'index',
-                child: Semantics(
-                  identifier: ReaderSemanticsIds.indexButton,
-                  child: Row(
-                    children: [
-                      const Icon(Icons.list_alt, size: 22),
-                      const SizedBox(width: 12),
-                      const Expanded(child: Text('Índice')),
+                      Expanded(
+                        child: Text(
+                          isFavorite ? 'Remover dos favoritos' : 'Favoritar',
+                        ),
+                      ),
                     ],
                   ),
                 ),
               ),
               const PopupMenuDivider(),
-            ],
-            PopupMenuItem(
-              value: 'favorite',
-              child: Semantics(
-                identifier: ReaderSemanticsIds.favoriteButton,
-                child: Row(
-                  children: [
-                    Icon(isFavorite ? Icons.star : Icons.star_border, size: 22),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Text(
-                        isFavorite ? 'Remover dos favoritos' : 'Favoritar',
-                      ),
-                    ),
-                  ],
+              PopupMenuItem(
+                enabled: false,
+                padding: EdgeInsets.zero,
+                child: ReaderFontSizeControl(
+                  fontSize: fontSize,
+                  onDecrease: onDecreaseFontSize,
+                  onIncrease: onIncreaseFontSize,
                 ),
               ),
-            ),
-            const PopupMenuDivider(),
-            PopupMenuItem(
-              enabled: false,
-              padding: EdgeInsets.zero,
-              child: ReaderFontSizeControl(
-                fontSize: fontSize,
-                onDecrease: onDecreaseFontSize,
-                onIncrease: onIncreaseFontSize,
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ],
     );

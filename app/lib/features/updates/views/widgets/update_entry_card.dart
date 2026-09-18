@@ -30,88 +30,89 @@ class UpdateEntryCard extends StatelessWidget {
     return Semantics(
       identifier: ManagementSemanticsIds.updateEntry(entry.id),
       child: Card(
-      margin: const EdgeInsets.fromLTRB(
-        AppSpacing.md,
-        AppSpacing.xs,
-        AppSpacing.md,
-        AppSpacing.xs,
-      ),
-      color: UpdateHighlight.backgroundColor(context),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(AppRadius.md),
-        side: UpdateHighlight.cardBorderSide(
-          context: context,
-          active: true,
-          colorScheme: colorScheme,
+        margin: const EdgeInsets.fromLTRB(
+          AppSpacing.md,
+          AppSpacing.xs,
+          AppSpacing.md,
+          AppSpacing.xs,
         ),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(AppRadius.md),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(AppSpacing.md),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              UpdateHighlight.leadingStripe(context: context, visible: true),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                children: [
-                                  Text(
-                                    entry.nrLabel,
-                                    style: theme.textTheme.titleSmall?.copyWith(
-                                      color: colorScheme.primary,
+        color: UpdateHighlight.backgroundColor(context),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppRadius.md),
+          side: UpdateHighlight.cardBorderSide(
+            context: context,
+            active: true,
+            colorScheme: colorScheme,
+          ),
+        ),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(AppRadius.md),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(AppSpacing.md),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                UpdateHighlight.leadingStripe(context: context, visible: true),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Text(
+                                      entry.nrLabel,
+                                      style: theme.textTheme.titleSmall
+                                          ?.copyWith(
+                                            color: colorScheme.primary,
+                                          ),
                                     ),
-                                  ),
-                                  const SizedBox(width: AppSpacing.sm),
-                                  const Flexible(
-                                    child: NrBadge(
-                                      variant: NrBadgeVariant.update,
-                                      compact: true,
+                                    const SizedBox(width: AppSpacing.sm),
+                                    const Flexible(
+                                      child: NrBadge(
+                                        variant: NrBadgeVariant.update,
+                                        compact: true,
+                                      ),
                                     ),
-                                  ),
-                                ],
-                              ),
-                              const SizedBox(height: 2),
-                              Text(
-                                displayTitle,
-                                style: theme.textTheme.bodyMedium?.copyWith(
-                                  color: colorScheme.onSurface,
+                                  ],
                                 ),
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                            ],
+                                const SizedBox(height: 2),
+                                Text(
+                                  displayTitle,
+                                  style: theme.textTheme.bodyMedium?.copyWith(
+                                    color: colorScheme.onSurface,
+                                  ),
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                        Icon(
-                          Icons.chevron_right,
-                          color: colorScheme.onSurfaceVariant,
-                        ),
+                          Icon(
+                            Icons.chevron_right,
+                            color: colorScheme.onSurfaceVariant,
+                          ),
+                        ],
+                      ),
+                      if (updateEntry != null) ...[
+                        const SizedBox(height: AppSpacing.md),
+                        UpdateDetailPanel(updateEntry: updateEntry!),
                       ],
-                    ),
-                    if (updateEntry != null) ...[
-                      const SizedBox(height: AppSpacing.md),
-                      UpdateDetailPanel(updateEntry: updateEntry!),
                     ],
-                  ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
-    ),
     );
   }
 }

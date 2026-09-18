@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
@@ -56,7 +57,9 @@ class UpdatesBottomSheet {
           initialChildSize: entries.length == 1 ? 0.45 : 0.55,
           minChildSize: 0.3,
           builder: (context, scrollController) {
-            return Column(
+            return Semantics(
+              identifier: ManagementSemanticsIds.updatesBottomSheet,
+              child: Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.fromLTRB(
@@ -110,6 +113,7 @@ class UpdatesBottomSheet {
                   ),
                 ),
               ],
+            ),
             );
           },
         );

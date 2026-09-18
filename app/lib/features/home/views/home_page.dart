@@ -44,23 +44,10 @@ class HomePage extends GetView<HomeController> {
           child: IndexedStack(
             index: tab,
             children: [
+              SizedBox.expand(child: const NormasTab()),
+              SizedBox.expand(child: const FavoritosTab()),
               SizedBox.expand(
-                child: Semantics(
-                  identifier: HomeSemanticsIds.normasTab,
-                  child: const NormasTab(),
-                ),
-              ),
-              SizedBox.expand(
-                child: Semantics(
-                  identifier: HomeSemanticsIds.favoritosTab,
-                  child: const FavoritosTab(),
-                ),
-              ),
-              SizedBox.expand(
-                child: Semantics(
-                  identifier: HomeSemanticsIds.buscarTab,
-                  child: SearchTab(isActive: tab == HomeController.tabBuscar),
-                ),
+                child: SearchTab(isActive: tab == HomeController.tabBuscar),
               ),
             ],
           ),
@@ -75,26 +62,38 @@ class HomePage extends GetView<HomeController> {
                 onTap: controller.selectTab,
                 items: [
                   BottomNavigationBarItem(
-                    icon: Icon(
-                      tab == HomeController.tabNormas
-                          ? Icons.library_books
-                          : Icons.library_books_outlined,
+                    icon: Semantics(
+                      identifier: HomeSemanticsIds.normasTab,
+                      button: true,
+                      child: Icon(
+                        tab == HomeController.tabNormas
+                            ? Icons.library_books
+                            : Icons.library_books_outlined,
+                      ),
                     ),
                     label: 'Normas',
                   ),
                   BottomNavigationBarItem(
-                    icon: Icon(
-                      tab == HomeController.tabFavoritos
-                          ? Icons.star
-                          : Icons.star_border,
+                    icon: Semantics(
+                      identifier: HomeSemanticsIds.favoritosTab,
+                      button: true,
+                      child: Icon(
+                        tab == HomeController.tabFavoritos
+                            ? Icons.star
+                            : Icons.star_border,
+                      ),
                     ),
                     label: 'Favoritos',
                   ),
                   BottomNavigationBarItem(
-                    icon: Icon(
-                      tab == HomeController.tabBuscar
-                          ? Icons.search
-                          : Icons.search_outlined,
+                    icon: Semantics(
+                      identifier: HomeSemanticsIds.buscarTab,
+                      button: true,
+                      child: Icon(
+                        tab == HomeController.tabBuscar
+                            ? Icons.search
+                            : Icons.search_outlined,
+                      ),
                     ),
                     label: 'Buscar',
                   ),

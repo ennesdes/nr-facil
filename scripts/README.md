@@ -358,7 +358,49 @@ python3 scripts/check_e2e_semantics.py              # valida todos os ids
 - Sai com código 1 se um `id:` no YAML não tem constante Dart correspondente, listando arquivo + linha + id órfão
 
 **Integração:**
-Chamado automaticamente por `scripts/check.sh` (graciosamente no-op se `.maestro/` ainda não existe).
+Chamado automaticamente por `scripts/check.sh` (graciosamente no-op se `.maestro/flows/ci/` ainda não existir).
+
+---
+
+## Maestro E2E (app Flutter)
+
+Testes de jornada do usuário com [Maestro](https://maestro.mobile.dev/), usando entrypoint isolado `app/lib/main_e2e.dart` (fixture `nr-25` offline).
+
+**Nota:** o sino na AppBar representa **atualizações de conteúdo** das NRs (feed `app_meta.json`), não push notifications do sistema operacional.
+
+**Pré-requisitos locais:** Android SDK + AVD, Maestro CLI (`curl -fsSL "https://get.maestro.mobile.dev" | bash`), `fvm`.
+
+```bash
+# Smoke completo: emulador (se precisar) → build → 4 flows
+bash scripts/maestro_dev.sh
+
+# Device já ligado
+bash scripts/maestro_dev.sh --no-boot
+
+# Um flow isolado
+bash scripts/maestro_run.sh --flow .maestro/flows/ci/01_leitura.yaml
+
+# Flow de atualizações (badge, card, bottom sheet, leitor)
+bash scripts/maestro_run.sh --flow .maestro/flows/ci/04_atualizacoes.yaml
+```
+
+**Flows CI** (`.maestro/flows/ci/`):
+
+| Flow | Cobertura |
+|------|-----------|
+| `01_leitura.yaml` | Leitor NR-25: índice, fonte, PDF, disclaimer, busca e favorito |
+| `02_navegacao.yaml` | Abas Normas/Favoritos/Busca, favoritar e busca full-text |
+| `03_gestao.yaml` | Settings (tema, links legais), Atualizações vazia, ads |
+| `04_atualizacoes.yaml` | Sino, badge, verificar atualizações, card, bottom sheet, leitor |
+
+**CI:** workflow `.github/workflows/maestro-e2e.yml` — `plan` → `build` (APK `main_e2e` x86_64) → `avd-prepare` → `smoke` (matrix, 1 flow/job) → `summary`. O job `smoke` não tem Flutter — usa o APK do artifact (`MAESTRO_SKIP_BUILD=1`).
+
+| Script | Uso |
+|--------|-----|
+| `maestro_dev.sh` | Bootstrap local: emulador + build + smoke |
+| `maestro_run.sh` | Smoke ou `--flow` (build local; pula build se `MAESTRO_SKIP_BUILD=1`) |
+| `maestro_ci.sh` | Simula CI local (build x86_64 + smoke) |
+| `maestro_ci_emulator_job.sh` | Entrypoint GHA dentro do `android-emulator-runner` |
 
 ---
 

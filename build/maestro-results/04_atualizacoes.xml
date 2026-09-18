@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="1" time="44.188" timestamp="2026-09-17T23:09:48">
+    <testcase id="Atualizações — sino, badge, card, sheet e leitor" name="Atualizações — sino, badge, card, sheet e leitor" classname="Atualizações — sino, badge, card, sheet e leitor" file=".maestro/flows/ci/04_atualizacoes.yaml" time="44.178" timestamp="2026-09-17T23:09:48" status="ERROR">
+      <failure>Assertion is false: id: normas_tab is visible</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 
 import '../theme/app_spacing.dart';
 import '../theme/app_theme_extensions.dart';
@@ -17,20 +18,23 @@ class UpdateCountBadge extends StatelessWidget {
     final theme = Theme.of(context);
     final semantics = context.semanticColors;
 
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 4.5, vertical: 2.5),
-      decoration: BoxDecoration(
-        color: semantics.warning,
-        borderRadius: BorderRadius.circular(AppRadius.full),
-        border: Border.all(color: theme.colorScheme.surface, width: 1.5),
-      ),
-      constraints: BoxConstraints(minWidth: minSize, minHeight: minSize),
-      child: Text(
-        count > 99 ? '99+' : '$count',
-        style: theme.textTheme.labelSmall?.copyWith(
-          color: semantics.onWarningContainer,
+    return Semantics(
+      identifier: ManagementSemanticsIds.updatesBadge,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 4.5, vertical: 2.5),
+        decoration: BoxDecoration(
+          color: semantics.warning,
+          borderRadius: BorderRadius.circular(AppRadius.full),
+          border: Border.all(color: theme.colorScheme.surface, width: 1.5),
         ),
-        textAlign: TextAlign.center,
+        constraints: BoxConstraints(minWidth: minSize, minHeight: minSize),
+        child: Text(
+          count > 99 ? '99+' : '$count',
+          style: theme.textTheme.labelSmall?.copyWith(
+            color: semantics.onWarningContainer,
+          ),
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }

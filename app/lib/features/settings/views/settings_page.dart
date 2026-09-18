@@ -26,106 +26,94 @@ class SettingsPage extends GetView<ThemeController> {
         appBar: AppBar(title: const Text('Ajustes')),
         body: AppScaffoldBody(
           child: ResponsiveContent(
-          child: ListView(
-            padding: const EdgeInsets.all(AppSpacing.md),
-            children: [
-              SettingsSectionCard(
-                title: 'Aparência',
-                description:
-                    'Escolha como o app se adapta ao tema do dispositivo.',
-                children: [
-                  Semantics(
-                    identifier: ManagementSemanticsIds.themeModeSelector,
-                    child: ThemeModeSelector(controller: controller),
-                  ),
-                ],
-              ),
-              const SizedBox(height: AppSpacing.md),
-              SettingsSectionCard(
-                title: 'Fontes oficiais',
-                description:
-                    'O texto normativo é de domínio público e provém dos '
-                    'PDFs oficiais do governo federal. Consulte as fontes '
-                    'abaixo para verificar a informação.',
-                children: [
-                  for (final source in OfficialSources.entries)
-                    SettingsActionTile(
-                      icon: Icons.public,
-                      title: source.title,
-                      subtitle: source.subtitle,
-                      trailing: Icon(
-                        Icons.open_in_new,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.onSurfaceVariant,
-                      ),
-                      onTap: () => _openExternalUrl(source.url),
+            child: ListView(
+              padding: const EdgeInsets.all(AppSpacing.md),
+              children: [
+                SettingsSectionCard(
+                  title: 'Aparência',
+                  description:
+                      'Escolha como o app se adapta ao tema do dispositivo.',
+                  children: [
+                    Semantics(
+                      identifier: ManagementSemanticsIds.themeModeSelector,
+                      child: ThemeModeSelector(controller: controller),
                     ),
-                ],
-              ),
-              const SizedBox(height: AppSpacing.md),
-              SettingsSectionCard(
-                title: 'Atualizações do conteúdo',
-                description:
-                    'O app não possui servidor próprio. O conteúdo '
-                    'organizado para leitura no celular é distribuído a '
-                    'partir de um repositório público, atualizado '
-                    'automaticamente a partir dos PDFs oficiais do MTE.',
-                children: [
-                  for (final source in OfficialSources.distributionEntries)
-                    SettingsActionTile(
-                      icon: Icons.cloud_download_outlined,
-                      title: source.title,
-                      subtitle: source.subtitle,
-                      trailing: Icon(
-                        Icons.open_in_new,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ],
+                ),
+                const SizedBox(height: AppSpacing.md),
+                SettingsSectionCard(
+                  title: 'Fontes oficiais',
+                  description:
+                      'O texto normativo é de domínio público e provém dos '
+                      'PDFs oficiais do governo federal. Consulte as fontes '
+                      'abaixo para verificar a informação.',
+                  children: [
+                    for (final source in OfficialSources.entries)
+                      SettingsActionTile(
+                        icon: Icons.public,
+                        title: source.title,
+                        subtitle: source.subtitle,
+                        trailing: Icon(
+                          Icons.open_in_new,
+                          size: 20,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                        onTap: () => _openExternalUrl(source.url),
                       ),
-                      onTap: () => _openExternalUrl(source.url),
-                    ),
-                ],
-              ),
-              const SizedBox(height: AppSpacing.md),
-              SettingsSectionCard(
-                title: 'Legal',
-                children: [
-                  Semantics(
-                    identifier: ManagementSemanticsIds.privacyPolicyLink,
-                    child: SettingsActionTile(
-                      icon: Icons.privacy_tip_outlined,
-                      title: 'Política de privacidade',
-                      subtitle: 'Como tratamos seus dados',
-                      trailing: Icon(
-                        Icons.open_in_new,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ],
+                ),
+                const SizedBox(height: AppSpacing.md),
+                SettingsSectionCard(
+                  title: 'Atualizações do conteúdo',
+                  description:
+                      'O app não possui servidor próprio. Quando você está '
+                      'online, o conteúdo é atualizado automaticamente a partir '
+                      'dos PDFs oficiais do MTE. Após o download, as normas '
+                      'ficam disponíveis offline.',
+                  children: const [],
+                ),
+                const SizedBox(height: AppSpacing.md),
+                SettingsSectionCard(
+                  title: 'Legal',
+                  children: [
+                    Semantics(
+                      identifier: ManagementSemanticsIds.privacyPolicyLink,
+                      child: SettingsActionTile(
+                        icon: Icons.privacy_tip_outlined,
+                        title: 'Política de privacidade',
+                        subtitle: 'Como tratamos seus dados',
+                        trailing: Icon(
+                          Icons.open_in_new,
+                          size: 20,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                        onTap: () =>
+                            _openExternalUrl(AppConfig.privacyPolicyUrl),
                       ),
-                      onTap: () => _openExternalUrl(AppConfig.privacyPolicyUrl),
                     ),
-                  ),
-                  Semantics(
-                    identifier: ManagementSemanticsIds.termsOfUseLink,
-                    child: SettingsActionTile(
-                      icon: Icons.description_outlined,
-                      title: 'Termos de uso',
-                      subtitle: 'Condições de uso do aplicativo',
-                      trailing: Icon(
-                        Icons.open_in_new,
-                        size: 20,
-                        color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    Semantics(
+                      identifier: ManagementSemanticsIds.termsOfUseLink,
+                      child: SettingsActionTile(
+                        icon: Icons.description_outlined,
+                        title: 'Termos de uso',
+                        subtitle: 'Condições de uso do aplicativo',
+                        trailing: Icon(
+                          Icons.open_in_new,
+                          size: 20,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
+                        onTap: () => _openExternalUrl(AppConfig.termsOfUseUrl),
                       ),
-                      onTap: () => _openExternalUrl(AppConfig.termsOfUseUrl),
                     ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: AppSpacing.md),
-              const _AboutSection(),
-            ],
+                  ],
+                ),
+                const SizedBox(height: AppSpacing.md),
+                const _AboutSection(),
+              ],
+            ),
           ),
         ),
       ),
-    ),
     );
   }
 

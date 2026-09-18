@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
@@ -165,6 +166,7 @@ class NrListTile extends StatelessWidget {
                       if (showNotDownloaded) NrDownloadAction(nrEntry: nrEntry),
                       if (!isRevoked && !hideStarButton)
                         _FavoriteButton(
+                          nrId: nrEntry.id,
                           isFavorite: isFavorite,
                           onPressed: onToggleFavorite,
                         ),
@@ -180,31 +182,42 @@ class NrListTile extends StatelessWidget {
 }
 
 class _FavoriteButton extends StatelessWidget {
+  final String nrId;
   final bool isFavorite;
   final VoidCallback onPressed;
 
-  const _FavoriteButton({required this.isFavorite, required this.onPressed});
+  const _FavoriteButton({
+    required this.nrId,
+    required this.isFavorite,
+    required this.onPressed,
+  });
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
 
-    return NrTileIconButton(
-      icon: AnimatedSwitcher(
-        duration: const Duration(milliseconds: 200),
-        transitionBuilder: (child, animation) {
-          return ScaleTransition(scale: animation, child: child);
-        },
-        child: Icon(
-          isFavorite ? Icons.star : Icons.star_border,
-          key: ValueKey(isFavorite),
-          color: isFavorite
-              ? colorScheme.primary
-              : colorScheme.onSurfaceVariant,
+    return Semantics(
+      identifier: HomeSemanticsIds.favoriteToggle(nrId),
+      button: true,
+      child: NrTileIconButton(
+        icon: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 200),
+          transitionBuilder: (child, animation) {
+            return ScaleTransition(scale: animation, child: child);
+          },
+          child: Icon(
+            isFavorite ? Icons.star : Icons.star_border,
+            key: ValueKey(isFavorite),
+            color: isFavorite
+                ? colorScheme.primary
+                : colorScheme.onSurfaceVariant,
+          ),
         ),
+        tooltip: isFavorite
+            ? 'Remover dos favoritos'
+            : 'Adicionar aos favoritos',
+        onPressed: onPressed,
       ),
-      tooltip: isFavorite ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
-      onPressed: onPressed,
     );
   }
 }

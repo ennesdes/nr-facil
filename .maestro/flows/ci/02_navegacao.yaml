@@ -1,80 +1,29 @@
-# Flow: 02_navegacao.yaml
-# Objetivo: validar navegação entre abas — Normas, Favoritos (com favoritar persistência) e Busca (com busca full-text)
-#
-# Passos:
-# 1. Lançar app (Home na aba Normas por padrão)
-# 2. Favoritar NR-25 no tile
-# 3. Ir para aba Favoritos e confirmar que NR-25 aparece
-# 4. Ir para aba Buscar
-# 5. Buscar "resíduos industriais" (termo real no conteúdo de NR-25)
-# 6. Abrir o resultado de busca
-# 7. Voltar à Home
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Lançar app
-  - launchApp
-
-  # Aguardar Home carregar (aba Normas)
-  - assertVisible:
-      id: normas_tab
-
-  # Aguardar um instante para renderização
-  - sleep:
-      ms: 500
-
-  # Favoritar a NR-25 (tap no botão de favoritar do tile)
-  - tapOn:
-      id: favorite_toggle_nr-25
-
-  # Aguardar um instante
-  - sleep:
-      ms: 300
-
-  # Navegar para aba Favoritos
-  - tapOn:
-      id: favoritos_tab
-
-  # Aguardar aba Favoritos renderizar
-  - sleep:
-      ms: 500
-
-  # Confirmar que NR-25 aparece em Favoritos
-  - assertVisible:
-      id: nr_tile_nr-25
-
-  # Navegar para aba Buscar
-  - tapOn:
-      id: buscar_tab
-
-  # Aguardar aba Buscar renderizar
-  - sleep:
-      ms: 500
-
-  # Tap no campo de busca
-  - tapOn:
-      id: search_field
-
-  # Digitar termo de busca (real no conteúdo de NR-25)
-  - typeText: resíduos industriais
-
-  # Aguardar busca processar
-  - sleep:
-      ms: 1000
-
-  # Confirmar que resultado de busca aparece (NR-25)
-  - assertVisible:
+name: "Navegação — Normas, Favoritos e Busca"
+---
+# CI smoke — abas, favoritar NR-25, busca full-text e abrir resultado.
+- runFlow: ../../subflows/launch_fresh.yaml
+- assertVisible:
+    id: normas_tab
+- tapOn:
+    id: favorite_toggle_nr-25
+- tapOn:
+    id: favoritos_tab
+- assertVisible:
+    id: nr_tile_nr-25
+- tapOn:
+    id: buscar_tab
+- assertVisible:
+    id: search_field
+- tapOn:
+    id: search_field
+- inputText: resíduos industriais
+- extendedWaitUntil:
+    visible:
       id: search_result_nr-25
-
-  # Tap no resultado de busca para abrir
-  - tapOn:
-      id: search_result_nr-25
-
-  # Aguardar leitor carregar
-  - assertVisible:
-      id: reader_page_root
-
-  # Voltar ao Home (reutiliza subflow)
-  - runFlow:
-      file: ../subflows/close_reader.yaml
+    timeout: 10000
+- tapOn:
+    id: search_result_nr-25
+- assertVisible:
+    id: reader_page_root
+- runFlow: ../../subflows/close_reader.yaml

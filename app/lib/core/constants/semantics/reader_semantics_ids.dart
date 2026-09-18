@@ -12,6 +12,7 @@ class ReaderSemanticsIds {
   static const String searchButton = 'reader_search_button';
   static const String indexButton = 'reader_index_button';
   static const String favoriteButton = 'reader_favorite_button';
+  static const String overflowMenu = 'reader_overflow_menu';
 
   // Controle de tamanho de fonte
   static const String fontSizeDecrease = 'reader_font_size_decrease';

@@ -116,30 +116,32 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
       return Semantics(
         identifier: ManagementSemanticsIds.adsPersistentBanner,
         child: ColoredBox(
-        color: colorScheme.surface,
-        child: DecoratedBox(
-          decoration: BoxDecoration(
-            border: Border(
-              top: BorderSide(
-                color: colorScheme.outline.withValues(alpha: 0.45),
+          color: colorScheme.surface,
+          child: DecoratedBox(
+            decoration: BoxDecoration(
+              border: Border(
+                top: BorderSide(
+                  color: colorScheme.outline.withValues(alpha: 0.45),
+                ),
               ),
             ),
-          ),
-          child: ClipRect(
-            child: SizedBox(
-              width: double.infinity,
-              height: banner.size.height.toDouble(),
-              child: Center(
-                child: SizedBox(
-                  width: banner.size.width.toDouble(),
-                  height: banner.size.height.toDouble(),
-                  child: _NonScrollableBannerHost(child: AdWidget(ad: banner)),
+            child: ClipRect(
+              child: SizedBox(
+                width: double.infinity,
+                height: banner.size.height.toDouble(),
+                child: Center(
+                  child: SizedBox(
+                    width: banner.size.width.toDouble(),
+                    height: banner.size.height.toDouble(),
+                    child: _NonScrollableBannerHost(
+                      child: AdWidget(ad: banner),
+                    ),
+                  ),
                 ),
               ),
             ),
           ),
         ),
-      ),
       );
     });
   }

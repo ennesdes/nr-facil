@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="1" time="36.244" timestamp="2026-09-17T23:22:09">
+    <testcase id="Leitura — NR-25, índice, fonte, PDF e disclaimer" name="Leitura — NR-25, índice, fonte, PDF e disclaimer" classname="Leitura — NR-25, índice, fonte, PDF e disclaimer" file=".maestro/flows/ci/01_leitura.yaml" time="36.232" timestamp="2026-09-17T23:22:09" status="ERROR">
+      <failure>Element not found: Id matching regex: reader_font_size_increase</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

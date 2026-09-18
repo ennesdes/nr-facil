@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="1" time="33.06" timestamp="2026-09-17T23:06:39">
+    <testcase id="Navegação — Normas, Favoritos e Busca" name="Navegação — Normas, Favoritos e Busca" classname="Navegação — Normas, Favoritos e Busca" file=".maestro/flows/ci/02_navegacao.yaml" time="33.051" timestamp="2026-09-17T23:06:39" status="ERROR">
+      <failure>Assertion is false: id: search_result_nr-25 is visible</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/semantics/home_semantics_ids.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
@@ -26,7 +27,9 @@ class PendingUpdatesSection extends StatelessWidget {
       final theme = Theme.of(context);
       final colorScheme = theme.colorScheme;
 
-      return Card(
+      return Semantics(
+        identifier: HomeSemanticsIds.pendingUpdatesCard,
+        child: Card(
         margin: const EdgeInsets.fromLTRB(
           AppSpacing.md,
           AppSpacing.xs,
@@ -110,6 +113,7 @@ class PendingUpdatesSection extends StatelessWidget {
               ),
             ],
           ),
+        ),
         ),
       );
     });

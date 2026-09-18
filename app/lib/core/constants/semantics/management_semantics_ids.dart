@@ -12,8 +12,10 @@ class ManagementSemanticsIds {
 
   // Updates page
   static const String updatesPageRoot = 'updates_page_root';
+  static const String updatesEmptyState = 'updates_empty_state';
   static const String checkForUpdatesButton = 'check_for_updates_button';
   static const String downloadOfflineButton = 'download_offline_button';
+  static const String updatesBottomSheet = 'updates_bottom_sheet';
 
   // Updates entry — dinâmico por NR
   static String updateEntry(String nrId) => 'update_entry_$nrId';

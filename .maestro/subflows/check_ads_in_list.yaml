@@ -1,12 +1,5 @@
-# Subflow: verificar que o banner de ads está visível em um contexto de lista
-#
-# Precondição: deve estar em uma aba de lista (Normas, Favoritos ou Busca)
-# Passos:
-# 1. Assert que o banner está visível (id: ads_persistent_banner)
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Verificar que o banner de ads está presente na lista
-  - assertVisible:
-      id: ads_persistent_banner
+---
+# Banner de ads visível em contexto de lista (Normas/Favoritos/Busca).
+- assertVisible:
+    id: ads_persistent_banner

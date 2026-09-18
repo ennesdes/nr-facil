@@ -42,7 +42,10 @@ class ReaderFontSizeControl extends StatelessWidget {
           AppSpacing.md,
           AppSpacing.md,
         ),
-        child: Column(
+        child: Semantics(
+          container: true,
+          explicitChildNodes: true,
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -59,6 +62,7 @@ class ReaderFontSizeControl extends StatelessWidget {
                   children: [
                     Semantics(
                       identifier: ReaderSemanticsIds.fontSizeDecrease,
+                      button: true,
                       child: _StepButton(
                         label: 'A−',
                         width: buttonWidth,
@@ -98,6 +102,7 @@ class ReaderFontSizeControl extends StatelessWidget {
                     ),
                     Semantics(
                       identifier: ReaderSemanticsIds.fontSizeIncrease,
+                      button: true,
                       child: _StepButton(
                         label: 'A+',
                         width: buttonWidth,
@@ -117,6 +122,7 @@ class ReaderFontSizeControl extends StatelessWidget {
               ),
             ),
           ],
+        ),
         ),
       );
     });

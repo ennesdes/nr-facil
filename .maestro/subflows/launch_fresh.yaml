@@ -1,0 +1,11 @@
+appId: br.com.solvebetter.nrfacil
+---
+# Cold start limpo para smoke CI — concede permissões antes do app pedir
+# (evita dialog de sistema cobrindo a UI no Android 13+).
+- setPermissions:
+    permissions:
+      all: allow
+- launchApp:
+    clearState: true
+    permissions:
+      all: allow

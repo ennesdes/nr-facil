@@ -1,25 +1,13 @@
-# Subflow: abrir o leitor de NR-25 a partir da Home (aba Normas)
-#
-# Passos:
-# 1. Garante que está na aba Normas (se não estiver, tap para ir)
-# 2. Encontra e tapa no tile de NR-25
-# 3. Aguarda o leitor carregar (assertVisible do root da página)
-
 appId: br.com.solvebetter.nrfacil
-
-commands:
-  # Garantir que está na aba Normas
-  - tapOn:
-      id: normas_tab
-
-  # Aguardar um instante para a aba renderizar
-  - sleep:
-      ms: 500
-
-  # Tap no tile de NR-25 (fixture só tem nr-25)
-  - tapOn:
-      id: nr_tile_nr-25
-
-  # Aguardar o leitor carregar
-  - assertVisible:
-      id: reader_page_root
+---
+# Abre o leitor de NR-25 a partir da Home (aba Normas).
+- tapOn:
+    id: normas_tab
+- tapOn:
+    id: nr_tile_nr-25
+- assertVisible:
+    id: reader_page_root
+- extendedWaitUntil:
+    visible:
+      id: reader_search_button
+    timeout: 20000

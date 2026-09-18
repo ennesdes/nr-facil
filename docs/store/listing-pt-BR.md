@@ -56,9 +56,7 @@ O texto normativo exibido no app é extraído dos PDFs oficiais do governo feder
 • Diário Oficial da União (publicação das portarias que alteram as NRs): https://www.in.gov.br/leiturajornal
 
 COMO O APP RECEBE ATUALIZAÇÕES
-O app não possui servidor próprio. O conteúdo organizado para leitura no celular é distribuído a partir de um repositório público no GitHub, atualizado automaticamente a partir dos PDFs oficiais do MTE:
-
-• Repositório de conteúdo: https://github.com/ennesdes/nr-facil
+O app não possui servidor próprio. Quando você está online, o conteúdo organizado para leitura no celular é atualizado automaticamente a partir dos PDFs oficiais do MTE. Após o download, as normas ficam disponíveis offline.
 
 IMPORTANTE — NÃO GOVERNAMENTAL
 Este aplicativo NÃO é governamental e NÃO representa o Ministério do Trabalho e Emprego nem qualquer órgão público. É uma ferramenta independente que organiza conteúdo público oficial das Normas Regulamentadoras para leitura no celular. O conteúdo não substitui a consulta às publicações oficiais nos links acima.

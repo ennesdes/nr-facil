@@ -28,109 +28,111 @@ class UpdatesPage extends GetView<UpdatesController> {
       child: Scaffold(
         appBar: AppBar(title: const Text('Atualizações')),
         body: AppScaffoldBody(
-        child: ResponsiveContent(
-          child: Obx(() {
-            final updates = controller.updatedNrs.value;
-            final isChecking = controller.isChecking.value;
-            final isDownloading = controller.isBulkDownloading;
-            final downloadProgress = controller.bulkSyncProgress.value;
-            final showDownloadButton =
-                controller.offlineDownloadNeeded.value && !isDownloading;
-            final showProgress =
-                isChecking ||
-                (isDownloading &&
-                    downloadProgress != null &&
-                    downloadProgress.isActive);
+          child: ResponsiveContent(
+            child: Obx(() {
+              final updates = controller.updatedNrs.value;
+              final isChecking = controller.isChecking.value;
+              final isDownloading = controller.isBulkDownloading;
+              final downloadProgress = controller.bulkSyncProgress.value;
+              final showDownloadButton =
+                  controller.offlineDownloadNeeded.value && !isDownloading;
+              final showProgress =
+                  isChecking ||
+                  (isDownloading &&
+                      downloadProgress != null &&
+                      downloadProgress.isActive);
 
-            final progressCard = UpdatesActionProgress(
-              isChecking: isChecking,
-              downloadProgress: downloadProgress,
-              onDownloadTap: isDownloading
-                  ? () => controller.confirmCancelDownload(context)
-                  : null,
-            );
-
-            final quickActions = Padding(
-              padding: const EdgeInsets.fromLTRB(
-                AppSpacing.md,
-                AppSpacing.sm,
-                AppSpacing.md,
-                AppSpacing.xs,
-              ),
-              child: UpdatesQuickActions(
+              final progressCard = UpdatesActionProgress(
                 isChecking: isChecking,
-                showDownloadButton: showDownloadButton,
-                onCheck: controller.checkForUpdates,
-                onDownload: controller.downloadAllForOffline,
-              ),
-            );
-
-            if (updates.isEmpty) {
-              return ListView(
-                padding: const EdgeInsets.all(AppSpacing.md),
-                children: [
-                  if (showProgress) ...[
-                    progressCard,
-                    const SizedBox(height: AppSpacing.md),
-                  ],
-                  EmptyState(
-                    icon: Icons.notifications_off_outlined,
-                    title: 'Nenhuma atualização disponível',
-                    body: 'Suas normas estão em dia.',
-                    actions: [
-                      UpdatesQuickActions(
-                        centered: true,
-                        isChecking: isChecking,
-                        showDownloadButton: showDownloadButton,
-                        onCheck: controller.checkForUpdates,
-                        onDownload: controller.downloadAllForOffline,
-                      ),
-                    ],
-                  ),
-                ],
+                downloadProgress: downloadProgress,
+                onDownloadTap: isDownloading
+                    ? () => controller.confirmCancelDownload(context)
+                    : null,
               );
-            }
 
-            final headerCount = showProgress ? 3 : 2;
+              final quickActions = Padding(
+                padding: const EdgeInsets.fromLTRB(
+                  AppSpacing.md,
+                  AppSpacing.sm,
+                  AppSpacing.md,
+                  AppSpacing.xs,
+                ),
+                child: UpdatesQuickActions(
+                  isChecking: isChecking,
+                  showDownloadButton: showDownloadButton,
+                  onCheck: controller.checkForUpdates,
+                  onDownload: controller.downloadAllForOffline,
+                ),
+              );
 
-            return ListView.builder(
-              padding: const EdgeInsets.only(bottom: AppSpacing.md),
-              itemCount: updates.length + headerCount,
-              itemBuilder: (context, index) {
-                if (index == 0) return quickActions;
-
-                if (showProgress && index == 1) {
-                  return Padding(
-                    padding: const EdgeInsets.fromLTRB(
-                      AppSpacing.md,
-                      0,
-                      AppSpacing.md,
-                      AppSpacing.xs,
+              if (updates.isEmpty) {
+                return ListView(
+                  padding: const EdgeInsets.all(AppSpacing.md),
+                  children: [
+                    if (showProgress) ...[
+                      progressCard,
+                      const SizedBox(height: AppSpacing.md),
+                    ],
+                    Semantics(
+                      identifier: ManagementSemanticsIds.updatesEmptyState,
+                      child: EmptyState(
+                      icon: Icons.notifications_off_outlined,
+                      title: 'Nenhuma atualização disponível',
+                      body: 'Suas normas estão em dia.',
+                      actions: [
+                        UpdatesQuickActions(
+                          isChecking: isChecking,
+                          showDownloadButton: showDownloadButton,
+                          onCheck: controller.checkForUpdates,
+                          onDownload: controller.downloadAllForOffline,
+                        ),
+                      ],
                     ),
-                    child: progressCard,
-                  );
-                }
-
-                final summaryIndex = showProgress ? 2 : 1;
-                if (index == summaryIndex) {
-                  return UpdatesSummaryHeader(pendingCount: updates.length);
-                }
-
-                final entryIndex = index - headerCount;
-                final entry = updates[entryIndex];
-                final updateEntry = controller.getUpdateEntry(entry.id);
-
-                return UpdateEntryCard(
-                  entry: entry,
-                  updateEntry: updateEntry,
-                  onTap: () => controller.openNrAndMarkSeen(entry),
+                    ),
+                  ],
                 );
-              },
-            );
-          }),
+              }
+
+              final headerCount = showProgress ? 3 : 2;
+
+              return ListView.builder(
+                padding: const EdgeInsets.only(bottom: AppSpacing.md),
+                itemCount: updates.length + headerCount,
+                itemBuilder: (context, index) {
+                  if (index == 0) return quickActions;
+
+                  if (showProgress && index == 1) {
+                    return Padding(
+                      padding: const EdgeInsets.fromLTRB(
+                        AppSpacing.md,
+                        0,
+                        AppSpacing.md,
+                        AppSpacing.xs,
+                      ),
+                      child: progressCard,
+                    );
+                  }
+
+                  final summaryIndex = showProgress ? 2 : 1;
+                  if (index == summaryIndex) {
+                    return UpdatesSummaryHeader(pendingCount: updates.length);
+                  }
+
+                  final entryIndex = index - headerCount;
+                  final entry = updates[entryIndex];
+                  final updateEntry = controller.getUpdateEntry(entry.id);
+
+                  return UpdateEntryCard(
+                    entry: entry,
+                    updateEntry: updateEntry,
+                    onTap: () => controller.openNrAndMarkSeen(entry),
+                  );
+                },
+              );
+            }),
+          ),
         ),
       ),
-    ),
     );
   }
 }
