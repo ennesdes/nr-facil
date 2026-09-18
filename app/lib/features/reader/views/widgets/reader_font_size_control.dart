@@ -46,83 +46,83 @@ class ReaderFontSizeControl extends StatelessWidget {
           container: true,
           explicitChildNodes: true,
           child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text('Tamanho do texto', style: labelStyle),
-            const SizedBox(height: AppSpacing.sm),
-            DecoratedBox(
-              decoration: BoxDecoration(
-                color: colorScheme.surfaceContainerHighest,
-                borderRadius: BorderRadius.circular(AppRadius.md),
-                border: Border.all(color: colorScheme.outlineVariant),
-              ),
-              child: IntrinsicHeight(
-                child: Row(
-                  children: [
-                    Semantics(
-                      identifier: ReaderSemanticsIds.fontSizeDecrease,
-                      button: true,
-                      child: _StepButton(
-                        label: 'A−',
-                        width: buttonWidth,
-                        labelStyle: const TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                        ),
-                        enabled: canDecrease,
-                        onPressed: onDecrease,
-                        borderRadius: const BorderRadius.horizontal(
-                          left: Radius.circular(AppRadius.md),
-                        ),
-                      ),
-                    ),
-                    VerticalDivider(
-                      width: 1,
-                      thickness: 1,
-                      color: colorScheme.outlineVariant,
-                    ),
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                          vertical: AppSpacing.md,
-                        ),
-                        child: Text(
-                          size.toInt().toString(),
-                          textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.titleLarge
-                              ?.copyWith(fontWeight: FontWeight.w700),
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text('Tamanho do texto', style: labelStyle),
+              const SizedBox(height: AppSpacing.sm),
+              DecoratedBox(
+                decoration: BoxDecoration(
+                  color: colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(AppRadius.md),
+                  border: Border.all(color: colorScheme.outlineVariant),
+                ),
+                child: IntrinsicHeight(
+                  child: Row(
+                    children: [
+                      Semantics(
+                        identifier: ReaderSemanticsIds.fontSizeDecrease,
+                        button: true,
+                        child: _StepButton(
+                          label: 'A−',
+                          width: buttonWidth,
+                          labelStyle: const TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w600,
+                          ),
+                          enabled: canDecrease,
+                          onPressed: onDecrease,
+                          borderRadius: const BorderRadius.horizontal(
+                            left: Radius.circular(AppRadius.md),
+                          ),
                         ),
                       ),
-                    ),
-                    VerticalDivider(
-                      width: 1,
-                      thickness: 1,
-                      color: colorScheme.outlineVariant,
-                    ),
-                    Semantics(
-                      identifier: ReaderSemanticsIds.fontSizeIncrease,
-                      button: true,
-                      child: _StepButton(
-                        label: 'A+',
-                        width: buttonWidth,
-                        labelStyle: const TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w600,
-                        ),
-                        enabled: canIncrease,
-                        onPressed: onIncrease,
-                        borderRadius: const BorderRadius.horizontal(
-                          right: Radius.circular(AppRadius.md),
+                      VerticalDivider(
+                        width: 1,
+                        thickness: 1,
+                        color: colorScheme.outlineVariant,
+                      ),
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                            vertical: AppSpacing.md,
+                          ),
+                          child: Text(
+                            size.toInt().toString(),
+                            textAlign: TextAlign.center,
+                            style: Theme.of(context).textTheme.titleLarge
+                                ?.copyWith(fontWeight: FontWeight.w700),
+                          ),
                         ),
                       ),
-                    ),
-                  ],
+                      VerticalDivider(
+                        width: 1,
+                        thickness: 1,
+                        color: colorScheme.outlineVariant,
+                      ),
+                      Semantics(
+                        identifier: ReaderSemanticsIds.fontSizeIncrease,
+                        button: true,
+                        child: _StepButton(
+                          label: 'A+',
+                          width: buttonWidth,
+                          labelStyle: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600,
+                          ),
+                          enabled: canIncrease,
+                          onPressed: onIncrease,
+                          borderRadius: const BorderRadius.horizontal(
+                            right: Radius.circular(AppRadius.md),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
-        ),
+            ],
+          ),
         ),
       );
     });

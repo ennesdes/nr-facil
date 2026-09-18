@@ -76,18 +76,18 @@ class UpdatesPage extends GetView<UpdatesController> {
                     Semantics(
                       identifier: ManagementSemanticsIds.updatesEmptyState,
                       child: EmptyState(
-                      icon: Icons.notifications_off_outlined,
-                      title: 'Nenhuma atualização disponível',
-                      body: 'Suas normas estão em dia.',
-                      actions: [
-                        UpdatesQuickActions(
-                          isChecking: isChecking,
-                          showDownloadButton: showDownloadButton,
-                          onCheck: controller.checkForUpdates,
-                          onDownload: controller.downloadAllForOffline,
-                        ),
-                      ],
-                    ),
+                        icon: Icons.notifications_off_outlined,
+                        title: 'Nenhuma atualização disponível',
+                        body: 'Suas normas estão em dia.',
+                        actions: [
+                          UpdatesQuickActions(
+                            isChecking: isChecking,
+                            showDownloadButton: showDownloadButton,
+                            onCheck: controller.checkForUpdates,
+                            onDownload: controller.downloadAllForOffline,
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 );

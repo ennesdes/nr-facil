@@ -30,90 +30,91 @@ class PendingUpdatesSection extends StatelessWidget {
       return Semantics(
         identifier: HomeSemanticsIds.pendingUpdatesCard,
         child: Card(
-        margin: const EdgeInsets.fromLTRB(
-          AppSpacing.md,
-          AppSpacing.xs,
-          AppSpacing.md,
-          AppSpacing.xs,
-        ),
-        color: UpdateHighlight.backgroundColor(context),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(AppRadius.md),
-          side: UpdateHighlight.cardBorderSide(
-            context: context,
-            active: true,
-            colorScheme: colorScheme,
+          margin: const EdgeInsets.fromLTRB(
+            AppSpacing.md,
+            AppSpacing.xs,
+            AppSpacing.md,
+            AppSpacing.xs,
           ),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.md,
-            vertical: AppSpacing.sm,
+          color: UpdateHighlight.backgroundColor(context),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(AppRadius.md),
+            side: UpdateHighlight.cardBorderSide(
+              context: context,
+              active: true,
+              colorScheme: colorScheme,
+            ),
           ),
-          child: Row(
-            children: [
-              Expanded(
-                child: InkWell(
-                  borderRadius: BorderRadius.circular(AppRadius.sm),
-                  onTap: () => UpdatesBottomSheet.showAllPending(context),
-                  child: Row(
-                    children: [
-                      UpdateHighlight.leadingStripe(
-                        context: context,
-                        visible: true,
-                      ),
-                      Icon(
-                        Icons.update,
-                        size: 20,
-                        color: UpdateHighlight.accentColor(context),
-                      ),
-                      const SizedBox(width: AppSpacing.sm),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                Expanded(
-                                  child: Text(
-                                    'Atualizações pendentes',
-                                    style: theme.textTheme.labelSmall?.copyWith(
-                                      color: colorScheme.onSurfaceVariant,
-                                      letterSpacing: 0.5,
-                                      fontSize: 10,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.md,
+              vertical: AppSpacing.sm,
+            ),
+            child: Row(
+              children: [
+                Expanded(
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(AppRadius.sm),
+                    onTap: () => UpdatesBottomSheet.showAllPending(context),
+                    child: Row(
+                      children: [
+                        UpdateHighlight.leadingStripe(
+                          context: context,
+                          visible: true,
+                        ),
+                        Icon(
+                          Icons.update,
+                          size: 20,
+                          color: UpdateHighlight.accentColor(context),
+                        ),
+                        const SizedBox(width: AppSpacing.sm),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      'Atualizações pendentes',
+                                      style: theme.textTheme.labelSmall
+                                          ?.copyWith(
+                                            color: colorScheme.onSurfaceVariant,
+                                            letterSpacing: 0.5,
+                                            fontSize: 10,
+                                          ),
                                     ),
                                   ),
-                                ),
-                                const NrBadge(
-                                  variant: NrBadgeVariant.update,
-                                  compact: true,
-                                ),
-                              ],
-                            ),
-                            const SizedBox(height: AppSpacing.xs),
-                            Text(
-                              nrLabels,
-                              style: theme.textTheme.titleSmall?.copyWith(
-                                color: colorScheme.onSurface,
+                                  const NrBadge(
+                                    variant: NrBadgeVariant.update,
+                                    compact: true,
+                                  ),
+                                ],
                               ),
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ],
+                              const SizedBox(height: AppSpacing.xs),
+                              Text(
+                                nrLabels,
+                                style: theme.textTheme.titleSmall?.copyWith(
+                                  color: colorScheme.onSurface,
+                                ),
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
-              ),
-              IconButton(
-                icon: const Icon(Icons.close, size: 20),
-                tooltip: 'Dispensar',
-                onPressed: contentService.dismissPendingUpdatesCard,
-              ),
-            ],
+                IconButton(
+                  icon: const Icon(Icons.close, size: 20),
+                  tooltip: 'Dispensar',
+                  onPressed: contentService.dismissPendingUpdatesCard,
+                ),
+              ],
+            ),
           ),
-        ),
         ),
       );
     });

@@ -77,17 +77,9 @@ class _CheckUpdatesButton extends StatelessWidget {
         : const Icon(Icons.refresh);
 
     if (isPrimary) {
-      return FilledButton.icon(
-        onPressed: onPressed,
-        icon: icon,
-        label: label,
-      );
+      return FilledButton.icon(onPressed: onPressed, icon: icon, label: label);
     }
 
-    return OutlinedButton.icon(
-      onPressed: onPressed,
-      icon: icon,
-      label: label,
-    );
+    return OutlinedButton.icon(onPressed: onPressed, icon: icon, label: label);
   }
 }

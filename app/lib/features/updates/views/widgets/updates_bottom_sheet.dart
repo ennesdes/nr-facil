@@ -60,60 +60,60 @@ class UpdatesBottomSheet {
             return Semantics(
               identifier: ManagementSemanticsIds.updatesBottomSheet,
               child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(
-                    AppSpacing.md,
-                    AppSpacing.md,
-                    AppSpacing.md,
-                    AppSpacing.sm,
-                  ),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          'Atualizações pendentes',
-                          style: Theme.of(context).textTheme.titleLarge,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                      const NrBadge(variant: NrBadgeVariant.update),
-                    ],
-                  ),
-                ),
-                Expanded(
-                  child: ListView(
-                    controller: scrollController,
+                children: [
+                  Padding(
                     padding: const EdgeInsets.fromLTRB(
                       AppSpacing.md,
-                      0,
                       AppSpacing.md,
                       AppSpacing.md,
+                      AppSpacing.sm,
                     ),
-                    children: [
-                      for (var i = 0; i < entries.length; i++) ...[
-                        _NrUpdatesGroup(
-                          entry: entries[i],
-                          updateEntry: contentService.updateEntryFor(
-                            entries[i].id,
-                          ),
-                          showNrHeader: entries.length > 1,
-                          onItemTap: (item) => _handleItemTap(
-                            sheetContext: sheetContext,
-                            nrId: entries[i].id,
-                            item: item,
-                            readerController: readerController,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            'Atualizações pendentes',
+                            style: Theme.of(context).textTheme.titleLarge,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
-                        if (i < entries.length - 1)
-                          const SizedBox(height: AppSpacing.md),
+                        const NrBadge(variant: NrBadgeVariant.update),
                       ],
-                    ],
+                    ),
                   ),
-                ),
-              ],
-            ),
+                  Expanded(
+                    child: ListView(
+                      controller: scrollController,
+                      padding: const EdgeInsets.fromLTRB(
+                        AppSpacing.md,
+                        0,
+                        AppSpacing.md,
+                        AppSpacing.md,
+                      ),
+                      children: [
+                        for (var i = 0; i < entries.length; i++) ...[
+                          _NrUpdatesGroup(
+                            entry: entries[i],
+                            updateEntry: contentService.updateEntryFor(
+                              entries[i].id,
+                            ),
+                            showNrHeader: entries.length > 1,
+                            onItemTap: (item) => _handleItemTap(
+                              sheetContext: sheetContext,
+                              nrId: entries[i].id,
+                              item: item,
+                              readerController: readerController,
+                            ),
+                          ),
+                          if (i < entries.length - 1)
+                            const SizedBox(height: AppSpacing.md),
+                        ],
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             );
           },
         );
