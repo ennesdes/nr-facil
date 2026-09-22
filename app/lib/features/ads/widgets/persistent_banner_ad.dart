@@ -26,7 +26,14 @@ class _PersistentBannerAdState extends State<PersistentBannerAd> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    _loadBannerIfNeeded();
+    // Adiar carregamento para pós-frame para garantir que MediaQuery retorne
+    // largura estável. Corrige race condition no cold start onde o tamanho
+    // da janela ainda não está assentado (documentado no google_mobile_ads).
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) {
+        _loadBannerIfNeeded();
+      }
+    });
   }
 
   @override
