@@ -2197,7 +2197,7 @@
   },
   {
     "id": "chunk-366",
-    "text": "![Tabela da página 49](../assets/pages/page-049-table-00.png)\n- f) para o encarregado de ar comprimido: \n - I. normas e regulamentos sobre segurança; \n - II. análise de risco, condições impeditivas e medidas de proteção para compressão e descompressão;",
+    "text": "![Página 49 (tabelas)](../assets/pages/page-049-table-full.png)\n- f) para o encarregado de ar comprimido: \n - I. normas e regulamentos sobre segurança; \n - II. análise de risco, condições impeditivas e medidas de proteção para compressão e descompressão;",
     "heading": "**2. Conteúdo programático**",
     "char_offset": 120246
   },
@@ -2205,246 +2205,255 @@
     "id": "chunk-367",
     "text": "- III. riscos potenciais inerentes ao trabalho hiperbárico; \n - IV. sistemas de segurança; \n - V. acidentes e doenças do trabalho; \n - VI. procedimentos e condutas em situações de emergência. \n- g) para o operador de PEMT: conforme disposto em norma técnica nacional vigente;",
     "heading": "**2. Conteúdo programático**",
-    "char_offset": 120505
+    "char_offset": 120507
   },
   {
     "id": "chunk-368",
     "text": "- h) para os trabalhadores envolvidos em serviços de impermeabilização: \n - I. acidentes típicos nos trabalhos de impermeabilização; \n - II. riscos potenciais inerentes ao trabalho e medidas de prevenção; \n - III. operação do equipamento para aquecimento com segurança;",
     "heading": "**2. Conteúdo programático**",
-    "char_offset": 120787
+    "char_offset": 120789
   },
   {
     "id": "chunk-369",
     "text": "- IV. condutas em situações de emergência, incluindo noções de técnicas de resgate e primeiros socorros (principalmente no caso de queimaduras); \n - V. isolamento da área e sinalização de advertência. \n- i) para os trabalhadores que utilizam cadeira suspensa:",
     "heading": "**2. Conteúdo programático**",
-    "char_offset": 121061
+    "char_offset": 121063
   },
   {
     "id": "chunk-370",
     "text": "- I. modo de operação; \n - II. técnicas de descida; \n - III. tipos de ancoragem; \n - IV. tipos de nós; \n - V. manutenção dos equipamentos; \n - VI. procedimentos de segurança; \n - VII. técnicas de autorresgate. \n**2.2** O conteúdo dos treinamentos periódico e eventual será definido pelo empregador e deve contemplar os princípios básicos de segurança compatíveis com o equipamento e a atividade a ser desenvolvida no local de trabalho.",
     "heading": "**2. Conteúdo programático**",
-    "char_offset": 121331
+    "char_offset": 121333
   },
   {
     "id": "chunk-371",
     "text": "**1.** É obrigatória a observância das condições de utilização, dimensionamento e conservação dos cabos de aço utilizados em obras de construção, conforme o disposto nas normas técnicas nacionais vigentes. \n**2.** Os cabos de aço de tração não podem ter emendas nem pernas quebradas, que possam vir a comprometer sua segurança.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 121772
+    "char_offset": 121774
   },
   {
     "id": "chunk-372",
     "text": "**3.** Os cabos de aço devem ter carga de ruptura equivalente a, no mínimo, 5 (cinco) vezes a carga máxima de trabalho a que estiverem sujeitos e resistência à tração de seus fios de, no mínimo, 160 kgf/mm<sup>2</sup> (cento e sessenta quilogramas-força por milímetro quadrado).",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 122102
+    "char_offset": 122104
   },
   {
     "id": "chunk-373",
     "text": "**4.** Os cabos de aço devem atender aos requisitos mínimos contidos nas normas técnicas nacionais vigentes e permitir a sua rastreabilidade. \n**5.** O cabo de aço e o de fibra sintética devem ser fixados por meio de dispositivos que impeçam seu deslizamento e desgaste. **6.** O cabo de fibra sintética ou o de aço utilizado no SPIQ e aquele utilizado para sustentação da cadeira suspensa devem ser exclusivos para cada tipo de aplicação.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 122384
+    "char_offset": 122386
   },
   {
     "id": "chunk-374",
     "text": "**7.** O cabo de aço e o de fibra sintética devem ser substituídos quando apresentarem condições que comprometam a sua integridade em face da utilização a que estiverem submetidos. \n**8.** O cabo de fibra sintética utilizado no SPIQ como linha de vida vertical deve ser compatível com o trava-queda a ser utilizado.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 122827
+    "char_offset": 122829
   },
   {
     "id": "chunk-375",
     "text": "**9.** O cabo de fibra sintética deve ser submetido aos ensaios, realizados pelo fabricante, conforme as normas técnicas nacionais vigentes. \n**10.** No manual do fabricante devem constar recomendações para inspeção, uso, alongamento, manutenção e armazenamento dos cabos de fibra sintética.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 123146
+    "char_offset": 123148
   },
   {
     "id": "chunk-376",
     "text": "**11.** O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação. GLOSSÁRIO",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 123440
+    "char_offset": 123442
   },
   {
     "id": "chunk-377",
     "text": "Ancoragem: ponto ou elemento de fixação instalado na edificação ou outra estrutura para a sustentação de equipamento de trabalho ou EPI. \nAndaime: plataforma de trabalho com estrutura provisória para realização de atividades em locais elevados. \nAndaime Multidirecional: Sistema modular de acesso composto por montantes com rosetas fixas a intervalos regulares, que permitem a conexão de travessas e diagonais em diversos ângulos por meio de encaixe autobloqueante. É caracterizado pela capacidade de montagem em múltiplas direções, adaptando-se a geometrias complexas e dispensando o uso de acessórios de aperto manual, como braçadeiras ou parafusos, na sua estrutura principal. _(definição inserida pela Portaria MTE_ _nº 836, de 13 de maio de 2026 - entra_ _em vigor no dia_ _29 de junho de 2026)_",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 123694
+    "char_offset": 123696
   },
   {
     "id": "chunk-378",
     "text": "Andaime simplesmente apoiado: plataforma de trabalho, fixa ou móvel, cujos pontos de sustentação estão apoiados no piso. \nAndaime suspenso: plataforma de trabalho sustentada por meio de cabos de aço e movimentada no sentido vertical. \nAutopassante: sistema onde o cabo de aço passa no interior do guincho sem enrolamento no seu interior.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 124499
+    "char_offset": 124501
   },
   {
     "id": "chunk-379",
     "text": "Balaustrada: estrutura de proteção contra quedas situada na periferia do flutuante. \nBate-estaca: equipamento utilizado para a cravação de estacas utilizadas em fundações. \nBeiral da edificação: prolongamento da laje além do alinhamento da parede de periferia da edificação.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 124841
+    "char_offset": 124843
   },
   {
     "id": "chunk-380",
     "text": "Blaster: profissional qualificado responsável pela execução do plano de fogo e encarregado de organizar, conectar, dispor e distribuir os explosivos e acessórios empregados no desmonte de rochas. \nCadeira suspensa: plataforma individual de trabalho sustentada por meio de cabos, de aço ou de fibra sintética, movimentada no sentido vertical.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 125119
+    "char_offset": 125121
   },
   {
     "id": "chunk-381",
     "text": "Campânula: câmara utilizada sob condições hiperbáricas que permite a passagem de pessoas de um ambiente sob pressão mais alta que a atmosférica para o ar livre, ou vice-versa. \nCanteiro de obra: área de trabalho fixa e temporária onde se desenvolvem operações de apoio e execução de construção, demolição, montagem, instalação, manutenção ou reforma.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 125464
+    "char_offset": 125466
   },
   {
     "id": "chunk-382",
     "text": "Caracteres Indeléveis: qualquer dígito numérico, letra do alfabeto ou símbolo especial que não possa ser apagado ou removido. \nClimatização: processo para se obter condições ambientais de temperatura e umidade confortáveis ao trabalhador, nas cabines dos equipamentos.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 125818
+    "char_offset": 125820
   },
   {
     "id": "chunk-383",
     "text": "Coifa: dispositivo destinado a impedir a projeção do disco de corte da serra circular. \nColetor de serragem: dispositivo destinado a captar a serragem proveniente do corte de madeira. Coletor elétrico: dispositivo responsável pela transmissão da alimentação elétrica da parte fixa (torre) da grua à parte rotativa.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 126090
+    "char_offset": 126092
   },
   {
     "id": "chunk-384",
     "text": "Condutor habilitado: condutor de veículos portador de Carteira Nacional de Habilitação (CNH), expedida pelo órgão competente. \nDesmonte de rocha a fogo: retirada de rochas com explosivos. \nDesprotensão: operação de alívio da tensão em cabos ou fios de aço usados no concreto protendido. Dispositivo auxiliar de içamento: dispositivo conectado ao gancho do moitão utilizado para facilitar a movimentação da carga.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 126409
+    "char_offset": 126411
   },
   {
     "id": "chunk-385",
     "text": "Dispositivo empurrador: dispositivo instalado na serra circular, destinado à movimentação da madeira durante o corte. \nDispositivo limitador de curso: dispositivo destinado a permitir uma sobreposição segura dos montantes da escada portátil extensível.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 126825
+    "char_offset": 126827
   },
   {
     "id": "chunk-386",
     "text": "Eixo expansível: eixo provido de rodízios ou esteiras nas extremidades que permitem sua expansão, com o objetivo de proporcionar estabilidade à PEMT. \nEquipamento de guindar: equipamento utilizado no transporte vertical de materiais (grua, guincho, guindaste e outros).",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 127081
+    "char_offset": 127083
   },
   {
     "id": "chunk-387",
     "text": "Equipamento de salvatagem: equipamento utilizado para resgate e manutenção da vida do trabalhador após um acidente na água. \nEscada fixa vertical: escada fixada a uma estrutura e utilizada para transpor diferença de nível. \nEscada portátil: escada de mão transportável.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 127355
+    "char_offset": 127357
   },
   {
     "id": "chunk-388",
     "text": "Escada portátil de uso individual: escada de mão com lance único. \nEscada portátil dupla: escada de abrir, cavalete ou autossustentável. \nEscada portátil extensível: escada que pode ser estendida em mais de um lance. \nEstabilidade garantida: condição caracterizada via laudo técnico, atestando que determinada estrutura, talude, vala, escoramento ou outro elemento estrutural não oferece risco de colapso.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 127630
+    "char_offset": 127632
   },
   {
     "id": "chunk-389",
     "text": "Estabilizador: barra extensível dotada de mecanismo hidráulico, mecânico ou elétrico, fixado na estrutura da PEMT para impedir sua inclinação ou tombamento. \nEstaiamento: utilização de cabos, hastes metálicas ou outros dispositivos para a sustentação de uma",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 128039
+    "char_offset": 128041
   },
   {
     "id": "chunk-390",
     "text": "estrutura. \nEstudo geotécnico: estudo necessário à definição de parâmetros do solo ou rocha, tal como sondagem, ensaios de campo ou ensaios de laboratório. \nFerramenta: instrumento manual utilizado pelo trabalhador para realização de tarefas. \nFerramenta de fixação a pólvora ou gás: instrumento utilizado para fixação de pinos acionada a pólvora ou a gás.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 128302
+    "char_offset": 128304
   },
   {
     "id": "chunk-391",
     "text": "Ferramenta pneumática: instrumento acionado por ar comprimido. \nFrente de trabalho: área de trabalho móvel e temporária. \nFumos: vapores provenientes da combustão incompleta de metais. \nFuste: escavação feita com a finalidade de alcançar camadas de solo mais profundas para construção de fundação.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 128664
+    "char_offset": 128666
   },
   {
     "id": "chunk-392",
     "text": "Galeria: corredor coberto que permite o trânsito de pedestres com segurança. \nGoivagem: operação de remoção de cordões de solda ou abertura de sulcos para posterior soldagem. \nGrua: equipamento de guindar que possui lança de giro horizontal, suportada por uma estrutura vertical (torre), utilizado para movimentação horizontal e vertical de materiais.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 128966
+    "char_offset": 128968
   },
   {
     "id": "chunk-393",
     "text": "Grua ascensional: grua cuja torre é de altura definida, normalmente instalada e fixada no poço do elevador, amarrada à laje através de gravatas e elevada através de sistema hidráulico. \nGrua automontante: grua cuja montagem é feita de forma automática sem a necessidade de equipamento auxiliar.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 129321
+    "char_offset": 129323
   },
   {
     "id": "chunk-394",
     "text": "Guia de alinhamento: dispositivo, fixo ou móvel, instalado na bancada da serra circular, destinado a orientar a direção e a largura do corte na madeira. \nGuincho de coluna: equipamento fixado na edificação ou estrutura independente, destinado ao içamento de pequenas cargas.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 129619
+    "char_offset": 129621
   },
   {
     "id": "chunk-395",
     "text": "Guincho de sustentação: equipamento, mecânico ou elétrico, utilizado para a movimentação do andaime suspenso. \nGuindaste: equipamento de guindar utilizado para a elevação e movimentação de cargas e materiais pesados. \nInstalações elétricas temporárias: instalações elétricas das edificações temporárias que compõem o canteiro de obras e as frentes de trabalho.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 129898
+    "char_offset": 129900
   },
   {
     "id": "chunk-396",
     "text": "Laudo estrutural: documento emitido por profissional legalmente habilitado referente às condições estruturais no que diz respeito à resistência e integridade da estrutura em questão. \nLaudo operacional: documento emitido por profissional legalmente habilitado referente às condições operacionais e de funcionamento dos mecanismos, comandos e dispositivos de segurança de um equipamento.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 130262
+    "char_offset": 130264
   },
   {
     "id": "chunk-397",
     "text": "Linga: conjunto de correntes, cabos ou outros materiais utilizados para o içamento de carga. \nManilha: dispositivo auxiliar para o içamento de carga. \nMáquina autopropelida: máquina que se desloca por meio próprio de propulsão. \nMoitão: dispositivo mecânico utilizado nos equipamentos de guindar para movimentação de carga. Momento máximo: indicação do máximo esforço de momento aplicado na estrutura de alguns equipamentos de guindar.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 130654
+    "char_offset": 130656
   },
   {
     "id": "chunk-398",
     "text": "Montante: peça estrutural vertical de andaime, torres e escadas. \nOrganização: pessoa ou grupo de pessoas, com suas próprias funções, responsabilidades, autoridades e relações para alcançar seus objetivos. Inclui, mas não se limita a: empregador, tomador de serviços, empresa, empreendedor individual, produtor rural, companhia, corporação, firma, autoridade, parceria, organização de caridade ou instituição, parte ou combinação desses, seja incorporada ou não, pública ou privada.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 131093
+    "char_offset": 131095
   },
   {
     "id": "chunk-399",
     "text": "Panagem: tecido que forma a rede de proteção. \nPatamar: plataforma entre dois lances de uma escada. \nPEMT: Plataforma Elevatória Móvel de Trabalho. Equipamento móvel, autopropelido ou não, dotado de uma estação de trabalho, cesto ou plataforma, sustentado por haste metálica, lança ou tesoura, capaz de ascender para atingir ponto ou local de trabalho elevado.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 131580
+    "char_offset": 131582
   },
   {
     "id": "chunk-400",
     "text": "Pilão: peça utilizada para imprimir golpes por gravidade no bate-estaca. \nPistola finca-pino: ferramenta utilizada para fixação de pino metálico em estrutura da edificação. \nPlataforma de proteção: plataforma instalada no perímetro da edificação destinada a aparar materiais em queda livre.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 131945
+    "char_offset": 131947
   },
   {
     "id": "chunk-401",
     "text": "Plataforma de proteção primária: plataforma instalada na primeira laje. \nPlataforma de proteção secundária: plataforma instalada acima da primeira laje. \nPlataforma de proteção terciária: plataforma instalada abaixo da primeira laje. \nPlatibanda: mureta construída na periferia da parte mais elevada da edificação.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 132241
+    "char_offset": 132243
   },
   {
     "id": "chunk-402",
     "text": "Profissional legalmente habilitado: trabalhador previamente qualificado e com registro no competente conselho de classe. \nProfissional qualificado: trabalhador que comprove conclusão de curso específico na sua área de atuação, reconhecido pelo sistema oficial de ensino.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 132559
+    "char_offset": 132561
   },
   {
     "id": "chunk-403",
     "text": "Protensão: operação de aplicar tensão em cabos ou fios de aço usados no concreto protendido. \nQuadro-guia: estrutura de alinhamento para utilização durante o processo de telescopagem da grua ascensional. \nRede de segurança: sistema de proteção para evitar ou amortecer a queda de pessoas.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 132834
+    "char_offset": 132836
   },
   {
     "id": "chunk-404",
     "text": "Reservatório para aquecimento: equipamento metálico utilizado para aquecimento do produto impermeabilizante. \nSarilho: equipamento para levantar materiais constituído por um cilindro horizontal móvel, acionado por motor ou manivela, onde se enrola a corda ou cabo de aço.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 133126
+    "char_offset": 133128
   },
   {
     "id": "chunk-405",
     "text": "Semimecanizado: processo que utiliza, conjuntamente, meios mecânicos e esforços físicos do trabalhador para movimentação de cargas. \nServiços em flutuantes: atividades desenvolvidas em embarcações, plataformas ou outras estruturas sobre a água. \nSinaleiro/amarrador: trabalhador responsável pela sinalização e amarração de carga.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 133402
+    "char_offset": 133404
   },
   {
     "id": "chunk-406",
     "text": "SPIQ: Sistema de Proteção Individual contra Quedas, constituído de sistema de ancoragem, elemento de ligação e equipamento de proteção individual, em consonância com a NR-35. \nTalude: resultado de uma escavação em solo com determinada inclinação. \nTelescopagem da grua: processo que altera a altura da grua pela inserção de elementos à sua torre através de uma abertura na gaiola.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 133736
+    "char_offset": 133738
   },
   {
     "id": "chunk-407",
     "text": "Trabalhador capacitado: trabalhador treinado para a realização de atividade específica no âmbito da organização.",
     "heading": "**ANEXO II - CABOS DE AÇO E DE FIBRA SINTÉTICA**",
-    "char_offset": 134120
+    "char_offset": 134122
+  },
+  {
+    "id": "img-049-0",
+    "kind": "image_png",
+    "text": "a parte prática Atividade de escavação manual de tubulão 24 horas, sendo pelo menos 8 horas para a parte prática 8 horas/anual Demais atividades/funções a critério do empregador a critério do empregador/ a critério do empregador",
+    "heading": "Página 49 (tabelas) · **2. Conteúdo programático**",
+    "char_offset": 121160,
+    "page": 49,
+    "image_src": "../assets/pages/page-049-table-full.png"
   }
 ]

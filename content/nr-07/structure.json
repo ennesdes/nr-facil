@@ -933,20 +933,24 @@
       "title": "Indicadores Biológicos de Exposição Excessiva (IBE/EE)*",
       "blocks": [
         {
-          "type": "table",
-          "markdown": "| Substância | Número CAS | Indicador(es) | Momento da Coleta | Valor do IBE/EE | Observações |\n| --- | --- | --- | --- | --- | --- |\n| 1,1,1 Tricloroetano | 71-55-6 | 1,1,1 Tricloroetano no ar exalado final ou | AJFS | 40 ppm | - |\n| | | Ácido tricloroacético na urina ou | FJFS | 10 mg/L | NE |\n| | | Tricloroetanol total na urina ou | FJFS | 30 mg/L | NE |\n| | | Tricloroetanol total no sangue | FJFS | 1 mg/L | NE |\n| 1,3 butadieno | 106-99-0 | 1,2 dihidro-4 (nacetilcisteína) butano na urina | FJ | 2,5 mg/L | EPNE |\n| 1,6 diisocianato de hexametileno (HDI) | 822-06-0 | 1,6 hexametilenodia mina na urina | FJ | 15 µg/g creat. | NE |\n| 2-butoxietanol | 111-76-2 | Ácido butoxiacético na urina (BAA) (H) | FJ | 200 mg/g creat. | - |\n| 2-metoxietanol e | 109-86-4 | Ácido 2-metóxiacético na urina | FJFS | 1 mg/g creat. | - |\n| 2-metoxietilacetato | 109-49-6 | | | | |\n| 2-propanol | 67-63-0 | Acetona na urina | FJFS | 40 mg/L | EPNE, NE |\n| 2,4 e 2,6 Tolueno diisocianato | 58484-9 9108-7 | Isômeros 2,4 e 2,6 toluenodiamino | FJ | 5 µg/g creat. | NE |"
+          "type": "image",
+          "alt": "Página 8 (tabelas)",
+          "src": "../assets/pages/page-008-table-full.png"
         },
         {
-          "type": "table",
-          "markdown": "| (puros ou em mistura dos dois isômeros) | | na urina(H) (soma dos isômeros) | | | |\n| --- | --- | --- | --- | --- | --- |\n| Acetona | 67-64-1 | Acetona na urina | FJ | 25 mg/L | NE |\n| Anilina | 62-53-3 | p-amino-fenol na urina(H) ou | FJ | 50 mg/L | EPNE, NE |\n| | | metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| Arsênico elementar e seus compostos inorgânicos solúveis, exceto arsina e arsenato de gálio | 7440-38-2 | Arsênico inorgânico mais metabólitos metilados na urina | FS | 35 µg/L | EPNE |\n| Benzeno | 71-43-2 | Ácido s-fenilmercaptúrico (S-PMA) na urina ou | FJ | 45 µg/g creat. | EPNE, NF |\n| | | Ácido trans-transmucônico (TTMA) na urina | FJ | 750 µg/g creat. Observação: para a siderurgia será mantida a regra atualmente vigente. | EPNE, NE |\n| Chumbo tetraetila | 78-00-2 | Chumbo na urina | FJ | 50 µg/L | - |\n| Ciclohexanona | 108-94-1 | 1,2 ciclohexanodiol( H) na urina ou | FJFS | 80 mg/L | NE |\n| | | Ciclohexanol (H) na urina | FJ | 8 mg/L | NE |\n| Clorobenzeno | 108-90-7 | 4clorocatecol(H) na urina ou | FJFS | 100 mg/g creat. | NE |\n| | | p-clorofenol (H) na | FJFS | 20 mg/g | NE |"
+          "type": "image",
+          "alt": "Página 9 (tabelas)",
+          "src": "../assets/pages/page-009-table-full.png"
         },
         {
-          "type": "table",
-          "markdown": "| | | urina | | creat. | |\n| --- | --- | --- | --- | --- | --- |\n| Cobalto e seus compostos inorgânicos, incluindo óxidos de cobalto, mas não combinados com carbeto de tungstênio | 7440-48-4 | Cobalto na urina | FJFS | 15 µg/L | NE |\n| Cromo hexavalente (compostos solúveis) | 7440-47-3 | Cromo na urina ou | FJFS | 25 µg/L | - |\n| | | Cromo na urina | AJ-FJ (Aumento durante a Jornada) | 10 µg/L | - |\n| Diclorometano | 75-09-2 | Diclorometano na urina | FJ | 0,3 mg/L | - |\n| Estireno | 100-42-5 | Soma dos ácidos mandélico e fenilglioxílico na urina ou | FJ | 400 mg/g creat. | NE |\n| | | Estireno na urina | FJ | 40 µg/L | - |\n| Etilbenzeno | 100-41-4 | Soma dos ácidos mandélico e fenilglioxílico na urina | FJ | 0,15 g/g creat. | NE |\n| Etoxietanol e Etoxietilacetato | 1. 111-15-9 | Ácido etoxiacético na urina | FJFS | 100 mg/g creat. | - |\n| Fenol | 108-95-2 | Fenol(H) na urina | FJ | 250 mg/g creat. | EPNE, NE |\n| Furfural | 98-01-1 | Ácido furóico(H) na urina | FJ | 200 mg/L | NE |\n| Indutores de Metahemoglobin a | | Metahemoglobina no sangue | FJ | 1,5% da hemoglobin a | EPNE, NE |\n| Mercúrio metálico | 7439-97-6 | Mercúrio na urina | AJ | 20 µg/g creat. | EPNE |\n| Metanol | 67-56-1 | Metanol na urina | FJ | 15 mg/L | EPNE, NE |\n| Metil butil cetona | 591-78-6 | 2,5 | FJFS | 0,4 mg/L | - |"
+          "type": "image",
+          "alt": "Página 10 (tabelas)",
+          "src": "../assets/pages/page-010-table-full.png"
         },
         {
-          "type": "table",
-          "markdown": "| | | hexanodiona(SH) (2,5H D) na urina | | | |\n| --- | --- | --- | --- | --- | --- |\n| Metiletilcetona (MEK) | 78-93-3 | MEK na urina | FJ | 2 mg/L | NE |\n| Metilisobutilceto na (MIBK) | 108-10-1 | MIBK na urina | FJ | 1 mg/L | - |\n| Monóxido de carbono | 630-08-0 | Carboxihemoglobina no sangue ou | FJ | 3,5% da hemoglobina | EPNE, NE, NF |\n| | | Monóxido de carbono no ar exalado final | FJ | 20 ppm | EPNE, NE, NF |\n| n-hexano | 110-54-3 | 2,5 hexanodiona(SH) (2,5H D) na urina | FJ | 0,5 mg/L | - |\n| Nitrobenzeno | 98-95-3 | Metahemoglobina no sangue | FJ | 1,5% da hemoglobina | EPNE, NE |\n| N-metil-2-pirrolidona | 872-50-4 | 5-hidroxi-n-metil- | FJ | 100 mg/L | - |\n| | | 2-pirrolidona(SH) na urina | | | |\n| N,N Dimetilacetami da | 127-19-5 | Nmetilacetamida na urina | FJFS | 30 mg/g creat. | - |\n| N,N Dimetilformamid a | 68-12-2 | Nmetilformamida total1 na urina 1(soma da N-metilformamida e N-(hidroximetil)-N-metilformamida) ou | FJ | 30 mg/L | - |\n| | | N-Acetil-S-(N-metilcarbemoil) cisteína na urina | FJFS | 30 mg/L | - |\n| Óxido de etileno | 75-21-8 | Adutos de N-(2-hidroxietil) valina (HEV) em hemoglobina | NC | 5.000 pmol/g hemog. | NE |\n| Sulfeto de carbono | 75-15-0 | Ácido 2-tioxotiazolidina 4 carboxílico (TTCA) na urina | FJ | 0,5 mg/g creat. | EPNE, NE |"
+          "type": "image",
+          "alt": "Página 11 (tabelas)",
+          "src": "../assets/pages/page-011-table-full.png"
         },
         {
           "type": "paragraph",
@@ -964,12 +968,9 @@
           "text": "_(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
         },
         {
-          "type": "table",
-          "markdown": "| Tetracloroetileno | 127-18-4 | Tetracloretile no ar exalado final ou | AJ | 3 ppm | - |\n| --- | --- | --- | --- | --- | --- |\n| | | Tetracloroetieno no sangue | AJ | 0,5 mg/L | - |\n| Tetrahidrofurano | 109-99-9 | Tetrahidrofurano na Urina | FJ | 2 mg/L | - |\n| Tolueno | 108-88-3 | Tolueno no sangue ou | AJFS | 0,02 mg/L | - |\n| | | Tolueno na urina ou | FJ | 0,03 mg/L | - |\n| | | Orto-cresol na urina(H) | FJ | 0,3 mg/g creat. | EPNE |\n| Tricloroetileno | 79-01-6 | Ácido tricloroacético na urina ou | FJFS | 15 mg/L | NE |\n| | | Tricloroetanol no sangue(SH) | FJFS | 0,5 mg/L | NE |\n| Xilenos | 9547-6 10642-3 10838-3 1330-27-7 | Ácido metilhipúrico na urina | FJ | 1,5 mg/g creat. | - |"
-        },
-        {
-          "type": "table",
-          "markdown": "| Substância | Número CAS | Indicador | Coleta | Valor do IBE/SC | Observações |\n| --- | --- | --- | --- | --- | --- |\n| Cádmio e seus compostos inorgânicos | 7440-43-9 | Cádmio na urina | NC | 5 µg/g creat. | - |\n| Chumbo e seus compostos inorgânicos | 7439-92-1 | Chumbo no sangue (Pb-S) e | NC | 60 µg/100ml(M) | EPNE |\n| | | Ácido Delta Amino Levulínico na urina (ALA-U) | NC | 10 mg/g creat. | EPNE, PNE |\n| Inseticidas inibidores da Colinesterase | | Atividade da acetilcolinesterase eritrocitária ou | FJ | 70% da ativid ade basal | NE |"
+          "type": "image",
+          "alt": "Página 12 (tabelas)",
+          "src": "../assets/pages/page-012-table-full.png"
         },
         {
           "type": "paragraph",
@@ -1053,8 +1054,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 13",
-          "src": "../assets/pages/page-013-table-00.png"
+          "alt": "Página 13 (tabelas)",
+          "src": "../assets/pages/page-013-table-full.png"
         }
       ]
     },
@@ -1066,21 +1067,25 @@
         {
           "type": "paragraph",
           "text": "**CONTROLE MÉDICO OCUPACIONAL DA EXPOSIÇÃO A NÍVEIS DE PRESSÃO SONORA ELEVADOS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de empregados expostos a níveis de pressão sonora elevados."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados que exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam acima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso de protetor auditivo."
         }
       ]
     },
     {
+      "id": "1-este-anexo-estabelece-diretrizes-para-avaliação-e-controle-médico-ocupacional-da-audição-de-empregados-expostos-a-níveis-de-pressão-sonora-elevados",
+      "number": "1",
+      "title": "Este Anexo estabelece diretrizes para avaliação e controle médico ocupacional da audição de empregados expostos a níveis de pressão sonora elevados.",
+      "blocks": []
+    },
+    {
+      "id": "2-devem-ser-submetidos-a-exames-audiométricos-de-referência-e-seqüenciais-todos-os-empregados-que-exerçam-ou-exercerão-suas-atividades-em-ambientes-cujos-níveis-de-pressão-sonora-estejam-acima-dos-níveis-de-ação-conforme-informado-no-pgr-da-organização-independentemente-do-uso-de-protetor-auditivo",
+      "number": "2",
+      "title": "Devem ser submetidos a exames audiométricos de referência e seqüenciais todos os empregados que exerçam ou exercerão suas atividades em ambientes cujos níveis de pressão sonora estejam acima dos níveis de ação, conforme informado no PGR da organização, independentemente do uso de protetor auditivo.",
+      "blocks": []
+    },
+    {
       "id": "21-compõem-os-exames-audiológicos-de-referência-e-seqüenciais",
       "number": "2.1",
-      "title": "Compõem os exames audiológicos de referência e seqüenciais:",
+      "title": "Compõem os exames audiológicos de referência e seqüenciais",
       "blocks": [
         {
           "type": "list",
@@ -1117,17 +1122,19 @@
               "text": "outros exames audiológicos complementares solicitados a critério médico."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**3.** Exame audiométrico"
         }
       ]
     },
     {
+      "id": "3-exame-audiométrico",
+      "number": "3",
+      "title": "Exame audiométrico",
+      "blocks": []
+    },
+    {
       "id": "31-o-exame-audiométrico-será-realizado-em-cabina-audiométrica-cujos-níveis-de-pressão-sonora-não-ultrapassem-os-níveis-máximos-permitidos-de-acordo-com-a-norma-técnica-iso-8253-1",
       "number": "3.1",
-      "title": "O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora não ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1",
+      "title": "O exame audiométrico será realizado em cabina audiométrica, cujos níveis de pressão sonora não ultrapassem os níveis máximos permitidos, de acordo com a norma técnica ISO 8253-1.",
       "blocks": [
         {
           "type": "item",
@@ -1140,7 +1147,7 @@
     {
       "id": "32-o-audiômetro-deve-ser-submetido-a-procedimentos-de-verificação-e-controle-periódico-do-seu-funcionamento-incluindo",
       "number": "3.2",
-      "title": "O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu funcionamento, incluindo:",
+      "title": "O audiômetro deve ser submetido a procedimentos de verificação e controle periódico do seu funcionamento, incluindo",
       "blocks": [
         {
           "type": "paragraph",
@@ -1202,19 +1209,19 @@
     {
       "id": "33-o-exame-audiométrico-deve-ser-executado-por-médico-ou-fonoaudiólogo-conforme-resoluções-dos-respectivos-conselhos-federais-profissionais",
       "number": "3.3",
-      "title": "O exame audiométrico deve ser executado por médico ou fonoaudiólogo, conforme resoluções dos respectivos conselhos federais profissionais",
+      "title": "O exame audiométrico deve ser executado por médico ou fonoaudiólogo, conforme resoluções dos respectivos conselhos federais profissionais.",
       "blocks": []
     },
     {
       "id": "34-o-empregado-deve-permanecer-em-repouso-auditivo-por-um-período-mínimo-de-14-horas-até-o-exame-audiométrico",
       "number": "3.4",
-      "title": "O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o exame audiométrico",
+      "title": "O empregado deve permanecer em repouso auditivo por um período mínimo de 14 horas até o exame audiométrico.",
       "blocks": []
     },
     {
       "id": "35-o-resultado-do-exame-audiométrico-deve-ser-registrado-e-conter-no-mínimo",
       "number": "3.5",
-      "title": "O resultado do exame audiométrico deve ser registrado e conter, no mínimo:",
+      "title": "O resultado do exame audiométrico deve ser registrado e conter, no mínimo",
       "blocks": [
         {
           "type": "list",
@@ -1275,7 +1282,7 @@
     {
       "id": "36-o-exame-audiométrico-deve-ser-realizado-sempre-pela-via-aérea-nas-freqüências-de-500-1000-2000-3000-4000-6000-e-8000-hz",
       "number": "3.6",
-      "title": "O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000, 2.000. 3.000, 4.000, 6.000 e 8.000 Hz",
+      "title": "O exame audiométrico deve ser realizado, sempre, pela via aérea nas freqüências de 500, 1.000, 2.000. 3.000, 4.000, 6.000 e 8.000 Hz.",
       "blocks": [
         {
           "type": "item",
@@ -1288,11 +1295,14 @@
           "number": "3.6.2",
           "depth": 2,
           "text": "Segundo a avaliação do profissional responsável, no momento da execução do exame, podem ser determinados os Limiares de Reconhecimento de Fala - LRF."
-        },
-        {
-          "type": "paragraph",
-          "text": "**4.** Periodicidade dos exames audiométricos"
-        },
+        }
+      ]
+    },
+    {
+      "id": "4-periodicidade-dos-exames-audiométricos",
+      "number": "4",
+      "title": "Periodicidade dos exames audiométricos",
+      "blocks": [
         {
           "type": "item",
           "number": "4.1",
@@ -1337,13 +1347,13 @@
     {
       "id": "42-o-intervalo-entre-os-exames-audiométricos-pode-ser-reduzido-a-critério-do-médico-do-trabalho-responsável-pelo-pcmso",
       "number": "4.2",
-      "title": "O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho responsável pelo PCMSO",
+      "title": "O intervalo entre os exames audiométricos pode ser reduzido a critério do médico do trabalho responsável pelo PCMSO.",
       "blocks": []
     },
     {
       "id": "43-o-empregado-deve-ser-submetido-a-exame-audiométrico-de-referência-e-a-exames-audiométricos-sequenciais-na-forma-descrita-nos-subitens-seguintes",
       "number": "4.3",
-      "title": "O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos sequenciais na forma descrita nos subitens seguintes",
+      "title": "O empregado deve ser submetido a exame audiométrico de referência e a exames audiométricos sequenciais na forma descrita nos subitens seguintes.",
       "blocks": [
         {
           "type": "item",
@@ -1374,23 +1384,25 @@
           "number": "4.3.2",
           "depth": 2,
           "text": "Exame audiométrico sequencial é aquele que será comparado com o exame de referência e se aplica a todo empregado que já possua um exame audiométrico de referência prévio."
-        },
-        {
-          "type": "paragraph",
-          "text": "**5.** Interpretação dos resultados dos exames audiométricos"
         }
       ]
     },
     {
+      "id": "5-interpretação-dos-resultados-dos-exames-audiométricos",
+      "number": "5",
+      "title": "Interpretação dos resultados dos exames audiométricos",
+      "blocks": []
+    },
+    {
       "id": "51-são-considerados-dentro-dos-limites-aceitáveis-para-efeito-deste-anexo-os-casos-cujos-audiogramas-mostram-limiares-auditivos-menores-ou-iguais-a-25-vinte-e-cinco-db-na-em-todas-as-frequências-examinadas",
       "number": "5.1",
-      "title": "São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos audiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as frequências examinadas",
+      "title": "São considerados dentro dos limites aceitáveis, para efeito deste Anexo, os casos cujos audiogramas mostram limiares auditivos menores ou iguais a 25 (vinte e cinco) dB (NA) em todas as frequências examinadas.",
       "blocks": []
     },
     {
       "id": "52-são-considerados-sugestivos-de-perda-auditiva-induzida-por-níveis-de-pressão-sonora-elevados-painpse-os-casos-cujos-audiogramas-nas-frequências-de-3000-eou-4000-eou-6000-hz-apresentem-limiares-auditivos-acima-de-25-vinte-e-cinco-db-na-e-mais-elevados-do-que-nas-outras-frequências-testadas-estando-estas-comprometidas-ou-não-tanto-no-teste-da-via-aérea-quanto-da-via-óssea-em-um-ou-em-ambos-os-lados",
       "number": "5.2",
-      "title": "São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados (PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz, apresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras frequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da via óssea, em um ou em ambos os lados",
+      "title": "São considerados sugestivos de Perda Auditiva Induzida por Níveis de Pressão Sonora Elevados (PAINPSE) os casos cujos audiogramas, nas frequências de 3.000 e/ou 4.000 e/ou 6.000 Hz, apresentem limiares auditivos acima de 25 (vinte e cinco) dB (NA) e mais elevados do que nas outras frequências testadas, estando estas comprometidas ou não, tanto no teste da via aérea quanto da via óssea, em um ou em ambos os lados.",
       "blocks": [
         {
           "type": "item",
@@ -1403,7 +1415,7 @@
     {
       "id": "53-são-considerados-sugestivos-de-desencadeamento-de-painpse-os-casos-em-que-os-limiares-auditivos-em-todas-as-frequências-testadas-no-exame-audiométrico-de-referência-e-no-sequencial-permaneçam-menores-ou-iguais-a-25-vinte-e-cinco-db-na-mas-a-comparação-do-audiograma-sequencial-com-o-de-referência-mostra-evolução-que-preencha-um-dos-critérios-abaixo",
       "number": "5.3",
-      "title": "São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares auditivos em todas as frequências testadas no exame audiométrico de referência e no sequencial permaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma sequencial com o de referência mostra evolução que preencha um dos critérios abaixo:",
+      "title": "São considerados sugestivos de desencadeamento de PAINPSE os casos em que os limiares auditivos em todas as frequências testadas no exame audiométrico de referência e no sequencial permaneçam menores ou iguais a 25 (vinte e cinco) dB (NA), mas a comparação do audiograma sequencial com o de referência mostra evolução que preencha um dos critérios abaixo",
       "blocks": [
         {
           "type": "list",
@@ -1452,7 +1464,7 @@
     {
       "id": "54-são-considerados-sugestivos-de-agravamento-da-painpse-os-casos-já-confirmados-em-exame-audiométrico-de-referência-e-nos-quais-a-comparação-de-exame-audiométrico-seqüencial-com-o-de-referência-mostra-evolução-que-preenche-um-dos-critérios-abaixo",
       "number": "5.4",
-      "title": "São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que preenche um dos critérios abaixo:",
+      "title": "São considerados sugestivos de agravamento da PAINPSE os casos já confirmados em exame audiométrico de referência e nos quais a comparação de exame audiométrico seqüencial com o de referência mostra evolução que preenche um dos critérios abaixo",
       "blocks": [
         {
           "type": "list",
@@ -1477,26 +1489,33 @@
     {
       "id": "55-para-fins-deste-anexo-o-exame-audiométrico-de-referência-deve-permanecer-como-tal-até-que-algum-dos-exames-audiométricos-sequenciais-demonstre-desencadeamento-ou-agravamento-de-painpse",
       "number": "5.5",
-      "title": "Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que algum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de PAINPSE",
+      "title": "Para fins deste Anexo, o exame audiométrico de referência deve permanecer como tal até que algum dos exames audiométricos sequenciais demonstre desencadeamento ou agravamento de PAINPSE.",
       "blocks": [
         {
           "type": "item",
           "number": "5.5.1",
           "depth": 2,
           "text": "O exame audiométrico sequencial que venha a demonstrar desencadeamento ou agravamento de PAINPSE passará a ser, a partir de então, o novo exame audiométrico de referência."
-        },
-        {
-          "type": "paragraph",
-          "text": "**6.** O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou atividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo PCMSO."
-        },
-        {
-          "type": "paragraph",
-          "text": "**7.** Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou vibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição."
-        },
-        {
-          "type": "paragraph",
-          "text": "**8.** A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo-se levar em consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial de exames audiométricos, os seguintes fatores:"
-        },
+        }
+      ]
+    },
+    {
+      "id": "6-o-diagnóstico-conclusivo-o-diagnóstico-diferencial-e-a-definição-da-aptidão-para-a-função-ou-atividade-na-suspeita-de-painpse-são-atribuições-do-médico-do-trabalho-responsável-pelo-pcmso",
+      "number": "6",
+      "title": "O diagnóstico conclusivo, o diagnóstico diferencial e a definição da aptidão para a função ou atividade, na suspeita de PAINPSE, são atribuições do médico do trabalho responsável pelo PCMSO.",
+      "blocks": []
+    },
+    {
+      "id": "7-devem-ser-motivo-de-especial-atenção-empregados-expostos-a-substâncias-ototóxicas-eou-vibração-de-forma-isolada-ou-simultanea-à-exposição-a-ruído-potencialmente-nocivo-à-audição",
+      "number": "7",
+      "title": "Devem ser motivo de especial atenção empregados expostos a substâncias ototóxicas e/ou vibração, de forma isolada ou simultanea à exposição a ruído potencialmente nocivo à audição.",
+      "blocks": []
+    },
+    {
+      "id": "8-a-painpse-por-si-só-não-é-indicativa-de-inaptidão-para-o-trabalho-devendo-se-levar-em-consideração-na-análise-de-cada-caso-além-do-traçado-audiométrico-ou-da-evolução-seqüencial-de-exames-audiométricos-os-seguintes-fatores",
+      "number": "8",
+      "title": "A PAINPSE, por si só, não é indicativa de inaptidão para o trabalho, devendo-se levar em consideração na análise de cada caso, além do traçado audiométrico ou da evolução seqüencial de exames audiométricos, os seguintes fatores:",
+      "blocks": [
         {
           "type": "list",
           "items": [
@@ -1595,11 +1614,14 @@
               "text": "os programas de conservação auditiva aos quais tem ou terá acesso o empregado."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**9.** Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste Anexo, o médico do trabalho responsável pelo PCMSO deve:"
-        },
+        }
+      ]
+    },
+    {
+      "id": "9-nos-casos-de-desencadeamento-ou-agravamento-de-painpse-conforme-os-critérios-deste-anexo-o-médico-do-trabalho-responsável-pelo-pcmso-deve",
+      "number": "9",
+      "title": "Nos casos de desencadeamento ou agravamento de PAINPSE, conforme os critérios deste Anexo, o médico do trabalho responsável pelo PCMSO deve:",
+      "blocks": [
         {
           "type": "list",
           "items": [
@@ -1635,11 +1657,14 @@
               "text": "disponibilizar cópias dos exames audiométricos aos empregados."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**10.** Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução esteja em desacordo com os moldes definidos neste Anexo para PAINPSE, o médico do trabalho responsável pelo PCMSO deve:"
-        },
+        }
+      ]
+    },
+    {
+      "id": "10-nos-casos-em-que-o-exame-audiométrico-de-referência-demonstre-alterações-cuja-evolução-esteja-em-desacordo-com-os-moldes-definidos-neste-anexo-para-painpse-o-médico-do-trabalho-responsável-pelo-pcmso-deve",
+      "number": "10",
+      "title": "Nos casos em que o exame audiométrico de referência demonstre alterações cuja evolução esteja em desacordo com os moldes definidos neste Anexo para PAINPSE, o médico do trabalho responsável pelo PCMSO deve:",
+      "blocks": [
         {
           "type": "list",
           "items": [
@@ -1743,11 +1768,14 @@
         {
           "type": "paragraph",
           "text": "**CONTROLE RADIOLÓGICO E ESPIROMÉTRICO DA EXPOSIÇÃO A AGENTES QUÍMICOS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros mínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
-        },
+        }
+      ]
+    },
+    {
+      "id": "1-a-organização-deve-atender-às-obrigações-de-periodicidade-condições-técnicas-e-parâmetros-mínimos-definidos-neste-anexo-para-a-realização-de-_caput-alterado-pela-portaria-mtp-nº-567-de-10-de-março-de-2022_",
+      "number": "1",
+      "title": "A organização deve atender às obrigações de periodicidade, condições técnicas e parâmetros mínimos definidos neste Anexo para a realização de: _(Caput alterado pela Portaria MTP nº 567, de 10 de março de 2022)_",
+      "blocks": [
         {
           "type": "list",
           "items": [
@@ -1775,23 +1803,25 @@
               "text": "Espirometrias para avaliação da função respiratória em empregados expostos a poeiras minerais e para avaliação de empregados com indicação de uso de equipamentos individuais de proteção respiratória."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES"
         }
       ]
     },
     {
+      "id": "2-radiografias-de-tórax-para-apoio-ao-diagnóstico-de-pneumoconioses",
+      "number": "2",
+      "title": "RADIOGRAFIAS DE TÓRAX PARA APOIO AO DIAGNÓSTICO DE PNEUMOCONIOSES",
+      "blocks": []
+    },
+    {
       "id": "21-os-procedimentos-para-realização-de-rxtp-devem-atender-às-diretrizes-da-resolução-da-diretoria-colegiada---rdc-n-º-330-de-20-de-dezembro-de-2019-que-dispõe-sobre-o-uso-dos-raios-x-diagnósticos-em-todo-o-território-nacional-ou-suas-revisões-mais-recentes",
       "number": "2.1",
-      "title": "Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos em todo o território nacional, ou suas revisões mais recentes",
+      "title": "Os procedimentos para realização de RXTP devem atender às diretrizes da Resolução da Diretoria Colegiada - RDC n º 330, de 20 de dezembro de 2019, que dispõe sobre o uso dos raios X diagnósticos em todo o território nacional, ou suas revisões mais recentes.",
       "blocks": []
     },
     {
       "id": "22-os-equipamentos-utilizados-para-realização-de-rxtp-devem-possuir-as-seguintes-características",
       "number": "2.2",
-      "title": "Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características:",
+      "title": "Os equipamentos utilizados para realização de RXTP devem possuir as seguintes características",
       "blocks": [
         {
           "type": "list",
@@ -1933,7 +1963,7 @@
     {
       "id": "24-o-processamento-dos-filmes-deve-ser-realizado-por-processadora-automática-e-que-atenda-às-exigências-dos-órgãos-ambientais-responsáveis",
       "number": "2.4",
-      "title": "O processamento dos filmes deve ser realizado por processadora automática e que atenda às exigências dos órgãos ambientais responsáveis",
+      "title": "O processamento dos filmes deve ser realizado por processadora automática e que atenda às exigências dos órgãos ambientais responsáveis.",
       "blocks": []
     },
     {
@@ -1950,7 +1980,7 @@
     {
       "id": "26-a-leitura-radiológica-deve-ser-descritiva-e-para-a-interpretação-e-emissão-dos-laudos-dos-rxtp-devem-ser-utilizados-obrigatoriamente-os-critérios-da-oit-na-sua-revisão-mais-recente-e-a-coleção-de-radiografias-padrão-da-oit",
       "number": "2.6",
-      "title": "A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP, devem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção de radiografias-padrão da OIT",
+      "title": "A leitura radiológica deve ser descritiva e, para a interpretação e emissão dos laudos dos RXTP, devem ser utilizados, obrigatoriamente, os critérios da OIT na sua revisão mais recente e a coleção de radiografias-padrão da OIT.",
       "blocks": [
         {
           "type": "item",
@@ -1969,7 +1999,7 @@
     {
       "id": "27-o-laudo-do-exame-radiológico-deve-ser-assinado-por-um-ou-mais-de-um-em-caso-de-múltiplas-leituras-dos-seguintes-profissionais",
       "number": "2.7",
-      "title": "O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas leituras, dos seguintes profissionais:",
+      "title": "O laudo do exame radiológico deve ser assinado por um ou mais de um, em caso de múltiplas leituras, dos seguintes profissionais",
       "blocks": [
         {
           "type": "list",
@@ -1994,13 +2024,13 @@
     {
       "id": "28-as-certificações-são-concedidas-por-aprovação-nos-exames-do-national-institute-for-occupational-safety-and-health---niosh-ou-pelo-exame-air-pneumo-sendo-que-em-caso-de-certificação-concedida-pelo-exame-do-niosh-o-profissional-também-pode-ser-denominado-leitor-b",
       "number": "2.8",
-      "title": "As certificações são concedidas por aprovação nos exames do National Institute for Occupational Safety and Health - NIOSH ou pelo exame “AIR-Pneumo”, sendo que, em caso de certificação concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”",
+      "title": "As certificações são concedidas por aprovação nos exames do National Institute for Occupational Safety and Health - NIOSH ou pelo exame “AIR-Pneumo”, sendo que, em caso de certificação concedida pelo exame do NIOSH, o profissional também pode ser denominado “Leitor B”.",
       "blocks": []
     },
     {
       "id": "29-sistemas-de-radiologia-digital-do-tipo-cr-ou-dr-podem-ser-utilizados-para-a-obtenção-de-imagens-radiológicas-do-tórax-para-fins-de-interpretação-radiológica-da-oit",
       "number": "2.9",
-      "title": "Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens radiológicas do tórax para fins de interpretação radiológica da OIT",
+      "title": "Sistemas de radiologia digital do tipo CR ou DR podem ser utilizados para a obtenção de imagens radiológicas do tórax para fins de interpretação radiológica da OIT.",
       "blocks": [
         {
           "type": "item",
@@ -2019,7 +2049,7 @@
     {
       "id": "210-a-interpretação-radiológica-de-radiografias-digitais-deve-seguir-os-critérios-da-oit",
       "number": "2.10",
-      "title": "A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT",
+      "title": "A Interpretação Radiológica de radiografias digitais deve seguir os critérios da OIT.",
       "blocks": [
         {
           "type": "item",
@@ -2086,19 +2116,19 @@
     {
       "id": "211-os-serviços-que-ofertem-radiologia-digital-devem-assegurar-a-confidencialidade-dos-arquivos-eletrônicos-e-de-dados-dos-trabalhadores-submetidos-a-rxtp-admissionais-periódicos-e-demissionais-para-fins-da-classificação-radiológica-da-oit-por-meio-de-procedimentos-técnicos-e-administrativos-adequados",
       "number": "2.11",
-      "title": "Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos eletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e demissionais, para fins da classificação radiológica da OIT, por meio de procedimentos técnicos e administrativos adequados",
+      "title": "Os serviços que ofertem radiologia digital devem assegurar a confidencialidade dos arquivos eletrônicos e de dados dos trabalhadores submetidos a RXTP admissionais, periódicos e demissionais, para fins da classificação radiológica da OIT, por meio de procedimentos técnicos e administrativos adequados.",
       "blocks": []
     },
     {
       "id": "212-rxtp-obtidas-pelo-método-convencional-devem-ser-guardadas-em-filmes-radiológicos-em-formato-original",
       "number": "2.12",
-      "title": "RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em formato original",
+      "title": "RXTP obtidas pelo método convencional devem ser guardadas em filmes radiológicos, em formato original.",
       "blocks": []
     },
     {
       "id": "213-imagens-obtidas-por-sistemas-digitais-cr-ou-dr-devem-ser-armazenadas-nos-seguintes-formatos",
       "number": "2.13",
-      "title": "Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes formatos:",
+      "title": "Imagens obtidas por sistemas digitais (CR ou DR) devem ser armazenadas nos seguintes formatos",
       "blocks": [
         {
           "type": "list",
@@ -2123,13 +2153,13 @@
     {
       "id": "214-a-guarda-das-imagens-deve-ter-sua-responsabilidade-definida-e-documentada",
       "number": "2.14",
-      "title": "A guarda das imagens deve ter sua responsabilidade definida e documentada",
+      "title": "A guarda das imagens deve ter sua responsabilidade definida e documentada.",
       "blocks": []
     },
     {
       "id": "215-são-responsáveis-pela-guarda-o-médico-do-trabalho-responsável-pelo-pcmso-ou-no-caso-de-a-empresa-possuir-serviço-próprio-o-responsável-pelo-serviço-de-radiologia",
       "number": "2.15",
-      "title": "São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia",
+      "title": "São responsáveis pela guarda o médico do trabalho responsável pelo PCMSO ou, no caso de a empresa possuir serviço próprio, o responsável pelo serviço de radiologia.",
       "blocks": [
         {
           "type": "item",
@@ -2142,7 +2172,7 @@
     {
       "id": "216-o-tempo-de-guarda-dos-exames-deve-obedecer-aos-critérios-definidos-na-nr-07",
       "number": "2.16",
-      "title": "O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07",
+      "title": "O tempo de guarda dos exames deve obedecer aos critérios definidos na NR-07.",
       "blocks": []
     },
     {
@@ -2277,7 +2307,7 @@
     {
       "id": "31-os-empregados-expostos-ocupacionalmente-a-poeiras-minerais-indicadas-no-inventário-de-riscos-do-pgr-devem-ser-submetidos-a-espirometria-nos-exames-médicos-admissional-e-a-cada-dois-anos",
       "number": "3.1",
-      "title": "Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos do PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos",
+      "title": "Os empregados expostos ocupacionalmente a poeiras minerais indicadas no inventário de riscos do PGR devem ser submetidos a espirometria nos exames médicos admissional e a cada dois anos.",
       "blocks": [
         {
           "type": "table",
@@ -2288,19 +2318,19 @@
     {
       "id": "32-os-empregados-expostos-ocupacionalmente-a-outros-agentes-agressores-pulmonares-indicados-no-inventário-de-riscos-do-pgr-que-não-as-poeiras-minerais-deverão-ser-submetidos-a-espirometria-se-desenvolverem-sinais-ou-sintomas-respiratórios",
       "number": "3.2",
-      "title": "Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados no inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria se desenvolverem sinais ou sintomas respiratórios",
+      "title": "Os empregados expostos ocupacionalmente a outros agentes agressores pulmonares* indicados no inventário de riscos do PGR, que não as poeiras minerais, deverão ser submetidos a espirometria se desenvolverem sinais ou sintomas respiratórios.",
       "blocks": []
     },
     {
       "id": "33-nas-funções-com-indicação-de-uso-de-equipamentos-individuais-de-proteção-respiratória-os-empregados-com-histórico-de-doença-respiratória-crônica-ou-sinais-e-sintomas-respiratórios-devem-ser-submetidos-a-espirometria-no-exame-médico-admissional-ou-no-exame-de-mudança-de-risco",
       "number": "3.3",
-      "title": "Nas funções com indicação de uso de equipamentos individuais de proteção respiratória, os empregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem ser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco",
+      "title": "Nas funções com indicação de uso de equipamentos individuais de proteção respiratória, os empregados com histórico de doença respiratória crônica ou sinais e sintomas respiratórios devem ser submetidos a espirometria no exame médico admissional ou no exame de mudança de risco.",
       "blocks": []
     },
     {
       "id": "34-no-caso-da-constatação-de-alteração-espirométrica-o-médico-do-trabalho-responsável-pelo-pcmso-deve",
       "number": "3.4",
-      "title": "No caso da constatação de alteração espirométrica, o médico do trabalho responsável pelo PCMSO deve:",
+      "title": "No caso da constatação de alteração espirométrica, o médico do trabalho responsável pelo PCMSO deve",
       "blocks": [
         {
           "type": "list",
@@ -2325,19 +2355,19 @@
     {
       "id": "35-nos-exames-pós-demissionais-em-empregados-expostos-ao-asbesto-a-periodicidade-da-espirometria-deve-ser-a-mesma-do-exame-radiológico",
       "number": "3.5",
-      "title": "Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da espirometria deve ser a mesma do exame radiológico",
+      "title": "Nos exames pós-demissionais em empregados expostos ao asbesto, a periodicidade da espirometria deve ser a mesma do exame radiológico.",
       "blocks": []
     },
     {
       "id": "36-a-organização-deve-garantir-que-a-execução-e-a-interpretação-das-espirometrias-sigam-as-padronizações-constantes-nas-diretrizes-do-consenso-brasileiro-sobre-espirometria-na-sua-mais-recente-versão",
       "number": "3.6",
-      "title": "A organização deve garantir que a execução e a interpretação das espirometrias sigam as padronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais recente versão",
+      "title": "A organização deve garantir que a execução e a interpretação das espirometrias sigam as padronizações constantes nas Diretrizes do Consenso Brasileiro sobre Espirometria na sua mais recente versão.",
       "blocks": []
     },
     {
       "id": "37-a-interpretação-do-exame-e-o-laudo-da-espirometria-devem-ser-feitos-por-médico",
       "number": "3.7",
-      "title": "A interpretação do exame e o laudo da espirometria devem ser feitos por médico",
+      "title": "A interpretação do exame e o laudo da espirometria devem ser feitos por médico.",
       "blocks": [
         {
           "type": "paragraph",
@@ -2353,36 +2383,37 @@
         {
           "type": "paragraph",
           "text": "**CONTROLE MÉDICO OCUPACIONAL DE EXPOSIÇÃO A CONDIÇÕES HIPERBÁRICAS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_"
         }
       ]
+    },
+    {
+      "id": "1-trabalhador-na-construção-civil-exposto-a-condições-hiperbáricas-_alterado-pela-portaria-mtp-nº-567-de-10-de-março-de-2022_",
+      "number": "1",
+      "title": "TRABALHADOR NA CONSTRUÇÃO CIVIL EXPOSTO A CONDIÇÕES HIPERBÁRICAS _(Alterado pela Portaria MTP nº 567, de 10 de março de 2022)_",
+      "blocks": []
     },
     {
       "id": "11-é-obrigatória-a-realização-de-exames-médicos-dentro-dos-padrões-estabelecidos-neste-anexo-para-o-exercício-de-atividade-sob-pressão-atmosférica-elevada-pressão-hiperbárica",
       "number": "1.1",
-      "title": "É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo, para o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica)",
-      "blocks": [
-        {
-          "type": "item",
-          "number": "1.2",
-          "depth": 1,
-          "text": "** Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão ser avaliados por médico qualificado."
-        },
-        {
-          "type": "item",
-          "number": "1.3",
-          "depth": 1,
-          "text": "** O atestado de aptidão terá validade por 6 (seis) meses."
-        }
-      ]
+      "title": "É obrigatória a realização de exames médicos, dentro dos padrões estabelecidos neste Anexo, para o exercício de atividade sob pressão atmosférica elevada (pressão hiperbárica).",
+      "blocks": []
+    },
+    {
+      "id": "12-os-exames-médicos-para-trabalhadores-candidatos-a-trabalho-em-pressões-hiperbáricas-deverão-ser-avaliados-por-médico-qualificado",
+      "number": "1.2",
+      "title": "Os exames médicos para trabalhadores candidatos a trabalho em pressões hiperbáricas deverão ser avaliados por médico qualificado.",
+      "blocks": []
+    },
+    {
+      "id": "13-o-atestado-de-aptidão-terá-validade-por-6-seis-meses",
+      "number": "1.3",
+      "title": "O atestado de aptidão terá validade por 6 (seis) meses.",
+      "blocks": []
     },
     {
       "id": "14-o-trabalhador-não-pode-sofrer-mais-que-uma-compressão-num-período-de-24-vinte-e-quatro-horas",
       "number": "1.4",
-      "title": "O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro) horas",
+      "title": "O trabalhador não pode sofrer mais que uma compressão num período de 24 (vinte e quatro) horas.",
       "blocks": []
     },
     {
@@ -2399,55 +2430,55 @@
     {
       "id": "16-o-trabalhador-não-pode-ser-exposto-à-pressão-superior-a-44-ata-exceto-em-caso-de-emergência-sob-supervisão-direta-do-médico-qualificado",
       "number": "1.6",
-      "title": "O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência, sob supervisão direta do médico qualificado",
+      "title": "O trabalhador não pode ser exposto à pressão superior a 4,4 ATA, exceto em caso de emergência, sob supervisão direta do médico qualificado.",
       "blocks": []
     },
     {
       "id": "17-a-duração-do-período-de-trabalho-sob-ar-comprimido-não-pode-ser-superior-a-8-oito-horas-em-pressões-de-trabalho-de-10-a-20-ata-a-6-seis-horas-em-pressões-de-trabalho-de-21-a-35-ata-e-a-4-quatro-horas-em-pressão-de-trabalho-de-36-a-44-ata",
       "number": "1.7",
-      "title": "A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em pressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e a 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA",
+      "title": "A duração do período de trabalho sob ar comprimido não pode ser superior a 8 (oito) horas, em pressões de trabalho de 1,0 a 2,0 ATA; a 6 (seis) horas, em pressões de trabalho de 2,1 a 3,5 ATA; e a 4 (quatro) horas, em pressão de trabalho de 3,6 a 4,4 ATA.",
       "blocks": []
     },
     {
       "id": "18-após-a-descompressão-os-trabalhadores-devem-ser-obrigados-a-permanecer-no-mínimo-por-2-duas-horas-no-canteiro-de-obra-cumprindo-um-período-de-observação-médica",
       "number": "1.8",
-      "title": "Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2 (duas) horas, no canteiro de obra, cumprindo um período de observação médica",
+      "title": "Após a descompressão, os trabalhadores devem ser obrigados a permanecer, no mínimo, por 2 (duas) horas, no canteiro de obra, cumprindo um período de observação médica.",
       "blocks": []
     },
     {
       "id": "19-o-local-adequado-para-o-cumprimento-do-período-de-observação-deve-ser-designado-pelo-médico-do-trabalho-responsável-pelo-pcmso-ou-pelo-médico-qualificado",
       "number": "1.9",
-      "title": "O local adequado para o cumprimento do período de observação deve ser designado pelo médico do trabalho responsável pelo PCMSO ou pelo médico qualificado",
+      "title": "O local adequado para o cumprimento do período de observação deve ser designado pelo médico do trabalho responsável pelo PCMSO ou pelo médico qualificado.",
       "blocks": []
     },
     {
       "id": "110-o-médico-qualificado-deve-manter-disponibilidade-para-contato-enquanto-houver-trabalho-sob-ar-comprimido-sendo-que-em-caso-de-acidente-de-trabalho-deve-ser-providenciada-assistência-bem-como-local-apropriado-para-atendimento-médico",
       "number": "1.10",
-      "title": "O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob ar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência, bem como local apropriado para atendimento médico",
+      "title": "O médico qualificado deve manter disponibilidade para contato enquanto houver trabalho sob ar comprimido, sendo que, em caso de acidente de trabalho, deve ser providenciada assistência, bem como local apropriado para atendimento médico.",
       "blocks": []
     },
     {
       "id": "111-todo-empregado-que-trabalhe-sob-ar-comprimido-deve-ter-um-prontuário-médico-no-qual-devem-ser-registrados-os-dados-relativos-aos-exames-realizados",
       "number": "1.11",
-      "title": "Todo empregado que trabalhe sob ar comprimido deve ter um prontuário médico, no qual devem ser registrados os dados relativos aos exames realizados",
+      "title": "Todo empregado que trabalhe sob ar comprimido deve ter um prontuário médico, no qual devem ser registrados os dados relativos aos exames realizados.",
       "blocks": []
     },
     {
       "id": "112-em-caso-de-ausência-ao-trabalho-por-mais-de-15-quinze-dias-ou-afastamento-por-doença-o-empregado-ao-retornar-deve-ser-submetido-a-novo-exame-médico-com-emisão-de-aso",
       "number": "1.12",
-      "title": "Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO",
+      "title": "Em caso de ausência ao trabalho por mais de 15 (quinze) dias ou afastamento por doença, o empregado, ao retornar, deve ser submetido a novo exame médico, com emisão de ASO.",
       "blocks": []
     },
     {
       "id": "113-em-caso-de-ausência-ao-trabalho-por-doença-por-até-15-quinze-dias-o-empregado-deve-ser-submetido-a-novo-exame-clínico-supervisionado-pelo-médico-qualificado-sem-a-necessidade-da-emissão-de-um-novo-aso",
       "number": "1.13",
-      "title": "Em caso de ausência ao trabalho por doença, por até 15 (quinze) dias, o empregado deve ser submetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da emissão de um novo ASO",
+      "title": "Em caso de ausência ao trabalho por doença, por até 15 (quinze) dias, o empregado deve ser submetido a novo exame clínico supervisionado pelo médico qualificado, sem a necessidade da emissão de um novo ASO.",
       "blocks": []
     },
     {
       "id": "114-se-durante-o-processo-de-compressão-o-empregado-apresentar-queixas-dores-no-ouvido-ou-de-cabeça-a-compressão-deve-ser-imediatamente-interrompida-com-redução-gradual-da-pressão-na-campânula-até-que-o-empregado-se-recupere",
       "number": "1.14",
-      "title": "Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de cabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na campânula até que o empregado se recupere",
+      "title": "Se durante o processo de compressão o empregado apresentar queixas, dores no ouvido ou de cabeça, a compressão deve ser imediatamente interrompida com redução gradual da pressão na campânula até que o empregado se recupere.",
       "blocks": [
         {
           "type": "item",
@@ -2460,19 +2491,19 @@
     {
       "id": "115-todo-empregado-que-vá-exercer-trabalho-sob-ar-comprimido-deve-ser-orientado-quanto-aos-riscos-decorrentes-da-atividade-e-às-precauções-que-devem-ser-tomadas",
       "number": "1.15",
-      "title": "Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos riscos decorrentes da atividade e às precauções que devem ser tomadas",
+      "title": "Todo empregado que vá exercer trabalho sob ar comprimido deve ser orientado quanto aos riscos decorrentes da atividade e às precauções que devem ser tomadas.",
       "blocks": []
     },
     {
       "id": "116-a-capacidade-física-de-empregados-para-trabalho-em-condições-hiperbáricas-deve-ser-avaliada-antes-do-início-das-atividades-e-supervisionada-por-médico-qualificado",
       "number": "1.16",
-      "title": "A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada antes do início das atividades e supervisionada por médico qualificado",
+      "title": "A capacidade física de empregados para trabalho em condições hiperbáricas deve ser avaliada antes do início das atividades e supervisionada por médico qualificado.",
       "blocks": []
     },
     {
       "id": "117-é-proibido-o-trabalho-de-menores-de-18-anos-em-qualquer-ambiente-hiperbárico",
       "number": "1.17",
-      "title": "É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico",
+      "title": "É proibido o trabalho de menores de 18 anos em qualquer ambiente hiperbárico.",
       "blocks": [
         {
           "type": "item",
@@ -2572,31 +2603,31 @@
     {
       "id": "119-a-descompressão-deve-ser-realizada-segundo-as-tabelas-constantes-deste-anexo",
       "number": "1.19",
-      "title": "A descompressão deve ser realizada segundo as tabelas constantes deste Anexo",
+      "title": "A descompressão deve ser realizada segundo as tabelas constantes deste Anexo.",
       "blocks": []
     },
     {
       "id": "120-deve-ser-disponibilizada-uma-câmara-hiperbárica-de-tratamento-24-horas-por-dia-7-dias-por-semana-situada-a-uma-distância-tal-que-o-trabalhador-seja-atendido-em-no-máximo-1-uma-hora-após-a-ocorrência",
       "number": "1.20",
-      "title": "Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, situada a uma distância tal que o trabalhador seja atendido em, no máximo, 1 (uma) hora após a ocorrência",
+      "title": "Deve ser disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, situada a uma distância tal que o trabalhador seja atendido em, no máximo, 1 (uma) hora após a ocorrência.",
       "blocks": []
     },
     {
       "id": "121-o-empregador-deve-garantir-a-disponibilidade-no-local-de-trabalho-de-recursos-médicos-incluindo-oxigênio-medicinal-de-superfície-e-de-pessoal-necessário-para-os-primeiros-socorros-em-casos-de-acidentes-descompressivos-ou-outros-eventos-que-comprometam-a-saúde-dos-trabalhadores-na-frente-de-trabalho-sendo-que-o-planejamento-desses-recursos-cabe-ao-médico-do-trabalho-responsável-pelo-pcmso-ou-ao-médico-qualificado",
       "number": "1.21",
-      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do trabalho responsável pelo PCMSO ou ao médico qualificado",
+      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de trabalho, sendo que o planejamento desses recursos cabe ao médico do trabalho responsável pelo PCMSO ou ao médico qualificado.",
       "blocks": []
     },
     {
       "id": "122-o-tratamento-recompressivo-deve-ser-conduzido-sob-supervisão-do-médico-qualificado",
       "number": "1.22",
-      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado",
+      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.",
       "blocks": []
     },
     {
       "id": "123-em-relação-à-ventilação-à-temperatura-e-à-qualidade-do-ar-devem-ser-observadas-as-seguintes-condições",
       "number": "1.23",
-      "title": "Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes condições:",
+      "title": "Em relação à ventilação, à temperatura e à qualidade do ar, devem ser observadas as seguintes condições",
       "blocks": [
         {
           "type": "list",
@@ -2639,13 +2670,13 @@
     {
       "id": "124-a-compressão-deve-ser-realizada-a-uma-vazão-máxima-de-03-atm-no-primeiro-minuto-e-não-poderá-exceder-07-atm-nos-minutos-subsequentes",
       "number": "1.24",
-      "title": "A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não poderá exceder 0,7 atm nos minutos subsequentes",
+      "title": "A compressão deve ser realizada a uma vazão máxima de 0,3 atm no primeiro minuto e não poderá exceder 0,7 atm nos minutos subsequentes.",
       "blocks": []
     },
     {
       "id": "125-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-vinte-e-quatro-horas-que-sucederem-um-mergulho-seco",
       "number": "1.25",
-      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco.",
       "blocks": []
     },
     {
@@ -2663,13 +2694,13 @@
     {
       "id": "22-esta-categoria-profissional-pode-ser-submetida-a-até-2-duas-exposições-em-24-vinte-e-quatro-horas-sob-supervisão-do-médico-qualificado",
       "number": "2.2",
-      "title": "Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro) horas, sob supervisão do médico qualificado",
+      "title": "Esta categoria profissional pode ser submetida a até 2 (duas) exposições em 24 (vinte e quatro) horas, sob supervisão do médico qualificado.",
       "blocks": []
     },
     {
       "id": "23-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-vinte-e-quatro-horas-que-sucederem-um-mergulho-seco",
       "number": "2.3",
-      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 (vinte e quatro) horas que sucederem um mergulho seco.",
       "blocks": []
     },
     {
@@ -2681,25 +2712,25 @@
     {
       "id": "31-para-mergulho-profissional-as-atividades-devem-ser-acompanhadas-e-orientadas-por-médico-qualificado-com-conhecimento-de-fisiologia-de-mergulho-escolha-de-misturas-gasosas-diagnóstico-e-tratamento-de-doenças-e-acidentes-ligados-ao-mergulho",
       "number": "3.1",
-      "title": "Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico qualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico e tratamento de doenças e acidentes ligados ao mergulho",
+      "title": "Para mergulho profissional, as atividades devem ser acompanhadas e orientadas por médico qualificado com conhecimento de fisiologia de mergulho, escolha de misturas gasosas, diagnóstico e tratamento de doenças e acidentes ligados ao mergulho.",
       "blocks": []
     },
     {
       "id": "32-todos-os-mergulhos-devem-ser-registrados-incluindo-a-identificação-dos-mergulhadores-participantes-e-os-dados-técnicos-de-pressões-tempos-e-composição-do-gás-respirado",
       "number": "3.2",
-      "title": "Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores participantes e os dados técnicos de pressões, tempos e composição do gás respirado",
+      "title": "Todos os mergulhos devem ser registrados, incluindo a identificação dos mergulhadores participantes e os dados técnicos de pressões, tempos e composição do gás respirado.",
       "blocks": []
     },
     {
       "id": "33-nos-mergulhos-em-que-se-utilize-mistura-gasosa-diferente-do-ar-devem-ser-obedecidas-medidas-específicas-para-evitar-enganos-troca-de-cilindros-e-erros-na-execução-de-paradas-de-descompressão",
       "number": "3.3",
-      "title": "Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas específicas para evitar enganos, troca de cilindros e erros na execução de paradas de descompressão",
+      "title": "Nos mergulhos em que se utilize mistura gasosa diferente do ar, devem ser obedecidas medidas específicas para evitar enganos, troca de cilindros e erros na execução de paradas de descompressão.",
       "blocks": []
     },
     {
       "id": "34-os-exames-médicos-ocupacionais-dos-empregados-em-mergulho-profissional-devem-ser-realizados",
       "number": "3.4",
-      "title": "Os exames médicos ocupacionais dos empregados em mergulho profissional devem ser realizados:",
+      "title": "Os exames médicos ocupacionais dos empregados em mergulho profissional devem ser realizados",
       "blocks": [
         {
           "type": "list",
@@ -2742,7 +2773,7 @@
     {
       "id": "35-devem-ser-realizados-os-seguintes-exames-complementares-quando-da-realização-do-admissional-e-periódico-para-mergulho-profissional",
       "number": "3.5",
-      "title": "Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para mergulho profissional:",
+      "title": "Devem ser realizados os seguintes exames complementares quando da realização do admissional e periódico, para mergulho profissional",
       "blocks": [
         {
           "type": "list",
@@ -2857,61 +2888,61 @@
     {
       "id": "36-a-critério-médico-outros-exames-complementares-e-pareceres-de-outros-profissionais-de-saúde-podem-ser-solicitados-a-qualquer-tempo",
       "number": "3.6",
-      "title": "A critério médico, outros exames complementares e pareceres de outros profissionais de saúde podem ser solicitados a qualquer tempo",
+      "title": "A critério médico, outros exames complementares e pareceres de outros profissionais de saúde podem ser solicitados a qualquer tempo.",
       "blocks": []
     },
     {
       "id": "37-é-vedada-a-atividade-de-mergulho-para-gestantes-e-lactantes",
       "number": "3.7",
-      "title": "É vedada a atividade de mergulho para gestantes e lactantes",
+      "title": "É vedada a atividade de mergulho para gestantes e lactantes.",
       "blocks": []
     },
     {
       "id": "38-a-compressão-e-a-descompressão-devem-ser-definidas-pelo-médico-qualificado-responsável-pelo-mergulho",
       "number": "3.8",
-      "title": "A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo mergulho",
+      "title": "A compressão e a descompressão devem ser definidas pelo médico qualificado responsável pelo mergulho.",
       "blocks": []
     },
     {
       "id": "39-todas-as-embarcações-para-trabalho-de-mergulho-profissional-devem-ter-a-bordo-uma-câmara-hiperbárica-de-tratamento-para-atendimento-de-doenças-ou-acidentes-de-mergulho",
       "number": "3.9",
-      "title": "Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho",
+      "title": "Todas as embarcações para trabalho de mergulho profissional devem ter, a bordo, uma câmara hiperbárica de tratamento para atendimento de doenças ou acidentes de mergulho.",
       "blocks": []
     },
     {
       "id": "310-os-tratamentos-de-doenças-ou-acidentes-de-mergulho-devem-estar-a-cargo-de-médico-qualificado",
       "number": "3.10",
-      "title": "Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico qualificado",
+      "title": "Os tratamentos de doenças ou acidentes de mergulho devem estar a cargo de médico qualificado.",
       "blocks": []
     },
     {
       "id": "311-para-os-mergulhos-realizados-a-partir-de-bases-em-terra-deve-se-disponibilizada-uma-câmara-hiperbárica-de-tratamento-24-horas-por-dia-7-dias-por-semana-para-que-o-mergulhador-seja-atendido-em-no-máximo-1-hora-após-a-ocorrência",
       "number": "3.11",
-      "title": "Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, para que o mergulhador seja atendido em, no máximo, 1 hora após a ocorrência",
+      "title": "Para os mergulhos realizados a partir de bases em terra, deve se disponibilizada uma câmara hiperbárica de tratamento, 24 horas por dia, 7 dias por semana, para que o mergulhador seja atendido em, no máximo, 1 hora após a ocorrência.",
       "blocks": []
     },
     {
       "id": "312-o-empregador-deve-garantir-a-disponibilidade-no-local-de-trabalho-de-recursos-médicos-incluindo-oxigênio-medicinal-de-superfície-e-de-pessoal-necessário-para-os-primeiros-socorros-em-casos-de-acidentes-descompressivos-ou-outros-eventos-que-comprometam-a-saúde-dos-trabalhadores-na-frente-de-traballho-sendo-que-o-planejamento-desses-recursos-cabe-ao-médico-qualificado",
       "number": "3.12",
-      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico qualificado",
+      "title": "O empregador deve garantir a disponibilidade, no local de trabalho, de recursos médicos, incluindo oxigênio medicinal de superfície, e de pessoal necessário para os primeiros socorros, em casos de acidentes descompressivos ou outros eventos que comprometam a saúde dos trabalhadores na frente de traballho, sendo que o planejamento desses recursos cabe ao médico qualificado.",
       "blocks": []
     },
     {
       "id": "313-a-segurança-de-mergulho-deve-seguir-a-normam-15dpc-em-sua-última-revisão",
       "number": "3.13",
-      "title": "A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão",
+      "title": "A segurança de mergulho deve seguir a NORMAM-15/DPC em sua última revisão.",
       "blocks": []
     },
     {
       "id": "314-não-é-permitido-à-organização-submeter-o-empregado-a-voos-ou-elevações-acima-de-700-metros-nas-24-horas-que-sucederem-um-mergulho-raso-ou-48-horas-para-mergulho-saturado",
       "number": "3.14",
-      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado",
+      "title": "Não é permitido à organização submeter o empregado a voos ou elevações acima de 700 metros nas 24 horas que sucederem um mergulho raso, ou 48 horas para mergulho saturado.",
       "blocks": []
     },
     {
       "id": "315-o-tratamento-recompressivo-deve-ser-conduzido-sob-supervisão-do-médico-qualificado",
       "number": "3.15",
-      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado",
+      "title": "O tratamento recompressivo deve ser conduzido sob supervisão do médico qualificado.",
       "blocks": [
         {
           "type": "paragraph",
@@ -2935,17 +2966,13 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 30",
-          "src": "../assets/pages/page-030-table-00.png"
-        },
-        {
-          "type": "table",
-          "markdown": "| TABELA 1 - PRESSÃO DE TRABALHO DE 1 A 1,9 ATA | | | |\n| --- | --- | --- | --- |\n| PERÍODO DE TRABALHO (HORAS) | ESTÁGIO DE DESCOMPRESSÃO | TEMPO TOTAL DE DESCOMPRESSÃO (**) | |\n| | 1,3 ATA | | |\n| 0 a 6:00 | 4 min | 4min | Linha 1 |\n| 6:00 a 8:00 | 14min | 14min | Linha 2 |\n| + de 8:00 (**) | 30min | 30min | Linha 3 |"
+          "alt": "Página 30 (tabelas)",
+          "src": "../assets/pages/page-030-table-full.png"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 31",
-          "src": "../assets/pages/page-031-table-00.png"
+          "alt": "Página 31 (tabelas)",
+          "src": "../assets/pages/page-031-table-full.png"
         },
         {
           "type": "paragraph",
@@ -2961,23 +2988,18 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 32",
-          "src": "../assets/pages/page-032-table-00.png"
+          "alt": "Página 32 (tabelas)",
+          "src": "../assets/pages/page-032-table-full.png"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 32",
-          "src": "../assets/pages/page-032-table-01.png"
+          "alt": "Página 33 (tabelas)",
+          "src": "../assets/pages/page-033-table-full.png"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 33",
-          "src": "../assets/pages/page-033-table-00.png"
-        },
-        {
-          "type": "image",
-          "alt": "Tabela da página 34",
-          "src": "../assets/pages/page-034-table-00.png"
+          "alt": "Página 34 (tabelas)",
+          "src": "../assets/pages/page-034-table-full.png"
         },
         {
           "type": "paragraph",
@@ -2998,15 +3020,18 @@
         {
           "type": "paragraph",
           "text": "(****) O período de trabalho mais o tempo de descompressão (incluindo o tempo entre os estágios) não deverá exceder a 12 horas.” (NR)"
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO V**"
-        },
+        }
+      ]
+    },
+    {
+      "id": "anexo-v-anexo-v",
+      "number": "ANEXO V",
+      "title": "ANEXO V",
+      "blocks": [
         {
           "type": "image",
-          "alt": "Tabela da página 35",
-          "src": "../assets/pages/page-035-table-00.png"
+          "alt": "Página 35 (tabelas)",
+          "src": "../assets/pages/page-035-table-full.png"
         },
         {
           "type": "paragraph",
@@ -3023,7 +3048,7 @@
     {
       "id": "11-estabelecer-diretrizes-e-parâmetros-complementares-no-pcmso-para-vigilância-da-saúde-dos-empregados-expostos-ocupacionalmente-a-substâncias-químicas-cancerígenas-e-a-radiações-ionizantes-de-acordo-com-as-informações-fornecidas-pelo-programa-de-gerenciamento-de-risco---pgr-visando-à-prevenção-e-à-detecção-do-câncer-e-de-lesões-e-alterações-pré-cancerígenas-relacionados-ao-trabalho",
       "number": "1.1",
-      "title": "Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos empregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações ionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciamento de Risco - PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré-cancerígenas relacionados ao trabalho",
+      "title": "Estabelecer diretrizes e parâmetros complementares no PCMSO para vigilância da saúde dos empregados expostos ocupacionalmente a substâncias químicas cancerígenas e a radiações ionizantes, de acordo com as informações fornecidas pelo Programa de Gerenciamento de Risco - PGR, visando à prevenção e à detecção do câncer e de lesões e alterações pré-cancerígenas relacionados ao trabalho.",
       "blocks": []
     },
     {
@@ -3035,7 +3060,7 @@
     {
       "id": "21-o-presente-anexo-aplica-se-às-organizações-que-produzam-transportem-armazenem-utilizem-ou-manipulem-substâncias-químicas-cancerígenas-com-registro-cas-conforme-indicadas-no-inventário-de-riscos-do-pgr-misturas-líquidas-contendo-concentração-igual-ou-maior-que-01-zero-vírgula-um-por-cento-em-volume-dessas-substâncias-ou-mistura-gasosa-contendo-essas-substâncias-e-às-organizações-nas-quais-os-processos-de-trabalho-exponham-seus-empregados-a-radiações-ionizantes",
       "number": "2.1",
-      "title": "O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem ou manipulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no Inventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias, e às organizações nas quais os processos de trabalho exponham seus empregados a radiações ionizantes",
+      "title": "O presente Anexo aplica-se às organizações que produzam, transportem, armazenem, utilizem ou manipulem substâncias químicas cancerígenas, com registro CAS, conforme indicadas no Inventário de Riscos do PGR, misturas líquidas contendo concentração igual ou maior que 0,1% (zero vírgula um por cento) em volume dessas substâncias, ou mistura gasosa contendo essas substâncias, e às organizações nas quais os processos de trabalho exponham seus empregados a radiações ionizantes.",
       "blocks": []
     },
     {
@@ -3047,7 +3072,7 @@
     {
       "id": "31-o-médico-do-trabalho-responsável-deve-registrar-no-pcmso-as-atividades-e-funções-na-organização-com-exposição-ocupacional-a-radiações-ionizantes-e-a-substâncias-químicas-cancerígenas-identificadas-e-classificadas-no-pgr",
       "number": "3.1",
-      "title": "O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na organização com exposição ocupacional a radiações ionizantes e a substâncias químicas cancerígenas, identificadas e classificadas no PGR",
+      "title": "O médico do trabalho responsável deve registrar no PCMSO as atividades e funções na organização com exposição ocupacional a radiações ionizantes e a substâncias químicas cancerígenas, identificadas e classificadas no PGR.",
       "blocks": [
         {
           "type": "item",
@@ -3066,7 +3091,7 @@
     {
       "id": "41-os-prontuários-médicos-dos-empregados-expostos-a-substâncias-químicas-cancerígenas-devem-ser-mantidos-por-período-mínimo-de-40-quarenta-anos-após-o-desligamento-do-empregado",
       "number": "4.1",
-      "title": "Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado",
+      "title": "Os prontuários médicos dos empregados expostos a substâncias químicas cancerígenas devem ser mantidos por período mínimo de 40 (quarenta) anos após o desligamento do empregado.",
       "blocks": [
         {
           "type": "item",
@@ -3102,7 +3127,7 @@
     {
       "id": "51-os-empregados-devem-ser-avaliados-no-exame-médico-admissional-de-retorno-ao-trabalho-ou-de-mudança-de-risco-quanto-à-sua-aptidão-para-exercer-atividades-em-áreas-controladas-ou-supervisionadas-de-acordo-com-as-informações-do-pgr-e-a-classificação-da-comissão-nacional-de-energia-nuclear---cnen-norma-cnen-nn-301-para-áreas-de-trabalho-com-radiação-ou-material-radioativo",
       "number": "5.1",
-      "title": "Os empregados devem ser avaliados, no exame médico admissional, de retorno ao trabalho ou de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou supervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de Energia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material radioativo",
+      "title": "Os empregados devem ser avaliados, no exame médico admissional, de retorno ao trabalho ou de mudança de risco, quanto à sua aptidão para exercer atividades em áreas controladas ou supervisionadas, de acordo com as informações do PGR e a classificação da Comissão Nacional de Energia Nuclear - CNEN (Norma CNEN NN 3.01) para áreas de trabalho com radiação ou material radioativo.",
       "blocks": [
         {
           "type": "item",
@@ -3115,13 +3140,13 @@
     {
       "id": "52-no-caso-de-exposição-ocupacional-acima-do-limite-de-dose-anual-de-radiação-ionizante-efetiva-ou-equivalente-deve-ser-realizada-nova-avaliação-médica-do-empregado-para-definição-sobre-a-sua-continuidade-na-atividade-quando-deve-ser-emitido-novo-aso",
       "number": "5.2",
-      "title": "No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua continuidade na atividade, quando deve ser emitido novo ASO",
+      "title": "No caso de exposição ocupacional acima do limite de dose anual de radiação ionizante, efetiva ou equivalente, deve ser realizada nova avaliação médica do empregado para definição sobre a sua continuidade na atividade, quando deve ser emitido novo ASO.",
       "blocks": []
     },
     {
       "id": "53-no-caso-de-exposição-ocupacional-acidental-a-níveis-elevados-de-radiação-ionizante-deve-ser-realizada-nova-avaliação-médica-com-coleta-de-hemograma-completo-imediatamente-e-24-horas-após-a-exposição",
       "number": "5.3",
-      "title": "No caso de exposição ocupacional acidental a níveis elevados de radiação ionizante, deve ser realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas após a exposição",
+      "title": "No caso de exposição ocupacional acidental a níveis elevados de radiação ionizante, deve ser realizada nova avaliação médica, com coleta de hemograma completo imediatamente e 24 horas após a exposição.",
       "blocks": []
     },
     {

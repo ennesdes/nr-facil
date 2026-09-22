@@ -1924,8 +1924,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 13",
-          "src": "../assets/pages/page-013-table-00.png"
+          "alt": "Página 13 (tabelas)",
+          "src": "../assets/pages/page-013-table-full.png"
         },
         {
           "type": "paragraph",
@@ -1950,11 +1950,14 @@
         {
           "type": "paragraph",
           "text": "Esta permissão de entrada deverá ficar disponível no local de trabalho até o seu encerramento. Após o trabalho, esta permissão deverá ser arquivada."
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO III**"
-        },
+        }
+      ]
+    },
+    {
+      "id": "anexo-iii-anexo-iii",
+      "number": "ANEXO III",
+      "title": "ANEXO III",
+      "blocks": [
         {
           "type": "paragraph",
           "text": "_ _"
@@ -1980,13 +1983,13 @@
     {
       "id": "11-a-carga-horária-e-a-periodicidade-das-capacitações-dos-supervisores-de-entrada-vigias-trabalhadores-autorizados-e-equipe-de-emergência-e-salvamento-devem-seguir-o-disposto-no-quadro-1-deste-anexo",
       "number": "1.1",
-      "title": "A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no Quadro 1 deste Anexo",
+      "title": "A carga horária e a periodicidade das capacitações dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento devem seguir o disposto no Quadro 1 deste Anexo.",
       "blocks": []
     },
     {
       "id": "12-a-carga-horária-da-parte-prática-do-treinamento-inicial-e-periódico-dos-supervisores-de-entrada-vigias-trabalhadores-autorizados-e-equipe-de-emergência-e-salvamento-deve-ser-de-no-mínimo-50-cinquenta-por-cento-da-carga-horária-prevista-no-quadro-1-deste-anexo",
       "number": "1.2",
-      "title": "A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo",
+      "title": "A carga horária da parte prática do treinamento inicial e periódico dos supervisores de entrada, vigias, trabalhadores autorizados e equipe de emergência e salvamento deve ser de, no mínimo, 50% (cinquenta por cento) da carga horária prevista no Quadro 1 deste Anexo.",
       "blocks": [
         {
           "type": "paragraph",
@@ -2111,7 +2114,7 @@
     {
       "id": "22-os-equipamentos-utilizados-no-treinamento-devem-ser-selecionados-de-forma-que-garantam-o-aprendizado-dos-participantes-em-situações-similares-às-encontradas-em-seus-locais-de-trabalho",
       "number": "2.2",
-      "title": "Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho",
+      "title": "Os equipamentos utilizados no treinamento devem ser selecionados de forma que garantam o aprendizado dos participantes em situações similares às encontradas em seus locais de trabalho.",
       "blocks": []
     },
     {

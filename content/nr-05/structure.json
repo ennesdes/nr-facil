@@ -1036,13 +1036,16 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 11",
-          "src": "../assets/pages/page-011-table-00.png"
-        },
-        {
-          "type": "paragraph",
-          "text": "**ANEXO I da NR-5 CIPA DA INDÚSTRIA DA CONSTRUÇÃO**"
-        },
+          "alt": "Página 11 (tabelas)",
+          "src": "../assets/pages/page-011-table-full.png"
+        }
+      ]
+    },
+    {
+      "id": "anexo-i-da-nr-5-cipa-da-indústria-da-construção",
+      "number": "ANEXO I",
+      "title": "da NR-5 CIPA DA INDÚSTRIA DA CONSTRUÇÃO",
+      "blocks": [
         {
           "type": "paragraph",
           "text": "1. Objetivo"

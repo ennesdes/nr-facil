@@ -3049,254 +3049,260 @@
   },
   {
     "id": "chunk-508",
-    "text": "| Nº de empregados no | 15 a | 31 a | 51 a 100 | 101 a | 251 a | 501 a 1.000 | 1.001 a | 2.501 a | Acima de 5.000 para cada grupo de 500 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    "text": "![Página 64 (tabelas)](../assets/pages/page-064-table-full.png)",
     "heading": "**~~QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do~~**",
-    "char_offset": 172459
+    "char_offset": 172322
   },
   {
     "id": "chunk-509",
     "text": "**~~Grupo de Exposição Similar~~** _(Excluído pela Portaria MTE nº 105, de 29 de janeiro de 2026)_ \n~~Onde:~~ \n~~N = número de trabalhadores do Grupo de Exposição Similar~~ \n~~n = número de trabalhadores a serem amostrados~~ \n~~* se N menor ou igual a 7, n = N~~",
     "heading": "**~~QUADRO III - Número de trabalhadores a serem amostrados em função do número de trabalhadores do~~**",
-    "char_offset": 172464
+    "char_offset": 172327
   },
   {
     "id": "chunk-510",
     "text": "_(Inserido pela Portaria MTE nº 105, de 29 de janeiro de 2026)_",
     "heading": "**SUMÁRIO**",
-    "char_offset": 172796
+    "char_offset": 172659
   },
   {
     "id": "chunk-511",
-    "text": "1. Objetivo \n2. Campo de aplicação \n3. Caracterização da exposição \n4. Avaliação das exposições ocupacionais a poeiras minerais \n| estabelecimento | 30 | 50 | | 250 | 500 | | 2.500 | 5.000 | acrescentar |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+    "text": "1. Objetivo \n2. Campo de aplicação \n3. Caracterização da exposição \n4. Avaliação das exposições ocupacionais a poeiras minerais \n![Página 65 (tabelas)](../assets/pages/page-065-table-full.png)\n5. Medidas de prevenção \n6. Vigilância da saúde \n7. Documentação",
     "heading": "**SUMÁRIO**",
-    "char_offset": 172801
+    "char_offset": 172667
   },
   {
     "id": "chunk-512",
-    "text": "| Nº de representantes titulares do empregador | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | - |\n| Nº de representantes suplentes do empregador | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | - |\n| Nº de representantes titulares dos empregados | 1 | 2 | 3 | 4 | 5 | 6 | 9 | 12 | 4 |",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 173068
+    "text": "8. Avaliação de poeiras de asbesto em ambientes de extração mineral Glossário",
+    "heading": "**1. Objetivo**",
+    "char_offset": 173007
   },
   {
     "id": "chunk-513",
-    "text": "| Nº de representantes suplentes dos empregados | 1 | 1 | 1 | 1 | 2 | 2 | 3 | 4 | 2 |\n| N* | n |\n| --- | --- |\n| 8 | 7 |\n| 9 | 8 |\n| 10 | 9 |\n| 11-12 | 10 |\n| 13-14 | 11 |\n| 15-17 | 12 |\n| 18-20 | 13 |\n| 21-24 | 14 |\n| 25-29 | 15 |\n| 30-37 | 16 |\n| 38-49 | 17 |",
-    "heading": "**SUMÁRIO**",
-    "char_offset": 173326
+    "text": "**1.1** Estabelecer diretrizes e procedimentos para avaliar as exposições ocupacionais a poeiras minerais suspensas nos ambientes de trabalho e subsidiar as medidas de prevenção.",
+    "heading": "**2. Campo de aplicação**",
+    "char_offset": 173189
   },
   {
     "id": "chunk-514",
-    "text": "| 50 | 18 |\n| ACIMA DE 50 | 22 |\n5. Medidas de prevenção \n6. Vigilância da saúde \n7. Documentação \n8. Avaliação de poeiras de asbesto em ambientes de extração mineral Glossário",
-    "heading": "**1. Objetivo**",
-    "char_offset": 173771
+    "text": "**2.1** Este anexo aplica-se aos locais de trabalho em que haja ou possa haver exposição ocupacional a poeiras minerais nas atividades econômicas abrangidas pelo tópico “Campo de Aplicação” da NR-22.",
+    "heading": "**3. Caracterização da exposição**",
+    "char_offset": 173392
   },
   {
     "id": "chunk-515",
-    "text": "**1.1** Estabelecer diretrizes e procedimentos para avaliar as exposições ocupacionais a poeiras minerais suspensas nos ambientes de trabalho e subsidiar as medidas de prevenção.",
-    "heading": "**2. Campo de aplicação**",
-    "char_offset": 173953
+    "text": "**3.1** A organização deve identificar as exposições ocupacionais a poeiras minerais no local de trabalho, devendo contemplar, no mínimo: \na) descrição dos processos, locais de trabalho e das condições de exposição; \nb) a composição mineralógica básica dos principais materiais que possam dar origem a poeiras suspensas no ar;",
+    "heading": "**3. Caracterização da exposição**",
+    "char_offset": 173395
   },
   {
     "id": "chunk-516",
-    "text": "**2.1** Este anexo aplica-se aos locais de trabalho em que haja ou possa haver exposição ocupacional a poeiras minerais nas atividades econômicas abrangidas pelo tópico “Campo de Aplicação” da NR-22.",
+    "text": "c) caracterização das poeiras suspensas nos locais de trabalho a que os trabalhadores possam estar expostos e respectivos limites de exposição ocupacional, se houver; \nd) possíveis agravos à saúde relacionados à exposição às poeiras nos locais de trabalho;",
     "heading": "**3. Caracterização da exposição**",
-    "char_offset": 174156
+    "char_offset": 173725
   },
   {
     "id": "chunk-517",
-    "text": "**3.1** A organização deve identificar as exposições ocupacionais a poeiras minerais no local de trabalho, devendo contemplar, no mínimo: \na) descrição dos processos, locais de trabalho e das condições de exposição; \nb) a composição mineralógica básica dos principais materiais que possam dar origem a poeiras suspensas no ar;",
+    "text": "e) fontes geradoras das poeiras e outros fatores determinantes da exposição ocupacional; \nf) medidas de prevenção existentes; \ng) identificação dos grupos de exposição similar; \nh) dados existentes na organização indicativos de agravos à saúde dos trabalhadores relacionados às exposições identificadas; e",
     "heading": "**3. Caracterização da exposição**",
-    "char_offset": 174159
+    "char_offset": 173987
   },
   {
     "id": "chunk-518",
-    "text": "c) caracterização das poeiras suspensas nos locais de trabalho a que os trabalhadores possam estar expostos e respectivos limites de exposição ocupacional, se houver; \nd) possíveis agravos à saúde relacionados à exposição às poeiras nos locais de trabalho;",
+    "text": "i) dados de avaliações anteriores das exposições a poeiras minerais nos ambientes de trabalho da organização. \n**3.2** A partir da caracterização da exposição, a organização deve definir as situações que: \na) exijam adoção de medidas de prevenção; ou",
     "heading": "**3. Caracterização da exposição**",
-    "char_offset": 174489
+    "char_offset": 174297
   },
   {
     "id": "chunk-519",
-    "text": "e) fontes geradoras das poeiras e outros fatores determinantes da exposição ocupacional; \nf) medidas de prevenção existentes; \ng) identificação dos grupos de exposição similar; \nh) dados existentes na organização indicativos de agravos à saúde dos trabalhadores relacionados às exposições identificadas; e",
-    "heading": "**3. Caracterização da exposição**",
-    "char_offset": 174751
+    "text": "b) necessitem de avaliação quantitativa das exposições.",
+    "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
+    "char_offset": 174608
   },
   {
     "id": "chunk-520",
-    "text": "i) dados de avaliações anteriores das exposições a poeiras minerais nos ambientes de trabalho da organização. \n**3.2** A partir da caracterização da exposição, a organização deve definir as situações que: \na) exijam adoção de medidas de prevenção; ou",
-    "heading": "**3. Caracterização da exposição**",
-    "char_offset": 175061
+    "text": "**4.1** A organização deve realizar avaliação para determinação do perfil de exposição por meio de medição na zona respiratória do trabalhador, em grupos de exposição similar, que podem ser constituídos por um ou mais trabalhadores. \n**4.2** A organização, para avaliar a exposição ocupacional a poeiras minerais, deve realizar medições representativas das jornadas utilizando:",
+    "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
+    "char_offset": 174610
   },
   {
     "id": "chunk-521",
-    "text": "b) necessitem de avaliação quantitativa das exposições.",
+    "text": "a) 3 (três) a 5 (cinco) medições; ou \nb) 6 (seis) ou mais medições. \n**4.2.1** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 3 (três) a 5 (cinco) medições, utilizar como perfil de exposição a média aritmética simples dos valores obtidos.",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 175372
+    "char_offset": 174992
   },
   {
     "id": "chunk-522",
-    "text": "**4.1** A organização deve realizar avaliação para determinação do perfil de exposição por meio de medição na zona respiratória do trabalhador, em grupos de exposição similar, que podem ser constituídos por um ou mais trabalhadores. \n**4.2** A organização, para avaliar a exposição ocupacional a poeiras minerais, deve realizar medições representativas das jornadas utilizando:",
+    "text": "**4.2.1.1** Caso a média aritmética simples tenha valor maior que 10% e menores que 50% do Limite de Exposição Ocupacional (LEO), devem ser incluídas no plano de ação do Programa de Gerenciamento de Riscos (PGR) medidas de prevenção de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO, se necessário.",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 175374
+    "char_offset": 175270
   },
   {
     "id": "chunk-523",
-    "text": "a) 3 (três) a 5 (cinco) medições; ou \nb) 6 (seis) ou mais medições. \n**4.2.1** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 3 (três) a 5 (cinco) medições, utilizar como perfil de exposição a média aritmética simples dos valores obtidos.",
+    "text": "**4.2.1.2** Caso a média aritmética simples tenha valor maior que 50% e igual ou menor que 100% do LEO ou alguma das medições esteja acima do LEO, a organização deve: \na) incluir no plano de ação do PGR medidas de prevenção de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO, se necessário; ou",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 175756
+    "char_offset": 175605
   },
   {
     "id": "chunk-524",
-    "text": "**4.2.1.1** Caso a média aritmética simples tenha valor maior que 10% e menores que 50% do Limite de Exposição Ocupacional (LEO), devem ser incluídas no plano de ação do Programa de Gerenciamento de Riscos (PGR) medidas de prevenção de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO, se necessário.",
+    "text": "b) realizar mais medições, totalizando, no mínimo, 6 (seis) medições. \n**4.2.2** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 6 (seis) ou mais medições, efetuar tratamento estatístico dos resultados e utilizar como perfil de exposição o limite superior da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95% (LSC 1,95%).",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 176034
+    "char_offset": 175934
   },
   {
     "id": "chunk-525",
-    "text": "**4.2.1.2** Caso a média aritmética simples tenha valor maior que 50% e igual ou menor que 100% do LEO ou alguma das medições esteja acima do LEO, a organização deve: \na) incluir no plano de ação do PGR medidas de prevenção de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO, se necessário; ou",
+    "text": "**4.2.2.1** A organização deve adotar as seguintes condutas, conforme o valor do perfil de exposição calculado a partir de 6 (seis) ou mais medições: \na) para valores menores que 10% do LEO devem ser mantidas as condições de trabalho; \nb) para valores iguais ou maiores que 10% do LEO e menores ou iguais a 100% do LEO, a organização deve adotar medidas de prevenção, caso inexistentes, ou aprimorar as medidas existentes, de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO.",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 176369
+    "char_offset": 176337
   },
   {
     "id": "chunk-526",
-    "text": "b) realizar mais medições, totalizando, no mínimo, 6 (seis) medições. \n**4.2.2** A organização deve, ao realizar avaliação quantitativa da exposição ocupacional com 6 (seis) ou mais medições, efetuar tratamento estatístico dos resultados e utilizar como perfil de exposição o limite superior da média aritmética estimada para uma distribuição lognormal com confiança estatística de 95% (LSC 1,95%).",
+    "text": "c) para valores maiores do que 100% do LEO: \nI. manter atividades no setor ou estabelecimento somente com a utilização de equipamento de proteção respiratória com fator de proteção correspondente ao perfil da exposição, até o retorno a níveis abaixo do LEO;",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 176698
+    "char_offset": 176847
   },
   {
     "id": "chunk-527",
-    "text": "**4.2.2.1** A organização deve adotar as seguintes condutas, conforme o valor do perfil de exposição calculado a partir de 6 (seis) ou mais medições: \na) para valores menores que 10% do LEO devem ser mantidas as condições de trabalho; \nb) para valores iguais ou maiores que 10% do LEO e menores ou iguais a 100% do LEO, a organização deve adotar medidas de prevenção, caso inexistentes, ou aprimorar as medidas existentes, de forma a minimizar a probabilidade de que o perfil de exposição ultrapasse o LEO.",
+    "text": "II. adotar medidas de prevenção para reduzir a exposição a valores abaixo do LEO; \nIII. informar ao médico responsável pelo PCMSO sobre os setores e trabalhadores envolvidos; e \nIV. informar aos trabalhadores envolvidos sobre a situação no ambiente de trabalho, as medidas de prevenção tomadas e as precauções adicionais necessárias.",
     "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 177101
+    "char_offset": 177109
   },
   {
     "id": "chunk-528",
-    "text": "c) para valores maiores do que 100% do LEO: \nI. manter atividades no setor ou estabelecimento somente com a utilização de equipamento de proteção respiratória com fator de proteção correspondente ao perfil da exposição, até o retorno a níveis abaixo do LEO;",
-    "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 177611
+    "text": "**4.3.1** Os LEO, para duração de trabalho superior a 40 (quarenta) horas semanais ou 8 (oito) horas diárias, devem ser corrigidos. \n**4.3.1.1** A correção dos LEO deve ser feita multiplicando-se o valor do LEO pelos Fatores de Redução Diário e/ou Semanal.",
+    "heading": "**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas diárias.**",
+    "char_offset": 177447
   },
   {
     "id": "chunk-529",
-    "text": "II. adotar medidas de prevenção para reduzir a exposição a valores abaixo do LEO; \nIII. informar ao médico responsável pelo PCMSO sobre os setores e trabalhadores envolvidos; e \nIV. informar aos trabalhadores envolvidos sobre a situação no ambiente de trabalho, as medidas de prevenção tomadas e as precauções adicionais necessárias.",
-    "heading": "**4. Avaliação das exposições ocupacionais a poeiras minerais**",
-    "char_offset": 177873
+    "text": "**4.3.1.1.1** O fator de redução diário - FRD será calculado pela fórmula: FRD = 8 / horas trabalhadas na jornada. \n**4.3.1.1.2** O fator de redução semanal - FRS será calculado pela fórmula: FRS = 40 / horas trabalhadas na semana. \n**4.3.2** Quando forem aplicáveis valores de reajuste diário e reajuste semanal do LEO, a organização deverá utilizar o fator de reajuste mais rigoroso para aquele agente.",
+    "heading": "**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas diárias.**",
+    "char_offset": 177708
   },
   {
     "id": "chunk-530",
-    "text": "**4.3.1** Os LEO, para duração de trabalho superior a 40 (quarenta) horas semanais ou 8 (oito) horas diárias, devem ser corrigidos. \n**4.3.1.1** A correção dos LEO deve ser feita multiplicando-se o valor do LEO pelos Fatores de Redução Diário e/ou Semanal.",
-    "heading": "**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas diárias.**",
-    "char_offset": 178211
+    "text": "**4.4.1** A organização deve efetuar, para comprovar o controle da exposição ocupacional a poeiras minerais e avaliar a eficácia das medidas de prevenção, avaliações quantitativas das exposições a cada 24 (vinte e quatro) meses. \n**4.5** As avaliações quantitativas devem seguir as orientações contidas em recomendações técnicas da FUNDACENTRO ou outros documentos técnicos, desde que tecnicamente justificado, no que diz respeito aos aspectos não tratados neste Anexo.",
+    "heading": "**4.4 Acompanhamento das medidas de prevenção.**",
+    "char_offset": 178117
   },
   {
     "id": "chunk-531",
-    "text": "**4.3.1.1.1** O fator de redução diário - FRD será calculado pela fórmula: FRD = 8 / horas trabalhadas na jornada. \n**4.3.1.1.2** O fator de redução semanal - FRS será calculado pela fórmula: FRS = 40 / horas trabalhadas na semana. \n**4.3.2** Quando forem aplicáveis valores de reajuste diário e reajuste semanal do LEO, a organização deverá utilizar o fator de reajuste mais rigoroso para aquele agente.",
-    "heading": "**4.3 Reajuste de LEO para jornadas acima de 40 (quarenta) horas semanais ou 8 (oito) horas diárias.**",
-    "char_offset": 178472
+    "text": "**5.1** a adoção de medidas de prevenção deverá atender ao item 1.4.1, alínea “g”, da NR-1. \n**5.2** nos locais onde estiver sendo perfurado, cortado, detonado, carregado, britado, moído, descarregado ou transferido rocha ou minério deve estar disponível água em condições de uso, com o propósito de controle da geração de poeiras.",
+    "heading": "**5. medidas de prevenção**",
+    "char_offset": 178591
   },
   {
     "id": "chunk-532",
-    "text": "**4.4.1** A organização deve efetuar, para comprovar o controle da exposição ocupacional a poeiras minerais e avaliar a eficácia das medidas de prevenção, avaliações quantitativas das exposições a cada 24 (vinte e quatro) meses. \n**4.5** As avaliações quantitativas devem seguir as orientações contidas em recomendações técnicas da FUNDACENTRO ou outros documentos técnicos, desde que tecnicamente justificado, no que diz respeito aos aspectos não tratados neste Anexo.",
-    "heading": "**4.4 Acompanhamento das medidas de prevenção.**",
-    "char_offset": 178881
+    "text": "**5.2.1** as operações de perfuração ou corte devem ser realizadas por processos umidificados para evitar a dispersão da poeira no ambiente de trabalho. \n**5.2.2** caso haja impedimento de umidificação, em função das características mineralógicas da rocha, impossibilidade técnica ou quando a água acarretar riscos adicionais devem ser utilizados dispositivos ou técnicas de controle, que impeçam a dispersão da poeira no ambiente de trabalho.",
+    "heading": "**5. medidas de prevenção**",
+    "char_offset": 178926
   },
   {
     "id": "chunk-533",
-    "text": "**5.1** a adoção de medidas de prevenção deverá atender ao item 1.4.1, alínea “g”, da NR-1. \n**5.2** nos locais onde estiver sendo perfurado, cortado, detonado, carregado, britado, moído, descarregado ou transferido rocha ou minério deve estar disponível água em condições de uso, com o propósito de controle da geração de poeiras.",
+    "text": "**5.3** os equipamentos geradores de poeira com exposição dos trabalhadores devem utilizar dispositivos para sua eliminação ou redução e serem mantidos em condições operacionais de uso. \n**5.4** as superfícies de máquinas, instalações e pisos dos locais de trânsito de pessoas e equipamentos, devem ser permanentemente umidificados ou limpos, de forma a impedir o acúmulo e a dispersão de poeira no ambiente de trabalho.",
     "heading": "**5. medidas de prevenção**",
-    "char_offset": 179355
+    "char_offset": 179373
   },
   {
     "id": "chunk-534",
-    "text": "**5.2.1** as operações de perfuração ou corte devem ser realizadas por processos umidificados para evitar a dispersão da poeira no ambiente de trabalho. \n**5.2.2** caso haja impedimento de umidificação, em função das características mineralógicas da rocha, impossibilidade técnica ou quando a água acarretar riscos adicionais devem ser utilizados dispositivos ou técnicas de controle, que impeçam a dispersão da poeira no ambiente de trabalho.",
+    "text": "**5.5** os postos de trabalho, quando possível, devem ser enclausurados ou isolados e: \na) possuir sistemas que mantenham as condições de conforto térmico e acústico previstas na Norma Regulamentadora nº 17 (NR-17) - Ergonomia; \nb) possibilitar o trabalho com o sistema hermeticamente fechado; e",
     "heading": "**5. medidas de prevenção**",
-    "char_offset": 179690
+    "char_offset": 179798
   },
   {
     "id": "chunk-535",
-    "text": "**5.3** os equipamentos geradores de poeira com exposição dos trabalhadores devem utilizar dispositivos para sua eliminação ou redução e serem mantidos em condições operacionais de uso. \n**5.4** as superfícies de máquinas, instalações e pisos dos locais de trânsito de pessoas e equipamentos, devem ser permanentemente umidificados ou limpos, de forma a impedir o acúmulo e a dispersão de poeira no ambiente de trabalho.",
-    "heading": "**5. medidas de prevenção**",
-    "char_offset": 180137
+    "text": "c) possuir sistemas que renovem periodicamente o ar.",
+    "heading": "**6. Vigilância da saúde**",
+    "char_offset": 180151
   },
   {
     "id": "chunk-536",
-    "text": "**5.5** os postos de trabalho, quando possível, devem ser enclausurados ou isolados e: \na) possuir sistemas que mantenham as condições de conforto térmico e acústico previstas na Norma Regulamentadora nº 17 (NR-17) - Ergonomia; \nb) possibilitar o trabalho com o sistema hermeticamente fechado; e",
-    "heading": "**5. medidas de prevenção**",
-    "char_offset": 180562
+    "text": "**6.1** A organização deve manter vigilância da saúde dos trabalhadores expostos a poeira mineral conforme determinado na NR-7.",
+    "heading": "**7. Documentação**",
+    "char_offset": 180282
   },
   {
     "id": "chunk-537",
-    "text": "c) possuir sistemas que renovem periodicamente o ar.",
-    "heading": "**6. Vigilância da saúde**",
-    "char_offset": 180915
+    "text": "**7.1** O registro das avaliações das exposições ocupacionais a poeiras minerais, deve conter, no mínimo: \na) limites de exposição ocupacional utilizados, incluindo valores reajustados quando de jornadas não usuais, conforme o subitem 4.3 deste Anexo;",
+    "heading": "**7. Documentação**",
+    "char_offset": 180284
   },
   {
     "id": "chunk-538",
-    "text": "**6.1** A organização deve manter vigilância da saúde dos trabalhadores expostos a poeira mineral conforme determinado na NR-7.",
+    "text": "b) indicação dos grupos de exposição similar com o nome e função dos trabalhadores amostrados em cada grupo; \nc) Indicação dos equipamentos utilizados nas amostragens, com os respectivos certificados de calibração, quando aplicável; \nd) procedimentos de calibração utilizados;",
     "heading": "**7. Documentação**",
-    "char_offset": 181046
+    "char_offset": 180540
   },
   {
     "id": "chunk-539",
-    "text": "**7.1** O registro das avaliações das exposições ocupacionais a poeiras minerais, deve conter, no mínimo: \na) limites de exposição ocupacional utilizados, incluindo valores reajustados quando de jornadas não usuais, conforme o subitem 4.3 deste Anexo;",
+    "text": "e) datas e os horários das coletas, tempo de amostragem e volume de ar coletado de cada amostra; \nf) as condições operacionais e ambientais dos locais de trabalho durante as coletas; \ng) os responsáveis pelas coletas; \nh) relatórios com os resultados das análises laboratoriais das amostras;",
     "heading": "**7. Documentação**",
-    "char_offset": 181048
+    "char_offset": 180822
   },
   {
     "id": "chunk-540",
-    "text": "b) indicação dos grupos de exposição similar com o nome e função dos trabalhadores amostrados em cada grupo; \nc) Indicação dos equipamentos utilizados nas amostragens, com os respectivos certificados de calibração, quando aplicável; \nd) procedimentos de calibração utilizados;",
+    "text": "i) o método analítico utilizado pelo laboratório, com informações sobre os limites de detecção e quantificação; \nj) os resultados das concentrações de poeiras; \nk) os responsáveis pelos resultados das análises laboratoriais; e \nl) os cálculos estatísticos realizados.",
     "heading": "**7. Documentação**",
-    "char_offset": 181304
+    "char_offset": 181119
   },
   {
     "id": "chunk-541",
-    "text": "e) datas e os horários das coletas, tempo de amostragem e volume de ar coletado de cada amostra; \nf) as condições operacionais e ambientais dos locais de trabalho durante as coletas; \ng) os responsáveis pelas coletas; \nh) relatórios com os resultados das análises laboratoriais das amostras;",
-    "heading": "**7. Documentação**",
-    "char_offset": 181586
+    "text": "**7.2** As informações previstas no item 7.1 devem estar sempre disponíveis aos trabalhadores interessados, aos sindicatos representantes das categorias profissionais e à Inspeção do Trabalho.",
+    "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
+    "char_offset": 181584
   },
   {
     "id": "chunk-542",
-    "text": "i) o método analítico utilizado pelo laboratório, com informações sobre os limites de detecção e quantificação; \nj) os resultados das concentrações de poeiras; \nk) os responsáveis pelos resultados das análises laboratoriais; e \nl) os cálculos estatísticos realizados.",
-    "heading": "**7. Documentação**",
-    "char_offset": 181883
+    "text": "**8.1** Nas situações em que houver a mineração de asbesto ou a possibilidade de exposição dos trabalhadores a poeiras contendo asbesto no minério lavrado, a organização deve realizar a avaliação desta exposição em intervalos não superiores a 6 (seis) meses.",
+    "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
+    "char_offset": 181585
   },
   {
     "id": "chunk-543",
-    "text": "**7.2** As informações previstas no item 7.1 devem estar sempre disponíveis aos trabalhadores interessados, aos sindicatos representantes das categorias profissionais e à Inspeção do Trabalho.",
+    "text": "**8.2** Os registros das avaliações devem ser mantidos por um período não inferior a 40 (quarenta) anos. \n**8.3** Os representantes indicados pelos trabalhadores acompanharão o processo de avaliação ambiental. \n**8.3.1** Os trabalhadores e/ou seus representantes têm o direito de solicitar avaliação ambiental",
     "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 182348
+    "char_offset": 181848
   },
   {
     "id": "chunk-544",
-    "text": "**8.1** Nas situações em que houver a mineração de asbesto ou a possibilidade de exposição dos trabalhadores a poeiras contendo asbesto no minério lavrado, a organização deve realizar a avaliação desta exposição em intervalos não superiores a 6 (seis) meses.",
+    "text": "complementar nos locais de trabalho e/ou questionar tecnicamente os resultados das avaliações junto à autoridade competente. \n**8.4** O limite de exposição ocupacional para \"Sílica Cristalina\" e \"Sílica Cristobalita\" é de 0,05 mg/m³ na poeira respirável. _(Alterado pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_",
     "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 182349
+    "char_offset": 182161
   },
   {
     "id": "chunk-545",
-    "text": "**8.2** Os registros das avaliações devem ser mantidos por um período não inferior a 40 (quarenta) anos. \n**8.3** Os representantes indicados pelos trabalhadores acompanharão o processo de avaliação ambiental. \n**8.3.1** Os trabalhadores e/ou seus representantes têm o direito de solicitar avaliação ambiental",
+    "text": "**8.4.1** Para as demais poeiras minerais e para fibras respiráveis de asbesto devem ser adotados, para fins de medidas de prevenção, o disposto no item 9.6.1 da NR-9. _(Inserido pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_ Glossário\n**Fibras respiráveis de asbesto** : Fibras com diâmetro inferior a 3 micrômetros, comprimento maior que 5 micrômetros e relação entre comprimento e diâmetro igual ou superior a 3:1. (Fonte: NHO 04 - Fundacentro)",
     "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 182612
+    "char_offset": 182485
   },
   {
     "id": "chunk-546",
-    "text": "complementar nos locais de trabalho e/ou questionar tecnicamente os resultados das avaliações junto à autoridade competente. \n**8.4** O limite de exposição ocupacional para \"Sílica Cristalina\" e \"Sílica Cristobalita\" é de 0,05 mg/m³ na poeira respirável. _(Alterado pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_",
+    "text": "**Limite de Exposição Ocupacional (LEO) para poeiras minerais** : Representa o valor limite para a concentração no ar de uma poeira no ambiente de trabalho, medida na zona respiratória de um trabalhador, em relação a um período de referência específico.",
     "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 182925
+    "char_offset": 182943
   },
   {
     "id": "chunk-547",
-    "text": "**8.4.1** Para as demais poeiras minerais e para fibras respiráveis de asbesto devem ser adotados, para fins de medidas de prevenção, o disposto no item 9.6.1 da NR-9. _(Inserido pela Portaria MTE nº 261, de 12 de fevereiro de 2026)_ Glossário\n**Fibras respiráveis de asbesto** : Fibras com diâmetro inferior a 3 micrômetros, comprimento maior que 5 micrômetros e relação entre comprimento e diâmetro igual ou superior a 3:1. (Fonte: NHO 04 - Fundacentro)",
-    "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 183249
-  },
-  {
-    "id": "chunk-548",
-    "text": "**Limite de Exposição Ocupacional (LEO) para poeiras minerais** : Representa o valor limite para a concentração no ar de uma poeira no ambiente de trabalho, medida na zona respiratória de um trabalhador, em relação a um período de referência específico.",
-    "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 183707
-  },
-  {
-    "id": "chunk-549",
     "text": "**Perfil de exposição ocupacional** : valor de concentração ambiental de uma poeira mineral a ser comparado com o LEO respectivo, de acordo com este Anexo. \n**Poeiras minerais** : são partículas sólidas (ou particulados sólidos) suspensas no ar geradas pela quebra mecânica de materiais sólidos, em processos de perfuração, detonação, britagem, beneficiamento, carregamento e transporte de rochas. Todas essas atividades podem formar partículas que se mantêm suspensas no ar por tempo variável conforme o seu diâmetro aerodinâmico.",
     "heading": "**8. Avaliação de poeiras de asbesto em ambientes de extração mineral**",
-    "char_offset": 183964
+    "char_offset": 183200
+  },
+  {
+    "id": "img-064-0",
+    "kind": "image_png",
+    "text": "Nº de empregados no 15 a 31 a 51 a 100 101 a 251 a 501 a 1.000 1.001 a 2.501 a Acima de 5.000 para cada grupo de 500",
+    "heading": "Página 64 (tabelas) · **Quadro II - Dimensionamento da CIPAMIN**",
+    "char_offset": 175151,
+    "page": 64,
+    "image_src": "../assets/pages/page-064-table-full.png"
+  },
+  {
+    "id": "img-065-1",
+    "kind": "image_png",
+    "text": "estabelecimento 30 50 250 500 2.500 5.000 acrescentar Nº de representantes titulares do empregador 1 1 1 1 1 1 1 1 - Nº de representantes suplentes do empregador 1 1 1 1 1 1 1 1 - Nº de representantes titulares dos empregados 1 2 3 4 5 6 9 12 4 Nº de representantes suplentes dos empregados 1 1 1 1 2 2 3 4 2\n\nN* n 8 7 9 8 10 9 11-12 10 13-14 11 15-17 12 18-20 13 21-24 14 25-29 15 30-37 16 38-49 17 50 18 ACIMA DE 50 22",
+    "heading": "Página 65 (tabelas) · **SUMÁRIO**",
+    "char_offset": 175860,
+    "page": 65,
+    "image_src": "../assets/pages/page-065-table-full.png"
   }
 ]

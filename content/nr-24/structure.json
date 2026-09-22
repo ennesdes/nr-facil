@@ -1247,42 +1247,49 @@
         {
           "type": "paragraph",
           "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM “SHOPPING CENTER”**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** Para efeito deste Anexo, considera-se “Shopping Center” o espaço planejado sob uma administração central sujeito a normas contratuais padronizadas, procurando assegurar convivência integrada, composto por estabelecimentos tais como: lojas de qualquer natureza e quiosques, lanchonetes, restaurantes, salas de cinema e estacionamento, destinados à exploração comercial e à prestação de serviços."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** A administração central é responsável pela disponibilização das instalações sanitárias, vestiários e ambientes para refeições aos seus trabalhadores e aos trabalhadores dos estabelecimentos que não disponham de espaço construtivo para atender os dispositivos desta NR em seus estabelecimentos."
         }
       ]
     },
     {
+      "id": "1-para-efeito-deste-anexo-considera-se-shopping-center-o-espaço-planejado-sob-uma-administração-central-sujeito-a-normas-contratuais-padronizadas-procurando-assegurar-convivência-integrada-composto-por-estabelecimentos-tais-como-lojas-de-qualquer-natureza-e-quiosques-lanchonetes-restaurantes-salas-de-cinema-e-estacionamento-destinados-à-exploração-comercial-e-à-prestação-de-serviços",
+      "number": "1",
+      "title": "Para efeito deste Anexo, considera-se “Shopping Center” o espaço planejado sob uma administração central sujeito a normas contratuais padronizadas, procurando assegurar convivência integrada, composto por estabelecimentos tais como: lojas de qualquer natureza e quiosques, lanchonetes, restaurantes, salas de cinema e estacionamento, destinados à exploração comercial e à prestação de serviços.",
+      "blocks": []
+    },
+    {
+      "id": "2-a-administração-central-é-responsável-pela-disponibilização-das-instalações-sanitárias-vestiários-e-ambientes-para-refeições-aos-seus-trabalhadores-e-aos-trabalhadores-dos-estabelecimentos-que-não-disponham-de-espaço-construtivo-para-atender-os-dispositivos-desta-nr-em-seus-estabelecimentos",
+      "number": "2",
+      "title": "A administração central é responsável pela disponibilização das instalações sanitárias, vestiários e ambientes para refeições aos seus trabalhadores e aos trabalhadores dos estabelecimentos que não disponham de espaço construtivo para atender os dispositivos desta NR em seus estabelecimentos.",
+      "blocks": []
+    },
+    {
       "id": "21-a-administração-central-disponibilizará-local-para-conservação-aquecimento-da-alimentação-trazida-pelos-trabalhadores-bem-como-para-tomada-das-refeições",
       "number": "2.1",
-      "title": "A administração central disponibilizará local para conservação, aquecimento da alimentação trazida pelos trabalhadores, bem como para tomada das refeições",
+      "title": "A administração central disponibilizará local para conservação, aquecimento da alimentação trazida pelos trabalhadores, bem como para tomada das refeições.",
       "blocks": []
     },
     {
       "id": "22-a-administração-central-disponibilizará-vestiário-para-troca-de-roupa-dos-trabalhadores-usuários-dos-quais-são-exigidos-o-uso-de-uniforme-e-vestimentas-de-trabalho-bem-como-para-guarda-de-seus-pertences",
       "number": "2.2",
-      "title": "A administração central disponibilizará vestiário para troca de roupa dos trabalhadores usuários, dos quais são exigidos o uso de uniforme e vestimentas de trabalho, bem como para guarda de seus pertences",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**3.** Os estabelecimentos referidos no item 1 ficam dispensados dos itens relativos a instalações sanitárias, vestiários e locais para refeições, desde que os trabalhadores possam utilizar as instalações sanitárias e a praça de alimentação do “Shopping Center” ou outro espaço destinado a estes fins, conforme o estabelecido nesta norma."
-        },
-        {
-          "type": "paragraph",
-          "text": "**4.** Aos trabalhadores de lanchonetes, restaurantes ou similares deverão ser disponibilizados vestiários e instalações sanitárias com chuveiros na proporção de um conjunto para cada grupo de 20 (vinte) trabalhadores ou fração, obedecendo ao horário do turno de maior contingente."
-        }
-      ]
+      "title": "A administração central disponibilizará vestiário para troca de roupa dos trabalhadores usuários, dos quais são exigidos o uso de uniforme e vestimentas de trabalho, bem como para guarda de seus pertences.",
+      "blocks": []
+    },
+    {
+      "id": "3-os-estabelecimentos-referidos-no-item-1-ficam-dispensados-dos-itens-relativos-a-instalações-sanitárias-vestiários-e-locais-para-refeições-desde-que-os-trabalhadores-possam-utilizar-as-instalações-sanitárias-e-a-praça-de-alimentação-do-shopping-center-ou-outro-espaço-destinado-a-estes-fins-conforme-o-estabelecido-nesta-norma",
+      "number": "3",
+      "title": "Os estabelecimentos referidos no item 1 ficam dispensados dos itens relativos a instalações sanitárias, vestiários e locais para refeições, desde que os trabalhadores possam utilizar as instalações sanitárias e a praça de alimentação do “Shopping Center” ou outro espaço destinado a estes fins, conforme o estabelecido nesta norma.",
+      "blocks": []
+    },
+    {
+      "id": "4-aos-trabalhadores-de-lanchonetes-restaurantes-ou-similares-deverão-ser-disponibilizados-vestiários-e-instalações-sanitárias-com-chuveiros-na-proporção-de-um-conjunto-para-cada-grupo-de-20-vinte-trabalhadores-ou-fração-obedecendo-ao-horário-do-turno-de-maior-contingente",
+      "number": "4",
+      "title": "Aos trabalhadores de lanchonetes, restaurantes ou similares deverão ser disponibilizados vestiários e instalações sanitárias com chuveiros na proporção de um conjunto para cada grupo de 20 (vinte) trabalhadores ou fração, obedecendo ao horário do turno de maior contingente.",
+      "blocks": []
     },
     {
       "id": "41-aos-trabalhadores-de-atividades-com-exposição-a-material-infectante-substâncias-tóxicas-irritantes-ou-que-provoquem-sujidade-deverão-ser-disponibilizados-vestiários-e-instalações-sanitárias-com-chuveiros-na-proporção-de-um-conjunto-para-cada-grupo-de-10-dez-trabalhadores-ou-fração-obedecendo-ao-horário-do-turno-de-maior-contingente",
       "number": "4.1",
-      "title": "Aos trabalhadores de atividades com exposição a material infectante, substâncias tóxicas, irritantes ou que provoquem sujidade deverão ser disponibilizados vestiários e instalações sanitárias com chuveiros na proporção de um conjunto para cada grupo de 10 (dez) trabalhadores ou fração, obedecendo ao horário do turno de maior contingente",
+      "title": "Aos trabalhadores de atividades com exposição a material infectante, substâncias tóxicas, irritantes ou que provoquem sujidade deverão ser disponibilizados vestiários e instalações sanitárias com chuveiros na proporção de um conjunto para cada grupo de 10 (dez) trabalhadores ou fração, obedecendo ao horário do turno de maior contingente.",
       "blocks": []
     },
     {
@@ -1293,17 +1300,19 @@
         {
           "type": "paragraph",
           "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRABALHO EXTERNO DE PRESTAÇÃO DE SERVIÇOS** **1.** Para efeito deste Anexo, considera-se trabalho externo todo aquele realizado fora do estabelecimento do empregador cuja execução se dará no estabelecimento do cliente ou em logradouro público. Excetua-se deste anexo as atividades relacionadas à construção, leituristas, vendedores, entregadores, carteiros e similares, bem como o de atividade regulamentada pelo Anexo III desta norma."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** Nas atividades desenvolvidas em estabelecimento do cliente, este será o responsável pelas garantias de conforto para satisfação das necessidades básicas de higiene e alimentação, conforme item 24.1 desta norma."
         }
       ]
     },
     {
+      "id": "2-nas-atividades-desenvolvidas-em-estabelecimento-do-cliente-este-será-o-responsável-pelas-garantias-de-conforto-para-satisfação-das-necessidades-básicas-de-higiene-e-alimentação-conforme-item-241-desta-norma",
+      "number": "2",
+      "title": "Nas atividades desenvolvidas em estabelecimento do cliente, este será o responsável pelas garantias de conforto para satisfação das necessidades básicas de higiene e alimentação, conforme item 24.1 desta norma.",
+      "blocks": []
+    },
+    {
       "id": "21-sempre-que-o-trabalho-externo-móvel-ou-temporário-ocorrer-preponderantemente-em-logradouro-público-em-frente-de-trabalho-deverá-ser-garantido-pelo-empregador",
       "number": "2.1",
-      "title": "Sempre que o trabalho externo, móvel ou temporário, ocorrer preponderantemente em logradouro público, em frente de trabalho, deverá ser garantido pelo empregador:",
+      "title": "Sempre que o trabalho externo, móvel ou temporário, ocorrer preponderantemente em logradouro público, em frente de trabalho, deverá ser garantido pelo empregador",
       "blocks": [
         {
           "type": "list",
@@ -1331,20 +1340,26 @@
               "text": "água fresca e potável acondicionada em recipientes térmicos em bom estado de conservação e em quantidade suficiente."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**3.** O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador."
-        },
-        {
-          "type": "paragraph",
-          "text": "**4.** Aos trabalhadores, em trabalho externo que levem suas próprias refeições, devem ser oferecidos dispositivos térmicos para conservação e aquecimento dos alimentos."
-        },
-        {
-          "type": "paragraph",
-          "text": "**5.** Em trabalhos externos o atendimento a este Anexo poderá ocorrer mediante convênio com estabelecimentos nas proximidades do local do trabalho, garantido o transporte de todos os trabalhadores até o referido local."
         }
       ]
+    },
+    {
+      "id": "3-o-uso-de-instalações-sanitárias-em-trabalhos-externos-deve-ser-gratuito-para-o-trabalhador",
+      "number": "3",
+      "title": "O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador.",
+      "blocks": []
+    },
+    {
+      "id": "4-aos-trabalhadores-em-trabalho-externo-que-levem-suas-próprias-refeições-devem-ser-oferecidos-dispositivos-térmicos-para-conservação-e-aquecimento-dos-alimentos",
+      "number": "4",
+      "title": "Aos trabalhadores, em trabalho externo que levem suas próprias refeições, devem ser oferecidos dispositivos térmicos para conservação e aquecimento dos alimentos.",
+      "blocks": []
+    },
+    {
+      "id": "5-em-trabalhos-externos-o-atendimento-a-este-anexo-poderá-ocorrer-mediante-convênio-com-estabelecimentos-nas-proximidades-do-local-do-trabalho-garantido-o-transporte-de-todos-os-trabalhadores-até-o-referido-local",
+      "number": "5",
+      "title": "Em trabalhos externos o atendimento a este Anexo poderá ocorrer mediante convênio com estabelecimentos nas proximidades do local do trabalho, garantido o transporte de todos os trabalhadores até o referido local.",
+      "blocks": []
     },
     {
       "id": "anexo-iii-da-nr-24",
@@ -1354,42 +1369,49 @@
         {
           "type": "paragraph",
           "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRANSPORTE PÚBLICO RODOVIÁRIO COLETIVO URBANO DE PASSAGEIROS EM ATIVIDADE EXTERNA**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** Para efeito deste Anexo, considera-se trabalho em transporte público coletivo rodoviário urbano de passageiros aquele desempenhado pelo pessoal de operação do transporte coletivo urbano e de caráter urbano por ônibus: os motoristas, cobradores e fiscais de campo - assim identificados como trabalhadores."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** Este Anexo estabelece as condições mínimas aplicáveis às instalações sanitárias e locais para refeição a serem disponibilizados pelo empregador ao pessoal que realiza trabalho externo na operação do transporte público coletivo urbano e de caráter urbano."
-        },
-        {
-          "type": "paragraph",
-          "text": "**3.** Para efeito deste Anexo, são considerados pontos iniciais e finais de linhas de ônibus urbano e de caráter urbano os locais pré-determinados pelo poder público competente como pontos extremos das linhas, itinerários ou rotas de ônibus, situados em logradouros públicos, com área destinada ao estacionamento de veículos e instalações mínimas para controle operacional do serviço e acomodação do pessoal de operação nos intervalos entre viagens."
         }
       ]
     },
     {
+      "id": "1-para-efeito-deste-anexo-considera-se-trabalho-em-transporte-público-coletivo-rodoviário-urbano-de-passageiros-aquele-desempenhado-pelo-pessoal-de-operação-do-transporte-coletivo-urbano-e-de-caráter-urbano-por-ônibus-os-motoristas-cobradores-e-fiscais-de-campo---assim-identificados-como-trabalhadores",
+      "number": "1",
+      "title": "Para efeito deste Anexo, considera-se trabalho em transporte público coletivo rodoviário urbano de passageiros aquele desempenhado pelo pessoal de operação do transporte coletivo urbano e de caráter urbano por ônibus: os motoristas, cobradores e fiscais de campo - assim identificados como trabalhadores.",
+      "blocks": []
+    },
+    {
+      "id": "2-este-anexo-estabelece-as-condições-mínimas-aplicáveis-às-instalações-sanitárias-e-locais-para-refeição-a-serem-disponibilizados-pelo-empregador-ao-pessoal-que-realiza-trabalho-externo-na-operação-do-transporte-público-coletivo-urbano-e-de-caráter-urbano",
+      "number": "2",
+      "title": "Este Anexo estabelece as condições mínimas aplicáveis às instalações sanitárias e locais para refeição a serem disponibilizados pelo empregador ao pessoal que realiza trabalho externo na operação do transporte público coletivo urbano e de caráter urbano.",
+      "blocks": []
+    },
+    {
+      "id": "3-para-efeito-deste-anexo-são-considerados-pontos-iniciais-e-finais-de-linhas-de-ônibus-urbano-e-de-caráter-urbano-os-locais-pré-determinados-pelo-poder-público-competente-como-pontos-extremos-das-linhas-itinerários-ou-rotas-de-ônibus-situados-em-logradouros-públicos-com-área-destinada-ao-estacionamento-de-veículos-e-instalações-mínimas-para-controle-operacional-do-serviço-e-acomodação-do-pessoal-de-operação-nos-intervalos-entre-viagens",
+      "number": "3",
+      "title": "Para efeito deste Anexo, são considerados pontos iniciais e finais de linhas de ônibus urbano e de caráter urbano os locais pré-determinados pelo poder público competente como pontos extremos das linhas, itinerários ou rotas de ônibus, situados em logradouros públicos, com área destinada ao estacionamento de veículos e instalações mínimas para controle operacional do serviço e acomodação do pessoal de operação nos intervalos entre viagens.",
+      "blocks": []
+    },
+    {
       "id": "31-em-caso-de-terminais-e-estações-de-passageiros-implantados-pelo-poder-público-presumemse-cumpridos-os-dispositivos-desta-norma",
       "number": "3.1",
-      "title": "Em caso de terminais e estações de passageiros implantados pelo poder público, presumemse cumpridos os dispositivos desta norma",
+      "title": "Em caso de terminais e estações de passageiros implantados pelo poder público, presumemse cumpridos os dispositivos desta norma.",
       "blocks": []
     },
     {
       "id": "32-recomenda-se-aos-órgãos-gestores-públicos-responsáveis-pelas-redes-de-transporte-público-coletivo-urbano-e-de-caráter-urbano-que-considerem-as-disposições-deste-anexo-no-processo-de-definição-dos-locais-para-instalação-dos-pontos-iniciais-e-finais-das-linhas-que-compõem-as-referidas-redes",
       "number": "3.2",
-      "title": "Recomenda-se aos órgãos gestores públicos responsáveis pelas redes de transporte público coletivo urbano e de caráter urbano que considerem as disposições deste Anexo no processo de definição dos locais para instalação dos pontos iniciais e finais das linhas que compõem as referidas redes",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**4.** Condições de Satisfação de Necessidades Fisiológicas, Alimentação e Hidratação."
-        }
-      ]
+      "title": "Recomenda-se aos órgãos gestores públicos responsáveis pelas redes de transporte público coletivo urbano e de caráter urbano que considerem as disposições deste Anexo no processo de definição dos locais para instalação dos pontos iniciais e finais das linhas que compõem as referidas redes.",
+      "blocks": []
+    },
+    {
+      "id": "4-condições-de-satisfação-de-necessidades-fisiológicas-alimentação-e-hidratação",
+      "number": "4",
+      "title": "Condições de Satisfação de Necessidades Fisiológicas, Alimentação e Hidratação.",
+      "blocks": []
     },
     {
       "id": "41-nos-casos-de-linhas-de-transporte-público-coletivo-de-passageiros-por-ônibus-que-não-possuem-nenhum-dos-pontos-iniciais-e-finais-em-edifício-terminal-deverão-ser-garantidos-pelo-empregador-próximo-a-pelo-menos-um-dos-referidos-pontos-instalações-sanitárias-local-para-refeição-e-hidratação-em-distância-não-superior-a-250-m-duzentos-e-cinquenta-metros-de-deslocamento-a-pé",
       "number": "4.1",
-      "title": "Nos casos de linhas de transporte público coletivo de passageiros por ônibus que não possuem nenhum dos pontos iniciais e finais em edifício terminal, deverão ser garantidos pelo empregador, próximo a pelo menos um dos referidos pontos, instalações sanitárias, local para refeição e hidratação, em distância não superior a 250 m (duzentos e cinquenta metros) de deslocamento a pé",
+      "title": "Nos casos de linhas de transporte público coletivo de passageiros por ônibus que não possuem nenhum dos pontos iniciais e finais em edifício terminal, deverão ser garantidos pelo empregador, próximo a pelo menos um dos referidos pontos, instalações sanitárias, local para refeição e hidratação, em distância não superior a 250 m (duzentos e cinquenta metros) de deslocamento a pé.",
       "blocks": [
         {
           "type": "item",
@@ -1408,13 +1430,13 @@
     {
       "id": "42-os-locais-para-refeição-deverão-ser-protegidos-contra-intempéries-estar-em-boas-condições-e-atender-a-todos-os-trabalhadores",
       "number": "4.2",
-      "title": "Os locais para refeição deverão ser protegidos contra intempéries, estar em boas condições e atender a todos os trabalhadores",
+      "title": "Os locais para refeição deverão ser protegidos contra intempéries, estar em boas condições e atender a todos os trabalhadores.",
       "blocks": []
     },
     {
       "id": "43-água-potável-deve-ser-disponibilizada-nos-pontos-inicial-ou-final-e-nos-terminais-por-bebedouro-ou-equipamento-similar-que-permita-o-enchimento-de-recipientes-individuais-ou-o-consumo-no-local-proibido-o-uso-de-copos-coletivos",
       "number": "4.3",
-      "title": "Água potável deve ser disponibilizada nos pontos inicial ou final e nos terminais por bebedouro ou equipamento similar que permita o enchimento de recipientes individuais ou o consumo no local, proibido o uso de copos coletivos",
+      "title": "Água potável deve ser disponibilizada nos pontos inicial ou final e nos terminais por bebedouro ou equipamento similar que permita o enchimento de recipientes individuais ou o consumo no local, proibido o uso de copos coletivos.",
       "blocks": [
         {
           "type": "item",
@@ -1427,19 +1449,19 @@
     {
       "id": "44-para-efeito-de-dimensionamento-das-instalações-sanitárias-e-do-local-para-refeição-deverá-ser-considerado-o-número-máximo-existente-de-trabalhadores-presentes-ao-mesmo-tempo-no-referido-ponto-inicial-ou-final-de-acordo-com-a-programação-horária-oficial-das-linhas-de-ônibus",
       "number": "4.4",
-      "title": "Para efeito de dimensionamento das instalações sanitárias e do local para refeição, deverá ser considerado o número máximo existente de trabalhadores presentes ao mesmo tempo, no referido ponto inicial ou final, de acordo com a programação horária oficial das linhas de ônibus",
+      "title": "Para efeito de dimensionamento das instalações sanitárias e do local para refeição, deverá ser considerado o número máximo existente de trabalhadores presentes ao mesmo tempo, no referido ponto inicial ou final, de acordo com a programação horária oficial das linhas de ônibus.",
       "blocks": []
     },
     {
       "id": "45-o-atendimento-ao-disposto-nos-itens-41-42-e-43-poderá-ocorrer-mediante-convênio-ou-parceria-com-estabelecimentos-comerciais-industriais-ou-propriedades-privadas",
       "number": "4.5",
-      "title": "O atendimento ao disposto nos itens 4.1, 4.2 e 4.3 poderá ocorrer mediante convênio ou parceria com estabelecimentos comerciais, industriais ou propriedades privadas",
+      "title": "O atendimento ao disposto nos itens 4.1, 4.2 e 4.3 poderá ocorrer mediante convênio ou parceria com estabelecimentos comerciais, industriais ou propriedades privadas.",
       "blocks": []
     },
     {
       "id": "46-o-uso-de-instalações-sanitárias-em-trabalhos-externos-de-transporte-público-coletivo-urbano-rodoviário-não-deve-ter-custo-para-o-trabalhador",
       "number": "4.6",
-      "title": "O uso de instalações sanitárias em trabalhos externos de transporte público coletivo urbano rodoviário não deve ter custo para o trabalhador",
+      "title": "O uso de instalações sanitárias em trabalhos externos de transporte público coletivo urbano rodoviário não deve ter custo para o trabalhador.",
       "blocks": []
     }
   ]

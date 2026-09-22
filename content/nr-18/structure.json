@@ -6835,7 +6835,7 @@
     {
       "id": "12-no-caso-das-gruas-e-guindastes-além-do-treinamento-teórico-e-prático-o-operador-deve-passar-por-um-estágio-supervisionado-de-pelo-menos-90-noventa-dias",
       "number": "1.2",
-      "title": "No caso das gruas e guindastes, além do treinamento teórico e prático, o operador deve passar por um estágio supervisionado de pelo menos 90 (noventa) dias",
+      "title": "No caso das gruas e guindastes, além do treinamento teórico e prático, o operador deve passar por um estágio supervisionado de pelo menos 90 (noventa) dias.",
       "blocks": [
         {
           "type": "item",
@@ -6991,8 +6991,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 49",
-          "src": "../assets/pages/page-049-table-00.png"
+          "alt": "Página 49 (tabelas)",
+          "src": "../assets/pages/page-049-table-full.png"
         },
         {
           "type": "list",
@@ -7107,54 +7107,74 @@
     {
       "id": "22-o-conteúdo-dos-treinamentos-periódico-e-eventual-será-definido-pelo-empregador-e-deve-contemplar-os-princípios-básicos-de-segurança-compatíveis-com-o-equipamento-e-a-atividade-a-ser-desenvolvida-no-local-de-trabalho",
       "number": "2.2",
-      "title": "O conteúdo dos treinamentos periódico e eventual será definido pelo empregador e deve contemplar os princípios básicos de segurança compatíveis com o equipamento e a atividade a ser desenvolvida no local de trabalho",
+      "title": "O conteúdo dos treinamentos periódico e eventual será definido pelo empregador e deve contemplar os princípios básicos de segurança compatíveis com o equipamento e a atividade a ser desenvolvida no local de trabalho.",
       "blocks": []
     },
     {
       "id": "anexo-ii---cabos-de-aço-e-de-fibra-sintética",
       "number": "ANEXO II",
       "title": "CABOS DE AÇO E DE FIBRA SINTÉTICA",
+      "blocks": []
+    },
+    {
+      "id": "1-é-obrigatória-a-observância-das-condições-de-utilização-dimensionamento-e-conservação-dos-cabos-de-aço-utilizados-em-obras-de-construção-conforme-o-disposto-nas-normas-técnicas-nacionais-vigentes",
+      "number": "1",
+      "title": "É obrigatória a observância das condições de utilização, dimensionamento e conservação dos cabos de aço utilizados em obras de construção, conforme o disposto nas normas técnicas nacionais vigentes.",
+      "blocks": []
+    },
+    {
+      "id": "2-os-cabos-de-aço-de-tração-não-podem-ter-emendas-nem-pernas-quebradas-que-possam-vir-a-comprometer-sua-segurança",
+      "number": "2",
+      "title": "Os cabos de aço de tração não podem ter emendas nem pernas quebradas, que possam vir a comprometer sua segurança.",
+      "blocks": []
+    },
+    {
+      "id": "3-os-cabos-de-aço-devem-ter-carga-de-ruptura-equivalente-a-no-mínimo-5-cinco-vezes-a-carga-máxima-de-trabalho-a-que-estiverem-sujeitos-e-resistência-à-tração-de-seus-fios-de-no-mínimo-160-kgfmm2-cento-e-sessenta-quilogramas-força-por-milímetro-quadrado",
+      "number": "3",
+      "title": "Os cabos de aço devem ter carga de ruptura equivalente a, no mínimo, 5 (cinco) vezes a carga máxima de trabalho a que estiverem sujeitos e resistência à tração de seus fios de, no mínimo, 160 kgf/mm2 (cento e sessenta quilogramas-força por milímetro quadrado).",
+      "blocks": []
+    },
+    {
+      "id": "4-os-cabos-de-aço-devem-atender-aos-requisitos-mínimos-contidos-nas-normas-técnicas-nacionais-vigentes-e-permitir-a-sua-rastreabilidade",
+      "number": "4",
+      "title": "Os cabos de aço devem atender aos requisitos mínimos contidos nas normas técnicas nacionais vigentes e permitir a sua rastreabilidade.",
+      "blocks": []
+    },
+    {
+      "id": "5-o-cabo-de-aço-e-o-de-fibra-sintética-devem-ser-fixados-por-meio-de-dispositivos-que-impeçam-seu-deslizamento-e-desgaste-6-o-cabo-de-fibra-sintética-ou-o-de-aço-utilizado-no-spiq-e-aquele-utilizado-para-sustentação-da-cadeira-suspensa-devem-ser-exclusivos-para-cada-tipo-de-aplicação",
+      "number": "5",
+      "title": "O cabo de aço e o de fibra sintética devem ser fixados por meio de dispositivos que impeçam seu deslizamento e desgaste. 6. O cabo de fibra sintética ou o de aço utilizado no SPIQ e aquele utilizado para sustentação da cadeira suspensa devem ser exclusivos para cada tipo de aplicação.",
+      "blocks": []
+    },
+    {
+      "id": "7-o-cabo-de-aço-e-o-de-fibra-sintética-devem-ser-substituídos-quando-apresentarem-condições-que-comprometam-a-sua-integridade-em-face-da-utilização-a-que-estiverem-submetidos",
+      "number": "7",
+      "title": "O cabo de aço e o de fibra sintética devem ser substituídos quando apresentarem condições que comprometam a sua integridade em face da utilização a que estiverem submetidos.",
+      "blocks": []
+    },
+    {
+      "id": "8-o-cabo-de-fibra-sintética-utilizado-no-spiq-como-linha-de-vida-vertical-deve-ser-compatível-com-o-trava-queda-a-ser-utilizado",
+      "number": "8",
+      "title": "O cabo de fibra sintética utilizado no SPIQ como linha de vida vertical deve ser compatível com o trava-queda a ser utilizado.",
+      "blocks": []
+    },
+    {
+      "id": "9-o-cabo-de-fibra-sintética-deve-ser-submetido-aos-ensaios-realizados-pelo-fabricante-conforme-as-normas-técnicas-nacionais-vigentes",
+      "number": "9",
+      "title": "O cabo de fibra sintética deve ser submetido aos ensaios, realizados pelo fabricante, conforme as normas técnicas nacionais vigentes.",
+      "blocks": []
+    },
+    {
+      "id": "10-no-manual-do-fabricante-devem-constar-recomendações-para-inspeção-uso-alongamento-manutenção-e-armazenamento-dos-cabos-de-fibra-sintética",
+      "number": "10",
+      "title": "No manual do fabricante devem constar recomendações para inspeção, uso, alongamento, manutenção e armazenamento dos cabos de fibra sintética.",
+      "blocks": []
+    },
+    {
+      "id": "11-o-cabo-de-fibra-sintética-deve-possuir-no-mínimo-22-kn-vinte-e-dois-quilonewtons-de-carga-de-ruptura-sem-os-terminais-podendo-ser-de-3-três-capas-ou-capa-e-alma-sendo-proibida-a-utilização-de-polipropileno-para-sua-fabricação-glossário",
+      "number": "11",
+      "title": "O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação. GLOSSÁRIO",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**1.** É obrigatória a observância das condições de utilização, dimensionamento e conservação dos cabos de aço utilizados em obras de construção, conforme o disposto nas normas técnicas nacionais vigentes."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** Os cabos de aço de tração não podem ter emendas nem pernas quebradas, que possam vir a comprometer sua segurança."
-        },
-        {
-          "type": "paragraph",
-          "text": "**3.** Os cabos de aço devem ter carga de ruptura equivalente a, no mínimo, 5 (cinco) vezes a carga máxima de trabalho a que estiverem sujeitos e resistência à tração de seus fios de, no mínimo, 160 kgf/mm<sup>2</sup> (cento e sessenta quilogramas-força por milímetro quadrado)."
-        },
-        {
-          "type": "paragraph",
-          "text": "**4.** Os cabos de aço devem atender aos requisitos mínimos contidos nas normas técnicas nacionais vigentes e permitir a sua rastreabilidade."
-        },
-        {
-          "type": "paragraph",
-          "text": "**5.** O cabo de aço e o de fibra sintética devem ser fixados por meio de dispositivos que impeçam seu deslizamento e desgaste. **6.** O cabo de fibra sintética ou o de aço utilizado no SPIQ e aquele utilizado para sustentação da cadeira suspensa devem ser exclusivos para cada tipo de aplicação."
-        },
-        {
-          "type": "paragraph",
-          "text": "**7.** O cabo de aço e o de fibra sintética devem ser substituídos quando apresentarem condições que comprometam a sua integridade em face da utilização a que estiverem submetidos."
-        },
-        {
-          "type": "paragraph",
-          "text": "**8.** O cabo de fibra sintética utilizado no SPIQ como linha de vida vertical deve ser compatível com o trava-queda a ser utilizado."
-        },
-        {
-          "type": "paragraph",
-          "text": "**9.** O cabo de fibra sintética deve ser submetido aos ensaios, realizados pelo fabricante, conforme as normas técnicas nacionais vigentes."
-        },
-        {
-          "type": "paragraph",
-          "text": "**10.** No manual do fabricante devem constar recomendações para inspeção, uso, alongamento, manutenção e armazenamento dos cabos de fibra sintética."
-        },
-        {
-          "type": "paragraph",
-          "text": "**11.** O cabo de fibra sintética deve possuir no mínimo 22 kN (vinte e dois quilonewtons) de carga de ruptura sem os terminais, podendo ser de 3 (três) capas ou capa e alma, sendo proibida a utilização de polipropileno para sua fabricação. GLOSSÁRIO"
-        },
         {
           "type": "paragraph",
           "text": "Ancoragem: ponto ou elemento de fixação instalado na edificação ou outra estrutura para a sustentação de equipamento de trabalho ou EPI."

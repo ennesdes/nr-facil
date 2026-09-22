@@ -1270,7 +1270,7 @@
     {
       "id": "3014-segurança-na-manutenção-em-embarcação-em-operação",
       "number": "30.14",
-      "title": "Segurança na Manutenção em Embarcação em Operação**",
+      "title": "Segurança na Manutenção em Embarcação em Operação",
       "blocks": [
         {
           "type": "item",
@@ -2413,8 +2413,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 19",
-          "src": "../assets/pages/page-019-table-00.png"
+          "alt": "Página 19 (tabelas)",
+          "src": "../assets/pages/page-019-table-full.png"
         },
         {
           "type": "list",
@@ -2609,16 +2609,12 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 21",
-          "src": "../assets/pages/page-021-table-00.png"
+          "alt": "Página 21 (tabelas)",
+          "src": "../assets/pages/page-021-table-full.png"
         },
         {
-          "type": "table",
-          "markdown": "| Regra da Convenç | Categoria do | Visão para | Visão para perto | Visão de | Campo s | Cegueira noturna4 | Diplopia (visão |\n| --- | --- | --- | --- | --- | --- | --- | --- |"
-        },
-        {
-          "type": "table",
-          "markdown": "| ão STCW | Aquaviário | longe com correção¹ | | | Core s3 | Visuais4 | | dupla)4 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| | | Um olh o | Outr o olho | Os dois olhos juntos, com ou sem correção | | | | |\n| I/11 II/1 II/2 II/3 II/4 II/5 VII/2 | Comandant e, oficiais do departamen to de convés e subalternos de convés dos quais é exigido que desempenh em atribuições de vigilância | 0,5 ² | 0,5 | Visão exigida para a navegação do navio (ex.: consulta a cartas e publicaçõe s náuticas, utilização dos instrument os e equipamen tos do passadiço e identificaç ão dos auxílios à navegação ) | Ver Nota 6 | Campos visuais normai s | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |\n| 1/11 III/1 III/2 III/3 III/4 III/5 III/6 III/7 VII/2 | Todos os oficiais de máquinas, oficiais eletrotécnic os, subalternos eletrotécnic os e subalternos | 0,4 5 | 0,4 (Ver Not a 5) | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome | Nenhum problem a significat ivo evidente | Notas: |"
+          "type": "paragraph",
+          "text": "![Página 22 (tabelas)](../assets/pages/page-022-table-full.png) Notas:"
         },
         {
           "type": "paragraph",
@@ -2653,12 +2649,9 @@
           "text": "**DIRETRIZES SOBRE A AVALIAÇÃO DO NÍVEL MÍNIMO DA CAPACIDADE FÍSICA NECESSÁRIA PARA ADMISSÃO E PARA A PERMANÊNCIA EM SERVIÇO:**"
         },
         {
-          "type": "table",
-          "markdown": "| | ou outros que façam parte de um quarto de serviço na máquina | | | sistemas/ componen tes como for necessário | | | ter o seu desempen ho | |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| I/11 IV/2 | Radioperad ores de GMDSS | 0,4 | 0,4 | Visão exigida para ler instrument os próximos, para operar equipamen tos e para identificar sistemas/ componen tes como for necessário | Ver Nota 7 | Campos visuais suficien tes | Visão exigida para desempen har todas as funções necessária s no escuro, sem comprome ter o seu desempen ho | Nenhum problem a significat ivo evidente |"
-        },
-        {
-          "type": "table",
-          "markdown": "| TAREFA, FUNÇÃO, EVENTO OU SITUAÇÃO A BORDO3 | CAPACIDADE FÍSICA RELACIONADA | UM EXAMINADOR MÉDICO deve estar convencido de que o candidato4,5 |\n| --- | --- | --- |\n| Movimentos de rotina em superfícies escorregadias, desniveladas e | Manter o equilíbrio | não tem perturbação do senso de equilíbrio. |"
+          "type": "image",
+          "alt": "Página 23 (tabelas)",
+          "src": "../assets/pages/page-023-table-full.png"
         },
         {
           "type": "table",
@@ -2754,8 +2747,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 27",
-          "src": "../assets/pages/page-027-table-00.png"
+          "alt": "Página 27 (tabelas)",
+          "src": "../assets/pages/page-027-table-full.png"
         },
         {
           "type": "paragraph",

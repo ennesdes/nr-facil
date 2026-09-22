@@ -1,10 +1,18 @@
 {
-  "title": "NR 19 - EXPLOSIVOS",
+  "title": "",
   "preamble": {
     "blocks": [
       {
         "type": "paragraph",
-        "text": "**NR 19 - EXPLOSIVOS** **Publicação** **D.O.U.** [Portaria MTb n.º 3.214, de 08 de junho de 1978](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1978/portaria_3-214_aprova_as_nrs.pdf) 06/07/78 **Alterações/Atualizações** **D.O.U.** [Portaria SSMT n.º 02, de 02 de fevereiro de 1979](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/1979/portaria_2_altera_nr_16_e_19.pdf/view) 08/02/79 [Portaria SIT n.º 07, de 30 de março de 2007](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2007/portaria_07_fogos_de_artificio.pdf/view) 02/04/07 [Portaria SIT n.º 228, de 24 de maio de 2011](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2011/portaria_228_altera_a_nr_19.pdf/view) 27/05/11 [Portaria MTP n.º 424, de 07 de outubro de 2021](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2021/portaria-mtp-no-424-altera-nr-19.pdf/view) 08/10/21 [Portaria MTP n.º 4.219, de 20 de dezembro de 2022](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/sst-portarias/2022/portaria-mtp-no-4-219-altera-nrs-cipa.pdf/view) 22/12/22 _(Redação dada pela Portaria MTP n.º 424, de 07 de outubro de 2021)_ **SUMÁRIO** 19.1 Objetivo 19.2 Campo de aplicação 19.3 Disposições Gerais 19.4 Fabricação de explosivos 19.5 Armazenamento de explosivos 19.6 Transporte de explosivos Anexo I - Segurança e Saúde na Indústria e Comércio de Fogos de Artifício e outros Artigos Pirotécnicos Anexo II - Tabelas de Quantidades - Distâncias Anexo III - Grupos de Incompatibilidade para Armazenamento e Transporte Glossário"
+        "text": "# **NR 19 - EXPLOSIVOS** **Publicação D.O.U.** Portaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78"
+      },
+      {
+        "type": "table",
+        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSMT n.º02, de 02 de fevereiro de 1979 | 08/02/79 |\n| Portaria SIT n.º07, de 30 de março de 2007 | 02/04/07 |\n| Portaria SIT n.º228, de 24 de maio de 2011 | 27/05/11 |\n| Portaria MTP n.º424, de 07 de outubro de 2021 | 08/10/21 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria MTP n.º 424, de 07 de outubro de 2021)_ # **SUMÁRIO** 19.1 Objetivo 19.2 Campo de aplicação 19.3 Disposições Gerais 19.4 Fabricação de explosivos 19.5 Armazenamento de explosivos 19.6 Transporte de explosivos Anexo I - Segurança e Saúde na Indústria e Comércio de Fogos de Artifício e outros Artigos Pirotécnicos Anexo II - Tabelas de Quantidades - Distâncias Anexo III - Grupos de Incompatibilidade para Armazenamento e Transporte Glossário # **SUMÁRIO** # **SUMÁRIO**"
       }
     ]
   },
@@ -18,11 +26,7 @@
           "type": "item",
           "number": "19.1.1",
           "depth": 2,
-          "text": "Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de"
-        },
-        {
-          "type": "paragraph",
-          "text": "prevenção para garantir as condições de segurança e saúde dos trabalhadores em todas as etapas da fabricação, manuseio, armazenamento e transporte de explosivos."
+          "text": "Esta Norma Regulamentadora - NR tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores em todas as etapas da fabricação, manuseio, armazenamento e transporte de explosivos."
         }
       ]
     },
@@ -35,11 +39,7 @@
           "type": "item",
           "number": "19.2.1",
           "depth": 2,
-          "text": "Esta norma aplica-se a todas as atividades relacionadas com a fabricação, manuseio,"
-        },
-        {
-          "type": "paragraph",
-          "text": "armazenamento e transporte de explosivos."
+          "text": "Esta norma aplica-se a todas as atividades relacionadas com a fabricação, manuseio, armazenamento e transporte de explosivos."
         }
       ]
     },
@@ -52,25 +52,13 @@
           "type": "item",
           "number": "19.3.1",
           "depth": 2,
-          "text": "Para fins desta Norma, considera-se explosivo material ou substância que, quando iniciada,"
-        },
-        {
-          "type": "paragraph",
-          "text": "sofre decomposição muito rápida em produtos mais estáveis, com grande liberação de calor e desenvolvimento súbito de pressão."
+          "text": "Para fins desta Norma, considera-se explosivo material ou substância que, quando iniciada, sofre decomposição muito rápida em produtos mais estáveis, com grande liberação de calor e desenvolvimento súbito de pressão."
         },
         {
           "type": "item",
           "number": "19.3.2",
           "depth": 2,
-          "text": "As atividades de fabricação, manuseio, armazenamento e transporte de explosivos devem"
-        },
-        {
-          "type": "paragraph",
-          "text": "obedecer ao disposto nesta norma, e no normativo de explosivos da Diretoria de Fiscalização de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Produtos Controlados do Exército Brasileiro."
+          "text": "As atividades de fabricação, manuseio, armazenamento e transporte de explosivos devem obedecer ao disposto nesta norma, e no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro."
         },
         {
           "type": "item",
@@ -82,31 +70,19 @@
           "type": "item",
           "number": "19.3.4",
           "depth": 2,
-          "text": "As organizações devem manter, nas instalações de fabricação, comércio e armazenamento de"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosivos, quantidades máximas de explosivos de acordo com o Anexo II desta Norma."
+          "text": "As organizações devem manter, nas instalações de fabricação, comércio e armazenamento de explosivos, quantidades máximas de explosivos de acordo com o Anexo II desta Norma."
         },
         {
           "type": "item",
           "number": "19.3.4.1",
           "depth": 3,
-          "text": "As distâncias constantes do Anexo II desta norma poderão ser reduzidas à metade no caso de"
-        },
-        {
-          "type": "paragraph",
-          "text": "depósitos barricados."
+          "text": "As distâncias constantes do Anexo II desta norma poderão ser reduzidas à metade no caso de depósitos barricados."
         },
         {
           "type": "item",
           "number": "19.3.5",
           "depth": 2,
-          "text": "O Programa de Gerenciamento de Riscos - PGR das organizações que fabricam, armazenam e"
-        },
-        {
-          "type": "paragraph",
-          "text": "transportam explosivos deve contemplar além do previsto na NR-1, os fatores de riscos de incêndio e explosão e a implementação das respectivas medidas de prevenção."
+          "text": "O Programa de Gerenciamento de Riscos - PGR das organizações que fabricam, armazenam e transportam explosivos deve contemplar além do previsto na NR-1, os fatores de riscos de incêndio e explosão e a implementação das respectivas medidas de prevenção."
         }
       ]
     },
@@ -119,41 +95,25 @@
           "type": "item",
           "number": "19.4.1",
           "depth": 2,
-          "text": "A fabricação de explosivos somente é permitida às organizações portadoras de Certificado de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Conformidade homologado pelo Exército Brasileiro."
+          "text": "A fabricação de explosivos somente é permitida às organizações portadoras de Certificado de Conformidade homologado pelo Exército Brasileiro."
         },
         {
           "type": "item",
           "number": "19.4.2",
           "depth": 2,
-          "text": "As áreas perigosas de fábricas de explosivos, definidas pelo responsável técnico da organização"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou de profissional legalmente habilitado em segurança do trabalho, deverão ter monitoramento eletrônico permanente de acordo com o disposto no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro."
+          "text": "As áreas perigosas de fábricas de explosivos, definidas pelo responsável técnico da organização ou de profissional legalmente habilitado em segurança do trabalho, deverão ter monitoramento eletrônico permanente de acordo com o disposto no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro."
         },
         {
           "type": "item",
           "number": "19.4.3",
           "depth": 2,
-          "text": "O terreno em que se achar instalado o conjunto de edificações das organizações que fabricam"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosivos deve ser provido de cerca adequada e de separação entre os locais de fabricação, armazenagem e administração."
+          "text": "O terreno em que se achar instalado o conjunto de edificações das organizações que fabricam explosivos deve ser provido de cerca adequada e de separação entre os locais de fabricação, armazenagem e administração."
         },
         {
           "type": "item",
           "number": "19.4.3.1",
           "depth": 3,
-          "text": "As atividades em que explosivos sejam depositados em invólucros, tal como"
-        },
-        {
-          "type": "paragraph",
-          "text": "encartuchamento, devem ser efetuadas em locais isolados, não podendo ter em seu interior mais de quatro trabalhadores ao mesmo tempo."
+          "text": "As atividades em que explosivos sejam depositados em invólucros, tal como encartuchamento, devem ser efetuadas em locais isolados, não podendo ter em seu interior mais de quatro trabalhadores ao mesmo tempo."
         },
         {
           "type": "item",
@@ -202,13 +162,9 @@
           "items": [
             {
               "label": "e",
-              "text": "providos de sistemas de combate a incêndios adequados aos fins a que se destinam, de acordo com"
+              "text": "providos de sistemas de combate a incêndios adequados aos fins a que se destinam, de acordo com a legislação estadual e normas técnicas nacionais vigentes; e"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "a legislação estadual e normas técnicas nacionais vigentes; e"
         },
         {
           "type": "list",
@@ -256,11 +212,7 @@
           "type": "item",
           "number": "19.4.6",
           "depth": 2,
-          "text": "Nos locais de manuseio de explosivos, as matérias primas que ofereçam risco de explosão"
-        },
-        {
-          "type": "paragraph",
-          "text": "devem permanecer nas quantidades mínimas possíveis, admitindo-se, no máximo, material para o trabalho de quatro horas."
+          "text": "Nos locais de manuseio de explosivos, as matérias primas que ofereçam risco de explosão devem permanecer nas quantidades mínimas possíveis, admitindo-se, no máximo, material para o trabalho de quatro horas."
         }
       ]
     },
@@ -273,21 +225,13 @@
           "type": "item",
           "number": "19.5.1",
           "depth": 2,
-          "text": "A armazenagem de explosivos deve ser feita em depósitos, permanentes ou temporários,"
-        },
-        {
-          "type": "paragraph",
-          "text": "construídos para esta finalidade."
+          "text": "A armazenagem de explosivos deve ser feita em depósitos, permanentes ou temporários, construídos para esta finalidade."
         },
         {
           "type": "item",
           "number": "19.5.1.1",
           "depth": 3,
-          "text": "No caso de paióis ou depósitos permanentes, as paredes devem ser duplas, em alvenaria ou"
-        },
-        {
-          "type": "paragraph",
-          "text": "concreto, com intervalos vazios entre elas de, no mínimo, 0,50 m (cinquenta centímetros)."
+          "text": "No caso de paióis ou depósitos permanentes, as paredes devem ser duplas, em alvenaria ou concreto, com intervalos vazios entre elas de, no mínimo, 0,50 m (cinquenta centímetros)."
         },
         {
           "type": "item",
@@ -300,13 +244,9 @@
           "items": [
             {
               "label": "a",
-              "text": "ser construídos de materiais incombustíveis e maus condutores de calor, em terreno firme, seco, a"
+              "text": "ser construídos de materiais incombustíveis e maus condutores de calor, em terreno firme, seco, a salvo de inundações;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "salvo de inundações;"
         },
         {
           "type": "list",
@@ -330,35 +270,19 @@
           "type": "item",
           "number": "19.5.3",
           "depth": 2,
-          "text": "Os depósitos de explosivos deverão ter permanente monitoramento eletrônico de acordo com"
-        },
-        {
-          "type": "paragraph",
-          "text": "o disposto no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do"
-        },
-        {
-          "type": "paragraph",
-          "text": "Exército Brasileiro"
+          "text": "Os depósitos de explosivos deverão ter permanente monitoramento eletrônico de acordo com o disposto no normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro"
         },
         {
           "type": "item",
           "number": "19.5.4",
           "depth": 2,
-          "text": "As distâncias mínimas a serem observadas com relação a edifícios habitados, ferrovias,"
-        },
-        {
-          "type": "paragraph",
-          "text": "rodovias e a outros depósitos, para fixação das quantidades de explosivos e acessórios que poderão ser armazenadas num depósito de explosivos, constam das Tabelas de Quantidades-Distâncias (Anexo II)."
+          "text": "As distâncias mínimas a serem observadas com relação a edifícios habitados, ferrovias, rodovias e a outros depósitos, para fixação das quantidades de explosivos e acessórios que poderão ser armazenadas num depósito de explosivos, constam das Tabelas de Quantidades-Distâncias (Anexo II)."
         },
         {
           "type": "item",
           "number": "19.5.5",
           "depth": 2,
-          "text": "O produto número de ordem 3.2.0120 - pólvoras químicas de qualquer tipo, conforme critérios"
-        },
-        {
-          "type": "paragraph",
-          "text": "da Organização das Nações Unidas - ONU e do Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS, deve ser enquadrado como sólido inflamável quando:"
+          "text": "O produto número de ordem 3.2.0120 - pólvoras químicas de qualquer tipo, conforme critérios da Organização das Nações Unidas - ONU e do Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos - GHS, deve ser enquadrado como sólido inflamável quando:"
         },
         {
           "type": "paragraph",
@@ -376,21 +300,13 @@
           "type": "item",
           "number": "19.5.5.1",
           "depth": 3,
-          "text": "Atendidas as condições descritas nos incisos I a III, fica dispensada a aplicação das Tabelas de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Quantidades-Distâncias (Anexo II)."
+          "text": "Atendidas as condições descritas nos incisos I a III, fica dispensada a aplicação das Tabelas de Quantidades-Distâncias (Anexo II)."
         },
         {
           "type": "item",
           "number": "19.5.6",
           "depth": 2,
-          "text": "Na capacidade de armazenamento de depósitos levar-se-á em consideração os seguintes"
-        },
-        {
-          "type": "paragraph",
-          "text": "fatores: I - dimensões das embalagens de explosivos a armazenar;"
+          "text": "Na capacidade de armazenamento de depósitos levar-se-á em consideração os seguintes fatores: I - dimensões das embalagens de explosivos a armazenar;"
         },
         {
           "type": "paragraph",
@@ -408,15 +324,7 @@
           "type": "item",
           "number": "19.5.6.1",
           "depth": 3,
-          "text": "Conhecendo-se a quantidade de explosivos a armazenar, em face das tabelas de"
-        },
-        {
-          "type": "paragraph",
-          "text": "quantidades-distâncias, a área do depósito de explosivos poderá ser determinada pela seguinte"
-        },
-        {
-          "type": "paragraph",
-          "text": "fórmula:"
+          "text": "Conhecendo-se a quantidade de explosivos a armazenar, em face das tabelas de quantidades-distâncias, a área do depósito de explosivos poderá ser determinada pela seguinte fórmula:"
         },
         {
           "type": "paragraph",
@@ -424,31 +332,31 @@
         },
         {
           "type": "paragraph",
-          "text": "A - área interna em metros quadrados; N - número de caixas a serem armazenadas; S - superfície ocupada por uma caixa, em metros quadrados; e E - número de caixas que serão empilhadas verticalmente."
+          "text": "A - área interna em metros quadrados;"
+        },
+        {
+          "type": "paragraph",
+          "text": "N - número de caixas a serem armazenadas;"
+        },
+        {
+          "type": "paragraph",
+          "text": "S - superfície ocupada por uma caixa, em metros quadrados; e"
+        },
+        {
+          "type": "paragraph",
+          "text": "E - número de caixas que serão empilhadas verticalmente."
         },
         {
           "type": "item",
           "number": "19.5.7",
           "depth": 2,
-          "text": "A armazenagem de diferentes tipos de explosivos deve seguir o grupo de incompatibilidade"
-        },
-        {
-          "type": "paragraph",
-          "text": "previsto no Anexo III desta norma."
+          "text": "A armazenagem de diferentes tipos de explosivos deve seguir o grupo de incompatibilidade previsto no Anexo III desta norma."
         },
         {
           "type": "item",
           "number": "19.5.8",
           "depth": 2,
-          "text": "Os acessórios explosivos podem ser armazenados com explosivos no mesmo depósito de"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosivos, desde que estejam isolados e atendam as quantidades máximas previstas nas Tabelas do"
-        },
-        {
-          "type": "paragraph",
-          "text": "Anexo II desta norma."
+          "text": "Os acessórios explosivos podem ser armazenados com explosivos no mesmo depósito de explosivos, desde que estejam isolados e atendam as quantidades máximas previstas nas Tabelas do Anexo II desta norma."
         },
         {
           "type": "item",
@@ -472,31 +380,19 @@
           "type": "item",
           "number": "19.5.10",
           "depth": 2,
-          "text": "Na armazenagem de explosivos em caixas, o empilhamento deve estar afastado das paredes e"
-        },
-        {
-          "type": "paragraph",
-          "text": "do teto e sobre material incombustível."
+          "text": "Na armazenagem de explosivos em caixas, o empilhamento deve estar afastado das paredes e do teto e sobre material incombustível."
         },
         {
           "type": "item",
           "number": "19.5.11",
           "depth": 2,
-          "text": "As instalações elétricas dos depósitos de explosivos devem ser específicas para áreas"
-        },
-        {
-          "type": "paragraph",
-          "text": "classificadas."
+          "text": "As instalações elétricas dos depósitos de explosivos devem ser específicas para áreas classificadas."
         },
         {
           "type": "item",
           "number": "19.5.12",
           "depth": 2,
-          "text": "Explosivos de diferentes organizações podem ser armazenados num mesmo depósito de"
-        },
-        {
-          "type": "paragraph",
-          "text": "explosivo, desde que:"
+          "text": "Explosivos de diferentes organizações podem ser armazenados num mesmo depósito de explosivo, desde que:"
         },
         {
           "type": "paragraph",
@@ -514,11 +410,7 @@
           "type": "item",
           "number": "19.5.13",
           "depth": 2,
-          "text": "Para efeito da aplicação das Tabelas de Quantidades-Distâncias (Anexo II), serão"
-        },
-        {
-          "type": "paragraph",
-          "text": "considerados: I - como construção única, os depósitos de explosivos cujas distâncias entre si sejam inferiores às constantes nas Tabelas de Quantidades-Distâncias (Anexo II); ou"
+          "text": "Para efeito da aplicação das Tabelas de Quantidades-Distâncias (Anexo II), serão considerados: I - como construção única, os depósitos de explosivos cujas distâncias entre si sejam inferiores às constantes nas Tabelas de Quantidades-Distâncias (Anexo II); ou"
         },
         {
           "type": "paragraph",
@@ -528,21 +420,13 @@
           "type": "item",
           "number": "19.5.13.1",
           "depth": 3,
-          "text": "As quantidades de explosivos armazenadas no caso do inciso I serão a soma das"
-        },
-        {
-          "type": "paragraph",
-          "text": "quantidades estocadas em cada um dos depósitos de explosivos."
+          "text": "As quantidades de explosivos armazenadas no caso do inciso I serão a soma das quantidades estocadas em cada um dos depósitos de explosivos."
         },
         {
           "type": "item",
           "number": "19.5.13.2",
           "depth": 3,
-          "text": "Caso os depósitos de explosivos sejam de materiais incompatíveis, a Tabela a ser adotada"
-        },
-        {
-          "type": "paragraph",
-          "text": "deverá ser a mais restritiva."
+          "text": "Caso os depósitos de explosivos sejam de materiais incompatíveis, a Tabela a ser adotada deverá ser a mais restritiva."
         }
       ]
     },
@@ -555,11 +439,7 @@
           "type": "item",
           "number": "19.6.1",
           "depth": 2,
-          "text": "O transporte de explosivos deve atender as prescrições gerais de acordo com o meio de"
-        },
-        {
-          "type": "paragraph",
-          "text": "transporte a ser utilizado:"
+          "text": "O transporte de explosivos deve atender as prescrições gerais de acordo com o meio de transporte a ser utilizado:"
         },
         {
           "type": "paragraph",
@@ -584,39 +464,27 @@
           "items": [
             {
               "label": "a",
-              "text": "o material a ser transportado deve estar devidamente acondicionado em embalagem"
+              "text": "o material a ser transportado deve estar devidamente acondicionado em embalagem regulamentar;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "regulamentar;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "os serviços de embarque e desembarque devem ser supervisionados por um trabalhador que tenha"
+              "text": "os serviços de embarque e desembarque devem ser supervisionados por um trabalhador que tenha sido capacitado, nos termos da NR-1, sob responsabilidade do responsável técnico da organização fabricante ou de profissional legalmente habilitado em segurança do trabalho;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "sido capacitado, nos termos da NR-1, sob responsabilidade do responsável técnico da organização fabricante ou de profissional legalmente habilitado em segurança do trabalho;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "c",
-              "text": "todos os equipamentos empregados nos serviços de carga, transporte e descarga devem ser"
+              "text": "todos os equipamentos empregados nos serviços de carga, transporte e descarga devem ser verificados quanto às condições de segurança;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "verificados quanto às condições de segurança;"
         },
         {
           "type": "list",
@@ -641,13 +509,9 @@
           "items": [
             {
               "label": "f",
-              "text": "munições, pólvoras, explosivos, acessórios iniciadores, artifícios pirotécnicos e outros artefatos"
+              "text": "munições, pólvoras, explosivos, acessórios iniciadores, artifícios pirotécnicos e outros artefatos pirotécnicos devem ser transportados separadamente;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "pirotécnicos devem ser transportados separadamente;"
         },
         {
           "type": "list",
@@ -681,46 +545,30 @@
           "items": [
             {
               "label": "j",
-              "text": "é proibida a utilização de sistemas de iluminação que não sejam específicos para áreas classificadas,"
+              "text": "é proibida a utilização de sistemas de iluminação que não sejam específicos para áreas classificadas, fósforos, isqueiros, dispositivos e ferramentas capazes de produzir chama ou centelha nos locais de embarque, desembarque e no transporte;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "fósforos, isqueiros, dispositivos e ferramentas capazes de produzir chama ou centelha nos locais de embarque, desembarque e no transporte;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "k",
-              "text": "salvo casos especiais, de acordo com a análise de riscos da operação, os serviços de carga e"
+              "text": "salvo casos especiais, de acordo com a análise de riscos da operação, os serviços de carga e descarga de explosivos devem ser feitos durante o dia e com tempo sem ocorrência de intempéries; e l) quando houver necessidade de carregar ou descarregar explosivos durante a noite, somente será usada iluminação com lanternas e holofotes elétricos que sejam específicos para áreas classificadas."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "descarga de explosivos devem ser feitos durante o dia e com tempo sem ocorrência de intempéries; e l) quando houver necessidade de carregar ou descarregar explosivos durante a noite, somente será usada iluminação com lanternas e holofotes elétricos que sejam específicos para áreas classificadas."
         },
         {
           "type": "item",
           "number": "19.6.3",
           "depth": 2,
-          "text": "O transporte de explosivos no território nacional deverá ser realizado em veículo de carroceria"
-        },
-        {
-          "type": "paragraph",
-          "text": "fechada tipo baú ou em equipamento tipo container, ressalvados os transportes associados a operações de canhoneio."
+          "text": "O transporte de explosivos no território nacional deverá ser realizado em veículo de carroceria fechada tipo baú ou em equipamento tipo container, ressalvados os transportes associados a operações de canhoneio."
         },
         {
           "type": "item",
           "number": "19.6.4",
           "depth": 2,
-          "text": "Explosivos podem ser transportados com acessórios iniciadores, desde que os acessórios"
-        },
-        {
-          "type": "paragraph",
-          "text": "iniciadores estejam em compartimento ou uma caixa de segurança, isolados dos demais produtos transportados; e em embalagens que evitem o risco de atrito ou choque mecânico."
+          "text": "Explosivos podem ser transportados com acessórios iniciadores, desde que os acessórios iniciadores estejam em compartimento ou uma caixa de segurança, isolados dos demais produtos transportados; e em embalagens que evitem o risco de atrito ou choque mecânico."
         },
         {
           "type": "item",
@@ -757,13 +605,9 @@
           "items": [
             {
               "label": "a",
-              "text": "blindagem em chapa de aço (com espessura mínima de 4,8 mm, em aço do American Iron and Steel"
+              "text": "blindagem em chapa de aço (com espessura mínima de 4,8 mm, em aço do American Iron and Steel Institute - AISI 1020);"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Institute - AISI 1020);"
         },
         {
           "type": "list",
@@ -796,21 +640,13 @@
           "type": "item",
           "number": "19.6.4.3",
           "depth": 3,
-          "text": "A caixa de segurança deve ser colocada na carroceria do veículo em local de fácil acesso; ter"
-        },
-        {
-          "type": "paragraph",
-          "text": "a sua inviolabilidade preservada; e ter a sua parte superior livre de empilhamentos de embalagens."
+          "text": "A caixa de segurança deve ser colocada na carroceria do veículo em local de fácil acesso; ter a sua inviolabilidade preservada; e ter a sua parte superior livre de empilhamentos de embalagens."
         },
         {
           "type": "item",
           "number": "19.6.4.4",
           "depth": 3,
-          "text": "No caso de Unidade Móvel de Bombeamento - UMB os produtos devem ser transportados"
-        },
-        {
-          "type": "paragraph",
-          "text": "em compartimentos ou caixas de segurança diferentes e em lados opostos na carroceria, que permitam seu isolamento."
+          "text": "No caso de Unidade Móvel de Bombeamento - UMB os produtos devem ser transportados em compartimentos ou caixas de segurança diferentes e em lados opostos na carroceria, que permitam seu isolamento."
         },
         {
           "type": "item",
@@ -837,23 +673,16 @@
       ]
     },
     {
-      "id": "anexo-i-da-nr-19",
+      "id": "anexo-i-da-nr-19-segurança-e-saúde-na-indústria-e-comércio-de-fogos-de-artifício-e-outros-artefatos-pirotécnicos",
       "number": "ANEXO I",
-      "title": "da NR-19",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**SEGURANÇA E SAÚDE NA INDÚSTRIA E COMÉRCIO DE FOGOS DE ARTIFÍCIO E OUTROS ARTEFATOS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**PIROTÉCNICOS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**SUMÁRIO** **1.** **Objetivo**"
-        }
-      ]
+      "title": "da NR-19 SEGURANÇA E SAÚDE NA INDÚSTRIA E COMÉRCIO DE FOGOS DE ARTIFÍCIO E OUTROS ARTEFATOS PIROTÉCNICOS",
+      "blocks": []
+    },
+    {
+      "id": "1-objetivo",
+      "number": "1",
+      "title": "Objetivo",
+      "blocks": []
     },
     {
       "id": "2-campo-de-aplicação",
@@ -964,15 +793,10 @@
       "blocks": []
     },
     {
-      "id": "11-este-anexo-tem-o-objetivo-de-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-garantir-as",
+      "id": "11-este-anexo-tem-o-objetivo-de-estabelecer-os-requisitos-e-as-medidas-de-prevenção-para-garantir-as-condições-de-segurança-e-saúde-dos-trabalhadores-em-todas-as-etapas-da-fabricação-armazenamento-transporte-e-comercialização-de-fogos-de-artifícios-e-outros-artefatos-pirotécnicos",
       "number": "1.1",
-      "title": "Este anexo tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "condições de segurança e saúde dos trabalhadores em todas as etapas da fabricação, armazenamento, transporte e comercialização de fogos de artifícios e outros artefatos pirotécnicos."
-        }
-      ]
+      "title": "Este anexo tem o objetivo de estabelecer os requisitos e as medidas de prevenção para garantir as condições de segurança e saúde dos trabalhadores em todas as etapas da fabricação, armazenamento, transporte e comercialização de fogos de artifícios e outros artefatos pirotécnicos.",
+      "blocks": []
     },
     {
       "id": "2-campo-de-aplicação",
@@ -981,26 +805,16 @@
       "blocks": []
     },
     {
-      "id": "21-este-anexo-aplica-se-a-todos-os-estabelecimentos-de-fabricação-armazenamento-e",
+      "id": "21-este-anexo-aplica-se-a-todos-os-estabelecimentos-de-fabricação-armazenamento-e-comercialização-de-fogos-de-artifício-e-outros-artefatos-pirotécnicos",
       "number": "2.1",
-      "title": "Este anexo aplica-se a todos os estabelecimentos de fabricação, armazenamento e",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "comercialização de fogos de artifício e outros artefatos pirotécnicos."
-        }
-      ]
+      "title": "Este anexo aplica-se a todos os estabelecimentos de fabricação, armazenamento e comercialização de fogos de artifício e outros artefatos pirotécnicos.",
+      "blocks": []
     },
     {
-      "id": "22-incluem-se-no-campo-de-aplicação-deste-anexo-as-unidades-de-produção-de-pólvora-negra",
+      "id": "22-incluem-se-no-campo-de-aplicação-deste-anexo-as-unidades-de-produção-de-pólvora-negra-alumínio-para-pirotecnia-e-produtos-intermediários-destinados-à-fabricação-de-fogos-de-artifício-e-outros-artefatos-pirotécnicos",
       "number": "2.2",
-      "title": "Incluem-se no campo de aplicação deste anexo as unidades de produção de pólvora negra,",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "alumínio para pirotecnia e produtos intermediários destinados à fabricação de fogos de artifício e outros artefatos pirotécnicos."
-        }
-      ]
+      "title": "Incluem-se no campo de aplicação deste anexo as unidades de produção de pólvora negra, alumínio para pirotecnia e produtos intermediários destinados à fabricação de fogos de artifício e outros artefatos pirotécnicos.",
+      "blocks": []
     },
     {
       "id": "3-disposições-gerais",
@@ -1018,26 +832,18 @@
           "items": [
             {
               "label": "a",
-              "text": "fogos de artifício e outros artifícios pirotécnicos, os artigos pirotécnicos preparados para transmitir"
+              "text": "fogos de artifício e outros artifícios pirotécnicos, os artigos pirotécnicos preparados para transmitir inflamação com a finalidade de produzir luz, ruído, fumaça ou outros efeitos visuais ou sonoros normalmente empregados para entretenimento;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "inflamação com a finalidade de produzir luz, ruído, fumaça ou outros efeitos visuais ou sonoros normalmente empregados para entretenimento;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "Responsável Técnico, o profissional legalmente habilitado da área de química responsável pela"
+              "text": "Responsável Técnico, o profissional legalmente habilitado da área de química responsável pela coordenação dos laboratórios de controle de qualidade e/ou controle de processos, assim como das operações de produção, inclusive desenvolvimento de novos produtos, conforme disposto na legislação vigente;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "coordenação dos laboratórios de controle de qualidade e/ou controle de processos, assim como das operações de produção, inclusive desenvolvimento de novos produtos, conforme disposto na legislação vigente;"
         },
         {
           "type": "list",
@@ -1053,43 +859,26 @@
           "items": [
             {
               "label": "d",
-              "text": "incidente, o evento não previsto, ocorrido no exercício do trabalho ou como consequência desse,"
+              "text": "incidente, o evento não previsto, ocorrido no exercício do trabalho ou como consequência desse, que não resulte em danos à saúde ou integridade física do trabalhador, mas que potencialmente possa provocá-los; e"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "que não resulte em danos à saúde ou integridade física do trabalhador, mas que potencialmente possa provocá-los; e"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "e",
-              "text": "substância perigosa, aquela com potencial de causar danos materiais, ao meio ambiente, lesões ou"
+              "text": "substância perigosa, aquela com potencial de causar danos materiais, ao meio ambiente, lesões ou agravos à saúde, em função de suas propriedades físico-químicas ou toxicológicas, é classificada como tal a partir de critérios e categorias definidas em um sistema de classificação."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "agravos à saúde, em função de suas propriedades físico-químicas ou toxicológicas, é classificada como tal a partir de critérios e categorias definidas em um sistema de classificação."
         }
       ]
     },
     {
-      "id": "32-a-observância-deste-anexo-não-desobriga-as-organizações-do-cumprimento-de-outras-disposições",
+      "id": "32-a-observância-deste-anexo-não-desobriga-as-organizações-do-cumprimento-de-outras-disposições-legais-e-regulamentares-com-relação-à-matéria-inclusive-as-oriundas-de-convenções-e-acordos-coletivos-de-trabalho",
       "number": "3.2",
-      "title": "A observância deste anexo não desobriga as organizações do cumprimento de outras disposições",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "legais e regulamentares com relação à matéria, inclusive as oriundas de convenções e acordos"
-        },
-        {
-          "type": "paragraph",
-          "text": "coletivos de trabalho."
-        }
-      ]
+      "title": "A observância deste anexo não desobriga as organizações do cumprimento de outras disposições legais e regulamentares com relação à matéria, inclusive as oriundas de convenções e acordos coletivos de trabalho.",
+      "blocks": []
     },
     {
       "id": "4-instalações",
@@ -1098,29 +887,16 @@
       "blocks": []
     },
     {
-      "id": "41-as-instalações-físicas-dos-estabelecimentos-devem-obedecer-ao-disposto-na-norma",
+      "id": "41-as-instalações-físicas-dos-estabelecimentos-devem-obedecer-ao-disposto-na-norma-regulamentadora-nº-8-nr-8-assim-como-no-normativo-de-explosivos-da-diretoria-de-fiscalização-de-produto-controlado-do-exército-brasileiro",
       "number": "4.1",
-      "title": "As instalações físicas dos estabelecimentos devem obedecer ao disposto na Norma",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Regulamentadora nº 8 (NR-8), assim como no normativo de explosivos da Diretoria de Fiscalização de"
-        },
-        {
-          "type": "paragraph",
-          "text": "Produto Controlado do Exército Brasileiro."
-        }
-      ]
+      "title": "As instalações físicas dos estabelecimentos devem obedecer ao disposto na Norma Regulamentadora nº 8 (NR-8), assim como no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro.",
+      "blocks": []
     },
     {
-      "id": "42-as-cercas-em-torno-dos-estabelecimentos-devem-possuir-no-mínimo-os-seguintes-requisitos",
+      "id": "42-as-cercas-em-torno-dos-estabelecimentos-devem-possuir-no-mínimo-os-seguintes-requisitos-técnicos",
       "number": "4.2",
-      "title": "As cercas em torno dos estabelecimentos devem possuir no mínimo os seguintes requisitos",
+      "title": "As cercas em torno dos estabelecimentos devem possuir no mínimo os seguintes requisitos técnicos",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "técnicos:"
-        },
         {
           "type": "list",
           "items": [
@@ -1194,15 +970,10 @@
       ]
     },
     {
-      "id": "44-deve-ser-mantida-uma-faixa-de-terreno-livre-de-vegetação-rasteira-com-20-m-vinte-metros-de",
+      "id": "44-deve-ser-mantida-uma-faixa-de-terreno-livre-de-vegetação-rasteira-com-20-m-vinte-metros-de-largura-mínima-em-torno-de-todos-os-depósitos-e-pavilhões-de-trabalho",
       "number": "4.4",
-      "title": "Deve ser mantida uma faixa de terreno livre de vegetação rasteira, com 20 m (vinte metros) de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "largura mínima, em torno de todos os depósitos e pavilhões de trabalho."
-        }
-      ]
+      "title": "Deve ser mantida uma faixa de terreno livre de vegetação rasteira, com 20 m (vinte metros) de largura mínima, em torno de todos os depósitos e pavilhões de trabalho.",
+      "blocks": []
     },
     {
       "id": "45-os-ambientes-internos-dos-pavilhões-de-trabalho-devem",
@@ -1239,14 +1010,10 @@
       ]
     },
     {
-      "id": "46-na-entrada-dos-pavilhões-de-trabalho-deve-haver-aviso-de-segurança-em-caracteres-indeléveis",
+      "id": "46-na-entrada-dos-pavilhões-de-trabalho-deve-haver-aviso-de-segurança-em-caracteres-indeléveis-facilmente-visualizáveis-contendo-as-seguintes-informações",
       "number": "4.6",
-      "title": "Na entrada dos pavilhões de trabalho deve haver aviso de segurança em caracteres indeléveis",
+      "title": "Na entrada dos pavilhões de trabalho deve haver aviso de segurança em caracteres indeléveis facilmente visualizáveis, contendo as seguintes informações",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "facilmente visualizáveis, contendo as seguintes informações:"
-        },
         {
           "type": "list",
           "items": [
@@ -1286,65 +1053,45 @@
           "items": [
             {
               "label": "a",
-              "text": "pisos impermeabilizados, lisos, laváveis, constituídos de material ou providos de sistema que não"
+              "text": "pisos impermeabilizados, lisos, laváveis, constituídos de material ou providos de sistema que não permita o acúmulo de energia estática, e mantidos em perfeito estado de conservação e limpeza;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "permita o acúmulo de energia estática, e mantidos em perfeito estado de conservação e limpeza;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "junções de pisos com paredes, de bancadas com paredes e entre paredes com acabamento"
+              "text": "junções de pisos com paredes, de bancadas com paredes e entre paredes com acabamento arredondado, com a finalidade de evitar o acúmulo de resíduos;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "arredondado, com a finalidade de evitar o acúmulo de resíduos;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "c",
-              "text": "materiais e equipamentos antiestáticos, adotando-se procedimentos que impeçam acúmulo de"
+              "text": "materiais e equipamentos antiestáticos, adotando-se procedimentos que impeçam acúmulo de poeiras e resíduos, assim como quedas de materiais no chão;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "poeiras e resíduos, assim como quedas de materiais no chão;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "d",
-              "text": "superfícies de trabalho lisas revestidas por material ou providas de sistema que não permita o"
+              "text": "superfícies de trabalho lisas revestidas por material ou providas de sistema que não permita o acúmulo de energia estática, com proteções laterais e acabamentos arredondados, de forma a evitar a queda de produtos e nem possibilitar o acúmulo de pó; e"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "acúmulo de energia estática, com proteções laterais e acabamentos arredondados, de forma a evitar a queda de produtos e nem possibilitar o acúmulo de pó; e"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "e",
-              "text": "prateleiras, bancadas e superfícies na quantidade mínima indispensável ao desenvolvimento dos"
+              "text": "prateleiras, bancadas e superfícies na quantidade mínima indispensável ao desenvolvimento dos trabalhos, sendo proibido o uso de materiais não condutivos ou que permitam o centelhamento."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "trabalhos, sendo proibido o uso de materiais não condutivos ou que permitam o centelhamento."
         },
         {
           "type": "item",
@@ -1375,13 +1122,9 @@
           "items": [
             {
               "label": "c",
-              "text": "bancada lisa, constituída de material ou provida de sistema que não permita o acúmulo de energia"
+              "text": "bancada lisa, constituída de material ou provida de sistema que não permita o acúmulo de energia estática e de baixa resistência a impacto;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "estática e de baixa resistência a impacto;"
         },
         {
           "type": "list",
@@ -1397,58 +1140,35 @@
           "items": [
             {
               "label": "e",
-              "text": "cocho de alvenaria com 1 m (um metro) de largura à frente da entrada, também dotado de lâmina"
+              "text": "cocho de alvenaria com 1 m (um metro) de largura à frente da entrada, também dotado de lâmina d’água de 0,10 m (dez centímetros)."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "d’água de 0,10 m (dez centímetros)."
         },
         {
           "type": "item",
           "number": "4.7.1.1",
           "depth": 3,
-          "text": "Toda a água deve ser substituída periodicamente, por meio de filtragem adequada, com"
-        },
-        {
-          "type": "paragraph",
-          "text": "sistema de limpeza do filtro, conforme projeto elaborado por profissional legalmente habilitado."
+          "text": "Toda a água deve ser substituída periodicamente, por meio de filtragem adequada, com sistema de limpeza do filtro, conforme projeto elaborado por profissional legalmente habilitado."
         }
       ]
     },
     {
-      "id": "48-todas-as-instalações-elétricas-no-interior-ou-proximidades-dos-pavilhões-de-produção-e",
+      "id": "48-todas-as-instalações-elétricas-no-interior-ou-proximidades-dos-pavilhões-de-produção-e-armazenamento-de-explosivos-devem-ser-dotadas-de-circuitos-independentes-e-atenderem-as-normas-técnicas-específicas-para-áreas-classificadas",
       "number": "4.8",
-      "title": "Todas as instalações elétricas no interior ou proximidades dos pavilhões de produção e",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "armazenamento de explosivos devem ser dotadas de circuitos independentes e atenderem as normas técnicas específicas para áreas classificadas."
-        }
-      ]
+      "title": "Todas as instalações elétricas no interior ou proximidades dos pavilhões de produção e armazenamento de explosivos devem ser dotadas de circuitos independentes e atenderem as normas técnicas específicas para áreas classificadas.",
+      "blocks": []
     },
     {
-      "id": "49-as-máquinas-e-os-equipamentos-que-utilizarem-ou-gerarem-energia-elétrica-devem-ser-aterrados",
+      "id": "49-as-máquinas-e-os-equipamentos-que-utilizarem-ou-gerarem-energia-elétrica-devem-ser-aterrados-eletricamente-em-conformidade-com-a-nr-12",
       "number": "4.9",
-      "title": "As máquinas e os equipamentos que utilizarem ou gerarem energia elétrica devem ser aterrados",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "eletricamente, em conformidade com a NR-12."
-        }
-      ]
+      "title": "As máquinas e os equipamentos que utilizarem ou gerarem energia elétrica devem ser aterrados eletricamente, em conformidade com a NR-12.",
+      "blocks": []
     },
     {
-      "id": "410-todo-projeto-de-instalação-reforma-ou-mudança-da-organização-após-sua-autorização-pelo",
+      "id": "410-todo-projeto-de-instalação-reforma-ou-mudança-da-organização-após-sua-autorização-pelo-exército-deve-ser-comunicado-antes-do-início-da-sua-execução-à-unidade-descentralizada-da-inspeção-do-trabalho-por-escrito-preferencialmente-por-meio-eletrônico",
       "number": "4.10",
-      "title": "Todo projeto de instalação, reforma ou mudança da organização, após sua autorização pelo",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Exército, deve ser comunicado antes do início da sua execução à unidade descentralizada da Inspeção do Trabalho por escrito, preferencialmente por meio eletrônico."
-        }
-      ]
+      "title": "Todo projeto de instalação, reforma ou mudança da organização, após sua autorização pelo Exército, deve ser comunicado antes do início da sua execução à unidade descentralizada da Inspeção do Trabalho por escrito, preferencialmente por meio eletrônico.",
+      "blocks": []
     },
     {
       "id": "5-programa-de-gerenciamento-de-riscos---pgr",
@@ -1457,26 +1177,16 @@
       "blocks": []
     },
     {
-      "id": "51-o-pgr-das-organizações-deve-contemplar-além-do-disposto-na-norma-regulamentadora-nº-1",
+      "id": "51-o-pgr-das-organizações-deve-contemplar-além-do-disposto-na-norma-regulamentadora-nº-1-nr-1-as-disposições-deste-capítulo",
       "number": "5.1",
-      "title": "O PGR das organizações deve contemplar, além do disposto na Norma Regulamentadora n.º 1",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "(NR-1), as disposições deste capítulo."
-        }
-      ]
+      "title": "O PGR das organizações deve contemplar, além do disposto na Norma Regulamentadora n.º 1 (NR-1), as disposições deste capítulo.",
+      "blocks": []
     },
     {
-      "id": "52-o-pgr-deve-ser-elaborado-e-implementado-preferencialmente-por-equipe-multidisciplinar-em",
+      "id": "52-o-pgr-deve-ser-elaborado-e-implementado-preferencialmente-por-equipe-multidisciplinar-em-conjunto-com-profissional-legalmente-habilitado-em-segurança-do-trabalho-e-pelo-responsável-técnico-da-organização-e-pelos-seus-responsáveis-legais",
       "number": "5.2",
-      "title": "O PGR deve ser elaborado e implementado, preferencialmente, por equipe multidisciplinar em",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "conjunto com profissional legalmente habilitado em segurança do trabalho, e pelo responsável técnico da organização e pelos seus responsáveis legais."
-        }
-      ]
+      "title": "O PGR deve ser elaborado e implementado, preferencialmente, por equipe multidisciplinar em conjunto com profissional legalmente habilitado em segurança do trabalho, e pelo responsável técnico da organização e pelos seus responsáveis legais.",
+      "blocks": []
     },
     {
       "id": "53-o-pgr-deve-conter-a-indicação-dos-seguintes-elementos",
@@ -1497,13 +1207,9 @@
           "items": [
             {
               "label": "b",
-              "text": "nomes do coordenador e dos demais responsáveis técnicos, a serem atualizados sempre que"
+              "text": "nomes do coordenador e dos demais responsáveis técnicos, a serem atualizados sempre que houver alterações."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "houver alterações."
         },
         {
           "type": "list",
@@ -1583,47 +1289,31 @@
       ]
     },
     {
-      "id": "54-o-inventário-de-riscos-ocupacionais-deve-ser-mantido-atualizado-com-previsão-de-revisões-no",
+      "id": "54-o-inventário-de-riscos-ocupacionais-deve-ser-mantido-atualizado-com-previsão-de-revisões-no-mínimo-anuais-ou-a-serem-realizadas-sempre-que-houver-necessidade-de-alteração-de-suas-informações",
       "number": "5.4",
-      "title": "O inventário de riscos ocupacionais deve ser mantido atualizado, com previsão de revisões, no",
+      "title": "O inventário de riscos ocupacionais deve ser mantido atualizado, com previsão de revisões, no mínimo anuais, ou a serem realizadas sempre que houver necessidade de alteração de suas informações.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "mínimo anuais, ou a serem realizadas sempre que houver necessidade de alteração de suas informações."
-        },
         {
           "type": "item",
           "number": "5.4.1",
           "depth": 2,
-          "text": "o inventário de riscos deve ser assinado conjuntamente por profissional qualificado em"
-        },
-        {
-          "type": "paragraph",
-          "text": "Segurança no Trabalho e pelo Responsável Técnico da organização."
+          "text": "o inventário de riscos deve ser assinado conjuntamente por profissional qualificado em Segurança no Trabalho e pelo Responsável Técnico da organização."
         }
       ]
     },
     {
-      "id": "55-as-organizações-devem-manter-à-disposição-dos-órgãos-de-fiscalização-um-inventário-de-todos-os",
+      "id": "55-as-organizações-devem-manter-à-disposição-dos-órgãos-de-fiscalização-um-inventário-de-todos-os-produtos-por-elas-utilizados-ou-fabricados-inclusive-misturas-pirotécnicas-intermediárias-e-resíduos-gerados-elaborado-pelo-responsável-técnico-contendo-pelo-menos",
       "number": "5.5",
-      "title": "As organizações devem manter à disposição dos órgãos de fiscalização um inventário de todos os",
+      "title": "As organizações devem manter à disposição dos órgãos de fiscalização um inventário de todos os produtos por elas utilizados ou fabricados, inclusive misturas pirotécnicas intermediárias e resíduos gerados, elaborado pelo Responsável Técnico, contendo, pelo menos",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "produtos por elas utilizados ou fabricados, inclusive misturas pirotécnicas intermediárias e resíduos gerados, elaborado pelo Responsável Técnico, contendo, pelo menos:"
-        },
         {
           "type": "list",
           "items": [
             {
               "label": "a",
-              "text": "nome do produto e respectivos sinônimos ou códigos pelos quais são conhecidos ou referidos na"
+              "text": "nome do produto e respectivos sinônimos ou códigos pelos quais são conhecidos ou referidos na organização;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "organização;"
         },
         {
           "type": "list",
@@ -1639,13 +1329,9 @@
           "items": [
             {
               "label": "c",
-              "text": "composição química qualitativa do produto, em particular dos ingredientes que contribuem para o"
+              "text": "composição química qualitativa do produto, em particular dos ingredientes que contribuem para o perigo;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "perigo;"
         },
         {
           "type": "list",
@@ -1661,38 +1347,26 @@
           "items": [
             {
               "label": "f",
-              "text": "classificação da substância ou mistura quanto aos perigos ou ameaças físicas -incêndio, explosão ou"
+              "text": "classificação da substância ou mistura quanto aos perigos ou ameaças físicas -incêndio, explosão ou reação violenta e perigos ou ameaças à saúde humana e ao meio ambiente, sendo recomendada a adoção das diretrizes estabelecidas pela Comissão Europeia para classificação de substâncias e misturas perigosas, até que sejam adotadas diretrizes nacionais; e"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "reação violenta e perigos ou ameaças à saúde humana e ao meio ambiente, sendo recomendada a adoção das diretrizes estabelecidas pela Comissão Europeia para classificação de substâncias e misturas perigosas, até que sejam adotadas diretrizes nacionais; e"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "g",
-              "text": "frases de risco e frases de segurança de acordo com os principais riscos potenciais e medidas de"
+              "text": "frases de risco e frases de segurança de acordo com os principais riscos potenciais e medidas de segurança."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "segurança."
         }
       ]
     },
     {
-      "id": "56-outros-procedimentos-ou-planos-específicos-devem-ser-elaborados-em-função-da-complexidade",
+      "id": "56-outros-procedimentos-ou-planos-específicos-devem-ser-elaborados-em-função-da-complexidade-do-processo-produtivo-e-porte-da-organização-devendo-ser-incluídos-no-mínimo",
       "number": "5.6",
-      "title": "Outros procedimentos ou planos específicos devem ser elaborados em função da complexidade",
+      "title": "Outros procedimentos ou planos específicos devem ser elaborados em função da complexidade do processo produtivo e porte da organização, devendo ser incluídos, no mínimo",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "do processo produtivo e porte da organização, devendo ser incluídos, no mínimo:"
-        },
         {
           "type": "list",
           "items": [
@@ -1707,36 +1381,24 @@
           "items": [
             {
               "label": "b",
-              "text": "plano de manutenção preventiva das máquinas e equipamentos do setor produtivo, em"
+              "text": "plano de manutenção preventiva das máquinas e equipamentos do setor produtivo, em conformidade com a NR-12 e plano de manutenção preventiva para veículos utilizados para o transporte de substâncias químicas; e"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "conformidade com a NR-12 e plano de manutenção preventiva para veículos utilizados para o transporte de substâncias químicas; e"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "c",
-              "text": "procedimentos operacionais para fabricação, armazenamento e manipulação de produtos ou"
+              "text": "procedimentos operacionais para fabricação, armazenamento e manipulação de produtos ou misturas explosivas, com as devidas informações de segurança."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "misturas explosivas, com as devidas informações de segurança."
         },
         {
           "type": "item",
           "number": "5.6.1",
           "depth": 2,
-          "text": "O Plano de Emergência e Combate a Incêndio e Explosão, além do previsto na NR-1, deve"
-        },
-        {
-          "type": "paragraph",
-          "text": "conter:"
+          "text": "O Plano de Emergência e Combate a Incêndio e Explosão, além do previsto na NR-1, deve conter:"
         },
         {
           "type": "list",
@@ -1849,136 +1511,80 @@
           "type": "item",
           "number": "5.6.1.1",
           "depth": 3,
-          "text": "As ações do Plano de Emergência e Combate a Incêndio e Explosão devem ser implantadas"
-        },
-        {
-          "type": "paragraph",
-          "text": "segundo cronograma detalhado contendo prazos para execução de todas as etapas, inclusive treinamento teórico e prático, devendo ser simulado e revisado anualmente, com a participação da Comissão Interna de Prevenção de Acidentes - CIPA e de todos os trabalhadores. (alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)"
+          "text": "As ações do Plano de Emergência e Combate a Incêndio e Explosão devem ser implantadas segundo cronograma detalhado contendo prazos para execução de todas as etapas, inclusive treinamento teórico e prático, devendo ser simulado e revisado anualmente, com a participação da Comissão Interna de Prevenção de Acidentes - CIPA e de todos os trabalhadores. (alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)"
         },
         {
           "type": "item",
           "number": "5.6.1.2",
           "depth": 3,
-          "text": "Uma cópia do Plano de Emergência e Combate a Incêndio e Explosão deve ser encaminhada à"
-        },
-        {
-          "type": "paragraph",
-          "text": "Coordenadoria Municipal de Defesa Civil e ao Corpo de Bombeiros local."
+          "text": "Uma cópia do Plano de Emergência e Combate a Incêndio e Explosão deve ser encaminhada à Coordenadoria Municipal de Defesa Civil e ao Corpo de Bombeiros local."
         },
         {
           "type": "item",
           "number": "5.6.1.3",
           "depth": 3,
-          "text": "O trabalhador que exerce atividades de ronda deve ter conhecimento do Plano de Emergência"
-        },
-        {
-          "type": "paragraph",
-          "text": "e Combate a Incêndio e Explosão e dispor de todo o material e mecanismos necessários para acioná lo."
+          "text": "O trabalhador que exerce atividades de ronda deve ter conhecimento do Plano de Emergência e Combate a Incêndio e Explosão e dispor de todo o material e mecanismos necessários para acionálo."
         }
       ]
     },
     {
-      "id": "6-comissão-interna-de-prevenção-de-acidentes-e-de-assédio---cipa-alterado-pela-portaria-mtp-nº-4219",
+      "id": "6-comissão-interna-de-prevenção-de-acidentes-e-de-assédio---cipa-alterado-pela-portaria-mtp-nº-4219-de-20-de-dezembro-de-2022",
       "number": "6",
-      "title": "Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA (alterado pela Portaria MTP nº 4.219,",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "de 20 de dezembro de 2022)"
-        }
-      ]
+      "title": "Comissão Interna de Prevenção de Acidentes e de Assédio - CIPA (alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)",
+      "blocks": []
     },
     {
-      "id": "61-a-cipa-organizada-conforme-o-disposto-na-norma-regulamentadora-nº-5-nr-5-deve-realizar",
+      "id": "61-a-cipa-organizada-conforme-o-disposto-na-norma-regulamentadora-nº-5-nr-5-deve-realizar-inspeções-em-todos-os-postos-de-trabalho-com-periodicidade-mínima-mensal-visando-à-identificação-de-situações-que-representem-riscos-à-saúde-e-segurança-dos-trabalhadores-com-a-participação-do-responsável-técnico-e-de-profissionais-de-segurança-e-saúde-no-trabalho",
       "number": "6.1",
-      "title": "A CIPA, organizada conforme o disposto na Norma Regulamentadora nº 5 (NR-5), deve realizar",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "inspeções em todos os postos de trabalho com periodicidade mínima mensal, visando à identificação de situações que representem riscos à saúde e segurança dos trabalhadores, com a participação do Responsável Técnico e de profissionais de Segurança e Saúde no Trabalho."
-        }
-      ]
+      "title": "A CIPA, organizada conforme o disposto na Norma Regulamentadora nº 5 (NR-5), deve realizar inspeções em todos os postos de trabalho com periodicidade mínima mensal, visando à identificação de situações que representem riscos à saúde e segurança dos trabalhadores, com a participação do Responsável Técnico e de profissionais de Segurança e Saúde no Trabalho.",
+      "blocks": []
     },
     {
-      "id": "62-os-relatórios-das-inspeções-com-as-respectivas-conclusões-devem-ser-registrados-em-documentos",
+      "id": "62-os-relatórios-das-inspeções-com-as-respectivas-conclusões-devem-ser-registrados-em-documentos-próprios-submetidos-à-ciência-do-empregador-e-mantidos-à-disposição-da-inspeção-do-trabalho",
       "number": "6.2",
-      "title": "Os relatórios das inspeções com as respectivas conclusões devem ser registrados em documentos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "próprios, submetidos à ciência do empregador e mantidos à disposição da Inspeção do Trabalho."
-        }
-      ]
+      "title": "Os relatórios das inspeções com as respectivas conclusões devem ser registrados em documentos próprios, submetidos à ciência do empregador e mantidos à disposição da Inspeção do Trabalho.",
+      "blocks": []
     },
     {
-      "id": "63-as-organizações-desobrigadas-de-manter-cipa-devem-indicar-comissão-para-realizar-as-inspeções",
+      "id": "63-as-organizações-desobrigadas-de-manter-cipa-devem-indicar-comissão-para-realizar-as-inspeções-que-deve-incluir-obrigatoriamente-pelo-menos-um-trabalhador-do-setor-de-produção-e-o-responsável-técnico",
       "number": "6.3",
-      "title": "As organizações desobrigadas de manter CIPA devem indicar comissão para realizar as inspeções,",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "que deve incluir, obrigatoriamente, pelo menos um trabalhador do setor de produção e o Responsável Técnico."
-        }
-      ]
+      "title": "As organizações desobrigadas de manter CIPA devem indicar comissão para realizar as inspeções, que deve incluir, obrigatoriamente, pelo menos um trabalhador do setor de produção e o Responsável Técnico.",
+      "blocks": []
     },
     {
-      "id": "64-o-treinamento-anual-da-cipa-ou-do-trabalhador-nomeado-para-o-cumprimento-dos-objetivos-da",
+      "id": "64-o-treinamento-anual-da-cipa-ou-do-trabalhador-nomeado-para-o-cumprimento-dos-objetivos-da-comissão-deverá-incluir-todos-os-aspectos-relativos-aos-riscos-de-acidentes-com-explosivos-e-sua-prevenção",
       "number": "6.4",
-      "title": "O treinamento anual da CIPA ou do trabalhador nomeado para o cumprimento dos objetivos da",
+      "title": "O treinamento anual da CIPA ou do trabalhador nomeado para o cumprimento dos objetivos da Comissão deverá incluir todos os aspectos relativos aos riscos de acidentes com explosivos e sua prevenção.",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Comissão deverá incluir todos os aspectos relativos aos riscos de acidentes com explosivos e sua prevenção."
-        },
-        {
-          "type": "paragraph",
-          "text": "**7** **Responsabilidade técnica**"
+          "text": "**7 Responsabilidade técnica**"
         }
       ]
     },
     {
-      "id": "71-todas-as-organizações-devem-manter-responsável-técnico-a-seu-serviço-legalmente-habilitado",
+      "id": "71-todas-as-organizações-devem-manter-responsável-técnico-a-seu-serviço-legalmente-habilitado-cujo-nome-deverá-figurar-em-todos-os-rótulos-e-anúncios",
       "number": "7.1",
-      "title": "Todas as organizações devem manter Responsável Técnico a seu serviço, legalmente habilitado,",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "cujo nome deverá figurar em todos os rótulos e anúncios."
-        }
-      ]
+      "title": "Todas as organizações devem manter Responsável Técnico a seu serviço, legalmente habilitado, cujo nome deverá figurar em todos os rótulos e anúncios.",
+      "blocks": []
     },
     {
-      "id": "72-cabe-ao-responsável-técnico-zelar-pela-qualidade-e-segurança-dos-produtos-fabricados-inclusive",
+      "id": "72-cabe-ao-responsável-técnico-zelar-pela-qualidade-e-segurança-dos-produtos-fabricados-inclusive-no-que-diz-respeito-à-segurança-e-saúde-dos-trabalhadores",
       "number": "7.2",
-      "title": "Cabe ao Responsável Técnico zelar pela qualidade e segurança dos produtos fabricados, inclusive",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "no que diz respeito à segurança e saúde dos trabalhadores."
-        }
-      ]
+      "title": "Cabe ao Responsável Técnico zelar pela qualidade e segurança dos produtos fabricados, inclusive no que diz respeito à segurança e saúde dos trabalhadores.",
+      "blocks": []
     },
     {
-      "id": "73-a-responsabilidade-técnica-abrange-as-operações-de-produção-inclusive-o-desenvolvimento-de",
+      "id": "73-a-responsabilidade-técnica-abrange-as-operações-de-produção-inclusive-o-desenvolvimento-de-novos-produtos-estocagem-embalagem-rotulagem-e-transporte-interno-além-do-controle-de-qualidade",
       "number": "7.3",
-      "title": "A responsabilidade técnica abrange as operações de produção, inclusive o desenvolvimento de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "novos produtos, estocagem, embalagem, rotulagem e transporte interno, além do controle de qualidade."
-        }
-      ]
+      "title": "A responsabilidade técnica abrange as operações de produção, inclusive o desenvolvimento de novos produtos, estocagem, embalagem, rotulagem e transporte interno, além do controle de qualidade.",
+      "blocks": []
     },
     {
-      "id": "74-o-responsável-técnico-deve-ter-horário-de-trabalho-expressamente-estabelecido-em-seu-contrato",
+      "id": "74-o-responsável-técnico-deve-ter-horário-de-trabalho-expressamente-estabelecido-em-seu-contrato-com-a-organização-devendo-ser-mantido-registro-de-seu-cumprimento",
       "number": "7.4",
-      "title": "O Responsável Técnico deve ter horário de trabalho expressamente estabelecido em seu contrato",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "com a organização, devendo ser mantido registro de seu cumprimento."
-        }
-      ]
+      "title": "O Responsável Técnico deve ter horário de trabalho expressamente estabelecido em seu contrato com a organização, devendo ser mantido registro de seu cumprimento.",
+      "blocks": []
     },
     {
       "id": "8-locais-de-trabalho",
@@ -1987,137 +1593,78 @@
       "blocks": []
     },
     {
-      "id": "81-as-organizações-devem-manter-todos-os-locais-de-trabalho-sempre-em-perfeito-estado-de",
+      "id": "81-as-organizações-devem-manter-todos-os-locais-de-trabalho-sempre-em-perfeito-estado-de-organização-e-limpeza-contendo-exclusivamente-o-material-necessário-à-atividade-laboral",
       "number": "8.1",
-      "title": "As organizações devem manter todos os locais de trabalho sempre em perfeito estado de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "organização e limpeza, contendo exclusivamente o material necessário à atividade laboral."
-        }
-      ]
+      "title": "As organizações devem manter todos os locais de trabalho sempre em perfeito estado de organização e limpeza, contendo exclusivamente o material necessário à atividade laboral.",
+      "blocks": []
     },
     {
-      "id": "82-devem-ser-criados-procedimentos-eficazes-para-a-limpeza-dos-calçados-na-entrada-dos-pavilhões",
+      "id": "82-devem-ser-criados-procedimentos-eficazes-para-a-limpeza-dos-calçados-na-entrada-dos-pavilhões-de-trabalho",
       "number": "8.2",
-      "title": "Devem ser criados procedimentos eficazes para a limpeza dos calçados na entrada dos pavilhões",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "de trabalho."
-        }
-      ]
+      "title": "Devem ser criados procedimentos eficazes para a limpeza dos calçados na entrada dos pavilhões de trabalho.",
+      "blocks": []
     },
     {
-      "id": "83-as-organizações-devem-instituir-e-implementar-procedimentos-operacionais-para-todas-as",
+      "id": "83-as-organizações-devem-instituir-e-implementar-procedimentos-operacionais-para-todas-as-atividades-sob-a-orientação-do-responsável-técnico-especificando-detalhadamente-os-procedimentos-seguros-para-a-execução-de-cada-tarefa-e-afixando-os-procedimentos-operacionais-nos-respectivos-pavilhões-em-local-e-tamanho-que-sejam-visíveis-a-todos-os-trabalhadores",
       "number": "8.3",
-      "title": "As organizações devem instituir e implementar Procedimentos Operacionais para todas as",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "atividades, sob a orientação do Responsável Técnico, especificando detalhadamente os procedimentos seguros para a execução de cada tarefa e afixando os procedimentos operacionais nos respectivos pavilhões em local e tamanho que sejam visíveis a todos os trabalhadores."
-        }
-      ]
+      "title": "As organizações devem instituir e implementar Procedimentos Operacionais para todas as atividades, sob a orientação do Responsável Técnico, especificando detalhadamente os procedimentos seguros para a execução de cada tarefa e afixando os procedimentos operacionais nos respectivos pavilhões em local e tamanho que sejam visíveis a todos os trabalhadores.",
+      "blocks": []
     },
     {
-      "id": "84-deve-ser-observada-a-quantidade-máxima-de-material-explosivo-e-o-número-máximo-de",
+      "id": "84-deve-ser-observada-a-quantidade-máxima-de-material-explosivo-e-o-número-máximo-de-trabalhadores-permitidos-em-cada-pavilhão-de-trabalho-conforme-definido-pelo-responsável-técnico-e-observando-se-os-dispositivos-legais-referentes-ao-tema",
       "number": "8.4",
-      "title": "Deve ser observada a quantidade máxima de material explosivo e o número máximo de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "trabalhadores permitidos em cada pavilhão de trabalho, conforme definido pelo Responsável Técnico e observando-se os dispositivos legais referentes ao tema."
-        }
-      ]
+      "title": "Deve ser observada a quantidade máxima de material explosivo e o número máximo de trabalhadores permitidos em cada pavilhão de trabalho, conforme definido pelo Responsável Técnico e observando-se os dispositivos legais referentes ao tema.",
+      "blocks": []
     },
     {
-      "id": "85-é-vedada-a-permanência-de-fontes-de-ignição-assim-como-de-materiais-ou-utensílios-estranhos-à",
+      "id": "85-é-vedada-a-permanência-de-fontes-de-ignição-assim-como-de-materiais-ou-utensílios-estranhos-à-atividade-no-interior-dos-pavilhões-de-trabalho-com-explosivos",
       "number": "8.5",
-      "title": "É vedada a permanência de fontes de ignição, assim como de materiais ou utensílios estranhos à",
+      "title": "É vedada a permanência de fontes de ignição, assim como de materiais ou utensílios estranhos à atividade, no interior dos pavilhões de trabalho com explosivos.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "atividade, no interior dos pavilhões de trabalho com explosivos."
-        },
         {
           "type": "item",
           "number": "8.5.1",
           "depth": 2,
-          "text": "As ferramentas utilizadas no manuseio de materiais explosivos devem ser de aço inoxidável ou"
-        },
-        {
-          "type": "paragraph",
-          "text": "outro material que dificulte a geração de faíscas."
+          "text": "As ferramentas utilizadas no manuseio de materiais explosivos devem ser de aço inoxidável ou outro material que dificulte a geração de faíscas."
         }
       ]
     },
     {
-      "id": "86-durante-a-jornada-laboral-as-portas-dos-pavilhões-de-trabalho-devem-ser-mantidas-totalmente",
+      "id": "86-durante-a-jornada-laboral-as-portas-dos-pavilhões-de-trabalho-devem-ser-mantidas-totalmente-abertas-para-fora-por-meio-de-dispositivo-adequado-para-sua-fixação-nessa-posição-constituído-de-material-que-não-gere-centelhas-por-atrito-devendo-permanecer-desobstruídas",
       "number": "8.6",
-      "title": "Durante a jornada laboral as portas dos pavilhões de trabalho devem ser mantidas totalmente",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "abertas para fora, por meio de dispositivo adequado para sua fixação nessa posição, constituído de material que não gere centelhas por atrito, devendo permanecer desobstruídas."
-        }
-      ]
+      "title": "Durante a jornada laboral as portas dos pavilhões de trabalho devem ser mantidas totalmente abertas para fora, por meio de dispositivo adequado para sua fixação nessa posição, constituído de material que não gere centelhas por atrito, devendo permanecer desobstruídas.",
+      "blocks": []
     },
     {
-      "id": "87-sempre-que-o-trabalho-puder-ser-executado-alternando-a-posição-de-pé-com-a-posição-sentada-o",
+      "id": "87-sempre-que-o-trabalho-puder-ser-executado-alternando-a-posição-de-pé-com-a-posição-sentada-o-posto-de-trabalho-deve-ser-planejado-ou-adaptado-para-favorecer-a-alternância-das-posições",
       "number": "8.7",
-      "title": "Sempre que o trabalho puder ser executado alternando a posição de pé com a posição sentada, o",
+      "title": "Sempre que o trabalho puder ser executado alternando a posição de pé com a posição sentada, o posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das posições.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "posto de trabalho deve ser planejado ou adaptado para favorecer a alternância das posições."
-        },
         {
           "type": "item",
           "number": "8.7.1",
           "depth": 2,
-          "text": "Todos os assentos nos postos de trabalho devem atender ao disposto na Norma"
-        },
-        {
-          "type": "paragraph",
-          "text": "Regulamentadora n.º 17 (NR-17)."
+          "text": "Todos os assentos nos postos de trabalho devem atender ao disposto na Norma Regulamentadora n.º 17 (NR-17)."
         },
         {
           "type": "item",
           "number": "8.7.2",
           "depth": 2,
-          "text": "Para as atividades em que os trabalhos devam ser realizados de pé e nos casos em que a posição"
-        },
-        {
-          "type": "paragraph",
-          "text": "sentada implique risco de acidente, devem ser disponibilizados assentos para descanso próximos aos postos de trabalho, instituindo-se, pelo menos, uma pausa de 15 (quinze) minutos a cada 2 (duas)"
-        },
-        {
-          "type": "paragraph",
-          "text": "horas de trabalho."
+          "text": "Para as atividades em que os trabalhos devam ser realizados de pé e nos casos em que a posição sentada implique risco de acidente, devem ser disponibilizados assentos para descanso próximos aos postos de trabalho, instituindo-se, pelo menos, uma pausa de 15 (quinze) minutos a cada 2 (duas) horas de trabalho."
         }
       ]
     },
     {
-      "id": "88-todos-os-estabelecimentos-devem-dispor-de-reservas-suficientes-de-água-localizadas-de-modo-a",
+      "id": "88-todos-os-estabelecimentos-devem-dispor-de-reservas-suficientes-de-água-localizadas-de-modo-a-permitir-sua-utilização-imediata-inclusive-para-limpeza-diária-e-umedecimento-dos-locais-de-trabalho",
       "number": "8.8",
-      "title": "Todos os estabelecimentos devem dispor de reservas suficientes de água, localizadas de modo a",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "permitir sua utilização imediata, inclusive para limpeza diária e umedecimento dos locais de trabalho."
-        }
-      ]
+      "title": "Todos os estabelecimentos devem dispor de reservas suficientes de água, localizadas de modo a permitir sua utilização imediata, inclusive para limpeza diária e umedecimento dos locais de trabalho.",
+      "blocks": []
     },
     {
-      "id": "89-os-depósitos-de-pólvora-negra-de-produtos-acabados-e-de-bombas-devem-ser-dotados-de",
+      "id": "89-os-depósitos-de-pólvora-negra-de-produtos-acabados-e-de-bombas-devem-ser-dotados-de-instrumentos-para-aferição-de-temperatura-e-umidade-do-ar-mantendo-se-à-disposição-dos-órgãos-de-fiscalização-o-registro-escrito-das-medições-que-devem-ser-realizadas-diariamente",
       "number": "8.9",
-      "title": "Os depósitos de pólvora negra, de produtos acabados e de bombas devem ser dotados de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "instrumentos para aferição de temperatura e umidade do ar, mantendo-se à disposição dos órgãos de fiscalização o registro escrito das medições, que devem ser realizadas diariamente."
-        }
-      ]
+      "title": "Os depósitos de pólvora negra, de produtos acabados e de bombas devem ser dotados de instrumentos para aferição de temperatura e umidade do ar, mantendo-se à disposição dos órgãos de fiscalização o registro escrito das medições, que devem ser realizadas diariamente.",
+      "blocks": []
     },
     {
       "id": "9-transporte-interno",
@@ -2126,44 +1673,23 @@
       "blocks": []
     },
     {
-      "id": "91-o-transporte-interno-de-produtos-inflamáveis-ou-explosivos-deve-obedecer-a-regras-especificadas",
+      "id": "91-o-transporte-interno-de-produtos-inflamáveis-ou-explosivos-deve-obedecer-a-regras-especificadas-pelo-responsável-técnico-que-deve-definir-os-meios-de-transporte-os-trajetos-e-os-recipientes-a-serem-utilizados-assim-como-as-quantidades-máximas-a-serem-transportadas-de-cada-vez",
       "number": "9.1",
-      "title": "O transporte interno de produtos inflamáveis ou explosivos deve obedecer a regras especificadas",
+      "title": "O transporte interno de produtos inflamáveis ou explosivos deve obedecer a regras especificadas pelo Responsável Técnico, que deve definir os meios de transporte, os trajetos e os recipientes a serem utilizados, assim como as quantidades máximas a serem transportadas de cada vez.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "pelo Responsável Técnico, que deve definir os meios de transporte, os trajetos e os recipientes a serem utilizados, assim como as quantidades máximas a serem transportadas de cada vez."
-        },
         {
           "type": "item",
           "number": "9.1.1",
           "depth": 2,
-          "text": "Os meios de transporte de explosivos devem ser adequados, conforme a NR-17, e conter"
-        },
-        {
-          "type": "paragraph",
-          "text": "mecanismos de redução de impactos e risco de quedas, assim como dispositivos para evitar"
-        },
-        {
-          "type": "paragraph",
-          "text": "centelhamento."
+          "text": "Os meios de transporte de explosivos devem ser adequados, conforme a NR-17, e conter mecanismos de redução de impactos e risco de quedas, assim como dispositivos para evitar centelhamento."
         }
       ]
     },
     {
-      "id": "92-os-trabalhadores-responsáveis-pelo-transporte-interno-de-produtos-acabados-ou-outros-materiais",
+      "id": "92-os-trabalhadores-responsáveis-pelo-transporte-interno-de-produtos-acabados-ou-outros-materiais-devem-conhecer-todos-os-riscos-inerentes-a-esta-atividade-e-receber-treinamento-sobre-levantamento-e-transporte-manual-de-peso",
       "number": "9.2",
-      "title": "Os trabalhadores responsáveis pelo transporte interno de produtos acabados ou outros materiais",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "devem conhecer todos os riscos inerentes a esta atividade e receber treinamento sobre levantamento"
-        },
-        {
-          "type": "paragraph",
-          "text": "e transporte manual de peso."
-        }
-      ]
+      "title": "Os trabalhadores responsáveis pelo transporte interno de produtos acabados ou outros materiais devem conhecer todos os riscos inerentes a esta atividade e receber treinamento sobre levantamento e transporte manual de peso.",
+      "blocks": []
     },
     {
       "id": "10-proteção-individual",
@@ -2172,33 +1698,21 @@
       "blocks": []
     },
     {
-      "id": "101-todos-os-trabalhadores-do-setor-de-explosivos-devem-utilizar-vestimenta-de-trabalho-completa",
+      "id": "101-todos-os-trabalhadores-do-setor-de-explosivos-devem-utilizar-vestimenta-de-trabalho-completa-em-algodão-ou-tecido-antiestático-similar-fornecidos-gratuitamente-pelo-empregador-sem-quaisquer-detalhes-que-possam-acumular-poeira-ou-resíduos-de-produtos-químicos",
       "number": "10.1",
-      "title": "Todos os trabalhadores do setor de explosivos devem utilizar vestimenta de trabalho completa",
+      "title": "Todos os trabalhadores do setor de explosivos devem utilizar vestimenta de trabalho completa em algodão ou tecido antiestático similar, fornecidos gratuitamente pelo empregador, sem quaisquer detalhes que possam acumular poeira ou resíduos de produtos químicos.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "em algodão ou tecido antiestático similar, fornecidos gratuitamente pelo empregador, sem quaisquer detalhes que possam acumular poeira ou resíduos de produtos químicos."
-        },
         {
           "type": "item",
           "number": "10.1.1",
           "depth": 2,
-          "text": "A manutenção e a reposição das vestimentas devem ser realizadas pela organização, sem ônus"
-        },
-        {
-          "type": "paragraph",
-          "text": "para os trabalhadores."
+          "text": "A manutenção e a reposição das vestimentas devem ser realizadas pela organização, sem ônus para os trabalhadores."
         },
         {
           "type": "item",
           "number": "10.1.2",
           "depth": 2,
-          "text": "As vestimentas dos trabalhadores que manipulam pólvora negra, pólvora branca e cores"
-        },
-        {
-          "type": "paragraph",
-          "text": "devem ser lavadas semanalmente pela organização."
+          "text": "As vestimentas dos trabalhadores que manipulam pólvora negra, pólvora branca e cores devem ser lavadas semanalmente pela organização."
         }
       ]
     },
@@ -2211,21 +1725,13 @@
           "type": "item",
           "number": "10.2.1",
           "depth": 2,
-          "text": "Os trabalhadores envolvidos na manipulação de explosivos devem portar calçados com solados"
-        },
-        {
-          "type": "paragraph",
-          "text": "antiestáticos, sem peças metálicas externas."
+          "text": "Os trabalhadores envolvidos na manipulação de explosivos devem portar calçados com solados antiestáticos, sem peças metálicas externas."
         },
         {
           "type": "item",
           "number": "10.2.1.1",
           "depth": 3,
-          "text": "Nos locais de trabalho dotados de piso com lâmina d’água, devem ser utilizados calçados"
-        },
-        {
-          "type": "paragraph",
-          "text": "impermeáveis, não sendo obrigatória a propriedade antiestática."
+          "text": "Nos locais de trabalho dotados de piso com lâmina d’água, devem ser utilizados calçados impermeáveis, não sendo obrigatória a propriedade antiestática."
         }
       ]
     },
@@ -2236,44 +1742,27 @@
       "blocks": []
     },
     {
-      "id": "111-os-estabelecimentos-devem-manter-serviço-permanente-de-portaria-com-trabalhador-com",
+      "id": "111-os-estabelecimentos-devem-manter-serviço-permanente-de-portaria-com-trabalhador-com-conhecimento-sobre-os-riscos-existentes-nos-locais-de-trabalho-e-treinado-na-prevenção-de-acidentes-com-explosivos-especialmente-no-que-concerne-ao-plano-de-emergência-e-combate-a-incêndio-e-explosão-cabendo-lhe-impedir-a-entrada-de-pessoas-veículos-e-materiais-que-não-atendam-às-exigências-de-segurança-estabelecidas-pelas-normas-internas-da-organização",
       "number": "11.1",
-      "title": "Os estabelecimentos devem manter serviço permanente de portaria, com trabalhador com",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "conhecimento sobre os riscos existentes nos locais de trabalho e treinado na prevenção de acidentes com explosivos, especialmente no que concerne ao Plano de Emergência e Combate a Incêndio e Explosão, cabendo-lhe impedir a entrada de pessoas, veículos e materiais que não atendam às exigências de segurança estabelecidas pelas normas internas da organização."
-        }
-      ]
+      "title": "Os estabelecimentos devem manter serviço permanente de portaria, com trabalhador com conhecimento sobre os riscos existentes nos locais de trabalho e treinado na prevenção de acidentes com explosivos, especialmente no que concerne ao Plano de Emergência e Combate a Incêndio e Explosão, cabendo-lhe impedir a entrada de pessoas, veículos e materiais que não atendam às exigências de segurança estabelecidas pelas normas internas da organização.",
+      "blocks": []
     },
     {
-      "id": "112-as-organizações-devem-adotar-e-divulgar-no-portão-de-entrada-do-estabelecimento-regras-de",
+      "id": "112-as-organizações-devem-adotar-e-divulgar-no-portão-de-entrada-do-estabelecimento-regras-de-segurança-sobre-a-circulação-de-pessoas-veículos-automotores-ou-de-tração-animal-utilizados-no-transporte-de-explosivos-no-perímetro-da-fábrica-definindo-previamente-seu-itinerário",
       "number": "11.2",
-      "title": "As organizações devem adotar e divulgar no portão de entrada do estabelecimento regras de",
+      "title": "As organizações devem adotar e divulgar no portão de entrada do estabelecimento regras de segurança sobre a circulação de pessoas, veículos automotores ou de tração animal utilizados no transporte de explosivos no perímetro da fábrica, definindo previamente seu itinerário.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "segurança sobre a circulação de pessoas, veículos automotores ou de tração animal utilizados no transporte de explosivos no perímetro da fábrica, definindo previamente seu itinerário."
-        },
         {
           "type": "item",
           "number": "11.2.1",
           "depth": 2,
-          "text": "As organizações devem exercer controle para que o cano de descarga dos veículos não seja"
-        },
-        {
-          "type": "paragraph",
-          "text": "posicionado na direção do pavilhão e esteja dotado de dispositivo quebra-chamas."
+          "text": "As organizações devem exercer controle para que o cano de descarga dos veículos não seja posicionado na direção do pavilhão e esteja dotado de dispositivo quebra-chamas."
         },
         {
           "type": "item",
           "number": "11.2.2",
           "depth": 2,
-          "text": "O carregamento e o descarregamento de veículos devem ser efetuados com os motores"
-        },
-        {
-          "type": "paragraph",
-          "text": "desligados e atendendo ao disposto nesta norma e na legislação pertinente."
+          "text": "O carregamento e o descarregamento de veículos devem ser efetuados com os motores desligados e atendendo ao disposto nesta norma e na legislação pertinente."
         }
       ]
     },
@@ -2284,45 +1773,27 @@
       "blocks": []
     },
     {
-      "id": "121-as-organizações-devem-implantar-sistema-de-coleta-seletiva-do-lixo-em-todos-os-pavilhões-de",
+      "id": "121-as-organizações-devem-implantar-sistema-de-coleta-seletiva-do-lixo-em-todos-os-pavilhões-de-trabalho-e-adotar-procedimentos-seguros-de-descarte-de-materiais-e-produtos-impróprios-para-utilização",
       "number": "12.1",
-      "title": "As organizações devem implantar sistema de coleta seletiva do lixo em todos os pavilhões de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "trabalho e adotar procedimentos seguros de descarte de materiais e produtos impróprios para utilização."
-        }
-      ]
+      "title": "As organizações devem implantar sistema de coleta seletiva do lixo em todos os pavilhões de trabalho e adotar procedimentos seguros de descarte de materiais e produtos impróprios para utilização.",
+      "blocks": []
     },
     {
-      "id": "122-os-resíduos-de-matérias-primas-perigosas-eou-produtos-explosivos-coletados-de-forma-seletiva",
+      "id": "122-os-resíduos-de-matérias-primas-perigosas-eou-produtos-explosivos-coletados-de-forma-seletiva-devem-ser-adequadamente-armazenados-em-recipientes-apropriados-e-em-locais-seguros-distantes-dos-pavilhões-de-trabalho-até-serem-encaminhados-para-destinação-adequada",
       "number": "12.2",
-      "title": "Os resíduos de matérias-primas perigosas e/ou produtos explosivos, coletados de forma seletiva,",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "devem ser adequadamente armazenados em recipientes apropriados e em locais seguros, distantes dos pavilhões de trabalho, até serem encaminhados para destinação adequada."
-        }
-      ]
+      "title": "Os resíduos de matérias-primas perigosas e/ou produtos explosivos, coletados de forma seletiva, devem ser adequadamente armazenados em recipientes apropriados e em locais seguros, distantes dos pavilhões de trabalho, até serem encaminhados para destinação adequada.",
+      "blocks": []
     },
     {
-      "id": "123-a-destruição-de-produtos-explosivos-deve-seguir-o-normativo-de-explosivos-da-diretoria-de",
+      "id": "123-a-destruição-de-produtos-explosivos-deve-seguir-o-normativo-de-explosivos-da-diretoria-de-fiscalização-de-produto-controlado-do-exército-brasileiro-com-procedimentos-implantados-sob-coordenação-do-responsável-técnico",
       "number": "12.3",
-      "title": "A destruição de produtos explosivos deve seguir o normativo de explosivos da Diretoria de",
+      "title": "A destruição de produtos explosivos deve seguir o normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro, com procedimentos implantados sob coordenação do Responsável Técnico.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Fiscalização de Produto Controlado do Exército Brasileiro, com procedimentos implantados sob coordenação do Responsável Técnico."
-        },
         {
           "type": "item",
           "number": "12.3.1",
           "depth": 2,
-          "text": "Todos os trabalhadores envolvidos nas atividades de coleta e destruição de resíduos devem"
-        },
-        {
-          "type": "paragraph",
-          "text": "receber treinamento específico."
+          "text": "Todos os trabalhadores envolvidos nas atividades de coleta e destruição de resíduos devem receber treinamento específico."
         }
       ]
     },
@@ -2333,71 +1804,42 @@
       "blocks": []
     },
     {
-      "id": "131-as-organizações-devem-manter-instalações-sanitárias-para-uso-de-seus-trabalhadores-separadas",
+      "id": "131-as-organizações-devem-manter-instalações-sanitárias-para-uso-de-seus-trabalhadores-separadas-por-sexo-adequadamente-conservadas-e-permanentemente-limpas-em-quantidade-suficiente-ao-número-daqueles-de-acordo-com-o-dimensionamento-previsto-na-norma-regulamentadora-nº-24-nr-24-localizadas-estrategicamente-de-forma-a-atender-todo-o-perímetro-da-fábrica-à-distância-máxima-de-120-m-cento-e-vinte-metros-dos-postos-de-trabalho",
       "number": "13.1",
-      "title": "As organizações devem manter instalações sanitárias para uso de seus trabalhadores, separadas",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "por sexo, adequadamente conservadas e permanentemente limpas, em quantidade suficiente ao número daqueles, de acordo com o dimensionamento previsto na Norma Regulamentadora nº 24 (NR-24), localizadas estrategicamente de forma a atender todo o perímetro da fábrica, à distância máxima de 120 m (cento e vinte metros) dos postos de trabalho."
-        }
-      ]
+      "title": "As organizações devem manter instalações sanitárias para uso de seus trabalhadores, separadas por sexo, adequadamente conservadas e permanentemente limpas, em quantidade suficiente ao número daqueles, de acordo com o dimensionamento previsto na Norma Regulamentadora nº 24 (NR-24), localizadas estrategicamente de forma a atender todo o perímetro da fábrica, à distância máxima de 120 m (cento e vinte metros) dos postos de trabalho.",
+      "blocks": []
     },
     {
-      "id": "132-os-estabelecimentos-devem-ser-dotados-de-vestiários-com-chuveiros-e-armários-individuais-em",
+      "id": "132-os-estabelecimentos-devem-ser-dotados-de-vestiários-com-chuveiros-e-armários-individuais-em-quantidade-suficiente-ao-número-de-trabalhadores-de-acordo-com-o-dimensionamento-previsto-na-nr-24-localizados-estrategicamente-de-forma-a-permitir-que-todos-ingressem-na-área-perigosa-portando-somente-as-vestimentas-e-calçados-adequados-e-de-modo-a-propiciar-a-higienização-antes-do-acesso-ao-local-de-refeições",
       "number": "13.2",
-      "title": "Os estabelecimentos devem ser dotados de vestiários com chuveiros e armários individuais, em",
+      "title": "Os estabelecimentos devem ser dotados de vestiários com chuveiros e armários individuais, em quantidade suficiente ao número de trabalhadores, de acordo com o dimensionamento previsto na NR-24, localizados estrategicamente de forma a permitir que todos ingressem na área perigosa portando somente as vestimentas e calçados adequados e de modo a propiciar a higienização antes do acesso ao local de refeições.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "quantidade suficiente ao número de trabalhadores, de acordo com o dimensionamento previsto na NR-24, localizados estrategicamente de forma a permitir que todos ingressem na área perigosa portando somente as vestimentas e calçados adequados e de modo a propiciar a higienização antes do acesso ao local de refeições."
-        },
         {
           "type": "item",
           "number": "13.2.1",
           "depth": 2,
-          "text": "As organizações manterão, em cada estabelecimento, vestiários específicos e separados para"
-        },
-        {
-          "type": "paragraph",
-          "text": "os trabalhadores que manuseiam alumínio em pó e pólvora negra, localizados estrategicamente a distância máxima de 50 m (cinquenta metros) dos respectivos pavilhões de trabalho."
+          "text": "As organizações manterão, em cada estabelecimento, vestiários específicos e separados para os trabalhadores que manuseiam alumínio em pó e pólvora negra, localizados estrategicamente a distância máxima de 50 m (cinquenta metros) dos respectivos pavilhões de trabalho."
         }
       ]
     },
     {
-      "id": "133-deve-ser-fornecida-água-potável-a-todos-os-trabalhadores-em-recipientes-térmicos-ou",
+      "id": "133-deve-ser-fornecida-água-potável-a-todos-os-trabalhadores-em-recipientes-térmicos-ou-bebedouros-não-metálicos-instalados-em-todos-os-locais-de-trabalho-sendo-proibido-o-uso-de-copos-metálicos-e-coletivos",
       "number": "13.3",
-      "title": "Deve ser fornecida água potável a todos os trabalhadores em recipientes térmicos ou",
+      "title": "Deve ser fornecida água potável a todos os trabalhadores em recipientes térmicos ou bebedouros não metálicos instalados em todos os locais de trabalho, sendo proibido o uso de copos metálicos e coletivos.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "bebedouros não metálicos instalados em todos os locais de trabalho, sendo proibido o uso de copos"
-        },
-        {
-          "type": "paragraph",
-          "text": "metálicos e coletivos."
-        },
         {
           "type": "item",
           "number": "13.3.1",
           "depth": 2,
-          "text": "Nos locais onde se manuseie explosivos, os bebedouros devem ser instalados do lado de fora"
-        },
-        {
-          "type": "paragraph",
-          "text": "dos pavilhões, protegidos da luz solar."
+          "text": "Nos locais onde se manuseie explosivos, os bebedouros devem ser instalados do lado de fora dos pavilhões, protegidos da luz solar."
         }
       ]
     },
     {
-      "id": "134-as-organizações-assegurarão-condições-suficientes-de-conforto-para-as-refeições-dos",
+      "id": "134-as-organizações-assegurarão-condições-suficientes-de-conforto-para-as-refeições-dos-trabalhadores-em-local-adequado-e-fora-da-área-de-produção-provido-de-iluminação-apropriada-piso-lavável-dispositivo-para-aquecer-as-refeições-e-fornecimento-de-água-potável",
       "number": "13.4",
-      "title": "As organizações assegurarão condições suficientes de conforto para as refeições dos",
+      "title": "As organizações assegurarão condições suficientes de conforto para as refeições dos trabalhadores, em local adequado e fora da área de produção, provido de iluminação apropriada, piso lavável, dispositivo para aquecer as refeições e fornecimento de água potável.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "trabalhadores, em local adequado e fora da área de produção, provido de iluminação apropriada, piso lavável, dispositivo para aquecer as refeições e fornecimento de água potável."
-        },
         {
           "type": "item",
           "number": "13.4.1",
@@ -2407,15 +1849,10 @@
       ]
     },
     {
-      "id": "135-nos-casos-em-que-o-transporte-de-trabalhadores-seja-fornecido-pela-organização-deve-ser",
+      "id": "135-nos-casos-em-que-o-transporte-de-trabalhadores-seja-fornecido-pela-organização-deve-ser-utilizado-veículo-em-boas-condições-de-conforto-e-manutenção-e-devidamente-licenciado-pelas-autoridades-competentes-com-assentos-e-local-separado-para-guarda-de-equipamentos-e-materiais-de-trabalho-quando-necessário",
       "number": "13.5",
-      "title": "Nos casos em que o transporte de trabalhadores seja fornecido pela organização, deve ser",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "utilizado veículo em boas condições de conforto e manutenção e devidamente licenciado pelas autoridades competentes, com assentos e local separado para guarda de equipamentos e materiais de trabalho, quando necessário."
-        }
-      ]
+      "title": "Nos casos em que o transporte de trabalhadores seja fornecido pela organização, deve ser utilizado veículo em boas condições de conforto e manutenção e devidamente licenciado pelas autoridades competentes, com assentos e local separado para guarda de equipamentos e materiais de trabalho, quando necessário.",
+      "blocks": []
     },
     {
       "id": "14-treinamento-de-trabalhadores",
@@ -2424,14 +1861,10 @@
       "blocks": []
     },
     {
-      "id": "141-as-organizações-devem-promover-o-treinamento-permanente-dos-seus-trabalhadores-conforme",
+      "id": "141-as-organizações-devem-promover-o-treinamento-permanente-dos-seus-trabalhadores-conforme-programa-e-cronograma-específico-elaborado-pelo-serviço-especializado-em-engenharia-de-segurança-e-em-medicina-do-trabalho---sesmt-quando-houver-e-ministrando-lhes-todas-as-informações-sobre",
       "number": "14.1",
-      "title": "As organizações devem promover o treinamento permanente dos seus trabalhadores, conforme",
+      "title": "As organizações devem promover o treinamento permanente dos seus trabalhadores, conforme programa e cronograma específico, elaborado pelo Serviço Especializado em Engenharia de Segurança e em Medicina do Trabalho - SESMT, quando houver, e ministrando-lhes todas as informações sobre",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "programa e cronograma específico, elaborado pelo Serviço Especializado em Engenharia de Segurança e em Medicina do Trabalho - SESMT, quando houver, e ministrando-lhes todas as informações sobre:"
-        },
         {
           "type": "list",
           "items": [
@@ -2473,13 +1906,9 @@
           "items": [
             {
               "label": "e",
-              "text": "a correta utilização e manutenção dos equipamentos de proteção individual, bem como as suas"
+              "text": "a correta utilização e manutenção dos equipamentos de proteção individual, bem como as suas limitações."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "limitações."
         },
         {
           "type": "item",
@@ -2497,21 +1926,13 @@
           "type": "item",
           "number": "14.1.3",
           "depth": 2,
-          "text": "O treinamento eventual deve ser realizado sempre que houver troca de função que envolva"
-        },
-        {
-          "type": "paragraph",
-          "text": "novos riscos, mudança nos procedimentos, equipamentos, processos ou nos materiais de trabalho."
+          "text": "O treinamento eventual deve ser realizado sempre que houver troca de função que envolva novos riscos, mudança nos procedimentos, equipamentos, processos ou nos materiais de trabalho."
         },
         {
           "type": "item",
           "number": "14.1.4",
           "depth": 2,
-          "text": "Ao término dos treinamentos inicial, periódico ou eventual, é obrigatório o registro de seu"
-        },
-        {
-          "type": "paragraph",
-          "text": "conteúdo, carga horária e frequência, em conformidade com a NR-1."
+          "text": "Ao término dos treinamentos inicial, periódico ou eventual, é obrigatório o registro de seu conteúdo, carga horária e frequência, em conformidade com a NR-1."
         }
       ]
     },
@@ -2522,29 +1943,16 @@
       "blocks": []
     },
     {
-      "id": "151-todos-os-acidentes-de-trabalho-envolvendo-materiais-explosivos-devem-ser-comunicados-aos",
+      "id": "151-todos-os-acidentes-de-trabalho-envolvendo-materiais-explosivos-devem-ser-comunicados-aos-sindicatos-das-categorias-profissional-e-econômica-e-à-unidade-descentralizada-da-inspeção-do-trabalho-observado-o-prazo-legal-e-os-incidentes-envolvendo-materiais-explosivos-a-estas-entidades-em-até-dois-dias-úteis",
       "number": "15.1",
-      "title": "Todos os acidentes de trabalho envolvendo materiais explosivos devem ser comunicados aos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "sindicatos das categorias profissional e econômica e à unidade descentralizada da Inspeção do Trabalho, observado o prazo legal, e os incidentes envolvendo materiais explosivos, a estas entidades,"
-        },
-        {
-          "type": "paragraph",
-          "text": "em até dois dias úteis."
-        }
-      ]
+      "title": "Todos os acidentes de trabalho envolvendo materiais explosivos devem ser comunicados aos sindicatos das categorias profissional e econômica e à unidade descentralizada da Inspeção do Trabalho, observado o prazo legal, e os incidentes envolvendo materiais explosivos, a estas entidades, em até dois dias úteis.",
+      "blocks": []
     },
     {
-      "id": "152-todos-os-acidentes-e-incidentes-envolvendo-materiais-explosivos-devem-ser-objeto-de-registro",
+      "id": "152-todos-os-acidentes-e-incidentes-envolvendo-materiais-explosivos-devem-ser-objeto-de-registro-escrito-e-análise-por-comissão-constituída-no-mínimo-pelo-responsável-técnico-pela-cipa-ou-representante-dos-empregados-e-pelo-sesmt-da-organização-quando-houver-com-discriminação",
       "number": "15.2",
-      "title": "Todos os acidentes e incidentes envolvendo materiais explosivos devem ser objeto de registro",
+      "title": "Todos os acidentes e incidentes envolvendo materiais explosivos devem ser objeto de registro escrito e análise por comissão constituída, no mínimo, pelo Responsável Técnico, pela CIPA ou representante dos empregados e pelo SESMT da organização, quando houver, com discriminação",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "escrito e análise por comissão constituída, no mínimo, pelo Responsável Técnico, pela CIPA ou representante dos empregados e pelo SESMT da organização, quando houver, com discriminação:"
-        },
         {
           "type": "list",
           "items": [
@@ -2590,23 +1998,15 @@
       "blocks": []
     },
     {
-      "id": "161-as-organizações-devem-dispor-de-documentos-que-atestem-a-qualidade-das-matérias-primas",
+      "id": "161-as-organizações-devem-dispor-de-documentos-que-atestem-a-qualidade-das-matérias-primas-utilizadas",
       "number": "16.1",
-      "title": "As organizações devem dispor de documentos que atestem a qualidade das matérias-primas",
+      "title": "As organizações devem dispor de documentos que atestem a qualidade das matérias-primas utilizadas.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "utilizadas."
-        },
         {
           "type": "item",
           "number": "16.1.1",
           "depth": 2,
-          "text": "Os documentos mencionados no item 16.1 devem ser arquivados em meio físico ou eletrônico"
-        },
-        {
-          "type": "paragraph",
-          "text": "por um período mínimo de 2 (dois) anos e mantidos à disposição da Inspeção do Trabalho."
+          "text": "Os documentos mencionados no item 16.1 devem ser arquivados em meio físico ou eletrônico por um período mínimo de 2 (dois) anos e mantidos à disposição da Inspeção do Trabalho."
         }
       ]
     },
@@ -2626,122 +2026,69 @@
           "items": [
             {
               "label": "a",
-              "text": "comércio de produtos de uso restrito: venda a varejo e/ou atacado de fogos de artifício ou outros"
+              "text": "comércio de produtos de uso restrito: venda a varejo e/ou atacado de fogos de artifício ou outros artifícios pirotécnicos de uso restrito, conforme estabelecido por este Anexo e pelo normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "artifícios pirotécnicos de uso restrito, conforme estabelecido por este Anexo e pelo normativo de explosivos da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro;"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "b",
-              "text": "comércio de produtos de uso permitido: venda a varejo e/ou atacado de fogos de artifício ou"
+              "text": "comércio de produtos de uso permitido: venda a varejo e/ou atacado de fogos de artifício ou outros artifícios pirotécnicos em geral que não são definidos como de uso restrito pela legislação do Exército Brasileiro."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "outros artifícios pirotécnicos em geral que não são definidos como de uso restrito pela legislação do"
-        },
-        {
-          "type": "paragraph",
-          "text": "Exército Brasileiro."
         }
       ]
     },
     {
-      "id": "172-no-local-de-comercialização-de-produtos-de-uso-restrito-também-poderão-ser-comercializados",
+      "id": "172-no-local-de-comercialização-de-produtos-de-uso-restrito-também-poderão-ser-comercializados-produtos-de-uso-permitido",
       "number": "17.2",
-      "title": "No local de comercialização de produtos de uso restrito também poderão ser comercializados",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "produtos de uso permitido."
-        }
-      ]
+      "title": "No local de comercialização de produtos de uso restrito também poderão ser comercializados produtos de uso permitido.",
+      "blocks": []
     },
     {
-      "id": "173-nos-depósitos-e-locais-de-comercialização-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos",
+      "id": "173-nos-depósitos-e-locais-de-comercialização-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-são-expressamente-vedadas-as-atividades-de-fabricação-testes-montagem-e-desmontagem-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos",
       "number": "17.3",
-      "title": "Nos depósitos e locais de comercialização de fogos de artifício ou outros artifícios pirotécnicos",
+      "title": "Nos depósitos e locais de comercialização de fogos de artifício ou outros artifícios pirotécnicos são expressamente vedadas as atividades de fabricação, testes, montagem e desmontagem de fogos de artifício ou outros artifícios pirotécnicos.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "são expressamente vedadas as atividades de fabricação, testes, montagem e desmontagem de fogos de artifício ou outros artifícios pirotécnicos."
-        },
         {
           "type": "item",
           "number": "17.3.1",
           "depth": 2,
-          "text": "No caso de organizações autorizadas a realizar espetáculos pirotécnicos, as atividades de"
-        },
-        {
-          "type": "paragraph",
-          "text": "montagem e desmontagem somente podem ser realizadas em local específico para este fim, independente e isolado das instalações principais e que atenda ao disposto na legislação pertinente."
+          "text": "No caso de organizações autorizadas a realizar espetáculos pirotécnicos, as atividades de montagem e desmontagem somente podem ser realizadas em local específico para este fim, independente e isolado das instalações principais e que atenda ao disposto na legislação pertinente."
         }
       ]
     },
     {
-      "id": "174-a-quantidade-máxima-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-permitida-em-um",
+      "id": "174-a-quantidade-máxima-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-permitida-em-um-local-de-comercialização-de-produtos-de-uso-permitido-deve-atender-às-normas-expedidas-pelo-órgão-estadual-ou-municipal-competente",
       "number": "17.4",
-      "title": "A quantidade máxima de fogos de artifício ou outros artifícios pirotécnicos permitida em um",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "local de comercialização de produtos de uso permitido deve atender às normas expedidas pelo órgão estadual ou municipal competente."
-        }
-      ]
+      "title": "A quantidade máxima de fogos de artifício ou outros artifícios pirotécnicos permitida em um local de comercialização de produtos de uso permitido deve atender às normas expedidas pelo órgão estadual ou municipal competente.",
+      "blocks": []
     },
     {
-      "id": "175-a-quantidade-máxima-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-no-local-de",
+      "id": "175-a-quantidade-máxima-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-no-local-de-comercialização-de-produtos-de-uso-restrito-deve-atender-ao-disposto-no-normativo-de-explosivos-da-diretoria-de-fiscalização-de-produto-controlado-do-exército-brasileiro",
       "number": "17.5",
-      "title": "A quantidade máxima de fogos de artifício ou outros artifícios pirotécnicos no local de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "comercialização de produtos de uso restrito deve atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro."
-        }
-      ]
+      "title": "A quantidade máxima de fogos de artifício ou outros artifícios pirotécnicos no local de comercialização de produtos de uso restrito deve atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro.",
+      "blocks": []
     },
     {
-      "id": "176-todo-local-de-comercialização-deve-possuir-sistema-de-proteção-contra-incêndio-de-acordo-com",
+      "id": "176-todo-local-de-comercialização-deve-possuir-sistema-de-proteção-contra-incêndio-de-acordo-com-a-norma-regulamentadora-nº-23-nr-23-e-normas-pertinentes-do-estado-ou-município",
       "number": "17.6",
-      "title": "Todo local de comercialização deve possuir sistema de proteção contra incêndio, de acordo com",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "a Norma Regulamentadora n.º 23 (NR-23) e normas pertinentes do estado ou município."
-        }
-      ]
+      "title": "Todo local de comercialização deve possuir sistema de proteção contra incêndio, de acordo com a Norma Regulamentadora n.º 23 (NR-23) e normas pertinentes do estado ou município.",
+      "blocks": []
     },
     {
-      "id": "177-os-estabelecimentos-de-comercialização-de-produtos-de-uso-restrito-devem-estar-localizados-de",
+      "id": "177-os-estabelecimentos-de-comercialização-de-produtos-de-uso-restrito-devem-estar-localizados-de-modo-a-atender-ao-disposto-no-normativo-de-explosivos-da-diretoria-de-fiscalização-de-produto-controlado-do-exército-brasileiro",
       "number": "17.7",
-      "title": "Os estabelecimentos de comercialização de produtos de uso restrito devem estar localizados de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "modo a atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto"
-        },
-        {
-          "type": "paragraph",
-          "text": "Controlado do Exército Brasileiro."
-        }
-      ]
+      "title": "Os estabelecimentos de comercialização de produtos de uso restrito devem estar localizados de modo a atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro.",
+      "blocks": []
     },
     {
-      "id": "178-os-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-à-venda-devem-ser-dispostos-em-locais",
+      "id": "178-os-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-à-venda-devem-ser-dispostos-em-locais-distintos-dos-de-líquidos-inflamáveis-substâncias-oxidantes-corrosivas-e-outras-de-riscos-similares-sendo-vedada-a-sua-disposição-em-móveis-fechados",
       "number": "17.8",
-      "title": "Os fogos de artifício ou outros artifícios pirotécnicos à venda devem ser dispostos em locais",
+      "title": "Os fogos de artifício ou outros artifícios pirotécnicos à venda devem ser dispostos em locais distintos dos de líquidos inflamáveis, substâncias oxidantes, corrosivas e outras de riscos similares, sendo vedada a sua disposição em móveis fechados.",
       "blocks": [
-        {
-          "type": "paragraph",
-          "text": "distintos dos de líquidos inflamáveis, substâncias oxidantes, corrosivas e outras de riscos similares, sendo vedada a sua disposição em móveis fechados."
-        },
         {
           "type": "item",
           "number": "17.8.1",
@@ -2751,26 +2098,16 @@
       ]
     },
     {
-      "id": "179-os-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-devem-ser-mantidos-em-suas-embalagens",
+      "id": "179-os-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-devem-ser-mantidos-em-suas-embalagens-originais-com-rótulos-em-português-e-atender-ao-disposto-no-normativo-de-explosivos-da-diretoria-de-fiscalização-de-produto-controlado-do-exército-brasileiro",
       "number": "17.9",
-      "title": "Os fogos de artifícios ou outros artifícios pirotécnicos devem ser mantidos em suas embalagens",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "originais, com rótulos em português e atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro."
-        }
-      ]
+      "title": "Os fogos de artifícios ou outros artifícios pirotécnicos devem ser mantidos em suas embalagens originais, com rótulos em português e atender ao disposto no normativo de explosivos da Diretoria de Fiscalização de Produto Controlado do Exército Brasileiro.",
+      "blocks": []
     },
     {
-      "id": "1710-as-prateleiras-e-os-balcões-de-venda-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos",
+      "id": "1710-as-prateleiras-e-os-balcões-de-venda-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-devem-ser-dotados-de-sinalização-de-advertência-quanto-à-proibição-de-fumar-ou-provocar-qualquer-tipo-de-chama-ou-centelha",
       "number": "17.10",
-      "title": "As prateleiras e os balcões de venda de fogos de artifício ou outros artifícios pirotécnicos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "devem ser dotados de sinalização de advertência quanto à proibição de fumar ou provocar qualquer tipo de chama ou centelha."
-        }
-      ]
+      "title": "As prateleiras e os balcões de venda de fogos de artifício ou outros artifícios pirotécnicos devem ser dotados de sinalização de advertência quanto à proibição de fumar ou provocar qualquer tipo de chama ou centelha.",
+      "blocks": []
     },
     {
       "id": "18-disposições-finais",
@@ -2779,96 +2116,52 @@
       "blocks": []
     },
     {
-      "id": "181-em-todas-as-atividades-produtivas-de-fabricação-de-fogos-de-artifício-ou-outros-artifícios",
+      "id": "181-em-todas-as-atividades-produtivas-de-fabricação-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-é-proibida-a-remuneração-por-produtividade",
       "number": "18.1",
-      "title": "Em todas as atividades produtivas de fabricação de fogos de artifício ou outros artifícios",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "pirotécnicos é proibida a remuneração por produtividade."
-        }
-      ]
+      "title": "Em todas as atividades produtivas de fabricação de fogos de artifício ou outros artifícios pirotécnicos é proibida a remuneração por produtividade.",
+      "blocks": []
     },
     {
-      "id": "182-é-vedada-a-fabricação-de-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-com-as-matérias-primas-proibidas-pela-legislação-da-diretoria-de-fiscalização-de-produtos-controlados-do-exército",
+      "id": "182-é-vedada-a-fabricação-de-fogos-de-artifícios-ou-outros-artifícios-pirotécnicos-com-as-matérias-primas-proibidas-pela-legislação-da-diretoria-de-fiscalização-de-produtos-controlados-do-exército-brasileiro",
       "number": "18.2",
-      "title": "É vedada a fabricação de fogos de artifícios ou outros artifícios pirotécnicos com as matérias primas proibidas pela legislação da Diretoria de Fiscalização de Produtos Controlados do Exército",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Brasileiro."
-        }
-      ]
+      "title": "É vedada a fabricação de fogos de artifícios ou outros artifícios pirotécnicos com as matérias-primas proibidas pela legislação da Diretoria de Fiscalização de Produtos Controlados do Exército Brasileiro.",
+      "blocks": []
     },
     {
-      "id": "183-é-vedada-a-contratação-de-serviços-externos-que-envolvam-o-manuseio-de-materiais-ou-misturas",
+      "id": "183-é-vedada-a-contratação-de-serviços-externos-que-envolvam-o-manuseio-de-materiais-ou-misturas-de-explosivos-exceto-de-organização-ou-prestador-de-serviço-que-atenda-o-disposto-nesta-norma",
       "number": "18.3",
-      "title": "É vedada a contratação de serviços externos que envolvam o manuseio de materiais ou misturas",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "de explosivos, exceto de organização ou prestador de serviço que atenda o disposto nesta norma."
-        }
-      ]
+      "title": "É vedada a contratação de serviços externos que envolvam o manuseio de materiais ou misturas de explosivos, exceto de organização ou prestador de serviço que atenda o disposto nesta norma.",
+      "blocks": []
     },
     {
-      "id": "184-as-organizações-não-utilizarão-mão-de-obra-de-menores-de-18-dezoito-anos-para-a-fabricação",
+      "id": "184-as-organizações-não-utilizarão-mão-de-obra-de-menores-de-18-dezoito-anos-para-a-fabricação-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-e-nem-para-o-transporte-processamento-armazenamento-manuseio-ou-carregamento-de-suas-matérias-primas",
       "number": "18.4",
-      "title": "As organizações não utilizarão mão-de-obra de menores de 18 (dezoito) anos para a fabricação",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "de fogos de artifício ou outros artifícios pirotécnicos e nem para o transporte, processamento, armazenamento, manuseio ou carregamento de suas matérias-primas."
-        }
-      ]
+      "title": "As organizações não utilizarão mão-de-obra de menores de 18 (dezoito) anos para a fabricação de fogos de artifício ou outros artifícios pirotécnicos e nem para o transporte, processamento, armazenamento, manuseio ou carregamento de suas matérias-primas.",
+      "blocks": []
     },
     {
-      "id": "185-as-organizações-não-permitirão-a-entrada-de-menores-de-18-dezoito-anos-nos",
+      "id": "185-as-organizações-não-permitirão-a-entrada-de-menores-de-18-dezoito-anos-nos-estabelecimentos-de-fabricação-de-fogos-de-artifício-ou-outros-artifícios-pirotécnicos-exceto-no-setor-de-cartonagem-em-que-não-haja-contato-com-explosivos-ou-inflamáveis-e-nos-setores-administrativos-desde-que-localizados-fora-da-área-de-risco",
       "number": "18.5",
-      "title": "As organizações não permitirão a entrada de menores de 18 (dezoito) anos nos",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "estabelecimentos de fabricação de fogos de artifício ou outros artifícios pirotécnicos, exceto no setor de cartonagem, em que não haja contato com explosivos ou inflamáveis e nos setores administrativos, desde que localizados fora da área de risco."
-        }
-      ]
+      "title": "As organizações não permitirão a entrada de menores de 18 (dezoito) anos nos estabelecimentos de fabricação de fogos de artifício ou outros artifícios pirotécnicos, exceto no setor de cartonagem, em que não haja contato com explosivos ou inflamáveis e nos setores administrativos, desde que localizados fora da área de risco.",
+      "blocks": []
     },
     {
-      "id": "186-é-expressamente-proibida-a-realização-de-testes-de-materiais-ou-produtos-nos-pavilhões-de",
+      "id": "186-é-expressamente-proibida-a-realização-de-testes-de-materiais-ou-produtos-nos-pavilhões-de-trabalho-ou-por-trabalhador-não-treinado-para-esta-finalidade",
       "number": "18.6",
-      "title": "É expressamente proibida a realização de testes de materiais ou produtos nos pavilhões de",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "trabalho ou por trabalhador não treinado para esta finalidade."
-        }
-      ]
+      "title": "É expressamente proibida a realização de testes de materiais ou produtos nos pavilhões de trabalho ou por trabalhador não treinado para esta finalidade.",
+      "blocks": []
     },
     {
-      "id": "187-o-teste-de-novos-materiais-ou-novos-produtos-somente-poderá-ser-realizado-sob-a-supervisão",
+      "id": "187-o-teste-de-novos-materiais-ou-novos-produtos-somente-poderá-ser-realizado-sob-a-supervisão-direta-de-responsável-técnico",
       "number": "18.7",
-      "title": "O teste de novos materiais ou novos produtos somente poderá ser realizado sob a supervisão",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "direta de Responsável Técnico."
-        }
-      ]
+      "title": "O teste de novos materiais ou novos produtos somente poderá ser realizado sob a supervisão direta de Responsável Técnico.",
+      "blocks": []
     },
     {
-      "id": "anexo-ii-da-nr-19",
+      "id": "anexo-ii-da-nr-19-tabelas-de-quantidades-distâncias",
       "number": "ANEXO II",
-      "title": "da NR-19",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**TABELAS DE QUANTIDADES-DISTÂNCIAS**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**SUMÁRIO**"
-        }
-      ]
+      "title": "da NR-19 TABELAS DE QUANTIDADES-DISTÂNCIAS",
+      "blocks": []
     },
     {
       "id": "1-considerações-iniciais",
@@ -2917,23 +2210,24 @@
       "id": "2-tabelas",
       "number": "2",
       "title": "Tabelas",
+      "blocks": []
+    },
+    {
+      "id": "21-explosivos-de-ruptura",
+      "number": "2.1",
+      "title": "Explosivos de ruptura",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2.1 Explosivos de ruptura"
-        },
-        {
-          "type": "paragraph",
-          "text": "De uma forma geral, compreendem materiais que podem ser detonados por uma espoleta comum quando não confinados, isto é, liberam sua energia tão rapidamente quanto possível, apresentando taxas de queima supersônicas e produzindo os efeitos destrutivos necessários a partir da formação de ondas de choque e da expansão de gases de altas temperaturas oriundas de reações químicas exotérmicas de decomposição. Eles se destinam à produção de trabalho de destruição pela ação dos gases e da onda de choque produzidos quando se transformam por detonação. Recebem o nome de explosivos secundários por exigirem a onda de detonação de outro explosivo para ser iniciado. Para os produtos enquadrados no grupo explosivos de ruptura, devem ser aplicadas as distâncias"
-        },
-        {
-          "type": "paragraph",
-          "text": "constantes da Tabela 3."
-        },
-        {
-          "type": "paragraph",
-          "text": "2.2 Baixos Explosivos"
-        },
+          "text": "De uma forma geral, compreendem materiais que podem ser detonados por uma espoleta comum quando não confinados, isto é, liberam sua energia tão rapidamente quanto possível, apresentando taxas de queima supersônicas e produzindo os efeitos destrutivos necessários a partir da formação de ondas de choque e da expansão de gases de altas temperaturas oriundas de reações químicas exotérmicas de decomposição. Eles se destinam à produção de trabalho de destruição pela ação dos gases e da onda de choque produzidos quando se transformam por detonação. Recebem o nome de explosivos secundários por exigirem a onda de detonação de outro explosivo para ser iniciado. Para os produtos enquadrados no grupo explosivos de ruptura, devem ser aplicadas as distâncias constantes da Tabela 3."
+        }
+      ]
+    },
+    {
+      "id": "22-baixos-explosivos",
+      "number": "2.2",
+      "title": "Baixos Explosivos",
+      "blocks": [
         {
           "type": "paragraph",
           "text": "De uma forma geral, compreendem os materiais que produzem gases quentes sem a formação de onda de choque e liberam energia por meio de deflagração quando confinados, isto é, apresentam taxas de queima subsônicas conduzidas pelo efeito progressivo de transferência de calor, de modo que esta expansão de gases exerça uma pressão que possa ser aproveitada para a geração de um empuxo controlado, dando origem a efeitos balísticos de propulsão. Para os produtos enquadrados no grupo baixos explosivos, devem ser aplicadas as distâncias constantes da Tabela 1."
@@ -2945,31 +2239,34 @@
         {
           "type": "paragraph",
           "text": "Esses produtos se deterioram pela ação da umidade, temperatura elevada e idade; queimam produzindo calor intenso, sem estilhaços ou pressões capazes de causar danos sérios, deve-se aplicar a Tabela 1, para seu armazenamento, exceto quando classificadas como sólido inflamável conforme descrito no subitem 19.5.5 desta norma. Neste caso, o risco principal é o incêndio, não havendo necessidade de tabela especial de distâncias."
-        },
-        {
-          "type": "paragraph",
-          "text": "2.3. Iniciadores Explosivos"
-        },
+        }
+      ]
+    },
+    {
+      "id": "23-iniciadores-explosivos",
+      "number": "2.3",
+      "title": "Iniciadores Explosivos",
+      "blocks": [
         {
           "type": "paragraph",
           "text": "De uma forma geral, compreendem os materiais energéticos extremamente sensíveis que podem ser iniciados por atrito, choque mecânico, calor ou centelha elétrica, que se decompõem por detonação e tem por finalidade precípua iniciar explosivos menos sensíveis. Para os produtos enquadrados no grupo iniciadores explosivos, devem ser aplicadas as distâncias constantes da Tabela 2."
         },
         {
           "type": "paragraph",
-          "text": "2.4. Produtos químicos usados como insumos ou intermediários no fabrico de misturas explosivas. Fazem parte desta categoria o clorato de potássio, dinitrotolueno, emulsão base ou pré-emulsão, nitrato de amônio, perclorato de amônio, perclorato de potássio e outros que só detonam em condições especiais:"
+          "text": "2.4. Produtos químicos usados como insumos ou intermediários no fabrico de misturas explosivas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fazem parte desta categoria o clorato de potássio, dinitrotolueno, emulsão base ou pré-emulsão, nitrato de amônio, perclorato de amônio, perclorato de potássio e outros que só detonam em condições especiais:"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "a",
-              "text": "quando os produtos armazenados apresentarem apenas o risco de fogo, as distâncias constantes"
+              "text": "quando os produtos armazenados apresentarem apenas o risco de fogo, as distâncias constantes da Tabela 1 devem ser aplicadas; e b) quando os produtos forem armazenados próximos a outros materiais, com os quais podem formar misturas explosivas, as distâncias entre depósitos, devem obedecer às constantes da Tabela 3, permanecendo as demais distâncias (habitações, rodovias e ferrovias) as constantes da Tabela 1."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "da Tabela 1 devem ser aplicadas; e b) quando os produtos forem armazenados próximos a outros materiais, com os quais podem formar misturas explosivas, as distâncias entre depósitos, devem obedecer às constantes da Tabela 3, permanecendo as demais distâncias (habitações, rodovias e ferrovias) as constantes da Tabela 1."
         },
         {
           "type": "paragraph",
@@ -2980,13 +2277,9 @@
           "items": [
             {
               "label": "a",
-              "text": "quando apresentam risco de explosão em massa ou de projeção, devem ser armazenados"
+              "text": "quando apresentam risco de explosão em massa ou de projeção, devem ser armazenados aplicando-se a Tabela 3;"
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "aplicando-se a Tabela 3;"
         },
         {
           "type": "list",
@@ -3002,55 +2295,60 @@
           "items": [
             {
               "label": "c",
-              "text": "quando não há risco significativo, e que na eventualidade de uma iniciação seus efeitos ficam"
+              "text": "quando não há risco significativo, e que na eventualidade de uma iniciação seus efeitos ficam confinados, predominantemente, à embalagem e não projetam fragmentos de dimensões apreciáveis à grande distância, devem ser armazenados conforme a Tabela 1."
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "confinados, predominantemente, à embalagem e não projetam fragmentos de dimensões apreciáveis à grande distância, devem ser armazenados conforme a Tabela 1."
+          "text": "**TABELA 1**"
         },
         {
           "type": "paragraph",
-          "text": "Observações: 1) a quantidade de 226.800 kg é a máxima permitida em um mesmo local; 2) a quantidade máxima permitida, em um mesmo local, de nitrato de amônio, grau agrícola, destinado à fabricação de fertilizantes, e as condições de armazenamento serão estabelecidas em legislação complementar."
+          "text": "Observações:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1) a quantidade de 226.800 kg é a máxima permitida em um mesmo local;"
+        },
+        {
+          "type": "paragraph",
+          "text": "2) a quantidade máxima permitida, em um mesmo local, de nitrato de amônio, grau agrícola, destinado à fabricação de fertilizantes, e as condições de armazenamento serão estabelecidas em legislação complementar."
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA 2**"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 21",
-          "src": "../assets/pages/page-021-table-00.png"
-        },
-        {
-          "type": "image",
-          "alt": "Tabela da página 21",
-          "src": "../assets/pages/page-021-table-01.png"
+          "alt": "Página 21 (tabelas)",
+          "src": "../assets/pages/page-021-table-full.png"
         },
         {
           "type": "paragraph",
           "text": "Observação: a quantidade de 9.000 kg é a máxima permitida em um mesmo local."
         },
         {
-          "type": "image",
-          "alt": "Tabela da página 22",
-          "src": "../assets/pages/page-022-table-00.png"
+          "type": "paragraph",
+          "text": "**TABELA 3**"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 22",
-          "src": "../assets/pages/page-022-table-01.png"
+          "alt": "Página 22 (tabelas)",
+          "src": "../assets/pages/page-022-table-full.png"
         },
         {
           "type": "paragraph",
           "text": "Observação: a quantidade de 113.500 kg é a máxima permitida em um mesmo local."
         },
         {
-          "type": "image",
-          "alt": "Tabela da página 23",
-          "src": "../assets/pages/page-023-table-00.png"
+          "type": "paragraph",
+          "text": "**TABELA 4**"
         },
         {
           "type": "image",
-          "alt": "Tabela da página 23",
-          "src": "../assets/pages/page-023-table-01.png"
+          "alt": "Página 23 (tabelas)",
+          "src": "../assets/pages/page-023-table-full.png"
         },
         {
           "type": "paragraph",
@@ -3059,31 +2357,18 @@
       ]
     },
     {
-      "id": "anexo-iii-da-nr-19",
+      "id": "anexo-iii-da-nr-19-grupos-de-incompatibilidade-para-armazenamento-e-transporte",
       "number": "ANEXO III",
-      "title": "da NR-19",
+      "title": "da NR-19 GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "**GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE**"
-        },
-        {
           "type": "image",
-          "alt": "Tabela da página 24",
-          "src": "../assets/pages/page-024-table-00.png"
-        },
-        {
-          "type": "image",
-          "alt": "Tabela da página 24",
-          "src": "../assets/pages/page-024-table-01.png"
+          "alt": "Página 24 (tabelas)",
+          "src": "../assets/pages/page-024-table-full.png"
         },
         {
           "type": "paragraph",
-          "text": "**GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE**"
-        },
-        {
-          "type": "paragraph",
-          "text": "_**(cont.)**_"
+          "text": "**GRUPOS DE INCOMPATIBILIDADE PARA ARMAZENAMENTO E TRANSPORTE** **_(cont.)_**"
         },
         {
           "type": "paragraph",
@@ -3091,29 +2376,13 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 25",
-          "src": "../assets/pages/page-025-table-00.png"
-        },
-        {
-          "type": "image",
-          "alt": "Tabela da página 25",
-          "src": "../assets/pages/page-025-table-01.png"
+          "alt": "Página 25 (tabelas)",
+          "src": "../assets/pages/page-025-table-full.png"
         },
         {
           "type": "paragraph",
-          "text": "1) X - combinações incompatíveis entre si, ou seja, os produtos não devem ser transportados ou"
+          "text": "1) X - combinações incompatíveis entre si, ou seja, os produtos não devem ser transportados ou armazenados em uma mesma unidade. GLOSSÁRIO"
         },
-        {
-          "type": "paragraph",
-          "text": "armazenados em uma mesma unidade."
-        }
-      ]
-    },
-    {
-      "id": "glossário-glossário",
-      "number": "Glossário",
-      "title": "GLOSSÁRIO",
-      "blocks": [
         {
           "type": "paragraph",
           "text": "**Acessório explosivo** : engenho não muito sensível, de elevada energia de ativação, que tem por finalidade fornecer energia suficiente à continuidade de um trem explosivo e que necessita de um acessório iniciador para ser ativado."
@@ -3160,11 +2429,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Depósitos temporários móveis** : são construções especiais, geralmente galpões fechados, de material leve, com as laterais reforçadas e o teto de pouca resistência. Podem ser desmontáveis ou não, a fim de permitir o seu deslocamento de um ponto a outro do terreno, acompanhando a mudança de local"
-        },
-        {
-          "type": "paragraph",
-          "text": "dos trabalhos. **Dinamite** : são todos os que contêm nitroglicerina em sua composição, exigindo maior cuidado em seu manuseio e utilização devido à elevada sensibilidade."
+          "text": "**Depósitos temporários móveis** : são construções especiais, geralmente galpões fechados, de material leve, com as laterais reforçadas e o teto de pouca resistência. Podem ser desmontáveis ou não, a fim de permitir o seu deslocamento de um ponto a outro do terreno, acompanhando a mudança de local dos trabalhos. **Dinamite** : são todos os que contêm nitroglicerina em sua composição, exigindo maior cuidado em seu manuseio e utilização devido à elevada sensibilidade."
         },
         {
           "type": "paragraph",
@@ -3200,11 +2465,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Espoletim, estopim-espoleta, espoleta-estopim ou espoletados** : conjunto de estopim acoplado a uma espoleta. Pode ser hidráulico, se transmitir chama dentro da água, ou comum, se não transmitir."
-        },
-        {
-          "type": "paragraph",
-          "text": "**Estopim** : tubo flexível preenchido com pólvora negra destinado a transmitir a chama para iniciação de espoletas."
+          "text": "**Espoletim, estopim-espoleta, espoleta-estopim ou espoletados** : conjunto de estopim acoplado a uma espoleta. Pode ser hidráulico, se transmitir chama dentro da água, ou comum, se não transmitir. **Estopim** : tubo flexível preenchido com pólvora negra destinado a transmitir a chama para iniciação de espoletas."
         },
         {
           "type": "paragraph",
@@ -3260,7 +2521,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Veículos automotores que transportam explosivos e seus acessórios, munições e outros** **implementos de material bélico** : não são considerados depósitos. Devendo atender as características, dispositivos de segurança e habilitação dos condutores exigidos na legislação de transporte de cargas perigosas."
+          "text": "**Veículos automotores que transportam explosivos e seus acessórios, munições e outros implementos de material bélico** : não são considerados depósitos. Devendo atender as características, dispositivos de segurança e habilitação dos condutores exigidos na legislação de transporte de cargas perigosas."
         }
       ]
     }

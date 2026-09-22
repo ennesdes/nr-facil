@@ -1492,13 +1492,8 @@
           "text": "**Tabela 2 - Critérios para Atualização**"
         },
         {
-          "type": "image",
-          "alt": "Tabela da página 14",
-          "src": "../assets/pages/page-014-table-00.png"
-        },
-        {
-          "type": "table",
-          "markdown": "| Atividade Classe | Instalação Classe I | Instalação Classe II | Instalação Classe III |\n| --- | --- | --- | --- |\n| Específica, pontual e de curta duração | Curso Básico (4 horas) | Curso Básico (6 horas) | Curso Básico (8 horas) |\n| Manutenção e inspeção | Curso Intermediário (12 horas) | Curso Intermediário (14 horas) | Curso Intermediário (16 horas) |\n| Operação e atendimento a emergências | Curso Intermediário (12 horas) | Curso Avançado I (20 horas) | Curso Avançado II (32 horas) |\n| Segurança e saúde no trabalho | - | Curso Específico (14 horas) | Curso Específico (16 horas) | Conteúdo programático |"
+          "type": "paragraph",
+          "text": "![Página 14 (tabelas)](../assets/pages/page-014-table-full.png) Conteúdo programático"
         },
         {
           "type": "list",

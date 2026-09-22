@@ -116,13 +116,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 2",
-          "src": "../assets/pages/page-002-table-00.png"
-        },
-        {
-          "type": "image",
-          "alt": "Tabela da página 2",
-          "src": "../assets/pages/page-002-table-01.png"
+          "alt": "Página 2 (tabelas)",
+          "src": "../assets/pages/page-002-table-full.png"
         },
         {
           "type": "paragraph",
@@ -196,8 +191,8 @@
       "blocks": [
         {
           "type": "image",
-          "alt": "Tabela da página 3",
-          "src": "../assets/pages/page-003-table-00.png"
+          "alt": "Página 3 (tabelas)",
+          "src": "../assets/pages/page-003-table-full.png"
         },
         {
           "type": "paragraph",
@@ -233,8 +228,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 4",
-          "src": "../assets/pages/page-004-table-00.png"
+          "alt": "Página 4 (tabelas)",
+          "src": "../assets/pages/page-004-table-full.png"
         },
         {
           "type": "paragraph",
@@ -273,8 +268,8 @@
         },
         {
           "type": "image",
-          "alt": "Tabela da página 5",
-          "src": "../assets/pages/page-005-table-00.png"
+          "alt": "Página 5 (tabelas)",
+          "src": "../assets/pages/page-005-table-full.png"
         },
         {
           "type": "paragraph",

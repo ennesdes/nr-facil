@@ -1,0 +1,20 @@
+{
+  "images": {
+    "../assets/pages/page-002-table-full.png": {
+      "search_text": "CONSEQUÊNCIA PRINCÍPIO GERAL MORTE Pode levar a óbito imediato ou que venha a ocorrer posteriormente. SEVERA Pode prejudicar a integridade física e/ou a saúde, provocando lesão ou sequela permanentes. SIGNIFICATIVA Pode prejudicar a integridade física e/ou a saúde, provocando lesão que implique em incapacidade temporária por prazo superior a 15 (quinze) dias. LEVE Pode prejudicar a integridade física e/ou a saúde, provocando lesão que implique em incapacidade temporária por prazo igual ou inferior a 15 (quinze) dias. NENHUMA Nenhuma lesão ou efeito à saúde.\n\nCLASSIFICAÇÃO DESCRIÇÃO PROVÁVEL Medidas de prevenção inexistentes ou reconhecidamente inadequadas. Uma consequência é esperada, com grande probabilidade de que aconteça ou se realize. POSSÍVEL Medidas de prevenção apresentam desvios ou problemas significativos. Não há garantias de que as medidas sejam mantidas. Uma consequência talvez aconteça, com possibilidade de que se efetive, concebível. REMOTA Medidas de prevenção adequadas, mas com pequenos desvios. Ainda que em funcionamento, não há garantias de que sejam mantidas sempre ou a longo prazo. Uma consequência é pouco provável que aconteça, quase improvável.",
+      "page": 2
+    },
+    "../assets/pages/page-003-table-full.png": {
+      "search_text": "RARA Medidas de prevenção adequadas e com garantia de continuidade desta situação. Uma consequência não é esperada, não é comum sua ocorrência, extraordinária.",
+      "page": 3
+    },
+    "../assets/pages/page-004-table-full.png": {
+      "search_text": "la u ) t a a d o a c r s ir t n o o c d n e o ã o ç ã a ç c a if u is t s is a ( lC Consequência Probabilidade Nenhuma Rara N N N N N N N N N N N Leve Remota N N P N N N P N N N P Possível N N P N N N P N N P P Provável N N M N N N M N P M M Significativa Remota N N M N N N M P M M M Possível N N M N N M M M M M M Provável N N S N M M S M M M S Morte/Severa Remota N N S M M M S M M S S Possível N M E M S S E S S S E Provável S S E S S S E S S E E Probabilidade de referência P o s s ív e l R e m o t a R a r a P r o v á v e l P o s s ív e l R e m o t a R a r a P r o v á v e l P o s s ív e l R e m o t a R a r a Consequência de referência Morte/Severa Significativa Leve/Nenhuma Classificação do risco de referência (situação objetivo)",
+      "page": 4
+    },
+    "../assets/pages/page-005-table-full.png": {
+      "search_text": "la u ) t a a d o a c r s ir t n o o c d n e o ã o ç ã a ç c a if u is t is s a ( lC Consequência Probabilidade Nenhuma Rara N N N N N N N N N N N Leve Remota N N P N N N P N N N P Possível N N P N N N P N N P P Provável N N M N N N M N P M M Significativa Remota N N S N N N S M M M S Possível N N S N N M S S S S S Provável N N S N M M S S S S S Morte/Severa Remota N N S M S S S S S S S Possível N S E S S S E S S S E Provável E E E E E E E E E E E Probabilidade de referência P o s s ív e l R e m o t a R a r a P r o v á v e l P o s s ív e l R e m o t a R a r a P r o v á v e l P o s s ív e l R e m o t a R a r a Consequência de referência Morte/Severa Significativa Leve/Nenhuma Classificação do risco de referência (situação objetivo)",
+      "page": 5
+    }
+  }
+}

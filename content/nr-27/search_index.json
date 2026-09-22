@@ -55,20 +55,17 @@
   },
   {
     "id": "chunk-9",
-    "text": "Secretário de Segurança e Saúde no Trabalho Ministério do Trabalho Brasília – DF \nRef. **REGISTRO DE TÉCNICO DE SEGURANÇA DO TRABALHO** \n![Tabela da página 2](../assets/pages/page-002-table-00.png)\n![Tabela da página 2](../assets/pages/page-002-table-01.png)",
+    "text": "Secretário de Segurança e Saúde no Trabalho Ministério do Trabalho Brasília – DF \nRef. **REGISTRO DE TÉCNICO DE SEGURANÇA DO TRABALHO** \n![Página 2 (tabelas)](../assets/pages/page-002-table-full.png)",
     "heading": "**~~27.3.1~~** ~~O requerimento deverá ser acompanhado da seguinte documentação:~~",
     "char_offset": 2751
   },
   {
-    "id": "chunk-10",
-    "text": "![Tabela da página 2](../assets/pages/page-002-table-02.png)\n![Tabela da página 2](../assets/pages/page-002-table-03.png)\n![Tabela da página 2](../assets/pages/page-002-table-04.png)\n| | | |\n| --- | --- | --- |\n| | |\n| --- | --- |\n| | |\n| --- | --- |",
-    "heading": "**~~27.3.1~~** ~~O requerimento deverá ser acompanhado da seguinte documentação:~~",
-    "char_offset": 3016
-  },
-  {
-    "id": "chunk-11",
-    "text": "| | | | | |\n| --- | --- | --- | --- | --- |\n| | | |\n| --- | --- | --- |\n| | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |",
-    "heading": "**~~27.3.1~~** ~~O requerimento deverá ser acompanhado da seguinte documentação:~~",
-    "char_offset": 3271
+    "id": "img-002-0",
+    "kind": "image_png",
+    "text": "__________________, _______ de _____________ de 199__ __________________________ assinatura Obs: preencher corretamente, pois estes dados serão utilizados para a confecção da carteira. Senhor Secretário, Solicito a V.Sa. o registro de Técnico de Segurança do Trabalho, conforme a Portaria n.º 13, de 20/12/95, para o que anexo as cópias autenticadas dos seguintes documentos: CÉDULA DE IDENTIDADE (RG) CERTIFICADO DE CONCLUSÃO DO CURSO DE TÉCNICO DE SEGURANÇA DO TRABALHO OUTROS NOME IDENTIDADE (RG) ÓRGÃO EMISSOR - ENDEREÇO BAIRRO CIDADE UF CEP FONE -",
+    "heading": "Página 2 (tabelas) · **~~27.3.1~~** ~~O requerimento deverá ser acompanhado da seguinte documentação:~~",
+    "char_offset": 3070,
+    "page": 2,
+    "image_src": "../assets/pages/page-002-table-full.png"
   }
 ]

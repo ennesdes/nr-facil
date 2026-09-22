@@ -16,32 +16,8 @@
       },
       {
         "type": "image",
-        "alt": "Tabela da página 2",
-        "src": "../assets/pages/page-002-table-00.png"
-      },
-      {
-        "type": "image",
-        "alt": "Tabela da página 2",
-        "src": "../assets/pages/page-002-table-01.png"
-      },
-      {
-        "type": "image",
-        "alt": "Tabela da página 2",
-        "src": "../assets/pages/page-002-table-02.png"
-      },
-      {
-        "type": "image",
-        "alt": "Tabela da página 2",
-        "src": "../assets/pages/page-002-table-03.png"
-      },
-      {
-        "type": "image",
-        "alt": "Tabela da página 2",
-        "src": "../assets/pages/page-002-table-04.png"
-      },
-      {
-        "type": "table",
-        "markdown": "| | | |\n| --- | --- | --- |\n| | |\n| --- | --- |\n| | |\n| --- | --- |\n| | | | | |\n| --- | --- | --- | --- | --- |\n| | | |\n| --- | --- | --- |\n| | | | | | | |\n| --- | --- | --- | --- | --- | --- | --- |"
+        "alt": "Página 2 (tabelas)",
+        "src": "../assets/pages/page-002-table-full.png"
       }
     ]
   },

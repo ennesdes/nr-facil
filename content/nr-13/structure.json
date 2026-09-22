@@ -1757,8 +1757,9 @@
           ]
         },
         {
-          "type": "table",
-          "markdown": "| Classe do Fluido | Grupo de Potencial de Risco | | | | |\n| --- | --- | --- | --- | --- | --- |\n| | 1 | 2 | 3 | 4 | 5 |\n| A | I | I | II | III | III |\n| B | I | II | III | IV | IV |\n| C | I | II | III | IV | V |\n| D | II | III | IV | V | V |"
+          "type": "image",
+          "alt": "Página 13 (tabelas)",
+          "src": "../assets/pages/page-013-table-full.png"
         },
         {
           "type": "item",
@@ -3121,7 +3122,7 @@
     {
       "id": "11-para-efeito-da-nr-13-é-considerado-operador-de-caldeira-aquele-que-cumprir-uma-das-seguintes-condições",
       "number": "1.1",
-      "title": "Para efeito da NR-13, é considerado operador de caldeira aquele que cumprir uma das seguintes condições:",
+      "title": "Para efeito da NR-13, é considerado operador de caldeira aquele que cumprir uma das seguintes condições",
       "blocks": [
         {
           "type": "list",
@@ -3146,13 +3147,13 @@
     {
       "id": "12-o-pré-requisito-mínimo-para-participação-como-aluno-no-treinamento-de-segurança-na-operação-de-caldeiras-é-o-atestado-de-conclusão-do-ensino-médio",
       "number": "1.2",
-      "title": "O pré-requisito mínimo para participação como aluno, no treinamento de segurança na operação de caldeiras, é o atestado de conclusão do ensino médio",
+      "title": "O pré-requisito mínimo para participação como aluno, no treinamento de segurança na operação de caldeiras, é o atestado de conclusão do ensino médio.",
       "blocks": []
     },
     {
       "id": "13-o-treinamento-de-segurança-na-operação-de-caldeiras-deve-obrigatoriamente",
       "number": "1.3",
-      "title": "O treinamento de segurança na operação de caldeiras deve, obrigatoriamente:",
+      "title": "O treinamento de segurança na operação de caldeiras deve, obrigatoriamente",
       "blocks": [
         {
           "type": "list",
@@ -3225,13 +3226,13 @@
     {
       "id": "14-os-responsáveis-pelo-treinamento-de-segurança-na-operação-de-caldeiras-estão-sujeitos-ao-impedimento-de-ministrar-novos-cursos-bem-como-a-outras-sanções-legais-cabíveis-no-caso-de-inobservância-do-disposto-no-item-13-deste-anexo",
       "number": "1.4",
-      "title": "Os responsáveis pelo treinamento de segurança na operação de caldeiras estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 1.3 deste Anexo",
+      "title": "Os responsáveis pelo treinamento de segurança na operação de caldeiras estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 1.3 deste Anexo.",
       "blocks": []
     },
     {
       "id": "15-todo-operador-de-caldeira-deve-ser-submetido-à-prática-profissional-supervisionada-na-operação-da-própria-caldeira-que-irá-operar-a-qual-deve-ser-documentada-e-possuir-duração-mínima-de",
       "number": "1.5",
-      "title": "Todo operador de caldeira deve ser submetido à prática profissional supervisionada na operação da própria caldeira que irá operar, a qual deve ser documentada e possuir duração mínima de:",
+      "title": "Todo operador de caldeira deve ser submetido à prática profissional supervisionada na operação da própria caldeira que irá operar, a qual deve ser documentada e possuir duração mínima de",
       "blocks": [
         {
           "type": "list",
@@ -3256,7 +3257,7 @@
     {
       "id": "16-o-estabelecimento-onde-for-realizada-a-prática-profissional-supervisionada-prevista-nesta-nr-deve-informar-quando-requerido-pela-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento",
       "number": "1.6",
-      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento:",
+      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento",
       "blocks": [
         {
           "type": "list",
@@ -3290,7 +3291,7 @@
     {
       "id": "17-deve-ser-realizada-a-atualização-dos-conhecimentos-dos-operadores-de-caldeiras-quando",
       "number": "1.7",
-      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de caldeiras quando:",
+      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de caldeiras quando",
       "blocks": [
         {
           "type": "list",
@@ -3324,30 +3325,31 @@
     {
       "id": "18-a-prática-profissional-supervisionada-obrigatória-deve-ser-realizada-após-a-conclusão-de-todo-o-conteúdo-programático-previsto-no-item-19-deste-anexo-inclusive-nos-casos-de-aproveitamento-de-treinamentos-entre-organizações",
       "number": "1.8",
-      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 1.9 deste Anexo, inclusive nos casos de aproveitamento de treinamentos entre organizações",
+      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 1.9 deste Anexo, inclusive nos casos de aproveitamento de treinamentos entre organizações.",
       "blocks": []
     },
     {
       "id": "19-currículo-mínimo-para-treinamento-de-segurança-na-operação-de-caldeiras-noções-de-física-aplicada-pressão-pressão-atmosférica-pressão-manométrica-e-pressão-absoluta-pressão-interna-em-caldeiras-unidades-de-pressão-transferência-de-calor-noções-gerais-o-que-é-calor-o-que-é-temperatura-modos-de-transferência-de-calor-calor-específico-e-calor-sensível-transferência-de-calor-a-temperatura-constante-termodinâmica-conceitos-vapor-saturado-e-vapor-superaquecido-mecânica-dos-fluidos-conceitos-fundamentais-pressão-em-escoamento-escoamento-de-gases-noções-de-química-aplicada-densidade-solubilidade-difusão-de-gases-e-vapores-caracterização-de-ácido-e-base-álcalis---definição-de-ph-fundamentos-básicos-sobre-corrosão-considerações-gerais-sobre-caldeiras-tipos-de-caldeiras-e-suas-utilizações-caldeiras-flamotubulares-caldeiras-aquatubulares-caldeiras-elétricas-caldeiras-a-combustíveis-sólidos-caldeiras-a-combustíveis-líquidos-caldeiras-a-gás-acessórios-de-caldeiras-instrumentos-e-dispositivos-de-controle-de-caldeiras-dispositivo-de-alimentação-visor-de-nível-sistema-de-controle-de-nível-indicadores-de-pressão-dispositivos-de-segurança-dispositivos-auxiliares-válvulas-e-tubulações-tiragem-de-fumaça-sistema-instrumentado-de-segurança-operação-de-caldeiras-partida-e-parada-regulagem-e-controle-de-temperatura-de-pressão-de-fornecimento-de-energia-do-nível-de-água-de-poluentes-e-de-combustão-falhas-de-operação-causas-e-providências-roteiro-de-vistoria-diária-operação-de-um-sistema-de-várias-caldeiras-procedimentos-para-situações-de-emergência-tratamento-de-água-de-caldeiras-impurezas-da-água-e-suas-consequências-tratamento-de-água-de-alimentação-controle-de-água-de-caldeira-prevenção-contra-explosões-e-outros-riscos-riscos-gerais-de-acidentes-e-riscos-à-saúde-riscos-de-explosão-estudos-de-caso-legislação-e-normalização-norma-regulamentadora-nº-13-nr-13-categoria-de-caldeiras-b-tópicos-de-inspeção-e-manutenção-de-equipamentos-e-registros-_retificado-em-20102022_",
       "number": "1.9",
       "title": "Currículo mínimo para treinamento de segurança na operação de Caldeiras: Noções de física aplicada. Pressão. Pressão atmosférica. Pressão manométrica e pressão absoluta. Pressão interna em caldeiras. Unidades de pressão. Transferência de calor. Noções gerais: o que é calor, o que é temperatura. Modos de transferência de calor. Calor específico e calor sensível. Transferência de calor a temperatura constante. Termodinâmica. Conceitos Vapor saturado e vapor superaquecido. Mecânica dos Fluidos. Conceitos fundamentais. Pressão em escoamento. Escoamento de gases. Noções de química aplicada. Densidade. Solubilidade. Difusão de gases e vapores. Caracterização de ácido e base (Álcalis) - Definição de pH. Fundamentos básicos sobre corrosão. Considerações gerais sobre caldeiras. Tipos de caldeiras e suas utilizações. Caldeiras flamotubulares. Caldeiras aquatubulares. Caldeiras elétricas. Caldeiras a combustíveis sólidos. Caldeiras a combustíveis líquidos. Caldeiras a gás. Acessórios de caldeiras. Instrumentos e dispositivos de controle de caldeiras. Dispositivo de alimentação. Visor de nível. Sistema de controle de nível. Indicadores de pressão. Dispositivos de segurança. Dispositivos auxiliares. Válvulas e tubulações. Tiragem de fumaça. Sistema instrumentado de segurança. Operação de caldeiras. Partida e parada. Regulagem e controle: de temperatura, de pressão, de fornecimento de energia, do nível de água, de poluentes e de combustão. Falhas de operação, causas e providências. Roteiro de vistoria diária. Operação de um sistema de várias caldeiras. Procedimentos para situações de emergência. Tratamento de água de caldeiras. Impurezas da água e suas consequências. Tratamento de água de alimentação. Controle de água de caldeira. Prevenção contra explosões e outros riscos. Riscos gerais de acidentes e riscos à saúde. Riscos de explosão. Estudos de caso. Legislação e normalização. Norma Regulamentadora nº 13 (NR-13). Categoria de caldeiras B. Tópicos de inspeção e manutenção de equipamentos e registros. _(Retificado em 20/10/2022)_",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "**2.** Vasos de Pressão"
-        }
-      ]
+      "blocks": []
+    },
+    {
+      "id": "2-vasos-de-pressão",
+      "number": "2",
+      "title": "Vasos de Pressão",
+      "blocks": []
     },
     {
       "id": "21-a-operação-de-unidades-de-processo-que-possuam-vasos-de-pressão-de-categorias-i-ou-ii-deve-ser-feita-por-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processos",
       "number": "2.1",
-      "title": "A operação de unidades de processo que possuam vasos de pressão de categorias I ou II deve ser feita por profissional com treinamento de segurança na operação de unidades de processos",
+      "title": "A operação de unidades de processo que possuam vasos de pressão de categorias I ou II deve ser feita por profissional com treinamento de segurança na operação de unidades de processos.",
       "blocks": []
     },
     {
       "id": "22-para-efeito-desta-nr-é-considerado-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processo-aquele-que-satisfizer-uma-das-seguintes-condições",
       "number": "2.2",
-      "title": "Para efeito desta NR é considerado profissional com treinamento de segurança na operação de unidades de processo aquele que satisfizer uma das seguintes condições:",
+      "title": "Para efeito desta NR é considerado profissional com treinamento de segurança na operação de unidades de processo aquele que satisfizer uma das seguintes condições",
       "blocks": [
         {
           "type": "list",
@@ -3372,13 +3374,13 @@
     {
       "id": "23-o-pré-requisito-mínimo-para-participação-como-aluno-no-treinamento-de-segurança-na-operação-de-unidades-de-processo-é-o-atestado-de-conclusão-do-ensino-médio",
       "number": "2.3",
-      "title": "O pré-requisito mínimo para participação, como aluno, no treinamento de segurança na operação de unidades de processo é o atestado de conclusão do ensino médio",
+      "title": "O pré-requisito mínimo para participação, como aluno, no treinamento de segurança na operação de unidades de processo é o atestado de conclusão do ensino médio.",
       "blocks": []
     },
     {
       "id": "24-o-treinamento-de-segurança-na-operação-de-unidades-de-processo-deve-obrigatoriamente",
       "number": "2.4",
-      "title": "O treinamento de segurança na operação de unidades de processo deve, obrigatoriamente:",
+      "title": "O treinamento de segurança na operação de unidades de processo deve, obrigatoriamente",
       "blocks": [
         {
           "type": "list",
@@ -3451,19 +3453,19 @@
     {
       "id": "25-os-responsáveis-pelo-treinamento-de-segurança-na-operação-de-unidades-de-processo-estão-sujeitos-ao-impedimento-de-ministrar-novos-cursos-bem-como-a-outras-sanções-legais-cabíveis-no-caso-de-inobservância-do-disposto-no-item-24",
       "number": "2.5",
-      "title": "Os responsáveis pelo treinamento de segurança na operação de unidades de processo estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 2.4",
+      "title": "Os responsáveis pelo treinamento de segurança na operação de unidades de processo estão sujeitos ao impedimento de ministrar novos cursos, bem como a outras sanções legais cabíveis, no caso de inobservância do disposto no item 2.4.",
       "blocks": []
     },
     {
       "id": "26-todo-profissional-com-treinamento-de-segurança-na-operação-de-unidades-de-processo-deve-ser-submetido-à-prática-profissional-supervisionada-com-duração-de-trezentas-horas-na-operação-de-unidade-de-processo-que-possuam-vasos-de-pressão-de-categorias-i-ou-ii",
       "number": "2.6",
-      "title": "Todo profissional com treinamento de segurança na operação de unidades de processo deve ser submetido à prática profissional supervisionada com duração de trezentas horas na operação de unidade de processo que possuam vasos de pressão de categorias I ou II",
+      "title": "Todo profissional com treinamento de segurança na operação de unidades de processo deve ser submetido à prática profissional supervisionada com duração de trezentas horas na operação de unidade de processo que possuam vasos de pressão de categorias I ou II.",
       "blocks": []
     },
     {
       "id": "27-o-estabelecimento-onde-for-realizada-a-prática-profissional-supervisionada-prevista-nesta-nr-deve-informar-quando-requerido-pela-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento",
       "number": "2.7",
-      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento:",
+      "title": "O estabelecimento onde for realizada a prática profissional supervisionada prevista nesta NR deve informar, quando requerido pela representação sindical da categoria profissional predominante do estabelecimento",
       "blocks": [
         {
           "type": "list",
@@ -3497,7 +3499,7 @@
     {
       "id": "28-deve-ser-realizada-a-atualização-dos-conhecimentos-dos-operadores-de-unidades-de-processo-quando",
       "number": "2.8",
-      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de unidades de processo quando:",
+      "title": "Deve ser realizada a atualização dos conhecimentos dos operadores de unidades de processo quando",
       "blocks": [
         {
           "type": "list",
@@ -3531,7 +3533,7 @@
     {
       "id": "29-a-prática-profissional-supervisionada-obrigatória-deve-ser-realizada-após-a-conclusão-de-todo-o-conteúdo-programático-previsto-no-item-210-inclusive-nos-casos-de-aproveitamento-de-treinamentos-entre-organizações-com-carga-horária-definida-pelo-empregador",
       "number": "2.9",
-      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 2.10, inclusive nos casos de aproveitamento de treinamentos entre organizações, com carga horária definida pelo empregador",
+      "title": "A prática profissional supervisionada obrigatória deve ser realizada após a conclusão de todo o conteúdo programático previsto no item 2.10, inclusive nos casos de aproveitamento de treinamentos entre organizações, com carga horária definida pelo empregador.",
       "blocks": []
     },
     {
@@ -3624,12 +3626,14 @@
               "text": "cumprimento mínimo da programação de inspeção."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** A certificação de SPIE e a sua manutenção estão sujeitas a regulamento específico do INMETRO."
         }
       ]
+    },
+    {
+      "id": "2-a-certificação-de-spie-e-a-sua-manutenção-estão-sujeitas-a-regulamento-específico-do-inmetro",
+      "number": "2",
+      "title": "A certificação de SPIE e a sua manutenção estão sujeitas a regulamento específico do INMETRO.",
+      "blocks": []
     },
     {
       "id": "anexo-iii-da-nr-13",
@@ -3639,23 +3643,32 @@
         {
           "type": "paragraph",
           "text": "**CERTIFICAÇÃO VOLUNTÁRIA DE COMPETÊNCIAS DO PROFISSIONAL LEGALMENTE HABILITADO - PLH**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento."
-        },
-        {
-          "type": "paragraph",
-          "text": "**2.** Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO."
-        },
-        {
-          "type": "paragraph",
-          "text": "**3.** O esquema de certificação a ser desenvolvido pelo OPC deve considerar, como prérequisito, que o candidato à certificação voluntária possua graduação de nível superior em Engenharia, com reconhecimento pelo respectivo conselho para as atribuições de PLH."
-        },
-        {
-          "type": "paragraph",
-          "text": "**4.** O Programa de certificação voluntária de PLH, executado pelo OPC, deverá ter, no mínimo, as seguintes fases:"
-        },
+        }
+      ]
+    },
+    {
+      "id": "1-o-plh-pode-através-de-certificação-voluntária-no-âmbito-do-sistema-brasileiro-de-avaliação-da-conformidade---sbac-obter-o-reconhecimento-de-sua-competência-profissional-como-plh-certificado-da-nr-13-para-o-exercício-das-atividades-referentes-a-acompanhamento-da-operação-e-da-manutenção-inspeção-e-supervisão-de-inspeção-de-caldeiras-de-vasos-de-pressão-de-tubulações-e-de-tanques-metálicos-de-armazenamento",
+      "number": "1",
+      "title": "O PLH pode, através de certificação voluntária no âmbito do Sistema Brasileiro de Avaliação da Conformidade - SBAC, obter o reconhecimento de sua competência profissional como PLH Certificado da NR-13 para o exercício das atividades referentes a acompanhamento da operação e da manutenção, inspeção e supervisão de inspeção de caldeiras, de vasos de pressão, de tubulações e de tanques metálicos de armazenamento.",
+      "blocks": []
+    },
+    {
+      "id": "2-esta-certificação-voluntária-deve-ser-feita-por-um-organismo-de-certificação-de-pessoas-opc-acreditado-pela-coordenação-geral-de-acreditação-do-instituto-nacional-de-metrologia-qualidade-e-tecnologia---cgcreinmetro",
+      "number": "2",
+      "title": "Esta certificação voluntária deve ser feita por um Organismo de Certificação de Pessoas – OPC, acreditado pela Coordenação Geral de Acreditação do Instituto Nacional de Metrologia, Qualidade e Tecnologia - Cgcre/INMETRO.",
+      "blocks": []
+    },
+    {
+      "id": "3-o-esquema-de-certificação-a-ser-desenvolvido-pelo-opc-deve-considerar-como-prérequisito-que-o-candidato-à-certificação-voluntária-possua-graduação-de-nível-superior-em-engenharia-com-reconhecimento-pelo-respectivo-conselho-para-as-atribuições-de-plh",
+      "number": "3",
+      "title": "O esquema de certificação a ser desenvolvido pelo OPC deve considerar, como prérequisito, que o candidato à certificação voluntária possua graduação de nível superior em Engenharia, com reconhecimento pelo respectivo conselho para as atribuições de PLH.",
+      "blocks": []
+    },
+    {
+      "id": "4-o-programa-de-certificação-voluntária-de-plh-executado-pelo-opc-deverá-ter-no-mínimo-as-seguintes-fases",
+      "number": "4",
+      "title": "O Programa de certificação voluntária de PLH, executado pelo OPC, deverá ter, no mínimo, as seguintes fases:",
+      "blocks": [
         {
           "type": "list",
           "items": [
@@ -3700,12 +3713,14 @@
               "text": "recertificação - realização a cada sessenta meses."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "**5.** Os profissionais que obtiverem o reconhecimento de suas competências profissionais através desta certificação voluntária devem ter esta informação divulgada pela autoridade competente em matéria de segurança e saúde no trabalho."
         }
       ]
+    },
+    {
+      "id": "5-os-profissionais-que-obtiverem-o-reconhecimento-de-suas-competências-profissionais-através-desta-certificação-voluntária-devem-ter-esta-informação-divulgada-pela-autoridade-competente-em-matéria-de-segurança-e-saúde-no-trabalho",
+      "number": "5",
+      "title": "Os profissionais que obtiverem o reconhecimento de suas competências profissionais através desta certificação voluntária devem ter esta informação divulgada pela autoridade competente em matéria de segurança e saúde no trabalho.",
+      "blocks": []
     },
     {
       "id": "anexo-iv-da-nr-13",
@@ -3715,17 +3730,19 @@
         {
           "type": "paragraph",
           "text": "**REQUISITOS PARA AMPLIAÇÃO DE PRAZO DE INSPEÇÃO DE CALDEIRAS CATEGORIA A COM SISTEMA INSTRUMENTADO DE SEGURANÇA (SIS) E DE CALDEIRAS CATEGORIA B COM SISTEMA DE GERENCIAMENTO DE COMBUSTÃO - SGC**"
-        },
-        {
-          "type": "paragraph",
-          "text": "**1.** Caldeiras de categoria A dotadas de Sistema Instrumentado de Segurança - SIS"
         }
       ]
     },
     {
+      "id": "1-caldeiras-de-categoria-a-dotadas-de-sistema-instrumentado-de-segurança---sis",
+      "number": "1",
+      "title": "Caldeiras de categoria A dotadas de Sistema Instrumentado de Segurança - SIS",
+      "blocks": []
+    },
+    {
       "id": "11-a-ampliação-dos-prazos-de-inspeções-de-segurança-das-caldeiras-de-categoria-a-que-operam-de-forma-contínua-fica-condicionada-ao-cumprimento-integral-das-seguintes-exigências",
       "number": "1.1",
-      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria A que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências:",
+      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria A que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências",
       "blocks": [
         {
           "type": "list",
@@ -3804,7 +3821,7 @@
     {
       "id": "12-o-sis-deve",
       "number": "1.2",
-      "title": "O SIS deve:",
+      "title": "O SIS deve",
       "blocks": [
         {
           "type": "list",
@@ -3844,13 +3861,13 @@
     {
       "id": "13-as-alterações-nas-funções-instrumentadas-de-segurança-do-sis-bem-como-em-outros-componentes-da-malha-de-controle-provisórias-ou-definitivas-devem-ser-registradas-e-aprovadas-por-responsável-técnico-com-anuência-do-empregador-ou-de-preposto-por-ele-designado",
       "number": "1.3",
-      "title": "As alterações nas funções instrumentadas de segurança do SIS, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado",
+      "title": "As alterações nas funções instrumentadas de segurança do SIS, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado.",
       "blocks": []
     },
     {
       "id": "14-o-empregador-deve-comunicar-formalmente-à-representação-sindical-da-categoria-profissional-predominante-do-estabelecimento-a-implementação-dos-novos-prazos-de-inspeção-de-segurança-das-caldeiras",
       "number": "1.4",
-      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança das caldeiras",
+      "title": "O empregador deve comunicar formalmente à representação sindical da categoria profissional predominante do estabelecimento a implementação dos novos prazos de inspeção de segurança das caldeiras.",
       "blocks": [
         {
           "type": "paragraph",
@@ -3861,7 +3878,7 @@
     {
       "id": "21-a-ampliação-dos-prazos-de-inspeções-de-segurança-das-caldeiras-de-categoria-b-que-operam-de-forma-contínua-fica-condicionada-ao-cumprimento-integral-das-seguintes-exigências",
       "number": "2.1",
-      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria B que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências:",
+      "title": "A ampliação dos prazos de inspeções de segurança das caldeiras de categoria B que operam de forma contínua fica condicionada ao cumprimento integral das seguintes exigências",
       "blocks": [
         {
           "type": "list",
@@ -3970,7 +3987,7 @@
     {
       "id": "23-as-alterações-nas-funções-instrumentadas-de-segurança-bem-como-em-outros-componentes-da-malha-de-controle-provisórias-ou-definitivas-devem-ser-registradas-e-aprovadas-por-responsável-técnico-com-anuência-do-empregador-ou-de-preposto-por-ele-designado",
       "number": "2.3",
-      "title": "As alterações nas funções instrumentadas de segurança, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado",
+      "title": "As alterações nas funções instrumentadas de segurança, bem como em outros componentes da malha de controle, provisórias ou definitivas, devem ser registradas e aprovadas por responsável técnico, com anuência do empregador ou de preposto por ele designado.",
       "blocks": []
     },
     {

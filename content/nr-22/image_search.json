@@ -1,0 +1,12 @@
+{
+  "images": {
+    "../assets/pages/page-064-table-full.png": {
+      "search_text": "Nº de empregados no 15 a 31 a 51 a 100 101 a 251 a 501 a 1.000 1.001 a 2.501 a Acima de 5.000 para cada grupo de 500",
+      "page": 64
+    },
+    "../assets/pages/page-065-table-full.png": {
+      "search_text": "estabelecimento 30 50 250 500 2.500 5.000 acrescentar Nº de representantes titulares do empregador 1 1 1 1 1 1 1 1 - Nº de representantes suplentes do empregador 1 1 1 1 1 1 1 1 - Nº de representantes titulares dos empregados 1 2 3 4 5 6 9 12 4 Nº de representantes suplentes dos empregados 1 1 1 1 2 2 3 4 2\n\nN* n 8 7 9 8 10 9 11-12 10 13-14 11 15-17 12 18-20 13 21-24 14 25-29 15 30-37 16 38-49 17 50 18 ACIMA DE 50 22",
+      "page": 65
+    }
+  }
+}
