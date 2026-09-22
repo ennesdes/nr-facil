@@ -8,5 +8,7 @@
   "md_chars": 40166,
   "pdf_chars": 41300,
   "pages_fallback_png": 2,
+  "structure_table_blocks": 4,
+  "fragmented_table_separators": 4,
   "reviewed": false
 }

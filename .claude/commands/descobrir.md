@@ -87,12 +87,12 @@ Ler **somente as seções** dos arquivos encontrados que a demanda toca — não
 
 ## 4. Lacunas — resolver com o usuário na hora, não só registrar
 
-Toda vez que uma perspectiva acima revelar uma pergunta sem resposta óbvia nas regras existentes (`CLAUDE.md`, `docs/architecture.md`, `todo.md`), **não escreva a lacuna só como texto na tabela e siga em frente**. Em vez disso:
+Toda vez que uma perspectiva acima revelar uma pergunta sem resposta óbvia nas regras existentes (`CLAUDE.md`, `docs/architecture.md`, `todo.md`), **não escreva a lacuna só como bloco e siga em frente**. Em vez disso:
 
 1. Formule a pergunta com **opções concretas** (2–4), cada uma com prós/contras claros — igual a uma decisão real de produto/técnica
 2. Use a ferramenta de pergunta ao usuário (`AskUserQuestion`) **na hora**, uma pergunta por lacuna (ou agrupadas se relacionadas), para o usuário escolher a opção ou responder livremente
 3. Registre a resposta do usuário como **decisão já tomada** no arquivo de descoberta (seção própria abaixo) — não como lacuna aberta
-4. Só deixe uma linha em **Lacunas** (tabela) se a pergunta depender de uma implementação/exploração ainda não feita (não é o caso de decidir agora, é o caso de "não sei ainda o suficiente para nem formular a pergunta direito") — isso continua indo para `/decidir` depois
+4. Só deixe um bloco em **Lacunas** (Dúvida/Opções/Resposta, com Resposta em branco) se a pergunta depender de uma implementação/exploração ainda não feita (não é o caso de decidir agora, é o caso de "não sei ainda o suficiente para nem formular a pergunta direito") — isso continua indo para `/decidir` depois
 
 Ambiguidade que **bloqueia o mapeamento inteiro** (ex.: não dá pra saber nem o escopo técnico sem essa resposta) → perguntar **antes** de continuar as perspectivas, não só ao final.
 
@@ -136,11 +136,19 @@ Salvar em `.claude/discoveries/<slug>.md`:
 - Linha relevante: "..."
 
 ## Lacunas ainda abertas *(só o que genuinamente precisa de mais exploração antes de decidir)*
-| ID | Pergunta | Bloqueia |
-|----|----------|----------|
-| D1 | <decisão necessária> | Sim / Não |
 
-*(Se vazia: `*(nenhuma — todas as dúvidas foram resolvidas com o usuário nesta sessão)*`)*
+### D1 — <título curto> *(bloqueia: Sim/Não)*
+
+**Dúvida?**
+<pergunta completa>
+
+**Opções**
+1. <opção 1> — <prós/contras>
+2. <opção 2> — <prós/contras>
+
+**Resposta:**
+
+*(linha de resposta sempre em branco — sem placeholder tipo "a preencher", pra não precisar apagar nada antes de escrever. Repetir bloco D2, D3... para cada lacuna; se vazia: `*(nenhuma — todas as dúvidas foram resolvidas com o usuário nesta sessão)*`)*
 ```
 
 ---

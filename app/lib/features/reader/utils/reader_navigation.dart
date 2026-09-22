@@ -7,9 +7,11 @@ import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
 class ReaderNavigation {
   ReaderNavigation._();
 
+  /// [initialAnchor] item normativo (ex. 28.1.1), seção, ou `img:<image_src>`.
   static Future<void> open({
     required String nrId,
     String? initialAnchor,
+    String? initialHighlightQuery,
   }) async {
     if (Get.isRegistered<AdsService>()) {
       Get.find<AdsService>().onReaderOpened();
@@ -17,7 +19,11 @@ class ReaderNavigation {
 
     await Get.to(
       () => NRReaderPage(nrId: nrId),
-      binding: ReaderBinding(nrId: nrId, initialAnchor: initialAnchor),
+      binding: ReaderBinding(
+        nrId: nrId,
+        initialAnchor: initialAnchor,
+        initialHighlightQuery: initialHighlightQuery,
+      ),
     );
 
     if (Get.isRegistered<AdsService>()) {

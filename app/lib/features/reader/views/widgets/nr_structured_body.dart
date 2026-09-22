@@ -8,6 +8,9 @@ import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_preamble_section.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_reader_header.dart';
+import 'package:nrfacil/features/reader/utils/reader_structure_entries.dart';
+import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
+import 'package:nrfacil/features/reader/views/widgets/nr_reader_block_padding.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_section_block.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_continue_chip.dart';
 import 'package:nrfacil/features/reader/views/widgets/reader_footer.dart';
@@ -38,6 +41,7 @@ class NrStructuredBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = Get.find<NRReaderController>();
     final readerBg = context.readerSurfaceColor;
+    final sliverEntries = flattenReaderStructure(structure);
 
     return Stack(
       fit: StackFit.expand,
@@ -91,23 +95,42 @@ class NrStructuredBody extends StatelessWidget {
               ),
               Obx(() {
                 final highlightQuery = controller.activeHighlightQuery.value;
+                final focusSectionId = controller.highlightSectionId.value;
+                final focusBlockIndex = controller.highlightBlockIndex.value;
 
                 return SliverList(
                   delegate: SliverChildBuilderDelegate((context, index) {
-                    final section = structure.sections[index];
-
-                    return KeyedSubtree(
-                      key: sectionKeyFor(section.id),
-                      child: NrSectionBlock(
-                        section: section,
-                        fontSize: fontSize,
-                        nrId: nrId,
-                        highlightQuery: highlightQuery,
-                        blockKeyFor: controller.blockKeyFor,
-                        showTopDivider: index == 0,
+                    final entry = sliverEntries[index];
+                    return switch (entry) {
+                      ReaderSectionHeaderEntry header => KeyedSubtree(
+                        key: sectionKeyFor(header.section.id),
+                        child: NrSectionHeader(
+                          section: header.section,
+                          fontSize: fontSize,
+                          highlightQuery: highlightQuery,
+                          showTopDivider: header.showTopDivider,
+                        ),
                       ),
-                    );
-                  }, childCount: structure.sections.length),
+                      ReaderBlockEntry blockEntry => KeyedSubtree(
+                        key: controller.blockKeyFor(
+                          blockEntry.section.id,
+                          blockEntry.blockIndex,
+                        ),
+                        child: NrReaderBlockPadding(
+                          child: NrBlockRenderer(
+                            block: blockEntry.block,
+                            fontSize: fontSize,
+                            nrId: nrId,
+                            highlightQuery: highlightQuery,
+                            searchFocusImage:
+                                blockEntry.block is NrImageBlock &&
+                                focusSectionId == blockEntry.section.id &&
+                                focusBlockIndex == blockEntry.blockIndex,
+                          ),
+                        ),
+                      ),
+                    };
+                  }, childCount: sliverEntries.length),
                 );
               }),
               SliverToBoxAdapter(

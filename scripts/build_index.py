@@ -140,6 +140,92 @@ def chunk_text_for_search(md_text: str, chunk_size: int = 250) -> list[dict[str,
     return chunks
 
 
+PAGE_TABLE_FULL_MD_RE = re.compile(
+    r"!\[[^\]]*\]\(\.\./assets/pages/page-(\d{3})-table-full\.png\)"
+)
+
+
+def _heading_before_position(md_text: str, position: int) -> str:
+    heading = "Introdução"
+    if position < 0:
+        position = 0
+    prefix = md_text[:position]
+    for line in prefix.split("\n"):
+        stripped = line.strip()
+        match = re.match(r"^#+\s+(.+)$", stripped)
+        if match:
+            heading = match.group(1).strip()
+    return heading
+
+
+def append_image_search_chunks(
+    md_text: str,
+    chunks: list[dict[str, Any]],
+    image_search: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Chunks de busca para tabelas em PNG (texto da conversão MD, não OCR)."""
+    images = image_search.get("images") or {}
+    existing_ids = {c.get("id") for c in chunks}
+    extra: list[dict[str, Any]] = []
+
+    def _append_entry(image_src: str, meta: dict[str, Any], *, legacy_page: int | None = None) -> None:
+        search_text = (meta.get("search_text") or "").strip()
+        if not search_text or not image_src:
+            return
+        page_num = meta.get("page")
+        if page_num is None and legacy_page is not None:
+            page_num = legacy_page
+        if page_num is None:
+            match = re.search(r"page-(\d{3})-table", image_src)
+            page_num = int(match.group(1)) if match else 0
+
+        chunk_id = f"img-{page_num:03d}-{len(extra)}"
+        if chunk_id in existing_ids:
+            return
+
+        pos = md_text.find(image_src)
+        section_heading = _heading_before_position(md_text, pos if pos >= 0 else 0)
+
+        extra.append(
+            {
+                "id": chunk_id,
+                "kind": "image_png",
+                "text": search_text,
+                "heading": f"Página {page_num} (tabelas) · {section_heading}",
+                "char_offset": pos if pos >= 0 else 0,
+                "page": int(page_num),
+                "image_src": image_src,
+            }
+        )
+
+    for image_src, meta in sorted(images.items()):
+        if isinstance(meta, dict):
+            _append_entry(image_src, meta)
+
+    return chunks + extra
+
+
+def append_page_table_search_chunks(
+    md_text: str,
+    chunks: list[dict[str, Any]],
+    page_search: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Legado: page_search.json → image_png chunks."""
+    pages = page_search.get("pages") or {}
+    legacy: dict[str, dict[str, Any]] = {}
+    for page_key, meta in pages.items():
+        if not isinstance(meta, dict):
+            continue
+        image_src = meta.get("image_src") or ""
+        if not image_src:
+            continue
+        legacy[image_src] = {
+            **meta,
+            "page": int(page_key),
+        }
+    return append_image_search_chunks(md_text, chunks, {"images": legacy})
+
+
 def build_nr_indices(nr_id: str, dry_run: bool = False) -> bool:
     """Gera índices para uma NR. Retorna True se sucesso."""
     logger.info(f"Gerando índices para {nr_id}")
@@ -157,6 +243,26 @@ def build_nr_indices(nr_id: str, dry_run: bool = False) -> bool:
         # Gera índices
         index_data = build_index_json(md_text)
         search_chunks = chunk_text_for_search(md_text)
+
+        image_search_file = nr_dir / "image_search.json"
+        if image_search_file.exists():
+            try:
+                image_search = json.loads(image_search_file.read_text(encoding="utf-8"))
+                search_chunks = append_image_search_chunks(
+                    md_text, search_chunks, image_search
+                )
+            except json.JSONDecodeError:
+                logger.warning(f"{nr_id}: image_search.json inválido, ignorando")
+        else:
+            page_search_file = nr_dir / "page_search.json"
+            if page_search_file.exists():
+                try:
+                    page_search = json.loads(page_search_file.read_text(encoding="utf-8"))
+                    search_chunks = append_page_table_search_chunks(
+                        md_text, search_chunks, page_search
+                    )
+                except json.JSONDecodeError:
+                    logger.warning(f"{nr_id}: page_search.json inválido, ignorando")
 
         if dry_run:
             logger.info(f"[DRY-RUN] {nr_id}: teria gerado {len(index_data['headings'])} headings, {len(search_chunks)} chunks")

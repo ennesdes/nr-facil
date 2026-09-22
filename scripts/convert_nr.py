@@ -213,6 +213,37 @@ def _markdown_table_is_fragmented(table_md: str) -> bool:
     return False
 
 
+# Tabelas largas ou muito longas → PNG (evita centenas de MarkdownBody no app).
+TABLE_PNG_MIN_DATA_ROWS = 18
+TABLE_PNG_MIN_COLS = 6
+
+
+def _table_data_row_count(table: list[list]) -> int:
+    return max(0, len(table) - 1)
+
+
+def _table_max_cols(table: list[list]) -> int:
+    return max((len(row) for row in table), default=0)
+
+
+def _table_is_large_for_png(table: list[list]) -> bool:
+    return (
+        _table_max_cols(table) >= TABLE_PNG_MIN_COLS
+        or _table_data_row_count(table) >= TABLE_PNG_MIN_DATA_ROWS
+    )
+
+
+def _should_render_table_as_png(table: list[list], table_md: str) -> bool:
+    """Decide se uma tabela isolada na página deve virar PNG recortado."""
+    if _is_probably_illegible(table):
+        return True
+    if _markdown_table_is_fragmented(table_md):
+        return True
+    if _table_is_large_for_png(table):
+        return True
+    return False
+
+
 def _strip_duplicate_markdown_table(page_text: str) -> str:
     """
     Remove do texto da página qualquer bloco que já seja uma tentativa de tabela
@@ -325,6 +356,8 @@ def extract_tables_pass(
 
     tables_by_page: dict[int, list[str | dict]] = {}
     pages_text_cleaned = list(pages_text)
+    nr_data = merge_nr_data(nr_id)
+    force_all_tables_png = nr_data.get("table_mode") == "png"
 
     try:
         with pdfplumber.open(str(pdf_file)) as pdf:
@@ -338,41 +371,64 @@ def extract_tables_pass(
                     continue
 
                 page_tables: list[str | dict] = []
+                valid_tables: list[tuple[Any, list[list]]] = []
 
                 for table_idx, table_obj in enumerate(tables_found):
-                    # Extrai dados da tabela
                     table = table_obj.extract()
+                    if _table_max_cols(table) <= 1:
+                        logger.debug(
+                            f"  Page {page_num + 1}: tabela {table_idx} descartada (1 coluna)"
+                        )
+                        continue
+                    valid_tables.append((table_obj, table))
 
-                    # Filtro de falso-positivo: tabela de 1 coluna (caixa de texto com borda)
-                    max_cols = max((len(row) for row in table), default=0)
-                    if max_cols <= 1:
-                        logger.debug(f"  Page {page_num + 1}: tabela {table_idx} descartada (1 coluna)")
+                if not valid_tables:
+                    continue
+
+                prefer_png_page = force_all_tables_png or len(valid_tables) >= 2
+                use_full_page_png = False
+                markdown_tables: list[str] = []
+                png_table_markdown: list[str] = []
+
+                for table_idx, (table_obj, table) in enumerate(valid_tables):
+                    table_md = _table_to_markdown(table)
+                    if prefer_png_page:
+                        use_full_page_png = True
+                        png_table_markdown.append(table_md)
                         continue
 
-                    # Detecta ilegibilidade (texto vertical quebrado)
-                    if _is_probably_illegible(table):
-                        logger.debug(f"  Page {page_num + 1}: tabela {table_idx} marcada como ilegível")
-                        # Captura bbox da tabela (tupla: x0, top, x1, bottom)
-                        bbox = table_obj.bbox
-                        page_tables.append({"illegible_page": True, "bbox": bbox})
-                        illegible_count += 1
+                    if _should_render_table_as_png(table, table_md):
+                        logger.debug(
+                            f"  Page {page_num + 1}: tabela {table_idx} → PNG página inteira"
+                        )
+                        use_full_page_png = True
+                        png_table_markdown.append(table_md)
                     else:
-                        table_md = _table_to_markdown(table)
-                        if _markdown_table_is_fragmented(table_md):
-                            logger.debug(
-                                f"  Page {page_num + 1}: tabela {table_idx} "
-                                "fragmentada → fallback PNG"
-                            )
-                            bbox = table_obj.bbox
-                            page_tables.append({"illegible_page": True, "bbox": bbox})
-                            illegible_count += 1
-                        else:
-                            page_tables.append(table_md)
-                            table_count += 1
-                            logger.debug(
-                                f"  Page {page_num + 1}: tabela {table_idx} "
-                                "convertida para Markdown"
-                            )
+                        markdown_tables.append(table_md)
+                        table_count += 1
+                        logger.debug(
+                            f"  Page {page_num + 1}: tabela {table_idx} "
+                            "convertida para Markdown"
+                        )
+
+                if use_full_page_png:
+                    reason = "table_mode=png" if force_all_tables_png else "multi_table_page"
+                    if not prefer_png_page:
+                        reason = "table_png_fallback"
+                    logger.debug(
+                        f"  Page {page_num + 1}: tabela(s) → PNG página inteira ({reason})"
+                    )
+                    page_tables.append(
+                        {
+                            "full_page_table": True,
+                            "search_text": _markdown_tables_to_search_text(
+                                png_table_markdown
+                            ),
+                        }
+                    )
+                    illegible_count += 1
+                else:
+                    page_tables.extend(markdown_tables)
 
                 if page_tables:
                     tables_by_page[page_num] = page_tables
@@ -400,6 +456,8 @@ def extract_tables_pass(
 def _combine_and_sort_bboxes(
     images_by_page: dict[int, list[fitz.Rect]],
     tables_by_page: dict[int, list[str | dict]],
+    *,
+    full_table_pages: set[int] | None = None,
 ) -> dict[int, list[dict]]:
     """
     Combina bboxes de imagem (fitz.Rect) e tabela ilegível (tupla pdfplumber) por página.
@@ -411,8 +469,12 @@ def _combine_and_sort_bboxes(
     Normaliza ambos os formatos para fitz.Rect para renderização posterior.
     """
     combined = {}
+    skip_pages = full_table_pages or set()
 
     for page_num in set(images_by_page.keys()) | set(tables_by_page.keys()):
+        if page_num in skip_pages:
+            continue
+
         items = []
 
         # Adiciona imagens (já são fitz.Rect)
@@ -423,14 +485,15 @@ def _combine_and_sort_bboxes(
                     "kind": "image",
                 })
 
-        # Adiciona tabelas ilegíveis
+        # Adiciona tabelas ilegíveis (recorte por bbox — legado / tabela isolada)
         if page_num in tables_by_page:
-            table_item_idx = 0  # índice da tabela ilegível dentro da página
+            table_item_idx = 0
             for table_data in tables_by_page[page_num]:
+                if isinstance(table_data, dict) and table_data.get("full_page_table"):
+                    continue
                 if isinstance(table_data, dict) and table_data.get("illegible_page"):
                     bbox_tuple = table_data.get("bbox")
                     if bbox_tuple:
-                        # Converte tupla (x0, top, x1, bottom) para fitz.Rect
                         x0, top, x1, bottom = bbox_tuple
                         rect = fitz.Rect(x0, top, x1, bottom)
                         items.append({
@@ -439,7 +502,9 @@ def _combine_and_sort_bboxes(
                             "table_index": table_item_idx,
                         })
                     else:
-                        logger.warning(f"  Page {page_num + 1}: tabela ilegível sem bbox capturado, pulando")
+                        logger.warning(
+                            f"  Page {page_num + 1}: tabela ilegível sem bbox capturado, pulando"
+                        )
                     table_item_idx += 1
 
         # Ordena por y0 (topo do item)
@@ -449,6 +514,30 @@ def _combine_and_sort_bboxes(
             combined[page_num] = items
 
     return combined
+
+
+def _page_has_full_table_png(tables_by_page: dict[int, list[str | dict]], page_num: int) -> bool:
+    tables = tables_by_page.get(page_num) or []
+    return any(isinstance(item, dict) and item.get("full_page_table") for item in tables)
+
+
+def _full_table_pages(tables_by_page: dict[int, list[str | dict]]) -> set[int]:
+    return {
+        page_num
+        for page_num, tables in tables_by_page.items()
+        if any(isinstance(item, dict) and item.get("full_page_table") for item in tables)
+    }
+
+
+def _render_full_page_table_png(
+    doc: fitz.Document, page_num: int, pages_dir: Path
+) -> Path:
+    """Renderiza a página inteira como PNG (tabelas densas — uma folha por vez no app)."""
+    page = doc[page_num]
+    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+    img_file = pages_dir / f"page-{page_num + 1:03d}-table-full.png"
+    pix.save(str(img_file))
+    return img_file
 
 
 def _render_bbox_png(doc: fitz.Document, page_num: int, bbox: fitz.Rect, pages_dir: Path, kind: str, idx: int) -> Path:
@@ -567,12 +656,25 @@ def merge_passes(
     for old_png in pages_dir.glob("page-*.png"):
         old_png.unlink()
 
-    # Combina e ordena bboxes de imagem + tabelas ilegíveis por página
-    combined_items = _combine_and_sort_bboxes(images_by_page, tables_by_page)
+    full_table_pages = _full_table_pages(tables_by_page)
 
-    # Renderiza cada item (imagem ou tabela ilegível) com recorte de bbox
+    # Combina bboxes (páginas com PNG de página inteira não geram recortes extras)
+    combined_items = _combine_and_sort_bboxes(
+        images_by_page, tables_by_page, full_table_pages=full_table_pages
+    )
+
     try:
         doc = fitz.open(str(pdf_file))
+        for page_num in sorted(full_table_pages):
+            if page_num >= len(doc):
+                logger.warning(f"  Page {page_num + 1} fora dos limites do PDF, pulando")
+                continue
+            try:
+                _render_full_page_table_png(doc, page_num, pages_dir)
+                logger.debug(f"  Page {page_num + 1}: PNG página inteira (tabelas)")
+            except Exception as e:
+                logger.error(f"  Falha ao renderizar página inteira {page_num + 1}: {e}")
+
         for page_num, items in combined_items.items():
             if page_num >= len(doc):
                 logger.warning(f"  Page {page_num + 1} fora dos limites do PDF, pulando")
@@ -591,22 +693,23 @@ def merge_passes(
     except Exception as e:
         logger.error(f"  Falha ao renderizar PNGs: {e}")
 
-    # Concatena página por página, adicionando tabelas Markdown + referências de imagem/tabela PNG
     merged_parts = []
-    image_counters: dict[int, int] = {}  # contador de imagens por página
-    table_counters: dict[int, int] = {}  # contador de tabelas ilegíveis por página
+    image_counters: dict[int, int] = {}
+    table_counters: dict[int, int] = {}
 
     for page_num, page_text in enumerate(pages_text):
         merged_parts.append(page_text)
 
-        # Adiciona tabelas/imagens desta página (se houver)
+        if page_num in full_table_pages:
+            merged_parts.append(
+                f"\n![Página {page_num + 1} (tabelas)](../assets/pages/page-{page_num + 1:03d}-table-full.png)\n"
+            )
+
         if page_num in combined_items:
             for item in combined_items[page_num]:
-                bbox = item["bbox"]
                 kind = item["kind"]
 
                 if kind == "image":
-                    # Contador de imagens por página
                     if page_num not in image_counters:
                         image_counters[page_num] = 0
                     img_idx = image_counters[page_num]
@@ -617,7 +720,6 @@ def merge_passes(
                     )
 
                 elif kind == "table":
-                    # Contador de tabelas ilegíveis por página
                     if page_num not in table_counters:
                         table_counters[page_num] = 0
                     tbl_idx = table_counters[page_num]
@@ -627,14 +729,117 @@ def merge_passes(
                         f"\n![Tabela da página {page_num + 1}](../assets/pages/page-{page_num + 1:03d}-table-{tbl_idx:02d}.png)\n"
                     )
 
-        # Adiciona tabelas Markdown pronto (não PNG) desta página
         if page_num in tables_by_page:
             for table_item in tables_by_page[page_num]:
                 if isinstance(table_item, str):
-                    # Tabela Markdown pronto
                     merged_parts.append("\n" + table_item + "\n")
 
     return "\n".join(merged_parts)
+
+
+PAGE_TABLE_FULL_MD_RE = re.compile(
+    r"!\[[^\]]*\]\(\.\./assets/pages/page-(\d{3})-table-full\.png\)"
+)
+
+PNG_TABLE_IMAGE_MD_RE = re.compile(
+    r"!\[[^\]]*\]\((\.\./assets/pages/page-(\d{3})-table(?:-full|-\d{2})\.png)\)"
+)
+
+
+def _markdown_table_to_plain_search(table_md: str) -> str:
+    """Texto plano derivado do Markdown de tabela — usado só na busca."""
+    lines: list[str] = []
+    for line in table_md.split("\n"):
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if "|" in stripped and re.match(r"^\|?[\s\-:|]+\|?$", stripped):
+            continue
+        lines.append(stripped.replace("|", " "))
+    return re.sub(r"\s+", " ", " ".join(lines)).strip()
+
+
+def _markdown_tables_to_search_text(table_markdowns: list[str]) -> str:
+    parts = [
+        _markdown_table_to_plain_search(md)
+        for md in table_markdowns
+        if md and md.strip()
+    ]
+    return "\n\n".join(parts).strip()
+
+
+def extract_pdf_page_search_text(pdf_file: Path, page_num: int) -> str:
+    """Texto da camada do PDF + células de tabela — só para busca, não exibido no leitor."""
+    parts: list[str] = []
+
+    try:
+        doc = fitz.open(str(pdf_file))
+        if 0 <= page_num < len(doc):
+            parts.append(doc[page_num].get_text("text") or "")
+        doc.close()
+    except Exception as e:
+        logger.debug(f"  Page {page_num + 1}: get_text para busca falhou: {e}")
+
+    try:
+        with pdfplumber.open(str(pdf_file)) as pdf:
+            if 0 <= page_num < len(pdf.pages):
+                page = pdf.pages[page_num]
+                for table_obj in page.find_tables():
+                    table = table_obj.extract() or []
+                    for row in table:
+                        for cell in row:
+                            if cell:
+                                parts.append(_normalize_table_cell(cell))
+    except Exception as e:
+        logger.debug(f"  Page {page_num + 1}: pdfplumber para busca falhou: {e}")
+
+    text = " ".join(parts)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def build_image_search_index(
+    md_text: str,
+    tables_by_page: dict[int, list[str | dict]],
+    pdf_file: Path,
+) -> dict[str, Any]:
+    """
+    Índice de busca para tabelas renderizadas como PNG.
+
+    Prioriza o texto já extraído na pass de tabelas (Markdown); PDF só como fallback.
+    """
+    images: dict[str, dict[str, Any]] = {}
+
+    for page_num, items in tables_by_page.items():
+        for item in items:
+            if not isinstance(item, dict) or not item.get("full_page_table"):
+                continue
+            page_1based = page_num + 1
+            src = f"../assets/pages/page-{page_1based:03d}-table-full.png"
+            search_text = (item.get("search_text") or "").strip()
+            if not search_text:
+                search_text = extract_pdf_page_search_text(pdf_file, page_num)
+            images[src] = {"search_text": search_text, "page": page_1based}
+
+    for match in PNG_TABLE_IMAGE_MD_RE.finditer(md_text):
+        src = match.group(1)
+        if src in images:
+            continue
+        page_1based = int(match.group(2))
+        images[src] = {
+            "search_text": extract_pdf_page_search_text(pdf_file, page_1based - 1),
+            "page": page_1based,
+        }
+
+    return {"images": images}
+
+
+def save_image_search_index(nr_id: str, image_search: dict[str, Any]) -> None:
+    nr_dir = ensure_content_dir(nr_id)
+    out = nr_dir / "image_search.json"
+    out.write_text(
+        json.dumps(image_search, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
 
 
 def save_metadata(nr_id: str, pdf_hash: str, char_count: int) -> None:
@@ -723,6 +928,14 @@ def convert_nr(nr_id: str, dry_run: bool = False, pdf_bytes: bytes | None = None
     md_file = nr_dir / f"{nr_id}.md"
     md_file.write_text(normalized_md, encoding="utf-8")
     logger.info(f"✓ {nr_id}: markdown salvo ({len(normalized_md)} chars)")
+
+    image_search = build_image_search_index(
+        normalized_md, tables_by_page, pdf_file
+    )
+    save_image_search_index(nr_id, image_search)
+    logger.info(
+        f"  image_search.json: {len(image_search.get('images', {}))} imagem(ns) indexadas"
+    )
 
     # 5. Metadados
     save_metadata(nr_id, pdf_hash, len(normalized_md))

@@ -34,6 +34,33 @@ HTML_BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 HTML_MARK_RE = re.compile(r"</?mark\b", re.IGNORECASE)
 PICTURE_TEXT_RE = re.compile(r"Start of picture text", re.IGNORECASE)
 
+FRAGMENTED_TABLE_SEP_THRESHOLD = 10
+STRUCTURE_TABLE_BLOCK_THRESHOLD = 25
+PNG_HEAVY_MIN_FALLBACK = 15
+
+
+def _count_structure_table_blocks(nr_dir: Path) -> int:
+    structure_file = nr_dir / "structure.json"
+    if not structure_file.exists():
+        return 0
+    try:
+        data = json.loads(structure_file.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return 0
+
+    count = 0
+    preamble = data.get("preamble") or {}
+    for block in preamble.get("blocks") or []:
+        if isinstance(block, dict) and block.get("type") == "table":
+            count += 1
+    for section in data.get("sections") or []:
+        if not isinstance(section, dict):
+            continue
+        for block in section.get("blocks") or []:
+            if isinstance(block, dict) and block.get("type") == "table":
+                count += 1
+    return count
+
 
 def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
     """Analisa qualidade do Markdown convertido de uma NR."""
@@ -68,8 +95,17 @@ def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
 
     # Tabelas com separador órfão no meio do documento (heurística)
     table_seps = BROKEN_TABLE_RE.findall(text)
-    if len(table_seps) > 3:
-        warnings.append(f"fragmented_tables: {len(table_seps)} separadores de tabela")
+    fragmented_table_count = len(table_seps)
+    if fragmented_table_count > 3:
+        warnings.append(
+            f"fragmented_tables: {fragmented_table_count} separadores de tabela"
+        )
+
+    structure_table_blocks = _count_structure_table_blocks(nr_dir)
+    if structure_table_blocks > STRUCTURE_TABLE_BLOCK_THRESHOLD:
+        warnings.append(
+            f"too_many_table_blocks: {structure_table_blocks} blocos table no structure.json"
+        )
 
     if HTML_BR_RE.search(text):
         count = len(HTML_BR_RE.findall(text))
@@ -103,13 +139,30 @@ def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
             if pdf_chars > 0:
                 char_ratio = round(md_chars / pdf_chars, 3)
                 if char_ratio < 0.5:
-                    warnings.append(
-                        f"low_char_ratio: {char_ratio} (possível perda de conteúdo)"
-                    )
+                    if pages_fallback_png >= PNG_HEAVY_MIN_FALLBACK:
+                        warnings.append(
+                            f"png_heavy_char_ratio: {char_ratio} "
+                            f"({pages_fallback_png} PNGs — texto normativo em imagens)"
+                        )
+                    else:
+                        warnings.append(
+                            f"low_char_ratio: {char_ratio} (possível perda de conteúdo)"
+                        )
         except Exception:
             logger.debug(f"{nr_id}: não foi possível calcular char_ratio do PDF")
 
-    critical = [w for w in warnings if w.startswith(("dou_footer", "low_char_ratio"))]
+    critical = [
+        w
+        for w in warnings
+        if w.startswith(("dou_footer", "low_char_ratio"))
+    ]
+
+    prefer_png_tables = (
+        fragmented_table_count > FRAGMENTED_TABLE_SEP_THRESHOLD
+        or structure_table_blocks > STRUCTURE_TABLE_BLOCK_THRESHOLD
+    )
+    if prefer_png_tables:
+        critical.append("prefer_png_tables: reconverter com heurística PNG por página")
 
     report: dict[str, Any] = {
         "nr_id": nr_id,
@@ -119,7 +172,12 @@ def analyze_nr_quality(nr_id: str) -> dict[str, Any]:
         "md_chars": md_chars,
         "pdf_chars": pdf_chars,
         "pages_fallback_png": pages_fallback_png,
+        "structure_table_blocks": structure_table_blocks,
+        "fragmented_table_separators": fragmented_table_count,
     }
+
+    if prefer_png_tables:
+        report["recommended_action"] = "reconvert_tables_as_png"
 
     if meta_file.exists():
         try:

@@ -3,6 +3,10 @@
   "_exemplo": {
     "title": "Título só se precisar sobrescrever o extraído do site",
     "pdf_url": "URL manual só se discover_nrs.py não achar o link padrão para esta NR",
-    "page_url": "URL manual da página HTML, mesmo motivo"
+    "page_url": "URL manual da página HTML, mesmo motivo",
+    "table_mode": "png — força pdfplumber a emitir PNG em vez de Markdown inline"
+  },
+  "nr-15": {
+    "table_mode": "png"
   }
 }

@@ -5,21 +5,18 @@ import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:nrfacil/features/reader/views/widgets/nr_block_renderer.dart';
+import 'package:nrfacil/features/reader/views/widgets/nr_reader_block_padding.dart';
 
-/// Bloco plano de uma seção normativa — leitura contínua sem cards.
-class NrSectionBlock extends StatelessWidget {
+/// Cabeçalho de seção normativa (título + divisor).
+class NrSectionHeader extends StatelessWidget {
   final NrSection section;
   final double fontSize;
-  final String nrId;
   final String? highlightQuery;
-  final GlobalKey Function(String sectionId, int blockIndex) blockKeyFor;
   final bool showTopDivider;
 
-  const NrSectionBlock({
+  const NrSectionHeader({
     required this.section,
     required this.fontSize,
-    required this.nrId,
-    required this.blockKeyFor,
     this.highlightQuery,
     this.showTopDivider = true,
     super.key,
@@ -57,9 +54,46 @@ class NrSectionBlock extends StatelessWidget {
             style: readerSectionTitleStyle(context, fontSize),
           ),
           const SizedBox(height: AppSpacing.md),
-          for (var i = 0; i < section.blocks.length; i++)
-            KeyedSubtree(
-              key: blockKeyFor(section.id, i),
+        ],
+      ),
+    );
+  }
+}
+
+/// Bloco plano de uma seção normativa — leitura contínua sem cards.
+class NrSectionBlock extends StatelessWidget {
+  final NrSection section;
+  final double fontSize;
+  final String nrId;
+  final String? highlightQuery;
+  final GlobalKey Function(String sectionId, int blockIndex) blockKeyFor;
+  final bool showTopDivider;
+
+  const NrSectionBlock({
+    required this.section,
+    required this.fontSize,
+    required this.nrId,
+    required this.blockKeyFor,
+    this.highlightQuery,
+    this.showTopDivider = true,
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        NrSectionHeader(
+          section: section,
+          fontSize: fontSize,
+          highlightQuery: highlightQuery,
+          showTopDivider: showTopDivider,
+        ),
+        for (var i = 0; i < section.blocks.length; i++)
+          KeyedSubtree(
+            key: blockKeyFor(section.id, i),
+            child: NrReaderBlockPadding(
               child: NrBlockRenderer(
                 block: section.blocks[i],
                 fontSize: fontSize,
@@ -67,8 +101,8 @@ class NrSectionBlock extends StatelessWidget {
                 highlightQuery: highlightQuery,
               ),
             ),
-        ],
-      ),
+          ),
+      ],
     );
   }
 }

@@ -17,6 +17,8 @@ Este projeto é conduzido por um único dev. Decisões de produto/arquitetura co
 
 Nunca escolher por conta própria uma opção com trade-off real e apresentar como fato consumado. Se só existe **uma** opção tecnicamente viável (sem trade-off), aí sim pode seguir sem perguntar — mas declare isso explicitamente ("única opção viável, sem trade-off — seguindo direto").
 
+**Exceção — lacuna de `/descobrir` com Resposta em branco:** quando a lacuna vem de um bloco `### D1 — ...` de `.claude/discoveries/<slug>.md` (formato Dúvida?/Opções/Resposta) e o campo **Resposta** foi deixado **em branco de propósito**, isso é o sinal do usuário para **não perguntar** — delegar a decisão a um agente especializado no tema (ver §1b) e só **avisar depois**, com a escolha feita e a justificativa. Isso vale só para lacunas nesse formato específico; fora desse caso, o princípio acima (sempre perguntar) continua valendo.
+
 ---
 
 ## Roteamento automático
@@ -74,7 +76,21 @@ Ler `CLAUDE.md` e `docs/architecture.md` (seções relevantes ao escopo).
 | Regra clara já existe | Apontar onde está e **encerrar** — não perguntar ao usuário à toa |
 | Decisão já registrada em `todo.md` § "Decisões registradas" | Apontar a linha; só reabrir se o usuário pedir explicitamente para reconsiderar |
 | Regra semelhante mas incompleta | Levantar como opção "manter regra + estender" vs alternativas |
-| Tema novo ou ambíguo | Continuar para §2 |
+| Tema novo ou ambíguo | Continuar para §1b (se vier de `/descobrir`) ou §2 |
+
+---
+
+## 1b. Lacunas vindas de `/descobrir`: checar o campo Resposta antes de perguntar
+
+Se a origem for um arquivo de descoberta (`.claude/discoveries/<slug>.md`), ler cada bloco `### D1 — ...` (Dúvida?/Opções/Resposta) que ainda está em aberto:
+
+| Estado do campo Resposta | Ação |
+|--------------------------|------|
+| Preenchido com um número da opção (ex. `3`) | Usar essa opção diretamente como a escolha do usuário — **não perguntar de novo**. Ir para §4 (Registrar). |
+| Preenchido com `outro: <texto>` ou texto livre | Usar esse texto como a escolha do usuário. Ir para §4. |
+| **Em branco** | Sinal explícito do usuário para delegar. Acionar o agente especializado mais próximo do tema da lacuna (`tech-lead` para arquitetura/custo/monetização, `python-pipeline` para pipeline de conteúdo, `flutter-senior` para UI/app, `qa-engineer` para cobertura de testes) para investigar as opções listadas no bloco e escolher a mais adequada, com justificativa. Registrar a decisão (§4) marcando `Decidido por: agente <nome>` no lugar de "Escolha do usuário", e **avisar o usuário depois** com um resumo curto (pergunta, opção escolhida, por quê) — não usar `AskUserQuestion` para esse bloco. |
+
+Lacunas fora desse formato (sem bloco Dúvida?/Opções/Resposta) seguem o fluxo normal a partir de §2.
 
 ---
 
@@ -120,9 +136,9 @@ Se houver mais de uma lacuna independente na mesma rodada, agrupar em uma única
 - Opção B — <resumo>
 
 ### Escolha do usuário
-<opção escolhida ou resposta livre>
+<opção escolhida ou resposta livre — ou, se delegado, `Decidido por: agente <nome>` + a opção que ele escolheu>
 
-### Justificativa (do usuário, quando explicada)
+### Justificativa (do usuário, ou do agente quando delegado)
 ...
 
 ### Impacto esperado
@@ -148,7 +164,7 @@ Se houver mais de uma lacuna independente na mesma rodada, agrupar em uma única
 
 ## 6. Confirmar
 
-1. Decisão escolhida em 1 linha (a escolha do usuário, não uma sugestão sua)
+1. Decisão escolhida em 1 linha (a escolha do usuário, não uma sugestão sua) — se alguma lacuna foi **delegada a agente** (§1b, Resposta em branco), destacar isso separadamente: pergunta, opção escolhida pelo agente e por quê, pra ficar claro que não veio de você
 2. Arquivo(s) alterado(s)
 3. **Próximo passo:**
    - Escopo cabe em 1 fase (≤5 arquivos, 1 feature) → pode pular `/plano` e ir direto para `/fazer <slug>`

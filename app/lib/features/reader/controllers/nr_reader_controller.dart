@@ -25,19 +25,21 @@ import 'package:nrfacil/features/reader/utils/text_utils.dart';
 /// Tamanhos de fonte disponíveis no leitor (px).
 const List<double> kReaderFontSizes = [14, 16, 18, 20];
 
-/// Cache extent elevado no leitor para montar widgets distantes na navegação.
-const double kReaderNavigationCacheExtent = 50000.0;
+/// Cache off-screen modesto — scroll-to-anchor usa estimativa de altura, não pré-build massivo.
+const double kReaderNavigationCacheExtent = 2000.0;
 
 /// Controller para o NRReaderPage — gerencia estado do leitor de uma NR.
 class NRReaderController extends GetxController {
   final String nrId;
   final String? initialAnchor;
+  final String? initialHighlightQuery;
   final ContentService contentService;
   final SearchService? searchService;
 
   NRReaderController({
     required this.nrId,
     this.initialAnchor,
+    this.initialHighlightQuery,
     required this.contentService,
     this.searchService,
   });
@@ -181,6 +183,14 @@ class NRReaderController extends GetxController {
       return;
     }
     _initialAnchorHandled = true;
+    const imagePrefix = 'img:';
+    if (initialAnchor!.startsWith(imagePrefix)) {
+      navigateToImageSrc(
+        initialAnchor!.substring(imagePrefix.length),
+        highlightQuery: initialHighlightQuery,
+      );
+      return;
+    }
     navigateToItemNumber(initialAnchor!);
   }
 
@@ -811,6 +821,71 @@ class NRReaderController extends GetxController {
   void toggleIndex() => isIndexOpen.value = !isIndexOpen.value;
 
   void setPreambleExpanded(bool value) => isPreambleExpanded.value = value;
+
+  /// Rola até o bloco imagem cujo [src] coincide (busca em tabelas PNG).
+  void navigateToImageSrc(
+    String imageSrc, {
+    String? highlightQuery,
+    VoidCallback? onComplete,
+  }) {
+    final trimmedHighlight = highlightQuery?.trim();
+    if (trimmedHighlight != null && trimmedHighlight.isNotEmpty) {
+      activeHighlightQuery.value = trimmedHighlight;
+    }
+    final normalized = _normalizeImageSrcForMatch(imageSrc);
+    final s = structure.value;
+    if (s == null) {
+      onComplete?.call();
+      return;
+    }
+
+    for (final section in s.sections) {
+      for (var i = 0; i < section.blocks.length; i++) {
+        final block = section.blocks[i];
+        if (block is! NrImageBlock) continue;
+        if (_normalizeImageSrcForMatch(block.src) == normalized) {
+          highlightSectionId.value = section.id;
+          highlightBlockIndex.value = i;
+          currentSectionId.value = section.id;
+          _scheduleScrollToTarget(
+            sectionId: section.id,
+            blockIndex: i,
+            onComplete: onComplete,
+          );
+          isIndexOpen.value = false;
+          return;
+        }
+      }
+    }
+
+    for (final block in s.preamble.blocks) {
+      if (block is! NrImageBlock) continue;
+      if (_normalizeImageSrcForMatch(block.src) == normalized) {
+        isPreambleExpanded.value = true;
+        final idx = s.preamble.blocks.indexOf(block);
+        highlightSectionId.value = 'preamble';
+        highlightBlockIndex.value = idx;
+        _scheduleScrollToTarget(
+          sectionId: 'preamble',
+          blockIndex: idx,
+          onComplete: onComplete,
+        );
+        isIndexOpen.value = false;
+        return;
+      }
+    }
+
+    AppLogger.warning('Imagem não encontrada na estrutura: $imageSrc');
+    onComplete?.call();
+  }
+
+  String _normalizeImageSrcForMatch(String src) {
+    var path = src.trim();
+    if (path.startsWith('../')) {
+      path = path.substring(3);
+    }
+    return path.replaceAll('\\', '/');
+  }
 
   void navigateToItemNumber(String itemNumber, {VoidCallback? onComplete}) {
     final normalized = itemNumber.trim();

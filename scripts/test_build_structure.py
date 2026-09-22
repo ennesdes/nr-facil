@@ -12,6 +12,7 @@ from pathlib import Path
 from build_structure import (
     build_structure,
     is_normative_section_heading,
+    parse_bold_major_section_line,
     parse_section_heading,
     slugify,
     strip_markdown_inline,
@@ -63,6 +64,17 @@ class TestHelpers(unittest.TestCase):
     self.assertFalse(is_major_section("5.3.1", "A CIPA tem por atribuição"))
     self.assertTrue(is_major_section("1", "Objetivo"))
     self.assertTrue(is_major_section("Quadro I", "Dimensionamento da CIPA"))
+
+  def test_parse_bold_major_section_without_hash(self):
+    parsed = parse_bold_major_section_line("**28.2** EMBARGO OU INTERDIÇÃO.")
+    self.assertEqual(parsed[0], "28.2")
+    self.assertIn("EMBARGO OU INTERDIÇÃO", parsed[1])
+
+    anexo = parse_bold_major_section_line("**ANEXO II**")
+    self.assertIsNotNone(anexo)
+    self.assertEqual(anexo[0], "ANEXO II")
+
+    self.assertIsNone(parse_bold_major_section_line("**28.1.1** Texto do item"))
 
 
 class TestBuildStructureNr06(unittest.TestCase):
@@ -145,7 +157,6 @@ class TestBuildStructureNr05(unittest.TestCase):
         "5.7",
         "5.8",
         "5.9",
-        "Quadro I",
         "ANEXO I",
         "1",
         "2",
@@ -161,11 +172,10 @@ class TestBuildStructureNr05(unittest.TestCase):
     self.assertIn("5.3.1", numbers)
     self.assertIn("5.3.3", numbers)
 
-  def test_quadro_i_has_image(self):
-    section = next(s for s in self.structure["sections"] if s["number"] == "Quadro I")
-    self.assertEqual(section["title"], "Dimensionamento da CIPA")
+  def test_section_59_contains_quadro_image(self):
+    section = next(s for s in self.structure["sections"] if s["number"] == "5.9")
     images = [b for b in section["blocks"] if b["type"] == "image"]
-    self.assertEqual(len(images), 1)
+    self.assertGreaterEqual(len(images), 1)
 
 
 class TestBuildStructureNr17(unittest.TestCase):

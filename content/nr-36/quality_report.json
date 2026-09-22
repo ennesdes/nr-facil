@@ -6,5 +6,7 @@
   "md_chars": 101618,
   "pdf_chars": 99678,
   "pages_fallback_png": 19,
+  "structure_table_blocks": 3,
+  "fragmented_table_separators": 3,
   "reviewed": true
 }

@@ -9,6 +9,10 @@ import 'package:nrfacil/features/reader/views/widgets/markdown_image_builder.dar
 import 'package:nrfacil/features/reader/views/widgets/nr_item_row.dart';
 import 'package:nrfacil/features/reader/views/widgets/searchable_markdown_body.dart';
 
+/// Tabelas acima deste limiar não passam pelo parser Markdown (conteúdo legado pesado).
+const int _kMaxInlineTableLines = 30;
+const int _kMaxInlineTableChars = 8 * 1024;
+
 /// Renderiza um bloco tipado do structure.json.
 class NrBlockRenderer extends StatelessWidget {
   final NrBlock block;
@@ -16,11 +20,15 @@ class NrBlockRenderer extends StatelessWidget {
   final String nrId;
   final String? highlightQuery;
 
+  /// Borda de destaque quando a busca apontou para esta imagem (não há highlight no pixel).
+  final bool searchFocusImage;
+
   const NrBlockRenderer({
     required this.block,
     required this.fontSize,
     required this.nrId,
     this.highlightQuery,
+    this.searchFocusImage = false,
     super.key,
   });
 
@@ -86,6 +94,23 @@ class NrBlockRenderer extends StatelessWidget {
   }
 
   Widget _buildTable(BuildContext context, NrTableBlock table) {
+    final markdown = stripHtmlTags(table.markdown);
+    final lineCount = '\n'.allMatches(markdown).length + 1;
+    if (lineCount > _kMaxInlineTableLines ||
+        markdown.length > _kMaxInlineTableChars) {
+      final theme = Theme.of(context);
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        child: Text(
+          'Tabela extensa — sincronize a norma ou consulte o PDF oficial no rodapé.',
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontSize: fontSize - 1,
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+      );
+    }
+
     final tableStyle = _bodyStyle(context).copyWith(fontSize: fontSize - 1);
     final headStyle = tableStyle.copyWith(fontWeight: FontWeight.bold);
 
@@ -98,7 +123,7 @@ class NrBlockRenderer extends StatelessWidget {
             child: ConstrainedBox(
               constraints: BoxConstraints(minWidth: constraints.maxWidth),
               child: SearchableMarkdownBody(
-                data: stripHtmlTags(table.markdown),
+                data: markdown,
                 highlightQuery: highlightQuery,
                 styleSheet: MarkdownStyleSheet(
                   p: tableStyle,
@@ -144,10 +169,24 @@ class NrBlockRenderer extends StatelessWidget {
               ],
             ),
           ),
-        NrMarkdownImageBuilder(
-          uri: Uri.parse(image.src),
-          nrId: nrId,
-          alt: image.alt,
+        AnimatedContainer(
+          duration: const Duration(milliseconds: 250),
+          curve: Curves.easeOut,
+          padding: searchFocusImage ? const EdgeInsets.all(4) : EdgeInsets.zero,
+          decoration: searchFocusImage
+              ? BoxDecoration(
+                  border: Border.all(
+                    color: context.searchHighlightColor,
+                    width: 3,
+                  ),
+                  borderRadius: BorderRadius.circular(8),
+                )
+              : null,
+          child: NrMarkdownImageBuilder(
+            uri: Uri.parse(image.src),
+            nrId: nrId,
+            alt: image.alt,
+          ),
         ),
       ],
     );

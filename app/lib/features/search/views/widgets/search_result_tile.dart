@@ -59,16 +59,27 @@ class SearchResultTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 8),
-            HighlightedText(
-              text: extractMarkdownSnippet(
-                result.chunk.text,
-                query: searchQuery,
+            if (result.chunk.isImageSearchResult)
+              HighlightedText(
+                text: extractMarkdownSnippet(
+                  result.chunk.text,
+                  query: searchQuery,
+                ),
+                highlight: searchQuery,
+                style: Theme.of(context).textTheme.bodySmall,
+                maxLines: 3,
+              )
+            else
+              HighlightedText(
+                text: extractMarkdownSnippet(
+                  result.chunk.text,
+                  query: searchQuery,
+                ),
+                highlight: searchQuery,
+                preserveBold: true,
+                style: Theme.of(context).textTheme.bodySmall,
+                maxLines: 3,
               ),
-              highlight: searchQuery,
-              preserveBold: true,
-              style: Theme.of(context).textTheme.bodySmall,
-              maxLines: 3,
-            ),
           ],
         ),
         trailing: Icon(

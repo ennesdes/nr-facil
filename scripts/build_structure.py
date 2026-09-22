@@ -32,6 +32,9 @@ ITEM_RE = re.compile(r"^\*\*(\d+(?:\.\d+)+)\*?\*?\.?\s*(.*)$")
 IMPLICIT_SECTION_RE = re.compile(
     r"^\*\*(\d+\.\d+)\*?\*?\.?\s+(.+)$",
 )
+BOLD_ONLY_HEADING_RE = re.compile(
+    r"^\*\*(.+?)\*\*\s*(.*)$",
+)
 LIST_ITEM_RE = re.compile(r"^-\s*([a-z])\)\s*(.+)$", re.IGNORECASE)
 LIST_ITEM_BARE_RE = re.compile(r"^([a-z])\)\s*(.+)$", re.IGNORECASE)
 LIST_ITEM_BOLD_RE = re.compile(r"^-\s*\*\*(\d+(?:\.\d+)+)\*?\*?\.?\s*(.+)$")
@@ -308,6 +311,56 @@ def is_implicit_section_line(stripped: str) -> re.Match[str] | None:
     return match
 
 
+def parse_bold_major_section_line(stripped: str) -> tuple[str, str] | None:
+    """
+    Seção major sem prefixo # (comum após normalize quando o PDF não gera heading markdown).
+
+    Ex.: **28.2** EMBARGO OU INTERDIÇÃO. | **ANEXO II**
+    """
+    match = BOLD_ONLY_HEADING_RE.match(stripped)
+    if not match:
+        return None
+
+    inner = match.group(1).strip()
+    trailing = match.group(2).strip()
+    combined = f"{inner} {trailing}".strip() if trailing else inner
+
+    if is_preamble_heading(combined):
+        return None
+
+    number, title = parse_section_heading(combined)
+    if not is_major_section(number, title):
+        return None
+
+    if not title and number:
+        title = number
+    return number, title
+
+
+def _start_major_section(
+    sections: list[dict[str, Any]],
+    current_section: dict[str, Any] | None,
+    current_lines: list[str],
+    number: str,
+    section_title: str,
+) -> tuple[dict[str, Any], list[str]]:
+    """Fecha seção anterior e abre uma major section nova."""
+    if current_section is not None:
+        current_section["blocks"] = parse_blocks(current_lines)
+        sections.append(current_section)
+
+    label = f"{number} {section_title}".strip()
+    return (
+        {
+            "id": slugify(label),
+            "number": number,
+            "title": section_title,
+            "blocks": [],
+        },
+        [],
+    )
+
+
 def build_structure(md_text: str) -> dict[str, Any]:
     """Constrói structure.json a partir do texto Markdown."""
     lines = md_text.split("\n")
@@ -382,22 +435,47 @@ def build_structure(md_text: str) -> dict[str, Any]:
                 current_lines = []
         elif in_preamble:
             if stripped:
-                flush_preamble_line(stripped)
+                bold_major = parse_bold_major_section_line(stripped)
+                if bold_major:
+                    in_preamble = False
+                    number, section_title = bold_major
+                    current_section, current_lines = _start_major_section(
+                        sections,
+                        current_section,
+                        current_lines,
+                        number,
+                        section_title,
+                    )
+                else:
+                    flush_preamble_line(stripped)
         else:
             # Seção implícita sem heading # (comum em NR-12)
+            bold_major = parse_bold_major_section_line(stripped)
+            if bold_major:
+                number, section_title = bold_major
+                if current_section is None or current_section.get("number") != number:
+                    current_section, current_lines = _start_major_section(
+                        sections,
+                        current_section,
+                        current_lines,
+                        number,
+                        section_title,
+                    )
+                    i += 1
+                    continue
+
             implicit = is_implicit_section_line(stripped)
             if implicit:
                 number = implicit.group(1)
                 section_title = implicit.group(2).strip().rstrip(".")
                 if current_section is None or current_section.get("number") != number:
-                    flush_section()
-                    current_section = {
-                        "id": slugify(f"{number} {section_title}"),
-                        "number": number,
-                        "title": section_title,
-                        "blocks": [],
-                    }
-                    current_lines = []
+                    current_section, current_lines = _start_major_section(
+                        sections,
+                        current_section,
+                        current_lines,
+                        number,
+                        section_title,
+                    )
                     i += 1
                     continue
             if current_section is not None:

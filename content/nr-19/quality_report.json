@@ -1,12 +1,12 @@
 {
   "nr_id": "nr-19",
   "ok": true,
-  "warnings": [
-    "fragmented_tables: 11 separadores de tabela"
-  ],
-  "char_ratio": 1.013,
-  "md_chars": 67834,
+  "warnings": [],
+  "char_ratio": 0.895,
+  "md_chars": 59937,
   "pdf_chars": 66941,
-  "pages_fallback_png": 0,
+  "pages_fallback_png": 10,
+  "structure_table_blocks": 0,
+  "fragmented_table_separators": 0,
   "reviewed": false
 }

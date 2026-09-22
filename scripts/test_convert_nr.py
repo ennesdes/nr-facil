@@ -22,6 +22,8 @@ from convert_nr import (
     _markdown_table_is_fragmented,
     _row_has_merged_cell_artifact,
     _table_has_merged_cell_artifact,
+    _table_is_large_for_png,
+    _should_render_table_as_png,
     _strip_duplicate_markdown_table,
     _combine_and_sort_bboxes,
 )
@@ -152,6 +154,24 @@ class TestIsProbablyIllegible(unittest.TestCase):
             ["Hello\nWorld\nTest", "Normal"],  # múltiplas linhas mas não char-by-char
         ]
         self.assertFalse(_is_probably_illegible(table))
+
+
+class TestTablePngHeuristics(unittest.TestCase):
+    """Heurísticas de preferência por PNG em tabelas."""
+
+    def test_large_table_by_column_count(self):
+        table = [["A", "B", "C", "D", "E", "F"], ["1", "2", "3", "4", "5", "6"]]
+        self.assertTrue(_table_is_large_for_png(table))
+
+    def test_large_table_by_row_count(self):
+        header = ["Col1", "Col2", "Col3"]
+        rows = [header] + [[f"{i}", f"{i}b", f"{i}c"] for i in range(20)]
+        self.assertTrue(_table_is_large_for_png(rows))
+
+    def test_small_table_stays_markdown(self):
+        table = [["Col1", "Col2"], ["A", "B"], ["C", "D"]]
+        md = _table_to_markdown(table)
+        self.assertFalse(_should_render_table_as_png(table, md))
 
 
 class TestStripDuplicateMarkdownTable(unittest.TestCase):
