@@ -31,32 +31,32 @@
     {
       "id": "comercio",
       "label": "Comércio",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-17"]
     },
     {
       "id": "industria",
       "label": "Indústria",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-11", "nr-12", "nr-15"]
     },
     {
       "id": "construcao_civil",
       "label": "Construção Civil",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-18", "nr-35"]
     },
     {
       "id": "servicos_escritorio",
       "label": "Serviços/Escritório",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-17"]
     },
     {
       "id": "saude",
       "label": "Saúde",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-32"]
     },
     {
       "id": "transporte_logistica",
       "label": "Transporte/Logística",
-      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07", "nr-24", "nr-11", "nr-16"]
     }
   ],
   "items": [
@@ -241,6 +241,240 @@
       "responsavel": "Empregador / SESMT",
       "risk_factors": ["empregados_clt"],
       "reader_anchor_id": "173-avaliação-das-situações-de-trabalho"
+    },
+    {
+      "nr_id": "nr-11",
+      "item_number": "11.1.5, 11.1.6, 11.1.6.1",
+      "titulo": "Treinar e habilitar operadores de equipamentos de transporte",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "111126-4",
+      "explicacao": "Nos equipamentos de transporte com força motriz própria, o operador deve receber treinamento específico dado pela empresa. Operadores de equipamentos motorizados devem ser habilitados, portar cartão de identificação com nome e foto em lugar visível durante o trabalho, com validade de um ano e revalidação mediante exame de saúde completo custeado pelo empregador.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-11",
+      "item_number": "11.3.2, 11.3.3, 11.3.4, 11.3.5",
+      "titulo": "Armazenar materiais com segurança e sem obstruir rotas",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "111129-9",
+      "explicacao": "O material armazenado deve evitar obstrução de portas, equipamentos contra incêndio e saídas de emergência; pilhas devem ficar afastadas das laterais do prédio em pelo menos 0,50 m; a disposição não pode dificultar trânsito, iluminação nem acesso às saídas; e o armazenamento deve obedecer aos requisitos de segurança de cada tipo de material.",
+      "responsavel": "Empregador / Supervisor de armazém",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-15",
+      "item_number": "15.2",
+      "titulo": "Pagar adicional de insalubridade quando aplicável",
+      "infracao": true,
+      "gradacao": "I1",
+      "tipo": "S",
+      "codigo_infracao": "115001-4",
+      "explicacao": "O exercício de trabalho em condições de insalubridade, conforme caracterização nos anexos da NR-15, assegura ao trabalhador adicional incidente sobre o salário mínimo da região: 40% (grau máximo), 20% (médio) ou 10% (mínimo), conforme o grau constatado.",
+      "responsavel": "Empregador / RH",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-16",
+      "item_number": "16.2",
+      "titulo": "Pagar adicional de periculosidade quando aplicável",
+      "infracao": true,
+      "gradacao": "I1",
+      "tipo": "S",
+      "codigo_infracao": "116001-0",
+      "explicacao": "O exercício de trabalho em condições de periculosidade (atividades dos anexos da NR-16) assegura adicional de 30% sobre o salário, sem acréscimos de gratificações, prêmios ou participação nos lucros. O empregado pode optar pelo adicional de insalubridade se ambos forem devidos.",
+      "responsavel": "Empregador / RH",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-16",
+      "item_number": "16.8",
+      "titulo": "Delimitar áreas de risco de periculosidade",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "116029-0",
+      "explicacao": "Todas as áreas de risco previstas na NR-16 devem ser delimitadas, sob responsabilidade do empregador, de forma visível e compatível com as operações perigosas realizadas no estabelecimento.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-18",
+      "item_number": "18.4.1, 18.4.5",
+      "titulo": "Elaborar e implementar o PGR no canteiro de obras",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "318141-3",
+      "explicacao": "É obrigatória a elaboração e implementação do Programa de Gerenciamento de Riscos (PGR) nos canteiros de obras, contemplando riscos ocupacionais e medidas de prevenção, incluindo as frentes de trabalho na elaboração e na implementação do programa.",
+      "responsavel": "Empregador / Profissional de SST",
+      "risk_factors": [],
+      "reader_anchor_id": "184-programa-de-gerenciamento-de-riscos-pgr"
+    },
+    {
+      "nr_id": "nr-18",
+      "item_number": "18.5.1",
+      "titulo": "Projetar e manter áreas de vivência no canteiro",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "318149-9",
+      "explicacao": "As áreas de vivência devem ser projetadas para oferecer condições mínimas de segurança, conforto e privacidade aos trabalhadores e mantidas em perfeito estado de conservação, higiene e limpeza, com as instalações exigidas pela NR-18 (vestiários, refeitórios, abrigos etc., conforme o caso).",
+      "responsavel": "Empregador",
+      "risk_factors": [],
+      "reader_anchor_id": "185-áreas-de-vivência"
+    },
+    {
+      "nr_id": "nr-18",
+      "item_number": "18.9.4, 18.9.4.1",
+      "titulo": "Instalar proteção na periferia contra queda e projeção de materiais",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "318276-2",
+      "explicacao": "É obrigatória, na periferia da edificação, proteção contra queda de trabalhadores e projeção de materiais desde o início dos serviços da primeira laje. Anteparos rígidos com fechamento total do vão devem ter altura mínima de 1,2 m.",
+      "responsavel": "Empregador / Encarregado de obra",
+      "risk_factors": [],
+      "reader_anchor_id": "189-medidas-de-prevenção-contra-queda-de-altura"
+    },
+    {
+      "nr_id": "nr-24",
+      "item_number": "24.2.1",
+      "titulo": "Dispor de instalações sanitárias adequadas",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "S",
+      "codigo_infracao": "124250-4",
+      "explicacao": "Todo estabelecimento deve ter instalação sanitária com bacia sanitária sifonada (assento e tampo), lavatório e, nas instalações masculinas, mictórios conforme dimensionamento da NR-24, respeitando regras distintas para edificações anteriores e posteriores a 24/09/2019.",
+      "responsavel": "Empregador",
+      "risk_factors": [],
+      "reader_anchor_id": "242-instalações-sanitárias"
+    },
+    {
+      "nr_id": "nr-24",
+      "item_number": "24.9.1",
+      "titulo": "Fornecer água potável aos trabalhadores",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "S",
+      "codigo_infracao": "124285-7",
+      "explicacao": "Em todos os locais de trabalho deve ser fornecida água potável aos trabalhadores, sendo proibido copo coletivo. O fornecimento deve ser por bebedouros (mínimo um por grupo de 50 trabalhadores ou fração) ou sistema equivalente; se não houver água corrente potável, usar recipientes portáteis próprios e hermeticamente fechados.",
+      "responsavel": "Empregador",
+      "risk_factors": [],
+      "reader_anchor_id": "249-disposições-gerais"
+    },
+    {
+      "nr_id": "nr-32",
+      "item_number": "32.2.2.1 inciso I",
+      "titulo": "Identificar riscos biológicos no PGR de serviços de saúde",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "132489-6",
+      "explicacao": "No PGR de serviços de saúde, a etapa de identificação de perigos deve incluir os riscos biológicos mais prováveis conforme localização geográfica e características do serviço, considerando fontes de exposição, vias de transmissão, patogenicidade, persistência do agente, dados epidemiológicos e demais informações científicas (inciso I do 32.2.2.1).",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-32",
+      "item_number": "32.2.4.15",
+      "titulo": "Vedar reencape e desconexão manual de agulhas",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "132071-8",
+      "explicacao": "É vedado o reencape e a desconexão manual de agulhas em serviços de saúde — práticas que aumentam risco de exposição a materiais perfurocortantes contaminados.",
+      "responsavel": "Empregador / Supervisão de enfermagem",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-32",
+      "item_number": "32.2.4.17.1, 32.2.4.17.2, 32.2.4.17.3, 32.2.4.17.4, 32.2.4.17.5, 32.2.4.17.6, 32.2.4.17.7",
+      "titulo": "Programa de imunização dos trabalhadores de saúde",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "M",
+      "codigo_infracao": "132450-0",
+      "explicacao": "Todo trabalhador de serviços de saúde deve receber, gratuitamente, programa de imunização ativa (tétano, difteria, hepatite B e demais previstos no PCMSO), demais vacinas eficazes contra agentes a que está exposto, controle de eficácia e reforço quando recomendado, obedecendo ao Ministério da Saúde, com informação sobre benefícios e riscos da recusa, registro no prontuário e comprovante entregue ao trabalhador.",
+      "responsavel": "Empregador / Médico do trabalho",
+      "risk_factors": [],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-12",
+      "item_number": "12.5.1",
+      "titulo": "Proteger zonas de perigo em máquinas e equipamentos",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "312358-8",
+      "explicacao": "As zonas de perigo das máquinas e equipamentos devem ter sistemas de segurança — proteções fixas, móveis e dispositivos interligados — que protejam a saúde e a integridade física dos trabalhadores.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["possui_maquinas"],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-12",
+      "item_number": "12.16.2",
+      "titulo": "Capacitar trabalhadores que operam ou intervêm em máquinas",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "S",
+      "codigo_infracao": "312476-2",
+      "explicacao": "Trabalhadores que operam, mantêm, inspecionam ou intervêm em máquinas e equipamentos devem receber capacitação providenciada pelo empregador, compatível com a função, abordando riscos da exposição e medidas de proteção previstas na NR-12.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["possui_maquinas"],
+      "reader_anchor_id": "1216-capacitação"
+    },
+    {
+      "nr_id": "nr-17",
+      "item_number": "17.4.3",
+      "titulo": "Prevenir posturas e movimentos repetitivos nocivos",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "117251-4",
+      "explicacao": "A partir da avaliação ergonômica preliminar ou da AET, devem ser implementadas medidas que evitem que o trabalhador, de forma contínua e repetitiva, adote posturas extremas ou nocivas, movimentos bruscos, uso excessivo de força, frequência de movimentos que comprometam a saúde, exposição a vibrações ou exigência cognitiva prejudicial — incluindo pausas, alternância de tarefas ou outras medidas técnicas previstas na NR-17.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": [],
+      "reader_anchor_id": "174-organização-do-trabalho"
+    },
+    {
+      "nr_id": "nr-17",
+      "item_number": "17.6.1",
+      "titulo": "Adaptar mobiliário do posto de trabalho",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "117264-6",
+      "explicacao": "O mobiliário do posto de trabalho deve ter regulagens em um ou mais elementos que permitam adaptá-lo às características antropométricas dos trabalhadores envolvidos e à natureza do trabalho executado.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": [],
+      "reader_anchor_id": "176-mobiliário-dos-postos-de-trabalho"
+    },
+    {
+      "nr_id": "nr-35",
+      "item_number": "35.4.2.1",
+      "titulo": "Realizar treinamento inicial antes do trabalho em altura",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "135178-8",
+      "explicacao": "O treinamento inicial para trabalho em altura, com carga horária mínima de 8 horas, deve ocorrer antes do trabalhador iniciar a atividade e contemplar normas aplicáveis, análise de risco e condições impeditivas, riscos e medidas de prevenção, sistemas de proteção coletiva, EPI, procedimentos de emergência e demais conteúdos previstos na NR-35.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["trabalho_em_altura"],
+      "reader_anchor_id": "354-autorização-capacitação-e-aptidão"
     }
   ]
 }

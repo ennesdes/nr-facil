@@ -280,13 +280,13 @@
 **Então** aparece um badge com "Segurança do Trabalho" ou "Medicina do Trabalho" (nunca mais "Simples"/"Multa")
 
 ## Checklist de entrega
-- [ ] Descoberta vinculada em `.claude/discoveries/checklist-cobertura-completa.md`
-- [ ] Decisões abertas resolvidas *(nenhuma)*
-- [ ] `fvm flutter analyze --fatal-infos` sem erros
-- [ ] Testes: caminho feliz + falha + edge case (ver Fase 8)
-- [ ] `todo.md` atualizado — expandir a Fase 7 já registrada ou abrir itens novos
-- [ ] `docs/architecture.md` atualizado — cobertura de NRs e modelo de segmento
-- [ ] `docs/compliance-checklist-cobertura.md` atualizado com a lista final de itens/NRs cobertos
+- [x] Descoberta vinculada em `.claude/discoveries/checklist-cobertura-completa.md`
+- [x] Decisões abertas resolvidas *(nenhuma)*
+- [x] `fvm flutter analyze --fatal-infos` sem erros
+- [x] Testes: caminho feliz + falha + edge case (ver Fase 8)
+- [x] `todo.md` atualizado — expandir a Fase 7 já registrada ou abrir itens novos
+- [x] `docs/architecture.md` atualizado — cobertura de NRs e modelo de segmento
+- [x] `docs/compliance-checklist-cobertura.md` atualizado com a lista final de itens/NRs cobertos
 
 ## Contexto para /fazer
 

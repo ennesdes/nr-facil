@@ -108,10 +108,11 @@
 - [x] 45 Checklist consolidado (sinalização de infração + deep-link pro leitor) → Fase 3
 - [x] 46 Nova aba "Checklist" na bottom nav → Fase 4
 - [x] 47 Testes (service, controllers, navegação) → Fase 5
+- [x] 48 Expansão por segmento + 18 itens / 13 NRs (motor OR, `segments`, dataset) → [.claude/plans/checklist-cobertura-completa.md](.claude/plans/checklist-cobertura-completa.md) Fases 2–8
 
 **Pronto quando:** app tem 4ª aba "Checklist"; perfil salvo gera checklist consolidado com itens sinalizados de infração/gradação e link pro texto oficial na NR; cobertura de testes da Fase 5 completa; `fvm flutter analyze --fatal-infos` e `fvm flutter test` passam.
 
-**Conteúdo:** dataset (`app/assets/compliance/compliance.json`) é curado com apoio de IA e revisado por profissional de SST **depois** de publicado — não gerado pelo pipeline automático, não sincronizado via GitHub raw. Atualiza só via nova versão do app na loja. Cobertura inicial: NR-01 (deveres do empregador, PGR), NR-05 (CIPA/designado/SIPAT), NR-06 (fornecimento/uso de EPI), NR-07 (PCMSO), NR-12 (proteção em máquinas), NR-17 (avaliação ergonômica), NR-35 (trabalho em altura) — 14 itens no total, expansível incrementalmente.
+**Conteúdo:** dataset (`app/assets/compliance/compliance.json`) é curado com apoio de IA e revisado por profissional de SST **depois** de publicado — não gerado pelo pipeline automático, não sincronizado via GitHub raw. Atualiza só via nova versão do app na loja. Cobertura atual: **13 NRs, 32 itens** — universais (NR-01, NR-05, NR-07, NR-24 por segmento) + NR-11/12/15 (Indústria), NR-18/35 (Construção Civil), NR-32 (Saúde), NR-11/16 (Transporte), NR-17 (Comércio/Serviços) + itens por fatores de risco (NR-06, NR-35 etc.); ver [`docs/compliance-checklist-cobertura.md`](docs/compliance-checklist-cobertura.md).
 
 ---
 

@@ -229,12 +229,13 @@ Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica govername
 
 > Decisão registrada: [`.claude/decisions/checklist-nr28-empresa.md`](../.claude/decisions/checklist-nr28-empresa.md). Plano: [`.claude/plans/checklist-nr28-empresa.md`](../.claude/plans/checklist-nr28-empresa.md).
 
-- Fluxo: cadastro do perfil da empresa (porte, atividade, fatores de risco) → checklist consolidado dos itens de NR aplicáveis, sinalizando quais correspondem a infrações da NR-28 (código, gradação I1–I4, tipo S/M) → cada item linka pro texto oficial no leitor (`ReaderNavigation.open` com `initialAnchor`)
+- Fluxo: cadastro do perfil da empresa (segmento/atividade, porte, fatores de risco) → checklist consolidado dos itens de NR aplicáveis, sinalizando infrações da NR-28 (código, gradação I1–I4, tipo S/M) → cada item linka pro texto oficial no leitor (`ReaderNavigation.open` com `initialAnchor`)
+- **Motor de match:** `ComplianceService.getApplicableItems(segmentoId, riskFactors)` — regra aditiva (OR): item entra se `nr_id` está no `nr_ids_base` do segmento **ou** se `risk_factors` do item intersecta o perfil; deduplicação por `nrId` + `itemNumber`. Segmentos em `compliance.json` (`segments: [{id, label, nr_ids_base}]`); perfil usa `CompanyProfile.segmentoId`. Plano: [`.claude/plans/checklist-cobertura-completa.md`](../.claude/plans/checklist-cobertura-completa.md)
 - **Dataset diferente do resto do app:** `app/assets/compliance/compliance.json` é curado com apoio de IA e revisado por profissional de SST **depois** de publicado — não gerado pelo pipeline Python, não sincronizado via GitHub raw. Atualiza **só quando uma nova versão do app é publicada na loja**, ao contrário de `content/`/`manifest.json`/`app_meta.json` que atualizam sozinhos via `update-nrs.yml`. Tem um campo `atualizado_em` exibido como disclaimer fixo na tela ("regras atualizadas em dd/mm/aaaa, pode estar desatualizado")
 - Fatores de risco são dirigidos pelo próprio `compliance.json` (`risk_factors: [{id, label}]`), não um enum fixo no código — o formulário de perfil renderiza a partir dessa lista, permitindo adicionar fatores/NRs futuras sem mudar código
 - v1: perfil único por instalação (`CompanyProfile.id` fixo, preparado para evoluir para lista de perfis sem migração)
 - Grátis, com ads (mesmo padrão de Favoritos/Todos/Buscar) — sem gate de IAP
-- Cobertura inicial: NR-01 (deveres do empregador, PGR), NR-05 (CIPA), NR-06 (EPI), NR-07 (PCMSO), NR-12 (proteção em máquinas), NR-17 (avaliação ergonômica), NR-35 (trabalho em altura) — 14 itens no total — expansão incremental, sem cobrir todas as NRs de uma vez
+- Cobertura atual: **13 NRs, 32 itens** — NR-01, NR-05, NR-06, NR-07, NR-11, NR-12, NR-15, NR-16, NR-17, NR-18, NR-24, NR-32, NR-35 (detalhe em [`docs/compliance-checklist-cobertura.md`](compliance-checklist-cobertura.md)); expansão incremental, sem cobrir todas as NRs de uma vez
 
 ### Offline
 

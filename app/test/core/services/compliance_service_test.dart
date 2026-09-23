@@ -352,6 +352,119 @@ void main() {
     });
   });
 
+  group('getApplicableItems — dataset completo (Fase 8)', () {
+    late ComplianceService service;
+
+    setUp(() async {
+      service = ComplianceService();
+      await service.onInit();
+    });
+
+    test('dataset tem 32 itens curados', () {
+      expect(service.dataset.items.length, 32);
+    });
+
+    test('CA5 — itens legados permanecem acessíveis por fator de risco', () {
+      final cipa = service.getItem('nr-05', '5.2.1, 5.8.1, 5.8.1.1');
+      expect(cipa, isNotNull);
+
+      final items = service.getApplicableItems('', ['empregados_clt']);
+      final nrIds = items.map((i) => i.nrId).toSet();
+      expect(nrIds, containsAll(['nr-01', 'nr-05', 'nr-07', 'nr-17']));
+    });
+
+    void expectUniversalBase(String segmentoId) {
+      final items = service.getApplicableItems(segmentoId, []);
+      final nrIds = items.map((i) => i.nrId).toSet();
+      expect(nrIds, contains('nr-01'));
+      expect(nrIds, contains('nr-05'));
+      expect(nrIds, contains('nr-07'));
+      expect(nrIds, contains('nr-24'));
+      expect(
+        items.where((i) => i.nrId == 'nr-24').length,
+        greaterThanOrEqualTo(2),
+      );
+    }
+
+    test('cada segmento inclui NRs universais e NR-24 sem fatores', () {
+      for (final id in [
+        'comercio',
+        'industria',
+        'construcao_civil',
+        'servicos_escritorio',
+        'saude',
+        'transporte_logistica',
+      ]) {
+        expectUniversalBase(id);
+      }
+    });
+
+    test('industria inclui NR-11, NR-12 e NR-15', () {
+      final nrIds =
+          service.getApplicableItems('industria', []).map((i) => i.nrId).toSet();
+      expect(nrIds, containsAll(['nr-11', 'nr-12', 'nr-15']));
+    });
+
+    test('construcao_civil inclui NR-18 e NR-35', () {
+      final nrIds = service
+          .getApplicableItems('construcao_civil', [])
+          .map((i) => i.nrId)
+          .toSet();
+      expect(nrIds, containsAll(['nr-18', 'nr-35']));
+    });
+
+    test('saude inclui NR-32', () {
+      final nrIds =
+          service.getApplicableItems('saude', []).map((i) => i.nrId).toSet();
+      expect(nrIds, contains('nr-32'));
+    });
+
+    test('transporte_logistica inclui NR-11 e NR-16', () {
+      final nrIds = service
+          .getApplicableItems('transporte_logistica', [])
+          .map((i) => i.nrId)
+          .toSet();
+      expect(nrIds, containsAll(['nr-11', 'nr-16']));
+    });
+
+    test('comercio e servicos_escritorio incluem os três itens de NR-17', () {
+      for (final segmento in ['comercio', 'servicos_escritorio']) {
+        final nr17 = service
+            .getApplicableItems(segmento, [])
+            .where((i) => i.nrId == 'nr-17')
+            .toList();
+        expect(nr17.length, 3);
+      }
+    });
+
+    test('CA2 — fator trabalho_em_altura soma NR-35 fora do nr_ids_base do segmento', () {
+      final items = service.getApplicableItems(
+        'servicos_escritorio',
+        ['trabalho_em_altura'],
+      );
+      expect(items.any((i) => i.nrId == 'nr-35'), isTrue);
+    });
+
+    test('CA3 — construcao_civil + trabalho_em_altura não duplica item NR-35', () {
+      final items = service.getApplicableItems(
+        'construcao_civil',
+        ['trabalho_em_altura'],
+      );
+      final matches3531 =
+          items.where((i) => i.itemNumber == '35.3.1').length;
+      expect(matches3531, 1);
+    });
+
+    test('cada item tem código, gradação e tipo NR-28', () {
+      for (final item in service.dataset.items) {
+        expect(item.codigoInfracao, isNotNull);
+        expect(item.codigoInfracao!.isNotEmpty, isTrue);
+        expect(item.gradacao, isNotNull);
+        expect(item.tipo, isNotNull);
+      }
+    });
+  });
+
   group('RiskFactor', () {
     test('toMap/fromMap round-trip', () {
       final factor = RiskFactor(
