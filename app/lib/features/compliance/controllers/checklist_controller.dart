@@ -15,6 +15,7 @@ import '../../../core/models/compliance_item.dart';
 import '../../../core/services/compliance_service.dart';
 import '../../../core/services/storage_service.dart';
 import '../../../core/utils/app_logger.dart';
+import '../compliance_copy.dart';
 
 class ChecklistController extends GetxController {
   ChecklistController({
@@ -58,7 +59,7 @@ class ChecklistController extends GetxController {
       // 1. Carregar perfil salvo
       final profileData = storageService.read(StorageKeys.companyProfile);
       if (profileData == null) {
-        loadError.value = 'Perfil não encontrado';
+        loadError.value = ComplianceCopy.profileMissingError;
         isLoading.value = false;
         return;
       }
@@ -189,6 +190,9 @@ class ChecklistController extends GetxController {
     if (totalCount == 0) return 0;
     return ((checkedCount / totalCount) * 100).round();
   }
+
+  bool get isProfileMissing =>
+      loadError.value == ComplianceCopy.profileMissingError;
 
   /// Obter lista de NRs em ordem.
   List<String> get nrIds {

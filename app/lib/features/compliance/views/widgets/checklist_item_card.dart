@@ -10,10 +10,12 @@ library;
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../../../../core/models/compliance_item.dart';
 import '../../../../core/theme/app_spacing.dart';
 import '../../../../features/reader/utils/reader_navigation.dart';
+import '../../compliance_copy.dart';
 import '../../controllers/checklist_controller.dart';
 
 class ChecklistItemCard extends StatelessWidget {
@@ -73,6 +75,11 @@ class ChecklistItemCard extends StatelessWidget {
                   ),
             ),
 
+            if (item.infracao) ...[
+              const SizedBox(height: AppSpacing.md),
+              _buildNr28Reference(context, item),
+            ],
+
             const SizedBox(height: AppSpacing.md),
 
             // Responsável
@@ -115,15 +122,52 @@ class ChecklistItemCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                TextButton(
-                  onPressed: () => _openInReader(item),
-                  child: const Text('Ver na norma'),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    IconButton(
+                      tooltip: 'Compartilhar item',
+                      icon: const Icon(Icons.share_outlined),
+                      onPressed: () => SharePlus.instance.share(
+                        ShareParams(text: item.toShareText()),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () => _openInReader(item),
+                      child: const Text('Ver na norma'),
+                    ),
+                  ],
                 ),
               ],
             ),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildNr28Reference(BuildContext context, ComplianceItem item) {
+    final theme = Theme.of(context);
+    final muted = theme.colorScheme.onSurfaceVariant;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          ComplianceCopy.nr28BaseLine,
+          style: theme.textTheme.labelSmall?.copyWith(
+            color: muted,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        if (item.codigoInfracao != null && item.codigoInfracao!.isNotEmpty) ...[
+          const SizedBox(height: AppSpacing.xs),
+          Text(
+            'Código de infração: ${item.codigoInfracao}',
+            style: theme.textTheme.labelSmall?.copyWith(color: muted),
+          ),
+        ],
+      ],
     );
   }
 

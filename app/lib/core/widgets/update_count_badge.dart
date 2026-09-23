@@ -1,3 +1,5 @@
+import 'dart:ui' show FontFeature;
+
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 
@@ -21,17 +23,24 @@ class UpdateCountBadge extends StatelessWidget {
     return Semantics(
       identifier: ManagementSemanticsIds.updatesBadge,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 4.5, vertical: 2.5),
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSpacing.xs,
+          vertical: AppSpacing.xs,
+        ),
         decoration: BoxDecoration(
-          color: semantics.warning,
+          color: semantics.warningContainer,
           borderRadius: BorderRadius.circular(AppRadius.full),
-          border: Border.all(color: theme.colorScheme.surface, width: 1.5),
+          border: Border.all(
+            color: semantics.warning.withValues(alpha: 0.35),
+          ),
         ),
         constraints: BoxConstraints(minWidth: minSize, minHeight: minSize),
         child: Text(
           count > 99 ? '99+' : '$count',
           style: theme.textTheme.labelSmall?.copyWith(
             color: semantics.onWarningContainer,
+            fontWeight: FontWeight.w600,
+            fontFeatures: const [FontFeature.tabularFigures()],
           ),
           textAlign: TextAlign.center,
         ),

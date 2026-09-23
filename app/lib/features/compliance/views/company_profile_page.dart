@@ -13,6 +13,7 @@ import 'package:get/get.dart';
 
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/widgets/app_safe_area.dart';
+import '../compliance_copy.dart';
 import '../controllers/company_profile_controller.dart';
 import 'widgets/risk_factor_form.dart';
 
@@ -109,9 +110,9 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
         ),
         const SizedBox(height: AppSpacing.md),
         Text(
-          'Essas informações ajudam a gerar um checklist personalizado com os itens de conformidade mais relevantes para seu negócio.',
+          ComplianceCopy.profileIntro,
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Colors.grey[600],
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
               ),
         ),
       ],

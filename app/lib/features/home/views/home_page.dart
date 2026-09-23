@@ -7,6 +7,7 @@ import 'package:nrfacil/core/widgets/responsive_content.dart';
 import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
+import 'package:nrfacil/features/compliance/compliance_copy.dart';
 import 'package:nrfacil/features/compliance/controllers/checklist_controller.dart';
 import 'package:nrfacil/features/compliance/views/checklist_page.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
@@ -31,6 +32,8 @@ class HomePage extends GetView<HomeController> {
           title: Text(controller.tabTitle),
           centerTitle: false,
           actions: [
+            if (tab == HomeController.tabChecklist)
+              ...ChecklistPage.homeAppBarActions(context),
             _buildNotificationsBell(context),
             Semantics(
               identifier: HomeSemanticsIds.settingsButton,
@@ -112,7 +115,7 @@ class HomePage extends GetView<HomeController> {
                             : Icons.checklist_outlined,
                       ),
                     ),
-                    label: 'Checklist',
+                    label: ComplianceCopy.tabLabel,
                   ),
                 ],
               ),

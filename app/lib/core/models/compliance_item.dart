@@ -84,6 +84,20 @@ class ComplianceItem {
     };
   }
 
+  /// Texto para compartilhar (ex.: WhatsApp com cliente).
+  String toShareText() {
+    final lines = <String>[
+      '${nrId.toUpperCase()} — $titulo',
+      if (infracao && gradacaoLabel != null) 'Infração: ${gradacaoLabel!}',
+      if (codigoInfracao != null && codigoInfracao!.isNotEmpty)
+        'Código NR-28: $codigoInfracao',
+      explicacao,
+      'Responsável: $responsavel',
+      'Fonte: Anexo II da NR-28 (conteúdo curado — conferir texto oficial da norma).',
+    ];
+    return lines.join('\n');
+  }
+
   /// Label de tipo para exibição
   String? get tipoLabel {
     if (tipo == null) return null;

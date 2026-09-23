@@ -6,6 +6,7 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/services/storage_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
+import 'package:nrfacil/features/compliance/compliance_copy.dart';
 import 'package:nrfacil/features/compliance/controllers/checklist_controller.dart';
 import 'package:nrfacil/features/compliance/controllers/company_profile_controller.dart';
 import 'package:nrfacil/core/services/compliance_service.dart';
@@ -69,7 +70,7 @@ class HomeController extends GetxController {
       case tabBuscar:
         return 'Buscar';
       case tabChecklist:
-        return 'Checklist';
+        return ComplianceCopy.screenTitle;
       default:
         return 'NR Fácil';
     }

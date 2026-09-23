@@ -51,9 +51,10 @@ class ComplianceDisclaimerBanner extends StatelessWidget {
                     ),
                     const SizedBox(height: AppSpacing.xs),
                     Text(
+                      'Itens alinhados ao Anexo II da NR-28 (possível autuação). '
                       'Regras atualizadas em ${controller.atualizadoEm}. '
-                      'Este conteúdo pode estar desatualizado. '
-                      'Não substitui consulta a especialista de SST ou ao texto oficial da norma.',
+                      'Conteúdo curado — pode estar desatualizado. '
+                      'Não substitui especialista de SST nem o texto oficial da norma.',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
                             color: Colors.amber[900],
                             height: 1.4,

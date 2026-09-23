@@ -4,7 +4,7 @@
 /// - Disclaimer de data de atualização
 /// - Barra de progresso
 /// - Itens aplicáveis agrupados por NR
-/// - Banner de anúncio (PersistentBannerAd)
+/// Anúncio: apenas o banner global da [HomePage] (acima da bottom nav).
 library;
 
 import 'package:flutter/material.dart';
@@ -13,36 +13,36 @@ import 'package:get/get.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/widgets/app_safe_area.dart';
 import '../../../core/widgets/empty_state.dart';
-import '../../../features/ads/widgets/persistent_banner_ad.dart';
 import '../controllers/checklist_controller.dart';
 import '../controllers/company_profile_controller.dart';
 import 'company_profile_page.dart';
+import '../compliance_copy.dart';
 import 'widgets/checklist_item_card.dart';
+import 'widgets/compliance_coverage_notice.dart';
 import 'widgets/compliance_disclaimer_banner.dart';
 
 class ChecklistPage extends GetView<ChecklistController> {
   const ChecklistPage({super.key});
 
+  /// Ações exibidas na AppBar da [HomePage] quando a aba Checklist está ativa.
+  static List<Widget> homeAppBarActions(BuildContext context) {
+    return [
+      IconButton(
+        icon: const Icon(Icons.edit_outlined),
+        tooltip: 'Editar perfil',
+        onPressed: () => editProfile(context),
+      ),
+      IconButton(
+        icon: const Icon(Icons.restart_alt),
+        tooltip: 'Resetar checklist',
+        onPressed: () => confirmReset(context),
+      ),
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Checklist'),
-        centerTitle: false,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.edit_outlined),
-            tooltip: 'Editar perfil',
-            onPressed: () => _editProfile(context),
-          ),
-          IconButton(
-            icon: const Icon(Icons.restart_alt),
-            tooltip: 'Resetar checklist',
-            onPressed: () => _confirmReset(context),
-          ),
-        ],
-      ),
-      body: Obx(
+    return Obx(
         () {
           if (controller.isLoading.value) {
             return const Center(
@@ -51,11 +51,23 @@ class ChecklistPage extends GetView<ChecklistController> {
           }
 
           if (controller.loadError.value != null) {
+            final missing = controller.isProfileMissing;
             return Center(
               child: EmptyState(
-                icon: Icons.error_outline,
-                title: 'Erro ao carregar',
-                body: controller.loadError.value ?? 'Erro desconhecido',
+                icon: missing ? Icons.business_outlined : Icons.error_outline,
+                title: missing
+                    ? ComplianceCopy.profileMissingTitle
+                    : 'Erro ao carregar',
+                body: missing
+                    ? ComplianceCopy.profileMissingBody
+                    : controller.loadError.value ?? 'Erro desconhecido',
+                actions: [
+                  if (missing)
+                    ElevatedButton(
+                      onPressed: () => editProfile(context),
+                      child: const Text('Configurar minha empresa'),
+                    ),
+                ],
               ),
             );
           }
@@ -64,14 +76,12 @@ class ChecklistPage extends GetView<ChecklistController> {
             return Center(
               child: EmptyState(
                 icon: Icons.check_circle_outline,
-                title: 'Nenhum item aplicável',
-                body: controller.profile.value?.riskFactors.isEmpty ?? true
-                    ? 'Marque fatores de risco no perfil para ver itens de conformidade'
-                    : 'Nenhum item de conformidade encontrado para seu perfil',
+                title: ComplianceCopy.emptyItemsTitle,
+                body: ComplianceCopy.emptyItemsBody,
                 actions: [
                   ElevatedButton(
-                    onPressed: () => _editProfile(context),
-                    child: const Text('Editar Perfil'),
+                    onPressed: () => editProfile(context),
+                    child: const Text('Editar perfil'),
                   ),
                 ],
               ),
@@ -88,6 +98,26 @@ class ChecklistPage extends GetView<ChecklistController> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const SizedBox(height: AppSpacing.md),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: AppSpacing.md,
+                          ),
+                          child: Text(
+                            ComplianceCopy.screenSubtitle,
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall
+                                ?.copyWith(
+                                  color: Theme.of(context)
+                                      .colorScheme
+                                      .onSurfaceVariant,
+                                  height: 1.4,
+                                ),
+                          ),
+                        ),
+                        const SizedBox(height: AppSpacing.md),
+                        const ComplianceCoverageNotice(),
+                        const SizedBox(height: AppSpacing.md),
                         _buildProgressSection(context),
                         const SizedBox(height: AppSpacing.lg),
                         _buildItemsList(context),
@@ -97,17 +127,10 @@ class ChecklistPage extends GetView<ChecklistController> {
                   ),
                 ),
               ),
-              Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  const PersistentBannerAd(),
-                ],
-              ),
             ],
           );
         },
-      ),
-    );
+      );
   }
 
   Widget _buildProgressSection(BuildContext context) {
@@ -146,9 +169,17 @@ class ChecklistPage extends GetView<ChecklistController> {
             () => Text(
               '${controller.completionPercentage}% completo',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Colors.grey[600],
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
+          ),
+          const SizedBox(height: AppSpacing.xs),
+          Text(
+            ComplianceCopy.progressHint,
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  height: 1.35,
+                ),
           ),
         ],
       ),
@@ -162,7 +193,7 @@ class ChecklistPage extends GetView<ChecklistController> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Itens de conformidade',
+            ComplianceCopy.itemsSectionTitle,
             style: Theme.of(context).textTheme.titleMedium,
           ),
           const SizedBox(height: AppSpacing.md),
@@ -227,13 +258,16 @@ class ChecklistPage extends GetView<ChecklistController> {
   }
 
   /// Abre a tela de perfil e recarrega o checklist ao voltar (perfil pode ter mudado).
-  Future<void> _editProfile(BuildContext context) async {
+  static Future<void> editProfile(BuildContext context) async {
     CompanyProfileController.ensureRegistered();
     await Get.to(() => const CompanyProfilePage());
-    await controller.reload();
+    if (!Get.isRegistered<ChecklistController>()) return;
+    await Get.find<ChecklistController>().reload();
   }
 
-  Future<void> _confirmReset(BuildContext context) async {
+  static Future<void> confirmReset(BuildContext context) async {
+    if (!Get.isRegistered<ChecklistController>()) return;
+    final checklistController = Get.find<ChecklistController>();
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -256,7 +290,7 @@ class ChecklistPage extends GetView<ChecklistController> {
     );
 
     if (confirmed == true) {
-      await controller.resetAllChecked();
+      await checklistController.resetAllChecked();
     }
   }
 }
