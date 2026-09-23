@@ -7,6 +7,8 @@ import 'package:nrfacil/core/widgets/responsive_content.dart';
 import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
+import 'package:nrfacil/features/compliance/controllers/checklist_controller.dart';
+import 'package:nrfacil/features/compliance/views/checklist_page.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
 import 'package:nrfacil/features/home/views/widgets/normas_tab.dart';
@@ -15,7 +17,7 @@ import 'package:nrfacil/features/settings/views/settings_page.dart';
 import 'package:nrfacil/features/updates/bindings/updates_binding.dart';
 import 'package:nrfacil/features/updates/views/updates_page.dart';
 
-/// HomePage — shell principal com bottom nav (Normas / Favoritos / Buscar).
+/// HomePage — shell principal com bottom nav (Normas / Favoritos / Buscar / Checklist).
 class HomePage extends GetView<HomeController> {
   const HomePage({super.key});
 
@@ -48,6 +50,9 @@ class HomePage extends GetView<HomeController> {
               SizedBox.expand(child: const FavoritosTab()),
               SizedBox.expand(
                 child: SearchTab(isActive: tab == HomeController.tabBuscar),
+              ),
+              SizedBox.expand(
+                child: _buildChecklistTab(),
               ),
             ],
           ),
@@ -97,6 +102,18 @@ class HomePage extends GetView<HomeController> {
                     ),
                     label: 'Buscar',
                   ),
+                  BottomNavigationBarItem(
+                    icon: Semantics(
+                      identifier: 'compliance_checklist_tab',
+                      button: true,
+                      child: Icon(
+                        tab == HomeController.tabChecklist
+                            ? Icons.checklist
+                            : Icons.checklist_outlined,
+                      ),
+                    ),
+                    label: 'Checklist',
+                  ),
                 ],
               ),
             ),
@@ -104,6 +121,19 @@ class HomePage extends GetView<HomeController> {
         ),
       );
     });
+  }
+
+  Widget _buildChecklistTab() {
+    // Registrar controller se necessário
+    if (!Get.isRegistered<ChecklistController>()) {
+      Get.put<ChecklistController>(
+        ChecklistController(
+          storageService: Get.find(),
+          complianceService: Get.find(),
+        ),
+      );
+    }
+    return const ChecklistPage();
   }
 
   Widget _buildNotificationsBell(BuildContext context) {

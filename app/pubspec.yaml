@@ -117,6 +117,7 @@ flutter:
   assets:
     - assets/branding/
     - assets/seed/manifest.json
+    - assets/compliance/compliance.json
     - assets/e2e_seed/
     - assets/e2e_seed/nr-25/
 

@@ -99,6 +99,22 @@
 
 ---
 
+## Fase 7 — Checklist de conformidade por empresa (NR-28)
+
+> Entra como **exceção priorizada** à fila normal de pós-lançamento (não condicionada aos critérios de sucesso de 90 dias) — motivo registrado em [`.claude/decisions/checklist-nr28-empresa.md`](.claude/decisions/checklist-nr28-empresa.md) D4: cliente concreto com potencial de trazer volume de usuários.
+
+- [x] 43 Modelos + dataset curado (`compliance.json`) + `ComplianceService` → [.claude/plans/checklist-nr28-empresa.md](.claude/plans/checklist-nr28-empresa.md) Fase 1
+- [x] 44 Tela de perfil da empresa → Fase 2
+- [x] 45 Checklist consolidado (sinalização de infração + deep-link pro leitor) → Fase 3
+- [x] 46 Nova aba "Checklist" na bottom nav → Fase 4
+- [x] 47 Testes (service, controllers, navegação) → Fase 5
+
+**Pronto quando:** app tem 4ª aba "Checklist"; perfil salvo gera checklist consolidado com itens sinalizados de infração/gradação e link pro texto oficial na NR; cobertura de testes da Fase 5 completa; `fvm flutter analyze --fatal-infos` e `fvm flutter test` passam.
+
+**Conteúdo:** dataset (`app/assets/compliance/compliance.json`) é curado com apoio de IA e revisado por profissional de SST **depois** de publicado — não gerado pelo pipeline automático, não sincronizado via GitHub raw. Atualiza só via nova versão do app na loja. Cobertura inicial: NR-01 (deveres do empregador, PGR), NR-05 (CIPA/designado/SIPAT), NR-06 (fornecimento/uso de EPI), NR-07 (PCMSO), NR-12 (proteção em máquinas), NR-17 (avaliação ergonômica), NR-35 (trabalho em altura) — 14 itens no total, expansível incrementalmente.
+
+---
+
 ## Critérios de sucesso (90 dias pós-lançamento)
 
 - [ ] 1.000 downloads

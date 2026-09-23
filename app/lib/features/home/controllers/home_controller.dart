@@ -1,9 +1,15 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
+import 'package:nrfacil/core/constants/storage_keys.dart';
 import 'package:nrfacil/core/services/content_service.dart';
+import 'package:nrfacil/core/services/storage_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
+import 'package:nrfacil/features/compliance/controllers/checklist_controller.dart';
+import 'package:nrfacil/features/compliance/controllers/company_profile_controller.dart';
+import 'package:nrfacil/core/services/compliance_service.dart';
+import 'package:nrfacil/features/compliance/views/company_profile_page.dart';
 import 'package:nrfacil/features/search/controllers/search_screen_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/forced_update_dialog.dart';
 
@@ -12,6 +18,7 @@ class HomeController extends GetxController {
   static const int tabNormas = 0;
   static const int tabFavoritos = 1;
   static const int tabBuscar = 2;
+  static const int tabChecklist = 3;
 
   HomeController({required this.contentService});
 
@@ -61,6 +68,8 @@ class HomeController extends GetxController {
         return 'Favoritos';
       case tabBuscar:
         return 'Buscar';
+      case tabChecklist:
+        return 'Checklist';
       default:
         return 'NR Fácil';
     }
@@ -117,7 +126,59 @@ class HomeController extends GetxController {
 
   /// Mudar aba selecionada.
   void selectTab(int index) {
+    // Lógica especial para aba de Checklist
+    if (index == tabChecklist) {
+      _handleChecklistTabSelection();
+      return;
+    }
+
     selectedTab.value = index;
     _ensureSearchIndicesWhenNeeded(index);
+  }
+
+  /// Lidar com seleção da aba Checklist.
+  /// Se não há perfil salvo, navega para tela de perfil.
+  void _handleChecklistTabSelection() {
+    final storageService = Get.find<StorageService>();
+    final hasProfile =
+        storageService.read(StorageKeys.companyProfile) != null;
+
+    if (!hasProfile) {
+      // Navegar para tela de perfil
+      _navigateToCompanyProfile();
+    } else {
+      // Mostrar checklist
+      selectedTab.value = tabChecklist;
+    }
+  }
+
+  /// Navegar para tela de perfil da empresa.
+  /// Ao voltar, se um perfil foi salvo nesse meio-tempo, troca para a aba
+  /// Checklist (já recarregado); se o usuário cancelou (nenhum perfil salvo),
+  /// permanece na aba anterior.
+  void _navigateToCompanyProfile() {
+    unawaited(
+      Future.microtask(() async {
+        CompanyProfileController.ensureRegistered();
+        await Get.to(() => const CompanyProfilePage());
+
+        final storageService = Get.find<StorageService>();
+        final profileSaved =
+            storageService.read(StorageKeys.companyProfile) != null;
+        if (!profileSaved) return;
+
+        if (Get.isRegistered<ChecklistController>()) {
+          await Get.find<ChecklistController>().reload();
+        } else {
+          Get.put(
+            ChecklistController(
+              storageService: storageService,
+              complianceService: Get.find<ComplianceService>(),
+            ),
+          );
+        }
+        selectedTab.value = tabChecklist;
+      }),
+    );
   }
 }

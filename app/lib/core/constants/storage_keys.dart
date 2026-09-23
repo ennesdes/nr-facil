@@ -43,4 +43,9 @@ class StorageKeys {
   /// Snapshot das NRs pendentes quando o card da home foi dispensado.
   static const String pendingUpdatesCardDismissedSnapshot =
       '${_prefix}pending_updates_card_dismissed_snapshot';
+
+  // Compliance
+  static const String companyProfile = '${_prefix}company_profile';
+  static String complianceItemChecked(String nrId, String itemNumber) =>
+      '${_prefix}compliance_${nrId}_${itemNumber}_checked';
 }

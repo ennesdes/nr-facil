@@ -5,6 +5,7 @@ import '../../features/home/controllers/home_controller.dart';
 import '../../features/home/controllers/normas_controller.dart';
 import '../../features/search/controllers/search_screen_controller.dart';
 import '../controllers/theme_controller.dart';
+import '../services/compliance_service.dart';
 import '../services/content_service.dart';
 import '../services/search_service.dart';
 import '../services/storage_service.dart';
@@ -44,6 +45,9 @@ class AppBinding extends Bindings {
     Get.put<StorageService>(StorageService(), permanent: true);
 
     Get.put<AdsService>(AdsService(storage: Get.find()), permanent: true);
+
+    // ComplianceService — carrega dataset de conformidade
+    Get.put<ComplianceService>(ComplianceService(), permanent: true);
 
     // ContentService — sincroniza e cache de NRs
     Get.put<ContentService>(

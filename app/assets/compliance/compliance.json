@@ -1,0 +1,246 @@
+{
+  "atualizado_em": "22/09/2026",
+  "aviso": "Conteúdo curado com apoio de IA, sujeito a revisão por profissional de SST. Não substitui consulta a um especialista nem ao texto oficial da norma. Regras atualizadas em 22/09/2026 — podem estar desatualizadas.",
+  "risk_factors": [
+    {
+      "id": "empregados_clt",
+      "label": "Tenho empregados regidos pela CLT"
+    },
+    {
+      "id": "prestacao_servicos_terceiros",
+      "label": "Presto serviços a terceiros em outro estabelecimento"
+    },
+    {
+      "id": "possui_cipa",
+      "label": "Minha empresa já tem CIPA constituída"
+    },
+    {
+      "id": "usa_epi",
+      "label": "Meus funcionários usam equipamento de proteção individual (EPI)"
+    },
+    {
+      "id": "trabalho_em_altura",
+      "label": "Minha empresa realiza trabalho em altura (acima de 2 metros)"
+    },
+    {
+      "id": "possui_maquinas",
+      "label": "Minha empresa possui máquinas e equipamentos industriais"
+    }
+  ],
+  "segments": [
+    {
+      "id": "comercio",
+      "label": "Comércio",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    },
+    {
+      "id": "industria",
+      "label": "Indústria",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    },
+    {
+      "id": "construcao_civil",
+      "label": "Construção Civil",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    },
+    {
+      "id": "servicos_escritorio",
+      "label": "Serviços/Escritório",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    },
+    {
+      "id": "saude",
+      "label": "Saúde",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    },
+    {
+      "id": "transporte_logistica",
+      "label": "Transporte/Logística",
+      "nr_ids_base": ["nr-01", "nr-05", "nr-07"]
+    }
+  ],
+  "items": [
+    {
+      "nr_id": "nr-05",
+      "item_number": "5.2.1, 5.8.1, 5.8.1.1",
+      "titulo": "Constituir a CIPA",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "205113-3",
+      "explicacao": "Toda organização com empregados regidos pela CLT deve constituir e manter a CIPA (Comissão Interna de Prevenção de Acidentes e de Assédio), respeitando o dimensionamento do Quadro I da NR-5. Prestadoras de serviço também precisam constituir CIPA centralizada quando o total de empregados se enquadrar nesse quadro.",
+      "responsavel": "Empregador / RH",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "52-campo-de-aplicação"
+    },
+    {
+      "nr_id": "nr-05",
+      "item_number": "5.4.13, 5.4.14, 5.8.2, 5.8.2.3",
+      "titulo": "Nomear representante quando dispensada de CIPA própria",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "205125-7",
+      "explicacao": "Quando a empresa prestadora de serviços não for obrigada a constituir CIPA própria (por não se enquadrar no Quadro I), ainda assim deve nomear um representante da NR-5 se tiver 5 ou mais empregados no estabelecimento do contratante. A nomeação deve recair sobre um empregado que atue naquele estabelecimento.",
+      "responsavel": "Empregador / RH",
+      "risk_factors": ["prestacao_servicos_terceiros"],
+      "reader_anchor_id": "58-cipa-das-organizações-contratadas-para-prestação-de-serviços"
+    },
+    {
+      "nr_id": "nr-05",
+      "item_number": "5.3.1",
+      "titulo": "Cumprir as atribuições da CIPA (inclui promover a SIPAT)",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "S",
+      "codigo_infracao": "205163-0 (varia por alínea descumprida)",
+      "explicacao": "A CIPA já constituída precisa cumprir suas atribuições legais: acompanhar riscos, mapear condições de trabalho, promover anualmente a SIPAT (Semana Interna de Prevenção de Acidentes do Trabalho) em conjunto com o SESMT quando houver, e incluir temas de prevenção ao assédio nas suas práticas.",
+      "responsavel": "CIPA (Presidente/Vice-Presidente)",
+      "risk_factors": ["possui_cipa"],
+      "reader_anchor_id": "531-a-cipa-tem-por-atribuição"
+    },
+    {
+      "nr_id": "nr-06",
+      "item_number": "6.5.1",
+      "titulo": "Fornecer, exigir uso e manter o EPI",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "206048-5 a 206056-6 (varia por alínea, de I2 a I4)",
+      "explicacao": "Cabe à empresa, quanto ao EPI: comprar somente equipamento aprovado pelo órgão competente; orientar e treinar o empregado; fornecer gratuitamente o EPI adequado ao risco, em bom estado; registrar o fornecimento; exigir o uso; cuidar da higienização e manutenção; substituir imediatamente quando danificado ou extraviado; e comunicar irregularidades ao órgão competente.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["usa_epi"],
+      "reader_anchor_id": "65-responsabilidades-da-organização"
+    },
+    {
+      "nr_id": "nr-35",
+      "item_number": "35.3.1",
+      "titulo": "Responsabilidades da organização no trabalho em altura",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "135164-8 a 135173-7 (varia por alínea; alínea h é I4)",
+      "explicacao": "Cabe à empresa: garantir a implementação das medidas de prevenção da NR-35; assegurar a Análise de Risco (AR) e, quando aplicável, a Permissão de Trabalho (PT); elaborar procedimento operacional; disponibilizar instruções de segurança à equipe; avaliar previamente as condições do local; acompanhar prestadoras de serviço; só iniciar o trabalho após as medidas de prevenção; suspender o trabalho em risco não previsto; autorizar formalmente os trabalhadores; e arquivar a documentação por no mínimo 5 anos.",
+      "responsavel": "Empregador",
+      "risk_factors": ["trabalho_em_altura"],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-35",
+      "item_number": "35.4.1",
+      "titulo": "Autorizar formalmente o trabalhador para trabalho em altura",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "135174-5",
+      "explicacao": "Todo trabalho em altura só pode ser realizado por trabalhador formalmente autorizado pela empresa — a autorização depende de comprovação de capacitação, aptidão em Atestado de Saúde Ocupacional (ASO) e autorização formal pelo empregador.",
+      "responsavel": "Empregador",
+      "risk_factors": ["trabalho_em_altura"],
+      "reader_anchor_id": "354-autorização-capacitação-e-aptidão"
+    },
+    {
+      "nr_id": "nr-35",
+      "item_number": "35.5.1",
+      "titulo": "Planejar e organizar todo trabalho em altura",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "S",
+      "codigo_infracao": "135183-4",
+      "explicacao": "Todo trabalho em altura deve ser planejado e organizado antes do início — inclui a Análise de Risco (AR) e, quando aplicável, a emissão de Permissão de Trabalho (PT) descrevendo as condições e medidas de segurança.",
+      "responsavel": "Empregador / Supervisor responsável",
+      "risk_factors": ["trabalho_em_altura"],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-35",
+      "item_number": "35.6.1",
+      "titulo": "Usar Sistema de Proteção Contra Quedas (SPQ)",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "135208-3",
+      "explicacao": "É obrigatória a utilização de Sistema de Proteção Contra Quedas (SPQ) sempre que não for possível evitar o trabalho em altura. O sistema deve ser adequado à tarefa, selecionado conforme a Análise de Risco e por profissional qualificado ou legalmente habilitado em segurança do trabalho.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["trabalho_em_altura"],
+      "reader_anchor_id": "356-sistemas-de-proteção-contra-quedas---spq"
+    },
+    {
+      "nr_id": "nr-01",
+      "item_number": "1.4.1",
+      "titulo": "Cumprir os deveres gerais do empregador em SST",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "101049-2 a 101055-7 (varia por alínea, de I2 a I4)",
+      "explicacao": "Cabe ao empregador: cumprir e fazer cumprir as normas de segurança e saúde no trabalho; informar aos trabalhadores os riscos, as medidas de prevenção e os resultados de exames/avaliações; elaborar ordens de serviço sobre SST; permitir a fiscalização por representantes dos trabalhadores; determinar procedimentos para casos de acidente; disponibilizar informações à Inspeção do Trabalho; e implementar medidas de prevenção seguindo a ordem: eliminação, proteção coletiva, medidas administrativas e, por último, proteção individual.",
+      "responsavel": "Empregador",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "14-direitos-e-deveres"
+    },
+    {
+      "nr_id": "nr-01",
+      "item_number": "1.5.3.1, 1.5.3.1.1",
+      "titulo": "Implementar o Programa de Gerenciamento de Riscos (PGR)",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "101058-1",
+      "explicacao": "Toda organização deve implementar o gerenciamento de riscos ocupacionais de suas atividades, constituindo um Programa de Gerenciamento de Riscos (PGR) por estabelecimento, unidade operacional, setor ou atividade.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "15-gerenciamento-de-riscos-ocupacionais"
+    },
+    {
+      "nr_id": "nr-07",
+      "item_number": "7.5.1",
+      "titulo": "Elaborar o PCMSO com base no PGR",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "M",
+      "codigo_infracao": "107104-1",
+      "explicacao": "O Programa de Controle Médico de Saúde Ocupacional (PCMSO) deve ser elaborado considerando os riscos ocupacionais identificados e classificados pelo PGR (NR-1).",
+      "responsavel": "Empregador / Médico do trabalho",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "75-planejamento"
+    },
+    {
+      "nr_id": "nr-07",
+      "item_number": "7.4.1",
+      "titulo": "Garantir e custear o PCMSO",
+      "infracao": true,
+      "gradacao": "I2",
+      "tipo": "M",
+      "codigo_infracao": "107101-7 a 107103-3 (varia por alínea; alínea a é I4)",
+      "explicacao": "Compete ao empregador: garantir a elaboração e efetiva implantação do PCMSO; custear sem ônus para o empregado todos os procedimentos relacionados; e indicar o médico do trabalho responsável pelo PCMSO.",
+      "responsavel": "Empregador",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "74-responsabilidades"
+    },
+    {
+      "nr_id": "nr-12",
+      "item_number": "12.1.7",
+      "titulo": "Adotar medidas de proteção em máquinas e equipamentos",
+      "infracao": true,
+      "gradacao": "I3",
+      "tipo": "S",
+      "codigo_infracao": "312309-0",
+      "explicacao": "O empregador deve adotar medidas de proteção para o trabalho em máquinas e equipamentos, capazes de resguardar a saúde e a integridade física dos trabalhadores.",
+      "responsavel": "Empregador",
+      "risk_factors": ["possui_maquinas"],
+      "reader_anchor_id": ""
+    },
+    {
+      "nr_id": "nr-17",
+      "item_number": "17.3.1",
+      "titulo": "Realizar a avaliação ergonômica preliminar",
+      "infracao": true,
+      "gradacao": "I4",
+      "tipo": "S",
+      "codigo_infracao": "117242-5",
+      "explicacao": "A organização deve realizar a avaliação ergonômica preliminar das situações de trabalho que, pela natureza das atividades, exigem adaptação às características psicofisiológicas dos trabalhadores, subsidiando as medidas de prevenção previstas na NR-17.",
+      "responsavel": "Empregador / SESMT",
+      "risk_factors": ["empregados_clt"],
+      "reader_anchor_id": "173-avaliação-das-situações-de-trabalho"
+    }
+  ]
+}

@@ -179,10 +179,11 @@ Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica govername
 
 ### Navegação
 
-- **Bottom nav:** Normas | Favoritos | Buscar (padrão: Favoritos se ≥1 favorito, senão Normas)
+- **Bottom nav:** Normas | Favoritos | Buscar | Checklist (padrão: Favoritos se ≥1 favorito, senão Normas)
 - **App bar:** título da aba ativa | Sino (atualizações + badge) | Ajustes
 - **Continuar leitura:** card único no topo do shell (abas Normas e Favoritos)
 - **Histórico:** automático, não é aba
+- **Checklist:** sem perfil de empresa salvo → abre cadastro; com perfil salvo → abre o checklist consolidado direto (ver seção própria abaixo)
 
 ### NRs revogadas no app
 
@@ -224,6 +225,17 @@ Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica govername
 - Aba **Buscar** (bottom nav): full-text em `search_index.json` chunks com highlight; chip "Só favoritos"
 - Menu do leitor: busca in-document na NR aberta ("Buscar nesta NR")
 
+### Checklist de conformidade (NR-28)
+
+> Decisão registrada: [`.claude/decisions/checklist-nr28-empresa.md`](../.claude/decisions/checklist-nr28-empresa.md). Plano: [`.claude/plans/checklist-nr28-empresa.md`](../.claude/plans/checklist-nr28-empresa.md).
+
+- Fluxo: cadastro do perfil da empresa (porte, atividade, fatores de risco) → checklist consolidado dos itens de NR aplicáveis, sinalizando quais correspondem a infrações da NR-28 (código, gradação I1–I4, tipo S/M) → cada item linka pro texto oficial no leitor (`ReaderNavigation.open` com `initialAnchor`)
+- **Dataset diferente do resto do app:** `app/assets/compliance/compliance.json` é curado com apoio de IA e revisado por profissional de SST **depois** de publicado — não gerado pelo pipeline Python, não sincronizado via GitHub raw. Atualiza **só quando uma nova versão do app é publicada na loja**, ao contrário de `content/`/`manifest.json`/`app_meta.json` que atualizam sozinhos via `update-nrs.yml`. Tem um campo `atualizado_em` exibido como disclaimer fixo na tela ("regras atualizadas em dd/mm/aaaa, pode estar desatualizado")
+- Fatores de risco são dirigidos pelo próprio `compliance.json` (`risk_factors: [{id, label}]`), não um enum fixo no código — o formulário de perfil renderiza a partir dessa lista, permitindo adicionar fatores/NRs futuras sem mudar código
+- v1: perfil único por instalação (`CompanyProfile.id` fixo, preparado para evoluir para lista de perfis sem migração)
+- Grátis, com ads (mesmo padrão de Favoritos/Todos/Buscar) — sem gate de IAP
+- Cobertura inicial: NR-01 (deveres do empregador, PGR), NR-05 (CIPA), NR-06 (EPI), NR-07 (PCMSO), NR-12 (proteção em máquinas), NR-17 (avaliação ergonômica), NR-35 (trabalho em altura) — 14 itens no total — expansão incremental, sem cobrir todas as NRs de uma vez
+
 ### Offline
 
 - `path_provider` + arquivos `.md` e assets
@@ -236,7 +248,8 @@ Direção de cor: verde-teal institucional (`#0F5C4E`), sem semiótica govername
 | Todas NRs offline | Sem anúncios |
 | Busca, favoritos | Diff "o que mudou" |
 | Feed atualizações | Anotações (pós-MVP) |
-| Ads em listas | Exportar trecho PDF |
+| Checklist de conformidade (NR-28) | Exportar trecho PDF |
+| Ads em listas | |
 
 Ads **nunca** no leitor.
 
