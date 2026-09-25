@@ -1,6 +1,6 @@
 # Checklist de conformidade (NR-28)
 
-Fluxo: aba **Multas** → perfil da empresa → lista personalizada → cards com badge de infração, código NR-28 e **Compartilhar** → **Ver na norma**.
+Fluxo: aba **Autuações** → perfil da empresa → lista personalizada → cards com badge de infração, código NR-28 e **Compartilhar** → **Ver na norma**.
 
 | Arquivo | Tela / estado |
 |---------|----------------|

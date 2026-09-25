@@ -7,7 +7,7 @@ import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/features/ads/services/ads_service.dart';
 
-/// Banner AdMob fixo acima da bottom nav na Home (todas as abas, inclusive Multas).
+/// Banner AdMob fixo acima da bottom nav na Home (todas as abas, inclusive Autuações).
 ///
 /// Nunca usar no leitor de NR.
 class PersistentBannerAd extends StatefulWidget {

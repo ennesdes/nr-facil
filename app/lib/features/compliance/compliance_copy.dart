@@ -1,11 +1,11 @@
-/// Textos de UI do módulo de conformidade / multas (NR-28).
+/// Textos de UI do módulo de conformidade / autuações (NR-28).
 library;
 
 class ComplianceCopy {
   ComplianceCopy._();
 
-  static const tabLabel = 'Multas';
-  static const screenTitle = 'Multas (NR-28)';
+  static const tabLabel = 'Autuações';
+  static const screenTitle = 'Checklist';
   static const screenSubtitle =
       'Itens que podem gerar autuação — amostra curada';
 
