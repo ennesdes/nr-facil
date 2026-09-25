@@ -2,11 +2,11 @@
   "nr_id": "nr-13",
   "ok": true,
   "warnings": [],
-  "char_ratio": 0.994,
-  "md_chars": 86419,
-  "pdf_chars": 86977,
-  "pages_fallback_png": 0,
-  "structure_table_blocks": 3,
-  "fragmented_table_separators": 3,
+  "char_ratio": null,
+  "md_chars": 86240,
+  "pdf_chars": null,
+  "pages_fallback_png": 1,
+  "structure_table_blocks": 2,
+  "fragmented_table_separators": 2,
   "reviewed": false
 }

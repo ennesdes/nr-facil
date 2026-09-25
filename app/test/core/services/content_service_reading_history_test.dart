@@ -9,6 +9,8 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import '../../support/test_content_service.dart';
+
 class _FakePathProviderPlatform extends PathProviderPlatform
     with MockPlatformInterfaceMixin {
   final String path;
@@ -22,6 +24,7 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   group('ContentService — histórico de leitura', () {
+    late Directory cacheDir;
     late ContentService contentService;
 
     setUpAll(() async {
@@ -35,13 +38,17 @@ void main() {
     setUp(() async {
       Get.testMode = true;
       GetStorage().erase();
-      contentService = ContentService();
+      cacheDir = await Directory.systemTemp.createTemp('nr_reading_cache_');
+      contentService = createTestContentService(cacheDir);
       await contentService.onInit();
     });
 
-    tearDown(() {
+    tearDown(() async {
       contentService.onClose();
       Get.reset();
+      if (cacheDir.existsSync()) {
+        await cacheDir.delete(recursive: true);
+      }
     });
 
     test('recordNrOpened atualiza lastOpenedNrId reativo', () {

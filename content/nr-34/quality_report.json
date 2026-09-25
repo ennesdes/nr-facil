@@ -1,14 +1,12 @@
 {
   "nr_id": "nr-34",
   "ok": true,
-  "warnings": [
-    "fragmented_tables: 5 separadores de tabela"
-  ],
-  "char_ratio": 0.996,
-  "md_chars": 109699,
-  "pdf_chars": 110110,
-  "pages_fallback_png": 1,
-  "structure_table_blocks": 5,
-  "fragmented_table_separators": 5,
+  "warnings": [],
+  "char_ratio": null,
+  "md_chars": 106319,
+  "pdf_chars": null,
+  "pages_fallback_png": 4,
+  "structure_table_blocks": 1,
+  "fragmented_table_separators": 1,
   "reviewed": false
 }

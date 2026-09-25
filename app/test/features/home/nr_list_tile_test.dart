@@ -6,6 +6,46 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/theme/app_theme.dart';
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 
+/// Fake mínimo para [ReactiveNrListTile] — sem [ContentService.onInit] nem HTTP.
+class _ReactiveListTileFakeContentService implements ContentService {
+  @override
+  final favoriteIds = <String>[].obs;
+
+  @override
+  final favoritesVersion = 0.obs;
+
+  @override
+  final nrAssetVersions = <String, int>{}.obs;
+
+  @override
+  final downloadingNrIds = <String>{}.obs;
+
+  @override
+  bool isFavorite(String nrId) => favoriteIds.contains(nrId);
+
+  @override
+  void toggleFavorite(String nrId) {
+    if (favoriteIds.contains(nrId)) {
+      favoriteIds.remove(nrId);
+    } else {
+      favoriteIds.add(nrId);
+    }
+    favoritesVersion.value++;
+  }
+
+  @override
+  bool hasUpdate(String nrId) => false;
+
+  @override
+  bool isNrFullyCached(String nrId) => true;
+
+  @override
+  bool isNrDownloading(String nrId) => false;
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
+}
+
 ManifestEntry _entry({bool revogada = false}) {
   return ManifestEntry(
     id: 'nr-02',
@@ -94,8 +134,7 @@ void main() {
     tester,
   ) async {
     Get.testMode = true;
-    final contentService = ContentService();
-    Get.put<ContentService>(contentService);
+    final contentService = _ReactiveListTileFakeContentService();
 
     await tester.pumpWidget(
       GetMaterialApp(
@@ -118,6 +157,5 @@ void main() {
     expect(find.byIcon(Icons.star), findsOneWidget);
 
     Get.reset();
-    contentService.onClose();
   });
 }

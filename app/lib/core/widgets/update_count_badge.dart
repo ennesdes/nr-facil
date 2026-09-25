@@ -1,5 +1,3 @@
-import 'dart:ui' show FontFeature;
-
 import 'package:flutter/material.dart';
 import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 

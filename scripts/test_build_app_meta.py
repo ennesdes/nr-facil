@@ -16,8 +16,11 @@ from unittest.mock import patch
 
 import build_app_meta
 from build_app_meta import (
-    parse_summary_items,
+    format_first_version_summary,
     generate_summary,
+    normalize_update_entry,
+    parse_summary_items,
+    truncate_at_word_boundary,
 )
 from summarize_changes import build_update_items, parse_items, summarize_md
 
@@ -92,6 +95,37 @@ class TestBuildUpdateItems(unittest.TestCase):
         self.assertTrue(any("Tabela alterada **3.4**" in line for line in lines))
         self.assertFalse(any("antes:" in line for line in lines))
         self.assertFalse(any("depois:" in line for line in lines))
+
+
+class TestLegacyNormalization(unittest.TestCase):
+    """Resumos/portarias legados no feed."""
+
+    def test_format_first_version_without_date(self):
+        self.assertEqual(format_first_version_summary(None), "Primeira versão")
+        self.assertEqual(format_first_version_summary("None"), "Primeira versão")
+
+    def test_format_first_version_with_date(self):
+        self.assertEqual(
+            format_first_version_summary("2020-10-22"),
+            "Primeira versão (2020-10-22)",
+        )
+
+    def test_truncate_at_word_boundary(self):
+        text = "Portaria MTE nº 100, de 17 de janeiro de 2013, e Portaria MTE nº 2.062, de 30 de dezembro"
+        truncated = truncate_at_word_boundary(text, 80)
+        self.assertLessEqual(len(truncated), 81)
+        self.assertTrue(truncated.endswith("…"))
+        self.assertNotIn("dezembrode", truncated)
+
+    def test_normalize_update_entry_fixes_none_summary(self):
+        entry = {
+            "nr_id": "nr-30",
+            "summary": "Primeira versão (None)",
+            "portaria": "x" * 200,
+        }
+        fixed = normalize_update_entry(entry)
+        self.assertEqual(fixed["summary"], "Primeira versão")
+        self.assertTrue(fixed["portaria"].endswith("…"))
 
 
 class TestParseSummaryItems(unittest.TestCase):

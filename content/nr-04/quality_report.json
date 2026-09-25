@@ -1,14 +1,12 @@
 {
   "nr_id": "nr-04",
   "ok": true,
-  "warnings": [
-    "png_heavy_char_ratio: 0.221 (27 PNGs — texto normativo em imagens)"
-  ],
-  "char_ratio": 0.221,
-  "md_chars": 18135,
-  "pdf_chars": 82116,
-  "pages_fallback_png": 27,
-  "structure_table_blocks": 0,
-  "fragmented_table_separators": 0,
+  "warnings": [],
+  "char_ratio": null,
+  "md_chars": 15994,
+  "pdf_chars": null,
+  "pages_fallback_png": 26,
+  "structure_table_blocks": 1,
+  "fragmented_table_separators": 1,
   "reviewed": false
 }

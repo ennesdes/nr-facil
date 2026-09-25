@@ -12,6 +12,8 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import '../../support/test_content_service.dart';
+
 class _FakePathProviderPlatform extends PathProviderPlatform
     with MockPlatformInterfaceMixin {
   final String path;
@@ -457,7 +459,7 @@ void main() {
       GetStorage().erase();
 
       cacheDir = await Directory.systemTemp.createTemp('nr_facil_fav_cache_');
-      contentService = ContentService(cacheDirOverride: cacheDir);
+      contentService = createTestContentService(cacheDir);
       await contentService.onInit();
     });
 
@@ -479,7 +481,7 @@ void main() {
       contentService.onClose();
       Get.reset();
 
-      final reloaded = ContentService(cacheDirOverride: cacheDir);
+      final reloaded = createTestContentService(cacheDir);
       await reloaded.onInit();
 
       expect(reloaded.isFavorite('nr-06'), isTrue);
@@ -525,7 +527,7 @@ void main() {
         await manifestFile.writeAsString(jsonEncode(manifestJson));
         GetStorage().write(StorageKeys.favoriteNrs, ['nr-06', 'nr-99']);
 
-        final pruneService = ContentService(cacheDirOverride: pruneCacheDir);
+        final pruneService = createTestContentService(pruneCacheDir);
         await pruneService.onInit();
 
         expect(pruneService.favoriteIds, ['nr-06']);

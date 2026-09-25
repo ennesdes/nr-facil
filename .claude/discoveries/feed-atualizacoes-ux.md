@@ -47,7 +47,7 @@ Melhorar, de ponta a ponta, como uma NR atualizada é **gerada** (pipeline Pytho
 | Indicação de atualização dentro do leitor | **Adicionar banner no leitor** | Hoje nada avisa dentro do leitor que o conteúdo mudou — usuário só vê pelo badge nas listas, que some assim que ele abre a NR |
 
 ## todo.md
-- [ ] Parcialmente previsto — Fase 4 (itens 28 e 30) já previa app consumir `app_meta.json`/`updates[]` e checar `min_app_version`, mas não previa nível granular de detalhe (só resumo genérico) nem banner no leitor — ambos são extensões de escopo decididas nesta sessão.
+- [x] Implementado — Fase 4 (itens 28 e 30) + granularidade e banner no leitor (plano `feed-atualizacoes-ux.md`).
 - Linhas relevantes: `- [ ] 28 App busca app_meta.json via GitHub raw e lê updates[] no startup`; `- [ ] 30 Check min_app_version no startup (aviso de update obrigatório)`
 
 ## Lacunas ainda abertas

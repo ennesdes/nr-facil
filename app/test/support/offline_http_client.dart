@@ -3,7 +3,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 
-/// Cliente HTTP local para testes de widget — sem rede.
+/// Cliente HTTP local para testes — intercepta manifest/app_meta e devolve 404 no resto.
+///
+/// Use via [createTestContentService] em qualquer teste que instancie [ContentService]
+/// e possa chamar `syncMetadata`, `prefetchFavorites` ou downloads.
 http.Client createOfflineHttpClient() {
   return MockClient((request) async {
     final path = request.url.path;

@@ -6,6 +6,8 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import '../../support/test_content_service.dart';
+
 class _FakePathProviderPlatform extends PathProviderPlatform
     with MockPlatformInterfaceMixin {
   final String path;
@@ -66,7 +68,7 @@ Texto normativo.
       final cacheDir = await Directory.systemTemp.createTemp(
         'nr_facil_assets_',
       );
-      final service = ContentService(cacheDirOverride: cacheDir);
+      final service = createTestContentService(cacheDir);
       await service.onInit();
 
       final path = service.getAssetPath(

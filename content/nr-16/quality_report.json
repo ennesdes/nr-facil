@@ -1,14 +1,15 @@
 {
   "nr_id": "nr-16",
-  "ok": true,
+  "ok": false,
   "warnings": [
-    "fragmented_tables: 9 separadores de tabela"
+    "fragmented_tables: 11 separadores de tabela"
   ],
-  "char_ratio": 0.776,
-  "md_chars": 37851,
-  "pdf_chars": 48765,
-  "pages_fallback_png": 9,
-  "structure_table_blocks": 9,
-  "fragmented_table_separators": 9,
+  "char_ratio": null,
+  "md_chars": 40342,
+  "pdf_chars": null,
+  "pages_fallback_png": 6,
+  "structure_table_blocks": 11,
+  "fragmented_table_separators": 11,
+  "recommended_action": "reconvert_tables_as_png",
   "reviewed": false
 }

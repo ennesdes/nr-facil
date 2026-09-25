@@ -305,6 +305,7 @@ interpola um campo que pode ser `None` diretamente (bug antigo: "Atualizado em N
 ```bash
 python3 scripts/build_app_meta.py            # gera/atualiza app_meta.json
 python3 scripts/build_app_meta.py --dry-run  # simula
+python3 scripts/build_app_meta.py --repair-legacy  # corrige summaries/portarias legados em updates[]
 python3 scripts/build_app_meta.py --help     # ajuda
 python3 scripts/test_build_app_meta.py -v    # testes unitários
 ```

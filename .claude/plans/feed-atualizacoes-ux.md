@@ -224,14 +224,14 @@ Fase 5 depende de:
 **Então** o badge 🆕 dessa NR continua aparecendo nas listas (Favoritos/Todos) até uma dessas duas interações acontecer
 
 ## Checklist de entrega
-- [ ] Descoberta vinculada em `.claude/discoveries/feed-atualizacoes-ux.md`
-- [ ] Decisões abertas resolvidas *(nenhuma — já resolvidas em `/decidir`)*
-- [ ] `fvm flutter analyze --fatal-infos` sem erros
-- [ ] `validate_manifest.py` passa
-- [ ] `python3 scripts/build_app_meta.py --dry-run` revisado manualmente antes do merge (ver risco de leva grande de entradas na Fase 1)
-- [ ] Testes: caminho feliz + falha + edge case em cada fase
-- [ ] `todo.md` — marcar item 28 e 30 como `[x]` ao final
-- [ ] `docs/architecture.md` atualizado: schema de `app_meta.json` (seção "Schema", L129), texto de exemplo de resumo (L143, hoje desatualizado), e comportamento do leitor/banner (nova subseção)
+- [x] Descoberta vinculada em `.claude/discoveries/feed-atualizacoes-ux.md`
+- [x] Decisões abertas resolvidas *(nenhuma — já resolvidas em `/decidir`)*
+- [x] `fvm flutter analyze --fatal-infos` sem erros
+- [x] `validate_manifest.py` passa
+- [x] `python3 scripts/build_app_meta.py --dry-run` revisado manualmente antes do merge (ver risco de leva grande de entradas na Fase 1)
+- [x] Testes: caminho feliz + falha + edge case em cada fase
+- [x] `todo.md` — marcar item 28 e 30 como `[x]` ao final
+- [x] `docs/architecture.md` atualizado: schema de `app_meta.json` (seção "Schema", L129), texto de exemplo de resumo (L143, hoje desatualizado), e comportamento do leitor/banner (nova subseção)
 
 ## Contexto para /fazer
 

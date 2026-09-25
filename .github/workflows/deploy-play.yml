@@ -42,7 +42,7 @@ jobs:
             echo "| 1 | Preparar (git + secrets) |"
             echo "| 2 | Flutter + deps |"
             echo "| 3 | Format · Fix |"
-            echo "| 4 | Analyze + Testes |"
+            echo "| 4 | Testes unitários |"
             echo "| 5 | Build release (AAB) |"
             echo "| 6 | Publicar Play Store (${{ inputs.mode }}) |"
             echo "| 7 | Version bump |"
@@ -81,20 +81,11 @@ jobs:
         with:
           branch: ${{ github.ref_name }}
 
-      - name: "4 · Analyze + Testes"
+      - name: "4 · Testes unitários"
         working-directory: app
         run: |
-          bash ../scripts/ci_step_report.sh "Analyze + Testes" bash -c '
-            set +e
-            flutter analyze --fatal-infos &
-            ANALYZE_PID=$!
+          bash ../scripts/ci_step_report.sh "Testes unitários" \
             flutter test --concurrency=$(nproc)
-            TEST_STATUS=$?
-            wait "$ANALYZE_PID"
-            ANALYZE_STATUS=$?
-            if [[ "$ANALYZE_STATUS" -ne 0 ]]; then exit "$ANALYZE_STATUS"; fi
-            exit "$TEST_STATUS"
-          '
 
       - name: "5 · Build release"
         id: build

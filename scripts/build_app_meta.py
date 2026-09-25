@@ -33,6 +33,44 @@ APP_META_FILE = ROOT / "app_meta.json"
 
 MAX_UPDATES = 200
 DEFAULT_MIN_APP_VERSION = "0.0.0"
+_PORTARIA_MAX_LEN = 150
+_INVALID_PUBLISHED_VALUES = frozenset({None, "", "?", "None", "null"})
+
+
+def format_first_version_summary(publicado_em: Any) -> str:
+    """Resumo de primeira entrada no feed — nunca exibe 'None' literal."""
+    if publicado_em in _INVALID_PUBLISHED_VALUES:
+        return "Primeira versão"
+    text = str(publicado_em).strip()
+    if not text or text in _INVALID_PUBLISHED_VALUES:
+        return "Primeira versão"
+    return f"Primeira versão ({text})"
+
+
+def truncate_at_word_boundary(text: str, limit: int) -> str:
+    """Corta texto longo no último espaço antes do limite (evita palavras coladas)."""
+    cleaned = text.strip()
+    if len(cleaned) <= limit:
+        return cleaned
+    chunk = cleaned[:limit]
+    last_space = chunk.rfind(" ")
+    if last_space > limit // 2:
+        chunk = chunk[:last_space]
+    return chunk.rstrip() + "…"
+
+
+def normalize_update_entry(entry: dict[str, Any]) -> dict[str, Any]:
+    """Corrige resumos/portarias legados gerados antes do feed granular."""
+    normalized = dict(entry)
+    summary = normalized.get("summary")
+    if isinstance(summary, str) and "None" in summary and summary.startswith("Primeira versão"):
+        normalized["summary"] = format_first_version_summary(None)
+
+    portaria = normalized.get("portaria")
+    if isinstance(portaria, str) and portaria.strip():
+        normalized["portaria"] = truncate_at_word_boundary(portaria, _PORTARIA_MAX_LEN)
+
+    return normalized
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -191,10 +229,8 @@ def build_app_meta(dry_run: bool = False) -> int:
 
         if nr_id not in seen_nr_ids:
             # Nunca apareceu no feed antes — primeira vez de verdade.
-            # Nunca interpolar publicado_em diretamente: pode ser None.
-            publicado_em = nr.get("publicado_em") or "?"
             items = []
-            summary = f"Primeira versão ({publicado_em})"
+            summary = format_first_version_summary(nr.get("publicado_em"))
         else:
             # Há versão anterior — tenta gerar items granulares a partir do diff
             items = []
@@ -233,6 +269,8 @@ def build_app_meta(dry_run: bool = False) -> int:
         })
         logger.info(f"  {nr_id}: {summary} ({len(items)} items)")
 
+    previous_updates = [normalize_update_entry(u) for u in previous_updates]
+    new_entries = [normalize_update_entry(u) for u in new_entries]
     updates = (previous_updates + new_entries)[-MAX_UPDATES:]
 
     app_meta = {
@@ -258,6 +296,11 @@ def main() -> int:
         description="Gera app_meta.json (feed de atualizações + versão mínima, sem backend)"
     )
     parser.add_argument("--dry-run", action="store_true", help="Simula sem gravar")
+    parser.add_argument(
+        "--repair-legacy",
+        action="store_true",
+        help="Normaliza summaries/portarias legados em updates[] sem comparar manifest",
+    )
     parser.add_argument("--verbose", "-v", action="store_true", help="Logging detalhado")
     args = parser.parse_args()
 
@@ -266,7 +309,37 @@ def main() -> int:
     logger.info("=== build_app_meta.py ===")
     logger.info(f"Modo: {'DRY-RUN' if args.dry_run else 'NORMAL'}")
 
+    if args.repair_legacy:
+        return repair_legacy_app_meta(dry_run=args.dry_run)
     return build_app_meta(dry_run=args.dry_run)
+
+
+def repair_legacy_app_meta(dry_run: bool = False) -> int:
+    """Reescreve app_meta.json normalizando entradas antigas (sem novas mudanças de NR)."""
+    previous = load_json(APP_META_FILE)
+    updates = previous.get("updates", [])
+    if not updates:
+        logger.warning("Nenhuma entrada em app_meta.json para reparar")
+        return 0
+
+    normalized = [normalize_update_entry(u) for u in updates]
+    changed = sum(1 for before, after in zip(updates, normalized) if before != after)
+    app_meta = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "min_app_version": previous.get("min_app_version", DEFAULT_MIN_APP_VERSION),
+        "updates": normalized,
+    }
+
+    if dry_run:
+        logger.info(f"[DRY-RUN] {changed} entrada(s) seriam normalizadas")
+        return 0
+
+    APP_META_FILE.write_text(
+        json.dumps(app_meta, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    logger.info(f"app_meta.json reparado ({changed} entrada(s) alteradas)")
+    return 0
 
 
 if __name__ == "__main__":
