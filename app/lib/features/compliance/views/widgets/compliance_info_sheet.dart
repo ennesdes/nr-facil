@@ -30,7 +30,8 @@ class ComplianceInfoSheet {
             left: AppSpacing.md,
             right: AppSpacing.md,
             top: AppSpacing.md,
-            bottom: AppSpacing.md + MediaQuery.viewPaddingOf(sheetContext).bottom,
+            bottom:
+                AppSpacing.md + MediaQuery.viewPaddingOf(sheetContext).bottom,
           ),
           child: SingleChildScrollView(
             child: Column(
@@ -68,7 +69,9 @@ class ComplianceInfoSheet {
                       children: [
                         Text(
                           '• ',
-                          style: theme.textTheme.bodySmall?.copyWith(color: muted),
+                          style: theme.textTheme.bodySmall?.copyWith(
+                            color: muted,
+                          ),
                         ),
                         Expanded(
                           child: Text(

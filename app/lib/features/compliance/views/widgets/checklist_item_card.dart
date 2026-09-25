@@ -18,10 +18,7 @@ import '../../controllers/checklist_controller.dart';
 class ChecklistItemCard extends StatelessWidget {
   final ComplianceItem item;
 
-  const ChecklistItemCard({
-    required this.item,
-    super.key,
-  });
+  const ChecklistItemCard({required this.item, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -46,9 +43,9 @@ class ChecklistItemCard extends StatelessWidget {
                       Text(
                         '${item.nrId.toUpperCase()} · item ${item.itemNumber}',
                         style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                              color: muted,
-                              fontWeight: FontWeight.w600,
-                            ),
+                          color: muted,
+                          fontWeight: FontWeight.w600,
+                        ),
                       ),
                       const SizedBox(height: AppSpacing.xs),
                       Text(
@@ -69,9 +66,8 @@ class ChecklistItemCard extends StatelessWidget {
 
             Text(
               item.explicacao,
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    height: 1.5,
-                  ),
+              style: Theme.of(context).textTheme.bodySmall
+                  ?.copyWith(height: 1.5),
             ),
 
             if (item.infracao &&
@@ -80,10 +76,8 @@ class ChecklistItemCard extends StatelessWidget {
               const SizedBox(height: AppSpacing.md),
               Text(
                 '${ComplianceCopy.nr28CodePrefix} · ${item.codigoInfracao}',
-                style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: muted,
-                      height: 1.35,
-                    ),
+                style: Theme.of(context).textTheme.labelSmall
+                    ?.copyWith(color: muted, height: 1.35),
               ),
             ],
 
@@ -96,9 +90,8 @@ class ChecklistItemCard extends StatelessWidget {
                 Expanded(
                   child: Text(
                     'Responsável: ${item.responsavel}',
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: muted,
-                        ),
+                    style: Theme.of(context).textTheme.bodySmall
+                        ?.copyWith(color: muted),
                   ),
                 ),
               ],
@@ -121,10 +114,10 @@ class ChecklistItemCard extends StatelessWidget {
                             ? 'Verificado'
                             : 'Verificar',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              fontWeight: controller.isItemChecked(item)
-                                  ? FontWeight.bold
-                                  : null,
-                            ),
+                          fontWeight: controller.isItemChecked(item)
+                              ? FontWeight.bold
+                              : null,
+                        ),
                       ),
                     ],
                   ),
@@ -154,10 +147,7 @@ class ChecklistItemCard extends StatelessWidget {
   }
 
   void _openInReader(ComplianceItem item) {
-    ReaderNavigation.open(
-      nrId: item.nrId,
-      initialAnchor: item.readerAnchorId,
-    );
+    ReaderNavigation.open(nrId: item.nrId, initialAnchor: item.readerAnchorId);
   }
 }
 

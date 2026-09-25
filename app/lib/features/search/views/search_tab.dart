@@ -111,7 +111,8 @@ class _SearchTabState extends State<SearchTab> {
                     onTap: () {
                       final chunk = result.chunk;
                       final query = _controller.query.value.trim();
-                      final anchor = chunk.isImageSearchResult &&
+                      final anchor =
+                          chunk.isImageSearchResult &&
                               chunk.imageSrc != null &&
                               chunk.imageSrc!.isNotEmpty
                           ? 'img:${chunk.imageSrc}'
@@ -119,8 +120,7 @@ class _SearchTabState extends State<SearchTab> {
                       ReaderNavigation.open(
                         nrId: result.nrId,
                         initialAnchor: anchor,
-                        initialHighlightQuery:
-                            query.isEmpty ? null : query,
+                        initialHighlightQuery: query.isEmpty ? null : query,
                       );
                     },
                   ),

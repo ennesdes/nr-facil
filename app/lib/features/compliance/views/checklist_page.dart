@@ -58,88 +58,80 @@ class ChecklistPage extends GetView<ChecklistController> {
   @override
   Widget build(BuildContext context) {
     _ensureControllerRegistered();
-    return Obx(
-        () {
-          if (controller.isLoading.value) {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
-          }
+    return Obx(() {
+      if (controller.isLoading.value) {
+        return const Center(child: CircularProgressIndicator());
+      }
 
-          if (controller.loadError.value != null) {
-            final missing = controller.isProfileMissing;
-            return Center(
-              child: EmptyState(
-                icon: missing ? Icons.business_outlined : Icons.error_outline,
-                title: missing
-                    ? ComplianceCopy.profileMissingTitle
-                    : 'Erro ao carregar',
-                body: missing
-                    ? ComplianceCopy.profileMissingBody
-                    : controller.loadError.value ?? 'Erro desconhecido',
-                actions: [
-                  if (missing)
-                    FilledButton(
-                      onPressed: () => editProfile(context),
-                      child: const Text('Configurar minha empresa'),
-                    )
-                  else
-                    FilledButton(
-                      onPressed: () => controller.reload(),
-                      child: const Text('Tentar novamente'),
-                    ),
-                ],
+      if (controller.loadError.value != null) {
+        final missing = controller.isProfileMissing;
+        return Center(
+          child: EmptyState(
+            icon: missing ? Icons.business_outlined : Icons.error_outline,
+            title: missing
+                ? ComplianceCopy.profileMissingTitle
+                : 'Erro ao carregar',
+            body: missing
+                ? ComplianceCopy.profileMissingBody
+                : controller.loadError.value ?? 'Erro desconhecido',
+            actions: [
+              if (missing)
+                FilledButton(
+                  onPressed: () => editProfile(context),
+                  child: const Text('Configurar minha empresa'),
+                )
+              else
+                FilledButton(
+                  onPressed: () => controller.reload(),
+                  child: const Text('Tentar novamente'),
+                ),
+            ],
+          ),
+        );
+      }
+
+      if (controller.applicableItems.isEmpty) {
+        return Center(
+          child: EmptyState(
+            icon: Icons.check_circle_outline,
+            title: ComplianceCopy.emptyItemsTitle,
+            body: ComplianceCopy.emptyItemsBody,
+            actions: [
+              FilledButton(
+                onPressed: () => editProfile(context),
+                child: const Text('Editar perfil'),
               ),
-            );
-          }
+            ],
+          ),
+        );
+      }
 
-          if (controller.applicableItems.isEmpty) {
-            return Center(
-              child: EmptyState(
-                icon: Icons.check_circle_outline,
-                title: ComplianceCopy.emptyItemsTitle,
-                body: ComplianceCopy.emptyItemsBody,
-                actions: [
-                  FilledButton(
-                    onPressed: () => editProfile(context),
-                    child: const Text('Editar perfil'),
+      return AppScaffoldBody(
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: AppSpacing.md),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+                child: Text(
+                  ComplianceCopy.screenSubtitle,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    height: 1.4,
                   ),
-                ],
+                ),
               ),
-            );
-          }
-
-          return AppScaffoldBody(
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const SizedBox(height: AppSpacing.md),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: AppSpacing.md,
-                    ),
-                    child: Text(
-                      ComplianceCopy.screenSubtitle,
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Theme.of(context)
-                                .colorScheme
-                                .onSurfaceVariant,
-                            height: 1.4,
-                          ),
-                    ),
-                  ),
-                  const SizedBox(height: AppSpacing.md),
-                  _buildProgressSection(context),
-                        const SizedBox(height: AppSpacing.lg),
-                        _buildItemsList(context),
-                  const AppScrollBottomInset(),
-                ],
-              ),
-            ),
-          );
-        },
+              const SizedBox(height: AppSpacing.md),
+              _buildProgressSection(context),
+              const SizedBox(height: AppSpacing.lg),
+              _buildItemsList(context),
+              const AppScrollBottomInset(),
+            ],
+          ),
+        ),
       );
+    });
   }
 
   Widget _buildProgressSection(BuildContext context) {
@@ -158,28 +150,27 @@ class ChecklistPage extends GetView<ChecklistController> {
               Obx(
                 () => Text(
                   '${controller.checkedCount}/${controller.totalCount}',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                      ),
+                  style: Theme.of(context).textTheme.bodyMedium
+                      ?.copyWith(fontWeight: FontWeight.bold),
                 ),
               ),
             ],
           ),
           const SizedBox(height: AppSpacing.sm),
-          Obx(
-            () {
-              final fraction =
-                  (controller.completionPercentage / 100).clamp(0.0, 1.0);
-              return AppLinearProgress(value: fraction);
-            },
-          ),
+          Obx(() {
+            final fraction = (controller.completionPercentage / 100).clamp(
+              0.0,
+              1.0,
+            );
+            return AppLinearProgress(value: fraction);
+          }),
           const SizedBox(height: AppSpacing.sm),
           Obx(
             () => Text(
               '${controller.completionPercentage}% completo',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
             ),
           ),
         ],
@@ -212,54 +203,51 @@ class ChecklistPage extends GetView<ChecklistController> {
   }
 
   Widget _buildNrSection(BuildContext context, String nrId) {
-    return Obx(
-      () {
-        final items = controller.itemsByNr[nrId] ?? [];
-        if (items.isEmpty) return const SizedBox.shrink();
+    return Obx(() {
+      final items = controller.itemsByNr[nrId] ?? [];
+      if (items.isEmpty) return const SizedBox.shrink();
 
-        final colorScheme = Theme.of(context).colorScheme;
+      final colorScheme = Theme.of(context).colorScheme;
 
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              padding: const EdgeInsets.symmetric(
-                horizontal: AppSpacing.md,
-                vertical: AppSpacing.sm,
-              ),
-              decoration: BoxDecoration(
-                color: colorScheme.surfaceContainerLow,
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color: colorScheme.outline.withValues(alpha: 0.35),
-                ),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    nrId.toUpperCase(),
-                    style: Theme.of(context).textTheme.labelLarge,
-                  ),
-                  Text(
-                    '${items.where((i) => controller.isItemChecked(i)).length}/${items.length}',
-                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                          color: colorScheme.onSurfaceVariant,
-                        ),
-                  ),
-                ],
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.md,
+              vertical: AppSpacing.sm,
+            ),
+            decoration: BoxDecoration(
+              color: colorScheme.surfaceContainerLow,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(
+                color: colorScheme.outline.withValues(alpha: 0.35),
               ),
             ),
-            const SizedBox(height: AppSpacing.md),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  nrId.toUpperCase(),
+                  style: Theme.of(context).textTheme.labelLarge,
+                ),
+                Text(
+                  '${items.where((i) => controller.isItemChecked(i)).length}/${items.length}',
+                  style: Theme.of(context).textTheme.labelSmall
+                      ?.copyWith(color: colorScheme.onSurfaceVariant),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: AppSpacing.md),
 
-            // Items da NR
-            for (final item in items) ChecklistItemCard(item: item),
+          // Items da NR
+          for (final item in items) ChecklistItemCard(item: item),
 
-            const SizedBox(height: AppSpacing.lg),
-          ],
-        );
-      },
-    );
+          const SizedBox(height: AppSpacing.lg),
+        ],
+      );
+    });
   }
 
   /// Abre a tela de perfil e recarrega o checklist ao voltar (perfil pode ter mudado).

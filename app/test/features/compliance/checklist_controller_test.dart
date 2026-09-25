@@ -28,10 +28,7 @@ void main() {
         aviso: 'Aviso de teste',
         riskFactors: [
           RiskFactor(id: 'altura', label: 'Trabalho em altura'),
-          RiskFactor(
-            id: 'espaço-confinado',
-            label: 'Espaço confinado',
-          ),
+          RiskFactor(id: 'espaço-confinado', label: 'Espaço confinado'),
           RiskFactor(id: 'químicos', label: 'Produtos químicos'),
         ],
         items: [
@@ -90,9 +87,7 @@ void main() {
         ],
       );
 
-      fakeComplianceService = FakeComplianceService(
-        mockDataset: mockDataset,
-      );
+      fakeComplianceService = FakeComplianceService(mockDataset: mockDataset);
       fakeComplianceService.onInit();
     });
 
@@ -115,37 +110,40 @@ void main() {
       controller.onClose();
     });
 
-    test('CA2: carrega itens aplicáveis baseado em riskFactors do perfil', () async {
-      // Salvar perfil com um fator de risco
-      final profile = CompanyProfile(
-        id: 'default',
-        porte: 'Até 10 funcionários',
-        segmentoId: '',
-        riskFactors: ['altura'],
-      );
-      await fakeStorageService.write(
-        StorageKeys.companyProfile,
-        profile.toMap(),
-      );
+    test(
+      'CA2: carrega itens aplicáveis baseado em riskFactors do perfil',
+      () async {
+        // Salvar perfil com um fator de risco
+        final profile = CompanyProfile(
+          id: 'default',
+          porte: 'Até 10 funcionários',
+          segmentoId: '',
+          riskFactors: ['altura'],
+        );
+        await fakeStorageService.write(
+          StorageKeys.companyProfile,
+          profile.toMap(),
+        );
 
-      final controller = ChecklistController(
-        storageService: fakeStorageService,
-        complianceService: fakeComplianceService,
-      );
+        final controller = ChecklistController(
+          storageService: fakeStorageService,
+          complianceService: fakeComplianceService,
+        );
 
-      await controller.onInit();
+        await controller.onInit();
 
-      expect(controller.isLoading.value, isFalse);
-      expect(controller.loadError.value, isNull);
-      expect(controller.applicableItems.isNotEmpty, isTrue);
+        expect(controller.isLoading.value, isFalse);
+        expect(controller.loadError.value, isNull);
+        expect(controller.applicableItems.isNotEmpty, isTrue);
 
-      // Todos os itens retornados devem ter 'altura' em riskFactors
-      for (final item in controller.applicableItems) {
-        expect(item.riskFactors.contains('altura'), isTrue);
-      }
+        // Todos os itens retornados devem ter 'altura' em riskFactors
+        for (final item in controller.applicableItems) {
+          expect(item.riskFactors.contains('altura'), isTrue);
+        }
 
-      controller.onClose();
-    });
+        controller.onClose();
+      },
+    );
 
     test('CA2: perfil com múltiplos fatores retorna itens de todos', () async {
       // Salvar perfil com 2 fatores
@@ -167,7 +165,10 @@ void main() {
 
       await controller.onInit();
 
-      expect(controller.applicableItems.length, 3); // 2 de altura + 1 de espaço-confinado
+      expect(
+        controller.applicableItems.length,
+        3,
+      ); // 2 de altura + 1 de espaço-confinado
 
       // Cada item deve ter interseção com pelo menos um dos fatores
       for (final item in controller.applicableItems) {

@@ -123,7 +123,10 @@ class ChecklistController extends GetxController {
   Future<void> _loadCheckedStates() async {
     try {
       for (final item in applicableItems) {
-        final key = StorageKeys.complianceItemChecked(item.nrId, item.itemNumber);
+        final key = StorageKeys.complianceItemChecked(
+          item.nrId,
+          item.itemNumber,
+        );
         final isChecked = storageService.read(key) as bool? ?? false;
         itemCheckedStatus[_itemKey(item)] = isChecked;
       }
@@ -142,8 +145,10 @@ class ChecklistController extends GetxController {
       itemCheckedStatus[key] = newValue;
 
       // Persistir no storage
-      final storageKey =
-          StorageKeys.complianceItemChecked(item.nrId, item.itemNumber);
+      final storageKey = StorageKeys.complianceItemChecked(
+        item.nrId,
+        item.itemNumber,
+      );
       await storageService.write(storageKey, newValue);
 
       AppLogger.debug(
@@ -167,8 +172,10 @@ class ChecklistController extends GetxController {
   Future<void> resetAllChecked() async {
     for (final item in applicableItems) {
       itemCheckedStatus[_itemKey(item)] = false;
-      final storageKey =
-          StorageKeys.complianceItemChecked(item.nrId, item.itemNumber);
+      final storageKey = StorageKeys.complianceItemChecked(
+        item.nrId,
+        item.itemNumber,
+      );
       await storageService.write(storageKey, false);
     }
     AppLogger.info('Checklist resetado: todos os itens desmarcados');

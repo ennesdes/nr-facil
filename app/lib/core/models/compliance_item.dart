@@ -10,11 +10,13 @@ class ComplianceItem {
   final String titulo;
   final bool infracao;
   final String? gradacao; // I1-I4, opcional
-  final String? tipo; // S (Segurança do Trabalho) ou M (Medicina do Trabalho), opcional
+  final String?
+  tipo; // S (Segurança do Trabalho) ou M (Medicina do Trabalho), opcional
   final String? codigoInfracao;
   final String explicacao;
   final String responsavel;
-  final List<String> riskFactors; // ids de fatores de risco que a tornam aplicável
+  final List<String>
+  riskFactors; // ids de fatores de risco que a tornam aplicável
   final String readerAnchorId; // âncora no leitor da NR
 
   ComplianceItem({
@@ -43,7 +45,8 @@ class ComplianceItem {
         codigoInfracao: map['codigo_infracao'] as String?,
         explicacao: map['explicacao'] as String? ?? '',
         responsavel: map['responsavel'] as String? ?? '',
-        riskFactors: (map['risk_factors'] as List<dynamic>?)
+        riskFactors:
+            (map['risk_factors'] as List<dynamic>?)
                 ?.map((e) => e as String)
                 .toList() ??
             [],

@@ -10,8 +10,6 @@ class AppScrollBottomInset extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: ViewPadding.bottomOf(context) + AppSpacing.lg,
-    );
+    return SizedBox(height: ViewPadding.bottomOf(context) + AppSpacing.lg);
   }
 }

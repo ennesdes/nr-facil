@@ -30,8 +30,7 @@ class SearchChunk {
   });
 
   /// Resultado aponta para bloco imagem no leitor (busca usa texto MD, não pixel).
-  bool get isImageSearchResult =>
-      kind == 'image_png' || kind == 'page_table';
+  bool get isImageSearchResult => kind == 'image_png' || kind == 'page_table';
 
   factory SearchChunk.fromMap(Map<String, dynamic> map) {
     String stringValue(dynamic value) {

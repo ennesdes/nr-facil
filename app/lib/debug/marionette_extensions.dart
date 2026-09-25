@@ -105,13 +105,15 @@ void _navigateToScreen(String screen) {
       Get.find<HomeController>().selectedTab.value = HomeController.tabNormas;
     case 'home_tab_favoritos':
       Get.offAll(() => const HomePage());
-      Get.find<HomeController>().selectedTab.value = HomeController.tabFavoritos;
+      Get.find<HomeController>().selectedTab.value =
+          HomeController.tabFavoritos;
     case 'home_tab_buscar':
       Get.offAll(() => const HomePage());
       Get.find<HomeController>().selectedTab.value = HomeController.tabBuscar;
     case 'home_tab_checklist':
       Get.offAll(() => const HomePage());
-      Get.find<HomeController>().selectedTab.value = HomeController.tabChecklist;
+      Get.find<HomeController>().selectedTab.value =
+          HomeController.tabChecklist;
     case 'company_profile':
       Get.offAll(() => const HomePage());
       CompanyProfileController.ensureRegistered();
@@ -179,8 +181,7 @@ void registerMarionetteDebugExtensions() {
     inputSchema: const ExtensionInputSchema(
       properties: {
         'screen': ExtensionParam.string(
-          description:
-              'Tela: home, home_tab_*, company_profile, reader_nr25, search, settings, updates.',
+          description: 'Tela: home, home_tab_*, company_profile, reader_nr25, search, settings, updates.',
           enumValues: _navigateScreenValues,
         ),
         'preset': ExtensionParam.string(
@@ -231,8 +232,7 @@ void registerMarionetteDebugExtensions() {
 
   registerMarionetteExtension(
     name: 'debug.setTheme',
-    description:
-        'Define tema global (light | dark | system). Efeito imediato via ThemeController.',
+    description: 'Define tema global (light | dark | system). Efeito imediato via ThemeController.',
     inputSchema: const ExtensionInputSchema(
       properties: {
         'mode': ExtensionParam.string(

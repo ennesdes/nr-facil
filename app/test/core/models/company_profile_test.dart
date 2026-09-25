@@ -34,16 +34,19 @@ void main() {
       expect(profile.isComplete, isFalse);
     });
 
-    test('isComplete retorna true quando porte e segmentoId estão preenchidos', () {
-      final profile = CompanyProfile(
-        id: 'default',
-        porte: 'Até 10 funcionários',
-        segmentoId: 'Indústria',
-        riskFactors: ['fator-1', 'fator-2'],
-      );
+    test(
+      'isComplete retorna true quando porte e segmentoId estão preenchidos',
+      () {
+        final profile = CompanyProfile(
+          id: 'default',
+          porte: 'Até 10 funcionários',
+          segmentoId: 'Indústria',
+          riskFactors: ['fator-1', 'fator-2'],
+        );
 
-      expect(profile.isComplete, isTrue);
-    });
+        expect(profile.isComplete, isTrue);
+      },
+    );
 
     test('isComplete retorna true mesmo sem fatores de risco', () {
       final profile = CompanyProfile(
@@ -100,19 +103,22 @@ void main() {
       expect(profile.riskFactors, isEmpty);
     });
 
-    test('fromMap com risk_factors como List<dynamic> converte corretamente', () {
-      final map = {
-        'id': 'default',
-        'porte': 'Até 10 funcionários',
-        'segmento_id': 'Serviços',
-        'risk_factors': ['fator-1', 'fator-2', 'fator-3'],
-      };
+    test(
+      'fromMap com risk_factors como List<dynamic> converte corretamente',
+      () {
+        final map = {
+          'id': 'default',
+          'porte': 'Até 10 funcionários',
+          'segmento_id': 'Serviços',
+          'risk_factors': ['fator-1', 'fator-2', 'fator-3'],
+        };
 
-      final profile = CompanyProfile.fromMap(map);
+        final profile = CompanyProfile.fromMap(map);
 
-      expect(profile.riskFactors, ['fator-1', 'fator-2', 'fator-3']);
-      expect(profile.riskFactors.length, 3);
-    });
+        expect(profile.riskFactors, ['fator-1', 'fator-2', 'fator-3']);
+        expect(profile.riskFactors.length, 3);
+      },
+    );
 
     test('toMap/fromMap preserva ordem de fatores de risco', () {
       final original = CompanyProfile(
@@ -182,16 +188,19 @@ void main() {
       expect(profile.riskFactors, isEmpty);
     });
 
-    test('fromMap com dados malformados lança CompanyProfileParseException', () {
-      final map = {
-        'id': 123, // Esperado: string
-      };
+    test(
+      'fromMap com dados malformados lança CompanyProfileParseException',
+      () {
+        final map = {
+          'id': 123, // Esperado: string
+        };
 
-      expect(
-        () => CompanyProfile.fromMap(map),
-        throwsA(isA<CompanyProfileParseException>()),
-      );
-    });
+        expect(
+          () => CompanyProfile.fromMap(map),
+          throwsA(isA<CompanyProfileParseException>()),
+        );
+      },
+    );
 
     test('toMap preserva tipos e estrutura para re-serialização', () {
       final original = CompanyProfile(
@@ -211,17 +220,12 @@ void main() {
 
   group('CompanyProfileParseException', () {
     test('toString retorna mensagem formatada', () {
-      final exception =
-          CompanyProfileParseException('Erro ao parsear: campo inválido');
+      final exception = CompanyProfileParseException(
+        'Erro ao parsear: campo inválido',
+      );
 
-      expect(
-        exception.toString(),
-        contains('CompanyProfileParseException'),
-      );
-      expect(
-        exception.toString(),
-        contains('campo inválido'),
-      );
+      expect(exception.toString(), contains('CompanyProfileParseException'));
+      expect(exception.toString(), contains('campo inválido'));
     });
   });
 }

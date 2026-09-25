@@ -24,10 +24,7 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Meu Perfil'),
-        centerTitle: false,
-      ),
+      appBar: AppBar(title: const Text('Meu Perfil'), centerTitle: false),
       body: AppScaffoldBody(
         child: SingleChildScrollView(
           child: Padding(
@@ -113,9 +110,8 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
         const SizedBox(height: AppSpacing.md),
         Text(
           ComplianceCopy.profileIntro,
-          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Theme.of(context).colorScheme.onSurfaceVariant,
-              ),
+          style: Theme.of(context).textTheme.bodyMedium
+              ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
         ),
       ],
     );
@@ -163,10 +159,7 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Atividade/setor',
-          style: Theme.of(context).textTheme.titleMedium,
-        ),
+        Text('Atividade/setor', style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: AppSpacing.sm),
         Obx(
           () => DropdownButtonFormField<String>(
@@ -202,31 +195,27 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
 
   Widget _buildErrorMessage(BuildContext context) {
     final theme = Theme.of(context);
-    return Obx(
-      () {
-        final message = controller.saveError.value;
-        if (message == null) return const SizedBox.shrink();
+    return Obx(() {
+      final message = controller.saveError.value;
+      if (message == null) return const SizedBox.shrink();
 
-        final colorScheme = theme.colorScheme;
-        return Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(AppSpacing.md),
-          decoration: BoxDecoration(
-            color: colorScheme.errorContainer,
-            border: Border.all(
-              color: colorScheme.error.withValues(alpha: 0.45),
-            ),
-            borderRadius: BorderRadius.circular(8),
+      final colorScheme = theme.colorScheme;
+      return Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(AppSpacing.md),
+        decoration: BoxDecoration(
+          color: colorScheme.errorContainer,
+          border: Border.all(color: colorScheme.error.withValues(alpha: 0.45)),
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: Text(
+          message,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            color: colorScheme.onErrorContainer,
           ),
-          child: Text(
-            message,
-            style: theme.textTheme.bodyMedium?.copyWith(
-                  color: colorScheme.onErrorContainer,
-                ),
-          ),
-        );
-      },
-    );
+        ),
+      );
+    });
   }
 
   Widget _buildSaveButton() {
@@ -234,8 +223,7 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
       width: double.infinity,
       child: Obx(
         () => FilledButton(
-          onPressed:
-              controller.isSaving.value ? null : controller.saveProfile,
+          onPressed: controller.isSaving.value ? null : controller.saveProfile,
           child: controller.isSaving.value
               ? const SizedBox(
                   height: 20,

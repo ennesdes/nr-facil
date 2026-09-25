@@ -105,43 +105,54 @@ void main() {
       );
     });
 
-    test('getApplicableItems com fatores vazios retorna lista vazia (CA6)', () async {
-      final service = ComplianceService();
-      await service.onInit();
+    test(
+      'getApplicableItems com fatores vazios retorna lista vazia (CA6)',
+      () async {
+        final service = ComplianceService();
+        await service.onInit();
 
-      final items = service.getApplicableItems('', []);
-      expect(items, isEmpty);
-    });
+        final items = service.getApplicableItems('', []);
+        expect(items, isEmpty);
+      },
+    );
 
-    test('getApplicableItems com fator inexistente retorna lista vazia', () async {
-      final service = ComplianceService();
-      await service.onInit();
+    test(
+      'getApplicableItems com fator inexistente retorna lista vazia',
+      () async {
+        final service = ComplianceService();
+        await service.onInit();
 
-      final items = service.getApplicableItems('', ['fator-inexistente']);
-      expect(items, isEmpty);
-    });
+        final items = service.getApplicableItems('', ['fator-inexistente']);
+        expect(items, isEmpty);
+      },
+    );
 
-    test('getApplicableItems com múltiplos fatores retorna interseção', () async {
-      final service = ComplianceService();
-      await service.onInit();
+    test(
+      'getApplicableItems com múltiplos fatores retorna interseção',
+      () async {
+        final service = ComplianceService();
+        await service.onInit();
 
-      final allFactors = service.getRiskFactors();
-      final factorIds = allFactors.map((f) => f.id).toList();
+        final allFactors = service.getRiskFactors();
+        final factorIds = allFactors.map((f) => f.id).toList();
 
-      if (factorIds.length >= 2) {
-        final items = service.getApplicableItems(
-          '',
-          [factorIds[0], factorIds[1]],
-        );
-        // Itens devem ter interseção com pelo menos um dos fatores
-        expect(
-          items.every((item) =>
-              item.riskFactors.contains(factorIds[0]) ||
-              item.riskFactors.contains(factorIds[1])),
-          isTrue,
-        );
-      }
-    });
+        if (factorIds.length >= 2) {
+          final items = service.getApplicableItems('', [
+            factorIds[0],
+            factorIds[1],
+          ]);
+          // Itens devem ter interseção com pelo menos um dos fatores
+          expect(
+            items.every(
+              (item) =>
+                  item.riskFactors.contains(factorIds[0]) ||
+                  item.riskFactors.contains(factorIds[1]),
+            ),
+            isTrue,
+          );
+        }
+      },
+    );
 
     test('getItem por nrId e itemNumber retorna item específico', () async {
       final service = ComplianceService();
@@ -333,7 +344,9 @@ void main() {
 
     test('item que bate segmento E fator de risco aparece uma vez só (sem duplicar)', () {
       // nr-01 está no segmento "comercio" — soma com o fator de risco, sem duplicar
-      final items = service.getApplicableItems('comercio', ['trabalho_em_altura']);
+      final items = service.getApplicableItems('comercio', [
+        'trabalho_em_altura',
+      ]);
 
       final nr01Matches = items.where((i) => i.nrId == 'nr-01').length;
       expect(nr01Matches, 1);
@@ -400,8 +413,10 @@ void main() {
     });
 
     test('industria inclui NR-11, NR-12 e NR-15', () {
-      final nrIds =
-          service.getApplicableItems('industria', []).map((i) => i.nrId).toSet();
+      final nrIds = service
+          .getApplicableItems('industria', [])
+          .map((i) => i.nrId)
+          .toSet();
       expect(nrIds, containsAll(['nr-11', 'nr-12', 'nr-15']));
     });
 
@@ -414,8 +429,10 @@ void main() {
     });
 
     test('saude inclui NR-32', () {
-      final nrIds =
-          service.getApplicableItems('saude', []).map((i) => i.nrId).toSet();
+      final nrIds = service
+          .getApplicableItems('saude', [])
+          .map((i) => i.nrId)
+          .toSet();
       expect(nrIds, contains('nr-32'));
     });
 
@@ -438,22 +455,22 @@ void main() {
     });
 
     test('CA2 — fator trabalho_em_altura soma NR-35 fora do nr_ids_base do segmento', () {
-      final items = service.getApplicableItems(
-        'servicos_escritorio',
-        ['trabalho_em_altura'],
-      );
+      final items = service.getApplicableItems('servicos_escritorio', [
+        'trabalho_em_altura',
+      ]);
       expect(items.any((i) => i.nrId == 'nr-35'), isTrue);
     });
 
-    test('CA3 — construcao_civil + trabalho_em_altura não duplica item NR-35', () {
-      final items = service.getApplicableItems(
-        'construcao_civil',
-        ['trabalho_em_altura'],
-      );
-      final matches3531 =
-          items.where((i) => i.itemNumber == '35.3.1').length;
-      expect(matches3531, 1);
-    });
+    test(
+      'CA3 — construcao_civil + trabalho_em_altura não duplica item NR-35',
+      () {
+        final items = service.getApplicableItems('construcao_civil', [
+          'trabalho_em_altura',
+        ]);
+        final matches3531 = items.where((i) => i.itemNumber == '35.3.1').length;
+        expect(matches3531, 1);
+      },
+    );
 
     test('cada item tem código, gradação e tipo NR-28', () {
       for (final item in service.dataset.items) {
@@ -467,10 +484,7 @@ void main() {
 
   group('RiskFactor', () {
     test('toMap/fromMap round-trip', () {
-      final factor = RiskFactor(
-        id: 'test-factor',
-        label: 'Test Factor Label',
-      );
+      final factor = RiskFactor(id: 'test-factor', label: 'Test Factor Label');
 
       final map = factor.toMap();
       final restored = RiskFactor.fromMap(map);
@@ -530,9 +544,7 @@ void main() {
       final original = ComplianceDataset(
         atualizado_em: '21/09/2026',
         aviso: 'Aviso de teste',
-        riskFactors: [
-          RiskFactor(id: 'fator-1', label: 'Fator 1'),
-        ],
+        riskFactors: [RiskFactor(id: 'fator-1', label: 'Fator 1')],
         items: [],
       );
 

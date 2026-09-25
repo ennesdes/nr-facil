@@ -9,11 +9,7 @@ class AppLinearProgress extends StatelessWidget {
   final double? value;
   final double minHeight;
 
-  const AppLinearProgress({
-    this.value,
-    this.minHeight = 8,
-    super.key,
-  });
+  const AppLinearProgress({this.value, this.minHeight = 8, super.key});
 
   @override
   Widget build(BuildContext context) {

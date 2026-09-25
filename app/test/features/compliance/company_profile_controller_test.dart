@@ -40,9 +40,7 @@ void main() {
         items: [],
       );
 
-      fakeComplianceService = FakeComplianceService(
-        mockDataset: mockDataset,
-      );
+      fakeComplianceService = FakeComplianceService(mockDataset: mockDataset);
       await fakeComplianceService.onInit();
 
       controller = CompanyProfileController(
@@ -77,16 +75,25 @@ void main() {
 
       controller.toggleRiskFactor('empregados_clt');
 
-      expect(controller.selectedRiskFactorIds.contains('empregados_clt'), isTrue);
+      expect(
+        controller.selectedRiskFactorIds.contains('empregados_clt'),
+        isTrue,
+      );
     });
 
     test('toggleRiskFactor remove fator quando já selecionado', () {
       controller.toggleRiskFactor('empregados_clt');
-      expect(controller.selectedRiskFactorIds.contains('empregados_clt'), isTrue);
+      expect(
+        controller.selectedRiskFactorIds.contains('empregados_clt'),
+        isTrue,
+      );
 
       controller.toggleRiskFactor('empregados_clt');
 
-      expect(controller.selectedRiskFactorIds.contains('empregados_clt'), isFalse);
+      expect(
+        controller.selectedRiskFactorIds.contains('empregados_clt'),
+        isFalse,
+      );
     });
 
     test('toggleRiskFactor alterna múltiplos fatores independentemente', () {
@@ -94,18 +101,28 @@ void main() {
       controller.toggleRiskFactor('prestacao_servicos_terceiros');
 
       expect(controller.selectedRiskFactorIds.length, 2);
-      expect(controller.selectedRiskFactorIds.contains('empregados_clt'), isTrue);
       expect(
-        controller.selectedRiskFactorIds.contains('prestacao_servicos_terceiros'),
+        controller.selectedRiskFactorIds.contains('empregados_clt'),
+        isTrue,
+      );
+      expect(
+        controller.selectedRiskFactorIds.contains(
+          'prestacao_servicos_terceiros',
+        ),
         isTrue,
       );
 
       controller.toggleRiskFactor('empregados_clt');
 
       expect(controller.selectedRiskFactorIds.length, 1);
-      expect(controller.selectedRiskFactorIds.contains('empregados_clt'), isFalse);
       expect(
-        controller.selectedRiskFactorIds.contains('prestacao_servicos_terceiros'),
+        controller.selectedRiskFactorIds.contains('empregados_clt'),
+        isFalse,
+      );
+      expect(
+        controller.selectedRiskFactorIds.contains(
+          'prestacao_servicos_terceiros',
+        ),
         isTrue,
       );
     });
@@ -138,60 +155,66 @@ void main() {
       expect(controller.saveError.value, contains('atividade'));
     });
 
-    test('CA1: saveProfile persiste perfil no storage e marca isSaving', () async {
-      // Configurar dados de entrada
-      controller.porteSelected.value = 'Até 10 funcionários';
-      controller.segmentoIdSelected.value = 'industria';
-      controller.toggleRiskFactor('empregados_clt');
-      controller.toggleRiskFactor('possui_cipa');
+    test(
+      'CA1: saveProfile persiste perfil no storage e marca isSaving',
+      () async {
+        // Configurar dados de entrada
+        controller.porteSelected.value = 'Até 10 funcionários';
+        controller.segmentoIdSelected.value = 'industria';
+        controller.toggleRiskFactor('empregados_clt');
+        controller.toggleRiskFactor('possui_cipa');
 
-      expect(controller.isSaving.value, isFalse);
+        expect(controller.isSaving.value, isFalse);
 
-      // Salvar (sem esperar navegação, que daria erro em teste)
-      controller.saveProfile();
+        // Salvar (sem esperar navegação, que daria erro em teste)
+        controller.saveProfile();
 
-      // Aguardar um tick para processamento
-      await Future.delayed(const Duration(milliseconds: 100));
+        // Aguardar um tick para processamento
+        await Future.delayed(const Duration(milliseconds: 100));
 
-      // Verificar que isSaving foi alterado (mesmo que devolva para false após erro de navegação)
-      expect(controller.saveError.value, isNull);
+        // Verificar que isSaving foi alterado (mesmo que devolva para false após erro de navegação)
+        expect(controller.saveError.value, isNull);
 
-      // Verificar que perfil foi persistido no storage
-      final savedData = fakeStorageService.read(StorageKeys.companyProfile);
-      expect(savedData, isNotNull);
+        // Verificar que perfil foi persistido no storage
+        final savedData = fakeStorageService.read(StorageKeys.companyProfile);
+        expect(savedData, isNotNull);
 
-      final savedProfile = CompanyProfile.fromMap(
-        Map<String, dynamic>.from(savedData as Map),
-      );
+        final savedProfile = CompanyProfile.fromMap(
+          Map<String, dynamic>.from(savedData as Map),
+        );
 
-      expect(savedProfile.porte, 'Até 10 funcionários');
-      expect(savedProfile.segmentoId, 'industria');
-      expect(
-        savedProfile.riskFactors,
-        containsAll(['empregados_clt', 'possui_cipa']),
-      );
-    });
+        expect(savedProfile.porte, 'Até 10 funcionários');
+        expect(savedProfile.segmentoId, 'industria');
+        expect(
+          savedProfile.riskFactors,
+          containsAll(['empregados_clt', 'possui_cipa']),
+        );
+      },
+    );
 
-    test('CA1: saveProfile com perfil sem fatores de risco ainda salva', () async {
-      // Configurar dados sem fatores de risco (CA6: válido)
-      controller.porteSelected.value = '11 a 50 funcionários';
-      controller.segmentoIdSelected.value = 'comercio';
-      // Não toggle nenhum fator de risco
+    test(
+      'CA1: saveProfile com perfil sem fatores de risco ainda salva',
+      () async {
+        // Configurar dados sem fatores de risco (CA6: válido)
+        controller.porteSelected.value = '11 a 50 funcionários';
+        controller.segmentoIdSelected.value = 'comercio';
+        // Não toggle nenhum fator de risco
 
-      await controller.saveProfile();
-      await Future.delayed(const Duration(milliseconds: 100));
+        await controller.saveProfile();
+        await Future.delayed(const Duration(milliseconds: 100));
 
-      final savedData = fakeStorageService.read(StorageKeys.companyProfile);
-      expect(savedData, isNotNull);
+        final savedData = fakeStorageService.read(StorageKeys.companyProfile);
+        expect(savedData, isNotNull);
 
-      final savedProfile = CompanyProfile.fromMap(
-        Map<String, dynamic>.from(savedData as Map),
-      );
+        final savedProfile = CompanyProfile.fromMap(
+          Map<String, dynamic>.from(savedData as Map),
+        );
 
-      expect(savedProfile.riskFactors, isEmpty);
-      expect(savedProfile.porte, '11 a 50 funcionários');
-      expect(savedProfile.segmentoId, 'comercio');
-    });
+        expect(savedProfile.riskFactors, isEmpty);
+        expect(savedProfile.porte, '11 a 50 funcionários');
+        expect(savedProfile.segmentoId, 'comercio');
+      },
+    );
 
     test('carrega perfil existente do storage na inicialização', () async {
       // Salvar um perfil no storage
@@ -232,10 +255,7 @@ void main() {
         segmentoId: 'industria',
         riskFactors: [],
       );
-      fakeStorageService.write(
-        StorageKeys.companyProfile,
-        profileData.toMap(),
-      );
+      fakeStorageService.write(StorageKeys.companyProfile, profileData.toMap());
 
       expect(controller.hasProfile, isTrue);
     });
@@ -258,13 +278,16 @@ void main() {
       );
     });
 
-    test('availableSegments carrega segmentos do ComplianceService (data-driven)', () {
-      expect(controller.availableSegments.length, 2);
-      expect(
-        controller.availableSegments.map((s) => s.id),
-        containsAll(['comercio', 'industria']),
-      );
-    });
+    test(
+      'availableSegments carrega segmentos do ComplianceService (data-driven)',
+      () {
+        expect(controller.availableSegments.length, 2);
+        expect(
+          controller.availableSegments.map((s) => s.id),
+          containsAll(['comercio', 'industria']),
+        );
+      },
+    );
 
     test('perfil com copyWith mantém campos não atualizados', () async {
       controller.porteSelected.value = 'Até 10 funcionários';
@@ -274,9 +297,7 @@ void main() {
       await controller.saveProfile();
       await Future.delayed(const Duration(milliseconds: 100));
 
-      final updated = controller.profile.value.copyWith(
-        segmentoId: 'comercio',
-      );
+      final updated = controller.profile.value.copyWith(segmentoId: 'comercio');
 
       expect(updated.porte, 'Até 10 funcionários');
       expect(updated.segmentoId, 'comercio');
@@ -312,10 +333,7 @@ void main() {
 
       expect(savedProfile.segmentoId, 'comercio');
       expect(savedProfile.porte, '51 a 100 funcionários');
-      expect(
-        savedProfile.riskFactors,
-        ['prestacao_servicos_terceiros'],
-      );
+      expect(savedProfile.riskFactors, ['prestacao_servicos_terceiros']);
     });
   });
 }

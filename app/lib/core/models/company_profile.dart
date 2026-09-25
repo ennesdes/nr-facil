@@ -9,8 +9,10 @@ library;
 
 class CompanyProfile {
   final String id; // "default" em v1, preparado pra evoluir
-  final String porte; // ex: "até 10", "11 a 50", "51 a 100", "101 a 500", ">500"
-  final String segmentoId; // id de um Segment do compliance.json, ex: "industria"
+  final String
+  porte; // ex: "até 10", "11 a 50", "51 a 100", "101 a 500", ">500"
+  final String
+  segmentoId; // id de um Segment do compliance.json, ex: "industria"
   final List<String> riskFactors; // ids de fatores de risco identificados
 
   CompanyProfile({
@@ -35,7 +37,8 @@ class CompanyProfile {
         id: map['id'] as String? ?? 'default',
         porte: map['porte'] as String? ?? '',
         segmentoId: map['segmento_id'] as String? ?? '',
-        riskFactors: (map['risk_factors'] as List<dynamic>?)
+        riskFactors:
+            (map['risk_factors'] as List<dynamic>?)
                 ?.map((e) => e as String)
                 .toList() ??
             [],

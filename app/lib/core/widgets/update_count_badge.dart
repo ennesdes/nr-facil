@@ -28,9 +28,7 @@ class UpdateCountBadge extends StatelessWidget {
         decoration: BoxDecoration(
           color: semantics.warningContainer,
           borderRadius: BorderRadius.circular(AppRadius.full),
-          border: Border.all(
-            color: semantics.warning.withValues(alpha: 0.35),
-          ),
+          border: Border.all(color: semantics.warning.withValues(alpha: 0.35)),
         ),
         constraints: BoxConstraints(minWidth: minSize, minHeight: minSize),
         child: Text(

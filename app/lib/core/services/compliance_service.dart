@@ -32,10 +32,7 @@ class RiskFactor {
   }
 
   Map<String, dynamic> toMap() {
-    return {
-      'id': id,
-      'label': label,
-    };
+    return {'id': id, 'label': label};
   }
 }
 
@@ -52,7 +49,8 @@ class Segment {
     return Segment(
       id: map['id'] as String? ?? '',
       label: map['label'] as String? ?? '',
-      nrIdsBase: (map['nr_ids_base'] as List<dynamic>?)
+      nrIdsBase:
+          (map['nr_ids_base'] as List<dynamic>?)
               ?.map((e) => e as String)
               .toList() ??
           [],
@@ -60,11 +58,7 @@ class Segment {
   }
 
   Map<String, dynamic> toMap() {
-    return {
-      'id': id,
-      'label': label,
-      'nr_ids_base': nrIdsBase,
-    };
+    return {'id': id, 'label': label, 'nr_ids_base': nrIdsBase};
   }
 }
 
@@ -89,22 +83,31 @@ class ComplianceDataset {
       return ComplianceDataset(
         atualizado_em: map['atualizado_em'] as String? ?? 'desconhecida',
         aviso: map['aviso'] as String? ?? '',
-        riskFactors: (map['risk_factors'] as List<dynamic>?)
-                ?.map((e) => RiskFactor.fromMap(
-                      e is Map<String, dynamic> ? e : <String, dynamic>{},
-                    ))
+        riskFactors:
+            (map['risk_factors'] as List<dynamic>?)
+                ?.map(
+                  (e) => RiskFactor.fromMap(
+                    e is Map<String, dynamic> ? e : <String, dynamic>{},
+                  ),
+                )
                 .toList() ??
             [],
-        segments: (map['segments'] as List<dynamic>?)
-                ?.map((e) => Segment.fromMap(
-                      e is Map<String, dynamic> ? e : <String, dynamic>{},
-                    ))
+        segments:
+            (map['segments'] as List<dynamic>?)
+                ?.map(
+                  (e) => Segment.fromMap(
+                    e is Map<String, dynamic> ? e : <String, dynamic>{},
+                  ),
+                )
                 .toList() ??
             [],
-        items: (map['items'] as List<dynamic>?)
-                ?.map((e) => ComplianceItem.fromMap(
-                      e is Map<String, dynamic> ? e : <String, dynamic>{},
-                    ))
+        items:
+            (map['items'] as List<dynamic>?)
+                ?.map(
+                  (e) => ComplianceItem.fromMap(
+                    e is Map<String, dynamic> ? e : <String, dynamic>{},
+                  ),
+                )
                 .toList() ??
             [],
       );
@@ -151,8 +154,9 @@ class ComplianceService extends GetxService {
   /// Carregar compliance.json do bundle.
   Future<void> _loadDataset() async {
     try {
-      final jsonString =
-          await rootBundle.loadString('assets/compliance/compliance.json');
+      final jsonString = await rootBundle.loadString(
+        'assets/compliance/compliance.json',
+      );
       final json = jsonDecode(jsonString) as Map<String, dynamic>;
       dataset = ComplianceDataset.fromMap(json);
       isLoaded.value = true;
@@ -214,8 +218,9 @@ class ComplianceService extends GetxService {
     final applicableItems = <ComplianceItem>[];
     for (final item in dataset.items) {
       final matchesSegment = segmentNrIds.contains(item.nrId);
-      final matchesRiskFactor =
-          item.riskFactors.any((factor) => riskFactorSet.contains(factor));
+      final matchesRiskFactor = item.riskFactors.any(
+        (factor) => riskFactorSet.contains(factor),
+      );
       if (matchesSegment || matchesRiskFactor) {
         final key = '${item.nrId}::${item.itemNumber}';
         if (seenKeys.add(key)) {

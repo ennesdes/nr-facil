@@ -55,9 +55,7 @@ class FakeStorageService extends StorageService {
 /// Fake ComplianceService com dataset pré-configurado para testes.
 class FakeComplianceService extends ComplianceService {
   /// Criar fake com dados pré-carregados
-  FakeComplianceService({
-    required this.mockDataset,
-  });
+  FakeComplianceService({required this.mockDataset});
 
   late final ComplianceDataset mockDataset;
 

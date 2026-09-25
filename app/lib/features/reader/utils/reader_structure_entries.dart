@@ -33,10 +33,7 @@ List<ReaderStructureEntry> flattenReaderStructure(NrStructure structure) {
   for (var i = 0; i < structure.sections.length; i++) {
     final section = structure.sections[i];
     entries.add(
-      ReaderSectionHeaderEntry(
-        section: section,
-        showTopDivider: i == 0,
-      ),
+      ReaderSectionHeaderEntry(section: section, showTopDivider: i == 0),
     );
     for (var j = 0; j < section.blocks.length; j++) {
       entries.add(

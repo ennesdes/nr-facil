@@ -141,8 +141,7 @@ class HomeController extends GetxController {
   /// Se não há perfil salvo, navega para tela de perfil.
   void _handleChecklistTabSelection() {
     final storageService = Get.find<StorageService>();
-    final hasProfile =
-        storageService.read(StorageKeys.companyProfile) != null;
+    final hasProfile = storageService.read(StorageKeys.companyProfile) != null;
 
     if (!hasProfile) {
       // Navegar para tela de perfil
