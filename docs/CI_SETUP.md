@@ -3,11 +3,13 @@
 O workflow roda em **uma VM** (job único), com etapas numeradas no log:
 
 1. **Validar secrets** — Play Console + keystore + AdMob (8 secrets)
-2. **Format · Fix** — `dart fix` + `dart format` (commit automático se mudar algo)
-3. **Analyze + Testes** — `flutter analyze` e `flutter test` **em paralelo** na mesma VM
-4. **Assinar · Build AAB** — version bump local, keystore, AdMob via secrets, build release
-5. **Publicar Play Store** — upload na faixa `production`
-6. **Version bump** — commita `app/pubspec.yaml` após publish ok
+2. **Flutter + deps** — setup uma vez na VM
+3. **Format · Fix** — `dart fix` + `dart format` (commit automático se mudar algo)
+4. **Analyze + Testes** — `flutter analyze` e `flutter test` **em paralelo** na mesma VM
+5. **Validar manifest** — `validate_manifest.py` (se `manifest.json` existir no repo)
+6. **Assinar · Build AAB** — version bump local, keystore, AdMob via secrets, build release
+7. **Publicar Play Store** — upload na faixa `production`
+8. **Version bump** — commita `app/pubspec.yaml` após publish ok
 
 **Performance:** checkout, setup Flutter e `pub get` rodam **uma vez** no início (via [`.github/actions/flutter-setup`](../.github/actions/flutter-setup/action.yml)). O build usa `--no-pub` porque as deps já estão resolvidas na mesma VM. Símbolos Dart sobem como artefato opcional (`app-release-symbols`, 90 dias).
 

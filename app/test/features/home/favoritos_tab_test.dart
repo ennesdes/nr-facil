@@ -61,10 +61,17 @@ void main() {
     });
 
     tearDown(() async {
+      contentService.cancelBulkSync();
       contentService.onClose();
       Get.reset();
-      if (workDir.existsSync()) {
-        await workDir.delete(recursive: true);
+      for (var attempt = 0; attempt < 3; attempt++) {
+        if (!workDir.existsSync()) break;
+        try {
+          await workDir.delete(recursive: true);
+          break;
+        } on FileSystemException {
+          await Future<void>.delayed(const Duration(milliseconds: 50));
+        }
       }
     });
 

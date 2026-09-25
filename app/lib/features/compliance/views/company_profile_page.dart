@@ -13,6 +13,7 @@ import 'package:get/get.dart';
 
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/widgets/app_safe_area.dart';
+import '../../../core/widgets/app_scroll_bottom_inset.dart';
 import '../compliance_copy.dart';
 import '../controllers/company_profile_controller.dart';
 import 'widgets/risk_factor_form.dart';
@@ -42,10 +43,11 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
                 const SizedBox(height: AppSpacing.lg),
                 const RiskFactorForm(),
                 const SizedBox(height: AppSpacing.lg),
-                _buildErrorMessage(),
+                _buildErrorMessage(context),
                 const SizedBox(height: AppSpacing.lg),
                 _buildSaveButton(),
                 _buildClearButton(context),
+                const AppScrollBottomInset(),
               ],
             ),
           ),
@@ -198,23 +200,32 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
     );
   }
 
-  Widget _buildErrorMessage() {
+  Widget _buildErrorMessage(BuildContext context) {
+    final theme = Theme.of(context);
     return Obx(
-      () => controller.saveError.value != null
-          ? Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(AppSpacing.md),
-              decoration: BoxDecoration(
-                color: Colors.red[50],
-                border: Border.all(color: Colors.red[300]!),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Text(
-                controller.saveError.value!,
-                style: TextStyle(color: Colors.red[700]),
-              ),
-            )
-          : const SizedBox.shrink(),
+      () {
+        final message = controller.saveError.value;
+        if (message == null) return const SizedBox.shrink();
+
+        final colorScheme = theme.colorScheme;
+        return Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(AppSpacing.md),
+          decoration: BoxDecoration(
+            color: colorScheme.errorContainer,
+            border: Border.all(
+              color: colorScheme.error.withValues(alpha: 0.45),
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Text(
+            message,
+            style: theme.textTheme.bodyMedium?.copyWith(
+                  color: colorScheme.onErrorContainer,
+                ),
+          ),
+        );
+      },
     );
   }
 
@@ -222,7 +233,7 @@ class CompanyProfilePage extends GetView<CompanyProfileController> {
     return SizedBox(
       width: double.infinity,
       child: Obx(
-        () => ElevatedButton(
+        () => FilledButton(
           onPressed:
               controller.isSaving.value ? null : controller.saveProfile,
           child: controller.isSaving.value

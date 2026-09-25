@@ -394,14 +394,15 @@ bash scripts/maestro_run.sh --flow .maestro/flows/ci/04_atualizacoes.yaml
 | `03_gestao.yaml` | Settings (tema, links legais), Atualizações vazia, ads |
 | `04_atualizacoes.yaml` | Sino, badge, verificar atualizações, card, bottom sheet, leitor |
 
-**CI:** workflow `.github/workflows/maestro-e2e.yml` — `plan` → `build` (APK `main_e2e` x86_64) → `avd-prepare` → `smoke` (matrix, 1 flow/job) → `summary`. O job `smoke` não tem Flutter — usa o APK do artifact (`MAESTRO_SKIP_BUILD=1`).
+**CI:** workflow `.github/workflows/maestro-e2e.yml` — disparo manual (`workflow_dispatch`): `build` (APK `main_e2e` x86_64) → `smoke` (flows sequenciais, 1 emulador) → `summary`. O job `smoke` usa o APK do artifact (`MAESTRO_SKIP_BUILD=1`).
 
 | Script | Uso |
 |--------|-----|
 | `maestro_dev.sh` | Bootstrap local: emulador + build + smoke |
 | `maestro_run.sh` | Smoke ou `--flow` (build local; pula build se `MAESTRO_SKIP_BUILD=1`) |
 | `maestro_ci.sh` | Simula CI local (build x86_64 + smoke) |
-| `maestro_ci_emulator_job.sh` | Entrypoint GHA dentro do `android-emulator-runner` |
+| `maestro_ci_emulator_smoke.sh` | Entrypoint GHA — todos os flows em sequência (1 emulador) |
+| `maestro_ci_emulator_job.sh` | Legado: um flow por invocação (uso local/debug) |
 
 ---
 

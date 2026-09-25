@@ -56,6 +56,8 @@ class ChecklistController extends GetxController {
       isLoading.value = true;
       loadError.value = null;
 
+      await complianceService.ensureReady();
+
       // 1. Carregar perfil salvo
       final profileData = storageService.read(StorageKeys.companyProfile);
       if (profileData == null) {

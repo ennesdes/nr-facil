@@ -74,11 +74,12 @@ Toda mudança que toca o feed de atualizações deve confirmar:
 
 ---
 
-## GitHub Actions — checklist ao tocar `update-nrs.yml`/`ci.yml`
+## GitHub Actions — checklist ao tocar workflows
 
+- Sem CI em `push`/`PR` — gate local: `scripts/check.sh`; `deploy-play.yml` repete analyze + test + `validate_manifest.py` no deploy manual
 - Isolamento de erro por NR preservado (loop 2–4 do fluxo em `docs/architecture.md`) — falha numa NR não derruba o processamento das demais
 - Job falha (código de saída ≠ 0) se `errors[]` não vazio ao final — para notificação padrão do GitHub por e-mail
-- `ci.yml` roda `flutter analyze --fatal-infos` + `flutter test` + `validate_manifest.py` — mesmo escopo de `scripts/check.sh`
+- `maestro-e2e.yml` só `workflow_dispatch` — flows sequenciais (1 emulador), como `treino_base`
 - `permissions: contents: write` necessário para o commit automático da Action
 
 ---

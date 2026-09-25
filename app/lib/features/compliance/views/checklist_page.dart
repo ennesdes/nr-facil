@@ -1,9 +1,7 @@
 /// Tela do checklist consolidado.
 ///
-/// Mostra:
-/// - Disclaimer de data de atualização
-/// - Barra de progresso
-/// - Itens aplicáveis agrupados por NR
+/// Mostra barra de progresso e itens aplicáveis agrupados por NR.
+/// Escopo e avisos legais ficam no sheet [ComplianceInfoSheet] (ícone na AppBar).
 /// Anúncio: apenas o banner global da [HomePage] (acima da bottom nav).
 library;
 
@@ -11,15 +9,16 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../core/theme/app_spacing.dart';
+import '../../../core/widgets/app_linear_progress.dart';
 import '../../../core/widgets/app_safe_area.dart';
+import '../../../core/widgets/app_scroll_bottom_inset.dart';
 import '../../../core/widgets/empty_state.dart';
 import '../controllers/checklist_controller.dart';
 import '../controllers/company_profile_controller.dart';
 import 'company_profile_page.dart';
 import '../compliance_copy.dart';
 import 'widgets/checklist_item_card.dart';
-import 'widgets/compliance_coverage_notice.dart';
-import 'widgets/compliance_disclaimer_banner.dart';
+import 'widgets/compliance_info_sheet.dart';
 
 class ChecklistPage extends GetView<ChecklistController> {
   const ChecklistPage({super.key});
@@ -27,6 +26,12 @@ class ChecklistPage extends GetView<ChecklistController> {
   /// Ações exibidas na AppBar da [HomePage] quando a aba Checklist está ativa.
   static List<Widget> homeAppBarActions(BuildContext context) {
     return [
+      IconButton(
+        key: const ValueKey('compliance_info_button'),
+        icon: const Icon(Icons.info_outline),
+        tooltip: 'Sobre esta lista',
+        onPressed: () => ComplianceInfoSheet.show(context),
+      ),
       IconButton(
         icon: const Icon(Icons.edit_outlined),
         tooltip: 'Editar perfil',
@@ -40,8 +45,19 @@ class ChecklistPage extends GetView<ChecklistController> {
     ];
   }
 
+  static void _ensureControllerRegistered() {
+    if (Get.isRegistered<ChecklistController>()) return;
+    Get.put(
+      ChecklistController(
+        storageService: Get.find(),
+        complianceService: Get.find(),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    _ensureControllerRegistered();
     return Obx(
         () {
           if (controller.isLoading.value) {
@@ -63,9 +79,14 @@ class ChecklistPage extends GetView<ChecklistController> {
                     : controller.loadError.value ?? 'Erro desconhecido',
                 actions: [
                   if (missing)
-                    ElevatedButton(
+                    FilledButton(
                       onPressed: () => editProfile(context),
                       child: const Text('Configurar minha empresa'),
+                    )
+                  else
+                    FilledButton(
+                      onPressed: () => controller.reload(),
+                      child: const Text('Tentar novamente'),
                     ),
                 ],
               ),
@@ -79,7 +100,7 @@ class ChecklistPage extends GetView<ChecklistController> {
                 title: ComplianceCopy.emptyItemsTitle,
                 body: ComplianceCopy.emptyItemsBody,
                 actions: [
-                  ElevatedButton(
+                  FilledButton(
                     onPressed: () => editProfile(context),
                     child: const Text('Editar perfil'),
                   ),
@@ -88,46 +109,34 @@ class ChecklistPage extends GetView<ChecklistController> {
             );
           }
 
-          return Column(
-            children: [
-              const ComplianceDisclaimerBanner(),
-              Expanded(
-                child: AppScaffoldBody(
-                  child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const SizedBox(height: AppSpacing.md),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: AppSpacing.md,
+          return AppScaffoldBody(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: AppSpacing.md),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: AppSpacing.md,
+                    ),
+                    child: Text(
+                      ComplianceCopy.screenSubtitle,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color: Theme.of(context)
+                                .colorScheme
+                                .onSurfaceVariant,
+                            height: 1.4,
                           ),
-                          child: Text(
-                            ComplianceCopy.screenSubtitle,
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodySmall
-                                ?.copyWith(
-                                  color: Theme.of(context)
-                                      .colorScheme
-                                      .onSurfaceVariant,
-                                  height: 1.4,
-                                ),
-                          ),
-                        ),
-                        const SizedBox(height: AppSpacing.md),
-                        const ComplianceCoverageNotice(),
-                        const SizedBox(height: AppSpacing.md),
-                        _buildProgressSection(context),
-                        const SizedBox(height: AppSpacing.lg),
-                        _buildItemsList(context),
-                        const SizedBox(height: AppSpacing.lg),
-                      ],
                     ),
                   ),
-                ),
+                  const SizedBox(height: AppSpacing.md),
+                  _buildProgressSection(context),
+                        const SizedBox(height: AppSpacing.lg),
+                        _buildItemsList(context),
+                  const AppScrollBottomInset(),
+                ],
               ),
-            ],
+            ),
           );
         },
       );
@@ -158,11 +167,11 @@ class ChecklistPage extends GetView<ChecklistController> {
           ),
           const SizedBox(height: AppSpacing.sm),
           Obx(
-            () => LinearProgressIndicator(
-              value: controller.completionPercentage / 100,
-              minHeight: 8,
-              borderRadius: BorderRadius.circular(4),
-            ),
+            () {
+              final fraction =
+                  (controller.completionPercentage / 100).clamp(0.0, 1.0);
+              return AppLinearProgress(value: fraction);
+            },
           ),
           const SizedBox(height: AppSpacing.sm),
           Obx(
@@ -172,14 +181,6 @@ class ChecklistPage extends GetView<ChecklistController> {
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
-          ),
-          const SizedBox(height: AppSpacing.xs),
-          Text(
-            ComplianceCopy.progressHint,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  height: 1.35,
-                ),
           ),
         ],
       ),
@@ -216,18 +217,22 @@ class ChecklistPage extends GetView<ChecklistController> {
         final items = controller.itemsByNr[nrId] ?? [];
         if (items.isEmpty) return const SizedBox.shrink();
 
+        final colorScheme = Theme.of(context).colorScheme;
+
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Cabeçalho da NR com contador
             Container(
               padding: const EdgeInsets.symmetric(
                 horizontal: AppSpacing.md,
                 vertical: AppSpacing.sm,
               ),
               decoration: BoxDecoration(
-                color: Colors.grey[100],
+                color: colorScheme.surfaceContainerLow,
                 borderRadius: BorderRadius.circular(8),
+                border: Border.all(
+                  color: colorScheme.outline.withValues(alpha: 0.35),
+                ),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -239,7 +244,7 @@ class ChecklistPage extends GetView<ChecklistController> {
                   Text(
                     '${items.where((i) => controller.isItemChecked(i)).length}/${items.length}',
                     style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                          color: Colors.grey[600],
+                          color: colorScheme.onSurfaceVariant,
                         ),
                   ),
                 ],

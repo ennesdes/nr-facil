@@ -151,7 +151,7 @@ run_maestro_test() {
       --argjson duration "$duration" \
       --arg error "$error" \
       '{flow: $flow, desc: $desc, status: $status, passed: $passed, duration: $duration, error: $error}' \
-      > "$results_dir/status.json"
+      > "$results_dir/status-${name}.json"
   fi
   return $exit_code
 }

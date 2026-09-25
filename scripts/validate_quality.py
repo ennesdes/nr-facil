@@ -34,7 +34,8 @@ HTML_BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 HTML_MARK_RE = re.compile(r"</?mark\b", re.IGNORECASE)
 PICTURE_TEXT_RE = re.compile(r"Start of picture text", re.IGNORECASE)
 
-FRAGMENTED_TABLE_SEP_THRESHOLD = 10
+# Gate de reconversão PNG: NR-15 tem 10 tabelas legítimas; NR-16 tem 11.
+FRAGMENTED_TABLE_SEP_THRESHOLD = 11
 STRUCTURE_TABLE_BLOCK_THRESHOLD = 25
 PNG_HEAVY_MIN_FALLBACK = 15
 

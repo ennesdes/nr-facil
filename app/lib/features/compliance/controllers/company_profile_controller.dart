@@ -77,6 +77,7 @@ class CompanyProfileController extends GetxController {
   @override
   Future<void> onInit() async {
     super.onInit();
+    await complianceService.ensureReady();
     await _loadProfile();
     _loadRiskFactors();
     _loadSegments();

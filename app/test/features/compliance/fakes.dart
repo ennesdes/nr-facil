@@ -62,13 +62,16 @@ class FakeComplianceService extends ComplianceService {
   late final ComplianceDataset mockDataset;
 
   @override
-  // ignore: must_call_super
-  Future<void> onInit() async {
-    // Intencionalmente NÃO chama super.onInit(): o pai carregaria o asset
-    // real via rootBundle de forma assíncrona e sobrescreveria `dataset`
-    // depois desta atribuição (race condition). Este fake usa só o mock.
+  Future<void> ensureReady() async {
+    // Não delegar ao pai — evita carregar compliance.json do bundle nos testes.
     dataset = mockDataset;
     isLoaded.value = true;
     loadError.value = null;
+  }
+
+  @override
+  // ignore: must_call_super
+  Future<void> onInit() async {
+    await ensureReady();
   }
 }

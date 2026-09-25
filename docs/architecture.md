@@ -270,12 +270,15 @@ Lançamento (Fase 5) sai apenas com a coluna grátis + ads. A coluna premium (IA
 
 **Isolamento de erro por NR:** o loop dos passos 2–4 processa NR por NR. Se uma etapa falhar para uma NR específica (scraping fora do padrão, PDF corrompido, etc.), o script captura o erro, **não atualiza aquela NR** (mantém a versão anterior em `content/`), registra a NR e o motivo em `errors[]`, e segue para a próxima NR. Ao final, se `errors[]` não estiver vazio, o script sai com código de erro — isso falha o job da Action (notificação padrão do GitHub por e-mail, job vermelho), mas o commit já inclui todas as NRs que processaram com sucesso. O log do job mostra exatamente qual(is) NR(s) falharam.
 
-### `ci.yml`
+### CI no GitHub Actions
 
-Dois jobs **em paralelo**:
+Não há workflow em `push`/`pull_request` na `main` — validação local: `./scripts/check.sh`.
 
-- **flutter** — `flutter analyze` ∥ `flutter test --concurrency=$(nproc)` (mesma VM)
-- **manifest** — `validate_manifest.py` (não depende de Flutter)
+| Workflow | Disparo | O que faz |
+|----------|---------|-----------|
+| `deploy-play.yml` | `workflow_dispatch` | format/fix, analyze + test, `validate_manifest.py`, build AAB, Play Store, version bump |
+| `maestro-e2e.yml` | `workflow_dispatch` | build APK `main_e2e` + smoke Maestro (flows sequenciais, 1 emulador) |
+| `update-nrs.yml` | cron dias úteis 09:00 UTC + `workflow_dispatch` | pipeline de conteúdo (sem Flutter) |
 
 ## Escopo MVP
 

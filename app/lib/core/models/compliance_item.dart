@@ -72,23 +72,45 @@ class ComplianceItem {
     };
   }
 
-  /// Label de gradação para exibição (ex: "I4 - Gravíssima")
-  String? get gradacaoLabel {
+  /// Palavra de gravidade (sem código I1–I4).
+  String? get gradacaoSeverityWord {
     if (gradacao == null) return null;
     return switch (gradacao) {
-      'I1' => 'I1 - Leve',
-      'I2' => 'I2 - Média',
-      'I3' => 'I3 - Grave',
-      'I4' => 'I4 - Gravíssima',
-      _ => gradacao,
+      'I1' => 'Leve',
+      'I2' => 'Média',
+      'I3' => 'Grave',
+      'I4' => 'Gravíssima',
+      _ => null,
     };
+  }
+
+  /// Label de gradação para exibição (ex: "Gravíssima (I4)").
+  String? get gradacaoLabel {
+    if (gradacao == null) return null;
+    final word = gradacaoSeverityWord;
+    if (word != null) return '$word ($gradacao)';
+    return gradacao;
+  }
+
+  /// Leitura acessível do código (diferencia I de L).
+  String? get gradacaoCodeSemanticsLabel {
+    if (gradacao == null || gradacao!.length < 2) return null;
+    final digit = gradacao!.substring(1);
+    final digitWord = switch (digit) {
+      '1' => 'um',
+      '2' => 'dois',
+      '3' => 'três',
+      '4' => 'quatro',
+      _ => digit,
+    };
+    return 'Gradação I $digitWord';
   }
 
   /// Texto para compartilhar (ex.: WhatsApp com cliente).
   String toShareText() {
     final lines = <String>[
       '${nrId.toUpperCase()} — $titulo',
-      if (infracao && gradacaoLabel != null) 'Infração: ${gradacaoLabel!}',
+      if (infracao && gradacaoLabel != null) 'Gravidade: ${gradacaoLabel!}',
       if (codigoInfracao != null && codigoInfracao!.isNotEmpty)
         'Código NR-28: $codigoInfracao',
       explicacao,
@@ -98,7 +120,17 @@ class ComplianceItem {
     return lines.join('\n');
   }
 
-  /// Label de tipo para exibição
+  /// Sigla do tipo (NR-28) para chips compactos.
+  String? get tipoShortLabel {
+    if (tipo == null) return null;
+    return switch (tipo) {
+      'S' => 'SST',
+      'M' => 'SMO',
+      _ => tipo,
+    };
+  }
+
+  /// Label de tipo para exibição (tooltips e textos longos).
   String? get tipoLabel {
     if (tipo == null) return null;
     return switch (tipo) {

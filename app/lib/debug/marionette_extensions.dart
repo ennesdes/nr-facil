@@ -1,8 +1,13 @@
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:marionette_flutter/marionette_flutter.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
+import 'package:nrfacil/core/controllers/theme_controller.dart';
+import 'package:nrfacil/features/compliance/controllers/company_profile_controller.dart';
+import 'package:nrfacil/features/compliance/views/company_profile_page.dart';
+import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/home_page.dart';
 import 'package:nrfacil/features/reader/views/nr_reader_page.dart';
 import 'package:nrfacil/features/search/views/search_page.dart';
@@ -13,11 +18,18 @@ const _storagePresetValues = ['fresh', 'withFavorite'];
 
 const _navigateScreenValues = [
   'home',
+  'home_tab_normas',
+  'home_tab_favoritos',
+  'home_tab_buscar',
+  'home_tab_checklist',
+  'company_profile',
   'reader_nr25',
   'search',
   'settings',
   'updates',
 ];
+
+const _themeModeValues = ['light', 'dark', 'system'];
 
 /// Presets de storage para Marionette (checkpoints).
 ///
@@ -84,6 +96,44 @@ Future<Map<String, dynamic>> _applyStoragePreset(
   return {'error': 'Unknown preset'};
 }
 
+void _navigateToScreen(String screen) {
+  switch (screen) {
+    case 'home':
+      Get.offAll(() => const HomePage());
+    case 'home_tab_normas':
+      Get.offAll(() => const HomePage());
+      Get.find<HomeController>().selectedTab.value = HomeController.tabNormas;
+    case 'home_tab_favoritos':
+      Get.offAll(() => const HomePage());
+      Get.find<HomeController>().selectedTab.value = HomeController.tabFavoritos;
+    case 'home_tab_buscar':
+      Get.offAll(() => const HomePage());
+      Get.find<HomeController>().selectedTab.value = HomeController.tabBuscar;
+    case 'home_tab_checklist':
+      Get.offAll(() => const HomePage());
+      Get.find<HomeController>().selectedTab.value = HomeController.tabChecklist;
+    case 'company_profile':
+      Get.offAll(() => const HomePage());
+      CompanyProfileController.ensureRegistered();
+      Get.to(() => const CompanyProfilePage());
+    case 'reader_nr25':
+      Get.offAll(() => const NRReaderPage(nrId: 'nr-25'));
+    case 'search':
+      Get.offAll(() => const SearchPage());
+    case 'settings':
+      Get.offAll(() => const SettingsPage());
+    case 'updates':
+      Get.offAll(() => const UpdatesPage());
+  }
+}
+
+ThemeMode _themeModeFromName(String name) {
+  return ThemeMode.values.firstWhere(
+    (m) => m.name == name,
+    orElse: () => ThemeMode.system,
+  );
+}
+
 /// Registra extensions Marionette de debug — chamar só em [kDebugMode].
 void registerMarionetteDebugExtensions() {
   assert(kDebugMode);
@@ -129,7 +179,8 @@ void registerMarionetteDebugExtensions() {
     inputSchema: const ExtensionInputSchema(
       properties: {
         'screen': ExtensionParam.string(
-          description: 'Tela para navegar (home | reader_nr25 | search | settings | updates).',
+          description:
+              'Tela: home, home_tab_*, company_profile, reader_nr25, search, settings, updates.',
           enumValues: _navigateScreenValues,
         ),
         'preset': ExtensionParam.string(
@@ -164,24 +215,8 @@ void registerMarionetteDebugExtensions() {
         storageResult = await _applyStoragePreset(preset, GetStorage());
       }
 
-      // Navegar
       try {
-        switch (screen) {
-          case 'home':
-            Get.offAll(() => const HomePage());
-          case 'reader_nr25':
-            Get.offAll(() => const NRReaderPage(nrId: 'nr-25'));
-          case 'search':
-            Get.offAll(() => const SearchPage());
-          case 'settings':
-            Get.offAll(() => const SettingsPage());
-          case 'updates':
-            Get.offAll(() => const UpdatesPage());
-          default:
-            return MarionetteExtensionResult.invalidParams(
-              'Unknown screen: $screen',
-            );
-        }
+        _navigateToScreen(screen);
 
         final response = <String, dynamic>{'screen': screen};
         if (storageResult case final result?) {
@@ -190,6 +225,40 @@ void registerMarionetteDebugExtensions() {
         return MarionetteExtensionResult.success(response);
       } catch (e) {
         return MarionetteExtensionResult.error(0, 'Navigation failed: $e');
+      }
+    },
+  );
+
+  registerMarionetteExtension(
+    name: 'debug.setTheme',
+    description:
+        'Define tema global (light | dark | system). Efeito imediato via ThemeController.',
+    inputSchema: const ExtensionInputSchema(
+      properties: {
+        'mode': ExtensionParam.string(
+          description: 'Modo de tema.',
+          enumValues: _themeModeValues,
+        ),
+      },
+      required: ['mode'],
+    ),
+    callback: (params) async {
+      final modeName = params['mode'];
+      if (modeName == null || modeName.isEmpty) {
+        return const MarionetteExtensionResult.invalidParams('Missing mode');
+      }
+      if (!_themeModeValues.contains(modeName)) {
+        return MarionetteExtensionResult.invalidParams(
+          'Invalid mode: $modeName',
+        );
+      }
+
+      try {
+        final controller = Get.find<ThemeController>();
+        controller.setThemeMode(_themeModeFromName(modeName));
+        return MarionetteExtensionResult.success({'mode': modeName});
+      } catch (e) {
+        return MarionetteExtensionResult.error(0, 'setTheme failed: $e');
       }
     },
   );

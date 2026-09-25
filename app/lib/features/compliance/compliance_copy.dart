@@ -19,9 +19,19 @@ class ComplianceCopy {
 
   static const itemsSectionTitle = 'Itens de atenção (possível autuação)';
 
-  static const nr28BaseLine = 'Base: Anexo II da NR-28';
+  static const nr28CodePrefix = 'NR-28 Anexo II';
 
-  static const coverageTitle = 'O que esta lista não cobre';
+  static const infoSheetTitle = 'Sobre esta lista';
+
+  static String infoSheetScope(String updatedAt) =>
+      'Itens alinhados ao Anexo II da NR-28 (possível autuação). '
+      'Regras atualizadas em $updatedAt.';
+
+  static const infoSheetDisclaimer =
+      'Lista curada para orientar sua verificação interna. '
+      'Não substitui especialista de SST nem o texto oficial das normas.';
+
+  static const coverageTitle = 'O que não está incluído';
   static const coverageBullets = [
     'Apenas parte das NRs vigentes (~13 normas, itens centrais de cada uma).',
     'Conteúdo curado com apoio de IA — revisão por profissional de SST em andamento.',

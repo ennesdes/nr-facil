@@ -135,10 +135,17 @@ class ComplianceService extends GetxService {
   /// Mensagem de erro ao carregar (se houver)
   final loadError = RxnString();
 
+  Future<void>? _ensureReadyFuture;
+
+  /// Garante [dataset] carregado antes de consultas (evita corrida no boot).
+  Future<void> ensureReady() {
+    return _ensureReadyFuture ??= _loadDataset();
+  }
+
   @override
   Future<void> onInit() async {
     super.onInit();
-    await _loadDataset();
+    await ensureReady();
   }
 
   /// Carregar compliance.json do bundle.

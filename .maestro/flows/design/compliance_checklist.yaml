@@ -27,7 +27,7 @@ appId: br.com.solvebetter.nrfacil
 - takeScreenshot: design-checklist-01b-perfil-preenchido
 - tapOn: "Salvar Perfil"
 - extendedWaitUntil:
-    visible: "Aviso importante"
+    visible: "Seu progresso"
     timeout: 10000
 - takeScreenshot: design-checklist-02-overview
 
@@ -46,7 +46,7 @@ appId: br.com.solvebetter.nrfacil
     element: "Salvar Perfil"
 - tapOn: "Salvar Perfil"
 - extendedWaitUntil:
-    visible: "Aviso importante"
+    visible: "Seu progresso"
     timeout: 10000
 - scrollUntilVisible:
     element: "NR-12"

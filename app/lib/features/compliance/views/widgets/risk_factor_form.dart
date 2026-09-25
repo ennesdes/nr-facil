@@ -16,63 +16,68 @@ class RiskFactorForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<CompanyProfileController>();
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
 
     return Obx(
       () {
         final factors = controller.availableRiskFactors;
 
         if (factors.isEmpty) {
-          return const Padding(
-            padding: EdgeInsets.all(AppSpacing.md),
-            child: Text(
-              'Nenhum fator de risco disponível',
-              style: TextStyle(color: Colors.grey),
+          return Text(
+            'Nenhum fator de risco disponível',
+            style: theme.textTheme.bodyMedium?.copyWith(
+              color: colorScheme.onSurfaceVariant,
             ),
           );
         }
 
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-              child: Text(
-                'Fatores de risco da sua empresa',
-                style: Theme.of(context).textTheme.titleMedium,
-              ),
-            ),
-            const SizedBox(height: AppSpacing.sm),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
-              child: Text(
-                'Selecione os que se aplicam à sua realidade',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Colors.grey[600],
-                    ),
-              ),
-            ),
-            const SizedBox(height: AppSpacing.md),
-            ...factors.map((factor) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: AppSpacing.md,
-                  vertical: AppSpacing.xs,
-                ),
-                child: Obx(
-                  () => CheckboxListTile(
-                    dense: true,
-                    contentPadding: EdgeInsets.zero,
-                    title: Text(
-                      factor.label,
-                      style: Theme.of(context).textTheme.bodyMedium,
-                    ),
-                    value: controller.isRiskFactorSelected(factor.id),
-                    onChanged: (_) => controller.toggleRiskFactor(factor.id),
+        return Card(
+          margin: EdgeInsets.zero,
+          child: Padding(
+            padding: const EdgeInsets.all(AppSpacing.md),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Fatores de risco da sua empresa',
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: colorScheme.onSurface,
                   ),
                 ),
-              );
-            }),
-          ],
+                const SizedBox(height: AppSpacing.xs),
+                Text(
+                  'Selecione os que se aplicam à sua realidade',
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                    height: 1.4,
+                  ),
+                ),
+                const SizedBox(height: AppSpacing.md),
+                for (var i = 0; i < factors.length; i++) ...[
+                  if (i > 0)
+                    Divider(
+                      height: 1,
+                      color: colorScheme.outline.withValues(alpha: 0.35),
+                    ),
+                  Obx(
+                    () => CheckboxListTile(
+                      dense: true,
+                      contentPadding: EdgeInsets.zero,
+                      controlAffinity: ListTileControlAffinity.leading,
+                      title: Text(
+                        factors[i].label,
+                        style: theme.textTheme.bodyMedium,
+                      ),
+                      value: controller.isRiskFactorSelected(factors[i].id),
+                      onChanged: (_) =>
+                          controller.toggleRiskFactor(factors[i].id),
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ),
         );
       },
     );

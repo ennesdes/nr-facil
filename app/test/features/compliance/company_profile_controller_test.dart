@@ -18,9 +18,9 @@ void main() {
     late FakeComplianceService fakeComplianceService;
     late CompanyProfileController controller;
 
-    setUp(() {
+    setUp(() async {
       fakeStorageService = FakeStorageService();
-      fakeStorageService.onInit();
+      await fakeStorageService.onInit();
 
       final mockDataset = ComplianceDataset(
         atualizado_em: '21/09/2026',
@@ -43,13 +43,13 @@ void main() {
       fakeComplianceService = FakeComplianceService(
         mockDataset: mockDataset,
       );
-      fakeComplianceService.onInit();
+      await fakeComplianceService.onInit();
 
       controller = CompanyProfileController(
         storageService: fakeStorageService,
         complianceService: fakeComplianceService,
       );
-      controller.onInit();
+      await controller.onInit();
     });
 
     tearDown(() {

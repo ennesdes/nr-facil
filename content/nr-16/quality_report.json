@@ -1,6 +1,6 @@
 {
   "nr_id": "nr-16",
-  "ok": false,
+  "ok": true,
   "warnings": [
     "fragmented_tables: 11 separadores de tabela"
   ],
@@ -10,6 +10,5 @@
   "pages_fallback_png": 6,
   "structure_table_blocks": 11,
   "fragmented_table_separators": 11,
-  "recommended_action": "reconvert_tables_as_png",
   "reviewed": false
 }

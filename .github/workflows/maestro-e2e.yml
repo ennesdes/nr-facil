@@ -1,8 +1,6 @@
 name: Maestro smoke
 
 on:
-  pull_request:
-    branches: [main, master]
   workflow_dispatch:
 
 run-name: Maestro smoke · ${{ github.ref_name }}
@@ -16,24 +14,10 @@ env:
     -Dorg.gradle.daemon=false
     -Dorg.gradle.parallel=true
     -Dorg.gradle.caching=true
+  AVD_CACHE_KEY: avd-34-google_apis-x86_64-pixel_6-v2
+  MAESTRO_CACHE_KEY: maestro-cli-v1
 
 jobs:
-  plan:
-    name: Plano
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.discover.outputs.matrix }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Descobrir flows de CI
-        id: discover
-        run: |
-          cd .maestro/flows/ci
-          names=$(ls *.yaml | sed 's/\.yaml$//' | jq -R . | jq -sc .)
-          echo "matrix=$names" >> "$GITHUB_OUTPUT"
-
   build:
     name: Build APK debug (main_e2e)
     runs-on: ubuntu-latest
@@ -74,71 +58,11 @@ jobs:
           path: app/build/app/outputs/flutter-apk/app-debug.apk
           retention-days: 1
 
-  avd-prepare:
-    name: Preparar AVD + Maestro CLI (1x, reaproveitado pelo matrix)
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    outputs:
-      avd-cache-key: ${{ steps.key.outputs.avd }}
-      maestro-cache-key: ${{ steps.key.outputs.maestro }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Chaves de cache
-        id: key
-        run: |
-          echo "avd=avd-34-google_apis-x86_64-pixel_6-v2" >> "$GITHUB_OUTPUT"
-          echo "maestro=maestro-cli-v1" >> "$GITHUB_OUTPUT"
-
-      - name: Habilitar KVM
-        run: |
-          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-          sudo udevadm control --reload-rules
-          sudo udevadm trigger --name-match=kvm
-
-      - name: Cache do AVD
-        id: avd-cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.android/avd/*
-            ~/.android/adb*
-          key: ${{ steps.key.outputs.avd }}
-
-      - name: Criar AVD e gerar snapshot (cache miss)
-        if: steps.avd-cache.outputs.cache-hit != 'true'
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 34
-          target: google_apis
-          arch: x86_64
-          profile: pixel_6
-          force-avd-creation: false
-          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          disable-animations: false
-          script: echo "Snapshot do AVD gerado para cache."
-
-      - name: Cache do Maestro CLI
-        id: maestro-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.maestro
-          key: ${{ steps.key.outputs.maestro }}
-
-      - name: Instalar Maestro CLI (cache miss)
-        if: steps.maestro-cache.outputs.cache-hit != 'true'
-        run: curl -fsSL "https://get.maestro.mobile.dev" | bash
-
   smoke:
-    name: Flow · ${{ matrix.flow }}
-    needs: [plan, build, avd-prepare]
+    name: Smoke (flows sequenciais)
+    needs: build
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    strategy:
-      fail-fast: false
-      matrix:
-        flow: ${{ fromJson(needs.plan.outputs.matrix) }}
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -158,28 +82,43 @@ jobs:
       - name: Instalar dependência do emulador (libpulse)
         run: sudo apt-get update && sudo apt-get install -y libpulse0
 
-      - name: Restaurar Maestro CLI (preparado em avd-prepare)
-        uses: actions/cache/restore@v4
+      - name: Cache do Maestro CLI
+        id: maestro-cache
+        uses: actions/cache@v4
         with:
           path: ~/.maestro
-          key: ${{ needs.avd-prepare.outputs.maestro-cache-key }}
+          key: ${{ env.MAESTRO_CACHE_KEY }}
 
-      - name: Garantir Maestro CLI instalado
-        run: |
-          if [[ ! -x "$HOME/.maestro/bin/maestro" ]]; then
-            curl -fsSL "https://get.maestro.mobile.dev" | bash
-          fi
-          echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
+      - name: Instalar Maestro CLI (cache miss)
+        if: steps.maestro-cache.outputs.cache-hit != 'true'
+        run: curl -fsSL "https://get.maestro.mobile.dev" | bash
 
-      - name: Restaurar snapshot do AVD (preparado em avd-prepare)
-        uses: actions/cache/restore@v4
+      - name: Garantir Maestro CLI no PATH
+        run: echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
+
+      - name: Cache do AVD
+        id: avd-cache
+        uses: actions/cache@v4
         with:
           path: |
             ~/.android/avd/*
             ~/.android/adb*
-          key: ${{ needs.avd-prepare.outputs.avd-cache-key }}
+          key: ${{ env.AVD_CACHE_KEY }}
 
-      - name: Rodar flow no emulador
+      - name: Criar AVD e gerar snapshot (cache miss)
+        if: steps.avd-cache.outputs.cache-hit != 'true'
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          force-avd-creation: false
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: echo "Snapshot do AVD gerado para cache."
+
+      - name: Rodar flows no emulador
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 34
@@ -189,38 +128,39 @@ jobs:
           force-avd-creation: false
           disable-animations: true
           emulator-options: -no-window -no-snapshot-save -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          # android-emulator-runner executa cada linha do script em shell separado —
-          # variáveis exportadas não persistem entre linhas; usar script único.
-          script: bash scripts/maestro_ci_emulator_job.sh ${{ matrix.flow }}
+          script: bash scripts/maestro_ci_emulator_smoke.sh
 
-      - name: Publicar status do flow
+      - name: Publicar status dos flows
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: maestro-status-${{ matrix.flow }}
-          path: build/maestro-results/status.json
-          retention-days: 7
+          name: maestro-status-all
+          path: build/maestro-results/status-*.json
+          retention-days: 1
           if-no-files-found: warn
 
-      - name: Publicar relatório do flow
+      - name: Publicar JUnit em falha
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: maestro-report-${{ matrix.flow }}
-          path: build/maestro-results
-          retention-days: 7
+          name: maestro-junit-${{ github.run_id }}
+          path: build/maestro-results/*.xml
+          retention-days: 1
           if-no-files-found: ignore
 
   summary:
     name: Resumo
-    needs: [plan, smoke]
+    needs: smoke
     if: always()
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Baixar status dos flows
         uses: actions/download-artifact@v4
         with:
-          pattern: maestro-status-*
+          name: maestro-status-all
           path: status
         continue-on-error: true
 
@@ -228,16 +168,18 @@ jobs:
         run: |
           {
             echo "## Maestro smoke · ${{ github.ref_name }}"
-            echo "Jornadas validadas (uma por job, em paralelo):"
+            echo "Jornadas de valor validadas (sequenciais, um emulador):"
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
           total=0
           passed=0
           failures=()
-          for name in $(echo '${{ needs.plan.outputs.matrix }}' | jq -r '.[]'); do
+          shopt -s nullglob
+          for yaml in .maestro/flows/ci/*.yaml; do
+            name="$(basename "$yaml" .yaml)"
             total=$((total + 1))
-            file="status/maestro-status-${name}/status.json"
+            file="status/status-${name}.json"
             if [[ -f "$file" ]]; then
               desc="$(jq -r '.desc' "$file")"
               status="$(jq -r '.status' "$file")"
@@ -257,6 +199,7 @@ jobs:
               failures+=("\`$name\`: sem status.json — job não chegou a rodar o Maestro (timeout/crash no setup do emulador)")
             fi
           done
+          shopt -u nullglob
 
           {
             echo ""
@@ -271,6 +214,7 @@ jobs:
                 echo "- $f"
               done
             } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
           fi
 
           {

@@ -42,7 +42,8 @@ jobs:
             echo "| 1 | Preparar (git + secrets) |"
             echo "| 2 | Flutter + deps |"
             echo "| 3 | Format · Fix |"
-            echo "| 4 | Testes unitários |"
+            echo "| 4 | Analyze + testes unitários |"
+            echo "| 4b | Validar manifest.json |"
             echo "| 5 | Build release (AAB) |"
             echo "| 6 | Publicar Play Store (${{ inputs.mode }}) |"
             echo "| 7 | Version bump |"
@@ -81,11 +82,46 @@ jobs:
         with:
           branch: ${{ github.ref_name }}
 
-      - name: "4 · Testes unitários"
+      - name: "4 · Analyze + testes unitários"
         working-directory: app
         run: |
-          bash ../scripts/ci_step_report.sh "Testes unitários" \
-            flutter test --concurrency=$(nproc)
+          set +e
+          flutter analyze --fatal-infos > analyze_output.txt 2>&1 &
+          ANALYZE_PID=$!
+
+          flutter test --concurrency=$(nproc)
+          TEST_STATUS=$?
+
+          wait "$ANALYZE_PID"
+          ANALYZE_STATUS=$?
+
+          while IFS= read -r line; do
+            if [[ "$line" =~ ^[[:space:]]*(error|warning|info)[[:space:]]•[[:space:]](.+)[[:space:]]•[[:space:]]([^[:space:]]+):([0-9]+):([0-9]+)[[:space:]]•[[:space:]](.+)$ ]]; then
+              severity="${BASH_REMATCH[1]}"
+              message="${BASH_REMATCH[2]}"
+              file="${BASH_REMATCH[3]}"
+              file_line="${BASH_REMATCH[4]}"
+              col="${BASH_REMATCH[5]}"
+              rule="${BASH_REMATCH[6]}"
+              case "$severity" in
+                error) level=error ;;
+                warning) level=warning ;;
+                *) level=notice ;;
+              esac
+              echo "::$level file=app/$file,line=$file_line,col=$col::$message ($rule)"
+            fi
+          done < analyze_output.txt
+
+          cat analyze_output.txt
+
+          if [[ "$ANALYZE_STATUS" -ne 0 ]]; then
+            exit "$ANALYZE_STATUS"
+          fi
+          exit "$TEST_STATUS"
+
+      - name: "4b · Validar manifest"
+        if: hashFiles('manifest.json') != ''
+        run: python3 scripts/validate_manifest.py
 
       - name: "5 · Build release"
         id: build

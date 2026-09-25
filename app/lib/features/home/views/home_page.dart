@@ -8,7 +8,6 @@ import 'package:nrfacil/core/widgets/update_count_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/ads/widgets/persistent_banner_ad.dart';
 import 'package:nrfacil/features/compliance/compliance_copy.dart';
-import 'package:nrfacil/features/compliance/controllers/checklist_controller.dart';
 import 'package:nrfacil/features/compliance/views/checklist_page.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
 import 'package:nrfacil/features/home/views/widgets/favoritos_tab.dart';
@@ -34,15 +33,17 @@ class HomePage extends GetView<HomeController> {
           actions: [
             if (tab == HomeController.tabChecklist)
               ...ChecklistPage.homeAppBarActions(context),
-            _buildNotificationsBell(context),
-            Semantics(
-              identifier: HomeSemanticsIds.settingsButton,
-              child: IconButton(
-                icon: const Icon(Icons.settings_outlined),
-                tooltip: 'Ajustes',
-                onPressed: () => Get.to(() => const SettingsPage()),
+            if (tab == HomeController.tabNormas) ...[
+              _buildNotificationsBell(context),
+              Semantics(
+                identifier: HomeSemanticsIds.settingsButton,
+                child: IconButton(
+                  icon: const Icon(Icons.settings_outlined),
+                  tooltip: 'Ajustes',
+                  onPressed: () => Get.to(() => const SettingsPage()),
+                ),
               ),
-            ),
+            ],
           ],
         ),
         body: ResponsiveContent(
@@ -55,7 +56,9 @@ class HomePage extends GetView<HomeController> {
                 child: SearchTab(isActive: tab == HomeController.tabBuscar),
               ),
               SizedBox.expand(
-                child: _buildChecklistTab(),
+                child: tab == HomeController.tabChecklist
+                    ? const ChecklistPage()
+                    : const SizedBox.shrink(),
               ),
             ],
           ),
@@ -124,19 +127,6 @@ class HomePage extends GetView<HomeController> {
         ),
       );
     });
-  }
-
-  Widget _buildChecklistTab() {
-    // Registrar controller se necessário
-    if (!Get.isRegistered<ChecklistController>()) {
-      Get.put<ChecklistController>(
-        ChecklistController(
-          storageService: Get.find(),
-          complianceService: Get.find(),
-        ),
-      );
-    }
-    return const ChecklistPage();
   }
 
   Widget _buildNotificationsBell(BuildContext context) {

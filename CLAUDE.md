@@ -32,7 +32,7 @@ nr-facil/
 ├── app_meta.json           # update feed + minimum app version (generated, root of repo)
 ├── scripts/                # Python content pipeline + shell helpers
 ├── docs/                   # architecture, procedures, Cursor prompts
-└── .github/workflows/      # ci.yml, update-nrs.yml
+└── .github/workflows/      # deploy-play.yml, maestro-e2e.yml, update-nrs.yml
 ```
 
 Data flow: MTE portal PDFs → GitHub Action (`update-nrs.yml`, daily 09:00 UTC) runs the Python pipeline → commits `content/` + `manifest.json` + `app_meta.json` to GitHub (source of truth) → Flutter app fetches both via GitHub raw HTTP and caches offline. **The app never talks to the MTE portal directly**, and there is no backend service to operate.
@@ -64,7 +64,7 @@ python3 scripts/convert_nr.py --all
 python3 scripts/validate_manifest.py
 ```
 
-`scripts/check.sh` and CI (`.github/workflows/ci.yml`) both no-op gracefully around missing pieces (`app/pubspec.yaml`, `manifest.json`) during early phases — don't "fix" that guarding logic, it's intentional for a repo that grows in phases.
+`scripts/check.sh` is the pre-commit gate locally. GitHub Actions só roda **deploy** (`deploy-play.yml`) e **Maestro** (`maestro-e2e.yml`) via `workflow_dispatch`, mais o pipeline de conteúdo agendado (`update-nrs.yml`) — não há CI em `push`/`pull_request` na `main`.
 
 ## Content pipeline design (once implemented)
 

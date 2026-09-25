@@ -111,6 +111,11 @@ abstract final class AppTheme {
           tapTargetSize: MaterialTapTargetSize.padded,
         ),
       ),
+      progressIndicatorTheme: ProgressIndicatorThemeData(
+        linearTrackColor: colorScheme.surfaceContainerHigh,
+        color: colorScheme.secondary,
+        linearMinHeight: 4,
+      ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: colorScheme.surface,
         selectedItemColor: colorScheme.primary,
