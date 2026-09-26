@@ -39,9 +39,22 @@ Depois rode na raiz do repo:
 
 O script copia logo + ícones, gera `app/assets/branding/`, instala mipmaps Android, cria plataforma iOS (se ausente) com `AppIcon.appiconset`, e regenera o splash nativo.
 
-## Pendente
+## Screenshots (telefone)
 
-- **Screenshots** (≥4): capturar do emulador/dispositivo com o app rodando (Home, Leitor, Busca, Atualizações)
+1080×2160 PNG (proporção 2:1, sem canal alpha), em `screenshots/`. Enviar na Play Console nesta ordem — a loja mostra as primeiras na busca:
+
+| Arquivo | Tela |
+|---------|------|
+| `01-checklist.png` | Checklist de autuações, com progresso |
+| `02-perfil.png` | Perfil da empresa (porte, setor, fatores de risco) |
+| `03-checklist-cipa.png` | Item gravíssimo (constituir a CIPA) |
+| `04-checklist-altura.png` | Itens de trabalho em altura (NR-35) |
+| `05-normas.png` | Lista de normas, continuar lendo e favoritos |
+| `06-leitor.png` | Leitor da NR-01, com PDF oficial |
+| `07-busca.png` | Busca por “altura”, com destaque no trecho |
+| `08-favoritos.png` | Favoritos |
+
+Captura: app em debug no emulador, modo claro, sem banner de anúncio. Recortar a barra de status e a barra de gestos para caber no limite de 2:1 da Play Store.
 
 ## Referências
 

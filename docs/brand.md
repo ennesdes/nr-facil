@@ -248,7 +248,7 @@ Consultar, Baixar, Atualizar, Sincronizar, Buscar, Favoritar, Continuar leitura
 | Contexto | Copy |
 |----------|------|
 | Título Play Store | NR Fácil: Normas do Trabalho |
-| Descrição curta | Normas Regulamentadoras offline: busca, favoritos e atualização automática. |
+| Descrição curta | Normas Regulamentadoras offline e checklist do que pode autuar. |
 | Empty state favoritos | Você ainda não tem favoritos. Toque na estrela em qualquer NR para adicionar. |
 | Erro de sync | Não foi possível sincronizar. Verifique sua conexão e tente novamente. |
 | Atualização obrigatória | Uma nova versão do app é necessária para continuar. |
@@ -297,7 +297,7 @@ Fontes em `app/assets/branding/`. Regenerar: ver [docs/store/README.md](store/RE
 |-------|----------|----------|
 | Ícone | 512×512 px | Mark NR sobre fundo `primary`; sem wordmark (ilegível em tamanho pequeno) |
 | Feature graphic | 1024×500 px | Fundo `surface`; wordmark + tagline "Consulte NRs oficiais offline" |
-| Screenshots | ≥ 4 telas | Home/Favoritos, Leitor, Busca com highlight, Atualizações — modo claro |
+| Screenshots | 8 telas, 1080×2160 | Checklist, perfil, leitor, busca e favoritos — modo claro. Arquivos em `docs/store/screenshots/` |
 | Splash screen | Full screen | Fundo `primary` + mark branco centralizado (via `flutter_native_splash`) |
 
 ### Estilo de screenshots

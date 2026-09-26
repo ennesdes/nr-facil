@@ -14,16 +14,16 @@ Tom de voz e restrições legais: [brand.md](../brand.md).
 NR Fácil: Normas do Trabalho
 ```
 
-### Descrição curta (74/80 caracteres)
+### Descrição curta (63/80 caracteres)
 
 ```
-Normas Regulamentadoras offline: busca, favoritos e atualização automática.
+Normas Regulamentadoras offline e checklist do que pode autuar.
 ```
 
 ### Descrição completa
 
 ```
-Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego no seu celular — com leitura offline, busca por trecho e favoritos. Ideal para quem trabalha com segurança do trabalho (SST) e precisa consultar a norma na obra, na fábrica ou no escritório, mesmo sem internet.
+Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego no seu celular — com leitura offline, busca por trecho, favoritos e um checklist dos itens que podem gerar autuação. Ideal para quem trabalha com segurança do trabalho (SST) e precisa consultar a norma na obra, na fábrica ou no escritório, mesmo sem internet.
 
 PARA QUEM É
 • Técnicos de segurança do trabalho, SESMT e CIPA
@@ -37,6 +37,16 @@ O QUE VOCÊ FAZ NO APP
 • Baixar conteúdo para usar offline — sem depender de conexão no campo
 • Receber aviso quando uma NR for atualizada e ver o que mudou
 • Acessar o PDF original no portal do MTE em um toque
+• Montar um checklist de itens que podem gerar autuação, a partir do perfil da empresa
+
+CHECKLIST DE AUTUAÇÕES
+Na aba Autuações, informe o porte, a atividade e os fatores de risco da empresa. O app reúne os principais itens do Anexo II da NR-28 aplicáveis a esse perfil: o que verificar, a gradação da infração quando houver, e um atalho para o trecho da norma.
+
+• Acompanhe o que já foi conferido — a marcação fica no aparelho
+• Abra o texto da norma no ponto do item, em um toque
+• Ajuste o perfil quando a realidade da empresa mudar
+
+A lista é uma amostra curada para orientar a verificação interna. Não cobre todas as NRs, não informa valor de multa e não substitui um profissional de SST nem a publicação oficial.
 
 POR QUE O NR FÁCIL
 • Foco em consulta rápida: menos tempo procurando, mais tempo aplicando a norma
@@ -80,9 +90,9 @@ Baixe o NR Fácil e tenha as normas do trabalho sempre à mão.
 
 | ID | Texto | Chars |
 |----|-------|-------|
-| A (padrão) | `Normas Regulamentadoras offline: busca, favoritos e atualização automática.` | 74 |
-| B | `NRs do trabalho offline. Busca rápida, favoritos e leitura sem internet.` | 72 |
-| C | `Consulte NRs oficiais offline com busca. Segurança do trabalho e SST.` | 69 |
+| A (padrão) | `Normas Regulamentadoras offline e checklist do que pode autuar.` | 63 |
+| B | `Normas Regulamentadoras offline: busca, favoritos e checklist.` | 62 |
+| C | `NRs offline: busca, favoritos, atualização e checklist de autuação.` | 67 |
 
 ---
 
@@ -95,7 +105,9 @@ Baixe o NR Fácil e tenha as normas do trabalho sempre à mão.
 | Normas do trabalho | sim | — | sim |
 | Segurança do trabalho / SST | — | — | sim |
 | Offline / sem internet | — | sim | sim |
-| Busca / favoritos | — | sim | sim |
+| Busca / favoritos | — | B e C | sim |
+| Checklist / autuação | — | sim | sim |
+| NR-28 | — | — | sim |
 | MTE | — | — | sim |
 
 **Evitar:** “melhor app”, “oficial do MTE”, emojis no título/curta, keyword stuffing, “grátis para sempre”.
@@ -111,7 +123,7 @@ Presença na loja → **Ficha principal** (idioma: Português (Brasil)):
 - [ ] **Descrição completa:** copiar bloco completo acima
 - [ ] **Ícone do app:** `docs/store/play_store_icon_512.png`
 - [ ] **Gráfico de recursos:** `docs/store/feature_graphic_1024x500.png`
-- [ ] **Screenshots:** ≥4 (Home, Leitor, Busca, Atualizações) — ver [README.md](README.md)
+- [ ] **Screenshots (telefone, nesta ordem):** os 8 arquivos em `docs/store/screenshots/` — ver [README.md](README.md)
 
 Outros campos (procedure 07):
 
