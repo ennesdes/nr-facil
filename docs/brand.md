@@ -175,7 +175,7 @@ Todas as combinações texto/fundo críticas são validadas por `scripts/audit_c
 
 ### Família
 
-**[Inter](https://fonts.google.com/specimen/Inter)** — Google Fonts, licença OFL.
+**[Inter](https://fonts.google.com/specimen/Inter)** — licença OFL, arquivos em `app/assets/fonts/` (sem download em runtime).
 
 Motivos: excelente legibilidade em português, números tabulares para labels "NR-06", ampla adoção em apps profissionais.
 

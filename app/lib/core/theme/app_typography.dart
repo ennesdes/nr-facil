@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 /// Tipografia Inter conforme [docs/design-system.md].
+///
+/// Os arquivos ficam em `assets/fonts/` (OFL). O app não baixa a fonte
+/// em runtime: falha de rede em `fonts.gstatic.com` não pode virar crash.
 abstract final class AppTypography {
+  static const fontFamily = 'Inter';
+
   static TextTheme textTheme(ColorScheme colorScheme) {
     final source = ThemeData(brightness: colorScheme.brightness).textTheme;
     final scaled = _scaledTextTheme(source);
 
-    final themed = GoogleFonts.config.allowRuntimeFetching
-        ? GoogleFonts.interTextTheme(scaled)
-        : scaled;
-
-    return themed.apply(
+    return scaled.apply(
+      fontFamily: fontFamily,
       bodyColor: colorScheme.onSurface,
       displayColor: colorScheme.onSurface,
     );

@@ -149,8 +149,9 @@ ThemeData buildLightTheme() {
 
 ### 3.1 Configuração
 
-- Pacote: `google_fonts`
-- Família: `GoogleFonts.interTextTheme()`
+- Família: Inter, empacotada em `app/assets/fonts/` (pesos 400, 500, 600 e 700)
+- Licença: OFL (`app/assets/fonts/OFL.txt`)
+- Sem download em runtime: o app é offline e uma falha em `fonts.gstatic.com` não pode derrubar a sessão
 
 ### 3.2 Mapeamento `TextTheme`
 
@@ -466,7 +467,7 @@ Arquivos que usavam `Colors.*` ou `Color(0x...)` hardcoded — maioria já migra
 
 1. ~~Criar `app/lib/core/theme/`~~ ✅
 2. ~~Aplicar `theme` + `darkTheme` em `main.dart`~~ ✅
-3. ~~Adicionar `google_fonts` ao `pubspec.yaml`~~ ✅
+3. ~~Empacotar Inter em `app/assets/fonts/`~~ ✅
 4. ~~Migrar componentes de alta prioridade~~ ✅
 5. ~~Criar `NrBadge` e `EmptyState` compartilhados~~ ✅
 6. ~~Tela de Ajustes + `ThemeController`~~ ✅
