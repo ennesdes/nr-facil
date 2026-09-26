@@ -1,5 +1,5 @@
 name: Flutter setup + deps
-description: SDK Flutter, pub-cache, cache de .dart_tool e pub get
+description: SDK Flutter, pub-cache e pub get
 
 runs:
   using: composite
@@ -9,13 +9,6 @@ runs:
         flutter-version-file: .fvmrc
         cache: true
         pub-cache: true
-
-    - uses: actions/cache@v4
-      with:
-        path: app/.dart_tool
-        key: dart-tool-${{ hashFiles('app/pubspec.lock') }}
-        restore-keys: |
-          dart-tool-
 
     - name: Pub get
       shell: bash

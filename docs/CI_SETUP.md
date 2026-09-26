@@ -142,7 +142,15 @@ Antes de publicar, vale abrir uma vez em **release** no emulador ou celular (`fv
 
 **Settings → Actions → General → Workflow permissions** = **Read and write permissions**
 
-Necessário para cache, commits automáticos de format e version bump.
+Necessário para o cache do Flutter, commits automáticos de format e version bump.
+
+## Cache e artefatos
+
+São cotas separadas. No plano Free: **10 GB de cache por repositório** e **500 MB de artefatos** (compartilhados com GitHub Packages). O número de 500 MB na cobrança é o de artefatos — o snapshot de emulador entra no cache, não ali.
+
+Este repo persiste só o **Flutter SDK** e o **pub-cache**. Não há cache de Gradle, de `.dart_tool`, de snapshot de AVD nem do Maestro CLI. A regra reutilizável está em `dev-standards` → `docs/GITHUB_ACTIONS_CACHE.md`.
+
+Entradas antigas continuam contando até 7 dias sem acesso. Para ver o uso: `gh api repos/ennesdes/nr-facil/actions/cache/usage`. Para apagar: **Settings → Actions → Caches**.
 
 ---
 

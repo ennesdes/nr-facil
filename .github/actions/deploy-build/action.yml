@@ -33,13 +33,11 @@ runs:
         echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
         python3 scripts/bump_pubspec_version.py --set "$NEW_VERSION"
 
-    - name: Setup Java + Gradle cache
+    - name: Setup Java
       uses: actions/setup-java@v4
       with:
         distribution: temurin
         java-version: "17"
-        cache: gradle
-        cache-dependency-path: app/android/**/*.gradle*
 
     - name: Ajustar heap do Gradle
       shell: bash

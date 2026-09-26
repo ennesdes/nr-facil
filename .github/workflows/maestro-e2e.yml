@@ -13,9 +13,6 @@ env:
   GRADLE_OPTS: >-
     -Dorg.gradle.daemon=false
     -Dorg.gradle.parallel=true
-    -Dorg.gradle.caching=true
-  AVD_CACHE_KEY: avd-34-google_apis-x86_64-pixel_6-v2
-  MAESTRO_CACHE_KEY: maestro-cli-v1
 
 jobs:
   build:
@@ -31,9 +28,6 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-
-      - name: Cache Gradle
-        uses: gradle/actions/setup-gradle@v4
 
       - name: Setup Flutter
         uses: ./.github/actions/flutter-setup
@@ -82,41 +76,11 @@ jobs:
       - name: Instalar dependência do emulador (libpulse)
         run: sudo apt-get update && sudo apt-get install -y libpulse0
 
-      - name: Cache do Maestro CLI
-        id: maestro-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.maestro
-          key: ${{ env.MAESTRO_CACHE_KEY }}
-
-      - name: Instalar Maestro CLI (cache miss)
-        if: steps.maestro-cache.outputs.cache-hit != 'true'
+      - name: Instalar Maestro CLI
         run: curl -fsSL "https://get.maestro.mobile.dev" | bash
 
       - name: Garantir Maestro CLI no PATH
         run: echo "$HOME/.maestro/bin" >> "$GITHUB_PATH"
-
-      - name: Cache do AVD
-        id: avd-cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.android/avd/*
-            ~/.android/adb*
-          key: ${{ env.AVD_CACHE_KEY }}
-
-      - name: Criar AVD e gerar snapshot (cache miss)
-        if: steps.avd-cache.outputs.cache-hit != 'true'
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 34
-          target: google_apis
-          arch: x86_64
-          profile: pixel_6
-          force-avd-creation: false
-          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          disable-animations: false
-          script: echo "Snapshot do AVD gerado para cache."
 
       - name: Rodar flows no emulador
         uses: reactivecircus/android-emulator-runner@v2
