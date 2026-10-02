@@ -1,5 +1,7 @@
 # Prompts Cursor — NR Fácil
 
+> Antes de `/fazer`: localizar o dono da regra em [spec/INDEX.md](../spec/INDEX.md) e atualizar `spec/capabilities/` ou `spec/demands/active/` no mesmo PR que o código.
+
 Copie e cole no Agent ou Plan mode. Checklist: [todo.md](../todo.md).
 
 > Regra: quando o item correspondente for marcado `[x]` no `todo.md`, apague o prompt dele daqui embaixo — este arquivo guarda só prompts de itens **pendentes**.

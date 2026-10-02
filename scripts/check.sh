@@ -50,6 +50,13 @@ else
   echo "⚠ .maestro/flows/ci/ vazio ou ausente — pulando e2e semantics check"
 fi
 
+if command -v python3 >/dev/null 2>&1; then
+  echo "==> SDD gates (avisos)..."
+  python3 scripts/check_feature_docs.py || true
+  python3 scripts/check_spec_demand.py || true
+  python3 scripts/check_doc_line_budget.py || true
+fi
+
 if [ "$ERRORS" -ne 0 ]; then
   echo "✗ check.sh falhou"
   exit 1

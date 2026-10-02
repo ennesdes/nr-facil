@@ -2,6 +2,8 @@
 
 Ferramentas Python para scraping, conversão e indexação de NRs. Cada script pode rodar standalone ou ser chamado pela GitHub Action.
 
+**SSOT de regras do pipeline:** [`spec/capabilities/pipeline/README.md`](../spec/capabilities/pipeline/README.md) · domínio [`spec/standards/domain/content.md`](../spec/standards/domain/content.md).
+
 **Princípio:** Nunca reescrever conteúdo normativo — só extrair, estruturar e exibir melhor.
 
 ---

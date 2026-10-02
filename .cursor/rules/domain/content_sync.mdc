@@ -1,0 +1,11 @@
+---
+description: Sync GitHub raw — manifest e app_meta (sem backend).
+globs: ["app/lib/core/services/content_service.dart", "app/lib/core/constants/app_config.dart"]
+alwaysApply: false
+---
+
+# Sincronização de conteúdo
+
+**Canônico:** [`spec/standards/domain/content_sync.md`](../../spec/standards/domain/content_sync.md)
+
+Editar somente o arquivo em `spec/standards/`. Este `.mdc` é ponte para o Cursor.

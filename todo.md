@@ -116,6 +116,14 @@
 
 ---
 
+## Fase 8 — Spec-Driven Development (SDD)
+
+- [x] 49 Adoção SDD (`spec/`, INDEX, capabilities, standards, stubs `.cursor/rules/`, gates `check_feature_docs` / `check_spec_demand`) → [spec/README.md](spec/README.md), demanda [SDD-001](spec/demands/done/sdd-governance/spec.md)
+
+**Pronto quando:** `spec/INDEX.md` é a matriz SSOT; `./scripts/check.sh` roda gates SDD; `docs/architecture.md` é índice com links.
+
+---
+
 ## Critérios de sucesso (90 dias pós-lançamento)
 
 - [ ] 1.000 downloads

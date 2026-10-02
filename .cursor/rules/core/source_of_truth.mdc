@@ -1,0 +1,11 @@
+---
+description: Matriz SSOT — spec/INDEX.md e capabilities.
+globs: ["app/lib/**/*.dart", "spec/**/*.md", "docs/**"]
+alwaysApply: false
+---
+
+# Fonte da verdade
+
+**Canônico:** [`spec/INDEX.md`](../../spec/INDEX.md) · [`spec/README.md`](../../spec/README.md)
+
+Editar somente arquivos em `spec/`. Este `.mdc` é ponte para o Cursor.

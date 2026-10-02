@@ -9,11 +9,13 @@ problema → usuário → escopo → fluxos → regras → arquitetura
     → design system → UI → implementação → validação
 ```
 
-Documentar em `docs/product/`. **Não implementar o indefinido.** Ver `docs/PRODUCT_FLOW.md` e `.cursor/rules/core/product_flow.mdc`.
+**SSOT de regras:** [`spec/INDEX.md`](spec/INDEX.md) · fluxo SDD [`spec/README.md`](spec/README.md). Stubs Cursor em `.cursor/rules/` apontam para `spec/standards/`.
+
+Documentação de descoberta histórica: `docs/product/`. **Não implementar o indefinido.** Ver `docs/PRODUCT_FLOW.md` e `spec/standards/core/product_flow.md`.
 
 ## Project status
 
-This repo is pre-implementation (Fase 0 — Setup). There is no `app/` (Flutter project), no `content/` (converted NRs), and no `manifest.json` yet — those are created in later phases. Don't assume they exist; check before referencing paths under them.
+Monorepo em produção: `app/` (Flutter), `content/`, `manifest.json`, pipeline em `scripts/`, Action `update-nrs.yml`. Antes de codar feature ou alterar comportamento, localizar o dono em `spec/INDEX.md` e atualizar `spec/capabilities/` ou `spec/demands/active/` no mesmo PR.
 
 **Always check [todo.md](todo.md) first.** It is the authoritative, ordered checklist (`[ ]` unchecked items) driving all work — find the next unchecked item and work on that unless the user directs otherwise. Don't skip ahead to later phases or re-open items under "Decisões registradas (não reabrir)" in todo.md.
 
@@ -31,7 +33,8 @@ nr-facil/
 ├── manifest.json           # remote index of all NRs (generated, root of repo)
 ├── app_meta.json           # update feed + minimum app version (generated, root of repo)
 ├── scripts/                # Python content pipeline + shell helpers
-├── docs/                   # architecture, procedures, Cursor prompts
+├── spec/                   # SSOT Spec-Driven Development (capabilities + standards)
+├── docs/                   # architecture index, procedures, prompts
 └── .github/workflows/      # deploy-play.yml, maestro-e2e.yml, update-nrs.yml
 ```
 
@@ -42,7 +45,7 @@ Data flow: MTE portal PDFs → GitHub Action (`update-nrs.yml`, daily 09:00 UTC)
 Setup and everyday checks (run from repo root):
 ```bash
 ./scripts/setup.sh          # FVM install/use, flutter pub get (once app/ exists), Python venv + requirements
-./scripts/check.sh          # flutter analyze --fatal-infos + flutter test + validate_manifest.py — run before every commit
+./scripts/check.sh          # analyze, test, manifest, SDD gates (check_feature_docs, check_spec_demand) — before every commit
 fvm flutter doctor -v
 ```
 
