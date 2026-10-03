@@ -11,6 +11,7 @@ from pathlib import Path
 
 from build_structure import (
     build_structure,
+    dedupe_section_ids,
     is_normative_section_heading,
     parse_bold_major_section_line,
     parse_section_heading,
@@ -195,6 +196,28 @@ class TestBuildStructureNr17(unittest.TestCase):
     section = next(s for s in self.structure["sections"] if s["number"] == "17.1")
     items = [b for b in section["blocks"] if b["type"] == "item"]
     self.assertGreater(len(items), 0)
+
+  def test_section_ids_unique_across_anexos(self):
+    ids = [s["id"] for s in self.structure["sections"]]
+    self.assertEqual(len(ids), len(set(ids)))
+
+
+class TestDedupeSectionIds(unittest.TestCase):
+  def test_suffixes_duplicates_without_colliding(self):
+    sections = [
+      {"id": "1-objetivo"},
+      {"id": "1-objetivo-2"},
+      {"id": "1-objetivo"},
+      {"id": "1-objetivo"},
+      {"id": ""},
+      {"id": ""},
+    ]
+    ids = [s["id"] for s in dedupe_section_ids(sections)]
+    # Deve bater com NrStructure._withUniqueIds no app.
+    self.assertEqual(
+      ids,
+      ["1-objetivo", "1-objetivo-2", "1-objetivo-3", "1-objetivo-4", "", "-2"],
+    )
 
 
 if __name__ == "__main__":

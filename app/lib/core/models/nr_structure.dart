@@ -28,8 +28,33 @@ class NrStructure {
     return NrStructure(
       title: map['title'] as String? ?? '',
       preamble: NrPreamble.fromMap(preambleMap),
-      sections: sectionsList,
+      sections: _withUniqueIds(sectionsList),
     );
+  }
+
+  /// Garante `id` único por seção: anexos repetem slugs (ex.: `1-objetivo` em
+  /// cada anexo da NR-17) e o leitor usa o id como GlobalKey — duplicatas
+  /// corrompem a árvore de render em release (crash `parentData!` nulo).
+  static List<NrSection> _withUniqueIds(List<NrSection> sections) {
+    final used = sections.map((s) => s.id).toSet();
+    final seen = <String>{};
+    return [
+      for (final section in sections)
+        if (seen.add(section.id))
+          section
+        else
+          section.copyWithId(_nextFreeId(section.id, used)),
+    ];
+  }
+
+  static String _nextFreeId(String base, Set<String> used) {
+    var n = 2;
+    while (used.contains('$base-$n')) {
+      n++;
+    }
+    final id = '$base-$n';
+    used.add(id);
+    return id;
   }
 
   bool get isEmpty => sections.isEmpty && preamble.blocks.isEmpty;
@@ -87,6 +112,9 @@ class NrSection {
       blocks: blocksList,
     );
   }
+
+  NrSection copyWithId(String id) =>
+      NrSection(id: id, number: number, title: title, blocks: blocks);
 
   /// Título de exibição limpo: "6.1 Objetivo"
   String get displayTitle {

@@ -493,8 +493,30 @@ def build_structure(md_text: str) -> dict[str, Any]:
     return {
         "title": title,
         "preamble": {"blocks": preamble_blocks},
-        "sections": sections,
+        "sections": dedupe_section_ids(sections),
     }
+
+
+def dedupe_section_ids(sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Garante `id` único: anexos repetem slugs (ex.: `1-objetivo` na NR-17).
+
+    O app usa o id como GlobalKey — duplicatas crasham o leitor em release.
+    Mesmo algoritmo de `NrStructure._withUniqueIds` (app): a primeira ocorrência
+    mantém o id e as seguintes recebem `-2`, `-3`… sem colidir com ids reais.
+    """
+    used = {s["id"] for s in sections}
+    seen: set[str] = set()
+    for section in sections:
+        base = section["id"]
+        if base not in seen:
+            seen.add(base)
+            continue
+        n = 2
+        while f"{base}-{n}" in used:
+            n += 1
+        section["id"] = f"{base}-{n}"
+        used.add(section["id"])
+    return sections
 
 
 def build_nr_structure(nr_id: str, dry_run: bool = False) -> bool:
