@@ -9,6 +9,7 @@ import 'package:marionette_flutter/marionette_flutter.dart';
 
 import 'core/bindings/app_binding.dart';
 import 'core/constants/app_config.dart';
+import 'core/services/analytics_service.dart';
 import 'core/utils/app_logger.dart';
 import 'core/utils/crash_reporting.dart';
 import 'core/utils/performance_monitoring.dart';
@@ -37,6 +38,7 @@ Future<void> main() async {
         options: DefaultFirebaseOptions.currentPlatform,
       );
       await configureCrashReporting();
+      await configureAnalytics();
       await configurePerformanceMonitoring();
     } catch (e, st) {
       // Falha no Firebase não deve impedir o app de abrir.

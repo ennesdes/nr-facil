@@ -20,7 +20,7 @@
 | Plugin | Notas |
 |--------|--------|
 | `google_mobile_ads` | App ID no Manifest; test devices em debug |
-| `firebase_core` / Crashlytics | `google-services.json`; falha de init não bloqueia app |
+| `firebase_core` / Crashlytics / Performance / Analytics | `google-services.json`; falha de init não bloqueia app; coleta desligada em debug; eventos em [`analytics.md`](analytics.md) |
 | `url_launcher` | PDF MTE e links externos |
 | `path_provider` | Cache de NRs offline |
 | `permission_handler` / galeria | Salvar imagem da NR se aplicável |

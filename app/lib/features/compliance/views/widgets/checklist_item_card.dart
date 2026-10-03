@@ -6,6 +6,7 @@ library;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 import '../../../../core/models/compliance_item.dart';
 import '../../../../core/theme/app_semantic_colors.dart';
@@ -147,7 +148,11 @@ class ChecklistItemCard extends StatelessWidget {
   }
 
   void _openInReader(ComplianceItem item) {
-    ReaderNavigation.open(nrId: item.nrId, initialAnchor: item.readerAnchorId);
+    ReaderNavigation.open(
+      nrId: item.nrId,
+      source: AnalyticsService.sourceChecklist,
+      initialAnchor: item.readerAnchorId,
+    );
   }
 }
 

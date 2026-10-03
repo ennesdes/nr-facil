@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/services/storage_service.dart';
 import 'package:nrfacil/core/utils/user_messages.dart';
@@ -56,9 +57,20 @@ class HomeController extends GetxController {
   void _applyInitialTabIfNeeded() {
     if (_initialTabApplied) return;
     _initialTabApplied = true;
-    selectedTab.value = contentService.favoriteIds.isEmpty
-        ? tabNormas
-        : tabFavoritos;
+    _setTab(contentService.favoriteIds.isEmpty ? tabNormas : tabFavoritos);
+  }
+
+  /// Troca a aba e registra screen_view (abas não são rotas).
+  void _setTab(int index) {
+    selectedTab.value = index;
+    final screen = switch (index) {
+      tabNormas => AnalyticsService.screenHomeNormas,
+      tabFavoritos => AnalyticsService.screenHomeFavoritos,
+      tabBuscar => AnalyticsService.screenHomeBusca,
+      tabChecklist => AnalyticsService.screenHomeChecklist,
+      _ => null,
+    };
+    if (screen != null) unawaited(AnalyticsService.maybe?.logScreen(screen));
   }
 
   String get tabTitle {
@@ -133,7 +145,7 @@ class HomeController extends GetxController {
       return;
     }
 
-    selectedTab.value = index;
+    _setTab(index);
     _ensureSearchIndicesWhenNeeded(index);
   }
 
@@ -148,7 +160,7 @@ class HomeController extends GetxController {
       _navigateToCompanyProfile();
     } else {
       // Mostrar checklist
-      selectedTab.value = tabChecklist;
+      _setTab(tabChecklist);
     }
   }
 
@@ -160,6 +172,11 @@ class HomeController extends GetxController {
     unawaited(
       Future.microtask(() async {
         CompanyProfileController.ensureRegistered();
+        unawaited(
+          AnalyticsService.maybe?.logScreen(
+            AnalyticsService.screenCompanyProfile,
+          ),
+        );
         await Get.to(() => const CompanyProfilePage());
 
         final storageService = Get.find<StorageService>();
@@ -177,7 +194,7 @@ class HomeController extends GetxController {
             ),
           );
         }
-        selectedTab.value = tabChecklist;
+        _setTab(tabChecklist);
       }),
     );
   }

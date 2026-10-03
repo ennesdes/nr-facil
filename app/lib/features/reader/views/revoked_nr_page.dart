@@ -10,6 +10,7 @@ import 'package:nrfacil/core/widgets/app_filter_chip.dart';
 import 'package:nrfacil/core/widgets/app_safe_area.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Tela informativa para NRs revogadas — evita consulta acidental sem contexto.
 class RevokedNrPage extends StatelessWidget {
@@ -80,7 +81,10 @@ class RevokedNrPage extends StatelessWidget {
                           label: 'Abrir ${successor.nrLabel} (sucessora)',
                           icon: Icons.arrow_forward,
                           onTap: () {
-                            ReaderNavigation.open(nrId: successor.id);
+                            ReaderNavigation.open(
+                              nrId: successor.id,
+                              source: AnalyticsService.sourceRevogada,
+                            );
                           },
                         ),
                       ),

@@ -201,17 +201,21 @@ Quando o contrato de um modelo mudar entre versões do app (campo renomeado, tip
 
 ## 12. Erros globais em produção
 
-Configurar no `main()` antes de `runApp()`:
+Configurado em `configureCrashReporting()` (`core/utils/crash_reporting.dart`), chamado no `main()` após `Firebase.initializeApp` e antes de `runApp()`:
 
 ```dart
+await crashlytics.setCrashlyticsCollectionEnabled(!kDebugMode);
 FlutterError.onError = (details) {
-  AppLogger.error('FlutterError', details.exception, details.stack);
+  FlutterError.presentError(details);
+  crashlytics.recordFlutterFatalError(details);
 };
 PlatformDispatcher.instance.onError = (error, stack) {
-  AppLogger.error('PlatformError', error, stack);
+  crashlytics.recordError(error, stack, fatal: true);
   return true; // capturado — não propaga para o sistema
 };
 ```
+
+- Erros não fatais: `reportUnexpectedError(reason, e, st)` (ignora `SocketException`/`TimeoutException`)
 
 - Sem essa configuração, crashes em isolates e erros de build de widget são silenciosos em produção
 - O `return true` em `onError` é obrigatório — sem ele o sistema propaga o erro e pode encerrar o app sem log

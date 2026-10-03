@@ -11,6 +11,7 @@ import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/updates/utils/update_item_display.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Bottom sheet compartilhado para listar atualizações pendentes.
 class UpdatesBottomSheet {
@@ -134,7 +135,11 @@ class UpdatesBottomSheet {
       return;
     }
 
-    ReaderNavigation.open(nrId: nrId, initialAnchor: item.item);
+    ReaderNavigation.open(
+      nrId: nrId,
+      source: AnalyticsService.sourceAtualizacoes,
+      initialAnchor: item.item,
+    );
   }
 }
 

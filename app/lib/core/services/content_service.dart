@@ -23,6 +23,7 @@ import '../utils/app_logger.dart';
 import '../utils/crash_reporting.dart';
 import '../utils/performance_monitoring.dart';
 import '../utils/user_messages.dart';
+import 'analytics_service.dart';
 
 /// ContentService — sincronizar e cache de NRs offline.
 ///
@@ -1323,6 +1324,7 @@ class ContentService extends GetxService {
     favoriteIds.assignAll(updated);
     favoritesVersion.value++;
     GetStorage().write(StorageKeys.favoriteNrs, updated);
+    unawaited(AnalyticsService.maybe?.logFavorite(nrId, added: !wasFavorite));
   }
 
   Future<void> _prefetchSingleFavorite(String nrId) async {

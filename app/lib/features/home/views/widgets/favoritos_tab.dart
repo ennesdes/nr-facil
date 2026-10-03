@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
@@ -10,6 +12,7 @@ import 'package:nrfacil/features/home/views/widgets/pending_updates_section.dart
 import 'package:nrfacil/features/home/views/widgets/nr_list_tile.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/reader/views/revoked_nr_page.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Aba "Favoritos" — NRs favoritadas com reordenação.
 class FavoritosTab extends StatefulWidget {
@@ -108,10 +111,18 @@ class _FavoritosTabState extends State<FavoritosTab> {
         hideStarButton: entry.isRevoked,
         onTap: () {
           if (entry.isRevoked) {
+            unawaited(
+              AnalyticsService.maybe?.logScreen(
+                AnalyticsService.screenRevokedNr,
+              ),
+            );
             Get.to(() => RevokedNrPage(entry: entry));
             return;
           }
-          ReaderNavigation.open(nrId: nrId);
+          ReaderNavigation.open(
+            nrId: nrId,
+            source: AnalyticsService.sourceFavoritos,
+          );
         },
       ),
     );

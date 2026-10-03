@@ -7,6 +7,7 @@ import 'package:nrfacil/core/widgets/shimmer_placeholders.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/search/controllers/search_screen_controller.dart';
 import 'package:nrfacil/features/search/views/widgets/search_result_tile.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Aba de busca full-text — corpo sem Scaffold (embutida na HomePage).
 class SearchTab extends StatefulWidget {
@@ -119,6 +120,7 @@ class _SearchTabState extends State<SearchTab> {
                           : chunk.heading;
                       ReaderNavigation.open(
                         nrId: result.nrId,
+                        source: AnalyticsService.sourceBusca,
                         initialAnchor: anchor,
                         initialHighlightQuery: query.isEmpty ? null : query,
                       );

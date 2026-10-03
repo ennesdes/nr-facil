@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/e2e_semantics_ids.dart';
@@ -16,6 +18,7 @@ import 'package:nrfacil/features/search/views/search_tab.dart';
 import 'package:nrfacil/features/settings/views/settings_page.dart';
 import 'package:nrfacil/features/updates/bindings/updates_binding.dart';
 import 'package:nrfacil/features/updates/views/updates_page.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// HomePage — shell principal com bottom nav (Normas / Favoritos / Buscar / Checklist).
 class HomePage extends GetView<HomeController> {
@@ -40,7 +43,14 @@ class HomePage extends GetView<HomeController> {
                 child: IconButton(
                   icon: const Icon(Icons.settings_outlined),
                   tooltip: 'Ajustes',
-                  onPressed: () => Get.to(() => const SettingsPage()),
+                  onPressed: () {
+                    unawaited(
+                      AnalyticsService.maybe?.logScreen(
+                        AnalyticsService.screenSettings,
+                      ),
+                    );
+                    Get.to(() => const SettingsPage());
+                  },
                 ),
               ),
             ],
@@ -153,6 +163,13 @@ class HomePage extends GetView<HomeController> {
                   ? '$unreadCount atualizações pendentes'
                   : 'Atualizações',
               onPressed: () {
+                final analytics = AnalyticsService.maybe;
+                if (analytics != null) {
+                  unawaited(analytics.logOpenUpdates());
+                  unawaited(
+                    analytics.logScreen(AnalyticsService.screenUpdates),
+                  );
+                }
                 Get.to(() => const UpdatesPage(), binding: UpdatesBinding());
               },
             ),

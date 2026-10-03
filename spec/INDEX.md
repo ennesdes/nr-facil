@@ -25,6 +25,7 @@
 | **Backlog** | [`todo.md`](../todo.md) | proibido em capabilities e domain |
 | **Procedimentos** | `docs/procedures/*` | não SSOT de comportamento |
 | **Mapa de código** | `spec/standards/core/code_map.md` | |
+| **Analytics** (telas/eventos) | `spec/standards/core/analytics.md` | `app/lib/core/services/analytics_service.dart` |
 | **Entrega em curso** | `spec/demands/active/<slug>/spec.md` | promover para capability/standard no merge |
 | **E2E ids** | `app/lib/core/constants/e2e_semantics_ids.dart` | `.maestro/flows/ci/` |
 | **Implementação** | `app/`, `scripts/`, `content/` | nunca SSOT de produto |

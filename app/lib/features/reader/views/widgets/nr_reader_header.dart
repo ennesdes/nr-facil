@@ -9,6 +9,7 @@ import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:nrfacil/features/reader/views/widgets/highlighted_text.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Cabeçalho do leitor com título, vigência e link secundário para PDF.
 class NrReaderHeader extends StatelessWidget {
@@ -77,7 +78,7 @@ class NrReaderHeader extends StatelessWidget {
               label: 'Ver PDF oficial',
               icon: Icons.picture_as_pdf,
               useInfoColor: true,
-              onPressed: () => _launchPdf(nrEntry!.pdfUrl!),
+              onPressed: () => _launchPdf(nrEntry!.id, nrEntry!.pdfUrl!),
             ),
           ],
         ],
@@ -85,11 +86,17 @@ class NrReaderHeader extends StatelessWidget {
     );
   }
 
-  Future<void> _launchPdf(String url) async {
+  Future<void> _launchPdf(String nrId, String url) async {
     try {
       final uri = Uri.parse(url);
       if (await canLaunchUrl(uri)) {
-        await launchUrl(uri, mode: LaunchMode.externalApplication);
+        final opened = await launchUrl(
+          uri,
+          mode: LaunchMode.externalApplication,
+        );
+        if (opened) {
+          await AnalyticsService.maybe?.logOpenOfficialPdf(nrId);
+        }
       }
     } catch (e) {
       AppLogger.error('Erro ao abrir PDF', e);

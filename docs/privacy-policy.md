@@ -1,6 +1,6 @@
 # Política de Privacidade — NR Fácil
 
-**Última atualização:** setembro de 2026
+**Última atualização:** outubro de 2026
 
 ## Introdução
 
@@ -20,6 +20,9 @@ O aplicativo exibe conteúdo público oficial das NRs. O conteúdo não substitu
 
 - **Atualizações de conteúdo:** o app baixa arquivos pela internet para manter o conteúdo e metadados leves atualizados (datas de atualização, versão mínima do app). Não há servidor/backend próprio operado pelo desenvolvedor.
 - **Anúncios:** utilizamos Google AdMob, que pode coletar dados conforme a [política do Google](https://policies.google.com/privacy).
+- **Estatísticas de uso (Firebase Analytics):** coletamos dados de uso de forma pseudonimizada (identificador do app, telas acessadas, quais NRs são abertas ou favoritadas e termos digitados na busca) para entender o uso e melhorar o aplicativo. Esses dados não são vinculados a nome, e-mail ou documentos e não são usados para publicidade.
+- **Relatórios de falhas e desempenho (Firebase Crashlytics e Performance Monitoring):** quando o app trava ou apresenta lentidão, enviamos informações técnicas (modelo do aparelho, versão do Android e do app, registro do erro) para corrigir problemas.
+- Os serviços Firebase são fornecidos pelo Google e seguem a [política de privacidade do Google](https://policies.google.com/privacy).
 
 ## Compras no aplicativo
 

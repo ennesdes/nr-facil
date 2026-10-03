@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/services/analytics_service.dart';
 import '../../../core/services/content_service.dart';
 import '../../../core/services/search_service.dart';
 import '../../../core/utils/app_logger.dart';
@@ -111,6 +112,9 @@ class SearchScreenController extends GetxController {
         nrFilter: nrFilter.value,
       );
       results.value = searchResults;
+      unawaited(
+        AnalyticsService.maybe?.logSearch(searchQuery, searchResults.length),
+      );
       AppLogger.debug('Busca realizada: ${searchResults.length} resultados');
     } catch (e, st) {
       AppLogger.error('Erro ao buscar', e, st);

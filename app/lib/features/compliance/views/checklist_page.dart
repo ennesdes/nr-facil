@@ -5,9 +5,12 @@
 /// Anúncio: apenas o banner global da [HomePage] (acima da bottom nav).
 library;
 
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/services/analytics_service.dart';
 import '../../../core/theme/app_spacing.dart';
 import '../../../core/widgets/app_linear_progress.dart';
 import '../../../core/widgets/app_safe_area.dart';
@@ -253,6 +256,9 @@ class ChecklistPage extends GetView<ChecklistController> {
   /// Abre a tela de perfil e recarrega o checklist ao voltar (perfil pode ter mudado).
   static Future<void> editProfile(BuildContext context) async {
     CompanyProfileController.ensureRegistered();
+    unawaited(
+      AnalyticsService.maybe?.logScreen(AnalyticsService.screenCompanyProfile),
+    );
     await Get.to(() => const CompanyProfilePage());
     if (!Get.isRegistered<ChecklistController>()) return;
     await Get.find<ChecklistController>().reload();

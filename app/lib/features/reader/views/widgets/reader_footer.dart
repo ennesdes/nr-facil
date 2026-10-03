@@ -10,6 +10,7 @@ import 'package:nrfacil/core/utils/app_logger.dart';
 import 'package:nrfacil/core/utils/responsive_layout.dart';
 import 'package:nrfacil/features/reader/utils/reader_typography.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Rodapé do leitor com seção "Documento oficial" e metadados.
 class ReaderFooter extends StatelessWidget {
@@ -64,7 +65,7 @@ class ReaderFooter extends StatelessWidget {
               child: AppFilterChip(
                 label: 'Ver PDF original no MTE',
                 icon: Icons.picture_as_pdf,
-                onTap: () => _launchPdfUrl(nrEntry?.pdfUrl),
+                onTap: () => _launchPdfUrl(nrEntry?.pdfUrl, trackNrId: nrId),
               ),
             ),
           const SizedBox(height: AppSpacing.md),
@@ -128,7 +129,7 @@ class ReaderFooter extends StatelessWidget {
     );
   }
 
-  Future<void> _launchPdfUrl(String? url) async {
+  Future<void> _launchPdfUrl(String? url, {String? trackNrId}) async {
     if (url == null || url.isEmpty) {
       AppLogger.warning('URL do PDF não disponível');
       return;
@@ -137,7 +138,13 @@ class ReaderFooter extends StatelessWidget {
     try {
       final uri = Uri.parse(url);
       if (await canLaunchUrl(uri)) {
-        await launchUrl(uri, mode: LaunchMode.externalApplication);
+        final opened = await launchUrl(
+          uri,
+          mode: LaunchMode.externalApplication,
+        );
+        if (opened && trackNrId != null) {
+          await AnalyticsService.maybe?.logOpenOfficialPdf(trackNrId);
+        }
       } else {
         AppLogger.warning('Não foi possível abrir URL: $url');
       }

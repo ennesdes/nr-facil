@@ -5,6 +5,7 @@ import '../../features/home/controllers/home_controller.dart';
 import '../../features/home/controllers/normas_controller.dart';
 import '../../features/search/controllers/search_screen_controller.dart';
 import '../controllers/theme_controller.dart';
+import '../services/analytics_service.dart';
 import '../services/compliance_service.dart';
 import '../services/content_service.dart';
 import '../services/search_service.dart';
@@ -39,6 +40,11 @@ class AppBinding extends Bindings {
   void dependencies() {
     if (!Get.isRegistered<ThemeController>()) {
       Get.put<ThemeController>(ThemeController(), permanent: true);
+    }
+
+    // AnalyticsService — telas e eventos-chave (no-op sem Firebase)
+    if (!Get.isRegistered<AnalyticsService>()) {
+      Get.put<AnalyticsService>(AnalyticsService(), permanent: true);
     }
 
     // StorageService — gerencia GetStorage local

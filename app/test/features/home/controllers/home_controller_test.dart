@@ -1,7 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/home/controllers/home_controller.dart';
+
+import '../../../support/fake_analytics_service.dart';
 
 /// Mock simples de ContentService para testes
 class FakeContentService implements ContentService {
@@ -152,6 +155,21 @@ void main() {
 
       homeController.selectTab(HomeController.tabBuscar);
       expect(homeController.selectedTab.value, HomeController.tabBuscar);
+    });
+
+    test('aba inicial e selectTab registram screen_view', () async {
+      final analytics = Get.put<AnalyticsService>(
+        FakeAnalyticsService(),
+      ) as FakeAnalyticsService;
+      fakeContentService.favoriteIds.clear();
+
+      await homeController.onInit();
+      homeController.selectTab(HomeController.tabBuscar);
+
+      expect(analytics.screens, [
+        AnalyticsService.screenHomeNormas,
+        AnalyticsService.screenHomeBusca,
+      ]);
     });
   });
 }

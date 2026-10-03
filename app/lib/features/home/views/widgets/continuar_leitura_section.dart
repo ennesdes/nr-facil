@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/features/home/views/widgets/continuar_leitura_card.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Card "Continuar leitura" — exibir última NR aberta com progresso.
 class ContinuarLeituraSection extends StatelessWidget {
@@ -33,7 +34,10 @@ class ContinuarLeituraSection extends StatelessWidget {
         progressPercent: progress,
         hasUpdate: contentService.hasUpdate(lastOpenedNrId),
         onTap: () {
-          ReaderNavigation.open(nrId: lastOpenedNrId);
+          ReaderNavigation.open(
+            nrId: lastOpenedNrId,
+            source: AnalyticsService.sourceContinuarLeitura,
+          );
         },
       );
     });

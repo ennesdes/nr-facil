@@ -83,4 +83,4 @@ Ordem de registro: ver comentários em `app_binding.dart`.
 |------------|------|
 | GitHub raw | `AppConfig` URLs + `ContentService` |
 | AdMob | `ads_service.dart`, `AppConfig.adsEnabled` |
-| Firebase | Crashlytics/perf em `main.dart` (não é backend de conteúdo) |
+| Firebase | Crashlytics/perf/analytics inicializados em `main.dart`; `core/utils/crash_reporting.dart`, `core/services/analytics_service.dart` (não é backend de conteúdo) |

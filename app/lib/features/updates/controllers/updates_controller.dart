@@ -8,6 +8,7 @@ import 'package:nrfacil/core/models/sync_progress.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 
 /// Controller para a tela de Atualizações.
 ///
@@ -177,7 +178,10 @@ class UpdatesController extends GetxController {
   /// abrir o CTA). Marcar como vista antes de navegar impediria o banner de
   /// aparecer, já que `hasUpdate` já estaria `false` quando o leitor abrisse.
   void openNrAndMarkSeen(ManifestEntry entry) {
-    ReaderNavigation.open(nrId: entry.id);
+    ReaderNavigation.open(
+      nrId: entry.id,
+      source: AnalyticsService.sourceAtualizacoes,
+    );
   }
 
   /// Exibe confirmação e cancela o download em massa, se o usuário confirmar.

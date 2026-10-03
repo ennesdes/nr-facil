@@ -55,6 +55,9 @@ Copy completa e variantes A/B: [docs/store/listing-pt-BR.md](../store/listing-pt
 Declare honestamente:
 
 - Dados coletados: mínimo (AdMob coleta conforme política Google)
+- **Atividade no app** (Firebase Analytics): interações com o app, histórico de pesquisa no app. Marcar como coletado, não compartilhado, finalidade **Análise**
+- **Informações e desempenho do app** (Crashlytics/Performance): registros de falhas, diagnósticos. Coletado, não compartilhado, finalidade **Análise**
+- **Identificadores do dispositivo ou outros** (ID de instância do Firebase / ID de publicidade do AdMob)
 - Favoritos: armazenados **localmente** no dispositivo
 - Sem conta de usuário no MVP
 

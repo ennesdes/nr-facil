@@ -8,10 +8,12 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
+import 'package:nrfacil/core/services/analytics_service.dart';
 import 'package:nrfacil/core/services/content_service.dart';
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
+import '../../support/fake_analytics_service.dart';
 import '../../support/test_content_service.dart';
 
 class _FakePathProviderPlatform extends PathProviderPlatform
@@ -486,6 +488,23 @@ void main() {
 
       expect(reloaded.isFavorite('nr-06'), isTrue);
       reloaded.onClose();
+    });
+
+    test('toggleFavorite registra favorite_add/favorite_remove', () async {
+      final analytics = Get.put<AnalyticsService>(
+        FakeAnalyticsService(),
+      ) as FakeAnalyticsService;
+
+      contentService.toggleFavorite('nr-06');
+      contentService.toggleFavorite('nr-06');
+
+      expect(analytics.events.map((e) => e.$1), [
+        AnalyticsService.eventFavoriteAdd,
+        AnalyticsService.eventFavoriteRemove,
+      ]);
+      for (final (_, params) in analytics.events) {
+        expect(params, {AnalyticsService.paramNrId: 'nr-06'});
+      }
     });
 
     test('toggleFavorite remove favorito persistido', () async {
