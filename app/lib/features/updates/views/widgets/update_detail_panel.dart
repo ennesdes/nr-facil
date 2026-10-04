@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/theme/app_spacing.dart';
 import 'package:nrfacil/core/theme/app_theme_extensions.dart';
@@ -8,14 +9,22 @@ import 'package:nrfacil/features/updates/views/widgets/update_items_list.dart';
 /// Painel de detalhes granulares de uma atualização de NR.
 class UpdateDetailPanel extends StatelessWidget {
   final UpdateEntry updateEntry;
+  final ValueChanged<UpdateItem>? onItemTap;
+  final VoidCallback? onMarkReviewed;
 
-  const UpdateDetailPanel({required this.updateEntry, super.key});
+  const UpdateDetailPanel({
+    required this.updateEntry,
+    this.onItemTap,
+    this.onMarkReviewed,
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final semantics = context.semanticColors;
+    final hasItems = updateEntry.items.isNotEmpty;
 
     return Container(
       width: double.infinity,
@@ -60,7 +69,15 @@ class UpdateDetailPanel extends StatelessWidget {
               softWrap: true,
             ),
           ],
-          if (updateEntry.items.isNotEmpty) ...[
+          if (hasItems) ...[
+            const SizedBox(height: AppSpacing.sm),
+            Text(
+              'Toque em um item para ver no texto e concluir a revisão.',
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: colorScheme.onSurfaceVariant,
+                height: 1.35,
+              ),
+            ),
             const SizedBox(height: AppSpacing.sm),
             UpdateItemsList(
               items: updateEntry.items,
@@ -68,6 +85,7 @@ class UpdateDetailPanel extends StatelessWidget {
               contentRef: updateEntry.contentRef,
               padding: EdgeInsets.zero,
               itemSpacing: AppSpacing.sm,
+              onItemTap: onItemTap,
             ),
           ] else if (updateEntry.summary.isNotEmpty) ...[
             const SizedBox(height: AppSpacing.sm),
@@ -77,6 +95,17 @@ class UpdateDetailPanel extends StatelessWidget {
                 color: colorScheme.onSurface,
               ),
             ),
+            if (onMarkReviewed != null) ...[
+              const SizedBox(height: AppSpacing.sm),
+              Semantics(
+                identifier: ManagementSemanticsIds.markUpdateReviewedButton,
+                button: true,
+                child: FilledButton.tonal(
+                  onPressed: onMarkReviewed,
+                  child: const Text('Marcar como revisada'),
+                ),
+              ),
+            ],
           ],
         ],
       ),

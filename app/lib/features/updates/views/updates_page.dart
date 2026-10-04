@@ -9,6 +9,7 @@ import 'package:nrfacil/features/updates/controllers/updates_controller.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_entry_card.dart';
 import 'package:nrfacil/features/updates/views/widgets/updates_action_progress.dart';
 import 'package:nrfacil/features/updates/views/widgets/updates_quick_actions.dart';
+import 'package:nrfacil/features/updates/utils/update_date_utils.dart';
 import 'package:nrfacil/features/updates/views/widgets/updates_summary_header.dart';
 
 /// UpdatesPage — tela de atualizações de NRs.
@@ -16,7 +17,7 @@ import 'package:nrfacil/features/updates/views/widgets/updates_summary_header.da
 /// Exibe:
 /// - Lista de NRs com atualizações pendentes
 /// - Detalhes granulares por norma (portaria, itens alterados)
-/// - Tap abre o leitor (marca como vista no leitor)
+/// - Revisão concluída ao ver o diff (item ou marcar resumo)
 /// - Estado vazio quando não há atualizações
 class UpdatesPage extends GetView<UpdatesController> {
   const UpdatesPage({super.key});
@@ -66,6 +67,11 @@ class UpdatesPage extends GetView<UpdatesController> {
               );
 
               if (updates.isEmpty) {
+                final syncedAt = controller.lastSyncedAt;
+                final lastCheckLine = syncedAt != null
+                    ? 'Última verificação: ${formatUpdateDate(syncedAt)}.'
+                    : null;
+
                 return ListView(
                   padding: const EdgeInsets.all(AppSpacing.md),
                   children: [
@@ -77,8 +83,10 @@ class UpdatesPage extends GetView<UpdatesController> {
                       identifier: ManagementSemanticsIds.updatesEmptyState,
                       child: EmptyState(
                         icon: Icons.notifications_off_outlined,
-                        title: 'Nenhuma atualização disponível',
-                        body: 'Suas normas estão em dia.',
+                        title: 'Nada para revisar',
+                        body: lastCheckLine == null
+                            ? 'Suas normas estão em dia.'
+                            : 'Suas normas estão em dia.\n$lastCheckLine',
                         actions: [
                           UpdatesQuickActions(
                             isChecking: isChecking,
@@ -125,7 +133,13 @@ class UpdatesPage extends GetView<UpdatesController> {
                   return UpdateEntryCard(
                     entry: entry,
                     updateEntry: updateEntry,
-                    onTap: () => controller.openNrAndMarkSeen(entry),
+                    onOpenNr: () => controller.openNr(entry),
+                    onItemTap: updateEntry == null
+                        ? null
+                        : (item) => controller.openUpdateItem(entry, item),
+                    onMarkReviewed: updateEntry == null
+                        ? null
+                        : () => controller.markAsReviewed(entry.id),
                   );
                 },
               );

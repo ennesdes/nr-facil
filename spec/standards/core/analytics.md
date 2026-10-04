@@ -32,6 +32,7 @@ Telas e eventos-chave de produto. O código fica em `app/lib/core/services/analy
 | `favorite_add` / `favorite_remove` | `nr_id` | `ContentService.toggleFavorite` |
 | `open_official_pdf` | `nr_id` | `NrReaderHeader` / `ReaderFooter` (só se `launchUrl` abriu) |
 | `open_updates` | — | sino da `HomePage` |
+| `acknowledge_update` | `nr_id`, `reason` (`sheetView`, `itemTap`, `bannerDismiss`, `summaryButton`) | `ContentService.acknowledgeNrUpdate` |
 
 O SDK coleta automaticamente `first_open`, `session_start`, `user_engagement`, `app_update` e `in_app_purchase` (quando houver IAP).
 

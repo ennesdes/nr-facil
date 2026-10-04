@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
+import 'package:nrfacil/core/models/acknowledge_update_reason.dart';
 import 'package:nrfacil/core/constants/app_config.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
 import 'package:nrfacil/core/services/analytics_service.dart';
@@ -320,6 +321,29 @@ void main() {
         expect(contentService.updatedNrs.map((e) => e.id), ['nr-06']);
       },
     );
+
+    test('acknowledgeNrUpdate grava last_seen e limpa hasUpdate', () async {
+      GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');
+
+      await contentService.syncMetadata();
+
+      expect(contentService.hasUpdate('nr-06'), isTrue);
+
+      contentService.acknowledgeNrUpdate(
+        'nr-06',
+        reason: AcknowledgeUpdateReason.summaryButton,
+      );
+
+      expect(contentService.hasUpdate('nr-06'), isFalse);
+      expect(contentService.updatedNrs, isEmpty);
+      expect(GetStorage().read(StorageKeys.nrLastSeenHash('nr-06')), 'hash-06');
+
+      contentService.acknowledgeNrUpdate(
+        'nr-06',
+        reason: AcknowledgeUpdateReason.summaryButton,
+      );
+      expect(contentService.hasUpdate('nr-06'), isFalse);
+    });
 
     test('dismissPendingUpdatesCard oculta card e persiste snapshot', () async {
       GetStorage().write(StorageKeys.nrLastSeenHash('nr-06'), 'hash-antigo');

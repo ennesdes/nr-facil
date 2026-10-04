@@ -2,7 +2,7 @@
 
 **SSOT:** [`../../../../spec/capabilities/settings/README.md`](../../../../spec/capabilities/settings/README.md)
 
-Ajustes: tema, verificar atualizações, links legais.
+Ajustes: tema, texto sobre sync de conteúdo, links legais. Verificar atualizações na tela do sino.
 
 | Área | Arquivos |
 |------|----------|

@@ -12,6 +12,7 @@ import 'package:path_provider/path_provider.dart';
 
 import '../constants/app_config.dart';
 import '../constants/storage_keys.dart';
+import '../models/acknowledge_update_reason.dart';
 import '../models/app_meta.dart';
 import '../models/manifest.dart';
 import '../models/sync_progress.dart';
@@ -1044,7 +1045,7 @@ class ContentService extends GetxService {
     }
 
     final current = manifest.value;
-    if (current == null) return;
+    if (current == null || current.nrs.isEmpty) return;
 
     for (final entry in current.nrs) {
       final seen =
@@ -1073,16 +1074,28 @@ class ContentService extends GetxService {
     return entry.hash != lastSeenHash;
   }
 
-  /// Marcar NR como vista (atualizar last_seen_hash).
+  /// Marcar NR como revisada — grava `last_seen_hash` com o hash atual do manifest.
   ///
-  /// Chamar ao abrir o leitor de uma NR.
+  /// Preferir [acknowledgeNrUpdate] na UI para registrar analytics e motivo.
   void markNrAsSeen(String nrId) {
     final entry = manifest.value?.findNr(nrId);
     if (entry != null) {
       GetStorage().write(StorageKeys.nrLastSeenHash(nrId), entry.hash);
-      AppLogger.debug('NR $nrId marcada como vista');
-      _updateUnreadCount(); // Atualizar contagem após marcar como visto
+      AppLogger.debug('NR $nrId marcada como revisada');
+      _updateUnreadCount();
     }
+  }
+
+  /// Usuário concluiu a revisão do diff (ver `AcknowledgeUpdateReason`).
+  void acknowledgeNrUpdate(
+    String nrId, {
+    required AcknowledgeUpdateReason reason,
+  }) {
+    if (!hasUpdate(nrId)) return;
+    markNrAsSeen(nrId);
+    unawaited(
+      AnalyticsService.maybe?.logAcknowledgeUpdate(nrId, reason: reason),
+    );
   }
 
   /// Obter lista de NRs com atualizações pendentes (não revogadas).

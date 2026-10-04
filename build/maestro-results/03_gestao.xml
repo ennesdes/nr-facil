@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="Emulator" tests="1" failures="0" time="25.171" timestamp="2026-10-03T23:45:23">
-    <testcase id="Gestão — Settings, Atualizações e ads" name="Gestão — Settings, Atualizações e ads" classname="Gestão — Settings, Atualizações e ads" file=".maestro/flows/ci/03_gestao.yaml" time="25.161" timestamp="2026-10-03T23:45:23" status="SUCCESS"/>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="0" time="24.631" timestamp="2026-10-04T00:36:18">
+    <testcase id="Gestão — Settings, Atualizações e ads" name="Gestão — Settings, Atualizações e ads" classname="Gestão — Settings, Atualizações e ads" file=".maestro/flows/ci/03_gestao.yaml" time="24.621" timestamp="2026-10-04T00:36:18" status="SUCCESS"/>
   </testsuite>
 </testsuites>

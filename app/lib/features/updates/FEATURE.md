@@ -2,7 +2,7 @@
 
 **SSOT:** [`../../../../spec/capabilities/updates/README.md`](../../../../spec/capabilities/updates/README.md)
 
-Tela do sino, feed `app_meta.json`, detalhes de mudanças por NR.
+Inbox de revisão (`acknowledgeNrUpdate`), feed `app_meta.json`, diff por NR. Ver `spec/capabilities/updates/01-tela-atualizacoes.md`.
 
 | Área | Arquivos |
 |------|----------|

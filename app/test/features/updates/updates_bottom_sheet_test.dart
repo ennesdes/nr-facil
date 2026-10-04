@@ -74,7 +74,7 @@ void main() {
     await tester.tap(find.text('Abrir'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Atualizações pendentes'), findsOneWidget);
+    expect(find.text('O que mudou'), findsOneWidget);
     expect(find.text('Item 6.5'), findsOneWidget);
     expect(find.text('Item 6.21'), findsOneWidget);
     expect(find.text('Novo'), findsOneWidget);

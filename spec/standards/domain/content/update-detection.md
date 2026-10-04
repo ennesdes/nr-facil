@@ -13,17 +13,22 @@
 
 | Chave | Significado |
 |-------|-------------|
-| `last_synced_hash` | Hash baixado localmente |
-| `last_seen_hash` | Hash que o usuário já “viu” |
-| `hasUpdate` | Remoto ≠ `last_seen_hash` |
+| `last_synced_hash` / `nrCoreSyncedHash` | Conteúdo baixado no aparelho |
+| `last_seen_hash` (`nrLastSeenHash`) | Hash que o usuário já **revisou** (viu o diff) |
+| `hasUpdate` | Hash remoto no manifest ≠ `last_seen_hash` |
+
+API canônica na UI: `acknowledgeNrUpdate(nrId, reason)` — grava `last_seen_hash` e analytics `acknowledge_update`.
 
 ## Regras de UX
 
 | Condição | Então |
 |----------|--------|
-| Usuário abre NR com atualização pendente | Banner no leitor; **não** gravar `last_seen_hash` automaticamente |
-| Usuário dispensa banner (X) ou toca "Ver o que mudou" | `markNrAsSeen` grava `last_seen_hash` |
-| Abertura a partir do sino (Atualizações) | Não marcar como vista antes de navegar |
+| Usuário abre o leitor sem ver o diff | **Não** chamar `acknowledgeNrUpdate` — badge permanece |
+| Usuário abre bottom sheet “O que mudou” | `acknowledgeNrUpdate` com `sheetView` |
+| Usuário toca item alterado na lista de mudanças | `acknowledgeNrUpdate` com `itemTap` + navega ao trecho |
+| Só há `summary` (sem `items`) | Botão “Marcar como revisada” → `summaryButton` |
+| Usuário fecha banner no leitor (X) | `bannerDismiss` |
+| Card da home: “Ocultar aviso” | Só dispensa o card (`pendingUpdatesCardDismissedSnapshot`) — **não** revisa |
 
 ## Feed (`app_meta.json`)
 

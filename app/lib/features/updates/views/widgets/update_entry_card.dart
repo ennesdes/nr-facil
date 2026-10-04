@@ -8,16 +8,20 @@ import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/core/widgets/update_highlight.dart';
 import 'package:nrfacil/features/updates/views/widgets/update_detail_panel.dart';
 
-/// Card unificado para uma NR com atualização pendente.
+/// Card para uma NR com atualização pendente de revisão.
 class UpdateEntryCard extends StatelessWidget {
   final ManifestEntry entry;
   final UpdateEntry? updateEntry;
-  final VoidCallback onTap;
+  final VoidCallback onOpenNr;
+  final ValueChanged<UpdateItem>? onItemTap;
+  final VoidCallback? onMarkReviewed;
 
   const UpdateEntryCard({
     required this.entry,
-    required this.onTap,
+    required this.onOpenNr,
     this.updateEntry,
+    this.onItemTap,
+    this.onMarkReviewed,
     super.key,
   });
 
@@ -45,71 +49,70 @@ class UpdateEntryCard extends StatelessWidget {
             colorScheme: colorScheme,
           ),
         ),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(AppRadius.md),
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.all(AppSpacing.md),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                UpdateHighlight.leadingStripe(context: context, visible: true),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
-                                  children: [
-                                    Text(
-                                      entry.nrLabel,
-                                      style: theme.textTheme.titleSmall
-                                          ?.copyWith(
-                                            color: colorScheme.primary,
-                                          ),
-                                    ),
-                                    const SizedBox(width: AppSpacing.sm),
-                                    const Flexible(
-                                      child: NrBadge(
-                                        variant: NrBadgeVariant.update,
-                                        compact: true,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                const SizedBox(height: 2),
-                                Text(
-                                  displayTitle,
-                                  style: theme.textTheme.bodyMedium?.copyWith(
-                                    color: colorScheme.onSurface,
-                                  ),
-                                  maxLines: 2,
-                                  overflow: TextOverflow.ellipsis,
-                                ),
-                              ],
-                            ),
+        child: Padding(
+          padding: const EdgeInsets.all(AppSpacing.md),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              UpdateHighlight.leadingStripe(context: context, visible: true),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Text(
+                          entry.nrLabel,
+                          style: theme.textTheme.titleSmall?.copyWith(
+                            color: colorScheme.primary,
                           ),
-                          Icon(
-                            Icons.chevron_right,
-                            color: colorScheme.onSurfaceVariant,
+                        ),
+                        const SizedBox(width: AppSpacing.sm),
+                        const Flexible(
+                          child: NrBadge(
+                            variant: NrBadgeVariant.update,
+                            compact: true,
                           ),
-                        ],
-                      ),
-                      if (updateEntry != null) ...[
-                        const SizedBox(height: AppSpacing.md),
-                        UpdateDetailPanel(updateEntry: updateEntry!),
+                        ),
                       ],
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      displayTitle,
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: colorScheme.onSurface,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    if (updateEntry != null) ...[
+                      const SizedBox(height: AppSpacing.md),
+                      UpdateDetailPanel(
+                        updateEntry: updateEntry!,
+                        onItemTap: onItemTap,
+                        onMarkReviewed: onMarkReviewed,
+                      ),
                     ],
-                  ),
+                    const SizedBox(height: AppSpacing.sm),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Semantics(
+                        identifier:
+                            ManagementSemanticsIds.openNrFromUpdatesButton(
+                              entry.id,
+                            ),
+                        button: true,
+                        child: TextButton.icon(
+                          onPressed: onOpenNr,
+                          icon: const Icon(Icons.menu_book_outlined, size: 18),
+                          label: const Text('Abrir norma'),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),

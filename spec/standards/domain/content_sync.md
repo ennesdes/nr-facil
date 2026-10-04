@@ -17,7 +17,7 @@
 | App em runtime | **Nunca** chama portal MTE para baixar PDF/MD |
 | Sem rede | Usar cache local (`path_provider`) |
 | `min_app_version` em `app_meta.json` > versão instalada | Diálogo de update obrigatório no startup |
-| Botão "Verificar atualizações" | `ContentService` refetch manifest + sync incremental |
+| Botão "Verificar atualizações" (tela do sino) | `ContentService.syncMetadata` + índices de busca em background |
 
 ## Implementação
 

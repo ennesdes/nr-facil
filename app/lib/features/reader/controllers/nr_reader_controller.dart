@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:nrfacil/core/constants/storage_keys.dart';
 import 'package:nrfacil/core/controllers/theme_controller.dart';
+import 'package:nrfacil/core/models/acknowledge_update_reason.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/nr_index.dart';
@@ -979,7 +980,10 @@ class NRReaderController extends GetxController {
 
   void dismissUpdateBanner() {
     showUpdateBanner.value = false;
-    contentService.markNrAsSeen(nrId);
+    contentService.acknowledgeNrUpdate(
+      nrId,
+      reason: AcknowledgeUpdateReason.bannerDismiss,
+    );
   }
 
   UpdateEntry? getUpdateEntry() => contentService.updateEntryFor(nrId);

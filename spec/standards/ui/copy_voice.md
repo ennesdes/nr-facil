@@ -26,7 +26,11 @@ Consultor de SST acessível: claro, direto, respeitoso. Ajuda a **consultar** no
 |-------|-----|
 | **norma** / **NR** | Norma Regulamentadora |
 | **Baixar** | Sync offline de uma NR |
-| **Atualizações** | Feed de mudanças (sino) |
+| **Atualizações** | Inbox de normas para revisar (sino) |
+| **Para revisar** | Badge/lista quando `hasUpdate` |
+| **Marcar como revisada** | Concluir revisão do diff sem abrir item no texto |
+| **Abrir norma** | Leitor sem concluir revisão |
+| **Ocultar aviso** | Dispensar card na home (não revisa) |
 | **Checklist** | Conformidade por empresa (NR-28 e itens) |
 | **Ajustes** | Tema, verificar atualizações, legal |
 

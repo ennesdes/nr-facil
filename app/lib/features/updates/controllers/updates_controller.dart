@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/models/acknowledge_update_reason.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/models/sync_progress.dart';
@@ -9,6 +10,7 @@ import 'package:nrfacil/core/services/content_service.dart';
 import 'package:nrfacil/core/widgets/app_snackbar.dart';
 import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/core/services/analytics_service.dart';
+import 'package:nrfacil/features/updates/utils/update_review_actions.dart';
 
 /// Controller para a tela de Atualizações.
 ///
@@ -171,17 +173,31 @@ class UpdatesController extends GetxController {
     return _contentService.updateEntryFor(nrId);
   }
 
-  /// Abrir o leitor de uma NR a partir da tela de Atualizações.
-  ///
-  /// Não marca como vista aqui — o leitor decide isso (banner "NR atualizada"
-  /// com CTA "Ver o que mudou"; marca como vista só ao dispensar o banner ou
-  /// abrir o CTA). Marcar como vista antes de navegar impediria o banner de
-  /// aparecer, já que `hasUpdate` já estaria `false` quando o leitor abrisse.
-  void openNrAndMarkSeen(ManifestEntry entry) {
+  DateTime? get lastSyncedAt => _contentService.lastSyncedAt.value;
+
+  /// Abre o leitor sem concluir a revisão do diff.
+  void openNr(ManifestEntry entry) {
     ReaderNavigation.open(
       nrId: entry.id,
       source: AnalyticsService.sourceAtualizacoes,
     );
+  }
+
+  void openUpdateItem(ManifestEntry entry, UpdateItem item) {
+    openUpdateItemInReader(
+      contentService: _contentService,
+      nrId: entry.id,
+      item: item,
+    );
+    updatedNrs.value = _contentService.updatedNrs;
+  }
+
+  void markAsReviewed(String nrId) {
+    _contentService.acknowledgeNrUpdate(
+      nrId,
+      reason: AcknowledgeUpdateReason.summaryButton,
+    );
+    updatedNrs.value = _contentService.updatedNrs;
   }
 
   /// Exibe confirmação e cancela o download em massa, se o usuário confirmar.

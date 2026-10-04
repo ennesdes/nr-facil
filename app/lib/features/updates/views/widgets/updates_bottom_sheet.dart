@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:nrfacil/core/constants/semantics/management_semantics_ids.dart';
+import 'package:nrfacil/core/models/acknowledge_update_reason.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/manifest.dart';
 import 'package:nrfacil/core/services/content_service.dart';
@@ -9,9 +10,8 @@ import 'package:nrfacil/core/theme/app_theme_extensions.dart';
 import 'package:nrfacil/core/widgets/app_modal_bottom_sheet.dart';
 import 'package:nrfacil/core/widgets/nr_badge.dart';
 import 'package:nrfacil/features/reader/controllers/nr_reader_controller.dart';
-import 'package:nrfacil/features/reader/utils/reader_navigation.dart';
 import 'package:nrfacil/features/updates/utils/update_item_display.dart';
-import 'package:nrfacil/core/services/analytics_service.dart';
+import 'package:nrfacil/features/updates/utils/update_review_actions.dart';
 
 /// Bottom sheet compartilhado para listar atualizações pendentes.
 class UpdatesBottomSheet {
@@ -24,6 +24,7 @@ class UpdatesBottomSheet {
       context: context,
       entries: contentService.updatedNrs,
       contentService: contentService,
+      acknowledgeOnView: true,
     );
   }
 
@@ -39,6 +40,7 @@ class UpdatesBottomSheet {
       entries: [entry],
       contentService: contentService,
       readerController: readerController,
+      acknowledgeOnView: true,
     );
   }
 
@@ -47,11 +49,23 @@ class UpdatesBottomSheet {
     required List<ManifestEntry> entries,
     required ContentService contentService,
     NRReaderController? readerController,
+    bool acknowledgeOnView = false,
   }) {
     return showAppModalBottomSheet<void>(
       context: context,
       isScrollControlled: true,
       builder: (sheetContext) {
+        if (acknowledgeOnView) {
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            for (final entry in entries) {
+              contentService.acknowledgeNrUpdate(
+                entry.id,
+                reason: AcknowledgeUpdateReason.sheetView,
+              );
+            }
+          });
+        }
+
         return DraggableScrollableSheet(
           expand: false,
           maxChildSize: 0.9,
@@ -73,7 +87,7 @@ class UpdatesBottomSheet {
                       children: [
                         Expanded(
                           child: Text(
-                            'Atualizações pendentes',
+                            'O que mudou',
                             style: Theme.of(context).textTheme.titleLarge,
                             maxLines: 2,
                             overflow: TextOverflow.ellipsis,
@@ -102,10 +116,17 @@ class UpdatesBottomSheet {
                             showNrHeader: entries.length > 1,
                             onItemTap: (item) => _handleItemTap(
                               sheetContext: sheetContext,
+                              contentService: contentService,
                               nrId: entries[i].id,
                               item: item,
                               readerController: readerController,
                             ),
+                            onMarkReviewed: () {
+                              contentService.acknowledgeNrUpdate(
+                                entries[i].id,
+                                reason: AcknowledgeUpdateReason.summaryButton,
+                              );
+                            },
                           ),
                           if (i < entries.length - 1)
                             const SizedBox(height: AppSpacing.md),
@@ -124,21 +145,17 @@ class UpdatesBottomSheet {
 
   static void _handleItemTap({
     required BuildContext sheetContext,
+    required ContentService contentService,
     required String nrId,
     required UpdateItem item,
     NRReaderController? readerController,
   }) {
     Navigator.pop(sheetContext);
-
-    if (readerController != null && readerController.nrId == nrId) {
-      readerController.navigateToItemNumber(item.item);
-      return;
-    }
-
-    ReaderNavigation.open(
+    openUpdateItemInReader(
+      contentService: contentService,
       nrId: nrId,
-      source: AnalyticsService.sourceAtualizacoes,
-      initialAnchor: item.item,
+      item: item,
+      readerController: readerController,
     );
   }
 }
@@ -148,12 +165,14 @@ class _NrUpdatesGroup extends StatelessWidget {
   final UpdateEntry? updateEntry;
   final bool showNrHeader;
   final ValueChanged<UpdateItem> onItemTap;
+  final VoidCallback onMarkReviewed;
 
   const _NrUpdatesGroup({
     required this.entry,
     required this.updateEntry,
     required this.showNrHeader,
     required this.onItemTap,
+    required this.onMarkReviewed,
   });
 
   @override
@@ -179,6 +198,7 @@ class _NrUpdatesGroup extends StatelessWidget {
             summary:
                 updateEntry?.summary ??
                 'Detalhes indisponíveis para esta atualização.',
+            onMarkReviewed: onMarkReviewed,
           )
         else
           ...List.generate(items.length, (index) {
@@ -188,6 +208,7 @@ class _NrUpdatesGroup extends StatelessWidget {
                 bottom: index < items.length - 1 ? AppSpacing.xs : 0,
               ),
               child: _UpdateSheetItemRow(
+                nrId: entry.id,
                 item: item,
                 onTap: () => onItemTap(item),
               ),
@@ -199,10 +220,15 @@ class _NrUpdatesGroup extends StatelessWidget {
 }
 
 class _UpdateSheetItemRow extends StatelessWidget {
+  final String nrId;
   final UpdateItem item;
   final VoidCallback onTap;
 
-  const _UpdateSheetItemRow({required this.item, required this.onTap});
+  const _UpdateSheetItemRow({
+    required this.nrId,
+    required this.item,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -212,42 +238,46 @@ class _UpdateSheetItemRow extends StatelessWidget {
     final style = _styleForType(context, display.tipo);
     final detailLabel = item.isTableChange ? 'Tabela alterada' : style.label;
 
-    return Material(
-      color: colorScheme.surfaceContainerHighest.withValues(alpha: 0.45),
-      borderRadius: BorderRadius.circular(AppRadius.sm),
-      child: InkWell(
+    return Semantics(
+      identifier: ManagementSemanticsIds.updateItemRow(nrId, display.item),
+      button: true,
+      child: Material(
+        color: colorScheme.surfaceContainerHighest.withValues(alpha: 0.45),
         borderRadius: BorderRadius.circular(AppRadius.sm),
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.md,
-            vertical: AppSpacing.sm,
-          ),
-          child: Row(
-            children: [
-              Icon(style.icon, size: 18, color: style.color),
-              const SizedBox(width: AppSpacing.sm),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Item ${display.item}',
-                      style: theme.textTheme.labelMedium?.copyWith(
-                        color: colorScheme.onSurface,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(AppRadius.sm),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.md,
+              vertical: AppSpacing.sm,
+            ),
+            child: Row(
+              children: [
+                Icon(style.icon, size: 18, color: style.color),
+                const SizedBox(width: AppSpacing.sm),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Item ${display.item}',
+                        style: theme.textTheme.labelMedium?.copyWith(
+                          color: colorScheme.onSurface,
+                        ),
                       ),
-                    ),
-                    Text(
-                      detailLabel,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: style.color,
+                      Text(
+                        detailLabel,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: style.color,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-              Icon(Icons.chevron_right, color: colorScheme.onSurfaceVariant),
-            ],
+                Icon(Icons.chevron_right, color: colorScheme.onSurfaceVariant),
+              ],
+            ),
           ),
         ),
       ),
@@ -288,18 +318,36 @@ class _UpdateSheetItemRow extends StatelessWidget {
 
 class _FallbackSummaryRow extends StatelessWidget {
   final String summary;
+  final VoidCallback onMarkReviewed;
 
-  const _FallbackSummaryRow({required this.summary});
+  const _FallbackSummaryRow({
+    required this.summary,
+    required this.onMarkReviewed,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: AppSpacing.xs),
-      child: Text(
-        summary,
-        style: Theme.of(context).textTheme.bodyMedium
-            ?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: AppSpacing.xs),
+          child: Text(
+            summary,
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
+          ),
+        ),
+        Semantics(
+          identifier: ManagementSemanticsIds.markUpdateReviewedButton,
+          button: true,
+          child: FilledButton.tonal(
+            onPressed: onMarkReviewed,
+            child: const Text('Marcar como revisada'),
+          ),
+        ),
+      ],
     );
   }
 }

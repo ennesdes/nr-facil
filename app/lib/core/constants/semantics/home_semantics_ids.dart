@@ -23,6 +23,9 @@ class HomeSemanticsIds {
   /// Card de atualizações pendentes na Home (acima de Continuar leitura).
   static const String pendingUpdatesCard = 'pending_updates_card';
 
+  static const String pendingUpdatesCardDismiss =
+      'pending_updates_card_dismiss';
+
   // === NR List Tiles ===
   /// ID do tile de uma NR na lista (Normas ou Favoritos).
   /// Uso: `Semantics(identifier: HomeSemanticsIds.nrTile(nrId), ...)`

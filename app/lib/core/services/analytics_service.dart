@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 
+import '../models/acknowledge_update_reason.dart';
 import '../utils/app_logger.dart';
 
 /// Coleta desligada em debug (inclui `flutter test`); ligada em profile/release.
@@ -33,6 +34,9 @@ class AnalyticsService extends GetxService {
   static const eventFavoriteRemove = 'favorite_remove';
   static const eventOpenOfficialPdf = 'open_official_pdf';
   static const eventOpenUpdates = 'open_updates';
+  static const eventAcknowledgeUpdate = 'acknowledge_update';
+
+  static const paramAcknowledgeReason = 'reason';
 
   static const paramNrId = 'nr_id';
   static const paramSource = 'source';
@@ -81,6 +85,14 @@ class AnalyticsService extends GetxService {
       sendEvent(eventOpenOfficialPdf, {paramNrId: nrId});
 
   Future<void> logOpenUpdates() => sendEvent(eventOpenUpdates, const {});
+
+  Future<void> logAcknowledgeUpdate(
+    String nrId, {
+    required AcknowledgeUpdateReason reason,
+  }) => sendEvent(eventAcknowledgeUpdate, {
+    paramNrId: nrId,
+    paramAcknowledgeReason: reason.name,
+  });
 
   /// Ponto único de envio de evento — sobrescrito pelo fake nos testes.
   @protected

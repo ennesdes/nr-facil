@@ -101,7 +101,7 @@ class UpdateBanner extends GetView<NRReaderController> {
             ),
             IconButton(
               icon: const Icon(Icons.close, size: 20),
-              tooltip: 'Dispensar',
+              tooltip: 'Marcar como revisada',
               onPressed: controller.dismissUpdateBanner,
             ),
           ],

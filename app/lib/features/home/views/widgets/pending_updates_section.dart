@@ -76,7 +76,7 @@ class PendingUpdatesSection extends StatelessWidget {
                                 children: [
                                   Expanded(
                                     child: Text(
-                                      'Atualizações pendentes',
+                                      'Normas para revisar',
                                       style: theme.textTheme.labelSmall
                                           ?.copyWith(
                                             color: colorScheme.onSurfaceVariant,
@@ -107,10 +107,14 @@ class PendingUpdatesSection extends StatelessWidget {
                     ),
                   ),
                 ),
-                IconButton(
-                  icon: const Icon(Icons.close, size: 20),
-                  tooltip: 'Dispensar',
-                  onPressed: contentService.dismissPendingUpdatesCard,
+                Semantics(
+                  identifier: HomeSemanticsIds.pendingUpdatesCardDismiss,
+                  button: true,
+                  child: IconButton(
+                    icon: const Icon(Icons.close, size: 20),
+                    tooltip: 'Ocultar aviso',
+                    onPressed: contentService.dismissPendingUpdatesCard,
+                  ),
                 ),
               ],
             ),

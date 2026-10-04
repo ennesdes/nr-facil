@@ -7,11 +7,11 @@
 | Condição | Então |
 |----------|--------|
 | `hasUpdate == true` ao abrir | Banner dispensável no topo do corpo |
-| CTA "Ver o que mudou" | Bottom sheet com `items[]` de `app_meta.json` ou `summary` se vazio |
-| Usuário fecha banner (X) ou abre CTA | `markNrAsSeen` — grava `last_seen_hash` |
+| CTA “Toque para ver o que mudou” | Bottom sheet com diff; `acknowledgeNrUpdate` (`sheetView`) ao exibir |
+| Usuário fecha banner (X) | `acknowledgeNrUpdate` (`bannerDismiss`) |
 | Sem atualização pendente | Sem banner |
 
 ## Não pode
 
-- Marcar como vista automaticamente ao abrir a NR.
-- Marcar como vista ao navegar a partir do sino antes da intenção do usuário.
+- Marcar como revisada automaticamente só por abrir a NR.
+- Concluir revisão ao tocar “Abrir norma” na tela Atualizações.

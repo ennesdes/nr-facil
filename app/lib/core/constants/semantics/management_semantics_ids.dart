@@ -20,6 +20,15 @@ class ManagementSemanticsIds {
   // Updates entry — dinâmico por NR
   static String updateEntry(String nrId) => 'update_entry_$nrId';
 
+  static String updateItemRow(String nrId, String itemNumber) {
+    final slug = itemNumber.replaceAll('.', '-');
+    return 'update_item_${nrId}_$slug';
+  }
+
+  static String openNrFromUpdatesButton(String nrId) =>
+      'open_nr_from_updates_$nrId';
+  static const String markUpdateReviewedButton = 'mark_update_reviewed_button';
+
   // Ads — validação negativa no leitor
   static const String adsPersistentBanner = 'ads_persistent_banner';
 

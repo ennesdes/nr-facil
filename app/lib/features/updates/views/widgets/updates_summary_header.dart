@@ -12,8 +12,8 @@ class UpdatesSummaryHeader extends StatelessWidget {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final label = pendingCount == 1
-        ? '1 atualização pendente'
-        : '$pendingCount atualizações pendentes';
+        ? '1 norma para revisar'
+        : '$pendingCount normas para revisar';
 
     return Card(
       margin: const EdgeInsets.fromLTRB(
@@ -53,7 +53,8 @@ class UpdatesSummaryHeader extends StatelessWidget {
                   ),
                   const SizedBox(height: AppSpacing.xs),
                   Text(
-                    'Toque em uma norma para revisar as mudanças no leitor.',
+                    'Toque em um item alterado para ver o diff no texto. '
+                    'Use "Abrir norma" só para ler sem concluir a revisão.',
                     style: theme.textTheme.bodySmall?.copyWith(
                       color: colorScheme.onSurfaceVariant,
                       height: 1.4,

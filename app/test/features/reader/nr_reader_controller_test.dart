@@ -1,5 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
+import 'package:nrfacil/core/models/acknowledge_update_reason.dart';
 import 'package:nrfacil/core/models/app_meta.dart';
 import 'package:nrfacil/core/models/nr_structure.dart';
 import 'package:nrfacil/core/models/search_chunk.dart';
@@ -49,6 +50,12 @@ class FakeContentService implements ContentService {
 
   @override
   void markNrAsSeen(String nrId) => markNrAsSeenCalls.add(nrId);
+
+  @override
+  void acknowledgeNrUpdate(
+    String nrId, {
+    required AcknowledgeUpdateReason reason,
+  }) => markNrAsSeen(nrId);
 
   @override
   double getScrollPosition(String nrId) => scrollPositionResult;

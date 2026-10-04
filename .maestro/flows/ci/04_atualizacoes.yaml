@@ -1,7 +1,7 @@
 appId: br.com.solvebetter.nrfacil
 name: "Atualizações — sino, badge, card, sheet e leitor"
 ---
-# CI smoke — fluxo completo de atualizações de conteúdo (sino, não push OS).
+# CI smoke — fluxo de atualizações de conteúdo (revisão do diff vs só abrir leitor).
 - runFlow: ../../subflows/launch_fresh.yaml
 - extendedWaitUntil:
     visible:
@@ -24,7 +24,6 @@ name: "Atualizações — sino, badge, card, sheet e leitor"
       id: update_entry_nr-25
     timeout: 15000
 - back
-# Snackbar "1 nova atualização encontrada" cobre a bottom nav por alguns segundos.
 - extendedWaitUntil:
     visible:
       id: normas_tab
@@ -36,25 +35,38 @@ name: "Atualizações — sino, badge, card, sheet e leitor"
 - assertVisible:
     id: pending_updates_card
 - tapOn:
-    id: pending_updates_card
-- assertVisible:
-    id: updates_bottom_sheet
-- back
-- tapOn:
     id: notifications_bell
 - assertVisible:
     id: update_entry_nr-25
+# Abrir leitor sem revisar o diff — badge deve permanecer.
 - tapOn:
-    id: update_entry_nr-25
+    id: open_nr_from_updates_nr-25
 - assertVisible:
     id: reader_page_root
-# Leitor aberto a partir de Atualizações — voltar retorna para essa tela.
 - tapOn:
     id: reader_back_button
 - assertVisible:
     id: updates_page_root
 - back
+- extendedWaitUntil:
+    visible:
+      id: normas_tab
+    timeout: 10000
 - assertVisible:
-    id: normas_tab
+    id: updates_badge
+# Ver o diff no sheet da home conclui a revisão.
+- tapOn:
+    id: pending_updates_card
+- assertVisible:
+    id: updates_bottom_sheet
+- back
+- extendedWaitUntil:
+    visible:
+      id: normas_tab
+    timeout: 10000
 - assertNotVisible:
     id: updates_badge
+- tapOn:
+    id: notifications_bell
+- assertVisible:
+    id: updates_empty_state

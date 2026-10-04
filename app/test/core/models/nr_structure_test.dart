@@ -78,11 +78,12 @@ void main() {
       final dir = Directory('../content');
       if (!dir.existsSync()) return;
 
-      for (final file in dir
-          .listSync()
-          .whereType<Directory>()
-          .map((d) => File('${d.path}/structure.json'))
-          .where((f) => f.existsSync())) {
+      for (final file
+          in dir
+              .listSync()
+              .whereType<Directory>()
+              .map((d) => File('${d.path}/structure.json'))
+              .where((f) => f.existsSync())) {
         final map = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
         final ids = NrStructure.fromMap(map).sections.map((s) => s.id);
         expect(ids.toSet(), hasLength(ids.length), reason: file.path);

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites>
-  <testsuite name="Test Suite" device="Emulator" tests="1" failures="0" time="37.863" timestamp="2026-10-03T23:43:55">
-    <testcase id="Leitura — NR-25, índice, fonte, PDF e disclaimer" name="Leitura — NR-25, índice, fonte, PDF e disclaimer" classname="Leitura — NR-25, índice, fonte, PDF e disclaimer" file=".maestro/flows/ci/01_leitura.yaml" time="37.851" timestamp="2026-10-03T23:43:55" status="SUCCESS"/>
+  <testsuite name="Test Suite" device="Emulator" tests="1" failures="0" time="34.646" timestamp="2026-10-04T00:34:55">
+    <testcase id="Leitura — NR-25, índice, fonte, PDF e disclaimer" name="Leitura — NR-25, índice, fonte, PDF e disclaimer" classname="Leitura — NR-25, índice, fonte, PDF e disclaimer" file=".maestro/flows/ci/01_leitura.yaml" time="34.636" timestamp="2026-10-04T00:34:55" status="SUCCESS"/>
   </testsuite>
 </testsuites>
