@@ -45,5 +45,6 @@ until bash "$ROOT/scripts/maestro_run.sh" --flow "$FLOW"; do
   adb start-server
   prepare_device
   reinstall_app
+  bash "$ROOT/scripts/maestro_ci_warmup.sh" --quick
   attempt=$((attempt + 1))
 done

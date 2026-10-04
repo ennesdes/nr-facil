@@ -17,10 +17,12 @@ export PATH="$HOME/.maestro/bin:${PATH:-}"
 chmod +x \
   "$ROOT/scripts/maestro_run.sh" \
   "$ROOT/scripts/maestro_ci_flow.sh" \
-  "$ROOT/scripts/maestro_ci_prepare.sh"
+  "$ROOT/scripts/maestro_ci_prepare.sh" \
+  "$ROOT/scripts/maestro_ci_warmup.sh"
 
 bash "$ROOT/scripts/maestro_ci_prepare.sh"
 adb install -r "$MAESTRO_APK"
+bash "$ROOT/scripts/maestro_ci_warmup.sh"
 
 shopt -s nullglob
 flows=("$CI_DIR"/*.yaml)

@@ -136,8 +136,11 @@ jobs:
             echo ""
           } >> "$GITHUB_STEP_SUMMARY"
 
+          # Falha no 1º elemento da 1ª tela = app nem abriu (emulador do runner travado).
+          boot_marker="normas_tab"
           total=0
           passed=0
+          boot_failures=0
           failures=()
           shopt -s nullglob
           for yaml in .maestro/flows/ci/*.yaml; do
@@ -157,10 +160,12 @@ jobs:
                 echo "- \`$name\` — $status (${duration}s) — $desc" >> "$GITHUB_STEP_SUMMARY"
                 echo "  - **Motivo:** $error" >> "$GITHUB_STEP_SUMMARY"
                 failures+=("\`$name\`: $error")
+                [[ "$error" == *"$boot_marker"* ]] && boot_failures=$((boot_failures + 1))
               fi
             else
               echo "- \`$name\` — ⚠️ sem resultado (job não publicou status — provável timeout/crash antes do Maestro rodar; ver log do job)" >> "$GITHUB_STEP_SUMMARY"
               failures+=("\`$name\`: sem status.json — job não chegou a rodar o Maestro (timeout/crash no setup do emulador)")
+              boot_failures=$((boot_failures + 1))
             fi
           done
           shopt -u nullglob
@@ -178,6 +183,24 @@ jobs:
                 echo "- $f"
               done
             } >> "$GITHUB_STEP_SUMMARY"
+
+            if [[ $boot_failures -eq ${#failures[@]} ]]; then
+              {
+                echo ""
+                echo "### 🔁 Provável instabilidade do emulador — faça re-run"
+                echo "Todas as falhas são no boot (app não chegou à 1ª tela / \`$boot_marker\`)."
+                echo "Padrão típico do emulador x86_64 do runner travado, não de bug no código."
+                echo "O warmup automático (\`scripts/maestro_ci_warmup.sh\`: espera + retry + reboot do emulador) já tentou e não resolveu."
+                echo ""
+                echo "- Re-run: **Re-run failed jobs** em [este run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) ou \`gh run rerun ${{ github.run_id }} --failed\`"
+                echo "- Se falhar de novo no mesmo ponto → aí sim investigar o commit (boot/1ª tela)."
+              } >> "$GITHUB_STEP_SUMMARY"
+            else
+              {
+                echo ""
+                echo "Falha em passo depois do boot — provável regressão real; reproduzir local com \`bash scripts/maestro_dev.sh --no-boot --flow .maestro/flows/ci/<nome>.yaml\`."
+              } >> "$GITHUB_STEP_SUMMARY"
+            fi
             exit 1
           fi
 

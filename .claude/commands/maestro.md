@@ -30,6 +30,7 @@ Classifique a falha antes de mexer em qualquer coisa:
 | Tipo | Sinais | O que fazer |
 |------|--------|-------------|
 | **Infra** | timeout de boot, `adb` offline, Maestro CLI ausente, Gradle/build falhou | Corrija o ambiente (reiniciar adb `adb kill-server && adb start-server`, `--rebuild`, erro de compilação no Dart). Erro de compilação é bug real → corrigir o código. |
+| **Emulador CI travado** | no GHA, **todos** os flows falham em `normas_tab` (1ª tela) ou ficam sem `status.json`; o summary mostra "🔁 faça re-run" | Não é o commit: o `scripts/maestro_ci_warmup.sh` já tentou espera + retry + reboot. `gh run rerun <id> --failed` antes de investigar; só tratar como regressão se repetir. |
 | **Flaky** | falhou em `assertVisible`/`tapOn` por timing, passa ao rodar de novo | Rode **só esse flow** de novo uma vez (`bash scripts/maestro_dev.sh --no-boot --flow <yaml>`). Se passar, reporte como flaky e, se for claro, ajuste espera (`extendedWaitUntil`) no flow. |
 | **Bug no app** | elemento esperado não existe, texto/estado errado, crash | Corrija o código em `app/` — é o caso que o teste existe para pegar. |
 | **Flow desatualizado** | a mudança no app foi intencional (spec em `spec/capabilities/` confirma) e o flow ainda espera o comportamento antigo | Atualize o flow/subflow e os ids em `app/lib/core/constants/semantics/` mantendo o que o teste valida. |

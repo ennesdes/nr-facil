@@ -404,6 +404,7 @@ bash scripts/maestro_run.sh --flow .maestro/flows/ci/04_atualizacoes.yaml
 | `maestro_run.sh` | Smoke ou `--flow` (build local; pula build se `MAESTRO_SKIP_BUILD=1`) |
 | `maestro_ci.sh` | Simula CI local (build x86_64 + smoke) |
 | `maestro_ci_emulator_smoke.sh` | Entrypoint GHA — todos os flows em sequência (1 emulador) |
+| `maestro_ci_warmup.sh` | CI: abre o app até `normas_tab` antes dos flows (espera → retry → `adb reboot`); `--quick` entre retries. Nunca falha o job |
 | `maestro_ci_emulator_job.sh` | Legado: um flow por invocação (uso local/debug) |
 
 ---
