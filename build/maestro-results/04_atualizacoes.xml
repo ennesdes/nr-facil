@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<testsuites>
-  <testsuite name="Test Suite" device="Emulator" tests="1" failures="0" time="27.709" timestamp="2026-10-04T00:36:47">
-    <testcase id="Atualizações — sino, badge, card, sheet e leitor" name="Atualizações — sino, badge, card, sheet e leitor" classname="Atualizações — sino, badge, card, sheet e leitor" file=".maestro/flows/ci/04_atualizacoes.yaml" time="27.699" timestamp="2026-10-04T00:36:47" status="SUCCESS"/>
-  </testsuite>
-</testsuites>

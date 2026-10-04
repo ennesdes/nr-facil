@@ -48,3 +48,5 @@ Thumbs.db
 
 # FVM Version Cache
 .fvm/
+# Resultados locais do Maestro (gerados por scripts/maestro_*.sh)
+/build/
