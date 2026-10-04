@@ -110,6 +110,9 @@ class _SearchTabState extends State<SearchTab> {
                     result: result,
                     searchQuery: _controller.query.value,
                     onTap: () {
+                      // Sem isso, o pop do leitor restaura o foco do campo e
+                      // o teclado reabre cobrindo resultados e bottom nav.
+                      _focusNode.unfocus();
                       final chunk = result.chunk;
                       final query = _controller.query.value.trim();
                       final anchor =
