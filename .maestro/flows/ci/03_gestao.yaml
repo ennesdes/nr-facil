@@ -9,6 +9,9 @@ name: "Gestão — Settings, Atualizações e ads"
     id: settings_button
 - assertVisible:
     id: settings_page_root
+# Seletor de tema fica no topo — tocar antes de rolar até o fim.
+- tapOn:
+    id: theme_mode_selector
 - scrollUntilVisible:
     element:
       id: settings_privacy_policy_link
@@ -24,8 +27,6 @@ name: "Gestão — Settings, Atualizações e ads"
       id: settings_app_version_info
 - assertVisible:
     id: settings_app_version_info
-- tapOn:
-    id: theme_mode_selector
 - back
 - assertVisible:
     id: normas_tab

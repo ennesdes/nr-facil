@@ -66,6 +66,7 @@ class SearchResultTile extends StatelessWidget {
                   query: searchQuery,
                 ),
                 highlight: searchQuery,
+                selectable: false,
                 style: Theme.of(context).textTheme.bodySmall,
                 maxLines: 3,
               )
@@ -76,6 +77,7 @@ class SearchResultTile extends StatelessWidget {
                   query: searchQuery,
                 ),
                 highlight: searchQuery,
+                selectable: false,
                 preserveBold: true,
                 style: Theme.of(context).textTheme.bodySmall,
                 maxLines: 3,

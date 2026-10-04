@@ -24,8 +24,11 @@ name: "Atualizações — sino, badge, card, sheet e leitor"
       id: update_entry_nr-25
     timeout: 15000
 - back
-- assertVisible:
-    id: normas_tab
+# Snackbar "1 nova atualização encontrada" cobre a bottom nav por alguns segundos.
+- extendedWaitUntil:
+    visible:
+      id: normas_tab
+    timeout: 10000
 - extendedWaitUntil:
     visible:
       id: updates_badge
@@ -45,7 +48,11 @@ name: "Atualizações — sino, badge, card, sheet e leitor"
     id: update_entry_nr-25
 - assertVisible:
     id: reader_page_root
-- runFlow: ../../subflows/close_reader.yaml
+# Leitor aberto a partir de Atualizações — voltar retorna para essa tela.
+- tapOn:
+    id: reader_back_button
+- assertVisible:
+    id: updates_page_root
 - back
 - assertVisible:
     id: normas_tab

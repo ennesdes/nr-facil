@@ -16,6 +16,10 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import '../../support/fake_analytics_service.dart';
 import '../../support/test_content_service.dart';
 
+/// GitHub raw serve UTF-8; `http.Response(String)` sem charset codificaria em latin1.
+http.Response _utf8Response(String body, int statusCode) =>
+    http.Response.bytes(utf8.encode(body), statusCode);
+
 class _FakePathProviderPlatform extends PathProviderPlatform
     with MockPlatformInterfaceMixin {
   final String path;
@@ -65,10 +69,10 @@ void main() {
         final path = request.url.path;
 
         if (path.endsWith('/manifest.json')) {
-          return http.Response(jsonEncode(manifestJson), 200);
+          return _utf8Response(jsonEncode(manifestJson), 200);
         }
         if (path.endsWith('/app_meta.json')) {
-          return http.Response(
+          return _utf8Response(
             jsonEncode({
               'generated_at': '2026-01-01T00:00:00.000Z',
               'min_app_version': '0.0.1',
@@ -135,6 +139,30 @@ void main() {
         isFalse,
       );
     });
+
+    test(
+      'syncMetadata decodifica manifest como UTF-8 sem charset no header',
+      () async {
+        contentService.onClose();
+        contentService = ContentService(
+          httpClient: MockClient((request) async {
+            if (request.url.path.endsWith('/manifest.json')) {
+              return http.Response.bytes(
+                utf8.encode(jsonEncode(manifestJson)),
+                200,
+              );
+            }
+            return http.Response('not found', 404);
+          }),
+          cacheDirOverride: cacheDir,
+        );
+        await contentService.onInit();
+
+        await contentService.syncMetadata();
+
+        expect(contentService.manifest.value?.nrs.last.title, 'Máquinas');
+      },
+    );
 
     test('syncSearchIndices baixa apenas search_index.json', () async {
       await contentService.syncMetadata();
@@ -268,10 +296,10 @@ void main() {
         contentService = ContentService(
           httpClient: MockClient((request) async {
             if (request.url.path.endsWith('/manifest.json')) {
-              return http.Response(jsonEncode(updatedManifest), 200);
+              return _utf8Response(jsonEncode(updatedManifest), 200);
             }
             if (request.url.path.endsWith('/app_meta.json')) {
-              return http.Response(
+              return _utf8Response(
                 jsonEncode({
                   'generated_at': '2026-01-01T00:00:00.000Z',
                   'min_app_version': '0.0.1',
@@ -384,10 +412,10 @@ void main() {
 
           final path = request.url.path;
           if (path.endsWith('/manifest.json')) {
-            return http.Response(jsonEncode(manifestJson), 200);
+            return _utf8Response(jsonEncode(manifestJson), 200);
           }
           if (path.endsWith('/app_meta.json')) {
-            return http.Response(
+            return _utf8Response(
               jsonEncode({
                 'generated_at': '2026-01-01T00:00:00.000Z',
                 'min_app_version': '0.0.1',

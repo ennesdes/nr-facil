@@ -18,6 +18,13 @@ name: "Leitura — NR-25, índice, fonte, PDF e disclaimer"
 - tapOn:
     id: reader_font_size_decrease
     point: 95%,50%
+# Fecha o menu (item de fonte não fecha o popup ao tocar).
+- back
+# PDF original e disclaimer ficam no rodapé, ao fim do documento.
+- scrollUntilVisible:
+    element:
+      id: reader_view_pdf_button
+    timeout: 30000
 - assertVisible:
     id: reader_view_pdf_button
 - assertVisible:

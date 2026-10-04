@@ -863,7 +863,8 @@ class ContentService extends GetxService {
       }
 
       // Parse JSON
-      final jsonMap = jsonDecode(response.body) as Map<String, dynamic>;
+      final jsonMap =
+          jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
       final remoteManifest = Manifest.fromMap(jsonMap);
 
       AppLogger.info(
@@ -904,7 +905,8 @@ class ContentService extends GetxService {
       }
 
       // Parse JSON
-      final jsonMap = jsonDecode(response.body) as Map<String, dynamic>;
+      final jsonMap =
+          jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
       appMeta.value = AppMeta.fromJson(jsonMap);
 
       AppLogger.info(

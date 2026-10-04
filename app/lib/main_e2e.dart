@@ -28,7 +28,11 @@ const _e2eUpdatedNrHash =
 
 /// Resposta UTF-8 — `http.Response(String)` corrompe bytes não-ASCII em bodyBytes.
 http.Response _utf8Response(String body, int statusCode) {
-  return http.Response.bytes(utf8.encode(body), statusCode);
+  return http.Response.bytes(
+    utf8.encode(body),
+    statusCode,
+    headers: {'content-type': 'text/plain; charset=utf-8'},
+  );
 }
 
 /// Mock HTTP client para E2E — serve conteúdo de fixture local (nr-25).
@@ -68,29 +72,20 @@ http.Client _createE2eMockHttpClient() {
       }
     }
 
-    // Servir nr-25.md do asset e2e_seed
-    if (path.endsWith('/nr-25.md')) {
+    // Servir arquivos de nr-25 (md, index, search_index, structure) do
+    // asset e2e_seed — qualquer arquivo ausente no seed vira 404.
+    const nrDirMarker = '/content/nr-25/';
+    final nrDirIndex = path.indexOf(nrDirMarker);
+    if (nrDirIndex >= 0) {
+      final fileName = path.substring(nrDirIndex + nrDirMarker.length);
       try {
         final content = await rootBundle.loadString(
-          'assets/e2e_seed/nr-25/nr-25.md',
+          'assets/e2e_seed/nr-25/$fileName',
         );
         return _utf8Response(content, 200);
-      } catch (e) {
-        AppLogger.warning('Falha ao carregar nr-25.md do asset: $e');
-        return _utf8Response('nr-25.md not found', 404);
-      }
-    }
-
-    // Servir index.json de nr-25
-    if (path.endsWith('/nr-25/index.json') || path.endsWith('/index.json')) {
-      try {
-        final content = await rootBundle.loadString(
-          'assets/e2e_seed/nr-25/index.json',
-        );
-        return _utf8Response(content, 200);
-      } catch (e) {
-        AppLogger.warning('Falha ao carregar index.json do asset: $e');
-        return _utf8Response('index.json not found', 404);
+      } catch (_) {
+        AppLogger.debug('E2E mock: 404 para $path');
+        return _utf8Response('$fileName not found', 404);
       }
     }
 
