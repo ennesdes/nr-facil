@@ -84,4 +84,4 @@ runs:
       with:
         name: app-release-symbols
         path: app/build/app/outputs/symbols/
-        retention-days: 90
+        retention-days: 14
