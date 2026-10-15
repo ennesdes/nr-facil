@@ -4,15 +4,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 24** - **CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO**"
-      },
-      {
-        "type": "table",
-        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTb n.º3.214, de 08 de junho de 1978 | 06/07/78 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria SSST n.º13, de 17 de setembro de 1993 | 21/09/93 |\n| Portaria SEPRT n.º1.066, de 23 de setembro de 2019 | 24/09/19 |\n| Portaria MTP nº2.772, de 05 de setembro de 2022 | 06/09/22 |"
-      },
-      {
-        "type": "paragraph",
-        "text": "_(Redação dada pela Portaria SEPRT n.º 1.066, de 23/09/19)_ # **SUMÁRIO** 24.1 Objetivo e campo de aplicação 24.2 Instalações sanitárias 24.3 Componentes sanitários 24.4 Vestiários 24.5 Locais para refeições 24.6 Cozinhas 24.7 Alojamento 24.8 Vestimenta de trabalho 24.9 Disposições gerais Anexo I: Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em “Shopping Center” Anexo II: Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços Anexo III: Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Transporte Público Rodoviário Coletivo Urbano de Passageiros em Atividade Externa"
+        "text": "# **NR 24** - **CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO** **Publicação D.O.U.** Portaria MTb nº 3.214, de 08 de junho de 1978 06/07/78 **Alterações/Atualizações** **D.O.U.** Portaria SSST nº 13, de 17 de setembro de 1993 21/09/93 Portaria SEPRT nº 1.066, de 23 de setembro de 2019 24/09/19 Portaria MTP nº 2.772, de 05 de setembro de 2022 06/09/22 Portaria MTE nº 1.590, de 11 de setembro de 2026 14/09/26 Portaria MTE nº 1.591, de 11 de setembro de 2026 14/09/26 _(Redação dada pela Portaria SEPRT n.º 1.066, de 23/09/19)_ # **SUMÁRIO** 24.1 Objetivo e campo de aplicação 24.2 Instalações sanitárias 24.3 Componentes sanitários 24.4 Vestiários 24.5 Locais para refeições 24.6 Cozinhas 24.7 Alojamento 24.8 Vestimenta de trabalho 24.9 Disposições gerais Anexo I - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em “Shopping Center” Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços Anexo III - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Transporte Público Rodoviário Coletivo Urbano de Passageiros em Atividade Externa Anexo IV - Módulos Pré-Fabricados e Contêineres Marítimos Transformados para Ocupação Humana"
       }
     ]
   },
@@ -51,7 +43,20 @@
           "type": "item",
           "number": "24.2.1.1",
           "depth": 3,
-          "text": "As instalações sanitárias masculinas devem ser dotadas de mictório, exceto quando essencialmente de uso individual, observando-se que: - a) os estabelecimentos construídos até 23/09/2019 devem possuir mictórios dimensionados de acordo com o previsto na NR-24, com redação dada pela Portaria MTb nº 3.214/1978."
+          "text": "As instalações sanitárias masculinas devem ser dotadas de mictório, exceto quando"
+        },
+        {
+          "type": "paragraph",
+          "text": "essencialmente de uso individual, observando-se que:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "os estabelecimentos construídos até 23/09/2019 devem possuir mictórios dimensionados de acordo com o previsto na NR-24, com redação dada pela Portaria MTb nº 3.214/1978."
+            }
+          ]
         },
         {
           "type": "list",
@@ -148,6 +153,204 @@
               "text": "comunicar-se com os locais de trabalho por meio de passagens com piso e cobertura, quando se situarem fora do corpo do estabelecimento."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
+        },
+        {
+          "type": "item",
+          "number": "24.2.4",
+          "depth": 2,
+          "text": "Em caso de inviabilidade técnica de utilização de outro mecanismo de instalação sanitária, podem ser utilizadas instalações sanitárias móveis, com tratamento químico ou alternativo, que atendam aos seguintes requisitos:"
+        },
+        {
+          "type": "paragraph",
+          "text": "**a)** ser individuais, com portas com fecho interno que impeçam devassamento e que garantam privacidade;"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser mantidas em condição de conservação, limpeza e higiene;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ter piso e parede construídos ou revestidos por material impermeável e lavável;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "ter peças sanitárias íntegras;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa; f) ser ventiladas para o exterior ou com sistema de exaustão forçada, não direcionado a outro ambiente fechado;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "g",
+              "text": "ser dotadas de mecanismo de descarga ou de isolamento dos dejetos;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "h",
+              "text": "possuir lavatório, interno ou externo à cabine da bacia sanitária; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "i",
+              "text": "ser o lavatório provido de material ou dispositivo para limpeza, enxugo ou secagem, proibindo-se o uso de toalhas coletivas e sabonete em barra."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.1",
+          "depth": 3,
+          "text": "Entendem-se como fatores de inviabilidade técnica, dentre outros:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ausência de rede de esgoto ou infraestrutura sanitária no local;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "natureza temporária, itinerante ou remota da atividade laboral;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "restrições legais ou ambientais, como áreas de preservação permanente, zonas de risco geológico ou locais com impedimentos normativos para obras civis; ou"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "impossibilidade técnica de instalação de módulos sanitários fixos devido à topografia, segurança ou logística."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.2",
+          "depth": 3,
+          "text": "No caso de utilização no período noturno ou em condições de baixa luminosidade, a instalação sanitária móvel deve possuir sistema de iluminação interna que permita visibilidade pelo usuário."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.3",
+          "depth": 3,
+          "text": "Deve ser realizada a higienização de forma a manter as condições de utilização, devendo a limpeza ser realizada no mínimo diariamente."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.4",
+          "depth": 3,
+          "text": "No caso de utilização de instalação sanitária móvel com tratamento químico, o compartimento de dejetos deve possuir respiro com saída superior à cobertura do módulo."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.5",
+          "depth": 3,
+          "text": "Nas instalações sanitárias móveis com tratamento químico ou com sistema de enclausuramento, o compartimento de dejetos deve ser esvaziado em periodicidade compatível com o uso, de modo a preservar as condições de utilização, conservação, limpeza, higiene e funcionamento do equipamento."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.5.1",
+          "depth": 4,
+          "text": "Devem ser registrados, com afixação dos comprovantes nos módulos, os esvaziamentos ou sucções do reservatório de dejetos das instalações sanitárias móveis."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.6",
+          "depth": 3,
+          "text": "As instalações sanitárias móveis podem estar ligadas à rede geral de esgoto ou a outro sistema que não gere risco à saúde, de acordo com a regulamentação local."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.7",
+          "depth": 3,
+          "text": "As instalações sanitárias móveis devem ser posicionadas em superfícies planas, com estabilidade assegurada e com acesso fácil e seguro aos trabalhadores."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.7.1",
+          "depth": 4,
+          "text": "Os locais onde serão instalados os módulos devem estar livres de queda de objetos."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.8",
+          "depth": 3,
+          "text": "O posicionamento das instalações sanitárias móveis deve ser planejado de forma a reduzir a incidência direta de radiação solar sobre os módulos, mediante: a) sombreamento sob estruturas naturais ou artificiais; ou"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "tratamento térmico da cobertura."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.9",
+          "depth": 3,
+          "text": "Quando utilizada instalação sanitária móvel, deve ser de, no máximo, 150 m (cento e cinquenta metros) o deslocamento do trabalhador do seu posto de trabalho até o local de sua instalação."
+        },
+        {
+          "type": "item",
+          "number": "24.2.4.9.1",
+          "depth": 4,
+          "text": "Em caso de inviabilidade técnica de observância ao distanciamento máximo previsto no item 24.2.4.9, tal distância pode ser ampliada, desde que seja fornecido veículo ou meio de transporte para o deslocamento dos trabalhadores."
         }
       ]
     },
@@ -202,6 +405,19 @@
           "type": "list",
           "items": [
             {
+              "label": "d",
+              "text": "possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa; e"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
               "label": "e",
               "text": "possuir dimensões de acordo com o código de obras local ou, na ausência desse, deve haver área livre de pelo menos 0,60m (sessenta centímetros) de diâmetro entre a borda frontal da bacia sanitária e a porta fechada. Mictórios"
             }
@@ -238,8 +454,20 @@
           "text": "O lavatório poderá ser tipo individual, calha ou de tampo coletivo com várias cubas, possuindo torneiras, sendo que cada segmento de 0,60m (sessenta centímetros) corresponde a uma unidade para fins de dimensionamento do lavatório."
         },
         {
+          "type": "item",
+          "number": "24.3.4",
+          "depth": 2,
+          "text": "O lavatório deve ser provido de material ou dispositivo para a limpeza, enxugo ou secagem das mãos, proibindo-se o uso de toalhas coletivas."
+        },
+        {
+          "type": "item",
+          "number": "24.3.4",
+          "depth": 2,
+          "text": "O lavatório deve ser provido de material ou dispositivo para limpeza, enxugo ou secagem, proibindo-se o uso de toalhas coletivas e sabonete em barra."
+        },
+        {
           "type": "paragraph",
-          "text": "24.3.4 O lavatório deve ser provido de material ou dispositivo para a limpeza, enxugo ou secagem das mãos, proibindo-se o uso de toalhas coletivas. Chuveiros"
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_ Chuveiros"
         },
         {
           "type": "item",
@@ -282,7 +510,16 @@
           "items": [
             {
               "label": "a",
-              "text": "ser individuais e mantidos em condição de conservação, limpeza e higiene; - b) ter portas de acesso que impeçam o devassamento;"
+              "text": "ser individuais e mantidos em condição de conservação, limpeza e higiene;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ter portas de acesso que impeçam o devassamento;"
             }
           ]
         },
@@ -506,7 +743,16 @@
           "items": [
             {
               "label": "a",
-              "text": "ser destinados ou adaptados a este fim; b) ser arejados e apresentar boas condições de conservação, limpeza e higiene; e"
+              "text": "ser destinados ou adaptados a este fim;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser arejados e apresentar boas condições de conservação, limpeza e higiene; e"
             }
           ]
         },
@@ -635,16 +881,7 @@
           "items": [
             {
               "label": "i",
-              "text": "possuir condições de conservação, limpeza e higiene;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "j",
-              "text": "dispor de meios para aquecimento das refeições; e"
+              "text": "possuir condições de conservação, limpeza e higiene; - j) dispor de meios para aquecimento das refeições; e"
             }
           ]
         },
@@ -701,7 +938,16 @@
           "type": "item",
           "number": "24.6.1",
           "depth": 2,
-          "text": "Quando as empresas possuírem cozinhas, estas devem: - a) ficar anexas aos locais para refeições e com ligação para os mesmos;"
+          "text": "Quando as empresas possuírem cozinhas, estas devem:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ficar anexas aos locais para refeições e com ligação para os mesmos;"
+            }
+          ]
         },
         {
           "type": "list",
@@ -793,16 +1039,7 @@
           "items": [
             {
               "label": "b",
-              "text": "ser dotados de quartos;"
-            }
-          ]
-        },
-        {
-          "type": "list",
-          "items": [
-            {
-              "label": "c",
-              "text": "dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e"
+              "text": "ser dotados de quartos; - c) dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e"
             }
           ]
         },
@@ -903,14 +1140,14 @@
           "type": "item",
           "number": "24.7.3.1",
           "depth": 3,
-          "text": "As camas ou beliches devem atender aos seguintes requisitos: _(Alterado pela Portaria MTP nº 2.772, de 05 de setembro de 2022 – início de vigência: 03/10/2022)_"
+          "text": "As camas ou beliches devem atender aos seguintes requisitos: _(Alterado pela Portaria MTP nº 2.772, de 05 de setembro de 2022)_"
         },
         {
           "type": "list",
           "items": [
             {
               "label": "a",
-              "text": "todos os componentes ou peças com os quais o trabalhador possa entrar em contato durante o uso não podem ter rebarbas e arestas cortantes, nem ter tubos abertos;"
+              "text": "todos os componentes ou peças com os quais o trabalhador possa entrar em contato durante o uso não podem ter rebarbas e arestas cortantes, nem ter tubos abertos; _(inserida pela Portaria MTP nº 2.772, de 05 de setembro de 2022)_"
             }
           ]
         },
@@ -919,7 +1156,7 @@
           "items": [
             {
               "label": "b",
-              "text": "ter resistência compatível com o uso; e"
+              "text": "ter resistência compatível com o uso; e _(inserida pela Portaria MTP nº 2.772, de 05 de setembro de 2022)_"
             }
           ]
         },
@@ -928,7 +1165,7 @@
           "items": [
             {
               "label": "c",
-              "text": "ter dimensões compatíveis com o colchão a ser utilizado de acordo com o item 24.7.3."
+              "text": "ter dimensões compatíveis com o colchão a ser utilizado de acordo com o item 24.7.3. _(inserida pela Portaria MTP nº 2.772, de 05 de setembro de 2022)_"
             }
           ]
         },
@@ -936,7 +1173,7 @@
           "type": "item",
           "number": "24.7.3.1.1",
           "depth": 4,
-          "text": "As camas superiores dos beliches devem ter proteção lateral e escada fixas à estrutura. _(Inserido pela Portaria MTP nº 2.772, de 05 de setembro de 2022 – início de vigência: 03/10/2022)_"
+          "text": "As camas superiores dos beliches devem ter proteção lateral e escada fixas à estrutura. _(inserido pela Portaria MTP nº 2.772, de 05 de setembro de 2022)_"
         },
         {
           "type": "item",
@@ -1119,15 +1356,39 @@
         },
         {
           "type": "item",
+          "number": "24.9.1",
+          "depth": 2,
+          "text": "Em todos os locais de trabalho deve estar disponível aos trabalhadores, em quantidade suficiente, água potável, filtrada e fresca, sendo proibido o uso de copos coletivos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
+        },
+        {
+          "type": "item",
           "number": "24.9.1.1",
           "depth": 3,
           "text": "O fornecimento de água deve ser feito por meio de bebedouros na proporção de, no mínimo, 1 (um) para cada grupo de 50 (cinquenta) trabalhadores ou fração, ou outro sistema que ofereça as mesmas condições."
         },
         {
           "type": "item",
+          "number": "24.9.1.1.1",
+          "depth": 4,
+          "text": "Quando não for possível o fornecimento de água nos termos do item 24.9.1.1, esta deve ser fornecida em recipientes portáteis próprios e hermeticamente fechados, que devem permanecer acondicionados em local apropriado ao longo da jornada de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
+        },
+        {
+          "type": "item",
           "number": "24.9.1.2",
           "depth": 3,
           "text": "Quando não for possível obter água potável corrente, esta deverá ser fornecida em recipientes portáteis próprios e hermeticamente fechados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vigente até o dia 11 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
         },
         {
           "type": "item",
@@ -1299,9 +1560,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRABALHO EXTERNO DE PRESTAÇÃO DE SERVIÇOS** **1.** Para efeito deste Anexo, considera-se trabalho externo todo aquele realizado fora do estabelecimento do empregador cuja execução se dará no estabelecimento do cliente ou em logradouro público. Excetua-se deste anexo as atividades relacionadas à construção, leituristas, vendedores, entregadores, carteiros e similares, bem como o de atividade regulamentada pelo Anexo III desta norma."
+          "text": "**CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRABALHO EXTERNO DE PRESTAÇÃO DE SERVIÇOS**"
         }
       ]
+    },
+    {
+      "id": "1-para-efeito-deste-anexo-considera-se-trabalho-externo-todo-aquele-realizado-fora-do-estabelecimento-do-empregador-cuja-execução-se-dará-no-estabelecimento-do-cliente-ou-em-logradouro-público-excetua-se-deste-anexo-as-atividades-relacionadas-à-construção-leituristas-vendedores-entregadores-carteiros-e-similares-bem-como-o-de-atividade-regulamentada-pelo-anexo-iii-desta-norma",
+      "number": "1",
+      "title": "Para efeito deste Anexo, considera-se trabalho externo todo aquele realizado fora do estabelecimento do empregador cuja execução se dará no estabelecimento do cliente ou em logradouro público. Excetua-se deste anexo as atividades relacionadas à construção, leituristas, vendedores, entregadores, carteiros e similares, bem como o de atividade regulamentada pelo Anexo III desta norma.",
+      "blocks": []
     },
     {
       "id": "2-nas-atividades-desenvolvidas-em-estabelecimento-do-cliente-este-será-o-responsável-pelas-garantias-de-conforto-para-satisfação-das-necessidades-básicas-de-higiene-e-alimentação-conforme-item-241-desta-norma",
@@ -1322,6 +1589,19 @@
               "text": "instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas, garantida a higienização diária dos módulos;"
             }
           ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas e sabonete em barra, garantida a higienização diária dos módulos;"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
         },
         {
           "type": "list",
@@ -1391,9 +1671,9 @@
       "blocks": []
     },
     {
-      "id": "31-em-caso-de-terminais-e-estações-de-passageiros-implantados-pelo-poder-público-presumemse-cumpridos-os-dispositivos-desta-norma",
+      "id": "31-em-caso-de-terminais-e-estações-de-passageiros-implantados-pelo-poder-público-presumem-se-cumpridos-os-dispositivos-desta-norma",
       "number": "3.1",
-      "title": "Em caso de terminais e estações de passageiros implantados pelo poder público, presumemse cumpridos os dispositivos desta norma.",
+      "title": "Em caso de terminais e estações de passageiros implantados pelo poder público, presumem-se cumpridos os dispositivos desta norma.",
       "blocks": []
     },
     {
@@ -1424,6 +1704,16 @@
           "number": "4.1.2",
           "depth": 2,
           "text": "As instalações sanitárias podem ser substituídas por unidades de banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas, garantida a higienização diária dos módulos."
+        },
+        {
+          "type": "item",
+          "number": "4.1.2",
+          "depth": 2,
+          "text": "As instalações sanitárias podem ser substituídas por unidades de banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas e sabonete em barra, garantida a higienização diária dos módulos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
         }
       ]
     },
@@ -1463,6 +1753,364 @@
       "number": "4.6",
       "title": "O uso de instalações sanitárias em trabalhos externos de transporte público coletivo urbano rodoviário não deve ter custo para o trabalhador.",
       "blocks": []
+    },
+    {
+      "id": "anexo-iv-da-nr-24",
+      "number": "ANEXO IV",
+      "title": "da NR-24",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**MÓDULOS PRÉ-FABRICADOS E CONTÊINERES MARÍTIMOS TRANSFORMADOS PARA OCUPAÇÃO HUMANA**"
+        },
+        {
+          "type": "paragraph",
+          "text": "_(Portaria MTE nº 1.591, de 08 de setembro de 2026)_ _(Entra em vigor no dia 14 de setembro de 2029, exceto o capítulo 4.3, itens e subitens 4.5.2, 5.1.1, 5.1.2, 5.1.2.1, 5.4, 5.5 e 5.6 que possuem prazo específico)_"
+        }
+      ]
+    },
+    {
+      "id": "1-objetivo",
+      "number": "1",
+      "title": "Objetivo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1.1 Este anexo tem como objetivo estabelecer requisitos mínimos de segurança, higiene e conforto para a utilização de módulos pré-fabricados e contêineres marítimos transformados para ocupação humana."
+        }
+      ]
+    },
+    {
+      "id": "2-campo-de-aplicação",
+      "number": "2",
+      "title": "Campo de aplicação",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2.1 Este anexo se aplica aos projetos, à fabricação e a todas as atividades e operações de trabalho que utilizam módulos pré-fabricados ou contêineres marítimos transformados para ocupação humana."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.1.1 Ocupação humana, para fins deste anexo, é a presença de trabalhadores em módulos préfabricados e contêineres marítimos transformados para execução de atividades laborais regulares ou quaisquer outras atividades que demandem a disponibilização de condições sanitárias e de conforto nos locais de trabalho."
+        },
+        {
+          "type": "paragraph",
+          "text": "2.2 O presente anexo se aplica a módulos pré-fabricados e a contêineres marítimos transformados."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Definições e responsabilidades"
+        },
+        {
+          "type": "paragraph",
+          "text": "3.1 Para os fins deste anexo, considera-se módulo pré-fabricado a estrutura modular transportável, projetada e fabricada utilizando materiais resistentes como aço, alumínio, fibra, madeira ou outros materiais com características equivalentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "3.2 Para os fins deste anexo, considera-se contêiner marítimo transformado a estrutura originalmente projetada para transporte multimodal de carga, fabricada com materiais resistentes, e posteriormente transformada para outras finalidades, incluindo áreas de vivência ou para ocupação humana."
+        },
+        {
+          "type": "paragraph",
+          "text": "3.2.1 A utilização de contêineres marítimos transformados só pode ocorrer quando forem promovidas adaptações para atender aos requisitos funcionais e de segurança, higiene e conforto previstos no presente anexo."
+        },
+        {
+          "type": "paragraph",
+          "text": "3.2.2 Para contêineres marítimos transformados, devem ser mantidos no local de sua instalação, em meio físico ou eletrônico, à disposição dos trabalhadores, dos sindicatos das categorias profissionais e da inspeção do trabalho:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "projeto elaborado por profissional legalmente habilitado, detalhando o dimensionamento e os materiais empregados na transformação da unidade;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "certificado de higienização da unidade, realizada por empresa de adaptação de contêineres marítimos ou empresa de limpeza especializada;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "laudo técnico conclusivo das condições ambientais relativo à ausência de riscos químicos, biológicos e físicos, inclusive para radiação, elaborado por profissional legalmente habilitado; e d) identificação da locadora, da empresa ou do profissional legalmente habilitado responsável pela execução da transformação da unidade."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Requisitos de segurança, higiene e conforto"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1 Base de Instalação"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.1 A base sobre a qual os módulos pré-fabricados e os contêineres marítimos transformados serão instalados deve ser capaz de suportar seu próprio peso e a carga agregada decorrente de sua utilização e garantir sua estabilidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.1.2 O local de instalação dos módulos pré-fabricados e dos contêineres marítimos transformados deve considerar os riscos de acidentes que possam afetar a segurança e a saúde no trabalho."
+        }
+      ]
+    },
+    {
+      "id": "42-riscos-elétricos",
+      "number": "4.2",
+      "title": "Riscos Elétricos",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4.2.1 As instalações elétricas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser executadas e mantidas conforme projeto elétrico elaborado por profissional legalmente habilitado em consonância com a NR-10."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2.2 O sistema de aterramento dos módulos pré-fabricados e dos contêineres marítimos transformados deve ser executado conforme previsto na NR-10."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.2.3 Os quadros de distribuição das instalações elétricas em módulos pré-fabricados e nos contêineres marítimos transformados devem:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "ser dimensionados com capacidade para instalar os componentes dos circuitos elétricos que o constituem;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "ser constituídos de materiais resistentes ao calor gerado pelos componentes das instalações;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "ter as partes vivas inacessíveis e protegidas aos trabalhadores não autorizados;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "estar sinalizados quanto ao risco elétrico;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "e",
+              "text": "ter seus circuitos identificados; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "ter dispositivo diferencial residual (DR), como medida de segurança adicional nas instalações elétricas, nas situações previstas na NR-10."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3 Conforto Térmico _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.1 Os módulos pré-fabricados e os contêineres marítimos transformados, utilizados para alojamentos, refeitório ou em locais nos quais os trabalhadores regularmente desenvolvem suas atividades, devem ser climatizados de maneira a garantir as condições de conforto térmico, nos termos da NR-17."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.1.1 Nos módulos pré-fabricados e nos contêineres marítimos transformados com climatização artificial devem ser adotados controles periódicos que garantam a qualidade do ar, conforme legislação vigente."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.1.2 As aberturas de captação de ar exterior permanentes devem ser protegidas contra o ingresso de animais sinantrópicos e ter afastamento de fontes poluentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.2 Os demais módulos pré-fabricados e os contêineres marítimos transformados destinados à ocupação humana, que não se enquadrem na exigência do item 4.3.1, devem ser ventilados para o exterior ou com sistema de exaustão forçada, salvo em ambientes climatizados."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.2.1 As aberturas de ventilação natural devem estar posicionadas para permitir a circulação do ar por toda a estrutura do contêiner."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.3.2.2 A depender das características climáticas da região e dos métodos de ventilação adotados, os módulos pré-fabricados e os contêineres marítimos transformados devem possuir isolamento térmico em material resistente ao fogo ou com tratamento de ignifugação e atóxico em suas paredes e cobertura."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4 Escoamento de água"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4.1 Os módulos pré-fabricados e os contêineres marítimos transformados que possuam área molhada devem adotar métodos que possibilitem o escoamento eficaz da água, sem pontos de acúmulo de água servida."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.4.2 As águas servidas e o esgoto dos módulos pré-fabricados e dos contêineres marítimos transformados devem estar ligados à rede geral ou a outro sistema que não gere risco à saúde, de acordo com a regulamentação local."
+        }
+      ]
+    },
+    {
+      "id": "45-métodos-de-acesso",
+      "number": "4.5",
+      "title": "Métodos de Acesso",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4.5.1 As entradas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ter fácil acesso e ser mantidas desobstruídas."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.1.1 A organização deve considerar a necessidade de instalação de degraus e/ou rampas sempre que as características do local de instalação o exigirem, observado o código de obras local ou de posturas municipais, bem como o estabelecido nas Normas Regulamentadoras aplicáveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.2 Estruturas de módulos pré-fabricados e de contêineres marítimos transformados com 2 (dois) ou mais pavimentos devem possuir métodos de acesso com corrimão, guarda-corpo e cobertura, de acordo com as normas técnicas vigentes. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.3 Os projetos dos módulos pré-fabricados e dos contêineres marítimos transformados devem contemplar saída de emergência quando forem destinados à utilização como alojamento."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.3.1 Para destinações diversas das previstas no item 4.5.3, a organização deve avaliar se há necessidade de saídas de emergência, de acordo com a utilização para a qual se destinam e o local de sua instalação."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.3.2 As saídas de emergência devem estar sinalizadas interna e externamente."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.3.3 As janelas dos contêineres podem ser utilizadas como saídas de emergência, desde que não sejam gradeadas e tenham sido projetadas para tal."
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5.3.4 As saídas de emergência devem ser mantidas desobstruídas, interna e externamente."
+        }
+      ]
+    },
+    {
+      "id": "5-demais-disposições",
+      "number": "5",
+      "title": "Demais Disposições",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "5.1 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana devem atender à NR-24 naquilo que não conflitar com o presente anexo."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.1.1 Nos contêineres marítimos transformados, os boxes destinados a chuveiros devem ter área mínima de 0,60 m², sendo uma das medidas não inferior a 0,75 m. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.1.2 Nos contêineres marítimos transformados, os boxes destinados às instalações sanitárias devem ter área mínima de 0,70 m², sendo uma das medidas não inferior a 0,70 m. _(Prazo para implementação: 14 de setembro de 2029 )_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.1.2.1 No caso de porta com abertura para o exterior, o vão entre a borda frontal da bacia sanitária e a porta fechada deve ser de no mínimo 0,40 m. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2 Nos módulos pré-fabricados ou nos contêineres marítimos transformados, pode ser utilizado beliche."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2.1 Nos contêineres marítimos transformados, a utilização de beliches é limitada a duas unidades em contêineres de 6 m (20 pés) e a quatro unidades em contêineres de 12 m (40 pés), devendo atender aos seguintes requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "a",
+              "text": "distância mínima de 0,85 m entre o topo do colchão inferior e o estrado da cama superior;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "distância mínima de 0,85 m entre o topo do colchão superior e o teto; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "c",
+              "text": "distância mínima de 0,35 m entre o piso e o topo do colchão da cama inferior."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "5.2.2 A utilização de beliches em módulos pré-fabricados deve seguir os requisitos previstos na NR-24."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.3 Os módulos pré-fabricados e contêineres marítimos transformados não podem possuir cantos vivos, arestas ou partes cortantes que exponham o usuário a risco de acidente."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.4 Os contêineres marítimos transformados devem possuir o piso original revestido ou substituído por material lavável, de forma a manter as condições de conservação, higiene e limpeza, previstas na NR-"
+        },
+        {
+          "type": "paragraph",
+          "text": "> 24. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.5 Os contêineres marítimos transformados devem ser conservados com pintura que evite a oxidação (ferrugem) e o desgaste da ferragem e de seus componentes. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.6 No acabamento e pintura dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser utilizadas tintas, materiais ou tratamentos que possuam propriedades ignifugantes. _(Prazo para implementação: 14 de setembro de 2029)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "5.7 O empilhamento de módulos pré-fabricados e de contêineres marítimos transformados para ocupação humana só pode ocorrer mediante projeto elaborado por profissional legalmente habilitado que garanta sua estabilidade."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.7.1 O projeto deve contemplar os meios de acesso, observando-se o previsto no item 4.5.2 do presente anexo."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.8 É proibida a utilização de luminárias e lâmpadas de vidro em módulos pré-fabricados e nos contêineres marítimos transformados."
+        },
+        {
+          "type": "paragraph",
+          "text": "5.9 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana destinados à locação ou à comercialização para uso no território nacional devem atender aos requisitos de segurança, higiene e conforto previstos neste anexo."
+        }
+      ]
     }
   ]
 }
