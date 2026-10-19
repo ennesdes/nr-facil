@@ -214,10 +214,6 @@
         },
         {
           "type": "paragraph",
-          "text": "T₁ T₂ T₃"
-        },
-        {
-          "type": "paragraph",
           "text": "exceder a unidade, a exposição estará acima do limite de tolerância."
         },
         {
@@ -4716,6 +4712,14 @@
           "src": "../assets/pages/page-051-table-full.png"
         },
         {
+          "type": "paragraph",
+          "text": "(**) Não deverá ser permitido nenhum mergulho repetitivo após mergulhos excepcionais"
+        },
+        {
+          "type": "paragraph",
+          "text": "**TABELA DE LIMITES SEM DESCOMPRESSÃO E DE DESIGNAÇÃO DE GRUPO PARA MERGULHOS COM AR SEM DESCOMPRESSÃO**"
+        },
+        {
           "type": "image",
           "alt": "Página 52 (tabelas)",
           "src": "../assets/pages/page-052-table-full.png"
@@ -4838,7 +4842,11 @@
         },
         {
           "type": "paragraph",
-          "text": "- 9 - Mantenha a utilização do oxigênio dentro das limitações de profundidade e tempo. 10 - Verifique as condições do paciente antes e depois de ir para cada parada e durante as paradas mais longas."
+          "text": "- 9 - Mantenha a utilização do oxigênio dentro das limitações de profundidade e tempo."
+        },
+        {
+          "type": "paragraph",
+          "text": "- 10 - Verifique as condições do paciente antes e depois de ir para cada parada e durante as paradas mais longas."
         },
         {
           "type": "paragraph",

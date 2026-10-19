@@ -4,7 +4,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 34 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO, REPARAÇÃO E DESMONTE NAVAL** _(Título alterado pela Portaria MTb nº 790, de 09 de junho de 2017)_"
+        "text": "# **NR 34 - CONDIÇÕES E MEIO AMBIENTE DE TRABALHO NA INDÚSTRIA DA CONSTRUÇÃO,** REPARAÇÃO E DESMONTE NAVAL _(Título alterado pela Portaria MTb nº 790, de 09 de junho de 2017)_"
       },
       {
         "type": "table",
@@ -4353,10 +4353,6 @@
           "type": "item",
           "number": "34.17.5",
           "depth": 2,
-          "text": ""
-        },
-        {
-          "type": "paragraph",
           "text": "O PRE deve ser revisado nas seguintes situações:"
         },
         {

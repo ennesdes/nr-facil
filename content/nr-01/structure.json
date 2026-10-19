@@ -143,7 +143,16 @@
           "items": [
             {
               "label": "a",
-              "text": "fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho; e b) as atividades relacionadas com a CANPAT e o PAT."
+              "text": "fiscalização dos preceitos legais e regulamentares sobre segurança e saúde no trabalho; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "b",
+              "text": "as atividades relacionadas com a CANPAT e o PAT."
             }
           ]
         },

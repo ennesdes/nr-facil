@@ -22,6 +22,11 @@
     },
     {
       "level": 1,
+      "text": "**12.4 Dispositivos de partida, acionamento e parada.**",
+      "id": "124-dispositivos-de-partida-acionamento-e-parada"
+    },
+    {
+      "level": 1,
       "text": "**12.8 Transportadores de materiais.**",
       "id": "128-transportadores-de-materiais"
     },
@@ -44,6 +49,11 @@
       "level": 1,
       "text": "**12.12 Sinalização.**",
       "id": "1212-sinalização"
+    },
+    {
+      "level": 1,
+      "text": "**12.13 Manuais.**",
+      "id": "1213-manuais"
     },
     {
       "level": 1,
@@ -87,7 +97,7 @@
     },
     {
       "level": 1,
-      "text": "**ANEXO IV da NR-12 GLOSSÁRIO**",
+      "text": "**ANEXO IV da NR-12** GLOSSÁRIO",
       "id": "anexo-iv-da-nr-12-glossário"
     },
     {

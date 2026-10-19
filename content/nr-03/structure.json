@@ -4,7 +4,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "**NORMA REGULAMENTADORA N.º 03 – EMBARGO E INTERDIÇÃO** **Publicação D.O.U.** Portaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78"
+        "text": "**NORMA REGULAMENTADORA N.º 03 – EMBARGO E INTERDIÇÃO** Publicação **D.O.U.** Portaria MTb n.º 3.214, de 08 de junho de 1978 06/07/78"
       },
       {
         "type": "table",
@@ -220,11 +220,15 @@
         },
         {
           "type": "paragraph",
+          "text": "Classificação do risco de referência (situação objetivo)"
+        },
+        {
+          "type": "paragraph",
           "text": "Excesso de Risco:"
         },
         {
           "type": "paragraph",
-          "text": "E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum"
+          "text": "E - Extremo S - Substancial M - Moderado P - Pequeno N - Nenhum 4"
         },
         {
           "type": "image",

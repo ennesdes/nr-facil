@@ -2,8 +2,13 @@
   "headings": [
     {
       "level": 1,
-      "text": "**Publicação** Portaria MTb nº 3.214, de 08 de junho de 1978 D.O.U.** 06/07/78",
-      "id": "publicação-portaria-mtb-nº-3214-de-08-de-junho-de-1978-dou-060778"
+      "text": "**Publicação** Portaria MTb nº 3.214, de 08 de junho de 1978 D.O.U.",
+      "id": "publicação-portaria-mtb-nº-3214-de-08-de-junho-de-1978-dou"
+    },
+    {
+      "level": 1,
+      "text": "06/07/78",
+      "id": "060778"
     },
     {
       "level": 1,

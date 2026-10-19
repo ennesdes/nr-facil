@@ -2389,7 +2389,7 @@
         },
         {
           "type": "paragraph",
-          "text": "(1) Total de horas à disposição do empregador (número de tripulantes x 24 horas x 30 dias)."
+          "text": "- (1) Total de horas à disposição do empregador (número de tripulantes x 24 horas x 30 dias)."
         },
         {
           "type": "paragraph",
@@ -2703,11 +2703,7 @@
         },
         {
           "type": "paragraph",
-          "text": "**Nome** / _Name_ :"
-        },
-        {
-          "type": "paragraph",
-          "text": "**Data de Nascimento** / _Date of Birth_ :"
+          "text": "**Nome** / _Name_ : **Data de Nascimento** / _Date of Birth_ :"
         },
         {
           "type": "paragraph",
@@ -2841,7 +2837,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "2.1 Barco é todo barco de pesca, novo ou existente."
+          "text": "- 2.1 Barco é todo barco de pesca, novo ou existente."
         },
         {
           "type": "paragraph",

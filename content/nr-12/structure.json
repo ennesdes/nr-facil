@@ -13709,8 +13709,13 @@
           "src": "../assets/pages/page-149-image-00.png"
         },
         {
+          "type": "image",
+          "alt": "Página 149 — imagem 1",
+          "src": "../assets/pages/page-149-image-01.png"
+        },
+        {
           "type": "paragraph",
-          "text": "![Página 149 — imagem 1](../assets/pages/page-149-image-01.png) sinalização do fabricante;"
+          "text": "sinalização do fabricante;"
         },
         {
           "type": "list",
@@ -15130,26 +15135,16 @@
           "items": [
             {
               "label": "j",
-              "text": "dispositivo de parada de emergência;"
+              "text": "dispositivo de parada de emergência; k) dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min)."
             }
           ]
         },
         {
-          "type": "list",
-          "items": [
-            {
-              "label": "k",
-              "text": "dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min)."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "427-em-caso-de-utilização-de-grua-esta-deve-possuir-no-mínimo",
-      "number": "4.27",
-      "title": "Em caso de utilização de grua, esta deve possuir, no mínimo",
-      "blocks": [
+          "type": "item",
+          "number": "4.27",
+          "depth": 1,
+          "text": "Em caso de utilização de grua, esta deve possuir, no mínimo:"
+        },
         {
           "type": "list",
           "items": [
@@ -15293,14 +15288,13 @@
               "text": "dispositivo limitador de velocidade de deslocamento vertical do cesto suspenso de forma a garantir que se mantenha, no máximo, igual a trinta metros por minuto (30m/min)."
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "428-é-obrigatório-imediatamente-antes-da-movimentação-a-realização-de",
-      "number": "4.28",
-      "title": "É obrigatório, imediatamente antes da movimentação, a realização de",
-      "blocks": [
+        },
+        {
+          "type": "item",
+          "number": "4.28",
+          "depth": 1,
+          "text": "É obrigatório, imediatamente antes da movimentação, a realização de:"
+        },
         {
           "type": "list",
           "items": [

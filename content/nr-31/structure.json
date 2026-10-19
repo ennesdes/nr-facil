@@ -4,15 +4,15 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 31 - SEGURANÇA E SAÚDE NO TRABALHO NA AGRICULTURA, PECUÁRIA, SILVICULTURA, EXPLORAÇÃO FLORESTAL E AQUICULTURA**"
+        "text": "# **NR 31 - SEGURANÇA E SAÚDE NO TRABALHO NA AGRICULTURA, PECUÁRIA, SILVICULTURA, EXPLORAÇÃO FLORESTAL E AQUICULTURA** # **Publicação D.O.U.** Portaria MTE n.º 86, de 03 de março de 2005 04/03/05"
       },
       {
         "type": "table",
-        "markdown": "| **Publicação** | **D.O.U.** |\n| --- | --- |\n| Portaria MTE n.º86, de 03 de março de 2005 | 04/03/05 |\n| **Alterações/Atualizações** | **D.O.U.** |\n| Portaria MTE n.º2.546, de 14 de dezembro de 2011 | 16/12/11 |\n| Portaria MTb n.º1.896, de 09 de dezembro de 2013 | 11/12/13 |\n| Portaria MTb n.º1.086, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPRT n.º22.677, de 22 de outubro de 2020 | 27/10/20 |\n| Portaria MTP n.º698, de 04 de abril de 2022 | Retif. 14/04/22 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.223, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.371, de 28 de dezembro de 2022 | 29/12/22 |\n| Portaria MTE n.º342, de 21 de março de 2024 | 22/03/24 |"
+        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria MTE n.º2.546, de 14 de dezembro de 2011 | 16/12/11 |\n| Portaria MTb n.º1.896, de 09 de dezembro de 2013 | 11/12/13 |\n| Portaria MTb n.º1.086, de 18 de dezembro de 2018 | 19/12/18 |\n| Portaria SEPRT n.º22.677, de 22 de outubro de 2020 | 27/10/20 |\n| Portaria MTP n.º698, de 04 de abril de 2022 | Retif. 14/04/22 |\n| Portaria MTP n.º4.219, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.223, de 20 de dezembro de 2022 | 22/12/22 |\n| Portaria MTP n.º4.371, de 28 de dezembro de 2022 | 29/12/22 |\n| Portaria MTE n.º342, de 21 de março de 2024 | 22/03/24 |"
       },
       {
         "type": "paragraph",
-        "text": "_Redação dada pela Portaria SEPRT n.º 22.677, de 22 de outubro de 2020_ # **SUMÁRIO** - 31.1 Objetivo 31.2 Campo de Aplicação - Obrigações e Competências - Das Responsabilidades - 31.3 Programa de Gerenciamento de Riscos no Trabalho Rural - PGRTR - 31.4 Serviço Especializado em Segurança e Saúde no Trabalho Rural - SESTR - 31.5 Comissão Interna de Prevenção de Acidentes e de Assédio do Trabalho Rural - CIPATR _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ - 31.6 Medidas de Proteção Pessoal - 31.7 Agrotóxicos, Aditivos, Adjuvantes e Produtos Afins - 31.8 Ergonomia - 31.9 Transporte de Trabalhadores - 31.10 Instalações Elétricas - 31.11 Ferramentas Manuais - 31.12 Segurança no Trabalho em Máquinas, Equipamentos e Implementos - 31.13 Secadores, Silos e Espaços Confinados - 31.14 Movimentação e Armazenamento de Materiais - 31.15 Trabalho em Altura - 31.16 Edificações Rurais - 31.17 Condições Sanitárias e de Conforto no Trabalho Rural - ANEXO I - Meios de acesso a máquinas, equipamentos e implementos ANEXO II - Quadros e Figuras auxiliares Glossário"
+        "text": "_Redação dada pela Portaria SEPRT n.º 22.677, de 22 de outubro de 2020_ # **SUMÁRIO** - 31.1 Objetivo 31.2 Campo de Aplicação - Obrigações e Competências - Das Responsabilidades - 31.3 Programa de Gerenciamento de Riscos no Trabalho Rural - PGRTR - 31.4 Serviço Especializado em Segurança e Saúde no Trabalho Rural - SESTR - 31.5 Comissão Interna de Prevenção de Acidentes e de Assédio do Trabalho Rural - CIPATR _(alterado pela Portaria MTP nº 4.219, de 20 de dezembro de 2022)_ - 31.6 Medidas de Proteção Pessoal - 31.7 Agrotóxicos, Aditivos, Adjuvantes e Produtos Afins - 31.8 Ergonomia - 31.9 Transporte de Trabalhadores - 31.10 Instalações Elétricas - 31.11 Ferramentas Manuais - 31.12 Segurança no Trabalho em Máquinas, Equipamentos e Implementos - 31.13 Secadores, Silos e Espaços Confinados - 31.14 Movimentação e Armazenamento de Materiais - 31.15 Trabalho em Altura - 31.16 Edificações Rurais - 31.17 Condições Sanitárias e de Conforto no Trabalho Rural ANEXO I - Meios de acesso a máquinas, equipamentos e implementos ANEXO II - Quadros e Figuras auxiliares Glossário"
       }
     ]
   },
@@ -1500,11 +1500,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "***** técnico em segurança do trabalho em tempo parcial (20 horas semanais) ****** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo integral, em substitução ao auxiliar ou técnico de enfermagem do trabalho"
-        },
-        {
-          "type": "paragraph",
-          "text": "******* médico do trabalho em tempo parcial (15 horas semanais)"
+          "text": "***** técnico em segurança do trabalho em tempo parcial (20 horas semanais) ****** o empregador pode optar pela contratação de um enfermeiro do trabalho em tempo integral, em substitução ao auxiliar ou técnico de enfermagem do trabalho ******* médico do trabalho em tempo parcial (15 horas semanais)"
         },
         {
           "type": "paragraph",
