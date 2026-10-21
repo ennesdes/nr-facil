@@ -21,14 +21,49 @@
       "id": "anexo-i"
     },
     {
+      "level": 3,
+      "text": "GRADAÇÃO DE MULTAS (EM BTN)",
+      "id": "gradação-de-multas-em-btn"
+    },
+    {
       "level": 1,
       "text": "**ANEXO IA**",
       "id": "anexo-ia"
     },
     {
       "level": 1,
-      "text": "**ANEXO II NORMAS REGULAMENTADORAS - NR**",
+      "text": "**ANEXO II** NORMAS REGULAMENTADORAS - NR",
       "id": "anexo-ii-normas-regulamentadoras---nr"
+    },
+    {
+      "level": 2,
+      "text": "**NR-1**",
+      "id": "nr-1"
+    },
+    {
+      "level": 3,
+      "text": "_(Portaria MTE nº 104, de 29 de janeiro de 2026)_",
+      "id": "_portaria-mte-nº-104-de-29-de-janeiro-de-2026_"
+    },
+    {
+      "level": 2,
+      "text": "**NR-6**",
+      "id": "nr-6"
+    },
+    {
+      "level": 3,
+      "text": "_(Portaria MTE nº 104, de 29 de janeiro de 2026)_",
+      "id": "_portaria-mte-nº-104-de-29-de-janeiro-de-2026_"
+    },
+    {
+      "level": 3,
+      "text": "_Portaria MTE nº 1.758, de 29 de setembro de 2026_",
+      "id": "_portaria-mte-nº-1758-de-29-de-setembro-de-2026_"
+    },
+    {
+      "level": 3,
+      "text": "_Portaria MTE nº 1.758, de 29 de setembro de 2026_",
+      "id": "_portaria-mte-nº-1758-de-29-de-setembro-de-2026_"
     },
     {
       "level": 2,
