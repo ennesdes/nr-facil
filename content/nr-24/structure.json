@@ -4,7 +4,15 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "# **NR 24** - **CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO** **Publicação D.O.U.** Portaria MTb nº 3.214, de 08 de junho de 1978 06/07/78 **Alterações/Atualizações** **D.O.U.** Portaria SSST nº 13, de 17 de setembro de 1993 21/09/93 Portaria SEPRT nº 1.066, de 23 de setembro de 2019 24/09/19 Portaria MTP nº 2.772, de 05 de setembro de 2022 06/09/22 Portaria MTE nº 1.590, de 11 de setembro de 2026 14/09/26 Portaria MTE nº 1.591, de 11 de setembro de 2026 14/09/26 _(Redação dada pela Portaria SEPRT n.º 1.066, de 23/09/19)_ # **SUMÁRIO** 24.1 Objetivo e campo de aplicação 24.2 Instalações sanitárias 24.3 Componentes sanitários 24.4 Vestiários 24.5 Locais para refeições 24.6 Cozinhas 24.7 Alojamento 24.8 Vestimenta de trabalho 24.9 Disposições gerais Anexo I - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em “Shopping Center” Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços Anexo III - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Transporte Público Rodoviário Coletivo Urbano de Passageiros em Atividade Externa Anexo IV - Módulos Pré-Fabricados e Contêineres Marítimos Transformados para Ocupação Humana"
+        "text": "# **NR 24** - **CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO** **Publicação** **Publicação D.O.U.** Portaria MTb nº 3.214, de 08 de junho de 1978 06/07/78"
+      },
+      {
+        "type": "table",
+        "markdown": "| **Alterações/Atualizações** | **D.O.U.** |\n| --- | --- |\n| Portaria SSST nº13, de 17 de setembro de 1993 | 21/09/93 |\n| Portaria SEPRT nº1.066, de 23 de setembro de 2019 | 24/09/19 |\n| Portaria MTP nº2.772, de 05 de setembro de 2022 | 06/09/22 |\n| Portaria MTE nº1.590, de 11 de setembro de 2026 | 14/09/26 |\n| Portaria MTE nº1.591, de 11 de setembro de 2026 | 14/09/26 |"
+      },
+      {
+        "type": "paragraph",
+        "text": "_(Redação dada pela Portaria SEPRT n.º 1.066, de 23/09/19)_ # **SUMÁRIO** 24.1 Objetivo e campo de aplicação 24.2 Instalações sanitárias 24.3 Componentes sanitários 24.4 Vestiários 24.5 Locais para refeições 24.6 Cozinhas 24.7 Alojamento 24.8 Vestimenta de trabalho 24.9 Disposições gerais Anexo I - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em “Shopping Center” Anexo II - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Trabalho Externo de Prestação de Serviços Anexo III - Condições Sanitárias e de Conforto Aplicáveis a Trabalhadores em Transporte Público Rodoviário Coletivo Urbano de Passageiros em Atividade Externa Anexo IV - Módulos Pré-Fabricados e Contêineres Marítimos Transformados para Ocupação Humana"
       }
     ]
   },
@@ -43,11 +51,7 @@
           "type": "item",
           "number": "24.2.1.1",
           "depth": 3,
-          "text": "As instalações sanitárias masculinas devem ser dotadas de mictório, exceto quando"
-        },
-        {
-          "type": "paragraph",
-          "text": "essencialmente de uso individual, observando-se que:"
+          "text": "As instalações sanitárias masculinas devem ser dotadas de mictório, exceto quando essencialmente de uso individual, observando-se que:"
         },
         {
           "type": "list",
@@ -204,7 +208,16 @@
           "items": [
             {
               "label": "e",
-              "text": "possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa; f) ser ventiladas para o exterior ou com sistema de exaustão forçada, não direcionado a outro ambiente fechado;"
+              "text": "possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "f",
+              "text": "ser ventiladas para o exterior ou com sistema de exaustão forçada, não direcionado a outro ambiente fechado;"
             }
           ]
         },
@@ -600,7 +613,11 @@
           "type": "item",
           "number": "24.4.2.1",
           "depth": 3,
-          "text": "Em estabelecimentos com mais de 750 (setecentos e cinquenta) trabalhadores, os vestiários devem ser dimensionados com área de, no mínimo, 0,75m² (setenta e cinco decímetros quadrados) por trabalhador."
+          "text": "Em estabelecimentos com mais de 750 (setecentos e cinquenta) trabalhadores, os vestiários devem ser dimensionados com área de, no mínimo, 0,75m² (setenta e cinco decímetros quadrados) por"
+        },
+        {
+          "type": "paragraph",
+          "text": "trabalhador."
         },
         {
           "type": "item",
@@ -881,7 +898,16 @@
           "items": [
             {
               "label": "i",
-              "text": "possuir condições de conservação, limpeza e higiene; - j) dispor de meios para aquecimento das refeições; e"
+              "text": "possuir condições de conservação, limpeza e higiene;"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "j",
+              "text": "dispor de meios para aquecimento das refeições; e"
             }
           ]
         },
@@ -1039,7 +1065,7 @@
           "items": [
             {
               "label": "b",
-              "text": "ser dotados de quartos; - c) dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e"
+              "text": "ser dotados de quartos;"
             }
           ]
         },
@@ -1047,8 +1073,8 @@
           "type": "list",
           "items": [
             {
-              "label": "d",
-              "text": "ser separados por sexo."
+              "label": "c",
+              "text": "dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e d) ser separados por sexo."
             }
           ]
         },
@@ -1536,10 +1562,15 @@
       "blocks": []
     },
     {
-      "id": "3-os-estabelecimentos-referidos-no-item-1-ficam-dispensados-dos-itens-relativos-a-instalações-sanitárias-vestiários-e-locais-para-refeições-desde-que-os-trabalhadores-possam-utilizar-as-instalações-sanitárias-e-a-praça-de-alimentação-do-shopping-center-ou-outro-espaço-destinado-a-estes-fins-conforme-o-estabelecido-nesta-norma",
+      "id": "3-os-estabelecimentos-referidos-no-item-1-ficam-dispensados-dos-itens-relativos-a-instalações-sanitárias-vestiários-e-locais-para-refeições-desde-que-os-trabalhadores-possam-utilizar-as-instalações",
       "number": "3",
-      "title": "Os estabelecimentos referidos no item 1 ficam dispensados dos itens relativos a instalações sanitárias, vestiários e locais para refeições, desde que os trabalhadores possam utilizar as instalações sanitárias e a praça de alimentação do “Shopping Center” ou outro espaço destinado a estes fins, conforme o estabelecido nesta norma.",
-      "blocks": []
+      "title": "Os estabelecimentos referidos no item 1 ficam dispensados dos itens relativos a instalações sanitárias, vestiários e locais para refeições, desde que os trabalhadores possam utilizar as instalações",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "sanitárias e a praça de alimentação do “Shopping Center” ou outro espaço destinado a estes fins, conforme o estabelecido nesta norma."
+        }
+      ]
     },
     {
       "id": "4-aos-trabalhadores-de-lanchonetes-restaurantes-ou-similares-deverão-ser-disponibilizados-vestiários-e-instalações-sanitárias-com-chuveiros-na-proporção-de-um-conjunto-para-cada-grupo-de-20-vinte-trabalhadores-ou-fração-obedecendo-ao-horário-do-turno-de-maior-contingente",
@@ -1617,17 +1648,11 @@
           "items": [
             {
               "label": "c",
-              "text": "água fresca e potável acondicionada em recipientes térmicos em bom estado de conservação e em quantidade suficiente."
+              "text": "água fresca e potável acondicionada em recipientes térmicos em bom estado de conservação e em quantidade suficiente. **3.** O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador."
             }
           ]
         }
       ]
-    },
-    {
-      "id": "3-o-uso-de-instalações-sanitárias-em-trabalhos-externos-deve-ser-gratuito-para-o-trabalhador",
-      "number": "3",
-      "title": "O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador.",
-      "blocks": []
     },
     {
       "id": "4-aos-trabalhadores-em-trabalho-externo-que-levem-suas-próprias-refeições-devem-ser-oferecidos-dispositivos-térmicos-para-conservação-e-aquecimento-dos-alimentos",
@@ -1765,7 +1790,11 @@
         },
         {
           "type": "paragraph",
-          "text": "_(Portaria MTE nº 1.591, de 08 de setembro de 2026)_ _(Entra em vigor no dia 14 de setembro de 2029, exceto o capítulo 4.3, itens e subitens 4.5.2, 5.1.1, 5.1.2, 5.1.2.1, 5.4, 5.5 e 5.6 que possuem prazo específico)_"
+          "text": "_(Portaria MTE nº 1.591, de 08 de setembro de 2026)_"
+        },
+        {
+          "type": "paragraph",
+          "text": "_Este Anexo entra em vigor no dia 12 de novembro de 2026 ,_ **_exceto_** _para os_ **_Módulos_** _e Pré-Fabricados e_ **_Contêineres_** _Marítimos Transformados para Ocupação Humana,_ **_EM UTILIZAÇÃO_** _, antes da publicação deste Anexo,_ **_que seguem o cronograma_** _previsto no Art. 2º da Portaria MTE nº 1.591, de 08 de setembro de 2026_ ."
         }
       ]
     },
@@ -1776,7 +1805,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "1.1 Este anexo tem como objetivo estabelecer requisitos mínimos de segurança, higiene e conforto para a utilização de módulos pré-fabricados e contêineres marítimos transformados para ocupação humana."
+          "text": "- 1.1 Este anexo tem como objetivo estabelecer requisitos mínimos de segurança, higiene e conforto"
+        },
+        {
+          "type": "table",
+          "markdown": "| Este Anexo entra em vigor no dia 12 de novembro de 202 | 6 |\n| --- | --- |"
+        },
+        {
+          "type": "paragraph",
+          "text": "para a utilização de módulos pré-fabricados e contêineres marítimos transformados para ocupação humana."
         }
       ]
     },
@@ -1840,7 +1877,16 @@
           "items": [
             {
               "label": "c",
-              "text": "laudo técnico conclusivo das condições ambientais relativo à ausência de riscos químicos, biológicos e físicos, inclusive para radiação, elaborado por profissional legalmente habilitado; e d) identificação da locadora, da empresa ou do profissional legalmente habilitado responsável pela execução da transformação da unidade."
+              "text": "laudo técnico conclusivo das condições ambientais relativo à ausência de riscos químicos, biológicos e físicos, inclusive para radiação, elaborado por profissional legalmente habilitado; e"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "label": "d",
+              "text": "identificação da locadora, da empresa ou do profissional legalmente habilitado responsável pela execução da transformação da unidade."
             }
           ]
         },
@@ -1932,11 +1978,14 @@
               "text": "ter dispositivo diferencial residual (DR), como medida de segurança adicional nas instalações elétricas, nas situações previstas na NR-10."
             }
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "4.3 Conforto Térmico _(Prazo para implementação: 14 de setembro de 2029)_"
-        },
+        }
+      ]
+    },
+    {
+      "id": "43-conforto-térmico",
+      "number": "4.3",
+      "title": "Conforto Térmico",
+      "blocks": [
         {
           "type": "paragraph",
           "text": "4.3.1 Os módulos pré-fabricados e os contêineres marítimos transformados, utilizados para alojamentos, refeitório ou em locais nos quais os trabalhadores regularmente desenvolvem suas atividades, devem ser climatizados de maneira a garantir as condições de conforto térmico, nos termos da NR-17."
@@ -1972,14 +2021,11 @@
         {
           "type": "paragraph",
           "text": "4.4.2 As águas servidas e o esgoto dos módulos pré-fabricados e dos contêineres marítimos transformados devem estar ligados à rede geral ou a outro sistema que não gere risco à saúde, de acordo com a regulamentação local."
-        }
-      ]
-    },
-    {
-      "id": "45-métodos-de-acesso",
-      "number": "4.5",
-      "title": "Métodos de Acesso",
-      "blocks": [
+        },
+        {
+          "type": "paragraph",
+          "text": "4.5 Métodos de Acesso"
+        },
         {
           "type": "paragraph",
           "text": "4.5.1 As entradas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ter fácil acesso e ser mantidas desobstruídas."
@@ -1990,7 +2036,7 @@
         },
         {
           "type": "paragraph",
-          "text": "4.5.2 Estruturas de módulos pré-fabricados e de contêineres marítimos transformados com 2 (dois) ou mais pavimentos devem possuir métodos de acesso com corrimão, guarda-corpo e cobertura, de acordo com as normas técnicas vigentes. _(Prazo para implementação: 14 de setembro de 2029)_"
+          "text": "4.5.2 Estruturas de módulos pré-fabricados e de contêineres marítimos transformados com 2 (dois) ou mais pavimentos devem possuir métodos de acesso com corrimão, guarda-corpo e cobertura, de acordo com as normas técnicas vigentes."
         },
         {
           "type": "paragraph",
@@ -2025,15 +2071,15 @@
         },
         {
           "type": "paragraph",
-          "text": "5.1.1 Nos contêineres marítimos transformados, os boxes destinados a chuveiros devem ter área mínima de 0,60 m², sendo uma das medidas não inferior a 0,75 m. _(Prazo para implementação: 14 de setembro de 2029)_"
+          "text": "5.1.1 Nos contêineres marítimos transformados, os boxes destinados a chuveiros devem ter área mínima de 0,60 m², sendo uma das medidas não inferior a 0,75 m."
         },
         {
           "type": "paragraph",
-          "text": "5.1.2 Nos contêineres marítimos transformados, os boxes destinados às instalações sanitárias devem ter área mínima de 0,70 m², sendo uma das medidas não inferior a 0,70 m. _(Prazo para implementação: 14 de setembro de 2029 )_"
+          "text": "5.1.2 Nos contêineres marítimos transformados, os boxes destinados às instalações sanitárias devem ter área mínima de 0,70 m², sendo uma das medidas não inferior a 0,70 m."
         },
         {
           "type": "paragraph",
-          "text": "5.1.2.1 No caso de porta com abertura para o exterior, o vão entre a borda frontal da bacia sanitária e a porta fechada deve ser de no mínimo 0,40 m. _(Prazo para implementação: 14 de setembro de 2029)_"
+          "text": "5.1.2.1 No caso de porta com abertura para o exterior, o vão entre a borda frontal da bacia sanitária e a porta fechada deve ser de no mínimo 0,40 m."
         },
         {
           "type": "paragraph",
@@ -2080,19 +2126,15 @@
         },
         {
           "type": "paragraph",
-          "text": "5.4 Os contêineres marítimos transformados devem possuir o piso original revestido ou substituído por material lavável, de forma a manter as condições de conservação, higiene e limpeza, previstas na NR-"
+          "text": "5.4 Os contêineres marítimos transformados devem possuir o piso original revestido ou substituído por material lavável, de forma a manter as condições de conservação, higiene e limpeza, previstas na NR24."
         },
         {
           "type": "paragraph",
-          "text": "> 24. _(Prazo para implementação: 14 de setembro de 2029)_"
+          "text": "5.5 Os contêineres marítimos transformados devem ser conservados com pintura que evite a oxidação (ferrugem) e o desgaste da ferragem e de seus componentes."
         },
         {
           "type": "paragraph",
-          "text": "5.5 Os contêineres marítimos transformados devem ser conservados com pintura que evite a oxidação (ferrugem) e o desgaste da ferragem e de seus componentes. _(Prazo para implementação: 14 de setembro de 2029)_"
-        },
-        {
-          "type": "paragraph",
-          "text": "5.6 No acabamento e pintura dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser utilizadas tintas, materiais ou tratamentos que possuam propriedades ignifugantes. _(Prazo para implementação: 14 de setembro de 2029)_"
+          "text": "5.6 No acabamento e pintura dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser utilizadas tintas, materiais ou tratamentos que possuam propriedades ignifugantes."
         },
         {
           "type": "paragraph",

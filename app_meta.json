@@ -1,23 +1,7 @@
 {
-  "generated_at": "2026-11-04T17:01:19.772116+00:00",
+  "generated_at": "2026-11-05T17:18:41.722963+00:00",
   "min_app_version": "0.0.0",
   "updates": [
-    {
-      "nr_id": "nr-32",
-      "title": "SEGURANÇA E SAÚDE NO TRABALHO EM SERVIÇOS DE SAÚDE",
-      "portaria": "As demais normas foram criadas ao longo do tempo, visando assegurar a prevenção da segurança e saúde de trabalhadores em serviços laborais e segmentos",
-      "pdf_hash": "b25d255759da88cc71ae34ceadf180ef07d1a08c48d78f7854ff80a83eb4e68e",
-      "summary": "Primeira versão",
-      "created_at": "2026-08-18T22:02:13.978709+00:00"
-    },
-    {
-      "nr_id": "nr-35",
-      "title": "TRABALHO EM ALTURA",
-      "portaria": "Esta proposta de texto foi encaminhada para consulta pública, pelaPortaria MTE nº 232de 09/06/2011, com prazo de encaminhamento de sugestões até 09/08",
-      "pdf_hash": "91dc713d2037b2a81b66a0a89fc6996bfa9a89c6eaf42973b5934306f628a2ab",
-      "summary": "Primeira versão",
-      "created_at": "2026-08-18T22:02:13.978870+00:00"
-    },
     {
       "nr_id": "nr-03",
       "title": "EMBARGO E INTERDIÇÃO",
@@ -4244,6 +4228,234 @@
       ],
       "content_ref": "fb37ef149a96f27d99a0af29f17c671293424431",
       "created_at": "2026-10-21T14:35:28.676136+00:00"
+    },
+    {
+      "nr_id": "nr-29",
+      "title": "NORMA REGULAMENTADORA DE SEGURANÇA E SAÚDE NO TRABALHO PORTUÁRIO",
+      "portaria": null,
+      "hash": "2f55314c975d080cd684f4d1e14a5b43b4efcea2e44f16c67bbb80cc3f31e3e3",
+      "pdf_hash": "2441989116c1df8a70fb48dede990d009aaed72566330f4b7554e2ac092f2969",
+      "summary": "30 itens alterados",
+      "items": [
+        {
+          "item": "29.1.1",
+          "tipo": "novo",
+          "resumo": "Esta Norma Regulamentadora - NR tem por objetivo estabelecer as medidas de prevenção em Segurança e Saúde no trabalho portuário e as diretrizes para a implementação do gerenciamento dos riscos ocupacionais nos ambientes de trabalho alcançados por esta NR. # **29.2 Campo de aplicação**"
+        },
+        {
+          "item": "29.2.1",
+          "tipo": "novo",
+          "resumo": "As disposições contidas nesta NR aplicam-se ao trabalho portuário, tanto a bordo como em terra, assim como às demais atividades nos portos e nas instalações portuárias, públicas ou privadas, situadas dentro ou fora da área do porto organizado, e nos terminais retroportuários."
+        },
+        {
+          "item": "29.2.1.1",
+          "tipo": "novo",
+          "resumo": "Aplicam-se aos terminais retroportuários, além do disposto nas demais normas regulamentadoras, os seguintes itens desta NR: a) 29.15 Lingamento e deslingamento de cargas; b) 29.16 Operações com contêineres; c) 29.17 Operações com granéis secos; d) 29.18 Transporte, movimentação, armazenagem e manuseio; e) 29.19 Segurança em armazéns e silos; f) 29.22 Iluminação dos locais de trabalho; g) 29.24 Locais frigorificados; h) 29.25 Condições sanitárias e de conforto nos locais de trabalho; i) 29.26 Primeiros socorros e outras providências; e j) 29.27 Operações com cargas perigosas, excetuando-se o item 29.27.36 e seu subitem. # **29.3 Competências e responsabilidades**"
+        },
+        {
+          "item": "29.3.1",
+          "tipo": "novo",
+          "resumo": "Os operadores portuários, os tomadores de serviço, os empregadores e o Órgão Gestor de Mão de Obra - OGMO devem colaborar no cumprimento desta NR e das demais normas regulamentadoras de segurança e saúde no trabalho."
+        },
+        {
+          "item": "29.3.2",
+          "tipo": "novo",
+          "resumo": "Compete aos operadores portuários e aos tomadores de serviço, em relação aos trabalhadores avulsos: a) cumprir e fazer cumprir esta NR e as demais disposições legais de segurança e saúde aplicáveis ao trabalho portuário; _ _ b) assegurar que as operações ocorram após a implementação das medidas de prevenção, conforme previsto na NR-01 (Disposições Gerais e Gerenciamento de Riscos Ocupacionais); e c) realizar operação portuária com os trabalhadores utilizando corretamente os equipamentos de proteção individual, devendo atender à NR-06 (Equipamento de Proteção Individual - EPI)."
+        },
+        {
+          "item": "29.3.3",
+          "tipo": "novo",
+          "resumo": "Compete ao OGMO, em relação aos seus trabalhadores avulsos: a) participar, com os operadores portuários e tomadores de serviço, da definição das medidas de prevenção, nos termos da NR-01; b) proporcionar a todos os trabalhadores formação sobre segurança e saúde no trabalho portuário, conforme previsto nesta NR; c) escalar trabalhadores capacitados, conforme os riscos informados pelo operador portuário ou tomador de serviço; d) atender à NR-06 em relação ao EPI; e) elaborar e implementar o Programa de Controle Médico de Saúde Ocupacional - PCMSO, observado o disposto na NR-07; e f) notificar o operador portuário ou tomador de serviço na eventualidade de descumprimento desta NR ou demais disposições legais de segurança e saúde dos trabalhadores."
+        },
+        {
+          "item": "29.3.4",
+          "tipo": "novo",
+          "resumo": "É responsabilidade do trabalhador avulso habilitar-se por meio de capacitação específica, oferecida pelo OGMO ou pelo tomador de serviço, quanto às normas de segurança e saúde no trabalho portuário."
+        },
+        {
+          "item": "29.3.4.1",
+          "tipo": "novo",
+          "resumo": "O OGMO deve oferecer as capacitações quanto às normas de segurança e saúde no trabalho para fins de engajamento do trabalhador no serviço."
+        },
+        {
+          "item": "29.3.4.2",
+          "tipo": "novo",
+          "resumo": "O OGMO somente pode escalar trabalhadores nas atividades que estes estejam capacitados."
+        },
+        {
+          "item": "29.3.5",
+          "tipo": "novo",
+          "resumo": "Compete aos trabalhadores: a) cumprir as disposições desta NR, bem como as demais disposições legais de segurança e saúde no trabalho, no que lhe couber; b) informar ao responsável pela operação, as avarias ou deficiências observadas que possam constituir risco para o trabalhador ou para operação; e c) utilizar corretamente os dispositivos de segurança, EPI e Equipamentos de Proteção Coletiva - EPCs, que lhes sejam fornecidos, bem como as instalações que lhes forem destinadas."
+        },
+        {
+          "item": "29.3.6",
+          "tipo": "novo",
+          "resumo": "Compete às administrações portuárias, dentro dos limites da área do porto organizado, zelar para que os seus serviços estejam em conformidade com os preceitos desta NR e das demais normas especiais e gerais."
+        },
+        {
+          "item": "29.3.6.1",
+          "tipo": "novo",
+          "resumo": "Compete também à administração do porto garantir infraestrutura adequada para a realização segura da atividade portuária em suas instalações, inclusive aquelas dedicadas às situações _ _ de emergência previstas nos planos de controle de emergência."
+        },
+        {
+          "item": "29.3.7",
+          "tipo": "novo",
+          "resumo": "Sem prejuízo do disposto nesta NR, as medidas de prevenção de segurança e saúde nas operações portuárias a bordo de embarcações devem levar em consideração as instruções do comandante da embarcação ou de seus prepostos."
+        },
+        {
+          "item": "29.3.7.1",
+          "tipo": "novo",
+          "resumo": "A operação portuária somente poderá ser iniciada após o comandante da embarcação ou seus prepostos garantirem condições seguras de funcionamento dos equipamentos da embarcação e das áreas da embarcação onde houver sido autorizada a circulação ou permanência dos trabalhadores portuários."
+        },
+        {
+          "item": "29.3.8",
+          "tipo": "novo",
+          "resumo": "No caso de solicitação de serviços para sindicato dos trabalhadores, mediante contrato, acordo ou convenção coletiva de trabalho, as responsabilidades previstas nesta NR serão do respectivo tomador de serviços. # **29.4 Programa de Gerenciamento de Riscos - PGR**"
+        },
+        {
+          "item": "29.4.1",
+          "tipo": "novo",
+          "resumo": "O operador portuário, o tomador de serviço e o empregador devem: a) elaborar e implementar o Programa de Gerenciamento de Riscos, nos termos da NR-01 na instalação portuária em que atuem; b) considerar em seus programas as informações sobre riscos ocupacionais que impactam nas operações portuárias, fornecidas pelo OGMO e pela administração portuária, em relação às suas atividades; e c) fornecer as informações dos riscos ocupacionais sob sua gestão que possam impactar as atividades da administração portuária e do OGMO."
+        },
+        {
+          "item": "29.4.1.1",
+          "tipo": "novo",
+          "resumo": "O operador portuário e o tomador de serviço devem incluir as atividades do trabalho avulso em seu PGR. # **29.4.2** A administração portuária deve: a) elaborar e implementar o PGR nos portos organizados, nos termos da NR-01, levando em consideração as informações dos riscos ocupacionais que possam impactar nas operações portuárias fornecidas pelos operadores portuários, tomadores de serviço, empregadores e OGMO; e b) fornecer as informações sobre riscos ocupacionais que impactam na operação portuária aos operadores portuários, tomadores de serviço, empregadores e ao OGMO."
+        },
+        {
+          "item": "29.4.2.1",
+          "tipo": "novo",
+          "resumo": "O PGR da administração portuária poderá incluir medidas de prevenção para os operadores portuários, tomadores de serviço, empregadores e OGMO que atuem em suas dependências ou local previamente convencionado em contrato ou referenciar os programas dos mesmos."
+        },
+        {
+          "item": "29.4.3",
+          "tipo": "novo",
+          "resumo": "Os operadores portuários, tomadores de serviço, empregadores e o OGMO podem referenciar o PGR da administração portuária em seus programas. _ _ # **29.4.4** O OGMO deve: a) elaborar e implementar o PGR levando em consideração as informações sobre riscos ocupacionais fornecidas pelos operadores portuários, tomadores de serviço e pela administração portuária; e b) fornecer as informações sobre riscos ocupacionais que impactam na operação portuária aos operadores portuários, tomadores de serviço, empregadores e nas atividades da administração portuária."
+        },
+        {
+          "item": "29.4.5",
+          "tipo": "novo",
+          "resumo": "O operador portuário, o tomador de serviço, o empregador, a administração portuária e o OGMO podem definir de forma conjunta os mecanismos de troca de informações previstas no item 29.4 desta NR."
+        },
+        {
+          "item": "29.4.6",
+          "tipo": "novo",
+          "resumo": "O operador portuário, o tomador de serviço e o empregador devem elaborar e manter de forma acessível aos trabalhadores os seguintes procedimentos: a) acesso seguro a embarcações; b) transporte, movimentação, armazenamento e manuseio seguro de cargas; c) segurança do trabalho portuário executado nos porões das embarcações; d) segurança do trabalho portuário executado em espaço confinado, nos termos da NR-33 -Segurança e Saúde nos Trabalhos em Espaços Confinados; e) segurança para a execução do trabalho portuário em condições climáticas e ambientais adversas e interrupção das atividades nessas situações, quando comprometerem a segurança dos trabalhadores; e f) segurança para as operações com cargas perigosas."
+        },
+        {
+          "item": "29.4.6.1",
+          "tipo": "novo",
+          "resumo": "Os procedimentos previstos no subitem 29.4.6 devem estar em conformidade com o inventário de riscos e o plano de ação do PGR."
+        },
+        {
+          "item": "29.4.6.2",
+          "tipo": "novo",
+          "resumo": "Os procedimentos previstos no subitem 29.4.6 devem ser anexados ao PGR. # **29.5 Serviço Especializado em Segurança e Saúde do Trabalhador Portuário - SESSTP**"
+        },
+        {
+          "item": "29.5.1",
+          "tipo": "novo",
+          "resumo": "O OGMO deve constituir SESSTP, de acordo com o dimensionamento mínimo constante do Quadro I do Anexo I, atendendo aos trabalhadores avulsos."
+        },
+        {
+          "item": "29.5.2",
+          "tipo": "novo",
+          "resumo": "O custeio do SESSTP será dividido proporcionalmente de acordo com o número de trabalhadores utilizados pelos OGMO, os operadores portuários e os tomadores de serviço, por ocasião da arrecadação dos valores relativos à remuneração dos trabalhadores."
+        },
+        {
+          "item": "29.5.3",
+          "tipo": "novo",
+          "resumo": "Os operadores portuários, as administrações portuárias e os terminais de uso privado podem firmar convênios para compor o SESSTP local com seus profissionais."
+        },
+        {
+          "item": "29.5.3.1",
+          "tipo": "novo",
+          "resumo": "O SESSTP local, formado de acordo com o item anterior, deve ser coordenado pelo OGMO. _ _"
+        },
+        {
+          "item": "29.5.4",
+          "tipo": "novo",
+          "resumo": "O SESSTP deve ser dimensionado de acordo com a média aritmética obtida pela divisão do número de trabalhadores avulsos tomados no ano civil anterior e pelo número de dias efetivamente trabalhados."
+        },
+        {
+          "item": "29.5.5",
+          "tipo": "novo",
+          "resumo": "Nas instalações portuárias em início de operação, o dimensionamento terá por base o número estimado de trabalhadores avulsos a serem tomados no ano."
+        },
+        {
+          "item": "29.5.6",
+          "tipo": "novo",
+          "resumo": "Acima de três mil e quinhentos trabalhadores para cada grupo de dois mil trabalhadores, ou fração acima de quinhentos, haverá um acréscimo de um profissional especializado por função, exceto no caso do Técnico de Segurança do Trabalho, no qual haverá um acréscimo de três profissionais."
+        }
+      ],
+      "content_ref": "e11a166683a467f2c0153c4ff41f1c7221549651",
+      "created_at": "2026-11-05T17:18:41.719120+00:00"
+    },
+    {
+      "nr_id": "nr-24",
+      "title": "CONDIÇÕES SANITÁRIAS E DE CONFORTO NOS LOCAIS DE TRABALHO",
+      "portaria": null,
+      "hash": "4e488435efe19794dda9f8db3df171724a9c8fc09d3d7f886a527e0206c9928a",
+      "pdf_hash": "88cbef8005f2c5793291c48cfe81d97441ed6c34e2d41a6674c3d73ffebe78de",
+      "summary": "8 itens alterados",
+      "items": [
+        {
+          "item": "24.4.3",
+          "tipo": "removido",
+          "resumo": "Os vestiários devem: a) ser mantidos em condição de conservação, limpeza e higiene; b) ter piso e parede revestidos por material impermeável e lavável; c) ser ventilados para o exterior ou com sistema de exaustão forçada; d) ter assentos em material lavável e impermeável em número compatível com o de trabalhadores; e e) dispor de armários individuais simples e/ou duplos com sistema de trancamento. Armários"
+        },
+        {
+          "item": "2.1",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "Sempre que o trabalho externo, móvel ou temporário, ocorrer preponderantemente em logradouro público, em frente de trabalho, deverá ser garantido pelo empregador: - a) instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas, garantida a higienização diária dos módulos; a) instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas e sabonete em barra, garantida a higienização diária dos módulos; Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_ b) local para refeição protegido contra intempéries e em condições de higiene, que atenda a todos os trabalhadores ou prover meio de custeio para alimentação em estabelecimentos comerciais; e - c) água fresca e potável acondicionada em recipientes térmicos em bom estado de conservação e em quantidade suficiente. **3.** O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador. **4.** Aos trabalhadores, em trabalho externo que levem suas próprias refeições, devem ser oferecidos dispositivos térmicos para conservação e aquecimento dos alimentos. **5.** Em trabalhos externos o atendimento a este Anexo poderá ocorrer mediante convênio com estabelecimentos nas proximidades do local do trabalho, garantido o transporte de todos os trabalhadores até o referido local. # **ANEXO III da NR-24** # **CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRANSPORTE PÚBLICO RODOVIÁRIO COLETIVO URBANO DE PASSAGEIROS EM ATIVIDADE EXTERNA** **1.** Para efeito deste Anexo, considera-se trabalho em transporte público coletivo rodoviário urbano de passageiros aquele desempenhado pelo pessoal de operação do transporte coletivo urbano e de caráter urbano por ônibus: os motoristas, cobradores e fiscais de campo - assim identificados como trabalhadores. **2.** Este Anexo estabelece as condições mínimas aplicáveis às instalações sanitárias e locais para refeição a serem disponibilizados pelo empregador ao pessoal que realiza trabalho externo na operação do transporte público coletivo urbano e de caráter urbano. **3.** Para efeito deste Anexo, são considerados pontos iniciais e finais de linhas de ônibus urbano e de caráter urbano os locais pré-determinados pelo poder público competente como pontos extremos das linhas, itinerários ou rotas de ônibus, situados em logradouros públicos, com área destinada ao estacionamento de veículos e instalações mínimas para controle operacional do serviço e acomodação do pessoal de operação nos intervalos entre viagens.",
+          "depois": "Sempre que o trabalho externo, móvel ou temporário, ocorrer preponderantemente em logradouro público, em frente de trabalho, deverá ser garantido pelo empregador: - a) instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas, garantida a higienização diária dos módulos; a) instalações sanitárias compostas de bacia sanitária e lavatório para cada grupo de 20 (vinte) trabalhadores ou fração, podendo ser usados banheiros químicos dotados de mecanismo de descarga ou de isolamento dos dejetos, com respiro e ventilação, material para lavagem e enxugo das mãos, sendo proibido o uso de toalhas coletivas e sabonete em barra, garantida a higienização diária dos módulos; Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_ - b) local para refeição protegido contra intempéries e em condições de higiene, que atenda a todos os trabalhadores ou prover meio de custeio para alimentação em estabelecimentos comerciais; e - c) água fresca e potável acondicionada em recipientes térmicos em bom estado de conservação e em quantidade suficiente. **3.** O uso de instalações sanitárias em trabalhos externos deve ser gratuito para o trabalhador. **4.** Aos trabalhadores, em trabalho externo que levem suas próprias refeições, devem ser oferecidos dispositivos térmicos para conservação e aquecimento dos alimentos. **5.** Em trabalhos externos o atendimento a este Anexo poderá ocorrer mediante convênio com estabelecimentos nas proximidades do local do trabalho, garantido o transporte de todos os trabalhadores até o referido local. # **ANEXO III da NR-24** # **CONDIÇÕES SANITÁRIAS E DE CONFORTO APLICÁVEIS A TRABALHADORES EM TRANSPORTE PÚBLICO RODOVIÁRIO COLETIVO URBANO DE PASSAGEIROS EM ATIVIDADE EXTERNA** **1.** Para efeito deste Anexo, considera-se trabalho em transporte público coletivo rodoviário urbano de passageiros aquele desempenhado pelo pessoal de operação do transporte coletivo urbano e de caráter urbano por ônibus: os motoristas, cobradores e fiscais de campo - assim identificados como trabalhadores. **2.** Este Anexo estabelece as condições mínimas aplicáveis às instalações sanitárias e locais para refeição a serem disponibilizados pelo empregador ao pessoal que realiza trabalho externo na operação do transporte público coletivo urbano e de caráter urbano. **3.** Para efeito deste Anexo, são considerados pontos iniciais e finais de linhas de ônibus urbano e de caráter urbano os locais pré-determinados pelo poder público competente como pontos extremos das linhas, itinerários ou rotas de ônibus, situados em logradouros públicos, com área destinada ao estacionamento de veículos e instalações mínimas para controle operacional do serviço e acomodação do pessoal de operação nos intervalos entre viagens."
+        },
+        {
+          "item": "4.6",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "O uso de instalações sanitárias em trabalhos externos de transporte público coletivo urbano rodoviário não deve ter custo para o trabalhador. # **ANEXO IV da NR-24** # **MÓDULOS PRÉ-FABRICADOS E CONTÊINERES MARÍTIMOS TRANSFORMADOS PARA OCUPAÇÃO HUMANA** _(Portaria MTE nº 1.591, de 08 de setembro de 2026)_ _(Entra em vigor no dia 14 de setembro de 2029, exceto o capítulo 4.3, itens e subitens 4.5.2, 5.1.1, 5.1.2, 5.1.2.1, 5.4, 5.5 e 5.6 que possuem prazo específico)_ # 1. Objetivo 1.1 Este anexo tem como objetivo estabelecer requisitos mínimos de segurança, higiene e conforto para a utilização de módulos pré-fabricados e contêineres marítimos transformados para ocupação humana. # 2. Campo de aplicação 2.1 Este anexo se aplica aos projetos, à fabricação e a todas as atividades e operações de trabalho que utilizam módulos pré-fabricados ou contêineres marítimos transformados para ocupação humana. 2.1.1 Ocupação humana, para fins deste anexo, é a presença de trabalhadores em módulos préfabricados e contêineres marítimos transformados para execução de atividades laborais regulares ou quaisquer outras atividades que demandem a disponibilização de condições sanitárias e de conforto nos locais de trabalho. 2.2 O presente anexo se aplica a módulos pré-fabricados e a contêineres marítimos transformados. 3. Definições e responsabilidades 3.1 Para os fins deste anexo, considera-se módulo pré-fabricado a estrutura modular transportável, projetada e fabricada utilizando materiais resistentes como aço, alumínio, fibra, madeira ou outros materiais com características equivalentes. 3.2 Para os fins deste anexo, considera-se contêiner marítimo transformado a estrutura originalmente projetada para transporte multimodal de carga, fabricada com materiais resistentes, e posteriormente transformada para outras finalidades, incluindo áreas de vivência ou para ocupação humana. 3.2.1 A utilização de contêineres marítimos transformados só pode ocorrer quando forem promovidas adaptações para atender aos requisitos funcionais e de segurança, higiene e conforto previstos no presente anexo. 3.2.2 Para contêineres marítimos transformados, devem ser mantidos no local de sua instalação, em meio físico ou eletrônico, à disposição dos trabalhadores, dos sindicatos das categorias profissionais e da inspeção do trabalho: a) projeto elaborado por profissional legalmente habilitado, detalhando o dimensionamento e os materiais empregados na transformação da unidade; b) certificado de higienização da unidade, realizada por empresa de adaptação de contêineres marítimos ou empresa de limpeza especializada; c) laudo técnico conclusivo das condições ambientais relativo à ausência de riscos químicos, biológicos e físicos, inclusive para radiação, elaborado por profissional legalmente habilitado; e d) identificação da locadora, da empresa ou do profissional legalmente habilitado responsável pela execução da transformação da unidade. 4. Requisitos de segurança, higiene e conforto 4.1 Base de Instalação 4.1.1 A base sobre a qual os módulos pré-fabricados e os contêineres marítimos transformados serão instalados deve ser capaz de suportar seu próprio peso e a carga agregada decorrente de sua utilização e garantir sua estabilidade. 4.1.2 O local de instalação dos módulos pré-fabricados e dos contêineres marítimos transformados deve considerar os riscos de acidentes que possam afetar a segurança e a saúde no trabalho. # 4.2 Riscos Elétricos 4.2.1 As instalações elétricas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser executadas e mantidas conforme projeto elétrico elaborado por profissional legalmente habilitado em consonância com a NR-10. 4.2.2 O sistema de aterramento dos módulos pré-fabricados e dos contêineres marítimos transformados deve ser executado conforme previsto na NR-10. 4.2.3 Os quadros de distribuição das instalações elétricas em módulos pré-fabricados e nos contêineres marítimos transformados devem: a) ser dimensionados com capacidade para instalar os componentes dos circuitos elétricos que o constituem; b) ser constituídos de materiais resistentes ao calor gerado pelos componentes das instalações; c) ter as partes vivas inacessíveis e protegidas aos trabalhadores não autorizados; d) estar sinalizados quanto ao risco elétrico; e) ter seus circuitos identificados; e f) ter dispositivo diferencial residual (DR), como medida de segurança adicional nas instalações elétricas, nas situações previstas na NR-10. 4.3 Conforto Térmico _(Prazo para implementação: 14 de setembro de 2029)_ 4.3.1 Os módulos pré-fabricados e os contêineres marítimos transformados, utilizados para alojamentos, refeitório ou em locais nos quais os trabalhadores regularmente desenvolvem suas atividades, devem ser climatizados de maneira a garantir as condições de conforto térmico, nos termos da NR-17. 4.3.1.1 Nos módulos pré-fabricados e nos contêineres marítimos transformados com climatização artificial devem ser adotados controles periódicos que garantam a qualidade do ar, conforme legislação vigente. 4.3.1.2 As aberturas de captação de ar exterior permanentes devem ser protegidas contra o ingresso de animais sinantrópicos e ter afastamento de fontes poluentes. 4.3.2 Os demais módulos pré-fabricados e os contêineres marítimos transformados destinados à ocupação humana, que não se enquadrem na exigência do item 4.3.1, devem ser ventilados para o exterior ou com sistema de exaustão forçada, salvo em ambientes climatizados. 4.3.2.1 As aberturas de ventilação natural devem estar posicionadas para permitir a circulação do ar por toda a estrutura do contêiner. 4.3.2.2 A depender das características climáticas da região e dos métodos de ventilação adotados, os módulos pré-fabricados e os contêineres marítimos transformados devem possuir isolamento térmico em material resistente ao fogo ou com tratamento de ignifugação e atóxico em suas paredes e cobertura. 4.4 Escoamento de água 4.4.1 Os módulos pré-fabricados e os contêineres marítimos transformados que possuam área molhada devem adotar métodos que possibilitem o escoamento eficaz da água, sem pontos de acúmulo de água servida. 4.4.2 As águas servidas e o esgoto dos módulos pré-fabricados e dos contêineres marítimos transformados devem estar ligados à rede geral ou a outro sistema que não gere risco à saúde, de acordo com a regulamentação local. # 4.5 Métodos de Acesso 4.5.1 As entradas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ter fácil acesso e ser mantidas desobstruídas. 4.5.1.1 A organização deve considerar a necessidade de instalação de degraus e/ou rampas sempre que as características do local de instalação o exigirem, observado o código de obras local ou de posturas municipais, bem como o estabelecido nas Normas Regulamentadoras aplicáveis. 4.5.2 Estruturas de módulos pré-fabricados e de contêineres marítimos transformados com 2 (dois) ou mais pavimentos devem possuir métodos de acesso com corrimão, guarda-corpo e cobertura, de acordo com as normas técnicas vigentes. _(Prazo para implementação: 14 de setembro de 2029)_ 4.5.3 Os projetos dos módulos pré-fabricados e dos contêineres marítimos transformados devem contemplar saída de emergência quando forem destinados à utilização como alojamento. 4.5.3.1 Para destinações diversas das previstas no item 4.5.3, a organização deve avaliar se há necessidade de saídas de emergência, de acordo com a utilização para a qual se destinam e o local de sua instalação. 4.5.3.2 As saídas de emergência devem estar sinalizadas interna e externamente. 4.5.3.3 As janelas dos contêineres podem ser utilizadas como saídas de emergência, desde que não sejam gradeadas e tenham sido projetadas para tal. 4.5.3.4 As saídas de emergência devem ser mantidas desobstruídas, interna e externamente. # 5. Demais Disposições 5.1 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana devem atender à NR-24 naquilo que não conflitar com o presente anexo. 5.1.1 Nos contêineres marítimos transformados, os boxes destinados a chuveiros devem ter área mínima de 0,60 m², sendo uma das medidas não inferior a 0,75 m. _(Prazo para implementação: 14 de setembro de 2029)_ 5.1.2 Nos contêineres marítimos transformados, os boxes destinados às instalações sanitárias devem ter área mínima de 0,70 m², sendo uma das medidas não inferior a 0,70 m. _(Prazo para implementação: 14 de setembro de 2029 )_ 5.1.2.1 No caso de porta com abertura para o exterior, o vão entre a borda frontal da bacia sanitária e a porta fechada deve ser de no mínimo 0,40 m. _(Prazo para implementação: 14 de setembro de 2029)_ 5.2 Nos módulos pré-fabricados ou nos contêineres marítimos transformados, pode ser utilizado beliche. 5.2.1 Nos contêineres marítimos transformados, a utilização de beliches é limitada a duas unidades em contêineres de 6 m (20 pés) e a quatro unidades em contêineres de 12 m (40 pés), devendo atender aos seguintes requisitos: a) distância mínima de 0,85 m entre o topo do colchão inferior e o estrado da cama superior; b) distância mínima de 0,85 m entre o topo do colchão superior e o teto; e c) distância mínima de 0,35 m entre o piso e o topo do colchão da cama inferior. 5.2.2 A utilização de beliches em módulos pré-fabricados deve seguir os requisitos previstos na NR-24. 5.3 Os módulos pré-fabricados e contêineres marítimos transformados não podem possuir cantos vivos, arestas ou partes cortantes que exponham o usuário a risco de acidente. 5.4 Os contêineres marítimos transformados devem possuir o piso original revestido ou substituído por material lavável, de forma a manter as condições de conservação, higiene e limpeza, previstas na NR- > 24. _(Prazo para implementação: 14 de setembro de 2029)_ 5.5 Os contêineres marítimos transformados devem ser conservados com pintura que evite a oxidação (ferrugem) e o desgaste da ferragem e de seus componentes. _(Prazo para implementação: 14 de setembro de 2029)_ 5.6 No acabamento e pintura dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser utilizadas tintas, materiais ou tratamentos que possuam propriedades ignifugantes. _(Prazo para implementação: 14 de setembro de 2029)_ 5.7 O empilhamento de módulos pré-fabricados e de contêineres marítimos transformados para ocupação humana só pode ocorrer mediante projeto elaborado por profissional legalmente habilitado que garanta sua estabilidade. 5.7.1 O projeto deve contemplar os meios de acesso, observando-se o previsto no item 4.5.2 do presente anexo. 5.8 É proibida a utilização de luminárias e lâmpadas de vidro em módulos pré-fabricados e nos contêineres marítimos transformados. 5.9 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana destinados à locação ou à comercialização para uso no território nacional devem atender aos requisitos de segurança, higiene e conforto previstos neste anexo.",
+          "depois": "O uso de instalações sanitárias em trabalhos externos de transporte público coletivo urbano rodoviário não deve ter custo para o trabalhador. # **ANEXO IV da NR-24** # **MÓDULOS PRÉ-FABRICADOS E CONTÊINERES MARÍTIMOS TRANSFORMADOS PARA OCUPAÇÃO HUMANA** _(Portaria MTE nº 1.591, de 08 de setembro de 2026)_ _Este Anexo entra em vigor no dia 12 de novembro de 2026 ,_ **_exceto_** _para os_ **_Módulos_** _e Pré-Fabricados e_ **_Contêineres_** _Marítimos Transformados para Ocupação Humana,_ **_EM UTILIZAÇÃO_** _, antes da publicação deste Anexo,_ **_que seguem o cronograma_** _previsto no Art. 2º da Portaria MTE nº 1.591, de 08 de setembro de 2026_ . # 1. Objetivo - 1.1 Este anexo tem como objetivo estabelecer requisitos mínimos de segurança, higiene e conforto | Este Anexo entra em vigor no dia 12 de novembro de 202 | 6 | | --- | --- | para a utilização de módulos pré-fabricados e contêineres marítimos transformados para ocupação humana. # 2. Campo de aplicação 2.1 Este anexo se aplica aos projetos, à fabricação e a todas as atividades e operações de trabalho que utilizam módulos pré-fabricados ou contêineres marítimos transformados para ocupação humana. 2.1.1 Ocupação humana, para fins deste anexo, é a presença de trabalhadores em módulos préfabricados e contêineres marítimos transformados para execução de atividades laborais regulares ou quaisquer outras atividades que demandem a disponibilização de condições sanitárias e de conforto nos locais de trabalho. 2.2 O presente anexo se aplica a módulos pré-fabricados e a contêineres marítimos transformados. 3. Definições e responsabilidades 3.1 Para os fins deste anexo, considera-se módulo pré-fabricado a estrutura modular transportável, projetada e fabricada utilizando materiais resistentes como aço, alumínio, fibra, madeira ou outros materiais com características equivalentes. 3.2 Para os fins deste anexo, considera-se contêiner marítimo transformado a estrutura originalmente projetada para transporte multimodal de carga, fabricada com materiais resistentes, e posteriormente transformada para outras finalidades, incluindo áreas de vivência ou para ocupação humana. 3.2.1 A utilização de contêineres marítimos transformados só pode ocorrer quando forem promovidas adaptações para atender aos requisitos funcionais e de segurança, higiene e conforto previstos no presente anexo. 3.2.2 Para contêineres marítimos transformados, devem ser mantidos no local de sua instalação, em meio físico ou eletrônico, à disposição dos trabalhadores, dos sindicatos das categorias profissionais e da inspeção do trabalho: a) projeto elaborado por profissional legalmente habilitado, detalhando o dimensionamento e os materiais empregados na transformação da unidade; b) certificado de higienização da unidade, realizada por empresa de adaptação de contêineres marítimos ou empresa de limpeza especializada; c) laudo técnico conclusivo das condições ambientais relativo à ausência de riscos químicos, biológicos e físicos, inclusive para radiação, elaborado por profissional legalmente habilitado; e d) identificação da locadora, da empresa ou do profissional legalmente habilitado responsável pela execução da transformação da unidade. 4. Requisitos de segurança, higiene e conforto 4.1 Base de Instalação 4.1.1 A base sobre a qual os módulos pré-fabricados e os contêineres marítimos transformados serão instalados deve ser capaz de suportar seu próprio peso e a carga agregada decorrente de sua utilização e garantir sua estabilidade. 4.1.2 O local de instalação dos módulos pré-fabricados e dos contêineres marítimos transformados deve considerar os riscos de acidentes que possam afetar a segurança e a saúde no trabalho. # 4.2 Riscos Elétricos 4.2.1 As instalações elétricas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser executadas e mantidas conforme projeto elétrico elaborado por profissional legalmente habilitado em consonância com a NR-10. 4.2.2 O sistema de aterramento dos módulos pré-fabricados e dos contêineres marítimos transformados deve ser executado conforme previsto na NR-10. 4.2.3 Os quadros de distribuição das instalações elétricas em módulos pré-fabricados e nos contêineres marítimos transformados devem: a) ser dimensionados com capacidade para instalar os componentes dos circuitos elétricos que o constituem; b) ser constituídos de materiais resistentes ao calor gerado pelos componentes das instalações; c) ter as partes vivas inacessíveis e protegidas aos trabalhadores não autorizados; d) estar sinalizados quanto ao risco elétrico; e) ter seus circuitos identificados; e f) ter dispositivo diferencial residual (DR), como medida de segurança adicional nas instalações elétricas, nas situações previstas na NR-10. # 4.3 Conforto Térmico 4.3.1 Os módulos pré-fabricados e os contêineres marítimos transformados, utilizados para alojamentos, refeitório ou em locais nos quais os trabalhadores regularmente desenvolvem suas atividades, devem ser climatizados de maneira a garantir as condições de conforto térmico, nos termos da NR-17. 4.3.1.1 Nos módulos pré-fabricados e nos contêineres marítimos transformados com climatização artificial devem ser adotados controles periódicos que garantam a qualidade do ar, conforme legislação vigente. 4.3.1.2 As aberturas de captação de ar exterior permanentes devem ser protegidas contra o ingresso de animais sinantrópicos e ter afastamento de fontes poluentes. 4.3.2 Os demais módulos pré-fabricados e os contêineres marítimos transformados destinados à ocupação humana, que não se enquadrem na exigência do item 4.3.1, devem ser ventilados para o exterior ou com sistema de exaustão forçada, salvo em ambientes climatizados. 4.3.2.1 As aberturas de ventilação natural devem estar posicionadas para permitir a circulação do ar por toda a estrutura do contêiner. 4.3.2.2 A depender das características climáticas da região e dos métodos de ventilação adotados, os módulos pré-fabricados e os contêineres marítimos transformados devem possuir isolamento térmico em material resistente ao fogo ou com tratamento de ignifugação e atóxico em suas paredes e cobertura. 4.4 Escoamento de água 4.4.1 Os módulos pré-fabricados e os contêineres marítimos transformados que possuam área molhada devem adotar métodos que possibilitem o escoamento eficaz da água, sem pontos de acúmulo de água servida. 4.4.2 As águas servidas e o esgoto dos módulos pré-fabricados e dos contêineres marítimos transformados devem estar ligados à rede geral ou a outro sistema que não gere risco à saúde, de acordo com a regulamentação local. 4.5 Métodos de Acesso 4.5.1 As entradas dos módulos pré-fabricados e dos contêineres marítimos transformados devem ter fácil acesso e ser mantidas desobstruídas. 4.5.1.1 A organização deve considerar a necessidade de instalação de degraus e/ou rampas sempre que as características do local de instalação o exigirem, observado o código de obras local ou de posturas municipais, bem como o estabelecido nas Normas Regulamentadoras aplicáveis. 4.5.2 Estruturas de módulos pré-fabricados e de contêineres marítimos transformados com 2 (dois) ou mais pavimentos devem possuir métodos de acesso com corrimão, guarda-corpo e cobertura, de acordo com as normas técnicas vigentes. 4.5.3 Os projetos dos módulos pré-fabricados e dos contêineres marítimos transformados devem contemplar saída de emergência quando forem destinados à utilização como alojamento. 4.5.3.1 Para destinações diversas das previstas no item 4.5.3, a organização deve avaliar se há necessidade de saídas de emergência, de acordo com a utilização para a qual se destinam e o local de sua instalação. 4.5.3.2 As saídas de emergência devem estar sinalizadas interna e externamente. 4.5.3.3 As janelas dos contêineres podem ser utilizadas como saídas de emergência, desde que não sejam gradeadas e tenham sido projetadas para tal. 4.5.3.4 As saídas de emergência devem ser mantidas desobstruídas, interna e externamente. # 5. Demais Disposições 5.1 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana devem atender à NR-24 naquilo que não conflitar com o presente anexo. 5.1.1 Nos contêineres marítimos transformados, os boxes destinados a chuveiros devem ter área mínima de 0,60 m², sendo uma das medidas não inferior a 0,75 m. 5.1.2 Nos contêineres marítimos transformados, os boxes destinados às instalações sanitárias devem ter área mínima de 0,70 m², sendo uma das medidas não inferior a 0,70 m. 5.1.2.1 No caso de porta com abertura para o exterior, o vão entre a borda frontal da bacia sanitária e a porta fechada deve ser de no mínimo 0,40 m. 5.2 Nos módulos pré-fabricados ou nos contêineres marítimos transformados, pode ser utilizado beliche. 5.2.1 Nos contêineres marítimos transformados, a utilização de beliches é limitada a duas unidades em contêineres de 6 m (20 pés) e a quatro unidades em contêineres de 12 m (40 pés), devendo atender aos seguintes requisitos: a) distância mínima de 0,85 m entre o topo do colchão inferior e o estrado da cama superior; b) distância mínima de 0,85 m entre o topo do colchão superior e o teto; e c) distância mínima de 0,35 m entre o piso e o topo do colchão da cama inferior. 5.2.2 A utilização de beliches em módulos pré-fabricados deve seguir os requisitos previstos na NR-24. 5.3 Os módulos pré-fabricados e contêineres marítimos transformados não podem possuir cantos vivos, arestas ou partes cortantes que exponham o usuário a risco de acidente. 5.4 Os contêineres marítimos transformados devem possuir o piso original revestido ou substituído por material lavável, de forma a manter as condições de conservação, higiene e limpeza, previstas na NR24. 5.5 Os contêineres marítimos transformados devem ser conservados com pintura que evite a oxidação (ferrugem) e o desgaste da ferragem e de seus componentes. 5.6 No acabamento e pintura dos módulos pré-fabricados e dos contêineres marítimos transformados devem ser utilizadas tintas, materiais ou tratamentos que possuam propriedades ignifugantes. 5.7 O empilhamento de módulos pré-fabricados e de contêineres marítimos transformados para ocupação humana só pode ocorrer mediante projeto elaborado por profissional legalmente habilitado que garanta sua estabilidade. 5.7.1 O projeto deve contemplar os meios de acesso, observando-se o previsto no item 4.5.2 do presente anexo. 5.8 É proibida a utilização de luminárias e lâmpadas de vidro em módulos pré-fabricados e nos contêineres marítimos transformados. 5.9 Os módulos pré-fabricados e os contêineres marítimos transformados para ocupação humana destinados à locação ou à comercialização para uso no território nacional devem atender aos requisitos de segurança, higiene e conforto previstos neste anexo."
+        },
+        {
+          "item": "24.2.3",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "As instalações sanitárias devem: a) ser mantidas em condição de conservação, limpeza e higiene; - b) ter piso e parede revestidos por material impermeável e lavável; - c) peças sanitárias íntegras; - d) possuir recipientes para descarte de papéis usados; - e) ser ventiladas para o exterior ou com sistema de exaustão forçada; - f) dispor de água canalizada e esgoto ligados à rede geral ou a outro sistema que não gere risco à saúde e que atenda à regulamentação local; e - g) comunicar-se com os locais de trabalho por meio de passagens com piso e cobertura, quando se situarem fora do corpo do estabelecimento. Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_",
+          "depois": "As instalações sanitárias devem: a) ser mantidas em condição de conservação, limpeza e higiene; b) ter piso e parede revestidos por material impermeável e lavável; - c) peças sanitárias íntegras; - d) possuir recipientes para descarte de papéis usados; - e) ser ventiladas para o exterior ou com sistema de exaustão forçada; - f) dispor de água canalizada e esgoto ligados à rede geral ou a outro sistema que não gere risco à saúde e que atenda à regulamentação local; e - g) comunicar-se com os locais de trabalho por meio de passagens com piso e cobertura, quando se situarem fora do corpo do estabelecimento. Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_"
+        },
+        {
+          "item": "24.3.1",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "Os compartimentos destinados as bacias sanitárias devem: - a) ser individuais; - b) ter divisórias com altura que mantenham seu interior indevassável com vão inferior que facilite a limpeza e a ventilação; - c) ser dotados de portas independentes, providas de fecho que impeçam o devassamento; - d) possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa quando for destinado às mulheres; e - d) possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa; e Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_ - e) possuir dimensões de acordo com o código de obras local ou, na ausência desse, deve haver área livre de pelo menos 0,60m (sessenta centímetros) de diâmetro entre a borda frontal da bacia sanitária e a porta fechada. Mictórios",
+          "depois": "Os compartimentos destinados as bacias sanitárias devem: a) ser individuais; - b) ter divisórias com altura que mantenham seu interior indevassável com vão inferior que facilite a limpeza e a ventilação; - c) ser dotados de portas independentes, providas de fecho que impeçam o devassamento; - d) possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa quando for destinado às mulheres; e - d) possuir papel higiênico com suporte e recipiente para descarte de papéis higiênicos usados, quando não for permitido descarte na própria bacia sanitária, devendo o recipiente possuir tampa; e Entra em vigor no dia 12 de janeiro de 2027 _(Portaria MTE nº 1.590, de 08 de setembro de 2026)_ - e) possuir dimensões de acordo com o código de obras local ou, na ausência desse, deve haver área livre de pelo menos 0,60m (sessenta centímetros) de diâmetro entre a borda frontal da bacia sanitária e a porta fechada. Mictórios"
+        },
+        {
+          "item": "24.4.2.1",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "Em estabelecimentos com mais de 750 (setecentos e cinquenta) trabalhadores, os vestiários devem ser dimensionados com área de, no mínimo, 0,75m² (setenta e cinco decímetros quadrados) por trabalhador.",
+          "depois": "Em estabelecimentos com mais de 750 (setecentos e cinquenta) trabalhadores, os vestiários devem ser dimensionados com área de, no mínimo, 0,75m² (setenta e cinco decímetros quadrados) por trabalhador. # **24.4.3** Os vestiários devem: a) ser mantidos em condição de conservação, limpeza e higiene; b) ter piso e parede revestidos por material impermeável e lavável; c) ser ventilados para o exterior ou com sistema de exaustão forçada; d) ter assentos em material lavável e impermeável em número compatível com o de trabalhadores; e e) dispor de armários individuais simples e/ou duplos com sistema de trancamento. Armários"
+        },
+        {
+          "item": "24.5.3",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "Os locais destinados às refeições para atender mais de 30 (trinta) trabalhadores, conforme subitem 24.5.1.1, devem: a) ser destinados a este fim e fora da área de trabalho; b) ter pisos revestidos de material lavável e impermeável; - c) ter paredes pintadas ou revestidas com material lavável e impermeável; d) possuir espaços para circulação; - e) ser ventilados para o exterior ou com sistema de exaustão forçada, salvo em ambientes climatizados artificialmente; - f) possuir lavatórios instalados nas proximidades ou no próprio local, atendendo aos requisitos do subitem 24.3.4; - g) possuir assentos e mesas com superfícies ou coberturas laváveis ou descartáveis, em número correspondente aos usuários atendidos; - h) ter água potável disponível; - i) possuir condições de conservação, limpeza e higiene; - j) dispor de meios para aquecimento das refeições; e - k) possuir recipientes com tampa para descarte de restos alimentares e descartáveis.",
+          "depois": "Os locais destinados às refeições para atender mais de 30 (trinta) trabalhadores, conforme subitem 24.5.1.1, devem: a) ser destinados a este fim e fora da área de trabalho; - b) ter pisos revestidos de material lavável e impermeável; - c) ter paredes pintadas ou revestidas com material lavável e impermeável; d) possuir espaços para circulação; - e) ser ventilados para o exterior ou com sistema de exaustão forçada, salvo em ambientes climatizados artificialmente; - f) possuir lavatórios instalados nas proximidades ou no próprio local, atendendo aos requisitos do subitem 24.3.4; - g) possuir assentos e mesas com superfícies ou coberturas laváveis ou descartáveis, em número correspondente aos usuários atendidos; - h) ter água potável disponível; - i) possuir condições de conservação, limpeza e higiene; - j) dispor de meios para aquecimento das refeições; e - k) possuir recipientes com tampa para descarte de restos alimentares e descartáveis."
+        },
+        {
+          "item": "24.7.2",
+          "tipo": "alterado",
+          "resumo": "",
+          "antes": "Os dormitórios dos alojamentos devem: a) ser mantidos em condições de conservação, higiene e limpeza; b) ser dotados de quartos; - c) dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e d) ser separados por sexo.",
+          "depois": "Os dormitórios dos alojamentos devem: - a) ser mantidos em condições de conservação, higiene e limpeza; - b) ser dotados de quartos; - c) dispor de instalações sanitárias, respeitada a proporção de 01 (uma) instalação sanitária com chuveiro para cada 10 (dez) trabalhadores hospedados ou fração; e d) ser separados por sexo."
+        }
+      ],
+      "content_ref": "e11a166683a467f2c0153c4ff41f1c7221549651",
+      "created_at": "2026-11-05T17:18:41.722829+00:00"
     }
   ]
 }
